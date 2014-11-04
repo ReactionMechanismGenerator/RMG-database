@@ -19,9 +19,5 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""CanTherm calculations using F12-QZ energies for reactants and TS. b3lyp/cbsb7 rotor potentials for HOOQ=O were used.""",
-    longDesc = 
-u"""
-
-""",
 )
 

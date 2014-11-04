@@ -14,7 +14,7 @@ entry(
     index = 416,
     label = "COm;Y_rad",
     kinetics = ArrheniusEP(
-        A = (100000000000.0, 'cm^3/(mol*s)'),
+        A = (1e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (5, 'kcal/mol'),
@@ -22,18 +22,13 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 0,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 417,
     label = "COm;H_rad",
     kinetics = ArrheniusEP(
-        A = (118000000000.0, 'cm^3/(mol*s)'),
+        A = (1.18e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (2.72, 'kcal/mol'),
@@ -101,7 +96,7 @@ entry(
     index = 418,
     label = "COm;H_rad",
     kinetics = ArrheniusEP(
-        A = (187000000000.0, 'cm^3/(mol*s)'),
+        A = (1.87e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (1.53, 'kcal/mol'),
@@ -139,7 +134,7 @@ entry(
     index = 419,
     label = "COm;C_methyl",
     kinetics = ArrheniusEP(
-        A = (506000000000.0, 'cm^3/(mol*s)', '*|/', 3.16),
+        A = (5.06e+11, 'cm^3/(mol*s)', '*|/', 3.16),
         n = 0,
         alpha = 0,
         E0 = (6.88, 'kcal/mol'),
@@ -175,7 +170,7 @@ entry(
     index = 420,
     label = "COm;C_rad/H2/Cs",
     kinetics = ArrheniusEP(
-        A = (151000000000.0, 'cm^3/(mol*s)', '*|/', 2),
+        A = (1.51e+11, 'cm^3/(mol*s)', '*|/', 2),
         n = 0,
         alpha = 0,
         E0 = (4.81, 'kcal/mol'),
@@ -209,7 +204,7 @@ entry(
     index = 421,
     label = "COm;Cd_pri_rad",
     kinetics = ArrheniusEP(
-        A = (151000000000.0, 'cm^3/(mol*s)', '*|/', 5),
+        A = (1.51e+11, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
         alpha = 0,
         E0 = (4.81, 'kcal/mol'),
@@ -245,7 +240,7 @@ entry(
     index = 422,
     label = "COm;Cb_rad",
     kinetics = ArrheniusEP(
-        A = (1480000000000.0, 'cm^3/(mol*s)', '*|/', 1.5),
+        A = (1.48e+12, 'cm^3/(mol*s)', '*|/', 1.5),
         n = 0,
         alpha = 0,
         E0 = (3.33, 'kcal/mol', '+|-', 0.3),
@@ -327,7 +322,7 @@ entry(
     index = 423,
     label = "COm;O_rad/NonDe",
     kinetics = ArrheniusEP(
-        A = (34100000.0, 'cm^3/(mol*s)'),
+        A = (3.41e+07, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (3, 'kcal/mol'),
@@ -358,7 +353,7 @@ entry(
     index = 424,
     label = "COm;C_methyl",
     kinetics = ArrheniusEP(
-        A = (3060000.0, 'cm^3/(mol*s)', '*|/', 3),
+        A = (3.06e+06, 'cm^3/(mol*s)', '*|/', 3),
         n = 1.89,
         alpha = 0,
         E0 = (4.82, 'kcal/mol', '+|-', 2),
@@ -383,7 +378,7 @@ entry(
     index = 425,
     label = "COm;CH2CH3",
     kinetics = ArrheniusEP(
-        A = (77000000.0, 'cm^3/(mol*s)', '*|/', 3),
+        A = (7.7e+07, 'cm^3/(mol*s)', '*|/', 3),
         n = 1.37,
         alpha = 0,
         E0 = (5.69, 'kcal/mol', '+|-', 2),
@@ -408,7 +403,7 @@ entry(
     index = 426,
     label = "COm;CH2CH2CH3",
     kinetics = ArrheniusEP(
-        A = (65100000000.0, 'cm^3/(mol*s)', '*|/', 3),
+        A = (6.51e+10, 'cm^3/(mol*s)', '*|/', 3),
         n = 0.45,
         alpha = 0,
         E0 = (6.68, 'kcal/mol', '+|-', 2),
@@ -433,7 +428,7 @@ entry(
     index = 427,
     label = "COm;CH[CH3]2",
     kinetics = ArrheniusEP(
-        A = (86100000.0, 'cm^3/(mol*s)', '*|/', 3),
+        A = (8.61e+07, 'cm^3/(mol*s)', '*|/', 3),
         n = 1.36,
         alpha = 0,
         E0 = (4.8, 'kcal/mol', '+|-', 2),

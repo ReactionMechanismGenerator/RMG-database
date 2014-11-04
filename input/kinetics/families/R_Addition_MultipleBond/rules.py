@@ -19,10 +19,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38,10 +34,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -57,10 +49,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -76,10 +64,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -95,10 +79,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -114,10 +94,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -133,10 +109,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -152,10 +124,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -171,10 +139,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -190,10 +154,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -209,10 +169,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -228,10 +184,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -247,10 +199,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -266,10 +214,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -285,10 +229,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -304,10 +244,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -323,10 +259,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -342,10 +274,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -361,10 +289,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -380,10 +304,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -399,10 +319,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -418,10 +334,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -437,10 +349,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -456,10 +364,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -475,10 +379,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -494,10 +394,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -513,10 +409,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -532,10 +424,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -551,10 +439,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -570,10 +454,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -589,10 +469,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -608,10 +484,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -627,10 +499,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -646,10 +514,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -665,10 +529,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -684,10 +544,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -703,10 +559,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -722,10 +574,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -741,10 +589,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -760,10 +604,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -779,10 +619,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -798,10 +634,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -817,10 +649,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -836,10 +664,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -855,10 +679,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -874,10 +694,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -893,10 +709,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -912,10 +724,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -931,10 +739,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -950,10 +754,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -969,10 +769,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -988,10 +784,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1007,10 +799,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1026,10 +814,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1045,10 +829,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1064,10 +844,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1083,10 +859,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1102,10 +874,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1121,10 +889,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1140,10 +904,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1159,10 +919,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1178,10 +934,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1197,10 +949,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1216,10 +964,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1235,10 +979,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1254,10 +994,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1273,10 +1009,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1292,10 +1024,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1311,10 +1039,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1330,10 +1054,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1349,10 +1069,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1368,10 +1084,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1387,10 +1099,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1406,10 +1114,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1425,10 +1129,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1444,10 +1144,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1463,10 +1159,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1482,10 +1174,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1501,10 +1189,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1520,10 +1204,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1539,10 +1219,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1558,10 +1234,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1577,10 +1249,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1596,10 +1264,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1615,10 +1279,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1634,10 +1294,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1653,10 +1309,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1672,10 +1324,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1691,10 +1339,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1710,10 +1354,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1729,10 +1369,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1748,10 +1384,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1767,10 +1399,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1786,10 +1414,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1805,10 +1429,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1824,10 +1444,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1843,10 +1459,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1862,10 +1474,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1881,10 +1489,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1900,10 +1504,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1919,10 +1519,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1938,10 +1534,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1957,10 +1549,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1976,10 +1564,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1995,10 +1579,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2014,10 +1594,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2033,10 +1609,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2052,10 +1624,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2071,10 +1639,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2090,10 +1654,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2109,10 +1669,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2128,10 +1684,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2147,10 +1699,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2166,10 +1714,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2185,10 +1729,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2204,10 +1744,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2223,10 +1759,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2242,10 +1774,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2261,10 +1789,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2280,10 +1804,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2299,10 +1819,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2318,10 +1834,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2337,10 +1849,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2356,10 +1864,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2375,10 +1879,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2394,10 +1894,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2413,10 +1909,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2432,10 +1924,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2451,10 +1939,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2470,10 +1954,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2489,10 +1969,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2508,10 +1984,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2527,10 +1999,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2546,10 +2014,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2565,10 +2029,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2584,10 +2044,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2603,10 +2059,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2622,10 +2074,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2641,10 +2089,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2660,10 +2104,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2679,10 +2119,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2698,10 +2134,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2717,10 +2149,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2736,10 +2164,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2755,10 +2179,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2774,10 +2194,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2793,10 +2209,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2812,10 +2224,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2831,10 +2239,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2850,10 +2254,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2869,10 +2269,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2888,10 +2284,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2907,10 +2299,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2926,10 +2314,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2945,10 +2329,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2964,10 +2344,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2983,10 +2359,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3002,10 +2374,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3021,10 +2389,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3040,10 +2404,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3059,10 +2419,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3078,10 +2434,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3097,10 +2449,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3116,10 +2464,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3135,10 +2479,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3154,10 +2494,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3173,10 +2509,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3192,10 +2524,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3211,10 +2539,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3230,10 +2554,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3249,10 +2569,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3268,10 +2584,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3287,10 +2599,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3306,10 +2614,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3325,10 +2629,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3344,10 +2644,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3363,10 +2659,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3382,10 +2674,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3401,10 +2689,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3420,10 +2704,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3439,10 +2719,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3458,10 +2734,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3477,10 +2749,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3496,10 +2764,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3515,10 +2779,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3534,10 +2794,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3553,10 +2809,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3572,10 +2824,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3591,10 +2839,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3610,10 +2854,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3629,10 +2869,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3648,10 +2884,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3667,10 +2899,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3686,10 +2914,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3705,10 +2929,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3724,10 +2944,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3743,10 +2959,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3762,10 +2974,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3781,10 +2989,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3800,10 +3004,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3819,10 +3019,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3838,10 +3034,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3857,10 +3049,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3876,10 +3064,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3895,10 +3079,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3914,10 +3094,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3933,10 +3109,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3952,10 +3124,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3971,10 +3139,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3990,10 +3154,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4009,10 +3169,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4028,10 +3184,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4047,10 +3199,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4066,10 +3214,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4085,10 +3229,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4104,10 +3244,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4123,10 +3259,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4142,10 +3274,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4161,10 +3289,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4180,10 +3304,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4199,10 +3319,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4218,10 +3334,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4237,10 +3349,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4256,10 +3364,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4275,10 +3379,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4294,10 +3394,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4313,10 +3409,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4332,10 +3424,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4351,10 +3439,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4370,10 +3454,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4389,10 +3469,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4408,10 +3484,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4427,10 +3499,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4446,10 +3514,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4465,10 +3529,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4484,10 +3544,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4503,10 +3559,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4522,10 +3574,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4541,10 +3589,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4560,10 +3604,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4579,10 +3619,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4598,10 +3634,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4617,10 +3649,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4636,10 +3664,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4655,10 +3679,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4674,10 +3694,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4693,10 +3709,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4712,10 +3724,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4731,10 +3739,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4750,10 +3754,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4769,10 +3769,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4788,10 +3784,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4807,10 +3799,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4826,10 +3814,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4845,10 +3829,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4864,10 +3844,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4883,10 +3859,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4902,10 +3874,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4921,10 +3889,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4940,10 +3904,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4959,10 +3919,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4978,10 +3934,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4997,10 +3949,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -5016,10 +3964,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -5035,10 +3979,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -5054,10 +3994,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -5073,10 +4009,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -5092,10 +4024,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -5111,10 +4039,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -5130,10 +4054,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -5149,10 +4069,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -5168,10 +4084,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -5187,10 +4099,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -5206,10 +4114,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -5225,10 +4129,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -5244,10 +4144,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -5263,10 +4159,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -5282,10 +4174,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -5301,10 +4189,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -5320,10 +4204,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -6031,10 +4911,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8051,10 +6927,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8070,10 +6942,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8089,10 +6957,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8108,10 +6972,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8127,10 +6987,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8146,10 +7002,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8165,10 +7017,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8184,10 +7032,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8203,10 +7047,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8222,10 +7062,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8241,10 +7077,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8260,10 +7092,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8279,10 +7107,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8298,10 +7122,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8317,10 +7137,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8336,10 +7152,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8355,10 +7167,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8374,10 +7182,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8393,10 +7197,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8412,10 +7212,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8431,10 +7227,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8450,10 +7242,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8469,10 +7257,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8488,10 +7272,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8507,10 +7287,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8526,10 +7302,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8545,10 +7317,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8564,10 +7332,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8583,10 +7347,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8602,10 +7362,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8621,10 +7377,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8640,10 +7392,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8659,10 +7407,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8678,10 +7422,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8697,10 +7437,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8716,10 +7452,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8735,10 +7467,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8754,10 +7482,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8773,10 +7497,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8792,10 +7512,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8811,10 +7527,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8830,10 +7542,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8849,10 +7557,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8868,10 +7572,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8887,10 +7587,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8906,10 +7602,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8925,10 +7617,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8944,10 +7632,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8963,10 +7647,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -8982,10 +7662,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9001,10 +7677,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9020,10 +7692,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9039,10 +7707,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9058,10 +7722,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9077,10 +7737,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9096,10 +7752,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9115,10 +7767,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9134,10 +7782,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9153,10 +7797,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9172,10 +7812,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9191,10 +7827,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9210,10 +7842,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9229,10 +7857,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9248,10 +7872,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9267,10 +7887,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9286,10 +7902,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9305,10 +7917,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9324,10 +7932,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9343,10 +7947,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9362,10 +7962,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9381,10 +7977,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9400,10 +7992,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9419,10 +8007,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9438,10 +8022,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9457,10 +8037,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9476,10 +8052,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9495,10 +8067,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9514,10 +8082,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9533,10 +8097,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9552,10 +8112,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9571,10 +8127,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9590,10 +8142,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9609,10 +8157,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9628,10 +8172,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9647,10 +8187,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9666,10 +8202,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9685,10 +8217,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9704,10 +8232,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9723,10 +8247,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9742,10 +8262,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9761,10 +8277,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9780,10 +8292,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9799,10 +8307,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9818,10 +8322,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9837,10 +8337,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9856,10 +8352,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9875,10 +8367,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9894,10 +8382,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9913,10 +8397,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9932,10 +8412,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9951,10 +8427,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9970,10 +8442,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -9989,10 +8457,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10008,10 +8472,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10027,10 +8487,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10046,10 +8502,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10065,10 +8517,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10084,10 +8532,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10103,10 +8547,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10122,10 +8562,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10141,10 +8577,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10160,10 +8592,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10179,10 +8607,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10198,10 +8622,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10217,10 +8637,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10236,10 +8652,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10255,10 +8667,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10274,10 +8682,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10293,10 +8697,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10312,10 +8712,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10331,10 +8727,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10350,10 +8742,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10369,10 +8757,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10388,10 +8772,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10407,10 +8787,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10426,10 +8802,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10445,10 +8817,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10464,10 +8832,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10483,10 +8847,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10502,10 +8862,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10521,10 +8877,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10540,10 +8892,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10559,10 +8907,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10578,10 +8922,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10597,10 +8937,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10616,10 +8952,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10635,10 +8967,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10654,10 +8982,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10673,10 +8997,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10692,10 +9012,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10711,10 +9027,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10730,10 +9042,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10749,10 +9057,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10768,10 +9072,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10787,10 +9087,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10806,10 +9102,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10825,10 +9117,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10844,10 +9132,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10863,10 +9147,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10882,10 +9162,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10901,10 +9177,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10920,10 +9192,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10939,10 +9207,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10958,10 +9222,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10977,10 +9237,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -10996,10 +9252,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11015,10 +9267,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11034,10 +9282,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11053,10 +9297,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11072,10 +9312,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11091,10 +9327,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11110,10 +9342,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11129,10 +9357,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11148,10 +9372,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11167,10 +9387,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11186,10 +9402,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11205,10 +9417,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11224,10 +9432,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11243,10 +9447,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11262,10 +9462,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11281,10 +9477,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11300,10 +9492,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11319,10 +9507,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11338,10 +9522,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11357,10 +9537,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11376,10 +9552,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11395,10 +9567,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11414,10 +9582,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11433,10 +9597,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11452,10 +9612,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11471,10 +9627,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11490,10 +9642,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11509,10 +9657,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11528,10 +9672,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11547,10 +9687,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11566,10 +9702,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11585,10 +9717,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11604,10 +9732,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11623,10 +9747,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11642,10 +9762,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11661,10 +9777,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11680,10 +9792,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11699,10 +9807,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11718,10 +9822,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11737,10 +9837,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11756,10 +9852,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11775,10 +9867,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11794,10 +9882,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11813,10 +9897,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11832,10 +9912,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11851,10 +9927,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11870,10 +9942,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11889,10 +9957,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11908,10 +9972,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11927,10 +9987,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11946,10 +10002,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11965,10 +10017,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -11984,10 +10032,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12003,10 +10047,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12022,10 +10062,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12041,10 +10077,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12060,10 +10092,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12079,10 +10107,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12098,10 +10122,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12117,10 +10137,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12136,10 +10152,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12155,10 +10167,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12174,10 +10182,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12193,10 +10197,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12212,10 +10212,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12231,10 +10227,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12250,10 +10242,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12269,10 +10257,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12288,10 +10272,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12307,10 +10287,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12326,10 +10302,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12345,10 +10317,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12364,10 +10332,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12383,10 +10347,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12402,10 +10362,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12421,10 +10377,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12440,10 +10392,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12459,10 +10407,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12478,10 +10422,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12497,10 +10437,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12516,10 +10452,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12535,10 +10467,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12554,10 +10482,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12573,10 +10497,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12592,10 +10512,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12611,10 +10527,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12630,10 +10542,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12649,10 +10557,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12668,10 +10572,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12687,10 +10587,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12706,10 +10602,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12725,10 +10617,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12744,10 +10632,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12763,10 +10647,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12782,10 +10662,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12801,10 +10677,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12820,10 +10692,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12839,10 +10707,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12858,10 +10722,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12877,10 +10737,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12896,10 +10752,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12915,10 +10767,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12934,10 +10782,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12953,10 +10797,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12972,10 +10812,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -12991,10 +10827,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13010,10 +10842,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13029,10 +10857,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13048,10 +10872,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13067,10 +10887,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13086,10 +10902,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13105,10 +10917,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13124,10 +10932,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13143,10 +10947,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13162,10 +10962,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13181,10 +10977,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13200,10 +10992,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13219,10 +11007,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13238,10 +11022,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13257,10 +11037,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13276,10 +11052,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13295,10 +11067,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13314,10 +11082,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13333,10 +11097,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13352,10 +11112,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13371,10 +11127,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13390,10 +11142,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13409,10 +11157,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13428,10 +11172,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13447,10 +11187,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13466,10 +11202,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13485,10 +11217,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13504,10 +11232,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13523,10 +11247,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13542,10 +11262,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13561,10 +11277,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13580,10 +11292,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13599,10 +11307,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13618,10 +11322,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13637,10 +11337,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13656,10 +11352,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13675,10 +11367,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13694,10 +11382,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13713,10 +11397,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13732,10 +11412,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13751,10 +11427,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13770,10 +11442,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13789,10 +11457,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13808,10 +11472,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13827,10 +11487,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13846,10 +11502,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13865,10 +11517,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13884,10 +11532,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13903,10 +11547,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13922,10 +11562,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13941,10 +11577,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13960,10 +11592,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13979,10 +11607,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -13998,10 +11622,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14017,10 +11637,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14036,10 +11652,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14055,10 +11667,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14074,10 +11682,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14093,10 +11697,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14112,10 +11712,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14131,10 +11727,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14150,10 +11742,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14169,10 +11757,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14188,10 +11772,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14207,10 +11787,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14226,10 +11802,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14245,10 +11817,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14264,10 +11832,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14283,10 +11847,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14302,10 +11862,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14321,10 +11877,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14340,10 +11892,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14359,10 +11907,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14378,10 +11922,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14397,10 +11937,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14416,10 +11952,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14435,10 +11967,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14454,10 +11982,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14473,10 +11997,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14492,10 +12012,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14511,10 +12027,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14530,10 +12042,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14549,10 +12057,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14568,10 +12072,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14587,10 +12087,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14606,10 +12102,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14625,10 +12117,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14644,10 +12132,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14663,10 +12147,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14682,10 +12162,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14701,10 +12177,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14720,10 +12192,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14739,10 +12207,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14758,10 +12222,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14777,10 +12237,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14796,10 +12252,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14815,10 +12267,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14834,10 +12282,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14853,10 +12297,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14872,10 +12312,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14891,10 +12327,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14910,10 +12342,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14929,10 +12357,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14948,10 +12372,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14967,10 +12387,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -14986,10 +12402,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15005,10 +12417,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15024,10 +12432,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15043,10 +12447,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15062,10 +12462,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15081,10 +12477,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15100,10 +12492,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15119,10 +12507,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15138,10 +12522,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15157,10 +12537,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15176,10 +12552,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15195,10 +12567,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15214,10 +12582,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15233,10 +12597,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15252,10 +12612,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15271,10 +12627,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15290,10 +12642,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15309,10 +12657,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15328,10 +12672,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15347,10 +12687,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15366,10 +12702,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15385,10 +12717,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15404,10 +12732,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15423,10 +12747,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15442,10 +12762,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15461,10 +12777,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15480,10 +12792,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15499,10 +12807,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15518,10 +12822,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15537,10 +12837,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15556,10 +12852,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15575,10 +12867,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15594,10 +12882,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15613,10 +12897,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15632,10 +12912,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15651,10 +12927,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15670,10 +12942,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15689,10 +12957,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15708,10 +12972,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15727,10 +12987,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15746,10 +13002,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15765,10 +13017,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15784,10 +13032,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15803,10 +13047,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15822,10 +13062,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15841,10 +13077,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15860,10 +13092,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15879,10 +13107,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15898,10 +13122,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15917,10 +13137,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15936,10 +13152,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15955,10 +13167,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15974,10 +13182,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -15993,10 +13197,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16012,10 +13212,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16031,10 +13227,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16050,10 +13242,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16069,10 +13257,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16088,10 +13272,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16107,10 +13287,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16126,10 +13302,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16145,10 +13317,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16164,10 +13332,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16183,10 +13347,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16202,10 +13362,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16221,10 +13377,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16240,10 +13392,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16259,10 +13407,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16278,10 +13422,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16297,10 +13437,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16316,10 +13452,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16335,10 +13467,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16354,10 +13482,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16373,10 +13497,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16392,10 +13512,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16411,10 +13527,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16430,10 +13542,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16449,10 +13557,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16468,10 +13572,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16487,10 +13587,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16506,10 +13602,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16525,10 +13617,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16544,10 +13632,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16563,10 +13647,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16582,10 +13662,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16601,10 +13677,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16620,10 +13692,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16639,10 +13707,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16658,10 +13722,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16677,10 +13737,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16696,10 +13752,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16715,10 +13767,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16734,10 +13782,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16753,10 +13797,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16772,10 +13812,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16791,10 +13827,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16810,10 +13842,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16829,10 +13857,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16848,10 +13872,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16867,10 +13887,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16886,10 +13902,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16905,10 +13917,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16924,10 +13932,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16943,10 +13947,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16962,10 +13962,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -16981,10 +13977,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17000,10 +13992,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17019,10 +14007,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17038,10 +14022,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17057,10 +14037,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17076,10 +14052,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17095,10 +14067,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17114,10 +14082,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17133,10 +14097,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17152,10 +14112,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17171,10 +14127,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17190,10 +14142,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17209,10 +14157,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17228,10 +14172,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17247,10 +14187,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17266,10 +14202,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17285,10 +14217,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17304,10 +14232,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17323,10 +14247,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17342,10 +14262,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17361,10 +14277,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17380,10 +14292,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17399,10 +14307,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17418,10 +14322,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17437,10 +14337,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17456,10 +14352,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17475,10 +14367,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17494,10 +14382,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17513,10 +14397,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17532,10 +14412,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17551,10 +14427,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17570,10 +14442,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17589,10 +14457,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17608,10 +14472,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17627,10 +14487,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17646,10 +14502,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17665,10 +14517,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17684,10 +14532,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17703,10 +14547,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17722,10 +14562,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17741,10 +14577,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17760,10 +14592,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17779,10 +14607,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17798,10 +14622,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17817,10 +14637,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17836,10 +14652,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17855,10 +14667,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17874,10 +14682,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17893,10 +14697,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17912,10 +14712,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17931,10 +14727,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17950,10 +14742,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17969,10 +14757,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -17988,10 +14772,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18007,10 +14787,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18026,10 +14802,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18045,10 +14817,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18064,10 +14832,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18083,10 +14847,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18102,10 +14862,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18121,10 +14877,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18140,10 +14892,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18159,10 +14907,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18178,10 +14922,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18197,10 +14937,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18216,10 +14952,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18235,10 +14967,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18254,10 +14982,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18273,10 +14997,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18292,10 +15012,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18311,10 +15027,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18330,10 +15042,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18349,10 +15057,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18368,10 +15072,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18387,10 +15087,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18406,10 +15102,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18425,10 +15117,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18444,10 +15132,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18463,10 +15147,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18482,10 +15162,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18501,10 +15177,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18520,10 +15192,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18539,10 +15207,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18558,10 +15222,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18577,10 +15237,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18596,10 +15252,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18615,10 +15267,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18634,10 +15282,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18653,10 +15297,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18672,10 +15312,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18691,10 +15327,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18710,10 +15342,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18729,10 +15357,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18748,10 +15372,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18767,10 +15387,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18786,10 +15402,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18805,10 +15417,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18824,10 +15432,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18843,10 +15447,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18862,10 +15462,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18881,10 +15477,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18900,10 +15492,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18919,10 +15507,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18938,10 +15522,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18957,10 +15537,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18976,10 +15552,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -18995,10 +15567,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19014,10 +15582,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19033,10 +15597,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19052,10 +15612,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19071,10 +15627,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19090,10 +15642,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19109,10 +15657,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19128,10 +15672,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19147,10 +15687,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19166,10 +15702,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19185,10 +15717,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19204,10 +15732,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19223,10 +15747,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19242,10 +15762,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19261,10 +15777,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19280,10 +15792,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19299,10 +15807,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19318,10 +15822,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19337,10 +15837,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19356,10 +15852,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19375,10 +15867,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19394,10 +15882,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19413,10 +15897,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19432,10 +15912,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19451,10 +15927,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19470,10 +15942,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19489,10 +15957,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19508,10 +15972,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19527,10 +15987,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19546,10 +16002,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19565,10 +16017,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19584,10 +16032,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19603,10 +16047,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19622,10 +16062,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19641,10 +16077,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19660,10 +16092,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19679,10 +16107,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19698,10 +16122,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19717,10 +16137,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19736,10 +16152,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19755,10 +16167,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19774,10 +16182,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19793,10 +16197,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19812,10 +16212,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19831,10 +16227,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19850,10 +16242,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19869,10 +16257,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19888,10 +16272,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19907,10 +16287,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19926,10 +16302,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19945,10 +16317,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19964,10 +16332,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -19983,10 +16347,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20002,10 +16362,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20021,10 +16377,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20040,10 +16392,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20059,10 +16407,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20078,10 +16422,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20097,10 +16437,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20116,10 +16452,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20135,10 +16467,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20154,10 +16482,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20173,10 +16497,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20192,10 +16512,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20211,10 +16527,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20230,10 +16542,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20249,10 +16557,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20268,10 +16572,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20287,10 +16587,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20306,10 +16602,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20325,10 +16617,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20344,10 +16632,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20363,10 +16647,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20382,10 +16662,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20401,10 +16677,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20420,10 +16692,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20439,10 +16707,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20458,10 +16722,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20477,10 +16737,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20496,10 +16752,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20515,10 +16767,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20534,10 +16782,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20553,10 +16797,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20572,10 +16812,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20591,10 +16827,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20610,10 +16842,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20629,10 +16857,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20648,10 +16872,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20667,10 +16887,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20686,10 +16902,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20705,10 +16917,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20724,10 +16932,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20743,10 +16947,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20762,10 +16962,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20781,10 +16977,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20800,10 +16992,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20819,10 +17007,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20838,10 +17022,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20857,10 +17037,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20876,10 +17052,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20895,10 +17067,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20914,10 +17082,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20933,10 +17097,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20952,10 +17112,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20971,10 +17127,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -20990,10 +17142,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21009,10 +17157,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21028,10 +17172,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21047,10 +17187,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21066,10 +17202,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21085,10 +17217,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21104,10 +17232,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21123,10 +17247,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21142,10 +17262,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21161,10 +17277,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21180,10 +17292,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21199,10 +17307,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21218,10 +17322,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21237,10 +17337,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21256,10 +17352,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21275,10 +17367,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21294,10 +17382,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21313,10 +17397,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21332,10 +17412,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21351,10 +17427,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21370,10 +17442,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21389,10 +17457,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21408,10 +17472,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21427,10 +17487,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21446,10 +17502,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21465,10 +17517,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21484,10 +17532,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21503,10 +17547,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21522,10 +17562,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21541,10 +17577,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21560,10 +17592,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21579,10 +17607,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21598,10 +17622,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21617,10 +17637,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21636,10 +17652,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21655,10 +17667,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21674,10 +17682,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21693,10 +17697,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21712,10 +17712,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21731,10 +17727,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21750,10 +17742,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21769,10 +17757,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21788,10 +17772,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21807,10 +17787,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21826,10 +17802,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21845,10 +17817,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21864,10 +17832,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21883,10 +17847,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21902,10 +17862,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21921,10 +17877,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21940,10 +17892,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21959,10 +17907,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21978,10 +17922,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -21997,10 +17937,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22016,10 +17952,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22035,10 +17967,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22054,10 +17982,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22073,10 +17997,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22092,10 +18012,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22111,10 +18027,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22130,10 +18042,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22149,10 +18057,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22168,10 +18072,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22187,10 +18087,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22206,10 +18102,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22225,10 +18117,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22244,10 +18132,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22263,10 +18147,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22282,10 +18162,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22301,10 +18177,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22320,10 +18192,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22339,10 +18207,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22358,10 +18222,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22377,10 +18237,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22396,10 +18252,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22415,10 +18267,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22434,10 +18282,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22453,10 +18297,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22472,10 +18312,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22491,10 +18327,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22510,10 +18342,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22529,10 +18357,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22548,10 +18372,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22567,10 +18387,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22586,10 +18402,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22605,10 +18417,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22624,10 +18432,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22643,10 +18447,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22662,10 +18462,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22681,10 +18477,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22700,10 +18492,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22719,10 +18507,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22738,10 +18522,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22757,10 +18537,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22776,10 +18552,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22795,10 +18567,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22814,10 +18582,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22833,10 +18597,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22852,10 +18612,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22871,10 +18627,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22890,10 +18642,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22909,10 +18657,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22928,10 +18672,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22947,10 +18687,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22966,10 +18702,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -22985,10 +18717,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23004,10 +18732,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23023,10 +18747,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23042,10 +18762,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23061,10 +18777,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23080,10 +18792,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23099,10 +18807,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23118,10 +18822,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23137,10 +18837,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23156,10 +18852,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23175,10 +18867,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23194,10 +18882,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23213,10 +18897,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23232,10 +18912,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23251,10 +18927,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23270,10 +18942,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23289,10 +18957,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23308,10 +18972,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23327,10 +18987,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23346,10 +19002,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23365,10 +19017,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23384,10 +19032,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23403,10 +19047,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23422,10 +19062,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23441,10 +19077,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23460,10 +19092,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23479,10 +19107,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23498,10 +19122,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23517,10 +19137,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23536,10 +19152,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23555,10 +19167,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23574,10 +19182,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23593,10 +19197,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23612,10 +19212,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23631,10 +19227,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23650,10 +19242,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23669,10 +19257,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23688,10 +19272,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23707,10 +19287,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23726,10 +19302,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23745,10 +19317,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23764,10 +19332,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23783,10 +19347,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23802,10 +19362,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23821,10 +19377,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23840,10 +19392,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23859,10 +19407,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23878,10 +19422,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23897,10 +19437,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23916,10 +19452,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23935,10 +19467,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23954,10 +19482,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23973,10 +19497,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -23992,10 +19512,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24011,10 +19527,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24030,10 +19542,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24049,10 +19557,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24068,10 +19572,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24087,10 +19587,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24106,10 +19602,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24125,10 +19617,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24144,10 +19632,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24163,10 +19647,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24182,10 +19662,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24201,10 +19677,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24220,10 +19692,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24239,10 +19707,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24258,10 +19722,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24277,10 +19737,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24296,10 +19752,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24315,10 +19767,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24334,10 +19782,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24353,10 +19797,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24372,10 +19812,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24391,10 +19827,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24410,10 +19842,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24429,10 +19857,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24448,10 +19872,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24467,10 +19887,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24486,10 +19902,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24505,10 +19917,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24524,10 +19932,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24543,10 +19947,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24562,10 +19962,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24581,10 +19977,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24600,10 +19992,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24619,10 +20007,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24638,10 +20022,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24657,10 +20037,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24676,10 +20052,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24695,10 +20067,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24714,10 +20082,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24733,10 +20097,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24752,10 +20112,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24771,10 +20127,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24790,10 +20142,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24809,10 +20157,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24828,10 +20172,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24847,10 +20187,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24866,10 +20202,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24885,10 +20217,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24904,10 +20232,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24923,10 +20247,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24942,10 +20262,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24961,10 +20277,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24980,10 +20292,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -24999,10 +20307,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25018,10 +20322,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25037,10 +20337,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25056,10 +20352,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25075,10 +20367,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25094,10 +20382,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25113,10 +20397,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25132,10 +20412,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25151,10 +20427,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25170,10 +20442,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25189,10 +20457,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25208,10 +20472,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25227,10 +20487,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25246,10 +20502,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25265,10 +20517,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25284,10 +20532,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25303,10 +20547,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25322,10 +20562,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25341,10 +20577,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25360,10 +20592,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25379,10 +20607,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25398,10 +20622,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25417,10 +20637,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25436,10 +20652,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25455,10 +20667,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25474,10 +20682,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25493,10 +20697,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25512,10 +20712,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25531,10 +20727,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25550,10 +20742,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25569,10 +20757,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25588,10 +20772,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25607,10 +20787,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25626,10 +20802,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25645,10 +20817,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25664,10 +20832,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25683,10 +20847,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25702,10 +20862,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25721,10 +20877,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25740,10 +20892,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25759,10 +20907,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25778,10 +20922,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25797,10 +20937,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25816,10 +20952,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25835,10 +20967,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25854,10 +20982,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25873,10 +20997,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25892,10 +21012,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25911,10 +21027,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25930,10 +21042,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25949,10 +21057,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25968,10 +21072,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -25987,10 +21087,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26006,10 +21102,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26025,10 +21117,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26044,10 +21132,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26063,10 +21147,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26082,10 +21162,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26101,10 +21177,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26120,10 +21192,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26139,10 +21207,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26158,10 +21222,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26177,10 +21237,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26196,10 +21252,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26215,10 +21267,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26234,10 +21282,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26253,10 +21297,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26272,10 +21312,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26291,10 +21327,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26310,10 +21342,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26329,10 +21357,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26348,10 +21372,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26367,10 +21387,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26386,10 +21402,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26405,10 +21417,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26424,10 +21432,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26443,10 +21447,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26462,10 +21462,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26481,10 +21477,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26500,10 +21492,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26519,10 +21507,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26538,10 +21522,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26557,10 +21537,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26576,10 +21552,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26595,10 +21567,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26614,10 +21582,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26633,10 +21597,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26652,10 +21612,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26671,10 +21627,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26690,10 +21642,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26709,10 +21657,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26728,10 +21672,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26747,10 +21687,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26766,10 +21702,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26785,10 +21717,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26804,10 +21732,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26823,10 +21747,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26842,10 +21762,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26861,10 +21777,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26880,10 +21792,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26899,10 +21807,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26918,10 +21822,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26937,10 +21837,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26956,10 +21852,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26975,10 +21867,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -26994,10 +21882,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27013,10 +21897,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27032,10 +21912,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27051,10 +21927,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27070,10 +21942,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27089,10 +21957,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27108,10 +21972,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27127,10 +21987,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27146,10 +22002,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27165,10 +22017,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27184,10 +22032,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27203,10 +22047,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27222,10 +22062,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27241,10 +22077,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27260,10 +22092,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27279,10 +22107,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27298,10 +22122,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27317,10 +22137,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27336,10 +22152,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27355,10 +22167,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27374,10 +22182,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27393,10 +22197,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27412,10 +22212,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27431,10 +22227,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27450,10 +22242,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27469,10 +22257,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27488,10 +22272,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27507,10 +22287,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27526,10 +22302,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27545,10 +22317,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27564,10 +22332,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27583,10 +22347,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27602,10 +22362,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27621,10 +22377,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27640,10 +22392,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27659,10 +22407,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27678,10 +22422,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27697,10 +22437,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27716,10 +22452,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27735,10 +22467,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27754,10 +22482,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27773,10 +22497,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27792,10 +22512,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27811,10 +22527,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27830,10 +22542,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27849,10 +22557,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27868,10 +22572,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27887,10 +22587,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27906,10 +22602,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27925,10 +22617,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27944,10 +22632,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27963,10 +22647,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -27982,10 +22662,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28001,10 +22677,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28020,10 +22692,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28039,10 +22707,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28058,10 +22722,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28077,10 +22737,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28096,10 +22752,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28115,10 +22767,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28134,10 +22782,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28153,10 +22797,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28172,10 +22812,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28191,10 +22827,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28210,10 +22842,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28229,10 +22857,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28248,10 +22872,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28267,10 +22887,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28286,10 +22902,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28305,10 +22917,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28324,10 +22932,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28343,10 +22947,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28362,10 +22962,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28381,10 +22977,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28400,10 +22992,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28419,10 +23007,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28438,10 +23022,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28457,10 +23037,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28476,10 +23052,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28495,10 +23067,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28514,10 +23082,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28533,10 +23097,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28552,10 +23112,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28571,10 +23127,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28590,10 +23142,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28609,10 +23157,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28628,10 +23172,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28647,10 +23187,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28666,10 +23202,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28685,10 +23217,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28704,10 +23232,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28723,10 +23247,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28742,10 +23262,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28761,10 +23277,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28780,10 +23292,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28799,10 +23307,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28818,10 +23322,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28837,10 +23337,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28856,10 +23352,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28875,10 +23367,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28894,10 +23382,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28913,10 +23397,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28932,10 +23412,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28951,10 +23427,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28970,10 +23442,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -28989,10 +23457,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29008,10 +23472,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29027,10 +23487,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29046,10 +23502,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29065,10 +23517,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29084,10 +23532,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29103,10 +23547,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29122,10 +23562,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29141,10 +23577,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29160,10 +23592,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29179,10 +23607,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29198,10 +23622,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29217,10 +23637,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29236,10 +23652,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29255,10 +23667,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29274,10 +23682,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29293,10 +23697,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29312,10 +23712,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29331,10 +23727,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29350,10 +23742,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29369,10 +23757,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29388,10 +23772,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29407,10 +23787,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29426,10 +23802,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29445,10 +23817,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29464,10 +23832,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29483,10 +23847,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29502,10 +23862,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29521,10 +23877,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29540,10 +23892,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29559,10 +23907,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29578,10 +23922,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29597,10 +23937,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29616,10 +23952,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29635,10 +23967,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29654,10 +23982,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29673,10 +23997,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29692,10 +24012,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29711,10 +24027,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29730,10 +24042,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29749,10 +24057,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29768,10 +24072,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29787,10 +24087,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29806,10 +24102,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29825,10 +24117,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29844,10 +24132,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29863,10 +24147,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29882,10 +24162,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29901,10 +24177,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29920,10 +24192,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29939,10 +24207,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29958,10 +24222,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29977,10 +24237,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -29996,10 +24252,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30015,10 +24267,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30034,10 +24282,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30053,10 +24297,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30072,10 +24312,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30091,10 +24327,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30110,10 +24342,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30129,10 +24357,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30148,10 +24372,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30167,10 +24387,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30186,10 +24402,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30205,10 +24417,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30224,10 +24432,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30243,10 +24447,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30262,10 +24462,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30281,10 +24477,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30300,10 +24492,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30319,10 +24507,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30338,10 +24522,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30357,10 +24537,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30376,10 +24552,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30395,10 +24567,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30414,10 +24582,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30433,10 +24597,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30452,10 +24612,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30471,10 +24627,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30490,10 +24642,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30509,10 +24657,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30528,10 +24672,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30547,10 +24687,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30566,10 +24702,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30585,10 +24717,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30604,10 +24732,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30623,10 +24747,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30642,10 +24762,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30661,10 +24777,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30680,10 +24792,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30699,10 +24807,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30718,10 +24822,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30737,10 +24837,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30756,10 +24852,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30775,10 +24867,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30794,10 +24882,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30813,10 +24897,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30832,10 +24912,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30851,10 +24927,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30870,10 +24942,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30889,10 +24957,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30908,10 +24972,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30927,10 +24987,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30946,10 +25002,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30965,10 +25017,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -30984,10 +25032,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31003,10 +25047,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31022,10 +25062,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31041,10 +25077,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31060,10 +25092,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31079,10 +25107,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31098,10 +25122,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31117,10 +25137,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31136,10 +25152,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31155,10 +25167,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31174,10 +25182,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31193,10 +25197,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31212,10 +25212,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31231,10 +25227,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31250,10 +25242,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31269,10 +25257,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31288,10 +25272,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31307,10 +25287,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31326,10 +25302,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31345,10 +25317,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31364,10 +25332,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31383,10 +25347,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31402,10 +25362,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31421,10 +25377,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31440,10 +25392,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31459,10 +25407,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31478,10 +25422,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31497,10 +25437,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31516,10 +25452,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31535,10 +25467,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31554,10 +25482,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31573,10 +25497,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31592,10 +25512,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31611,10 +25527,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31630,10 +25542,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31649,10 +25557,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31668,10 +25572,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31687,10 +25587,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31706,10 +25602,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31725,10 +25617,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31744,10 +25632,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31763,10 +25647,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31782,10 +25662,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31801,10 +25677,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31820,10 +25692,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31839,10 +25707,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31858,10 +25722,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31877,10 +25737,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31896,10 +25752,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31915,10 +25767,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31934,10 +25782,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31953,10 +25797,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31972,10 +25812,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -31991,10 +25827,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32010,10 +25842,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32029,10 +25857,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32048,10 +25872,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32067,10 +25887,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32086,10 +25902,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32105,10 +25917,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32124,10 +25932,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32143,10 +25947,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32162,10 +25962,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32181,10 +25977,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32200,10 +25992,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32219,10 +26007,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32238,10 +26022,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32257,10 +26037,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32276,10 +26052,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32295,10 +26067,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32314,10 +26082,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32333,10 +26097,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32352,10 +26112,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32371,10 +26127,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32390,10 +26142,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32409,10 +26157,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32428,10 +26172,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32447,10 +26187,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32466,10 +26202,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32485,10 +26217,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32504,10 +26232,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32523,10 +26247,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32542,10 +26262,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32561,10 +26277,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32580,10 +26292,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32599,10 +26307,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32618,10 +26322,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32637,10 +26337,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32656,10 +26352,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32675,10 +26367,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32694,10 +26382,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32713,10 +26397,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32732,10 +26412,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32751,10 +26427,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32770,10 +26442,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32789,10 +26457,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32808,10 +26472,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32827,10 +26487,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32846,10 +26502,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32865,10 +26517,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32884,10 +26532,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32903,10 +26547,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32922,10 +26562,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32941,10 +26577,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32960,10 +26592,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32979,10 +26607,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -32998,10 +26622,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33017,10 +26637,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33036,10 +26652,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33055,10 +26667,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33074,10 +26682,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33093,10 +26697,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33112,10 +26712,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33131,10 +26727,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33150,10 +26742,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33169,10 +26757,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33188,10 +26772,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33207,10 +26787,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33226,10 +26802,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33245,10 +26817,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33264,10 +26832,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33283,10 +26847,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33302,10 +26862,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33321,10 +26877,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33340,10 +26892,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33359,10 +26907,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33378,10 +26922,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33397,10 +26937,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33416,10 +26952,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33435,10 +26967,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33454,10 +26982,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33473,10 +26997,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33492,10 +27012,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33511,10 +27027,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33530,10 +27042,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33549,10 +27057,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33568,10 +27072,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33587,10 +27087,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33606,10 +27102,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33625,10 +27117,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33644,10 +27132,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33663,10 +27147,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33682,10 +27162,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33701,10 +27177,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33720,10 +27192,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33739,10 +27207,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33758,10 +27222,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33777,10 +27237,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33796,10 +27252,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33815,10 +27267,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33834,10 +27282,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33853,10 +27297,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33872,10 +27312,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33891,10 +27327,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33910,10 +27342,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33929,10 +27357,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33948,10 +27372,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33967,10 +27387,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -33986,10 +27402,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34005,10 +27417,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34024,10 +27432,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34043,10 +27447,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34062,10 +27462,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34081,10 +27477,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34100,10 +27492,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34119,10 +27507,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34138,10 +27522,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34157,10 +27537,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34176,10 +27552,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34195,10 +27567,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34214,10 +27582,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34233,10 +27597,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34252,10 +27612,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34271,10 +27627,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34290,10 +27642,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34309,10 +27657,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34328,10 +27672,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34347,10 +27687,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34366,10 +27702,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34385,10 +27717,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34404,10 +27732,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34423,10 +27747,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34442,10 +27762,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34461,10 +27777,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34480,10 +27792,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34499,10 +27807,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34518,10 +27822,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34537,10 +27837,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34556,10 +27852,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34575,10 +27867,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34594,10 +27882,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34613,10 +27897,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34632,10 +27912,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34651,10 +27927,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34670,10 +27942,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34689,10 +27957,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34708,10 +27972,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34727,10 +27987,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34746,10 +28002,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34765,10 +28017,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34784,10 +28032,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34803,10 +28047,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34822,10 +28062,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34841,10 +28077,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34860,10 +28092,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34879,10 +28107,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34898,10 +28122,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34917,10 +28137,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34936,10 +28152,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34955,10 +28167,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34974,10 +28182,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -34993,10 +28197,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35012,10 +28212,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35031,10 +28227,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35050,10 +28242,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35069,10 +28257,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35088,10 +28272,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35107,10 +28287,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35126,10 +28302,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35145,10 +28317,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35164,10 +28332,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35183,10 +28347,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35202,10 +28362,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35221,10 +28377,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35240,10 +28392,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35259,10 +28407,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35278,10 +28422,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35297,10 +28437,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35316,10 +28452,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35335,10 +28467,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35354,10 +28482,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35373,10 +28497,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35392,10 +28512,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35411,10 +28527,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35430,10 +28542,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35449,10 +28557,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35468,10 +28572,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35487,10 +28587,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35506,10 +28602,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35525,10 +28617,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35544,10 +28632,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35563,10 +28647,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35582,10 +28662,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35601,10 +28677,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35620,10 +28692,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35639,10 +28707,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35658,10 +28722,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35677,10 +28737,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35696,10 +28752,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35715,10 +28767,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35734,10 +28782,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35753,10 +28797,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35772,10 +28812,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35791,10 +28827,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35810,10 +28842,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35829,10 +28857,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35848,10 +28872,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35867,10 +28887,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35886,10 +28902,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35905,10 +28917,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35924,10 +28932,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35943,10 +28947,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35962,10 +28962,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -35981,10 +28977,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36000,10 +28992,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36019,10 +29007,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36038,10 +29022,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36057,10 +29037,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36076,10 +29052,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36095,10 +29067,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36114,10 +29082,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36133,10 +29097,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36152,10 +29112,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36171,10 +29127,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36190,10 +29142,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36209,10 +29157,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36228,10 +29172,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36247,10 +29187,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36266,10 +29202,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36285,10 +29217,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36304,10 +29232,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36323,10 +29247,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36342,10 +29262,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36361,10 +29277,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36380,10 +29292,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36399,10 +29307,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36418,10 +29322,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36437,10 +29337,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36456,10 +29352,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36475,10 +29367,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36494,10 +29382,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36513,10 +29397,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36532,10 +29412,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36551,10 +29427,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36570,10 +29442,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36589,10 +29457,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36608,10 +29472,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36627,10 +29487,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36646,10 +29502,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36665,10 +29517,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36684,10 +29532,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36703,10 +29547,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36722,10 +29562,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36741,10 +29577,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36760,10 +29592,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36779,10 +29607,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36798,10 +29622,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36817,10 +29637,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36836,10 +29652,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36855,10 +29667,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36874,10 +29682,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36893,10 +29697,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36912,10 +29712,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36931,10 +29727,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36950,10 +29742,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36969,10 +29757,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36988,10 +29772,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37007,10 +29787,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37026,10 +29802,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37045,10 +29817,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37064,10 +29832,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37083,10 +29847,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37102,10 +29862,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37121,10 +29877,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37140,10 +29892,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37159,10 +29907,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37178,10 +29922,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37197,10 +29937,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37216,10 +29952,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37235,10 +29967,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37254,10 +29982,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37273,10 +29997,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37292,10 +30012,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37311,10 +30027,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37330,10 +30042,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37349,10 +30057,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37368,10 +30072,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37387,10 +30087,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37406,10 +30102,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37425,10 +30117,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37444,10 +30132,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37463,10 +30147,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37482,10 +30162,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37501,10 +30177,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37520,10 +30192,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37539,10 +30207,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37558,10 +30222,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37577,10 +30237,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37596,10 +30252,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37615,10 +30267,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37634,10 +30282,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37653,10 +30297,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37672,10 +30312,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37691,10 +30327,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37710,10 +30342,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37729,10 +30357,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37748,10 +30372,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37767,10 +30387,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37786,10 +30402,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37805,10 +30417,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37824,10 +30432,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37843,10 +30447,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37862,10 +30462,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37881,10 +30477,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37900,10 +30492,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37919,10 +30507,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37938,10 +30522,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37957,10 +30537,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37976,10 +30552,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -37995,10 +30567,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38014,10 +30582,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38033,10 +30597,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38052,10 +30612,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38071,10 +30627,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38090,10 +30642,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38109,10 +30657,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38128,10 +30672,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38147,10 +30687,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38166,10 +30702,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38185,10 +30717,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38204,10 +30732,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38223,10 +30747,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38242,10 +30762,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38261,10 +30777,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38280,10 +30792,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38299,10 +30807,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38318,10 +30822,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38337,10 +30837,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38356,10 +30852,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38375,10 +30867,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38394,10 +30882,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38413,10 +30897,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38432,10 +30912,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38451,10 +30927,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38470,10 +30942,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38489,10 +30957,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38508,10 +30972,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38527,10 +30987,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38546,10 +31002,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38565,10 +31017,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38584,10 +31032,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38603,10 +31047,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38622,10 +31062,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38641,10 +31077,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38660,10 +31092,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38679,10 +31107,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38698,10 +31122,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38717,10 +31137,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38736,10 +31152,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38755,10 +31167,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38774,10 +31182,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38793,10 +31197,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38812,10 +31212,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38831,10 +31227,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38850,10 +31242,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38869,10 +31257,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38888,10 +31272,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38907,10 +31287,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38926,10 +31302,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38945,10 +31317,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38964,10 +31332,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38983,10 +31347,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39002,10 +31362,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39021,10 +31377,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39040,10 +31392,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39059,10 +31407,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39078,10 +31422,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39097,10 +31437,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39116,10 +31452,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39135,10 +31467,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39154,10 +31482,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39173,10 +31497,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39192,10 +31512,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39211,10 +31527,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39230,10 +31542,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39249,10 +31557,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39268,10 +31572,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39287,10 +31587,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39306,10 +31602,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39325,10 +31617,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39344,10 +31632,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39363,10 +31647,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39382,10 +31662,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39401,10 +31677,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39420,10 +31692,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39439,10 +31707,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39458,10 +31722,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39477,10 +31737,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39496,10 +31752,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39515,10 +31767,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39534,10 +31782,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39553,10 +31797,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39572,10 +31812,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39591,10 +31827,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39610,10 +31842,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39629,10 +31857,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39648,10 +31872,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39667,10 +31887,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39686,10 +31902,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39705,10 +31917,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39724,10 +31932,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39743,10 +31947,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39762,10 +31962,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39781,10 +31977,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39800,10 +31992,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39819,10 +32007,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39838,10 +32022,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39857,10 +32037,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39876,10 +32052,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39895,10 +32067,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39914,10 +32082,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39933,10 +32097,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39952,10 +32112,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39971,10 +32127,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -39990,10 +32142,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40009,10 +32157,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40028,10 +32172,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40047,10 +32187,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40066,10 +32202,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40085,10 +32217,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40104,10 +32232,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40123,10 +32247,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40142,10 +32262,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40161,10 +32277,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40180,10 +32292,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40199,10 +32307,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40218,10 +32322,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40237,10 +32337,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40256,10 +32352,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40275,10 +32367,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40294,10 +32382,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40313,10 +32397,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40332,10 +32412,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40351,10 +32427,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40370,10 +32442,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40389,10 +32457,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40408,10 +32472,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40427,10 +32487,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40446,10 +32502,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40465,10 +32517,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40484,10 +32532,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40503,10 +32547,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40522,10 +32562,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40541,10 +32577,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40560,10 +32592,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40579,10 +32607,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40598,10 +32622,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40617,10 +32637,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40636,10 +32652,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40655,10 +32667,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40674,10 +32682,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40693,10 +32697,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40712,10 +32712,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40731,10 +32727,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40750,10 +32742,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40769,10 +32757,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40788,10 +32772,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40807,10 +32787,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40826,10 +32802,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40845,10 +32817,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40864,10 +32832,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40883,10 +32847,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40902,10 +32862,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40921,10 +32877,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40940,10 +32892,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40959,10 +32907,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40978,10 +32922,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40997,10 +32937,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41016,10 +32952,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41035,10 +32967,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41054,10 +32982,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41073,10 +32997,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41092,10 +33012,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41111,10 +33027,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41130,10 +33042,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41149,10 +33057,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41168,10 +33072,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41187,10 +33087,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41206,10 +33102,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41225,10 +33117,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41244,10 +33132,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41263,10 +33147,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41282,10 +33162,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41301,10 +33177,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41320,10 +33192,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41339,10 +33207,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41358,10 +33222,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41377,10 +33237,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41396,10 +33252,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41415,10 +33267,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41434,10 +33282,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41453,10 +33297,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41472,10 +33312,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41491,10 +33327,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41510,10 +33342,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41529,10 +33357,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41548,10 +33372,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41567,10 +33387,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41586,10 +33402,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41605,10 +33417,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41624,10 +33432,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41643,10 +33447,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41662,10 +33462,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41681,10 +33477,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41700,10 +33492,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41719,10 +33507,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41738,10 +33522,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41757,10 +33537,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41776,10 +33552,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41795,10 +33567,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41814,10 +33582,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41833,10 +33597,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41852,10 +33612,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41871,10 +33627,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41890,10 +33642,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41909,10 +33657,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41928,10 +33672,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41947,10 +33687,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41966,10 +33702,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -41985,10 +33717,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42004,10 +33732,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42023,10 +33747,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42042,10 +33762,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42061,10 +33777,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42080,10 +33792,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42099,10 +33807,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42118,10 +33822,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42137,10 +33837,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42156,10 +33852,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42175,10 +33867,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42194,10 +33882,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42213,10 +33897,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42232,10 +33912,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42251,10 +33927,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42270,10 +33942,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42289,10 +33957,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42308,10 +33972,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42327,10 +33987,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42346,10 +34002,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42365,10 +34017,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42384,10 +34032,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42403,10 +34047,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42422,10 +34062,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42441,10 +34077,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42460,10 +34092,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42479,10 +34107,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42498,10 +34122,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42517,10 +34137,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42536,10 +34152,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42555,10 +34167,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42574,10 +34182,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42593,10 +34197,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42612,10 +34212,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42631,10 +34227,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42650,10 +34242,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42669,10 +34257,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42688,10 +34272,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42707,10 +34287,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42726,10 +34302,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42745,10 +34317,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42764,10 +34332,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42783,10 +34347,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42802,10 +34362,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42821,10 +34377,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42840,10 +34392,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42859,10 +34407,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42878,10 +34422,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42897,10 +34437,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42916,10 +34452,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42935,10 +34467,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42954,10 +34482,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42973,10 +34497,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -42992,10 +34512,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43011,10 +34527,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43030,10 +34542,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43049,10 +34557,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43068,10 +34572,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43087,10 +34587,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43106,10 +34602,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43125,10 +34617,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43144,10 +34632,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43163,10 +34647,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43182,10 +34662,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43201,10 +34677,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43220,10 +34692,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43239,10 +34707,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43258,10 +34722,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43277,10 +34737,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43296,10 +34752,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43315,10 +34767,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43334,10 +34782,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43353,10 +34797,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43372,10 +34812,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43391,10 +34827,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43410,10 +34842,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43429,10 +34857,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43448,10 +34872,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43467,10 +34887,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43486,10 +34902,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43505,10 +34917,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43524,10 +34932,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43543,10 +34947,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43562,10 +34962,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43581,10 +34977,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43600,10 +34992,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43619,10 +35007,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43638,10 +35022,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43657,10 +35037,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43676,10 +35052,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43695,10 +35067,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43714,10 +35082,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43733,10 +35097,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43752,10 +35112,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43771,10 +35127,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43790,10 +35142,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43809,10 +35157,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43828,10 +35172,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43847,10 +35187,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43866,10 +35202,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43885,10 +35217,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43904,10 +35232,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43923,10 +35247,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43942,10 +35262,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43961,10 +35277,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43980,10 +35292,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -43999,10 +35307,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -44018,10 +35322,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -44037,10 +35337,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -44056,10 +35352,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -44075,10 +35367,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -44094,10 +35382,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -44113,10 +35397,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -44132,10 +35412,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -44151,10 +35427,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -44170,10 +35442,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -44189,10 +35457,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -44208,10 +35472,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -44227,10 +35487,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -44246,17 +35502,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2323,
     label = "Cds-HH_Cds-HH;HJ",
     kinetics = ArrheniusEP(
-        A = (231000000.0, 'cm^3/(mol*s)'),
+        A = (2.31e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.01, 'kcal/mol'),
@@ -44265,17 +35517,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2324,
     label = "Cds-HH_Cds-CsH;HJ",
     kinetics = ArrheniusEP(
-        A = (248000000.0, 'cm^3/(mol*s)'),
+        A = (2.48e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.51, 'kcal/mol'),
@@ -44284,17 +35532,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2325,
     label = "Cds-HH_Cds-CsCs;HJ",
     kinetics = ArrheniusEP(
-        A = (288000000.0, 'cm^3/(mol*s)'),
+        A = (2.88e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (-0.01, 'kcal/mol'),
@@ -44303,17 +35547,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2326,
     label = "Cds-HH_Cds-CdH;HJ",
     kinetics = ArrheniusEP(
-        A = (231000000.0, 'cm^3/(mol*s)'),
+        A = (2.31e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (-0.47, 'kcal/mol'),
@@ -44322,17 +35562,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2327,
     label = "Cds-HH_Cds-CdCs;HJ",
     kinetics = ArrheniusEP(
-        A = (258000000.0, 'cm^3/(mol*s)'),
+        A = (2.58e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (-0.72, 'kcal/mol'),
@@ -44341,17 +35577,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2328,
     label = "Cds-HH_Cds-CdCd;HJ",
     kinetics = ArrheniusEP(
-        A = (248000000.0, 'cm^3/(mol*s)'),
+        A = (2.48e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (-1.4, 'kcal/mol'),
@@ -44360,17 +35592,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2329,
     label = "Cds-HH_Cds-CtH;HJ",
     kinetics = ArrheniusEP(
-        A = (223000000.0, 'cm^3/(mol*s)'),
+        A = (2.23e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (-0.2, 'kcal/mol'),
@@ -44379,17 +35607,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2330,
     label = "Cds-HH_Cds-CtCs;HJ",
     kinetics = ArrheniusEP(
-        A = (256000000.0, 'cm^3/(mol*s)'),
+        A = (2.56e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (-0.46, 'kcal/mol'),
@@ -44398,17 +35622,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2331,
     label = "Cds-HH_Cds-CdCt;HJ",
     kinetics = ArrheniusEP(
-        A = (75700000.0, 'cm^3/(mol*s)'),
+        A = (7.57e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (-1.29, 'kcal/mol'),
@@ -44417,17 +35637,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2332,
     label = "Cds-HH_Cds-CtCt;HJ",
     kinetics = ArrheniusEP(
-        A = (225000000.0, 'cm^3/(mol*s)'),
+        A = (2.25e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (-0.67, 'kcal/mol'),
@@ -44436,17 +35652,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2333,
     label = "Cds-HH_Cds-CbH;HJ",
     kinetics = ArrheniusEP(
-        A = (60000000.0, 'cm^3/(mol*s)'),
+        A = (6e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.55, 'kcal/mol'),
@@ -44455,17 +35667,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2334,
     label = "Cds-HH_Cds-CbCs;HJ",
     kinetics = ArrheniusEP(
-        A = (177000000.0, 'cm^3/(mol*s)'),
+        A = (1.77e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.05, 'kcal/mol'),
@@ -44474,17 +35682,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2335,
     label = "Cds-HH_Ca;HJ",
     kinetics = ArrheniusEP(
-        A = (209000000.0, 'cm^3/(mol*s)'),
+        A = (2.09e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.17, 'kcal/mol'),
@@ -44493,17 +35697,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2336,
     label = "Cds-CsH_Cds-HH;HJ",
     kinetics = ArrheniusEP(
-        A = (136000000.0, 'cm^3/(mol*s)'),
+        A = (1.36e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.86, 'kcal/mol'),
@@ -44512,17 +35712,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2337,
     label = "Cds-CsH_Cds-CsH;HJ",
     kinetics = ArrheniusEP(
-        A = (146000000.0, 'cm^3/(mol*s)'),
+        A = (1.46e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.37, 'kcal/mol'),
@@ -44531,17 +35727,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2338,
     label = "Cds-CsH_Cds-CsCs;HJ",
     kinetics = ArrheniusEP(
-        A = (169000000.0, 'cm^3/(mol*s)'),
+        A = (1.69e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.85, 'kcal/mol'),
@@ -44550,17 +35742,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2339,
     label = "Cds-CsH_Cds-CdH;HJ",
     kinetics = ArrheniusEP(
-        A = (135000000.0, 'cm^3/(mol*s)'),
+        A = (1.35e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.38, 'kcal/mol'),
@@ -44569,17 +35757,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2340,
     label = "Cds-CsH_Cds-CdCs;HJ",
     kinetics = ArrheniusEP(
-        A = (152000000.0, 'cm^3/(mol*s)'),
+        A = (1.52e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.14, 'kcal/mol'),
@@ -44588,17 +35772,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2341,
     label = "Cds-CsH_Cds-CdCd;HJ",
     kinetics = ArrheniusEP(
-        A = (146000000.0, 'cm^3/(mol*s)'),
+        A = (1.46e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (-0.54, 'kcal/mol'),
@@ -44607,17 +35787,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2342,
     label = "Cds-CsH_Cds-CtH;HJ",
     kinetics = ArrheniusEP(
-        A = (131000000.0, 'cm^3/(mol*s)'),
+        A = (1.31e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.66, 'kcal/mol'),
@@ -44626,17 +35802,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2343,
     label = "Cds-CsH_Cds-CtCs;HJ",
     kinetics = ArrheniusEP(
-        A = (150000000.0, 'cm^3/(mol*s)'),
+        A = (1.5e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.4, 'kcal/mol'),
@@ -44645,17 +35817,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2344,
     label = "Cds-CsH_Cds-CdCt;HJ",
     kinetics = ArrheniusEP(
-        A = (44400000.0, 'cm^3/(mol*s)'),
+        A = (4.44e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (-0.43, 'kcal/mol'),
@@ -44664,17 +35832,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2345,
     label = "Cds-CsH_Cds-CtCt;HJ",
     kinetics = ArrheniusEP(
-        A = (132000000.0, 'cm^3/(mol*s)'),
+        A = (1.32e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.19, 'kcal/mol'),
@@ -44683,17 +35847,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2346,
     label = "Cds-CsH_Cds-CbH;HJ",
     kinetics = ArrheniusEP(
-        A = (35200000.0, 'cm^3/(mol*s)'),
+        A = (3.52e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.41, 'kcal/mol'),
@@ -44702,17 +35862,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2347,
     label = "Cds-CsH_Cds-CbCs;HJ",
     kinetics = ArrheniusEP(
-        A = (104000000.0, 'cm^3/(mol*s)'),
+        A = (1.04e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.91, 'kcal/mol'),
@@ -44721,17 +35877,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2348,
     label = "Cds-CsH_Ca;HJ",
     kinetics = ArrheniusEP(
-        A = (123000000.0, 'cm^3/(mol*s)'),
+        A = (1.23e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.03, 'kcal/mol'),
@@ -44740,17 +35892,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2349,
     label = "Cds-CsCs_Cds-HH;HJ",
     kinetics = ArrheniusEP(
-        A = (72000000.0, 'cm^3/(mol*s)'),
+        A = (7.2e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.66, 'kcal/mol'),
@@ -44759,17 +35907,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2350,
     label = "Cds-CsCs_Cds-CsH;HJ",
     kinetics = ArrheniusEP(
-        A = (77200000.0, 'cm^3/(mol*s)'),
+        A = (7.72e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.17, 'kcal/mol'),
@@ -44778,17 +35922,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2351,
     label = "Cds-CsCs_Cds-CsCs;HJ",
     kinetics = ArrheniusEP(
-        A = (89600000.0, 'cm^3/(mol*s)'),
+        A = (8.96e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.65, 'kcal/mol'),
@@ -44797,17 +35937,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2352,
     label = "Cds-CsCs_Cds-CdH;HJ",
     kinetics = ArrheniusEP(
-        A = (71700000.0, 'cm^3/(mol*s)'),
+        A = (7.17e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.18, 'kcal/mol'),
@@ -44816,17 +35952,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2353,
     label = "Cds-CsCs_Cds-CdCs;HJ",
     kinetics = ArrheniusEP(
-        A = (80300000.0, 'cm^3/(mol*s)'),
+        A = (8.03e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.94, 'kcal/mol'),
@@ -44835,17 +35967,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2354,
     label = "Cds-CsCs_Cds-CdCd;HJ",
     kinetics = ArrheniusEP(
-        A = (77100000.0, 'cm^3/(mol*s)'),
+        A = (7.71e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.25, 'kcal/mol'),
@@ -44854,17 +35982,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2355,
     label = "Cds-CsCs_Cds-CtH;HJ",
     kinetics = ArrheniusEP(
-        A = (69200000.0, 'cm^3/(mol*s)'),
+        A = (6.92e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.46, 'kcal/mol'),
@@ -44873,17 +35997,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2356,
     label = "Cds-CsCs_Cds-CtCs;HJ",
     kinetics = ArrheniusEP(
-        A = (79600000.0, 'cm^3/(mol*s)'),
+        A = (7.96e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.2, 'kcal/mol'),
@@ -44892,17 +36012,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2357,
     label = "Cds-CsCs_Cds-CdCt;HJ",
     kinetics = ArrheniusEP(
-        A = (23500000.0, 'cm^3/(mol*s)'),
+        A = (2.35e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.37, 'kcal/mol'),
@@ -44911,17 +36027,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2358,
     label = "Cds-CsCs_Cds-CtCt;HJ",
     kinetics = ArrheniusEP(
-        A = (69800000.0, 'cm^3/(mol*s)'),
+        A = (6.98e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.99, 'kcal/mol'),
@@ -44930,17 +36042,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2359,
     label = "Cds-CsCs_Cds-CbH;HJ",
     kinetics = ArrheniusEP(
-        A = (18700000.0, 'cm^3/(mol*s)'),
+        A = (1.87e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.2, 'kcal/mol'),
@@ -44949,17 +36057,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2360,
     label = "Cds-CsCs_Cds-CbCs;HJ",
     kinetics = ArrheniusEP(
-        A = (55000000.0, 'cm^3/(mol*s)'),
+        A = (5.5e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.7, 'kcal/mol'),
@@ -44968,17 +36072,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2361,
     label = "Cds-CsCs_Ca;HJ",
     kinetics = ArrheniusEP(
-        A = (65100000.0, 'cm^3/(mol*s)'),
+        A = (6.51e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.83, 'kcal/mol'),
@@ -44987,17 +36087,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2362,
     label = "Cds-CdH_Cds-HH;HJ",
     kinetics = ArrheniusEP(
-        A = (162000000.0, 'cm^3/(mol*s)'),
+        A = (1.62e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.4, 'kcal/mol'),
@@ -45006,17 +36102,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2363,
     label = "Cds-CdH_Cds-CsH;HJ",
     kinetics = ArrheniusEP(
-        A = (174000000.0, 'cm^3/(mol*s)'),
+        A = (1.74e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.91, 'kcal/mol'),
@@ -45025,17 +36117,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2364,
     label = "Cds-CdH_Cds-CsCs;HJ",
     kinetics = ArrheniusEP(
-        A = (202000000.0, 'cm^3/(mol*s)'),
+        A = (2.02e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.39, 'kcal/mol'),
@@ -45044,17 +36132,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2365,
     label = "Cds-CdH_Cds-CdH;HJ",
     kinetics = ArrheniusEP(
-        A = (162000000.0, 'cm^3/(mol*s)'),
+        A = (1.62e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.92, 'kcal/mol'),
@@ -45063,17 +36147,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2366,
     label = "Cds-CdH_Cds-CdCs;HJ",
     kinetics = ArrheniusEP(
-        A = (181000000.0, 'cm^3/(mol*s)'),
+        A = (1.81e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.67, 'kcal/mol'),
@@ -45082,17 +36162,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2367,
     label = "Cds-CdH_Cds-CdCd;HJ",
     kinetics = ArrheniusEP(
-        A = (174000000.0, 'cm^3/(mol*s)'),
+        A = (1.74e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (-0.01, 'kcal/mol'),
@@ -45101,17 +36177,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2368,
     label = "Cds-CdH_Cds-CtH;HJ",
     kinetics = ArrheniusEP(
-        A = (156000000.0, 'cm^3/(mol*s)'),
+        A = (1.56e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.19, 'kcal/mol'),
@@ -45120,17 +36192,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2369,
     label = "Cds-CdH_Cds-CtCs;HJ",
     kinetics = ArrheniusEP(
-        A = (179000000.0, 'cm^3/(mol*s)'),
+        A = (1.79e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.93, 'kcal/mol'),
@@ -45139,17 +36207,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2370,
     label = "Cds-CdH_Cds-CdCt;HJ",
     kinetics = ArrheniusEP(
-        A = (53100000.0, 'cm^3/(mol*s)'),
+        A = (5.31e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.1, 'kcal/mol'),
@@ -45158,17 +36222,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2371,
     label = "Cds-CdH_Cds-CtCt;HJ",
     kinetics = ArrheniusEP(
-        A = (157000000.0, 'cm^3/(mol*s)'),
+        A = (1.57e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.72, 'kcal/mol'),
@@ -45177,17 +36237,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2372,
     label = "Cds-CdH_Cds-CbH;HJ",
     kinetics = ArrheniusEP(
-        A = (42000000.0, 'cm^3/(mol*s)'),
+        A = (4.2e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.94, 'kcal/mol'),
@@ -45196,17 +36252,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2373,
     label = "Cds-CdH_Cds-CbCs;HJ",
     kinetics = ArrheniusEP(
-        A = (124000000.0, 'cm^3/(mol*s)'),
+        A = (1.24e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.44, 'kcal/mol'),
@@ -45215,17 +36267,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2374,
     label = "Cds-CdH_Ca;HJ",
     kinetics = ArrheniusEP(
-        A = (147000000.0, 'cm^3/(mol*s)'),
+        A = (1.47e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.56, 'kcal/mol'),
@@ -45234,17 +36282,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2375,
     label = "Cds-CdCs_Cds-HH;HJ",
     kinetics = ArrheniusEP(
-        A = (104000000.0, 'cm^3/(mol*s)'),
+        A = (1.04e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.15, 'kcal/mol'),
@@ -45253,17 +36297,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2376,
     label = "Cds-CdCs_Cds-CsH;HJ",
     kinetics = ArrheniusEP(
-        A = (111000000.0, 'cm^3/(mol*s)'),
+        A = (1.11e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.66, 'kcal/mol'),
@@ -45272,17 +36312,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2377,
     label = "Cds-CdCs_Cds-CsCs;HJ",
     kinetics = ArrheniusEP(
-        A = (129000000.0, 'cm^3/(mol*s)'),
+        A = (1.29e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.14, 'kcal/mol'),
@@ -45291,17 +36327,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2378,
     label = "Cds-CdCs_Cds-CdH;HJ",
     kinetics = ArrheniusEP(
-        A = (103000000.0, 'cm^3/(mol*s)'),
+        A = (1.03e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.67, 'kcal/mol'),
@@ -45310,17 +36342,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2379,
     label = "Cds-CdCs_Cds-CdCs;HJ",
     kinetics = ArrheniusEP(
-        A = (116000000.0, 'cm^3/(mol*s)'),
+        A = (1.16e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.43, 'kcal/mol'),
@@ -45329,17 +36357,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2380,
     label = "Cds-CdCs_Cds-CdCd;HJ",
     kinetics = ArrheniusEP(
-        A = (111000000.0, 'cm^3/(mol*s)'),
+        A = (1.11e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.75, 'kcal/mol'),
@@ -45348,17 +36372,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2381,
     label = "Cds-CdCs_Cds-CtH;HJ",
     kinetics = ArrheniusEP(
-        A = (99700000.0, 'cm^3/(mol*s)'),
+        A = (9.97e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.95, 'kcal/mol'),
@@ -45367,17 +36387,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2382,
     label = "Cds-CdCs_Cds-CtCs;HJ",
     kinetics = ArrheniusEP(
-        A = (115000000.0, 'cm^3/(mol*s)'),
+        A = (1.15e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.69, 'kcal/mol'),
@@ -45386,17 +36402,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2383,
     label = "Cds-CdCs_Cds-CdCt;HJ",
     kinetics = ArrheniusEP(
-        A = (33900000.0, 'cm^3/(mol*s)'),
+        A = (3.39e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.86, 'kcal/mol'),
@@ -45405,17 +36417,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2384,
     label = "Cds-CdCs_Cds-CtCt;HJ",
     kinetics = ArrheniusEP(
-        A = (101000000.0, 'cm^3/(mol*s)'),
+        A = (1.01e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.48, 'kcal/mol'),
@@ -45424,17 +36432,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2385,
     label = "Cds-CdCs_Cds-CbH;HJ",
     kinetics = ArrheniusEP(
-        A = (26900000.0, 'cm^3/(mol*s)'),
+        A = (2.69e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.7, 'kcal/mol'),
@@ -45443,17 +36447,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2386,
     label = "Cds-CdCs_Cds-CbCs;HJ",
     kinetics = ArrheniusEP(
-        A = (79200000.0, 'cm^3/(mol*s)'),
+        A = (7.92e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.2, 'kcal/mol'),
@@ -45462,17 +36462,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2387,
     label = "Cds-CdCs_Ca;HJ",
     kinetics = ArrheniusEP(
-        A = (93800000.0, 'cm^3/(mol*s)'),
+        A = (9.38e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.32, 'kcal/mol'),
@@ -45481,17 +36477,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2388,
     label = "Cds-CdCd_Cds-HH;HJ",
     kinetics = ArrheniusEP(
-        A = (135000000.0, 'cm^3/(mol*s)'),
+        A = (1.35e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.78, 'kcal/mol'),
@@ -45500,17 +36492,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2389,
     label = "Cds-CdCd_Cds-CsH;HJ",
     kinetics = ArrheniusEP(
-        A = (145000000.0, 'cm^3/(mol*s)'),
+        A = (1.45e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.29, 'kcal/mol'),
@@ -45519,17 +36507,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2390,
     label = "Cds-CdCd_Cds-CsCs;HJ",
     kinetics = ArrheniusEP(
-        A = (168000000.0, 'cm^3/(mol*s)'),
+        A = (1.68e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.77, 'kcal/mol'),
@@ -45538,17 +36522,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2391,
     label = "Cds-CdCd_Cds-CdH;HJ",
     kinetics = ArrheniusEP(
-        A = (134000000.0, 'cm^3/(mol*s)'),
+        A = (1.34e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.3, 'kcal/mol'),
@@ -45557,17 +36537,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2392,
     label = "Cds-CdCd_Cds-CdCs;HJ",
     kinetics = ArrheniusEP(
-        A = (151000000.0, 'cm^3/(mol*s)'),
+        A = (1.51e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.06, 'kcal/mol'),
@@ -45576,17 +36552,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2393,
     label = "Cds-CdCd_Cds-CdCd;HJ",
     kinetics = ArrheniusEP(
-        A = (145000000.0, 'cm^3/(mol*s)'),
+        A = (1.45e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.38, 'kcal/mol'),
@@ -45595,17 +36567,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2394,
     label = "Cds-CdCd_Cds-CtH;HJ",
     kinetics = ArrheniusEP(
-        A = (130000000.0, 'cm^3/(mol*s)'),
+        A = (1.3e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.58, 'kcal/mol'),
@@ -45614,17 +36582,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2395,
     label = "Cds-CdCd_Cds-CtCs;HJ",
     kinetics = ArrheniusEP(
-        A = (149000000.0, 'cm^3/(mol*s)'),
+        A = (1.49e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.32, 'kcal/mol'),
@@ -45633,17 +36597,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2396,
     label = "Cds-CdCd_Cds-CdCt;HJ",
     kinetics = ArrheniusEP(
-        A = (44100000.0, 'cm^3/(mol*s)'),
+        A = (4.41e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.49, 'kcal/mol'),
@@ -45652,17 +36612,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2397,
     label = "Cds-CdCd_Cds-CtCt;HJ",
     kinetics = ArrheniusEP(
-        A = (131000000.0, 'cm^3/(mol*s)'),
+        A = (1.31e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.11, 'kcal/mol'),
@@ -45671,17 +36627,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2398,
     label = "Cds-CdCd_Cds-CbH;HJ",
     kinetics = ArrheniusEP(
-        A = (35000000.0, 'cm^3/(mol*s)'),
+        A = (3.5e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (4.33, 'kcal/mol'),
@@ -45690,17 +36642,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2399,
     label = "Cds-CdCd_Cds-CbCs;HJ",
     kinetics = ArrheniusEP(
-        A = (103000000.0, 'cm^3/(mol*s)'),
+        A = (1.03e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.83, 'kcal/mol'),
@@ -45709,17 +36657,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2400,
     label = "Cds-CdCd_Ca;HJ",
     kinetics = ArrheniusEP(
-        A = (122000000.0, 'cm^3/(mol*s)'),
+        A = (1.22e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.95, 'kcal/mol'),
@@ -45728,17 +36672,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2401,
     label = "Cds-CtH_Cds-HH;HJ",
     kinetics = ArrheniusEP(
-        A = (149000000.0, 'cm^3/(mol*s)'),
+        A = (1.49e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.61, 'kcal/mol'),
@@ -45747,17 +36687,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2402,
     label = "Cds-CtH_Cds-CsH;HJ",
     kinetics = ArrheniusEP(
-        A = (160000000.0, 'cm^3/(mol*s)'),
+        A = (1.6e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.12, 'kcal/mol'),
@@ -45766,17 +36702,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2403,
     label = "Cds-CtH_Cds-CsCs;HJ",
     kinetics = ArrheniusEP(
-        A = (185000000.0, 'cm^3/(mol*s)'),
+        A = (1.85e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.6, 'kcal/mol'),
@@ -45785,17 +36717,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2404,
     label = "Cds-CtH_Cds-CdH;HJ",
     kinetics = ArrheniusEP(
-        A = (148000000.0, 'cm^3/(mol*s)'),
+        A = (1.48e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.13, 'kcal/mol'),
@@ -45804,17 +36732,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2405,
     label = "Cds-CtH_Cds-CdCs;HJ",
     kinetics = ArrheniusEP(
-        A = (166000000.0, 'cm^3/(mol*s)'),
+        A = (1.66e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.89, 'kcal/mol'),
@@ -45823,17 +36747,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2406,
     label = "Cds-CtH_Cds-CdCd;HJ",
     kinetics = ArrheniusEP(
-        A = (159000000.0, 'cm^3/(mol*s)'),
+        A = (1.59e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.21, 'kcal/mol'),
@@ -45842,17 +36762,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2407,
     label = "Cds-CtH_Cds-CtH;HJ",
     kinetics = ArrheniusEP(
-        A = (143000000.0, 'cm^3/(mol*s)'),
+        A = (1.43e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.41, 'kcal/mol'),
@@ -45861,17 +36777,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2408,
     label = "Cds-CtH_Cds-CtCs;HJ",
     kinetics = ArrheniusEP(
-        A = (165000000.0, 'cm^3/(mol*s)'),
+        A = (1.65e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.15, 'kcal/mol'),
@@ -45880,17 +36792,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2409,
     label = "Cds-CtH_Cds-CdCt;HJ",
     kinetics = ArrheniusEP(
-        A = (48700000.0, 'cm^3/(mol*s)'),
+        A = (4.87e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.32, 'kcal/mol'),
@@ -45899,17 +36807,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2410,
     label = "Cds-CtH_Cds-CtCt;HJ",
     kinetics = ArrheniusEP(
-        A = (144000000.0, 'cm^3/(mol*s)'),
+        A = (1.44e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (0.94, 'kcal/mol'),
@@ -45918,17 +36822,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2411,
     label = "Cds-CtH_Cds-CbH;HJ",
     kinetics = ArrheniusEP(
-        A = (38600000.0, 'cm^3/(mol*s)'),
+        A = (3.86e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.16, 'kcal/mol'),
@@ -45937,17 +36837,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2412,
     label = "Cds-CtH_Cds-CbCs;HJ",
     kinetics = ArrheniusEP(
-        A = (114000000.0, 'cm^3/(mol*s)'),
+        A = (1.14e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.66, 'kcal/mol'),
@@ -45956,17 +36852,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2413,
     label = "Cds-CtH_Ca;HJ",
     kinetics = ArrheniusEP(
-        A = (135000000.0, 'cm^3/(mol*s)'),
+        A = (1.35e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.78, 'kcal/mol'),
@@ -45975,17 +36867,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2414,
     label = "Cds-CtCs_Cds-HH;HJ",
     kinetics = ArrheniusEP(
-        A = (91700000.0, 'cm^3/(mol*s)'),
+        A = (9.17e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.73, 'kcal/mol'),
@@ -45994,17 +36882,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2415,
     label = "Cds-CtCs_Cds-CsH;HJ",
     kinetics = ArrheniusEP(
-        A = (98400000.0, 'cm^3/(mol*s)'),
+        A = (9.84e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.24, 'kcal/mol'),
@@ -46013,17 +36897,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2416,
     label = "Cds-CtCs_Cds-CsCs;HJ",
     kinetics = ArrheniusEP(
-        A = (114000000.0, 'cm^3/(mol*s)'),
+        A = (1.14e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.72, 'kcal/mol'),
@@ -46032,17 +36912,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2417,
     label = "Cds-CtCs_Cds-CdH;HJ",
     kinetics = ArrheniusEP(
-        A = (91300000.0, 'cm^3/(mol*s)'),
+        A = (9.13e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.25, 'kcal/mol'),
@@ -46051,17 +36927,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2418,
     label = "Cds-CtCs_Cds-CdCs;HJ",
     kinetics = ArrheniusEP(
-        A = (102000000.0, 'cm^3/(mol*s)'),
+        A = (1.02e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2, 'kcal/mol'),
@@ -46070,17 +36942,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2419,
     label = "Cds-CtCs_Cds-CdCd;HJ",
     kinetics = ArrheniusEP(
-        A = (98300000.0, 'cm^3/(mol*s)'),
+        A = (9.83e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.32, 'kcal/mol'),
@@ -46089,17 +36957,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2420,
     label = "Cds-CtCs_Cds-CtH;HJ",
     kinetics = ArrheniusEP(
-        A = (88300000.0, 'cm^3/(mol*s)'),
+        A = (8.83e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.52, 'kcal/mol'),
@@ -46108,17 +36972,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2421,
     label = "Cds-CtCs_Cds-CtCs;HJ",
     kinetics = ArrheniusEP(
-        A = (101000000.0, 'cm^3/(mol*s)'),
+        A = (1.01e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.26, 'kcal/mol'),
@@ -46127,17 +36987,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2422,
     label = "Cds-CtCs_Cds-CdCt;HJ",
     kinetics = ArrheniusEP(
-        A = (30000000.0, 'cm^3/(mol*s)'),
+        A = (3e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.43, 'kcal/mol'),
@@ -46146,17 +37002,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2423,
     label = "Cds-CtCs_Cds-CtCt;HJ",
     kinetics = ArrheniusEP(
-        A = (89000000.0, 'cm^3/(mol*s)'),
+        A = (8.9e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.05, 'kcal/mol'),
@@ -46165,17 +37017,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2424,
     label = "Cds-CtCs_Cds-CbH;HJ",
     kinetics = ArrheniusEP(
-        A = (23800000.0, 'cm^3/(mol*s)'),
+        A = (2.38e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (4.27, 'kcal/mol'),
@@ -46184,17 +37032,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2425,
     label = "Cds-CtCs_Cds-CbCs;HJ",
     kinetics = ArrheniusEP(
-        A = (70100000.0, 'cm^3/(mol*s)'),
+        A = (7.01e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.77, 'kcal/mol'),
@@ -46203,17 +37047,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2426,
     label = "Cds-CtCs_Ca;HJ",
     kinetics = ArrheniusEP(
-        A = (83000000.0, 'cm^3/(mol*s)'),
+        A = (8.3e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.89, 'kcal/mol'),
@@ -46222,17 +37062,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2427,
     label = "Cds-CdCt_Cds-HH;HJ",
     kinetics = ArrheniusEP(
-        A = (136000000.0, 'cm^3/(mol*s)'),
+        A = (1.36e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (4.3, 'kcal/mol'),
@@ -46241,17 +37077,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2428,
     label = "Cds-CdCt_Cds-CsH;HJ",
     kinetics = ArrheniusEP(
-        A = (145000000.0, 'cm^3/(mol*s)'),
+        A = (1.45e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.81, 'kcal/mol'),
@@ -46260,17 +37092,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2429,
     label = "Cds-CdCt_Cds-CsCs;HJ",
     kinetics = ArrheniusEP(
-        A = (169000000.0, 'cm^3/(mol*s)'),
+        A = (1.69e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.29, 'kcal/mol'),
@@ -46279,17 +37107,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2430,
     label = "Cds-CdCt_Cds-CdH;HJ",
     kinetics = ArrheniusEP(
-        A = (135000000.0, 'cm^3/(mol*s)'),
+        A = (1.35e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.82, 'kcal/mol'),
@@ -46298,17 +37122,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2431,
     label = "Cds-CdCt_Cds-CdCs;HJ",
     kinetics = ArrheniusEP(
-        A = (151000000.0, 'cm^3/(mol*s)'),
+        A = (1.51e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.58, 'kcal/mol'),
@@ -46317,17 +37137,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2432,
     label = "Cds-CdCt_Cds-CdCd;HJ",
     kinetics = ArrheniusEP(
-        A = (145000000.0, 'cm^3/(mol*s)'),
+        A = (1.45e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.89, 'kcal/mol'),
@@ -46336,17 +37152,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2433,
     label = "Cds-CdCt_Cds-CtH;HJ",
     kinetics = ArrheniusEP(
-        A = (130000000.0, 'cm^3/(mol*s)'),
+        A = (1.3e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.1, 'kcal/mol'),
@@ -46355,17 +37167,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2434,
     label = "Cds-CdCt_Cds-CtCs;HJ",
     kinetics = ArrheniusEP(
-        A = (150000000.0, 'cm^3/(mol*s)'),
+        A = (1.5e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.84, 'kcal/mol'),
@@ -46374,17 +37182,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2435,
     label = "Cds-CdCt_Cds-CdCt;HJ",
     kinetics = ArrheniusEP(
-        A = (44300000.0, 'cm^3/(mol*s)'),
+        A = (4.43e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.01, 'kcal/mol'),
@@ -46393,17 +37197,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2436,
     label = "Cds-CdCt_Cds-CtCt;HJ",
     kinetics = ArrheniusEP(
-        A = (132000000.0, 'cm^3/(mol*s)'),
+        A = (1.32e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.63, 'kcal/mol'),
@@ -46412,17 +37212,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2437,
     label = "Cds-CdCt_Cds-CbH;HJ",
     kinetics = ArrheniusEP(
-        A = (35100000.0, 'cm^3/(mol*s)'),
+        A = (3.51e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (4.85, 'kcal/mol'),
@@ -46431,17 +37227,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2438,
     label = "Cds-CdCt_Cds-CbCs;HJ",
     kinetics = ArrheniusEP(
-        A = (104000000.0, 'cm^3/(mol*s)'),
+        A = (1.04e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (4.34, 'kcal/mol'),
@@ -46450,17 +37242,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2439,
     label = "Cds-CdCt_Ca;HJ",
     kinetics = ArrheniusEP(
-        A = (123000000.0, 'cm^3/(mol*s)'),
+        A = (1.23e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (4.47, 'kcal/mol'),
@@ -46469,17 +37257,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2440,
     label = "Cds-CtCt_Cds-HH;HJ",
     kinetics = ArrheniusEP(
-        A = (127000000.0, 'cm^3/(mol*s)'),
+        A = (1.27e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (4.9, 'kcal/mol'),
@@ -46488,17 +37272,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2441,
     label = "Cds-CtCt_Cds-CsH;HJ",
     kinetics = ArrheniusEP(
-        A = (136000000.0, 'cm^3/(mol*s)'),
+        A = (1.36e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (4.41, 'kcal/mol'),
@@ -46507,17 +37287,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2442,
     label = "Cds-CtCt_Cds-CsCs;HJ",
     kinetics = ArrheniusEP(
-        A = (158000000.0, 'cm^3/(mol*s)'),
+        A = (1.58e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.89, 'kcal/mol'),
@@ -46526,17 +37302,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2443,
     label = "Cds-CtCt_Cds-CdH;HJ",
     kinetics = ArrheniusEP(
-        A = (126000000.0, 'cm^3/(mol*s)'),
+        A = (1.26e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.42, 'kcal/mol'),
@@ -46545,17 +37317,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2444,
     label = "Cds-CtCt_Cds-CdCs;HJ",
     kinetics = ArrheniusEP(
-        A = (141000000.0, 'cm^3/(mol*s)'),
+        A = (1.41e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.18, 'kcal/mol'),
@@ -46564,17 +37332,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2445,
     label = "Cds-CtCt_Cds-CdCd;HJ",
     kinetics = ArrheniusEP(
-        A = (136000000.0, 'cm^3/(mol*s)'),
+        A = (1.36e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.49, 'kcal/mol'),
@@ -46583,17 +37347,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2446,
     label = "Cds-CtCt_Cds-CtH;HJ",
     kinetics = ArrheniusEP(
-        A = (122000000.0, 'cm^3/(mol*s)'),
+        A = (1.22e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.69, 'kcal/mol'),
@@ -46602,17 +37362,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2447,
     label = "Cds-CtCt_Cds-CtCs;HJ",
     kinetics = ArrheniusEP(
-        A = (140000000.0, 'cm^3/(mol*s)'),
+        A = (1.4e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.44, 'kcal/mol'),
@@ -46621,17 +37377,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2448,
     label = "Cds-CtCt_Cds-CdCt;HJ",
     kinetics = ArrheniusEP(
-        A = (41400000.0, 'cm^3/(mol*s)'),
+        A = (4.14e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.61, 'kcal/mol'),
@@ -46640,17 +37392,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2449,
     label = "Cds-CtCt_Cds-CtCt;HJ",
     kinetics = ArrheniusEP(
-        A = (123000000.0, 'cm^3/(mol*s)'),
+        A = (1.23e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.23, 'kcal/mol'),
@@ -46659,17 +37407,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2450,
     label = "Cds-CtCt_Cds-CbH;HJ",
     kinetics = ArrheniusEP(
-        A = (32800000.0, 'cm^3/(mol*s)'),
+        A = (3.28e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (5.44, 'kcal/mol'),
@@ -46678,17 +37422,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2451,
     label = "Cds-CtCt_Cds-CbCs;HJ",
     kinetics = ArrheniusEP(
-        A = (96800000.0, 'cm^3/(mol*s)'),
+        A = (9.68e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (4.94, 'kcal/mol'),
@@ -46697,17 +37437,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2452,
     label = "Cds-CtCt_Ca;HJ",
     kinetics = ArrheniusEP(
-        A = (115000000.0, 'cm^3/(mol*s)'),
+        A = (1.15e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (5.06, 'kcal/mol'),
@@ -46716,17 +37452,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2453,
     label = "Cds-CbH_Cds-HH;HJ",
     kinetics = ArrheniusEP(
-        A = (47000000.0, 'cm^3/(mol*s)'),
+        A = (4.7e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (4.53, 'kcal/mol'),
@@ -46735,17 +37467,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2454,
     label = "Cds-CbH_Cds-CsH;HJ",
     kinetics = ArrheniusEP(
-        A = (50400000.0, 'cm^3/(mol*s)'),
+        A = (5.04e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (4.03, 'kcal/mol'),
@@ -46754,17 +37482,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2455,
     label = "Cds-CbH_Cds-CsCs;HJ",
     kinetics = ArrheniusEP(
-        A = (58500000.0, 'cm^3/(mol*s)'),
+        A = (5.85e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.51, 'kcal/mol'),
@@ -46773,17 +37497,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2456,
     label = "Cds-CbH_Cds-CdH;HJ",
     kinetics = ArrheniusEP(
-        A = (46800000.0, 'cm^3/(mol*s)'),
+        A = (4.68e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.05, 'kcal/mol'),
@@ -46792,17 +37512,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2457,
     label = "Cds-CbH_Cds-CdCs;HJ",
     kinetics = ArrheniusEP(
-        A = (52400000.0, 'cm^3/(mol*s)'),
+        A = (5.24e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.8, 'kcal/mol'),
@@ -46811,17 +37527,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2458,
     label = "Cds-CbH_Cds-CdCd;HJ",
     kinetics = ArrheniusEP(
-        A = (50300000.0, 'cm^3/(mol*s)'),
+        A = (5.03e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.12, 'kcal/mol'),
@@ -46830,17 +37542,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2459,
     label = "Cds-CbH_Cds-CtH;HJ",
     kinetics = ArrheniusEP(
-        A = (45200000.0, 'cm^3/(mol*s)'),
+        A = (4.52e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.32, 'kcal/mol'),
@@ -46849,17 +37557,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2460,
     label = "Cds-CbH_Cds-CtCs;HJ",
     kinetics = ArrheniusEP(
-        A = (51900000.0, 'cm^3/(mol*s)'),
+        A = (5.19e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.06, 'kcal/mol'),
@@ -46868,17 +37572,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2461,
     label = "Cds-CbH_Cds-CdCt;HJ",
     kinetics = ArrheniusEP(
-        A = (15400000.0, 'cm^3/(mol*s)'),
+        A = (1.54e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.23, 'kcal/mol'),
@@ -46887,17 +37587,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2462,
     label = "Cds-CbH_Cds-CtCt;HJ",
     kinetics = ArrheniusEP(
-        A = (45600000.0, 'cm^3/(mol*s)'),
+        A = (4.56e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.85, 'kcal/mol'),
@@ -46906,17 +37602,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2463,
     label = "Cds-CbH_Cds-CbH;HJ",
     kinetics = ArrheniusEP(
-        A = (12200000.0, 'cm^3/(mol*s)'),
+        A = (1.22e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (5.07, 'kcal/mol'),
@@ -46925,17 +37617,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2464,
     label = "Cds-CbH_Cds-CbCs;HJ",
     kinetics = ArrheniusEP(
-        A = (35900000.0, 'cm^3/(mol*s)'),
+        A = (3.59e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (4.57, 'kcal/mol'),
@@ -46944,17 +37632,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2465,
     label = "Cds-CbH_Ca;HJ",
     kinetics = ArrheniusEP(
-        A = (42500000.0, 'cm^3/(mol*s)'),
+        A = (4.25e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (4.69, 'kcal/mol'),
@@ -46963,17 +37647,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2466,
     label = "Cds-CbCs_Cds-HH;HJ",
     kinetics = ArrheniusEP(
-        A = (67300000.0, 'cm^3/(mol*s)'),
+        A = (6.73e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (4.48, 'kcal/mol'),
@@ -46982,17 +37662,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2467,
     label = "Cds-CbCs_Cds-CsH;HJ",
     kinetics = ArrheniusEP(
-        A = (72200000.0, 'cm^3/(mol*s)'),
+        A = (7.22e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.99, 'kcal/mol'),
@@ -47001,17 +37677,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2468,
     label = "Cds-CbCs_Cds-CsCs;HJ",
     kinetics = ArrheniusEP(
-        A = (83700000.0, 'cm^3/(mol*s)'),
+        A = (8.37e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.47, 'kcal/mol'),
@@ -47020,17 +37692,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2469,
     label = "Cds-CbCs_Cds-CdH;HJ",
     kinetics = ArrheniusEP(
-        A = (67000000.0, 'cm^3/(mol*s)'),
+        A = (6.7e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3, 'kcal/mol'),
@@ -47039,17 +37707,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2470,
     label = "Cds-CbCs_Cds-CdCs;HJ",
     kinetics = ArrheniusEP(
-        A = (75100000.0, 'cm^3/(mol*s)'),
+        A = (7.51e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.75, 'kcal/mol'),
@@ -47058,17 +37722,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2471,
     label = "Cds-CbCs_Cds-CdCd;HJ",
     kinetics = ArrheniusEP(
-        A = (72100000.0, 'cm^3/(mol*s)'),
+        A = (7.21e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.07, 'kcal/mol'),
@@ -47077,17 +37737,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2472,
     label = "Cds-CbCs_Cds-CtH;HJ",
     kinetics = ArrheniusEP(
-        A = (64800000.0, 'cm^3/(mol*s)'),
+        A = (6.48e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.27, 'kcal/mol'),
@@ -47096,17 +37752,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2473,
     label = "Cds-CbCs_Cds-CtCs;HJ",
     kinetics = ArrheniusEP(
-        A = (74400000.0, 'cm^3/(mol*s)'),
+        A = (7.44e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.01, 'kcal/mol'),
@@ -47115,17 +37767,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2474,
     label = "Cds-CbCs_Cds-CdCt;HJ",
     kinetics = ArrheniusEP(
-        A = (22000000.0, 'cm^3/(mol*s)'),
+        A = (2.2e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.19, 'kcal/mol'),
@@ -47134,17 +37782,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2475,
     label = "Cds-CbCs_Cds-CtCt;HJ",
     kinetics = ArrheniusEP(
-        A = (65300000.0, 'cm^3/(mol*s)'),
+        A = (6.53e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.8, 'kcal/mol'),
@@ -47153,17 +37797,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2476,
     label = "Cds-CbCs_Cds-CbH;HJ",
     kinetics = ArrheniusEP(
-        A = (17400000.0, 'cm^3/(mol*s)'),
+        A = (1.74e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (5.02, 'kcal/mol'),
@@ -47172,17 +37812,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2477,
     label = "Cds-CbCs_Cds-CbCs;HJ",
     kinetics = ArrheniusEP(
-        A = (51400000.0, 'cm^3/(mol*s)'),
+        A = (5.14e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (4.52, 'kcal/mol'),
@@ -47191,17 +37827,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2478,
     label = "Cds-CbCs_Ca;HJ",
     kinetics = ArrheniusEP(
-        A = (60900000.0, 'cm^3/(mol*s)'),
+        A = (6.09e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (4.64, 'kcal/mol'),
@@ -47210,17 +37842,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2479,
     label = "Ct-H_Ct-H;HJ",
     kinetics = ArrheniusEP(
-        A = (515000000.0, 'cm^3/(mol*s)'),
+        A = (5.15e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.11, 'kcal/mol'),
@@ -47229,17 +37857,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2480,
     label = "Ct-H_Ct-Cs;HJ",
     kinetics = ArrheniusEP(
-        A = (1500000000.0, 'cm^3/(mol*s)'),
+        A = (1.5e+09, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.13, 'kcal/mol'),
@@ -47248,17 +37872,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2481,
     label = "Ct-H_Ct-Cd;HJ",
     kinetics = ArrheniusEP(
-        A = (570000000.0, 'cm^3/(mol*s)'),
+        A = (5.7e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.64, 'kcal/mol'),
@@ -47267,17 +37887,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2482,
     label = "Ct-H_Ct-Ct;HJ",
     kinetics = ArrheniusEP(
-        A = (4240000000.0, 'cm^3/(mol*s)'),
+        A = (4.24e+09, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.48, 'kcal/mol'),
@@ -47286,17 +37902,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2483,
     label = "Ct-Cs_Ct-H;HJ",
     kinetics = ArrheniusEP(
-        A = (692000000.0, 'cm^3/(mol*s)'),
+        A = (6.92e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.4, 'kcal/mol'),
@@ -47305,17 +37917,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2484,
     label = "Ct-Cs_Ct-Cs;HJ",
     kinetics = ArrheniusEP(
-        A = (2020000000.0, 'cm^3/(mol*s)'),
+        A = (2.02e+09, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (4.42, 'kcal/mol'),
@@ -47324,17 +37932,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2485,
     label = "Ct-Cs_Ct-Cd;HJ",
     kinetics = ArrheniusEP(
-        A = (766000000.0, 'cm^3/(mol*s)'),
+        A = (7.66e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.93, 'kcal/mol'),
@@ -47343,17 +37947,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2486,
     label = "Ct-Cs_Ct-Ct;HJ",
     kinetics = ArrheniusEP(
-        A = (5710000000.0, 'cm^3/(mol*s)'),
+        A = (5.71e+09, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.77, 'kcal/mol'),
@@ -47362,17 +37962,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2487,
     label = "Ct-Cd_Ct-H;HJ",
     kinetics = ArrheniusEP(
-        A = (262000000.0, 'cm^3/(mol*s)'),
+        A = (2.62e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.52, 'kcal/mol'),
@@ -47381,17 +37977,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2488,
     label = "Ct-Cd_Ct-Cs;HJ",
     kinetics = ArrheniusEP(
-        A = (763000000.0, 'cm^3/(mol*s)'),
+        A = (7.63e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (4.54, 'kcal/mol'),
@@ -47400,17 +37992,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2489,
     label = "Ct-Cd_Ct-Cd;HJ",
     kinetics = ArrheniusEP(
-        A = (290000000.0, 'cm^3/(mol*s)'),
+        A = (2.9e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.05, 'kcal/mol'),
@@ -47419,17 +38007,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2490,
     label = "Ct-Cd_Ct-Ct;HJ",
     kinetics = ArrheniusEP(
-        A = (2160000000.0, 'cm^3/(mol*s)'),
+        A = (2.16e+09, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.89, 'kcal/mol'),
@@ -47438,17 +38022,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2491,
     label = "Ct-Ct_Ct-H;HJ",
     kinetics = ArrheniusEP(
-        A = (837000000.0, 'cm^3/(mol*s)'),
+        A = (8.37e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (4.13, 'kcal/mol'),
@@ -47457,17 +38037,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2492,
     label = "Ct-Ct_Ct-Cs;HJ",
     kinetics = ArrheniusEP(
-        A = (2440000000.0, 'cm^3/(mol*s)'),
+        A = (2.44e+09, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (5.14, 'kcal/mol'),
@@ -47476,17 +38052,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2493,
     label = "Ct-Ct_Ct-Cd;HJ",
     kinetics = ArrheniusEP(
-        A = (927000000.0, 'cm^3/(mol*s)'),
+        A = (9.27e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.66, 'kcal/mol'),
@@ -47495,17 +38067,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2494,
     label = "Ct-Ct_Ct-Ct;HJ",
     kinetics = ArrheniusEP(
-        A = (6900000000.0, 'cm^3/(mol*s)'),
+        A = (6.9e+09, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.5, 'kcal/mol'),
@@ -47514,17 +38082,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2495,
     label = "Ca_Cds-HH;HJ",
     kinetics = ArrheniusEP(
-        A = (442000000.0, 'cm^3/(mol*s)'),
+        A = (4.42e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.82, 'kcal/mol'),
@@ -47533,17 +38097,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2496,
     label = "Ca_Cds-CsH;HJ",
     kinetics = ArrheniusEP(
-        A = (546000000.0, 'cm^3/(mol*s)'),
+        A = (5.46e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (3.78, 'kcal/mol'),
@@ -47552,17 +38112,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2497,
     label = "Ca_Cds-CsCs;HJ",
     kinetics = ArrheniusEP(
-        A = (306000000.0, 'cm^3/(mol*s)'),
+        A = (3.06e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (2.74, 'kcal/mol'),
@@ -47571,17 +38127,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2498,
     label = "Cds-HH_Sd;HJ",
     kinetics = ArrheniusEP(
-        A = (462000000.0, 'cm^3/(mol*s)'),
+        A = (4.62e+08, 'cm^3/(mol*s)'),
         n = 1.7,
         alpha = 0,
         E0 = (0.6, 'kcal/mol'),
@@ -47590,10 +38142,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -47609,10 +38157,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -47628,10 +38172,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3 ref + G3 contributie""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -47647,10 +38187,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3 ref + G3 contributie""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -47666,10 +38202,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3 ref + G3 contributie""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -47685,10 +38217,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -47704,10 +38232,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -47723,10 +38247,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -47742,10 +38262,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -47761,17 +38277,13 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2521,
     label = "Sd_Cds-HH;HJ",
     kinetics = ArrheniusEP(
-        A = (950000000.0, 'cm^3/(mol*s)'),
+        A = (9.5e+08, 'cm^3/(mol*s)'),
         n = 1.7,
         alpha = 0,
         E0 = (-0.7, 'kcal/mol'),
@@ -47780,10 +38292,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -47799,10 +38307,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -47818,10 +38322,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -47837,10 +38337,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -47856,10 +38352,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -47875,10 +38367,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -47894,10 +38382,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -47913,10 +38397,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -47932,10 +38412,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -47951,10 +38427,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -47970,10 +38442,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -47989,10 +38457,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -48008,10 +38472,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -48027,10 +38487,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -48046,17 +38502,13 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3000,
     label = "R_R;YJ",
     kinetics = ArrheniusEP(
-        A = (10000000000000.0, 'cm^3/(mol*s)'),
+        A = (1e+13, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0.5, 'kcal/mol'),
@@ -48065,17 +38517,13 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Default""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3001,
     label = "Cds-HH_Cds;HJ",
     kinetics = ArrheniusEP(
-        A = (10000000000000.0, 'cm^3/(mol*s)'),
+        A = (1e+13, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (1.2, 'kcal/mol'),
@@ -48084,17 +38532,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3002,
     label = "Cds-CsH_Cds;HJ",
     kinetics = ArrheniusEP(
-        A = (10000000000000.0, 'cm^3/(mol*s)'),
+        A = (1e+13, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (2.9, 'kcal/mol'),
@@ -48103,17 +38547,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3003,
     label = "Cds-CsCs_Cds;HJ",
     kinetics = ArrheniusEP(
-        A = (10000000000000.0, 'cm^3/(mol*s)'),
+        A = (1e+13, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (2.9, 'kcal/mol'),
@@ -48122,17 +38562,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3004,
     label = "Cds-HH_Cds;CsJ",
     kinetics = ArrheniusEP(
-        A = (85000000000.0, 'cm^3/(mol*s)'),
+        A = (8.5e+10, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (7.8, 'kcal/mol'),
@@ -48141,17 +38577,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3005,
     label = "Cds-CsH_Cds;CsJ",
     kinetics = ArrheniusEP(
-        A = (85000000000.0, 'cm^3/(mol*s)'),
+        A = (8.5e+10, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (10.6, 'kcal/mol'),
@@ -48160,17 +38592,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3006,
     label = "Cds-CsCs_Cds;CsJ",
     kinetics = ArrheniusEP(
-        A = (85000000000.0, 'cm^3/(mol*s)'),
+        A = (8.5e+10, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (10.6, 'kcal/mol'),
@@ -48179,17 +38607,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3007,
     label = "Cds-HH_Cds;O_rad/NonDe",
     kinetics = ArrheniusEP(
-        A = (100000000000.0, 'cm^3/(mol*s)'),
+        A = (1e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (12.5, 'kcal/mol'),
@@ -48198,17 +38622,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] in his reaction type 20. Based on recommendations of Chen and Bozzelli [57]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3008,
     label = "Cds-CsH_Cds;O_rad/NonDe",
     kinetics = ArrheniusEP(
-        A = (100000000000.0, 'cm^3/(mol*s)'),
+        A = (1e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (11, 'kcal/mol'),
@@ -48217,17 +38637,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] in his reaction type 20. Based on recommendations of Chen and Bozzelli [57]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3009,
     label = "Cds-CsCs_Cds;O_rad/NonDe",
     kinetics = ArrheniusEP(
-        A = (100000000000.0, 'cm^3/(mol*s)'),
+        A = (1e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (7.6, 'kcal/mol'),
@@ -48236,17 +38652,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] in his reaction type 20. Based on recommendations of Chen and Bozzelli [57]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3010,
     label = "Cds-HH_Cds-HH;HJ",
     kinetics = ArrheniusEP(
-        A = (1985000000.0, 'cm^3/(mol*s)', '*|/', 2),
+        A = (1.985e+09, 'cm^3/(mol*s)', '*|/', 2),
         n = 1.28,
         alpha = 0,
         E0 = (1.29, 'kcal/mol'),
@@ -48255,17 +38667,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Baulch et al. [94] literature review.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3011,
     label = "Cds-HH_Cds-HH;CsJ-HHH",
     kinetics = ArrheniusEP(
-        A = (165500000000.0, 'cm^3/(mol*s)', '*|/', 1.3),
+        A = (1.655e+11, 'cm^3/(mol*s)', '*|/', 1.3),
         n = 0,
         alpha = 0,
         E0 = (7.71, 'kcal/mol'),
@@ -48274,10 +38682,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -48293,17 +38697,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Knyazev et al. [147]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3013,
     label = "Cds-HH_Cds-HH;CsJ-OsHH",
     kinetics = ArrheniusEP(
-        A = (24100000000.0, 'cm^3/(mol*s)', '*|/', 5),
+        A = (2.41e+10, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
         alpha = 0,
         E0 = (6.96, 'kcal/mol'),
@@ -48312,17 +38712,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang et al. [90] literature review.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3014,
     label = "Cds-HH_Cds-HH;CdsJ-H",
     kinetics = ArrheniusEP(
-        A = (100000000000.0, 'cm^3/(mol*s)'),
+        A = (1e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (2.01, 'kcal/mol'),
@@ -48331,17 +38727,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Weissman and Benson [148] Estimated values.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3015,
     label = "Cds-HH_Cds-HH;OJ_pri",
     kinetics = ArrheniusEP(
-        A = (2710000000000.0, 'cm^3/(mol*s)'),
+        A = (2.71e+12, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -48350,17 +38742,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3016,
     label = "Cds-HH_Cds-CsH;HJ",
     kinetics = ArrheniusEP(
-        A = (13000000000000.0, 'cm^3/(mol*s)'),
+        A = (1.3e+13, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (1.56, 'kcal/mol'),
@@ -48369,10 +38757,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [149] experiments and limited review.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -48388,17 +38772,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Knyazev et al. [150]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3018,
     label = "Cds-HH_Cds-CsH;CsJ-HHH",
     kinetics = ArrheniusEP(
-        A = (169000000000.0, 'cm^3/(mol*s)', '*|/', 1.4),
+        A = (1.69e+11, 'cm^3/(mol*s)', '*|/', 1.4),
         n = 0,
         alpha = 0,
         E0 = (7.41, 'kcal/mol'),
@@ -48407,17 +38787,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [93] literature review.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3019,
     label = "Cds-HH_Cds-CsH;CsJ-CdHH",
     kinetics = ArrheniusEP(
-        A = (355000000000.0, 'cm^3/(mol*s)'),
+        A = (3.55e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (16.89, 'kcal/mol'),
@@ -48426,17 +38802,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Barbe et al. [151] Data are estimated.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3020,
     label = "Cds-HH_Cds-CsH;CsJ-CsCsCs",
     kinetics = ArrheniusEP(
-        A = (3070000000.0, 'cm^3/(mol*s)', '*|/', 10),
+        A = (3.07e+09, 'cm^3/(mol*s)', '*|/', 10),
         n = 0,
         alpha = 0,
         E0 = (5.88, 'kcal/mol'),
@@ -48445,17 +38817,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [93] literature review.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3021,
     label = "Cds-HH_Cds-CdH;CsJ-HHH",
     kinetics = ArrheniusEP(
-        A = (31550000000.0, 'cm^3/(mol*s)'),
+        A = (3.155e+10, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (7.49, 'kcal/mol'),
@@ -48464,17 +38832,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Perrin et al. [152] Data are estimated.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3022,
     label = "Cds-HH_Cds-CsCs;HJ",
     kinetics = ArrheniusEP(
-        A = (6210000000000.0, 'cm^3/(mol*s)'),
+        A = (6.21e+12, 'cm^3/(mol*s)'),
         n = 0.25,
         alpha = 0,
         E0 = (1.46, 'kcal/mol'),
@@ -48483,17 +38847,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Knyazev et al. [153]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3023,
     label = "Cds-HH_Cds-CsCs;CsJ-HHH",
     kinetics = ArrheniusEP(
-        A = (251000000000.0, 'cm^3/(mol*s)'),
+        A = (2.51e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (6.7, 'kcal/mol'),
@@ -48502,17 +38862,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Seres et al. [154] Data derived from fitting a complex mechanism.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3024,
     label = "Cds-CsH_Cds-HH;HJ",
     kinetics = ArrheniusEP(
-        A = (13000000000000.0, 'cm^3/(mol*s)'),
+        A = (1.3e+13, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (3.26, 'kcal/mol'),
@@ -48521,10 +38877,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [149] experiments and limited review.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -48540,17 +38892,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Knyazev et al. [147]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3026,
     label = "Cds-CsH_Cds-HH;CsJ-HHH",
     kinetics = ArrheniusEP(
-        A = (96400000000.0, 'cm^3/(mol*s)', '*|/', 3),
+        A = (9.64e+10, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
         alpha = 0,
         E0 = (8.01, 'kcal/mol'),
@@ -48559,17 +38907,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [93] literature review.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3027,
     label = "Cds-CsCs_Cds-HH;CsJ-HHH",
     kinetics = ArrheniusEP(
-        A = (223000000000.0, 'cm^3/(mol*s)'),
+        A = (2.23e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (10.59, 'kcal/mol'),
@@ -48578,17 +38922,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Slagle et al. [155] Data derived from detailed balance/reverse rate.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3028,
     label = "Cds-HH_Ca;HJ",
     kinetics = ArrheniusEP(
-        A = (10000000000000.0, 'cm^3/(mol*s)'),
+        A = (1e+13, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (1.2, 'kcal/mol'),
@@ -48597,17 +38937,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3029,
     label = "Cds-CsH_Ca;HJ",
     kinetics = ArrheniusEP(
-        A = (10000000000000.0, 'cm^3/(mol*s)'),
+        A = (1e+13, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (2.9, 'kcal/mol'),
@@ -48616,17 +38952,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3030,
     label = "Cds-CsCs_Ca;HJ",
     kinetics = ArrheniusEP(
-        A = (10000000000000.0, 'cm^3/(mol*s)'),
+        A = (1e+13, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (2.9, 'kcal/mol'),
@@ -48635,17 +38967,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3031,
     label = "Cds-HH_Ca;CsJ",
     kinetics = ArrheniusEP(
-        A = (85000000000.0, 'cm^3/(mol*s)'),
+        A = (8.5e+10, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (7.8, 'kcal/mol'),
@@ -48654,17 +38982,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3032,
     label = "Cds-CsH_Ca;CsJ",
     kinetics = ArrheniusEP(
-        A = (85000000000.0, 'cm^3/(mol*s)'),
+        A = (8.5e+10, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (10.6, 'kcal/mol'),
@@ -48673,17 +38997,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3033,
     label = "Cds-CsCs_Ca;CsJ",
     kinetics = ArrheniusEP(
-        A = (85000000000.0, 'cm^3/(mol*s)'),
+        A = (8.5e+10, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (10.6, 'kcal/mol'),
@@ -48692,17 +39012,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3034,
     label = "Cds-HH_Ca;CsJ-HHH",
     kinetics = ArrheniusEP(
-        A = (57500000000.0, 'cm^3/(mol*s)'),
+        A = (5.75e+10, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (6.84, 'kcal/mol', '+|-', 0.2),
@@ -48711,17 +39027,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Scherzer et al. [156] Data derived from fitting a complex mechanism.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3035,
     label = "Ca_Cds-HH;HJ",
     kinetics = ArrheniusEP(
-        A = (120000000000.0, 'cm^3/(mol*s)', '*|/', 2.5),
+        A = (1.2e+11, 'cm^3/(mol*s)', '*|/', 2.5),
         n = 0.69,
         alpha = 0,
         E0 = (3, 'kcal/mol'),
@@ -48730,17 +39042,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang et al. [157]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3036,
     label = "Ca_Cds-HH;CsJ-HHH",
     kinetics = ArrheniusEP(
-        A = (158000000000.0, 'cm^3/(mol*s)'),
+        A = (1.58e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (4.97, 'kcal/mol'),
@@ -48749,17 +39057,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Tsang [158] Data is estimated.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3037,
     label = "CO_O;HJ",
     kinetics = ArrheniusEP(
-        A = (100000000000.0, 'cm^3/(mol*s)'),
+        A = (1e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (11.9, 'kcal/mol'),
@@ -48768,17 +39072,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] in his reaction type 18.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3038,
     label = "CO_O;CsJ",
     kinetics = ArrheniusEP(
-        A = (100000000000.0, 'cm^3/(mol*s)'),
+        A = (1e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (11.9, 'kcal/mol'),
@@ -48787,17 +39087,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] in his reaction type 18.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3039,
     label = "CO_O;CO_pri_rad",
     kinetics = ArrheniusEP(
-        A = (520000000000.0, 'cm^3/(mol*s)'),
+        A = (5.2e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (6.56, 'kcal/mol'),
@@ -48806,17 +39102,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Bozzelli et al. [144] based on CH3 addition to CO (Anastasi and Maw)""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3040,
     label = "CO_O;O_rad/OneDe",
     kinetics = ArrheniusEP(
-        A = (130000000000.0, 'cm^3/(mol*s)'),
+        A = (1.3e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (7.4, 'kcal/mol'),
@@ -48825,17 +39117,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran esitmation [159] in DME oxidation modeling for ketohydroperoxide decomposition.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3041,
     label = "CO/H2_O;CsJ-CsHH",
     kinetics = ArrheniusEP(
-        A = (79400000000.0, 'cm^3/(mol*s)'),
+        A = (7.94e+10, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (6.7, 'kcal/mol', '+|-', 0.47),
@@ -48844,17 +39132,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Knoll et al. [160] Data derived from fitting a complex mechanism.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3042,
     label = "CO/Nd2_O;CsJ-HHH",
     kinetics = ArrheniusEP(
-        A = (31600000000.0, 'cm^3/(mol*s)'),
+        A = (3.16e+10, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (11.51, 'kcal/mol', '+|-', 1.15),
@@ -48863,17 +39147,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Knoll et al. [161]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3043,
     label = "Ct-H_Ct-H;HJ",
     kinetics = ArrheniusEP(
-        A = (2750000000000.0, 'cm^3/(mol*s)'),
+        A = (2.75e+12, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (2.42, 'kcal/mol'),
@@ -48882,17 +39162,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Warnatz [134] literature review.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3044,
     label = "Ct-H_Ct-H;CsJ-HHH",
     kinetics = ArrheniusEP(
-        A = (187500000000.0, 'cm^3/(mol*s)'),
+        A = (1.875e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (7.77, 'kcal/mol'),
@@ -48901,17 +39177,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""E.W. Diau and M.C. Lin [162] RRK(M) extrapolation.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3045,
     label = "Ct-H_Ct-H;CsJ-CsHH",
     kinetics = ArrheniusEP(
-        A = (25050000000.0, 'cm^3/(mol*s)'),
+        A = (2.505e+10, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (6.99, 'kcal/mol'),
@@ -48920,17 +39192,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Kerr et al. [163] literature review.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3046,
     label = "Ct-H_Ct-H;CsJ-CdHH",
     kinetics = ArrheniusEP(
-        A = (15950000000.0, 'cm^3/(mol*s)', '*|/', 10),
+        A = (1.595e+10, 'cm^3/(mol*s)', '*|/', 10),
         n = 0,
         alpha = 0,
         E0 = (6.96, 'kcal/mol'),
@@ -48939,17 +39207,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [93] literature review.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3047,
     label = "Ct-H_Ct-H;CsJ-CsCsH",
     kinetics = ArrheniusEP(
-        A = (25050000000.0, 'cm^3/(mol*s)'),
+        A = (2.505e+10, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (6.9, 'kcal/mol'),
@@ -48958,17 +39222,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Kerr et al. [163] literature review.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3048,
     label = "Ct-H_Ct-H;CsJ-CsCsCs",
     kinetics = ArrheniusEP(
-        A = (25050000000.0, 'cm^3/(mol*s)'),
+        A = (2.505e+10, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (5.31, 'kcal/mol'),
@@ -48977,10 +39237,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Dominguez et al. [164] Data derived from fitting a complex mechanism.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -48996,17 +39252,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Weissman et al. [121] Transition state theory.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3050,
     label = "Ct-H_Ct-H;CdsJ-H",
     kinetics = ArrheniusEP(
-        A = (315500000000.0, 'cm^3/(mol*s)'),
+        A = (3.155e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (4.9, 'kcal/mol'),
@@ -49015,17 +39267,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Duran et al. [165] Ab initio.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3051,
     label = "Ct-H_Ct-H;CtJ_Ct",
     kinetics = ArrheniusEP(
-        A = (5000000000000.0, 'cm^3/(mol*s)'),
+        A = (5e+12, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -49034,17 +39282,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Duran et al. [165] Ab initio.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3052,
     label = "Ct-H_Ct-H;OJ_pri",
     kinetics = ArrheniusEP(
-        A = (605000000000.0, 'cm^3/(mol*s)', '*|/', 10),
+        A = (6.05e+11, 'cm^3/(mol*s)', '*|/', 10),
         n = 0,
         alpha = 0,
         E0 = (0.46, 'kcal/mol'),
@@ -49053,17 +39297,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3053,
     label = "Ct-H_Ct-H;OJ_pri",
     kinetics = ArrheniusEP(
-        A = (76000000.0, 'cm^3/(mol*s)'),
+        A = (7.6e+07, 'cm^3/(mol*s)'),
         n = 1.7,
         alpha = 0,
         E0 = (1, 'kcal/mol'),
@@ -49072,17 +39312,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Miller et al. [166] Transition state theory.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3054,
     label = "Ct-H_Ct-H;OJ_sec",
     kinetics = ArrheniusEP(
-        A = (520000000000.0, 'cm^3/(mol*s)'),
+        A = (5.2e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (7.9, 'kcal/mol'),
@@ -49091,10 +39327,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Bozzelli et al. [144] based on CH3 addition to C2H2 (NIST)""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49110,10 +39342,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Sandeep CBS-QB3 calculations""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49128,11 +39356,6 @@ entry(
         Tmax = (1600, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49147,11 +39370,6 @@ entry(
         Tmax = (1600, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49166,11 +39384,6 @@ entry(
         Tmax = (1600, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49185,11 +39398,6 @@ entry(
         Tmax = (1600, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49205,10 +39413,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""pp, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49224,10 +39428,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""ps, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49243,10 +39443,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""pt, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49262,10 +39458,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""sp, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49281,10 +39473,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""ss, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49300,10 +39488,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""st, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49319,10 +39503,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""tp, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49338,10 +39518,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""ts, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49357,17 +39533,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""tt, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3069,
     label = "Cds-HH_Cds-CsH;OJ_pri",
     kinetics = ArrheniusEP(
-        A = (41500000000.0, 'cm^3/(mol*s)'),
+        A = (4.15e+10, 'cm^3/(mol*s)'),
         n = 0.68,
         alpha = 0,
         E0 = (-1.945, 'kcal/mol'),
@@ -49375,11 +39547,6 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49394,11 +39561,6 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49413,18 +39575,13 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3072,
     label = "Cds-HH_Cds-CsH;CsJ-OsHH",
     kinetics = ArrheniusEP(
-        A = (1381000.0, 'cm^3/(mol*s)'),
+        A = (1.381e+06, 'cm^3/(mol*s)'),
         n = 1.76,
         alpha = 0,
         E0 = (8.87, 'kcal/mol'),
@@ -49432,11 +39589,6 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49451,18 +39603,13 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3074,
     label = "CO/H/Nd_O;HJ",
     kinetics = ArrheniusEP(
-        A = (9600000000.0, 'cm^3/(mol*s)'),
+        A = (9.6e+09, 'cm^3/(mol*s)'),
         n = 0.935,
         alpha = 0,
         E0 = (4.17, 'kcal/mol'),
@@ -49470,18 +39617,13 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3077,
     label = "Cds-OsH_Sd;HJ",
     kinetics = ArrheniusEP(
-        A = (645000000.0, 'cm^3/(mol*s)'),
+        A = (6.45e+08, 'cm^3/(mol*s)'),
         n = 1.4,
         alpha = 0,
         E0 = (2.89, 'kcal/mol'),
@@ -49490,10 +39632,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC CBS-QB3 1DHR""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49509,10 +39647,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC CBS-QB3 1DHR""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49528,17 +39662,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC CBS-QB3 1dHR""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3080,
     label = "C=S_O;HJ",
     kinetics = ArrheniusEP(
-        A = (567000000.0, 'cm^3/(mol*s)'),
+        A = (5.67e+08, 'cm^3/(mol*s)'),
         n = 1.75,
         alpha = 0,
         E0 = (8.6, 'kcal/mol'),
@@ -49547,10 +39677,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49566,17 +39692,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""based on 2523""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3082,
     label = "Cds-CsH_Sd;HJ",
     kinetics = ArrheniusEP(
-        A = (1700000000.0, 'cm^3/(mol*s)'),
+        A = (1.7e+09, 'cm^3/(mol*s)'),
         n = 1.36,
         alpha = 0,
         E0 = (1.1, 'kcal/mol'),
@@ -49585,10 +39707,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49604,17 +39722,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3084,
     label = "Cds-OsH_Sd;HJ",
     kinetics = ArrheniusEP(
-        A = (645000000.0, 'cm^3/(mol*s)'),
+        A = (6.45e+08, 'cm^3/(mol*s)'),
         n = 1.4,
         alpha = 0,
         E0 = (2.89, 'kcal/mol'),
@@ -49623,10 +39737,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49642,10 +39752,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49661,17 +39767,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3087,
     label = "Sd_Cds-CsH;CsJ",
     kinetics = ArrheniusEP(
-        A = (3910000.0, 'cm^3/(mol*s)'),
+        A = (3.91e+06, 'cm^3/(mol*s)'),
         n = 1.66,
         alpha = 0,
         E0 = (-0.87, 'kcal/mol'),
@@ -49680,17 +39782,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3088,
     label = "C=S_O;HJ",
     kinetics = ArrheniusEP(
-        A = (567000000.0, 'cm^3/(mol*s)'),
+        A = (5.67e+08, 'cm^3/(mol*s)'),
         n = 1.75,
         alpha = 0,
         E0 = (8.6, 'kcal/mol'),
@@ -49699,10 +39797,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49718,10 +39812,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49737,10 +39827,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49756,17 +39842,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3092,
     label = "Cds-CsH_Sd;SsJ-H",
     kinetics = ArrheniusEP(
-        A = (11800000000000.0, 'cm^3/(mol*s)'),
+        A = (1.18e+13, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (-1.36, 'kcal/mol'),
@@ -49775,17 +39857,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""AA calcs""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3093,
     label = "Cds-CsH_Sd;SsJ-H",
     kinetics = ArrheniusEP(
-        A = (246000000000000.0, 'cm^3/(mol*s)'),
+        A = (2.46e+14, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (2.93, 'kcal/mol'),
@@ -49794,17 +39872,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""AA calcs""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3094,
     label = "Cds-SsH_Sd;CsJ-CsCsH",
     kinetics = ArrheniusEP(
-        A = (195000000000.0, 'cm^3/(mol*s)'),
+        A = (1.95e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (4.2, 'kcal/mol'),
@@ -49813,17 +39887,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""AA calcs""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3095,
     label = "Cds-SsCs_Sd;HJ",
     kinetics = ArrheniusEP(
-        A = (16200000000000.0, 'cm^3/(mol*s)'),
+        A = (1.62e+13, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (4.97, 'kcal/mol'),
@@ -49832,17 +39902,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""AA calcs""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3096,
     label = "Cdd-Sd_Sd;HJ",
     kinetics = ArrheniusEP(
-        A = (387000000.0, 'cm^3/(mol*s)'),
+        A = (3.87e+08, 'cm^3/(mol*s)'),
         n = 1.89,
         alpha = 0,
         E0 = (7.72, 'kcal/mol'),
@@ -49851,10 +39917,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49870,17 +39932,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3098,
     label = "Sd_Cds-OsCs;HJ",
     kinetics = ArrheniusEP(
-        A = (554000000.0, 'cm^3/(mol*s)'),
+        A = (5.54e+08, 'cm^3/(mol*s)'),
         n = 1.24,
         alpha = 0,
         E0 = (-0.35, 'kcal/mol'),
@@ -49889,10 +39947,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49908,17 +39962,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3100,
     label = "Cds-HH_Cds-HH;O_atom_triplet",
     kinetics = ArrheniusEP(
-        A = (44200000.0, 'cm^3/(mol*s)'),
+        A = (4.42e+07, 'cm^3/(mol*s)'),
         n = 1.55,
         alpha = 0,
         E0 = (-0.7, 'kcal/mol'),
@@ -49927,17 +39977,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3101,
     label = "Cds-CsH_Cds-HH;O_atom_triplet",
     kinetics = ArrheniusEP(
-        A = (41700000.0, 'cm^3/(mol*s)'),
+        A = (4.17e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (-1.4, 'kcal/mol'),
@@ -49946,17 +39992,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3102,
     label = "Cds-HH_Cds-CsH;O_atom_triplet",
     kinetics = ArrheniusEP(
-        A = (106000000.0, 'cm^3/(mol*s)'),
+        A = (1.06e+08, 'cm^3/(mol*s)'),
         n = 1.58,
         alpha = 0,
         E0 = (-2, 'kcal/mol'),
@@ -49965,10 +40007,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -49984,10 +40022,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -50003,10 +40037,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -50022,10 +40052,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -50041,17 +40067,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3107,
     label = "Cds-OJH_Cds-HH;HJ",
     kinetics = ArrheniusEP(
-        A = (6500000.0, 'cm^3/(mol*s)'),
+        A = (6.5e+06, 'cm^3/(mol*s)'),
         n = 1.86,
         alpha = 0,
         E0 = (6.6, 'kcal/mol'),
@@ -50060,17 +40082,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3108,
     label = "Cds-OJH_Cds-CsH;HJ",
     kinetics = ArrheniusEP(
-        A = (10800000.0, 'cm^3/(mol*s)'),
+        A = (1.08e+07, 'cm^3/(mol*s)'),
         n = 1.84,
         alpha = 0,
         E0 = (7.4, 'kcal/mol'),
@@ -50079,10 +40097,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -50098,17 +40112,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3113,
     label = "Cds-HH_Cds-Cs\H3/H;HJ",
     kinetics = ArrheniusEP(
-        A = (1840000000.0, 'cm^3/(mol*s)'),
+        A = (1.84e+09, 'cm^3/(mol*s)'),
         n = 1.553,
         alpha = 0,
         E0 = (1.57, 'kcal/mol'),
@@ -50117,17 +40127,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CCSD(T)/cc-pVTZ""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3114,
     label = "Cds-CsH_Cds-HH;HJ",
     kinetics = ArrheniusEP(
-        A = (117000000.0, 'cm^3/(mol*s)'),
+        A = (1.17e+08, 'cm^3/(mol*s)'),
         n = 1.68,
         alpha = 0,
         E0 = (2.03, 'kcal/mol'),
@@ -50136,10 +40142,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CCSD(T)/cc-pVTZ""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -50155,17 +40157,13 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""same as 3108""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3116,
     label = "Cds-HH_Cds-OsH;HJ",
     kinetics = ArrheniusEP(
-        A = (6670000000000.0, 'cm^3/(mol*s)'),
+        A = (6.67e+12, 'cm^3/(mol*s)'),
         n = 0.1,
         alpha = 0,
         E0 = (1.544, 'kcal/mol'),
@@ -50174,10 +40172,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""ED calc RQCISD(T)/aug-cc-pVTZ with 1dHR""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -50193,17 +40187,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""ED calc RQCISD(T)/aug-cc-pVTZ with 1dHR""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3118,
     label = "Od_Cd-CsH;HJ",
     kinetics = ArrheniusEP(
-        A = (4000000000.0, 'cm^3/(mol*s)'),
+        A = (4e+09, 'cm^3/(mol*s)'),
         n = 1.39,
         alpha = 0,
         E0 = (8.577, 'kcal/mol'),
@@ -50212,17 +40202,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""ED calc RQCISD(T)/aug-cc-pVTZ with 1dHR""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3119,
     label = "Cds-HH_Cds-Cs\H3/H;OJ_pri",
     kinetics = ArrheniusEP(
-        A = (2310000.0, 'cm^3/(mol*s)'),
+        A = (2.31e+06, 'cm^3/(mol*s)'),
         n = 1.76,
         alpha = 0,
         E0 = (-2.45, 'kcal/mol'),
@@ -50231,17 +40217,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3120,
     label = "Cds-OsH_Cds-CsH;HJ",
     kinetics = ArrheniusEP(
-        A = (21820000000.0, 'cm^3/(mol*s)'),
+        A = (2.182e+10, 'cm^3/(mol*s)'),
         n = 0.859,
         alpha = 0,
         E0 = (1.618, 'kcal/mol'),
@@ -50250,17 +40232,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3121,
     label = "Cds-HH_Cds-CsH;HJ",
     kinetics = ArrheniusEP(
-        A = (501400000.0, 'cm^3/(mol*s)'),
+        A = (5.014e+08, 'cm^3/(mol*s)'),
         n = 1.733,
         alpha = 0,
         E0 = (0.76, 'kcal/mol'),
@@ -50269,17 +40247,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3122,
     label = "Cds-HH_Cds-Cs\Os/H;HJ",
     kinetics = ArrheniusEP(
-        A = (501400000.0, 'cm^3/(mol*s)'),
+        A = (5.014e+08, 'cm^3/(mol*s)'),
         n = 1.733,
         alpha = 0,
         E0 = (0.76, 'kcal/mol'),
@@ -50288,17 +40262,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3123,
     label = "Cds-CsH_Cds-OsH;HJ",
     kinetics = ArrheniusEP(
-        A = (372000000.0, 'cm^3/(mol*s)'),
+        A = (3.72e+08, 'cm^3/(mol*s)'),
         n = 1.477,
         alpha = 0,
         E0 = (1.61, 'kcal/mol'),
@@ -50307,10 +40277,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -50326,10 +40292,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -50345,10 +40307,6 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""SSM calc CBS-QB3 1dhr, gave parent same value as one of the children""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -50364,10 +40322,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -50383,17 +40337,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3128,
     label = "Cds-Cs\Os/H_Cds-HH;HJ",
     kinetics = ArrheniusEP(
-        A = (173000000.0, 'cm^3/(mol*s)'),
+        A = (1.73e+08, 'cm^3/(mol*s)'),
         n = 1.583,
         alpha = 0,
         E0 = (1.81, 'kcal/mol'),
@@ -50402,10 +40352,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -50421,10 +40367,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -50440,17 +40382,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3131,
     label = "CO/H2_O;HJ",
     kinetics = ArrheniusEP(
-        A = (810000000000.0, 'cm^3/(mol*s)'),
+        A = (8.1e+11, 'cm^3/(mol*s)'),
         n = 0.37,
         alpha = 0,
         E0 = (5.19, 'kcal/mol'),
@@ -50459,12 +40397,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""High-P Limit from EFRC Mechanism""",
-    longDesc = 
-u"""
-
-""",
 )
-
 
 entry(
     index = 3200,
@@ -50478,7 +40411,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 1,
-    shortDesc = u"Added by Beat Buesser",
+    shortDesc = u"""Added by Beat Buesser""",
     longDesc = 
 u"""
 Added by Beat Buesser, value for reaction: CH2 + N2 = CH2NN (B&D #22a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
@@ -50497,7 +40430,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 1,
-    shortDesc = u"Added by Beat Buesser",
+    shortDesc = u"""Added by Beat Buesser""",
     longDesc = 
 u"""
 Added by Beat Buesser, value for reaction: CH + N2 = HCNN (B&D #24a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
@@ -50516,7 +40449,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 1,
-    shortDesc = u"Added by Beat Buesser",
+    shortDesc = u"""Added by Beat Buesser""",
     longDesc = 
 u"""
 Added by Beat Buesser, value for reaction: N2H2 + H = N2H3 (B&D #31a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
@@ -50535,7 +40468,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 1,
-    shortDesc = u"Added by Beat Buesser",
+    shortDesc = u"""Added by Beat Buesser""",
     longDesc = 
 u"""
 Added by Beat Buesser, value for reaction: HCN + OH = NCHOH (B&D #42b4) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
@@ -50554,7 +40487,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 1,
-    shortDesc = u"Added by Beat Buesser",
+    shortDesc = u"""Added by Beat Buesser""",
     longDesc = 
 u"""
 Added by Beat Buesser, value for reaction: HCN + H = H2CN (B&D #45a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
@@ -50573,7 +40506,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 1,
-    shortDesc = u"Added by Beat Buesser",
+    shortDesc = u"""Added by Beat Buesser""",
     longDesc = 
 u"""
 Added by Beat Buesser, value for reaction: HCN + H = HCNH (B&D #46) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
@@ -50592,7 +40525,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 1,
-    shortDesc = u"Added by Beat Buesser",
+    shortDesc = u"""Added by Beat Buesser""",
     longDesc = 
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + H = CH3NH (B&D #49a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
@@ -50611,7 +40544,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 1,
-    shortDesc = u"Added by Beat Buesser",
+    shortDesc = u"""Added by Beat Buesser""",
     longDesc = 
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + H = CH2NH2 (B&D #50) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
@@ -50625,12 +40558,12 @@ entry(
         A = (9.99e+25, 'cm^3/(mol*s)'),
         n = -5.73,
         alpha = 0,
-        E0 = (11.80, 'kcal/mol'),
+        E0 = (11.8, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
     rank = 1,
-    shortDesc = u"Added by Beat Buesser",
+    shortDesc = u"""Added by Beat Buesser""",
     longDesc = 
 u"""
 Added by Beat Buesser, value for reaction: HCN + O = HCNO (B&D #54) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",

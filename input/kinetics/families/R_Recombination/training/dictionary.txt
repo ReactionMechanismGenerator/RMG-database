@@ -1,152 +1,167 @@
 C3H7
-1    C 0 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 0 {1,S} {6,S} {7,S} {8,S}
-3  * C 1 0 {1,S} {9,S} {10,S}
-4    H 0 0 {1,S}
-5    H 0 0 {1,S}
-6    H 0 0 {2,S}
-7    H 0 0 {2,S}
-8    H 0 0 {2,S}
-9    H 0 0 {3,S}
-10   H 0 0 {3,S}
+multiplicity 2
+1    C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2    C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  * C u1 p0 c0 {1,S} {9,S} {10,S}
+4    H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {1,S}
+6    H u0 p0 c0 {2,S}
+7    H u0 p0 c0 {2,S}
+8    H u0 p0 c0 {2,S}
+9    H u0 p0 c0 {3,S}
+10   H u0 p0 c0 {3,S}
 
 N2O5
-1 N 0 0 {3,S} {4,D} {5,S}
-2 N 0 0 {3,S} {6,D} {7,S}
-3 O 0 2 {1,S} {2,S}
-4 O 0 2 {1,D}
-5 O 0 3 {1,S}
-6 O 0 2 {2,D}
-7 O 0 3 {2,S}
+1 N u0 p0 c+1 {3,S} {4,D} {5,S}
+2 N u0 p0 c+1 {3,S} {6,D} {7,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u0 p2 c0 {1,D}
+5 O u0 p3 c-1 {1,S}
+6 O u0 p2 c0 {2,D}
+7 O u0 p3 c-1 {2,S}
 
 N2O4
-1 N 0 0 {2,S} {3,S} {4,D}
-2 N 0 0 {1,S} {5,D} {6,S}
-3 O 0 3 {1,S}
-4 O 0 2 {1,D}
-5 O 0 2 {2,D}
-6 O 0 3 {2,S}
-
-NO
-1 * N 1 1 {2,D}
-2   O 0 2 {1,D}
-
-CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
-4 H 0 0 {1,S}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-
-C2H5O2
-1 C 0 0 {2,S} {3,S} {5,S} {6,S}
-2 C 0 0 {1,S} {7,S} {8,S} {9,S}
-3 O 0 2 {1,S} {4,S}
-4 O 1 2 {3,S}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
-8 H 0 0 {2,S}
-9 H 0 0 {2,S}
-
-NO3
-1 N 0 1 {2,S} {3,D}
-2 O 0 2 {1,S} {4,S}
-3 O 0 2 {1,D}
-4 O 1 2 {2,S}
-
-OH
-1 * O 1 2 {2,S}
-2   H 0 0 {1,S}
-
-HNO3
-1 N 0 0 {2,S} {3,D} {4,S}
-2 O 0 2 {1,S} {5,S}
-3 O 0 2 {1,D}
-4 O 0 3 {1,S}
-5 H 0 0 {2,S}
-
-CH3
-1 * C 1 0 {2,S} {3,S} {4,S}
-2   H 0 0 {1,S}
-3   H 0 0 {1,S}
-4   H 0 0 {1,S}
-
-C3H7O2
-1  C 0 0 {3,S} {4,S} {6,S} {7,S}
-2  C 0 0 {4,S} {8,S} {9,S} {10,S}
-3  O 0 2 {1,S} {5,S}
-4  C 0 0 {1,S} {2,S} {11,S} {12,S}
-5  O 1 2 {3,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
-11 H 0 0 {4,S}
-12 H 0 0 {4,S}
-
-NO2-2
-1   N 0 1 {2,D} {3,S}
-2   O 0 2 {1,D}
-3 * O 1 2 {1,S}
-
-C2H5
-1   C 0 0 {2,S} {3,S} {4,S} {5,S}
-2 * C 1 0 {1,S} {6,S} {7,S}
-3   H 0 0 {1,S}
-4   H 0 0 {1,S}
-5   H 0 0 {1,S}
-6   H 0 0 {2,S}
-7   H 0 0 {2,S}
-
-1-hydroxybutyl
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4 * C 1 0 {3,S} {5,S} {13,S}
-5  O 0 2 {4,S} {14,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
-11 H 0 0 {3,S}
-12 H 0 0 {3,S}
-13 H 0 0 {4,S}
-14 H 0 0 {5,S}
-
-NO3-2
-1   N 0 0 {2,D} {3,S} {4,S}
-2   O 0 2 {1,D}
-3 * O 1 2 {1,S}
-4   O 0 3 {1,S}
-
-O2
-1 * O 1 2 {2,S}
-2   O 1 2 {1,S}
-
-NO2
-1 * N 1 0 {2,S} {3,D}
-2   O 0 3 {1,S}
-3   O 0 2 {1,D}
+1 N u0 p0 c+1 {2,S} {3,S} {4,D}
+2 N u0 p0 c+1 {1,S} {5,D} {6,S}
+3 O u0 p3 c-1 {1,S}
+4 O u0 p2 c0 {1,D}
+5 O u0 p2 c0 {2,D}
+6 O u0 p3 c-1 {2,S}
 
 1-hydroxybutylO2
-1 C 0 0 {2,S} {3,S} {9,S} {10,S}
-2 C 0 0 {1,S} {4,S} {7,S} {8,S}
-3 C 0 0 {1,S} {5,S} {6,S} {11,S}
-4 C 0 0 {2,S} {12,S} {13,S} {14,S}
-5 O 0 2 {3,S} {15,S}
-6 O 0 2 {3,S} {16,S}
-7 H 0 0 {2,S}
-8 H 0 0 {2,S}
-9 H 0 0 {1,S}
-10 H 0 0 {1,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 O 1 2 {6,S}
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {5,S} {6,S} {11,S}
+4  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+5  O u0 p2 c0 {3,S} {15,S}
+6  O u0 p2 c0 {3,S} {16,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {4,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {4,S}
+15 H u0 p0 c0 {5,S}
+16 O u1 p2 c0 {6,S}
+
+NO
+multiplicity 2
+1 * N u1 p1 c0 {2,D}
+2   O u0 p2 c0 {1,D}
+
+CH3O2
+multiplicity 2
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 O u1 p2 c0 {2,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+
+C2H5O2
+multiplicity 2
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u1 p2 c0 {3,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
+
+OH
+multiplicity 2
+1 * O u1 p2 c0 {2,S}
+2   H u0 p0 c0 {1,S}
+
+1-hydroxybutyl
+multiplicity 2
+1    C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+2    C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
+3    C u0 p0 c0 {2,S} {4,S} {11,S} {12,S}
+4  * C u1 p0 c0 {3,S} {5,S} {13,S}
+5    O u0 p2 c0 {4,S} {14,S}
+6    H u0 p0 c0 {1,S}
+7    H u0 p0 c0 {1,S}
+8    H u0 p0 c0 {1,S}
+9    H u0 p0 c0 {2,S}
+10   H u0 p0 c0 {2,S}
+11   H u0 p0 c0 {3,S}
+12   H u0 p0 c0 {3,S}
+13   H u0 p0 c0 {4,S}
+14   H u0 p0 c0 {5,S}
+
+HNO3
+1 N u0 p0 c+1 {2,S} {3,D} {4,S}
+2 O u0 p2 c0 {1,S} {5,S}
+3 O u0 p2 c0 {1,D}
+4 O u0 p3 c-1 {1,S}
+5 H u0 p0 c0 {2,S}
+
+CH3
+multiplicity 2
+1 * C u1 p0 c0 {2,S} {3,S} {4,S}
+2   H u0 p0 c0 {1,S}
+3   H u0 p0 c0 {1,S}
+4   H u0 p0 c0 {1,S}
+
+C3H7O2
+multiplicity 2
+1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+3  O u0 p2 c0 {1,S} {5,S}
+4  C u0 p0 c0 {1,S} {2,S} {11,S} {12,S}
+5  O u1 p2 c0 {3,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {4,S}
+12 H u0 p0 c0 {4,S}
+
+NO2-2
+multiplicity 2
+1   N u0 p1 c0 {2,D} {3,S}
+2   O u0 p2 c0 {1,D}
+3 * O u1 p2 c0 {1,S}
+
+C2H5
+multiplicity 2
+1   C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 * C u1 p0 c0 {1,S} {6,S} {7,S}
+3   H u0 p0 c0 {1,S}
+4   H u0 p0 c0 {1,S}
+5   H u0 p0 c0 {1,S}
+6   H u0 p0 c0 {2,S}
+7   H u0 p0 c0 {2,S}
+
+NO3-2
+multiplicity 2
+1   N u0 p0 c+1 {2,D} {3,S} {4,S}
+2   O u0 p2 c0 {1,D}
+3 * O u1 p2 c0 {1,S}
+4   O u0 p3 c-1 {1,S}
+
+O2
+multiplicity 3
+1 * O u1 p2 c0 {2,S}
+2   O u1 p2 c0 {1,S}
+
+NO2
+multiplicity 2
+1 * N u1 p0 c+1 {2,S} {3,D}
+2   O u0 p3 c-1 {1,S}
+3   O u0 p2 c0 {1,D}
+
+NO3
+multiplicity 2
+1 N u0 p1 c0 {2,S} {3,D}
+2 O u0 p2 c0 {1,S} {4,S}
+3 O u0 p2 c0 {1,D}
+4 O u1 p2 c0 {2,S}
 
