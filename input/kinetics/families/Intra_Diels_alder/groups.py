@@ -147,3 +147,83 @@ u"""
 """,
 )
 
+
+forbidden(
+    label = "bicyclohepta13diene",
+    group = 
+"""
+1  *3 R!H u0 {2,[D,T]} {4,S}
+2  *2 R!H u0 {1,[D,T]} {3,S} {6,S}
+3  *1 R!H u0 {2,S} {7,S}
+4  *4 R!H u0 {1,S} {5,[D,T]}
+5  *5 R!H u0 {4,[D,T]} {6,S} {7,S}
+6  R!H u0 {5,S} {2,S}
+7  *6 R!H u0 {5,S} {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+forbidden(
+    label = "bicyclohepta13diene_prod",
+    group = 
+"""
+1  *3 R!H u0 {2,S} {4,[D,T]}
+2  *2 R!H u0 {1,S} {3,[D,T]} {6,S}
+3  *1 R!H u0 {2,[D,T]}
+4  *4 R!H u0 {1,[D,T]} {5,S}
+5  *5 R!H u0 {4,S} {6,S} {7,[D,T]}
+6  R!H u0 {5,S} {2,S}
+7  *6 R!H u0 {5,[D,T]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+
+forbidden(
+    label = "bicyclohepta13diene_rad",
+    group = 
+"""
+1  *3 R!H u0 {2,[D,T]} {4,S}
+2  *2 R!H u0 {1,[D,T]} {3,S} {6,S}
+3  *1 R!H u0 {2,S} {7,S}
+4  *4 R!H u0 {1,S} {5,[D,T]}
+5  *5 R!H u0 {4,[D,T]} {6,S} {7,S}
+6  R!H u1 {5,S} {2,S}
+7  *6 R!H u0 {5,S} {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+forbidden(
+    label = "bicyclohepta13diene_rad_prod",
+    group = 
+"""
+1  *3 R!H u0 {2,S} {4,[D,T]}
+2  *2 R!H u0 {1,S} {3,[D,T]} {6,S}
+3  *1 R!H u0 {2,[D,T]}
+4  *4 R!H u0 {1,[D,T]} {5,S}
+5  *5 R!H u0 {4,S} {6,S} {7,[D,T]}
+6  R!H u1 {5,S} {2,S}
+7  *6 R!H u0 {5,[D,T]} 
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
