@@ -325,3 +325,41 @@ entry(
     """,
 )
 
+entry(
+    index = 712,
+    label = "doublebond;R_OH",
+    kinetics = ArrheniusEP(
+        A = (1.00E-5, 'cm^3/(mol*s)'),
+        n = 4.00,
+        alpha = 0,
+        E0 = (80.0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Default""",
+    longDesc = 
+    """
+AG Vandeputte, calculated the rate coefficient for methanol + ethene -> propanol
+    """,
+)
+
+
+entry(
+    index = 713,
+    label = "Cd/unsub_Cd/unsub;CH3OH",
+    kinetics = ArrheniusEP(
+        A = (1.79E-5, 'cm^3/(mol*s)'),
+        n = 3.97,
+        alpha = 0,
+        E0 = (78.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""AG Vandeputte, CBS-QB3 + HO""",
+    longDesc = 
+    """
+AG Vandeputte, calculated the rate coefficient for methanol + ethene -> propanol
+    """,
+)
