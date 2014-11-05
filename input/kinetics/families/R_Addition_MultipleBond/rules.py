@@ -39333,16 +39333,32 @@ entry(
     index = 3055,
     label = "Cds-HH_Cds-HH;CdsJ=Cdd",
     kinetics = ArrheniusEP(
-        A = (149.03, 'cm^3/(mol*s)'),
-        n = 3.0074,
+        A = (1.04E+00, 'cm^3/(mol*s)'),
+        n = 3.05,
         alpha = 0,
-        E0 = (10.1708, 'kcal/mol'),
+        E0 = (13.1, 'kcal/mol'),
         Tmin = (300, 'K'),
-        Tmax = (1600, 'K'),
+        Tmax = (1500, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""Sandeep CBS-QB3 calculations""",
+    rank = 4,
+    shortDesc = u"""A.G. Vandeputte, BMK/cbsb7 no 1D-HR (slow anyway)""",
 )
+
+entry(
+    index = 3056,
+    label = "Ct-H_Ct-H;CdsJ=Cdd",
+    kinetics = ArrheniusEP(
+        A = (1.70E+05, 'cm^3/(mol*s)'),
+        n = 1.64,
+        alpha = 0,
+        E0 = (13.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""A.G. Vandeputte, BMK/cbsb7 no 1D-HR (slow anyway)""",
+)
+
 
 entry(
     index = 3056,
