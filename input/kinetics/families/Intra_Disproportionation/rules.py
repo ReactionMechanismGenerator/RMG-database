@@ -10,15 +10,15 @@ entry(
     index = 1,
     label = "R3;Y_rad;XH_Rrad",
     kinetics = ArrheniusEP(
-        A = (1.62e+11, 's^-1'),
+        A = (1.62e+10, 's^-1'),
         n = -0.305,
         alpha = 0,
-        E0 = (2, 'kcal/mol'),
+        E0 = (20, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1""",
+    shortDesc = u"""Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1, increase barrier and decreased A""",
 )
 
 entry(

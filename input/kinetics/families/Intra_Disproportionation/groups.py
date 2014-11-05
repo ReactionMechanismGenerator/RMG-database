@@ -34,6 +34,7 @@ entry(
 1 *1 R!H u1
 """,
     kinetics = None,
+    shortDesc = "The abstracting radical",
 )
 
 entry(
@@ -46,26 +47,23 @@ entry(
 3 *4 H   u0 {2,S}
 """,
     kinetics = None,
+    shortDesc = "The site with a free hydrogen on an atom adjacent to a radical"
 )
 
 entry(
     index = 4,
     label = "R3",
-    group = "OR{R3radEndo, R3radExo}",
+    group = "OR{R3radExo}",
     kinetics = None,
-)
-
-entry(
-    index = 5,
-    label = "R3radEndo",
-    group = 
-"""
-1 *1 R!H u1 {2,[S,D,B,T]}
-2 *3 R!H u1 {1,[S,D,B,T]} {3,S}
-3 *2 R!H u0 {2,S} {4,S}
-4 *4 H   u0 {3,S}
-""",
-    kinetics = None,
+    longDesc = """
+Aaron Vandeputte notes:
+It is assumed that the other radical site (#3) is not a member of the TS ring; we may eventually want to consider the possibility
+for the radical site being in the TS ring, which in certain cases, may give rise to multiple transition states for the same reaction; 
+I expect that the number of cases that would be encountered where this reaction would not occur at all due to neglecting this would be small; 
+UPDATE: 2,5-pentdiyl radical to 1-pentene can only occur when radical site is included in ring, so maybe this is more important than I thought
+UPDATE2: I will consider possibility of Endo case, except for R3radEndo in which case the 2 rads are adjacent to each other, but I will assume 
+the rate rules are the same as for the probably more typical exo case (2nd radical site not a part of ring)
+    """,
 )
 
 entry(
@@ -242,7 +240,6 @@ tree(
 """
 L1: Rn
     L2: R3
-        L3: R3radEndo
         L3: R3radExo
     L2: R4
         L3: R4radEndo
@@ -341,3 +338,33 @@ u"""
 """,
 )
 
+forbidden(
+    label = "Allylicrad1",
+    group = 
+"""
+1 *1 R u1 {2,S}
+2 R u0 {1,S} {3,D}
+3 R u0 {2,D} {4,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+forbidden(
+    label = "Allylicrad2",
+    group = 
+"""
++1 *3 R u1 {2,S}
++2 R u0 {1,S} {3,D}
++3 R u0 {2,D} {4,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
