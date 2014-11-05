@@ -13,11 +13,11 @@ entry(
         A = (5e+09, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (0, 'kcal/mol'),
+        E0 = (20, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 0,
+    rank = 5,
     shortDesc = u"""default""",
 )
 
