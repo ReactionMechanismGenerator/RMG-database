@@ -103,7 +103,7 @@ entry(
 
 entry(
     index = 9,
-    label = "CO/H2_O",
+    label = "CO-HH_O",
     group = 
 """
 1 *1 CO u0 {2,D} {3,S} {4,S}
@@ -116,20 +116,20 @@ entry(
 
 entry(
     index = 10,
-    label = "CO/H/Nd_O",
+    label = "CO-NdH_O",
     group = 
 """
 1 *1 CO     u0 {2,D} {3,S} {4,S}
 2 *2 Od     u0 {1,D}
 3    H      u0 {1,S}
-4    [Cs,O] u0 {1,S}
+4    [Cs,Os,Ss] u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 11,
-    label = "CO/H/Cs",
+    label = "CO-CsH_O",
     group = 
 """
 1 *1 CO u0 {2,D} {3,S} {4,S}
@@ -142,7 +142,7 @@ entry(
 
 entry(
     index = 12,
-    label = "CO/H/De_O",
+    label = "CO-DeH_O",
     group = 
 """
 1 *1 CO                    u0 {2,D} {3,S} {4,S}
@@ -155,25 +155,65 @@ entry(
 
 entry(
     index = 13,
-    label = "CO/Nd2_O",
+    label = "CO-NdNd_O",
     group = 
 """
 1 *1 CO     u0 {2,D} {3,S} {4,S}
 2 *2 Od     u0 {1,D}
-3    [Cs,O] u0 {1,S}
-4    [Cs,O] u0 {1,S}
+3    [Cs,Os,Ss] u0 {1,S}
+4    [Cs,Os,Ss] u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 14,
-    label = "CO/Nd/De_O",
+    label = "CO-CdH_O",
+    group = 
+"""
+1 *1 CO  u0 {2,D} {3,S} {4,S}
+2 *2 Od  u0 {1,D}
+3 H  u0 {1,S}
+4 Cd u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 14,
+    label = "CO-CtH_O",
+    group = 
+"""
+1 *1 CO  u0 {2,D} {3,S} {4,S}
+2 *2 Od  u0 {1,D}
+3 H  u0 {1,S}
+4 Ct u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 14,
+    label = "CO-CsCs_O",
+    group = 
+"""
+1 *1 CO  u0 {2,D} {3,S} {4,S}
+2 *2 Od  u0 {1,D}
+3 Cs u0 {1,S}
+4 Cs u0 {1,S}
+""",
+    kinetics = None,
+)
+
+
+entry(
+    index = 14,
+    label = "CO-DeNd_O",
     group = 
 """
 1 *1 CO                    u0 {2,D} {3,S} {4,S}
 2 *2 Od                    u0 {1,D}
-3    [Cs,O]                u0 {1,S}
+3    [Cs,Os,Ss]                u0 {1,S}
 4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
 """,
     kinetics = None,
@@ -181,7 +221,7 @@ entry(
 
 entry(
     index = 15,
-    label = "CO/De2_O",
+    label = "CO-DeDe_O",
     group = 
 """
 1 *1 CO                    u0 {2,D} {3,S} {4,S}
@@ -190,6 +230,33 @@ entry(
 4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
 """,
     kinetics = None,
+)
+
+
+entry(
+    index = 15,
+    label = "CO-CdCs_O",
+    group = 
+"""
+1 *1 CO  u0 {2,D} {3,S} {4,S}
+2 *2 Od  u0 {1,D}
+3 Cs u0 {1,S}
+4 Cd u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 15,
+    label = "CO-CtCs_O",
+    group =
+"""
+1 *1 CO  u0 {2,D}, {3,S}, {4,S}
+2 *2 Od  u0 {1,D}
+3 Cs u0 {1,S}
+4 Ct u0 {1,S}
+""",
+kinetics = None,
 )
 
 entry(
@@ -13543,7 +13610,7 @@ entry(
 
 entry(
     index = 876,
-    label = "Od_Cd",
+    label = "Od_CO",
     group = 
 """
 1 *1 Od u0 {2,D}
@@ -13556,13 +13623,143 @@ entry(
 
 entry(
     index = 877,
-    label = "Od_Cd-CsH",
+    label = "Od_CO-CsH",
     group = 
 """
 1 *1 Od u0 {2,D}
 2 *2 CO u0 {1,D} {3,S} {4,S}
 3    Cs u0 {2,S}
 4    H  u0 {2,S}
+""",
+    kinetics = None,
+)
+
+
+entry(
+    index = 877,
+    label = "Od_CO-HH",
+    group = 
+"""
+1 *1 Od u0 {2,D}
+2 *2 CO u0 {1,D} {3,S} {4,S}
+3  H u0 {2,S}
+4  H u0 {2,S}
+""",
+    kinetics = None,
+)
+entry(
+    index = 877,
+    label = "Od_CO-NdH",
+    group = 
+"""
+1 *1 Od u0 {2,D}
+2 *2 CO u0 {1,D} {3,S} {4,S}
+3  [Cs,Os,Ss] u0 {2,S}
+4  H u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 877,
+    label = "Od_CO-NdNd",
+    group = 
+"""
+1 *1 Od u0 {2,D}
+2 *2 CO u0 {1,D} {3,S} {4,S}
+3  [Cs,Os,Ss] u0 {2,S}
+4  [Cs,Os,Ss] u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 877,
+    label = "Od_CO-CsCs",
+    group = 
+"""
+1 *1 Od u0 {2,D}
+2 *2 CO u0 {1,D} {3,S} {4,S}
+3  Cs u0 {2,S}
+4  Cs u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 877,
+    label = "Od_CO-DeH",
+    group = 
+"""
+1 *1 Od u0 {2,D}
+2 *2 CO u0 {1,D} {3,S} {4,S}
+3  [Cd,Ct,Cb,CO] u0 {2,S}
+4  H u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 877,
+    label = "Od_CO-CdH",
+    group = 
+"""
+1 *1 Od u0 {2,D}
+2 *2 CO u0 {1,D} {3,S} {4,S}
+3  Cd u0 {2,S}
+4  H u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 877,
+    label = "Od_CO-CtH",
+    group = 
+"""
+1 *1 Od u0 {2,D}
+2 *2 CO u0 {1,D} {3,S} {4,S}
+3  Ct u0 {2,S}
+4  H u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 877,
+    label = "Od_CO-DeNd",
+    group = 
+"""
+1 *1 Od u0 {2,D}
+2 *2 CO u0 {1,D} {3,S} {4,S}
+3  [Cd,Ct,Cb,CO] u0 {2,S}
+4  [Cs,Os,Ss] u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 877,
+    label = "Od_CO-CdCs",
+    group = 
+"""
+1 *1 Od u0 {2,D}
+2 *2 CO u0 {1,D} {3,S} {4,S}
+3  Cd u0 {2,S}
+4  Cs u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 877,
+    label = "Od_CO-CtCs",
+    group = 
+"""
+1 *1 Od u0 {2,D}
+2 *2 CO u0 {1,D} {3,S} {4,S}
+3  Ct u0 {2,S}
+4  Cs u0 {2,S}
 """,
     kinetics = None,
 )
@@ -16593,13 +16790,18 @@ L1: R_R
             L4: Ck_O
             L4: C=S_O
         L3: CO_O
-            L4: CO/H2_O
-            L4: CO/H/Nd_O
-                L5: CO/H/Cs
-            L4: CO/H/De_O
-            L4: CO/Nd2_O
-            L4: CO/Nd/De_O
-            L4: CO/De2_O
+            L4: CO-HH_O
+            L4: CO-NdH_O
+                L5: CO-CsH_O
+            L4: CO-DeH_O
+                L5: CO-CdH_O
+                L5: CO-CtH_O
+            L4: CO-NdNd_O
+                L5: CO-CsCs_O
+            L4: CO-DeNd_O
+                L5: CO-CdCs_O
+                L5: CO-CtCs_O
+            L4: CO-DeDe_O
         L3: Cdd_Sd
             L4: Cdd-Sd_Sd
         L3: Cds_Cdd
@@ -17469,10 +17671,20 @@ L1: R_R
                 L5: Ct-OneDe_N3t
             L4: Ct_N5t
     L2: Od_R
+        L3: Od_CO
+            L4: Od_CO-HH
+            L4: Od_CO-NdH
+                L5: Od_CO-CsH
+            L4: Od_CO-NdNd
+                L5: Od_CO-CsCs
+            L4: Od_CO-DeH
+                L5: Od_CO-CdH
+                L5: Od_CO-CtH
+            L4: Od_CO-DeNd
+                L5: Od_CO-CdCs
+                L5: Od_CO-CtCs
         L3: Od_Cdd
             L4: Od_Cdd-Od
-        L3: Od_Cd
-            L4: Od_Cd-CsH
         L3: Od_Nd
             L4: Od_N3d
             L4: Od_N5d

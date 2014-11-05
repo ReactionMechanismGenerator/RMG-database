@@ -39121,7 +39121,7 @@ entry(
 
 entry(
     index = 3041,
-    label = "CO/H2_O;CsJ-CsHH",
+    label = "CO-HH_O;CsJ-CsHH",
     kinetics = ArrheniusEP(
         A = (7.94e+10, 'cm^3/(mol*s)'),
         n = 0,
@@ -39136,7 +39136,7 @@ entry(
 
 entry(
     index = 3042,
-    label = "CO/Nd2_O;CsJ-HHH",
+    label = "CO-CsCs_O;CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (3.16e+10, 'cm^3/(mol*s)'),
         n = 0,
@@ -39346,7 +39346,7 @@ entry(
 
 entry(
     index = 3056,
-    label = "CO/H/Nd_O;OJ-Os",
+    label = "CO-NdH_O;OJ-Os",
     kinetics = ArrheniusEP(
         A = (0.04245, 'cm^3/(mol*s)'),
         n = 3.486,
@@ -39360,7 +39360,7 @@ entry(
 
 entry(
     index = 3057,
-    label = "CO/Nd2_O;OJ-Os",
+    label = "CO-CsCs_O;OJ-Os",
     kinetics = ArrheniusEP(
         A = (0.04245, 'cm^3/(mol*s)'),
         n = 3.486,
@@ -39374,7 +39374,7 @@ entry(
 
 entry(
     index = 3058,
-    label = "CO/H2_O;OJ-Os",
+    label = "CO-HH_O;OJ-Os",
     kinetics = ArrheniusEP(
         A = (0.04245, 'cm^3/(mol*s)'),
         n = 3.486,
@@ -39388,7 +39388,7 @@ entry(
 
 entry(
     index = 3059,
-    label = "CO/Nd2_O;OJ-Os",
+    label = "CO-CsCs_O;OJ-Os",
     kinetics = ArrheniusEP(
         A = (0.04245, 'cm^3/(mol*s)'),
         n = 3.486,
@@ -39593,7 +39593,7 @@ entry(
 
 entry(
     index = 3073,
-    label = "CO/H2_O;CsJ-CsHH",
+    label = "CO-HH_O;CsJ-CsHH",
     kinetics = ArrheniusEP(
         A = (120.1, 'cm^3/(mol*s)'),
         n = 2.8,
@@ -39607,7 +39607,7 @@ entry(
 
 entry(
     index = 3074,
-    label = "CO/H/Nd_O;HJ",
+    label = "CO-NdH_O;HJ",
     kinetics = ArrheniusEP(
         A = (9.6e+09, 'cm^3/(mol*s)'),
         n = 0.935,
@@ -40176,7 +40176,7 @@ entry(
 
 entry(
     index = 3117,
-    label = "CO/H2_O;CsJ-HHH",
+    label = "CO-HH_O;CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (216, 'cm^3/(mol*s)'),
         n = 2.97,
@@ -40191,7 +40191,7 @@ entry(
 
 entry(
     index = 3118,
-    label = "Od_Cd-CsH;HJ",
+    label = "Od_CO-CsH;HJ",
     kinetics = ArrheniusEP(
         A = (4e+09, 'cm^3/(mol*s)'),
         n = 1.39,
@@ -40296,7 +40296,7 @@ entry(
 
 entry(
     index = 3125,
-    label = "Od_Cd;HJ",
+    label = "Od_CO;HJ",
     kinetics = ArrheniusEP(
         A = (386700, 'cm^3/(mol*s)'),
         n = 2.941,
@@ -40311,7 +40311,7 @@ entry(
 
 entry(
     index = 3126,
-    label = "Od_Cd-CsH;HJ",
+    label = "Od_CO-CsH;HJ",
     kinetics = ArrheniusEP(
         A = (386700, 'cm^3/(mol*s)'),
         n = 2.941,
@@ -40356,7 +40356,7 @@ entry(
 
 entry(
     index = 3129,
-    label = "CO/H2_O;CsJ-CsHH",
+    label = "CO-HH_O;CsJ-CsHH",
     kinetics = ArrheniusEP(
         A = (0.0034, 'cm^3/(mol*s)'),
         n = 2.48,
@@ -40371,7 +40371,7 @@ entry(
 
 entry(
     index = 3130,
-    label = "CO/H/Cs;HJ",
+    label = "CO-CsH_O;HJ",
     kinetics = ArrheniusEP(
         A = (8, 'cm^3/(mol*s)'),
         n = 2.41,
@@ -40386,7 +40386,7 @@ entry(
 
 entry(
     index = 3131,
-    label = "CO/H2_O;HJ",
+    label = "CO-HH_O;HJ",
     kinetics = ArrheniusEP(
         A = (8.1e+11, 'cm^3/(mol*s)'),
         n = 0.37,
@@ -40570,3 +40570,268 @@ Added by Beat Buesser, value for reaction: HCN + O = HCNO (B&D #54) in 'Gas-Phas
 """,
 )
 
+entry(
+    index = 3119,
+    label = "CO-HH_O;HJ",
+    kinetics = ArrheniusEP(
+        A = (6.31E+07, 'cm^3/(mol*s)'),
+        n = 1.80,
+        alpha = 0,
+        E0 = (4.0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+    """
+    AGV BMK/cbsb7 with 1dHR
+    """
+)
+
+entry(
+    index = 3120,
+    label = "CO-CsH_O;HJ",
+    kinetics = ArrheniusEP(
+        A = (8.76E+06, 'cm^3/(mol*s)'),
+        n = 1.99,
+        alpha = 0,
+        E0 = (5.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+    """
+    AGV BMK/cbsb7 with 1dHR
+    """
+)
+
+entry(
+    index = 3121,
+    label = "CO-CsH_O;HJ",
+    kinetics = ArrheniusEP(
+        A = (7.92E+05, 'cm^3/(mol*s)'),
+        n = 2.40,
+        alpha = 0,
+        E0 = (8.0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+    """
+    AGV BMK/cbsb7 with 1dHR
+    """
+)
+
+entry(
+    index = 3122,
+    label = "CO-CdH_O;HJ",
+    kinetics = ArrheniusEP(
+        A = (7.50E+06, 'cm^3/(mol*s)'),
+        n = 2.16,
+        alpha = 0,
+        E0 = (4.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+    """
+    AGV BMK/cbsb7 with 1dHR
+    """
+)
+
+entry(
+    index = 3123,
+    label = "CO-CdCs_O;HJ",
+    kinetics = ArrheniusEP(
+        A = (3.97E+07, 'cm^3/(mol*s)'),
+        n = 1.88,
+        alpha = 0,
+        E0 = (7.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+    """
+    AGV BMK/cbsb7 with 1dHR
+    """
+)
+
+entry(
+    index = 3124,
+    label = "CO-CtH_O;HJ",
+    kinetics = ArrheniusEP(
+        A = (2.99E+06, 'cm^3/(mol*s)'),
+        n = 2.12,
+        alpha = 0,
+        E0 = (4.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+    """
+    AGV BMK/cbsb7 with 1dHR
+    """
+)
+
+entry(
+    index = 3125,
+    label = "CO-CtCs_O;HJ",
+    kinetics = ArrheniusEP(
+        A = (1.59E+07, 'cm^3/(mol*s)'),
+        n = 1.84,
+        alpha = 0,
+        E0 = (7.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+    """
+    AGV BMK/cbsb7 with 1dHR
+    """
+)
+
+entry(
+    index = 3126,
+    label = "Od_CO-HH;HJ",
+    kinetics = ArrheniusEP(
+        A = (2.33E+03, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (6.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+    """
+    AGV BMK/cbsb7 with 1dHR
+    """
+)
+
+entry(
+    index = 3127,
+    label = "Od_CO-CsH;HJ",
+    kinetics = ArrheniusEP(
+        A = (1.46E+03, 'cm^3/(mol*s)'),
+        n = 3.14 ,
+        alpha = 0,
+        E0 = (7.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+    """
+    AGV BMK/cbsb7 with 1dHR
+    """
+)
+
+entry(
+    index = 3128,
+    label = "Od_CO-CsCs;HJ",
+    kinetics = ArrheniusEP(
+        A = (3.23E+04, 'cm^3/(mol*s)'),
+        n = 2.98 ,
+        alpha = 0,
+        E0 = (7.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+    """
+    AGV BMK/cbsb7 with 1dHR
+    """
+)
+
+entry(
+    index = 3129,
+    label = "Od_CO-CdH;HJ",
+    kinetics = ArrheniusEP(
+        A = (3.73E+05, 'cm^3/(mol*s)'),
+        n = 2.53 ,
+        alpha = 0,
+        E0 = (5.0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+    """
+    AGV BMK/cbsb7 with 1dHR
+    """
+)
+
+entry(
+    index = 3130,
+    label = "Od_CO-CdCs;HJ",
+    kinetics = ArrheniusEP(
+        A = (6.39E+06, 'cm^3/(mol*s)'),
+        n = 2.09 ,
+        alpha = 0,
+        E0 = (6.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+    """
+    AGV BMK/cbsb7 with 1dHR
+    """
+)
+
+entry(
+    index = 3131,
+    label = "Od_CO-CtH;HJ",
+    kinetics = ArrheniusEP(
+        A = (1.07E+06, 'cm^3/(mol*s)'),
+        n = 2.43 ,
+        alpha = 0,
+        E0 = (5.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+    """
+    AGV BMK/cbsb7 with 1dHR
+    """
+)
+
+entry(
+    index = 3132,
+    label = "Od_CO-CtCs;HJ",
+    kinetics = ArrheniusEP(
+        A = (1.83E+07, 'cm^3/(mol*s)'),
+        n = 1.99 ,
+        alpha = 0,
+        E0 = (6.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+    """
+    AGV BMK/cbsb7 with 1dHR
+    """
+)
