@@ -3141,3 +3141,24 @@ Added by Beat Buesser, value for reaction: CH2NO + NH2 = HCNO + NH3 (B&D #57g2) 
 """,
 )
 
+entry(
+    index = 658,
+    label = "C_rad/H/TwoDe;Cmethyl_Csrad/H/Cd",
+    kinetics = ArrheniusEP(
+        A = (5E+10, 'cm^3/(mol*s)'),
+        n = 1.94,
+        alpha = 0,
+        E0 = (-1.15, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Estimated by S.S. Merchant""",
+    longDesc = 
+"""
+Estimating rate coefficient for cyclopentadienyl radical + butadieneyl radical
+NIST estimate for allyl + iso-butyl is 8E+11 at 1000 K, however in our system the butadieneyl radical is also resonance stabilized
+and it will be harder to break the bond to give butadiene + cyclopentadiene. Currently estimate it to be a factor of 5 slower.
+"""
+)
+
