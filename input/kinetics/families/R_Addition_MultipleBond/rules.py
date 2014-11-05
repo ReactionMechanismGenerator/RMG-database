@@ -1045,15 +1045,15 @@ entry(
     index = 70,
     label = "Cds-HH_Cds-CdH;CdsJ-H",
     kinetics = ArrheniusEP(
-        A = (16100, 'cm^3/(mol*s)'),
-        n = 2.41,
+        A = (2.45e+2, 'cm^3/(mol*s)'),
+        n = 3.08,
         alpha = 0,
-        E0 = (-1.31, 'kcal/mol'),
+        E0 = (1.4, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
     rank = 4,
-    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
+    shortDesc = u"""Aaron Vandeputte.  Update BMK/6-311G(2d,d,p) Eckart no HR.""",
 )
 
 entry(
