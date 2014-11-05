@@ -344,7 +344,7 @@ forbidden(
 """
 1 *1 R u1 {2,S}
 2 R u0 {1,S} {3,D}
-3 R u0 {2,D} {4,S}
+3 R u0 {2,D} 
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -360,7 +360,7 @@ forbidden(
 """
 +1 *3 R u1 {2,S}
 +2 R u0 {1,S} {3,D}
-+3 R u0 {2,D} {4,S}
++3 R u0 {2,D} 
 """,
     shortDesc = u"""""",
     longDesc = 
