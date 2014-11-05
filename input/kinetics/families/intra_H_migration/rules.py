@@ -501,19 +501,15 @@ entry(
     index = 638,
     label = "R2H_S;C_rad_out_2H;Cs_H_out_H/NonDeC",
     kinetics = ArrheniusEP(
-        A = (9.69e+09, 's^-1'),
-        n = 0.89,
+        A = (3.59E+05, 's^-1'),
+        n = 2.05,
         alpha = 0,
-        E0 = (35.8, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
+        E0 = (36.3, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (2000, 'K'),
     ),
     rank = 2,
-    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
-u"""
-Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
-""",
+    shortDesc = u"""JWA CCSD(T)-F12/cc-pVTZ-F12 with 1d-HR""",
 )
 
 entry(
