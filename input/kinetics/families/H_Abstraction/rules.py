@@ -10796,15 +10796,20 @@ entry(
     index = 3092,
     label = "C/H2/Cs\Cs2/O;H_rad",
     kinetics = ArrheniusEP(
-        A = (5.5e+06, 'cm^3/(mol*s)'),
-        n = 1.59,
+        A = (8.95e+5, 'cm^3/(mol*s)'),
+        n = 2.53,
         alpha = 0,
-        E0 = (3.35, 'kcal/mol'),
+        E0 = (3.42, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""SSM CBS-QB3 with 1-dHR corrections""",
+    shortDesc = u"""Park J et al. ethanol alpha site""",
+    longDesc = """
+Not using the rate calculated for iBuOH as it seemed almost a factor of 10 slower than the literature rates for similar reactions
+Using rate calculated for ethanol alpha site by Park J et al. 
+Ea calculated using G2M method with B3LYP/6-311+G(d,p). Rate expressions calculated using Truhlars Polyrate program using SCT/CVT method 
+"""
 )
 
 entry(
