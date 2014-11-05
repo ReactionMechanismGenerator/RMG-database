@@ -309,14 +309,19 @@ entry(
     index = 710,
     label = "Cd/H/De_Cd/H2;H_OH",
     kinetics = ArrheniusEP(
-        A = (6.104e+07, 'cm^3/(mol*s)'),
-        n = 1.287,
+        A = (2.74E-5, 'cm^3/(mol*s)'),
+        n = 4.73,
         alpha = 0,
-        E0 = (60.9, 'kcal/mol'),
+        E0 = (52.3, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank = 4,
-    shortDesc = u"""Same as rule 707""",
+    shortDesc = u"""AG Vandeputte, CBS-QB3 + HO""",
+    longDesc = 
+    """
+    Updated by AG Vandeputte, CBSQB3 + HO,
+    calculated for butadiene + H2O -> 2-butenol
+    """,
 )
 
