@@ -40275,8 +40275,11 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
+    longDesc = """
+    Update: changed rank to 5.  A.G. Vandeputte.  GA estimate is probably better.
+"""
 )
 
 entry(
