@@ -2668,6 +2668,19 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 288,
+    label = "Cd_Cdrad",
+    group = 
+"""
+1 *2 Cd u0 {2,D} {3,S}
+2 *3 Cd u1 {1,D}
+3 *4 H u0 {1,S}
+
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Y_rad_birad_trirad_quadrad
@@ -2797,6 +2810,7 @@ L1: XH_Rrad_birad
                 L5: S_Csrad
                 L5: S_Cdrad
                 L5: S_Srad
+            L4: Cd_Cdrad
             L4: Cmethyl_Rrad
                 L5: Cmethyl_Csrad
                     L6: Cmethyl_Csrad/H/Cd
