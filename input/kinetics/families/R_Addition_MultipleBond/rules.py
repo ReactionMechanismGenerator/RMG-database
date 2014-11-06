@@ -39359,6 +39359,20 @@ entry(
     shortDesc = u"""A.G. Vandeputte, BMK/cbsb7 no 1D-HR (slow anyway)""",
 )
 
+entry(
+    index = 3134,
+    label = "Ca_Cds-HH;CdsJ=Cdd",
+    kinetics = ArrheniusEP(
+        A = (1.04E+00, 'cm^3/(mol*s)'),
+        n = 3.05,
+        alpha = 0,
+        E0 = (13.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""A.G. Vandeputte estimate.  Equal to Cds-HH_Cds-HH;CdsJ=Cdd""",
+)
 
 entry(
     index = 3056,
