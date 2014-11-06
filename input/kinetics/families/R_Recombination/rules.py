@@ -2277,6 +2277,59 @@ entry(
 )
 
 entry(
+    index = 505,
+    label = "Cd_allenic;Cd_allenic",
+    kinetics = ArrheniusEP(
+        A = (4.29E+9, 'cm^3/(mol*s)'),
+        n = 0.8,
+        alpha = 0,
+        E0 = (-1.03, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""2007GEO/MIL4259-4268""",
+    longDesc = """
+A. G. Vandeputte
+Some estimated values for propyne recombination reactions
+""",
+)
+
+entry(
+    index = 506,
+    label = "Cd_allenic;C_methyl",
+    kinetics = ArrheniusEP(
+        A = (5.00E+12, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""1987WU/KER6291""",
+    longDesc = """
+Estimated value, agrees with 1987WU/KER6291
+""",
+)
+
+entry(
+    index = 507,
+    label = "Cd_allenic;H_rad",
+    kinetics = ArrheniusEP(
+        A = (1.00E+13, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""A. G. Vandeputte estimated value""",
+)
+
+
+entry(
     index = 3000,
     label = "H_rad;SsJ-H",
     kinetics = ArrheniusEP(
