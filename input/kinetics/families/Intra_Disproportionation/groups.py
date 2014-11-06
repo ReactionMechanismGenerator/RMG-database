@@ -236,6 +236,54 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 19,
+    label = "Y_rad_NDe",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 [Cs,Os,Ss] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 20,
+    label = "Y_rad_De",
+    group = 
+"""
+1 *1 R!H u1 {2,[S,D]}
+2 [Cd,Cdd,Ct,CO,Cb] u0 {1,[S,D]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 21,
+    label = "XH_Rrad_NDe",
+    group = 
+"""
+1 *3 R!H u1 {2,S} {4,S}
+2 *2 R!H u0 {1,S} {3,S}
+3 *4 H u0 {2,S}
+4 [Cs,Os,Ss] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 22,
+    label = "XH_Rrad_De",
+    group = 
+"""
+1 *3 R!H u1 {2,S} {4,[S,D]}
+2 *2 R!H u0 {1,S} {3,S}
+3 *4 H u0 {2,S}
+4 [Cd,Cdd,Ct,CO,Cb] u0 {1,[S,D]}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Rn
@@ -254,7 +302,11 @@ L1: Rn
         L3: R7radEndo
         L3: R7radExo
 L1: Y_rad
+    L2: Y_rad_NDe
+    L2: Y_rad_De
 L1: XH_Rrad
+    L2: XH_Rrad_NDe
+    L2: XH_Rrad_De
 """
 )
 
