@@ -275,8 +275,10 @@ entry(
     group = 
 """
 1 * C u1 {2,D} {3,S}
-2   C u0 {1,D}
+2   C u0 {1,D} {4,S} {5,S}
 3   H u0 {1,S}
+4   R u0 {2,S}
+5   R u0 {2,S}
 """,
     kinetics = None,
 )
@@ -287,8 +289,10 @@ entry(
     group = 
 """
 1 * C   u1 {2,D} {3,S}
-2   C   u0 {1,D}
+2   C   u0 {1,D} {4,S} {5,S}
 3   R!H u0 {1,S}
+4   R u0 {2,S}
+5   R u0 {2,S}
 """,
     kinetics = None,
 )
@@ -299,8 +303,10 @@ entry(
     group = 
 """
 1 * C      u1 {2,D} {3,S}
-2   C      u0 {1,D}
+2   C      u0 {1,D} {4,S} {5,S}
 3   [Cs,O] u0 {1,S}
+4   R u0 {2,S}
+5   R u0 {2,S}
 """,
     kinetics = None,
 )
@@ -311,8 +317,10 @@ entry(
     group = 
 """
 1 * C             u1 {2,D} {3,S}
-2   C             u0 {1,D}
+2   C             u0 {1,D} {4,S} {5,S}
 3   [Cd,Ct,Cb,CO] u0 {1,S}
+4   R u0 {2,S}
+5   R u0 {2,S}
 """,
     kinetics = None,
 )
@@ -323,8 +331,22 @@ entry(
     group = 
 """
 1 * C  u1 {2,D} {3,S}
-2   C  u0 {1,D}
+2   C  u0 {1,D} {4,S} {5,S}
 3   Cd u0 {1,S}
+4   R u0 {2,S}
+5   R u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 26,
+    label = "Cd_allenic",
+    group = 
+"""
+1 * C  u1 {2,D} {3,S}
+2   Cdd  u0 {1,D} 
+3   R u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1299,6 +1321,7 @@ L1: Y_rad
             L4: Cd_rad/NonDe
             L4: Cd_rad/OneDe
                 L5: Cd_rad/Cd
+        L3: Cd_allenic
     L2: Cb_rad
     L2: CO_rad
         L3: CO_pri_rad
