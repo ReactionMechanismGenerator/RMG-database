@@ -2810,7 +2810,6 @@ L1: XH_Rrad_birad
                 L5: S_Csrad
                 L5: S_Cdrad
                 L5: S_Srad
-            L4: Cd_Cdrad
             L4: Cmethyl_Rrad
                 L5: Cmethyl_Csrad
                     L6: Cmethyl_Csrad/H/Cd
@@ -2869,6 +2868,7 @@ L1: XH_Rrad_birad
                 L5: N5H_s_Rrad
         L3: XH_d_Rrad
             L4: CH_d_Rrad
+                L5: Cd_Cdrad
                 L5: Cds/H2_d_Rrad
                     L6: Cds/H2_d_Crad
                     L6: Cds/H2_d_N3rad

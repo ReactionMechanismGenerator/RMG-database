@@ -1822,7 +1822,7 @@ entry(
 
 entry(
     index = 556,
-    label = "Y_rad_birad;Cdpri_Csrad",
+    label = "Y_rad_birad_trirad_quadrad;Cdpri_Csrad",
     kinetics = ArrheniusEP(
         A = (1e+09, 'cm^3/(mol*s)'),
         n = 0,
@@ -1837,7 +1837,7 @@ entry(
 
 entry(
     index = 557,
-    label = "O2_birad;C/H2/De_Csrad",
+    label = "O2b;C/H2/De_Csrad",
     kinetics = ArrheniusEP(
         A = (1e+10, 'cm^3/(mol*s)'),
         n = 0,
@@ -1852,7 +1852,7 @@ entry(
 
 entry(
     index = 558,
-    label = "O2_birad;C/H2/Nd_Rrad",
+    label = "O2b;C/H2/Nd_Rrad",
     kinetics = ArrheniusEP(
         A = (1e+10, 'cm^3/(mol*s)'),
         n = 0,
@@ -1867,7 +1867,7 @@ entry(
 
 entry(
     index = 559,
-    label = "O2_birad;C/H2/De_Rrad",
+    label = "O2b;C/H2/De_Rrad",
     kinetics = ArrheniusEP(
         A = (1e+10, 'cm^3/(mol*s)'),
         n = 0,
@@ -1882,7 +1882,7 @@ entry(
 
 entry(
     index = 560,
-    label = "O2_birad;C/H/NdNd_Rrad",
+    label = "O2b;C/H/NdNd_Rrad",
     kinetics = ArrheniusEP(
         A = (1e+10, 'cm^3/(mol*s)'),
         n = 0,
@@ -1897,7 +1897,7 @@ entry(
 
 entry(
     index = 561,
-    label = "O2_birad;C/H/NdDe_Rrad",
+    label = "O2b;C/H/NdDe_Rrad",
     kinetics = ArrheniusEP(
         A = (1e+10, 'cm^3/(mol*s)'),
         n = 0,
@@ -1912,7 +1912,7 @@ entry(
 
 entry(
     index = 562,
-    label = "O2_birad;C/H/DeDe_Rrad",
+    label = "O2b;C/H/DeDe_Rrad",
     kinetics = ArrheniusEP(
         A = (1e+10, 'cm^3/(mol*s)'),
         n = 0,
