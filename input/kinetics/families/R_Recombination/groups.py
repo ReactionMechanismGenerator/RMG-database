@@ -889,6 +889,21 @@ entry(
 )
 
 entry(
+    index = 66,
+    label = "C_rad_cyclopentadiene",
+    group = 
+"""
+1 * C u1 {2,S} {3,S} {4,S}
+2 H u0 {1,S}
+3 Cd u0 {1,S} {5,D} 
+4 Cd u0 {1,S} {6,D} 
+5 Cd u0 {3,D} {6,S} 
+6 Cd u0 {4,D} {5,S} 
+""",
+    kinetics = None,
+)
+
+entry(
     index = 67,
     label = "C_ter_rad",
     group = 
@@ -1357,6 +1372,7 @@ L1: Y_rad
                 L5: C_rad/H/OneDeO
             L4: C_rad/H/TwoDe
                 L5: C_rad/H/CdCd
+                    L6: C_rad_cyclopentadiene
             L4: CsJ-CSH
                 L5: CsJ-CsSsH
                 L5: CsJ-CtSsH
@@ -1415,3 +1431,28 @@ u"""
 """,
 )
 
+forbidden(
+    label = "Cl",
+    group = 
+"""
+1 *1 Cl u1
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "Cl_2",
+    group = 
+"""
+1 *12 Cl u1
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)

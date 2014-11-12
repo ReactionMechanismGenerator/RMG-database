@@ -2328,6 +2328,65 @@ entry(
     shortDesc = u"""A. G. Vandeputte estimated value""",
 )
 
+entry(
+    index = 508,
+    label = "C_rad_cyclopentadiene;H_rad",
+    kinetics = ArrheniusEP(
+        A = (1.00E+14, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""BENZENE OXIDATION TAKEN FROM DACOSTA 2003 IJCK""",
+)
+
+entry(
+    index = 509,
+    label = "C_rad_cyclopentadiene;C_methyl",
+    kinetics = ArrheniusEP(
+        A = (8.34E+15, 'cm^3/(mol*s)'),
+        n = -0.7,
+        alpha = 0,
+        E0 = (0.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Sharma J. Phys. Chem. A 113 8871 - 8882 (2009)""",
+)
+
+entry(
+    index = 510,
+    label = "C_rad_cyclopentadiene;C_rad_cyclopentadiene",
+    kinetics = ArrheniusEP(
+        A = (5.00E+13, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""A. G. Vandeputte estimated value""",
+)
+
+entry(
+    index = 511,
+    label = "H_rad;C_rad/H/CdCd",
+    kinetics = ArrheniusEP(
+        A = (2.00E+13, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""A. G. Vandeputte estimated value""",
+)
 
 entry(
     index = 3000,
