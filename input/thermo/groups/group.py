@@ -7459,13 +7459,13 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([4.7,6.13,6.87,7.1,7.2,7.16,7.06],'cal/(mol*K)','+|-',[0.1,0.1,0.1,0.1,0.1,0.1,0.1]),
-        H298 = (4.6,'kcal/mol','+|-',0.24),
+        H298 = (11.6,'kcal/mol','+|-',0.24),
         S298 = (-16.5,'cal/(mol*K)','+|-',0.12),
     ),
     shortDesc = u"""Cd-COCd from CD/CD2/ jwb est 6/97""",
     longDesc = 
 u"""
-
+AG Vandeputte, added 7 kcal/mol to the following value (see phd M Sabbe)    
 """,
 )
 
@@ -7561,13 +7561,13 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([1.9,2.69,3.5,4.28,5.57,6.21,7.37],'cal/(mol*K)','+|-',[0.1,0.1,0.1,0.1,0.1,0.1,0.1]),
-        H298 = (4.6,'kcal/mol','+|-',0.24),
+        H298 = (11.6,'kcal/mol','+|-',0.24),
         S298 = (-15.67,'cal/(mol*K)','+|-',0.12),
     ),
     shortDesc = u"""Cd-CdCd Hf=3D est S,Cp mopac nov99""",
     longDesc = 
 u"""
-
+AG Vandeputte, added 7 kcal/mol to the following value (see phd M Sabbe)
 """,
 )
 

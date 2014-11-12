@@ -1903,6 +1903,32 @@ u"""
 )
 
 entry(
+    index = 26,
+    label = "Indenyl",
+    group = 
+"""
++1  * Cs u1 {2,S} {5,S} {6,S}
++2    Cb u0 {1,S} {3,B}
++3    Cb u0 {2,B} {4,S}
++4    Cd u0 {3,S} {5,D}
++5    Cd u0 {4,D} {1,S}
++6    H u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-.36, -.72,-1.23,-1.77,-2.7,-3.43,-4.54],'cal/(mol*K)'),
+        H298 = (81.62,'kcal/mol'),
+        S298 = (0.69,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""A.G. Vandeputte CBS-QB3""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+entry(
     index = 147,
     label = "cyclobutene-allyl",
     group = 
@@ -1950,7 +1976,7 @@ u"""
 
 """,
 )
-
+1.54
 entry(
     index = 149,
     label = "cyclohexene-allyl",
@@ -6258,6 +6284,7 @@ L1: Radical
                             L8: cyclopentane
                             L8: cyclohexane
                     L6: Benzyl_S
+                        L7: Indenyl
                     L6: Allyl_S
                         L7: cyclobutene-allyl
                         L7: cyclopentene-allyl

@@ -3117,6 +3117,32 @@ u"""
 )
 
 entry(
+    index = 103,
+    label = "1,2,4,6-Cycloheptatetraene",
+    group = 
+"""
+1  * Cd u0 {2,D} {7,S}
+2    Cdd u0 {1,D} {3,D}
+3    Cd u0 {4,S} {2,D}
+4    Cd u0 {3,S} {5,D}
+5    Cd u0 {6,S} {4,D}
+6    Cd u0 {5,S} {7,D}
+7    Cd u0 {1,S} {6,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.6,-7.5,-7.3,-6.5,-4.9,-3.7,-2.2],'cal/(mol*K)'),
+        H298 = (23.9,'kcal/mol'),
+        S298 = (25.5,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""AG Vandeputte""",
+    longDesc = 
+u"""
+CBS-QB3 isodesmic reaction approach C7H6 + 4 ethene = allene + 3 butadiene
+""",
+)
+
+entry(
     index = 59,
     label = "Cyclooctane",
     group = 
@@ -3616,6 +3642,7 @@ L1: Ring
         L3: 1,3,5-Cycloheptatriene
         L3: Cycloheptanone
         L3: 1,4-Cycloheptadiene
+        L3: 1,2,4,6-Cycloheptatetraene
     L2: EightMember
         L3: Cyclooctane
         L3: cis-Cyclooctene
