@@ -46406,3 +46406,103 @@ entry(
     shortDesc = u"""CBS-QB3 (RRHO), SSM""",
     longDesc = """SSM CBS-QB3 calculations for propargyl + vinylalcohol (RRHO approximation)""",
 )
+
+entry(
+    index = 7038,
+    label = "CO/H/Cs;O_pri_rad",
+    kinetics = ArrheniusEP(
+        A = (2e+06, 'cm^3/(mol*s)'),
+        n = 1.8,
+        alpha = 0,
+        E0 = (-1.3, 'kcal/mol'),
+        Tmin = (295, 'K'),
+        Tmax = (600, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""NIST SSM""",
+    longDesc = """
+NIST CH3CHO + OH = CH3CO + H2O rate coefficient ref: DOI: 10.1016/S0082-0784(96)80252-9
+Most estimates seem to be  ~ 3E+12 for 200-350 K range""",
+)
+
+entry(
+    index = 7039,
+    label = "CO_rad/Cs;H2O2",
+    kinetics = ArrheniusEP(
+        A = (4.33e-06, 'cm^3/(mol*s)'),
+        n = 5.09,
+        alpha = 0,
+        E0 = (1.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""CCSD(T)/CBS//M08-HX/maug-cc-pVTZ MSTOR""",
+    longDesc = """
+ref: Role of conformational structures and torsional anharmonicity in controlling chemical reaction rates and
+relative yields: butanal + HO2 reactions
+Refitted from four parameter fits to three parameters fits,  
+""",
+)
+
+entry(
+    index = 7040,
+    label = "C_rad/H/CO/Cs;H2O2",
+    kinetics = ArrheniusEP(
+        A = (1.62e-11, 'cm^3/(mol*s)'),
+        n = 6.525,
+        alpha = 0,
+        E0 = (2.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""CCSD(T)/CBS//M08-HX/maug-cc-pVTZ MSTOR""",
+    longDesc = """
+ref: Role of conformational structures and torsional anharmonicity in controlling chemical reaction rates and
+relative yields: butanal + HO2 reactions
+Refitted from four parameter fits to three parameters fits,  
+""",
+)
+
+entry(
+    index = 7041,
+    label = "C_rad/H/Cs\H2\CO/Cs;H2O2",
+    kinetics = ArrheniusEP(
+        A = (8.3e-08, 'cm^3/(mol*s)'),
+        n = 5.407,
+        alpha = 0,
+        E0 = (0.04, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""CCSD(T)/CBS//M08-HX/maug-cc-pVTZ MSTOR""",
+    longDesc = """
+ref: Role of conformational structures and torsional anharmonicity in controlling chemical reaction rates and
+relative yields: butanal + HO2 reactions
+Refitted from four parameter fits to three parameters fits,  
+""",
+)
+
+entry(
+    index = 7042,
+    label = "C_rad/H/NonDeC;H2O2",
+    kinetics = ArrheniusEP(
+        A = (8.3e-08, 'cm^3/(mol*s)'),
+        n = 5.407,
+        alpha = 0,
+        E0 = (0.04, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Same as C_rad/H/Cs\H2\CO/Cs H2O2""",
+    longDesc = """
+CCSD(T)/CBS//M08-HX/maug-cc-pVTZ MSTOR.
+ref: Role of conformational structures and torsional anharmonicity in controlling chemical reaction rates and
+relative yields: butanal + HO2 reactions
+Refitted from four parameter fits to three parameters fits,  
+""",
+)
+)
