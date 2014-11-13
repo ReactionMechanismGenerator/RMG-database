@@ -699,7 +699,7 @@ H2 + C2H3 --> H + C2H4 C.D.W divided original rate expression by 2 ( from A = 3.
 
 entry(
     index = 161,
-    label = "H2;Ct_rad/Ct",
+    label = "H2;Ct_rad",
     kinetics = ArrheniusEP(
         A = (5.4e+12, 'cm^3/(mol*s)', '*|/', 3.16),
         n = 0,
@@ -952,7 +952,7 @@ MRH 30-Aug-2009
 
 entry(
     index = 170,
-    label = "C_methane;Ct_rad/Ct",
+    label = "C_methane;Ct_rad",
     kinetics = ArrheniusEP(
         A = (4.53e+11, 'cm^3/(mol*s)', '*|/', 10),
         n = 0,
@@ -1234,7 +1234,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 180,
-    label = "C/H3/Cs;Ct_rad/Ct",
+    label = "C/H3/Cs;Ct_rad",
     kinetics = ArrheniusEP(
         A = (6.02e+11, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
@@ -1627,7 +1627,7 @@ MRH 30-Aug-2009
 
 entry(
     index = 193,
-    label = "C/H2/NonDeC;Ct_rad/Ct",
+    label = "C/H2/NonDeC;Ct_rad",
     kinetics = ArrheniusEP(
         A = (6.05e+11, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
@@ -1922,7 +1922,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 202,
-    label = "C/H/Cs3;Ct_rad/Ct",
+    label = "C/H/Cs3;Ct_rad",
     kinetics = ArrheniusEP(
         A = (6.62e+11, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
@@ -2088,7 +2088,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 207,
-    label = "Cd/H2/NonDeC;O2b",
+    label = "Cd_pri;O2b",
     kinetics = ArrheniusEP(
         A = (1.792e+13, 'cm^3/(mol*s)'),
         n = 0,
@@ -2130,7 +2130,7 @@ JDM 15-Jun-2010.
 
 entry(
     index = 209,
-    label = "Cd/H2/NonDeC;O_atom_triplet",
+    label = "Cd_pri;O_atom_triplet",
     kinetics = ArrheniusEP(
         A = (3.78e+06, 'cm^3/(mol*s)'),
         n = 1.91,
@@ -2150,7 +2150,7 @@ C2H4 + O --> C2H3 + OH C.D.W divided original rate expression by 4(from A= 1.51E
 
 entry(
     index = 210,
-    label = "Cd/H2/NonDeC;C_rad/H2/Cs",
+    label = "Cd_pri;C_rad/H2/Cs",
     kinetics = ArrheniusEP(
         A = (158, 'cm^3/(mol*s)', '*|/', 10),
         n = 3.13,
@@ -2182,7 +2182,7 @@ MRH 28-Aug-2009
 
 entry(
     index = 211,
-    label = "Cd/H2/NonDeC;O_pri_rad",
+    label = "Cd_pri;O_pri_rad",
     kinetics = ArrheniusEP(
         A = (5.13e+12, 'cm^3/(mol*s)', '*|/', 3.16),
         n = 0,
@@ -2354,7 +2354,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 216,
-    label = "Cd/H/NonDeC;Ct_rad/Ct",
+    label = "Cd/H/NonDeC;Ct_rad",
     kinetics = ArrheniusEP(
         A = (1.21e+12, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
@@ -2420,7 +2420,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 218,
-    label = "Ct/H/NonDeC;O2b",
+    label = "Ct_H;O2b",
     kinetics = ArrheniusEP(
         A = (6.05e+12, 'cm^3/(mol*s)', '*|/', 10),
         n = 0,
@@ -2452,7 +2452,7 @@ MRH 28-Aug-2009
 
 entry(
     index = 220,
-    label = "Ct/H/NonDeC;C_rad/H2/Cs",
+    label = "Ct_H;C_rad/H2/Cs",
     kinetics = ArrheniusEP(
         A = (1.36e+11, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
@@ -2482,7 +2482,7 @@ MRH 28-Aug-2009
 
 entry(
     index = 221,
-    label = "Ct/H/NonDeC;O_pri_rad",
+    label = "Ct_H;O_pri_rad",
     kinetics = ArrheniusEP(
         A = (7250, 'cm^3/(mol*s)', '*|/', 10),
         n = 2.68,
@@ -3748,7 +3748,7 @@ MRH 30-Aug-2009
 
 entry(
     index = 266,
-    label = "O/H/NonDeC;Ct_rad/Ct",
+    label = "O/H/NonDeC;Ct_rad",
     kinetics = ArrheniusEP(
         A = (1.21e+12, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
@@ -5059,7 +5059,7 @@ than calculations of MHS.
 
 entry(
     index = 535,
-    label = "H2O2;O_rad/OneDeC",
+    label = "H2O2;O_rad/OneDe",
     kinetics = ArrheniusEP(
         A = (0.03495, 'cm^3/(mol*s)', '*|/', 3),
         n = 3.75,
@@ -5718,7 +5718,7 @@ entry(
 
 entry(
     index = 1195,
-    label = "S_pri;O_rad/OneDeC",
+    label = "S_pri;O_rad/OneDe",
     kinetics = ArrheniusEP(
         A = (641, 'cm^3/(mol*s)'),
         n = 2.6,
