@@ -13414,9 +13414,9 @@ entry(
 """
 1 *1 Ct u0 {2,T} {3,S}
 2 *2 Ct u0 {1,T} {4,S}
-3    Cd u0 {1,S} {5,D}
+3    Ct u0 {1,S} {5,T}
 4    Cs u0 {2,S}
-5    C  u0 {3,D}
+5    C  u0 {3,T}
 """,
     kinetics = None,
 )
@@ -16345,8 +16345,7 @@ entry(
     label = "SJ",
     group = 
 """
-1 *3 S u1 {2,S}
-2    R u0 {1,S}
+1 *3 S u1
 """,
     kinetics = None,
 )
