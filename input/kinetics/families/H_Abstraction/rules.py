@@ -46375,3 +46375,34 @@ entry(
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
+entry(
+    index = 7036,
+    label = "O/H/OneDe;C_rad/H2/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.0065, 'cm^3/(mol*s)'),
+        n = 4.245,
+        alpha = 0,
+        E0 = (7.2, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CBS-QB3 (RRHO), SSM""",
+    longDesc = """SSM CBS-QB3 calculations for propargyl + vinylalcohol (RRHO approximation)""",
+)
+
+entry(
+    index = 7037,
+    label = "O_rad/Cd\H_Cd\H2;Cd_Cdd/H2",
+    kinetics = ArrheniusEP(
+        A = (0.0021, 'cm^3/(mol*s)'),
+        n = 4.36,
+        alpha = 0,
+        E0 = (14.2, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CBS-QB3 (RRHO), SSM""",
+    longDesc = """SSM CBS-QB3 calculations for propargyl + vinylalcohol (RRHO approximation)""",
+)
