@@ -10764,127 +10764,138 @@ entry(
 
 entry(
     index = 3088,
-    label = "C/H3/Cs\H\Cs\Cs|O;H_rad",
+    label = "O/H/NonDeC;H_rad",
     kinetics = ArrheniusEP(
-        A = (4.5e+06, 'cm^3/(mol*s)'),
-        n = 1.76,
+        A = (0.293, 'cm^3/(mol*s)'),
+        n = 4.14,
         alpha = 0,
-        E0 = (7.45, 'kcal/mol'),
+        E0 = (4.8, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""SSM CBS-QB3 with 1-dHR corrections""",
+    shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
 )
 
 entry(
     index = 3090,
-    label = "C/H/Cs2/Cs\O;H_rad",
+    label = "C/H2/CsO;H_rad",
     kinetics = ArrheniusEP(
-        A = (1.74e+07, 'cm^3/(mol*s)'),
-        n = 1.48,
+        A = (2610, 'cm^3/(mol*s)'),
+        n = 3.04,
         alpha = 0,
-        E0 = (3.44, 'kcal/mol'),
+        E0 = (2.5, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""SSM CBS-QB3 with 1-dHR corrections""",
+    shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
 )
 
 entry(
     index = 3092,
-    label = "C/H2/Cs\Cs2/O;H_rad",
+    label = "C/H/Cs2/Cs\O;H_rad",
     kinetics = ArrheniusEP(
-        A = (8.95e+5, 'cm^3/(mol*s)'),
-        n = 2.53,
+        A = (5760, 'cm^3/(mol*s)'),
+        n = 3.02,
         alpha = 0,
-        E0 = (3.42, 'kcal/mol'),
+        E0 = (3.5, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Park J et al. ethanol alpha site""",
-    longDesc = """
-Not using the rate calculated for iBuOH as it seemed almost a factor of 10 slower than the literature rates for similar reactions
-Using rate calculated for ethanol alpha site by Park J et al. 
-Ea calculated using G2M method with B3LYP/6-311+G(d,p). Rate expressions calculated using Truhlars Polyrate program using SCT/CVT method 
-"""
+    shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
 )
 
 entry(
     index = 3094,
-    label = "O/H/NonDeC;H_rad",
+    label = "C/H3/Cs;H_rad",
     kinetics = ArrheniusEP(
-        A = (40500, 'cm^3/(mol*s)'),
-        n = 2.38,
+        A = (1030, 'cm^3/(mol*s)'),
+        n = 3.24,
         alpha = 0,
-        E0 = (9.34, 'kcal/mol'),
+        E0 = (7.1, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""SSM CBS-QB3 with 1-dHR corrections""",
+    shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
 )
 
 entry(
     index = 3095,
-    label = "C/H3/Cs\H\Cs\Cs|O;C_methyl",
+    label = "C/H3/Cs;C_methyl",
     kinetics = ArrheniusEP(
-        A = (0.268, 'cm^3/(mol*s)'),
-        n = 3.59,
+        A = (7.48e-06, 'cm^3/(mol*s)'),
+        n = 4.99,
         alpha = 0,
-        E0 = (7.72, 'kcal/mol'),
+        E0 = (8, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""SSM CBS-QB3 with 1-dHR corrections""",
+    shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
 )
 
 entry(
     index = 3097,
     label = "C/H/Cs2/Cs\O;C_methyl",
     kinetics = ArrheniusEP(
-        A = (414, 'cm^3/(mol*s)'),
-        n = 2.87,
+        A = (0.0146, 'cm^3/(mol*s)'),
+        n = 4.47,
         alpha = 0,
-        E0 = (4.9, 'kcal/mol'),
+        E0 = (7.2, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""SSM CBS-QB3 with 1-dHR corrections""",
+    shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
+)
+
+entry(
+    index = 3098,
+    label = "C/H/Cs2/Cs\Cs|O;C_methyl",
+    kinetics = ArrheniusEP(
+        A = (0.0719, 'cm^3/(mol*s)'),
+        n = 3.96,
+        alpha = 0,
+        E0 = (4.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
+    longDesc = u"""Value for ipentanol, x3 lower mainly because of gamma O restricting rotation of abstracting methyl""",
 )
 
 entry(
     index = 3099,
-    label = "C/H2/Cs\Cs2/O;C_methyl",
+    label = "C/H2/CsO;C_methyl",
     kinetics = ArrheniusEP(
-        A = (7.65, 'cm^3/(mol*s)'),
-        n = 3.31,
+        A = (0.00124, 'cm^3/(mol*s)'),
+        n = 4.44,
         alpha = 0,
-        E0 = (6.95, 'kcal/mol'),
+        E0 = (4.5, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""SSM CBS-QB3 with 1-dHR corrections""",
+    shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
 )
 
 entry(
     index = 3101,
     label = "O/H/NonDeC;C_methyl",
     kinetics = ArrheniusEP(
-        A = (2.32, 'cm^3/(mol*s)'),
-        n = 3.49,
+        A = (0.00297, 'cm^3/(mol*s)'),
+        n = 4.35,
         alpha = 0,
-        E0 = (6.09, 'kcal/mol'),
+        E0 = (4.1, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""SSM CBS-QB3 with 1-dHR corrections""",
+    shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
 )
 
 entry(
