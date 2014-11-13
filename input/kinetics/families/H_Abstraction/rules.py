@@ -11067,15 +11067,17 @@ entry(
     index = 3122,
     label = "O/H/NonDeC;O_pri_rad",
     kinetics = ArrheniusEP(
-        A = (0.495, 'cm^3/(mol*s)'),
-        n = 3.88,
+        A = (0.0395, 'cm^3/(mol*s)'),
+        n = 4.19,
         alpha = 0,
-        E0 = (-1.632, 'kcal/mol'),
+        E0 = (-2.2, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank = 2,
     shortDesc = u"""CCSD(T)-F12a/pVTZ with MS-VTST treatment for rotors""",
+    longDesc = """Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
+doi: 10.1021/jp310910f""",
 )
 
 entry(
@@ -11091,6 +11093,8 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CCSD(T)-F12a/pVTZ with MS-VTST treatment for rotors""",
+    longDesc = """Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
+doi: 10.1021/jp310910f""",
 )
 
 entry(
@@ -11111,30 +11115,34 @@ entry(
     index = 3124,
     label = "C/H2/Cs/Cs\O;O_pri_rad",
     kinetics = ArrheniusEP(
-        A = (22.75, 'cm^3/(mol*s)'),
-        n = 3.37,
+        A = (14.35, 'cm^3/(mol*s)'),
+        n = 3.42,
         alpha = 0,
-        E0 = (-2.638, 'kcal/mol'),
+        E0 = (-1.255, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank = 2,
     shortDesc = u"""CCSD(T)-F12a/pVTZ with MS-VTST treatment for rotors""",
+    longDesc = """Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
+doi: 10.1021/jp310910f""",
 )
 
 entry(
     index = 3125,
     label = "C/H2/Cs/Cs\Cs|O;O_pri_rad",
     kinetics = ArrheniusEP(
-        A = (37, 'cm^3/(mol*s)'),
-        n = 3.31,
+        A = (13, 'cm^3/(mol*s)'),
+        n = 3.44,
         alpha = 0,
-        E0 = (-2.189, 'kcal/mol'),
+        E0 = (-2.442, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank = 2,
     shortDesc = u"""CCSD(T)-F12a/pVTZ with MS-VTST treatment for rotors""",
+    longDesc = """Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
+doi: 10.1021/jp310910f""",
 )
 
 entry(
