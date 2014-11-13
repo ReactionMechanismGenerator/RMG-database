@@ -10,14 +10,14 @@ entry(
     index = 809,
     label = "Rn;multiplebond_intra;radadd_intra",
     kinetics = ArrheniusEP(
-        A = (1e+08, 's^-1'),
-        n = 0,
+        A = (1e+09, 's^-1'),
+        n = 0.19,
         alpha = 0,
-        E0 = (5, 'kcal/mol'),
+        E0 = (20, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 0,
+    rank = 5,
 )
 
 entry(
@@ -60,6 +60,96 @@ entry(
         Tmax = (1600, 'K'),
     ),
     rank = 5,
+)
+
+entry(
+    index = 817,
+    label = "R5_SM;multiplebond_intra;radadd_intra",
+    kinetics = ArrheniusEP(
+        A = (1e+10, 's^-1'),
+        n = 0.19,
+        alpha = 0,
+        E0 = (30, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Guess""",
+)
+
+entry(
+    index = 818,
+    label = "R6_SMM;multiplebond_intra;radadd_intra",
+    kinetics = ArrheniusEP(
+        A = (1e+10, 's^-1'),
+        n = 0.19,
+        alpha = 0,
+        E0 = (35, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Guess""",
+)
+
+entry(
+    index = 821,
+    label = "R5_DS_D;doublebond_intra_pri_2H;radadd_intra_cdsingleH",
+    kinetics = ArrheniusEP(
+        A = (3.73e+10, 's^-1'),
+        n = 0.19,
+        alpha = 0,
+        E0 = (11.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""BMK/cbsb7 + 1D-HR""",
+)
+
+entry(
+    index = 822,
+    label = "R6_DSS_D;doublebond_intra_pri_2H;radadd_intra_cdsingleH",
+    kinetics = ArrheniusEP(
+        A = (1.03e+10, 's^-1'),
+        n = 0.19,
+        alpha = 0,
+        E0 = (4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""BMK/cbsb7 + 1D-HR""",
+)
+
+entry(
+    index = 823,
+    label = "R5_MS;multiplebond_intra;radadd_intra_cdsingle",
+    kinetics = ArrheniusEP(
+        A = (3.73e+10, 's^-1'),
+        n = 0.19,
+        alpha = 0,
+        E0 = (11.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Guess, i.e. 821""",
+)
+
+entry(
+    index = 824,
+    label = "R6_MSR;multiplebond_intra;radadd_intra_cdsingle",
+    kinetics = ArrheniusEP(
+        A = (1.03e+10, 's^-1'),
+        n = 0.19,
+        alpha = 0,
+        E0 = (4.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Guess, i.e. 822""",
 )
 
 entry(

@@ -21,7 +21,7 @@ recipe(actions=[
 entry(
     index = 1,
     label = "Rn",
-    group = "OR{R3, R4, R5, R6, R7, R8, R9}",
+    group = "OR{R3, R4, R5, R6plus}",
     kinetics = None,
 )
 
@@ -275,57 +275,6 @@ entry(
     kinetics = None,
 )
 
-entry(
-    index = 22,
-    label = "R4_B",
-    group = 
-"""
-1 *1 Cb                u1 {2,B}
-2 *4 Cb                u0 {1,B} {3,S}
-3 *2 [Cd,Ct,CO]        u0 {2,S} {4,[D,T]}
-4 *3 [Cd,Ct,Od,Sd,Cdd] u0 {3,[D,T]}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 23,
-    label = "R4_B_D",
-    group = 
-"""
-1 *1 Cb       u1 {2,B}
-2 *4 Cb       u0 {1,B} {3,S}
-3 *2 Cd       u0 {2,S} {4,D}
-4 *3 [Cd,Cdd] u0 {3,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 24,
-    label = "R4_B_T",
-    group = 
-"""
-1 *1 Cb u1 {2,B}
-2 *4 Cb u0 {1,B} {3,S}
-3 *2 Ct u0 {2,S} {4,T}
-4 *3 Ct u0 {3,T}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 25,
-    label = "R4_B_CO",
-    group = 
-"""
-1 *1 Cb u1 {2,B}
-2 *4 Cb u0 {1,B} {3,S}
-3 *2 CO u0 {2,S} {4,D}
-4 *3 Od u0 {3,D}
-""",
-    kinetics = None,
-)
 
 entry(
     index = 26,
@@ -422,6 +371,20 @@ The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are single, single.
 The multiple bond being attacked is a C=O bond.
 """,
+)
+
+entry(
+    index = 27,
+    label = "R5_SM",
+    group = 
+"""
+1 *1 R!H           u1 {2,S}
+2 *4 [Cd,Ct,Cb]    u0 {1,S} {3,[D,T,B]}
+3 *5 [Cd,Ct,Cb]    u0 {2,[D,T,B]} {4,S}
+4 *2 [Cd,Ct,CO,N]    u0 {3,S} {5,[D,T]}
+5 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {4,[D,T]}
+""",
+    kinetics = None,
 )
 
 entry(
@@ -662,6 +625,20 @@ The multiple bond being attacked is a C=O bond.
 )
 
 entry(
+    index = 36,
+    label = "R5_MS",
+    group = 
+"""
+1 *1 [Cd,Ct,Cb]    u1 {2,[D,T,B]}
+2 *4 [Cd,Ct,Cb]    u0 {1,[D,T,B]} {3,S}
+3 *5 R!H           u0 {2,S} {4,S}
+4 *2 [Cd,Ct,CO,N]    u0 {3,S} {5,[D,T]}
+5 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {4,[D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 46,
     label = "R5_TS",
     group = 
@@ -741,193 +718,24 @@ The multiple bond being attacked is a C=O bond.
 )
 
 entry(
-    index = 50,
-    label = "R5_SB",
+    index = 45,
+    label = "R5_MM",
     group = 
 """
-1 *1 R!H                 u1 {2,S}
-2 *4 Cb                  u0 {1,S} {3,B}
-3 *5 Cb                  u0 {2,B} {4,S}
-4 *2 [Cd,Ct,CO,N]        u0 {3,S} {5,[D,T]}
-5 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {4,[D,T]}
-""",
-    kinetics = None,
-    longDesc = 
-u"""
-The ring being formed has 5 atoms in.
-Starting at the radical site, the first two bonds are single, then aromatic. (The next is a single)
-""",
-)
-
-entry(
-    index = 51,
-    label = "R5_SB_D",
-    group = 
-"""
-1 *1 R!H      u1 {2,S}
-2 *4 Cb       u0 {1,S} {3,B}
-3 *5 Cb       u0 {2,B} {4,S}
-4 *2 Cd       u0 {3,S} {5,D}
-5 *3 [Cd,Cdd] u0 {4,D}
-""",
-    kinetics = None,
-    longDesc = 
-u"""
-The ring being formed has 5 atoms in.
-Starting at the radical site, the first two bonds are single, then aromatic. (The next is a single)
-The multiple bond being attacked is a double bond (to another carbon).
-""",
-)
-
-entry(
-    index = 52,
-    label = "R5_SB_T",
-    group = 
-"""
-1 *1 R!H u1 {2,S}
-2 *4 Cb  u0 {1,S} {3,B}
-3 *5 Cb  u0 {2,B} {4,S}
-4 *2 Ct  u0 {3,S} {5,T}
-5 *3 Ct  u0 {4,T}
-""",
-    kinetics = None,
-    longDesc = 
-u"""
-The ring being formed has 5 atoms in.
-Starting at the radical site, the first two bonds are single, then aromatic. (The next is a single)
-The multiple bond being attacked is a triple bond (to another carbon).
-""",
-)
-
-entry(
-    index = 53,
-    label = "R5_SB_CO",
-    group = 
-"""
-1 *1 R!H u1 {2,S}
-2 *4 Cb  u0 {1,S} {3,B}
-3 *5 Cb  u0 {2,B} {4,S}
-4 *2 CO  u0 {3,S} {5,D}
-5 *3 Od  u0 {4,D}
-""",
-    kinetics = None,
-    longDesc = 
-u"""
-The ring being formed has 5 atoms in.
-Starting at the radical site, the first two bonds are single, then aromatic. (The next is a single)
-The multiple bond being attacked is a C=O bond.
-""",
-)
-
-entry(
-    index = 54,
-    label = "R5_BS",
-    group = 
-"""
-1 *1 Cb                  u1 {2,B}
-2 *4 Cb                  u0 {1,B} {3,S}
-3 *5 R!H                 u0 {2,S} {4,S}
-4 *2 [Cd,Ct,CO,N]        u0 {3,S} {5,[D,T]}
+1 *1 [Cd,Cb]       u1 {2,[D,B]}
+2 *4 [Cdd,Cbf]     u0 {1,[D,B]} {3,[D,B]}
+3 *5 [Cd,Cb]       u0 {2,[D,B]} {4,S}
+4 *2 [Cd,Ct,CO,N]    u0 {3,S} {5,[D,T]}
 5 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {4,[D,T]}
 """,
     kinetics = None,
 )
 
-entry(
-    index = 55,
-    label = "R5_BS_D",
-    group = 
-"""
-1 *1 Cb       u1 {2,B}
-2 *4 Cb       u0 {1,B} {3,S}
-3 *5 R!H      u0 {2,S} {4,S}
-4 *2 Cd       u0 {3,S} {5,D}
-5 *3 [Cd,Cdd] u0 {4,D}
-""",
-    kinetics = None,
-)
 
 entry(
-    index = 56,
-    label = "R5_BS_T",
-    group = 
-"""
-1 *1 Cb  u1 {2,B}
-2 *4 Cb  u0 {1,B} {3,S}
-3 *5 R!H u0 {2,S} {4,S}
-4 *2 Ct  u0 {3,S} {5,T}
-5 *3 Ct  u0 {4,T}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 57,
-    label = "R5_BS_CO",
-    group = 
-"""
-1 *1 Cb  u1 {2,B}
-2 *4 Cb  u0 {1,B} {3,S}
-3 *5 R!H u0 {2,S} {4,S}
-4 *2 CO  u0 {3,S} {5,D}
-5 *3 Od  u0 {4,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 58,
-    label = "R5_BB",
-    group = 
-"""
-1 *1 Cb                  u1 {2,B}
-2 *4 Cbf                 u0 {1,B} {3,B}
-3 *5 Cb                  u0 {2,B} {4,S}
-4 *2 [Cd,Ct,CO,N]        u0 {3,S} {5,[D,T]}
-5 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {4,[D,T]}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 59,
-    label = "R5_BB_D",
-    group = 
-"""
-1 *1 Cb       u1 {2,B}
-2 *4 Cbf      u0 {1,B} {3,B}
-3 *5 Cb       u0 {2,B} {4,S}
-4 *2 Cd       u0 {3,S} {5,D}
-5 *3 [Cd,Cdd] u0 {4,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 60,
-    label = "R5_BB_T",
-    group = 
-"""
-1 *1 Cb  u1 {2,B}
-2 *4 Cbf u0 {1,B} {3,B}
-3 *5 Cb  u0 {2,B} {4,S}
-4 *2 Ct  u0 {3,S} {5,T}
-5 *3 Ct  u0 {4,T}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 61,
-    label = "R5_BB_CO",
-    group = 
-"""
-1 *1 Cb  u1 {2,B}
-2 *4 Cbf u0 {1,B} {3,B}
-3 *5 Cb  u0 {2,B} {4,S}
-4 *2 CO  u0 {3,S} {5,D}
-5 *3 Od  u0 {4,D}
-""",
+    index = 46,
+    label = "R6plus",
+    group = "OR{R6, R7, R8, R9}",
     kinetics = None,
 )
 
@@ -1092,6 +900,21 @@ entry(
 4 *5 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
 5 *2 CO         u0 {4,S} {6,D}
 6 *3 Od         u0 {5,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 58,
+    label = "R6_MSR",
+    group = 
+"""
+1 *1 [Cd,Ct,Cb]    u1 {2,[D,T,B]}
+2 *4 [Cd,Ct,Cb]    u0 {1,[D,T,B]} {3,S}
+3 *6 R!H           u0 {2,S} {4,[S,D,T,B]}
+4 *5 R!H           u0 {3,[S,D,T,B]} {5,S}
+5 *2 [Cd,Ct,CO]    u0 {4,S} {6,[D,T]}
+6 *3 [Cd,Ct,Od,Sd,Cdd] u0 {5,[D,T]}
 """,
     kinetics = None,
 )
@@ -1367,141 +1190,6 @@ entry(
 )
 
 entry(
-    index = 88,
-    label = "R6_BSR",
-    group = 
-"""
-1 *1 Cb                u1 {2,B}
-2 *4 Cb                u0 {1,B} {3,S}
-3 *6 R!H               u0 {2,S} {4,[S,D,T,B]}
-4 *5 R!H               u0 {3,[S,D,T,B]} {5,S}
-5 *2 [Cd,Ct,CO]        u0 {4,S} {6,[D,T]}
-6 *3 [Cd,Ct,Od,Sd,Cdd] u0 {5,[D,T]}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 89,
-    label = "R6_BSS",
-    group = 
-"""
-1 *1 Cb                u1 {2,B}
-2 *4 Cb                u0 {1,B} {3,S}
-3 *6 R!H               u0 {2,S} {4,S}
-4 *5 R!H               u0 {3,S} {5,S}
-5 *2 [Cd,Ct,CO]        u0 {4,S} {6,[D,T]}
-6 *3 [Cd,Ct,Od,Sd,Cdd] u0 {5,[D,T]}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 90,
-    label = "R6_BSS_D",
-    group = 
-"""
-1 *1 Cb       u1 {2,B}
-2 *4 Cb       u0 {1,B} {3,S}
-3 *6 R!H      u0 {2,S} {4,S}
-4 *5 R!H      u0 {3,S} {5,S}
-5 *2 Cd       u0 {4,S} {6,D}
-6 *3 [Cd,Cdd] u0 {5,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 91,
-    label = "R6_BSS_T",
-    group = 
-"""
-1 *1 Cb  u1 {2,B}
-2 *4 Cb  u0 {1,B} {3,S}
-3 *6 R!H u0 {2,S} {4,S}
-4 *5 R!H u0 {3,S} {5,S}
-5 *2 Ct  u0 {4,S} {6,T}
-6 *3 Ct  u0 {5,T}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 92,
-    label = "R6_BSS_CO",
-    group = 
-"""
-1 *1 Cb  u1 {2,B}
-2 *4 Cb  u0 {1,B} {3,S}
-3 *6 R!H u0 {2,S} {4,S}
-4 *5 R!H u0 {3,S} {5,S}
-5 *2 CO  u0 {4,S} {6,D}
-6 *3 Od  u0 {5,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 93,
-    label = "R6_BSM",
-    group = 
-"""
-1 *1 Cb                u1 {2,B}
-2 *4 Cb                u0 {1,B} {3,S}
-3 *6 [Cd,Ct,Cb]        u0 {2,S} {4,[D,T,B]}
-4 *5 [Cd,Ct,Cb]        u0 {3,[D,T,B]} {5,S}
-5 *2 [Cd,Ct,CO]        u0 {4,S} {6,[D,T]}
-6 *3 [Cd,Ct,Od,Sd,Cdd] u0 {5,[D,T]}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 94,
-    label = "R6_BSM_D",
-    group = 
-"""
-1 *1 Cb         u1 {2,B}
-2 *4 Cb         u0 {1,B} {3,S}
-3 *6 [Cd,Ct,Cb] u0 {2,S} {4,[D,T,B]}
-4 *5 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
-5 *2 Cd         u0 {4,S} {6,D}
-6 *3 [Cd,Cdd]   u0 {5,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 95,
-    label = "R6_BSM_T",
-    group = 
-"""
-1 *1 Cb         u1 {2,B}
-2 *4 Cb         u0 {1,B} {3,S}
-3 *6 [Cd,Ct,Cb] u0 {2,S} {4,[D,T,B]}
-4 *5 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
-5 *2 Ct         u0 {4,S} {6,T}
-6 *3 Ct         u0 {5,T}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 96,
-    label = "R6_BSM_CO",
-    group = 
-"""
-1 *1 Cb         u1 {2,B}
-2 *4 Cb         u0 {1,B} {3,S}
-3 *6 [Cd,Ct,Cb] u0 {2,S} {4,[D,T,B]}
-4 *5 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
-5 *2 CO         u0 {4,S} {6,D}
-6 *3 Od         u0 {5,D}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 97,
     label = "R6_SMS",
     group = 
@@ -1562,121 +1250,16 @@ entry(
 )
 
 entry(
-    index = 101,
-    label = "R6_SBB",
+    index = 81,
+    label = "R6_SMM",
     group = 
 """
-1 *1 R!H                 u1 {2,S}
-2 *4 Cb                  u0 {1,S} {3,B}
-3 *6 Cbf                 u0 {2,B} {4,B}
-4 *5 Cb                  u0 {3,B} {5,S}
-5 *2 [Cd,Ct,CO,N]        u0 {4,S} {6,[D,T]}
-6 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {5,[D,T]}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 102,
-    label = "R6_SBB_D",
-    group = 
-"""
-1 *1 R!H      u1 {2,S}
-2 *4 Cb       u0 {1,S} {3,B}
-3 *6 Cbf      u0 {2,B} {4,B}
-4 *5 Cb       u0 {3,B} {5,S}
-5 *2 Cd       u0 {4,S} {6,D}
-6 *3 [Cd,Cdd] u0 {5,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 103,
-    label = "R6_SBB_T",
-    group = 
-"""
-1 *1 R!H u1 {2,S}
-2 *4 Cb  u0 {1,S} {3,B}
-3 *6 Cbf u0 {2,B} {4,B}
-4 *5 Cb  u0 {3,B} {5,S}
-5 *2 Ct  u0 {4,S} {6,T}
-6 *3 Ct  u0 {5,T}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 104,
-    label = "R6_SBB_CO",
-    group = 
-"""
-1 *1 R!H u1 {2,S}
-2 *4 Cb  u0 {1,S} {3,B}
-3 *6 Cbf u0 {2,B} {4,B}
-4 *5 Cb  u0 {3,B} {5,S}
-5 *2 CO  u0 {4,S} {6,D}
-6 *3 Od  u0 {5,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 105,
-    label = "R6_BBS",
-    group = 
-"""
-1 *1 Cb                  u1 {2,B}
-2 *4 Cbf                 u0 {1,B} {3,B}
-3 *6 Cb                  u0 {2,B} {4,S}
-4 *5 R!H                 u0 {3,S} {5,S}
-5 *2 [Cd,Ct,CO,N]        u0 {4,S} {6,[D,T]}
-6 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {5,[D,T]}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 106,
-    label = "R6_BBS_D",
-    group = 
-"""
-1 *1 Cb       u1 {2,B}
-2 *4 Cbf      u0 {1,B} {3,B}
-3 *6 Cb       u0 {2,B} {4,S}
-4 *5 R!H      u0 {3,S} {5,S}
-5 *2 Cd       u0 {4,S} {6,D}
-6 *3 [Cd,Cdd] u0 {5,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 107,
-    label = "R6_BBS_T",
-    group = 
-"""
-1 *1 Cb  u1 {2,B}
-2 *4 Cbf u0 {1,B} {3,B}
-3 *6 Cb  u0 {2,B} {4,S}
-4 *5 R!H u0 {3,S} {5,S}
-5 *2 Ct  u0 {4,S} {6,T}
-6 *3 Ct  u0 {5,T}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 108,
-    label = "R6_BBS_CO",
-    group = 
-"""
-1 *1 Cb  u1 {2,B}
-2 *4 Cbf u0 {1,B} {3,B}
-3 *6 Cb  u0 {2,B} {4,S}
-4 *5 R!H u0 {3,S} {5,S}
-5 *2 CO  u0 {4,S} {6,D}
-6 *3 Od  u0 {5,D}
+1 *1 R!H           u1 {2,S}
+2 *4 [Cd,Cb]       u0 {1,S} {3,[D,B]}
+3 *6 [Cdd,Cbf]     u0 {2,[D,B]} {4,[D,B]}
+4 *5 [Cd,Cb]       u0 {3,[D,B]} {5,S}
+5 *2 [Cd,Ct,CO]    u0 {4,S} {6,[D,T]}
+6 *3 [Cd,Ct,Od,Sd] u0 {5,[D,T]}
 """,
     kinetics = None,
 )
@@ -2639,98 +2222,71 @@ L1: Rn
             L4: R4_T_D
             L4: R4_T_T
             L4: R4_T_CO
-        L3: R4_B
-            L4: R4_B_D
-            L4: R4_B_T
-            L4: R4_B_CO
     L2: R5
         L3: R5_SS
             L4: R5_SS_D
             L4: R5_SS_T
             L4: R5_SS_CO
-        L3: R5_SD
-            L4: R5_SD_D
-            L4: R5_SD_T
-            L4: R5_SD_CO
-        L3: R5_DS
-            L4: R5_DS_D
-            L4: R5_DS_T
-            L4: R5_DS_CO
-        L3: R5_ST
-            L4: R5_ST_D
-            L4: R5_ST_T
-            L4: R5_ST_CO
-        L3: R5_TS
-            L4: R5_TS_D
-            L4: R5_TS_T
-            L4: R5_TS_CO
-        L3: R5_SB
-            L4: R5_SB_D
-            L4: R5_SB_T
-            L4: R5_SB_CO
-        L3: R5_BS
-            L4: R5_BS_D
-            L4: R5_BS_T
-            L4: R5_BS_CO
-        L3: R5_BB
-            L4: R5_BB_D
-            L4: R5_BB_T
-            L4: R5_BB_CO
-    L2: R6
-        L3: R6_RSR
-            L4: R6_SSR
-                L5: R6_SSS
-                    L6: R6_SSS_D
-                    L6: R6_SSS_T
-                    L6: R6_SSS_CO
-                L5: R6_SSM
-                    L6: R6_SSM_D
-                    L6: R6_SSM_T
-                    L6: R6_SSM_CO
-            L4: R6_DSR
-                L5: R6_DSS
-                    L6: R6_DSS_D
-                    L6: R6_DSS_T
-                    L6: R6_DSS_CO
-                L5: R6_DSM
-                    L6: R6_DSM_D
-                    L6: R6_DSM_T
-                    L6: R6_DSM_CO
-            L4: R6_TSR
-                L5: R6_TSS
-                    L6: R6_TSS_D
-                    L6: R6_TSS_T
-                    L6: R6_TSS_CO
-                L5: R6_TSM
-                    L6: R6_TSM_D
-                    L6: R6_TSM_T
-                    L6: R6_TSM_CO
-            L4: R6_BSR
-                L5: R6_BSS
-                    L6: R6_BSS_D
-                    L6: R6_BSS_T
-                    L6: R6_BSS_CO
-                L5: R6_BSM
-                    L6: R6_BSM_D
-                    L6: R6_BSM_T
-                    L6: R6_BSM_CO
-        L3: R6_SMS
-            L4: R6_SMS_D
-            L4: R6_SMS_T
-            L4: R6_SMS_CO
-        L3: R6_SBB
-            L4: R6_SBB_D
-            L4: R6_SBB_T
-            L4: R6_SBB_CO
-        L3: R6_BBS
-            L4: R6_BBS_D
-            L4: R6_BBS_T
-            L4: R6_BBS_CO
-    L2: R7
-    L2: R8
-    L2: R9
-        L3: R9_SSSSSD
-        L3: R9_SDSSSD
+        L3: R5_SM
+            L4: R5_SD
+                L5: R5_SD_D
+                L5: R5_SD_T
+                L5: R5_SD_CO
+            L4: R5_ST
+                L5: R5_ST_D
+                L5: R5_ST_T
+                L5: R5_ST_CO
+        L3: R5_MS
+            L4: R5_DS
+                L5: R5_DS_D
+                L5: R5_DS_T
+                L5: R5_DS_CO
+            L4: R5_TS
+                L5: R5_TS_D
+                L5: R5_TS_T
+                L5: R5_TS_CO
+        L3: R5_MM
+    L2: R6plus
+        L3: R6
+            L4: R6_RSR
+                L5: R6_SSR
+                    L6: R6_SSS
+                        L7: R6_SSS_D
+                        L7: R6_SSS_T
+                        L7: R6_SSS_CO
+                    L6: R6_SSM
+                        L7: R6_SSM_D
+                        L7: R6_SSM_T
+                        L7: R6_SSM_CO
+                L5: R6_MSR
+                    L6: R6_DSR
+                        L7: R6_DSS
+                            L8: R6_DSS_D
+                            L8: R6_DSS_T
+                            L8: R6_DSS_CO
+                        L7: R6_DSM
+                            L8: R6_DSM_D
+                            L8: R6_DSM_T
+                            L8: R6_DSM_CO
+                    L6: R6_TSR
+                        L7: R6_TSS
+                            L8: R6_TSS_D
+                            L8: R6_TSS_T
+                            L8: R6_TSS_CO
+                        L7: R6_TSM
+                            L8: R6_TSM_D
+                            L8: R6_TSM_T
+                            L8: R6_TSM_CO
+            L4: R6_SMS
+                L5: R6_SMS_D
+                L5: R6_SMS_T
+                L5: R6_SMS_CO
+            L4: R6_SMM
+        L3: R7
+        L3: R8
+        L3: R9
+            L4: R9_SSSSSD
+            L4: R9_SDSSSD
 L1: multiplebond_intra
     L2: doublebond_intra
         L3: doublebond_intra_pri
