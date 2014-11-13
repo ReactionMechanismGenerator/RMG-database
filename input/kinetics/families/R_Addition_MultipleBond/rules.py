@@ -39569,14 +39569,20 @@ entry(
     index = 3069,
     label = "Cds-HH_Cds-CsH;OJ_pri",
     kinetics = ArrheniusEP(
-        A = (4.15e+10, 'cm^3/(mol*s)'),
-        n = 0.68,
+        A = (3.2E+5, 'cm^3/(mol*s)'),
+        n = 2.03,
         alpha = 0,
-        E0 = (-1.945, 'kcal/mol'),
+        E0 = (-3.5, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank = 3,
+    shortDesc = "propene+OH rate coefficient",
+    longDesc = """
+Ref Ab Initio Kinetics for the Decomposition of Hydroxybutyl and Butoxy Radicals of n-Butanol,Zhang P.,Klippenstein S.K.,Law C.K.
+The thermochemistry for the species is obtained from Mike's n-butanol paper dx.doi.org/10.1016/j.combustflame.2010.06.002         
+Original rate is too high (~ factor of 10) replaced with propene+OH rate coefficient 
+    """,
 )
 
 entry(
