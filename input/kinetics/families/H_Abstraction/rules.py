@@ -46524,4 +46524,58 @@ relative yields: butanal + HO2 reactions
 Refitted from four parameter fits to three parameters fits,  
 """,
 )
+
+entry(
+    index = 7043,
+    label = "C/H2/CdCs;O_pri_rad",
+    kinetics = ArrheniusEP(
+        A = (33.5, 'cm^3/(mol*s)'),
+        n = 3.475,
+        alpha = 0,
+        E0 = (-2.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CCSD(T)/6-311++G(d,p)""",
+    longDesc = """
+Kinetics of Hydrogen Abstraction Reactions of Butene Isomers by OH Radical
+s-allylic site from 1-Butene + OH ref: DOI: 10.1021/jp1062786""",
 )
+
+entry(
+    index = 7044,
+    label = "C/H3/Cd\H_Cd\H\Cs;O_pri_rad",
+    kinetics = ArrheniusEP(
+        A = (2.03, 'cm^3/(mol*s)'),
+        n = 3.774,
+        alpha = 0,
+        E0 = (-1.49, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CCSD(T)/6-311++G(d,p)""",
+    longDesc = """
+Kinetics of Hydrogen Abstraction Reactions of Butene Isomers by OH Radical
+p-allylic site of 2-butene ref: DOI: 10.1021/jp1062786""",
+)
+
+entry(
+    index = 7045,
+    label = "C/H3/Cd\Cs_Cd\H2;O_pri_rad",
+    kinetics = ArrheniusEP(
+        A = (2, 'cm^3/(mol*s)'),
+        n = 3.594,
+        alpha = 0,
+        E0 = (-1.07, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CCSD(T)/6-311++G(d,p)""",
+    longDesc = """
+Kinetics of Hydrogen Abstraction Reactions of Butene Isomers by OH Radical
+p-allylic site of iso-butene ref: DOI: 10.1021/jp1062786""",
+)
+
