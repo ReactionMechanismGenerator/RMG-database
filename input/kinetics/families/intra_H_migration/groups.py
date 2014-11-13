@@ -963,6 +963,20 @@ entry(
 
 entry(
     index = 71,
+    label = "R4H_SMM",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 [Cb,Cd] u0 {1,S}, {3,[D,B]}
+3 *5 [Cbf,Cdd] u0 {2,[D,B]}, {4,[D,B]}
+4 *2 [Cb,Cd] u0 {3,[D,B]}, {5,S}
+5 *3 H u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 71,
     label = "R4H_SBB",
     group = 
 """
@@ -971,6 +985,20 @@ entry(
 3 *5 Cbf u0 {2,B} {4,B}
 4 *2 Cb  u0 {3,B} {5,S}
 5 *3 H   u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 71,
+    label = "R4H_MMS",
+    group = 
+"""
+1 *1 [Cb,Cd] u1 {2,[D,B]}
+2 *4 [Cbf,Cdd] u0 {1,[D,B]}, {3,[D,B]}
+3 *5 [Cb,Cd] u0 {2,[D,B]}, {4,S}
+4 *2 R!H u0 {3,S}, {5,S}
+5 *3 H u0 {4,S}
 """,
     kinetics = None,
 )
@@ -2843,11 +2871,21 @@ entry(
 
 entry(
     index = 190,
+    label = "Cd_rad_out",
+    group = 
+"""
+1 *1 Cd u1 
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 190,
     label = "Cd_rad_out_double",
     group = 
 """
 1 *1 Cd u1 {2,D}
-2    Cd u0 {1,D}
+2    [Cd,Cdd] u0 {1,D}
 """,
     kinetics = None,
 )
@@ -3233,7 +3271,7 @@ entry(
 """
 1 *2 Cd     u0 {2,S} {3,D}
 2 *3 H      u0 {1,S}
-3    [Cd,O] u0 {1,D}
+3    [Cd,Cdd,O] u0 {1,D}
 """,
     kinetics = None,
 )
@@ -3245,7 +3283,7 @@ entry(
 """
 1 *2 Cd u0 {2,S} {3,D}
 2 *3 H  u0 {1,S}
-3    Cd u0 {1,D}
+3    [Cd,Cdd] u0 {1,D}
 """,
     kinetics = None,
 )
@@ -3876,8 +3914,10 @@ L1: RnH
                 L5: R4H_SDS
                 L5: R4H_STS
                 L5: R4H_SBS
-            L4: R4H_SBB
-            L4: R4H_BBS
+            L4: R4H_SMM
+                L5: R4H_SBB
+            L4: R4H_MMS
+                L5: R4H_BBS
             L4: R4H_BBB
     L2: R5Hall
         L3: R5HJ_1
@@ -3995,11 +4035,12 @@ L1: RnH
 L1: Y_rad_out
     L2: O_rad_out
     L2: S_rad_out
-    L2: Cd_rad_out_double
-    L2: Cd_rad_out_single
-        L3: Cd_rad_out_singleH
-        L3: Cd_rad_out_singleNd
-        L3: Cd_rad_out_singleDe
+    L2: Cd_rad_out
+        L3: Cd_rad_out_double
+        L3: Cd_rad_out_single
+            L4: Cd_rad_out_singleH
+            L4: Cd_rad_out_singleNd
+            L4: Cd_rad_out_singleDe
     L2: Ct_rad_out
     L2: Cb_rad_out
     L2: CO_rad_out
