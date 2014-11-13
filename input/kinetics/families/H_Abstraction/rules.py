@@ -10708,7 +10708,7 @@ entry(
 
 entry(
     index = 3081,
-    label = "C/H2/Cs\Cs2/O;O_pri_rad",
+    label = "C/H2/CsO;O_pri_rad",
     kinetics = ArrheniusEP(
         A = (2.16e+06, 'cm^3/(mol*s)'),
         n = 2.002,
@@ -10718,6 +10718,7 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
+    shortDesc = u"""iBuOH + OH (communication from truhlar group) refitted to arrhenius form""",
 )
 
 entry(
@@ -10732,11 +10733,12 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
+    shortDesc = u"""iBuOH + OH (communication from truhlar group) refitted to arrhenius form""",
 )
 
 entry(
     index = 3085,
-    label = "C/H3/Cs\H\Cs\Cs|O;O_pri_rad",
+    label = "C/H3/Cs;O_pri_rad",
     kinetics = ArrheniusEP(
         A = (2.3e+08, 'cm^3/(mol*s)'),
         n = 1.225,
@@ -10746,6 +10748,7 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
+    shortDesc = u"""iBuOH + OH (communication from truhlar group) refitted to arrhenius form""",
 )
 
 entry(
@@ -10760,6 +10763,7 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
+    shortDesc = u"""iBuOH + OH (communication from truhlar group) refitted to arrhenius form""",
 )
 
 entry(
@@ -10900,7 +10904,7 @@ entry(
 
 entry(
     index = 3102,
-    label = "C/H3/Cs\H\Cs\Cs|O;Cd_Cd\H2_pri_rad",
+    label = "C/H3/Cs;Cd_Cd\H2_pri_rad",
     kinetics = ArrheniusEP(
         A = (0.00018, 'cm^3/(mol*s)'),
         n = 4.55,
@@ -10930,7 +10934,7 @@ entry(
 
 entry(
     index = 3106,
-    label = "C/H2/Cs\Cs2/O;Cd_Cd\H2_pri_rad",
+    label = "C/H2/CsO;Cd_Cd\H2_pri_rad",
     kinetics = ArrheniusEP(
         A = (0.026, 'cm^3/(mol*s)'),
         n = 3.9,
@@ -10945,7 +10949,7 @@ entry(
 
 entry(
     index = 3108,
-    label = "C/H3/Cs\H\Cs\Cs|O;O_atom_triplet",
+    label = "C/H3/Cs;O_atom_triplet",
     kinetics = ArrheniusEP(
         A = (323, 'cm^3/(mol*s)'),
         n = 3.23,
@@ -10956,6 +10960,12 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""C2H5OH+O=OH+CH2CH2OH""",
+    longDesc = """
+iBuOH+O SSM estimates		 
+Values for -alpha,-gamma,-O come from C2H5OH+O TST calculations:
+C. W. Wu, Y. P. Lee, S. C. Xu, M. C. Lin, J. Phys. Chem. A 111 (2007) 6693-6703. 		 //!	C. W. Wu, Y. P. Lee, S. C. Xu, M. C. Lin, J. Phys. Chem. A 111 (2007) 6693-6703. 
+-alpha is 2*k(C2H5OH+O=OH+CH2CH2OH)		
+""",
 )
 
 entry(
@@ -11005,7 +11015,7 @@ entry(
 
 entry(
     index = 3115,
-    label = "C_rad/H2/Cs\H\Cs\Cs|O;H2O2",
+    label = "C_rad/H2/Cs;H2O2",
     kinetics = ArrheniusEP(
         A = (1.5, 'cm^3/(mol*s)'),
         n = 3.28,
@@ -11050,7 +11060,7 @@ entry(
 
 entry(
     index = 3121,
-    label = "C_rad/H/Cs\H\Cs2/O;H2O2",
+    label = "C_rad/H/CsO;H2O2",
     kinetics = ArrheniusEP(
         A = (28.5, 'cm^3/(mol*s)'),
         n = 3.04,
@@ -11147,21 +11157,6 @@ doi: 10.1021/jp310910f""",
 
 entry(
     index = 3125,
-    label = "C/H2/Cs/Cs\O;H_rad",
-    kinetics = ArrheniusEP(
-        A = (1.13e+06, 'cm^3/(mol*s)'),
-        n = 2.15,
-        alpha = 0,
-        E0 = (5.66, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections""",
-)
-
-entry(
-    index = 3125,
     label = "C/H2/Cs/Cs\Cs|O;O_atom_triplet",
     kinetics = ArrheniusEP(
         A = (84.5, 'cm^3/(mol*s)'),
@@ -11178,60 +11173,15 @@ entry(
     index = 3126,
     label = "C/H3/Cs;O_pri_rad",
     kinetics = ArrheniusEP(
-        A = (47000, 'cm^3/(mol*s)'),
-        n = 2.31,
+        A = (4.77e+08, 'cm^3/(mol*s)'),
+        n = 1.152,
         alpha = 0,
-        E0 = (0.394, 'kcal/mol'),
-        Tmin = (300, 'K'),
+        E0 = (2.68, 'kcal/mol'),
+        Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank = 2,
     shortDesc = u"""CCSD(T)-F12a/pVTZ with MS-VTST treatment for rotors""",
-)
-
-entry(
-    index = 3126,
-    label = "C/H2/Cs/Cs\Cs|O;H_rad",
-    kinetics = ArrheniusEP(
-        A = (557000, 'cm^3/(mol*s)'),
-        n = 2.25,
-        alpha = 0,
-        E0 = (5.44, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections""",
-)
-
-entry(
-    index = 3127,
-    label = "C/H2/Cs/Cs\O;C_methyl",
-    kinetics = ArrheniusEP(
-        A = (12, 'cm^3/(mol*s)'),
-        n = 3.24,
-        alpha = 0,
-        E0 = (8.06, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections""",
-)
-
-entry(
-    index = 3128,
-    label = "C/H2/Cs/Cs\Cs|O;C_methyl",
-    kinetics = ArrheniusEP(
-        A = (4.65, 'cm^3/(mol*s)'),
-        n = 3.37,
-        alpha = 0,
-        E0 = (7.79, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections""",
 )
 
 entry(
