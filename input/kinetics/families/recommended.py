@@ -24,6 +24,7 @@ recommendedFamilies = {
 'Disproportionation':True,
 'HO2_Elimination_from_PeroxyRadical':True,
 'H_Abstraction':True,
+'H_shift_cyclopentadiene':True,
 'Intra_Diels_alder':True,
 'Intra_Disproportionation':True,
 'Intra_RH_Add_Endocyclic':False,
