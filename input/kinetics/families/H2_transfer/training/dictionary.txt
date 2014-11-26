@@ -1,0 +1,38 @@
+SiH2(S)
+1 *4 Si u0 p1 c0 {2,S} {3,S}
+2    H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+
+SiH4
+1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H u0 p0 c0 {1,S}
+3 *3 H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {1,S}
+
+Si2H6
+1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H u0 p0 c0 {1,S}
+3 *3 H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5    Si u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6    H u0 p0 c0 {5,S}
+7    H u0 p0 c0 {5,S}
+8    H u0 p0 c0 {5,S}
+
+H3SiSiH
+1 *4 Si u0 p1 c0 {2,S} {3,S}
+2    H u0 p0 c0 {1,S}
+3    Si u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4    H u0 p0 c0 {3,S}
+5    H u0 p0 c0 {3,S}
+6    H u0 p0 c0 {3,S}
+
+Si
+1 *4 Si u2 p1 c0
+
+SiH2(T)
+1 *1 Si u2 p0 c0 {2,S} {3,S}
+2 *2 H u0 p0 c0 {1,S}
+3 *3 H u0 p0 c0 {1,S}
+
