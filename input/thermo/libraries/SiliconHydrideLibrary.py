@@ -144,7 +144,7 @@ entry(
 			H298 = (62.875, 'kcal/mol'),
 			S298 = (50.932, 'cal/(mol*K)'),
 			),
-		shortDesc = u"Disilane",
+		shortDesc = u"",
 		longDesc = u"""
 		CBS-QB3 calculations using g03 and CanTherm, by Belinda Slakman 10/24/14
 		""",
@@ -165,10 +165,54 @@ entry(
 			H298 = (84.868, 'kcal/mol'),
 			S298 = (52.781, 'cal/(mol*K)'),
 			),
-		shortDesc = u"Disilane",
+		shortDesc = u"",
 		longDesc = u"""
 		CBS-QB3 calculations using g03 and CanTherm, by Belinda Slakman 10/24/14
 		""",
 		)
 
+entry(
+		index = 9,
+		label = 'Si2H2',
+		molecule = 
+		"""
+		1 Si u0 p1 c0 {2,S} {3,S}
+		2 H u0 p0 c0 {1,S}
+		3 Si u0 p1 c0 {1,S} {4,S}
+		4 H u0 p0 c0 {3,S}
+		""",
+		thermo = ThermoData(
+			Tdata = ([300,400,500,600,800,1000,1500],'K'),
+			Cpdata = ([13.713,14.706,15.409,15.934,16.754,17.481,18.612], 'cal/(mol*K)'),
+			H298 = (108.784, 'kcal/mol'),
+			S298 = (63.217, 'cal/(mol*K)'),
+			),
+		shortDesc = u"",
+		longDesc = u"""
+		CBS-QB3 calculations using g03 and CanTherm, by Belinda Slakman 11/5/14 
+		""",
+		)
+
+entry(
+		index = 10,
+		label = 'H2SiSiH',
+		molecule = 
+		"""
+		1 Si u1 p0 c0 {2,S} {3,D}
+		2 H u0 p0 c0 {1,S}
+		3 Si u0 p0 c0 {1,D} {4,S} {5,S}
+		4 H u0 p0 c0 {3,S}
+		5 H u0 p0 c0 {3,S}
+		""",
+		thermo = ThermoData(
+			Tdata = ([300,400,500,600,800,1000,1500],'K'),
+			Cpdata = ([15.554,17.003,18.243,19.305,20.98,22.175,23.834], 'cal/(mol*K)'),
+			H298 = (95.251, 'kcal/mol'),
+			S298 = (68.744, 'cal/(mol*K)'),
+			),
+		shortDesc = u"",
+		longDesc = u"""
+		CBS-QB3 calculations using g03 and CanTherm, by Belinda Slakman 11/6/14 
+		""",
+		)
 
