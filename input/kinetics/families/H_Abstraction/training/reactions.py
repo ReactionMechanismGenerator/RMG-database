@@ -1516,7 +1516,7 @@ entry(
     label = "SiH4 + H <=> H2 + SiH3",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.09E-17, 'cm^3/(mol*s)'),
+        A = (1.38E12, 'cm^3/(mol*s)'),
         n = 2.32,
         Ea = (9.51, 'kJ/mol'),
         T0 = (1, 'K'),
