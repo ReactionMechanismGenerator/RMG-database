@@ -66,8 +66,11 @@ entry(
     index = 4,
     label = "Si_H",
     group = """
-1 *1 Si u0 p0 c0 {2,S}
+1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H  u0 p0 c0 {1,S}
+3    R  ux px {1,S}
+4    R  ux px {1,S}
+5    R  ux px {1,S}
 """,
     kinetics = None,
     shortDesc = u"""A silane""",
@@ -219,17 +222,17 @@ L1: Y_H
 """
 )
 
-forbidden(
-    label = "Si(S)_as_Si_H",
-    group = 
-"""
-1 *1  Si u0 p1 c0 {2,S} {3,S}
-2     H u0 p0 c0 {1,S}
-3     H u0 p0 c0 {1,S}
-""",
-    shortDesc = u"""silylene""",
-    longDesc = 
-u"""
-
-""",
-)
+#forbidden(
+#    label = "Si(S)_as_Si_H",
+#    group = 
+#"""
+#1 *1  Si u0 p1 c0 {2,S} {3,S}
+#2     H u0 p0 c0 {1,S}
+#3     H u0 p0 c0 {1,S}
+#""",
+#    shortDesc = u"""silylene""",
+#    longDesc = 
+#u"""
+#
+#""",
+#)
