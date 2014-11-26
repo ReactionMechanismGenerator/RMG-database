@@ -15,7 +15,7 @@ entry(
 	index = 1,
 	label = "Si2S_R_H;Si_H",
 	kinetics = ArrheniusEP(
-		A = (3.1E-10 , 'cm^3/(mol*s)'),
+		A = (1.86E14, 'cm^3/(mol*s)'),
 		n = 0,
 		alpha = 0,
 		E0 = (-1.9, 'kJ/mol'),
@@ -34,7 +34,7 @@ entry(
 	index = 2,
 	label = "Si2S_R_H;H_H",
 	kinetics = ArrheniusEP(
-		A = (1.74E-18 , 'cm^3/(mol*s)'),
+		A = (1.05E6, 'cm^3/(mol*s)'),
 		n = 1.97,
 		alpha = 0,
 		E0 = (-1.9, 'kJ/mol'),

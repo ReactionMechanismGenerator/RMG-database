@@ -12,7 +12,7 @@ entry(
     label = "SiH2 + H2 <=> SiH4",
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (1.74E-18, 'cm^3/(mol*s)'),
+        A = (1.05E6, 'cm^3/(mol*s)'),
         n = 1.97,
         Ea = (-1.9, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -57,7 +57,7 @@ entry(
     label = "SiH2 + Si2H6 <=> Si3H8",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (3.1E-10, 'cm^3/(mol*s)'),
+        A = (1.86E14, 'cm^3/(mol*s)'),
         n = 0,
         Ea = (-1.9, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -82,7 +82,7 @@ entry(
     label = "SiH2 + Si3H8 <=> Si4H10",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (3.7E-10, 'cm^3/(mol*s)'),
+        A = (2.24E14, 'cm^3/(mol*s)'),
         n = 0,
         Ea = (-2.0, 'kJ/mol'),
         T0 = (1, 'K'),
