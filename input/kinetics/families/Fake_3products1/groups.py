@@ -4,7 +4,8 @@
 name = "Fake_3products1/groups"
 shortDesc = u""
 longDesc = u"""
-
+Some reaction in which a hydroperoxide falls apart into three products.
+It shows up in the LLNL Gasoline Surrogate model.
 """
 
 template(reactants=["HOORRR"], products=["P1", "P2", "P3"], ownReverse=False)
@@ -18,21 +19,6 @@ recipe(actions=[
     ['BREAK_BOND', '*4', 'S', '*5'],
     ['GAIN_RADICAL', '*5', '1'],
 ])
-
-
-#entry(
-#    index = 1,
-#    label = "jOOQOOH",
-#    group = "OR{jOOQ2OOH, jOOQ3OOH, jOOQ4OOH, jOOQ5OOH, jOOQ6OOH, jOOQ7OOH}",
-#    kinetics = None,
-#    reference = None,
-#    referenceType = "",
-#    shortDesc = u"""""",
-#    longDesc = u"""""",
-#    history = [
-#        ("Thu Oct 10 2013","Victor Lambert <vrlambert@gmail.com","action","""Created to use only for importing other groups chemkin files"""),
-#    ],
-#)
 
 entry(
     index = 1,
@@ -54,7 +40,6 @@ entry(
         ("Thu Dec 4 2014","Richard West","action","""Created to use only for importing other groups chemkin files"""),
     ],
 )
-
 
 tree(
 """
