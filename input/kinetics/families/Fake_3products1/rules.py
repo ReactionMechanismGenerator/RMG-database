@@ -10,15 +10,14 @@ recommended = True
 
 entry(
 	index = 1,
-	label = "HORRROO",
+	label = "HOORRR",
     group1 = """
 1 *1 H  0 {2,S}
 2 *2 O  0 {1,S} {3,S}
-3 *3 R  0 {2,S} {4,S}
+3 *3 O  0 {2,S} {4,S}
 4 *4 R  0 {3,S} {5,S}
 5 *5 R  0 {4,S} {6,S}
-6 *6 O  0 {5,S} {7,S}
-7 *7 O  1 {6,S}
+6 *6 R  0 {5,S}
 """,
 	kinetics = ArrheniusEP(
 		A = (10000000000000.0, 'cm^3/(mol*s)'),
