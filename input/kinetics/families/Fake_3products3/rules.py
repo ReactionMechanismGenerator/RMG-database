@@ -20,7 +20,7 @@ entry(
 6 *6 H 0 {5,S}
 """,
 	kinetics = ArrheniusEP(
-		A = (10000000000000.0, 'cm^3/(mol*s)'),
+		A = (1e13, 'cm^3/(mol*s)'),
 		n = 0,
 		alpha = 0,
 		E0 = (0.5, 'kcal/mol'),

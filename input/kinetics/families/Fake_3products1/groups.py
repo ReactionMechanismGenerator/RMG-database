@@ -10,7 +10,7 @@ It shows up in the LLNL Gasoline Surrogate model.
 
 template(reactants=["HOORRR"], products=["P1", "P2", "P3"], ownReverse=False)
 
-reverse = "trimolecular"
+reverse = "Fake_trimolecular1"
 
 recipe(actions=[
     ['GAIN_RADICAL', '*2', '1'],

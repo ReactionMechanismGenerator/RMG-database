@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Fake_3products1/rules"
+name = "Fake_3products2/rules"
 shortDesc = u""
 longDesc = u"""
 
@@ -20,7 +20,7 @@ entry(
 6 *6 R  1 {5,S}
 """,
 	kinetics = ArrheniusEP(
-		A = (10000000000000.0, 'cm^3/(mol*s)'),
+		A = (1e13, 'cm^3/(mol*s)'),
 		n = 0,
 		alpha = 0,
 		E0 = (0.5, 'kcal/mol'),
@@ -36,6 +36,6 @@ u"""
 
 """,
 	history = [
-		("Thu Dec 4 2014","Richard West","action","""Created to use only for importing other groups chemkin filesthis entry from the old RMG database."""),
+		("Thu Dec 4 2014","Richard West","action","""Created to use only for importing and interpreting existing chemkin files."""),
 	],
 )
