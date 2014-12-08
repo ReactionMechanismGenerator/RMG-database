@@ -5,21 +5,21 @@ name = "Fake_3products3/groups"
 shortDesc = u""
 longDesc = u"""
 Some reaction in which an ROOj radical abstracts an H from
-an OH group on itself
-and falls apart into three products.
+an OH group on itself and falls apart into three products.
 It shows up in the LLNL Gasoline Surrogate model.
 """
 
-template(reactants=["OjORROH"], products=["P1","P2","P3"])
+template(reactants=["OjORROH"], products=["P1", "P2", "P3"], ownReverse=False)
 
+reverse = "Fake_trimolecular3"
 
 recipe(actions=[
-	['FORM_BOND', '*1', 'S', '*6'],
-	['BREAK_BOND', '*1', 'S', '*2'],
-	['CHANGE_BOND', '*2', '+1', '*3'],
-	['BREAK_BOND', '*3', 'S', '*4'],
-	['CHANGE_BOND', '*4', '+1', '*5'],
-	['BREAK_BOND', '*5', 'S', '*6'],
+    ['FORM_BOND', '*1', 'S', '*6'],
+    ['BREAK_BOND', '*1', 'S', '*2'],
+    ['CHANGE_BOND', '*2', '+1', '*3'],
+    ['BREAK_BOND', '*3', 'S', '*4'],
+    ['CHANGE_BOND', '*4', '+1', '*5'],
+    ['BREAK_BOND', '*5', 'S', '*6'],
 ])
 
 entry(
@@ -40,6 +40,9 @@ entry(
 u"""
 
 """,
+    history = [
+        ("Mon Dec 8 2014","Yang Lin","action","""Created to use only for importing other groups chemkin files"""),
+    ],
 )
 
 tree(
