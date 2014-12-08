@@ -3,8 +3,8 @@
 
 """
 This script imports a chemkin file (along with RMG dictionary) from a local directory and saves a set of
-RMG-Py kinetics library and thermo library files.  These py files can be added to the 
-input/kinetics/libraries or input/thermo/libraries folder.
+RMG-Py kinetics library and thermo library files.  These py files are automatically added to the 
+input/kinetics/libraries and input/thermo/libraries folder under the user-specified `name` for the chemkin library.
 """
 
 import argparse
@@ -16,7 +16,6 @@ from rmgpy.data.kinetics import KineticsLibrary
 from rmgpy.data.base import Entry
 from rmgpy.molecule import Molecule
 from rmgpy.chemkin import loadChemkinFile
-from importOldDatabase import getUsername
           
 if __name__ == '__main__':
     
@@ -25,31 +24,24 @@ if __name__ == '__main__':
         help='The path of the chemkin file')    
     parser.add_argument('dictionaryPath', metavar='DICTIONARY', type=str, nargs=1,
         help='The path of the RMG dictionary file')     
-    parser.add_argument('outputDirectory', metavar='OUTPUTDIR', type=str, nargs=1,
-        help='The desired output directory for the library files') 
-    parser.add_argument('-r', '--removeH', action='store_true', help='remove explicit hydrogens')
+    parser.add_argument('name', metavar='NAME', type=str, nargs=1,
+        help='Name of the chemkin library to be saved') 
     
     args = parser.parse_args()
     chemkinPath = args.chemkinPath[0]
     dictionaryPath = args.dictionaryPath[0]
-    outputDir = args.outputDirectory[0]
-    removeH = args.removeH
-    
-    print removeH
-    
+    name = args.name[0]
+        
     speciesList, reactionList = loadChemkinFile(chemkinPath, dictionaryPath)
     
     # load thermo library entries
     thermoLibrary = ThermoLibrary()
     for i in range(len(speciesList)): 
         species = speciesList[i]
-        rdkitmol = species.molecule[0].toRDKitMol(removeHs=False)
-        species.molecule = [Molecule().fromRDKitMol(rdkitmol)]#[0].toAdjacencyList(removeH=False)
-        print species.molecule[0].toAdjacencyList(removeH = removeH)
         if species.thermo:
             thermoLibrary.loadEntry(index = i + 1,
                                     label = species.label,
-                                    molecule = species.molecule[0].toAdjacencyList(removeH = removeH),
+                                    molecule = species.molecule[0].toAdjacencyList(),
                                     thermo = species.thermo,
                                     shortDesc = species.thermo.comment
            )                
@@ -63,6 +55,7 @@ if __name__ == '__main__':
         reaction = reactionList[i]        
         entry = Entry(
                 index = i+1,
+                label = str(reaction),
                 item = reaction,
                 data = reaction.kinetics,
             )
@@ -71,19 +64,13 @@ if __name__ == '__main__':
     
     kineticsLibrary.checkForDuplicates()
     kineticsLibrary.convertDuplicatesToMulti()
-        
-    # Assign history to all entries
-    user = getUsername()    # Pulls username from current git repository
-    #user = '{0} <{1}>'.format(name, email)   # If not in git repository, then enter user information manually
-    event = [time.asctime(),user,'action','{0} imported this entry from the old RMG database.'.format(user)]
-    for label, entry in thermoLibrary.entries.iteritems():
-        entry.history.append(event)
-    for label, entry in kineticsLibrary.entries.iteritems():
-        entry.history.append(event)
-        
+
     # Save in Py format
-    if not os.path.exists(outputDir):
-        os.makedirs(os.path.join(self.path))
+    try:
+        os.makedirs(os.join('input/kinetics/libraries/',name))
+    except:
+        pass
     
-    thermoLibrary.save(os.path.join(outputDir, 'chemkinThermoLibrary.py'), removeH=removeH)
-    kineticsLibrary.save(os.path.join(outputDir, 'chemkinKineticsLibrary.py'), removeH=removeH)
+    thermoLibrary.save(os.path.join('input/thermo/libraries', name + '.py'))
+    kineticsLibrary.save(os.path.join('input/kinetics/libraries/', name, 'reactions.py'))
+    kineticsLibrary.saveDictionary(os.path.join('input/kinetics/libraries/', name, 'dictionary.txt'))
