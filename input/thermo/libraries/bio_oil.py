@@ -595,7 +595,7 @@ entry(
     shortDesc = u"""Estimated using Group additivity methods""",
     longDesc = 
 u"""
-
+Pecullan, M. Brezinsky, K. Glassman, I. "Pyrolysis and Oxidation of Anisole near 100K". J Phys Chem A. 1997 101, 3305-3316
 """,
 )
 
@@ -630,7 +630,7 @@ multiplicity 2
     shortDesc = u"""Estimated using Group additivity methods""",
     longDesc = 
 u"""
-
+Pecullan, M. Brezinsky, K. Glassman, I. "Pyrolysis and Oxidation of Anisole near 100K". J Phys Chem A. 1997 101, 3305-3316
 """,
 )
 
