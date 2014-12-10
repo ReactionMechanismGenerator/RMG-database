@@ -37,10 +37,10 @@ def loadDatabase(args):
     rmgDatabase = RMGDatabase()
     rmgDatabase.load('input', kineticsFamilies='default')
     
-    rxnFamily = rmgDatabase.kinetics.families[args.family[0]]
-    database = rxnFamily.transitionStates
+    # rxnFamily = rmgDatabase.kinetics.families[args.family[0]]
+    # database = rxnFamily.transitionStates
     
-    return database, rmgDatabase
+    return rmgDatabase #database, rmgDatabase
 
 ################################################################################
 
@@ -55,7 +55,7 @@ def createDataSet(label, family, database, rxnFamily):
     
     if database.depository.label != label:
         raise ValueError('Invalid value "{0}" for label parameter.'.format(label))
-    
+        
     for entry in database.depository.entries.values():
         reaction, template = database.getForwardReactionForFamilyEntry(entry=entry, family=family, groups=database.groups, rxnFamily=rxnFamily)
         dataset.append([reaction, template, entry])
@@ -95,9 +95,8 @@ def generate(args):
         trainingSetLabels = ['TS_training']
     
     # Load the database
-    database, rmgDatabase = loadDatabase(args)
+    rmgDatabase = loadDatabase(args) # database, rmgDatabase = loadDatabase(args)
     
-    rmgDatabase.kinetics.loadFamilies('input/kinetics/families', families=args.family)
     rxnFamily = rmgDatabase.kinetics.families[args.family[0]]
     
     # Removed above. Haven't put families yet for transition states, so specify H_Abstraction
@@ -106,15 +105,15 @@ def generate(args):
     trainingSet = []
     for family in families:
         for trainingSetLabel in trainingSetLabels:
-            for reaction, template, entry in createDataSet(trainingSetLabel, family, database, rxnFamily):
+            for reaction, template, entry in createDataSet(trainingSetLabel, family, rxnFamily.transitionStates, rxnFamily.transitionStates.family):
                 distances = entry.data
                 trainingSet.append((template, distances))
-    
+                
     # Generate the group values (implemented on the KineticsGroups class)
-    changed = database.groups.generateGroupAdditivityValues(trainingSet, user=user)
+    changed = rxnFamily.transitionStates.groups.generateGroupAdditivityValues(trainingSet, user=user)
     if changed:
         # Save the new group values to disk
-        database.saveTransitionStateGroups(os.path.join('input', 'kinetics', 'families', args.family[0], 'TS_groups.py'))
+        rxnFamily.transitionStates.saveTransitionStateGroups(os.path.join('input', 'kinetics', 'families', args.family[0], 'TS_groups.py'))
 
 ################################################################################
 
