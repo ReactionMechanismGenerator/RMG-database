@@ -12,61 +12,142 @@ entry(
     label = "X_H_or_Xrad_H_Xbirad_H_Xtrirad_H",
     group = "OR{H2, C_H, O_H}",
     distances = DistanceData(
-        distances = {'d12': 1.1828, 'd13': 2.36349, 'd23': 1.18464},
-        uncertainties = {'d12': 0.135335, 'd13': 0.087962, 'd23': 0.135247},
+        distances = {'d12': 1.29206, 'd13': 2.57998, 'd23': 1.29165},
+        uncertainties = {'d12': 0.11946, 'd13': 0.075856, 'd23': 0.119395},
     ),
-    shortDesc = u"""Fitted to 88 distances.
+    shortDesc = u"""Fitted to 460 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=70 label="CsOHHH">, <Entry index=6 label="Hrad">]
-[<Entry index=43 label="C_methane">, <Entry index=100 label="Cd(=C)Hj">]
-[<Entry index=28 label="OCH">, <Entry index=32 label="OjO">]
-[<Entry index=29 label="OOH">, <Entry index=94 label="CsCOHj">]
-[<Entry index=28 label="OCH">, <Entry index=56 label="Cs_methyl">]
-[<Entry index=43 label="C_methane">, <Entry index=95 label="CsOOHj">]
-[<Entry index=43 label="C_methane">, <Entry index=93 label="CsCCHj">]
-[<Entry index=29 label="OOH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=95 label="CsOOHj">]
+[<Entry index=29 label="OOH">, <Entry index=30 label="OjH">]
+[<Entry index=29 label="OOH">, <Entry index=31 label="OjC">]
+[<Entry index=4 label="C_H">, <Entry index=32 label="OjO">]
 [<Entry index=87 label="Cd(=C)HH">, <Entry index=56 label="Cs_methyl">]
-[<Entry index=43 label="C_methane">, <Entry index=94 label="CsCOHj">]
 [<Entry index=43 label="C_methane">, <Entry index=91 label="CsCHHj">]
-[<Entry index=28 label="OCH">, <Entry index=30 label="OjH">]
-[<Entry index=87 label="Cd(=C)HH">, <Entry index=6 label="Hrad">]
-[<Entry index=69 label="CsCHHH">, <Entry index=94 label="CsCOHj">]
-[<Entry index=27 label="OHH">, <Entry index=31 label="OjC">]
-[<Entry index=28 label="OCH">, <Entry index=6 label="Hrad">]
-[<Entry index=3 label="H2">, <Entry index=100 label="Cd(=C)Hj">]
-[<Entry index=3 label="H2">, <Entry index=17 label="Cj">]
-[<Entry index=69 label="CsCHHH">, <Entry index=56 label="Cs_methyl">]
-[<Entry index=71 label="CsCCHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=3 label="H2">, <Entry index=96 label="CsCCCj">]
+[<Entry index=43 label="C_methane">, <Entry index=36 label="Cbj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=36 label="Cbj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=36 label="Cbj">]
+[<Entry index=75 label="CsCCOH">, <Entry index=6 label="Hrad">]
 [<Entry index=3 label="H2">, <Entry index=93 label="CsCCHj">]
 [<Entry index=27 label="OHH">, <Entry index=91 label="CsCHHj">]
-[<Entry index=3 label="H2">, <Entry index=92 label="CsOHHj">]
-[<Entry index=43 label="C_methane">, <Entry index=6 label="Hrad">]
+[<Entry index=70 label="CsOHHH">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=71 label="CsCCHH">, <Entry index=91 label="CsCHHj">]
-[<Entry index=69 label="CsCHHH">, <Entry index=32 label="OjO">]
-[<Entry index=3 label="H2">, <Entry index=101 label="Cd(=C)Cj">]
-[<Entry index=72 label="CsCOHH">, <Entry index=56 label="Cs_methyl">]
-[<Entry index=69 label="CsCHHH">, <Entry index=95 label="CsOOHj">]
+[<Entry index=43 label="C_methane">, <Entry index=93 label="CsCCHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=93 label="CsCCHj">]
-[<Entry index=43 label="C_methane">, <Entry index=31 label="OjC">]
-[<Entry index=29 label="OOH">, <Entry index=6 label="Hrad">]
+[<Entry index=70 label="CsOHHH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=43 label="C_methane">, <Entry index=96 label="CsCCCj">]
 [<Entry index=72 label="CsCOHH">, <Entry index=32 label="OjO">]
-[<Entry index=71 label="CsCCHH">, <Entry index=6 label="Hrad">]
-[<Entry index=14 label="Cb_H">, <Entry index=6 label="Hrad">]
 [<Entry index=88 label="Cd(=C)CH">, <Entry index=6 label="Hrad">]
+[<Entry index=28 label="OCH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=69 label="CsCHHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=43 label="C_methane">, <Entry index=92 label="CsOHHj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=32 label="OjO">]
+[<Entry index=27 label="OHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=71 label="CsCCHH">, <Entry index=100 label="Cd(=C)Hj">]
 [<Entry index=3 label="H2">, <Entry index=36 label="Cbj">]
-[<Entry index=3 label="H2">, <Entry index=31 label="OjC">]
-[<Entry index=3 label="H2">, <Entry index=32 label="OjO">]
-[<Entry index=3 label="H2">, <Entry index=56 label="Cs_methyl">]
-[<Entry index=29 label="OOH">, <Entry index=31 label="OjC">]
-[<Entry index=72 label="CsCOHH">, <Entry index=91 label="CsCHHj">]
-[<Entry index=3 label="H2">, <Entry index=91 label="CsCHHj">]
-[<Entry index=4 label="C_H">, <Entry index=6 label="Hrad">]
+[<Entry index=4 label="C_H">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=73 label="CsOOHH">, <Entry index=91 label="CsCHHj">]
-[<Entry index=73 label="CsOOHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=4 label="C_H">, <Entry index=93 label="CsCCHj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=29 label="OOH">, <Entry index=17 label="Cj">]
+[<Entry index=3 label="H2">, <Entry index=94 label="CsCOHj">]
+[<Entry index=3 label="H2">, <Entry index=92 label="CsOHHj">]
+[<Entry index=43 label="C_methane">, <Entry index=17 label="Cj">]
+[<Entry index=27 label="OHH">, <Entry index=6 label="Hrad">]
 [<Entry index=69 label="CsCHHH">, <Entry index=6 label="Hrad">]
 [<Entry index=69 label="CsCHHH">, <Entry index=30 label="OjH">]
+[<Entry index=70 label="CsOHHH">, <Entry index=6 label="Hrad">]
+[<Entry index=43 label="C_methane">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=31 label="OjC">]
+[<Entry index=27 label="OHH">, <Entry index=36 label="Cbj">]
+[<Entry index=4 label="C_H">, <Entry index=17 label="Cj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=17 label="Cj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=6 label="Hrad">]
+[<Entry index=28 label="OCH">, <Entry index=6 label="Hrad">]
+[<Entry index=14 label="Cb_H">, <Entry index=93 label="CsCCHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=29 label="OOH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=14 label="Cb_H">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=3 label="H2">, <Entry index=91 label="CsCHHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=32 label="OjO">]
+[<Entry index=3 label="H2">, <Entry index=101 label="Cd(=C)Cj">]
+[<Entry index=29 label="OOH">, <Entry index=32 label="OjO">]
+[<Entry index=70 label="CsOHHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=43 label="C_methane">, <Entry index=31 label="OjC">]
+[<Entry index=69 label="CsCHHH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=17 label="Cj">]
+[<Entry index=73 label="CsOOHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=14 label="Cb_H">, <Entry index=96 label="CsCCCj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=32 label="OjO">]
+[<Entry index=3 label="H2">, <Entry index=31 label="OjC">]
+[<Entry index=3 label="H2">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=14 label="Cb_H">, <Entry index=30 label="OjH">]
+[<Entry index=28 label="OCH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=72 label="CsCOHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=4 label="C_H">, <Entry index=6 label="Hrad">]
+[<Entry index=71 label="CsCCHH">, <Entry index=17 label="Cj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=17 label="Cj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=6 label="Hrad">]
+[<Entry index=70 label="CsOHHH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=43 label="C_methane">, <Entry index=94 label="CsCOHj">]
+[<Entry index=28 label="OCH">, <Entry index=30 label="OjH">]
+[<Entry index=43 label="C_methane">, <Entry index=30 label="OjH">]
+[<Entry index=74 label="CsCCCH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=28 label="OCH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=4 label="C_H">, <Entry index=31 label="OjC">]
+[<Entry index=69 label="CsCHHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=74 label="CsCCCH">, <Entry index=32 label="OjO">]
+[<Entry index=4 label="C_H">, <Entry index=91 label="CsCHHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=94 label="CsCOHj">]
+[<Entry index=29 label="OOH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=14 label="Cb_H">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=4 label="C_H">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=14 label="Cb_H">, <Entry index=6 label="Hrad">]
+[<Entry index=29 label="OOH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=28 label="OCH">, <Entry index=17 label="Cj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=31 label="OjC">]
+[<Entry index=43 label="C_methane">, <Entry index=6 label="Hrad">]
+[<Entry index=3 label="H2">, <Entry index=32 label="OjO">]
+[<Entry index=4 label="C_H">, <Entry index=96 label="CsCCCj">]
+[<Entry index=28 label="OCH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=27 label="OHH">, <Entry index=32 label="OjO">]
+[<Entry index=3 label="H2">, <Entry index=97 label="CsCCOj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=28 label="OCH">, <Entry index=32 label="OjO">]
+[<Entry index=29 label="OOH">, <Entry index=94 label="CsCOHj">]
+[<Entry index=43 label="C_methane">, <Entry index=95 label="CsOOHj">]
+[<Entry index=4 label="C_H">, <Entry index=92 label="CsOHHj">]
+[<Entry index=29 label="OOH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=30 label="OjH">]
+[<Entry index=74 label="CsCCCH">, <Entry index=31 label="OjC">]
+[<Entry index=74 label="CsCCCH">, <Entry index=6 label="Hrad">]
+[<Entry index=27 label="OHH">, <Entry index=31 label="OjC">]
+[<Entry index=3 label="H2">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=14 label="Cb_H">, <Entry index=91 label="CsCHHj">]
+[<Entry index=3 label="H2">, <Entry index=17 label="Cj">]
+[<Entry index=29 label="OOH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=17 label="Cj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=3 label="H2">, <Entry index=30 label="OjH">]
+[<Entry index=74 label="CsCCCH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=27 label="OHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=29 label="OOH">, <Entry index=6 label="Hrad">]
+[<Entry index=29 label="OOH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=74 label="CsCCCH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=43 label="C_methane">, <Entry index=32 label="OjO">]
+[<Entry index=72 label="CsCOHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=74 label="CsCCCH">, <Entry index=36 label="Cbj">]
+[<Entry index=72 label="CsCOHH">, <Entry index=6 label="Hrad">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=32 label="OjO">]
+[<Entry index=69 label="CsCHHH">, <Entry index=36 label="Cbj">]
 """,
 )
 
@@ -86,13 +167,14 @@ entry(
 2 *2 H u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.203377, 'd13': -0.17602, 'd23': 0.025309},
-        uncertainties = {'d12': 0.19029, 'd13': 0.099597, 'd23': 0.144154},
+        distances = {'d12': -0.326436, 'd13': -0.335049, 'd23': -0.010553},
+        uncertainties = {'d12': 0.173231, 'd13': 0.107413, 'd23': 0.125508},
     ),
-    shortDesc = u"""Fitted to 28 distances.
+    shortDesc = u"""Fitted to 45 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=3 label="H2">, <Entry index=97 label="CsCCOj">]
 [<Entry index=3 label="H2">, <Entry index=100 label="Cd(=C)Hj">]
 [<Entry index=3 label="H2">, <Entry index=17 label="Cj">]
 [<Entry index=3 label="H2">, <Entry index=31 label="OjC">]
@@ -100,8 +182,11 @@ u"""
 [<Entry index=3 label="H2">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=3 label="H2">, <Entry index=101 label="Cd(=C)Cj">]
 [<Entry index=3 label="H2">, <Entry index=93 label="CsCCHj">]
+[<Entry index=3 label="H2">, <Entry index=94 label="CsCOHj">]
 [<Entry index=3 label="H2">, <Entry index=92 label="CsOHHj">]
 [<Entry index=3 label="H2">, <Entry index=91 label="CsCHHj">]
+[<Entry index=3 label="H2">, <Entry index=30 label="OjH">]
+[<Entry index=3 label="H2">, <Entry index=96 label="CsCCCj">]
 [<Entry index=3 label="H2">, <Entry index=36 label="Cbj">]
 """,
 )
@@ -115,41 +200,101 @@ entry(
 2 *2 H u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.174081, 'd13': 0.155891, 'd23': -0.021058},
-        uncertainties = {'d12': 0.103125, 'd13': 0.089768, 'd23': 0.13681},
+        distances = {'d12': 0.066795, 'd13': 0.074476, 'd23': 0.006201},
+        uncertainties = {'d12': 0.104449, 'd13': 0.067363, 'd23': 0.106306},
     ),
-    shortDesc = u"""Fitted to 47 distances.
+    shortDesc = u"""Fitted to 336 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=70 label="CsOHHH">, <Entry index=6 label="Hrad">]
-[<Entry index=43 label="C_methane">, <Entry index=100 label="Cd(=C)Hj">]
-[<Entry index=43 label="C_methane">, <Entry index=95 label="CsOOHj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=95 label="CsOOHj">]
+[<Entry index=4 label="C_H">, <Entry index=32 label="OjO">]
 [<Entry index=87 label="Cd(=C)HH">, <Entry index=56 label="Cs_methyl">]
-[<Entry index=43 label="C_methane">, <Entry index=94 label="CsCOHj">]
 [<Entry index=43 label="C_methane">, <Entry index=91 label="CsCHHj">]
-[<Entry index=87 label="Cd(=C)HH">, <Entry index=6 label="Hrad">]
-[<Entry index=69 label="CsCHHH">, <Entry index=56 label="Cs_methyl">]
-[<Entry index=71 label="CsCCHH">, <Entry index=56 label="Cs_methyl">]
-[<Entry index=69 label="CsCHHH">, <Entry index=94 label="CsCOHj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=36 label="Cbj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=36 label="Cbj">]
+[<Entry index=75 label="CsCCOH">, <Entry index=6 label="Hrad">]
 [<Entry index=43 label="C_methane">, <Entry index=6 label="Hrad">]
 [<Entry index=71 label="CsCCHH">, <Entry index=91 label="CsCHHj">]
-[<Entry index=69 label="CsCHHH">, <Entry index=32 label="OjO">]
 [<Entry index=43 label="C_methane">, <Entry index=93 label="CsCCHj">]
-[<Entry index=72 label="CsCOHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=74 label="CsCCCH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=93 label="CsCCHj">]
-[<Entry index=43 label="C_methane">, <Entry index=31 label="OjC">]
+[<Entry index=70 label="CsOHHH">, <Entry index=93 label="CsCCHj">]
 [<Entry index=72 label="CsCOHH">, <Entry index=32 label="OjO">]
-[<Entry index=71 label="CsCCHH">, <Entry index=6 label="Hrad">]
-[<Entry index=14 label="Cb_H">, <Entry index=6 label="Hrad">]
 [<Entry index=88 label="Cd(=C)CH">, <Entry index=6 label="Hrad">]
+[<Entry index=69 label="CsCHHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=43 label="C_methane">, <Entry index=92 label="CsOHHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=71 label="CsCCHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=4 label="C_H">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=73 label="CsOOHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=4 label="C_H">, <Entry index=93 label="CsCCHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=17 label="Cj">]
+[<Entry index=43 label="C_methane">, <Entry index=17 label="Cj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=6 label="Hrad">]
+[<Entry index=69 label="CsCHHH">, <Entry index=30 label="OjH">]
+[<Entry index=70 label="CsOHHH">, <Entry index=6 label="Hrad">]
+[<Entry index=43 label="C_methane">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=31 label="OjC">]
+[<Entry index=4 label="C_H">, <Entry index=17 label="Cj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=6 label="Hrad">]
+[<Entry index=14 label="Cb_H">, <Entry index=93 label="CsCCHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=14 label="Cb_H">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=32 label="OjO">]
+[<Entry index=70 label="CsOHHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=43 label="C_methane">, <Entry index=31 label="OjC">]
+[<Entry index=69 label="CsCHHH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=17 label="Cj">]
+[<Entry index=73 label="CsOOHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=14 label="Cb_H">, <Entry index=96 label="CsCCCj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=32 label="OjO">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=14 label="Cb_H">, <Entry index=30 label="OjH">]
 [<Entry index=72 label="CsCOHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=4 label="C_H">, <Entry index=6 label="Hrad">]
-[<Entry index=73 label="CsOOHH">, <Entry index=56 label="Cs_methyl">]
-[<Entry index=69 label="CsCHHH">, <Entry index=30 label="OjH">]
+[<Entry index=71 label="CsCCHH">, <Entry index=17 label="Cj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=32 label="OjO">]
+[<Entry index=43 label="C_methane">, <Entry index=36 label="Cbj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=43 label="C_methane">, <Entry index=94 label="CsCOHj">]
+[<Entry index=43 label="C_methane">, <Entry index=30 label="OjH">]
+[<Entry index=74 label="CsCCCH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=4 label="C_H">, <Entry index=31 label="OjC">]
+[<Entry index=69 label="CsCHHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=74 label="CsCCCH">, <Entry index=32 label="OjO">]
+[<Entry index=4 label="C_H">, <Entry index=91 label="CsCHHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=94 label="CsCOHj">]
+[<Entry index=14 label="Cb_H">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=4 label="C_H">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=14 label="Cb_H">, <Entry index=6 label="Hrad">]
+[<Entry index=69 label="CsCHHH">, <Entry index=31 label="OjC">]
+[<Entry index=70 label="CsOHHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=43 label="C_methane">, <Entry index=96 label="CsCCCj">]
+[<Entry index=4 label="C_H">, <Entry index=96 label="CsCCCj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=43 label="C_methane">, <Entry index=95 label="CsOOHj">]
+[<Entry index=4 label="C_H">, <Entry index=92 label="CsOHHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=30 label="OjH">]
+[<Entry index=74 label="CsCCCH">, <Entry index=31 label="OjC">]
+[<Entry index=74 label="CsCCCH">, <Entry index=6 label="Hrad">]
+[<Entry index=14 label="Cb_H">, <Entry index=91 label="CsCHHj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=17 label="Cj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=32 label="OjO">]
+[<Entry index=71 label="CsCCHH">, <Entry index=6 label="Hrad">]
+[<Entry index=74 label="CsCCCH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=43 label="C_methane">, <Entry index=32 label="OjO">]
+[<Entry index=72 label="CsCOHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=74 label="CsCCCH">, <Entry index=36 label="Cbj">]
+[<Entry index=72 label="CsCOHH">, <Entry index=6 label="Hrad">]
+[<Entry index=69 label="CsCHHH">, <Entry index=17 label="Cj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=36 label="Cbj">]
 """,
 )
 
@@ -162,35 +307,73 @@ entry(
 2 *2 H  u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.170511, 'd13': 0.164343, 'd23': -0.009128},
-        uncertainties = {'d12': 0.078362, 'd13': 0.079703, 'd23': 0.085242},
+        distances = {'d12': 0.067466, 'd13': 0.070634, 'd23': 0.001369},
+        uncertainties = {'d12': 0.10328, 'd13': 0.059053, 'd23': 0.08945},
     ),
-    shortDesc = u"""Fitted to 38 distances.
+    shortDesc = u"""Fitted to 264 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=70 label="CsOHHH">, <Entry index=6 label="Hrad">]
+[<Entry index=71 label="CsCCHH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=43 label="C_methane">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=43 label="C_methane">, <Entry index=36 label="Cbj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=31 label="OjC">]
+[<Entry index=70 label="CsOHHH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=43 label="C_methane">, <Entry index=95 label="CsOOHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=95 label="CsOOHj">]
-[<Entry index=43 label="C_methane">, <Entry index=94 label="CsCOHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=31 label="OjC">]
 [<Entry index=43 label="C_methane">, <Entry index=91 label="CsCHHj">]
+[<Entry index=43 label="C_methane">, <Entry index=30 label="OjH">]
+[<Entry index=74 label="CsCCCH">, <Entry index=6 label="Hrad">]
+[<Entry index=74 label="CsCCCH">, <Entry index=36 label="Cbj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=36 label="Cbj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=36 label="Cbj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=100 label="Cd(=C)Hj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=69 label="CsCHHH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=17 label="Cj">]
 [<Entry index=71 label="CsCCHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=70 label="CsOHHH">, <Entry index=32 label="OjO">]
+[<Entry index=74 label="CsCCCH">, <Entry index=32 label="OjO">]
+[<Entry index=69 label="CsCHHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=94 label="CsCOHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=43 label="C_methane">, <Entry index=6 label="Hrad">]
+[<Entry index=70 label="CsOHHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=70 label="CsOHHH">, <Entry index=93 label="CsCCHj">]
 [<Entry index=71 label="CsCCHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=32 label="OjO">]
 [<Entry index=43 label="C_methane">, <Entry index=93 label="CsCCHj">]
 [<Entry index=72 label="CsCOHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=70 label="CsOHHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=93 label="CsCCHj">]
 [<Entry index=43 label="C_methane">, <Entry index=31 label="OjC">]
+[<Entry index=69 label="CsCHHH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=17 label="Cj">]
 [<Entry index=72 label="CsCOHH">, <Entry index=32 label="OjO">]
 [<Entry index=71 label="CsCCHH">, <Entry index=6 label="Hrad">]
+[<Entry index=69 label="CsCHHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=43 label="C_methane">, <Entry index=32 label="OjO">]
+[<Entry index=71 label="CsCCHH">, <Entry index=32 label="OjO">]
+[<Entry index=75 label="CsCCOH">, <Entry index=6 label="Hrad">]
+[<Entry index=69 label="CsCHHH">, <Entry index=31 label="OjC">]
+[<Entry index=43 label="C_methane">, <Entry index=92 label="CsOHHj">]
 [<Entry index=73 label="CsOOHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=6 label="Hrad">]
+[<Entry index=71 label="CsCCHH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=17 label="Cj">]
+[<Entry index=43 label="C_methane">, <Entry index=94 label="CsCOHj">]
 [<Entry index=72 label="CsCOHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=43 label="C_methane">, <Entry index=17 label="Cj">]
+[<Entry index=72 label="CsCOHH">, <Entry index=6 label="Hrad">]
 [<Entry index=73 label="CsOOHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=71 label="CsCCHH">, <Entry index=17 label="Cj">]
+[<Entry index=43 label="C_methane">, <Entry index=96 label="CsCCCj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=30 label="OjH">]
 """,
 )
@@ -204,35 +387,73 @@ entry(
 2 *2 H  u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.170511, 'd13': 0.164343, 'd23': -0.009128},
-        uncertainties = {'d12': 0.078362, 'd13': 0.079703, 'd23': 0.085242},
+        distances = {'d12': 0.067466, 'd13': 0.070634, 'd23': 0.001369},
+        uncertainties = {'d12': 0.10328, 'd13': 0.059053, 'd23': 0.08945},
     ),
-    shortDesc = u"""Fitted to 38 distances.
+    shortDesc = u"""Fitted to 264 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=70 label="CsOHHH">, <Entry index=6 label="Hrad">]
+[<Entry index=71 label="CsCCHH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=43 label="C_methane">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=43 label="C_methane">, <Entry index=36 label="Cbj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=31 label="OjC">]
+[<Entry index=70 label="CsOHHH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=43 label="C_methane">, <Entry index=95 label="CsOOHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=95 label="CsOOHj">]
-[<Entry index=43 label="C_methane">, <Entry index=94 label="CsCOHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=31 label="OjC">]
 [<Entry index=43 label="C_methane">, <Entry index=91 label="CsCHHj">]
+[<Entry index=43 label="C_methane">, <Entry index=30 label="OjH">]
+[<Entry index=74 label="CsCCCH">, <Entry index=6 label="Hrad">]
+[<Entry index=74 label="CsCCCH">, <Entry index=36 label="Cbj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=36 label="Cbj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=36 label="Cbj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=100 label="Cd(=C)Hj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=69 label="CsCHHH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=17 label="Cj">]
 [<Entry index=71 label="CsCCHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=70 label="CsOHHH">, <Entry index=32 label="OjO">]
+[<Entry index=74 label="CsCCCH">, <Entry index=32 label="OjO">]
+[<Entry index=69 label="CsCHHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=94 label="CsCOHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=43 label="C_methane">, <Entry index=6 label="Hrad">]
+[<Entry index=70 label="CsOHHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=70 label="CsOHHH">, <Entry index=93 label="CsCCHj">]
 [<Entry index=71 label="CsCCHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=32 label="OjO">]
 [<Entry index=43 label="C_methane">, <Entry index=93 label="CsCCHj">]
 [<Entry index=72 label="CsCOHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=70 label="CsOHHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=93 label="CsCCHj">]
 [<Entry index=43 label="C_methane">, <Entry index=31 label="OjC">]
+[<Entry index=69 label="CsCHHH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=17 label="Cj">]
 [<Entry index=72 label="CsCOHH">, <Entry index=32 label="OjO">]
 [<Entry index=71 label="CsCCHH">, <Entry index=6 label="Hrad">]
+[<Entry index=69 label="CsCHHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=43 label="C_methane">, <Entry index=32 label="OjO">]
+[<Entry index=71 label="CsCCHH">, <Entry index=32 label="OjO">]
+[<Entry index=75 label="CsCCOH">, <Entry index=6 label="Hrad">]
+[<Entry index=69 label="CsCHHH">, <Entry index=31 label="OjC">]
+[<Entry index=43 label="C_methane">, <Entry index=92 label="CsOHHj">]
 [<Entry index=73 label="CsOOHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=6 label="Hrad">]
+[<Entry index=71 label="CsCCHH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=17 label="Cj">]
+[<Entry index=43 label="C_methane">, <Entry index=94 label="CsCOHj">]
 [<Entry index=72 label="CsCOHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=43 label="C_methane">, <Entry index=17 label="Cj">]
+[<Entry index=72 label="CsCOHH">, <Entry index=6 label="Hrad">]
 [<Entry index=73 label="CsOOHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=71 label="CsCCHH">, <Entry index=17 label="Cj">]
+[<Entry index=43 label="C_methane">, <Entry index=96 label="CsCCCj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=30 label="OjH">]
 """,
 )
@@ -249,20 +470,26 @@ entry(
 5    H  u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.205524, 'd13': 0.199594, 'd23': -0.008679},
-        uncertainties = {'d12': 0.087514, 'd13': 0.107492, 'd23': 0.095443},
+        distances = {'d12': 0.118283, 'd13': 0.078713, 'd23': -0.041772},
+        uncertainties = {'d12': 0.106978, 'd13': 0.058258, 'd23': 0.06079},
     ),
-    shortDesc = u"""Fitted to 8 distances.
+    shortDesc = u"""Fitted to 50 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=43 label="C_methane">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=43 label="C_methane">, <Entry index=92 label="CsOHHj">]
+[<Entry index=43 label="C_methane">, <Entry index=36 label="Cbj">]
 [<Entry index=43 label="C_methane">, <Entry index=31 label="OjC">]
+[<Entry index=43 label="C_methane">, <Entry index=96 label="CsCCCj">]
 [<Entry index=43 label="C_methane">, <Entry index=95 label="CsOOHj">]
 [<Entry index=43 label="C_methane">, <Entry index=93 label="CsCCHj">]
 [<Entry index=43 label="C_methane">, <Entry index=94 label="CsCOHj">]
-[<Entry index=43 label="C_methane">, <Entry index=91 label="CsCHHj">]
+[<Entry index=43 label="C_methane">, <Entry index=17 label="Cj">]
+[<Entry index=43 label="C_methane">, <Entry index=30 label="OjH">]
+[<Entry index=43 label="C_methane">, <Entry index=32 label="OjO">]
 [<Entry index=43 label="C_methane">, <Entry index=6 label="Hrad">]
+[<Entry index=43 label="C_methane">, <Entry index=91 label="CsCHHj">]
 """,
 )
 
@@ -278,21 +505,35 @@ entry(
 5    R!H ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.151227, 'd13': 0.13016, 'd23': -0.025024},
-        uncertainties = {'d12': 0.069259, 'd13': 0.074246, 'd23': 0.103319},
+        distances = {'d12': 0.05993, 'd13': 0.067471, 'd23': 0.006045},
+        uncertainties = {'d12': 0.097602, 'd13': 0.050819, 'd23': 0.088807},
     ),
-    shortDesc = u"""Fitted to 20 distances.
+    shortDesc = u"""Fitted to 139 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=70 label="CsOHHH">, <Entry index=6 label="Hrad">]
-[<Entry index=69 label="CsCHHH">, <Entry index=32 label="OjO">]
 [<Entry index=69 label="CsCHHH">, <Entry index=95 label="CsOOHj">]
-[<Entry index=69 label="CsCHHH">, <Entry index=93 label="CsCCHj">]
-[<Entry index=69 label="CsCHHH">, <Entry index=6 label="Hrad">]
-[<Entry index=69 label="CsCHHH">, <Entry index=94 label="CsCOHj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=100 label="Cd(=C)Hj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=69 label="CsCHHH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=17 label="Cj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=94 label="CsCOHj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=32 label="OjO">]
+[<Entry index=70 label="CsOHHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=69 label="CsCHHH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=32 label="OjO">]
+[<Entry index=70 label="CsOHHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=31 label="OjC">]
+[<Entry index=69 label="CsCHHH">, <Entry index=6 label="Hrad">]
 [<Entry index=69 label="CsCHHH">, <Entry index=30 label="OjH">]
+[<Entry index=69 label="CsCHHH">, <Entry index=17 label="Cj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=36 label="Cbj">]
 """,
 )
 
@@ -308,18 +549,25 @@ entry(
 5    C  ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.151791, 'd13': 0.134074, 'd23': -0.021718},
-        uncertainties = {'d12': 0.071154, 'd13': 0.062797, 'd23': 0.093793},
+        distances = {'d12': 0.060616, 'd13': 0.067664, 'd23': 0.004541},
+        uncertainties = {'d12': 0.095519, 'd13': 0.050992, 'd23': 0.091975},
     ),
-    shortDesc = u"""Fitted to 19 distances.
+    shortDesc = u"""Fitted to 118 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=69 label="CsCHHH">, <Entry index=32 label="OjO">]
 [<Entry index=69 label="CsCHHH">, <Entry index=95 label="CsOOHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=31 label="OjC">]
+[<Entry index=69 label="CsCHHH">, <Entry index=36 label="Cbj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=93 label="CsCCHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=6 label="Hrad">]
+[<Entry index=69 label="CsCHHH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=100 label="Cd(=C)Hj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=94 label="CsCOHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=17 label="Cj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=69 label="CsCHHH">, <Entry index=30 label="OjH">]
 """,
@@ -337,14 +585,21 @@ entry(
 5    O  ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.133738, 'd13': 0.008809, 'd23': -0.127495},
-        uncertainties = {},
+        distances = {'d12': 0.056067, 'd13': 0.066387, 'd23': 0.014519},
+        uncertainties = {'d12': 0.118067, 'd13': 0.05438, 'd23': 0.075245},
     ),
-    shortDesc = u"""Fitted to 1 distances.
+    shortDesc = u"""Fitted to 21 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=70 label="CsOHHH">, <Entry index=6 label="Hrad">]
+[<Entry index=70 label="CsOHHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=17 label="Cj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=32 label="OjO">]
+[<Entry index=70 label="CsOHHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=70 label="CsOHHH">, <Entry index=96 label="CsCCCj">]
 """,
 )
 
@@ -360,20 +615,28 @@ entry(
 5    R!H ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.165014, 'd13': 0.18079, 'd23': 0.014094},
-        uncertainties = {'d12': 0.119103, 'd13': 0.103608, 'd23': 0.066526},
+        distances = {'d12': 0.04352, 'd13': 0.06645, 'd23': 0.020742},
+        uncertainties = {'d12': 0.107886, 'd13': 0.061856, 'd23': 0.095338},
     ),
-    shortDesc = u"""Fitted to 10 distances.
+    shortDesc = u"""Fitted to 58 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=71 label="CsCCHH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=72 label="CsCOHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=71 label="CsCCHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=31 label="OjC">]
 [<Entry index=73 label="CsOOHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=71 label="CsCCHH">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=72 label="CsCOHH">, <Entry index=32 label="OjO">]
+[<Entry index=71 label="CsCCHH">, <Entry index=36 label="Cbj">]
 [<Entry index=72 label="CsCOHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=92 label="CsOHHj">]
 [<Entry index=71 label="CsCCHH">, <Entry index=6 label="Hrad">]
+[<Entry index=72 label="CsCOHH">, <Entry index=6 label="Hrad">]
 [<Entry index=73 label="CsOOHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=71 label="CsCCHH">, <Entry index=17 label="Cj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=32 label="OjO">]
 [<Entry index=71 label="CsCCHH">, <Entry index=91 label="CsCHHj">]
 """,
 )
@@ -390,15 +653,22 @@ entry(
 5    C  ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.157998, 'd13': 0.135122, 'd23': -0.024693},
-        uncertainties = {'d12': 0.167333, 'd13': 0.127062, 'd23': 0.055443},
+        distances = {'d12': 0.047706, 'd13': 0.066455, 'd23': 0.016248},
+        uncertainties = {'d12': 0.114943, 'd13': 0.066142, 'd23': 0.092631},
     ),
-    shortDesc = u"""Fitted to 5 distances.
+    shortDesc = u"""Fitted to 46 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=71 label="CsCCHH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=36 label="Cbj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=31 label="OjC">]
 [<Entry index=71 label="CsCCHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=71 label="CsCCHH">, <Entry index=92 label="CsOHHj">]
 [<Entry index=71 label="CsCCHH">, <Entry index=6 label="Hrad">]
+[<Entry index=71 label="CsCCHH">, <Entry index=17 label="Cj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=32 label="OjO">]
 [<Entry index=71 label="CsCCHH">, <Entry index=91 label="CsCHHj">]
 """,
 )
@@ -415,16 +685,17 @@ entry(
 5    O  ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.153554, 'd13': 0.212137, 'd23': 0.054664},
-        uncertainties = {'d12': 0.292232, 'd13': 0.20859, 'd23': 0.166181},
+        distances = {'d12': 0.019454, 'd13': 0.067963, 'd23': 0.047007},
+        uncertainties = {'d12': 0.102075, 'd13': 0.05469, 'd23': 0.134497},
     ),
-    shortDesc = u"""Fitted to 3 distances.
+    shortDesc = u"""Fitted to 10 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=72 label="CsCOHH">, <Entry index=32 label="OjO">]
 [<Entry index=72 label="CsCOHH">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=72 label="CsCOHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=72 label="CsCOHH">, <Entry index=6 label="Hrad">]
 """,
 )
 
@@ -440,8 +711,8 @@ entry(
 5    O  ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.191485, 'd13': 0.208624, 'd23': 0.018716},
-        uncertainties = {'d12': 0.438921, 'd13': 0.96777, 'd23': 0.719332},
+        distances = {'d12': 0.068328, 'd13': 0.059889, 'd23': -0.007738},
+        uncertainties = {'d12': 0.302698, 'd13': 0.31108, 'd23': 0.59681},
     ),
     shortDesc = u"""Fitted to 2 distances.
 """,
@@ -463,25 +734,22 @@ entry(
 4    R!H ux {1,S}
 5    R!H ux {1,S}
 """,
-    distances = DistanceData(distances={}),
-    shortDesc = u"""Fitted to 104 distances.
+    distances = DistanceData(
+        distances = {'d12': 0.044456, 'd13': 0.085737, 'd23': 0.039624},
+        uncertainties = {'d12': 0.15271, 'd13': 0.118301, 'd23': 0.159301},
+    ),
+    shortDesc = u"""Fitted to 17 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=74 label="CsCCCH">, <Entry index=91 label="CsCHHj">]
-[<Entry index=74 label="CsCCCH">, <Entry index=35 label="Ctj">]
-[<Entry index=74 label="CsCCCH">, <Entry index=100 label="Cd(=C)Hj">]
-[<Entry index=74 label="CsCCCH">, <Entry index=94 label="CsCOHj">]
 [<Entry index=74 label="CsCCCH">, <Entry index=17 label="Cj">]
 [<Entry index=74 label="CsCCCH">, <Entry index=32 label="OjO">]
-[<Entry index=74 label="CsCCCH">, <Entry index=64 label="C_tripletRR">]
 [<Entry index=74 label="CsCCCH">, <Entry index=92 label="CsOHHj">]
 [<Entry index=74 label="CsCCCH">, <Entry index=31 label="OjC">]
 [<Entry index=74 label="CsCCCH">, <Entry index=93 label="CsCCHj">]
-[<Entry index=74 label="CsCCCH">, <Entry index=101 label="Cd(=C)Cj">]
 [<Entry index=74 label="CsCCCH">, <Entry index=6 label="Hrad">]
 [<Entry index=74 label="CsCCCH">, <Entry index=36 label="Cbj">]
-[<Entry index=74 label="CsCCCH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=75 label="CsCCOH">, <Entry index=6 label="Hrad">]
 [<Entry index=74 label="CsCCCH">, <Entry index=56 label="Cs_methyl">]
 """,
@@ -498,25 +766,22 @@ entry(
 4    C  ux {1,S}
 5    C  ux {1,S}
 """,
-    distances = DistanceData(distances={}),
-    shortDesc = u"""Fitted to 103 distances.
+    distances = DistanceData(
+        distances = {'d12': 0.048369, 'd13': 0.0894, 'd23': 0.039401},
+        uncertainties = {'d12': 0.158547, 'd13': 0.08142, 'd23': 0.13917},
+    ),
+    shortDesc = u"""Fitted to 16 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=74 label="CsCCCH">, <Entry index=91 label="CsCHHj">]
-[<Entry index=74 label="CsCCCH">, <Entry index=35 label="Ctj">]
-[<Entry index=74 label="CsCCCH">, <Entry index=100 label="Cd(=C)Hj">]
-[<Entry index=74 label="CsCCCH">, <Entry index=94 label="CsCOHj">]
 [<Entry index=74 label="CsCCCH">, <Entry index=17 label="Cj">]
 [<Entry index=74 label="CsCCCH">, <Entry index=32 label="OjO">]
-[<Entry index=74 label="CsCCCH">, <Entry index=64 label="C_tripletRR">]
 [<Entry index=74 label="CsCCCH">, <Entry index=92 label="CsOHHj">]
 [<Entry index=74 label="CsCCCH">, <Entry index=31 label="OjC">]
 [<Entry index=74 label="CsCCCH">, <Entry index=93 label="CsCCHj">]
-[<Entry index=74 label="CsCCCH">, <Entry index=101 label="Cd(=C)Cj">]
 [<Entry index=74 label="CsCCCH">, <Entry index=6 label="Hrad">]
 [<Entry index=74 label="CsCCCH">, <Entry index=36 label="Cbj">]
-[<Entry index=74 label="CsCCCH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=74 label="CsCCCH">, <Entry index=56 label="Cs_methyl">]
 """,
 )
@@ -532,7 +797,10 @@ entry(
 4    C  ux {1,S}
 5    O  ux {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.092503, 'd13': -0.042463, 'd23': 0.04744},
+        uncertainties = {},
+    ),
     shortDesc = u"""Fitted to 1 distances.
 """,
     longDesc = 
@@ -881,16 +1149,23 @@ entry(
 2 *2 H  u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.236355, 'd13': 0.09181, 'd23': -0.146584},
-        uncertainties = {'d12': 0.070159, 'd13': 0.155183, 'd23': 0.176844},
+        distances = {'d12': 0.131614, 'd13': 0.046316, 'd23': -0.087518},
+        uncertainties = {'d12': 0.105719, 'd13': 0.135745, 'd23': 0.138569},
     ),
-    shortDesc = u"""Fitted to 6 distances.
+    shortDesc = u"""Fitted to 18 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=87 label="Cd(=C)HH">, <Entry index=6 label="Hrad">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=88 label="Cd(=C)CH">, <Entry index=6 label="Hrad">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=36 label="Cbj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=17 label="Cj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=30 label="OjH">]
 [<Entry index=87 label="Cd(=C)HH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=6 label="Hrad">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=32 label="OjO">]
 """,
 )
 
@@ -903,16 +1178,23 @@ entry(
 2 *2 H  u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.236355, 'd13': 0.09181, 'd23': -0.146584},
-        uncertainties = {'d12': 0.070159, 'd13': 0.155183, 'd23': 0.176844},
+        distances = {'d12': 0.131614, 'd13': 0.046316, 'd23': -0.087518},
+        uncertainties = {'d12': 0.105719, 'd13': 0.135745, 'd23': 0.138569},
     ),
-    shortDesc = u"""Fitted to 6 distances.
+    shortDesc = u"""Fitted to 18 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=87 label="Cd(=C)HH">, <Entry index=6 label="Hrad">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=88 label="Cd(=C)CH">, <Entry index=6 label="Hrad">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=36 label="Cbj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=17 label="Cj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=30 label="OjH">]
 [<Entry index=87 label="Cd(=C)HH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=6 label="Hrad">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=32 label="OjO">]
 """,
 )
 
@@ -926,16 +1208,23 @@ entry(
 3    C  ux {1,D}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.236355, 'd13': 0.09181, 'd23': -0.146584},
-        uncertainties = {'d12': 0.070159, 'd13': 0.155183, 'd23': 0.176844},
+        distances = {'d12': 0.131614, 'd13': 0.046316, 'd23': -0.087518},
+        uncertainties = {'d12': 0.105719, 'd13': 0.135745, 'd23': 0.138569},
     ),
-    shortDesc = u"""Fitted to 6 distances.
+    shortDesc = u"""Fitted to 18 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=87 label="Cd(=C)HH">, <Entry index=6 label="Hrad">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=88 label="Cd(=C)CH">, <Entry index=6 label="Hrad">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=36 label="Cbj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=17 label="Cj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=30 label="OjH">]
 [<Entry index=87 label="Cd(=C)HH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=6 label="Hrad">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=32 label="OjO">]
 """,
 )
 
@@ -950,15 +1239,22 @@ entry(
 4    H  u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.242425, 'd13': 0.11471, 'd23': -0.129509},
-        uncertainties = {'d12': 0.10719, 'd13': 0.093129, 'd23': 0.097484},
+        distances = {'d12': 0.131779, 'd13': 0.054824, 'd23': -0.079153},
+        uncertainties = {'d12': 0.113609, 'd13': 0.06626, 'd23': 0.078848},
     ),
-    shortDesc = u"""Fitted to 4 distances.
+    shortDesc = u"""Fitted to 16 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=87 label="Cd(=C)HH">, <Entry index=6 label="Hrad">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=36 label="Cbj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=17 label="Cj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=30 label="OjH">]
 [<Entry index=87 label="Cd(=C)HH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=6 label="Hrad">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=32 label="OjO">]
 """,
 )
 
@@ -973,8 +1269,8 @@ entry(
 4    C  ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.219665, 'd13': 0.028836, 'd23': -0.193542},
-        uncertainties = {'d12': 0.227745, 'd13': 1.5897, 'd23': 1.83468},
+        distances = {'d12': 0.12861, 'd13': -0.108963, 'd23': -0.240164},
+        uncertainties = {'d12': 0.10493, 'd13': 3.00356, 'd23': 2.91978},
     ),
     shortDesc = u"""Fitted to 2 distances.
 """,
@@ -1137,14 +1433,20 @@ entry(
 2 *2 H  u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.297705, 'd13': 0.068089, 'd23': -0.232511},
-        uncertainties = {},
+        distances = {'d12': 0.155339, 'd13': 0.065825, 'd23': -0.091543},
+        uncertainties = {'d12': 0.150175, 'd13': 0.092355, 'd23': 0.099433},
     ),
-    shortDesc = u"""Fitted to 1 distances.
+    shortDesc = u"""Fitted to 10 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=14 label="Cb_H">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=14 label="Cb_H">, <Entry index=91 label="CsCHHj">]
+[<Entry index=14 label="Cb_H">, <Entry index=93 label="CsCCHj">]
+[<Entry index=14 label="Cb_H">, <Entry index=30 label="OjH">]
+[<Entry index=14 label="Cb_H">, <Entry index=100 label="Cd(=C)Hj">]
 [<Entry index=14 label="Cb_H">, <Entry index=6 label="Hrad">]
+[<Entry index=14 label="Cb_H">, <Entry index=96 label="CsCCCj">]
 """,
 )
 
@@ -1157,23 +1459,40 @@ entry(
 2 *2 H u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.021059, 'd13': 0.001464, 'd23': -0.004564},
-        uncertainties = {'d12': 0.141176, 'd13': 0.077769, 'd23': 0.150242},
+        distances = {'d12': -0.063381, 'd13': -0.08864, 'd23': -0.018152},
+        uncertainties = {'d12': 0.147225, 'd13': 0.09186, 'd23': 0.166454},
     ),
-    shortDesc = u"""Fitted to 13 distances.
+    shortDesc = u"""Fitted to 79 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=29 label="OOH">, <Entry index=6 label="Hrad">]
 [<Entry index=28 label="OCH">, <Entry index=32 label="OjO">]
+[<Entry index=29 label="OOH">, <Entry index=30 label="OjH">]
 [<Entry index=29 label="OOH">, <Entry index=94 label="CsCOHj">]
 [<Entry index=29 label="OOH">, <Entry index=31 label="OjC">]
+[<Entry index=27 label="OHH">, <Entry index=36 label="Cbj">]
 [<Entry index=29 label="OOH">, <Entry index=91 label="CsCHHj">]
-[<Entry index=27 label="OHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=28 label="OCH">, <Entry index=30 label="OjH">]
-[<Entry index=28 label="OCH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=28 label="OCH">, <Entry index=93 label="CsCCHj">]
 [<Entry index=27 label="OHH">, <Entry index=31 label="OjC">]
 [<Entry index=28 label="OCH">, <Entry index=6 label="Hrad">]
+[<Entry index=29 label="OOH">, <Entry index=6 label="Hrad">]
+[<Entry index=29 label="OOH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=29 label="OOH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=27 label="OHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=27 label="OHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=29 label="OOH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=29 label="OOH">, <Entry index=32 label="OjO">]
+[<Entry index=29 label="OOH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=28 label="OCH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=29 label="OOH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=27 label="OHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=28 label="OCH">, <Entry index=17 label="Cj">]
+[<Entry index=29 label="OOH">, <Entry index=17 label="Cj">]
+[<Entry index=28 label="OCH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=27 label="OHH">, <Entry index=6 label="Hrad">]
+[<Entry index=28 label="OCH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=27 label="OHH">, <Entry index=32 label="OjO">]
 """,
 )
 
@@ -1208,23 +1527,40 @@ entry(
 2 *2 H u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.021059, 'd13': 0.001464, 'd23': -0.004564},
-        uncertainties = {'d12': 0.141176, 'd13': 0.077769, 'd23': 0.150242},
+        distances = {'d12': -0.063381, 'd13': -0.08864, 'd23': -0.018152},
+        uncertainties = {'d12': 0.147225, 'd13': 0.09186, 'd23': 0.166454},
     ),
-    shortDesc = u"""Fitted to 13 distances.
+    shortDesc = u"""Fitted to 79 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=29 label="OOH">, <Entry index=6 label="Hrad">]
 [<Entry index=28 label="OCH">, <Entry index=32 label="OjO">]
+[<Entry index=29 label="OOH">, <Entry index=30 label="OjH">]
 [<Entry index=29 label="OOH">, <Entry index=94 label="CsCOHj">]
 [<Entry index=29 label="OOH">, <Entry index=31 label="OjC">]
+[<Entry index=27 label="OHH">, <Entry index=36 label="Cbj">]
 [<Entry index=29 label="OOH">, <Entry index=91 label="CsCHHj">]
-[<Entry index=27 label="OHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=28 label="OCH">, <Entry index=30 label="OjH">]
-[<Entry index=28 label="OCH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=28 label="OCH">, <Entry index=93 label="CsCCHj">]
 [<Entry index=27 label="OHH">, <Entry index=31 label="OjC">]
 [<Entry index=28 label="OCH">, <Entry index=6 label="Hrad">]
+[<Entry index=29 label="OOH">, <Entry index=6 label="Hrad">]
+[<Entry index=29 label="OOH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=29 label="OOH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=27 label="OHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=27 label="OHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=29 label="OOH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=29 label="OOH">, <Entry index=32 label="OjO">]
+[<Entry index=29 label="OOH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=28 label="OCH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=29 label="OOH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=27 label="OHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=28 label="OCH">, <Entry index=17 label="Cj">]
+[<Entry index=29 label="OOH">, <Entry index=17 label="Cj">]
+[<Entry index=28 label="OCH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=27 label="OHH">, <Entry index=6 label="Hrad">]
+[<Entry index=28 label="OCH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=27 label="OHH">, <Entry index=32 label="OjO">]
 """,
 )
 
@@ -1238,15 +1574,20 @@ entry(
 3    H u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.198669, 'd13': 0.033671, 'd23': -0.132275},
-        uncertainties = {'d12': 0.550538, 'd13': 0.933317, 'd23': 0.225638},
+        distances = {'d12': 0.105801, 'd13': -0.096627, 'd23': -0.176876},
+        uncertainties = {'d12': 0.139983, 'd13': 0.160846, 'd23': 0.055789},
     ),
-    shortDesc = u"""Fitted to 2 distances.
+    shortDesc = u"""Fitted to 10 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=27 label="OHH">, <Entry index=36 label="Cbj">]
+[<Entry index=27 label="OHH">, <Entry index=100 label="Cd(=C)Hj">]
 [<Entry index=27 label="OHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=27 label="OHH">, <Entry index=6 label="Hrad">]
+[<Entry index=27 label="OHH">, <Entry index=32 label="OjO">]
 [<Entry index=27 label="OHH">, <Entry index=31 label="OjC">]
+[<Entry index=27 label="OHH">, <Entry index=56 label="Cs_methyl">]
 """,
 )
 
@@ -1260,16 +1601,20 @@ entry(
 3    C ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.003787, 'd13': -0.053901, 'd23': -0.025534},
-        uncertainties = {'d12': 0.187821, 'd13': 0.092848, 'd23': 0.215886},
+        distances = {'d12': -0.019135, 'd13': -0.108288, 'd23': -0.083171},
+        uncertainties = {'d12': 0.135869, 'd13': 0.081691, 'd23': 0.102009},
     ),
-    shortDesc = u"""Fitted to 5 distances.
+    shortDesc = u"""Fitted to 27 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=28 label="OCH">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=28 label="OCH">, <Entry index=32 label="OjO">]
+[<Entry index=28 label="OCH">, <Entry index=17 label="Cj">]
+[<Entry index=28 label="OCH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=28 label="OCH">, <Entry index=30 label="OjH">]
+[<Entry index=28 label="OCH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=28 label="OCH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=28 label="OCH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=28 label="OCH">, <Entry index=6 label="Hrad">]
 """,
 )
@@ -1284,17 +1629,25 @@ entry(
 3    O ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.031007, 'd13': 0.025277, 'd23': 0.058268},
-        uncertainties = {'d12': 0.199773, 'd13': 0.084628, 'd23': 0.207436},
+        distances = {'d12': -0.128963, 'd13': -0.074333, 'd23': 0.058385},
+        uncertainties = {'d12': 0.166447, 'd13': 0.088927, 'd23': 0.217547},
     ),
-    shortDesc = u"""Fitted to 6 distances.
+    shortDesc = u"""Fitted to 42 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=29 label="OOH">, <Entry index=94 label="CsCOHj">]
 [<Entry index=29 label="OOH">, <Entry index=6 label="Hrad">]
-[<Entry index=29 label="OOH">, <Entry index=31 label="OjC">]
+[<Entry index=29 label="OOH">, <Entry index=32 label="OjO">]
+[<Entry index=29 label="OOH">, <Entry index=30 label="OjH">]
+[<Entry index=29 label="OOH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=29 label="OOH">, <Entry index=94 label="CsCOHj">]
 [<Entry index=29 label="OOH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=29 label="OOH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=29 label="OOH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=29 label="OOH">, <Entry index=31 label="OjC">]
+[<Entry index=29 label="OOH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=29 label="OOH">, <Entry index=17 label="Cj">]
+[<Entry index=29 label="OOH">, <Entry index=92 label="CsOHHj">]
 """,
 )
 
@@ -1306,10 +1659,10 @@ entry(
 1 *3 H u1
 """,
     distances = DistanceData(
-        distances = {'d12': 0.025157, 'd13': -0.176935, 'd23': -0.204183},
-        uncertainties = {'d12': 0.144612, 'd13': 0.100283, 'd23': 0.190259},
+        distances = {'d12': -0.011257, 'd13': -0.334299, 'd23': -0.324963},
+        uncertainties = {'d12': 0.125681, 'd13': 0.107532, 'd23': 0.173242},
     ),
-    shortDesc = u"""Fitted to 28 distances.
+    shortDesc = u"""Fitted to 45 distances.
 """,
     longDesc = 
 u"""
@@ -1318,10 +1671,14 @@ u"""
 [<Entry index=88 label="Cd(=C)CH">, <Entry index=6 label="Hrad">]
 [<Entry index=4 label="C_H">, <Entry index=6 label="Hrad">]
 [<Entry index=69 label="CsCHHH">, <Entry index=6 label="Hrad">]
+[<Entry index=27 label="OHH">, <Entry index=6 label="Hrad">]
+[<Entry index=72 label="CsCOHH">, <Entry index=6 label="Hrad">]
 [<Entry index=71 label="CsCCHH">, <Entry index=6 label="Hrad">]
 [<Entry index=14 label="Cb_H">, <Entry index=6 label="Hrad">]
 [<Entry index=87 label="Cd(=C)HH">, <Entry index=6 label="Hrad">]
+[<Entry index=74 label="CsCCCH">, <Entry index=6 label="Hrad">]
 [<Entry index=43 label="C_methane">, <Entry index=6 label="Hrad">]
+[<Entry index=75 label="CsCCOH">, <Entry index=6 label="Hrad">]
 [<Entry index=28 label="OCH">, <Entry index=6 label="Hrad">]
 """,
 )
@@ -1334,22 +1691,39 @@ entry(
 1 *3 O u[1,2]
 """,
     distances = DistanceData(
-        distances = {'d12': -0.004033, 'd13': -0.000667, 'd23': 0.018405},
-        uncertainties = {'d12': 0.15081, 'd13': 0.077947, 'd23': 0.140783},
+        distances = {'d12': -0.017603, 'd13': -0.087337, 'd23': -0.062545},
+        uncertainties = {'d12': 0.166894, 'd13': 0.091875, 'd23': 0.147237},
     ),
-    shortDesc = u"""Fitted to 13 distances.
+    shortDesc = u"""Fitted to 79 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=69 label="CsCHHH">, <Entry index=32 label="OjO">]
 [<Entry index=28 label="OCH">, <Entry index=32 label="OjO">]
+[<Entry index=71 label="CsCCHH">, <Entry index=31 label="OjC">]
+[<Entry index=4 label="C_H">, <Entry index=32 label="OjO">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=30 label="OjH">]
+[<Entry index=74 label="CsCCCH">, <Entry index=31 label="OjC">]
+[<Entry index=28 label="OCH">, <Entry index=30 label="OjH">]
+[<Entry index=43 label="C_methane">, <Entry index=30 label="OjH">]
+[<Entry index=27 label="OHH">, <Entry index=31 label="OjC">]
+[<Entry index=4 label="C_H">, <Entry index=31 label="OjC">]
+[<Entry index=29 label="OOH">, <Entry index=30 label="OjH">]
+[<Entry index=74 label="CsCCCH">, <Entry index=32 label="OjO">]
+[<Entry index=70 label="CsOHHH">, <Entry index=32 label="OjO">]
+[<Entry index=69 label="CsCHHH">, <Entry index=32 label="OjO">]
+[<Entry index=29 label="OOH">, <Entry index=32 label="OjO">]
+[<Entry index=43 label="C_methane">, <Entry index=31 label="OjC">]
+[<Entry index=72 label="CsCOHH">, <Entry index=32 label="OjO">]
+[<Entry index=29 label="OOH">, <Entry index=31 label="OjC">]
+[<Entry index=43 label="C_methane">, <Entry index=32 label="OjO">]
+[<Entry index=71 label="CsCCHH">, <Entry index=32 label="OjO">]
+[<Entry index=69 label="CsCHHH">, <Entry index=31 label="OjC">]
 [<Entry index=3 label="H2">, <Entry index=31 label="OjC">]
 [<Entry index=3 label="H2">, <Entry index=32 label="OjO">]
-[<Entry index=29 label="OOH">, <Entry index=31 label="OjC">]
-[<Entry index=72 label="CsCOHH">, <Entry index=32 label="OjO">]
-[<Entry index=28 label="OCH">, <Entry index=30 label="OjH">]
-[<Entry index=43 label="C_methane">, <Entry index=31 label="OjC">]
-[<Entry index=27 label="OHH">, <Entry index=31 label="OjC">]
+[<Entry index=14 label="Cb_H">, <Entry index=30 label="OjH">]
+[<Entry index=3 label="H2">, <Entry index=30 label="OjH">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=32 label="OjO">]
+[<Entry index=27 label="OHH">, <Entry index=32 label="OjO">]
 [<Entry index=69 label="CsCHHH">, <Entry index=30 label="OjH">]
 """,
 )
@@ -1363,22 +1737,39 @@ entry(
 2    R ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.004033, 'd13': -0.000667, 'd23': 0.018405},
-        uncertainties = {'d12': 0.15081, 'd13': 0.077947, 'd23': 0.140783},
+        distances = {'d12': -0.017603, 'd13': -0.087337, 'd23': -0.062545},
+        uncertainties = {'d12': 0.166894, 'd13': 0.091875, 'd23': 0.147237},
     ),
-    shortDesc = u"""Fitted to 13 distances.
+    shortDesc = u"""Fitted to 79 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=69 label="CsCHHH">, <Entry index=32 label="OjO">]
 [<Entry index=28 label="OCH">, <Entry index=32 label="OjO">]
+[<Entry index=71 label="CsCCHH">, <Entry index=31 label="OjC">]
+[<Entry index=4 label="C_H">, <Entry index=32 label="OjO">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=30 label="OjH">]
+[<Entry index=74 label="CsCCCH">, <Entry index=31 label="OjC">]
+[<Entry index=28 label="OCH">, <Entry index=30 label="OjH">]
+[<Entry index=43 label="C_methane">, <Entry index=30 label="OjH">]
+[<Entry index=27 label="OHH">, <Entry index=31 label="OjC">]
+[<Entry index=4 label="C_H">, <Entry index=31 label="OjC">]
+[<Entry index=29 label="OOH">, <Entry index=30 label="OjH">]
+[<Entry index=74 label="CsCCCH">, <Entry index=32 label="OjO">]
+[<Entry index=70 label="CsOHHH">, <Entry index=32 label="OjO">]
+[<Entry index=69 label="CsCHHH">, <Entry index=32 label="OjO">]
+[<Entry index=29 label="OOH">, <Entry index=32 label="OjO">]
+[<Entry index=43 label="C_methane">, <Entry index=31 label="OjC">]
+[<Entry index=72 label="CsCOHH">, <Entry index=32 label="OjO">]
+[<Entry index=29 label="OOH">, <Entry index=31 label="OjC">]
+[<Entry index=43 label="C_methane">, <Entry index=32 label="OjO">]
+[<Entry index=71 label="CsCCHH">, <Entry index=32 label="OjO">]
+[<Entry index=69 label="CsCHHH">, <Entry index=31 label="OjC">]
 [<Entry index=3 label="H2">, <Entry index=31 label="OjC">]
 [<Entry index=3 label="H2">, <Entry index=32 label="OjO">]
-[<Entry index=29 label="OOH">, <Entry index=31 label="OjC">]
-[<Entry index=72 label="CsCOHH">, <Entry index=32 label="OjO">]
-[<Entry index=28 label="OCH">, <Entry index=30 label="OjH">]
-[<Entry index=43 label="C_methane">, <Entry index=31 label="OjC">]
-[<Entry index=27 label="OHH">, <Entry index=31 label="OjC">]
+[<Entry index=14 label="Cb_H">, <Entry index=30 label="OjH">]
+[<Entry index=3 label="H2">, <Entry index=30 label="OjH">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=32 label="OjO">]
+[<Entry index=27 label="OHH">, <Entry index=32 label="OjO">]
 [<Entry index=69 label="CsCHHH">, <Entry index=30 label="OjH">]
 """,
 )
@@ -1392,14 +1783,19 @@ entry(
 2    H u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.131984, 'd13': 0.031362, 'd23': 0.196079},
-        uncertainties = {'d12': 0.228916, 'd13': 0.932423, 'd23': 0.555369},
+        distances = {'d12': -0.179667, 'd13': -0.093771, 'd23': 0.111827},
+        uncertainties = {'d12': 0.053383, 'd13': 0.160918, 'd23': 0.137096},
     ),
-    shortDesc = u"""Fitted to 2 distances.
+    shortDesc = u"""Fitted to 10 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=29 label="OOH">, <Entry index=30 label="OjH">]
+[<Entry index=3 label="H2">, <Entry index=30 label="OjH">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=30 label="OjH">]
+[<Entry index=14 label="Cb_H">, <Entry index=30 label="OjH">]
 [<Entry index=28 label="OCH">, <Entry index=30 label="OjH">]
+[<Entry index=43 label="C_methane">, <Entry index=30 label="OjH">]
 [<Entry index=69 label="CsCHHH">, <Entry index=30 label="OjH">]
 """,
 )
@@ -1413,17 +1809,21 @@ entry(
 2    C ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.024873, 'd13': -0.055631, 'd23': -0.006176},
-        uncertainties = {'d12': 0.216095, 'd13': 0.093309, 'd23': 0.187648},
+        distances = {'d12': -0.082323, 'd13': -0.10801, 'd23': -0.019662},
+        uncertainties = {'d12': 0.102981, 'd13': 0.080692, 'd23': 0.136364},
     ),
-    shortDesc = u"""Fitted to 5 distances.
+    shortDesc = u"""Fitted to 27 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=69 label="CsCHHH">, <Entry index=31 label="OjC">]
+[<Entry index=71 label="CsCCHH">, <Entry index=31 label="OjC">]
 [<Entry index=3 label="H2">, <Entry index=31 label="OjC">]
 [<Entry index=29 label="OOH">, <Entry index=31 label="OjC">]
-[<Entry index=27 label="OHH">, <Entry index=31 label="OjC">]
+[<Entry index=74 label="CsCCCH">, <Entry index=31 label="OjC">]
 [<Entry index=43 label="C_methane">, <Entry index=31 label="OjC">]
+[<Entry index=27 label="OHH">, <Entry index=31 label="OjC">]
+[<Entry index=4 label="C_H">, <Entry index=31 label="OjC">]
 """,
 )
 
@@ -1436,17 +1836,25 @@ entry(
 2    O ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.058804, 'd13': 0.022952, 'd23': -0.033859},
-        uncertainties = {'d12': 0.208632, 'd13': 0.084909, 'd23': 0.198846},
+        distances = {'d12': 0.059194, 'd13': -0.072737, 'd23': -0.128105},
+        uncertainties = {'d12': 0.218032, 'd13': 0.089491, 'd23': 0.16664},
     ),
-    shortDesc = u"""Fitted to 6 distances.
+    shortDesc = u"""Fitted to 42 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=69 label="CsCHHH">, <Entry index=32 label="OjO">]
-[<Entry index=72 label="CsCOHH">, <Entry index=32 label="OjO">]
-[<Entry index=3 label="H2">, <Entry index=32 label="OjO">]
+[<Entry index=29 label="OOH">, <Entry index=32 label="OjO">]
 [<Entry index=28 label="OCH">, <Entry index=32 label="OjO">]
+[<Entry index=3 label="H2">, <Entry index=32 label="OjO">]
+[<Entry index=4 label="C_H">, <Entry index=32 label="OjO">]
+[<Entry index=70 label="CsOHHH">, <Entry index=32 label="OjO">]
+[<Entry index=74 label="CsCCCH">, <Entry index=32 label="OjO">]
+[<Entry index=72 label="CsCOHH">, <Entry index=32 label="OjO">]
+[<Entry index=43 label="C_methane">, <Entry index=32 label="OjO">]
+[<Entry index=71 label="CsCCHH">, <Entry index=32 label="OjO">]
+[<Entry index=27 label="OHH">, <Entry index=32 label="OjO">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=32 label="OjO">]
 """,
 )
 
@@ -1479,41 +1887,101 @@ entry(
 1 *3 C u[1,2,3]
 """,
     distances = DistanceData(
-        distances = {'d12': -0.020644, 'd13': 0.154245, 'd23': 0.172021},
-        uncertainties = {'d12': 0.136565, 'd13': 0.089301, 'd23': 0.103054},
+        distances = {'d12': 0.006251, 'd13': 0.074943, 'd23': 0.067167},
+        uncertainties = {'d12': 0.106225, 'd13': 0.067334, 'd23': 0.10434},
     ),
-    shortDesc = u"""Fitted to 47 distances.
+    shortDesc = u"""Fitted to 336 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=43 label="C_methane">, <Entry index=100 label="Cd(=C)Hj">]
-[<Entry index=29 label="OOH">, <Entry index=94 label="CsCOHj">]
-[<Entry index=43 label="C_methane">, <Entry index=95 label="CsOOHj">]
-[<Entry index=43 label="C_methane">, <Entry index=93 label="CsCCHj">]
-[<Entry index=29 label="OOH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=95 label="CsOOHj">]
 [<Entry index=87 label="Cd(=C)HH">, <Entry index=56 label="Cs_methyl">]
-[<Entry index=43 label="C_methane">, <Entry index=94 label="CsCOHj">]
 [<Entry index=43 label="C_methane">, <Entry index=91 label="CsCHHj">]
-[<Entry index=3 label="H2">, <Entry index=100 label="Cd(=C)Hj">]
-[<Entry index=3 label="H2">, <Entry index=17 label="Cj">]
-[<Entry index=69 label="CsCHHH">, <Entry index=56 label="Cs_methyl">]
-[<Entry index=71 label="CsCCHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=3 label="H2">, <Entry index=96 label="CsCCCj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=36 label="Cbj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=36 label="Cbj">]
 [<Entry index=3 label="H2">, <Entry index=93 label="CsCCHj">]
 [<Entry index=27 label="OHH">, <Entry index=91 label="CsCHHj">]
-[<Entry index=3 label="H2">, <Entry index=92 label="CsOHHj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=71 label="CsCCHH">, <Entry index=91 label="CsCHHj">]
-[<Entry index=3 label="H2">, <Entry index=101 label="Cd(=C)Cj">]
-[<Entry index=72 label="CsCOHH">, <Entry index=56 label="Cs_methyl">]
-[<Entry index=69 label="CsCHHH">, <Entry index=95 label="CsOOHj">]
+[<Entry index=43 label="C_methane">, <Entry index=93 label="CsCCHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=93 label="CsCCHj">]
-[<Entry index=69 label="CsCHHH">, <Entry index=94 label="CsCOHj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=93 label="CsCCHj">]
 [<Entry index=28 label="OCH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=69 label="CsCHHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=43 label="C_methane">, <Entry index=92 label="CsOHHj">]
+[<Entry index=27 label="OHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=71 label="CsCCHH">, <Entry index=100 label="Cd(=C)Hj">]
 [<Entry index=3 label="H2">, <Entry index=36 label="Cbj">]
+[<Entry index=4 label="C_H">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=73 label="CsOOHH">, <Entry index=91 label="CsCHHj">]
-[<Entry index=3 label="H2">, <Entry index=56 label="Cs_methyl">]
-[<Entry index=72 label="CsCOHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=4 label="C_H">, <Entry index=93 label="CsCCHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=17 label="Cj">]
+[<Entry index=29 label="OOH">, <Entry index=17 label="Cj">]
+[<Entry index=43 label="C_methane">, <Entry index=94 label="CsCOHj">]
+[<Entry index=3 label="H2">, <Entry index=92 label="CsOHHj">]
 [<Entry index=3 label="H2">, <Entry index=91 label="CsCHHj">]
+[<Entry index=43 label="C_methane">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=27 label="OHH">, <Entry index=36 label="Cbj">]
+[<Entry index=4 label="C_H">, <Entry index=17 label="Cj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=14 label="Cb_H">, <Entry index=93 label="CsCCHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=29 label="OOH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=14 label="Cb_H">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=43 label="C_methane">, <Entry index=17 label="Cj">]
+[<Entry index=3 label="H2">, <Entry index=101 label="Cd(=C)Cj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=17 label="Cj">]
 [<Entry index=73 label="CsOOHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=14 label="Cb_H">, <Entry index=96 label="CsCCCj">]
+[<Entry index=28 label="OCH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=3 label="H2">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=28 label="OCH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=72 label="CsCOHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=17 label="Cj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=17 label="Cj">]
+[<Entry index=43 label="C_methane">, <Entry index=36 label="Cbj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=3 label="H2">, <Entry index=94 label="CsCOHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=28 label="OCH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=4 label="C_H">, <Entry index=91 label="CsCHHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=94 label="CsCOHj">]
+[<Entry index=29 label="OOH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=14 label="Cb_H">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=4 label="C_H">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=29 label="OOH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=43 label="C_methane">, <Entry index=96 label="CsCCCj">]
+[<Entry index=4 label="C_H">, <Entry index=96 label="CsCCCj">]
+[<Entry index=28 label="OCH">, <Entry index=17 label="Cj">]
+[<Entry index=3 label="H2">, <Entry index=97 label="CsCCOj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=29 label="OOH">, <Entry index=94 label="CsCOHj">]
+[<Entry index=43 label="C_methane">, <Entry index=95 label="CsOOHj">]
+[<Entry index=4 label="C_H">, <Entry index=92 label="CsOHHj">]
+[<Entry index=29 label="OOH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=72 label="CsCOHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=3 label="H2">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=14 label="Cb_H">, <Entry index=91 label="CsCHHj">]
+[<Entry index=3 label="H2">, <Entry index=17 label="Cj">]
+[<Entry index=29 label="OOH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=17 label="Cj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=27 label="OHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=29 label="OOH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=74 label="CsCCCH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=36 label="Cbj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=36 label="Cbj">]
 """,
 )
 
@@ -1525,41 +1993,101 @@ entry(
 1 *3 C u1
 """,
     distances = DistanceData(
-        distances = {'d12': -0.020644, 'd13': 0.154245, 'd23': 0.172021},
-        uncertainties = {'d12': 0.136565, 'd13': 0.089301, 'd23': 0.103054},
+        distances = {'d12': 0.006251, 'd13': 0.074943, 'd23': 0.067167},
+        uncertainties = {'d12': 0.106225, 'd13': 0.067334, 'd23': 0.10434},
     ),
-    shortDesc = u"""Fitted to 47 distances.
+    shortDesc = u"""Fitted to 336 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=43 label="C_methane">, <Entry index=100 label="Cd(=C)Hj">]
-[<Entry index=29 label="OOH">, <Entry index=94 label="CsCOHj">]
-[<Entry index=43 label="C_methane">, <Entry index=95 label="CsOOHj">]
-[<Entry index=43 label="C_methane">, <Entry index=93 label="CsCCHj">]
-[<Entry index=29 label="OOH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=95 label="CsOOHj">]
 [<Entry index=87 label="Cd(=C)HH">, <Entry index=56 label="Cs_methyl">]
-[<Entry index=43 label="C_methane">, <Entry index=94 label="CsCOHj">]
 [<Entry index=43 label="C_methane">, <Entry index=91 label="CsCHHj">]
-[<Entry index=3 label="H2">, <Entry index=100 label="Cd(=C)Hj">]
-[<Entry index=3 label="H2">, <Entry index=17 label="Cj">]
-[<Entry index=69 label="CsCHHH">, <Entry index=56 label="Cs_methyl">]
-[<Entry index=71 label="CsCCHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=3 label="H2">, <Entry index=96 label="CsCCCj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=36 label="Cbj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=36 label="Cbj">]
 [<Entry index=3 label="H2">, <Entry index=93 label="CsCCHj">]
 [<Entry index=27 label="OHH">, <Entry index=91 label="CsCHHj">]
-[<Entry index=3 label="H2">, <Entry index=92 label="CsOHHj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=71 label="CsCCHH">, <Entry index=91 label="CsCHHj">]
-[<Entry index=3 label="H2">, <Entry index=101 label="Cd(=C)Cj">]
-[<Entry index=72 label="CsCOHH">, <Entry index=56 label="Cs_methyl">]
-[<Entry index=69 label="CsCHHH">, <Entry index=95 label="CsOOHj">]
+[<Entry index=43 label="C_methane">, <Entry index=93 label="CsCCHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=93 label="CsCCHj">]
-[<Entry index=69 label="CsCHHH">, <Entry index=94 label="CsCOHj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=93 label="CsCCHj">]
 [<Entry index=28 label="OCH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=69 label="CsCHHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=43 label="C_methane">, <Entry index=92 label="CsOHHj">]
+[<Entry index=27 label="OHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=71 label="CsCCHH">, <Entry index=100 label="Cd(=C)Hj">]
 [<Entry index=3 label="H2">, <Entry index=36 label="Cbj">]
+[<Entry index=4 label="C_H">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=73 label="CsOOHH">, <Entry index=91 label="CsCHHj">]
-[<Entry index=3 label="H2">, <Entry index=56 label="Cs_methyl">]
-[<Entry index=72 label="CsCOHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=4 label="C_H">, <Entry index=93 label="CsCCHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=17 label="Cj">]
+[<Entry index=29 label="OOH">, <Entry index=17 label="Cj">]
+[<Entry index=43 label="C_methane">, <Entry index=94 label="CsCOHj">]
+[<Entry index=3 label="H2">, <Entry index=92 label="CsOHHj">]
 [<Entry index=3 label="H2">, <Entry index=91 label="CsCHHj">]
+[<Entry index=43 label="C_methane">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=27 label="OHH">, <Entry index=36 label="Cbj">]
+[<Entry index=4 label="C_H">, <Entry index=17 label="Cj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=14 label="Cb_H">, <Entry index=93 label="CsCCHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=29 label="OOH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=14 label="Cb_H">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=43 label="C_methane">, <Entry index=17 label="Cj">]
+[<Entry index=3 label="H2">, <Entry index=101 label="Cd(=C)Cj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=17 label="Cj">]
 [<Entry index=73 label="CsOOHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=14 label="Cb_H">, <Entry index=96 label="CsCCCj">]
+[<Entry index=28 label="OCH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=3 label="H2">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=28 label="OCH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=72 label="CsCOHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=17 label="Cj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=17 label="Cj">]
+[<Entry index=43 label="C_methane">, <Entry index=36 label="Cbj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=3 label="H2">, <Entry index=94 label="CsCOHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=28 label="OCH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=4 label="C_H">, <Entry index=91 label="CsCHHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=94 label="CsCOHj">]
+[<Entry index=29 label="OOH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=14 label="Cb_H">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=4 label="C_H">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=29 label="OOH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=43 label="C_methane">, <Entry index=96 label="CsCCCj">]
+[<Entry index=4 label="C_H">, <Entry index=96 label="CsCCCj">]
+[<Entry index=28 label="OCH">, <Entry index=17 label="Cj">]
+[<Entry index=3 label="H2">, <Entry index=97 label="CsCCOj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=29 label="OOH">, <Entry index=94 label="CsCOHj">]
+[<Entry index=43 label="C_methane">, <Entry index=95 label="CsOOHj">]
+[<Entry index=4 label="C_H">, <Entry index=92 label="CsOHHj">]
+[<Entry index=29 label="OOH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=72 label="CsCOHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=3 label="H2">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=14 label="Cb_H">, <Entry index=91 label="CsCHHj">]
+[<Entry index=3 label="H2">, <Entry index=17 label="Cj">]
+[<Entry index=29 label="OOH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=17 label="Cj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=27 label="OHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=29 label="OOH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=74 label="CsCCCH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=36 label="Cbj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=36 label="Cbj">]
 """,
 )
 
@@ -1571,36 +2099,74 @@ entry(
 1 *3 Cs u1
 """,
     distances = DistanceData(
-        distances = {'d12': -0.008856, 'd13': 0.162612, 'd23': 0.168508},
-        uncertainties = {'d12': 0.084495, 'd13': 0.079004, 'd23': 0.078181},
+        distances = {'d12': 0.001441, 'd13': 0.070902, 'd23': 0.067589},
+        uncertainties = {'d12': 0.089469, 'd13': 0.059083, 'd23': 0.103291},
     ),
-    shortDesc = u"""Fitted to 38 distances.
+    shortDesc = u"""Fitted to 264 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=71 label="CsCCHH">, <Entry index=96 label="CsCCCj">]
+[<Entry index=3 label="H2">, <Entry index=97 label="CsCCOj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=95 label="CsOOHj">]
-[<Entry index=29 label="OOH">, <Entry index=94 label="CsCOHj">]
+[<Entry index=3 label="H2">, <Entry index=94 label="CsCOHj">]
+[<Entry index=4 label="C_H">, <Entry index=93 label="CsCCHj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=43 label="C_methane">, <Entry index=95 label="CsOOHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=4 label="C_H">, <Entry index=92 label="CsOHHj">]
 [<Entry index=29 label="OOH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=29 label="OOH">, <Entry index=93 label="CsCCHj">]
 [<Entry index=87 label="Cd(=C)HH">, <Entry index=56 label="Cs_methyl">]
-[<Entry index=43 label="C_methane">, <Entry index=94 label="CsCOHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=43 label="C_methane">, <Entry index=91 label="CsCHHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=28 label="OCH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=3 label="H2">, <Entry index=96 label="CsCCCj">]
+[<Entry index=29 label="OOH">, <Entry index=94 label="CsCOHj">]
+[<Entry index=14 label="Cb_H">, <Entry index=91 label="CsCHHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=14 label="Cb_H">, <Entry index=93 label="CsCCHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=71 label="CsCCHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=29 label="OOH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=3 label="H2">, <Entry index=93 label="CsCCHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=27 label="OHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=4 label="C_H">, <Entry index=91 label="CsCHHj">]
 [<Entry index=3 label="H2">, <Entry index=92 label="CsOHHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=70 label="CsOHHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=70 label="CsOHHH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=29 label="OOH">, <Entry index=92 label="CsOHHj">]
 [<Entry index=71 label="CsCCHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=43 label="C_methane">, <Entry index=93 label="CsCCHj">]
 [<Entry index=72 label="CsCOHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=70 label="CsOHHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=14 label="Cb_H">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=69 label="CsCHHH">, <Entry index=94 label="CsCOHj">]
+[<Entry index=4 label="C_H">, <Entry index=96 label="CsCCCj">]
+[<Entry index=29 label="OOH">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=28 label="OCH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=74 label="CsCCCH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=14 label="Cb_H">, <Entry index=96 label="CsCCCj">]
+[<Entry index=27 label="OHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=43 label="C_methane">, <Entry index=92 label="CsOHHj">]
+[<Entry index=4 label="C_H">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=93 label="CsCCHj">]
 [<Entry index=73 label="CsOOHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=43 label="C_methane">, <Entry index=96 label="CsCCCj">]
 [<Entry index=3 label="H2">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=71 label="CsCCHH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=43 label="C_methane">, <Entry index=94 label="CsCOHj">]
 [<Entry index=72 label="CsCOHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=3 label="H2">, <Entry index=91 label="CsCHHj">]
+[<Entry index=28 label="OCH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=73 label="CsOOHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=28 label="OCH">, <Entry index=91 label="CsCHHj">]
 """,
 )
 
@@ -1615,20 +2181,26 @@ entry(
 4    H  u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.00985, 'd13': 0.198653, 'd23': 0.205745},
-        uncertainties = {'d12': 0.094452, 'd13': 0.108833, 'd23': 0.088175},
+        distances = {'d12': -0.041293, 'd13': 0.078863, 'd23': 0.117906},
+        uncertainties = {'d12': 0.061031, 'd13': 0.057978, 'd23': 0.107355},
     ),
-    shortDesc = u"""Fitted to 8 distances.
+    shortDesc = u"""Fitted to 50 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=72 label="CsCOHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=4 label="C_H">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=69 label="CsCHHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=14 label="Cb_H">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=3 label="H2">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=71 label="CsCCHH">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=87 label="Cd(=C)HH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=29 label="OOH">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=28 label="OCH">, <Entry index=56 label="Cs_methyl">]
 [<Entry index=73 label="CsOOHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=74 label="CsCCCH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=70 label="CsOHHH">, <Entry index=56 label="Cs_methyl">]
+[<Entry index=27 label="OHH">, <Entry index=56 label="Cs_methyl">]
 """,
 )
 
@@ -1643,21 +2215,35 @@ entry(
 4    R!H ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.024219, 'd13': 0.128369, 'd23': 0.148632},
-        uncertainties = {'d12': 0.102185, 'd13': 0.073177, 'd23': 0.068704},
+        distances = {'d12': 0.006202, 'd13': 0.067856, 'd23': 0.060088},
+        uncertainties = {'d12': 0.088919, 'd13': 0.050956, 'd23': 0.097593},
     ),
-    shortDesc = u"""Fitted to 20 distances.
+    shortDesc = u"""Fitted to 139 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=73 label="CsOOHH">, <Entry index=91 label="CsCHHj">]
-[<Entry index=27 label="OHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=4 label="C_H">, <Entry index=92 label="CsOHHj">]
 [<Entry index=29 label="OOH">, <Entry index=91 label="CsCHHj">]
-[<Entry index=3 label="H2">, <Entry index=92 label="CsOHHj">]
 [<Entry index=43 label="C_methane">, <Entry index=91 label="CsCHHj">]
-[<Entry index=72 label="CsCOHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=14 label="Cb_H">, <Entry index=91 label="CsCHHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=27 label="OHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=4 label="C_H">, <Entry index=91 label="CsCHHj">]
+[<Entry index=3 label="H2">, <Entry index=92 label="CsOHHj">]
+[<Entry index=29 label="OOH">, <Entry index=92 label="CsOHHj">]
 [<Entry index=71 label="CsCCHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=43 label="C_methane">, <Entry index=92 label="CsOHHj">]
+[<Entry index=73 label="CsOOHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=72 label="CsCOHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=3 label="H2">, <Entry index=91 label="CsCHHj">]
+[<Entry index=28 label="OCH">, <Entry index=91 label="CsCHHj">]
 """,
 )
 
@@ -1672,20 +2258,27 @@ entry(
 4    C  ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.020934, 'd13': 0.13224, 'd23': 0.149174},
-        uncertainties = {'d12': 0.092572, 'd13': 0.061609, 'd23': 0.070575},
+        distances = {'d12': 0.004763, 'd13': 0.067965, 'd23': 0.060669},
+        uncertainties = {'d12': 0.092049, 'd13': 0.051185, 'd23': 0.095469},
     ),
-    shortDesc = u"""Fitted to 19 distances.
+    shortDesc = u"""Fitted to 118 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=14 label="Cb_H">, <Entry index=91 label="CsCHHj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=73 label="CsOOHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=29 label="OOH">, <Entry index=91 label="CsCHHj">]
-[<Entry index=72 label="CsCOHH">, <Entry index=91 label="CsCHHj">]
-[<Entry index=43 label="C_methane">, <Entry index=91 label="CsCHHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=27 label="OHH">, <Entry index=91 label="CsCHHj">]
-[<Entry index=71 label="CsCCHH">, <Entry index=91 label="CsCHHj">]
 [<Entry index=3 label="H2">, <Entry index=91 label="CsCHHj">]
+[<Entry index=4 label="C_H">, <Entry index=91 label="CsCHHj">]
+[<Entry index=72 label="CsCOHH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=28 label="OCH">, <Entry index=91 label="CsCHHj">]
+[<Entry index=43 label="C_methane">, <Entry index=91 label="CsCHHj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=91 label="CsCHHj">]
 """,
 )
 
@@ -1700,14 +2293,21 @@ entry(
 4    O  ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.12606, 'd13': 0.008352, 'd23': 0.131824},
-        uncertainties = {},
+        distances = {'d12': 0.014273, 'd13': 0.067246, 'd23': 0.05683},
+        uncertainties = {'d12': 0.075675, 'd13': 0.054181, 'd23': 0.118267},
     ),
-    shortDesc = u"""Fitted to 1 distances.
+    shortDesc = u"""Fitted to 21 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=43 label="C_methane">, <Entry index=92 label="CsOHHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=92 label="CsOHHj">]
 [<Entry index=3 label="H2">, <Entry index=92 label="CsOHHj">]
+[<Entry index=4 label="C_H">, <Entry index=92 label="CsOHHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=92 label="CsOHHj">]
+[<Entry index=29 label="OOH">, <Entry index=92 label="CsOHHj">]
 """,
 )
 
@@ -1722,21 +2322,29 @@ entry(
 4    R!H ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.014982, 'd13': 0.178375, 'd23': 0.161721},
-        uncertainties = {'d12': 0.066966, 'd13': 0.101725, 'd23': 0.118941},
+        distances = {'d12': 0.019581, 'd13': 0.06684, 'd23': 0.045015},
+        uncertainties = {'d12': 0.095018, 'd13': 0.061928, 'd23': 0.107544},
     ),
-    shortDesc = u"""Fitted to 10 distances.
+    shortDesc = u"""Fitted to 58 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=3 label="H2">, <Entry index=94 label="CsCOHj">]
 [<Entry index=43 label="C_methane">, <Entry index=93 label="CsCCHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=93 label="CsCCHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=93 label="CsCCHj">]
 [<Entry index=29 label="OOH">, <Entry index=94 label="CsCOHj">]
 [<Entry index=43 label="C_methane">, <Entry index=95 label="CsOOHj">]
+[<Entry index=14 label="Cb_H">, <Entry index=93 label="CsCCHj">]
+[<Entry index=4 label="C_H">, <Entry index=93 label="CsCCHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=95 label="CsOOHj">]
+[<Entry index=29 label="OOH">, <Entry index=93 label="CsCCHj">]
 [<Entry index=3 label="H2">, <Entry index=93 label="CsCCHj">]
 [<Entry index=43 label="C_methane">, <Entry index=94 label="CsCOHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=93 label="CsCCHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=94 label="CsCOHj">]
+[<Entry index=28 label="OCH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=93 label="CsCCHj">]
 """,
 )
 
@@ -1751,16 +2359,23 @@ entry(
 4    C  ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.023592, 'd13': 0.133107, 'd23': 0.154884},
-        uncertainties = {'d12': 0.056343, 'd13': 0.125335, 'd23': 0.166663},
+        distances = {'d12': 0.014649, 'd13': 0.06668, 'd23': 0.049439},
+        uncertainties = {'d12': 0.092185, 'd13': 0.066266, 'd23': 0.114591},
     ),
-    shortDesc = u"""Fitted to 5 distances.
+    shortDesc = u"""Fitted to 46 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=69 label="CsCHHH">, <Entry index=93 label="CsCCHj">]
-[<Entry index=3 label="H2">, <Entry index=93 label="CsCCHj">]
 [<Entry index=43 label="C_methane">, <Entry index=93 label="CsCCHj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=14 label="Cb_H">, <Entry index=93 label="CsCCHj">]
+[<Entry index=4 label="C_H">, <Entry index=93 label="CsCCHj">]
+[<Entry index=29 label="OOH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=3 label="H2">, <Entry index=93 label="CsCCHj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=93 label="CsCCHj">]
+[<Entry index=28 label="OCH">, <Entry index=93 label="CsCCHj">]
 """,
 )
 
@@ -1775,13 +2390,14 @@ entry(
 4    O  ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.055285, 'd13': 0.209596, 'd23': 0.150406},
-        uncertainties = {'d12': 0.168629, 'd13': 0.204918, 'd23': 0.291401},
+        distances = {'d12': 0.046734, 'd13': 0.068904, 'd23': 0.020685},
+        uncertainties = {'d12': 0.134525, 'd13': 0.054151, 'd23': 0.101767},
     ),
-    shortDesc = u"""Fitted to 3 distances.
+    shortDesc = u"""Fitted to 10 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=3 label="H2">, <Entry index=94 label="CsCOHj">]
 [<Entry index=29 label="OOH">, <Entry index=94 label="CsCOHj">]
 [<Entry index=43 label="C_methane">, <Entry index=94 label="CsCOHj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=94 label="CsCOHj">]
@@ -1799,8 +2415,8 @@ entry(
 4    O  ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.019636, 'd13': 0.205759, 'd23': 0.187716},
-        uncertainties = {'d12': 0.715136, 'd13': 0.943277, 'd23': 0.457006},
+        distances = {'d12': -0.008129, 'd13': 0.060882, 'd23': 0.069727},
+        uncertainties = {'d12': 0.601486, 'd13': 0.32321, 'd23': 0.292206},
     ),
     shortDesc = u"""Fitted to 2 distances.
 """,
@@ -1821,26 +2437,23 @@ entry(
 3    R!H ux {1,S}
 4    R!H ux {1,S}
 """,
-    distances = DistanceData(distances={}),
-    shortDesc = u"""Fitted to 104 distances.
+    distances = DistanceData(
+        distances = {'d12': 0.040131, 'd13': 0.085971, 'd23': 0.043905},
+        uncertainties = {'d12': 0.159335, 'd13': 0.118332, 'd23': 0.152975},
+    ),
+    shortDesc = u"""Fitted to 17 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=71 label="CsCCHH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=3 label="H2">, <Entry index=97 label="CsCCOj">]
-[<Entry index=72 label="CsCOHH">, <Entry index=96 label="CsCCCj">]
-[<Entry index=28 label="CtCH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=43 label="C_methane">, <Entry index=96 label="CsCCCj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=96 label="CsCCCj">]
-[<Entry index=47 label="C_methyl">, <Entry index=96 label="CsCCCj">]
 [<Entry index=29 label="OOH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=28 label="OCH">, <Entry index=96 label="CsCCCj">]
-[<Entry index=87 label="Cd(=C)HH">, <Entry index=96 label="CsCCCj">]
-[<Entry index=88 label="Cd(=C)CH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=4 label="C_H">, <Entry index=96 label="CsCCCj">]
 [<Entry index=3 label="H2">, <Entry index=96 label="CsCCCj">]
 [<Entry index=14 label="Cb_H">, <Entry index=96 label="CsCCCj">]
-[<Entry index=74 label="CsCCCH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=70 label="CsOHHH">, <Entry index=96 label="CsCCCj">]
 """,
 )
@@ -1855,25 +2468,22 @@ entry(
 3    C  ux {1,S}
 4    C  ux {1,S}
 """,
-    distances = DistanceData(distances={}),
-    shortDesc = u"""Fitted to 103 distances.
+    distances = DistanceData(
+        distances = {'d12': 0.039899, 'd13': 0.089852, 'd23': 0.048037},
+        uncertainties = {'d12': 0.13895, 'd13': 0.081235, 'd23': 0.158825},
+    ),
+    shortDesc = u"""Fitted to 16 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=71 label="CsCCHH">, <Entry index=96 label="CsCCCj">]
-[<Entry index=72 label="CsCOHH">, <Entry index=96 label="CsCCCj">]
-[<Entry index=28 label="CtCH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=43 label="C_methane">, <Entry index=96 label="CsCCCj">]
 [<Entry index=69 label="CsCHHH">, <Entry index=96 label="CsCCCj">]
-[<Entry index=47 label="C_methyl">, <Entry index=96 label="CsCCCj">]
 [<Entry index=29 label="OOH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=28 label="OCH">, <Entry index=96 label="CsCCCj">]
-[<Entry index=87 label="Cd(=C)HH">, <Entry index=96 label="CsCCCj">]
-[<Entry index=88 label="Cd(=C)CH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=4 label="C_H">, <Entry index=96 label="CsCCCj">]
 [<Entry index=3 label="H2">, <Entry index=96 label="CsCCCj">]
 [<Entry index=14 label="Cb_H">, <Entry index=96 label="CsCCCj">]
-[<Entry index=74 label="CsCCCH">, <Entry index=96 label="CsCCCj">]
 [<Entry index=70 label="CsOHHH">, <Entry index=96 label="CsCCCj">]
 """,
 )
@@ -1888,7 +2498,10 @@ entry(
 3    C  ux {1,S}
 4    O  ux {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.047765, 'd13': -0.042088, 'd23': -0.092443},
+        uncertainties = {},
+    ),
     shortDesc = u"""Fitted to 1 distances.
 """,
     longDesc = 
@@ -1931,16 +2544,23 @@ entry(
 1 *3 Cd u1
 """,
     distances = DistanceData(
-        distances = {'d12': -0.14517, 'd13': 0.090544, 'd23': 0.233667},
-        uncertainties = {'d12': 0.176417, 'd13': 0.155014, 'd23': 0.071444},
+        distances = {'d12': -0.089665, 'd13': 0.046121, 'd23': 0.133573},
+        uncertainties = {'d12': 0.138368, 'd13': 0.136032, 'd23': 0.104609},
     ),
-    shortDesc = u"""Fitted to 6 distances.
+    shortDesc = u"""Fitted to 18 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=3 label="H2">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=29 label="OOH">, <Entry index=100 label="Cd(=C)Hj">]
 [<Entry index=3 label="H2">, <Entry index=101 label="Cd(=C)Cj">]
 [<Entry index=43 label="C_methane">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=4 label="C_H">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=14 label="Cb_H">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=27 label="OHH">, <Entry index=100 label="Cd(=C)Hj">]
 """,
 )
 
@@ -1953,16 +2573,23 @@ entry(
 2    C  ux {1,D}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.14517, 'd13': 0.090544, 'd23': 0.233667},
-        uncertainties = {'d12': 0.176417, 'd13': 0.155014, 'd23': 0.071444},
+        distances = {'d12': -0.089665, 'd13': 0.046121, 'd23': 0.133573},
+        uncertainties = {'d12': 0.138368, 'd13': 0.136032, 'd23': 0.104609},
     ),
-    shortDesc = u"""Fitted to 6 distances.
+    shortDesc = u"""Fitted to 18 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=3 label="H2">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=29 label="OOH">, <Entry index=100 label="Cd(=C)Hj">]
 [<Entry index=3 label="H2">, <Entry index=101 label="Cd(=C)Cj">]
 [<Entry index=43 label="C_methane">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=4 label="C_H">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=14 label="Cb_H">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=27 label="OHH">, <Entry index=100 label="Cd(=C)Hj">]
 """,
 )
 
@@ -1976,15 +2603,22 @@ entry(
 3    H  u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.128102, 'd13': 0.11315, 'd23': 0.239454},
-        uncertainties = {'d12': 0.098346, 'd13': 0.09531, 'd23': 0.109276},
+        distances = {'d12': -0.081205, 'd13': 0.054837, 'd23': 0.133849},
+        uncertainties = {'d12': 0.077509, 'd13': 0.066367, 'd23': 0.112426},
     ),
-    shortDesc = u"""Fitted to 4 distances.
+    shortDesc = u"""Fitted to 16 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=3 label="H2">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=71 label="CsCCHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=70 label="CsOHHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=29 label="OOH">, <Entry index=100 label="Cd(=C)Hj">]
 [<Entry index=43 label="C_methane">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=4 label="C_H">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=14 label="Cb_H">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=100 label="Cd(=C)Hj">]
+[<Entry index=27 label="OHH">, <Entry index=100 label="Cd(=C)Hj">]
 """,
 )
 
@@ -1998,8 +2632,8 @@ entry(
 3    C  ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.192107, 'd13': 0.028379, 'd23': 0.217751},
-        uncertainties = {'d12': 1.82744, 'd13': 1.58148, 'd23': 0.229102},
+        distances = {'d12': -0.239839, 'd13': -0.108588, 'd23': 0.128669},
+        uncertainties = {'d12': 2.93302, 'd13': 3.01029, 'd23': 0.098847},
     ),
     shortDesc = u"""Fitted to 2 distances.
 """,
@@ -2108,14 +2742,20 @@ entry(
 1 *3 Cb u1
 """,
     distances = DistanceData(
-        distances = {'d12': -0.231076, 'd13': 0.067632, 'd23': 0.295791},
-        uncertainties = {},
+        distances = {'d12': -0.092628, 'd13': 0.067225, 'd23': 0.157843},
+        uncertainties = {'d12': 0.096068, 'd13': 0.091634, 'd23': 0.148371},
     ),
-    shortDesc = u"""Fitted to 1 distances.
+    shortDesc = u"""Fitted to 10 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=71 label="CsCCHH">, <Entry index=36 label="Cbj">]
 [<Entry index=3 label="H2">, <Entry index=36 label="Cbj">]
+[<Entry index=87 label="Cd(=C)HH">, <Entry index=36 label="Cbj">]
+[<Entry index=27 label="OHH">, <Entry index=36 label="Cbj">]
+[<Entry index=74 label="CsCCCH">, <Entry index=36 label="Cbj">]
+[<Entry index=69 label="CsCHHH">, <Entry index=36 label="Cbj">]
+[<Entry index=43 label="C_methane">, <Entry index=36 label="Cbj">]
 """,
 )
 
