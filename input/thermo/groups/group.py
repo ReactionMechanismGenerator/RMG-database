@@ -40539,7 +40539,7 @@ entry(
 1 * Os u0 {2,S} {3,S}
 2   Cd u0 {1,S} {4,D}
 3   H  u0 {1,S}
-4   Cd u0 {2,D}
+4   [Cd,Cdd,CO] u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),

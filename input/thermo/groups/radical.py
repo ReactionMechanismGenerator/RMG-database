@@ -1907,12 +1907,12 @@ entry(
     label = "Indenyl",
     group = 
 """
-+1  * Cs u1 {2,S} {5,S} {6,S}
-+2    Cb u0 {1,S} {3,B}
-+3    Cb u0 {2,B} {4,S}
-+4    Cd u0 {3,S} {5,D}
-+5    Cd u0 {4,D} {1,S}
-+6    H u0 {1,S}
+1  * Cs u1 {2,S} {5,S} {6,S}
+2    Cb u0 {1,S} {3,B}
+3    Cb u0 {2,B} {4,S}
+4    Cd u0 {3,S} {5,D}
+5    Cd u0 {4,D} {1,S}
+6    H u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
