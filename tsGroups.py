@@ -34,8 +34,10 @@ def loadDatabase(args):
     
     print 'Loading RMG database...'
     from rmgpy.data.rmg import RMGDatabase
+    
     rmgDatabase = RMGDatabase()
-    rmgDatabase.load('input', kineticsFamilies='default')
+    dataPath = os.path.abspath(os.path.join(os.path.dirname(rmgpy.__file__),'..','..','RMG-database', 'input'))
+    rmgDatabase.load(dataPath, kineticsFamilies='default')
     
     # rxnFamily = rmgDatabase.kinetics.families[args.family[0]]
     # database = rxnFamily.transitionStates
@@ -113,7 +115,8 @@ def generate(args):
     changed = rxnFamily.transitionStates.groups.generateGroupAdditivityValues(trainingSet, user=user)
     if changed:
         # Save the new group values to disk
-        rxnFamily.transitionStates.saveTransitionStateGroups(os.path.join('input', 'kinetics', 'families', args.family[0], 'TS_groups.py'))
+        dataPath = os.path.abspath(os.path.join(os.path.dirname(rmgpy.__file__),'..','..','RMG-database', 'input'))
+        rxnFamily.transitionStates.saveTransitionStateGroups(os.path.join(dataPath, 'kinetics', 'families', args.family[0], 'TS_groups.py'))
 
 ################################################################################
 
