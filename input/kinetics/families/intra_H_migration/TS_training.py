@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "H_Abstraction/TS_training"
+name = "intra_H_migration/TS_training"
 shortDesc = u"Distances used to train group additivity values for TS geometries"
 longDesc = u"""
 Put interatomic distances for reactions to use as a training set for fitting
@@ -720,6 +720,250 @@ entry(
     index = 12,
     reactant1 = """
 multiplicity 2
+1  *2 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+2     C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
+3     C u0 p0 c0 {2,S} {4,S} {12,S} {13,S}
+4     C u0 p0 c0 {3,S} {5,S} {14,S} {15,S}
+5     O u0 p2 c0 {4,S} {6,S}
+6  *1 O u1 p2 c0 {5,S}
+7  *3 H u0 p0 c0 {1,S}
+8     H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {1,S}
+10    H u0 p0 c0 {2,S}
+11    H u0 p0 c0 {2,S}
+12    H u0 p0 c0 {3,S}
+13    H u0 p0 c0 {3,S}
+14    H u0 p0 c0 {4,S}
+15    H u0 p0 c0 {4,S}
+""",
+    product1 = """
+multiplicity 2
+1  *1 C u1 p0 c0 {2,S} {7,S} {8,S}
+2     C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
+3     C u0 p0 c0 {2,S} {4,S} {11,S} {12,S}
+4     C u0 p0 c0 {3,S} {5,S} {13,S} {14,S}
+5     O u0 p2 c0 {4,S} {6,S}
+6  *2 O u0 p2 c0 {5,S} {15,S}
+7     H u0 p0 c0 {1,S}
+8     H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {2,S}
+10    H u0 p0 c0 {2,S}
+11    H u0 p0 c0 {3,S}
+12    H u0 p0 c0 {3,S}
+13    H u0 p0 c0 {4,S}
+14    H u0 p0 c0 {4,S}
+15 *3 H u0 p0 c0 {6,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.34212, 'd12': 2.46951, 'd13': 1.16898},
+        method = "m062x/6-311+G(2df,2p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Manual calculation, validated by IRC""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 13,
+    reactant1 = """
+multiplicity 2
+1  *2 C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+2     C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
+3     C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
+4     C u0 p0 c0 {3,S} {5,S} {15,S} {16,S}
+5     C u0 p0 c0 {4,S} {6,S} {17,S} {18,S}
+6  *1 C u1 p0 c0 {5,S} {7,S} {19,S}
+7     C u0 p0 c0 {6,S} {20,S} {21,S} {22,S}
+8     H u0 p0 c0 {1,S}
+9  *3 H u0 p0 c0 {1,S}
+10    H u0 p0 c0 {1,S}
+11    H u0 p0 c0 {2,S}
+12    H u0 p0 c0 {2,S}
+13    H u0 p0 c0 {3,S}
+14    H u0 p0 c0 {3,S}
+15    H u0 p0 c0 {4,S}
+16    H u0 p0 c0 {4,S}
+17    H u0 p0 c0 {5,S}
+18    H u0 p0 c0 {5,S}
+19    H u0 p0 c0 {6,S}
+20    H u0 p0 c0 {7,S}
+21    H u0 p0 c0 {7,S}
+22    H u0 p0 c0 {7,S}
+""",
+    product1 = """
+multiplicity 2
+1  *1 C u1 p0 c0 {2,S} {8,S} {9,S}
+2     C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
+3     C u0 p0 c0 {2,S} {4,S} {12,S} {13,S}
+4     C u0 p0 c0 {3,S} {5,S} {14,S} {15,S}
+5     C u0 p0 c0 {4,S} {6,S} {16,S} {17,S}
+6  *2 C u0 p0 c0 {5,S} {7,S} {18,S} {19,S}
+7     C u0 p0 c0 {6,S} {20,S} {21,S} {22,S}
+8     H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {1,S}
+10    H u0 p0 c0 {2,S}
+11    H u0 p0 c0 {2,S}
+12    H u0 p0 c0 {3,S}
+13    H u0 p0 c0 {3,S}
+14    H u0 p0 c0 {4,S}
+15    H u0 p0 c0 {4,S}
+16    H u0 p0 c0 {5,S}
+17    H u0 p0 c0 {5,S}
+18 *3 H u0 p0 c0 {6,S}
+19    H u0 p0 c0 {6,S}
+20    H u0 p0 c0 {7,S}
+21    H u0 p0 c0 {7,S}
+22    H u0 p0 c0 {7,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.36688, 'd12': 2.65833, 'd13': 1.31491},
+        method = "m062x/6-311+G(2df,2p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Manual calculation, validated by IRC""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 14,
+    reactant1 = """
+multiplicity 2
+1  *1 C u1 p0 c0 {2,S} {9,S} {10,S}
+2     C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
+3     C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
+4     C u0 p0 c0 {3,S} {5,S} {15,S} {16,S}
+5     C u0 p0 c0 {4,S} {6,S} {17,S} {18,S}
+6     C u0 p0 c0 {5,S} {7,S} {19,S} {20,S}
+7  *2 C u0 p0 c0 {6,S} {8,S} {21,S} {22,S}
+8     C u0 p0 c0 {7,S} {23,S} {24,S} {25,S}
+9     H u0 p0 c0 {1,S}
+10    H u0 p0 c0 {1,S}
+11    H u0 p0 c0 {2,S}
+12    H u0 p0 c0 {2,S}
+13    H u0 p0 c0 {3,S}
+14    H u0 p0 c0 {3,S}
+15    H u0 p0 c0 {4,S}
+16    H u0 p0 c0 {4,S}
+17    H u0 p0 c0 {5,S}
+18    H u0 p0 c0 {5,S}
+19    H u0 p0 c0 {6,S}
+20    H u0 p0 c0 {6,S}
+21 *3 H u0 p0 c0 {7,S}
+22    H u0 p0 c0 {7,S}
+23    H u0 p0 c0 {8,S}
+24    H u0 p0 c0 {8,S}
+25    H u0 p0 c0 {8,S}
+""",
+    product1 = """
+multiplicity 2
+1  *2 C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+2     C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
+3     C u0 p0 c0 {2,S} {4,S} {14,S} {15,S}
+4     C u0 p0 c0 {3,S} {5,S} {16,S} {17,S}
+5     C u0 p0 c0 {4,S} {6,S} {18,S} {19,S}
+6     C u0 p0 c0 {5,S} {7,S} {20,S} {21,S}
+7  *1 C u1 p0 c0 {6,S} {8,S} {22,S}
+8     C u0 p0 c0 {7,S} {23,S} {24,S} {25,S}
+9  *3 H u0 p0 c0 {1,S}
+10    H u0 p0 c0 {1,S}
+11    H u0 p0 c0 {1,S}
+12    H u0 p0 c0 {2,S}
+13    H u0 p0 c0 {2,S}
+14    H u0 p0 c0 {3,S}
+15    H u0 p0 c0 {3,S}
+16    H u0 p0 c0 {4,S}
+17    H u0 p0 c0 {4,S}
+18    H u0 p0 c0 {5,S}
+19    H u0 p0 c0 {5,S}
+20    H u0 p0 c0 {6,S}
+21    H u0 p0 c0 {6,S}
+22    H u0 p0 c0 {7,S}
+23    H u0 p0 c0 {8,S}
+24    H u0 p0 c0 {8,S}
+25    H u0 p0 c0 {8,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.33633, 'd12': 2.6871, 'd13': 1.36876},
+        method = "m062x/6-311+G(2df,2p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Manual calculation, validated by IRC""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 15,
+    reactant1 = """
+multiplicity 2
+1  *2 C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+2     C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
+3     C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
+4     C u0 p0 c0 {3,S} {5,S} {15,S} {16,S}
+5     C u0 p0 c0 {4,S} {6,S} {17,S} {18,S}
+6     O u0 p2 c0 {5,S} {7,S}
+7  *1 O u1 p2 c0 {6,S}
+8  *3 H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {1,S}
+10    H u0 p0 c0 {1,S}
+11    H u0 p0 c0 {2,S}
+12    H u0 p0 c0 {2,S}
+13    H u0 p0 c0 {3,S}
+14    H u0 p0 c0 {3,S}
+15    H u0 p0 c0 {4,S}
+16    H u0 p0 c0 {4,S}
+17    H u0 p0 c0 {5,S}
+18    H u0 p0 c0 {5,S}
+""",
+    product1 = """
+multiplicity 2
+1  *1 C u1 p0 c0 {2,S} {8,S} {9,S}
+2     C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
+3     C u0 p0 c0 {2,S} {4,S} {12,S} {13,S}
+4     C u0 p0 c0 {3,S} {5,S} {14,S} {15,S}
+5     C u0 p0 c0 {4,S} {6,S} {16,S} {17,S}
+6     O u0 p2 c0 {5,S} {7,S}
+7  *2 O u0 p2 c0 {6,S} {18,S}
+8     H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {1,S}
+10    H u0 p0 c0 {2,S}
+11    H u0 p0 c0 {2,S}
+12    H u0 p0 c0 {3,S}
+13    H u0 p0 c0 {3,S}
+14    H u0 p0 c0 {4,S}
+15    H u0 p0 c0 {4,S}
+16    H u0 p0 c0 {5,S}
+17    H u0 p0 c0 {5,S}
+18 *3 H u0 p0 c0 {7,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.34732, 'd12': 2.49882, 'd13': 1.17147},
+        method = "m062x/6-311+G(2df,2p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Manual calculation, validated by IRC""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 16,
+    reactant1 = """
+multiplicity 2
 1     C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2     C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
 3     C u0 p0 c0 {1,S} {12,S} {13,S} {14,S}
@@ -767,7 +1011,7 @@ multiplicity 2
 21    H u0 p0 c0 {7,S}
 """,
     distances = DistanceData(
-        distances = {'d23': 1.47388, 'd12': 1.22993, 'd13': 1.37611},
+        distances = {'d23': 1.37611, 'd12': 1.47388, 'd13': 1.22993},
         method = "m062x/6-311+G(2df,2p)",
     ),
     reference = None,
@@ -780,7 +1024,7 @@ u"""
 )
 
 entry(
-    index = 13,
+    index = 17,
     reactant1 = """
 multiplicity 2
 1     C u0 p0 c0 {2,S} {3,S} {6,S} {24,S}
@@ -838,7 +1082,7 @@ multiplicity 2
 25 *1 O u1 p2 c0 {22,S}
 """,
     distances = DistanceData(
-        distances = {'d23': 2.40177, 'd12': 1.34095, 'd13': 1.18969},
+        distances = {'d23': 1.18969, 'd12': 2.40177, 'd13': 1.34095},
         method = "m062x/6-311+G(2df,2p)",
     ),
     reference = None,
@@ -851,7 +1095,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 18,
     reactant1 = """
 multiplicity 2
 1     C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -905,7 +1149,7 @@ multiplicity 2
 23    H u0 p0 c0 {9,S}
 """,
     distances = DistanceData(
-        distances = {'d23': 1.47608, 'd12': 1.23399, 'd13': 1.37785},
+        distances = {'d23': 1.37785, 'd12': 1.47608, 'd13': 1.23399},
         method = "m062x/6-311+G(2df,2p)",
     ),
     reference = None,
@@ -918,7 +1162,7 @@ u"""
 )
 
 entry(
-    index = 15,
+    index = 19,
     reactant1 = """
 multiplicity 2
 1     C u0 p0 c0 {7,S} {8,S} {9,S} {21,S}
@@ -970,7 +1214,7 @@ multiplicity 2
 22 *1 O u1 p2 c0 {19,S}
 """,
     distances = DistanceData(
-        distances = {'d23': 2.47089, 'd12': 1.22207, 'd13': 1.32293},
+        distances = {'d23': 1.32293, 'd12': 2.47089, 'd13': 1.22207},
         method = "m062x/6-311+G(2df,2p)",
     ),
     reference = None,
@@ -983,7 +1227,7 @@ u"""
 )
 
 entry(
-    index = 16,
+    index = 20,
     reactant1 = """
 multiplicity 2
 1  *5 C u0 p0 c0 {2,S} {3,S} {7,S} {10,S}
@@ -1037,7 +1281,7 @@ multiplicity 2
 23    H u0 p0 c0 {9,S}
 """,
     distances = DistanceData(
-        distances = {'d23': 2.52814, 'd12': 1.33714, 'd13': 1.4141},
+        distances = {'d23': 1.4141, 'd12': 2.52814, 'd13': 1.33714},
         method = "m062x/6-311+G(2df,2p)",
     ),
     reference = None,
@@ -1050,7 +1294,7 @@ u"""
 )
 
 entry(
-    index = 17,
+    index = 21,
     reactant1 = """
 multiplicity 2
 1     C u0 p0 c0 {5,S} {6,S} {7,S} {19,S}
@@ -1098,7 +1342,7 @@ multiplicity 2
 20 *1 O u1 p2 c0 {17,S}
 """,
     distances = DistanceData(
-        distances = {'d23': 2.43894, 'd12': 1.32583, 'd13': 1.21819},
+        distances = {'d23': 1.21819, 'd12': 2.43894, 'd13': 1.32583},
         method = "m062x/6-311+G(2df,2p)",
     ),
     reference = None,
@@ -1111,7 +1355,7 @@ u"""
 )
 
 entry(
-    index = 18,
+    index = 22,
     reactant1 = """
 multiplicity 2
 1     C u0 p0 c0 {2,S} {3,S} {6,S} {9,S}
@@ -1161,7 +1405,7 @@ multiplicity 2
 21 *1 O u1 p2 c0 {7,S}
 """,
     distances = DistanceData(
-        distances = {'d23': 2.44145, 'd12': 1.40303, 'd13': 1.27926},
+        distances = {'d23': 1.27926, 'd12': 2.44145, 'd13': 1.40303},
         method = "m062x/6-311+G(2df,2p)",
     ),
     reference = None,
@@ -1174,7 +1418,7 @@ u"""
 )
 
 entry(
-    index = 19,
+    index = 23,
     reactant1 = """
 multiplicity 2
 1     C u0 p0 c0 {6,S} {7,S} {8,S} {21,S}
@@ -1226,7 +1470,7 @@ multiplicity 2
 22 *1 O u1 p2 c0 {19,S}
 """,
     distances = DistanceData(
-        distances = {'d23': 2.43951, 'd12': 1.31841, 'd13': 1.2456},
+        distances = {'d23': 1.2456, 'd12': 2.43951, 'd13': 1.31841},
         method = "m062x/6-311+G(2df,2p)",
     ),
     reference = None,
@@ -1239,7 +1483,7 @@ u"""
 )
 
 entry(
-    index = 20,
+    index = 24,
     reactant1 = """
 multiplicity 2
 1     C u0 p0 c0 {6,S} {9,S} {10,S} {11,S}
@@ -1289,7 +1533,7 @@ multiplicity 2
 21 *1 O u1 p2 c0 {7,S}
 """,
     distances = DistanceData(
-        distances = {'d23': 2.0903, 'd12': 1.3316, 'd13': 1.30383},
+        distances = {'d23': 1.30383, 'd12': 2.0903, 'd13': 1.3316},
         method = "m062x/6-311+G(2df,2p)",
     ),
     reference = None,
@@ -1302,7 +1546,7 @@ u"""
 )
 
 entry(
-    index = 21,
+    index = 25,
     reactant1 = """
 multiplicity 2
 1     C u0 p0 c0 {6,S} {10,S} {11,S} {12,S}
@@ -1352,7 +1596,7 @@ multiplicity 2
 21    H u0 p0 c0 {8,S}
 """,
     distances = DistanceData(
-        distances = {'d23': 2.51412, 'd12': 1.34718, 'd13': 1.39637},
+        distances = {'d23': 1.39637, 'd12': 2.51412, 'd13': 1.34718},
         method = "m062x/6-311+G(2df,2p)",
     ),
     reference = None,
@@ -1365,7 +1609,7 @@ u"""
 )
 
 entry(
-    index = 22,
+    index = 26,
     reactant1 = """
 multiplicity 2
 1     C u0 p0 c0 {4,S} {5,S} {6,S} {19,S}
@@ -1411,13 +1655,257 @@ multiplicity 2
 19 *1 C u1 p0 c0 {8,S} {9,S} {17,S}
 """,
     distances = DistanceData(
-        distances = {'d23': 2.53021, 'd12': 1.34152, 'd13': 1.3996},
+        distances = {'d23': 1.3996, 'd12': 2.53021, 'd13': 1.34152},
         method = "m062x/6-311+G(2df,2p)",
     ),
     reference = None,
     referenceType = "",
     rank = 3,
     shortDesc = u"""Reverse reaction for reaction index 11""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 27,
+    reactant1 = """
+multiplicity 2
+1  *1 C u1 p0 c0 {2,S} {7,S} {8,S}
+2     C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
+3     C u0 p0 c0 {2,S} {4,S} {11,S} {12,S}
+4     C u0 p0 c0 {3,S} {5,S} {13,S} {14,S}
+5     O u0 p2 c0 {4,S} {6,S}
+6  *2 O u0 p2 c0 {5,S} {15,S}
+7     H u0 p0 c0 {1,S}
+8     H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {2,S}
+10    H u0 p0 c0 {2,S}
+11    H u0 p0 c0 {3,S}
+12    H u0 p0 c0 {3,S}
+13    H u0 p0 c0 {4,S}
+14    H u0 p0 c0 {4,S}
+15 *3 H u0 p0 c0 {6,S}
+""",
+    product1 = """
+multiplicity 2
+1  *2 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+2     C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
+3     C u0 p0 c0 {2,S} {4,S} {12,S} {13,S}
+4     C u0 p0 c0 {3,S} {5,S} {14,S} {15,S}
+5     O u0 p2 c0 {4,S} {6,S}
+6  *1 O u1 p2 c0 {5,S}
+7  *3 H u0 p0 c0 {1,S}
+8     H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {1,S}
+10    H u0 p0 c0 {2,S}
+11    H u0 p0 c0 {2,S}
+12    H u0 p0 c0 {3,S}
+13    H u0 p0 c0 {3,S}
+14    H u0 p0 c0 {4,S}
+15    H u0 p0 c0 {4,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.16898, 'd12': 2.46951, 'd13': 1.34212},
+        method = "m062x/6-311+G(2df,2p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Reverse reaction for reaction index 12""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 28,
+    reactant1 = """
+multiplicity 2
+1  *1 C u1 p0 c0 {2,S} {8,S} {9,S}
+2     C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
+3     C u0 p0 c0 {2,S} {4,S} {12,S} {13,S}
+4     C u0 p0 c0 {3,S} {5,S} {14,S} {15,S}
+5     C u0 p0 c0 {4,S} {6,S} {16,S} {17,S}
+6  *2 C u0 p0 c0 {5,S} {7,S} {18,S} {19,S}
+7     C u0 p0 c0 {6,S} {20,S} {21,S} {22,S}
+8     H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {1,S}
+10    H u0 p0 c0 {2,S}
+11    H u0 p0 c0 {2,S}
+12    H u0 p0 c0 {3,S}
+13    H u0 p0 c0 {3,S}
+14    H u0 p0 c0 {4,S}
+15    H u0 p0 c0 {4,S}
+16    H u0 p0 c0 {5,S}
+17    H u0 p0 c0 {5,S}
+18 *3 H u0 p0 c0 {6,S}
+19    H u0 p0 c0 {6,S}
+20    H u0 p0 c0 {7,S}
+21    H u0 p0 c0 {7,S}
+22    H u0 p0 c0 {7,S}
+""",
+    product1 = """
+multiplicity 2
+1  *2 C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+2     C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
+3     C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
+4     C u0 p0 c0 {3,S} {5,S} {15,S} {16,S}
+5     C u0 p0 c0 {4,S} {6,S} {17,S} {18,S}
+6  *1 C u1 p0 c0 {5,S} {7,S} {19,S}
+7     C u0 p0 c0 {6,S} {20,S} {21,S} {22,S}
+8     H u0 p0 c0 {1,S}
+9  *3 H u0 p0 c0 {1,S}
+10    H u0 p0 c0 {1,S}
+11    H u0 p0 c0 {2,S}
+12    H u0 p0 c0 {2,S}
+13    H u0 p0 c0 {3,S}
+14    H u0 p0 c0 {3,S}
+15    H u0 p0 c0 {4,S}
+16    H u0 p0 c0 {4,S}
+17    H u0 p0 c0 {5,S}
+18    H u0 p0 c0 {5,S}
+19    H u0 p0 c0 {6,S}
+20    H u0 p0 c0 {7,S}
+21    H u0 p0 c0 {7,S}
+22    H u0 p0 c0 {7,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.31491, 'd12': 2.65833, 'd13': 1.36688},
+        method = "m062x/6-311+G(2df,2p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Reverse reaction for reaction index 13""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 29,
+    reactant1 = """
+multiplicity 2
+1  *2 C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+2     C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
+3     C u0 p0 c0 {2,S} {4,S} {14,S} {15,S}
+4     C u0 p0 c0 {3,S} {5,S} {16,S} {17,S}
+5     C u0 p0 c0 {4,S} {6,S} {18,S} {19,S}
+6     C u0 p0 c0 {5,S} {7,S} {20,S} {21,S}
+7  *1 C u1 p0 c0 {6,S} {8,S} {22,S}
+8     C u0 p0 c0 {7,S} {23,S} {24,S} {25,S}
+9  *3 H u0 p0 c0 {1,S}
+10    H u0 p0 c0 {1,S}
+11    H u0 p0 c0 {1,S}
+12    H u0 p0 c0 {2,S}
+13    H u0 p0 c0 {2,S}
+14    H u0 p0 c0 {3,S}
+15    H u0 p0 c0 {3,S}
+16    H u0 p0 c0 {4,S}
+17    H u0 p0 c0 {4,S}
+18    H u0 p0 c0 {5,S}
+19    H u0 p0 c0 {5,S}
+20    H u0 p0 c0 {6,S}
+21    H u0 p0 c0 {6,S}
+22    H u0 p0 c0 {7,S}
+23    H u0 p0 c0 {8,S}
+24    H u0 p0 c0 {8,S}
+25    H u0 p0 c0 {8,S}
+""",
+    product1 = """
+multiplicity 2
+1  *1 C u1 p0 c0 {2,S} {9,S} {10,S}
+2     C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
+3     C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
+4     C u0 p0 c0 {3,S} {5,S} {15,S} {16,S}
+5     C u0 p0 c0 {4,S} {6,S} {17,S} {18,S}
+6     C u0 p0 c0 {5,S} {7,S} {19,S} {20,S}
+7  *2 C u0 p0 c0 {6,S} {8,S} {21,S} {22,S}
+8     C u0 p0 c0 {7,S} {23,S} {24,S} {25,S}
+9     H u0 p0 c0 {1,S}
+10    H u0 p0 c0 {1,S}
+11    H u0 p0 c0 {2,S}
+12    H u0 p0 c0 {2,S}
+13    H u0 p0 c0 {3,S}
+14    H u0 p0 c0 {3,S}
+15    H u0 p0 c0 {4,S}
+16    H u0 p0 c0 {4,S}
+17    H u0 p0 c0 {5,S}
+18    H u0 p0 c0 {5,S}
+19    H u0 p0 c0 {6,S}
+20    H u0 p0 c0 {6,S}
+21 *3 H u0 p0 c0 {7,S}
+22    H u0 p0 c0 {7,S}
+23    H u0 p0 c0 {8,S}
+24    H u0 p0 c0 {8,S}
+25    H u0 p0 c0 {8,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.36876, 'd12': 2.6871, 'd13': 1.33633},
+        method = "m062x/6-311+G(2df,2p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Reverse reaction for reaction index 14""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 30,
+    reactant1 = """
+multiplicity 2
+1  *1 C u1 p0 c0 {2,S} {8,S} {9,S}
+2     C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
+3     C u0 p0 c0 {2,S} {4,S} {12,S} {13,S}
+4     C u0 p0 c0 {3,S} {5,S} {14,S} {15,S}
+5     C u0 p0 c0 {4,S} {6,S} {16,S} {17,S}
+6     O u0 p2 c0 {5,S} {7,S}
+7  *2 O u0 p2 c0 {6,S} {18,S}
+8     H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {1,S}
+10    H u0 p0 c0 {2,S}
+11    H u0 p0 c0 {2,S}
+12    H u0 p0 c0 {3,S}
+13    H u0 p0 c0 {3,S}
+14    H u0 p0 c0 {4,S}
+15    H u0 p0 c0 {4,S}
+16    H u0 p0 c0 {5,S}
+17    H u0 p0 c0 {5,S}
+18 *3 H u0 p0 c0 {7,S}
+""",
+    product1 = """
+multiplicity 2
+1  *2 C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+2     C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
+3     C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
+4     C u0 p0 c0 {3,S} {5,S} {15,S} {16,S}
+5     C u0 p0 c0 {4,S} {6,S} {17,S} {18,S}
+6     O u0 p2 c0 {5,S} {7,S}
+7  *1 O u1 p2 c0 {6,S}
+8  *3 H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {1,S}
+10    H u0 p0 c0 {1,S}
+11    H u0 p0 c0 {2,S}
+12    H u0 p0 c0 {2,S}
+13    H u0 p0 c0 {3,S}
+14    H u0 p0 c0 {3,S}
+15    H u0 p0 c0 {4,S}
+16    H u0 p0 c0 {4,S}
+17    H u0 p0 c0 {5,S}
+18    H u0 p0 c0 {5,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.17147, 'd12': 2.49882, 'd13': 1.34732},
+        method = "m062x/6-311+G(2df,2p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Reverse reaction for reaction index 15""",
     longDesc = 
 u"""
 """,
