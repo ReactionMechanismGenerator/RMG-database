@@ -3284,13 +3284,6 @@ entry(
 )
 
 entry(
-    index = 444,
-    label = "Xbirad_H",
-    group = "OR{CH2_triplet_H, CH2_singlet_H, NH_triplet_H, NH_singlet_H}",
-    kinetics = None,
-)
-
-entry(
     index = 476,
     label = "CH2_triplet_H",
     group = 
@@ -3395,7 +3388,7 @@ entry(
 entry(
     index = 419,
     label = "Y_1centertrirad",
-    group = "OR{N_atom_quartet, N_atom_doublet, CH_quartet, CH_doublet}",
+    group = "OR{N_atom_quartet, N_atom_doublet, CH_quartet, CH_doublet, SiH_doublet, SiH_quartet}",
     kinetics = None,
 )
 
@@ -3437,6 +3430,16 @@ entry(
 """
 1 *3 C u1 p1 {2,S}
 2    H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 188,
+    label = "Y_1centerbirad",
+    group = 
+"""
+1 *3 [Cs,Cd,CO,CS,O,S,N,Si] u2
 """,
     kinetics = None,
 )
@@ -6355,308 +6358,9 @@ u"""
 )
 
 entry(
-    index = 443,
-    label = "OH_rad_H",
-    group = 
-"""
-1 *1 O  1 {2,S}
-2 *2 H  0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 444,
     label = "Xbirad_H",
-    group = "OR{CH2_triplet_H, CH2_singlet_H, NH_triplet_H, NH_singlet_H, Si_singlet_H}",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 446,
-    label = "N3d/H/NonDeC",
-    group = 
-"""
-1 *1 N3d 0 {2,S} {3,D}
-2 *2 H   0 {1,S}
-3    Cd  0 {1,D} {4,S} {5,S}
-4    R   0 {3,S}
-5    R   0 {3,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 447,
-    label = "N3d/H/NonDeO",
-    group = 
-"""
-1 *1 N3d 0 {2,S} {3,D}
-2 *2 H   0 {1,S}
-3    Od   0 {1,D}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 448,
-    label = "N3d/H/NonDeN",
-    group = 
-"""
-1 *1 N3d 0 {2,S} {3,D}
-2 *2 H   0 {1,S}
-3    N3d 0 {1,D}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 449,
-    label = "N3s_rad_H/H/NonDeN",
-    group = 
-"""
-1 *1 N3s 1 {2,S} {3,S}
-2 *2 H   0 {1,S}
-3    N3s 0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 450,
-    label = "N3s/H2/NonDe",
-    group = 
-"""
-1 *1 N3s         0 {2,S} {3,S} {4,S}
-2 *2 H           0 {1,S}
-3    H           0 {1,S}
-4    {N3s,Cs,Os} 0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 451,
-    label = "N3s/H2/NonDeC",
-    group = 
-"""
-1 *1 N3s 0 {2,S} {3,S} {4,S}
-2 *2 H   0 {1,S}
-3    H   0 {1,S}
-4    Cs  0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 452,
-    label = "N3s/H2/NonDeO",
-    group = 
-"""
-1 *1 N3s 0 {2,S} {3,S} {4,S}
-2 *2 H   0 {1,S}
-3    H   0 {1,S}
-4    Os  0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 453,
-    label = "N3s/H2/NonDeN",
-    group = 
-"""
-1 *1 N3s 0 {2,S} {3,S} {4,S}
-2 *2 H   0 {1,S}
-3    H   0 {1,S}
-4    N3s 0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 454,
-    label = "O/H/OneDeC",
-    group = 
-"""
-1 *1 O                0 {2,S} {3,S}
-2 *2 H                0 {1,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 455,
-    label = "O/H/OneDeN",
-    group = 
-"""
-1 *1 O         0 {2,S} {3,S}
-2 *2 H         0 {1,S}
-3    {N3d,N5d} 0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 456,
-    label = "N5d/H/NonDeOO",
-    group = 
-"""
-1 *1 N5d 0 {2,S} {3,S} {4,D}
-2 *2 H   0 {1,S}
-3    Os  0 {1,S}
-4    Od  0 {1,D}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 457,
-    label = "Ct/H/NonDeC",
-    group = 
-"""
-1 *1 Ct 0 {2,S} {3,T}
-2 *2 H  0 {1,S}
-3    Ct 0 {1,T}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 458,
-    label = "Ct/H/NonDeN",
-    group = 
-"""
-1 *1 Ct  0 {2,S} {3,T}
-2 *2 H   0 {1,S}
-3    N3t 0 {1,T}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 459,
-    label = "Cd/H2/NonDeC",
-    group = 
-"""
-1 *1 C 0 {2,D} {3,S} {4,S}
-2    C 0 {1,D}
-3 *2 H 0 {1,S}
-4    H 0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 460,
-    label = "Cd/H2/NonDeN",
-    group = 
-"""
-1 *1 C   0 {2,D} {3,S} {4,S}
-2    N3d 0 {1,D}
-3 *2 H   0 {1,S}
-4    H   0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 461,
-    label = "Cs/H3/NonDeN",
-    group = 
-"""
-1 *1 C   0 {2,S} {3,S} {4,S} {5,S}
-2    N3s 0 {1,S}
-3 *2 H   0 {1,S}
-4    H   0 {1,S}
-5    H   0 {1,S}
-""",
+    group = "OR{CH2_triplet_H, CH2_singlet_H, NH_triplet_H, NH_singlet_H, SiH2_triplet_H, SiH2_singlet_H}",
     kinetics = None,
     shortDesc = u"""""",
     longDesc = 
