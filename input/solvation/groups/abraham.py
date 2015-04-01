@@ -595,8 +595,14 @@ entry(
 2   H   u0 {1,S}
 3   H   u0 {1,S}
 """,
-    solute = None,
-    shortDesc = u"""""",
+    solute = SoluteData(
+        S = 0.175,
+        B = 0.481,
+        E = 0.085,
+        L = 0.781,
+        A = 0.0,
+    ),
+    shortDesc = u"""Platts fragment 10 -NH2-aliphatic""",
     longDesc = 
 u"""
 
