@@ -281,6 +281,28 @@ u"""
 )
 
 entry(
+    index = 10,
+    label = "CtOt",
+    group = 
+"""
+1 * Ct u0 {2,T}
+2   Ot u0 {1,T}
+""",
+    solute = SoluteData(
+        S = -0.085,
+        B = 0.019,
+        E = -0.045,
+        L = 0.244,
+        A = 0,
+    ),
+    shortDesc = u"""Fake value for C#O that corresponds to its resonance isomer""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 57,
     label = "Cdd",
     group = 
@@ -393,7 +415,7 @@ entry(
     label = "O",
     group = 
 """
-1 * [Os,Od] u0
+1 * [Os,Od,Ot] u0
 """,
     solute = None,
     shortDesc = u"""""",
@@ -478,6 +500,28 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts fragment 30 sp2 =O""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 30,
+    label = "OtCt",
+    group = 
+"""
+1 * Ot u0 {2,T}
+2   Ct u0 {1,T}
+""",
+    solute = SoluteData(
+        S = 0.37,
+        B = 0.334,
+        E = -0.041,
+        L = 0.495,
+        A = 0,
+    ),
+    shortDesc = u"""Fake value for C#O that corresponds to resonance isomer""",
     longDesc = 
 u"""
 
@@ -1117,6 +1161,7 @@ L1: R
             L4: CdsH
             L4: Cds-noH
         L3: Ct
+            L4: CtOt
         L3: Cdd
         L3: Cb
             L4: Cb-noH
@@ -1127,6 +1172,7 @@ L1: R
             L4: OssH
             L4: Oss-noncyclic
         L3: Od
+        L3: OtCt
     L2: N
         L3: N3s
             L4: NO2
