@@ -1,3 +1,13 @@
+#!/usr/bin/env python
+# encoding: utf-8
+
+name = "intra_H_migration/TS_training"
+shortDesc = u"Distances used to train group additivity values for TS geometries"
+longDesc = u"""
+Put interatomic distances for reactions to use as a training set for fitting
+group additivity values in this file.
+"""
+
 entry(
     index = 1,
     label = "C7H13O <=> C7H13O-1",

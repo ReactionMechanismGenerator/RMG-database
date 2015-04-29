@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+# encoding: utf-8
+
+name = "H_Abstraction/TS_training"
+shortDesc = u"Distances used to train group additivity values for TS geometries"
+longDesc = u"""
+Put interatomic distances for reactions to use as a training set for fitting
+group additivity values in this file.
+"""
 entry(
     index = 1,
     label = "H + C3H4 <=> H2 + C3H3",

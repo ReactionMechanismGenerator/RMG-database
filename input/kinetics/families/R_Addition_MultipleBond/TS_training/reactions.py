@@ -1,3 +1,13 @@
+#!/usr/bin/env python
+# encoding: utf-8
+
+name = "R_Addition_MultipleBond/TS_training"
+shortDesc = u"Distances used to train group additivity values for TS geometries"
+longDesc = u"""
+Put interatomic distances for reactions to use as a training set for fitting
+group additivity values in this file.
+"""
+
 entry(
     index = 1,
     label = "C2H2O + H <=> C2H3O",
