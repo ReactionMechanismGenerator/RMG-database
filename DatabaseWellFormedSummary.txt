@@ -1,0 +1,2118 @@
+R_Addition_CSm
+
+These groups do not match the definition in the rule
+CH2CH3 in CSm;CH2CH3
+
+
+Disproportionation
+
+These groups do not match the definition in the rule
+Ct_rad/Ct in Ct_rad/Ct;C/H2/Nd_Csrad
+Ct_rad/Ct in Ct_rad/Ct;Cmethyl_Csrad
+Ct_rad in Ct_rad;O_Csrad
+Ct_rad/Ct in Ct_rad/Ct;C/H/NdNd_Csrad
+
+These groups are not unique
+CH2_triplet matches Y_H5
+CH_quartet matches Y_H1
+Y_H2 matches CH_doublet
+Y_H4 matches NH_singlet
+CH2_singlet matches Y_H6
+O_Orad matches Y_H7
+
+
+H_Abstraction
+
+These groups exist in rules.py but not groups.py:
+A suggested match could be incorrect, but if 'No match' is written, it is true (and most unfortunate)
+O_rad/Cd\H_Cd\H\Cs|Cs, Suggested match from groups.py: No match
+CsXX, Suggested match from groups.py: C/H3/Ct
+
+These groups do not match the definition in the rule
+Cd_pri in Cd_pri;C_rad/H/CtCs
+Cd_pri in Cd_pri;C_rad/H/CtCt
+Cd_pri in Cd_pri;Cd_rad/NonDeC
+C/H/CtCt in C/H/CtCt;C_rad/CbCs2
+C/H/CtCt in C/H/CtCt;C_rad/H/CSS
+C/H/CtCt in C/H/CtCt;C_rad/H/CtS
+Cd_pri in Cd_pri;C_rad/CtCs2
+Ct_H in Ct_H;C_rad/H2/Cs
+Cd_pri in Cd_pri;C_rad/H/CdCd
+Cd_pri in Cd_pri;C_rad/CSCsS
+Cd_pri in Cd_pri;C_rad/H/CdCs
+C/H/CtCt in C/H/CtCt;C_rad/H/CbCs
+Cd_pri in Cd_pri;C_rad/H/CbCs
+Cd_pri in Cd_pri;C_rad/CSCs2
+C/H/CtCt in C/H/CtCt;C_rad/H/CbS
+Ct_rad in H2;Ct_rad
+Cd_pri in Cd_pri;O_atom_triplet
+C/H/CtCt in C/H/CtCt;C_rad/Cs2S
+Cd_pri in Cd_pri;C_methyl
+C/H/CtCt in C/H/CtCt;C_methyl
+C/H/CtCt in C/H/CtCt;C_rad/CbCsS
+Cd_pri in Cd_pri;C_rad/CtCsS
+Cd_pri in Cd_pri;C_rad/H2/Cs
+Cd_pri in Cd_pri;C_rad/H2/Ct
+C/H/CtCt in C/H/CtCt;CS_rad/Cs
+N3d/H/NonDeC in N3d/H/NonDeC;NH2_rad
+C/H/CtCt in C/H/CtCt;CS_rad/Ct
+Cd_pri in Cd_pri;C_rad/H2/Cb
+Cd_pri in Cd_pri;C_rad/H2/Cd
+C/H/CtCt in C/H/CtCt;CS_rad/Cd
+C/H/CtCt in C/H/CtCt;C_rad/H/CtCt
+Cd_pri in Cd_pri;C_rad/H2/CS
+Cd_pri in Cd_pri;CS_rad/Ct
+C/H/CtCt in C/H/CtCt;C_rad/H/CtCs
+Cd_pri in Cd_pri;C_rad/CbCsS
+Cd_pri in Cd_pri;Cd_rad/NonDeS
+Cd_pri in Cd_pri;C_rad/H/CdS
+Cd_pri in Cd_pri;CS_rad/Cd
+Ct_H in Ct_H;O_pri_rad
+C/H/CtCt in C/H/CtCt;C_rad/CSCs2
+C/H/CtCt in C/H/CtCt;C_rad/H2/S
+Cd_pri in Cd_pri;O2b
+N3d/H/NonDeC in N3d/H/NonDeC;O_pri_rad
+Cd_pri in Cd_pri;C_rad/CtCtCs
+Ct_rad in C/H2/NonDeC;Ct_rad
+Cd_pri in Cd_pri;C_rad/CdCsS
+N3d/H/NonDeC in N3d/H/NonDeC;O_atom_triplet
+C/H/CtCt in C/H/CtCt;C_rad/Cs3
+Cd_pri in Cd_pri;C_rad/CbCs2
+C/H/CtCt in C/H/CtCt;Cd_pri_rad
+C/H/CtCt in C/H/CtCt;C_rad/CSCsS
+C/H/CtCt in C/H/CtCt;C_rad/H/NonDeC
+Cd_pri in Cd_pri;CS_pri_rad
+C/H/CtCt in C/H/CtCt;CS_rad/S
+C/H/CtCt in C/H/CtCt;C_rad/H/CsS
+Ct_rad in C/H/Cs3;Ct_rad
+C/H/CtCt in C/H/CtCt;C_rad/H/CdS
+C/H/CtCt in C/H/CtCt;C_rad/CtCs2
+Ct_rad in C/H3/Cs;Ct_rad
+Cd_pri in Cd_pri;CS_rad/S
+C/H/CtCt in C/H/CtCt;C_rad/CdCdCs
+Cd_pri in Cd_pri;C_rad/H/CbS
+Cd_pri in Cd_pri;C_rad/H/NonDeC
+Cd_pri in Cd_pri;C_rad/H/CSS
+C/H/CtCt in C/H/CtCt;CS_pri_rad
+Ct_rad in C_methane;Ct_rad
+Y_rad_birad_trirad_quadrad in X_H;Y_rad_birad_trirad_quadrad
+Cd_pri in Cd_pri;O_pri_rad
+Ct_rad in O/H/NonDeC;Ct_rad
+Cd_pri in Cd_pri;C_rad/CdCdCs
+Cd_pri in Cd_pri;Cd_pri_rad
+C/H/CtCt in C/H/CtCt;H_rad
+O_rad/OneDe in H2O2;O_rad/OneDe
+Cd_pri in Cd_pri;C_rad/Cs3
+C/H/CtCt in C/H/CtCt;C_rad/CtCsS
+N3d/H/NonDeC in N3d/H/NonDeC;H_rad
+O_rad/OneDe in S_pri;O_rad/OneDe
+Cd_pri in Cd_pri;C_rad/H/CtS
+Ct_rad in Cd/H/NonDeC;Ct_rad
+X_H_or_Xrad_H_Xbirad_H_Xtrirad_H, and Y_rad_birad_trirad_quadrad in X_H_or_Xrad_H_Xbirad_H_Xtrirad_H;Y_rad_birad_trirad_quadrad
+N3d/H/NonDeC in N3d/H/NonDeC;C_methyl
+Cd_pri in Cd_pri;Cd_rad/CS
+Cd_pri in Cd_pri;C_rad/H/CsS
+C/H/CtCt in C/H/CtCt;Cd_rad/CS
+Cd_pri in Cd_pri;C_rad/H2/S
+Cd_pri in Cd_pri;Cd_rad/Ct
+C/H/CtCt in C/H/CtCt;Cd_rad/NonDeS
+C/H/CtCt in C/H/CtCt;Cd_rad/Cd
+Cd_pri in Cd_pri;C_rad/CdCs2
+C/H/CtCt in C/H/CtCt;C_rad/CdCsS
+Cd_pri in Cd_pri;Cd_rad/Cd
+C/H/CtCt in C/H/CtCt;Cd_rad/NonDeC
+C/H/CtCt in C/H/CtCt;Cd_rad/Ct
+C/H/CtCt in C/H/CtCt;C_rad/H/CSCs
+C/H/CtCt in C/H/CtCt;C_rad/H/CdCd
+Cd_pri in Cd_pri;CS_rad/Cs
+Cd_pri in Cd_pri;Cb_rad
+C/H/CtCt in C/H/CtCt;C_rad/H2/Cd
+C/H/CtCt in C/H/CtCt;C_rad/H2/Cb
+C/H/CtCt in C/H/CtCt;C_rad/CdCs2
+C/H/CtCt in C/H/CtCt;C_rad/H/CdCs
+C/H/CtCt in C/H/CtCt;C_rad/H2/Ct
+C/H/CtCt in C/H/CtCt;C_rad/H2/Cs
+C/H/CtCt in C/H/CtCt;Cb_rad
+Ct_H in Ct_H;O2b
+Cd_pri in Cd_pri;C_rad/Cs2S
+Cd_pri in Cd_pri;C_rad/H/CSCs
+C/H/CtCt in C/H/CtCt;C_rad/CtCtCs
+C/H/CtCt in C/H/CtCt;C_rad/H2/CS
+
+These groups are not in the tree:
+N3_atom_quartet
+N_birad_H
+Orad_H
+CX_H_or_Xrad_H_Xbirad_Hrad
+N3s_rad/H2
+
+These groups are not unique
+N3d_rad/OneDeC matches N3d_rad/OneDe
+Orad_H matches OH_rad_H, and O_pri_rad
+OH_rad_H matches O_pri_rad
+NH2_rad_H matches NH2_rad
+C_doublet_H matches CH_doublet
+NH_singlet_H matches NH_singlet
+N3s/H2/OneDeN matches N3s/H2/OneDe
+C_quartet_H matches CH_quartet
+C/H/Cs2/Cs\O matches C/H2/Cs\Cs2/O
+CH2_triplet matches CH2_triplet_H
+Srad_H matches S_pri_rad
+C_rad/H/NonDeCN matches C_rad/H/OneDeN
+CH2_singlet_H matches CH2_singlet
+Cd/H/NonDeN matches Cd/H/N
+N3s_rad/H2 matches NH2_rad_H, and NH2_rad
+
+These groups are not actually subgroups of their parent
+Child: C_rad/CSCsS, Parent: C_rad/CsS
+Child: C/H2/Cs\H3/Cs\H3, Parent: C/H2/NonDeC
+Child: N3d/H/NonDeO, Parent: N3d/H/NonDe
+Child: C/H2/COCS, Parent: C/H2/TwoDe
+Child: C2b, Parent: Y_2centeradjbirad
+Child: C_rad/H/Cs\H2\Cs|H2|Cs/O, Parent: C_rad/H/Cs\H2\Cs/O
+Child: C_rad/O/Cs/Cs\Cs, Parent: C_rad/Cs2O
+Child: C/H/Cs2/Cs\O, Parent: C/H/Cs3
+Child: Cd/H/N, Parent: Cd/H/OneDe
+Child: C_rad/CdCSCs, Parent: C_rad/Cs
+Child: C_rad/CdCdCs, Parent: C_rad/Cs
+Child: C_rad/H2/Cs\H\Cs|Cs\O, Parent: C_rad/H2/Cs
+Child: C/H2/CO\H/Cs\H3, Parent: C/H2/COCs
+Child: C_rad/H2/Cs\H2\Cs|Cs|O, Parent: C_rad/H2/Cs
+Child: C_rad/CSCs2, Parent: C_rad/Cs2
+Child: Cd/H/Cd, Parent: Cd/H/OneDe
+Child: C_rad/H/CtCS, Parent: C_rad/H/TwoDe
+Child: C/H2/CdCS, Parent: C/H2/TwoDe
+Child: CH2_triplet, Parent: Y_1centerbirad
+Child: Cd/H/CS, Parent: Cd/H/OneDe
+Child: C_rad/CtCSCs, Parent: C_rad/Cs
+Child: O2b, Parent: Y_2centeradjbirad
+Child: C/H2/CSCS, Parent: C/H2/TwoDe
+Child: O_rad/Cd, Parent: O_rad/OneDe
+Child: C/H/COCS, Parent: C/H/Cs
+Child: O_rad/Cs\H2\Cs|H|Cs2, Parent: O_rad/NonDeC
+Child: C_rad/H/CSS, Parent: C_rad/H/OneDeS
+Child: C_rad/H/Cs\H2\Cs/Cs\H2\O, Parent: C_rad/H/NonDeC
+Child: C_rad/H2/Cs\Cs2\O, Parent: C_rad/H2/Cs
+Child: C_rad/CdCbCs, Parent: C_rad/Cs
+Child: C/H/CSCS, Parent: C/H/Cs
+Child: C_rad/H/Cs\H2\Cs|O/Cs, Parent: C_rad/H/NonDeC
+Child: C_rad/CdCOCs, Parent: C_rad/Cs
+Child: C_rad/H/COCS, Parent: C_rad/H/TwoDe
+Child: C/H/CtCS, Parent: C/H/Cs
+Child: Cd_rad/CS, Parent: Cd_rad/OneDe
+Child: C/H3/CsNonDe, Parent: C/H3/Cs
+Child: C/H2/Cd\H_Cd\H2/Cs\H3, Parent: C/H2/CdCs
+Child: C/H3/CS, Parent: C/H3/OneDe
+Child: C_rad/H/CSCS, Parent: C_rad/H/TwoDe
+Child: S_rad/CS, Parent: S_rad/OneDe
+Child: C/H/CtCt, Parent: C/H/Cs
+Child: C/H3/Cd, Parent: C/H3/OneDe
+Child: S_rad/Cd, Parent: S_rad/OneDe
+Child: Cd_rad/Cd, Parent: Cd_rad/OneDe
+Child: C/H2/CbCS, Parent: C/H2/TwoDe
+Child: C/H2/CSS, Parent: C/H2/OneDeS
+Child: C/H/CdCsS, Parent: C/H/CsS
+Child: Cd_pri, Parent: Cd_H
+Child: C_rad/H2/Cs\H3, Parent: C_rad/H2/Cs
+Child: C/H/CbCS, Parent: C/H/Cs
+Child: C_rad/CdCtCs, Parent: C_rad/Cs
+Child: C/H3/Cs\H3, Parent: C/H3/Cs
+Child: C/H2/CdCt, Parent: C/H2/TwoDe
+Child: C/H2/CdCs, Parent: C/H2/OneDeC
+Child: C/H2/CdS, Parent: C/H2/OneDeS
+Child: N3d/H/NonDeC, Parent: N3d/H/NonDe
+Child: CS/H/CS, Parent: CS/H/OneDe
+Child: C/H2/CdCd, Parent: C/H2/TwoDe
+Child: C/H2/CdCb, Parent: C/H2/TwoDe
+Child: C_rad/CdCs2, Parent: C_rad/Cs2
+Child: C/H/Cs2CS, Parent: C/H/Cs2
+Child: C_rad/H/CSCs, Parent: C_rad/H/OneDeC
+Child: C/H/Cs2Cd, Parent: C/H/Cs2
+Child: C/H3/CsNonDe, Parent: C/H3/Cs
+Child: C_rad/H/Cs\H\Cs\O/Cs, Parent: C_rad/H/NonDeC
+Child: C/H2/CtCS, Parent: C/H2/TwoDe
+Child: CS/H/Cd, Parent: CS/H/OneDe
+Child: C/H2/CdCO, Parent: C/H2/TwoDe
+Child: C_rad/CbCSCs, Parent: C_rad/Cs
+Child: C_rad/COCSCs, Parent: C_rad/Cs
+Child: C/H/Cs2N, Parent: C/H/NonDeC
+Child: C_rad/H/CdCt, Parent: C_rad/H/TwoDe
+Child: C_rad/H2/Cs\H2\Cs|Cs#O, Parent: C_rad/H2/Cs
+Child: C_rad/H/CdCs, Parent: C_rad/H/OneDeC
+Child: CH2_singlet, Parent: Y_1centerbirad
+Child: C_rad/H/CdCd, Parent: C_rad/H/TwoDe
+Child: C_rad/H/CdCb, Parent: C_rad/H/TwoDe
+Child: C_rad/H/CdS, Parent: C_rad/H/OneDeS
+Child: C/H2/CSCs, Parent: C/H2/OneDeC
+Child: C_rad/H/CdCS, Parent: C_rad/H/TwoDe
+Child: C_rad/H/CdCO, Parent: C_rad/H/TwoDe
+Child: Cd_Cd\H\Cs|H2|Cs_pri_rad, Parent: Cd_Cd\H\Cs_pri_rad
+Child: C_rad/H/OneDeN, Parent: C_rad/H/OneDe
+Child: C_rad/H2/Cs\H\Cs\Cs|O, Parent: C_rad/H2/Cs
+Child: C_rad/H/CbCS, Parent: C_rad/H/TwoDe
+Child: CS_rad/Cd, Parent: CS_rad/OneDe
+Child: C/H/CdCO, Parent: C/H/Cs
+Child: C_rad/H/Cs\H\Cs2/O, Parent: C_rad/H/CsO
+Child: C/H/CSCsS, Parent: C/H/CsS
+Child: S/H/Cd, Parent: S/H/OneDe
+Child: C/H/CdCS, Parent: C/H/Cs
+Child: C_rad/H/Cs\H3/Cs\H3, Parent: C_rad/H/NonDeC
+Child: C/H/CdCd, Parent: C/H/Cs
+Child: C/H2/Cs\Cs2/O, Parent: C/H2/CsO
+Child: S/H/CS, Parent: S/H/OneDe
+Child: C/H/CdCb, Parent: C/H/Cs
+Child: C_rad/H/CO\H/Cs\H3, Parent: C_rad/H/CO/Cs
+Child: Cd_Cd\H\Cs_rad/Cs, Parent: Cd_rad/NonDeC
+Child: C_rad/CdCsS, Parent: C_rad/CsS
+Child: C/H/CdCt, Parent: C/H/Cs
+Child: CS_rad/CS, Parent: CS_rad/OneDe
+Child: C_rad/CSCSCs, Parent: C_rad/Cs
+
+
+2+2_cycloaddition_CCO
+
+These groups are not unique
+mb_CCO_HNd matches mb_COC_HNd, and CCO_HNd
+mb_COC_HNd matches CCO_HNd
+CCO_HDe matches mb_CCO_HDe, and mb_COC_HDe
+mb_CCO_NdDe matches mb_COC_NdDe, and CCO_NdDe
+mb_CCO_Nd2 matches mb_COC_Nd2
+mb_CCO matches mb_COC
+mb_COC_De2 matches mb_CCO_De2
+CCO_2H matches mb_CCO_2H
+mb_COC_NdDe matches CCO_NdDe
+CCO matches mb_CCO, and mb_COC
+mb_COC_2H matches mb_CCO_2H, and CCO_2H
+CCO_De2 matches mb_CCO_De2, and mb_COC_De2
+CCO_Nd2 matches mb_COC_Nd2, and mb_CCO_Nd2
+mb_COC_HDe matches mb_CCO_HDe
+
+
+Korcek_step2
+
+These groups are probably products, but you should check them anyway
+C1(R)(O)(C2)
+C3(OH)(O)(R')
+
+
+1,2_Insertion
+
+These groups do not match the definition in the rule
+C_pri/NonDeC in CO_birad;C_pri/NonDeC
+C_pri/Cd in carbene;C_pri/Cd
+Cd/H/OneDe in carbene;Cd/H/OneDe
+Cd_pri in carbene;Cd_pri
+ethene in carbene;ethene
+C/H/Cs3 in CO_birad;C/H/Cs3
+C/H2/NonDeC in CO_birad;C/H2/NonDeC
+Cd/H/NonDeC in carbene;Cd/H/NonDeC
+C_pri/Ct in carbene;C_pri/Ct
+C_methane in CO_birad;C_methane
+
+These groups are not unique
+C_pri/Cd matches Cs_Cd
+C_pri/NonDeC matches Cs_Cs
+
+
+R_Addition_MultipleBond
+
+These groups exist in rules.py but not groups.py:
+A suggested match could be incorrect, but if 'No match' is written, it is true (and most unfortunate)
+O_rad/OneDe, Suggested match from groups.py: No match
+O_rad/NonDe, Suggested match from groups.py: No match
+
+These groups do not match the definition in the rule
+O_atom_triplet in N3t_Ct-H;O_atom_triplet
+CH_quartet in N3t_N3t;CH_quartet
+
+These groups are not in the tree:
+O_atom_singlet
+N3_atom_quartet
+NH_singlet
+CH2_singlet
+
+These groups are not unique
+Ck_Cds-HH matches Cds-HH_Ck
+Sd_Cds-CdC=S matches Cds-CdC=S_Sd
+Ct-Cs_Ct-CO matches Ct-CO_Ct-Cs
+Cds-CtH_Sd matches Sd_Cds-CtH
+Cds-CtCs_Cds-CbCs matches Cds-CbCs_Cds-CtCs
+Cds-HH_Cds-CdCd matches Cds-CdCd_Cds-HH
+Cds-CtH_Cds-CbCs matches Cds-CbCs_Cds-CtH
+Cds-OneDeH_Ck matches Ck_Cds-OneDeH
+Cds-CsH_Cds-HH matches Cds-HH_Cds-CsH
+Cds-CdCt_Cds-CbCs matches Cds-CbCs_Cds-CdCt
+Cds-CdCO_Ca matches Ca_Cds-CdCO
+Cds-CtH_Cds-HH matches Cds-HH_Cds-CtH
+Cds-OneDeH_Sd matches Sd_Cds-OneDeH
+Ct-Cs_Ct-Cb matches Ct-Cb_Ct-Cs
+Cds-CdH_Cds-CbH matches Cds-CbH_Cds-CdH
+Cds-CbH_Ca matches Ca_Cds-CbH
+Cds-CsCs_Cds-CtCt matches Cds-CtCt_Cds-CsCs
+Ck_Cds-CsH matches Cds-CsH_Ck
+Cds-OsH_Cds-CsH matches Cds-CsH_Cds-OsH
+Cds-CsCs_Cds-CtCs matches Cds-CtCs_Cds-CsCs
+Ca_Cds-CtC=S matches Cds-CtC=S_Ca
+Cds-CtCt_Cds-CtCs matches Cds-CtCs_Cds-CtCt
+Sd_Cds-TwoDe matches Cds-TwoDe_Sd
+Cds-CdCs_Ca matches Ca_Cds-CdCs
+Cds-CbCO_Sd matches Sd_Cds-CbCO
+Sd_Cds-CtCO matches Cds-CtCO_Sd
+Cds-CtCs_Cds-CbH matches Cds-CbH_Cds-CtCs
+Ca_Cds-CtCO matches Cds-CtCO_Ca
+Cds-HH_Cds-CbCs matches Cds-CbCs_Cds-HH
+Cds-CbC=S_Sd matches Sd_Cds-CbC=S
+Cds-CtCs_Cds-CsH matches Cds-CsH_Cds-CtCs
+Sd_Cds-CsH matches Cds-CsH_Sd
+Cds-CtCt_Ca matches Ca_Cds-CtCt
+Sd_Cds-HH matches Cds-HH_Sd
+Ck_Ca matches Ca_Ck
+Ca_Cds-COH matches Cds-COH_Ca
+Cds-OneDeH_Ca matches Ca_Cds-OneDeH
+Cds-CtCt_Sd matches Sd_Cds-CtCt
+Ca_Cds-CtCb matches Cds-CtCb_Ca
+Cds-CbC=S_Ca matches Ca_Cds-CbC=S
+Ca_Cds-CdCt matches Cds-CdCt_Ca
+Sd_Cds-CdH matches Cds-CdH_Sd
+Ca_Cds-HH matches Cds-HH_Ca
+Cds-CsH_Cds-CbCs matches Cds-CbCs_Cds-CsH
+Sd_Cds-CtCb matches Cds-CtCb_Sd
+Cds-CsH_Ca matches Ca_Cds-CsH
+Ca_Cds-CtCs matches Cds-CtCs_Ca
+Ca_Cds-CdCb matches Cds-CdCb_Ca
+Cds-CdH_Cds-HH matches Cds-HH_Cds-CdH
+Cds-HH_Cds-CdCs matches Cds-CdCs_Cds-HH
+Cds-CtH_Cds-CbH matches Cds-CbH_Cds-CtH
+Cds-CtC=S_Sd matches Sd_Cds-CtC=S
+Sd_Cds-CtCs matches Cds-CtCs_Sd
+Cds-CdH_Cds-CsCs matches Cds-CsCs_Cds-CdH
+Ca_Cds-OneDeCs matches Cds-OneDeCs_Ca
+Cds-CsCs_Cds-CdCt matches Cds-CdCt_Cds-CsCs
+Cds-CsCs_Cds-CdCs matches Cds-CdCs_Cds-CsCs
+Cds-CdCt_Cds-CtCt matches Cds-CtCt_Cds-CdCt
+Sd_Cds-CdCt matches Cds-CdCt_Sd
+Sd_Cds-CdCs matches Cds-CdCs_Sd
+Cds-CsCs_Cds-CdCd matches Cds-CdCd_Cds-CsCs
+Cds-CbCb_Sd matches Sd_Cds-CbCb
+Ct-H_Ct-Cb matches Ct-Cb_Ct-H
+Ca_Cds-COCO matches Cds-COCO_Ca
+Sd_Cds-CdCd matches Cds-CdCd_Sd
+Sd_Cds-CdCb matches Cds-CdCb_Sd
+Cds-CsH_Cds-CbH matches Cds-CbH_Cds-CsH
+Sd_Cds-C=SCs matches Cds-C=SCs_Sd
+Cds-HH_Cds-CsCs matches Cds-CsCs_Cds-HH
+Sd_Cds-CbCs matches Cds-CbCs_Sd
+Sd_Cds-CdCO matches Cds-CdCO_Sd
+Cds-CtCs_Cds-CdH matches Cds-CdH_Cds-CtCs
+Cds-CdCs_Cds-CbH matches Cds-CbH_Cds-CdCs
+Cds-CtH_Ca matches Ca_Cds-CtH
+Cds-TwoDe_Ck matches Ck_Cds-TwoDe
+Cds-COH_Sd matches Sd_Cds-COH
+Cds-CdCt_Cds-CtH matches Cds-CtH_Cds-CdCt
+Cds-C=SCs_Ca matches Ca_Cds-C=SCs
+Cds-CbH_Cds-HH matches Cds-HH_Cds-CbH
+Cds-TwoDe_Ca matches Ca_Cds-TwoDe
+N3t_Ct-NonDe matches Ct-NonDe_N3t
+Cds-CdCt_Cds-HH matches Cds-HH_Cds-CdCt
+Cds-CtCs_Cds-CtH matches Cds-CtH_Cds-CtCs
+Cds-HH_Cds-CtCs matches Cds-CtCs_Cds-HH
+Cds-OsCs_Sd matches Sd_Cds-OsCs
+Ck_Cds-CsCs matches Cds-CsCs_Ck
+Cds-CdC=S_Ca matches Ca_Cds-CdC=S
+Sd_Cdd-Sd matches Cdd-Sd_Sd
+Cds-CbCs_Cds-CdH matches Cds-CdH_Cds-CbCs
+Ct-OneDe_N3t matches N3t_Ct-OneDe
+Ca_Cds-COC=S matches Cds-COC=S_Ca
+Ct-H_Ct-CO matches Ct-CO_Ct-H
+Sd_Cds-COC=S matches Cds-COC=S_Sd
+Cds-CdCs_Cds-CdH matches Cds-CdH_Cds-CdCs
+Sd_Cds-C=SH matches Cds-C=SH_Sd
+Cds-CdCd_Cds-CdCt matches Cds-CdCt_Cds-CdCd
+Ct-Ct_Ct-Cd matches Ct-Cd_Ct-Ct
+Cds-CsH_Cds-CdH matches Cds-CdH_Cds-CsH
+Cds-CdCd_Cds-CbCs matches Cds-CbCs_Cds-CdCd
+Cds-CtCt_Cds-CdH matches Cds-CdH_Cds-CtCt
+Ct-Ct_Ct-Cs matches Ct-Cs_Ct-Cd
+Cds-CdH_Cds-CdCt matches Cds-CdCt_Cds-CdH
+Cds-CtCt_Cds-CtH matches Cds-CtH_Cds-CtCt
+Ca_Cds-CsCs matches Cds-CsCs_Ca
+Ct-H_Ct-Cd matches Ct-Cd_Ct-H
+Cds-CdCd_Cds-CdCs matches Cds-CdCs_Cds-CdCd
+Cds-CbH_Cds-CtCt matches Cds-CtCt_Cds-CbH
+Cds-CdCs_Cds-CdCt matches Cds-CdCt_Cds-CdCs
+Cds-OsH_Sd matches Sd_Cds-OsH
+Cds-OneDeCs_Sd matches Sd_Cds-OneDeCs
+Cds-CsCs_Cds-CbH matches Cds-CbH_Cds-CsCs
+Cds-CdCs_Cds-CtCs matches Cds-CtCs_Cds-CdCs
+Ca_Cds-CdH matches Cds-CdH_Ca
+Cds-CbH_Cds-CdCt matches Cds-CdCt_Cds-CbH
+Ct-H_Ct-Cs matches Ct-Cs_Ct-H
+Cds-CbCs_Cds-CdCs matches Cds-CdCs_Cds-CbCs
+N3d_Od matches Od_N3d
+Cds-HH_Cds-CtCt matches Cds-CtCt_Cds-HH
+Cds-CbH_Cds-CdCd matches Cds-CdCd_Cds-CbH
+Cds-CsH_Cds-CtCt matches Cds-CtCt_Cds-CsH
+N3t_Ct matches Ct_N3t
+Cds-C=SC=S_Ca matches Ca_Cds-C=SC=S
+Ct-De_Ct-H matches Ct-H_Ct-De
+Cds-C=SC=S_Sd matches Sd_Cds-C=SC=S
+Cds-CdCt_Cds-CtCs matches Cds-CtCs_Cds-CdCt
+Cds-HH_Cds-Cs\Os/H matches Cds-Cs\Os/H_Cds-HH
+Ct-C=S_Ct-Cs matches Ct-Cs_Ct-C=S
+Ct-Cs_Ct-De matches Ct-De_Ct-Cs
+Cds-CbCs_Cds-CbH matches Cds-CbH_Cds-CbCs
+Ca_Cds-C=SH matches Cds-C=SH_Ca
+Cds-CsH_Cds-CdCs matches Cds-CdCs_Cds-CsH
+Cds-CsH_Cds-CdCt matches Cds-CdCt_Cds-CsH
+Cds-COCs_Ca matches Ca_Cds-COCs
+Cds-CtH_Cds-CsH matches Cds-CsH_Cds-CtH
+Cds-CtCs_Cds-CdCd matches Cds-CdCd_Cds-CtCs
+Cds-CtCt_Cds-CbCs matches Cds-CbCs_Cds-CtCt
+Cds-CsH_Cds-CdCd matches Cds-CdCd_Cds-CsH
+Cds-CdCd_Cds-CdH matches Cds-CdH_Cds-CdCd
+Sd_Cds-COCs matches Cds-COCs_Sd
+Ca_Cds-CbCO matches Cds-CbCO_Ca
+Ca_Cds-CbCs matches Cds-CbCs_Ca
+Sd_Cds-COCO matches Cds-COCO_Sd
+Cds-CbCs_Cds-CsCs matches Cds-CsCs_Cds-CbCs
+Cds-CdCd_Cds-CtH matches Cds-CtH_Cds-CdCd
+Cds-CsCs_Cds-CtH matches Cds-CtH_Cds-CsCs
+Cds-CtCt_Cds-CdCs matches Cds-CdCs_Cds-CtCt
+Ca_Cds-CbCb matches Cds-CbCb_Ca
+Ct-H_Ct-C=S matches Ct-C=S_Ct-H
+N3t_Ct-H matches Ct-H_N3t
+Cds-CtCt_Cds-CdCd matches Cds-CdCd_Cds-CtCt
+Cds-CsCs_Sd matches Sd_Cds-CsCs
+Cds-CdCs_Cds-CtH matches Cds-CtH_Cds-CdCs
+Cds-CdCd_Ca matches Ca_Cds-CdCd
+Cds-CsCs_Cds-CsH matches Cds-CsH_Cds-CsCs
+Sd_Cds-CbH matches Cds-CbH_Sd
+Ck_Cds-OneDeCs matches Cds-OneDeCs_Ck
+CO/H/Cs matches Od_Cd-CsH
+Cdd_Sd matches Sd_Cdd
+Cds-CtH_Cds-CdH matches Cds-CdH_Cds-CtH
+
+These groups are not actually subgroups of their parent
+Child: CtJ_N3t, Parent: CtJ
+Child: Cds-NonDe2_N3d, Parent: Cds-NonDeH_N3d
+Child: Od_Nd, Parent: Od_R
+Child: CsJ-OneDeNsCs, Parent: CsJ-OneDe
+Child: OJ-Os, Parent: OJ-NonDe
+Child: Cds-HH_Cds-Cs\H3/H, Parent: Cds-HH_Cds-CsH
+Child: CsJ-OneDeNsH, Parent: CsJ-OneDe
+
+
+Oa_R_Recombination
+
+These groups are not unique
+O_rad matches YO.
+
+
+Intra_R_Add_Endocyclic
+
+These groups do not match the definition in the rule
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HCt;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_pri_2H;radadd_intra_csHNd
+R4_S_D in R4_S_D;doublebond_intra_pri_NdCd;radadd_intra_csNdNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdCt;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HCt;radadd_intra_cs2H
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdCt;radadd_intra_csNdCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdCd;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_pri_HCt;radadd_intra_csNdNd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdCd;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdNd;radadd_intra_csHCt
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HCd;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HCt;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HCd;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdCd;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_pri_HCd;radadd_intra_csNdNd
+R4_S_D in R4_S_D;doublebond_intra_secDe_HNd;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdNd;radadd_intra_csHCd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdCd;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_2H;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HCd;radadd_intra_csHCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HCt;radadd_intra_csHCt
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HCd;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_secNd_HNd;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HNd;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HCd;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdNd;radadd_intra_cs2H
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdCt;radadd_intra_cs2H
+R4_S_D in R4_S_D;doublebond_intra_pri_NdCd;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_2H;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_secNd_2H;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdNd;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HCt;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HNd;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HNd;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_2H;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdNd;radadd_intra_csHNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdCd;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HCt;radadd_intra_csHCt
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdCt;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_2H;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdCd;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdCd;radadd_intra_csNdCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_2H;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdCt;radadd_intra_csNdCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HNd;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HCd;radadd_intra_csNdNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdCt;radadd_intra_csNdCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_2H;radadd_intra_csNdCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdCt;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdNd;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HNd;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HNd;radadd_intra_cs2H
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdNd;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HCd;radadd_intra_csHNd
+R4_S_D in R4_S_D;doublebond_intra_secDe_HCd;radadd_intra_csHCt
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HNd;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdCt;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HNd;radadd_intra_cdsingleH
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdCt;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HCt;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdCt;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdCd;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HCt;radadd_intra_csNdNd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HCt;radadd_intra_csNdNd
+R4_S_D in R4_S_D;doublebond_intra_pri_HCt;radadd_intra_cs2H
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HNd;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HCt;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HNd;radadd_intra_csNdCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdCd;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdCt;radadd_intra_csHCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdCd;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HCt;radadd_intra_csHNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdCd;radadd_intra_csHCd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdCd;radadd_intra_csNdNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdCt;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_2H;radadd_intra_csNdNd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HNd;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdCd;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HCd;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HNd;radadd_intra_csNdNd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HNd;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdCd;radadd_intra_csNdNd
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdCd;radadd_intra_csNdNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HCd;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HCt;radadd_intra_csHCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdNd;radadd_intra_csNdNd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdNd;radadd_intra_csHNd
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdNd;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_2H;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HNd;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_pri_NdNd;radadd_intra_cs2H
+R4_S_D in R4_S_D;doublebond_intra_secNd_HNd;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_2H;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_pri_HCt;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdCt;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HCd;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HNd;radadd_intra_csHCd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdCd;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdCd;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HNd;radadd_intra_csHCd
+R3_D in R3_D;doublebond_intra_pri_HDe;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HCd;radadd_intra_csNdCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HNd;radadd_intra_csHCt
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HCt;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdCd;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_secNd_HCd;radadd_intra_csNdNd
+R4_S_D in R4_S_D;doublebond_intra_secNd_HNd;radadd_intra_cdsingleH
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdCt;radadd_intra_csHNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdCd;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdCd;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HCt;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdCt;radadd_intra_csNdNd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HCt;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdCt;radadd_intra_csNdNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdCd;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdCt;radadd_intra_csNdCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HCt;radadd_intra_csNdCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdCd;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdCd;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdCd;radadd_intra_cdsingleH
+R4_S_D in R4_S_D;doublebond_intra_secNd_HCt;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdCt;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HCt;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HCt;radadd_intra_csNdNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdCd;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdNd;radadd_intra_csHNd
+R4_S_D in R4_S_D;doublebond_intra_pri_HCt;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_secNd_2H;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HCd;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_pri_2H;radadd_intra_csHCd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdCd;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdCd;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdCd;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_2H;radadd_intra_csHNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HCd;radadd_intra_csNdCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HCd;radadd_intra_cdsingleH
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdNd;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HCd;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_pri_2H;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdCt;radadd_intra_csNdNd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HCd;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HCt;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HNd;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdCt;radadd_intra_cs2H
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HCd;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_pri_2H;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdCd;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdNd;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HCd;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_pri_2H;radadd_intra_csNdCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdCd;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdNd;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_secDe_2H;radadd_intra_csHCt
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HCt;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdCt;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_secDe_2H;radadd_intra_csHCd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HCt;radadd_intra_csHCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_2H;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdCt;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdNd;radadd_intra_csNdCt
+R5_SD_D in R5_SD_D;doublebond_intra_pri_2H;radadd_intra_cs2H
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdCd;radadd_intra_csHCd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdNd;radadd_intra_csHCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdNd;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_pri_NdNd;radadd_intra_csHCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HCd;radadd_intra_csHNd
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdCd;radadd_intra_csHCt
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdNd;radadd_intra_csHCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdNd;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_pri_NdNd;radadd_intra_csHCt
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HCd;radadd_intra_csNdNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HNd;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdCt;radadd_intra_csNdCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdCt;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdCd;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdCt;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdNd;radadd_intra_cdsingleH
+multiplebond_intra in Rn;multiplebond_intra;radadd_intra
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdCt;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdNd;radadd_intra_csNdNd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdCd;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdCd;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdCd;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_secDe_HNd;radadd_intra_cs2H
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_2H;radadd_intra_csNdNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_2H;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_pri_2H;radadd_intra_csNdNd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdCd;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HCt;radadd_intra_cs2H
+R4_S_D in R4_S_D;doublebond_intra_secDe_HCt;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HNd;radadd_intra_csNdCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdCd;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdCd;radadd_intra_cs2H
+R4_S_D in R4_S_D;doublebond_intra_secDe_HCt;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HNd;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HCt;radadd_intra_cs2H
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdNd;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HCd;radadd_intra_cdsingleH
+R4_S_D in R4_S_D;doublebond_intra_pri_NdCt;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_secDe_2H;radadd_intra_csNdCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HCd;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_pri_2H;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HNd;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdNd;radadd_intra_cs2H
+R4_S_D in R4_S_D;doublebond_intra_pri_NdCt;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_secDe_2H;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_secNd_HCd;radadd_intra_csHCd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_2H;radadd_intra_cs2H
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HCt;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdNd;radadd_intra_csHNd
+R4_S_D in R4_S_D;doublebond_intra_secNd_HCd;radadd_intra_csHCt
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HNd;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HCt;radadd_intra_csNdCt
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdCd;radadd_intra_cdsingleH
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_2H;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HCt;radadd_intra_csHCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_2H;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdCd;radadd_intra_csHNd
+R4_S_D in R4_S_D;doublebond_intra_secNd_HNd;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HCt;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdNd;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_secDe_2H;radadd_intra_cdsingleH
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_2H;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_secDe_2H;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HCt;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_secNd_HNd;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_pri_NdCd;radadd_intra_csNdCt
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdNd;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_secDe_HCd;radadd_intra_csNdNd
+R4_S_D in R4_S_D;doublebond_intra_pri_HCt;radadd_intra_csHCt
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdNd;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdCt;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdCt;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_pri_HCt;radadd_intra_csHCd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdNd;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdCt;radadd_intra_cdsingleH
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdCd;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdCd;radadd_intra_csHCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HCt;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_secDe_HCt;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HNd;radadd_intra_csHCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdCd;radadd_intra_csHCd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdNd;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdCd;radadd_intra_csHCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdCd;radadd_intra_csHNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HCt;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_secNd_HCt;radadd_intra_csHCd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_2H;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdNd;radadd_intra_csNdNd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HCt;radadd_intra_csNdNd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdCd;radadd_intra_csHCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HCd;radadd_intra_csNdCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdNd;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_2H;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdCd;radadd_intra_csHCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HCd;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdCt;radadd_intra_csNdNd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HCt;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdCt;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdCt;radadd_intra_csNdCt
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HNd;radadd_intra_cdsingleH
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdNd;radadd_intra_csHNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HCt;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdCd;radadd_intra_csHCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdCt;radadd_intra_csNdNd
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdCt;radadd_intra_csHCd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HCt;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdCd;radadd_intra_csHNd
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdCd;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdNd;radadd_intra_csHCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HNd;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HCt;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_pri_HNd;radadd_intra_csNdCt
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HNd;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_2H;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdNd;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdNd;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HCt;radadd_intra_csNdNd
+R4_S_D in R4_S_D;doublebond_intra_secNd_2H;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HCd;radadd_intra_csNdNd
+R4_S_D in R4_S_D;doublebond_intra_secNd_HCd;radadd_intra_cs2H
+R4_S_D in R4_S_D;doublebond_intra_pri_NdNd;radadd_intra_csNdNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HCd;radadd_intra_cdsingleH
+R4_S_D in R4_S_D;doublebond_intra_secNd_2H;radadd_intra_csNdCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HCt;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_pri_2H;radadd_intra_cs2H
+R4_S_D in R4_S_D;doublebond_intra_secDe_HNd;radadd_intra_csNdNd
+R4_S_D in R4_S_D;doublebond_intra_secNd_HNd;radadd_intra_csNdNd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HCt;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HNd;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdCd;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_pri_NdNd;radadd_intra_csNdCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HCt;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HCt;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HNd;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdCt;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HCt;radadd_intra_csHCd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HCt;radadd_intra_csNdCt
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HNd;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_pri_NdNd;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdCt;radadd_intra_csHCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdNd;radadd_intra_cs2H
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdCt;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdCt;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HCt;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HCd;radadd_intra_cs2H
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdCt;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_pri_HCd;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdCt;radadd_intra_csHNd
+R4_S_D in R4_S_D;doublebond_intra_pri_HCt;radadd_intra_cdsingleH
+R4_S_D in R4_S_D;doublebond_intra_pri_HCt;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_2H;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_secDe_HNd;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_pri_HNd;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdCd;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_pri_2H;radadd_intra_cdsingleH
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdCt;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_secDe_HCd;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_pri_HNd;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdCd;radadd_intra_csHCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_2H;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HCt;radadd_intra_cdsingleH
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HCd;radadd_intra_csNdNd
+R4_S_D in R4_S_D;doublebond_intra_secDe_HCt;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HNd;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdCt;radadd_intra_csNdNd
+R4_S_D in R4_S_D;doublebond_intra_secDe_HNd;radadd_intra_cdsingleH
+R4_S_D in R4_S_D;doublebond_intra_secNd_HCd;radadd_intra_csNdCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HNd;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdNd;radadd_intra_cdsingleH
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HCt;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_2H;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdNd;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdNd;radadd_intra_cdsingleH
+R4_S_D in R4_S_D;doublebond_intra_pri_HCd;radadd_intra_csHCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdNd;radadd_intra_csHCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdCd;radadd_intra_csNdCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HNd;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_2H;radadd_intra_cs2H
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdNd;radadd_intra_csHNd
+R4_S_D in R4_S_D;doublebond_intra_pri_HCd;radadd_intra_csHCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdNd;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdNd;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdCd;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdNd;radadd_intra_cdsingleH
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HNd;radadd_intra_csNdCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_2H;radadd_intra_cs2H
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_2H;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HCd;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_2H;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HNd;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HNd;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HNd;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HNd;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HCd;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdNd;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HCd;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_secNd_2H;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_pri_HNd;radadd_intra_csNdCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdNd;radadd_intra_csNdCd
+R9_SDSSSD in R9_SDSSSD;doublebond_intra_pri_2H;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HCd;radadd_intra_cs2H
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdCd;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdNd;radadd_intra_csHCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HNd;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdNd;radadd_intra_csHCt
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdCd;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HNd;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HCd;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HCd;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HCd;radadd_intra_csNdCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdCt;radadd_intra_csHCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HCd;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdCt;radadd_intra_csHCt
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HCt;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdCt;radadd_intra_cdsingleH
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdCt;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_secNd_2H;radadd_intra_csNdNd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HNd;radadd_intra_cs2H
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_2H;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdNd;radadd_intra_csNdCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_2H;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdCt;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HNd;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdNd;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_2H;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdCt;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdCd;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HNd;radadd_intra_csHCd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HNd;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdCt;radadd_intra_cs2H
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdNd;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_pri_2H;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_2H;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_2H;radadd_intra_csHNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_2H;radadd_intra_csHCt
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdCt;radadd_intra_csHCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HCd;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_pri_2H;radadd_intra_csNdCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HNd;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_2H;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdNd;radadd_intra_csNdCt
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HNd;radadd_intra_csHCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_2H;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdCt;radadd_intra_csHCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HCd;radadd_intra_csNdNd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdCd;radadd_intra_csHNd
+R4_S_D in R4_S_D;doublebond_intra_pri_HCd;radadd_intra_csHNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdNd;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HNd;radadd_intra_csHCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdCt;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdNd;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdNd;radadd_intra_csHNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HNd;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_2H;radadd_intra_cdsingleH
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HCd;radadd_intra_csHNd
+R4_S_D in R4_S_D;doublebond_intra_pri_NdCt;radadd_intra_csHNd
+R4_S_D in R4_S_D;doublebond_intra_secDe_2H;radadd_intra_csNdNd
+R4_S_D in R4_S_D;doublebond_intra_pri_NdCd;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HNd;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HCt;radadd_intra_csHNd
+R4_S_D in R4_S_D;doublebond_intra_secDe_HCt;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdCt;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HCt;radadd_intra_csHCt
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HNd;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HCd;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HCd;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HCd;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HCd;radadd_intra_csNdCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdNd;radadd_intra_csNdNd
+R4_S_D in R4_S_D;doublebond_intra_secNd_HCt;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HNd;radadd_intra_cdsingleH
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdCt;radadd_intra_csHCt
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HCd;radadd_intra_csHNd
+R4_S_D in R4_S_D;doublebond_intra_secNd_HCt;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HCt;radadd_intra_csNdNd
+R4_S_D in R4_S_D;doublebond_intra_pri_HCd;radadd_intra_cdsingleH
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdCd;radadd_intra_csNdCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HNd;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdCt;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdCd;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdCd;radadd_intra_cdsingleH
+R4_S_D in R4_S_D;doublebond_intra_pri_HCd;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HCt;radadd_intra_csNdCt
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdCt;radadd_intra_csHNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_2H;radadd_intra_csHNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdCd;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HNd;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdCd;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_pri_HCd;radadd_intra_csNdCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HCt;radadd_intra_csNdCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdCt;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdCt;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HCt;radadd_intra_csNdNd
+R4_S_D in R4_S_D;doublebond_intra_secDe_HCd;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdCd;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdCt;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdNd;radadd_intra_csNdNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdCd;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdCt;radadd_intra_csNdCt
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdNd;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HCd;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdNd;radadd_intra_csNdNd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdNd;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HCd;radadd_intra_csHCt
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_2H;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_2H;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_secNd_HCt;radadd_intra_cs2H
+R4_S_D in R4_S_D;doublebond_intra_secDe_2H;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HNd;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HCd;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdCt;radadd_intra_csHCd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HCt;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_2H;radadd_intra_csHCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_2H;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HNd;radadd_intra_cdsingleH
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_NdCt;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_2H;radadd_intra_csNdCt
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HCt;radadd_intra_cdsingleH
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_2H;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdCt;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_pri_NdNd;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HCt;radadd_intra_cdsingleH
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_2H;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_2H;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HCd;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_2H;radadd_intra_cs2H
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HCd;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdNd;radadd_intra_csNdNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HCt;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HNd;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_pri_NdCt;radadd_intra_csNdNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HCt;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HCd;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_secNd_2H;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_pri_HNd;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HCt;radadd_intra_csNdCt
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HCt;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdCt;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdCt;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdCd;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdCd;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdNd;radadd_intra_csNdNd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HCt;radadd_intra_csNdCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdCt;radadd_intra_cs2H
+R4_S_D in R4_S_D;doublebond_intra_secDe_HCd;radadd_intra_csNdCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdCd;radadd_intra_csNdCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HNd;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HCt;radadd_intra_csHCt
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdCd;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HCt;radadd_intra_csHCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HCt;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdNd;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HCd;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdNd;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdNd;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdCd;radadd_intra_cdsingleH
+R4_S_D in R4_S_D;doublebond_intra_secDe_HCt;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_2H;radadd_intra_csHCd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdNd;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_2H;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdNd;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_secDe_HCt;radadd_intra_csNdCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_2H;radadd_intra_csNdNd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_2H;radadd_intra_csHNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_2H;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdCd;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HCd;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HCd;radadd_intra_csNdCt
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdNd;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdCt;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_2H;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdNd;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_pri_NdCt;radadd_intra_cs2H
+R4_S_D in R4_S_D;doublebond_intra_pri_NdNd;radadd_intra_cdsingleH
+R4_S_D in R4_S_D;doublebond_intra_secDe_HCd;radadd_intra_csNdCt
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HCd;radadd_intra_csNdNd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_2H;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_2H;radadd_intra_csNdCt
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HCd;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HCd;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HNd;radadd_intra_cdsingleH
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HCt;radadd_intra_csNdNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdCd;radadd_intra_csHCt
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HCd;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdCd;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HCt;radadd_intra_csHNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_2H;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HCd;radadd_intra_csNdCt
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdCt;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HCd;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HCd;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HNd;radadd_intra_csNdNd
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdNd;radadd_intra_csHCd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_2H;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdCt;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdNd;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_secNd_HCd;radadd_intra_cdsingleH
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdNd;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_pri_HNd;radadd_intra_csNdNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HCd;radadd_intra_cdsingleH
+R4_S_D in R4_S_D;doublebond_intra_secNd_HCt;radadd_intra_cdsingleH
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HNd;radadd_intra_csHNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdCt;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HCd;radadd_intra_csNdNd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdCd;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HCd;radadd_intra_csNdCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdCt;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdCt;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdCd;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdCt;radadd_intra_csHCd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdCt;radadd_intra_cs2H
+R4_S_D in R4_S_D;doublebond_intra_secDe_HCd;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdCd;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdCt;radadd_intra_cs2H
+R4_S_D in R4_S_D;doublebond_intra_secDe_HCd;radadd_intra_csHNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdCt;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HCt;radadd_intra_cs2H
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdCd;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_2H;radadd_intra_csHCd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdCd;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdNd;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_2H;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_2H;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_secDe_HCt;radadd_intra_csNdNd
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdCd;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_2H;radadd_intra_csHCt
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdCd;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdNd;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_2H;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_2H;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_pri_HNd;radadd_intra_cs2H
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_NdCt;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HNd;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_secNd_2H;radadd_intra_csHNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HNd;radadd_intra_cs2H
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdCd;radadd_intra_cdsingleH
+R4_S_D in R4_S_D;doublebond_intra_pri_NdCt;radadd_intra_csNdCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HNd;radadd_intra_csNdNd
+R4_S_D in R4_S_D;doublebond_intra_secNd_HCd;radadd_intra_csNdCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HNd;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_pri_NdCd;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdNd;radadd_intra_csNdCd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_2H;radadd_intra_cdsingleH
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HCt;radadd_intra_cdsingleH
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdNd;radadd_intra_cdsingleH
+R4_S_D in R4_S_D;doublebond_intra_pri_NdCt;radadd_intra_csNdCt
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HNd;radadd_intra_csNdCt
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdNd;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HCd;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdCt;radadd_intra_csHCt
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HCd;radadd_intra_cs2H
+R4_S_D in R4_S_D;doublebond_intra_secDe_HNd;radadd_intra_csNdCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdNd;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HNd;radadd_intra_csNdCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_2H;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_pri_NdCt;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdNd;radadd_intra_csNdNd
+R4_S_D in R4_S_D;doublebond_intra_pri_HNd;radadd_intra_csHNd
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdCt;radadd_intra_cdsingleH
+R4_S_D in R4_S_D;doublebond_intra_secDe_HNd;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdCd;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_secNd_HNd;radadd_intra_csHCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdNd;radadd_intra_csNdCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HNd;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdCd;radadd_intra_csHCd
+R4_S_D in R4_S_D;doublebond_intra_pri_NdCt;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HCd;radadd_intra_cs2H
+R4_S_D in R4_S_D;doublebond_intra_secDe_NdCd;radadd_intra_csNdNd
+R4_S_D in R4_S_D;doublebond_intra_secNd_HNd;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_secNd_NdCt;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HCd;radadd_intra_csHCt
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdCt;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_2H;radadd_intra_cs2H
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdNd;radadd_intra_cdsingleH
+R4_S_D in R4_S_D;doublebond_intra_pri_NdCd;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_pri_NdCd;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HCd;radadd_intra_csHCd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_HCt;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_pri_HNd;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdNd;radadd_intra_csNdCt
+R4_S_D in R4_S_D;doublebond_intra_pri_NdCd;radadd_intra_csHCd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_HCd;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_2H;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_secDe_HNd;radadd_intra_csHCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HCd;radadd_intra_cdsingleH
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HCt;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_2H;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdCt;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_2H;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HNd;radadd_intra_cs2H
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_HNd;radadd_intra_csNdNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_HNd;radadd_intra_cs2H
+R6_SSS_D in R6_SSS_D;doublebond_intra_secDe_2H;radadd_intra_csNdCd
+R4_S_D in R4_S_D;doublebond_intra_secNd_HCt;radadd_intra_csHNd
+R4_S_D in R4_S_D;doublebond_intra_secNd_HCt;radadd_intra_csHCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdCd;radadd_intra_cs2H
+R6_SMS_D in R6_SMS_D;doublebond_intra_pri_HCd;radadd_intra_cdsingleH
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdNd;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HCd;radadd_intra_cs2H
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_NdCt;radadd_intra_cdsingleH
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdCt;radadd_intra_csHNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdNd;radadd_intra_csHNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdCt;radadd_intra_cdsingleH
+R5_SS_D in R5_SS_D;doublebond_intra_secDe_NdNd;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_HCt;radadd_intra_csHNd
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdNd;radadd_intra_csHCd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secNd_HNd;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HCt;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdCd;radadd_intra_csNdCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_secNd_NdNd;radadd_intra_csHCt
+R4_S_D in R4_S_D;doublebond_intra_secNd_HCd;radadd_intra_csHNd
+R5_SS_D in R5_SS_D;doublebond_intra_secNd_NdCt;radadd_intra_csHCt
+R6_SSS_D in R6_SSS_D;doublebond_intra_pri_NdCt;radadd_intra_csNdNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_NdNd;radadd_intra_csHNd
+R6_SMS_D in R6_SMS_D;doublebond_intra_secDe_HCt;radadd_intra_csNdCd
+
+These groups are not actually subgroups of their parent
+Child: carbonyl_intra, Parent: multiplebond_intra
+
+
+1,3_Insertion_CO2
+
+These groups are not unique
+CO2_Od matches CO2_Cdd
+C_pri/NonDeC matches Cs_Cs
+
+These groups are probably products, but you should check them anyway
+R_(CO2)_R'
+R_(CO2)_R'2
+R_(CO2)_R'1
+R_(CO2)_R'4
+R_(CO2)_R'3
+
+
+1+2_Cycloaddition
+
+These groups do not match the definition in the rule
+elec_def in elec_def;multiplebond
+
+
+1,3_Insertion_ROR
+
+These groups do not match the definition in the rule
+doublebond in doublebond;R_OR
+
+These groups are not unique
+Cd/disub_Cd/unsub matches Cd/unsub_Cd/disub
+Cdd_Cd_Nd2 matches cco_Nd2
+Cdd_Cd_NdDe matches cco_NdDe
+Cd/De2_Cd/H/Nd matches Cd/H/Nd_Cd/De2
+Cdd_Cd_HNd matches cco_HNd
+Cd/H/De_Cd/Nd2 matches Cd/Nd2_Cd/H/De
+CH3OH matches H_OCmethyl
+Thiophene2 matches Thiophene3
+Cd/H/Nd_Cd/H/De matches Cd/H/De_Cd/H/Nd
+Cd/H/De_Cd/H2 matches Cd/H2_Cd/H/De
+cco_HDe matches Cdd_Cd_HDe
+Cd/Nd2_Cd/De2 matches Cd/De2_Cd/Nd2
+Cd/De2_Cd/H/De matches Cd/H/De_Cd/De2
+Cd/Nd/De_Cd/H/De matches Cd/H/De_Cd/Nd/De
+Cd/Nd/De_Cd/Nd2 matches Cd/Nd2_Cd/Nd/De
+Cd/H2_Cd/H/Nd matches Cd/H/Nd_Cd/H2
+Cdd_Cd_De2 matches cco_De2
+Cd/De2_Cd/H2 matches Cd/H2_Cd/De2
+cco_2H matches Cdd_Cd_2H
+Cd_pri_OH matches H_OCdpri
+Cd/H2_Cd/Nd/De matches Cd/NdDe_Cd/H2
+Cd/Nd2_Cd/H/Nd matches Cd/H/Nd_Cd/Nd2
+Cd/De2_Cd/Nd/De matches Cd/Nd/De_Cd/De2
+Cd/H/Nd_Cd/Nd/De matches Cd/Nd/De_Cd/H/Nd
+Cd/monosub_Cd/unsub matches Cd/unsub_Cd/monosub
+Cd_Cdd matches Cdd_Cd
+Cd/H/S_Cd/H/Cd matches Cd/H/Cd_Cd/H/S
+Cd/H2_Cd/Nd2 matches Cd/Nd2_Cd/H2
+Cd/disub_Cd/monosub matches Cd/monosub_Cd/disub
+
+These groups are not actually subgroups of their parent
+Child: Cd/Nd2_Cd/Nd/De, Parent: Cd/disub_Cd/disub
+Child: Cd/Nd2_Cd/H/De, Parent: Cd/disub_Cd/monosub
+Child: Cd/De2_Cd/H/Nd, Parent: Cd/disub_Cd/monosub
+Child: Cd/H/Nd_Cd/H/Nd, Parent: Cd/monosub_Cd/monosub
+Child: Cd/H/De_Cd/Nd2, Parent: Cd/monosub_Cd/disub
+Child: Cd/Nd/De_Cd/Nd/De, Parent: Cd/disub_Cd/disub
+Child: Cd/Nd/De_Cd/H/Nd, Parent: Cd/disub_Cd/monosub
+Child: Cd/H/De_Cd/H/De, Parent: Cd/monosub_Cd/monosub
+Child: Cd/H/Nd_Cd/De2, Parent: Cd/monosub_Cd/disub
+Child: Cd/H/Nd_Cd/H/De, Parent: Cd/monosub_Cd/monosub
+Child: Cd/H/De_Cd/H2, Parent: Cd/monosub_Cd/unsub
+Child: Cd/NdDe_Cd/H2, Parent: Cd/disub_Cd/unsub
+Child: Cd/Nd2_Cd/De2, Parent: Cd/disub_Cd/disub
+Child: Cd/De2_Cd/H/De, Parent: Cd/disub_Cd/monosub
+Child: Cd/H/Nd_Cd/Nd2, Parent: Cd/monosub_Cd/disub
+Child: Cd/Nd/De_Cd/H/De, Parent: Cd/disub_Cd/monosub
+Child: Cd/Nd/De_Cd/Nd2, Parent: Cd/disub_Cd/disub
+Child: Cd/H2_Cd/H/Nd, Parent: Cd/unsub_Cd/monosub
+Child: Cd/H2_Cd/H/De, Parent: Cd/unsub_Cd/monosub
+Child: Cd/De2_Cd/Nd2, Parent: Cd/disub_Cd/disub
+Child: Cd/De2_Cd/H2, Parent: Cd/disub_Cd/unsub
+Child: Cd/H2_Cd/De2, Parent: Cd/unsub_Cd/disub
+Child: Cd/H/De_Cd/Nd/De, Parent: Cd/monosub_Cd/disub
+Child: Cd/H2_Cd/Nd/De, Parent: Cd/unsub_Cd/disub
+Child: Cd/Nd/De_Cd/De2, Parent: Cd/disub_Cd/disub
+Child: Cd/H/De_Cd/De2, Parent: Cd/monosub_Cd/disub
+Child: Cd/H/Nd_Cd/H2, Parent: Cd/monosub_Cd/unsub
+Child: Cd/Nd2_Cd/H/Nd, Parent: Cd/disub_Cd/monosub
+Child: Cd/De2_Cd/Nd/De, Parent: Cd/disub_Cd/disub
+Child: Cd/H/Nd_Cd/Nd/De, Parent: Cd/monosub_Cd/disub
+Child: Cd/De2_Cd/De2, Parent: Cd/disub_Cd/disub
+Child: Cd/H/De_Cd/H/Nd, Parent: Cd/monosub_Cd/monosub
+Child: Cd/H2_Cd/Nd2, Parent: Cd/unsub_Cd/disub
+Child: Cd/Nd2_Cd/Nd2, Parent: Cd/disub_Cd/disub
+Child: Cd/Nd2_Cd/H2, Parent: Cd/disub_Cd/unsub
+
+
+SubstitutionS
+
+These groups are not unique
+S-Cs(CsHH)Ct matches S-CtCs(CsHH)
+S-Cs(NonDe)Cs(De) matches S-Cs(De)Cs(NonDe)
+S-Cs(CsCsH)Cs(CsCsCs) matches S-Cs(CsCsCs)Cs(CsCsH)
+S-Cs(CtCsH)H matches S-HCs(CtCsH)
+S-Ss(Ss)Ss(Cs) matches S-Ss(Cs)Ss(Ss)
+S-HSs(Ss) matches S-Ss(Ss)H
+S-HC matches S-CH
+S-Ss(Cs)Cs(CsHH) matches S-Cs(CsHH)Ss(Cs)
+S-Ss(Cs)H matches S-HSs(Cs)
+S-Cs(CsCsCs)Cds(H) matches S-Cds(H)Cs(CsCsCs)
+S-Cs(CsCsH)Ss(Ss) matches S-Ss(Ss)Cs(CsCsH)
+S-Ss(H)Cds(Cs) matches S-Cds(Cs)Ss(H)
+S-HC=S matches S-C=SH
+S-Cs(CtHH)Cs(HHH) matches S-Cs(HHH)Cs(CtHH)
+S-Ss(H)H matches S-HSs(H)
+S-CdSs matches S-SsCd
+S-HCs(CdCsH) matches S-Cs(CdCsH)H
+S-Cs(HHH)Cs(CsCsCs) matches S-Cs(CsCsCs)Cs(HHH)
+S-CsC=S matches S-C=SCs
+S-Cds(Cs)Ss(Ss) matches S-Ss(Ss)Cds(Cs)
+S-Ss(H)Ss(Cs) matches S-Ss(Cs)Ss(H)
+S-CdCO matches S-COCd
+S-Ss(H)Cs(CsCsH) matches S-Cs(CsCsH)Ss(H)
+S-HCO matches S-COH
+S-HCs(CsCsH) matches S-Cs(CsCsH)H
+S-Cs(CsHH)Ss(Ss) matches S-Ss(Ss)Cs(CsHH)
+S-Ss(Cs)Cds(H) matches S-Cds(H)Ss(Cs)
+S-Cs(CsCsCs)Ss(Ss) matches S-Ss(Ss)Cs(CsCsCs)
+S-HCs matches S-CsH
+S-HCt matches S-CtH
+S-Cs(CsHH)Cb matches S-CbCs(CsHH)
+S-Cs(OneDe)Cs(NonDe) matches S-Cs(NonDe)Cs(OneDe)
+S-HCb matches S-CbH
+S-HCd matches S-CdH
+S-CdCt matches S-CtCd
+S-CtCs(HHH) matches S-Cs(HHH)Ct
+S-COCs matches S-CsCO
+S-COCt matches S-CtCO
+S-Ss(Ss)Cds(H) matches S-Cds(H)Ss(Ss)
+S-Cds(Cs)Cs(CsHH) matches S-Cs(CsHH)Cds(Cs)
+S-COCb matches S-CbCO
+S-CbC=S matches S-C=SCb
+S-Cs(ThreeDe)Cs(NonDe) matches S-Cs(NonDe)Cs(ThreeDe)
+S-CtSs matches S-SsCt
+S-CdCb matches S-CbCd
+S-Cs(CsCsH)Ct matches S-CtCs(CsCsH)
+S-CbCs(CsCsCs) matches S-Cs(CsCsCs)Cb
+S-CtCs(CsCsCs) matches S-Cs(CsCsCs)Ct
+S-Cs(CsCsH)Cds(Cs) matches S-Cds(Cs)Cs(CsCsH)
+S-Ss(Ss)Cs(HHH) matches S-Cs(HHH)Ss(Ss)
+S-Cs(CsCsH)Cb matches S-CbCs(CsCsH)
+S-Cds(H)Cs(CsCsH) matches S-Cs(CsCsH)Cds(H)
+S-Ss(Cs)Cs(CsCsH) matches S-Cs(CsCsH)Ss(Cs)
+S-HCs(TwoDe) matches S-Cs(TwoDe)H
+S-Cs(HHH)Cs(CdCsH) matches S-Cs(CdCsH)Cs(HHH)
+S-CdCs matches S-CsCd
+S-Cs(CsHH)Cds(H) matches S-Cds(H)Cs(CsHH)
+S-Cs(HHH)Cs(CtCsH) matches S-Cs(CtCsH)Cs(HHH)
+S-Cs(HHH)Cs(CsCsH) matches S-Cs(CsCsH)Cs(HHH)
+S-Cs(HHH)Cds(Cs) matches S-Cds(Cs)Cs(HHH)
+S-Cs(CsHH)Ss(H) matches S-Ss(H)Cs(CsHH)
+S-Ss(Cs)Cds(Cs) matches S-Cds(Cs)Ss(Cs)
+S-C=SCd matches S-CdC=S
+S-SsCb matches S-CbSs
+S-Cs(HHH)Cs(CdHH) matches S-Cs(CdHH)Cs(HHH)
+S-C=SCt matches S-CtC=S
+S-SsCs matches S-CsSs
+S-SsCO matches S-COSs
+S-C=SCO matches S-COC=S
+S-Cs(HHH)H matches S-HCs(HHH)
+S-HCds(Cs) matches S-Cds(Cs)H
+S-HCs(CdCsCs) matches S-Cs(CdCsCs)H
+S-Cs(ThreeDe)H matches S-HCs(ThreeDe)
+S-HCs(CdHH) matches S-Cs(CdHH)H
+S-SC matches S-CS
+S-Ss(Cs)Cs(HHH) matches S-Cs(HHH)Ss(Cs)
+S-Cds(Cs)Cs(CsCsCs) matches S-Cs(CsCsCs)Cds(Cs)
+S-Cs(HHH)Cds(H) matches S-Cds(H)Cs(HHH)
+S-Cs(HHH)Cs(CsHH) matches S-Cs(CsHH)Cs(HHH)
+S-Cs(CsCsH)Cs(CsHH) matches S-Cs(CsHH)Cs(CsCsH)
+S-CtCb matches S-CbCt
+SJ matches SsJ
+S-Ss(Cs)Cs(CsCsCs) matches S-Cs(CsCsCs)Ss(Cs)
+S-Cds(H)Ss(H) matches S-Ss(H)Cds(H)
+S-Cs(CsCsCs)Cs(CsHH) matches S-Cs(CsHH)Cs(CsCsCs)
+S-Cs(TwoDe)Cs(NonDe) matches S-Cs(NonDe)Cs(TwoDe)
+S-Cs(HHH)Cb matches S-CbCs(HHH)
+S-HSs matches S-SsH
+S-Cs(OneDe)H matches S-HCs(OneDe)
+S-Cs(HHH)Ss(H) matches S-Ss(H)Cs(HHH)
+S-CsCt matches S-CtCs
+S-Cs(HHH)Cs(CtCsCs) matches S-Cs(CtCsCs)Cs(HHH)
+S-Cs(CsHH)H matches S-HCs(CsHH)
+S-SsC=S matches S-C=SSs
+S-Ss(H)Cs(CsCsCs) matches S-Cs(CsCsCs)Ss(H)
+S-HCds(H) matches S-Cds(H)H
+S-CsCb matches S-CbCs
+S-HCs(CtCsCs) matches S-Cs(CtCsCs)H
+S-HCs(CtHH) matches S-Cs(CtHH)H
+S-Cs(CsCsCs)H matches S-HCs(CsCsCs)
+S-Cs(HHH)Cs(CdCsCs) matches S-Cs(CdCsCs)Cs(HHH)
+S-Ss(H)Ss(Ss) matches S-Ss(Ss)Ss(H)
+
+These groups are not actually subgroups of their parent
+Child: C2b, Parent: Y_2centeradjbirad
+Child: CH2_triplet, Parent: Y_1centerbirad
+Child: O2b, Parent: Y_2centeradjbirad
+
+
+intra_substitutionS_cyclization
+
+These groups are not unique
+CsJ-SsCsCs matches CsJ-3-SsCsCs, and CsJ-3-CsCsSs
+CdsJ_C-Ss2 matches CdsJ-Ss, and CdsJ-3-Ss
+CsJ-CdCsSs matches CsJ-3-SsCdCs, CsJ-SsCdCs, CsJ-CsCdSs, CsJ-3-CsCdSs, and CsJ-3-CdCsSs
+CsJ-SsHH matches CsJ-3-SsHH
+CsJ-3-CsCdCs matches CsJ-CsCdCs, CsJ-CdCsCs, and CsJ-3-CdCsCs
+CsJ-Ss matches CsJ-3-Ss
+CsJ-SsCsSs matches CsJ-3-SsCsSs
+CsJ-3-CsSsSs matches CsJ-SsCsSs, and CsJ-3-SsCsSs
+CdsJ_C-2 matches CdsJ, CdsJ-3, and CdsJ_C-3-2
+CsJ-3-CdTwoDe matches CsJ-CdTwoDe
+CsJ-3-CdCdSs matches CsJ-CdCdSs
+CsJ-SsCdSs matches CsJ-3-SsCdSs, CsJ-CdSsSs, and CsJ-3-CdSsSs
+CsJ-CdOneDeH matches CsJ-3-CdOneDeH
+CdsJ_C-Cs2 matches CdsJ_C-3-Cs2, CdsJ-Cs, and CdsJ-3-Cs
+CdsJ matches CdsJ_C-3-2
+CdsJ_C-3-Ss2 matches CdsJ_C-Ss2, CdsJ-Ss, and CdsJ-3-Ss
+CsJ-3-SsCdCs matches CsJ-SsCdCs, CsJ-CsCdSs, CsJ-3-CsCdSs, and CsJ-3-CdCsSs
+CsJ-CsCsSs matches CsJ-SsCsCs, CsJ-3-SsCsCs, and CsJ-3-CsCsSs
+SsJ matches SJ-3, SsJ-3, and SJ
+CsJ-3-CsOneDeCs matches CsJ-CsOneDeCs
+CsJ-3-CsOneDeSs matches CsJ-3-SsOneDeCs
+CsJ-CdSsSs matches CsJ-3-CdSsSs
+CdsJ-Cs matches CdsJ_C-3-Cs2, and CdsJ-3-Cs
+CsJ-CsSsSs matches CsJ-3-CsSsSs, CsJ-SsCsSs, and CsJ-3-SsCsSs
+SsJ-3-Cd matches SsJ-Cd
+CsJ-3-SsOneDe matches CsJ-SsOneDe
+CsJ-Cd matches CsJ-3-Cd
+CdsJ_C-Cd2 matches CdsJ_C-3-Cd2
+CsJ-CsSsH matches CsJ-3-CsSsH
+CsJ matches CsJ-3
+CdsJ-3-Cs matches CdsJ_C-3-Cs2
+SJ-3 matches SsJ-3, and SJ
+CsJ-CdHH matches CsJ-3-CdHH
+SsJ-3-OneDe matches SsJ-OneDe
+CsJ-3-CdOneDeCs matches CsJ-CdOneDeCs
+CsJ-CsHH matches CsJ-3-CsHH
+CsJ-Cs matches CsJ-3-Cs
+CsJ-CsCsH matches CsJ-3-CsCsH
+CdsJ-Cd matches CdsJ-3-Cd, CdsJ_C-Cd2, and CdsJ_C-3-Cd2
+CdsJ-3 matches CdsJ, and CdsJ_C-3-2
+CdsJ-2 matches CdsJ-3-2
+CsJ-3-CdCdCs matches CsJ-CdCdCs
+CsJ-SsCdCs matches CsJ-CsCdSs, CsJ-3-CsCdSs, and CsJ-3-CdCsSs
+CdsJ-3-Cd matches CdsJ_C-Cd2, and CdsJ_C-3-Cd2
+CsJ-3-SsOneDeH matches CsJ-SsOneDeH
+CdsJ-H matches CdsJ-3-H
+CsJ-3-SsCdSs matches CsJ-CdSsSs, and CsJ-3-CdSsSs
+CsJ-CdOneDeSs matches CsJ-3-CdOneDeSs
+CsJ-SsCsH matches CsJ-CsSsH, and CsJ-3-CsSsH
+CsJ-SsOneDeSs matches CsJ-3-SsOneDeSs
+CsJ-3-SsSsH matches CsJ-SsSsH
+S-SC matches S-CSs
+SsJ-3-Cs matches SsJ-Cs
+CsJ-CsOneDeSs matches CsJ-SsOneDeCs, CsJ-3-CsOneDeSs, and CsJ-3-SsOneDeCs
+CsJ-3-SsCsH matches CsJ-SsCsH, CsJ-CsSsH, and CsJ-3-CsSsH
+CsJ-3-CsOneDeH matches CsJ-CsOneDeH
+CsJ-3-CsCdSs matches CsJ-3-CdCsSs
+CsJ-CsCdCs matches CsJ-CdCsCs, and CsJ-3-CdCsCs
+SsJ-3 matches SJ
+CsJ-3-SsCdH matches CsJ-3-CdSsH, CsJ-CdSsH, and CsJ-SsCdH
+CdsJ_S-2 matches CdsJ_S-3-2
+CsJ-3-CdCsH matches CsJ-CdCsH
+CsJ-3-CdOneDe matches CsJ-CdOneDe
+CsJ-3-CsCsCs matches CsJ-CsCsCs
+CsJ-CsTwoDe matches CsJ-3-CsTwoDe
+CsJ-3-CsOneDe matches CsJ-CsOneDe
+CsJ-3-CsCdH matches CsJ-CdCsH, CsJ-CsCdH, and CsJ-3-CdCsH
+CsJ-CdSsH matches CsJ-SsCdH
+CsJ-3-CdSsH matches CsJ-CdSsH, and CsJ-SsCdH
+CsJ-CdCsCs matches CsJ-3-CdCsCs
+CdsJ-Ss matches CdsJ-3-Ss
+CsJ-SsOneDeCs matches CsJ-3-CsOneDeSs, and CsJ-3-SsOneDeCs
+CsJ-CsCdSs matches CsJ-3-CsCdSs, and CsJ-3-CdCsSs
+CsJ-3-SsCsCs matches CsJ-3-CsCsSs
+CsJ-3-SsSsSs matches CsJ-SsSsSs
+CsJ-CsCdH matches CsJ-CdCsH, and CsJ-3-CdCsH
+CsJ-3-CdCdH matches CsJ-CdCdH
+SsJ-Ss matches SsJ-3-Ss
+
+
+1,4_Linear_birad_scission
+
+These groups are not unique
+ene2 matches ene1
+
+
+2+2_cycloaddition_CO
+
+These groups are not unique
+mb_CCO_HNd matches mb_COC_HNd
+mb_CCO_NdDe matches mb_COC_NdDe
+mb_CO_2H matches mb_OC_2H, and CO_2H
+CO_HNd matches mb_CO_HNd, and mb_OC_HNd
+CO matches mb_CO
+mb_COC_Nd2 matches mb_CCO_Nd2
+mb_CO_HDe matches mb_OC_HDe, and CO_HDe
+mb_CO_NdDe matches mb_OC_NdDe, and CO_NdDe
+CO_NdDe matches mb_OC_NdDe
+mb_CCO matches mb_COC
+mb_OC_Nd2 matches mb_CO_Nd2, and CO_Nd2
+mb_CO_De2 matches mb_OC_De2, and CO_De2
+CO_2H matches mb_OC_2H
+mb_CCO_2H matches mb_COC_2H
+mb_CO_HNd matches mb_OC_HNd
+mb_CO_Nd2 matches CO_Nd2
+mb_OC_De2 matches CO_De2
+mb_COC_De2 matches mb_CCO_De2
+mb_OC matches mb_CO, and CO
+mb_CCO_HDe matches mb_COC_HDe
+mb_OC_HDe matches CO_HDe
+
+These groups are not actually subgroups of their parent
+Child: CH2CHO, Parent: CO
+
+
+intra_H_migration
+
+These groups do not match the definition in the rule
+Cs_H_out_H/OneDe in R4H_SSS;C_rad_out_2H;Cs_H_out_H/OneDe
+Cs_H_out_H/OneDe in R6H_SSSSS;C_rad_out_2H;Cs_H_out_H/OneDe
+Cs_H_out_H/OneDe in R2H_S;C_rad_out_Cs2;Cs_H_out_H/OneDe
+Cs_H_out_H/OneDe in R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_H/OneDe
+Cs_H_out_H/OneDe in R5H_SSSS;C_rad_out_2H;Cs_H_out_H/OneDe
+Cs_H_out_H/OneDe in R3H_SS;C_rad_out_2H;Cs_H_out_H/OneDe
+Cs_H_out_H/OneDe in R2H_S;C_rad_out_2H;Cs_H_out_H/OneDe
+Cs_H_out_H/OneDe in R3H_SS;C_rad_out_Cs2;Cs_H_out_H/OneDe
+Cs_H_out_H/OneDe in R2H_S;C_rad_out_H/NonDeC;Cs_H_out_H/OneDe
+Cs_H_out_H/OneDe in R6H_SSSSS_bicyclopentane;C_rad_out_H/NonDeC;Cs_H_out_H/OneDe
+Cs_H_out_H/OneDe in R2H_S;Cd_rad_out_double;Cs_H_out_H/OneDe
+Cs_H_out_H/OneDe in R4H_SSS;C_rad_out_H/NonDeC;Cs_H_out_H/OneDe
+R3H_SS_S in R3H_SS_S;C_rad_out_2H;S_H_out
+
+These groups are not actually subgroups of their parent
+Child: Cs_H_out_H/CO, Parent: Cs_H_out_H/OneDe
+Child: Cs_H_out_H/Ct, Parent: Cs_H_out_H/OneDe
+Child: Cs_H_out_H/Cd, Parent: Cs_H_out_H/OneDe
+Child: Cs_H_out_H/CS, Parent: Cs_H_out_H/OneDe
+
+
+Substitution_O
+
+These groups are not unique
+O-Cds(Cs)Cs(CsCsH) matches O-Cs(CsCsH)Cds(Cs)
+O-Cs(CsCsCs)Os(Cs) matches O-Os(Cs)Cs(CsCsCs)
+O-HCs(NonDe) matches O-Cs(NonDe)H
+O-Os(Cs)Cs(CsCsH) matches O-Cs(CsCsH)Os(Cs)
+O-C=OCb matches O-CbC=O
+O-C=OCd matches O-CdC=O
+O-Os(H)Cs(CsHH) matches O-Cs(CsHH)Os(H)
+O-C=OCs matches O-CsC=O
+O-C=OCt matches O-CtC=O
+O-HOs(Os) matches O-Os(Os)H
+O-CsH matches O-HCs
+O-Cs(CtCsCs)H matches O-HCs(CtCsCs)
+O-C=OCO matches O-COC=O
+O-Cs(OneDe)H matches O-HCs(OneDe)
+O-Cds(Cs)H matches O-HCds(Cs)
+O-Cs(CdHH)H matches O-HCs(CdHH)
+O-Cds(H)Cs(CsCsH) matches O-Cs(CsCsH)Cds(H)
+O-Cs(CsCsCs)Cs(CsHH) matches O-Cs(CsHH)Cs(CsCsCs)
+O-Cs(NonDe)Cs(OneDe) matches O-Cs(OneDe)Cs(NonDe)
+O-CbCs(HHH) matches O-Cs(HHH)Cb
+O-CbCs(CsCsCs) matches O-Cs(CsCsCs)Cb
+O-Os(Os)Cds(Cs) matches O-Cds(Cs)Os(Os)
+O-COss matches O-OsCs
+O-HCs(CtHH) matches O-Cs(CtHH)H
+O-Os(Os)Os(Cs) matches O-Os(Cs)Os(Os)
+O-Cs(HHH)Cds(H) matches O-Cds(H)Cs(HHH)
+O-CbCs(CsHH) matches O-Cs(CsHH)Cb
+O-Cs(CdCsCs)Cs(HHH) matches O-Cs(HHH)Cs(CdCsCs)
+O-Cs(CtCsH)H matches O-HCs(CtCsH)
+O-Os(H)Cs(CsCsH) matches O-Cs(CsCsH)Os(H)
+O-Cds(Cs)Os(Cs) matches O-Os(Cs)Cds(Cs)
+O-Cds(H)Cs(CsCsCs) matches O-Cs(CsCsCs)Cds(H)
+O-Cs(CsCsH)H matches O-HCs(CsCsH)
+O-Cds(H)Os(H) matches O-Os(H)Cds(H)
+O-CtCs(CsHH) matches O-Cs(CsHH)Ct
+O-Cs(CsHH)Os(Cs) matches O-Os(Cs)Cs(CsHH)
+O-Cs(CsCsH)Os(Os) matches O-Os(Os)Cs(CsCsH)
+O-HOs(Cs) matches O-Os(Cs)H
+O-Cds(Cs)Cs(HHH) matches O-Cs(HHH)Cds(Cs)
+O-CbCO matches O-COCb
+O-Cs(CsHH)Os(Os) matches O-Os(Os)Cs(CsHH)
+O-Cs(ThreeDe)Cs(NonDe) matches O-Cs(NonDe)Cs(ThreeDe)
+O-HC matches O-CH
+O-CbCd matches O-CdCb
+O-Cs(TwoDe)H matches O-HCs(TwoDe)
+O-Cs(CsHH)Cs(CsCsH) matches O-Cs(CsCsH)Cs(CsHH)
+O-CbCs matches O-CsCb
+O-CbCt matches O-CtCb
+O-Cs(CsHH)Cds(Cs) matches O-Cds(Cs)Cs(CsHH)
+O-Cs(CsCsCs)Os(H) matches O-Os(H)Cs(CsCsCs)
+O-Cs(CdCsH)H matches O-HCs(CdCsH)
+O-CdCt matches O-CtCd
+O-Cs(CsHH)Cs(HHH) matches O-Cs(HHH)Cs(CsHH)
+O-CbH matches O-HCb
+O-Cs(CtCsH)Cs(HHH) matches O-Cs(HHH)Cs(CtCsH)
+O-CdCO matches O-COCd
+O-Cs(CtHH)Cs(HHH) matches O-Cs(HHH)Cs(CtHH)
+O-Cs(CsCsH)Cb matches O-CbCs(CsCsH)
+O-HCO matches O-COH
+O-Os(Cs)Os(H) matches O-Os(H)Os(Cs)
+O-Cs(HHH)Cs(CdCsH) matches O-Cs(CdCsH)Cs(HHH)
+O-HCt matches O-CtH
+O-CdCs matches O-CsCd
+O-Cs(HHH)Cs(CdHH) matches O-Cs(CdHH)Cs(HHH)
+O-HCd matches O-CdH
+O-CtCs matches O-CsCt
+O-OsCO matches O-COOs
+O-HCds(H) matches O-Cds(H)H
+O-Os(Os)Os(H) matches O-Os(H)Os(Os)
+O-Cs(NonDe)Cs(TwoDe) matches O-Cs(TwoDe)Cs(NonDe)
+O-CtCO matches O-COCt
+O-C=OOs matches O-OsC=O
+O-Cs(HHH)Cs(CsCsCs) matches O-Cs(CsCsCs)Cs(HHH)
+CsJ-OneDeOOss matches CsJ-OneDeOsOs
+O-Cs(HHH)Ct matches O-CtCs(HHH)
+O-CtCs(CsCsH) matches O-Cs(CsCsH)Ct
+O-Cs(NonDe)Cs(De) matches O-Cs(De)Cs(NonDe)
+O-HCs(HHH) matches O-Cs(HHH)H
+O-OsCd matches O-CdOs
+O-OsH matches O-HOs
+O-HCs(CsCsCs) matches O-Cs(CsCsCs)H
+O-Cs(HHH)Cs(CtCsCs) matches O-Cs(CtCsCs)Cs(HHH)
+O-OsCt matches O-CtOs
+O-Os(H)Cs(HHH) matches O-Cs(HHH)Os(H)
+O-Cs(CsHH)Cds(H) matches O-Cds(H)Cs(CsHH)
+O-Cds(Cs)Cs(CsCsCs) matches O-Cs(CsCsCs)Cds(Cs)
+O-Cs(CsHH)H matches O-HCs(CsHH)
+O-Os(H)Cds(Cs) matches O-Cds(Cs)Os(H)
+O-HC=O matches O-C=OH
+O-Cs(CsCsCs)Cs(CsCsH) matches O-Cs(CsCsH)Cs(CsCsCs)
+O-Os(Cs)Cs(HHH) matches O-Cs(HHH)Os(Cs)
+O-Cs(CdCsCs)H matches O-HCs(CdCsCs)
+O-Cs(ThreeDe)H matches O-HCs(ThreeDe)
+O-COCs matches O-CsCO
+O-Os(H)H matches O-HOs(H)
+O-Cs(HHH)Cs(CsCsH) matches O-Cs(CsCsH)Cs(HHH)
+O-CbOs matches O-OsCb
+O-Cds(H)Os(Os) matches O-Os(Os)Cds(H)
+O-Cs(CsCsCs)Ct matches O-CtCs(CsCsCs)
+O-Cs(CsCsCs)Os(Os) matches O-Os(Os)Cs(CsCsCs)
+O-Os(Os)Cs(HHH) matches O-Cs(HHH)Os(Os)
+O-SC matches O-CS
+O-Cds(H)Os(Cs) matches O-Os(Cs)Cds(H)
+
+These groups are not actually subgroups of their parent
+Child: C2b, Parent: Y_2centeradjbirad
+Child: O2b, Parent: Y_2centeradjbirad
+
+These groups are probably products, but you should check them anyway
+O_rad
+
+
+HO2_Elimination_from_PeroxyRadical
+
+These groups do not match the definition in the rule
+R2OO in R2OO
+
+These groups are not actually subgroups of their parent
+Child: R2OO_2H_HCd, Parent: R2OO_2H_HDe
+
+
+lone_electron_pair_bond
+
+These groups do not match the definition in the rule
+N3sRRR in N3sRRR;O_atom_singlet
+
+
+Birad_recombination
+
+These groups are not unique
+Y_rad_out matches Ypri_rad_out
+Cpri_rad_out_H/OneDe matches C_rad_out_H/OneDe
+Cpri_rad_out_H/NonDeC matches C_rad_out_H/NonDeC
+Cd_rad_out_S matches Cdpri_rad_out_S
+C_rad_out_OneDe matches Cpri_rad_out_OneDe
+Cd_rad_out matches Cdpri_rad_out
+C_rad_out_NonDe matches Cpri_rad_out_NonDe
+Cd_rad_out_C matches Cdpri_rad_out_C
+Opri_rad matches O_rad
+Cpri_rad_out_1H matches C_rad_out_1H
+Cd_rad_out_O matches Cdpri_rad_out_O
+Spri_rad matches S_rad
+CdsingleH_rad_out matches CdsinglepriH_rad_out
+CdsinglepriDe_rad_out matches CdsingleDe_rad_out
+C_rad_out_OneDe/Cs matches Cpri_rad_out_OneDe/Cs
+Cpri_rad_out_Cs2 matches C_rad_out_Cs2
+Cpri_rad_out_single matches C_rad_out_single
+Cdsingle_rad_out matches Cdsinglepri_rad_out
+C_rad_out_2H matches Cpri_rad_out_2H
+Cpri_rad_out_TwoDe matches C_rad_out_TwoDe
+CdsingleND_rad_out matches CdsinglepriND_rad_out
+Cpri_rad_out_noH matches C_rad_out_noH
+
+These groups are not actually subgroups of their parent
+Child: C_rad_out_OneDe/O, Parent: C_rad_out_OneDe
+Child: Cpri_rad_out_NDMustS, Parent: Cpri_rad_out_NonDe
+Child: C_rad_out_OneDe/S, Parent: C_rad_out_OneDe
+Child: Cpri_rad_out_NDMustO, Parent: Cpri_rad_out_NonDe
+
+
+Diels_alder_addition
+
+These groups are not unique
+ene_disub_unsub matches ene_unsub_disub
+ene_NdDe_De2 matches ene_De2_NdDe
+ene_Nd2_HDe matches ene_HDe_Nd2
+ene_De2_HNd matches ene_HNd_De2
+ene_2H_Nd2 matches ene_Nd2_2H
+ene_monosub_unsub matches ene_unsub_monosub
+ene_NdDe_HNd matches ene_HNd_NdDe
+ene_HNd_HDe matches ene_HDe_HNd
+ene_HNd_2H matches ene_2H_HNd
+ene_De2_2H matches ene_2H_De2
+diene_in_NdH matches diene_in_HNd
+ene_2H_HDe matches ene_HDe_2H
+ene_Nd2_HNd matches ene_HNd_Nd2
+ene_De2_Nd2 matches ene_Nd2_De2
+ene_HDe_De2 matches ene_De2_HDe
+ene_2H_NdDe matches ene_NdDe_2H
+diene_in_NdDe matches diene_in_DeNd
+ene_Nd2_NdDe matches ene_NdDe_Nd2
+ene_HDe_NdDe matches ene_NdDe_HDe
+diene_in_HDe matches diene_in_DeH
+ene_monosub_disub matches ene_disub_monosub
+
+
+R_Addition_COm
+
+These groups are not actually subgroups of their parent
+Child: CH[CH3]2, Parent: C_rad/H/NonDeC
+Child: CH2CH3, Parent: C_rad/H2/Cs
+Child: CH2CH2CH3, Parent: C_rad/H2/Cs
+
+
+intra_substitutionCS_cyclization
+
+These groups are not unique
+CsJ-SsCsCs matches CsJ-3-SsCsCs, and CsJ-3-CsCsSs
+CdsJ_C-Ss2 matches CdsJ-Ss, and CdsJ-3-Ss
+CsJ-CdCsSs matches CsJ-3-SsCdCs, CsJ-SsCdCs, CsJ-CsCdSs, CsJ-3-CsCdSs, and CsJ-3-CdCsSs
+CsJ-SsHH matches CsJ-3-SsHH
+CsJ-3-CsCdCs matches CsJ-CsCdCs, CsJ-CdCsCs, and CsJ-3-CdCsCs
+CsJ-Ss matches CsJ-3-Ss
+CsJ-SsCsSs matches CsJ-3-SsCsSs
+CsJ-3-CsSsSs matches CsJ-SsCsSs, and CsJ-3-SsCsSs
+CdsJ_C-2 matches CdsJ-3, CdsJ, and CdsJ_C-3-2
+CsJ-3-CdTwoDe matches CsJ-CdTwoDe
+CsJ-3-CdCdSs matches CsJ-CdCdSs
+CsJ-SsCdSs matches CsJ-3-SsCdSs, CsJ-CdSsSs, and CsJ-3-CdSsSs
+CsJ-CdOneDeH matches CsJ-3-CdOneDeH
+CdsJ_C-Cs2 matches CdsJ-Cs, CdsJ-3-Cs, and CdsJ_C-3-Cs2
+CdsJ matches CdsJ_C-3-2
+CdsJ_C-3-Ss2 matches CdsJ_C-Ss2, CdsJ-Ss, and CdsJ-3-Ss
+CsJ-3-SsCdCs matches CsJ-SsCdCs, CsJ-CsCdSs, CsJ-3-CsCdSs, and CsJ-3-CdCsSs
+CsJ-CsCsSs matches CsJ-SsCsCs, CsJ-3-SsCsCs, and CsJ-3-CsCsSs
+SsJ matches SJ-3, SJ, and SsJ-3
+CsJ-3-CsOneDeCs matches CsJ-CsOneDeCs
+CsJ-3-CsOneDeSs matches CsJ-3-SsOneDeCs
+CsJ-CdSsSs matches CsJ-3-CdSsSs
+CdsJ-Cs matches CdsJ-3-Cs, and CdsJ_C-3-Cs2
+CsJ-CsSsSs matches CsJ-3-CsSsSs, CsJ-SsCsSs, and CsJ-3-SsCsSs
+SsJ-3-Cd matches SsJ-Cd
+CsJ-3-SsOneDe matches CsJ-SsOneDe
+CsJ-Cd matches CsJ-3-Cd
+CdsJ_C-Cd2 matches CdsJ_C-3-Cd2
+CsJ-CsSsH matches CsJ-3-CsSsH
+CsJ matches CsJ-3
+CdsJ-3-Cs matches CdsJ_C-3-Cs2
+SJ-3 matches SJ, and SsJ-3
+CsJ-CdHH matches CsJ-3-CdHH
+SsJ-3-OneDe matches SsJ-OneDe
+CsJ-3-CdOneDeCs matches CsJ-CdOneDeCs
+CsJ-CsHH matches CsJ-3-CsHH
+CsJ-Cs matches CsJ-3-Cs
+CsJ-CsCsH matches CsJ-3-CsCsH
+CdsJ-Cd matches CdsJ-3-Cd, CdsJ_C-Cd2, and CdsJ_C-3-Cd2
+CdsJ-3 matches CdsJ, and CdsJ_C-3-2
+CdsJ-2 matches CdsJ-3-2
+CsJ-3-CdCdCs matches CsJ-CdCdCs
+CsJ-SsCdCs matches CsJ-CsCdSs, CsJ-3-CsCdSs, and CsJ-3-CdCsSs
+CdsJ-3-Cd matches CdsJ_C-Cd2, and CdsJ_C-3-Cd2
+CsJ-3-SsOneDeH matches CsJ-SsOneDeH
+CdsJ-H matches CdsJ-3-H
+CsJ-3-SsCdSs matches CsJ-CdSsSs, and CsJ-3-CdSsSs
+CsJ-CdOneDeSs matches CsJ-3-CdOneDeSs
+CsJ-SsCsH matches CsJ-CsSsH, and CsJ-3-CsSsH
+CsJ-SsOneDeSs matches CsJ-3-SsOneDeSs
+CsJ-3-SsSsH matches CsJ-SsSsH
+SsJ-3-Cs matches SsJ-Cs
+CsJ-CsOneDeSs matches CsJ-SsOneDeCs, CsJ-3-CsOneDeSs, and CsJ-3-SsOneDeCs
+CsJ-3-SsCsH matches CsJ-SsCsH, CsJ-CsSsH, and CsJ-3-CsSsH
+CsJ-3-CsOneDeH matches CsJ-CsOneDeH
+CsJ-3-CsCdSs matches CsJ-3-CdCsSs
+CsJ-CsCdCs matches CsJ-CdCsCs, and CsJ-3-CdCsCs
+SsJ-3 matches SJ
+CsJ-3-SsCdH matches CsJ-3-CdSsH, CsJ-CdSsH, and CsJ-SsCdH
+CdsJ_S-2 matches CdsJ_S-3-2
+CsJ-3-CdCsH matches CsJ-CdCsH
+CsJ-3-CdOneDe matches CsJ-CdOneDe
+CsJ-3-CsCsCs matches CsJ-CsCsCs
+CsJ-CsTwoDe matches CsJ-3-CsTwoDe
+CsJ-3-CsOneDe matches CsJ-CsOneDe
+CsJ-3-CsCdH matches CsJ-CdCsH, CsJ-CsCdH, and CsJ-3-CdCsH
+CsJ-CdSsH matches CsJ-SsCdH
+CsJ-3-CdSsH matches CsJ-CdSsH, and CsJ-SsCdH
+CsJ-CdCsCs matches CsJ-3-CdCsCs
+CdsJ-Ss matches CdsJ-3-Ss
+CsJ-SsOneDeCs matches CsJ-3-CsOneDeSs, and CsJ-3-SsOneDeCs
+CsJ-CsCdSs matches CsJ-3-CsCdSs, and CsJ-3-CdCsSs
+CsJ-3-SsCsCs matches CsJ-3-CsCsSs
+CsJ-3-SsSsSs matches CsJ-SsSsSs
+CsJ-CsCdH matches CsJ-CdCsH, and CsJ-3-CdCsH
+CsJ-3-CdCdH matches CsJ-CdCdH
+SsJ-Ss matches SsJ-3-Ss
+
+These groups are not actually subgroups of their parent
+Child: CdsJ_C-3-2, Parent: CJ-3
+Child: CdsJ_S-3-2, Parent: CJ-3
+
+
+intra_OH_migration
+
+These groups do not match the definition in the rule
+Y_rad_out in RnOOH;Y_rad_out
+
+These groups are not actually subgroups of their parent
+Child: C_rad_out_single, Parent: Y_rad_out
+
+
+intra_substitutionCS_isomerization
+
+These groups are not unique
+CdsJ_C-Ss2 matches CdsJ-Ss
+CsJ-CdCsSs matches CsJ-3-SsCdCs, CsJ-SsCdCs, and CsJ-CsCdSs
+CsJ-SsHH matches CsJ-3-SsHH
+CsJ-Ss matches CsJ-3
+CsJ-SsCsSs matches CsJ-3-SsCsSs
+CdsJ-Cd matches CdsJ_C-Cd2
+CsJ-CsCdCs matches CsJ-CdCsCs
+CdsJ_C-Cs2 matches CdsJ-Cs
+CsJ-3-SsCdCs matches CsJ-SsCdCs, and CsJ-CsCdSs
+SsJ-Ss matches SJ-3
+SsJ matches SJ
+CsJ-CsSsSs matches CsJ-3-SsCsSs, and CsJ-SsCsSs
+CsJ-3-SsOneDe matches CsJ-SsOneDe
+CsJ-SsCsCs matches CsJ-3-SsCsCs
+CdsJ_C-2 matches CdsJ
+CsJ-3-SsCsH matches CsJ-CsSsH
+CsJ-3-SsCdH matches CsJ-SsCdH, and CsJ-CdSsH
+CsJ-SsCdCs matches CsJ-CsCdSs
+CsJ-CsCdH matches CsJ-CdCsH
+CsJ-3-SsOneDeH matches CsJ-SsOneDeH
+CsJ-3-SsCdSs matches CsJ-CdSsSs
+CsJ-SsCsH matches CsJ-CsSsH, and CsJ-3-SsCsH
+CsJ-SsOneDeSs matches CsJ-3-SsOneDeSs
+CsJ-3-SsSsH matches CsJ-SsSsH
+CsJ-SsOneDeCs matches CsJ-3-SsOneDeCs
+CsJ-SsCdSs matches CsJ-3-SsCdSs, and CsJ-CdSsSs
+CsJ-CsOneDeSs matches CsJ-3-SsOneDeCs, and CsJ-SsOneDeCs
+CsJ-CdSsH matches CsJ-SsCdH
+CsJ-3-SsSsSs matches CsJ-SsSsSs
+CsJ-CsCsSs matches CsJ-SsCsCs, and CsJ-3-SsCsCs
+
+
+intra_substitutionS_isomerization
+
+These groups are not unique
+CsJ-SsCsCs matches CsJ-3-SsCsCs, and CsJ-3-CsCsSs
+CdsJ_C-Ss2 matches CdsJ-Ss, and CdsJ-3-Ss
+CsJ-CdCsSs matches CsJ-3-SsCdCs, CsJ-SsCdCs, CsJ-CsCdSs, CsJ-3-CsCdSs, and CsJ-3-CdCsSs
+CsJ-CdSsH matches CsJ-SsCdH
+CsJ-3-CsCdCs matches CsJ-CsCdCs, CsJ-CdCsCs, and CsJ-3-CdCsCs
+CsJ-Ss matches CsJ-3-Ss
+CsJ-SsCsSs matches CsJ-3-SsCsSs
+CsJ-3-CsSsSs matches CsJ-SsCsSs, and CsJ-3-SsCsSs
+CdsJ_C-2 matches CdsJ, CdsJ-3, and CdsJ_C-3-2
+CsJ-3-CdTwoDe matches CsJ-CdTwoDe
+CsJ-3-CdCdSs matches CsJ-CdCdSs
+CsJ-SsCdSs matches CsJ-3-SsCdSs, CsJ-CdSsSs, and CsJ-3-CdSsSs
+CsJ-CdOneDeH matches CsJ-3-CdOneDeH
+CdsJ_C-Cs2 matches CdsJ_C-3-Cs2, CdsJ-Cs, and CdsJ-3-Cs
+CdsJ matches CdsJ_C-3-2
+CdsJ_C-3-Ss2 matches CdsJ_C-Ss2, CdsJ-Ss, and CdsJ-3-Ss
+CsJ-3-SsCdCs matches CsJ-SsCdCs, CsJ-CsCdSs, CsJ-3-CsCdSs, and CsJ-3-CdCsSs
+CsJ-CsCsSs matches CsJ-SsCsCs, CsJ-3-SsCsCs, and CsJ-3-CsCsSs
+SsJ matches SJ-3, SsJ-3, and SJ
+CsJ-3-CsOneDeCs matches CsJ-CsOneDeCs
+CsJ-3-CsOneDeSs matches CsJ-3-SsOneDeCs
+S-Cs(CtCsH)C matches S-Cs(CdCsH)C
+CsJ-CdSsSs matches CsJ-3-CdSsSs
+CdsJ-Cs matches CdsJ_C-3-Cs2, and CdsJ-3-Cs
+CsJ-CsSsSs matches CsJ-3-CsSsSs, CsJ-SsCsSs, and CsJ-3-SsCsSs
+SsJ-3-Cd matches SsJ-Cd
+CsJ-3-SsOneDe matches CsJ-SsOneDe
+CsJ-Cd matches CsJ-3-Cd
+CdsJ_C-Cd2 matches CdsJ_C-3-Cd2
+CsJ-CsSsH matches CsJ-3-CsSsH
+S-Cs(CdHH)C matches S-Cs(CtHH)C
+CdsJ-3-Cs matches CdsJ_C-3-Cs2
+SJ-3 matches SsJ-3, and SJ
+CsJ-CdHH matches CsJ-3-CdHH
+SsJ-3-OneDe matches SsJ-OneDe
+CsJ-3-CdOneDeCs matches CsJ-CdOneDeCs
+CsJ-CsHH matches CsJ-3-CsHH
+CsJ-Cs matches CsJ-3-Cs
+CsJ-CsCsH matches CsJ-3-CsCsH
+CdsJ-Cd matches CdsJ-3-Cd, CdsJ_C-Cd2, and CdsJ_C-3-Cd2
+CdsJ-3 matches CdsJ, and CdsJ_C-3-2
+CdsJ-2 matches CdsJ-3-2
+CsJ-3-CdCdCs matches CsJ-CdCdCs
+CsJ-SsCdCs matches CsJ-CsCdSs, CsJ-3-CsCdSs, and CsJ-3-CdCsSs
+CdsJ-3-Cd matches CdsJ_C-Cd2, and CdsJ_C-3-Cd2
+CsJ-3-SsOneDeH matches CsJ-SsOneDeH
+CdsJ-H matches CdsJ-3-H
+CsJ-3-SsCdSs matches CsJ-CdSsSs, and CsJ-3-CdSsSs
+CsJ-CdOneDeSs matches CsJ-3-CdOneDeSs
+CsJ-SsCsH matches CsJ-CsSsH, and CsJ-3-CsSsH
+CsJ-SsOneDeSs matches CsJ-3-SsOneDeSs
+CsJ-3-SsSsH matches CsJ-SsSsH
+S-SC matches S-CSs
+SsJ-3-Cs matches SsJ-Cs
+CsJ-CsOneDeSs matches CsJ-SsOneDeCs, CsJ-3-CsOneDeSs, and CsJ-3-SsOneDeCs
+CsJ-3-SsCsH matches CsJ-SsCsH, CsJ-CsSsH, and CsJ-3-CsSsH
+CsJ-3-CsOneDeH matches CsJ-CsOneDeH
+CsJ-3-CsCdSs matches CsJ-3-CdCsSs
+CsJ-CsCdCs matches CsJ-CdCsCs, and CsJ-3-CdCsCs
+SsJ-3 matches SJ
+CsJ-3-SsCdH matches CsJ-3-CdSsH, CsJ-CdSsH, and CsJ-SsCdH
+CdsJ_S-2 matches CdsJ_S-3-2
+CsJ-SsHH matches CsJ-3-SsHH
+CsJ-3-CdCsH matches CsJ-CdCsH
+CsJ-3-CdOneDe matches CsJ-CdOneDe
+CsJ-3-CsCsCs matches CsJ-CsCsCs
+CsJ-CsTwoDe matches CsJ-3-CsTwoDe
+CsJ-3-CsOneDe matches CsJ-CsOneDe
+CsJ-3-CsCdH matches CsJ-CdCsH, CsJ-CsCdH, and CsJ-3-CdCsH
+S-Cs(CtCsCs)C matches S-Cs(CdCsCs)C
+CsJ matches CsJ-3
+CsJ-3-CdSsH matches CsJ-CdSsH, and CsJ-SsCdH
+CsJ-CdCsCs matches CsJ-3-CdCsCs
+CdsJ-Ss matches CdsJ-3-Ss
+CsJ-SsOneDeCs matches CsJ-3-CsOneDeSs, and CsJ-3-SsOneDeCs
+CsJ-CsCdSs matches CsJ-3-CsCdSs, and CsJ-3-CdCsSs
+CsJ-3-SsCsCs matches CsJ-3-CsCsSs
+CsJ-3-SsSsSs matches CsJ-SsSsSs
+CsJ-CsCdH matches CsJ-CdCsH, and CsJ-3-CdCsH
+CsJ-3-CdCdH matches CsJ-CdCdH
+SsJ-Ss matches SsJ-3-Ss
+
+
+2+2_cycloaddition_Cd
+
+These groups are not unique
+mb_COC_HNd matches mb_CCO_HNd
+mb_db_HNd_NdDe matches mb_db_NdDe_HNd
+db_2H_De2 matches mb_db_De2_2H, and mb_db_2H_De2
+db_HDe_Nd2 matches mb_db_Nd2_HDe
+mb_db_HNd_HNd matches db_HNd_HNd
+mb_db_HNd_disub matches db_HNd_disub
+mb_COC_2H matches mb_CCO_2H
+db_HDe_HDe matches mb_db_HDe_HDe
+mb_db_Nd2_disub matches db_Nd2
+mb_db_HDe_disub matches db_HDe_disub
+mb_db_HNd_HDe matches db_HNd_HDe
+mb_OC_HDe matches mb_CO_HDe
+mb_COC_NdDe matches mb_CCO_NdDe
+mb_db_2H_disub matches db_2H_disub
+db_HNd_Nd2 matches mb_db_HNd_Nd2, and mb_db_Nd2_HNd
+mb_db_Nd2_Nd2 matches db_Nd2_Nd2
+mb_db_HNd_De2 matches mb_db_De2_HNd, and db_HNd_De2
+mb_COC_De2 matches mb_CCO_De2
+mb_db_HNd_monosub matches db_HNd_monosub
+mb_db_NdDe_2H matches mb_db_2H_NdDe, and db_2H_NdDe
+mb_db_HDe_HNd matches mb_db_HNd_HDe, and db_HNd_HDe
+mb_db_NdDe_Nd2 matches mb_db_Nd2_NdDe, and db_Nd2_NdDe
+mb_CO matches mb_OC
+mb_CO_HNd matches mb_OC_HNd
+mb_db_HNd_Nd2 matches mb_db_Nd2_HNd
+db_2H_HDe matches mb_db_HDe_2H, and mb_db_2H_HDe
+mb_OC_De2 matches mb_CO_De2
+mb_db_De2_HNd matches db_HNd_De2
+db_2H matches mb_db_2H
+mb_COC_HDe matches mb_CCO_HDe
+mb_db_NdDe_HDe matches db_HDe_NdDe
+db_NdDe_NdDe matches mb_db_NdDe_NdDe
+mb_db_2H_HNd matches mb_db_HNd_2H, and db_2H_HNd
+mb_db_2H_Nd2 matches db_2H_Nd2, and mb_db_Nd2_2H
+mb_db_HDe_2H matches mb_db_2H_HDe
+mb_db_HDe_NdDe matches mb_db_NdDe_HDe, and db_HDe_NdDe
+mb_db_HDe_Nd2 matches db_HDe_Nd2, and mb_db_Nd2_HDe
+mb_db_Nd2_NdDe matches db_Nd2_NdDe
+mb_CO_NdDe matches mb_OC_NdDe
+mb_CO_Nd2 matches mb_OC_Nd2
+mb_db_De2_HDe matches db_HDe_De2, and mb_db_HDe_De2
+mb_db_Nd2_De2 matches mb_db_De2_Nd2
+mb_db_Nd2_2H matches db_2H_Nd2
+mb_db_2H_monosub matches db_2H_monosub
+mb_COC_Nd2 matches mb_CCO_Nd2
+mb_db_NdDe_De2 matches mb_db_De2_NdDe
+db_Nd2_De2 matches mb_db_Nd2_De2, and mb_db_De2_Nd2
+mb_COC matches mb_CCO
+db_2H_2H matches mb_db_2H_2H
+mb_db_De2_2H matches mb_db_2H_De2
+mb_db_HNd_2H matches db_2H_HNd
+mb_db_De2_De2 matches db_De2
+db_HNd_NdDe matches mb_db_NdDe_HNd, and mb_db_HNd_NdDe
+mb_OC_2H matches mb_CO_2H
+mb_db_2H_NdDe matches db_2H_NdDe
+db_HDe_De2 matches mb_db_HDe_De2
+db_NdDe_De2 matches mb_db_NdDe_De2, and mb_db_De2_NdDe
+
+
+1,2-Birad_to_alkene
+
+These groups are probably products, but you should check them anyway
+Y_12_11b
+Y_12_11a
+Y_12_21a
+Y_12_21b
+Y_12_22a
+Y_12_22b
+Y_12_12b
+Y_12_12a
+Y_12_02b
+Y_12_02a
+Y_12_20b
+Y_12_20a
+
+
+R_Recombination
+
+These groups are not in the tree:
+N5d_rad
+
+These groups are not actually subgroups of their parent
+Child: Ct_rad/Ct, Parent: Ct_rad
+
+
+1,3_Insertion_RSR
+
+These groups are not unique
+Cd/disub_Cd/unsub matches Cd/unsub_Cd/disub
+Cdd_Cd_Nd2 matches cco_Nd2
+Cdd_Cd_NdDe matches cco_NdDe
+Cd/De2_Cd/H/Nd matches Cd/H/Nd_Cd/De2
+Cdd_Cd_HNd matches cco_HNd
+Cd/H/De_Cd/Nd2 matches Cd/Nd2_Cd/H/De
+Cd/H/Nd_Cd/H/De matches Cd/H/De_Cd/H/Nd
+Cd_SH matches H_SCd
+Cd/H/De_Cd/H2 matches Cd/H2_Cd/H/De
+cco_HDe matches Cdd_Cd_HDe
+Cd/Nd2_Cd/De2 matches Cd/De2_Cd/Nd2
+Cd/De2_Cd/H/De matches Cd/H/De_Cd/De2
+Cd/Nd/De_Cd/H/De matches Cd/H/De_Cd/Nd/De
+Cd/Nd/De_Cd/Nd2 matches Cd/Nd2_Cd/Nd/De
+Cd/H2_Cd/H/Nd matches Cd/H/Nd_Cd/H2
+Cdd_Cd_De2 matches cco_De2
+Cd/De2_Cd/H2 matches Cd/H2_Cd/De2
+cco_2H matches Cdd_Cd_2H
+Cs_SH matches H_SCs
+Cd/H2_Cd/Nd/De matches Cd/NdDe_Cd/H2
+Cd/Nd2_Cd/H/Nd matches Cd/H/Nd_Cd/Nd2
+Cd/De2_Cd/Nd/De matches Cd/Nd/De_Cd/De2
+Cd/H/Nd_Cd/Nd/De matches Cd/Nd/De_Cd/H/Nd
+Cd/monosub_Cd/unsub matches Cd/unsub_Cd/monosub
+Cd_Cdd matches Cdd_Cd
+Cd/H2_Cd/Nd2 matches Cd/Nd2_Cd/H2
+Cd/disub_Cd/monosub matches Cd/monosub_Cd/disub
+
+These groups are not actually subgroups of their parent
+Child: Cd/Nd2_Cd/Nd/De, Parent: Cd/disub_Cd/disub
+Child: Cd/Nd2_Cd/H/De, Parent: Cd/disub_Cd/monosub
+Child: Cd/De2_Cd/H/Nd, Parent: Cd/disub_Cd/monosub
+Child: Cd/H/Nd_Cd/H/Nd, Parent: Cd/monosub_Cd/monosub
+Child: Cd/H/De_Cd/Nd2, Parent: Cd/monosub_Cd/disub
+Child: Cd/Nd/De_Cd/Nd/De, Parent: Cd/disub_Cd/disub
+Child: Cd/Nd/De_Cd/H/Nd, Parent: Cd/disub_Cd/monosub
+Child: Cd/H/De_Cd/H/De, Parent: Cd/monosub_Cd/monosub
+Child: Cd/H/Nd_Cd/De2, Parent: Cd/monosub_Cd/disub
+Child: Cd/H/Nd_Cd/H/De, Parent: Cd/monosub_Cd/monosub
+Child: Cd/H/De_Cd/H2, Parent: Cd/monosub_Cd/unsub
+Child: Cd/NdDe_Cd/H2, Parent: Cd/disub_Cd/unsub
+Child: Cd/Nd2_Cd/De2, Parent: Cd/disub_Cd/disub
+Child: Cd/De2_Cd/H/De, Parent: Cd/disub_Cd/monosub
+Child: Cd/H/Nd_Cd/Nd2, Parent: Cd/monosub_Cd/disub
+Child: Cd/Nd/De_Cd/H/De, Parent: Cd/disub_Cd/monosub
+Child: Cd/Nd/De_Cd/Nd2, Parent: Cd/disub_Cd/disub
+Child: Cd/H2_Cd/H/Nd, Parent: Cd/unsub_Cd/monosub
+Child: Cd/H2_Cd/H/De, Parent: Cd/unsub_Cd/monosub
+Child: Cd/De2_Cd/Nd2, Parent: Cd/disub_Cd/disub
+Child: Cd/De2_Cd/H2, Parent: Cd/disub_Cd/unsub
+Child: Cd/H2_Cd/De2, Parent: Cd/unsub_Cd/disub
+Child: Cd/H/De_Cd/Nd/De, Parent: Cd/monosub_Cd/disub
+Child: Cd/H2_Cd/Nd/De, Parent: Cd/unsub_Cd/disub
+Child: Cd/Nd/De_Cd/De2, Parent: Cd/disub_Cd/disub
+Child: Cd/H/De_Cd/De2, Parent: Cd/monosub_Cd/disub
+Child: Cd/H/Nd_Cd/H2, Parent: Cd/monosub_Cd/unsub
+Child: Cd/Nd2_Cd/H/Nd, Parent: Cd/disub_Cd/monosub
+Child: Cd/De2_Cd/Nd/De, Parent: Cd/disub_Cd/disub
+Child: Cd/H/Nd_Cd/Nd/De, Parent: Cd/monosub_Cd/disub
+Child: Cd/De2_Cd/De2, Parent: Cd/disub_Cd/disub
+Child: Cd/H/De_Cd/H/Nd, Parent: Cd/monosub_Cd/monosub
+Child: Cd/H2_Cd/Nd2, Parent: Cd/unsub_Cd/disub
+Child: Cd/Nd2_Cd/Nd2, Parent: Cd/disub_Cd/disub
+Child: Cd/Nd2_Cd/H2, Parent: Cd/disub_Cd/unsub
+
+
+intra_NO2_ONO_conversion
+
+These groups do not match the definition in the rule
+RNO2 in RNO2
+
+
