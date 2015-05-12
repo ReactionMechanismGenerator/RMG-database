@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 
-template(reactants=["XSYJ"], products=["XSYJ"], ownReverse=True)
+template(reactants=["XSYJ"], products=["XYSJ"], ownReverse=False)
 
 recipe(actions=[
     ['BREAK_BOND', '*1', 'S', '*2'],
@@ -1555,6 +1555,32 @@ L1: XSYJ
         L3: XSR5J_SDD
     L2: XSR6J
     L2: XSR7J
+L1: C
+    L2: Ct
+    L2: Cds-R
+    L2: C-RRR
+        L3: C-NonDe
+            L4: C-HHH
+            L4: C-CsHH
+            L4: C-CsCsH
+            L4: C-CsCsCs
+            L4: C-OneS
+                L5: C-SsHH
+                L5: C-SsCsH
+                L5: C-SsCsCs
+        L3: C-OneDe
+            L4: C-CdHH
+            L4: C-CdCsH
+            L4: C-CdCsCs
+            L4: C-CdSsH
+            L4: C-CdSsCs
+            L4: C-CdSsSs
+            L4: C-CtHH
+            L4: C-CtCsH
+            L4: C-CtCsCs
+            L4: C-CtSsH
+            L4: C-CtSsCs
+            L4: C-CtSsSs
 L1: YJ
     L2: CJ
         L3: CdsJ
@@ -1637,32 +1663,6 @@ L1: YJ
                     L6: CsJ-3-SsCdSs
             L4: CsJ-3-SsTwoDe
     L2: SJ-3
-L1: C
-    L2: Ct
-    L2: Cds-R
-    L2: C-RRR
-        L3: C-NonDe
-            L4: C-HHH
-            L4: C-CsHH
-            L4: C-CsCsH
-            L4: C-CsCsCs
-            L4: C-OneS
-                L5: C-SsHH
-                L5: C-SsCsH
-                L5: C-SsCsCs
-        L3: C-OneDe
-            L4: C-CdHH
-            L4: C-CdCsH
-            L4: C-CdCsCs
-            L4: C-CdSsH
-            L4: C-CdSsCs
-            L4: C-CdSsSs
-            L4: C-CtHH
-            L4: C-CtCsH
-            L4: C-CtCsCs
-            L4: C-CtSsH
-            L4: C-CtSsCs
-            L4: C-CtSsSs
 """
 )
 
