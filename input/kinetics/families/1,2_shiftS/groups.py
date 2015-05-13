@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 
-template(reactants=["XSYJ"], products=["XSYJ"], ownReverse=False)
+template(reactants=["XSYJ"], products=["XYSJ"], ownReverse=False)
 
 reverse = "1,2_S_radical_shift"
 
