@@ -267,14 +267,14 @@ entry(
     molecule = 
 """
 multiplicity 3
-1 S u1 p2 c0 {2,S}
-2 S u1 p2 c0 {1,S}
+1 S u0 p2 c0 {2,D}
+2 S u0 p2 c0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([7.81,8.17,8.4,8.54,8.7,8.78,8.87],'cal/(mol*K)'),
-        H298 = (29.19,'kcal/mol'),
-        S298 = (55.96,'cal/(mol*K)'),
+        H298 = (47.12,'kcal/mol'),
+        S298 = (53.78,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 value A.G. Vandeputte""",
     longDesc = 
@@ -285,6 +285,28 @@ u"""
 
 entry(
     index = 14,
+    label = "S2JJ",
+    molecule = 
+"""
+multiplicity 3
+1 S u1 p2 c0 {2,S}
+2 S u1 p2 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.79,8.14,8.35,8.51,8.75,8.94,9.31],'cal/(mol*K)'),
+        H298 = (30.74,'kcal/mol'),
+        S298 = (54.54,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""from Chase thermo database""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 15,
     label = "HCS",
     molecule = 
 """
@@ -307,7 +329,7 @@ u"""
 )
 
 entry(
-    index = 15,
+    index = 16,
     label = "Ar",
     molecule = 
 """
@@ -329,7 +351,7 @@ Ar HF298=0.  REF=C.E. Moore 'Atomic Energy Levels' NSRDS-NBS 35 (1971) p.211
 )
 
 entry(
-    index = 16,
+    index = 17,
     label = "N2",
     molecule = 
 """
@@ -352,7 +374,7 @@ N2  HF298= 0.0 KJ  REF=TSIV  Max Lst Sq Error Cp @ 6000 K 0.29%
 )
 
 entry(
-    index = 17,
+    index = 18,
     label = "He",
     molecule = 
 """
@@ -374,7 +396,7 @@ McBride, Heimel, Ehlers & Gordon "Thermodynamic Properties to 6000 K", 1963.
 )
 
 entry(
-    index = 18,
+    index = 19,
     label = "C(S)",
     molecule = 
 """
@@ -396,7 +418,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 19,
+    index = 20,
     label = "C(T)",
     molecule = 
 """
@@ -419,7 +441,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 20,
+    index = 21,
     label = "CH2(S)",
     molecule = 
 """
@@ -443,7 +465,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 21,
+    index = 22,
     label = "CH2(T)",
     molecule = 
 """
@@ -468,7 +490,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 22,
+    index = 23,
     label = "CH4",
     molecule = 
 """
@@ -494,7 +516,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 23,
+    index = 24,
     label = "NH(T)",
     molecule = 
 """
@@ -518,7 +540,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 24,
+    index = 25,
     label = "NH2(D)",
     molecule = 
 """
@@ -543,7 +565,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 25,
+    index = 26,
     label = "NH3",
     molecule = 
 """
@@ -568,7 +590,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 26,
+    index = 27,
     label = "O(S)",
     molecule = 
 """
@@ -590,7 +612,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 27,
+    index = 28,
     label = "O(T)",
     molecule = 
 """
@@ -613,7 +635,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 28,
+    index = 29,
     label = "OH(D)",
     molecule = 
 """
@@ -637,7 +659,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 29,
+    index = 30,
     label = "H2O",
     molecule = 
 """
@@ -661,7 +683,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 30,
+    index = 31,
     label = "Cl2",
     molecule = 
 """
@@ -687,7 +709,7 @@ Sq Error Cp @ 6000 **1.26%** (Cp @ 700 K 0.08%)
 )
 
 entry(
-    index = 31,
+    index = 32,
     label = "Cl",
     molecule = 
 """
@@ -713,7 +735,7 @@ HF298=121.302+/-0.008 kJ HF0=119.633+/- 0.008 kJ  REF=JANAF  {HF298=121.302
 )
 
 entry(
-    index = 32,
+    index = 33,
     label = "HCl",
     molecule = 
 """
@@ -740,7 +762,7 @@ HF298=-92.31 kJ {HF298=-92.17+/-0.006 kJ   REF=ATcT C}  Max Lst Sq Error Cp @
 )
 
 entry(
-    index = 33,
+    index = 34,
     label = "Ne",
     molecule = 
 """
