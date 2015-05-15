@@ -495,6 +495,21 @@ MRH 30-Aug-2009
 )
 
 entry(
+    index = 502,
+    label = "S_rad/OneDe;C/H2/Nd_Csrad",
+    kinetics = ArrheniusEP(
+        A = (0.719, 'cm^3/(mol*s)'),
+        n = 3.13,
+        alpha = 0,
+        E0 = (-3.65, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CAC calc CBS-QB3, 1dhr""",
+)
+
+entry(
     index = 503,
     label = "H_rad;C/H2/Nd_Csrad",
     kinetics = ArrheniusEP(
@@ -517,6 +532,37 @@ pg. 915-916: Discussion on evaluated data
 Entry 41,4 (a): No data available at the time.  Author recommends the rate coefficient
 
 of the H+C2H5=C2H4+H2 rxn for the H+n-C3H7=C3H6+H2 rxn.
+MRH 30-Aug-2009
+""",
+)
+
+entry(
+    index = 504,
+    label = "C_rad/H/OneDeC;C/H2/Nd_Srad",
+    kinetics = ArrheniusEP(
+        A = (7.63e+11, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (-0.55, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Rough estimate based on 1/10 of #3026 in R_Recombination""",
+    longDesc = 
+u"""
+[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
+Literature review.  CH3 + n-C3H7 --> C3H6 + CH4
+
+pg. 920: Discussion on evaluated data
+
+Entry 41,16 (b): No direct measurements for either the addition or disproportionation
+
+rxns.  Author recommends a rate coefficient expression for the addition rxn, based
+on the geometric mean rule of the rxns CH3+CH3=>adduct and n-C3H7+n-C3H7=>adduct.
+Furthermore, author recommends a branching ratio for disproportionation to
+addition of 0.06 (which appears to MRH to be consistent with the experimentally
+measured branching ratios)
 MRH 30-Aug-2009
 """,
 )
@@ -584,6 +630,38 @@ MRH 30-Aug-2009
 )
 
 entry(
+    index = 505,
+    label = "C_rad/H/TwoDe;C/H2/Nd_Srad",
+    kinetics = ArrheniusEP(
+        A = (1.94e+12, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0.36, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Rough estimate based on 1/10 of #3027 in R_Recombination""",
+    longDesc = 
+u"""
+[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
+Literature review.  C2H5 + n-C3H7 --> C3H6 + C2H6
+
+pg. 937-938: Discussion on evaluated data
+
+Entry 42,17 (b): No direct measurements for either the addition or disproportionation
+
+rxns.  Author recommends a rate coefficient expression for the addition rxn, based
+on the geometric mean rule of the rxns C2H5+C2H5=>adduct and n-C3H7+n-C3H7=>adduct.
+Furthermore, author recommends a branching ratio for disproportionation to
+addition of 0.073 (which is an average of the 2 experimentally determined
+branching ratios)
+MRH 30-Aug-2009
+""",
+)
+
+
+entry(
     index = 506,
     label = "C_rad/H2/Cd;C/H2/Nd_Csrad",
     kinetics = ArrheniusEP(
@@ -614,6 +692,21 @@ MRH 31-Aug-2009
 )
 
 entry(
+    index = 506,
+    label = "S_rad/OneDe;C/H/NdNd_Csrad",
+    kinetics = ArrheniusEP(
+        A = (7.63e+11, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (-0.55, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""VERY Rough estimate based on 1/10 of #3026 in R_Recombination""",
+)
+
+entry(
     index = 507,
     label = "C_rad/H2/O;C/H2/Nd_Csrad",
     kinetics = ArrheniusEP(
@@ -640,6 +733,35 @@ also estimates the branching ratio of disproportionation to addition as 0.051
 MRH 30-Aug-2009
 """,
 )
+
+entry(
+    index = 507,
+    label = "S_rad/NonDeC;C/H/NdNd_Csrad",
+    kinetics = ArrheniusEP(
+        A = (7.63e+11, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (-0.55, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Rough estimate based on 1/10 of #3026 in R_Recombination""",
+    longDesc = 
+u"""
+[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
+Literature review.  CH2OH + n-C3H7 --> C3H6 + CH3OH
+
+pg. 926: Discussion on evaluated data
+
+Entry 41,39 (c): No data available at the time.  Author estimates the rate coefficient
+
+for the addition rxn to be similar to the rate for n-C3H7+n-C3H7=>adduct.  Author
+also estimates the branching ratio of disproportionation to addition as 0.051
+MRH 30-Aug-2009
+""",
+)
+
 
 entry(
     index = 508,
@@ -729,6 +851,33 @@ MRH 30-Aug-2009
 )
 
 entry(
+    index = 510,
+    label = "S_rad/NonDeS;C/H2/Nd_Csrad/H/Cd",
+    kinetics = ArrheniusEP(
+        A = (6.44e+08, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 1.19,
+        E0 = (0.51, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Very rough based on R_Recomb #491""",
+    longDesc = 
+u"""
+[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
+Literature review.  C2H3 + n-C3H7 --> C3H6 + C2H4
+
+pg. 922: Discussion on evaluated data
+
+Entry 41,19 (a): No data available at the time.  Author estimates the rate coefficient
+
+based on the rxn C2H5+n-C3H7=C3H6=C2H6.
+MRH 30-Aug-2009
+""",
+)
+
+entry(
     index = 511,
     label = "Ct_rad/Ct;C/H2/Nd_Csrad",
     kinetics = ArrheniusEP(
@@ -741,6 +890,34 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [91] Literature review.""",
+    longDesc = 
+u"""
+[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
+Literature review.  C2H + n-C3H7 --> C3H6 + C2H2
+
+pg. 923: Discussion on evaluated data
+
+Entry 41,21 (a): No data available at the time.  Author notes that the rxn is more exothermic
+
+than the rxn CH3+n-C3H7=C3H6+CH4 and suggests a rate coefficient 3x larger,
+namely 1.0x10^-11 cm3/molecule/s.
+MRH 30-Aug-2009
+""",
+)
+
+entry(
+    index = 511,
+    label = "S_rad/NonDeS;S_Csrad",
+    kinetics = ArrheniusEP(
+        A = (6.44e+08, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 1.19,
+        E0 = (0.51, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Very rough based on R_Recomb #491""",
     longDesc = 
 u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
