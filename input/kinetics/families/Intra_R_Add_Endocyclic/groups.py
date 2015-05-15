@@ -375,6 +375,51 @@ The multiple bond being attacked is a C=O bond.
 
 entry(
     index = 27,
+    label = "R5_SS_CS",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 R!H u0 {1,S} {3,S}
+3 *5 R!H u0 {2,S} {4,S}
+4 *2 Cd  u0 {3,S} {5,D}
+5 *3 Sd  u0 {4,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 28,
+    label = "Cs-R5_SS_CS",
+    group = 
+"""
+1 *1 Cs  u1 {2,S} {6,S}
+2 *4 R!H u0 {1,S} {3,S}
+3 *5 R!H u0 {2,S} {4,S}
+4 *2 Cd  u0 {3,S} {5,D}
+5 *3 Sd  u0 {4,D}
+6    Cs  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 29,
+    label = "H2-R5_SS_CS",
+    group = 
+"""
+1 *1 Cs  u1 {2,S} {6,S} {7,S}
+2 *4 R!H u0 {1,S} {3,S}
+3 *5 R!H u0 {2,S} {4,S}
+4 *2 Cd  u0 {3,S} {5,D}
+5 *3 Sd  u0 {4,D}
+6    H   u0 {1,S}
+7    H   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 30,
     label = "R5_SM",
     group = 
 """
@@ -468,6 +513,20 @@ The multiple bond being attacked is a C=O bond.
 
 entry(
     index = 35,
+    label = "R5_SD_CS",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 Cd  u0 {1,S} {3,D}
+3 *5 Cd  u0 {2,D} {4,S}
+4 *2 Cd  u0 {3,S} {5,D}
+5 *3 Sd  u0 {4,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 35,
     label = "R5_DS",
     group = 
 """
@@ -543,6 +602,20 @@ The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are double, then single. (The next is a single)
 The multiple bond being attacked is a C=O bond.
 """,
+)
+
+entry(
+    index = 44,
+    label = "R5_DS_CS",
+    group = 
+"""
+1 *1 Cd  u1 {2,D}
+2 *4 Cd  u0 {1,D} {3,S}
+3 *5 R!H u0 {2,S} {4,S}
+4 *2 Cd  u0 {3,S} {5,D}
+5 *3 Sd  u0 {4,D}
+""",
+    kinetics = None,
 )
 
 entry(
@@ -2227,11 +2300,15 @@ L1: Rn
             L4: R5_SS_D
             L4: R5_SS_T
             L4: R5_SS_CO
+            L4: R5_SS_CS
+                L5: Cs-R5_SS_CS
+                L5: H2-R5_SS_CS
         L3: R5_SM
             L4: R5_SD
                 L5: R5_SD_D
                 L5: R5_SD_T
                 L5: R5_SD_CO
+                L5: R5_SD_CS
             L4: R5_ST
                 L5: R5_ST_D
                 L5: R5_ST_T
@@ -2241,6 +2318,7 @@ L1: Rn
                 L5: R5_DS_D
                 L5: R5_DS_T
                 L5: R5_DS_CO
+                L5: R5_DS_CS
             L4: R5_TS
                 L5: R5_TS_D
                 L5: R5_TS_T
