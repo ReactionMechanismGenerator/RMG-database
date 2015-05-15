@@ -5586,6 +5586,51 @@ entry(
 )
 
 entry(
+    index = 565,
+    label = "C/H2/CSCs;S_pri_rad",
+    kinetics = ArrheniusEP(
+        A = (96.1, 'cm^3/(mol*s)'),
+        n = 3.34,
+        alpha = 0,
+        E0 = (-0.27, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CAC CBS-QB3 1dhr""",
+)
+
+entry(
+    index = 566,
+    label = "C/H2/CSCs;Cs_rad",
+    kinetics = ArrheniusEP(
+        A = (12.1, 'cm^3/(mol*s)'),
+        n = 3.35,
+        alpha = 0,
+        E0 = (3.49, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CAC CBS-QB3 1dhr""",
+)
+
+entry(
+    index = 567,
+    label = "C/H2/CdS;S_rad/NonDeC",
+    kinetics = ArrheniusEP(
+        A = (0.0188, 'cm^3/(mol*s)'),
+        n = 4.57,
+        alpha = 0,
+        E0 = (4.06, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""CAC CBS-QB3, HO approx""",
+)
+
+entry(
     index = 1001,
     label = "C/H3/O;H_rad",
     kinetics = ArrheniusEP(
@@ -5675,85 +5720,85 @@ entry(
     index = 1192,
     label = "S_pri;O_pri_rad",
     kinetics = ArrheniusEP(
-        A = (23300, 'cm^3/(mol*s)'),
-        n = 2.61,
+        A = (6.3e+07, 'cm^3/(mol*s)'),
+        n = 1.71,
         alpha = 0,
-        E0 = (11.35, 'kcal/mol'),
+        E0 = (-0.67, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""CAC calculation CBS-QB3 1dhr""",
+    rank = 2,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
 entry(
     index = 1193,
     label = "S/H/NonDeC;O_pri_rad",
     kinetics = ArrheniusEP(
-        A = (3490, 'cm^3/(mol*s)'),
-        n = 3.13,
+        A = (203000, 'cm^3/(mol*s)'),
+        n = 2.41,
         alpha = 0,
-        E0 = (-1.73, 'kcal/mol'),
+        E0 = (-4.19, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""CAC calculation CBS-QB3 1dhr""",
+    rank = 2,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
 entry(
     index = 1194,
     label = "S/H/NonDeC;O_rad/NonDeC",
     kinetics = ArrheniusEP(
-        A = (28400, 'cm^3/(mol*s)'),
-        n = 2.79,
+        A = (1.32e+06, 'cm^3/(mol*s)'),
+        n = 2.09,
         alpha = 0,
-        E0 = (2.64, 'kcal/mol'),
+        E0 = (-0.47, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""CAC calculation CBS-QB3 1dhr""",
+    rank = 2,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
 entry(
     index = 1195,
-    label = "S_pri;O_rad/OneDe",
+    label = "S_pri;O_rad/NonDeC",
     kinetics = ArrheniusEP(
-        A = (641, 'cm^3/(mol*s)'),
-        n = 2.6,
+        A = (20900, 'cm^3/(mol*s)'),
+        n = 2.44,
         alpha = 0,
-        E0 = (-8.23, 'kcal/mol'),
+        E0 = (1.19, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""CAC calculation CBS-QB3 *HO approx*""",
+    rank = 2,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
 entry(
     index = 1196,
-    label = "C/H2/CsS;CO_rad/NonDe",
+    label = "CO/H/NonDe;C_rad/H/CsS",
     kinetics = ArrheniusEP(
-        A = (14.1, 'cm^3/(mol*s)'),
-        n = 3.53,
+        A = (0.000194, 'cm^3/(mol*s)'),
+        n = 4.68,
         alpha = 0,
-        E0 = (13.23, 'kcal/mol'),
+        E0 = (6.31, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""CAC calculation CBS-QB3 1dhr""",
+    rank = 2,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
 entry(
     index = 1197,
     label = "C/H/CsOS;Cs_rad",
     kinetics = ArrheniusEP(
-        A = (0.00668, 'cm^3/(mol*s)'),
-        n = 4.12,
+        A = (0.512, 'cm^3/(mol*s)'),
+        n = 3.74,
         alpha = 0,
-        E0 = (2.94, 'kcal/mol'),
+        E0 = (3.72, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -5765,30 +5810,75 @@ entry(
     index = 1198,
     label = "S/H/CO;Cs_rad",
     kinetics = ArrheniusEP(
-        A = (58300, 'cm^3/(mol*s)'),
-        n = 1.97,
+        A = (1.34, 'cm^3/(mol*s)'),
+        n = 3.51,
         alpha = 0,
-        E0 = (-0.83, 'kcal/mol'),
+        E0 = (-0.85, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""CAC calculation CBS-QB3 1dhr""",
+    rank = 2,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
 entry(
     index = 1199,
     label = "C/H/CsOS;S_pri_rad",
     kinetics = ArrheniusEP(
-        A = (2890, 'cm^3/(mol*s)'),
-        n = 2.95,
+        A = (111000, 'cm^3/(mol*s)'),
+        n = 2.47,
         alpha = 0,
-        E0 = (0.04, 'kcal/mol'),
+        E0 = (0.74, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""CAC calculation CBS-QB3 1dhr (py)""",
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
+)
+
+entry(
+    index = 1200,
+    label = "CO/H/NonDe;S_pri_rad",
+    kinetics = ArrheniusEP(
+        A = (11900, 'cm^3/(mol*s)'),
+        n = 2.9,
+        alpha = 0,
+        E0 = (0.18, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
+)
+
+entry(
+    index = 1201,
+    label = "O/H/OneDe;S_pri_rad",
+    kinetics = ArrheniusEP(
+        A = (0.0204, 'cm^3/(mol*s)'),
+        n = 4.42,
+        alpha = 0,
+        E0 = (6.65, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
+)
+
+entry(
+    index = 1202,
+    label = "O/H/OneDe;S_rad/NonDeC",
+    kinetics = ArrheniusEP(
+        A = (2.95e-06, 'cm^3/(mol*s)'),
+        n = 5.63,
+        alpha = 0,
+        E0 = (11.75, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
 entry(
