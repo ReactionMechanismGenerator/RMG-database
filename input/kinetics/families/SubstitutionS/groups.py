@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 
-template(reactants=["S-RR", "YJ"], products=["S-RR", "YJ"], ownReverse=True)
+template(reactants=["S-RR_or_RRrad", "YJ"], products=["S-RR_or_RRrad", "YJ"], ownReverse=True)
 
 recipe(actions=[
     ['BREAK_BOND', '*1', 'S', '*2'],
@@ -18,13 +18,8 @@ recipe(actions=[
 
 entry(
     index = 1,
-    label = "S-RR",
-    group = 
-"""
-1 *1 Ss u0 {2,S} {3,S}
-2 *2 R  u0 {1,S}
-3    R  u0 {1,S}
-""",
+    label = "S-RR_or_RRrad",
+    group = "OR{S-RR, S-RRrad}",
     kinetics = None,
 )
 
@@ -37,6 +32,30 @@ entry(
 
 entry(
     index = 3,
+    label = "S-RR",
+    group = 
+"""
+1 *1 Ss u0 {2,S} {3,S}
+2 *2 R  u0 {1,S}
+3    R  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 227,
+    label = "S-RRrad",
+    group = 
+"""
+1 *1 Ss u0 {2,S} {3,S}
+2 *2 R  u1 {1,S}
+3    R  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 4,
     label = "S-HH",
     group = 
 """
@@ -3344,6 +3363,16 @@ entry(
 """,
     kinetics = None,
 )
+entry(
+    index = 229,
+    label = "S2b",
+    group = 
+"""
+1 *3 Ss u1 {2,S}
+2    Ss u1 {1,S}
+""",
+    kinetics = None,
+)
 
 entry(
     index = 226,
@@ -4784,8 +4813,8 @@ entry(
     label = "Y_2centeradjbirad",
     group = 
 """
-1 *3 [Ct,Os] u1 {2,[S,T]}
-2    [Ct,Os] u1 {1,[S,T]}
+1 *3 [Ct,Os,Ss] u1 {2,[S,T]}
+2    [Ct,Os,Ss] u1 {1,[S,T]}
 """,
     kinetics = None,
 )
@@ -5003,260 +5032,242 @@ entry(
 
 tree(
 """
-L1: S-RR
-    L2: S-HH
-    L2: S-CH
-        L3: S-CsH
-            L4: S-Cs(NonDe)H
-                L5: S-Cs(HHH)H
-                L5: S-Cs(CsHH)H
-                L5: S-Cs(CsCsH)H
-                L5: S-Cs(CsCsCs)H
-            L4: S-Cs(OneDe)H
-                L5: S-Cs(CdHH)H
-                L5: S-Cs(CdCsH)H
-                L5: S-Cs(CdCsCs)H
-                L5: S-Cs(CtHH)H
-                L5: S-Cs(CtCsH)H
-                L5: S-Cs(CtCsCs)H
-            L4: S-Cs(TwoDe)H
-            L4: S-Cs(ThreeDe)H
-        L3: S-CtH
-        L3: S-CbH
-        L3: S-COH
-        L3: S-CdH
-            L4: S-Cds(H)H
-            L4: S-Cds(Cs)H
-        L3: S-C=SH
-    L2: S-HC
-        L3: S-HCs
-            L4: S-HCs(NonDe)
-                L5: S-HCs(HHH)
-                L5: S-HCs(CsHH)
-                L5: S-HCs(CsCsH)
-                L5: S-HCs(CsCsCs)
-                L5: S-HCs(CsOsH)
-            L4: S-HCs(OneDe)
-                L5: S-HCs(CdHH)
-                L5: S-HCs(CdCsH)
-                L5: S-HCs(CdCsCs)
-                L5: S-HCs(CtHH)
-                L5: S-HCs(CtCsH)
-                L5: S-HCs(CtCsCs)
-            L4: S-HCs(TwoDe)
-            L4: S-HCs(ThreeDe)
-        L3: S-HCt
-        L3: S-HCb
-        L3: S-HCO
-            L4: S-HCO(H)
-        L3: S-HCd
-            L4: S-HCds(H)
-            L4: S-HCds(Cs)
-        L3: S-HC=S
-    L2: S-CC
-        L3: S-CsCs
-            L4: S-Cs(NonDe)Cs(NonDe)
-                L5: S-Cs(HHH)Cs(HHH)
-                L5: S-Cs(HHH)Cs(CsHH)
-                L5: S-Cs(CsHH)Cs(HHH)
-                L5: S-Cs(HHH)Cs(CsCsH)
-                L5: S-Cs(CsCsH)Cs(HHH)
-                L5: S-Cs(HHH)Cs(CsCsCs)
-                L5: S-Cs(CsCsCs)Cs(HHH)
-                L5: S-Cs(CsHH)Cs(CsHH)
-                L5: S-Cs(CsHH)Cs(CsCsH)
-                L5: S-Cs(CsCsH)Cs(CsHH)
-                L5: S-Cs(CsHH)Cs(CsCsCs)
-                L5: S-Cs(CsCsCs)Cs(CsHH)
-                L5: S-Cs(CsCsH)Cs(CsCsH)
-                L5: S-Cs(CsCsH)Cs(CsCsCs)
-                L5: S-Cs(CsCsCs)Cs(CsCsH)
-                L5: S-Cs(CsCsCs)Cs(CsCsCs)
-            L4: S-Cs(NonDe)Cs(De)
-                L5: S-Cs(NonDe)Cs(OneDe)
-                    L6: S-Cs(HHH)Cs(CdHH)
-                    L6: S-Cs(HHH)Cs(CdCsH)
-                    L6: S-Cs(HHH)Cs(CdCsCs)
-                    L6: S-Cs(HHH)Cs(CtHH)
-                    L6: S-Cs(HHH)Cs(CtCsH)
-                    L6: S-Cs(HHH)Cs(CtCsCs)
-                L5: S-Cs(NonDe)Cs(TwoDe)
-                L5: S-Cs(NonDe)Cs(ThreeDe)
-            L4: S-Cs(De)Cs(NonDe)
-                L5: S-Cs(OneDe)Cs(NonDe)
-                    L6: S-Cs(CdHH)Cs(HHH)
-                    L6: S-Cs(CdCsH)Cs(HHH)
-                    L6: S-Cs(CdCsCs)Cs(HHH)
-                    L6: S-Cs(CtHH)Cs(HHH)
-                    L6: S-Cs(CtCsH)Cs(HHH)
-                    L6: S-Cs(CtCsCs)Cs(HHH)
-                L5: S-Cs(TwoDe)Cs(NonDe)
-                L5: S-Cs(ThreeDe)Cs(NonDe)
-        L3: S-CsCt
-            L4: S-Cs(HHH)Ct
-            L4: S-Cs(CsHH)Ct
-            L4: S-Cs(CsCsH)Ct
-            L4: S-Cs(CsCsCs)Ct
-        L3: S-CtCs
-            L4: S-CtCs(HHH)
-            L4: S-CtCs(CsHH)
-            L4: S-CtCs(CsCsH)
-            L4: S-CtCs(CsCsCs)
-        L3: S-CsCb
-            L4: S-Cs(HHH)Cb
-            L4: S-Cs(CsHH)Cb
-            L4: S-Cs(CsCsH)Cb
-            L4: S-Cs(CsCsCs)Cb
-        L3: S-CbCs
-            L4: S-CbCs(HHH)
-            L4: S-CbCs(CsHH)
-            L4: S-CbCs(CsCsH)
-            L4: S-CbCs(CsCsCs)
-        L3: S-CsCO
-        L3: S-COCs
-        L3: S-CtCt
-        L3: S-CtCb
-        L3: S-CbCt
-        L3: S-CtCO
-        L3: S-COCt
-        L3: S-CbCb
-        L3: S-CbCO
-        L3: S-COCb
-        L3: S-COCO
-        L3: S-CsCd
-            L4: S-Cs(HHH)Cds(H)
-            L4: S-Cs(CsHH)Cds(H)
-            L4: S-Cs(CsCsH)Cds(H)
-            L4: S-Cs(CsCsCs)Cds(H)
-            L4: S-Cs(HHH)Cds(Cs)
-            L4: S-Cs(CsHH)Cds(Cs)
-            L4: S-Cs(CsCsH)Cds(Cs)
-            L4: S-Cs(CsCsCs)Cds(Cs)
-        L3: S-CdCs
-            L4: S-Cds(H)Cs(HHH)
-            L4: S-Cds(H)Cs(CsHH)
-            L4: S-Cds(H)Cs(CsCsH)
-            L4: S-Cds(H)Cs(CsCsCs)
-            L4: S-Cds(Cs)Cs(HHH)
-            L4: S-Cds(Cs)Cs(CsHH)
-            L4: S-Cds(Cs)Cs(CsCsH)
-            L4: S-Cds(Cs)Cs(CsCsCs)
-        L3: S-CsC=S
-        L3: S-C=SCs
-        L3: S-CdCt
-        L3: S-CtCd
-        L3: S-CdCb
-        L3: S-CbCd
-        L3: S-CdCO
-        L3: S-COCd
-        L3: S-CtC=S
-        L3: S-C=SCt
-        L3: S-CbC=S
-        L3: S-C=SCb
-        L3: S-COC=S
-        L3: S-C=SCO
-        L3: S-CdCd
-        L3: S-CdC=S
-        L3: S-C=SCd
-        L3: S-C=SC=S
-    L2: S-CS
-        L3: S-CsSs
-            L4: S-Cs(HHH)Ss(H)
-            L4: S-Cs(CsHH)Ss(H)
-            L4: S-Cs(CsCsH)Ss(H)
-            L4: S-Cs(CsCsCs)Ss(H)
-            L4: S-Cs(HHH)Ss(Cs)
-            L4: S-Cs(CsHH)Ss(Cs)
-            L4: S-Cs(CsCsH)Ss(Cs)
-            L4: S-Cs(CsCsCs)Ss(Cs)
-            L4: S-Cs(HHH)Ss(Ss)
-            L4: S-Cs(CsHH)Ss(Ss)
-            L4: S-Cs(CsCsH)Ss(Ss)
-            L4: S-Cs(CsCsCs)Ss(Ss)
-        L3: S-CtSs
-        L3: S-CbSs
-        L3: S-COSs
-        L3: S-CdSs
-            L4: S-Cds(H)Ss(H)
-            L4: S-Cds(H)Ss(Cs)
-            L4: S-Cds(H)Ss(Ss)
-            L4: S-Cds(Cs)Ss(H)
-            L4: S-Cds(Cs)Ss(Cs)
-            L4: S-Cds(Cs)Ss(Ss)
-        L3: S-C=SSs
-    L2: S-SC
-        L3: S-SsCs
-            L4: S-Ss(H)Cs(HHH)
-            L4: S-Ss(H)Cs(CsHH)
-            L4: S-Ss(H)Cs(CsCsH)
-            L4: S-Ss(H)Cs(CsCsCs)
-            L4: S-Ss(Cs)Cs(HHH)
-            L4: S-Ss(Cs)Cs(CsHH)
-            L4: S-Ss(Cs)Cs(CsCsH)
-            L4: S-Ss(Cs)Cs(CsCsCs)
-            L4: S-Ss(Ss)Cs(HHH)
-            L4: S-Ss(Ss)Cs(CsHH)
-            L4: S-Ss(Ss)Cs(CsCsH)
-            L4: S-Ss(Ss)Cs(CsCsCs)
-        L3: S-SsCt
-        L3: S-SsCb
-        L3: S-SsCO
-        L3: S-SsCd
-            L4: S-Ss(H)Cds(H)
-            L4: S-Ss(Cs)Cds(H)
-            L4: S-Ss(Ss)Cds(H)
-            L4: S-Ss(H)Cds(Cs)
-            L4: S-Ss(Cs)Cds(Cs)
-            L4: S-Ss(Ss)Cds(Cs)
-        L3: S-SsC=S
-    L2: S-SsH
-        L3: S-Ss(H)H
-        L3: S-Ss(Cs)H
-        L3: S-Ss(Ss)H
-    L2: S-HSs
-        L3: S-HSs(H)
-        L3: S-HSs(Cs)
-        L3: S-HSs(Ss)
-    L2: S-SsSs
-        L3: S-Ss(H)Ss(H)
-        L3: S-Ss(Cs)Ss(H)
-        L3: S-Ss(H)Ss(Cs)
-        L3: S-Ss(Ss)Ss(H)
-        L3: S-Ss(H)Ss(Ss)
-        L3: S-Ss(Cs)Ss(Cs)
-        L3: S-Ss(Cs)Ss(Ss)
-        L3: S-Ss(Ss)Ss(Cs)
-        L3: S-Ss(Ss)Ss(Ss)
+L1: S-RR_or_RRrad
+    L2: S-RR
+        L3: S-HH
+        L3: S-CH
+            L4: S-CsH
+                L5: S-Cs(NonDe)H
+                    L6: S-Cs(HHH)H
+                    L6: S-Cs(CsHH)H
+                    L6: S-Cs(CsCsH)H
+                    L6: S-Cs(CsCsCs)H
+                L5: S-Cs(OneDe)H
+                    L6: S-Cs(CdHH)H
+                    L6: S-Cs(CdCsH)H
+                    L6: S-Cs(CdCsCs)H
+                    L6: S-Cs(CtHH)H
+                    L6: S-Cs(CtCsH)H
+                    L6: S-Cs(CtCsCs)H
+                L5: S-Cs(TwoDe)H
+                L5: S-Cs(ThreeDe)H
+            L4: S-CdH
+                L5: S-Cds(H)H
+                L5: S-Cds(Cs)H
+            L4: S-CtH
+            L4: S-CbH
+            L4: S-COH
+            L4: S-C=SH
+        L3: S-HC
+            L4: S-HCs
+                L5: S-HCs(NonDe)
+                    L6: S-HCs(HHH)
+                    L6: S-HCs(CsHH)
+                    L6: S-HCs(CsCsH)
+                    L6: S-HCs(CsCsCs)
+                    L6: S-HCs(CsOsH)
+                L5: S-HCs(OneDe)
+                    L6: S-HCs(CdHH)
+                    L6: S-HCs(CdCsH)
+                    L6: S-HCs(CdCsCs)
+                    L6: S-HCs(CtHH)
+                    L6: S-HCs(CtCsH)
+                    L6: S-HCs(CtCsCs)
+                L5: S-HCs(TwoDe)
+                L5: S-HCs(ThreeDe)
+            L4: S-HCd
+                L5: S-HCds(H)
+                L5: S-HCds(Cs)
+            L4: S-HCt
+            L4: S-HCb
+            L4: S-HCO
+                L5: S-HCO(H)
+            L4: S-HC=S
+        L3: S-CC
+            L4: S-CsCs
+                L5: S-Cs(NonDe)Cs(NonDe)
+                    L6: S-Cs(HHH)Cs(HHH)
+                    L6: S-Cs(HHH)Cs(CsHH)
+                    L6: S-Cs(CsHH)Cs(HHH)
+                    L6: S-Cs(HHH)Cs(CsCsH)
+                    L6: S-Cs(CsCsH)Cs(HHH)
+                    L6: S-Cs(HHH)Cs(CsCsCs)
+                    L6: S-Cs(CsCsCs)Cs(HHH)
+                    L6: S-Cs(CsHH)Cs(CsHH)
+                    L6: S-Cs(CsHH)Cs(CsCsH)
+                    L6: S-Cs(CsCsH)Cs(CsHH)
+                    L6: S-Cs(CsHH)Cs(CsCsCs)
+                    L6: S-Cs(CsCsCs)Cs(CsHH)
+                    L6: S-Cs(CsCsH)Cs(CsCsH)
+                    L6: S-Cs(CsCsH)Cs(CsCsCs)
+                    L6: S-Cs(CsCsCs)Cs(CsCsH)
+                    L6: S-Cs(CsCsCs)Cs(CsCsCs)
+                L5: S-Cs(NonDe)Cs(De)
+                    L6: S-Cs(NonDe)Cs(OneDe)
+                        L7: S-Cs(HHH)Cs(CdHH)
+                        L7: S-Cs(HHH)Cs(CdCsH)
+                        L7: S-Cs(HHH)Cs(CdCsCs)
+                        L7: S-Cs(HHH)Cs(CtHH)
+                        L7: S-Cs(HHH)Cs(CtCsH)
+                        L7: S-Cs(HHH)Cs(CtCsCs)
+                    L6: S-Cs(NonDe)Cs(TwoDe)
+                    L6: S-Cs(NonDe)Cs(ThreeDe)
+                L5: S-Cs(De)Cs(NonDe)
+                    L6: S-Cs(OneDe)Cs(NonDe)
+                        L7: S-Cs(CdHH)Cs(HHH)
+                        L7: S-Cs(CdCsH)Cs(HHH)
+                        L7: S-Cs(CdCsCs)Cs(HHH)
+                        L7: S-Cs(CtHH)Cs(HHH)
+                        L7: S-Cs(CtCsH)Cs(HHH)
+                        L7: S-Cs(CtCsCs)Cs(HHH)
+                    L6: S-Cs(TwoDe)Cs(NonDe)
+                    L6: S-Cs(ThreeDe)Cs(NonDe)
+            L4: S-CsCd
+                L5: S-Cs(HHH)Cds(H)
+                L5: S-Cs(CsHH)Cds(H)
+                L5: S-Cs(CsCsH)Cds(H)
+                L5: S-Cs(CsCsCs)Cds(H)
+                L5: S-Cs(HHH)Cds(Cs)
+                L5: S-Cs(CsHH)Cds(Cs)
+                L5: S-Cs(CsCsH)Cds(Cs)
+                L5: S-Cs(CsCsCs)Cds(Cs)
+            L4: S-CdCs
+                L5: S-Cds(H)Cs(HHH)
+                L5: S-Cds(H)Cs(CsHH)
+                L5: S-Cds(H)Cs(CsCsH)
+                L5: S-Cds(H)Cs(CsCsCs)
+                L5: S-Cds(Cs)Cs(HHH)
+                L5: S-Cds(Cs)Cs(CsHH)
+                L5: S-Cds(Cs)Cs(CsCsH)
+                L5: S-Cds(Cs)Cs(CsCsCs)
+            L4: S-CsCt
+                L5: S-Cs(HHH)Ct
+                L5: S-Cs(CsHH)Ct
+                L5: S-Cs(CsCsH)Ct
+                L5: S-Cs(CsCsCs)Ct
+            L4: S-CtCs
+                L5: S-CtCs(HHH)
+                L5: S-CtCs(CsHH)
+                L5: S-CtCs(CsCsH)
+                L5: S-CtCs(CsCsCs)
+            L4: S-CsCb
+                L5: S-Cs(HHH)Cb
+                L5: S-Cs(CsHH)Cb
+                L5: S-Cs(CsCsH)Cb
+                L5: S-Cs(CsCsCs)Cb
+            L4: S-CbCs
+                L5: S-CbCs(HHH)
+                L5: S-CbCs(CsHH)
+                L5: S-CbCs(CsCsH)
+                L5: S-CbCs(CsCsCs)
+            L4: S-CsCO
+            L4: S-COCs
+            L4: S-CsC=S
+            L4: S-C=SCs
+            L4: S-CdCd
+            L4: S-CdCt
+            L4: S-CtCd
+            L4: S-CdCb
+            L4: S-CbCd
+            L4: S-CdCO
+            L4: S-COCd
+            L4: S-CdC=S
+            L4: S-C=SCd
+            L4: S-CtCt
+            L4: S-CtCb
+            L4: S-CbCt
+            L4: S-CtCO
+            L4: S-COCt
+            L4: S-CtC=S
+            L4: S-C=SCt
+            L4: S-CbCb
+            L4: S-CbCO
+            L4: S-COCb
+            L4: S-CbC=S
+            L4: S-C=SCb
+            L4: S-COCO
+            L4: S-COC=S
+            L4: S-C=SCO
+            L4: S-C=SC=S
+        L3: S-CS
+            L4: S-CsSs
+                L5: S-Cs(HHH)Ss(H)
+                L5: S-Cs(CsHH)Ss(H)
+                L5: S-Cs(CsCsH)Ss(H)
+                L5: S-Cs(CsCsCs)Ss(H)
+                L5: S-Cs(HHH)Ss(Cs)
+                L5: S-Cs(CsHH)Ss(Cs)
+                L5: S-Cs(CsCsH)Ss(Cs)
+                L5: S-Cs(CsCsCs)Ss(Cs)
+                L5: S-Cs(HHH)Ss(Ss)
+                L5: S-Cs(CsHH)Ss(Ss)
+                L5: S-Cs(CsCsH)Ss(Ss)
+                L5: S-Cs(CsCsCs)Ss(Ss)
+            L4: S-CdSs
+                L5: S-Cds(H)Ss(H)
+                L5: S-Cds(H)Ss(Cs)
+                L5: S-Cds(H)Ss(Ss)
+                L5: S-Cds(Cs)Ss(H)
+                L5: S-Cds(Cs)Ss(Cs)
+                L5: S-Cds(Cs)Ss(Ss)
+            L4: S-CtSs
+            L4: S-CbSs
+            L4: S-COSs
+            L4: S-C=SSs
+        L3: S-SC
+            L4: S-SsCs
+                L5: S-Ss(H)Cs(HHH)
+                L5: S-Ss(H)Cs(CsHH)
+                L5: S-Ss(H)Cs(CsCsH)
+                L5: S-Ss(H)Cs(CsCsCs)
+                L5: S-Ss(Cs)Cs(HHH)
+                L5: S-Ss(Cs)Cs(CsHH)
+                L5: S-Ss(Cs)Cs(CsCsH)
+                L5: S-Ss(Cs)Cs(CsCsCs)
+                L5: S-Ss(Ss)Cs(HHH)
+                L5: S-Ss(Ss)Cs(CsHH)
+                L5: S-Ss(Ss)Cs(CsCsH)
+                L5: S-Ss(Ss)Cs(CsCsCs)
+            L4: S-SsCd
+                L5: S-Ss(H)Cds(H)
+                L5: S-Ss(Cs)Cds(H)
+                L5: S-Ss(Ss)Cds(H)
+                L5: S-Ss(H)Cds(Cs)
+                L5: S-Ss(Cs)Cds(Cs)
+                L5: S-Ss(Ss)Cds(Cs)
+            L4: S-SsCt
+            L4: S-SsCb
+            L4: S-SsCO
+            L4: S-SsC=S
+        L3: S-SsH
+            L4: S-Ss(H)H
+            L4: S-Ss(Cs)H
+            L4: S-Ss(Ss)H
+        L3: S-HSs
+            L4: S-HSs(H)
+            L4: S-HSs(Cs)
+            L4: S-HSs(Ss)
+        L3: S-SsSs
+            L4: S-Ss(H)Ss(H)
+            L4: S-Ss(Cs)Ss(H)
+            L4: S-Ss(H)Ss(Cs)
+            L4: S-Ss(Ss)Ss(H)
+            L4: S-Ss(H)Ss(Ss)
+            L4: S-Ss(Cs)Ss(Cs)
+            L4: S-Ss(Cs)Ss(Ss)
+            L4: S-Ss(Ss)Ss(Cs)
+            L4: S-Ss(Ss)Ss(Ss)
+    L2: S-RRrad
 L1: YJ
+    L2: Y_2centeradjbirad
+        L3: S2b
+        L3: O2b
+        L3: C2b
+    L2: Y_1centerbirad
+        L3: O_atom_triplet
+        L3: CH2_triplet
     L2: HJ
     L2: CJ
-        L3: CbJ
-        L3: CtJ
-        L3: CdsJ
-            L4: CdsJ-H
-            L4: CdsJ-Cs
-            L4: CdsJ-Ct
-            L4: CdsJ-Cb
-            L4: CdsJ-CO
-            L4: CdsJ-Os
-            L4: CdsJ-Ss
-            L4: CdsJ-Cd
-            L4: CdsJ-C=S
-        L3: C=SJ
-            L4: C=SJ-H
-            L4: C=SJ-Cs
-            L4: C=SJ-Ct
-            L4: C=SJ-Cb
-            L4: C=SJ-CO
-            L4: C=SJ-Os
-            L4: C=SJ-Ss
-            L4: C=SJ-Cd
-            L4: C=SJ-C=S
-        L3: CO_rad
-            L4: CO_pri_rad
-            L4: CO_sec_rad
-                L5: CO_rad/NonDe
-                L5: CO_rad/OneDe
         L3: CsJ
             L4: CsJ-HHH
             L4: CsJ-CsHH
@@ -5276,24 +5287,24 @@ L1: YJ
             L4: CsJ-SsSsSs
             L4: CsJ-OneDe
                 L5: CsJ-OneDeHH
+                    L6: CsJ-CdHH
                     L6: CsJ-CtHH
                     L6: CsJ-CbHH
                     L6: CsJ-COHH
-                    L6: CsJ-CdHH
                     L6: CsJ-C=SHH
                 L5: CsJ-OneDeCsH
+                    L6: CsJ-CdCsH
                     L6: CsJ-CtCsH
                     L6: CsJ-CbCsH
                     L6: CsJ-COCsH
-                    L6: CsJ-CdCsH
                     L6: CsJ-C=SCsH
                 L5: CsJ-OneDeOsH
                 L5: CsJ-OneDeSsH
                 L5: CsJ-OneDeCsCs
+                    L6: CsJ-CdCsCs
                     L6: CsJ-CtCsCs
                     L6: CsJ-CbCsCs
                     L6: CsJ-COCsCs
-                    L6: CsJ-CdCsCs
                     L6: CsJ-C=SCsCs
                 L5: CsJ-OneDeOsCs
                 L5: CsJ-OneDeSsCs
@@ -5302,65 +5313,90 @@ L1: YJ
                 L5: CsJ-OneDeSsSs
             L4: CsJ-TwoDe
                 L5: CsJ-TwoDeH
-                    L6: CsJ-CtCtH
-                    L6: CsJ-CtCbH
-                    L6: CsJ-CtCOH
-                    L6: CsJ-CbCbH
-                    L6: CsJ-CbCOH
-                    L6: CsJ-COCOH
+                    L6: CsJ-CdCdH
                     L6: CsJ-CdCtH
                     L6: CsJ-CdCbH
                     L6: CsJ-CdCOH
-                    L6: CsJ-CtC=SH
-                    L6: CsJ-CbC=SH
-                    L6: CsJ-COC=SH
-                    L6: CsJ-CdCdH
                     L6: CsJ-CdC=SH
+                    L6: CsJ-CtCtH
+                    L6: CsJ-CtCbH
+                    L6: CsJ-CtCOH
+                    L6: CsJ-CtC=SH
+                    L6: CsJ-CbCbH
+                    L6: CsJ-CbCOH
+                    L6: CsJ-CbC=SH
+                    L6: CsJ-COCOH
+                    L6: CsJ-COC=SH
                     L6: CsJ-C=SC=SH
                 L5: CsJ-TwoDeCs
-                    L6: CsJ-CtCtCs
-                    L6: CsJ-CtCbCs
-                    L6: CsJ-CtCOCs
-                    L6: CsJ-CbCbCs
-                    L6: CsJ-CbCOCs
-                    L6: CsJ-COCOCs
+                    L6: CsJ-CdCdCs
                     L6: CsJ-CdCtCs
                     L6: CsJ-CdCbCs
                     L6: CsJ-CdCOCs
-                    L6: CsJ-CtC=SCs
-                    L6: CsJ-CbC=SCs
-                    L6: CsJ-COC=SCs
-                    L6: CsJ-CdCdCs
                     L6: CsJ-CdC=SCs
+                    L6: CsJ-CtCtCs
+                    L6: CsJ-CtCbCs
+                    L6: CsJ-CtCOCs
+                    L6: CsJ-CtC=SCs
+                    L6: CsJ-CbCbCs
+                    L6: CsJ-CbCOCs
+                    L6: CsJ-CbC=SCs
+                    L6: CsJ-COCOCs
+                    L6: CsJ-COC=SCs
                     L6: CsJ-C=SC=SCs
                 L5: CsJ-TwoDeOs
                 L5: CsJ-TwoDeSs
             L4: CsJ-ThreeDe
-    L2: Y_1centerbirad
-        L3: O_atom_triplet
-        L3: CH2_triplet
-    L2: Y_2centeradjbirad
-        L3: O2b
-        L3: C2b
+        L3: CdsJ
+            L4: CdsJ-H
+            L4: CdsJ-Cs
+            L4: CdsJ-Cd
+            L4: CdsJ-Ct
+            L4: CdsJ-Cb
+            L4: CdsJ-CO
+            L4: CdsJ-C=S
+            L4: CdsJ-Os
+            L4: CdsJ-Ss
+        L3: CtJ
+        L3: CbJ
+        L3: C=SJ
+            L4: C=SJ-H
+            L4: C=SJ-Cs
+            L4: C=SJ-Cd
+            L4: C=SJ-Ct
+            L4: C=SJ-Cb
+            L4: C=SJ-CO
+            L4: C=SJ-C=S
+            L4: C=SJ-Os
+            L4: C=SJ-Ss
+        L3: CO_rad
+            L4: CO_pri_rad
+            L4: CO_sec_rad
+                L5: CO_rad/NonDe
+                L5: CO_rad/OneDe
     L2: O_rad
         L3: O_pri_rad
         L3: O_sec_rad
             L4: O_rad/NonDeC
             L4: O_rad/NonDeO
             L4: O_rad/OneDe
+    L2: Y_1centerbirad
+        L3: O_atom_triplet
+        L3: CH2_triplet
     L2: SJ
         L3: SsJ
             L4: SsJ-H
             L4: SsJ-Cs
             L4: SsJ-Ss
             L4: SsJ-OneDe
+                L5: SsJ-Cd
                 L5: SsJ-Ct
                 L5: SsJ-Cb
                 L5: SsJ-CO
-                L5: SsJ-Cd
                 L5: SsJ-C=S
 """
 )
+
 
 forbidden(
     label = "OS_birad_singlet",

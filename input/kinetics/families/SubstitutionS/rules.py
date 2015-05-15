@@ -7,6 +7,21 @@ longDesc = u"""
 
 """
 entry(
+    index = 0,
+    label = "S-RR_or_RRrad;YJ",
+    kinetics = ArrheniusEP(
+        A = (1e+09, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Default""",
+)
+
+entry(
     index = 1,
     label = "S-HCs(HHH);HJ",
     kinetics = ArrheniusEP(
@@ -2404,5 +2419,35 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""based on CAC's 131 calc""",
+)
+
+entry(
+    index = 160,
+    label = "S-HSs(H);CsJ-CdHH",
+    kinetics = ArrheniusEP(
+        A = (930, 'cm^3/(mol*s)'),
+        n = 2.61,
+        alpha = 0,
+        E0 = (10.07, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""CAC CBS-QB3, HO approx""",
+)
+
+entry(
+    index = 161,
+    label = "S-HCs(CsHH);SsJ-Cs",
+    kinetics = ArrheniusEP(
+        A = (72.5, 'cm^3/(mol*s)'),
+        n = 3.21,
+        alpha = 0,
+        E0 = (11.45, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CAC CBS-QB3 1dhr""",
 )
 
