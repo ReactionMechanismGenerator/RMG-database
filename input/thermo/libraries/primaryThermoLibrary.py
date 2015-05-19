@@ -266,7 +266,6 @@ entry(
     label = "S2",
     molecule = 
 """
-multiplicity 3
 1 S u0 p2 c0 {2,D}
 2 S u0 p2 c0 {1,D}
 """,

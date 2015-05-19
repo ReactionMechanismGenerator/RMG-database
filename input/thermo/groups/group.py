@@ -1735,7 +1735,7 @@ entry(
     label = "CO-OsSs",
     group = 
 """
-1 * C  u0 {2,D} {3,S} {4,S}
+1 * CO u0 {2,D} {3,S} {4,S}
 2   Od u0 {1,D}
 3   Os u0 {1,S}
 4   Ss u0 {1,S}
@@ -1827,7 +1827,7 @@ entry(
     label = "CS-OsOs",
     group = 
 """
-1 * C  u0 {2,D} {3,S} {4,S}
+1 * CS  u0 {2,D} {3,S} {4,S}
 2   Sd u0 {1,D}
 3   Os u0 {1,S}
 4   Os u0 {1,S}

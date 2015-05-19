@@ -19,7 +19,7 @@ longDesc = u"""
 #)
 #
 entry(
-    index = 2,
+    index = 1,
     label = "C5H11COHS <=> C5H11COSH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(59, 's^-1'), n=3.27, Ea=(19.59, 'kcal/mol'), T0=(1, 'K')),

@@ -21,56 +21,56 @@ longDesc = u"""
 #)
 #
 entry(
-    index = 3,
+    index = 1,
     label = "CH2OHSJ <=> CHOHS + HJ",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.51e+08, 's^-1'), n=1.64, Ea=(34.58, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 4,
+    index = 2,
     label = "CHCH3OHSJ <=> CHOHS + CH3J",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.09e+10, 's^-1'), n=1.02, Ea=(29.9, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 5,
+    index = 3,
     label = "CHOHS <=> CHOSH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.1e+12, 's^-1'), n=0.13, Ea=(28.48, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 6,
+    index = 4,
     label = "CHOSJ <=> COS + HJ",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.81e+09, 's^-1'), n=1.13, Ea=(17.98, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 7,
+    index = 5,
     label = "COS + H2O <=> CSOHOH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5880, 'cm^3/(mol*s)'), n=2.47, Ea=(61.59, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 8,
+    index = 6,
     label = "CSOHOH <=> COSHOH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.13e+15, 's^-1'), n=-0.65, Ea=(28.98, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 9,
+    index = 7,
     label = "COSHOH <=> CO2 + H2S",
     degeneracy = 1,
     kinetics = Arrhenius(A=(8.29, 's^-1'), n=3.63, Ea=(38.18, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 10,
+    index = 8,
     label = "COS + H2O <=> COSHOH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -82,7 +82,7 @@ entry(
 )
 
 entry(
-    index = 11,
+    index = 9,
     label = "H2S + CH2O <=> CH2OHSH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(50.2, 'cm^3/(mol*s)'), n=3.01, Ea=(38.7, 'kcal/mol'), T0=(1, 'K')),
@@ -93,7 +93,7 @@ u"""
 )
 
 entry(
-    index = 12,
+    index = 10,
     label = "H2S + CH3CHO <=> CHCH3OHSH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(46.9, 'cm^3/(mol*s)'), n=2.9, Ea=(37.1, 'kcal/mol'), T0=(1, 'K')),

@@ -3283,35 +3283,6 @@ u"""
 )
 
 entry(
-    index = 115,
-    label = "propen-1-thio",
-    molecule = 
-"""
-multiplicity 2
-1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u0 p0 c0 {2,D} {8,S} {9,S}
-4 H u0 p0 c0 {1,S}
-5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {2,S}
-8 S u1 p2 c0 {3,S}
-9 H u0 p0 c0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.85,21.76,25.27,28.23,32.83,36.21,41.42],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (37.66,'kcal/mol','+|-',1),
-        S298 = (73.01,'cal/(mol*K)','+|-',1),
-    ),
-    shortDesc = u"""Values for cis only""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 116,
     label = "CH3SSSj",
     molecule = 
@@ -3554,35 +3525,6 @@ multiplicity 2
         Cpdata = ([34.43,40.98,46.69,51.53,59.27,65.13,74.37],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
         H298 = (63.56,'kcal/mol','+|-',1),
         S298 = (102.15,'cal/(mol*K)','+|-',1),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 124,
-    label = "propan-1-yl-1-thione",
-    molecule = 
-"""
-multiplicity 2
-1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-3 C u1 p0 c0 {1,S} {9,D}
-4 H u0 p0 c0 {1,S}
-5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {2,S}
-9 S u0 p2 c0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.15,21.58,24.82,27.62,32.07,35.39,40.53],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (50.85,'kcal/mol','+|-',1),
-        S298 = (77.4,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
     longDesc = 
