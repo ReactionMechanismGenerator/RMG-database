@@ -2722,3 +2722,29 @@ L1: S-RR
 """
 )
 
+forbidden(
+    label = "RR_13",
+    group = 
+"""
+1 *1 R u0 {2,[S,D]}
+2 *3 R u1 {1,[S,D]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+forbidden(
+    label = "RR_birad",
+    group = 
+"""
+1 *3 R u1 {2,[S,D]}
+2    R u1 {1,[S,D]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
