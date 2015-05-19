@@ -159,9 +159,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.9,-1.1,-1.1,-0.9,-0.6,-0.4,-0.5],'cal/(mol*K)'),
-        H298 = (2.6,'kcal/mol'),
-        S298 = (-5.2,'cal/(mol*K)'),
+        Cpdata = ([-0.1,-0.2,-0.1,0,0.2,0.1,-0.2],'cal/(mol*K)'),
+        H298 = (3.1,'kcal/mol'),
+        S298 = (-1.9,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 

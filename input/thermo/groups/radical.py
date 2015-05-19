@@ -3602,9 +3602,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.38,-1.32,-1.19,-1.14,-1.39,-1.94,-3.4],'cal/(mol*K)'),
-        H298 = (92.1,'kcal/mol'),
-        S298 = (1.95,'cal/(mol*K)'),
+        Cpdata = ([-2.21,-2.38,-2.47,-2.55,-2.89,-3.33,-4.54],'cal/(mol*K)'),
+        H298 = (92.6,'kcal/mol'),
+        S298 = (1.67,'cal/(mol*K)'),
     ),
     shortDesc = u"""CAC CBS-QB3 1d-hr""",
     longDesc = 
@@ -5454,9 +5454,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.33,-2.82,-3.2,-3.55,-4.16,-4.61,-5.12],'cal/(mol*K)'),
-        H298 = (89.86,'kcal/mol'),
-        S298 = (-0.3,'cal/(mol*K)'),
+        Cpdata = ([-2.26,-2.82,-3.17,-3.44,-3.89,-4.29,-4.95],'cal/(mol*K)'),
+        H298 = (89.6,'kcal/mol'),
+        S298 = (-0.42,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 CAC""",
     longDesc = 
