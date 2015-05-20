@@ -26,7 +26,10 @@ entry(
 entry(
     index = 2,
     label = "YJ",
-    group = "OR{CJ, SJ, CJ-3, SJ-3}",
+    group = 
+"""
+1 *3 R!H u1
+""",
     kinetics = None,
 )
 
