@@ -8,10 +8,10 @@ longDesc = u"""
 """
 entry(
     index = 0,
-    label = "CsOsCd",
+    label = "CsOsCdSs",
     group = 
 """
-1 * [Cs,Os,Cd] u0
+1 * [Cs,Os,Cd,Ss] u0
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3019,9 +3019,120 @@ u"""
 """,
 )
 
+entry(
+    index = 96,
+    label = "Ss(RR)",
+    group = 
+"""
+1 * Ss u0
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 97,
+    label = "Ss(CsR)",
+    group = 
+"""
+1 * Ss                         u0 {2,S} {3,S}
+2   Cs                         u0 {1,S}
+3   [Cd,Cdd,Ct,Cb,Cbf,Os,CO,H] u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 98,
+    label = "Ss(CsH)",
+    group = 
+"""
+1 * Ss u0 {2,S} {3,S}
+2   Cs u0 {1,S}
+3   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 99,
+    label = "Ss(Cs(CsHH)H)",
+    group = 
+"""
+1 * Ss u0 {2,S} {3,S}
+2   Cs u0 {1,S} {4,S} {5,S} {6,S}
+3   H  u0 {1,S}
+4   H  u0 {2,S}
+5   H  u0 {2,S}
+6   Cs u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.33,0.62,0.67,0.59,0.38,0.21,-0.01],'cal/(mol*K)'),
+        H298 = (-0.97,'kcal/mol'),
+        S298 = (-1.01,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 100,
+    label = "Ss(CsCs)",
+    group = 
+"""
+1 * Ss u0 {2,S} {3,S}
+2   Cs u0 {1,S}
+3   Cs u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
 tree(
 """
-L1: CsOsCd
+L1: CsOsCdSs
     L2: Cs(RRRR)
         L3: Cs(CsRRR)
             L4: Cs(Cs(CsRR)RRR)
@@ -3117,6 +3228,11 @@ L1: CsOsCd
         L3: Cd(Cs(CsCsCs)Cs(CsRR))
         L3: Cd(Cs(CsCsCs)Cs(CsCsR))
         L3: Cd(Cs(CsCsCs)Cs(CsCsCs))
+    L2: Ss(RR)
+        L3: Ss(CsR)
+            L4: Ss(CsH)
+                L5: Ss(Cs(CsHH)H)
+        L3: Ss(CsCs)
 """
 )
 

@@ -114,7 +114,7 @@ entry(
 entry(
     index = 203,
     label = "Y_2centerbirad",
-    group = "OR{O2b, C2b}",
+    group = "OR{O2b, C2b, S2b}",
     kinetics = None,
 )
 
@@ -331,6 +331,17 @@ entry(
 """
 1 *1 S u1 {2,S}
 2    R u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 8,
+    label = "S2b",
+    group = 
+"""
+1 *1 S u1 {2,S}
+2    S u1 {1,S}
 """,
     kinetics = None,
 )
@@ -1701,6 +1712,20 @@ entry(
 )
 
 entry(
+    index = 82,
+    label = "C/H2/Nd_Srad",
+    group = 
+"""
+1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 S        u1 {1,S}
+3 *4 H        u0 {1,S}
+4    H        u0 {1,S}
+5    [Cs,O,S] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 98,
     label = "C/H2/De_Rrad",
     group = 
@@ -2695,6 +2720,7 @@ L1: Y_rad_birad_trirad_quadrad
     L2: Y_2centerbirad
         L3: O2b
         L3: C2b
+		L3: S2b
     L2: Y_1centerbirad
         L3: CO_birad_triplet
         L3: O_atom_triplet
@@ -2826,6 +2852,7 @@ L1: XH_Rrad_birad
                     L6: C/H2/Nd_COrad
                     L6: C/H2/Nd_Orad
                     L6: C/H2/Nd_Nrad
+		            L6: C/H2/Nd_Srad
                 L5: C/H2/De_Rrad
                     L6: C/H2/De_Csrad
                         L7: C/H2/De_Csrad/H/Cd

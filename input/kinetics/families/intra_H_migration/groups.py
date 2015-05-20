@@ -208,6 +208,19 @@ entry(
 
 entry(
     index = 17,
+    label = "R3H_SS_Cs",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 Cs u0 {1,S}, {3,S}
+3 *2 R!H u0 {2,S}, {4,S}
+4 *3 H u0 {3,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 17,
     label = "R3H_SS_2Cd",
     group = 
 """
@@ -3862,6 +3875,7 @@ L1: RnH
                 L5: R3H_SS
                     L6: R3H_SS_2Cd
                     L6: R3H_SS_OOCs
+                    L6: R3H_SS_Cs
                     L6: R3H_SS_S
                     L6: R3H_SS_12cy3
                     L6: R3H_SS_23cy3

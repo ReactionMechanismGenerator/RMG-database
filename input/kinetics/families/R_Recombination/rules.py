@@ -1710,6 +1710,141 @@ Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 )
 
 entry(
+    index = 480,
+    label = "SsJ-Ss;C_methyl",
+    kinetics = ArrheniusEP(
+        A = (3.94e+09, 'cm^3/(mol*s)'),
+        n = 1.25,
+        alpha = 0,
+        E0 = (-0.74, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A.G. Vandeputte""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 481,
+    label = "SsJ-Cs;SsJ-Cs",
+    kinetics = ArrheniusEP(
+        A = (1.06e+11, 'cm^3/(mol*s)'),
+        n = 1.21,
+        alpha = 0,
+        E0 = (-0.95, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A.G. Vandeputte""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 482,
+    label = "CsJ-SsHH;H_rad",
+    kinetics = ArrheniusEP(
+        A = (5e+11, 'cm^3/(mol*s)'),
+        n = 0.65,
+        alpha = 0,
+        E0 = (-0.37, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A.G. Vandeputte""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 483,
+    label = "SsJ-H;H_rad",
+    kinetics = ArrheniusEP(
+        A = (7.07e+12, 'cm^3/(mol*s)'),
+        n = 0.56,
+        alpha = 0,
+        E0 = (-0.08, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A.G. Vandeputte""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 484,
+    label = "SsJ-Ss;C_rad/Cs3",
+    kinetics = ArrheniusEP(
+        A = (3.94e+09, 'cm^3/(mol*s)'),
+        n = 1.25,
+        alpha = 0,
+        E0 = (-0.74, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A.G. Vandeputte""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 485,
+    label = "SsJ-Cs;C_rad/H2/Cs",
+    kinetics = ArrheniusEP(
+        A = (8.94e+07, 'cm^3/(mol*s)'),
+        n = 1.54,
+        alpha = 0,
+        E0 = (-1.32, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A.G. Vandeputte, calculated""",
+)
+
+entry(
+    index = 486,
+    label = "SsJ-Cs;C_methyl",
+    kinetics = ArrheniusEP(
+        A = (8.94e+07, 'cm^3/(mol*s)'),
+        n = 1.54,
+        alpha = 0,
+        E0 = (-1.32, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A.G. Vandeputte, calculated""",
+)
+
+entry(
+    index = 487,
+    label = "SsJ-Cs;C_rad/Cs3",
+    kinetics = ArrheniusEP(
+        A = (8.94e+07, 'cm^3/(mol*s)'),
+        n = 1.54,
+        alpha = 0,
+        E0 = (-1.32, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A.G. Vandeputte, calculated""",
+)
+
+entry(
     index = 481,
     label = "O2_birad;H_rad",
     kinetics = ArrheniusEP(
@@ -2038,92 +2173,6 @@ NOTE TO RMG USERS: If your model proves to be sensitive to the kinetics of the H
 encourage you to run a fame job separately, with the 1e+14 cm3 mol-1 s-1 as the total k(T) (if no better
 estimate is known).
 """,
-)
-
-entry(
-    index = 491,
-    label = "Y_rad;H_rad",
-    kinetics = ArrheniusEP(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""MRH estimate""",
-)
-
-entry(
-    index = 492,
-    label = "Y_rad;Y_rad",
-    kinetics = ArrheniusEP(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""MRH estimate""",
-    longDesc = 
-u"""
-MRH estimate
-
-A reasonable estimate for the total k_inf(T) for the recombination of two heavy atom radicals is a
-temperature-independent 1e+13 cm3 mol-1 s-1.  The actual high-P-limit k(T) sent to fame may be slightly
-larger (e.g. neo-pentane has a multiplicity of four for breaking a C-CH3 bond) but this is still
-reasonable.
-
-[Please read the comments for entry 491 - Y_rad + H_rad - for more background on the matter].
-""",
-)
-
-entry(
-    index = 492,
-    label = "SsJ-Cs;SsJ-Cs",
-    kinetics = ArrheniusEP(
-        A = (4.36e+10, 'cm^3/(mol*s)'),
-        n = 1.3,
-        alpha = 0,
-        E0 = (-0.88, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""A.G. Vandeputte""",
-)
-
-entry(
-    index = 493,
-    label = "CsJ-SsHH;H_rad",
-    kinetics = ArrheniusEP(
-        A = (8.2e+11, 'cm^3/(mol*s)'),
-        n = 0.68,
-        alpha = 0,
-        E0 = (0.07, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""A.G. Vandeputte""",
-)
-
-entry(
-    index = 494,
-    label = "SsJ-H;H_rad",
-    kinetics = ArrheniusEP(
-        A = (2.53e+13, 'cm^3/(mol*s)'),
-        n = 0.56,
-        alpha = 0,
-        E0 = (-0.02, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""A.G. Vandeputte""",
 )
 
 entry(

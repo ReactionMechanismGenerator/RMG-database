@@ -20,7 +20,7 @@ recipe(actions=[
 entry(
     index = 1,
     label = "Rn",
-    group = "OR{R3, R4, R5, R6}",
+    group = "OR{R3, R4, R5, R6, R7, R8}",
     kinetics = None,
 )
 
@@ -375,6 +375,56 @@ entry(
 4    Cd u0 {3,D} {5,S}
 5 *4 Cd u0 {4,S} {6,D}
 6 *2 Cd u1 {5,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 28,
+    label = "R7",
+    group = 
+"""
+1 *1 [Cs,Cd,CO,Os,Ss,N3s] u1 {2,[S,D]}
+2 *3 [Cs,Cd,CO,Os,Ss,N3s] u0 {1,[S,D]} {3,[S,D]}
+3    [Cs,Cd,CO,Os,Ss,N3s] u0 {2,[S,D]} {4,[S,D]}
+4    [Cs,Cd,CO,Os,Ss,N3s] u0 {3,[S,D]} {5,[S,D]}
+5    [Cs,Cd,CO,Os,Ss,N3s] u0 {4,[S,D]} {6,[S,D]}
+6 *4 [Cs,Cd,CO,Os,Ss,N3s] u0 {5,[S,D]} {7,[S,D]}
+7 *2 [Cs,Cd,CO,Os,Ss,N3s] u1 {6,[S,D]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 29,
+    label = "R8",
+    group = 
+"""
+1 *1 [Cs,Cd,CO,Os,Ss,N3s] u1 {2,[S,D]}
+2 *3 [Cs,Cd,CO,Os,Ss,N3s] u0 {1,[S,D]} {3,[S,D]}
+3    [Cs,Cd,CO,Os,Ss,N3s] u0 {2,[S,D]} {4,[S,D]}
+4    [Cs,Cd,CO,Os,Ss,N3s] u0 {3,[S,D]} {5,[S,D]}
+5    [Cs,Cd,CO,Os,Ss,N3s] u0 {4,[S,D]} {6,[S,D]}
+6    [Cs,Cd,CO,Os,Ss,N3s] u0 {5,[S,D]} {7,[S,D]}
+7 *4 [Cs,Cd,CO,Os,Ss,N3s] u0 {6,[S,D]} {8,[S,D]}
+8 *2 [Cs,Cd,CO,Os,Ss,N3s] u1 {7,[S,D]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 30,
+    label = "R8_SSSSSSS",
+    group = 
+"""
+1 *1 [Cs,Cd,CO,Os,Ss] u1 {2,S}
+2 *3 [Cs,Cd,CO,Os,Ss] u0 {1,S} {3,S}
+3    [Cs,Cd,CO,Os,Ss] u0 {2,S} {4,S}
+4    [Cs,Cd,CO,Os,Ss] u0 {3,S} {5,S}
+5    [Cs,Cd,CO,Os,Ss] u0 {4,S} {6,S}
+6    [Cs,Cd,CO,Os,Ss] u0 {5,S} {7,S}
+7 *4 [Cs,Cd,CO,Os,Ss] u0 {6,S} {8,S}
+8 *2 [Cs,Cd,CO,Os,Ss] u1 {7,S}
 """,
     kinetics = None,
 )
@@ -1030,6 +1080,9 @@ L1: Rn
         L3: R6_SDSSD
         L3: R6_DSSSD
         L3: R6_DSDSD
+    L2: R7
+    L2: R8
+        L3: R8_SSSSSSS
 L1: Y_rad_out
     L2: O_rad
     L2: S_rad

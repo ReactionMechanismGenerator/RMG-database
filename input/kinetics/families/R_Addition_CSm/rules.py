@@ -32,7 +32,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 5,
     shortDesc = u"""Guessed from CO+H_rad""",
 )
 

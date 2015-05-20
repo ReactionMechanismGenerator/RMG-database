@@ -39659,60 +39659,45 @@ entry(
     index = 3077,
     label = "Cds-OsH_Sd;HJ",
     kinetics = ArrheniusEP(
-        A = (6.45e+08, 'cm^3/(mol*s)'),
-        n = 1.4,
+        A = (2.79e+08, 'cm^3/(mol*s)'),
+        n = 1.63,
         alpha = 0,
-        E0 = (2.89, 'kcal/mol'),
+        E0 = (2.71, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""CAC CBS-QB3 1DHR""",
+    shortDesc = u"""CAC CCSD(T)-F12a/vtz-f12 1DHR""",
 )
 
 entry(
     index = 3078,
     label = "Cds-OsH_Sd;CsJ-HHH",
     kinetics = ArrheniusEP(
-        A = (172000, 'cm^3/(mol*s)'),
-        n = 1.68,
+        A = (23200, 'cm^3/(mol*s)'),
+        n = 2.35,
         alpha = 0,
-        E0 = (5.37, 'kcal/mol'),
+        E0 = (5.49, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""CAC CBS-QB3 1DHR""",
+    shortDesc = u"""CAC CCSD(T)-F12a/vtz-F12 1DHR""",
 )
 
 entry(
     index = 3079,
     label = "Cds-OsH_Sd;CsJ-CsHH",
     kinetics = ArrheniusEP(
-        A = (774, 'cm^3/(mol*s)'),
-        n = 2.56,
+        A = (1650, 'cm^3/(mol*s)'),
+        n = 2.54,
         alpha = 0,
-        E0 = (3.56, 'kcal/mol'),
+        E0 = (3.9, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""CAC CBS-QB3 1dHR""",
-)
-
-entry(
-    index = 3080,
-    label = "C=S_O;HJ",
-    kinetics = ArrheniusEP(
-        A = (5.67e+08, 'cm^3/(mol*s)'),
-        n = 1.75,
-        alpha = 0,
-        E0 = (8.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""CAC CBS-QB3""",
+    shortDesc = u"""CAC CCSD(T)-F12a/vtz-F12 1dHR""",
 )
 
 entry(
@@ -39734,10 +39719,10 @@ entry(
     index = 3082,
     label = "Cds-CsH_Sd;HJ",
     kinetics = ArrheniusEP(
-        A = (1.7e+09, 'cm^3/(mol*s)'),
-        n = 1.36,
+        A = (2.13e+09, 'cm^3/(mol*s)'),
+        n = 1.43,
         alpha = 0,
-        E0 = (1.1, 'kcal/mol'),
+        E0 = (1.14, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -39749,55 +39734,10 @@ entry(
     index = 3083,
     label = "Cds-CsH_Sd;CsJ-SsCsH",
     kinetics = ArrheniusEP(
-        A = (3.52, 'cm^3/(mol*s)'),
-        n = 3.09,
+        A = (2.57, 'cm^3/(mol*s)'),
+        n = 3.04,
         alpha = 0,
-        E0 = (-1.83, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-)
-
-entry(
-    index = 3084,
-    label = "Cds-OsH_Sd;HJ",
-    kinetics = ArrheniusEP(
-        A = (6.45e+08, 'cm^3/(mol*s)'),
-        n = 1.4,
-        alpha = 0,
-        E0 = (2.89, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-)
-
-entry(
-    index = 3085,
-    label = "Cds-OsH_Sd;CsJ-HHH",
-    kinetics = ArrheniusEP(
-        A = (172000, 'cm^3/(mol*s)'),
-        n = 1.68,
-        alpha = 0,
-        E0 = (5.37, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-)
-
-entry(
-    index = 3086,
-    label = "Cds-OsH_Sd;CsJ-CsHH",
-    kinetics = ArrheniusEP(
-        A = (774, 'cm^3/(mol*s)'),
-        n = 2.56,
-        alpha = 0,
-        E0 = (3.56, 'kcal/mol'),
+        E0 = (-1.57, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -39824,40 +39764,40 @@ entry(
     index = 3088,
     label = "C=S_O;HJ",
     kinetics = ArrheniusEP(
-        A = (5.67e+08, 'cm^3/(mol*s)'),
-        n = 1.75,
+        A = (8.41e+09, 'cm^3/(mol*s)'),
+        n = 1.23,
         alpha = 0,
-        E0 = (8.6, 'kcal/mol'),
+        E0 = (7.69, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""CAC calc CBS-QB3 1dhr""",
+    rank = 2,
+    shortDesc = u"""CAC calc CCSD(T)-F12a/vtz-f12 1dhr""",
 )
 
 entry(
     index = 3089,
     label = "C=S_O;CsJ",
     kinetics = ArrheniusEP(
-        A = (603000, 'cm^3/(mol*s)'),
-        n = 1.83,
+        A = (8.04e+06, 'cm^3/(mol*s)'),
+        n = 1.68,
         alpha = 0,
-        E0 = (11.84, 'kcal/mol'),
+        E0 = (12.95, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""CAC calc CBS-QB3 1dhr""",
+    rank = 2,
+    shortDesc = u"""CAC calc CCSD(T)-F12a/vtz-f12 1dhr""",
 )
 
 entry(
     index = 3090,
     label = "Cds-CsH_Sd;CsJ-CsHH",
     kinetics = ArrheniusEP(
-        A = (1800, 'cm^3/(mol*s)'),
-        n = 2.47,
+        A = (2310, 'cm^3/(mol*s)'),
+        n = 2.56,
         alpha = 0,
-        E0 = (0.61, 'kcal/mol'),
+        E0 = (0.54, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -39869,10 +39809,10 @@ entry(
     index = 3091,
     label = "Cds-CsH_Sd;CsJ-CsCsH",
     kinetics = ArrheniusEP(
-        A = (17.9, 'cm^3/(mol*s)'),
+        A = (50.8, 'cm^3/(mol*s)'),
         n = 2.9,
         alpha = 0,
-        E0 = (-1.43, 'kcal/mol'),
+        E0 = (-1.22, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -39944,10 +39884,10 @@ entry(
     index = 3096,
     label = "Cdd-Sd_Sd;HJ",
     kinetics = ArrheniusEP(
-        A = (3.87e+08, 'cm^3/(mol*s)'),
-        n = 1.89,
+        A = (5.02e+09, 'cm^3/(mol*s)'),
+        n = 1.34,
         alpha = 0,
-        E0 = (7.72, 'kcal/mol'),
+        E0 = (6.97, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -39959,10 +39899,10 @@ entry(
     index = 3097,
     label = "Cdd-Sd_Sd;CsJ-CsHH",
     kinetics = ArrheniusEP(
-        A = (359, 'cm^3/(mol*s)'),
-        n = 2.94,
+        A = (971000, 'cm^3/(mol*s)'),
+        n = 1.95,
         alpha = 0,
-        E0 = (8.96, 'kcal/mol'),
+        E0 = (9.11, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -39989,10 +39929,10 @@ entry(
     index = 3099,
     label = "Cds-OsH_Cds-CsH;SsJ-H",
     kinetics = ArrheniusEP(
-        A = (21000, 'cm^3/(mol*s)'),
+        A = (128000, 'cm^3/(mol*s)'),
         n = 2.39,
         alpha = 0,
-        E0 = (-5, 'kcal/mol'),
+        E0 = (-3.09, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -40016,6 +39956,21 @@ entry(
 )
 
 entry(
+    index = 3100,
+    label = "Cds-OsCs_Sd;HJ",
+    kinetics = ArrheniusEP(
+        A = (2.01e+09, 'cm^3/(mol*s)'),
+        n = 1.21,
+        alpha = 0,
+        E0 = (-1.26, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""CAC calc CCSD(T)-F12a/vtz-F12 1dhr""",
+)
+
+entry(
     index = 3101,
     label = "Cds-CsH_Cds-HH;O_atom_triplet",
     kinetics = ArrheniusEP(
@@ -40031,6 +39986,36 @@ entry(
 )
 
 entry(
+    index = 3101,
+    label = "Cds-SsH_Cds;SsJ-Cd",
+    kinetics = ArrheniusEP(
+        A = (9.46, 'cm^3/(mol*s)'),
+        n = 3.08,
+        alpha = 0,
+        E0 = (-6.47, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""CAC calc CBS-QB3, HO approx""",
+)
+
+entry(
+    index = 3102,
+    label = "Cds-CsH_Sd;CsJ-CdCsH",
+    kinetics = ArrheniusEP(
+        A = (288, 'cm^3/(mol*s)'),
+        n = 2.55,
+        alpha = 0,
+        E0 = (5.81, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CAC CBS-QB3, 1dhr""",
+)
+
+entry(
     index = 3102,
     label = "Cds-HH_Cds-CsH;O_atom_triplet",
     kinetics = ArrheniusEP(
@@ -40043,6 +40028,21 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
+)
+
+entry(
+    index = 3103,
+    label = "Cds-HH_Cds-CsH;CsJ-CbHH",
+    kinetics = ArrheniusEP(
+        A = (53200, 'cm^3/(mol*s)'),
+        n = 2.1,
+        alpha = 0,
+        E0 = (10.01, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CAC CBS-QB3, 1dhr""",
 )
 
 entry(
