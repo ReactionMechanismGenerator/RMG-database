@@ -33,7 +33,10 @@ entry(
 entry(
     index = 3,
     label = "C",
-    group = "OR{C-RRR, Cds-R, Ct}",
+    group = 
+"""
+1 *1 C u0
+""",
     kinetics = None,
 )
 
@@ -1231,12 +1234,10 @@ entry(
 
 entry(
     index = 98,
-    label = "Cds-R",
+    label = "Cds",
     group = 
 """
-1 *1 Cd u0 {2,S} {3,D}
-2    R  u0 {1,S}
-3    R  u0 {1,D}
+1 *1 Cd u0
 """,
     kinetics = None,
 )
@@ -1250,6 +1251,7 @@ entry(
 2    R u0 {1,S}
 3    R u0 {1,S}
 4    R u0 {1,S}
+
 """,
     kinetics = None,
 )
@@ -1557,7 +1559,7 @@ L1: XSYJ
     L2: XSR7J
 L1: C
     L2: Ct
-    L2: Cds-R
+    L2: Cds
     L2: C-RRR
         L3: C-NonDe
             L4: C-HHH

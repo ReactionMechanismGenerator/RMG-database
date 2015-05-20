@@ -33,6 +33,46 @@ entry(
 )
 
 entry(
+    index = 2,
+    label = "C",
+    group = 
+"""
+1 *1 C u0
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 2,
+    label = "Cs",
+    group = 
+"""
+1 *1 Cs u0
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 2,
+    label = "Cds",
+    group = 
+"""
+1 *1 Cd u0
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 2,
+    label = "Ct",
+    group = 
+"""
+1 *1 Ct u0
+""",
+    kinetics = None,
+)
+
+entry(
     index = 3,
     label = "C-RRR",
     group = 
@@ -2283,21 +2323,26 @@ L1: YJ
             L4: SsJ-3-Ss
             L4: SsJ-3-OneDe
                 L5: SsJ-3-Cd
-L1: C-RRR
-    L2: C-RRC
-        L3: C-(NonDe)C
-            L4: C-HHC
-            L4: C-CsHC
-            L4: C-CsCsC
-        L3: C-(OneDe)C
-        L3: C-(TwoDe)C
-    L2: C-RRS
-        L3: C-(NonDe)S
-            L4: C-HHS
-            L4: C-CsHS
-            L4: C-CsCsS
-        L3: C-(OneDe)S
-        L3: C-(TwoDe)S
+L1: C
+    L2: Cs
+        L3: C-RRR
+            L4: C-RRC
+                L5: C-(NonDe)C
+                    L6: C-HHC
+                    L6: C-CsHC
+                    L6: C-CsCsC
+                L5: C-(OneDe)C
+                L5: C-(TwoDe)C
+            L4: C-RRS
+                L5: C-(NonDe)S
+                    L6: C-HHS
+                    L6: C-CsHS
+                    L6: C-CsCsS
+                L5: C-(OneDe)S
+                L5: C-(TwoDe)S
+    L2: Cds
+    L2: Ct 
+   
 L1: S-R
     L2: S-H
     L2: S-Cs
