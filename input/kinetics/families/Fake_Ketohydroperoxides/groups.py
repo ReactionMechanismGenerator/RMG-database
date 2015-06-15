@@ -30,9 +30,6 @@ entry(
     referenceType = "",
     shortDesc = u"""""",
     longDesc = u"""""",
-    history = [
-        ("Thu Oct 10 2013","Victor Lambert <vrlambert@gmail.com","action","""Created to use only for importing other groups chemkin files"""),
-    ],
 )
 
 entry(
@@ -52,9 +49,6 @@ entry(
     referenceType = "",
     shortDesc = u"""""",
     longDesc = u"""""",
-    history = [
-        ("Thu Oct 10 2013","Victor Lambert <vrlambert@gmail.com","action","""Created to use only for importing other groups chemkin files"""),
-    ],
 )
 
 entry(
@@ -75,9 +69,6 @@ entry(
     referenceType = "",
     shortDesc = u"""""",
     longDesc = u"""""",
-    history = [
-        ("Thu Oct 10 2013","Victor Lambert <vrlambert@gmail.com","action","""Created to use only for importing other groups chemkin files"""),
-    ],
 )
 
 entry(
@@ -99,9 +90,6 @@ entry(
     referenceType = "",
     shortDesc = u"""""",
     longDesc = u"""""",
-    history = [
-        ("Thu Oct 10 2013","Victor Lambert <vrlambert@gmail.com","action","""Created to use only for importing other groups chemkin files"""),
-    ],
 )
 
 entry(
@@ -124,9 +112,6 @@ entry(
     referenceType = "",
     shortDesc = u"""""",
     longDesc = u"""""",
-    history = [
-        ("Thu Oct 10 2013","Victor Lambert <vrlambert@gmail.com","action","""Created to use only for importing other groups chemkin files"""),
-    ],
 )
 
 entry(
@@ -150,9 +135,6 @@ entry(
     referenceType = "",
     shortDesc = u"""""",
     longDesc = u"""""",
-    history = [
-        ("Thu Oct 10 2013","Victor Lambert <vrlambert@gmail.com","action","""Created to use only for importing other groups chemkin files"""),
-    ],
 )
 
 entry(
@@ -177,9 +159,6 @@ entry(
     referenceType = "",
     shortDesc = u"""""",
     longDesc = u"""""",
-    history = [
-        ("Thu Oct 10 2013","Victor Lambert <vrlambert@gmail.com","action","""Created to use only for importing other groups chemkin files"""),
-    ],
 )
 
 tree(
