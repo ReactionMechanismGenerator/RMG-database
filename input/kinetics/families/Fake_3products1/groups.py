@@ -36,9 +36,6 @@ entry(
     referenceType = "",
     shortDesc = u"""""",
     longDesc = u"""""",
-    history = [
-        ("Thu Dec 4 2014","Richard West","action","""Created to use only for importing other groups chemkin files"""),
-    ],
 )
 
 tree(

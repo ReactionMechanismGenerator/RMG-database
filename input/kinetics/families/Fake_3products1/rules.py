@@ -31,11 +31,8 @@ entry(
 	referenceType = "",
 	rank = 0,
 	shortDesc = u"""Default""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
-	history = [
-		("Thu Dec 4 2014","Richard West","action","""Created to use only for importing other groups chemkin filesthis entry from the old RMG database."""),
-	],
 )

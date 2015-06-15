@@ -25,9 +25,9 @@ recipe(actions=[
 entry(
     index = 1,
     label = "OjORROH",
-    group = 
+    group =
 """
-1 *1 O 1 {2,S} 
+1 *1 O 1 {2,S}
 2 *2 O 0 {1,S} {3,S}
 3 *3 R 0 {2,S} {4,S}
 4 *4 R 0 {3,S} {5,S}
@@ -36,13 +36,10 @@ entry(
 """,
     kinetics = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
-    history = [
-        ("Mon Dec 8 2014","Yang Lin","action","""Created to use only for importing other groups chemkin files"""),
-    ],
 )
 
 tree(

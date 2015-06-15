@@ -5,7 +5,7 @@ name = "Fake_3products2/groups"
 shortDesc = u""
 longDesc = u"""
 Some reaction in which a radical of a hydroperoxide falls apart into 3 products.
-It's very much like Fake_3products1, only you start with a radical and create 
+It's very much like Fake_3products1, only you start with a radical and create
 a double bond. It shows up in the LLNL Gasoline Surrogate model.
 """
 
@@ -38,9 +38,6 @@ entry(
     referenceType = "",
     shortDesc = u"""""",
     longDesc = u"""""",
-    history = [
-        ("Thu Dec 4 2014","Richard West","action","""Created to use only for importing other groups chemkin files"""),
-    ],
 )
 
 tree(
