@@ -11,7 +11,6 @@ recommended = True
 entry(
 	index = 1,
 	label = "jOOQOOH",
-	group1 = "OR{jOOQ2OOH, jOOQ3OOH, jOOQ4OOH, jOOQ5OOH, jOOQ6OOH, jOOQ7OOH}",
 	kinetics = ArrheniusEP(
 		A = (10000000000000.0, 'cm^3/(mol*s)'),
 		n = 0,
