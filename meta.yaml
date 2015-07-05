@@ -1,0 +1,28 @@
+# For conda build
+package:
+  name: rmgdatabase
+  version: "0.1.0"
+
+source:
+  path: .
+
+build:
+  number: 1
+
+requirements:
+  build:
+    - python
+    - rmg
+  run:
+    - python
+    - rmg
+test:
+  requires:
+    - nose
+  imports:
+    - rmgpy
+
+about:
+  home: http://github.com/ReactionMechanismGenerator/RMG-database
+  license: MIT
+  summary: "Database for RMG: a program for automatically generating kinetic models of chemical reaction mechanisms."
