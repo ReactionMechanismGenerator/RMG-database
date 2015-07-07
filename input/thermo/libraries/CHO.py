@@ -2,12 +2,14 @@
 # encoding: utf-8
 
 name = "CHO"
-shortDesc = u""
+shortDesc = u"Yaws' Critical Property Data for C H and O compounds"
 longDesc = u"""
 Yaws' Critical Property Data for Chemical Engineers and Chemists
 Table 30. Heat Capacity of Gas - Organic Compounds
 Table 38. Enthalpy of Formation of Gas - Organic Compounds
 Table 46. Entropy of Gas - Organic Compounds
+
+contains molecules only with carbon, hydrogen and oxygen
 """
 entry(
     index = 1,

@@ -2,9 +2,22 @@
 # encoding: utf-8
 
 name = "CBS_QB3_1dHR"
-shortDesc = u""
+shortDesc = u"calculated thermo for butanol using CBS_QB3 with 1d hindered rotor"
 longDesc = u"""
+These calculations were done by MRH using CBS_QB3 with 1d hindered rotor
 
+
+The species thermochemistry was calculated using CanTherm.  The CBS-QB3 method
+was used to calculate the ZPE and optimized geometry.  The frequencies were
+calculated using DFT, using the B3LYP/CBSB7 basis set, and then scaled by 0.99
+as suggested by Petersson et al.  The 1-d separable hindered rotor
+approximation was used for all low-frequency internal rotor modes.
+Bond-additivity corrections were used to calculate the reported Hf298.
+
+Units of enthalpy are kcal mol-1.
+Units of entropy and heat capacity are cal mol-1 K-1.
+
+These likely appear in C. F. Goldsmith, W. H. Green, S. J. Klippenstein, J. Phys. Chem. A 116 (13) (2012) 3325-3346.
 """
 entry(
     index = 1,

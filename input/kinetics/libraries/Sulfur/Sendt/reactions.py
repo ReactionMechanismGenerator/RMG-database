@@ -2,9 +2,9 @@
 # encoding: utf-8
 
 name = "Sulfur/Sendt"
-shortDesc = u""
+shortDesc = u"small sulfur molecule reactions"
 longDesc = u"""
-
+Created by Caleb for small sulfur molecule reactions by the work of Sendt et al.
 """
 entry(
     index = 1,

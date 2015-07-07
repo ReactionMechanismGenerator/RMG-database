@@ -4,7 +4,7 @@
 name = "thermo_DFT_CCSDTF12_BAC"
 shortDesc = u""
 longDesc = u"""
-
+work done by B. Buesser using DFT and CCSDTF12 using or deriving bond additvity corrections
 """
 entry(
     index = 3,

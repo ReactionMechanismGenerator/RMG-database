@@ -4,7 +4,7 @@
 name = "combustion_core/version5"
 shortDesc = u""
 longDesc = u"""
-
+5th version of core combustion mechanisms developed at Leeds University
 """
 entry(
     index = 1,

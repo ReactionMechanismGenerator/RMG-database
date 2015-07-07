@@ -4,7 +4,8 @@
 name = "Dooley/methylformate_2"
 shortDesc = u""
 longDesc = u"""
-
+mechanism used in
+S. Dooley, M. P. Burke, M. Chaos, Y. Stein, F. L. Dryer, V. P. Zhukov, O. Finch, J. M. Simmie, H. J. Curran, Int. J. Chem. Kinet. 42 (9) (2010) 527-549.
 """
 entry(
     index = 1,

@@ -2,9 +2,10 @@
 # encoding: utf-8
 
 name = "Sulfur/Thial_Hydrolysis"
-shortDesc = u""
+shortDesc = u"reactions from thial to CO2"
 longDesc = u"""
-
+calculated rate constants (by Caleb?) for the pathway
+from thioformaldehyde and thioacetaldehyde to COS and then CO2.
 """
 #entry(
 #    index = 1,
