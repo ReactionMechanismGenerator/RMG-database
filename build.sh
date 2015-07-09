@@ -4,4 +4,4 @@ $PYTHON setup.py install
 # Copy database files to shared directory
 cd ${PREFIX}/share/
 mkdir rmgdatabase
-cp ${SRC_DIR}/input/* rmgdatabase/ -r 
+cp -R ${SRC_DIR}/input/* rmgdatabase/
