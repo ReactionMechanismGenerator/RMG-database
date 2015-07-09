@@ -12,15 +12,8 @@ build:
 requirements:
   build:
     - python
-    - rmg
   run:
     - python
-    - rmg
-test:
-  requires:
-    - nose
-  imports:
-    - rmgpy
 
 about:
   home: http://github.com/ReactionMechanismGenerator/RMG-database
