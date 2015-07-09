@@ -22,6 +22,10 @@ recommendedFamilies = {
 'Cyclic_Ether_Formation':True,
 'Diels_alder_addition':True,
 'Disproportionation':True,
+'Fake_3products1':False,
+'Fake_3products2':False,
+'Fake_3products3':False,
+'Fake_Ketohydroperoxides':False,
 'HO2_Elimination_from_PeroxyRadical':True,
 'H_Abstraction':True,
 'H_shift_cyclopentadiene':True,
@@ -50,4 +54,5 @@ recommendedFamilies = {
 'intra_substitutionS_isomerization':True,
 'ketoenol':True,
 'lone_electron_pair_bond':True,
+
 }
