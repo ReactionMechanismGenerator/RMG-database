@@ -19,6 +19,7 @@ LIBRARYNAME      the libraryname for the RMG-Py format thermo library
 import argparse
 import os
 from rmgpy.data.thermo import ThermoLibrary
+from rmgpy import settings
           
 if __name__ == '__main__':
     
@@ -44,4 +45,4 @@ if __name__ == '__main__':
     library.name = libraryName
 
     # Save in Py format    
-    library.save(os.path.join('input/thermo/libraries/', libraryName+'.py'))
+    library.save(os.path.join(settings['database.directory'], 'thermo', 'libraries', libraryName+'.py'))
