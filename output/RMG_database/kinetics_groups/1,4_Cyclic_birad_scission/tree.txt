@@ -1,5 +1,0 @@
-
-L1: RJJ
-	L2: R5JJ
-	L2: R6JJ
-	L2: R7JJ

@@ -1,2 +1,0 @@
-// There is no Library for frequency estimation, because that's handled by FRANKIE
-// RMG only needs to identify the groups, so it only needs Dictionary.txt and Tree.txt
