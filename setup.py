@@ -35,9 +35,12 @@ except ImportError:
     print 'The distutils package is required to build or install RMG Py.'
     
 
-scripts=['EvaluateKinetics.py', 'evansPolanyi.py', 'exportKineticsLibraryToChemkin.py',
+scripts=['evansPolanyi.py', 'exportKineticsLibraryToChemkin.py',
 'exportOldDatabase.py','importChemkinLibrary.py','importJavaKineticsLibrary.py','importJavaThermoLibrary.py',
-'importOldDatabase.py','importOldPyDatabase.py','kineticsGroups.py','kineticsTraining.py','rewriteDepositories.py']
+'importOldDatabase.py','kineticsGroups.py','kineticsTraining.py']
+
+scripts = ['scripts/' + scriptName for scriptName in scripts]
+
 
 # Initiate the build and/or installation
 setup(name='RMG-database',
