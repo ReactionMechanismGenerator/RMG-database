@@ -381,7 +381,8 @@ Tmin = 300
 Tmax = 2000
 
 def getPath(family, index):
-    return os.path.join(os.path.dirname(os.path.abspath(__file__)), 'input', 'kinetics', 'families', family, 'training', '{0}.py'.format(index))
+    from rmgpy import settings
+    return os.path.join(settings['database.directory'], 'kinetics', 'families', family, 'training', '{0}.py'.format(index))
 
 def generate(args):
     """
@@ -453,6 +454,7 @@ def evaluate(args):
 if __name__ == '__main__':
 
     import argparse
+    from rmgpy import settings
     
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers(dest='command', help='')
@@ -471,7 +473,7 @@ if __name__ == '__main__':
     
     args = parser.parse_args()
     
-    loadThermoDatabase(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'input', 'thermo'))
+    loadThermoDatabase(os.path.join(settings['database.directory'], 'thermo'))
     
     try:
         args.run(args)

@@ -197,9 +197,10 @@ if __name__ == '__main__':
     
     print 'Loading RMG database...'
     from rmgpy.data.rmg import RMGDatabase
+    from rmgpy import settings
     database = RMGDatabase()
-    database.load('input')
-
+    database.load(settings['database.directory'], kineticsFamilies='all', kineticsDepositories='all')
+    
     try:
         depositories = [database.kinetics.depository[label] for label in args.depository]
     except KeyError:

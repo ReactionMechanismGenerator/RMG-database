@@ -23,9 +23,7 @@ from rmgpy.quantity import constants
 from rmgpy.kinetics import Arrhenius, ArrheniusEP, KineticsData
 from rmgpy.data.base import getAllCombinations
 from rmgpy.species import Species
-
-from importOldDatabase import getUsername
-user = getUsername()
+from rmgpy import settings
 
 ################################################################################
 
@@ -33,7 +31,7 @@ def loadDatabase():
     print 'Loading RMG database...'
     from rmgpy.data.rmg import RMGDatabase
     database = RMGDatabase()
-    database.load('input')
+    database.load(settings['database.directory'], kineticsFamilies='all', kineticsDepositories='all')
     return database
 
 def convertKineticsToPerSiteBasis(kinetics, degeneracy):
@@ -143,12 +141,8 @@ def generate(args):
         changed = family.groups.generateGroupAdditivityValues(trainingSet, kunits, method=method)
         
         if changed:
-            # Add a note to the history of each changed item indicating that we've generated new group values
-            event = [time.asctime(),user,'action','Generated new group additivity values for this entry.']
-            for entry in family.groups.entries.values():
-                entry.history.append(event)
             # Save the new group values to disk
-            family.saveGroups(os.path.join('input', 'kinetics', 'families', label, 'groups.py'))
+            family.saveGroups(os.path.join(settings['database.directory'], 'kinetics', 'families', label, 'groups.py'))
 
 ################################################################################
 
