@@ -4,18 +4,17 @@
 """
 This script imports a chemkin file (along with RMG dictionary) from a local directory and saves a set of
 RMG-Py kinetics library and thermo library files.  These py files are automatically added to the 
-input/kinetics/libraries and input/thermo/libraries folder under the user-specified `name` for the chemkin library.
+appropriate kinetics/libraries and thermo/libraries folder under the user-specified `name` for the chemkin library.
 """
 
 import argparse
-import time
 import logging
 import os
 from rmgpy.data.thermo import ThermoLibrary
 from rmgpy.data.kinetics import KineticsLibrary
 from rmgpy.data.base import Entry
-from rmgpy.molecule import Molecule
-from rmgpy.chemkin import loadChemkinFile
+from rmgpy.chemkin import loadChemkinFile, getSpeciesIdentifier
+from rmgpy import settings
           
 if __name__ == '__main__':
     
@@ -34,6 +33,10 @@ if __name__ == '__main__':
         
     speciesList, reactionList = loadChemkinFile(chemkinPath, dictionaryPath)
     
+    # Make full species identifier the species labels
+    for species in speciesList:
+        species.label = getSpeciesIdentifier(species)
+        species.index = -1
     # load thermo library entries
     thermoLibrary = ThermoLibrary()
     for i in range(len(speciesList)): 
@@ -66,11 +69,12 @@ if __name__ == '__main__':
     kineticsLibrary.convertDuplicatesToMulti()
 
     # Save in Py format
+    databaseDirectory = settings['database.directory']
     try:
-        os.makedirs(os.join('input/kinetics/libraries/',name))
+        os.makedirs(os.path.join(databaseDirectory, 'kinetics', 'libraries',name))
     except:
         pass
     
-    thermoLibrary.save(os.path.join('input/thermo/libraries', name + '.py'))
-    kineticsLibrary.save(os.path.join('input/kinetics/libraries/', name, 'reactions.py'))
-    kineticsLibrary.saveDictionary(os.path.join('input/kinetics/libraries/', name, 'dictionary.txt'))
+    thermoLibrary.save(os.path.join(databaseDirectory, 'thermo' ,' libraries', name + '.py'))
+    kineticsLibrary.save(os.path.join(databaseDirectory, 'kinetics', 'libraries', name, 'reactions.py'))
+    kineticsLibrary.saveDictionary(os.path.join(databaseDirectory, 'kinetics', 'libraries', name, 'dictionary.txt'))
