@@ -15,9 +15,11 @@ positional arguments:
 LIBRARYNAME      the libraryname of the RMG-Py format kinetics library
 """
 import argparse
+import os
 from rmgpy.data.rmg import RMGDatabase
 from rmgpy.chemkin import saveChemkinFile, saveSpeciesDictionary
 from rmgpy.rmg.model import Species
+from rmgpy import settings
     
 ################################################################################
 
@@ -30,7 +32,7 @@ if __name__ == '__main__':
 
     print 'Loading RMG-Py database...'
     database = RMGDatabase()
-    database.load('input/', kineticsFamilies='all', kineticsDepositories='all')
+    database.load(settings['database.directory'], kineticsFamilies='all', kineticsDepositories='all')
     
 
     print 'Loading {0} library'.format(libraryName)
@@ -44,7 +46,8 @@ if __name__ == '__main__':
 
     speciesList = []
     index = 0
-    for spec in kineticLibrary.getSpecies().values():
+    speciesDict = kineticLibrary.getSpecies(os.path.join(settings['database.directory'],'kinetics', 'libraries', libraryName, 'dictionary.txt'))
+    for spec in speciesDict.values():
         index = index + 1
         species = Species(molecule = spec.molecule)
         species.generateThermoData(database)
