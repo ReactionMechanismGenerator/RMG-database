@@ -19,6 +19,7 @@ LIBRARYNAME      the libraryname for the RMG-Py format kinetics library
 import argparse
 import os
 from rmgpy.data.kinetics import KineticsLibrary
+from rmgpy import settings
           
 if __name__ == '__main__':
     
@@ -35,7 +36,11 @@ if __name__ == '__main__':
     library = KineticsLibrary()
     library.loadOld(inputPath)
     
-        
+    try:
+        os.makedirs(os.path.join(settings['database.directory'], 'kinetics', 'libraries', libraryName))
+    except:
+        pass
+    
     # Save in Py format    
-    library.save(os.path.join('input/kinetics/libraries/', libraryName, 'reactions.py'))
-    library.saveDictionary(os.path.join('input/kinetics/libraries/', libraryName, 'dictionary.txt'))
+    library.save(os.path.join(settings['database.directory'], 'kinetics', 'libraries', libraryName, 'reactions.py'))
+    library.saveDictionary(os.path.join(settings['database.directory'], 'kinetics', 'libraries', libraryName,'dictionary.txt'))
