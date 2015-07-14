@@ -8,26 +8,9 @@ the path to save the old RMG-Java database to.
 """
 
 import os
-import sys
-import logging
+import argparse
 from rmgpy.data.rmg import RMGDatabase
-from rmgpy.data.base import Entry
-from rmgpy.reaction import Reaction
-from rmgpy.kinetics import Arrhenius, ArrheniusEP, KineticsData
-
-###############################################################################
-
-
-def main():
-
-    if len(sys.argv) != 3:
-        raise Exception('You must pass input and output '
-                        'directories as parameters.')
-
-    newPath = sys.argv[1]
-    oldPath = os.path.join(sys.argv[2], 'RMG_database')
-
-    export(newPath, oldPath)
+from rmgpy import settings
 
 
 ###############################################################################
@@ -38,7 +21,7 @@ def export(input, output, database=None):
     print 'Loading the new RMG-Py database...'
     if not database:
         database = RMGDatabase()
-    database.load(input)
+    database.load(input, kineticsFamilies='all', kineticsDepositories='all')
 
     print 'Constructing additional rate rules from kinetics depository...'    
     for family in database.kinetics.families.values():
@@ -56,5 +39,13 @@ def export(input, output, database=None):
 
 
 if __name__ == '__main__':
-    logging.getLogger().setLevel(logging.INFO)
-    main()
+    
+    parser = argparse.ArgumentParser()
+    parser.add_argument('outputPath', metavar='OUTPUT', type=str, nargs=1,
+        help='the outputPath for the RMG-Java database directory')   
+    
+    args = parser.parse_args()
+    outputPath = args.outputPath[0]
+    
+    inputPath = settings['database.directory']
+    export(inputPath, outputPath)
