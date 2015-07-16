@@ -1,5 +1,0 @@
-//Amrit Jalan, October 18, 2010
-// Korcek rxn 7 for the formation of acids and methyl ketones from alpha-gamma hydroperoxy ketones
-
-L1: C1(R)(H)(O[OC3(OH)(R')]C2)
-

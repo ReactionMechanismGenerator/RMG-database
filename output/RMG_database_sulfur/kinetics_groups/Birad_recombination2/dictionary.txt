@@ -1,5 +1,0 @@
-//f28 : adjacent radical recombination to form doube/triple bond 
-
-Rad_Rad
-1 *1 R 1 {2,{S,D}}
-2 *2 R 1 {1,{S,D}}

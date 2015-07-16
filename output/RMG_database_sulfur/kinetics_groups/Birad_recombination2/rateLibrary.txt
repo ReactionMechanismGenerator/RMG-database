@@ -1,7 +1,0 @@
-// Added by Aäron Vandeputte
-// estimated value
-
-Arrhenius_EP
-
-//No.	R		Temp.		A		n		a		E0		DA		Dn		Da		DE0		Rank	Comments
-1.	Rad_Rad		300-1500	1E+13		0		0		0		0		0		0		0		0	Default

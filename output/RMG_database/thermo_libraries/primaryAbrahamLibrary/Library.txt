@@ -1,3 +1,0 @@
-//Name	S	B	E	L	A	V	comment/source
-O2	0.0	0.0	0.0	-0.723	0.0	0.191	!experimental descriptors for molecular oxygen
-HOJ	0.524	0.378	0.309	0.802	0.348 0.146 !descriptors for H2O but with the contribution of 1 OH group to A

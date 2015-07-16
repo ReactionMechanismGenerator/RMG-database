@@ -1,5 +1,0 @@
-Unit:
-A: mol/cm3/s
-E: kJ/mol
-
-Reactions:

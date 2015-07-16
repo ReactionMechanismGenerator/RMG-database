@@ -1,7 +1,0 @@
-//F33 Intra_Diels_alder reaction
-L1: cyclohexene
-   L2: cyclohexene_1inring
-   L2: cyclohexene_2inring
-   L2: cyclohexene_3inring
-   L2: cyclohexene_4inring
-
