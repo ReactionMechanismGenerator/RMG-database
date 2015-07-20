@@ -198,6 +198,31 @@ u"""
 )
 
 entry(
+    index = 158,
+    label = "oxirene",
+    group = 
+"""
+1   Cd u0 {2,S} {3,D}
+2 * Os u0 {1,S} {3,S}
+3   Cd u0 {1,D} {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.283,-1.56,-2.46,-2.83,-3.22,-3.08,-3.04],'cal/(mol*K)'),
+        H298 = (80.64,'kcal/mol'),
+        S298 = (38.08,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from goldsmith's DFT-QCI library""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+
+
+entry(
     index = 8,
     label = "cyclopropanedione",
     group = 
@@ -571,6 +596,29 @@ entry(
         S298 = (28.5487,'cal/(mol*K)'),
     ),
     shortDesc = u"""CY/C3O from THERM (Dorofeeva, 92) Cp1500 est. as Cp1000""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 159,
+    label = "Oxetene",
+    group = 
+"""
+1 * Os u0 {2,S} {4,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   C  u0 {1,S} {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.88,-4.22,-4.18,-3.97,-3.65,-3.56,-2.93],'cal/(mol*K)'),
+        H298 = (32.51,'kcal/mol'),
+        S298 = (29.26,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from goldsmith's DFT-QCI library""",
     longDesc = 
 u"""
 
@@ -3594,6 +3642,7 @@ L1: Ring
         L3: Cyclopropane
         L3: Cyclopropene
         L3: Cyclopropadiene
+		L3: oxirene
         L3: Cyclopropatriene
         L3: Ethylene_oxide
         L3: dioxirane
@@ -3615,6 +3664,7 @@ L1: Ring
         L3: Cyclobutane
         L3: Cyclobutene
         L3: Oxetane
+		L3: Oxetene
         L3: Beta-Propiolactone
         L3: Cyclobutanone
         L3: 12dioxetane
