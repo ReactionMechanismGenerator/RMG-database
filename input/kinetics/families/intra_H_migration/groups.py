@@ -1190,6 +1190,70 @@ entry(
 )
 
 entry(
+    index = 266,
+    label = "R5H_C(Od)CCC_O",
+    group = 
+"""
+1 *1 O  u1 {2,S}
+2 *4 C  u0 {1,S} {3,S}
+3 *6 C  u0 {2,S} {4,S}
+4 *5 C  u0 {3,S} {5,S}
+5 *2 CO u0 {4,S} {6,S} {7,D}
+6 *3 H  u0 {5,S}
+7    Od u0 {5,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 267,
+    label = "R5H_CC(Od)CC_O",
+    group = 
+"""
+1 *1 O  u1 {2,S}
+2 *4 C  u0 {1,S} {3,S}
+3 *6 C  u0 {2,S} {4,S}
+4 *5 CO u0 {3,S} {5,S} {7,D}
+5 *2 C  u0 {4,S} {6,S}
+6 *3 H  u0 {5,S}
+7    Od u0 {4,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 268,
+    label = "R5H_CCC(Od)C_O",
+    group = 
+"""
+1 *1 O  u1 {2,S}
+2 *4 C  u0 {1,S} {3,S}
+3 *6 CO u0 {2,S} {4,S} {7,D}
+4 *5 C  u0 {3,S} {5,S} 
+5 *2 C  u0 {4,S} {6,S}
+6 *3 H  u0 {5,S}
+7    Od u0 {3,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 269,
+    label = "R5H_CCCC(Od)_O",
+    group = 
+"""
+1 *1 O  u1 {2,S}
+2 *4 CO u0 {1,S} {3,S} {7,D}
+3 *6 C  u0 {2,S} {4,S}
+4 *5 C  u0 {3,S} {5,S} 
+5 *2 C  u0 {4,S} {6,S}
+6 *3 H  u0 {5,S}
+7    Od u0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 83,
     label = "R5H_SSSS_CsCsCsSCs",
     group = 
@@ -3942,6 +4006,10 @@ L1: RnH
                 L5: R5H_SSSR
                     L6: R5H_SSSS
                         L7: R5H_CCCC_O
+							L8: R5H_C(Od)CCC_O
+							L8: R5H_CC(Od)CC_O
+							L8: R5H_CCC(Od)C_O
+							L8: R5H_CCCC(Od)_O
                         L7: R5H_SSSS_CsCsCsSCs
                         L7: R5H_SSSS_OOCCC
                             L8: R5H_SSSS_OO(Cs/Cs)Cs

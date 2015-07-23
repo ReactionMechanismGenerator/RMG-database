@@ -66,3 +66,24 @@ using Variflex.
 """,
 )
 
+entry(
+    index = 3,
+    label = "CH2O + C3H5O <=> C4H7O2",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (54.3214, 's^-1', '*|/', 1.1507),
+        n = 3.00879,
+        Ea = (6.589, 'kcal/mol', '+|-', 0.024),
+        T0 = (1, 'K'),
+    ),
+    reference = "",
+    referenceType = "theory",
+    shortDesc = u"""nyee TST calculations at CBS-QB3 level with hindered rotors level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the CBS-QB3 level with hindered rotors
+using Gaussian 03. High-pressure-limit rate coefficient computed
+using Cantherm. One of the rotors had coupling and did not converge back to the
+same initial geometry. It was forced to go back by editing the scan log.
+""",
+)

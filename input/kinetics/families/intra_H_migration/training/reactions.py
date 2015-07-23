@@ -90,3 +90,22 @@ using Qchem. High-pressure-limit rate coefficient computed
 using Cantherm with 1D hindered rotor treatment.
 """,
 )
+
+entry(
+    index = 4,
+    label = "C4H7O2 <=> C4H7O2b",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (6.358e+01, 's^-1', '*|/', 3.66),
+        n = 2.81162,
+        Ea = (8.231, 'kcal/mol', '+|-', 1.00),
+        T0 = (1, 'K'),
+    ),
+    reference = "",
+    referenceType = "theory",
+    shortDesc = u"""TST calculations at M08SO/MG3S level by edames""",
+    longDesc = 
+u"""
+Quantum chemistry calculations at the M08SO/MG3S* level using Qchem. High-pressure-limit rate coefficient computed using Cantherm with 1D hindered rotor treatment for all relevant rotors. (*A computational grid with 75 radial points and 434 angular points per radial point was used in the calculations for all species)
+""",
+)
