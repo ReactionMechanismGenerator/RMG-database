@@ -74,5 +74,6 @@ liquid_peroxide = {
 
 surface = {
     'Surface_Adsorption_Single',
+    'Surface_Recombination',
 }
 
