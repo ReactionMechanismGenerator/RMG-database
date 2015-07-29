@@ -8,7 +8,7 @@ Surface adsorption of a single radical forming a single bond to the surface site
 """
 entry(
     index = 1,
-    label = "Adsorbate;Site",
+    label = "Adsorbate;VacantSite",
     kinetics = StickingCoefficient(
         A = 0.1,
         n = 0,

@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 
-template(reactants=["Adsorbate", "Site"], products=["Adsorbed"], ownReverse=False)
+template(reactants=["Adsorbate", "VacantSite"], products=["Adsorbed"], ownReverse=False)
 
 reverse = "Surface_Desorption_Single"
 
@@ -28,19 +28,21 @@ entry(
 
 entry(
     index = 2,
-    label = "Site",
+    label="VacantSite",
     group = 
 """
-1 *2 X u0
+1 *2 Xv u0
 """,
     kinetics = None,
 )
+
 
 
 tree(
 """
 L1: Adsorbate
 
-L1: Site
+L1: VacantSite
 """
 )
+
