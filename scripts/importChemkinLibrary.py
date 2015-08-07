@@ -75,6 +75,6 @@ if __name__ == '__main__':
     except:
         pass
     
-    thermoLibrary.save(os.path.join(databaseDirectory, 'thermo' ,' libraries', name + '.py'))
+    thermoLibrary.save(os.path.join(databaseDirectory, 'thermo' ,'libraries', name + '.py'))
     kineticsLibrary.save(os.path.join(databaseDirectory, 'kinetics', 'libraries', name, 'reactions.py'))
     kineticsLibrary.saveDictionary(os.path.join(databaseDirectory, 'kinetics', 'libraries', name, 'dictionary.txt'))
