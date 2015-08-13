@@ -65,7 +65,10 @@ if __name__ == '__main__':
         entry.longDesc = reaction.kinetics.comment
         kineticsLibrary.entries[i+1] = entry
     
-    kineticsLibrary.checkForDuplicates()
+    # Mark as duplicates where there are mixed pressure dependent and non-pressure dependent duplicate kinetics
+    # Even though CHEMKIN does not require a duplicate flag, RMG needs it.
+    # Using flag markDuplicates = True
+    kineticsLibrary.checkForDuplicates(markDuplicates=True)
     kineticsLibrary.convertDuplicatesToMulti()
 
     # Save in Py format
