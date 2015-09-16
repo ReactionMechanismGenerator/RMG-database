@@ -1306,9 +1306,34 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 112,
+    label = "Sis_rad",
+    group = 
+"""
+1 * Sis u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 113,
+    label = "Si_silyl",
+    group = 
+"""
+1 * Sis u1 p0 c0 {2,S} {3,S} {4,S}
+2   H   u0 p0 c0 {1,S}
+3   H   u0 p0 c0 {1,S}
+4   H   u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Y_rad
+    L2: Sis_rad
+        L3: Si_silyl
     L2: H_rad
     L2: S_rad
         L3: SJ

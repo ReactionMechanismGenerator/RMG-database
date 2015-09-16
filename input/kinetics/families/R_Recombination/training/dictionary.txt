@@ -165,3 +165,21 @@ multiplicity 2
 3 O u0 p2 c0 {1,D}
 4 O u1 p2 c0 {2,S}
 
+SiH4
+1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+
+SiH3
+multiplicity 2
+1 * Si u1 p0 c0 {2,S} {3,S} {4,S}
+2   H u0 p0 c0 {1,S}
+3   H u0 p0 c0 {1,S}
+4   H u0 p0 c0 {1,S}
+
+H
+multiplicity 2
+1 * H u1 p0 c0
+
