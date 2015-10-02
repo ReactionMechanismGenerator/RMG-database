@@ -50,4 +50,5 @@ recommendedFamilies = {
 'intra_substitutionS_isomerization':True,
 'ketoenol':True,
 'lone_electron_pair_bond':True,
+'Retroen':False,
 }
