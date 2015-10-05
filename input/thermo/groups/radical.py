@@ -4199,8 +4199,8 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-1.023,-1.984,-2.724,-3.255,-3.909,-4.307,-4.983],'cal/(mol*K)'),
-        H298 = (92.1,'kcal/mol'),
-        S298 = (7.026,'cal/(mol*K)'),
+        H298 = (82.785,'kcal/mol'),
+        S298 = (4.272,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5333,9 +5333,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.715,-1.416,-2.06,-2.632,-3.566,-4.188,-5.006],'cal/(mol*K)'),
-        H298 = (92.41,'kcal/mol'),
-        S298 = (6.518,'cal/(mol*K)'),
+        Cpdata = ([-0.705,-1.402,-2.068,-2.653,-3.563,-4.184,-5.021],'cal/(mol*K)'),
+        H298 = (92.425,'kcal/mol'),
+        S298 = (0.201,'cal/(mol*K)'),
     ),
     shortDesc = u"""Compared to SiH4""",
     longDesc = 
@@ -5346,16 +5346,17 @@ Calculated from HBI for SiH3 and SiH4, from CBS-QB3 calculation
 
 entry(
     index = 136,
-    label = "SiJ_LP",
+    label = "SiJ_LP_H",
     group = 
 """
-1 * Si u1 p1 c0
+1 * Si u1 p1 c0 {2,S}
+2   H  u0 p0 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-1.391,-1.761,-2.181,-2.592,-3.227,-3.665,-4.288],'cal/(mol*K)'),
         H298 = (77.356,'kcal/mol'),
-        S298 = (-18.648,'cal/(mol*K)'),
+        S298 = (-4.920,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5366,6 +5367,62 @@ Calculated from HBI for SiH and SiH2 (with lone pair), from CBS-QB3 calculation
 
 entry(
     index = 137,
+    label = "SiJ_LP_Si",
+    group = 
+"""
+1 * Si u1 p1 c0 {2,S}
+2   Si u0 p0 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.316,-4.949,-5.439,-5.824,-6.383,-6.759,-7.282],'cal/(mol*K)'),
+        H298 = (75.524,'kcal/mol'),
+        S298 = (-5.834,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Calculated from HBI for Si-SiH3 and SiH-SiH3 (with lone pair), from CBS-QB3 calculation
+""",
+)
+
+entry(
+    index = 138,
+    label = "SiJ_LP",
+    group = 
+"""
+1 * Si u1 p1 c0
+""",
+    thermo = u'SiJ_LP_H',
+    shortDesc = u"""Taken as same as SiH""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 231,
+    label = "SisJ_Si",
+    group = 
+"""
+1 * Sis u1 p0 c0 {2,S}
+2   Si u0 p0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.948,-1.654,-2.317,-2.891,-3.756,-4.327,-5.079],'cal/(mol*K)'),
+        H298 = (89.445,'kcal/mol'),
+        S298 = (0.812,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Taken as HBI value for Si2H5 (by comparing to Si2H6).
+""",
+)
+
+entry(
+    index = 232,
     label = "SisJ",
     group = 
 """
@@ -5380,7 +5437,28 @@ Si with all single bonds & one radical
 )
 
 entry(
-    index = 138,
+    index = 233,
+    label = "SisJ_SiLP",
+    group = 
+"""
+1 * Sis u1 p0 c0 {2,S}
+2   Si  u0 p1 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.096,-1.836,-2.544,-3.136,-3.964,-4.465,-5.093],'cal/(mol*K)'),
+        H298 = (75.092,'kcal/mol'),
+        S298 = (-0.108,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Calculated from HBI for [SiH][SiH2] compared to [SiH]SiH3, from CBS-QB3 calculation 
+""",
+)
+
+entry(
+    index = 234,
     label = "SJ",
     group = 
 """
@@ -5944,12 +6022,12 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-1.823,-3.262,-4.586,-5.719,-7.427,-8.571,-10.116],'cal/(mol*K)'),
         H298 = (183.518,'kcal/mol'),
-        S298 = (2.537,'cal/(mol*K)'),
+        S298 = (-1.023,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Taken from difference between SiH2(T) and SiH4.
 """,
 )
 
@@ -6569,8 +6647,12 @@ L1: Radical
                 L5: HOOJ
         L3: SiJ
             L4: SisJ
+                L5: SisJ_SiLP
                 L5: SiH3
+                L5: SisJ_Si
             L4: SiJ_LP
+                L5: SiJ_LP_H
+                L5: SiJ_LP_Si
             L4: SidsJ
                 L5: SidsJ_Si
         L3: SJ
