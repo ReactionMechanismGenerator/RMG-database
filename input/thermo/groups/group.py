@@ -41274,9 +41274,9 @@ entry(
     label = "Si",
     group = 
 """
-1 * Si u0 px c0
+1 * Si u0 
 """,
-    thermo = None,
+    thermo = u'Sis-Sis4',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -41289,9 +41289,9 @@ entry(
     label = "Sis",
     group = 
 """
-1 * Sis u0 p0 c0
+1 * Sis u0 p0 
 """,
-    thermo = None,
+    thermo = u'Sis-Sis4',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -41521,18 +41521,12 @@ entry(
     group = 
 """
 1 * Sis u0 p0 c0 {2,S}
-2   Sis u0 p[1,2] c0 {1,S}
+2   Si u0 p[1,2] c0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([8.48, 10.07, 11.30, 12.28, 13.77, 14.81, 16.24],'cal/(mol*K)'),
-        H298 = (10.09,'kcal/mol'),
-        S298 = (16.33,'cal/(mol*K)'),
-    ),
+    thermo = u'Sis-H3si', 
     shortDesc = u"""""",
     longDesc = 
 u"""
-Right now, this is the data for Sis-H3si. However we don't have information for Sis-Rsi (where R is not Sis(p0) or Sid). We needed data for Sis-si2.
 """,
 )
 
@@ -41542,7 +41536,7 @@ entry(
     group = 
 """
 1 * Sis u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Sis u0 p1 c0 {1,S}
+2   Si u0 p1 c0 {1,S}
 3   H u0 p0 c0 {1,S}
 4   H u0 p0 c0 {1,S}
 5   H u0 p0 c0 {1,S}
@@ -41565,7 +41559,7 @@ entry(
     group = 
 """
 1 * Sis u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Sis u0 p1 c0 {1,S}
+2   Si u0 p1 c0 {1,S}
 3   Sis u0 p0 c0 {1,S}
 4   H u0 p0 c0 {1,S}
 5   H u0 p0 c0 {1,S}
@@ -41588,7 +41582,7 @@ entry(
     group = 
 """
 1 * Sis u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Sis u0 p1 c0 {1,S}
+2   Si u0 p1 c0 {1,S}
 3   Sis u0 p0 c0 {1,S}
 4   Sis u0 p0 c0 {1,S}
 5   H u0 p0 c0 {1,S}
@@ -41611,7 +41605,7 @@ entry(
     group = 
 """
 1 * Sis u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Sis u0 p1 c0 {1,S}
+2   Si u0 p1 c0 {1,S}
 3   Sis u0 p0 c0 {1,S}
 4   Sis u0 p0 c0 {1,S}
 5   Sis u0 p0 c0 {1,S}
@@ -43915,13 +43909,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([10.27,12.30,14.14,15.75,18.33,20.2,22.83],'cal/(mol*K)'),
-        H298 = (8.2,'kcal/mol'),
-        S298 = (48.913,'cal/(mol*K)'),
+        Cpdata = ([10.294,12.197,14.028,15.663,18.268,20.118,22.738],'cal/(mol*K)'),
+        H298 = (5.572,'kcal/mol'),
+        S298 = (53.803,'cal/(mol*K)'),
     ),
    shortDesc = u"""silane""",
    longDesc =
 u"""
+Value from CBS-QB3 + Cantherm, with symmetry contribution removed.
 """,
 )
 
