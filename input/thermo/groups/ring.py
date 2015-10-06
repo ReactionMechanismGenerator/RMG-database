@@ -3242,27 +3242,30 @@ u"""
 )
 
 entry(
-+    index = 160,
-+    label = "oxapane",
-+    group =
-+"""
-+1 * C u0 {2,S} {7,S}
-+2   C u0 {1,S} {3,S}
-+3   C u0 {2,S} {4,S}
-+4   C u0 {3,S} {5,S}
-+5   C u0 {4,S} {6,S}
-+6   C u0 {5,S} {7,S}
-+7   Os u0 {1,S} {6,S}
-+""",
-+    thermo = ThermoData(
-+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-+        Cpdata = ([-6.10,-5.33,-3.85,-2.52,-0.92,0.26,5.83],'cal/(mol*K)')
-+        H298 = (6.54,'kcal/mol'),
-+        S298 = (17.14,'cal/(mol*K)'),
-+    ),
-+    shortDesc = u"""Calculation: Mixture of two twist chair formations""",
-+    longDesc =
-+u"""
+    index = 160,
+    label = "oxepane",
+    group =
+"""
+1 * C u0 {2,S} {7,S}
+2   C u0 {1,S} {3,S}
+3   C u0 {2,S} {4,S}
+4   C u0 {3,S} {5,S}
+5   C u0 {4,S} {6,S}
+6   C u0 {5,S} {7,S}
+7   Os u0 {1,S} {6,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.10,-5.33,-3.85,-2.52,-0.92,0.26,5.83],'cal/(mol*K)'),
+        H298 = (6.54,'kcal/mol'),
+        S298 = (17.14,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Calculation: Mixture of two twist chair formations""",
+    longDesc =
+u"""
+
+""",
+)
 
 entry(
     index = 59,
@@ -3796,7 +3799,7 @@ L1: Ring
         L3: 1,4-Cycloheptadiene
         L3: 1,2,4,6-Cycloheptatetraene
         L3: heptasulfur
-		L3: oxepane
+	L3: oxepane
     L2: EightMember
         L3: Cyclooctane
         L3: cis-Cyclooctene
