@@ -12,33 +12,55 @@ entry(
     label = "RnH",
     group = "OR{R2Hall, R3Hall, R4Hall, R5Hall, R6Hall, R7Hall}",
     distances = DistanceData(
-        distances = {'d12': 2.28662, 'd13': 1.3095, 'd23': 1.30761},
-        uncertainties = {'d12': 0.264704, 'd13': 0.0726, 'd23': 0.06722},
+        distances = {'d12': 2.31211, 'd13': 1.28557, 'd23': 1.28579},
+        uncertainties = {'d12': 0.294782, 'd13': 0.080062, 'd23': 0.074964},
     ),
-    shortDesc = u"""Fitted to 40 distances.
+    shortDesc = u"""Fitted to 140 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=97 label="R4H_sds">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=289 label="Cs_H_out_CsH">]
+[<Entry index=16 label="R3H_ss">, <Entry index=251 label="Cdj_out_O">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
+[<Entry index=20 label="R4H_sss">, <Entry index=271 label="Csj_out_CsH">, <Entry index=13 label="O_H_out">]
 [<Entry index=118 label="R5H_sdss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=97 label="R4H_sds">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=12 label="C_H_out">]
 [<Entry index=44 label="R6H_sssss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=294 label="Cs_H_out_CsCd">]
 [<Entry index=14 label="R2H_s">, <Entry index=259 label="Csj_out_CC">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=285 label="Csj_out_CsO">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=12 label="C_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=251 label="Cdj_out_O">, <Entry index=13 label="O_H_out">]
 [<Entry index=97 label="R4H_sds">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=44 label="R6H_sssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
 [<Entry index=97 label="R4H_sds">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
 [<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=251 label="Cdj_out_O">, <Entry index=13 label="O_H_out">]
 [<Entry index=97 label="R4H_sds">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=44 label="R6H_sssss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=20 label="R4H_sss">, <Entry index=258 label="Csj_out_OH">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=303 label="Cs_H_out_CsO">]
+[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=265 label="Cs_H_out_OH">]
 [<Entry index=9 label="R7Hall">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=269 label="Cd_H_out_Cd">]
 [<Entry index=115 label="R5H_ssds">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=285 label="Csj_out_CsO">, <Entry index=13 label="O_H_out">]
+[<Entry index=16 label="R3H_ss">, <Entry index=247 label="Csj_out_H2">, <Entry index=12 label="C_H_out">]
 [<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=271 label="Csj_out_CsH">, <Entry index=13 label="O_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
+[<Entry index=14 label="R2H_s">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=271 label="Csj_out_CsH">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=9 label="R7Hall">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=276 label="Csj_out_CsCd">, <Entry index=252 label="Cs_H_out_H2">]
@@ -46,9 +68,13 @@ u"""
 [<Entry index=28 label="R5H_ssss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=266 label="Cs_H_out_CC">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=13 label="O_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=289 label="Cs_H_out_CsH">]
 [<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=14 label="R2H_s">, <Entry index=262 label="Cdj_out_Cd">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=16 label="R3H_ss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=289 label="Cs_H_out_CsH">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=303 label="Cs_H_out_CsO">]
+[<Entry index=44 label="R6H_sssss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
 """,
 )
 
@@ -71,24 +97,29 @@ entry(
     label = "R2Hall",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 R!H u0 {2,[S,D,T,B]} {3,S}
 2 *1 R!H u1 {1,[S,D,T,B]}
 3 *3 H   u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.374077, 'd13': -0.010788, 'd23': -0.015401},
-        uncertainties = {'d12': 0.441435, 'd13': 0.056082, 'd23': 0.045976},
+        distances = {'d12': -0.423185, 'd13': -0.002561, 'd23': -0.002694},
+        uncertainties = {'d12': 0.789173, 'd13': 0.066844, 'd23': 0.066776},
     ),
-    shortDesc = u"""Fitted to 10 distances.
+    shortDesc = u"""Fitted to 14 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=14 label="R2H_s">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=271 label="Csj_out_CsH">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=276 label="Csj_out_CsCd">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=266 label="Cs_H_out_CC">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=269 label="Cd_H_out_Cd">]
+[<Entry index=14 label="R2H_s">, <Entry index=262 label="Cdj_out_Cd">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=259 label="Csj_out_CC">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=294 label="Cs_H_out_CsCd">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=289 label="Cs_H_out_CsH">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
 """,
 )
 
@@ -97,24 +128,29 @@ entry(
     label = "R2H_s",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 R!H u0 {2,S} {3,S}
 2 *1 R!H u1 {1,S}
 3 *3 H   u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.374077, 'd13': -0.010788, 'd23': -0.015401},
-        uncertainties = {'d12': 0.441435, 'd13': 0.056082, 'd23': 0.045976},
+        distances = {'d12': -0.423185, 'd13': -0.002561, 'd23': -0.002694},
+        uncertainties = {'d12': 0.789173, 'd13': 0.066844, 'd23': 0.066776},
     ),
-    shortDesc = u"""Fitted to 10 distances.
+    shortDesc = u"""Fitted to 14 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=14 label="R2H_s">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=271 label="Csj_out_CsH">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=276 label="Csj_out_CsCd">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=266 label="Cs_H_out_CC">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=269 label="Cd_H_out_Cd">]
+[<Entry index=14 label="R2H_s">, <Entry index=262 label="Cdj_out_Cd">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=259 label="Csj_out_CC">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=294 label="Cs_H_out_CsCd">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=289 label="Cs_H_out_CsH">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
 """,
 )
 
@@ -123,9 +159,10 @@ entry(
     label = "R2H_r",
     group = 
 """
-1 *1 R!H u1 {2,[D,T,B]}
-2 *2 R!H u0 {1,[D,T,B]} {3,S}
-3 *3 H   u0 {2,S}
+multiplicity [1,2,3,4,5]
+1 *2 R!H u0 {2,[D,T,B]} {3,S}
+2 *1 R!H u1 {1,[D,T,B]}
+3 *3 H   u0 {1,S}
 """,
     distances = DistanceData(distances={}),
 )
@@ -135,9 +172,10 @@ entry(
     label = "R2H_d",
     group = 
 """
-1 *1 R!H u1 {2,D}
-2 *2 R!H u0 {1,D} {3,S}
-3 *3 H   u0 {2,S}
+multiplicity [1,2,3,4,5]
+1 *2 R!H u0 {2,D} {3,S}
+2 *1 R!H u1 {1,D}
+3 *3 H   u0 {1,S}
 """,
     distances = DistanceData(distances={}),
 )
@@ -147,6 +185,7 @@ entry(
     label = "R2H_t",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *2 R!H u0 {1,T} {3,S}
 3 *3 H   u0 {2,S}
@@ -159,6 +198,7 @@ entry(
     label = "R2H_b",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *2 R!H u0 {1,B} {3,S}
 3 *3 H   u0 {2,S}
@@ -171,21 +211,24 @@ entry(
     label = "R3Hall",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *4 R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
 2 *2 R!H u0 {1,[S,D,T,B]} {4,S}
 3 *1 R!H u1 {1,[S,D,T,B]}
 4 *3 H   u0 {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.138585, 'd13': 0.016711, 'd23': 0.0158},
-        uncertainties = {'d12': 1.60888, 'd13': 0.243793, 'd23': 0.088296},
+        distances = {'d12': -0.210247, 'd13': 0.042609, 'd23': 0.038629},
+        uncertainties = {'d12': 0.134795, 'd13': 0.111081, 'd23': 0.0726},
     ),
-    shortDesc = u"""Fitted to 2 distances.
+    shortDesc = u"""Fitted to 6 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=16 label="R3H_ss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
 [<Entry index=16 label="R3H_ss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=16 label="R3H_ss">, <Entry index=251 label="Cdj_out_O">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=16 label="R3H_ss">, <Entry index=247 label="Csj_out_H2">, <Entry index=12 label="C_H_out">]
 """,
 )
 
@@ -194,21 +237,24 @@ entry(
     label = "R3H_ss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *4 R!H ux {2,S} {3,S}
 2 *2 R!H u0 {1,S} {4,S}
 3 *1 R!H u1 {1,S}
 4 *3 H   u0 {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.138585, 'd13': 0.016711, 'd23': 0.0158},
-        uncertainties = {'d12': 1.60888, 'd13': 0.243793, 'd23': 0.088296},
+        distances = {'d12': -0.210247, 'd13': 0.042609, 'd23': 0.038629},
+        uncertainties = {'d12': 0.134795, 'd13': 0.111081, 'd23': 0.0726},
     ),
-    shortDesc = u"""Fitted to 2 distances.
+    shortDesc = u"""Fitted to 6 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=16 label="R3H_ss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
 [<Entry index=16 label="R3H_ss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=16 label="R3H_ss">, <Entry index=251 label="Cdj_out_O">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=16 label="R3H_ss">, <Entry index=247 label="Csj_out_H2">, <Entry index=12 label="C_H_out">]
 """,
 )
 
@@ -217,6 +263,7 @@ entry(
     label = "R3H_sr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *4 R!H ux {2,[D,T,B]} {3,S}
 2 *2 R!H u0 {1,[D,T,B]} {4,S}
 3 *1 R!H u1 {1,S}
@@ -230,6 +277,7 @@ entry(
     label = "R3H_sd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *4 R!H ux {2,D} {3,S}
 2 *2 R!H u0 {1,D} {4,S}
 3 *1 R!H u1 {1,S}
@@ -243,6 +291,7 @@ entry(
     label = "R3H_st",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *4 R!H ux {2,T} {3,S}
 2 *2 R!H u0 {1,T} {4,S}
 3 *1 R!H u1 {1,S}
@@ -256,6 +305,7 @@ entry(
     label = "R3H_sb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *4 R!H ux {2,B} {3,S}
 2 *2 R!H u0 {1,B} {4,S}
 3 *1 R!H u1 {1,S}
@@ -269,6 +319,7 @@ entry(
     label = "R3H_rs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *4 R!H ux {2,S} {3,[D,T,B]}
 2 *2 R!H u0 {1,S} {4,S}
 3 *1 R!H u1 {1,[D,T,B]}
@@ -282,6 +333,7 @@ entry(
     label = "R3H_ds",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *4 R!H ux {2,S} {3,D}
 2 *2 R!H u0 {1,S} {4,S}
 3 *1 R!H u1 {1,D}
@@ -295,6 +347,7 @@ entry(
     label = "R3H_ts",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *4 R!H ux {2,S} {3,T}
 2 *2 R!H u0 {1,S} {4,S}
 3 *1 R!H u1 {1,T}
@@ -308,6 +361,7 @@ entry(
     label = "R3H_bs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *4 R!H ux {2,S} {3,B}
 2 *2 R!H u0 {1,S} {4,S}
 3 *1 R!H u1 {1,B}
@@ -321,6 +375,7 @@ entry(
     label = "R3H_rr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,[D,T,B]}
 3 *2 R!H u0 {2,[D,T,B]} {4,S}
@@ -334,6 +389,7 @@ entry(
     label = "R3H_bb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,B}
 3 *2 R!H u0 {2,B} {4,S}
@@ -347,6 +403,7 @@ entry(
     label = "R4Hall",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *5 R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
 2 *4 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
 3 *2 R!H u0 {1,[S,D,T,B]} {5,S}
@@ -354,21 +411,33 @@ entry(
 5 *3 H   u0 {3,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.253866, 'd13': 0.034161, 'd23': 0.037123},
-        uncertainties = {'d12': 0.311093, 'd13': 0.074745, 'd23': 0.100877},
+        distances = {'d12': 0.096514, 'd13': 0.017229, 'd23': 0.018029},
+        uncertainties = {'d12': 0.256152, 'd13': 0.103991, 'd23': 0.096763},
     ),
-    shortDesc = u"""Fitted to 10 distances.
+    shortDesc = u"""Fitted to 50 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=20 label="R4H_sss">, <Entry index=258 label="Csj_out_OH">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=303 label="Cs_H_out_CsO">]
+[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=265 label="Cs_H_out_OH">]
 [<Entry index=97 label="R4H_sds">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
+[<Entry index=20 label="R4H_sss">, <Entry index=251 label="Cdj_out_O">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=12 label="C_H_out">]
 [<Entry index=97 label="R4H_sds">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=271 label="Csj_out_CsH">, <Entry index=13 label="O_H_out">]
 [<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=97 label="R4H_sds">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
 [<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=289 label="Cs_H_out_CsH">]
 [<Entry index=97 label="R4H_sds">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=20 label="R4H_sss">, <Entry index=285 label="Csj_out_CsO">, <Entry index=13 label="O_H_out">]
 [<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=20 label="R4H_sss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
 """,
 )
 
@@ -377,6 +446,7 @@ entry(
     label = "R4H_sss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *5 R!H ux {2,S} {3,S}
 2 *4 R!H ux {1,S} {4,S}
 3 *2 R!H u0 {1,S} {5,S}
@@ -384,17 +454,29 @@ entry(
 5 *3 H   u0 {3,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.256695, 'd13': 0.031989, 'd23': 0.033143},
-        uncertainties = {'d12': 0.427055, 'd13': 0.104668, 'd23': 0.149159},
+        distances = {'d12': 0.081186, 'd13': 0.012979, 'd23': 0.013837},
+        uncertainties = {'d12': 0.26333, 'd13': 0.108416, 'd23': 0.100833},
     ),
-    shortDesc = u"""Fitted to 6 distances.
+    shortDesc = u"""Fitted to 46 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=20 label="R4H_sss">, <Entry index=258 label="Csj_out_OH">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=303 label="Cs_H_out_CsO">]
+[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=265 label="Cs_H_out_OH">]
+[<Entry index=20 label="R4H_sss">, <Entry index=271 label="Csj_out_CsH">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
+[<Entry index=20 label="R4H_sss">, <Entry index=251 label="Cdj_out_O">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=12 label="C_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=289 label="Cs_H_out_CsH">]
+[<Entry index=20 label="R4H_sss">, <Entry index=285 label="Csj_out_CsO">, <Entry index=13 label="O_H_out">]
 [<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=20 label="R4H_sss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
 """,
 )
 
@@ -403,6 +485,7 @@ entry(
     label = "R4H_ssr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *5 R!H ux {2,S} {3,[D,T,B]}
 2 *4 R!H ux {1,S} {4,S}
 3 *2 R!H u0 {1,[D,T,B]} {5,S}
@@ -417,6 +500,7 @@ entry(
     label = "R4H_ssd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *5 R!H ux {2,S} {3,D}
 2 *4 R!H ux {1,S} {4,S}
 3 *2 R!H u0 {1,D} {5,S}
@@ -431,6 +515,7 @@ entry(
     label = "R4H_sst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *5 R!H ux {2,S} {3,T}
 2 *4 R!H ux {1,S} {4,S}
 3 *2 R!H u0 {1,T} {5,S}
@@ -445,6 +530,7 @@ entry(
     label = "R4H_ssb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *5 R!H ux {2,S} {3,B}
 2 *4 R!H ux {1,S} {4,S}
 3 *2 R!H u0 {1,B} {5,S}
@@ -459,6 +545,7 @@ entry(
     label = "R4H_srs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *5 R!H ux {2,[D,T,B]} {3,S}
 2 *4 R!H ux {1,[D,T,B]} {4,S}
 3 *2 R!H u0 {1,S} {5,S}
@@ -466,8 +553,8 @@ entry(
 5 *3 H   u0 {3,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.248916, 'd13': 0.03796, 'd23': 0.044089},
-        uncertainties = {'d12': 0.329751, 'd13': 0.072013, 'd23': 0.059881},
+        distances = {'d12': 0.220103, 'd13': 0.051493, 'd23': 0.051828},
+        uncertainties = {'d12': 0.301407, 'd13': 0.052846, 'd23': 0.052633},
     ),
     shortDesc = u"""Fitted to 4 distances.
 """,
@@ -485,6 +572,7 @@ entry(
     label = "R4H_sds",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *5 R!H ux {2,D} {3,S}
 2 *4 R!H ux {1,D} {4,S}
 3 *2 R!H u0 {1,S} {5,S}
@@ -492,8 +580,8 @@ entry(
 5 *3 H   u0 {3,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.248916, 'd13': 0.03796, 'd23': 0.044089},
-        uncertainties = {'d12': 0.329751, 'd13': 0.072013, 'd23': 0.059881},
+        distances = {'d12': 0.220103, 'd13': 0.051493, 'd23': 0.051828},
+        uncertainties = {'d12': 0.301407, 'd13': 0.052846, 'd23': 0.052633},
     ),
     shortDesc = u"""Fitted to 4 distances.
 """,
@@ -511,6 +599,7 @@ entry(
     label = "R4H_sts",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *5 R!H ux {2,T} {3,S}
 2 *4 R!H ux {1,T} {4,S}
 3 *2 R!H u0 {1,S} {5,S}
@@ -525,6 +614,7 @@ entry(
     label = "R4H_sbs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *5 R!H ux {2,B} {3,S}
 2 *4 R!H ux {1,B} {4,S}
 3 *2 R!H u0 {1,S} {5,S}
@@ -539,6 +629,7 @@ entry(
     label = "R4H_rss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *5 R!H ux {2,S} {3,S}
 2 *4 R!H ux {1,S} {4,[D,T,B]}
 3 *2 R!H u0 {1,S} {5,S}
@@ -553,6 +644,7 @@ entry(
     label = "R4H_dss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *5 R!H ux {2,S} {3,S}
 2 *4 R!H ux {1,S} {4,D}
 3 *2 R!H u0 {1,S} {5,S}
@@ -567,6 +659,7 @@ entry(
     label = "R4H_tss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *5 R!H ux {2,S} {3,S}
 2 *4 R!H ux {1,S} {4,T}
 3 *2 R!H u0 {1,S} {5,S}
@@ -581,6 +674,7 @@ entry(
     label = "R4H_bss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *5 R!H ux {2,S} {3,S}
 2 *4 R!H ux {1,S} {4,B}
 3 *2 R!H u0 {1,S} {5,S}
@@ -595,6 +689,7 @@ entry(
     label = "R4H_srr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,[D,T,B]}
 3 *5 R!H ux {2,[D,T,B]} {4,[D,T,B]}
@@ -609,6 +704,7 @@ entry(
     label = "R4H_rrs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,[D,T,B]}
 3 *5 R!H ux {2,[D,T,B]} {4,S}
@@ -623,6 +719,7 @@ entry(
     label = "R4H_rsr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,S}
 3 *5 R!H ux {2,S} {4,[D,T,B]}
@@ -637,6 +734,7 @@ entry(
     label = "R4H_dsd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *5 R!H ux {2,S} {4,D}
@@ -651,6 +749,7 @@ entry(
     label = "R4H_tsd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *5 R!H ux {2,S} {4,D}
@@ -665,6 +764,7 @@ entry(
     label = "R4H_bsd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *5 R!H ux {2,S} {4,D}
@@ -679,6 +779,7 @@ entry(
     label = "R4H_dst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *5 R!H ux {2,S} {4,T}
@@ -693,6 +794,7 @@ entry(
     label = "R4H_tst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *5 R!H ux {2,S} {4,T}
@@ -707,6 +809,7 @@ entry(
     label = "R4H_bst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *5 R!H ux {2,S} {4,T}
@@ -721,6 +824,7 @@ entry(
     label = "R4H_dsb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *5 R!H ux {2,S} {4,B}
@@ -735,6 +839,7 @@ entry(
     label = "R4H_tsb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *5 R!H ux {2,S} {4,B}
@@ -749,6 +854,7 @@ entry(
     label = "R4H_bsb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *5 R!H ux {2,S} {4,B}
@@ -763,6 +869,7 @@ entry(
     label = "R4H_rrr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,[D,T,B]}
 3 *5 R!H ux {2,[D,T,B]} {4,[D,T,B]}
@@ -777,6 +884,7 @@ entry(
     label = "R5Hall",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *6 R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
 2 *5 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
 3 *4 R!H ux {1,[S,D,T,B]} {5,[S,D,T,B]}
@@ -785,23 +893,29 @@ entry(
 6 *3 H   u0 {4,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.226393, 'd13': -0.016092, 'd23': -0.0128},
-        uncertainties = {'d12': 0.223044, 'd13': 0.103527, 'd23': 0.0783},
+        distances = {'d12': 0.134017, 'd13': -0.016403, 'd23': -0.016606},
+        uncertainties = {'d12': 0.194919, 'd13': 0.07011, 'd23': 0.067559},
     ),
-    shortDesc = u"""Fitted to 14 distances.
+    shortDesc = u"""Fitted to 58 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=303 label="Cs_H_out_CsO">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=12 label="C_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=251 label="Cdj_out_O">, <Entry index=13 label="O_H_out">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=13 label="O_H_out">]
 [<Entry index=115 label="R5H_ssds">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=271 label="Csj_out_CsH">, <Entry index=13 label="O_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=285 label="Csj_out_CsO">, <Entry index=13 label="O_H_out">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=118 label="R5H_sdss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=289 label="Cs_H_out_CsH">]
 """,
 )
 
@@ -810,6 +924,7 @@ entry(
     label = "R5H_ssss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *6 R!H ux {2,S} {3,S}
 2 *5 R!H ux {1,S} {4,S}
 3 *4 R!H ux {1,S} {5,S}
@@ -818,21 +933,27 @@ entry(
 6 *3 H   u0 {4,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.211365, 'd13': -0.020284, 'd23': -0.017394},
-        uncertainties = {'d12': 0.246278, 'd13': 0.114236, 'd23': 0.086544},
+        distances = {'d12': 0.126439, 'd13': -0.018273, 'd23': -0.018537},
+        uncertainties = {'d12': 0.198296, 'd13': 0.071281, 'd23': 0.068699},
     ),
-    shortDesc = u"""Fitted to 12 distances.
+    shortDesc = u"""Fitted to 56 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=303 label="Cs_H_out_CsO">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=12 label="C_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=251 label="Cdj_out_O">, <Entry index=13 label="O_H_out">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=13 label="O_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=289 label="Cs_H_out_CsH">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=285 label="Csj_out_CsO">, <Entry index=13 label="O_H_out">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=271 label="Csj_out_CsH">, <Entry index=13 label="O_H_out">]
 """,
 )
 
@@ -841,6 +962,7 @@ entry(
     label = "R5H_sssr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *6 R!H ux {2,S} {3,S}
 2 *5 R!H ux {1,S} {4,[D,T,B]}
 3 *4 R!H ux {1,S} {5,S}
@@ -856,6 +978,7 @@ entry(
     label = "R5H_sssd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *6 R!H ux {2,S} {3,S}
 2 *5 R!H ux {1,S} {4,D}
 3 *4 R!H ux {1,S} {5,S}
@@ -871,6 +994,7 @@ entry(
     label = "R5H_ssst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -886,6 +1010,7 @@ entry(
     label = "R5H_sssb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -901,6 +1026,7 @@ entry(
     label = "R5H_ssrs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *6 R!H ux {2,[D,T,B]} {3,S}
 2 *5 R!H ux {1,[D,T,B]} {4,S}
 3 *4 R!H ux {1,S} {5,S}
@@ -909,7 +1035,7 @@ entry(
 6 *3 H   u0 {4,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.286504, 'd13': 0.000674, 'd23': 0.005579},
+        distances = {'d12': 0.259051, 'd13': 0.016608, 'd23': 0.013097},
         uncertainties = {},
     ),
     shortDesc = u"""Fitted to 1 distances.
@@ -925,6 +1051,7 @@ entry(
     label = "R5H_ssds",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *6 R!H ux {2,D} {3,S}
 2 *5 R!H ux {1,D} {4,S}
 3 *4 R!H ux {1,S} {5,S}
@@ -933,7 +1060,7 @@ entry(
 6 *3 H   u0 {4,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.286504, 'd13': 0.000674, 'd23': 0.005579},
+        distances = {'d12': 0.259051, 'd13': 0.016608, 'd23': 0.013097},
         uncertainties = {},
     ),
     shortDesc = u"""Fitted to 1 distances.
@@ -949,6 +1076,7 @@ entry(
     label = "R5H_ssts",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *6 R!H ux {2,T} {3,S}
 2 *5 R!H ux {1,T} {4,S}
 3 *4 R!H ux {1,S} {5,S}
@@ -964,6 +1092,7 @@ entry(
     label = "R5H_ssbs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *6 R!H ux {2,B} {3,S}
 2 *5 R!H ux {1,B} {4,S}
 3 *4 R!H ux {1,S} {5,S}
@@ -979,6 +1108,7 @@ entry(
     label = "R5H_srss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *6 R!H ux {2,S} {3,[D,T,B]}
 2 *5 R!H ux {1,S} {4,S}
 3 *4 R!H ux {1,[D,T,B]} {5,S}
@@ -987,7 +1117,7 @@ entry(
 6 *3 H   u0 {4,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.286504, 'd13': 0.000674, 'd23': 0.005579},
+        distances = {'d12': 0.259051, 'd13': 0.012288, 'd23': 0.017417},
         uncertainties = {},
     ),
     shortDesc = u"""Fitted to 1 distances.
@@ -1003,6 +1133,7 @@ entry(
     label = "R5H_sdss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *6 R!H ux {2,S} {3,D}
 2 *5 R!H ux {1,S} {4,S}
 3 *4 R!H ux {1,D} {5,S}
@@ -1011,7 +1142,7 @@ entry(
 6 *3 H   u0 {4,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.286504, 'd13': 0.000674, 'd23': 0.005579},
+        distances = {'d12': 0.259051, 'd13': 0.012288, 'd23': 0.017417},
         uncertainties = {},
     ),
     shortDesc = u"""Fitted to 1 distances.
@@ -1027,6 +1158,7 @@ entry(
     label = "R5H_stss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *6 R!H ux {2,S} {3,T}
 2 *5 R!H ux {1,S} {4,S}
 3 *4 R!H ux {1,T} {5,S}
@@ -1042,6 +1174,7 @@ entry(
     label = "R5H_sbss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *6 R!H ux {2,S} {3,B}
 2 *5 R!H ux {1,S} {4,S}
 3 *4 R!H ux {1,B} {5,S}
@@ -1057,6 +1190,7 @@ entry(
     label = "R5H_rsss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *6 R!H ux {2,S} {3,S}
 2 *5 R!H ux {1,S} {4,S}
 3 *4 R!H ux {1,S} {5,[D,T,B]}
@@ -1072,6 +1206,7 @@ entry(
     label = "R5H_dsss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *6 R!H ux {2,S} {3,S}
 2 *5 R!H ux {1,S} {4,S}
 3 *4 R!H ux {1,S} {5,D}
@@ -1087,6 +1222,7 @@ entry(
     label = "R5H_tsss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -1102,6 +1238,7 @@ entry(
     label = "R5H_bsss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -1117,6 +1254,7 @@ entry(
     label = "R5H_ssrr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,[D,T,B]}
@@ -1132,6 +1270,7 @@ entry(
     label = "R5H_srsr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,S}
@@ -1147,6 +1286,7 @@ entry(
     label = "R5H_sdsd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,D}
 3 *6 R!H ux {2,D} {4,S}
@@ -1162,6 +1302,7 @@ entry(
     label = "R5H_stsd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,T}
 3 *6 R!H ux {2,T} {4,S}
@@ -1177,6 +1318,7 @@ entry(
     label = "R5H_sbsd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,B}
 3 *6 R!H ux {2,B} {4,S}
@@ -1192,6 +1334,7 @@ entry(
     label = "R5H_sdst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,D}
 3 *6 R!H ux {2,D} {4,S}
@@ -1207,6 +1350,7 @@ entry(
     label = "R5H_stst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,T}
 3 *6 R!H ux {2,T} {4,S}
@@ -1222,6 +1366,7 @@ entry(
     label = "R5H_sbst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,B}
 3 *6 R!H ux {2,B} {4,S}
@@ -1237,6 +1382,7 @@ entry(
     label = "R5H_sdsb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,D}
 3 *6 R!H ux {2,D} {4,S}
@@ -1252,6 +1398,7 @@ entry(
     label = "R5H_stsb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,T}
 3 *6 R!H ux {2,T} {4,S}
@@ -1267,6 +1414,7 @@ entry(
     label = "R5H_sbsb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,B}
 3 *6 R!H ux {2,B} {4,S}
@@ -1282,6 +1430,7 @@ entry(
     label = "R5H_rssr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -1297,6 +1446,7 @@ entry(
     label = "R5H_dssd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -1312,6 +1462,7 @@ entry(
     label = "R5H_tssd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -1327,6 +1478,7 @@ entry(
     label = "R5H_bssd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -1342,6 +1494,7 @@ entry(
     label = "R5H_dsst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -1357,6 +1510,7 @@ entry(
     label = "R5H_tsst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -1372,6 +1526,7 @@ entry(
     label = "R5H_bsst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -1387,6 +1542,7 @@ entry(
     label = "R5H_dssb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -1402,6 +1558,7 @@ entry(
     label = "R5H_tssb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -1417,6 +1574,7 @@ entry(
     label = "R5H_bssb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -1432,6 +1590,7 @@ entry(
     label = "R5H_srrs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,[D,T,B]}
@@ -1447,6 +1606,7 @@ entry(
     label = "R5H_rsrs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,S}
 3 *6 R!H ux {2,S} {4,[D,T,B]}
@@ -1462,6 +1622,7 @@ entry(
     label = "R5H_dsds",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,D}
@@ -1477,6 +1638,7 @@ entry(
     label = "R5H_tsds",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,D}
@@ -1492,6 +1654,7 @@ entry(
     label = "R5H_bsds",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,D}
@@ -1507,6 +1670,7 @@ entry(
     label = "R5H_dsts",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,T}
@@ -1522,6 +1686,7 @@ entry(
     label = "R5H_tsts",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,T}
@@ -1537,6 +1702,7 @@ entry(
     label = "R5H_bsts",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,T}
@@ -1552,6 +1718,7 @@ entry(
     label = "R5H_dsbs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,B}
@@ -1567,6 +1734,7 @@ entry(
     label = "R5H_tsbs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,B}
@@ -1582,6 +1750,7 @@ entry(
     label = "R5H_bsbs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,B}
@@ -1597,6 +1766,7 @@ entry(
     label = "R5H_rrss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,S}
@@ -1612,6 +1782,7 @@ entry(
     label = "R5H_srrr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,[D,T,B]}
@@ -1627,6 +1798,7 @@ entry(
     label = "R5H_rsrr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,S}
 3 *6 R!H ux {2,S} {4,[D,T,B]}
@@ -1642,6 +1814,7 @@ entry(
     label = "R5H_rrsr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,S}
@@ -1657,6 +1830,7 @@ entry(
     label = "R5H_rrrs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,[D,T,B]}
@@ -1672,6 +1846,7 @@ entry(
     label = "R5H_rrrr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,[D,T,B]}
@@ -1687,6 +1862,7 @@ entry(
     label = "R6Hall",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *7 R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
 2 *6 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
 3 *5 R!H ux {1,[S,D,T,B]} {5,[S,D,T,B]}
@@ -1696,15 +1872,17 @@ entry(
 7 *3 H   u0 {5,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.179592, 'd13': -0.046361, 'd23': -0.046147},
-        uncertainties = {'d12': 0.179618, 'd13': 0.602642, 'd23': 0.58002},
+        distances = {'d12': 0.158073, 'd13': -0.03048, 'd23': -0.030703},
+        uncertainties = {'d12': 0.050423, 'd13': 0.049426, 'd23': 0.048821},
     ),
-    shortDesc = u"""Fitted to 2 distances.
+    shortDesc = u"""Fitted to 10 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=44 label="R6H_sssss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=44 label="R6H_sssss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
 [<Entry index=44 label="R6H_sssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=44 label="R6H_sssss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
 """,
 )
 
@@ -1713,6 +1891,7 @@ entry(
     label = "R6H_sssss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *7 R!H ux {2,S} {3,S}
 2 *6 R!H ux {1,S} {4,S}
 3 *5 R!H ux {1,S} {5,S}
@@ -1722,15 +1901,17 @@ entry(
 7 *3 H   u0 {5,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.179592, 'd13': -0.046361, 'd23': -0.046147},
-        uncertainties = {'d12': 0.179618, 'd13': 0.602642, 'd23': 0.58002},
+        distances = {'d12': 0.158073, 'd13': -0.03048, 'd23': -0.030703},
+        uncertainties = {'d12': 0.050423, 'd13': 0.049426, 'd23': 0.048821},
     ),
-    shortDesc = u"""Fitted to 2 distances.
+    shortDesc = u"""Fitted to 10 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=44 label="R6H_sssss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=44 label="R6H_sssss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
 [<Entry index=44 label="R6H_sssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=44 label="R6H_sssss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
 """,
 )
 
@@ -1739,6 +1920,7 @@ entry(
     label = "R6H_ssssr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -1755,6 +1937,7 @@ entry(
     label = "R6H_ssssd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -1771,6 +1954,7 @@ entry(
     label = "R6H_sssst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -1787,6 +1971,7 @@ entry(
     label = "R6H_ssssb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -1803,6 +1988,7 @@ entry(
     label = "R6H_sssrs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *7 R!H ux {2,S} {3,[D,T,B]}
 2 *6 R!H ux {1,S} {4,S}
 3 *5 R!H ux {1,[D,T,B]} {5,S}
@@ -1819,6 +2005,7 @@ entry(
     label = "R6H_sssds",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *7 R!H ux {2,S} {3,D}
 2 *6 R!H ux {1,S} {4,S}
 3 *5 R!H ux {1,D} {5,S}
@@ -1835,6 +2022,7 @@ entry(
     label = "R6H_sssts",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -1851,6 +2039,7 @@ entry(
     label = "R6H_sssbs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -1867,6 +2056,7 @@ entry(
     label = "R6H_ssrss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,[D,T,B]}
@@ -1883,6 +2073,7 @@ entry(
     label = "R6H_ssdss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,D}
@@ -1899,6 +2090,7 @@ entry(
     label = "R6H_sstss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,T}
@@ -1915,6 +2107,7 @@ entry(
     label = "R6H_ssbss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,B}
@@ -1931,6 +2124,7 @@ entry(
     label = "R6H_srsss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *7 R!H ux {2,S} {3,S}
 2 *6 R!H ux {1,S} {4,[D,T,B]}
 3 *5 R!H ux {1,S} {5,S}
@@ -1947,6 +2141,7 @@ entry(
     label = "R6H_sdsss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *7 R!H ux {2,S} {3,S}
 2 *6 R!H ux {1,S} {4,D}
 3 *5 R!H ux {1,S} {5,S}
@@ -1963,6 +2158,7 @@ entry(
     label = "R6H_stsss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,T}
 3 *6 R!H ux {2,T} {4,S}
@@ -1979,6 +2175,7 @@ entry(
     label = "R6H_sbsss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,B}
 3 *6 R!H ux {2,B} {4,S}
@@ -1995,6 +2192,7 @@ entry(
     label = "R6H_rssss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2011,6 +2209,7 @@ entry(
     label = "R6H_dssss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2027,6 +2226,7 @@ entry(
     label = "R6H_tssss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2043,6 +2243,7 @@ entry(
     label = "R6H_bssss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2059,6 +2260,7 @@ entry(
     label = "R6H_sssrr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2075,6 +2277,7 @@ entry(
     label = "R6H_ssrsr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,[D,T,B]}
@@ -2091,6 +2294,7 @@ entry(
     label = "R6H_ssdsd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,D}
@@ -2107,6 +2311,7 @@ entry(
     label = "R6H_sstsd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,T}
@@ -2123,6 +2328,7 @@ entry(
     label = "R6H_ssbsd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,B}
@@ -2139,6 +2345,7 @@ entry(
     label = "R6H_ssdst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,D}
@@ -2155,6 +2362,7 @@ entry(
     label = "R6H_sstst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,T}
@@ -2171,6 +2379,7 @@ entry(
     label = "R6H_ssbst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,B}
@@ -2187,6 +2396,7 @@ entry(
     label = "R6H_ssdsb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,D}
@@ -2203,6 +2413,7 @@ entry(
     label = "R6H_sstsb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,T}
@@ -2219,6 +2430,7 @@ entry(
     label = "R6H_ssbsb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,B}
@@ -2235,6 +2447,7 @@ entry(
     label = "R6H_srssr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,S}
@@ -2251,6 +2464,7 @@ entry(
     label = "R6H_sdssd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,D}
 3 *6 R!H ux {2,D} {4,S}
@@ -2267,6 +2481,7 @@ entry(
     label = "R6H_stssd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,T}
 3 *6 R!H ux {2,T} {4,S}
@@ -2283,6 +2498,7 @@ entry(
     label = "R6H_sbssd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,B}
 3 *6 R!H ux {2,B} {4,S}
@@ -2299,6 +2515,7 @@ entry(
     label = "R6H_sdsst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,D}
 3 *6 R!H ux {2,D} {4,S}
@@ -2315,6 +2532,7 @@ entry(
     label = "R6H_stsst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,T}
 3 *6 R!H ux {2,T} {4,S}
@@ -2331,6 +2549,7 @@ entry(
     label = "R6H_sbsst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,B}
 3 *6 R!H ux {2,B} {4,S}
@@ -2347,6 +2566,7 @@ entry(
     label = "R6H_sdssb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,D}
 3 *6 R!H ux {2,D} {4,S}
@@ -2363,6 +2583,7 @@ entry(
     label = "R6H_stssb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,T}
 3 *6 R!H ux {2,T} {4,S}
@@ -2379,6 +2600,7 @@ entry(
     label = "R6H_sbssb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,B}
 3 *6 R!H ux {2,B} {4,S}
@@ -2395,6 +2617,7 @@ entry(
     label = "R6H_rsssr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2411,6 +2634,7 @@ entry(
     label = "R6H_dsssd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2427,6 +2651,7 @@ entry(
     label = "R6H_tsssd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2443,6 +2668,7 @@ entry(
     label = "R6H_bsssd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2459,6 +2685,7 @@ entry(
     label = "R6H_dssst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2475,6 +2702,7 @@ entry(
     label = "R6H_tssst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2491,6 +2719,7 @@ entry(
     label = "R6H_bssst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2507,6 +2736,7 @@ entry(
     label = "R6H_dsssb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2523,6 +2753,7 @@ entry(
     label = "R6H_tsssb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2539,6 +2770,7 @@ entry(
     label = "R6H_bsssb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2555,6 +2787,7 @@ entry(
     label = "R6H_ssrrs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,[D,T,B]}
@@ -2571,6 +2804,7 @@ entry(
     label = "R6H_srsrs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,S}
@@ -2587,6 +2821,7 @@ entry(
     label = "R6H_sdsds",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,D}
 3 *6 R!H ux {2,D} {4,S}
@@ -2603,6 +2838,7 @@ entry(
     label = "R6H_stsds",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,T}
 3 *6 R!H ux {2,T} {4,S}
@@ -2619,6 +2855,7 @@ entry(
     label = "R6H_sbsds",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,B}
 3 *6 R!H ux {2,B} {4,S}
@@ -2635,6 +2872,7 @@ entry(
     label = "R6H_sdsts",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,D}
 3 *6 R!H ux {2,D} {4,S}
@@ -2651,6 +2889,7 @@ entry(
     label = "R6H_ststs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,T}
 3 *6 R!H ux {2,T} {4,S}
@@ -2667,6 +2906,7 @@ entry(
     label = "R6H_sbsts",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,B}
 3 *6 R!H ux {2,B} {4,S}
@@ -2683,6 +2923,7 @@ entry(
     label = "R6H_sdsbs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,D}
 3 *6 R!H ux {2,D} {4,S}
@@ -2699,6 +2940,7 @@ entry(
     label = "R6H_stsbs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,T}
 3 *6 R!H ux {2,T} {4,S}
@@ -2715,6 +2957,7 @@ entry(
     label = "R6H_sbsbs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,B}
 3 *6 R!H ux {2,B} {4,S}
@@ -2731,6 +2974,7 @@ entry(
     label = "R6H_rssrs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2747,6 +2991,7 @@ entry(
     label = "R6H_dssds",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2763,6 +3008,7 @@ entry(
     label = "R6H_tssds",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2779,6 +3025,7 @@ entry(
     label = "R6H_bssds",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2795,6 +3042,7 @@ entry(
     label = "R6H_dssts",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2811,6 +3059,7 @@ entry(
     label = "R6H_tssts",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2827,6 +3076,7 @@ entry(
     label = "R6H_bssts",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2843,6 +3093,7 @@ entry(
     label = "R6H_dssbs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2859,6 +3110,7 @@ entry(
     label = "R6H_tssbs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2875,6 +3127,7 @@ entry(
     label = "R6H_bssbs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -2891,6 +3144,7 @@ entry(
     label = "R6H_srrss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,[D,T,B]}
@@ -2907,6 +3161,7 @@ entry(
     label = "R6H_rsrss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,S}
 3 *6 R!H ux {2,S} {4,[D,T,B]}
@@ -2923,6 +3178,7 @@ entry(
     label = "R6H_dsdss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,D}
@@ -2939,6 +3195,7 @@ entry(
     label = "R6H_tsdss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,D}
@@ -2955,6 +3212,7 @@ entry(
     label = "R6H_bsdss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,D}
@@ -2971,6 +3229,7 @@ entry(
     label = "R6H_dstss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,T}
@@ -2987,6 +3246,7 @@ entry(
     label = "R6H_tstss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,T}
@@ -3003,6 +3263,7 @@ entry(
     label = "R6H_bstss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,T}
@@ -3019,6 +3280,7 @@ entry(
     label = "R6H_dsbss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,B}
@@ -3035,6 +3297,7 @@ entry(
     label = "R6H_tsbss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,B}
@@ -3051,6 +3314,7 @@ entry(
     label = "R6H_bsbss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,B}
@@ -3067,6 +3331,7 @@ entry(
     label = "R6H_rrsss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,S}
@@ -3083,6 +3348,7 @@ entry(
     label = "R6H_ssrrr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,S}
 3 *6 R!H ux {2,S} {4,[D,T,B]}
@@ -3099,6 +3365,7 @@ entry(
     label = "R6H_srsrr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,S}
@@ -3115,6 +3382,7 @@ entry(
     label = "R6H_rssrr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,S}
 3 *6 R!H ux {2,S} {4,S}
@@ -3131,6 +3399,7 @@ entry(
     label = "R6H_srrsr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,[D,T,B]}
@@ -3147,6 +3416,7 @@ entry(
     label = "R6H_rsrsr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,S}
 3 *6 R!H ux {2,S} {4,[D,T,B]}
@@ -3163,6 +3433,7 @@ entry(
     label = "R6H_dsdsd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,D}
@@ -3179,6 +3450,7 @@ entry(
     label = "R6H_tsdsd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,D}
@@ -3195,6 +3467,7 @@ entry(
     label = "R6H_bsdsd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,D}
@@ -3211,6 +3484,7 @@ entry(
     label = "R6H_dstsd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,T}
@@ -3227,6 +3501,7 @@ entry(
     label = "R6H_tstsd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,T}
@@ -3243,6 +3518,7 @@ entry(
     label = "R6H_bstsd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,T}
@@ -3259,6 +3535,7 @@ entry(
     label = "R6H_dsbsd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,B}
@@ -3275,6 +3552,7 @@ entry(
     label = "R6H_tsbsd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,B}
@@ -3291,6 +3569,7 @@ entry(
     label = "R6H_bsbsd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,B}
@@ -3307,6 +3586,7 @@ entry(
     label = "R6H_dsdst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,D}
@@ -3323,6 +3603,7 @@ entry(
     label = "R6H_tsdst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,D}
@@ -3339,6 +3620,7 @@ entry(
     label = "R6H_bsdst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,D}
@@ -3355,6 +3637,7 @@ entry(
     label = "R6H_dstst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,T}
@@ -3371,6 +3654,7 @@ entry(
     label = "R6H_tstst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,T}
@@ -3387,6 +3671,7 @@ entry(
     label = "R6H_bstst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,T}
@@ -3403,6 +3688,7 @@ entry(
     label = "R6H_dsbst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,B}
@@ -3419,6 +3705,7 @@ entry(
     label = "R6H_tsbst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,B}
@@ -3435,6 +3722,7 @@ entry(
     label = "R6H_bsbst",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,B}
@@ -3451,6 +3739,7 @@ entry(
     label = "R6H_dsdsb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,D}
@@ -3467,6 +3756,7 @@ entry(
     label = "R6H_tsdsb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,D}
@@ -3483,6 +3773,7 @@ entry(
     label = "R6H_bsdsb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,D}
@@ -3499,6 +3790,7 @@ entry(
     label = "R6H_dstsb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,T}
@@ -3515,6 +3807,7 @@ entry(
     label = "R6H_tstsb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,T}
@@ -3531,6 +3824,7 @@ entry(
     label = "R6H_bstsb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,T}
@@ -3547,6 +3841,7 @@ entry(
     label = "R6H_dsbsb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,D}
 2 *4 R!H ux {1,D} {3,S}
 3 *6 R!H ux {2,S} {4,B}
@@ -3563,6 +3858,7 @@ entry(
     label = "R6H_tsbsb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,T}
 2 *4 R!H ux {1,T} {3,S}
 3 *6 R!H ux {2,S} {4,B}
@@ -3579,6 +3875,7 @@ entry(
     label = "R6H_bsbsb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,B}
 2 *4 R!H ux {1,B} {3,S}
 3 *6 R!H ux {2,S} {4,B}
@@ -3595,6 +3892,7 @@ entry(
     label = "R6H_rrssr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,S}
@@ -3611,6 +3909,7 @@ entry(
     label = "R6H_srrrs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,[D,T,B]}
@@ -3627,6 +3926,7 @@ entry(
     label = "R6H_rsrrs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,S}
 3 *6 R!H ux {2,S} {4,[D,T,B]}
@@ -3643,6 +3943,7 @@ entry(
     label = "R6H_rrsrs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,S}
@@ -3659,6 +3960,7 @@ entry(
     label = "R6H_rrrss",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,[D,T,B]}
@@ -3675,6 +3977,7 @@ entry(
     label = "R6H_srrrr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,[D,T,B]}
@@ -3691,6 +3994,7 @@ entry(
     label = "R6H_rsrrr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,S}
 2 *4 R!H ux {1,S} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,[D,T,B]}
@@ -3707,6 +4011,7 @@ entry(
     label = "R6H_rrsrr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,S}
@@ -3723,6 +4028,7 @@ entry(
     label = "R6H_rrrsr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,[D,T,B]}
@@ -3739,6 +4045,7 @@ entry(
     label = "R6H_rrrrs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,[D,T,B]}
@@ -3755,6 +4062,7 @@ entry(
     label = "R6H_rrrrr",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H ux {1,[D,T,B]} {3,[D,T,B]}
 3 *6 R!H ux {2,[D,T,B]} {4,[D,T,B]}
@@ -3771,6 +4079,7 @@ entry(
     label = "R7Hall",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *7 R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
 2 *8 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
 3 *6 R!H ux {1,[S,D,T,B]} {5,[S,D,T,B]}
@@ -3781,8 +4090,8 @@ entry(
 8 *3 H   u0 {6,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.208902, 'd13': -0.042516, 'd23': -0.042302},
-        uncertainties = {'d12': 0.179618, 'd13': 0.62446, 'd23': 0.602658},
+        distances = {'d12': 0.179079, 'd13': -0.03223, 'd23': -0.032439},
+        uncertainties = {'d12': 0.311896, 'd13': 0.348888, 'd23': 0.343389},
     ),
     shortDesc = u"""Fitted to 2 distances.
 """,
@@ -3798,37 +4107,55 @@ entry(
     label = "Cj_out",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C u1
 """,
     distances = DistanceData(
-        distances = {'d12': 0.000228, 'd13': 0.02839, 'd23': 0.000473},
-        uncertainties = {'d12': 0.270562, 'd13': 0.064344, 'd23': 0.046369},
+        distances = {'d12': -0.005563, 'd13': 0.04841, 'd23': -0.003776},
+        uncertainties = {'d12': 0.344609, 'd13': 0.077853, 'd23': 0.06053},
     ),
-    shortDesc = u"""Fitted to 29 distances.
+    shortDesc = u"""Fitted to 83 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=14 label="R2H_s">, <Entry index=271 label="Csj_out_CsH">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
 [<Entry index=97 label="R4H_sds">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=14 label="R2H_s">, <Entry index=276 label="Csj_out_CsCd">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=9 label="R7Hall">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
-[<Entry index=28 label="R5H_ssss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
-[<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
-[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=294 label="Cs_H_out_CsCd">]
-[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=266 label="Cs_H_out_CC">]
-[<Entry index=97 label="R4H_sds">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
-[<Entry index=115 label="R5H_ssds">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=118 label="R5H_sdss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=271 label="Csj_out_CsH">, <Entry index=13 label="O_H_out">]
 [<Entry index=14 label="R2H_s">, <Entry index=259 label="Csj_out_CC">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=285 label="Csj_out_CsO">, <Entry index=13 label="O_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=16 label="R3H_ss">, <Entry index=251 label="Cdj_out_O">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=251 label="Cdj_out_O">, <Entry index=13 label="O_H_out">]
+[<Entry index=44 label="R6H_sssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=97 label="R4H_sds">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=251 label="Cdj_out_O">, <Entry index=13 label="O_H_out">]
 [<Entry index=97 label="R4H_sds">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=44 label="R6H_sssss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=265 label="Cs_H_out_OH">]
+[<Entry index=9 label="R7Hall">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=285 label="Csj_out_CsO">, <Entry index=13 label="O_H_out">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=269 label="Cd_H_out_Cd">]
+[<Entry index=115 label="R5H_ssds">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=258 label="Csj_out_OH">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=16 label="R3H_ss">, <Entry index=247 label="Csj_out_H2">, <Entry index=12 label="C_H_out">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=294 label="Cs_H_out_CsCd">]
+[<Entry index=14 label="R2H_s">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=14 label="R2H_s">, <Entry index=271 label="Csj_out_CsH">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
+[<Entry index=14 label="R2H_s">, <Entry index=276 label="Csj_out_CsCd">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=266 label="Cs_H_out_CC">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=271 label="Csj_out_CsH">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=14 label="R2H_s">, <Entry index=262 label="Cdj_out_Cd">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=16 label="R3H_ss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=289 label="Cs_H_out_CsH">]
-[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
-[<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=118 label="R5H_sdss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=44 label="R6H_sssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
 """,
 )
 
@@ -3837,39 +4164,53 @@ entry(
     label = "Csj_out",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C u1 {2,S} {3,S}
 2    R ux {1,S}
 3    R ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.000228, 'd13': 0.02839, 'd23': 0.000473},
-        uncertainties = {'d12': 0.270562, 'd13': 0.064344, 'd23': 0.046369},
+        distances = {'d12': 0.007296, 'd13': 0.05082, 'd23': -0.008351},
+        uncertainties = {'d12': 0.35682, 'd13': 0.076481, 'd23': 0.058827},
     ),
-    shortDesc = u"""Fitted to 29 distances.
+    shortDesc = u"""Fitted to 77 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=14 label="R2H_s">, <Entry index=271 label="Csj_out_CsH">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
 [<Entry index=97 label="R4H_sds">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=14 label="R2H_s">, <Entry index=276 label="Csj_out_CsCd">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=9 label="R7Hall">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
-[<Entry index=28 label="R5H_ssss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
-[<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
-[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=294 label="Cs_H_out_CsCd">]
-[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=266 label="Cs_H_out_CC">]
-[<Entry index=97 label="R4H_sds">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
-[<Entry index=115 label="R5H_ssds">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=118 label="R5H_sdss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=271 label="Csj_out_CsH">, <Entry index=13 label="O_H_out">]
 [<Entry index=14 label="R2H_s">, <Entry index=259 label="Csj_out_CC">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=285 label="Csj_out_CsO">, <Entry index=13 label="O_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
+[<Entry index=44 label="R6H_sssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=97 label="R4H_sds">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=97 label="R4H_sds">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=44 label="R6H_sssss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=265 label="Cs_H_out_OH">]
+[<Entry index=9 label="R7Hall">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=269 label="Cd_H_out_Cd">]
+[<Entry index=115 label="R5H_ssds">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=258 label="Csj_out_OH">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=16 label="R3H_ss">, <Entry index=247 label="Csj_out_H2">, <Entry index=12 label="C_H_out">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=294 label="Cs_H_out_CsCd">]
+[<Entry index=14 label="R2H_s">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=14 label="R2H_s">, <Entry index=271 label="Csj_out_CsH">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
+[<Entry index=14 label="R2H_s">, <Entry index=276 label="Csj_out_CsCd">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=266 label="Cs_H_out_CC">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=271 label="Csj_out_CsH">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=285 label="Csj_out_CsO">, <Entry index=13 label="O_H_out">]
 [<Entry index=16 label="R3H_ss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=289 label="Cs_H_out_CsH">]
-[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
-[<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=118 label="R5H_sdss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=44 label="R6H_sssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
 """,
 )
 
@@ -3878,31 +4219,36 @@ entry(
     label = "Csj_out_H2",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C u1 {2,S} {3,S}
 2    H u0 {1,S}
 3    H u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.013854, 'd13': 0.045763, 'd23': -0.015571},
-        uncertainties = {'d12': 0.281084, 'd13': 0.069088, 'd23': 0.038689},
+        distances = {'d12': 0.020405, 'd13': 0.067691, 'd23': -0.02345},
+        uncertainties = {'d12': 0.310899, 'd13': 0.086083, 'd23': 0.062034},
     ),
-    shortDesc = u"""Fitted to 17 distances.
+    shortDesc = u"""Fitted to 44 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=118 label="R5H_sdss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=265 label="Cs_H_out_OH">]
 [<Entry index=9 label="R7Hall">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=97 label="R4H_sds">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
 [<Entry index=44 label="R6H_sssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=294 label="Cs_H_out_CsCd">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=266 label="Cs_H_out_CC">]
-[<Entry index=97 label="R4H_sds">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=269 label="Cd_H_out_Cd">]
 [<Entry index=115 label="R5H_ssds">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=16 label="R3H_ss">, <Entry index=247 label="Csj_out_H2">, <Entry index=12 label="C_H_out">]
 [<Entry index=97 label="R4H_sds">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=289 label="Cs_H_out_CsH">]
 [<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
-[<Entry index=118 label="R5H_sdss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
 """,
 )
 
@@ -3911,19 +4257,26 @@ entry(
     label = "Csj_out_RH",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C   u1 {2,S} {3,S}
 2    R!H ux {1,S}
 3    H   u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.631901, 'd13': 0.023302, 'd23': 0.04851},
-        uncertainties = {'d12': 2.07216, 'd13': 0.305519, 'd23': 0.228614},
+        distances = {'d12': 0.181348, 'd13': 0.038264, 'd23': 0.008883},
+        uncertainties = {'d12': 0.61374, 'd13': 0.075333, 'd23': 0.050506},
     ),
-    shortDesc = u"""Fitted to 2 distances.
+    shortDesc = u"""Fitted to 14 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=14 label="R2H_s">, <Entry index=271 label="Csj_out_CsH">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=271 label="Csj_out_CsH">, <Entry index=13 label="O_H_out">]
+[<Entry index=44 label="R6H_sssss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=258 label="Csj_out_OH">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=271 label="Csj_out_CsH">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
 """,
 )
 
@@ -3932,19 +4285,22 @@ entry(
     label = "Csj_out_CH",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C u1 {2,S} {3,S}
 2    C ux {1,S}
 3    H u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.631901, 'd13': 0.023302, 'd23': 0.04851},
-        uncertainties = {'d12': 2.07216, 'd13': 0.305519, 'd23': 0.228614},
+        distances = {'d12': 0.246944, 'd13': 0.040665, 'd23': -0.003708},
+        uncertainties = {'d12': 0.823701, 'd13': 0.095641, 'd23': 0.065269},
     ),
-    shortDesc = u"""Fitted to 2 distances.
+    shortDesc = u"""Fitted to 9 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=14 label="R2H_s">, <Entry index=271 label="Csj_out_CsH">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=271 label="Csj_out_CsH">, <Entry index=13 label="O_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=271 label="Csj_out_CsH">, <Entry index=13 label="O_H_out">]
 """,
 )
 
@@ -3953,19 +4309,22 @@ entry(
     label = "Csj_out_CsH",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C  u1 {2,S} {3,S}
 2    Cs ux {1,S}
 3    H  u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.631901, 'd13': 0.023302, 'd23': 0.04851},
-        uncertainties = {'d12': 2.07216, 'd13': 0.305519, 'd23': 0.228614},
+        distances = {'d12': 0.246944, 'd13': 0.040665, 'd23': -0.003708},
+        uncertainties = {'d12': 0.823701, 'd13': 0.095641, 'd23': 0.065269},
     ),
-    shortDesc = u"""Fitted to 2 distances.
+    shortDesc = u"""Fitted to 9 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=14 label="R2H_s">, <Entry index=271 label="Csj_out_CsH">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=271 label="Csj_out_CsH">, <Entry index=13 label="O_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=271 label="Csj_out_CsH">, <Entry index=13 label="O_H_out">]
 """,
 )
 
@@ -3974,6 +4333,7 @@ entry(
     label = "Csj_out_CdH",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C  u1 {2,S} {3,S}
 2    Cd ux {1,S}
 3    H  u0 {1,S}
@@ -3986,6 +4346,7 @@ entry(
     label = "Csj_out_CtH",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C  u1 {2,S} {3,S}
 2    Ct u0 {1,S}
 3    H  u0 {1,S}
@@ -3998,6 +4359,7 @@ entry(
     label = "Csj_out_CbH",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C  u1 {2,S} {3,S}
 2    Cb u0 {1,S}
 3    H  u0 {1,S}
@@ -4010,11 +4372,24 @@ entry(
     label = "Csj_out_OH",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C u1 {2,S} {3,S}
 2    O ux {1,S}
 3    H u0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.06109, 'd13': 0.033862, 'd23': 0.031967},
+        uncertainties = {'d12': 0.234234, 'd13': 0.062795, 'd23': 0.036632},
+    ),
+    shortDesc = u"""Fitted to 5 distances.
+""",
+    longDesc = 
+u"""
+[<Entry index=44 label="R6H_sssss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=258 label="Csj_out_OH">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
+""",
 )
 
 entry(
@@ -4022,24 +4397,28 @@ entry(
     label = "Csj_out_RR",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C   u1 {2,S} {3,S}
 2    R!H ux {1,S}
 3    R!H ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.182712, 'd13': -0.010345, 'd23': 0.025845},
-        uncertainties = {'d12': 0.320455, 'd13': 0.075614, 'd23': 0.070313},
+        distances = {'d12': -0.138239, 'd13': 0.014328, 'd23': 0.020487},
+        uncertainties = {'d12': 0.300491, 'd13': 0.066276, 'd23': 0.067375},
     ),
-    shortDesc = u"""Fitted to 10 distances.
+    shortDesc = u"""Fitted to 19 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=14 label="R2H_s">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=97 label="R4H_sds">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
 [<Entry index=14 label="R2H_s">, <Entry index=276 label="Csj_out_CsCd">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
 [<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=259 label="Csj_out_CC">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=285 label="Csj_out_CsO">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=285 label="Csj_out_CsO">, <Entry index=13 label="O_H_out">]
 [<Entry index=16 label="R3H_ss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
 """,
 )
@@ -4049,19 +4428,22 @@ entry(
     label = "Csj_out_CC",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C u1 {2,S} {3,S}
 2    C ux {1,S}
 3    C ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.194837, 'd13': -0.012726, 'd23': 0.028924},
-        uncertainties = {'d12': 0.342385, 'd13': 0.080945, 'd23': 0.069824},
+        distances = {'d12': -0.166212, 'd13': 0.013029, 'd23': 0.021962},
+        uncertainties = {'d12': 0.345502, 'd13': 0.074221, 'd23': 0.072349},
     ),
-    shortDesc = u"""Fitted to 9 distances.
+    shortDesc = u"""Fitted to 15 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=14 label="R2H_s">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=97 label="R4H_sds">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
 [<Entry index=14 label="R2H_s">, <Entry index=276 label="Csj_out_CsCd">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
 [<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
@@ -4075,22 +4457,25 @@ entry(
     label = "Csj_out_CsCs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C  u1 {2,S} {3,S}
 2    Cs ux {1,S}
 3    Cs ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.03236, 'd13': 0.004142, 'd23': 0.034176},
-        uncertainties = {'d12': 0.204354, 'd13': 0.086998, 'd23': 0.093793},
+        distances = {'d12': -0.026739, 'd13': 0.029485, 'd23': 0.017774},
+        uncertainties = {'d12': 0.301876, 'd13': 0.075661, 'd23': 0.082007},
     ),
-    shortDesc = u"""Fitted to 6 distances.
+    shortDesc = u"""Fitted to 12 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=16 label="R3H_ss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
+[<Entry index=14 label="R2H_s">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=97 label="R4H_sds">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=16 label="R3H_ss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
 """,
 )
 
@@ -4099,12 +4484,13 @@ entry(
     label = "Csj_out_CsCd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C  u1 {2,S} {3,S}
 2    Cs ux {1,S}
 3    Cd ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.550964, 'd13': 0.021012, 'd23': -0.05395},
+        distances = {'d12': -0.543722, 'd13': -0.010414, 'd23': -0.002171},
         uncertainties = {},
     ),
     shortDesc = u"""Fitted to 1 distances.
@@ -4120,6 +4506,7 @@ entry(
     label = "Csj_out_CsCt",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C  u1 {2,S} {3,S}
 2    Cs ux {1,S}
 3    Ct u0 {1,S}
@@ -4132,6 +4519,7 @@ entry(
     label = "Csj_out_CsCb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C  u1 {2,S} {3,S}
 2    Cs ux {1,S}
 3    Cb u0 {1,S}
@@ -4144,6 +4532,7 @@ entry(
     label = "Csj_out_CdCd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C  u1 {2,S} {3,S}
 2    Cd ux {1,S}
 3    Cd ux {1,S}
@@ -4156,6 +4545,7 @@ entry(
     label = "Csj_out_CdCt",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C  u1 {2,S} {3,S}
 2    Cd ux {1,S}
 3    Ct u0 {1,S}
@@ -4168,6 +4558,7 @@ entry(
     label = "Csj_out_CdCb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C  u1 {2,S} {3,S}
 2    Cd ux {1,S}
 3    Cb u0 {1,S}
@@ -4180,6 +4571,7 @@ entry(
     label = "Csj_out_CtCt",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C  u1 {2,S} {3,S}
 2    Ct u0 {1,S}
 3    Ct u0 {1,S}
@@ -4192,6 +4584,7 @@ entry(
     label = "Csj_out_CtCb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C  u1 {2,S} {3,S}
 2    Ct u0 {1,S}
 3    Cb u0 {1,S}
@@ -4204,6 +4597,7 @@ entry(
     label = "Csj_out_CbCb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C  u1 {2,S} {3,S}
 2    Cb u0 {1,S}
 3    Cb u0 {1,S}
@@ -4216,18 +4610,20 @@ entry(
     label = "Csj_out_CO",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C u1 {2,S} {3,S}
 2    C ux {1,S}
 3    O ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.00725, 'd13': 0.026962, 'd23': -0.022391},
-        uncertainties = {},
+        distances = {'d12': 0.02027, 'd13': 0.021685, 'd23': 0.012129},
+        uncertainties = {'d12': 0.129037, 'd13': 0.062229, 'd23': 0.093356},
     ),
-    shortDesc = u"""Fitted to 1 distances.
+    shortDesc = u"""Fitted to 4 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=20 label="R4H_sss">, <Entry index=285 label="Csj_out_CsO">, <Entry index=13 label="O_H_out">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=285 label="Csj_out_CsO">, <Entry index=13 label="O_H_out">]
 """,
 )
@@ -4237,18 +4633,20 @@ entry(
     label = "Csj_out_CsO",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C  u1 {2,S} {3,S}
 2    Cs ux {1,S}
 3    O  ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.00725, 'd13': 0.026962, 'd23': -0.022391},
-        uncertainties = {},
+        distances = {'d12': 0.02027, 'd13': 0.021685, 'd23': 0.012129},
+        uncertainties = {'d12': 0.129037, 'd13': 0.062229, 'd23': 0.093356},
     ),
-    shortDesc = u"""Fitted to 1 distances.
+    shortDesc = u"""Fitted to 4 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=20 label="R4H_sss">, <Entry index=285 label="Csj_out_CsO">, <Entry index=13 label="O_H_out">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=285 label="Csj_out_CsO">, <Entry index=13 label="O_H_out">]
 """,
 )
@@ -4258,6 +4656,7 @@ entry(
     label = "Csj_out_CdO",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C  u1 {2,S} {3,S}
 2    Cd ux {1,S}
 3    O  ux {1,S}
@@ -4270,6 +4669,7 @@ entry(
     label = "Csj_out_CtO",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C  u1 {2,S} {3,S}
 2    Ct ux {1,S}
 3    O  ux {1,S}
@@ -4282,6 +4682,7 @@ entry(
     label = "Csj_out_CbO",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C  u1 {2,S} {3,S}
 2    Cb ux {1,S}
 3    O  ux {1,S}
@@ -4294,6 +4695,7 @@ entry(
     label = "Csj_out_OO",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C u1 {2,S} {3,S}
 2    O ux {1,S}
 3    O ux {1,S}
@@ -4306,10 +4708,23 @@ entry(
     label = "Cdj_out",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C u1 {2,D}
 2    R ux {1,D}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.188803, 'd13': 0.014066, 'd23': 0.061424},
+        uncertainties = {'d12': 0.16788, 'd13': 0.133684, 'd23': 0.11273},
+    ),
+    shortDesc = u"""Fitted to 6 distances.
+""",
+    longDesc = 
+u"""
+[<Entry index=14 label="R2H_s">, <Entry index=262 label="Cdj_out_Cd">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=251 label="Cdj_out_O">, <Entry index=13 label="O_H_out">]
+[<Entry index=16 label="R3H_ss">, <Entry index=251 label="Cdj_out_O">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=251 label="Cdj_out_O">, <Entry index=13 label="O_H_out">]
+""",
 )
 
 entry(
@@ -4317,10 +4732,20 @@ entry(
     label = "Cdj_out_C",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C u1 {2,D}
 2    C ux {1,D}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.618172, 'd13': 0.010916, 'd23': 0.007499},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Fitted to 1 distances.
+""",
+    longDesc = 
+u"""
+[<Entry index=14 label="R2H_s">, <Entry index=262 label="Cdj_out_Cd">, <Entry index=252 label="Cs_H_out_H2">]
+""",
 )
 
 entry(
@@ -4328,10 +4753,20 @@ entry(
     label = "Cdj_out_Cd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C  u1 {2,D}
 2    Cd ux {1,D}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.618172, 'd13': 0.010916, 'd23': 0.007499},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Fitted to 1 distances.
+""",
+    longDesc = 
+u"""
+[<Entry index=14 label="R2H_s">, <Entry index=262 label="Cdj_out_Cd">, <Entry index=252 label="Cs_H_out_H2">]
+""",
 )
 
 entry(
@@ -4339,6 +4774,7 @@ entry(
     label = "Cdj_out_Cdd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C   u1 {2,D}
 2    Cdd u0 {1,D}
 """,
@@ -4350,10 +4786,22 @@ entry(
     label = "Cdj_out_O",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C u1 {2,D}
 2    O ux {1,D}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.045681, 'd13': 0.015116, 'd23': 0.079398},
+        uncertainties = {'d12': 0.098184, 'd13': 0.160125, 'd23': 0.131718},
+    ),
+    shortDesc = u"""Fitted to 5 distances.
+""",
+    longDesc = 
+u"""
+[<Entry index=20 label="R4H_sss">, <Entry index=251 label="Cdj_out_O">, <Entry index=13 label="O_H_out">]
+[<Entry index=16 label="R3H_ss">, <Entry index=251 label="Cdj_out_O">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=251 label="Cdj_out_O">, <Entry index=13 label="O_H_out">]
+""",
 )
 
 entry(
@@ -4361,6 +4809,7 @@ entry(
     label = "Ctj_out",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 C u1 {2,T}
 2    R ux {1,T}
 """,
@@ -4372,6 +4821,7 @@ entry(
     label = "Cbj_out",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 Cb u1
 """,
     distances = DistanceData(distances={}),
@@ -4382,25 +4832,35 @@ entry(
     label = "Oj_out",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *1 O u1
 """,
     distances = DistanceData(
-        distances = {'d12': -0.000561, 'd13': -0.069793, 'd23': -0.001163},
-        uncertainties = {'d12': 0.298461, 'd13': 0.105962, 'd23': 0.119419},
+        distances = {'d12': 0.005262, 'd13': -0.045783, 'd23': 0.003571},
+        uncertainties = {'d12': 0.212318, 'd13': 0.085632, 'd23': 0.094226},
     ),
-    shortDesc = u"""Fitted to 11 distances.
+    shortDesc = u"""Fitted to 57 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=303 label="Cs_H_out_CsO">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=12 label="C_H_out">]
 [<Entry index=9 label="R7Hall">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
 [<Entry index=16 label="R3H_ss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
 [<Entry index=97 label="R4H_sds">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=12 label="C_H_out">]
 [<Entry index=44 label="R6H_sssss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=13 label="O_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=289 label="Cs_H_out_CsH">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=289 label="Cs_H_out_CsH">]
 [<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=303 label="Cs_H_out_CsO">]
+[<Entry index=44 label="R6H_sssss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
 """,
 )
 
@@ -4409,38 +4869,56 @@ entry(
     label = "C_H_out",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C ux {2,S}
 2 *3 H u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.000228, 'd13': 0.004821, 'd23': 0.024043},
-        uncertainties = {'d12': 0.270562, 'd13': 0.054834, 'd23': 0.069588},
+        distances = {'d12': -0.007593, 'd13': -0.002939, 'd23': 0.048254},
+        uncertainties = {'d12': 0.343655, 'd13': 0.075761, 'd23': 0.080922},
     ),
-    shortDesc = u"""Fitted to 29 distances.
+    shortDesc = u"""Fitted to 83 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
-[<Entry index=14 label="R2H_s">, <Entry index=271 label="Csj_out_CsH">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=303 label="Cs_H_out_CsO">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=289 label="Cs_H_out_CsH">]
+[<Entry index=16 label="R3H_ss">, <Entry index=251 label="Cdj_out_O">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
 [<Entry index=97 label="R4H_sds">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=9 label="R7Hall">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=14 label="R2H_s">, <Entry index=276 label="Csj_out_CsCd">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=12 label="C_H_out">]
+[<Entry index=44 label="R6H_sssss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=294 label="Cs_H_out_CsCd">]
-[<Entry index=16 label="R3H_ss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
-[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=14 label="R2H_s">, <Entry index=259 label="Csj_out_CC">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=12 label="C_H_out">]
 [<Entry index=97 label="R4H_sds">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=118 label="R5H_sdss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=44 label="R6H_sssss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=266 label="Cs_H_out_CC">]
-[<Entry index=115 label="R5H_ssds">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=14 label="R2H_s">, <Entry index=259 label="Csj_out_CC">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=97 label="R4H_sds">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
-[<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=303 label="Cs_H_out_CsO">]
+[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=265 label="Cs_H_out_OH">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=269 label="Cd_H_out_Cd">]
+[<Entry index=115 label="R5H_ssds">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=258 label="Csj_out_OH">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
+[<Entry index=14 label="R2H_s">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=14 label="R2H_s">, <Entry index=271 label="Csj_out_CsH">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=9 label="R7Hall">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=14 label="R2H_s">, <Entry index=276 label="Csj_out_CsCd">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=16 label="R3H_ss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=266 label="Cs_H_out_CC">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=289 label="Cs_H_out_CsH">]
+[<Entry index=14 label="R2H_s">, <Entry index=262 label="Cdj_out_Cd">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=16 label="R3H_ss">, <Entry index=247 label="Csj_out_H2">, <Entry index=12 label="C_H_out">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=289 label="Cs_H_out_CsH">]
-[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=303 label="Cs_H_out_CsO">]
+[<Entry index=44 label="R6H_sssss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
 """,
 )
 
@@ -4449,38 +4927,52 @@ entry(
     label = "Cs_H_out",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cs ux {2,S}
 2 *3 H  u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.000228, 'd13': 0.004821, 'd23': 0.024043},
-        uncertainties = {'d12': 0.270562, 'd13': 0.054834, 'd23': 0.069588},
+        distances = {'d12': 0.00505, 'd13': -0.00741, 'd23': 0.0506},
+        uncertainties = {'d12': 0.355331, 'd13': 0.060053, 'd23': 0.076219},
     ),
-    shortDesc = u"""Fitted to 29 distances.
+    shortDesc = u"""Fitted to 77 distances.
 """,
     longDesc = 
 u"""
-[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
-[<Entry index=14 label="R2H_s">, <Entry index=271 label="Csj_out_CsH">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=303 label="Cs_H_out_CsO">]
-[<Entry index=97 label="R4H_sds">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=9 label="R7Hall">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=14 label="R2H_s">, <Entry index=276 label="Csj_out_CsCd">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=289 label="Cs_H_out_CsH">]
+[<Entry index=16 label="R3H_ss">, <Entry index=251 label="Cdj_out_O">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
+[<Entry index=44 label="R6H_sssss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=294 label="Cs_H_out_CsCd">]
-[<Entry index=16 label="R3H_ss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
-[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=14 label="R2H_s">, <Entry index=259 label="Csj_out_CC">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=97 label="R4H_sds">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=97 label="R4H_sds">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=118 label="R5H_sdss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=44 label="R6H_sssss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=266 label="Cs_H_out_CC">]
-[<Entry index=115 label="R5H_ssds">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
-[<Entry index=14 label="R2H_s">, <Entry index=259 label="Csj_out_CC">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=97 label="R4H_sds">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
-[<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=303 label="Cs_H_out_CsO">]
+[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=265 label="Cs_H_out_OH">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=115 label="R5H_ssds">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=258 label="Csj_out_OH">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
+[<Entry index=14 label="R2H_s">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=14 label="R2H_s">, <Entry index=271 label="Csj_out_CsH">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=9 label="R7Hall">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=14 label="R2H_s">, <Entry index=276 label="Csj_out_CsCd">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=16 label="R3H_ss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=266 label="Cs_H_out_CC">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=289 label="Cs_H_out_CsH">]
+[<Entry index=14 label="R2H_s">, <Entry index=262 label="Cdj_out_Cd">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=289 label="Cs_H_out_CsH">]
-[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=303 label="Cs_H_out_CsO">]
+[<Entry index=44 label="R6H_sssss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
 """,
 )
 
@@ -4489,21 +4981,24 @@ entry(
     label = "Cs_H_out_H2",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C ux {2,S} {3,S} {4,S}
 2 *3 H u0 {1,S}
 3    H u0 {1,S}
 4    H u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.013854, 'd13': -0.009598, 'd23': 0.03979},
-        uncertainties = {'d12': 0.281084, 'd13': 0.052131, 'd23': 0.080574},
+        distances = {'d12': 0.016883, 'd13': -0.022003, 'd23': 0.067164},
+        uncertainties = {'d12': 0.309705, 'd13': 0.063906, 'd23': 0.08546},
     ),
-    shortDesc = u"""Fitted to 17 distances.
+    shortDesc = u"""Fitted to 44 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=14 label="R2H_s">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=271 label="Csj_out_CsH">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=97 label="R4H_sds">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=16 label="R3H_ss">, <Entry index=251 label="Cdj_out_O">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=9 label="R7Hall">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=276 label="Csj_out_CsCd">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=97 label="R4H_sds">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
@@ -4513,8 +5008,10 @@ u"""
 [<Entry index=115 label="R5H_ssds">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=14 label="R2H_s">, <Entry index=259 label="Csj_out_CC">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=14 label="R2H_s">, <Entry index=262 label="Cdj_out_Cd">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=252 label="Cs_H_out_H2">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=252 label="Cs_H_out_H2">]
+[<Entry index=20 label="R4H_sss">, <Entry index=258 label="Csj_out_OH">, <Entry index=252 label="Cs_H_out_H2">]
 """,
 )
 
@@ -4523,20 +5020,27 @@ entry(
     label = "Cs_H_out_RH",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C   ux {2,S} {3,S} {4,S}
 2 *3 H   u0 {1,S}
 3    R!H ux {1,S}
 4    H   u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.631901, 'd13': 0.039877, 'd23': 0.031935},
-        uncertainties = {'d12': 2.07216, 'd13': 0.297528, 'd23': 0.361779},
+        distances = {'d12': 0.18123, 'd13': 0.009553, 'd23': 0.037898},
+        uncertainties = {'d12': 0.60924, 'd13': 0.05063, 'd23': 0.076953},
     ),
-    shortDesc = u"""Fitted to 2 distances.
+    shortDesc = u"""Fitted to 14 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=289 label="Cs_H_out_CsH">]
+[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=265 label="Cs_H_out_OH">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=289 label="Cs_H_out_CsH">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=289 label="Cs_H_out_CsH">]
+[<Entry index=44 label="R6H_sssss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
 """,
 )
 
@@ -4545,20 +5049,23 @@ entry(
     label = "Cs_H_out_CH",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C ux {2,S} {3,S} {4,S}
 2 *3 H u0 {1,S}
 3    C ux {1,S}
 4    H u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.631901, 'd13': 0.039877, 'd23': 0.031935},
-        uncertainties = {'d12': 2.07216, 'd13': 0.297528, 'd23': 0.361779},
+        distances = {'d12': 0.246795, 'd13': -0.003138, 'd23': 0.040402},
+        uncertainties = {'d12': 0.81807, 'd13': 0.065513, 'd23': 0.097393},
     ),
-    shortDesc = u"""Fitted to 2 distances.
+    shortDesc = u"""Fitted to 9 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=289 label="Cs_H_out_CsH">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=289 label="Cs_H_out_CsH">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=289 label="Cs_H_out_CsH">]
 """,
 )
 
@@ -4567,20 +5074,23 @@ entry(
     label = "Cs_H_out_CsH",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C  ux {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Cs ux {1,S}
 4    H  u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.631901, 'd13': 0.039877, 'd23': 0.031935},
-        uncertainties = {'d12': 2.07216, 'd13': 0.297528, 'd23': 0.361779},
+        distances = {'d12': 0.246795, 'd13': -0.003138, 'd23': 0.040402},
+        uncertainties = {'d12': 0.81807, 'd13': 0.065513, 'd23': 0.097393},
     ),
-    shortDesc = u"""Fitted to 2 distances.
+    shortDesc = u"""Fitted to 9 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=289 label="Cs_H_out_CsH">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=289 label="Cs_H_out_CsH">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=289 label="Cs_H_out_CsH">]
 """,
 )
 
@@ -4589,6 +5099,7 @@ entry(
     label = "Cs_H_out_CdH",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C  ux {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Cd ux {1,S}
@@ -4602,6 +5113,7 @@ entry(
     label = "Cs_H_out_CtH",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C  ux {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Ct u0 {1,S}
@@ -4615,6 +5127,7 @@ entry(
     label = "Cs_H_out_CbH",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C  ux {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Cd u0 {1,S}
@@ -4628,12 +5141,25 @@ entry(
     label = "Cs_H_out_OH",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C ux {2,S} {3,S} {4,S}
 2 *3 H u0 {1,S}
 3    O ux {1,S}
 4    H u0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.061027, 'd13': 0.032818, 'd23': 0.033306},
+        uncertainties = {'d12': 0.228322, 'd13': 0.036286, 'd23': 0.065473},
+    ),
+    shortDesc = u"""Fitted to 5 distances.
+""",
+    longDesc = 
+u"""
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
+[<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=265 label="Cs_H_out_OH">]
+[<Entry index=44 label="R6H_sssss">, <Entry index=11 label="Oj_out">, <Entry index=265 label="Cs_H_out_OH">]
+""",
 )
 
 entry(
@@ -4641,26 +5167,30 @@ entry(
     label = "Cs_H_out_RR",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C   ux {2,S} {3,S} {4,S}
 2 *3 H   u0 {1,S}
 3    R!H ux {1,S}
 4    R!H ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.182712, 'd13': 0.029572, 'd23': -0.014071},
-        uncertainties = {'d12': 0.320455, 'd13': 0.074802, 'd23': 0.069067},
+        distances = {'d12': -0.138915, 'd13': 0.020814, 'd23': 0.014388},
+        uncertainties = {'d12': 0.301647, 'd13': 0.067854, 'd23': 0.065679},
     ),
-    shortDesc = u"""Fitted to 10 distances.
+    shortDesc = u"""Fitted to 19 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=303 label="Cs_H_out_CsO">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=303 label="Cs_H_out_CsO">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
 [<Entry index=16 label="R3H_ss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=294 label="Cs_H_out_CsCd">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=266 label="Cs_H_out_CC">]
 [<Entry index=97 label="R4H_sds">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
 [<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
 """,
 )
 
@@ -4669,25 +5199,28 @@ entry(
     label = "Cs_H_out_CC",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C ux {2,S} {3,S} {4,S}
 2 *3 H u0 {1,S}
 3    C ux {1,S}
 4    C ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.194837, 'd13': 0.032537, 'd23': -0.016338},
-        uncertainties = {'d12': 0.342385, 'd13': 0.072862, 'd23': 0.074398},
+        distances = {'d12': -0.167162, 'd13': 0.022171, 'd23': 0.01325},
+        uncertainties = {'d12': 0.346962, 'd13': 0.072618, 'd23': 0.073357},
     ),
-    shortDesc = u"""Fitted to 9 distances.
+    shortDesc = u"""Fitted to 15 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
 [<Entry index=16 label="R3H_ss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=294 label="Cs_H_out_CsCd">]
 [<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=266 label="Cs_H_out_CC">]
 [<Entry index=97 label="R4H_sds">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
 [<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
 """,
 )
 
@@ -4696,23 +5229,26 @@ entry(
     label = "Cs_H_out_CsCs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C  ux {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Cs ux {1,S}
 4    Cs ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.03236, 'd13': 0.033395, 'd23': 0.004922},
-        uncertainties = {'d12': 0.204354, 'd13': 0.100956, 'd23': 0.092126},
+        distances = {'d12': -0.02733, 'd13': 0.01809, 'd23': 0.029543},
+        uncertainties = {'d12': 0.302416, 'd13': 0.082309, 'd23': 0.075017},
     ),
-    shortDesc = u"""Fitted to 6 distances.
+    shortDesc = u"""Fitted to 12 distances.
 """,
     longDesc = 
 u"""
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
-[<Entry index=97 label="R4H_sds">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
 [<Entry index=16 label="R3H_ss">, <Entry index=11 label="Oj_out">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=97 label="R4H_sds">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
 [<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=293 label="Cs_H_out_CsCs">]
 """,
 )
 
@@ -4721,13 +5257,14 @@ entry(
     label = "Cs_H_out_CsCd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C  ux {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Cs ux {1,S}
 4    Cd ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.550964, 'd13': -0.004613, 'd23': -0.028325},
+        distances = {'d12': -0.545671, 'd13': -0.002262, 'd23': -0.009742},
         uncertainties = {},
     ),
     shortDesc = u"""Fitted to 1 distances.
@@ -4743,6 +5280,7 @@ entry(
     label = "Cs_H_out_CsCt",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C  ux {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Cs ux {1,S}
@@ -4756,6 +5294,7 @@ entry(
     label = "Cs_H_out_CsCb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C  ux {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Cs ux {1,S}
@@ -4769,6 +5308,7 @@ entry(
     label = "Cs_H_out_CdCd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C  ux {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Cd ux {1,S}
@@ -4782,6 +5322,7 @@ entry(
     label = "Cs_H_out_CdCt",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C  ux {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Cd ux {1,S}
@@ -4795,6 +5336,7 @@ entry(
     label = "Cs_H_out_CdCb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C  ux {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Cd ux {1,S}
@@ -4808,6 +5350,7 @@ entry(
     label = "Cs_H_out_CtCt",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C  ux {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Ct u0 {1,S}
@@ -4821,6 +5364,7 @@ entry(
     label = "Cs_H_out_CtCb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C  ux {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Ct u0 {1,S}
@@ -4834,6 +5378,7 @@ entry(
     label = "Cs_H_out_CbCb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C  ux {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Cb u0 {1,S}
@@ -4847,19 +5392,21 @@ entry(
     label = "Cs_H_out_CO",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C ux {2,S} {3,S} {4,S}
 2 *3 H u0 {1,S}
 3    C ux {1,S}
 4    O ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.00725, 'd13': -0.016877, 'd23': 0.021448},
-        uncertainties = {},
+        distances = {'d12': 0.021151, 'd13': 0.013129, 'd23': 0.020838},
+        uncertainties = {'d12': 0.12588, 'd13': 0.09595, 'd23': 0.064022},
     ),
-    shortDesc = u"""Fitted to 1 distances.
+    shortDesc = u"""Fitted to 4 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=303 label="Cs_H_out_CsO">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=303 label="Cs_H_out_CsO">]
 """,
 )
@@ -4869,19 +5416,21 @@ entry(
     label = "Cs_H_out_CsO",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C  ux {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Cs ux {1,S}
 4    O  ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.00725, 'd13': -0.016877, 'd23': 0.021448},
-        uncertainties = {},
+        distances = {'d12': 0.021151, 'd13': 0.013129, 'd23': 0.020838},
+        uncertainties = {'d12': 0.12588, 'd13': 0.09595, 'd23': 0.064022},
     ),
-    shortDesc = u"""Fitted to 1 distances.
+    shortDesc = u"""Fitted to 4 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=20 label="R4H_sss">, <Entry index=11 label="Oj_out">, <Entry index=303 label="Cs_H_out_CsO">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=303 label="Cs_H_out_CsO">]
 """,
 )
@@ -4891,6 +5440,7 @@ entry(
     label = "Cs_H_out_CdO",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C  ux {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Cd ux {1,S}
@@ -4904,6 +5454,7 @@ entry(
     label = "Cs_H_out_CtO",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C  ux {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Ct u0 {1,S}
@@ -4917,6 +5468,7 @@ entry(
     label = "Cs_H_out_CbO",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C  ux {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Cb u0 {1,S}
@@ -4930,6 +5482,7 @@ entry(
     label = "Cs_H_out_OO",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 C ux {2,S} {3,S} {4,S}
 2 *3 H u0 {1,S}
 3    O ux {1,S}
@@ -4943,10 +5496,20 @@ entry(
     label = "Cd_H_out",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd ux {2,S}
 2 *3 H  u0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.620121, 'd13': 0.007408, 'd23': 0.011588},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Fitted to 1 distances.
+""",
+    longDesc = 
+u"""
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=269 label="Cd_H_out_Cd">]
+""",
 )
 
 entry(
@@ -4954,11 +5517,21 @@ entry(
     label = "Cd_H_out_C",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd ux {2,S} {3,D}
 2 *3 H  u0 {1,S}
 3    C  ux {1,D}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.620121, 'd13': 0.007408, 'd23': 0.011588},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Fitted to 1 distances.
+""",
+    longDesc = 
+u"""
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=269 label="Cd_H_out_Cd">]
+""",
 )
 
 entry(
@@ -4966,11 +5539,21 @@ entry(
     label = "Cd_H_out_Cd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd ux {2,S} {3,D}
 2 *3 H  u0 {1,S}
 3    Cd ux {1,D}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.620121, 'd13': 0.007408, 'd23': 0.011588},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Fitted to 1 distances.
+""",
+    longDesc = 
+u"""
+[<Entry index=14 label="R2H_s">, <Entry index=247 label="Csj_out_H2">, <Entry index=269 label="Cd_H_out_Cd">]
+""",
 )
 
 entry(
@@ -4978,6 +5561,7 @@ entry(
     label = "Cd_H_out_CdH",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd ux {2,S} {3,D} {4,S}
 2 *3 H  u0 {1,S}
 3    Cd ux {1,D}
@@ -4991,6 +5575,7 @@ entry(
     label = "Cd_H_out_CdC",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd ux {2,S} {3,D} {4,S}
 2 *3 H  u0 {1,S}
 3    Cd ux {1,D}
@@ -5004,6 +5589,7 @@ entry(
     label = "Cd_H_out_CdCs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd ux {2,S} {3,D} {4,S}
 2 *3 H  u0 {1,S}
 3    Cd ux {1,D}
@@ -5017,6 +5603,7 @@ entry(
     label = "Cd_H_out_CdCd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd ux {2,S} {3,D} {4,S}
 2 *3 H  u0 {1,S}
 3    Cd ux {1,D}
@@ -5030,6 +5617,7 @@ entry(
     label = "Cd_H_out_CdCt",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd ux {2,S} {3,D} {4,S}
 2 *3 H  u0 {1,S}
 3    Cd ux {1,D}
@@ -5043,6 +5631,7 @@ entry(
     label = "Cd_H_out_CdCb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd ux {2,S} {3,D} {4,S}
 2 *3 H  u0 {1,S}
 3    Cd ux {1,D}
@@ -5056,6 +5645,7 @@ entry(
     label = "Cd_H_out_CdO",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd ux {2,S} {3,D} {4,S}
 2 *3 H  u0 {1,S}
 3    Cd ux {1,D}
@@ -5069,6 +5659,7 @@ entry(
     label = "Cd_H_out_Cdd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd  ux {2,S} {3,D}
 2 *3 H   u0 {1,S}
 3    Cdd ux {1,D}
@@ -5081,6 +5672,7 @@ entry(
     label = "Cd_H_out_CddH",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd  ux {2,S} {3,D} {4,S}
 2 *3 H   u0 {1,S}
 3    Cdd u0 {1,D}
@@ -5094,6 +5686,7 @@ entry(
     label = "Cd_H_out_CddC",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd  ux {2,S} {3,D} {4,S}
 2 *3 H   u0 {1,S}
 3    Cdd u0 {1,D}
@@ -5107,6 +5700,7 @@ entry(
     label = "Cd_H_out_CddCs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd  ux {2,S} {3,D} {4,S}
 2 *3 H   u0 {1,S}
 3    Cdd u0 {1,D}
@@ -5120,6 +5714,7 @@ entry(
     label = "Cd_H_out_CddCd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd  ux {2,S} {3,D} {4,S}
 2 *3 H   u0 {1,S}
 3    Cdd u0 {1,D}
@@ -5133,6 +5728,7 @@ entry(
     label = "Cd_H_out_CddCt",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd  ux {2,S} {3,D} {4,S}
 2 *3 H   u0 {1,S}
 3    Cdd u0 {1,D}
@@ -5146,6 +5742,7 @@ entry(
     label = "Cd_H_out_CddCb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd  ux {2,S} {3,D} {4,S}
 2 *3 H   u0 {1,S}
 3    Cdd u0 {1,D}
@@ -5159,6 +5756,7 @@ entry(
     label = "Cd_H_out_CddO",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd  ux {2,S} {3,D} {4,S}
 2 *3 H   u0 {1,S}
 3    Cdd u0 {1,D}
@@ -5172,6 +5770,7 @@ entry(
     label = "Cd_H_out_O",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd ux {2,S} {3,D}
 2 *3 H  u0 {1,S}
 3    O  u0 {1,D}
@@ -5184,6 +5783,7 @@ entry(
     label = "Cd_H_out_OdH",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd ux {2,S} {3,D} {4,S}
 2 *3 H  u0 {1,S}
 3    O  u0 {1,D}
@@ -5197,6 +5797,7 @@ entry(
     label = "Cd_H_out_OdC",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd ux {2,S} {3,D} {4,S}
 2 *3 H  u0 {1,S}
 3    O  u0 {1,D}
@@ -5210,6 +5811,7 @@ entry(
     label = "Cd_H_out_OdCs",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd ux {2,S} {3,D} {4,S}
 2 *3 H  u0 {1,S}
 3    O  u0 {1,D}
@@ -5223,6 +5825,7 @@ entry(
     label = "Cd_H_out_OdCd",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd ux {2,S} {3,D} {4,S}
 2 *3 H  u0 {1,S}
 3    O  u0 {1,D}
@@ -5236,6 +5839,7 @@ entry(
     label = "Cd_H_out_OdCt",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd ux {2,S} {3,D} {4,S}
 2 *3 H  u0 {1,S}
 3    O  u0 {1,D}
@@ -5249,6 +5853,7 @@ entry(
     label = "Cd_H_out_OdCb",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd ux {2,S} {3,D} {4,S}
 2 *3 H  u0 {1,S}
 3    O  u0 {1,D}
@@ -5262,6 +5867,7 @@ entry(
     label = "Cd_H_out_OdO",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cd ux {2,S} {3,D} {4,S}
 2 *3 H  u0 {1,S}
 3    O  u0 {1,D}
@@ -5275,6 +5881,7 @@ entry(
     label = "Ct_H_out",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Ct u0 {2,S}
 2 *3 H  u0 {1,S}
 """,
@@ -5286,6 +5893,7 @@ entry(
     label = "Cb_H_out",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 Cb u0 {2,S}
 2 *3 H  u0 {1,S}
 """,
@@ -5297,26 +5905,36 @@ entry(
     label = "O_H_out",
     group = 
 """
+multiplicity [1,2,3,4,5]
 1 *2 O ux {2,S}
 2 *3 H u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.000561, 'd13': -0.011852, 'd23': -0.059104},
-        uncertainties = {'d12': 0.298461, 'd13': 0.122404, 'd23': 0.073085},
+        distances = {'d12': 0.007022, 'd13': 0.002718, 'd23': -0.044626},
+        uncertainties = {'d12': 0.214601, 'd13': 0.088374, 'd23': 0.067791},
     ),
-    shortDesc = u"""Fitted to 11 distances.
+    shortDesc = u"""Fitted to 57 distances.
 """,
     longDesc = 
 u"""
+[<Entry index=44 label="R6H_sssss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=271 label="Csj_out_CsH">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
 [<Entry index=9 label="R7Hall">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
-[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=13 label="O_H_out">]
-[<Entry index=44 label="R6H_sssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
-[<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=251 label="Cdj_out_O">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=251 label="Cdj_out_O">, <Entry index=13 label="O_H_out">]
 [<Entry index=97 label="R4H_sds">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=11 label="Oj_out">, <Entry index=13 label="O_H_out">]
+[<Entry index=44 label="R6H_sssss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
 [<Entry index=20 label="R4H_sss">, <Entry index=247 label="Csj_out_H2">, <Entry index=13 label="O_H_out">]
 [<Entry index=28 label="R5H_ssss">, <Entry index=285 label="Csj_out_CsO">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=285 label="Csj_out_CsO">, <Entry index=13 label="O_H_out">]
 [<Entry index=16 label="R3H_ss">, <Entry index=275 label="Csj_out_CsCs">, <Entry index=13 label="O_H_out">]
+[<Entry index=28 label="R5H_ssss">, <Entry index=271 label="Csj_out_CsH">, <Entry index=13 label="O_H_out">]
+[<Entry index=20 label="R4H_sss">, <Entry index=258 label="Csj_out_OH">, <Entry index=13 label="O_H_out">]
 """,
 )
 
