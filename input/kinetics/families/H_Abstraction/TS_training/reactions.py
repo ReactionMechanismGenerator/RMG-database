@@ -1,12 +1,3 @@
-#!/usr/bin/env python
-# encoding: utf-8
-
-name = "H_Abstraction/TS_training"
-shortDesc = u"Distances used to train group additivity values for TS geometries"
-longDesc = u"""
-Put interatomic distances for reactions to use as a training set for fitting
-group additivity values in this file.
-"""
 entry(
     index = 1,
     label = "H + C3H4 <=> H2 + C3H3",
@@ -4437,6 +4428,7739 @@ entry(
 
 entry(
     index = 370,
+    label = "CH4O + C4H7O3 <=> C4H8O3 + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.2397, 'd13': 2.54065, 'd23': 1.31272},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 371,
+    label = "C6H8-2 + C3H5 <=> C3H6 + C6H7-2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.30176, 'd13': 2.70556, 'd23': 1.41366},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 372,
+    label = "CH3 + C3H4O-1 <=> CH4 + C3H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27053, 'd13': 2.74347, 'd23': 1.47295},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 373,
+    label = "C4H9 + C3H8-1 <=> C4H10 + C3H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.31707, 'd13': 2.68611, 'd23': 1.37457},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 374,
+    label = "C3H4O + C3H7-1 <=> C3H8-1 + C3H3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.3154, 'd13': 2.68928, 'd23': 1.38695},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 375,
+    label = "C3H4O + CH3O <=> CH4O + C3H3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.3388, 'd13': 2.67854, 'd23': 1.37393},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 376,
+    label = "C4H5 + H2O2 <=> C4H6 + HO2-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.10753, 'd13': 2.50949, 'd23': 1.41137},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 377,
+    label = "C4H8 + CHO <=> CH2O + C4H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.34691, 'd13': 2.72011, 'd23': 1.38629},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 378,
+    label = "CH4O + C4H5O3 <=> C4H6O3 + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.23697, 'd13': 2.5442, 'd23': 1.31812},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 379,
+    label = "C5H5 + HO2-1 <=> C5H6 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1551, 'd13': 2.61984, 'd23': 1.4756},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 380,
+    label = "C2O + C6H8 <=> C2HO-1 + C6H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.28566, 'd13': 2.66596, 'd23': 1.41018},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 381,
+    label = "C7H14O3-2 + C7H13O3-1 <=> C7H14O3-1 + C7H13O3-4",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.19064, 'd13': 2.34146, 'd23': 1.16512},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 382,
+    label = "C4H10 + CH3 <=> CH4 + C4H9",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.31259, 'd13': 2.68284, 'd23': 1.3725},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 383,
+    label = "C2H2O + C6H5 <=> C6H6 + C2HO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.27346, 'd13': 2.6232, 'd23': 1.35092},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 384,
+    label = "C7H13O3-1 + HO2-1 <=> C7H14O3-1 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.12912, 'd13': 2.37922, 'd23': 1.25764},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 385,
+    label = "C2H5O-2 + C5H8-1 <=> C2H6O-2 + C5H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.18827, 'd13': 2.59176, 'd23': 1.41159},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 386,
+    label = "C3H6O + C2H5 <=> C2H6 + C3H5O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.3031, 'd13': 2.68154, 'd23': 1.38809},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 387,
+    label = "CH3 + C2H6 <=> CH4 + C2H5",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.3078, 'd13': 2.67929, 'd23': 1.37491},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 388,
+    label = "C3H3O-1 + C5H8-1 <=> C3H4O-1 + C5H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.31213, 'd13': 2.75581, 'd23': 1.4517},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 389,
+    label = "C2H + C6H8-3 <=> C2H2 + C6H7-3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.12015, 'd13': 2.88828, 'd23': 1.81999},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 390,
+    label = "C2H3 + C4H4-2 <=> C2H4 + C4H3-2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.25669, 'd13': 2.6645, 'd23': 1.42124},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 391,
+    label = "C2O + C7H14O-1 <=> C2HO-1 + C7H13O-1",
+    degeneracy = 12,
+    distances = DistanceData(
+        distances = {'d12': 1.39483, 'd13': 2.65039, 'd23': 1.27497},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 392,
+    label = "CH3 + C4H4-1 <=> CH4 + C4H3-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3021, 'd13': 2.66512, 'd23': 1.36509},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 393,
+    label = "C2O + C5H8-1 <=> C2HO-1 + C5H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.27178, 'd13': 2.68587, 'd23': 1.43053},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 394,
+    label = "C2H5O-2 + C2H6O <=> C2H6O-2 + C2H5O-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.25129, 'd13': 2.49822, 'd23': 1.25191},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 395,
+    label = "C2H5O-1 + C5H8-1 <=> C2H6O-1 + C5H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.24491, 'd13': 2.73182, 'd23': 1.4955},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 396,
+    label = "C4H8 + C2H5O-1 <=> C2H6O-1 + C4H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.26366, 'd13': 2.71186, 'd23': 1.45239},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 397,
+    label = "C4H7-1 + C3H8-1 <=> C4H8-1 + C3H7",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.34046, 'd13': 2.68402, 'd23': 1.34671},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 398,
+    label = "C4H7-1 + C4H8 <=> C4H8-1 + C4H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.26395, 'd13': 2.70656, 'd23': 1.4483},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 399,
+    label = "C2H5O-2 + C6H8-3 <=> C2H6O-2 + C6H7-3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.16827, 'd13': 2.60362, 'd23': 1.47037},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 400,
+    label = "C4H6O + CH3O <=> CH4O + C4H5O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.33432, 'd13': 2.70859, 'd23': 1.38363},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 401,
+    label = "C2H4O + C6H5 <=> C6H6 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.22745, 'd13': 2.74998, 'd23': 1.53858},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 402,
+    label = "C3H4O + C2H3O <=> C2H4O + C3H3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.32553, 'd13': 2.69973, 'd23': 1.38253},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 403,
+    label = "C2HO + C2H5O-2 <=> C2H6O-2 + C2O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.20931, 'd13': 2.42545, 'd23': 1.29442},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 404,
+    label = "C4H8 + C5H5-1 <=> C5H6-1 + C4H7-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.25779, 'd13': 2.68301, 'd23': 1.4303},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 405,
+    label = "C6H8 + CH2 <=> CH3-1 + C6H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.22945, 'd13': 2.69941, 'd23': 1.48121},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 406,
+    label = "C2H6O + C2H3 <=> C2H4 + C2H5O-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.28725, 'd13': 2.66941, 'd23': 1.38918},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 407,
+    label = "C4H5 + C2H4O <=> C4H6 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.22264, 'd13': 2.76781, 'd23': 1.55081},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 408,
+    label = "CH4O + C2HO <=> C2H2O + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.22102, 'd13': 2.65835, 'd23': 1.45614},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 409,
+    label = "C2H3 + C5H8-1 <=> C2H4 + C5H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.21856, 'd13': 2.739, 'd23': 1.52394},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 410,
+    label = "C4H9 + H2O2 <=> C4H10 + HO2-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.18443, 'd13': 2.51157, 'd23': 1.32976},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 411,
+    label = "C2H5O-2 + HO2-1 <=> C2H6O-2 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.01926, 'd13': 2.52174, 'd23': 1.52675},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 412,
+    label = "C2H5O-2 + C4H4-2 <=> C2H6O-2 + C4H3-2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.22479, 'd13': 2.4977, 'd23': 1.28802},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 413,
+    label = "C4H7-1 + HO2-1 <=> C4H8-1 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.071, 'd13': 2.63014, 'd23': 1.56838},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 414,
+    label = "C2HO + H <=> H2 + C2O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25756, 'd13': 2.22931, 'd23': 0.998142},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 415,
+    label = "C2H + C6H8-2 <=> C2H2 + C6H7-2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.11789, 'd13': 2.95802, 'd23': 1.92812},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 416,
+    label = "C2H5O-2 + C3H4O-1 <=> C2H6O-2 + C3H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1924, 'd13': 2.55699, 'd23': 1.38954},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 417,
+    label = "C5H6 + C2HO <=> C2H2O + C5H5-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.38366, 'd13': 2.63338, 'd23': 1.25087},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 418,
+    label = "C2HO + C3H5-2 <=> C3H6-2 + C2O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24881, 'd13': 2.65744, 'd23': 1.41691},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 419,
+    label = "C4H9 + C2H4O <=> C4H10 + C2H3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.29263, 'd13': 2.69713, 'd23': 1.40578},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 420,
+    label = "C4H8 + C4H5 <=> C4H6 + C4H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.22111, 'd13': 2.71297, 'd23': 1.50812},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 421,
+    label = "C3H5O + CH2O <=> C3H6O + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.31083, 'd13': 2.72403, 'd23': 1.4195},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 422,
+    label = "C4H10 + HO <=> H2O + C4H9",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.16316, 'd13': 2.5778, 'd23': 1.42849},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 423,
+    label = "C4H9 + HO2-1 <=> C4H10 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.07128, 'd13': 2.63224, 'd23': 1.56784},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 424,
+    label = "C7H14O3-5 + H <=> H2 + C7H13O3-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1136, 'd13': 2.12218, 'd23': 1.01225},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 425,
+    label = "C4H8 + HO <=> H2O + C4H7-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.17855, 'd13': 2.53153, 'd23': 1.38018},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 426,
+    label = "C2H6 + CH2 <=> CH3-1 + C2H5",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.29393, 'd13': 2.65751, 'd23': 1.36785},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 427,
+    label = "C2H4O + C6H5 <=> C6H6 + C2H3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.23714, 'd13': 2.70344, 'd23': 1.47425},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 428,
+    label = "C4H8 + CH3 <=> CH4 + C4H7-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.31658, 'd13': 2.68174, 'd23': 1.36865},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 429,
+    label = "C2H5O-1 + HO2-1 <=> C2H6O-1 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.08298, 'd13': 2.6123, 'd23': 1.53916},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 430,
+    label = "H + C5H8-1 <=> H2 + C5H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.21574, 'd13': 2.33091, 'd23': 1.11688},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 431,
+    label = "C6H12O + C2O <=> C2HO-1 + C6H11O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.3268, 'd13': 2.65341, 'd23': 1.34368},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 432,
+    label = "C4H10 + C2H5O-2 <=> C2H6O-2 + C4H9",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.23896, 'd13': 2.51204, 'd23': 1.27424},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 433,
+    label = "C4H5 + H2 <=> C4H6 + H",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 0.868906, 'd13': 2.29421, 'd23': 1.42789},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 434,
+    label = "C5H5-1 + C4H6-1 <=> C5H6-1 + C4H5-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.25326, 'd13': 2.67051, 'd23': 1.41772},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 435,
+    label = "C4H8 + C3H3-3 <=> C3H4 + C4H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.28656, 'd13': 2.68616, 'd23': 1.4021},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 436,
+    label = "C7H13O-1 + C2H6 <=> C7H14O-1 + C2H5",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.33239, 'd13': 2.67842, 'd23': 1.35237},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 437,
+    label = "CH2O + C3H3-2 <=> C3H4-1 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.32683, 'd13': 2.73119, 'd23': 1.40624},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 438,
+    label = "C5H5-1 + C2H6 <=> C5H6-1 + C2H5",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.25029, 'd13': 2.67572, 'd23': 1.4357},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 439,
+    label = "H + C3H4-1 <=> H2 + C3H3-2",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.28684, 'd13': 2.27534, 'd23': 0.989057},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 440,
+    label = "C4H8 + C4H3 <=> C4H4 + C4H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.20907, 'd13': 2.7289, 'd23': 1.52599},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 441,
+    label = "C5H5-1 + C2H4O <=> C5H6-1 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.21204, 'd13': 2.75883, 'd23': 1.56594},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 442,
+    label = "C6H11O + CH4O <=> C6H12O + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.39573, 'd13': 2.69101, 'd23': 1.32711},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 443,
+    label = "HO2-1 + C5H8-1 <=> H2O2 + C5H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.2596, 'd13': 2.54094, 'd23': 1.29536},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 444,
+    label = "C2O + C7H14O-1 <=> C2HO-1 + C7H13O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.29402, 'd13': 2.65919, 'd23': 1.37455},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 445,
+    label = "C7H14O-1 + C2H5 <=> C2H6 + C7H13O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.26281, 'd13': 2.70619, 'd23': 1.45623},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 446,
+    label = "C7H14O3-2 + H <=> H2 + C7H13O3-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23924, 'd13': 2.28474, 'd23': 1.05547},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 447,
+    label = "C7H14O3-2 + HO <=> H2O + C7H13O3-4",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.02673, 'd13': 2.35893, 'd23': 1.4036},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 448,
+    label = "C4H9 + CH2O <=> C4H10 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.29256, 'd13': 2.71979, 'd23': 1.44608},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 449,
+    label = "C3H5O + HO2-1 <=> C3H6O + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.07958, 'd13': 2.60996, 'd23': 1.54151},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 450,
+    label = "C6H8-3 + C3H7-1 <=> C3H8-1 + C6H7-3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.25999, 'd13': 2.72483, 'd23': 1.46614},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 451,
+    label = "C2H6O + C3H2 <=> C3H3-1 + C2H5O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.30123, 'd13': 2.65081, 'd23': 1.38924},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 452,
+    label = "C2O + C6H8-2 <=> C2HO-1 + C6H7-2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.26308, 'd13': 2.68515, 'd23': 1.44379},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 453,
+    label = "C4H6-1 + O <=> HO-1 + C4H5-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.31688, 'd13': 2.49416, 'd23': 1.17731},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 454,
+    label = "C4H5 + C3H4O-1 <=> C4H6 + C3H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23749, 'd13': 2.76161, 'd23': 1.52791},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 455,
+    label = "C3H3-1 + O <=> HO-1 + C3H2",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.24201, 'd13': 2.49561, 'd23': 1.2536},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 456,
+    label = "C4H3 + C4H8O3 <=> C4H4 + C4H7O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.14021, 'd13': 2.50003, 'd23': 1.36034},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 457,
+    label = "C4H10 + C2H3 <=> C2H4 + C4H9",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.28393, 'd13': 2.68344, 'd23': 1.40156},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 458,
+    label = "C3H3O + C3H4 <=> C3H4O + C3H3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.38164, 'd13': 2.68056, 'd23': 1.31356},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 459,
+    label = "C3H3-2 + C3H4O-1 <=> C3H4-1 + C3H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.33338, 'd13': 2.73703, 'd23': 1.41055},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 460,
+    label = "C3H6 + C2H5 <=> C2H6 + C3H5",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.28114, 'd13': 2.70064, 'd23': 1.4242},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 461,
+    label = "C5H6 + C3H5-2 <=> C3H6-2 + C5H5",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.2249, 'd13': 2.73975, 'd23': 1.52504},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 462,
+    label = "C6H8 + C2H5 <=> C2H6 + C6H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.26228, 'd13': 2.7051, 'd23': 1.45857},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 463,
+    label = "C4H6O + C3H7 <=> C3H8 + C4H5O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.29249, 'd13': 2.70409, 'd23': 1.41556},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 464,
+    label = "C6H5 + C3H8-1 <=> C6H6 + C3H7",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.26734, 'd13': 2.68016, 'd23': 1.41706},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 465,
+    label = "C7H13O + C3H6 <=> C7H14O + C3H5",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.37135, 'd13': 2.69133, 'd23': 1.32919},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 466,
+    label = "C4H7-1 + C3H4 <=> C4H8-1 + C3H3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.30055, 'd13': 2.66745, 'd23': 1.3757},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 467,
+    label = "C3H5 + C5H8-1 <=> C3H6 + C5H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.3087, 'd13': 2.70951, 'd23': 1.40551},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 468,
+    label = "C6H8 + C3H5 <=> C3H6 + C6H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.34303, 'd13': 2.69934, 'd23': 1.36251},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 469,
+    label = "C2H3O + C6H8-2 <=> C2H4O + C6H7-2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.26746, 'd13': 2.71432, 'd23': 1.46173},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 470,
+    label = "C6H5 + C3H8-1 <=> C6H6 + C3H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.24668, 'd13': 2.68706, 'd23': 1.44809},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 471,
+    label = "C2H4O + C3H5-2 <=> C3H6-2 + C2H3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.26576, 'd13': 2.69421, 'd23': 1.434},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 472,
+    label = "C2HO + C2H5O-1 <=> C2H6O-1 + C2O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27603, 'd13': 2.65577, 'd23': 1.39236},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 473,
+    label = "C3H3-1 + C7H13O-1 <=> C7H14O-1 + C3H2",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.31203, 'd13': 2.65995, 'd23': 1.35872},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 474,
+    label = "C7H13O + HO2-1 <=> C7H14O + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.12823, 'd13': 2.57092, 'd23': 1.46156},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 475,
+    label = "C2O + C7H14O3-5 <=> C2HO-1 + C7H13O3-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.20322, 'd13': 2.47449, 'd23': 1.30463},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 476,
+    label = "C5H8 + CH3 <=> CH4 + C5H7",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.24875, 'd13': 2.722, 'd23': 1.47417},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 477,
+    label = "C4H8 + C6H5 <=> C6H6 + C4H7-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.26992, 'd13': 2.67805, 'd23': 1.4125},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 478,
+    label = "C6H5 + C7H14O-1 <=> C6H6 + C7H13O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.21344, 'd13': 2.72756, 'd23': 1.5263},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 479,
+    label = "C4H8 + H <=> H2 + C4H7-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.35991, 'd13': 2.27964, 'd23': 0.922801},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 480,
+    label = "C6H11O + HO2-1 <=> C6H12O + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1049, 'd13': 2.59673, 'd23': 1.50072},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 481,
+    label = "C2O + C7H14O3-2 <=> C2HO-1 + C7H13O3-4",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1624, 'd13': 2.45359, 'd23': 1.34106},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 482,
+    label = "C4H3-3 + C5H8-1 <=> C4H4-1 + C5H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.24544, 'd13': 2.71399, 'd23': 1.47544},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 483,
+    label = "C3H4O + C2HO <=> C2H2O + C3H3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.20818, 'd13': 2.70272, 'd23': 1.50799},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 484,
+    label = "C3H3-1 + C3H5-2 <=> C3H6-2 + C3H2",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.2802, 'd13': 2.65511, 'd23': 1.37946},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 485,
+    label = "C5H5-1 + C2H4O <=> C5H6-1 + C2H3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.227, 'd13': 2.70108, 'd23': 1.48813},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 486,
+    label = "C6H11O + C3H6 <=> C6H12O + C3H5",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.34419, 'd13': 2.68744, 'd23': 1.3542},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 487,
+    label = "C2H + C3H8-1 <=> C2H2 + C3H7",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.1247, 'd13': 2.854, 'd23': 1.76717},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 488,
+    label = "C5H5 + C5H8 <=> C5H6 + C5H7",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.38704, 'd13': 2.73712, 'd23': 1.35364},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 489,
+    label = "C7H14O3-2 + H <=> H2 + C7H13O3-4",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.12442, 'd13': 2.11848, 'd23': 0.995758},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 490,
+    label = "C6H8 + C4H3-3 <=> C4H4-1 + C6H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.25175, 'd13': 2.69783, 'd23': 1.45755},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 491,
+    label = "C4H10 + C4H3-3 <=> C4H4-1 + C4H9",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.33552, 'd13': 2.66325, 'd23': 1.33444},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 492,
+    label = "C3H4O + C4H3-3 <=> C4H4-1 + C3H3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.27723, 'd13': 2.69438, 'd23': 1.42433},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 493,
+    label = "C4H10 + C3H5-2 <=> C3H6-2 + C4H9",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.311, 'd13': 2.67475, 'd23': 1.36923},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 494,
+    label = "C7H14O3-5 + H <=> H2 + C7H13O3-3",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.37479, 'd13': 2.28497, 'd23': 0.910186},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 495,
+    label = "C4H7-1 + CH2O <=> C4H8-1 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.28691, 'd13': 2.73049, 'd23': 1.45431},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 496,
+    label = "C5H5-1 + C2H6O <=> C5H6-1 + C2H5O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.21749, 'd13': 2.70768, 'd23': 1.51119},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 497,
+    label = "C4H7-1 + C4H6-1 <=> C4H8-1 + C4H5-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.38408, 'd13': 2.6733, 'd23': 1.29385},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 498,
+    label = "C7H14O3-5 + H <=> H2 + C7H13O3-5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25835, 'd13': 2.26959, 'd23': 1.02105},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 499,
+    label = "C6H11O + C2H4O <=> C6H12O + C2H3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.37417, 'd13': 2.68214, 'd23': 1.31883},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 500,
+    label = "C2H3O + C6H8 <=> C2H4O + C6H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.28222, 'd13': 2.70728, 'd23': 1.43207},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 501,
+    label = "C4H7-1 + C5H6 <=> C4H8-1 + C5H5",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.24707, 'd13': 2.73212, 'd23': 1.49367},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 502,
+    label = "C4H7-1 + C2H4O <=> C4H8-1 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28931, 'd13': 2.71038, 'd23': 1.45617},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 503,
+    label = "C3H4O + C2H5 <=> C2H6 + C3H3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.29343, 'd13': 2.69759, 'd23': 1.41322},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 504,
+    label = "C6H6 + C4H3 <=> C4H4 + C6H5",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.31609, 'd13': 2.63793, 'd23': 1.3296},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 505,
+    label = "C2H2O + C2H3 <=> C2H4 + C2HO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.2934, 'd13': 2.61734, 'd23': 1.32838},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 506,
+    label = "C7H13O-1 + C7H14O3-5 <=> C7H14O-1 + C7H13O3-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17086, 'd13': 2.50574, 'd23': 1.35068},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 507,
+    label = "C4H6O + C3H7-1 <=> C3H8-1 + C4H5O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.31482, 'd13': 2.70454, 'd23': 1.39366},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 508,
+    label = "C3H2 + C3H4O-1 <=> C3H3-1 + C3H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29048, 'd13': 2.70823, 'd23': 1.42472},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 509,
+    label = "C3H3-1 + H <=> H2 + C3H2",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.29695, 'd13': 2.25538, 'd23': 0.958432},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 510,
+    label = "HO2-1 + C4H7O3 <=> C4H8O3 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.05085, 'd13': 2.45125, 'd23': 1.40891},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 511,
+    label = "C2H3O-1 + C6H8 <=> C2H4O-1 + C6H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.35993, 'd13': 2.69198, 'd23': 1.36847},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 512,
+    label = "C4H9 + C3H4-1 <=> C4H10 + C3H3-2",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.30166, 'd13': 2.69315, 'd23': 1.39287},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 513,
+    label = "C7H13O-1 + C7H14O-1 <=> C7H14O-1 + C7H13O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.26771, 'd13': 2.71409, 'd23': 1.44869},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 514,
+    label = "C3H5O + C6H8-2 <=> C3H6O + C6H7-2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.26035, 'd13': 2.72489, 'd23': 1.46951},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 515,
+    label = "C4H7-1 + CH4O <=> C4H8-1 + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.3149, 'd13': 2.69717, 'd23': 1.39395},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 516,
+    label = "C4H6O + C4H3-3 <=> C4H4-1 + C4H5O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.28004, 'd13': 2.70043, 'd23': 1.42978},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 517,
+    label = "C4H8 + CH2 <=> CH3-1 + C4H7-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.29871, 'd13': 2.65801, 'd23': 1.36436},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 518,
+    label = "C5H8 + C3H7-1 <=> C3H8-1 + C5H7",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.28345, 'd13': 2.69893, 'd23': 1.4242},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 519,
+    label = "C5H5-1 + C4H8 <=> C5H6-1 + C4H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.20054, 'd13': 2.73647, 'd23': 1.54533},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 520,
+    label = "C5H5-1 + C3H4O <=> C5H6-1 + C3H3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.21568, 'd13': 2.72718, 'd23': 1.51387},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 521,
+    label = "C3H6 + CH2 <=> CH3-1 + C3H5",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.25295, 'd13': 2.69011, 'd23': 1.43716},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 522,
+    label = "C7H13O-1 + C3H4 <=> C7H14O-1 + C3H3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.30783, 'd13': 2.66526, 'd23': 1.36645},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 523,
+    label = "CH3O + C3H4 <=> CH4O + C3H3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.35448, 'd13': 2.64694, 'd23': 1.33566},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 524,
+    label = "C4H7-1 + C3H4-1 <=> C4H8-1 + C3H3-2",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.30241, 'd13': 2.6941, 'd23': 1.39855},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 525,
+    label = "H + C4H8O3 <=> H2 + C4H7O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17526, 'd13': 2.10644, 'd23': 0.933968},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 526,
+    label = "C3H8-1 + C3H7 <=> C3H8 + C3H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.31982, 'd13': 2.69065, 'd23': 1.37102},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 527,
+    label = "C7H14O3-5 + O <=> HO-1 + C7H13O3-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.06311, 'd13': 2.3205, 'd23': 1.32703},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 528,
+    label = "C2O + C4H4-2 <=> C2HO-1 + C4H3-2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.33539, 'd13': 2.65038, 'd23': 1.32523},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 529,
+    label = "C2O + C2H6O <=> C2HO-1 + C2H5O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.31682, 'd13': 2.65929, 'd23': 1.35739},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 530,
+    label = "C3H5-2 + C5H8-1 <=> C3H6-2 + C5H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.22668, 'd13': 2.74045, 'd23': 1.5169},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 531,
+    label = "C4H7-1 + C3H3-1 <=> C4H8-1 + C3H2",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.31227, 'd13': 2.65729, 'd23': 1.3528},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 532,
+    label = "C4H7-1 + C3H8-1 <=> C4H8-1 + C3H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.3144, 'd13': 2.68485, 'd23': 1.3737},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 533,
+    label = "C4H10 + CH2 <=> CH3-1 + C4H9",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.30064, 'd13': 2.66707, 'd23': 1.36853},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 534,
+    label = "C4H5-1 + C2H6 <=> C4H6-1 + C2H5",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.33514, 'd13': 2.67222, 'd23': 1.33881},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 535,
+    label = "C5H6 + C4H5 <=> C4H6 + C5H5",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.21437, 'd13': 2.7376, 'd23': 1.53766},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 536,
+    label = "C7H14O-1 + C3H3-3 <=> C3H4 + C7H13O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.28997, 'd13': 2.67993, 'd23': 1.39458},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 537,
+    label = "C4H8 + C2H5O-1 <=> C2H6O-1 + C4H7-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.33993, 'd13': 2.68325, 'd23': 1.34623},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 538,
+    label = "C2H5O-1 + C6H8 <=> C2H6O-1 + C6H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.26231, 'd13': 2.69766, 'd23': 1.4453},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 539,
+    label = "C2H6O + C3H5-2 <=> C3H6-2 + C2H5O-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.31549, 'd13': 2.67588, 'd23': 1.36225},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 540,
+    label = "C4H5 + C2H6O <=> C4H6 + C2H5O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.24174, 'd13': 2.70502, 'd23': 1.48068},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 541,
+    label = "C7H14O3-2 + C3H5 <=> C3H6 + C7H13O3-4",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24523, 'd13': 2.53143, 'd23': 1.28905},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 542,
+    label = "CH3O + C5H8 <=> CH4O + C5H7",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.30583, 'd13': 2.68, 'd23': 1.41848},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 543,
+    label = "C5H6 + C4H3 <=> C4H4 + C5H5-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.33942, 'd13': 2.63237, 'd23': 1.3049},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 544,
+    label = "C7H13O-1 + C3H6 <=> C7H14O-1 + C3H5",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.28705, 'd13': 2.70273, 'd23': 1.41911},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 545,
+    label = "C4H8 + C2O <=> C2HO-1 + C4H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.2934, 'd13': 2.67343, 'd23': 1.38322},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 546,
+    label = "C4H4-1 + O <=> HO-1 + C4H3-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27336, 'd13': 2.48545, 'd23': 1.22055},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 547,
+    label = "C2O + C6H8-3 <=> C2HO-1 + C6H7-3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.27451, 'd13': 2.69334, 'd23': 1.43806},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 548,
+    label = "C4H6O + C2H5 <=> C2H6 + C4H5O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.29624, 'd13': 2.7028, 'd23': 1.41609},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 549,
+    label = "C5H6 + CH3O <=> CH4O + C5H5",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.27671, 'd13': 2.7273, 'd23': 1.46189},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 550,
+    label = "C2O + C4H6O3 <=> C2HO-1 + C4H5O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29547, 'd13': 2.44288, 'd23': 1.22556},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 551,
+    label = "C6H8 + C4H3 <=> C4H4 + C6H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.19794, 'd13': 2.75226, 'd23': 1.55714},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 552,
+    label = "C2H5O-2 + C3H3-1 <=> C2H6O-2 + C3H2",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.23187, 'd13': 2.48503, 'd23': 1.26673},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 553,
+    label = "C2H6O + C3H5-1 <=> C3H6-1 + C2H5O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.25163, 'd13': 2.69261, 'd23': 1.46878},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 554,
+    label = "C5H5-1 + C3H4O-1 <=> C5H6-1 + C3H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.21228, 'd13': 2.77185, 'd23': 1.56487},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 555,
+    label = "C5H6 + C2H5O-1 <=> C2H6O-1 + C5H5-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.43422, 'd13': 2.67314, 'd23': 1.25801},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 556,
+    label = "C2HO + C5H8 <=> C2H2O + C5H7",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.20374, 'd13': 2.69602, 'd23': 1.50184},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 557,
+    label = "H2O2 + C3H3-2 <=> C3H4-1 + HO2-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.19369, 'd13': 2.5118, 'd23': 1.33001},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 558,
+    label = "C3H5-1 + C3H8-1 <=> C3H6-1 + C3H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.25402, 'd13': 2.68374, 'd23': 1.43673},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 559,
+    label = "C5H6 + C3H3-3 <=> C3H4 + C5H5",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.28818, 'd13': 2.71621, 'd23': 1.43215},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 560,
+    label = "C3H7 + C5H8-1 <=> C3H8 + C5H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.24145, 'd13': 2.74478, 'd23': 1.50625},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 561,
+    label = "C3H3O + HO2-1 <=> C3H4O + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.12756, 'd13': 2.58337, 'd23': 1.47776},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 562,
+    label = "C2HO + C2H6 <=> C2H2O + C2H5",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.26738, 'd13': 2.62923, 'd23': 1.36841},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 563,
+    label = "C7H14O-1 + O <=> HO-1 + C7H13O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.25832, 'd13': 2.50711, 'd23': 1.24903},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 564,
+    label = "C3H4O + C2H5O-1 <=> C2H6O-1 + C3H3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.27855, 'd13': 2.69884, 'd23': 1.43642},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 565,
+    label = "C6H8 + C3H3O-1 <=> C3H4O-1 + C6H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.32693, 'd13': 2.72644, 'd23': 1.40764},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 566,
+    label = "C2H5O-1 + C4H8O3 <=> C2H6O-1 + C4H7O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.21026, 'd13': 2.49975, 'd23': 1.30339},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 567,
+    label = "C4H8 + CH3O <=> CH4O + C4H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.3051, 'd13': 2.69432, 'd23': 1.40875},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 568,
+    label = "C3H5O + H2O2 <=> C3H6O + HO2-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.18004, 'd13': 2.50468, 'd23': 1.33384},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 569,
+    label = "C2H5O-2 + C2H6 <=> C2H6O-2 + C2H5",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.23808, 'd13': 2.50752, 'd23': 1.27554},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 570,
+    label = "C6H5 + C4H4-1 <=> C6H6 + C4H3-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25933, 'd13': 2.66027, 'd23': 1.40789},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 571,
+    label = "C6H12O + C2H3 <=> C2H4 + C6H11O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.23336, 'd13': 2.70964, 'd23': 1.48512},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 572,
+    label = "C4H6-1 + C2H <=> C2H2 + C4H5",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.14543, 'd13': 2.74504, 'd23': 1.60344},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 573,
+    label = "C2H4O + C4H3-2 <=> C4H4-2 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29821, 'd13': 2.71699, 'd23': 1.43014},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 574,
+    label = "C2O + CH4O <=> C2HO-1 + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.33986, 'd13': 2.66562, 'd23': 1.33683},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 575,
+    label = "C4H10 + C2H <=> C2H2 + C4H9",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.12575, 'd13': 2.85671, 'd23': 1.77057},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 576,
+    label = "C4H10 + H <=> H2 + C4H9",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.36224, 'd13': 2.2802, 'd23': 0.920142},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 577,
+    label = "C5H5-1 + C3H3-1 <=> C5H6-1 + C3H2",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.22321, 'd13': 2.67029, 'd23': 1.45619},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 578,
+    label = "C4H6O + C2H5O <=> C2H6O + C4H5O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.35348, 'd13': 2.68208, 'd23': 1.36598},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 579,
+    label = "CH2O + C3H5 <=> C3H6 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.36139, 'd13': 2.73144, 'd23': 1.37055},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 580,
+    label = "C6H8 + C7H13O <=> C7H14O + C6H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.33507, 'd13': 2.68418, 'd23': 1.37294},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 581,
+    label = "C2O + C4H8O3 <=> C2HO-1 + C4H7O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29824, 'd13': 2.44224, 'd23': 1.22384},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 582,
+    label = "C4H9 + C3H4O-1 <=> C4H10 + C3H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29628, 'd13': 2.72409, 'd23': 1.44175},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 583,
+    label = "CH2O + H <=> H2 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.26516, 'd13': 2.33001, 'd23': 1.06488},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 584,
+    label = "C4H6-1 + CH3 <=> CH4 + C4H5-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.31088, 'd13': 2.67032, 'd23': 1.36145},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 585,
+    label = "CH2O + HO <=> H2O + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.14261, 'd13': 2.69644, 'd23': 1.5699},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 586,
+    label = "C3H4O-1 + CH2 <=> CH3-1 + C3H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2591, 'd13': 2.73884, 'd23': 1.48009},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 587,
+    label = "C6H8 + CH3 <=> CH4 + C6H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.24498, 'd13': 2.70693, 'd23': 1.46572},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 588,
+    label = "C4H9 + C2H6 <=> C4H10 + C2H5",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.34613, 'd13': 2.69062, 'd23': 1.34864},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 589,
+    label = "C6H12O + C2H5O-1 <=> C2H6O-1 + C6H11O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.28226, 'd13': 2.70645, 'd23': 1.43343},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 590,
+    label = "CH4O + C4H5-1 <=> C4H6-1 + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.27312, 'd13': 2.70184, 'd23': 1.43129},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 591,
+    label = "C4H5 + C3H4O <=> C4H6 + C3H3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.23646, 'd13': 2.70816, 'd23': 1.48483},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 592,
+    label = "C3H5O + C4H6O <=> C3H6O + C4H5O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.31514, 'd13': 2.69186, 'd23': 1.40066},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 593,
+    label = "C3H6O + C3H2 <=> C3H3-1 + C3H5O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.32513, 'd13': 2.66456, 'd23': 1.34118},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 594,
+    label = "HO2-1 + C5H7-1 <=> C5H8-1 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17806, 'd13': 2.5809, 'd23': 1.41009},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 595,
+    label = "C6H8 + C7H13O <=> C7H14O + C6H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.3537, 'd13': 2.68425, 'd23': 1.34774},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 596,
+    label = "C4H9 + CH4O <=> C4H10 + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.31649, 'd13': 2.69835, 'd23': 1.39228},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 597,
+    label = "C4H9 + C3H4 <=> C4H10 + C3H3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.30584, 'd13': 2.66777, 'd23': 1.36856},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 598,
+    label = "C4H10 + C3H7 <=> C3H8 + C4H9",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.34357, 'd13': 2.68932, 'd23': 1.34993},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 599,
+    label = "C2H6O + CH2 <=> CH3-1 + C2H5O-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.29952, 'd13': 2.65527, 'd23': 1.36789},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 600,
+    label = "C7H13O-1 + HO2-1 <=> C7H14O-1 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.07676, 'd13': 2.61526, 'd23': 1.55153},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 601,
+    label = "C6H5 + C4H4-2 <=> C6H6 + C4H3-2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.24513, 'd13': 2.67111, 'd23': 1.43661},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 602,
+    label = "C6H12O + HO <=> H2O + C6H11O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.18121, 'd13': 2.50415, 'd23': 1.36928},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 603,
+    label = "C3H6O + C2O <=> C2HO-1 + C3H5O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.37633, 'd13': 2.64671, 'd23': 1.29438},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 604,
+    label = "C2O + C3H8-1 <=> C2HO-1 + C3H7",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.3731, 'd13': 2.6576, 'd23': 1.29024},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 605,
+    label = "C6H8 + HO2-1 <=> H2O2 + C6H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.26672, 'd13': 2.52787, 'd23': 1.2669},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 606,
+    label = "C2H4O + C2H3 <=> C2H4 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2334, 'd13': 2.75993, 'd23': 1.53124},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 607,
+    label = "C2H4O + C3H5-1 <=> C3H6-1 + C2H3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.24294, 'd13': 2.69569, 'd23': 1.46406},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 608,
+    label = "C2H6O + C6H5 <=> C6H6 + C2H5O-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.27191, 'd13': 2.66815, 'd23': 1.41251},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 609,
+    label = "C2H5O + C5H8-1 <=> C2H6O + C5H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.28329, 'd13': 2.70711, 'd23': 1.45592},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 610,
+    label = "C4H9 + C2H6O <=> C4H10 + C2H5O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.30948, 'd13': 2.71554, 'd23': 1.41318},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 611,
+    label = "C3H3-1 + CH3 <=> CH4 + C3H2",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.28156, 'd13': 2.66668, 'd23': 1.38512},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 612,
+    label = "C4H8 + C3H5-1 <=> C3H6-1 + C4H7-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.28375, 'd13': 2.67551, 'd23': 1.39697},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 613,
+    label = "C2O + C6H8 <=> C2HO-1 + C6H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.30356, 'd13': 2.65764, 'd23': 1.373},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 614,
+    label = "C3H5O + C6H8 <=> C3H6O + C6H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.27728, 'd13': 2.69872, 'd23': 1.43575},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 615,
+    label = "CH2O + C3H7 <=> C3H8 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.29165, 'd13': 2.71612, 'd23': 1.4446},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 616,
+    label = "C2H4O + C4H5-1 <=> C4H6-1 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29795, 'd13': 2.70193, 'd23': 1.42844},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 617,
+    label = "C5H5-1 + CH4O <=> C5H6-1 + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.23286, 'd13': 2.698, 'd23': 1.48209},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 618,
+    label = "C4H8 + C4H5 <=> C4H6 + C4H7-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.28012, 'd13': 2.67229, 'd23': 1.40053},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 619,
+    label = "C4H8 + C3H7 <=> C3H8 + C4H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.27256, 'd13': 2.71035, 'd23': 1.44138},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 620,
+    label = "C7H14O-1 + CH2 <=> CH3-1 + C7H13O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.23772, 'd13': 2.69945, 'd23': 1.4622},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 621,
+    label = "C6H12O + H <=> H2 + C6H11O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.25894, 'd13': 2.2779, 'd23': 1.02314},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 622,
+    label = "C2H4O + C2H3 <=> C2H4 + C2H3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.24746, 'd13': 2.69391, 'd23': 1.458},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 623,
+    label = "C4H10 + C4H5 <=> C4H6 + C4H9",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.27659, 'd13': 2.67701, 'd23': 1.40569},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 624,
+    label = "CH4O + H <=> H2 + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.30459, 'd13': 2.29106, 'd23': 0.986983},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 625,
+    label = "C2H4O + C3H3O-1 <=> C3H4O-1 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.38531, 'd13': 2.7684, 'd23': 1.39267},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 626,
+    label = "C3H4 + C4H3-2 <=> C4H4-2 + C3H3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.33324, 'd13': 2.66168, 'd23': 1.33955},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 627,
+    label = "C4H10O + CHO <=> CH2O + C4H9O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.44989, 'd13': 2.74742, 'd23': 1.29897},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 628,
+    label = "C2H6O-3 + HO <=> H2O + C2H5O-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.15129, 'd13': 2.61929, 'd23': 1.5128},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 629,
+    label = "CH3O-1 + CH4O <=> CH4O-1 + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.20857, 'd13': 2.52067, 'd23': 1.33439},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 630,
+    label = "C2H4O2 + H <=> H2 + C2H3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26037, 'd13': 2.3462, 'd23': 1.09304},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 631,
+    label = "C3H6-1 + O <=> HO-1 + C3H5-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.33958, 'd13': 2.4856, 'd23': 1.14961},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 632,
+    label = "CH3O2 + C3H8-1 <=> CH4O2 + C3H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.32517, 'd13': 2.5139, 'd23': 1.19512},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 633,
+    label = "C4H10O-1 + CH3O2 <=> CH4O2 + C4H9O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30432, 'd13': 2.36242, 'd23': 1.07937},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 634,
+    label = "H + C3H8 <=> H2 + C3H7",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.36001, 'd13': 2.28149, 'd23': 0.923371},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 635,
+    label = "H + C3H8-1 <=> H2 + C3H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.31948, 'd13': 2.27445, 'd23': 0.956339},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 636,
+    label = "C4H10O-2 + H <=> H2 + C4H9O-2",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.34128, 'd13': 2.27818, 'd23': 0.939134},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 637,
+    label = "C4H10 + CH3O-1 <=> CH4O-1 + C4H9",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.23401, 'd13': 2.50632, 'd23': 1.27888},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 638,
+    label = "C4H10O-3 + H <=> H2 + C4H9O-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24581, 'd13': 2.11077, 'd23': 0.872138},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 639,
+    label = "C4H8O + CH3 <=> CH4 + C4H7O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.31731, 'd13': 2.68214, 'd23': 1.37024},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 640,
+    label = "C4H10O-4 + CH3 <=> CH4 + C4H9O-4",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.32663, 'd13': 2.68127, 'd23': 1.35844},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 641,
+    label = "C4H8-2 + CH3 <=> CH4 + C4H7-2",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.26724, 'd13': 2.70769, 'd23': 1.44175},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 642,
+    label = "C4H8-3 + CH3O2 <=> CH4O2 + C4H7-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.29765, 'd13': 2.53367, 'd23': 1.24578},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 643,
+    label = "C4H8-2 + H <=> H2 + C4H7-2",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.27649, 'd13': 2.2845, 'd23': 1.0081},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 644,
+    label = "C4H8O-1 + HO2-1 <=> H2O2 + C4H7O-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.28261, 'd13': 2.52461, 'd23': 1.25026},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 645,
+    label = "C2H4O-1 + HO <=> H2O + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1394, 'd13': 2.71514, 'd23': 1.64209},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 646,
+    label = "C4H6O-1 + H <=> H2 + C4H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27174, 'd13': 2.33697, 'd23': 1.06616},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 647,
+    label = "C3H6O2 + H <=> H2 + C3H5O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2669, 'd13': 2.33437, 'd23': 1.06805},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 648,
+    label = "C4H10O-5 + HO <=> H2O + C4H9O-5",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.16667, 'd13': 2.57381, 'd23': 1.41389},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 649,
+    label = "C3H7O2 + HO2 <=> C3H8O2 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.09023, 'd13': 2.38761, 'd23': 1.32505},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 650,
+    label = "C2H4O-2 + CH3O2 <=> CH4O2 + C2H3O-2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.36467, 'd13': 2.50432, 'd23': 1.14895},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 651,
+    label = "C4H9O2 + C2H4O-1 <=> C4H10O2 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30405, 'd13': 2.52347, 'd23': 1.23616},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 652,
+    label = "C4H10O-6 + HO2-1 <=> H2O2 + C4H9O-6",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.27729, 'd13': 2.51981, 'd23': 1.25562},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 653,
+    label = "C4H10O-7 + H <=> H2 + C4H9O-7",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24231, 'd13': 2.10535, 'd23': 0.871769},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 654,
+    label = "C4H10O-8 + CHO <=> CH2O + C4H9O-8",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.41851, 'd13': 2.71121, 'd23': 1.31801},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 655,
+    label = "C4H6-2 + H <=> H2 + C4H5-2",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.27518, 'd13': 2.28333, 'd23': 1.00899},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 656,
+    label = "C4H10O-7 + O <=> HO-1 + C4H9O-7",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.14746, 'd13': 2.28522, 'd23': 1.16845},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 657,
+    label = "C4H8O + H <=> H2 + C4H7O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.34691, 'd13': 2.27361, 'd23': 0.927919},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 658,
+    label = "H2O2 + C4H9O2 <=> C4H10O2 + HO2-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.20727, 'd13': 2.34013, 'd23': 1.15115},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 659,
+    label = "C4H10O-9 + H <=> H2 + C4H9O-9",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.35986, 'd13': 2.27802, 'd23': 0.919176},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 660,
+    label = "C4H10O-4 + HO2-1 <=> H2O2 + C4H9O-4",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.33804, 'd13': 2.50362, 'd23': 1.17556},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 661,
+    label = "CH4O + CH3O2 <=> CH4O2 + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.30042, 'd13': 2.48627, 'd23': 1.23729},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 662,
+    label = "C4H10O-1 + CHO <=> CH2O + C4H9O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37129, 'd13': 2.53866, 'd23': 1.19569},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 663,
+    label = "C3H8-1 + HO <=> H2O + C3H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.14619, 'd13': 2.63898, 'd23': 1.49384},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 664,
+    label = "C4H9O2-1 + H2O2 <=> C4H10O2-1 + HO2-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.22209, 'd13': 2.34994, 'd23': 1.12824},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 665,
+    label = "C4H8-3 + C3H7O2-1 <=> C3H8O2-1 + C4H7-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.29409, 'd13': 2.53334, 'd23': 1.24195},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 666,
+    label = "C4H10O-4 + HO <=> H2O + C4H9O-4",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.17593, 'd13': 2.54751, 'd23': 1.3834},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 667,
+    label = "C2H4O-3 + H <=> H2 + C2H3O-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.15805, 'd13': 2.11145, 'd23': 0.959583},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 668,
+    label = "C4H10O-4 + O2 <=> HO2 + C4H9O-4",
+    degeneracy = 12,
+    distances = DistanceData(
+        distances = {'d12': 1.57444, 'd13': 2.64023, 'd23': 1.0692},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 669,
+    label = "C4H10O-10 + CH3O2 <=> CH4O2 + C4H9O-10",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.32576, 'd13': 2.50003, 'd23': 1.20571},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 670,
+    label = "C2H6O-3 + HO2-1 <=> H2O2 + C2H5O-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.30205, 'd13': 2.52018, 'd23': 1.23527},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 671,
+    label = "C4H8-3 + HO <=> H2O + C4H7-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.14772, 'd13': 2.65012, 'd23': 1.51053},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 672,
+    label = "C4H10O-11 + C2H5 <=> C2H6 + C4H9O-11",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.34469, 'd13': 2.6813, 'd23': 1.34243},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 673,
+    label = "C4H9O2-1 + CH4O <=> C4H10O2-1 + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.3291, 'd13': 2.50023, 'd23': 1.20941},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 674,
+    label = "C4H8O-2 + HO2-1 <=> H2O2 + C4H7O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27912, 'd13': 2.5225, 'd23': 1.2667},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 675,
+    label = "C4H9O3 + HO2 <=> C4H10O3 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.09227, 'd13': 2.38721, 'd23': 1.32425},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 676,
+    label = "C2H4O-1 + O2 <=> HO2 + C2H3O-1",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.44518, 'd13': 2.57556, 'd23': 1.14894},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 677,
+    label = "C4H10-1 + HO <=> H2O + C4H9-1",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.1486, 'd13': 2.63742, 'd23': 1.49396},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 678,
+    label = "CH4 + C3H7O2 <=> C3H8O2 + CH3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.38853, 'd13': 2.51842, 'd23': 1.13273},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 679,
+    label = "C3H6O-1 + C3H7 <=> C3H8 + C3H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2947, 'd13': 2.74598, 'd23': 1.4558},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 680,
+    label = "C3H6O-1 + C2H5O-2 <=> C2H6O-2 + C3H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.18165, 'd13': 2.58792, 'd23': 1.43529},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 681,
+    label = "C4H8O-3 + HO2-1 <=> H2O2 + C4H7O-3",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.31028, 'd13': 2.51075, 'd23': 1.23612},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 682,
+    label = "C2H4O2-1 + CH3 <=> CH4 + C2H3O2-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.3091, 'd13': 2.67744, 'd23': 1.37518},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 683,
+    label = "C4H8 + C3H7O2 <=> C3H8O2 + C4H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.28981, 'd13': 2.53331, 'd23': 1.24798},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 684,
+    label = "C4H8-3 + CH3O-1 <=> CH4O-1 + C4H7-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.2, 'd13': 2.55486, 'd23': 1.36669},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 685,
+    label = "C4H6O-2 + H <=> H2 + C4H5O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26304, 'd13': 2.33252, 'd23': 1.07201},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 686,
+    label = "C4H8O-3 + CH3O2 <=> CH4O2 + C4H7O-3",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.30729, 'd13': 2.52377, 'd23': 1.24666},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 687,
+    label = "CHO2 + H2O2 <=> CH2O2 + HO2-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.02853, 'd13': 2.39182, 'd23': 1.40874},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 688,
+    label = "C4H10O-9 + CH3O <=> CH4O + C4H9O-9",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.39294, 'd13': 2.69369, 'd23': 1.31308},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 689,
+    label = "C4H8-2 + C3H5 <=> C3H6 + C4H7-2",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.3639, 'd13': 2.70101, 'd23': 1.34699},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 690,
+    label = "C3H4O-1 + CH3O2 <=> CH4O2 + C3H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30771, 'd13': 2.51841, 'd23': 1.23072},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 691,
+    label = "C4H10O-11 + HO <=> H2O + C4H9O-11",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.16073, 'd13': 2.59098, 'd23': 1.44045},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 692,
+    label = "C4H10O-4 + H <=> H2 + C4H9O-4",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.36495, 'd13': 2.28211, 'd23': 0.917993},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 693,
+    label = "C3H8-1 + C2H3O3 <=> C2H4O3 + C3H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.2599, 'd13': 2.51965, 'd23': 1.26669},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 694,
+    label = "C4H10O-12 + O <=> HO-1 + C4H9O-12",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.14733, 'd13': 2.27975, 'd23': 1.16904},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 695,
+    label = "C4H6O-3 + C2H3 <=> C2H4 + C4H5O-3",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.22248, 'd13': 2.72056, 'd23': 1.5076},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 696,
+    label = "C4H10O-4 + C2H5 <=> C2H6 + C4H9O-4",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.34814, 'd13': 2.68891, 'd23': 1.34222},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 697,
+    label = "C3H6O-1 + HO2-1 <=> H2O2 + C3H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28575, 'd13': 2.51299, 'd23': 1.25651},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 698,
+    label = "CH4O + C4H9O2 <=> C4H10O2 + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.30833, 'd13': 2.4966, 'd23': 1.23023},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 699,
+    label = "C4H9O2-1 + CH4 <=> C4H10O2-1 + CH3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.3855, 'd13': 2.51739, 'd23': 1.13375},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 700,
+    label = "C2H6 + C2H3O3 <=> C2H4O3 + C2H5",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.28552, 'd13': 2.50953, 'd23': 1.23065},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 701,
+    label = "C4H10O-8 + HO2-1 <=> H2O2 + C4H9O-8",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.30835, 'd13': 2.49914, 'd23': 1.20304},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 702,
+    label = "C4H9O3-1 + H2O2 <=> C4H10O3-1 + HO2-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.15913, 'd13': 2.33924, 'd23': 1.20033},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 703,
+    label = "C2H4O2-1 + HO <=> H2O + C2H3O2-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.18973, 'd13': 2.50932, 'd23': 1.344},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 704,
+    label = "C4H8O-4 + HO2-1 <=> H2O2 + C4H7O-4",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.32705, 'd13': 2.50451, 'd23': 1.18567},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 705,
+    label = "C4H9O3-2 + HO2 <=> C4H10O3-2 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.14228, 'd13': 2.37343, 'd23': 1.237},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 706,
+    label = "C4H10O-7 + CH3O <=> CH4O + C4H9O-7",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3546, 'd13': 2.54411, 'd23': 1.20057},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 707,
+    label = "CH4O + C3H7O2-1 <=> C3H8O2-1 + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.31492, 'd13': 2.52411, 'd23': 1.20983},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 708,
+    label = "C4H10O-8 + CH3O-1 <=> CH4O-1 + C4H9O-8",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.21085, 'd13': 2.52587, 'd23': 1.31884},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 709,
+    label = "C4H10O-5 + O2 <=> HO2 + C4H9O-5",
+    degeneracy = 36,
+    distances = DistanceData(
+        distances = {'d12': 1.56254, 'd13': 2.62781, 'd23': 1.06983},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 710,
+    label = "C4H10-2 + C4H9 <=> C4H10 + C4H9-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30237, 'd13': 2.69707, 'd23': 1.39687},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 711,
+    label = "C2H5O3 + CH2O <=> C2H6O3 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.30262, 'd13': 2.50952, 'd23': 1.23375},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 712,
+    label = "C4H8O-5 + H <=> H2 + C4H7O-5",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.23797, 'd13': 2.30767, 'd23': 1.07312},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 713,
+    label = "C4H10O-11 + CH3O <=> CH4O + C4H9O-11",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.39211, 'd13': 2.7005, 'd23': 1.31742},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 714,
+    label = "C2H4O-3 + CH3 <=> CH4 + C2H3O-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.179, 'd13': 2.50383, 'd23': 1.33028},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 715,
+    label = "C4H10 + CH3O2 <=> CH4O2 + C4H9",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.34575, 'd13': 2.51703, 'd23': 1.17563},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 716,
+    label = "C4H8O-6 + HO <=> H2O + C4H7O-6",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.18852, 'd13': 2.51422, 'd23': 1.3522},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 717,
+    label = "C4H9O3-3 + H2O2 <=> C4H10O3-3 + HO2-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.18621, 'd13': 2.33583, 'd23': 1.16367},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 718,
+    label = "C4H10O-3 + CH3O2 <=> CH4O2 + C4H9O-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29131, 'd13': 2.35508, 'd23': 1.07627},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 719,
+    label = "C4H10O-1 + CH3 <=> CH4 + C4H9O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23177, 'd13': 2.48667, 'd23': 1.2616},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 720,
+    label = "C2H6 + C4H9O2 <=> C4H10O2 + C2H5",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.35101, 'd13': 2.51344, 'd23': 1.1649},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 721,
+    label = "C4H9O2-2 + CH2O <=> C4H10O2-2 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.3138, 'd13': 2.50293, 'd23': 1.2206},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 722,
+    label = "C4H10O-12 + CH3O2 <=> CH4O2 + C4H9O-12",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.289, 'd13': 2.35144, 'd23': 1.07655},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 723,
+    label = "C4H8O-5 + O <=> HO-1 + C4H7O-5",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.16705, 'd13': 2.60424, 'd23': 1.49674},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 724,
+    label = "C4H8O-2 + HO <=> H2O + C4H7O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.13985, 'd13': 2.73101, 'd23': 1.66881},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 725,
+    label = "C4H8O-7 + C2H5 <=> C2H6 + C4H7O-7",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.30349, 'd13': 2.68906, 'd23': 1.39075},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 726,
+    label = "C4H8O + CH3O2 <=> CH4O2 + C4H7O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.35257, 'd13': 2.50215, 'd23': 1.16999},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 727,
+    label = "C4H10 + C2H3O3 <=> C2H4O3 + C4H9",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.28781, 'd13': 2.51429, 'd23': 1.23203},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 728,
+    label = "C2H4O2-1 + HO2-1 <=> H2O2 + C2H3O2-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.35568, 'd13': 2.50829, 'd23': 1.16276},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 729,
+    label = "C2H4O2-2 + H <=> H2 + C2H3O2-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32147, 'd13': 2.29595, 'd23': 0.97553},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 730,
+    label = "C4H8O-4 + CH3O2 <=> CH4O2 + C4H7O-4",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.363, 'd13': 2.51388, 'd23': 1.16052},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 731,
+    label = "C3H6O-1 + CH3O2 <=> CH4O2 + C3H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29837, 'd13': 2.52349, 'd23': 1.24567},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 732,
+    label = "C3H6O-2 + CH3 <=> CH4 + C3H5O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34703, 'd13': 2.67071, 'd23': 1.32482},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 733,
+    label = "C4H10O-7 + HO <=> H2O + C4H9O-7",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.05914, 'd13': 2.255, 'd23': 1.29438},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 734,
+    label = "C4H10O-1 + HO2-1 <=> H2O2 + C4H9O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25222, 'd13': 2.33214, 'd23': 1.09648},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 735,
+    label = "C3H6O-2 + H <=> H2 + C3H5O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.39335, 'd13': 2.29131, 'd23': 0.898102},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 736,
+    label = "C4H10O-4 + CH3O <=> CH4O + C4H9O-4",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.40795, 'd13': 2.70647, 'd23': 1.30244},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 737,
+    label = "CH3O2 + C2H4O-1 <=> CH4O2 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29978, 'd13': 2.52368, 'd23': 1.24399},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 738,
+    label = "C4H10O + O <=> HO-1 + C4H9O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.27958, 'd13': 2.50958, 'd23': 1.23479},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 739,
+    label = "C4H8-3 + H <=> H2 + C4H7-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.26072, 'd13': 2.28979, 'd23': 1.03036},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 740,
+    label = "C2H6O + HO <=> H2O + C2H5O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.14482, 'd13': 2.59898, 'd23': 1.53008},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 741,
+    label = "CH2-1 + H <=> H2 + CH",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.45402, 'd13': 2.25662, 'd23': 0.823648},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 742,
+    label = "CH2O + C3H5O3 <=> C3H6O3 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.24689, 'd13': 2.55044, 'd23': 1.31131},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 743,
+    label = "C3H8 + HO <=> H2O + C3H7",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.1636, 'd13': 2.58203, 'd23': 1.43006},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 744,
+    label = "C2H4O-2 + CH3 <=> CH4 + C2H3O-2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.31996, 'd13': 2.66462, 'd23': 1.35367},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 745,
+    label = "CH3O2 + CH2O <=> CH4O2 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.28644, 'd13': 2.50143, 'd23': 1.25819},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 746,
+    label = "C2H4O-2 + HO2-1 <=> H2O2 + C2H3O-2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.3576, 'd13': 2.46923, 'd23': 1.15135},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 747,
+    label = "C4H6-2 + CH3 <=> CH4 + C4H5-2",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.26602, 'd13': 2.7064, 'd23': 1.4409},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 748,
+    label = "C4H10O-9 + CH3 <=> CH4 + C4H9O-9",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.31226, 'd13': 2.68362, 'd23': 1.37373},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 749,
+    label = "C4H10O-10 + H <=> H2 + C4H9O-10",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.33531, 'd13': 2.27978, 'd23': 0.945076},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 750,
+    label = "C3H4O-1 + C4H9O2-2 <=> C4H10O2-2 + C3H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29003, 'd13': 2.53106, 'd23': 1.25859},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 751,
+    label = "C4H10O-5 + CH3 <=> CH4 + C4H9O-5",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.31788, 'd13': 2.69122, 'd23': 1.37493},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 752,
+    label = "C2H4O2-2 + CH3 <=> CH4 + C2H3O2-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30649, 'd13': 2.70146, 'd23': 1.39624},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 753,
+    label = "C3H4O-1 + CH3O-1 <=> CH4O-1 + C3H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.19229, 'd13': 2.5516, 'd23': 1.38276},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 754,
+    label = "H2 + C3H7O2-1 <=> C3H8O2-1 + H",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.00806, 'd13': 2.12085, 'd23': 1.11579},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 755,
+    label = "C4H10-3 + C2H5O-2 <=> C2H6O-2 + C4H9-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.2415, 'd13': 2.5083, 'd23': 1.27249},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 756,
+    label = "C2H4O2 + CH3 <=> CH4 + C2H3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26658, 'd13': 2.76299, 'd23': 1.49673},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 757,
+    label = "C4H10O-12 + CHO <=> CH2O + C4H9O-12",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.41203, 'd13': 2.56616, 'd23': 1.18724},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 758,
+    label = "C2H4O2-1 + CH3O-1 <=> CH4O-1 + C2H3O2-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.24533, 'd13': 2.49963, 'd23': 1.2632},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 759,
+    label = "C4H8O-8 + C2H5 <=> C2H6 + C4H7O-8",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.27923, 'd13': 2.69597, 'd23': 1.42849},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 760,
+    label = "C3H8-1 + CH3O-1 <=> CH4O-1 + C3H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.209, 'd13': 2.52811, 'd23': 1.32351},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 761,
+    label = "C4H7O-9 + CH2O <=> C4H8O-9 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.35515, 'd13': 2.71187, 'd23': 1.37831},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 762,
+    label = "C4H10-3 + H <=> H2 + C4H9-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.35943, 'd13': 2.27971, 'd23': 0.923213},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 763,
+    label = "C4H10O-2 + CHO <=> CH2O + C4H9O-2",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.44073, 'd13': 2.67447, 'd23': 1.29618},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 764,
+    label = "C2H5O3 + C2H4O-1 <=> C2H6O3 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26421, 'd13': 2.53207, 'd23': 1.29584},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 765,
+    label = "C4H10O-13 + H <=> H2 + C4H9O-13",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29884, 'd13': 2.27889, 'd23': 0.980083},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 766,
+    label = "C4H8-2 + HO <=> H2O + C4H7-2",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.15777, 'd13': 2.59631, 'd23': 1.46779},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 767,
+    label = "C2H4O-3 + O2 <=> HO2 + C2H3O-3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.29506, 'd13': 2.38434, 'd23': 1.11295},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 768,
+    label = "C4H8O + O2 <=> HO2 + C4H7O",
+    degeneracy = 12,
+    distances = DistanceData(
+        distances = {'d12': 1.57351, 'd13': 2.6273, 'd23': 1.06683},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 769,
+    label = "C4H10-3 + C2H5 <=> C2H6 + C4H9-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.34236, 'd13': 2.68247, 'd23': 1.3442},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 770,
+    label = "C3H4O-1 + HO <=> H2O + C3H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.14075, 'd13': 2.68618, 'd23': 1.61152},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 771,
+    label = "C4H10O-10 + O <=> HO-1 + C4H9O-10",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.2608, 'd13': 2.51552, 'd23': 1.25596},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 772,
+    label = "C4H10-2 + C2H3O3 <=> C2H4O3 + C4H9-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23972, 'd13': 2.53767, 'd23': 1.30185},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 773,
+    label = "C2H4O-2 + H <=> H2 + C2H3O-2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.35719, 'd13': 2.27789, 'd23': 0.923602},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 774,
+    label = "C3H4O-1 + H <=> H2 + C3H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2736, 'd13': 2.33744, 'd23': 1.06431},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 775,
+    label = "C4H9O2 + HO2 <=> C4H10O2 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.11669, 'd13': 2.38898, 'd23': 1.27233},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 776,
+    label = "C4H8O-1 + O <=> HO-1 + C4H7O-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.22398, 'd13': 2.52894, 'd23': 1.33706},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 777,
+    label = "C4H8-4 + HO <=> H2O + C4H7-4",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17108, 'd13': 2.53319, 'd23': 1.38566},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 778,
+    label = "C4H9O2-2 + C2H4O-1 <=> C4H10O2-2 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28434, 'd13': 2.53356, 'd23': 1.27035},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 779,
+    label = "C4H9O2-1 + C2H4O-1 <=> C4H10O2-1 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30065, 'd13': 2.53603, 'd23': 1.24038},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 780,
+    label = "C2H5O2 + HO2 <=> C2H6O2 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.08484, 'd13': 2.39177, 'd23': 1.33634},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 781,
+    label = "C4H10O-11 + CH3 <=> CH4 + C4H9O-11",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.31274, 'd13': 2.68299, 'd23': 1.37312},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 782,
+    label = "C4H10O-6 + HO <=> H2O + C4H9O-6",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.14646, 'd13': 2.57079, 'd23': 1.5442},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 783,
+    label = "C3H7O2-1 + C2H4O-1 <=> C3H8O2-1 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28334, 'd13': 2.52814, 'd23': 1.27133},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 784,
+    label = "CH4O + C2H5O2 <=> C2H6O2 + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.30384, 'd13': 2.48474, 'd23': 1.23424},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 785,
+    label = "HO2 + HO2-1 <=> H2O2 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.06982, 'd13': 2.39795, 'd23': 1.36481},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 786,
+    label = "C4H6O-2 + HO <=> H2O + C4H5O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1418, 'd13': 2.70928, 'd23': 1.59328},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 787,
+    label = "C2H4 + C4H9O2 <=> C4H10O2 + C2H3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.41954, 'd13': 2.51709, 'd23': 1.10655},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 788,
+    label = "C4H9O3-4 + HO2 <=> C4H10O3-4 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.08163, 'd13': 2.39802, 'd23': 1.34195},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 789,
+    label = "C4H10O-1 + C2H5 <=> C2H6 + C4H9O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27598, 'd13': 2.50681, 'd23': 1.23866},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 790,
+    label = "C3H7O2 + C4H10-3 <=> C3H8O2 + C4H9-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.3541, 'd13': 2.51345, 'd23': 1.16451},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 791,
+    label = "C4H10O-14 + H <=> H2 + C4H9O-14",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.29011, 'd13': 2.29229, 'd23': 1.00528},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 792,
+    label = "C4H6O-2 + C2H3 <=> C2H4 + C4H5O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24053, 'd13': 2.73086, 'd23': 1.51859},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 793,
+    label = "C4H10O-14 + CH3O-1 <=> CH4O-1 + C4H9O-14",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.18669, 'd13': 2.54893, 'd23': 1.3831},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 794,
+    label = "C4H10O + CH3O2 <=> CH4O2 + C4H9O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.35371, 'd13': 2.50879, 'd23': 1.1654},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 795,
+    label = "C4H10-1 + C2H5O-2 <=> C2H6O-2 + C4H9-1",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.21392, 'd13': 2.53079, 'd23': 1.32343},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 796,
+    label = "C3H5-2 + CHO-1 <=> C3H6-2 + CO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30943, 'd13': 2.75289, 'd23': 1.49264},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 797,
+    label = "C4H10O-9 + CHO <=> CH2O + C4H9O-9",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.44235, 'd13': 2.71438, 'd23': 1.29321},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 798,
+    label = "C4H10-3 + CH3O-1 <=> CH4O-1 + C4H9-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.23608, 'd13': 2.5064, 'd23': 1.27628},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 799,
+    label = "C4H10-1 + CH3 <=> CH4 + C4H9-1",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.28844, 'd13': 2.68745, 'd23': 1.40476},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 800,
+    label = "CH3-1 + HO <=> H2O + CH2",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.18, 'd13': 2.5, 'd23': 1.33485},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 801,
+    label = "C4H8O-10 + CH3O2 <=> CH4O2 + C4H7O-10",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27303, 'd13': 2.54642, 'd23': 1.29371},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 802,
+    label = "CH4O + C3H7O2 <=> C3H8O2 + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.31598, 'd13': 2.51976, 'd23': 1.20809},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 803,
+    label = "C4H10O-3 + O <=> HO-1 + C4H9O-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.14635, 'd13': 2.28948, 'd23': 1.17143},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 804,
+    label = "C3H6O + CH3O-1 <=> CH4O-1 + C3H5O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.24069, 'd13': 2.49865, 'd23': 1.27477},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 805,
+    label = "C2H6 + CH3O2 <=> CH4O2 + C2H5",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.35299, 'd13': 2.5134, 'd23': 1.16839},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 806,
+    label = "C4H8O-5 + HO <=> H2O + C4H7O-5",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.15241, 'd13': 2.6084, 'd23': 1.49733},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 807,
+    label = "C4H8O-9 + O2 <=> HO2 + C4H7O-9",
+    degeneracy = 12,
+    distances = DistanceData(
+        distances = {'d12': 1.47337, 'd13': 2.59445, 'd23': 1.13083},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 808,
+    label = "H2 + C4H9O2-1 <=> C4H10O2-1 + H",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.01377, 'd13': 2.12282, 'd23': 1.1112},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 809,
+    label = "C4H10O-14 + C2H5 <=> C2H6 + C4H9O-14",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.30699, 'd13': 2.70891, 'd23': 1.40356},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 810,
+    label = "C2H5O2 + CH2O <=> C2H6O2 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.28942, 'd13': 2.49994, 'd23': 1.25406},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 811,
+    label = "CH4 + C4H9O2-2 <=> C4H10O2-2 + CH3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.3866, 'd13': 2.5178, 'd23': 1.13447},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 813,
+    label = "C4H10O-9 + HO2-1 <=> H2O2 + C4H9O-9",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.33512, 'd13': 2.50583, 'd23': 1.17787},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 814,
+    label = "C4H10O-5 + CH3O <=> CH4O + C4H9O-5",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.40347, 'd13': 2.70052, 'd23': 1.30151},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 815,
+    label = "C2H4O-2 + HO <=> H2O + C2H3O-2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.16891, 'd13': 2.50908, 'd23': 1.38139},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 816,
+    label = "C3H6O-1 + HO <=> H2O + C3H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.14147, 'd13': 2.71181, 'd23': 1.66205},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 817,
+    label = "C3H7O2-1 + C3H6O-1 <=> C3H8O2-1 + C3H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30021, 'd13': 2.52497, 'd23': 1.24556},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 818,
+    label = "C4H10O-1 + O2 <=> HO2 + C4H9O-1",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.53092, 'd13': 2.52428, 'd23': 1.01808},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 819,
+    label = "C4H6O-1 + HO2-1 <=> H2O2 + C4H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26669, 'd13': 2.54523, 'd23': 1.29047},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 820,
+    label = "C2H4O2-1 + O <=> HO-1 + C2H3O2-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.27385, 'd13': 2.50444, 'd23': 1.2335},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 821,
+    label = "CH4O-1 + H <=> H2 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23461, 'd13': 2.09844, 'd23': 0.873731},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 822,
+    label = "C4H9O3-3 + HO2 <=> C4H10O3-3 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.07916, 'd13': 2.39776, 'd23': 1.34808},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 823,
+    label = "C4H10O-6 + CH3O <=> CH4O + C4H9O-6",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.34651, 'd13': 2.66961, 'd23': 1.3747},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 824,
+    label = "C2H4O2-1 + CHO <=> CH2O + C2H3O2-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.45775, 'd13': 2.69872, 'd23': 1.28637},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 825,
+    label = "C4H10O-5 + H <=> H2 + C4H9O-5",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.36764, 'd13': 2.28068, 'd23': 0.914925},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 826,
+    label = "CH2O + CHO3 <=> CH2O3 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.2316, 'd13': 2.52848, 'd23': 1.33458},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 827,
+    label = "C4H10O-10 + HO <=> H2O + C4H9O-10",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.1573, 'd13': 2.60218, 'd23': 1.46249},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 828,
+    label = "C4H10O-6 + CH3O2 <=> CH4O2 + C4H9O-6",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.29371, 'd13': 2.50005, 'd23': 1.24853},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 829,
+    label = "C4H10O-2 + HO <=> H2O + C4H9O-2",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.17582, 'd13': 2.53679, 'd23': 1.39936},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 830,
+    label = "C4H8O-7 + H <=> H2 + C4H7O-7",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.29094, 'd13': 2.26985, 'd23': 0.979885},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 831,
+    label = "C3H6-2 + O <=> HO-1 + C3H5-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30091, 'd13': 2.49294, 'd23': 1.19234},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 832,
+    label = "C3H6O-1 + C2H3 <=> C2H4 + C3H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24343, 'd13': 2.71571, 'd23': 1.50701},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 833,
+    label = "C3H7O2 + C4H8-2 <=> C3H8O2 + C4H7-2",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.31538, 'd13': 2.52809, 'd23': 1.22268},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 834,
+    label = "C4H9O2-3 + C2H6O <=> C4H10O2-3 + C2H5O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.30443, 'd13': 2.5108, 'd23': 1.23368},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 835,
+    label = "C4H10O-4 + CH3O2 <=> CH4O2 + C4H9O-4",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.35653, 'd13': 2.50658, 'd23': 1.16486},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 836,
+    label = "C4H10O-13 + CH3O <=> CH4O + C4H9O-13",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36863, 'd13': 2.68492, 'd23': 1.34196},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 837,
+    label = "C4H10O-15 + CH3O <=> CH4O + C4H9O-15",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.33303, 'd13': 2.71608, 'd23': 1.39269},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 838,
+    label = "C4H10O-1 + HO <=> H2O + C4H9O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.05935, 'd13': 2.25049, 'd23': 1.2879},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 839,
+    label = "C3H7O2-1 + C3H8-1 <=> C3H8O2-1 + C3H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.32838, 'd13': 2.51268, 'd23': 1.19173},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 840,
+    label = "C4H9O2-1 + HO2 <=> C4H10O2-1 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.09689, 'd13': 2.38639, 'd23': 1.31348},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 841,
+    label = "C2H6O-2 + CH3 <=> CH4 + C2H5O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23653, 'd13': 2.48666, 'd23': 1.2577},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 842,
+    label = "C4H10O-10 + O2 <=> HO2 + C4H9O-10",
+    degeneracy = 8,
+    distances = DistanceData(
+        distances = {'d12': 1.49718, 'd13': 2.59555, 'd23': 1.10499},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 843,
+    label = "C2H4 + C3H7O2 <=> C3H8O2 + C2H3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.43393, 'd13': 2.52118, 'd23': 1.10082},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 845,
+    label = "C4H10O-15 + C2H5 <=> C2H6 + C4H9O-15",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29195, 'd13': 2.71242, 'd23': 1.42299},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 846,
+    label = "C3H8 + O2 <=> HO2 + C3H7",
+    degeneracy = 24,
+    distances = DistanceData(
+        distances = {'d12': 1.56523, 'd13': 2.62937, 'd23': 1.07258},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 847,
+    label = "C2H4O2 + CH3O2 <=> CH4O2 + C2H3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27488, 'd13': 2.56453, 'd23': 1.2996},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 848,
+    label = "C4H10O-8 + O2 <=> HO2 + C4H9O-8",
+    degeneracy = 8,
+    distances = DistanceData(
+        distances = {'d12': 1.51982, 'd13': 2.59323, 'd23': 1.09198},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 849,
+    label = "C4H8O-8 + CH3O-1 <=> CH4O-1 + C4H7O-8",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.21797, 'd13': 2.51933, 'd23': 1.3229},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 850,
+    label = "C4H9O2-2 + HO2 <=> C4H10O2-2 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.08804, 'd13': 2.39271, 'd23': 1.32566},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 852,
+    label = "C4H9O2-3 + HO2 <=> C4H10O2-3 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.08662, 'd13': 2.39019, 'd23': 1.33126},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 853,
+    label = "C2H4O-1 + O <=> HO-1 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16596, 'd13': 2.64965, 'd23': 1.50715},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 854,
+    label = "C3H7O2-1 + C2H6 <=> C3H8O2-1 + C2H5",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.35591, 'd13': 2.51335, 'd23': 1.16563},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 855,
+    label = "C2H6O + CH3O2 <=> CH4O2 + C2H5O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.29639, 'd13': 2.52141, 'd23': 1.2395},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 856,
+    label = "C2H4O2-1 + H <=> H2 + C2H3O2-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.33024, 'd13': 2.27562, 'd23': 0.948716},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 857,
+    label = "C3H6-2 + HO <=> H2O + C3H5-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17461, 'd13': 2.52139, 'd23': 1.37148},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 858,
+    label = "C3H6O-1 + CH3 <=> CH4 + C3H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26562, 'd13': 2.76196, 'd23': 1.49667},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 859,
+    label = "C3H5O-2 + H2O2 <=> C3H6O-2 + HO2-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.15969, 'd13': 2.49905, 'd23': 1.34925},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 860,
+    label = "C4H10O-6 + O <=> HO-1 + C4H9O-6",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.19713, 'd13': 2.5725, 'd23': 1.37566},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 861,
+    label = "C3H4-1 + CH3 <=> CH4 + C3H3-2",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.27536, 'd13': 2.69577, 'd23': 1.42046},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 862,
+    label = "C3H7O2-1 + HO2 <=> C3H8O2-1 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.11453, 'd13': 2.38294, 'd23': 1.27129},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 863,
+    label = "H2O2 + C2H3O3 <=> C2H4O3 + HO2-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.11981, 'd13': 2.34343, 'd23': 1.23747},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 864,
+    label = "C4H8O-7 + HO2-1 <=> H2O2 + C4H7O-7",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.3681, 'd13': 2.48218, 'd23': 1.15881},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 865,
+    label = "C4H10O-15 + O2 <=> HO2 + C4H9O-15",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.45646, 'd13': 2.58815, 'd23': 1.13405},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 866,
+    label = "C4H9O2-1 + C2H6O <=> C4H10O2-1 + C2H5O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.29818, 'd13': 2.51782, 'd23': 1.23171},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 867,
+    label = "C4H10-2 + C2H5 <=> C2H6 + C4H9-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30122, 'd13': 2.69076, 'd23': 1.39149},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 868,
+    label = "C4H8O-8 + CH3O2 <=> CH4O2 + C4H7O-8",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.31808, 'd13': 2.51986, 'd23': 1.20664},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 869,
+    label = "C4H10O-12 + HO2-1 <=> H2O2 + C4H9O-12",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2712, 'd13': 2.34445, 'd23': 1.08808},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 870,
+    label = "C3H6O2 + CH3O2 <=> CH4O2 + C3H5O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27819, 'd13': 2.54622, 'd23': 1.28485},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 871,
+    label = "C4H8O-2 + O2 <=> HO2 + C4H7O-2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.43988, 'd13': 2.58202, 'd23': 1.15541},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 872,
+    label = "C4H8O-10 + CH3 <=> CH4 + C4H7O-10",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26491, 'd13': 2.756, 'd23': 1.4911},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 873,
+    label = "C3H6O-2 + HO <=> H2O + C3H5O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.20753, 'd13': 2.46728, 'd23': 1.30303},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 874,
+    label = "C4H10-3 + HO <=> H2O + C4H9-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.16134, 'd13': 2.58315, 'd23': 1.42809},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 875,
+    label = "C4H10O-3 + CH3O <=> CH4O + C4H9O-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.33781, 'd13': 2.54336, 'd23': 1.21096},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 876,
+    label = "C3H6-1 + HO <=> H2O + C3H5-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.19907, 'd13': 2.47989, 'd23': 1.30518},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 877,
+    label = "C2H5O2 + C4H10-3 <=> C2H6O2 + C4H9-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.3541, 'd13': 2.51405, 'd23': 1.1675},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 878,
+    label = "C3H6 + HO <=> H2O + C3H5",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.15273, 'd13': 2.62763, 'd23': 1.48312},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 879,
+    label = "HO + H2 <=> H2O + H",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 0.807698, 'd13': 2.1649, 'd23': 1.37764},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 880,
+    label = "HO2 + C3H5O3 <=> C3H6O3 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.09316, 'd13': 2.39726, 'd23': 1.32075},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 881,
+    label = "C4H10O-2 + CH3 <=> CH4 + C4H9O-2",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.30157, 'd13': 2.68434, 'd23': 1.3878},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 882,
+    label = "C4H6O-3 + H <=> H2 + C4H5O-3",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.23628, 'd13': 2.29327, 'd23': 1.05863},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 883,
+    label = "H2 + C4H9O2 <=> C4H10O2 + H",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.0094, 'd13': 2.12211, 'd23': 1.11523},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 884,
+    label = "C3H4O-1 + O <=> HO-1 + C3H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1779, 'd13': 2.65104, 'd23': 1.47913},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 885,
+    label = "CH3O2 + C3H8 <=> CH4O2 + C3H7",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.34409, 'd13': 2.51431, 'd23': 1.17458},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 886,
+    label = "C4H9O3-5 + H2O2 <=> C4H10O3-5 + HO2-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.18618, 'd13': 2.33512, 'd23': 1.16952},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 887,
+    label = "C4H10O-6 + CH3 <=> CH4 + C4H9O-6",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.27322, 'd13': 2.70814, 'd23': 1.44002},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 888,
+    label = "C2H4O2 + O2 <=> HO2 + C2H3O2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.4872, 'd13': 2.58069, 'd23': 1.1193},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 889,
+    label = "C4H9O2-3 + C2H4O-1 <=> C4H10O2-3 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28079, 'd13': 2.53443, 'd23': 1.27641},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 890,
+    label = "C4H9O2-1 + CH2O <=> C4H10O2-1 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.30994, 'd13': 2.52181, 'd23': 1.22256},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 891,
+    label = "C4H10-2 + O <=> HO-1 + C4H9-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2188, 'd13': 2.53735, 'd23': 1.32031},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 892,
+    label = "C4H10-1 + C2H3 <=> C2H4 + C4H9-1",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.26249, 'd13': 2.68204, 'd23': 1.43174},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 893,
+    label = "C4H10O-11 + H <=> H2 + C4H9O-11",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.3582, 'd13': 2.27817, 'd23': 0.923499},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 894,
+    label = "CH2O + CHO2 <=> CH2O2 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.14999, 'd13': 2.68023, 'd23': 1.576},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 895,
+    label = "C3H7O2 + CH2O <=> C3H8O2 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.31734, 'd13': 2.5013, 'd23': 1.21935},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 896,
+    label = "CH3 + C3H8 <=> CH4 + C3H7",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.31021, 'd13': 2.67991, 'd23': 1.37275},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 897,
+    label = "C4H10O-1 + CH3O-1 <=> CH4O-1 + C4H9O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.15584, 'd13': 2.27115, 'd23': 1.15614},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 898,
+    label = "C4H10O + HO <=> H2O + C4H9O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.18767, 'd13': 2.51643, 'd23': 1.36939},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 899,
+    label = "C3H6O2 + HO <=> H2O + C3H5O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.15497, 'd13': 2.66467, 'd23': 1.5552},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 900,
+    label = "C4H10O-3 + CH3O-1 <=> CH4O-1 + C4H9O-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.14744, 'd13': 2.27419, 'd23': 1.16826},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 901,
+    label = "C4H10O-5 + CH3O2 <=> CH4O2 + C4H9O-5",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.35041, 'd13': 2.51022, 'd23': 1.17148},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 902,
+    label = "C2H6O-3 + CH3O2 <=> CH4O2 + C2H5O-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.29704, 'd13': 2.51931, 'd23': 1.2412},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 903,
+    label = "C2H4O-1 + C2H3O3 <=> C2H4O3 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.20087, 'd13': 2.6059, 'd23': 1.40977},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 904,
+    label = "C4H10O-12 + O2 <=> HO2 + C4H9O-12",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.41804, 'd13': 2.45523, 'd23': 1.04166},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 905,
+    label = "C4H8O-8 + HO <=> H2O + C4H7O-8",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.16014, 'd13': 2.59174, 'd23': 1.45826},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 906,
+    label = "C4H9O3-6 + H2O2 <=> C4H10O3-6 + HO2-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.15004, 'd13': 2.33173, 'd23': 1.21074},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 907,
+    label = "C3H4O-1 + C3H7O2-1 <=> C3H8O2-1 + C3H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29485, 'd13': 2.55209, 'd23': 1.26097},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 908,
+    label = "C4H10O-11 + HO2-1 <=> H2O2 + C4H9O-11",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.33507, 'd13': 2.50829, 'd23': 1.18093},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 909,
+    label = "C4H9O3-7 + HO2 <=> C4H10O3-7 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.09299, 'd13': 2.39945, 'd23': 1.32444},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 910,
+    label = "O + H2 <=> HO-1 + H",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 0.92189, 'd13': 2.10094, 'd23': 1.17905},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 911,
+    label = "C4H6 + C3H5 <=> C3H6 + C4H5",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.48842, 'd13': 2.71449, 'd23': 1.22826},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 912,
+    label = "C3H6O-1 + C2H5 <=> C2H6 + C3H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29035, 'd13': 2.74376, 'd23': 1.46332},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 913,
+    label = "C4H8-1 + HO2-1 <=> H2O2 + C4H7-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.34299, 'd13': 2.50971, 'd23': 1.1709},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 914,
+    label = "C4H8O-7 + CH3 <=> CH4 + C4H7O-7",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.27588, 'd13': 2.69414, 'd23': 1.41879},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 915,
+    label = "C4H8O-10 + H <=> H2 + C4H7O-10",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25856, 'd13': 2.34255, 'd23': 1.08536},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 916,
+    label = "C3H6 + C3H7O2-1 <=> C3H8O2-1 + C3H5",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.30581, 'd13': 2.52855, 'd23': 1.22796},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 917,
+    label = "C4H8O-10 + O2 <=> HO2 + C4H7O-10",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.44221, 'd13': 2.57829, 'd23': 1.1508},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 918,
+    label = "C4H8O-7 + O2 <=> HO2 + C4H7O-7",
+    degeneracy = 12,
+    distances = DistanceData(
+        distances = {'d12': 1.56939, 'd13': 2.63396, 'd23': 1.07319},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 919,
+    label = "C4H10O-4 + CHO <=> CH2O + C4H9O-4",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.45833, 'd13': 2.73469, 'd23': 1.28557},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 920,
+    label = "C4H10O-14 + HO2-1 <=> H2O2 + C4H9O-14",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.29404, 'd13': 2.51707, 'd23': 1.23489},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 921,
+    label = "C4H8-1 + CH3O-1 <=> CH4O-1 + C4H7-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.23884, 'd13': 2.50371, 'd23': 1.2752},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 922,
+    label = "C4H10O + CH3O <=> CH4O + C4H9O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.40657, 'd13': 2.71161, 'd23': 1.31901},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 923,
+    label = "C4H8O-5 + O2 <=> HO2 + C4H7O-5",
+    degeneracy = 8,
+    distances = DistanceData(
+        distances = {'d12': 1.42347, 'd13': 2.58592, 'd23': 1.16932},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 924,
+    label = "C4H8O-1 + O2 <=> HO2 + C4H7O-1",
+    degeneracy = 8,
+    distances = DistanceData(
+        distances = {'d12': 1.4607, 'd13': 2.57921, 'd23': 1.14076},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 925,
+    label = "C4H10O-2 + CH3O2 <=> CH4O2 + C4H9O-2",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.34035, 'd13': 2.50849, 'd23': 1.18081},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 926,
+    label = "C2H4O-1 + H <=> H2 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26001, 'd13': 2.34131, 'd23': 1.08253},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 927,
+    label = "C4H10O-5 + CHO <=> CH2O + C4H9O-5",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.46101, 'd13': 2.70699, 'd23': 1.27771},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 928,
+    label = "CH4O + C4H9O2-2 <=> C4H10O2-2 + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.32293, 'd13': 2.50236, 'd23': 1.21507},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 929,
+    label = "C3H5-1 + CHO-1 <=> C3H6-1 + CO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30049, 'd13': 2.77114, 'd23': 1.53619},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 930,
+    label = "H2 + CH3O2 <=> CH4O2 + H",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.01507, 'd13': 2.12622, 'd23': 1.11372},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 931,
+    label = "C4H10O-13 + CH3 <=> CH4 + C4H9O-13",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28028, 'd13': 2.68985, 'd23': 1.41013},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 932,
+    label = "C4H6-2 + HO <=> H2O + C4H5-2",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.15474, 'd13': 2.60262, 'd23': 1.46972},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 933,
+    label = "C2H6O-2 + CH3O2 <=> CH4O2 + C2H5O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30442, 'd13': 2.36569, 'd23': 1.07889},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 934,
+    label = "C4H9O2-3 + C3H4O-1 <=> C4H10O2-3 + C3H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.31119, 'd13': 2.52486, 'd23': 1.23022},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 935,
+    label = "CH3 + C3H8-1 <=> CH4 + C3H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.28698, 'd13': 2.68593, 'd23': 1.4028},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 936,
+    label = "C4H10O-10 + CH3O-1 <=> CH4O-1 + C4H9O-10",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.22719, 'd13': 2.51447, 'd23': 1.32214},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 937,
+    label = "C4H10O-6 + O2 <=> HO2 + C4H9O-6",
+    degeneracy = 8,
+    distances = DistanceData(
+        distances = {'d12': 1.46443, 'd13': 2.5474, 'd23': 1.13526},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 938,
+    label = "C2H6O-1 + CH3 <=> CH4 + C2H5O-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.31356, 'd13': 2.68542, 'd23': 1.37606},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 939,
+    label = "C4H10O-10 + CH3 <=> CH4 + C4H9O-10",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.29289, 'd13': 2.69841, 'd23': 1.40938},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 940,
+    label = "C4H8-3 + HO2-1 <=> H2O2 + C4H7-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.28628, 'd13': 2.51947, 'd23': 1.25001},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 941,
+    label = "C4H10-3 + C3H5 <=> C3H6 + C4H9-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.42499, 'd13': 2.7033, 'd23': 1.28149},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 942,
+    label = "C4H8O-11 + CH3O2 <=> CH4O2 + C4H7O-11",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.32747, 'd13': 2.49557, 'd23': 1.19638},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 943,
+    label = "C4H10O-1 + O <=> HO-1 + C4H9O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.14834, 'd13': 2.277, 'd23': 1.16713},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 944,
+    label = "C3H5 + CHO-1 <=> C3H6 + CO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32319, 'd13': 2.78881, 'd23': 1.5043},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 945,
+    label = "C4H10O + HO2-1 <=> H2O2 + C4H9O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.33721, 'd13': 2.50867, 'd23': 1.17762},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 946,
+    label = "C4H8O-8 + C2H3 <=> C2H4 + C4H7O-8",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.23128, 'd13': 2.71312, 'd23': 1.48534},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 947,
+    label = "C4H10O + C2H5 <=> C2H6 + C4H9O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.35347, 'd13': 2.69186, 'd23': 1.34414},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 948,
+    label = "C3H4 + HO2-1 <=> H2O2 + C3H3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.31843, 'd13': 2.4989, 'd23': 1.1965},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 949,
+    label = "CH2O + C2H3O3 <=> C2H4O3 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.20961, 'd13': 2.56404, 'd23': 1.37366},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 950,
+    label = "C4H10O-2 + C2H5 <=> C2H6 + C4H9O-2",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.32618, 'd13': 2.68386, 'd23': 1.36621},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 951,
+    label = "C2H4O-1 + HO2-1 <=> H2O2 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25934, 'd13': 2.53339, 'd23': 1.29984},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 952,
+    label = "C4H10O-3 + HO2-1 <=> H2O2 + C4H9O-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2532, 'd13': 2.33626, 'd23': 1.09323},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 953,
+    label = "C4H9O2 + CH2O <=> C4H10O2 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.31177, 'd13': 2.50853, 'd23': 1.22092},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 954,
+    label = "C4H10O-5 + HO2-1 <=> H2O2 + C4H9O-5",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.33699, 'd13': 2.50353, 'd23': 1.17532},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 955,
+    label = "C2H4O2-2 + HO <=> H2O + C2H3O2-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16853, 'd13': 2.54799, 'd23': 1.42135},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 956,
+    label = "C4H10-1 + C2H5 <=> C2H6 + C4H9-1",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.31862, 'd13': 2.68991, 'd23': 1.37138},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 957,
+    label = "C4H10O-10 + HO2-1 <=> H2O2 + C4H9O-10",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.30366, 'd13': 2.51695, 'd23': 1.21951},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 958,
+    label = "C4H10-2 + C3H7O2 <=> C3H8O2 + C4H9-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.31316, 'd13': 2.51893, 'd23': 1.21},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 959,
+    label = "C4H10O-5 + C2H5 <=> C2H6 + C4H9O-5",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.35868, 'd13': 2.68265, 'd23': 1.3254},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 960,
+    label = "C4H9O2-3 + CH2O <=> C4H10O2-3 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.2898, 'd13': 2.49358, 'd23': 1.25582},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 961,
+    label = "C4H10O + H <=> H2 + C4H9O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.34796, 'd13': 2.27277, 'd23': 0.927414},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 962,
+    label = "C4H10O-7 + CHO <=> CH2O + C4H9O-7",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.38903, 'd13': 2.54948, 'd23': 1.19109},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 963,
+    label = "C4H9O3-6 + HO2 <=> C4H10O3-6 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.09478, 'd13': 2.38515, 'd23': 1.30961},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 964,
+    label = "C4H10O-7 + CH3 <=> CH4 + C4H9O-7",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23452, 'd13': 2.49263, 'd23': 1.26191},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 965,
+    label = "C4H8O-5 + CH3 <=> CH4 + C4H7O-5",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.24767, 'd13': 2.72231, 'd23': 1.47621},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 966,
+    label = "C4H9O2-3 + CH4 <=> C4H10O2-3 + CH3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.38889, 'd13': 2.51779, 'd23': 1.13136},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 967,
+    label = "C2H4 + CH3O2 <=> CH4O2 + C2H3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.42183, 'd13': 2.52073, 'd23': 1.10343},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 968,
+    label = "C4H9O3-8 + HO2 <=> C4H10O3-8 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.08253, 'd13': 2.39825, 'd23': 1.33858},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 969,
+    label = "C4H10O-8 + CH3O <=> CH4O + C4H9O-8",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.35958, 'd13': 2.67448, 'd23': 1.34207},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 970,
+    label = "C4H9O3-9 + H2O2 <=> C4H10O3-9 + HO2-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.20425, 'd13': 2.34294, 'd23': 1.15258},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 971,
+    label = "C4H9O3-10 + HO2 <=> C4H10O3-10 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.09861, 'd13': 2.38361, 'd23': 1.31318},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 972,
+    label = "C2H4 + C4H9O2-2 <=> C4H10O2-2 + C2H3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.42858, 'd13': 2.52254, 'd23': 1.09946},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 973,
+    label = "C4H10-1 + CH3O-1 <=> CH4O-1 + C4H9-1",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.21031, 'd13': 2.53403, 'd23': 1.32771},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 974,
+    label = "C4H10O-3 + CH3 <=> CH4 + C4H9O-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23289, 'd13': 2.50133, 'd23': 1.26869},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 975,
+    label = "C4H10-3 + HO2-1 <=> H2O2 + C4H9-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.32679, 'd13': 2.50796, 'd23': 1.18459},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 976,
+    label = "C4H8 + CH3O2 <=> CH4O2 + C4H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.29509, 'd13': 2.52782, 'd23': 1.2424},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 977,
+    label = "C4H7O-12 + HO2 <=> C4H8O-12 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1333, 'd13': 2.56875, 'd23': 1.45957},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 978,
+    label = "C3H6O2 + HO2-1 <=> H2O2 + C3H5O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25399, 'd13': 2.55695, 'd23': 1.31084},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 979,
+    label = "C4H8O-6 + CH3O2 <=> CH4O2 + C4H7O-6",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.35857, 'd13': 2.50237, 'd23': 1.16418},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 980,
+    label = "C4H10O-15 + CHO <=> CH2O + C4H9O-15",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37613, 'd13': 2.64885, 'd23': 1.37211},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 981,
+    label = "C4H10O-8 + H <=> H2 + C4H9O-8",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.31453, 'd13': 2.27258, 'd23': 0.959029},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 982,
+    label = "H2O2 + H <=> H2 + HO2-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.12485, 'd13': 2.11366, 'd23': 0.990426},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 983,
+    label = "C2H4 + C3H7O2-1 <=> C3H8O2-1 + C2H3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.43033, 'd13': 2.52035, 'd23': 1.10226},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 984,
+    label = "C2H6O-3 + CH3O-1 <=> CH4O-1 + C2H5O-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.20766, 'd13': 2.53137, 'd23': 1.35113},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 985,
+    label = "C4H10-3 + O2 <=> HO2 + C4H9-3",
+    degeneracy = 24,
+    distances = DistanceData(
+        distances = {'d12': 1.56293, 'd13': 2.62871, 'd23': 1.07171},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 986,
+    label = "C3H7O2 + C3H8-1 <=> C3H8O2 + C3H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.32793, 'd13': 2.51516, 'd23': 1.19611},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 987,
+    label = "C4H10-1 + H <=> H2 + C4H9-1",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.3196, 'd13': 2.27444, 'd23': 0.955954},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 988,
+    label = "C2H6O-3 + O <=> HO-1 + C2H5O-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.22174, 'd13': 2.55472, 'd23': 1.33586},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 989,
+    label = "C4H10O-6 + CH3O-1 <=> CH4O-1 + C4H9O-6",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.19038, 'd13': 2.54452, 'd23': 1.38028},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 991,
+    label = "C4H6-3 + H <=> H2 + C4H5-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.28061, 'd13': 2.27952, 'd23': 0.999636},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 992,
+    label = "C3H6O2 + CH3 <=> CH4 + C3H5O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26556, 'd13': 2.75661, 'd23': 1.4922},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 993,
+    label = "C2H4O2-2 + CH3O2 <=> CH4O2 + C2H3O2-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36693, 'd13': 2.5231, 'd23': 1.16193},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 994,
+    label = "C4H10O-11 + CHO <=> CH2O + C4H9O-11",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.44285, 'd13': 2.71311, 'd23': 1.29657},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 995,
+    label = "C4H10O-7 + CH3O-1 <=> CH4O-1 + C4H9O-7",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.15086, 'd13': 2.29068, 'd23': 1.16584},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 996,
+    label = "C4H8O-13 + HO2-1 <=> H2O2 + C4H7O-13",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.31835, 'd13': 2.50626, 'd23': 1.217},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 997,
+    label = "C4H10O-12 + HO <=> H2O + C4H9O-12",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.0531, 'd13': 2.26007, 'd23': 1.30501},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 998,
+    label = "H2 + C3H7O2 <=> C3H8O2 + H",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.01887, 'd13': 2.12665, 'd23': 1.11024},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 999,
+    label = "C2H6O-3 + CH3 <=> CH4 + C2H5O-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.28796, 'd13': 2.71002, 'd23': 1.42664},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1000,
+    label = "C4H10O-1 + CH3O <=> CH4O + C4H9O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.33784, 'd13': 2.53654, 'd23': 1.21541},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1001,
+    label = "C4H10O + CH3 <=> CH4 + C4H9O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.31635, 'd13': 2.68392, 'd23': 1.36984},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1002,
+    label = "C4H8O + HO <=> H2O + C4H7O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.16518, 'd13': 2.56858, 'd23': 1.40966},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1003,
+    label = "C4H10O-15 + CH3 <=> CH4 + C4H9O-15",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26178, 'd13': 2.71756, 'd23': 1.45758},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1004,
+    label = "C4H5-1 + CHO-1 <=> C4H6-1 + CO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29954, 'd13': 2.80022, 'd23': 1.53781},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1005,
+    label = "C4H10O-12 + H <=> H2 + C4H9O-12",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23941, 'd13': 2.10034, 'd23': 0.871113},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1006,
+    label = "C3H8 + CH3O-1 <=> CH4O-1 + C3H7",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.23272, 'd13': 2.50718, 'd23': 1.28306},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1007,
+    label = "C4H10O-14 + CH3 <=> CH4 + C4H9O-14",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.27533, 'd13': 2.70679, 'd23': 1.4364},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1008,
+    label = "C4H10O-15 + CH3O2 <=> CH4O2 + C4H9O-15",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28322, 'd13': 2.51574, 'd23': 1.25905},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1009,
+    label = "C4H7O-12 + H2 <=> C4H8O-12 + H",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.07618, 'd13': 2.29397, 'd23': 1.2313},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1010,
+    label = "H2 + C2H5O2 <=> C2H6O2 + H",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.01659, 'd13': 2.12599, 'd23': 1.11184},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1011,
+    label = "C4H10O-14 + HO <=> H2O + C4H9O-14",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.14536, 'd13': 2.58588, 'd23': 1.54892},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1012,
+    label = "C4H10O-7 + HO2-1 <=> H2O2 + C4H9O-7",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25555, 'd13': 2.3373, 'd23': 1.09068},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1013,
+    label = "C4H9O2-3 + C2H4 <=> C4H10O2-3 + C2H3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.42265, 'd13': 2.5205, 'd23': 1.1023},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1014,
+    label = "C4H10O-13 + CHO <=> CH2O + C4H9O-13",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.41975, 'd13': 2.69707, 'd23': 1.30847},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1015,
+    label = "C4H10O-7 + O2 <=> HO2 + C4H9O-7",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.39835, 'd13': 2.44543, 'd23': 1.05098},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1016,
+    label = "C2H4 + C2H3O3 <=> C2H4O3 + C2H3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.33398, 'd13': 2.49864, 'd23': 1.16508},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1017,
+    label = "C4H8O-5 + HO2-1 <=> H2O2 + C4H7O-5",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.275, 'd13': 2.53349, 'd23': 1.26865},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1018,
+    label = "C4H10O-2 + HO2-1 <=> H2O2 + C4H9O-2",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.32043, 'd13': 2.50781, 'd23': 1.19276},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1019,
+    label = "C4H8O-10 + CH3O-1 <=> CH4O-1 + C4H7O-10",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17745, 'd13': 2.58542, 'd23': 1.44159},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1020,
+    label = "C4H8O-5 + CH3O-1 <=> CH4O-1 + C4H7O-5",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.18098, 'd13': 2.5758, 'd23': 1.41822},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1021,
+    label = "C4H8O-8 + O <=> HO-1 + C4H7O-8",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.23553, 'd13': 2.52962, 'd23': 1.29447},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1022,
+    label = "C4H5 + CHO-1 <=> C4H6 + CO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25521, 'd13': 2.76963, 'd23': 1.59859},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1023,
+    label = "C4H8O-11 + HO2-1 <=> H2O2 + C4H7O-11",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.31281, 'd13': 2.49718, 'd23': 1.1999},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1024,
+    label = "C4H10O-7 + CH3O2 <=> CH4O2 + C4H9O-7",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30467, 'd13': 2.36666, 'd23': 1.07908},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1025,
+    label = "C4H8-2 + C3H5O-2 <=> C3H6O-2 + C4H7-2",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.25312, 'd13': 2.70359, 'd23': 1.45734},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1026,
+    label = "C4H10O-2 + O2 <=> HO2 + C4H9O-2",
+    degeneracy = 8,
+    distances = DistanceData(
+        distances = {'d12': 1.55451, 'd13': 2.62386, 'd23': 1.0781},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1027,
+    label = "C3H7O2-1 + C4H10-3 <=> C3H8O2-1 + C4H9-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.35624, 'd13': 2.51552, 'd23': 1.16547},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1028,
+    label = "CH2-1 + HO <=> H2O + CH",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.2311, 'd13': 2.37794, 'd23': 1.22474},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1029,
+    label = "C3H7O2 + C2H4O-1 <=> C3H8O2 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30919, 'd13': 2.51817, 'd23': 1.2345},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1030,
+    label = "C4H10O-6 + C2H5 <=> C2H6 + C4H9O-6",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.30122, 'd13': 2.69497, 'd23': 1.40539},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1031,
+    label = "C2H4O2-2 + HO2-1 <=> H2O2 + C2H3O2-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34471, 'd13': 2.50751, 'd23': 1.17531},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1032,
+    label = "C4H10-2 + HO2-1 <=> H2O2 + C4H9-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28943, 'd13': 2.50866, 'd23': 1.22674},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1033,
+    label = "C4H10O-5 + CH3O-1 <=> CH4O-1 + C4H9O-5",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.24162, 'd13': 2.48699, 'd23': 1.27844},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1034,
+    label = "C3H7O2-1 + C3H8 <=> C3H8O2-1 + C3H7",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.34574, 'd13': 2.5146, 'd23': 1.17304},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1035,
+    label = "C4H8O-10 + HO <=> H2O + C4H7O-10",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.14246, 'd13': 2.70542, 'd23': 1.60456},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1036,
+    label = "C4H10O-10 + CHO <=> CH2O + C4H9O-10",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.43974, 'd13': 2.68758, 'd23': 1.2988},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1037,
+    label = "C4H10O-10 + C2H5 <=> C2H6 + C4H9O-10",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.33093, 'd13': 2.67937, 'd23': 1.35734},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1038,
+    label = "C2H4 + C2H5O2 <=> C2H6O2 + C2H3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.43116, 'd13': 2.5206, 'd23': 1.10229},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1039,
+    label = "C4H8-5 + HO <=> H2O + C4H7-5",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.19721, 'd13': 2.49413, 'd23': 1.31847},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1040,
+    label = "C4H10O-15 + H <=> H2 + C4H9O-15",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26481, 'd13': 2.3015, 'd23': 1.03721},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1041,
+    label = "C4H9O2-3 + C3H6 <=> C4H10O2-3 + C3H5",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.30778, 'd13': 2.53141, 'd23': 1.23379},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1042,
+    label = "C4H6O-2 + O2 <=> HO2 + C4H5O-2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.49017, 'd13': 2.58521, 'd23': 1.11615},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1043,
+    label = "CH3O2 + C4H10-3 <=> CH4O2 + C4H9-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.34355, 'd13': 2.5146, 'd23': 1.17545},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1044,
+    label = "C4H8O-6 + HO2-1 <=> H2O2 + C4H7O-6",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.33772, 'd13': 2.50585, 'd23': 1.17041},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1045,
+    label = "H2 + C4H9O2-3 <=> C4H10O2-3 + H",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.01814, 'd13': 2.12652, 'd23': 1.1112},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1046,
+    label = "C3H6 + C4H9O2-2 <=> C4H10O2-2 + C3H5",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.31116, 'd13': 2.5306, 'd23': 1.22667},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1047,
+    label = "C4H10O-12 + CH3O-1 <=> CH4O-1 + C4H9O-12",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.15505, 'd13': 2.27108, 'd23': 1.15614},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1048,
+    label = "C4H7O-9 + H2 <=> C4H8O-9 + H",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.01, 'd13': 2.28365, 'd23': 1.27366},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1049,
+    label = "C4H7O-12 + CH2O <=> C4H8O-12 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.40298, 'd13': 2.69513, 'd23': 1.33397},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1050,
+    label = "C3H4O-1 + C4H9O2 <=> C4H10O2 + C3H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29053, 'd13': 2.51353, 'd23': 1.25917},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1051,
+    label = "C4H10O-13 + C2H5 <=> C2H6 + C4H9O-13",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3103, 'd13': 2.68782, 'd23': 1.37992},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1052,
+    label = "C4H9O3-7 + H2O2 <=> C4H10O3-7 + HO2-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.22544, 'd13': 2.34678, 'd23': 1.13778},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1053,
+    label = "C2H5O2 + C3H8-1 <=> C2H6O2 + C3H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.32723, 'd13': 2.51244, 'd23': 1.19313},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1054,
+    label = "C3H6O-1 + H <=> H2 + C3H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26009, 'd13': 2.34634, 'd23': 1.08886},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1055,
+    label = "C4H10O-3 + HO <=> H2O + C4H9O-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.05442, 'd13': 2.26832, 'd23': 1.30825},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1056,
+    label = "C4H8O-11 + HO <=> H2O + C4H7O-11",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.15016, 'd13': 2.61205, 'd23': 1.46456},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1057,
+    label = "C4H8O + HO2-1 <=> H2O2 + C4H7O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.33355, 'd13': 2.49963, 'd23': 1.17555},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1058,
+    label = "C2H5O2 + C3H8 <=> C2H6O2 + C3H7",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.35487, 'd13': 2.51702, 'd23': 1.17011},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1059,
+    label = "C2H3O3 + HO2 <=> C2H4O3 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.04679, 'd13': 2.44697, 'd23': 1.43493},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1060,
+    label = "C3H6O + CH3O2 <=> CH4O2 + C3H5O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.37155, 'd13': 2.5199, 'd23': 1.15243},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1061,
+    label = "C2H4O-4 + H <=> H2 + C2H3O-4",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.45036, 'd13': 2.31149, 'd23': 0.862239},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1062,
+    label = "C4H8O-2 + H <=> H2 + C4H7O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26095, 'd13': 2.34415, 'd23': 1.08576},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1063,
+    label = "C4H7O-14 + H2 <=> C4H8O-14 + H",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 0.872791, 'd13': 2.10379, 'd23': 1.24251},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1064,
+    label = "CH4O + HO2-1 <=> H2O2 + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.30736, 'd13': 2.4836, 'd23': 1.2125},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1065,
+    label = "CH2O + CH3O-1 <=> CH4O-1 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.19506, 'd13': 2.53818, 'd23': 1.37365},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1066,
+    label = "C3H6 + O2 <=> HO2 + C3H5",
+    degeneracy = 12,
+    distances = DistanceData(
+        distances = {'d12': 1.46469, 'd13': 2.59083, 'd23': 1.13646},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1067,
+    label = "C3H6O2 + CH3O-1 <=> CH4O-1 + C3H5O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.19173, 'd13': 2.55342, 'd23': 1.38655},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1068,
+    label = "C4H10O-6 + H <=> H2 + C4H9O-6",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.28274, 'd13': 2.29319, 'd23': 1.01097},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1069,
+    label = "H2 + C4H9O2-2 <=> C4H10O2-2 + H",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.01924, 'd13': 2.12727, 'd23': 1.11053},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1070,
+    label = "C4H10O-1 + H <=> H2 + C4H9O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23976, 'd13': 2.10337, 'd23': 0.871292},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1071,
+    label = "C2H4O + HO <=> H2O + C2H3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.18033, 'd13': 2.54266, 'd23': 1.38461},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1072,
+    label = "C4H10-2 + CH3O-1 <=> CH4O-1 + C4H9-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.19081, 'd13': 2.5513, 'd23': 1.36525},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1073,
+    label = "C2H4O2 + HO2-1 <=> H2O2 + C2H3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25358, 'd13': 2.56839, 'd23': 1.32625},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1074,
+    label = "C2H4O2-2 + O <=> HO-1 + C2H3O2-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26267, 'd13': 2.51893, 'd23': 1.25816},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1075,
+    label = "C4H6O-2 + HO2-1 <=> H2O2 + C4H5O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28127, 'd13': 2.50912, 'd23': 1.25734},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1076,
+    label = "C4H8O-14 + CHO <=> CH2O + C4H7O-14",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40266, 'd13': 2.55191, 'd23': 1.1911},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1073,
     label = "H2 + C3H3 <=> H + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -4448,7 +12172,7 @@ entry(
 )
 
 entry(
-    index = 371,
+    index = 1074,
     label = "H2O + C3H2 <=> C3H3-1 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -4460,7 +12184,7 @@ entry(
 )
 
 entry(
-    index = 372,
+    index = 1075,
     label = "H2O + C3H3 <=> HO + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -4472,7 +12196,7 @@ entry(
 )
 
 entry(
-    index = 373,
+    index = 1076,
     label = "C3H4 + O2 <=> HO2 + C3H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -4484,7 +12208,7 @@ entry(
 )
 
 entry(
-    index = 374,
+    index = 1077,
     label = "C6H6 + O2 <=> C6H5 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -4496,7 +12220,7 @@ entry(
 )
 
 entry(
-    index = 375,
+    index = 1078,
     label = "C6H6 + H <=> C6H5 + H2",
     degeneracy = 1,
     distances = DistanceData(
@@ -4508,7 +12232,7 @@ entry(
 )
 
 entry(
-    index = 376,
+    index = 1079,
     label = "H2O + C6H5 <=> C6H6 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -4520,7 +12244,7 @@ entry(
 )
 
 entry(
-    index = 377,
+    index = 1080,
     label = "C6H6 + HO2-1 <=> C6H5 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -4532,7 +12256,7 @@ entry(
 )
 
 entry(
-    index = 378,
+    index = 1081,
     label = "C6H6 + C3H3-2 <=> C6H5 + C3H4-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -4544,7 +12268,7 @@ entry(
 )
 
 entry(
-    index = 379,
+    index = 1082,
     label = "C6H6 + C3H3 <=> C6H5 + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -4556,7 +12280,7 @@ entry(
 )
 
 entry(
-    index = 380,
+    index = 1083,
     label = "C6H6 + C3H2 <=> C3H3-1 + C6H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -4568,7 +12292,7 @@ entry(
 )
 
 entry(
-    index = 381,
+    index = 1084,
     label = "C3H6 + HO2-1 <=> H2O2 + C3H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -4580,7 +12304,7 @@ entry(
 )
 
 entry(
-    index = 382,
+    index = 1085,
     label = "C6H6 + C3H5 <=> C6H5 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -4592,7 +12316,7 @@ entry(
 )
 
 entry(
-    index = 383,
+    index = 1086,
     label = "C6H8 + O2 <=> C6H7 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -4604,7 +12328,7 @@ entry(
 )
 
 entry(
-    index = 384,
+    index = 1087,
     label = "C6H8-1 + O2 <=> C6H7-1 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -4616,7 +12340,7 @@ entry(
 )
 
 entry(
-    index = 385,
+    index = 1088,
     label = "H2 + C6H7-1 <=> C6H8-1 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -4628,7 +12352,7 @@ entry(
 )
 
 entry(
-    index = 386,
+    index = 1089,
     label = "H2O2 + C6H7 <=> C6H8 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -4640,7 +12364,7 @@ entry(
 )
 
 entry(
-    index = 387,
+    index = 1090,
     label = "C3H4-1 + C6H7 <=> C6H8 + C3H3-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -4652,7 +12376,7 @@ entry(
 )
 
 entry(
-    index = 388,
+    index = 1091,
     label = "C3H4 + C6H7 <=> C6H8 + C3H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -4664,7 +12388,7 @@ entry(
 )
 
 entry(
-    index = 389,
+    index = 1092,
     label = "C3H4 + C6H7-1 <=> C6H8-1 + C3H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -4676,7 +12400,7 @@ entry(
 )
 
 entry(
-    index = 390,
+    index = 1093,
     label = "C3H6 + C6H7 <=> C6H8 + C3H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -4688,7 +12412,7 @@ entry(
 )
 
 entry(
-    index = 391,
+    index = 1094,
     label = "H2 + C6H7-2 <=> C6H8-2 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -4700,7 +12424,7 @@ entry(
 )
 
 entry(
-    index = 392,
+    index = 1095,
     label = "H2O + C6H7-2 <=> C6H8-2 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -4712,7 +12436,7 @@ entry(
 )
 
 entry(
-    index = 393,
+    index = 1096,
     label = "H2O2 + C6H7-2 <=> C6H8-2 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -4724,7 +12448,7 @@ entry(
 )
 
 entry(
-    index = 394,
+    index = 1097,
     label = "C3H4-1 + C6H7-2 <=> C6H8-2 + C3H3-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -4736,7 +12460,7 @@ entry(
 )
 
 entry(
-    index = 395,
+    index = 1098,
     label = "C3H4 + C6H7-2 <=> C6H8-2 + C3H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -4748,7 +12472,7 @@ entry(
 )
 
 entry(
-    index = 396,
+    index = 1099,
     label = "C2H4 + H <=> H2 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -4760,7 +12484,7 @@ entry(
 )
 
 entry(
-    index = 397,
+    index = 1100,
     label = "H2O + C2H3 <=> HO + C2H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -4772,7 +12496,7 @@ entry(
 )
 
 entry(
-    index = 398,
+    index = 1101,
     label = "C2H4 + O2 <=> HO2 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -4784,7 +12508,7 @@ entry(
 )
 
 entry(
-    index = 399,
+    index = 1102,
     label = "C2H4 + HO2-1 <=> H2O2 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -4796,7 +12520,7 @@ entry(
 )
 
 entry(
-    index = 400,
+    index = 1103,
     label = "C6H6 + C2H3 <=> C6H5 + C2H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -4808,7 +12532,7 @@ entry(
 )
 
 entry(
-    index = 401,
+    index = 1104,
     label = "C2H4 + C6H7 <=> C6H8 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -4820,7 +12544,7 @@ entry(
 )
 
 entry(
-    index = 402,
+    index = 1105,
     label = "C2H4 + C6H7-1 <=> C6H8-1 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -4832,7 +12556,7 @@ entry(
 )
 
 entry(
-    index = 403,
+    index = 1106,
     label = "C2H4 + C6H7-2 <=> C6H8-2 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -4844,7 +12568,7 @@ entry(
 )
 
 entry(
-    index = 404,
+    index = 1107,
     label = "C3H4 + C3H5 <=> C3H3 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -4856,7 +12580,7 @@ entry(
 )
 
 entry(
-    index = 405,
+    index = 1108,
     label = "C2H4 + C3H3 <=> C3H4 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -4868,7 +12592,7 @@ entry(
 )
 
 entry(
-    index = 406,
+    index = 1109,
     label = "C3H4-1 + C3H5 <=> C3H3-2 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -4880,7 +12604,7 @@ entry(
 )
 
 entry(
-    index = 407,
+    index = 1110,
     label = "C2H2 + C6H5 <=> C2H + C6H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -4892,7 +12616,7 @@ entry(
 )
 
 entry(
-    index = 408,
+    index = 1111,
     label = "C2H2 + C6H7-1 <=> C2H + C6H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -4904,7 +12628,7 @@ entry(
 )
 
 entry(
-    index = 409,
+    index = 1112,
     label = "C2H2 + C6H7 <=> C2H + C6H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -4916,7 +12640,7 @@ entry(
 )
 
 entry(
-    index = 410,
+    index = 1113,
     label = "C2H2 + C2H3 <=> C2H + C2H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -4928,7 +12652,7 @@ entry(
 )
 
 entry(
-    index = 411,
+    index = 1114,
     label = "C3H6-1 + O2 <=> HO2 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -4940,7 +12664,7 @@ entry(
 )
 
 entry(
-    index = 412,
+    index = 1115,
     label = "C3H6-1 + HO2-1 <=> H2O2 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -4952,7 +12676,7 @@ entry(
 )
 
 entry(
-    index = 413,
+    index = 1116,
     label = "C6H6 + C3H5-1 <=> C6H5 + C3H6-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -4964,7 +12688,7 @@ entry(
 )
 
 entry(
-    index = 414,
+    index = 1117,
     label = "C3H6-1 + C6H7 <=> C6H8 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -4976,7 +12700,7 @@ entry(
 )
 
 entry(
-    index = 415,
+    index = 1118,
     label = "C3H6-1 + C6H7-2 <=> C6H8-2 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -4988,7 +12712,7 @@ entry(
 )
 
 entry(
-    index = 416,
+    index = 1119,
     label = "C3H6-1 + C3H3 <=> C3H4 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -5000,7 +12724,7 @@ entry(
 )
 
 entry(
-    index = 417,
+    index = 1120,
     label = "C2H2 + C3H5-1 <=> C2H + C3H6-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -5012,7 +12736,7 @@ entry(
 )
 
 entry(
-    index = 418,
+    index = 1121,
     label = "C3H6-2 + O2 <=> HO2 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5024,7 +12748,7 @@ entry(
 )
 
 entry(
-    index = 419,
+    index = 1122,
     label = "C3H6-2 + HO2-1 <=> H2O2 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5036,7 +12760,7 @@ entry(
 )
 
 entry(
-    index = 420,
+    index = 1123,
     label = "C6H6 + C3H5-2 <=> C6H5 + C3H6-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5048,7 +12772,7 @@ entry(
 )
 
 entry(
-    index = 421,
+    index = 1124,
     label = "C3H6-2 + C6H7-1 <=> C6H8-1 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5060,7 +12784,7 @@ entry(
 )
 
 entry(
-    index = 422,
+    index = 1125,
     label = "C3H6-2 + C6H7-2 <=> C6H8-2 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5072,7 +12796,7 @@ entry(
 )
 
 entry(
-    index = 423,
+    index = 1126,
     label = "C3H6-2 + C3H3 <=> C3H4 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5084,7 +12808,7 @@ entry(
 )
 
 entry(
-    index = 424,
+    index = 1127,
     label = "H2 + CH3 <=> H + CH4",
     degeneracy = 1,
     distances = DistanceData(
@@ -5096,7 +12820,7 @@ entry(
 )
 
 entry(
-    index = 425,
+    index = 1128,
     label = "H2O + CH3 <=> HO + CH4",
     degeneracy = 1,
     distances = DistanceData(
@@ -5108,7 +12832,7 @@ entry(
 )
 
 entry(
-    index = 426,
+    index = 1129,
     label = "CH4 + O2 <=> HO2 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -5120,7 +12844,7 @@ entry(
 )
 
 entry(
-    index = 427,
+    index = 1130,
     label = "C6H6 + CH3 <=> C6H5 + CH4",
     degeneracy = 1,
     distances = DistanceData(
@@ -5132,7 +12856,7 @@ entry(
 )
 
 entry(
-    index = 428,
+    index = 1131,
     label = "CH4 + C6H7-2 <=> C6H8-2 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -5144,7 +12868,7 @@ entry(
 )
 
 entry(
-    index = 429,
+    index = 1132,
     label = "C3H8 + HO2-1 <=> H2O2 + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -5156,7 +12880,7 @@ entry(
 )
 
 entry(
-    index = 430,
+    index = 1133,
     label = "C3H8 + C6H7-2 <=> C6H8-2 + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -5168,7 +12892,7 @@ entry(
 )
 
 entry(
-    index = 431,
+    index = 1134,
     label = "C3H8 + C3H3 <=> C3H4 + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -5180,7 +12904,7 @@ entry(
 )
 
 entry(
-    index = 432,
+    index = 1135,
     label = "C3H8-1 + HO2-1 <=> H2O2 + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -5192,7 +12916,7 @@ entry(
 )
 
 entry(
-    index = 433,
+    index = 1136,
     label = "C3H8-1 + C6H7 <=> C6H8 + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -5204,7 +12928,7 @@ entry(
 )
 
 entry(
-    index = 434,
+    index = 1137,
     label = "C3H8-1 + C6H7-1 <=> C6H8-1 + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -5216,7 +12940,7 @@ entry(
 )
 
 entry(
-    index = 435,
+    index = 1138,
     label = "C3H8-1 + C3H3 <=> C3H4 + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -5228,7 +12952,7 @@ entry(
 )
 
 entry(
-    index = 436,
+    index = 1139,
     label = "C2H2 + C3H7-1 <=> C2H + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -5240,7 +12964,7 @@ entry(
 )
 
 entry(
-    index = 437,
+    index = 1140,
     label = "C3H6-1 + C3H5 <=> C3H5-1 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -5252,7 +12976,7 @@ entry(
 )
 
 entry(
-    index = 438,
+    index = 1141,
     label = "C3H6-2 + C3H5 <=> C3H5-2 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -5264,7 +12988,7 @@ entry(
 )
 
 entry(
-    index = 439,
+    index = 1142,
     label = "C3H6-1 + C2H3 <=> C3H5-1 + C2H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -5276,7 +13000,7 @@ entry(
 )
 
 entry(
-    index = 440,
+    index = 1143,
     label = "C2H4 + C3H5-2 <=> C3H6-2 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -5288,7 +13012,7 @@ entry(
 )
 
 entry(
-    index = 441,
+    index = 1144,
     label = "C2H4 + C3H5 <=> C3H6 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -5300,7 +13024,7 @@ entry(
 )
 
 entry(
-    index = 442,
+    index = 1145,
     label = "C3H6-1 + C3H5-2 <=> C3H6-2 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -5312,7 +13036,7 @@ entry(
 )
 
 entry(
-    index = 443,
+    index = 1146,
     label = "C3H6-1 + C3H7 <=> C3H5-1 + C3H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -5324,7 +13048,7 @@ entry(
 )
 
 entry(
-    index = 444,
+    index = 1147,
     label = "C3H6-2 + C3H7 <=> C3H5-2 + C3H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -5336,7 +13060,7 @@ entry(
 )
 
 entry(
-    index = 445,
+    index = 1148,
     label = "C3H8-1 + C3H5 <=> C3H6 + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -5348,7 +13072,7 @@ entry(
 )
 
 entry(
-    index = 446,
+    index = 1149,
     label = "C2H4 + C3H7 <=> C2H3 + C3H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -5360,7 +13084,7 @@ entry(
 )
 
 entry(
-    index = 447,
+    index = 1150,
     label = "C2H4 + C3H7-1 <=> C2H3 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -5372,7 +13096,7 @@ entry(
 )
 
 entry(
-    index = 448,
+    index = 1151,
     label = "C2H2O + O2 <=> C2HO + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5384,7 +13108,7 @@ entry(
 )
 
 entry(
-    index = 449,
+    index = 1152,
     label = "H2O + C2HO <=> C2H2O + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -5396,7 +13120,7 @@ entry(
 )
 
 entry(
-    index = 450,
+    index = 1153,
     label = "C2H2O + HO2-1 <=> C2HO + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5408,7 +13132,7 @@ entry(
 )
 
 entry(
-    index = 451,
+    index = 1154,
     label = "C2H2O + C3H5 <=> C2HO + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -5420,7 +13144,7 @@ entry(
 )
 
 entry(
-    index = 452,
+    index = 1155,
     label = "C2H2O + C6H7-1 <=> C2HO + C6H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -5432,7 +13156,7 @@ entry(
 )
 
 entry(
-    index = 453,
+    index = 1156,
     label = "C2H2O + C6H7-2 <=> C2HO + C6H8-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5444,7 +13168,7 @@ entry(
 )
 
 entry(
-    index = 454,
+    index = 1157,
     label = "C2H2O + C6H7 <=> C2HO + C6H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -5456,7 +13180,7 @@ entry(
 )
 
 entry(
-    index = 455,
+    index = 1158,
     label = "C2H2O + CH3 <=> C2HO + CH4",
     degeneracy = 1,
     distances = DistanceData(
@@ -5468,7 +13192,7 @@ entry(
 )
 
 entry(
-    index = 456,
+    index = 1159,
     label = "C2H2O + C3H7 <=> C2HO + C3H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -5480,7 +13204,7 @@ entry(
 )
 
 entry(
-    index = 457,
+    index = 1160,
     label = "C2H2O + C3H7-1 <=> C2HO + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -5492,7 +13216,7 @@ entry(
 )
 
 entry(
-    index = 458,
+    index = 1161,
     label = "CH2O + O2 <=> CHO + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5504,7 +13228,7 @@ entry(
 )
 
 entry(
-    index = 459,
+    index = 1162,
     label = "C7H14O + CHO <=> CH2O + C7H13O",
     degeneracy = 1,
     distances = DistanceData(
@@ -5516,7 +13240,7 @@ entry(
 )
 
 entry(
-    index = 460,
+    index = 1163,
     label = "C7H14O-1 + CHO <=> CH2O + C7H13O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -5528,7 +13252,7 @@ entry(
 )
 
 entry(
-    index = 461,
+    index = 1164,
     label = "CH2O + HO2-1 <=> CHO + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5540,7 +13264,7 @@ entry(
 )
 
 entry(
-    index = 462,
+    index = 1165,
     label = "C3H4 + CHO <=> CH2O + C3H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -5552,7 +13276,7 @@ entry(
 )
 
 entry(
-    index = 463,
+    index = 1166,
     label = "C6H6 + CHO <=> CH2O + C6H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -5564,7 +13288,7 @@ entry(
 )
 
 entry(
-    index = 464,
+    index = 1167,
     label = "CH2O + C6H7-1 <=> CHO + C6H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -5576,7 +13300,7 @@ entry(
 )
 
 entry(
-    index = 465,
+    index = 1168,
     label = "CH2O + C6H7-2 <=> CHO + C6H8-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5588,7 +13312,7 @@ entry(
 )
 
 entry(
-    index = 466,
+    index = 1169,
     label = "CH2O + C6H7 <=> CHO + C6H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -5600,7 +13324,7 @@ entry(
 )
 
 entry(
-    index = 467,
+    index = 1170,
     label = "C3H6-2 + CHO <=> CH2O + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5612,7 +13336,7 @@ entry(
 )
 
 entry(
-    index = 468,
+    index = 1171,
     label = "CH4 + CHO <=> CH2O + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -5624,7 +13348,7 @@ entry(
 )
 
 entry(
-    index = 469,
+    index = 1172,
     label = "C3H8-1 + CHO <=> CH2O + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -5636,7 +13360,7 @@ entry(
 )
 
 entry(
-    index = 470,
+    index = 1173,
     label = "CH4O + O2 <=> CH3O + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5648,7 +13372,7 @@ entry(
 )
 
 entry(
-    index = 471,
+    index = 1174,
     label = "H2O + CH3O <=> CH4O + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -5660,7 +13384,7 @@ entry(
 )
 
 entry(
-    index = 472,
+    index = 1175,
     label = "C6H6 + CH3O <=> CH4O + C6H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -5672,7 +13396,7 @@ entry(
 )
 
 entry(
-    index = 473,
+    index = 1176,
     label = "CH4O + C3H5 <=> CH3O + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -5684,7 +13408,7 @@ entry(
 )
 
 entry(
-    index = 474,
+    index = 1177,
     label = "CH4O + C6H7-1 <=> CH3O + C6H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -5696,7 +13420,7 @@ entry(
 )
 
 entry(
-    index = 475,
+    index = 1178,
     label = "CH4O + C6H7-2 <=> CH3O + C6H8-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5708,7 +13432,7 @@ entry(
 )
 
 entry(
-    index = 476,
+    index = 1179,
     label = "CH4O + C6H7 <=> CH3O + C6H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -5720,7 +13444,7 @@ entry(
 )
 
 entry(
-    index = 477,
+    index = 1180,
     label = "C2H4 + CH3O <=> CH4O + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -5732,7 +13456,7 @@ entry(
 )
 
 entry(
-    index = 478,
+    index = 1181,
     label = "C3H6-2 + CH3O <=> CH4O + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5744,7 +13468,7 @@ entry(
 )
 
 entry(
-    index = 479,
+    index = 1182,
     label = "CH4 + CH3O <=> CH4O + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -5756,7 +13480,7 @@ entry(
 )
 
 entry(
-    index = 480,
+    index = 1183,
     label = "C3H8 + CH3O <=> CH4O + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -5768,7 +13492,7 @@ entry(
 )
 
 entry(
-    index = 481,
+    index = 1184,
     label = "C3H8-1 + CH3O <=> CH4O + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -5780,7 +13504,7 @@ entry(
 )
 
 entry(
-    index = 482,
+    index = 1185,
     label = "CH3-1 + C7H13O-1 <=> C7H14O-1 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5792,7 +13516,7 @@ entry(
 )
 
 entry(
-    index = 483,
+    index = 1186,
     label = "CH3-1 + H <=> H2 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5804,7 +13528,7 @@ entry(
 )
 
 entry(
-    index = 484,
+    index = 1187,
     label = "CH3-1 + O2 <=> HO2 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5816,7 +13540,7 @@ entry(
 )
 
 entry(
-    index = 485,
+    index = 1188,
     label = "CH3-1 + C6H7-2 <=> C6H8-2 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5828,7 +13552,7 @@ entry(
 )
 
 entry(
-    index = 486,
+    index = 1189,
     label = "CH3-1 + C3H3-2 <=> C3H4-1 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5840,7 +13564,7 @@ entry(
 )
 
 entry(
-    index = 487,
+    index = 1190,
     label = "C2H2 + C3H2 <=> C2H + C3H3-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -5852,7 +13576,7 @@ entry(
 )
 
 entry(
-    index = 488,
+    index = 1191,
     label = "HO-1 + CH3 <=> CH4 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -5864,7 +13588,7 @@ entry(
 )
 
 entry(
-    index = 489,
+    index = 1192,
     label = "C2H6O + O2 <=> C2H5O + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5876,7 +13600,7 @@ entry(
 )
 
 entry(
-    index = 490,
+    index = 1193,
     label = "HO-1 + C2H5O-1 <=> C2H6O-1 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -5888,7 +13612,7 @@ entry(
 )
 
 entry(
-    index = 491,
+    index = 1194,
     label = "H2O + C2H5O-1 <=> C2H6O-1 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -5900,7 +13624,7 @@ entry(
 )
 
 entry(
-    index = 492,
+    index = 1195,
     label = "H2O + C2H5O-2 <=> C2H6O-2 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -5912,7 +13636,7 @@ entry(
 )
 
 entry(
-    index = 493,
+    index = 1196,
     label = "C2H6O-1 + HO2-1 <=> C2H5O-1 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5924,7 +13648,7 @@ entry(
 )
 
 entry(
-    index = 494,
+    index = 1197,
     label = "C2H6O-2 + HO2-1 <=> C2H5O-2 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -5936,7 +13660,7 @@ entry(
 )
 
 entry(
-    index = 495,
+    index = 1198,
     label = "C2H6O + C3H3-2 <=> C2H5O + C3H4-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -5948,7 +13672,7 @@ entry(
 )
 
 entry(
-    index = 496,
+    index = 1199,
     label = "C2H6O-1 + C3H3 <=> C2H5O-1 + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -5960,7 +13684,7 @@ entry(
 )
 
 entry(
-    index = 497,
+    index = 1200,
     label = "C2H6O + C3H3 <=> C2H5O + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -5972,7 +13696,7 @@ entry(
 )
 
 entry(
-    index = 498,
+    index = 1201,
     label = "C6H6 + C2H5O <=> C2H6O + C6H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -5984,7 +13708,7 @@ entry(
 )
 
 entry(
-    index = 499,
+    index = 1202,
     label = "C2H6O-1 + C3H5 <=> C2H5O-1 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -5996,7 +13720,7 @@ entry(
 )
 
 entry(
-    index = 500,
+    index = 1203,
     label = "C2H6O + C3H5 <=> C2H5O + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -6008,7 +13732,7 @@ entry(
 )
 
 entry(
-    index = 501,
+    index = 1204,
     label = "C2H6O-2 + C3H5 <=> C2H5O-2 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -6020,7 +13744,7 @@ entry(
 )
 
 entry(
-    index = 502,
+    index = 1205,
     label = "C2H6O + C6H7-1 <=> C2H5O + C6H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -6032,7 +13756,7 @@ entry(
 )
 
 entry(
-    index = 503,
+    index = 1206,
     label = "C2H6O-1 + C6H7-2 <=> C2H5O-1 + C6H8-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -6044,7 +13768,7 @@ entry(
 )
 
 entry(
-    index = 504,
+    index = 1207,
     label = "C2H6O + C6H7-2 <=> C2H5O + C6H8-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -6056,7 +13780,7 @@ entry(
 )
 
 entry(
-    index = 505,
+    index = 1208,
     label = "C2H6O-1 + C6H7 <=> C2H5O-1 + C6H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -6068,7 +13792,7 @@ entry(
 )
 
 entry(
-    index = 506,
+    index = 1209,
     label = "C2H6O + C6H7 <=> C2H5O + C6H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -6080,7 +13804,7 @@ entry(
 )
 
 entry(
-    index = 507,
+    index = 1210,
     label = "C2H4 + C2H5O <=> C2H6O + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -6092,7 +13816,7 @@ entry(
 )
 
 entry(
-    index = 508,
+    index = 1211,
     label = "C3H6-1 + C2H5O-1 <=> C2H6O-1 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -6104,7 +13828,7 @@ entry(
 )
 
 entry(
-    index = 509,
+    index = 1212,
     label = "C3H6-1 + C2H5O-2 <=> C2H6O-2 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -6116,7 +13840,7 @@ entry(
 )
 
 entry(
-    index = 510,
+    index = 1213,
     label = "C3H6-2 + C2H5O <=> C2H6O + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -6128,7 +13852,7 @@ entry(
 )
 
 entry(
-    index = 511,
+    index = 1214,
     label = "C3H6-2 + C2H5O-2 <=> C2H6O-2 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -6140,7 +13864,7 @@ entry(
 )
 
 entry(
-    index = 512,
+    index = 1215,
     label = "C2H6O-1 + C3H7 <=> C2H5O-1 + C3H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -6152,7 +13876,7 @@ entry(
 )
 
 entry(
-    index = 513,
+    index = 1216,
     label = "C3H8 + C2H5O <=> C2H6O + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -6164,7 +13888,7 @@ entry(
 )
 
 entry(
-    index = 514,
+    index = 1217,
     label = "C2H6O-1 + C3H7-1 <=> C2H5O-1 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -6176,7 +13900,7 @@ entry(
 )
 
 entry(
-    index = 515,
+    index = 1218,
     label = "C2H6O-2 + C3H7-1 <=> C2H5O-2 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -6188,7 +13912,7 @@ entry(
 )
 
 entry(
-    index = 516,
+    index = 1219,
     label = "CH3-1 + C2H5O-2 <=> C2H6O-2 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -6200,7 +13924,7 @@ entry(
 )
 
 entry(
-    index = 517,
+    index = 1220,
     label = "C2H6O-1 + C3H2 <=> C2H5O-1 + C3H3-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -6212,7 +13936,7 @@ entry(
 )
 
 entry(
-    index = 518,
+    index = 1221,
     label = "C2H2 + C2H5O <=> C2H + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -6224,7 +13948,7 @@ entry(
 )
 
 entry(
-    index = 519,
+    index = 1222,
     label = "C2H2O + C2H5O <=> C2HO + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -6236,7 +13960,7 @@ entry(
 )
 
 entry(
-    index = 520,
+    index = 1223,
     label = "C2H6O + CHO <=> CH2O + C2H5O",
     degeneracy = 1,
     distances = DistanceData(
@@ -6248,7 +13972,7 @@ entry(
 )
 
 entry(
-    index = 521,
+    index = 1224,
     label = "CH4O + C2H5O <=> CH3O + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -6260,7 +13984,7 @@ entry(
 )
 
 entry(
-    index = 522,
+    index = 1225,
     label = "C2H6O-1 + C2H5O <=> C2H5O-1 + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -6272,7 +13996,7 @@ entry(
 )
 
 entry(
-    index = 523,
+    index = 1226,
     label = "C2H6O-2 + C2H5O <=> C2H5O-2 + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -6284,7 +14008,7 @@ entry(
 )
 
 entry(
-    index = 524,
+    index = 1227,
     label = "C2H2 + C2H5O-1 <=> C2H + C2H6O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -6296,7 +14020,7 @@ entry(
 )
 
 entry(
-    index = 525,
+    index = 1228,
     label = "C2H2O + C2H5O-1 <=> C2HO + C2H6O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -6308,7 +14032,7 @@ entry(
 )
 
 entry(
-    index = 526,
+    index = 1229,
     label = "C2H6O-1 + CHO <=> CH2O + C2H5O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -6320,7 +14044,7 @@ entry(
 )
 
 entry(
-    index = 527,
+    index = 1230,
     label = "C2H6O-1 + CH3O <=> CH4O + C2H5O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -6332,7 +14056,7 @@ entry(
 )
 
 entry(
-    index = 528,
+    index = 1231,
     label = "C2H2O + C2H5O-2 <=> C2HO + C2H6O-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -6344,7 +14068,7 @@ entry(
 )
 
 entry(
-    index = 529,
+    index = 1232,
     label = "C2H6O-2 + CHO <=> CH2O + C2H5O-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -6356,7 +14080,7 @@ entry(
 )
 
 entry(
-    index = 530,
+    index = 1233,
     label = "H2 + C2H3O <=> C2H4O + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -6368,7 +14092,7 @@ entry(
 )
 
 entry(
-    index = 531,
+    index = 1234,
     label = "HO-1 + C2H3O <=> C2H4O + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -6380,7 +14104,7 @@ entry(
 )
 
 entry(
-    index = 532,
+    index = 1235,
     label = "C2H4O + C3H3 <=> C2H3O + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -6392,7 +14116,7 @@ entry(
 )
 
 entry(
-    index = 533,
+    index = 1236,
     label = "C3H4 + C2H3O-1 <=> C2H4O-1 + C3H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -6404,7 +14128,7 @@ entry(
 )
 
 entry(
-    index = 534,
+    index = 1237,
     label = "C2H4O + C3H5 <=> C2H3O + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -6416,7 +14140,7 @@ entry(
 )
 
 entry(
-    index = 535,
+    index = 1238,
     label = "C2H4O-1 + C3H5 <=> C2H3O-1 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -6428,7 +14152,7 @@ entry(
 )
 
 entry(
-    index = 536,
+    index = 1239,
     label = "C3H6-1 + C2H3O-1 <=> C2H4O-1 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -6440,7 +14164,7 @@ entry(
 )
 
 entry(
-    index = 537,
+    index = 1240,
     label = "C3H6-2 + C2H3O-1 <=> C2H4O-1 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -6452,7 +14176,7 @@ entry(
 )
 
 entry(
-    index = 538,
+    index = 1241,
     label = "C3H8-1 + C2H3O <=> C2H4O + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -6464,7 +14188,7 @@ entry(
 )
 
 entry(
-    index = 539,
+    index = 1242,
     label = "C2H4O + C2H5O <=> C2H3O + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -6476,7 +14200,7 @@ entry(
 )
 
 entry(
-    index = 540,
+    index = 1243,
     label = "C2H6O + C2H3O-1 <=> C2H4O-1 + C2H5O",
     degeneracy = 1,
     distances = DistanceData(
@@ -6488,7 +14212,7 @@ entry(
 )
 
 entry(
-    index = 541,
+    index = 1244,
     label = "C2H6O-1 + C2H3O <=> C2H4O + C2H5O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -6500,7 +14224,7 @@ entry(
 )
 
 entry(
-    index = 542,
+    index = 1245,
     label = "C2H6O-1 + C2H3O-1 <=> C2H4O-1 + C2H5O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -6512,7 +14236,7 @@ entry(
 )
 
 entry(
-    index = 543,
+    index = 1246,
     label = "C2H6O-2 + C2H3O <=> C2H4O + C2H5O-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -6524,7 +14248,7 @@ entry(
 )
 
 entry(
-    index = 544,
+    index = 1247,
     label = "C2H6O-2 + C2H3O-1 <=> C2H4O-1 + C2H5O-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -6536,7 +14260,7 @@ entry(
 )
 
 entry(
-    index = 545,
+    index = 1248,
     label = "C2H2O + C2H3O-1 <=> C2HO + C2H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -6548,7 +14272,7 @@ entry(
 )
 
 entry(
-    index = 546,
+    index = 1249,
     label = "C2H4O + C2H3O-1 <=> C2H3O + C2H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -6560,7 +14284,7 @@ entry(
 )
 
 entry(
-    index = 547,
+    index = 1250,
     label = "C2H2 + C2H3O <=> C2H + C2H4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -6572,7 +14296,7 @@ entry(
 )
 
 entry(
-    index = 548,
+    index = 1251,
     label = "C2H4O + CHO <=> CH2O + C2H3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -6584,7 +14308,7 @@ entry(
 )
 
 entry(
-    index = 549,
+    index = 1252,
     label = "C2H4O + CH3O <=> CH4O + C2H3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -6596,7 +14320,7 @@ entry(
 )
 
 entry(
-    index = 550,
+    index = 1253,
     label = "H2 + C2H5 <=> H + C2H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -6608,7 +14332,7 @@ entry(
 )
 
 entry(
-    index = 551,
+    index = 1254,
     label = "H2O + C2H5 <=> HO + C2H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -6620,7 +14344,7 @@ entry(
 )
 
 entry(
-    index = 552,
+    index = 1255,
     label = "C2H6 + HO2-1 <=> H2O2 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -6632,7 +14356,7 @@ entry(
 )
 
 entry(
-    index = 553,
+    index = 1256,
     label = "C2H6 + C6H7-2 <=> C6H8-2 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -6644,7 +14368,7 @@ entry(
 )
 
 entry(
-    index = 554,
+    index = 1257,
     label = "C2H6 + C3H3 <=> C3H4 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -6656,7 +14380,7 @@ entry(
 )
 
 entry(
-    index = 555,
+    index = 1258,
     label = "C2H2 + C2H5 <=> C2H + C2H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -6668,7 +14392,7 @@ entry(
 )
 
 entry(
-    index = 556,
+    index = 1259,
     label = "C3H6-1 + C2H5 <=> C3H5-1 + C2H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -6680,7 +14404,7 @@ entry(
 )
 
 entry(
-    index = 557,
+    index = 1260,
     label = "C2H4 + C2H5 <=> C2H3 + C2H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -6692,7 +14416,7 @@ entry(
 )
 
 entry(
-    index = 558,
+    index = 1261,
     label = "C2H6 + CHO <=> CH2O + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -6704,7 +14428,7 @@ entry(
 )
 
 entry(
-    index = 559,
+    index = 1262,
     label = "C2H6 + CH3O <=> CH4O + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -6716,7 +14440,7 @@ entry(
 )
 
 entry(
-    index = 560,
+    index = 1263,
     label = "C2H6O-1 + C2H5 <=> C2H5O-1 + C2H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -6728,7 +14452,7 @@ entry(
 )
 
 entry(
-    index = 561,
+    index = 1264,
     label = "C2H6 + C2H5O <=> C2H6O + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -6740,7 +14464,7 @@ entry(
 )
 
 entry(
-    index = 562,
+    index = 1265,
     label = "C2H6 + C2H3O-1 <=> C2H4O-1 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -6752,7 +14476,7 @@ entry(
 )
 
 entry(
-    index = 563,
+    index = 1266,
     label = "C3H8 + C2H5 <=> C2H6 + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -6764,7 +14488,7 @@ entry(
 )
 
 entry(
-    index = 564,
+    index = 1267,
     label = "C2H6 + C3H7-1 <=> C2H5 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -6776,7 +14500,7 @@ entry(
 )
 
 entry(
-    index = 565,
+    index = 1268,
     label = "C2H2O + C2O <=> C2HO-1 + C2HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -6788,7 +14512,7 @@ entry(
 )
 
 entry(
-    index = 566,
+    index = 1269,
     label = "C2H4 + C2O <=> C2HO-1 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -6800,7 +14524,7 @@ entry(
 )
 
 entry(
-    index = 567,
+    index = 1270,
     label = "C3H6-1 + C2O <=> C2HO-1 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -6812,7 +14536,7 @@ entry(
 )
 
 entry(
-    index = 568,
+    index = 1271,
     label = "CH4 + C2O <=> C2HO-1 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -6824,7 +14548,7 @@ entry(
 )
 
 entry(
-    index = 569,
+    index = 1272,
     label = "C2H2 + CH3O <=> C2H + CH4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -6836,7 +14560,7 @@ entry(
 )
 
 entry(
-    index = 570,
+    index = 1273,
     label = "CH4O + CHO <=> CH2O + CH3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -6848,7 +14572,7 @@ entry(
 )
 
 entry(
-    index = 571,
+    index = 1274,
     label = "CH3-1 + C3H7 <=> C3H8 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -6860,7 +14584,7 @@ entry(
 )
 
 entry(
-    index = 572,
+    index = 1275,
     label = "C3H4-1 + C3H3O <=> C3H4O + C3H3-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -6872,7 +14596,7 @@ entry(
 )
 
 entry(
-    index = 573,
+    index = 1276,
     label = "C6H6 + C3H3O <=> C3H4O + C6H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -6884,7 +14608,7 @@ entry(
 )
 
 entry(
-    index = 574,
+    index = 1277,
     label = "C3H4O + C3H5 <=> C3H3O + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -6896,7 +14620,7 @@ entry(
 )
 
 entry(
-    index = 575,
+    index = 1278,
     label = "C2H4 + C3H3O <=> C3H4O + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -6908,7 +14632,7 @@ entry(
 )
 
 entry(
-    index = 576,
+    index = 1279,
     label = "CH4 + C3H3O <=> C3H4O + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -6920,7 +14644,7 @@ entry(
 )
 
 entry(
-    index = 577,
+    index = 1280,
     label = "C2H6O + C3H3O <=> C3H4O + C2H5O",
     degeneracy = 1,
     distances = DistanceData(
@@ -6932,7 +14656,7 @@ entry(
 )
 
 entry(
-    index = 578,
+    index = 1281,
     label = "C2H6O-2 + C3H3O <=> C3H4O + C2H5O-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -6944,7 +14668,7 @@ entry(
 )
 
 entry(
-    index = 579,
+    index = 1282,
     label = "C3H4O + C2H3O-1 <=> C3H3O + C2H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -6956,7 +14680,7 @@ entry(
 )
 
 entry(
-    index = 580,
+    index = 1283,
     label = "C2H2 + C3H3O <=> C3H4O + C2H",
     degeneracy = 1,
     distances = DistanceData(
@@ -6968,7 +14692,7 @@ entry(
 )
 
 entry(
-    index = 581,
+    index = 1284,
     label = "C3H4O + CHO <=> C3H3O + CH2O",
     degeneracy = 1,
     distances = DistanceData(
@@ -6980,7 +14704,7 @@ entry(
 )
 
 entry(
-    index = 582,
+    index = 1285,
     label = "C3H4O-1 + HO2-1 <=> H2O2 + C3H3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -6992,7 +14716,7 @@ entry(
 )
 
 entry(
-    index = 583,
+    index = 1286,
     label = "C3H4O-1 + C6H7-1 <=> C6H8-1 + C3H3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7004,7 +14728,7 @@ entry(
 )
 
 entry(
-    index = 584,
+    index = 1287,
     label = "C3H4O-1 + C6H7-2 <=> C6H8-2 + C3H3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7016,7 +14740,7 @@ entry(
 )
 
 entry(
-    index = 585,
+    index = 1288,
     label = "C3H4 + C3H3O-1 <=> C3H3 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7028,7 +14752,7 @@ entry(
 )
 
 entry(
-    index = 586,
+    index = 1289,
     label = "C3H6-2 + C3H3O-1 <=> C3H5-2 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7040,7 +14764,7 @@ entry(
 )
 
 entry(
-    index = 587,
+    index = 1290,
     label = "C2H4 + C3H3O-1 <=> C2H3 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7052,7 +14776,7 @@ entry(
 )
 
 entry(
-    index = 588,
+    index = 1291,
     label = "C3H4O-1 + CHO <=> CH2O + C3H3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7064,7 +14788,7 @@ entry(
 )
 
 entry(
-    index = 589,
+    index = 1292,
     label = "CH4O + C3H3O-1 <=> CH3O + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7076,7 +14800,7 @@ entry(
 )
 
 entry(
-    index = 590,
+    index = 1293,
     label = "C2H6O-1 + C3H3O-1 <=> C2H5O-1 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7088,7 +14812,7 @@ entry(
 )
 
 entry(
-    index = 591,
+    index = 1294,
     label = "C2H6 + C3H3O-1 <=> C2H5 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7100,7 +14824,7 @@ entry(
 )
 
 entry(
-    index = 592,
+    index = 1295,
     label = "C3H8 + C3H3O-1 <=> C3H7 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7112,7 +14836,7 @@ entry(
 )
 
 entry(
-    index = 593,
+    index = 1296,
     label = "C4H4 + H <=> H2 + C4H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -7124,7 +14848,7 @@ entry(
 )
 
 entry(
-    index = 594,
+    index = 1297,
     label = "C4H4 + C6H7-1 <=> C6H8-1 + C4H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -7136,7 +14860,7 @@ entry(
 )
 
 entry(
-    index = 595,
+    index = 1298,
     label = "C4H4 + C3H7 <=> C3H8 + C4H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -7148,7 +14872,7 @@ entry(
 )
 
 entry(
-    index = 596,
+    index = 1299,
     label = "C4H4 + C3H7-1 <=> C3H8-1 + C4H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -7160,7 +14884,7 @@ entry(
 )
 
 entry(
-    index = 597,
+    index = 1300,
     label = "H2 + C4H3-1 <=> H + C4H4-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7172,7 +14896,7 @@ entry(
 )
 
 entry(
-    index = 598,
+    index = 1301,
     label = "C4H4-1 + C6H7-1 <=> C6H8-1 + C4H3-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7184,7 +14908,7 @@ entry(
 )
 
 entry(
-    index = 599,
+    index = 1302,
     label = "C4H4-1 + C3H5 <=> C3H6 + C4H3-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7196,7 +14920,7 @@ entry(
 )
 
 entry(
-    index = 600,
+    index = 1303,
     label = "C4H4-1 + CH3O <=> CH4O + C4H3-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7208,7 +14932,7 @@ entry(
 )
 
 entry(
-    index = 601,
+    index = 1304,
     label = "C4H4-1 + C2H5O <=> C2H6O + C4H3-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7220,7 +14944,7 @@ entry(
 )
 
 entry(
-    index = 602,
+    index = 1305,
     label = "C4H4-1 + C2H3O-1 <=> C2H4O-1 + C4H3-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7232,7 +14956,7 @@ entry(
 )
 
 entry(
-    index = 603,
+    index = 1306,
     label = "H2 + C7H13O3 <=> C7H14O3 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -7244,7 +14968,7 @@ entry(
 )
 
 entry(
-    index = 604,
+    index = 1307,
     label = "C3H6-2 + C4H7O3 <=> C3H5-2 + C4H8O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -7256,7 +14980,7 @@ entry(
 )
 
 entry(
-    index = 605,
+    index = 1308,
     label = "C4H8O3 + CHO <=> CH2O + C4H7O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -7268,7 +14992,7 @@ entry(
 )
 
 entry(
-    index = 606,
+    index = 1309,
     label = "C4H6O + O2 <=> C4H5O + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -7280,7 +15004,7 @@ entry(
 )
 
 entry(
-    index = 607,
+    index = 1310,
     label = "H2 + C4H5O <=> C4H6O + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -7292,7 +15016,7 @@ entry(
 )
 
 entry(
-    index = 608,
+    index = 1311,
     label = "HO-1 + C4H5O <=> C4H6O + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -7304,7 +15028,7 @@ entry(
 )
 
 entry(
-    index = 609,
+    index = 1312,
     label = "H2O + C4H5O <=> C4H6O + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -7316,7 +15040,7 @@ entry(
 )
 
 entry(
-    index = 610,
+    index = 1313,
     label = "C3H4-1 + C4H5O <=> C4H6O + C3H3-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -7328,7 +15052,7 @@ entry(
 )
 
 entry(
-    index = 611,
+    index = 1314,
     label = "C3H4 + C4H5O <=> C4H6O + C3H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -7340,7 +15064,7 @@ entry(
 )
 
 entry(
-    index = 612,
+    index = 1315,
     label = "C2H4 + C4H5O <=> C4H6O + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -7352,7 +15076,7 @@ entry(
 )
 
 entry(
-    index = 613,
+    index = 1316,
     label = "C3H6-2 + C4H5O <=> C4H6O + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -7364,7 +15088,7 @@ entry(
 )
 
 entry(
-    index = 614,
+    index = 1317,
     label = "C2H4O + C4H5O <=> C4H6O + C2H3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -7376,7 +15100,7 @@ entry(
 )
 
 entry(
-    index = 615,
+    index = 1318,
     label = "CH2O + C4H5O <=> C4H6O + CHO",
     degeneracy = 1,
     distances = DistanceData(
@@ -7388,7 +15112,7 @@ entry(
 )
 
 entry(
-    index = 616,
+    index = 1319,
     label = "C4H4 + C4H5O <=> C4H6O + C4H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -7400,7 +15124,7 @@ entry(
 )
 
 entry(
-    index = 617,
+    index = 1320,
     label = "H2 + C4H5O3 <=> H + C4H6O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -7412,7 +15136,7 @@ entry(
 )
 
 entry(
-    index = 618,
+    index = 1321,
     label = "C4H6O3 + C3H3O-1 <=> C3H4O-1 + C4H5O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -7424,7 +15148,7 @@ entry(
 )
 
 entry(
-    index = 619,
+    index = 1322,
     label = "H2 + C3H5O <=> C3H6O + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -7436,7 +15160,7 @@ entry(
 )
 
 entry(
-    index = 620,
+    index = 1323,
     label = "HO-1 + C3H5O <=> C3H6O + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -7448,7 +15172,7 @@ entry(
 )
 
 entry(
-    index = 621,
+    index = 1324,
     label = "H2O + C3H5O <=> C3H6O + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -7460,7 +15184,7 @@ entry(
 )
 
 entry(
-    index = 622,
+    index = 1325,
     label = "C3H6O + C3H3-2 <=> C3H5O + C3H4-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7472,7 +15196,7 @@ entry(
 )
 
 entry(
-    index = 623,
+    index = 1326,
     label = "C3H6O + C3H3 <=> C3H5O + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -7484,7 +15208,7 @@ entry(
 )
 
 entry(
-    index = 624,
+    index = 1327,
     label = "C3H6O + C3H5 <=> C3H5O + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -7496,7 +15220,7 @@ entry(
 )
 
 entry(
-    index = 625,
+    index = 1328,
     label = "C2H4 + C3H5O <=> C3H6O + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -7508,7 +15232,7 @@ entry(
 )
 
 entry(
-    index = 626,
+    index = 1329,
     label = "C3H8 + C3H5O <=> C3H6O + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -7520,7 +15244,7 @@ entry(
 )
 
 entry(
-    index = 627,
+    index = 1330,
     label = "C3H8-1 + C3H5O <=> C3H6O + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7532,7 +15256,7 @@ entry(
 )
 
 entry(
-    index = 628,
+    index = 1331,
     label = "C3H6O + C2H5O <=> C3H5O + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -7544,7 +15268,7 @@ entry(
 )
 
 entry(
-    index = 629,
+    index = 1332,
     label = "C2H6O-1 + C3H5O <=> C3H6O + C2H5O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7556,7 +15280,7 @@ entry(
 )
 
 entry(
-    index = 630,
+    index = 1333,
     label = "C3H6O + C2H3O-1 <=> C3H5O + C2H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7568,7 +15292,7 @@ entry(
 )
 
 entry(
-    index = 631,
+    index = 1334,
     label = "C3H6O + C2H3O <=> C3H5O + C2H4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -7580,7 +15304,7 @@ entry(
 )
 
 entry(
-    index = 632,
+    index = 1335,
     label = "C2H2O + C3H5O <=> C3H6O + C2HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -7592,7 +15316,7 @@ entry(
 )
 
 entry(
-    index = 633,
+    index = 1336,
     label = "C3H6O + CH3O <=> C3H5O + CH4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -7604,7 +15328,7 @@ entry(
 )
 
 entry(
-    index = 634,
+    index = 1337,
     label = "C2H2 + C3H5O <=> C3H6O + C2H",
     degeneracy = 1,
     distances = DistanceData(
@@ -7616,7 +15340,7 @@ entry(
 )
 
 entry(
-    index = 635,
+    index = 1338,
     label = "C3H6O + C3H3O <=> C3H5O + C3H4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -7628,7 +15352,7 @@ entry(
 )
 
 entry(
-    index = 636,
+    index = 1339,
     label = "C3H6O + C3H3O-1 <=> C3H5O + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7640,7 +15364,7 @@ entry(
 )
 
 entry(
-    index = 637,
+    index = 1340,
     label = "C4H6 + CH3 <=> C4H5 + CH4",
     degeneracy = 1,
     distances = DistanceData(
@@ -7652,7 +15376,7 @@ entry(
 )
 
 entry(
-    index = 638,
+    index = 1341,
     label = "C4H6-1 + C3H5 <=> C4H5-1 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -7664,7 +15388,7 @@ entry(
 )
 
 entry(
-    index = 639,
+    index = 1342,
     label = "C3H6 + C5H7 <=> C5H8 + C3H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -7676,7 +15400,7 @@ entry(
 )
 
 entry(
-    index = 640,
+    index = 1343,
     label = "H2 + C5H7 <=> H + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -7688,7 +15412,7 @@ entry(
 )
 
 entry(
-    index = 641,
+    index = 1344,
     label = "C2H4 + C5H7 <=> C2H3 + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -7700,7 +15424,7 @@ entry(
 )
 
 entry(
-    index = 642,
+    index = 1345,
     label = "C3H6-2 + C5H7 <=> C3H5-2 + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -7712,7 +15436,7 @@ entry(
 )
 
 entry(
-    index = 643,
+    index = 1346,
     label = "C3H4 + C5H7 <=> C3H3 + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -7724,7 +15448,7 @@ entry(
 )
 
 entry(
-    index = 644,
+    index = 1347,
     label = "C4H4-1 + C5H7 <=> C4H3-1 + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -7736,7 +15460,7 @@ entry(
 )
 
 entry(
-    index = 645,
+    index = 1348,
     label = "C4H6 + C5H7 <=> C4H5 + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -7748,7 +15472,7 @@ entry(
 )
 
 entry(
-    index = 646,
+    index = 1349,
     label = "C4H6-1 + C5H7 <=> C4H5-1 + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -7760,7 +15484,7 @@ entry(
 )
 
 entry(
-    index = 647,
+    index = 1350,
     label = "H2 + C6H7-3 <=> H + C6H8-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -7772,7 +15496,7 @@ entry(
 )
 
 entry(
-    index = 648,
+    index = 1351,
     label = "C2H4 + C6H7-3 <=> C2H3 + C6H8-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -7784,7 +15508,7 @@ entry(
 )
 
 entry(
-    index = 649,
+    index = 1352,
     label = "H2 + C4H5-1 <=> C4H6-1 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -7796,7 +15520,7 @@ entry(
 )
 
 entry(
-    index = 650,
+    index = 1353,
     label = "H2O + C4H5-1 <=> C4H6-1 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -7808,7 +15532,7 @@ entry(
 )
 
 entry(
-    index = 651,
+    index = 1354,
     label = "H2O + C5H7 <=> C5H8 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -7820,7 +15544,7 @@ entry(
 )
 
 entry(
-    index = 652,
+    index = 1355,
     label = "H2O + C6H7-3 <=> C6H8-3 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -7832,7 +15556,7 @@ entry(
 )
 
 entry(
-    index = 653,
+    index = 1356,
     label = "C4H6-1 + O2 <=> C4H5-1 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -7844,7 +15568,7 @@ entry(
 )
 
 entry(
-    index = 654,
+    index = 1357,
     label = "C5H8 + O2 <=> C5H7 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -7856,7 +15580,7 @@ entry(
 )
 
 entry(
-    index = 655,
+    index = 1358,
     label = "C6H8-3 + O2 <=> C6H7-3 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -7868,7 +15592,7 @@ entry(
 )
 
 entry(
-    index = 656,
+    index = 1359,
     label = "C4H6-1 + HO2-1 <=> C4H5-1 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -7880,7 +15604,7 @@ entry(
 )
 
 entry(
-    index = 657,
+    index = 1360,
     label = "H2O2 + C5H7 <=> C5H8 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7892,7 +15616,7 @@ entry(
 )
 
 entry(
-    index = 658,
+    index = 1361,
     label = "H2O2 + C6H7-3 <=> C6H8-3 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7904,7 +15628,7 @@ entry(
 )
 
 entry(
-    index = 659,
+    index = 1362,
     label = "C4H6 + C3H3-2 <=> C4H5 + C3H4-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7916,7 +15640,7 @@ entry(
 )
 
 entry(
-    index = 660,
+    index = 1363,
     label = "C4H6-1 + C3H3 <=> C4H5-1 + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -7928,7 +15652,7 @@ entry(
 )
 
 entry(
-    index = 661,
+    index = 1364,
     label = "C6H6 + C4H5 <=> C4H6 + C6H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -7940,7 +15664,7 @@ entry(
 )
 
 entry(
-    index = 662,
+    index = 1365,
     label = "C6H6 + C4H5-1 <=> C4H6-1 + C6H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -7952,7 +15676,7 @@ entry(
 )
 
 entry(
-    index = 663,
+    index = 1366,
     label = "C2H4 + C4H5-1 <=> C2H3 + C4H6-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7964,7 +15688,7 @@ entry(
 )
 
 entry(
-    index = 664,
+    index = 1367,
     label = "C3H6-1 + C4H5-1 <=> C3H5-1 + C4H6-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7976,7 +15700,7 @@ entry(
 )
 
 entry(
-    index = 665,
+    index = 1368,
     label = "C3H6-2 + C4H5-1 <=> C3H5-2 + C4H6-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -7988,7 +15712,7 @@ entry(
 )
 
 entry(
-    index = 666,
+    index = 1369,
     label = "C4H4 + C4H5-1 <=> C4H3 + C4H6-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -8000,7 +15724,7 @@ entry(
 )
 
 entry(
-    index = 667,
+    index = 1370,
     label = "C4H6-1 + C3H3O <=> C3H4O + C4H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -8012,7 +15736,7 @@ entry(
 )
 
 entry(
-    index = 668,
+    index = 1371,
     label = "C4H6 + C2H3 <=> C4H5 + C2H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -8024,7 +15748,7 @@ entry(
 )
 
 entry(
-    index = 669,
+    index = 1372,
     label = "C4H6 + C3H7 <=> C4H5 + C3H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -8036,7 +15760,7 @@ entry(
 )
 
 entry(
-    index = 670,
+    index = 1373,
     label = "C3H8 + C5H7 <=> C5H8 + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -8048,7 +15772,7 @@ entry(
 )
 
 entry(
-    index = 671,
+    index = 1374,
     label = "C3H8 + C6H7-3 <=> C6H8-3 + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -8060,7 +15784,7 @@ entry(
 )
 
 entry(
-    index = 672,
+    index = 1375,
     label = "C4H6 + C3H7-1 <=> C4H5 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -8072,7 +15796,7 @@ entry(
 )
 
 entry(
-    index = 673,
+    index = 1376,
     label = "C2H2O + C6H7-3 <=> C2HO + C6H8-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -8084,7 +15808,7 @@ entry(
 )
 
 entry(
-    index = 674,
+    index = 1377,
     label = "CH2O + C5H7 <=> CHO + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -8096,7 +15820,7 @@ entry(
 )
 
 entry(
-    index = 675,
+    index = 1378,
     label = "CH2O + C6H7-3 <=> CHO + C6H8-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -8108,7 +15832,7 @@ entry(
 )
 
 entry(
-    index = 676,
+    index = 1379,
     label = "CH4O + C6H7-3 <=> CH3O + C6H8-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -8120,7 +15844,7 @@ entry(
 )
 
 entry(
-    index = 677,
+    index = 1380,
     label = "C2H6O-1 + C5H7 <=> C2H5O-1 + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -8132,7 +15856,7 @@ entry(
 )
 
 entry(
-    index = 678,
+    index = 1381,
     label = "C2H6O-2 + C5H7 <=> C2H5O-2 + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -8144,7 +15868,7 @@ entry(
 )
 
 entry(
-    index = 679,
+    index = 1382,
     label = "C2H6O + C6H7-3 <=> C2H5O + C6H8-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -8156,7 +15880,7 @@ entry(
 )
 
 entry(
-    index = 680,
+    index = 1383,
     label = "C2H6O-1 + C4H5-1 <=> C2H5O-1 + C4H6-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -8168,7 +15892,7 @@ entry(
 )
 
 entry(
-    index = 681,
+    index = 1384,
     label = "C2H6O-2 + C4H5-1 <=> C2H5O-2 + C4H6-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -8180,7 +15904,7 @@ entry(
 )
 
 entry(
-    index = 682,
+    index = 1385,
     label = "C4H6 + C2H5O-2 <=> C4H5 + C2H6O-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -8192,7 +15916,7 @@ entry(
 )
 
 entry(
-    index = 683,
+    index = 1386,
     label = "C2H4O + C5H7 <=> C2H3O + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -8204,7 +15928,7 @@ entry(
 )
 
 entry(
-    index = 684,
+    index = 1387,
     label = "C4H6-1 + C2H3O <=> C2H4O + C4H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -8216,7 +15940,7 @@ entry(
 )
 
 entry(
-    index = 685,
+    index = 1388,
     label = "C4H6 + C2H3O <=> C4H5 + C2H4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -8228,7 +15952,7 @@ entry(
 )
 
 entry(
-    index = 686,
+    index = 1389,
     label = "C2H6 + C6H7-3 <=> C6H8-3 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -8240,7 +15964,7 @@ entry(
 )
 
 entry(
-    index = 687,
+    index = 1390,
     label = "C4H6 + CH3O <=> C4H5 + CH4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -8252,7 +15976,7 @@ entry(
 )
 
 entry(
-    index = 688,
+    index = 1391,
     label = "C4H6 + CHO <=> C4H5 + CH2O",
     degeneracy = 1,
     distances = DistanceData(
@@ -8264,7 +15988,7 @@ entry(
 )
 
 entry(
-    index = 689,
+    index = 1392,
     label = "C4H6-1 + C3H3O-1 <=> C4H5-1 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -8276,7 +16000,7 @@ entry(
 )
 
 entry(
-    index = 690,
+    index = 1393,
     label = "C3H4O-1 + C5H7 <=> C5H8 + C3H3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -8288,7 +16012,7 @@ entry(
 )
 
 entry(
-    index = 691,
+    index = 1394,
     label = "C3H4O-1 + C6H7-3 <=> C6H8-3 + C3H3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -8300,7 +16024,7 @@ entry(
 )
 
 entry(
-    index = 692,
+    index = 1395,
     label = "CH3-1 + C6H11O <=> C6H12O + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -8312,7 +16036,7 @@ entry(
 )
 
 entry(
-    index = 693,
+    index = 1396,
     label = "CH4 + C4H7 <=> C4H8 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -8324,7 +16048,7 @@ entry(
 )
 
 entry(
-    index = 694,
+    index = 1397,
     label = "C3H6 + C4H7 <=> C4H8 + C3H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -8336,7 +16060,7 @@ entry(
 )
 
 entry(
-    index = 695,
+    index = 1398,
     label = "H2 + C4H7 <=> C4H8 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -8348,7 +16072,7 @@ entry(
 )
 
 entry(
-    index = 696,
+    index = 1399,
     label = "H2O + C4H7 <=> C4H8 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -8360,7 +16084,7 @@ entry(
 )
 
 entry(
-    index = 697,
+    index = 1400,
     label = "C4H8 + O2 <=> C4H7 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -8372,7 +16096,7 @@ entry(
 )
 
 entry(
-    index = 698,
+    index = 1401,
     label = "H2O2 + C4H7 <=> C4H8 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -8384,7 +16108,7 @@ entry(
 )
 
 entry(
-    index = 699,
+    index = 1402,
     label = "C3H4-1 + C4H7 <=> C4H8 + C3H3-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -8396,7 +16120,7 @@ entry(
 )
 
 entry(
-    index = 700,
+    index = 1403,
     label = "C4H6-1 + C4H7 <=> C4H8 + C4H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -8408,7 +16132,7 @@ entry(
 )
 
 entry(
-    index = 701,
+    index = 1404,
     label = "C2H4 + C4H7 <=> C4H8 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -8420,7 +16144,7 @@ entry(
 )
 
 entry(
-    index = 702,
+    index = 1405,
     label = "C3H6-1 + C4H7 <=> C4H8 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -8432,7 +16156,7 @@ entry(
 )
 
 entry(
-    index = 703,
+    index = 1406,
     label = "C3H6-2 + C4H7 <=> C4H8 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -8444,7 +16168,7 @@ entry(
 )
 
 entry(
-    index = 704,
+    index = 1407,
     label = "C3H8-1 + C4H7 <=> C4H8 + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -8456,7 +16180,7 @@ entry(
 )
 
 entry(
-    index = 705,
+    index = 1408,
     label = "C2H6O + C4H7 <=> C4H8 + C2H5O",
     degeneracy = 1,
     distances = DistanceData(
@@ -8468,7 +16192,7 @@ entry(
 )
 
 entry(
-    index = 706,
+    index = 1409,
     label = "C2H4O-1 + C4H7 <=> C4H8 + C2H3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -8480,7 +16204,7 @@ entry(
 )
 
 entry(
-    index = 707,
+    index = 1410,
     label = "C2H4O + C4H7 <=> C4H8 + C2H3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -8492,7 +16216,7 @@ entry(
 )
 
 entry(
-    index = 708,
+    index = 1411,
     label = "C2H6 + C4H7 <=> C4H8 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -8504,7 +16228,7 @@ entry(
 )
 
 entry(
-    index = 709,
+    index = 1412,
     label = "C2H2O + C4H7 <=> C4H8 + C2HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -8516,7 +16240,7 @@ entry(
 )
 
 entry(
-    index = 710,
+    index = 1413,
     label = "C2H2 + C4H7 <=> C4H8 + C2H",
     degeneracy = 1,
     distances = DistanceData(
@@ -8528,7 +16252,7 @@ entry(
 )
 
 entry(
-    index = 711,
+    index = 1414,
     label = "CH4 + C5H5 <=> C5H6 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -8540,7 +16264,7 @@ entry(
 )
 
 entry(
-    index = 712,
+    index = 1415,
     label = "C3H6 + C5H5 <=> C5H6 + C3H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -8552,7 +16276,7 @@ entry(
 )
 
 entry(
-    index = 713,
+    index = 1416,
     label = "H2 + C5H5 <=> C5H6 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -8564,7 +16288,7 @@ entry(
 )
 
 entry(
-    index = 714,
+    index = 1417,
     label = "HO-1 + C5H5 <=> C5H6 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -8576,7 +16300,7 @@ entry(
 )
 
 entry(
-    index = 715,
+    index = 1418,
     label = "H2O2 + C5H5 <=> C5H6 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -8588,7 +16312,7 @@ entry(
 )
 
 entry(
-    index = 716,
+    index = 1419,
     label = "C3H4-1 + C5H5 <=> C5H6 + C3H3-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -8600,7 +16324,7 @@ entry(
 )
 
 entry(
-    index = 717,
+    index = 1420,
     label = "C3H8 + C5H5 <=> C5H6 + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -8612,7 +16336,7 @@ entry(
 )
 
 entry(
-    index = 718,
+    index = 1421,
     label = "C3H8-1 + C5H5 <=> C5H6 + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -8624,7 +16348,7 @@ entry(
 )
 
 entry(
-    index = 719,
+    index = 1422,
     label = "C2H6O + C5H5 <=> C5H6 + C2H5O",
     degeneracy = 1,
     distances = DistanceData(
@@ -8636,7 +16360,7 @@ entry(
 )
 
 entry(
-    index = 720,
+    index = 1423,
     label = "C2H6O-1 + C5H5 <=> C5H6 + C2H5O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -8648,7 +16372,7 @@ entry(
 )
 
 entry(
-    index = 721,
+    index = 1424,
     label = "C2H6O-2 + C5H5 <=> C5H6 + C2H5O-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -8660,7 +16384,7 @@ entry(
 )
 
 entry(
-    index = 722,
+    index = 1425,
     label = "C2H4O-1 + C5H5 <=> C5H6 + C2H3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -8672,7 +16396,7 @@ entry(
 )
 
 entry(
-    index = 723,
+    index = 1426,
     label = "C2H4O + C5H5 <=> C5H6 + C2H3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -8684,7 +16408,7 @@ entry(
 )
 
 entry(
-    index = 724,
+    index = 1427,
     label = "C2H6 + C5H5 <=> C5H6 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -8696,7 +16420,7 @@ entry(
 )
 
 entry(
-    index = 725,
+    index = 1428,
     label = "C2H2O + C5H5 <=> C5H6 + C2HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -8708,7 +16432,7 @@ entry(
 )
 
 entry(
-    index = 726,
+    index = 1429,
     label = "CH2O + C5H5 <=> C5H6 + CHO",
     degeneracy = 1,
     distances = DistanceData(
@@ -8720,7 +16444,7 @@ entry(
 )
 
 entry(
-    index = 727,
+    index = 1430,
     label = "C4H8 + C5H5 <=> C5H6 + C4H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -8732,7 +16456,7 @@ entry(
 )
 
 entry(
-    index = 728,
+    index = 1431,
     label = "CH4 + C5H5-1 <=> C5H6-1 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -8744,7 +16468,7 @@ entry(
 )
 
 entry(
-    index = 729,
+    index = 1432,
     label = "C5H6-1 + C3H5 <=> C5H5-1 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -8756,7 +16480,7 @@ entry(
 )
 
 entry(
-    index = 730,
+    index = 1433,
     label = "H2 + C5H5-1 <=> C5H6-1 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -8768,7 +16492,7 @@ entry(
 )
 
 entry(
-    index = 731,
+    index = 1434,
     label = "H2O + C5H5-1 <=> C5H6-1 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -8780,7 +16504,7 @@ entry(
 )
 
 entry(
-    index = 732,
+    index = 1435,
     label = "C5H6-1 + O2 <=> C5H5-1 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -8792,7 +16516,7 @@ entry(
 )
 
 entry(
-    index = 733,
+    index = 1436,
     label = "C5H6-1 + HO2-1 <=> C5H5-1 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -8804,7 +16528,7 @@ entry(
 )
 
 entry(
-    index = 734,
+    index = 1437,
     label = "C5H6-1 + C3H3 <=> C5H5-1 + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -8816,7 +16540,7 @@ entry(
 )
 
 entry(
-    index = 735,
+    index = 1438,
     label = "C2H4 + C5H5-1 <=> C5H6-1 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -8828,7 +16552,7 @@ entry(
 )
 
 entry(
-    index = 736,
+    index = 1439,
     label = "C3H6-1 + C5H5-1 <=> C5H6-1 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -8840,7 +16564,7 @@ entry(
 )
 
 entry(
-    index = 737,
+    index = 1440,
     label = "C3H6-2 + C5H5-1 <=> C5H6-1 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -8852,7 +16576,7 @@ entry(
 )
 
 entry(
-    index = 738,
+    index = 1441,
     label = "C5H6-1 + C3H7 <=> C5H5-1 + C3H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -8864,4742 +16588,7735 @@ entry(
 )
 
 entry(
-    index = 1029,
-    label = "CH4 + C4H7-1 <=> C4H8-1 + CH3",
+    index = 1442,
+    label = "C4H8O3 + CH3O <=> CH4O + C4H7O3",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.31658, 'd13': 2.68174, 'd23': 1.36865},
+        distances = {'d12': 1.31272, 'd13': 2.54065, 'd23': 1.2397},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""Reverse reaction for reaction index 768""",
+    shortDesc = u"""Reverse reaction for reaction index 370""",
 )
 
 entry(
-    index = 907,
-    label = "C6H8 + C2H5 <=> C2H6 + C6H7",
+    index = 1443,
+    label = "C3H6 + C6H7-2 <=> C6H8-2 + C3H5",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.26228, 'd13': 2.7051, 'd23': 1.45857},
+        distances = {'d12': 1.41366, 'd13': 2.70556, 'd23': 1.30176},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+    shortDesc = u"""Reverse reaction for reaction index 371""",
 )
 
 entry(
-    index = 1051,
-    label = "C4H8-1 + C3H7-1 <=> C4H7-1 + C3H8-1",
+    index = 1444,
+    label = "CH4 + C3H3O-1 <=> CH3 + C3H4O-1",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.3144, 'd13': 2.68485, 'd23': 1.3737},
+        distances = {'d12': 1.47295, 'd13': 2.74347, 'd23': 1.27053},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""Reverse reaction for reaction index 897""",
+    shortDesc = u"""Reverse reaction for reaction index 372""",
 )
 
 entry(
-    index = 977,
-    label = "C3H8 + C4H9 <=> C4H10 + C3H7",
+    index = 1445,
+    label = "C4H10 + C3H7-1 <=> C4H9 + C3H8-1",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.34357, 'd13': 2.68932, 'd23': 1.34993},
+        distances = {'d12': 1.37457, 'd13': 2.68611, 'd23': 1.31707},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""Reverse reaction for reaction index 815""",
+    shortDesc = u"""Reverse reaction for reaction index 373""",
 )
 
 entry(
-    index = 1154,
-    label = "H2 + C4H7O3 <=> H + C4H8O3",
+    index = 1446,
+    label = "C3H8-1 + C3H3O <=> C3H4O + C3H7-1",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.17526, 'd13': 2.10644, 'd23': 0.933968},
+        distances = {'d12': 1.38695, 'd13': 2.68928, 'd23': 1.3154},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""Reverse reaction for reaction index 945""",
+    shortDesc = u"""Reverse reaction for reaction index 374""",
 )
 
 entry(
-    index = 1045,
-    label = "C6H12O + C2H3O <=> C6H11O + C2H4O",
+    index = 1447,
+    label = "CH4O + C3H3O <=> C3H4O + CH3O",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.37417, 'd13': 2.68214, 'd23': 1.31883},
+        distances = {'d12': 1.37393, 'd13': 2.67854, 'd23': 1.3388},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""Reverse reaction for reaction index 791""",
+    shortDesc = u"""Reverse reaction for reaction index 375""",
 )
 
 entry(
-    index = 830,
-    label = "C5H6-1 + C2H5O-1 <=> C2H6O-1 + C5H5-1",
+    index = 1448,
+    label = "C4H6 + HO2-1 <=> C4H5 + H2O2",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.43422, 'd13': 2.67314, 'd23': 1.25801},
+        distances = {'d12': 1.41137, 'd13': 2.50949, 'd23': 1.10753},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+    shortDesc = u"""Reverse reaction for reaction index 376""",
 )
 
 entry(
-    index = 967,
-    label = "C4H9 + C3H4 <=> C4H10 + C3H3",
+    index = 1449,
+    label = "CH2O + C4H7 <=> C4H8 + CHO",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.30584, 'd13': 2.66777, 'd23': 1.36856},
+        distances = {'d12': 1.38629, 'd13': 2.72011, 'd23': 1.34691},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+    shortDesc = u"""Reverse reaction for reaction index 377""",
 )
 
 entry(
-    index = 1089,
-    label = "C2H6 + C7H13O <=> C7H14O + C2H5",
+    index = 1450,
+    label = "C4H6O3 + CH3O <=> CH4O + C4H5O3",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.26281, 'd13': 2.70619, 'd23': 1.45623},
+        distances = {'d12': 1.31812, 'd13': 2.5442, 'd23': 1.23697},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""Reverse reaction for reaction index 924""",
+    shortDesc = u"""Reverse reaction for reaction index 378""",
 )
 
 entry(
-    index = 928,
-    label = "C4H10 + H <=> H2 + C4H9",
+    index = 1451,
+    label = "C5H6 + O2 <=> C5H5 + HO2-1",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.36224, 'd13': 2.2802, 'd23': 0.920142},
+        distances = {'d12': 1.4756, 'd13': 2.61984, 'd23': 1.1551},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+    shortDesc = u"""Reverse reaction for reaction index 379""",
 )
 
 entry(
-    index = 1138,
-    label = "H2O + C4H9 <=> C4H10 + HO",
+    index = 1452,
+    label = "C2HO-1 + C6H7 <=> C2O + C6H8",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.16316, 'd13': 2.5778, 'd23': 1.42849},
+        distances = {'d12': 1.41018, 'd13': 2.66596, 'd23': 1.28566},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""Reverse reaction for reaction index 756""",
+    shortDesc = u"""Reverse reaction for reaction index 380""",
 )
 
 entry(
-    index = 1182,
-    label = "C2HO-1 + C7H13O3-1 <=> C2O + C7H14O3-1",
+    index = 1453,
+    label = "C7H14O3-1 + C7H13O3-4 <=> C7H14O3-2 + C7H13O3-1",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.20322, 'd13': 2.47449, 'd23': 1.30463},
+        distances = {'d12': 1.16512, 'd13': 2.34146, 'd23': 1.19064},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""Reverse reaction for reaction index 911""",
+    shortDesc = u"""Reverse reaction for reaction index 381""",
 )
 
 entry(
-    index = 886,
-    label = "C3H3O + HO2 <=> C3H4O + O2",
-    distances = DistanceData(
-        distances = {'d12': 1.12756, 'd13': 2.58337, 'd23': 1.47776},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 809,
-    label = "C2O + C6H8-3 <=> C2HO-1 + C6H7-3",
-    distances = DistanceData(
-        distances = {'d12': 1.27451, 'd13': 2.69334, 'd23': 1.43806},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 993,
-    label = "C2H6 + C4H5O <=> C4H6O + C2H5",
-    distances = DistanceData(
-        distances = {'d12': 1.29624, 'd13': 2.7028, 'd23': 1.41609},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 761""",
-)
-
-entry(
-    index = 1185,
-    label = "CH4O + C5H7 <=> CH3O + C5H8",
-    distances = DistanceData(
-        distances = {'d12': 1.30583, 'd13': 2.68, 'd23': 1.41848},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 843""",
-)
-
-entry(
-    index = 1128,
-    label = "C2HO-1 + C3H7 <=> C2O + C3H8",
-    distances = DistanceData(
-        distances = {'d12': 1.3731, 'd13': 2.6576, 'd23': 1.29024},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 900""",
-)
-
-entry(
-    index = 890,
-    label = "C2H6O-1 + C6H5 <=> C6H6 + C2H5O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.27191, 'd13': 2.66815, 'd23': 1.41251},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1058,
-    label = "CH3-1 + C2H5O-1 <=> C2H6O-1 + CH2",
-    distances = DistanceData(
-        distances = {'d12': 1.29952, 'd13': 2.65527, 'd23': 1.36789},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 942""",
-)
-
-entry(
-    index = 751,
-    label = "C6H8 + CH2 <=> CH3-1 + C6H7",
-    distances = DistanceData(
-        distances = {'d12': 1.22945, 'd13': 2.69941, 'd23': 1.48121},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1118,
-    label = "C4H8-1 + C3H3 <=> C4H7-1 + C3H4",
-    distances = DistanceData(
-        distances = {'d12': 1.30055, 'd13': 2.66745, 'd23': 1.3757},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 861""",
-)
-
-entry(
-    index = 1209,
-    label = "C2H6O-2 + C4H9 <=> C4H10 + C2H5O-2",
-    distances = DistanceData(
-        distances = {'d12': 1.23896, 'd13': 2.51204, 'd23': 1.27424},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 848""",
-)
-
-entry(
-    index = 1206,
+    index = 1454,
     label = "CH4 + C4H9 <=> C4H10 + CH3",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.31259, 'd13': 2.68284, 'd23': 1.3725},
+        distances = {'d12': 1.3725, 'd13': 2.68284, 'd23': 1.31259},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""Reverse reaction for reaction index 885""",
+    shortDesc = u"""Reverse reaction for reaction index 382""",
 )
 
 entry(
-    index = 1020,
-    label = "C4H4 + C6H5 <=> C6H6 + C4H3",
+    index = 1455,
+    label = "C6H6 + C2HO <=> C2H2O + C6H5",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.31609, 'd13': 2.63793, 'd23': 1.3296},
+        distances = {'d12': 1.35092, 'd13': 2.6232, 'd23': 1.27346},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""Reverse reaction for reaction index 870""",
+    shortDesc = u"""Reverse reaction for reaction index 383""",
 )
 
 entry(
-    index = 1198,
-    label = "C4H10 + C3H3-2 <=> C4H9 + C3H4-1",
+    index = 1456,
+    label = "C7H14O3-1 + O2 <=> C7H13O3-1 + HO2-1",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.30166, 'd13': 2.69315, 'd23': 1.39287},
+        distances = {'d12': 1.25764, 'd13': 2.37922, 'd23': 1.12912},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""Reverse reaction for reaction index 899""",
+    shortDesc = u"""Reverse reaction for reaction index 384""",
 )
 
 entry(
-    index = 1019,
-    label = "C3H6-2 + C3H2 <=> C3H3-1 + C3H5-2",
+    index = 1457,
+    label = "C2H6O-2 + C5H7-1 <=> C2H5O-2 + C5H8-1",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.2802, 'd13': 2.65511, 'd23': 1.37946},
+        distances = {'d12': 1.41159, 'd13': 2.59176, 'd23': 1.18827},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""Reverse reaction for reaction index 760""",
+    shortDesc = u"""Reverse reaction for reaction index 385""",
 )
 
 entry(
-    index = 1096,
-    label = "C4H10 + C3H3O-1 <=> C4H9 + C3H4O-1",
+    index = 1458,
+    label = "C2H6 + C3H5O <=> C3H6O + C2H5",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.29628, 'd13': 2.72409, 'd23': 1.44175},
+        distances = {'d12': 1.38809, 'd13': 2.68154, 'd23': 1.3031},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""Reverse reaction for reaction index 834""",
+    shortDesc = u"""Reverse reaction for reaction index 386""",
 )
 
 entry(
-    index = 1080,
-    label = "H2 + C4H9 <=> C4H10 + H",
+    index = 1459,
+    label = "CH4 + C2H5 <=> CH3 + C2H6",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.36224, 'd13': 2.2802, 'd23': 0.920142},
+        distances = {'d12': 1.37491, 'd13': 2.67929, 'd23': 1.3078},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""Reverse reaction for reaction index 928""",
+    shortDesc = u"""Reverse reaction for reaction index 387""",
 )
 
 entry(
-    index = 1160,
-    label = "HO-1 + C7H13O <=> C7H14O + O",
+    index = 1460,
+    label = "C3H4O-1 + C5H7-1 <=> C3H3O-1 + C5H8-1",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.25832, 'd13': 2.50711, 'd23': 1.24903},
+        distances = {'d12': 1.4517, 'd13': 2.75581, 'd23': 1.31213},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""Reverse reaction for reaction index 965""",
+    shortDesc = u"""Reverse reaction for reaction index 388""",
 )
 
 entry(
-    index = 860,
-    label = "C6H11O + CH4O <=> C6H12O + CH3O",
+    index = 1461,
+    label = "C2H2 + C6H7-3 <=> C2H + C6H8-3",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.39573, 'd13': 2.69101, 'd23': 1.32711},
+        distances = {'d12': 1.81999, 'd13': 2.88828, 'd23': 1.12015},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+    shortDesc = u"""Reverse reaction for reaction index 389""",
 )
 
 entry(
-    index = 823,
-    label = "C4H8-1 + C5H5-1 <=> C5H6-1 + C4H7-1",
+    index = 1462,
+    label = "C2H4 + C4H3-2 <=> C2H3 + C4H4-2",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.25779, 'd13': 2.68301, 'd23': 1.4303},
+        distances = {'d12': 1.42124, 'd13': 2.6645, 'd23': 1.25669},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+    shortDesc = u"""Reverse reaction for reaction index 390""",
 )
 
 entry(
-    index = 1010,
+    index = 1463,
+    label = "C2HO-1 + C7H13O-1 <=> C2O + C7H14O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27497, 'd13': 2.65039, 'd23': 1.39483},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 391""",
+)
+
+entry(
+    index = 1464,
+    label = "CH4 + C4H3-1 <=> CH3 + C4H4-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36509, 'd13': 2.66512, 'd23': 1.3021},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 392""",
+)
+
+entry(
+    index = 1465,
+    label = "C2HO-1 + C5H7-1 <=> C2O + C5H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.43053, 'd13': 2.68587, 'd23': 1.27178},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 393""",
+)
+
+entry(
+    index = 1466,
+    label = "C2H6O-2 + C2H5O-1 <=> C2H5O-2 + C2H6O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25191, 'd13': 2.49822, 'd23': 1.25129},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 394""",
+)
+
+entry(
+    index = 1467,
+    label = "C2H6O-1 + C5H7-1 <=> C2H5O-1 + C5H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.4955, 'd13': 2.73182, 'd23': 1.24491},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 395""",
+)
+
+entry(
+    index = 1468,
+    label = "C2H6O-1 + C4H7 <=> C4H8 + C2H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.45239, 'd13': 2.71186, 'd23': 1.26366},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 396""",
+)
+
+entry(
+    index = 1469,
+    label = "C4H8-1 + C3H7 <=> C4H7-1 + C3H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34671, 'd13': 2.68402, 'd23': 1.34046},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 397""",
+)
+
+entry(
+    index = 1470,
+    label = "C4H8-1 + C4H7 <=> C4H7-1 + C4H8",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.4483, 'd13': 2.70656, 'd23': 1.26395},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 398""",
+)
+
+entry(
+    index = 1471,
+    label = "C2H6O-2 + C6H7-3 <=> C2H5O-2 + C6H8-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.47037, 'd13': 2.60362, 'd23': 1.16827},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 399""",
+)
+
+entry(
+    index = 1472,
+    label = "CH4O + C4H5O <=> C4H6O + CH3O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.38363, 'd13': 2.70859, 'd23': 1.33432},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 400""",
+)
+
+entry(
+    index = 1473,
+    label = "C6H6 + C2H3O-1 <=> C2H4O + C6H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.53858, 'd13': 2.74998, 'd23': 1.22745},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 401""",
+)
+
+entry(
+    index = 1474,
+    label = "C2H4O + C3H3O <=> C3H4O + C2H3O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.38253, 'd13': 2.69973, 'd23': 1.32553},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 402""",
+)
+
+entry(
+    index = 1475,
+    label = "C2H6O-2 + C2O <=> C2HO + C2H5O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29442, 'd13': 2.42545, 'd23': 1.20931},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 403""",
+)
+
+entry(
+    index = 1476,
+    label = "C5H6-1 + C4H7-1 <=> C4H8 + C5H5-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.4303, 'd13': 2.68301, 'd23': 1.25779},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 404""",
+)
+
+entry(
+    index = 1477,
+    label = "CH3-1 + C6H7 <=> C6H8 + CH2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.48121, 'd13': 2.69941, 'd23': 1.22945},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 405""",
+)
+
+entry(
+    index = 1478,
+    label = "C2H4 + C2H5O-1 <=> C2H6O + C2H3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.38918, 'd13': 2.66941, 'd23': 1.28725},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 406""",
+)
+
+entry(
+    index = 1479,
+    label = "C4H6 + C2H3O-1 <=> C4H5 + C2H4O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.55081, 'd13': 2.76781, 'd23': 1.22264},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 407""",
+)
+
+entry(
+    index = 1480,
+    label = "C2H2O + CH3O <=> CH4O + C2HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.45614, 'd13': 2.65835, 'd23': 1.22102},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 408""",
+)
+
+entry(
+    index = 1481,
+    label = "C2H4 + C5H7-1 <=> C2H3 + C5H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.52394, 'd13': 2.739, 'd23': 1.21856},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 409""",
+)
+
+entry(
+    index = 1482,
+    label = "C4H10 + HO2-1 <=> C4H9 + H2O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32976, 'd13': 2.51157, 'd23': 1.18443},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 410""",
+)
+
+entry(
+    index = 1483,
+    label = "C2H6O-2 + O2 <=> C2H5O-2 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.52675, 'd13': 2.52174, 'd23': 1.01926},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 411""",
+)
+
+entry(
+    index = 1484,
+    label = "C2H6O-2 + C4H3-2 <=> C2H5O-2 + C4H4-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28802, 'd13': 2.4977, 'd23': 1.22479},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 412""",
+)
+
+entry(
+    index = 1485,
+    label = "C4H8-1 + O2 <=> C4H7-1 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.56838, 'd13': 2.63014, 'd23': 1.071},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 413""",
+)
+
+entry(
+    index = 1486,
+    label = "H2 + C2O <=> C2HO + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.998142, 'd13': 2.22931, 'd23': 1.25756},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 414""",
+)
+
+entry(
+    index = 1487,
+    label = "C2H2 + C6H7-2 <=> C2H + C6H8-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.92812, 'd13': 2.95802, 'd23': 1.11789},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 415""",
+)
+
+entry(
+    index = 1488,
+    label = "C2H6O-2 + C3H3O-1 <=> C2H5O-2 + C3H4O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.38954, 'd13': 2.55699, 'd23': 1.1924},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 416""",
+)
+
+entry(
+    index = 1489,
+    label = "C2H2O + C5H5-1 <=> C5H6 + C2HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25087, 'd13': 2.63338, 'd23': 1.38366},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 417""",
+)
+
+entry(
+    index = 1490,
+    label = "C3H6-2 + C2O <=> C2HO + C3H5-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.41691, 'd13': 2.65744, 'd23': 1.24881},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 418""",
+)
+
+entry(
+    index = 1491,
+    label = "C4H10 + C2H3O <=> C4H9 + C2H4O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40578, 'd13': 2.69713, 'd23': 1.29263},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 419""",
+)
+
+entry(
+    index = 1492,
+    label = "C4H6 + C4H7 <=> C4H8 + C4H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.50812, 'd13': 2.71297, 'd23': 1.22111},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 420""",
+)
+
+entry(
+    index = 1493,
+    label = "C3H6O + CHO <=> C3H5O + CH2O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.4195, 'd13': 2.72403, 'd23': 1.31083},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 421""",
+)
+
+entry(
+    index = 1494,
+    label = "H2O + C4H9 <=> C4H10 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.42849, 'd13': 2.5778, 'd23': 1.16316},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 422""",
+)
+
+entry(
+    index = 1495,
+    label = "C4H10 + O2 <=> C4H9 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.56784, 'd13': 2.63224, 'd23': 1.07128},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 423""",
+)
+
+entry(
+    index = 1496,
+    label = "H2 + C7H13O3-1 <=> C7H14O3-5 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.01225, 'd13': 2.12218, 'd23': 1.1136},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 424""",
+)
+
+entry(
+    index = 1497,
+    label = "H2O + C4H7-1 <=> C4H8 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.38018, 'd13': 2.53153, 'd23': 1.17855},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 425""",
+)
+
+entry(
+    index = 1498,
+    label = "CH3-1 + C2H5 <=> C2H6 + CH2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36785, 'd13': 2.65751, 'd23': 1.29393},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 426""",
+)
+
+entry(
+    index = 1499,
+    label = "C6H6 + C2H3O <=> C2H4O + C6H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.47425, 'd13': 2.70344, 'd23': 1.23714},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 427""",
+)
+
+entry(
+    index = 1500,
+    label = "CH4 + C4H7-1 <=> C4H8 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36865, 'd13': 2.68174, 'd23': 1.31658},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 428""",
+)
+
+entry(
+    index = 1501,
+    label = "C2H6O-1 + O2 <=> C2H5O-1 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.53916, 'd13': 2.6123, 'd23': 1.08298},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 429""",
+)
+
+entry(
+    index = 1502,
+    label = "H2 + C5H7-1 <=> H + C5H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.11688, 'd13': 2.33091, 'd23': 1.21574},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 430""",
+)
+
+entry(
+    index = 1503,
     label = "C2HO-1 + C6H11O <=> C6H12O + C2O",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.3268, 'd13': 2.65341, 'd23': 1.34368},
+        distances = {'d12': 1.34368, 'd13': 2.65341, 'd23': 1.3268},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 431""",
+)
+
+entry(
+    index = 1504,
+    label = "C2H6O-2 + C4H9 <=> C4H10 + C2H5O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27424, 'd13': 2.51204, 'd23': 1.23896},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 432""",
+)
+
+entry(
+    index = 1505,
+    label = "C4H6 + H <=> C4H5 + H2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.42789, 'd13': 2.29421, 'd23': 0.868906},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 433""",
+)
+
+entry(
+    index = 1506,
+    label = "C5H6-1 + C4H5-1 <=> C5H5-1 + C4H6-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.41772, 'd13': 2.67051, 'd23': 1.25326},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 434""",
+)
+
+entry(
+    index = 1507,
+    label = "C3H4 + C4H7 <=> C4H8 + C3H3-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.4021, 'd13': 2.68616, 'd23': 1.28656},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 435""",
+)
+
+entry(
+    index = 1508,
+    label = "C7H14O-1 + C2H5 <=> C7H13O-1 + C2H6",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.35237, 'd13': 2.67842, 'd23': 1.33239},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 436""",
+)
+
+entry(
+    index = 1509,
+    label = "C3H4-1 + CHO <=> CH2O + C3H3-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40624, 'd13': 2.73119, 'd23': 1.32683},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 437""",
+)
+
+entry(
+    index = 1510,
+    label = "C5H6-1 + C2H5 <=> C5H5-1 + C2H6",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.4357, 'd13': 2.67572, 'd23': 1.25029},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 438""",
+)
+
+entry(
+    index = 1511,
+    label = "H2 + C3H3-2 <=> H + C3H4-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.989057, 'd13': 2.27534, 'd23': 1.28684},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 439""",
+)
+
+entry(
+    index = 1512,
+    label = "C4H4 + C4H7 <=> C4H8 + C4H3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.52599, 'd13': 2.7289, 'd23': 1.20907},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 440""",
+)
+
+entry(
+    index = 1513,
+    label = "C5H6-1 + C2H3O-1 <=> C5H5-1 + C2H4O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.56594, 'd13': 2.75883, 'd23': 1.21204},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 441""",
+)
+
+entry(
+    index = 1514,
+    label = "C6H12O + CH3O <=> C6H11O + CH4O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32711, 'd13': 2.69101, 'd23': 1.39573},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 442""",
+)
+
+entry(
+    index = 1515,
+    label = "H2O2 + C5H7-1 <=> HO2-1 + C5H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29536, 'd13': 2.54094, 'd23': 1.2596},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 443""",
+)
+
+entry(
+    index = 1516,
+    label = "C2HO-1 + C7H13O <=> C2O + C7H14O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37455, 'd13': 2.65919, 'd23': 1.29402},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 444""",
+)
+
+entry(
+    index = 1517,
+    label = "C2H6 + C7H13O <=> C7H14O-1 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.45623, 'd13': 2.70619, 'd23': 1.26281},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 445""",
+)
+
+entry(
+    index = 1518,
+    label = "H2 + C7H13O3-2 <=> C7H14O3-2 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.05547, 'd13': 2.28474, 'd23': 1.23924},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 446""",
+)
+
+entry(
+    index = 1519,
+    label = "H2O + C7H13O3-4 <=> C7H14O3-2 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.4036, 'd13': 2.35893, 'd23': 1.02673},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 447""",
+)
+
+entry(
+    index = 1520,
+    label = "C4H10 + CHO <=> C4H9 + CH2O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.44608, 'd13': 2.71979, 'd23': 1.29256},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 448""",
+)
+
+entry(
+    index = 1521,
+    label = "C3H6O + O2 <=> C3H5O + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.54151, 'd13': 2.60996, 'd23': 1.07958},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 449""",
+)
+
+entry(
+    index = 1522,
+    label = "C3H8-1 + C6H7-3 <=> C6H8-3 + C3H7-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.46614, 'd13': 2.72483, 'd23': 1.25999},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 450""",
+)
+
+entry(
+    index = 1523,
+    label = "C3H3-1 + C2H5O <=> C2H6O + C3H2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.38924, 'd13': 2.65081, 'd23': 1.30123},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 451""",
+)
+
+entry(
+    index = 1524,
+    label = "C2HO-1 + C6H7-2 <=> C2O + C6H8-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.44379, 'd13': 2.68515, 'd23': 1.26308},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 452""",
+)
+
+entry(
+    index = 1525,
+    label = "HO-1 + C4H5-1 <=> C4H6-1 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17731, 'd13': 2.49416, 'd23': 1.31688},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 453""",
+)
+
+entry(
+    index = 1526,
+    label = "C4H6 + C3H3O-1 <=> C4H5 + C3H4O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.52791, 'd13': 2.76161, 'd23': 1.23749},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 454""",
+)
+
+entry(
+    index = 1527,
+    label = "HO-1 + C3H2 <=> C3H3-1 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2536, 'd13': 2.49561, 'd23': 1.24201},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 455""",
+)
+
+entry(
+    index = 1528,
+    label = "C4H4 + C4H7O3 <=> C4H3 + C4H8O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36034, 'd13': 2.50003, 'd23': 1.14021},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 456""",
+)
+
+entry(
+    index = 1529,
+    label = "C2H4 + C4H9 <=> C4H10 + C2H3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40156, 'd13': 2.68344, 'd23': 1.28393},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 457""",
+)
+
+entry(
+    index = 1530,
+    label = "C3H4O + C3H3 <=> C3H3O + C3H4",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.31356, 'd13': 2.68056, 'd23': 1.38164},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 458""",
+)
+
+entry(
+    index = 1531,
+    label = "C3H4-1 + C3H3O-1 <=> C3H3-2 + C3H4O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.41055, 'd13': 2.73703, 'd23': 1.33338},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 459""",
+)
+
+entry(
+    index = 1532,
+    label = "C2H6 + C3H5 <=> C3H6 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.4242, 'd13': 2.70064, 'd23': 1.28114},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 460""",
+)
+
+entry(
+    index = 1533,
+    label = "C3H6-2 + C5H5 <=> C5H6 + C3H5-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.52504, 'd13': 2.73975, 'd23': 1.2249},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 461""",
+)
+
+entry(
+    index = 1534,
+    label = "C2H6 + C6H7 <=> C6H8 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.45857, 'd13': 2.7051, 'd23': 1.26228},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 462""",
+)
+
+entry(
+    index = 1535,
+    label = "C3H8 + C4H5O <=> C4H6O + C3H7",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.41556, 'd13': 2.70409, 'd23': 1.29249},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 463""",
+)
+
+entry(
+    index = 1536,
+    label = "C6H6 + C3H7 <=> C6H5 + C3H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.41706, 'd13': 2.68016, 'd23': 1.26734},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 464""",
+)
+
+entry(
+    index = 1537,
+    label = "C7H14O + C3H5 <=> C7H13O + C3H6",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32919, 'd13': 2.69133, 'd23': 1.37135},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 465""",
+)
+
+entry(
+    index = 1538,
+    label = "C4H8-1 + C3H3 <=> C4H7-1 + C3H4",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3757, 'd13': 2.66745, 'd23': 1.30055},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 466""",
+)
+
+entry(
+    index = 1539,
+    label = "C3H6 + C5H7-1 <=> C3H5 + C5H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40551, 'd13': 2.70951, 'd23': 1.3087},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 467""",
+)
+
+entry(
+    index = 1540,
+    label = "C3H6 + C6H7-1 <=> C6H8 + C3H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36251, 'd13': 2.69934, 'd23': 1.34303},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 468""",
+)
+
+entry(
+    index = 1541,
+    label = "C2H4O + C6H7-2 <=> C2H3O + C6H8-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.46173, 'd13': 2.71432, 'd23': 1.26746},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 469""",
+)
+
+entry(
+    index = 1542,
+    label = "C6H6 + C3H7-1 <=> C6H5 + C3H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.44809, 'd13': 2.68706, 'd23': 1.24668},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 470""",
+)
+
+entry(
+    index = 1543,
+    label = "C3H6-2 + C2H3O <=> C2H4O + C3H5-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.434, 'd13': 2.69421, 'd23': 1.26576},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 471""",
+)
+
+entry(
+    index = 1544,
+    label = "C2H6O-1 + C2O <=> C2HO + C2H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.39236, 'd13': 2.65577, 'd23': 1.27603},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 472""",
+)
+
+entry(
+    index = 1545,
+    label = "C7H14O-1 + C3H2 <=> C3H3-1 + C7H13O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.35872, 'd13': 2.65995, 'd23': 1.31203},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 473""",
+)
+
+entry(
+    index = 1546,
+    label = "C7H14O + O2 <=> C7H13O + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.46156, 'd13': 2.57092, 'd23': 1.12823},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 474""",
+)
+
+entry(
+    index = 1547,
+    label = "C2HO-1 + C7H13O3-1 <=> C2O + C7H14O3-5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30463, 'd13': 2.47449, 'd23': 1.20322},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 475""",
+)
+
+entry(
+    index = 1548,
+    label = "CH4 + C5H7 <=> C5H8 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.47417, 'd13': 2.722, 'd23': 1.24875},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 476""",
+)
+
+entry(
+    index = 1549,
+    label = "C6H6 + C4H7-1 <=> C4H8 + C6H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.4125, 'd13': 2.67805, 'd23': 1.26992},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 477""",
+)
+
+entry(
+    index = 1550,
+    label = "C6H6 + C7H13O <=> C6H5 + C7H14O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.5263, 'd13': 2.72756, 'd23': 1.21344},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 478""",
+)
+
+entry(
+    index = 1551,
+    label = "H2 + C4H7-1 <=> C4H8 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.922801, 'd13': 2.27964, 'd23': 1.35991},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 479""",
+)
+
+entry(
+    index = 1552,
+    label = "C6H12O + O2 <=> C6H11O + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.50072, 'd13': 2.59673, 'd23': 1.1049},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 480""",
+)
+
+entry(
+    index = 1553,
+    label = "C2HO-1 + C7H13O3-4 <=> C2O + C7H14O3-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34106, 'd13': 2.45359, 'd23': 1.1624},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 481""",
+)
+
+entry(
+    index = 1554,
+    label = "C4H4-1 + C5H7-1 <=> C4H3-3 + C5H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.47544, 'd13': 2.71399, 'd23': 1.24544},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 482""",
+)
+
+entry(
+    index = 1555,
+    label = "C2H2O + C3H3O <=> C3H4O + C2HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.50799, 'd13': 2.70272, 'd23': 1.20818},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 483""",
+)
+
+entry(
+    index = 1556,
+    label = "C3H6-2 + C3H2 <=> C3H3-1 + C3H5-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37946, 'd13': 2.65511, 'd23': 1.2802},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 484""",
+)
+
+entry(
+    index = 1557,
+    label = "C5H6-1 + C2H3O <=> C5H5-1 + C2H4O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.48813, 'd13': 2.70108, 'd23': 1.227},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 485""",
+)
+
+entry(
+    index = 1558,
+    label = "C6H12O + C3H5 <=> C6H11O + C3H6",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3542, 'd13': 2.68744, 'd23': 1.34419},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 486""",
+)
+
+entry(
+    index = 1559,
+    label = "C2H2 + C3H7 <=> C2H + C3H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.76717, 'd13': 2.854, 'd23': 1.1247},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 487""",
+)
+
+entry(
+    index = 1560,
+    label = "C5H6 + C5H7 <=> C5H5 + C5H8",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.35364, 'd13': 2.73712, 'd23': 1.38704},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 488""",
+)
+
+entry(
+    index = 1561,
+    label = "H2 + C7H13O3-4 <=> C7H14O3-2 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.995758, 'd13': 2.11848, 'd23': 1.12442},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 489""",
+)
+
+entry(
+    index = 1562,
+    label = "C4H4-1 + C6H7 <=> C6H8 + C4H3-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.45755, 'd13': 2.69783, 'd23': 1.25175},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 490""",
+)
+
+entry(
+    index = 1563,
+    label = "C4H4-1 + C4H9 <=> C4H10 + C4H3-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.33444, 'd13': 2.66325, 'd23': 1.33552},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 491""",
+)
+
+entry(
+    index = 1564,
+    label = "C4H4-1 + C3H3O <=> C3H4O + C4H3-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.42433, 'd13': 2.69438, 'd23': 1.27723},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 492""",
+)
+
+entry(
+    index = 1565,
+    label = "C3H6-2 + C4H9 <=> C4H10 + C3H5-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36923, 'd13': 2.67475, 'd23': 1.311},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 493""",
+)
+
+entry(
+    index = 1566,
+    label = "H2 + C7H13O3-3 <=> C7H14O3-5 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.910186, 'd13': 2.28497, 'd23': 1.37479},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 494""",
+)
+
+entry(
+    index = 1567,
+    label = "C4H8-1 + CHO <=> C4H7-1 + CH2O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.45431, 'd13': 2.73049, 'd23': 1.28691},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 495""",
+)
+
+entry(
+    index = 1568,
+    label = "C5H6-1 + C2H5O <=> C5H5-1 + C2H6O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.51119, 'd13': 2.70768, 'd23': 1.21749},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 496""",
+)
+
+entry(
+    index = 1569,
+    label = "C4H8-1 + C4H5-1 <=> C4H7-1 + C4H6-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29385, 'd13': 2.6733, 'd23': 1.38408},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 497""",
+)
+
+entry(
+    index = 1570,
+    label = "H2 + C7H13O3-5 <=> C7H14O3-5 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.02105, 'd13': 2.26959, 'd23': 1.25835},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 498""",
+)
+
+entry(
+    index = 1571,
+    label = "C6H12O + C2H3O <=> C6H11O + C2H4O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.31883, 'd13': 2.68214, 'd23': 1.37417},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 499""",
+)
+
+entry(
+    index = 1572,
+    label = "C2H4O + C6H7 <=> C2H3O + C6H8",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.43207, 'd13': 2.70728, 'd23': 1.28222},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 500""",
+)
+
+entry(
+    index = 1573,
+    label = "C4H8-1 + C5H5 <=> C4H7-1 + C5H6",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.49367, 'd13': 2.73212, 'd23': 1.24707},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 501""",
+)
+
+entry(
+    index = 1574,
+    label = "C4H8-1 + C2H3O-1 <=> C4H7-1 + C2H4O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.45617, 'd13': 2.71038, 'd23': 1.28931},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 502""",
+)
+
+entry(
+    index = 1575,
+    label = "C2H6 + C3H3O <=> C3H4O + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.41322, 'd13': 2.69759, 'd23': 1.29343},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 503""",
+)
+
+entry(
+    index = 1576,
+    label = "C4H4 + C6H5 <=> C6H6 + C4H3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3296, 'd13': 2.63793, 'd23': 1.31609},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 504""",
+)
+
+entry(
+    index = 1577,
+    label = "C2H4 + C2HO <=> C2H2O + C2H3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32838, 'd13': 2.61734, 'd23': 1.2934},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 505""",
+)
+
+entry(
+    index = 1578,
+    label = "C7H14O-1 + C7H13O3-1 <=> C7H13O-1 + C7H14O3-5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.35068, 'd13': 2.50574, 'd23': 1.17086},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 506""",
+)
+
+entry(
+    index = 1579,
+    label = "C3H8-1 + C4H5O <=> C4H6O + C3H7-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.39366, 'd13': 2.70454, 'd23': 1.31482},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 507""",
+)
+
+entry(
+    index = 1580,
+    label = "C3H3-1 + C3H3O-1 <=> C3H2 + C3H4O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.42472, 'd13': 2.70823, 'd23': 1.29048},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 508""",
+)
+
+entry(
+    index = 1581,
+    label = "H2 + C3H2 <=> C3H3-1 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.958432, 'd13': 2.25538, 'd23': 1.29695},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 509""",
+)
+
+entry(
+    index = 1582,
+    label = "C4H8O3 + O2 <=> HO2-1 + C4H7O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40891, 'd13': 2.45125, 'd23': 1.05085},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 510""",
+)
+
+entry(
+    index = 1583,
+    label = "C2H4O-1 + C6H7-1 <=> C2H3O-1 + C6H8",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36847, 'd13': 2.69198, 'd23': 1.35993},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 511""",
+)
+
+entry(
+    index = 1584,
+    label = "C4H10 + C3H3-2 <=> C4H9 + C3H4-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.39287, 'd13': 2.69315, 'd23': 1.30166},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 512""",
+)
+
+entry(
+    index = 1585,
+    label = "C7H14O-1 + C7H13O <=> C7H13O-1 + C7H14O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.44869, 'd13': 2.71409, 'd23': 1.26771},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 513""",
+)
+
+entry(
+    index = 1586,
+    label = "C3H6O + C6H7-2 <=> C3H5O + C6H8-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.46951, 'd13': 2.72489, 'd23': 1.26035},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 514""",
+)
+
+entry(
+    index = 1587,
+    label = "C4H8-1 + CH3O <=> C4H7-1 + CH4O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.39395, 'd13': 2.69717, 'd23': 1.3149},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 515""",
+)
+
+entry(
+    index = 1588,
+    label = "C4H4-1 + C4H5O <=> C4H6O + C4H3-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.42978, 'd13': 2.70043, 'd23': 1.28004},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 516""",
+)
+
+entry(
+    index = 1589,
+    label = "CH3-1 + C4H7-1 <=> C4H8 + CH2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36436, 'd13': 2.65801, 'd23': 1.29871},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 517""",
+)
+
+entry(
+    index = 1590,
+    label = "C3H8-1 + C5H7 <=> C5H8 + C3H7-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.4242, 'd13': 2.69893, 'd23': 1.28345},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 518""",
+)
+
+entry(
+    index = 1591,
+    label = "C5H6-1 + C4H7 <=> C5H5-1 + C4H8",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.54533, 'd13': 2.73647, 'd23': 1.20054},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 519""",
+)
+
+entry(
+    index = 1592,
+    label = "C5H6-1 + C3H3O <=> C5H5-1 + C3H4O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.51387, 'd13': 2.72718, 'd23': 1.21568},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 520""",
+)
+
+entry(
+    index = 1593,
+    label = "CH3-1 + C3H5 <=> C3H6 + CH2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.43716, 'd13': 2.69011, 'd23': 1.25295},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 521""",
+)
+
+entry(
+    index = 1594,
+    label = "C7H14O-1 + C3H3 <=> C7H13O-1 + C3H4",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36645, 'd13': 2.66526, 'd23': 1.30783},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 522""",
+)
+
+entry(
+    index = 1595,
+    label = "CH4O + C3H3 <=> CH3O + C3H4",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.33566, 'd13': 2.64694, 'd23': 1.35448},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 523""",
+)
+
+entry(
+    index = 1596,
+    label = "C4H8-1 + C3H3-2 <=> C4H7-1 + C3H4-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.39855, 'd13': 2.6941, 'd23': 1.30241},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 524""",
+)
+
+entry(
+    index = 1597,
+    label = "H2 + C4H7O3 <=> H + C4H8O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.933968, 'd13': 2.10644, 'd23': 1.17526},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 525""",
+)
+
+entry(
+    index = 1598,
+    label = "C3H8 + C3H7-1 <=> C3H8-1 + C3H7",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37102, 'd13': 2.69065, 'd23': 1.31982},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 526""",
+)
+
+entry(
+    index = 1599,
+    label = "HO-1 + C7H13O3-1 <=> C7H14O3-5 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32703, 'd13': 2.3205, 'd23': 1.06311},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 527""",
+)
+
+entry(
+    index = 1600,
+    label = "C2HO-1 + C4H3-2 <=> C2O + C4H4-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32523, 'd13': 2.65038, 'd23': 1.33539},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 528""",
+)
+
+entry(
+    index = 1601,
+    label = "C2HO-1 + C2H5O <=> C2O + C2H6O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.35739, 'd13': 2.65929, 'd23': 1.31682},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 529""",
+)
+
+entry(
+    index = 1602,
+    label = "C3H6-2 + C5H7-1 <=> C3H5-2 + C5H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.5169, 'd13': 2.74045, 'd23': 1.22668},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 530""",
+)
+
+entry(
+    index = 1603,
+    label = "C4H8-1 + C3H2 <=> C4H7-1 + C3H3-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3528, 'd13': 2.65729, 'd23': 1.31227},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 531""",
+)
+
+entry(
+    index = 1604,
+    label = "C4H8-1 + C3H7-1 <=> C4H7-1 + C3H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3737, 'd13': 2.68485, 'd23': 1.3144},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 532""",
+)
+
+entry(
+    index = 1605,
+    label = "CH3-1 + C4H9 <=> C4H10 + CH2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36853, 'd13': 2.66707, 'd23': 1.30064},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 533""",
+)
+
+entry(
+    index = 1606,
+    label = "C4H6-1 + C2H5 <=> C4H5-1 + C2H6",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.33881, 'd13': 2.67222, 'd23': 1.33514},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 534""",
+)
+
+entry(
+    index = 1607,
+    label = "C4H6 + C5H5 <=> C5H6 + C4H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.53766, 'd13': 2.7376, 'd23': 1.21437},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 535""",
+)
+
+entry(
+    index = 1608,
+    label = "C3H4 + C7H13O <=> C7H14O-1 + C3H3-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.39458, 'd13': 2.67993, 'd23': 1.28997},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 536""",
+)
+
+entry(
+    index = 1609,
+    label = "C2H6O-1 + C4H7-1 <=> C4H8 + C2H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34623, 'd13': 2.68325, 'd23': 1.33993},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 537""",
+)
+
+entry(
+    index = 1610,
+    label = "C2H6O-1 + C6H7-1 <=> C2H5O-1 + C6H8",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.4453, 'd13': 2.69766, 'd23': 1.26231},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 538""",
+)
+
+entry(
+    index = 1611,
+    label = "C3H6-2 + C2H5O-1 <=> C2H6O + C3H5-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36225, 'd13': 2.67588, 'd23': 1.31549},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 539""",
+)
+
+entry(
+    index = 1612,
+    label = "C4H6 + C2H5O <=> C4H5 + C2H6O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.48068, 'd13': 2.70502, 'd23': 1.24174},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 540""",
+)
+
+entry(
+    index = 1613,
+    label = "C3H6 + C7H13O3-4 <=> C7H14O3-2 + C3H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28905, 'd13': 2.53143, 'd23': 1.24523},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 541""",
+)
+
+entry(
+    index = 1614,
+    label = "CH4O + C5H7 <=> CH3O + C5H8",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.41848, 'd13': 2.68, 'd23': 1.30583},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 542""",
+)
+
+entry(
+    index = 1615,
+    label = "C4H4 + C5H5-1 <=> C5H6 + C4H3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3049, 'd13': 2.63237, 'd23': 1.33942},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 543""",
+)
+
+entry(
+    index = 1616,
+    label = "C7H14O-1 + C3H5 <=> C7H13O-1 + C3H6",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.41911, 'd13': 2.70273, 'd23': 1.28705},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 544""",
+)
+
+entry(
+    index = 1617,
+    label = "C2HO-1 + C4H7 <=> C4H8 + C2O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.38322, 'd13': 2.67343, 'd23': 1.2934},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 545""",
+)
+
+entry(
+    index = 1618,
+    label = "HO-1 + C4H3-1 <=> C4H4-1 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.22055, 'd13': 2.48545, 'd23': 1.27336},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 546""",
+)
+
+entry(
+    index = 1619,
+    label = "C2HO-1 + C6H7-3 <=> C2O + C6H8-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.43806, 'd13': 2.69334, 'd23': 1.27451},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 547""",
+)
+
+entry(
+    index = 1620,
+    label = "C2H6 + C4H5O <=> C4H6O + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.41609, 'd13': 2.7028, 'd23': 1.29624},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 548""",
+)
+
+entry(
+    index = 1621,
+    label = "CH4O + C5H5 <=> C5H6 + CH3O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.46189, 'd13': 2.7273, 'd23': 1.27671},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 549""",
+)
+
+entry(
+    index = 1622,
+    label = "C2HO-1 + C4H5O3 <=> C2O + C4H6O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.22556, 'd13': 2.44288, 'd23': 1.29547},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 550""",
+)
+
+entry(
+    index = 1623,
+    label = "C4H4 + C6H7 <=> C6H8 + C4H3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.55714, 'd13': 2.75226, 'd23': 1.19794},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 551""",
+)
+
+entry(
+    index = 1624,
+    label = "C2H6O-2 + C3H2 <=> C2H5O-2 + C3H3-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26673, 'd13': 2.48503, 'd23': 1.23187},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 552""",
+)
+
+entry(
+    index = 1625,
+    label = "C3H6-1 + C2H5O <=> C2H6O + C3H5-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.46878, 'd13': 2.69261, 'd23': 1.25163},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 553""",
+)
+
+entry(
+    index = 1626,
+    label = "C5H6-1 + C3H3O-1 <=> C5H5-1 + C3H4O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.56487, 'd13': 2.77185, 'd23': 1.21228},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 554""",
+)
+
+entry(
+    index = 1627,
+    label = "C2H6O-1 + C5H5-1 <=> C5H6 + C2H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25801, 'd13': 2.67314, 'd23': 1.43422},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 555""",
+)
+
+entry(
+    index = 1628,
+    label = "C2H2O + C5H7 <=> C2HO + C5H8",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.50184, 'd13': 2.69602, 'd23': 1.20374},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 556""",
+)
+
+entry(
+    index = 1629,
+    label = "C3H4-1 + HO2-1 <=> H2O2 + C3H3-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.33001, 'd13': 2.5118, 'd23': 1.19369},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 557""",
+)
+
+entry(
+    index = 1630,
+    label = "C3H6-1 + C3H7-1 <=> C3H5-1 + C3H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.43673, 'd13': 2.68374, 'd23': 1.25402},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 558""",
+)
+
+entry(
+    index = 1631,
+    label = "C3H4 + C5H5 <=> C5H6 + C3H3-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.43215, 'd13': 2.71621, 'd23': 1.28818},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 559""",
+)
+
+entry(
+    index = 1632,
+    label = "C3H8 + C5H7-1 <=> C3H7 + C5H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.50625, 'd13': 2.74478, 'd23': 1.24145},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 560""",
+)
+
+entry(
+    index = 1633,
+    label = "C3H4O + O2 <=> C3H3O + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.47776, 'd13': 2.58337, 'd23': 1.12756},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 561""",
+)
+
+entry(
+    index = 1634,
+    label = "C2H2O + C2H5 <=> C2HO + C2H6",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36841, 'd13': 2.62923, 'd23': 1.26738},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 562""",
+)
+
+entry(
+    index = 1635,
+    label = "HO-1 + C7H13O <=> C7H14O-1 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24903, 'd13': 2.50711, 'd23': 1.25832},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 563""",
+)
+
+entry(
+    index = 1636,
+    label = "C2H6O-1 + C3H3O <=> C3H4O + C2H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.43642, 'd13': 2.69884, 'd23': 1.27855},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 564""",
+)
+
+entry(
+    index = 1637,
+    label = "C3H4O-1 + C6H7 <=> C6H8 + C3H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40764, 'd13': 2.72644, 'd23': 1.32693},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 565""",
+)
+
+entry(
+    index = 1638,
+    label = "C2H6O-1 + C4H7O3 <=> C2H5O-1 + C4H8O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30339, 'd13': 2.49975, 'd23': 1.21026},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 566""",
+)
+
+entry(
+    index = 1639,
+    label = "CH4O + C4H7 <=> C4H8 + CH3O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40875, 'd13': 2.69432, 'd23': 1.3051},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 567""",
+)
+
+entry(
+    index = 1640,
+    label = "C3H6O + HO2-1 <=> C3H5O + H2O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.33384, 'd13': 2.50468, 'd23': 1.18004},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 568""",
+)
+
+entry(
+    index = 1641,
+    label = "C2H6O-2 + C2H5 <=> C2H5O-2 + C2H6",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27554, 'd13': 2.50752, 'd23': 1.23808},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 569""",
+)
+
+entry(
+    index = 1642,
+    label = "C6H6 + C4H3-1 <=> C6H5 + C4H4-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40789, 'd13': 2.66027, 'd23': 1.25933},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 570""",
+)
+
+entry(
+    index = 1643,
+    label = "C2H4 + C6H11O <=> C6H12O + C2H3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.48512, 'd13': 2.70964, 'd23': 1.23336},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 571""",
+)
+
+entry(
+    index = 1644,
+    label = "C2H2 + C4H5 <=> C4H6-1 + C2H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.60344, 'd13': 2.74504, 'd23': 1.14543},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 572""",
+)
+
+entry(
+    index = 1645,
+    label = "C4H4-2 + C2H3O-1 <=> C2H4O + C4H3-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.43014, 'd13': 2.71699, 'd23': 1.29821},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 573""",
+)
+
+entry(
+    index = 1646,
+    label = "C2HO-1 + CH3O <=> C2O + CH4O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.33683, 'd13': 2.66562, 'd23': 1.33986},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 574""",
+)
+
+entry(
+    index = 1647,
+    label = "C2H2 + C4H9 <=> C4H10 + C2H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.77057, 'd13': 2.85671, 'd23': 1.12575},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 575""",
+)
+
+entry(
+    index = 1648,
+    label = "H2 + C4H9 <=> C4H10 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.920142, 'd13': 2.2802, 'd23': 1.36224},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 576""",
+)
+
+entry(
+    index = 1649,
+    label = "C5H6-1 + C3H2 <=> C5H5-1 + C3H3-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.45619, 'd13': 2.67029, 'd23': 1.22321},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 577""",
+)
+
+entry(
+    index = 1650,
+    label = "C2H6O + C4H5O <=> C4H6O + C2H5O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36598, 'd13': 2.68208, 'd23': 1.35348},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 578""",
+)
+
+entry(
+    index = 1651,
+    label = "C3H6 + CHO <=> CH2O + C3H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37055, 'd13': 2.73144, 'd23': 1.36139},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 579""",
+)
+
+entry(
+    index = 1652,
+    label = "C7H14O + C6H7 <=> C6H8 + C7H13O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37294, 'd13': 2.68418, 'd23': 1.33507},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 580""",
+)
+
+entry(
+    index = 1653,
+    label = "C2HO-1 + C4H7O3 <=> C2O + C4H8O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.22384, 'd13': 2.44224, 'd23': 1.29824},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 581""",
+)
+
+entry(
+    index = 1654,
+    label = "C4H10 + C3H3O-1 <=> C4H9 + C3H4O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.44175, 'd13': 2.72409, 'd23': 1.29628},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 582""",
+)
+
+entry(
+    index = 1655,
+    label = "H2 + CHO <=> CH2O + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.06488, 'd13': 2.33001, 'd23': 1.26516},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 583""",
+)
+
+entry(
+    index = 1656,
+    label = "CH4 + C4H5-1 <=> C4H6-1 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36145, 'd13': 2.67032, 'd23': 1.31088},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 584""",
+)
+
+entry(
+    index = 1657,
+    label = "H2O + CHO <=> CH2O + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.5699, 'd13': 2.69644, 'd23': 1.14261},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 585""",
+)
+
+entry(
+    index = 1658,
+    label = "CH3-1 + C3H3O-1 <=> C3H4O-1 + CH2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.48009, 'd13': 2.73884, 'd23': 1.2591},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 586""",
+)
+
+entry(
+    index = 1659,
+    label = "CH4 + C6H7-1 <=> C6H8 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.46572, 'd13': 2.70693, 'd23': 1.24498},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 587""",
+)
+
+entry(
+    index = 1660,
+    label = "C4H10 + C2H5 <=> C4H9 + C2H6",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34864, 'd13': 2.69062, 'd23': 1.34613},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 588""",
+)
+
+entry(
+    index = 1661,
+    label = "C2H6O-1 + C6H11O <=> C6H12O + C2H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.43343, 'd13': 2.70645, 'd23': 1.28226},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 589""",
+)
+
+entry(
+    index = 1662,
+    label = "C4H6-1 + CH3O <=> CH4O + C4H5-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.43129, 'd13': 2.70184, 'd23': 1.27312},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 590""",
+)
+
+entry(
+    index = 1663,
+    label = "C4H6 + C3H3O <=> C4H5 + C3H4O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.48483, 'd13': 2.70816, 'd23': 1.23646},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 591""",
+)
+
+entry(
+    index = 1664,
+    label = "C3H6O + C4H5O <=> C3H5O + C4H6O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40066, 'd13': 2.69186, 'd23': 1.31514},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 592""",
+)
+
+entry(
+    index = 1665,
+    label = "C3H3-1 + C3H5O <=> C3H6O + C3H2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34118, 'd13': 2.66456, 'd23': 1.32513},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 593""",
+)
+
+entry(
+    index = 1666,
+    label = "C5H8-1 + O2 <=> HO2-1 + C5H7-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.41009, 'd13': 2.5809, 'd23': 1.17806},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 594""",
+)
+
+entry(
+    index = 1667,
+    label = "C7H14O + C6H7-1 <=> C6H8 + C7H13O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34774, 'd13': 2.68425, 'd23': 1.3537},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 595""",
+)
+
+entry(
+    index = 1668,
+    label = "C4H10 + CH3O <=> C4H9 + CH4O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.39228, 'd13': 2.69835, 'd23': 1.31649},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 596""",
+)
+
+entry(
+    index = 1669,
+    label = "C4H10 + C3H3 <=> C4H9 + C3H4",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36856, 'd13': 2.66777, 'd23': 1.30584},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 597""",
+)
+
+entry(
+    index = 1670,
+    label = "C3H8 + C4H9 <=> C4H10 + C3H7",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34993, 'd13': 2.68932, 'd23': 1.34357},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 598""",
+)
+
+entry(
+    index = 1671,
+    label = "CH3-1 + C2H5O-1 <=> C2H6O + CH2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36789, 'd13': 2.65527, 'd23': 1.29952},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 599""",
+)
+
+entry(
+    index = 1672,
+    label = "C7H14O-1 + O2 <=> C7H13O-1 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.55153, 'd13': 2.61526, 'd23': 1.07676},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 600""",
+)
+
+entry(
+    index = 1673,
+    label = "C6H6 + C4H3-2 <=> C6H5 + C4H4-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.43661, 'd13': 2.67111, 'd23': 1.24513},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 601""",
+)
+
+entry(
+    index = 1674,
+    label = "H2O + C6H11O <=> C6H12O + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36928, 'd13': 2.50415, 'd23': 1.18121},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 602""",
+)
+
+entry(
+    index = 1675,
+    label = "C2HO-1 + C3H5O <=> C3H6O + C2O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29438, 'd13': 2.64671, 'd23': 1.37633},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 603""",
+)
+
+entry(
+    index = 1676,
+    label = "C2HO-1 + C3H7 <=> C2O + C3H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29024, 'd13': 2.6576, 'd23': 1.3731},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 604""",
+)
+
+entry(
+    index = 1677,
+    label = "H2O2 + C6H7-1 <=> C6H8 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2669, 'd13': 2.52787, 'd23': 1.26672},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 605""",
+)
+
+entry(
+    index = 1678,
+    label = "C2H4 + C2H3O-1 <=> C2H4O + C2H3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.53124, 'd13': 2.75993, 'd23': 1.2334},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 606""",
+)
+
+entry(
+    index = 1679,
+    label = "C3H6-1 + C2H3O <=> C2H4O + C3H5-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.46406, 'd13': 2.69569, 'd23': 1.24294},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 607""",
+)
+
+entry(
+    index = 1680,
+    label = "C6H6 + C2H5O-1 <=> C2H6O + C6H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.41251, 'd13': 2.66815, 'd23': 1.27191},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 608""",
+)
+
+entry(
+    index = 1681,
+    label = "C2H6O + C5H7-1 <=> C2H5O + C5H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.45592, 'd13': 2.70711, 'd23': 1.28329},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 609""",
+)
+
+entry(
+    index = 1682,
+    label = "C4H10 + C2H5O <=> C4H9 + C2H6O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.41318, 'd13': 2.71554, 'd23': 1.30948},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 610""",
+)
+
+entry(
+    index = 1683,
+    label = "CH4 + C3H2 <=> C3H3-1 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.38512, 'd13': 2.66668, 'd23': 1.28156},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 611""",
+)
+
+entry(
+    index = 1684,
+    label = "C3H6-1 + C4H7-1 <=> C4H8 + C3H5-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.39697, 'd13': 2.67551, 'd23': 1.28375},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 612""",
+)
+
+entry(
+    index = 1685,
+    label = "C2HO-1 + C6H7-1 <=> C2O + C6H8",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.373, 'd13': 2.65764, 'd23': 1.30356},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 613""",
+)
+
+entry(
+    index = 1686,
+    label = "C3H6O + C6H7 <=> C3H5O + C6H8",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.43575, 'd13': 2.69872, 'd23': 1.27728},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 614""",
+)
+
+entry(
+    index = 1687,
+    label = "C3H8 + CHO <=> CH2O + C3H7",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.4446, 'd13': 2.71612, 'd23': 1.29165},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 615""",
+)
+
+entry(
+    index = 1688,
+    label = "C4H6-1 + C2H3O-1 <=> C2H4O + C4H5-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.42844, 'd13': 2.70193, 'd23': 1.29795},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 616""",
+)
+
+entry(
+    index = 1689,
+    label = "C5H6-1 + CH3O <=> C5H5-1 + CH4O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.48209, 'd13': 2.698, 'd23': 1.23286},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 617""",
+)
+
+entry(
+    index = 1690,
+    label = "C4H6 + C4H7-1 <=> C4H8 + C4H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40053, 'd13': 2.67229, 'd23': 1.28012},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 618""",
+)
+
+entry(
+    index = 1691,
+    label = "C3H8 + C4H7 <=> C4H8 + C3H7",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.44138, 'd13': 2.71035, 'd23': 1.27256},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 619""",
+)
+
+entry(
+    index = 1692,
+    label = "CH3-1 + C7H13O <=> C7H14O-1 + CH2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.4622, 'd13': 2.69945, 'd23': 1.23772},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 620""",
+)
+
+entry(
+    index = 1693,
+    label = "H2 + C6H11O <=> C6H12O + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.02314, 'd13': 2.2779, 'd23': 1.25894},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 621""",
+)
+
+entry(
+    index = 1694,
+    label = "C2H4 + C2H3O <=> C2H4O + C2H3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.458, 'd13': 2.69391, 'd23': 1.24746},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 622""",
+)
+
+entry(
+    index = 1695,
+    label = "C4H6 + C4H9 <=> C4H10 + C4H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40569, 'd13': 2.67701, 'd23': 1.27659},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 623""",
+)
+
+entry(
+    index = 1696,
+    label = "H2 + CH3O <=> CH4O + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.986983, 'd13': 2.29106, 'd23': 1.30459},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 624""",
+)
+
+entry(
+    index = 1697,
+    label = "C3H4O-1 + C2H3O-1 <=> C2H4O + C3H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.39267, 'd13': 2.7684, 'd23': 1.38531},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 625""",
+)
+
+entry(
+    index = 1698,
+    label = "C4H4-2 + C3H3 <=> C3H4 + C4H3-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.33955, 'd13': 2.66168, 'd23': 1.33324},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 626""",
+)
+
+entry(
+    index = 1699,
+    label = "CH2O + C4H9O <=> C4H10O + CHO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29897, 'd13': 2.74742, 'd23': 1.44989},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 627""",
+)
+
+entry(
+    index = 1700,
+    label = "H2O + C2H5O-3 <=> C2H6O-3 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.5128, 'd13': 2.61929, 'd23': 1.15129},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 628""",
+)
+
+entry(
+    index = 1701,
+    label = "CH4O-1 + CH3O <=> CH3O-1 + CH4O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.33439, 'd13': 2.52067, 'd23': 1.20857},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 629""",
+)
+
+entry(
+    index = 1702,
+    label = "H2 + C2H3O2 <=> C2H4O2 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.09304, 'd13': 2.3462, 'd23': 1.26037},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 630""",
+)
+
+entry(
+    index = 1703,
+    label = "HO-1 + C3H5-1 <=> C3H6-1 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.14961, 'd13': 2.4856, 'd23': 1.33958},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 631""",
+)
+
+entry(
+    index = 1704,
+    label = "CH4O2 + C3H7-1 <=> CH3O2 + C3H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.19512, 'd13': 2.5139, 'd23': 1.32517},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 632""",
+)
+
+entry(
+    index = 1705,
+    label = "CH4O2 + C4H9O-1 <=> C4H10O-1 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.07937, 'd13': 2.36242, 'd23': 1.30432},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 633""",
+)
+
+entry(
+    index = 1706,
+    label = "H2 + C3H7 <=> H + C3H8",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.923371, 'd13': 2.28149, 'd23': 1.36001},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 634""",
+)
+
+entry(
+    index = 1707,
+    label = "H2 + C3H7-1 <=> H + C3H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.956339, 'd13': 2.27445, 'd23': 1.31948},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 635""",
+)
+
+entry(
+    index = 1708,
+    label = "H2 + C4H9O-2 <=> C4H10O-2 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.939134, 'd13': 2.27818, 'd23': 1.34128},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 636""",
+)
+
+entry(
+    index = 1709,
+    label = "CH4O-1 + C4H9 <=> C4H10 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27888, 'd13': 2.50632, 'd23': 1.23401},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 637""",
+)
+
+entry(
+    index = 1710,
+    label = "H2 + C4H9O-3 <=> C4H10O-3 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.872138, 'd13': 2.11077, 'd23': 1.24581},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 638""",
+)
+
+entry(
+    index = 1711,
+    label = "CH4 + C4H7O <=> C4H8O + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37024, 'd13': 2.68214, 'd23': 1.31731},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 639""",
+)
+
+entry(
+    index = 1712,
+    label = "CH4 + C4H9O-4 <=> C4H10O-4 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.35844, 'd13': 2.68127, 'd23': 1.32663},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 640""",
+)
+
+entry(
+    index = 1713,
+    label = "CH4 + C4H7-2 <=> C4H8-2 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.44175, 'd13': 2.70769, 'd23': 1.26724},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 641""",
+)
+
+entry(
+    index = 1714,
+    label = "CH4O2 + C4H7-3 <=> C4H8-3 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24578, 'd13': 2.53367, 'd23': 1.29765},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 642""",
+)
+
+entry(
+    index = 1715,
+    label = "H2 + C4H7-2 <=> C4H8-2 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.0081, 'd13': 2.2845, 'd23': 1.27649},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 643""",
+)
+
+entry(
+    index = 1716,
+    label = "H2O2 + C4H7O-1 <=> C4H8O-1 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25026, 'd13': 2.52461, 'd23': 1.28261},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 644""",
+)
+
+entry(
+    index = 1717,
+    label = "H2O + C2H3O-1 <=> C2H4O-1 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.64209, 'd13': 2.71514, 'd23': 1.1394},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 645""",
+)
+
+entry(
+    index = 1718,
+    label = "H2 + C4H5O-1 <=> C4H6O-1 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.06616, 'd13': 2.33697, 'd23': 1.27174},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 646""",
+)
+
+entry(
+    index = 1719,
+    label = "H2 + C3H5O2 <=> C3H6O2 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.06805, 'd13': 2.33437, 'd23': 1.2669},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 647""",
+)
+
+entry(
+    index = 1720,
+    label = "H2O + C4H9O-5 <=> C4H10O-5 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.41389, 'd13': 2.57381, 'd23': 1.16667},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 648""",
+)
+
+entry(
+    index = 1721,
+    label = "C3H8O2 + O2 <=> C3H7O2 + HO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32505, 'd13': 2.38761, 'd23': 1.09023},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 649""",
+)
+
+entry(
+    index = 1722,
+    label = "CH4O2 + C2H3O-2 <=> C2H4O-2 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.14895, 'd13': 2.50432, 'd23': 1.36467},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 650""",
+)
+
+entry(
+    index = 1723,
+    label = "C4H10O2 + C2H3O-1 <=> C4H9O2 + C2H4O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23616, 'd13': 2.52347, 'd23': 1.30405},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 651""",
+)
+
+entry(
+    index = 1724,
+    label = "H2O2 + C4H9O-6 <=> C4H10O-6 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25562, 'd13': 2.51981, 'd23': 1.27729},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 652""",
+)
+
+entry(
+    index = 1725,
+    label = "H2 + C4H9O-7 <=> C4H10O-7 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.871769, 'd13': 2.10535, 'd23': 1.24231},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 653""",
+)
+
+entry(
+    index = 1726,
+    label = "CH2O + C4H9O-8 <=> C4H10O-8 + CHO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.31801, 'd13': 2.71121, 'd23': 1.41851},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 654""",
+)
+
+entry(
+    index = 1727,
+    label = "H2 + C4H5-2 <=> C4H6-2 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.00899, 'd13': 2.28333, 'd23': 1.27518},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 655""",
+)
+
+entry(
+    index = 1728,
+    label = "HO-1 + C4H9O-7 <=> C4H10O-7 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16845, 'd13': 2.28522, 'd23': 1.14746},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 656""",
+)
+
+entry(
+    index = 1729,
+    label = "H2 + C4H7O <=> C4H8O + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.927919, 'd13': 2.27361, 'd23': 1.34691},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 657""",
+)
+
+entry(
+    index = 1730,
+    label = "C4H10O2 + HO2-1 <=> H2O2 + C4H9O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.15115, 'd13': 2.34013, 'd23': 1.20727},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 658""",
+)
+
+entry(
+    index = 1731,
+    label = "H2 + C4H9O-9 <=> C4H10O-9 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.919176, 'd13': 2.27802, 'd23': 1.35986},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 659""",
+)
+
+entry(
+    index = 1732,
+    label = "H2O2 + C4H9O-4 <=> C4H10O-4 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17556, 'd13': 2.50362, 'd23': 1.33804},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 660""",
+)
+
+entry(
+    index = 1733,
+    label = "CH4O2 + CH3O <=> CH4O + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23729, 'd13': 2.48627, 'd23': 1.30042},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 661""",
+)
+
+entry(
+    index = 1734,
+    label = "CH2O + C4H9O-1 <=> C4H10O-1 + CHO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.19569, 'd13': 2.53866, 'd23': 1.37129},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 662""",
+)
+
+entry(
+    index = 1735,
+    label = "H2O + C3H7-1 <=> C3H8-1 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.49384, 'd13': 2.63898, 'd23': 1.14619},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 663""",
+)
+
+entry(
+    index = 1736,
+    label = "C4H10O2-1 + HO2-1 <=> C4H9O2-1 + H2O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.12824, 'd13': 2.34994, 'd23': 1.22209},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 664""",
+)
+
+entry(
+    index = 1737,
+    label = "C3H8O2-1 + C4H7-3 <=> C4H8-3 + C3H7O2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24195, 'd13': 2.53334, 'd23': 1.29409},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 665""",
+)
+
+entry(
+    index = 1738,
+    label = "H2O + C4H9O-4 <=> C4H10O-4 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3834, 'd13': 2.54751, 'd23': 1.17593},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 666""",
+)
+
+entry(
+    index = 1739,
+    label = "H2 + C2H3O-3 <=> C2H4O-3 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.959583, 'd13': 2.11145, 'd23': 1.15805},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 667""",
+)
+
+entry(
+    index = 1740,
+    label = "HO2 + C4H9O-4 <=> C4H10O-4 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.0692, 'd13': 2.64023, 'd23': 1.57444},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 668""",
+)
+
+entry(
+    index = 1741,
+    label = "CH4O2 + C4H9O-10 <=> C4H10O-10 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.20571, 'd13': 2.50003, 'd23': 1.32576},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 669""",
+)
+
+entry(
+    index = 1742,
+    label = "H2O2 + C2H5O-3 <=> C2H6O-3 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23527, 'd13': 2.52018, 'd23': 1.30205},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 670""",
+)
+
+entry(
+    index = 1743,
+    label = "H2O + C4H7-3 <=> C4H8-3 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.51053, 'd13': 2.65012, 'd23': 1.14772},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 671""",
+)
+
+entry(
+    index = 1744,
+    label = "C2H6 + C4H9O-11 <=> C4H10O-11 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34243, 'd13': 2.6813, 'd23': 1.34469},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 672""",
+)
+
+entry(
+    index = 1745,
+    label = "C4H10O2-1 + CH3O <=> C4H9O2-1 + CH4O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.20941, 'd13': 2.50023, 'd23': 1.3291},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 673""",
+)
+
+entry(
+    index = 1746,
+    label = "H2O2 + C4H7O-2 <=> C4H8O-2 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2667, 'd13': 2.5225, 'd23': 1.27912},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 674""",
+)
+
+entry(
+    index = 1747,
+    label = "C4H10O3 + O2 <=> C4H9O3 + HO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32425, 'd13': 2.38721, 'd23': 1.09227},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 675""",
+)
+
+entry(
+    index = 1748,
+    label = "HO2 + C2H3O-1 <=> C2H4O-1 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.14894, 'd13': 2.57556, 'd23': 1.44518},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 676""",
+)
+
+entry(
+    index = 1749,
+    label = "H2O + C4H9-1 <=> C4H10-1 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.49396, 'd13': 2.63742, 'd23': 1.1486},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 677""",
+)
+
+entry(
+    index = 1750,
+    label = "C3H8O2 + CH3 <=> CH4 + C3H7O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.13273, 'd13': 2.51842, 'd23': 1.38853},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 678""",
+)
+
+entry(
+    index = 1751,
+    label = "C3H8 + C3H5O-1 <=> C3H6O-1 + C3H7",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.4558, 'd13': 2.74598, 'd23': 1.2947},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 679""",
+)
+
+entry(
+    index = 1752,
+    label = "C2H6O-2 + C3H5O-1 <=> C3H6O-1 + C2H5O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.43529, 'd13': 2.58792, 'd23': 1.18165},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 680""",
+)
+
+entry(
+    index = 1753,
+    label = "H2O2 + C4H7O-3 <=> C4H8O-3 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23612, 'd13': 2.51075, 'd23': 1.31028},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 681""",
+)
+
+entry(
+    index = 1754,
+    label = "CH4 + C2H3O2-1 <=> C2H4O2-1 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37518, 'd13': 2.67744, 'd23': 1.3091},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 682""",
+)
+
+entry(
+    index = 1755,
+    label = "C3H8O2 + C4H7 <=> C4H8 + C3H7O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24798, 'd13': 2.53331, 'd23': 1.28981},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 683""",
+)
+
+entry(
+    index = 1756,
+    label = "CH4O-1 + C4H7-3 <=> C4H8-3 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36669, 'd13': 2.55486, 'd23': 1.2},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 684""",
+)
+
+entry(
+    index = 1757,
+    label = "H2 + C4H5O-2 <=> C4H6O-2 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.07201, 'd13': 2.33252, 'd23': 1.26304},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 685""",
+)
+
+entry(
+    index = 1758,
+    label = "CH4O2 + C4H7O-3 <=> C4H8O-3 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24666, 'd13': 2.52377, 'd23': 1.30729},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 686""",
+)
+
+entry(
+    index = 1759,
+    label = "CH2O2 + HO2-1 <=> CHO2 + H2O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40874, 'd13': 2.39182, 'd23': 1.02853},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 687""",
+)
+
+entry(
+    index = 1760,
+    label = "CH4O + C4H9O-9 <=> C4H10O-9 + CH3O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.31308, 'd13': 2.69369, 'd23': 1.39294},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 688""",
+)
+
+entry(
+    index = 1761,
+    label = "C3H6 + C4H7-2 <=> C4H8-2 + C3H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34699, 'd13': 2.70101, 'd23': 1.3639},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 689""",
+)
+
+entry(
+    index = 1762,
+    label = "CH4O2 + C3H3O-1 <=> C3H4O-1 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23072, 'd13': 2.51841, 'd23': 1.30771},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 690""",
+)
+
+entry(
+    index = 1763,
+    label = "H2O + C4H9O-11 <=> C4H10O-11 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.44045, 'd13': 2.59098, 'd23': 1.16073},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 691""",
+)
+
+entry(
+    index = 1764,
+    label = "H2 + C4H9O-4 <=> C4H10O-4 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.917993, 'd13': 2.28211, 'd23': 1.36495},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 692""",
+)
+
+entry(
+    index = 1765,
+    label = "C2H4O3 + C3H7-1 <=> C3H8-1 + C2H3O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26669, 'd13': 2.51965, 'd23': 1.2599},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 693""",
+)
+
+entry(
+    index = 1766,
+    label = "HO-1 + C4H9O-12 <=> C4H10O-12 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16904, 'd13': 2.27975, 'd23': 1.14733},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 694""",
+)
+
+entry(
+    index = 1767,
+    label = "C2H4 + C4H5O-3 <=> C4H6O-3 + C2H3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.5076, 'd13': 2.72056, 'd23': 1.22248},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 695""",
+)
+
+entry(
+    index = 1768,
+    label = "C2H6 + C4H9O-4 <=> C4H10O-4 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34222, 'd13': 2.68891, 'd23': 1.34814},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 696""",
+)
+
+entry(
+    index = 1769,
+    label = "H2O2 + C3H5O-1 <=> C3H6O-1 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25651, 'd13': 2.51299, 'd23': 1.28575},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 697""",
+)
+
+entry(
+    index = 1770,
+    label = "C4H10O2 + CH3O <=> CH4O + C4H9O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23023, 'd13': 2.4966, 'd23': 1.30833},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 698""",
+)
+
+entry(
+    index = 1771,
+    label = "C4H10O2-1 + CH3 <=> C4H9O2-1 + CH4",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.13375, 'd13': 2.51739, 'd23': 1.3855},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 699""",
+)
+
+entry(
+    index = 1772,
+    label = "C2H4O3 + C2H5 <=> C2H6 + C2H3O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23065, 'd13': 2.50953, 'd23': 1.28552},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 700""",
+)
+
+entry(
+    index = 1773,
+    label = "H2O2 + C4H9O-8 <=> C4H10O-8 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.20304, 'd13': 2.49914, 'd23': 1.30835},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 701""",
+)
+
+entry(
+    index = 1774,
+    label = "C4H10O3-1 + HO2-1 <=> C4H9O3-1 + H2O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.20033, 'd13': 2.33924, 'd23': 1.15913},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 702""",
+)
+
+entry(
+    index = 1775,
+    label = "H2O + C2H3O2-1 <=> C2H4O2-1 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.344, 'd13': 2.50932, 'd23': 1.18973},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 703""",
+)
+
+entry(
+    index = 1776,
+    label = "H2O2 + C4H7O-4 <=> C4H8O-4 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.18567, 'd13': 2.50451, 'd23': 1.32705},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 704""",
+)
+
+entry(
+    index = 1777,
+    label = "C4H10O3-2 + O2 <=> C4H9O3-2 + HO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.237, 'd13': 2.37343, 'd23': 1.14228},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 705""",
+)
+
+entry(
+    index = 1778,
+    label = "CH4O + C4H9O-7 <=> C4H10O-7 + CH3O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.20057, 'd13': 2.54411, 'd23': 1.3546},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 706""",
+)
+
+entry(
+    index = 1779,
+    label = "C3H8O2-1 + CH3O <=> CH4O + C3H7O2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.20983, 'd13': 2.52411, 'd23': 1.31492},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 707""",
+)
+
+entry(
+    index = 1780,
+    label = "CH4O-1 + C4H9O-8 <=> C4H10O-8 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.31884, 'd13': 2.52587, 'd23': 1.21085},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 708""",
+)
+
+entry(
+    index = 1781,
+    label = "HO2 + C4H9O-5 <=> C4H10O-5 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.06983, 'd13': 2.62781, 'd23': 1.56254},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 709""",
+)
+
+entry(
+    index = 1782,
+    label = "C4H10 + C4H9-2 <=> C4H10-2 + C4H9",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.39687, 'd13': 2.69707, 'd23': 1.30237},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 710""",
+)
+
+entry(
+    index = 1783,
+    label = "C2H6O3 + CHO <=> C2H5O3 + CH2O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23375, 'd13': 2.50952, 'd23': 1.30262},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 711""",
+)
+
+entry(
+    index = 1784,
+    label = "H2 + C4H7O-5 <=> C4H8O-5 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.07312, 'd13': 2.30767, 'd23': 1.23797},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 712""",
+)
+
+entry(
+    index = 1785,
+    label = "CH4O + C4H9O-11 <=> C4H10O-11 + CH3O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.31742, 'd13': 2.7005, 'd23': 1.39211},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 713""",
+)
+
+entry(
+    index = 1786,
+    label = "CH4 + C2H3O-3 <=> C2H4O-3 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.33028, 'd13': 2.50383, 'd23': 1.179},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 714""",
+)
+
+entry(
+    index = 1787,
+    label = "CH4O2 + C4H9 <=> C4H10 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17563, 'd13': 2.51703, 'd23': 1.34575},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 715""",
+)
+
+entry(
+    index = 1788,
+    label = "H2O + C4H7O-6 <=> C4H8O-6 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3522, 'd13': 2.51422, 'd23': 1.18852},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 716""",
+)
+
+entry(
+    index = 1789,
+    label = "C4H10O3-3 + HO2-1 <=> C4H9O3-3 + H2O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16367, 'd13': 2.33583, 'd23': 1.18621},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 717""",
+)
+
+entry(
+    index = 1790,
+    label = "CH4O2 + C4H9O-3 <=> C4H10O-3 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.07627, 'd13': 2.35508, 'd23': 1.29131},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 718""",
+)
+
+entry(
+    index = 1791,
+    label = "CH4 + C4H9O-1 <=> C4H10O-1 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2616, 'd13': 2.48667, 'd23': 1.23177},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 719""",
+)
+
+entry(
+    index = 1792,
+    label = "C4H10O2 + C2H5 <=> C2H6 + C4H9O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1649, 'd13': 2.51344, 'd23': 1.35101},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 720""",
+)
+
+entry(
+    index = 1793,
+    label = "C4H10O2-2 + CHO <=> C4H9O2-2 + CH2O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2206, 'd13': 2.50293, 'd23': 1.3138},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 721""",
+)
+
+entry(
+    index = 1794,
+    label = "CH4O2 + C4H9O-12 <=> C4H10O-12 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.07655, 'd13': 2.35144, 'd23': 1.289},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 722""",
+)
+
+entry(
+    index = 1795,
+    label = "HO-1 + C4H7O-5 <=> C4H8O-5 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.49674, 'd13': 2.60424, 'd23': 1.16705},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 723""",
+)
+
+entry(
+    index = 1796,
+    label = "H2O + C4H7O-2 <=> C4H8O-2 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.66881, 'd13': 2.73101, 'd23': 1.13985},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 724""",
+)
+
+entry(
+    index = 1797,
+    label = "C2H6 + C4H7O-7 <=> C4H8O-7 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.39075, 'd13': 2.68906, 'd23': 1.30349},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 725""",
+)
+
+entry(
+    index = 1798,
+    label = "CH4O2 + C4H7O <=> C4H8O + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16999, 'd13': 2.50215, 'd23': 1.35257},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 726""",
+)
+
+entry(
+    index = 1799,
+    label = "C2H4O3 + C4H9 <=> C4H10 + C2H3O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23203, 'd13': 2.51429, 'd23': 1.28781},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 727""",
+)
+
+entry(
+    index = 1800,
+    label = "H2O2 + C2H3O2-1 <=> C2H4O2-1 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16276, 'd13': 2.50829, 'd23': 1.35568},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 728""",
+)
+
+entry(
+    index = 1801,
+    label = "H2 + C2H3O2-2 <=> C2H4O2-2 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.97553, 'd13': 2.29595, 'd23': 1.32147},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 729""",
+)
+
+entry(
+    index = 1802,
+    label = "CH4O2 + C4H7O-4 <=> C4H8O-4 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16052, 'd13': 2.51388, 'd23': 1.363},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 730""",
+)
+
+entry(
+    index = 1803,
+    label = "CH4O2 + C3H5O-1 <=> C3H6O-1 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24567, 'd13': 2.52349, 'd23': 1.29837},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 731""",
+)
+
+entry(
+    index = 1804,
+    label = "CH4 + C3H5O-2 <=> C3H6O-2 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32482, 'd13': 2.67071, 'd23': 1.34703},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 732""",
+)
+
+entry(
+    index = 1805,
+    label = "H2O + C4H9O-7 <=> C4H10O-7 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29438, 'd13': 2.255, 'd23': 1.05914},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 733""",
+)
+
+entry(
+    index = 1806,
+    label = "H2O2 + C4H9O-1 <=> C4H10O-1 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.09648, 'd13': 2.33214, 'd23': 1.25222},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 734""",
+)
+
+entry(
+    index = 1807,
+    label = "H2 + C3H5O-2 <=> C3H6O-2 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.898102, 'd13': 2.29131, 'd23': 1.39335},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 735""",
+)
+
+entry(
+    index = 1808,
+    label = "CH4O + C4H9O-4 <=> C4H10O-4 + CH3O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30244, 'd13': 2.70647, 'd23': 1.40795},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 736""",
+)
+
+entry(
+    index = 1809,
+    label = "CH4O2 + C2H3O-1 <=> CH3O2 + C2H4O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24399, 'd13': 2.52368, 'd23': 1.29978},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 737""",
+)
+
+entry(
+    index = 1810,
+    label = "HO-1 + C4H9O <=> C4H10O + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23479, 'd13': 2.50958, 'd23': 1.27958},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 738""",
+)
+
+entry(
+    index = 1811,
+    label = "H2 + C4H7-3 <=> C4H8-3 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.03036, 'd13': 2.28979, 'd23': 1.26072},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""Reverse reaction for reaction index 739""",
 )
 
 entry(
-    index = 1113,
-    label = "C5H6-1 + C3H3O-1 <=> C5H5-1 + C3H4O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.21228, 'd13': 2.77185, 'd23': 1.56487},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 926""",
-)
-
-entry(
-    index = 763,
-    label = "C5H5-1 + C4H6-1 <=> C5H6-1 + C4H5-1",
-    distances = DistanceData(
-        distances = {'d12': 1.25326, 'd13': 2.67051, 'd23': 1.41772},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1168,
-    label = "C4H8O3 + O2 <=> HO2 + C4H7O3",
-    distances = DistanceData(
-        distances = {'d12': 1.05085, 'd13': 2.45125, 'd23': 1.40891},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 774""",
-)
-
-entry(
-    index = 1176,
-    label = "C4H6 + H <=> C4H5 + H2",
-    distances = DistanceData(
-        distances = {'d12': 0.868906, 'd13': 2.29421, 'd23': 1.42789},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 955""",
-)
-
-entry(
-    index = 788,
-    label = "C6H8 + C3H3O-1 <=> C3H4O-1 + C6H7",
-    distances = DistanceData(
-        distances = {'d12': 1.32693, 'd13': 2.72644, 'd23': 1.40764},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 873,
-    label = "C3H5-2 + C5H8-1 <=> C3H6-2 + C5H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.22668, 'd13': 2.74045, 'd23': 1.5169},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1144,
-    label = "C2H2O + C3H3O <=> C3H4O + C2HO",
-    distances = DistanceData(
-        distances = {'d12': 1.20818, 'd13': 2.70272, 'd23': 1.50799},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 883""",
-)
-
-entry(
-    index = 1070,
-    label = "C5H6-1 + CH3O <=> C5H5-1 + CH4O",
-    distances = DistanceData(
-        distances = {'d12': 1.23286, 'd13': 2.698, 'd23': 1.48209},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 790""",
-)
-
-entry(
-    index = 925,
-    label = "C2H5O-2 + C6H8-3 <=> C2H6O-2 + C6H7-3",
-    distances = DistanceData(
-        distances = {'d12': 1.16827, 'd13': 2.60362, 'd23': 1.47037},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 952,
-    label = "C2H4O + C3H5-1 <=> C3H6-1 + C2H3O",
-    distances = DistanceData(
-        distances = {'d12': 1.24294, 'd13': 2.69569, 'd23': 1.46406},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1126,
-    label = "C2H6O-1 + C3H3O <=> C3H4O + C2H5O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.27855, 'd13': 2.69884, 'd23': 1.43642},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 933""",
-)
-
-entry(
-    index = 1033,
-    label = "C5H6-1 + C4H7-1 <=> C4H8-1 + C5H5-1",
-    distances = DistanceData(
-        distances = {'d12': 1.25779, 'd13': 2.68301, 'd23': 1.4303},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 823""",
-)
-
-entry(
-    index = 804,
-    label = "CH2O + C3H7 <=> C3H8 + CHO",
-    distances = DistanceData(
-        distances = {'d12': 1.29165, 'd13': 2.71612, 'd23': 1.4446},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 851,
-    label = "C4H5 + C3H4O-1 <=> C4H6 + C3H3O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.23749, 'd13': 2.76161, 'd23': 1.52791},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 915,
-    label = "C2H3O + C6H8 <=> C2H4O + C6H7",
-    distances = DistanceData(
-        distances = {'d12': 1.28222, 'd13': 2.70728, 'd23': 1.43207},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 948,
-    label = "C5H5-1 + C2H6 <=> C5H6-1 + C2H5",
-    distances = DistanceData(
-        distances = {'d12': 1.25029, 'd13': 2.67572, 'd23': 1.4357},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 790,
-    label = "C5H5-1 + CH4O <=> C5H6-1 + CH3O",
-    distances = DistanceData(
-        distances = {'d12': 1.23286, 'd13': 2.698, 'd23': 1.48209},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 812,
-    label = "C3H5O + H2O2 <=> C3H6O + HO2-1",
-    distances = DistanceData(
-        distances = {'d12': 1.18004, 'd13': 2.50468, 'd23': 1.33384},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 869,
-    label = "C2H6O + C3H5-1 <=> C3H6-1 + C2H5O",
-    distances = DistanceData(
-        distances = {'d12': 1.25163, 'd13': 2.69261, 'd23': 1.46878},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 984,
-    label = "C2HO-1 + C4H5O3 <=> C2O + C4H6O3",
-    distances = DistanceData(
-        distances = {'d12': 1.29547, 'd13': 2.44288, 'd23': 1.22556},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 821""",
-)
-
-entry(
-    index = 828,
-    label = "C3H3-2 + C3H4O-1 <=> C3H4-1 + C3H3O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.33338, 'd13': 2.73703, 'd23': 1.41055},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 786,
-    label = "C3H5O + C6H8 <=> C3H6O + C6H7",
-    distances = DistanceData(
-        distances = {'d12': 1.27728, 'd13': 2.69872, 'd23': 1.43575},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1100,
-    label = "C2H6O-1 + C4H7 <=> C4H8 + C2H5O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.26366, 'd13': 2.71186, 'd23': 1.45239},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 903""",
-)
-
-entry(
-    index = 770,
-    label = "C4H9 + CH2O <=> C4H10 + CHO",
-    distances = DistanceData(
-        distances = {'d12': 1.29256, 'd13': 2.71979, 'd23': 1.44608},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 955,
-    label = "C4H5 + H2 <=> C4H6 + H",
-    distances = DistanceData(
-        distances = {'d12': 0.868906, 'd13': 2.29421, 'd23': 1.42789},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1063,
-    label = "C3H6-1 + C2H3O <=> C2H4O + C3H5-1",
-    distances = DistanceData(
-        distances = {'d12': 1.24294, 'd13': 2.69569, 'd23': 1.46406},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 952""",
-)
-
-entry(
-    index = 941,
-    label = "C2O + C6H8 <=> C2HO-1 + C6H7",
-    distances = DistanceData(
-        distances = {'d12': 1.28566, 'd13': 2.66596, 'd23': 1.41018},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1161,
-    label = "C3H8-1 + C4H5O <=> C4H6O + C3H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.31482, 'd13': 2.70454, 'd23': 1.39366},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 905""",
-)
-
-entry(
-    index = 1194,
-    label = "C3H6-2 + C4H9 <=> C4H10 + C3H5-2",
-    distances = DistanceData(
-        distances = {'d12': 1.311, 'd13': 2.67475, 'd23': 1.36923},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 855""",
-)
-
-entry(
-    index = 1003,
-    label = "CH3-1 + C6H7 <=> C6H8 + CH2",
-    distances = DistanceData(
-        distances = {'d12': 1.22945, 'd13': 2.69941, 'd23': 1.48121},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 751""",
-)
-
-entry(
-    index = 1041,
-    label = "H2 + C4H7-1 <=> C4H8-1 + H",
-    distances = DistanceData(
-        distances = {'d12': 1.35991, 'd13': 2.27964, 'd23': 0.922801},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 832""",
-)
-
-entry(
-    index = 932,
-    label = "C2H5O-2 + C3H3-1 <=> C2H6O-2 + C3H2",
-    distances = DistanceData(
-        distances = {'d12': 1.23187, 'd13': 2.48503, 'd23': 1.26673},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 834,
-    label = "C4H9 + C3H4O-1 <=> C4H10 + C3H3O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.29628, 'd13': 2.72409, 'd23': 1.44175},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 963,
-    label = "C4H7-1 + HO2 <=> C4H8-1 + O2",
-    distances = DistanceData(
-        distances = {'d12': 1.071, 'd13': 2.63014, 'd23': 1.56838},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1002,
-    label = "C3H8-1 + C6H7-3 <=> C6H8-3 + C3H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.25999, 'd13': 2.72483, 'd23': 1.46614},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 871""",
-)
-
-entry(
-    index = 1122,
-    label = "CH4 + C3H3O-1 <=> CH3 + C3H4O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.27053, 'd13': 2.74347, 'd23': 1.47295},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 806""",
-)
-
-entry(
-    index = 1079,
-    label = "H2O2 + C5H7-1 <=> HO2-1 + C5H8-1",
-    distances = DistanceData(
-        distances = {'d12': 1.2596, 'd13': 2.54094, 'd23': 1.29536},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 841""",
-)
-
-entry(
-    index = 846,
-    label = "CH2O + C3H5 <=> C3H6 + CHO",
-    distances = DistanceData(
-        distances = {'d12': 1.36139, 'd13': 2.73144, 'd23': 1.37055},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1038,
-    label = "H2 + CHO <=> CH2O + H",
-    distances = DistanceData(
-        distances = {'d12': 1.26516, 'd13': 2.33001, 'd23': 1.06488},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 949""",
-)
-
-entry(
-    index = 1134,
-    label = "C4H8-1 + CHO <=> C4H7-1 + CH2O",
-    distances = DistanceData(
-        distances = {'d12': 1.28691, 'd13': 2.73049, 'd23': 1.45431},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 974""",
-)
-
-entry(
-    index = 819,
-    label = "C6H11O + HO2 <=> C6H12O + O2",
-    distances = DistanceData(
-        distances = {'d12': 1.1049, 'd13': 2.59673, 'd23': 1.50072},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 894,
-    label = "C3H4 + C4H3-2 <=> C4H4-2 + C3H3",
-    distances = DistanceData(
-        distances = {'d12': 1.33324, 'd13': 2.66168, 'd23': 1.33955},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 755,
-    label = "C6H8-1 + C3H5 <=> C3H6 + C6H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.34303, 'd13': 2.69934, 'd23': 1.36251},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 741,
-    label = "C4H9 + C2H6 <=> C4H10 + C2H5",
-    distances = DistanceData(
-        distances = {'d12': 1.34613, 'd13': 2.69062, 'd23': 1.34864},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1190,
-    label = "C4H8O3 + CH3O <=> CH4O + C4H7O3",
-    distances = DistanceData(
-        distances = {'d12': 1.2397, 'd13': 2.54065, 'd23': 1.31272},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 904""",
-)
-
-entry(
-    index = 1024,
-    label = "CH4 + C6H7-1 <=> C6H8-1 + CH3",
-    distances = DistanceData(
-        distances = {'d12': 1.24498, 'd13': 2.70693, 'd23': 1.46572},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 818""",
-)
-
-entry(
-    index = 902,
-    label = "C3H6 + CH2 <=> CH3-1 + C3H5",
-    distances = DistanceData(
-        distances = {'d12': 1.25295, 'd13': 2.69011, 'd23': 1.43716},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1056,
-    label = "C3H6-2 + C5H7-1 <=> C3H5-2 + C5H8-1",
-    distances = DistanceData(
-        distances = {'d12': 1.22668, 'd13': 2.74045, 'd23': 1.5169},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 873""",
-)
-
-entry(
-    index = 974,
-    label = "C4H7-1 + CH2O <=> C4H8-1 + CHO",
-    distances = DistanceData(
-        distances = {'d12': 1.28691, 'd13': 2.73049, 'd23': 1.45431},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1153,
-    label = "H2 + C3H3-2 <=> H + C3H4-1",
-    distances = DistanceData(
-        distances = {'d12': 1.28684, 'd13': 2.27534, 'd23': 0.989057},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 930""",
-)
-
-entry(
-    index = 1191,
-    label = "C6H12O + C3H5 <=> C6H11O + C3H6",
-    distances = DistanceData(
-        distances = {'d12': 1.34419, 'd13': 2.68744, 'd23': 1.3542},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 782""",
-)
-
-entry(
-    index = 971,
-    label = "C4H6O + C3H7 <=> C3H8 + C4H5O",
-    distances = DistanceData(
-        distances = {'d12': 1.29249, 'd13': 2.70409, 'd23': 1.41556},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1009,
-    label = "C4H10 + C2H3O <=> C4H9 + C2H4O",
-    distances = DistanceData(
-        distances = {'d12': 1.29263, 'd13': 2.69713, 'd23': 1.40578},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 780""",
-)
-
-entry(
-    index = 1084,
-    label = "C4H4-2 + C2H3O-1 <=> C2H4O-1 + C4H3-2",
-    distances = DistanceData(
-        distances = {'d12': 1.29821, 'd13': 2.71699, 'd23': 1.43014},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 872""",
-)
-
-entry(
-    index = 883,
-    label = "C3H4O + C2HO <=> C2H2O + C3H3O",
-    distances = DistanceData(
-        distances = {'d12': 1.20818, 'd13': 2.70272, 'd23': 1.50799},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 994,
-    label = "C2HO-1 + CH3O <=> C2O + CH4O",
-    distances = DistanceData(
-        distances = {'d12': 1.33986, 'd13': 2.66562, 'd23': 1.33683},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 773""",
-)
-
-entry(
-    index = 1186,
-    label = "CH4O + C4H5O <=> C4H6O + CH3O",
-    distances = DistanceData(
-        distances = {'d12': 1.33432, 'd13': 2.70859, 'd23': 1.38363},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 935""",
-)
-
-entry(
-    index = 893,
-    label = "C7H14O3-2 + H <=> H2 + C7H13O3-2",
-    distances = DistanceData(
-        distances = {'d12': 1.23924, 'd13': 2.28474, 'd23': 1.05547},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1036,
-    label = "C3H4 + C5H5 <=> C5H6 + C3H3",
-    distances = DistanceData(
-        distances = {'d12': 1.28818, 'd13': 2.71621, 'd23': 1.43215},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 914""",
-)
-
-entry(
-    index = 767,
-    label = "C5H5-1 + C4H8 <=> C5H6-1 + C4H7",
-    distances = DistanceData(
-        distances = {'d12': 1.20054, 'd13': 2.73647, 'd23': 1.54533},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 774,
-    label = "HO2 + C4H7O3 <=> C4H8O3 + O2",
-    distances = DistanceData(
-        distances = {'d12': 1.05085, 'd13': 2.45125, 'd23': 1.40891},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1205,
-    label = "CH4O + C3H3 <=> CH3O + C3H4",
-    distances = DistanceData(
-        distances = {'d12': 1.35448, 'd13': 2.64694, 'd23': 1.33566},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 837""",
-)
-
-entry(
-    index = 1140,
-    label = "C3H4O + O2 <=> C3H3O + HO2",
-    distances = DistanceData(
-        distances = {'d12': 1.12756, 'd13': 2.58337, 'd23': 1.47776},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 886""",
-)
-
-entry(
-    index = 1093,
-    label = "C3H6-1 + C2H5O <=> C2H6O + C3H5-1",
-    distances = DistanceData(
-        distances = {'d12': 1.25163, 'd13': 2.69261, 'd23': 1.46878},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 869""",
-)
-
-entry(
-    index = 1083,
-    label = "C4H6O3 + CH3O <=> CH4O + C4H5O3",
-    distances = DistanceData(
-        distances = {'d12': 1.23697, 'd13': 2.5442, 'd23': 1.31812},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 754""",
-)
-
-entry(
-    index = 911,
-    label = "C2O + C7H14O3-1 <=> C2HO-1 + C7H13O3-1",
-    distances = DistanceData(
-        distances = {'d12': 1.20322, 'd13': 2.47449, 'd23': 1.30463},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 944,
-    label = "C5H5 + C5H8 <=> C5H6 + C5H7",
-    distances = DistanceData(
-        distances = {'d12': 1.38704, 'd13': 2.73712, 'd23': 1.35364},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 816,
-    label = "C3H4O + C2H5 <=> C2H6 + C3H3O",
-    distances = DistanceData(
-        distances = {'d12': 1.29343, 'd13': 2.69759, 'd23': 1.41322},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 824,
-    label = "C3H6O + C2H5 <=> C2H6 + C3H5O",
-    distances = DistanceData(
-        distances = {'d12': 1.3031, 'd13': 2.68154, 'd23': 1.38809},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 782,
-    label = "C6H11O + C3H6 <=> C6H12O + C3H5",
-    distances = DistanceData(
-        distances = {'d12': 1.34419, 'd13': 2.68744, 'd23': 1.3542},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 879,
-    label = "C4H7-1 + C4H6-1 <=> C4H8-1 + C4H5-1",
-    distances = DistanceData(
-        distances = {'d12': 1.38408, 'd13': 2.6733, 'd23': 1.29385},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1104,
-    label = "C5H6 + O2 <=> C5H5 + HO2",
-    distances = DistanceData(
-        distances = {'d12': 1.1551, 'd13': 2.61984, 'd23': 1.4756},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 919""",
-)
-
-entry(
-    index = 1068,
-    label = "C2H4O + C6H7 <=> C2H3O + C6H8",
-    distances = DistanceData(
-        distances = {'d12': 1.28222, 'd13': 2.70728, 'd23': 1.43207},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 915""",
-)
-
-entry(
-    index = 1116,
-    label = "C2HO-1 + C4H7O3 <=> C2O + C4H8O3",
-    distances = DistanceData(
-        distances = {'d12': 1.29824, 'd13': 2.44224, 'd23': 1.22384},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 798""",
-)
-
-entry(
-    index = 1165,
-    label = "C3H4O + C3H3 <=> C3H3O + C3H4",
-    distances = DistanceData(
-        distances = {'d12': 1.38164, 'd13': 2.68056, 'd23': 1.31356},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 959""",
-)
-
-entry(
-    index = 864,
-    label = "HO2 + C5H7-1 <=> C5H8-1 + O2",
-    distances = DistanceData(
-        distances = {'d12': 1.17806, 'd13': 2.5809, 'd23': 1.41009},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1171,
-    label = "C4H6 + C3H3O <=> C4H5 + C3H4O",
-    distances = DistanceData(
-        distances = {'d12': 1.23646, 'd13': 2.70816, 'd23': 1.48483},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 850""",
-)
-
-entry(
-    index = 1159,
-    label = "C2HO-1 + C4H3-2 <=> C2O + C4H4-2",
-    distances = DistanceData(
-        distances = {'d12': 1.33539, 'd13': 2.65038, 'd23': 1.32523},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 939""",
-)
-
-entry(
-    index = 876,
-    label = "C6H8-2 + C3H5 <=> C3H6 + C6H7-2",
-    distances = DistanceData(
-        distances = {'d12': 1.30176, 'd13': 2.70556, 'd23': 1.41366},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 936,
-    label = "C6H8 + C4H3 <=> C4H4 + C6H7",
-    distances = DistanceData(
-        distances = {'d12': 1.19794, 'd13': 2.75226, 'd23': 1.55714},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 838,
-    label = "C2H5O-2 + C5H8-1 <=> C2H6O-2 + C5H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.18827, 'd13': 2.59176, 'd23': 1.41159},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1006,
-    label = "C4H8-1 + CH3O <=> C4H7-1 + CH4O",
-    distances = DistanceData(
-        distances = {'d12': 1.3149, 'd13': 2.69717, 'd23': 1.39395},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 863""",
-)
-
-entry(
-    index = 842,
-    label = "C2H4O-1 + C4H5-1 <=> C4H6-1 + C2H3O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.29795, 'd13': 2.70193, 'd23': 1.42844},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 920,
-    label = "C2H2O + C6H5 <=> C6H6 + C2HO",
-    distances = DistanceData(
-        distances = {'d12': 1.27346, 'd13': 2.6232, 'd23': 1.35092},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1034,
-    label = "C5H8-1 + O2 <=> HO2 + C5H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.17806, 'd13': 2.5809, 'd23': 1.41009},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 864""",
-)
-
-entry(
-    index = 1130,
-    label = "CH2O + C4H7 <=> C4H8 + CHO",
-    distances = DistanceData(
-        distances = {'d12': 1.34691, 'd13': 2.72011, 'd23': 1.38629},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 847""",
-)
-
-entry(
-    index = 1069,
-    label = "C5H6-1 + C2H5 <=> C5H5-1 + C2H6",
-    distances = DistanceData(
-        distances = {'d12': 1.25029, 'd13': 2.67572, 'd23': 1.4357},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 948""",
-)
-
-entry(
-    index = 801,
-    label = "C4H8 + C3H3 <=> C3H4 + C4H7",
-    distances = DistanceData(
-        distances = {'d12': 1.28656, 'd13': 2.68616, 'd23': 1.4021},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 916,
-    label = "C2H6 + CH2 <=> CH3-1 + C2H5",
-    distances = DistanceData(
-        distances = {'d12': 1.29393, 'd13': 2.65751, 'd23': 1.36785},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 854,
-    label = "C3H2 + C3H4O-1 <=> C3H3-1 + C3H3O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.29048, 'd13': 2.70823, 'd23': 1.42472},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 795,
-    label = "C4H9 + HO2 <=> C4H10 + O2",
-    distances = DistanceData(
-        distances = {'d12': 1.07128, 'd13': 2.63224, 'd23': 1.56784},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 898,
-    label = "C2H5O + C5H8-1 <=> C2H6O + C5H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.28329, 'd13': 2.70711, 'd23': 1.45592},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 983,
-    label = "C2H6O-1 + C2O <=> C2HO-1 + C2H5O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.27603, 'd13': 2.65577, 'd23': 1.39236},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 796""",
-)
-
-entry(
-    index = 759,
-    label = "C2H6O + C3H2 <=> C3H3-1 + C2H5O",
-    distances = DistanceData(
-        distances = {'d12': 1.30123, 'd13': 2.65081, 'd23': 1.38924},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 745,
-    label = "C7H14O3-3 + H <=> H2 + C7H13O3-3",
-    distances = DistanceData(
-        distances = {'d12': 1.37479, 'd13': 2.28497, 'd23': 0.910186},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1048,
-    label = "C4H6 + C2H3O-1 <=> C4H5 + C2H4O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.22264, 'd13': 2.76781, 'd23': 1.55081},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 906""",
-)
-
-entry(
-    index = 968,
-    label = "C2HO-1 + C2H5O-2 <=> C2H6O-2 + C2O",
-    distances = DistanceData(
-        distances = {'d12': 1.20931, 'd13': 2.42545, 'd23': 1.29442},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1074,
-    label = "C3H4-1 + C3H3O-1 <=> C3H3-2 + C3H4O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.33338, 'd13': 2.73703, 'd23': 1.41055},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 828""",
-)
-
-entry(
-    index = 775,
-    label = "CH3 + C2H6 <=> CH4 + C2H5",
-    distances = DistanceData(
-        distances = {'d12': 1.3078, 'd13': 2.67929, 'd23': 1.37491},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 849,
-    label = "C2H4O + C2H3 <=> C2H4 + C2H3O",
-    distances = DistanceData(
-        distances = {'d12': 1.24746, 'd13': 2.69391, 'd23': 1.458},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 956,
-    label = "C4H7-1 + C4H8 <=> C4H8-1 + C4H7",
-    distances = DistanceData(
-        distances = {'d12': 1.26395, 'd13': 2.70656, 'd23': 1.4483},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1066,
-    label = "C4H4 + C4H7 <=> C4H8 + C4H3",
-    distances = DistanceData(
-        distances = {'d12': 1.20907, 'd13': 2.7289, 'd23': 1.52599},
+    index = 1812,
+    label = "H2O + C2H5O <=> C2H6O + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.53008, 'd13': 2.59898, 'd23': 1.14482},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""Reverse reaction for reaction index 740""",
 )
 
 entry(
-    index = 1028,
-    label = "H2O2 + C6H7-1 <=> C6H8-1 + HO2-1",
-    distances = DistanceData(
-        distances = {'d12': 1.26672, 'd13': 2.52787, 'd23': 1.2669},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 957""",
-)
-
-entry(
-    index = 906,
-    label = "C4H5 + C2H4O-1 <=> C4H6 + C2H3O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.22264, 'd13': 2.76781, 'd23': 1.55081},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1052,
-    label = "C2H6 + C3H5 <=> C3H6 + C2H5",
-    distances = DistanceData(
-        distances = {'d12': 1.28114, 'd13': 2.70064, 'd23': 1.4242},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 938""",
-)
-
-entry(
-    index = 970,
-    label = "C2H5O-1 + C4H8O3 <=> C2H6O-1 + C4H7O3",
-    distances = DistanceData(
-        distances = {'d12': 1.21026, 'd13': 2.49975, 'd23': 1.30339},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1011,
-    label = "H2 + C7H13O3-4 <=> C7H14O3-4 + H",
-    distances = DistanceData(
-        distances = {'d12': 1.12442, 'd13': 2.11848, 'd23': 0.995758},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 802""",
-)
-
-entry(
-    index = 1157,
-    label = "C2H4 + C2H5O-1 <=> C2H6O-1 + C2H3",
-    distances = DistanceData(
-        distances = {'d12': 1.28725, 'd13': 2.66941, 'd23': 1.38918},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 797""",
-)
-
-entry(
-    index = 1044,
-    label = "C2H6 + C3H3O <=> C3H4O + C2H5",
-    distances = DistanceData(
-        distances = {'d12': 1.29343, 'd13': 2.69759, 'd23': 1.41322},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 816""",
-)
-
-entry(
-    index = 833,
-    label = "C6H12O + C2H5O-1 <=> C2H6O-1 + C6H11O",
-    distances = DistanceData(
-        distances = {'d12': 1.28226, 'd13': 2.70645, 'd23': 1.43343},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 966,
-    label = "C2H5O-1 + C5H8-1 <=> C2H6O-1 + C5H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.24491, 'd13': 2.73182, 'd23': 1.4955},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1088,
-    label = "C6H6 + C2H3O-1 <=> C2H4O-1 + C6H5",
-    distances = DistanceData(
-        distances = {'d12': 1.22745, 'd13': 2.74998, 'd23': 1.53858},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 931""",
-)
-
-entry(
-    index = 1137,
-    label = "C3H8 + C4H5O <=> C4H6O + C3H7",
-    distances = DistanceData(
-        distances = {'d12': 1.29249, 'd13': 2.70409, 'd23': 1.41556},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 971""",
-)
-
-entry(
-    index = 887,
-    label = "C2H3O-1 + C6H8-1 <=> C2H4O-1 + C6H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.35993, 'd13': 2.69198, 'd23': 1.36847},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 990,
-    label = "C4H10 + C3H3 <=> C4H9 + C3H4",
-    distances = DistanceData(
-        distances = {'d12': 1.30584, 'd13': 2.66777, 'd23': 1.36856},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 967""",
-)
-
-entry(
-    index = 897,
-    label = "C4H7-1 + C3H8-1 <=> C4H8-1 + C3H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.3144, 'd13': 2.68485, 'd23': 1.3737},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 752,
-    label = "C6H12O + C2H3 <=> C2H4 + C6H11O",
-    distances = DistanceData(
-        distances = {'d12': 1.23336, 'd13': 2.70964, 'd23': 1.48512},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1023,
-    label = "C2HO-1 + C5H7-1 <=> C2O + C5H8-1",
-    distances = DistanceData(
-        distances = {'d12': 1.27178, 'd13': 2.68587, 'd23': 1.43053},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 772""",
-)
-
-entry(
-    index = 901,
-    label = "C6H8 + C4H3-1 <=> C4H4-1 + C6H7",
-    distances = DistanceData(
-        distances = {'d12': 1.25175, 'd13': 2.69783, 'd23': 1.45755},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1097,
-    label = "C4H8-1 + O2 <=> C4H7-1 + HO2",
-    distances = DistanceData(
-        distances = {'d12': 1.071, 'd13': 2.63014, 'd23': 1.56838},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 963""",
-)
-
-entry(
-    index = 1075,
-    label = "C3H6O + C6H7 <=> C3H5O + C6H8",
-    distances = DistanceData(
-        distances = {'d12': 1.27728, 'd13': 2.69872, 'd23': 1.43575},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 786""",
-)
-
-entry(
-    index = 938,
-    label = "C3H6 + C2H5 <=> C2H6 + C3H5",
-    distances = DistanceData(
-        distances = {'d12': 1.28114, 'd13': 2.70064, 'd23': 1.4242},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1087,
-    label = "C3H6-2 + C5H5 <=> C5H6 + C3H5-2",
-    distances = DistanceData(
-        distances = {'d12': 1.2249, 'd13': 2.73975, 'd23': 1.52504},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 742""",
-)
-
-entry(
-    index = 880,
-    label = "C3H5O + C6H8-2 <=> C3H6O + C6H7-2",
-    distances = DistanceData(
-        distances = {'d12': 1.26035, 'd13': 2.72489, 'd23': 1.46951},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 820,
-    label = "C4H7-1 + C3H3-1 <=> C4H8-1 + C3H2",
-    distances = DistanceData(
-        distances = {'d12': 1.31227, 'd13': 2.65729, 'd23': 1.3528},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 875,
-    label = "C2H + C6H8-2 <=> C2H2 + C6H7-2",
-    distances = DistanceData(
-        distances = {'d12': 1.11789, 'd13': 2.95802, 'd23': 1.92812},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1108,
-    label = "C2HO-1 + C7H13O3-4 <=> C2O + C7H14O3-4",
-    distances = DistanceData(
-        distances = {'d12': 1.1624, 'd13': 2.45359, 'd23': 1.34106},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 845""",
-)
-
-entry(
-    index = 778,
-    label = "C4H8 + CH3O <=> CH4O + C4H7",
-    distances = DistanceData(
-        distances = {'d12': 1.3051, 'd13': 2.69432, 'd23': 1.40875},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1150,
-    label = "H2 + C7H13O3-5 <=> C7H14O3-5 + H",
-    distances = DistanceData(
-        distances = {'d12': 1.25835, 'd13': 2.26959, 'd23': 1.02105},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 950""",
-)
-
-entry(
-    index = 1112,
-    label = "C3H6-2 + C2O <=> C2HO-1 + C3H5-2",
-    distances = DistanceData(
-        distances = {'d12': 1.24881, 'd13': 2.65744, 'd23': 1.41691},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 794""",
-)
-
-entry(
-    index = 762,
-    label = "C2H5O-1 + C6H8-1 <=> C2H6O-1 + C6H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.26231, 'd13': 2.69766, 'd23': 1.4453},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1169,
-    label = "C4H4 + C4H7O3 <=> C4H3 + C4H8O3",
-    distances = DistanceData(
-        distances = {'d12': 1.14021, 'd13': 2.50003, 'd23': 1.36034},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 878""",
-)
-
-entry(
-    index = 1175,
-    label = "C4H4-1 + C4H5O <=> C4H6O + C4H3-1",
-    distances = DistanceData(
-        distances = {'d12': 1.28004, 'd13': 2.70043, 'd23': 1.42978},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 884""",
-)
-
-entry(
-    index = 872,
-    label = "C2H4O-1 + C4H3-2 <=> C4H4-2 + C2H3O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.29821, 'd13': 2.71699, 'd23': 1.43014},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1145,
-    label = "C2H2O + C5H7 <=> C2HO + C5H8",
-    distances = DistanceData(
-        distances = {'d12': 1.20374, 'd13': 2.69602, 'd23': 1.50184},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 799""",
-)
-
-entry(
-    index = 1090,
-    label = "C2HO-1 + C6H7-2 <=> C2O + C6H8-2",
-    distances = DistanceData(
-        distances = {'d12': 1.26308, 'd13': 2.68515, 'd23': 1.44379},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 874""",
-)
-
-entry(
-    index = 924,
-    label = "C7H14O + C2H5 <=> C2H6 + C7H13O",
-    distances = DistanceData(
-        distances = {'d12': 1.26281, 'd13': 2.70619, 'd23': 1.45623},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1030,
-    label = "C6H12O + CH3O <=> C6H11O + CH4O",
-    distances = DistanceData(
-        distances = {'d12': 1.39573, 'd13': 2.69101, 'd23': 1.32711},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 860""",
-)
-
-entry(
-    index = 1065,
-    label = "C3H8 + CHO <=> CH2O + C3H7",
-    distances = DistanceData(
-        distances = {'d12': 1.29165, 'd13': 2.71612, 'd23': 1.4446},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 804""",
-)
-
-entry(
-    index = 805,
-    label = "C2O + C7H14O-1 <=> C2HO-1 + C7H13O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.39483, 'd13': 2.65039, 'd23': 1.27497},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 912,
-    label = "C4H8 + C2O <=> C2HO-1 + C4H7",
-    distances = DistanceData(
-        distances = {'d12': 1.2934, 'd13': 2.67343, 'd23': 1.38322},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 850,
-    label = "C4H5 + C3H4O <=> C4H6 + C3H3O",
-    distances = DistanceData(
-        distances = {'d12': 1.23646, 'd13': 2.70816, 'd23': 1.48483},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 811,
-    label = "C5H6-1 + C4H3 <=> C4H4 + C5H5-1",
-    distances = DistanceData(
-        distances = {'d12': 1.33942, 'd13': 2.63237, 'd23': 1.3049},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 791,
-    label = "C6H11O + C2H4O <=> C6H12O + C2H3O",
-    distances = DistanceData(
-        distances = {'d12': 1.37417, 'd13': 2.68214, 'd23': 1.31883},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 987,
-    label = "C3H3-1 + C3H3O-1 <=> C3H2 + C3H4O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.29048, 'd13': 2.70823, 'd23': 1.42472},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 854""",
-)
-
-entry(
-    index = 785,
-    label = "C4H7-1 + C5H6 <=> C4H8-1 + C5H5",
-    distances = DistanceData(
-        distances = {'d12': 1.24707, 'd13': 2.73212, 'd23': 1.49367},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 829,
-    label = "C2H + C3H8 <=> C2H2 + C3H7",
-    distances = DistanceData(
-        distances = {'d12': 1.1247, 'd13': 2.854, 'd23': 1.76717},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 749,
-    label = "C2H5O-1 + HO2 <=> C2H6O-1 + O2",
-    distances = DistanceData(
-        distances = {'d12': 1.08298, 'd13': 2.6123, 'd23': 1.53916},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1014,
-    label = "C2H6O-1 + C6H11O <=> C6H12O + C2H5O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.28226, 'd13': 2.70645, 'd23': 1.43343},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 833""",
-)
-
-entry(
-    index = 1101,
-    label = "CH3-1 + C3H3O-1 <=> C3H4O-1 + CH2",
-    distances = DistanceData(
-        distances = {'d12': 1.2591, 'd13': 2.73884, 'd23': 1.48009},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 765""",
-)
-
-entry(
-    index = 771,
-    label = "C2HO-1 + H <=> H2 + C2O",
-    distances = DistanceData(
-        distances = {'d12': 1.25756, 'd13': 2.22931, 'd23': 0.998142},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1115,
-    label = "C2H2 + C4H9 <=> C4H10 + C2H",
-    distances = DistanceData(
-        distances = {'d12': 1.12575, 'd13': 2.85671, 'd23': 1.77057},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 940""",
-)
-
-entry(
-    index = 1062,
-    label = "C4H6 + C4H9 <=> C4H10 + C4H5",
-    distances = DistanceData(
-        distances = {'d12': 1.27659, 'd13': 2.67701, 'd23': 1.40569},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 908""",
-)
-
-entry(
-    index = 859,
-    label = "C5H6-1 + C2HO <=> C2H2O + C5H5-1",
-    distances = DistanceData(
-        distances = {'d12': 1.38366, 'd13': 2.63338, 'd23': 1.25087},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 940,
-    label = "C4H10 + C2H <=> C2H2 + C4H9",
-    distances = DistanceData(
-        distances = {'d12': 1.12575, 'd13': 2.85671, 'd23': 1.77057},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 798,
-    label = "C2O + C4H8O3 <=> C2HO-1 + C4H7O3",
-    distances = DistanceData(
-        distances = {'d12': 1.29824, 'd13': 2.44224, 'd23': 1.22384},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 861,
-    label = "C4H7-1 + C3H4 <=> C4H8-1 + C3H3",
-    distances = DistanceData(
-        distances = {'d12': 1.30055, 'd13': 2.66745, 'd23': 1.3757},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1197,
-    label = "C2H2O + C2H5 <=> C2HO + C2H6",
-    distances = DistanceData(
-        distances = {'d12': 1.26738, 'd13': 2.62923, 'd23': 1.36841},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 831""",
-)
-
-entry(
-    index = 1015,
-    label = "C6H6 + C2HO <=> C2H2O + C6H5",
-    distances = DistanceData(
-        distances = {'d12': 1.27346, 'd13': 2.6232, 'd23': 1.35092},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 920""",
-)
-
-entry(
-    index = 1040,
-    label = "HO-1 + C3H2 <=> C3H3-1 + O",
-    distances = DistanceData(
-        distances = {'d12': 1.24201, 'd13': 2.49561, 'd23': 1.2536},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 813""",
-)
-
-entry(
-    index = 837,
-    label = "CH3O + C3H4 <=> CH4O + C3H3",
-    distances = DistanceData(
-        distances = {'d12': 1.35448, 'd13': 2.64694, 'd23': 1.33566},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 933,
-    label = "C3H4O + C2H5O-1 <=> C2H6O-1 + C3H3O",
-    distances = DistanceData(
-        distances = {'d12': 1.27855, 'd13': 2.69884, 'd23': 1.43642},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1001,
-    label = "C2H4 + C2H3O <=> C2H4O + C2H3",
-    distances = DistanceData(
-        distances = {'d12': 1.24746, 'd13': 2.69391, 'd23': 1.458},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 849""",
-)
-
-entry(
-    index = 1123,
-    label = "C4H10 + CH3O <=> C4H9 + CH4O",
-    distances = DistanceData(
-        distances = {'d12': 1.31649, 'd13': 2.69835, 'd23': 1.39228},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 913""",
-)
-
-entry(
-    index = 923,
-    label = "C4H10 + C2H3 <=> C2H4 + C4H9",
-    distances = DistanceData(
-        distances = {'d12': 1.28393, 'd13': 2.68344, 'd23': 1.40156},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 847,
-    label = "C4H8 + CHO <=> CH2O + C4H7",
-    distances = DistanceData(
-        distances = {'d12': 1.34691, 'd13': 2.72011, 'd23': 1.38629},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 958,
-    label = "C2H3O + C6H8-2 <=> C2H4O + C6H7-2",
-    distances = DistanceData(
-        distances = {'d12': 1.26746, 'd13': 2.71432, 'd23': 1.46173},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1039,
-    label = "H2 + C6H11O <=> C6H12O + H",
-    distances = DistanceData(
-        distances = {'d12': 1.25894, 'd13': 2.2779, 'd23': 1.02314},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 927""",
-)
-
-entry(
-    index = 1133,
-    label = "C4H8-1 + C4H7 <=> C4H7-1 + C4H8",
-    distances = DistanceData(
-        distances = {'d12': 1.26395, 'd13': 2.70656, 'd23': 1.4483},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 956""",
-)
-
-entry(
-    index = 857,
-    label = "C5H5-1 + C2H4O <=> C5H6-1 + C2H3O",
-    distances = DistanceData(
-        distances = {'d12': 1.227, 'd13': 2.70108, 'd23': 1.48813},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 818,
-    label = "C6H8-1 + CH3 <=> CH4 + C6H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.24498, 'd13': 2.70693, 'd23': 1.46572},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 756,
-    label = "C4H10 + HO <=> H2O + C4H9",
-    distances = DistanceData(
-        distances = {'d12': 1.16316, 'd13': 2.5778, 'd23': 1.42849},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1199,
-    label = "CH4 + C4H3-1 <=> CH3 + C4H4-1",
-    distances = DistanceData(
-        distances = {'d12': 1.3021, 'd13': 2.66512, 'd23': 1.36509},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 758""",
-)
-
-entry(
-    index = 1049,
-    label = "C2H2 + C6H7-2 <=> C2H + C6H8-2",
-    distances = DistanceData(
-        distances = {'d12': 1.11789, 'd13': 2.95802, 'd23': 1.92812},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 875""",
-)
-
-entry(
-    index = 740,
-    label = "C4H8 + C4H3 <=> C4H4 + C4H7",
-    distances = DistanceData(
-        distances = {'d12': 1.20907, 'd13': 2.7289, 'd23': 1.52599},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1071,
-    label = "CH4O + C4H7 <=> C4H8 + CH3O",
-    distances = DistanceData(
-        distances = {'d12': 1.3051, 'd13': 2.69432, 'd23': 1.40875},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 778""",
-)
-
-entry(
-    index = 1027,
-    label = "C2H4 + C6H11O <=> C6H12O + C2H3",
-    distances = DistanceData(
-        distances = {'d12': 1.23336, 'd13': 2.70964, 'd23': 1.48512},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 752""",
-)
-
-entry(
-    index = 905,
-    label = "C4H6O + C3H7-1 <=> C3H8-1 + C4H5O",
-    distances = DistanceData(
-        distances = {'d12': 1.31482, 'd13': 2.70454, 'd23': 1.39366},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1148,
-    label = "H2 + C7H13O3-2 <=> C7H14O3-2 + H",
-    distances = DistanceData(
-        distances = {'d12': 1.23924, 'd13': 2.28474, 'd23': 1.05547},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 893""",
-)
-
-entry(
-    index = 1057,
-    label = "C2H6O-1 + C4H7-1 <=> C4H8-1 + C2H5O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.33993, 'd13': 2.68325, 'd23': 1.34623},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 753""",
-)
-
-entry(
-    index = 975,
-    label = "C2O + C7H14O <=> C2HO-1 + C7H13O",
-    distances = DistanceData(
-        distances = {'d12': 1.29402, 'd13': 2.65919, 'd23': 1.37455},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1152,
-    label = "C2H6O + C4H5O <=> C4H6O + C2H5O",
-    distances = DistanceData(
-        distances = {'d12': 1.35348, 'd13': 2.68208, 'd23': 1.36598},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 910""",
-)
-
-entry(
-    index = 1047,
-    label = "C5H6-1 + C4H5-1 <=> C5H5-1 + C4H6-1",
-    distances = DistanceData(
-        distances = {'d12': 1.25326, 'd13': 2.67051, 'd23': 1.41772},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 763""",
-)
-
-entry(
-    index = 1008,
-    label = "C2H2 + C6H7-3 <=> C2H + C6H8-3",
-    distances = DistanceData(
-        distances = {'d12': 1.12015, 'd13': 2.88828, 'd23': 1.81999},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 822""",
-)
-
-entry(
-    index = 1124,
-    label = "C6H6 + C2H5O-1 <=> C2H6O-1 + C6H5",
-    distances = DistanceData(
-        distances = {'d12': 1.27191, 'd13': 2.66815, 'd23': 1.41251},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 890""",
-)
-
-entry(
-    index = 884,
-    label = "C4H6O + C4H3-1 <=> C4H4-1 + C4H5O",
-    distances = DistanceData(
-        distances = {'d12': 1.28004, 'd13': 2.70043, 'd23': 1.42978},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 995,
-    label = "H2 + C7H13O3-3 <=> C7H14O3-3 + H",
-    distances = DistanceData(
-        distances = {'d12': 1.37479, 'd13': 2.28497, 'd23': 0.910186},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 745""",
-)
-
-entry(
-    index = 1187,
-    label = "C3H4O-1 + C2H3O-1 <=> C2H4O-1 + C3H3O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.38531, 'd13': 2.7684, 'd23': 1.39267},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 960""",
-)
-
-entry(
-    index = 892,
-    label = "C6H5 + C3H8-1 <=> C6H6 + C3H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.24668, 'd13': 2.68706, 'd23': 1.44809},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 989,
-    label = "C4H10 + O2 <=> C4H9 + HO2",
-    distances = DistanceData(
-        distances = {'d12': 1.07128, 'd13': 2.63224, 'd23': 1.56784},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 795""",
-)
-
-entry(
-    index = 766,
-    label = "C4H6 + C2H <=> C2H2 + C4H5",
-    distances = DistanceData(
-        distances = {'d12': 1.14543, 'd13': 2.74504, 'd23': 1.60344},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 973,
-    label = "H + C5H8-1 <=> H2 + C5H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.21574, 'd13': 2.33091, 'd23': 1.11688},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1192,
-    label = "C2H2 + C4H5 <=> C4H6 + C2H",
-    distances = DistanceData(
-        distances = {'d12': 1.14543, 'd13': 2.74504, 'd23': 1.60344},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 766""",
-)
-
-entry(
-    index = 1179,
-    label = "C3H8-1 + C3H3O <=> C3H4O + C3H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.3154, 'd13': 2.68928, 'd23': 1.38695},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 867""",
-)
-
-entry(
-    index = 962,
-    label = "C6H5 + C3H8 <=> C6H6 + C3H7",
-    distances = DistanceData(
-        distances = {'d12': 1.26734, 'd13': 2.68016, 'd23': 1.41706},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1141,
-    label = "C2H6O-2 + O2 <=> C2H5O-2 + HO2",
-    distances = DistanceData(
-        distances = {'d12': 1.01926, 'd13': 2.52174, 'd23': 1.52675},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 858""",
-)
-
-entry(
-    index = 1201,
-    label = "C3H6O + CHO <=> C3H5O + CH2O",
-    distances = DistanceData(
-        distances = {'d12': 1.31083, 'd13': 2.72403, 'd23': 1.4195},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 929""",
-)
-
-entry(
-    index = 1094,
-    label = "C3H6-1 + C4H7-1 <=> C4H8-1 + C3H5-1",
-    distances = DistanceData(
-        distances = {'d12': 1.28375, 'd13': 2.67551, 'd23': 1.39697},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 793""",
-)
-
-entry(
-    index = 1196,
-    label = "C6H6 + C4H7-1 <=> C4H8-1 + C6H5",
-    distances = DistanceData(
-        distances = {'d12': 1.26992, 'd13': 2.67805, 'd23': 1.4125},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 810""",
-)
-
-entry(
-    index = 1082,
-    label = "CH3-1 + C4H7-1 <=> C4H8-1 + CH2",
-    distances = DistanceData(
-        distances = {'d12': 1.29871, 'd13': 2.65801, 'd23': 1.36436},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 835""",
-)
-
-entry(
-    index = 947,
-    label = "C4H5 + C2H6O <=> C4H6 + C2H5O",
-    distances = DistanceData(
-        distances = {'d12': 1.24174, 'd13': 2.70502, 'd23': 1.48068},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 815,
-    label = "C4H10 + C3H7 <=> C3H8 + C4H9",
-    distances = DistanceData(
-        distances = {'d12': 1.34357, 'd13': 2.68932, 'd23': 1.34993},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 862,
-    label = "C6H12O + HO <=> H2O + C6H11O",
-    distances = DistanceData(
-        distances = {'d12': 1.18121, 'd13': 2.50415, 'd23': 1.36928},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 781,
-    label = "C2H4O-1 + C2H3 <=> C2H4 + C2H3O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.2334, 'd13': 2.75993, 'd23': 1.53124},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 825,
-    label = "C4H4-1 + O <=> HO-1 + C4H3-1",
-    distances = DistanceData(
-        distances = {'d12': 1.27336, 'd13': 2.48545, 'd23': 1.22055},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 878,
-    label = "C4H3 + C4H8O3 <=> C4H4 + C4H7O3",
-    distances = DistanceData(
-        distances = {'d12': 1.14021, 'd13': 2.50003, 'd23': 1.36034},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1105,
-    label = "C6H12O + O2 <=> C6H11O + HO2",
-    distances = DistanceData(
-        distances = {'d12': 1.1049, 'd13': 2.59673, 'd23': 1.50072},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 819""",
-)
-
-entry(
-    index = 1111,
-    label = "C2H2O + C5H5-1 <=> C5H6-1 + C2HO",
-    distances = DistanceData(
-        distances = {'d12': 1.38366, 'd13': 2.63338, 'd23': 1.25087},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 859""",
-)
-
-entry(
-    index = 761,
-    label = "C4H6O + C2H5 <=> C2H6 + C4H5O",
-    distances = DistanceData(
-        distances = {'d12': 1.29624, 'd13': 2.7028, 'd23': 1.41609},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1166,
-    label = "C2H4 + C2HO <=> C2H2O + C2H3",
-    distances = DistanceData(
-        distances = {'d12': 1.2934, 'd13': 2.61734, 'd23': 1.32838},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 918""",
-)
-
-entry(
-    index = 865,
-    label = "C4H9 + H2O2 <=> C4H10 + HO2-1",
-    distances = DistanceData(
-        distances = {'d12': 1.18443, 'd13': 2.51157, 'd23': 1.32976},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1170,
-    label = "C3H6-1 + C3H7-1 <=> C3H5-1 + C3H8-1",
-    distances = DistanceData(
-        distances = {'d12': 1.25402, 'd13': 2.68374, 'd23': 1.43673},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 746""",
-)
-
-entry(
-    index = 871,
-    label = "C6H8-3 + C3H7-1 <=> C3H8-1 + C6H7-3",
-    distances = DistanceData(
-        distances = {'d12': 1.25999, 'd13': 2.72483, 'd23': 1.46614},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1146,
-    label = "C6H6 + C2H3O <=> C2H4O + C6H5",
-    distances = DistanceData(
-        distances = {'d12': 1.23714, 'd13': 2.70344, 'd23': 1.47425},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 866""",
-)
-
-entry(
-    index = 937,
-    label = "H2O2 + C3H3-2 <=> C3H4-1 + HO2-1",
-    distances = DistanceData(
-        distances = {'d12': 1.19369, 'd13': 2.5118, 'd23': 1.33001},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1005,
-    label = "CH4O + C3H3O <=> C3H4O + CH3O",
-    distances = DistanceData(
-        distances = {'d12': 1.3388, 'd13': 2.67854, 'd23': 1.37393},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 814""",
-)
-
-entry(
-    index = 1072,
-    label = "C3H6O + HO2-1 <=> C3H5O + H2O2",
-    distances = DistanceData(
-        distances = {'d12': 1.18004, 'd13': 2.50468, 'd23': 1.33384},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 812""",
-)
-
-entry(
-    index = 927,
-    label = "C6H12O + H <=> H2 + C6H11O",
-    distances = DistanceData(
-        distances = {'d12': 1.25894, 'd13': 2.2779, 'd23': 1.02314},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 843,
-    label = "CH3O + C5H8 <=> CH4O + C5H7",
-    distances = DistanceData(
-        distances = {'d12': 1.30583, 'd13': 2.68, 'd23': 1.41848},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1035,
-    label = "C2H4 + C5H7-1 <=> C2H3 + C5H8-1",
-    distances = DistanceData(
-        distances = {'d12': 1.21856, 'd13': 2.739, 'd23': 1.52394},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 803""",
-)
-
-entry(
-    index = 739,
-    label = "C6H12O + C2O <=> C2HO-1 + C6H11O",
-    distances = DistanceData(
-        distances = {'d12': 1.3268, 'd13': 2.65341, 'd23': 1.34368},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 802,
-    label = "C7H14O3-4 + H <=> H2 + C7H13O3-4",
-    distances = DistanceData(
-        distances = {'d12': 1.12442, 'd13': 2.11848, 'd23': 0.995758},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 853,
-    label = "C3H3-1 + H <=> H2 + C3H2",
-    distances = DistanceData(
-        distances = {'d12': 1.29695, 'd13': 2.25538, 'd23': 0.958432},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 998,
-    label = "C4H10 + HO2-1 <=> C4H9 + H2O2",
-    distances = DistanceData(
-        distances = {'d12': 1.18443, 'd13': 2.51157, 'd23': 1.32976},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 865""",
-)
-
-entry(
-    index = 917,
-    label = "C4H5-1 + C2H6 <=> C4H6-1 + C2H5",
-    distances = DistanceData(
-        distances = {'d12': 1.33514, 'd13': 2.67222, 'd23': 1.33881},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 796,
-    label = "C2HO-1 + C2H5O-1 <=> C2H6O-1 + C2O",
-    distances = DistanceData(
-        distances = {'d12': 1.27603, 'd13': 2.65577, 'd23': 1.39236},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 982,
-    label = "HO-1 + C4H3-1 <=> C4H4-1 + O",
-    distances = DistanceData(
-        distances = {'d12': 1.27336, 'd13': 2.48545, 'd23': 1.22055},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 825""",
-)
-
-entry(
-    index = 744,
-    label = "C3H7 + C5H8-1 <=> C3H8 + C5H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.24145, 'd13': 2.74478, 'd23': 1.50625},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1102,
-    label = "C2H2 + C3H7 <=> C2H + C3H8",
-    distances = DistanceData(
-        distances = {'d12': 1.1247, 'd13': 2.854, 'd23': 1.76717},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 829""",
-)
-
-entry(
-    index = 772,
-    label = "C2O + C5H8-1 <=> C2HO-1 + C5H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.27178, 'd13': 2.68587, 'd23': 1.43053},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 957,
-    label = "C6H8-1 + HO2-1 <=> H2O2 + C6H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.26672, 'd13': 2.52787, 'd23': 1.2669},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1061,
-    label = "C2H6O-2 + C6H7-3 <=> C2H5O-2 + C6H8-3",
-    distances = DistanceData(
-        distances = {'d12': 1.16827, 'd13': 2.60362, 'd23': 1.47037},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 925""",
-)
-
-entry(
-    index = 768,
-    label = "C4H8-1 + CH3 <=> CH4 + C4H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.31658, 'd13': 2.68174, 'd23': 1.36865},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1180,
-    label = "C6H6 + C3H7-1 <=> C6H5 + C3H8-1",
-    distances = DistanceData(
-        distances = {'d12': 1.24668, 'd13': 2.68706, 'd23': 1.44809},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 892""",
-)
-
-entry(
-    index = 909,
-    label = "C4H8-1 + C4H5 <=> C4H6 + C4H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.28012, 'd13': 2.67229, 'd23': 1.40053},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1053,
-    label = "C2H6O-1 + C5H5-1 <=> C5H6-1 + C2H5O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.43422, 'd13': 2.67314, 'd23': 1.25801},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 830""",
-)
-
-entry(
-    index = 1012,
-    label = "H2 + C3H2 <=> C3H3-1 + H",
-    distances = DistanceData(
-        distances = {'d12': 1.29695, 'd13': 2.25538, 'd23': 0.958432},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 853""",
-)
-
-entry(
-    index = 1156,
-    label = "C4H4-1 + C5H7-1 <=> C4H3-1 + C5H8-1",
-    distances = DistanceData(
-        distances = {'d12': 1.24544, 'd13': 2.71399, 'd23': 1.47544},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 934""",
-)
-
-entry(
-    index = 1043,
-    label = "C4H8-1 + C3H2 <=> C4H7-1 + C3H3-1",
-    distances = DistanceData(
-        distances = {'d12': 1.31227, 'd13': 2.65729, 'd23': 1.3528},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 820""",
-)
-
-entry(
-    index = 930,
-    label = "H + C3H4-1 <=> H2 + C3H3-2",
-    distances = DistanceData(
-        distances = {'d12': 1.28684, 'd13': 2.27534, 'd23': 0.989057},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 832,
-    label = "C4H8-1 + H <=> H2 + C4H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.35991, 'd13': 2.27964, 'd23': 0.922801},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 965,
-    label = "C7H14O + O <=> HO-1 + C7H13O",
-    distances = DistanceData(
-        distances = {'d12': 1.25832, 'd13': 2.50711, 'd23': 1.24903},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1120,
-    label = "C3H4-1 + HO2-1 <=> H2O2 + C3H3-2",
-    distances = DistanceData(
-        distances = {'d12': 1.19369, 'd13': 2.5118, 'd23': 1.33001},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 937""",
-)
-
-entry(
-    index = 844,
-    label = "C7H13O + HO2 <=> C7H14O + O2",
-    distances = DistanceData(
-        distances = {'d12': 1.12823, 'd13': 2.57092, 'd23': 1.46156},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1136,
-    label = "C3H6O + C4H5O <=> C3H5O + C4H6O",
-    distances = DistanceData(
-        distances = {'d12': 1.31514, 'd13': 2.69186, 'd23': 1.40066},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 852""",
-)
-
-entry(
-    index = 888,
-    label = "C3H4O + C4H3-1 <=> C4H4-1 + C3H3O",
-    distances = DistanceData(
-        distances = {'d12': 1.27723, 'd13': 2.69438, 'd23': 1.42433},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 991,
-    label = "C2H6O + C5H7-1 <=> C2H5O + C5H8-1",
-    distances = DistanceData(
-        distances = {'d12': 1.28329, 'd13': 2.70711, 'd23': 1.45592},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 898""",
-)
-
-entry(
-    index = 896,
-    label = "C4H10 + C4H3-1 <=> C4H4-1 + C4H9",
-    distances = DistanceData(
-        distances = {'d12': 1.33552, 'd13': 2.66325, 'd23': 1.33444},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1193,
-    label = "C6H6 + C4H3-2 <=> C6H5 + C4H4-2",
-    distances = DistanceData(
-        distances = {'d12': 1.24513, 'd13': 2.67111, 'd23': 1.43661},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 800""",
-)
-
-entry(
-    index = 753,
-    label = "C4H8-1 + C2H5O-1 <=> C2H6O-1 + C4H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.33993, 'd13': 2.68325, 'd23': 1.34623},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 978,
-    label = "C2H6O-2 + C5H7-1 <=> C2H5O-2 + C5H8-1",
-    distances = DistanceData(
-        distances = {'d12': 1.18827, 'd13': 2.59176, 'd23': 1.41159},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 838""",
-)
-
-entry(
-    index = 743,
-    label = "C4H5 + H2O2 <=> C4H6 + HO2-1",
-    distances = DistanceData(
-        distances = {'d12': 1.10753, 'd13': 2.50949, 'd23': 1.41137},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1022,
-    label = "H2O + CHO <=> CH2O + HO",
-    distances = DistanceData(
-        distances = {'d12': 1.14261, 'd13': 2.69644, 'd23': 1.5699},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 777""",
-)
-
-entry(
-    index = 900,
-    label = "C2O + C3H8 <=> C2HO-1 + C3H7",
-    distances = DistanceData(
-        distances = {'d12': 1.3731, 'd13': 2.6576, 'd23': 1.29024},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1054,
-    label = "C4H4-1 + C4H9 <=> C4H10 + C4H3-1",
-    distances = DistanceData(
-        distances = {'d12': 1.33552, 'd13': 2.66325, 'd23': 1.33444},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 896""",
-)
-
-entry(
-    index = 1098,
-    label = "C2H4 + C4H3-2 <=> C2H3 + C4H4-2",
-    distances = DistanceData(
-        distances = {'d12': 1.25669, 'd13': 2.6645, 'd23': 1.42124},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 779""",
-)
-
-entry(
-    index = 939,
-    label = "C2O + C4H4-2 <=> C2HO-1 + C4H3-2",
-    distances = DistanceData(
-        distances = {'d12': 1.33539, 'd13': 2.65038, 'd23': 1.32523},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1086,
-    label = "C2HO-1 + C6H7 <=> C2O + C6H8",
-    distances = DistanceData(
-        distances = {'d12': 1.28566, 'd13': 2.66596, 'd23': 1.41018},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 941""",
-)
-
-entry(
-    index = 776,
-    label = "C5H6 + CH3O <=> CH4O + C5H5",
-    distances = DistanceData(
-        distances = {'d12': 1.27671, 'd13': 2.7273, 'd23': 1.46189},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 881,
-    label = "C4H9 + C2H6O <=> C4H10 + C2H5O",
-    distances = DistanceData(
-        distances = {'d12': 1.30948, 'd13': 2.71554, 'd23': 1.41318},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 996,
-    label = "C2HO-1 + C6H7-3 <=> C2O + C6H8-3",
-    distances = DistanceData(
-        distances = {'d12': 1.27451, 'd13': 2.69334, 'd23': 1.43806},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 809""",
-)
-
-entry(
-    index = 1189,
-    label = "C2HO-1 + C3H5O <=> C3H6O + C2O",
-    distances = DistanceData(
-        distances = {'d12': 1.37633, 'd13': 2.64671, 'd23': 1.29438},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 921""",
-)
-
-entry(
-    index = 821,
-    label = "C2O + C4H6O3 <=> C2HO-1 + C4H5O3",
-    distances = DistanceData(
-        distances = {'d12': 1.29547, 'd13': 2.44288, 'd23': 1.22556},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 874,
-    label = "C2O + C6H8-2 <=> C2HO-1 + C6H7-2",
-    distances = DistanceData(
-        distances = {'d12': 1.26308, 'd13': 2.68515, 'd23': 1.44379},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1109,
-    label = "C3H6 + C6H7-1 <=> C6H8-1 + C3H5",
-    distances = DistanceData(
-        distances = {'d12': 1.34303, 'd13': 2.69934, 'd23': 1.36251},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 755""",
-)
-
-entry(
-    index = 779,
-    label = "C2H3 + C4H4-2 <=> C2H4 + C4H3-2",
-    distances = DistanceData(
-        distances = {'d12': 1.25669, 'd13': 2.6645, 'd23': 1.42124},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 765,
-    label = "C3H4O-1 + CH2 <=> CH3-1 + C3H3O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.2591, 'd13': 2.73884, 'd23': 1.48009},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1203,
-    label = "C2H6O-1 + C4H7O3 <=> C2H5O-1 + C4H8O3",
-    distances = DistanceData(
-        distances = {'d12': 1.21026, 'd13': 2.49975, 'd23': 1.30339},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 970""",
-)
-
-entry(
-    index = 1174,
-    label = "C2HO-1 + C7H13O <=> C2O + C7H14O",
-    distances = DistanceData(
-        distances = {'d12': 1.29402, 'd13': 2.65919, 'd23': 1.37455},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 975""",
-)
-
-entry(
-    index = 1142,
-    label = "C3H8 + C3H7-1 <=> C3H8-1 + C3H7",
-    distances = DistanceData(
-        distances = {'d12': 1.31982, 'd13': 2.69065, 'd23': 1.37102},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 943""",
-)
-
-entry(
-    index = 1091,
-    label = "C2HO-1 + C7H13O-1 <=> C2O + C7H14O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.39483, 'd13': 2.65039, 'd23': 1.27497},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 805""",
-)
-
-entry(
-    index = 950,
-    label = "C7H14O3-5 + H <=> H2 + C7H13O3-5",
-    distances = DistanceData(
-        distances = {'d12': 1.25835, 'd13': 2.26959, 'd23': 1.02105},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1031,
-    label = "C2H4O-1 + C6H7-1 <=> C2H3O-1 + C6H8-1",
-    distances = DistanceData(
-        distances = {'d12': 1.35993, 'd13': 2.69198, 'd23': 1.36847},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 887""",
-)
-
-entry(
-    index = 806,
-    label = "CH3 + C3H4O-1 <=> CH4 + C3H3O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.27053, 'd13': 2.74347, 'd23': 1.47295},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 913,
-    label = "C4H9 + CH4O <=> C4H10 + CH3O",
-    distances = DistanceData(
-        distances = {'d12': 1.31649, 'd13': 2.69835, 'd23': 1.39228},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 792,
-    label = "C4H7-1 + C3H4-1 <=> C4H8-1 + C3H3-2",
-    distances = DistanceData(
-        distances = {'d12': 1.30241, 'd13': 2.6941, 'd23': 1.39855},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 810,
-    label = "C4H8-1 + C6H5 <=> C6H6 + C4H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.26992, 'd13': 2.67805, 'd23': 1.4125},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 986,
-    label = "CH3-1 + C2H5 <=> C2H6 + CH2",
-    distances = DistanceData(
-        distances = {'d12': 1.29393, 'd13': 2.65751, 'd23': 1.36785},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 916""",
-)
-
-entry(
-    index = 826,
-    label = "C5H8 + C3H7-1 <=> C3H8-1 + C5H7",
-    distances = DistanceData(
-        distances = {'d12': 1.28345, 'd13': 2.69893, 'd23': 1.4242},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 784,
-    label = "CH4O + C4H5-1 <=> C4H6-1 + CH3O",
-    distances = DistanceData(
-        distances = {'d12': 1.27312, 'd13': 2.70184, 'd23': 1.43129},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 748,
-    label = "C4H9 + C3H8-1 <=> C4H10 + C3H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.31707, 'd13': 2.68611, 'd23': 1.37457},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1106,
-    label = "C4H4-2 + C3H3 <=> C3H4 + C4H3-2",
-    distances = DistanceData(
-        distances = {'d12': 1.33324, 'd13': 2.66168, 'd23': 1.33955},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 894""",
-)
-
-entry(
-    index = 1151,
-    label = "C4H6 + C4H7 <=> C4H8 + C4H5",
-    distances = DistanceData(
-        distances = {'d12': 1.22111, 'd13': 2.71297, 'd23': 1.50812},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 807""",
-)
-
-entry(
-    index = 1114,
-    label = "C4H10 + C2H5 <=> C4H9 + C2H6",
-    distances = DistanceData(
-        distances = {'d12': 1.34613, 'd13': 2.69062, 'd23': 1.34864},
+    index = 1813,
+    label = "H2 + CH <=> CH2-1 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.823648, 'd13': 2.25662, 'd23': 1.45402},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""Reverse reaction for reaction index 741""",
 )
 
 entry(
-    index = 1210,
-    label = "C3H6 + C6H7-2 <=> C6H8-2 + C3H5",
+    index = 1814,
+    label = "C3H6O3 + CHO <=> CH2O + C3H5O3",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.30176, 'd13': 2.70556, 'd23': 1.41366},
+        distances = {'d12': 1.31131, 'd13': 2.55044, 'd23': 1.24689},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""Reverse reaction for reaction index 876""",
+    shortDesc = u"""Reverse reaction for reaction index 742""",
 )
 
 entry(
-    index = 858,
-    label = "C2H5O-2 + HO2 <=> C2H6O-2 + O2",
+    index = 1815,
+    label = "H2O + C3H7 <=> C3H8 + HO",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.01926, 'd13': 2.52174, 'd23': 1.52675},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 943,
-    label = "C3H8-1 + C3H7 <=> C3H8 + C3H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.31982, 'd13': 2.69065, 'd23': 1.37102},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 769,
-    label = "C7H14O3-1 + H <=> H2 + C7H13O3-1",
-    distances = DistanceData(
-        distances = {'d12': 1.1136, 'd13': 2.12218, 'd23': 1.01225},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1163,
-    label = "C5H6-1 + C4H7 <=> C5H5-1 + C4H8",
-    distances = DistanceData(
-        distances = {'d12': 1.20054, 'd13': 2.73647, 'd23': 1.54533},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 767""",
-)
-
-entry(
-    index = 799,
-    label = "C2HO + C5H8 <=> C2H2O + C5H7",
-    distances = DistanceData(
-        distances = {'d12': 1.20374, 'd13': 2.69602, 'd23': 1.50184},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 866,
-    label = "C2H4O + C6H5 <=> C6H6 + C2H3O",
-    distances = DistanceData(
-        distances = {'d12': 1.23714, 'd13': 2.70344, 'd23': 1.47425},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1173,
-    label = "C7H14O + O2 <=> C7H13O + HO2",
-    distances = DistanceData(
-        distances = {'d12': 1.12823, 'd13': 2.57092, 'd23': 1.46156},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 844""",
-)
-
-entry(
-    index = 1016,
-    label = "C2H6O-1 + C5H7-1 <=> C2H5O-1 + C5H8-1",
-    distances = DistanceData(
-        distances = {'d12': 1.24491, 'd13': 2.73182, 'd23': 1.4955},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 966""",
-)
-
-entry(
-    index = 934,
-    label = "C4H3-1 + C5H8-1 <=> C4H4-1 + C5H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.24544, 'd13': 2.71399, 'd23': 1.47544},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 836,
-    label = "C2O + C6H8-1 <=> C2HO-1 + C6H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.30356, 'd13': 2.65764, 'd23': 1.373},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 961,
-    label = "C5H5-1 + C3H3-1 <=> C5H6-1 + C3H2",
-    distances = DistanceData(
-        distances = {'d12': 1.22321, 'd13': 2.67029, 'd23': 1.45619},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1000,
-    label = "CH4 + C2H5 <=> CH3 + C2H6",
-    distances = DistanceData(
-        distances = {'d12': 1.3078, 'd13': 2.67929, 'd23': 1.37491},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 775""",
-)
-
-entry(
-    index = 840,
-    label = "C5H8 + CH3 <=> CH4 + C5H7",
-    distances = DistanceData(
-        distances = {'d12': 1.24875, 'd13': 2.722, 'd23': 1.47417},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 922,
-    label = "C4H7-1 + C2H4O-1 <=> C4H8-1 + C2H3O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.28931, 'd13': 2.71038, 'd23': 1.45617},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 959,
-    label = "C3H3O + C3H4 <=> C3H4O + C3H3",
-    distances = DistanceData(
-        distances = {'d12': 1.38164, 'd13': 2.68056, 'd23': 1.31356},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1132,
-    label = "C3H6-2 + C2H5O-1 <=> C2H6O-1 + C3H5-2",
-    distances = DistanceData(
-        distances = {'d12': 1.31549, 'd13': 2.67588, 'd23': 1.36225},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 764""",
-)
-
-entry(
-    index = 1183,
-    label = "C5H6 + C5H7 <=> C5H5 + C5H8",
-    distances = DistanceData(
-        distances = {'d12': 1.38704, 'd13': 2.73712, 'd23': 1.35364},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 944""",
-)
-
-entry(
-    index = 918,
-    label = "C2H2O + C2H3 <=> C2H4 + C2HO",
-    distances = DistanceData(
-        distances = {'d12': 1.2934, 'd13': 2.61734, 'd23': 1.32838},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 856,
-    label = "C7H13O-1 + C2H6 <=> C7H14O-1 + C2H5",
-    distances = DistanceData(
-        distances = {'d12': 1.33239, 'd13': 2.67842, 'd23': 1.35237},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1129,
-    label = "C3H8-1 + C5H7 <=> C5H8 + C3H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.28345, 'd13': 2.69893, 'd23': 1.4242},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 826""",
-)
-
-entry(
-    index = 981,
-    label = "C2H4 + C2H3O-1 <=> C2H4O-1 + C2H3",
-    distances = DistanceData(
-        distances = {'d12': 1.2334, 'd13': 2.75993, 'd23': 1.53124},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 781""",
-)
-
-entry(
-    index = 757,
-    label = "C3H6O + C3H2 <=> C3H3-1 + C3H5O",
-    distances = DistanceData(
-        distances = {'d12': 1.32513, 'd13': 2.66456, 'd23': 1.34118},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 747,
-    label = "C2H5O-2 + C2H6O-1 <=> C2H6O-2 + C2H5O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.25129, 'd13': 2.49822, 'd23': 1.25191},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1212,
-    label = "CH3-1 + C4H9 <=> C4H10 + CH2",
-    distances = DistanceData(
-        distances = {'d12': 1.30064, 'd13': 2.66707, 'd23': 1.36853},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 951""",
-)
-
-entry(
-    index = 1076,
-    label = "C2H6O-1 + C6H7-1 <=> C2H5O-1 + C6H8-1",
-    distances = DistanceData(
-        distances = {'d12': 1.26231, 'd13': 2.69766, 'd23': 1.4453},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 762""",
-)
-
-entry(
-    index = 777,
-    label = "CH2O + HO <=> H2O + CHO",
-    distances = DistanceData(
-        distances = {'d12': 1.14261, 'd13': 2.69644, 'd23': 1.5699},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1026,
-    label = "C4H6 + HO2-1 <=> C4H5 + H2O2",
-    distances = DistanceData(
-        distances = {'d12': 1.10753, 'd13': 2.50949, 'd23': 1.41137},
+        distances = {'d12': 1.43006, 'd13': 2.58203, 'd23': 1.1636},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""Reverse reaction for reaction index 743""",
 )
 
 entry(
-    index = 1162,
-    label = "CH4 + C3H2 <=> C3H3-1 + CH3",
+    index = 1816,
+    label = "CH4 + C2H3O-2 <=> C2H4O-2 + CH3",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.28156, 'd13': 2.66668, 'd23': 1.38512},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 954""",
-)
-
-entry(
-    index = 904,
-    label = "CH4O + C4H7O3 <=> C4H8O3 + CH3O",
-    distances = DistanceData(
-        distances = {'d12': 1.2397, 'd13': 2.54065, 'd23': 1.31272},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1149,
-    label = "C2H4O + C3H3O <=> C3H4O + C2H3O",
-    distances = DistanceData(
-        distances = {'d12': 1.32553, 'd13': 2.69973, 'd23': 1.38253},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 827""",
-)
-
-entry(
-    index = 1050,
-    label = "C4H4-1 + C3H3O <=> C3H4O + C4H3-1",
-    distances = DistanceData(
-        distances = {'d12': 1.27723, 'd13': 2.69438, 'd23': 1.42433},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 888""",
-)
-
-entry(
-    index = 976,
-    label = "C4H6 + C2H5O <=> C4H5 + C2H6O",
-    distances = DistanceData(
-        distances = {'d12': 1.24174, 'd13': 2.70502, 'd23': 1.48068},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 947""",
-)
-
-entry(
-    index = 1155,
-    label = "H2O + C4H7-1 <=> C4H8-1 + HO",
-    distances = DistanceData(
-        distances = {'d12': 1.17855, 'd13': 2.53153, 'd23': 1.38018},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 895""",
-)
-
-entry(
-    index = 1046,
-    label = "CH4 + C4H5-1 <=> C4H6-1 + CH3",
-    distances = DistanceData(
-        distances = {'d12': 1.31088, 'd13': 2.67032, 'd23': 1.36145},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 787""",
-)
-
-entry(
-    index = 831,
-    label = "C2HO + C2H6 <=> C2H2O + C2H5",
-    distances = DistanceData(
-        distances = {'d12': 1.26738, 'd13': 2.62923, 'd23': 1.36841},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1125,
-    label = "C4H8-1 + C3H3-2 <=> C4H7-1 + C3H4-1",
-    distances = DistanceData(
-        distances = {'d12': 1.30241, 'd13': 2.6941, 'd23': 1.39855},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 792""",
-)
-
-entry(
-    index = 929,
-    label = "C3H5O + CH2O <=> C3H6O + CHO",
-    distances = DistanceData(
-        distances = {'d12': 1.31083, 'd13': 2.72403, 'd23': 1.4195},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1208,
-    label = "C5H6-1 + C2H3O-1 <=> C5H5-1 + C2H4O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.21204, 'd13': 2.75883, 'd23': 1.56594},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 891""",
-)
-
-entry(
-    index = 1139,
-    label = "CH4 + C5H7 <=> C5H8 + CH3",
-    distances = DistanceData(
-        distances = {'d12': 1.24875, 'd13': 2.722, 'd23': 1.47417},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 840""",
-)
-
-entry(
-    index = 808,
-    label = "C4H8 + C3H7 <=> C3H8 + C4H7",
-    distances = DistanceData(
-        distances = {'d12': 1.27256, 'd13': 2.71035, 'd23': 1.44138},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 885,
-    label = "C4H10 + CH3 <=> CH4 + C4H9",
-    distances = DistanceData(
-        distances = {'d12': 1.31259, 'd13': 2.68284, 'd23': 1.3725},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 992,
-    label = "C3H3-1 + C2H5O <=> C2H6O + C3H2",
-    distances = DistanceData(
-        distances = {'d12': 1.30123, 'd13': 2.65081, 'd23': 1.38924},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 759""",
-)
-
-entry(
-    index = 1184,
-    label = "C2HO-1 + C2H5O <=> C2O + C2H6O",
-    distances = DistanceData(
-        distances = {'d12': 1.31682, 'd13': 2.65929, 'd23': 1.35739},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 839""",
-)
-
-entry(
-    index = 891,
-    label = "C5H5-1 + C2H4O-1 <=> C5H6-1 + C2H3O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.21204, 'd13': 2.75883, 'd23': 1.56594},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 988,
-    label = "C4H4 + C6H7 <=> C6H8 + C4H3",
-    distances = DistanceData(
-        distances = {'d12': 1.19794, 'd13': 2.75226, 'd23': 1.55714},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 936""",
-)
-
-entry(
-    index = 750,
-    label = "C5H5-1 + C3H4O <=> C5H6-1 + C3H3O",
-    distances = DistanceData(
-        distances = {'d12': 1.21568, 'd13': 2.72718, 'd23': 1.51387},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1119,
-    label = "C4H6 + C5H5 <=> C5H6 + C4H5",
-    distances = DistanceData(
-        distances = {'d12': 1.21437, 'd13': 2.7376, 'd23': 1.53766},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 877""",
-)
-
-entry(
-    index = 1207,
-    label = "C6H6 + C4H3-1 <=> C6H5 + C4H4-1",
-    distances = DistanceData(
-        distances = {'d12': 1.25933, 'd13': 2.66027, 'd23': 1.40789},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 969""",
-)
-
-entry(
-    index = 953,
-    label = "CH4O + C2HO <=> C2H2O + CH3O",
-    distances = DistanceData(
-        distances = {'d12': 1.22102, 'd13': 2.65835, 'd23': 1.45614},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1178,
-    label = "C4H4-1 + C6H7 <=> C6H8 + C4H3-1",
-    distances = DistanceData(
-        distances = {'d12': 1.25175, 'd13': 2.69783, 'd23': 1.45755},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 901""",
-)
-
-entry(
-    index = 1021,
-    label = "C3H8 + C5H7-1 <=> C3H7 + C5H8-1",
-    distances = DistanceData(
-        distances = {'d12': 1.24145, 'd13': 2.74478, 'd23': 1.50625},
+        distances = {'d12': 1.35367, 'd13': 2.66462, 'd23': 1.31996},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""Reverse reaction for reaction index 744""",
 )
 
 entry(
-    index = 1018,
-    label = "C4H4 + C5H5-1 <=> C5H6-1 + C4H3",
+    index = 1817,
+    label = "CH4O2 + CHO <=> CH3O2 + CH2O",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.33942, 'd13': 2.63237, 'd23': 1.3049},
+        distances = {'d12': 1.25819, 'd13': 2.50143, 'd23': 1.28644},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""Reverse reaction for reaction index 811""",
+    shortDesc = u"""Reverse reaction for reaction index 745""",
 )
 
 entry(
-    index = 1095,
-    label = "C2H6O-2 + C3H2 <=> C2H5O-2 + C3H3-1",
+    index = 1818,
+    label = "H2O2 + C2H3O-2 <=> C2H4O-2 + HO2-1",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.23187, 'd13': 2.48503, 'd23': 1.26673},
+        distances = {'d12': 1.15135, 'd13': 2.46923, 'd23': 1.3576},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""Reverse reaction for reaction index 932""",
+    shortDesc = u"""Reverse reaction for reaction index 746""",
 )
 
 entry(
-    index = 1164,
-    label = "C4H8-1 + C2H3O-1 <=> C4H7-1 + C2H4O-1",
+    index = 1819,
+    label = "CH4 + C4H5-2 <=> C4H6-2 + CH3",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.28931, 'd13': 2.71038, 'd23': 1.45617},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 922""",
-)
-
-entry(
-    index = 1127,
-    label = "C3H6-2 + C2H3O <=> C2H4O + C3H5-2",
-    distances = DistanceData(
-        distances = {'d12': 1.26576, 'd13': 2.69421, 'd23': 1.434},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 882""",
-)
-
-entry(
-    index = 1081,
-    label = "C4H10 + CHO <=> C4H9 + CH2O",
-    distances = DistanceData(
-        distances = {'d12': 1.29256, 'd13': 2.71979, 'd23': 1.44608},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 770""",
-)
-
-entry(
-    index = 814,
-    label = "C3H4O + CH3O <=> CH4O + C3H3O",
-    distances = DistanceData(
-        distances = {'d12': 1.3388, 'd13': 2.67854, 'd23': 1.37393},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 863,
-    label = "C4H7-1 + CH4O <=> C4H8-1 + CH3O",
-    distances = DistanceData(
-        distances = {'d12': 1.3149, 'd13': 2.69717, 'd23': 1.39395},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 822,
-    label = "C2H + C6H8-3 <=> C2H2 + C6H7-3",
-    distances = DistanceData(
-        distances = {'d12': 1.12015, 'd13': 2.88828, 'd23': 1.81999},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 780,
-    label = "C4H9 + C2H4O <=> C4H10 + C2H3O",
-    distances = DistanceData(
-        distances = {'d12': 1.29263, 'd13': 2.69713, 'd23': 1.40578},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1110,
-    label = "C2H6O-2 + C2O <=> C2HO-1 + C2H5O-2",
-    distances = DistanceData(
-        distances = {'d12': 1.20931, 'd13': 2.42545, 'd23': 1.29442},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 968""",
-)
-
-entry(
-    index = 760,
-    label = "C3H3-1 + C3H5-2 <=> C3H6-2 + C3H2",
-    distances = DistanceData(
-        distances = {'d12': 1.2802, 'd13': 2.65511, 'd23': 1.37946},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1167,
-    label = "C7H14O-1 + C2H5 <=> C7H13O-1 + C2H6",
-    distances = DistanceData(
-        distances = {'d12': 1.33239, 'd13': 2.67842, 'd23': 1.35237},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 856""",
-)
-
-entry(
-    index = 1177,
-    label = "C2H4 + C4H9 <=> C4H10 + C2H3",
-    distances = DistanceData(
-        distances = {'d12': 1.28393, 'd13': 2.68344, 'd23': 1.40156},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 923""",
-)
-
-entry(
-    index = 789,
-    label = "C5H5-1 + C2H6O <=> C5H6-1 + C2H5O",
-    distances = DistanceData(
-        distances = {'d12': 1.21749, 'd13': 2.70768, 'd23': 1.51119},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 870,
-    label = "C6H6 + C4H3 <=> C4H4 + C6H5",
-    distances = DistanceData(
-        distances = {'d12': 1.31609, 'd13': 2.63793, 'd23': 1.3296},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1147,
-    label = "C2H6O-2 + C2H5O-1 <=> C2H5O-2 + C2H6O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.25129, 'd13': 2.49822, 'd23': 1.25191},
+        distances = {'d12': 1.4409, 'd13': 2.7064, 'd23': 1.26602},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""Reverse reaction for reaction index 747""",
 )
 
 entry(
-    index = 1004,
-    label = "H2 + C7H13O3-1 <=> C7H14O3-1 + H",
+    index = 1820,
+    label = "CH4 + C4H9O-9 <=> C4H10O-9 + CH3",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.1136, 'd13': 2.12218, 'd23': 1.01225},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 769""",
-)
-
-entry(
-    index = 1073,
-    label = "C4H8-1 + C3H7 <=> C4H7-1 + C3H8",
-    distances = DistanceData(
-        distances = {'d12': 1.34046, 'd13': 2.68402, 'd23': 1.34671},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 964""",
-)
-
-entry(
-    index = 926,
-    label = "C5H5-1 + C3H4O-1 <=> C5H6-1 + C3H3O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.21228, 'd13': 2.77185, 'd23': 1.56487},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1032,
-    label = "C4H6 + C4H7-1 <=> C4H8-1 + C4H5",
-    distances = DistanceData(
-        distances = {'d12': 1.28012, 'd13': 2.67229, 'd23': 1.40053},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 909""",
-)
-
-entry(
-    index = 803,
-    label = "C2H3 + C5H8-1 <=> C2H4 + C5H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.21856, 'd13': 2.739, 'd23': 1.52394},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 914,
-    label = "C5H6 + C3H3 <=> C3H4 + C5H5",
-    distances = DistanceData(
-        distances = {'d12': 1.28818, 'd13': 2.71621, 'd23': 1.43215},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 852,
-    label = "C3H5O + C4H6O <=> C3H6O + C4H5O",
-    distances = DistanceData(
-        distances = {'d12': 1.31514, 'd13': 2.69186, 'd23': 1.40066},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 949,
-    label = "CH2O + H <=> H2 + CHO",
-    distances = DistanceData(
-        distances = {'d12': 1.26516, 'd13': 2.33001, 'd23': 1.06488},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 999,
-    label = "C5H6-1 + C2H3O <=> C5H5-1 + C2H4O",
-    distances = DistanceData(
-        distances = {'d12': 1.227, 'd13': 2.70108, 'd23': 1.48813},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 857""",
-)
-
-entry(
-    index = 813,
-    label = "C3H3-1 + O <=> HO-1 + C3H2",
-    distances = DistanceData(
-        distances = {'d12': 1.24201, 'd13': 2.49561, 'd23': 1.2536},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 797,
-    label = "C2H6O-1 + C2H3 <=> C2H4 + C2H5O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.28725, 'd13': 2.66941, 'd23': 1.38918},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 868,
-    label = "C3H5 + C5H8-1 <=> C3H6 + C5H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.3087, 'd13': 2.70951, 'd23': 1.40551},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 985,
-    label = "C3H4 + C4H7 <=> C4H8 + C3H3",
-    distances = DistanceData(
-        distances = {'d12': 1.28656, 'd13': 2.68616, 'd23': 1.4021},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 801""",
-)
-
-entry(
-    index = 787,
-    label = "C4H6-1 + CH3 <=> CH4 + C4H5-1",
-    distances = DistanceData(
-        distances = {'d12': 1.31088, 'd13': 2.67032, 'd23': 1.36145},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1103,
-    label = "C2H6O-1 + O2 <=> C2H5O-1 + HO2",
-    distances = DistanceData(
-        distances = {'d12': 1.08298, 'd13': 2.6123, 'd23': 1.53916},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 749""",
-)
-
-entry(
-    index = 773,
-    label = "C2O + CH4O <=> C2HO-1 + CH3O",
-    distances = DistanceData(
-        distances = {'d12': 1.33986, 'd13': 2.66562, 'd23': 1.33683},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 954,
-    label = "C3H3-1 + CH3 <=> CH4 + C3H2",
-    distances = DistanceData(
-        distances = {'d12': 1.28156, 'd13': 2.66668, 'd23': 1.38512},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1060,
-    label = "C2H6O-2 + C2H5 <=> C2H5O-2 + C2H6",
-    distances = DistanceData(
-        distances = {'d12': 1.23808, 'd13': 2.50752, 'd23': 1.27554},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 946""",
-)
-
-entry(
-    index = 946,
-    label = "C2H5O-2 + C2H6 <=> C2H6O-2 + C2H5",
-    distances = DistanceData(
-        distances = {'d12': 1.23808, 'd13': 2.50752, 'd23': 1.27554},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 960,
-    label = "C2H4O-1 + C3H3O-1 <=> C3H4O-1 + C2H3O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.38531, 'd13': 2.7684, 'd23': 1.39267},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 908,
-    label = "C4H10 + C4H5 <=> C4H6 + C4H9",
-    distances = DistanceData(
-        distances = {'d12': 1.27659, 'd13': 2.67701, 'd23': 1.40569},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1195,
-    label = "H2 + C5H7-1 <=> H + C5H8-1",
-    distances = DistanceData(
-        distances = {'d12': 1.21574, 'd13': 2.33091, 'd23': 1.11688},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 973""",
-)
-
-entry(
-    index = 972,
-    label = "C2H5O-2 + C4H4-2 <=> C2H6O-2 + C4H3-2",
-    distances = DistanceData(
-        distances = {'d12': 1.22479, 'd13': 2.4977, 'd23': 1.28802},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1013,
-    label = "C4H6-1 + C2H5 <=> C4H5-1 + C2H6",
-    distances = DistanceData(
-        distances = {'d12': 1.33514, 'd13': 2.67222, 'd23': 1.33881},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 917""",
-)
-
-entry(
-    index = 1042,
-    label = "C3H6 + C5H7-1 <=> C3H5 + C5H8-1",
-    distances = DistanceData(
-        distances = {'d12': 1.3087, 'd13': 2.70951, 'd23': 1.40551},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 868""",
-)
-
-entry(
-    index = 1059,
-    label = "C3H6O + C6H7-2 <=> C3H5O + C6H8-2",
-    distances = DistanceData(
-        distances = {'d12': 1.26035, 'd13': 2.72489, 'd23': 1.46951},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 880""",
-)
-
-entry(
-    index = 835,
-    label = "C4H8-1 + CH2 <=> CH3-1 + C4H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.29871, 'd13': 2.65801, 'd23': 1.36436},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 931,
-    label = "C2H4O-1 + C6H5 <=> C6H6 + C2H3O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.22745, 'd13': 2.74998, 'd23': 1.53858},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 964,
-    label = "C4H7-1 + C3H8 <=> C4H8-1 + C3H7",
-    distances = DistanceData(
-        distances = {'d12': 1.34046, 'd13': 2.68402, 'd23': 1.34671},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1121,
-    label = "C2HO-1 + C6H7-1 <=> C2O + C6H8-1",
-    distances = DistanceData(
-        distances = {'d12': 1.30356, 'd13': 2.65764, 'd23': 1.373},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 836""",
-)
-
-entry(
-    index = 1078,
-    label = "C2H6O-2 + C3H3O-1 <=> C2H5O-2 + C3H4O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.1924, 'd13': 2.55699, 'd23': 1.38954},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 889""",
-)
-
-entry(
-    index = 845,
-    label = "C2O + C7H14O3-4 <=> C2HO-1 + C7H13O3-4",
-    distances = DistanceData(
-        distances = {'d12': 1.1624, 'd13': 2.45359, 'd23': 1.34106},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1135,
-    label = "C4H10 + C3H7-1 <=> C4H9 + C3H8-1",
-    distances = DistanceData(
-        distances = {'d12': 1.31707, 'd13': 2.68611, 'd23': 1.37457},
+        distances = {'d12': 1.37373, 'd13': 2.68362, 'd23': 1.31226},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""Reverse reaction for reaction index 748""",
 )
 
 entry(
-    index = 889,
-    label = "C2H5O-2 + C3H4O-1 <=> C2H6O-2 + C3H3O-1",
+    index = 1821,
+    label = "H2 + C4H9O-10 <=> C4H10O-10 + H",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.1924, 'd13': 2.55699, 'd23': 1.38954},
+        distances = {'d12': 0.945076, 'd13': 2.27978, 'd23': 1.33531},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+    shortDesc = u"""Reverse reaction for reaction index 749""",
 )
 
 entry(
-    index = 895,
-    label = "C4H8-1 + HO <=> H2O + C4H7-1",
+    index = 1822,
+    label = "C4H10O2-2 + C3H3O-1 <=> C3H4O-1 + C4H9O2-2",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.17855, 'd13': 2.53153, 'd23': 1.38018},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 754,
-    label = "CH4O + C4H5O3 <=> C4H6O3 + CH3O",
-    distances = DistanceData(
-        distances = {'d12': 1.23697, 'd13': 2.5442, 'd23': 1.31812},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 979,
-    label = "H2O + C6H11O <=> C6H12O + HO",
-    distances = DistanceData(
-        distances = {'d12': 1.18121, 'd13': 2.50415, 'd23': 1.36928},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 862""",
-)
-
-entry(
-    index = 742,
-    label = "C5H6 + C3H5-2 <=> C3H6-2 + C5H5",
-    distances = DistanceData(
-        distances = {'d12': 1.2249, 'd13': 2.73975, 'd23': 1.52504},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1204,
-    label = "C4H8-1 + C5H5 <=> C4H7-1 + C5H6",
-    distances = DistanceData(
-        distances = {'d12': 1.24707, 'd13': 2.73212, 'd23': 1.49367},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 785""",
-)
-
-entry(
-    index = 1025,
-    label = "C5H6-1 + C2H5O <=> C5H5-1 + C2H6O",
-    distances = DistanceData(
-        distances = {'d12': 1.21749, 'd13': 2.70768, 'd23': 1.51119},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 789""",
-)
-
-entry(
-    index = 903,
-    label = "C4H8 + C2H5O-1 <=> C2H6O-1 + C4H7",
-    distances = DistanceData(
-        distances = {'d12': 1.26366, 'd13': 2.71186, 'd23': 1.45239},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1055,
-    label = "C3H4O-1 + C6H7 <=> C6H8 + C3H3O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.32693, 'd13': 2.72644, 'd23': 1.40764},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 788""",
-)
-
-entry(
-    index = 1099,
-    label = "C3H8 + C4H7 <=> C4H8 + C3H7",
-    distances = DistanceData(
-        distances = {'d12': 1.27256, 'd13': 2.71035, 'd23': 1.44138},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 808""",
-)
-
-entry(
-    index = 1085,
-    label = "CH4O + C5H5 <=> C5H6 + CH3O",
-    distances = DistanceData(
-        distances = {'d12': 1.27671, 'd13': 2.7273, 'd23': 1.46189},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 776""",
-)
-
-entry(
-    index = 882,
-    label = "C2H4O + C3H5-2 <=> C3H6-2 + C2H3O",
-    distances = DistanceData(
-        distances = {'d12': 1.26576, 'd13': 2.69421, 'd23': 1.434},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 997,
-    label = "C4H8-1 + C4H5-1 <=> C4H7-1 + C4H6-1",
-    distances = DistanceData(
-        distances = {'d12': 1.38408, 'd13': 2.6733, 'd23': 1.29385},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 879""",
-)
-
-entry(
-    index = 1181,
-    label = "CH3-1 + C3H5 <=> C3H6 + CH2",
-    distances = DistanceData(
-        distances = {'d12': 1.25295, 'd13': 2.69011, 'd23': 1.43716},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 902""",
-)
-
-entry(
-    index = 877,
-    label = "C5H6 + C4H5 <=> C4H6 + C5H5",
-    distances = DistanceData(
-        distances = {'d12': 1.21437, 'd13': 2.7376, 'd23': 1.53766},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 764,
-    label = "C2H6O-1 + C3H5-2 <=> C3H6-2 + C2H5O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.31549, 'd13': 2.67588, 'd23': 1.36225},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1202,
-    label = "H2 + C2O <=> C2HO-1 + H",
-    distances = DistanceData(
-        distances = {'d12': 1.25756, 'd13': 2.22931, 'd23': 0.998142},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 771""",
-)
-
-entry(
-    index = 1158,
-    label = "C5H6-1 + C3H2 <=> C5H5-1 + C3H3-1",
-    distances = DistanceData(
-        distances = {'d12': 1.22321, 'd13': 2.67029, 'd23': 1.45619},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 961""",
-)
-
-entry(
-    index = 1143,
-    label = "C2H2O + CH3O <=> CH4O + C2HO",
-    distances = DistanceData(
-        distances = {'d12': 1.22102, 'd13': 2.65835, 'd23': 1.45614},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 953""",
-)
-
-entry(
-    index = 1092,
-    label = "C2HO-1 + C4H7 <=> C4H8 + C2O",
-    distances = DistanceData(
-        distances = {'d12': 1.2934, 'd13': 2.67343, 'd23': 1.38322},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 912""",
-)
-
-entry(
-    index = 1067,
-    label = "C2H6O-2 + C4H3-2 <=> C2H5O-2 + C4H4-2",
-    distances = DistanceData(
-        distances = {'d12': 1.22479, 'd13': 2.4977, 'd23': 1.28802},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 972""",
-)
-
-entry(
-    index = 807,
-    label = "C4H8 + C4H5 <=> C4H6 + C4H7",
-    distances = DistanceData(
-        distances = {'d12': 1.22111, 'd13': 2.71297, 'd23': 1.50812},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 910,
-    label = "C4H6O + C2H5O <=> C2H6O + C4H5O",
-    distances = DistanceData(
-        distances = {'d12': 1.35348, 'd13': 2.68208, 'd23': 1.36598},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 945,
-    label = "H + C4H8O3 <=> H2 + C4H7O3",
-    distances = DistanceData(
-        distances = {'d12': 1.17526, 'd13': 2.10644, 'd23': 0.933968},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 817,
-    label = "C3H3O-1 + C5H8-1 <=> C3H4O-1 + C5H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.31213, 'd13': 2.75581, 'd23': 1.4517},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 793,
-    label = "C4H8-1 + C3H5-1 <=> C3H6-1 + C4H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.28375, 'd13': 2.67551, 'd23': 1.39697},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 783,
-    label = "C3H5O + HO2 <=> C3H6O + O2",
-    distances = DistanceData(
-        distances = {'d12': 1.07958, 'd13': 2.60996, 'd23': 1.54151},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 827,
-    label = "C3H4O + C2H3O <=> C2H4O + C3H3O",
-    distances = DistanceData(
-        distances = {'d12': 1.32553, 'd13': 2.69973, 'd23': 1.38253},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1188,
-    label = "C4H10 + C2H5O <=> C4H9 + C2H6O",
-    distances = DistanceData(
-        distances = {'d12': 1.30948, 'd13': 2.71554, 'd23': 1.41318},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 881""",
-)
-
-entry(
-    index = 1064,
-    label = "C4H6 + C3H3O-1 <=> C4H5 + C3H4O-1",
-    distances = DistanceData(
-        distances = {'d12': 1.23749, 'd13': 2.76161, 'd23': 1.52791},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 851""",
-)
-
-entry(
-    index = 1107,
-    label = "C2H6 + C6H7 <=> C6H8 + C2H5",
-    distances = DistanceData(
-        distances = {'d12': 1.26228, 'd13': 2.7051, 'd23': 1.45857},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 907""",
-)
-
-entry(
-    index = 1117,
-    label = "C3H4O-1 + C5H7-1 <=> C3H3O-1 + C5H8-1",
-    distances = DistanceData(
-        distances = {'d12': 1.31213, 'd13': 2.75581, 'd23': 1.4517},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 817""",
-)
-
-entry(
-    index = 1211,
-    label = "C5H6-1 + C3H3O <=> C5H5-1 + C3H4O",
-    distances = DistanceData(
-        distances = {'d12': 1.21568, 'd13': 2.72718, 'd23': 1.51387},
+        distances = {'d12': 1.25859, 'd13': 2.53106, 'd23': 1.29003},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""Reverse reaction for reaction index 750""",
 )
 
 entry(
-    index = 942,
-    label = "C2H6O-1 + CH2 <=> CH3-1 + C2H5O-1",
+    index = 1823,
+    label = "CH4 + C4H9O-5 <=> C4H10O-5 + CH3",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.29952, 'd13': 2.65527, 'd23': 1.36789},
+        distances = {'d12': 1.37493, 'd13': 2.69122, 'd23': 1.31788},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+    shortDesc = u"""Reverse reaction for reaction index 751""",
 )
 
 entry(
-    index = 867,
-    label = "C3H4O + C3H7-1 <=> C3H8-1 + C3H3O",
+    index = 1824,
+    label = "CH4 + C2H3O2-2 <=> C2H4O2-2 + CH3",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.3154, 'd13': 2.68928, 'd23': 1.38695},
+        distances = {'d12': 1.39624, 'd13': 2.70146, 'd23': 1.30649},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+    shortDesc = u"""Reverse reaction for reaction index 752""",
 )
 
 entry(
-    index = 1172,
-    label = "C3H3-1 + C3H5O <=> C3H6O + C3H2",
+    index = 1825,
+    label = "CH4O-1 + C3H3O-1 <=> C3H4O-1 + CH3O-1",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.32513, 'd13': 2.66456, 'd23': 1.34118},
+        distances = {'d12': 1.38276, 'd13': 2.5516, 'd23': 1.19229},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 753""",
+)
+
+entry(
+    index = 1826,
+    label = "C3H8O2-1 + H <=> H2 + C3H7O2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.11579, 'd13': 2.12085, 'd23': 1.00806},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 754""",
+)
+
+entry(
+    index = 1827,
+    label = "C2H6O-2 + C4H9-3 <=> C4H10-3 + C2H5O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27249, 'd13': 2.5083, 'd23': 1.2415},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 755""",
+)
+
+entry(
+    index = 1828,
+    label = "CH4 + C2H3O2 <=> C2H4O2 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.49673, 'd13': 2.76299, 'd23': 1.26658},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 756""",
+)
+
+entry(
+    index = 1829,
+    label = "CH2O + C4H9O-12 <=> C4H10O-12 + CHO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.18724, 'd13': 2.56616, 'd23': 1.41203},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""Reverse reaction for reaction index 757""",
 )
 
 entry(
-    index = 1017,
-    label = "C3H6O + O2 <=> C3H5O + HO2",
+    index = 1830,
+    label = "CH4O-1 + C2H3O2-1 <=> C2H4O2-1 + CH3O-1",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.07958, 'd13': 2.60996, 'd23': 1.54151},
+        distances = {'d12': 1.2632, 'd13': 2.49963, 'd23': 1.24533},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 758""",
+)
+
+entry(
+    index = 1831,
+    label = "C2H6 + C4H7O-8 <=> C4H8O-8 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.42849, 'd13': 2.69597, 'd23': 1.27923},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 759""",
+)
+
+entry(
+    index = 1832,
+    label = "CH4O-1 + C3H7-1 <=> C3H8-1 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32351, 'd13': 2.52811, 'd23': 1.209},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 760""",
+)
+
+entry(
+    index = 1833,
+    label = "C4H8O-9 + CHO <=> C4H7O-9 + CH2O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37831, 'd13': 2.71187, 'd23': 1.35515},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 761""",
+)
+
+entry(
+    index = 1834,
+    label = "H2 + C4H9-3 <=> C4H10-3 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.923213, 'd13': 2.27971, 'd23': 1.35943},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 762""",
+)
+
+entry(
+    index = 1835,
+    label = "CH2O + C4H9O-2 <=> C4H10O-2 + CHO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29618, 'd13': 2.67447, 'd23': 1.44073},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 763""",
+)
+
+entry(
+    index = 1836,
+    label = "C2H6O3 + C2H3O-1 <=> C2H5O3 + C2H4O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29584, 'd13': 2.53207, 'd23': 1.26421},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 764""",
+)
+
+entry(
+    index = 1837,
+    label = "H2 + C4H9O-13 <=> C4H10O-13 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.980083, 'd13': 2.27889, 'd23': 1.29884},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 765""",
+)
+
+entry(
+    index = 1838,
+    label = "H2O + C4H7-2 <=> C4H8-2 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.46779, 'd13': 2.59631, 'd23': 1.15777},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 766""",
+)
+
+entry(
+    index = 1839,
+    label = "HO2 + C2H3O-3 <=> C2H4O-3 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.11295, 'd13': 2.38434, 'd23': 1.29506},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 767""",
+)
+
+entry(
+    index = 1840,
+    label = "HO2 + C4H7O <=> C4H8O + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.06683, 'd13': 2.6273, 'd23': 1.57351},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 768""",
+)
+
+entry(
+    index = 1841,
+    label = "C2H6 + C4H9-3 <=> C4H10-3 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3442, 'd13': 2.68247, 'd23': 1.34236},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 769""",
+)
+
+entry(
+    index = 1842,
+    label = "H2O + C3H3O-1 <=> C3H4O-1 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.61152, 'd13': 2.68618, 'd23': 1.14075},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 770""",
+)
+
+entry(
+    index = 1843,
+    label = "HO-1 + C4H9O-10 <=> C4H10O-10 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25596, 'd13': 2.51552, 'd23': 1.2608},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 771""",
+)
+
+entry(
+    index = 1844,
+    label = "C2H4O3 + C4H9-2 <=> C4H10-2 + C2H3O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30185, 'd13': 2.53767, 'd23': 1.23972},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 772""",
+)
+
+entry(
+    index = 1845,
+    label = "H2 + C2H3O-2 <=> C2H4O-2 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.923602, 'd13': 2.27789, 'd23': 1.35719},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 773""",
+)
+
+entry(
+    index = 1846,
+    label = "H2 + C3H3O-1 <=> C3H4O-1 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.06431, 'd13': 2.33744, 'd23': 1.2736},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 774""",
+)
+
+entry(
+    index = 1847,
+    label = "C4H10O2 + O2 <=> C4H9O2 + HO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27233, 'd13': 2.38898, 'd23': 1.11669},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 775""",
+)
+
+entry(
+    index = 1848,
+    label = "HO-1 + C4H7O-1 <=> C4H8O-1 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.33706, 'd13': 2.52894, 'd23': 1.22398},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 776""",
+)
+
+entry(
+    index = 1849,
+    label = "H2O + C4H7-4 <=> C4H8-4 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.38566, 'd13': 2.53319, 'd23': 1.17108},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 777""",
+)
+
+entry(
+    index = 1850,
+    label = "C4H10O2-2 + C2H3O-1 <=> C4H9O2-2 + C2H4O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27035, 'd13': 2.53356, 'd23': 1.28434},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 778""",
+)
+
+entry(
+    index = 1851,
+    label = "C4H10O2-1 + C2H3O-1 <=> C4H9O2-1 + C2H4O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24038, 'd13': 2.53603, 'd23': 1.30065},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 779""",
+)
+
+entry(
+    index = 1852,
+    label = "C2H6O2 + O2 <=> C2H5O2 + HO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.33634, 'd13': 2.39177, 'd23': 1.08484},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 780""",
+)
+
+entry(
+    index = 1853,
+    label = "CH4 + C4H9O-11 <=> C4H10O-11 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37312, 'd13': 2.68299, 'd23': 1.31274},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 781""",
+)
+
+entry(
+    index = 1854,
+    label = "H2O + C4H9O-6 <=> C4H10O-6 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.5442, 'd13': 2.57079, 'd23': 1.14646},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 782""",
+)
+
+entry(
+    index = 1855,
+    label = "C3H8O2-1 + C2H3O-1 <=> C3H7O2-1 + C2H4O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27133, 'd13': 2.52814, 'd23': 1.28334},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""Reverse reaction for reaction index 783""",
 )
 
 entry(
-    index = 839,
-    label = "C2O + C2H6O <=> C2HO-1 + C2H5O",
+    index = 1856,
+    label = "C2H6O2 + CH3O <=> CH4O + C2H5O2",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.31682, 'd13': 2.65929, 'd23': 1.35739},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1200,
-    label = "C6H6 + C3H7 <=> C6H5 + C3H8",
-    distances = DistanceData(
-        distances = {'d12': 1.26734, 'd13': 2.68016, 'd23': 1.41706},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 962""",
-)
-
-entry(
-    index = 935,
-    label = "C4H6O + CH3O <=> CH4O + C4H5O",
-    distances = DistanceData(
-        distances = {'d12': 1.33432, 'd13': 2.70859, 'd23': 1.38363},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1007,
-    label = "C4H6-1 + C2H3O-1 <=> C2H4O-1 + C4H5-1",
-    distances = DistanceData(
-        distances = {'d12': 1.29795, 'd13': 2.70193, 'd23': 1.42844},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 842""",
-)
-
-entry(
-    index = 921,
-    label = "C3H6O + C2O <=> C2HO-1 + C3H5O",
-    distances = DistanceData(
-        distances = {'d12': 1.37633, 'd13': 2.64671, 'd23': 1.29438},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 841,
-    label = "HO2-1 + C5H8-1 <=> H2O2 + C5H7-1",
-    distances = DistanceData(
-        distances = {'d12': 1.2596, 'd13': 2.54094, 'd23': 1.29536},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 1037,
-    label = "C3H6 + CHO <=> CH2O + C3H5",
-    distances = DistanceData(
-        distances = {'d12': 1.36139, 'd13': 2.73144, 'd23': 1.37055},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 846""",
-)
-
-entry(
-    index = 1131,
-    label = "C2H4O + C6H7-2 <=> C2H3O + C6H8-2",
-    distances = DistanceData(
-        distances = {'d12': 1.26746, 'd13': 2.71432, 'd23': 1.46173},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 958""",
-)
-
-entry(
-    index = 800,
-    label = "C6H5 + C4H4-2 <=> C6H6 + C4H3-2",
-    distances = DistanceData(
-        distances = {'d12': 1.24513, 'd13': 2.67111, 'd23': 1.43661},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 855,
-    label = "C4H10 + C3H5-2 <=> C3H6-2 + C4H9",
-    distances = DistanceData(
-        distances = {'d12': 1.311, 'd13': 2.67475, 'd23': 1.36923},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 919,
-    label = "C5H5 + HO2 <=> C5H6 + O2",
-    distances = DistanceData(
-        distances = {'d12': 1.1551, 'd13': 2.61984, 'd23': 1.4756},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 794,
-    label = "C2HO-1 + C3H5-2 <=> C3H6-2 + C2O",
-    distances = DistanceData(
-        distances = {'d12': 1.24881, 'd13': 2.65744, 'd23': 1.41691},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 899,
-    label = "C4H9 + C3H4-1 <=> C4H10 + C3H3-2",
-    distances = DistanceData(
-        distances = {'d12': 1.30166, 'd13': 2.69315, 'd23': 1.39287},
-        method = 'm062x/6-311+g(2df,2p)',
-    ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
-)
-
-entry(
-    index = 980,
-    label = "C4H6-1 + CH3O <=> CH4O + C4H5-1",
-    distances = DistanceData(
-        distances = {'d12': 1.27312, 'd13': 2.70184, 'd23': 1.43129},
+        distances = {'d12': 1.23424, 'd13': 2.48474, 'd23': 1.30384},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""Reverse reaction for reaction index 784""",
 )
 
 entry(
-    index = 758,
-    label = "CH3 + C4H4-1 <=> CH4 + C4H3-1",
+    index = 1857,
+    label = "H2O2 + O2 <=> HO2 + HO2-1",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.3021, 'd13': 2.66512, 'd23': 1.36509},
+        distances = {'d12': 1.36481, 'd13': 2.39795, 'd23': 1.06982},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+    shortDesc = u"""Reverse reaction for reaction index 785""",
 )
 
 entry(
-    index = 746,
-    label = "C3H5-1 + C3H8-1 <=> C3H6-1 + C3H7-1",
+    index = 1858,
+    label = "H2O + C4H5O-2 <=> C4H6O-2 + HO",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.25402, 'd13': 2.68374, 'd23': 1.43673},
+        distances = {'d12': 1.59328, 'd13': 2.70928, 'd23': 1.1418},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+    shortDesc = u"""Reverse reaction for reaction index 786""",
 )
 
 entry(
-    index = 969,
-    label = "C6H5 + C4H4-1 <=> C6H6 + C4H3-1",
+    index = 1859,
+    label = "C4H10O2 + C2H3 <=> C2H4 + C4H9O2",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.25933, 'd13': 2.66027, 'd23': 1.40789},
+        distances = {'d12': 1.10655, 'd13': 2.51709, 'd23': 1.41954},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+    shortDesc = u"""Reverse reaction for reaction index 787""",
 )
 
 entry(
-    index = 1077,
-    label = "C2H6 + C3H5O <=> C3H6O + C2H5",
+    index = 1860,
+    label = "C4H10O3-4 + O2 <=> C4H9O3-4 + HO2",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.3031, 'd13': 2.68154, 'd23': 1.38809},
+        distances = {'d12': 1.34195, 'd13': 2.39802, 'd23': 1.08163},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 788""",
+)
+
+entry(
+    index = 1861,
+    label = "C2H6 + C4H9O-1 <=> C4H10O-1 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23866, 'd13': 2.50681, 'd23': 1.27598},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 789""",
+)
+
+entry(
+    index = 1862,
+    label = "C3H8O2 + C4H9-3 <=> C3H7O2 + C4H10-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16451, 'd13': 2.51345, 'd23': 1.3541},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 790""",
+)
+
+entry(
+    index = 1863,
+    label = "H2 + C4H9O-14 <=> C4H10O-14 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.00528, 'd13': 2.29229, 'd23': 1.29011},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 791""",
+)
+
+entry(
+    index = 1864,
+    label = "C2H4 + C4H5O-2 <=> C4H6O-2 + C2H3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.51859, 'd13': 2.73086, 'd23': 1.24053},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 792""",
+)
+
+entry(
+    index = 1865,
+    label = "CH4O-1 + C4H9O-14 <=> C4H10O-14 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3831, 'd13': 2.54893, 'd23': 1.18669},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 793""",
+)
+
+entry(
+    index = 1866,
+    label = "CH4O2 + C4H9O <=> C4H10O + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1654, 'd13': 2.50879, 'd23': 1.35371},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 794""",
+)
+
+entry(
+    index = 1867,
+    label = "C2H6O-2 + C4H9-1 <=> C4H10-1 + C2H5O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32343, 'd13': 2.53079, 'd23': 1.21392},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 795""",
+)
+
+entry(
+    index = 1868,
+    label = "C3H6-2 + CO <=> C3H5-2 + CHO-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.49264, 'd13': 2.75289, 'd23': 1.30943},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 796""",
+)
+
+entry(
+    index = 1869,
+    label = "CH2O + C4H9O-9 <=> C4H10O-9 + CHO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29321, 'd13': 2.71438, 'd23': 1.44235},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 797""",
+)
+
+entry(
+    index = 1870,
+    label = "CH4O-1 + C4H9-3 <=> C4H10-3 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27628, 'd13': 2.5064, 'd23': 1.23608},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 798""",
+)
+
+entry(
+    index = 1871,
+    label = "CH4 + C4H9-1 <=> C4H10-1 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40476, 'd13': 2.68745, 'd23': 1.28844},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 799""",
+)
+
+entry(
+    index = 1872,
+    label = "H2O + CH2 <=> CH3-1 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.33485, 'd13': 2.5, 'd23': 1.18},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 800""",
+)
+
+entry(
+    index = 1873,
+    label = "CH4O2 + C4H7O-10 <=> C4H8O-10 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29371, 'd13': 2.54642, 'd23': 1.27303},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 801""",
+)
+
+entry(
+    index = 1874,
+    label = "C3H8O2 + CH3O <=> CH4O + C3H7O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.20809, 'd13': 2.51976, 'd23': 1.31598},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 802""",
+)
+
+entry(
+    index = 1875,
+    label = "HO-1 + C4H9O-3 <=> C4H10O-3 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17143, 'd13': 2.28948, 'd23': 1.14635},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 803""",
+)
+
+entry(
+    index = 1876,
+    label = "CH4O-1 + C3H5O <=> C3H6O + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27477, 'd13': 2.49865, 'd23': 1.24069},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 804""",
+)
+
+entry(
+    index = 1877,
+    label = "CH4O2 + C2H5 <=> C2H6 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16839, 'd13': 2.5134, 'd23': 1.35299},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 805""",
+)
+
+entry(
+    index = 1878,
+    label = "H2O + C4H7O-5 <=> C4H8O-5 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.49733, 'd13': 2.6084, 'd23': 1.15241},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 806""",
+)
+
+entry(
+    index = 1879,
+    label = "HO2 + C4H7O-9 <=> C4H8O-9 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.13083, 'd13': 2.59445, 'd23': 1.47337},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 807""",
+)
+
+entry(
+    index = 1880,
+    label = "C4H10O2-1 + H <=> H2 + C4H9O2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1112, 'd13': 2.12282, 'd23': 1.01377},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 808""",
+)
+
+entry(
+    index = 1881,
+    label = "C2H6 + C4H9O-14 <=> C4H10O-14 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40356, 'd13': 2.70891, 'd23': 1.30699},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 809""",
+)
+
+entry(
+    index = 1882,
+    label = "C2H6O2 + CHO <=> C2H5O2 + CH2O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25406, 'd13': 2.49994, 'd23': 1.28942},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 810""",
+)
+
+entry(
+    index = 1883,
+    label = "C4H10O2-2 + CH3 <=> CH4 + C4H9O2-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.13447, 'd13': 2.5178, 'd23': 1.3866},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 811""",
+)
+
+entry(
+    index = 1884,
+    label = "H2O2 + C4H9O-9 <=> C4H10O-9 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17787, 'd13': 2.50583, 'd23': 1.33512},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 813""",
+)
+
+entry(
+    index = 1885,
+    label = "CH4O + C4H9O-5 <=> C4H10O-5 + CH3O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30151, 'd13': 2.70052, 'd23': 1.40347},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 814""",
+)
+
+entry(
+    index = 1886,
+    label = "H2O + C2H3O-2 <=> C2H4O-2 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.38139, 'd13': 2.50908, 'd23': 1.16891},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 815""",
+)
+
+entry(
+    index = 1887,
+    label = "H2O + C3H5O-1 <=> C3H6O-1 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.66205, 'd13': 2.71181, 'd23': 1.14147},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 816""",
+)
+
+entry(
+    index = 1888,
+    label = "C3H8O2-1 + C3H5O-1 <=> C3H7O2-1 + C3H6O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24556, 'd13': 2.52497, 'd23': 1.30021},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 817""",
+)
+
+entry(
+    index = 1889,
+    label = "HO2 + C4H9O-1 <=> C4H10O-1 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.01808, 'd13': 2.52428, 'd23': 1.53092},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 818""",
+)
+
+entry(
+    index = 1890,
+    label = "H2O2 + C4H5O-1 <=> C4H6O-1 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29047, 'd13': 2.54523, 'd23': 1.26669},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 819""",
+)
+
+entry(
+    index = 1891,
+    label = "HO-1 + C2H3O2-1 <=> C2H4O2-1 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2335, 'd13': 2.50444, 'd23': 1.27385},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 820""",
+)
+
+entry(
+    index = 1892,
+    label = "H2 + CH3O-1 <=> CH4O-1 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.873731, 'd13': 2.09844, 'd23': 1.23461},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 821""",
+)
+
+entry(
+    index = 1893,
+    label = "C4H10O3-3 + O2 <=> C4H9O3-3 + HO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34808, 'd13': 2.39776, 'd23': 1.07916},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 822""",
+)
+
+entry(
+    index = 1894,
+    label = "CH4O + C4H9O-6 <=> C4H10O-6 + CH3O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3747, 'd13': 2.66961, 'd23': 1.34651},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 823""",
+)
+
+entry(
+    index = 1895,
+    label = "CH2O + C2H3O2-1 <=> C2H4O2-1 + CHO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28637, 'd13': 2.69872, 'd23': 1.45775},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""Reverse reaction for reaction index 824""",
 )
 
 entry(
-    index = 848,
-    label = "C4H10 + C2H5O-2 <=> C2H6O-2 + C4H9",
+    index = 1896,
+    label = "H2 + C4H9O-5 <=> C4H10O-5 + H",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.23896, 'd13': 2.51204, 'd23': 1.27424},
+        distances = {'d12': 0.914925, 'd13': 2.28068, 'd23': 1.36764},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+    shortDesc = u"""Reverse reaction for reaction index 825""",
 )
 
 entry(
-    index = 951,
-    label = "C4H10 + CH2 <=> CH3-1 + C4H9",
+    index = 1897,
+    label = "CH2O3 + CHO <=> CH2O + CHO3",
+    degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.30064, 'd13': 2.66707, 'd23': 1.36853},
+        distances = {'d12': 1.33458, 'd13': 2.52848, 'd23': 1.2316},
         method = 'm062x/6-311+g(2df,2p)',
     ),
-    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+    shortDesc = u"""Reverse reaction for reaction index 826""",
+)
+
+entry(
+    index = 1898,
+    label = "H2O + C4H9O-10 <=> C4H10O-10 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.46249, 'd13': 2.60218, 'd23': 1.1573},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 827""",
+)
+
+entry(
+    index = 1899,
+    label = "CH4O2 + C4H9O-6 <=> C4H10O-6 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24853, 'd13': 2.50005, 'd23': 1.29371},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 828""",
+)
+
+entry(
+    index = 1900,
+    label = "H2O + C4H9O-2 <=> C4H10O-2 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.39936, 'd13': 2.53679, 'd23': 1.17582},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 829""",
+)
+
+entry(
+    index = 1901,
+    label = "H2 + C4H7O-7 <=> C4H8O-7 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.979885, 'd13': 2.26985, 'd23': 1.29094},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 830""",
+)
+
+entry(
+    index = 1902,
+    label = "HO-1 + C3H5-2 <=> C3H6-2 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.19234, 'd13': 2.49294, 'd23': 1.30091},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 831""",
+)
+
+entry(
+    index = 1903,
+    label = "C2H4 + C3H5O-1 <=> C3H6O-1 + C2H3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.50701, 'd13': 2.71571, 'd23': 1.24343},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 832""",
+)
+
+entry(
+    index = 1904,
+    label = "C3H8O2 + C4H7-2 <=> C3H7O2 + C4H8-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.22268, 'd13': 2.52809, 'd23': 1.31538},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 833""",
+)
+
+entry(
+    index = 1905,
+    label = "C4H10O2-3 + C2H5O <=> C4H9O2-3 + C2H6O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23368, 'd13': 2.5108, 'd23': 1.30443},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 834""",
+)
+
+entry(
+    index = 1906,
+    label = "CH4O2 + C4H9O-4 <=> C4H10O-4 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16486, 'd13': 2.50658, 'd23': 1.35653},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 835""",
+)
+
+entry(
+    index = 1907,
+    label = "CH4O + C4H9O-13 <=> C4H10O-13 + CH3O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34196, 'd13': 2.68492, 'd23': 1.36863},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 836""",
+)
+
+entry(
+    index = 1908,
+    label = "CH4O + C4H9O-15 <=> C4H10O-15 + CH3O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.39269, 'd13': 2.71608, 'd23': 1.33303},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 837""",
+)
+
+entry(
+    index = 1909,
+    label = "H2O + C4H9O-1 <=> C4H10O-1 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2879, 'd13': 2.25049, 'd23': 1.05935},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 838""",
+)
+
+entry(
+    index = 1910,
+    label = "C3H8O2-1 + C3H7-1 <=> C3H7O2-1 + C3H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.19173, 'd13': 2.51268, 'd23': 1.32838},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 839""",
+)
+
+entry(
+    index = 1911,
+    label = "C4H10O2-1 + O2 <=> C4H9O2-1 + HO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.31348, 'd13': 2.38639, 'd23': 1.09689},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 840""",
+)
+
+entry(
+    index = 1912,
+    label = "CH4 + C2H5O-2 <=> C2H6O-2 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2577, 'd13': 2.48666, 'd23': 1.23653},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 841""",
+)
+
+entry(
+    index = 1913,
+    label = "HO2 + C4H9O-10 <=> C4H10O-10 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.10499, 'd13': 2.59555, 'd23': 1.49718},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 842""",
+)
+
+entry(
+    index = 1914,
+    label = "C3H8O2 + C2H3 <=> C2H4 + C3H7O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.10082, 'd13': 2.52118, 'd23': 1.43393},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 843""",
+)
+
+entry(
+    index = 1915,
+    label = "C2H6 + C4H9O-15 <=> C4H10O-15 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.42299, 'd13': 2.71242, 'd23': 1.29195},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 845""",
+)
+
+entry(
+    index = 1916,
+    label = "HO2 + C3H7 <=> C3H8 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.07258, 'd13': 2.62937, 'd23': 1.56523},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 846""",
+)
+
+entry(
+    index = 1917,
+    label = "CH4O2 + C2H3O2 <=> C2H4O2 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2996, 'd13': 2.56453, 'd23': 1.27488},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 847""",
+)
+
+entry(
+    index = 1918,
+    label = "HO2 + C4H9O-8 <=> C4H10O-8 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.09198, 'd13': 2.59323, 'd23': 1.51982},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 848""",
+)
+
+entry(
+    index = 1919,
+    label = "CH4O-1 + C4H7O-8 <=> C4H8O-8 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3229, 'd13': 2.51933, 'd23': 1.21797},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 849""",
+)
+
+entry(
+    index = 1920,
+    label = "C4H10O2-2 + O2 <=> C4H9O2-2 + HO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32566, 'd13': 2.39271, 'd23': 1.08804},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 850""",
+)
+
+entry(
+    index = 1921,
+    label = "C4H10O2-3 + O2 <=> C4H9O2-3 + HO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.33126, 'd13': 2.39019, 'd23': 1.08662},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 852""",
+)
+
+entry(
+    index = 1922,
+    label = "HO-1 + C2H3O-1 <=> C2H4O-1 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.50715, 'd13': 2.64965, 'd23': 1.16596},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 853""",
+)
+
+entry(
+    index = 1923,
+    label = "C3H8O2-1 + C2H5 <=> C3H7O2-1 + C2H6",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16563, 'd13': 2.51335, 'd23': 1.35591},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 854""",
+)
+
+entry(
+    index = 1924,
+    label = "CH4O2 + C2H5O <=> C2H6O + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2395, 'd13': 2.52141, 'd23': 1.29639},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 855""",
+)
+
+entry(
+    index = 1925,
+    label = "H2 + C2H3O2-1 <=> C2H4O2-1 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.948716, 'd13': 2.27562, 'd23': 1.33024},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 856""",
+)
+
+entry(
+    index = 1926,
+    label = "H2O + C3H5-2 <=> C3H6-2 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37148, 'd13': 2.52139, 'd23': 1.17461},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 857""",
+)
+
+entry(
+    index = 1927,
+    label = "CH4 + C3H5O-1 <=> C3H6O-1 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.49667, 'd13': 2.76196, 'd23': 1.26562},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 858""",
+)
+
+entry(
+    index = 1928,
+    label = "C3H6O-2 + HO2-1 <=> C3H5O-2 + H2O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34925, 'd13': 2.49905, 'd23': 1.15969},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 859""",
+)
+
+entry(
+    index = 1929,
+    label = "HO-1 + C4H9O-6 <=> C4H10O-6 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37566, 'd13': 2.5725, 'd23': 1.19713},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 860""",
+)
+
+entry(
+    index = 1930,
+    label = "CH4 + C3H3-2 <=> C3H4-1 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.42046, 'd13': 2.69577, 'd23': 1.27536},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 861""",
+)
+
+entry(
+    index = 1931,
+    label = "C3H8O2-1 + O2 <=> C3H7O2-1 + HO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27129, 'd13': 2.38294, 'd23': 1.11453},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 862""",
+)
+
+entry(
+    index = 1932,
+    label = "C2H4O3 + HO2-1 <=> H2O2 + C2H3O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23747, 'd13': 2.34343, 'd23': 1.11981},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 863""",
+)
+
+entry(
+    index = 1933,
+    label = "H2O2 + C4H7O-7 <=> C4H8O-7 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.15881, 'd13': 2.48218, 'd23': 1.3681},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 864""",
+)
+
+entry(
+    index = 1934,
+    label = "HO2 + C4H9O-15 <=> C4H10O-15 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.13405, 'd13': 2.58815, 'd23': 1.45646},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 865""",
+)
+
+entry(
+    index = 1935,
+    label = "C4H10O2-1 + C2H5O <=> C4H9O2-1 + C2H6O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23171, 'd13': 2.51782, 'd23': 1.29818},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 866""",
+)
+
+entry(
+    index = 1936,
+    label = "C2H6 + C4H9-2 <=> C4H10-2 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.39149, 'd13': 2.69076, 'd23': 1.30122},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 867""",
+)
+
+entry(
+    index = 1937,
+    label = "CH4O2 + C4H7O-8 <=> C4H8O-8 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.20664, 'd13': 2.51986, 'd23': 1.31808},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 868""",
+)
+
+entry(
+    index = 1938,
+    label = "H2O2 + C4H9O-12 <=> C4H10O-12 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.08808, 'd13': 2.34445, 'd23': 1.2712},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 869""",
+)
+
+entry(
+    index = 1939,
+    label = "CH4O2 + C3H5O2 <=> C3H6O2 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28485, 'd13': 2.54622, 'd23': 1.27819},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 870""",
+)
+
+entry(
+    index = 1940,
+    label = "HO2 + C4H7O-2 <=> C4H8O-2 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.15541, 'd13': 2.58202, 'd23': 1.43988},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 871""",
+)
+
+entry(
+    index = 1941,
+    label = "CH4 + C4H7O-10 <=> C4H8O-10 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.4911, 'd13': 2.756, 'd23': 1.26491},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 872""",
+)
+
+entry(
+    index = 1942,
+    label = "H2O + C3H5O-2 <=> C3H6O-2 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30303, 'd13': 2.46728, 'd23': 1.20753},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 873""",
+)
+
+entry(
+    index = 1943,
+    label = "H2O + C4H9-3 <=> C4H10-3 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.42809, 'd13': 2.58315, 'd23': 1.16134},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 874""",
+)
+
+entry(
+    index = 1944,
+    label = "CH4O + C4H9O-3 <=> C4H10O-3 + CH3O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.21096, 'd13': 2.54336, 'd23': 1.33781},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 875""",
+)
+
+entry(
+    index = 1945,
+    label = "H2O + C3H5-1 <=> C3H6-1 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30518, 'd13': 2.47989, 'd23': 1.19907},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 876""",
+)
+
+entry(
+    index = 1946,
+    label = "C2H6O2 + C4H9-3 <=> C2H5O2 + C4H10-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1675, 'd13': 2.51405, 'd23': 1.3541},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 877""",
+)
+
+entry(
+    index = 1947,
+    label = "H2O + C3H5 <=> C3H6 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.48312, 'd13': 2.62763, 'd23': 1.15273},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 878""",
+)
+
+entry(
+    index = 1948,
+    label = "H2O + H <=> HO + H2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37764, 'd13': 2.1649, 'd23': 0.807698},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 879""",
+)
+
+entry(
+    index = 1949,
+    label = "C3H6O3 + O2 <=> HO2 + C3H5O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32075, 'd13': 2.39726, 'd23': 1.09316},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 880""",
+)
+
+entry(
+    index = 1950,
+    label = "CH4 + C4H9O-2 <=> C4H10O-2 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3878, 'd13': 2.68434, 'd23': 1.30157},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 881""",
+)
+
+entry(
+    index = 1951,
+    label = "H2 + C4H5O-3 <=> C4H6O-3 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.05863, 'd13': 2.29327, 'd23': 1.23628},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 882""",
+)
+
+entry(
+    index = 1952,
+    label = "C4H10O2 + H <=> H2 + C4H9O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.11523, 'd13': 2.12211, 'd23': 1.0094},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 883""",
+)
+
+entry(
+    index = 1953,
+    label = "HO-1 + C3H3O-1 <=> C3H4O-1 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.47913, 'd13': 2.65104, 'd23': 1.1779},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 884""",
+)
+
+entry(
+    index = 1954,
+    label = "CH4O2 + C3H7 <=> CH3O2 + C3H8",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17458, 'd13': 2.51431, 'd23': 1.34409},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 885""",
+)
+
+entry(
+    index = 1955,
+    label = "C4H10O3-5 + HO2-1 <=> C4H9O3-5 + H2O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16952, 'd13': 2.33512, 'd23': 1.18618},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 886""",
+)
+
+entry(
+    index = 1956,
+    label = "CH4 + C4H9O-6 <=> C4H10O-6 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.44002, 'd13': 2.70814, 'd23': 1.27322},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 887""",
+)
+
+entry(
+    index = 1957,
+    label = "HO2 + C2H3O2 <=> C2H4O2 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1193, 'd13': 2.58069, 'd23': 1.4872},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 888""",
+)
+
+entry(
+    index = 1958,
+    label = "C4H10O2-3 + C2H3O-1 <=> C4H9O2-3 + C2H4O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27641, 'd13': 2.53443, 'd23': 1.28079},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 889""",
+)
+
+entry(
+    index = 1959,
+    label = "C4H10O2-1 + CHO <=> C4H9O2-1 + CH2O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.22256, 'd13': 2.52181, 'd23': 1.30994},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 890""",
+)
+
+entry(
+    index = 1960,
+    label = "HO-1 + C4H9-2 <=> C4H10-2 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32031, 'd13': 2.53735, 'd23': 1.2188},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 891""",
+)
+
+entry(
+    index = 1961,
+    label = "C2H4 + C4H9-1 <=> C4H10-1 + C2H3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.43174, 'd13': 2.68204, 'd23': 1.26249},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 892""",
+)
+
+entry(
+    index = 1962,
+    label = "H2 + C4H9O-11 <=> C4H10O-11 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.923499, 'd13': 2.27817, 'd23': 1.3582},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 893""",
+)
+
+entry(
+    index = 1963,
+    label = "CH2O2 + CHO <=> CH2O + CHO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.576, 'd13': 2.68023, 'd23': 1.14999},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 894""",
+)
+
+entry(
+    index = 1964,
+    label = "C3H8O2 + CHO <=> C3H7O2 + CH2O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.21935, 'd13': 2.5013, 'd23': 1.31734},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 895""",
+)
+
+entry(
+    index = 1965,
+    label = "CH4 + C3H7 <=> CH3 + C3H8",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37275, 'd13': 2.67991, 'd23': 1.31021},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 896""",
+)
+
+entry(
+    index = 1966,
+    label = "CH4O-1 + C4H9O-1 <=> C4H10O-1 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.15614, 'd13': 2.27115, 'd23': 1.15584},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 897""",
+)
+
+entry(
+    index = 1967,
+    label = "H2O + C4H9O <=> C4H10O + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36939, 'd13': 2.51643, 'd23': 1.18767},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 898""",
+)
+
+entry(
+    index = 1968,
+    label = "H2O + C3H5O2 <=> C3H6O2 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.5552, 'd13': 2.66467, 'd23': 1.15497},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 899""",
+)
+
+entry(
+    index = 1969,
+    label = "CH4O-1 + C4H9O-3 <=> C4H10O-3 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16826, 'd13': 2.27419, 'd23': 1.14744},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 900""",
+)
+
+entry(
+    index = 1970,
+    label = "CH4O2 + C4H9O-5 <=> C4H10O-5 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17148, 'd13': 2.51022, 'd23': 1.35041},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 901""",
+)
+
+entry(
+    index = 1971,
+    label = "CH4O2 + C2H5O-3 <=> C2H6O-3 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2412, 'd13': 2.51931, 'd23': 1.29704},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 902""",
+)
+
+entry(
+    index = 1972,
+    label = "C2H4O3 + C2H3O-1 <=> C2H4O-1 + C2H3O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40977, 'd13': 2.6059, 'd23': 1.20087},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 903""",
+)
+
+entry(
+    index = 1973,
+    label = "HO2 + C4H9O-12 <=> C4H10O-12 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.04166, 'd13': 2.45523, 'd23': 1.41804},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 904""",
+)
+
+entry(
+    index = 1974,
+    label = "H2O + C4H7O-8 <=> C4H8O-8 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.45826, 'd13': 2.59174, 'd23': 1.16014},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 905""",
+)
+
+entry(
+    index = 1975,
+    label = "C4H10O3-6 + HO2-1 <=> C4H9O3-6 + H2O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.21074, 'd13': 2.33173, 'd23': 1.15004},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 906""",
+)
+
+entry(
+    index = 1976,
+    label = "C3H8O2-1 + C3H3O-1 <=> C3H4O-1 + C3H7O2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26097, 'd13': 2.55209, 'd23': 1.29485},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 907""",
+)
+
+entry(
+    index = 1977,
+    label = "H2O2 + C4H9O-11 <=> C4H10O-11 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.18093, 'd13': 2.50829, 'd23': 1.33507},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 908""",
+)
+
+entry(
+    index = 1978,
+    label = "C4H10O3-7 + O2 <=> C4H9O3-7 + HO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32444, 'd13': 2.39945, 'd23': 1.09299},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 909""",
+)
+
+entry(
+    index = 1979,
+    label = "HO-1 + H <=> O + H2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17905, 'd13': 2.10094, 'd23': 0.92189},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 910""",
+)
+
+entry(
+    index = 1980,
+    label = "C3H6 + C4H5 <=> C4H6 + C3H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.22826, 'd13': 2.71449, 'd23': 1.48842},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 911""",
+)
+
+entry(
+    index = 1981,
+    label = "C2H6 + C3H5O-1 <=> C3H6O-1 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.46332, 'd13': 2.74376, 'd23': 1.29035},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 912""",
+)
+
+entry(
+    index = 1982,
+    label = "H2O2 + C4H7-1 <=> C4H8-1 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1709, 'd13': 2.50971, 'd23': 1.34299},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 913""",
+)
+
+entry(
+    index = 1983,
+    label = "CH4 + C4H7O-7 <=> C4H8O-7 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.41879, 'd13': 2.69414, 'd23': 1.27588},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 914""",
+)
+
+entry(
+    index = 1984,
+    label = "H2 + C4H7O-10 <=> C4H8O-10 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.08536, 'd13': 2.34255, 'd23': 1.25856},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 915""",
+)
+
+entry(
+    index = 1985,
+    label = "C3H8O2-1 + C3H5 <=> C3H6 + C3H7O2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.22796, 'd13': 2.52855, 'd23': 1.30581},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 916""",
+)
+
+entry(
+    index = 1986,
+    label = "HO2 + C4H7O-10 <=> C4H8O-10 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1508, 'd13': 2.57829, 'd23': 1.44221},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 917""",
+)
+
+entry(
+    index = 1987,
+    label = "HO2 + C4H7O-7 <=> C4H8O-7 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.07319, 'd13': 2.63396, 'd23': 1.56939},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 918""",
+)
+
+entry(
+    index = 1988,
+    label = "CH2O + C4H9O-4 <=> C4H10O-4 + CHO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28557, 'd13': 2.73469, 'd23': 1.45833},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 919""",
+)
+
+entry(
+    index = 1989,
+    label = "H2O2 + C4H9O-14 <=> C4H10O-14 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23489, 'd13': 2.51707, 'd23': 1.29404},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 920""",
+)
+
+entry(
+    index = 1990,
+    label = "CH4O-1 + C4H7-1 <=> C4H8-1 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2752, 'd13': 2.50371, 'd23': 1.23884},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 921""",
+)
+
+entry(
+    index = 1991,
+    label = "CH4O + C4H9O <=> C4H10O + CH3O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.31901, 'd13': 2.71161, 'd23': 1.40657},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 922""",
+)
+
+entry(
+    index = 1992,
+    label = "HO2 + C4H7O-5 <=> C4H8O-5 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16932, 'd13': 2.58592, 'd23': 1.42347},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 923""",
+)
+
+entry(
+    index = 1993,
+    label = "HO2 + C4H7O-1 <=> C4H8O-1 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.14076, 'd13': 2.57921, 'd23': 1.4607},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 924""",
+)
+
+entry(
+    index = 1994,
+    label = "CH4O2 + C4H9O-2 <=> C4H10O-2 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.18081, 'd13': 2.50849, 'd23': 1.34035},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 925""",
+)
+
+entry(
+    index = 1995,
+    label = "H2 + C2H3O-1 <=> C2H4O-1 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.08253, 'd13': 2.34131, 'd23': 1.26001},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 926""",
+)
+
+entry(
+    index = 1996,
+    label = "CH2O + C4H9O-5 <=> C4H10O-5 + CHO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27771, 'd13': 2.70699, 'd23': 1.46101},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 927""",
+)
+
+entry(
+    index = 1997,
+    label = "C4H10O2-2 + CH3O <=> CH4O + C4H9O2-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.21507, 'd13': 2.50236, 'd23': 1.32293},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 928""",
+)
+
+entry(
+    index = 1998,
+    label = "C3H6-1 + CO <=> C3H5-1 + CHO-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.53619, 'd13': 2.77114, 'd23': 1.30049},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 929""",
+)
+
+entry(
+    index = 1999,
+    label = "CH4O2 + H <=> H2 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.11372, 'd13': 2.12622, 'd23': 1.01507},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 930""",
+)
+
+entry(
+    index = 2000,
+    label = "CH4 + C4H9O-13 <=> C4H10O-13 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.41013, 'd13': 2.68985, 'd23': 1.28028},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 931""",
+)
+
+entry(
+    index = 2001,
+    label = "H2O + C4H5-2 <=> C4H6-2 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.46972, 'd13': 2.60262, 'd23': 1.15474},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 932""",
+)
+
+entry(
+    index = 2002,
+    label = "CH4O2 + C2H5O-2 <=> C2H6O-2 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.07889, 'd13': 2.36569, 'd23': 1.30442},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 933""",
+)
+
+entry(
+    index = 2003,
+    label = "C4H10O2-3 + C3H3O-1 <=> C4H9O2-3 + C3H4O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23022, 'd13': 2.52486, 'd23': 1.31119},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 934""",
+)
+
+entry(
+    index = 2004,
+    label = "CH4 + C3H7-1 <=> CH3 + C3H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.4028, 'd13': 2.68593, 'd23': 1.28698},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 935""",
+)
+
+entry(
+    index = 2005,
+    label = "CH4O-1 + C4H9O-10 <=> C4H10O-10 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32214, 'd13': 2.51447, 'd23': 1.22719},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 936""",
+)
+
+entry(
+    index = 2006,
+    label = "HO2 + C4H9O-6 <=> C4H10O-6 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.13526, 'd13': 2.5474, 'd23': 1.46443},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 937""",
+)
+
+entry(
+    index = 2007,
+    label = "CH4 + C2H5O-1 <=> C2H6O-1 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37606, 'd13': 2.68542, 'd23': 1.31356},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 938""",
+)
+
+entry(
+    index = 2008,
+    label = "CH4 + C4H9O-10 <=> C4H10O-10 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40938, 'd13': 2.69841, 'd23': 1.29289},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 939""",
+)
+
+entry(
+    index = 2009,
+    label = "H2O2 + C4H7-3 <=> C4H8-3 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25001, 'd13': 2.51947, 'd23': 1.28628},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 940""",
+)
+
+entry(
+    index = 2010,
+    label = "C3H6 + C4H9-3 <=> C4H10-3 + C3H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28149, 'd13': 2.7033, 'd23': 1.42499},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 941""",
+)
+
+entry(
+    index = 2011,
+    label = "CH4O2 + C4H7O-11 <=> C4H8O-11 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.19638, 'd13': 2.49557, 'd23': 1.32747},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 942""",
+)
+
+entry(
+    index = 2012,
+    label = "HO-1 + C4H9O-1 <=> C4H10O-1 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16713, 'd13': 2.277, 'd23': 1.14834},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 943""",
+)
+
+entry(
+    index = 2013,
+    label = "C3H6 + CO <=> C3H5 + CHO-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.5043, 'd13': 2.78881, 'd23': 1.32319},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 944""",
+)
+
+entry(
+    index = 2014,
+    label = "H2O2 + C4H9O <=> C4H10O + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17762, 'd13': 2.50867, 'd23': 1.33721},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 945""",
+)
+
+entry(
+    index = 2015,
+    label = "C2H4 + C4H7O-8 <=> C4H8O-8 + C2H3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.48534, 'd13': 2.71312, 'd23': 1.23128},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 946""",
+)
+
+entry(
+    index = 2016,
+    label = "C2H6 + C4H9O <=> C4H10O + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34414, 'd13': 2.69186, 'd23': 1.35347},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 947""",
+)
+
+entry(
+    index = 2017,
+    label = "H2O2 + C3H3 <=> C3H4 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1965, 'd13': 2.4989, 'd23': 1.31843},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 948""",
+)
+
+entry(
+    index = 2018,
+    label = "C2H4O3 + CHO <=> CH2O + C2H3O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37366, 'd13': 2.56404, 'd23': 1.20961},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 949""",
+)
+
+entry(
+    index = 2019,
+    label = "C2H6 + C4H9O-2 <=> C4H10O-2 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36621, 'd13': 2.68386, 'd23': 1.32618},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 950""",
+)
+
+entry(
+    index = 2020,
+    label = "H2O2 + C2H3O-1 <=> C2H4O-1 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29984, 'd13': 2.53339, 'd23': 1.25934},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 951""",
+)
+
+entry(
+    index = 2021,
+    label = "H2O2 + C4H9O-3 <=> C4H10O-3 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.09323, 'd13': 2.33626, 'd23': 1.2532},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 952""",
+)
+
+entry(
+    index = 2022,
+    label = "C4H10O2 + CHO <=> C4H9O2 + CH2O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.22092, 'd13': 2.50853, 'd23': 1.31177},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 953""",
+)
+
+entry(
+    index = 2023,
+    label = "H2O2 + C4H9O-5 <=> C4H10O-5 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17532, 'd13': 2.50353, 'd23': 1.33699},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 954""",
+)
+
+entry(
+    index = 2024,
+    label = "H2O + C2H3O2-2 <=> C2H4O2-2 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.42135, 'd13': 2.54799, 'd23': 1.16853},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 955""",
+)
+
+entry(
+    index = 2025,
+    label = "C2H6 + C4H9-1 <=> C4H10-1 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37138, 'd13': 2.68991, 'd23': 1.31862},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 956""",
+)
+
+entry(
+    index = 2026,
+    label = "H2O2 + C4H9O-10 <=> C4H10O-10 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.21951, 'd13': 2.51695, 'd23': 1.30366},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 957""",
+)
+
+entry(
+    index = 2027,
+    label = "C3H8O2 + C4H9-2 <=> C4H10-2 + C3H7O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.21, 'd13': 2.51893, 'd23': 1.31316},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 958""",
+)
+
+entry(
+    index = 2028,
+    label = "C2H6 + C4H9O-5 <=> C4H10O-5 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3254, 'd13': 2.68265, 'd23': 1.35868},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 959""",
+)
+
+entry(
+    index = 2029,
+    label = "C4H10O2-3 + CHO <=> C4H9O2-3 + CH2O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25582, 'd13': 2.49358, 'd23': 1.2898},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 960""",
+)
+
+entry(
+    index = 2030,
+    label = "H2 + C4H9O <=> C4H10O + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.927414, 'd13': 2.27277, 'd23': 1.34796},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 961""",
+)
+
+entry(
+    index = 2031,
+    label = "CH2O + C4H9O-7 <=> C4H10O-7 + CHO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.19109, 'd13': 2.54948, 'd23': 1.38903},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 962""",
+)
+
+entry(
+    index = 2032,
+    label = "C4H10O3-6 + O2 <=> C4H9O3-6 + HO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30961, 'd13': 2.38515, 'd23': 1.09478},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 963""",
+)
+
+entry(
+    index = 2033,
+    label = "CH4 + C4H9O-7 <=> C4H10O-7 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26191, 'd13': 2.49263, 'd23': 1.23452},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 964""",
+)
+
+entry(
+    index = 2034,
+    label = "CH4 + C4H7O-5 <=> C4H8O-5 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.47621, 'd13': 2.72231, 'd23': 1.24767},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 965""",
+)
+
+entry(
+    index = 2035,
+    label = "C4H10O2-3 + CH3 <=> C4H9O2-3 + CH4",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.13136, 'd13': 2.51779, 'd23': 1.38889},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 966""",
+)
+
+entry(
+    index = 2036,
+    label = "CH4O2 + C2H3 <=> C2H4 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.10343, 'd13': 2.52073, 'd23': 1.42183},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 967""",
+)
+
+entry(
+    index = 2037,
+    label = "C4H10O3-8 + O2 <=> C4H9O3-8 + HO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.33858, 'd13': 2.39825, 'd23': 1.08253},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 968""",
+)
+
+entry(
+    index = 2038,
+    label = "CH4O + C4H9O-8 <=> C4H10O-8 + CH3O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34207, 'd13': 2.67448, 'd23': 1.35958},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 969""",
+)
+
+entry(
+    index = 2039,
+    label = "C4H10O3-9 + HO2-1 <=> C4H9O3-9 + H2O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.15258, 'd13': 2.34294, 'd23': 1.20425},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 970""",
+)
+
+entry(
+    index = 2040,
+    label = "C4H10O3-10 + O2 <=> C4H9O3-10 + HO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.31318, 'd13': 2.38361, 'd23': 1.09861},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 971""",
+)
+
+entry(
+    index = 2041,
+    label = "C4H10O2-2 + C2H3 <=> C2H4 + C4H9O2-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.09946, 'd13': 2.52254, 'd23': 1.42858},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 972""",
+)
+
+entry(
+    index = 2042,
+    label = "CH4O-1 + C4H9-1 <=> C4H10-1 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32771, 'd13': 2.53403, 'd23': 1.21031},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 973""",
+)
+
+entry(
+    index = 2043,
+    label = "CH4 + C4H9O-3 <=> C4H10O-3 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26869, 'd13': 2.50133, 'd23': 1.23289},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 974""",
+)
+
+entry(
+    index = 2044,
+    label = "H2O2 + C4H9-3 <=> C4H10-3 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.18459, 'd13': 2.50796, 'd23': 1.32679},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 975""",
+)
+
+entry(
+    index = 2045,
+    label = "CH4O2 + C4H7 <=> C4H8 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2424, 'd13': 2.52782, 'd23': 1.29509},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 976""",
+)
+
+entry(
+    index = 2046,
+    label = "C4H8O-12 + O2 <=> C4H7O-12 + HO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.45957, 'd13': 2.56875, 'd23': 1.1333},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 977""",
+)
+
+entry(
+    index = 2047,
+    label = "H2O2 + C3H5O2 <=> C3H6O2 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.31084, 'd13': 2.55695, 'd23': 1.25399},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 978""",
+)
+
+entry(
+    index = 2048,
+    label = "CH4O2 + C4H7O-6 <=> C4H8O-6 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16418, 'd13': 2.50237, 'd23': 1.35857},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 979""",
+)
+
+entry(
+    index = 2049,
+    label = "CH2O + C4H9O-15 <=> C4H10O-15 + CHO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37211, 'd13': 2.64885, 'd23': 1.37613},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 980""",
+)
+
+entry(
+    index = 2050,
+    label = "H2 + C4H9O-8 <=> C4H10O-8 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.959029, 'd13': 2.27258, 'd23': 1.31453},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 981""",
+)
+
+entry(
+    index = 2051,
+    label = "H2 + HO2-1 <=> H2O2 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.990426, 'd13': 2.11366, 'd23': 1.12485},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 982""",
+)
+
+entry(
+    index = 2052,
+    label = "C3H8O2-1 + C2H3 <=> C2H4 + C3H7O2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.10226, 'd13': 2.52035, 'd23': 1.43033},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 983""",
+)
+
+entry(
+    index = 2053,
+    label = "CH4O-1 + C2H5O-3 <=> C2H6O-3 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.35113, 'd13': 2.53137, 'd23': 1.20766},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 984""",
+)
+
+entry(
+    index = 2054,
+    label = "HO2 + C4H9-3 <=> C4H10-3 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.07171, 'd13': 2.62871, 'd23': 1.56293},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 985""",
+)
+
+entry(
+    index = 2055,
+    label = "C3H8O2 + C3H7-1 <=> C3H7O2 + C3H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.19611, 'd13': 2.51516, 'd23': 1.32793},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 986""",
+)
+
+entry(
+    index = 2056,
+    label = "H2 + C4H9-1 <=> C4H10-1 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.955954, 'd13': 2.27444, 'd23': 1.3196},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 987""",
+)
+
+entry(
+    index = 2057,
+    label = "HO-1 + C2H5O-3 <=> C2H6O-3 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.33586, 'd13': 2.55472, 'd23': 1.22174},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 988""",
+)
+
+entry(
+    index = 2058,
+    label = "CH4O-1 + C4H9O-6 <=> C4H10O-6 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.38028, 'd13': 2.54452, 'd23': 1.19038},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 989""",
+)
+
+entry(
+    index = 2059,
+    label = "H2 + C4H5-3 <=> C4H6-3 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.999636, 'd13': 2.27952, 'd23': 1.28061},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 991""",
+)
+
+entry(
+    index = 2060,
+    label = "CH4 + C3H5O2 <=> C3H6O2 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.4922, 'd13': 2.75661, 'd23': 1.26556},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 992""",
+)
+
+entry(
+    index = 2061,
+    label = "CH4O2 + C2H3O2-2 <=> C2H4O2-2 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16193, 'd13': 2.5231, 'd23': 1.36693},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 993""",
+)
+
+entry(
+    index = 2062,
+    label = "CH2O + C4H9O-11 <=> C4H10O-11 + CHO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29657, 'd13': 2.71311, 'd23': 1.44285},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 994""",
+)
+
+entry(
+    index = 2063,
+    label = "CH4O-1 + C4H9O-7 <=> C4H10O-7 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16584, 'd13': 2.29068, 'd23': 1.15086},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 995""",
+)
+
+entry(
+    index = 2064,
+    label = "H2O2 + C4H7O-13 <=> C4H8O-13 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.217, 'd13': 2.50626, 'd23': 1.31835},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 996""",
+)
+
+entry(
+    index = 2065,
+    label = "H2O + C4H9O-12 <=> C4H10O-12 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30501, 'd13': 2.26007, 'd23': 1.0531},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 997""",
+)
+
+entry(
+    index = 2066,
+    label = "C3H8O2 + H <=> H2 + C3H7O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.11024, 'd13': 2.12665, 'd23': 1.01887},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 998""",
+)
+
+entry(
+    index = 2067,
+    label = "CH4 + C2H5O-3 <=> C2H6O-3 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.42664, 'd13': 2.71002, 'd23': 1.28796},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 999""",
+)
+
+entry(
+    index = 2068,
+    label = "CH4O + C4H9O-1 <=> C4H10O-1 + CH3O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.21541, 'd13': 2.53654, 'd23': 1.33784},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1000""",
+)
+
+entry(
+    index = 2069,
+    label = "CH4 + C4H9O <=> C4H10O + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36984, 'd13': 2.68392, 'd23': 1.31635},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1001""",
+)
+
+entry(
+    index = 2070,
+    label = "H2O + C4H7O <=> C4H8O + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40966, 'd13': 2.56858, 'd23': 1.16518},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1002""",
+)
+
+entry(
+    index = 2071,
+    label = "CH4 + C4H9O-15 <=> C4H10O-15 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.45758, 'd13': 2.71756, 'd23': 1.26178},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1003""",
+)
+
+entry(
+    index = 2072,
+    label = "C4H6-1 + CO <=> C4H5-1 + CHO-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.53781, 'd13': 2.80022, 'd23': 1.29954},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1004""",
+)
+
+entry(
+    index = 2073,
+    label = "H2 + C4H9O-12 <=> C4H10O-12 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.871113, 'd13': 2.10034, 'd23': 1.23941},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1005""",
+)
+
+entry(
+    index = 2074,
+    label = "CH4O-1 + C3H7 <=> C3H8 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28306, 'd13': 2.50718, 'd23': 1.23272},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1006""",
+)
+
+entry(
+    index = 2075,
+    label = "CH4 + C4H9O-14 <=> C4H10O-14 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.4364, 'd13': 2.70679, 'd23': 1.27533},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1007""",
+)
+
+entry(
+    index = 2076,
+    label = "CH4O2 + C4H9O-15 <=> C4H10O-15 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25905, 'd13': 2.51574, 'd23': 1.28322},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1008""",
+)
+
+entry(
+    index = 2077,
+    label = "C4H8O-12 + H <=> C4H7O-12 + H2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2313, 'd13': 2.29397, 'd23': 1.07618},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1009""",
+)
+
+entry(
+    index = 2078,
+    label = "C2H6O2 + H <=> H2 + C2H5O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.11184, 'd13': 2.12599, 'd23': 1.01659},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1010""",
+)
+
+entry(
+    index = 2079,
+    label = "H2O + C4H9O-14 <=> C4H10O-14 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.54892, 'd13': 2.58588, 'd23': 1.14536},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1011""",
+)
+
+entry(
+    index = 2080,
+    label = "H2O2 + C4H9O-7 <=> C4H10O-7 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.09068, 'd13': 2.3373, 'd23': 1.25555},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1012""",
+)
+
+entry(
+    index = 2081,
+    label = "C4H10O2-3 + C2H3 <=> C4H9O2-3 + C2H4",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1023, 'd13': 2.5205, 'd23': 1.42265},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1013""",
+)
+
+entry(
+    index = 2082,
+    label = "CH2O + C4H9O-13 <=> C4H10O-13 + CHO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30847, 'd13': 2.69707, 'd23': 1.41975},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1014""",
+)
+
+entry(
+    index = 2083,
+    label = "HO2 + C4H9O-7 <=> C4H10O-7 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.05098, 'd13': 2.44543, 'd23': 1.39835},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1015""",
+)
+
+entry(
+    index = 2084,
+    label = "C2H4O3 + C2H3 <=> C2H4 + C2H3O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16508, 'd13': 2.49864, 'd23': 1.33398},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1016""",
+)
+
+entry(
+    index = 2085,
+    label = "H2O2 + C4H7O-5 <=> C4H8O-5 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26865, 'd13': 2.53349, 'd23': 1.275},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1017""",
+)
+
+entry(
+    index = 2086,
+    label = "H2O2 + C4H9O-2 <=> C4H10O-2 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.19276, 'd13': 2.50781, 'd23': 1.32043},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1018""",
+)
+
+entry(
+    index = 2087,
+    label = "CH4O-1 + C4H7O-10 <=> C4H8O-10 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.44159, 'd13': 2.58542, 'd23': 1.17745},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1019""",
+)
+
+entry(
+    index = 2088,
+    label = "CH4O-1 + C4H7O-5 <=> C4H8O-5 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.41822, 'd13': 2.5758, 'd23': 1.18098},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1020""",
+)
+
+entry(
+    index = 2089,
+    label = "HO-1 + C4H7O-8 <=> C4H8O-8 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29447, 'd13': 2.52962, 'd23': 1.23553},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1021""",
+)
+
+entry(
+    index = 2090,
+    label = "C4H6 + CO <=> C4H5 + CHO-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.59859, 'd13': 2.76963, 'd23': 1.25521},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1022""",
+)
+
+entry(
+    index = 2091,
+    label = "H2O2 + C4H7O-11 <=> C4H8O-11 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1999, 'd13': 2.49718, 'd23': 1.31281},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1023""",
+)
+
+entry(
+    index = 2092,
+    label = "CH4O2 + C4H9O-7 <=> C4H10O-7 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.07908, 'd13': 2.36666, 'd23': 1.30467},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1024""",
+)
+
+entry(
+    index = 2093,
+    label = "C3H6O-2 + C4H7-2 <=> C4H8-2 + C3H5O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.45734, 'd13': 2.70359, 'd23': 1.25312},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1025""",
+)
+
+entry(
+    index = 2094,
+    label = "HO2 + C4H9O-2 <=> C4H10O-2 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.0781, 'd13': 2.62386, 'd23': 1.55451},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1026""",
+)
+
+entry(
+    index = 2095,
+    label = "C3H8O2-1 + C4H9-3 <=> C3H7O2-1 + C4H10-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16547, 'd13': 2.51552, 'd23': 1.35624},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1027""",
+)
+
+entry(
+    index = 2096,
+    label = "H2O + CH <=> CH2-1 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.22474, 'd13': 2.37794, 'd23': 1.2311},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1028""",
+)
+
+entry(
+    index = 2097,
+    label = "C3H8O2 + C2H3O-1 <=> C3H7O2 + C2H4O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2345, 'd13': 2.51817, 'd23': 1.30919},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1029""",
+)
+
+entry(
+    index = 2098,
+    label = "C2H6 + C4H9O-6 <=> C4H10O-6 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40539, 'd13': 2.69497, 'd23': 1.30122},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1030""",
+)
+
+entry(
+    index = 2099,
+    label = "H2O2 + C2H3O2-2 <=> C2H4O2-2 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17531, 'd13': 2.50751, 'd23': 1.34471},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1031""",
+)
+
+entry(
+    index = 2100,
+    label = "H2O2 + C4H9-2 <=> C4H10-2 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.22674, 'd13': 2.50866, 'd23': 1.28943},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1032""",
+)
+
+entry(
+    index = 2101,
+    label = "CH4O-1 + C4H9O-5 <=> C4H10O-5 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27844, 'd13': 2.48699, 'd23': 1.24162},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1033""",
+)
+
+entry(
+    index = 2102,
+    label = "C3H8O2-1 + C3H7 <=> C3H7O2-1 + C3H8",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17304, 'd13': 2.5146, 'd23': 1.34574},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1034""",
+)
+
+entry(
+    index = 2103,
+    label = "H2O + C4H7O-10 <=> C4H8O-10 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.60456, 'd13': 2.70542, 'd23': 1.14246},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1035""",
+)
+
+entry(
+    index = 2104,
+    label = "CH2O + C4H9O-10 <=> C4H10O-10 + CHO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2988, 'd13': 2.68758, 'd23': 1.43974},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1036""",
+)
+
+entry(
+    index = 2105,
+    label = "C2H6 + C4H9O-10 <=> C4H10O-10 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.35734, 'd13': 2.67937, 'd23': 1.33093},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1037""",
+)
+
+entry(
+    index = 2106,
+    label = "C2H6O2 + C2H3 <=> C2H4 + C2H5O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.10229, 'd13': 2.5206, 'd23': 1.43116},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1038""",
+)
+
+entry(
+    index = 2107,
+    label = "H2O + C4H7-5 <=> C4H8-5 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.31847, 'd13': 2.49413, 'd23': 1.19721},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1039""",
+)
+
+entry(
+    index = 2108,
+    label = "H2 + C4H9O-15 <=> C4H10O-15 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.03721, 'd13': 2.3015, 'd23': 1.26481},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1040""",
+)
+
+entry(
+    index = 2109,
+    label = "C4H10O2-3 + C3H5 <=> C4H9O2-3 + C3H6",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23379, 'd13': 2.53141, 'd23': 1.30778},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1041""",
+)
+
+entry(
+    index = 2110,
+    label = "HO2 + C4H5O-2 <=> C4H6O-2 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.11615, 'd13': 2.58521, 'd23': 1.49017},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1042""",
+)
+
+entry(
+    index = 2111,
+    label = "CH4O2 + C4H9-3 <=> CH3O2 + C4H10-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17545, 'd13': 2.5146, 'd23': 1.34355},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1043""",
+)
+
+entry(
+    index = 2112,
+    label = "H2O2 + C4H7O-6 <=> C4H8O-6 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17041, 'd13': 2.50585, 'd23': 1.33772},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1044""",
+)
+
+entry(
+    index = 2113,
+    label = "C4H10O2-3 + H <=> H2 + C4H9O2-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1112, 'd13': 2.12652, 'd23': 1.01814},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1045""",
+)
+
+entry(
+    index = 2114,
+    label = "C4H10O2-2 + C3H5 <=> C3H6 + C4H9O2-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.22667, 'd13': 2.5306, 'd23': 1.31116},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1046""",
+)
+
+entry(
+    index = 2115,
+    label = "CH4O-1 + C4H9O-12 <=> C4H10O-12 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.15614, 'd13': 2.27108, 'd23': 1.15505},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1047""",
+)
+
+entry(
+    index = 2116,
+    label = "C4H8O-9 + H <=> C4H7O-9 + H2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27366, 'd13': 2.28365, 'd23': 1.01},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1048""",
+)
+
+entry(
+    index = 2117,
+    label = "C4H8O-12 + CHO <=> C4H7O-12 + CH2O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.33397, 'd13': 2.69513, 'd23': 1.40298},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1049""",
+)
+
+entry(
+    index = 2118,
+    label = "C4H10O2 + C3H3O-1 <=> C3H4O-1 + C4H9O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25917, 'd13': 2.51353, 'd23': 1.29053},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1050""",
+)
+
+entry(
+    index = 2119,
+    label = "C2H6 + C4H9O-13 <=> C4H10O-13 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37992, 'd13': 2.68782, 'd23': 1.3103},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1051""",
+)
+
+entry(
+    index = 2120,
+    label = "C4H10O3-7 + HO2-1 <=> C4H9O3-7 + H2O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.13778, 'd13': 2.34678, 'd23': 1.22544},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1052""",
+)
+
+entry(
+    index = 2121,
+    label = "C2H6O2 + C3H7-1 <=> C2H5O2 + C3H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.19313, 'd13': 2.51244, 'd23': 1.32723},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1053""",
+)
+
+entry(
+    index = 2122,
+    label = "H2 + C3H5O-1 <=> C3H6O-1 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.08886, 'd13': 2.34634, 'd23': 1.26009},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1054""",
+)
+
+entry(
+    index = 2123,
+    label = "H2O + C4H9O-3 <=> C4H10O-3 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30825, 'd13': 2.26832, 'd23': 1.05442},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1055""",
+)
+
+entry(
+    index = 2124,
+    label = "H2O + C4H7O-11 <=> C4H8O-11 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.46456, 'd13': 2.61205, 'd23': 1.15016},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1056""",
+)
+
+entry(
+    index = 2125,
+    label = "H2O2 + C4H7O <=> C4H8O + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17555, 'd13': 2.49963, 'd23': 1.33355},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1057""",
+)
+
+entry(
+    index = 2126,
+    label = "C2H6O2 + C3H7 <=> C2H5O2 + C3H8",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17011, 'd13': 2.51702, 'd23': 1.35487},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1058""",
+)
+
+entry(
+    index = 2127,
+    label = "C2H4O3 + O2 <=> C2H3O3 + HO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.43493, 'd13': 2.44697, 'd23': 1.04679},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1059""",
+)
+
+entry(
+    index = 2128,
+    label = "CH4O2 + C3H5O <=> C3H6O + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.15243, 'd13': 2.5199, 'd23': 1.37155},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1060""",
+)
+
+entry(
+    index = 2129,
+    label = "H2 + C2H3O-4 <=> C2H4O-4 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.862239, 'd13': 2.31149, 'd23': 1.45036},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1061""",
+)
+
+entry(
+    index = 2130,
+    label = "H2 + C4H7O-2 <=> C4H8O-2 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.08576, 'd13': 2.34415, 'd23': 1.26095},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1062""",
+)
+
+entry(
+    index = 2131,
+    label = "C4H8O-14 + H <=> C4H7O-14 + H2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24251, 'd13': 2.10379, 'd23': 0.872791},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1063""",
+)
+
+entry(
+    index = 2132,
+    label = "H2O2 + CH3O <=> CH4O + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2125, 'd13': 2.4836, 'd23': 1.30736},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1064""",
+)
+
+entry(
+    index = 2133,
+    label = "CH4O-1 + CHO <=> CH2O + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37365, 'd13': 2.53818, 'd23': 1.19506},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1065""",
+)
+
+entry(
+    index = 2134,
+    label = "HO2 + C3H5 <=> C3H6 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.13646, 'd13': 2.59083, 'd23': 1.46469},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1066""",
+)
+
+entry(
+    index = 2135,
+    label = "CH4O-1 + C3H5O2 <=> C3H6O2 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.38655, 'd13': 2.55342, 'd23': 1.19173},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1067""",
+)
+
+entry(
+    index = 2136,
+    label = "H2 + C4H9O-6 <=> C4H10O-6 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.01097, 'd13': 2.29319, 'd23': 1.28274},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1068""",
+)
+
+entry(
+    index = 2137,
+    label = "C4H10O2-2 + H <=> H2 + C4H9O2-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.11053, 'd13': 2.12727, 'd23': 1.01924},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1069""",
+)
+
+entry(
+    index = 2138,
+    label = "H2 + C4H9O-1 <=> C4H10O-1 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.871292, 'd13': 2.10337, 'd23': 1.23976},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1070""",
+)
+
+entry(
+    index = 2139,
+    label = "H2O + C2H3O <=> C2H4O + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.38461, 'd13': 2.54266, 'd23': 1.18033},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1071""",
+)
+
+entry(
+    index = 2140,
+    label = "CH4O-1 + C4H9-2 <=> C4H10-2 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36525, 'd13': 2.5513, 'd23': 1.19081},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1072""",
+)
+
+entry(
+    index = 2141,
+    label = "H2O2 + C2H3O2 <=> C2H4O2 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32625, 'd13': 2.56839, 'd23': 1.25358},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1073""",
+)
+
+entry(
+    index = 2142,
+    label = "HO-1 + C2H3O2-2 <=> C2H4O2-2 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25816, 'd13': 2.51893, 'd23': 1.26267},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1074""",
+)
+
+entry(
+    index = 2143,
+    label = "H2O2 + C4H5O-2 <=> C4H6O-2 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25734, 'd13': 2.50912, 'd23': 1.28127},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1075""",
+)
+
+entry(
+    index = 2144,
+    label = "CH2O + C4H7O-14 <=> C4H8O-14 + CHO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1911, 'd13': 2.55191, 'd23': 1.40266},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1076""",
 )
 
