@@ -1,14 +1,14 @@
 # For conda build
 package:
   name: rmgdatabase
-  version: "1.0.1"
+  version: "0" # set by build.sh, which gets it from version.py file
 
 source:
   path: .
 
 build:
-  number: 1
-
+  number: {{ environ.get('GIT_DESCRIBE_NUMBER', 0) }} # number of commits since last git tag (which should be last change to __version__)
+ 
 requirements:
   build:
     - python

@@ -10,3 +10,7 @@ cp -R ${SRC_DIR}/input/* rmgdatabase/
 cd ${SP_DIR}
 mkdir rmgpy
 echo 'database.directory: ' ${PREFIX}/share/rmgdatabase > ${SP_DIR}/rmgpy/rmgrc
+
+# Save version number stored in version.py
+$PYTHON -c 'exec(open('version.py').read()); print __version__' > ${SRC_DIR}/__conda_version__.txt
+
