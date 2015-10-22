@@ -9289,6 +9289,17 @@ entry(
 )
 
 entry(
+    index = 812,
+    label = "C4H8O-14 + CHO <=> CH2O + C4H7O-14",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40266, 'd13': 2.55191, 'd23': 1.1911},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
     index = 813,
     label = "C4H10O-9 + HO2-1 <=> H2O2 + C4H9O-9",
     degeneracy = 3,
@@ -9630,6 +9641,17 @@ entry(
 )
 
 entry(
+    index = 844,
+    label = "C4H6O-2 + HO2-1 <=> H2O2 + C4H5O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28127, 'd13': 2.50912, 'd23': 1.25734},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
     index = 845,
     label = "C4H10O-15 + C2H5 <=> C2H6 + C4H9O-15",
     degeneracy = 1,
@@ -9690,6 +9712,17 @@ entry(
     degeneracy = 1,
     distances = DistanceData(
         distances = {'d12': 1.08804, 'd13': 2.39271, 'd23': 1.32566},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 851,
+    label = "C2H4O2-2 + O <=> HO-1 + C2H3O2-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26267, 'd13': 2.51893, 'd23': 1.25816},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
@@ -11214,6 +11247,17 @@ entry(
 )
 
 entry(
+    index = 990,
+    label = "C2H4O2 + HO2-1 <=> H2O2 + C2H3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25358, 'd13': 2.56839, 'd23': 1.32625},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
     index = 991,
     label = "C4H6-3 + H <=> H2 + C4H5-3",
     degeneracy = 6,
@@ -12117,10 +12161,10 @@ entry(
 
 entry(
     index = 1073,
-    label = "C2H4O2 + HO2-1 <=> H2O2 + C2H3O2",
+    label = "C4H10O-12 + CH3O <=> CH4O + C4H9O-12",
     degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.25358, 'd13': 2.56839, 'd23': 1.32625},
+        distances = {'d12': 1.33072, 'd13': 2.53365, 'd23': 1.2151},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
@@ -12128,10 +12172,10 @@ entry(
 
 entry(
     index = 1074,
-    label = "C2H4O2-2 + O <=> HO-1 + C2H3O2-2",
+    label = "C4H10O-7 + C2H5 <=> C2H6 + C4H9O-7",
     degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.26267, 'd13': 2.51893, 'd23': 1.25816},
+        distances = {'d12': 1.28297, 'd13': 2.51277, 'd23': 1.23183},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
@@ -12139,10 +12183,10 @@ entry(
 
 entry(
     index = 1075,
-    label = "C4H6O-2 + HO2-1 <=> H2O2 + C4H5O-2",
-    degeneracy = 1,
+    label = "C4H9O2 + C3H8 <=> C4H10O2 + C3H7",
+    degeneracy = 6,
     distances = DistanceData(
-        distances = {'d12': 1.28127, 'd13': 2.50912, 'd23': 1.25734},
+        distances = {'d12': 1.34768, 'd13': 2.51648, 'd23': 1.17126},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
@@ -12150,17 +12194,1502 @@ entry(
 
 entry(
     index = 1076,
-    label = "C4H8O-14 + CHO <=> CH2O + C4H7O-14",
+    label = "C4H10O-12 + C2H5 <=> C2H6 + C4H9O-12",
     degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.40266, 'd13': 2.55191, 'd23': 1.1911},
+        distances = {'d12': 1.28326, 'd13': 2.50789, 'd23': 1.23216},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
 )
 
 entry(
-    index = 1073,
+    index = 1077,
+    label = "C4H7O-9 + H2O2 <=> C4H8O-9 + HO2-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.22893, 'd13': 2.51244, 'd23': 1.3021},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1078,
+    label = "C4H10-3 + O <=> HO-1 + C4H9-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.27504, 'd13': 2.50672, 'd23': 1.2336},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1079,
+    label = "C4H10-2 + C2H5O2 <=> C2H6O2 + C4H9-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.31086, 'd13': 2.51895, 'd23': 1.21267},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1080,
+    label = "C3H6-1 + CH3 <=> CH4 + C3H5-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.36664, 'd13': 2.67265, 'd23': 1.30635},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1081,
+    label = "C2H5O2 + C4H10-1 <=> C2H6O2 + C4H9-1",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.31738, 'd13': 2.51236, 'd23': 1.19689},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1082,
+    label = "C4H9O2-3 + CH4O <=> C4H10O2-3 + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.30669, 'd13': 2.52743, 'd23': 1.22555},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1083,
+    label = "C4H6O-1 + HO <=> H2O + C4H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.14087, 'd13': 2.74021, 'd23': 1.63284},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1084,
+    label = "C4H8O + C2H3 <=> C2H4 + C4H7O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.28334, 'd13': 2.65764, 'd23': 1.38892},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1085,
+    label = "C3H7O2-1 + CH2O <=> C3H8O2-1 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.3077, 'd13': 2.54265, 'd23': 1.23591},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1086,
+    label = "C3H7O2 + C2H6 <=> C3H8O2 + C2H5",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.34599, 'd13': 2.51228, 'd23': 1.16876},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1087,
+    label = "C4H10O-11 + CH3O-1 <=> CH4O-1 + C4H9O-11",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.22815, 'd13': 2.50555, 'd23': 1.28981},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1088,
+    label = "C2H6 + O2 <=> HO2 + C2H5",
+    degeneracy = 24,
+    distances = DistanceData(
+        distances = {'d12': 1.56834, 'd13': 2.62991, 'd23': 1.07001},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1089,
+    label = "C4H10 + CHO3 <=> CH2O3 + C4H9",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.27393, 'd13': 2.52177, 'd23': 1.2508},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1090,
+    label = "C4H8-2 + CHO3 <=> CH2O3 + C4H7-2",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.22445, 'd13': 2.55911, 'd23': 1.3365},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1091,
+    label = "C2H5O-3 + C2H4O-1 <=> C2H6O-3 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34275, 'd13': 2.74805, 'd23': 1.41817},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1092,
+    label = "C4H10O-2 + O <=> HO-1 + C4H9O-2",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.26537, 'd13': 2.51255, 'd23': 1.24896},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1093,
+    label = "C3H7O2 + C3H6O-1 <=> C3H8O2 + C3H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29787, 'd13': 2.53985, 'd23': 1.24535},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1094,
+    label = "C4H10O-8 + CH3 <=> CH4 + C4H9O-8",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.29508, 'd13': 2.67852, 'd23': 1.3884},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1095,
+    label = "C4H9O3-10 + H2O2 <=> C4H10O3-10 + HO2-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.21212, 'd13': 2.3442, 'd23': 1.14535},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1096,
+    label = "C4H10O-9 + O <=> HO-1 + C4H9O-9",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.28021, 'd13': 2.50469, 'd23': 1.22657},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1097,
+    label = "C4H10O-8 + C2H5 <=> C2H6 + C4H9O-8",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.32444, 'd13': 2.69521, 'd23': 1.37285},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1098,
+    label = "C4H9O3-11 + HO2 <=> C4H10O3-11 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.10557, 'd13': 2.39356, 'd23': 1.28842},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1099,
+    label = "C4H9O2-3 + C2H6 <=> C4H10O2-3 + C2H5",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.35312, 'd13': 2.51218, 'd23': 1.16649},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1100,
+    label = "C2H6O-3 + CHO3 <=> CH2O3 + C2H5O-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.21353, 'd13': 2.57703, 'd23': 1.36852},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1101,
+    label = "C4H9O2-3 + C3H8 <=> C4H10O2-3 + C3H7",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.35498, 'd13': 2.51282, 'd23': 1.16487},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1102,
+    label = "C4H10-1 + C2H3O3 <=> C2H4O3 + C4H9-1",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.24821, 'd13': 2.53137, 'd23': 1.28334},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1103,
+    label = "C4H6O-1 + CH3 <=> CH4 + C4H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27187, 'd13': 2.75268, 'd23': 1.48103},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1104,
+    label = "C3H8 + CHO3 <=> CH2O3 + C3H7",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.27024, 'd13': 2.51769, 'd23': 1.24923},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1105,
+    label = "CH3O2 + C4H10-1 <=> CH4O2 + C4H9-1",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.31627, 'd13': 2.50568, 'd23': 1.20272},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1106,
+    label = "C3H6O + C3H5O3 <=> C3H6O3 + C3H5O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.34213, 'd13': 2.51637, 'd23': 1.17773},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1107,
+    label = "C4H10O-11 + O2 <=> HO2 + C4H9O-11",
+    degeneracy = 12,
+    distances = DistanceData(
+        distances = {'d12': 1.56779, 'd13': 2.63171, 'd23': 1.07013},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1108,
+    label = "C4H10O-14 + CHO <=> CH2O + C4H9O-14",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.39756, 'd13': 2.73906, 'd23': 1.35219},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1109,
+    label = "C4H8O-1 + H <=> H2 + C4H7O-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.26719, 'd13': 2.29527, 'd23': 1.02811},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1110,
+    label = "C4H10O-4 + CH3O-1 <=> CH4O-1 + C4H9O-4",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.24691, 'd13': 2.49816, 'd23': 1.26023},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1111,
+    label = "C4H9O2-1 + C3H8 <=> C4H10O2-1 + C3H7",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.34694, 'd13': 2.51298, 'd23': 1.16999},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1112,
+    label = "C4H8O-10 + HO2-1 <=> H2O2 + C4H7O-10",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25689, 'd13': 2.53947, 'd23': 1.30511},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1113,
+    label = "C4H10 + C3H7O2-1 <=> C3H8O2-1 + C4H9",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.35388, 'd13': 2.52609, 'd23': 1.17297},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1114,
+    label = "C4H10O-10 + CH3O <=> CH4O + C4H9O-10",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.37444, 'd13': 2.7157, 'd23': 1.34299},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1115,
+    label = "C4H10O-3 + CHO <=> CH2O + C4H9O-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.38595, 'd13': 2.5816, 'd23': 1.19566},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1116,
+    label = "C4H8-2 + HO2-1 <=> H2O2 + C4H7-2",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.30064, 'd13': 2.51273, 'd23': 1.23128},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1117,
+    label = "CH2O + O <=> HO-1 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.18049, 'd13': 2.61396, 'd23': 1.43406},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1118,
+    label = "C2H4O-2 + CH3O-1 <=> CH4O-1 + C2H3O-2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.25143, 'd13': 2.47743, 'd23': 1.24389},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1119,
+    label = "C4H10O-14 + CH3O2 <=> CH4O2 + C4H9O-14",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.29556, 'd13': 2.53118, 'd23': 1.23822},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1120,
+    label = "C4H10-1 + CHO3 <=> CH2O3 + C4H9-1",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.25119, 'd13': 2.53804, 'd23': 1.28918},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1121,
+    label = "C4H10O-9 + CH3O2 <=> CH4O2 + C4H9O-9",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.35959, 'd13': 2.52457, 'd23': 1.16518},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1122,
+    label = "C2H4O2-1 + O2 <=> HO2 + C2H3O2-1",
+    degeneracy = 12,
+    distances = DistanceData(
+        distances = {'d12': 1.53419, 'd13': 2.60222, 'd23': 1.08337},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1123,
+    label = "C4H8-2 + C3H5-2 <=> C3H6-2 + C4H7-2",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.26134, 'd13': 2.70458, 'd23': 1.44951},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1124,
+    label = "C3H4 + CH3 <=> CH4 + C3H3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.27753, 'd13': 2.67365, 'd23': 1.39612},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1125,
+    label = "C3H6 + CH3 <=> CH4 + C3H5",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.26104, 'd13': 2.70954, 'd23': 1.44917},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1126,
+    label = "C4H6O-2 + CH3 <=> CH4 + C4H5O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26475, 'd13': 2.74968, 'd23': 1.48538},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1127,
+    label = "C2H4O2-1 + CH3O2 <=> CH4O2 + C2H3O2-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.36495, 'd13': 2.51994, 'd23': 1.15608},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1128,
+    label = "C4H10O-3 + C2H5 <=> C2H6 + C4H9O-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27749, 'd13': 2.51816, 'd23': 1.24447},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1129,
+    label = "C3H8-1 + O2 <=> HO2 + C3H7-1",
+    degeneracy = 8,
+    distances = DistanceData(
+        distances = {'d12': 1.52069, 'd13': 2.59083, 'd23': 1.08973},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1130,
+    label = "C4H8 + C2H5O2 <=> C2H6O2 + C4H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.2883, 'd13': 2.53156, 'd23': 1.24896},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1131,
+    label = "C2H6O + HO2-1 <=> H2O2 + C2H5O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.27738, 'd13': 2.49115, 'd23': 1.26274},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1132,
+    label = "C4H8O-8 + H <=> H2 + C4H7O-8",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.25972, 'd13': 2.2843, 'd23': 1.02592},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1133,
+    label = "C4H10O-8 + HO <=> H2O + C4H9O-8",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.14892, 'd13': 2.63259, 'd23': 1.49137},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1134,
+    label = "C2H5O-3 + CH2O <=> C2H6O-3 + CHO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.34765, 'd13': 2.74481, 'd23': 1.40678},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1135,
+    label = "C4H8O-5 + CH3O2 <=> CH4O2 + C4H7O-5",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.27428, 'd13': 2.53933, 'd23': 1.27698},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1136,
+    label = "C2H4O-2 + C2H5O2 <=> C2H6O2 + C2H3O-2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.35414, 'd13': 2.50767, 'd23': 1.15805},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1137,
+    label = "C3H6O-1 + C2H3O3 <=> C2H4O3 + C3H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.21575, 'd13': 2.54806, 'd23': 1.37848},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1138,
+    label = "C4H8O-7 + CH3O2 <=> CH4O2 + C4H7O-7",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.35721, 'd13': 2.52246, 'd23': 1.16632},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1139,
+    label = "C2H6O-3 + O2 <=> HO2 + C2H5O-3",
+    degeneracy = 24,
+    distances = DistanceData(
+        distances = {'d12': 1.50541, 'd13': 2.5957, 'd23': 1.10825},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1140,
+    label = "C3H7O2-1 + C4H8-2 <=> C3H8O2-1 + C4H7-2",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.30764, 'd13': 2.53315, 'd23': 1.22628},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1141,
+    label = "C2H6 + C2H5O2 <=> C2H6O2 + C2H5",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.34811, 'd13': 2.51105, 'd23': 1.17026},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1142,
+    label = "C4H9O2 + C3H8-1 <=> C4H10O2 + C3H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.32272, 'd13': 2.50424, 'd23': 1.19469},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1143,
+    label = "C4H8-2 + O <=> HO-1 + C4H7-2",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.2246, 'd13': 2.54218, 'd23': 1.31856},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1144,
+    label = "CH4 + C3H7O2-1 <=> C3H8O2-1 + CH3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.38675, 'd13': 2.51644, 'd23': 1.13467},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1145,
+    label = "C4H10-1 + C3H5 <=> C3H6 + C4H9-1",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.40259, 'd13': 2.69215, 'd23': 1.30119},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1146,
+    label = "C2H6 + C4H9O2-2 <=> C4H10O2-2 + C2H5",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.34779, 'd13': 2.51419, 'd23': 1.16884},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1147,
+    label = "C2H6O-1 + CH3O2 <=> CH4O2 + C2H5O-1",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.36648, 'd13': 2.51463, 'd23': 1.15404},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1148,
+    label = "C3H6O-1 + O2 <=> HO2 + C3H5O-1",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.43934, 'd13': 2.579, 'd23': 1.1573},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1149,
+    label = "C3H8-1 + CHO3 <=> CH2O3 + C3H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.24654, 'd13': 2.53407, 'd23': 1.28916},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1150,
+    label = "C3H8-1 + O <=> HO-1 + C3H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.24927, 'd13': 2.51957, 'd23': 1.27098},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1151,
+    label = "C3H6O-1 + C3H5 <=> C3H6 + C3H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.35826, 'd13': 2.73487, 'd23': 1.38074},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1152,
+    label = "C4H9O2-3 + C3H8-1 <=> C4H10O2-3 + C3H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.33199, 'd13': 2.51627, 'd23': 1.18828},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1153,
+    label = "C3H6 + CH3O2 <=> CH4O2 + C3H5",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.30493, 'd13': 2.52991, 'd23': 1.2359},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1154,
+    label = "C4H8 + C3H7O2-1 <=> C3H8O2-1 + C4H7",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.29077, 'd13': 2.52972, 'd23': 1.24574},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1155,
+    label = "CH4 + C4H9O2 <=> C4H10O2 + CH3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.38331, 'd13': 2.5174, 'd23': 1.13598},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1156,
+    label = "C4H8O-13 + HO <=> H2O + C4H7O-13",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.15723, 'd13': 2.62002, 'd23': 1.46485},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1157,
+    label = "C3H6 + C2H5O2 <=> C2H6O2 + C3H5",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.29841, 'd13': 2.52664, 'd23': 1.23164},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1158,
+    label = "C4H8O-3 + CH3 <=> CH4 + C4H7O-3",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.27235, 'd13': 2.71049, 'd23': 1.44019},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1159,
+    label = "C4H10-1 + HO2-1 <=> H2O2 + C4H9-1",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.30617, 'd13': 2.50142, 'd23': 1.20704},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1160,
+    label = "C4H8O-13 + CH3O2 <=> CH4O2 + C4H7O-13",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.33317, 'd13': 2.53315, 'd23': 1.20231},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1161,
+    label = "C4H8-3 + O2 <=> HO2 + C4H7-3",
+    degeneracy = 24,
+    distances = DistanceData(
+        distances = {'d12': 1.45265, 'd13': 2.5872, 'd23': 1.14729},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1162,
+    label = "C4H10O-14 + O2 <=> HO2 + C4H9O-14",
+    degeneracy = 8,
+    distances = DistanceData(
+        distances = {'d12': 1.4746, 'd13': 2.59162, 'd23': 1.12233},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1163,
+    label = "C2H6O-2 + O <=> HO-1 + C2H5O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.15992, 'd13': 2.30608, 'd23': 1.16787},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1164,
+    label = "C4H10-3 + CH3 <=> CH4 + C4H9-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.30719, 'd13': 2.67977, 'd23': 1.37506},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1165,
+    label = "C2H2O + H <=> H2 + C2HO",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.35823, 'd13': 2.23459, 'd23': 0.878029},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1166,
+    label = "C4H8O + O <=> HO-1 + C4H7O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.28009, 'd13': 2.50396, 'd23': 1.22459},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1167,
+    label = "C4H10O-14 + CH3O <=> CH4O + C4H9O-14",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.34804, 'd13': 2.71349, 'd23': 1.37225},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1168,
+    label = "C2H6O-3 + CHO2 <=> CH2O2 + C2H5O-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.11716, 'd13': 2.94305, 'd23': 1.86322},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1169,
+    label = "C4H8O-1 + CH3O2 <=> CH4O2 + C4H7O-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.30383, 'd13': 2.52545, 'd23': 1.22986},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1170,
+    label = "C4H10-1 + C4H9-3 <=> C4H10-3 + C4H9-1",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.32488, 'd13': 2.70289, 'd23': 1.37897},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1171,
+    label = "C2H4O2-2 + CHO <=> CH2O + C2H3O2-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.44881, 'd13': 2.7601, 'd23': 1.31259},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1172,
+    label = "C4H7O-9 + C4H8-2 <=> C4H8O-9 + C4H7-2",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.35379, 'd13': 2.7118, 'd23': 1.36256},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1173,
+    label = "C4H9O2-1 + C3H6 <=> C4H10O2-1 + C3H5",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.30423, 'd13': 2.52702, 'd23': 1.22642},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1174,
+    label = "C4H10O-11 + CH3O2 <=> CH4O2 + C4H9O-11",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.35638, 'd13': 2.5134, 'd23': 1.1641},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1175,
+    label = "C3H6O2 + O2 <=> HO2 + C3H5O2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.4384, 'd13': 2.57487, 'd23': 1.15751},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1176,
+    label = "C3H8 + C3H5 <=> C3H6 + C3H7",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.42509, 'd13': 2.70384, 'd23': 1.28349},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1177,
+    label = "C4H10O-11 + O <=> HO-1 + C4H9O-11",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.27203, 'd13': 2.51017, 'd23': 1.24111},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1178,
+    label = "C3H4-1 + C2H3 <=> C2H4 + C3H3-2",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.24901, 'd13': 2.69751, 'd23': 1.44926},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1179,
+    label = "C4H8O-4 + HO <=> H2O + C4H7O-4",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.16738, 'd13': 2.56337, 'd23': 1.40381},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1180,
+    label = "C4H10O-6 + CHO <=> CH2O + C4H9O-6",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.40139, 'd13': 2.73828, 'd23': 1.34856},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1181,
+    label = "CH3O2 + HO2 <=> CH4O2 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.08027, 'd13': 2.39627, 'd23': 1.34582},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1182,
+    label = "C2H4 + C4H9O2-1 <=> C4H10O2-1 + C2H3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.42073, 'd13': 2.52315, 'd23': 1.10268},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1183,
+    label = "C3H8 + C2H3O3 <=> C2H4O3 + C3H7",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.28039, 'd13': 2.51364, 'd23': 1.23478},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1184,
+    label = "CH4 + CH3O2 <=> CH4O2 + CH3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.3841, 'd13': 2.51735, 'd23': 1.13644},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1185,
+    label = "C4H9O2-1 + C2H6 <=> C4H10O2-1 + C2H5",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.34903, 'd13': 2.51274, 'd23': 1.16567},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1186,
+    label = "C3H7O2 + C4H10-1 <=> C3H8O2 + C4H9-1",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.32807, 'd13': 2.51739, 'd23': 1.19735},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1187,
+    label = "C4H10 + C2H5O2 <=> C2H6O2 + C4H9",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.35289, 'd13': 2.52085, 'd23': 1.16891},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1188,
+    label = "C4H9O3-5 + HO2 <=> C4H10O3-5 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.08768, 'd13': 2.38894, 'd23': 1.32965},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1189,
+    label = "C4H6O-1 + O <=> HO-1 + C4H5O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17172, 'd13': 2.64287, 'd23': 1.48897},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1190,
+    label = "C4H10O + O2 <=> HO2 + C4H9O",
+    degeneracy = 24,
+    distances = DistanceData(
+        distances = {'d12': 1.53933, 'd13': 2.61284, 'd23': 1.08106},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1191,
+    label = "C4H8-2 + CH3O2 <=> CH4O2 + C4H7-2",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.30667, 'd13': 2.52999, 'd23': 1.23292},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1192,
+    label = "C4H9O2-2 + C3H8-1 <=> C4H10O2-2 + C3H7-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.32772, 'd13': 2.51621, 'd23': 1.19278},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1193,
+    label = "C2H4 + CH3O-1 <=> CH4O-1 + C2H3",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.28232, 'd13': 2.46904, 'd23': 1.19518},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1194,
+    label = "C4H8O-8 + CH3 <=> CH4 + C4H7O-8",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.25638, 'd13': 2.71021, 'd23': 1.45785},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1195,
+    label = "C4H8O + C2H5 <=> C2H6 + C4H7O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.34114, 'd13': 2.67778, 'd23': 1.34165},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1196,
+    label = "C2H6O-3 + C2H5O3 <=> C2H6O3 + C2H5O-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.26855, 'd13': 2.53859, 'd23': 1.27276},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1197,
+    label = "C4H10O-9 + HO <=> H2O + C4H9O-9",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.16132, 'd13': 2.57912, 'd23': 1.42585},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1198,
+    label = "CH4O + O <=> HO-1 + CH3O",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.22568, 'd13': 2.54236, 'd23': 1.3182},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1199,
+    label = "C4H10O-2 + CH3O-1 <=> CH4O-1 + C4H9O-2",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.22976, 'd13': 2.51843, 'd23': 1.29131},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1200,
+    label = "C3H3-2 + CHO-1 <=> C3H4-1 + CO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.83166, 'd13': 2.62211, 'd23': 1.121},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1201,
+    label = "C2H4O2-2 + O2 <=> HO2 + C2H3O2-2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.63655, 'd13': 2.66717, 'd23': 1.04724},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1202,
+    label = "C2H4O2-2 + CH3O-1 <=> CH4O-1 + C2H3O2-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24982, 'd13': 2.48747, 'd23': 1.25893},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1203,
+    label = "C2H6 + O <=> HO-1 + C2H5",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.27784, 'd13': 2.50702, 'd23': 1.22989},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1204,
+    label = "C4H6O-3 + CH3 <=> CH4 + C4H5O-3",
+    degeneracy = 3,
+    distances = DistanceData(
+        distances = {'d12': 1.24995, 'd13': 2.71204, 'd23': 1.46614},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1205,
+    label = "C2H4O-1 + CH3 <=> CH4 + C2H3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26536, 'd13': 2.75446, 'd23': 1.48917},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1206,
+    label = "C4H10-1 + O2 <=> HO2 + C4H9-1",
+    degeneracy = 16,
+    distances = DistanceData(
+        distances = {'d12': 1.52494, 'd13': 2.59406, 'd23': 1.08945},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1207,
+    label = "C4H8O-2 + CH3 <=> CH4 + C4H7O-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26599, 'd13': 2.76049, 'd23': 1.49481},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1208,
+    label = "C4H10-3 + C2H3 <=> C2H4 + C4H9-3",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.28025, 'd13': 2.66903, 'd23': 1.40154},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1209,
+    label = "C2H6O + CH3 <=> CH4 + C2H5O",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.27239, 'd13': 2.70536, 'd23': 1.43746},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1210,
+    label = "C3H6O + CH3 <=> CH4 + C3H5O",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 1.27598, 'd13': 2.6953, 'd23': 1.41983},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1211,
+    label = "C4H9O3-4 + H2O2 <=> C4H10O3-4 + HO2-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.18625, 'd13': 2.33938, 'd23': 1.17319},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 1212,
     label = "H2 + C3H3 <=> H + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -12172,7 +13701,7 @@ entry(
 )
 
 entry(
-    index = 1074,
+    index = 1213,
     label = "H2O + C3H2 <=> C3H3-1 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -12184,7 +13713,7 @@ entry(
 )
 
 entry(
-    index = 1075,
+    index = 1214,
     label = "H2O + C3H3 <=> HO + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -12196,7 +13725,7 @@ entry(
 )
 
 entry(
-    index = 1076,
+    index = 1215,
     label = "C3H4 + O2 <=> HO2 + C3H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -12208,7 +13737,7 @@ entry(
 )
 
 entry(
-    index = 1077,
+    index = 1216,
     label = "C6H6 + O2 <=> C6H5 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -12220,7 +13749,7 @@ entry(
 )
 
 entry(
-    index = 1078,
+    index = 1217,
     label = "C6H6 + H <=> C6H5 + H2",
     degeneracy = 1,
     distances = DistanceData(
@@ -12232,7 +13761,7 @@ entry(
 )
 
 entry(
-    index = 1079,
+    index = 1218,
     label = "H2O + C6H5 <=> C6H6 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -12244,7 +13773,7 @@ entry(
 )
 
 entry(
-    index = 1080,
+    index = 1219,
     label = "C6H6 + HO2-1 <=> C6H5 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -12256,7 +13785,7 @@ entry(
 )
 
 entry(
-    index = 1081,
+    index = 1220,
     label = "C6H6 + C3H3-2 <=> C6H5 + C3H4-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -12268,7 +13797,7 @@ entry(
 )
 
 entry(
-    index = 1082,
+    index = 1221,
     label = "C6H6 + C3H3 <=> C6H5 + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -12280,7 +13809,7 @@ entry(
 )
 
 entry(
-    index = 1083,
+    index = 1222,
     label = "C6H6 + C3H2 <=> C3H3-1 + C6H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -12292,7 +13821,7 @@ entry(
 )
 
 entry(
-    index = 1084,
+    index = 1223,
     label = "C3H6 + HO2-1 <=> H2O2 + C3H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -12304,7 +13833,7 @@ entry(
 )
 
 entry(
-    index = 1085,
+    index = 1224,
     label = "C6H6 + C3H5 <=> C6H5 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -12316,7 +13845,7 @@ entry(
 )
 
 entry(
-    index = 1086,
+    index = 1225,
     label = "C6H8 + O2 <=> C6H7 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -12328,7 +13857,7 @@ entry(
 )
 
 entry(
-    index = 1087,
+    index = 1226,
     label = "C6H8-1 + O2 <=> C6H7-1 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -12340,7 +13869,7 @@ entry(
 )
 
 entry(
-    index = 1088,
+    index = 1227,
     label = "H2 + C6H7-1 <=> C6H8-1 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -12352,7 +13881,7 @@ entry(
 )
 
 entry(
-    index = 1089,
+    index = 1228,
     label = "H2O2 + C6H7 <=> C6H8 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -12364,7 +13893,7 @@ entry(
 )
 
 entry(
-    index = 1090,
+    index = 1229,
     label = "C3H4-1 + C6H7 <=> C6H8 + C3H3-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -12376,7 +13905,7 @@ entry(
 )
 
 entry(
-    index = 1091,
+    index = 1230,
     label = "C3H4 + C6H7 <=> C6H8 + C3H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -12388,7 +13917,7 @@ entry(
 )
 
 entry(
-    index = 1092,
+    index = 1231,
     label = "C3H4 + C6H7-1 <=> C6H8-1 + C3H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -12400,7 +13929,7 @@ entry(
 )
 
 entry(
-    index = 1093,
+    index = 1232,
     label = "C3H6 + C6H7 <=> C6H8 + C3H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -12412,7 +13941,7 @@ entry(
 )
 
 entry(
-    index = 1094,
+    index = 1233,
     label = "H2 + C6H7-2 <=> C6H8-2 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -12424,7 +13953,7 @@ entry(
 )
 
 entry(
-    index = 1095,
+    index = 1234,
     label = "H2O + C6H7-2 <=> C6H8-2 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -12436,7 +13965,7 @@ entry(
 )
 
 entry(
-    index = 1096,
+    index = 1235,
     label = "H2O2 + C6H7-2 <=> C6H8-2 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -12448,7 +13977,7 @@ entry(
 )
 
 entry(
-    index = 1097,
+    index = 1236,
     label = "C3H4-1 + C6H7-2 <=> C6H8-2 + C3H3-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -12460,7 +13989,7 @@ entry(
 )
 
 entry(
-    index = 1098,
+    index = 1237,
     label = "C3H4 + C6H7-2 <=> C6H8-2 + C3H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -12472,7 +14001,7 @@ entry(
 )
 
 entry(
-    index = 1099,
+    index = 1238,
     label = "C2H4 + H <=> H2 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -12484,7 +14013,7 @@ entry(
 )
 
 entry(
-    index = 1100,
+    index = 1239,
     label = "H2O + C2H3 <=> HO + C2H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -12496,7 +14025,7 @@ entry(
 )
 
 entry(
-    index = 1101,
+    index = 1240,
     label = "C2H4 + O2 <=> HO2 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -12508,7 +14037,7 @@ entry(
 )
 
 entry(
-    index = 1102,
+    index = 1241,
     label = "C2H4 + HO2-1 <=> H2O2 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -12520,7 +14049,7 @@ entry(
 )
 
 entry(
-    index = 1103,
+    index = 1242,
     label = "C6H6 + C2H3 <=> C6H5 + C2H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -12532,7 +14061,7 @@ entry(
 )
 
 entry(
-    index = 1104,
+    index = 1243,
     label = "C2H4 + C6H7 <=> C6H8 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -12544,7 +14073,7 @@ entry(
 )
 
 entry(
-    index = 1105,
+    index = 1244,
     label = "C2H4 + C6H7-1 <=> C6H8-1 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -12556,7 +14085,7 @@ entry(
 )
 
 entry(
-    index = 1106,
+    index = 1245,
     label = "C2H4 + C6H7-2 <=> C6H8-2 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -12568,7 +14097,7 @@ entry(
 )
 
 entry(
-    index = 1107,
+    index = 1246,
     label = "C3H4 + C3H5 <=> C3H3 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -12580,7 +14109,7 @@ entry(
 )
 
 entry(
-    index = 1108,
+    index = 1247,
     label = "C2H4 + C3H3 <=> C3H4 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -12592,7 +14121,7 @@ entry(
 )
 
 entry(
-    index = 1109,
+    index = 1248,
     label = "C3H4-1 + C3H5 <=> C3H3-2 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -12604,7 +14133,7 @@ entry(
 )
 
 entry(
-    index = 1110,
+    index = 1249,
     label = "C2H2 + C6H5 <=> C2H + C6H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -12616,7 +14145,7 @@ entry(
 )
 
 entry(
-    index = 1111,
+    index = 1250,
     label = "C2H2 + C6H7-1 <=> C2H + C6H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -12628,7 +14157,7 @@ entry(
 )
 
 entry(
-    index = 1112,
+    index = 1251,
     label = "C2H2 + C6H7 <=> C2H + C6H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -12640,7 +14169,7 @@ entry(
 )
 
 entry(
-    index = 1113,
+    index = 1252,
     label = "C2H2 + C2H3 <=> C2H + C2H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -12652,7 +14181,7 @@ entry(
 )
 
 entry(
-    index = 1114,
+    index = 1253,
     label = "C3H6-1 + O2 <=> HO2 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -12664,7 +14193,7 @@ entry(
 )
 
 entry(
-    index = 1115,
+    index = 1254,
     label = "C3H6-1 + HO2-1 <=> H2O2 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -12676,7 +14205,7 @@ entry(
 )
 
 entry(
-    index = 1116,
+    index = 1255,
     label = "C6H6 + C3H5-1 <=> C6H5 + C3H6-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -12688,7 +14217,7 @@ entry(
 )
 
 entry(
-    index = 1117,
+    index = 1256,
     label = "C3H6-1 + C6H7 <=> C6H8 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -12700,7 +14229,7 @@ entry(
 )
 
 entry(
-    index = 1118,
+    index = 1257,
     label = "C3H6-1 + C6H7-2 <=> C6H8-2 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -12712,7 +14241,7 @@ entry(
 )
 
 entry(
-    index = 1119,
+    index = 1258,
     label = "C3H6-1 + C3H3 <=> C3H4 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -12724,7 +14253,7 @@ entry(
 )
 
 entry(
-    index = 1120,
+    index = 1259,
     label = "C2H2 + C3H5-1 <=> C2H + C3H6-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -12736,7 +14265,7 @@ entry(
 )
 
 entry(
-    index = 1121,
+    index = 1260,
     label = "C3H6-2 + O2 <=> HO2 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -12748,7 +14277,7 @@ entry(
 )
 
 entry(
-    index = 1122,
+    index = 1261,
     label = "C3H6-2 + HO2-1 <=> H2O2 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -12760,7 +14289,7 @@ entry(
 )
 
 entry(
-    index = 1123,
+    index = 1262,
     label = "C6H6 + C3H5-2 <=> C6H5 + C3H6-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -12772,7 +14301,7 @@ entry(
 )
 
 entry(
-    index = 1124,
+    index = 1263,
     label = "C3H6-2 + C6H7-1 <=> C6H8-1 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -12784,7 +14313,7 @@ entry(
 )
 
 entry(
-    index = 1125,
+    index = 1264,
     label = "C3H6-2 + C6H7-2 <=> C6H8-2 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -12796,7 +14325,7 @@ entry(
 )
 
 entry(
-    index = 1126,
+    index = 1265,
     label = "C3H6-2 + C3H3 <=> C3H4 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -12808,7 +14337,7 @@ entry(
 )
 
 entry(
-    index = 1127,
+    index = 1266,
     label = "H2 + CH3 <=> H + CH4",
     degeneracy = 1,
     distances = DistanceData(
@@ -12820,7 +14349,7 @@ entry(
 )
 
 entry(
-    index = 1128,
+    index = 1267,
     label = "H2O + CH3 <=> HO + CH4",
     degeneracy = 1,
     distances = DistanceData(
@@ -12832,7 +14361,7 @@ entry(
 )
 
 entry(
-    index = 1129,
+    index = 1268,
     label = "CH4 + O2 <=> HO2 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -12844,7 +14373,7 @@ entry(
 )
 
 entry(
-    index = 1130,
+    index = 1269,
     label = "C6H6 + CH3 <=> C6H5 + CH4",
     degeneracy = 1,
     distances = DistanceData(
@@ -12856,7 +14385,7 @@ entry(
 )
 
 entry(
-    index = 1131,
+    index = 1270,
     label = "CH4 + C6H7-2 <=> C6H8-2 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -12868,7 +14397,7 @@ entry(
 )
 
 entry(
-    index = 1132,
+    index = 1271,
     label = "C3H8 + HO2-1 <=> H2O2 + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -12880,7 +14409,7 @@ entry(
 )
 
 entry(
-    index = 1133,
+    index = 1272,
     label = "C3H8 + C6H7-2 <=> C6H8-2 + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -12892,7 +14421,7 @@ entry(
 )
 
 entry(
-    index = 1134,
+    index = 1273,
     label = "C3H8 + C3H3 <=> C3H4 + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -12904,7 +14433,7 @@ entry(
 )
 
 entry(
-    index = 1135,
+    index = 1274,
     label = "C3H8-1 + HO2-1 <=> H2O2 + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -12916,7 +14445,7 @@ entry(
 )
 
 entry(
-    index = 1136,
+    index = 1275,
     label = "C3H8-1 + C6H7 <=> C6H8 + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -12928,7 +14457,7 @@ entry(
 )
 
 entry(
-    index = 1137,
+    index = 1276,
     label = "C3H8-1 + C6H7-1 <=> C6H8-1 + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -12940,7 +14469,7 @@ entry(
 )
 
 entry(
-    index = 1138,
+    index = 1277,
     label = "C3H8-1 + C3H3 <=> C3H4 + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -12952,7 +14481,7 @@ entry(
 )
 
 entry(
-    index = 1139,
+    index = 1278,
     label = "C2H2 + C3H7-1 <=> C2H + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -12964,7 +14493,7 @@ entry(
 )
 
 entry(
-    index = 1140,
+    index = 1279,
     label = "C3H6-1 + C3H5 <=> C3H5-1 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -12976,7 +14505,7 @@ entry(
 )
 
 entry(
-    index = 1141,
+    index = 1280,
     label = "C3H6-2 + C3H5 <=> C3H5-2 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -12988,7 +14517,7 @@ entry(
 )
 
 entry(
-    index = 1142,
+    index = 1281,
     label = "C3H6-1 + C2H3 <=> C3H5-1 + C2H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -13000,7 +14529,7 @@ entry(
 )
 
 entry(
-    index = 1143,
+    index = 1282,
     label = "C2H4 + C3H5-2 <=> C3H6-2 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -13012,7 +14541,7 @@ entry(
 )
 
 entry(
-    index = 1144,
+    index = 1283,
     label = "C2H4 + C3H5 <=> C3H6 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -13024,7 +14553,7 @@ entry(
 )
 
 entry(
-    index = 1145,
+    index = 1284,
     label = "C3H6-1 + C3H5-2 <=> C3H6-2 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -13036,7 +14565,7 @@ entry(
 )
 
 entry(
-    index = 1146,
+    index = 1285,
     label = "C3H6-1 + C3H7 <=> C3H5-1 + C3H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -13048,7 +14577,7 @@ entry(
 )
 
 entry(
-    index = 1147,
+    index = 1286,
     label = "C3H6-2 + C3H7 <=> C3H5-2 + C3H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -13060,7 +14589,7 @@ entry(
 )
 
 entry(
-    index = 1148,
+    index = 1287,
     label = "C3H8-1 + C3H5 <=> C3H6 + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -13072,7 +14601,7 @@ entry(
 )
 
 entry(
-    index = 1149,
+    index = 1288,
     label = "C2H4 + C3H7 <=> C2H3 + C3H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -13084,7 +14613,7 @@ entry(
 )
 
 entry(
-    index = 1150,
+    index = 1289,
     label = "C2H4 + C3H7-1 <=> C2H3 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -13096,7 +14625,7 @@ entry(
 )
 
 entry(
-    index = 1151,
+    index = 1290,
     label = "C2H2O + O2 <=> C2HO + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13108,7 +14637,7 @@ entry(
 )
 
 entry(
-    index = 1152,
+    index = 1291,
     label = "H2O + C2HO <=> C2H2O + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -13120,7 +14649,7 @@ entry(
 )
 
 entry(
-    index = 1153,
+    index = 1292,
     label = "C2H2O + HO2-1 <=> C2HO + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13132,7 +14661,7 @@ entry(
 )
 
 entry(
-    index = 1154,
+    index = 1293,
     label = "C2H2O + C3H5 <=> C2HO + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -13144,7 +14673,7 @@ entry(
 )
 
 entry(
-    index = 1155,
+    index = 1294,
     label = "C2H2O + C6H7-1 <=> C2HO + C6H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -13156,7 +14685,7 @@ entry(
 )
 
 entry(
-    index = 1156,
+    index = 1295,
     label = "C2H2O + C6H7-2 <=> C2HO + C6H8-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13168,7 +14697,7 @@ entry(
 )
 
 entry(
-    index = 1157,
+    index = 1296,
     label = "C2H2O + C6H7 <=> C2HO + C6H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -13180,7 +14709,7 @@ entry(
 )
 
 entry(
-    index = 1158,
+    index = 1297,
     label = "C2H2O + CH3 <=> C2HO + CH4",
     degeneracy = 1,
     distances = DistanceData(
@@ -13192,7 +14721,7 @@ entry(
 )
 
 entry(
-    index = 1159,
+    index = 1298,
     label = "C2H2O + C3H7 <=> C2HO + C3H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -13204,7 +14733,7 @@ entry(
 )
 
 entry(
-    index = 1160,
+    index = 1299,
     label = "C2H2O + C3H7-1 <=> C2HO + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -13216,7 +14745,7 @@ entry(
 )
 
 entry(
-    index = 1161,
+    index = 1300,
     label = "CH2O + O2 <=> CHO + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13228,7 +14757,7 @@ entry(
 )
 
 entry(
-    index = 1162,
+    index = 1301,
     label = "C7H14O + CHO <=> CH2O + C7H13O",
     degeneracy = 1,
     distances = DistanceData(
@@ -13240,7 +14769,7 @@ entry(
 )
 
 entry(
-    index = 1163,
+    index = 1302,
     label = "C7H14O-1 + CHO <=> CH2O + C7H13O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -13252,7 +14781,7 @@ entry(
 )
 
 entry(
-    index = 1164,
+    index = 1303,
     label = "CH2O + HO2-1 <=> CHO + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13264,7 +14793,7 @@ entry(
 )
 
 entry(
-    index = 1165,
+    index = 1304,
     label = "C3H4 + CHO <=> CH2O + C3H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -13276,7 +14805,7 @@ entry(
 )
 
 entry(
-    index = 1166,
+    index = 1305,
     label = "C6H6 + CHO <=> CH2O + C6H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -13288,7 +14817,7 @@ entry(
 )
 
 entry(
-    index = 1167,
+    index = 1306,
     label = "CH2O + C6H7-1 <=> CHO + C6H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -13300,7 +14829,7 @@ entry(
 )
 
 entry(
-    index = 1168,
+    index = 1307,
     label = "CH2O + C6H7-2 <=> CHO + C6H8-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13312,7 +14841,7 @@ entry(
 )
 
 entry(
-    index = 1169,
+    index = 1308,
     label = "CH2O + C6H7 <=> CHO + C6H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -13324,7 +14853,7 @@ entry(
 )
 
 entry(
-    index = 1170,
+    index = 1309,
     label = "C3H6-2 + CHO <=> CH2O + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13336,7 +14865,7 @@ entry(
 )
 
 entry(
-    index = 1171,
+    index = 1310,
     label = "CH4 + CHO <=> CH2O + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -13348,7 +14877,7 @@ entry(
 )
 
 entry(
-    index = 1172,
+    index = 1311,
     label = "C3H8-1 + CHO <=> CH2O + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -13360,7 +14889,7 @@ entry(
 )
 
 entry(
-    index = 1173,
+    index = 1312,
     label = "CH4O + O2 <=> CH3O + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13372,7 +14901,7 @@ entry(
 )
 
 entry(
-    index = 1174,
+    index = 1313,
     label = "H2O + CH3O <=> CH4O + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -13384,7 +14913,7 @@ entry(
 )
 
 entry(
-    index = 1175,
+    index = 1314,
     label = "C6H6 + CH3O <=> CH4O + C6H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -13396,7 +14925,7 @@ entry(
 )
 
 entry(
-    index = 1176,
+    index = 1315,
     label = "CH4O + C3H5 <=> CH3O + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -13408,7 +14937,7 @@ entry(
 )
 
 entry(
-    index = 1177,
+    index = 1316,
     label = "CH4O + C6H7-1 <=> CH3O + C6H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -13420,7 +14949,7 @@ entry(
 )
 
 entry(
-    index = 1178,
+    index = 1317,
     label = "CH4O + C6H7-2 <=> CH3O + C6H8-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13432,7 +14961,7 @@ entry(
 )
 
 entry(
-    index = 1179,
+    index = 1318,
     label = "CH4O + C6H7 <=> CH3O + C6H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -13444,7 +14973,7 @@ entry(
 )
 
 entry(
-    index = 1180,
+    index = 1319,
     label = "C2H4 + CH3O <=> CH4O + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -13456,7 +14985,7 @@ entry(
 )
 
 entry(
-    index = 1181,
+    index = 1320,
     label = "C3H6-2 + CH3O <=> CH4O + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13468,7 +14997,7 @@ entry(
 )
 
 entry(
-    index = 1182,
+    index = 1321,
     label = "CH4 + CH3O <=> CH4O + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -13480,7 +15009,7 @@ entry(
 )
 
 entry(
-    index = 1183,
+    index = 1322,
     label = "C3H8 + CH3O <=> CH4O + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -13492,7 +15021,7 @@ entry(
 )
 
 entry(
-    index = 1184,
+    index = 1323,
     label = "C3H8-1 + CH3O <=> CH4O + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -13504,7 +15033,7 @@ entry(
 )
 
 entry(
-    index = 1185,
+    index = 1324,
     label = "CH3-1 + C7H13O-1 <=> C7H14O-1 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13516,7 +15045,7 @@ entry(
 )
 
 entry(
-    index = 1186,
+    index = 1325,
     label = "CH3-1 + H <=> H2 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13528,7 +15057,7 @@ entry(
 )
 
 entry(
-    index = 1187,
+    index = 1326,
     label = "CH3-1 + O2 <=> HO2 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13540,7 +15069,7 @@ entry(
 )
 
 entry(
-    index = 1188,
+    index = 1327,
     label = "CH3-1 + C6H7-2 <=> C6H8-2 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13552,7 +15081,7 @@ entry(
 )
 
 entry(
-    index = 1189,
+    index = 1328,
     label = "CH3-1 + C3H3-2 <=> C3H4-1 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13564,7 +15093,7 @@ entry(
 )
 
 entry(
-    index = 1190,
+    index = 1329,
     label = "C2H2 + C3H2 <=> C2H + C3H3-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -13576,7 +15105,7 @@ entry(
 )
 
 entry(
-    index = 1191,
+    index = 1330,
     label = "HO-1 + CH3 <=> CH4 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -13588,7 +15117,7 @@ entry(
 )
 
 entry(
-    index = 1192,
+    index = 1331,
     label = "C2H6O + O2 <=> C2H5O + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13600,7 +15129,7 @@ entry(
 )
 
 entry(
-    index = 1193,
+    index = 1332,
     label = "HO-1 + C2H5O-1 <=> C2H6O-1 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -13612,7 +15141,7 @@ entry(
 )
 
 entry(
-    index = 1194,
+    index = 1333,
     label = "H2O + C2H5O-1 <=> C2H6O-1 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -13624,7 +15153,7 @@ entry(
 )
 
 entry(
-    index = 1195,
+    index = 1334,
     label = "H2O + C2H5O-2 <=> C2H6O-2 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -13636,7 +15165,7 @@ entry(
 )
 
 entry(
-    index = 1196,
+    index = 1335,
     label = "C2H6O-1 + HO2-1 <=> C2H5O-1 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13648,7 +15177,7 @@ entry(
 )
 
 entry(
-    index = 1197,
+    index = 1336,
     label = "C2H6O-2 + HO2-1 <=> C2H5O-2 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13660,7 +15189,7 @@ entry(
 )
 
 entry(
-    index = 1198,
+    index = 1337,
     label = "C2H6O + C3H3-2 <=> C2H5O + C3H4-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -13672,7 +15201,7 @@ entry(
 )
 
 entry(
-    index = 1199,
+    index = 1338,
     label = "C2H6O-1 + C3H3 <=> C2H5O-1 + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -13684,7 +15213,7 @@ entry(
 )
 
 entry(
-    index = 1200,
+    index = 1339,
     label = "C2H6O + C3H3 <=> C2H5O + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -13696,7 +15225,7 @@ entry(
 )
 
 entry(
-    index = 1201,
+    index = 1340,
     label = "C6H6 + C2H5O <=> C2H6O + C6H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -13708,7 +15237,7 @@ entry(
 )
 
 entry(
-    index = 1202,
+    index = 1341,
     label = "C2H6O-1 + C3H5 <=> C2H5O-1 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -13720,7 +15249,7 @@ entry(
 )
 
 entry(
-    index = 1203,
+    index = 1342,
     label = "C2H6O + C3H5 <=> C2H5O + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -13732,7 +15261,7 @@ entry(
 )
 
 entry(
-    index = 1204,
+    index = 1343,
     label = "C2H6O-2 + C3H5 <=> C2H5O-2 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -13744,7 +15273,7 @@ entry(
 )
 
 entry(
-    index = 1205,
+    index = 1344,
     label = "C2H6O + C6H7-1 <=> C2H5O + C6H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -13756,7 +15285,7 @@ entry(
 )
 
 entry(
-    index = 1206,
+    index = 1345,
     label = "C2H6O-1 + C6H7-2 <=> C2H5O-1 + C6H8-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13768,7 +15297,7 @@ entry(
 )
 
 entry(
-    index = 1207,
+    index = 1346,
     label = "C2H6O + C6H7-2 <=> C2H5O + C6H8-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13780,7 +15309,7 @@ entry(
 )
 
 entry(
-    index = 1208,
+    index = 1347,
     label = "C2H6O-1 + C6H7 <=> C2H5O-1 + C6H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -13792,7 +15321,7 @@ entry(
 )
 
 entry(
-    index = 1209,
+    index = 1348,
     label = "C2H6O + C6H7 <=> C2H5O + C6H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -13804,7 +15333,7 @@ entry(
 )
 
 entry(
-    index = 1210,
+    index = 1349,
     label = "C2H4 + C2H5O <=> C2H6O + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -13816,7 +15345,7 @@ entry(
 )
 
 entry(
-    index = 1211,
+    index = 1350,
     label = "C3H6-1 + C2H5O-1 <=> C2H6O-1 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -13828,7 +15357,7 @@ entry(
 )
 
 entry(
-    index = 1212,
+    index = 1351,
     label = "C3H6-1 + C2H5O-2 <=> C2H6O-2 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -13840,7 +15369,7 @@ entry(
 )
 
 entry(
-    index = 1213,
+    index = 1352,
     label = "C3H6-2 + C2H5O <=> C2H6O + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13852,7 +15381,7 @@ entry(
 )
 
 entry(
-    index = 1214,
+    index = 1353,
     label = "C3H6-2 + C2H5O-2 <=> C2H6O-2 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13864,7 +15393,7 @@ entry(
 )
 
 entry(
-    index = 1215,
+    index = 1354,
     label = "C2H6O-1 + C3H7 <=> C2H5O-1 + C3H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -13876,7 +15405,7 @@ entry(
 )
 
 entry(
-    index = 1216,
+    index = 1355,
     label = "C3H8 + C2H5O <=> C2H6O + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -13888,7 +15417,7 @@ entry(
 )
 
 entry(
-    index = 1217,
+    index = 1356,
     label = "C2H6O-1 + C3H7-1 <=> C2H5O-1 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -13900,7 +15429,7 @@ entry(
 )
 
 entry(
-    index = 1218,
+    index = 1357,
     label = "C2H6O-2 + C3H7-1 <=> C2H5O-2 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -13912,7 +15441,7 @@ entry(
 )
 
 entry(
-    index = 1219,
+    index = 1358,
     label = "CH3-1 + C2H5O-2 <=> C2H6O-2 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -13924,7 +15453,7 @@ entry(
 )
 
 entry(
-    index = 1220,
+    index = 1359,
     label = "C2H6O-1 + C3H2 <=> C2H5O-1 + C3H3-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -13936,7 +15465,7 @@ entry(
 )
 
 entry(
-    index = 1221,
+    index = 1360,
     label = "C2H2 + C2H5O <=> C2H + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -13948,7 +15477,7 @@ entry(
 )
 
 entry(
-    index = 1222,
+    index = 1361,
     label = "C2H2O + C2H5O <=> C2HO + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -13960,7 +15489,7 @@ entry(
 )
 
 entry(
-    index = 1223,
+    index = 1362,
     label = "C2H6O + CHO <=> CH2O + C2H5O",
     degeneracy = 1,
     distances = DistanceData(
@@ -13972,7 +15501,7 @@ entry(
 )
 
 entry(
-    index = 1224,
+    index = 1363,
     label = "CH4O + C2H5O <=> CH3O + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -13984,7 +15513,7 @@ entry(
 )
 
 entry(
-    index = 1225,
+    index = 1364,
     label = "C2H6O-1 + C2H5O <=> C2H5O-1 + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -13996,7 +15525,7 @@ entry(
 )
 
 entry(
-    index = 1226,
+    index = 1365,
     label = "C2H6O-2 + C2H5O <=> C2H5O-2 + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -14008,7 +15537,7 @@ entry(
 )
 
 entry(
-    index = 1227,
+    index = 1366,
     label = "C2H2 + C2H5O-1 <=> C2H + C2H6O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14020,7 +15549,7 @@ entry(
 )
 
 entry(
-    index = 1228,
+    index = 1367,
     label = "C2H2O + C2H5O-1 <=> C2HO + C2H6O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14032,7 +15561,7 @@ entry(
 )
 
 entry(
-    index = 1229,
+    index = 1368,
     label = "C2H6O-1 + CHO <=> CH2O + C2H5O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14044,7 +15573,7 @@ entry(
 )
 
 entry(
-    index = 1230,
+    index = 1369,
     label = "C2H6O-1 + CH3O <=> CH4O + C2H5O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14056,7 +15585,7 @@ entry(
 )
 
 entry(
-    index = 1231,
+    index = 1370,
     label = "C2H2O + C2H5O-2 <=> C2HO + C2H6O-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -14068,7 +15597,7 @@ entry(
 )
 
 entry(
-    index = 1232,
+    index = 1371,
     label = "C2H6O-2 + CHO <=> CH2O + C2H5O-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -14080,7 +15609,7 @@ entry(
 )
 
 entry(
-    index = 1233,
+    index = 1372,
     label = "H2 + C2H3O <=> C2H4O + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -14092,7 +15621,7 @@ entry(
 )
 
 entry(
-    index = 1234,
+    index = 1373,
     label = "HO-1 + C2H3O <=> C2H4O + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -14104,7 +15633,7 @@ entry(
 )
 
 entry(
-    index = 1235,
+    index = 1374,
     label = "C2H4O + C3H3 <=> C2H3O + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -14116,7 +15645,7 @@ entry(
 )
 
 entry(
-    index = 1236,
+    index = 1375,
     label = "C3H4 + C2H3O-1 <=> C2H4O-1 + C3H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -14128,7 +15657,7 @@ entry(
 )
 
 entry(
-    index = 1237,
+    index = 1376,
     label = "C2H4O + C3H5 <=> C2H3O + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -14140,7 +15669,7 @@ entry(
 )
 
 entry(
-    index = 1238,
+    index = 1377,
     label = "C2H4O-1 + C3H5 <=> C2H3O-1 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -14152,7 +15681,7 @@ entry(
 )
 
 entry(
-    index = 1239,
+    index = 1378,
     label = "C3H6-1 + C2H3O-1 <=> C2H4O-1 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14164,7 +15693,7 @@ entry(
 )
 
 entry(
-    index = 1240,
+    index = 1379,
     label = "C3H6-2 + C2H3O-1 <=> C2H4O-1 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -14176,7 +15705,7 @@ entry(
 )
 
 entry(
-    index = 1241,
+    index = 1380,
     label = "C3H8-1 + C2H3O <=> C2H4O + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14188,7 +15717,7 @@ entry(
 )
 
 entry(
-    index = 1242,
+    index = 1381,
     label = "C2H4O + C2H5O <=> C2H3O + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -14200,7 +15729,7 @@ entry(
 )
 
 entry(
-    index = 1243,
+    index = 1382,
     label = "C2H6O + C2H3O-1 <=> C2H4O-1 + C2H5O",
     degeneracy = 1,
     distances = DistanceData(
@@ -14212,7 +15741,7 @@ entry(
 )
 
 entry(
-    index = 1244,
+    index = 1383,
     label = "C2H6O-1 + C2H3O <=> C2H4O + C2H5O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14224,7 +15753,7 @@ entry(
 )
 
 entry(
-    index = 1245,
+    index = 1384,
     label = "C2H6O-1 + C2H3O-1 <=> C2H4O-1 + C2H5O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14236,7 +15765,7 @@ entry(
 )
 
 entry(
-    index = 1246,
+    index = 1385,
     label = "C2H6O-2 + C2H3O <=> C2H4O + C2H5O-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -14248,7 +15777,7 @@ entry(
 )
 
 entry(
-    index = 1247,
+    index = 1386,
     label = "C2H6O-2 + C2H3O-1 <=> C2H4O-1 + C2H5O-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -14260,7 +15789,7 @@ entry(
 )
 
 entry(
-    index = 1248,
+    index = 1387,
     label = "C2H2O + C2H3O-1 <=> C2HO + C2H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14272,7 +15801,7 @@ entry(
 )
 
 entry(
-    index = 1249,
+    index = 1388,
     label = "C2H4O + C2H3O-1 <=> C2H3O + C2H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14284,7 +15813,7 @@ entry(
 )
 
 entry(
-    index = 1250,
+    index = 1389,
     label = "C2H2 + C2H3O <=> C2H + C2H4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -14296,7 +15825,7 @@ entry(
 )
 
 entry(
-    index = 1251,
+    index = 1390,
     label = "C2H4O + CHO <=> CH2O + C2H3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -14308,7 +15837,7 @@ entry(
 )
 
 entry(
-    index = 1252,
+    index = 1391,
     label = "C2H4O + CH3O <=> CH4O + C2H3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -14320,7 +15849,7 @@ entry(
 )
 
 entry(
-    index = 1253,
+    index = 1392,
     label = "H2 + C2H5 <=> H + C2H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -14332,7 +15861,7 @@ entry(
 )
 
 entry(
-    index = 1254,
+    index = 1393,
     label = "H2O + C2H5 <=> HO + C2H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -14344,7 +15873,7 @@ entry(
 )
 
 entry(
-    index = 1255,
+    index = 1394,
     label = "C2H6 + HO2-1 <=> H2O2 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -14356,7 +15885,7 @@ entry(
 )
 
 entry(
-    index = 1256,
+    index = 1395,
     label = "C2H6 + C6H7-2 <=> C6H8-2 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -14368,7 +15897,7 @@ entry(
 )
 
 entry(
-    index = 1257,
+    index = 1396,
     label = "C2H6 + C3H3 <=> C3H4 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -14380,7 +15909,7 @@ entry(
 )
 
 entry(
-    index = 1258,
+    index = 1397,
     label = "C2H2 + C2H5 <=> C2H + C2H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -14392,7 +15921,7 @@ entry(
 )
 
 entry(
-    index = 1259,
+    index = 1398,
     label = "C3H6-1 + C2H5 <=> C3H5-1 + C2H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -14404,7 +15933,7 @@ entry(
 )
 
 entry(
-    index = 1260,
+    index = 1399,
     label = "C2H4 + C2H5 <=> C2H3 + C2H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -14416,7 +15945,7 @@ entry(
 )
 
 entry(
-    index = 1261,
+    index = 1400,
     label = "C2H6 + CHO <=> CH2O + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -14428,7 +15957,7 @@ entry(
 )
 
 entry(
-    index = 1262,
+    index = 1401,
     label = "C2H6 + CH3O <=> CH4O + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -14440,7 +15969,7 @@ entry(
 )
 
 entry(
-    index = 1263,
+    index = 1402,
     label = "C2H6O-1 + C2H5 <=> C2H5O-1 + C2H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -14452,7 +15981,7 @@ entry(
 )
 
 entry(
-    index = 1264,
+    index = 1403,
     label = "C2H6 + C2H5O <=> C2H6O + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -14464,7 +15993,7 @@ entry(
 )
 
 entry(
-    index = 1265,
+    index = 1404,
     label = "C2H6 + C2H3O-1 <=> C2H4O-1 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -14476,7 +16005,7 @@ entry(
 )
 
 entry(
-    index = 1266,
+    index = 1405,
     label = "C3H8 + C2H5 <=> C2H6 + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -14488,7 +16017,7 @@ entry(
 )
 
 entry(
-    index = 1267,
+    index = 1406,
     label = "C2H6 + C3H7-1 <=> C2H5 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14500,7 +16029,7 @@ entry(
 )
 
 entry(
-    index = 1268,
+    index = 1407,
     label = "C2H2O + C2O <=> C2HO-1 + C2HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -14512,7 +16041,7 @@ entry(
 )
 
 entry(
-    index = 1269,
+    index = 1408,
     label = "C2H4 + C2O <=> C2HO-1 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -14524,7 +16053,7 @@ entry(
 )
 
 entry(
-    index = 1270,
+    index = 1409,
     label = "C3H6-1 + C2O <=> C2HO-1 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14536,7 +16065,7 @@ entry(
 )
 
 entry(
-    index = 1271,
+    index = 1410,
     label = "CH4 + C2O <=> C2HO-1 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -14548,7 +16077,7 @@ entry(
 )
 
 entry(
-    index = 1272,
+    index = 1411,
     label = "C2H2 + CH3O <=> C2H + CH4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -14560,7 +16089,7 @@ entry(
 )
 
 entry(
-    index = 1273,
+    index = 1412,
     label = "CH4O + CHO <=> CH2O + CH3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -14572,7 +16101,7 @@ entry(
 )
 
 entry(
-    index = 1274,
+    index = 1413,
     label = "CH3-1 + C3H7 <=> C3H8 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -14584,7 +16113,7 @@ entry(
 )
 
 entry(
-    index = 1275,
+    index = 1414,
     label = "C3H4-1 + C3H3O <=> C3H4O + C3H3-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -14596,7 +16125,7 @@ entry(
 )
 
 entry(
-    index = 1276,
+    index = 1415,
     label = "C6H6 + C3H3O <=> C3H4O + C6H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -14608,7 +16137,7 @@ entry(
 )
 
 entry(
-    index = 1277,
+    index = 1416,
     label = "C3H4O + C3H5 <=> C3H3O + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -14620,7 +16149,7 @@ entry(
 )
 
 entry(
-    index = 1278,
+    index = 1417,
     label = "C2H4 + C3H3O <=> C3H4O + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -14632,7 +16161,7 @@ entry(
 )
 
 entry(
-    index = 1279,
+    index = 1418,
     label = "CH4 + C3H3O <=> C3H4O + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -14644,7 +16173,7 @@ entry(
 )
 
 entry(
-    index = 1280,
+    index = 1419,
     label = "C2H6O + C3H3O <=> C3H4O + C2H5O",
     degeneracy = 1,
     distances = DistanceData(
@@ -14656,7 +16185,7 @@ entry(
 )
 
 entry(
-    index = 1281,
+    index = 1420,
     label = "C2H6O-2 + C3H3O <=> C3H4O + C2H5O-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -14668,7 +16197,7 @@ entry(
 )
 
 entry(
-    index = 1282,
+    index = 1421,
     label = "C3H4O + C2H3O-1 <=> C3H3O + C2H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14680,7 +16209,7 @@ entry(
 )
 
 entry(
-    index = 1283,
+    index = 1422,
     label = "C2H2 + C3H3O <=> C3H4O + C2H",
     degeneracy = 1,
     distances = DistanceData(
@@ -14692,7 +16221,7 @@ entry(
 )
 
 entry(
-    index = 1284,
+    index = 1423,
     label = "C3H4O + CHO <=> C3H3O + CH2O",
     degeneracy = 1,
     distances = DistanceData(
@@ -14704,7 +16233,7 @@ entry(
 )
 
 entry(
-    index = 1285,
+    index = 1424,
     label = "C3H4O-1 + HO2-1 <=> H2O2 + C3H3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14716,7 +16245,7 @@ entry(
 )
 
 entry(
-    index = 1286,
+    index = 1425,
     label = "C3H4O-1 + C6H7-1 <=> C6H8-1 + C3H3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14728,7 +16257,7 @@ entry(
 )
 
 entry(
-    index = 1287,
+    index = 1426,
     label = "C3H4O-1 + C6H7-2 <=> C6H8-2 + C3H3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14740,7 +16269,7 @@ entry(
 )
 
 entry(
-    index = 1288,
+    index = 1427,
     label = "C3H4 + C3H3O-1 <=> C3H3 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14752,7 +16281,7 @@ entry(
 )
 
 entry(
-    index = 1289,
+    index = 1428,
     label = "C3H6-2 + C3H3O-1 <=> C3H5-2 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14764,7 +16293,7 @@ entry(
 )
 
 entry(
-    index = 1290,
+    index = 1429,
     label = "C2H4 + C3H3O-1 <=> C2H3 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14776,7 +16305,7 @@ entry(
 )
 
 entry(
-    index = 1291,
+    index = 1430,
     label = "C3H4O-1 + CHO <=> CH2O + C3H3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14788,7 +16317,7 @@ entry(
 )
 
 entry(
-    index = 1292,
+    index = 1431,
     label = "CH4O + C3H3O-1 <=> CH3O + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14800,7 +16329,7 @@ entry(
 )
 
 entry(
-    index = 1293,
+    index = 1432,
     label = "C2H6O-1 + C3H3O-1 <=> C2H5O-1 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14812,7 +16341,7 @@ entry(
 )
 
 entry(
-    index = 1294,
+    index = 1433,
     label = "C2H6 + C3H3O-1 <=> C2H5 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14824,7 +16353,7 @@ entry(
 )
 
 entry(
-    index = 1295,
+    index = 1434,
     label = "C3H8 + C3H3O-1 <=> C3H7 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14836,7 +16365,7 @@ entry(
 )
 
 entry(
-    index = 1296,
+    index = 1435,
     label = "C4H4 + H <=> H2 + C4H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -14848,7 +16377,7 @@ entry(
 )
 
 entry(
-    index = 1297,
+    index = 1436,
     label = "C4H4 + C6H7-1 <=> C6H8-1 + C4H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -14860,7 +16389,7 @@ entry(
 )
 
 entry(
-    index = 1298,
+    index = 1437,
     label = "C4H4 + C3H7 <=> C3H8 + C4H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -14872,7 +16401,7 @@ entry(
 )
 
 entry(
-    index = 1299,
+    index = 1438,
     label = "C4H4 + C3H7-1 <=> C3H8-1 + C4H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -14884,7 +16413,7 @@ entry(
 )
 
 entry(
-    index = 1300,
+    index = 1439,
     label = "H2 + C4H3-1 <=> H + C4H4-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14896,7 +16425,7 @@ entry(
 )
 
 entry(
-    index = 1301,
+    index = 1440,
     label = "C4H4-1 + C6H7-1 <=> C6H8-1 + C4H3-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14908,7 +16437,7 @@ entry(
 )
 
 entry(
-    index = 1302,
+    index = 1441,
     label = "C4H4-1 + C3H5 <=> C3H6 + C4H3-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14920,7 +16449,7 @@ entry(
 )
 
 entry(
-    index = 1303,
+    index = 1442,
     label = "C4H4-1 + CH3O <=> CH4O + C4H3-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14932,7 +16461,7 @@ entry(
 )
 
 entry(
-    index = 1304,
+    index = 1443,
     label = "C4H4-1 + C2H5O <=> C2H6O + C4H3-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14944,7 +16473,7 @@ entry(
 )
 
 entry(
-    index = 1305,
+    index = 1444,
     label = "C4H4-1 + C2H3O-1 <=> C2H4O-1 + C4H3-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -14956,7 +16485,7 @@ entry(
 )
 
 entry(
-    index = 1306,
+    index = 1445,
     label = "H2 + C7H13O3 <=> C7H14O3 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -14968,7 +16497,7 @@ entry(
 )
 
 entry(
-    index = 1307,
+    index = 1446,
     label = "C3H6-2 + C4H7O3 <=> C3H5-2 + C4H8O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -14980,7 +16509,7 @@ entry(
 )
 
 entry(
-    index = 1308,
+    index = 1447,
     label = "C4H8O3 + CHO <=> CH2O + C4H7O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -14992,7 +16521,7 @@ entry(
 )
 
 entry(
-    index = 1309,
+    index = 1448,
     label = "C4H6O + O2 <=> C4H5O + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -15004,7 +16533,7 @@ entry(
 )
 
 entry(
-    index = 1310,
+    index = 1449,
     label = "H2 + C4H5O <=> C4H6O + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -15016,7 +16545,7 @@ entry(
 )
 
 entry(
-    index = 1311,
+    index = 1450,
     label = "HO-1 + C4H5O <=> C4H6O + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -15028,7 +16557,7 @@ entry(
 )
 
 entry(
-    index = 1312,
+    index = 1451,
     label = "H2O + C4H5O <=> C4H6O + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -15040,7 +16569,7 @@ entry(
 )
 
 entry(
-    index = 1313,
+    index = 1452,
     label = "C3H4-1 + C4H5O <=> C4H6O + C3H3-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -15052,7 +16581,7 @@ entry(
 )
 
 entry(
-    index = 1314,
+    index = 1453,
     label = "C3H4 + C4H5O <=> C4H6O + C3H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -15064,7 +16593,7 @@ entry(
 )
 
 entry(
-    index = 1315,
+    index = 1454,
     label = "C2H4 + C4H5O <=> C4H6O + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -15076,7 +16605,7 @@ entry(
 )
 
 entry(
-    index = 1316,
+    index = 1455,
     label = "C3H6-2 + C4H5O <=> C4H6O + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -15088,7 +16617,7 @@ entry(
 )
 
 entry(
-    index = 1317,
+    index = 1456,
     label = "C2H4O + C4H5O <=> C4H6O + C2H3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -15100,7 +16629,7 @@ entry(
 )
 
 entry(
-    index = 1318,
+    index = 1457,
     label = "CH2O + C4H5O <=> C4H6O + CHO",
     degeneracy = 1,
     distances = DistanceData(
@@ -15112,7 +16641,7 @@ entry(
 )
 
 entry(
-    index = 1319,
+    index = 1458,
     label = "C4H4 + C4H5O <=> C4H6O + C4H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -15124,7 +16653,7 @@ entry(
 )
 
 entry(
-    index = 1320,
+    index = 1459,
     label = "H2 + C4H5O3 <=> H + C4H6O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -15136,7 +16665,7 @@ entry(
 )
 
 entry(
-    index = 1321,
+    index = 1460,
     label = "C4H6O3 + C3H3O-1 <=> C3H4O-1 + C4H5O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -15148,7 +16677,7 @@ entry(
 )
 
 entry(
-    index = 1322,
+    index = 1461,
     label = "H2 + C3H5O <=> C3H6O + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -15160,7 +16689,7 @@ entry(
 )
 
 entry(
-    index = 1323,
+    index = 1462,
     label = "HO-1 + C3H5O <=> C3H6O + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -15172,7 +16701,7 @@ entry(
 )
 
 entry(
-    index = 1324,
+    index = 1463,
     label = "H2O + C3H5O <=> C3H6O + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -15184,7 +16713,7 @@ entry(
 )
 
 entry(
-    index = 1325,
+    index = 1464,
     label = "C3H6O + C3H3-2 <=> C3H5O + C3H4-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -15196,7 +16725,7 @@ entry(
 )
 
 entry(
-    index = 1326,
+    index = 1465,
     label = "C3H6O + C3H3 <=> C3H5O + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -15208,7 +16737,7 @@ entry(
 )
 
 entry(
-    index = 1327,
+    index = 1466,
     label = "C3H6O + C3H5 <=> C3H5O + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -15220,7 +16749,7 @@ entry(
 )
 
 entry(
-    index = 1328,
+    index = 1467,
     label = "C2H4 + C3H5O <=> C3H6O + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -15232,7 +16761,7 @@ entry(
 )
 
 entry(
-    index = 1329,
+    index = 1468,
     label = "C3H8 + C3H5O <=> C3H6O + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -15244,7 +16773,7 @@ entry(
 )
 
 entry(
-    index = 1330,
+    index = 1469,
     label = "C3H8-1 + C3H5O <=> C3H6O + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -15256,7 +16785,7 @@ entry(
 )
 
 entry(
-    index = 1331,
+    index = 1470,
     label = "C3H6O + C2H5O <=> C3H5O + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -15268,7 +16797,7 @@ entry(
 )
 
 entry(
-    index = 1332,
+    index = 1471,
     label = "C2H6O-1 + C3H5O <=> C3H6O + C2H5O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -15280,7 +16809,7 @@ entry(
 )
 
 entry(
-    index = 1333,
+    index = 1472,
     label = "C3H6O + C2H3O-1 <=> C3H5O + C2H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -15292,7 +16821,7 @@ entry(
 )
 
 entry(
-    index = 1334,
+    index = 1473,
     label = "C3H6O + C2H3O <=> C3H5O + C2H4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -15304,7 +16833,7 @@ entry(
 )
 
 entry(
-    index = 1335,
+    index = 1474,
     label = "C2H2O + C3H5O <=> C3H6O + C2HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -15316,7 +16845,7 @@ entry(
 )
 
 entry(
-    index = 1336,
+    index = 1475,
     label = "C3H6O + CH3O <=> C3H5O + CH4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -15328,7 +16857,7 @@ entry(
 )
 
 entry(
-    index = 1337,
+    index = 1476,
     label = "C2H2 + C3H5O <=> C3H6O + C2H",
     degeneracy = 1,
     distances = DistanceData(
@@ -15340,7 +16869,7 @@ entry(
 )
 
 entry(
-    index = 1338,
+    index = 1477,
     label = "C3H6O + C3H3O <=> C3H5O + C3H4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -15352,7 +16881,7 @@ entry(
 )
 
 entry(
-    index = 1339,
+    index = 1478,
     label = "C3H6O + C3H3O-1 <=> C3H5O + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -15364,7 +16893,7 @@ entry(
 )
 
 entry(
-    index = 1340,
+    index = 1479,
     label = "C4H6 + CH3 <=> C4H5 + CH4",
     degeneracy = 1,
     distances = DistanceData(
@@ -15376,7 +16905,7 @@ entry(
 )
 
 entry(
-    index = 1341,
+    index = 1480,
     label = "C4H6-1 + C3H5 <=> C4H5-1 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -15388,7 +16917,7 @@ entry(
 )
 
 entry(
-    index = 1342,
+    index = 1481,
     label = "C3H6 + C5H7 <=> C5H8 + C3H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -15400,7 +16929,7 @@ entry(
 )
 
 entry(
-    index = 1343,
+    index = 1482,
     label = "H2 + C5H7 <=> H + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -15412,7 +16941,7 @@ entry(
 )
 
 entry(
-    index = 1344,
+    index = 1483,
     label = "C2H4 + C5H7 <=> C2H3 + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -15424,7 +16953,7 @@ entry(
 )
 
 entry(
-    index = 1345,
+    index = 1484,
     label = "C3H6-2 + C5H7 <=> C3H5-2 + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -15436,7 +16965,7 @@ entry(
 )
 
 entry(
-    index = 1346,
+    index = 1485,
     label = "C3H4 + C5H7 <=> C3H3 + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -15448,7 +16977,7 @@ entry(
 )
 
 entry(
-    index = 1347,
+    index = 1486,
     label = "C4H4-1 + C5H7 <=> C4H3-1 + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -15460,7 +16989,7 @@ entry(
 )
 
 entry(
-    index = 1348,
+    index = 1487,
     label = "C4H6 + C5H7 <=> C4H5 + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -15472,7 +17001,7 @@ entry(
 )
 
 entry(
-    index = 1349,
+    index = 1488,
     label = "C4H6-1 + C5H7 <=> C4H5-1 + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -15484,7 +17013,7 @@ entry(
 )
 
 entry(
-    index = 1350,
+    index = 1489,
     label = "H2 + C6H7-3 <=> H + C6H8-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -15496,7 +17025,7 @@ entry(
 )
 
 entry(
-    index = 1351,
+    index = 1490,
     label = "C2H4 + C6H7-3 <=> C2H3 + C6H8-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -15508,7 +17037,7 @@ entry(
 )
 
 entry(
-    index = 1352,
+    index = 1491,
     label = "H2 + C4H5-1 <=> C4H6-1 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -15520,7 +17049,7 @@ entry(
 )
 
 entry(
-    index = 1353,
+    index = 1492,
     label = "H2O + C4H5-1 <=> C4H6-1 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -15532,7 +17061,7 @@ entry(
 )
 
 entry(
-    index = 1354,
+    index = 1493,
     label = "H2O + C5H7 <=> C5H8 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -15544,7 +17073,7 @@ entry(
 )
 
 entry(
-    index = 1355,
+    index = 1494,
     label = "H2O + C6H7-3 <=> C6H8-3 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -15556,7 +17085,7 @@ entry(
 )
 
 entry(
-    index = 1356,
+    index = 1495,
     label = "C4H6-1 + O2 <=> C4H5-1 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -15568,7 +17097,7 @@ entry(
 )
 
 entry(
-    index = 1357,
+    index = 1496,
     label = "C5H8 + O2 <=> C5H7 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -15580,7 +17109,7 @@ entry(
 )
 
 entry(
-    index = 1358,
+    index = 1497,
     label = "C6H8-3 + O2 <=> C6H7-3 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -15592,7 +17121,7 @@ entry(
 )
 
 entry(
-    index = 1359,
+    index = 1498,
     label = "C4H6-1 + HO2-1 <=> C4H5-1 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -15604,7 +17133,7 @@ entry(
 )
 
 entry(
-    index = 1360,
+    index = 1499,
     label = "H2O2 + C5H7 <=> C5H8 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -15616,7 +17145,7 @@ entry(
 )
 
 entry(
-    index = 1361,
+    index = 1500,
     label = "H2O2 + C6H7-3 <=> C6H8-3 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -15628,7 +17157,7 @@ entry(
 )
 
 entry(
-    index = 1362,
+    index = 1501,
     label = "C4H6 + C3H3-2 <=> C4H5 + C3H4-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -15640,7 +17169,7 @@ entry(
 )
 
 entry(
-    index = 1363,
+    index = 1502,
     label = "C4H6-1 + C3H3 <=> C4H5-1 + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -15652,7 +17181,7 @@ entry(
 )
 
 entry(
-    index = 1364,
+    index = 1503,
     label = "C6H6 + C4H5 <=> C4H6 + C6H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -15664,7 +17193,7 @@ entry(
 )
 
 entry(
-    index = 1365,
+    index = 1504,
     label = "C6H6 + C4H5-1 <=> C4H6-1 + C6H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -15676,7 +17205,7 @@ entry(
 )
 
 entry(
-    index = 1366,
+    index = 1505,
     label = "C2H4 + C4H5-1 <=> C2H3 + C4H6-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -15688,7 +17217,7 @@ entry(
 )
 
 entry(
-    index = 1367,
+    index = 1506,
     label = "C3H6-1 + C4H5-1 <=> C3H5-1 + C4H6-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -15700,7 +17229,7 @@ entry(
 )
 
 entry(
-    index = 1368,
+    index = 1507,
     label = "C3H6-2 + C4H5-1 <=> C3H5-2 + C4H6-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -15712,7 +17241,7 @@ entry(
 )
 
 entry(
-    index = 1369,
+    index = 1508,
     label = "C4H4 + C4H5-1 <=> C4H3 + C4H6-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -15724,7 +17253,7 @@ entry(
 )
 
 entry(
-    index = 1370,
+    index = 1509,
     label = "C4H6-1 + C3H3O <=> C3H4O + C4H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -15736,7 +17265,7 @@ entry(
 )
 
 entry(
-    index = 1371,
+    index = 1510,
     label = "C4H6 + C2H3 <=> C4H5 + C2H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -15748,7 +17277,7 @@ entry(
 )
 
 entry(
-    index = 1372,
+    index = 1511,
     label = "C4H6 + C3H7 <=> C4H5 + C3H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -15760,7 +17289,7 @@ entry(
 )
 
 entry(
-    index = 1373,
+    index = 1512,
     label = "C3H8 + C5H7 <=> C5H8 + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -15772,7 +17301,7 @@ entry(
 )
 
 entry(
-    index = 1374,
+    index = 1513,
     label = "C3H8 + C6H7-3 <=> C6H8-3 + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -15784,7 +17313,7 @@ entry(
 )
 
 entry(
-    index = 1375,
+    index = 1514,
     label = "C4H6 + C3H7-1 <=> C4H5 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -15796,7 +17325,7 @@ entry(
 )
 
 entry(
-    index = 1376,
+    index = 1515,
     label = "C2H2O + C6H7-3 <=> C2HO + C6H8-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -15808,7 +17337,7 @@ entry(
 )
 
 entry(
-    index = 1377,
+    index = 1516,
     label = "CH2O + C5H7 <=> CHO + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -15820,7 +17349,7 @@ entry(
 )
 
 entry(
-    index = 1378,
+    index = 1517,
     label = "CH2O + C6H7-3 <=> CHO + C6H8-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -15832,7 +17361,7 @@ entry(
 )
 
 entry(
-    index = 1379,
+    index = 1518,
     label = "CH4O + C6H7-3 <=> CH3O + C6H8-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -15844,7 +17373,7 @@ entry(
 )
 
 entry(
-    index = 1380,
+    index = 1519,
     label = "C2H6O-1 + C5H7 <=> C2H5O-1 + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -15856,7 +17385,7 @@ entry(
 )
 
 entry(
-    index = 1381,
+    index = 1520,
     label = "C2H6O-2 + C5H7 <=> C2H5O-2 + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -15868,7 +17397,7 @@ entry(
 )
 
 entry(
-    index = 1382,
+    index = 1521,
     label = "C2H6O + C6H7-3 <=> C2H5O + C6H8-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -15880,7 +17409,7 @@ entry(
 )
 
 entry(
-    index = 1383,
+    index = 1522,
     label = "C2H6O-1 + C4H5-1 <=> C2H5O-1 + C4H6-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -15892,7 +17421,7 @@ entry(
 )
 
 entry(
-    index = 1384,
+    index = 1523,
     label = "C2H6O-2 + C4H5-1 <=> C2H5O-2 + C4H6-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -15904,7 +17433,7 @@ entry(
 )
 
 entry(
-    index = 1385,
+    index = 1524,
     label = "C4H6 + C2H5O-2 <=> C4H5 + C2H6O-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -15916,7 +17445,7 @@ entry(
 )
 
 entry(
-    index = 1386,
+    index = 1525,
     label = "C2H4O + C5H7 <=> C2H3O + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -15928,7 +17457,7 @@ entry(
 )
 
 entry(
-    index = 1387,
+    index = 1526,
     label = "C4H6-1 + C2H3O <=> C2H4O + C4H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -15940,7 +17469,7 @@ entry(
 )
 
 entry(
-    index = 1388,
+    index = 1527,
     label = "C4H6 + C2H3O <=> C4H5 + C2H4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -15952,7 +17481,7 @@ entry(
 )
 
 entry(
-    index = 1389,
+    index = 1528,
     label = "C2H6 + C6H7-3 <=> C6H8-3 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -15964,7 +17493,7 @@ entry(
 )
 
 entry(
-    index = 1390,
+    index = 1529,
     label = "C4H6 + CH3O <=> C4H5 + CH4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -15976,7 +17505,7 @@ entry(
 )
 
 entry(
-    index = 1391,
+    index = 1530,
     label = "C4H6 + CHO <=> C4H5 + CH2O",
     degeneracy = 1,
     distances = DistanceData(
@@ -15988,7 +17517,7 @@ entry(
 )
 
 entry(
-    index = 1392,
+    index = 1531,
     label = "C4H6-1 + C3H3O-1 <=> C4H5-1 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16000,7 +17529,7 @@ entry(
 )
 
 entry(
-    index = 1393,
+    index = 1532,
     label = "C3H4O-1 + C5H7 <=> C5H8 + C3H3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16012,7 +17541,7 @@ entry(
 )
 
 entry(
-    index = 1394,
+    index = 1533,
     label = "C3H4O-1 + C6H7-3 <=> C6H8-3 + C3H3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16024,7 +17553,7 @@ entry(
 )
 
 entry(
-    index = 1395,
+    index = 1534,
     label = "CH3-1 + C6H11O <=> C6H12O + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -16036,7 +17565,7 @@ entry(
 )
 
 entry(
-    index = 1396,
+    index = 1535,
     label = "CH4 + C4H7 <=> C4H8 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -16048,7 +17577,7 @@ entry(
 )
 
 entry(
-    index = 1397,
+    index = 1536,
     label = "C3H6 + C4H7 <=> C4H8 + C3H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -16060,7 +17589,7 @@ entry(
 )
 
 entry(
-    index = 1398,
+    index = 1537,
     label = "H2 + C4H7 <=> C4H8 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -16072,7 +17601,7 @@ entry(
 )
 
 entry(
-    index = 1399,
+    index = 1538,
     label = "H2O + C4H7 <=> C4H8 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -16084,7 +17613,7 @@ entry(
 )
 
 entry(
-    index = 1400,
+    index = 1539,
     label = "C4H8 + O2 <=> C4H7 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -16096,7 +17625,7 @@ entry(
 )
 
 entry(
-    index = 1401,
+    index = 1540,
     label = "H2O2 + C4H7 <=> C4H8 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16108,7 +17637,7 @@ entry(
 )
 
 entry(
-    index = 1402,
+    index = 1541,
     label = "C3H4-1 + C4H7 <=> C4H8 + C3H3-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -16120,7 +17649,7 @@ entry(
 )
 
 entry(
-    index = 1403,
+    index = 1542,
     label = "C4H6-1 + C4H7 <=> C4H8 + C4H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16132,7 +17661,7 @@ entry(
 )
 
 entry(
-    index = 1404,
+    index = 1543,
     label = "C2H4 + C4H7 <=> C4H8 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -16144,7 +17673,7 @@ entry(
 )
 
 entry(
-    index = 1405,
+    index = 1544,
     label = "C3H6-1 + C4H7 <=> C4H8 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16156,7 +17685,7 @@ entry(
 )
 
 entry(
-    index = 1406,
+    index = 1545,
     label = "C3H6-2 + C4H7 <=> C4H8 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -16168,7 +17697,7 @@ entry(
 )
 
 entry(
-    index = 1407,
+    index = 1546,
     label = "C3H8-1 + C4H7 <=> C4H8 + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16180,7 +17709,7 @@ entry(
 )
 
 entry(
-    index = 1408,
+    index = 1547,
     label = "C2H6O + C4H7 <=> C4H8 + C2H5O",
     degeneracy = 1,
     distances = DistanceData(
@@ -16192,7 +17721,7 @@ entry(
 )
 
 entry(
-    index = 1409,
+    index = 1548,
     label = "C2H4O-1 + C4H7 <=> C4H8 + C2H3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16204,7 +17733,7 @@ entry(
 )
 
 entry(
-    index = 1410,
+    index = 1549,
     label = "C2H4O + C4H7 <=> C4H8 + C2H3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -16216,7 +17745,7 @@ entry(
 )
 
 entry(
-    index = 1411,
+    index = 1550,
     label = "C2H6 + C4H7 <=> C4H8 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -16228,7 +17757,7 @@ entry(
 )
 
 entry(
-    index = 1412,
+    index = 1551,
     label = "C2H2O + C4H7 <=> C4H8 + C2HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -16240,7 +17769,7 @@ entry(
 )
 
 entry(
-    index = 1413,
+    index = 1552,
     label = "C2H2 + C4H7 <=> C4H8 + C2H",
     degeneracy = 1,
     distances = DistanceData(
@@ -16252,7 +17781,7 @@ entry(
 )
 
 entry(
-    index = 1414,
+    index = 1553,
     label = "CH4 + C5H5 <=> C5H6 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -16264,7 +17793,7 @@ entry(
 )
 
 entry(
-    index = 1415,
+    index = 1554,
     label = "C3H6 + C5H5 <=> C5H6 + C3H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -16276,7 +17805,7 @@ entry(
 )
 
 entry(
-    index = 1416,
+    index = 1555,
     label = "H2 + C5H5 <=> C5H6 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -16288,7 +17817,7 @@ entry(
 )
 
 entry(
-    index = 1417,
+    index = 1556,
     label = "HO-1 + C5H5 <=> C5H6 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -16300,7 +17829,7 @@ entry(
 )
 
 entry(
-    index = 1418,
+    index = 1557,
     label = "H2O2 + C5H5 <=> C5H6 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16312,7 +17841,7 @@ entry(
 )
 
 entry(
-    index = 1419,
+    index = 1558,
     label = "C3H4-1 + C5H5 <=> C5H6 + C3H3-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -16324,7 +17853,7 @@ entry(
 )
 
 entry(
-    index = 1420,
+    index = 1559,
     label = "C3H8 + C5H5 <=> C5H6 + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -16336,7 +17865,7 @@ entry(
 )
 
 entry(
-    index = 1421,
+    index = 1560,
     label = "C3H8-1 + C5H5 <=> C5H6 + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16348,7 +17877,7 @@ entry(
 )
 
 entry(
-    index = 1422,
+    index = 1561,
     label = "C2H6O + C5H5 <=> C5H6 + C2H5O",
     degeneracy = 1,
     distances = DistanceData(
@@ -16360,7 +17889,7 @@ entry(
 )
 
 entry(
-    index = 1423,
+    index = 1562,
     label = "C2H6O-1 + C5H5 <=> C5H6 + C2H5O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16372,7 +17901,7 @@ entry(
 )
 
 entry(
-    index = 1424,
+    index = 1563,
     label = "C2H6O-2 + C5H5 <=> C5H6 + C2H5O-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -16384,7 +17913,7 @@ entry(
 )
 
 entry(
-    index = 1425,
+    index = 1564,
     label = "C2H4O-1 + C5H5 <=> C5H6 + C2H3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16396,7 +17925,7 @@ entry(
 )
 
 entry(
-    index = 1426,
+    index = 1565,
     label = "C2H4O + C5H5 <=> C5H6 + C2H3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -16408,7 +17937,7 @@ entry(
 )
 
 entry(
-    index = 1427,
+    index = 1566,
     label = "C2H6 + C5H5 <=> C5H6 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -16420,7 +17949,7 @@ entry(
 )
 
 entry(
-    index = 1428,
+    index = 1567,
     label = "C2H2O + C5H5 <=> C5H6 + C2HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -16432,7 +17961,7 @@ entry(
 )
 
 entry(
-    index = 1429,
+    index = 1568,
     label = "CH2O + C5H5 <=> C5H6 + CHO",
     degeneracy = 1,
     distances = DistanceData(
@@ -16444,7 +17973,7 @@ entry(
 )
 
 entry(
-    index = 1430,
+    index = 1569,
     label = "C4H8 + C5H5 <=> C5H6 + C4H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -16456,7 +17985,7 @@ entry(
 )
 
 entry(
-    index = 1431,
+    index = 1570,
     label = "CH4 + C5H5-1 <=> C5H6-1 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -16468,7 +17997,7 @@ entry(
 )
 
 entry(
-    index = 1432,
+    index = 1571,
     label = "C5H6-1 + C3H5 <=> C5H5-1 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -16480,7 +18009,7 @@ entry(
 )
 
 entry(
-    index = 1433,
+    index = 1572,
     label = "H2 + C5H5-1 <=> C5H6-1 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -16492,7 +18021,7 @@ entry(
 )
 
 entry(
-    index = 1434,
+    index = 1573,
     label = "H2O + C5H5-1 <=> C5H6-1 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -16504,7 +18033,7 @@ entry(
 )
 
 entry(
-    index = 1435,
+    index = 1574,
     label = "C5H6-1 + O2 <=> C5H5-1 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -16516,7 +18045,7 @@ entry(
 )
 
 entry(
-    index = 1436,
+    index = 1575,
     label = "C5H6-1 + HO2-1 <=> C5H5-1 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -16528,7 +18057,7 @@ entry(
 )
 
 entry(
-    index = 1437,
+    index = 1576,
     label = "C5H6-1 + C3H3 <=> C5H5-1 + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -16540,7 +18069,7 @@ entry(
 )
 
 entry(
-    index = 1438,
+    index = 1577,
     label = "C2H4 + C5H5-1 <=> C5H6-1 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -16552,7 +18081,7 @@ entry(
 )
 
 entry(
-    index = 1439,
+    index = 1578,
     label = "C3H6-1 + C5H5-1 <=> C5H6-1 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16564,7 +18093,7 @@ entry(
 )
 
 entry(
-    index = 1440,
+    index = 1579,
     label = "C3H6-2 + C5H5-1 <=> C5H6-1 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -16576,7 +18105,7 @@ entry(
 )
 
 entry(
-    index = 1441,
+    index = 1580,
     label = "C5H6-1 + C3H7 <=> C5H5-1 + C3H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -16588,7 +18117,7 @@ entry(
 )
 
 entry(
-    index = 1442,
+    index = 1581,
     label = "C4H8O3 + CH3O <=> CH4O + C4H7O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -16599,7 +18128,7 @@ entry(
 )
 
 entry(
-    index = 1443,
+    index = 1582,
     label = "C3H6 + C6H7-2 <=> C6H8-2 + C3H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -16610,7 +18139,7 @@ entry(
 )
 
 entry(
-    index = 1444,
+    index = 1583,
     label = "CH4 + C3H3O-1 <=> CH3 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16621,7 +18150,7 @@ entry(
 )
 
 entry(
-    index = 1445,
+    index = 1584,
     label = "C4H10 + C3H7-1 <=> C4H9 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16632,7 +18161,7 @@ entry(
 )
 
 entry(
-    index = 1446,
+    index = 1585,
     label = "C3H8-1 + C3H3O <=> C3H4O + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16643,7 +18172,7 @@ entry(
 )
 
 entry(
-    index = 1447,
+    index = 1586,
     label = "CH4O + C3H3O <=> C3H4O + CH3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -16654,7 +18183,7 @@ entry(
 )
 
 entry(
-    index = 1448,
+    index = 1587,
     label = "C4H6 + HO2-1 <=> C4H5 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -16665,7 +18194,7 @@ entry(
 )
 
 entry(
-    index = 1449,
+    index = 1588,
     label = "CH2O + C4H7 <=> C4H8 + CHO",
     degeneracy = 1,
     distances = DistanceData(
@@ -16676,7 +18205,7 @@ entry(
 )
 
 entry(
-    index = 1450,
+    index = 1589,
     label = "C4H6O3 + CH3O <=> CH4O + C4H5O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -16687,7 +18216,7 @@ entry(
 )
 
 entry(
-    index = 1451,
+    index = 1590,
     label = "C5H6 + O2 <=> C5H5 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16698,7 +18227,7 @@ entry(
 )
 
 entry(
-    index = 1452,
+    index = 1591,
     label = "C2HO-1 + C6H7 <=> C2O + C6H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -16709,7 +18238,7 @@ entry(
 )
 
 entry(
-    index = 1453,
+    index = 1592,
     label = "C7H14O3-1 + C7H13O3-4 <=> C7H14O3-2 + C7H13O3-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16720,7 +18249,7 @@ entry(
 )
 
 entry(
-    index = 1454,
+    index = 1593,
     label = "CH4 + C4H9 <=> C4H10 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -16731,7 +18260,7 @@ entry(
 )
 
 entry(
-    index = 1455,
+    index = 1594,
     label = "C6H6 + C2HO <=> C2H2O + C6H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -16742,7 +18271,7 @@ entry(
 )
 
 entry(
-    index = 1456,
+    index = 1595,
     label = "C7H14O3-1 + O2 <=> C7H13O3-1 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16753,7 +18282,7 @@ entry(
 )
 
 entry(
-    index = 1457,
+    index = 1596,
     label = "C2H6O-2 + C5H7-1 <=> C2H5O-2 + C5H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16764,7 +18293,7 @@ entry(
 )
 
 entry(
-    index = 1458,
+    index = 1597,
     label = "C2H6 + C3H5O <=> C3H6O + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -16775,7 +18304,7 @@ entry(
 )
 
 entry(
-    index = 1459,
+    index = 1598,
     label = "CH4 + C2H5 <=> CH3 + C2H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -16786,7 +18315,7 @@ entry(
 )
 
 entry(
-    index = 1460,
+    index = 1599,
     label = "C3H4O-1 + C5H7-1 <=> C3H3O-1 + C5H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16797,7 +18326,7 @@ entry(
 )
 
 entry(
-    index = 1461,
+    index = 1600,
     label = "C2H2 + C6H7-3 <=> C2H + C6H8-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -16808,7 +18337,7 @@ entry(
 )
 
 entry(
-    index = 1462,
+    index = 1601,
     label = "C2H4 + C4H3-2 <=> C2H3 + C4H4-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -16819,7 +18348,7 @@ entry(
 )
 
 entry(
-    index = 1463,
+    index = 1602,
     label = "C2HO-1 + C7H13O-1 <=> C2O + C7H14O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16830,7 +18359,7 @@ entry(
 )
 
 entry(
-    index = 1464,
+    index = 1603,
     label = "CH4 + C4H3-1 <=> CH3 + C4H4-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16841,7 +18370,7 @@ entry(
 )
 
 entry(
-    index = 1465,
+    index = 1604,
     label = "C2HO-1 + C5H7-1 <=> C2O + C5H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16852,7 +18381,7 @@ entry(
 )
 
 entry(
-    index = 1466,
+    index = 1605,
     label = "C2H6O-2 + C2H5O-1 <=> C2H5O-2 + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -16863,7 +18392,7 @@ entry(
 )
 
 entry(
-    index = 1467,
+    index = 1606,
     label = "C2H6O-1 + C5H7-1 <=> C2H5O-1 + C5H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16874,7 +18403,7 @@ entry(
 )
 
 entry(
-    index = 1468,
+    index = 1607,
     label = "C2H6O-1 + C4H7 <=> C4H8 + C2H5O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16885,7 +18414,7 @@ entry(
 )
 
 entry(
-    index = 1469,
+    index = 1608,
     label = "C4H8-1 + C3H7 <=> C4H7-1 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16896,7 +18425,7 @@ entry(
 )
 
 entry(
-    index = 1470,
+    index = 1609,
     label = "C4H8-1 + C4H7 <=> C4H7-1 + C4H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -16907,7 +18436,7 @@ entry(
 )
 
 entry(
-    index = 1471,
+    index = 1610,
     label = "C2H6O-2 + C6H7-3 <=> C2H5O-2 + C6H8-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -16918,7 +18447,7 @@ entry(
 )
 
 entry(
-    index = 1472,
+    index = 1611,
     label = "CH4O + C4H5O <=> C4H6O + CH3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -16929,7 +18458,7 @@ entry(
 )
 
 entry(
-    index = 1473,
+    index = 1612,
     label = "C6H6 + C2H3O-1 <=> C2H4O + C6H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -16940,7 +18469,7 @@ entry(
 )
 
 entry(
-    index = 1474,
+    index = 1613,
     label = "C2H4O + C3H3O <=> C3H4O + C2H3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -16951,7 +18480,7 @@ entry(
 )
 
 entry(
-    index = 1475,
+    index = 1614,
     label = "C2H6O-2 + C2O <=> C2HO + C2H5O-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -16962,7 +18491,7 @@ entry(
 )
 
 entry(
-    index = 1476,
+    index = 1615,
     label = "C5H6-1 + C4H7-1 <=> C4H8 + C5H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -16973,7 +18502,7 @@ entry(
 )
 
 entry(
-    index = 1477,
+    index = 1616,
     label = "CH3-1 + C6H7 <=> C6H8 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -16984,7 +18513,7 @@ entry(
 )
 
 entry(
-    index = 1478,
+    index = 1617,
     label = "C2H4 + C2H5O-1 <=> C2H6O + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -16995,7 +18524,7 @@ entry(
 )
 
 entry(
-    index = 1479,
+    index = 1618,
     label = "C4H6 + C2H3O-1 <=> C4H5 + C2H4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -17006,7 +18535,7 @@ entry(
 )
 
 entry(
-    index = 1480,
+    index = 1619,
     label = "C2H2O + CH3O <=> CH4O + C2HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -17017,7 +18546,7 @@ entry(
 )
 
 entry(
-    index = 1481,
+    index = 1620,
     label = "C2H4 + C5H7-1 <=> C2H3 + C5H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17028,7 +18557,7 @@ entry(
 )
 
 entry(
-    index = 1482,
+    index = 1621,
     label = "C4H10 + HO2-1 <=> C4H9 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -17039,7 +18568,7 @@ entry(
 )
 
 entry(
-    index = 1483,
+    index = 1622,
     label = "C2H6O-2 + O2 <=> C2H5O-2 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17050,7 +18579,7 @@ entry(
 )
 
 entry(
-    index = 1484,
+    index = 1623,
     label = "C2H6O-2 + C4H3-2 <=> C2H5O-2 + C4H4-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -17061,7 +18590,7 @@ entry(
 )
 
 entry(
-    index = 1485,
+    index = 1624,
     label = "C4H8-1 + O2 <=> C4H7-1 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17072,7 +18601,7 @@ entry(
 )
 
 entry(
-    index = 1486,
+    index = 1625,
     label = "H2 + C2O <=> C2HO + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -17083,7 +18612,7 @@ entry(
 )
 
 entry(
-    index = 1487,
+    index = 1626,
     label = "C2H2 + C6H7-2 <=> C2H + C6H8-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -17094,7 +18623,7 @@ entry(
 )
 
 entry(
-    index = 1488,
+    index = 1627,
     label = "C2H6O-2 + C3H3O-1 <=> C2H5O-2 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17105,7 +18634,7 @@ entry(
 )
 
 entry(
-    index = 1489,
+    index = 1628,
     label = "C2H2O + C5H5-1 <=> C5H6 + C2HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -17116,7 +18645,7 @@ entry(
 )
 
 entry(
-    index = 1490,
+    index = 1629,
     label = "C3H6-2 + C2O <=> C2HO + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -17127,7 +18656,7 @@ entry(
 )
 
 entry(
-    index = 1491,
+    index = 1630,
     label = "C4H10 + C2H3O <=> C4H9 + C2H4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -17138,7 +18667,7 @@ entry(
 )
 
 entry(
-    index = 1492,
+    index = 1631,
     label = "C4H6 + C4H7 <=> C4H8 + C4H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -17149,7 +18678,7 @@ entry(
 )
 
 entry(
-    index = 1493,
+    index = 1632,
     label = "C3H6O + CHO <=> C3H5O + CH2O",
     degeneracy = 1,
     distances = DistanceData(
@@ -17160,7 +18689,7 @@ entry(
 )
 
 entry(
-    index = 1494,
+    index = 1633,
     label = "H2O + C4H9 <=> C4H10 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -17171,7 +18700,7 @@ entry(
 )
 
 entry(
-    index = 1495,
+    index = 1634,
     label = "C4H10 + O2 <=> C4H9 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17182,7 +18711,7 @@ entry(
 )
 
 entry(
-    index = 1496,
+    index = 1635,
     label = "H2 + C7H13O3-1 <=> C7H14O3-5 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -17193,7 +18722,7 @@ entry(
 )
 
 entry(
-    index = 1497,
+    index = 1636,
     label = "H2O + C4H7-1 <=> C4H8 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -17204,7 +18733,7 @@ entry(
 )
 
 entry(
-    index = 1498,
+    index = 1637,
     label = "CH3-1 + C2H5 <=> C2H6 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -17215,7 +18744,7 @@ entry(
 )
 
 entry(
-    index = 1499,
+    index = 1638,
     label = "C6H6 + C2H3O <=> C2H4O + C6H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -17226,7 +18755,7 @@ entry(
 )
 
 entry(
-    index = 1500,
+    index = 1639,
     label = "CH4 + C4H7-1 <=> C4H8 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -17237,7 +18766,7 @@ entry(
 )
 
 entry(
-    index = 1501,
+    index = 1640,
     label = "C2H6O-1 + O2 <=> C2H5O-1 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17248,7 +18777,7 @@ entry(
 )
 
 entry(
-    index = 1502,
+    index = 1641,
     label = "H2 + C5H7-1 <=> H + C5H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17259,7 +18788,7 @@ entry(
 )
 
 entry(
-    index = 1503,
+    index = 1642,
     label = "C2HO-1 + C6H11O <=> C6H12O + C2O",
     degeneracy = 1,
     distances = DistanceData(
@@ -17270,7 +18799,7 @@ entry(
 )
 
 entry(
-    index = 1504,
+    index = 1643,
     label = "C2H6O-2 + C4H9 <=> C4H10 + C2H5O-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -17281,7 +18810,7 @@ entry(
 )
 
 entry(
-    index = 1505,
+    index = 1644,
     label = "C4H6 + H <=> C4H5 + H2",
     degeneracy = 1,
     distances = DistanceData(
@@ -17292,7 +18821,7 @@ entry(
 )
 
 entry(
-    index = 1506,
+    index = 1645,
     label = "C5H6-1 + C4H5-1 <=> C5H5-1 + C4H6-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17303,7 +18832,7 @@ entry(
 )
 
 entry(
-    index = 1507,
+    index = 1646,
     label = "C3H4 + C4H7 <=> C4H8 + C3H3-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -17314,7 +18843,7 @@ entry(
 )
 
 entry(
-    index = 1508,
+    index = 1647,
     label = "C7H14O-1 + C2H5 <=> C7H13O-1 + C2H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -17325,7 +18854,7 @@ entry(
 )
 
 entry(
-    index = 1509,
+    index = 1648,
     label = "C3H4-1 + CHO <=> CH2O + C3H3-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -17336,7 +18865,7 @@ entry(
 )
 
 entry(
-    index = 1510,
+    index = 1649,
     label = "C5H6-1 + C2H5 <=> C5H5-1 + C2H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -17347,7 +18876,7 @@ entry(
 )
 
 entry(
-    index = 1511,
+    index = 1650,
     label = "H2 + C3H3-2 <=> H + C3H4-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17358,7 +18887,7 @@ entry(
 )
 
 entry(
-    index = 1512,
+    index = 1651,
     label = "C4H4 + C4H7 <=> C4H8 + C4H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -17369,7 +18898,7 @@ entry(
 )
 
 entry(
-    index = 1513,
+    index = 1652,
     label = "C5H6-1 + C2H3O-1 <=> C5H5-1 + C2H4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -17380,7 +18909,7 @@ entry(
 )
 
 entry(
-    index = 1514,
+    index = 1653,
     label = "C6H12O + CH3O <=> C6H11O + CH4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -17391,7 +18920,7 @@ entry(
 )
 
 entry(
-    index = 1515,
+    index = 1654,
     label = "H2O2 + C5H7-1 <=> HO2-1 + C5H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17402,7 +18931,7 @@ entry(
 )
 
 entry(
-    index = 1516,
+    index = 1655,
     label = "C2HO-1 + C7H13O <=> C2O + C7H14O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17413,7 +18942,7 @@ entry(
 )
 
 entry(
-    index = 1517,
+    index = 1656,
     label = "C2H6 + C7H13O <=> C7H14O-1 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -17424,7 +18953,7 @@ entry(
 )
 
 entry(
-    index = 1518,
+    index = 1657,
     label = "H2 + C7H13O3-2 <=> C7H14O3-2 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -17435,7 +18964,7 @@ entry(
 )
 
 entry(
-    index = 1519,
+    index = 1658,
     label = "H2O + C7H13O3-4 <=> C7H14O3-2 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -17446,7 +18975,7 @@ entry(
 )
 
 entry(
-    index = 1520,
+    index = 1659,
     label = "C4H10 + CHO <=> C4H9 + CH2O",
     degeneracy = 1,
     distances = DistanceData(
@@ -17457,7 +18986,7 @@ entry(
 )
 
 entry(
-    index = 1521,
+    index = 1660,
     label = "C3H6O + O2 <=> C3H5O + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17468,7 +18997,7 @@ entry(
 )
 
 entry(
-    index = 1522,
+    index = 1661,
     label = "C3H8-1 + C6H7-3 <=> C6H8-3 + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17479,7 +19008,7 @@ entry(
 )
 
 entry(
-    index = 1523,
+    index = 1662,
     label = "C3H3-1 + C2H5O <=> C2H6O + C3H2",
     degeneracy = 1,
     distances = DistanceData(
@@ -17490,7 +19019,7 @@ entry(
 )
 
 entry(
-    index = 1524,
+    index = 1663,
     label = "C2HO-1 + C6H7-2 <=> C2O + C6H8-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -17501,7 +19030,7 @@ entry(
 )
 
 entry(
-    index = 1525,
+    index = 1664,
     label = "HO-1 + C4H5-1 <=> C4H6-1 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -17512,7 +19041,7 @@ entry(
 )
 
 entry(
-    index = 1526,
+    index = 1665,
     label = "C4H6 + C3H3O-1 <=> C4H5 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17523,7 +19052,7 @@ entry(
 )
 
 entry(
-    index = 1527,
+    index = 1666,
     label = "HO-1 + C3H2 <=> C3H3-1 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -17534,7 +19063,7 @@ entry(
 )
 
 entry(
-    index = 1528,
+    index = 1667,
     label = "C4H4 + C4H7O3 <=> C4H3 + C4H8O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -17545,7 +19074,7 @@ entry(
 )
 
 entry(
-    index = 1529,
+    index = 1668,
     label = "C2H4 + C4H9 <=> C4H10 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -17556,7 +19085,7 @@ entry(
 )
 
 entry(
-    index = 1530,
+    index = 1669,
     label = "C3H4O + C3H3 <=> C3H3O + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -17567,7 +19096,7 @@ entry(
 )
 
 entry(
-    index = 1531,
+    index = 1670,
     label = "C3H4-1 + C3H3O-1 <=> C3H3-2 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17578,7 +19107,7 @@ entry(
 )
 
 entry(
-    index = 1532,
+    index = 1671,
     label = "C2H6 + C3H5 <=> C3H6 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -17589,7 +19118,7 @@ entry(
 )
 
 entry(
-    index = 1533,
+    index = 1672,
     label = "C3H6-2 + C5H5 <=> C5H6 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -17600,7 +19129,7 @@ entry(
 )
 
 entry(
-    index = 1534,
+    index = 1673,
     label = "C2H6 + C6H7 <=> C6H8 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -17611,7 +19140,7 @@ entry(
 )
 
 entry(
-    index = 1535,
+    index = 1674,
     label = "C3H8 + C4H5O <=> C4H6O + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -17622,7 +19151,7 @@ entry(
 )
 
 entry(
-    index = 1536,
+    index = 1675,
     label = "C6H6 + C3H7 <=> C6H5 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17633,7 +19162,7 @@ entry(
 )
 
 entry(
-    index = 1537,
+    index = 1676,
     label = "C7H14O + C3H5 <=> C7H13O + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -17644,7 +19173,7 @@ entry(
 )
 
 entry(
-    index = 1538,
+    index = 1677,
     label = "C4H8-1 + C3H3 <=> C4H7-1 + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -17655,7 +19184,7 @@ entry(
 )
 
 entry(
-    index = 1539,
+    index = 1678,
     label = "C3H6 + C5H7-1 <=> C3H5 + C5H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17666,7 +19195,7 @@ entry(
 )
 
 entry(
-    index = 1540,
+    index = 1679,
     label = "C3H6 + C6H7-1 <=> C6H8 + C3H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -17677,7 +19206,7 @@ entry(
 )
 
 entry(
-    index = 1541,
+    index = 1680,
     label = "C2H4O + C6H7-2 <=> C2H3O + C6H8-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -17688,7 +19217,7 @@ entry(
 )
 
 entry(
-    index = 1542,
+    index = 1681,
     label = "C6H6 + C3H7-1 <=> C6H5 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17699,7 +19228,7 @@ entry(
 )
 
 entry(
-    index = 1543,
+    index = 1682,
     label = "C3H6-2 + C2H3O <=> C2H4O + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -17710,7 +19239,7 @@ entry(
 )
 
 entry(
-    index = 1544,
+    index = 1683,
     label = "C2H6O-1 + C2O <=> C2HO + C2H5O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17721,7 +19250,7 @@ entry(
 )
 
 entry(
-    index = 1545,
+    index = 1684,
     label = "C7H14O-1 + C3H2 <=> C3H3-1 + C7H13O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17732,7 +19261,7 @@ entry(
 )
 
 entry(
-    index = 1546,
+    index = 1685,
     label = "C7H14O + O2 <=> C7H13O + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17743,7 +19272,7 @@ entry(
 )
 
 entry(
-    index = 1547,
+    index = 1686,
     label = "C2HO-1 + C7H13O3-1 <=> C2O + C7H14O3-5",
     degeneracy = 1,
     distances = DistanceData(
@@ -17754,7 +19283,7 @@ entry(
 )
 
 entry(
-    index = 1548,
+    index = 1687,
     label = "CH4 + C5H7 <=> C5H8 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -17765,7 +19294,7 @@ entry(
 )
 
 entry(
-    index = 1549,
+    index = 1688,
     label = "C6H6 + C4H7-1 <=> C4H8 + C6H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -17776,7 +19305,7 @@ entry(
 )
 
 entry(
-    index = 1550,
+    index = 1689,
     label = "C6H6 + C7H13O <=> C6H5 + C7H14O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17787,7 +19316,7 @@ entry(
 )
 
 entry(
-    index = 1551,
+    index = 1690,
     label = "H2 + C4H7-1 <=> C4H8 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -17798,7 +19327,7 @@ entry(
 )
 
 entry(
-    index = 1552,
+    index = 1691,
     label = "C6H12O + O2 <=> C6H11O + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17809,7 +19338,7 @@ entry(
 )
 
 entry(
-    index = 1553,
+    index = 1692,
     label = "C2HO-1 + C7H13O3-4 <=> C2O + C7H14O3-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -17820,7 +19349,7 @@ entry(
 )
 
 entry(
-    index = 1554,
+    index = 1693,
     label = "C4H4-1 + C5H7-1 <=> C4H3-3 + C5H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17831,7 +19360,7 @@ entry(
 )
 
 entry(
-    index = 1555,
+    index = 1694,
     label = "C2H2O + C3H3O <=> C3H4O + C2HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -17842,7 +19371,7 @@ entry(
 )
 
 entry(
-    index = 1556,
+    index = 1695,
     label = "C3H6-2 + C3H2 <=> C3H3-1 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -17853,7 +19382,7 @@ entry(
 )
 
 entry(
-    index = 1557,
+    index = 1696,
     label = "C5H6-1 + C2H3O <=> C5H5-1 + C2H4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -17864,7 +19393,7 @@ entry(
 )
 
 entry(
-    index = 1558,
+    index = 1697,
     label = "C6H12O + C3H5 <=> C6H11O + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -17875,7 +19404,7 @@ entry(
 )
 
 entry(
-    index = 1559,
+    index = 1698,
     label = "C2H2 + C3H7 <=> C2H + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17886,7 +19415,7 @@ entry(
 )
 
 entry(
-    index = 1560,
+    index = 1699,
     label = "C5H6 + C5H7 <=> C5H5 + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -17897,7 +19426,7 @@ entry(
 )
 
 entry(
-    index = 1561,
+    index = 1700,
     label = "H2 + C7H13O3-4 <=> C7H14O3-2 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -17908,7 +19437,7 @@ entry(
 )
 
 entry(
-    index = 1562,
+    index = 1701,
     label = "C4H4-1 + C6H7 <=> C6H8 + C4H3-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -17919,7 +19448,7 @@ entry(
 )
 
 entry(
-    index = 1563,
+    index = 1702,
     label = "C4H4-1 + C4H9 <=> C4H10 + C4H3-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -17930,7 +19459,7 @@ entry(
 )
 
 entry(
-    index = 1564,
+    index = 1703,
     label = "C4H4-1 + C3H3O <=> C3H4O + C4H3-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -17941,7 +19470,7 @@ entry(
 )
 
 entry(
-    index = 1565,
+    index = 1704,
     label = "C3H6-2 + C4H9 <=> C4H10 + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -17952,7 +19481,7 @@ entry(
 )
 
 entry(
-    index = 1566,
+    index = 1705,
     label = "H2 + C7H13O3-3 <=> C7H14O3-5 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -17963,7 +19492,7 @@ entry(
 )
 
 entry(
-    index = 1567,
+    index = 1706,
     label = "C4H8-1 + CHO <=> C4H7-1 + CH2O",
     degeneracy = 1,
     distances = DistanceData(
@@ -17974,7 +19503,7 @@ entry(
 )
 
 entry(
-    index = 1568,
+    index = 1707,
     label = "C5H6-1 + C2H5O <=> C5H5-1 + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -17985,7 +19514,7 @@ entry(
 )
 
 entry(
-    index = 1569,
+    index = 1708,
     label = "C4H8-1 + C4H5-1 <=> C4H7-1 + C4H6-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -17996,7 +19525,7 @@ entry(
 )
 
 entry(
-    index = 1570,
+    index = 1709,
     label = "H2 + C7H13O3-5 <=> C7H14O3-5 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -18007,7 +19536,7 @@ entry(
 )
 
 entry(
-    index = 1571,
+    index = 1710,
     label = "C6H12O + C2H3O <=> C6H11O + C2H4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -18018,7 +19547,7 @@ entry(
 )
 
 entry(
-    index = 1572,
+    index = 1711,
     label = "C2H4O + C6H7 <=> C2H3O + C6H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -18029,7 +19558,7 @@ entry(
 )
 
 entry(
-    index = 1573,
+    index = 1712,
     label = "C4H8-1 + C5H5 <=> C4H7-1 + C5H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -18040,7 +19569,7 @@ entry(
 )
 
 entry(
-    index = 1574,
+    index = 1713,
     label = "C4H8-1 + C2H3O-1 <=> C4H7-1 + C2H4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -18051,7 +19580,7 @@ entry(
 )
 
 entry(
-    index = 1575,
+    index = 1714,
     label = "C2H6 + C3H3O <=> C3H4O + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -18062,7 +19591,7 @@ entry(
 )
 
 entry(
-    index = 1576,
+    index = 1715,
     label = "C4H4 + C6H5 <=> C6H6 + C4H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -18073,7 +19602,7 @@ entry(
 )
 
 entry(
-    index = 1577,
+    index = 1716,
     label = "C2H4 + C2HO <=> C2H2O + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -18084,7 +19613,7 @@ entry(
 )
 
 entry(
-    index = 1578,
+    index = 1717,
     label = "C7H14O-1 + C7H13O3-1 <=> C7H13O-1 + C7H14O3-5",
     degeneracy = 1,
     distances = DistanceData(
@@ -18095,7 +19624,7 @@ entry(
 )
 
 entry(
-    index = 1579,
+    index = 1718,
     label = "C3H8-1 + C4H5O <=> C4H6O + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18106,7 +19635,7 @@ entry(
 )
 
 entry(
-    index = 1580,
+    index = 1719,
     label = "C3H3-1 + C3H3O-1 <=> C3H2 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18117,7 +19646,7 @@ entry(
 )
 
 entry(
-    index = 1581,
+    index = 1720,
     label = "H2 + C3H2 <=> C3H3-1 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -18128,7 +19657,7 @@ entry(
 )
 
 entry(
-    index = 1582,
+    index = 1721,
     label = "C4H8O3 + O2 <=> HO2-1 + C4H7O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -18139,7 +19668,7 @@ entry(
 )
 
 entry(
-    index = 1583,
+    index = 1722,
     label = "C2H4O-1 + C6H7-1 <=> C2H3O-1 + C6H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -18150,7 +19679,7 @@ entry(
 )
 
 entry(
-    index = 1584,
+    index = 1723,
     label = "C4H10 + C3H3-2 <=> C4H9 + C3H4-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18161,7 +19690,7 @@ entry(
 )
 
 entry(
-    index = 1585,
+    index = 1724,
     label = "C7H14O-1 + C7H13O <=> C7H13O-1 + C7H14O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18172,7 +19701,7 @@ entry(
 )
 
 entry(
-    index = 1586,
+    index = 1725,
     label = "C3H6O + C6H7-2 <=> C3H5O + C6H8-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -18183,7 +19712,7 @@ entry(
 )
 
 entry(
-    index = 1587,
+    index = 1726,
     label = "C4H8-1 + CH3O <=> C4H7-1 + CH4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -18194,7 +19723,7 @@ entry(
 )
 
 entry(
-    index = 1588,
+    index = 1727,
     label = "C4H4-1 + C4H5O <=> C4H6O + C4H3-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -18205,7 +19734,7 @@ entry(
 )
 
 entry(
-    index = 1589,
+    index = 1728,
     label = "CH3-1 + C4H7-1 <=> C4H8 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -18216,7 +19745,7 @@ entry(
 )
 
 entry(
-    index = 1590,
+    index = 1729,
     label = "C3H8-1 + C5H7 <=> C5H8 + C3H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18227,7 +19756,7 @@ entry(
 )
 
 entry(
-    index = 1591,
+    index = 1730,
     label = "C5H6-1 + C4H7 <=> C5H5-1 + C4H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -18238,7 +19767,7 @@ entry(
 )
 
 entry(
-    index = 1592,
+    index = 1731,
     label = "C5H6-1 + C3H3O <=> C5H5-1 + C3H4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -18249,7 +19778,7 @@ entry(
 )
 
 entry(
-    index = 1593,
+    index = 1732,
     label = "CH3-1 + C3H5 <=> C3H6 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -18260,7 +19789,7 @@ entry(
 )
 
 entry(
-    index = 1594,
+    index = 1733,
     label = "C7H14O-1 + C3H3 <=> C7H13O-1 + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -18271,7 +19800,7 @@ entry(
 )
 
 entry(
-    index = 1595,
+    index = 1734,
     label = "CH4O + C3H3 <=> CH3O + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -18282,7 +19811,7 @@ entry(
 )
 
 entry(
-    index = 1596,
+    index = 1735,
     label = "C4H8-1 + C3H3-2 <=> C4H7-1 + C3H4-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18293,7 +19822,7 @@ entry(
 )
 
 entry(
-    index = 1597,
+    index = 1736,
     label = "H2 + C4H7O3 <=> H + C4H8O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -18304,7 +19833,7 @@ entry(
 )
 
 entry(
-    index = 1598,
+    index = 1737,
     label = "C3H8 + C3H7-1 <=> C3H8-1 + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -18315,7 +19844,7 @@ entry(
 )
 
 entry(
-    index = 1599,
+    index = 1738,
     label = "HO-1 + C7H13O3-1 <=> C7H14O3-5 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -18326,7 +19855,7 @@ entry(
 )
 
 entry(
-    index = 1600,
+    index = 1739,
     label = "C2HO-1 + C4H3-2 <=> C2O + C4H4-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -18337,7 +19866,7 @@ entry(
 )
 
 entry(
-    index = 1601,
+    index = 1740,
     label = "C2HO-1 + C2H5O <=> C2O + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -18348,7 +19877,7 @@ entry(
 )
 
 entry(
-    index = 1602,
+    index = 1741,
     label = "C3H6-2 + C5H7-1 <=> C3H5-2 + C5H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18359,7 +19888,7 @@ entry(
 )
 
 entry(
-    index = 1603,
+    index = 1742,
     label = "C4H8-1 + C3H2 <=> C4H7-1 + C3H3-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18370,7 +19899,7 @@ entry(
 )
 
 entry(
-    index = 1604,
+    index = 1743,
     label = "C4H8-1 + C3H7-1 <=> C4H7-1 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18381,7 +19910,7 @@ entry(
 )
 
 entry(
-    index = 1605,
+    index = 1744,
     label = "CH3-1 + C4H9 <=> C4H10 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -18392,7 +19921,7 @@ entry(
 )
 
 entry(
-    index = 1606,
+    index = 1745,
     label = "C4H6-1 + C2H5 <=> C4H5-1 + C2H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -18403,7 +19932,7 @@ entry(
 )
 
 entry(
-    index = 1607,
+    index = 1746,
     label = "C4H6 + C5H5 <=> C5H6 + C4H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -18414,7 +19943,7 @@ entry(
 )
 
 entry(
-    index = 1608,
+    index = 1747,
     label = "C3H4 + C7H13O <=> C7H14O-1 + C3H3-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -18425,7 +19954,7 @@ entry(
 )
 
 entry(
-    index = 1609,
+    index = 1748,
     label = "C2H6O-1 + C4H7-1 <=> C4H8 + C2H5O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18436,7 +19965,7 @@ entry(
 )
 
 entry(
-    index = 1610,
+    index = 1749,
     label = "C2H6O-1 + C6H7-1 <=> C2H5O-1 + C6H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -18447,7 +19976,7 @@ entry(
 )
 
 entry(
-    index = 1611,
+    index = 1750,
     label = "C3H6-2 + C2H5O-1 <=> C2H6O + C3H5-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -18458,7 +19987,7 @@ entry(
 )
 
 entry(
-    index = 1612,
+    index = 1751,
     label = "C4H6 + C2H5O <=> C4H5 + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -18469,7 +19998,7 @@ entry(
 )
 
 entry(
-    index = 1613,
+    index = 1752,
     label = "C3H6 + C7H13O3-4 <=> C7H14O3-2 + C3H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -18480,7 +20009,7 @@ entry(
 )
 
 entry(
-    index = 1614,
+    index = 1753,
     label = "CH4O + C5H7 <=> CH3O + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -18491,7 +20020,7 @@ entry(
 )
 
 entry(
-    index = 1615,
+    index = 1754,
     label = "C4H4 + C5H5-1 <=> C5H6 + C4H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -18502,7 +20031,7 @@ entry(
 )
 
 entry(
-    index = 1616,
+    index = 1755,
     label = "C7H14O-1 + C3H5 <=> C7H13O-1 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -18513,7 +20042,7 @@ entry(
 )
 
 entry(
-    index = 1617,
+    index = 1756,
     label = "C2HO-1 + C4H7 <=> C4H8 + C2O",
     degeneracy = 1,
     distances = DistanceData(
@@ -18524,7 +20053,7 @@ entry(
 )
 
 entry(
-    index = 1618,
+    index = 1757,
     label = "HO-1 + C4H3-1 <=> C4H4-1 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -18535,7 +20064,7 @@ entry(
 )
 
 entry(
-    index = 1619,
+    index = 1758,
     label = "C2HO-1 + C6H7-3 <=> C2O + C6H8-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -18546,7 +20075,7 @@ entry(
 )
 
 entry(
-    index = 1620,
+    index = 1759,
     label = "C2H6 + C4H5O <=> C4H6O + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -18557,7 +20086,7 @@ entry(
 )
 
 entry(
-    index = 1621,
+    index = 1760,
     label = "CH4O + C5H5 <=> C5H6 + CH3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -18568,7 +20097,7 @@ entry(
 )
 
 entry(
-    index = 1622,
+    index = 1761,
     label = "C2HO-1 + C4H5O3 <=> C2O + C4H6O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -18579,7 +20108,7 @@ entry(
 )
 
 entry(
-    index = 1623,
+    index = 1762,
     label = "C4H4 + C6H7 <=> C6H8 + C4H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -18590,7 +20119,7 @@ entry(
 )
 
 entry(
-    index = 1624,
+    index = 1763,
     label = "C2H6O-2 + C3H2 <=> C2H5O-2 + C3H3-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18601,7 +20130,7 @@ entry(
 )
 
 entry(
-    index = 1625,
+    index = 1764,
     label = "C3H6-1 + C2H5O <=> C2H6O + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18612,7 +20141,7 @@ entry(
 )
 
 entry(
-    index = 1626,
+    index = 1765,
     label = "C5H6-1 + C3H3O-1 <=> C5H5-1 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18623,7 +20152,7 @@ entry(
 )
 
 entry(
-    index = 1627,
+    index = 1766,
     label = "C2H6O-1 + C5H5-1 <=> C5H6 + C2H5O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18634,7 +20163,7 @@ entry(
 )
 
 entry(
-    index = 1628,
+    index = 1767,
     label = "C2H2O + C5H7 <=> C2HO + C5H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -18645,7 +20174,7 @@ entry(
 )
 
 entry(
-    index = 1629,
+    index = 1768,
     label = "C3H4-1 + HO2-1 <=> H2O2 + C3H3-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -18656,7 +20185,7 @@ entry(
 )
 
 entry(
-    index = 1630,
+    index = 1769,
     label = "C3H6-1 + C3H7-1 <=> C3H5-1 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18667,7 +20196,7 @@ entry(
 )
 
 entry(
-    index = 1631,
+    index = 1770,
     label = "C3H4 + C5H5 <=> C5H6 + C3H3-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -18678,7 +20207,7 @@ entry(
 )
 
 entry(
-    index = 1632,
+    index = 1771,
     label = "C3H8 + C5H7-1 <=> C3H7 + C5H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18689,7 +20218,7 @@ entry(
 )
 
 entry(
-    index = 1633,
+    index = 1772,
     label = "C3H4O + O2 <=> C3H3O + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18700,7 +20229,7 @@ entry(
 )
 
 entry(
-    index = 1634,
+    index = 1773,
     label = "C2H2O + C2H5 <=> C2HO + C2H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -18711,7 +20240,7 @@ entry(
 )
 
 entry(
-    index = 1635,
+    index = 1774,
     label = "HO-1 + C7H13O <=> C7H14O-1 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -18722,7 +20251,7 @@ entry(
 )
 
 entry(
-    index = 1636,
+    index = 1775,
     label = "C2H6O-1 + C3H3O <=> C3H4O + C2H5O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18733,7 +20262,7 @@ entry(
 )
 
 entry(
-    index = 1637,
+    index = 1776,
     label = "C3H4O-1 + C6H7 <=> C6H8 + C3H3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18744,7 +20273,7 @@ entry(
 )
 
 entry(
-    index = 1638,
+    index = 1777,
     label = "C2H6O-1 + C4H7O3 <=> C2H5O-1 + C4H8O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -18755,7 +20284,7 @@ entry(
 )
 
 entry(
-    index = 1639,
+    index = 1778,
     label = "CH4O + C4H7 <=> C4H8 + CH3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -18766,7 +20295,7 @@ entry(
 )
 
 entry(
-    index = 1640,
+    index = 1779,
     label = "C3H6O + HO2-1 <=> C3H5O + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -18777,7 +20306,7 @@ entry(
 )
 
 entry(
-    index = 1641,
+    index = 1780,
     label = "C2H6O-2 + C2H5 <=> C2H5O-2 + C2H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -18788,7 +20317,7 @@ entry(
 )
 
 entry(
-    index = 1642,
+    index = 1781,
     label = "C6H6 + C4H3-1 <=> C6H5 + C4H4-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18799,7 +20328,7 @@ entry(
 )
 
 entry(
-    index = 1643,
+    index = 1782,
     label = "C2H4 + C6H11O <=> C6H12O + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -18810,7 +20339,7 @@ entry(
 )
 
 entry(
-    index = 1644,
+    index = 1783,
     label = "C2H2 + C4H5 <=> C4H6-1 + C2H",
     degeneracy = 1,
     distances = DistanceData(
@@ -18821,7 +20350,7 @@ entry(
 )
 
 entry(
-    index = 1645,
+    index = 1784,
     label = "C4H4-2 + C2H3O-1 <=> C2H4O + C4H3-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -18832,7 +20361,7 @@ entry(
 )
 
 entry(
-    index = 1646,
+    index = 1785,
     label = "C2HO-1 + CH3O <=> C2O + CH4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -18843,7 +20372,7 @@ entry(
 )
 
 entry(
-    index = 1647,
+    index = 1786,
     label = "C2H2 + C4H9 <=> C4H10 + C2H",
     degeneracy = 1,
     distances = DistanceData(
@@ -18854,7 +20383,7 @@ entry(
 )
 
 entry(
-    index = 1648,
+    index = 1787,
     label = "H2 + C4H9 <=> C4H10 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -18865,7 +20394,7 @@ entry(
 )
 
 entry(
-    index = 1649,
+    index = 1788,
     label = "C5H6-1 + C3H2 <=> C5H5-1 + C3H3-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18876,7 +20405,7 @@ entry(
 )
 
 entry(
-    index = 1650,
+    index = 1789,
     label = "C2H6O + C4H5O <=> C4H6O + C2H5O",
     degeneracy = 1,
     distances = DistanceData(
@@ -18887,7 +20416,7 @@ entry(
 )
 
 entry(
-    index = 1651,
+    index = 1790,
     label = "C3H6 + CHO <=> CH2O + C3H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -18898,7 +20427,7 @@ entry(
 )
 
 entry(
-    index = 1652,
+    index = 1791,
     label = "C7H14O + C6H7 <=> C6H8 + C7H13O",
     degeneracy = 1,
     distances = DistanceData(
@@ -18909,7 +20438,7 @@ entry(
 )
 
 entry(
-    index = 1653,
+    index = 1792,
     label = "C2HO-1 + C4H7O3 <=> C2O + C4H8O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -18920,7 +20449,7 @@ entry(
 )
 
 entry(
-    index = 1654,
+    index = 1793,
     label = "C4H10 + C3H3O-1 <=> C4H9 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -18931,7 +20460,7 @@ entry(
 )
 
 entry(
-    index = 1655,
+    index = 1794,
     label = "H2 + CHO <=> CH2O + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -18942,7 +20471,7 @@ entry(
 )
 
 entry(
-    index = 1656,
+    index = 1795,
     label = "CH4 + C4H5-1 <=> C4H6-1 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -18953,7 +20482,7 @@ entry(
 )
 
 entry(
-    index = 1657,
+    index = 1796,
     label = "H2O + CHO <=> CH2O + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -18964,7 +20493,7 @@ entry(
 )
 
 entry(
-    index = 1658,
+    index = 1797,
     label = "CH3-1 + C3H3O-1 <=> C3H4O-1 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -18975,7 +20504,7 @@ entry(
 )
 
 entry(
-    index = 1659,
+    index = 1798,
     label = "CH4 + C6H7-1 <=> C6H8 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -18986,7 +20515,7 @@ entry(
 )
 
 entry(
-    index = 1660,
+    index = 1799,
     label = "C4H10 + C2H5 <=> C4H9 + C2H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -18997,7 +20526,7 @@ entry(
 )
 
 entry(
-    index = 1661,
+    index = 1800,
     label = "C2H6O-1 + C6H11O <=> C6H12O + C2H5O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19008,7 +20537,7 @@ entry(
 )
 
 entry(
-    index = 1662,
+    index = 1801,
     label = "C4H6-1 + CH3O <=> CH4O + C4H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19019,7 +20548,7 @@ entry(
 )
 
 entry(
-    index = 1663,
+    index = 1802,
     label = "C4H6 + C3H3O <=> C4H5 + C3H4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -19030,7 +20559,7 @@ entry(
 )
 
 entry(
-    index = 1664,
+    index = 1803,
     label = "C3H6O + C4H5O <=> C3H5O + C4H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -19041,7 +20570,7 @@ entry(
 )
 
 entry(
-    index = 1665,
+    index = 1804,
     label = "C3H3-1 + C3H5O <=> C3H6O + C3H2",
     degeneracy = 1,
     distances = DistanceData(
@@ -19052,7 +20581,7 @@ entry(
 )
 
 entry(
-    index = 1666,
+    index = 1805,
     label = "C5H8-1 + O2 <=> HO2-1 + C5H7-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19063,7 +20592,7 @@ entry(
 )
 
 entry(
-    index = 1667,
+    index = 1806,
     label = "C7H14O + C6H7-1 <=> C6H8 + C7H13O",
     degeneracy = 1,
     distances = DistanceData(
@@ -19074,7 +20603,7 @@ entry(
 )
 
 entry(
-    index = 1668,
+    index = 1807,
     label = "C4H10 + CH3O <=> C4H9 + CH4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -19085,7 +20614,7 @@ entry(
 )
 
 entry(
-    index = 1669,
+    index = 1808,
     label = "C4H10 + C3H3 <=> C4H9 + C3H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -19096,7 +20625,7 @@ entry(
 )
 
 entry(
-    index = 1670,
+    index = 1809,
     label = "C3H8 + C4H9 <=> C4H10 + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -19107,7 +20636,7 @@ entry(
 )
 
 entry(
-    index = 1671,
+    index = 1810,
     label = "CH3-1 + C2H5O-1 <=> C2H6O + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -19118,7 +20647,7 @@ entry(
 )
 
 entry(
-    index = 1672,
+    index = 1811,
     label = "C7H14O-1 + O2 <=> C7H13O-1 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19129,7 +20658,7 @@ entry(
 )
 
 entry(
-    index = 1673,
+    index = 1812,
     label = "C6H6 + C4H3-2 <=> C6H5 + C4H4-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -19140,7 +20669,7 @@ entry(
 )
 
 entry(
-    index = 1674,
+    index = 1813,
     label = "H2O + C6H11O <=> C6H12O + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -19151,7 +20680,7 @@ entry(
 )
 
 entry(
-    index = 1675,
+    index = 1814,
     label = "C2HO-1 + C3H5O <=> C3H6O + C2O",
     degeneracy = 1,
     distances = DistanceData(
@@ -19162,7 +20691,7 @@ entry(
 )
 
 entry(
-    index = 1676,
+    index = 1815,
     label = "C2HO-1 + C3H7 <=> C2O + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19173,7 +20702,7 @@ entry(
 )
 
 entry(
-    index = 1677,
+    index = 1816,
     label = "H2O2 + C6H7-1 <=> C6H8 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19184,7 +20713,7 @@ entry(
 )
 
 entry(
-    index = 1678,
+    index = 1817,
     label = "C2H4 + C2H3O-1 <=> C2H4O + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -19195,7 +20724,7 @@ entry(
 )
 
 entry(
-    index = 1679,
+    index = 1818,
     label = "C3H6-1 + C2H3O <=> C2H4O + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19206,7 +20735,7 @@ entry(
 )
 
 entry(
-    index = 1680,
+    index = 1819,
     label = "C6H6 + C2H5O-1 <=> C2H6O + C6H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -19217,7 +20746,7 @@ entry(
 )
 
 entry(
-    index = 1681,
+    index = 1820,
     label = "C2H6O + C5H7-1 <=> C2H5O + C5H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19228,7 +20757,7 @@ entry(
 )
 
 entry(
-    index = 1682,
+    index = 1821,
     label = "C4H10 + C2H5O <=> C4H9 + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -19239,7 +20768,7 @@ entry(
 )
 
 entry(
-    index = 1683,
+    index = 1822,
     label = "CH4 + C3H2 <=> C3H3-1 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -19250,7 +20779,7 @@ entry(
 )
 
 entry(
-    index = 1684,
+    index = 1823,
     label = "C3H6-1 + C4H7-1 <=> C4H8 + C3H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19261,7 +20790,7 @@ entry(
 )
 
 entry(
-    index = 1685,
+    index = 1824,
     label = "C2HO-1 + C6H7-1 <=> C2O + C6H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -19272,7 +20801,7 @@ entry(
 )
 
 entry(
-    index = 1686,
+    index = 1825,
     label = "C3H6O + C6H7 <=> C3H5O + C6H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -19283,7 +20812,7 @@ entry(
 )
 
 entry(
-    index = 1687,
+    index = 1826,
     label = "C3H8 + CHO <=> CH2O + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -19294,7 +20823,7 @@ entry(
 )
 
 entry(
-    index = 1688,
+    index = 1827,
     label = "C4H6-1 + C2H3O-1 <=> C2H4O + C4H5-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19305,7 +20834,7 @@ entry(
 )
 
 entry(
-    index = 1689,
+    index = 1828,
     label = "C5H6-1 + CH3O <=> C5H5-1 + CH4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -19316,7 +20845,7 @@ entry(
 )
 
 entry(
-    index = 1690,
+    index = 1829,
     label = "C4H6 + C4H7-1 <=> C4H8 + C4H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -19327,7 +20856,7 @@ entry(
 )
 
 entry(
-    index = 1691,
+    index = 1830,
     label = "C3H8 + C4H7 <=> C4H8 + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -19338,7 +20867,7 @@ entry(
 )
 
 entry(
-    index = 1692,
+    index = 1831,
     label = "CH3-1 + C7H13O <=> C7H14O-1 + CH2",
     degeneracy = 1,
     distances = DistanceData(
@@ -19349,7 +20878,7 @@ entry(
 )
 
 entry(
-    index = 1693,
+    index = 1832,
     label = "H2 + C6H11O <=> C6H12O + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -19360,7 +20889,7 @@ entry(
 )
 
 entry(
-    index = 1694,
+    index = 1833,
     label = "C2H4 + C2H3O <=> C2H4O + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -19371,7 +20900,7 @@ entry(
 )
 
 entry(
-    index = 1695,
+    index = 1834,
     label = "C4H6 + C4H9 <=> C4H10 + C4H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -19382,7 +20911,7 @@ entry(
 )
 
 entry(
-    index = 1696,
+    index = 1835,
     label = "H2 + CH3O <=> CH4O + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -19393,7 +20922,7 @@ entry(
 )
 
 entry(
-    index = 1697,
+    index = 1836,
     label = "C3H4O-1 + C2H3O-1 <=> C2H4O + C3H3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19404,7 +20933,7 @@ entry(
 )
 
 entry(
-    index = 1698,
+    index = 1837,
     label = "C4H4-2 + C3H3 <=> C3H4 + C4H3-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -19415,7 +20944,7 @@ entry(
 )
 
 entry(
-    index = 1699,
+    index = 1838,
     label = "CH2O + C4H9O <=> C4H10O + CHO",
     degeneracy = 1,
     distances = DistanceData(
@@ -19426,7 +20955,7 @@ entry(
 )
 
 entry(
-    index = 1700,
+    index = 1839,
     label = "H2O + C2H5O-3 <=> C2H6O-3 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -19437,7 +20966,7 @@ entry(
 )
 
 entry(
-    index = 1701,
+    index = 1840,
     label = "CH4O-1 + CH3O <=> CH3O-1 + CH4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -19448,7 +20977,7 @@ entry(
 )
 
 entry(
-    index = 1702,
+    index = 1841,
     label = "H2 + C2H3O2 <=> C2H4O2 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -19459,7 +20988,7 @@ entry(
 )
 
 entry(
-    index = 1703,
+    index = 1842,
     label = "HO-1 + C3H5-1 <=> C3H6-1 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -19470,7 +20999,7 @@ entry(
 )
 
 entry(
-    index = 1704,
+    index = 1843,
     label = "CH4O2 + C3H7-1 <=> CH3O2 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19481,7 +21010,7 @@ entry(
 )
 
 entry(
-    index = 1705,
+    index = 1844,
     label = "CH4O2 + C4H9O-1 <=> C4H10O-1 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -19492,7 +21021,7 @@ entry(
 )
 
 entry(
-    index = 1706,
+    index = 1845,
     label = "H2 + C3H7 <=> H + C3H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -19503,7 +21032,7 @@ entry(
 )
 
 entry(
-    index = 1707,
+    index = 1846,
     label = "H2 + C3H7-1 <=> H + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19514,7 +21043,7 @@ entry(
 )
 
 entry(
-    index = 1708,
+    index = 1847,
     label = "H2 + C4H9O-2 <=> C4H10O-2 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -19525,7 +21054,7 @@ entry(
 )
 
 entry(
-    index = 1709,
+    index = 1848,
     label = "CH4O-1 + C4H9 <=> C4H10 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19536,7 +21065,7 @@ entry(
 )
 
 entry(
-    index = 1710,
+    index = 1849,
     label = "H2 + C4H9O-3 <=> C4H10O-3 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -19547,7 +21076,7 @@ entry(
 )
 
 entry(
-    index = 1711,
+    index = 1850,
     label = "CH4 + C4H7O <=> C4H8O + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -19558,7 +21087,7 @@ entry(
 )
 
 entry(
-    index = 1712,
+    index = 1851,
     label = "CH4 + C4H9O-4 <=> C4H10O-4 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -19569,7 +21098,7 @@ entry(
 )
 
 entry(
-    index = 1713,
+    index = 1852,
     label = "CH4 + C4H7-2 <=> C4H8-2 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -19580,7 +21109,7 @@ entry(
 )
 
 entry(
-    index = 1714,
+    index = 1853,
     label = "CH4O2 + C4H7-3 <=> C4H8-3 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -19591,7 +21120,7 @@ entry(
 )
 
 entry(
-    index = 1715,
+    index = 1854,
     label = "H2 + C4H7-2 <=> C4H8-2 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -19602,7 +21131,7 @@ entry(
 )
 
 entry(
-    index = 1716,
+    index = 1855,
     label = "H2O2 + C4H7O-1 <=> C4H8O-1 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19613,7 +21142,7 @@ entry(
 )
 
 entry(
-    index = 1717,
+    index = 1856,
     label = "H2O + C2H3O-1 <=> C2H4O-1 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -19624,7 +21153,7 @@ entry(
 )
 
 entry(
-    index = 1718,
+    index = 1857,
     label = "H2 + C4H5O-1 <=> C4H6O-1 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -19635,7 +21164,7 @@ entry(
 )
 
 entry(
-    index = 1719,
+    index = 1858,
     label = "H2 + C3H5O2 <=> C3H6O2 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -19646,7 +21175,7 @@ entry(
 )
 
 entry(
-    index = 1720,
+    index = 1859,
     label = "H2O + C4H9O-5 <=> C4H10O-5 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -19657,7 +21186,7 @@ entry(
 )
 
 entry(
-    index = 1721,
+    index = 1860,
     label = "C3H8O2 + O2 <=> C3H7O2 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -19668,7 +21197,7 @@ entry(
 )
 
 entry(
-    index = 1722,
+    index = 1861,
     label = "CH4O2 + C2H3O-2 <=> C2H4O-2 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -19679,7 +21208,7 @@ entry(
 )
 
 entry(
-    index = 1723,
+    index = 1862,
     label = "C4H10O2 + C2H3O-1 <=> C4H9O2 + C2H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19690,7 +21219,7 @@ entry(
 )
 
 entry(
-    index = 1724,
+    index = 1863,
     label = "H2O2 + C4H9O-6 <=> C4H10O-6 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19701,7 +21230,7 @@ entry(
 )
 
 entry(
-    index = 1725,
+    index = 1864,
     label = "H2 + C4H9O-7 <=> C4H10O-7 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -19712,7 +21241,7 @@ entry(
 )
 
 entry(
-    index = 1726,
+    index = 1865,
     label = "CH2O + C4H9O-8 <=> C4H10O-8 + CHO",
     degeneracy = 1,
     distances = DistanceData(
@@ -19723,7 +21252,7 @@ entry(
 )
 
 entry(
-    index = 1727,
+    index = 1866,
     label = "H2 + C4H5-2 <=> C4H6-2 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -19734,7 +21263,7 @@ entry(
 )
 
 entry(
-    index = 1728,
+    index = 1867,
     label = "HO-1 + C4H9O-7 <=> C4H10O-7 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -19745,7 +21274,7 @@ entry(
 )
 
 entry(
-    index = 1729,
+    index = 1868,
     label = "H2 + C4H7O <=> C4H8O + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -19756,7 +21285,7 @@ entry(
 )
 
 entry(
-    index = 1730,
+    index = 1869,
     label = "C4H10O2 + HO2-1 <=> H2O2 + C4H9O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -19767,7 +21296,7 @@ entry(
 )
 
 entry(
-    index = 1731,
+    index = 1870,
     label = "H2 + C4H9O-9 <=> C4H10O-9 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -19778,7 +21307,7 @@ entry(
 )
 
 entry(
-    index = 1732,
+    index = 1871,
     label = "H2O2 + C4H9O-4 <=> C4H10O-4 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19789,7 +21318,7 @@ entry(
 )
 
 entry(
-    index = 1733,
+    index = 1872,
     label = "CH4O2 + CH3O <=> CH4O + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -19800,7 +21329,7 @@ entry(
 )
 
 entry(
-    index = 1734,
+    index = 1873,
     label = "CH2O + C4H9O-1 <=> C4H10O-1 + CHO",
     degeneracy = 1,
     distances = DistanceData(
@@ -19811,7 +21340,7 @@ entry(
 )
 
 entry(
-    index = 1735,
+    index = 1874,
     label = "H2O + C3H7-1 <=> C3H8-1 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -19822,7 +21351,7 @@ entry(
 )
 
 entry(
-    index = 1736,
+    index = 1875,
     label = "C4H10O2-1 + HO2-1 <=> C4H9O2-1 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -19833,7 +21362,7 @@ entry(
 )
 
 entry(
-    index = 1737,
+    index = 1876,
     label = "C3H8O2-1 + C4H7-3 <=> C4H8-3 + C3H7O2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19844,7 +21373,7 @@ entry(
 )
 
 entry(
-    index = 1738,
+    index = 1877,
     label = "H2O + C4H9O-4 <=> C4H10O-4 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -19855,7 +21384,7 @@ entry(
 )
 
 entry(
-    index = 1739,
+    index = 1878,
     label = "H2 + C2H3O-3 <=> C2H4O-3 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -19866,7 +21395,7 @@ entry(
 )
 
 entry(
-    index = 1740,
+    index = 1879,
     label = "HO2 + C4H9O-4 <=> C4H10O-4 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -19877,7 +21406,7 @@ entry(
 )
 
 entry(
-    index = 1741,
+    index = 1880,
     label = "CH4O2 + C4H9O-10 <=> C4H10O-10 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -19888,7 +21417,7 @@ entry(
 )
 
 entry(
-    index = 1742,
+    index = 1881,
     label = "H2O2 + C2H5O-3 <=> C2H6O-3 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19899,7 +21428,7 @@ entry(
 )
 
 entry(
-    index = 1743,
+    index = 1882,
     label = "H2O + C4H7-3 <=> C4H8-3 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -19910,7 +21439,7 @@ entry(
 )
 
 entry(
-    index = 1744,
+    index = 1883,
     label = "C2H6 + C4H9O-11 <=> C4H10O-11 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -19921,7 +21450,7 @@ entry(
 )
 
 entry(
-    index = 1745,
+    index = 1884,
     label = "C4H10O2-1 + CH3O <=> C4H9O2-1 + CH4O",
     degeneracy = 1,
     distances = DistanceData(
@@ -19932,7 +21461,7 @@ entry(
 )
 
 entry(
-    index = 1746,
+    index = 1885,
     label = "H2O2 + C4H7O-2 <=> C4H8O-2 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -19943,7 +21472,7 @@ entry(
 )
 
 entry(
-    index = 1747,
+    index = 1886,
     label = "C4H10O3 + O2 <=> C4H9O3 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -19954,7 +21483,7 @@ entry(
 )
 
 entry(
-    index = 1748,
+    index = 1887,
     label = "HO2 + C2H3O-1 <=> C2H4O-1 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -19965,7 +21494,7 @@ entry(
 )
 
 entry(
-    index = 1749,
+    index = 1888,
     label = "H2O + C4H9-1 <=> C4H10-1 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -19976,7 +21505,7 @@ entry(
 )
 
 entry(
-    index = 1750,
+    index = 1889,
     label = "C3H8O2 + CH3 <=> CH4 + C3H7O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -19987,7 +21516,7 @@ entry(
 )
 
 entry(
-    index = 1751,
+    index = 1890,
     label = "C3H8 + C3H5O-1 <=> C3H6O-1 + C3H7",
     degeneracy = 1,
     distances = DistanceData(
@@ -19998,7 +21527,7 @@ entry(
 )
 
 entry(
-    index = 1752,
+    index = 1891,
     label = "C2H6O-2 + C3H5O-1 <=> C3H6O-1 + C2H5O-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20009,7 +21538,7 @@ entry(
 )
 
 entry(
-    index = 1753,
+    index = 1892,
     label = "H2O2 + C4H7O-3 <=> C4H8O-3 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -20020,7 +21549,7 @@ entry(
 )
 
 entry(
-    index = 1754,
+    index = 1893,
     label = "CH4 + C2H3O2-1 <=> C2H4O2-1 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -20031,7 +21560,7 @@ entry(
 )
 
 entry(
-    index = 1755,
+    index = 1894,
     label = "C3H8O2 + C4H7 <=> C4H8 + C3H7O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20042,7 +21571,7 @@ entry(
 )
 
 entry(
-    index = 1756,
+    index = 1895,
     label = "CH4O-1 + C4H7-3 <=> C4H8-3 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -20053,7 +21582,7 @@ entry(
 )
 
 entry(
-    index = 1757,
+    index = 1896,
     label = "H2 + C4H5O-2 <=> C4H6O-2 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -20064,7 +21593,7 @@ entry(
 )
 
 entry(
-    index = 1758,
+    index = 1897,
     label = "CH4O2 + C4H7O-3 <=> C4H8O-3 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20075,7 +21604,7 @@ entry(
 )
 
 entry(
-    index = 1759,
+    index = 1898,
     label = "CH2O2 + HO2-1 <=> CHO2 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20086,7 +21615,7 @@ entry(
 )
 
 entry(
-    index = 1760,
+    index = 1899,
     label = "CH4O + C4H9O-9 <=> C4H10O-9 + CH3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -20097,7 +21626,7 @@ entry(
 )
 
 entry(
-    index = 1761,
+    index = 1900,
     label = "C3H6 + C4H7-2 <=> C4H8-2 + C3H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -20108,7 +21637,7 @@ entry(
 )
 
 entry(
-    index = 1762,
+    index = 1901,
     label = "CH4O2 + C3H3O-1 <=> C3H4O-1 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20119,7 +21648,7 @@ entry(
 )
 
 entry(
-    index = 1763,
+    index = 1902,
     label = "H2O + C4H9O-11 <=> C4H10O-11 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -20130,7 +21659,7 @@ entry(
 )
 
 entry(
-    index = 1764,
+    index = 1903,
     label = "H2 + C4H9O-4 <=> C4H10O-4 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -20141,7 +21670,7 @@ entry(
 )
 
 entry(
-    index = 1765,
+    index = 1904,
     label = "C2H4O3 + C3H7-1 <=> C3H8-1 + C2H3O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -20152,7 +21681,7 @@ entry(
 )
 
 entry(
-    index = 1766,
+    index = 1905,
     label = "HO-1 + C4H9O-12 <=> C4H10O-12 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -20163,7 +21692,7 @@ entry(
 )
 
 entry(
-    index = 1767,
+    index = 1906,
     label = "C2H4 + C4H5O-3 <=> C4H6O-3 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -20174,7 +21703,7 @@ entry(
 )
 
 entry(
-    index = 1768,
+    index = 1907,
     label = "C2H6 + C4H9O-4 <=> C4H10O-4 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -20185,7 +21714,7 @@ entry(
 )
 
 entry(
-    index = 1769,
+    index = 1908,
     label = "H2O2 + C3H5O-1 <=> C3H6O-1 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -20196,7 +21725,7 @@ entry(
 )
 
 entry(
-    index = 1770,
+    index = 1909,
     label = "C4H10O2 + CH3O <=> CH4O + C4H9O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20207,7 +21736,7 @@ entry(
 )
 
 entry(
-    index = 1771,
+    index = 1910,
     label = "C4H10O2-1 + CH3 <=> C4H9O2-1 + CH4",
     degeneracy = 1,
     distances = DistanceData(
@@ -20218,7 +21747,7 @@ entry(
 )
 
 entry(
-    index = 1772,
+    index = 1911,
     label = "C2H4O3 + C2H5 <=> C2H6 + C2H3O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -20229,7 +21758,7 @@ entry(
 )
 
 entry(
-    index = 1773,
+    index = 1912,
     label = "H2O2 + C4H9O-8 <=> C4H10O-8 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -20240,7 +21769,7 @@ entry(
 )
 
 entry(
-    index = 1774,
+    index = 1913,
     label = "C4H10O3-1 + HO2-1 <=> C4H9O3-1 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20251,7 +21780,7 @@ entry(
 )
 
 entry(
-    index = 1775,
+    index = 1914,
     label = "H2O + C2H3O2-1 <=> C2H4O2-1 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -20262,7 +21791,7 @@ entry(
 )
 
 entry(
-    index = 1776,
+    index = 1915,
     label = "H2O2 + C4H7O-4 <=> C4H8O-4 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -20273,7 +21802,7 @@ entry(
 )
 
 entry(
-    index = 1777,
+    index = 1916,
     label = "C4H10O3-2 + O2 <=> C4H9O3-2 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20284,7 +21813,7 @@ entry(
 )
 
 entry(
-    index = 1778,
+    index = 1917,
     label = "CH4O + C4H9O-7 <=> C4H10O-7 + CH3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -20295,7 +21824,7 @@ entry(
 )
 
 entry(
-    index = 1779,
+    index = 1918,
     label = "C3H8O2-1 + CH3O <=> CH4O + C3H7O2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -20306,7 +21835,7 @@ entry(
 )
 
 entry(
-    index = 1780,
+    index = 1919,
     label = "CH4O-1 + C4H9O-8 <=> C4H10O-8 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -20317,7 +21846,7 @@ entry(
 )
 
 entry(
-    index = 1781,
+    index = 1920,
     label = "HO2 + C4H9O-5 <=> C4H10O-5 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20328,7 +21857,7 @@ entry(
 )
 
 entry(
-    index = 1782,
+    index = 1921,
     label = "C4H10 + C4H9-2 <=> C4H10-2 + C4H9",
     degeneracy = 1,
     distances = DistanceData(
@@ -20339,7 +21868,7 @@ entry(
 )
 
 entry(
-    index = 1783,
+    index = 1922,
     label = "C2H6O3 + CHO <=> C2H5O3 + CH2O",
     degeneracy = 1,
     distances = DistanceData(
@@ -20350,7 +21879,7 @@ entry(
 )
 
 entry(
-    index = 1784,
+    index = 1923,
     label = "H2 + C4H7O-5 <=> C4H8O-5 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -20361,7 +21890,7 @@ entry(
 )
 
 entry(
-    index = 1785,
+    index = 1924,
     label = "CH4O + C4H9O-11 <=> C4H10O-11 + CH3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -20372,7 +21901,7 @@ entry(
 )
 
 entry(
-    index = 1786,
+    index = 1925,
     label = "CH4 + C2H3O-3 <=> C2H4O-3 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -20383,7 +21912,7 @@ entry(
 )
 
 entry(
-    index = 1787,
+    index = 1926,
     label = "CH4O2 + C4H9 <=> C4H10 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20394,7 +21923,7 @@ entry(
 )
 
 entry(
-    index = 1788,
+    index = 1927,
     label = "H2O + C4H7O-6 <=> C4H8O-6 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -20405,7 +21934,7 @@ entry(
 )
 
 entry(
-    index = 1789,
+    index = 1928,
     label = "C4H10O3-3 + HO2-1 <=> C4H9O3-3 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20416,7 +21945,7 @@ entry(
 )
 
 entry(
-    index = 1790,
+    index = 1929,
     label = "CH4O2 + C4H9O-3 <=> C4H10O-3 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20427,7 +21956,7 @@ entry(
 )
 
 entry(
-    index = 1791,
+    index = 1930,
     label = "CH4 + C4H9O-1 <=> C4H10O-1 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -20438,7 +21967,7 @@ entry(
 )
 
 entry(
-    index = 1792,
+    index = 1931,
     label = "C4H10O2 + C2H5 <=> C2H6 + C4H9O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20449,7 +21978,7 @@ entry(
 )
 
 entry(
-    index = 1793,
+    index = 1932,
     label = "C4H10O2-2 + CHO <=> C4H9O2-2 + CH2O",
     degeneracy = 1,
     distances = DistanceData(
@@ -20460,7 +21989,7 @@ entry(
 )
 
 entry(
-    index = 1794,
+    index = 1933,
     label = "CH4O2 + C4H9O-12 <=> C4H10O-12 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20471,7 +22000,7 @@ entry(
 )
 
 entry(
-    index = 1795,
+    index = 1934,
     label = "HO-1 + C4H7O-5 <=> C4H8O-5 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -20482,7 +22011,7 @@ entry(
 )
 
 entry(
-    index = 1796,
+    index = 1935,
     label = "H2O + C4H7O-2 <=> C4H8O-2 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -20493,7 +22022,7 @@ entry(
 )
 
 entry(
-    index = 1797,
+    index = 1936,
     label = "C2H6 + C4H7O-7 <=> C4H8O-7 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -20504,7 +22033,7 @@ entry(
 )
 
 entry(
-    index = 1798,
+    index = 1937,
     label = "CH4O2 + C4H7O <=> C4H8O + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20515,7 +22044,7 @@ entry(
 )
 
 entry(
-    index = 1799,
+    index = 1938,
     label = "C2H4O3 + C4H9 <=> C4H10 + C2H3O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -20526,7 +22055,7 @@ entry(
 )
 
 entry(
-    index = 1800,
+    index = 1939,
     label = "H2O2 + C2H3O2-1 <=> C2H4O2-1 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -20537,7 +22066,7 @@ entry(
 )
 
 entry(
-    index = 1801,
+    index = 1940,
     label = "H2 + C2H3O2-2 <=> C2H4O2-2 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -20548,7 +22077,7 @@ entry(
 )
 
 entry(
-    index = 1802,
+    index = 1941,
     label = "CH4O2 + C4H7O-4 <=> C4H8O-4 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20559,7 +22088,7 @@ entry(
 )
 
 entry(
-    index = 1803,
+    index = 1942,
     label = "CH4O2 + C3H5O-1 <=> C3H6O-1 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20570,7 +22099,7 @@ entry(
 )
 
 entry(
-    index = 1804,
+    index = 1943,
     label = "CH4 + C3H5O-2 <=> C3H6O-2 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -20581,7 +22110,7 @@ entry(
 )
 
 entry(
-    index = 1805,
+    index = 1944,
     label = "H2O + C4H9O-7 <=> C4H10O-7 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -20592,7 +22121,7 @@ entry(
 )
 
 entry(
-    index = 1806,
+    index = 1945,
     label = "H2O2 + C4H9O-1 <=> C4H10O-1 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -20603,7 +22132,7 @@ entry(
 )
 
 entry(
-    index = 1807,
+    index = 1946,
     label = "H2 + C3H5O-2 <=> C3H6O-2 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -20614,7 +22143,7 @@ entry(
 )
 
 entry(
-    index = 1808,
+    index = 1947,
     label = "CH4O + C4H9O-4 <=> C4H10O-4 + CH3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -20625,7 +22154,7 @@ entry(
 )
 
 entry(
-    index = 1809,
+    index = 1948,
     label = "CH4O2 + C2H3O-1 <=> CH3O2 + C2H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -20636,7 +22165,7 @@ entry(
 )
 
 entry(
-    index = 1810,
+    index = 1949,
     label = "HO-1 + C4H9O <=> C4H10O + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -20647,7 +22176,7 @@ entry(
 )
 
 entry(
-    index = 1811,
+    index = 1950,
     label = "H2 + C4H7-3 <=> C4H8-3 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -20658,7 +22187,7 @@ entry(
 )
 
 entry(
-    index = 1812,
+    index = 1951,
     label = "H2O + C2H5O <=> C2H6O + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -20669,7 +22198,7 @@ entry(
 )
 
 entry(
-    index = 1813,
+    index = 1952,
     label = "H2 + CH <=> CH2-1 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -20680,7 +22209,7 @@ entry(
 )
 
 entry(
-    index = 1814,
+    index = 1953,
     label = "C3H6O3 + CHO <=> CH2O + C3H5O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -20691,7 +22220,7 @@ entry(
 )
 
 entry(
-    index = 1815,
+    index = 1954,
     label = "H2O + C3H7 <=> C3H8 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -20702,7 +22231,7 @@ entry(
 )
 
 entry(
-    index = 1816,
+    index = 1955,
     label = "CH4 + C2H3O-2 <=> C2H4O-2 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -20713,7 +22242,7 @@ entry(
 )
 
 entry(
-    index = 1817,
+    index = 1956,
     label = "CH4O2 + CHO <=> CH3O2 + CH2O",
     degeneracy = 1,
     distances = DistanceData(
@@ -20724,7 +22253,7 @@ entry(
 )
 
 entry(
-    index = 1818,
+    index = 1957,
     label = "H2O2 + C2H3O-2 <=> C2H4O-2 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -20735,7 +22264,7 @@ entry(
 )
 
 entry(
-    index = 1819,
+    index = 1958,
     label = "CH4 + C4H5-2 <=> C4H6-2 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -20746,7 +22275,7 @@ entry(
 )
 
 entry(
-    index = 1820,
+    index = 1959,
     label = "CH4 + C4H9O-9 <=> C4H10O-9 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -20757,7 +22286,7 @@ entry(
 )
 
 entry(
-    index = 1821,
+    index = 1960,
     label = "H2 + C4H9O-10 <=> C4H10O-10 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -20768,7 +22297,7 @@ entry(
 )
 
 entry(
-    index = 1822,
+    index = 1961,
     label = "C4H10O2-2 + C3H3O-1 <=> C3H4O-1 + C4H9O2-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20779,7 +22308,7 @@ entry(
 )
 
 entry(
-    index = 1823,
+    index = 1962,
     label = "CH4 + C4H9O-5 <=> C4H10O-5 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -20790,7 +22319,7 @@ entry(
 )
 
 entry(
-    index = 1824,
+    index = 1963,
     label = "CH4 + C2H3O2-2 <=> C2H4O2-2 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -20801,7 +22330,7 @@ entry(
 )
 
 entry(
-    index = 1825,
+    index = 1964,
     label = "CH4O-1 + C3H3O-1 <=> C3H4O-1 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -20812,7 +22341,7 @@ entry(
 )
 
 entry(
-    index = 1826,
+    index = 1965,
     label = "C3H8O2-1 + H <=> H2 + C3H7O2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -20823,7 +22352,7 @@ entry(
 )
 
 entry(
-    index = 1827,
+    index = 1966,
     label = "C2H6O-2 + C4H9-3 <=> C4H10-3 + C2H5O-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20834,7 +22363,7 @@ entry(
 )
 
 entry(
-    index = 1828,
+    index = 1967,
     label = "CH4 + C2H3O2 <=> C2H4O2 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -20845,7 +22374,7 @@ entry(
 )
 
 entry(
-    index = 1829,
+    index = 1968,
     label = "CH2O + C4H9O-12 <=> C4H10O-12 + CHO",
     degeneracy = 1,
     distances = DistanceData(
@@ -20856,7 +22385,7 @@ entry(
 )
 
 entry(
-    index = 1830,
+    index = 1969,
     label = "CH4O-1 + C2H3O2-1 <=> C2H4O2-1 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -20867,7 +22396,7 @@ entry(
 )
 
 entry(
-    index = 1831,
+    index = 1970,
     label = "C2H6 + C4H7O-8 <=> C4H8O-8 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -20878,7 +22407,7 @@ entry(
 )
 
 entry(
-    index = 1832,
+    index = 1971,
     label = "CH4O-1 + C3H7-1 <=> C3H8-1 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -20889,7 +22418,7 @@ entry(
 )
 
 entry(
-    index = 1833,
+    index = 1972,
     label = "C4H8O-9 + CHO <=> C4H7O-9 + CH2O",
     degeneracy = 1,
     distances = DistanceData(
@@ -20900,7 +22429,7 @@ entry(
 )
 
 entry(
-    index = 1834,
+    index = 1973,
     label = "H2 + C4H9-3 <=> C4H10-3 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -20911,7 +22440,7 @@ entry(
 )
 
 entry(
-    index = 1835,
+    index = 1974,
     label = "CH2O + C4H9O-2 <=> C4H10O-2 + CHO",
     degeneracy = 1,
     distances = DistanceData(
@@ -20922,7 +22451,7 @@ entry(
 )
 
 entry(
-    index = 1836,
+    index = 1975,
     label = "C2H6O3 + C2H3O-1 <=> C2H5O3 + C2H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -20933,7 +22462,7 @@ entry(
 )
 
 entry(
-    index = 1837,
+    index = 1976,
     label = "H2 + C4H9O-13 <=> C4H10O-13 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -20944,7 +22473,7 @@ entry(
 )
 
 entry(
-    index = 1838,
+    index = 1977,
     label = "H2O + C4H7-2 <=> C4H8-2 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -20955,7 +22484,7 @@ entry(
 )
 
 entry(
-    index = 1839,
+    index = 1978,
     label = "HO2 + C2H3O-3 <=> C2H4O-3 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20966,7 +22495,7 @@ entry(
 )
 
 entry(
-    index = 1840,
+    index = 1979,
     label = "HO2 + C4H7O <=> C4H8O + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -20977,7 +22506,7 @@ entry(
 )
 
 entry(
-    index = 1841,
+    index = 1980,
     label = "C2H6 + C4H9-3 <=> C4H10-3 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -20988,7 +22517,7 @@ entry(
 )
 
 entry(
-    index = 1842,
+    index = 1981,
     label = "H2O + C3H3O-1 <=> C3H4O-1 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -20999,7 +22528,7 @@ entry(
 )
 
 entry(
-    index = 1843,
+    index = 1982,
     label = "HO-1 + C4H9O-10 <=> C4H10O-10 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -21010,7 +22539,7 @@ entry(
 )
 
 entry(
-    index = 1844,
+    index = 1983,
     label = "C2H4O3 + C4H9-2 <=> C4H10-2 + C2H3O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -21021,7 +22550,7 @@ entry(
 )
 
 entry(
-    index = 1845,
+    index = 1984,
     label = "H2 + C2H3O-2 <=> C2H4O-2 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -21032,7 +22561,7 @@ entry(
 )
 
 entry(
-    index = 1846,
+    index = 1985,
     label = "H2 + C3H3O-1 <=> C3H4O-1 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -21043,7 +22572,7 @@ entry(
 )
 
 entry(
-    index = 1847,
+    index = 1986,
     label = "C4H10O2 + O2 <=> C4H9O2 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21054,7 +22583,7 @@ entry(
 )
 
 entry(
-    index = 1848,
+    index = 1987,
     label = "HO-1 + C4H7O-1 <=> C4H8O-1 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -21065,7 +22594,7 @@ entry(
 )
 
 entry(
-    index = 1849,
+    index = 1988,
     label = "H2O + C4H7-4 <=> C4H8-4 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -21076,7 +22605,7 @@ entry(
 )
 
 entry(
-    index = 1850,
+    index = 1989,
     label = "C4H10O2-2 + C2H3O-1 <=> C4H9O2-2 + C2H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -21087,7 +22616,7 @@ entry(
 )
 
 entry(
-    index = 1851,
+    index = 1990,
     label = "C4H10O2-1 + C2H3O-1 <=> C4H9O2-1 + C2H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -21098,7 +22627,7 @@ entry(
 )
 
 entry(
-    index = 1852,
+    index = 1991,
     label = "C2H6O2 + O2 <=> C2H5O2 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21109,7 +22638,7 @@ entry(
 )
 
 entry(
-    index = 1853,
+    index = 1992,
     label = "CH4 + C4H9O-11 <=> C4H10O-11 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -21120,7 +22649,7 @@ entry(
 )
 
 entry(
-    index = 1854,
+    index = 1993,
     label = "H2O + C4H9O-6 <=> C4H10O-6 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -21131,7 +22660,7 @@ entry(
 )
 
 entry(
-    index = 1855,
+    index = 1994,
     label = "C3H8O2-1 + C2H3O-1 <=> C3H7O2-1 + C2H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -21142,7 +22671,7 @@ entry(
 )
 
 entry(
-    index = 1856,
+    index = 1995,
     label = "C2H6O2 + CH3O <=> CH4O + C2H5O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21153,7 +22682,7 @@ entry(
 )
 
 entry(
-    index = 1857,
+    index = 1996,
     label = "H2O2 + O2 <=> HO2 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -21164,7 +22693,7 @@ entry(
 )
 
 entry(
-    index = 1858,
+    index = 1997,
     label = "H2O + C4H5O-2 <=> C4H6O-2 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -21175,7 +22704,7 @@ entry(
 )
 
 entry(
-    index = 1859,
+    index = 1998,
     label = "C4H10O2 + C2H3 <=> C2H4 + C4H9O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21186,7 +22715,7 @@ entry(
 )
 
 entry(
-    index = 1860,
+    index = 1999,
     label = "C4H10O3-4 + O2 <=> C4H9O3-4 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21197,7 +22726,7 @@ entry(
 )
 
 entry(
-    index = 1861,
+    index = 2000,
     label = "C2H6 + C4H9O-1 <=> C4H10O-1 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -21208,7 +22737,7 @@ entry(
 )
 
 entry(
-    index = 1862,
+    index = 2001,
     label = "C3H8O2 + C4H9-3 <=> C3H7O2 + C4H10-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -21219,7 +22748,7 @@ entry(
 )
 
 entry(
-    index = 1863,
+    index = 2002,
     label = "H2 + C4H9O-14 <=> C4H10O-14 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -21230,7 +22759,7 @@ entry(
 )
 
 entry(
-    index = 1864,
+    index = 2003,
     label = "C2H4 + C4H5O-2 <=> C4H6O-2 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -21241,7 +22770,7 @@ entry(
 )
 
 entry(
-    index = 1865,
+    index = 2004,
     label = "CH4O-1 + C4H9O-14 <=> C4H10O-14 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -21252,7 +22781,7 @@ entry(
 )
 
 entry(
-    index = 1866,
+    index = 2005,
     label = "CH4O2 + C4H9O <=> C4H10O + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21263,7 +22792,7 @@ entry(
 )
 
 entry(
-    index = 1867,
+    index = 2006,
     label = "C2H6O-2 + C4H9-1 <=> C4H10-1 + C2H5O-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21274,7 +22803,7 @@ entry(
 )
 
 entry(
-    index = 1868,
+    index = 2007,
     label = "C3H6-2 + CO <=> C3H5-2 + CHO-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -21285,7 +22814,7 @@ entry(
 )
 
 entry(
-    index = 1869,
+    index = 2008,
     label = "CH2O + C4H9O-9 <=> C4H10O-9 + CHO",
     degeneracy = 1,
     distances = DistanceData(
@@ -21296,7 +22825,7 @@ entry(
 )
 
 entry(
-    index = 1870,
+    index = 2009,
     label = "CH4O-1 + C4H9-3 <=> C4H10-3 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -21307,7 +22836,7 @@ entry(
 )
 
 entry(
-    index = 1871,
+    index = 2010,
     label = "CH4 + C4H9-1 <=> C4H10-1 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -21318,7 +22847,7 @@ entry(
 )
 
 entry(
-    index = 1872,
+    index = 2011,
     label = "H2O + CH2 <=> CH3-1 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -21329,7 +22858,7 @@ entry(
 )
 
 entry(
-    index = 1873,
+    index = 2012,
     label = "CH4O2 + C4H7O-10 <=> C4H8O-10 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21340,7 +22869,7 @@ entry(
 )
 
 entry(
-    index = 1874,
+    index = 2013,
     label = "C3H8O2 + CH3O <=> CH4O + C3H7O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21351,7 +22880,7 @@ entry(
 )
 
 entry(
-    index = 1875,
+    index = 2014,
     label = "HO-1 + C4H9O-3 <=> C4H10O-3 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -21362,7 +22891,7 @@ entry(
 )
 
 entry(
-    index = 1876,
+    index = 2015,
     label = "CH4O-1 + C3H5O <=> C3H6O + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -21373,7 +22902,7 @@ entry(
 )
 
 entry(
-    index = 1877,
+    index = 2016,
     label = "CH4O2 + C2H5 <=> C2H6 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21384,7 +22913,7 @@ entry(
 )
 
 entry(
-    index = 1878,
+    index = 2017,
     label = "H2O + C4H7O-5 <=> C4H8O-5 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -21395,7 +22924,7 @@ entry(
 )
 
 entry(
-    index = 1879,
+    index = 2018,
     label = "HO2 + C4H7O-9 <=> C4H8O-9 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21406,7 +22935,7 @@ entry(
 )
 
 entry(
-    index = 1880,
+    index = 2019,
     label = "C4H10O2-1 + H <=> H2 + C4H9O2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -21417,7 +22946,7 @@ entry(
 )
 
 entry(
-    index = 1881,
+    index = 2020,
     label = "C2H6 + C4H9O-14 <=> C4H10O-14 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -21428,7 +22957,7 @@ entry(
 )
 
 entry(
-    index = 1882,
+    index = 2021,
     label = "C2H6O2 + CHO <=> C2H5O2 + CH2O",
     degeneracy = 1,
     distances = DistanceData(
@@ -21439,7 +22968,7 @@ entry(
 )
 
 entry(
-    index = 1883,
+    index = 2022,
     label = "C4H10O2-2 + CH3 <=> CH4 + C4H9O2-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21450,7 +22979,18 @@ entry(
 )
 
 entry(
-    index = 1884,
+    index = 2023,
+    label = "CH2O + C4H7O-14 <=> C4H8O-14 + CHO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1911, 'd13': 2.55191, 'd23': 1.40266},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 812""",
+)
+
+entry(
+    index = 2024,
     label = "H2O2 + C4H9O-9 <=> C4H10O-9 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -21461,7 +23001,7 @@ entry(
 )
 
 entry(
-    index = 1885,
+    index = 2025,
     label = "CH4O + C4H9O-5 <=> C4H10O-5 + CH3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -21472,7 +23012,7 @@ entry(
 )
 
 entry(
-    index = 1886,
+    index = 2026,
     label = "H2O + C2H3O-2 <=> C2H4O-2 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -21483,7 +23023,7 @@ entry(
 )
 
 entry(
-    index = 1887,
+    index = 2027,
     label = "H2O + C3H5O-1 <=> C3H6O-1 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -21494,7 +23034,7 @@ entry(
 )
 
 entry(
-    index = 1888,
+    index = 2028,
     label = "C3H8O2-1 + C3H5O-1 <=> C3H7O2-1 + C3H6O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -21505,7 +23045,7 @@ entry(
 )
 
 entry(
-    index = 1889,
+    index = 2029,
     label = "HO2 + C4H9O-1 <=> C4H10O-1 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21516,7 +23056,7 @@ entry(
 )
 
 entry(
-    index = 1890,
+    index = 2030,
     label = "H2O2 + C4H5O-1 <=> C4H6O-1 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -21527,7 +23067,7 @@ entry(
 )
 
 entry(
-    index = 1891,
+    index = 2031,
     label = "HO-1 + C2H3O2-1 <=> C2H4O2-1 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -21538,7 +23078,7 @@ entry(
 )
 
 entry(
-    index = 1892,
+    index = 2032,
     label = "H2 + CH3O-1 <=> CH4O-1 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -21549,7 +23089,7 @@ entry(
 )
 
 entry(
-    index = 1893,
+    index = 2033,
     label = "C4H10O3-3 + O2 <=> C4H9O3-3 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21560,7 +23100,7 @@ entry(
 )
 
 entry(
-    index = 1894,
+    index = 2034,
     label = "CH4O + C4H9O-6 <=> C4H10O-6 + CH3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -21571,7 +23111,7 @@ entry(
 )
 
 entry(
-    index = 1895,
+    index = 2035,
     label = "CH2O + C2H3O2-1 <=> C2H4O2-1 + CHO",
     degeneracy = 1,
     distances = DistanceData(
@@ -21582,7 +23122,7 @@ entry(
 )
 
 entry(
-    index = 1896,
+    index = 2036,
     label = "H2 + C4H9O-5 <=> C4H10O-5 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -21593,7 +23133,7 @@ entry(
 )
 
 entry(
-    index = 1897,
+    index = 2037,
     label = "CH2O3 + CHO <=> CH2O + CHO3",
     degeneracy = 1,
     distances = DistanceData(
@@ -21604,7 +23144,7 @@ entry(
 )
 
 entry(
-    index = 1898,
+    index = 2038,
     label = "H2O + C4H9O-10 <=> C4H10O-10 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -21615,7 +23155,7 @@ entry(
 )
 
 entry(
-    index = 1899,
+    index = 2039,
     label = "CH4O2 + C4H9O-6 <=> C4H10O-6 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21626,7 +23166,7 @@ entry(
 )
 
 entry(
-    index = 1900,
+    index = 2040,
     label = "H2O + C4H9O-2 <=> C4H10O-2 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -21637,7 +23177,7 @@ entry(
 )
 
 entry(
-    index = 1901,
+    index = 2041,
     label = "H2 + C4H7O-7 <=> C4H8O-7 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -21648,7 +23188,7 @@ entry(
 )
 
 entry(
-    index = 1902,
+    index = 2042,
     label = "HO-1 + C3H5-2 <=> C3H6-2 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -21659,7 +23199,7 @@ entry(
 )
 
 entry(
-    index = 1903,
+    index = 2043,
     label = "C2H4 + C3H5O-1 <=> C3H6O-1 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -21670,7 +23210,7 @@ entry(
 )
 
 entry(
-    index = 1904,
+    index = 2044,
     label = "C3H8O2 + C4H7-2 <=> C3H7O2 + C4H8-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21681,7 +23221,7 @@ entry(
 )
 
 entry(
-    index = 1905,
+    index = 2045,
     label = "C4H10O2-3 + C2H5O <=> C4H9O2-3 + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -21692,7 +23232,7 @@ entry(
 )
 
 entry(
-    index = 1906,
+    index = 2046,
     label = "CH4O2 + C4H9O-4 <=> C4H10O-4 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21703,7 +23243,7 @@ entry(
 )
 
 entry(
-    index = 1907,
+    index = 2047,
     label = "CH4O + C4H9O-13 <=> C4H10O-13 + CH3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -21714,7 +23254,7 @@ entry(
 )
 
 entry(
-    index = 1908,
+    index = 2048,
     label = "CH4O + C4H9O-15 <=> C4H10O-15 + CH3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -21725,7 +23265,7 @@ entry(
 )
 
 entry(
-    index = 1909,
+    index = 2049,
     label = "H2O + C4H9O-1 <=> C4H10O-1 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -21736,7 +23276,7 @@ entry(
 )
 
 entry(
-    index = 1910,
+    index = 2050,
     label = "C3H8O2-1 + C3H7-1 <=> C3H7O2-1 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -21747,7 +23287,7 @@ entry(
 )
 
 entry(
-    index = 1911,
+    index = 2051,
     label = "C4H10O2-1 + O2 <=> C4H9O2-1 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21758,7 +23298,7 @@ entry(
 )
 
 entry(
-    index = 1912,
+    index = 2052,
     label = "CH4 + C2H5O-2 <=> C2H6O-2 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -21769,7 +23309,7 @@ entry(
 )
 
 entry(
-    index = 1913,
+    index = 2053,
     label = "HO2 + C4H9O-10 <=> C4H10O-10 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21780,7 +23320,7 @@ entry(
 )
 
 entry(
-    index = 1914,
+    index = 2054,
     label = "C3H8O2 + C2H3 <=> C2H4 + C3H7O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21791,7 +23331,18 @@ entry(
 )
 
 entry(
-    index = 1915,
+    index = 2055,
+    label = "H2O2 + C4H5O-2 <=> C4H6O-2 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25734, 'd13': 2.50912, 'd23': 1.28127},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 844""",
+)
+
+entry(
+    index = 2056,
     label = "C2H6 + C4H9O-15 <=> C4H10O-15 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -21802,7 +23353,7 @@ entry(
 )
 
 entry(
-    index = 1916,
+    index = 2057,
     label = "HO2 + C3H7 <=> C3H8 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21813,7 +23364,7 @@ entry(
 )
 
 entry(
-    index = 1917,
+    index = 2058,
     label = "CH4O2 + C2H3O2 <=> C2H4O2 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21824,7 +23375,7 @@ entry(
 )
 
 entry(
-    index = 1918,
+    index = 2059,
     label = "HO2 + C4H9O-8 <=> C4H10O-8 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21835,7 +23386,7 @@ entry(
 )
 
 entry(
-    index = 1919,
+    index = 2060,
     label = "CH4O-1 + C4H7O-8 <=> C4H8O-8 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -21846,7 +23397,7 @@ entry(
 )
 
 entry(
-    index = 1920,
+    index = 2061,
     label = "C4H10O2-2 + O2 <=> C4H9O2-2 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21857,7 +23408,18 @@ entry(
 )
 
 entry(
-    index = 1921,
+    index = 2062,
+    label = "HO-1 + C2H3O2-2 <=> C2H4O2-2 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25816, 'd13': 2.51893, 'd23': 1.26267},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 851""",
+)
+
+entry(
+    index = 2063,
     label = "C4H10O2-3 + O2 <=> C4H9O2-3 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21868,7 +23430,7 @@ entry(
 )
 
 entry(
-    index = 1922,
+    index = 2064,
     label = "HO-1 + C2H3O-1 <=> C2H4O-1 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -21879,7 +23441,7 @@ entry(
 )
 
 entry(
-    index = 1923,
+    index = 2065,
     label = "C3H8O2-1 + C2H5 <=> C3H7O2-1 + C2H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -21890,7 +23452,7 @@ entry(
 )
 
 entry(
-    index = 1924,
+    index = 2066,
     label = "CH4O2 + C2H5O <=> C2H6O + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21901,7 +23463,7 @@ entry(
 )
 
 entry(
-    index = 1925,
+    index = 2067,
     label = "H2 + C2H3O2-1 <=> C2H4O2-1 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -21912,7 +23474,7 @@ entry(
 )
 
 entry(
-    index = 1926,
+    index = 2068,
     label = "H2O + C3H5-2 <=> C3H6-2 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -21923,7 +23485,7 @@ entry(
 )
 
 entry(
-    index = 1927,
+    index = 2069,
     label = "CH4 + C3H5O-1 <=> C3H6O-1 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -21934,7 +23496,7 @@ entry(
 )
 
 entry(
-    index = 1928,
+    index = 2070,
     label = "C3H6O-2 + HO2-1 <=> C3H5O-2 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21945,7 +23507,7 @@ entry(
 )
 
 entry(
-    index = 1929,
+    index = 2071,
     label = "HO-1 + C4H9O-6 <=> C4H10O-6 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -21956,7 +23518,7 @@ entry(
 )
 
 entry(
-    index = 1930,
+    index = 2072,
     label = "CH4 + C3H3-2 <=> C3H4-1 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -21967,7 +23529,7 @@ entry(
 )
 
 entry(
-    index = 1931,
+    index = 2073,
     label = "C3H8O2-1 + O2 <=> C3H7O2-1 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -21978,7 +23540,7 @@ entry(
 )
 
 entry(
-    index = 1932,
+    index = 2074,
     label = "C2H4O3 + HO2-1 <=> H2O2 + C2H3O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -21989,7 +23551,7 @@ entry(
 )
 
 entry(
-    index = 1933,
+    index = 2075,
     label = "H2O2 + C4H7O-7 <=> C4H8O-7 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22000,7 +23562,7 @@ entry(
 )
 
 entry(
-    index = 1934,
+    index = 2076,
     label = "HO2 + C4H9O-15 <=> C4H10O-15 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22011,7 +23573,7 @@ entry(
 )
 
 entry(
-    index = 1935,
+    index = 2077,
     label = "C4H10O2-1 + C2H5O <=> C4H9O2-1 + C2H6O",
     degeneracy = 1,
     distances = DistanceData(
@@ -22022,7 +23584,7 @@ entry(
 )
 
 entry(
-    index = 1936,
+    index = 2078,
     label = "C2H6 + C4H9-2 <=> C4H10-2 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -22033,7 +23595,7 @@ entry(
 )
 
 entry(
-    index = 1937,
+    index = 2079,
     label = "CH4O2 + C4H7O-8 <=> C4H8O-8 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22044,7 +23606,7 @@ entry(
 )
 
 entry(
-    index = 1938,
+    index = 2080,
     label = "H2O2 + C4H9O-12 <=> C4H10O-12 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22055,7 +23617,7 @@ entry(
 )
 
 entry(
-    index = 1939,
+    index = 2081,
     label = "CH4O2 + C3H5O2 <=> C3H6O2 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22066,7 +23628,7 @@ entry(
 )
 
 entry(
-    index = 1940,
+    index = 2082,
     label = "HO2 + C4H7O-2 <=> C4H8O-2 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22077,7 +23639,7 @@ entry(
 )
 
 entry(
-    index = 1941,
+    index = 2083,
     label = "CH4 + C4H7O-10 <=> C4H8O-10 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -22088,7 +23650,7 @@ entry(
 )
 
 entry(
-    index = 1942,
+    index = 2084,
     label = "H2O + C3H5O-2 <=> C3H6O-2 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -22099,7 +23661,7 @@ entry(
 )
 
 entry(
-    index = 1943,
+    index = 2085,
     label = "H2O + C4H9-3 <=> C4H10-3 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -22110,7 +23672,7 @@ entry(
 )
 
 entry(
-    index = 1944,
+    index = 2086,
     label = "CH4O + C4H9O-3 <=> C4H10O-3 + CH3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -22121,7 +23683,7 @@ entry(
 )
 
 entry(
-    index = 1945,
+    index = 2087,
     label = "H2O + C3H5-1 <=> C3H6-1 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -22132,7 +23694,7 @@ entry(
 )
 
 entry(
-    index = 1946,
+    index = 2088,
     label = "C2H6O2 + C4H9-3 <=> C2H5O2 + C4H10-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -22143,7 +23705,7 @@ entry(
 )
 
 entry(
-    index = 1947,
+    index = 2089,
     label = "H2O + C3H5 <=> C3H6 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -22154,7 +23716,7 @@ entry(
 )
 
 entry(
-    index = 1948,
+    index = 2090,
     label = "H2O + H <=> HO + H2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22165,7 +23727,7 @@ entry(
 )
 
 entry(
-    index = 1949,
+    index = 2091,
     label = "C3H6O3 + O2 <=> HO2 + C3H5O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -22176,7 +23738,7 @@ entry(
 )
 
 entry(
-    index = 1950,
+    index = 2092,
     label = "CH4 + C4H9O-2 <=> C4H10O-2 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -22187,7 +23749,7 @@ entry(
 )
 
 entry(
-    index = 1951,
+    index = 2093,
     label = "H2 + C4H5O-3 <=> C4H6O-3 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -22198,7 +23760,7 @@ entry(
 )
 
 entry(
-    index = 1952,
+    index = 2094,
     label = "C4H10O2 + H <=> H2 + C4H9O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22209,7 +23771,7 @@ entry(
 )
 
 entry(
-    index = 1953,
+    index = 2095,
     label = "HO-1 + C3H3O-1 <=> C3H4O-1 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -22220,7 +23782,7 @@ entry(
 )
 
 entry(
-    index = 1954,
+    index = 2096,
     label = "CH4O2 + C3H7 <=> CH3O2 + C3H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -22231,7 +23793,7 @@ entry(
 )
 
 entry(
-    index = 1955,
+    index = 2097,
     label = "C4H10O3-5 + HO2-1 <=> C4H9O3-5 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22242,7 +23804,7 @@ entry(
 )
 
 entry(
-    index = 1956,
+    index = 2098,
     label = "CH4 + C4H9O-6 <=> C4H10O-6 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -22253,7 +23815,7 @@ entry(
 )
 
 entry(
-    index = 1957,
+    index = 2099,
     label = "HO2 + C2H3O2 <=> C2H4O2 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22264,7 +23826,7 @@ entry(
 )
 
 entry(
-    index = 1958,
+    index = 2100,
     label = "C4H10O2-3 + C2H3O-1 <=> C4H9O2-3 + C2H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22275,7 +23837,7 @@ entry(
 )
 
 entry(
-    index = 1959,
+    index = 2101,
     label = "C4H10O2-1 + CHO <=> C4H9O2-1 + CH2O",
     degeneracy = 1,
     distances = DistanceData(
@@ -22286,7 +23848,7 @@ entry(
 )
 
 entry(
-    index = 1960,
+    index = 2102,
     label = "HO-1 + C4H9-2 <=> C4H10-2 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -22297,7 +23859,7 @@ entry(
 )
 
 entry(
-    index = 1961,
+    index = 2103,
     label = "C2H4 + C4H9-1 <=> C4H10-1 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -22308,7 +23870,7 @@ entry(
 )
 
 entry(
-    index = 1962,
+    index = 2104,
     label = "H2 + C4H9O-11 <=> C4H10O-11 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -22319,7 +23881,7 @@ entry(
 )
 
 entry(
-    index = 1963,
+    index = 2105,
     label = "CH2O2 + CHO <=> CH2O + CHO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22330,7 +23892,7 @@ entry(
 )
 
 entry(
-    index = 1964,
+    index = 2106,
     label = "C3H8O2 + CHO <=> C3H7O2 + CH2O",
     degeneracy = 1,
     distances = DistanceData(
@@ -22341,7 +23903,7 @@ entry(
 )
 
 entry(
-    index = 1965,
+    index = 2107,
     label = "CH4 + C3H7 <=> CH3 + C3H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -22352,7 +23914,7 @@ entry(
 )
 
 entry(
-    index = 1966,
+    index = 2108,
     label = "CH4O-1 + C4H9O-1 <=> C4H10O-1 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22363,7 +23925,7 @@ entry(
 )
 
 entry(
-    index = 1967,
+    index = 2109,
     label = "H2O + C4H9O <=> C4H10O + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -22374,7 +23936,7 @@ entry(
 )
 
 entry(
-    index = 1968,
+    index = 2110,
     label = "H2O + C3H5O2 <=> C3H6O2 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -22385,7 +23947,7 @@ entry(
 )
 
 entry(
-    index = 1969,
+    index = 2111,
     label = "CH4O-1 + C4H9O-3 <=> C4H10O-3 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22396,7 +23958,7 @@ entry(
 )
 
 entry(
-    index = 1970,
+    index = 2112,
     label = "CH4O2 + C4H9O-5 <=> C4H10O-5 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22407,7 +23969,7 @@ entry(
 )
 
 entry(
-    index = 1971,
+    index = 2113,
     label = "CH4O2 + C2H5O-3 <=> C2H6O-3 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22418,7 +23980,7 @@ entry(
 )
 
 entry(
-    index = 1972,
+    index = 2114,
     label = "C2H4O3 + C2H3O-1 <=> C2H4O-1 + C2H3O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -22429,7 +23991,7 @@ entry(
 )
 
 entry(
-    index = 1973,
+    index = 2115,
     label = "HO2 + C4H9O-12 <=> C4H10O-12 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22440,7 +24002,7 @@ entry(
 )
 
 entry(
-    index = 1974,
+    index = 2116,
     label = "H2O + C4H7O-8 <=> C4H8O-8 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -22451,7 +24013,7 @@ entry(
 )
 
 entry(
-    index = 1975,
+    index = 2117,
     label = "C4H10O3-6 + HO2-1 <=> C4H9O3-6 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22462,7 +24024,7 @@ entry(
 )
 
 entry(
-    index = 1976,
+    index = 2118,
     label = "C3H8O2-1 + C3H3O-1 <=> C3H4O-1 + C3H7O2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22473,7 +24035,7 @@ entry(
 )
 
 entry(
-    index = 1977,
+    index = 2119,
     label = "H2O2 + C4H9O-11 <=> C4H10O-11 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22484,7 +24046,7 @@ entry(
 )
 
 entry(
-    index = 1978,
+    index = 2120,
     label = "C4H10O3-7 + O2 <=> C4H9O3-7 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22495,7 +24057,7 @@ entry(
 )
 
 entry(
-    index = 1979,
+    index = 2121,
     label = "HO-1 + H <=> O + H2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22506,7 +24068,7 @@ entry(
 )
 
 entry(
-    index = 1980,
+    index = 2122,
     label = "C3H6 + C4H5 <=> C4H6 + C3H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -22517,7 +24079,7 @@ entry(
 )
 
 entry(
-    index = 1981,
+    index = 2123,
     label = "C2H6 + C3H5O-1 <=> C3H6O-1 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -22528,7 +24090,7 @@ entry(
 )
 
 entry(
-    index = 1982,
+    index = 2124,
     label = "H2O2 + C4H7-1 <=> C4H8-1 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22539,7 +24101,7 @@ entry(
 )
 
 entry(
-    index = 1983,
+    index = 2125,
     label = "CH4 + C4H7O-7 <=> C4H8O-7 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -22550,7 +24112,7 @@ entry(
 )
 
 entry(
-    index = 1984,
+    index = 2126,
     label = "H2 + C4H7O-10 <=> C4H8O-10 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -22561,7 +24123,7 @@ entry(
 )
 
 entry(
-    index = 1985,
+    index = 2127,
     label = "C3H8O2-1 + C3H5 <=> C3H6 + C3H7O2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22572,7 +24134,7 @@ entry(
 )
 
 entry(
-    index = 1986,
+    index = 2128,
     label = "HO2 + C4H7O-10 <=> C4H8O-10 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22583,7 +24145,7 @@ entry(
 )
 
 entry(
-    index = 1987,
+    index = 2129,
     label = "HO2 + C4H7O-7 <=> C4H8O-7 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22594,7 +24156,7 @@ entry(
 )
 
 entry(
-    index = 1988,
+    index = 2130,
     label = "CH2O + C4H9O-4 <=> C4H10O-4 + CHO",
     degeneracy = 1,
     distances = DistanceData(
@@ -22605,7 +24167,7 @@ entry(
 )
 
 entry(
-    index = 1989,
+    index = 2131,
     label = "H2O2 + C4H9O-14 <=> C4H10O-14 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22616,7 +24178,7 @@ entry(
 )
 
 entry(
-    index = 1990,
+    index = 2132,
     label = "CH4O-1 + C4H7-1 <=> C4H8-1 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22627,7 +24189,7 @@ entry(
 )
 
 entry(
-    index = 1991,
+    index = 2133,
     label = "CH4O + C4H9O <=> C4H10O + CH3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -22638,7 +24200,7 @@ entry(
 )
 
 entry(
-    index = 1992,
+    index = 2134,
     label = "HO2 + C4H7O-5 <=> C4H8O-5 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22649,7 +24211,7 @@ entry(
 )
 
 entry(
-    index = 1993,
+    index = 2135,
     label = "HO2 + C4H7O-1 <=> C4H8O-1 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22660,7 +24222,7 @@ entry(
 )
 
 entry(
-    index = 1994,
+    index = 2136,
     label = "CH4O2 + C4H9O-2 <=> C4H10O-2 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22671,7 +24233,7 @@ entry(
 )
 
 entry(
-    index = 1995,
+    index = 2137,
     label = "H2 + C2H3O-1 <=> C2H4O-1 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -22682,7 +24244,7 @@ entry(
 )
 
 entry(
-    index = 1996,
+    index = 2138,
     label = "CH2O + C4H9O-5 <=> C4H10O-5 + CHO",
     degeneracy = 1,
     distances = DistanceData(
@@ -22693,7 +24255,7 @@ entry(
 )
 
 entry(
-    index = 1997,
+    index = 2139,
     label = "C4H10O2-2 + CH3O <=> CH4O + C4H9O2-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22704,7 +24266,7 @@ entry(
 )
 
 entry(
-    index = 1998,
+    index = 2140,
     label = "C3H6-1 + CO <=> C3H5-1 + CHO-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22715,7 +24277,7 @@ entry(
 )
 
 entry(
-    index = 1999,
+    index = 2141,
     label = "CH4O2 + H <=> H2 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22726,7 +24288,7 @@ entry(
 )
 
 entry(
-    index = 2000,
+    index = 2142,
     label = "CH4 + C4H9O-13 <=> C4H10O-13 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -22737,7 +24299,7 @@ entry(
 )
 
 entry(
-    index = 2001,
+    index = 2143,
     label = "H2O + C4H5-2 <=> C4H6-2 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -22748,7 +24310,7 @@ entry(
 )
 
 entry(
-    index = 2002,
+    index = 2144,
     label = "CH4O2 + C2H5O-2 <=> C2H6O-2 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22759,7 +24321,7 @@ entry(
 )
 
 entry(
-    index = 2003,
+    index = 2145,
     label = "C4H10O2-3 + C3H3O-1 <=> C4H9O2-3 + C3H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22770,7 +24332,7 @@ entry(
 )
 
 entry(
-    index = 2004,
+    index = 2146,
     label = "CH4 + C3H7-1 <=> CH3 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22781,7 +24343,7 @@ entry(
 )
 
 entry(
-    index = 2005,
+    index = 2147,
     label = "CH4O-1 + C4H9O-10 <=> C4H10O-10 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22792,7 +24354,7 @@ entry(
 )
 
 entry(
-    index = 2006,
+    index = 2148,
     label = "HO2 + C4H9O-6 <=> C4H10O-6 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22803,7 +24365,7 @@ entry(
 )
 
 entry(
-    index = 2007,
+    index = 2149,
     label = "CH4 + C2H5O-1 <=> C2H6O-1 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -22814,7 +24376,7 @@ entry(
 )
 
 entry(
-    index = 2008,
+    index = 2150,
     label = "CH4 + C4H9O-10 <=> C4H10O-10 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -22825,7 +24387,7 @@ entry(
 )
 
 entry(
-    index = 2009,
+    index = 2151,
     label = "H2O2 + C4H7-3 <=> C4H8-3 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22836,7 +24398,7 @@ entry(
 )
 
 entry(
-    index = 2010,
+    index = 2152,
     label = "C3H6 + C4H9-3 <=> C4H10-3 + C3H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -22847,7 +24409,7 @@ entry(
 )
 
 entry(
-    index = 2011,
+    index = 2153,
     label = "CH4O2 + C4H7O-11 <=> C4H8O-11 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -22858,7 +24420,7 @@ entry(
 )
 
 entry(
-    index = 2012,
+    index = 2154,
     label = "HO-1 + C4H9O-1 <=> C4H10O-1 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -22869,7 +24431,7 @@ entry(
 )
 
 entry(
-    index = 2013,
+    index = 2155,
     label = "C3H6 + CO <=> C3H5 + CHO-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22880,7 +24442,7 @@ entry(
 )
 
 entry(
-    index = 2014,
+    index = 2156,
     label = "H2O2 + C4H9O <=> C4H10O + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22891,7 +24453,7 @@ entry(
 )
 
 entry(
-    index = 2015,
+    index = 2157,
     label = "C2H4 + C4H7O-8 <=> C4H8O-8 + C2H3",
     degeneracy = 1,
     distances = DistanceData(
@@ -22902,7 +24464,7 @@ entry(
 )
 
 entry(
-    index = 2016,
+    index = 2158,
     label = "C2H6 + C4H9O <=> C4H10O + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -22913,7 +24475,7 @@ entry(
 )
 
 entry(
-    index = 2017,
+    index = 2159,
     label = "H2O2 + C3H3 <=> C3H4 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22924,7 +24486,7 @@ entry(
 )
 
 entry(
-    index = 2018,
+    index = 2160,
     label = "C2H4O3 + CHO <=> CH2O + C2H3O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -22935,7 +24497,7 @@ entry(
 )
 
 entry(
-    index = 2019,
+    index = 2161,
     label = "C2H6 + C4H9O-2 <=> C4H10O-2 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -22946,7 +24508,7 @@ entry(
 )
 
 entry(
-    index = 2020,
+    index = 2162,
     label = "H2O2 + C2H3O-1 <=> C2H4O-1 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22957,7 +24519,7 @@ entry(
 )
 
 entry(
-    index = 2021,
+    index = 2163,
     label = "H2O2 + C4H9O-3 <=> C4H10O-3 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22968,7 +24530,7 @@ entry(
 )
 
 entry(
-    index = 2022,
+    index = 2164,
     label = "C4H10O2 + CHO <=> C4H9O2 + CH2O",
     degeneracy = 1,
     distances = DistanceData(
@@ -22979,7 +24541,7 @@ entry(
 )
 
 entry(
-    index = 2023,
+    index = 2165,
     label = "H2O2 + C4H9O-5 <=> C4H10O-5 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -22990,7 +24552,7 @@ entry(
 )
 
 entry(
-    index = 2024,
+    index = 2166,
     label = "H2O + C2H3O2-2 <=> C2H4O2-2 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -23001,7 +24563,7 @@ entry(
 )
 
 entry(
-    index = 2025,
+    index = 2167,
     label = "C2H6 + C4H9-1 <=> C4H10-1 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -23012,7 +24574,7 @@ entry(
 )
 
 entry(
-    index = 2026,
+    index = 2168,
     label = "H2O2 + C4H9O-10 <=> C4H10O-10 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23023,7 +24585,7 @@ entry(
 )
 
 entry(
-    index = 2027,
+    index = 2169,
     label = "C3H8O2 + C4H9-2 <=> C4H10-2 + C3H7O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23034,7 +24596,7 @@ entry(
 )
 
 entry(
-    index = 2028,
+    index = 2170,
     label = "C2H6 + C4H9O-5 <=> C4H10O-5 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -23045,7 +24607,7 @@ entry(
 )
 
 entry(
-    index = 2029,
+    index = 2171,
     label = "C4H10O2-3 + CHO <=> C4H9O2-3 + CH2O",
     degeneracy = 1,
     distances = DistanceData(
@@ -23056,7 +24618,7 @@ entry(
 )
 
 entry(
-    index = 2030,
+    index = 2172,
     label = "H2 + C4H9O <=> C4H10O + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -23067,7 +24629,7 @@ entry(
 )
 
 entry(
-    index = 2031,
+    index = 2173,
     label = "CH2O + C4H9O-7 <=> C4H10O-7 + CHO",
     degeneracy = 1,
     distances = DistanceData(
@@ -23078,7 +24640,7 @@ entry(
 )
 
 entry(
-    index = 2032,
+    index = 2174,
     label = "C4H10O3-6 + O2 <=> C4H9O3-6 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23089,7 +24651,7 @@ entry(
 )
 
 entry(
-    index = 2033,
+    index = 2175,
     label = "CH4 + C4H9O-7 <=> C4H10O-7 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -23100,7 +24662,7 @@ entry(
 )
 
 entry(
-    index = 2034,
+    index = 2176,
     label = "CH4 + C4H7O-5 <=> C4H8O-5 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -23111,7 +24673,7 @@ entry(
 )
 
 entry(
-    index = 2035,
+    index = 2177,
     label = "C4H10O2-3 + CH3 <=> C4H9O2-3 + CH4",
     degeneracy = 1,
     distances = DistanceData(
@@ -23122,7 +24684,7 @@ entry(
 )
 
 entry(
-    index = 2036,
+    index = 2178,
     label = "CH4O2 + C2H3 <=> C2H4 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23133,7 +24695,7 @@ entry(
 )
 
 entry(
-    index = 2037,
+    index = 2179,
     label = "C4H10O3-8 + O2 <=> C4H9O3-8 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23144,7 +24706,7 @@ entry(
 )
 
 entry(
-    index = 2038,
+    index = 2180,
     label = "CH4O + C4H9O-8 <=> C4H10O-8 + CH3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -23155,7 +24717,7 @@ entry(
 )
 
 entry(
-    index = 2039,
+    index = 2181,
     label = "C4H10O3-9 + HO2-1 <=> C4H9O3-9 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23166,7 +24728,7 @@ entry(
 )
 
 entry(
-    index = 2040,
+    index = 2182,
     label = "C4H10O3-10 + O2 <=> C4H9O3-10 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23177,7 +24739,7 @@ entry(
 )
 
 entry(
-    index = 2041,
+    index = 2183,
     label = "C4H10O2-2 + C2H3 <=> C2H4 + C4H9O2-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23188,7 +24750,7 @@ entry(
 )
 
 entry(
-    index = 2042,
+    index = 2184,
     label = "CH4O-1 + C4H9-1 <=> C4H10-1 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23199,7 +24761,7 @@ entry(
 )
 
 entry(
-    index = 2043,
+    index = 2185,
     label = "CH4 + C4H9O-3 <=> C4H10O-3 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -23210,7 +24772,7 @@ entry(
 )
 
 entry(
-    index = 2044,
+    index = 2186,
     label = "H2O2 + C4H9-3 <=> C4H10-3 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23221,7 +24783,7 @@ entry(
 )
 
 entry(
-    index = 2045,
+    index = 2187,
     label = "CH4O2 + C4H7 <=> C4H8 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23232,7 +24794,7 @@ entry(
 )
 
 entry(
-    index = 2046,
+    index = 2188,
     label = "C4H8O-12 + O2 <=> C4H7O-12 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23243,7 +24805,7 @@ entry(
 )
 
 entry(
-    index = 2047,
+    index = 2189,
     label = "H2O2 + C3H5O2 <=> C3H6O2 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23254,7 +24816,7 @@ entry(
 )
 
 entry(
-    index = 2048,
+    index = 2190,
     label = "CH4O2 + C4H7O-6 <=> C4H8O-6 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23265,7 +24827,7 @@ entry(
 )
 
 entry(
-    index = 2049,
+    index = 2191,
     label = "CH2O + C4H9O-15 <=> C4H10O-15 + CHO",
     degeneracy = 1,
     distances = DistanceData(
@@ -23276,7 +24838,7 @@ entry(
 )
 
 entry(
-    index = 2050,
+    index = 2192,
     label = "H2 + C4H9O-8 <=> C4H10O-8 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -23287,7 +24849,7 @@ entry(
 )
 
 entry(
-    index = 2051,
+    index = 2193,
     label = "H2 + HO2-1 <=> H2O2 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -23298,7 +24860,7 @@ entry(
 )
 
 entry(
-    index = 2052,
+    index = 2194,
     label = "C3H8O2-1 + C2H3 <=> C2H4 + C3H7O2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23309,7 +24871,7 @@ entry(
 )
 
 entry(
-    index = 2053,
+    index = 2195,
     label = "CH4O-1 + C2H5O-3 <=> C2H6O-3 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23320,7 +24882,7 @@ entry(
 )
 
 entry(
-    index = 2054,
+    index = 2196,
     label = "HO2 + C4H9-3 <=> C4H10-3 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23331,7 +24893,7 @@ entry(
 )
 
 entry(
-    index = 2055,
+    index = 2197,
     label = "C3H8O2 + C3H7-1 <=> C3H7O2 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23342,7 +24904,7 @@ entry(
 )
 
 entry(
-    index = 2056,
+    index = 2198,
     label = "H2 + C4H9-1 <=> C4H10-1 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -23353,7 +24915,7 @@ entry(
 )
 
 entry(
-    index = 2057,
+    index = 2199,
     label = "HO-1 + C2H5O-3 <=> C2H6O-3 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -23364,7 +24926,7 @@ entry(
 )
 
 entry(
-    index = 2058,
+    index = 2200,
     label = "CH4O-1 + C4H9O-6 <=> C4H10O-6 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23375,7 +24937,18 @@ entry(
 )
 
 entry(
-    index = 2059,
+    index = 2201,
+    label = "H2O2 + C2H3O2 <=> C2H4O2 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32625, 'd13': 2.56839, 'd23': 1.25358},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 990""",
+)
+
+entry(
+    index = 2202,
     label = "H2 + C4H5-3 <=> C4H6-3 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -23386,7 +24959,7 @@ entry(
 )
 
 entry(
-    index = 2060,
+    index = 2203,
     label = "CH4 + C3H5O2 <=> C3H6O2 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -23397,7 +24970,7 @@ entry(
 )
 
 entry(
-    index = 2061,
+    index = 2204,
     label = "CH4O2 + C2H3O2-2 <=> C2H4O2-2 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23408,7 +24981,7 @@ entry(
 )
 
 entry(
-    index = 2062,
+    index = 2205,
     label = "CH2O + C4H9O-11 <=> C4H10O-11 + CHO",
     degeneracy = 1,
     distances = DistanceData(
@@ -23419,7 +24992,7 @@ entry(
 )
 
 entry(
-    index = 2063,
+    index = 2206,
     label = "CH4O-1 + C4H9O-7 <=> C4H10O-7 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23430,7 +25003,7 @@ entry(
 )
 
 entry(
-    index = 2064,
+    index = 2207,
     label = "H2O2 + C4H7O-13 <=> C4H8O-13 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23441,7 +25014,7 @@ entry(
 )
 
 entry(
-    index = 2065,
+    index = 2208,
     label = "H2O + C4H9O-12 <=> C4H10O-12 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -23452,7 +25025,7 @@ entry(
 )
 
 entry(
-    index = 2066,
+    index = 2209,
     label = "C3H8O2 + H <=> H2 + C3H7O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23463,7 +25036,7 @@ entry(
 )
 
 entry(
-    index = 2067,
+    index = 2210,
     label = "CH4 + C2H5O-3 <=> C2H6O-3 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -23474,7 +25047,7 @@ entry(
 )
 
 entry(
-    index = 2068,
+    index = 2211,
     label = "CH4O + C4H9O-1 <=> C4H10O-1 + CH3O",
     degeneracy = 1,
     distances = DistanceData(
@@ -23485,7 +25058,7 @@ entry(
 )
 
 entry(
-    index = 2069,
+    index = 2212,
     label = "CH4 + C4H9O <=> C4H10O + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -23496,7 +25069,7 @@ entry(
 )
 
 entry(
-    index = 2070,
+    index = 2213,
     label = "H2O + C4H7O <=> C4H8O + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -23507,7 +25080,7 @@ entry(
 )
 
 entry(
-    index = 2071,
+    index = 2214,
     label = "CH4 + C4H9O-15 <=> C4H10O-15 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -23518,7 +25091,7 @@ entry(
 )
 
 entry(
-    index = 2072,
+    index = 2215,
     label = "C4H6-1 + CO <=> C4H5-1 + CHO-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23529,7 +25102,7 @@ entry(
 )
 
 entry(
-    index = 2073,
+    index = 2216,
     label = "H2 + C4H9O-12 <=> C4H10O-12 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -23540,7 +25113,7 @@ entry(
 )
 
 entry(
-    index = 2074,
+    index = 2217,
     label = "CH4O-1 + C3H7 <=> C3H8 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23551,7 +25124,7 @@ entry(
 )
 
 entry(
-    index = 2075,
+    index = 2218,
     label = "CH4 + C4H9O-14 <=> C4H10O-14 + CH3",
     degeneracy = 1,
     distances = DistanceData(
@@ -23562,7 +25135,7 @@ entry(
 )
 
 entry(
-    index = 2076,
+    index = 2219,
     label = "CH4O2 + C4H9O-15 <=> C4H10O-15 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23573,7 +25146,7 @@ entry(
 )
 
 entry(
-    index = 2077,
+    index = 2220,
     label = "C4H8O-12 + H <=> C4H7O-12 + H2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23584,7 +25157,7 @@ entry(
 )
 
 entry(
-    index = 2078,
+    index = 2221,
     label = "C2H6O2 + H <=> H2 + C2H5O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23595,7 +25168,7 @@ entry(
 )
 
 entry(
-    index = 2079,
+    index = 2222,
     label = "H2O + C4H9O-14 <=> C4H10O-14 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -23606,7 +25179,7 @@ entry(
 )
 
 entry(
-    index = 2080,
+    index = 2223,
     label = "H2O2 + C4H9O-7 <=> C4H10O-7 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23617,7 +25190,7 @@ entry(
 )
 
 entry(
-    index = 2081,
+    index = 2224,
     label = "C4H10O2-3 + C2H3 <=> C4H9O2-3 + C2H4",
     degeneracy = 1,
     distances = DistanceData(
@@ -23628,7 +25201,7 @@ entry(
 )
 
 entry(
-    index = 2082,
+    index = 2225,
     label = "CH2O + C4H9O-13 <=> C4H10O-13 + CHO",
     degeneracy = 1,
     distances = DistanceData(
@@ -23639,7 +25212,7 @@ entry(
 )
 
 entry(
-    index = 2083,
+    index = 2226,
     label = "HO2 + C4H9O-7 <=> C4H10O-7 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23650,7 +25223,7 @@ entry(
 )
 
 entry(
-    index = 2084,
+    index = 2227,
     label = "C2H4O3 + C2H3 <=> C2H4 + C2H3O3",
     degeneracy = 1,
     distances = DistanceData(
@@ -23661,7 +25234,7 @@ entry(
 )
 
 entry(
-    index = 2085,
+    index = 2228,
     label = "H2O2 + C4H7O-5 <=> C4H8O-5 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23672,7 +25245,7 @@ entry(
 )
 
 entry(
-    index = 2086,
+    index = 2229,
     label = "H2O2 + C4H9O-2 <=> C4H10O-2 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23683,7 +25256,7 @@ entry(
 )
 
 entry(
-    index = 2087,
+    index = 2230,
     label = "CH4O-1 + C4H7O-10 <=> C4H8O-10 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23694,7 +25267,7 @@ entry(
 )
 
 entry(
-    index = 2088,
+    index = 2231,
     label = "CH4O-1 + C4H7O-5 <=> C4H8O-5 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23705,7 +25278,7 @@ entry(
 )
 
 entry(
-    index = 2089,
+    index = 2232,
     label = "HO-1 + C4H7O-8 <=> C4H8O-8 + O",
     degeneracy = 1,
     distances = DistanceData(
@@ -23716,7 +25289,7 @@ entry(
 )
 
 entry(
-    index = 2090,
+    index = 2233,
     label = "C4H6 + CO <=> C4H5 + CHO-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23727,7 +25300,7 @@ entry(
 )
 
 entry(
-    index = 2091,
+    index = 2234,
     label = "H2O2 + C4H7O-11 <=> C4H8O-11 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23738,7 +25311,7 @@ entry(
 )
 
 entry(
-    index = 2092,
+    index = 2235,
     label = "CH4O2 + C4H9O-7 <=> C4H10O-7 + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23749,7 +25322,7 @@ entry(
 )
 
 entry(
-    index = 2093,
+    index = 2236,
     label = "C3H6O-2 + C4H7-2 <=> C4H8-2 + C3H5O-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23760,7 +25333,7 @@ entry(
 )
 
 entry(
-    index = 2094,
+    index = 2237,
     label = "HO2 + C4H9O-2 <=> C4H10O-2 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23771,7 +25344,7 @@ entry(
 )
 
 entry(
-    index = 2095,
+    index = 2238,
     label = "C3H8O2-1 + C4H9-3 <=> C3H7O2-1 + C4H10-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -23782,7 +25355,7 @@ entry(
 )
 
 entry(
-    index = 2096,
+    index = 2239,
     label = "H2O + CH <=> CH2-1 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -23793,7 +25366,7 @@ entry(
 )
 
 entry(
-    index = 2097,
+    index = 2240,
     label = "C3H8O2 + C2H3O-1 <=> C3H7O2 + C2H4O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23804,7 +25377,7 @@ entry(
 )
 
 entry(
-    index = 2098,
+    index = 2241,
     label = "C2H6 + C4H9O-6 <=> C4H10O-6 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -23815,7 +25388,7 @@ entry(
 )
 
 entry(
-    index = 2099,
+    index = 2242,
     label = "H2O2 + C2H3O2-2 <=> C2H4O2-2 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23826,7 +25399,7 @@ entry(
 )
 
 entry(
-    index = 2100,
+    index = 2243,
     label = "H2O2 + C4H9-2 <=> C4H10-2 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23837,7 +25410,7 @@ entry(
 )
 
 entry(
-    index = 2101,
+    index = 2244,
     label = "CH4O-1 + C4H9O-5 <=> C4H10O-5 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23848,7 +25421,7 @@ entry(
 )
 
 entry(
-    index = 2102,
+    index = 2245,
     label = "C3H8O2-1 + C3H7 <=> C3H7O2-1 + C3H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -23859,7 +25432,7 @@ entry(
 )
 
 entry(
-    index = 2103,
+    index = 2246,
     label = "H2O + C4H7O-10 <=> C4H8O-10 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -23870,7 +25443,7 @@ entry(
 )
 
 entry(
-    index = 2104,
+    index = 2247,
     label = "CH2O + C4H9O-10 <=> C4H10O-10 + CHO",
     degeneracy = 1,
     distances = DistanceData(
@@ -23881,7 +25454,7 @@ entry(
 )
 
 entry(
-    index = 2105,
+    index = 2248,
     label = "C2H6 + C4H9O-10 <=> C4H10O-10 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -23892,7 +25465,7 @@ entry(
 )
 
 entry(
-    index = 2106,
+    index = 2249,
     label = "C2H6O2 + C2H3 <=> C2H4 + C2H5O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23903,7 +25476,7 @@ entry(
 )
 
 entry(
-    index = 2107,
+    index = 2250,
     label = "H2O + C4H7-5 <=> C4H8-5 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -23914,7 +25487,7 @@ entry(
 )
 
 entry(
-    index = 2108,
+    index = 2251,
     label = "H2 + C4H9O-15 <=> C4H10O-15 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -23925,7 +25498,7 @@ entry(
 )
 
 entry(
-    index = 2109,
+    index = 2252,
     label = "C4H10O2-3 + C3H5 <=> C4H9O2-3 + C3H6",
     degeneracy = 1,
     distances = DistanceData(
@@ -23936,7 +25509,7 @@ entry(
 )
 
 entry(
-    index = 2110,
+    index = 2253,
     label = "HO2 + C4H5O-2 <=> C4H6O-2 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23947,7 +25520,7 @@ entry(
 )
 
 entry(
-    index = 2111,
+    index = 2254,
     label = "CH4O2 + C4H9-3 <=> CH3O2 + C4H10-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -23958,7 +25531,7 @@ entry(
 )
 
 entry(
-    index = 2112,
+    index = 2255,
     label = "H2O2 + C4H7O-6 <=> C4H8O-6 + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -23969,7 +25542,7 @@ entry(
 )
 
 entry(
-    index = 2113,
+    index = 2256,
     label = "C4H10O2-3 + H <=> H2 + C4H9O2-3",
     degeneracy = 1,
     distances = DistanceData(
@@ -23980,7 +25553,7 @@ entry(
 )
 
 entry(
-    index = 2114,
+    index = 2257,
     label = "C4H10O2-2 + C3H5 <=> C3H6 + C4H9O2-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -23991,7 +25564,7 @@ entry(
 )
 
 entry(
-    index = 2115,
+    index = 2258,
     label = "CH4O-1 + C4H9O-12 <=> C4H10O-12 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -24002,7 +25575,7 @@ entry(
 )
 
 entry(
-    index = 2116,
+    index = 2259,
     label = "C4H8O-9 + H <=> C4H7O-9 + H2",
     degeneracy = 1,
     distances = DistanceData(
@@ -24013,7 +25586,7 @@ entry(
 )
 
 entry(
-    index = 2117,
+    index = 2260,
     label = "C4H8O-12 + CHO <=> C4H7O-12 + CH2O",
     degeneracy = 1,
     distances = DistanceData(
@@ -24024,7 +25597,7 @@ entry(
 )
 
 entry(
-    index = 2118,
+    index = 2261,
     label = "C4H10O2 + C3H3O-1 <=> C3H4O-1 + C4H9O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -24035,7 +25608,7 @@ entry(
 )
 
 entry(
-    index = 2119,
+    index = 2262,
     label = "C2H6 + C4H9O-13 <=> C4H10O-13 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
@@ -24046,7 +25619,7 @@ entry(
 )
 
 entry(
-    index = 2120,
+    index = 2263,
     label = "C4H10O3-7 + HO2-1 <=> C4H9O3-7 + H2O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -24057,7 +25630,7 @@ entry(
 )
 
 entry(
-    index = 2121,
+    index = 2264,
     label = "C2H6O2 + C3H7-1 <=> C2H5O2 + C3H8-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -24068,7 +25641,7 @@ entry(
 )
 
 entry(
-    index = 2122,
+    index = 2265,
     label = "H2 + C3H5O-1 <=> C3H6O-1 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -24079,7 +25652,7 @@ entry(
 )
 
 entry(
-    index = 2123,
+    index = 2266,
     label = "H2O + C4H9O-3 <=> C4H10O-3 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -24090,7 +25663,7 @@ entry(
 )
 
 entry(
-    index = 2124,
+    index = 2267,
     label = "H2O + C4H7O-11 <=> C4H8O-11 + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -24101,7 +25674,7 @@ entry(
 )
 
 entry(
-    index = 2125,
+    index = 2268,
     label = "H2O2 + C4H7O <=> C4H8O + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -24112,7 +25685,7 @@ entry(
 )
 
 entry(
-    index = 2126,
+    index = 2269,
     label = "C2H6O2 + C3H7 <=> C2H5O2 + C3H8",
     degeneracy = 1,
     distances = DistanceData(
@@ -24123,7 +25696,7 @@ entry(
 )
 
 entry(
-    index = 2127,
+    index = 2270,
     label = "C2H4O3 + O2 <=> C2H3O3 + HO2",
     degeneracy = 1,
     distances = DistanceData(
@@ -24134,7 +25707,7 @@ entry(
 )
 
 entry(
-    index = 2128,
+    index = 2271,
     label = "CH4O2 + C3H5O <=> C3H6O + CH3O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -24145,7 +25718,7 @@ entry(
 )
 
 entry(
-    index = 2129,
+    index = 2272,
     label = "H2 + C2H3O-4 <=> C2H4O-4 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -24156,7 +25729,7 @@ entry(
 )
 
 entry(
-    index = 2130,
+    index = 2273,
     label = "H2 + C4H7O-2 <=> C4H8O-2 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -24167,7 +25740,7 @@ entry(
 )
 
 entry(
-    index = 2131,
+    index = 2274,
     label = "C4H8O-14 + H <=> C4H7O-14 + H2",
     degeneracy = 1,
     distances = DistanceData(
@@ -24178,7 +25751,7 @@ entry(
 )
 
 entry(
-    index = 2132,
+    index = 2275,
     label = "H2O2 + CH3O <=> CH4O + HO2-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -24189,7 +25762,7 @@ entry(
 )
 
 entry(
-    index = 2133,
+    index = 2276,
     label = "CH4O-1 + CHO <=> CH2O + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -24200,7 +25773,7 @@ entry(
 )
 
 entry(
-    index = 2134,
+    index = 2277,
     label = "HO2 + C3H5 <=> C3H6 + O2",
     degeneracy = 1,
     distances = DistanceData(
@@ -24211,7 +25784,7 @@ entry(
 )
 
 entry(
-    index = 2135,
+    index = 2278,
     label = "CH4O-1 + C3H5O2 <=> C3H6O2 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -24222,7 +25795,7 @@ entry(
 )
 
 entry(
-    index = 2136,
+    index = 2279,
     label = "H2 + C4H9O-6 <=> C4H10O-6 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -24233,7 +25806,7 @@ entry(
 )
 
 entry(
-    index = 2137,
+    index = 2280,
     label = "C4H10O2-2 + H <=> H2 + C4H9O2-2",
     degeneracy = 1,
     distances = DistanceData(
@@ -24244,7 +25817,7 @@ entry(
 )
 
 entry(
-    index = 2138,
+    index = 2281,
     label = "H2 + C4H9O-1 <=> C4H10O-1 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -24255,7 +25828,7 @@ entry(
 )
 
 entry(
-    index = 2139,
+    index = 2282,
     label = "H2O + C2H3O <=> C2H4O + HO",
     degeneracy = 1,
     distances = DistanceData(
@@ -24266,7 +25839,7 @@ entry(
 )
 
 entry(
-    index = 2140,
+    index = 2283,
     label = "CH4O-1 + C4H9-2 <=> C4H10-2 + CH3O-1",
     degeneracy = 1,
     distances = DistanceData(
@@ -24277,46 +25850,1531 @@ entry(
 )
 
 entry(
-    index = 2141,
-    label = "H2O2 + C2H3O2 <=> C2H4O2 + HO2-1",
+    index = 2284,
+    label = "CH4O + C4H9O-12 <=> C4H10O-12 + CH3O",
     degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.32625, 'd13': 2.56839, 'd23': 1.25358},
+        distances = {'d12': 1.2151, 'd13': 2.53365, 'd23': 1.33072},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""Reverse reaction for reaction index 1073""",
 )
 
 entry(
-    index = 2142,
-    label = "HO-1 + C2H3O2-2 <=> C2H4O2-2 + O",
+    index = 2285,
+    label = "C2H6 + C4H9O-7 <=> C4H10O-7 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.25816, 'd13': 2.51893, 'd23': 1.26267},
+        distances = {'d12': 1.23183, 'd13': 2.51277, 'd23': 1.28297},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""Reverse reaction for reaction index 1074""",
 )
 
 entry(
-    index = 2143,
-    label = "H2O2 + C4H5O-2 <=> C4H6O-2 + HO2-1",
+    index = 2286,
+    label = "C4H10O2 + C3H7 <=> C4H9O2 + C3H8",
     degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.25734, 'd13': 2.50912, 'd23': 1.28127},
+        distances = {'d12': 1.17126, 'd13': 2.51648, 'd23': 1.34768},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""Reverse reaction for reaction index 1075""",
 )
 
 entry(
-    index = 2144,
-    label = "CH2O + C4H7O-14 <=> C4H8O-14 + CHO",
+    index = 2287,
+    label = "C2H6 + C4H9O-12 <=> C4H10O-12 + C2H5",
     degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 1.1911, 'd13': 2.55191, 'd23': 1.40266},
+        distances = {'d12': 1.23216, 'd13': 2.50789, 'd23': 1.28326},
         method = 'm062x/6-311+g(2df,2p)',
     ),
     shortDesc = u"""Reverse reaction for reaction index 1076""",
+)
+
+entry(
+    index = 2288,
+    label = "C4H8O-9 + HO2-1 <=> C4H7O-9 + H2O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3021, 'd13': 2.51244, 'd23': 1.22893},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1077""",
+)
+
+entry(
+    index = 2289,
+    label = "HO-1 + C4H9-3 <=> C4H10-3 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2336, 'd13': 2.50672, 'd23': 1.27504},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1078""",
+)
+
+entry(
+    index = 2290,
+    label = "C2H6O2 + C4H9-2 <=> C4H10-2 + C2H5O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.21267, 'd13': 2.51895, 'd23': 1.31086},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1079""",
+)
+
+entry(
+    index = 2291,
+    label = "CH4 + C3H5-1 <=> C3H6-1 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30635, 'd13': 2.67265, 'd23': 1.36664},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1080""",
+)
+
+entry(
+    index = 2292,
+    label = "C2H6O2 + C4H9-1 <=> C2H5O2 + C4H10-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.19689, 'd13': 2.51236, 'd23': 1.31738},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1081""",
+)
+
+entry(
+    index = 2293,
+    label = "C4H10O2-3 + CH3O <=> C4H9O2-3 + CH4O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.22555, 'd13': 2.52743, 'd23': 1.30669},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1082""",
+)
+
+entry(
+    index = 2294,
+    label = "H2O + C4H5O-1 <=> C4H6O-1 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.63284, 'd13': 2.74021, 'd23': 1.14087},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1083""",
+)
+
+entry(
+    index = 2295,
+    label = "C2H4 + C4H7O <=> C4H8O + C2H3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.38892, 'd13': 2.65764, 'd23': 1.28334},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1084""",
+)
+
+entry(
+    index = 2296,
+    label = "C3H8O2-1 + CHO <=> C3H7O2-1 + CH2O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23591, 'd13': 2.54265, 'd23': 1.3077},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1085""",
+)
+
+entry(
+    index = 2297,
+    label = "C3H8O2 + C2H5 <=> C3H7O2 + C2H6",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16876, 'd13': 2.51228, 'd23': 1.34599},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1086""",
+)
+
+entry(
+    index = 2298,
+    label = "CH4O-1 + C4H9O-11 <=> C4H10O-11 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28981, 'd13': 2.50555, 'd23': 1.22815},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1087""",
+)
+
+entry(
+    index = 2299,
+    label = "HO2 + C2H5 <=> C2H6 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.07001, 'd13': 2.62991, 'd23': 1.56834},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1088""",
+)
+
+entry(
+    index = 2300,
+    label = "CH2O3 + C4H9 <=> C4H10 + CHO3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2508, 'd13': 2.52177, 'd23': 1.27393},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1089""",
+)
+
+entry(
+    index = 2301,
+    label = "CH2O3 + C4H7-2 <=> C4H8-2 + CHO3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3365, 'd13': 2.55911, 'd23': 1.22445},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1090""",
+)
+
+entry(
+    index = 2302,
+    label = "C2H6O-3 + C2H3O-1 <=> C2H5O-3 + C2H4O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.41817, 'd13': 2.74805, 'd23': 1.34275},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1091""",
+)
+
+entry(
+    index = 2303,
+    label = "HO-1 + C4H9O-2 <=> C4H10O-2 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24896, 'd13': 2.51255, 'd23': 1.26537},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1092""",
+)
+
+entry(
+    index = 2304,
+    label = "C3H8O2 + C3H5O-1 <=> C3H7O2 + C3H6O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24535, 'd13': 2.53985, 'd23': 1.29787},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1093""",
+)
+
+entry(
+    index = 2305,
+    label = "CH4 + C4H9O-8 <=> C4H10O-8 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3884, 'd13': 2.67852, 'd23': 1.29508},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1094""",
+)
+
+entry(
+    index = 2306,
+    label = "C4H10O3-10 + HO2-1 <=> C4H9O3-10 + H2O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.14535, 'd13': 2.3442, 'd23': 1.21212},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1095""",
+)
+
+entry(
+    index = 2307,
+    label = "HO-1 + C4H9O-9 <=> C4H10O-9 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.22657, 'd13': 2.50469, 'd23': 1.28021},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1096""",
+)
+
+entry(
+    index = 2308,
+    label = "C2H6 + C4H9O-8 <=> C4H10O-8 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37285, 'd13': 2.69521, 'd23': 1.32444},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1097""",
+)
+
+entry(
+    index = 2309,
+    label = "C4H10O3-11 + O2 <=> C4H9O3-11 + HO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28842, 'd13': 2.39356, 'd23': 1.10557},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1098""",
+)
+
+entry(
+    index = 2310,
+    label = "C4H10O2-3 + C2H5 <=> C4H9O2-3 + C2H6",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16649, 'd13': 2.51218, 'd23': 1.35312},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1099""",
+)
+
+entry(
+    index = 2311,
+    label = "CH2O3 + C2H5O-3 <=> C2H6O-3 + CHO3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36852, 'd13': 2.57703, 'd23': 1.21353},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1100""",
+)
+
+entry(
+    index = 2312,
+    label = "C4H10O2-3 + C3H7 <=> C4H9O2-3 + C3H8",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16487, 'd13': 2.51282, 'd23': 1.35498},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1101""",
+)
+
+entry(
+    index = 2313,
+    label = "C2H4O3 + C4H9-1 <=> C4H10-1 + C2H3O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28334, 'd13': 2.53137, 'd23': 1.24821},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1102""",
+)
+
+entry(
+    index = 2314,
+    label = "CH4 + C4H5O-1 <=> C4H6O-1 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.48103, 'd13': 2.75268, 'd23': 1.27187},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1103""",
+)
+
+entry(
+    index = 2315,
+    label = "CH2O3 + C3H7 <=> C3H8 + CHO3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24923, 'd13': 2.51769, 'd23': 1.27024},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1104""",
+)
+
+entry(
+    index = 2316,
+    label = "CH4O2 + C4H9-1 <=> CH3O2 + C4H10-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.20272, 'd13': 2.50568, 'd23': 1.31627},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1105""",
+)
+
+entry(
+    index = 2317,
+    label = "C3H6O3 + C3H5O <=> C3H6O + C3H5O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17773, 'd13': 2.51637, 'd23': 1.34213},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1106""",
+)
+
+entry(
+    index = 2318,
+    label = "HO2 + C4H9O-11 <=> C4H10O-11 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.07013, 'd13': 2.63171, 'd23': 1.56779},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1107""",
+)
+
+entry(
+    index = 2319,
+    label = "CH2O + C4H9O-14 <=> C4H10O-14 + CHO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.35219, 'd13': 2.73906, 'd23': 1.39756},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1108""",
+)
+
+entry(
+    index = 2320,
+    label = "H2 + C4H7O-1 <=> C4H8O-1 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.02811, 'd13': 2.29527, 'd23': 1.26719},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1109""",
+)
+
+entry(
+    index = 2321,
+    label = "CH4O-1 + C4H9O-4 <=> C4H10O-4 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26023, 'd13': 2.49816, 'd23': 1.24691},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1110""",
+)
+
+entry(
+    index = 2322,
+    label = "C4H10O2-1 + C3H7 <=> C4H9O2-1 + C3H8",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16999, 'd13': 2.51298, 'd23': 1.34694},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1111""",
+)
+
+entry(
+    index = 2323,
+    label = "H2O2 + C4H7O-10 <=> C4H8O-10 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30511, 'd13': 2.53947, 'd23': 1.25689},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1112""",
+)
+
+entry(
+    index = 2324,
+    label = "C3H8O2-1 + C4H9 <=> C4H10 + C3H7O2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17297, 'd13': 2.52609, 'd23': 1.35388},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1113""",
+)
+
+entry(
+    index = 2325,
+    label = "CH4O + C4H9O-10 <=> C4H10O-10 + CH3O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34299, 'd13': 2.7157, 'd23': 1.37444},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1114""",
+)
+
+entry(
+    index = 2326,
+    label = "CH2O + C4H9O-3 <=> C4H10O-3 + CHO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.19566, 'd13': 2.5816, 'd23': 1.38595},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1115""",
+)
+
+entry(
+    index = 2327,
+    label = "H2O2 + C4H7-2 <=> C4H8-2 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23128, 'd13': 2.51273, 'd23': 1.30064},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1116""",
+)
+
+entry(
+    index = 2328,
+    label = "HO-1 + CHO <=> CH2O + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.43406, 'd13': 2.61396, 'd23': 1.18049},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1117""",
+)
+
+entry(
+    index = 2329,
+    label = "CH4O-1 + C2H3O-2 <=> C2H4O-2 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24389, 'd13': 2.47743, 'd23': 1.25143},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1118""",
+)
+
+entry(
+    index = 2330,
+    label = "CH4O2 + C4H9O-14 <=> C4H10O-14 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23822, 'd13': 2.53118, 'd23': 1.29556},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1119""",
+)
+
+entry(
+    index = 2331,
+    label = "CH2O3 + C4H9-1 <=> C4H10-1 + CHO3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28918, 'd13': 2.53804, 'd23': 1.25119},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1120""",
+)
+
+entry(
+    index = 2332,
+    label = "CH4O2 + C4H9O-9 <=> C4H10O-9 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16518, 'd13': 2.52457, 'd23': 1.35959},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1121""",
+)
+
+entry(
+    index = 2333,
+    label = "HO2 + C2H3O2-1 <=> C2H4O2-1 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.08337, 'd13': 2.60222, 'd23': 1.53419},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1122""",
+)
+
+entry(
+    index = 2334,
+    label = "C3H6-2 + C4H7-2 <=> C4H8-2 + C3H5-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.44951, 'd13': 2.70458, 'd23': 1.26134},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1123""",
+)
+
+entry(
+    index = 2335,
+    label = "CH4 + C3H3 <=> C3H4 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.39612, 'd13': 2.67365, 'd23': 1.27753},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1124""",
+)
+
+entry(
+    index = 2336,
+    label = "CH4 + C3H5 <=> C3H6 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.44917, 'd13': 2.70954, 'd23': 1.26104},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1125""",
+)
+
+entry(
+    index = 2337,
+    label = "CH4 + C4H5O-2 <=> C4H6O-2 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.48538, 'd13': 2.74968, 'd23': 1.26475},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1126""",
+)
+
+entry(
+    index = 2338,
+    label = "CH4O2 + C2H3O2-1 <=> C2H4O2-1 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.15608, 'd13': 2.51994, 'd23': 1.36495},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1127""",
+)
+
+entry(
+    index = 2339,
+    label = "C2H6 + C4H9O-3 <=> C4H10O-3 + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24447, 'd13': 2.51816, 'd23': 1.27749},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1128""",
+)
+
+entry(
+    index = 2340,
+    label = "HO2 + C3H7-1 <=> C3H8-1 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.08973, 'd13': 2.59083, 'd23': 1.52069},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1129""",
+)
+
+entry(
+    index = 2341,
+    label = "C2H6O2 + C4H7 <=> C4H8 + C2H5O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24896, 'd13': 2.53156, 'd23': 1.2883},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1130""",
+)
+
+entry(
+    index = 2342,
+    label = "H2O2 + C2H5O <=> C2H6O + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.26274, 'd13': 2.49115, 'd23': 1.27738},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1131""",
+)
+
+entry(
+    index = 2343,
+    label = "H2 + C4H7O-8 <=> C4H8O-8 + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.02592, 'd13': 2.2843, 'd23': 1.25972},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1132""",
+)
+
+entry(
+    index = 2344,
+    label = "H2O + C4H9O-8 <=> C4H10O-8 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.49137, 'd13': 2.63259, 'd23': 1.14892},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1133""",
+)
+
+entry(
+    index = 2345,
+    label = "C2H6O-3 + CHO <=> C2H5O-3 + CH2O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40678, 'd13': 2.74481, 'd23': 1.34765},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1134""",
+)
+
+entry(
+    index = 2346,
+    label = "CH4O2 + C4H7O-5 <=> C4H8O-5 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27698, 'd13': 2.53933, 'd23': 1.27428},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1135""",
+)
+
+entry(
+    index = 2347,
+    label = "C2H6O2 + C2H3O-2 <=> C2H4O-2 + C2H5O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.15805, 'd13': 2.50767, 'd23': 1.35414},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1136""",
+)
+
+entry(
+    index = 2348,
+    label = "C2H4O3 + C3H5O-1 <=> C3H6O-1 + C2H3O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37848, 'd13': 2.54806, 'd23': 1.21575},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1137""",
+)
+
+entry(
+    index = 2349,
+    label = "CH4O2 + C4H7O-7 <=> C4H8O-7 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16632, 'd13': 2.52246, 'd23': 1.35721},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1138""",
+)
+
+entry(
+    index = 2350,
+    label = "HO2 + C2H5O-3 <=> C2H6O-3 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.10825, 'd13': 2.5957, 'd23': 1.50541},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1139""",
+)
+
+entry(
+    index = 2351,
+    label = "C3H8O2-1 + C4H7-2 <=> C3H7O2-1 + C4H8-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.22628, 'd13': 2.53315, 'd23': 1.30764},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1140""",
+)
+
+entry(
+    index = 2352,
+    label = "C2H6O2 + C2H5 <=> C2H6 + C2H5O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17026, 'd13': 2.51105, 'd23': 1.34811},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1141""",
+)
+
+entry(
+    index = 2353,
+    label = "C4H10O2 + C3H7-1 <=> C4H9O2 + C3H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.19469, 'd13': 2.50424, 'd23': 1.32272},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1142""",
+)
+
+entry(
+    index = 2354,
+    label = "HO-1 + C4H7-2 <=> C4H8-2 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.31856, 'd13': 2.54218, 'd23': 1.2246},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1143""",
+)
+
+entry(
+    index = 2355,
+    label = "C3H8O2-1 + CH3 <=> CH4 + C3H7O2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.13467, 'd13': 2.51644, 'd23': 1.38675},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1144""",
+)
+
+entry(
+    index = 2356,
+    label = "C3H6 + C4H9-1 <=> C4H10-1 + C3H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.30119, 'd13': 2.69215, 'd23': 1.40259},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1145""",
+)
+
+entry(
+    index = 2357,
+    label = "C4H10O2-2 + C2H5 <=> C2H6 + C4H9O2-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16884, 'd13': 2.51419, 'd23': 1.34779},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1146""",
+)
+
+entry(
+    index = 2358,
+    label = "CH4O2 + C2H5O-1 <=> C2H6O-1 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.15404, 'd13': 2.51463, 'd23': 1.36648},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1147""",
+)
+
+entry(
+    index = 2359,
+    label = "HO2 + C3H5O-1 <=> C3H6O-1 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1573, 'd13': 2.579, 'd23': 1.43934},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1148""",
+)
+
+entry(
+    index = 2360,
+    label = "CH2O3 + C3H7-1 <=> C3H8-1 + CHO3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28916, 'd13': 2.53407, 'd23': 1.24654},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1149""",
+)
+
+entry(
+    index = 2361,
+    label = "HO-1 + C3H7-1 <=> C3H8-1 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27098, 'd13': 2.51957, 'd23': 1.24927},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1150""",
+)
+
+entry(
+    index = 2362,
+    label = "C3H6 + C3H5O-1 <=> C3H6O-1 + C3H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.38074, 'd13': 2.73487, 'd23': 1.35826},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1151""",
+)
+
+entry(
+    index = 2363,
+    label = "C4H10O2-3 + C3H7-1 <=> C4H9O2-3 + C3H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.18828, 'd13': 2.51627, 'd23': 1.33199},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1152""",
+)
+
+entry(
+    index = 2364,
+    label = "CH4O2 + C3H5 <=> C3H6 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.2359, 'd13': 2.52991, 'd23': 1.30493},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1153""",
+)
+
+entry(
+    index = 2365,
+    label = "C3H8O2-1 + C4H7 <=> C4H8 + C3H7O2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24574, 'd13': 2.52972, 'd23': 1.29077},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1154""",
+)
+
+entry(
+    index = 2366,
+    label = "C4H10O2 + CH3 <=> CH4 + C4H9O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.13598, 'd13': 2.5174, 'd23': 1.38331},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1155""",
+)
+
+entry(
+    index = 2367,
+    label = "H2O + C4H7O-13 <=> C4H8O-13 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.46485, 'd13': 2.62002, 'd23': 1.15723},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1156""",
+)
+
+entry(
+    index = 2368,
+    label = "C2H6O2 + C3H5 <=> C3H6 + C2H5O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23164, 'd13': 2.52664, 'd23': 1.29841},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1157""",
+)
+
+entry(
+    index = 2369,
+    label = "CH4 + C4H7O-3 <=> C4H8O-3 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.44019, 'd13': 2.71049, 'd23': 1.27235},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1158""",
+)
+
+entry(
+    index = 2370,
+    label = "H2O2 + C4H9-1 <=> C4H10-1 + HO2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.20704, 'd13': 2.50142, 'd23': 1.30617},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1159""",
+)
+
+entry(
+    index = 2371,
+    label = "CH4O2 + C4H7O-13 <=> C4H8O-13 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.20231, 'd13': 2.53315, 'd23': 1.33317},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1160""",
+)
+
+entry(
+    index = 2372,
+    label = "HO2 + C4H7-3 <=> C4H8-3 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.14729, 'd13': 2.5872, 'd23': 1.45265},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1161""",
+)
+
+entry(
+    index = 2373,
+    label = "HO2 + C4H9O-14 <=> C4H10O-14 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.12233, 'd13': 2.59162, 'd23': 1.4746},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1162""",
+)
+
+entry(
+    index = 2374,
+    label = "HO-1 + C2H5O-2 <=> C2H6O-2 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16787, 'd13': 2.30608, 'd23': 1.15992},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1163""",
+)
+
+entry(
+    index = 2375,
+    label = "CH4 + C4H9-3 <=> C4H10-3 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37506, 'd13': 2.67977, 'd23': 1.30719},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1164""",
+)
+
+entry(
+    index = 2376,
+    label = "H2 + C2HO <=> C2H2O + H",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 0.878029, 'd13': 2.23459, 'd23': 1.35823},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1165""",
+)
+
+entry(
+    index = 2377,
+    label = "HO-1 + C4H7O <=> C4H8O + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.22459, 'd13': 2.50396, 'd23': 1.28009},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1166""",
+)
+
+entry(
+    index = 2378,
+    label = "CH4O + C4H9O-14 <=> C4H10O-14 + CH3O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37225, 'd13': 2.71349, 'd23': 1.34804},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1167""",
+)
+
+entry(
+    index = 2379,
+    label = "CH2O2 + C2H5O-3 <=> C2H6O-3 + CHO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.86322, 'd13': 2.94305, 'd23': 1.11716},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1168""",
+)
+
+entry(
+    index = 2380,
+    label = "CH4O2 + C4H7O-1 <=> C4H8O-1 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.22986, 'd13': 2.52545, 'd23': 1.30383},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1169""",
+)
+
+entry(
+    index = 2381,
+    label = "C4H10-3 + C4H9-1 <=> C4H10-1 + C4H9-3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.37897, 'd13': 2.70289, 'd23': 1.32488},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1170""",
+)
+
+entry(
+    index = 2382,
+    label = "CH2O + C2H3O2-2 <=> C2H4O2-2 + CHO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.31259, 'd13': 2.7601, 'd23': 1.44881},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1171""",
+)
+
+entry(
+    index = 2383,
+    label = "C4H8O-9 + C4H7-2 <=> C4H7O-9 + C4H8-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.36256, 'd13': 2.7118, 'd23': 1.35379},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1172""",
+)
+
+entry(
+    index = 2384,
+    label = "C4H10O2-1 + C3H5 <=> C4H9O2-1 + C3H6",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.22642, 'd13': 2.52702, 'd23': 1.30423},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1173""",
+)
+
+entry(
+    index = 2385,
+    label = "CH4O2 + C4H9O-11 <=> C4H10O-11 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.1641, 'd13': 2.5134, 'd23': 1.35638},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1174""",
+)
+
+entry(
+    index = 2386,
+    label = "HO2 + C3H5O2 <=> C3H6O2 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.15751, 'd13': 2.57487, 'd23': 1.4384},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1175""",
+)
+
+entry(
+    index = 2387,
+    label = "C3H6 + C3H7 <=> C3H8 + C3H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.28349, 'd13': 2.70384, 'd23': 1.42509},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1176""",
+)
+
+entry(
+    index = 2388,
+    label = "HO-1 + C4H9O-11 <=> C4H10O-11 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.24111, 'd13': 2.51017, 'd23': 1.27203},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1177""",
+)
+
+entry(
+    index = 2389,
+    label = "C2H4 + C3H3-2 <=> C3H4-1 + C2H3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.44926, 'd13': 2.69751, 'd23': 1.24901},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1178""",
+)
+
+entry(
+    index = 2390,
+    label = "H2O + C4H7O-4 <=> C4H8O-4 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40381, 'd13': 2.56337, 'd23': 1.16738},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1179""",
+)
+
+entry(
+    index = 2391,
+    label = "CH2O + C4H9O-6 <=> C4H10O-6 + CHO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34856, 'd13': 2.73828, 'd23': 1.40139},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1180""",
+)
+
+entry(
+    index = 2392,
+    label = "CH4O2 + O2 <=> CH3O2 + HO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34582, 'd13': 2.39627, 'd23': 1.08027},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1181""",
+)
+
+entry(
+    index = 2393,
+    label = "C4H10O2-1 + C2H3 <=> C2H4 + C4H9O2-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.10268, 'd13': 2.52315, 'd23': 1.42073},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1182""",
+)
+
+entry(
+    index = 2394,
+    label = "C2H4O3 + C3H7 <=> C3H8 + C2H3O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23478, 'd13': 2.51364, 'd23': 1.28039},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1183""",
+)
+
+entry(
+    index = 2395,
+    label = "CH4O2 + CH3 <=> CH4 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.13644, 'd13': 2.51735, 'd23': 1.3841},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1184""",
+)
+
+entry(
+    index = 2396,
+    label = "C4H10O2-1 + C2H5 <=> C4H9O2-1 + C2H6",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16567, 'd13': 2.51274, 'd23': 1.34903},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1185""",
+)
+
+entry(
+    index = 2397,
+    label = "C3H8O2 + C4H9-1 <=> C3H7O2 + C4H10-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.19735, 'd13': 2.51739, 'd23': 1.32807},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1186""",
+)
+
+entry(
+    index = 2398,
+    label = "C2H6O2 + C4H9 <=> C4H10 + C2H5O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.16891, 'd13': 2.52085, 'd23': 1.35289},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1187""",
+)
+
+entry(
+    index = 2399,
+    label = "C4H10O3-5 + O2 <=> C4H9O3-5 + HO2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.32965, 'd13': 2.38894, 'd23': 1.08768},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1188""",
+)
+
+entry(
+    index = 2400,
+    label = "HO-1 + C4H5O-1 <=> C4H6O-1 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.48897, 'd13': 2.64287, 'd23': 1.17172},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1189""",
+)
+
+entry(
+    index = 2401,
+    label = "HO2 + C4H9O <=> C4H10O + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.08106, 'd13': 2.61284, 'd23': 1.53933},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1190""",
+)
+
+entry(
+    index = 2402,
+    label = "CH4O2 + C4H7-2 <=> C4H8-2 + CH3O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.23292, 'd13': 2.52999, 'd23': 1.30667},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1191""",
+)
+
+entry(
+    index = 2403,
+    label = "C4H10O2-2 + C3H7-1 <=> C4H9O2-2 + C3H8-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.19278, 'd13': 2.51621, 'd23': 1.32772},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1192""",
+)
+
+entry(
+    index = 2404,
+    label = "CH4O-1 + C2H3 <=> C2H4 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.19518, 'd13': 2.46904, 'd23': 1.28232},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1193""",
+)
+
+entry(
+    index = 2405,
+    label = "CH4 + C4H7O-8 <=> C4H8O-8 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.45785, 'd13': 2.71021, 'd23': 1.25638},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1194""",
+)
+
+entry(
+    index = 2406,
+    label = "C2H6 + C4H7O <=> C4H8O + C2H5",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.34165, 'd13': 2.67778, 'd23': 1.34114},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1195""",
+)
+
+entry(
+    index = 2407,
+    label = "C2H6O3 + C2H5O-3 <=> C2H6O-3 + C2H5O3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.27276, 'd13': 2.53859, 'd23': 1.26855},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1196""",
+)
+
+entry(
+    index = 2408,
+    label = "H2O + C4H9O-9 <=> C4H10O-9 + HO",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.42585, 'd13': 2.57912, 'd23': 1.16132},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1197""",
+)
+
+entry(
+    index = 2409,
+    label = "HO-1 + CH3O <=> CH4O + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.3182, 'd13': 2.54236, 'd23': 1.22568},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1198""",
+)
+
+entry(
+    index = 2410,
+    label = "CH4O-1 + C4H9O-2 <=> C4H10O-2 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.29131, 'd13': 2.51843, 'd23': 1.22976},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1199""",
+)
+
+entry(
+    index = 2411,
+    label = "C3H4-1 + CO <=> C3H3-2 + CHO-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.121, 'd13': 2.62211, 'd23': 1.83166},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1200""",
+)
+
+entry(
+    index = 2412,
+    label = "HO2 + C2H3O2-2 <=> C2H4O2-2 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.04724, 'd13': 2.66717, 'd23': 1.63655},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1201""",
+)
+
+entry(
+    index = 2413,
+    label = "CH4O-1 + C2H3O2-2 <=> C2H4O2-2 + CH3O-1",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.25893, 'd13': 2.48747, 'd23': 1.24982},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1202""",
+)
+
+entry(
+    index = 2414,
+    label = "HO-1 + C2H5 <=> C2H6 + O",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.22989, 'd13': 2.50702, 'd23': 1.27784},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1203""",
+)
+
+entry(
+    index = 2415,
+    label = "CH4 + C4H5O-3 <=> C4H6O-3 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.46614, 'd13': 2.71204, 'd23': 1.24995},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1204""",
+)
+
+entry(
+    index = 2416,
+    label = "CH4 + C2H3O-1 <=> C2H4O-1 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.48917, 'd13': 2.75446, 'd23': 1.26536},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1205""",
+)
+
+entry(
+    index = 2417,
+    label = "HO2 + C4H9-1 <=> C4H10-1 + O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.08945, 'd13': 2.59406, 'd23': 1.52494},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1206""",
+)
+
+entry(
+    index = 2418,
+    label = "CH4 + C4H7O-2 <=> C4H8O-2 + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.49481, 'd13': 2.76049, 'd23': 1.26599},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1207""",
+)
+
+entry(
+    index = 2419,
+    label = "C2H4 + C4H9-3 <=> C4H10-3 + C2H3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.40154, 'd13': 2.66903, 'd23': 1.28025},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1208""",
+)
+
+entry(
+    index = 2420,
+    label = "CH4 + C2H5O <=> C2H6O + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.43746, 'd13': 2.70536, 'd23': 1.27239},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1209""",
+)
+
+entry(
+    index = 2421,
+    label = "CH4 + C3H5O <=> C3H6O + CH3",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.41983, 'd13': 2.6953, 'd23': 1.27598},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1210""",
+)
+
+entry(
+    index = 2422,
+    label = "C4H10O3-4 + HO2-1 <=> C4H9O3-4 + H2O2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.17319, 'd13': 2.33938, 'd23': 1.18625},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 1211""",
 )
 
