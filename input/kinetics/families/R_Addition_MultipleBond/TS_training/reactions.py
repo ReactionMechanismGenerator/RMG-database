@@ -1778,3 +1778,25 @@ entry(
     shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
 )
 
+entry(
+    index = 162,
+    label = "H + C3H6-1 <=> C3H7-2",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.341, 'd13': 1.89506, 'd23': 2.52434},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 163,
+    label = "CH3 + C2H4 <=> C3H7-3",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.35031, 'd13': 2.25558, 'd23': 2.98539},
+        method = 'm062x/6-311+g(2df,2p)',
+    ),
+    shortDesc = u"""M06-2X/6-311+G(2df,2p) calculation via group additive TS generator.""",
+)
+
