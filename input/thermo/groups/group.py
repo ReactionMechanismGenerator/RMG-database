@@ -4067,23 +4067,23 @@ u"""
 
 """,
 )
-#entry(
-#    index = 7002,
-#    label = "Cds-CdClCl",
-#    group = 
-#"""
-#1 * Cd u0 {2,D} {3,S} {4,S}
-#2   C  u0 {1,D}
-#3   Cl  u0 {1,S}
-#4   Cl  u0 {1,S}
-#""",
-#    thermo = u'Cds-CdsFF',
-#    shortDesc = u"""""",
-#    longDesc = 
-#u"""
-#
-#""",
-#)
+entry(
+    index = 7002,
+    label = "Cds-CdClCl",
+    group = 
+"""
+1 * Cd u0 {2,D} {3,S} {4,S}
+2   C  u0 {1,D}
+3   Cl  u0 {1,S}
+4   Cl  u0 {1,S}
+""",
+    thermo = u'Cds-CdsClCl',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
 
 entry(
     index = 7003,
@@ -4730,23 +4730,23 @@ u"""
 
 """,
 )
-#entry(
-#    index = 7014,
-#    label = "Cds-CdsCCl",
-#    group = 
-#"""
-#1 * Cd u0 {2,D} {3,S} {4,S}
-#2   C  u0 {1,D}
-#3   C  u0 {1,S}
-#4   Cl  u0 {1,S}
-#""",
-#    thermo = u'Cds-CdsCsCl',
-#    shortDesc = u"""""",
-#    longDesc = 
-#u"""
-#
-#""",
-#)
+entry(
+    index = 7014,
+    label = "Cds-CdsCCl",
+    group = 
+"""
+1 * Cd u0 {2,D} {3,S} {4,S}
+2   C  u0 {1,D}
+3   C  u0 {1,S}
+4   Cl  u0 {1,S}
+""",
+    thermo = u'Cds-CdsCsCl',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
 
 entry(
     index = 7015,
@@ -12503,24 +12503,24 @@ u"""
 
 """,
 )
-#entry(
-#    index = 6001,
-#    label = "Cs-CClClCl",
-#    group = 
-#"""
-#1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-#2   C  u0 {1,S}
-#3   Cl  u0 {1,S}
-#4   Cl  u0 {1,S}
-#5   Cl  u0 {1,S}
-#""",
-#    thermo = u'Cs-CsClClCl',
-#    shortDesc = u"""""",
-#    longDesc = 
-#u"""
-#
-#""",
-#)
+entry(
+    index = 6001,
+    label = "Cs-CClClCl",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   C  u0 {1,S}
+3   Cl  u0 {1,S}
+4   Cl  u0 {1,S}
+5   Cl  u0 {1,S}
+""",
+    thermo = u'Cs-CsClClCl',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
 
 entry(
     index = 6002,
@@ -12589,24 +12589,24 @@ u"""
 """,
 )
 
-#entry(
-#    index = 6027,
-#    label = "Cs-CClClH",
-#    group = 
-#"""
-#1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-#2   C  u0 {1,S}
-#3   Cl  u0 {1,S}
-#4   Cl  u0 {1,S}
-#5   H  u0 {1,S}
-#""",
-#    thermo = u'Cs-CsClClH',
-#    shortDesc = u"""""",
-#    longDesc = 
-#u"""
-#
-#""",
-#)
+entry(
+    index = 6027,
+    label = "Cs-CClClH",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   C  u0 {1,S}
+3   Cl  u0 {1,S}
+4   Cl  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = u'Cs-CsClClH',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
 
 entry(
     index = 6020,
@@ -12675,24 +12675,24 @@ u"""
 """,
 )
 
-#entry(
-#    index = 6006,
-#    label = "Cs-CCClCl",
-#    group = 
-#"""
-#1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-#2   C  u0 {1,S}
-#3   C  u0 {1,S}
-#4   Cl  u0 {1,S}
-#5   Cl  u0 {1,S}
-#""",
-#    thermo = u'Cs-CsCsClCl',
-#    shortDesc = u"""""",
-#    longDesc = 
-#u"""
-#
-#""",
-#)
+entry(
+    index = 6006,
+    label = "Cs-CCClCl",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   C  u0 {1,S}
+3   C  u0 {1,S}
+4   Cl  u0 {1,S}
+5   Cl  u0 {1,S}
+""",
+    thermo = u'Cs-CsCsClCl',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
 
 entry(
     index = 6007,
@@ -12765,24 +12765,24 @@ u"""
 )
 
 
-#entry(
-#    index = 6023,
-#    label = "Cs-CClHH",
-#    group = 
-#"""
-#1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-#2   C  u0 {1,S}
-#3   Cl  u0 {1,S}
-#4   H  u0 {1,S}
-#5   H  u0 {1,S}
-#""",
-#    thermo = u'Cs-CsClHH',
-#    shortDesc = u"""""",
-#    longDesc = 
-#u"""
-#
-#""",
-#)
+entry(
+    index = 6023,
+    label = "Cs-CClHH",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   C  u0 {1,S}
+3   Cl  u0 {1,S}
+4   H  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = u'Cs-CsClHH',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
 
 entry(
     index = 6024,
@@ -12852,24 +12852,24 @@ u"""
 """,
 )
 
-#entry(
-#    index = 6028,
-#    label = "Cs-CCClH",
-#    group = 
-#"""
-#1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-#2   C u0 {1,S}
-#3   C u0 {1,S}
-#4   H  u0 {1,S}
-#5   Cl  u0 {1,S}
-#""",
-#    thermo = u'Cs-CsCsClH',
-#    shortDesc = u"""""",
-#    longDesc = 
-#u"""
-#
-#""",
-#)
+entry(
+    index = 6028,
+    label = "Cs-CCClH",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   C u0 {1,S}
+3   C u0 {1,S}
+4   H  u0 {1,S}
+5   Cl  u0 {1,S}
+""",
+    thermo = u'Cs-CsCsClH',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
 
 
 entry(
@@ -44226,7 +44226,8 @@ L1: R
                 L5: Cds-CdsClCl
             L4: Cds-CdFF
                 L5: Cds-CdsFF
-            L4: Cds-CdsClCl
+            L4: Cds-CdClCl
+            	L5: Cds-CdsClCl
             L4: Cds-CdHH
                 L5: Cds-CdsHH
                 L5: Cds-CddHH
@@ -44238,7 +44239,8 @@ L1: R
                 L5: Cds-CddOsH
                     L6: Cds-(Cdd-Od)OsH
                     L6: Cds-(Cdd-Cd)OsH
-            L4: Cds-CdsHCl
+            L4: Cds-CdHCl
+            	L5: Cds-CdsHCl
             L4: Cds-CdSsH
                 L5: Cds-CdsSsH
                 L5: Cds-CddSsH
@@ -44256,7 +44258,8 @@ L1: R
                     L6: Cds-(Cdd-Cd)SsSs
             L4: Cds-CdsCF
                 L5: Cds-CdsCsF
-            L4: Cds-CdsCsCl
+            L4: Cds-CdsCCl
+            	L5: Cds-CdsCsCl
             L4: Cds-CdCH
                 L5: Cds-CdsCsH
                 L5: Cds-CdsCdsH
@@ -44679,19 +44682,24 @@ L1: R
             L4: Cs-CFFF
                 L5: Cs-CsFFF
                 L5: Cs-CdFFF
-            L4: Cs-CsClClCl
+            L4: Cs-CClClCl
+            	L5: Cs-CsClClCl
             L4: Cs-CFFH
                 L5: Cs-CsFFH
-            L4: Cs-CsClClH
+            L4: Cs-CClClH
+            	L5: Cs-CsClClH
             L4: Cs-CCFF
                 L5: Cs-CsCsFF
-            L4: Cs-CsCsClCl
+            L4: Cs-CCClCl
+            	L5: Cs-CsCsClCl
             L4: Cs-CFHH
                 L5: Cs-CsFHH  
-            L4: Cs-CsClHH
+            L4: Cs-CClHH
+            	L5: Cs-CsClHH
             L4: Cs-CCFH
                 L5: Cs-CsCsFH
-            L4: Cs-CsCsClH
+            L4: Cs-CCClH
+            	L5: Cs-CsCsClH
             L4: Cs-CHHH
                 L5: Cs-CsHHH
                 L5: Cs-CdsHHH
