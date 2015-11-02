@@ -47,6 +47,7 @@ Do better kinetics for this exist? Do we in fact use the reverse kinetics anyway
 """,
 )
 
+
 entry(
     index = 1,
     label = "X_H;Y_rad_birad_trirad_quadrad",
@@ -46621,5 +46622,158 @@ entry(
     longDesc = """
 Kinetics of Hydrogen Abstraction Reactions of Butene Isomers by OH Radical
 p-allylic site of iso-butene ref: DOI: 10.1021/jp1062786""",
+)
+
+entry(
+    index = 8000,
+    label = "CpriCl;Cl_rad",
+    kinetics = ArrheniusEP(
+        A = (3.30e+13, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (3.28, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Default""",
+)
+
+entry(
+    index = 8001,
+    label = "C_rad/H2/Cl;Cl_rad",
+    kinetics = ArrheniusEP(
+        A = (5.03e+13, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (2.88, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Default""",
+)
+
+entry(
+    index = 8002,
+    label = "CpriCl3;Cl_rad",
+    kinetics = ArrheniusEP(
+        A = (1.99e+13, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (2.74, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Default""",
+)
+
+
+entry(
+    index = 8003,
+    label = "C/H3/Cs\H3;Cl_rad",
+    kinetics = ArrheniusEP(
+        A = (5.42e+13, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0.264, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Default""",
+)
+
+entry(
+    index = 8004,
+    label = "C/H2Cl/Cs\H3;Cl_rad",
+    kinetics = ArrheniusEP(
+        A = (3.54e+13, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (1.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Default""",
+)
+
+entry(
+    index = 8005,
+    label = "C/H3/Cs\H2Cl;Cl_rad",
+    kinetics = ArrheniusEP(
+        A = (1.12e+13, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (1.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Default""",
+)
+
+entry(
+    index = 8006,
+    label = "C/H2Cl/Cs\H2Cl;Cl_rad",
+    kinetics = ArrheniusEP(
+        A = (6.31e+13, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (3.10, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Default""",
+)
+
+
+entry(
+    index = 8007,
+    label = "C/H3/Cs\Cl3;Cl_rad",
+    kinetics = ArrheniusEP(
+        A = (2.51e+12, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (3.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Default""",
+)
+
+entry(
+    index = 8008,
+    label = "C/H3/Cs\H2\Cs;Cl_rad",
+    kinetics = ArrheniusEP(
+        A = (7.20e+13, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0.66, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Default""",
+)
+
+
+entry(
+    index = 8009,
+    label = "C/H/Cs3;Cl_rad",
+    kinetics = ArrheniusEP(
+        A = (4.94e+13, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0.118, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Default""",
 )
 
