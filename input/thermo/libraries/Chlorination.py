@@ -588,3 +588,502 @@ u"""
 
 """,
 )
+
+
+entry(
+    index = 22,
+    label = "CC(Cl)C",
+    molecule = 
+"""
+1  C  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C  u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
+3  Cl u0 p3 c0 {2,S}
+4  C  u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+5  H  u0 p0 c0 {1,S}
+6  H  u0 p0 c0 {1,S}
+7  H  u0 p0 c0 {1,S}
+8  H  u0 p0 c0 {2,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {4,S}
+11 H  u0 p0 c0 {4,S}
+""",
+    thermo = Wilhoit(
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (257.749, 'J/(mol*K)'),
+        a0 = -2.74468,
+        a1 = 3.80647,
+        a2 = -8.18262,
+        a3 = 5.18858,
+        H0 = (-96.5735, 'kJ/mol'),
+        S0 = (-1382.47, 'J/(mol*K)'),
+        B = (685.282, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3 calcs""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+entry(
+    index = 23,
+    label = "C[C](Cl)C",
+    molecule = 
+"""
+1  C  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C  u1 p0 c0 {1,S} {3,S} {4,S}
+3  Cl u0 p3 c0 {2,S}
+4  C  u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+5  H  u0 p0 c0 {1,S}
+6  H  u0 p0 c0 {1,S}
+7  H  u0 p0 c0 {1,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {4,S}
+""",
+    thermo = Wilhoit(
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (232.805, 'J/(mol*K)'),
+        a0 = -3.59945,
+        a1 = 13.6356,
+        a2 = -21.6418,
+        a3 = 9.46726,
+        H0 = (-51.9955, 'kJ/mol'),
+        S0 = (-1122.89, 'J/(mol*K)'),
+        B = (432.452, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3 calcs""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+entry(
+    index = 24,
+    label = "CCC",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+3  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+4  H u0 p0 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+""",
+    thermo = Wilhoit(
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (257.749, 'J/(mol*K)'),
+        a0 = -4.25899,
+        a1 = -5.10272,
+        a2 = 16.4936,
+        a3 = -9.55006,
+        H0 = (-968.741, 'kJ/mol'),
+        S0 = (-1537.05, 'J/(mol*K)'),
+        B = (1271.61, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3 calcs""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+entry(
+    index = 25,
+    label = "C[CH]C",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u1 p0 c0 {1,S} {3,S} {7,S}
+3  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+4  H u0 p0 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+""",
+    thermo = Wilhoit(
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (232.805, 'J/(mol*K)'),
+        a0 = -2.29417,
+        a1 = 10.502,
+        a2 = -10.6501,
+        a3 = 0.0593513,
+        H0 = (-52.0716, 'kJ/mol'),
+        S0 = (-1068.19, 'J/(mol*K)'),
+        B = (300, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3 calcs""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+
+entry(
+    index = 26,
+    label = "CC=CCl",
+    molecule = 
+"""
+1 C  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C  u0 p0 c0 {1,S} {3,D} {8,S}
+3 C  u0 p0 c0 {2,D} {4,S} {9,S}
+4 Cl u0 p3 c0 {3,S}
+5 H  u0 p0 c0 {1,S}
+6 H  u0 p0 c0 {1,S}
+7 H  u0 p0 c0 {1,S}
+8 H  u0 p0 c0 {2,S}
+9 H  u0 p0 c0 {3,S}
+""",
+    thermo = Wilhoit(
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (199.547, 'J/(mol*K)'),
+        a0 = 0.730089,
+        a1 = -6.71949,
+        a2 = 5.66936,
+        a3 = -1.92764,
+        H0 = (-166.516, 'kJ/mol'),
+        S0 = (-963.145, 'J/(mol*K)'),
+        B = (544.223, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3 calcs""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+
+entry(
+    index = 27,
+    label = "CC=[C]Cl",
+    molecule = 
+"""
+1 C  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C  u0 p0 c0 {1,S} {3,D} {8,S}
+3 C  u1 p0 c0 {2,D} {4,S}
+4 Cl u0 p3 c0 {3,S}
+5 H  u0 p0 c0 {1,S}
+6 H  u0 p0 c0 {1,S}
+7 H  u0 p0 c0 {1,S}
+8 H  u0 p0 c0 {2,S}
+""",
+    thermo = Wilhoit(
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (174.604, 'J/(mol*K)'),
+        a0 = -23.4455,
+        a1 = 74.6316,
+        a2 = -103.81,
+        a3 = 55.3938,
+        H0 = (10942.8, 'kJ/mol'),
+        S0 = (-991.024, 'J/(mol*K)'),
+        B = (2082.28, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3 calcs""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+
+entry(
+    index = 28,
+    label = "CC=C",
+    molecule = 
+"""
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {3,S}
+""",
+    thermo = Wilhoit(
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (199.547, 'J/(mol*K)'),
+        a0 = 2.54589,
+        a1 = -11.3365,
+        a2 = 9.2321,
+        a3 = -2.69286,
+        H0 = (-137.342, 'kJ/mol'),
+        S0 = (-995.616, 'J/(mol*K)'),
+        B = (587.976, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3 calcs""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+
+entry(
+    index = 29,
+    label = "CC=[CH]",
+    molecule = 
+"""
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u1 p0 c0 {2,D} {8,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+""",
+    thermo = Wilhoit(
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (174.604, 'J/(mol*K)'),
+        a0 = 2.32723,
+        a1 = -8.05561,
+        a2 = 6.47757,
+        a3 = -3.14449,
+        H0 = (110.742, 'kJ/mol'),
+        S0 = (-795.629, 'J/(mol*K)'),
+        B = (453.092, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3 calcs""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+
+entry(
+    index = 30,
+    label = "CCC(Cl)(Cl)",
+    molecule = 
+"""
+1  C  u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+2  C  u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
+3  C  u0 p0 c0 {2,S} {4,S} {5,S} {11,S}
+4  Cl u0 p3 c0 {3,S}
+5  Cl u0 p3 c0 {3,S}
+6  H  u0 p0 c0 {1,S}
+7  H  u0 p0 c0 {1,S}
+8  H  u0 p0 c0 {1,S}
+9  H  u0 p0 c0 {2,S}
+10 H  u0 p0 c0 {2,S}
+11 H  u0 p0 c0 {3,S}
+""",
+    thermo = Wilhoit(
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (257.749, 'J/(mol*K)'),
+        a0 = -2.50126,
+        a1 = 8.29092,
+        a2 = -12.7317,
+        a3 = 4.74044,
+        H0 = (-289.151, 'kJ/mol'),
+        S0 = (-1236.11, 'J/(mol*K)'),
+        B = (389.142, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3 calcs""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+
+entry(
+    index = 31,
+    label = "CC[C](Cl)(Cl)",
+    molecule = 
+"""
+1  C  u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+2  C  u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
+3  C  u1 p0 c0 {2,S} {4,S} {5,S}
+4  Cl u0 p3 c0 {3,S}
+5  Cl u0 p3 c0 {3,S}
+6  H  u0 p0 c0 {1,S}
+7  H  u0 p0 c0 {1,S}
+8  H  u0 p0 c0 {1,S}
+9  H  u0 p0 c0 {2,S}
+10 H  u0 p0 c0 {2,S}
+""",
+    thermo = Wilhoit(
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (232.805, 'J/(mol*K)'),
+        a0 = -2.9388,
+        a1 = 9.53147,
+        a2 = -12.0944,
+        a3 = 3.26826,
+        H0 = (-92.597, 'kJ/mol'),
+        S0 = (-1056.06, 'J/(mol*K)'),
+        B = (334.536, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3 calcs""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+entry(
+    index = 32,
+    label = "CCCCl",
+    molecule = 
+"""
+1  C  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C  u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+3  C  u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
+4  Cl u0 p3 c0 {3,S}
+5  H  u0 p0 c0 {1,S}
+6  H  u0 p0 c0 {1,S}
+7  H  u0 p0 c0 {1,S}
+8  H  u0 p0 c0 {2,S}
+9  H  u0 p0 c0 {2,S}
+10 H  u0 p0 c0 {3,S}
+11 H  u0 p0 c0 {3,S}
+""",
+    thermo = Wilhoit(
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (257.749, 'J/(mol*K)'),
+        a0 = -1.08769,
+        a1 = 6.42838,
+        a2 = -9.46155,
+        a3 = 1.8086,
+        H0 = (-287.142, 'kJ/mol'),
+        S0 = (-1220.68, 'J/(mol*K)'),
+        B = (334.178, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3 calcs""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+entry(
+    index = 33,
+    label = "CC[CH]Cl",
+    molecule = 
+"""
+1  C  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C  u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+3  C  u1 p0 c0 {2,S} {4,S} {10,S}
+4  Cl u0 p3 c0 {3,S}
+5  H  u0 p0 c0 {1,S}
+6  H  u0 p0 c0 {1,S}
+7  H  u0 p0 c0 {1,S}
+8  H  u0 p0 c0 {2,S}
+9  H  u0 p0 c0 {2,S}
+10 H  u0 p0 c0 {3,S}
+""",
+    thermo = Wilhoit(
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (232.805, 'J/(mol*K)'),
+        a0 = -1.59909,
+        a1 = 6.2616,
+        a2 = -6.96961,
+        a3 = 1.69161e-06,
+        H0 = (-71.4289, 'kJ/mol'),
+        S0 = (-1059.89, 'J/(mol*K)'),
+        B = (318.456, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3 calcs""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+#entry(
+#    index = 34,
+#    label = "CCC",
+#    molecule = 
+#"""
+#1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+#2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+#3  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+#4  H u0 p0 c0 {1,S}
+#5  H u0 p0 c0 {1,S}
+#6  H u0 p0 c0 {1,S}
+#7  H u0 p0 c0 {2,S}
+#8  H u0 p0 c0 {2,S}
+#9  H u0 p0 c0 {3,S}
+#10 H u0 p0 c0 {3,S}
+#11 H u0 p0 c0 {3,S}
+#""",
+#    thermo = Wilhoit(
+#        Cp0 = (33.2579, 'J/(mol*K)'),
+#        CpInf = (257.749, 'J/(mol*K)'),
+#        a0 = -4.25899,
+#        a1 = -5.10272,
+#        a2 = 16.4936,
+#        a3 = -9.55006,
+#        H0 = (-968.741, 'kJ/mol'),
+#        S0 = (-1537.05, 'J/(mol*K)'),
+#        B = (1271.61, 'K'),
+#    ),
+#    shortDesc = u"""CBS-QB3 calcs""",
+#    longDesc = 
+#u"""
+#
+#""",
+#)
+#
+#
+#
+#entry(
+#    index = 35,
+#    label = "CC[CH2]",
+#    molecule = 
+#"""
+#1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+#2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+#3  C u1 p0 c0 {2,S} {9,S} {10,S}
+#4  H u0 p0 c0 {1,S}
+#5  H u0 p0 c0 {1,S}
+#6  H u0 p0 c0 {1,S}
+#7  H u0 p0 c0 {2,S}
+#8  H u0 p0 c0 {2,S}
+#9  H u0 p0 c0 {3,S}
+#10 H u0 p0 c0 {3,S}
+#""",
+#    thermo = Wilhoit(
+#        Cp0 = (33.2579, 'J/(mol*K)'),
+#        CpInf = (232.805, 'J/(mol*K)'),
+#        a0 = -1.48103,
+#        a1 = 7.45716,
+#        a2 = -8.32216,
+#        a3 = -1.20369e-06,
+#        H0 = (-33.5017, 'kJ/mol'),
+#        S0 = (-1076.04, 'J/(mol*K)'),
+#        B = (319.315, 'K'),
+#    ),
+#    shortDesc = u"""CBS-QB3 calcs""",
+#    longDesc = 
+#u"""
+#
+#""",
+#)
+
+
+
