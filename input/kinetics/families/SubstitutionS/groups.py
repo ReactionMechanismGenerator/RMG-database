@@ -4781,7 +4781,7 @@ entry(
     label = "Y_1centerbirad",
     group = 
 """
-1 *3 [Cs,Cd,O] u2
+1 *3 [Cs,Cd,O,S] u2
 """,
     kinetics = None,
 )
@@ -4912,8 +4912,7 @@ entry(
     label = "SJ",
     group = 
 """
-1 *3 S u1 {2,S}
-2    R u0 {1,S}
+1 *3 S u1
 """,
     kinetics = None,
 )
@@ -5380,9 +5379,6 @@ L1: YJ
             L4: O_rad/NonDeC
             L4: O_rad/NonDeO
             L4: O_rad/OneDe
-    L2: Y_1centerbirad
-        L3: O_atom_triplet
-        L3: CH2_triplet
     L2: SJ
         L3: SsJ
             L4: SsJ-H
