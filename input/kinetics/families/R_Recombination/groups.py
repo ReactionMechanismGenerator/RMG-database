@@ -1456,3 +1456,43 @@ u"""
 
 """,
 )
+
+forbidden(
+    label = "ortho_benzylic_carbon",
+    group = 
+"""
+1 C u0 {7,D}
+2 C u0 {4,S} {6,D}
+3 C u0 {4,D} {5,S}
+4 C u0 {2,S} {3,D}
+5 * C u1 {3,S} {7,S}
+6 C u0 {2,D} {7,S}
+7 C u0 {1,D} {5,S} {6,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+This structure forbids the ortho resonance isomer of the benzylic radical in which
+the radical is not exocyclic, but endocyclic.
+""",
+)
+
+forbidden(
+    label = "para_benzylic_carbon",
+    group = 
+"""
+1 C u0 {7,D}
+2 C u0 {4,S} {5,D}
+3 C u0 {4,S} {6,D}
+4 * C u1 {2,S} {3,S}
+5 C u0 {2,D} {7,S}
+6 C u0 {3,D} {7,S}
+7 C u0 {1,D} {5,S} {6,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+This structure forbids the para resonance isomer of the benzylic radical in which
+the radical is not exocyclic, but endocyclic.
+""",
+)
