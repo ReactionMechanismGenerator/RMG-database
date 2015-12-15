@@ -90,11 +90,10 @@ entry(
 
 entry(
     index = 4,
-    label = "S-R",
+    label = "S",
     group = 
 """
-1 *2 S u0 {2,S}
-2    R u0 {1,S}
+1 *2 S u0
 """,
     kinetics = None,
 )
@@ -2177,6 +2176,17 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 167,
+    label = "S-SJ",
+    group = 
+"""
+1 *2 S  u0 {2,S}
+2    S  u1 {1,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: XSYJ
@@ -2346,10 +2356,11 @@ L1: C
     L2: Cds
     L2: Ct 
    
-L1: S-R
+L1: S
     L2: S-H
     L2: S-Cs
     L2: S-Ss
+    L2: S-SJ
 """
 )
 
