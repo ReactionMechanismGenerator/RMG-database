@@ -87,3 +87,172 @@ using Cantherm. One of the rotors had coupling and did not converge back to the
 same initial geometry. It was forced to go back by editing the scan log.
 """,
 )
+
+
+entry(
+    index = 4,
+    label = "allyl + ethene <=> pent1en5yl",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (2.70E+03, 'cm^3/(mol*s)', '*|/', 2),
+        n = 2.700,
+        Ea = (11.3, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = Article(
+        authors = ["Wang, K.", "Villano, S.M.", "Dean, A.M."],
+        title = u'Reactions of allylic radicals that impact molecular weight growth kinetics',
+        journal = "PCCP",
+        pages = """6255-6273""",
+        year = "2015",
+        url = "http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G",
+    ),
+    longDesc = 
+u"""
+Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
+Table 4
+CBS-QB3, high-P limit, atomization method for energies, hindered rotors for torsions around single bonds, tunneling with Eckart potentials.
+""",
+)
+
+entry(
+    index = 5,
+    label = "allyl + propene_1 <=> hex1en5yl",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.56E+03, 'cm^3/(mol*s)', '*|/', 2),
+        n = 2.530,
+        Ea = (11.0, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = Article(
+        authors = ["Wang, K.", "Villano, S.M.", "Dean, A.M."],
+        title = u'Reactions of allylic radicals that impact molecular weight growth kinetics',
+        journal = "PCCP",
+        pages = """6255-6273""",
+        year = "2015",
+        url = "http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G",
+    ),
+    longDesc = 
+u"""
+Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
+Table 4
+CBS-QB3, high-P limit, atomization method for energies, hindered rotors for torsions around single bonds, tunneling with Eckart potentials.
+""",
+)
+
+entry(
+    index = 6,
+    label = "allyl + propene_2 <=> methylpentenyl",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (1.37E+02, 'cm^3/(mol*s)', '*|/', 2),
+        n = 2.840,
+        Ea = (12.2, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = Article(
+        authors = ["Wang, K.", "Villano, S.M.", "Dean, A.M."],
+        title = u'Reactions of allylic radicals that impact molecular weight growth kinetics',
+        journal = "PCCP",
+        pages = """6255-6273""",
+        year = "2015",
+        url = "http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G",
+    ),
+    longDesc = 
+u"""
+Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
+Table 4
+CBS-QB3, high-P limit, atomization method for energies, hindered rotors for torsions around single bonds, tunneling with Eckart potentials.
+""",
+)
+
+entry(
+    index = 7,
+    label = "allyl + butene1_1 <=> hept1en5yl",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.31E+03, 'cm^3/(mol*s)', '*|/', 2),
+        n = 2.620,
+        Ea = (10.9, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = Article(
+        authors = ["Wang, K.", "Villano, S.M.", "Dean, A.M."],
+        title = u'Reactions of allylic radicals that impact molecular weight growth kinetics',
+        journal = "PCCP",
+        pages = """6255-6273""",
+        year = "2015",
+        url = "http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G",
+    ),
+    longDesc = 
+u"""
+Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
+Table 4
+CBS-QB3, high-P limit, atomization method for energies, hindered rotors for torsions around single bonds, tunneling with Eckart potentials.
+""",
+)
+
+entry(
+    index = 8,
+    label = "allyl + butene1_2 <=> C7H13",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (1.22E+01, 'cm^3/(mol*s)', '*|/', 2),
+        n = 3.060,
+        Ea = (11.7, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = Article(
+        authors = ["Wang, K.", "Villano, S.M.", "Dean, A.M."],
+        title = u'Reactions of allylic radicals that impact molecular weight growth kinetics',
+        journal = "PCCP",
+        pages = """6255-6273""",
+        year = "2015",
+        url = "http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G",
+    ),
+    longDesc = 
+u"""
+Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
+Table 4
+CBS-QB3, high-P limit, atomization method for energies, hindered rotors for torsions around single bonds, tunneling with Eckart potentials.
+""",
+)
+
+entry(
+    index = 9,
+    label = "allyl + butene2 <=> C7H13_2",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (9.53E+02, 'cm^3/(mol*s)', '*|/', 2),
+        n = 2.700,
+        Ea = (11.2, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = Article(
+        authors = ["Wang, K.", "Villano, S.M.", "Dean, A.M."],
+        title = u'Reactions of allylic radicals that impact molecular weight growth kinetics',
+        journal = "PCCP",
+        pages = """6255-6273""",
+        year = "2015",
+        url = "http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G",
+    ),
+    longDesc = 
+u"""
+Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
+Table 4
+CBS-QB3, high-P limit, atomization method for energies, hindered rotors for torsions around single bonds, tunneling with Eckart potentials.
+""",
+)
