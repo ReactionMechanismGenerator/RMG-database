@@ -3284,6 +3284,30 @@ entry(
 )
 
 entry(
+    index = 450,
+    label = "Sirad_H",
+    group = 
+"""
+1 *1 Si u1 {2,S}
+2 *2 H  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 451,
+    label = "Sirad_Si_H2",
+    group = 
+"""
+1 *1 Si u1 {2,S} {3,S} {4,S}
+2 *2 H  u0 {1,S}
+3    H  u0 {1,S}
+4    Si ux px {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 476,
     label = "CH2_triplet_H",
     group = 
@@ -6343,11 +6367,77 @@ entry(
     label = "Si_H",
     group = 
 """
-1 *1 Si 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H 0 {1,S}
-3    R 0 {1,S}
-4    R 0 {1,S}
-5    R 0 {1,S}
+1 *1 Si u0 px c0 {2,S} 
+2 *2 H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 493,
+    label = "Sid_H",
+    group = 
+"""
+1 *1 Sid u0 px c0 {2,S}  
+2 *2 H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 494,
+    label = "Sid_Si_H2",
+    group = 
+"""
+1 *1 Sid u0 px c0 {2,S} {3,D} {4,S}  
+2 *2 H u0 p0 c0 {1,S}
+3    Si ux px {1,D}
+4    H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 495,
+    label = "Sis_H",
+    group = 
+"""
+1 *1 Sis u0 px c0 {2,S}  
+2 *2 H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 496,
+    label = "Sis_Si_H3",
+    group = 
+"""
+1 *1 Sis u0 px c0 {2,S} {3,S} {4,S} {5,S}  
+2 *2 H u0 p0 c0 {1,S}
+3  H u0 p0 c0 {1,S}
+4  H u0 p0 c0 {1,S}
+5 Si ux px {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -6531,10 +6621,7 @@ entry(
     label = "Si_rad",
     group = 
 """
-1 *3 Si 1 {2,S} {3,S} {4,S}
-2    R 0 {1,S}
-3    R 0 {1,S}
-4    R 0 {1,S}
+1 *3 Si u1 px 
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -6549,10 +6636,107 @@ entry(
     label = "Si_silyl",
     group = 
 """
-1 *3 Si 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 Si u1 p0 c0 {2,S} {3,S} {4,S}
+2    H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 497,
+    label = "Si_triplet",
+    group = 
+"""
+1 *3 Si u2
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 498,
+    label = "Si_triplet_Si_H",
+    group = 
+"""
+1 *3 Si u2 {2,S} {3,S}
+2    H u0 p0 c0 {1,S}
+3    Si ux px {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 499,
+    label = "Sis_rad",
+    group = 
+"""
+1 *3 Sis u1
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 500,
+    label = "Sis_rad_Si_H2",
+    group = 
+"""
+1 *3 Sis u1 {2,S} {3,S} {4,S}
+2    Si ux px {1,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 501,
+    label = "Sid_rad",
+    group = 
+"""
+1 *3 Sid u1                  
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 502,
+    label = "Sid_rad_Si_H",
+    group = 
+"""
+1 *3 Sid u1 {2,D} {3,S}
+2    Si ux px {1,D}
+3    H u0 p0 c0 {1,S}                  
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -6786,7 +6970,11 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
             L4: N5d_H
                 L5: N5d/H/NonDeOO
 	L3: Si_H
-	    L4: Si_silane 
+            L4: Sid_H
+                L5: Sid_Si_H2
+            L4: Sis_H
+                L5: Sis_Si_H3
+	        L5: Si_silane 
     L2: Xrad_H
         L3: C_rad_H
             L4: CH3_rad_H
@@ -6797,6 +6985,8 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
             L4: NH2_rad_H
             L4: N3s_rad_H_pri
                 L5: N3s_rad_H/H/NonDeN
+        L3: Sirad_H
+            L4: Sirad_Si_H2
     L2: Xbirad_H
         L3: CH2_triplet_H
         L3: CH2_singlet_H
@@ -6822,7 +7012,8 @@ L1: Y_rad_birad_trirad_quadrad
         L3: O_atom_triplet
         L3: CH2_triplet
         L3: NH_triplet
-	L3: SiH2_triplet
+	L3: Si_triplet
+            L4: Si_triplet_Si_H
     L2: Y_rad
         L3: H_rad
         L3: Y_2centeradjbirad
@@ -7040,7 +7231,11 @@ L1: Y_rad_birad_trirad_quadrad
         L3: N5_rad
             L4: N5d_rad
 	L3: Si_rad
-	    L4: Si_silyl
+            L4: Sis_rad
+	        L5: Si_silyl
+                L5: Sis_rad_Si_H2
+            L4: Sid_rad
+                L5: Sid_rad_Si_H
 """
 )
 

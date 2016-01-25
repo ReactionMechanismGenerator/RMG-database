@@ -1514,7 +1514,7 @@ Rate comes from quantum calculation by J. Zador at CCSD(T) level
 entry(
     index = 1011,
     label = "SiH4 + H <=> H2 + SiH3",
-    degeneracy = 1,
+    degeneracy = 4,
     kinetics = Arrhenius(
         A = (2.09e-17, 'cm^3/(molecule*s)'),
         n = 2.32,
@@ -1523,6 +1523,7 @@ entry(
         Tmin = (290, 'K'),
         Tmax = (2500, 'K'),
     ),
+    rank = 2,
     shortDesc = u"""Wu ab initio calc 2010""",
     longDesc = 
 u"""
@@ -1534,3 +1535,182 @@ DOI: 10.1021/jp908222g
 """,
 )
 
+entry(
+    index = 1012,
+    label = "SiHSiH3 + H2 <=> SiH2SiH3-1 + H",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.52E5, 'cm^3/(mol*s)'),
+        n = 2.64,
+        Ea = (74.1, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (290, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""DFT""",
+    longDesc = 
+u"""
+Rate was calculated using TST by using calculations at M062X/MG3S; no rotor treatment; no tunneling 
+""",
+)
+
+entry(
+    index = 1013,
+    label = "SiH3 + H2 <=> SiH4 + H",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.17E4, 'cm^3/(mol*s)'),
+        n = 2.73,
+        Ea = (57.8, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (290, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""DFT""",
+    longDesc = 
+u"""
+Rate was calculated using TST with Eckart tunneling by using calculations at M062X/MG3S; no rotor treatment 
+""",
+)
+
+entry(
+    index = 1014,
+    label = "Si2H4 + H <=> SiHSiH2 + H2",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (7.95E8, 'cm^3/(mol*s)'),
+        n = 1.76,
+        Ea = (-1.42, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (290, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""DFT""",
+    longDesc = 
+u"""
+Rate was calculated using TST with Eckart tunneling by using calculations at M062X/MG3S; no rotor treatment 
+""",
+)
+
+entry(
+    index = 1015,
+    label = "SiHSiH2 + H2 <=> Si2H4 + H",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (7.98E4, 'cm^3/(mol*s)'),
+        n = 2.63,
+        Ea = (112, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (290, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""DFT""",
+    longDesc = 
+u"""
+Rate was calculated using TST with Eckart tunneling by using calculations at M062X/MG3S; no rotor treatment 
+""",
+)
+
+entry(
+    index = 1016,
+    label = "Si2H6 + H <=> SiH2SiH3-2 + H2",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (7.53E9, 'cm^3/(mol*s)'),
+        n = 1.82,
+        Ea = (-6.14, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (290, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""DFT""",
+    longDesc = 
+u"""
+Rate was calculated using TST by using calculations at M062X/MG3S; no rotor treatment; no tunneling 
+""",
+)
+
+entry(
+    index = 1017,
+    label = "SiH2SiH3-2 + H2 <=> Si2H6 + H",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (4.97E5, 'cm^3/(mol*s)'),
+        n = 2.57,
+        Ea = (63.4, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (290, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""DFT""",
+    longDesc = 
+u"""
+Rate was calculated using TST by using calculations at M062X/MG3S; no rotor treatment; no tunneling 
+""",
+)
+
+entry(
+    index = 1018,
+    label = "SiH2SiH3-1 + H <=> SiHSiH3 + H2",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (8.49E8, 'cm^3/(mol*s)'),
+        n = 1.69,
+        Ea = (-4.42, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (290, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""DFT""",
+    longDesc = 
+u"""
+Rate was calculated using TST by using calculations at M062X/MG3S; no rotor treatment; no tunneling 
+""",
+)
+
+entry(
+    index = 1019,
+    label = "SiH4 + SiH2SiH3-2 <=> SiH3 + Si2H6",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (5.06E2, 'cm^3/(mol*s)'),
+        n = 3.66,
+        Ea = (5.21, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (290, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""DFT""",
+    longDesc = 
+u"""
+Rate was calculated using TST by using calculations at M062X/MG3S; no rotor treatment; no tunneling 
+""",
+)
+
+entry(
+    index = 1020,
+    label = "SiH3 + Si2H6 <=> SiH4 + SiH2SiH3-2",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (1.8E3, 'cm^3/(mol*s)'),
+        n = 3.58,
+        Ea = (-6.29, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (290, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""DFT""",
+    longDesc = 
+u"""
+Rate was calculated using TST by using calculations at M062X/MG3S; no rotor treatment; no tunneling 
+""",
+)

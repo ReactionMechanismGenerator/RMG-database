@@ -1119,3 +1119,54 @@ SiH4
 4     H u0 p0 c0 {1,S}
 5     H u0 p0 c0 {1,S}
 
+SiHSiH3
+1  *3 Si u2 p0 c0 {2,S} {3,S}
+2     H  u0 p0 c0 {1,S}
+3     Si u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4     H  u0 p0 c0 {3,S}
+5     H  u0 p0 c0 {3,S}
+6     H  u0 p0 c0 {3,S}
+
+SiH2SiH3-1
+1 *1   Si u1 p0 c0 {2,S} {3,S} {7,S}
+2 *2    H  u0 p0 c0 {1,S}
+3     Si u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4     H  u0 p0 c0 {3,S}
+5     H  u0 p0 c0 {3,S}
+6     H  u0 p0 c0 {3,S}
+7     H  u0 p0 c0 {1,S}
+
+Si2H4
+1 *1 Si u0 p0 c0 {2,S} {3,S} {4,D}
+2 *2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 Si u0 p0 c0 {1,D} {5,S} {6,S}
+5 H u0 p0 c0 {4,S}
+6 H u0 p0 c0 {4,S}
+
+SiHSiH2
+1 *3 Si u1 p0 c0 {2,S} {3,D}
+2 H u0 p0 c0 {1,S}
+3 Si u0 p0 c0 {1,D} {4,S} {5,S}
+4 H u0 p0 c0 {3,S}
+5 H u0 p0 c0 {3,S}
+
+Si2H6
+1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 Si u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6 H u0 p0 c0 {5,S}
+7 H u0 p0 c0 {5,S}
+8 H u0 p0 c0 {5,S}
+
+SiH2SiH3-2
+1 *3 Si u1 p0 c0 {2,S} {3,S} {4,S}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 Si u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5 H u0 p0 c0 {4,S}
+6 H u0 p0 c0 {4,S}
+7 H u0 p0 c0 {4,S}
+
