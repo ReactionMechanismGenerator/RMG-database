@@ -13,7 +13,7 @@ or in a section(s) titled 'General'
 """
 entry(
 	index = 1,
-	label = "Si2S_R_H;Si_H",
+	label = "Si2S;Si_H",
 	kinetics = ArrheniusEP(
 		A = (1.86E14, 'cm^3/(mol*s)'),
 		n = 0,
@@ -22,7 +22,7 @@ entry(
 		Tmin = (295, 'K'),
 		Tmax = (595, 'K'),
 	),
-	rank = 1,
+	rank = 5,
 	shortDesc = u"""Any silylene insertion into an Si-H bond""",
 	longDesc =
 u"""
@@ -32,7 +32,7 @@ Rate is from the reaction SiH2 + Si2H6 <-> Si3H8, from laser flash photolysis st
 
 entry(
 	index = 2,
-	label = "Si2S_R_H;H_H",
+	label = "Si2S;H_H",
 	kinetics = ArrheniusEP(
 		A = (1.05E6, 'cm^3/(mol*s)'),
 		n = 1.97,
@@ -41,7 +41,7 @@ entry(
 		Tmin = (400, 'K'),
 		Tmax = (2000, 'K'),
 	),
-	rank = 1,
+	rank = 5,
 	shortDesc = u"""Any silylene insertion into an H-H bond""",
 	longDesc =
 u"""

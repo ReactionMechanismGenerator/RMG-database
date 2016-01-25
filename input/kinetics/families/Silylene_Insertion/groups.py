@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 
-template(reactants=["Si2S_R_H", "Y_H"], products=["Y_Si2S_R_H2"], ownReverse=False)
+template(reactants=["Si2S", "Y_H"], products=["Y_Si2S_H"], ownReverse=False)
 
 #reverse = "Silylene_Elimination"
 
@@ -20,11 +20,10 @@ recipe(actions=[
 
 entry(
     index = 1,
-    label = "Si2S_R_H",
+    label = "Si2S",
     group = 
 """
-1 *3 Si u0 p1 c0 {2,S}
-2    H  u0 p0 c0  {1,S}
+1 *3 Si u0 p[1,2] c0 
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -81,6 +80,78 @@ u"""
 )
 
 entry(
+    index = 4,
+    label = "SiH3_R",
+    group = """
+1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  u0 p0 c0 {1,S}
+3    H  u0 p0 c0 {1,S}
+4    H  u0 p0 c0 {1,S}
+5    R  ux px {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 4,
+    label = "SiH3_Si",
+    group = """
+1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  u0 p0 c0 {1,S}
+3    H  u0 p0 c0 {1,S}
+4    H  u0 p0 c0 {1,S}
+5    Si  ux px {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 4,
+    label = "SiH2_R2",
+    group = """
+1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  u0 p0 c0 {1,S}
+3    H  u0 p0 c0 {1,S}
+4    R  ux px {1,S}
+5    R  ux px {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 4,
+    label = "SiH_R3",
+    group = """
+1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  u0 p0 c0 {1,S}
+3    R  ux px {1,S}
+4    R  ux px {1,S}
+5    R  ux px {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 5,
     label = "SiH2",
     group = 
@@ -98,19 +169,16 @@ u"""
 )
 
 entry(
-    index = 6,
-    label = "SiH3_SiH",
+    index = 5,
+    label = "Si-Si-H",
     group = 
 """
 1 *3  Si u0 p1 c0 {2,S} {3,S}
 2     H u0 p0 c0 {1,S}
-3     Si u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
-4     H u0 p0 c0 {3,S}
-5     H u0 p0 c0 {3,S}
-6     H u0 p0 c0 {3,S}
+3     Si ux px {1,S}
 """,
     kinetics = None,
-    shortDesc = u"""disilylene""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -118,27 +186,22 @@ u"""
 )
 
 entry(
-    index = 7,
-    label = "Si2H5_SiH",
+    index = 5,
+    label = "Si-Si-Si",
     group = 
 """
 1 *3  Si u0 p1 c0 {2,S} {3,S}
-2     H u0 p0 c0 {1,S}
-3     Si u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
-4     H u0 p0 c0 {3,S}
-5     H u0 p0 c0 {3,S}
-6     Si u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
-7     H u0 p0 c0 {6,S}
-8     H u0 p0 c0 {6,S}
-9     H u0 p0 c0 {6,S}
+2     Si ux px {1,S}
+3     Si ux px {1,S}
 """,
     kinetics = None,
-    shortDesc = u"""trisilylene""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
 )
+
 
 entry(
     index = 8,
@@ -159,80 +222,35 @@ u"""
 """,
 )
 
-entry(
-    index = 9,
-    label = "Si2H6",
-    group = 
-"""
-1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H u0 p0 c0 {1,S}
-3    H u0 p0 c0 {1,S}
-4    H u0 p0 c0 {1,S}
-5    Si u0 p0 c0 {1,S} {6,S} (7,S} {8,S}
-6    H u0 p0 c0 {5,S}
-7    H u0 p0 c0 {5,S}
-8    H u0 p0 c0 {5,S}
-""",
-    kinetics = None,
-    shortDesc = u"""Disilane""",
-    longDesc = 
-u"""
 
-""",
-)
-
-entry(
-    index = 10,
-    label = "Si3H8",
-    group = 
-"""
-1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H u0 p0 c0 {1,S}
-3    H u0 p0 c0 {1,S}
-4    H u0 p0 c0 {1,S}
-5    Si u0 p0 c0 {1,S} {6,S} (7,S} {8,S}
-6    H u0 p0 c0 {5,S}
-7    H u0 p0 c0 {5,S}
-8    Si u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
-9    H u0 p0 c0 {8,S}
-10   H u0 p0 c0 {8,S}
-11   H u0 p0 c0 {8,S}
-""",
-    kinetics = None,
-    shortDesc = u"""Trisilane""",
-    longDesc = 
-u"""
-
-""",
-)
 
 tree(
 """
-L1: Si2S_R_H
+L1: Si2S
 	L2: SiH2
-	L2: SiH3_SiH
-	L2: Si2H5_SiH
+	L2: Si-Si-Si
+	L2: Si-Si-H
 
 L1: Y_H
 	L2: H_H
 	L2: Si_H
-		L3: SiH4
-		L3: Si2H6
-		L3: Si3H8
+            L3: SiH3_R
+		L4: SiH4
+                L4: SiH3_Si
+	    L3: SiH2_R2
+            L3: SiH_R3
 """
 )
 
-#forbidden(
-#    label = "Si(S)_as_Si_H",
-#    group = 
-#"""
-#1 *1  Si u0 p1 c0 {2,S} {3,S}
-#2     H u0 p0 c0 {1,S}
-#3     H u0 p0 c0 {1,S}
-#""",
-#    shortDesc = u"""silylene""",
-#    longDesc = 
-#u"""
-#
-#""",
-#)
+forbidden(
+    label = "Si(S)_as_product",
+    group = 
+"""
+1 *1  Si u0 p1 c0 
+""",
+    shortDesc = u"""silylene""",
+    longDesc = 
+u"""
+
+""",
+)
