@@ -152,7 +152,7 @@ entry(
 entry(
 		index = 7,
 		label = "SiH4 + Si => H3SiSiH",
-		degeneracy = 1,
+		degeneracy = 4,
 		reversible = False,
 		duplicate = True,
     		kinetics = Troe(
@@ -176,7 +176,7 @@ entry(
 entry(
 		index = 8,
 		label = "SiH4 + Si => H2SiSiH2",
-		degeneracy = 1,
+		degeneracy = 6,
 		reversible = False,
     		kinetics = Troe(
         		arrheniusHigh = Arrhenius(A=(4.56E9, 'cm^3/mol/s'), n=1.07, Ea=(-440.1, 'cal/mol'), T0=(1, 'K')),
@@ -199,7 +199,7 @@ entry(
 entry(
 		index = 9,
 		label = "SiH4 + Si => SiH2Si + H2",
-		degeneracy = 1,
+		degeneracy = 6,
 		reversible = False,
     		duplicate = True,
 		kinetics = Troe(
@@ -224,7 +224,7 @@ entry(
 entry(
 		index = 10,
 		label = "SiH4 + Si => SiH2Si + H2",
-		degeneracy = 1,
+		degeneracy = 6,
 		reversible = False,
     		duplicate = True,
     		kinetics = Troe(
@@ -249,7 +249,7 @@ entry(
 entry(
 		index = 11,
 		label = "SiH4 + Si => SiH3 + SiH",
-		degeneracy = 1,
+		degeneracy = 4,
 		reversible = False,
     		kinetics = Troe(
         		arrheniusHigh = Arrhenius(A=(4.27E4, 'cm^3/mol/s'), n=2.25, Ea=(21604, 'cal/mol'), T0=(1, 'K')),
@@ -272,7 +272,7 @@ entry(
 entry(
 		index = 12,
 		label = "SiH4 + Si => SiH2 + SiH2",
-		degeneracy = 1,
+		degeneracy = 6,
 		reversible = False,
     		kinetics = Troe(
         		arrheniusHigh = Arrhenius(A=(5.95E-5, 'cm^3/mol/s'), n=4.61, Ea=(10819, 'cal/mol'), T0=(1, 'K')),
@@ -341,7 +341,7 @@ entry(
 entry(
 		index = 15,
 		label = "SiH3 + SiH => H2SiSiH2",
-		degeneracy = 1,
+		degeneracy = 3,
 		reversible = False,
     		kinetics = Troe(
         		arrheniusHigh = Arrhenius(A=(2.77E9, 'cm^3/mol/s'), n=0.849, Ea=(-302.59, 'cal/mol'), T0=(1, 'K')),
@@ -385,7 +385,7 @@ entry(
 entry(
 		index = 17,
 		label = "SiH3 + SiH => Si2H2 + H2",
-		degeneracy = 1,
+		degeneracy = 3,
 		reversible = False,
     		kinetics = Troe(
         		arrheniusHigh = Arrhenius(A=(1.41E8, 'cm^3/mol/s'), n=0.9108, Ea=(-496.46, 'cal/mol'), T0=(1, 'K')),
