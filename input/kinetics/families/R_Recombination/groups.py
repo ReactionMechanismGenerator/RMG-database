@@ -1308,10 +1308,10 @@ entry(
 
 entry(
     index = 112,
-    label = "Sis_rad",
+    label = "Si_rad",
     group = 
 """
-1 * Sis u1
+1 * Si u1
 """,
     kinetics = None,
 )
@@ -1332,7 +1332,7 @@ entry(
 tree(
 """
 L1: Y_rad
-    L2: Sis_rad
+    L2: Si_rad
         L3: Si_silyl
     L2: H_rad
     L2: S_rad
