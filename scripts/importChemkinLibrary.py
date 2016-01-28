@@ -38,7 +38,7 @@ if __name__ == '__main__':
         species.label = getSpeciesIdentifier(species)
         species.index = -1
     # load thermo library entries
-    thermoLibrary = ThermoLibrary()
+    thermoLibrary = ThermoLibrary(name=name)
     for i in range(len(speciesList)): 
         species = speciesList[i]
         if species.thermo:
@@ -52,7 +52,7 @@ if __name__ == '__main__':
             logging.warning('Species {0} did not contain any thermo data and was omitted from the thermo library.'.format(str(species)))
                         
     # load kinetics library entries                    
-    kineticsLibrary = KineticsLibrary()
+    kineticsLibrary = KineticsLibrary(name=name)
     kineticsLibrary.entries = {}
     for i in range(len(reactionList)):
         reaction = reactionList[i]        
