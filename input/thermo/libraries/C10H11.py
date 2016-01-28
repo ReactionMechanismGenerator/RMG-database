@@ -2,9 +2,15 @@
 # encoding: utf-8
 
 name = "C10H11"
-shortDesc = u""
+shortDesc = u"Cyclopentadiene pyrolysis in the presence of ethene"
 longDesc = u"""
+Calculated at the CBS-QB3 level
 
+Citation:
+
+Aäron G. Vandeputte, Shamel S. Merchant, Marko R. Djokic, Kevin M. Van Geem, 
+Guy B. Marin, William H. Green, "Detailed study of cyclopentadiene pyrolysis in the 
+presence of ethene: realistic pathways from C5H5 to naphthalene." (2016)
 """
 entry(
     index = 1,
