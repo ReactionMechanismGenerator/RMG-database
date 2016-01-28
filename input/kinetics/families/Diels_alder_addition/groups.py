@@ -23,7 +23,12 @@ recipe(actions=[
 entry(
     index = 1,
     label = "diene_out",
-    group = "OR{diene_unsub_unsub_out, diene_unsub_monosub_out, diene_unsub_disub_out, diene_monosub_monosub_out, diene_monosub_disub_out, diene_disub_disub_out, diene_5ring_out}",
+    group = """
+1 *3 Cd u0 {2,D}
+2 *4 Cd u0 {1,D} {3,S}
+3 *5 Cd u0 {2,S} {4,D}
+4 *6 Cd u0 {3,D}
+""",
     kinetics = None,
 )
 
@@ -1523,6 +1528,177 @@ forbidden(
     group = 
 """
 1 *2 Cdd u0
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "benzene_diene_partial1",
+    group = 
+"""
+1 *3 Cd u0 {2,D} {6,S} 
+2 *4 Cd u0 {1,D} {3,S}
+3    Cd ux {2,S} {4,D}
+4    Cd ux {3,D} {5,S} 
+5    Cd ux {4,S} {6,D}
+6    Cd ux {5,D} {1,S} 
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "benzene_diene_partial2",
+    group = 
+"""
+1 *5 Cd u0 {2,D} {6,S} 
+2 *6 Cd u0 {1,D} {3,S}
+3    Cd ux {2,S} {4,D}
+4    Cd ux {3,D} {5,S} 
+5    Cd ux {4,S} {6,D}
+6    Cd ux {5,D} {1,S} 
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "benzene_diene1",
+    group = 
+"""
+1 *3 Cd u0 {2,D} {6,S} 
+2 *4 Cd u0 {1,D} {3,S}
+3 *5 Cd u0 {2,S} {4,D}
+4 *6 Cd u0 {3,D} {5,S} 
+5    Cd ux {4,S} {6,D}
+6    Cd ux {5,D} {1,S} 
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "benzene_diene2",
+    group = 
+"""
+1 *3 Cd u0 {2,D} {6,S} 
+2 *4 Cd u0 {1,D} {3,S}
+3 *5 Cd u0 {2,S} {4,D}
+4 *6 Cd u0 {3,D} {5,S} 
+5 *8 Cd ux {4,S} {6,D}
+6 *7 Cd ux {5,D} {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "benzene_monoSub1",
+    group = 
+"""
+1 *3 Cd u0 {2,D} {6,S} {7,S}
+2 *4 Cd u0 {1,D} {3,S}
+3 *5 Cd u0 {2,S} {4,D}
+4 *6 Cd u0 {3,D} {5,S} {8,S}
+5 *7 Cd ux {4,S} {6,D}
+6 *8 Cd ux {5,D} {1,S} 
+7 H u0 {1,S}
+8 *9 R  ux {4,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "benzene_monoSub2",
+    group = 
+"""
+1 *3 Cd u0 {2,D}, {5,S}, {6,S}
+2 *4 Cd u0 {1,D}, {3,S}
+3 *5 Cd u0 {2,S}, {4,D}
+4 *6 Cd u0 {3,D}, {7,S}, {8,S}
+5 H u0 {1,S}
+6 *7 Cd ux {1,S} {8,D}
+7 *8 R ux {4,S}
+8 *9 Cd ux {4,S} {6,D}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "benzene_twoSub1",
+    group = 
+"""
+1 *3 Cd u0 {2,D}, {5,S}, {6,S}
+2 *4 Cd u0 {1,D}, {3,S}
+3 *5 Cd u0 {2,S}, {4,D}
+4 *6 Cd u0 {3,D}, {7,S}, {8,S}
+5 H u0 {1,S}
+6 *7 Cd ux {1,S} {8,D}
+7 *8 R ux {4,S}
+8 *9 Cd ux {4,S} {6,D}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "benzene_twoSub2",
+    group = 
+"""
+1 *3 Cd u0 {2,D}, {5,S}, {6,S}
+2 *4 Cd u0 {1,D}, {3,S}
+3 *5 Cd u0 {2,S}, {4,D}
+4 *6 Cd u0 {3,D}, {7,S}, {8,S}
+5 H u0 {1,S}
+6 *7 Cd ux {1,S} {8,D}
+7 *8 R ux {4,S}
+8 *9 Cd ux {4,S} {6,D}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+forbidden(
+    label = "benzene_ene",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {6,S}
+2 *2 Cd u0 {1,D} {3,S}
+3    Cd ux {2,S} {4,D}
+4    Cd ux {3,D} {5,S}
+5    Cd ux {4,S} {6,D}
+6    Cd ux {5,D} {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
