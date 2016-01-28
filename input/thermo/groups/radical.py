@@ -5311,7 +5311,7 @@ entry(
     label = "SiJ",
     group = 
 """
-1 * Si u1
+1 * Si u1 px
 """,
     thermo = u'SisJ',
     shortDesc = u"""""",
@@ -5401,12 +5401,37 @@ u"""
 )
 
 entry(
-    index = 231,
-    label = "SisJ_Si",
+    index = 230,
+    label = "SisJ_Si2_H",
     group = 
 """
-1 * Sis u1 p0 c0 {2,S}
+1 * Sis u1 p0 c0 {2,S} {3,S} {4,S}
 2   Si u0 p0 {1,S}
+3   Si u0 p0 {1,S}
+4   H  u0 p0 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.328,-2.083,-2.7,-3.199,-3.933,-4.428,-5.127],'cal/(mol*K)'),
+        H298 = (86.747,'kcal/mol'),
+        S298 = (1.539,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Taken as HBI value for SiH3[SiH]SiH3 (by comparing to Si3H8).
+""",
+)
+
+entry(
+    index = 231,
+    label = "SisJ_Si_H2",
+    group = 
+"""
+1 * Sis u1 p0 c0 {2,S} {3,S} {4,S}
+2   Si u0 p0 {1,S}
+3   H  u0 p0 c0 {1,S}
+4   H  u0 p0 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5980,6 +6005,42 @@ u"""
 )
 
 entry(
+    index = 403,
+    label = "Si=SiJ2_triplet",
+    group = 
+"""
+1 * Sid u2 p0 c0 {2,D}
+2   Si ux px c0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.835,-5.174,-6.251,-7.098,-8.307,-9.118,-10.344],'cal/(mol*K)'),
+        H298 = (156.315,'kcal/mol'),
+        S298 = (-0.784,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Taken from difference between [Si]=Si and Si=Si.
+""",
+)
+
+entry(
+    index = 400,
+    label = "SidJ2_triplet",
+    group = 
+"""
+1 * Sid u2 p0 c0
+""",
+    thermo = u'Si=SiJ2_triplet',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 401,
     label = "SiJ2_triplet",
     group = 
@@ -6028,6 +6089,50 @@ entry(
     longDesc = 
 u"""
 Taken from difference between SiH2(T) and SiH4.
+""",
+)
+
+entry(
+    index = 404,
+    label = "SiSiH_triplet",
+    group = 
+"""
+1 * Sis u2 p0 c0 {2,S} {3,S}
+2   H u0 p0 c0 {1,S}
+3   Si ux px c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.753, -4.123, -5.328, -6.338, -7.841, -8.852, -10.26],'cal/(mol*K)'),
+        H298 = (175.538,'kcal/mol'),
+        S298 = (0.402,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Taken from difference between H3SiSiH(triplet) and Si2H6.
+""",
+)
+
+entry(
+    index = 405,
+    label = "SiSiSi_triplet",
+    group = 
+"""
+1 * Sis u2 p0 c0 {2,S} {3,S}
+2   Si ux px c0 {1,S}
+3   Si ux px c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.721, -5.1, -6.151, -6.98, -8.206, -9.062, -10.339],'cal/(mol*K)'),
+        H298 = (169.464,'kcal/mol'),
+        S298 = (2.507,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Taken from difference between H3SiSiSiH3(triplet) and Si3H8.
 """,
 )
 
@@ -6649,7 +6754,8 @@ L1: Radical
             L4: SisJ
                 L5: SisJ_SiLP
                 L5: SiH3
-                L5: SisJ_Si
+                L5: SisJ_Si_H2
+                L5: SisJ_Si2_H
             L4: SiJ_LP
                 L5: SiJ_LP_H
                 L5: SiJ_LP_Si
@@ -6683,8 +6789,12 @@ L1: Radical
                 L5: CdJ2-Sd_triplet
         L3: Oa_triplet
         L3: SiJ2_triplet
+            L4: SidJ2_triplet
+                L5: Si=SiJ2_triplet
             L4: SisJ2_triplet
                 L5: SiH2_triplet
+                L5: SiSiH_triplet
+                L5: SiSiSi_triplet
         L3: SJ2_triplet
     L2: RJ2_singlet
         L3: CO
