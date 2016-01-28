@@ -40874,3 +40874,103 @@ entry(
     AGV BMK/cbsb7 with 1dHR
     """
 )
+
+entry(
+    index = 3133,
+    label = "Cds-HH_Cds-HH;CsJ-CdHH",
+    kinetics = Arrhenius(
+        A = (6.75E+02, 'cm^3/(mol*s)', '*|/', 2),
+        n = 2.700,
+        Ea = (11.3, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Wang CBS-QB3""",
+    longDesc = 
+    """
+    Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
+    
+    Table 4
+    allyl + ethene <=> pent-1-en-5-yl
+
+    CBS-QB3, high-P limit, atomization method for energies, hindered rotors for torsions
+    around single bonds, tunneling with Eckart potentials.
+    """
+)
+
+entry(
+    index = 3134,
+    label = "Cds-HH_Cds-CsH;CsJ-CdHH",
+    kinetics = Arrhenius(
+        A = (7.80E+02, 'cm^3/(mol*s)', '*|/', 2),
+        n = 2.530,
+        Ea = (11.0, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Wang CBS-QB3""",
+    longDesc = 
+    """
+    Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
+    
+    Table 4
+    allyl + propene = hex-1-en-5-yl
+
+    CBS-QB3, high-P limit, atomization method for energies, hindered rotors for torsions
+    around single bonds, tunneling with Eckart potentials.
+    """
+)
+
+entry(
+    index = 3135,
+    label = "Cds-CsH_Cds-HH;CsJ-CdHH",
+    kinetics = Arrhenius(
+        A = (3.43E+01, 'cm^3/(mol*s)', '*|/', 2),
+        n = 2.840,
+        Ea = (12.2, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Wang CBS-QB3""",
+    longDesc = 
+    """
+    Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
+    
+    Table 4
+    allyl + propene = 4-methylpent-1-en-5-yl
+
+    CBS-QB3, high-P limit, atomization method for energies, hindered rotors for torsions
+    around single bonds, tunneling with Eckart potentials.
+    """
+)
+
+entry(
+    index = 3136,
+    label = "Cds-CsH_Cds-CsH;CsJ-CdHH",
+    kinetics = Arrhenius(
+        A = (1.19E+02, 'cm^3/(mol*s)', '*|/', 2),
+        n = 2.700,
+        Ea = (11.2, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Wang CBS-QB3""",
+    longDesc = 
+    """
+    Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
+    
+    Table 4
+    allyl + 2-butene = 4-methylhex-1-en-5-yl
+
+    CBS-QB3, high-P limit, atomization method for energies, hindered rotors for torsions
+    around single bonds, tunneling with Eckart potentials.
+    """
+)
