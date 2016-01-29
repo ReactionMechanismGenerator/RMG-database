@@ -22,7 +22,7 @@ before_install:
   - conda update --yes conda
   - cd ..
   # this is the RMG-database project, so need to fetch RMG-Py
-  - git clone https://github.com/GreenGroup/RMG-Py.git
+  - git clone https://github.com/ReactionMechanismGenerator/RMG-Py.git
   - cd RMG-Py
 
 install:
