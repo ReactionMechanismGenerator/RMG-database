@@ -6042,27 +6042,32 @@ u"""
 
 entry(
     index = 401,
-    label = "SiJ2_triplet",
+    label = "SisJ2_triplet",
     group = 
 """
-1 * Si u2 p0 c0
+1 * Sis u2 px c0
 """,
-    thermo = u'SisJ2_triplet',
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.382,-3.853,-4.413,-4.986,-5.953,-6.683,-7.766],'cal/(mol*K)'),
+        H298 = (149.062,'kcal/mol'),
+        S298 = (-12.832,'cal/(mol*K)'),
+    ),
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Taken from difference between [Si] and SiH2(S).
 """,
 )
 
 entry(
     index = 402,
-    label = "SisJ2_triplet",
+    label = "SiJ2_triplet",
     group = 
 """
-1 * Sis u2 p0 c0
+1 * Si u2 px c0
 """,
-    thermo = u'SiH2_triplet',
+    thermo = u'SisJ2_triplet',
     shortDesc = u"""""",
     longDesc = 
 u"""
