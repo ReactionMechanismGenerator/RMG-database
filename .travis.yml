@@ -21,14 +21,11 @@ before_install:
   # Update conda itself
   - conda update --yes conda
   - cd ..
-  # this is the RMG-database project, so need to fetch RMG-Py
-  - git clone https://github.com/ReactionMechanismGenerator/RMG-Py.git
-  - cd RMG-Py
 
 install:
-  - conda env create
+  - conda create -c rmg --name rmg_env rmg=1.0.2 -y
   - source activate rmg_env
-  - make
+  - cd $TRAVIS_BUILD_DIR
 
 script:
   - make test-database
