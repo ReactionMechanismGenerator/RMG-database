@@ -71,7 +71,7 @@ git checkout $RMGTESTSBRANCH
 
 # create an empty commit with the SHA-ID of the 
 # tested commit of the RMG-database branch:
-git commit --allow-empty -m $REV
+git commit --allow-empty -m rmgdb-$REV
 
 # push to the branch to the RMG/RMG-tests repo:
 git push -f $REPO $RMGTESTSBRANCH > /dev/null
