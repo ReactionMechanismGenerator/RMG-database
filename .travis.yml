@@ -20,6 +20,7 @@ before_install:
   - export PATH=/home/travis/anaconda/bin:$PATH
   # Update conda itself
   - conda update --yes conda
+  - openssl aes-256-cbc -K $encrypted_02f40ca58e32_key -iv $encrypted_02f40ca58e32_iv -in deploy_key.enc -out deploy_key -d
   - cd ..
 
 install:
@@ -29,3 +30,4 @@ install:
 
 script:
   - make test-database
+  - bash ./deploy.sh
