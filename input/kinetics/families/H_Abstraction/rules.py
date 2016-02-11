@@ -386,9 +386,13 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    shortDesc = u"""Walker, R. W. Reactions of HO 2 radicals in combustion chemistry.""",
     longDesc = 
 u"""
+Walker, R. W. Symposium (International) on Combustion. Vol. 22. No. 1. Elsevier, 1989.
+Reactions of HO 2 radicals in combustion chemistry.
+
+Cited as source in:
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
