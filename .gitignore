@@ -11,3 +11,5 @@
 
 # C-Compiled scripts
 *.pyc
+
+*.ipynb_checkpoints
