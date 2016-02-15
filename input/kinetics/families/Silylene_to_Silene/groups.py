@@ -9,11 +9,13 @@ longDesc = u"""
 
 template(reactants=["SiRSiH"], products=["SiRH=Si"], ownReverse=False)
 
+reverse = "Silene_to_Silylene"
+
 recipe(actions=[
-    ['LOSE_PAIR', '*1', '1'],
     ['BREAK_BOND', '*2', 'S', '*3'],
     ['FORM_BOND', '*1', 'S', '*3'],
     ['CHANGE_BOND', '*1', '1', '*2'],
+    ['LOSE_PAIR', '*1', '1']
 ])
 
 entry(
@@ -21,7 +23,7 @@ entry(
     label = "SiRSiH",
     group = 
 """
-1 *1 Si u0 p[1,2] c0 {2,S}
+1 *1 Si u0 p1 c0 {2,S}
 2 *2 Si u0 px c0 {1,S} {3,S}
 3 *3  H u0 p0 c0 {2,S}
 """,
