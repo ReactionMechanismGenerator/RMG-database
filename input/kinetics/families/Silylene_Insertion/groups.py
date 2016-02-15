@@ -23,7 +23,7 @@ entry(
     label = "Si2S",
     group = 
 """
-1 *3 Si u0 p[1,2] c0 
+1 *3 Si ux p1 c0 
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -65,14 +65,11 @@ entry(
     index = 4,
     label = "Si_H",
     group = """
-1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+1 *1 Si ux p0 c0 {2,S} 
 2 *2 H  u0 p0 c0 {1,S}
-3    R  ux px {1,S}
-4    R  ux px {1,S}
-5    R  ux px {1,S}
 """,
     kinetics = None,
-    shortDesc = u"""A silane""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -243,14 +240,42 @@ L1: Y_H
 )
 
 forbidden(
-    label = "Si(S)_as_product",
+    label = "Si_wrong_valence",
     group = 
 """
-1 *1  Si u0 p1 c0 
+1 *3  Si u0 p2 c0 
 """,
-    shortDesc = u"""silylene""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
 )
+
+forbidden(
+    label = "Si_wrong_valence",
+    group = 
+"""
+1 *3  Si u0 p2 c0 
+""",
+    shortDesc = u"""This violates Hund's rule for Silicon""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "silylene_as_si-h",
+    group = 
+"""
+1 *1  Si ux p1 c0 {2,S}
+2 *2  H  u0 p0 c0 {1,S} 
+""",
+    shortDesc = u"""We shouldn't be able to insert into an Si-H bond in a silylene.""",
+    longDesc = 
+u"""
+
+""",
+)
+
