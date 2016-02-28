@@ -305,3 +305,57 @@ Taken from entry: vinylCPDyl <=> product41
 """,
 )
 
+
+
+entry(
+    index = 20,
+    label = "C5H5 <=> C5H5-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.15e+10, 's^-1'), n=0.98, Ea=(26.9, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: prod_24 <=> CPDyl
+""",
+)
+
+entry(
+    index = 21,
+    label = "C6H7 <=> C6H7-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.71e+10, 's^-1'), n=1.01, Ea=(27.8, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: prod_26 <=> meCPDyl
+""",
+)
+
+entry(
+    index = 22,
+    label = "C6H7-3 <=> C6H7-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.8e+10, 's^-1'), n=1.01, Ea=(28.2, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: prod_28 <=> meCPDyl
+""",
+)
+
+entry(
+    index = 23,
+    label = "C6H7-5 <=> C6H7-6",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.24e+09, 's^-1'), n=1.12, Ea=(39.4, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: prod_30 <=> prod_33
+""",
+)
+

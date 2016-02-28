@@ -542,3 +542,280 @@ Taken from entry: FA + H <=> vinylCPDyl
 """,
 )
 
+
+
+entry(
+    index = 30,
+    label = "C3H4 + allyl <=> C6H9",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(42, 'cm^3/(mol*s)'), n=3.27, Ea=(11, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: aC3H5 + C3H4a <=> prod_1
+""",
+)
+
+entry(
+    index = 31,
+    label = "C6H9-2 <=> C6H8 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(7.93e+09, 's^-1'), n=1.27, Ea=(31, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: prod_2 <=> prod_3 + H
+""",
+)
+
+entry(
+    index = 32,
+    label = "C3H4 + C4H7 <=> C7H11",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(18.6, 'cm^3/(mol*s)'), n=3, Ea=(9.5, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: C3H4a + iC4H7 <=> prod_6
+""",
+)
+
+entry(
+    index = 33,
+    label = "C7H11-2 <=> C7H10 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(6.37e+08, 's^-1'), n=1.3, Ea=(29.5, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: prod_4 <=> prod_5 + H
+""",
+)
+
+entry(
+    index = 34,
+    label = "C3H4-2 + allyl <=> C6H9-3",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (267000, 'cm^3/(mol*s)'),
+        n = 2.15,
+        Ea = (12.3, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: C3H4p + aC3H5 <=> prod_7
+""",
+)
+
+entry(
+    index = 35,
+    label = "C6H9-4 <=> C6H8-2 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(7.99e+10, 's^-1'), n=1, Ea=(32.7, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: prod_8 <=> prod_9 + H
+""",
+)
+
+entry(
+    index = 36,
+    label = "C3H4-2 + C4H7 <=> C7H11-3",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(121, 'cm^3/(mol*s)'), n=2.9, Ea=(10.3, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: C3H4p + iC4H7 <=> prod_10
+""",
+)
+
+entry(
+    index = 37,
+    label = "C7H11-4 <=> C7H10-2 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.77e+09, 's^-1'), n=1.4, Ea=(32, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: prod_11 <=> prod_12 + H
+""",
+)
+
+entry(
+    index = 38,
+    label = "C3H4 + C4H5 <=> C7H9-19",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(128, 'cm^3/(mol*s)'), n=3.05, Ea=(7.4, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: C3H4a + BD2YL <=> prod_13
+""",
+)
+
+entry(
+    index = 39,
+    label = "C7H9-20 <=> C7H8-11 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4e+10, 's^-1'), n=1.27, Ea=(44.7, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: prod_14 <=> prod_15 + H
+""",
+)
+
+entry(
+    index = 40,
+    label = "C3H4-2 + C4H5 <=> C7H9-21",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1900, 'cm^3/(mol*s)'), n=2.92, Ea=(8.5, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: C3H4p + BD2YL <=> prod_16
+""",
+)
+
+entry(
+    index = 41,
+    label = "C7H9-22 <=> C7H8-12 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(6.47e+10, 's^-1'), n=1.22, Ea=(45.7, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: prod_17 <=> prod_18 + H
+""",
+)
+
+entry(
+    index = 42,
+    label = "C3H4-3 + allyl <=> C6H9-5",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3960, 'cm^3/(mol*s)'), n=2.65, Ea=(11.6, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: aC3H5 + C3H4a <=> prod_19
+""",
+)
+
+entry(
+    index = 43,
+    label = "C3H4-3 + C4H7 <=> C7H11-5",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(37, 'cm^3/(mol*s)'), n=2.89, Ea=(9.9, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: C3H4a + iC4H7 <=> prod_20
+""",
+)
+
+entry(
+    index = 44,
+    label = "C2H2 + allyl <=> C5H7",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (238000, 'cm^3/(mol*s)'),
+        n = 2.26,
+        Ea = (12.3, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: aC3H5 + C2H2 <=> prod_21
+""",
+)
+
+entry(
+    index = 45,
+    label = "C5H7-2 <=> C5H6 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.19e+09, 's^-1'), n=1.37, Ea=(31.9, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: prod_22 <=> CPD + H
+""",
+)
+
+entry(
+    index = 46,
+    label = "C2H2 + C3H3 <=> C5H5-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.27e+06, 'cm^3/(mol*s)'),
+        n = 2.15,
+        Ea = (10.4, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: C3H3 + C2H2 <=> prod_23
+""",
+)
+
+entry(
+    index = 47,
+    label = "C3H4-2 + C3H3 <=> C6H7",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(7040, 'cm^3/(mol*s)'), n=2.87, Ea=(9.8, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: C3H3 + C3H4p <=> prod_25
+""",
+)
+
+entry(
+    index = 48,
+    label = "C3H4-4 + C3H3 <=> C6H7-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(285, 'cm^3/(mol*s)'), n=2.93, Ea=(11.1, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: C3H3 + C3H4p <=> prod_27
+""",
+)
+
+entry(
+    index = 49,
+    label = "C3H4-3 + C3H3 <=> C6H7-3",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(850, 'cm^3/(mol*s)'), n=2.81, Ea=(8.9, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: C3H3 + C3H4a <=> prod_29
+""",
+)
+
