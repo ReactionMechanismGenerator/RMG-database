@@ -26,6 +26,53 @@ u"""
 """,
 )
 
+
+entry(
+    index = 96,
+    label = "Aromatic",
+    group = 
+"""
+1 * Cb u0
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Aromatic""",
+    longDesc = 
+u"""
+Ring correction is zero because RMG uses Cb group corrections instead in the case of a ring containing Cb bonds
+""",
+)
+
+
+entry(
+    index = 96,
+    label = "Benzene",
+    group = 
+"""
+1 Cb u0 {2,B} {6,B}
+2 Cb u0 {1,B} {3,B}
+3 Cb u0 {2,B} {4,B}
+4 Cb u0 {3,B} {5,B}
+5 Cb u0 {4,B} {6,B}
+6 Cb u0 {1,B} {5,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Aromatic""",
+    longDesc = 
+u"""
+Ring correction is zero because RMG uses Cb group corrections instead in the case of a ring containing Cb bonds
+""",
+)
+
 entry(
     index = 97,
     label = "ThreeMember",
@@ -3664,6 +3711,8 @@ u"""
 tree(
 """
 L1: Ring
+    L2: Aromatic
+        L3: Benzene
     L2: ThreeMember
         L3: Cyclopropane
         L3: Cyclopropene
