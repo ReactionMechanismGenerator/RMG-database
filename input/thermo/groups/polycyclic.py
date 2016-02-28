@@ -24,6 +24,7 @@ entry(
 u"""
 
 """,
+    rank = 10,
 )
 
 entry(

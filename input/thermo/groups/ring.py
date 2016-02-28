@@ -24,6 +24,7 @@ entry(
 u"""
 
 """,
+    rank = 10,
 )
 
 
@@ -45,6 +46,7 @@ entry(
 u"""
 Ring correction is zero because RMG uses Cb group corrections instead in the case of a ring containing Cb bonds
 """,
+    rank = 1,
 )
 
 
@@ -71,6 +73,7 @@ entry(
 u"""
 Ring correction is zero because RMG uses Cb group corrections instead in the case of a ring containing Cb bonds
 """,
+    rank = 1,
 )
 
 entry(
