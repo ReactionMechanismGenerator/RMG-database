@@ -1706,3 +1706,31 @@ u"""
 
 """,
 )
+
+forbidden(
+    label= 'benzyl_isomer1',
+    group=
+"""
+1 C 0 {2,D}
+2 C 0 {1,D} {3,S} {7,S}
+3 C 0 {2,S} {4,D}
+4 C 0 {3,D} {5,S}
+5 C 1 {4,S} {6,S}
+6 C 0 {5,S} {7,D}
+7 C 0 {2,S} {6,D}
+"""
+    )
+
+forbidden(
+    label= 'benzyl_isomer2',
+    group=
+"""
+1 C 0 {2,D}
+2 C 0 {1,D} {3,S} {7,S}
+3 C 1 {2,S} {4,S}
+4 C 0 {3,S} {5,D}
+5 C 0 {4,D} {6,S}
+6 C 0 {5,S} {7,D}
+7 C 0 {2,S} {6,D}
+"""
+    )
