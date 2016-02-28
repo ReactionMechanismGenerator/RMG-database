@@ -35,3 +35,18 @@ Taken from entry: product21 <=> product22
 """,
 )
 
+
+
+entry(
+    index = 3,
+    label = "C9H8 <=> C9H8-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5.2e+09, 's^-1'), n=0.96, Ea=(6.8, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt22 <=> INDENE
+""",
+)
+

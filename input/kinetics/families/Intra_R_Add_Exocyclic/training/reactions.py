@@ -35,3 +35,44 @@ Taken from entry: product39 <=> product37
 """,
 )
 
+
+
+entry(
+    index = 3,
+    label = "C10H11 <=> C10H11-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(6.69e+11, 's^-1'), n=0.22, Ea=(40, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt18 <=> pdt19
+""",
+)
+
+entry(
+    index = 4,
+    label = "C10H11-3 <=> C10H11-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.19e+11, 's^-1'), n=0.08, Ea=(16.7, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt14 <=> pdt23
+""",
+)
+
+entry(
+    index = 5,
+    label = "C10H11-5 <=> C10H11-6",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.02e+11, 's^-1'), n=0.79, Ea=(35.3, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt55 <=> pdt58
+""",
+)
+
