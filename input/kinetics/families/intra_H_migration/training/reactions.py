@@ -478,3 +478,18 @@ Taken from entry: pdt58 <=> pdt20
 """,
 )
 
+
+
+entry(
+    index = 33,
+    label = "C6H7-7 <=> C6H7-8",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(0.00218, 's^-1'), n=4.91, Ea=(40.4, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    longDesc = 
+u"""
+Taken from entry: C5H4CH3 <=> C5H5CH2-1
+""",
+)
+

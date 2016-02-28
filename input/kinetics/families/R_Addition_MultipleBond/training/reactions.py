@@ -1043,3 +1043,85 @@ Taken from entry: pdt38 + H <=> pdt37
 """,
 )
 
+
+
+entry(
+    index = 64,
+    label = "C6H6 + H <=> C6H7-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.69e+09, 'cm^3/(mol*s)'),
+        n = 1.46,
+        Ea = (-0.7, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    longDesc = 
+u"""
+Taken from entry: FULVENE + H <=> C5H4CH3
+""",
+)
+
+entry(
+    index = 65,
+    label = "C6H6-3 + H <=> C6H7-5",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.31e+08, 'cm^3/(mol*s)'), n=1.76, Ea=(2, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    longDesc = 
+u"""
+Taken from entry: FULVENE + H <=> C5H5CH2-1
+""",
+)
+
+entry(
+    index = 66,
+    label = "C6H6-5 + H <=> C6H7-6",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (7.26e+09, 'cm^3/(mol*s)'),
+        n = 1.48,
+        Ea = (0.4, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    longDesc = 
+u"""
+Taken from entry: FULVENE + H <=> C5H5CH2-3
+""",
+)
+
+entry(
+    index = 67,
+    label = "C6H6-4 + H <=> C6H7-7",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.52e+09, 'cm^3/(mol*s)'),
+        n = 1.52,
+        Ea = (0.9, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    longDesc = 
+u"""
+Taken from entry: FULVENE + H <=> C5H5CH2-2
+""",
+)
+
+entry(
+    index = 68,
+    label = "C6H7-8 <=> C6H6-2 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.84e+09, 's^-1'), n=1.3, Ea=(27.4, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    longDesc = 
+u"""
+Taken from entry: cyC6H7 <=> benzene + H
+""",
+)
+
