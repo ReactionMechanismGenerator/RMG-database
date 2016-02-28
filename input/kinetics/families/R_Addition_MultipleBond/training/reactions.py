@@ -1125,3 +1125,72 @@ Taken from entry: cyC6H7 <=> benzene + H
 """,
 )
 
+
+
+entry(
+    index = 69,
+    label = "C10H8 + H <=> C10H9",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.63e+09, 'cm^3/(mol*s)'),
+        n = 1.61,
+        Ea = (0.1, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
+    longDesc = 
+u"""
+Taken from entry: biCPD3ene + H <=> adducta
+""",
+)
+
+entry(
+    index = 70,
+    label = "C10H8-2 + H <=> C10H9-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.61e+10, 'cm^3/(mol*s)'),
+        n = 1.52,
+        Ea = (0.3, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
+    longDesc = 
+u"""
+Taken from entry: biCPD3ene + H <=> adductb
+""",
+)
+
+entry(
+    index = 71,
+    label = "C10H8-3 + H <=> C10H9-3",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.61e+10, 'cm^3/(mol*s)'),
+        n = 1.52,
+        Ea = (0.3, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
+    longDesc = 
+u"""
+Taken from entry: biCPD3ene + H <=> adductc
+""",
+)
+
+entry(
+    index = 72,
+    label = "C10H9-4 <=> C10H8-4 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.34e+08, 's^-1'), n=1.55, Ea=(15.3, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
+    longDesc = 
+u"""
+Taken from entry: prod4 <=> naphthalene + H
+""",
+)
+

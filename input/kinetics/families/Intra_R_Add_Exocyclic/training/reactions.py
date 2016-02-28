@@ -76,3 +76,18 @@ Taken from entry: pdt55 <=> pdt58
 """,
 )
 
+
+
+entry(
+    index = 6,
+    label = "C10H9 <=> C10H9-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.3e+12, 's^-1'), n=0.45, Ea=(25.6, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
+    longDesc = 
+u"""
+Taken from entry: prod2 <=> prod5
+""",
+)
+
