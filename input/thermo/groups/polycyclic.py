@@ -3209,6 +3209,179 @@ Fitted from species naphthalene from naphthalene_H library.
 """,
 )
 
+entry(
+    index = 124,
+    label = "s1_3_6",
+    group = 
+"""
+1 * C u0 {2,[S,D,T,B]} {6,[S,D,T,B]}
+2   C u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
+3   C u0 {2,[S,D,T,B]} {4,[S,D,T,B]}
+4   C u0 {3,[S,D,T,B]} {5,[S,D,T,B]} {7,[S,D,T,B]} {8,[S,D,T,B]}
+5   C u0 {4,[S,D,T,B]} {6,[S,D,T,B]}
+6   C u0 {1,[S,D,T,B]} {5,[S,D,T,B]}
+7   C u0 {4,[S,D,T,B]} {8,[S,D,T,B]}
+8   C u0 {4,[S,D,T,B]} {7,[S,D,T,B]}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 125,
+    label = "s1_3_6_ane",
+    group = 
+"""
+1 * C 0 {2,S} {6,S}
+2   C 0 {1,S} {3,S}
+3   C 0 {2,S} {4,S}
+4   C 0 {3,S} {5,S} {7,S} {8,S}
+5   C 0 {4,S} {6,S}
+6   C 0 {1,S} {5,S}
+7   C 0 {4,S} {8,S}
+8   C 0 {4,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 126,
+    label = "s1_3_6_ene",
+    group = "OR{s1_3_6_ene_1, s1_3_6_ene_2}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 127,
+    label = "s1_3_6_diene",
+    group = "OR{s1_3_6_diene_1_4, s1_3_6_diene_1_3}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 128,
+    label = "s1_3_6_ene_1",
+    group = 
+"""
+1 * C 0 {2,S} {6,S}
+2   C 0 {1,S} {3,D}
+3   C 0 {2,D} {4,S}
+4   C 0 {3,S} {5,S} {7,S} {8,S}
+5   C 0 {4,S} {6,S}
+6   C 0 {1,S} {5,S}
+7   C 0 {4,S} {8,S}
+8   C 0 {4,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 129,
+    label = "s1_3_6_ene_2",
+    group =  
+"""
+1 * C 0 {2,D} {6,S}
+2   C 0 {1,D} {3,S}
+3   C 0 {2,S} {4,S}
+4   C 0 {3,S} {5,S} {7,S} {8,S}
+5   C 0 {4,S} {6,S}
+6   C 0 {1,S} {5,S}
+7   C 0 {4,S} {8,S}
+8   C 0 {4,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 130,
+    label = "s1_3_6_diene_1_4",
+    group =   
+"""
+1 * C 0 {2,S} {6,S}
+2   C 0 {1,S} {3,D}
+3   C 0 {2,D} {4,S}
+4   C 0 {3,S} {5,S} {7,S} {8,S}
+5   C 0 {4,S} {6,D}
+6   C 0 {1,S} {5,D}
+7   C 0 {4,S} {8,S}
+8   C 0 {4,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 131,
+    label = "s1_3_6_diene_1_3",
+    group =    
+"""
+1 * C 0 {2,S} {6,D}
+2   C 0 {1,S} {3,D}
+3   C 0 {2,D} {4,S}
+4   C 0 {3,S} {5,S} {7,S} {8,S}
+5   C 0 {4,S} {6,S}
+6   C 0 {1,D} {5,S}
+7   C 0 {4,S} {8,S}
+8   C 0 {4,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
 tree(
 """
 L1: PolycyclicRing
@@ -3334,6 +3507,14 @@ L1: PolycyclicRing
     L2: prod4-1
     L2: naphthalene
     L2: naphthalene-1
+    L2: s1_3_6
+        L3: s1_3_6_ane
+        L3: s1_3_6_ene
+            L4: s1_3_6_ene_1
+            L4: s1_3_6_ene_2
+        L3: s1_3_6_diene
+            L4: s1_3_6_diene_1_4
+            L4: s1_3_6_diene_1_3
 """
 )
 
