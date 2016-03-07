@@ -3507,6 +3507,19 @@ L1: PolycyclicRing
     L2: prod4-1
     L2: naphthalene
     L2: naphthalene-1
+    L2: s1_3_3
+        L3: s1_3_3_ane
+        L3: s1_3_3_ene
+    L2: s1_3_4
+        L3: s1_3_4_ane
+        L3: s1_3_4_ene
+    L2: s1_3_5
+        L3: s1_3_5_ane
+        L3: s1_3_5_ene
+            L4: s1_3_5_ene_1
+            L4: s1_3_5_ene_2
+        L3: s1_3_5_diene
+            L4: s1_3_5_diene_1_3
     L2: s1_3_6
         L3: s1_3_6_ane
         L3: s1_3_6_ene
@@ -3515,6 +3528,111 @@ L1: PolycyclicRing
         L3: s1_3_6_diene
             L4: s1_3_6_diene_1_4
             L4: s1_3_6_diene_1_3
+    L2: s1_4_4
+        L3: s1_4_4_ane
+        L3: s1_4_4_ene
+        L3: s1_4_4_diene
+    L2: s1_4_5
+        L3: s1_4_5_ane
+        L3: s1_4_5_ene
+            L4: s1_4_5_ene_1
+            L4: s1_4_5_ene_2
+            L4: s1_4_5_ene_6
+        L3: s1_4_5_diene
+            L4: s1_4_5_diene_1_3
+            L4: s1_4_5_diene_1_6
+            L4: s1_4_5_diene_2_6
+    L2: s1_4_6
+        L3: s1_4_6_ane
+        L3: s1_4_6_ene
+            L4: s1_4_6_ene_1
+            L4: s1_4_6_ene_2
+            L4: s1_4_6_ene_7
+        L3: s1_4_6_diene
+            L4: s1_4_6_diene_1_3
+            L4: s1_4_6_diene_1_7
+            L4: s1_4_6_diene_2_7
+    L2: s1_5_5
+        L3: s1_5_5_ane
+        L3: s1_5_5_ene
+            L4: s1_5_5_ene_1
+            L4: s1_5_5_ene_2
+        L3: s1_5_5_diene
+            L4: s1_5_5_diene_1_3
+            L4: s1_5_5_diene_1_6
+            L4: s1_5_5_diene_1_7
+            L4: s1_5_5_diene_2_7
+    L2: s1_5_6
+        L3: s1_5_6_ane
+        L3: s1_5_6_ene
+            L4: s1_5_6_ene_1
+            L4: s1_5_6_ene_2
+            L4: s1_5_6_ene_7
+            L4: s1_5_6_ene_8
+        L3: s1_5_6_diene
+            L4: s1_5_6_diene_1_3
+            L4: s1_5_6_diene_1_4
+            L4: s1_5_6_diene_1_7
+            L4: s1_5_6_diene_1_8
+            L4: s1_5_6_diene_2_7
+            L4: s1_5_6_diene_2_8
+            L4: s1_5_6_diene_7_9
+    L2: s1_6_6
+        L3: s1_6_6_ane
+        L3: s1_6_6_ene
+            L4: s1_6_6_ene_1
+            L4: s1_6_6_ene_2
+        L3: s1_6_6_diene
+            L4: s1_6_6_diene_1_3
+            L4: s1_6_6_diene_1_4
+            L4: s1_6_6_diene_1_7
+            L4: s1_6_6_diene_1_8
+            L4: s1_6_6_diene_2_8
+
+    L2: s2_3_3
+        L3: s2_3_3_ane
+        L3: s2_3_3_ene
+    L2: s2_3_4
+        L3: s2_3_4_ane
+        L3: s2_3_4_ene
+            L4: s2_3_4_ene_1
+    L2: s2_3_5
+        L3: s2_3_5_ane
+        L3: s2_3_5_ene
+            L4: s2_3_5_ene_1
+    L2: s2_3_6 
+        L3: s2_3_6_ane
+        L3: s2_3_6_ene
+            L4: s2_3_6_ene_1
+            L4: s2_3_6_ene_2
+        L3: s2_3_6_diene
+            L4: s2_3_6_diene_1_3
+    L2: s2_4_4
+        L3: s2_4_4_ane
+        L3: s2_4_4_ene
+            L4: s2_4_4_ene_1
+    L2: s2_4_5
+        L3: s2_4_5_ane
+        L3: s2_4_5_ene
+            L4: s2_4_5_ene_1
+    L2: s2_4_6
+        L3: s2_4_6_ane
+        L3: s2_4_6_ene
+            L4: s2_4_6_ene_1
+            L4: s2_4_6_ene_2
+    L2: s3_5_5
+        L3: s3_5_5_ane
+        L3: s3_5_5_ene
+            L4: s3_5_5_ene_1
+        L3: s3_5_5_diene
+            L4: s3_5_5_diene_1_4
+    L2: s3_5_6
+        L3: s3_5_6_ane
+        L3: s3_5_6_ene
+            L4: s3_5_6_ene_1
+            L4: s3_5_6_ene_5
+        L3: s3_5_6_diene
+            L4: s3_5_6_diene_1_5
 """
 )
 
