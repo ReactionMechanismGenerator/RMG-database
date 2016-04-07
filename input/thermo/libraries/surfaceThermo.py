@@ -15,11 +15,19 @@ entry(
 """
 1 X u0 p0 c0
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+#    thermo = ThermoData(
+#        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+#        H298 = (0,'kcal/mol'),
+#        S298 = (0,'cal/(mol*K)'),
+#    ),
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[0.0,0,0,0,0,0.0,0.0], Tmin=(298,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[0.0,0,0,0,0,0.0,0.0], Tmin=(1000,'K'), Tmax=(5000,'K')),
+        ],
+        Tmin = (298,'K'),
+        Tmax = (5000,'K'),
     ),
     shortDesc = u"""library value for a vacant surface site""",
     longDesc = u"""Zeros, by definition.""",
@@ -136,11 +144,19 @@ entry(
 3 H u0 p0 {1,S}
 4 X u0 p0 {1,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.82, 7.37, 8.64, 9.69, 11.35, 12.64, 14.74],'cal/(mol*K)'),
-        H298 = (4.11,'kcal/mol','+|-',0.1),
-        S298 = (4.28,'cal/(mol*K)','+|-',0.1),
+#    thermo = ThermoData(
+#        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#        Cpdata = ([5.82, 7.37, 8.64, 9.69, 11.35, 12.64, 14.74],'cal/(mol*K)'),
+#        H298 = (4.11,'kcal/mol','+|-',0.1),
+#        S298 = (4.28,'cal/(mol*K)','+|-',0.1),
+#    ),
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[-7.19249342E-01, 1.65071735E-02,-1.74998510E-05, 1.09676908E-08,-2.88981251E-12, 1.68411050E+03, 2.01831094E+00  ], Tmin=(298,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[9.83780574E-01, 8.78623452E-03,-4.38766259E-06, 1.09400822E-09,-1.10409266E-13,1.38336061E+03,-5.98458146E+00], Tmin=(1000,'K'), Tmax=(2000,'K')),
+        ],
+        Tmin = (298,'K'),
+        Tmax = (2000,'K'),
     ),
     shortDesc = u"""CH2 adsorbed on nickel""",
     longDesc =  u"""Estimated via CFG-TOC""",
@@ -157,11 +173,19 @@ entry(
 4 H u0 p0 {1,S}
 5 X u0 p0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.57,11.53,13.02,14.19,16.03,17.47,19.94],'cal/(mol*K)'),
-        H298 = (-7.32,'kcal/mol','+|-',0.1),
-        S298 = (8.06,'cal/(mol*K)','+|-',0.1),
+#    thermo = ThermoData(
+#        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#        Cpdata = ([9.57,11.53,13.02,14.19,16.03,17.47,19.94],'cal/(mol*K)'),
+#        H298 = (-7.32,'kcal/mol','+|-',0.1),
+#        S298 = (8.06,'cal/(mol*K)','+|-',0.1),
+#    ),
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[-5.52219087E-01, 2.64420133E-02,-3.55617257E-05, 2.60043628E-08,-7.52706787E-12,-4.43346585E+03, 6.92144274E-01  ], Tmin=(298,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[ 3.62557353E+00, 7.39511955E-03,-2.43797398E-06, 1.86159414E-10, 3.64849549E-14,-5.18722188E+03,-1.89668272E+01], Tmin=(1000,'K'), Tmax=(2000,'K')),
+        ],
+        Tmin = (298,'K'),
+        Tmax = (2000,'K'),
     ),
     shortDesc = u"""Methyl adsorbed on nickle""",
     longDesc = u"""Estimated via CFG-TOC""",
