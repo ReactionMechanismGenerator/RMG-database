@@ -2,6 +2,8 @@
 
 set -e # exit with nonzero exit code if anything fails
 
+openssl aes-256-cbc -K $encrypted_02f40ca58e32_key -iv $encrypted_02f40ca58e32_iv -in deploy_key.enc -out deploy_key -d
+
 echo 'Travis Build Dir: '$TRAVIS_BUILD_DIR
 
 if $TRAVIS_PULL_REQUEST
