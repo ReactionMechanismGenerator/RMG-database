@@ -20,7 +20,6 @@ before_install:
   - export PATH=/home/travis/anaconda/bin:$PATH
   # Update conda itself
   - conda update --yes conda
-  - openssl aes-256-cbc -K $encrypted_02f40ca58e32_key -iv $encrypted_02f40ca58e32_iv -in deploy_key.enc -out deploy_key -d
   - cd ..
   # this is the RMG-database project, so need to fetch RMG-Py
   - git clone https://github.com/ReactionMechanismGenerator/RMG-Py.git
@@ -36,4 +35,6 @@ install:
 script:
   - make test-database
   - cd $TRAVIS_BUILD_DIR
+
+after_success:
   - bash ./deploy.sh
