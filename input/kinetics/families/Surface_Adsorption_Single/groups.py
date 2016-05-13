@@ -4,7 +4,15 @@
 name = "Surface_Adsorption_Single/groups"
 shortDesc = u""
 longDesc = u"""
+Adsorption of a gas-phase radical onto the surface. The unpaired electron in the reactant forms a single bond with the metal.
 
+ *1         *1
+     ---->   |
+~*2~       ~*2~~
+
+The rate, which should be in mol/m2/s,
+will be given by k * (mol/m2) * (mol/m3)
+so k should be in (m3/mol/s). We will use sticking coefficients.
 """
 
 template(reactants=["Adsorbate", "VacantSite"], products=["Adsorbed"], ownReverse=False)
