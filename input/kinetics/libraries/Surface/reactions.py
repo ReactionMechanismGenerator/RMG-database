@@ -6,13 +6,33 @@ shortDesc = u""
 longDesc = u"""
 test surface mechanism:
 """
+
 entry(
     index = 1,
     label = "O2 + Ni + Ni <=> OX + OX",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(6.08E8, 'cm^5/(mol^2*s)'), n=0.294, Ea=(1500.0, 'J/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-dissociative adsorption of O2 on Nickel to yield 2 O*
-""",
+    kinetics = StickingCoefficient(
+        A = 0.1,
+        n = 0,
+        Ea=(0, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Default""",
+    longDesc = u"""Made up"""
+)
+
+
+
+entry(
+    index = 2,
+    label = "CH4 + Ni + Ni <=> CH3X + HX",
+    kinetics = StickingCoefficient(
+        A = 0.1,
+        n = 0,
+        Ea=(0, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Default""",
+    longDesc = u"""Made up"""
 )
