@@ -79,5 +79,6 @@ surface = {
     'Surface_Adsorption_Dissociative',
     'Surface_Adsorption_Bidentate',
     'Surface_Recombination',
+    'Surface_Abstraction',
 }
 
