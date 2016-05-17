@@ -33,6 +33,15 @@ HX
 2 X u0 p0 {1,S}
 
 
+O2X
+multiplicity 2
+1 O u0 p2 c0 {2,S} {3,S}
+2 O u1 p2 c0 {1,S}
+3 X u0 p0 c0 {1,S}
+
+
+
+
 
 
 
