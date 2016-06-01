@@ -31,8 +31,8 @@ entry(
     label = "Abstracting",
     group = 
 """
-1 *1 R  ux {2,[D,T]}
-2 *2 Xo u0 {1,[D,T]}
+1 *1 R  ux {2,[D,T,Q]}
+2 *2 Xo u0 {1,[D,T,Q]}
 """,
     kinetics = None,
 )
@@ -44,7 +44,7 @@ entry(
 """
 1 *4 R  ux {2,S}
 2 *3 R  ux {1,S} {3,[S,D,T]}
-3 *5 Xo u0 {2,[S,D,T]}
+3 *5 Xo u0       {2,[S,D,T]}
 """,
     kinetics = None,
 )
