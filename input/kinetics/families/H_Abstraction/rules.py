@@ -2035,7 +2035,7 @@ entry(
         A = (2.57e+06, 'cm^3/(mol*s)'),
         n = 1.9,
         alpha = 0,
-        E0 = (1.45, 'kcal/mol'),
+        E0 = (-1.45, 'kcal/mol'),
         Tmin = (298, 'K'),
         Tmax = (1150, 'K'),
     ),
