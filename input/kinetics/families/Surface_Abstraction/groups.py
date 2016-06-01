@@ -4,9 +4,11 @@
 name = "Surface_Abstraction/groups"
 shortDesc = u""
 longDesc = u"""
-Two adsorbates react. One has a double bond, the other has a single-bond and some functional group. The functional group is transferred to from the single to the double-bonded species.
+Two adsorbates react. One has a double bond, the other has a single-bond and
+some functional group. The functional group is transferred from the single
+to the double-bonded species.
 
- *1      *3-*4          *1-*4  *3
+ *1   *4-*3             *1-*4  *3
  ||       |      ---->   |     ||
 ~*2~~ + ~*5~~          ~*2~ + ~*5~~
 
@@ -15,7 +17,7 @@ will be given by k * (mol/m2) * (mol/m2)
 so k should be in (m2/mol/s)
 """
 
-template(reactants=["Adsorbate1", "Adsorbate2"], products=["Combined", "VacantSite"], ownReverse=True)
+template(reactants=["Abstracting", "Donating"], products=["Abstracting", "Donating"], ownReverse=True)
 
 recipe(actions=[
     ['FORM_BOND', '*1', 'S', '*4'],
@@ -26,7 +28,7 @@ recipe(actions=[
 
 entry(
     index = 1,
-    label = "Adsorbate1",
+    label = "Abstracting",
     group = 
 """
 1 *1 R  ux {2,[D,T]}
@@ -37,7 +39,7 @@ entry(
 
 entry(
     index = 2,
-    label="Adsorbate2",
+    label="Donating",
     group = 
 """
 1 *4 R  ux {2,S}
@@ -50,9 +52,9 @@ entry(
 
 tree(
 """
-L1: Adsorbate1
+L1: Abstracting
 
-L1: Adsorbate2
+L1: Donating
 """
 )
 

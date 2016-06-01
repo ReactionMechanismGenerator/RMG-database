@@ -7,7 +7,7 @@ longDesc = u"""
 """
 entry(
     index = 1,
-    label = "Adsorbate1;Adsorbate2",
+    label = "Abstracting;Donating",
     kinetics = SurfaceArrhenius(
         A = (1.0e13, 'm^2/(mol*s)'),
         n = 0,
