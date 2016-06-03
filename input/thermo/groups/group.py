@@ -42724,12 +42724,12 @@ L1: R
                 L5: Cs-CdsHHH
                     L6: Cs-(Cds-Od)HHH
                     L6: Cs-(Cds-Cd)HHH
-                        L7: Cs-(CdN3d)HHH
                         L7: Cs-(Cds-Cds)HHH
                         L7: Cs-(Cds-Cdd)HHH
                             L8: Cs-(Cds-Cdd-Od)HHH
                             L8: Cs-(Cds-Cdd-Sd)HHH
                             L8: Cs-(Cds-Cdd-Cd)HHH
+                    L6: Cs-(CdN3d)HHH
                     L6: Cs-C=SHHH
                 L5: Cs-CtHHH
                     L6: Cs-(CtN3t)HHH
@@ -42752,7 +42752,7 @@ L1: R
                             L8: Cs-(Cds-Cdd-Od)CsHH
                             L8: Cs-(Cds-Cdd-Sd)CsHH
                             L8: Cs-(Cds-Cdd-Cd)CsHH
-                        L7: Cs-(CdN3d)CsHH
+                    L6: Cs-(CdN3d)CsHH
                     L6: Cs-C=SCsHH
                 L5: Cs-CdsCdsHH
                     L6: Cs-(Cds-Od)(Cds-Od)HH
@@ -42813,7 +42813,7 @@ L1: R
                             L8: Cs-(Cds-Cdd-Od)CsCsH
                             L8: Cs-(Cds-Cdd-Sd)CsCsH
                             L8: Cs-(Cds-Cdd-Cd)CsCsH
-                        L7: Cs-(CdN3d)CsCsH
+                    L6: Cs-(CdN3d)CsCsH
                     L6: Cs-C=SCsCsH
                 L5: Cs-CtCsCsH
                     L6: Cs-(CtN3t)CsCsH
@@ -43004,7 +43004,7 @@ L1: R
                             L8: Cs-(Cds-Cdd-Od)CsCsCs
                             L8: Cs-(Cds-Cdd-Sd)CsCsCs
                             L8: Cs-(Cds-Cdd-Cd)CsCsCs
-                        L7: Cs-(CdN3d)CsCsCs
+                    L6: Cs-(CdN3d)CsCsCs
                     L6: Cs-C=SCsCsCs
                 L5: Cs-CtCsCsCs
                     L6: Cs-(CtN3t)CsCsCs
