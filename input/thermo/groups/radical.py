@@ -6231,53 +6231,53 @@ L1: Radical
                 L5: Cs_S
                     L6: (Cs)2CsJ
                         L7: cyclopropane
+                            L8: bicyclo[1.1.0]butane-secondary
+                            L8: spiro[2.2]pentane-secondary
+                            L8: bicyclo[2.1.0]pentane-secondary-C3
+                            L8: bicyclo[2.1.0]pent-2-ene-C5
+                                L9: tricyclo[2.1.1.0(1,4)]hex-2-ene-C5
+                            L8: tricyclo[1.1.1.0(1,3)]pentane-C2
+                            L8: bicyclo[3.1.0]hexane-C3
+                            L8: tricyclo[2.1.1.0(1,4)]hexane-C5
+                            L8: bicyclo[4.1.0]heptane-C3-7
+                            L8: bicyclo[4.1.0]heptane-C3-7
+                            L8: tricyclo[3.1.1.0(1,5)]heptane-C6
+                            L8: tricyclo[2.2.1.0(1,4)]heptane-C7
                         L7: cyclobutane
-                        L7: bicyclo[1.1.0]butane-secondary
+                            L8: bicyclo[2.1.0]pentane-secondary-C4
+                            L8: bicyclo[2.2.0]hexane-secondary
+                            L8: bicyclo[3.2.0]heptane-C5-6
                         L7: CCJCOOH
-                        L7: spiro[2.2]pentane-secondary
-                        L7: bicyclo[2.1.0]pentane-secondary-C4
-                        L7: bicyclo[2.1.0]pentane-secondary-C3
                         L7: cyclopentene-4
-                        L7: bicyclo[2.1.0]pent-2-ene-C5
+                            L8: bicyclo[2.1.1]hex-2-ene-C5
                         L7: bicyclo[1.1.1]pentane-C2
-                        L7: tricyclo[1.1.1.0(1,3)]pentane-C2
                         L7: bicyclo[3.1.0]hexane-C5-2
                         L7: bicyclo[3.1.0]hexane-C5-3
-                        L7: bicyclo[3.1.0]hexane-C3
-                        L7: bicyclo[2.2.0]hexane-secondary
-                        L7: bicyclo[2.1.1]hex-2-ene-C5
-                        L7: tricyclo[2.1.1.0(1,4)]hex-2-ene-C5
                         L7: bicyclo[2.1.1]hexane-C2
+                            L8: tricyclo[2.1.1.0(1,4)]hexane-C2
                         L7: bicyclo[2.1.1]hexane-C5
-                        L7: tricyclo[2.1.1.0(1,4)]hexane-C2
-                        L7: tricyclo[2.1.1.0(1,4)]hexane-C5
                         L7: 7-norbornyl
                         L7: 2-norbornyl
                         L7: cycloheptane
-                        L7: bicyclo[3.2.0]heptane-C5-2
-                        L7: bicyclo[3.2.0]heptane-C5-3
-                        L7: bicyclo[3.2.0]heptane-C5-6
+                            L8: bicyclo[3.2.0]heptane-C5-2
+                            L8: bicyclo[3.2.0]heptane-C5-3
                         L7: bicyclo[4.1.0]heptane-C6-2
                         L7: bicyclo[4.1.0]heptane-C6-3
-                        L7: bicyclo[4.1.0]heptane-C3-7
                         L7: bicyclo[4.1.0]heptane-C6-2
                         L7: bicyclo[4.1.0]heptane-C6-3
-                        L7: bicyclo[4.1.0]heptane-C3-7
                         L7: bicyclo[3.1.1]heptane-C2
+                            L8: tricyclo[3.1.1.0(1,5)]heptane-C2
                         L7: bicyclo[3.1.1]heptane-C3
+                            L8: tricyclo[3.1.1.0(1,5)]heptane-C3
                         L7: bicyclo[3.1.1]heptane-C6
-                        L7: tricyclo[3.1.1.0(1,5)]heptane-C2
-                        L7: tricyclo[3.1.1.0(1,5)]heptane-C3
-                        L7: tricyclo[3.1.1.0(1,5)]heptane-C6
                         L7: tricyclo[2.2.1.0(1,4)]heptane-C2
-                        L7: tricyclo[2.2.1.0(1,4)]heptane-C7
                         L7: octahydro-pentalene-C5-2
                         L7: octahydro-pentalene-C5-3
                         L7: bicyclo[4.2.0]octane-C6-2
                         L7: bicyclo[4.2.0]octane-C6-3
                         L7: bicyclo[4.2.0]octane-C4-7
                         L7: bicyclo[2.2.2]octane-C2
-                        L7: tricyclo[2.2.2.0(1,4)]octane-C2
+                            L8: tricyclo[2.2.2.0(1,4)]octane-C2
                         L7: CCJC
                         L7: RCCJC
                         L7: RCCJCC
@@ -6371,15 +6371,15 @@ L1: Radical
                         L7: CsJ-CsCbSs
                         L7: CsJ-CsCdSs
                         L7: CsJ-CsC=SSs
-                L5: CsJ-SS
-                    L6: CsJ-SsSsH
-                    L6: CsJ-CSS
-                        L7: CsJ-CsSsSs
-                        L7: CsJ-CtSsSs
-                        L7: CsJ-CbSsSs
-                        L7: CsJ-CdSsSs
-                        L7: CsJ-C=SSsSs
-                L5: CsJ-SsSsSs
+                    L6: CsJ-SS
+                        L7: CsJ-SsSsH
+                        L7: CsJ-CSS
+                            L8: CsJ-CsSsSs
+                            L8: CsJ-CtSsSs
+                            L8: CsJ-CbSsSs
+                            L8: CsJ-CdSsSs
+                            L8: CsJ-C=SSsSs
+                        L7: CsJ-SsSsSs
                 L5: CsJN
                 L5: CCsJN
                 L5: C2CsJN
@@ -6407,16 +6407,16 @@ L1: Radical
                 L5: Cds_S
                     L6: C=CJC=C
                         L7: cyclobutadiene-C1
+                            L8: bicyclo[2.2.0]hexa-1(4),2,5-triene-C2
                         L7: 1,3-cyclopentadiene-vinyl-2
-                        L7: bicyclo[2.2.0]hexa-1(4),2,5-triene-C2
                     L6: cyclopropenyl-vinyl
                     L6: cyclobutene-vinyl
+                        L7: bicyclo[2.1.0]pent-2-ene-C2
+                            L8: tricyclo[2.1.1.0(1,4)]hex-2-ene-C2
+                        L7: bicyclo[2.2.0]hexa-2,5-diene-C2
                     L6: cyclopentene-vinyl
+                        L7: bicyclo[2.1.1]hex-2-ene-C2
                     L6: 1,3-cyclopentadiene-vinyl-1
-                    L6: bicyclo[2.1.0]pent-2-ene-C2
-                    L6: bicyclo[2.1.1]hex-2-ene-C2
-                    L6: tricyclo[2.1.1.0(1,4)]hex-2-ene-C2
-                    L6: bicyclo[2.2.0]hexa-2,5-diene-C2
                 L5: CdsJ-Ss
             L4: CtJ
                 L5: Acetyl
@@ -6466,7 +6466,6 @@ L1: Radical
         L3: SiJ2_triplet
         L3: SJ2_triplet
     L2: RJ2_singlet
-        L3: CO
         L3: CJ2_singlet
             L4: CsJ2_singlet
                 L5: CH2_singlet
@@ -6477,8 +6476,9 @@ L1: Radical
                     L6: AllylJ2_singlet
                 L5: CsJ2_S_singlet
             L4: CdJ2_singlet
-            L4: CCdJ2_singlet
-            L4: CdJ2-Sd_singlet
+                L5: CCdJ2_singlet
+                L5: CdJ2-Sd_singlet
+            L4: CO
         L3: Oa_singlet
         L3: SiJ2_singlet
         L3: SJ2_singlet
