@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Cl-Abstraction/groups"
+name = "Cl_Abstraction/groups"
 shortDesc = u""
 longDesc = u"""
 The reaction site *3 needs a lone pair in order to react. It cannot be 2S or 4S.

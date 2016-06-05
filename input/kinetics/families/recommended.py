@@ -20,6 +20,7 @@ recommendedFamilies = {
 '2+2_cycloaddition_Cd':True,
 'Birad_recombination':True,
 'Cyclic_Ether_Formation':True,
+'Cl_Abstraction':True,
 'Diels_alder_addition':True,
 'Disproportionation':True,
 'HO2_Elimination_from_PeroxyRadical':True,
