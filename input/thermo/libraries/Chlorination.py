@@ -1086,4 +1086,42 @@ u"""
 #)
 
 
+entry(
+    index = 2,
+    label = "CH3Cl",
+    molecule = 
+"""
+1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 Cl u0 p3 c0 {1,S}
+3 H  u0 p0 c0 {1,S}
+4 H  u0 p0 c0 {1,S}
+5 H  u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials=[
+            NASAPolynomial(coeffs=[3.96612,-0.00505693,4.02006e-05,-4.82782e-08,1.86722e-11,-11073,5.70447],
+            Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[3.97884,0.00791729,-2.81714e-06,4.51716e-10,-2.69086e-14,-11676.2,2.58273],
+            Tmin=(1000,'K'), Tmax=(6000,'K'))],
+        Tmin=(200,'K'), Tmax=(6000,'K'), 
+        comment="""tpis91"""),
+    shortDesc = u"""Burcat/Ruscic """,
+    longDesc = 
+u"""
+See http://www.ipd.anl.gov/anlpubs/2005/07/53802.pdf 
+74-87-3                                                                         
+CH3CL	METHYL CHLORIDE  SIGMA=3  STATWT=1  IAIBIC=3039.28  Nu=2968,1356,731,
+3039(2),1452(2),1017(2)  HF298=-81.87+/-0.6 kJ HF0=-73.94 kJ  REF=Gurvich 91 
+{HF298=-82.562+/-0.35 kJ  REF=ATcT A; HF298=-80. kJ   REF=Burcat G3B3 calc 2008;
+HF298=-81.966 kJ REF=TRC 12/81;  HF298=-83.68 kJ  REF=Kromkin Khimicheskaya 
+Fizika 22,(2003),30}  Max Lst Sq Error Cp @ 6000 K 0.54%.   
+    
+CH3CL             tpis91C  1.H  3.CL 1.   0.G   200.000  6000.000  B  50.48722 1
+ 3.97883949E+00 7.91729094E-03-2.81713927E-06 4.51715634E-10-2.69086155E-14    2
+-1.16761879E+04 2.58272676E+00 3.96611858E+00-5.05692958E-03 4.02006413E-05    3
+-4.82781901E-08 1.86721580E-11-1.10729538E+04 5.70446517E+00-9.84664159E+03    4
+""",
+)
+
+
 
