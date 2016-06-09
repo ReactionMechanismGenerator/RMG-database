@@ -132,7 +132,7 @@ entry(
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "RCR*",
     molecule =  
 """
@@ -156,7 +156,7 @@ R--C--R
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "COR*",
     molecule =  
 """
@@ -181,7 +181,7 @@ entry(
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "CR2R*",
     molecule =  
 """
@@ -206,7 +206,7 @@ R2--C--R
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "CROR*",
     molecule =  
 """
@@ -232,7 +232,7 @@ entry(
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "CR3O*",
     molecule =  
 """
@@ -261,7 +261,7 @@ entry(
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "CR2OR*",
     molecule =  
 """
@@ -289,7 +289,7 @@ entry(
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "CR3OR*",
     molecule =  
 """
@@ -318,7 +318,7 @@ entry(
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "ROCR*",
     molecule =  
 """
