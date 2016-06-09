@@ -4,9 +4,10 @@
 name = "Surface_Abstraction/groups"
 shortDesc = u""
 longDesc = u"""
-Two adsorbates react. One has a double bond, the other has a single-bond and
-some functional group. The functional group is transferred from the single
-to the double-bonded species.
+Two adsorbates react. One has a multiple bond to the surface, the other has a 
+single-bond to the surface and some functional group. 
+The functional group is transferred from the single
+to the multiple-bonded species.
 
  *1   *4-*3             *1-*4  *3
  ||       |      ---->   |     ||
@@ -31,8 +32,8 @@ entry(
     label = "Abstracting",
     group = 
 """
-1 *1 R  ux {2,[D,T]}
-2 *2 Xo u0 {1,[D,T]}
+1 *1 R  ux {2,[D,T,Q]}
+2 *2 Xo u0 {1,[D,T,Q]}
 """,
     kinetics = None,
 )
@@ -43,8 +44,8 @@ entry(
     group = 
 """
 1 *4 R  ux {2,S}
-2 *3 R  ux {1,S} {3,[S,D]}
-3 *5 Xo u0       {2,[S,D]}
+2 *3 R  ux {1,S} {3,[S,D,T]}
+3 *5 Xo u0       {2,[S,D,T]}
 """,
     kinetics = None,
 )
