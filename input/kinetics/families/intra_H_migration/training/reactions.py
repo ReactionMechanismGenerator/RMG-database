@@ -101,7 +101,7 @@ entry(
         Ea = (8.231, 'kcal/mol', '+|-', 1.00),
         T0 = (1, 'K'),
     ),
-    reference = "",
+    reference = None,
     referenceType = "theory",
     shortDesc = u"""TST calculations at M08SO/MG3S level by edames""",
     longDesc = 
