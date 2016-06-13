@@ -26,7 +26,7 @@ entry(
 entry(
     index = 2,
     label = "Y_rad_birad_trirad_quadrad",
-    group = "OR{Y_2centeradjbirad, Y_1centerbirad, Y_rad, Y_1centertrirad, Y_1centerquadrad}",
+    group = "OR{Y_rad, Y_1centerbirad, Y_1centertrirad, Y_1centerquadrad}",
     kinetics = None,
 )
 
