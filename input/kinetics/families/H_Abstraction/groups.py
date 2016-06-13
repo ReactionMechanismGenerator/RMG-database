@@ -533,10 +533,10 @@ entry(
     label = "Cd/H/OneDe",
     group = 
 """
-1 *1 C                  u0 {2,D} {3,S} {4,S}
-2    Cd                  u0 {1,D} {5,S}
-3 *2 H                  u0 {1,S}
-4    [Cd,Ct,Cb,CO,CS,N] u0 {1,S}
+1 *1 C                                             u0 {2,D} {3,S} {4,S}
+2    Cd                                            u0 {1,D} {5,S}
+3 *2 H                                             u0 {1,S}
+4    [Cd,Ct,Cb,CO,CS,N3d,N3t,N3b,N5d,N5dd,N5t,N5b] u0 {1,S}
 5 R u0 {2,S}
 """,
     kinetics = None,
@@ -6678,8 +6678,8 @@ L1: Y_rad_birad_trirad_quadrad
                             L8: O_rad/Cd\Cs_Cd\H2
                             L8: O_rad/Cd\Cs_Cd\H\Cs
                             L8: O_rad/Cd\Cs_Cd\Cs2
-                    L6: InChI=1S/NO3/c2-1(3)4
                     L6: O_rad/OneDeN
+                        L7: InChI=1S/NO3/c2-1(3)4
         L3: S_rad
             L4: S_pri_rad
             L4: S_sec_rad
