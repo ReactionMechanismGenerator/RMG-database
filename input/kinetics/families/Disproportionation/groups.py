@@ -2720,13 +2720,12 @@ L1: Y_rad_birad_trirad_quadrad
     L2: Y_2centerbirad
         L3: O2b
         L3: C2b
-		L3: S2b
+        L3: S2b
     L2: Y_1centerbirad
         L3: CO_birad_triplet
         L3: O_atom_triplet
         L3: CH2_triplet
         L3: NH_triplet
-    L2: H_rad
     L2: Y_rad
         L3: Ct_rad
             L4: Ct_rad/Ct
@@ -2811,6 +2810,7 @@ L1: Y_rad_birad_trirad_quadrad
                 L5: N3d_rad/N
         L3: N5_rad
             L4: N5d_rad
+        L3: H_rad
 L1: XH_Rrad_birad
     L2: XH_Rrad
         L3: XH_s_Rrad
@@ -2852,7 +2852,7 @@ L1: XH_Rrad_birad
                     L6: C/H2/Nd_COrad
                     L6: C/H2/Nd_Orad
                     L6: C/H2/Nd_Nrad
-		            L6: C/H2/Nd_Srad
+                    L6: C/H2/Nd_Srad
                 L5: C/H2/De_Rrad
                     L6: C/H2/De_Csrad
                         L7: C/H2/De_Csrad/H/Cd
