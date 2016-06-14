@@ -618,7 +618,7 @@ entry(
     group = 
 """
 1 * N u0 {2,S} {5,S} {6,S}
-2   C u0 {1,S} {3,S} {4,D}
+2   CO u0 {1,S} {3,S} {4,D}
 3   C u0 {2,S}
 4   O u0 {2,D}
 5   H u0 {1,S}
@@ -660,7 +660,7 @@ entry(
     group = 
 """
 1 * N u0 {2,S} {5,S} {6,S}
-2   C u0 {1,S} {3,S} {4,D}
+2   CO u0 {1,S} {3,S} {4,D}
 3   C u0 {2,S}
 4   O u0 {2,D}
 5   C u0 {1,S}
@@ -694,7 +694,7 @@ entry(
     group = 
 """
 1 * N u0 {2,S} {5,S} {6,S}
-2   C u0 {1,S} {3,S} {4,D}
+2   CO u0 {1,S} {3,S} {4,D}
 3   C u0 {2,S}
 4   O u0 {2,D}
 5   C u0 {1,S}
@@ -729,10 +729,10 @@ entry(
 """
 1 * N u0 {2,S} {3,S} {6,S}
 2   H u0 {1,S}
-3   C u0 {1,S} {4,D} {5,S}
+3   CO u0 {1,S} {4,D} {5,S}
 4   O u0 {3,D}
 5   R u0 {3,S}
-6   C u0 {1,S} {7,D} {8,S}
+6   CO u0 {1,S} {7,D} {8,S}
 7   O u0 {6,D}
 8   R u0 {6,S}
 """,
@@ -1369,13 +1369,13 @@ L1: R!H
             L4: COOC
             L4: Peroxy
         L3: N_R0
-            L4: Amide_pri
-            L4: Amide_sec
-            L4: Amide_ter
-            L4: Imide
             L4: Amine_pri
+                L5: Amide_pri
             L4: Amine_sec
+                L5: Amide_sec
+                L5: Imide
             L4: Amine_ter
+                L5: Amide_ter
             L4: Nitrile
             L4: Nitroso
                 L5: Nitrites
