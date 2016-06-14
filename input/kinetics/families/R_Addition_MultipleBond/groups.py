@@ -13359,10 +13359,10 @@ entry(
     label = "Ct-De_Ct-Cs",
     group = 
 """
-1 *1 Ct                    u0 {2,T} {3,S}
-2 *2 Ct                    u0 {1,T} {4,S}
-3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
-4    Cs                    u0 {2,S}
+1 *1 Ct                       u0 {2,T} {3,S}
+2 *2 Ct                       u0 {1,T} {4,S}
+3    [Cd,Ct,Cb,CO,CS,N3d,N5d] u0 {1,S}
+4    Cs                       u0 {2,S}
 """,
     kinetics = None,
 )
@@ -13400,9 +13400,8 @@ entry(
 """
 1 *1 Ct u0 {2,T} {3,S}
 2 *2 Ct u0 {1,T} {4,S}
-3    Ct u0 {1,S} {5,T}
+3    Cd u0 {1,S}
 4    Cs u0 {2,S}
-5    Ct u0 {3,T}
 """,
     kinetics = None,
 )
@@ -13423,14 +13422,13 @@ entry(
 
 entry(
     index = 867,
-    label = "Ct-C=S_Ct-Cs",
+    label = "Ct-CS_Ct-Cs",
     group = 
 """
 1 *1 Ct u0 {2,T} {3,S}
 2 *2 Ct u0 {1,T} {4,S}
-3    Cd u0 {1,S} {5,D}
+3    CS u0 {1,S}
 4    Cs u0 {2,S}
-5    Sd u0 {3,D}
 """,
     kinetics = None,
 )
@@ -17657,7 +17655,7 @@ L1: R_R
                 L5: Ct-CO_Ct-Cs
                 L5: Ct-Cd_Ct-Cs
                 L5: Ct-Ct_Ct-Cs
-                L5: Ct-C=S_Ct-Cs
+                L5: Ct-CS_Ct-Cs
             L4: Ct-De_Ct-De
                 L5: Ct-Ct_Ct-Ct
                 L5: Ct-Cd_Ct-Ct
