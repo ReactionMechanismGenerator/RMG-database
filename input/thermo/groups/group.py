@@ -1507,10 +1507,9 @@ entry(
     label = "Cds-OdN3sH",
     group = 
 """
-1 * [Cd,CO] u0 {2,D} {3,S} {4,S}
-2   Od      u0 {1,D}
-3   N3s     u0 {1,S}
-4   H       u0 {1,S}
+1 * CO  u0 {2,S} {3,S}
+2   N3s u0 {1,S}
+3   H   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1530,10 +1529,9 @@ entry(
     label = "Cds-OdN3sCs",
     group = 
 """
-1 * [Cd,CO] u0 {2,D} {3,S} {4,S}
-2   Od      u0 {1,D}
-3   N3s     u0 {1,S}
-4   Cs      u0 {1,S}
+1 * CO  u0 {2,S} {3,S}
+2   N3s u0 {1,S}
+3   Cs  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
