@@ -295,7 +295,8 @@ class TestDatabase():  # cannot inherit from unittest.TestCase if we want to use
                     if child1 is child2: continue
                     nose.tools.assert_false(family.matchNodeToChild(child1, child2),
                                             "In {0} group, node {1} is written as a sibling of {2}, when it is actually a parent.".format(group_name, child1, child2))
-
+                    nose.tools.assert_false(family.matchNodeToChild(child2, child1),
+                                            "In {0} group, node {1} is written as a sibling of {2}, when it is actually a parent.".format(group_name, child2, child1))
 
     def kinetics_checkAdjlistsNonidentical(self, database):
         """
@@ -406,6 +407,7 @@ class TestDatabase():  # cannot inherit from unittest.TestCase if we want to use
                     if child1 is child2: continue
                     nose.tools.assert_false(group.matchNodeToChild(child1, child2),
                                             "In {0} group, node {1} is written as a sibling of {2}, when it is actually a parent.".format(group_name, child1, child2))
-
+                    nose.tools.assert_false(group.matchNodeToChild(child2, child1),
+                                            "In {0} group, node {1} is written as a sibling of {2}, when it is actually a parent.".format(group_name, child2, child1))
 if __name__ == '__main__':
     nose.run(argv=[__file__, '-v', '--nologcapture'], defaultTest=__name__)
