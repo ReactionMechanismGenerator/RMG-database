@@ -3046,11 +3046,10 @@ entry(
 
 entry(
     index = 198,
-    label = "C=S_rad_out",
+    label = "CS_rad_out",
     group = 
 """
-1 *1 Cd u1 {2,D}
-2    Sd u0 {1,D}
+1 *1 CS u1
 """,
     kinetics = None,
 )
@@ -4126,7 +4125,7 @@ L1: Y_rad_out
     L2: Ct_rad_out
     L2: Cb_rad_out
     L2: CO_rad_out
-    L2: C=S_rad_out
+    L2: CS_rad_out
     L2: C_rad_out_single
         L3: C_rad_out_2H
         L3: C_rad_out_1H

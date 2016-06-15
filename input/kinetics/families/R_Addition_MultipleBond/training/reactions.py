@@ -76,7 +76,7 @@ entry(
         Ea = (6.589, 'kcal/mol', '+|-', 0.024),
         T0 = (1, 'K'),
     ),
-    reference = "",
+    reference = None,
     referenceType = "theory",
     shortDesc = u"""nyee TST calculations at CBS-QB3 level with hindered rotors level""",
     longDesc =

@@ -9,7 +9,7 @@ longDesc = u"""
 entry(
     index = -1,
     label = "R!H",
-    group = "OR{R!Hx0, R!Hx1, R!Hx2, R!Hx3}",
+    group = "OR{R!Hx0, R!Hx1, R!Hx2_trip, R!Hx3_quart}",
     statmech = None,
     shortDesc = u"""""",
     longDesc = 
@@ -618,7 +618,7 @@ entry(
     group = 
 """
 1 * N u0 {2,S} {5,S} {6,S}
-2   C u0 {1,S} {3,S} {4,D}
+2   CO u0 {1,S} {3,S} {4,D}
 3   C u0 {2,S}
 4   O u0 {2,D}
 5   H u0 {1,S}
@@ -660,7 +660,7 @@ entry(
     group = 
 """
 1 * N u0 {2,S} {5,S} {6,S}
-2   C u0 {1,S} {3,S} {4,D}
+2   CO u0 {1,S} {3,S} {4,D}
 3   C u0 {2,S}
 4   O u0 {2,D}
 5   C u0 {1,S}
@@ -694,7 +694,7 @@ entry(
     group = 
 """
 1 * N u0 {2,S} {5,S} {6,S}
-2   C u0 {1,S} {3,S} {4,D}
+2   CO u0 {1,S} {3,S} {4,D}
 3   C u0 {2,S}
 4   O u0 {2,D}
 5   C u0 {1,S}
@@ -729,10 +729,10 @@ entry(
 """
 1 * N u0 {2,S} {3,S} {6,S}
 2   H u0 {1,S}
-3   C u0 {1,S} {4,D} {5,S}
+3   CO u0 {1,S} {4,D} {5,S}
 4   O u0 {3,D}
 5   R u0 {3,S}
-6   C u0 {1,S} {7,D} {8,S}
+6   CO u0 {1,S} {7,D} {8,S}
 7   O u0 {6,D}
 8   R u0 {6,S}
 """,
@@ -901,7 +901,8 @@ entry(
 """
 1 * N u0 {2,D} {3,S}
 2   O u0 {1,D}
-3   O u0 {1,S}
+3   O u0 {1,S} {4,S}
+4   R u0 {3,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -1244,10 +1245,10 @@ u"""
 
 entry(
     index = -1,
-    label = "R!Hx2",
+    label = "R!Hx2_trip",
     group = 
 """
-1 * R!H u[0,2]
+1 * R!H u2
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1329,10 +1330,10 @@ u"""
 
 entry(
     index = -1,
-    label = "R!Hx3",
+    label = "R!Hx3_quart",
     group = 
 """
-1 * R!H u[1,3]
+1 * R!H u3
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1368,13 +1369,13 @@ L1: R!H
             L4: COOC
             L4: Peroxy
         L3: N_R0
-            L4: Amide_pri
-            L4: Amide_sec
-            L4: Amide_ter
-            L4: Imide
             L4: Amine_pri
+                L5: Amide_pri
             L4: Amine_sec
+                L5: Amide_sec
+                L5: Imide
             L4: Amine_ter
+                L5: Amide_ter
             L4: Nitrile
             L4: Nitroso
                 L5: Nitrites
@@ -1391,12 +1392,12 @@ L1: R!H
             L4: RsCrsR2
         L3: O_R1
             L4: Oxy
-    L2: R!Hx2
+    L2: R!Hx2_trip
         L3: C_R2
             L4: RsCHrr
             L4: RdCrr
             L4: RsCrrsR
-    L2: R!Hx3
+    L2: R!Hx3_quart
 """
 )
 

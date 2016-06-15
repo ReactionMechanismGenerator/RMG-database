@@ -9,6 +9,8 @@ longDesc = u"""
 
 template(reactants=["XSYJ"], products=["XYSJ"], ownReverse=False)
 
+reverse = "Ring_Opening_bySradical"
+
 recipe(actions=[
     ['BREAK_BOND', '*1', 'S', '*2'],
     ['FORM_BOND', '*1', 'S', '*3'],
@@ -1595,10 +1597,10 @@ L1: YJ
             L4: CdsJ-Cd
         L3: CdsJ-2
             L4: CdsJ_C-2
-            L4: CdsJ_C-Cs2
-            L4: CdsJ_C-Ss2
+                L5: CdsJ_C-Cs2
+                L5: CdsJ_C-Ss2
+                L5: CdsJ_C-Cd2
             L4: CdsJ_S-2
-            L4: CdsJ_C-Cd2
         L3: CsJ
             L4: CsJ-Cs
                 L5: CsJ-CsHH

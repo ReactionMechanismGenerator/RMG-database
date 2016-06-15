@@ -1245,26 +1245,26 @@ L1: RnOO
         L3: R3OOJ
         L3: R3OOH
             L4: R3OOH_SS
-            L4: R3OOH_SSCO
+                L5: R3OOH_SSCO
             L4: R3OOH_SD
             L4: R3OOH_DS
         L3: R3OOR
             L4: R3OOR_SS
-            L4: R3OOR_SSCO
+                L5: R3OOR_SSCO
             L4: R3OOR_SD
             L4: R3OOR_DS
     L2: R4OO
         L3: R4OOJ
         L3: R4OOH
             L4: R4OOH_SSS
-            L4: R4OOH_SSSCO
+                L5: R4OOH_SSSCO
             L4: R4OOH_SSD
             L4: R4OOH_SDS
             L4: R4OOH_DSS
             L4: R4OOH_DSD
         L3: R4OOR
             L4: R4OOR_SSS
-            L4: R4OOR_SSSCO
+                L5: R4OOR_SSSCO
             L4: R4OOR_SSD
             L4: R4OOR_SDS
             L4: R4OOR_DSS
@@ -1273,7 +1273,7 @@ L1: RnOO
         L3: R5OOJ
         L3: R5OOH
             L4: R5OOH_SSSS
-            L4: R5OOH_SSSSCO
+                L5: R5OOH_SSSSCO
             L4: R5OOH_SSSD
             L4: R5OOH_SSDS
             L4: R5OOH_SDSS
@@ -1282,7 +1282,7 @@ L1: RnOO
             L4: R5OOH_DSDS
         L3: R5OOR
             L4: R5OOR_SSSS
-            L4: R5OOR_SSSSCO
+                L5: R5OOR_SSSSCO
             L4: R5OOR_SSSD
             L4: R5OOR_SSDS
             L4: R5OOR_SDSS

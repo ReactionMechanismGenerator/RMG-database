@@ -13359,10 +13359,10 @@ entry(
     label = "Ct-De_Ct-Cs",
     group = 
 """
-1 *1 Ct                    u0 {2,T} {3,S}
-2 *2 Ct                    u0 {1,T} {4,S}
-3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
-4    Cs                    u0 {2,S}
+1 *1 Ct                       u0 {2,T} {3,S}
+2 *2 Ct                       u0 {1,T} {4,S}
+3    [Cd,Ct,Cb,CO,CS,N3d,N5d] u0 {1,S}
+4    Cs                       u0 {2,S}
 """,
     kinetics = None,
 )
@@ -13400,9 +13400,8 @@ entry(
 """
 1 *1 Ct u0 {2,T} {3,S}
 2 *2 Ct u0 {1,T} {4,S}
-3    Ct u0 {1,S} {5,T}
+3    Cd u0 {1,S}
 4    Cs u0 {2,S}
-5    Ct u0 {3,T}
 """,
     kinetics = None,
 )
@@ -13423,14 +13422,13 @@ entry(
 
 entry(
     index = 867,
-    label = "Ct-C=S_Ct-Cs",
+    label = "Ct-CS_Ct-Cs",
     group = 
 """
 1 *1 Ct u0 {2,T} {3,S}
 2 *2 Ct u0 {1,T} {4,S}
-3    Cd u0 {1,S} {5,D}
+3    CS u0 {1,S}
 4    Cs u0 {2,S}
-5    Sd u0 {3,D}
 """,
     kinetics = None,
 )
@@ -17265,22 +17263,22 @@ L1: R_R
                                 L9: Cds-CdH_Cds-COSs
                                 L9: Cds-CdH_Cds-CdSs
                                 L9: Cds-CdH_Cds-C=SSs
-                        L7: Cds-CdH_Cds-TwoDe
-                            L8: Cds-CdH_Cds-CtCt
-                            L8: Cds-CdH_Cds-CtCb
-                            L8: Cds-CdH_Cds-CtCO
-                            L8: Cds-CdH_Cds-CbCb
-                            L8: Cds-CdH_Cds-CbCO
-                            L8: Cds-CdH_Cds-COCO
-                            L8: Cds-CdH_Cds-CdCt
-                            L8: Cds-CdH_Cds-CdCb
-                            L8: Cds-CdH_Cds-CdCO
-                            L8: Cds-CdH_Cds-CtC=S
-                            L8: Cds-CdH_Cds-CbC=S
-                            L8: Cds-CdH_Cds-COC=S
-                            L8: Cds-CdH_Cds-CdCd
-                            L8: Cds-CdH_Cds-CdC=S
-                            L8: Cds-CdH_Cds-C=SC=S
+                            L8: Cds-CdH_Cds-TwoDe
+                                L9: Cds-CdH_Cds-CtCt
+                                L9: Cds-CdH_Cds-CtCb
+                                L9: Cds-CdH_Cds-CtCO
+                                L9: Cds-CdH_Cds-CbCb
+                                L9: Cds-CdH_Cds-CbCO
+                                L9: Cds-CdH_Cds-COCO
+                                L9: Cds-CdH_Cds-CdCt
+                                L9: Cds-CdH_Cds-CdCb
+                                L9: Cds-CdH_Cds-CdCO
+                                L9: Cds-CdH_Cds-CtC=S
+                                L9: Cds-CdH_Cds-CbC=S
+                                L9: Cds-CdH_Cds-COC=S
+                                L9: Cds-CdH_Cds-CdCd
+                                L9: Cds-CdH_Cds-CdC=S
+                                L9: Cds-CdH_Cds-C=SC=S
                     L6: Cds-C=SH_Cds
                 L5: Cds-OneDeCs_Cds
                     L6: Cds-CtCs_Cds
@@ -17424,22 +17422,22 @@ L1: R_R
                                 L9: Cds-CdCs_Cds-COSs
                                 L9: Cds-CdCs_Cds-CdSs
                                 L9: Cds-CdCs_Cds-C=SSs
-                        L7: Cds-CdCs_Cds-TwoDe
-                            L8: Cds-CdCs_Cds-CtCt
-                            L8: Cds-CdCs_Cds-CtCb
-                            L8: Cds-CdCs_Cds-CtCO
-                            L8: Cds-CdCs_Cds-CbCb
-                            L8: Cds-CdCs_Cds-CbCO
-                            L8: Cds-CdCs_Cds-COCO
-                            L8: Cds-CdCs_Cds-CdCt
-                            L8: Cds-CdCs_Cds-CdCb
-                            L8: Cds-CdCs_Cds-CdCO
-                            L8: Cds-CdCs_Cds-CtC=S
-                            L8: Cds-CdCs_Cds-CbC=S
-                            L8: Cds-CdCs_Cds-COC=S
-                            L8: Cds-CdCs_Cds-CdCd
-                            L8: Cds-CdCs_Cds-CdC=S
-                            L8: Cds-CdCs_Cds-C=SC=S
+                            L8: Cds-CdCs_Cds-TwoDe
+                                L9: Cds-CdCs_Cds-CtCt
+                                L9: Cds-CdCs_Cds-CtCb
+                                L9: Cds-CdCs_Cds-CtCO
+                                L9: Cds-CdCs_Cds-CbCb
+                                L9: Cds-CdCs_Cds-CbCO
+                                L9: Cds-CdCs_Cds-COCO
+                                L9: Cds-CdCs_Cds-CdCt
+                                L9: Cds-CdCs_Cds-CdCb
+                                L9: Cds-CdCs_Cds-CdCO
+                                L9: Cds-CdCs_Cds-CtC=S
+                                L9: Cds-CdCs_Cds-CbC=S
+                                L9: Cds-CdCs_Cds-COC=S
+                                L9: Cds-CdCs_Cds-CdCd
+                                L9: Cds-CdCs_Cds-CdC=S
+                                L9: Cds-CdCs_Cds-C=SC=S
                     L6: Cds-C=SCs_Cds
                 L5: Cds-OneDeSs_Cds
                     L6: Cds-CtSs_Cds
@@ -17657,7 +17655,7 @@ L1: R_R
                 L5: Ct-CO_Ct-Cs
                 L5: Ct-Cd_Ct-Cs
                 L5: Ct-Ct_Ct-Cs
-                L5: Ct-C=S_Ct-Cs
+                L5: Ct-CS_Ct-Cs
             L4: Ct-De_Ct-De
                 L5: Ct-Ct_Ct-Ct
                 L5: Ct-Cd_Ct-Ct

@@ -2548,7 +2548,7 @@ entry(
     group = 
 """
 1 *1 Cs u0 {2,S} {3,S}
-2 *2 H  u0 {1,S}
+2 *4 H  u0 {1,S}
 3    H  u0 {1,S}
 """,
     kinetics = None,
@@ -2556,24 +2556,26 @@ entry(
 
 entry(
     index = 182,
-    label = "radadd_intra_csHNd",
+    label = "radadd_intra_csHHNd",
     group = 
 """
-1 *1 Cs     u0 {2,S} {3,S}
-2 *2 H      u0 {1,S}
+1 *1 Cs     u0 {2,S} {3,S} {4,S}
+2 *4 H      u0 {1,S}
 3    [Cs,O] u0 {1,S}
+4    H      u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 183,
-    label = "radadd_intra_csHDe",
+    label = "radadd_intra_csHHDe",
     group = 
 """
-1 *1 Cs            u0 {2,S} {3,S}
-2 *2 H             u0 {1,S}
+1 *1 Cs            u0 {2,S} {3,S} {4,S}
+2 *4 H             u0 {1,S}
 3    [Cd,Ct,Cb,CO] u0 {1,S}
+4    H             u0 {1,S}
 """,
     kinetics = None,
 )
@@ -2584,7 +2586,7 @@ entry(
     group = 
 """
 1 *1 Cs     u0 {2,S} {3,S} {4,S}
-2 *2 H      u0 {1,S}
+2 *4 H      u0 {1,S}
 3    [Cs,O] u0 {1,S}
 4    [Cs,O] u0 {1,S}
 """,
@@ -2597,7 +2599,7 @@ entry(
     group = 
 """
 1 *1 Cs            u0 {2,S} {3,S} {4,S}
-2 *2 H             u0 {1,S}
+2 *4 H             u0 {1,S}
 3    [Cs,O]        u0 {1,S}
 4    [Cd,Ct,Cb,CO] u0 {1,S}
 """,
@@ -2610,7 +2612,7 @@ entry(
     group = 
 """
 1 *1 Cs            u0 {2,S} {3,S} {4,S}
-2 *2 H             u0 {1,S}
+2 *4 H             u0 {1,S}
 3    [Cd,Ct,Cb,CO] u0 {1,S}
 4    [Cd,Ct,Cb,CO] u0 {1,S}
 """,
@@ -2643,7 +2645,7 @@ entry(
     group = 
 """
 1 *1 Cd u0 {2,S} {3,S}
-2 *2 H  u0 {1,S}
+2 *4 H  u0 {1,S}
 3    R  u0 {1,S}
 """,
     kinetics = None,
@@ -2655,7 +2657,7 @@ entry(
     group = 
 """
 1 *1 Cd u0 {2,S} {3,S}
-2 *2 H  u0 {1,S}
+2 *4 H  u0 {1,S}
 3    H  u0 {1,S}
 """,
     kinetics = None,
@@ -2667,7 +2669,7 @@ entry(
     group = 
 """
 1 *1 Cd     u0 {2,S} {3,S}
-2 *2 H      u0 {1,S}
+2 *4 H      u0 {1,S}
 3    [Cs,O] u0 {1,S}
 """,
     kinetics = None,
@@ -2679,7 +2681,7 @@ entry(
     group = 
 """
 1 *1 Cd            u0 {2,S} {3,S}
-2 *2 H             u0 {1,S}
+2 *4 H             u0 {1,S}
 3    [Cd,Ct,Cb,CO] u0 {1,S}
 """,
     kinetics = None,
@@ -2691,7 +2693,7 @@ entry(
     group = 
 """
 1 *1 Cd u0 {2,S} {3,D}
-2 *2 H  u0 {1,S}
+2 *4 H  u0 {1,S}
 3    Cd u0 {1,D}
 """,
     kinetics = None,
@@ -2703,7 +2705,7 @@ entry(
     group = 
 """
 1 *1 CO u0 {2,S} {3,D}
-2 *2 H  u0 {1,S}
+2 *4 H  u0 {1,S}
 3    O  u0 {1,D}
 """,
     kinetics = None,
@@ -2715,7 +2717,7 @@ entry(
     group = 
 """
 1 *1 Ct u0 {2,S} {3,T}
-2 *2 H  u0 {1,S}
+2 *4 H  u0 {1,S}
 3    Ct u0 {1,T}
 """,
     kinetics = None,
@@ -2886,8 +2888,8 @@ L1: multiplebond_intra
 L1: radadd_intra
     L2: radadd_intra_cs
         L3: radadd_intra_cs2H
-        L3: radadd_intra_csHNd
-        L3: radadd_intra_csHDe
+            L4: radadd_intra_csHHNd
+            L4: radadd_intra_csHHDe
         L3: radadd_intra_csNdNd
         L3: radadd_intra_csNdDe
         L3: radadd_intra_csDeDe
