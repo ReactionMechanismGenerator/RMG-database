@@ -129,6 +129,12 @@ class TestDatabase():  # cannot inherit from unittest.TestCase if we want to use
             test.description = test_name
             self.compat_func_name = test_name
             yield test, group_name
+
+            test = lambda x: self.general_checkSiblingsForParents(group_name, group)
+            test_name = "Solvation groups {0}: sibling relationships are correct?".format(group_name)
+            test.description = test_name
+            self.compat_func_name = test_name
+            yield test, group_name
             
     def test_statmech(self):
         for group_name, group in self.database.statmech.groups.iteritems():
@@ -150,6 +156,12 @@ class TestDatabase():  # cannot inherit from unittest.TestCase if we want to use
             self.compat_func_name = test_name
             yield test, group_name
 
+            test = lambda x: self.general_checkSiblingsForParents(group_name, group)
+            test_name = "Statmech groups {0}: sibling relationships are correct?".format(group_name)
+            test.description = test_name
+            self.compat_func_name = test_name
+            yield test, group_name
+
     def test_transport(self):
         for group_name, group in self.database.transport.groups.iteritems():
             test = lambda x: self.general_checkNodesFoundInTree(group_name, group)
@@ -166,6 +178,12 @@ class TestDatabase():  # cannot inherit from unittest.TestCase if we want to use
             
             test = lambda x: self.general_checkChildParentRelationships(group_name, group)
             test_name = "Transport groups {0}: parent-child relationships are correct?".format(group_name)
+            test.description = test_name
+            self.compat_func_name = test_name
+            yield test, group_name
+
+            test = lambda x: self.general_checkSiblingsForParents(group_name, group)
+            test_name = "Transport groups {0}: sibling relationships are correct?".format(group_name)
             test.description = test_name
             self.compat_func_name = test_name
             yield test, group_name
@@ -258,6 +276,26 @@ class TestDatabase():  # cannot inherit from unittest.TestCase if we want to use
                 if isinstance(ancestorNode, Group):
                     nose.tools.assert_true(family.matchNodeToChild(ancestorNode, childNode),
                                     "In {family} family, group {ancestor} is not a proper ancestor of its child {child}.".format(family=family_name, ancestor=ancestorNode, child=nodeName))
+
+    def kinetics__checkSiblingsForParents(self, family_name):
+        """
+        This test checks that siblings in a tree are not actually parent/child
+        """
+        from rmgpy.data.base import Database
+        originalFamily = self.database.kinetics.families[family_name]
+        family = Database()
+        family.entries = originalFamily.groups.entries
+        for nodeName, node in family.entries.iteritems():
+            #Some families also construct a 2-level trees (root with all entries down one level)
+            #We don't care about this tree as it is not used in searching, so we ignore products
+            if node in family.forwardTemplate.products: continue
+            for index, child1 in enumerate(node.children):
+                for child2 in node.children[index+1:]:
+                    #Don't check a node against itself
+                    if child1 is child2: continue
+                    nose.tools.assert_false(family.matchNodeToChild(child1, child2),
+                                            "In {0} group, node {1} is written as a sibling of {2}, when it is actually a parent.".format(group_name, child1, child2))
+
 
     def kinetics_checkAdjlistsNonidentical(self, database):
         """
