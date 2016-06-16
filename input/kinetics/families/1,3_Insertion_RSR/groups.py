@@ -1155,7 +1155,7 @@ entry(
     group = 
 """
 1 *1 Sd u0 {2,D}
-2 *2 Cd u0 {1,D} {3,S} {4,S}
+2 *2 CS u0 {1,D} {3,S} {4,S}
 3    R  u0 {2,S}
 4    R  u0 {2,S}
 """,
@@ -1168,7 +1168,7 @@ entry(
     group = 
 """
 1 *1 Sd u0 {2,D}
-2 *2 Cd u0 {1,D} {3,S} {4,S}
+2 *2 CS u0 {1,D} {3,S} {4,S}
 3    H  u0 {2,S}
 4    H  u0 {2,S}
 """,
@@ -1181,7 +1181,7 @@ entry(
     group = 
 """
 1 *1 Sd  u0 {2,D}
-2 *2 Cd  u0 {1,D} {3,S} {4,S}
+2 *2 CS  u0 {1,D} {3,S} {4,S}
 3    H   u0 {2,S}
 4    R!H u0 {2,S}
 """,
@@ -1194,7 +1194,7 @@ entry(
     group = 
 """
 1 *1 Sd       u0 {2,D}
-2 *2 Cd       u0 {1,D} {3,S} {4,S}
+2 *2 CS       u0 {1,D} {3,S} {4,S}
 3    H        u0 {2,S}
 4    [Cs,O,S] u0 {2,S}
 """,
@@ -1207,7 +1207,7 @@ entry(
     group = 
 """
 1 *1 Sd            u0 {2,D}
-2 *2 Cd            u0 {1,D} {3,S} {4,S}
+2 *2 CS            u0 {1,D} {3,S} {4,S}
 3    H             u0 {2,S}
 4    [Cd,Ct,Cb,CO] u0 {2,S}
 """,
@@ -1220,7 +1220,7 @@ entry(
     group = 
 """
 1 *1 Sd  u0 {2,D}
-2 *2 Cd  u0 {1,D} {3,S} {4,S}
+2 *2 CS  u0 {1,D} {3,S} {4,S}
 3    R!H u0 {2,S}
 4    R!H u0 {2,S}
 """,
@@ -1233,7 +1233,7 @@ entry(
     group = 
 """
 1 *1 Sd       u0 {2,D}
-2 *2 Cd       u0 {1,D} {3,S} {4,S}
+2 *2 CS       u0 {1,D} {3,S} {4,S}
 3    [Cs,O,S] u0 {2,S}
 4    [Cs,O,S] u0 {2,S}
 """,
@@ -1246,7 +1246,7 @@ entry(
     group = 
 """
 1 *1 Sd            u0 {2,D}
-2 *2 Cd            u0 {1,D} {3,S} {4,S}
+2 *2 CS            u0 {1,D} {3,S} {4,S}
 3    [Cs,O,S]      u0 {2,S}
 4    [Cd,Ct,Cb,CO] u0 {2,S}
 """,
@@ -1259,7 +1259,7 @@ entry(
     group = 
 """
 1 *1 Sd            u0 {2,D}
-2 *2 Cd            u0 {1,D} {3,S} {4,S}
+2 *2 CS            u0 {1,D} {3,S} {4,S}
 3    [Cd,Ct,Cb,CO] u0 {2,S}
 4    [Cd,Ct,Cb,CO] u0 {2,S}
 """,

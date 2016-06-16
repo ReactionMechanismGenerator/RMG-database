@@ -973,9 +973,9 @@ entry(
     label = "Sd_Cdd",
     group = 
 """
-1 *1 Sd u0 {2,D}
-2 *2 Cd u0 {1,D} {3,D}
-3    R  u0 {2,D}
+1 *1 Sd  u0 {2,D}
+2 *2 Cdd u0 {1,D} {3,D}
+3    R   u0 {2,D}
 """,
     kinetics = None,
 )
@@ -985,9 +985,9 @@ entry(
     label = "Sd_Cdd/Cd",
     group = 
 """
-1 *1 Sd u0 {2,D}
-2 *2 Cd u0 {1,D} {3,D}
-3    Cd u0 {2,D}
+1 *1 Sd  u0 {2,D}
+2 *2 Cdd u0 {1,D} {3,D}
+3    Cd  u0 {2,D}
 """,
     kinetics = None,
 )
@@ -997,9 +997,9 @@ entry(
     label = "Sd_Cdd/Od",
     group = 
 """
-1 *1 Sd u0 {2,D}
-2 *2 Cd u0 {1,D} {3,D}
-3    Od u0 {2,D}
+1 *1 Sd  u0 {2,D}
+2 *2 Cdd u0 {1,D} {3,D}
+3    Od  u0 {2,D}
 """,
     kinetics = None,
 )
