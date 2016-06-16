@@ -6384,12 +6384,6 @@ L1: Radical
                             L8: (O)CJOCC
                             L8: (O)CJOCC2
                             L8: (O)CJOCC3
-                L5: C=SJ
-                    L6: C=SJ-H
-                    L6: C=SJ-C
-                        L7: C=SJ-Cs
-                        L7: C=SJ-Cd
-                    L6: C=SJ-Ss
                 L5: Cds_P
                     L6: C=C=CJ
                 L5: Cds_S
@@ -6409,6 +6403,12 @@ L1: Radical
             L4: CtJ
                 L5: Acetyl
             L4: CbJ
+            L4: C=SJ
+                L5: C=SJ-Ss
+                L5: C=SJ-H
+                L5: C=SJ-C
+                    L6: C=SJ-Cd
+                    L6: C=SJ-Cs
         L3: OJ
             L4: HOJ
             L4: COJ
@@ -6449,7 +6449,7 @@ L1: Radical
                 L5: CsJ2_S_triplet
             L4: CdJ2_triplet
                 L5: CCdJ2_triplet
-                L5: CdJ2-Sd_triplet
+            L4: CdJ2-Sd_triplet
         L3: Oa_triplet
         L3: SiJ2_triplet
         L3: SJ2_triplet
@@ -6465,8 +6465,8 @@ L1: Radical
                 L5: CsJ2_S_singlet
             L4: CdJ2_singlet
                 L5: CCdJ2_singlet
-                L5: CdJ2-Sd_singlet
             L4: CO
+            L4: CdJ2-Sd_singlet
         L3: Oa_singlet
         L3: SiJ2_singlet
         L3: SJ2_singlet
