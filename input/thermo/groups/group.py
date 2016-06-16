@@ -39858,8 +39858,8 @@ entry(
     label = "Od-Cd",
     group = 
 """
-1 * Od      u0 {2,D}
-2   [Cd,CO] u0 {1,D}
+1 * Od u0 {2,D}
+2   CO u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -41200,7 +41200,7 @@ entry(
     group = 
 """
 1 * Sd u0 {2,D}
-2   Cd u0 {1,D}
+2   CS u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
