@@ -119,9 +119,9 @@ entry(
     label = "CO-NdH_O",
     group = 
 """
-1 *1 CO     u0 {2,D} {3,S} {4,S}
-2 *2 Od     u0 {1,D}
-3    H      u0 {1,S}
+1 *1 CO         u0 {2,D} {3,S} {4,S}
+2 *2 Od         u0 {1,D}
+3    H          u0 {1,S}
 4    [Cs,Os,Ss] u0 {1,S}
 """,
     kinetics = None,
@@ -154,27 +154,14 @@ entry(
 )
 
 entry(
-    index = 13,
-    label = "CO-NdNd_O",
-    group = 
-"""
-1 *1 CO     u0 {2,D} {3,S} {4,S}
-2 *2 Od     u0 {1,D}
-3    [Cs,Os,Ss] u0 {1,S}
-4    [Cs,Os,Ss] u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 14,
     label = "CO-CdH_O",
     group = 
 """
-1 *1 CO  u0 {2,D} {3,S} {4,S}
-2 *2 Od  u0 {1,D}
-3 H  u0 {1,S}
-4 Cd u0 {1,S}
+1 *1 CO u0 {2,D} {3,S} {4,S}
+2 *2 Od u0 {1,D}
+3    H  u0 {1,S}
+4    Cd u0 {1,S}
 """,
     kinetics = None,
 )
@@ -184,10 +171,23 @@ entry(
     label = "CO-CtH_O",
     group = 
 """
-1 *1 CO  u0 {2,D} {3,S} {4,S}
-2 *2 Od  u0 {1,D}
-3 H  u0 {1,S}
-4 Ct u0 {1,S}
+1 *1 CO u0 {2,D} {3,S} {4,S}
+2 *2 Od u0 {1,D}
+3    H  u0 {1,S}
+4    Ct u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 13,
+    label = "CO-NdNd_O",
+    group = 
+"""
+1 *1 CO         u0 {2,D} {3,S} {4,S}
+2 *2 Od         u0 {1,D}
+3    [Cs,Os,Ss] u0 {1,S}
+4    [Cs,Os,Ss] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -197,14 +197,13 @@ entry(
     label = "CO-CsCs_O",
     group = 
 """
-1 *1 CO  u0 {2,D} {3,S} {4,S}
-2 *2 Od  u0 {1,D}
-3 Cs u0 {1,S}
-4 Cs u0 {1,S}
+1 *1 CO u0 {2,D} {3,S} {4,S}
+2 *2 Od u0 {1,D}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
 """,
     kinetics = None,
 )
-
 
 entry(
     index = 14,
@@ -213,8 +212,34 @@ entry(
 """
 1 *1 CO                    u0 {2,D} {3,S} {4,S}
 2 *2 Od                    u0 {1,D}
-3    [Cs,Os,Ss]                u0 {1,S}
+3    [Cs,Os,Ss]            u0 {1,S}
 4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 15,
+    label = "CO-CdCs_O",
+    group = 
+"""
+1 *1 CO u0 {2,D} {3,S} {4,S}
+2 *2 Od u0 {1,D}
+3    Cs u0 {1,S}
+4    Cd u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 15,
+    label = "CO-CtCs_O",
+    group = 
+"""
+1 *1 CO u0 {2,D} {3,S} {4,S}
+2 *2 Od u0 {1,D}
+3    Cs u0 {1,S}
+4    Ct u0 {1,S}
 """,
     kinetics = None,
 )
@@ -230,33 +255,6 @@ entry(
 4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
 """,
     kinetics = None,
-)
-
-
-entry(
-    index = 15,
-    label = "CO-CdCs_O",
-    group = 
-"""
-1 *1 CO  u0 {2,D} {3,S} {4,S}
-2 *2 Od  u0 {1,D}
-3 Cs u0 {1,S}
-4 Cd u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 15,
-    label = "CO-CtCs_O",
-    group =
-"""
-1 *1 CO  u0 {2,D}, {3,S}, {4,S}
-2 *2 Od  u0 {1,D}
-3 Cs u0 {1,S}
-4 Ct u0 {1,S}
-""",
-kinetics = None,
 )
 
 entry(
@@ -13583,6 +13581,162 @@ entry(
 )
 
 entry(
+    index = 876,
+    label = "Od_CO",
+    group = 
+"""
+1 *1 Od u0 {2,D}
+2 *2 C  u0 {1,D} {3,S} {4,S}
+3    R  u0 {2,S}
+4    R  u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 877,
+    label = "Od_CO-HH",
+    group = 
+"""
+1 *1 Od u0 {2,D}
+2 *2 CO u0 {1,D} {3,S} {4,S}
+3    H  u0 {2,S}
+4    H  u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 877,
+    label = "Od_CO-NdH",
+    group = 
+"""
+1 *1 Od         u0 {2,D}
+2 *2 CO         u0 {1,D} {3,S} {4,S}
+3    [Cs,Os,Ss] u0 {2,S}
+4    H          u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 877,
+    label = "Od_CO-CsH",
+    group = 
+"""
+1 *1 Od u0 {2,D}
+2 *2 CO u0 {1,D} {3,S} {4,S}
+3    Cs u0 {2,S}
+4    H  u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 877,
+    label = "Od_CO-NdNd",
+    group = 
+"""
+1 *1 Od         u0 {2,D}
+2 *2 CO         u0 {1,D} {3,S} {4,S}
+3    [Cs,Os,Ss] u0 {2,S}
+4    [Cs,Os,Ss] u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 877,
+    label = "Od_CO-CsCs",
+    group = 
+"""
+1 *1 Od u0 {2,D}
+2 *2 CO u0 {1,D} {3,S} {4,S}
+3    Cs u0 {2,S}
+4    Cs u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 877,
+    label = "Od_CO-DeH",
+    group = 
+"""
+1 *1 Od            u0 {2,D}
+2 *2 CO            u0 {1,D} {3,S} {4,S}
+3    [Cd,Ct,Cb,CO] u0 {2,S}
+4    H             u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 877,
+    label = "Od_CO-CdH",
+    group = 
+"""
+1 *1 Od u0 {2,D}
+2 *2 CO u0 {1,D} {3,S} {4,S}
+3    Cd u0 {2,S}
+4    H  u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 877,
+    label = "Od_CO-CtH",
+    group = 
+"""
+1 *1 Od u0 {2,D}
+2 *2 CO u0 {1,D} {3,S} {4,S}
+3    Ct u0 {2,S}
+4    H  u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 877,
+    label = "Od_CO-DeNd",
+    group = 
+"""
+1 *1 Od            u0 {2,D}
+2 *2 CO            u0 {1,D} {3,S} {4,S}
+3    [Cd,Ct,Cb,CO] u0 {2,S}
+4    [Cs,Os,Ss]    u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 877,
+    label = "Od_CO-CdCs",
+    group = 
+"""
+1 *1 Od u0 {2,D}
+2 *2 CO u0 {1,D} {3,S} {4,S}
+3    Cd u0 {2,S}
+4    Cs u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 877,
+    label = "Od_CO-CtCs",
+    group = 
+"""
+1 *1 Od u0 {2,D}
+2 *2 CO u0 {1,D} {3,S} {4,S}
+3    Ct u0 {2,S}
+4    Cs u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 874,
     label = "Od_Cdd",
     group = 
@@ -13602,162 +13756,6 @@ entry(
 1 *1 Od u0 {2,D}
 2 *2 C  u0 {1,D} {3,D}
 3    O  u0 {2,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 876,
-    label = "Od_CO",
-    group = 
-"""
-1 *1 Od u0 {2,D}
-2 *2 C  u0 {1,D} {3,S} {4,S}
-3    R  u0 {2,S}
-4    R  u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 877,
-    label = "Od_CO-CsH",
-    group = 
-"""
-1 *1 Od u0 {2,D}
-2 *2 CO u0 {1,D} {3,S} {4,S}
-3    Cs u0 {2,S}
-4    H  u0 {2,S}
-""",
-    kinetics = None,
-)
-
-
-entry(
-    index = 877,
-    label = "Od_CO-HH",
-    group = 
-"""
-1 *1 Od u0 {2,D}
-2 *2 CO u0 {1,D} {3,S} {4,S}
-3  H u0 {2,S}
-4  H u0 {2,S}
-""",
-    kinetics = None,
-)
-entry(
-    index = 877,
-    label = "Od_CO-NdH",
-    group = 
-"""
-1 *1 Od u0 {2,D}
-2 *2 CO u0 {1,D} {3,S} {4,S}
-3  [Cs,Os,Ss] u0 {2,S}
-4  H u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 877,
-    label = "Od_CO-NdNd",
-    group = 
-"""
-1 *1 Od u0 {2,D}
-2 *2 CO u0 {1,D} {3,S} {4,S}
-3  [Cs,Os,Ss] u0 {2,S}
-4  [Cs,Os,Ss] u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 877,
-    label = "Od_CO-CsCs",
-    group = 
-"""
-1 *1 Od u0 {2,D}
-2 *2 CO u0 {1,D} {3,S} {4,S}
-3  Cs u0 {2,S}
-4  Cs u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 877,
-    label = "Od_CO-DeH",
-    group = 
-"""
-1 *1 Od u0 {2,D}
-2 *2 CO u0 {1,D} {3,S} {4,S}
-3  [Cd,Ct,Cb,CO] u0 {2,S}
-4  H u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 877,
-    label = "Od_CO-CdH",
-    group = 
-"""
-1 *1 Od u0 {2,D}
-2 *2 CO u0 {1,D} {3,S} {4,S}
-3  Cd u0 {2,S}
-4  H u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 877,
-    label = "Od_CO-CtH",
-    group = 
-"""
-1 *1 Od u0 {2,D}
-2 *2 CO u0 {1,D} {3,S} {4,S}
-3  Ct u0 {2,S}
-4  H u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 877,
-    label = "Od_CO-DeNd",
-    group = 
-"""
-1 *1 Od u0 {2,D}
-2 *2 CO u0 {1,D} {3,S} {4,S}
-3  [Cd,Ct,Cb,CO] u0 {2,S}
-4  [Cs,Os,Ss] u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 877,
-    label = "Od_CO-CdCs",
-    group = 
-"""
-1 *1 Od u0 {2,D}
-2 *2 CO u0 {1,D} {3,S} {4,S}
-3  Cd u0 {2,S}
-4  Cs u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 877,
-    label = "Od_CO-CtCs",
-    group = 
-"""
-1 *1 Od u0 {2,D}
-2 *2 CO u0 {1,D} {3,S} {4,S}
-3  Ct u0 {2,S}
-4  Cs u0 {2,S}
 """,
     kinetics = None,
 )
@@ -17999,4 +17997,6 @@ u"""
 
 # """,
 # )
+
+
 

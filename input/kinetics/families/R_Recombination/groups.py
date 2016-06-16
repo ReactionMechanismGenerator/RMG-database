@@ -291,8 +291,8 @@ entry(
 1 * C   u1 {2,D} {3,S}
 2   C   u0 {1,D} {4,S} {5,S}
 3   R!H u0 {1,S}
-4   R u0 {2,S}
-5   R u0 {2,S}
+4   R   u0 {2,S}
+5   R   u0 {2,S}
 """,
     kinetics = None,
 )
@@ -305,8 +305,8 @@ entry(
 1 * C      u1 {2,D} {3,S}
 2   C      u0 {1,D} {4,S} {5,S}
 3   [Cs,O] u0 {1,S}
-4   R u0 {2,S}
-5   R u0 {2,S}
+4   R      u0 {2,S}
+5   R      u0 {2,S}
 """,
     kinetics = None,
 )
@@ -319,8 +319,8 @@ entry(
 1 * C             u1 {2,D} {3,S}
 2   C             u0 {1,D} {4,S} {5,S}
 3   [Cd,Ct,Cb,CO] u0 {1,S}
-4   R u0 {2,S}
-5   R u0 {2,S}
+4   R             u0 {2,S}
+5   R             u0 {2,S}
 """,
     kinetics = None,
 )
@@ -333,8 +333,8 @@ entry(
 1 * C  u1 {2,D} {3,S}
 2   C  u0 {1,D} {4,S} {5,S}
 3   Cd u0 {1,S}
-4   R u0 {2,S}
-5   R u0 {2,S}
+4   R  u0 {2,S}
+5   R  u0 {2,S}
 """,
     kinetics = None,
 )
@@ -344,9 +344,9 @@ entry(
     label = "Cd_allenic",
     group = 
 """
-1 * C  u1 {2,D} {3,S}
-2   Cdd  u0 {1,D} 
-3   R u0 {1,S}
+1 * C   u1 {2,D} {3,S}
+2   Cdd u0 {1,D}
+3   R   u0 {1,S}
 """,
     kinetics = None,
 )
@@ -796,6 +796,21 @@ entry(
 )
 
 entry(
+    index = 66,
+    label = "C_rad_cyclopentadiene",
+    group = 
+"""
+1 * C  u1 {2,S} {3,S} {4,S}
+2   H  u0 {1,S}
+3   Cd u0 {1,S} {5,D}
+4   Cd u0 {1,S} {6,D}
+5   Cd u0 {3,D} {6,S}
+6   Cd u0 {4,D} {5,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 60,
     label = "CsJ-CSH",
     group = 
@@ -884,21 +899,6 @@ entry(
 2   Ss u0 {1,S}
 3   Ss u0 {1,S}
 4   H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 66,
-    label = "C_rad_cyclopentadiene",
-    group = 
-"""
-1 * C u1 {2,S} {3,S} {4,S}
-2 H u0 {1,S}
-3 Cd u0 {1,S} {5,D} 
-4 Cd u0 {1,S} {6,D} 
-5 Cd u0 {3,D} {6,S} 
-6 Cd u0 {4,D} {5,S} 
 """,
     kinetics = None,
 )
@@ -1416,22 +1416,6 @@ L1: Y_rad
 )
 
 forbidden(
-    label = "O4",
-    group = 
-"""
-1    O u1 {2,S}
-2 *1 O u0 {1,S} {3,S}
-3 *2 O u0 {2,S} {4,S}
-4    O u1 {3,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
     label = "Cl",
     group = 
 """
@@ -1456,3 +1440,20 @@ u"""
 
 """,
 )
+
+forbidden(
+    label = "O4",
+    group = 
+"""
+1    O u1 {2,S}
+2 *1 O u0 {1,S} {3,S}
+3 *2 O u0 {2,S} {4,S}
+4    O u1 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
