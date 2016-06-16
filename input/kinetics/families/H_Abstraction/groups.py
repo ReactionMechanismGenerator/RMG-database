@@ -605,11 +605,10 @@ entry(
     group = 
 """
 1 *1 C  u0 {2,D} {3,S} {4,S}
-2    Cd u0 {1,D} {6,S}
+2    Cd u0 {1,D} {5,S}
 3 *2 H  u0 {1,S}
-4    Cd u0 {1,S} {5,D}
-5    S  u0 {4,D}
-6    R  u0 {2,S}
+4    CS u0 {1,S}
+5    R  u0 {2,S}
 """,
     kinetics = None,
 )
@@ -2753,9 +2752,8 @@ entry(
 1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H  u0 {1,S}
 3    Cb u0 {1,S}
-4    Cd u0 {1,S} {6,D}
+4    CS u0 {1,S}
 5    Cs u0 {1,S}
-6    S  u0 {4,D}
 """,
     kinetics = None,
 )
@@ -5244,9 +5242,8 @@ entry(
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
 2    H  u0 {1,S}
-3    Cd u0 {1,S} {5,D}
+3    CS u0 {1,S}
 4    Cs u0 {1,S}
-5    S  u0 {3,D}
 """,
     kinetics = None,
 )
@@ -5513,8 +5510,7 @@ entry(
 1 *3 C  u1 {2,S} {3,S} {4,S}
 2    H  u0 {1,S}
 3    CO u0 {1,S}
-4    Cd u0 {1,S} {5,D}
-5    S  u0 {4,D}
+4    CS u0 {1,S}
 """,
     kinetics = None,
 )
@@ -5876,10 +5872,9 @@ entry(
     group = 
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
-2    Cd u0 {1,S} {5,D}
+2    CS u0 {1,S}
 3    Cs u0 {1,S}
 4    Cs u0 {1,S}
-5    S  u0 {2,D}
 """,
     kinetics = None,
 )
@@ -5956,10 +5951,9 @@ entry(
     group = 
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
-2    Cd u0 {1,S} {5,D}
+2    CS u0 {1,S}
 3    S  u0 {1,S}
 4    Cs u0 {1,S}
-5    S  u0 {2,D}
 """,
     kinetics = None,
 )
@@ -6128,9 +6122,8 @@ entry(
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
 2    Ct u0 {1,S}
-3    Cd u0 {1,S} {5,D}
+3    CS u0 {1,S}
 4    Cs u0 {1,S}
-5    S  u0 {3,D}
 """,
     kinetics = None,
 )
@@ -6156,9 +6149,8 @@ entry(
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
 2    Cb u0 {1,S}
-3    Cd u0 {1,S} {5,D}
+3    CS u0 {1,S}
 4    Cs u0 {1,S}
-5    S  u0 {3,D}
 """,
     kinetics = None,
 )
@@ -6184,9 +6176,8 @@ entry(
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
 2    CO u0 {1,S}
-3    Cd u0 {1,S} {5,D}
+3    CS u0 {1,S}
 4    Cs u0 {1,S}
-5    S  u0 {3,D}
 """,
     kinetics = None,
 )
@@ -6213,10 +6204,9 @@ entry(
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
 2    Cd u0 {1,S} {5,D}
-3    Cd u0 {1,S} {6,D}
+3    CS u0 {1,S}
 4    Cs u0 {1,S}
 5    C  u0 {2,D}
-6    S  u0 {3,D}
 """,
     kinetics = None,
 )
@@ -6227,11 +6217,9 @@ entry(
     group = 
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
-2    Cd u0 {1,S} {5,D}
-3    Cd u0 {1,S} {6,D}
+2    CS u0 {1,S}
+3    CS u0 {1,S}
 4    Cs u0 {1,S}
-5    S  u0 {2,D}
-6    S  u0 {3,D}
 """,
     kinetics = None,
 )
