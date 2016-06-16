@@ -3365,18 +3365,6 @@ entry(
 )
 
 entry(
-    index = 225,
-    label = "Cd_H_out_doubleO",
-    group = 
-"""
-1 *2 Cd u0 {2,S} {3,D}
-2 *3 H  u0 {1,S}
-3    O  u0 {1,D}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 226,
     label = "Cd_H_out_single",
     group = 
@@ -4153,7 +4141,6 @@ L1: XH_out
     L2: S_H_out
     L2: Cd_H_out_double
         L3: Cd_H_out_doubleC
-        L3: Cd_H_out_doubleO
     L2: Cd_H_out_single
         L3: Cd_H_out_singleH
         L3: Cd_H_out_singleNd
