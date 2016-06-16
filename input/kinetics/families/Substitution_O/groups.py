@@ -372,8 +372,7 @@ entry(
 """
 1 *1 Os u0 {2,S} {3,S}
 2 *2 H  u0 {1,S}
-3    Cd u0 {1,S} {4,D}
-4    Od u0 {3,D}
+3    CO u0 {1,S}
 """,
     kinetics = None,
 )
@@ -696,8 +695,7 @@ entry(
 """
 1 *1 Os u0 {2,S} {3,S}
 2    H  u0 {1,S}
-3 *2 Cd u0 {1,S} {4,D}
-4    Od u0 {3,D}
+3 *2 CO u0 {1,S}
 """,
     kinetics = None,
 )
@@ -2116,9 +2114,8 @@ entry(
     group = 
 """
 1 *1 Os u0 {2,S} {3,S}
-2 *2 Cd u0 {1,S} {4,D}
+2 *2 CO u0 {1,S}
 3    Cs u0 {1,S}
-4    Od u0 {2,D}
 """,
     kinetics = None,
 )
@@ -2129,9 +2126,8 @@ entry(
     group = 
 """
 1 *1 Os u0 {2,S} {3,S}
-2    Cd u0 {1,S} {4,D}
+2    CO u0 {1,S}
 3 *2 Cs u0 {1,S}
-4    Od u0 {2,D}
 """,
     kinetics = None,
 )
@@ -2220,9 +2216,8 @@ entry(
     group = 
 """
 1 *1 Os u0 {2,S} {3,S}
-2 *2 Cd u0 {1,S} {4,D}
+2 *2 CO u0 {1,S}
 3    Ct u0 {1,S}
-4    Od u0 {2,D}
 """,
     kinetics = None,
 )
@@ -2233,9 +2228,8 @@ entry(
     group = 
 """
 1 *1 Os u0 {2,S} {3,S}
-2    Cd u0 {1,S} {4,D}
+2    CO u0 {1,S}
 3 *2 Ct u0 {1,S}
-4    Od u0 {2,D}
 """,
     kinetics = None,
 )
@@ -2246,9 +2240,8 @@ entry(
     group = 
 """
 1 *1 Os u0 {2,S} {3,S}
-2 *2 Cd u0 {1,S} {4,D}
+2 *2 CO u0 {1,S}
 3    Cb u0 {1,S}
-4    Od u0 {2,D}
 """,
     kinetics = None,
 )
@@ -2259,9 +2252,8 @@ entry(
     group = 
 """
 1 *1 Os u0 {2,S} {3,S}
-2    Cd u0 {1,S} {4,D}
+2    CO u0 {1,S}
 3 *2 Cb u0 {1,S}
-4    Od u0 {2,D}
 """,
     kinetics = None,
 )
@@ -2272,9 +2264,8 @@ entry(
     group = 
 """
 1 *1 Os u0 {2,S} {3,S}
-2 *2 Cd u0 {1,S} {4,D}
+2 *2 CO u0 {1,S}
 3    CO u0 {1,S}
-4    Od u0 {2,D}
 """,
     kinetics = None,
 )
@@ -2285,9 +2276,8 @@ entry(
     group = 
 """
 1 *1 Os u0 {2,S} {3,S}
-2    Cd u0 {1,S} {4,D}
+2    CO u0 {1,S}
 3 *2 CO u0 {1,S}
-4    Od u0 {2,D}
 """,
     kinetics = None,
 )
@@ -2312,10 +2302,9 @@ entry(
     group = 
 """
 1 *1 Os u0 {2,S} {3,S}
-2 *2 Cd u0 {1,S} {5,D}
+2 *2 CO u0 {1,S}
 3    Cd u0 {1,S} {4,D}
 4    C  u0 {3,D}
-5    Od u0 {2,D}
 """,
     kinetics = None,
 )
@@ -2326,10 +2315,9 @@ entry(
     group = 
 """
 1 *1 Os u0 {2,S} {3,S}
-2    Cd u0 {1,S} {5,D}
+2    CO u0 {1,S}
 3 *2 Cd u0 {1,S} {4,D}
 4    C  u0 {3,D}
-5    Od u0 {2,D}
 """,
     kinetics = None,
 )
@@ -2340,10 +2328,8 @@ entry(
     group = 
 """
 1 *1 Os u0 {2,S} {3,S}
-2 *2 Cd u0 {1,S} {4,D}
-3    Cd u0 {1,S} {5,D}
-4    Od u0 {2,D}
-5    Od u0 {3,D}
+2 *2 CO u0 {1,S}
+3    CO u0 {1,S}
 """,
     kinetics = None,
 )
@@ -2710,8 +2696,7 @@ entry(
 """
 1 *1 Os u0 {2,S} {3,S}
 2 *2 Os u0 {1,S}
-3    Cd u0 {1,S} {4,D}
-4    Od u0 {3,D}
+3    CO u0 {1,S}
 """,
     kinetics = None,
 )
@@ -3078,8 +3063,7 @@ entry(
 """
 1 *1 Os u0 {2,S} {3,S}
 2    Os u0 {1,S}
-3 *2 Cd u0 {1,S} {4,D}
-4    Od u0 {3,D}
+3 *2 CO u0 {1,S}
 """,
     kinetics = None,
 )
@@ -3491,8 +3475,7 @@ entry(
 """
 1 *3 C  u1 {2,D} {3,S}
 2    C  u0 {1,D}
-3    Cd u0 {1,S} {4,D}
-4    Od u0 {3,D}
+3    CO u0 {1,S}
 """,
     kinetics = None,
 )
@@ -3502,9 +3485,8 @@ entry(
     label = "C=OJ",
     group = 
 """
-1 *3 Cd u1 {2,D} {3,S}
-2    Od u0 {1,D}
-3    R  u0 {1,S}
+1 *3 CO u1 {2,S}
+2    R  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -3514,9 +3496,8 @@ entry(
     label = "C=OJ-H",
     group = 
 """
-1 *3 Cd u1 {2,D} {3,S}
-2    Od u0 {1,D}
-3    H  u0 {1,S}
+1 *3 CO u1 {2,S}
+2    H  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -3526,9 +3507,8 @@ entry(
     label = "C=OJ-Cs",
     group = 
 """
-1 *3 Cd u1 {2,D} {3,S}
-2    Od u0 {1,D}
-3    Cs u0 {1,S}
+1 *3 CO u1 {2,S}
+2    Cs u0 {1,S}
 """,
     kinetics = None,
 )
@@ -3538,9 +3518,8 @@ entry(
     label = "C=OJ-Ct",
     group = 
 """
-1 *3 Cd u1 {2,D} {3,S}
-2    Od u0 {1,D}
-3    Ct u0 {1,S}
+1 *3 CO u1 {2,S}
+2    Ct u0 {1,S}
 """,
     kinetics = None,
 )
@@ -3550,9 +3529,8 @@ entry(
     label = "C=OJ-Cb",
     group = 
 """
-1 *3 Cd u1 {2,D} {3,S}
-2    Od u0 {1,D}
-3    Cb u0 {1,S}
+1 *3 CO u1 {2,S}
+2    Cb u0 {1,S}
 """,
     kinetics = None,
 )
@@ -3562,9 +3540,8 @@ entry(
     label = "C=OJ-CO",
     group = 
 """
-1 *3 Cd u1 {2,D} {3,S}
-2    Od u0 {1,D}
-3    CO u0 {1,S}
+1 *3 CO u1 {2,S}
+2    CO u0 {1,S}
 """,
     kinetics = None,
 )
@@ -3574,9 +3551,8 @@ entry(
     label = "C=OJ-Os",
     group = 
 """
-1 *3 Cd u1 {2,D} {3,S}
-2    Od u0 {1,D}
-3    Os u0 {1,S}
+1 *3 CO u1 {2,S}
+2    Os u0 {1,S}
 """,
     kinetics = None,
 )
@@ -3586,10 +3562,9 @@ entry(
     label = "C=OJ-Cd",
     group = 
 """
-1 *3 Cd u1 {2,D} {3,S}
-2    Od u0 {1,D}
-3    Cd u0 {1,S} {4,D}
-4    C  u0 {3,D}
+1 *3 CO u1 {2,S}
+2    Cd u0 {1,S} {3,D}
+3    C  u0 {2,D}
 """,
     kinetics = None,
 )
@@ -3599,10 +3574,8 @@ entry(
     label = "C=OJ-C=O",
     group = 
 """
-1 *3 Cd u1 {2,D} {3,S}
-2    Od u0 {1,D}
-3    Cd u0 {1,S} {4,D}
-4    Od u0 {3,D}
+1 *3 CO u1 {2,S}
+2    CO u0 {1,S}
 """,
     kinetics = None,
 )
@@ -3835,10 +3808,9 @@ entry(
     group = 
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
-2    Cd u0 {1,S} {5,D}
+2    CO u0 {1,S}
 3    H  u0 {1,S}
 4    H  u0 {1,S}
-5    Od u0 {2,D}
 """,
     kinetics = None,
 )
@@ -3915,10 +3887,9 @@ entry(
     group = 
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
-2    Cd u0 {1,S} {5,D}
+2    CO u0 {1,S}
 3    Cs u0 {1,S}
 4    H  u0 {1,S}
-5    Od u0 {2,D}
 """,
     kinetics = None,
 )
@@ -4008,10 +3979,9 @@ entry(
     group = 
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
-2    Cd u0 {1,S} {5,D}
+2    CO u0 {1,S}
 3    Cs u0 {1,S}
 4    Cs u0 {1,S}
-5    Od u0 {2,D}
 """,
     kinetics = None,
 )
@@ -4195,9 +4165,8 @@ entry(
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
 2    Ct u0 {1,S}
-3    Cd u0 {1,S} {5,D}
+3    CO u0 {1,S}
 4    H  u0 {1,S}
-5    Od u0 {3,D}
 """,
     kinetics = None,
 )
@@ -4209,9 +4178,8 @@ entry(
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
 2    Cb u0 {1,S}
-3    Cd u0 {1,S} {5,D}
+3    CO u0 {1,S}
 4    H  u0 {1,S}
-5    Od u0 {3,D}
 """,
     kinetics = None,
 )
@@ -4223,9 +4191,8 @@ entry(
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
 2    CO u0 {1,S}
-3    Cd u0 {1,S} {5,D}
+3    CO u0 {1,S}
 4    H  u0 {1,S}
-5    Od u0 {3,D}
 """,
     kinetics = None,
 )
@@ -4252,10 +4219,9 @@ entry(
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
 2    Cd u0 {1,S} {5,D}
-3    Cd u0 {1,S} {6,D}
+3    CO u0 {1,S}
 4    H  u0 {1,S}
 5    C  u0 {2,D}
-6    Od u0 {3,D}
 """,
     kinetics = None,
 )
@@ -4266,11 +4232,9 @@ entry(
     group = 
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
-2    Cd u0 {1,S} {5,D}
-3    Cd u0 {1,S} {6,D}
+2    CO u0 {1,S}
+3    CO u0 {1,S}
 4    H  u0 {1,S}
-5    Od u0 {2,D}
-6    Od u0 {3,D}
 """,
     kinetics = None,
 )
@@ -4415,9 +4379,8 @@ entry(
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
 2    Ct u0 {1,S}
-3    Cd u0 {1,S} {5,D}
+3    CO u0 {1,S}
 4    Cs u0 {1,S}
-5    Od u0 {3,D}
 """,
     kinetics = None,
 )
@@ -4429,9 +4392,8 @@ entry(
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
 2    Cb u0 {1,S}
-3    Cd u0 {1,S} {5,D}
+3    CO u0 {1,S}
 4    Cs u0 {1,S}
-5    Od u0 {3,D}
 """,
     kinetics = None,
 )
@@ -4443,9 +4405,8 @@ entry(
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
 2    CO u0 {1,S}
-3    Cd u0 {1,S} {5,D}
+3    CO u0 {1,S}
 4    Cs u0 {1,S}
-5    Od u0 {3,D}
 """,
     kinetics = None,
 )
@@ -4472,10 +4433,9 @@ entry(
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
 2    Cd u0 {1,S} {5,D}
-3    Cd u0 {1,S} {6,D}
+3    CO u0 {1,S}
 4    Cs u0 {1,S}
 5    C  u0 {2,D}
-6    Od u0 {3,D}
 """,
     kinetics = None,
 )
@@ -4486,11 +4446,9 @@ entry(
     group = 
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
-2    Cd u0 {1,S} {5,D}
-3    Cd u0 {1,S} {6,D}
+2    CO u0 {1,S}
+3    CO u0 {1,S}
 4    Cs u0 {1,S}
-5    Od u0 {2,D}
-6    Od u0 {3,D}
 """,
     kinetics = None,
 )
@@ -4670,8 +4628,7 @@ entry(
     group = 
 """
 1 *3 Os u1 {2,S}
-2    Cd u0 {1,S} {3,D}
-3    Od u0 {2,D}
+2    CO u0 {1,S}
 """,
     kinetics = None,
 )
