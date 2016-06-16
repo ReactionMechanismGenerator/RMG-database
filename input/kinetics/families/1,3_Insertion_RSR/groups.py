@@ -941,9 +941,9 @@ entry(
     label = "Od_Cdd",
     group = 
 """
-1 *1 Od u0 {2,D}
-2 *2 CO u0 {1,D} {3,D}
-3    R  u0 {2,D}
+1 *1 Od  u0 {2,D}
+2 *2 Cdd u0 {1,D} {3,D}
+3    R   u0 {2,D}
 """,
     kinetics = None,
 )
@@ -1142,9 +1142,9 @@ entry(
     label = "Sd_Cdd",
     group = 
 """
-1 *1 Sd u0 {2,D}
-2 *2 Cd u0 {1,D} {3,D}
-3    R  u0 {2,D}
+1 *1 Sd  u0 {2,D}
+2 *2 Cdd u0 {1,D} {3,D}
+3    R   u0 {2,D}
 """,
     kinetics = None,
 )
