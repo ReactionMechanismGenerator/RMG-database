@@ -130,8 +130,7 @@ entry(
     group = 
 """
 1 * Ss u1 {2,S}
-2   Cd u0 {1,S} {3,D}
-3   Sd u0 {2,D}
+2   CS u0 {1,S}
 """,
     kinetics = None,
 )
@@ -428,9 +427,8 @@ entry(
     label = "C=SJ",
     group = 
 """
-1 * Cd u1 {2,D} {3,S}
-2   Sd u0 {1,D}
-3   R  u0 {1,S}
+1 * CS u1 {2,S}
+2   R  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -440,9 +438,8 @@ entry(
     label = "C=SJ-H",
     group = 
 """
-1 * Cd u1 {2,S} {3,D}
+1 * CS u1 {2,S}
 2   H  u0 {1,S}
-3   Sd u0 {1,D}
 """,
     kinetics = None,
 )
@@ -452,9 +449,8 @@ entry(
     label = "C=SJ-C",
     group = 
 """
-1 * Cd u1 {2,S} {3,D}
+1 * CS u1 {2,S}
 2   C  u0 {1,S}
-3   Sd u0 {1,D}
 """,
     kinetics = None,
 )
@@ -464,9 +460,8 @@ entry(
     label = "C=SJ-Cs",
     group = 
 """
-1 * Cd u1 {2,S} {3,D}
+1 * CS u1 {2,S}
 2   Cs u0 {1,S}
-3   Sd u0 {1,D}
 """,
     kinetics = None,
 )
@@ -476,9 +471,8 @@ entry(
     label = "C=SJ-Ss",
     group = 
 """
-1 * Cd u1 {2,S} {3,D}
+1 * CS u1 {2,S}
 2   Ss u0 {1,S}
-3   Sd u0 {1,D}
 """,
     kinetics = None,
 )
@@ -882,10 +876,9 @@ entry(
     group = 
 """
 1 * C  u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {5,D}
+2   CS u0 {1,S}
 3   Ss u0 {1,S}
 4   H  u0 {1,S}
-5   Sd u0 {2,D}
 """,
     kinetics = None,
 )
@@ -1118,10 +1111,9 @@ entry(
     group = 
 """
 1 * C  u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {5,D}
+2   CS u0 {1,S}
 3   Ss u0 {1,S}
 4   Ss u0 {1,S}
-5   Sd u0 {2,D}
 """,
     kinetics = None,
 )
@@ -1199,9 +1191,8 @@ entry(
 """
 1 * C  u1 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S}
-3   Cd u0 {1,S} {5,D}
+3   CS u0 {1,S}
 4   Ss u0 {1,S}
-5   Sd u0 {3,D}
 """,
     kinetics = None,
 )
