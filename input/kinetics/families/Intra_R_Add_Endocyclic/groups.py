@@ -100,7 +100,7 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,S}
-2 *2 Cd  u0 {1,S} {3,D}
+2 *2 CS  u0 {1,S} {3,D}
 3 *3 Sd  u0 {2,D}
 """,
     kinetics = None,
@@ -380,7 +380,7 @@ entry(
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
 3 *5 R!H u0 {2,S} {4,S}
-4 *2 Cd  u0 {3,S} {5,D}
+4 *2 CS  u0 {3,S} {5,D}
 5 *3 Sd  u0 {4,D}
 """,
     kinetics = None,
@@ -394,7 +394,7 @@ entry(
 1 *1 Cs  u1 {2,S} {6,S}
 2 *4 R!H u0 {1,S} {3,S}
 3 *5 R!H u0 {2,S} {4,S}
-4 *2 Cd  u0 {3,S} {5,D}
+4 *2 CS  u0 {3,S} {5,D}
 5 *3 Sd  u0 {4,D}
 6    Cs  u0 {1,S}
 """,
@@ -409,7 +409,7 @@ entry(
 1 *1 Cs  u1 {2,S} {6,S} {7,S}
 2 *4 R!H u0 {1,S} {3,S}
 3 *5 R!H u0 {2,S} {4,S}
-4 *2 Cd  u0 {3,S} {5,D}
+4 *2 CS  u0 {3,S} {5,D}
 5 *3 Sd  u0 {4,D}
 6    H   u0 {1,S}
 7    H   u0 {1,S}
@@ -518,7 +518,7 @@ entry(
 1 *1 R!H u1 {2,S}
 2 *4 Cd  u0 {1,S} {3,D}
 3 *5 Cd  u0 {2,D} {4,S}
-4 *2 Cd  u0 {3,S} {5,D}
+4 *2 CS  u0 {3,S} {5,D}
 5 *3 Sd  u0 {4,D}
 """,
     kinetics = None,
@@ -704,7 +704,7 @@ entry(
 1 *1 Cd  u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
 3 *5 R!H u0 {2,S} {4,S}
-4 *2 Cd  u0 {3,S} {5,D}
+4 *2 CS  u0 {3,S} {5,D}
 5 *3 Sd  u0 {4,D}
 """,
     kinetics = None,
@@ -1993,7 +1993,7 @@ entry(
     label = "thiyl_intra",
     group = 
 """
-1 *2 Cd u0 {2,D}
+1 *2 CS u0 {2,D}
 2 *3 Sd u0 {1,D}
 """,
     kinetics = None,
@@ -2004,7 +2004,7 @@ entry(
     label = "thiyl_intra_H",
     group = 
 """
-1 *2 Cd u0 {2,D} {3,S}
+1 *2 CS u0 {2,D} {3,S}
 2 *3 Sd u0 {1,D}
 3    H  u0 {1,S}
 """,
@@ -2016,7 +2016,7 @@ entry(
     label = "thiyl_intra_Nd",
     group = 
 """
-1 *2 Cd       u0 {2,D} {3,S}
+1 *2 CS       u0 {2,D} {3,S}
 2 *3 Sd       u0 {1,D}
 3    [Cs,O,S] u0 {1,S}
 """,
@@ -2028,7 +2028,7 @@ entry(
     label = "thiyl_intra_De",
     group = 
 """
-1 *2 Cd            u0 {2,D} {3,S}
+1 *2 CS            u0 {2,D} {3,S}
 2 *3 Sd            u0 {1,D}
 3    [Cd,Ct,Cb,CO] u0 {1,S}
 """,
