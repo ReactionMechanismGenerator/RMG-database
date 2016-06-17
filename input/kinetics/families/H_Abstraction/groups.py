@@ -5156,10 +5156,10 @@ entry(
     label = "C_rad/H/OneDeC",
     group = 
 """
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2    H             u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    Cs            u0 {1,S}
+1 *3 C                u1 {2,S} {3,S} {4,S}
+2    H                u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    Cs               u0 {1,S}
 """,
     kinetics = None,
 )
@@ -5792,10 +5792,10 @@ entry(
     label = "C_rad/OneDe",
     group = 
 """
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    [Cs,O,S]      u0 {1,S}
-4    [Cs,O,S]      u0 {1,S}
+1 *3 C                u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    [Cs,O,S]         u0 {1,S}
+4    [Cs,O,S]         u0 {1,S}
 """,
     kinetics = None,
 )
@@ -5805,10 +5805,10 @@ entry(
     label = "C_rad/Cs2",
     group = 
 """
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    Cs            u0 {1,S}
-4    Cs            u0 {1,S}
+1 *3 C                u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    Cs               u0 {1,S}
+4    Cs               u0 {1,S}
 """,
     kinetics = None,
 )
@@ -5897,10 +5897,10 @@ entry(
     label = "C_rad/CsS",
     group = 
 """
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    S             u0 {1,S}
-4    Cs            u0 {1,S}
+1 *3 C                u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    S                u0 {1,S}
+4    Cs               u0 {1,S}
 """,
     kinetics = None,
 )
@@ -6002,10 +6002,10 @@ entry(
     label = "C_rad/TwoDe",
     group = 
 """
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    [Cs,O,S]      u0 {1,S}
+1 *3 C                u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    [Cs,O,S]         u0 {1,S}
 """,
     kinetics = None,
 )
@@ -6015,10 +6015,10 @@ entry(
     label = "C_rad/Cs",
     group = 
 """
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    Cs            u0 {1,S}
+1 *3 C                u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    Cs               u0 {1,S}
 """,
     kinetics = None,
 )
