@@ -193,3 +193,1105 @@ Taken from entry: prod_29 <=> prod_30
 """,
 )
 
+entry(
+    index = 15,
+    label = "C_CCCJ <=> cyclobutyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (6.60e+07, 's^-1'),
+        n = 1.08,
+        Ea = (30.4, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 16,
+    label = "C_CCCJC <=> 3-methylcyclobutyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.02e+07, 's^-1'),
+        n = 1.34,
+        Ea = (30.1, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 17,
+    label = "C_CCCJCC <=> 3-ethylcyclobutyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.00e+07, 's^-1'),
+        n = 1.34,
+        Ea = (29.4, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 18,
+    label = "CC_CCCJ <=> 2-methylcyclobutyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.61e+08, 's^-1'),
+        n = 0.96,
+        Ea = (29.4, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling" Trans conformation of pentenyl.
+""",
+)
+
+entry(
+    index = 19,
+    label = "C_CC(C)CJ <=> 2-methylcyclobutyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.01e+08, 's^-1'),
+        n = 1.02,
+        Ea = (29.7, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 20,
+    label = "C_C(C)CCJ <=> 1-methylcyclobutyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.82e+08, 's^-1'),
+        n = 0.91,
+        Ea = (30.0, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 21,
+    label = "C_CC(C)(C)CJ <=> 2,2-dimethylcyclobutyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.41e+08, 's^-1'),
+        n = 0.96,
+        Ea = (29.3, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 22,
+    label = "C_CCCJ(C)C <=> 3,3-dimethylcyclobutyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.02e+06, 's^-1'),
+        n = 1.58,
+        Ea = (29.7, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 23,
+    label = "C_C(C)CCJC <=> 1,3-dimethylcyclobutyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.71e+08, 's^-1'),
+        n = 0.99,
+        Ea = (29.7, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 24,
+    label = "CC(C)_CCCJ <=> 2,2-dimethylcyclobutyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.15e+07, 's^-1'),
+        n = 1.24,
+        Ea = (30.9, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 25,
+    label = "C_CCCCJ <=> cyclopentyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.65e+07, 's^-1'),
+        n = 1.02,
+        Ea = (14.2, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 26,
+    label = "C_CCCCJC <=> 3-methylcyclopentyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (4.64e+06, 's^-1'),
+        n = 1.15,
+        Ea = (13.9, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 27,
+    label = "C_CCCCJ(C)C <=> 3,3-dimethylcyclopentyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.07e+06, 's^-1'),
+        n = 1.38,
+        Ea = (12.2, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 28,
+    label = "CC_CCCCJ <=> 2-methylcyclopentyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.94e+07, 's^-1'),
+        n = 0.93,
+        Ea = (13.9, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling" Trans conformation of hexenyl.
+""",
+)
+
+entry(
+    index = 29,
+    label = "C_CCC(C)CJ <=> 3-methylcyclopentyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (6.65e+07, 's^-1'),
+        n = 0.83,
+        Ea = (13.4, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 30,
+    label = "C_CC(C)CCJ <=> 2-methylcyclopentyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (7.25e+07, 's^-1'),
+        n = 0.83,
+        Ea = (14.1, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 31,
+    label = "C_C(C)CCCJ <=> 1-methylcyclopentyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.23e+07, 's^-1'),
+        n = 1.00,
+        Ea = (13.5, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 32,
+    label = "C_CCC(C)(C)CJ <=> 3,3-dimethylcyclopentyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.38e+08, 's^-1'),
+        n = 0.75,
+        Ea = (12.6, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 33,
+    label = "C_CC(C)(C)CCJ <=> 2,2-dimethylcyclopentyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.60e+08, 's^-1'),
+        n = 0.76,
+        Ea = (13.4, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 34,
+    label = "CC(C)_CCCCJ <=> 2,2-dimethylcyclopentyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (4.90e+06, 's^-1'),
+        n = 1.13,
+        Ea = (15.6, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 35,
+    label = "C_CCCCCJ <=> cyclohexyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.25e+06, 's^-1'),
+        n = 1.08,
+        Ea = (6.7, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 36,
+    label = "C_CCCCCJC <=> 3-methylcyclohexyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (4.87e+05, 's^-1'),
+        n = 1.17,
+        Ea = (6.3, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 37,
+    label = "C_CCCCCJ(C)C <=> 3,3-dimethylcyclohexyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.30e+04, 's^-1'),
+        n = 1.42,
+        Ea = (4.7, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 38,
+    label = "CC_CCCCCJ <=> 2-methylcyclohexyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.26e+06, 's^-1'),
+        n = 1.02,
+        Ea = (6.3, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling" Trans conformation of heptenyl.
+""",
+)
+
+entry(
+    index = 39,
+    label = "C_CCCC(C)CJ <=> 4-methylcyclohexyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.01e+06, 's^-1'),
+        n = 1.05,
+        Ea = (5.8, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 40,
+    label = "C_CCC(C)CCJ <=> 3-methylcyclohexyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (7.32e+06, 's^-1'),
+        n = 0.84,
+        Ea = (5.9, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 41,
+    label = "C_CC(C)CCCJ <=> 2-methylcyclohexyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.24e+07, 's^-1'),
+        n = 0.79,
+        Ea = (6.2, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 42,
+    label = "C_C(C)CCCCJ <=> 1-methylcyclohexyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.46e+06, 's^-1'),
+        n = 1.02,
+        Ea = (6.1, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 43,
+    label = "C_CCCC(C)(C)CJ <=> 4,4-dimethylcyclohexyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.19e+07, 's^-1'),
+        n = 0.78,
+        Ea = (6.2, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 44,
+    label = "C_CCC(C)(C)CCJ <=> 3,3-dimethylcyclohexyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.50e+07, 's^-1'),
+        n = 0.70,
+        Ea = (6.3, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 45,
+    label = "C_CC(C)(C)CCCJ <=> 2,2-dimethylcyclohexyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5.85e+07, 's^-1'),
+        n = 0.63,
+        Ea = (6.3, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 46,
+    label = "CC(C)_CCCCCJ <=> 2,2-dimethylcyclohexyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.44e+05, 's^-1'),
+        n = 1.10,
+        Ea = (7.7, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 47,
+    label = "C_CCCCCCJ <=> cycloheptyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.14e+05, 's^-1'),
+        n = 1.20,
+        Ea = (6.5, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 48,
+    label = "C_CCCCCCJC <=> 3-methylcycloheptyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.11e+04, 's^-1'),
+        n = 1.34,
+        Ea = (6.4, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 49,
+    label = "C_CCCCCCJ(C)C <=> 3,3-dimethylcycloheptyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5.54e+02, 's^-1'),
+        n = 1.66,
+        Ea = (4.9, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 50,
+    label = "CC_CCCCCCJ <=> 2-methylcycloheptyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.10e+05, 's^-1'),
+        n = 1.18,
+        Ea = (6.5, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 51,
+    label = "C_C(C)CCCCCJ <=> 1-methylcycloheptyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.85e+05, 's^-1'),
+        n = 1.07,
+        Ea = (6.4, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
+entry(
+    index = 52,
+    label = "CC(C)_CCCCCCJ <=> 2,2-dimethylcycloheptyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.22e+04, 's^-1'),
+        n = 1.36,
+        Ea = (8.5, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["K. Wang", "S. Villano", "A. Dean"],
+        title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "119(28)",
+        pages = """7205-7221""",
+        year = "2015",
+    ),
+	rank = 3,
+    referenceType = "theory",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    longDesc = 
+u"""
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
+B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed TST with Eckart Tunnelling"
+""",
+)
+
