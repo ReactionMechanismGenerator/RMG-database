@@ -157,9 +157,9 @@ entry(
     label = "CsJ-SsOneDe",
     group = 
 """
-1 *3 Cs            u1 {2,S} {3,S}
-2    R             u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
+1 *3 Cs               u1 {2,S} {3,S}
+2    R                u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -169,9 +169,9 @@ entry(
     label = "CsJ-SsOneDeH",
     group = 
 """
-1 *3 Cs            u1 {2,S} {3,S}
-2    H             u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
+1 *3 Cs               u1 {2,S} {3,S}
+2    H                u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -195,7 +195,7 @@ entry(
 """
 1 *3 Cs            u1 {2,S} {3,S}
 2    Cs            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -735,10 +735,10 @@ entry(
     label = "Cs-SsOneDe",
     group = 
 """
-1 *1 C             u0 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    [H,Cs,Os,Ss]  u0 {1,S}
-4    [H,Cs,Os,Ss]  u0 {1,S}
+1 *1 C                u0 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    [H,Cs,Os,Ss]     u0 {1,S}
+4    [H,Cs,Os,Ss]     u0 {1,S}
 """,
     kinetics = None,
 )
@@ -748,10 +748,10 @@ entry(
     label = "Cs-SsOneDeHH",
     group = 
 """
-1 *1 C             u0 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    H             u0 {1,S}
-4    H             u0 {1,S}
+1 *1 C                u0 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    H                u0 {1,S}
+4    H                u0 {1,S}
 """,
     kinetics = None,
 )
@@ -827,10 +827,10 @@ entry(
     label = "Cs-SsOneDeCsH",
     group = 
 """
-1 *1 C             u0 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    Cs            u0 {1,S}
-4    H             u0 {1,S}
+1 *1 C                u0 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    Cs               u0 {1,S}
+4    H                u0 {1,S}
 """,
     kinetics = None,
 )
@@ -906,10 +906,10 @@ entry(
     label = "Cs-SsOneDeOsH",
     group = 
 """
-1 *1 C             u0 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    Os            u0 {1,S}
-4    H             u0 {1,S}
+1 *1 C                u0 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    Os               u0 {1,S}
+4    H                u0 {1,S}
 """,
     kinetics = None,
 )
@@ -919,10 +919,10 @@ entry(
     label = "Cs-SsOneDeSsH",
     group = 
 """
-1 *1 C             u0 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    Ss            u0 {1,S}
-4    H             u0 {1,S}
+1 *1 C                u0 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    Ss               u0 {1,S}
+4    H                u0 {1,S}
 """,
     kinetics = None,
 )
@@ -932,10 +932,10 @@ entry(
     label = "Cs-SsOneDeCsCs",
     group = 
 """
-1 *1 C             u0 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    Cs            u0 {1,S}
-4    Cs            u0 {1,S}
+1 *1 C                u0 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    Cs               u0 {1,S}
+4    Cs               u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1011,10 +1011,10 @@ entry(
     label = "Cs-SsOneDeOsCs",
     group = 
 """
-1 *1 C             u0 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    Os            u0 {1,S}
-4    Cs            u0 {1,S}
+1 *1 C                u0 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    Os               u0 {1,S}
+4    Cs               u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1024,10 +1024,10 @@ entry(
     label = "Cs-SsOneDeSsCs",
     group = 
 """
-1 *1 C             u0 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    Ss            u0 {1,S}
-4    Cs            u0 {1,S}
+1 *1 C                u0 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    Ss               u0 {1,S}
+4    Cs               u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1037,10 +1037,10 @@ entry(
     label = "Cs-SsOneDeOsOs",
     group = 
 """
-1 *1 C             u0 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    Os            u0 {1,S}
-4    Os            u0 {1,S}
+1 *1 C                u0 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    Os               u0 {1,S}
+4    Os               u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1050,10 +1050,10 @@ entry(
     label = "Cs-SsOneDeOsSs",
     group = 
 """
-1 *1 C             u0 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    Os            u0 {1,S}
-4    Ss            u0 {1,S}
+1 *1 C                u0 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    Os               u0 {1,S}
+4    Ss               u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1063,10 +1063,10 @@ entry(
     label = "Cs-SsOneDeSsSs",
     group = 
 """
-1 *1 C             u0 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    Ss            u0 {1,S}
-4    Ss            u0 {1,S}
+1 *1 C                u0 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    Ss               u0 {1,S}
+4    Ss               u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1076,10 +1076,10 @@ entry(
     label = "Cs-SsTwoDe",
     group = 
 """
-1 *1 C             u0 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    [H,Cs,Os,Ss]  u0 {1,S}
+1 *1 C                u0 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    [H,Cs,Os,Ss]     u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1089,10 +1089,10 @@ entry(
     label = "Cs-SsTwoDeH",
     group = 
 """
-1 *1 C             u0 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    H             u0 {1,S}
+1 *1 C                u0 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    H                u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1303,10 +1303,10 @@ entry(
     label = "Cs-SsTwoDeCs",
     group = 
 """
-1 *1 C             u0 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    Cs            u0 {1,S}
+1 *1 C                u0 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    Cs               u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1517,10 +1517,10 @@ entry(
     label = "Cs-SsTwoDeOs",
     group = 
 """
-1 *1 C             u0 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    Os            u0 {1,S}
+1 *1 C                u0 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    Os               u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1530,10 +1530,10 @@ entry(
     label = "Cs-SsTwoDeSs",
     group = 
 """
-1 *1 C             u0 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    Ss            u0 {1,S}
+1 *1 C                u0 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    Ss               u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1543,10 +1543,10 @@ entry(
     label = "Cs-SsThreeDe",
     group = 
 """
-1 *1 C             u0 {2,S} {3,S} {4,S}
-2    [Cd,Ct,Cb,CO] u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    [Cd,Ct,Cb,CO] u0 {1,S}
+1 *1 C                u0 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
