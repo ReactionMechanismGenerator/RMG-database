@@ -186,10 +186,11 @@ entry(
     molecule =  
 """
 1 C u0 p0 {2,S} {3,S} {4,S} {5,S}
-2 R u0 p2 {1,S} {5,S}
+2 R u0 p2 {1,S} {6,S}
 3 R u0 p0 {1,S}
 4 R u0 p0 {1,S}
-5 X u0 p0 {1,S} {2,S}
+5 X u0 p0 {1,S}
+6 X u0 p0 {2,S}
 """,
     thermo = AdsorptionCorrection(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -323,10 +324,11 @@ entry(
     molecule =  
 """
 1 C u0 p0 {2,S} {3,S} {5,D}
-2 R u0 p2 {1,S} {5,S}
+2 R u0 p2 {1,S} {6,S}
 3 O u0 p2 {1,S} {4,S}
 4 R u0 p0 {3,S}
-5 X u0 p0 {1,D} {2,S}
+5 X u0 p0 {1,D}
+6 X u0 p0 {2,S}
 """,
     thermo = AdsorptionCorrection(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
