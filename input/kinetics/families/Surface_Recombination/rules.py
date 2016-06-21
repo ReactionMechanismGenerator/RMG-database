@@ -8,10 +8,11 @@ longDesc = u"""
 entry(
     index = 1,
     label = "Adsorbate1;Adsorbate2",
-    kinetics = SurfaceArrhenius(
+    kinetics = SurfaceArrheniusBEP(
         A = (1.0e13, 'm^2/(mol*s)'),
         n = 0,
-        Ea=(3, 'kcal/mol'),
+        alpha = 0.5,
+        E0=(3, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -25,7 +26,7 @@ Author:	Danilo Crippa; Daniel L Rode; Maurizio Masi
 Publisher:	San Diego : Academic Press, 2001.
 Series:	Semiconductors and semimetals, v. 72.
 
-Ea made up.
+E0 and alpha made up.
     """
 )
 
