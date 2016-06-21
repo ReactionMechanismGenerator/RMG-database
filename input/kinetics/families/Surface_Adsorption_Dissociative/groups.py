@@ -66,3 +66,41 @@ L1: VacantSite2
 """
 )
 
+
+forbidden(
+    label = "adjacentradical1",
+    group = 
+"""
+1 *1 R u0 {2,[S,D,T]}
+2    R u1 {1,[S,D,T]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+The adsorbing atom should not be adjacent to a radical. 
+e.g. this is not allowed:
+    
+CH2.-CH3    -->   CH2.-CH2   +   H
+                       |         |
+     X X               X         X
+""",
+)
+
+forbidden(
+    label = "adjacentradical2",
+    group = 
+"""
+1 *2 R u0 {2,[S,D,T]}
+2    R u1 {1,[S,D,T]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Neither adsorbing atom should be adjacent to a radical
+e.g. this is not allowed:
+
+CH2.-CH3    -->   CH2.-CH2   +   H
+                       |         |
+     X X               X         X
+""",
+)
