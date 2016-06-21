@@ -76,9 +76,10 @@ surface = {
     'Surface_Adsorption_Single',
     'Surface_Adsorption_Double',
     'Surface_Adsorption_vdW',
-    'Surface_Adsorption_Dissociative',# degeneracy error
+    'Surface_Adsorption_Dissociative',
     'Surface_Adsorption_Bidentate',
     'Surface_Recombination',
-    'Surface_Abstraction',# reaction pairs error
+    'Surface_Dissociation',
+    'Surface_Abstraction',
 }
 
