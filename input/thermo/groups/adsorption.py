@@ -11,7 +11,7 @@ Initially, Nickel
 entry(
     index = 1,
     label = "R*",
-    molecule =  
+    group=
 """
 1 R u0 px {2,[S,D,T,Q]}
 2 X u0 p0 {1,[S,D,T,Q]}
@@ -28,7 +28,7 @@ entry(
 entry(
     index = 1,
     label = "C*",
-    molecule =  
+    group=
 """
 1 C u0 px {2,[S,D,T,Q]}
 2 X u0 p0 {1,[S,D,T,Q]}
@@ -45,7 +45,7 @@ entry(
 entry(
     index = 1,
     label = "O*",
-    molecule =  
+    group=
 """
 1 O u0 px {2,[S,D,T,Q]}
 2 X u0 p0 {1,[S,D,T,Q]}
@@ -63,7 +63,7 @@ entry(
 entry(
     index = 1,
     label = "CR*",
-    molecule =  
+    group=
 """
 1 C u0 p0 {2,S} {3,T}
 2 R u0 p0 {1,S}
@@ -86,7 +86,7 @@ entry(
 entry(
     index = 2,
     label = "CR2*",
-    molecule =  
+    group=
 """
 1 C u0 p0 {2,S} {3,S} {4,D}
 2 R u0 p0 {1,S}
@@ -110,7 +110,7 @@ entry(
 entry(
     index = 3,
     label = "CR3*",
-    molecule = 
+    group=
 """
 1 C u0 p0 {2,S} {3,S} {4,S} {5,S}
 2 R u0 p0 {1,S}
@@ -137,7 +137,7 @@ entry(
 entry(
     index = 4,
     label = "CR4*",
-    molecule =  
+    group=
 """
 1 C u0 p0 {2,S} {3,S} {4,S} {5,S} {6,vdW}
 2 R u0 p0 {1,S}
@@ -163,7 +163,7 @@ entry(
 entry(
     index = 5,
     label = "R2O*",
-    molecule =  
+    group=
 """
 1 O u0 p2 {2,S} {3,S} {4,vdW}
 2 R u0 p0 {1,S}
@@ -187,7 +187,7 @@ entry(
 entry(
     index = 6,
     label = "RCR*",
-    molecule =  
+    group=
 """
 1 C u0 p0 {2,S} {3,S} {4,D}
 2 R u0 p2 {1,S} {4,S}
@@ -211,7 +211,7 @@ R--C--R
 entry(
     index = 7,
     label = "COR*",
-    molecule =  
+    group=
 """
 1 C u0 p0 {2,S} {4,T}
 2 O u0 p2 {1,S} {3,S}
@@ -236,7 +236,7 @@ entry(
 entry(
     index = 8,
     label = "CR2R*",
-    molecule =  
+    group=
 """
 1 C u0 p0 {2,S} {3,S} {4,S} {5,S}
 2 R u0 p2 {1,S} {6,S}
@@ -262,7 +262,7 @@ R2--C--R
 entry(
     index = 9,
     label = "CROR*",
-    molecule =  
+    group=
 """
 1 C u0 p0 {2,S} {3,S} {5,D}
 2 O u0 p2 {1,S} {4,S}
@@ -288,7 +288,7 @@ entry(
 entry(
     index = 10,
     label = "CR3O*",
-    molecule =  
+    group=
 """
 1 O u0 p2 {2,S} {6,S}
 2 C u0 p0 {1,S} {3,S} {4,S} {5,S}
@@ -317,7 +317,7 @@ entry(
 entry(
     index = 11,
     label = "CR2OR*",
-    molecule =  
+    group=
 """
 1 C u0 p0 {2,S} {3,S} {4,S} {6,S}
 2 R u0 p0 {1,S}
@@ -345,7 +345,7 @@ entry(
 entry(
     index = 12,
     label = "CR3OR*",
-    molecule =  
+    group=
 """
 1 O u0 p2 {2,S} {3,S} {7,vdW}
 2 C u0 p0 {1,S} {4,S} {5,S} {6,S}
@@ -374,7 +374,7 @@ entry(
 entry(
     index = 13,
     label = "ROCR*",
-    molecule =  
+    group=
 """
 1 C u0 p0 {2,S} {3,S} {5,D}
 2 R u0 p2 {1,S} {6,S}
