@@ -1,11 +1,64 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "surfaceThermoCorrection"
+name = "Surface Adsorption Corrections"
 shortDesc = u""
 longDesc = u"""
-A few surface species.
+Changes due to adsorbing on a surface.
+Initially, Nickel
 """
+
+entry(
+    index = 1,
+    label = "R*",
+    molecule =  
+"""
+1 R u0 px {2,[S,D,T,Q]}
+2 X u0 p0 {1,[S,D,T,Q]}
+""",
+    thermo=None,
+    shortDesc = u"""Anything adsorbed by any bond""",
+    longDesc =  u"""
+   R
+   x
+***********
+""",
+)
+
+entry(
+    index = 1,
+    label = "C*",
+    molecule =  
+"""
+1 C u0 px {2,[S,D,T,Q]}
+2 X u0 p0 {1,[S,D,T,Q]}
+""",
+    thermo=None,
+    shortDesc = u"""Carbon adsorbed by any bond""",
+    longDesc =  u"""
+   C
+   x
+***********
+""",
+)
+
+entry(
+    index = 1,
+    label = "O*",
+    molecule =  
+"""
+1 O u0 px {2,[S,D,T,Q]}
+2 X u0 p0 {1,[S,D,T,Q]}
+""",
+    thermo=None,
+    shortDesc = u"""Oxygen adsorbed by any bond""",
+    longDesc =  u"""
+   O
+   x
+***********
+""",
+)
+
 
 entry(
     index = 1,
@@ -344,4 +397,14 @@ RO--C--R
 """,
 )
 
-
+tree(
+"""
+L1: R*
+    L2: C*
+        L3: CR*
+        L3: CR2*
+        L3: CR3*
+        L4: CR4*
+    L2: O*
+"""
+)
