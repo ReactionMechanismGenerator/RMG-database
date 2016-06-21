@@ -16,8 +16,13 @@ entry(
 1 R u0 px {2,[S,D,T,Q]}
 2 X u0 p0 {1,[S,D,T,Q]}
 """,
-    thermo=None,
-    shortDesc = u"""Anything adsorbed by any bond""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-2.67, -1.82, -1.11, -0.48, 0.49, 1.16, 2.05], 'cal/(mol*K)'),
+        H298=(-100, 'kcal/mol'),
+        S298=(-30., 'cal/(mol*K)'),
+        ),
+    shortDesc=u"""Anything adsorbed by any bond. BAD DATA! REMOVE!""",
     longDesc =  u"""
    R
    x
