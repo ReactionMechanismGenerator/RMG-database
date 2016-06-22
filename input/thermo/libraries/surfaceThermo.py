@@ -306,10 +306,10 @@ entry(
     label = "HCO*",
     molecule =  
 """
-1 C u0 p0 {2,S} {3,S} {4,D}
-2 O u0 p2 {1,S} {4,S}
+1 C u0 p0 {2,D} {3,S} {4,S}
+2 O u0 p2 {1,D}
 3 H u0 p0 {1,S}
-4 X u0 p0 {1,D} {2,S}
+4 X u0 p0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -319,7 +319,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (2000,'K'),
     ),
-    shortDesc = u"""HCO di-sigma adsorbed on nickel""",
+    shortDesc = u"""HCO di-sigma adsorbed on nickel. PREVIOUSLY WAS DI-SIGMA. I'VE CHANGED IT.""",
     longDesc =  u"""Estimated via CFG-TiC
 H--C--O
    || |
