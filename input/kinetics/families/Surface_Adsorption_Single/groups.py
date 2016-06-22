@@ -76,3 +76,21 @@ H2C-O   <-->  H2C*-O
 """,
 )
 
+forbidden(
+    label = "adjacentradical1",
+    group = 
+"""
+1 *1 R u1 {2,S}
+2    R u1 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+The adsorbing atom should not be adjacent to a radical. 
+e.g. this is not allowed:
+    
+.O-O.    -->   .O-O
+                  |
+   X              X
+""",
+)
