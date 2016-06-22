@@ -67,7 +67,7 @@ entry(
 
 entry(
     index = 1,
-    label = "CR*",
+    label = "C*R",
     group=
 """
 1 C u0 p0 {2,S} {3,T}
@@ -90,7 +90,7 @@ entry(
 
 entry(
     index = 2,
-    label = "CR2*",
+    label = "C*R2",
     group=
 """
 1 C u0 p0 {2,S} {3,S} {4,D}
@@ -114,7 +114,7 @@ entry(
 
 entry(
     index = 3,
-    label = "CR3*",
+    label = "C*R3",
     group=
 """
 1 C u0 p0 {2,S} {3,S} {4,S} {5,S}
@@ -141,7 +141,7 @@ entry(
 
 entry(
     index = 4,
-    label = "CR4*",
+    label = "C*R4",
     group=
 """
 1 C u0 p0 {2,S} {3,S} {4,S} {5,S} {6,vdW}
@@ -167,7 +167,7 @@ entry(
 
 entry(
     index = 5,
-    label = "R2O*",
+    label = "O*R2",
     group=
 """
 1 O u0 p2 {2,S} {3,S} {4,vdW}
@@ -191,7 +191,7 @@ entry(
 
 entry(
     index = 6,
-    label = "RCR*",
+    label = "C*RR*",
     group=
 """
 1 C u0 p0 {2,S} {3,S} {4,D}
@@ -215,7 +215,7 @@ R--C--R
 
 entry(
     index = 7,
-    label = "COR*",
+    label = "C*OR",
     group=
 """
 1 C u0 p0 {2,S} {4,T}
@@ -229,7 +229,7 @@ entry(
         H298=(-48.39, 'kcal/mol'),
         S298=(-43.58, 'cal/(mol*K)'),
     ),
-    shortDesc = u"""COR adsorbed on nickel: SUBSET OF CR*!""",
+    shortDesc = u"""COR adsorbed on nickel: SUBSET OF C*R!""",
     longDesc =  u"""Estimated via CFG-TiC
  RO-C
    |||
@@ -240,7 +240,7 @@ entry(
 
 entry(
     index = 8,
-    label = "CR2R*",
+    label = "C*R2R*",
     group=
 """
 1 C u0 p0 {2,S} {3,S} {4,S} {5,S}
@@ -266,7 +266,7 @@ R2--C--R
 
 entry(
     index = 9,
-    label = "CROR*",
+    label = "C*ROR",
     group=
 """
 1 C u0 p0 {2,S} {3,S} {5,D}
@@ -281,7 +281,7 @@ entry(
         H298=(-55.31, 'kcal/mol'),
         S298=(-45.59, 'cal/(mol*K)'),
     ),
-    shortDesc = u"""CROR double-bonded on nickel: SUBSET OF CR2*""",
+    shortDesc = u"""CROR double-bonded on nickel: SUBSET OF C*R2""",
     longDesc =  u"""Estimated via CFG-TiC
   R-C-OR
    ||
@@ -292,7 +292,7 @@ entry(
 
 entry(
     index = 10,
-    label = "CR3O*",
+    label = "O*CR3",
     group=
 """
 1 O u0 p2 {2,S} {6,S}
@@ -321,7 +321,7 @@ entry(
 
 entry(
     index = 11,
-    label = "CR2OR*",
+    label = "C*R2OR",
     group=
 """
 1 C u0 p0 {2,S} {3,S} {4,S} {6,S}
@@ -337,7 +337,7 @@ entry(
         H298=(-23.05, 'kcal/mol'),
         S298=(-40.81, 'cal/(mol*K)'),
     ),
-    shortDesc = u"""CR2OR adsorbed on nickel: SUBSET OF CR3""",
+    shortDesc = u"""CR2OR adsorbed on nickel: SUBSET OF C*R3""",
     longDesc =  u"""Estimated via CFG-TiC
    R
    |
@@ -349,7 +349,7 @@ entry(
 
 entry(
     index = 12,
-    label = "CR3OR*",
+    label = "O*RCR3",
     group=
 """
 1 O u0 p2 {2,S} {3,S} {7,vdW}
@@ -366,7 +366,7 @@ entry(
         H298=(-0.69, 'kcal/mol'),
         S298=(-17.57, 'cal/(mol*K)'),
     ),
-    shortDesc = u"""CR3OR physisorbed on nickel: SUBSET OF R2O""",
+    shortDesc = u"""CR3OR physisorbed on nickel: SUBSET OF O*R2""",
     longDesc =  u"""Estimated via CFG-TiC
    CR3
    |
@@ -378,7 +378,7 @@ entry(
 
 entry(
     index = 13,
-    label = "ROCR*",
+    label = "C*ORR*",
     group=
 """
 1 C u0 p0 {2,S} {3,S} {5,D}
@@ -406,10 +406,16 @@ tree(
 """
 L1: R*
     L2: C*
-        L3: CR*
-        L3: CR2*
-        L3: CR3*
-        L4: CR4*
+        L3: C*R
+            L4: C*OR
+        L3: C*R2
+            L4: C*ROR
+        L3: C*R3
+            L4: C*R2OR
+        L3: C*R4
     L2: O*
+        L3: O*R2
+            L4: O*RCR3        
+        L3: O*CR3
 """
 )
