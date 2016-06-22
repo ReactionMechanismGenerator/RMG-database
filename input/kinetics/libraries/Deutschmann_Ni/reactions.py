@@ -42,21 +42,6 @@ entry(
 
 
 entry(
-    index = 3,
-    label = "O2 + Ni <=> O2X",
-    kinetics = StickingCoefficient(
-        A = 0.0,
-        n = 0,
-        Ea=(0, 'J/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Default""",
-    longDesc = u"""Prevent O2 non-dissociative adsorption"""
-)
-
-
-entry(
     index = 4,
     label = "HX + HOX <=> H2O + Ni + Ni",
     kinetics = SurfaceArrhenius(
@@ -378,4 +363,17 @@ entry(
     longDesc = u"""R50"""
 )
 
-
+# CFG: I removed this reaction and replaced it with a forbidden structure in the Surface_Adsorption_Single group.
+#entry(
+#    index = 3,
+#    label = "O2 + Ni <=> O2X",
+#    kinetics = StickingCoefficient(
+#        A = 0.0,
+#        n = 0,
+#        Ea=(0, 'J/mol'),
+#        Tmin = (200, 'K'),
+#        Tmax = (3000, 'K'),
+#    ),
+#    shortDesc = u"""Default""",
+#    longDesc = u"""Prevent O2 non-dissociative adsorption"""
+#)
