@@ -78,7 +78,7 @@ surface = {
     'Surface_Adsorption_vdW',
     'Surface_Adsorption_Dissociative',
     'Surface_Adsorption_Bidentate',
-    'Surface_Recombination',
+    #'Surface_Recombination', # reverse of Surface_Dissociation which we're now using instead
     'Surface_Dissociation',
     'Surface_Abstraction',
 }
