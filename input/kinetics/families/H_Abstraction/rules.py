@@ -46639,20 +46639,21 @@ entry(
     shortDesc = u"""Default""",
 )
 
-entry(
-    index = 8001,
-    label = "C_rad/H2/Cl;Cl_rad",
-    kinetics = ArrheniusEP(
-        A = (5.03e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (2.88, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Default""",
-)
+## Commented out by Richard because not clear what XH group this should have been (C_rad/H2/Cl is a Yrad group)
+#entry(
+#    index = 8001,
+#    label = "C_rad/H2/Cl;Cl_rad",
+#    kinetics = ArrheniusEP(
+#        A = (5.03e+13, 'cm^3/(mol*s)'),
+#        n = 0,
+#        alpha = 0,
+#        E0 = (2.88, 'kcal/mol'),
+#        Tmin = (300, 'K'),
+#        Tmax = (1500, 'K'),
+#    ),
+#    rank = 0,
+#    shortDesc = u"""Default""",
+#)
 
 entry(
     index = 8002,
