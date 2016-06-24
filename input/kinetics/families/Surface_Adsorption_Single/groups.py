@@ -74,26 +74,6 @@ R2C   <-->  R2C*
 )
 
 forbidden(
-    label = "disigma1",
-    group = 
-"""
-1 *1 R u1 {2,[S,D,T]}
-2    R u0 {1,[S,D,T]} {3,[S,D,T]}
-3    X u0 {2,[S,D,T]}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-The adsorbing atom should not be adjacent to an atom that is already adsorbed.
-e.g. this is not allowed:
-
-H2C-O   <-->  H2C*-O
-  | |              |
-  X X           X  X
-""",
-)
-
-forbidden(
     label = "adjacentradical1",
     group = 
 """
