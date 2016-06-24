@@ -2515,19 +2515,6 @@ entry(
 """,
     kinetics = None,
 )
-entry(
-    index = 10010,
-    label = "C/H/Cl3",
-    group = 
-"""
-1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H   u0 {1,S}
-3    Cl  u0 {1,S}
-4    Cl  u0 {1,S}
-5    Cl  u0 {1,S}
-""",
-    kinetics = None,
-)
 
 
 entry(
@@ -6884,7 +6871,6 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                     L6: C/H/MustCl
                         L7: C/H/Cs2Cl
                         L7: C/H/CsCl2
-                        L7: C/H/Cl3
                     L6: C/H/NDMustOS
                         L7: C/H/CsOS
                 L5: C/H/OneDe
