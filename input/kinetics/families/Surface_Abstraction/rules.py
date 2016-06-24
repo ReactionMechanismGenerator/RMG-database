@@ -29,5 +29,21 @@ Ea made up.
     """
 )
 
+entry(
+    index = 1,
+    label = "Abstracting;R-H",
+    kinetics = SurfaceArrhenius(
+        A = (1.0e13, 'm^2/(mol*s)'),
+        n = 0,
+        Ea=(20., 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Made up""",
+    longDesc = u"""
+Totally made up by Richard to demonstrate how to define things in this file.
+    """
+)
 
 
