@@ -952,8 +952,8 @@ entry(
 """
 1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H   u0 {1,S}
-3    H   u0 {1,S}
-4    H   u0 {1,S}
+3    [H,Cl]   u0 {1,S}
+4    [H,Cl]   u0 {1,S}
 5    R!H u0 {1,S}
 """,
     kinetics = None,
