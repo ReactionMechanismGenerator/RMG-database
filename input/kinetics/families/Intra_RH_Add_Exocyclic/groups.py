@@ -2490,7 +2490,7 @@ entry(
     label = "double_bond_intra",
     group = 
 """
-1 *2 Cd u0 {2,D}
+1 *2 CO u0 {2,D}
 2 *3 Od u0 {1,D}
 """,
     kinetics = None,
@@ -2501,7 +2501,7 @@ entry(
     label = "double_bond_intra_H",
     group = 
 """
-1 *2 Cd u0 {2,D} {3,S}
+1 *2 CO u0 {2,D} {3,S}
 2 *3 Od u0 {1,D}
 3    H  u0 {1,S}
 """,
@@ -2513,7 +2513,7 @@ entry(
     label = "double_bond_intra_Nd",
     group = 
 """
-1 *2 Cd     u0 {2,D} {3,S}
+1 *2 CO     u0 {2,D} {3,S}
 2 *3 Od     u0 {1,D}
 3    [Cs,O] u0 {1,S}
 """,
@@ -2525,7 +2525,7 @@ entry(
     label = "double_bond_intra_De",
     group = 
 """
-1 *2 Cd            u0 {2,D} {3,S}
+1 *2 CO            u0 {2,D} {3,S}
 2 *3 Od            u0 {1,D}
 3    [Cd,Ct,Cb,CO] u0 {1,S}
 """,

@@ -130,8 +130,7 @@ entry(
     group = 
 """
 1 * Ss u1 {2,S}
-2   Cd u0 {1,S} {3,D}
-3   Sd u0 {2,D}
+2   CS u0 {1,S}
 """,
     kinetics = None,
 )
@@ -291,8 +290,8 @@ entry(
 1 * C   u1 {2,D} {3,S}
 2   C   u0 {1,D} {4,S} {5,S}
 3   R!H u0 {1,S}
-4   R u0 {2,S}
-5   R u0 {2,S}
+4   R   u0 {2,S}
+5   R   u0 {2,S}
 """,
     kinetics = None,
 )
@@ -305,8 +304,8 @@ entry(
 1 * C      u1 {2,D} {3,S}
 2   C      u0 {1,D} {4,S} {5,S}
 3   [Cs,O] u0 {1,S}
-4   R u0 {2,S}
-5   R u0 {2,S}
+4   R      u0 {2,S}
+5   R      u0 {2,S}
 """,
     kinetics = None,
 )
@@ -319,8 +318,8 @@ entry(
 1 * C             u1 {2,D} {3,S}
 2   C             u0 {1,D} {4,S} {5,S}
 3   [Cd,Ct,Cb,CO] u0 {1,S}
-4   R u0 {2,S}
-5   R u0 {2,S}
+4   R             u0 {2,S}
+5   R             u0 {2,S}
 """,
     kinetics = None,
 )
@@ -333,8 +332,8 @@ entry(
 1 * C  u1 {2,D} {3,S}
 2   C  u0 {1,D} {4,S} {5,S}
 3   Cd u0 {1,S}
-4   R u0 {2,S}
-5   R u0 {2,S}
+4   R  u0 {2,S}
+5   R  u0 {2,S}
 """,
     kinetics = None,
 )
@@ -344,9 +343,9 @@ entry(
     label = "Cd_allenic",
     group = 
 """
-1 * C  u1 {2,D} {3,S}
-2   Cdd  u0 {1,D} 
-3   R u0 {1,S}
+1 * C   u1 {2,D} {3,S}
+2   Cdd u0 {1,D}
+3   R   u0 {1,S}
 """,
     kinetics = None,
 )
@@ -428,9 +427,8 @@ entry(
     label = "C=SJ",
     group = 
 """
-1 * Cd u1 {2,D} {3,S}
-2   Sd u0 {1,D}
-3   R  u0 {1,S}
+1 * CS u1 {2,S}
+2   R  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -440,9 +438,8 @@ entry(
     label = "C=SJ-H",
     group = 
 """
-1 * Cd u1 {2,S} {3,D}
+1 * CS u1 {2,S}
 2   H  u0 {1,S}
-3   Sd u0 {1,D}
 """,
     kinetics = None,
 )
@@ -452,9 +449,8 @@ entry(
     label = "C=SJ-C",
     group = 
 """
-1 * Cd u1 {2,S} {3,D}
+1 * CS u1 {2,S}
 2   C  u0 {1,S}
-3   Sd u0 {1,D}
 """,
     kinetics = None,
 )
@@ -464,9 +460,8 @@ entry(
     label = "C=SJ-Cs",
     group = 
 """
-1 * Cd u1 {2,S} {3,D}
+1 * CS u1 {2,S}
 2   Cs u0 {1,S}
-3   Sd u0 {1,D}
 """,
     kinetics = None,
 )
@@ -476,9 +471,8 @@ entry(
     label = "C=SJ-Ss",
     group = 
 """
-1 * Cd u1 {2,S} {3,D}
+1 * CS u1 {2,S}
 2   Ss u0 {1,S}
-3   Sd u0 {1,D}
 """,
     kinetics = None,
 )
@@ -796,6 +790,21 @@ entry(
 )
 
 entry(
+    index = 66,
+    label = "C_rad_cyclopentadiene",
+    group = 
+"""
+1 * C  u1 {2,S} {3,S} {4,S}
+2   H  u0 {1,S}
+3   Cd u0 {1,S} {5,D}
+4   Cd u0 {1,S} {6,D}
+5   Cd u0 {3,D} {6,S}
+6   Cd u0 {4,D} {5,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 60,
     label = "CsJ-CSH",
     group = 
@@ -867,10 +876,9 @@ entry(
     group = 
 """
 1 * C  u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {5,D}
+2   CS u0 {1,S}
 3   Ss u0 {1,S}
 4   H  u0 {1,S}
-5   Sd u0 {2,D}
 """,
     kinetics = None,
 )
@@ -884,21 +892,6 @@ entry(
 2   Ss u0 {1,S}
 3   Ss u0 {1,S}
 4   H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 66,
-    label = "C_rad_cyclopentadiene",
-    group = 
-"""
-1 * C u1 {2,S} {3,S} {4,S}
-2 H u0 {1,S}
-3 Cd u0 {1,S} {5,D} 
-4 Cd u0 {1,S} {6,D} 
-5 Cd u0 {3,D} {6,S} 
-6 Cd u0 {4,D} {5,S} 
 """,
     kinetics = None,
 )
@@ -1118,10 +1111,9 @@ entry(
     group = 
 """
 1 * C  u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {5,D}
+2   CS u0 {1,S}
 3   Ss u0 {1,S}
 4   Ss u0 {1,S}
-5   Sd u0 {2,D}
 """,
     kinetics = None,
 )
@@ -1199,9 +1191,8 @@ entry(
 """
 1 * C  u1 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S}
-3   Cd u0 {1,S} {5,D}
+3   CS u0 {1,S}
 4   Ss u0 {1,S}
-5   Sd u0 {3,D}
 """,
     kinetics = None,
 )
@@ -1416,22 +1407,6 @@ L1: Y_rad
 )
 
 forbidden(
-    label = "O4",
-    group = 
-"""
-1    O u1 {2,S}
-2 *1 O u0 {1,S} {3,S}
-3 *2 O u0 {2,S} {4,S}
-4    O u1 {3,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
     label = "Cl",
     group = 
 """
@@ -1456,3 +1431,20 @@ u"""
 
 """,
 )
+
+forbidden(
+    label = "O4",
+    group = 
+"""
+1    O u1 {2,S}
+2 *1 O u0 {1,S} {3,S}
+3 *2 O u0 {2,S} {4,S}
+4    O u1 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+

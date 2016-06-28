@@ -2919,14 +2919,12 @@ entry(
     label = "obenzoquinone",
     group = 
 """
-1 * Cd u0 {5,S} {6,S} {8,D}
+1 * CO u0 {5,S} {6,S}
 2   Cd u0 {3,D} {6,S}
 3   Cd u0 {2,D} {4,S}
 4   Cd u0 {3,S} {5,D}
 5   Cd u0 {1,S} {4,D}
-6   Cd u0 {1,S} {2,S} {7,D}
-7   Od u0 {6,D}
-8   Od u0 {1,D}
+6   CO u0 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
