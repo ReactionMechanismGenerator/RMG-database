@@ -1633,41 +1633,6 @@ entry(
     kinetics = None,
 )
 
-entry(
-    index = 10003,
-    label = "C/H2/CsCl",
-    group = 
-"""
-1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H  u0 {1,S}
-3    H  u0 {1,S}
-4    Cl u0 {1,S}
-5    Cs u0 {1,S}
-""",
-    kinetics = None,
-)
-entry(
-    index = 10004,
-    label = "C/H2/Cs\Cs2/Cl",
-    group = 
-"""
-1     C  u0 {2,S} {6,S} {7,S} {8,S}
-2     Cs u0 {1,S} {3,S} {5,S} {9,S}
-3  *1 C  u0 {2,S} {4,S} {10,S} {11,S}
-4     Cl u0 {3,S} 
-5     C  u0 {2,S} {12,S} {13,S} {14,S}
-6     H  u0 {1,S}
-7     H  u0 {1,S}
-8     H  u0 {1,S}
-9     H  u0 {2,S}
-10 *2 H  u0 {3,S}
-11    H  u0 {3,S}
-12    H  u0 {5,S}
-13    H  u0 {5,S}
-14    H  u0 {5,S}
-""",
-    kinetics = None,
-)
 
 
 entry(
@@ -6809,8 +6774,6 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                         L7: C/H2/NonDeC_5ring_beta6ring
                     L6: C/H2/Cs\H3/Cs\H3
                 L5: C/H2/NonDeO
-                    L6: C/H2/CsCl
-                        L7: C/H2/Cs\Cs2/Cl
                     L6: C/H2/CsO
                         L7: C/H2/Cs\Cs2/O
                     L6: C/H2/O2
