@@ -933,6 +933,20 @@ entry(
 
 entry(
     index = 61,
+    label = "C1", # Single carbon atom with 4 bonds to either H or Cl
+    group = 
+"""
+1 *1 C u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H u0 {1,S}
+3    [H,Cl]   u0 {1,S}
+4    [H,Cl]   u0 {1,S}
+5    [H,Cl]   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 610,
     label = "C_methane",
     group = 
 """
@@ -941,6 +955,48 @@ entry(
 3    H u0 {1,S}
 4    H u0 {1,S}
 5    H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 611,
+    label = "CH3Cl",
+    group = 
+"""
+1 *1 C u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H u0 {1,S}
+3    H u0 {1,S}
+4    H u0 {1,S}
+5    Cl u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 612,
+    label = "CH2Cl2",
+    group = 
+"""
+1 *1 C u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H u0 {1,S}
+3    H u0 {1,S}
+4    Cl u0 {1,S}
+5    Cl u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 613,
+    label = "CHCl3",
+    group = 
+"""
+1 *1 C u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H u0 {1,S}
+3    Cl u0 {1,S}
+4    Cl u0 {1,S}
+5    Cl u0 {1,S}
 """,
     kinetics = None,
 )
@@ -959,33 +1015,6 @@ entry(
     kinetics = None,
 )
 
-entry(
-    index = 10000,
-    label = "CpriCl",
-    group = 
-"""
-1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H   u0 {1,S}
-3    H   u0 {1,S}
-4    H   u0 {1,S}
-5    Cl  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 100000,
-    label = "CpriCl3",
-    group = 
-"""
-1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H   u0 {1,S}
-3    Cl   u0 {1,S}
-4    Cl   u0 {1,S}
-5    Cl  u0 {1,S}
-""",
-    kinetics = None,
-)
 entry(
     index = 63,
     label = "C/H3/Cs",
@@ -1414,21 +1443,6 @@ entry(
 3    H   u0 {1,S}
 4    R!H u0 {1,S}
 5    R!H u0 {1,S}
-""",
-    kinetics = None,
-)
-
-
-entry(
-    index = 10001,
-    label = "Csec/Cl2",
-    group = 
-"""
-1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H   u0 {1,S}
-3    H   u0 {1,S}
-4    Cl  u0 {1,S}
-5    Cl  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -6731,10 +6745,12 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                     L6: CS/H/Cd
                     L6: CS/H/CS
         L3: Cs_H
-            L4: C_methane
+            L4: C1
+                L5: C_methane
+                L5: CH3Cl
+                L5: CH2Cl2
+                L5: CHCl3
             L4: C_pri
-                L5: CpriCl
-                L5: CpriCl3
                 L5: C/H3/Cs
                 	L6: C/H3/Cs\Cl3
                     L6: C/H3/Cs\H3
@@ -6762,7 +6778,6 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                 L5: Cs/H3/NonDeN
                 L5: Cs/H3/OneDeN
             L4: C_sec
-                L5: Csec/Cl2
                 L5: C/H2/NonDeC
                     L6: C/H2/Cs/Cl
                     L6: C/H2/Cs/Cs\O

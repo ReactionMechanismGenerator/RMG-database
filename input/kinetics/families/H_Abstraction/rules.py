@@ -46626,7 +46626,7 @@ p-allylic site of iso-butene ref: DOI: 10.1021/jp1062786""",
 
 entry(
     index = 8000,
-    label = "CpriCl;Cl_rad",
+    label = "CH3Cl;Cl_rad",
     kinetics = ArrheniusEP(
         A = (3.30e+13, 'cm^3/(mol*s)'),
         n = 0,
@@ -46657,7 +46657,7 @@ entry(
 
 entry(
     index = 8002,
-    label = "CpriCl3;Cl_rad",
+    label = "CHCl3;Cl_rad",
     kinetics = ArrheniusEP(
         A = (1.99e+13, 'cm^3/(mol*s)'),
         n = 0,
