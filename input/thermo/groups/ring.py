@@ -55,12 +55,12 @@ entry(
     label = "Benzene",
     group = 
 """
-1 Cb u0 {2,B} {6,B}
-2 Cb u0 {1,B} {3,B}
-3 Cb u0 {2,B} {4,B}
-4 Cb u0 {3,B} {5,B}
-5 Cb u0 {4,B} {6,B}
-6 Cb u0 {1,B} {5,B}
+1 * Cb u0 {2,B} {6,B}
+2   Cb u0 {1,B} {3,B}
+3   Cb u0 {2,B} {4,B}
+4   Cb u0 {3,B} {5,B}
+5   Cb u0 {4,B} {6,B}
+6   Cb u0 {1,B} {5,B}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
