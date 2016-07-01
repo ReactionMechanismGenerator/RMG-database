@@ -1028,6 +1028,21 @@ entry(
 """,
     kinetics = None,
 )
+
+entry(
+    index = 631,
+    label = "C/H2Cl/Cs",
+    group = 
+"""
+1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  u0 {1,S}
+3    H  u0 {1,S}
+4    Cl  u0 {1,S}
+5    Cs u0 {1,S}
+""",
+    kinetics = None,
+)
+
 entry(
     index = 64,
     label = "C/H3/Cs\Cl3",
@@ -6754,9 +6769,7 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                 L5: C/H3/Cs
                 	L6: C/H3/Cs\Cl3
                     L6: C/H3/Cs\H3
-                    L6:C/H3/Cs\H2Cl
-                    L6:C/H2Cl/Cs\H3
-                    L6:C/H2Cl/Cs\H2Cl
+                    L6: C/H3/Cs\H2Cl
                     L6: C/H3/Cs\OneNonDe
                         L7: C/H3/Cs\H2\Cs
                             L8: C/H3/Cs\H2\Cs|O
@@ -6764,6 +6777,9 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                     L6: C/H3/Cs\TwoNonDe
                         L7: C/H3/Cs\H\Cs\O
                         L7: C/H3/Cs\H\Cs\Cs|O
+                L5: C/H2Cl/Cs
+                    L6:C/H2Cl/Cs\H3
+                    L6:C/H2Cl/Cs\H2Cl
                 L5: C/H3/O
                 L5: C/H3/S
                 L5: C/H3/OneDe
