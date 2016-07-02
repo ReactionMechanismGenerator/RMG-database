@@ -377,6 +377,39 @@ entry(
 )
 
 entry(
+    index = 189,
+    label = "O_atom_triplet",
+    group = 
+"""
+1 *3 O u2
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 190,
+    label = "CH2_triplet",
+    group = 
+"""
+1 *3 Cs u2 {2,S} {3,S}
+2    H  u0 {1,S}
+3    H  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 422,
+    label = "NH_triplet",
+    group = 
+"""
+1 *3 N3s u2 {2,S}
+2    H   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 191,
     label = "Y_rad",
     group = 
@@ -631,6 +664,9 @@ L1: Y_rad_birad_trirad_quadrad
         L3: C_H_Cl_quartet
         L3: C_H_Cl_doublet
     L2: Y_1centerbirad
+        L3: O_atom_triplet
+        L3: CH2_triplet
+        L3: NH_triplet
     L2: Y_rad
         L3: H_rad
         L3: Cl_rad
