@@ -2423,45 +2423,6 @@ entry(
 
 
 
-entry(
-    index = 10007,
-    label = "C/H/MustCl",
-    group = 
-"""
-1 *1 C      u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H      u0 {1,S}
-3    Cl      u0 {1,S}
-4    [Cs,Cl] u0 {1,S}
-5    [Cs,Cl] u0 {1,S}
-""",
-    kinetics = None,
-)
-entry(
-    index = 10008,
-    label = "C/H/Cs2Cl",
-    group = 
-"""
-1 *1 C      u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H      u0 {1,S}
-3    Cl     u0 {1,S}
-4    Cs     u0 {1,S}
-5    Cs     u0 {1,S}
-""",
-    kinetics = None,
-)
-entry(
-    index = 10009,
-    label = "C/H/CsCl2",
-    group = 
-"""
-1 *1 C      u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H      u0 {1,S}
-3    Cl     u0 {1,S}
-4    Cl     u0 {1,S}
-5    Cs     u0 {1,S}
-""",
-    kinetics = None,
-)
 
 
 entry(
@@ -6812,9 +6773,6 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                         L7: C/H/Cs2S
                         L7: C/H/CsS2
                         L7: C/H/S3
-                    L6: C/H/MustCl
-                        L7: C/H/Cs2Cl
-                        L7: C/H/CsCl2
                     L6: C/H/NDMustOS
                         L7: C/H/CsOS
                 L5: C/H/OneDe
