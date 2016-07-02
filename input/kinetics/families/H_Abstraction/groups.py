@@ -2551,19 +2551,6 @@ entry(
     kinetics = None,
 )
 
-entry(
-    index = 10011,
-    label = "C/H/CsClCt",
-    group = 
-"""
-1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H  u0 {1,S}
-3    Ct u0 {1,S}
-4    Cs u0 {1,S}
-5    Cl u0 {1,S}
-""",
-    kinetics = None,
-)
 
 entry(
     index = 151,
@@ -2608,20 +2595,6 @@ entry(
     kinetics = None,
 )
 
-entry(
-    index = 10012,
-    label = "C/H/CsClCd",
-    group = 
-"""
-1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H  u0 {1,S}
-3    Cd u0 {1,S} {6,D}
-4    Cs u0 {1,S}
-5    Cl u0 {1,S}
-6    C  u0 {3,D}
-""",
-    kinetics = None,
-)
 
 entry(
     index = 154,
@@ -2807,19 +2780,7 @@ entry(
 """,
     kinetics = None,
 )
-entry(
-    index = 10013,
-    label = "C/H/CtCtCl",
-    group = 
-"""
-1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H  u0 {1,S}
-3    Ct u0 {1,S}
-4    Ct u0 {1,S}
-5    Cl u0 {1,S}
-""",
-    kinetics = None,
-)
+
 
 entry(
     index = 167,
@@ -6778,11 +6739,9 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                 L5: C/H/OneDe
                     L6: C/H/Cs2
                         L7: C/H/Cs2Ct
-                        L7: C/H/CsClCt
                         L7: C/H/Cs2Cb
                         L7: C/H/Cs2CO
                         L7: C/H/Cs2Cd
-                        L7: C/H/CsClCd
                         L7: C/H/Cs2CS
                     L6: C/H/CsO
                     L6: C/H/CsS
@@ -6796,7 +6755,6 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                 L5: C/H/TwoDe
                     L6: C/H/Cs
                         L7: C/H/CtCt
-                        L7: C/H/CtCtCl
                         L7: C/H/CtCb
                         L7: C/H/CtCO
                         L7: C/H/CbCb
