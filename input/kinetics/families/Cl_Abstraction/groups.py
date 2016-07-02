@@ -639,6 +639,7 @@ L1: Y_rad_birad_trirad_quadrad
             L4: O_pri_rad
             L4: O_sec_rad
         L3: Cs_rad
+        L3: Cd_rad
             
 """
 )
