@@ -1856,40 +1856,6 @@ entry(
     kinetics = None,
 )
 
-
-entry(
-    index = 10005,
-    label = "C/H2/CdCl",
-    group = 
-"""
-1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H  u0 {1,S}
-3    H  u0 {1,S}
-4    Cd u0 {1,S} {6,D}
-5    Cl  u0 {1,S}
-6    Cd  u0 {4,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10006,
-    label = "C/H2/Cd\H_Cd\H2/Cl",
-    group = 
-"""
-1     Cl u0 {2,S} 
-2  *1 C  u0 {1,S} {3,S} {5,S} {6,S}
-3     Cd u0 {2,S} {4,D} {7,S}
-4     Cd  u0 {3,D} {8,S} {9,S}
-5  *2 H  u0 {2,S}
-6     H  u0 {2,S}
-7     H  u0 {3,S}
-8     H  u0 {4,S}
-9     H  u0 {4,S}
-""",
-    kinetics = None,
-)
-
 entry(
     index = 107,
     label = "C/H2/CSCs",
@@ -6805,8 +6771,6 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                             L8: C/H2/CO\H/Cs\H3
                         L7: C/H2/CdCs
                             L8: C/H2/Cd\H_Cd\H2/Cs\H3
-                        L7: C/H2/CdCl
-                            L8: C/H2/Cd\H_Cd\H2/Cl
                         L7: C/H2/CSCs
                     L6: C/H2/OneDeO
                     L6: C/H2/OneDeS
