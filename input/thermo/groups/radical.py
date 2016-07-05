@@ -465,30 +465,6 @@ u"""
 )
 
 entry(
-    index = 143,
-    label = "cyclobutane",
-    group = 
-"""
-1 * Cs u1 {2,S} {4,S} {5,S}
-2   Cs u0 {1,S} {3,S}
-3   Cs u0 {2,S} {4,S}
-4   Cs u0 {1,S} {3,S}
-5   H  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (96.9,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Tian, Z.; Fattahi, A.; Lis, L.; Kass, S. R., "Cycloalkane and Cycloalkene C-H Bond Dissociation Energies," J. Am. Chem. Soc. 2006, 128, 17087-17092, DOI: 10.1021/ja065348u. S, Cp copied from CCJC entry""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 152,
     label = "bicyclo[1.1.0]butane-secondary",
     group = 
@@ -513,31 +489,6 @@ u"""
 )
 
 entry(
-    index = 23,
-    label = "CCJCOOH",
-    group = 
-"""
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cs u0 {1,S} {5,S}
-3   Cs u0 {1,S}
-4   H  u0 {1,S}
-5   O  u0 {2,S} {6,S}
-6   O  u0 {5,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.65,-1.4,-2,-2.5,-3.27,-3.84,-4.73],'cal/(mol*K)'),
-        H298 = (99.98,'kcal/mol'),
-        S298 = (4.79,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""WIJAYA et al.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 151,
     label = "spiro[2.2]pentane-secondary",
     group = 
@@ -553,31 +504,6 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
         H298 = (107.3,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 153,
-    label = "bicyclo[2.1.0]pentane-secondary-C4",
-    group = 
-"""
-1   Cs u0 {2,S} {3,S} {5,S}
-2   Cs u0 {1,S} {3,S} {4,S}
-3   Cs u0 {1,S} {2,S}
-4   Cs u0 {2,S} {5,S}
-5 * Cs u1 {1,S} {4,S} {6,S}
-6   H  u0 {5,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (99.7,'kcal/mol','+|-',0.2),
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
@@ -613,31 +539,6 @@ u"""
 )
 
 entry(
-    index = 179,
-    label = "cyclopentene-4",
-    group = 
-"""
-1 * Cs u1 {2,S} {3,S} {6,S}
-2   Cs u0 {1,S} {5,S}
-3   Cs u0 {1,S} {4,S}
-4   C  u0 {3,S} {5,D}
-5   C  u0 {2,S} {4,D}
-6   H  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (96.7,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Allyl_S""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 185,
     label = "bicyclo[2.1.0]pent-2-ene-C5",
     group = 
@@ -663,21 +564,22 @@ u"""
 )
 
 entry(
-    index = 196,
-    label = "bicyclo[1.1.1]pentane-C2",
+    index = 190,
+    label = "tricyclo[2.1.1.0(1,4)]hex-2-ene-C5",
     group = 
 """
-1   Cs u0 {3,S} {4,S} {5,S}
-2   Cs u0 {3,S} {4,S} {5,S}
-3 * Cs u1 {1,S} {2,S} {6,S}
+1   Cs u0 {2,S} {3,S} {4,S} {6,S}
+2   Cs u0 {1,S} {3,S} {4,S} {5,S}
+3 * Cs u1 {1,S} {2,S} {7,S}
 4   C  u0 {1,S} {2,S}
-5   C  u0 {1,S} {2,S}
-6   H  u0 {3,S}
+5   C  u0 {2,S} {6,D}
+6   C  u0 {1,S} {5,D}
+7   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (106.5,'kcal/mol','+|-',0.2),
+        H298 = (105.2,'kcal/mol','+|-',0.2),
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
@@ -703,6 +605,369 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
         H298 = (111.5,'kcal/mol','+|-',0.2),
+        S298 = (4.51,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 157,
+    label = "bicyclo[3.1.0]hexane-C3",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {5,S}
+2   Cs u0 {1,S} {3,S} {4,S}
+3 * Cs u1 {1,S} {2,S} {7,S}
+4   Cs u0 {2,S} {6,S}
+5   Cs u0 {1,S} {6,S}
+6   Cs u0 {4,S} {5,S}
+7   H  u0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
+        H298 = (108.3,'kcal/mol','+|-',0.2),
+        S298 = (4.51,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 202,
+    label = "tricyclo[2.1.1.0(1,4)]hexane-C5",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {6,S}
+2   Cs u0 {1,S} {3,S} {4,S} {5,S}
+3 * Cs u1 {1,S} {2,S} {7,S}
+4   C  u0 {1,S} {2,S}
+5   C  u0 {2,S} {6,S}
+6   C  u0 {1,S} {5,S}
+7   H  u0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
+        H298 = (103.4,'kcal/mol','+|-',0.2),
+        S298 = (4.51,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 172,
+    label = "bicyclo[4.1.0]heptane-C3-7",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {5,S}
+2   Cs u0 {1,S} {3,S} {4,S}
+3 * Cs u1 {1,S} {2,S} {8,S}
+4   C  u0 {2,S} {6,S}
+5   C  u0 {1,S} {7,S}
+6   C  u0 {4,S} {7,S}
+7   C  u0 {5,S} {6,S}
+8   H  u0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
+        H298 = (108.1,'kcal/mol','+|-',0.2),
+        S298 = (4.51,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 172,
+    label = "bicyclo[4.1.0]heptane-C3-7",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {5,S}
+2   Cs u0 {1,S} {3,S} {4,S}
+3 * Cs u1 {1,S} {2,S} {8,S}
+4   C  u0 {2,S} {6,S}
+5   C  u0 {1,S} {7,S}
+6   C  u0 {4,S} {7,S}
+7   C  u0 {5,S} {6,S}
+8   H  u0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
+        H298 = (108.1,'kcal/mol','+|-',0.2),
+        S298 = (4.51,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 209,
+    label = "tricyclo[3.1.1.0(1,5)]heptane-C6",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {6,S}
+2   Cs u0 {1,S} {3,S} {4,S} {5,S}
+3 * Cs u1 {1,S} {2,S} {8,S}
+4   C  u0 {1,S} {2,S}
+5   C  u0 {2,S} {7,S}
+6   C  u0 {1,S} {7,S}
+7   C  u0 {5,S} {6,S}
+8   H  u0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
+        H298 = (100,'kcal/mol','+|-',0.2),
+        S298 = (4.51,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 211,
+    label = "tricyclo[2.2.1.0(1,4)]heptane-C7",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {5,S} {7,S}
+2   Cs u0 {1,S} {3,S} {4,S} {6,S}
+3 * Cs u1 {1,S} {2,S} {8,S}
+4   C  u0 {2,S} {5,S}
+5   C  u0 {1,S} {4,S}
+6   C  u0 {2,S} {7,S}
+7   C  u0 {1,S} {6,S}
+8   H  u0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
+        H298 = (106.7,'kcal/mol','+|-',0.2),
+        S298 = (4.51,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 143,
+    label = "cyclobutane",
+    group = 
+"""
+1 * Cs u1 {2,S} {4,S} {5,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {1,S} {3,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
+        H298 = (96.9,'kcal/mol','+|-',0.2),
+        S298 = (4.51,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Tian, Z.; Fattahi, A.; Lis, L.; Kass, S. R., "Cycloalkane and Cycloalkene C-H Bond Dissociation Energies," J. Am. Chem. Soc. 2006, 128, 17087-17092, DOI: 10.1021/ja065348u. S, Cp copied from CCJC entry""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 153,
+    label = "bicyclo[2.1.0]pentane-secondary-C4",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {5,S}
+2   Cs u0 {1,S} {3,S} {4,S}
+3   Cs u0 {1,S} {2,S}
+4   Cs u0 {2,S} {5,S}
+5 * Cs u1 {1,S} {4,S} {6,S}
+6   H  u0 {5,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
+        H298 = (99.7,'kcal/mol','+|-',0.2),
+        S298 = (4.51,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 158,
+    label = "bicyclo[2.2.0]hexane-secondary",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {6,S}
+2   Cs u0 {1,S} {4,S} {5,S}
+3 * Cs u1 {1,S} {4,S} {7,S}
+4   Cs u0 {2,S} {3,S}
+5   Cs u0 {2,S} {6,S}
+6   Cs u0 {1,S} {5,S}
+7   H  u0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
+        H298 = (98.6,'kcal/mol','+|-',0.2),
+        S298 = (4.51,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 161,
+    label = "bicyclo[3.2.0]heptane-C5-6",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {6,S}
+2   Cs u0 {1,S} {4,S} {5,S}
+3 * Cs u1 {1,S} {4,S} {8,S}
+4   Cs u0 {2,S} {3,S}
+5   Cs u0 {2,S} {7,S}
+6   Cs u0 {1,S} {7,S}
+7   Cs u0 {5,S} {6,S}
+8   H  u0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
+        H298 = (99,'kcal/mol','+|-',0.2),
+        S298 = (4.51,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 23,
+    label = "CCJCOOH",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cs u0 {1,S} {5,S}
+3   Cs u0 {1,S}
+4   H  u0 {1,S}
+5   O  u0 {2,S} {6,S}
+6   O  u0 {5,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.65,-1.4,-2,-2.5,-3.27,-3.84,-4.73],'cal/(mol*K)'),
+        H298 = (99.98,'kcal/mol'),
+        S298 = (4.79,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""WIJAYA et al.""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 179,
+    label = "cyclopentene-4",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {6,S}
+2   Cs u0 {1,S} {5,S}
+3   Cs u0 {1,S} {4,S}
+4   C  u0 {3,S} {5,D}
+5   C  u0 {2,S} {4,D}
+6   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
+        H298 = (96.7,'kcal/mol','+|-',0.2),
+        S298 = (4.51,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Allyl_S""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 188,
+    label = "bicyclo[2.1.1]hex-2-ene-C5",
+    group = 
+"""
+1   Cs u0 {3,S} {4,S} {6,S}
+2   Cs u0 {3,S} {4,S} {5,S}
+3 * Cs u1 {1,S} {2,S} {7,S}
+4   C  u0 {1,S} {2,S}
+5   C  u0 {2,S} {6,D}
+6   C  u0 {1,S} {5,D}
+7   H  u0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
+        H298 = (104.8,'kcal/mol','+|-',0.2),
+        S298 = (4.51,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 196,
+    label = "bicyclo[1.1.1]pentane-C2",
+    group = 
+"""
+1   Cs u0 {3,S} {4,S} {5,S}
+2   Cs u0 {3,S} {4,S} {5,S}
+3 * Cs u1 {1,S} {2,S} {6,S}
+4   C  u0 {1,S} {2,S}
+5   C  u0 {1,S} {2,S}
+6   H  u0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
+        H298 = (106.5,'kcal/mol','+|-',0.2),
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
@@ -766,110 +1031,6 @@ u"""
 )
 
 entry(
-    index = 157,
-    label = "bicyclo[3.1.0]hexane-C3",
-    group = 
-"""
-1   Cs u0 {2,S} {3,S} {5,S}
-2   Cs u0 {1,S} {3,S} {4,S}
-3 * Cs u1 {1,S} {2,S} {7,S}
-4   Cs u0 {2,S} {6,S}
-5   Cs u0 {1,S} {6,S}
-6   Cs u0 {4,S} {5,S}
-7   H  u0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (108.3,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 158,
-    label = "bicyclo[2.2.0]hexane-secondary",
-    group = 
-"""
-1   Cs u0 {2,S} {3,S} {6,S}
-2   Cs u0 {1,S} {4,S} {5,S}
-3 * Cs u1 {1,S} {4,S} {7,S}
-4   Cs u0 {2,S} {3,S}
-5   Cs u0 {2,S} {6,S}
-6   Cs u0 {1,S} {5,S}
-7   H  u0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (98.6,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 188,
-    label = "bicyclo[2.1.1]hex-2-ene-C5",
-    group = 
-"""
-1   Cs u0 {3,S} {4,S} {6,S}
-2   Cs u0 {3,S} {4,S} {5,S}
-3 * Cs u1 {1,S} {2,S} {7,S}
-4   C  u0 {1,S} {2,S}
-5   C  u0 {2,S} {6,D}
-6   C  u0 {1,S} {5,D}
-7   H  u0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (104.8,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 190,
-    label = "tricyclo[2.1.1.0(1,4)]hex-2-ene-C5",
-    group = 
-"""
-1   Cs u0 {2,S} {3,S} {4,S} {6,S}
-2   Cs u0 {1,S} {3,S} {4,S} {5,S}
-3 * Cs u1 {1,S} {2,S} {7,S}
-4   C  u0 {1,S} {2,S}
-5   C  u0 {2,S} {6,D}
-6   C  u0 {1,S} {5,D}
-7   H  u0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (105.2,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 199,
     label = "bicyclo[2.1.1]hexane-C2",
     group = 
@@ -886,32 +1047,6 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
         H298 = (100.8,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 200,
-    label = "bicyclo[2.1.1]hexane-C5",
-    group = 
-"""
-1   Cs u0 {3,S} {4,S} {6,S}
-2   Cs u0 {3,S} {4,S} {5,S}
-3 * Cs u1 {1,S} {2,S} {7,S}
-4   C  u0 {1,S} {2,S}
-5   C  u0 {2,S} {6,S}
-6   C  u0 {1,S} {5,S}
-7   H  u0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (105.4,'kcal/mol','+|-',0.2),
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
@@ -948,12 +1083,12 @@ u"""
 )
 
 entry(
-    index = 202,
-    label = "tricyclo[2.1.1.0(1,4)]hexane-C5",
+    index = 200,
+    label = "bicyclo[2.1.1]hexane-C5",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {6,S}
-2   Cs u0 {1,S} {3,S} {4,S} {5,S}
+1   Cs u0 {3,S} {4,S} {6,S}
+2   Cs u0 {3,S} {4,S} {5,S}
 3 * Cs u1 {1,S} {2,S} {7,S}
 4   C  u0 {1,S} {2,S}
 5   C  u0 {2,S} {6,S}
@@ -963,7 +1098,7 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (103.4,'kcal/mol','+|-',0.2),
+        H298 = (105.4,'kcal/mol','+|-',0.2),
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
@@ -1110,33 +1245,6 @@ u"""
 )
 
 entry(
-    index = 161,
-    label = "bicyclo[3.2.0]heptane-C5-6",
-    group = 
-"""
-1   Cs u0 {2,S} {3,S} {6,S}
-2   Cs u0 {1,S} {4,S} {5,S}
-3 * Cs u1 {1,S} {4,S} {8,S}
-4   Cs u0 {2,S} {3,S}
-5   Cs u0 {2,S} {7,S}
-6   Cs u0 {1,S} {7,S}
-7   Cs u0 {5,S} {6,S}
-8   H  u0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (99,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 170,
     label = "bicyclo[4.1.0]heptane-C6-2",
     group = 
@@ -1191,33 +1299,6 @@ u"""
 )
 
 entry(
-    index = 172,
-    label = "bicyclo[4.1.0]heptane-C3-7",
-    group = 
-"""
-1   Cs u0 {2,S} {3,S} {5,S}
-2   Cs u0 {1,S} {3,S} {4,S}
-3 * Cs u1 {1,S} {2,S} {8,S}
-4   C  u0 {2,S} {6,S}
-5   C  u0 {1,S} {7,S}
-6   C  u0 {4,S} {7,S}
-7   C  u0 {5,S} {6,S}
-8   H  u0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (108.1,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 170,
     label = "bicyclo[4.1.0]heptane-C6-2",
     group = 
@@ -1262,33 +1343,6 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
         H298 = (97.6,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 172,
-    label = "bicyclo[4.1.0]heptane-C3-7",
-    group = 
-"""
-1   Cs u0 {2,S} {3,S} {5,S}
-2   Cs u0 {1,S} {3,S} {4,S}
-3 * Cs u1 {1,S} {2,S} {8,S}
-4   C  u0 {2,S} {6,S}
-5   C  u0 {1,S} {7,S}
-6   C  u0 {4,S} {7,S}
-7   C  u0 {5,S} {6,S}
-8   H  u0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (108.1,'kcal/mol','+|-',0.2),
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
@@ -1326,60 +1380,6 @@ u"""
 )
 
 entry(
-    index = 205,
-    label = "bicyclo[3.1.1]heptane-C3",
-    group = 
-"""
-1   C  u0 {3,S} {4,S} {6,S}
-2   C  u0 {3,S} {4,S} {5,S}
-3   C  u0 {1,S} {2,S}
-4   C  u0 {1,S} {2,S}
-5   Cs u0 {2,S} {7,S}
-6   Cs u0 {1,S} {7,S}
-7 * Cs u1 {5,S} {6,S} {8,S}
-8   H  u0 {7,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (97.3,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 206,
-    label = "bicyclo[3.1.1]heptane-C6",
-    group = 
-"""
-1   Cs u0 {3,S} {4,S} {6,S}
-2   Cs u0 {3,S} {4,S} {5,S}
-3 * Cs u1 {1,S} {2,S} {8,S}
-4   C  u0 {1,S} {2,S}
-5   C  u0 {2,S} {7,S}
-6   C  u0 {1,S} {7,S}
-7   C  u0 {5,S} {6,S}
-8   H  u0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (103,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 207,
     label = "tricyclo[3.1.1.0(1,5)]heptane-C2",
     group = 
@@ -1397,6 +1397,33 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
         H298 = (98.5,'kcal/mol','+|-',0.2),
+        S298 = (4.51,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 205,
+    label = "bicyclo[3.1.1]heptane-C3",
+    group = 
+"""
+1   C  u0 {3,S} {4,S} {6,S}
+2   C  u0 {3,S} {4,S} {5,S}
+3   C  u0 {1,S} {2,S}
+4   C  u0 {1,S} {2,S}
+5   Cs u0 {2,S} {7,S}
+6   Cs u0 {1,S} {7,S}
+7 * Cs u1 {5,S} {6,S} {8,S}
+8   H  u0 {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
+        H298 = (97.3,'kcal/mol','+|-',0.2),
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
@@ -1434,12 +1461,12 @@ u"""
 )
 
 entry(
-    index = 209,
-    label = "tricyclo[3.1.1.0(1,5)]heptane-C6",
+    index = 206,
+    label = "bicyclo[3.1.1]heptane-C6",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {6,S}
-2   Cs u0 {1,S} {3,S} {4,S} {5,S}
+1   Cs u0 {3,S} {4,S} {6,S}
+2   Cs u0 {3,S} {4,S} {5,S}
 3 * Cs u1 {1,S} {2,S} {8,S}
 4   C  u0 {1,S} {2,S}
 5   C  u0 {2,S} {7,S}
@@ -1450,7 +1477,7 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (100,'kcal/mol','+|-',0.2),
+        H298 = (103,'kcal/mol','+|-',0.2),
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
@@ -1478,33 +1505,6 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
         H298 = (96.8,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 211,
-    label = "tricyclo[2.2.1.0(1,4)]heptane-C7",
-    group = 
-"""
-1   Cs u0 {2,S} {3,S} {5,S} {7,S}
-2   Cs u0 {1,S} {3,S} {4,S} {6,S}
-3 * Cs u1 {1,S} {2,S} {8,S}
-4   C  u0 {2,S} {5,S}
-5   C  u0 {1,S} {4,S}
-6   C  u0 {2,S} {7,S}
-7   C  u0 {1,S} {6,S}
-8   H  u0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (106.7,'kcal/mol','+|-',0.2),
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
@@ -1880,6 +1880,31 @@ u"""
 )
 
 entry(
+    index = 26,
+    label = "Indenyl",
+    group = 
+"""
+1 * Cs u1 {2,S} {5,S} {6,S}
+2   Cb u0 {1,S} {3,B}
+3   Cb u0 {2,B} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {1,S} {4,D}
+6   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.36,-0.72,-1.23,-1.77,-2.7,-3.43,-4.54],'cal/(mol*K)'),
+        H298 = (81.62,'kcal/mol'),
+        S298 = (0.69,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""A.G. Vandeputte CBS-QB3""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 25,
     label = "Allyl_S",
     group = 
@@ -1901,32 +1926,6 @@ u"""
 
 """,
 )
-
-entry(
-    index = 26,
-    label = "Indenyl",
-    group = 
-"""
-1  * Cs u1 {2,S} {5,S} {6,S}
-2    Cb u0 {1,S} {3,B}
-3    Cb u0 {2,B} {4,S}
-4    Cd u0 {3,S} {5,D}
-5    Cd u0 {4,D} {1,S}
-6    H u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-.36, -.72,-1.23,-1.77,-2.7,-3.43,-4.54],'cal/(mol*K)'),
-        H298 = (81.62,'kcal/mol'),
-        S298 = (0.69,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""A.G. Vandeputte CBS-QB3""",
-    longDesc = 
-u"""
-
-""",
-)
-
 
 entry(
     index = 147,
@@ -1976,7 +1975,7 @@ u"""
 
 """,
 )
-1.54
+
 entry(
     index = 149,
     label = "cyclohexene-allyl",
@@ -4437,116 +4436,6 @@ u"""
 )
 
 entry(
-    index = -1,
-    label = "C=SJ",
-    group = 
-"""
-1 * CS u1
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 258,
-    label = "C=SJ-H",
-    group = 
-"""
-1 * CS u1 {2,S}
-2   H  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.31,-0.88,-1.47,-1.99,-2.85,-3.49,-4.52],'cal/(mol*K)'),
-        H298 = (92.39,'kcal/mol'),
-        S298 = (-0.14,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=SJ-C",
-    group = 
-"""
-1 * CS u1 {2,S}
-2   C  u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 259,
-    label = "C=SJ-Cs",
-    group = 
-"""
-1 * CS u1 {2,S}
-2   Cs u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.2,-1.8,-2.25,-2.63,-3.24,-3.74,-4.64],'cal/(mol*K)'),
-        H298 = (91.94,'kcal/mol'),
-        S298 = (0.65,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 260,
-    label = "C=SJ-Cd",
-    group = 
-"""
-1 * CS u1 {2,S}
-2   Cd u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.21,-1.76,-2.24,-2.65,-3.3,-3.81,-4.67],'cal/(mol*K)'),
-        H298 = (77.87,'kcal/mol'),
-        S298 = (0.48,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=SJ-Ss",
-    group = 
-"""
-1 * CS u1 {2,S}
-2   Ss u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 74,
     label = "Cds_P",
     group = 
@@ -4659,30 +4548,6 @@ u"""
 )
 
 entry(
-    index = 181,
-    label = "1,3-cyclopentadiene-vinyl-2",
-    group = 
-"""
-1   C  u0 {2,S} {3,S}
-2   Cd u0 {1,S} {4,D}
-3   Cd u0 {1,S} {5,D}
-4 * Cd u1 {2,D} {5,S}
-5   Cd u0 {3,D} {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.34,-1.21,-1.94,-2.52,-3.34,-3.91,-4.76],'cal/(mol*K)'),
-        H298 = (116.2,'kcal/mol'),
-        S298 = (1.81,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 193,
     label = "bicyclo[2.2.0]hexa-1(4),2,5-triene-C2",
     group = 
@@ -4698,6 +4563,30 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-0.34,-1.21,-1.94,-2.52,-3.34,-3.91,-4.76],'cal/(mol*K)'),
         H298 = (102.9,'kcal/mol'),
+        S298 = (1.81,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 181,
+    label = "1,3-cyclopentadiene-vinyl-2",
+    group = 
+"""
+1   C  u0 {2,S} {3,S}
+2   Cd u0 {1,S} {4,D}
+3   Cd u0 {1,S} {5,D}
+4 * Cd u1 {2,D} {5,S}
+5   Cd u0 {3,D} {4,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.34,-1.21,-1.94,-2.52,-3.34,-3.91,-4.76],'cal/(mol*K)'),
+        H298 = (116.2,'kcal/mol'),
         S298 = (1.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
@@ -4753,54 +4642,6 @@ u"""
 )
 
 entry(
-    index = 178,
-    label = "cyclopentene-vinyl",
-    group = 
-"""
-1   C  u0 {2,S} {3,S}
-2   C  u0 {1,S} {5,S}
-3   C  u0 {1,S} {4,S}
-4 * Cd u1 {3,S} {5,D}
-5   C  u0 {2,S} {4,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.34,-1.21,-1.94,-2.52,-3.34,-3.91,-4.76],'cal/(mol*K)'),
-        H298 = (113.7,'kcal/mol'),
-        S298 = (1.81,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 180,
-    label = "1,3-cyclopentadiene-vinyl-1",
-    group = 
-"""
-1   C  u0 {2,S} {3,S}
-2 * Cd u1 {1,S} {4,D}
-3   C  u0 {1,S} {5,D}
-4   C  u0 {2,D} {5,S}
-5   C  u0 {3,D} {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.34,-1.21,-1.94,-2.52,-3.34,-3.91,-4.76],'cal/(mol*K)'),
-        H298 = (116.9,'kcal/mol'),
-        S298 = (1.81,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 184,
     label = "bicyclo[2.1.0]pent-2-ene-C2",
     group = 
@@ -4815,31 +4656,6 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-0.34,-1.21,-1.94,-2.52,-3.34,-3.91,-4.76],'cal/(mol*K)'),
         H298 = (109.8,'kcal/mol'),
-        S298 = (1.81,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 187,
-    label = "bicyclo[2.1.1]hex-2-ene-C2",
-    group = 
-"""
-1   C  u0 {3,S} {4,S} {6,S}
-2   C  u0 {3,S} {4,S} {5,S}
-3   C  u0 {1,S} {2,S}
-4   C  u0 {1,S} {2,S}
-5 * Cd u1 {2,S} {6,D}
-6   C  u0 {1,S} {5,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.34,-1.21,-1.94,-2.52,-3.34,-3.91,-4.76],'cal/(mol*K)'),
-        H298 = (115.9,'kcal/mol'),
         S298 = (1.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
@@ -4890,6 +4706,79 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-0.34,-1.21,-1.94,-2.52,-3.34,-3.91,-4.76],'cal/(mol*K)'),
         H298 = (111.6,'kcal/mol'),
+        S298 = (1.81,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 178,
+    label = "cyclopentene-vinyl",
+    group = 
+"""
+1   C  u0 {2,S} {3,S}
+2   C  u0 {1,S} {5,S}
+3   C  u0 {1,S} {4,S}
+4 * Cd u1 {3,S} {5,D}
+5   C  u0 {2,S} {4,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.34,-1.21,-1.94,-2.52,-3.34,-3.91,-4.76],'cal/(mol*K)'),
+        H298 = (113.7,'kcal/mol'),
+        S298 = (1.81,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 187,
+    label = "bicyclo[2.1.1]hex-2-ene-C2",
+    group = 
+"""
+1   C  u0 {3,S} {4,S} {6,S}
+2   C  u0 {3,S} {4,S} {5,S}
+3   C  u0 {1,S} {2,S}
+4   C  u0 {1,S} {2,S}
+5 * Cd u1 {2,S} {6,D}
+6   C  u0 {1,S} {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.34,-1.21,-1.94,-2.52,-3.34,-3.91,-4.76],'cal/(mol*K)'),
+        H298 = (115.9,'kcal/mol'),
+        S298 = (1.81,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 180,
+    label = "1,3-cyclopentadiene-vinyl-1",
+    group = 
+"""
+1   C  u0 {2,S} {3,S}
+2 * Cd u1 {1,S} {4,D}
+3   C  u0 {1,S} {5,D}
+4   C  u0 {2,D} {5,S}
+5   C  u0 {3,D} {4,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.34,-1.21,-1.94,-2.52,-3.34,-3.91,-4.76],'cal/(mol*K)'),
+        H298 = (116.9,'kcal/mol'),
         S298 = (1.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
@@ -4975,6 +4864,116 @@ entry(
         S298 = (1.48,'cal/(mol*K)'),
     ),
     shortDesc = u"""BDE from TSANG, S and Cp from THERM""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=SJ",
+    group = 
+"""
+1 * CS u1
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=SJ-Ss",
+    group = 
+"""
+1 * CS u1 {2,S}
+2   Ss u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 258,
+    label = "C=SJ-H",
+    group = 
+"""
+1 * CS u1 {2,S}
+2   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.31,-0.88,-1.47,-1.99,-2.85,-3.49,-4.52],'cal/(mol*K)'),
+        H298 = (92.39,'kcal/mol'),
+        S298 = (-0.14,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=SJ-C",
+    group = 
+"""
+1 * CS u1 {2,S}
+2   C  u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 260,
+    label = "C=SJ-Cd",
+    group = 
+"""
+1 * CS u1 {2,S}
+2   Cd u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.21,-1.76,-2.24,-2.65,-3.3,-3.81,-4.67],'cal/(mol*K)'),
+        H298 = (77.87,'kcal/mol'),
+        S298 = (0.48,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 259,
+    label = "C=SJ-Cs",
+    group = 
+"""
+1 * CS u1 {2,S}
+2   Cs u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.2,-1.8,-2.25,-2.63,-3.24,-3.74,-4.64],'cal/(mol*K)'),
+        H298 = (91.94,'kcal/mol'),
+        S298 = (0.65,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -5843,27 +5842,6 @@ u"""
 )
 
 entry(
-    index = 128,
-    label = "CO",
-    group = 
-"""
-1 * C u0 p1 {2,T}
-2   O u0 p1 {1,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.5,-2.38,-3.32,-4.24,-5.75,-6.88,-8.59],'cal/(mol*K)'),
-        H298 = (103.73,'kcal/mol'),
-        S298 = (-6.47,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Value for carbon monoxide calculated in relation to formaldehyde from NIST values""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 3001,
     label = "CJ2_singlet",
     group = 
@@ -6055,6 +6033,27 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""BDE from ERWIN et al.""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 128,
+    label = "CO",
+    group = 
+"""
+1 * C u0 p1 {2,T}
+2   O u0 p1 {1,T}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.5,-2.38,-3.32,-4.24,-5.75,-6.88,-8.59],'cal/(mol*K)'),
+        H298 = (103.73,'kcal/mol'),
+        S298 = (-6.47,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Value for carbon monoxide calculated in relation to formaldehyde from NIST values""",
     longDesc = 
 u"""
 
