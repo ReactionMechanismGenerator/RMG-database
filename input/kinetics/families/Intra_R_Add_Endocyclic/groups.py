@@ -146,6 +146,36 @@ entry(
 )
 
 entry(
+    index = 180,
+    label = "R4_Cs_RR_D",
+    group = 
+"""
+1 *1 Cs       u1 {2,S}
+2 *4 Cs       u0 {1,S} {3,S} {5,S} {6,S}
+3 *2 Cd       u0 {2,S} {4,D}
+4 *3 [Cd,Cdd] u0 {3,D}
+5    R        u0 {2,S}
+6    R        u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 181,
+    label = "R4_Cs_HH_D",
+    group = 
+"""
+1 *1 Cs       u1 {2,S}
+2 *4 Cs       u0 {1,S} {3,S} {5,S} {6,S}
+3 *2 Cd       u0 {2,S} {4,D}
+4 *3 [Cd,Cdd] u0 {3,D}
+5    H        u0 {2,S}
+6    H        u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 12,
     label = "R4_S_T",
     group = 
@@ -327,6 +357,78 @@ entry(
     longDesc = 
 u"""
 The ring being formed has 5 atoms in.
+Starting at the radical site, the first two bonds are single, single.
+The multiple bond being attacked is a double bond (to another carbon).
+""",
+)
+
+entry(
+    index = 182,
+    label = "R5_CsCs_RR_D",
+    group = 
+"""
+1 *1 Cs       u1 {2,S}
+2 *4 Cs       u0 {1,S} {3,S} {6,S} {7,S}
+3 *5 Cs       u0 {2,S} {4,S} {8,S} {9,S}
+4 *2 Cd       u0 {3,S} {5,D}
+5 *3 [Cd,Cdd] u0 {4,D}
+6    R        u0 {2,S}
+7    R        u0 {2,S}
+8    R        u0 {3,S}
+9    R        u0 {3,S}
+""",
+    kinetics = None,
+    longDesc = 
+u"""
+The ring being formed has 5 carbon atoms.
+Starting at the radical site, the first two bonds are single, single.
+The multiple bond being attacked is a double bond (to another carbon).
+""",
+)
+
+entry(
+    index = 183,
+    label = "R5_CsCs_RH_D",
+    group = 
+"""
+1 *1 Cs       u1 {2,S}
+2 *4 Cs       u0 {1,S} {3,S} {6,S} {7,S}
+3 *5 Cs       u0 {2,S} {4,S} {8,S} {9,S}
+4 *2 Cd       u0 {3,S} {5,D}
+5 *3 [Cd,Cdd] u0 {4,D}
+6    R        u0 {2,S}
+7    H        u0 {2,S}
+8    R        u0 {3,S}
+9    H        u0 {3,S}
+""",
+    kinetics = None,
+    longDesc = 
+u"""
+The ring being formed has 5 carbon atoms.
+Starting at the radical site, the first two bonds are single, single.
+The multiple bond being attacked is a double bond (to another carbon).
+""",
+)
+
+entry(
+    index = 184,
+    label = "R5_CsCs_HH_D",
+    group = 
+"""
+1 *1 Cs       u1 {2,S}
+2 *4 Cs       u0 {1,S} {3,S} {6,S} {7,S}
+3 *5 Cs       u0 {2,S} {4,S} {8,S} {9,S}
+4 *2 Cd       u0 {3,S} {5,D}
+5 *3 [Cd,Cdd] u0 {4,D}
+6    H        u0 {2,S}
+7    H        u0 {2,S}
+8    H        u0 {3,S}
+9    H        u0 {3,S}
+""",
+    kinetics = None,
+    longDesc = 
+u"""
+The ring being formed has 5 carbon atoms.
 Starting at the radical site, the first two bonds are single, single.
 The multiple bond being attacked is a double bond (to another carbon).
 """,
@@ -883,6 +985,87 @@ entry(
 6 *3 [Cd,Cdd] u0 {5,D}
 """,
     kinetics = None,
+)
+
+entry(
+    index = 185,
+    label = "R6_CsCsCs_RR_D",
+    group = 
+"""
+1  *1 Cs      u1 {2,S}
+2  *4 Cs       u0 {1,S} {3,S} {7,S} {8,S}
+3  *6 Cs       u0 {2,S} {4,S} {9,S} {10,S}
+4  *5 Cs       u0 {3,S} {5,S} {11,S} {12,S}
+5  *2 Cd       u0 {4,S} {6,D}
+6  *3 [Cd,Cdd] u0 {5,D}
+7     R        u0 {2,S}
+8     R        u0 {2,S}
+9     R        u0 {3,S}
+10    R        u0 {3,S}
+11    R        u0 {4,S}
+12    R        u0 {4,S}
+""",
+    kinetics = None,
+    longDesc = 
+u"""
+The ring being formed has 6 carbon atoms.
+Starting at the radical site, the first two bonds are single, single.
+The multiple bond being attacked is a double bond (to another carbon).
+""",
+)
+
+entry(
+    index = 186,
+    label = "R6_CsCsCs_RH_D",
+    group = 
+"""
+1  *1 Cs      u1 {2,S}
+2  *4 Cs       u0 {1,S} {3,S} {7,S} {8,S}
+3  *6 Cs       u0 {2,S} {4,S} {9,S} {10,S}
+4  *5 Cs       u0 {3,S} {5,S} {11,S} {12,S}
+5  *2 Cd       u0 {4,S} {6,D}
+6  *3 [Cd,Cdd] u0 {5,D}
+7     R        u0 {2,S}
+8     H        u0 {2,S}
+9     R        u0 {3,S}
+10    H        u0 {3,S}
+11    R        u0 {4,S}
+12    H        u0 {4,S}
+""",
+    kinetics = None,
+    longDesc = 
+u"""
+The ring being formed has 6 carbon atoms.
+Starting at the radical site, the first two bonds are single, single.
+The multiple bond being attacked is a double bond (to another carbon).
+""",
+)
+
+entry(
+    index = 187,
+    label = "R6_CsCsCs_HH_D",
+    group = 
+"""
+1  *1 Cs      u1 {2,S}
+2  *4 Cs       u0 {1,S} {3,S} {7,S} {8,S}
+3  *6 Cs       u0 {2,S} {4,S} {9,S} {10,S}
+4  *5 Cs       u0 {3,S} {5,S} {11,S} {12,S}
+5  *2 Cd       u0 {4,S} {6,D}
+6  *3 [Cd,Cdd] u0 {5,D}
+7     H        u0 {2,S}
+8     H        u0 {2,S}
+9     H        u0 {3,S}
+10    H        u0 {3,S}
+11    H        u0 {4,S}
+12    H        u0 {4,S}
+""",
+    kinetics = None,
+    longDesc = 
+u"""
+The ring being formed has 6 carbon atoms.
+Starting at the radical site, the first two bonds are single, single.
+The multiple bond being attacked is a double bond (to another carbon).
+""",
 )
 
 entry(
@@ -2283,6 +2466,8 @@ L1: Rn
     L2: R4
         L3: R4_S
             L4: R4_S_D
+                L5: R4_Cs_RR_D
+                    L6: R4_Cs_HH_D
             L4: R4_S_T
             L4: R4_S_CO
         L3: R4_D
@@ -2296,6 +2481,9 @@ L1: Rn
     L2: R5
         L3: R5_SS
             L4: R5_SS_D
+                L5: R5_CsCs_RR_D
+                    L6: R5_CsCs_RH_D
+                        L7: R5_CsCs_HH_D
             L4: R5_SS_T
             L4: R5_SS_CO
             L4: R5_SS_CS
@@ -2328,6 +2516,9 @@ L1: Rn
                 L5: R6_SSR
                     L6: R6_SSS
                         L7: R6_SSS_D
+                            L8: R6_CsCsCs_RR_D
+                                L9: R6_CsCsCs_RH_D
+                                    L10: R6_CsCsCs_HH_D
                         L7: R6_SSS_T
                         L7: R6_SSS_CO
                     L6: R6_SSM
