@@ -936,7 +936,6 @@ entry(
 """,
     statmech = GroupFrequencies(
         frequencies = [
-            (1545, 1555, 1),
             (1360, 1385, 1),
             (915, 1000, 1),
             (850, 920, 1),
