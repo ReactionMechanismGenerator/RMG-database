@@ -2900,7 +2900,7 @@ entry(
     group = 
 """
 1 * Cs      u1 {2,S} {3,S} {4,S}
-2   O       u0 {1,S} {5,S}
+2   Os      u0 {1,S} {5,S}
 3   H       u0 {1,S}
 4   H       u0 {1,S}
 5   [Cd,CO] u0 {2,S}
@@ -3155,7 +3155,7 @@ entry(
     group = 
 """
 1 * Cs      u1 {2,S} {3,S} {4,S}
-2   O       u0 {1,S} {5,S}
+2   Os      u0 {1,S} {5,S}
 3   C       u0 {1,S}
 4   H       u0 {1,S}
 5   [CO,Cd] u0 {2,S}
@@ -3405,7 +3405,7 @@ entry(
     group = 
 """
 1 * Cs      u1 {2,S} {3,S} {4,S}
-2   O       u0 {1,S} {5,S}
+2   Os      u0 {1,S} {5,S}
 3   C       u0 {1,S}
 4   C       u0 {1,S}
 5   [Cd,CO] u0 {2,S}
@@ -5091,7 +5091,7 @@ entry(
     label = "CdsOJ",
     group = 
 """
-1 * O       u1 {2,S}
+1 * Os      u1 {2,S}
 2   [Cd,CO] u0 {1,S}
 """,
     thermo = u'RC=COJ',
@@ -6257,6 +6257,8 @@ L1: Radical
                             L8: bicyclo[2.1.0]pentane-secondary-C4
                             L8: bicyclo[2.2.0]hexane-secondary
                             L8: bicyclo[3.2.0]heptane-C5-6
+                            L8: tricyclo[2.2.1.0(1,4)]heptane-C2
+                            L8: bicyclo[4.2.0]octane-C4-7
                         L7: CCJCOOH
                         L7: bicyclo[3.1.1]heptane-C2
                             L8: tricyclo[3.1.1.0(1,5)]heptane-C2
@@ -6355,8 +6357,6 @@ L1: Radical
                     L6: C2CsJOO
                         L7: C2CsJOOH
                         L7: C2CsJOOC
-                L5: CCsJOS
-                    L6: CCsJOHSH
                 L5: CsJ-S
                     L6: CsJ-SsHH
                     L6: CsJ-CSH
@@ -6380,6 +6380,8 @@ L1: Radical
                             L8: CsJ-CdSsSs
                             L8: CsJ-C=SSsSs
                         L7: CsJ-SsSsSs
+                    L6: CCsJOS
+                        L7: CCsJOHSH
                 L5: CsJN
                 L5: CCsJN
                 L5: C2CsJN
