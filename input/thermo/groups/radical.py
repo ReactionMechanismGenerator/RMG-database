@@ -132,12 +132,12 @@ entry(
     label = "CJCOOH",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cs u0 {1,S} {5,S}
-3   H  u0 {1,S}
+1 * Cs u1 {2,S} {4,S} {5,S}
+2   Cs u0 {1,S} {3,S}
+3   Os u0 {2,S} {6,S}
 4   H  u0 {1,S}
-5   Os u0 {2,S} {6,S}
-6   Os u0 {5,S}
+5   H  u0 {1,S}
+6   Os u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -157,11 +157,11 @@ entry(
     label = "CCJ",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cs u0 {1,S} {5,S} {6,S} {7,S}
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs u1 {1,S} {6,S} {7,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
-5   H  u0 {2,S}
+5   H  u0 {1,S}
 6   H  u0 {2,S}
 7   H  u0 {2,S}
 """,
@@ -183,11 +183,11 @@ entry(
     label = "RCCJ",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cs u0 {1,S} {5,S} {6,S} {7,S}
-3   H  u0 {1,S}
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs u1 {1,S} {6,S} {7,S}
+3   C  u0 {1,S}
 4   H  u0 {1,S}
-5   C  u0 {2,S}
+5   H  u0 {1,S}
 6   H  u0 {2,S}
 7   H  u0 {2,S}
 """,
@@ -209,12 +209,12 @@ entry(
     label = "Isobutyl",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cs u0 {1,S} {5,S} {6,S} {7,S}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
-5   C  u0 {2,S}
-6   C  u0 {2,S}
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs u1 {1,S} {6,S} {7,S}
+3   C  u0 {1,S}
+4   C  u0 {1,S}
+5   H  u0 {1,S}
+6   H  u0 {2,S}
 7   H  u0 {2,S}
 """,
     thermo = ThermoData(
@@ -235,13 +235,13 @@ entry(
     label = "Neopentyl",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cs u0 {1,S} {5,S} {6,S} {7,S}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
-5   C  u0 {2,S}
-6   C  u0 {2,S}
-7   C  u0 {2,S}
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs u1 {1,S} {6,S} {7,S}
+3   C  u0 {1,S}
+4   C  u0 {1,S}
+5   C  u0 {1,S}
+6   H  u0 {2,S}
+7   H  u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -253,6 +253,384 @@ entry(
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 3047,
+    label = "CJC(C)2C=O",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs u1 {1,S} {6,S} {7,S}
+3   CO u0 {1,S} {8,D}
+4   C  u0 {1,S}
+5   C  u0 {1,S}
+6   H  u0 {2,S}
+7   H  u0 {2,S}
+8   Od u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.9,2.5,-1.1,-4.4,-9.7,-13.6,-19],'J/(mol*K)'),
+        H298 = (429.5,'kJ/mol'),
+        S298 = (7.9,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3045,
+    label = "CJC(C=O)2C",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs u1 {1,S} {6,S} {7,S}
+3   CO u0 {1,S} {8,D}
+4   CO u0 {1,S} {9,D}
+5   C  u0 {1,S}
+6   H  u0 {2,S}
+7   H  u0 {2,S}
+8   Od u0 {3,D}
+9   Od u0 {4,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.8,2.5,0.6,-1.9,-6.9,-10.9,-17.1],'J/(mol*K)'),
+        H298 = (427,'kJ/mol'),
+        S298 = (8.8,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3067,
+    label = "C=CC(C=O)2CJ",
+    group = 
+"""
+1    Cs u0 {2,S} {3,S} {4,S} {5,S}
+2  * Cs u1 {1,S} {6,S} {7,S}
+3    CO u0 {1,S} {9,D}
+4    CO u0 {1,S} {10,D}
+5    Cd u0 {1,S} {8,D}
+6    H  u0 {2,S}
+7    H  u0 {2,S}
+8    C  u0 {5,D}
+9    Od u0 {3,D}
+10   Od u0 {4,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.7,2.4,-0.6,-3.5,-8.4,-12.1,-17.6],'J/(mol*K)'),
+        H298 = (429.8,'kJ/mol'),
+        S298 = (5.5,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3066,
+    label = "C=CC(C)(C=O)CJ",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs u1 {1,S} {6,S} {7,S}
+3   CO u0 {1,S} {9,D}
+4   Cd u0 {1,S} {8,D}
+5   C  u0 {1,S}
+6   H  u0 {2,S}
+7   H  u0 {2,S}
+8   C  u0 {4,D}
+9   Od u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.8,0.6,-2.7,-5.8,-10.8,-14.4,-19.3],'J/(mol*K)'),
+        H298 = (430.6,'kJ/mol'),
+        S298 = (9.8,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3017,
+    label = "CJC(C)OC",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S}
+2 * Cs u1 {1,S} {5,S} {6,S}
+3   Os u0 {1,S} {7,S}
+4   C  u0 {1,S}
+5   H  u0 {2,S}
+6   H  u0 {2,S}
+7   C  u0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.5,1.8,-2,-5.5,-11,-14.7,-19.8],'J/(mol*K)'),
+        H298 = (429.9,'kJ/mol'),
+        S298 = (7,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3018,
+    label = "CJC(C)2O",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs u1 {1,S} {6,S} {7,S}
+3   C  u0 {1,S}
+4   C  u0 {1,S}
+5   Os u0 {1,S}
+6   H  u0 {2,S}
+7   H  u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.1,1.1,-2.1,-5.1,-9.7,-13.1,-18.5],'J/(mol*K)'),
+        H298 = (431.1,'kJ/mol'),
+        S298 = (5.1,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3031,
+    label = "C=CC(C)(O)CJ",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs u1 {1,S} {6,S} {7,S}
+3   Cd u0 {1,S} {8,D}
+4   Os u0 {1,S}
+5   C  u0 {1,S}
+6   H  u0 {2,S}
+7   H  u0 {2,S}
+8   C  u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.5,-2.7,-5.5,-7.9,-11.8,-14.6,-19],'J/(mol*K)'),
+        H298 = (431.9,'kJ/mol'),
+        S298 = (9,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3065,
+    label = "C=CC(O)(C=O)CJ",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs u1 {1,S} {6,S} {7,S}
+3   CO u0 {1,S} {9,D}
+4   Cd u0 {1,S} {8,D}
+5   Os u0 {1,S}
+6   H  u0 {2,S}
+7   H  u0 {2,S}
+8   C  u0 {4,D}
+9   Od u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4,0.9,-2.4,-5.2,-9.7,-13,-18.1],'J/(mol*K)'),
+        H298 = (432.3,'kJ/mol'),
+        S298 = (6.9,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3046,
+    label = "CJC(C)(C=O)O",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs u1 {1,S} {6,S} {7,S}
+3   CO u0 {1,S} {8,D}
+4   C  u0 {1,S}
+5   Os u0 {1,S}
+6   H  u0 {2,S}
+7   H  u0 {2,S}
+8   Od u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.6,5.1,2.3,-0.9,-6.8,-11.3,-17.8],'J/(mol*K)'),
+        H298 = (430.9,'kJ/mol'),
+        S298 = (3.7,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3019,
+    label = "CJC(O)2C",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs u1 {1,S} {6,S} {7,S}
+3   C  u0 {1,S}
+4   Os u0 {1,S}
+5   Os u0 {1,S}
+6   H  u0 {2,S}
+7   H  u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.4,-1.5,-5,-7.4,-10.8,-13.6,-18.2],'J/(mol*K)'),
+        H298 = (435.3,'kJ/mol'),
+        S298 = (8.1,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3032,
+    label = "C=CC(O)2CJ",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs u1 {1,S} {6,S} {7,S}
+3   Cd u0 {1,S} {8,D}
+4   Os u0 {1,S}
+5   Os u0 {1,S}
+6   H  u0 {2,S}
+7   H  u0 {2,S}
+8   C  u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1,-0.2,-2,-4,-8.1,-11.6,-17.2],'J/(mol*K)'),
+        H298 = (431.8,'kJ/mol'),
+        S298 = (6.7,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3044,
+    label = "CJC(C)C=O",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S}
+2 * Cs u1 {1,S} {5,S} {6,S}
+3   CO u0 {1,S} {7,D}
+4   C  u0 {1,S}
+5   H  u0 {2,S}
+6   H  u0 {2,S}
+7   Od u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.6,0.2,-3,-5.8,-10.5,-14.1,-19.3],'J/(mol*K)'),
+        H298 = (429.5,'kJ/mol'),
+        S298 = (8.7,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3076,
+    label = "CJC(C)C=C=O",
+    group = 
+"""
+1   Cs  u0 {2,S} {3,S} {5,S}
+2 * Cs  u1 {1,S} {6,S} {7,S}
+3   Cd  u0 {1,S} {4,D}
+4   Cdd u0 {3,D} {8,D}
+5   C   u0 {1,S}
+6   H   u0 {2,S}
+7   H   u0 {2,S}
+8   Od  u0 {4,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.2,-0.5,-4.1,-7.2,-11.8,-15,-19.5],'J/(mol*K)'),
+        H298 = (430.1,'kJ/mol'),
+        S298 = (9.7,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -307,12 +685,12 @@ entry(
     label = "C=CC=CCJ",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {5,D}
-3   H  u0 {1,S}
+1 * Cs u1 {2,S} {4,S} {5,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {6,S}
 4   H  u0 {1,S}
-5   Cd u0 {2,D} {6,S}
-6   Cd u0 {5,S}
+5   H  u0 {1,S}
+6   Cd u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -332,12 +710,12 @@ entry(
     label = "CTCC=CCJ",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {5,D}
-3   H  u0 {1,S}
+1 * Cs u1 {2,S} {4,S} {5,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {6,S}
 4   H  u0 {1,S}
-5   Cd u0 {2,D} {6,S}
-6   Ct u0 {5,S}
+5   H  u0 {1,S}
+6   Ct u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -349,6 +727,117 @@ entry(
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 3029,
+    label = "C=C(O)CJ",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {5,S} {6,D}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+5   Os u0 {2,S}
+6   C  u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.7,-2.3,-4.6,-7.1,-11,-13.5,-16.6],'J/(mol*K)'),
+        H298 = (376.8,'kJ/mol'),
+        S298 = (-3.9,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3062,
+    label = "C=C(C=O)CJ",
+    group = 
+"""
+1   Cd u0 {2,S} {3,S} {4,D}
+2 * Cs u1 {1,S} {5,S} {6,S}
+3   CO u0 {1,S} {7,D}
+4   C  u0 {1,D}
+5   H  u0 {2,S}
+6   H  u0 {2,S}
+7   Od u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.8,-1.2,-2.4,-4.4,-8.2,-11.3,-15.9],'J/(mol*K)'),
+        H298 = (374,'kJ/mol'),
+        S298 = (-16.5,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3074,
+    label = "CJC=C=O",
+    group = 
+"""
+1 * Cs  u1 {2,S} {4,S} {5,S}
+2   Cd  u0 {1,S} {3,D}
+3   Cdd u0 {2,D} {6,D}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
+6   Od  u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.2,-0.7,-2.6,-4.5,-8.1,-11,-15.6],'J/(mol*K)'),
+        H298 = (373.5,'kJ/mol'),
+        S298 = (-1.3,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3082,
+    label = "C=C(CJ)C=C=O",
+    group = 
+"""
+1   Cd  u0 {2,S} {3,S} {5,D}
+2 * Cs  u1 {1,S} {6,S} {7,S}
+3   Cd  u0 {1,S} {4,D}
+4   Cdd u0 {3,D} {8,D}
+5   C   u0 {1,D}
+6   H   u0 {2,S}
+7   H   u0 {2,S}
+8   Od  u0 {4,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.2,-5.6,-5.7,-6.4,-8.2,-10,-12.8],'J/(mol*K)'),
+        H298 = (374.9,'kJ/mol'),
+        S298 = (-8.1,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -376,6 +865,58 @@ u"""
 )
 
 entry(
+    index = 3010,
+    label = "CJCO",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   C  u0 {1,S} {5,S}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+5   Os u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.8,-1.5,-4.1,-6.7,-11.1,-14.3,-19.2],'J/(mol*K)'),
+        H298 = (430,'kJ/mol'),
+        S298 = (6.1,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3038,
+    label = "CJC=O",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   CO u0 {1,S} {5,D}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+5   Od u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.5,1.1,-0.4,-2.3,-6.1,-9.2,-14.4],'J/(mol*K)'),
+        H298 = (402.4,'kJ/mol'),
+        S298 = (-7.8,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
     index = 16,
     label = "C2JC=O",
     group = 
@@ -397,6 +938,61 @@ entry(
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 3039,
+    label = "CJCC=O",
+    group = 
+"""
+1 * Cs u1 {2,S} {4,S} {5,S}
+2   C  u0 {1,S} {3,S}
+3   CO u0 {2,S} {6,D}
+4   H  u0 {1,S}
+5   H  u0 {1,S}
+6   Od u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.8,-1.5,-4.1,-6.7,-11.1,-14.3,-19.2],'J/(mol*K)'),
+        H298 = (430,'kJ/mol'),
+        S298 = (6.1,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3075,
+    label = "CJCC=C=O",
+    group = 
+"""
+1 * Cs  u1 {2,S} {5,S} {6,S}
+2   C   u0 {1,S} {3,S}
+3   Cd  u0 {2,S} {4,D}
+4   Cdd u0 {3,D} {7,D}
+5   H   u0 {1,S}
+6   H   u0 {1,S}
+7   Od  u0 {4,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.3,-5.8,-8.1,-10.1,-13.4,-15.9,-19.9],'J/(mol*K)'),
+        H298 = (420.3,'kJ/mol'),
+        S298 = (16.4,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -779,10 +1375,10 @@ entry(
     label = "cyclobutane",
     group = 
 """
-1 * Cs u1 {2,S} {4,S} {5,S}
-2   Cs u0 {1,S} {3,S}
-3   Cs u0 {2,S} {4,S}
-4   Cs u0 {1,S} {3,S}
+1 * Cs u1 {2,S} {3,S} {5,S}
+2   Cs u0 {1,S} {4,S}
+3   Cs u0 {1,S} {4,S}
+4   Cs u0 {2,S} {3,S}
 5   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -803,12 +1399,12 @@ entry(
     label = "bicyclo[2.1.0]pentane-secondary-C4",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {5,S}
-2   Cs u0 {1,S} {3,S} {4,S}
-3   Cs u0 {1,S} {2,S}
-4   Cs u0 {2,S} {5,S}
-5 * Cs u1 {1,S} {4,S} {6,S}
-6   H  u0 {5,S}
+1   Cs u0 {2,S} {3,S} {4,S}
+2   Cs u0 {1,S} {4,S} {5,S}
+3 * Cs u1 {1,S} {5,S} {6,S}
+4   Cs u0 {1,S} {2,S}
+5   Cs u0 {2,S} {3,S}
+6   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -828,12 +1424,12 @@ entry(
     label = "bicyclo[2.2.0]hexane-secondary",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {6,S}
-2   Cs u0 {1,S} {4,S} {5,S}
+1   Cs u0 {2,S} {3,S} {5,S}
+2   Cs u0 {1,S} {4,S} {6,S}
 3 * Cs u1 {1,S} {4,S} {7,S}
 4   Cs u0 {2,S} {3,S}
-5   Cs u0 {2,S} {6,S}
-6   Cs u0 {1,S} {5,S}
+5   Cs u0 {1,S} {6,S}
+6   Cs u0 {2,S} {5,S}
 7   H  u0 {3,S}
 """,
     thermo = ThermoData(
@@ -854,12 +1450,12 @@ entry(
     label = "bicyclo[3.2.0]heptane-C5-6",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {6,S}
-2   Cs u0 {1,S} {4,S} {5,S}
+1   Cs u0 {2,S} {3,S} {5,S}
+2   Cs u0 {1,S} {4,S} {6,S}
 3 * Cs u1 {1,S} {4,S} {8,S}
 4   Cs u0 {2,S} {3,S}
-5   Cs u0 {2,S} {7,S}
-6   Cs u0 {1,S} {7,S}
+5   Cs u0 {1,S} {7,S}
+6   Cs u0 {2,S} {7,S}
 7   Cs u0 {5,S} {6,S}
 8   H  u0 {3,S}
 """,
@@ -877,16 +1473,71 @@ u"""
 )
 
 entry(
+    index = 210,
+    label = "tricyclo[2.2.1.0(1,4)]heptane-C2",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {6,S}
+2   Cs u0 {1,S} {4,S} {5,S} {7,S}
+3 * Cs u1 {1,S} {5,S} {8,S}
+4   C  u0 {1,S} {2,S}
+5   Cs u0 {2,S} {3,S}
+6   C  u0 {1,S} {7,S}
+7   C  u0 {2,S} {6,S}
+8   H  u0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
+        H298 = (96.8,'kcal/mol','+|-',0.2),
+        S298 = (4.51,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 177,
+    label = "bicyclo[4.2.0]octane-C4-7",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {5,S}
+2   Cs u0 {1,S} {4,S} {6,S}
+3 * Cs u1 {1,S} {4,S} {9,S}
+4   Cs u0 {2,S} {3,S}
+5   C  u0 {1,S} {8,S}
+6   C  u0 {2,S} {7,S}
+7   C  u0 {6,S} {8,S}
+8   C  u0 {5,S} {7,S}
+9   H  u0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
+        H298 = (100.7,'kcal/mol','+|-',0.2),
+        S298 = (4.51,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 23,
     label = "CCJCOOH",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cs u0 {1,S} {5,S}
-3   Cs u0 {1,S}
-4   H  u0 {1,S}
-5   Os u0 {2,S} {6,S}
-6   Os u0 {5,S}
+1 * Cs u1 {2,S} {4,S} {5,S}
+2   Cs u0 {1,S} {3,S}
+3   Os u0 {2,S} {6,S}
+4   Cs u0 {1,S}
+5   H  u0 {1,S}
+6   Os u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -982,13 +1633,13 @@ entry(
     label = "bicyclo[3.1.0]hexane-C5-2",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {5,S}
-2   Cs u0 {1,S} {3,S} {4,S}
-3   Cs u0 {1,S} {2,S}
-4 * Cs u1 {2,S} {6,S} {7,S}
-5   Cs u0 {1,S} {6,S}
-6   Cs u0 {4,S} {5,S}
-7   H  u0 {4,S}
+1   Cs u0 {2,S} {3,S} {4,S}
+2   Cs u0 {1,S} {4,S} {5,S}
+3 * Cs u1 {1,S} {6,S} {7,S}
+4   Cs u0 {1,S} {2,S}
+5   Cs u0 {2,S} {6,S}
+6   Cs u0 {3,S} {5,S}
+7   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1008,14 +1659,14 @@ entry(
     label = "bicyclo[3.1.0]hexane-C5-3",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {5,S} {7,S}
-2   Cs u0 {1,S} {3,S} {4,S}
-3   Cs u0 {1,S} {2,S}
-4   Cs u0 {2,S} {6,S}
-5   Cs u0 {1,S} {6,S}
-6 * Cs u1 {4,S} {5,S} {8,S}
+1   Cs u0 {2,S} {4,S} {5,S} {7,S}
+2   Cs u0 {1,S} {4,S} {6,S}
+3 * Cs u1 {5,S} {6,S} {8,S}
+4   Cs u0 {1,S} {2,S}
+5   Cs u0 {1,S} {3,S}
+6   Cs u0 {2,S} {3,S}
 7   H  u0 {1,S}
-8   H  u0 {6,S}
+8   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1035,13 +1686,13 @@ entry(
     label = "bicyclo[2.1.1]hexane-C2",
     group = 
 """
-1   Cs u0 {3,S} {4,S} {6,S}
-2   Cs u0 {3,S} {4,S} {5,S}
-3   C  u0 {1,S} {2,S}
+1   Cs u0 {3,S} {4,S} {5,S}
+2   Cs u0 {4,S} {5,S} {6,S}
+3 * Cs u1 {1,S} {6,S} {7,S}
 4   C  u0 {1,S} {2,S}
-5 * Cs u1 {2,S} {6,S} {7,S}
-6   Cs u0 {1,S} {5,S}
-7   H  u0 {5,S}
+5   C  u0 {1,S} {2,S}
+6   Cs u0 {2,S} {3,S}
+7   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1061,13 +1712,13 @@ entry(
     label = "tricyclo[2.1.1.0(1,4)]hexane-C2",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {6,S}
-2   Cs u0 {1,S} {3,S} {4,S} {5,S}
-3   C  u0 {1,S} {2,S}
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S} {4,S} {5,S} {6,S}
+3 * Cs u1 {1,S} {6,S} {7,S}
 4   C  u0 {1,S} {2,S}
-5 * Cs u1 {2,S} {6,S} {7,S}
-6   Cs u0 {1,S} {5,S}
-7   H  u0 {5,S}
+5   C  u0 {1,S} {2,S}
+6   Cs u0 {2,S} {3,S}
+7   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1140,15 +1791,15 @@ entry(
     label = "2-norbornyl",
     group = 
 """
-1   Cs u0 {3,S} {4,S} {7,S} {8,S}
-2   Cs u0 {3,S} {5,S} {6,S}
-3   Cs u0 {1,S} {2,S}
-4 * Cs u1 {1,S} {5,S} {9,S}
-5   Cs u0 {2,S} {4,S}
-6   Cs u0 {2,S} {7,S}
-7   Cs u0 {1,S} {6,S}
+1   Cs u0 {2,S} {4,S} {6,S} {8,S}
+2 * Cs u1 {1,S} {5,S} {9,S}
+3   Cs u0 {4,S} {5,S} {7,S}
+4   Cs u0 {1,S} {3,S}
+5   Cs u0 {2,S} {3,S}
+6   Cs u0 {1,S} {7,S}
+7   Cs u0 {3,S} {6,S}
 8   H  u0 {1,S}
-9   H  u0 {4,S}
+9   H  u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1168,13 +1819,13 @@ entry(
     label = "cycloheptane",
     group = 
 """
-1 * Cs u1 {2,S} {7,S} {8,S}
-2   Cs u0 {1,S} {3,S}
-3   Cs u0 {2,S} {4,S}
-4   Cs u0 {3,S} {5,S}
-5   Cs u0 {4,S} {6,S}
-6   Cs u0 {5,S} {7,S}
-7   Cs u0 {1,S} {6,S}
+1 * Cs u1 {2,S} {3,S} {8,S}
+2   Cs u0 {1,S} {4,S}
+3   Cs u0 {1,S} {5,S}
+4   Cs u0 {2,S} {6,S}
+5   Cs u0 {3,S} {7,S}
+6   Cs u0 {4,S} {7,S}
+7   Cs u0 {5,S} {6,S}
 8   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -1195,14 +1846,14 @@ entry(
     label = "bicyclo[3.2.0]heptane-C5-2",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {6,S}
-2   Cs u0 {1,S} {4,S} {5,S}
-3   Cs u0 {1,S} {4,S}
-4   Cs u0 {2,S} {3,S}
-5 * Cs u1 {2,S} {7,S} {8,S}
-6   Cs u0 {1,S} {7,S}
-7   Cs u0 {5,S} {6,S}
-8   H  u0 {5,S}
+1   Cs u0 {2,S} {3,S} {4,S}
+2   Cs u0 {1,S} {5,S} {6,S}
+3 * Cs u1 {1,S} {7,S} {8,S}
+4   Cs u0 {1,S} {5,S}
+5   Cs u0 {2,S} {4,S}
+6   Cs u0 {2,S} {7,S}
+7   Cs u0 {3,S} {6,S}
+8   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1222,14 +1873,14 @@ entry(
     label = "bicyclo[3.2.0]heptane-C5-3",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {6,S}
-2   Cs u0 {1,S} {4,S} {5,S}
-3   Cs u0 {1,S} {4,S}
+1   Cs u0 {2,S} {5,S} {6,S}
+2   Cs u0 {1,S} {4,S} {7,S}
+3 * Cs u1 {4,S} {5,S} {8,S}
 4   Cs u0 {2,S} {3,S}
-5   Cs u0 {2,S} {7,S}
+5   Cs u0 {1,S} {3,S}
 6   Cs u0 {1,S} {7,S}
-7 * Cs u1 {5,S} {6,S} {8,S}
-8   H  u0 {7,S}
+7   Cs u0 {2,S} {6,S}
+8   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1249,14 +1900,14 @@ entry(
     label = "bicyclo[4.1.0]heptane-C6-2",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {5,S}
-2   Cs u0 {1,S} {3,S} {4,S}
-3   C  u0 {1,S} {2,S}
-4 * Cs u1 {2,S} {6,S} {8,S}
-5   C  u0 {1,S} {7,S}
-6   Cs u0 {4,S} {7,S}
+1   Cs u0 {2,S} {3,S} {4,S}
+2   Cs u0 {1,S} {4,S} {5,S}
+3 * Cs u1 {1,S} {6,S} {8,S}
+4   C  u0 {1,S} {2,S}
+5   C  u0 {2,S} {7,S}
+6   Cs u0 {3,S} {7,S}
 7   C  u0 {5,S} {6,S}
-8   H  u0 {4,S}
+8   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1276,14 +1927,14 @@ entry(
     label = "bicyclo[4.1.0]heptane-C6-3",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {5,S}
-2   Cs u0 {1,S} {3,S} {4,S}
-3   C  u0 {1,S} {2,S}
-4   Cs u0 {2,S} {6,S}
-5   C  u0 {1,S} {7,S}
-6 * Cs u1 {4,S} {7,S} {8,S}
-7   Cs u0 {5,S} {6,S}
-8   H  u0 {6,S}
+1   Cs u0 {2,S} {4,S} {5,S}
+2   Cs u0 {1,S} {4,S} {6,S}
+3 * Cs u1 {5,S} {7,S} {8,S}
+4   C  u0 {1,S} {2,S}
+5   Cs u0 {1,S} {3,S}
+6   C  u0 {2,S} {7,S}
+7   Cs u0 {3,S} {6,S}
+8   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1303,14 +1954,14 @@ entry(
     label = "bicyclo[4.1.0]heptane-C6-2",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {5,S}
-2   Cs u0 {1,S} {3,S} {4,S}
-3   C  u0 {1,S} {2,S}
-4 * Cs u1 {2,S} {6,S} {8,S}
-5   C  u0 {1,S} {7,S}
-6   Cs u0 {4,S} {7,S}
+1   Cs u0 {2,S} {3,S} {4,S}
+2   Cs u0 {1,S} {4,S} {5,S}
+3 * Cs u1 {1,S} {6,S} {8,S}
+4   C  u0 {1,S} {2,S}
+5   C  u0 {2,S} {7,S}
+6   Cs u0 {3,S} {7,S}
 7   C  u0 {5,S} {6,S}
-8   H  u0 {4,S}
+8   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1330,14 +1981,14 @@ entry(
     label = "bicyclo[4.1.0]heptane-C6-3",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {5,S}
-2   Cs u0 {1,S} {3,S} {4,S}
-3   C  u0 {1,S} {2,S}
-4   Cs u0 {2,S} {6,S}
-5   C  u0 {1,S} {7,S}
-6 * Cs u1 {4,S} {7,S} {8,S}
-7   Cs u0 {5,S} {6,S}
-8   H  u0 {6,S}
+1   Cs u0 {2,S} {4,S} {5,S}
+2   Cs u0 {1,S} {4,S} {6,S}
+3 * Cs u1 {5,S} {7,S} {8,S}
+4   C  u0 {1,S} {2,S}
+5   Cs u0 {1,S} {3,S}
+6   C  u0 {2,S} {7,S}
+7   Cs u0 {3,S} {6,S}
+8   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1357,14 +2008,14 @@ entry(
     label = "bicyclo[3.1.1]heptane-C2",
     group = 
 """
-1   Cs u0 {3,S} {4,S} {6,S}
-2   Cs u0 {3,S} {4,S} {5,S}
-3   C  u0 {1,S} {2,S}
+1   Cs u0 {3,S} {4,S} {5,S}
+2   Cs u0 {4,S} {5,S} {6,S}
+3 * Cs u1 {1,S} {7,S} {8,S}
 4   C  u0 {1,S} {2,S}
-5 * Cs u1 {2,S} {7,S} {8,S}
-6   C  u0 {1,S} {7,S}
-7   Cs u0 {5,S} {6,S}
-8   H  u0 {5,S}
+5   C  u0 {1,S} {2,S}
+6   C  u0 {2,S} {7,S}
+7   Cs u0 {3,S} {6,S}
+8   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1384,14 +2035,14 @@ entry(
     label = "tricyclo[3.1.1.0(1,5)]heptane-C2",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {6,S}
-2   Cs u0 {1,S} {3,S} {4,S} {5,S}
-3   C  u0 {1,S} {2,S}
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S} {4,S} {5,S} {6,S}
+3 * Cs u1 {1,S} {7,S} {8,S}
 4   C  u0 {1,S} {2,S}
-5 * Cs u1 {2,S} {7,S} {8,S}
-6   C  u0 {1,S} {7,S}
-7   Cs u0 {5,S} {6,S}
-8   H  u0 {5,S}
+5   C  u0 {1,S} {2,S}
+6   C  u0 {2,S} {7,S}
+7   Cs u0 {3,S} {6,S}
+8   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1411,14 +2062,14 @@ entry(
     label = "bicyclo[3.1.1]heptane-C3",
     group = 
 """
-1   Cs u0 {3,S} {4,S} {6,S}
-2   Cs u0 {3,S} {4,S} {5,S}
-3   C  u0 {1,S} {2,S}
+1   Cs u0 {4,S} {5,S} {7,S}
+2   Cs u0 {4,S} {5,S} {6,S}
+3 * Cs u1 {6,S} {7,S} {8,S}
 4   C  u0 {1,S} {2,S}
-5   Cs u0 {2,S} {7,S}
-6   Cs u0 {1,S} {7,S}
-7 * Cs u1 {5,S} {6,S} {8,S}
-8   H  u0 {7,S}
+5   C  u0 {1,S} {2,S}
+6   Cs u0 {2,S} {3,S}
+7   Cs u0 {1,S} {3,S}
+8   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1438,14 +2089,14 @@ entry(
     label = "tricyclo[3.1.1.0(1,5)]heptane-C3",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {6,S}
-2   Cs u0 {1,S} {3,S} {4,S} {5,S}
-3   C  u0 {1,S} {2,S}
+1   Cs u0 {2,S} {4,S} {5,S} {7,S}
+2   Cs u0 {1,S} {4,S} {5,S} {6,S}
+3 * Cs u1 {6,S} {7,S} {8,S}
 4   C  u0 {1,S} {2,S}
-5   Cs u0 {2,S} {7,S}
-6   Cs u0 {1,S} {7,S}
-7 * Cs u1 {5,S} {6,S} {8,S}
-8   H  u0 {7,S}
+5   C  u0 {1,S} {2,S}
+6   Cs u0 {2,S} {3,S}
+7   Cs u0 {1,S} {3,S}
+8   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1488,45 +2139,18 @@ u"""
 )
 
 entry(
-    index = 210,
-    label = "tricyclo[2.2.1.0(1,4)]heptane-C2",
-    group = 
-"""
-1   Cs u0 {2,S} {3,S} {5,S} {7,S}
-2   Cs u0 {1,S} {3,S} {4,S} {6,S}
-3   C  u0 {1,S} {2,S}
-4 * Cs u1 {2,S} {5,S} {8,S}
-5   Cs u0 {1,S} {4,S}
-6   C  u0 {2,S} {7,S}
-7   C  u0 {1,S} {6,S}
-8   H  u0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (96.8,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 173,
     label = "octahydro-pentalene-C5-2",
     group = 
 """
 1   Cs u0 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S} {5,S} {6,S}
-3 * Cs u1 {1,S} {8,S} {9,S}
-4   C  u0 {1,S} {7,S}
+3 * Cs u1 {1,S} {7,S} {9,S}
+4   C  u0 {1,S} {8,S}
 5   C  u0 {2,S} {7,S}
 6   C  u0 {2,S} {8,S}
-7   C  u0 {4,S} {5,S}
-8   Cs u0 {3,S} {6,S}
+7   Cs u0 {3,S} {5,S}
+8   C  u0 {4,S} {6,S}
 9   H  u0 {3,S}
 """,
     thermo = ThermoData(
@@ -1547,15 +2171,15 @@ entry(
     label = "octahydro-pentalene-C5-3",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S}
-2   Cs u0 {1,S} {5,S} {6,S}
-3   C  u0 {1,S} {8,S}
-4   Cs u0 {1,S} {7,S}
-5   Cs u0 {2,S} {7,S}
-6   C  u0 {2,S} {8,S}
-7 * Cs u1 {4,S} {5,S} {9,S}
-8   C  u0 {3,S} {6,S}
-9   H  u0 {7,S}
+1   Cs u0 {2,S} {4,S} {6,S}
+2   Cs u0 {1,S} {5,S} {7,S}
+3 * Cs u1 {4,S} {5,S} {9,S}
+4   Cs u0 {1,S} {3,S}
+5   Cs u0 {2,S} {3,S}
+6   C  u0 {1,S} {8,S}
+7   C  u0 {2,S} {8,S}
+8   C  u0 {6,S} {7,S}
+9   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1575,15 +2199,15 @@ entry(
     label = "bicyclo[4.2.0]octane-C6-2",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {6,S}
-2   Cs u0 {1,S} {4,S} {5,S}
-3   C  u0 {1,S} {4,S}
-4   C  u0 {2,S} {3,S}
-5 * Cs u1 {2,S} {7,S} {9,S}
-6   C  u0 {1,S} {8,S}
-7   Cs u0 {5,S} {8,S}
+1   Cs u0 {2,S} {3,S} {4,S}
+2   Cs u0 {1,S} {5,S} {6,S}
+3 * Cs u1 {1,S} {7,S} {9,S}
+4   C  u0 {1,S} {5,S}
+5   C  u0 {2,S} {4,S}
+6   C  u0 {2,S} {8,S}
+7   Cs u0 {3,S} {8,S}
 8   C  u0 {6,S} {7,S}
-9   H  u0 {5,S}
+9   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1603,15 +2227,15 @@ entry(
     label = "bicyclo[4.2.0]octane-C6-3",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {6,S}
-2   Cs u0 {1,S} {4,S} {5,S}
-3   C  u0 {1,S} {4,S}
-4   C  u0 {2,S} {3,S}
-5   Cs u0 {2,S} {7,S}
-6   C  u0 {1,S} {8,S}
-7 * Cs u1 {5,S} {8,S} {9,S}
-8   Cs u0 {6,S} {7,S}
-9   H  u0 {7,S}
+1   Cs u0 {2,S} {4,S} {6,S}
+2   Cs u0 {1,S} {5,S} {7,S}
+3 * Cs u1 {4,S} {8,S} {9,S}
+4   Cs u0 {1,S} {3,S}
+5   C  u0 {2,S} {6,S}
+6   C  u0 {1,S} {5,S}
+7   C  u0 {2,S} {8,S}
+8   Cs u0 {3,S} {7,S}
+9   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1627,46 +2251,18 @@ u"""
 )
 
 entry(
-    index = 177,
-    label = "bicyclo[4.2.0]octane-C4-7",
-    group = 
-"""
-1   Cs u0 {2,S} {3,S} {6,S}
-2   Cs u0 {1,S} {4,S} {5,S}
-3 * Cs u1 {1,S} {4,S} {9,S}
-4   Cs u0 {2,S} {3,S}
-5   C  u0 {2,S} {7,S}
-6   C  u0 {1,S} {8,S}
-7   C  u0 {5,S} {8,S}
-8   C  u0 {6,S} {7,S}
-9   H  u0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (100.7,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 213,
     label = "bicyclo[2.2.2]octane-C2",
     group = 
 """
-1   Cs u0 {3,S} {6,S} {8,S}
-2   Cs u0 {4,S} {5,S} {7,S}
+1   Cs u0 {3,S} {5,S} {6,S}
+2   Cs u0 {4,S} {7,S} {8,S}
 3 * Cs u1 {1,S} {4,S} {9,S}
 4   Cs u0 {2,S} {3,S}
-5   C  u0 {2,S} {6,S}
-6   C  u0 {1,S} {5,S}
-7   C  u0 {2,S} {8,S}
-8   C  u0 {1,S} {7,S}
+5   C  u0 {1,S} {7,S}
+6   C  u0 {1,S} {8,S}
+7   C  u0 {2,S} {5,S}
+8   C  u0 {2,S} {6,S}
 9   H  u0 {3,S}
 """,
     thermo = ThermoData(
@@ -1687,14 +2283,14 @@ entry(
     label = "tricyclo[2.2.2.0(1,4)]octane-C2",
     group = 
 """
-1   Cs u0 {2,S} {4,S} {6,S} {8,S}
-2   Cs u0 {1,S} {3,S} {5,S} {7,S}
-3 * Cs u1 {2,S} {4,S} {9,S}
-4   Cs u0 {1,S} {3,S}
-5   C  u0 {2,S} {6,S}
-6   C  u0 {1,S} {5,S}
-7   C  u0 {2,S} {8,S}
-8   C  u0 {1,S} {7,S}
+1   Cs u0 {2,S} {3,S} {5,S} {6,S}
+2   Cs u0 {1,S} {4,S} {7,S} {8,S}
+3 * Cs u1 {1,S} {4,S} {9,S}
+4   Cs u0 {2,S} {3,S}
+5   C  u0 {1,S} {7,S}
+6   C  u0 {1,S} {8,S}
+7   C  u0 {2,S} {5,S}
+8   C  u0 {2,S} {6,S}
 9   H  u0 {3,S}
 """,
     thermo = ThermoData(
@@ -1715,15 +2311,15 @@ entry(
     label = "CCJC",
     group = 
 """
-1  * Cs u1 {2,S} {3,S} {4,S}
-2    Cs u0 {1,S} {5,S} {6,S} {7,S}
-3    Cs u0 {1,S} {8,S} {9,S} {10,S}
+1    Cs u0 {3,S} {4,S} {5,S} {6,S}
+2    Cs u0 {3,S} {7,S} {8,S} {9,S}
+3  * Cs u1 {1,S} {2,S} {10,S}
 4    H  u0 {1,S}
-5    H  u0 {2,S}
-6    H  u0 {2,S}
+5    H  u0 {1,S}
+6    H  u0 {1,S}
 7    H  u0 {2,S}
-8    H  u0 {3,S}
-9    H  u0 {3,S}
+8    H  u0 {2,S}
+9    H  u0 {2,S}
 10   H  u0 {3,S}
 """,
     thermo = ThermoData(
@@ -1744,15 +2340,15 @@ entry(
     label = "RCCJC",
     group = 
 """
-1  * Cs u1 {2,S} {3,S} {4,S}
-2    Cs u0 {1,S} {5,S} {6,S} {7,S}
-3    Cs u0 {1,S} {8,S} {9,S} {10,S}
-4    H  u0 {1,S}
-5    C  u0 {2,S}
-6    H  u0 {2,S}
+1    Cs u0 {3,S} {4,S} {5,S} {6,S}
+2    Cs u0 {3,S} {7,S} {8,S} {9,S}
+3  * Cs u1 {1,S} {2,S} {10,S}
+4    C  u0 {1,S}
+5    H  u0 {1,S}
+6    H  u0 {1,S}
 7    H  u0 {2,S}
-8    H  u0 {3,S}
-9    H  u0 {3,S}
+8    H  u0 {2,S}
+9    H  u0 {2,S}
 10   H  u0 {3,S}
 """,
     thermo = ThermoData(
@@ -1773,15 +2369,15 @@ entry(
     label = "RCCJCC",
     group = 
 """
-1  * Cs u1 {2,S} {3,S} {4,S}
-2    Cs u0 {1,S} {5,S} {6,S} {7,S}
-3    Cs u0 {1,S} {8,S} {9,S} {10,S}
-4    H  u0 {1,S}
-5    C  u0 {2,S}
-6    H  u0 {2,S}
-7    H  u0 {2,S}
-8    C  u0 {3,S}
-9    H  u0 {3,S}
+1    Cs u0 {3,S} {4,S} {5,S} {6,S}
+2    Cs u0 {3,S} {7,S} {8,S} {9,S}
+3  * Cs u1 {1,S} {2,S} {10,S}
+4    C  u0 {1,S}
+5    H  u0 {1,S}
+6    H  u0 {1,S}
+7    C  u0 {2,S}
+8    H  u0 {2,S}
+9    H  u0 {2,S}
 10   H  u0 {3,S}
 """,
     thermo = ThermoData(
@@ -1802,15 +2398,15 @@ entry(
     label = "cyclopentane",
     group = 
 """
-1  * Cs u1 {2,S} {3,S} {4,S}
-2    Cs u0 {1,S} {5,S} {6,S} {7,S}
-3    Cs u0 {1,S} {8,S} {9,S} {10,S}
-4    H  u0 {1,S}
-5    C  u0 {2,S} {8,S}
-6    H  u0 {2,S}
-7    H  u0 {2,S}
-8    C  u0 {3,S} {5,S}
-9    H  u0 {3,S}
+1    Cs u0 {3,S} {4,S} {6,S} {7,S}
+2    Cs u0 {3,S} {5,S} {8,S} {9,S}
+3  * Cs u1 {1,S} {2,S} {10,S}
+4    C  u0 {1,S} {5,S}
+5    C  u0 {2,S} {4,S}
+6    H  u0 {1,S}
+7    H  u0 {1,S}
+8    H  u0 {2,S}
+9    H  u0 {2,S}
 10   H  u0 {3,S}
 """,
     thermo = ThermoData(
@@ -1831,17 +2427,17 @@ entry(
     label = "cyclohexane",
     group = 
 """
-1  * Cs u1 {2,S} {3,S} {4,S}
-2    Cs u0 {1,S} {5,S} {6,S} {7,S}
-3    Cs u0 {1,S} {8,S} {9,S} {10,S}
-4    H  u0 {1,S}
-5    C  u0 {2,S} {11,S}
-6    H  u0 {2,S}
-7    H  u0 {2,S}
-8    C  u0 {3,S} {11,S}
-9    H  u0 {3,S}
-10   H  u0 {3,S}
-11   C  u0 {5,S} {8,S}
+1    Cs u0 {3,S} {4,S} {7,S} {8,S}
+2    Cs u0 {3,S} {5,S} {9,S} {10,S}
+3  * Cs u1 {1,S} {2,S} {11,S}
+4    C  u0 {1,S} {6,S}
+5    C  u0 {2,S} {6,S}
+6    C  u0 {4,S} {5,S}
+7    H  u0 {1,S}
+8    H  u0 {1,S}
+9    H  u0 {2,S}
+10   H  u0 {2,S}
+11   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1884,11 +2480,11 @@ entry(
     label = "Indenyl",
     group = 
 """
-1 * Cs u1 {2,S} {5,S} {6,S}
-2   Cb u0 {1,S} {3,B}
-3   Cb u0 {2,B} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {1,S} {4,D}
+1 * Cs u1 {2,S} {3,S} {6,S}
+2   Cb u0 {1,S} {4,B}
+3   Cd u0 {1,S} {5,D}
+4   Cb u0 {2,B} {5,S}
+5   Cd u0 {3,D} {4,S}
 6   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -1932,10 +2528,10 @@ entry(
     label = "cyclobutene-allyl",
     group = 
 """
-1 * Cs u1 {2,S} {4,S} {5,S}
-2   Cs u0 {1,S} {3,S}
-3   Cd u0 {2,S} {4,D}
-4   Cd u0 {1,S} {3,D}
+1 * Cs u1 {2,S} {3,S} {5,S}
+2   Cs u0 {1,S} {4,S}
+3   Cd u0 {1,S} {4,D}
+4   Cd u0 {2,S} {3,D}
 5   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -1956,12 +2552,12 @@ entry(
     label = "cyclopentene-allyl",
     group = 
 """
-1   Cs u0 {2,S} {3,S}
-2   C  u0 {1,S} {5,S}
-3 * Cs u1 {1,S} {4,S} {6,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {2,S} {4,D}
-6   H  u0 {3,S}
+1 * Cs u1 {2,S} {3,S} {6,S}
+2   Cs u0 {1,S} {4,S}
+3   Cd u0 {1,S} {5,D}
+4   C  u0 {2,S} {5,S}
+5   Cd u0 {3,D} {4,S}
+6   H  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1981,13 +2577,13 @@ entry(
     label = "cyclohexene-allyl",
     group = 
 """
-1   C  u0 {2,S} {3,S}
+1 * Cs u1 {2,S} {3,S} {7,S}
 2   Cs u0 {1,S} {4,S}
-3   C  u0 {1,S} {6,S}
-4 * Cs u1 {2,S} {5,S} {7,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {3,S} {5,D}
-7   H  u0 {4,S}
+3   Cd u0 {1,S} {5,D}
+4   C  u0 {2,S} {6,S}
+5   Cd u0 {3,D} {6,S}
+6   C  u0 {4,S} {5,S}
+7   H  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1999,6 +2595,35 @@ entry(
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 3033,
+    label = "C=CCJC(O)C=C",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {5,S}
+2   Cs u0 {1,S} {4,S} {6,S}
+3   Cd u0 {1,S} {8,D}
+4   Cd u0 {2,S} {7,D}
+5   H  u0 {1,S}
+6   Os u0 {2,S}
+7   C  u0 {4,D}
+8   C  u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.3,-4.5,-3,-2.8,-3.9,-5.6,-10.2],'J/(mol*K)'),
+        H298 = (286.3,'kJ/mol'),
+        S298 = (-9.6,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -2074,6 +2699,34 @@ u"""
 )
 
 entry(
+    index = 3081,
+    label = "C=CCJC=C=O",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {5,S}
+2   Cd  u0 {1,S} {4,D}
+3   Cd  u0 {1,S} {6,D}
+4   Cdd u0 {2,D} {7,D}
+5   H   u0 {1,S}
+6   C   u0 {3,D}
+7   Od  u0 {4,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.5,-3.8,-3.7,-4.3,-6.1,-8.1,-11.5],'J/(mol*K)'),
+        H298 = (318,'kJ/mol'),
+        S298 = (-22,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
     index = 28,
     label = "Sec_Propargyl",
     group = 
@@ -2093,6 +2746,85 @@ entry(
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 3013,
+    label = "CCJCO",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   C  u0 {1,S} {5,S}
+3   C  u0 {1,S}
+4   H  u0 {1,S}
+5   Os u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.9,-8.3,-10,-11.6,-14.5,-16.8,-20.3],'J/(mol*K)'),
+        H298 = (416.9,'kJ/mol'),
+        S298 = (13.8,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3028,
+    label = "C=CCJCO",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   C  u0 {1,S} {5,S}
+3   Cd u0 {1,S} {6,D}
+4   H  u0 {1,S}
+5   Os u0 {2,S}
+6   C  u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3,3.2,2.4,1,-1.8,-4.5,-9.8],'J/(mol*K)'),
+        H298 = (335.4,'kJ/mol'),
+        S298 = (-19.9,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3040,
+    label = "CCJC=O",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   CO u0 {1,S} {5,D}
+3   C  u0 {1,S}
+4   H  u0 {1,S}
+5   Od u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.9,-3.4,-3.4,-4.2,-6.7,-9.2,-13.9],'J/(mol*K)'),
+        H298 = (379.1,'kJ/mol'),
+        S298 = (-5.7,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -2118,6 +2850,88 @@ entry(
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 3043,
+    label = "C=OCJC=O",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   CO u0 {1,S} {5,D}
+3   CO u0 {1,S} {6,D}
+4   H  u0 {1,S}
+5   Od u0 {2,D}
+6   Od u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.9,1.5,0.9,0,-2.5,-5.1,-10.2],'J/(mol*K)'),
+        H298 = (382.7,'kJ/mol'),
+        S298 = (-13,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3042,
+    label = "CCJCC=O",
+    group = 
+"""
+1 * Cs u1 {2,S} {4,S} {5,S}
+2   C  u0 {1,S} {3,S}
+3   CO u0 {2,S} {6,D}
+4   C  u0 {1,S}
+5   H  u0 {1,S}
+6   Od u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.9,-8.3,-10,-11.6,-14.5,-16.8,-20.3],'J/(mol*K)'),
+        H298 = (416.9,'kJ/mol'),
+        S298 = (13.8,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3078,
+    label = "CCJC(C)=C=O",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {5,S}
+2   Cd  u0 {1,S} {4,D}
+3   C   u0 {1,S} {6,S}
+4   Cdd u0 {2,D} {7,D}
+5   H   u0 {1,S}
+6   C   u0 {3,S}
+7   Od  u0 {4,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3,-4,-6.2,-7.9,-10.8,-12.9,-16.9],'J/(mol*K)'),
+        H298 = (365.4,'kJ/mol'),
+        S298 = (8.3,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -2238,12 +3052,12 @@ entry(
     label = "C2CJCOOH",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cs u0 {1,S} {5,S}
-3   Cs u0 {1,S}
+1 * Cs u1 {2,S} {4,S} {5,S}
+2   Cs u0 {1,S} {3,S}
+3   Os u0 {2,S} {6,S}
 4   Cs u0 {1,S}
-5   Os u0 {2,S} {6,S}
-6   Os u0 {5,S}
+5   Cs u0 {1,S}
+6   Os u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2707,6 +3521,171 @@ u"""
 )
 
 entry(
+    index = 3016,
+    label = "CCJ(C)CO",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   C  u0 {1,S} {5,S}
+3   C  u0 {1,S}
+4   C  u0 {1,S}
+5   Os u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.8,-9.3,-10.3,-11,-12.4,-13.7,-16.1],'J/(mol*K)'),
+        H298 = (369.4,'kJ/mol'),
+        S298 = (-0.8,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3063,
+    label = "C=CCJ(C)C=O",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {5,D}
+3   CO u0 {1,S} {6,D}
+4   C  u0 {1,S}
+5   C  u0 {2,D}
+6   Od u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-12.2,-10.5,-9.4,-9,-9.1,-9.7,-11.5],'J/(mol*K)'),
+        H298 = (335.4,'kJ/mol'),
+        S298 = (-17.3,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3064,
+    label = "C=CCJ(C=O)C=C",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {5,D}
+3   CO u0 {1,S} {7,D}
+4   Cd u0 {1,S} {6,D}
+5   C  u0 {2,D}
+6   C  u0 {4,D}
+7   Od u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-10,-7.5,-6.1,-5.5,-5.6,-6.4,-8.5],'J/(mol*K)'),
+        H298 = (307.4,'kJ/mol'),
+        S298 = (-27.9,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3077,
+    label = "CCJ(C)C=C=O",
+    group = 
+"""
+1 * Cs  u1 {2,S} {4,S} {5,S}
+2   Cd  u0 {1,S} {3,D}
+3   Cdd u0 {2,D} {6,D}
+4   C   u0 {1,S}
+5   C   u0 {1,S}
+6   Od  u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.1,-10,-11.8,-12.9,-14.1,-15.1,-16.9],'J/(mol*K)'),
+        H298 = (361.8,'kJ/mol'),
+        S298 = (3.5,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3083,
+    label = "C=CCJ(C)C=C=O",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {5,S}
+2   Cd  u0 {1,S} {4,D}
+3   Cd  u0 {1,S} {6,D}
+4   Cdd u0 {2,D} {7,D}
+5   C   u0 {1,S}
+6   C   u0 {3,D}
+7   Od  u0 {4,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.8,-8.2,-8.9,-9.3,-10.1,-11,-12.9],'J/(mol*K)'),
+        H298 = (313.4,'kJ/mol'),
+        S298 = (0.5,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3084,
+    label = "C=CCJ(C=C=O)C=C",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cd  u0 {1,S} {5,D}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
+5   Cdd u0 {2,D} {8,D}
+6   C   u0 {3,D}
+7   C   u0 {4,D}
+8   Od  u0 {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-10.7,-9.3,-8.1,-7.2,-6.8,-7.2,-8.8],'J/(mol*K)'),
+        H298 = (287.1,'kJ/mol'),
+        S298 = (-27.5,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
     index = 36,
     label = "CsJO",
     group = 
@@ -2716,11 +3695,18 @@ entry(
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 """,
-    thermo = u'CsJOH',
-    shortDesc = u"""""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.9,3.7,1.6,-0.9,-5.9,-10.3,-17.5],'J/(mol*K)'),
+        H298 = (413.3,'kJ/mol'),
+        S298 = (1.2,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
     longDesc = 
 u"""
-
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -2791,14 +3777,14 @@ entry(
     label = "CsJOCH3",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
-3   H  u0 {1,S}
+1   Cs u0 {3,S} {4,S} {5,S} {6,S}
+2 * Cs u1 {3,S} {7,S} {8,S}
+3   Os u0 {1,S} {2,S}
 4   H  u0 {1,S}
-5   Cs u0 {2,S} {6,S} {7,S} {8,S}
-6   H  u0 {5,S}
-7   H  u0 {5,S}
-8   H  u0 {5,S}
+5   H  u0 {1,S}
+6   H  u0 {1,S}
+7   H  u0 {2,S}
+8   H  u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2818,14 +3804,14 @@ entry(
     label = "CsJOCC",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
-5   Cs u0 {2,S} {6,S} {7,S} {8,S}
-6   C  u0 {5,S}
-7   H  u0 {5,S}
-8   H  u0 {5,S}
+1   Cs u0 {3,S} {4,S} {5,S} {6,S}
+2 * Cs u1 {3,S} {7,S} {8,S}
+3   Os u0 {1,S} {2,S}
+4   C  u0 {1,S}
+5   H  u0 {1,S}
+6   H  u0 {1,S}
+7   H  u0 {2,S}
+8   H  u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2845,14 +3831,14 @@ entry(
     label = "CsJOCC2",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
-5   Cs u0 {2,S} {6,S} {7,S} {8,S}
-6   C  u0 {5,S}
-7   C  u0 {5,S}
-8   H  u0 {5,S}
+1   Cs u0 {3,S} {4,S} {5,S} {6,S}
+2 * Cs u1 {3,S} {7,S} {8,S}
+3   Os u0 {1,S} {2,S}
+4   C  u0 {1,S}
+5   C  u0 {1,S}
+6   H  u0 {1,S}
+7   H  u0 {2,S}
+8   H  u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2872,14 +3858,14 @@ entry(
     label = "CsJOCC3",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
-5   Cs u0 {2,S} {6,S} {7,S} {8,S}
-6   C  u0 {5,S}
-7   C  u0 {5,S}
-8   C  u0 {5,S}
+1   Cs u0 {3,S} {4,S} {5,S} {6,S}
+2 * Cs u1 {3,S} {7,S} {8,S}
+3   Os u0 {1,S} {2,S}
+4   C  u0 {1,S}
+5   C  u0 {1,S}
+6   C  u0 {1,S}
+7   H  u0 {2,S}
+8   H  u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2918,12 +3904,12 @@ entry(
     label = "CsJOC(O)",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
-3   H  u0 {1,S}
+1 * Cs u1 {2,S} {4,S} {5,S}
+2   Os u0 {1,S} {3,S}
+3   CO u0 {2,S} {6,D}
 4   H  u0 {1,S}
-5   CO u0 {2,S} {6,D}
-6   Od u0 {5,D}
+5   H  u0 {1,S}
+6   Od u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2943,13 +3929,13 @@ entry(
     label = "CsJOC(O)H",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
-3   H  u0 {1,S}
+1 * Cs u1 {3,S} {4,S} {5,S}
+2   CO u0 {3,S} {6,D} {7,S}
+3   Os u0 {1,S} {2,S}
 4   H  u0 {1,S}
-5   CO u0 {2,S} {6,D} {7,S}
-6   Od u0 {5,D}
-7   H  u0 {5,S}
+5   H  u0 {1,S}
+6   Od u0 {2,D}
+7   H  u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2969,13 +3955,13 @@ entry(
     label = "CsJOC(O)C",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
-3   H  u0 {1,S}
+1 * Cs u1 {3,S} {4,S} {5,S}
+2   CO u0 {3,S} {6,D} {7,S}
+3   Os u0 {1,S} {2,S}
 4   H  u0 {1,S}
-5   CO u0 {2,S} {6,D} {7,S}
-6   Od u0 {5,D}
-7   C  u0 {5,S}
+5   H  u0 {1,S}
+6   Od u0 {2,D}
+7   C  u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2987,6 +3973,33 @@ entry(
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 3027,
+    label = "C=COCJ",
+    group = 
+"""
+1 * Cs u1 {2,S} {4,S} {5,S}
+2   Os u0 {1,S} {3,S}
+3   Cd u0 {2,S} {6,D}
+4   H  u0 {1,S}
+5   H  u0 {1,S}
+6   C  u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.9,-7.2,-8.9,-10.6,-13.6,-15.9,-19.7],'J/(mol*K)'),
+        H298 = (409.4,'kJ/mol'),
+        S298 = (13.7,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -3019,12 +4032,12 @@ entry(
     label = "CsJOOH",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
-3   H  u0 {1,S}
+1 * Cs u1 {2,S} {4,S} {5,S}
+2   Os u0 {1,S} {3,S}
+3   Os u0 {2,S} {6,S}
 4   H  u0 {1,S}
-5   Os u0 {2,S} {6,S}
-6   H  u0 {5,S}
+5   H  u0 {1,S}
+6   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3044,12 +4057,12 @@ entry(
     label = "CsJOOC",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
-3   H  u0 {1,S}
+1 * Cs u1 {2,S} {4,S} {5,S}
+2   Os u0 {1,S} {3,S}
+3   Os u0 {2,S} {6,S}
 4   H  u0 {1,S}
-5   Os u0 {2,S} {6,S}
-6   C  u0 {5,S}
+5   H  u0 {1,S}
+6   C  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3074,11 +4087,18 @@ entry(
 3   C  u0 {1,S}
 4   H  u0 {1,S}
 """,
-    thermo = u'CCsJOC',
-    shortDesc = u"""""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.2,0.4,-1.5,-3.9,-8.6,-12.5,-18.7],'J/(mol*K)'),
+        H298 = (402,'kJ/mol'),
+        S298 = (3.9,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
     longDesc = 
 u"""
-
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -3173,12 +4193,12 @@ entry(
     label = "CCsJOC(O)",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
-3   C  u0 {1,S}
-4   H  u0 {1,S}
-5   CO u0 {2,S} {6,D}
-6   Od u0 {5,D}
+1 * Cs u1 {2,S} {4,S} {5,S}
+2   Os u0 {1,S} {3,S}
+3   CO u0 {2,S} {6,D}
+4   C  u0 {1,S}
+5   H  u0 {1,S}
+6   Od u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3198,13 +4218,13 @@ entry(
     label = "CCsJOC(O)H",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
-3   C  u0 {1,S}
-4   H  u0 {1,S}
-5   CO u0 {2,S} {6,D} {7,S}
-6   Od u0 {5,D}
-7   H  u0 {5,S}
+1 * Cs u1 {3,S} {4,S} {5,S}
+2   CO u0 {3,S} {6,D} {7,S}
+3   Os u0 {1,S} {2,S}
+4   C  u0 {1,S}
+5   H  u0 {1,S}
+6   Od u0 {2,D}
+7   H  u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3224,19 +4244,46 @@ entry(
     label = "CCsJOC(O)C",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
-3   C  u0 {1,S}
-4   H  u0 {1,S}
-5   CO u0 {2,S} {6,D} {7,S}
-6   Od u0 {5,D}
-7   C  u0 {5,S}
+1 * Cs u1 {3,S} {4,S} {5,S}
+2   CO u0 {3,S} {6,D} {7,S}
+3   Os u0 {1,S} {2,S}
+4   C  u0 {1,S}
+5   H  u0 {1,S}
+6   Od u0 {2,D}
+7   C  u0 {2,S}
 """,
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 3030,
+    label = "C=CCJ(O)C",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {5,D}
+3   Os u0 {1,S} {6,S}
+4   H  u0 {1,S}
+5   C  u0 {2,D}
+6   C  u0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.7,-8.4,-10,-11,-12.1,-13.1,-15.5],'J/(mol*K)'),
+        H298 = (328.3,'kJ/mol'),
+        S298 = (4.5,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -3269,12 +4316,12 @@ entry(
     label = "CCsJOOH",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
-3   C  u0 {1,S}
-4   H  u0 {1,S}
-5   Os u0 {2,S} {6,S}
-6   H  u0 {5,S}
+1 * Cs u1 {2,S} {4,S} {5,S}
+2   Os u0 {1,S} {3,S}
+3   Os u0 {2,S} {6,S}
+4   C  u0 {1,S}
+5   H  u0 {1,S}
+6   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3294,12 +4341,12 @@ entry(
     label = "CCsJOOC",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
-3   C  u0 {1,S}
-4   H  u0 {1,S}
-5   Os u0 {2,S} {6,S}
-6   C  u0 {5,S}
+1 * Cs u1 {2,S} {4,S} {5,S}
+2   Os u0 {1,S} {3,S}
+3   Os u0 {2,S} {6,S}
+4   C  u0 {1,S}
+5   H  u0 {1,S}
+6   C  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3315,6 +4362,58 @@ u"""
 )
 
 entry(
+    index = 3026,
+    label = "C=CCJO",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {5,D}
+3   Os u0 {1,S}
+4   H  u0 {1,S}
+5   C  u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6,-3.9,-3,-3.2,-5.7,-8.6,-13.8],'J/(mol*K)'),
+        H298 = (333.9,'kJ/mol'),
+        S298 = (-7.4,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3041,
+    label = "OCJC=O",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   CO u0 {1,S} {5,D}
+3   Os u0 {1,S}
+4   H  u0 {1,S}
+5   Od u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3,-3.3,-5.6,-7.4,-9.8,-11.2,-14],'J/(mol*K)'),
+        H298 = (356.6,'kJ/mol'),
+        S298 = (0.2,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
     index = 61,
     label = "C2CsJO",
     group = 
@@ -3324,11 +4423,18 @@ entry(
 3   C  u0 {1,S}
 4   C  u0 {1,S}
 """,
-    thermo = u'C2CsJOC',
-    shortDesc = u"""""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2,-7.1,-10.7,-13.4,-16.6,-18.5,-21.2],'J/(mol*K)'),
+        H298 = (398.4,'kJ/mol'),
+        S298 = (14.4,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
     longDesc = 
 u"""
-
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -3423,12 +4529,12 @@ entry(
     label = "C2CsJOC(O)",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
-3   C  u0 {1,S}
+1 * Cs u1 {2,S} {4,S} {5,S}
+2   Os u0 {1,S} {3,S}
+3   CO u0 {2,S} {6,D}
 4   C  u0 {1,S}
-5   CO u0 {2,S} {6,D}
-6   Od u0 {5,D}
+5   C  u0 {1,S}
+6   Od u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3448,13 +4554,13 @@ entry(
     label = "C2CsJOC(O)H",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
-3   C  u0 {1,S}
+1 * Cs u1 {3,S} {4,S} {5,S}
+2   CO u0 {3,S} {6,D} {7,S}
+3   Os u0 {1,S} {2,S}
 4   C  u0 {1,S}
-5   CO u0 {2,S} {6,D} {7,S}
-6   Od u0 {5,D}
-7   H  u0 {5,S}
+5   C  u0 {1,S}
+6   Od u0 {2,D}
+7   H  u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3474,13 +4580,13 @@ entry(
     label = "C2CsJOC(O)C",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
-3   C  u0 {1,S}
+1 * Cs u1 {3,S} {4,S} {5,S}
+2   CO u0 {3,S} {6,D} {7,S}
+3   Os u0 {1,S} {2,S}
 4   C  u0 {1,S}
-5   CO u0 {2,S} {6,D} {7,S}
-6   Od u0 {5,D}
-7   C  u0 {5,S}
+5   C  u0 {1,S}
+6   Od u0 {2,D}
+7   C  u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3524,12 +4630,12 @@ entry(
     label = "C2CsJOOH",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
-3   C  u0 {1,S}
+1 * Cs u1 {2,S} {4,S} {5,S}
+2   Os u0 {1,S} {3,S}
+3   Os u0 {2,S} {6,S}
 4   C  u0 {1,S}
-5   Os u0 {2,S} {6,S}
-6   H  u0 {5,S}
+5   C  u0 {1,S}
+6   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3549,12 +4655,12 @@ entry(
     label = "C2CsJOOC",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
-3   C  u0 {1,S}
+1 * Cs u1 {2,S} {4,S} {5,S}
+2   Os u0 {1,S} {3,S}
+3   Os u0 {2,S} {6,S}
 4   C  u0 {1,S}
-5   Os u0 {2,S} {6,S}
-6   C  u0 {5,S}
+5   C  u0 {1,S}
+6   C  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3563,49 +4669,6 @@ entry(
         S298 = (2.08,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 264,
-    label = "CCsJOS",
-    group = 
-"""
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   C  u0 {1,S}
-3   Os u0 {1,S}
-4   Ss u0 {1,S}
-""",
-    thermo = u'CCsJOHSH',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 265,
-    label = "CCsJOHSH",
-    group = 
-"""
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   C  u0 {1,S}
-3   Os u0 {1,S} {5,S}
-4   Ss u0 {1,S} {6,S}
-5   H  u0 {3,S}
-6   H  u0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.21,-2.38,-2.47,-2.55,-2.89,-3.33,-4.54],'cal/(mol*K)'),
-        H298 = (92.6,'kcal/mol'),
-        S298 = (1.67,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CAC CBS-QB3 1d-hr""",
     longDesc = 
 u"""
 
@@ -3881,10 +4944,10 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cs u0 {1,S}
-3   Cd u0 {1,S} {5,D}
+2   Cd u0 {1,S} {5,D}
+3   Cs u0 {1,S}
 4   Ss u0 {1,S}
-5   C  u0 {3,D}
+5   C  u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3905,10 +4968,10 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cs u0 {1,S}
-3   CS u0 {1,S} {5,D}
+2   CS u0 {1,S} {5,D}
+3   Cs u0 {1,S}
 4   Ss u0 {1,S}
-5   Sd u0 {3,D}
+5   Sd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4098,6 +5161,49 @@ u"""
 )
 
 entry(
+    index = 264,
+    label = "CCsJOS",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   C  u0 {1,S}
+3   Os u0 {1,S}
+4   Ss u0 {1,S}
+""",
+    thermo = u'CCsJOHSH',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 265,
+    label = "CCsJOHSH",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Os u0 {1,S} {5,S}
+3   Ss u0 {1,S} {6,S}
+4   C  u0 {1,S}
+5   H  u0 {2,S}
+6   H  u0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.21,-2.38,-2.47,-2.55,-2.89,-3.33,-4.54],'cal/(mol*K)'),
+        H298 = (92.6,'kcal/mol'),
+        S298 = (1.67,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CAC CBS-QB3 1d-hr""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 300,
     label = "CsJN",
     group = 
@@ -4153,6 +5259,31 @@ entry(
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 3012,
+    label = "OCJO",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Os u0 {1,S}
+3   Os u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1,-8.2,-14.4,-17.5,-19.4,-20.1,-21.5],'J/(mol*K)'),
+        H298 = (408.4,'kJ/mol'),
+        S298 = (15.1,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -4249,25 +5380,350 @@ u"""
 )
 
 entry(
+    index = 3057,
+    label = "CC(C)CJ=O",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S}
+2 * CO u1 {1,S} {5,D}
+3   C  u0 {1,S}
+4   C  u0 {1,S}
+5   Od u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.1,-5.8,-7.9,-9.9,-13.5,-16.2,-20.3],'J/(mol*K)'),
+        H298 = (376.2,'kJ/mol'),
+        S298 = (6.7,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3058,
+    label = "CC(C)2CJ=O",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * CO u1 {1,S} {6,D}
+3   C  u0 {1,S}
+4   C  u0 {1,S}
+5   C  u0 {1,S}
+6   Od u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.7,-5,-7.4,-9.6,-13.1,-15.6,-19.9],'J/(mol*K)'),
+        H298 = (373.3,'kJ/mol'),
+        S298 = (7.5,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3060,
+    label = "CC(C)(C=O)CJ=O",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * CO u1 {1,S} {6,D}
+3   CO u0 {1,S} {7,D}
+4   C  u0 {1,S}
+5   C  u0 {1,S}
+6   Od u0 {2,D}
+7   Od u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.7,-4,-5.4,-7.2,-10.9,-13.9,-18.6],'J/(mol*K)'),
+        H298 = (375.2,'kJ/mol'),
+        S298 = (10.4,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3073,
+    label = "C=CC(C)(C=O)CJ=O",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * CO u1 {1,S} {7,D}
+3   CO u0 {1,S} {8,D}
+4   Cd u0 {1,S} {6,D}
+5   C  u0 {1,S}
+6   C  u0 {4,D}
+7   Od u0 {2,D}
+8   Od u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.5,2.6,-2.4,-6.5,-12,-15.3,-19.7],'J/(mol*K)'),
+        H298 = (373.6,'kJ/mol'),
+        S298 = (1.2,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3071,
+    label = "C=CC(C)2CJ=O",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * CO u1 {1,S} {7,D}
+3   Cd u0 {1,S} {6,D}
+4   C  u0 {1,S}
+5   C  u0 {1,S}
+6   C  u0 {3,D}
+7   Od u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.5,-4.2,-7,-9.3,-12.8,-15.4,-19.4],'J/(mol*K)'),
+        H298 = (371.9,'kJ/mol'),
+        S298 = (10.6,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3059,
+    label = "CC(C)(O)CJ=O",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * CO u1 {1,S} {6,D}
+3   C  u0 {1,S}
+4   Os u0 {1,S}
+5   C  u0 {1,S}
+6   Od u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.9,-2.6,-5.6,-8.1,-12,-14.9,-19.6],'J/(mol*K)'),
+        H298 = (374.9,'kJ/mol'),
+        S298 = (6.8,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3072,
+    label = "C=CC(C)(O)CJ=O",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * CO u1 {1,S} {7,D}
+3   Cd u0 {1,S} {6,D}
+4   Os u0 {1,S}
+5   C  u0 {1,S}
+6   C  u0 {3,D}
+7   Od u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1,-4.5,-7.4,-9.7,-12.7,-15.1,-19.5],'J/(mol*K)'),
+        H298 = (375.3,'kJ/mol'),
+        S298 = (8.7,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
     index = 83,
     label = "C=CCJ=O",
     group = 
 """
-1 * CO u1 {2,D} {3,S}
-2   Od u0 {1,D}
-3   Cd u0 {1,S} {4,D}
-4   Cd u0 {3,D}
+1 * CO u1 {2,S} {3,D}
+2   Cd u0 {1,S} {4,D}
+3   Od u0 {1,D}
+4   Cd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.19,-0.85,-1.59,-2.21,-3.21,-3.89,-4.61],'cal/(mol*K)'),
-        H298 = (83,'kcal/mol'),
-        S298 = (-1.39,'cal/(mol*K)'),
+        Cpdata = ([5.3,2.5,-1.1,-4.5,-9.9,-13.7,-18.9],'J/(mol*K)'),
+        H298 = (379.9,'kJ/mol'),
+        S298 = (7.2,'J/(mol*K)'),
     ),
-    shortDesc = u"""CHEN & BOZZELLI #""",
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
     longDesc = 
 u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
 
+entry(
+    index = 3052,
+    label = "CCCJ=O",
+    group = 
+"""
+1 * CO u1 {2,S} {4,D}
+2   C  u0 {1,S} {3,S}
+3   C  u0 {2,S}
+4   Od u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.7,-3.9,-7,-9.9,-14.5,-17.5,-21.4],'J/(mol*K)'),
+        H298 = (378,'kJ/mol'),
+        S298 = (8.3,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3054,
+    label = "C=OCCJ=O",
+    group = 
+"""
+1   C  u0 {2,S} {3,S}
+2 * CO u1 {1,S} {4,D}
+3   CO u0 {1,S} {5,D}
+4   Od u0 {2,D}
+5   Od u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.2,1.4,-2.8,-6.4,-12,-15.8,-20.4],'J/(mol*K)'),
+        H298 = (379.4,'kJ/mol'),
+        S298 = (0.8,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3056,
+    label = "C=OC=OCJ=O",
+    group = 
+"""
+1   CO u0 {2,S} {3,S} {4,D}
+2 * CO u1 {1,S} {5,D}
+3   CO u0 {1,S} {6,D}
+4   Od u0 {1,D}
+5   Od u0 {2,D}
+6   Od u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.2,-4.6,-4.4,-4.5,-4.9,-5.7,-7.8],'J/(mol*K)'),
+        H298 = (330.2,'kJ/mol'),
+        S298 = (-19.6,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3070,
+    label = "C=C(C)CJ=O",
+    group = 
+"""
+1   Cd u0 {2,S} {3,S} {4,D}
+2 * CO u1 {1,S} {5,D}
+3   C  u0 {1,S}
+4   C  u0 {1,D}
+5   Od u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3,-3.8,-6.4,-8.8,-12.5,-15.3,-19.5],'J/(mol*K)'),
+        H298 = (381.7,'kJ/mol'),
+        S298 = (6.7,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3055,
+    label = "OC=OCJ=O",
+    group = 
+"""
+1   CO u0 {2,S} {3,S} {4,D}
+2 * CO u1 {1,S} {5,D}
+3   Os u0 {1,S}
+4   Od u0 {1,D}
+5   Od u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3,-4.7,-7,-9.5,-14,-17.2,-21.1],'J/(mol*K)'),
+        H298 = (376.2,'kJ/mol'),
+        S298 = (4.6,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -4293,10 +5749,10 @@ entry(
     label = "(O)CJOH",
     group = 
 """
-1 * CO u1 {2,D} {3,S}
-2   Od u0 {1,D}
-3   Os u0 {1,S} {4,S}
-4   H  u0 {3,S}
+1 * CO u1 {2,S} {3,D}
+2   Os u0 {1,S} {4,S}
+3   Od u0 {1,D}
+4   H  u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4316,21 +5772,23 @@ entry(
     label = "(O)CJOC",
     group = 
 """
-1 * CO u1 {2,D} {3,S}
-2   Od u0 {1,D}
-3   Os u0 {1,S} {4,S}
-4   C  u0 {3,S}
+1 * CO u1 {2,S} {3,D}
+2   Os u0 {1,S} {4,S}
+3   Od u0 {1,D}
+4   C  u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.45,-0.27,-1.19,-2.1,-3.63,-4.69,-5.8],'cal/(mol*K)'),
-        H298 = (98.99,'kcal/mol'),
-        S298 = (0.72,'cal/(mol*K)'),
+        Cpdata = ([2.2,-0.2,-3.5,-6.5,-10.9,-13.6,-17],'J/(mol*K)'),
+        H298 = (415.2,'kJ/mol'),
+        S298 = (-4.3,'J/(mol*K)'),
     ),
-    shortDesc = u"""SUMATHI & GREEN (Hf assigned value of (O)CJOCH(CH3)2)""",
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
     longDesc = 
 u"""
-
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -4339,13 +5797,13 @@ entry(
     label = "(O)CJOCH3",
     group = 
 """
-1 * CO u1 {2,D} {3,S}
-2   Od u0 {1,D}
-3   Os u0 {1,S} {4,S}
-4   Cs u0 {3,S} {5,S} {6,S} {7,S}
-5   H  u0 {4,S}
-6   H  u0 {4,S}
-7   H  u0 {4,S}
+1   Cs u0 {2,S} {4,S} {5,S} {6,S}
+2   Os u0 {1,S} {3,S}
+3 * CO u1 {2,S} {7,D}
+4   H  u0 {1,S}
+5   H  u0 {1,S}
+6   H  u0 {1,S}
+7   Od u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4365,13 +5823,13 @@ entry(
     label = "(O)CJOCC",
     group = 
 """
-1 * CO u1 {2,D} {3,S}
-2   Od u0 {1,D}
-3   Os u0 {1,S} {4,S}
-4   Cs u0 {3,S} {5,S} {6,S} {7,S}
-5   C  u0 {4,S}
-6   H  u0 {4,S}
-7   H  u0 {4,S}
+1   Cs u0 {2,S} {4,S} {5,S} {6,S}
+2   Os u0 {1,S} {3,S}
+3 * CO u1 {2,S} {7,D}
+4   C  u0 {1,S}
+5   H  u0 {1,S}
+6   H  u0 {1,S}
+7   Od u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4391,13 +5849,13 @@ entry(
     label = "(O)CJOCC2",
     group = 
 """
-1 * CO u1 {2,D} {3,S}
-2   Od u0 {1,D}
-3   Os u0 {1,S} {4,S}
-4   Cs u0 {3,S} {5,S} {6,S} {7,S}
-5   C  u0 {4,S}
-6   C  u0 {4,S}
-7   H  u0 {4,S}
+1   Cs u0 {2,S} {4,S} {5,S} {6,S}
+2   Os u0 {1,S} {3,S}
+3 * CO u1 {2,S} {7,D}
+4   C  u0 {1,S}
+5   C  u0 {1,S}
+6   H  u0 {1,S}
+7   Od u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4417,13 +5875,13 @@ entry(
     label = "(O)CJOCC3",
     group = 
 """
-1 * CO u1 {2,D} {3,S}
-2   Od u0 {1,D}
-3   Os u0 {1,S} {4,S}
-4   Cs u0 {3,S} {5,S} {6,S} {7,S}
-5   C  u0 {4,S}
-6   C  u0 {4,S}
-7   C  u0 {4,S}
+1   Cs u0 {2,S} {4,S} {5,S} {6,S}
+2   Os u0 {1,S} {3,S}
+3 * CO u1 {2,S} {7,D}
+4   C  u0 {1,S}
+5   C  u0 {1,S}
+6   C  u0 {1,S}
+7   Od u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4792,6 +6250,111 @@ u"""
 )
 
 entry(
+    index = 3061,
+    label = "C=CJC=O",
+    group = 
+"""
+1 * Cd u1 {2,S} {3,D}
+2   CO u0 {1,S} {4,D}
+3   C  u0 {1,D}
+4   Od u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.4,-2.2,-4.8,-7.2,-11.6,-15.5,-22],'J/(mol*K)'),
+        H298 = (462.3,'kJ/mol'),
+        S298 = (9.6,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3079,
+    label = "CCCJ=C=O",
+    group = 
+"""
+1 * Cd  u1 {2,S} {3,D}
+2   C   u0 {1,S} {4,S}
+3   Cdd u0 {1,D} {5,D}
+4   C   u0 {2,S}
+5   Od  u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.6,-3,-4.9,-6.5,-9.4,-11.6,-15.1],'J/(mol*K)'),
+        H298 = (420.2,'kJ/mol'),
+        S298 = (-2.3,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3080,
+    label = "CC(C)CJ=C=O",
+    group = 
+"""
+1   Cs  u0 {2,S} {4,S} {5,S}
+2 * Cd  u1 {1,S} {3,D}
+3   Cdd u0 {2,D} {6,D}
+4   C   u0 {1,S}
+5   C   u0 {1,S}
+6   Od  u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.8,-3.6,-6,-7.8,-10.6,-12.6,-15.8],'J/(mol*K)'),
+        H298 = (424,'kJ/mol'),
+        S298 = (1.7,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3085,
+    label = "C=C(C)CJ=C=O",
+    group = 
+"""
+1   Cd  u0 {2,S} {4,D} {5,S}
+2 * Cd  u1 {1,S} {3,D}
+3   Cdd u0 {2,D} {6,D}
+4   C   u0 {1,D}
+5   C   u0 {1,S}
+6   Od  u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-11.5,-13.7,-14.6,-15,-15.7,-16.3,-17.8],'J/(mol*K)'),
+        H298 = (404,'kJ/mol'),
+        S298 = (5.6,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
     index = 257,
     label = "CdsJ-Ss",
     group = 
@@ -4810,6 +6373,30 @@ entry(
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 3025,
+    label = "C=CJO",
+    group = 
+"""
+1 * Cd u1 {2,D} {3,S}
+2   C  u0 {1,D}
+3   Os u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.1,-11.8,-15.2,-17.2,-19.2,-20.3,-22],'J/(mol*K)'),
+        H298 = (457.4,'kJ/mol'),
+        S298 = (26.7,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -5067,11 +6654,11 @@ entry(
     label = "H3COJ",
     group = 
 """
-1 * Os u1 {2,S}
-2   Cs u0 {1,S} {3,S} {4,S} {5,S}
-3   H  u0 {2,S}
-4   H  u0 {2,S}
-5   H  u0 {2,S}
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * Os u1 {1,S}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+5   H  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5083,6 +6670,192 @@ entry(
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 3022,
+    label = "CC(C)OJ",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S}
+2 * Os u1 {1,S}
+3   C  u0 {1,S}
+4   C  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.3,-6.3,-7.3,-8.3,-9.8,-11.2,-14.2],'J/(mol*K)'),
+        H298 = (447.6,'kJ/mol'),
+        S298 = (-6.8,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3023,
+    label = "CC(C)2OJ",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * Os u1 {1,S}
+3   C  u0 {1,S}
+4   C  u0 {1,S}
+5   C  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.2,-7.9,-9,-9.9,-10.7,-11.7,-14.6],'J/(mol*K)'),
+        H298 = (446.1,'kJ/mol'),
+        S298 = (-4.6,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3036,
+    label = "C=CC(C)2OJ",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3 * Os u1 {1,S}
+4   C  u0 {1,S}
+5   C  u0 {1,S}
+6   C  u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.9,-12.1,-12.9,-12.9,-12.6,-12.9,-14.8],'J/(mol*K)'),
+        H298 = (445.9,'kJ/mol'),
+        S298 = (2.7,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3068,
+    label = "C=CC(C)(C=O)OJ",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   CO u0 {1,S} {7,D}
+3   Cd u0 {1,S} {6,D}
+4 * Os u1 {1,S}
+5   C  u0 {1,S}
+6   C  u0 {3,D}
+7   Od u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.5,-11.3,-14.6,-16.2,-17.2,-17.4,-18.4],'J/(mol*K)'),
+        H298 = (462.1,'kJ/mol'),
+        S298 = (10.4,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3051,
+    label = "CC(C)(C=O)OJ",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   CO u0 {1,S} {6,D}
+3 * Os u1 {1,S}
+4   C  u0 {1,S}
+5   C  u0 {1,S}
+6   Od u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.6,-13.9,-16.3,-17.5,-18.4,-18.8,-19.1],'J/(mol*K)'),
+        H298 = (459.1,'kJ/mol'),
+        S298 = (16.3,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3024,
+    label = "CC(C)(O)OJ",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * Os u1 {1,S}
+3   C  u0 {1,S}
+4   C  u0 {1,S}
+5   Os u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-11.8,-18.8,-22.1,-22.3,-19.5,-17.2,-16],'J/(mol*K)'),
+        H298 = (449,'kJ/mol'),
+        S298 = (8,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3037,
+    label = "C=CC(C)(O)OJ",
+    group = 
+"""
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3 * Os u1 {1,S}
+4   C  u0 {1,S}
+5   Os u0 {1,S}
+6   C  u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.2,-12.5,-16.7,-19.1,-20.1,-19.4,-18.2],'J/(mol*K)'),
+        H298 = (450.7,'kJ/mol'),
+        S298 = (8.5,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -5124,13 +6897,62 @@ u"""
 )
 
 entry(
+    index = 3034,
+    label = "C=COJ",
+    group = 
+"""
+1   Cd u0 {2,S} {3,D}
+2 * Os u1 {1,S}
+3   C  u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-10.1,-13.5,-14.6,-14.6,-14.3,-14.5,-16],'J/(mol*K)'),
+        H298 = (358.1,'kJ/mol'),
+        S298 = (3.3,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3035,
+    label = "C=C(C)OJ",
+    group = 
+"""
+1   Cd u0 {2,S} {3,D} {4,S}
+2 * Os u1 {1,S}
+3   C  u0 {1,D}
+4   C  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-9.2,-13.1,-15.6,-17,-17.7,-17.6,-17.6],'J/(mol*K)'),
+        H298 = (354.8,'kJ/mol'),
+        S298 = (7.4,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
     index = 100,
     label = "OJC=O",
     group = 
 """
-1 * Os u1 {2,S}
-2   CO u0 {1,S} {3,D}
-3   Od u0 {2,D}
+1   CO u0 {2,S} {3,D}
+2 * Os u1 {1,S}
+3   Od u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5142,6 +6964,57 @@ entry(
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 3049,
+    label = "OC=OOJ",
+    group = 
+"""
+1   CO u0 {2,S} {3,S} {4,D}
+2 * Os u1 {1,S}
+3   Os u0 {1,S}
+4   Od u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.5,-13.1,-16.3,-18.3,-20.4,-21.2,-21.4],'J/(mol*K)'),
+        H298 = (460.9,'kJ/mol'),
+        S298 = (6,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3050,
+    label = "C=OC=OOJ",
+    group = 
+"""
+1   CO u0 {2,S} {3,S} {4,D}
+2   CO u0 {1,S} {5,D}
+3 * Os u1 {1,S}
+4   Od u0 {1,D}
+5   Od u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.1,-6.8,-10.1,-13,-17.5,-20.9,-25.9],'J/(mol*K)'),
+        H298 = (479.5,'kJ/mol'),
+        S298 = (16,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -5158,6 +7031,79 @@ entry(
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 3020,
+    label = "CCOJ",
+    group = 
+"""
+1   C  u0 {2,S} {3,S}
+2 * Os u1 {1,S}
+3   C  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.1,-12.2,-14.4,-15.1,-14.7,-14.5,-15.6],'J/(mol*K)'),
+        H298 = (442.9,'kJ/mol'),
+        S298 = (3.8,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3048,
+    label = "C=OCOJ",
+    group = 
+"""
+1   C  u0 {2,S} {3,S}
+2   CO u0 {1,S} {4,D}
+3 * Os u1 {1,S}
+4   Od u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.6,-9.3,-11.5,-13.2,-15,-16,-17.5],'J/(mol*K)'),
+        H298 = (461,'kJ/mol'),
+        S298 = (2.6,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
+    index = 3021,
+    label = "OCOJ",
+    group = 
+"""
+1   C  u0 {2,S} {3,S}
+2 * Os u1 {1,S}
+3   Os u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-10.9,-17.5,-19.8,-19.3,-16.2,-14.3,-14.3],'J/(mol*K)'),
+        H298 = (444.4,'kJ/mol'),
+        S298 = (0.8,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -5182,9 +7128,9 @@ entry(
     label = "ROOJ",
     group = 
 """
-1 * Os  u1 {2,S}
-2   Os  u0 {1,S} {3,S}
-3   R!H u0 {2,S}
+1   Os  u0 {2,S} {3,S}
+2 * Os  u1 {1,S}
+3   R!H u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5204,10 +7150,10 @@ entry(
     label = "C(=O)OOJ",
     group = 
 """
-1 * Os u1 {2,S}
-2   Os u0 {1,S} {3,S}
-3   CO u0 {2,S} {4,D}
-4   Od u0 {3,D}
+1   Os u0 {2,S} {3,S}
+2   CO u0 {1,S} {4,D}
+3 * Os u1 {1,S}
+4   Od u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5227,12 +7173,12 @@ entry(
     label = "C3COOJ",
     group = 
 """
-1 * Os u1 {2,S}
-2   Os u0 {1,S} {3,S}
-3   Cs u0 {2,S} {4,S} {5,S} {6,S}
-4   C  u0 {3,S}
-5   C  u0 {3,S}
-6   C  u0 {3,S}
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Os u0 {1,S} {6,S}
+3   C  u0 {1,S}
+4   C  u0 {1,S}
+5   C  u0 {1,S}
+6 * Os u1 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5252,9 +7198,9 @@ entry(
     label = "HOOJ",
     group = 
 """
-1 * Os u1 {2,S}
-2   Os u0 {1,S} {3,S}
-3   H  u0 {2,S}
+1   Os u0 {2,S} {3,S}
+2 * Os u1 {1,S}
+3   H  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6222,12 +8168,33 @@ L1: Radical
                         L7: RCCJ
                         L7: Isobutyl
                         L7: Neopentyl
+                            L8: CJC(C)2C=O
+                                L9: CJC(C=O)2C
+                                    L10: C=CC(C=O)2CJ
+                                L9: C=CC(C)(C=O)CJ
+                        L7: CJC(C)OC
+                        L7: CJC(C)2O
+                            L8: C=CC(C)(O)CJ
+                                L9: C=CC(O)(C=O)CJ
+                            L8: CJC(C)(C=O)O
+                        L7: CJC(O)2C
+                            L8: C=CC(O)2CJ
+                        L7: CJC(C)C=O
+                        L7: CJC(C)C=C=O
                     L6: Benzyl_P
                     L6: Allyl_P
                         L7: C=CC=CCJ
                         L7: CTCC=CCJ
+                        L7: C=C(O)CJ
+                        L7: C=C(C=O)CJ
+                        L7: CJC=C=O
+                        L7: C=C(CJ)C=C=O
                     L6: Propargyl
-                    L6: C2JC=O
+                    L6: CJCO
+                    L6: CJC=O
+                        L7: C2JC=O
+                    L6: CJCC=O
+                    L6: CJCC=C=O
                 L5: Cs_S
                     L6: (Cs)2CsJ
                         L7: cyclopentene-4
@@ -6291,11 +8258,19 @@ L1: Radical
                         L7: cyclobutene-allyl
                         L7: cyclopentene-allyl
                         L7: cyclohexene-allyl
+                        L7: C=CCJC(O)C=C
                     L6: C=CCJC=C
                         L7: cyclopropenyl-allyl
                         L7: 1,3-cyclopentadiene-allyl
+                        L7: C=CCJC=C=O
                     L6: Sec_Propargyl
-                    L6: CCJCHO
+                    L6: CCJCO
+                        L7: C=CCJCO
+                    L6: CCJC=O
+                        L7: CCJCHO
+                        L7: C=OCJC=O
+                    L6: CCJCC=O
+                    L6: CCJC(C)=C=O
                 L5: Cs_T
                     L6: Tertalkyl
                         L7: bicyclo[1.1.0]butane-tertiary
@@ -6320,6 +8295,12 @@ L1: Radical
                     L6: C2CJCO
                         L7: C2CJCHO
                     L6: bicyclo[2.2.0]hexa-2,5-diene-C1
+                    L6: CCJ(C)CO
+                    L6: C=CCJ(C)C=O
+                        L7: C=CCJ(C=O)C=C
+                    L6: CCJ(C)C=C=O
+                        L7: C=CCJ(C)C=C=O
+                            L8: C=CCJ(C=C=O)C=C
                 L5: CsJO
                     L6: CsJOH
                     L6: CsJOC
@@ -6332,6 +8313,7 @@ L1: Radical
                             L8: CsJOC(O)
                                 L9: CsJOC(O)H
                                 L9: CsJOC(O)C
+                            L8: C=COCJ
                     L6: CsJOO
                         L7: CsJOOH
                         L7: CsJOOC
@@ -6343,9 +8325,12 @@ L1: Radical
                             L8: CCsJOC(O)
                                 L9: CCsJOC(O)H
                                 L9: CCsJOC(O)C
+                        L7: C=CCJ(O)C
                     L6: CCsJOO
                         L7: CCsJOOH
                         L7: CCsJOOC
+                    L6: C=CCJO
+                    L6: OCJC=O
                 L5: C2CsJO
                     L6: C2CsJOH
                     L6: C2CsJOC
@@ -6385,12 +8370,25 @@ L1: Radical
                 L5: CsJN
                 L5: CCsJN
                 L5: C2CsJN
+                L5: OCJO
             L4: CdsJ
                 L5: CdsJO
                     L6: HCdsJO
                     L6: CCJ=O
                         L7: CsCJ=O
+                            L8: CC(C)CJ=O
+                                L9: CC(C)2CJ=O
+                                    L10: CC(C)(C=O)CJ=O
+                                        L11: C=CC(C)(C=O)CJ=O
+                                    L10: C=CC(C)2CJ=O
+                                L9: CC(C)(O)CJ=O
+                                    L10: C=CC(C)(O)CJ=O
                         L7: C=CCJ=O
+                        L7: CCCJ=O
+                            L8: C=OCCJ=O
+                                L9: C=OC=OCJ=O
+                            L8: C=C(C)CJ=O
+                        L7: OC=OCJ=O
                     L6: (O)CJO
                         L7: (O)CJOH
                         L7: (O)CJOC
@@ -6413,7 +8411,12 @@ L1: Radical
                     L6: cyclopentene-vinyl
                         L7: bicyclo[2.1.1]hex-2-ene-C2
                     L6: 1,3-cyclopentadiene-vinyl-1
+                    L6: C=CJC=O
+                    L6: CCCJ=C=O
+                        L7: CC(C)CJ=C=O
+                        L7: C=C(C)CJ=C=O
                 L5: CdsJ-Ss
+                L5: C=CJO
             L4: CtJ
                 L5: Acetyl
             L4: CbJ
@@ -6428,10 +8431,24 @@ L1: Radical
             L4: COJ
                 L5: CsOJ
                     L6: H3COJ
+                    L6: CC(C)OJ
+                        L7: CC(C)2OJ
+                            L8: C=CC(C)2OJ
+                                L9: C=CC(C)(C=O)OJ
+                            L8: CC(C)(C=O)OJ
+                        L7: CC(C)(O)OJ
+                            L8: C=CC(C)(O)OJ
                 L5: CdsOJ
                     L6: RC=COJ
+                        L7: C=COJ
+                            L8: C=C(C)OJ
                     L6: OJC=O
+                        L7: OC=OOJ
+                        L7: C=OC=OOJ
                 L5: CbOJ
+                L5: CCOJ
+                    L6: C=OCOJ
+                L5: OCOJ
             L4: OOJ
                 L5: ROOJ
                     L6: C(=O)OOJ
