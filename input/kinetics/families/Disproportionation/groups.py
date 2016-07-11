@@ -2988,7 +2988,7 @@ forbidden(
     label = "XH_birad_singlet",
     group = 
 """
-1 *3 [C,N,Si] u0 p1 {2,[S,D,T]}
+1 *3 [C,Si] u0 p1 {2,[S,D,T]}
 2 *2 R!H      ux {1,[S,D,T]} {3,S}
 3 *4 H        u0 {2,S}
 """,
@@ -3003,8 +3003,23 @@ forbidden(
     label = "XH_quadrad_singlet",
     group = 
 """
-1 *3 [C,N,Si] u0 p2 {2,[S,D,T]}
+1 *3 [C,Si] u0 p2 {2,[S,D,T]}
 2 *2 R!H      ux {1,[S,D,T]} {3,S}
+3 *4 H        u0 {2,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "XH_N_birad_singlet",
+    group = 
+"""
+1 *3 N u0 p2 {2,[S,D]}
+2 *2 R!H      ux {1,[S,D]} {3,S}
 3 *4 H        u0 {2,S}
 """,
     shortDesc = u"""""",
@@ -3018,7 +3033,20 @@ forbidden(
     label = "birad_singlet",
     group = 
 """
-1 *1 [C,N,Si] u0 p1
+1 *1 [C,Si] u0 p1
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "N_birad_singlet",
+    group = 
+"""
+1 *1 N u0 p2
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -3031,7 +3059,7 @@ forbidden(
     label = "quadrad_singlet",
     group = 
 """
-1 *1 [C,N,Si] u0 p2
+1 *1 [C,Si] u0 p2
 """,
     shortDesc = u"""""",
     longDesc = 

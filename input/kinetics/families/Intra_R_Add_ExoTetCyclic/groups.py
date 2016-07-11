@@ -3172,7 +3172,20 @@ forbidden(
     label = "birad_singlet",
     group = 
 """
-1 *1 [C,N,Si] u0 p1
+1 *1 [C,Si] u0 p1
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "N_birad_singlet",
+    group = 
+"""
+1 *1 N u0 p2
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -3199,7 +3212,7 @@ forbidden(
     label = "quadrad_singlet",
     group = 
 """
-1 *1 [C,N,Si] u0 p2
+1 *1 [C,Si] u0 p2
 """,
     shortDesc = u"""""",
     longDesc = 
