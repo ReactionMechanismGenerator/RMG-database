@@ -5068,11 +5068,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-4.5,-3.942,-3.291,-2.759,-2.08,-1.628,-0.898],'cal/(mol*K)'),
-        H298 = (16.14,'kcal/mol'),
-        S298 = (53.47,'cal/(mol*K)'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
-    shortDesc = u"""norbornane""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -5106,11 +5106,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-8.29,-7.302,-6.501,-5.499,-4.58,-3.778,-2.608],'cal/(mol*K)'),
-        H298 = (17.8,'kcal/mol'),
-        S298 = (53.75,'cal/(mol*K)'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
-    shortDesc = u"""norbornene""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -5193,11 +5193,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-11.2,-9.9,-8.4,-7.1,-5.2,-3.8,-1.7],'cal/(mol*K)'),
-        H298 = (8.5,'kcal/mol'),
-        S298 = (48.66,'cal/(mol*K)'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
-    shortDesc = u"""bicyclo[3.2.1]octane""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -5232,11 +5232,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-9.3,-8.3,-7.2,-6.1,-4.8,-3.6,-2],'cal/(mol*K)'),
-        H298 = (8.5,'kcal/mol'),
-        S298 = (48.61,'cal/(mol*K)'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
-    shortDesc = u"""bicyclo[3.2.1]octene""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
