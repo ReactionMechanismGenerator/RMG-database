@@ -710,20 +710,6 @@ L1: Y_rad
 )
 
 forbidden(
-    label = "CSm_triplet",
-    group = 
-"""
-1 *1 C u2 p0 {2,D}
-2    S u0 p2 {1,D}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
     label = "O2_birad",
     group = 
 """

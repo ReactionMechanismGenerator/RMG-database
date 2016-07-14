@@ -2627,45 +2627,6 @@ L1: radadd_intra
 )
 
 forbidden(
-    label = "OS_birad_singlet",
-    group = 
-"""
-1 *1 [O,S] u0 p3
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
-    label = "birad_singlet",
-    group = 
-"""
-1 *1 [C,Si] u0 p1
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
-    label = "N_birad_singlet",
-    group = 
-"""
-1 *1 N u0 p2
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
     label = "bond31",
     group = 
 """
@@ -2685,19 +2646,6 @@ forbidden(
 """
 1 *3 R!H u1 {2,[S,D]}
 2 *1 R!H u1 {1,[S,D]}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
-    label = "quadrad_singlet",
-    group = 
-"""
-1 *1 [C,Si] u0 p2
 """,
     shortDesc = u"""""",
     longDesc = 

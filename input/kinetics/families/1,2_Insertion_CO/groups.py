@@ -821,16 +821,3 @@ L1: RR'
 """
 )
 
-forbidden(
-    label = "birad_triplet",
-    group = 
-"""
-1 *1 R!H u2
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-

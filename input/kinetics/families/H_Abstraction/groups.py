@@ -6860,45 +6860,6 @@ L1: Y_rad_birad_trirad_quadrad
 )
 
 forbidden(
-    label = "OS_birad_singlet",
-    group = 
-"""
-1 *3 [O,S] u0 p3
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
-    label = "birad_singlet",
-    group = 
-"""
-1 *3 [C,Si] u0 p1
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
-    label = "N_birad_singlet",
-    group = 
-"""
-1 *3 N u0 p2
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
     label = "disprop1",
     group = 
 """
@@ -6977,19 +6938,6 @@ forbidden(
 5    R u0 {4,S} {6,D}
 6    R u0 {5,D} {7,S}
 7    R u1 {6,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
-    label = "quadrad_singlet",
-    group = 
-"""
-1 *3 [C,Si] u0 p2
 """,
     shortDesc = u"""""",
     longDesc = 

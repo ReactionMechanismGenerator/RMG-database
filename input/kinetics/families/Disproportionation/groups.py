@@ -2957,19 +2957,6 @@ u"""
 )
 
 forbidden(
-    label = "OS_birad_singlet",
-    group = 
-"""
-1 *1 [O,S] u0 p3
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
     label = "O_Orad",
     group = 
 """
@@ -3021,45 +3008,6 @@ forbidden(
 1 *3 N u0 p2 {2,[S,D]}
 2 *2 R!H      ux {1,[S,D]} {3,S}
 3 *4 H        u0 {2,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
-    label = "birad_singlet",
-    group = 
-"""
-1 *1 [C,Si] u0 p1
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
-    label = "N_birad_singlet",
-    group = 
-"""
-1 *1 N u0 p2
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
-    label = "quadrad_singlet",
-    group = 
-"""
-1 *1 [C,Si] u0 p2
 """,
     shortDesc = u"""""",
     longDesc = 
