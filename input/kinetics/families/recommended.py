@@ -26,6 +26,8 @@ recommendedFamilies = {
 'Fake_3products2':False,
 'Fake_3products3':False,
 'Fake_Ketohydroperoxides':False,
+'Fake_O_Abstraction':False,
+'Fake_O2_Elimination':False,
 'HO2_Elimination_from_PeroxyRadical':True,
 'H_Abstraction':True,
 'H_shift_cyclopentadiene':True,
