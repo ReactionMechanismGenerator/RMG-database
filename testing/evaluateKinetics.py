@@ -211,7 +211,7 @@ def obtainKineticsFamilyStatistics(FullDatabase, trialDir):
     
     for familyName in allFamilyNames: 
         family=FullDatabase.kinetics.families[familyName]
-        print "Processing", familyName + '...', '(' + str(len(family.rules.entries)) + ' rules)'
+        print "Processing", familyName + '...', '(' + str(len(family.rules.entries)) + ' rate rules)'
         familyCount[familyName]=countNodes(family)
 
     with open(os.path.join(trialDir, 'FamilyStatistics.csv'), 'wb') as csvfile:
@@ -239,9 +239,9 @@ def compareNIST(FullDatabase, trialDir):
     
     for familyName in allFamilyNames: 
         family=FullDatabase.kinetics.families[familyName]
-        print "Processing", familyName + '...', '(' + str(len(family.rules.entries)) + ' nodes)'
+        print "Processing", familyName + '...', '(' + str(len(family.rules.entries)) + ' rate rules)'
         if len(family.rules.entries) < 2:
-            print '    Skipping', familyName, ': only has one node...'
+            print '    Skipping', familyName, ': only has one rate rule...'
         else:
             exactKinetics, approxKinetics = getKineticsDepository(FullDatabase, family, 'NIST')
             
@@ -257,7 +257,7 @@ def compareNIST(FullDatabase, trialDir):
             parityData=analyzeForParity(exactKinetics, approxKinetics, cutoff=8.0)
 
             if len(parityData)<2:
-                print '    Skipping', familyName, ': only one node was calculated...'
+                print '    Skipping', familyName, ': only one rate rule was calculated...'
                 continue
             QDict[familyName]=calculateQ(parityData)
             createParityPlot(parityData)
@@ -302,15 +302,15 @@ def leaveOneOut(FullDatabase, trialDir):
 
     for familyName in allFamilyNames: 
         family=FullDatabase.kinetics.families[familyName]
-        print "Processing", familyName + '...', '(' + str(len(family.rules.entries)) + ' nodes)'
+        print "Processing", familyName + '...', '(' + str(len(family.rules.entries)) + ' rate rules)'
         if len(family.rules.entries) < 2:
-            print '    Skipping', familyName, ': only has one node...'
+            print '    Skipping', familyName, ': only has one rate rule...'
         else:
-            exactKinetics, approxKinetics =getKineticsLeaveOneOut(family)
+            exactKinetics, approxKinetics = getKineticsLeaveOneOut(family)
             parityData=analyzeForParity(exactKinetics, approxKinetics, cutoff=8.0)
 
             if len(parityData)<2:
-                print '    Skipping', familyName, ': only one node was calculated...'
+                print '    Skipping', familyName, ': only one rate rule was calculated...'
                 continue
             QDict[familyName]=calculateQ(parityData)
             createParityPlot(parityData)
