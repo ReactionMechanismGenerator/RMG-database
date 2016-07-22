@@ -42,20 +42,12 @@ def getKineticsDepository(family, depositoryLabel, missingGroups):
     approxKinetics={}
     
     for key, entry in depository.entries.iteritems():
-        try:
-            reaction=entry.item
-            template=family.getReactionTemplate(reaction)
-            exactKinetics[key]=entry.data
-            approxKinetics[key]=family.rules.estimateKinetics(template)[0]
+        reaction=entry.item
+        template=family.getReactionTemplate(reaction)
+        exactKinetics[key]=entry.data
+        approxKinetics[key]=family.rules.estimateKinetics(template)[0]
 
-           
-        except UndeterminableKineticsError:
-            missingGroups.append([family.label, key , 'No Template found'])
-        
-        except Exception as inst:
-            missingGroups.append([family.label, key, 'Other error, needs further investigation'])
-
-    return exactKinetics, approxKinetics, missingGroups
+    return exactKinetics, approxKinetics
         
 def getKineticsLeaveOneOut(family, missingGroups):
     """
@@ -71,42 +63,19 @@ def getKineticsLeaveOneOut(family, missingGroups):
     index=0
     for entryKey in entryKeys:
         index+=1
-#         templateKeys=re.split(';', entryKey)
-#         print entryKey, templateKeys, index
-        try:
-#             print entryKey
-            template=family.getReactionTemplate(family.rules.entries[entryKey][0].item)
+        template=family.getReactionTemplate(family.rules.entries[entryKey][0].item)
 
-            print entryKey, [templateEntry.label for templateEntry in template], index
-            exactKinetics[entryKey], exactKineticsEntry=family.rules.estimateKinetics(template)
-            
-            familyCopy=copy.deepcopy(family)
-            familyCopy.rules.entries.pop(entryKey)
-            familyCopy.fillKineticsRulesByAveragingUp()
-            
-            approxKinetics[entryKey], approxKineticsEntry=familyCopy.rules.estimateKinetics(template)
+        print entryKey, [templateEntry.label for templateEntry in template], index
+        exactKinetics[entryKey], exactKineticsEntry=family.rules.estimateKinetics(template)
         
-        except UndeterminableKineticsError:
-            missingGroups.append([family.label, re.split(';', entryKey), 'No Template found'])
+        familyCopy=copy.deepcopy(family)
+        familyCopy.rules.entries.pop(entryKey)
+        familyCopy.fillKineticsRulesByAveragingUp()
         
-        except Exception as inst:
-            missingGroups.append([family.label, re.split(';', entryKey), 'Other error, needs further investigation'])
-        
-        except AttributeError:
-#             if family.label in logicErrorNodes.keys():
-#                 logicErrorNodes[family.label].append(entryKey)
-#             else:
-#                 logicErrorNodes[family.label]=[entryKey]
-            pass #maybe add more later
+        approxKinetics[entryKey], approxKineticsEntry=familyCopy.rules.estimateKinetics(template)
 
-    return exactKinetics, approxKinetics, missingGroups
+    return exactKinetics, approxKinetics
 
-#returns the average temperature for the range given by the kinetic model
-def getAverageTemp(kineticModel):
-#     try:
-#         return (kineticModel.Tmin.value + kineticModel.Tmax.value)/2
-#     except AttributeError:
-    return 1000
         
 #calculates the parity values for each
 def calculateParity(exactKineticModel, approxKineticModel, T):
@@ -116,7 +85,7 @@ def calculateParity(exactKineticModel, approxKineticModel, T):
     return float(approx)/float(exact)
 
 
-def analyzeForParity(exactKinetics, approxKinetics, T=None, cutoff=0):
+def analyzeForParity(exactKinetics, approxKinetics, T=1000, cutoff=0):
     """
     Creates a parity plot from the exactKinetics and approxKinetics (dictionarys with 
     kineticModels are entries). Uses the median temperature of the exactKinetics to 
@@ -125,9 +94,7 @@ def analyzeForParity(exactKinetics, approxKinetics, T=None, cutoff=0):
     """
     parityData={}
     for key in approxKinetics:
-        if T is None:
-            T=getAverageTemp(exactKinetics[key])
-        print exactKinetics[key]
+            
         exact=exactKinetics[key].getRateCoefficient(T)
         approx=approxKinetics[key].getRateCoefficient(T)
         dataPoint=[exact, approx]
@@ -198,21 +165,6 @@ def countNodes(family):
     return countList
 
 
-def getKineticsFromRules(family, entryKey):
-    
-
-    family.addKineticsRulesFromTrainingSet(thermoDatabase=FullDatabase.thermo)
-    family.fillKineticsRulesByAveragingUp()
-    
-    entryKeys=re.split(';', entryKey)
-    
-    template=[]
-    for key in entryKeys:
-        template.append(family.groups.entries[key])
-    
-    return family.rules.estimateKinetics(template)
-    
-
 ###########################################################################################################
 # Functions for the full Database
 
@@ -270,11 +222,8 @@ def NISTExact(FullDatabase, trialDir):
             for key in keysToRemove:
                 del approxKinetics[key]
             
-            try:
-                parityData=analyzeForParity(exactKinetics, approxKinetics, None, 8)
-            except KeyError:
-                familiesWithErrors.append(family.label)
-                continue
+            parityData=analyzeForParity(exactKinetics, approxKinetics, None, 8)
+
             if len(parityData)<2:
                 print '    Skipping', familyName, ': only one node was calculated...'
                 continue
@@ -331,13 +280,9 @@ def leaveOneOut(FullDatabase, trialDir):
         if len(family.rules.entries) < 2:
             print '    Skipping', familyName, ': only has one node...'
         else:
-            ##getKineticsLeaveOneOut
             exactKinetics, approxKinetics, missingGroups=getKineticsLeaveOneOut(family, missingGroups)
-            try:
-                parityData=analyzeForParity(exactKinetics, approxKinetics, None, 8)
-            except KeyError:
-                familiesWithErrors.append(family.label)
-                continue
+            parityData=analyzeForParity(exactKinetics, approxKinetics, None, 8)
+
             if len(parityData)<2:
                 print '    Skipping', familyName, ': only one node was calculated...'
                 continue
@@ -383,15 +328,6 @@ if __name__ == '__main__':
     trialDir = os.path.join(settings['database.directory'],'..','testing','eval')
     if not os.path.exists(trialDir):
         os.makedirs(trialDir)
-
-    family=FullDatabase.kinetics.families['Disproportionation']
-    print family.depositories
-    print FullDatabase.thermo.libraries
-    entryKey='Y_1centerbirad;O_Cdrad'
-     
-    retrievedKinetics, retrievedEntry = getKineticsFromRules(family, entryKey)
-     
-    print retrievedKinetics
     
     NISTExact(FullDatabase, trialDir)
     countNodesAll(FullDatabase, trialDir)
