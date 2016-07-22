@@ -158,23 +158,28 @@ def createParityPlot(parityData):
     plt.axis([minimum/10, maximum*10, minimum/10, maximum*10])
 
 def countNodes(family):
+    """
+    Count the number of groups under each tree in the Family's Groups.
+    Returns a list containing the following information
+    [Family Label, Number of Rules, Top Node Label 1, Number of Children, ..., Top Node Label N, Number of Children]
+    """
     countList=[family.label]
     
     #get top nodes
     forwardTemplate = family.groups.top[:]
 
     temporary = []
-    symmetricTree = False
     for entry in forwardTemplate:
         if entry not in temporary:
             temporary.append(entry)
         else:
-            # duplicate node found at top of tree
+            # Duplicate node found at top of tree
             # eg. R_recombination: ['Y_rad', 'Y_rad']
             assert len(forwardTemplate)==2 , 'Can currently only do symmetric trees with nothing else in them'
-            symmetricTree = True
+            
     forwardTemplate = temporary
     
+    countList.append(len(family.rules.entries))
     for group in forwardTemplate:
         checkList=[group]
         childrenList=[group]
@@ -183,28 +188,35 @@ def countNodes(family):
             checkList.extend(checkList[0].children)
             del checkList[0]
         
-        countList.append(len(childrenList))
+        countList.extend([group.label, len(childrenList)])
+    
     return countList
 
 
 ###########################################################################################################
 # Functions for the full Database
 
-def countNodesAll(FullDatabase, trialDir):
-    for family in FullDatabase.kinetics.families.values():
-        family.addKineticsRulesFromTrainingSet(thermoDatabase=FullDatabase.thermo)
-
+def obtainKineticsFamilyStatistics(FullDatabase, trialDir):
+    """
+    Obtains statistics for the kinetics families by creating
+    a FamilyStatistics.csv file that gives information about each family: the total number of
+    rules, and the top node names and the number of groups under each.
+    Note: does NOT average up the database or create any rate rules from training data.  
+    If that is desired it must be done prior to entering this function.  (averaging may not be desired
+    as it would add non-exact rules to the rule count)
+    """
     allFamilyNames=FullDatabase.kinetics.families.keys()
     
     familyCount={}
     
     for familyName in allFamilyNames: 
         family=FullDatabase.kinetics.families[familyName]
-        print "Processing", familyName + '...', '(' + str(len(family.rules.entries)) + ' nodes)'
+        print "Processing", familyName + '...', '(' + str(len(family.rules.entries)) + ' rules)'
         familyCount[familyName]=countNodes(family)
-    
-    with open(os.path.join(trialDir, 'NodeCount.csv'), 'wb') as csvfile:
+
+    with open(os.path.join(trialDir, 'FamilyStatistics.csv'), 'wb') as csvfile:
         csvwriter=csv.writer(csvfile)
+        csvwriter.writerow(['Family','Number of Rules', 'Top Node 1', 'Number of Groups', 'Top Node 2', 'Number of Groups', 'Top Node 3', 'Number of Groups'])
         for key, value in familyCount.iteritems():
             csvwriter.writerow(value)
 
@@ -324,23 +336,36 @@ def leaveOneOut(FullDatabase, trialDir):
 
 if __name__ == '__main__':
     from rmgpy import settings
-    print 'Loading the RMG database...'
-    FullDatabase=RMGDatabase()
-    FullDatabase.load(settings['database.directory'], 
-                      kineticsFamilies=['Disproportionation'], 
-                      kineticsDepositories='all',
-                      thermoLibraries=[],
-                      reactionLibraries=[],
-                      )
-
+    
+    # Create the data evaluation directory
     trialDir = os.path.join(settings['database.directory'],'..','testing','eval')
     if not os.path.exists(trialDir):
         os.makedirs(trialDir)
+        
+    print 'Loading the RMG database...'
+    FullDatabase=RMGDatabase()
+    FullDatabase.load(settings['database.directory'], 
+                      kineticsFamilies=['intra_H_migration'], 
+                      kineticsDepositories='all',
+                      thermoLibraries=['primaryThermoLibrary'],   # Use just the primary thermo library, which contains necessary small molecular thermo
+                      reactionLibraries=[],
+                      )
+
+    # Prepare the database by loading training reactions
+    for family in FullDatabase.kinetics.families.values():
+        family.addKineticsRulesFromTrainingSet(thermoDatabase=FullDatabase.thermo)
+
+    print 'Obtaining statistics for the families...'
+    obtainKineticsFamilyStatistics(FullDatabase, trialDir)
+    
+    # Fill in the rate rules by averaging when we are ready to retrieve kinetics
+    for family in FullDatabase.kinetics.families.values():
+        family.fillKineticsRulesByAveragingUp()
+    
+
     print 'Evaluating the NIST Kinetics against the RMG estimates...'
     compareNIST(FullDatabase, trialDir)
     
-    print 'Counting the rate rules in the families...'
-    countNodesAll(FullDatabase, trialDir)
     
     print 'Performing the leave on out test on the kinetics families...'
     leaveOneOut(FullDatabase, trialDir)
