@@ -9,9 +9,8 @@ import os.path
 import math
 import numpy
 import matplotlib
-matplotlib.rc('mathtext', fontset='stixsans', default='regular')
-import matplotlib.pyplot as plt
-import pylab
+matplotlib.use('Agg')
+from matplotlib import pyplot as plt
 import re
 import copy
 import csv
@@ -28,15 +27,22 @@ from rmgpy.reaction import Reaction
 from rmgpy.data.rmg import RMGDatabase
 from rmgpy.data.kinetics.common import UndeterminableKineticsError
 
-
-def getKineticsDepository(family, depositoryLabel):
+def getKineticsDepository(FullDatabase, family, depositoryLabel):
+    """
+    Retrieve the NIST exact and approximated kinetics for those same reactions from RMG.
+    Note: does NOT average up the database or create any rate rules from training data.  
+    If that is desired it must be done prior to entering this function.
+    """
     
     depository = None
     for tempDepository in family.depositories:
         if re.search(depositoryLabel, tempDepository.label):
             depository=tempDepository
+            break
+    else:
+        print 'Depository {} not found in {} family.'.format(depositoryLabel, family.label)
+        return
             
-    family.fillKineticsRulesByAveragingUp()
     
     exactKinetics={}
     approxKinetics={}
@@ -47,9 +53,25 @@ def getKineticsDepository(family, depositoryLabel):
             template=family.getReactionTemplate(reaction)
             exactKinetics[key]=entry.data
             approxKinetics[key]=family.rules.estimateKinetics(template)[0]
-        except Exception as e:
-            print entry.item
-            print e
+        except UndeterminableKineticsError:
+            # See if the reaction was written in the reverse direction
+            reaction = Reaction(reactants = copy.deepcopy(entry.item.products),
+                                products = copy.deepcopy(entry.item.reactants),
+                                kinetics = copy.deepcopy(entry.data)
+                                )
+            
+            template=family.getReactionTemplate(reaction)
+
+            # Getting thermo data erases the atomLabels, so do this after finding the template
+            # But we need it for setting the reverse kinetics
+            for spec in reaction.reactants + reaction.products:
+                spec.getThermoData()
+
+            reverseKinetics = reaction.generateReverseRateCoefficient()
+            reaction.kinetics = reverseKinetics
+            
+            exactKinetics[key]=reaction.kinetics
+            approxKinetics[key]=family.rules.estimateKinetics(template)[0]
 
     return exactKinetics, approxKinetics
         
@@ -59,17 +81,11 @@ def getKineticsLeaveOneOut(family):
     the original exact nodes and a dictionary of the new averaged nodes. 
     The returned dictionary entries will be of a KineticModel class
     """   
-
-    entryKeys=family.rules.entries.keys()
-    
     exactKinetics={}
     approxKinetics={}
-    index=0
-    for entryKey in entryKeys:
-        index+=1
-        
-        nodes = entryKey.split(';')
-        template = [family.groups.entries[node] for node in nodes]
+
+    for entryKey in family.rules.entries.keys():
+        template = family.retrieveTemplate(entryKey)
         exactKinetics[entryKey], exactKineticsEntry=family.rules.estimateKinetics(template)
         
         familyCopy=copy.deepcopy(family)
@@ -123,7 +139,6 @@ def calculateQ(parityData):
 
 def createParityPlot(parityData):
     
-    #unpack the data
     keyList=parityData.keys()
     xAxis=[]
     yAxis=[]
@@ -194,19 +209,19 @@ def countNodesAll(FullDatabase, trialDir):
             csvwriter.writerow(value)
 
 
-def NISTExact(FullDatabase, trialDir):
-    
-    trialDir=os.path.join(trialDir, 'NISTExact')
+def compareNIST(FullDatabase, trialDir):
+    """
+    Compare NIST reaction kinetics with estimates from RMG.  Creates parity plot and
+    calculates the predicted root mean square error from the families.
+    Note: does NOT average up the database or create any rate rules from training data.  
+    If that is desired it must be done prior to entering this function.
+    """
+    trialDir=os.path.join(trialDir, 'compareNIST')
     if not os.path.exists(trialDir):
         os.makedirs(trialDir)
     
-    for family in FullDatabase.kinetics.families.values():
-        family.addKineticsRulesFromTrainingSet(thermoDatabase=FullDatabase.thermo)
-    
 
     allFamilyNames=FullDatabase.kinetics.families.keys()
-#     familyName='Disproportionation'
-#     allFamilyNames=[familyName]
     
     QDict={}
     
@@ -216,7 +231,7 @@ def NISTExact(FullDatabase, trialDir):
         if len(family.rules.entries) < 2:
             print '    Skipping', familyName, ': only has one node...'
         else:
-            exactKinetics, approxKinetics =getKineticsDepository(family, 'NIST')
+            exactKinetics, approxKinetics = getKineticsDepository(FullDatabase, family, 'NIST')
             
             #prune for exact matches only
             keysToRemove=[]
@@ -322,7 +337,7 @@ if __name__ == '__main__':
     if not os.path.exists(trialDir):
         os.makedirs(trialDir)
     print 'Evaluating the NIST Kinetics against the RMG estimates...'
-    NISTExact(FullDatabase, trialDir)
+    compareNIST(FullDatabase, trialDir)
     
     print 'Counting the rate rules in the families...'
     countNodesAll(FullDatabase, trialDir)
