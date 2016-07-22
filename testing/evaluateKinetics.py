@@ -29,7 +29,7 @@ from rmgpy.data.rmg import RMGDatabase
 from rmgpy.data.kinetics.common import UndeterminableKineticsError
 
 
-def getKineticsDepository(family, depositoryLabel, missingGroups):
+def getKineticsDepository(family, depositoryLabel):
     
     depository = None
     for tempDepository in family.depositories:
@@ -42,14 +42,18 @@ def getKineticsDepository(family, depositoryLabel, missingGroups):
     approxKinetics={}
     
     for key, entry in depository.entries.iteritems():
-        reaction=entry.item
-        template=family.getReactionTemplate(reaction)
-        exactKinetics[key]=entry.data
-        approxKinetics[key]=family.rules.estimateKinetics(template)[0]
+        try:
+            reaction=entry.item
+            template=family.getReactionTemplate(reaction)
+            exactKinetics[key]=entry.data
+            approxKinetics[key]=family.rules.estimateKinetics(template)[0]
+        except Exception as e:
+            print entry.item
+            print e
 
     return exactKinetics, approxKinetics
         
-def getKineticsLeaveOneOut(family, missingGroups):
+def getKineticsLeaveOneOut(family):
     """
     Performs the leave one out test on a family. It returns a dictionary of 
     the original exact nodes and a dictionary of the new averaged nodes. 
@@ -63,9 +67,9 @@ def getKineticsLeaveOneOut(family, missingGroups):
     index=0
     for entryKey in entryKeys:
         index+=1
-        template=family.getReactionTemplate(family.rules.entries[entryKey][0].item)
-
-        print entryKey, [templateEntry.label for templateEntry in template], index
+        
+        nodes = entryKey.split(';')
+        template = [family.groups.entries[node] for node in nodes]
         exactKinetics[entryKey], exactKineticsEntry=family.rules.estimateKinetics(template)
         
         familyCopy=copy.deepcopy(family)
@@ -77,15 +81,18 @@ def getKineticsLeaveOneOut(family, missingGroups):
     return exactKinetics, approxKinetics
 
         
-#calculates the parity values for each
+
 def calculateParity(exactKineticModel, approxKineticModel, T):
+    '''
+    Calculates the parity values between two sets of kinetics evaluated at temperature T
+    '''
     exact = exactKineticModel.getRateCoefficient(T)
     approx = approxKineticModel.getRateCoefficient(T)
     
     return float(approx)/float(exact)
 
 
-def analyzeForParity(exactKinetics, approxKinetics, T=1000, cutoff=0):
+def analyzeForParity(exactKinetics, approxKinetics, T=1000.0, cutoff=0.0):
     """
     Creates a parity plot from the exactKinetics and approxKinetics (dictionarys with 
     kineticModels are entries). Uses the median temperature of the exactKinetics to 
@@ -109,7 +116,7 @@ def calculateQ(parityData):
     """
     Calculates the predicted root mean square error
     """
-    Q=0
+    Q=0.0
     for key, value in parityData.iteritems():
         Q+=(math.log10(value[0]/value[1]))**2
     return (Q/len(parityData))**0.5
@@ -201,17 +208,15 @@ def NISTExact(FullDatabase, trialDir):
 #     familyName='Disproportionation'
 #     allFamilyNames=[familyName]
     
-    missingGroups=[]
     QDict={}
-    familiesWithErrors=[]
+    
     for familyName in allFamilyNames: 
         family=FullDatabase.kinetics.families[familyName]
         print "Processing", familyName + '...', '(' + str(len(family.rules.entries)) + ' nodes)'
         if len(family.rules.entries) < 2:
             print '    Skipping', familyName, ': only has one node...'
         else:
-            ##getKineticsDepository
-            exactKinetics, approxKinetics, missingGroups=getKineticsDepository(family, 'NIST', missingGroups)
+            exactKinetics, approxKinetics =getKineticsDepository(family, 'NIST')
             
             #prune for exact matches only
             keysToRemove=[]
@@ -222,7 +227,7 @@ def NISTExact(FullDatabase, trialDir):
             for key in keysToRemove:
                 del approxKinetics[key]
             
-            parityData=analyzeForParity(exactKinetics, approxKinetics, None, 8)
+            parityData=analyzeForParity(exactKinetics, approxKinetics, cutoff=8.0)
 
             if len(parityData)<2:
                 print '    Skipping', familyName, ': only one node was calculated...'
@@ -246,12 +251,7 @@ def NISTExact(FullDatabase, trialDir):
         for key, value in QDict.iteritems():
             csvwriter.writerow([key, value])
               
-    with open(os.path.join(trialDir, 'missingNodes.csv'), 'wb') as csvfile:
-        csvwriter=csv.writer(csvfile)
-        for missingNode in missingGroups:
-            csvwriter.writerow(missingNode)
       
-    print 'These families had errors:', familiesWithErrors
 
 
 
@@ -271,17 +271,16 @@ def leaveOneOut(FullDatabase, trialDir):
 #     allFamilyNames=[familyName]
     allFamilyNames=FullDatabase.kinetics.families.keys()
     
-    missingGroups=[]
     QDict={}
-    familiesWithErrors=[]
+
     for familyName in allFamilyNames: 
         family=FullDatabase.kinetics.families[familyName]
         print "Processing", familyName + '...', '(' + str(len(family.rules.entries)) + ' nodes)'
         if len(family.rules.entries) < 2:
             print '    Skipping', familyName, ': only has one node...'
         else:
-            exactKinetics, approxKinetics, missingGroups=getKineticsLeaveOneOut(family, missingGroups)
-            parityData=analyzeForParity(exactKinetics, approxKinetics, None, 8)
+            exactKinetics, approxKinetics =getKineticsLeaveOneOut(family)
+            parityData=analyzeForParity(exactKinetics, approxKinetics, cutoff=8.0)
 
             if len(parityData)<2:
                 print '    Skipping', familyName, ': only one node was calculated...'
@@ -304,13 +303,7 @@ def leaveOneOut(FullDatabase, trialDir):
         csvwriter=csv.writer(csvfile)
         for key, value in QDict.iteritems():
             csvwriter.writerow([key, value])
-             
-    with open(os.path.join(trialDir, 'missingNodes.csv'), 'wb') as csvfile:
-        csvwriter=csv.writer(csvfile)
-        for missingNode in missingGroups:
-            csvwriter.writerow(missingNode)
      
-    print 'These families had errors:', familiesWithErrors
     return
 
 
@@ -328,8 +321,12 @@ if __name__ == '__main__':
     trialDir = os.path.join(settings['database.directory'],'..','testing','eval')
     if not os.path.exists(trialDir):
         os.makedirs(trialDir)
-    
+    print 'Evaluating the NIST Kinetics against the RMG estimates...'
     NISTExact(FullDatabase, trialDir)
+    
+    print 'Counting the rate rules in the families...'
     countNodesAll(FullDatabase, trialDir)
+    
+    print 'Performing the leave on out test on the kinetics families...'
     leaveOneOut(FullDatabase, trialDir)
     
