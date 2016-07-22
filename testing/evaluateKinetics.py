@@ -263,7 +263,7 @@ def compareNIST(FullDatabase, trialDir):
             parityData=analyzeForParity(exactKinetics, approxKinetics, cutoff=8.0)
 
             if len(parityData)<2:
-                print '    Skipping', familyName, ': only one rate rule was calculated...'
+                print '    Skipping', familyName, ': {} reactions were compared...'.format(len(parityData))
                 continue
             QDict[familyName]=calculateQ(parityData)
             createParityPlot(parityData)
@@ -358,7 +358,7 @@ if __name__ == '__main__':
     print 'Loading the RMG database...'
     FullDatabase=RMGDatabase()
     FullDatabase.load(settings['database.directory'], 
-                      kineticsFamilies=['Cyclic_Ether_Formation'], 
+                      kineticsFamilies='all', 
                       kineticsDepositories='all',
                       thermoLibraries=['primaryThermoLibrary'],   # Use just the primary thermo library, which contains necessary small molecular thermo
                       reactionLibraries=[],
@@ -368,17 +368,22 @@ if __name__ == '__main__':
     for family in FullDatabase.kinetics.families.values():
         family.addKineticsRulesFromTrainingSet(thermoDatabase=FullDatabase.thermo)
     
+    print '--------------------------------------------'
     print 'Obtaining statistics for the families...'
     obtainKineticsFamilyStatistics(FullDatabase, trialDir)
     
+    print '--------------------------------------------'
     print 'Performing the leave on out test on the kinetics families...'
     leaveOneOut(FullDatabase, trialDir)
     
+    print '--------------------------------------------'
+    print 'Filling up the family rate rules by averaging... Expect larger number of rate rules in subsequent tests'
     # Fill in the rate rules by averaging when we are ready to compare real kinetics
     for family in FullDatabase.kinetics.families.values():
         family.fillKineticsRulesByAveragingUp()
     
 
+    print '--------------------------------------------'
     print 'Evaluating the NIST Kinetics against the RMG estimates...'
     compareNIST(FullDatabase, trialDir)
     
