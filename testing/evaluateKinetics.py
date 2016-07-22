@@ -14,6 +14,7 @@ from matplotlib import pyplot as plt
 import re
 import copy
 import csv
+from time import time
 
 from rmgpy.thermo import *
 from rmgpy.kinetics import *
@@ -80,12 +81,17 @@ def getKineticsLeaveOneOut(family):
     Performs the leave one out test on a family. It returns a dictionary of 
     the original exact nodes and a dictionary of the new averaged nodes. 
     The returned dictionary entries will be of a KineticModel class
+    It deletes a single entry in the family, and then re-averages the tree
+    and then tries to re-estimate that original deleted entry.
+    
+    The original family should not contained averaged nodes when starting out.  The
+    leave one out test should be performed only for original exact matches.
     """   
     exactKinetics={}
     approxKinetics={}
 
     for entryKey in family.rules.entries.keys():
-        template = family.retrieveTemplate(entryKey)
+        template = family.retrieveTemplate(entryKey.split(';'))
         exactKinetics[entryKey], exactKineticsEntry=family.rules.estimateKinetics(template)
         
         familyCopy=copy.deepcopy(family)
@@ -285,17 +291,19 @@ def compareNIST(FullDatabase, trialDir):
 def leaveOneOut(FullDatabase, trialDir):
     """
     Performs leave one out analysis on all the kinetics families.
+    The algorithm deletes a single entry in the family, and then re-averages the tree
+    and then tries to re-estimate that original deleted entry.  The difference between
+    these values is used to create a parity plot and averaged mean squared error statistics.
+    
+    Note: training data and averaging of the database is not performed at the beginning of
+    this function, and must be performed outside the function.  Averaging the trees should not
+    be performed so as to not perform the leave one out test on rate rules that were averaged.
     """
     
-    trialDir=os.path.join(trialDir, 'LeaveOneOut')
+    trialDir=os.path.join(trialDir, 'leaveOneOut')
     if not os.path.exists(trialDir):
         os.makedirs(trialDir)
     
-    for family in FullDatabase.kinetics.families.values():
-        family.addKineticsRulesFromTrainingSet(thermoDatabase=FullDatabase.thermo)
-    
-#     familyName='intra_substitutionCS_isomerization'
-#     allFamilyNames=[familyName]
     allFamilyNames=FullDatabase.kinetics.families.keys()
     
     QDict={}
@@ -306,7 +314,12 @@ def leaveOneOut(FullDatabase, trialDir):
         if len(family.rules.entries) < 2:
             print '    Skipping', familyName, ': only has one rate rule...'
         else:
+                
+            start_time = time()
             exactKinetics, approxKinetics = getKineticsLeaveOneOut(family)
+            end_time = time()
+            time_taken = end_time - start_time
+            print "Time spent: {0:.2f} minutes".format(time_taken/60.0)
             parityData=analyzeForParity(exactKinetics, approxKinetics, cutoff=8.0)
 
             if len(parityData)<2:
@@ -345,28 +358,27 @@ if __name__ == '__main__':
     print 'Loading the RMG database...'
     FullDatabase=RMGDatabase()
     FullDatabase.load(settings['database.directory'], 
-                      kineticsFamilies=['intra_H_migration'], 
+                      kineticsFamilies=['Cyclic_Ether_Formation'], 
                       kineticsDepositories='all',
                       thermoLibraries=['primaryThermoLibrary'],   # Use just the primary thermo library, which contains necessary small molecular thermo
                       reactionLibraries=[],
                       )
 
-    # Prepare the database by loading training reactions
+    # Prepare the database by loading training reactions but not averaging the rate rules
     for family in FullDatabase.kinetics.families.values():
         family.addKineticsRulesFromTrainingSet(thermoDatabase=FullDatabase.thermo)
-
+    
     print 'Obtaining statistics for the families...'
     obtainKineticsFamilyStatistics(FullDatabase, trialDir)
     
-    # Fill in the rate rules by averaging when we are ready to retrieve kinetics
+    print 'Performing the leave on out test on the kinetics families...'
+    leaveOneOut(FullDatabase, trialDir)
+    
+    # Fill in the rate rules by averaging when we are ready to compare real kinetics
     for family in FullDatabase.kinetics.families.values():
         family.fillKineticsRulesByAveragingUp()
     
 
     print 'Evaluating the NIST Kinetics against the RMG estimates...'
     compareNIST(FullDatabase, trialDir)
-    
-    
-    print 'Performing the leave on out test on the kinetics families...'
-    leaveOneOut(FullDatabase, trialDir)
     
