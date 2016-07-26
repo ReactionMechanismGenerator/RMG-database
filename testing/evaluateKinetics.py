@@ -14,7 +14,6 @@ from matplotlib import pyplot as plt
 import re
 import copy
 import csv
-from time import time
 
 from rmgpy.thermo import *
 from rmgpy.kinetics import *
@@ -212,7 +211,8 @@ def obtainKineticsFamilyStatistics(FullDatabase, trialDir):
     as it would add non-exact rules to the rule count)
     """
     allFamilyNames=FullDatabase.kinetics.families.keys()
-    
+    allFamilyNames.sort()  # Perform test on families alphabetically
+
     familyCount={}
     
     for familyName in allFamilyNames: 
@@ -240,6 +240,7 @@ def compareNIST(FullDatabase, trialDir):
     
 
     allFamilyNames=FullDatabase.kinetics.families.keys()
+    allFamilyNames.sort()  # Perform test on families alphabetically
     
     QDict={}
     
@@ -305,7 +306,7 @@ def leaveOneOut(FullDatabase, trialDir):
         os.makedirs(trialDir)
     
     allFamilyNames=FullDatabase.kinetics.families.keys()
-    
+    allFamilyNames.sort()  # Perform test on families alphabetically
     QDict={}
 
     for familyName in allFamilyNames: 
@@ -314,16 +315,11 @@ def leaveOneOut(FullDatabase, trialDir):
         if len(family.rules.entries) < 2:
             print '    Skipping', familyName, ': only has one rate rule...'
         else:
-                
-            start_time = time()
             exactKinetics, approxKinetics = getKineticsLeaveOneOut(family)
-            end_time = time()
-            time_taken = end_time - start_time
-            print "Time spent: {0:.2f} minutes".format(time_taken/60.0)
             parityData=analyzeForParity(exactKinetics, approxKinetics, cutoff=8.0)
 
             if len(parityData)<2:
-                print '    Skipping', familyName, ': only one rate rule was calculated...'
+                print '    Skipping', familyName, ': {} rate rules were compared...'.format(len(parityData))
                 continue
             QDict[familyName]=calculateQ(parityData)
             createParityPlot(parityData)
