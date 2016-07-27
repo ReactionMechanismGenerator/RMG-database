@@ -36,7 +36,7 @@ def getKineticsDepository(FullDatabase, family, depositoryLabel):
     
     depository = None
     for tempDepository in family.depositories:
-        if re.search(depositoryLabel, tempDepository.label):
+        if re.search(re.escape(depositoryLabel), tempDepository.label):
             depository=tempDepository
             break
     else:
