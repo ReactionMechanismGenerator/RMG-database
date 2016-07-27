@@ -150,7 +150,7 @@ def calculateParity(exactKineticModel, approxKineticModel, T):
     return float(approx)/float(exact)
 
 
-def analyzeForParity(exactKinetics, approxKinetics, T=1000.0, cutoff=0.0):
+def analyzeForParity(exactKinetics, approxKinetics, T=1000.0):
     """
     Creates a parity plot from the exactKinetics and approxKinetics (dictionarys with 
     kineticModels are entries). Uses the median temperature of the exactKinetics to 
@@ -163,8 +163,6 @@ def analyzeForParity(exactKinetics, approxKinetics, T=1000.0, cutoff=0.0):
         exact=exactKinetics[key].getRateCoefficient(T)
         approx=approxKinetics[key].getRateCoefficient(T)
         dataPoint=[exact, approx]
-        if cutoff!=0 and math.log10((float(exact)/float(approx)))**2 > cutoff**2:
-            continue
         parityData[key]=dataPoint
 
     return parityData
@@ -297,7 +295,7 @@ def compareNIST(FullDatabase, trialDir):
                 for key in keysToRemove:
                     del approxKinetics[key]
                 
-                parityData=analyzeForParity(exactKinetics, approxKinetics, cutoff=8.0)
+                parityData=analyzeForParity(exactKinetics, approxKinetics)
 
                 if len(parityData)<2:
                     print '    Skipping', familyName, ': {} reactions were compared...'.format(len(parityData))
@@ -357,7 +355,7 @@ def leaveOneOut(FullDatabase, trialDir, averaging=True):
                     # Pre-average the family if averaging is not turned on
                     family.fillKineticsRulesByAveragingUp()
                 exactKinetics, approxKinetics = getKineticsLeaveOneOut(family, averaging)
-                parityData=analyzeForParity(exactKinetics, approxKinetics, cutoff=8.0)
+                parityData=analyzeForParity(exactKinetics, approxKinetics)
 
                 if len(parityData)<2:
                     print '    Skipping', familyName, ': {} rate rules were compared...'.format(len(parityData))
