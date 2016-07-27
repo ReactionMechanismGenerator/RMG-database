@@ -747,16 +747,3 @@ L1: multiplebond
 """
 )
 
-forbidden(
-    label = "birad_triplet",
-    group = 
-"""
-1 *3 R!H u2
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-

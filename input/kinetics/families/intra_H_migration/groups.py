@@ -4184,19 +4184,6 @@ L1: XH_out
 )
 
 forbidden(
-    label = "OS_birad_singlet",
-    group = 
-"""
-1 *1 [O,S] u0 p3
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
     label = "[CH2]C1=CC(C)CC=C1_1",
     group = 
 """
@@ -4251,19 +4238,6 @@ forbidden(
 7 *1 C u1 {6,S}
 8    C u0 {1,S} {6,D}
 9 *3 H u0 {3,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
-    label = "birad_singlet",
-    group = 
-"""
-1 *1 [C,N,Si] u0 p1
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -5297,19 +5271,6 @@ forbidden(
 9     C u0 {8,S} {10,S}
 10    C u0 {6,S} {9,S}
 11 *3 H u0 {8,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
-    label = "quadrad_singlet",
-    group = 
-"""
-1 *1 [C,N,Si] u0 p2
 """,
     shortDesc = u"""""",
     longDesc = 

@@ -1423,7 +1423,7 @@ forbidden(
     label = "Cl_2",
     group = 
 """
-1 *12 Cl u1
+1 *2 Cl u1
 """,
     shortDesc = u"""""",
     longDesc = 
