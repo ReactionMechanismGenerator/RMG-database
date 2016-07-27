@@ -855,8 +855,8 @@ entry(
     label = "S_rad/NonDeS;C/H2/Nd_Csrad/H/Cd",
     kinetics = ArrheniusEP(
         A = (6.44e+08, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 1.19,
+        n = 1.19,
+        alpha = 0.0,
         E0 = (0.51, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
@@ -865,15 +865,7 @@ entry(
     shortDesc = u"""Very rough based on R_Recomb #491""",
     longDesc = 
 u"""
-[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
-Literature review.  C2H3 + n-C3H7 --> C3H6 + C2H4
 
-pg. 922: Discussion on evaluated data
-
-Entry 41,19 (a): No data available at the time.  Author estimates the rate coefficient
-
-based on the rxn C2H5+n-C3H7=C3H6=C2H6.
-MRH 30-Aug-2009
 """,
 )
 
@@ -910,8 +902,8 @@ entry(
     label = "S_rad/NonDeS;S_Csrad",
     kinetics = ArrheniusEP(
         A = (6.44e+08, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 1.19,
+        n = 1.19,
+        alpha = 0.0,
         E0 = (0.51, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
@@ -920,16 +912,6 @@ entry(
     shortDesc = u"""Very rough based on R_Recomb #491""",
     longDesc = 
 u"""
-[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
-Literature review.  C2H + n-C3H7 --> C3H6 + C2H2
-
-pg. 923: Discussion on evaluated data
-
-Entry 41,21 (a): No data available at the time.  Author notes that the rxn is more exothermic
-
-than the rxn CH3+n-C3H7=C3H6+CH4 and suggests a rate coefficient 3x larger,
-namely 1.0x10^-11 cm3/molecule/s.
-MRH 30-Aug-2009
 """,
 )
 
