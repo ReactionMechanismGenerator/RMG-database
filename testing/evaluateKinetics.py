@@ -259,12 +259,15 @@ def obtainKineticsFamilyStatistics(FullDatabase, trialDir):
             csvwriter.writerow(countNodes(family))
 
 
-def compareNIST(FullDatabase, trialDir):
+def compareNIST(FullDatabase, trialDir, pruneForExact=False):
     """
     Compare NIST reaction kinetics with estimates from RMG.  Creates parity plot and
     calculates the predicted root mean square error from the families.
     Note: does NOT average up the database or create any rate rules from training data.  
     If that is desired it must be done prior to entering this function.
+    
+    if pruneForExact=True, only the comparisons again exact match kinetics from RMG are returned
+    otherwise, estimated and exact matches are all included in the parity data.
     """
     trialDir=os.path.join(trialDir, 'compareNIST')
     if not os.path.exists(trialDir):
@@ -286,14 +289,16 @@ def compareNIST(FullDatabase, trialDir):
             else:
                 exactKinetics, approxKinetics = getKineticsDepository(FullDatabase, family, 'NIST')
                 
-                #prune for exact matches only
-                keysToRemove=[]
-                for key, kinetics in approxKinetics.iteritems():
-                    if not re.search('Exact', kinetics.comment):
-                        keysToRemove.append(key)
                 
-                for key in keysToRemove:
-                    del approxKinetics[key]
+                if pruneForExact:
+                    # prune for exact matches only
+                    keysToRemove=[]
+                    for key, kinetics in approxKinetics.iteritems():
+                        if not re.search('Exact', kinetics.comment):
+                            keysToRemove.append(key)
+                    
+                    for key in keysToRemove:
+                        del approxKinetics[key]
                 
                 parityData=analyzeForParity(exactKinetics, approxKinetics)
 
