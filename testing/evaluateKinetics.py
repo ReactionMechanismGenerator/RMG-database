@@ -29,7 +29,8 @@ from rmgpy.data.kinetics.common import UndeterminableKineticsError
 
 def getKineticsDepository(FullDatabase, family, depositoryLabel):
     """
-    Retrieve the NIST exact and approximated kinetics for those same reactions from RMG.
+    Retrieve dictionaries of exact kinetics from NIST depository and approximated kinetics 
+    for those same reactions from RMG.  
     Note: does NOT average up the database or create any rate rules from training data.  
     If that is desired it must be done prior to entering this function.
     """
@@ -85,6 +86,19 @@ def getKineticsLeaveOneOut(family, averaging=True):
     
     The original family should not contained averaged nodes when starting out.  The
     leave one out test should be performed only for original exact matches.
+    
+    There are two methods of performing the leave one out test:
+    
+    averaging=True, each exact entry is removed, and the family's trees
+    are re-averaged WITHOUT that entry and used to estimate the original entry. 
+    This method tests how the database performs to estimate data when it is
+    missing.  Speed of this test is slow.
+    
+    averaging=False, the family is pre-averaged, and then the exact entry
+    is removed, and RMG is used to re-estimate that entry.  This method
+    tests how the database averaging scheme performs, since we expect the
+    estimate to use a more general node that still incorporates the data
+    from the original exact entry. Speed of this test is fast.
     """   
     exactKinetics={}
     approxKinetics={}
@@ -153,8 +167,8 @@ def calculateParity(exactKineticModel, approxKineticModel, T):
 def analyzeForParity(exactKinetics, approxKinetics, T=1000.0):
     """
     Creates a parity plot from the exactKinetics and approxKinetics (dictionarys with 
-    kineticModels are entries). Uses the median temperature of the exactKinetics to 
-    give the best comparison. Returns the parityData in a dictionary with
+    kineticModels are entries). Uses the user specified temperature T to 
+    compare the two sets of kinetics k(T). Returns the parityData in a dictionary with
     {key: [exactCoefficient(T), approxCoefficient(T)}
     """
     parityData={}
@@ -215,7 +229,7 @@ def countNodes(family):
         else:
             # Duplicate node found at top of tree
             # eg. R_recombination: ['Y_rad', 'Y_rad']
-            assert len(forwardTemplate)==2 , 'Can currently only do symmetric trees with nothing else in them'
+            assert len(forwardTemplate)==2 , 'Duplicate entries in the top nodes must only be in symmetric trees containing exactly 2 total nodes, i.e. [Yrad, Yrad]'
             
     forwardTemplate = temporary
     
