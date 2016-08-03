@@ -25,9 +25,6 @@ from rmgpy.data.base import getAllCombinations
 from rmgpy.species import Species
 from rmgpy.data.kinetics.transitionstates import TransitionStates, TransitionStateDepository, TSGroups
 
-from importOldDatabase import getUsername
-user = getUsername()
-
 ################################################################################
 
 def loadDatabase(args):
@@ -112,7 +109,7 @@ def generate(args):
                 trainingSet.append((template, distances))
                 
     # Generate the group values (implemented on the KineticsGroups class)
-    changed = rxnFamily.transitionStates.groups.generateGroupAdditivityValues(trainingSet, user=user)
+    changed = rxnFamily.transitionStates.groups.generateGroupAdditivityValues(trainingSet)
     if changed:
         # Save the new group values to disk
         dataPath = os.path.abspath(os.path.join(os.path.dirname(rmgpy.__file__),'..','..','RMG-database', 'input'))
