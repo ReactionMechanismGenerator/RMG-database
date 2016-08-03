@@ -1,7 +1,0 @@
-//Name	H298	S298	Cp300	Cp400	Cp500	Cp600	Cp800	Cp1000	Cp1500	dH	dS	dCp	Comments
-H2	0.000	31.233	6.895	6.975	6.994	7.009	7.081	7.219	7.720	0	0.0007	0	"library value for H2"
-H	52.103	27.419	4.968	4.968	4.968	4.968	4.968	4.968	4.968	0.001	0.0005	0	"library value for H radical"
-C2O2	14.90	57.613	11.00	12.00	13.00	14.00	15.00	16.00	17.00	0	0	0	"G03 CBSQB3 calculation - Cp values estimated poorly"
-O2	0	50.35	7	7.15	7.36	7.59	7.97	8.24	8.58	0	0	0	"CBS-QB3 value A.G. Vandeputte"
-S2	29.19 	55.96 	7.81 	8.17 	8.40 	8.54 	8.70 	8.78 	8.87	0	0	0	"CBS-QB3 value A.G. Vandeputte"
-HCS	71.7	56.37	8.77	9.46	10.04	10.51	11.22	11.76	12.62	0	0	0	"NIST value + B3LYP/cbsb7 entropy and heat cap A.G. Vandeputte"

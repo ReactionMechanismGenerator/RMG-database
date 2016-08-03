@@ -4751,6 +4751,21 @@ entry(
 )
 
 entry(
+    index = 902,
+    label = "R3H_SS_Cs;C_rad_out_2H;S_H_out",
+    kinetics = ArrheniusEP(
+        A = (85.5, 's^-1'),
+        n = 3.04,
+        alpha = 0,
+        E0 = (11.62, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A. G. Vandeputte""",
+)
+
+entry(
     index = 903,
     label = "R3H_SS_S;C_rad_out_2H;S_H_out",
     kinetics = ArrheniusEP(
@@ -4889,10 +4904,10 @@ entry(
     index = 1001,
     label = "R4H_SSS_CsCsSCs;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC",
     kinetics = ArrheniusEP(
-        A = (1.7e+07, 's^-1'),
-        n = 1.06,
+        A = (0.00114, 's^-1'),
+        n = 3.95,
         alpha = 0,
-        E0 = (17.86, 'kcal/mol'),
+        E0 = (11.17, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -4904,10 +4919,10 @@ entry(
     index = 1002,
     label = "R5H_SSSS_CsCsCsSCs;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC",
     kinetics = ArrheniusEP(
-        A = (214000, 's^-1'),
-        n = 1.33,
+        A = (0.0282, 's^-1'),
+        n = 3.28,
         alpha = 0,
-        E0 = (10.56, 'kcal/mol'),
+        E0 = (5.91, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -4919,10 +4934,10 @@ entry(
     index = 1003,
     label = "R4H_SSS;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeS",
     kinetics = ArrheniusEP(
-        A = (696000, 's^-1'),
-        n = 1.95,
+        A = (1.79e-05, 's^-1'),
+        n = 4.5,
         alpha = 0,
-        E0 = (19.26, 'kcal/mol'),
+        E0 = (11.93, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -4934,10 +4949,10 @@ entry(
     index = 1004,
     label = "R5H_SSSS;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeS",
     kinetics = ArrheniusEP(
-        A = (531000, 's^-1'),
-        n = 1.58,
+        A = (0.0508, 's^-1'),
+        n = 3.24,
         alpha = 0,
-        E0 = (12.07, 'kcal/mol'),
+        E0 = (6.94, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -4973,6 +4988,21 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""RQCISD(T)/CBS""",
+)
+
+entry(
+    index = 1006,
+    label = "R4H_SDS;C_rad_out_H/NonDeC;S_H_out",
+    kinetics = ArrheniusEP(
+        A = (7.61e+11, 's^-1'),
+        n = 0.22,
+        alpha = 0,
+        E0 = (21.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1550, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CAC CBS-QB3 calc, HO approx""",
 )
 
 entry(

@@ -449,3 +449,18 @@ CH3CH(CO)CH3 (doublet): EXTSYM = 1, three hindered rotors (methyl group, symmetr
 """,
 )
 
+entry(
+    index = 428,
+    label = "COm;S_rad/NonDe",
+    kinetics = ArrheniusEP(
+        A = (78500, 'cm^3/(mol*s)'),
+        n = 2.33,
+        alpha = 0,
+        E0 = (2.23, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""CAC CBS-QB3 calcs, HO""",
+)
+

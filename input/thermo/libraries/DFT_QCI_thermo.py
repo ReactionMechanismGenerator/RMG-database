@@ -4,7 +4,11 @@
 name = "DFT_QCI_thermo"
 shortDesc = u""
 longDesc = u"""
-
+Thermo added using DFT geometry and RQCI for energies and Cantherm to analyze the results.
+partially from 
+CF Goldsmith calculations
+additions from MR Harper from CFG
+dx.doi.org/10.1021/jp303819e
 """
 entry(
     index = 1,

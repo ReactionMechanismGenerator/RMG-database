@@ -24,7 +24,8 @@ multiplicity 2
 3 H u0 p0 c0 {1,S}
 
 S
-1 S u0 p3 c0
+multiplicity 3
+1 S u2 p2 c0
 
 SH
 multiplicity 2

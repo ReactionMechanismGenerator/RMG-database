@@ -2,9 +2,16 @@
 # encoding: utf-8
 
 name = "KlippensteinH2O2"
-shortDesc = u""
+shortDesc = u"Library for H2 combustion by Klippenstein et al."
 longDesc = u"""
+Update to Li et al. by Burke, Chaos, Ju, Dryer, and Klippenstein in 2011.
 
+Models H2 combustion reactions
+
+Reference citation:
+M.P. Burke, M. Chaos, Y. Ju, F.L. Dryer, S.J. Klippenstein
+"Comprehensive H2/O2 Kinetic Model for High-Pressure Combustion,"
+Int. J. Chem. Kinet. (2011).
 """
 entry(
     index = 1,

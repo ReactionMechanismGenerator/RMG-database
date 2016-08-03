@@ -2,9 +2,9 @@
 # encoding: utf-8
 
 name = "Sulfur/Sendt"
-shortDesc = u""
+shortDesc = u"small sulfur molecule reactions"
 longDesc = u"""
-
+Created by Caleb for small sulfur molecule reactions by the work of Sendt et al.
 """
 entry(
     index = 1,
@@ -54,16 +54,32 @@ entry(
     label = "H + HSS <=> SH + SH",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.1e+13, 'cm^3/(mol*s)'),
-        n = 0.353,
-        Ea = (0.21, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
+		A=(3e+14, 'cm^3/(mol*s)'),
+		n=0,
+		Ea=(0, 'kcal/mol'),
+		T0=(1, 'K')
+	),
     longDesc = 
-u"""
-Using unadjusted singlet surface calculation for this one (see paper)
-""",
+	u"""
+	Using adjusted singlet surface calculation for this one (see paper)
+	""",
 )
+
+#entry(
+#    index = 5,
+#    label = "H + HSS <=> SH + SH",
+#    degeneracy = 1,
+#    kinetics = Arrhenius(
+#        A = (1.1e+13, 'cm^3/(mol*s)'),
+#        n = 0.353,
+#        Ea = (0.21, 'kcal/mol'),
+#        T0 = (1, 'K'),
+#    ),
+#    longDesc = 
+#	u"""
+#	Using unadjusted singlet surface calculation for this one (see paper)
+#	""",
+#)
 
 entry(
     index = 6,

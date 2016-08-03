@@ -78,6 +78,21 @@ entry(
 )
 
 entry(
+    index = 817,
+    label = "Cs-R5_SS_CS;thiyl_intra_H;radadd_intra_csHNd",
+    kinetics = ArrheniusEP(
+        A = (4.48e+06, 's^-1'),
+        n = 1.17,
+        alpha = 0,
+        E0 = (0.27, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CBS-QB3, 1d-hr by CAC""",
+)
+
+entry(
     index = 818,
     label = "R6_SMM;multiplebond_intra;radadd_intra",
     kinetics = ArrheniusEP(
@@ -90,6 +105,21 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Guess""",
+)
+
+entry(
+    index = 819,
+    label = "R5_SD_D;doublebond_intra_pri_HNd;radadd_intra_S",
+    kinetics = ArrheniusEP(
+        A = (7.97e+11, 's^-1'),
+        n = 0.1,
+        alpha = 0,
+        E0 = (10.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""same reaction as above""",
 )
 
 entry(

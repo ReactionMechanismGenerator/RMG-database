@@ -2,8 +2,20 @@
 # encoding: utf-8
 
 name = "GRI-Mech3.0"
-shortDesc = u""
+shortDesc = u"Natural Gas Combustion Mechanism (without NOx chemistry)"
 longDesc = u"""
+The thermodynamic and kinetic parameters in the GRI-Mech 3.0 mechanism have 
+been collectively estimated from literature search and then optimized to a set 
+of representative experimental targets. For this reason you should generally
+use GRI-Mech in its entirety, and generally should not tweak any of its
+parameter values.
+
+GRI-Mech is the result of collaborative research of the Gas Research Institute
+and carried out at The University of California at Berkeley, Stanford 
+University, The University of Texas at Austin, and SRI International.
+
+http://combustion.berkeley.edu/gri-mech/
+
 
 """
 entry(

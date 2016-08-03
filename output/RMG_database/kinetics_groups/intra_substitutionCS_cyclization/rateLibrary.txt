@@ -1,6 +1,0 @@
-
-Arrhenius_EP																								
-
-// CBS-QB3 calculations
-
-1 XSYJ	YJ C-RRR S-R 300-1500	1.0E+12	0	0	50.0	0	0	0	0	0	Aaron Vandeputte CBS-QB3 HO

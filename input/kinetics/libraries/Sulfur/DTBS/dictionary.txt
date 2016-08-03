@@ -1,0 +1,55 @@
+S2JJ
+multiplicity 3
+1 S u1 p2 c0 {2,S}
+2 S u1 p2 c0 {1,S}
+
+S2
+1 S u0 p2 c0 {2,D}
+2 S u0 p2 c0 {1,D}
+
+HSJ
+multiplicity 2
+1 S u1 p2 c0 {2,S}
+2 H u0 p0 c0 {1,S}
+
+HSSH
+1 S u0 p2 c0 {2,S} {3,S}
+2 S u0 p2 c0 {1,S} {4,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {2,S}
+
+C4H9SJ
+multiplicity 2
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4 C u0 p0 c0 {1,S} {12,S} {13,S} {14,S}
+5 S u1 p2 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {4,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {4,S}
+
+C4H8JSH
+multiplicity 2
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4 C u1 p0 c0 {1,S} {12,S} {13,S}
+5 S u0 p2 c0 {1,S} {14,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {4,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {5,S}
+
+

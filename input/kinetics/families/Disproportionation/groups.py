@@ -114,7 +114,7 @@ entry(
 entry(
     index = 203,
     label = "Y_2centerbirad",
-    group = "OR{O2b, C2b}",
+    group = "OR{O2b, C2b, S2b}",
     kinetics = None,
 )
 
@@ -331,6 +331,17 @@ entry(
 """
 1 *1 S u1 {2,S}
 2    R u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 8,
+    label = "S2b",
+    group = 
+"""
+1 *1 S u1 {2,S}
+2    S u1 {1,S}
 """,
     kinetics = None,
 )
@@ -1701,6 +1712,20 @@ entry(
 )
 
 entry(
+    index = 82,
+    label = "C/H2/Nd_Srad",
+    group = 
+"""
+1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 S        u1 {1,S}
+3 *4 H        u0 {1,S}
+4    H        u0 {1,S}
+5    [Cs,O,S] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 98,
     label = "C/H2/De_Rrad",
     group = 
@@ -2695,12 +2720,12 @@ L1: Y_rad_birad_trirad_quadrad
     L2: Y_2centerbirad
         L3: O2b
         L3: C2b
+        L3: S2b
     L2: Y_1centerbirad
         L3: CO_birad_triplet
         L3: O_atom_triplet
         L3: CH2_triplet
         L3: NH_triplet
-    L2: H_rad
     L2: Y_rad
         L3: Ct_rad
             L4: Ct_rad/Ct
@@ -2785,6 +2810,7 @@ L1: Y_rad_birad_trirad_quadrad
                 L5: N3d_rad/N
         L3: N5_rad
             L4: N5d_rad
+        L3: H_rad
 L1: XH_Rrad_birad
     L2: XH_Rrad
         L3: XH_s_Rrad
@@ -2826,6 +2852,7 @@ L1: XH_Rrad_birad
                     L6: C/H2/Nd_COrad
                     L6: C/H2/Nd_Orad
                     L6: C/H2/Nd_Nrad
+                    L6: C/H2/Nd_Srad
                 L5: C/H2/De_Rrad
                     L6: C/H2/De_Csrad
                         L7: C/H2/De_Csrad/H/Cd
@@ -2930,19 +2957,6 @@ u"""
 )
 
 forbidden(
-    label = "OS_birad_singlet",
-    group = 
-"""
-1 *1 [O,S] u0 p3
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
     label = "O_Orad",
     group = 
 """
@@ -2961,7 +2975,7 @@ forbidden(
     label = "XH_birad_singlet",
     group = 
 """
-1 *3 [C,N,Si] u0 p1 {2,[S,D,T]}
+1 *3 [C,Si] u0 p1 {2,[S,D,T]}
 2 *2 R!H      ux {1,[S,D,T]} {3,S}
 3 *4 H        u0 {2,S}
 """,
@@ -2976,7 +2990,7 @@ forbidden(
     label = "XH_quadrad_singlet",
     group = 
 """
-1 *3 [C,N,Si] u0 p2 {2,[S,D,T]}
+1 *3 [C,Si] u0 p2 {2,[S,D,T]}
 2 *2 R!H      ux {1,[S,D,T]} {3,S}
 3 *4 H        u0 {2,S}
 """,
@@ -2988,23 +3002,12 @@ u"""
 )
 
 forbidden(
-    label = "birad_singlet",
+    label = "XH_N_birad_singlet",
     group = 
 """
-1 *1 [C,N,Si] u0 p1
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
-    label = "quadrad_singlet",
-    group = 
-"""
-1 *1 [C,N,Si] u0 p2
+1 *3 N u0 p2 {2,[S,D]}
+2 *2 R!H      ux {1,[S,D]} {3,S}
+3 *4 H        u0 {2,S}
 """,
     shortDesc = u"""""",
     longDesc = 

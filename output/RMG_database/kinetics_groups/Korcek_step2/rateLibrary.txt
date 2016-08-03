@@ -1,7 +1,0 @@
-//Rate rule for cyclization of HOOQ=O species by Amrit Jalan, December 27, 2011
-
-// Define key word for format of the rate: either Arrhenius or Arrhenius_EP
-Arrhenius_EP
-
-//No.		Y_rad_1						Temp.		A			n		a		E0		DA		Dn		Da		DE0		Rank	Comments
-1.			C1(R)(H)(O[OC3(OH)(R')]C2)	300-1500	3.00e+09	1.38 	0		34.40	0		0		0		0		0		CanTherm calculations using F12-QZ energies for reactants and TS. OH rotor potentials for cyclic peroxide obtained at th3 b3lyp/cbsb7 level of theory

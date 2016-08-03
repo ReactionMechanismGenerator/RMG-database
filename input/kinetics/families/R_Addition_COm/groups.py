@@ -89,7 +89,7 @@ entry(
     group = 
 """
 1 *2 O      u1 {2,S}
-2    [Cs,O] u0 {1,S}
+2    [Cs,O,S] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -654,6 +654,60 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 51,
+    label = "S_rad",
+    group = 
+"""
+1 *2 S u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 52,
+    label = "S_pri_rad",
+    group = 
+"""
+1 *2 S u1 {2,S}
+2    H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 53,
+    label = "S_sec_rad",
+    group = 
+"""
+1 *2 S   u1 {2,S}
+2    R!H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 54,
+    label = "S_rad/NonDe",
+    group = 
+"""
+1 *2 S        u1 {2,S}
+2    [Cs,O,S] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 55,
+    label = "S_rad/OneDe",
+    group = 
+"""
+1 *2 S             u1 {2,S}
+2    [Cd,Ct,Cb,CO] u0 {1,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: COm
@@ -706,6 +760,11 @@ L1: Y_rad
                 L5: C_rad/TD_Cs
                 L5: C_rad/TDMustO
             L4: C_rad/ThreeDe
+    L2: S_rad
+        L3: S_pri_rad
+        L3: S_sec_rad
+            L4: S_rad/NonDe
+            L4: S_rad/OneDe
 """
 )
 

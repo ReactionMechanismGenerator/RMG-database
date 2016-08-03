@@ -242,3 +242,23 @@ Quantum dynamics calculations. Reaction potential energy suraface was studied us
 """,
 )
 
+
+
+entry(
+    index = 10,
+    label = "C5H5 + C2H5 <=> C7H10",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (8.34e+15, 'cm^3/(mol*s)'),
+        n = -0.7,
+        Ea = (-0.5, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
+    longDesc = 
+u"""
+Taken from entry: ethyl + CPDyl <=> ethylCPD
+""",
+)
+

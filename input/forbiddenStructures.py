@@ -290,36 +290,6 @@ u"""
 )
 
 entry(
-    label = "S3",
-    group = 
-"""
-1 S u0 {2,S}
-2 S u0 {1,S} {3,S}
-3 S u0 {2,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    label = "S3..",
-    group = 
-"""
-1 S u1 {2,S}
-2 S u0 {1,S} {3,S}
-3 S u1 {2,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     label = "cyclic-C3O",
     group = 
 """

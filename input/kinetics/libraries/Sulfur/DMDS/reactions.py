@@ -2,9 +2,9 @@
 # encoding: utf-8
 
 name = "Sulfur/DMDS"
-shortDesc = u""
+shortDesc = u"dimethyl disulfide library"
 longDesc = u"""
-
+Sulfur library originally created by Caleb in RMG-Java. No mention of source of kinetics in Java git commits.
 """
 entry(
     index = 1,

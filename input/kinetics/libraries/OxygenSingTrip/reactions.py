@@ -2,9 +2,9 @@
 # encoding: utf-8
 
 name = "OxygenSingTrip"
-shortDesc = u""
+shortDesc = u"reactions of singlet and triplet oxygen"
 longDesc = u"""
-
+Reactions of singlet and triplet oxygen. added based on the new adjacency list representation in 2014 by Connie
 """
 entry(
     index = 1,

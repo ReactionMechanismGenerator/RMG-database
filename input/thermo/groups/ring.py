@@ -24,6 +24,56 @@ entry(
 u"""
 
 """,
+    rank = 10,
+)
+
+
+entry(
+    index = 96,
+    label = "Aromatic",
+    group = 
+"""
+1 * Cb u0
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Aromatic""",
+    longDesc = 
+u"""
+Ring correction is zero because RMG uses Cb group corrections instead in the case of a ring containing Cb bonds
+""",
+    rank = 1,
+)
+
+
+entry(
+    index = 96,
+    label = "Benzene",
+    group = 
+"""
+1 * Cb u0 {2,B} {6,B}
+2   Cb u0 {1,B} {3,B}
+3   Cb u0 {2,B} {4,B}
+4   Cb u0 {3,B} {5,B}
+5   Cb u0 {4,B} {6,B}
+6   Cb u0 {1,B} {5,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Aromatic""",
+    longDesc = 
+u"""
+Ring correction is zero because RMG uses Cb group corrections instead in the case of a ring containing Cb bonds
+""",
+    rank = 1,
 )
 
 entry(
@@ -198,6 +248,31 @@ u"""
 )
 
 entry(
+    index = 158,
+    label = "oxirene",
+    group = 
+"""
+1   Cd u0 {2,S} {3,D}
+2 * Os u0 {1,S} {3,S}
+3   Cd u0 {1,D} {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.283,-1.56,-2.46,-2.83,-3.22,-3.08,-3.04],'cal/(mol*K)'),
+        H298 = (80.64,'kcal/mol'),
+        S298 = (38.08,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from goldsmith's DFT-QCI library""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+
+
+entry(
     index = 8,
     label = "cyclopropanedione",
     group = 
@@ -297,10 +372,10 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-6.97,-6.66,-6.4,-6.29,-6.1,-5.72,-4.28],'cal/(mol*K)'),
-        H298 = (33.01,'kcal/mol'),
+        H298 = (24.72,'kcal/mol'),
         S298 = (34.89,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009, dH from NIST-JANAF""",
     longDesc = 
 u"""
 
@@ -578,6 +653,29 @@ u"""
 )
 
 entry(
+    index = 159,
+    label = "Oxetene",
+    group = 
+"""
+1 * Os u0 {2,S} {4,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   C  u0 {1,S} {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.88,-4.22,-4.18,-3.97,-3.65,-3.56,-2.93],'cal/(mol*K)'),
+        H298 = (32.51,'kcal/mol'),
+        S298 = (29.26,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from goldsmith's DFT-QCI library""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 83,
     label = "Beta-Propiolactone",
     group = 
@@ -797,10 +895,10 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-7.92,-7.46,-7.14,-6.99,-6.77,-6.27,-4.36],'cal/(mol*K)'),
-        H298 = (43.1,'kcal/mol'),
+        H298 = (22.72,'kcal/mol'),
         S298 = (32.19,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009, dH from NIST-JANAF""",
     longDesc = 
 u"""
 
@@ -1127,9 +1225,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-6.058,-7.002,-6.774,-6.09,-4.988,-3.95,-2.882],'cal/(mol*K)'),
-        H298 = (6.89,'kcal/mol'),
-        S298 = (30.0857,'cal/(mol*K)'),
+        Cpdata = ([-6.09,-7.18,-6.79,-5.86,-4.83,-3.71,-2.9],'cal/(mol*K)'),
+        H298 = (-6.3,'kcal/mol'),
+        S298 = (31.71,'cal/(mol*K)'),
     ),
     shortDesc = u"""Furan ring BENSON""",
     longDesc = 
@@ -1584,10 +1682,10 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-8.87,-8.3,-7.89,-7.72,-7.45,-6.84,-4.46],'cal/(mol*K)'),
-        H298 = (17.23,'kcal/mol'),
+        H298 = (10.99,'kcal/mol'),
         S298 = (30.31,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009, dH from NIST-JANAF""",
     longDesc = 
 u"""
 
@@ -1769,12 +1867,12 @@ entry(
     label = "sixnosidedouble",
     group = 
 """
-1 * [Cs,Os,N3s] u0 {2,S} {6,S}
-2   [Cs,Os,N3s] u0 {1,S} {3,S}
-3   [Cs,Os,N3s] u0 {2,S} {4,S}
-4   [Cs,Os,N3s] u0 {3,S} {5,S}
-5   [Cs,Os,N3s] u0 {4,S} {6,S}
-6   [Cs,Os,N3s] u0 {1,S} {5,S}
+1 * [Cs,Os,N3s,Ss] u0 {2,S} {6,S}
+2   [Cs,Os,N3s,Ss] u0 {1,S} {3,S}
+3   [Cs,Os,N3s,Ss] u0 {2,S} {4,S}
+4   [Cs,Os,N3s,Ss] u0 {3,S} {5,S}
+5   [Cs,Os,N3s,Ss] u0 {4,S} {6,S}
+6   [Cs,Os,N3s,Ss] u0 {1,S} {5,S}
 """,
     thermo = u'Cyclohexane',
     shortDesc = u"""""",
@@ -1978,6 +2076,31 @@ entry(
         S298 = (18.8,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 155,
+    label = "hexasulfur",
+    group = 
+"""
+1 * Ss u0 {2,S} {6,S}
+2   Ss u0 {1,S} {3,S}
+3   Ss u0 {2,S} {4,S}
+4   Ss u0 {3,S} {5,S}
+5   Ss u0 {4,S} {6,S}
+6   Ss u0 {1,S} {5,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.61,-0.16,-5.5,-6.91,-8.91,-9.24,-7.14],'cal/(mol*K)'),
+        H298 = (6.1,'kcal/mol'),
+        S298 = (4.36,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""All from NIST-JANAF table""",
     longDesc = 
 u"""
 
@@ -2796,14 +2919,12 @@ entry(
     label = "obenzoquinone",
     group = 
 """
-1 * Cd u0 {5,S} {6,S} {8,D}
+1 * CO u0 {5,S} {6,S}
 2   Cd u0 {3,D} {6,S}
 3   Cd u0 {2,D} {4,S}
 4   Cd u0 {3,S} {5,D}
 5   Cd u0 {1,S} {4,D}
-6   Cd u0 {1,S} {2,S} {7,D}
-7   Od u0 {6,D}
-8   Od u0 {1,D}
+6   CO u0 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3143,6 +3264,58 @@ CBS-QB3 isodesmic reaction approach C7H6 + 4 ethene = allene + 3 butadiene
 )
 
 entry(
+    index = 156,
+    label = "heptasulfur",
+    group = 
+"""
+1 * Ss u0 {2,S} {7,S}
+2   Ss u0 {1,S} {3,S}
+3   Ss u0 {2,S} {4,S}
+4   Ss u0 {3,S} {5,S}
+5   Ss u0 {4,S} {6,S}
+6   Ss u0 {5,S} {7,S}
+7   Ss u0 {1,S} {6,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.26,-9.91,-9.2,-8.99,-8.5,-7.55,-3.9],'cal/(mol*K)'),
+        H298 = (-0.44,'kcal/mol'),
+        S298 = (8.52,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""All from NIST-JANAF table""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 160,
+    label = "oxepane",
+    group =
+"""
+1 * C u0 {2,S} {7,S}
+2   C u0 {1,S} {3,S}
+3   C u0 {2,S} {4,S}
+4   C u0 {3,S} {5,S}
+5   C u0 {4,S} {6,S}
+6   C u0 {5,S} {7,S}
+7   Os u0 {1,S} {6,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.10,-5.33,-3.85,-2.52,-0.92,0.26,5.83],'cal/(mol*K)'),
+        H298 = (6.54,'kcal/mol'),
+        S298 = (17.14,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Calculation: Mixture of two twist chair formations""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
     index = 59,
     label = "Cyclooctane",
     group = 
@@ -3349,6 +3522,33 @@ u"""
 )
 
 entry(
+    index = 157,
+    label = "octasulfur",
+    group = 
+"""
+1 * Ss u0 {2,S} {8,S}
+2   Ss u0 {1,S} {3,S}
+3   Ss u0 {2,S} {4,S}
+4   Ss u0 {3,S} {5,S}
+5   Ss u0 {4,S} {6,S}
+6   Ss u0 {5,S} {7,S}
+7   Ss u0 {6,S} {8,S}
+8   Ss u0 {1,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.56,-10.72,-9.9,-9.63,-9.1,-8.08,-4.19],'cal/(mol*K)'),
+        H298 = (-10.14,'kcal/mol'),
+        S298 = (2.42,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""All from NIST-JANAF table""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 103,
     label = "NineMember",
     group = 
@@ -3512,10 +3712,13 @@ u"""
 tree(
 """
 L1: Ring
+    L2: Aromatic
+        L3: Benzene
     L2: ThreeMember
         L3: Cyclopropane
         L3: Cyclopropene
         L3: Cyclopropadiene
+		L3: oxirene
         L3: Cyclopropatriene
         L3: Ethylene_oxide
         L3: dioxirane
@@ -3537,6 +3740,7 @@ L1: Ring
         L3: Cyclobutane
         L3: Cyclobutene
         L3: Oxetane
+		L3: Oxetene
         L3: Beta-Propiolactone
         L3: Cyclobutanone
         L3: 12dioxetane
@@ -3596,6 +3800,7 @@ L1: Ring
             L4: 124trioxane
             L4: 123trioxane
             L4: Oxane
+            L4: hexasulfur
             L4: Piperidine
         L3: six-sidedoubles
             L4: six-onesidedouble
@@ -3643,6 +3848,8 @@ L1: Ring
         L3: Cycloheptanone
         L3: 1,4-Cycloheptadiene
         L3: 1,2,4,6-Cycloheptatetraene
+        L3: heptasulfur
+	L3: oxepane
     L2: EightMember
         L3: Cyclooctane
         L3: cis-Cyclooctene
@@ -3652,6 +3859,7 @@ L1: Ring
         L3: 1,3-cyclooctadiene
         L3: 1,4-cyclooctadiene
         L3: 1,5-cyclooctadiene
+        L3: octasulfur
     L2: NineMember
         L3: Cyclononane
         L3: Cyclononanone

@@ -2,9 +2,10 @@
 # encoding: utf-8
 
 name = "Sulfur/DMS"
-shortDesc = u""
+shortDesc = u"Dimethylsulfide library"
 longDesc = u"""
-
+Sulfur library originally created by Caleb in RMG-Java using partially Aaron Vandeputte's
+library for dimethyl sulfide
 """
 entry(
     index = 1,

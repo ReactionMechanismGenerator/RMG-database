@@ -1,6 +1,0 @@
-
-Arrhenius_EP																								
-
-// CBS-QB3 calculations
-
-1 XSYJ	YJ-Ss X-Ss 300-1500	1E+08	2	0	40	0	0	0	0	1	Aäron Vandeputte CBS-QB3 HO

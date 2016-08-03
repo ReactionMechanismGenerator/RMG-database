@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = ""
-shortDesc = u""
+name = "ERC-FoundationFuelv0.9"
+shortDesc = u"Small molecule combustion kinetics by ERC"
 longDesc = u"""
-
+Small molecule combustion kinetics created by Engine Research Center at University of Wisconsin.  
 """
 entry(
     index = 1,

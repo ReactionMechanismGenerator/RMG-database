@@ -1,8 +1,0 @@
-//Rate rule for cyclization of HOOQ=O species by Amrit Jalan, December 27, 2011
-
-// Define key word for format of the rate: either Arrhenius or Arrhenius_EP
-Arrhenius_EP
-
-//No.		Y_rad_1					Temp.		A			n		a		E0		DA		Dn		Da		DE0		Rank	Comments
-//1.		RCH(OOH)CH2C(O)R'		300-1500	4.96e-12	6.06 	0		18.71	0		0		0		0		0		CanTherm calculations using F12-QZ energies for reactants and TS. b3lyp/cbsb7 rotor potentials for HOOQ=O were used.
-1.			RCH(OOH)CH2C(O)R'		300-1500	2.10e-12	6.17 	0		19.20	0		0		0		0		0		CanTherm calculations using F12-QZ energies for reactants and TS. b3lyp/cbsb7 rotor potentials for HOOQ=O were used.

@@ -45,18 +45,3 @@ L1: N3sRRR
 L1: O_atom_singlet
 """
 )
-
-forbidden(
-    label = "OJJH",
-    group = 
-"""
-1 O u2 {2,S}
-2 R u0 {1,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-

@@ -278,7 +278,8 @@ entry(
     group = 
 """
 1 * Cb u0 {2,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {3,D}
+3   C  u0 {2,D}
 """,
     thermo = u'Cb-(Cds-Cds)',
     shortDesc = u"""""",
@@ -387,8 +388,7 @@ entry(
     group = 
 """
 1 * Cb u0 {2,S}
-2   Cd u0 {1,S} {3,D}
-3   Sd u0 {2,D}
+2   CS u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -778,7 +778,8 @@ entry(
 """
 1 * Ct u0 {2,T} {3,S}
 2   Ct u0 {1,T}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {4,D}
+4   C  u0 {3,D}
 """,
     thermo = u'Ct-Ct(Cds-Cds)',
     shortDesc = u"""""",
@@ -893,8 +894,7 @@ entry(
 """
 1 * Ct u0 {2,T} {3,S}
 2   Ct u0 {1,T}
-3   Cd u0 {1,S} {4,D}
-4   Sd u0 {3,D}
+3   CS u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1029,6 +1029,28 @@ entry(
         S298 = (52.46,'cal/(mol*K)','+|-',0.002),
     ),
     shortDesc = u"""CHEMKIN DATABASE: S(group) = S(CO2) + Rln(2)""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1466,
+    label = "Cdd-OdSd",
+    group = 
+"""
+1 * Cdd u0 {2,D} {3,D}
+2   Od  u0 {1,D}
+3   Sd  u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.81,10.8,11.6,12.21,13.03,13.51,14.12],'cal/(mol*K)'),
+        H298 = (-35.96,'kcal/mol'),
+        S298 = (55.34,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CAC calc 1D-HR""",
     longDesc = 
 u"""
 
@@ -1483,10 +1505,9 @@ entry(
     label = "Cds-OdN3sH",
     group = 
 """
-1 * [Cd,CO] u0 {2,D} {3,S} {4,S}
-2   Od      u0 {1,D}
-3   N3s     u0 {1,S}
-4   H       u0 {1,S}
+1 * CO  u0 {2,S} {3,S}
+2   N3s u0 {1,S}
+3   H   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1506,10 +1527,9 @@ entry(
     label = "Cds-OdN3sCs",
     group = 
 """
-1 * [Cd,CO] u0 {2,D} {3,S} {4,S}
-2   Od      u0 {1,D}
-3   N3s     u0 {1,S}
-4   Cs      u0 {1,S}
+1 * CO  u0 {2,S} {3,S}
+2   N3s u0 {1,S}
+3   Cs  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1640,7 +1660,7 @@ u"""
 )
 
 entry(
-    index = 1453,
+    index = 1454,
     label = "CO-SsH",
     group = 
 """
@@ -1651,9 +1671,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.26,4.48,4.61,4.7,4.89,4.95,4.98],'cal/(mol*K)'),
-        H298 = (-1.13,'kcal/mol'),
-        S298 = (26.69,'cal/(mol*K)'),
+        Cpdata = ([5.51,6.16,6.7,7.17,8.06,8.79,9.83],'cal/(mol*K)'),
+        H298 = (-9.84,'kcal/mol'),
+        S298 = (29.36,'cal/(mol*K)'),
     ),
     shortDesc = u"""CAC 1d-HR calc""",
     longDesc = 
@@ -1686,7 +1706,7 @@ u"""
 )
 
 entry(
-    index = 1454,
+    index = 1455,
     label = "CO-CsSs",
     group = 
 """
@@ -1697,9 +1717,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.82,6.45,7,7.45,8.05,8.43,8.84],'cal/(mol*K)'),
-        H298 = (-9.43,'kcal/mol'),
-        S298 = (18.05,'cal/(mol*K)'),
+        Cpdata = ([4.37,5.04,5.51,5.83,6.29,6.48,6.38],'cal/(mol*K)'),
+        H298 = (-14.02,'kcal/mol'),
+        S298 = (8.55,'cal/(mol*K)'),
     ),
     shortDesc = u"""CAC 1d-HR calc""",
     longDesc = 
@@ -1709,86 +1729,22 @@ u"""
 )
 
 entry(
-    index = 1183,
-    label = "C=S-HH",
+    index = 1456,
+    label = "CO-OsSs",
     group = 
 """
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.08,10.34,11.51,12.5,14.07,15.25,17.14],'cal/(mol*K)'),
-        H298 = (27.71,'kcal/mol'),
-        S298 = (56.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 1189,
-    label = "C=S-SsH",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Ss u0 {1,S}
-4   H  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.38,9.78,10.83,11.66,12.86,13.71,14.87],'cal/(mol*K)'),
-        H298 = (21.55,'kcal/mol'),
-        S298 = (34.41,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 1455,
-    label = "CS-OsH",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
+1 * CO u0 {2,D} {3,S} {4,S}
+2   Od u0 {1,D}
 3   Os u0 {1,S}
-4   H  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.6,5.45,6.2,6.84,7.78,8.44,9.34],'cal/(mol*K)'),
-        H298 = (-7.85,'kcal/mol'),
-        S298 = (27.65,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CAC 1d-HR calc""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-SsSs",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Ss u0 {1,S}
 4   Ss u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = u"""""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.94,5.63,6.35,6.99,7.59,7.76,8.18],'cal/(mol*K)'),
+        H298 = (-11.53,'kcal/mol'),
+        S298 = (9.61,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CAC CBS-QB3 1Dhr calc""",
     longDesc = 
 u"""
 
@@ -1884,8 +1840,9 @@ entry(
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   Od u0 {1,D}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {5,D}
 4   H  u0 {1,S}
+5   C  u0 {3,D}
 """,
     thermo = u'Cds-Od(Cds-Cds)H',
     shortDesc = u"""""",
@@ -2015,237 +1972,6 @@ u"""
 )
 
 entry(
-    index = -1,
-    label = "C=S-CH",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   C  u0 {1,S}
-4   H  u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 1184,
-    label = "C=S-CsH",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cs u0 {1,S}
-4   H  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.11,9.03,9.88,10.61,11.74,12.55,13.82],'cal/(mol*K)'),
-        H298 = (27.32,'kcal/mol'),
-        S298 = (37.56,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 1185,
-    label = "C=S-CdsH",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cd u0 {1,S}
-4   H  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.59,9.38,10.81,11.85,13.18,13.95,14.81],'cal/(mol*K)'),
-        H298 = (24.05,'kcal/mol'),
-        S298 = (34.35,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cd)H",
-    group = 
-"""
-1 * CS          u0 {2,D} {3,S} {4,S}
-2   Sd          u0 {1,D}
-3   Cd          u0 {1,S} {5,D}
-4   H           u0 {1,S}
-5   [Cd,Cdd,CO] u0 {3,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cds)H",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cd u0 {1,S} {5,D}
-4   H  u0 {1,S}
-5   Cd u0 {3,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cdd)H",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   H   u0 {1,S}
-5   Cdd u0 {3,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cdd-Sd)H",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   H   u0 {1,S}
-5   Cdd u0 {3,D} {6,D}
-6   Sd  u0 {5,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cdd-Cd)H",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   H   u0 {1,S}
-5   Cdd u0 {3,D} {6,D}
-6   C   u0 {5,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 1188,
-    label = "C=S-C=SH",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cd u0 {1,S} {5,D}
-4   H  u0 {1,S}
-5   Sd u0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.79,9.18,10.41,11.42,12.82,13.63,14.54],'cal/(mol*K)'),
-        H298 = (26.96,'kcal/mol'),
-        S298 = (35.65,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 1186,
-    label = "C=S-CtH",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Ct u0 {1,S}
-4   H  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.46,8.91,10.01,10.83,11.98,12.74,13.87],'cal/(mol*K)'),
-        H298 = (30.83,'kcal/mol'),
-        S298 = (37.16,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 1187,
-    label = "C=S-CbH",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cb u0 {1,S}
-4   H  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.45,9.84,10.94,11.78,12.97,13.76,14.77],'cal/(mol*K)'),
-        H298 = (24.71,'kcal/mol'),
-        S298 = (34.15,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 65,
     label = "Cds-OdCOs",
     group = 
@@ -2334,8 +2060,9 @@ entry(
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   Od u0 {1,D}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {5,D}
 4   Os u0 {1,S}
+5   C  u0 {3,D}
 """,
     thermo = u'Cds-Od(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -2470,217 +2197,6 @@ u"""
 )
 
 entry(
-    index = 1205,
-    label = "C=S-CSs",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   C  u0 {1,S}
-4   Ss u0 {1,S}
-""",
-    thermo = u'C=S-CsSs',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 1206,
-    label = "C=S-CsSs",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cs u0 {1,S}
-4   Ss u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.4,8.38,9.16,9.8,10.72,11.25,11.66],'cal/(mol*K)'),
-        H298 = (21.35,'kcal/mol'),
-        S298 = (14.52,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-CdsSs",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cd u0 {1,S}
-4   Ss u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cd)Ss",
-    group = 
-"""
-1 * CS          u0 {2,D} {3,S} {4,S}
-2   Sd          u0 {1,D}
-3   Cd          u0 {1,S} {5,D}
-4   Ss          u0 {1,S}
-5   [Cd,Cdd,CO] u0 {3,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cds)Ss",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cd u0 {1,S} {5,D}
-4   Ss u0 {1,S}
-5   Cd u0 {3,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cdd)Ss",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   Ss  u0 {1,S}
-5   Cdd u0 {3,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cdd-Sd)Ss",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   Ss  u0 {1,S}
-5   Cdd u0 {3,D} {6,D}
-6   Sd  u0 {5,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cdd-Cd)Ss",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   Ss  u0 {1,S}
-5   Cdd u0 {3,D} {6,D}
-6   C   u0 {5,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-C=SSs",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cd u0 {1,S} {5,D}
-4   Ss u0 {1,S}
-5   Sd u0 {3,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-CtSs",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Ct u0 {1,S}
-4   Ss u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-CbSs",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cb u0 {1,S}
-4   Ss u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 76,
     label = "Cds-OdCC",
     group = 
@@ -2769,8 +2285,9 @@ entry(
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   Od u0 {1,D}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {5,D}
 4   Cs u0 {1,S}
+5   C  u0 {3,D}
 """,
     thermo = u'Cds-Od(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -2906,8 +2423,9 @@ entry(
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   Od u0 {1,D}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {5,D}
 4   CO u0 {1,S}
+5   C  u0 {3,D}
 """,
     thermo = u'Cds-Od(Cds-Cds)(Cds-Od)',
     shortDesc = u"""""",
@@ -3002,8 +2520,10 @@ entry(
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   Od u0 {1,D}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
+3   Cd u0 {1,S} {5,D}
+4   Cd u0 {1,S} {6,D}
+5   C  u0 {3,D}
+6   C  u0 {4,D}
 """,
     thermo = u'Cds-Od(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -3248,7 +2768,8 @@ entry(
 1 * CO u0 {2,D} {3,S} {4,S}
 2   Od u0 {1,D}
 3   Ct u0 {1,S}
-4   Cd u0 {1,S}
+4   Cd u0 {1,S} {5,D}
+5   C  u0 {4,D}
 """,
     thermo = u'Cds-OdCt(Cds-Cds)',
     shortDesc = u"""""",
@@ -3416,7 +2937,8 @@ entry(
 1 * CO u0 {2,D} {3,S} {4,S}
 2   Od u0 {1,D}
 3   Cb u0 {1,S}
-4   Cd u0 {1,S}
+4   Cd u0 {1,S} {5,D}
+5   C  u0 {4,D}
 """,
     thermo = u'Cds-OdCb(Cds-Cds)',
     shortDesc = u"""""",
@@ -3534,909 +3056,6 @@ entry(
 """,
     thermo = u'Cds-Od(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-CC",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 1190,
-    label = "C=S-CsCs",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cs u0 {1,S}
-4   Cs u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.7,7.44,8.14,8.72,9.52,9.98,10.51],'cal/(mol*K)'),
-        H298 = (27.2,'kcal/mol'),
-        S298 = (18,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 1191,
-    label = "C=S-CdsCs",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cd u0 {1,S}
-4   Cs u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.79,9.21,10.13,10.71,11.25,11.42,11.35],'cal/(mol*K)'),
-        H298 = (26.19,'kcal/mol'),
-        S298 = (13.44,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cd)Cs",
-    group = 
-"""
-1 * CS          u0 {2,D} {3,S} {4,S}
-2   Sd          u0 {1,D}
-3   Cd          u0 {1,S} {5,D}
-4   Cs          u0 {1,S}
-5   [Cd,Cdd,CO] u0 {3,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cds)Cs",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cd u0 {1,S} {5,D}
-4   Cs u0 {1,S}
-5   Cd u0 {3,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cdd)Cs",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cs  u0 {1,S}
-5   Cdd u0 {3,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cdd-Sd)Cs",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cs  u0 {1,S}
-5   Cdd u0 {3,D} {6,D}
-6   Sd  u0 {5,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cdd-Cd)Cs",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cs  u0 {1,S}
-5   Cdd u0 {3,D} {6,D}
-6   C   u0 {5,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 1194,
-    label = "C=S-C=SCs",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cd u0 {1,S} {5,D}
-4   Cs u0 {1,S}
-5   Sd u0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.93,7.93,8.76,9.37,10.11,10.45,10.71],'cal/(mol*K)'),
-        H298 = (27.48,'kcal/mol'),
-        S298 = (16.58,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-CdsCds",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cd)(Cds-Cd)",
-    group = 
-"""
-1 * CS          u0 {2,D} {3,S} {4,S}
-2   Sd          u0 {1,D}
-3   Cd          u0 {1,S} {5,D}
-4   Cd          u0 {1,S} {6,D}
-5   [Cd,Cdd,CO] u0 {3,D}
-6   [Cd,Cdd,CO] u0 {4,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cds)(Cds-Cds)",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cd u0 {1,S} {5,D}
-4   Cd u0 {1,S} {6,D}
-5   Cd u0 {3,D}
-6   Cd u0 {4,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cdd)(Cds-Cds)",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cdd u0 {3,D}
-6   Cd  u0 {4,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cdd-Sd)(Cds-Cds)",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cdd u0 {3,D} {7,D}
-6   Cd  u0 {4,D}
-7   Sd  u0 {5,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cdd-Cd)(Cds-Cds)",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cdd u0 {3,D} {7,D}
-6   Cd  u0 {4,D}
-7   C   u0 {5,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cdd)(Cds-Cdd)",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cdd u0 {3,D}
-6   Cdd u0 {4,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cdd-Sd)(Cds-Cdd-Sd)",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cdd u0 {3,D} {7,D}
-6   Cdd u0 {4,D} {8,D}
-7   Sd  u0 {5,D}
-8   Sd  u0 {6,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cdd-Cd)(Cds-Cdd-Sd)",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cdd u0 {3,D} {7,D}
-6   Cdd u0 {4,D} {8,D}
-7   C   u0 {5,D}
-8   Sd  u0 {6,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cdd u0 {3,D} {7,D}
-6   Cdd u0 {4,D} {8,D}
-7   C   u0 {5,D}
-8   C   u0 {6,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cd)C=S",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S} {5,D}
-5   Sd u0 {4,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cds)C=S",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cd u0 {1,S} {5,D}
-4   Cd u0 {1,S} {6,D}
-5   Cd u0 {3,D}
-6   Sd u0 {4,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cdd)C=S",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cdd u0 {3,D}
-6   Sd  u0 {4,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cdd-Sd)C=S",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cd  u0 {1,S} {7,D}
-5   Cdd u0 {3,D} {6,D}
-6   Sd  u0 {5,D}
-7   Sd  u0 {4,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-(Cds-Cdd-Cd)C=S",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cd  u0 {1,S} {7,D}
-5   Cdd u0 {3,D} {6,D}
-6   C   u0 {5,D}
-7   Sd  u0 {4,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-C=SC=S",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cd u0 {1,S} {5,D}
-4   Cd u0 {1,S} {6,D}
-5   Sd u0 {3,D}
-6   Sd u0 {4,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 1192,
-    label = "C=S-CtCs",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Ct u0 {1,S}
-4   Cs u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.87,7.88,8.6,9.13,9.8,10.17,10.59],'cal/(mol*K)'),
-        H298 = (30.12,'kcal/mol'),
-        S298 = (17.46,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-CtCds",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Ct u0 {1,S}
-4   Cd u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-Ct(Cds-Cd)",
-    group = 
-"""
-1 * CS          u0 {2,D} {3,S} {4,S}
-2   Sd          u0 {1,D}
-3   Ct          u0 {1,S}
-4   Cd          u0 {1,S} {5,D}
-5   [Cd,Cdd,CO] u0 {4,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-Ct(Cds-Cds)",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Ct u0 {1,S}
-4   Cd u0 {1,S} {5,D}
-5   Cd u0 {4,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-Ct(Cds-Cdd)",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Ct  u0 {1,S}
-4   Cd  u0 {1,S} {5,D}
-5   Cdd u0 {4,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-Ct(Cds-Cdd-Sd)",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Ct  u0 {1,S}
-4   Cd  u0 {1,S} {5,D}
-5   Cdd u0 {4,D} {6,D}
-6   Sd  u0 {5,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-Ct(Cds-Cdd-Cd)",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Ct  u0 {1,S}
-4   Cd  u0 {1,S} {5,D}
-5   Cdd u0 {4,D} {6,D}
-6   C   u0 {5,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-CtC=S",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Ct u0 {1,S}
-4   Cd u0 {1,S} {5,D}
-5   Sd u0 {4,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-CtCt",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Ct u0 {1,S}
-4   Ct u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 1193,
-    label = "C=S-CbCs",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cb u0 {1,S}
-4   Cs u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.02,9.02,9.75,10.23,10.75,10.96,11.04],'cal/(mol*K)'),
-        H298 = (26.6,'kcal/mol'),
-        S298 = (14.55,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-CbCds",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cb u0 {1,S}
-4   Cd u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-Cb(Cds-Cd)",
-    group = 
-"""
-1 * CS          u0 {2,D} {3,S} {4,S}
-2   Sd          u0 {1,D}
-3   Cb          u0 {1,S}
-4   Cd          u0 {1,S} {5,D}
-5   [Cd,Cdd,CO] u0 {4,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-Cb(Cds-Cds)",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cb u0 {1,S}
-4   Cd u0 {1,S} {5,D}
-5   Cd u0 {4,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-Cb(Cds-Cdd)",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cb  u0 {1,S}
-4   Cd  u0 {1,S} {5,D}
-5   Cdd u0 {4,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-Cb(Cds-Cdd-Sd)",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cb  u0 {1,S}
-4   Cd  u0 {1,S} {5,D}
-5   Cdd u0 {4,D} {6,D}
-6   Sd  u0 {5,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-Cb(Cds-Cdd-Cd)",
-    group = 
-"""
-1 * CS  u0 {2,D} {3,S} {4,S}
-2   Sd  u0 {1,D}
-3   Cb  u0 {1,S}
-4   Cd  u0 {1,S} {5,D}
-5   Cdd u0 {4,D} {6,D}
-6   C   u0 {5,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-CbC=S",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cb u0 {1,S}
-4   Cd u0 {1,S} {5,D}
-5   Sd u0 {4,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-CbCt",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cb u0 {1,S}
-4   Ct u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "C=S-CbCb",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Cb u0 {1,S}
-4   Cb u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 1456,
-    label = "CS-CsOs",
-    group = 
-"""
-1 * CS u0 {2,D} {3,S} {4,S}
-2   Sd u0 {1,D}
-3   Os u0 {1,S}
-4   Cs u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.56,4.06,4.48,4.82,5.35,5.7,6.03],'cal/(mol*K)'),
-        H298 = (-11.19,'kcal/mol'),
-        S298 = (6.94,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CAC 1d-HR calc""",
     longDesc = 
 u"""
 
@@ -5041,8 +3660,9 @@ entry(
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {5,D}
 4   H  u0 {1,S}
+5   C  u0 {3,D}
 """,
     thermo = u'Cds-Cds(Cds-Cds)H',
     shortDesc = u"""""",
@@ -5162,9 +3782,8 @@ entry(
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
-3   Cd u0 {1,S} {5,D}
+3   CS u0 {1,S}
 4   H  u0 {1,S}
-5   Sd u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5373,9 +3992,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   Od  u0 {2,D}
+6   C   u0 {3,D}
 """,
     thermo = u'Cds-(Cdd-Od)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -5479,9 +4099,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   Sd  u0 {2,D}
+6   C   u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -5599,9 +4220,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   C   u0 {2,D}
+6   C   u0 {3,D}
 """,
     thermo = u'Cds-(Cdd-Cd)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -5721,10 +4343,9 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   CS  u0 {1,S}
 4   H   u0 {1,S}
 5   Sd  u0 {2,D}
-6   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -5741,10 +4362,9 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   CS  u0 {1,S}
 4   H   u0 {1,S}
 5   C   u0 {2,D}
-6   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -5993,8 +4613,9 @@ entry(
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {5,D}
 4   Os u0 {1,S}
+5   C  u0 {3,D}
 """,
     thermo = u'Cds-Cds(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -6233,9 +4854,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
 4   Os  u0 {1,S}
 5   Od  u0 {2,D}
+6   C   u0 {3,D}
 """,
     thermo = u'Cds-(Cdd-Od)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -6339,9 +4961,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
 4   Os  u0 {1,S}
 5   C   u0 {2,D}
+6   C   u0 {3,D}
 """,
     thermo = u'Cds-(Cdd-Cd)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -6609,11 +5232,11 @@ entry(
     label = "Cds-Cds(Cds-Cd)Ss",
     group = 
 """
-1 * Cd          u0 {2,D} {3,S} {4,S}
-2   Cd          u0 {1,D}
-3   Cd          u0 {1,S} {5,D}
-4   Ss          u0 {1,S}
-5   [Cd,Cdd,CO] u0 {3,D}
+1 * Cd u0 {2,D} {3,S} {4,S}
+2   Cd u0 {1,D}
+3   Cd u0 {1,S} {5,D}
+4   Ss u0 {1,S}
+5   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -6708,9 +5331,8 @@ entry(
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
-3   Cd u0 {1,S} {5,D}
+3   CS u0 {1,S}
 4   Ss u0 {1,S}
-5   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -6837,9 +5459,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
 4   Ss  u0 {1,S}
 5   Sd  u0 {2,D}
+6   C   u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -6938,9 +5561,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
 4   Ss  u0 {1,S}
 5   C   u0 {2,D}
+6   C   u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -7039,10 +5663,9 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   CS  u0 {1,S}
 4   Ss  u0 {1,S}
 5   Sd  u0 {2,D}
-6   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -7253,8 +5876,9 @@ entry(
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {5,D}
 4   Cs u0 {1,S}
+5   C  u0 {3,D}
 """,
     thermo = u'Cds-Cds(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -7374,9 +5998,8 @@ entry(
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
-3   Cd u0 {1,S} {5,D}
+3   CS u0 {1,S}
 4   Cs u0 {1,S}
-5   Sd u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7435,7 +6058,8 @@ entry(
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
 3   CO u0 {1,S}
-4   Cd u0 {1,S}
+4   Cd u0 {1,S} {5,D}
+5   C  u0 {4,D}
 """,
     thermo = u'Cds-Cds(Cds-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -7465,7 +6089,7 @@ entry(
     shortDesc = u"""Cd-COCd from CD/CD2/ jwb est 6/97""",
     longDesc = 
 u"""
-AG Vandeputte, added 7 kcal/mol to the following value (see phd M Sabbe)    
+AG Vandeputte, added 7 kcal/mol to the following value (see phd M Sabbe)
 """,
 )
 
@@ -7535,8 +6159,10 @@ entry(
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
+3   Cd u0 {1,S} {5,D}
+4   Cd u0 {1,S} {6,D}
+5   C  u0 {3,D}
+6   C  u0 {4,D}
 """,
     thermo = u'Cds-Cds(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -7791,9 +6417,9 @@ entry(
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
-3   Cd u0 {1,S} {5,D}
-4   Cd u0 {1,S}
-5   Sd u0 {3,D}
+3   CS u0 {1,S}
+4   Cd u0 {1,S} {5,D}
+5   C  u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -7810,10 +6436,9 @@ entry(
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
-3   Cd u0 {1,S} {6,D}
+3   CS u0 {1,S}
 4   Cd u0 {1,S} {5,D}
 5   Cd u0 {4,D}
-6   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -7830,10 +6455,9 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cd  u0 {1,D}
-3   Cd  u0 {1,S} {6,D}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {5,D}
 5   Cdd u0 {4,D}
-6   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -7850,11 +6474,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cd  u0 {1,D}
-3   Cd  u0 {1,S} {7,D}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {5,D}
 5   Cdd u0 {4,D} {6,D}
 6   Sd  u0 {5,D}
-7   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -7871,11 +6494,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cd  u0 {1,D}
-3   Cd  u0 {1,S} {7,D}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {5,D}
 5   Cdd u0 {4,D} {6,D}
 6   C   u0 {5,D}
-7   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -7892,10 +6514,8 @@ entry(
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
-3   Cd u0 {1,S} {5,D}
-4   Cd u0 {1,S} {6,D}
-5   Sd u0 {3,D}
-6   Sd u0 {4,D}
+3   CS u0 {1,S}
+4   CS u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -7998,7 +6618,8 @@ entry(
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
 3   Ct u0 {1,S}
-4   Cd u0 {1,S}
+4   Cd u0 {1,S} {5,D}
+5   C  u0 {4,D}
 """,
     thermo = u'Cds-Cds(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -8119,8 +6740,7 @@ entry(
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
 3   Ct u0 {1,S}
-4   Cd u0 {1,S} {5,D}
-5   Sd u0 {4,D}
+4   CS u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -8244,8 +6864,9 @@ entry(
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {5,D}
 4   Cb u0 {1,S}
+5   C  u0 {3,D}
 """,
     thermo = u'Cds-Cds(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -8366,8 +6987,7 @@ entry(
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
 3   Cb u0 {1,S}
-4   Cd u0 {1,S} {5,D}
-5   Sd u0 {4,D}
+4   CS u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -8547,9 +7167,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
 4   Cs  u0 {1,S}
 5   Od  u0 {2,D}
+6   C   u0 {3,D}
 """,
     thermo = u'Cds-(Cdd-Od)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -8653,9 +7274,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
 4   Cs  u0 {1,S}
 5   Sd  u0 {2,D}
+6   C   u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -8754,9 +7376,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
 4   Cs  u0 {1,S}
 5   C   u0 {2,D}
+6   C   u0 {3,D}
 """,
     thermo = u'Cds-(Cdd-Cd)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -8876,10 +7499,9 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   CS  u0 {1,S}
 4   Cs  u0 {1,S}
 5   Sd  u0 {2,D}
-6   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -8933,9 +7555,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
 4   CO  u0 {1,S}
 5   Od  u0 {2,D}
+6   C   u0 {3,D}
 """,
     thermo = u'Cds-(Cdd-Od)(Cds-Cds)(Cds-Od)',
     shortDesc = u"""""",
@@ -9034,9 +7657,11 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
-4   Cd  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
 5   Od  u0 {2,D}
+6   C   u0 {3,D}
+7   C   u0 {4,D}
 """,
     thermo = u'Cds-(Cdd-Od)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -9249,8 +7874,9 @@ entry(
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CO  u0 {1,S}
-4   Cd  u0 {1,S}
+4   Cd  u0 {1,S} {6,D}
 5   C   u0 {2,D}
+6   C   u0 {4,D}
 """,
     thermo = u'Cds-(Cdd-Cd)(Cds-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -9349,9 +7975,11 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
-4   Cd  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
 5   Sd  u0 {2,D}
+6   C   u0 {3,D}
+7   C   u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -9544,9 +8172,11 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
-4   Cd  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
 5   C   u0 {2,D}
+6   C   u0 {3,D}
+7   C   u0 {4,D}
 """,
     thermo = u'Cds-(Cdd-Cd)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -9807,10 +8437,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
-4   Cd  u0 {1,S} {6,D}
+3   Cd  u0 {1,S} {6,D}
+4   CS  u0 {1,S}
 5   Sd  u0 {2,D}
-6   Sd  u0 {4,D}
+6   C   u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -9828,10 +8458,9 @@ entry(
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+4   CS  u0 {1,S}
 5   Sd  u0 {2,D}
 6   Cd  u0 {3,D}
-7   Sd  u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -9849,10 +8478,9 @@ entry(
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+4   CS  u0 {1,S}
 5   Sd  u0 {2,D}
 6   Cdd u0 {3,D}
-7   Sd  u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -9870,11 +8498,10 @@ entry(
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {8,D}
+4   CS  u0 {1,S}
 5   Sd  u0 {2,D}
 6   Cdd u0 {3,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -9892,11 +8519,10 @@ entry(
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {8,D}
+4   CS  u0 {1,S}
 5   Sd  u0 {2,D}
 6   Cdd u0 {3,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -9913,10 +8539,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S}
+3   CS  u0 {1,S}
+4   Cd  u0 {1,S} {6,D}
 5   C   u0 {2,D}
-6   Sd  u0 {3,D}
+6   C   u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -9933,11 +8559,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {7,D}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   C   u0 {2,D}
 6   Cd  u0 {4,D}
-7   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -9954,11 +8579,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {7,D}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   C   u0 {2,D}
 6   Cdd u0 {4,D}
-7   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -9975,12 +8599,11 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {8,D}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   C   u0 {2,D}
 6   Cdd u0 {4,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -9997,12 +8620,11 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {8,D}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   C   u0 {2,D}
 6   Cdd u0 {4,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -10019,11 +8641,9 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   CS  u0 {1,S}
+4   CS  u0 {1,S}
 5   Sd  u0 {2,D}
-6   Sd  u0 {3,D}
-7   Sd  u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -10040,11 +8660,9 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   CS  u0 {1,S}
+4   CS  u0 {1,S}
 5   C   u0 {2,D}
-6   Sd  u0 {3,D}
-7   Sd  u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -10173,9 +8791,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   Od  u0 {2,D}
+6   C   u0 {3,D}
 """,
     thermo = u'Cds-(Cdd-Od)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -10274,9 +8893,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   Sd  u0 {2,D}
+6   C   u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -10375,9 +8995,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   C   u0 {2,D}
+6   C   u0 {3,D}
 """,
     thermo = u'Cds-(Cdd-Cd)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -10497,10 +9118,9 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   CS  u0 {1,S}
 4   Ct  u0 {1,S}
 5   Sd  u0 {2,D}
-6   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -10704,9 +9324,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Od  u0 {2,D}
+6   C   u0 {3,D}
 """,
     thermo = u'Cds-(Cdd-Od)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -10805,9 +9426,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Sd  u0 {2,D}
+6   C   u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -10906,9 +9528,10 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   C   u0 {2,D}
+6   C   u0 {3,D}
 """,
     thermo = u'Cds-(Cdd-Cd)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -11028,10 +9651,9 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   CS  u0 {1,S}
 4   Cb  u0 {1,S}
 5   Sd  u0 {2,D}
-6   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -11335,6 +9957,1449 @@ entry(
         S298 = (24,'cal/(mol*K)','+|-',1.2),
     ),
     shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-SsSs",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Ss u0 {1,S}
+4   Ss u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-CH",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   C  u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1184,
+    label = "C=S-CsH",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Cs u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.11,9.03,9.88,10.61,11.74,12.55,13.82],'cal/(mol*K)'),
+        H298 = (27.32,'kcal/mol'),
+        S298 = (37.56,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1185,
+    label = "C=S-CdsH",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Cd u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.59,9.38,10.81,11.85,13.18,13.95,14.81],'cal/(mol*K)'),
+        H298 = (24.05,'kcal/mol'),
+        S298 = (34.35,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cd)H",
+    group = 
+"""
+1 * CS          u0 {2,S} {3,D} {4,S}
+2   Cd          u0 {1,S} {5,D}
+3   Sd          u0 {1,D}
+4   H           u0 {1,S}
+5   [Cd,Cdd,CO] u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cdd)H",
+    group = 
+"""
+1 * CS  u0 {2,S} {3,D} {4,S}
+2   Cd  u0 {1,S} {5,D}
+3   Sd  u0 {1,D}
+4   H   u0 {1,S}
+5   Cdd u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cdd-Cd)H",
+    group = 
+"""
+1 * CS  u0 {2,S} {4,D} {5,S}
+2   Cd  u0 {1,S} {3,D}
+3   Cdd u0 {2,D} {6,D}
+4   Sd  u0 {1,D}
+5   H   u0 {1,S}
+6   C   u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cdd-Sd)H",
+    group = 
+"""
+1 * CS  u0 {2,S} {4,D} {5,S}
+2   Cd  u0 {1,S} {3,D}
+3   Cdd u0 {2,D} {6,D}
+4   Sd  u0 {1,D}
+5   H   u0 {1,S}
+6   Sd  u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cds)H",
+    group = 
+"""
+1 * CS u0 {2,S} {3,D} {4,S}
+2   Cd u0 {1,S} {5,D}
+3   Sd u0 {1,D}
+4   H  u0 {1,S}
+5   Cd u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1188,
+    label = "C=S-C=SH",
+    group = 
+"""
+1 * CS u0 {2,S} {3,D} {4,S}
+2   CS u0 {1,S}
+3   Sd u0 {1,D}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.79,9.18,10.41,11.42,12.82,13.63,14.54],'cal/(mol*K)'),
+        H298 = (26.96,'kcal/mol'),
+        S298 = (35.65,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1186,
+    label = "C=S-CtH",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Ct u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.46,8.91,10.01,10.83,11.98,12.74,13.87],'cal/(mol*K)'),
+        H298 = (30.83,'kcal/mol'),
+        S298 = (37.16,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1187,
+    label = "C=S-CbH",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Cb u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.45,9.84,10.94,11.78,12.97,13.76,14.77],'cal/(mol*K)'),
+        H298 = (24.71,'kcal/mol'),
+        S298 = (34.15,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-CC",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   C  u0 {1,S}
+4   C  u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-CbCds",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Cb u0 {1,S}
+4   Cd u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-CbC=S",
+    group = 
+"""
+1 * CS u0 {2,S} {3,D} {4,S}
+2   CS u0 {1,S}
+3   Sd u0 {1,D}
+4   Cb u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-Cb(Cds-Cd)",
+    group = 
+"""
+1 * CS          u0 {2,S} {3,D} {4,S}
+2   Cd          u0 {1,S} {5,D}
+3   Sd          u0 {1,D}
+4   Cb          u0 {1,S}
+5   [Cd,Cdd,CO] u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-Cb(Cds-Cds)",
+    group = 
+"""
+1 * CS u0 {2,S} {3,D} {4,S}
+2   Cd u0 {1,S} {5,D}
+3   Sd u0 {1,D}
+4   Cb u0 {1,S}
+5   Cd u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-Cb(Cds-Cdd)",
+    group = 
+"""
+1 * CS  u0 {2,S} {3,D} {4,S}
+2   Cd  u0 {1,S} {5,D}
+3   Sd  u0 {1,D}
+4   Cb  u0 {1,S}
+5   Cdd u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-Cb(Cds-Cdd-Sd)",
+    group = 
+"""
+1 * CS  u0 {2,S} {4,D} {5,S}
+2   Cd  u0 {1,S} {3,D}
+3   Cdd u0 {2,D} {6,D}
+4   Sd  u0 {1,D}
+5   Cb  u0 {1,S}
+6   Sd  u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-Cb(Cds-Cdd-Cd)",
+    group = 
+"""
+1 * CS  u0 {2,S} {4,D} {5,S}
+2   Cd  u0 {1,S} {3,D}
+3   Cdd u0 {2,D} {6,D}
+4   Sd  u0 {1,D}
+5   Cb  u0 {1,S}
+6   C   u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-CtCt",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Ct u0 {1,S}
+4   Ct u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-CbCb",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Cb u0 {1,S}
+4   Cb u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-CdsCds",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Cd u0 {1,S}
+4   Cd u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cd)C=S",
+    group = 
+"""
+1 * CS u0 {2,S} {3,D} {4,S}
+2   CS u0 {1,S}
+3   Sd u0 {1,D}
+4   Cd u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cds)C=S",
+    group = 
+"""
+1 * CS u0 {2,S} {3,S} {4,D}
+2   Cd u0 {1,S} {5,D}
+3   CS u0 {1,S}
+4   Sd u0 {1,D}
+5   Cd u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cdd)C=S",
+    group = 
+"""
+1 * CS  u0 {2,S} {3,S} {4,D}
+2   Cd  u0 {1,S} {5,D}
+3   CS  u0 {1,S}
+4   Sd  u0 {1,D}
+5   Cdd u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cdd-Cd)C=S",
+    group = 
+"""
+1 * CS  u0 {2,S} {3,S} {5,D}
+2   Cd  u0 {1,S} {4,D}
+3   CS  u0 {1,S}
+4   Cdd u0 {2,D} {6,D}
+5   Sd  u0 {1,D}
+6   C   u0 {4,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cdd-Sd)C=S",
+    group = 
+"""
+1 * CS  u0 {2,S} {3,S} {5,D}
+2   Cd  u0 {1,S} {4,D}
+3   CS  u0 {1,S}
+4   Cdd u0 {2,D} {6,D}
+5   Sd  u0 {1,D}
+6   Sd  u0 {4,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-C=SC=S",
+    group = 
+"""
+1 * CS u0 {2,S} {3,S} {4,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
+4   Sd u0 {1,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cd)(Cds-Cd)",
+    group = 
+"""
+1 * CS          u0 {2,S} {3,S} {4,D}
+2   Cd          u0 {1,S} {5,D}
+3   Cd          u0 {1,S} {6,D}
+4   Sd          u0 {1,D}
+5   [Cd,Cdd,CO] u0 {2,D}
+6   [Cd,Cdd,CO] u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cdd)(Cds-Cds)",
+    group = 
+"""
+1 * CS  u0 {2,S} {3,S} {4,D}
+2   Cd  u0 {1,S} {5,D}
+3   Cd  u0 {1,S} {6,D}
+4   Sd  u0 {1,D}
+5   Cdd u0 {2,D}
+6   Cd  u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cdd-Cd)(Cds-Cds)",
+    group = 
+"""
+1 * CS  u0 {2,S} {3,S} {5,D}
+2   Cd  u0 {1,S} {4,D}
+3   Cd  u0 {1,S} {6,D}
+4   Cdd u0 {2,D} {7,D}
+5   Sd  u0 {1,D}
+6   Cd  u0 {3,D}
+7   C   u0 {4,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cdd-Sd)(Cds-Cds)",
+    group = 
+"""
+1 * CS  u0 {2,S} {3,S} {5,D}
+2   Cd  u0 {1,S} {4,D}
+3   Cd  u0 {1,S} {6,D}
+4   Cdd u0 {2,D} {7,D}
+5   Sd  u0 {1,D}
+6   Cd  u0 {3,D}
+7   Sd  u0 {4,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cds)(Cds-Cds)",
+    group = 
+"""
+1 * CS u0 {2,S} {3,S} {4,D}
+2   Cd u0 {1,S} {5,D}
+3   Cd u0 {1,S} {6,D}
+4   Sd u0 {1,D}
+5   Cd u0 {2,D}
+6   Cd u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cdd)(Cds-Cdd)",
+    group = 
+"""
+1 * CS  u0 {2,S} {3,S} {4,D}
+2   Cd  u0 {1,S} {5,D}
+3   Cd  u0 {1,S} {6,D}
+4   Sd  u0 {1,D}
+5   Cdd u0 {2,D}
+6   Cdd u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
+    group = 
+"""
+1 * CS  u0 {2,S} {3,S} {6,D}
+2   Cd  u0 {1,S} {4,D}
+3   Cd  u0 {1,S} {5,D}
+4   Cdd u0 {2,D} {7,D}
+5   Cdd u0 {3,D} {8,D}
+6   Sd  u0 {1,D}
+7   C   u0 {4,D}
+8   C   u0 {5,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cdd-Sd)(Cds-Cdd-Sd)",
+    group = 
+"""
+1 * CS  u0 {2,S} {3,S} {6,D}
+2   Cd  u0 {1,S} {4,D}
+3   Cd  u0 {1,S} {5,D}
+4   Cdd u0 {2,D} {7,D}
+5   Cdd u0 {3,D} {8,D}
+6   Sd  u0 {1,D}
+7   Sd  u0 {4,D}
+8   Sd  u0 {5,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cdd-Cd)(Cds-Cdd-Sd)",
+    group = 
+"""
+1 * CS  u0 {2,S} {3,S} {6,D}
+2   Cd  u0 {1,S} {4,D}
+3   Cd  u0 {1,S} {5,D}
+4   Cdd u0 {2,D} {7,D}
+5   Cdd u0 {3,D} {8,D}
+6   Sd  u0 {1,D}
+7   C   u0 {4,D}
+8   Sd  u0 {5,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-CtCds",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Ct u0 {1,S}
+4   Cd u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-Ct(Cds-Cd)",
+    group = 
+"""
+1 * CS          u0 {2,S} {3,D} {4,S}
+2   Cd          u0 {1,S} {5,D}
+3   Sd          u0 {1,D}
+4   Ct          u0 {1,S}
+5   [Cd,Cdd,CO] u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-Ct(Cds-Cds)",
+    group = 
+"""
+1 * CS u0 {2,S} {3,D} {4,S}
+2   Cd u0 {1,S} {5,D}
+3   Sd u0 {1,D}
+4   Ct u0 {1,S}
+5   Cd u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-Ct(Cds-Cdd)",
+    group = 
+"""
+1 * CS  u0 {2,S} {3,D} {4,S}
+2   Cd  u0 {1,S} {5,D}
+3   Sd  u0 {1,D}
+4   Ct  u0 {1,S}
+5   Cdd u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-Ct(Cds-Cdd-Cd)",
+    group = 
+"""
+1 * CS  u0 {2,S} {4,D} {5,S}
+2   Cd  u0 {1,S} {3,D}
+3   Cdd u0 {2,D} {6,D}
+4   Sd  u0 {1,D}
+5   Ct  u0 {1,S}
+6   C   u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-Ct(Cds-Cdd-Sd)",
+    group = 
+"""
+1 * CS  u0 {2,S} {4,D} {5,S}
+2   Cd  u0 {1,S} {3,D}
+3   Cdd u0 {2,D} {6,D}
+4   Sd  u0 {1,D}
+5   Ct  u0 {1,S}
+6   Sd  u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-CtC=S",
+    group = 
+"""
+1 * CS u0 {2,S} {3,D} {4,S}
+2   CS u0 {1,S}
+3   Sd u0 {1,D}
+4   Ct u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-CbCt",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Cb u0 {1,S}
+4   Ct u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1190,
+    label = "C=S-CsCs",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Cs u0 {1,S}
+4   Cs u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.7,7.44,8.14,8.72,9.52,9.98,10.51],'cal/(mol*K)'),
+        H298 = (27.2,'kcal/mol'),
+        S298 = (18,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1191,
+    label = "C=S-CdsCs",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Cd u0 {1,S}
+4   Cs u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.79,9.21,10.13,10.71,11.25,11.42,11.35],'cal/(mol*K)'),
+        H298 = (26.19,'kcal/mol'),
+        S298 = (13.44,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cd)Cs",
+    group = 
+"""
+1 * CS          u0 {2,S} {3,D} {4,S}
+2   Cd          u0 {1,S} {5,D}
+3   Sd          u0 {1,D}
+4   Cs          u0 {1,S}
+5   [Cd,Cdd,CO] u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cds)Cs",
+    group = 
+"""
+1 * CS u0 {2,S} {3,D} {4,S}
+2   Cd u0 {1,S} {5,D}
+3   Sd u0 {1,D}
+4   Cs u0 {1,S}
+5   Cd u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cdd)Cs",
+    group = 
+"""
+1 * CS  u0 {2,S} {3,D} {4,S}
+2   Cd  u0 {1,S} {5,D}
+3   Sd  u0 {1,D}
+4   Cs  u0 {1,S}
+5   Cdd u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cdd-Sd)Cs",
+    group = 
+"""
+1 * CS  u0 {2,S} {4,D} {5,S}
+2   Cd  u0 {1,S} {3,D}
+3   Cdd u0 {2,D} {6,D}
+4   Sd  u0 {1,D}
+5   Cs  u0 {1,S}
+6   Sd  u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cdd-Cd)Cs",
+    group = 
+"""
+1 * CS  u0 {2,S} {4,D} {5,S}
+2   Cd  u0 {1,S} {3,D}
+3   Cdd u0 {2,D} {6,D}
+4   Sd  u0 {1,D}
+5   Cs  u0 {1,S}
+6   C   u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1194,
+    label = "C=S-C=SCs",
+    group = 
+"""
+1 * CS u0 {2,S} {3,D} {4,S}
+2   CS u0 {1,S}
+3   Sd u0 {1,D}
+4   Cs u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.93,7.93,8.76,9.37,10.11,10.45,10.71],'cal/(mol*K)'),
+        H298 = (27.48,'kcal/mol'),
+        S298 = (16.58,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1192,
+    label = "C=S-CtCs",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Ct u0 {1,S}
+4   Cs u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.87,7.88,8.6,9.13,9.8,10.17,10.59],'cal/(mol*K)'),
+        H298 = (30.12,'kcal/mol'),
+        S298 = (17.46,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1193,
+    label = "C=S-CbCs",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Cb u0 {1,S}
+4   Cs u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.02,9.02,9.75,10.23,10.75,10.96,11.04],'cal/(mol*K)'),
+        H298 = (26.6,'kcal/mol'),
+        S298 = (14.55,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1183,
+    label = "C=S-HH",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.08,10.34,11.51,12.5,14.07,15.25,17.14],'cal/(mol*K)'),
+        H298 = (27.71,'kcal/mol'),
+        S298 = (56.51,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1189,
+    label = "C=S-SsH",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Ss u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.38,9.78,10.83,11.66,12.86,13.71,14.87],'cal/(mol*K)'),
+        H298 = (21.55,'kcal/mol'),
+        S298 = (34.41,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1205,
+    label = "C=S-CSs",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   C  u0 {1,S}
+4   Ss u0 {1,S}
+""",
+    thermo = u'C=S-CsSs',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-CbSs",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Cb u0 {1,S}
+4   Ss u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-CdsSs",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Cd u0 {1,S}
+4   Ss u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-C=SSs",
+    group = 
+"""
+1 * CS u0 {2,S} {3,D} {4,S}
+2   CS u0 {1,S}
+3   Sd u0 {1,D}
+4   Ss u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cd)Ss",
+    group = 
+"""
+1 * CS          u0 {2,S} {3,D} {4,S}
+2   Cd          u0 {1,S} {5,D}
+3   Sd          u0 {1,D}
+4   Ss          u0 {1,S}
+5   [Cd,Cdd,CO] u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cds)Ss",
+    group = 
+"""
+1 * CS u0 {2,S} {3,D} {4,S}
+2   Cd u0 {1,S} {5,D}
+3   Sd u0 {1,D}
+4   Ss u0 {1,S}
+5   Cd u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cdd)Ss",
+    group = 
+"""
+1 * CS  u0 {2,S} {3,D} {4,S}
+2   Cd  u0 {1,S} {5,D}
+3   Sd  u0 {1,D}
+4   Ss  u0 {1,S}
+5   Cdd u0 {2,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cdd-Cd)Ss",
+    group = 
+"""
+1 * CS  u0 {2,S} {4,D} {5,S}
+2   Cd  u0 {1,S} {3,D}
+3   Cdd u0 {2,D} {6,D}
+4   Sd  u0 {1,D}
+5   Ss  u0 {1,S}
+6   C   u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-(Cds-Cdd-Sd)Ss",
+    group = 
+"""
+1 * CS  u0 {2,S} {4,D} {5,S}
+2   Cd  u0 {1,S} {3,D}
+3   Cdd u0 {2,D} {6,D}
+4   Sd  u0 {1,D}
+5   Ss  u0 {1,S}
+6   Sd  u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "C=S-CtSs",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Ct u0 {1,S}
+4   Ss u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1206,
+    label = "C=S-CsSs",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Cs u0 {1,S}
+4   Ss u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.4,8.38,9.16,9.8,10.72,11.25,11.66],'cal/(mol*K)'),
+        H298 = (21.35,'kcal/mol'),
+        S298 = (14.52,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1457,
+    label = "CS-OsH",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Os u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.48,5.3,6.09,6.82,8.05,8.99,10.37],'cal/(mol*K)'),
+        H298 = (2.85,'kcal/mol'),
+        S298 = (30.14,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CAC 1d-HR calc""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1458,
+    label = "CS-CsOs",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Os u0 {1,S}
+4   Cs u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.9,4.17,4.6,5.1,6.08,6.76,7.44],'cal/(mol*K)'),
+        H298 = (-1.32,'kcal/mol'),
+        S298 = (8.62,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CAC 1d-HR calc""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1459,
+    label = "CS-OsOs",
+    group = 
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   Sd u0 {1,D}
+3   Os u0 {1,S}
+4   Os u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.08,3.59,3.9,4.03,3.99,3.75,3.23],'cal/(mol*K)'),
+        H298 = (-22.72,'kcal/mol'),
+        S298 = (2.67,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CAC CBS-QB3 1Dhr calc""",
     longDesc = 
 u"""
 
@@ -12235,37 +12300,13 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)HHH',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 1862,
-    label = "Cs-(CdN3d)HHH",
-    group = 
-"""
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   H   u0 {1,S}
-3   H   u0 {1,S}
-4   H   u0 {1,S}
-5   Cd  u0 {1,S} {6,D}
-6   N3d u0 {5,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.2,7.8,9.4,10.8,13,14.8,17.6],'cal/(mol*K)'),
-        H298 = (-10.2,'kcal/mol'),
-        S298 = (30.4,'cal/(mol*K)'),
-    ),
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -12387,16 +12428,40 @@ u"""
 )
 
 entry(
+    index = 1862,
+    label = "Cs-(CdN3d)HHH",
+    group = 
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   H   u0 {1,S}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
+5   Cd  u0 {1,S} {6,D}
+6   N3d u0 {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.2,7.8,9.4,10.8,13,14.8,17.6],'cal/(mol*K)'),
+        H298 = (-10.2,'kcal/mol'),
+        S298 = (30.4,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 1176,
     label = "Cs-C=SHHH",
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -12569,11 +12634,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.55,8.91,8.5,7.79,6.37,5.31,3.93],'cal/(mol*K)'),
-        H298 = (-9.05,'kcal/mol'),
-        S298 = (6.82,'cal/(mol*K)'),
+        Cpdata = ([7.48,9.54,11,11.91,12.85,13.54,14.93],'cal/(mol*K)'),
+        H298 = (-11.58,'kcal/mol'),
+        S298 = (4.58,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 1DHR CAC""",
+    shortDesc = u"""CAC CBS-QB3 1DHR CAC""",
     longDesc = 
 u"""
 
@@ -12581,7 +12646,7 @@ u"""
 )
 
 entry(
-    index = 1459,
+    index = 1464,
     label = "Cs-OsOsSsH",
     group = 
 """
@@ -12593,9 +12658,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.29,8.57,9.99,10.79,11.56,11.96,12.58],'cal/(mol*K)'),
-        H298 = (-18.46,'kcal/mol'),
-        S298 = (-14.64,'cal/(mol*K)'),
+        Cpdata = ([6.36,8.72,10.13,10.88,11.56,11.91,12.53],'cal/(mol*K)'),
+        H298 = (-19.72,'kcal/mol'),
+        S298 = (-13.26,'cal/(mol*K)'),
     ),
     shortDesc = u"""CAC calc 1D-HR""",
     longDesc = 
@@ -12768,10 +12833,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Cs u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CsHH',
     shortDesc = u"""""",
@@ -12926,11 +12992,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Cs u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -12995,9 +13060,10 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)HH',
     shortDesc = u"""""",
@@ -13100,10 +13166,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)HH',
     shortDesc = u"""""",
@@ -13373,11 +13441,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
+6   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -13393,12 +13461,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 6   Cd u0 {3,D}
-7   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -13414,12 +13481,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
-7   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -13435,13 +13501,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -13457,13 +13522,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -13479,12 +13543,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -13592,10 +13654,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CtHH',
     shortDesc = u"""""",
@@ -13719,11 +13782,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Ct u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -13830,10 +13892,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CbHH',
     shortDesc = u"""""",
@@ -13957,11 +14020,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Cb u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -14111,10 +14173,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Cs u0 {1,S}
 4   Cs u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CsCsH',
     shortDesc = u"""""",
@@ -14274,11 +14337,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Cs u0 {1,S}
 4   Cs u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -14411,9 +14473,10 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Cs u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)CsH',
     shortDesc = u"""""",
@@ -14511,10 +14574,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
 4   Cs u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)CsH',
     shortDesc = u"""""",
@@ -14784,11 +14849,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Cs u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
+6   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -14804,12 +14869,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   Cs u0 {1,S}
 5   H  u0 {1,S}
 6   Cd u0 {3,D}
-7   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -14825,12 +14889,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cs  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
-7   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -14846,13 +14909,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cs  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -14868,13 +14930,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cs  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -14890,12 +14951,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   Cs u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -14949,10 +15008,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   Cs u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CtCsH',
     shortDesc = u"""""",
@@ -15076,11 +15136,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Ct u0 {1,S}
 4   Cs u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -15134,10 +15193,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cs u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CbCsH',
     shortDesc = u"""""",
@@ -15352,8 +15412,9 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
 3   CO u0 {1,S}
-4   Cd u0 {1,S}
+4   Cd u0 {1,S} {6,D}
 5   H  u0 {1,S}
+6   C  u0 {4,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -15452,9 +15513,11 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
+4   Cd u0 {1,S} {7,D}
 5   H  u0 {1,S}
+6   C  u0 {3,D}
+7   C  u0 {4,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -15646,10 +15709,13 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
+4   Cd u0 {1,S} {8,D}
 5   H  u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
+8   C  u0 {4,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -16122,11 +16188,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
+4   Cd u0 {1,S} {7,D}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
+6   C  u0 {3,D}
+7   C  u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -16142,13 +16209,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {8,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   Cd u0 {1,S} {7,D}
 5   H  u0 {1,S}
 6   Cd u0 {3,D}
 7   Cd u0 {4,D}
-8   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -16164,13 +16230,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cd  u0 {4,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -16186,14 +16251,13 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D} {8,D}
 7   Cd  u0 {4,D}
 8   Sd  u0 {6,D}
-9   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -16209,14 +16273,13 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D} {8,D}
 7   Cd  u0 {4,D}
 8   C   u0 {6,D}
-9   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -16232,13 +16295,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -16253,16 +16315,15 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)H",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {10,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
-5    H   u0 {1,S}
-6    Cdd u0 {3,D} {8,D}
-7    Cdd u0 {4,D} {9,D}
-8    Sd  u0 {6,D}
-9    Sd  u0 {7,D}
-10   Sd  u0 {2,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
+5   H   u0 {1,S}
+6   Cdd u0 {3,D} {8,D}
+7   Cdd u0 {4,D} {9,D}
+8   Sd  u0 {6,D}
+9   Sd  u0 {7,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -16277,16 +16338,15 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)H",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {10,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
-5    H   u0 {1,S}
-6    Cdd u0 {3,D} {8,D}
-7    Cdd u0 {4,D} {9,D}
-8    Sd  u0 {6,D}
-9    C   u0 {7,D}
-10   Sd  u0 {2,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
+5   H   u0 {1,S}
+6   Cdd u0 {3,D} {8,D}
+7   Cdd u0 {4,D} {9,D}
+8   Sd  u0 {6,D}
+9   C   u0 {7,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -16301,16 +16361,15 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {10,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
-5    H   u0 {1,S}
-6    Cdd u0 {3,D} {8,D}
-7    Cdd u0 {4,D} {9,D}
-8    C   u0 {6,D}
-9    C   u0 {7,D}
-10   Sd  u0 {2,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
+5   H   u0 {1,S}
+6   Cdd u0 {3,D} {8,D}
+7   Cdd u0 {4,D} {9,D}
+8   C   u0 {6,D}
+9   C   u0 {7,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -16326,12 +16385,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
+4   Cd u0 {1,S} {6,D}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
+6   C  u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -16347,13 +16405,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
-3   Cd u0 {1,S} {8,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   Cd u0 {1,S} {6,D}
 5   H  u0 {1,S}
 6   Cd u0 {4,D}
-7   Sd u0 {2,D}
-8   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -16369,13 +16425,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   H   u0 {1,S}
 6   Cdd u0 {4,D}
-7   Sd  u0 {2,D}
-8   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -16391,14 +16445,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   H   u0 {1,S}
 6   Cdd u0 {4,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {2,D}
-9   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -16414,14 +16466,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   H   u0 {1,S}
 6   Cdd u0 {4,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {2,D}
-9   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -16437,13 +16487,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S} {8,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
+4   CS u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
-8   Sd u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -16498,9 +16545,10 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Ct u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)CtH',
     shortDesc = u"""""",
@@ -16598,10 +16646,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
 4   Ct u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)CtH',
     shortDesc = u"""""",
@@ -16866,11 +16916,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Ct u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
+6   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -16886,12 +16936,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   Ct u0 {1,S}
 5   H  u0 {1,S}
 6   Cd u0 {3,D}
-7   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -16907,12 +16956,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
-7   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -16928,13 +16976,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -16950,13 +16997,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -16972,12 +17018,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   Ct u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -17032,9 +17076,10 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Cb u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)CbH',
     shortDesc = u"""""",
@@ -17132,10 +17177,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
 4   Cb u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)CbH',
     shortDesc = u"""""",
@@ -17400,11 +17447,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Cb u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
+6   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -17420,12 +17467,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   Cb u0 {1,S}
 5   H  u0 {1,S}
 6   Cd u0 {3,D}
-7   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -17441,12 +17487,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
-7   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -17462,13 +17507,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -17484,13 +17528,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -17506,12 +17549,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   Cb u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -17567,8 +17608,9 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
 3   Ct u0 {1,S}
-4   Cd u0 {1,S}
+4   Cd u0 {1,S} {6,D}
 5   H  u0 {1,S}
+6   C  u0 {4,D}
 """,
     thermo = u'Cs-CtCt(Cds-Cds)H',
     shortDesc = u"""""",
@@ -17694,9 +17736,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
 3   Ct u0 {1,S}
-4   Cd u0 {1,S} {6,D}
+4   CS u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -17752,8 +17793,9 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Ct u0 {1,S}
-4   Cd u0 {1,S}
+4   Cd u0 {1,S} {6,D}
 5   H  u0 {1,S}
+6   C  u0 {4,D}
 """,
     thermo = u'Cs-CbCt(Cds-Cds)H',
     shortDesc = u"""""",
@@ -17874,9 +17916,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Ct u0 {1,S}
-4   Cd u0 {1,S} {6,D}
+4   CS u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -17932,8 +17973,9 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Cb u0 {1,S}
-4   Cd u0 {1,S}
+4   Cd u0 {1,S} {6,D}
 5   H  u0 {1,S}
+6   C  u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -18054,9 +18096,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Cb u0 {1,S}
-4   Cd u0 {1,S} {6,D}
+4   CS u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -18244,10 +18285,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Cs u0 {1,S}
 4   Cs u0 {1,S}
 5   Cs u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CsCsCs',
     shortDesc = u"""""",
@@ -18402,11 +18444,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Cs u0 {1,S}
 4   Cs u0 {1,S}
 5   Cs u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -18539,9 +18580,10 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Cs u0 {1,S}
 5   Cs u0 {1,S}
+6   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)CsCs',
     shortDesc = u"""""",
@@ -18639,10 +18681,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
 4   Cs u0 {1,S}
 5   Cs u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)CsCs',
     shortDesc = u"""""",
@@ -18912,11 +18956,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Cs u0 {1,S}
 5   Cs u0 {1,S}
-6   Sd u0 {2,D}
+6   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -18932,12 +18976,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   Cs u0 {1,S}
 5   Cs u0 {1,S}
 6   Cd u0 {3,D}
-7   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -18953,12 +18996,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cs  u0 {1,S}
 5   Cs  u0 {1,S}
 6   Cdd u0 {3,D}
-7   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -18974,13 +19016,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cs  u0 {1,S}
 5   Cs  u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -18996,13 +19037,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cs  u0 {1,S}
 5   Cs  u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -19018,12 +19058,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   Cs u0 {1,S}
 5   Cs u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -19077,10 +19115,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   Cs u0 {1,S}
 5   Cs u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CtCsCs',
     shortDesc = u"""""",
@@ -19204,11 +19243,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Ct u0 {1,S}
 4   Cs u0 {1,S}
 5   Cs u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -19262,10 +19300,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cs u0 {1,S}
 5   Cs u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CbCsCs',
     shortDesc = u"""""",
@@ -19389,11 +19428,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Cb u0 {1,S}
 4   Cs u0 {1,S}
 5   Cs u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -19547,8 +19585,9 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
 3   CO u0 {1,S}
-4   Cd u0 {1,S}
+4   Cd u0 {1,S} {6,D}
 5   Cs u0 {1,S}
+6   C  u0 {4,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -19647,9 +19686,11 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
+4   Cd u0 {1,S} {7,D}
 5   Cs u0 {1,S}
+6   C  u0 {3,D}
+7   C  u0 {4,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -19841,10 +19882,13 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
+4   Cd u0 {1,S} {8,D}
 5   Cs u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
+8   C  u0 {4,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -20317,11 +20361,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
+4   Cd u0 {1,S} {7,D}
 5   Cs u0 {1,S}
-6   Sd u0 {2,D}
+6   C  u0 {3,D}
+7   C  u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -20337,13 +20382,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {8,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   Cd u0 {1,S} {7,D}
 5   Cs u0 {1,S}
 6   Cd u0 {3,D}
 7   Cd u0 {4,D}
-8   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -20359,13 +20403,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   Cs  u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cd  u0 {4,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -20381,14 +20424,13 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   Cs  u0 {1,S}
 6   Cdd u0 {3,D} {8,D}
 7   Cd  u0 {4,D}
 8   Sd  u0 {6,D}
-9   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -20404,14 +20446,13 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   Cs  u0 {1,S}
 6   Cdd u0 {3,D} {8,D}
 7   Cd  u0 {4,D}
 8   C   u0 {6,D}
-9   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -20427,13 +20468,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   Cs  u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -20448,16 +20488,15 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)Cs",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {10,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
-5    Cs  u0 {1,S}
-6    Cdd u0 {3,D} {8,D}
-7    Cdd u0 {4,D} {9,D}
-8    Sd  u0 {6,D}
-9    Sd  u0 {7,D}
-10   Sd  u0 {2,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
+5   Cs  u0 {1,S}
+6   Cdd u0 {3,D} {8,D}
+7   Cdd u0 {4,D} {9,D}
+8   Sd  u0 {6,D}
+9   Sd  u0 {7,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -20472,16 +20511,15 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)Cs",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {10,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
-5    Cs  u0 {1,S}
-6    Cdd u0 {3,D} {8,D}
-7    Cdd u0 {4,D} {9,D}
-8    Sd  u0 {6,D}
-9    C   u0 {7,D}
-10   Sd  u0 {2,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
+5   Cs  u0 {1,S}
+6   Cdd u0 {3,D} {8,D}
+7   Cdd u0 {4,D} {9,D}
+8   Sd  u0 {6,D}
+9   C   u0 {7,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -20496,16 +20534,15 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {10,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
-5    Cs  u0 {1,S}
-6    Cdd u0 {3,D} {8,D}
-7    Cdd u0 {4,D} {9,D}
-8    C   u0 {6,D}
-9    C   u0 {7,D}
-10   Sd  u0 {2,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
+5   Cs  u0 {1,S}
+6   Cdd u0 {3,D} {8,D}
+7   Cdd u0 {4,D} {9,D}
+8   C   u0 {6,D}
+9   C   u0 {7,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -20521,12 +20558,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
+4   Cd u0 {1,S} {6,D}
 5   Cs u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
+6   C  u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -20542,13 +20578,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
-3   Cd u0 {1,S} {8,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   Cd u0 {1,S} {6,D}
 5   Cs u0 {1,S}
 6   Cd u0 {4,D}
-7   Sd u0 {2,D}
-8   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -20564,13 +20598,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   Cs  u0 {1,S}
 6   Cdd u0 {4,D}
-7   Sd  u0 {2,D}
-8   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -20586,14 +20618,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   Cs  u0 {1,S}
 6   Cdd u0 {4,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {2,D}
-9   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -20609,14 +20639,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   Cs  u0 {1,S}
 6   Cdd u0 {4,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {2,D}
-9   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -20632,13 +20660,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S} {8,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
+4   CS u0 {1,S}
 5   Cs u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
-8   Sd u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -20693,9 +20718,10 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Ct u0 {1,S}
 5   Cs u0 {1,S}
+6   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)CtCs',
     shortDesc = u"""""",
@@ -20793,10 +20819,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
 4   Ct u0 {1,S}
 5   Cs u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)CtCs',
     shortDesc = u"""""",
@@ -21056,11 +21084,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Ct u0 {1,S}
 5   Cs u0 {1,S}
-6   Sd u0 {2,D}
+6   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -21076,12 +21104,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   Ct u0 {1,S}
 5   Cs u0 {1,S}
 6   Cd u0 {3,D}
-7   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -21097,12 +21124,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   Cs  u0 {1,S}
 6   Cdd u0 {3,D}
-7   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -21118,13 +21144,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   Cs  u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -21140,13 +21165,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   Cs  u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -21162,12 +21186,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   Ct u0 {1,S}
 5   Cs u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -21222,9 +21244,10 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Cb u0 {1,S}
 5   Cs u0 {1,S}
+6   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)CbCs',
     shortDesc = u"""""",
@@ -21322,10 +21345,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
 4   Cb u0 {1,S}
 5   Cs u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)CbCs',
     shortDesc = u"""""",
@@ -21585,11 +21610,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Cb u0 {1,S}
 5   Cs u0 {1,S}
-6   Sd u0 {2,D}
+6   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -21605,12 +21630,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   Cb u0 {1,S}
 5   Cs u0 {1,S}
 6   Cd u0 {3,D}
-7   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -21626,12 +21650,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Cs  u0 {1,S}
 6   Cdd u0 {3,D}
-7   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -21647,13 +21670,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Cs  u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -21669,13 +21691,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Cs  u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -21691,12 +21712,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   Cb u0 {1,S}
 5   Cs u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -21750,10 +21769,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
 5   Cs u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CtCtCs',
     shortDesc = u"""""",
@@ -21877,11 +21897,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
 5   Cs u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -21935,10 +21954,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Ct u0 {1,S}
 5   Cs u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CbCtCs',
     shortDesc = u"""""",
@@ -22067,11 +22087,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Cb u0 {1,S}
 4   Ct u0 {1,S}
 5   Cs u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -22125,10 +22144,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
 5   Cs u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CbCbCs',
     shortDesc = u"""""",
@@ -22252,11 +22272,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
 5   Cs u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -22409,7 +22428,8 @@ entry(
 2   CO u0 {1,S}
 3   CO u0 {1,S}
 4   CO u0 {1,S}
-5   Cd u0 {1,S}
+5   Cd u0 {1,S} {6,D}
+6   C  u0 {5,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Od)(Cds-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -22509,8 +22529,10 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
 3   CO u0 {1,S}
-4   Cd u0 {1,S}
-5   Cd u0 {1,S}
+4   Cd u0 {1,S} {6,D}
+5   Cd u0 {1,S} {7,D}
+6   C  u0 {4,D}
+7   C  u0 {5,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -22703,9 +22725,12 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
-5   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
+4   Cd u0 {1,S} {7,D}
+5   Cd u0 {1,S} {8,D}
+6   C  u0 {3,D}
+7   C  u0 {4,D}
+8   C  u0 {5,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -23027,10 +23052,14 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
-5   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
+4   Cd u0 {1,S} {8,D}
+5   Cd u0 {1,S} {9,D}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
+8   C  u0 {4,D}
+9   C  u0 {5,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -23783,11 +23812,13 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
-5   Cd u0 {1,S}
-6   Sd u0 {2,D}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
+4   Cd u0 {1,S} {7,D}
+5   Cd u0 {1,S} {8,D}
+6   C  u0 {3,D}
+7   C  u0 {4,D}
+8   C  u0 {5,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -23803,14 +23834,13 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {9,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   Cd u0 {1,S} {7,D}
 5   Cd u0 {1,S} {8,D}
 6   Cd u0 {3,D}
 7   Cd u0 {4,D}
 8   Cd u0 {5,D}
-9   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -23826,14 +23856,13 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   Cd  u0 {1,S} {8,D}
 6   Cd  u0 {3,D}
 7   Cd  u0 {4,D}
 8   Cdd u0 {5,D}
-9   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -23848,16 +23877,15 @@ entry(
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cdd-Sd)",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {10,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
-5    Cd  u0 {1,S} {8,D}
-6    Cd  u0 {3,D}
-7    Cd  u0 {4,D}
-8    Cdd u0 {5,D} {9,D}
-9    Sd  u0 {8,D}
-10   Sd  u0 {2,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
+5   Cd  u0 {1,S} {8,D}
+6   Cd  u0 {3,D}
+7   Cd  u0 {4,D}
+8   Cdd u0 {5,D} {9,D}
+9   Sd  u0 {8,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -23872,16 +23900,15 @@ entry(
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {10,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
-5    Cd  u0 {1,S} {8,D}
-6    Cd  u0 {3,D}
-7    Cd  u0 {4,D}
-8    Cdd u0 {5,D} {9,D}
-9    C   u0 {8,D}
-10   Sd  u0 {2,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
+5   Cd  u0 {1,S} {8,D}
+6   Cd  u0 {3,D}
+7   Cd  u0 {4,D}
+8   Cdd u0 {5,D} {9,D}
+9   C   u0 {8,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -23897,14 +23924,13 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   Cd  u0 {1,S} {8,D}
 6   Cd  u0 {3,D}
 7   Cdd u0 {4,D}
 8   Cdd u0 {5,D}
-9   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -23920,7 +23946,7 @@ entry(
     group = 
 """
 1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {11,D}
+2    CS  u0 {1,S}
 3    Cd  u0 {1,S} {6,D}
 4    Cd  u0 {1,S} {7,D}
 5    Cd  u0 {1,S} {8,D}
@@ -23929,7 +23955,6 @@ entry(
 8    Cdd u0 {5,D} {10,D}
 9    Sd  u0 {7,D}
 10   Sd  u0 {8,D}
-11   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -23945,7 +23970,7 @@ entry(
     group = 
 """
 1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {11,D}
+2    CS  u0 {1,S}
 3    Cd  u0 {1,S} {6,D}
 4    Cd  u0 {1,S} {7,D}
 5    Cd  u0 {1,S} {8,D}
@@ -23954,7 +23979,6 @@ entry(
 8    Cdd u0 {5,D} {10,D}
 9    Sd  u0 {7,D}
 10   C   u0 {8,D}
-11   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -23970,7 +23994,7 @@ entry(
     group = 
 """
 1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {11,D}
+2    CS  u0 {1,S}
 3    Cd  u0 {1,S} {6,D}
 4    Cd  u0 {1,S} {7,D}
 5    Cd  u0 {1,S} {8,D}
@@ -23979,7 +24003,6 @@ entry(
 8    Cdd u0 {5,D} {10,D}
 9    C   u0 {7,D}
 10   C   u0 {8,D}
-11   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -23995,14 +24018,13 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   Cd  u0 {1,S} {8,D}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
 8   Cdd u0 {5,D}
-9   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -24018,7 +24040,7 @@ entry(
     group = 
 """
 1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {12,D}
+2    CS  u0 {1,S}
 3    Cd  u0 {1,S} {6,D}
 4    Cd  u0 {1,S} {7,D}
 5    Cd  u0 {1,S} {8,D}
@@ -24028,7 +24050,6 @@ entry(
 9    Sd  u0 {6,D}
 10   Sd  u0 {7,D}
 11   Sd  u0 {8,D}
-12   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -24044,7 +24065,7 @@ entry(
     group = 
 """
 1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {12,D}
+2    CS  u0 {1,S}
 3    Cd  u0 {1,S} {6,D}
 4    Cd  u0 {1,S} {7,D}
 5    Cd  u0 {1,S} {8,D}
@@ -24054,7 +24075,6 @@ entry(
 9    Sd  u0 {6,D}
 10   Sd  u0 {7,D}
 11   C   u0 {8,D}
-12   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -24070,7 +24090,7 @@ entry(
     group = 
 """
 1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {12,D}
+2    CS  u0 {1,S}
 3    Cd  u0 {1,S} {6,D}
 4    Cd  u0 {1,S} {7,D}
 5    Cd  u0 {1,S} {8,D}
@@ -24080,7 +24100,6 @@ entry(
 9    Sd  u0 {6,D}
 10   C   u0 {7,D}
 11   C   u0 {8,D}
-12   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -24096,7 +24115,7 @@ entry(
     group = 
 """
 1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {12,D}
+2    CS  u0 {1,S}
 3    Cd  u0 {1,S} {6,D}
 4    Cd  u0 {1,S} {7,D}
 5    Cd  u0 {1,S} {8,D}
@@ -24106,7 +24125,6 @@ entry(
 9    C   u0 {6,D}
 10   C   u0 {7,D}
 11   C   u0 {8,D}
-12   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -24122,12 +24140,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S}
-5   Cd u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
+4   Cd u0 {1,S} {6,D}
+5   Cd u0 {1,S} {7,D}
+6   C  u0 {4,D}
+7   C  u0 {5,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -24143,14 +24161,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {8,D}
-3   Cd u0 {1,S} {9,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   Cd u0 {1,S} {6,D}
 5   Cd u0 {1,S} {7,D}
 6   Cd u0 {4,D}
 7   Cd u0 {5,D}
-8   Sd u0 {2,D}
-9   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -24166,14 +24182,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   Cd  u0 {1,S} {7,D}
 6   Cdd u0 {4,D}
 7   Cd  u0 {5,D}
-8   Sd  u0 {2,D}
-9   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -24188,16 +24202,14 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd-Sd)(Cds-Cds)",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {9,D}
-3    Cd  u0 {1,S} {10,D}
-4    Cd  u0 {1,S} {6,D}
-5    Cd  u0 {1,S} {7,D}
-6    Cdd u0 {4,D} {8,D}
-7    Cd  u0 {5,D}
-8    Sd  u0 {6,D}
-9    Sd  u0 {2,D}
-10   Sd  u0 {3,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
+4   Cd  u0 {1,S} {6,D}
+5   Cd  u0 {1,S} {7,D}
+6   Cdd u0 {4,D} {8,D}
+7   Cd  u0 {5,D}
+8   Sd  u0 {6,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -24212,16 +24224,14 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd-Cd)(Cds-Cds)",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {9,D}
-3    Cd  u0 {1,S} {10,D}
-4    Cd  u0 {1,S} {6,D}
-5    Cd  u0 {1,S} {7,D}
-6    Cdd u0 {4,D} {8,D}
-7    Cd  u0 {5,D}
-8    C   u0 {6,D}
-9    Sd  u0 {2,D}
-10   Sd  u0 {3,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
+4   Cd  u0 {1,S} {6,D}
+5   Cd  u0 {1,S} {7,D}
+6   Cdd u0 {4,D} {8,D}
+7   Cd  u0 {5,D}
+8   C   u0 {6,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -24237,14 +24247,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   Cd  u0 {1,S} {7,D}
 6   Cdd u0 {4,D}
 7   Cdd u0 {5,D}
-8   Sd  u0 {2,D}
-9   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -24259,17 +24267,15 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {10,D}
-3    Cd  u0 {1,S} {11,D}
-4    Cd  u0 {1,S} {6,D}
-5    Cd  u0 {1,S} {7,D}
-6    Cdd u0 {4,D} {8,D}
-7    Cdd u0 {5,D} {9,D}
-8    Sd  u0 {6,D}
-9    Sd  u0 {7,D}
-10   Sd  u0 {2,D}
-11   Sd  u0 {3,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
+4   Cd  u0 {1,S} {6,D}
+5   Cd  u0 {1,S} {7,D}
+6   Cdd u0 {4,D} {8,D}
+7   Cdd u0 {5,D} {9,D}
+8   Sd  u0 {6,D}
+9   Sd  u0 {7,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -24284,17 +24290,15 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {10,D}
-3    Cd  u0 {1,S} {11,D}
-4    Cd  u0 {1,S} {6,D}
-5    Cd  u0 {1,S} {7,D}
-6    Cdd u0 {4,D} {8,D}
-7    Cdd u0 {5,D} {9,D}
-8    Sd  u0 {6,D}
-9    C   u0 {7,D}
-10   Sd  u0 {2,D}
-11   Sd  u0 {3,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
+4   Cd  u0 {1,S} {6,D}
+5   Cd  u0 {1,S} {7,D}
+6   Cdd u0 {4,D} {8,D}
+7   Cdd u0 {5,D} {9,D}
+8   Sd  u0 {6,D}
+9   C   u0 {7,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -24309,17 +24313,15 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {10,D}
-3    Cd  u0 {1,S} {11,D}
-4    Cd  u0 {1,S} {6,D}
-5    Cd  u0 {1,S} {7,D}
-6    Cdd u0 {4,D} {8,D}
-7    Cdd u0 {5,D} {9,D}
-8    C   u0 {6,D}
-9    C   u0 {7,D}
-10   Sd  u0 {2,D}
-11   Sd  u0 {3,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
+4   Cd  u0 {1,S} {6,D}
+5   Cd  u0 {1,S} {7,D}
+6   Cdd u0 {4,D} {8,D}
+7   Cdd u0 {5,D} {9,D}
+8   C   u0 {6,D}
+9   C   u0 {7,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -24335,13 +24337,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S} {8,D}
-5   Cd u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
-8   Sd u0 {4,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
+4   CS u0 {1,S}
+5   Cd u0 {1,S} {6,D}
+6   C  u0 {5,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -24357,14 +24357,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
-3   Cd u0 {1,S} {8,D}
-4   Cd u0 {1,S} {9,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
+4   CS u0 {1,S}
 5   Cd u0 {1,S} {6,D}
 6   Cd u0 {5,D}
-7   Sd u0 {2,D}
-8   Sd u0 {3,D}
-9   Sd u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -24380,14 +24377,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
+4   CS  u0 {1,S}
 5   Cd  u0 {1,S} {6,D}
 6   Cdd u0 {5,D}
-7   Sd  u0 {2,D}
-8   Sd  u0 {3,D}
-9   Sd  u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -24402,16 +24396,13 @@ entry(
     label = "Cs-C=SC=SC=S(Cds-Cdd-Sd)",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {8,D}
-3    Cd  u0 {1,S} {9,D}
-4    Cd  u0 {1,S} {10,D}
-5    Cd  u0 {1,S} {6,D}
-6    Cdd u0 {5,D} {7,D}
-7    Sd  u0 {6,D}
-8    Sd  u0 {2,D}
-9    Sd  u0 {3,D}
-10   Sd  u0 {4,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
+4   CS  u0 {1,S}
+5   Cd  u0 {1,S} {6,D}
+6   Cdd u0 {5,D} {7,D}
+7   Sd  u0 {6,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -24426,16 +24417,13 @@ entry(
     label = "Cs-C=SC=SC=S(Cds-Cdd-Cd)",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {8,D}
-3    Cd  u0 {1,S} {9,D}
-4    Cd  u0 {1,S} {10,D}
-5    Cd  u0 {1,S} {6,D}
-6    Cdd u0 {5,D} {7,D}
-7    C   u0 {6,D}
-8    Sd  u0 {2,D}
-9    Sd  u0 {3,D}
-10   Sd  u0 {4,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
+4   CS  u0 {1,S}
+5   Cd  u0 {1,S} {6,D}
+6   Cdd u0 {5,D} {7,D}
+7   C   u0 {6,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -24451,14 +24439,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S} {8,D}
-5   Cd u0 {1,S} {9,D}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
-8   Sd u0 {4,D}
-9   Sd u0 {5,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
+4   CS u0 {1,S}
+5   CS u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -24514,8 +24498,9 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
 3   CO u0 {1,S}
-4   Cd u0 {1,S}
+4   Cd u0 {1,S} {6,D}
 5   Ct u0 {1,S}
+6   C  u0 {4,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -24614,9 +24599,11 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
+4   Cd u0 {1,S} {7,D}
 5   Ct u0 {1,S}
+6   C  u0 {3,D}
+7   C  u0 {4,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -24808,10 +24795,13 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
+4   Cd u0 {1,S} {8,D}
 5   Ct u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
+8   C  u0 {4,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -25279,11 +25269,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
+4   Cd u0 {1,S} {7,D}
 5   Ct u0 {1,S}
-6   Sd u0 {2,D}
+6   C  u0 {3,D}
+7   C  u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -25299,13 +25290,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {8,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   Cd u0 {1,S} {7,D}
 5   Ct u0 {1,S}
 6   Cd u0 {3,D}
 7   Cd u0 {4,D}
-8   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -25321,13 +25311,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   Ct  u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cd  u0 {4,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -25343,14 +25332,13 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   Ct  u0 {1,S}
 6   Cdd u0 {3,D} {8,D}
 7   Cd  u0 {4,D}
 8   Sd  u0 {6,D}
-9   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -25366,14 +25354,13 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   Ct  u0 {1,S}
 6   Cdd u0 {3,D} {8,D}
 7   Cd  u0 {4,D}
 8   C   u0 {6,D}
-9   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -25389,13 +25376,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   Ct  u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -25410,16 +25396,15 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)Ct",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {10,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
-5    Ct  u0 {1,S}
-6    Cdd u0 {3,D} {8,D}
-7    Cdd u0 {4,D} {9,D}
-8    Sd  u0 {6,D}
-9    Sd  u0 {7,D}
-10   Sd  u0 {2,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
+5   Ct  u0 {1,S}
+6   Cdd u0 {3,D} {8,D}
+7   Cdd u0 {4,D} {9,D}
+8   Sd  u0 {6,D}
+9   Sd  u0 {7,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -25434,16 +25419,15 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)Ct",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {10,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
-5    Ct  u0 {1,S}
-6    Cdd u0 {3,D} {8,D}
-7    Cdd u0 {4,D} {9,D}
-8    Sd  u0 {6,D}
-9    C   u0 {7,D}
-10   Sd  u0 {2,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
+5   Ct  u0 {1,S}
+6   Cdd u0 {3,D} {8,D}
+7   Cdd u0 {4,D} {9,D}
+8   Sd  u0 {6,D}
+9   C   u0 {7,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -25458,16 +25442,15 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {10,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
-5    Ct  u0 {1,S}
-6    Cdd u0 {3,D} {8,D}
-7    Cdd u0 {4,D} {9,D}
-8    C   u0 {6,D}
-9    C   u0 {7,D}
-10   Sd  u0 {2,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
+5   Ct  u0 {1,S}
+6   Cdd u0 {3,D} {8,D}
+7   Cdd u0 {4,D} {9,D}
+8   C   u0 {6,D}
+9   C   u0 {7,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -25483,12 +25466,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
+4   Cd u0 {1,S} {6,D}
 5   Ct u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
+6   C  u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -25504,13 +25486,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
-3   Cd u0 {1,S} {8,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   Cd u0 {1,S} {6,D}
 5   Ct u0 {1,S}
 6   Cd u0 {4,D}
-7   Sd u0 {2,D}
-8   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -25526,13 +25506,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   Ct  u0 {1,S}
 6   Cdd u0 {4,D}
-7   Sd  u0 {2,D}
-8   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -25548,14 +25526,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   Ct  u0 {1,S}
 6   Cdd u0 {4,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {2,D}
-9   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -25571,14 +25547,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   Ct  u0 {1,S}
 6   Cdd u0 {4,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {2,D}
-9   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -25594,13 +25568,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S} {8,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
+4   CS u0 {1,S}
 5   Ct u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
-8   Sd u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -25656,8 +25627,9 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
 3   CO u0 {1,S}
-4   Cd u0 {1,S}
+4   Cd u0 {1,S} {6,D}
 5   Cb u0 {1,S}
+6   C  u0 {4,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -25756,9 +25728,11 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
+4   Cd u0 {1,S} {7,D}
 5   Cb u0 {1,S}
+6   C  u0 {3,D}
+7   C  u0 {4,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -25950,10 +25924,13 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
+4   Cd u0 {1,S} {8,D}
 5   Cb u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
+8   C  u0 {4,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -26421,11 +26398,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
+4   Cd u0 {1,S} {7,D}
 5   Cb u0 {1,S}
-6   Sd u0 {2,D}
+6   C  u0 {3,D}
+7   C  u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -26441,13 +26419,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {8,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   Cd u0 {1,S} {7,D}
 5   Cb u0 {1,S}
 6   Cd u0 {3,D}
 7   Cd u0 {4,D}
-8   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -26463,13 +26440,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   Cb  u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cd  u0 {4,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -26485,14 +26461,13 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   Cb  u0 {1,S}
 6   Cdd u0 {3,D} {8,D}
 7   Cd  u0 {4,D}
 8   Sd  u0 {6,D}
-9   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -26508,14 +26483,13 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   Cb  u0 {1,S}
 6   Cdd u0 {3,D} {8,D}
 7   Cd  u0 {4,D}
 8   C   u0 {6,D}
-9   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -26531,13 +26505,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   Cb  u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -26552,16 +26525,15 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)Cb",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {10,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
-5    Cb  u0 {1,S}
-6    Cdd u0 {3,D} {8,D}
-7    Cdd u0 {4,D} {9,D}
-8    Sd  u0 {6,D}
-9    Sd  u0 {7,D}
-10   Sd  u0 {2,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
+5   Cb  u0 {1,S}
+6   Cdd u0 {3,D} {8,D}
+7   Cdd u0 {4,D} {9,D}
+8   Sd  u0 {6,D}
+9   Sd  u0 {7,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -26576,16 +26548,15 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)Cb",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {10,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
-5    Cb  u0 {1,S}
-6    Cdd u0 {3,D} {8,D}
-7    Cdd u0 {4,D} {9,D}
-8    Sd  u0 {6,D}
-9    C   u0 {7,D}
-10   Sd  u0 {2,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
+5   Cb  u0 {1,S}
+6   Cdd u0 {3,D} {8,D}
+7   Cdd u0 {4,D} {9,D}
+8   Sd  u0 {6,D}
+9   C   u0 {7,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -26600,16 +26571,15 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {10,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
-5    Cb  u0 {1,S}
-6    Cdd u0 {3,D} {8,D}
-7    Cdd u0 {4,D} {9,D}
-8    C   u0 {6,D}
-9    C   u0 {7,D}
-10   Sd  u0 {2,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
+5   Cb  u0 {1,S}
+6   Cdd u0 {3,D} {8,D}
+7   Cdd u0 {4,D} {9,D}
+8   C   u0 {6,D}
+9   C   u0 {7,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -26625,12 +26595,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
+4   Cd u0 {1,S} {6,D}
 5   Cb u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
+6   C  u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -26646,13 +26615,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
-3   Cd u0 {1,S} {8,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   Cd u0 {1,S} {6,D}
 5   Cb u0 {1,S}
 6   Cd u0 {4,D}
-7   Sd u0 {2,D}
-8   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -26668,13 +26635,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   Cb  u0 {1,S}
 6   Cdd u0 {4,D}
-7   Sd  u0 {2,D}
-8   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -26690,14 +26655,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   Cb  u0 {1,S}
 6   Cdd u0 {4,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {2,D}
-9   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -26713,14 +26676,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   Cb  u0 {1,S}
 6   Cdd u0 {4,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {2,D}
-9   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -26736,13 +26697,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S} {8,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
+4   CS u0 {1,S}
 5   Cb u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
-8   Sd u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -26797,9 +26755,10 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Ct u0 {1,S}
 5   Ct u0 {1,S}
+6   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)CtCt',
     shortDesc = u"""""",
@@ -26897,10 +26856,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
 4   Ct u0 {1,S}
 5   Ct u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)CtCt',
     shortDesc = u"""""",
@@ -27165,11 +27126,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Ct u0 {1,S}
 5   Ct u0 {1,S}
-6   Sd u0 {2,D}
+6   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -27185,12 +27146,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   Ct u0 {1,S}
 5   Ct u0 {1,S}
 6   Cd u0 {3,D}
-7   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -27206,12 +27166,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
 6   Cdd u0 {3,D}
-7   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -27227,13 +27186,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -27249,13 +27207,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -27271,12 +27228,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   Ct u0 {1,S}
 5   Ct u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -27331,9 +27286,10 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Cb u0 {1,S}
 5   Ct u0 {1,S}
+6   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)CbCt',
     shortDesc = u"""""",
@@ -27431,10 +27387,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
 4   Cb u0 {1,S}
 5   Ct u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)CbCt',
     shortDesc = u"""""",
@@ -27699,11 +27657,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Cb u0 {1,S}
 5   Ct u0 {1,S}
-6   Sd u0 {2,D}
+6   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -27719,12 +27677,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   Cb u0 {1,S}
 5   Ct u0 {1,S}
 6   Cd u0 {3,D}
-7   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -27740,12 +27697,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
 6   Cdd u0 {3,D}
-7   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -27761,13 +27717,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -27783,13 +27738,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -27805,12 +27759,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   Cb u0 {1,S}
 5   Ct u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -27865,9 +27817,10 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Cb u0 {1,S}
 5   Cb u0 {1,S}
+6   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)CbCb',
     shortDesc = u"""""",
@@ -27965,10 +27918,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
 4   Cb u0 {1,S}
 5   Cb u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)CbCb',
     shortDesc = u"""""",
@@ -28233,11 +28188,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Cb u0 {1,S}
 5   Cb u0 {1,S}
-6   Sd u0 {2,D}
+6   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -28253,12 +28208,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   Cb u0 {1,S}
 5   Cb u0 {1,S}
 6   Cd u0 {3,D}
-7   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -28274,12 +28228,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
 6   Cdd u0 {3,D}
-7   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -28295,13 +28248,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -28317,13 +28269,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -28339,12 +28290,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   Cb u0 {1,S}
 5   Cb u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -28398,10 +28347,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
 5   Ct u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -28520,11 +28470,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
 5   Ct u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -28578,10 +28527,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Ct u0 {1,S}
 5   Ct u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CbCtCt',
     shortDesc = u"""""",
@@ -28700,11 +28650,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Cb u0 {1,S}
 4   Ct u0 {1,S}
 5   Ct u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -28758,10 +28707,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
 5   Ct u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CbCbCt',
     shortDesc = u"""""",
@@ -28880,11 +28830,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
 5   Ct u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -28938,10 +28887,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
 5   Cb u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CbCbCb',
     shortDesc = u"""""",
@@ -29060,11 +29010,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
 5   Cb u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -29261,10 +29210,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Cs u0 {1,S}
 4   Cs u0 {1,S}
 5   Os u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CsCsOs',
     shortDesc = u"""""",
@@ -29454,9 +29404,10 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Cs u0 {1,S}
 5   Os u0 {1,S}
+6   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)CsOs',
     shortDesc = u"""""",
@@ -29554,10 +29505,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
 4   Cs u0 {1,S}
 5   Os u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)CsOs',
     shortDesc = u"""""",
@@ -29792,10 +29745,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   Cs u0 {1,S}
 5   Os u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CtCsOs',
     shortDesc = u"""""",
@@ -29931,10 +29885,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cs u0 {1,S}
 5   Os u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CbCsOs',
     shortDesc = u"""""",
@@ -30129,8 +30084,9 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
 3   CO u0 {1,S}
-4   Cd u0 {1,S}
+4   Cd u0 {1,S} {6,D}
 5   Os u0 {1,S}
+6   C  u0 {4,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -30229,9 +30185,11 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
+4   Cd u0 {1,S} {7,D}
 5   Os u0 {1,S}
+6   C  u0 {3,D}
+7   C  u0 {4,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -30423,10 +30381,13 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
+4   Cd u0 {1,S} {8,D}
 5   Os u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
+8   C  u0 {4,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -30787,9 +30748,10 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Ct u0 {1,S}
 5   Os u0 {1,S}
+6   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)CtOs',
     shortDesc = u"""""",
@@ -30887,10 +30849,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
 4   Ct u0 {1,S}
 5   Os u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)CtOs',
     shortDesc = u"""""",
@@ -31121,9 +31085,10 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Cb u0 {1,S}
 5   Os u0 {1,S}
+6   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)CbOs',
     shortDesc = u"""""",
@@ -31221,10 +31186,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
 4   Cb u0 {1,S}
 5   Os u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)CbOs',
     shortDesc = u"""""",
@@ -31454,10 +31421,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
 5   Os u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CtCtOs',
     shortDesc = u"""""",
@@ -31593,10 +31561,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Ct u0 {1,S}
 5   Os u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CbCtOs',
     shortDesc = u"""""",
@@ -31732,10 +31701,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
 5   Os u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CbCbOs',
     shortDesc = u"""""",
@@ -31990,10 +31960,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Cs u0 {1,S}
 4   Os u0 {1,S}
 5   Os u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CsOsOs',
     shortDesc = u"""""",
@@ -32130,9 +32101,10 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Os u0 {1,S}
 5   Os u0 {1,S}
+6   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)OsOs',
     shortDesc = u"""""",
@@ -32230,10 +32202,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
 4   Os u0 {1,S}
 5   Os u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)OsOs',
     shortDesc = u"""""",
@@ -32482,10 +32456,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   Os u0 {1,S}
 5   Os u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CtOsOs',
     shortDesc = u"""""",
@@ -32659,10 +32634,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Os u0 {1,S}
 5   Os u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CbOsOs',
     shortDesc = u"""""",
@@ -32879,10 +32855,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Os u0 {1,S}
 4   Os u0 {1,S}
 5   Os u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)OsOsOs',
     shortDesc = u"""""",
@@ -33123,10 +33100,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Os u0 {1,S}
 4   Os u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)OsOsH',
     shortDesc = u"""""",
@@ -33288,11 +33266,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.9,10.48,11.12,11.27,11.29,11.31,11.7],'cal/(mol*K)'),
-        H298 = (-10.28,'kcal/mol'),
-        S298 = (-17.78,'cal/(mol*K)'),
+        Cpdata = ([8.37,10.32,11.1,11.3,11.3,11.21,11.6],'cal/(mol*K)'),
+        H298 = (-11.1,'kcal/mol'),
+        S298 = (-16.14,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 1DHR calc""",
+    shortDesc = u"""CAC CBS-QB3 1DHR calc""",
     longDesc = 
 u"""
 
@@ -33357,7 +33335,50 @@ u"""
 )
 
 entry(
-    index = 1460,
+    index = -1,
+    label = "Cs-CCOsSs",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   C  u0 {1,S}
+3   C  u0 {1,S}
+4   Os u0 {1,S}
+5   Ss u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1453,
+    label = "Cs-CsCsOsSs",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S}
+3   Cs u0 {1,S}
+4   Os u0 {1,S}
+5   Ss u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.16,10.15,10.69,10.52,9.74,9.01,8.34],'cal/(mol*K)'),
+        H298 = (-11.26,'kcal/mol'),
+        S298 = (-39.73,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CAC CBS-QB3 1DHR calc""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1467,
     label = "Cs-COsOsSs",
     group = 
 """
@@ -33376,7 +33397,7 @@ u"""
 )
 
 entry(
-    index = 1461,
+    index = 1465,
     label = "Cs-CsOsOsSs",
     group = 
 """
@@ -33388,9 +33409,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.79,8.59,9.36,9.54,9.39,9.12,8.83],'cal/(mol*K)'),
-        H298 = (-19.49,'kcal/mol'),
-        S298 = (-37.31,'cal/(mol*K)'),
+        Cpdata = ([6.65,8.43,9.23,9.47,9.43,9.2,8.89],'cal/(mol*K)'),
+        H298 = (-21.41,'kcal/mol'),
+        S298 = (-36.7,'cal/(mol*K)'),
     ),
     shortDesc = u"""CAC calc 1D-HR""",
     longDesc = 
@@ -33491,10 +33512,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Cs u0 {1,S}
 4   Os u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CsOsH',
     shortDesc = u"""""",
@@ -33641,9 +33663,10 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Os u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Od)(Cds-Cds)OsH',
     shortDesc = u"""""",
@@ -33741,10 +33764,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
-3   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
 4   Os u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
 """,
     thermo = u'Cs-(Cds-Cds)(Cds-Cds)OsH',
     shortDesc = u"""""",
@@ -33998,10 +34023,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   Os u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CtOsH',
     shortDesc = u"""""",
@@ -34180,10 +34206,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Os u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)CbOsH',
     shortDesc = u"""""",
@@ -34405,10 +34432,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+2   Cd u0 {1,S} {6,D}
 3   Os u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = u'Cs-(Cds-Cds)OsHH',
     shortDesc = u"""""",
@@ -34620,12 +34648,12 @@ entry(
     label = "Cs-(Cds-Cd)CsCsSs",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Cs          u0 {1,S}
-4   Cs          u0 {1,S}
-5   Ss          u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Cs u0 {1,S}
+4   Cs u0 {1,S}
+5   Ss u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -34723,11 +34751,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Cs u0 {1,S}
 4   Cs u0 {1,S}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -34799,13 +34826,13 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CsSs",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Cd          u0 {1,S} {7,D}
-4   Cs          u0 {1,S}
-5   Ss          u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
-7   [Cd,Cdd,CO] u0 {3,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
+4   Cs u0 {1,S}
+5   Ss u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -34997,11 +35024,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Cs u0 {1,S}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
+6   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35017,12 +35044,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   Cs u0 {1,S}
 5   Ss u0 {1,S}
 6   Cd u0 {3,D}
-7   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35038,12 +35064,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cs  u0 {1,S}
 5   Ss  u0 {1,S}
 6   Cdd u0 {3,D}
-7   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35059,13 +35084,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cs  u0 {1,S}
 5   Ss  u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35081,13 +35105,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cs  u0 {1,S}
 5   Ss  u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35103,12 +35126,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   Cs u0 {1,S}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35142,12 +35163,12 @@ entry(
     label = "Cs-(Cds-Cd)CtCsSs",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Ct          u0 {1,S}
-4   Cs          u0 {1,S}
-5   Ss          u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Ct u0 {1,S}
+4   Cs u0 {1,S}
+5   Ss u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35245,11 +35266,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Ct u0 {1,S}
 4   Cs u0 {1,S}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35283,12 +35303,12 @@ entry(
     label = "Cs-(Cds-Cd)CbCsSs",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Cb          u0 {1,S}
-4   Cs          u0 {1,S}
-5   Ss          u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Cb u0 {1,S}
+4   Cs u0 {1,S}
+5   Ss u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35386,11 +35406,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Cb u0 {1,S}
 4   Cs u0 {1,S}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35481,14 +35500,14 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)Ss",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Cd          u0 {1,S} {7,D}
-4   Cd          u0 {1,S} {8,D}
-5   Ss          u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
-7   [Cd,Cdd,CO] u0 {3,D}
-8   [Cd,Cdd,CO] u0 {4,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
+4   Cd u0 {1,S} {8,D}
+5   Ss u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
+8   C  u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35810,11 +35829,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
-4   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
+4   Cd u0 {1,S} {7,D}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
+6   C  u0 {3,D}
+7   C  u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35830,13 +35850,12 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {8,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   Cd u0 {1,S} {7,D}
 5   Ss u0 {1,S}
 6   Cd u0 {3,D}
 7   Cd u0 {4,D}
-8   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35852,13 +35871,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   Ss  u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cd  u0 {4,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35874,14 +35892,13 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   Ss  u0 {1,S}
 6   Cdd u0 {3,D} {8,D}
 7   Cd  u0 {4,D}
 8   Sd  u0 {6,D}
-9   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35897,14 +35914,13 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   Ss  u0 {1,S}
 6   Cdd u0 {3,D} {8,D}
 7   Cd  u0 {4,D}
 8   C   u0 {6,D}
-9   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35920,13 +35936,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
 5   Ss  u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35941,16 +35956,15 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)Ss",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {10,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
-5    Ss  u0 {1,S}
-6    Cdd u0 {3,D} {8,D}
-7    Cdd u0 {4,D} {9,D}
-8    Sd  u0 {6,D}
-9    Sd  u0 {7,D}
-10   Sd  u0 {2,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
+5   Ss  u0 {1,S}
+6   Cdd u0 {3,D} {8,D}
+7   Cdd u0 {4,D} {9,D}
+8   Sd  u0 {6,D}
+9   Sd  u0 {7,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35965,16 +35979,15 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)Ss",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {10,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
-5    Ss  u0 {1,S}
-6    Cdd u0 {3,D} {8,D}
-7    Cdd u0 {4,D} {9,D}
-8    Sd  u0 {6,D}
-9    C   u0 {7,D}
-10   Sd  u0 {2,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
+5   Ss  u0 {1,S}
+6   Cdd u0 {3,D} {8,D}
+7   Cdd u0 {4,D} {9,D}
+8   Sd  u0 {6,D}
+9   C   u0 {7,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35989,16 +36002,15 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ss",
     group = 
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {10,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
-5    Ss  u0 {1,S}
-6    Cdd u0 {3,D} {8,D}
-7    Cdd u0 {4,D} {9,D}
-8    C   u0 {6,D}
-9    C   u0 {7,D}
-10   Sd  u0 {2,D}
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CS  u0 {1,S}
+3   Cd  u0 {1,S} {6,D}
+4   Cd  u0 {1,S} {7,D}
+5   Ss  u0 {1,S}
+6   Cdd u0 {3,D} {8,D}
+7   Cdd u0 {4,D} {9,D}
+8   C   u0 {6,D}
+9   C   u0 {7,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36014,12 +36026,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
+4   Cd u0 {1,S} {6,D}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
+6   C  u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36035,13 +36046,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
-3   Cd u0 {1,S} {8,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   Cd u0 {1,S} {6,D}
 5   Ss u0 {1,S}
 6   Cd u0 {4,D}
-7   Sd u0 {2,D}
-8   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36057,13 +36066,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   Ss  u0 {1,S}
 6   Cdd u0 {4,D}
-7   Sd  u0 {2,D}
-8   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36079,14 +36086,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   Ss  u0 {1,S}
 6   Cdd u0 {4,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {2,D}
-9   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36102,14 +36107,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {9,D}
+2   CS  u0 {1,S}
+3   CS  u0 {1,S}
 4   Cd  u0 {1,S} {6,D}
 5   Ss  u0 {1,S}
 6   Cdd u0 {4,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {2,D}
-9   Sd  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36125,13 +36128,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S} {8,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
+4   CS u0 {1,S}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
-8   Sd u0 {4,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36165,13 +36165,13 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CtSs",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Cd          u0 {1,S} {7,D}
-4   Ct          u0 {1,S}
-5   Ss          u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
-7   [Cd,Cdd,CO] u0 {3,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
+4   Ct u0 {1,S}
+5   Ss u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36363,11 +36363,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Ct u0 {1,S}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
+6   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36383,12 +36383,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   Ct u0 {1,S}
 5   Ss u0 {1,S}
 6   Cd u0 {3,D}
-7   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36404,12 +36403,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   Ss  u0 {1,S}
 6   Cdd u0 {3,D}
-7   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36425,13 +36423,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   Ss  u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36447,13 +36444,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   Ss  u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36469,12 +36465,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   Ct u0 {1,S}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36508,13 +36502,13 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CbSs",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Cd          u0 {1,S} {7,D}
-4   Cb          u0 {1,S}
-5   Ss          u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
-7   [Cd,Cdd,CO] u0 {3,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
+4   Cb u0 {1,S}
+5   Ss u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36706,11 +36700,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Cb u0 {1,S}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
+6   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36726,12 +36720,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   Cb u0 {1,S}
 5   Ss u0 {1,S}
 6   Cd u0 {3,D}
-7   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36747,12 +36740,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Ss  u0 {1,S}
 6   Cdd u0 {3,D}
-7   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36768,13 +36760,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Ss  u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36790,13 +36781,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Ss  u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36812,12 +36802,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   Cb u0 {1,S}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36851,12 +36839,12 @@ entry(
     label = "Cs-(Cds-Cd)CtCtSs",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Ct          u0 {1,S}
-4   Ct          u0 {1,S}
-5   Ss          u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Ct u0 {1,S}
+4   Ct u0 {1,S}
+5   Ss u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36954,11 +36942,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36992,12 +36979,12 @@ entry(
     label = "Cs-(Cds-Cd)CbCtSs",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Cb          u0 {1,S}
-4   Ct          u0 {1,S}
-5   Ss          u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Cb u0 {1,S}
+4   Ct u0 {1,S}
+5   Ss u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37095,11 +37082,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Cb u0 {1,S}
 4   Ct u0 {1,S}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37133,12 +37119,12 @@ entry(
     label = "Cs-(Cds-Cd)CbCbSs",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Cb          u0 {1,S}
-4   Cb          u0 {1,S}
-5   Ss          u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Cb u0 {1,S}
+4   Cb u0 {1,S}
+5   Ss u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37236,11 +37222,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37393,12 +37378,12 @@ entry(
     label = "Cs-(Cds-Cd)CsSsSs",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Cs          u0 {1,S}
-4   Ss          u0 {1,S}
-5   Ss          u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Cs u0 {1,S}
+4   Ss u0 {1,S}
+5   Ss u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37496,11 +37481,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Cs u0 {1,S}
 4   Ss u0 {1,S}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37534,13 +37518,13 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)SsSs",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Cd          u0 {1,S} {7,D}
-4   Ss          u0 {1,S}
-5   Ss          u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
-7   [Cd,Cdd,CO] u0 {3,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
+4   Ss u0 {1,S}
+5   Ss u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37732,11 +37716,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Ss u0 {1,S}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
+6   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37752,12 +37736,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   Ss u0 {1,S}
 5   Ss u0 {1,S}
 6   Cd u0 {3,D}
-7   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37773,12 +37756,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Ss  u0 {1,S}
 5   Ss  u0 {1,S}
 6   Cdd u0 {3,D}
-7   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37794,13 +37776,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Ss  u0 {1,S}
 5   Ss  u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37816,13 +37797,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Ss  u0 {1,S}
 5   Ss  u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37838,12 +37818,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   Ss u0 {1,S}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37896,12 +37874,12 @@ entry(
     label = "Cs-(Cds-Cd)CtSsSs",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Ct          u0 {1,S}
-4   Ss          u0 {1,S}
-5   Ss          u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Ct u0 {1,S}
+4   Ss u0 {1,S}
+5   Ss u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37999,11 +37977,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Ct u0 {1,S}
 4   Ss u0 {1,S}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -38075,12 +38052,12 @@ entry(
     label = "Cs-(Cds-Cd)CbSsSs",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Cb          u0 {1,S}
-4   Ss          u0 {1,S}
-5   Ss          u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Cb u0 {1,S}
+4   Ss u0 {1,S}
+5   Ss u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -38178,11 +38155,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Cb u0 {1,S}
 4   Ss u0 {1,S}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -38297,12 +38273,12 @@ entry(
     label = "Cs-(Cds-Cd)SsSsSs",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Ss          u0 {1,S}
-4   Ss          u0 {1,S}
-5   Ss          u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Ss u0 {1,S}
+4   Ss u0 {1,S}
+5   Ss u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -38400,11 +38376,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Ss u0 {1,S}
 4   Ss u0 {1,S}
 5   Ss u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -38538,12 +38513,12 @@ entry(
     label = "Cs-(Cds-Cd)SsSsH",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Ss          u0 {1,S}
-4   Ss          u0 {1,S}
-5   H           u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Ss u0 {1,S}
+4   Ss u0 {1,S}
+5   H  u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -38641,11 +38616,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Ss u0 {1,S}
 4   Ss u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -38765,12 +38739,12 @@ entry(
     label = "Cs-(Cds-Cd)CsSsH",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Cs          u0 {1,S}
-4   Ss          u0 {1,S}
-5   H           u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Cs u0 {1,S}
+4   Ss u0 {1,S}
+5   H  u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -38868,11 +38842,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Cs u0 {1,S}
 4   Ss u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -38911,13 +38884,13 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)SsH",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Cd          u0 {1,S} {7,D}
-4   Ss          u0 {1,S}
-5   H           u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
-7   [Cd,Cdd,CO] u0 {3,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Cd u0 {1,S} {7,D}
+4   Ss u0 {1,S}
+5   H  u0 {1,S}
+6   C  u0 {2,D}
+7   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -39109,11 +39082,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S}
+2   CS u0 {1,S}
+3   Cd u0 {1,S} {6,D}
 4   Ss u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
+6   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -39129,12 +39102,11 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
 3   Cd u0 {1,S} {6,D}
 4   Ss u0 {1,S}
 5   H  u0 {1,S}
 6   Cd u0 {3,D}
-7   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -39150,12 +39122,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {7,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Ss  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
-7   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -39171,13 +39142,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Ss  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   Sd  u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -39193,13 +39163,12 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {8,D}
+2   CS  u0 {1,S}
 3   Cd  u0 {1,S} {6,D}
 4   Ss  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D} {7,D}
 7   C   u0 {6,D}
-8   Sd  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -39215,12 +39184,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 4   Ss u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
-7   Sd u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -39278,12 +39245,12 @@ entry(
     label = "Cs-(Cds-Cd)CtSsH",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Ct          u0 {1,S}
-4   Ss          u0 {1,S}
-5   H           u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Ct u0 {1,S}
+4   Ss u0 {1,S}
+5   H  u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -39381,11 +39348,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Ct u0 {1,S}
 4   Ss u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -39462,12 +39428,12 @@ entry(
     label = "Cs-(Cds-Cd)CbSsH",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Cb          u0 {1,S}
-4   Ss          u0 {1,S}
-5   H           u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Cb u0 {1,S}
+4   Ss u0 {1,S}
+5   H  u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -39565,11 +39531,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Cb u0 {1,S}
 4   Ss u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -39689,12 +39654,12 @@ entry(
     label = "Cs-(Cds-Cd)SsHH",
     group = 
 """
-1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd          u0 {1,S} {6,D}
-3   Ss          u0 {1,S}
-4   H           u0 {1,S}
-5   H           u0 {1,S}
-6   [Cd,Cdd,CO] u0 {2,D}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd u0 {1,S} {6,D}
+3   Ss u0 {1,S}
+4   H  u0 {1,S}
+5   H  u0 {1,S}
+6   C  u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -39792,11 +39757,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+2   CS u0 {1,S}
 3   Ss u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
-6   Sd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -39894,8 +39858,8 @@ entry(
     label = "Od-Cd",
     group = 
 """
-1 * Od      u0 {2,D}
-2   [Cd,CO] u0 {1,D}
+1 * Od u0 {2,D}
+2   CO u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -40539,7 +40503,7 @@ entry(
 1 * Os u0 {2,S} {3,S}
 2   Cd u0 {1,S} {4,D}
 3   H  u0 {1,S}
-4   [Cd,Cdd,CO] u0 {2,D}
+4   C  u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -40599,7 +40563,7 @@ u"""
 )
 
 entry(
-    index = 1457,
+    index = 1460,
     label = "Os-CSH",
     group = 
 """
@@ -40610,9 +40574,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.17,8.51,9.68,10.66,12.14,13.14,14.38],'cal/(mol*K)'),
-        H298 = (-20.04,'kcal/mol'),
-        S298 = (33.59,'cal/(mol*K)'),
+        Cpdata = ([6.98,8.35,9.48,10.38,11.59,12.26,12.99],'cal/(mol*K)'),
+        H298 = (-31.38,'kcal/mol'),
+        S298 = (32.08,'cal/(mol*K)'),
     ),
     shortDesc = u"""CAC calc 1D-HR""",
     longDesc = 
@@ -40706,7 +40670,8 @@ entry(
 """
 1 * Os u0 {2,S} {3,S}
 2   Os u0 {1,S}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {4,D}
+4   C  u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -40835,7 +40800,8 @@ entry(
 """
 1 * Os u0 {2,S} {3,S}
 2   Ct u0 {1,S}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {4,D}
+4   C  u0 {3,D}
 """,
     thermo = u'Os-(Cds-Cd)(Cds-Cd)',
     shortDesc = u"""""",
@@ -40948,7 +40914,8 @@ entry(
 """
 1 * Os u0 {2,S} {3,S}
 2   CO u0 {1,S}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {4,D}
+4   C  u0 {3,D}
 """,
     thermo = u'Os-(Cds-Cd)(Cds-Cd)',
     shortDesc = u"""""",
@@ -41020,13 +40987,36 @@ u"""
 )
 
 entry(
+    index = 1461,
+    label = "Os-Cs(Cds-Sd)",
+    group = 
+"""
+1 * Os u0 {2,S} {3,S}
+2   Cs u0 {1,S}
+3   CS u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.56,6.31,7,7.61,8.52,8.99,9.29],'cal/(mol*K)'),
+        H298 = (-14.54,'kcal/mol'),
+        S298 = (10.02,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CAC CBS-QB3 1D-HR""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 1128,
     label = "Os-Cs(Cds-Cd)",
     group = 
 """
 1 * Os u0 {2,S} {3,S}
 2   Cs u0 {1,S}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {4,D}
+4   C  u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -41082,7 +41072,8 @@ entry(
 """
 1 * Os u0 {2,S} {3,S}
 2   Cb u0 {1,S}
-3   Cd u0 {1,S}
+3   Cd u0 {1,S} {4,D}
+4   C  u0 {3,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -41209,7 +41200,7 @@ entry(
     group = 
 """
 1 * Sd u0 {2,D}
-2   Cd u0 {1,D}
+2   CS u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -41349,9 +41340,8 @@ entry(
     group = 
 """
 1 * Ss u0 {2,S} {3,S}
-2   Cd u0 {1,S} {4,D}
+2   CS u0 {1,S}
 3   H  u0 {1,S}
-4   Sd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -41411,7 +41401,7 @@ u"""
 )
 
 entry(
-    index = 1458,
+    index = 1462,
     label = "Ss-COH",
     group = 
 """
@@ -41422,9 +41412,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.72,8.66,9.51,10.25,11.37,12.18,13.21],'cal/(mol*K)'),
-        H298 = (-25.85,'kcal/mol'),
-        S298 = (29.06,'cal/(mol*K)'),
+        Cpdata = ([8.05,9.1,9.95,10.65,11.62,12.26,13.25],'cal/(mol*K)'),
+        H298 = (-21.06,'kcal/mol'),
+        S298 = (35.41,'cal/(mol*K)'),
     ),
     shortDesc = u"""CAC calc 1D-HR""",
     longDesc = 
@@ -41545,8 +41535,7 @@ entry(
 """
 1 * Ss u0 {2,S} {3,S}
 2   Ss u0 {1,S}
-3   Cd u0 {1,S} {4,D}
-4   Sd u0 {3,D}
+3   CS u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -41673,8 +41662,7 @@ entry(
 """
 1 * Ss u0 {2,S} {3,S}
 2   Cs u0 {1,S}
-3   Cd u0 {1,S} {4,D}
-4   Sd u0 {3,D}
+3   CS u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -41683,6 +41671,28 @@ entry(
         S298 = (11.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1463,
+    label = "Ss-CsCO",
+    group = 
+"""
+1 * Ss u0 {2,S} {3,S}
+2   Cs u0 {1,S}
+3   CO u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.78,6.73,7.6,8.34,9.31,9.77,10.14],'cal/(mol*K)'),
+        H298 = (-15.33,'kcal/mol'),
+        S298 = (11.11,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CAC CBS-QB3 1dhr calc""",
     longDesc = 
 u"""
 
@@ -41762,8 +41772,7 @@ entry(
 """
 1 * Ss u0 {2,S} {3,S}
 2   Cd u0 {1,S}
-3   Cd u0 {1,S} {4,D}
-4   Sd u0 {3,D}
+3   CS u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -41784,10 +41793,8 @@ entry(
     group = 
 """
 1 * Ss u0 {2,S} {3,S}
-2   Cd u0 {1,S} {4,D}
-3   Cd u0 {1,S} {5,D}
-4   Sd u0 {2,D}
-5   Sd u0 {3,D}
+2   CS u0 {1,S}
+3   CS u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -41830,9 +41837,8 @@ entry(
     group = 
 """
 1 * Ss u0 {2,S} {3,S}
-2   Cd u0 {1,S} {4,D}
+2   CS u0 {1,S}
 3   Ct u0 {1,S}
-4   Sd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -41875,9 +41881,8 @@ entry(
     group = 
 """
 1 * Ss u0 {2,S} {3,S}
-2   Cd u0 {1,S} {4,D}
+2   CS u0 {1,S}
 3   Cb u0 {1,S}
-4   Sd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -43305,11 +43310,11 @@ L1: R
                             L8: Cb-(Cds-Cdd-Od)
                             L8: Cb-(Cds-Cdd-Sd)
                             L8: Cb-(Cds-Cdd-Cd)
-                    L6: Cb-C=S
                 L5: Cb-Ct
                     L6: Cb-(CtN3t)
                 L5: Cb-Cb
                     L6: Cb-CbCbN3s
+                L5: Cb-C=S
         L3: Ct
             L4: Ct-CtN3s
             L4: Ct-N3tN3s
@@ -43330,13 +43335,14 @@ L1: R
                             L8: Ct-Ct(Cds-Cdd-Od)
                             L8: Ct-Ct(Cds-Cdd-Sd)
                             L8: Ct-Ct(Cds-Cdd-Cd)
-                    L6: Ct-CtC=S
                 L5: Ct-CtCt
                     L6: Ct-Ct(CtN3t)
                 L5: Ct-CtCb
+                L5: Ct-CtC=S
         L3: Cdd
             L4: Cdd-N3dCd
             L4: Cdd-OdOd
+            L4: Cdd-OdSd
             L4: Cdd-SdSd
             L4: Cdd-CdOd
                 L5: Cdd-CdsOd
@@ -43371,10 +43377,7 @@ L1: R
             L4: CO-SsH
             L4: Cds-OdOsOs
             L4: CO-CsSs
-            L4: C=S-HH
-            L4: C=S-SsH
-            L4: CS-OsH
-            L4: C=S-SsSs
+            L4: CO-OsSs
             L4: Cds-OdCH
                 L5: Cds-OdCsH
                 L5: Cds-OdCdsH
@@ -43386,17 +43389,6 @@ L1: R
                             L8: Cds-Od(Cds-Cdd-Cd)H
                 L5: Cds-OdCtH
                 L5: Cds-OdCbH
-            L4: C=S-CH
-                L5: C=S-CsH
-                L5: C=S-CdsH
-                    L6: C=S-(Cds-Cd)H
-                        L7: C=S-(Cds-Cds)H
-                        L7: C=S-(Cds-Cdd)H
-                            L8: C=S-(Cds-Cdd-Sd)H
-                            L8: C=S-(Cds-Cdd-Cd)H
-                    L6: C=S-C=SH
-                L5: C=S-CtH
-                L5: C=S-CbH
             L4: Cds-OdCOs
                 L5: Cds-OdCsOs
                 L5: Cds-OdCdsOs
@@ -43408,17 +43400,6 @@ L1: R
                             L8: Cds-Od(Cds-Cdd-Cd)Os
                 L5: Cds-OdCtOs
                 L5: Cds-OdCbOs
-            L4: C=S-CSs
-                L5: C=S-CsSs
-                L5: C=S-CdsSs
-                    L6: C=S-(Cds-Cd)Ss
-                        L7: C=S-(Cds-Cds)Ss
-                        L7: C=S-(Cds-Cdd)Ss
-                            L8: C=S-(Cds-Cdd-Sd)Ss
-                            L8: C=S-(Cds-Cdd-Cd)Ss
-                    L6: C=S-C=SSs
-                L5: C=S-CtSs
-                L5: C=S-CbSs
             L4: Cds-OdCC
                 L5: Cds-OdCsCs
                 L5: Cds-OdCdsCs
@@ -43463,51 +43444,6 @@ L1: R
                             L8: Cds-OdCb(Cds-Cdd-Cd)
                 L5: Cds-OdCbCt
                 L5: Cds-OdCbCb
-            L4: C=S-CC
-                L5: C=S-CsCs
-                L5: C=S-CdsCs
-                    L6: C=S-(Cds-Cd)Cs
-                        L7: C=S-(Cds-Cds)Cs
-                        L7: C=S-(Cds-Cdd)Cs
-                            L8: C=S-(Cds-Cdd-Sd)Cs
-                            L8: C=S-(Cds-Cdd-Cd)Cs
-                    L6: C=S-C=SCs
-                L5: C=S-CdsCds
-                    L6: C=S-(Cds-Cd)(Cds-Cd)
-                        L7: C=S-(Cds-Cds)(Cds-Cds)
-                        L7: C=S-(Cds-Cdd)(Cds-Cds)
-                            L8: C=S-(Cds-Cdd-Sd)(Cds-Cds)
-                            L8: C=S-(Cds-Cdd-Cd)(Cds-Cds)
-                        L7: C=S-(Cds-Cdd)(Cds-Cdd)
-                            L8: C=S-(Cds-Cdd-Sd)(Cds-Cdd-Sd)
-                            L8: C=S-(Cds-Cdd-Cd)(Cds-Cdd-Sd)
-                            L8: C=S-(Cds-Cdd-Cd)(Cds-Cdd-Cd)
-                    L6: C=S-(Cds-Cd)C=S
-                        L7: C=S-(Cds-Cds)C=S
-                        L7: C=S-(Cds-Cdd)C=S
-                            L8: C=S-(Cds-Cdd-Sd)C=S
-                            L8: C=S-(Cds-Cdd-Cd)C=S
-                    L6: C=S-C=SC=S
-                L5: C=S-CtCs
-                L5: C=S-CtCds
-                    L6: C=S-Ct(Cds-Cd)
-                        L7: C=S-Ct(Cds-Cds)
-                        L7: C=S-Ct(Cds-Cdd)
-                            L8: C=S-Ct(Cds-Cdd-Sd)
-                            L8: C=S-Ct(Cds-Cdd-Cd)
-                    L6: C=S-CtC=S
-                L5: C=S-CtCt
-                L5: C=S-CbCs
-                L5: C=S-CbCds
-                    L6: C=S-Cb(Cds-Cd)
-                        L7: C=S-Cb(Cds-Cds)
-                        L7: C=S-Cb(Cds-Cdd)
-                            L8: C=S-Cb(Cds-Cdd-Sd)
-                            L8: C=S-Cb(Cds-Cdd-Cd)
-                    L6: C=S-CbC=S
-                L5: C=S-CbCt
-                L5: C=S-CbCb
-            L4: CS-CsOs
             L4: Cds-CdHH
                 L5: Cds-CdsHH
                 L5: Cds-CddHH
@@ -43544,7 +43480,6 @@ L1: R
                             L8: Cds-Cds(Cds-Cdd-Od)H
                             L8: Cds-Cds(Cds-Cdd-Sd)H
                             L8: Cds-Cds(Cds-Cdd-Cd)H
-                    L6: Cds-CdsC=SH
                 L5: Cds-CdsCtH
                     L6: Cds-CdsH(CtN3t)
                 L5: Cds-CdsCbH
@@ -43571,8 +43506,6 @@ L1: R
                             L8: Cds-(Cdd-Cd)(Cds-Cdd-Od)H
                             L8: Cds-(Cdd-Cd)(Cds-Cdd-Sd)H
                             L8: Cds-(Cdd-Cd)(Cds-Cdd-Cd)H
-                    L6: Cds-(Cdd-Sd)C=SH
-                    L6: Cds-(Cdd-Cd)C=SH
                 L5: Cds-CddCtH
                     L6: Cds-(Cdd-Od)CtH
                     L6: Cds-(Cdd-Sd)CtH
@@ -43581,6 +43514,9 @@ L1: R
                     L6: Cds-(Cdd-Od)CbH
                     L6: Cds-(Cdd-Sd)CbH
                     L6: Cds-(Cdd-Cd)CbH
+                L5: Cds-(Cdd-Cd)C=SH
+                L5: Cds-(Cdd-Sd)C=SH
+                L5: Cds-CdsC=SH
             L4: Cds-CdCO
                 L5: Cds-CdsCsOs
                 L5: Cds-CdsCdsOs
@@ -43621,7 +43557,6 @@ L1: R
                         L7: Cds-Cds(Cds-Cdd)Ss
                             L8: Cds-Cds(Cds-Cdd-Sd)Ss
                             L8: Cds-Cds(Cds-Cdd-Cd)Ss
-                    L6: Cds-CdsC=SSs
                 L5: Cds-CdsCtSs
                 L5: Cds-CdsCbSs
                 L5: Cds-CddCsSs
@@ -43638,13 +43573,14 @@ L1: R
                         L7: Cds-(Cdd-Cd)(Cds-Cdd)Ss
                             L8: Cds-(Cdd-Cd)(Cds-Cdd-Sd)Ss
                             L8: Cds-(Cdd-Cd)(Cds-Cdd-Cd)Ss
-                    L6: Cds-(Cdd-Sd)C=SSs
                 L5: Cds-CddCtSs
                     L6: Cds-(Cdd-Sd)CtSs
                     L6: Cds-(Cdd-Cd)CtSs
                 L5: Cds-CddCbSs
                     L6: Cds-(Cdd-Sd)CbSs
                     L6: Cds-(Cdd-Cd)CbSs
+                L5: Cds-(Cdd-Sd)C=SSs
+                L5: Cds-CdsC=SSs
             L4: Cds-CdCC
                 L5: Cds-CdsCsCs
                 L5: Cds-CdsCdsCs
@@ -43655,7 +43591,6 @@ L1: R
                             L8: Cds-Cds(Cds-Cdd-Od)Cs
                             L8: Cds-Cds(Cds-Cdd-Sd)Cs
                             L8: Cds-Cds(Cds-Cdd-Cd)Cs
-                    L6: Cds-CdsC=SCs
                 L5: Cds-CdsCdsCds
                     L6: Cds-Cds(Cds-Od)(Cds-Od)
                     L6: Cds-Cds(Cds-Od)(Cds-Cd)
@@ -43675,12 +43610,6 @@ L1: R
                             L8: Cds-Cds(Cds-Cdd-Sd)(Cds-Cdd-Sd)
                             L8: Cds-Cds(Cds-Cdd-Sd)(Cds-Cdd-Cd)
                             L8: Cds-Cds(Cds-Cdd-Cd)(Cds-Cdd-Cd)
-                    L6: Cds-CdsC=S(Cds-Cd)
-                        L7: Cds-CdsC=S(Cds-Cds)
-                        L7: Cds-CdsC=S(Cds-Cdd)
-                            L8: Cds-CdsC=S(Cds-Cdd-Sd)
-                            L8: Cds-CdsC=S(Cds-Cdd-Cd)
-                    L6: Cds-CdsC=SC=S
                 L5: Cds-CdsCtCs
                     L6: Cd-CdCs(CtN3t)
                 L5: Cds-CdsCtCds
@@ -43691,7 +43620,6 @@ L1: R
                             L8: Cds-Cds(Cds-Cdd-Od)Ct
                             L8: Cds-Cds(Cds-Cdd-Sd)Ct
                             L8: Cds-Cds(Cds-Cdd-Cd)Ct
-                    L6: Cds-CdsCtC=S
                 L5: Cds-CdsCtCt
                     L6: Cds-Cd(CtN3t)(CtN3t)
                 L5: Cds-CdsCbCs
@@ -43703,7 +43631,6 @@ L1: R
                             L8: Cds-Cds(Cds-Cdd-Od)Cb
                             L8: Cds-Cds(Cds-Cdd-Sd)Cb
                             L8: Cds-Cds(Cds-Cdd-Cd)Cb
-                    L6: Cds-CdsCbC=S
                 L5: Cds-CdsCbCt
                 L5: Cds-CdsCbCb
                 L5: Cds-CddCsCs
@@ -43728,7 +43655,6 @@ L1: R
                             L8: Cds-(Cdd-Cd)(Cds-Cdd-Od)Cs
                             L8: Cds-(Cdd-Cd)(Cds-Cdd-Sd)Cs
                             L8: Cds-(Cdd-Cd)(Cds-Cdd-Cd)Cs
-                    L6: Cds-(Cdd-Sd)C=SCs
                 L5: Cds-CddCdsCds
                     L6: Cds-(Cdd-Od)(Cds-Od)(Cds-Od)
                     L6: Cds-(Cdd-Od)(Cds-Cd)(Cds-Od)
@@ -43772,18 +43698,6 @@ L1: R
                             L8: Cds-(Cdd-Cd)(Cds-Cdd-Sd)(Cds-Cdd-Sd)
                             L8: Cds-(Cdd-Cd)(Cds-Cdd-Sd)(Cds-Cdd-Cd)
                             L8: Cds-(Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)
-                    L6: Cds-(Cdd-Sd)(Cds-Cd)C=S
-                        L7: Cds-(Cdd-Sd)(Cds-Cds)C=S
-                        L7: Cds-(Cdd-Sd)(Cds-Cdd)C=S
-                            L8: Cds-(Cdd-Sd)(Cds-Cdd-Sd)C=S
-                            L8: Cds-(Cdd-Sd)(Cds-Cdd-Cd)C=S
-                    L6: Cds-(Cdd-Cd)C=S(Cds-Cd)
-                        L7: Cds-(Cdd-Cd)C=S(Cds-Cds)
-                        L7: Cds-(Cdd-Cd)C=S(Cds-Cdd)
-                            L8: Cds-(Cdd-Cd)C=S(Cds-Cdd-Sd)
-                            L8: Cds-(Cdd-Cd)C=S(Cds-Cdd-Cd)
-                    L6: Cds-(Cdd-Sd)C=SC=S
-                    L6: Cds-(Cdd-Cd)C=SC=S
                 L5: Cds-CddCtCs
                     L6: Cds-(Cdd-Od)CtCs
                     L6: Cds-(Cdd-Sd)CtCs
@@ -43806,7 +43720,6 @@ L1: R
                             L8: Cds-(Cdd-Cd)(Cds-Cdd-Od)Ct
                             L8: Cds-(Cdd-Cd)(Cds-Cdd-Sd)Ct
                             L8: Cds-(Cdd-Cd)(Cds-Cdd-Cd)Ct
-                    L6: Cds-(Cdd-Sd)C=SCt
                 L5: Cds-CddCtCt
                     L6: Cds-(Cdd-Od)CtCt
                     L6: Cds-(Cdd-Sd)CtCt
@@ -43833,7 +43746,6 @@ L1: R
                             L8: Cds-(Cdd-Cd)(Cds-Cdd-Od)Cb
                             L8: Cds-(Cdd-Cd)(Cds-Cdd-Sd)Cb
                             L8: Cds-(Cdd-Cd)(Cds-Cdd-Cd)Cb
-                    L6: Cds-(Cdd-Sd)C=SCb
                 L5: Cds-CddCbCt
                     L6: Cds-(Cdd-Od)CbCt
                     L6: Cds-(Cdd-Sd)CbCt
@@ -43842,12 +43754,108 @@ L1: R
                     L6: Cds-(Cdd-Od)CbCb
                     L6: Cds-(Cdd-Sd)CbCb
                     L6: Cds-(Cdd-Cd)CbCb
+                L5: Cds-CdsC=SC=S
+                L5: Cds-(Cdd-Cd)C=S(Cds-Cd)
+                    L6: Cds-(Cdd-Cd)C=S(Cds-Cds)
+                    L6: Cds-(Cdd-Cd)C=S(Cds-Cdd)
+                        L7: Cds-(Cdd-Cd)C=S(Cds-Cdd-Cd)
+                        L7: Cds-(Cdd-Cd)C=S(Cds-Cdd-Sd)
+                L5: Cds-(Cdd-Sd)C=SCs
+                L5: Cds-(Cdd-Sd)C=SCt
+                L5: Cds-(Cdd-Sd)C=SCb
+                L5: Cds-(Cdd-Cd)C=SC=S
+                L5: Cds-(Cdd-Sd)(Cds-Cd)C=S
+                    L6: Cds-(Cdd-Sd)(Cds-Cds)C=S
+                    L6: Cds-(Cdd-Sd)(Cds-Cdd)C=S
+                        L7: Cds-(Cdd-Sd)(Cds-Cdd-Sd)C=S
+                        L7: Cds-(Cdd-Sd)(Cds-Cdd-Cd)C=S
+                L5: Cds-CdsCbC=S
+                L5: Cds-CdsCtC=S
+                L5: Cds-CdsC=SCs
+                L5: Cds-CdsC=S(Cds-Cd)
+                    L6: Cds-CdsC=S(Cds-Cds)
+                    L6: Cds-CdsC=S(Cds-Cdd)
+                        L7: Cds-CdsC=S(Cds-Cdd-Cd)
+                        L7: Cds-CdsC=S(Cds-Cdd-Sd)
+                L5: Cds-(Cdd-Sd)C=SC=S
             L4: Cds-CNH
                 L5: Cd-CdHN3s
                 L5: Cd-CdH(N5dOdOs)
             L4: Cds-CCN
                 L5: Cd-CdCsN3s
                 L5: Cd-CdCs(N5dOdOs)
+            L4: C=S-SsSs
+            L4: C=S-CH
+                L5: C=S-CsH
+                L5: C=S-CdsH
+                    L6: C=S-(Cds-Cd)H
+                        L7: C=S-(Cds-Cdd)H
+                            L8: C=S-(Cds-Cdd-Cd)H
+                            L8: C=S-(Cds-Cdd-Sd)H
+                        L7: C=S-(Cds-Cds)H
+                L5: C=S-CtH
+                L5: C=S-CbH
+                L5: C=S-C=SH
+            L4: C=S-CC
+                L5: C=S-CbCds
+                    L6: C=S-Cb(Cds-Cd)
+                        L7: C=S-Cb(Cds-Cds)
+                        L7: C=S-Cb(Cds-Cdd)
+                            L8: C=S-Cb(Cds-Cdd-Sd)
+                            L8: C=S-Cb(Cds-Cdd-Cd)
+                L5: C=S-CtCt
+                L5: C=S-CbCb
+                L5: C=S-CdsCds
+                    L6: C=S-(Cds-Cd)(Cds-Cd)
+                        L7: C=S-(Cds-Cdd)(Cds-Cds)
+                            L8: C=S-(Cds-Cdd-Cd)(Cds-Cds)
+                            L8: C=S-(Cds-Cdd-Sd)(Cds-Cds)
+                        L7: C=S-(Cds-Cds)(Cds-Cds)
+                        L7: C=S-(Cds-Cdd)(Cds-Cdd)
+                            L8: C=S-(Cds-Cdd-Cd)(Cds-Cdd-Cd)
+                            L8: C=S-(Cds-Cdd-Sd)(Cds-Cdd-Sd)
+                            L8: C=S-(Cds-Cdd-Cd)(Cds-Cdd-Sd)
+                L5: C=S-CtCds
+                    L6: C=S-Ct(Cds-Cd)
+                        L7: C=S-Ct(Cds-Cds)
+                        L7: C=S-Ct(Cds-Cdd)
+                            L8: C=S-Ct(Cds-Cdd-Cd)
+                            L8: C=S-Ct(Cds-Cdd-Sd)
+                L5: C=S-CbCt
+                L5: C=S-CsCs
+                L5: C=S-CdsCs
+                    L6: C=S-(Cds-Cd)Cs
+                        L7: C=S-(Cds-Cds)Cs
+                        L7: C=S-(Cds-Cdd)Cs
+                            L8: C=S-(Cds-Cdd-Sd)Cs
+                            L8: C=S-(Cds-Cdd-Cd)Cs
+                L5: C=S-CtCs
+                L5: C=S-CbCs
+                L5: C=S-C=SCs
+                L5: C=S-CtC=S
+                L5: C=S-(Cds-Cd)C=S
+                    L6: C=S-(Cds-Cdd)C=S
+                        L7: C=S-(Cds-Cdd-Cd)C=S
+                        L7: C=S-(Cds-Cdd-Sd)C=S
+                    L6: C=S-(Cds-Cds)C=S
+                L5: C=S-C=SC=S
+                L5: C=S-CbC=S
+            L4: C=S-HH
+            L4: C=S-SsH
+            L4: C=S-CSs
+                L5: C=S-CbSs
+                L5: C=S-CdsSs
+                    L6: C=S-(Cds-Cd)Ss
+                        L7: C=S-(Cds-Cds)Ss
+                        L7: C=S-(Cds-Cdd)Ss
+                            L8: C=S-(Cds-Cdd-Cd)Ss
+                            L8: C=S-(Cds-Cdd-Sd)Ss
+                L5: C=S-CtSs
+                L5: C=S-CsSs
+                L5: C=S-C=SSs
+            L4: CS-OsH
+            L4: CS-CsOs
+            L4: CS-OsOs
         L3: Cs
             L4: Cs-NHHH
                 L5: Cs-N3sHHH
@@ -43886,16 +43894,16 @@ L1: R
                 L5: Cs-CdsHHH
                     L6: Cs-(Cds-Od)HHH
                     L6: Cs-(Cds-Cd)HHH
-                        L7: Cs-(CdN3d)HHH
                         L7: Cs-(Cds-Cds)HHH
                         L7: Cs-(Cds-Cdd)HHH
                             L8: Cs-(Cds-Cdd-Od)HHH
                             L8: Cs-(Cds-Cdd-Sd)HHH
                             L8: Cs-(Cds-Cdd-Cd)HHH
-                    L6: Cs-C=SHHH
+                    L6: Cs-(CdN3d)HHH
                 L5: Cs-CtHHH
                     L6: Cs-(CtN3t)HHH
                 L5: Cs-CbHHH
+                L5: Cs-C=SHHH
             L4: Cs-OsHHH
             L4: Cs-OsOsHH
             L4: Cs-OsOsOsH
@@ -43914,8 +43922,7 @@ L1: R
                             L8: Cs-(Cds-Cdd-Od)CsHH
                             L8: Cs-(Cds-Cdd-Sd)CsHH
                             L8: Cs-(Cds-Cdd-Cd)CsHH
-                        L7: Cs-(CdN3d)CsHH
-                    L6: Cs-C=SCsHH
+                    L6: Cs-(CdN3d)CsHH
                 L5: Cs-CdsCdsHH
                     L6: Cs-(Cds-Od)(Cds-Od)HH
                     L6: Cs-(Cds-Od)(Cds-Cd)HH
@@ -43935,12 +43942,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)HH
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)HH
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)HH
-                    L6: Cs-C=S(Cds-Cd)HH
-                        L7: Cs-C=S(Cds-Cds)HH
-                        L7: Cs-C=S(Cds-Cdd)HH
-                            L8: Cs-C=S(Cds-Cdd-Sd)HH
-                            L8: Cs-C=S(Cds-Cdd-Cd)HH
-                    L6: Cs-C=SC=SHH
                 L5: Cs-CtCsHH
                     L6: Cs-(CtN3t)CsHH
                 L5: Cs-CtCdsHH
@@ -43951,7 +43952,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Od)CtHH
                             L8: Cs-(Cds-Cdd-Sd)CtHH
                             L8: Cs-(Cds-Cdd-Cd)CtHH
-                    L6: Cs-C=SCtHH
                 L5: Cs-CtCtHH
                 L5: Cs-CbCsHH
                 L5: Cs-CbCdsHH
@@ -43962,9 +43962,17 @@ L1: R
                             L8: Cs-(Cds-Cdd-Od)CbHH
                             L8: Cs-(Cds-Cdd-Sd)CbHH
                             L8: Cs-(Cds-Cdd-Cd)CbHH
-                    L6: Cs-C=SCbHH
                 L5: Cs-CbCtHH
                 L5: Cs-CbCbHH
+                L5: Cs-C=SCtHH
+                L5: Cs-C=SCsHH
+                L5: Cs-C=S(Cds-Cd)HH
+                    L6: Cs-C=S(Cds-Cdd)HH
+                        L7: Cs-C=S(Cds-Cdd-Cd)HH
+                        L7: Cs-C=S(Cds-Cdd-Sd)HH
+                    L6: Cs-C=S(Cds-Cds)HH
+                L5: Cs-C=SC=SHH
+                L5: Cs-C=SCbHH
             L4: Cs-CCCH
                 L5: Cs-CsCsCsH
                 L5: Cs-CdsCsCsH
@@ -43975,8 +43983,7 @@ L1: R
                             L8: Cs-(Cds-Cdd-Od)CsCsH
                             L8: Cs-(Cds-Cdd-Sd)CsCsH
                             L8: Cs-(Cds-Cdd-Cd)CsCsH
-                        L7: Cs-(CdN3d)CsCsH
-                    L6: Cs-C=SCsCsH
+                    L6: Cs-(CdN3d)CsCsH
                 L5: Cs-CtCsCsH
                     L6: Cs-(CtN3t)CsCsH
                 L5: Cs-CbCsCsH
@@ -43999,12 +44006,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)CsH
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)CsH
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsH
-                    L6: Cs-C=S(Cds-Cd)CsH
-                        L7: Cs-C=S(Cds-Cds)CsH
-                        L7: Cs-C=S(Cds-Cdd)CsH
-                            L8: Cs-C=S(Cds-Cdd-Sd)CsH
-                            L8: Cs-C=S(Cds-Cdd-Cd)CsH
-                    L6: Cs-C=SC=SCsH
                 L5: Cs-CtCdsCsH
                     L6: Cs-(Cds-Od)CtCsH
                     L6: Cs-(Cds-Cd)CtCsH
@@ -44013,7 +44014,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Od)CtCsH
                             L8: Cs-(Cds-Cdd-Sd)CtCsH
                             L8: Cs-(Cds-Cdd-Cd)CtCsH
-                    L6: Cs-C=SCtCsH
                 L5: Cs-CbCdsCsH
                     L6: Cs-(Cds-Od)CbCsH
                     L6: Cs-(Cds-Cd)CbCsH
@@ -44060,21 +44060,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)(Cds-Cdd-Cd)H
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H
-                    L6: Cs-C=S(Cds-Cd)(Cds-Cd)H
-                        L7: Cs-C=S(Cds-Cds)(Cds-Cds)H
-                        L7: Cs-C=S(Cds-Cdd)(Cds-Cds)H
-                            L8: Cs-C=S(Cds-Cdd-Sd)(Cds-Cds)H
-                            L8: Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)H
-                        L7: Cs-C=S(Cds-Cdd)(Cds-Cdd)H
-                            L8: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)H
-                            L8: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)H
-                            L8: Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)H
-                    L6: Cs-C=SC=S(Cds-Cd)H
-                        L7: Cs-C=SC=S(Cds-Cds)H
-                        L7: Cs-C=SC=S(Cds-Cdd)H
-                            L8: Cs-C=SC=S(Cds-Cdd-Sd)H
-                            L8: Cs-C=SC=S(Cds-Cdd-Cd)H
-                    L6: Cs-C=SC=SC=SH
                 L5: Cs-CtCdsCdsH
                     L6: Cs-(Cds-Od)(Cds-Od)CtH
                     L6: Cs-(Cds-Od)(Cds-Cd)CtH
@@ -44094,12 +44079,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)CtH
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)CtH
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtH
-                    L6: Cs-C=S(Cds-Cd)CtH
-                        L7: Cs-C=S(Cds-Cds)CtH
-                        L7: Cs-C=S(Cds-Cdd)CtH
-                            L8: Cs-C=S(Cds-Cdd-Sd)CtH
-                            L8: Cs-C=S(Cds-Cdd-Cd)CtH
-                    L6: Cs-C=SC=SCtH
                 L5: Cs-CbCdsCdsH
                     L6: Cs-(Cds-Od)(Cds-Od)CbH
                     L6: Cs-(Cds-Od)(Cds-Cd)CbH
@@ -44119,12 +44098,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)CbH
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)CbH
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbH
-                    L6: Cs-C=S(Cds-Cd)CbH
-                        L7: Cs-C=S(Cds-Cds)CbH
-                        L7: Cs-C=S(Cds-Cdd)CbH
-                            L8: Cs-C=S(Cds-Cdd-Sd)CbH
-                            L8: Cs-C=S(Cds-Cdd-Cd)CbH
-                    L6: Cs-C=SC=SCbH
                 L5: Cs-CtCtCdsH
                     L6: Cs-CtCt(Cds-Od)H
                     L6: Cs-CtCt(Cds-Cd)H
@@ -44133,7 +44106,6 @@ L1: R
                             L8: Cs-CtCt(Cds-Cdd-Od)H
                             L8: Cs-CtCt(Cds-Cdd-Sd)H
                             L8: Cs-CtCt(Cds-Cdd-Cd)H
-                    L6: Cs-CtCtC=SH
                 L5: Cs-CbCtCdsH
                     L6: Cs-CbCt(Cds-Od)H
                     L6: Cs-CbCt(Cds-Cd)H
@@ -44142,7 +44114,6 @@ L1: R
                             L8: Cs-CbCt(Cds-Cdd-Od)H
                             L8: Cs-CbCt(Cds-Cdd-Sd)H
                             L8: Cs-CbCt(Cds-Cdd-Cd)H
-                    L6: Cs-CbCtC=SH
                 L5: Cs-CbCbCdsH
                     L6: Cs-CbCb(Cds-Od)H
                     L6: Cs-CbCb(Cds-Cd)H
@@ -44151,11 +44122,48 @@ L1: R
                             L8: Cs-CbCb(Cds-Cdd-Od)H
                             L8: Cs-CbCb(Cds-Cdd-Sd)H
                             L8: Cs-CbCb(Cds-Cdd-Cd)H
-                    L6: Cs-CbCbC=SH
                 L5: Cs-CtCtCtH
                 L5: Cs-CbCtCtH
                 L5: Cs-CbCbCtH
                 L5: Cs-CbCbCbH
+                L5: Cs-C=SC=SCbH
+                L5: Cs-C=S(Cds-Cd)(Cds-Cd)H
+                    L6: Cs-C=S(Cds-Cdd)(Cds-Cds)H
+                        L7: Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)H
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cds)H
+                    L6: Cs-C=S(Cds-Cds)(Cds-Cds)H
+                    L6: Cs-C=S(Cds-Cdd)(Cds-Cdd)H
+                        L7: Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)H
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)H
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)H
+                L5: Cs-C=S(Cds-Cd)CtH
+                    L6: Cs-C=S(Cds-Cdd)CtH
+                        L7: Cs-C=S(Cds-Cdd-Sd)CtH
+                        L7: Cs-C=S(Cds-Cdd-Cd)CtH
+                    L6: Cs-C=S(Cds-Cds)CtH
+                L5: Cs-C=SC=SCtH
+                L5: Cs-C=SCtCsH
+                L5: Cs-C=SC=SCsH
+                L5: Cs-C=S(Cds-Cd)CbH
+                    L6: Cs-C=S(Cds-Cds)CbH
+                    L6: Cs-C=S(Cds-Cdd)CbH
+                        L7: Cs-C=S(Cds-Cdd-Sd)CbH
+                        L7: Cs-C=S(Cds-Cdd-Cd)CbH
+                L5: Cs-C=S(Cds-Cd)CsH
+                    L6: Cs-C=S(Cds-Cds)CsH
+                    L6: Cs-C=S(Cds-Cdd)CsH
+                        L7: Cs-C=S(Cds-Cdd-Cd)CsH
+                        L7: Cs-C=S(Cds-Cdd-Sd)CsH
+                L5: Cs-CbCtC=SH
+                L5: Cs-C=SC=SC=SH
+                L5: Cs-C=SCsCsH
+                L5: Cs-CtCtC=SH
+                L5: Cs-CbCbC=SH
+                L5: Cs-C=SC=S(Cds-Cd)H
+                    L6: Cs-C=SC=S(Cds-Cds)H
+                    L6: Cs-C=SC=S(Cds-Cdd)H
+                        L7: Cs-C=SC=S(Cds-Cdd-Sd)H
+                        L7: Cs-C=SC=S(Cds-Cdd-Cd)H
             L4: Cs-CCCC
                 L5: Cs-CsCsCsCs
                 L5: Cs-CdsCsCsCs
@@ -44166,8 +44174,7 @@ L1: R
                             L8: Cs-(Cds-Cdd-Od)CsCsCs
                             L8: Cs-(Cds-Cdd-Sd)CsCsCs
                             L8: Cs-(Cds-Cdd-Cd)CsCsCs
-                        L7: Cs-(CdN3d)CsCsCs
-                    L6: Cs-C=SCsCsCs
+                    L6: Cs-(CdN3d)CsCsCs
                 L5: Cs-CtCsCsCs
                     L6: Cs-(CtN3t)CsCsCs
                 L5: Cs-CbCsCsCs
@@ -44190,12 +44197,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)CsCs
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)CsCs
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsCs
-                    L6: Cs-C=S(Cds-Cd)CsCs
-                        L7: Cs-C=S(Cds-Cds)CsCs
-                        L7: Cs-C=S(Cds-Cdd)CsCs
-                            L8: Cs-C=S(Cds-Cdd-Sd)CsCs
-                            L8: Cs-C=S(Cds-Cdd-Cd)CsCs
-                    L6: Cs-C=SC=SCsCs
                 L5: Cs-CtCdsCsCs
                     L6: Cs-(Cds-Od)CtCsCs
                     L6: Cs-(Cds-Cd)CtCsCs
@@ -44204,7 +44205,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Od)CtCsCs
                             L8: Cs-(Cds-Cdd-Sd)CtCsCs
                             L8: Cs-(Cds-Cdd-Cd)CtCsCs
-                    L6: Cs-C=SCtCsCs
                 L5: Cs-CbCdsCsCs
                     L6: Cs-(Cds-Od)CbCsCs
                     L6: Cs-(Cds-Cd)CbCsCs
@@ -44213,7 +44213,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Od)CbCsCs
                             L8: Cs-(Cds-Cdd-Sd)CbCsCs
                             L8: Cs-(Cds-Cdd-Cd)CbCsCs
-                    L6: Cs-C=SCbCsCs
                 L5: Cs-CtCtCsCs
                     L6: Cs-(CtN3t)(CtN3t)CsCs
                 L5: Cs-CbCtCsCs
@@ -44254,21 +44253,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)(Cds-Cdd-Cd)Cs
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs
-                    L6: Cs-C=S(Cds-Cd)(Cds-Cd)Cs
-                        L7: Cs-C=S(Cds-Cds)(Cds-Cds)Cs
-                        L7: Cs-C=S(Cds-Cdd)(Cds-Cds)Cs
-                            L8: Cs-C=S(Cds-Cdd-Sd)(Cds-Cds)Cs
-                            L8: Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)Cs
-                        L7: Cs-C=S(Cds-Cdd)(Cds-Cdd)Cs
-                            L8: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)Cs
-                            L8: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)Cs
-                            L8: Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs
-                    L6: Cs-C=SC=S(Cds-Cd)Cs
-                        L7: Cs-C=SC=S(Cds-Cds)Cs
-                        L7: Cs-C=SC=S(Cds-Cdd)Cs
-                            L8: Cs-C=SC=S(Cds-Cdd-Sd)Cs
-                            L8: Cs-C=SC=S(Cds-Cdd-Cd)Cs
-                    L6: Cs-C=SC=SC=SCs
                 L5: Cs-CtCdsCdsCs
                     L6: Cs-(Cds-Od)(Cds-Od)CtCs
                     L6: Cs-(Cds-Od)(Cds-Cd)CtCs
@@ -44288,12 +44272,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)CtCs
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)CtCs
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtCs
-                    L6: Cs-C=S(Cds-Cd)CtCs
-                        L7: Cs-C=S(Cds-Cds)CtCs
-                        L7: Cs-C=S(Cds-Cdd)CtCs
-                            L8: Cs-C=S(Cds-Cdd-Sd)CtCs
-                            L8: Cs-C=S(Cds-Cdd-Cd)CtCs
-                    L6: Cs-C=SC=SCtCs
                 L5: Cs-CbCdsCdsCs
                     L6: Cs-(Cds-Od)(Cds-Od)CbCs
                     L6: Cs-(Cds-Od)(Cds-Cd)CbCs
@@ -44313,12 +44291,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)CbCs
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)CbCs
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCs
-                    L6: Cs-C=S(Cds-Cd)CbCs
-                        L7: Cs-C=S(Cds-Cds)CbCs
-                        L7: Cs-C=S(Cds-Cdd)CbCs
-                            L8: Cs-C=S(Cds-Cdd-Sd)CbCs
-                            L8: Cs-C=S(Cds-Cdd-Cd)CbCs
-                    L6: Cs-C=SC=SCbCs
                 L5: Cs-CtCtCdsCs
                     L6: Cs-(Cds-Od)CtCtCs
                     L6: Cs-(Cds-Cd)CtCtCs
@@ -44327,7 +44299,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Od)CtCtCs
                             L8: Cs-(Cds-Cdd-Sd)CtCtCs
                             L8: Cs-(Cds-Cdd-Cd)CtCtCs
-                    L6: Cs-C=SCtCtCs
                 L5: Cs-CbCtCdsCs
                     L6: Cs-(Cds-Od)CbCtCs
                     L6: Cs-(Cds-Cd)CbCtCs
@@ -44336,7 +44307,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Od)CbCtCs
                             L8: Cs-(Cds-Cdd-Sd)CbCtCs
                             L8: Cs-(Cds-Cdd-Cd)CbCtCs
-                    L6: Cs-C=SCbCtCs
                 L5: Cs-CbCbCdsCs
                     L6: Cs-(Cds-Od)CbCbCs
                     L6: Cs-(Cds-Cd)CbCbCs
@@ -44345,7 +44315,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Od)CbCbCs
                             L8: Cs-(Cds-Cdd-Sd)CbCbCs
                             L8: Cs-(Cds-Cdd-Cd)CbCbCs
-                    L6: Cs-C=SCbCbCs
                 L5: Cs-CtCtCtCs
                 L5: Cs-CbCtCtCs
                 L5: Cs-CbCbCtCs
@@ -44410,35 +44379,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)
-                    L6: Cs-C=S(Cds-Cd)(Cds-Cd)(Cds-Cd)
-                        L7: Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cds)
-                        L7: Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cdd)
-                            L8: Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cdd-Sd)
-                            L8: Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)
-                        L7: Cs-C=S(Cds-Cds)(Cds-Cdd)(Cds-Cdd)
-                            L8: Cs-C=S(Cds-Cds)(Cds-Cdd-Sd)(Cds-Cdd-Sd)
-                            L8: Cs-C=S(Cds-Cds)(Cds-Cdd-Sd)(Cds-Cdd-Cd)
-                            L8: Cs-C=S(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)
-                        L7: Cs-C=S(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)
-                            L8: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)(Cds-Cdd-Sd)
-                            L8: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)(Cds-Cdd-Cd)
-                            L8: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)
-                            L8: Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)
-                    L6: Cs-C=SC=S(Cds-Cd)(Cds-Cd)
-                        L7: Cs-C=SC=S(Cds-Cds)(Cds-Cds)
-                        L7: Cs-C=SC=S(Cds-Cdd)(Cds-Cds)
-                            L8: Cs-C=SC=S(Cds-Cdd-Sd)(Cds-Cds)
-                            L8: Cs-C=SC=S(Cds-Cdd-Cd)(Cds-Cds)
-                        L7: Cs-C=SC=S(Cds-Cdd)(Cds-Cdd)
-                            L8: Cs-C=SC=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)
-                            L8: Cs-C=SC=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)
-                            L8: Cs-C=SC=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)
-                    L6: Cs-C=SC=SC=S(Cds-Cd)
-                        L7: Cs-C=SC=SC=S(Cds-Cds)
-                        L7: Cs-C=SC=SC=S(Cds-Cdd)
-                            L8: Cs-C=SC=SC=S(Cds-Cdd-Sd)
-                            L8: Cs-C=SC=SC=S(Cds-Cdd-Cd)
-                    L6: Cs-C=SC=SC=SC=S
                 L5: Cs-CtCdsCdsCds
                     L6: Cs-(Cds-Od)(Cds-Od)(Cds-Od)Ct
                     L6: Cs-(Cds-Od)(Cds-Od)(Cds-Cd)Ct
@@ -44475,21 +44415,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)(Cds-Cdd-Cd)Ct
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct
-                    L6: Cs-C=S(Cds-Cd)(Cds-Cd)Ct
-                        L7: Cs-C=S(Cds-Cds)(Cds-Cds)Ct
-                        L7: Cs-C=S(Cds-Cdd)(Cds-Cds)Ct
-                            L8: Cs-C=S(Cds-Cdd-Sd)(Cds-Cds)Ct
-                            L8: Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)Ct
-                        L7: Cs-C=S(Cds-Cdd)(Cds-Cdd)Ct
-                            L8: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)Ct
-                            L8: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)Ct
-                            L8: Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct
-                    L6: Cs-C=SC=S(Cds-Cd)Ct
-                        L7: Cs-C=SC=S(Cds-Cds)Ct
-                        L7: Cs-C=SC=S(Cds-Cdd)Ct
-                            L8: Cs-C=SC=S(Cds-Cdd-Sd)Ct
-                            L8: Cs-C=SC=S(Cds-Cdd-Cd)Ct
-                    L6: Cs-C=SC=SC=SCt
                 L5: Cs-CbCdsCdsCds
                     L6: Cs-(Cds-Od)(Cds-Od)(Cds-Od)Cb
                     L6: Cs-(Cds-Od)(Cds-Od)(Cds-Cd)Cb
@@ -44526,21 +44451,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)(Cds-Cdd-Cd)Cb
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb
-                    L6: Cs-C=S(Cds-Cd)(Cds-Cd)Cb
-                        L7: Cs-C=S(Cds-Cds)(Cds-Cds)Cb
-                        L7: Cs-C=S(Cds-Cdd)(Cds-Cds)Cb
-                            L8: Cs-C=S(Cds-Cdd-Sd)(Cds-Cds)Cb
-                            L8: Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)Cb
-                        L7: Cs-C=S(Cds-Cdd)(Cds-Cdd)Cb
-                            L8: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)Cb
-                            L8: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)Cb
-                            L8: Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb
-                    L6: Cs-C=SC=S(Cds-Cd)Cb
-                        L7: Cs-C=SC=S(Cds-Cds)Cb
-                        L7: Cs-C=SC=S(Cds-Cdd)Cb
-                            L8: Cs-C=SC=S(Cds-Cdd-Sd)Cb
-                            L8: Cs-C=SC=S(Cds-Cdd-Cd)Cb
-                    L6: Cs-C=SC=SC=SCb
                 L5: Cs-CtCtCdsCds
                     L6: Cs-(Cds-Od)(Cds-Od)CtCt
                     L6: Cs-(Cds-Od)(Cds-Cd)CtCt
@@ -44560,12 +44470,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)CtCt
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)CtCt
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtCt
-                    L6: Cs-C=S(Cds-Cd)CtCt
-                        L7: Cs-C=S(Cds-Cds)CtCt
-                        L7: Cs-C=S(Cds-Cdd)CtCt
-                            L8: Cs-C=S(Cds-Cdd-Sd)CtCt
-                            L8: Cs-C=S(Cds-Cdd-Cd)CtCt
-                    L6: Cs-C=SC=SCtCt
                 L5: Cs-CbCtCdsCds
                     L6: Cs-(Cds-Od)(Cds-Od)CbCt
                     L6: Cs-(Cds-Od)(Cds-Cd)CbCt
@@ -44585,12 +44489,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)CbCt
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)CbCt
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCt
-                    L6: Cs-C=S(Cds-Cd)CbCt
-                        L7: Cs-C=S(Cds-Cds)CbCt
-                        L7: Cs-C=S(Cds-Cdd)CbCt
-                            L8: Cs-C=S(Cds-Cdd-Sd)CbCt
-                            L8: Cs-C=S(Cds-Cdd-Cd)CbCt
-                    L6: Cs-C=SC=SCbCt
                 L5: Cs-CbCbCdsCds
                     L6: Cs-(Cds-Od)(Cds-Od)CbCb
                     L6: Cs-(Cds-Od)(Cds-Cd)CbCb
@@ -44610,12 +44508,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)CbCb
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)CbCb
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCb
-                    L6: Cs-C=S(Cds-Cd)CbCb
-                        L7: Cs-C=S(Cds-Cds)CbCb
-                        L7: Cs-C=S(Cds-Cdd)CbCb
-                            L8: Cs-C=S(Cds-Cdd-Sd)CbCb
-                            L8: Cs-C=S(Cds-Cdd-Cd)CbCb
-                    L6: Cs-C=SC=SCbCb
                 L5: Cs-CtCtCtCds
                     L6: Cs-(Cds-Od)CtCtCt
                     L6: Cs-(Cds-Cd)CtCtCt
@@ -44624,7 +44516,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Od)CtCtCt
                             L8: Cs-(Cds-Cdd-Sd)CtCtCt
                             L8: Cs-(Cds-Cdd-Cd)CtCtCt
-                    L6: Cs-C=SCtCtCt
                 L5: Cs-CbCtCtCds
                     L6: Cs-(Cds-Od)CbCtCt
                     L6: Cs-(Cds-Cd)CbCtCt
@@ -44633,7 +44524,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Od)CbCtCt
                             L8: Cs-(Cds-Cdd-Sd)CbCtCt
                             L8: Cs-(Cds-Cdd-Cd)CbCtCt
-                    L6: Cs-C=SCbCtCt
                 L5: Cs-CbCbCtCds
                     L6: Cs-(Cds-Od)CbCbCt
                     L6: Cs-(Cds-Cd)CbCbCt
@@ -44642,7 +44532,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Od)CbCbCt
                             L8: Cs-(Cds-Cdd-Sd)CbCbCt
                             L8: Cs-(Cds-Cdd-Cd)CbCbCt
-                    L6: Cs-C=SCbCbCt
                 L5: Cs-CbCbCbCds
                     L6: Cs-(Cds-Od)CbCbCb
                     L6: Cs-(Cds-Cd)CbCbCb
@@ -44651,12 +44540,131 @@ L1: R
                             L8: Cs-(Cds-Cdd-Od)CbCbCb
                             L8: Cs-(Cds-Cdd-Sd)CbCbCb
                             L8: Cs-(Cds-Cdd-Cd)CbCbCb
-                    L6: Cs-C=SCbCbCb
                 L5: Cs-CtCtCtCt
                 L5: Cs-CbCtCtCt
                 L5: Cs-CbCbCtCt
                 L5: Cs-CbCbCbCt
                 L5: Cs-CbCbCbCb
+                L5: Cs-C=SCbCtCt
+                L5: Cs-C=S(Cds-Cd)(Cds-Cd)(Cds-Cd)
+                    L6: Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cdd)
+                        L7: Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)
+                        L7: Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cdd-Sd)
+                    L6: Cs-C=S(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)
+                        L7: Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)(Cds-Cdd-Sd)
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)(Cds-Cdd-Cd)
+                    L6: Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cds)
+                    L6: Cs-C=S(Cds-Cds)(Cds-Cdd)(Cds-Cdd)
+                        L7: Cs-C=S(Cds-Cds)(Cds-Cdd-Sd)(Cds-Cdd-Sd)
+                        L7: Cs-C=S(Cds-Cds)(Cds-Cdd-Sd)(Cds-Cdd-Cd)
+                        L7: Cs-C=S(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)
+                L5: Cs-C=S(Cds-Cd)CtCt
+                    L6: Cs-C=S(Cds-Cds)CtCt
+                    L6: Cs-C=S(Cds-Cdd)CtCt
+                        L7: Cs-C=S(Cds-Cdd-Sd)CtCt
+                        L7: Cs-C=S(Cds-Cdd-Cd)CtCt
+                L5: Cs-C=S(Cds-Cd)CtCs
+                    L6: Cs-C=S(Cds-Cds)CtCs
+                    L6: Cs-C=S(Cds-Cdd)CtCs
+                        L7: Cs-C=S(Cds-Cdd-Sd)CtCs
+                        L7: Cs-C=S(Cds-Cdd-Cd)CtCs
+                L5: Cs-C=SCbCbCt
+                L5: Cs-C=SCbCsCs
+                L5: Cs-C=SCbCbCs
+                L5: Cs-C=SCtCtCt
+                L5: Cs-C=S(Cds-Cd)(Cds-Cd)Cs
+                    L6: Cs-C=S(Cds-Cdd)(Cds-Cdd)Cs
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)Cs
+                        L7: Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)Cs
+                    L6: Cs-C=S(Cds-Cds)(Cds-Cds)Cs
+                    L6: Cs-C=S(Cds-Cdd)(Cds-Cds)Cs
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cds)Cs
+                        L7: Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)Cs
+                L5: Cs-C=SC=SCtCt
+                L5: Cs-C=SCsCsCs
+                L5: Cs-C=SCtCtCs
+                L5: Cs-C=SC=SC=SCt
+                L5: Cs-C=SC=SC=SCs
+                L5: Cs-C=SC=SC=SC=S
+                L5: Cs-C=SCtCsCs
+                L5: Cs-C=SC=SC=SCb
+                L5: Cs-C=SC=SC=S(Cds-Cd)
+                    L6: Cs-C=SC=SC=S(Cds-Cdd)
+                        L7: Cs-C=SC=SC=S(Cds-Cdd-Cd)
+                        L7: Cs-C=SC=SC=S(Cds-Cdd-Sd)
+                    L6: Cs-C=SC=SC=S(Cds-Cds)
+                L5: Cs-C=S(Cds-Cd)(Cds-Cd)Ct
+                    L6: Cs-C=S(Cds-Cdd)(Cds-Cdd)Ct
+                        L7: Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)Ct
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)Ct
+                    L6: Cs-C=S(Cds-Cds)(Cds-Cds)Ct
+                    L6: Cs-C=S(Cds-Cdd)(Cds-Cds)Ct
+                        L7: Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)Ct
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cds)Ct
+                L5: Cs-C=SC=SCtCs
+                L5: Cs-C=SC=SCbCb
+                L5: Cs-C=S(Cds-Cd)CsCs
+                    L6: Cs-C=S(Cds-Cds)CsCs
+                    L6: Cs-C=S(Cds-Cdd)CsCs
+                        L7: Cs-C=S(Cds-Cdd-Cd)CsCs
+                        L7: Cs-C=S(Cds-Cdd-Sd)CsCs
+                L5: Cs-C=SC=SCbCt
+                L5: Cs-C=S(Cds-Cd)CbCt
+                    L6: Cs-C=S(Cds-Cds)CbCt
+                    L6: Cs-C=S(Cds-Cdd)CbCt
+                        L7: Cs-C=S(Cds-Cdd-Sd)CbCt
+                        L7: Cs-C=S(Cds-Cdd-Cd)CbCt
+                L5: Cs-C=SC=SCsCs
+                L5: Cs-C=S(Cds-Cd)CbCb
+                    L6: Cs-C=S(Cds-Cds)CbCb
+                    L6: Cs-C=S(Cds-Cdd)CbCb
+                        L7: Cs-C=S(Cds-Cdd-Sd)CbCb
+                        L7: Cs-C=S(Cds-Cdd-Cd)CbCb
+                L5: Cs-C=SC=S(Cds-Cd)Ct
+                    L6: Cs-C=SC=S(Cds-Cds)Ct
+                    L6: Cs-C=SC=S(Cds-Cdd)Ct
+                        L7: Cs-C=SC=S(Cds-Cdd-Cd)Ct
+                        L7: Cs-C=SC=S(Cds-Cdd-Sd)Ct
+                L5: Cs-C=SC=S(Cds-Cd)Cs
+                    L6: Cs-C=SC=S(Cds-Cds)Cs
+                    L6: Cs-C=SC=S(Cds-Cdd)Cs
+                        L7: Cs-C=SC=S(Cds-Cdd-Sd)Cs
+                        L7: Cs-C=SC=S(Cds-Cdd-Cd)Cs
+                L5: Cs-C=SC=S(Cds-Cd)(Cds-Cd)
+                    L6: Cs-C=SC=S(Cds-Cdd)(Cds-Cds)
+                        L7: Cs-C=SC=S(Cds-Cdd-Sd)(Cds-Cds)
+                        L7: Cs-C=SC=S(Cds-Cdd-Cd)(Cds-Cds)
+                    L6: Cs-C=SC=S(Cds-Cdd)(Cds-Cdd)
+                        L7: Cs-C=SC=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)
+                        L7: Cs-C=SC=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)
+                        L7: Cs-C=SC=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)
+                    L6: Cs-C=SC=S(Cds-Cds)(Cds-Cds)
+                L5: Cs-C=SC=S(Cds-Cd)Cb
+                    L6: Cs-C=SC=S(Cds-Cdd)Cb
+                        L7: Cs-C=SC=S(Cds-Cdd-Sd)Cb
+                        L7: Cs-C=SC=S(Cds-Cdd-Cd)Cb
+                    L6: Cs-C=SC=S(Cds-Cds)Cb
+                L5: Cs-C=SCbCtCs
+                L5: Cs-C=S(Cds-Cd)CbCs
+                    L6: Cs-C=S(Cds-Cds)CbCs
+                    L6: Cs-C=S(Cds-Cdd)CbCs
+                        L7: Cs-C=S(Cds-Cdd-Sd)CbCs
+                        L7: Cs-C=S(Cds-Cdd-Cd)CbCs
+                L5: Cs-C=S(Cds-Cd)(Cds-Cd)Cb
+                    L6: Cs-C=S(Cds-Cdd)(Cds-Cdd)Cb
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)Cb
+                        L7: Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)Cb
+                    L6: Cs-C=S(Cds-Cds)(Cds-Cds)Cb
+                    L6: Cs-C=S(Cds-Cdd)(Cds-Cds)Cb
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cds)Cb
+                        L7: Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)Cb
+                L5: Cs-C=SCbCbCb
+                L5: Cs-C=SC=SCbCs
             L4: Cs-CCCOs
                 L5: Cs-CsCsCsOs
                 L5: Cs-CdsCsCsOs
@@ -44860,6 +44868,8 @@ L1: R
                 L5: Cs-CdsOsSsH
                 L5: Cs-CtOsSsH
                 L5: Cs-CbOsSsH
+            L4: Cs-CCOsSs
+                L5: Cs-CsCsOsSs
             L4: Cs-COsOsSs
                 L5: Cs-CsOsOsSs
             L4: Cs-CCOsH
@@ -44925,7 +44935,6 @@ L1: R
                         L7: Cs-(Cds-Cdd)CsCsSs
                             L8: Cs-(Cds-Cdd-Sd)CsCsSs
                             L8: Cs-(Cds-Cdd-Cd)CsCsSs
-                    L6: Cs-C=SCsCsSs
                 L5: Cs-SsCtCsCs
                 L5: Cs-CbCsCsSs
                 L5: Cs-CdsCdsCsSs
@@ -44938,26 +44947,18 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)CsSs
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)CsSs
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsSs
-                    L6: Cs-C=S(Cds-Cd)CsSs
-                        L7: Cs-C=S(Cds-Cds)CsSs
-                        L7: Cs-C=S(Cds-Cdd)CsSs
-                            L8: Cs-C=S(Cds-Cdd-Sd)CsSs
-                            L8: Cs-C=S(Cds-Cdd-Cd)CsSs
-                    L6: Cs-C=SC=SCsSs
                 L5: Cs-CtCdsCsSs
                     L6: Cs-(Cds-Cd)CtCsSs
                         L7: Cs-(Cds-Cds)CtCsSs
                         L7: Cs-(Cds-Cdd)CtCsSs
                             L8: Cs-(Cds-Cdd-Sd)CtCsSs
                             L8: Cs-(Cds-Cdd-Cd)CtCsSs
-                    L6: Cs-C=SCtCsSs
                 L5: Cs-CbCdsCsSs
                     L6: Cs-(Cds-Cd)CbCsSs
                         L7: Cs-(Cds-Cds)CbCsSs
                         L7: Cs-(Cds-Cdd)CbCsSs
                             L8: Cs-(Cds-Cdd-Sd)CbCsSs
                             L8: Cs-(Cds-Cdd-Cd)CbCsSs
-                    L6: Cs-C=SCbCsSs
                 L5: Cs-CtCtCsSs
                 L5: Cs-CbCtCsSs
                 L5: Cs-CbCbCsSs
@@ -44976,21 +44977,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)(Cds-Cdd-Cd)Ss
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ss
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ss
-                    L6: Cs-C=S(Cds-Cd)(Cds-Cd)Ss
-                        L7: Cs-C=S(Cds-Cds)(Cds-Cds)Ss
-                        L7: Cs-C=S(Cds-Cdd)(Cds-Cds)Ss
-                            L8: Cs-C=S(Cds-Cdd-Sd)(Cds-Cds)Ss
-                            L8: Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)Ss
-                        L7: Cs-C=S(Cds-Cdd)(Cds-Cdd)Ss
-                            L8: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)Ss
-                            L8: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)Ss
-                            L8: Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ss
-                    L6: Cs-C=SC=S(Cds-Cd)Ss
-                        L7: Cs-C=SC=S(Cds-Cds)Ss
-                        L7: Cs-C=SC=S(Cds-Cdd)Ss
-                            L8: Cs-C=SC=S(Cds-Cdd-Sd)Ss
-                            L8: Cs-C=SC=S(Cds-Cdd-Cd)Ss
-                    L6: Cs-C=SC=SC=SSs
                 L5: Cs-CtCdsCdsSs
                     L6: Cs-(Cds-Cd)(Cds-Cd)CtSs
                         L7: Cs-(Cds-Cds)(Cds-Cds)CtSs
@@ -45001,12 +44987,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)CtSs
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)CtSs
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtSs
-                    L6: Cs-C=S(Cds-Cd)CtSs
-                        L7: Cs-C=S(Cds-Cds)CtSs
-                        L7: Cs-C=S(Cds-Cdd)CtSs
-                            L8: Cs-C=S(Cds-Cdd-Sd)CtSs
-                            L8: Cs-C=S(Cds-Cdd-Cd)CtSs
-                    L6: Cs-C=SC=SCtSs
                 L5: Cs-CbCdsCdsSs
                     L6: Cs-(Cds-Cd)(Cds-Cd)CbSs
                         L7: Cs-(Cds-Cds)(Cds-Cds)CbSs
@@ -45017,37 +44997,67 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)CbSs
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)CbSs
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbSs
-                    L6: Cs-C=S(Cds-Cd)CbSs
-                        L7: Cs-C=S(Cds-Cds)CbSs
-                        L7: Cs-C=S(Cds-Cdd)CbSs
-                            L8: Cs-C=S(Cds-Cdd-Sd)CbSs
-                            L8: Cs-C=S(Cds-Cdd-Cd)CbSs
-                    L6: Cs-C=SC=SCbSs
                 L5: Cs-CtCtCdsSs
                     L6: Cs-(Cds-Cd)CtCtSs
                         L7: Cs-(Cds-Cds)CtCtSs
                         L7: Cs-(Cds-Cdd)CtCtSs
                             L8: Cs-(Cds-Cdd-Sd)CtCtSs
                             L8: Cs-(Cds-Cdd-Cd)CtCtSs
-                    L6: Cs-C=SCtCtSs
                 L5: Cs-CbCtCdsSs
                     L6: Cs-(Cds-Cd)CbCtSs
                         L7: Cs-(Cds-Cds)CbCtSs
                         L7: Cs-(Cds-Cdd)CbCtSs
                             L8: Cs-(Cds-Cdd-Sd)CbCtSs
                             L8: Cs-(Cds-Cdd-Cd)CbCtSs
-                    L6: Cs-C=SCbCtSs
                 L5: Cs-CbCbCdsSs
                     L6: Cs-(Cds-Cd)CbCbSs
                         L7: Cs-(Cds-Cds)CbCbSs
                         L7: Cs-(Cds-Cdd)CbCbSs
                             L8: Cs-(Cds-Cdd-Sd)CbCbSs
                             L8: Cs-(Cds-Cdd-Cd)CbCbSs
-                    L6: Cs-C=SCbCbSs
                 L5: Cs-CtCtCtSs
                 L5: Cs-CbCtCtSs
                 L5: Cs-CbCbCtSs
                 L5: Cs-CbCbCbSs
+                L5: Cs-C=SCbCsSs
+                L5: Cs-C=SCsCsSs
+                L5: Cs-C=S(Cds-Cd)(Cds-Cd)Ss
+                    L6: Cs-C=S(Cds-Cdd)(Cds-Cdd)Ss
+                        L7: Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ss
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)Ss
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)Ss
+                    L6: Cs-C=S(Cds-Cdd)(Cds-Cds)Ss
+                        L7: Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)Ss
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cds)Ss
+                    L6: Cs-C=S(Cds-Cds)(Cds-Cds)Ss
+                L5: Cs-C=S(Cds-Cd)CtSs
+                    L6: Cs-C=S(Cds-Cds)CtSs
+                    L6: Cs-C=S(Cds-Cdd)CtSs
+                        L7: Cs-C=S(Cds-Cdd-Sd)CtSs
+                        L7: Cs-C=S(Cds-Cdd-Cd)CtSs
+                L5: Cs-C=SCtCsSs
+                L5: Cs-C=SC=SC=SSs
+                L5: Cs-C=SC=S(Cds-Cd)Ss
+                    L6: Cs-C=SC=S(Cds-Cds)Ss
+                    L6: Cs-C=SC=S(Cds-Cdd)Ss
+                        L7: Cs-C=SC=S(Cds-Cdd-Sd)Ss
+                        L7: Cs-C=SC=S(Cds-Cdd-Cd)Ss
+                L5: Cs-C=SCbCbSs
+                L5: Cs-C=SC=SCbSs
+                L5: Cs-C=SC=SCsSs
+                L5: Cs-C=SCtCtSs
+                L5: Cs-C=S(Cds-Cd)CbSs
+                    L6: Cs-C=S(Cds-Cdd)CbSs
+                        L7: Cs-C=S(Cds-Cdd-Cd)CbSs
+                        L7: Cs-C=S(Cds-Cdd-Sd)CbSs
+                    L6: Cs-C=S(Cds-Cds)CbSs
+                L5: Cs-C=SCbCtSs
+                L5: Cs-C=SC=SCtSs
+                L5: Cs-C=S(Cds-Cd)CsSs
+                    L6: Cs-C=S(Cds-Cds)CsSs
+                    L6: Cs-C=S(Cds-Cdd)CsSs
+                        L7: Cs-C=S(Cds-Cdd-Sd)CsSs
+                        L7: Cs-C=S(Cds-Cdd-Cd)CsSs
             L4: Cs-CCSsSs
                 L5: Cs-CsCsSsSs
                 L5: Cs-CdsCsSsSs
@@ -45056,7 +45066,6 @@ L1: R
                         L7: Cs-(Cds-Cdd)CsSsSs
                             L8: Cs-(Cds-Cdd-Sd)CsSsSs
                             L8: Cs-(Cds-Cdd-Cd)CsSsSs
-                    L6: Cs-C=SCsSsSs
                 L5: Cs-CdsCdsSsSs
                     L6: Cs-(Cds-Cd)(Cds-Cd)SsSs
                         L7: Cs-(Cds-Cds)(Cds-Cds)SsSs
@@ -45067,12 +45076,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)SsSs
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)SsSs
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)SsSs
-                    L6: Cs-C=S(Cds-Cd)SsSs
-                        L7: Cs-C=S(Cds-Cds)SsSs
-                        L7: Cs-C=S(Cds-Cdd)SsSs
-                            L8: Cs-C=S(Cds-Cdd-Sd)SsSs
-                            L8: Cs-C=S(Cds-Cdd-Cd)SsSs
-                    L6: Cs-C=SC=SSsSs
                 L5: Cs-CtCsSsSs
                 L5: Cs-CtCdsSsSs
                     L6: Cs-(Cds-Cd)CtSsSs
@@ -45080,7 +45083,6 @@ L1: R
                         L7: Cs-(Cds-Cdd)CtSsSs
                             L8: Cs-(Cds-Cdd-Sd)CtSsSs
                             L8: Cs-(Cds-Cdd-Cd)CtSsSs
-                    L6: Cs-C=SCtSsSs
                 L5: Cs-CtCtSsSs
                 L5: Cs-CbCsSsSs
                 L5: Cs-CbCdsSsSs
@@ -45089,9 +45091,17 @@ L1: R
                         L7: Cs-(Cds-Cdd)CbSsSs
                             L8: Cs-(Cds-Cdd-Sd)CbSsSs
                             L8: Cs-(Cds-Cdd-Cd)CbSsSs
-                    L6: Cs-C=SCbSsSs
                 L5: Cs-CbCtSsSs
                 L5: Cs-CbCbSsSs
+                L5: Cs-C=SCsSsSs
+                L5: Cs-C=S(Cds-Cd)SsSs
+                    L6: Cs-C=S(Cds-Cdd)SsSs
+                        L7: Cs-C=S(Cds-Cdd-Cd)SsSs
+                        L7: Cs-C=S(Cds-Cdd-Sd)SsSs
+                    L6: Cs-C=S(Cds-Cds)SsSs
+                L5: Cs-C=SC=SSsSs
+                L5: Cs-C=SCbSsSs
+                L5: Cs-C=SCtSsSs
             L4: Cs-CSsSsSs
                 L5: Cs-CsSsSsSs
                 L5: Cs-CdsSsSsSs
@@ -45100,9 +45110,9 @@ L1: R
                         L7: Cs-(Cds-Cdd)SsSsSs
                             L8: Cs-(Cds-Cdd-Sd)SsSsSs
                             L8: Cs-(Cds-Cdd-Cd)SsSsSs
-                    L6: Cs-C=SSsSsSs
                 L5: Cs-CtSsSsSs
                 L5: Cs-CbSsSsSs
+                L5: Cs-C=SSsSsSs
             L4: Cs-SsSsSsSs
             L4: Cs-CSsSsH
                 L5: Cs-CsSsSsH
@@ -45112,9 +45122,9 @@ L1: R
                         L7: Cs-(Cds-Cdd)SsSsH
                             L8: Cs-(Cds-Cdd-Sd)SsSsH
                             L8: Cs-(Cds-Cdd-Cd)SsSsH
-                    L6: Cs-C=SSsSsH
                 L5: Cs-CtSsSsH
                 L5: Cs-CbSsSsH
+                L5: Cs-C=SSsSsH
             L4: Cs-CCSsH
                 L5: Cs-CsCsSsH
                 L5: Cs-CdsCsSsH
@@ -45123,7 +45133,6 @@ L1: R
                         L7: Cs-(Cds-Cdd)CsSsH
                             L8: Cs-(Cds-Cdd-Sd)CsSsH
                             L8: Cs-(Cds-Cdd-Cd)CsSsH
-                    L6: Cs-C=SCsSsH
                 L5: Cs-CdsCdsSsH
                     L6: Cs-(Cds-Cd)(Cds-Cd)SsH
                         L7: Cs-(Cds-Cds)(Cds-Cds)SsH
@@ -45134,12 +45143,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)SsH
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)SsH
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)SsH
-                    L6: Cs-C=S(Cds-Cd)SsH
-                        L7: Cs-C=S(Cds-Cds)SsH
-                        L7: Cs-C=S(Cds-Cdd)SsH
-                            L8: Cs-C=S(Cds-Cdd-Sd)SsH
-                            L8: Cs-C=S(Cds-Cdd-Cd)SsH
-                    L6: Cs-C=SC=SSsH
                 L5: Cs-CtCsSsH
                 L5: Cs-CtCdsSsH
                     L6: Cs-(Cds-Cd)CtSsH
@@ -45147,7 +45150,6 @@ L1: R
                         L7: Cs-(Cds-Cdd)CtSsH
                             L8: Cs-(Cds-Cdd-Sd)CtSsH
                             L8: Cs-(Cds-Cdd-Cd)CtSsH
-                    L6: Cs-C=SCtSsH
                 L5: Cs-CtCtSsH
                 L5: Cs-CbCsSsH
                 L5: Cs-CbCdsSsH
@@ -45156,9 +45158,17 @@ L1: R
                         L7: Cs-(Cds-Cdd)CbSsH
                             L8: Cs-(Cds-Cdd-Sd)CbSsH
                             L8: Cs-(Cds-Cdd-Cd)CbSsH
-                    L6: Cs-C=SCbSsH
                 L5: Cs-CbCtSsH
                 L5: Cs-CbCbSsH
+                L5: Cs-C=SCbSsH
+                L5: Cs-C=SC=SSsH
+                L5: Cs-C=SCsSsH
+                L5: Cs-C=SCtSsH
+                L5: Cs-C=S(Cds-Cd)SsH
+                    L6: Cs-C=S(Cds-Cdd)SsH
+                        L7: Cs-C=S(Cds-Cdd-Cd)SsH
+                        L7: Cs-C=S(Cds-Cdd-Sd)SsH
+                    L6: Cs-C=S(Cds-Cds)SsH
             L4: Cs-CSsHH
                 L5: Cs-CsSsHH
                 L5: Cs-CdsSsHH
@@ -45167,9 +45177,9 @@ L1: R
                         L7: Cs-(Cds-Cdd)SsHH
                             L8: Cs-(Cds-Cdd-Sd)SsHH
                             L8: Cs-(Cds-Cdd-Cd)SsHH
-                    L6: Cs-C=SSsHH
                 L5: Cs-CtSsHH
                 L5: Cs-CbSsHH
+                L5: Cs-C=SSsHH
     L2: O
         L3: Od
             L4: Od-Cd
@@ -45235,6 +45245,7 @@ L1: R
                 L5: Os-CsCs
                 L5: Os-CsCb
                 L5: Os-CbCb
+                L5: Os-Cs(Cds-Sd)
     L2: Si
     L2: S
         L3: Sd
@@ -45245,34 +45256,35 @@ L1: R
             L4: Ss-CH
                 L5: Ss-CsH
                 L5: Ss-CdH
-                    L6: Ss-C=SH
                 L5: Ss-CtH
                 L5: Ss-CbH
                 L5: Ss-COH
+                L5: Ss-C=SH
             L4: Ss-SsH
             L4: Ss-SsSs
             L4: Ss-SsC
                 L5: Ss-SsCs
                 L5: Ss-SsCd
-                    L6: Ss-C=SSs
                 L5: Ss-SsCt
                 L5: Ss-SsCb
+                L5: Ss-C=SSs
             L4: Ss-CC
                 L5: Ss-CsCs
                 L5: Ss-CsCd
-                    L6: Ss-C=SCs
+                L5: Ss-CsCO
                 L5: Ss-CsCt
                 L5: Ss-CsCb
                 L5: Ss-CdCd
-                    L6: Ss-C=SCd
-                        L7: Ss-C=SC=S
                 L5: Ss-CdCt
-                    L6: Ss-C=SCt
                 L5: Ss-CdCb
-                    L6: Ss-C=SCb
                 L5: Ss-CtCt
                 L5: Ss-CtCb
                 L5: Ss-CbCb
+                L5: Ss-C=SCs
+                L5: Ss-C=SCt
+                L5: Ss-C=SC=S
+                L5: Ss-C=SCd
+                L5: Ss-C=SCb
     L2: N
         L3: N1d
         L3: N3s

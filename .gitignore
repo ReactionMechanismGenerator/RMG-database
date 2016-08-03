@@ -11,3 +11,8 @@
 
 # C-Compiled scripts
 *.pyc
+
+*.ipynb_checkpoints
+
+# evaluate kinetics folder stuff
+testing/eval/*

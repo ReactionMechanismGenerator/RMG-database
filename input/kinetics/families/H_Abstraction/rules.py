@@ -386,9 +386,13 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    shortDesc = u"""Walker, R. W. Reactions of HO 2 radicals in combustion chemistry.""",
     longDesc = 
 u"""
+Walker, R. W. Symposium (International) on Combustion. Vol. 22. No. 1. Elsevier, 1989.
+Reactions of HO 2 radicals in combustion chemistry.
+
+Cited as source in:
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
@@ -2031,7 +2035,7 @@ entry(
         A = (2.57e+06, 'cm^3/(mol*s)'),
         n = 1.9,
         alpha = 0,
-        E0 = (1.45, 'kcal/mol'),
+        E0 = (-1.45, 'kcal/mol'),
         Tmin = (298, 'K'),
         Tmax = (1150, 'K'),
     ),
@@ -5586,6 +5590,51 @@ entry(
 )
 
 entry(
+    index = 565,
+    label = "C/H2/CSCs;S_pri_rad",
+    kinetics = ArrheniusEP(
+        A = (96.1, 'cm^3/(mol*s)'),
+        n = 3.34,
+        alpha = 0,
+        E0 = (-0.27, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CAC CBS-QB3 1dhr""",
+)
+
+entry(
+    index = 566,
+    label = "C/H2/CSCs;Cs_rad",
+    kinetics = ArrheniusEP(
+        A = (12.1, 'cm^3/(mol*s)'),
+        n = 3.35,
+        alpha = 0,
+        E0 = (3.49, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CAC CBS-QB3 1dhr""",
+)
+
+entry(
+    index = 567,
+    label = "C/H2/CdS;S_rad/NonDeC",
+    kinetics = ArrheniusEP(
+        A = (0.0188, 'cm^3/(mol*s)'),
+        n = 4.57,
+        alpha = 0,
+        E0 = (4.06, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""CAC CBS-QB3, HO approx""",
+)
+
+entry(
     index = 1001,
     label = "C/H3/O;H_rad",
     kinetics = ArrheniusEP(
@@ -5675,85 +5724,85 @@ entry(
     index = 1192,
     label = "S_pri;O_pri_rad",
     kinetics = ArrheniusEP(
-        A = (23300, 'cm^3/(mol*s)'),
-        n = 2.61,
+        A = (6.3e+07, 'cm^3/(mol*s)'),
+        n = 1.71,
         alpha = 0,
-        E0 = (11.35, 'kcal/mol'),
+        E0 = (-0.67, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""CAC calculation CBS-QB3 1dhr""",
+    rank = 2,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
 entry(
     index = 1193,
     label = "S/H/NonDeC;O_pri_rad",
     kinetics = ArrheniusEP(
-        A = (3490, 'cm^3/(mol*s)'),
-        n = 3.13,
+        A = (203000, 'cm^3/(mol*s)'),
+        n = 2.41,
         alpha = 0,
-        E0 = (-1.73, 'kcal/mol'),
+        E0 = (-4.19, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""CAC calculation CBS-QB3 1dhr""",
+    rank = 2,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
 entry(
     index = 1194,
     label = "S/H/NonDeC;O_rad/NonDeC",
     kinetics = ArrheniusEP(
-        A = (28400, 'cm^3/(mol*s)'),
-        n = 2.79,
+        A = (1.32e+06, 'cm^3/(mol*s)'),
+        n = 2.09,
         alpha = 0,
-        E0 = (2.64, 'kcal/mol'),
+        E0 = (-0.47, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""CAC calculation CBS-QB3 1dhr""",
+    rank = 2,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
 entry(
     index = 1195,
-    label = "S_pri;O_rad/OneDe",
+    label = "S_pri;O_rad/NonDeC",
     kinetics = ArrheniusEP(
-        A = (641, 'cm^3/(mol*s)'),
-        n = 2.6,
+        A = (20900, 'cm^3/(mol*s)'),
+        n = 2.44,
         alpha = 0,
-        E0 = (-8.23, 'kcal/mol'),
+        E0 = (1.19, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""CAC calculation CBS-QB3 *HO approx*""",
+    rank = 2,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
 entry(
     index = 1196,
-    label = "C/H2/CsS;CO_rad/NonDe",
+    label = "CO/H/NonDe;C_rad/H/CsS",
     kinetics = ArrheniusEP(
-        A = (14.1, 'cm^3/(mol*s)'),
-        n = 3.53,
+        A = (0.000194, 'cm^3/(mol*s)'),
+        n = 4.68,
         alpha = 0,
-        E0 = (13.23, 'kcal/mol'),
+        E0 = (6.31, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""CAC calculation CBS-QB3 1dhr""",
+    rank = 2,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
 entry(
     index = 1197,
     label = "C/H/CsOS;Cs_rad",
     kinetics = ArrheniusEP(
-        A = (0.00668, 'cm^3/(mol*s)'),
-        n = 4.12,
+        A = (0.512, 'cm^3/(mol*s)'),
+        n = 3.74,
         alpha = 0,
-        E0 = (2.94, 'kcal/mol'),
+        E0 = (3.72, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -5765,30 +5814,75 @@ entry(
     index = 1198,
     label = "S/H/CO;Cs_rad",
     kinetics = ArrheniusEP(
-        A = (58300, 'cm^3/(mol*s)'),
-        n = 1.97,
+        A = (1.34, 'cm^3/(mol*s)'),
+        n = 3.51,
         alpha = 0,
-        E0 = (-0.83, 'kcal/mol'),
+        E0 = (-0.85, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""CAC calculation CBS-QB3 1dhr""",
+    rank = 2,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
 entry(
     index = 1199,
     label = "C/H/CsOS;S_pri_rad",
     kinetics = ArrheniusEP(
-        A = (2890, 'cm^3/(mol*s)'),
-        n = 2.95,
+        A = (111000, 'cm^3/(mol*s)'),
+        n = 2.47,
         alpha = 0,
-        E0 = (0.04, 'kcal/mol'),
+        E0 = (0.74, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""CAC calculation CBS-QB3 1dhr (py)""",
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
+)
+
+entry(
+    index = 1200,
+    label = "CO/H/NonDe;S_pri_rad",
+    kinetics = ArrheniusEP(
+        A = (11900, 'cm^3/(mol*s)'),
+        n = 2.9,
+        alpha = 0,
+        E0 = (0.18, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
+)
+
+entry(
+    index = 1201,
+    label = "O/H/OneDe;S_pri_rad",
+    kinetics = ArrheniusEP(
+        A = (0.0204, 'cm^3/(mol*s)'),
+        n = 4.42,
+        alpha = 0,
+        E0 = (6.65, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
+)
+
+entry(
+    index = 1202,
+    label = "O/H/OneDe;S_rad/NonDeC",
+    kinetics = ArrheniusEP(
+        A = (2.95e-06, 'cm^3/(mol*s)'),
+        n = 5.63,
+        alpha = 0,
+        E0 = (11.75, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
 entry(
@@ -10273,7 +10367,7 @@ entry(
 
 entry(
     index = 3040,
-    label = "C_rad/H/NonDeC_5ring_fused6_1;C/H3/Cd",
+    label = "C/H3/Cd;C_rad/H/NonDeC_5ring_fused6_1",
     kinetics = ArrheniusEP(
         A = (0.000814, 'cm^3/(mol*s)'),
         n = 4.24,
@@ -10288,7 +10382,7 @@ entry(
 
 entry(
     index = 3041,
-    label = "C_rad/Cs3_5ring_adj5;C/H3/Cd",
+    label = "C/H3/Cd;C_rad/Cs3_5ring_adj5",
     kinetics = ArrheniusEP(
         A = (0.000441, 'cm^3/(mol*s)'),
         n = 4.24,
@@ -10303,7 +10397,7 @@ entry(
 
 entry(
     index = 3042,
-    label = "C_rad/H/NonDeC_5ring_alpha6ring;C/H3/Cd",
+    label = "C/H3/Cd;C_rad/H/NonDeC_5ring_alpha6ring",
     kinetics = ArrheniusEP(
         A = (0.000316, 'cm^3/(mol*s)'),
         n = 4.24,
@@ -10318,7 +10412,7 @@ entry(
 
 entry(
     index = 3043,
-    label = "C_rad/H/NonDeC_5ring_beta6ring;C/H3/Cd",
+    label = "C/H3/Cd;C_rad/H/NonDeC_5ring_beta6ring",
     kinetics = ArrheniusEP(
         A = (9.67e-05, 'cm^3/(mol*s)'),
         n = 4.24,
@@ -10333,7 +10427,7 @@ entry(
 
 entry(
     index = 3044,
-    label = "C_rad/H/NonDeC_5ring_fused6_2;C/H3/Cd",
+    label = "C/H3/Cd;C_rad/H/NonDeC_5ring_fused6_2",
     kinetics = ArrheniusEP(
         A = (0.000441, 'cm^3/(mol*s)'),
         n = 4.24,
@@ -10348,7 +10442,7 @@ entry(
 
 entry(
     index = 3045,
-    label = "C_rad/Cs3_5ring_fused6;C/H3/Cd",
+    label = "C/H3/Cd;C_rad/Cs3_5ring_fused6",
     kinetics = ArrheniusEP(
         A = (0.000441, 'cm^3/(mol*s)'),
         n = 4.24,
@@ -10363,7 +10457,7 @@ entry(
 
 entry(
     index = 3046,
-    label = "C_rad/H/NonDeC_5ring_fused6_1;C/H2/CdCd",
+    label = "C/H2/CdCd;C_rad/H/NonDeC_5ring_fused6_1",
     kinetics = ArrheniusEP(
         A = (0.000814, 'cm^3/(mol*s)'),
         n = 4.24,
@@ -10378,7 +10472,7 @@ entry(
 
 entry(
     index = 3047,
-    label = "C_rad/Cs3_5ring_adj5;C/H2/CdCd",
+    label = "C/H2/CdCd;C_rad/Cs3_5ring_adj5",
     kinetics = ArrheniusEP(
         A = (0.000441, 'cm^3/(mol*s)'),
         n = 4.24,
@@ -10393,7 +10487,7 @@ entry(
 
 entry(
     index = 3048,
-    label = "C_rad/H/NonDeC_5ring_alpha6ring;C/H2/CdCd",
+    label = "C/H2/CdCd;C_rad/H/NonDeC_5ring_alpha6ring",
     kinetics = ArrheniusEP(
         A = (0.000316, 'cm^3/(mol*s)'),
         n = 4.24,
@@ -10408,7 +10502,7 @@ entry(
 
 entry(
     index = 3049,
-    label = "C_rad/H/NonDeC_5ring_beta6ring;C/H2/CdCd",
+    label = "C/H2/CdCd;C_rad/H/NonDeC_5ring_beta6ring",
     kinetics = ArrheniusEP(
         A = (9.67e-05, 'cm^3/(mol*s)'),
         n = 4.24,
@@ -10423,7 +10517,7 @@ entry(
 
 entry(
     index = 3050,
-    label = "C_rad/Cs3_5ring_fused6;C/H2/CdCd",
+    label = "C/H2/CdCd;C_rad/Cs3_5ring_fused6",
     kinetics = ArrheniusEP(
         A = (0.000441, 'cm^3/(mol*s)'),
         n = 4.24,
@@ -10438,7 +10532,7 @@ entry(
 
 entry(
     index = 3050,
-    label = "C_rad/H/NonDeC_5ring_fused6_2;C/H2/CdCd",
+    label = "C/H2/CdCd;C_rad/H/NonDeC_5ring_fused6_2",
     kinetics = ArrheniusEP(
         A = (0.000441, 'cm^3/(mol*s)'),
         n = 4.24,
@@ -11015,7 +11109,7 @@ entry(
 
 entry(
     index = 3115,
-    label = "C_rad/H2/Cs;H2O2",
+    label = "H2O2;C_rad/H2/Cs",
     kinetics = ArrheniusEP(
         A = (1.5, 'cm^3/(mol*s)'),
         n = 3.28,
@@ -11030,7 +11124,7 @@ entry(
 
 entry(
     index = 3117,
-    label = "C_rad/H2/Cs;H2O2",
+    label = "H2O2;C_rad/H2/Cs",
     kinetics = ArrheniusEP(
         A = (1.5, 'cm^3/(mol*s)'),
         n = 3.28,
@@ -11045,7 +11139,7 @@ entry(
 
 entry(
     index = 3119,
-    label = "C_rad/Cs2/Cs\O;H2O2",
+    label = "H2O2;C_rad/Cs2/Cs\O",
     kinetics = ArrheniusEP(
         A = (1.455, 'cm^3/(mol*s)'),
         n = 3.31,
@@ -11060,7 +11154,7 @@ entry(
 
 entry(
     index = 3121,
-    label = "C_rad/H/CsO;H2O2",
+    label = "H2O2;C_rad/H/CsO",
     kinetics = ArrheniusEP(
         A = (28.5, 'cm^3/(mol*s)'),
         n = 3.04,
@@ -46362,7 +46456,7 @@ entry(
 
 entry(
     index = 7037,
-    label = "O_rad/Cd\H_Cd\H2;Cd_Cdd/H2",
+    label = "Cd_Cdd/H2;O_rad/Cd\H_Cd\H2",
     kinetics = ArrheniusEP(
         A = (0.0021, 'cm^3/(mol*s)'),
         n = 4.36,
@@ -46396,7 +46490,7 @@ Most estimates seem to be  ~ 3E+12 for 200-350 K range""",
 
 entry(
     index = 7039,
-    label = "CO_rad/Cs;H2O2",
+    label = "H2O2;CO_rad/Cs",
     kinetics = ArrheniusEP(
         A = (4.33e-06, 'cm^3/(mol*s)'),
         n = 5.09,
@@ -46416,7 +46510,7 @@ Refitted from four parameter fits to three parameters fits,
 
 entry(
     index = 7040,
-    label = "C_rad/H/CO/Cs;H2O2",
+    label = "H2O2;C_rad/H/CO/Cs",
     kinetics = ArrheniusEP(
         A = (1.62e-11, 'cm^3/(mol*s)'),
         n = 6.525,
@@ -46436,7 +46530,7 @@ Refitted from four parameter fits to three parameters fits,
 
 entry(
     index = 7041,
-    label = "C_rad/H/Cs\H2\CO/Cs;H2O2",
+    label = "H2O2;C_rad/H/Cs\H2\CO/Cs",
     kinetics = ArrheniusEP(
         A = (8.3e-08, 'cm^3/(mol*s)'),
         n = 5.407,
@@ -46456,7 +46550,7 @@ Refitted from four parameter fits to three parameters fits,
 
 entry(
     index = 7042,
-    label = "C_rad/H/NonDeC;H2O2",
+    label = "H2O2;C_rad/H/NonDeC",
     kinetics = ArrheniusEP(
         A = (8.3e-08, 'cm^3/(mol*s)'),
         n = 5.407,
