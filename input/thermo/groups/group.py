@@ -41276,7 +41276,7 @@ entry(
 """
 1 * Si u0 
 """,
-    thermo = u'Sis-Sis4',
+    thermo = u'Sis',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -41291,7 +41291,7 @@ entry(
 """
 1 * Sis u0 p0 
 """,
-    thermo = u'Sis-Sis4',
+    thermo = u'Sis-Si',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -41301,13 +41301,13 @@ u"""
 
 entry(
     index = 1602,
-    label = "Sis-Sis",
+    label = "Sis-Si",
     group = 
 """
 1 * Sis u0 p0 c0 {2,S}
-2   Sis u0 p0 c0 {1,S}
+2   Si  u0 px c0 {1,S}
 """,
-    thermo = None,
+    thermo = u'Sis-H3Si',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -41317,44 +41317,44 @@ u"""
 
 entry(
     index = 1603,
-    label = "Sis-H3Sis",
+    label = "Sis-H3Si",
     group = 
 """
 1 * Sis u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2   H u0 p0 c0 {1,S}
 3   H u0 p0 c0 {1,S}
 4   H u0 p0 c0 {1,S}
-5   Sis u0 p0 c0 {1,S}
+5   Si u0 px c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.68, 11.57, 13.10, 14.38, 16.36, 17.76, 19.68],'cal/(mol*K)'),
-        H298 = (10.14,'kcal/mol'),
-        S298 = (33.65,'cal/(mol*K)'),
+        Cpdata = ([9.53,11.45,12.97,14.24,16.24,17.68,19.68],'cal/(mol*K)'),
+        H298 = (10.75,'kcal/mol'),
+        S298 = (35.04,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
 u"""
-Silicon hydride group additivity data from Swihart and Girshick, J. Phys. Chem. B, 103(1), 1999.
+Silicon hydride group additivity data from Wong et al., J. Phys. Chem. A, 108(5), 2004.
 """,
 )
 
 entry(
     index = 1604,
-    label = "Sis-H2Sis2",
+    label = "Sis-H2Si2",
     group = 
 """
 1 * Sis u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2   H u0 p0 c0 {1,S}
 3   H u0 p0 c0 {1,S}
-4   Sis u0 p0 c0 {1,S}
-5   Sis u0 p0 c0 {1,S}
+4   Si u0 px c0 {1,S}
+5   Si u0 px c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.06, 10.66, 11.83, 12.75, 14.13, 15.08, 16.40],'cal/(mol*K)'),
-        H298 = (9.54,'kcal/mol'),
-        S298 = (15.74,'cal/(mol*K)'),
+        Cpdata = ([9.03,10.64,11.8,12.72,14.11,15.09,16.44],'cal/(mol*K)'),
+        H298 = (8.71,'kcal/mol'),
+        S298 = (14.86,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41364,20 +41364,20 @@ u"""
 
 entry(
     index = 1605,
-    label = "Sis-HSis3",
+    label = "Sis-HSi3",
     group = 
 """
 1 * Sis u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2   H u0 p0 c0 {1,S}
-3   Sis u0 p0 c0 {1,S}
-4   Sis u0 p0 c0 {1,S}
-5   Sis u0 p0 c0 {1,S}
+3   Si u0 px c0 {1,S}
+4   Si u0 px c0 {1,S}
+5   Si u0 px c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.42, 9.64, 10.43, 11.00, 11.80, 12.33, 13.07],'cal/(mol*K)'),
-        H298 = (7.45,'kcal/mol'),
-        S298 = (-2.43,'cal/(mol*K)'),
+        Cpdata = ([8.64,9.82,10.6,11.17,11.98,12.51,13.23],'cal/(mol*K)'),
+        H298 = (4.15,'kcal/mol'),
+        S298 = (-5.09,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41387,20 +41387,20 @@ u"""
 
 entry(
     index = 1606,
-    label = "Sis-Sis4",
+    label = "Sis-Si4",
     group = 
 """
 1 * Sis u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Sis u0 p0 c0 {1,S}
-3   Sis u0 p0 c0 {1,S}
-4   Sis u0 p0 c0 {1,S}
-5   Sis u0 p0 c0 {1,S}
+2   Sis ux p0 c0 {1,S}
+3   Sis ux p0 c0 {1,S}
+4   Sis ux p0 c0 {1,S}
+5   Sis ux p0 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.94, 8.67, 9.05, 9.25, 9.47, 9.59, 9.75],'cal/(mol*K)'),
-        H298 = (4.40,'kcal/mol'),
-        S298 = (-22.47,'cal/(mol*K)'),
+        Cpdata = ([8.33,8.96,9.3,9.5,9.71,9.81,9.92],'cal/(mol*K)'),
+        H298 = (-1.46,'kcal/mol'),
+        S298 = (-24.33,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41410,13 +41410,19 @@ u"""
 
 entry(
     index = 1607,
-    label = "Sis-Sid",
+    label = "si-Sis-H",
     group = 
 """
-1 * Sis u0 p0 c0 {2,S}
-2   Sid u0 p0 c0 {1,S}
+1 * Si u0 p[1,2] c0 {2,S} {3,S}
+2   Sis u0 {1,S}
+3   H u0 p0 c0 {1,S}
 """,
-    thermo = None,
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.86,7.33,7.69,8.01,8.53,8.9,9.42],'cal/(mol*K)'),
+        H298 = (63.95,'kcal/mol'),
+        S298 = (33.84,'cal/(mol*K)'),
+    ),
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -41425,20 +41431,18 @@ u"""
 
 entry(
     index = 1608,
-    label = "Sis-H3Sid",
+    label = "si-Sis2",
     group = 
 """
-1 * Sis u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Sid u0 p0 c0 {1,S}
-3   H u0 p0 c0 {1,S}
-4   H u0 p0 c0 {1,S}
-5   H u0 p0 c0 {1,S}
+1 * Si u0 p[1,2] c0 {2,S} {3,S}
+2   Sis u0 p0 {1,S}
+3   Sis u0 p0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.80, 11.67, 13.15, 14.39, 16.34, 17.72, 19.65],'cal/(mol*K)'),
-        H298 = (10.03,'kcal/mol'),
-        S298 = (34.06,'cal/(mol*K)'),
+        Cpdata = ([5.95,6.07,6.1,6.11,6.11,6.07,6.05],'cal/(mol*K)'),
+        H298 = (59.5,'kcal/mol'),
+        S298 = (13.41,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41448,20 +41452,18 @@ u"""
 
 entry(
     index = 1609,
-    label = "Sis-H2SidSis",
+    label = "si-Sis-Sid",
     group = 
 """
-1 * Sis u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Sid u0 p0 c0 {1,S}
-3   H u0 p0 c0 {1,S}
-4   H u0 p0 c0 {1,S}
-5   Sis u0 p0 c0 {1,S}
+1 * Si u0 p[1,2] c0 {2,S} {3,S}
+2   Sis u0 p0 {1,S}
+3   Sid u0 {1,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([9.21, 10.78, 11.91, 12.80, 14.14, 15.08, 16.39],'cal/(mol*K)'),
-        H298 = (10.15,'kcal/mol'),
-        S298 = (15.91,'cal/(mol*K)'),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.55,5.78,5.89,5.95,6.01,6.02,6.04],'cal/(mol*K)'),
+        H298 = (51.04,'kcal/mol'),
+        S298 = (12.96,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41471,20 +41473,18 @@ u"""
 
 entry(
     index = 1610,
-    label = "Sis-HSidSis2",
+    label = "si-Sid-H",
     group = 
 """
-1 * Sis u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Sid u0 p0 c0 {1,S}
-3   H u0 p0 c0 {1,S}
-4   Sis u0 p0 c0 {1,S}
-5   Sis u0 p0 c0 {1,S}
+1 * Si u0 p[1,2] c0 {2,S} {3,S}
+2   H u0 p0 c0 {1,S}
+3   Sid u0 {1,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([8.75, 9.89, 10.62, 11.14, 11.89, 12.40, 13.10],'cal/(mol*K)'),
-        H298 = (8.99,'kcal/mol'),
-        S298 = (-2.23,'cal/(mol*K)'),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.43,7.04,7.48,7.84,8.41,8.81,9.35],'cal/(mol*K)'),
+        H298 = (55.15,'kcal/mol'),
+        S298 = (31.22,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41494,20 +41494,18 @@ u"""
 
 entry(
     index = 1611,
-    label = "Sis-SidSis3",
+    label = "si-Sis-si",
     group = 
 """
-1 * Sis u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Sid u0 p0 c0 {1,S}
-3   Sis u0 p0 c0 {1,S}
-4   Sis u0 p0 c0 {1,S}
-5   Sis u0 p0 c0 {1,S}
+1 * Si u0 p[1,2] c0 {2,S} {3,S}
+2   Sis u0 p0 {1,S}
+3   Sis u0 p[1,2] {1,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([8.37, 8.99, 9.29, 9.45, 9.62, 9.70, 9.81],'cal/(mol*K)'),
-        H298 = (7.90,'kcal/mol'),
-        S298 = (-21.58,'cal/(mol*K)'),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.25,5.53,5.68,5.76,5.85,5.88,5.94],'cal/(mol*K)'),
+        H298 = (47.29,'kcal/mol'),
+        S298 = (14.28,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41517,13 +41515,19 @@ u"""
 
 entry(
     index = 1612,
-    label = "Sis-si",
+    label = "si-Sid2",
     group = 
 """
-1 * Sis u0 p0 c0 {2,S}
-2   Si u0 p[1,2] c0 {1,S}
+1 * Si u0 p[1,2] c0 {2,S} {3,S}
+2   Sid u0 p0 {1,S}
+3   Sid u0 p0 {1,S}
 """,
-    thermo = u'Sis-H3si', 
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.23,5.53,5.69,5.78,5.87,5.92,5.96],'cal/(mol*K)'),
+        H298 = (43.71,'kcal/mol'),
+        S298 = (14.18,'cal/(mol*K)'),
+    ),
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -41532,20 +41536,18 @@ u"""
 
 entry(
     index = 1613,
-    label = "Sis-H3si",
+    label = "si-Sid-si",
     group = 
 """
-1 * Sis u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Si u0 p1 c0 {1,S}
-3   H u0 p0 c0 {1,S}
-4   H u0 p0 c0 {1,S}
-5   H u0 p0 c0 {1,S}
+1 * Si u0 p[1,2] c0 {2,S} {3,S}
+2   Sid u0 p0 {1,S}
+3   Sis u0 p[1,2] {1,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([8.48, 10.07, 11.30, 12.28, 13.77, 14.81, 16.24],'cal/(mol*K)'),
-        H298 = (10.09,'kcal/mol'),
-        S298 = (16.33,'cal/(mol*K)'),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.17,5.52,5.71,5.82,5.94,5.98,6.0],'cal/(mol*K)'),
+        H298 = (39.81,'kcal/mol'),
+        S298 = (11.49,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41555,20 +41557,18 @@ u"""
 
 entry(
     index = 1614,
-    label = "Sis-H2siSis",
+    label = "si-si2",
     group = 
 """
-1 * Sis u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Si u0 p1 c0 {1,S}
-3   Sis u0 p0 c0 {1,S}
-4   H u0 p0 c0 {1,S}
-5   H u0 p0 c0 {1,S}
+1 * Si u0 p[1,2] c0 {2,S} {3,S}
+2   Sis u0 p[1,2] {1,S}
+3   Sis u0 p[1,2] {1,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([7.88, 9.16, 10.00, 10.62, 11.49, 12.08, 12.92],'cal/(mol*K)'),
-        H298 = (10.09,'kcal/mol'),
-        S298 = (-2.52,'cal/(mol*K)'),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.1,5.5,5.73,5.87,6.0,6.04,6.04],'cal/(mol*K)'),
+        H298 = (35.9,'kcal/mol'),
+        S298 = (8.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41578,21 +41578,12 @@ u"""
 
 entry(
     index = 1615,
-    label = "Sis-HsiSis2",
+    label = "Sid",
     group = 
 """
-1 * Sis u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Si u0 p1 c0 {1,S}
-3   Sis u0 p0 c0 {1,S}
-4   Sis u0 p0 c0 {1,S}
-5   H u0 p0 c0 {1,S}
+1 * Sid u0 p0 c0
 """,
-    thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([7.02, 7.97, 8.47, 8.75, 9.06, 9.25, 9.55],'cal/(mol*K)'),
-        H298 = (5.27,'kcal/mol'),
-        S298 = (-21.03,'cal/(mol*K)'),
-    ),
+    thermo = u'Sid-Sid-H2', 
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -41601,20 +41592,19 @@ u"""
 
 entry(
     index = 1616,
-    label = "Sis-siSi3",
+    label = "Sid-Sid-H2",
     group = 
 """
-1 * Sis u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2   Si u0 p1 c0 {1,S}
-3   Sis u0 p0 c0 {1,S}
-4   Sis u0 p0 c0 {1,S}
-5   Sis u0 p0 c0 {1,S}
+1 * Sid u0 p0 c0 {2,S} {3,S} {4,D}
+2   H u0 p0 c0 {1,S}
+3   H u0 p0 c0 {1,S}
+4   Si u0 px {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([6.32, 6.81, 6.91, 6.84, 6.59, 6.39, 6.15],'cal/(mol*K)'),
-        H298 = (1.22,'kcal/mol'),
-        S298 = (-39.03,'cal/(mol*K)'),
+        Cpdata = ([8.44,9.62,10.51,11.24,12.41,13.29,14.53],'cal/(mol*K)'),
+        H298 = (33.54,'kcal/mol'),
+        S298 = (32.69,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41624,12 +41614,20 @@ u"""
 
 entry(
     index = 1617,
-    label = "Sid",
+    label = "Sid-Sid-H-Si",
     group = 
 """
-1 * Sid u0 p0 c0
+1 * Sid u0 p0 c0 {2,S} {3,S} {4,D}
+2   H u0 p0 c0 {1,S}
+3   Si u0 p0 c0 {1,S}
+5   Si u0 px {1,D}
 """,
-    thermo = None, 
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([7.52,8.41,9.0,9.44,10.1,10.57,11.22],'cal/(mol*K)'),
+        H298 = (28.32,'kcal/mol'),
+        S298 = (13.45,'cal/(mol*K)'),
+    ),
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -41638,18 +41636,19 @@ u"""
 
 entry(
     index = 1618,
-    label = "Sid-H2",
+    label = "Sid-sid-H-Si",
     group = 
 """
-1 * Sid u0 p0 c0 {2,S} {3,S}
+1 * Sid u0 p0 c0 {2,S} {3,S} {4,D}
 2   H u0 p0 c0 {1,S}
-3   H u0 p0 c0 {1,S}
+3   Si u0 p0 c0 {1,S}
+5   Si u0 p1 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([8.36, 9.59, 10.50, 11.25, 12.43, 13.29, 14.50],'cal/(mol*K)'),
-        H298 = (33.48,'kcal/mol'),
-        S298 = (31.87,'cal/(mol*K)'),
+        Cpdata = ([11.64,12.52,13.09,13.52,14.17,14.62,15.25],'cal/(mol*K)'),
+        H298 = (99.55,'kcal/mol'),
+        S298 = (43.93,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41659,18 +41658,19 @@ u"""
 
 entry(
     index = 1619,
-    label = "Sid-HSis",
+    label = "Sid-Sid-Si2",
     group = 
 """
-1 * Sid u0 p0 c0 {2,S} {3,S}
-2   H u0 p0 c0 {1,S}
-3   Sis u0 p0 c0 {1,S}
+1 * Sid u0 p0 c0 {2,S} {3,S} {4,D}
+2   Si u0 p0 c0 {1,S}
+3   Si u0 p0 c0 {1,S}
+4   Si u0 px (1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([7.30, 8.25, 8.89, 9.37, 10.07, 10.55, 11.20],'cal/(mol*K)'),
-        H298 = (31.08,'kcal/mol'),
-        S298 = (13.81,'cal/(mol*K)'),
+        Cpdata = ([6.73,7.2,7.45,7.6,7.76,7.82,7.91],'cal/(mol*K)'),
+        H298 = (21.7,'kcal/mol'),
+        S298 = (-5.39,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41680,18 +41680,19 @@ u"""
 
 entry(
     index = 1620,
-    label = "Sid-Sis2",
+    label = "Sid-sid-Si2",
     group = 
 """
-1 * Sid u0 p0 c0 {2,S} {3,S}
-2   Sis u0 p0 c0 {1,S}
-3   Sis u0 p0 c0 {1,S}
+1 * Sid u0 p0 c0 {2,S} {3,S} {4,D}
+2   Si u0 p0 c0 {1,S}
+3   Si u0 p0 c0 {1,S}
+4   Si u0 p1 (1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([6.08, 6.71, 7.09, 7.33, 7.60, 7.73, 7.85],'cal/(mol*K)'),
-        H298 = (26.77,'kcal/mol'),
-        S298 = (-3.63,'cal/(mol*K)'),
+        Cpdata = ([10.57,11.12,11.42,11.59,11.77,11.85,11.94],'cal/(mol*K)'),
+        H298 = (21.7,'kcal/mol'),
+        S298 = (-5.39,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41706,12 +41707,7 @@ entry(
 """
 1 * Si u0 p[1,2] c0 
 """,
-    thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([8.07, 8.86, 9.53, 10.13, 11.14, 11.86, 12.84],'cal/(mol*K)'),
-        H298 = (66.08,'kcal/mol'),
-        S298 = (50.31,'cal/(mol*K)'),
-    ),
+    thermo = u'si-Sis-H', 
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -45878,30 +45874,29 @@ L1: R
                 L5: Os-CsCs
                 L5: Os-CsCb
                 L5: Os-CbCb
-    L2: Si
-	L3: Sis
-	    L4: SiH4
-	    L4: Sis-Sis
-		L5: Sis-H3Sis
-		L5: Sis-H2Sis2
-		L5: Sis-HSis3
-		L5: Sis-Sis4
-		L5: Sis-RsiSis
-		    L6: Sis-H2siSis
-		    L6: Sis-HsiSis2
-		    L6: Sis-siSi3
-		L5: Sis-H2SidSis
-		L5: Sis-HSidSis2
-		L5: Sis-SidSis3
-	    L4: Sis-si
-		L5: Sis-H3si
-	    L4: Sis-Sid
-		L5: Sis-H3Sid
-	L3: Sid
-	    L4: Sid-H2
-	    L4: Sid-HSis
-	    L4: Sid-Sis2
-	L3: si
+     L2: Si
+         L3: Sis
+             L4: SiH4
+             L4: Sis-Si
+                 L5: Sis-H3Si
+                 L5: Sis-H2Si2
+                 L5: Sis-HSi3
+                 L5: Sis-Si4
+         L3: Sid
+             L4: Sid-Sid-H2
+             L4: Sid-Sid-H-Si
+                 L5: Sid-sid-H-Si
+             L4: Sid-Sid-Si2
+                 L5: Sid-sid-Si2
+         L3: si
+             L4: si-Sis-H
+             L4: si-Sis2
+             L4: si-Sis-Sid
+             L4: si-Sid-H
+             L4: si-Sis-si
+             L4: si-Sid2
+             L4: si-Sid-si
+             L4: si-si2
     L2: S
         L3: Sd
             L4: Sd-Cd
