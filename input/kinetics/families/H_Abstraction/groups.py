@@ -6518,11 +6518,11 @@ entry(
     label = "Si_silane",
     group = 
 """
-1 *1 Si 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-5    H 0 {1,S}
+1 *1 Sis u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -6636,7 +6636,7 @@ entry(
     label = "Si_silyl",
     group = 
 """
-1 *3 Si u1 p0 c0 {2,S} {3,S} {4,S}
+1 *3 Sis u1 p0 c0 {2,S} {3,S} {4,S}
 2    H u0 p0 c0 {1,S}
 3    H u0 p0 c0 {1,S}
 4    H u0 p0 c0 {1,S}
@@ -7013,6 +7013,7 @@ L1: Y_rad_birad_trirad_quadrad
         L3: CH2_triplet
         L3: NH_triplet
 	L3: Si_triplet
+            L4: SiH2_triplet
             L4: Si_triplet_Si_H
     L2: Y_rad
         L3: H_rad
