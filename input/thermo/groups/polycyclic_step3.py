@@ -58,14 +58,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-22.0869,-24.4911,-25.6002,-25.9787,-24.2912,-21.2391,-15.3261],'J/(mol*K)'),
+        Cpdata = ([-22.0868,-24.4911,-25.6002,-25.9787,-24.2912,-21.2391,-15.3261],'J/(mol*K)'),
         H298 = (251.424,'kJ/mol'),
         S298 = (270.513,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_3_3_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_3_3_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -89,7 +89,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_3_3_ene from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_3_3_ene from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -134,7 +134,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_3_4_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_3_4_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -159,7 +159,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_3_4_ene from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_3_4_ene from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -206,7 +206,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_3_5_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_3_5_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -244,7 +244,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_3_5_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_3_5_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -270,7 +270,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_3_5_ene_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_3_5_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -308,7 +308,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_3_5_diene_1_3 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_3_5_diene_1_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -357,7 +357,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_3_6_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_3_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -396,7 +396,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_3_6_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_3_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -423,7 +423,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_3_6_ene_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_3_6_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -462,7 +462,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_3_6_diene_1_4 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_3_6_diene_1_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -489,7 +489,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_3_6_diene_1_3 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_3_6_diene_1_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -529,14 +529,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-34.4131,-34.9857,-33.9212,-31.7785,-25.403,-19.1222,-9.61308],'J/(mol*K)'),
+        Cpdata = ([-34.4141,-34.9857,-33.9212,-31.7785,-25.403,-19.1222,-9.61308],'J/(mol*K)'),
         H298 = (232.497,'kJ/mol'),
         S298 = (237.342,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_4_4_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_4_4_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -574,7 +574,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_4_4_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_4_4_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -612,7 +612,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_4_4_diene_1_5 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_4_4_diene_1_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -661,7 +661,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_4_5_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_4_5_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -700,7 +700,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_4_5_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_4_5_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -727,7 +727,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_4_5_ene_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_4_5_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -754,7 +754,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_4_5_ene_6 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_4_5_ene_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -786,14 +786,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-32.4653,-34.6175,-34.0012,-32.0846,-26.0869,-19.9662,-11.0011],'J/(mol*K)'),
+        Cpdata = ([-32.4653,-34.6175,-34.0002,-32.0846,-26.0869,-19.9662,-11.0011],'J/(mol*K)'),
         H298 = (159.233,'kJ/mol'),
         S298 = (245.609,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_4_5_diene_1_3 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_4_5_diene_1_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -820,7 +820,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_4_5_diene_1_6 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_4_5_diene_1_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -847,7 +847,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_4_5_diene_2_6 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_4_5_diene_2_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -898,7 +898,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_4_6_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_4_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -938,7 +938,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_4_6_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_4_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -966,7 +966,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_4_6_ene_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_4_6_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -994,7 +994,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_4_6_ene_7 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_4_6_ene_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1027,14 +1027,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-34.3954,-38.5478,-38.7261,-35.7498,-27.2334,-19.7066,-9.56136],'J/(mol*K)'),
+        Cpdata = ([-34.3964,-38.5478,-38.7261,-35.7498,-27.2334,-19.7056,-9.56136],'J/(mol*K)'),
         H298 = (144.043,'kJ/mol'),
         S298 = (223.141,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_4_6_diene_1_3 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_4_6_diene_1_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1055,14 +1055,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-29.6317,-31.557,-31.0009,-28.4484,-21.7675,-15.7389,-6.57024],'J/(mol*K)'),
+        Cpdata = ([-29.6317,-31.556,-31.0009,-28.4484,-21.7675,-15.7389,-6.57024],'J/(mol*K)'),
         H298 = (125.442,'kJ/mol'),
         S298 = (213.238,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_4_6_diene_1_4 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_4_6_diene_1_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1083,14 +1083,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-30.0071,-31.6425,-31.139,-28.718,-22.1294,-15.8216,-6.75412],'J/(mol*K)'),
+        Cpdata = ([-30.0071,-31.6435,-31.139,-28.718,-22.1294,-15.8216,-6.75412],'J/(mol*K)'),
         H298 = (152.104,'kJ/mol'),
         S298 = (209.901,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_4_6_diene_1_7 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_4_6_diene_1_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1111,14 +1111,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-28.6922,-31.497,-31.5769,-29.3817,-22.756,-16.3784,-7.21136],'J/(mol*K)'),
+        Cpdata = ([-28.6922,-31.496,-31.5769,-29.3817,-22.756,-16.3784,-7.21036],'J/(mol*K)'),
         H298 = (150.509,'kJ/mol'),
         S298 = (206.455,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_4_6_diene_2_7 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_4_6_diene_2_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1169,7 +1169,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_5_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_5_5_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1209,7 +1209,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_5_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_5_5_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1237,7 +1237,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_5_ene_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_5_5_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1277,7 +1277,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_5_diene_1_3 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_5_5_diene_1_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1305,7 +1305,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_5_diene_1_6 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_5_5_diene_1_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1326,14 +1326,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-30.8102,-32.131,-31.3959,-29.4797,-23.177,-16.6584,-6.86736],'J/(mol*K)'),
+        Cpdata = ([-30.8112,-32.131,-31.3959,-29.4797,-23.177,-16.6584,-6.86736],'J/(mol*K)'),
         H298 = (76.7183,'kJ/mol'),
         S298 = (207.406,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_5_diene_1_7 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_5_5_diene_1_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1354,14 +1354,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-18.2652,-21.792,-24.7369,-25.4717,-23.139,-19.1903,-12.9414],'J/(mol*K)'),
+        Cpdata = ([-18.2662,-21.791,-24.7349,-25.4707,-23.14,-19.1903,-12.9414],'J/(mol*K)'),
         H298 = (797.365,'kJ/mol'),
         S298 = (219.58,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_5_diene_2_7 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_5_5_diene_2_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1414,7 +1414,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_6_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_5_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1448,14 +1448,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-42.0821,-41.9684,-39.8751,-35.7244,-25.4772,-16.6259,-3.82272],'J/(mol*K)'),
+        Cpdata = ([-42.0821,-41.9694,-39.8751,-35.7244,-25.4762,-16.6259,-3.82272],'J/(mol*K)'),
         H298 = (62.2061,'kJ/mol'),
         S298 = (190.267,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_6_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_5_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1477,14 +1477,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-42.4501,-42.3864,-40.2891,-36.1214,-25.8242,-16.6629,-3.97572],'J/(mol*K)'),
+        Cpdata = ([-42.4521,-42.3884,-40.2891,-36.1204,-25.8232,-16.6619,-3.97672],'J/(mol*K)'),
         H298 = (63.2789,'kJ/mol'),
         S298 = (181.962,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_6_ene_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_5_6_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1513,7 +1513,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_6_ene_7 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_5_6_ene_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1542,7 +1542,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_6_ene_8 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_5_6_ene_8 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1576,14 +1576,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-39.7954,-42.8746,-42.2591,-38.4302,-28.2193,-19.3441,-7.24736],'J/(mol*K)'),
+        Cpdata = ([-39.7954,-42.8746,-42.2591,-38.4302,-28.2183,-19.3441,-7.24736],'J/(mol*K)'),
         H298 = (72.801,'kJ/mol'),
         S298 = (204.461,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_6_diene_1_3 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_5_6_diene_1_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1605,14 +1605,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-35.6657,-36.4898,-35.0189,-31.5118,-22.9934,-15.5385,-4.36224],'J/(mol*K)'),
+        Cpdata = ([-35.6667,-36.4898,-35.0189,-31.5118,-22.9934,-15.5375,-4.36224],'J/(mol*K)'),
         H298 = (59.3275,'kJ/mol'),
         S298 = (200.02,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_6_diene_1_4 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_5_6_diene_1_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1634,14 +1634,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-35.9881,-36.4223,-34.915,-31.4934,-23.0673,-15.4092,-4.57912],'J/(mol*K)'),
+        Cpdata = ([-35.9891,-36.4223,-34.915,-31.4934,-23.0673,-15.4092,-4.57912],'J/(mol*K)'),
         H298 = (58.6857,'kJ/mol'),
         S298 = (188.477,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_6_diene_1_7 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_5_6_diene_1_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1663,14 +1663,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-34.6342,-36.1588,-35.1599,-31.9161,-23.4179,-15.7109,-4.90436],'J/(mol*K)'),
+        Cpdata = ([-34.6352,-36.1588,-35.1599,-31.9161,-23.4179,-15.7099,-4.90436],'J/(mol*K)'),
         H298 = (57.6654,'kJ/mol'),
         S298 = (185.08,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_6_diene_1_8 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_5_6_diene_1_8 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1692,14 +1692,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-34.7112,-36.2698,-35.2949,-32.0641,-23.5659,-15.8379,-4.96036],'J/(mol*K)'),
+        Cpdata = ([-34.7112,-36.2688,-35.2949,-32.0641,-23.5669,-15.8379,-4.95936],'J/(mol*K)'),
         H298 = (53.8784,'kJ/mol'),
         S298 = (184.339,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_6_diene_2_7 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_5_6_diene_2_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1721,14 +1721,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-35.2712,-36.7778,-35.6669,-32.3211,-23.6669,-15.6059,-4.94136],'J/(mol*K)'),
+        Cpdata = ([-35.2712,-36.7788,-35.6669,-32.3201,-23.6669,-15.6059,-4.94136],'J/(mol*K)'),
         H298 = (60.7522,'kJ/mol'),
         S298 = (183.826,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_6_diene_2_8 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_5_6_diene_2_8 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1757,7 +1757,147 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_6_diene_7_9 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_5_6_diene_7_9 from Bicyclics_QM_190_isomorphic library.
+""",
+)
+
+entry(
+    index = 0,
+    label = "s1_5_6_triene",
+    group = "OR{s1_5_6_triene_1_3_7, s1_5_6_triene_1_3_8}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 44,
+    label = "s1_5_6_triene_1_3_7",
+    group = 
+"""
+1    C u0 {2,S} {3,S} {4,S} {5,S}
+2    C u0 {1,S} {8,S}
+3    C u0 {1,S} {7,D}
+4    C u0 {1,S} {6,D}
+5    C u0 {1,S} {9,S}
+6  * C u0 {4,D} {9,S}
+7    C u0 {3,D} {10,S}
+8    C u0 {2,S} {10,D}
+9    C u0 {5,S} {6,S}
+10   C u0 {7,S} {8,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.72,-6.82,-6.48,-5.99,-5.19,-4.29,-2.12],'cal/(mol*K)'),
+        H298 = (14.743,'kcal/mol'),
+        S298 = (57.75,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt17 from C10H11 library.
+""",
+)
+
+entry(
+    index = 44,
+    label = "s1_5_6_triene_1_3_8",
+    group = 
+"""
+1    C u0 {2,S} {3,S} {4,S} {5,S}
+2    C u0 {1,S} {8,S}
+3    C u0 {1,S} {9,S}
+4    C u0 {1,S} {7,S}
+5    C u0 {1,S} {6,D}
+6    C u0 {5,D} {10,S}
+7  * C u0 {4,S} {8,D}
+8    C u0 {2,S} {7,D}
+9    C u0 {3,S} {10,D}
+10   C u0 {6,S} {9,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.34,-6.73,-6.55,-6.13,-5.34,-4.43,-2.23],'cal/(mol*K)'),
+        H298 = (14.573,'kcal/mol'),
+        S298 = (57.37,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt17 from C10H11 library.
+""",
+)
+
+entry(
+    index = 0,
+    label = "s1_5_6_tetraene",
+    group = "OR{s1_5_6_tetraene_1_3_7_9, s1_5_6_tetraene_1_4_7_9}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 44,
+    label = "s1_5_6_tetraene_1_3_7_9",
+    group = 
+"""
+1    C u0 {2,S} {3,S} {4,S} {5,S}
+2    C u0 {1,S} {8,S}
+3    C u0 {1,S} {6,D}
+4    C u0 {1,S} {9,D}
+5    C u0 {1,S} {7,D}
+6    C u0 {3,D} {10,S}
+7  * C u0 {5,D} {9,S}
+8    C u0 {2,S} {10,D}
+9    C u0 {4,D} {7,S}
+10   C u0 {6,S} {8,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.54,-7.38,-7.43,-7.04,-6.22,-5.38,-3.12],'cal/(mol*K)'),
+        H298 = (3.583,'kcal/mol'),
+        S298 = (59.28,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species prod2 from naphthalene_H library.
+""",
+)
+
+entry(
+    index = 44,
+    label = "s1_5_6_tetraene_1_4_7_9",
+    group = 
+"""
+1    C u0 {2,S} {3,S} {4,S} {5,S}
+2    C u0 {1,S} {7,D}
+3    C u0 {1,S} {9,D}
+4    C u0 {1,S} {8,D}
+5    C u0 {1,S} {6,D}
+6  * C u0 {5,D} {8,S}
+7    C u0 {2,D} {10,S}
+8    C u0 {4,D} {6,S}
+9    C u0 {3,D} {10,S}
+10   C u0 {7,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.98,-5.93,-5.62,-5.32,-5,-4.36,-3.36],'cal/(mol*K)'),
+        H298 = (11.133,'kcal/mol'),
+        S298 = (57.08,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species prod2 from naphthalene_H library.
 """,
 )
 
@@ -1805,14 +1945,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-55.7171,-52.1059,-47.8292,-41.7251,-27.7865,-16.1164,0.04892],'J/(mol*K)'),
+        Cpdata = ([-55.7171,-52.1049,-47.8292,-41.7251,-27.7865,-16.1164,0.04892],'J/(mol*K)'),
         H298 = (46.8142,'kJ/mol'),
         S298 = (148.984,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_6_6_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_6_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1847,14 +1987,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-47.3531,-46.0382,-43.0651,-38.0298,-26.1211,-16.0345,-1.56372],'J/(mol*K)'),
+        Cpdata = ([-47.3541,-46.0382,-43.0651,-38.0298,-26.1211,-16.0345,-1.56372],'J/(mol*K)'),
         H298 = (43.6103,'kJ/mol'),
         S298 = (157.914,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_6_6_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_6_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1877,14 +2017,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-47.8381,-46.4782,-43.3751,-38.2268,-26.1521,-15.7124,-1.41572],'J/(mol*K)'),
+        Cpdata = ([-47.8371,-46.4772,-43.3751,-38.2268,-26.1521,-15.7134,-1.41472],'J/(mol*K)'),
         H298 = (44.1274,'kJ/mol'),
         S298 = (154.518,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_6_6_ene_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_6_6_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1926,7 +2066,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_6_6_diene_1_3 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_6_6_diene_1_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1949,14 +2089,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-40.5047,-40.1906,-37.9209,-33.5862,-23.4803,-14.826,-2.00624],'J/(mol*K)'),
+        Cpdata = ([-40.5047,-40.1916,-37.9209,-33.5862,-23.4803,-14.826,-2.00624],'J/(mol*K)'),
         H298 = (39.1356,'kJ/mol'),
         S298 = (169.445,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_6_6_diene_1_4 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_6_6_diene_1_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -1986,7 +2126,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_6_6_diene_1_7 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_6_6_diene_1_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -2009,14 +2149,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-38.8102,-39.3236,-37.7479,-33.8445,-23.9558,-15.1125,-2.58536],'J/(mol*K)'),
+        Cpdata = ([-38.8102,-39.3246,-37.7479,-33.8445,-23.9548,-15.1125,-2.58536],'J/(mol*K)'),
         H298 = (42.1676,'kJ/mol'),
         S298 = (164.025,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_6_6_diene_1_8 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_6_6_diene_1_8 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -2046,7 +2186,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_6_6_diene_2_8 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s1_6_6_diene_2_8 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -2087,7 +2227,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_3_3_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_3_3_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -2110,7 +2250,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_3_3_ene from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_3_3_ene from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -2146,14 +2286,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-20.9479,-23.2034,-23.5696,-22.9226,-20.8617,-17.9311,-14.9096],'J/(mol*K)'),
-        H298 = (549.123,'kJ/mol'),
-        S298 = (270.464,'J/(mol*K)'),
+        Cpdata = ([-26.6855,-27.0954,-25.6766,-23.9346,-21.4297,-18.3751,-15.4426],'J/(mol*K)'),
+        H298 = (235.153,'kJ/mol'),
+        S298 = (259.976,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_3_4_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_3_4_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -2189,7 +2329,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_3_4_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_3_4_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -2251,21 +2391,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-31.3917,-30.9812,-28.7286,-26.071,-21.6806,-17.2716,-12.7686],'J/(mol*K)'),
+        Cpdata = ([-31.3918,-30.9812,-28.7286,-26.071,-21.6806,-17.2716,-12.7686],'J/(mol*K)'),
         H298 = (155.862,'kJ/mol'),
         S298 = (249.315,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_3_5_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_3_5_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
     index = 0,
     label = "s2_3_5_ene",
-    group = "OR{s2_3_5_ene_1}",
+    group = "OR{s2_3_5_ene_1, s2_3_5_ene_side, s2_3_5_ene_1_side}",
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
@@ -2295,7 +2435,59 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_3_5_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_3_5_ene_1 from Bicyclics_QM_190_isomorphic library.
+""",
+)
+
+entry(
+    index = 65,
+    label = "s2_3_5_ene_side",
+    group = 
+"""
+1 * C u0 {2,S} {4,S} {6,S}
+2   C u0 {1,S} {4,S} {5,S}
+3   C u0 {5,S} {6,S} {7,D}
+4   C u0 {1,S} {2,S}
+5   C u0 {2,S} {3,S}
+6   C u0 {1,S} {3,S}
+7   R ux {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.97,-4.68,-4.47,-4.27,-4.21,-3.94,-3.36],'cal/(mol*K)'),
+        H298 = (32.543,'kcal/mol'),
+        S298 = (65.1674,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species product36 from vinylCPD_H library.
+""",
+)
+
+entry(
+    index = 65,
+    label = "s2_3_5_ene_1_side",
+    group = 
+"""
+1 * C u0 {2,S} {3,S} {4,S}
+2   C u0 {1,S} {3,S} {5,S}
+3   C u0 {1,S} {2,S} {7,D}
+4   C u0 {1,S} {6,S}
+5   C u0 {2,S} {6,D}
+6   C u0 {4,S} {5,D}
+7   R ux {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.48,-3.9,-3.81,-3.6,-3.7,-3.68,-3.44],'cal/(mol*K)'),
+        H298 = (47.323,'kcal/mol'),
+        S298 = (66.8874,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species product42 from vinylCPD_H library.
 """,
 )
 
@@ -2342,7 +2534,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_3_6_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_3_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -2380,7 +2572,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_3_6_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_3_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -2399,26 +2591,78 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-28.3318,-27.6573,-25.8654,-24.1171,-20.2121,-15.7602,-11.2882],'J/(mol*K)'),
-        H298 = (246.084,'kJ/mol'),
-        S298 = (222.479,'J/(mol*K)'),
+        Cpdata = ([-27.3578,-27.8213,-26.4574,-24.6241,-20.6081,-16.0552,-11.4352],'J/(mol*K)'),
+        H298 = (129.473,'kJ/mol'),
+        S298 = (228.854,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_3_6_ene_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_3_6_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
     index = 0,
     label = "s2_3_6_diene",
-    group = "OR{s2_3_6_diene_1_3}",
+    group = "OR{s2_3_6_diene_0_2, s2_3_6_diene_0_3, s2_3_6_diene_1_3}",
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 69,
+    label = "s2_3_6_diene_0_2",
+    group = 
+"""
+1   C u0 {2,S} {3,S} {4,D}
+2   C u0 {1,S} {3,S} {5,S}
+3   C u0 {1,S} {2,S}
+4   C u0 {1,D} {6,S}
+5   C u0 {2,S} {7,S}
+6 * C u0 {4,S} {7,D}
+7   C u0 {5,S} {6,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.31,-5.83,-5.92,-5.53,-5.17,-4.71,-3.89],'cal/(mol*K)'),
+        H298 = (48.433,'kcal/mol'),
+        S298 = (65.9,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species product46 from vinylCPD_H library.
+""",
+)
+
+entry(
+    index = 69,
+    label = "s2_3_6_diene_0_3",
+    group = 
+"""
+1   C u0 {2,S} {3,S} {5,D}
+2   C u0 {1,S} {3,S} {4,S}
+3   C u0 {1,S} {2,S}
+4   C u0 {2,S} {7,D}
+5   C u0 {1,D} {6,S}
+6 * C u0 {5,S} {7,S}
+7   C u0 {4,D} {6,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.82,-4.74,-4.65,-4.52,-4.39,-4.28,-4.42],'cal/(mol*K)'),
+        H298 = (53.563,'kcal/mol'),
+        S298 = (63.9,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species product46 from vinylCPD_H library.
 """,
 )
 
@@ -2444,7 +2688,33 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_3_6_diene_1_3 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_3_6_diene_1_3 from Bicyclics_QM_190_isomorphic library.
+""",
+)
+
+entry(
+    index = 69,
+    label = "s2_3_6_ben",
+    group = 
+"""
+1   C u0 {2,B} {3,S} {4,B}
+2   C u0 {1,B} {3,S} {5,B}
+3   C u0 {1,S} {2,S}
+4   C u0 {1,B} {6,B}
+5   C u0 {2,B} {7,B}
+6 * C u0 {4,B} {7,B}
+7   C u0 {5,B} {6,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.23868,-6.14716,-7.46984,-9.00368,-10.5504,-10.8542,-11.9072],'J/(mol*K)'),
+        H298 = (286.99,'kJ/mol'),
+        S298 = (144.432,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from thermo library values""",
+    longDesc = 
+u"""
+Fitted from molecule s2_3_6_ben from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -2582,14 +2852,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-32.2953,-30.9632,-28.3586,-25.818,-21.4726,-17.0596,-12.5166],'J/(mol*K)'),
-        H298 = (408.488,'kJ/mol'),
-        S298 = (238.199,'J/(mol*K)'),
+        Cpdata = ([-30.7295,-30.4822,-28.2596,-25.503,-20.9696,-16.5226,-12.1466],'J/(mol*K)'),
+        H298 = (242.33,'kJ/mol'),
+        S298 = (246.529,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_4_4_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_4_4_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -2626,7 +2896,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_4_4_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_4_4_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -2635,8 +2905,8 @@ entry(
     label = "s2_4_4_ene_m",
     group = 
 """
-1   C  u0 {2,D} {4,S} {6,S}
-2   C  u0 {1,D} {3,S} {5,S}
+1   C u0 {2,D} {4,S} {6,S}
+2   C u0 {1,D} {3,S} {5,S}
 3 * C u0 {2,S} {4,S}
 4   C u0 {1,S} {3,S}
 5   C u0 {2,S} {6,S}
@@ -2698,19 +2968,45 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_4_5_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_4_5_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
     index = 0,
     label = "s2_4_5_ene",
-    group = "OR{s2_4_5_ene_1}",
+    group = "OR{s2_4_5_ene_0, s2_4_5_ene_1}",
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 76,
+    label = "s2_4_5_ene_0",
+    group = 
+"""
+1 * C u0 {2,S} {4,S} {6,D}
+2   C u0 {1,S} {3,S} {5,S}
+3   C u0 {2,S} {4,S}
+4   C u0 {1,S} {3,S}
+5   C u0 {2,S} {7,S}
+6   C u0 {1,D} {7,S}
+7   C u0 {5,S} {6,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.32,-5.85,-5.4,-4.81,-4.34,-3.92,-3.03],'cal/(mol*K)'),
+        H298 = (45.173,'kcal/mol'),
+        S298 = (60.95,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species product25 from vinylCPD_H library.
 """,
 )
 
@@ -2729,14 +3025,104 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-30.3838,-30.0633,-28.0708,-25.0151,-20.5371,-15.7652,-11.1222],'J/(mol*K)'),
+        Cpdata = ([-30.3838,-30.0633,-28.0708,-25.0151,-20.5371,-15.7662,-11.1222],'J/(mol*K)'),
         H298 = (145.91,'kJ/mol'),
         S298 = (229.455,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_4_5_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_4_5_ene_1 from Bicyclics_QM_190_isomorphic library.
+""",
+)
+
+entry(
+    index = 0,
+    label = "s2_4_5_diene",
+    group = "OR{s2_4_5_diene_0_3, s2_4_5_diene_1_5, s2_4_5_diene_4_6}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 76,
+    label = "s2_4_5_diene_0_3",
+    group = 
+"""
+1 * C u0 {2,S} {3,S} {5,D}
+2   C u0 {1,S} {4,S} {6,D}
+3   C u0 {1,S} {4,S}
+4   C u0 {2,S} {3,S}
+5   C u0 {1,D} {7,S}
+6   C u0 {2,D} {7,S}
+7   C u0 {5,S} {6,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-28.322,-31.1459,-30.1867,-27.682,-22.5644,-18.2478,-12.9942],'J/(mol*K)'),
+        H298 = (220.315,'kJ/mol'),
+        S298 = (247.242,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from thermo library values""",
+    longDesc = 
+u"""
+Fitted from molecule s2_4_5_diene_0_3 from Bicyclics_QM_190_isomorphic library.
+""",
+)
+
+entry(
+    index = 76,
+    label = "s2_4_5_diene_1_5",
+    group = 
+"""
+1 * C u0 {2,S} {3,S} {6,S}
+2   C u0 {1,S} {4,S} {5,S}
+3   C u0 {1,S} {4,D}
+4   C u0 {2,S} {3,D}
+5   C u0 {2,S} {7,D}
+6   C u0 {1,S} {7,S}
+7   C u0 {5,D} {6,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.23,-4.36,-3.97,-3.6,-3.53,-3.44,-3.16],'cal/(mol*K)'),
+        H298 = (39.483,'kcal/mol'),
+        S298 = (62.16,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species product45 from vinylCPD_H library.
+""",
+)
+
+entry(
+    index = 76,
+    label = "s2_4_5_diene_4_6",
+    group = 
+"""
+1 * C u0 {2,S} {3,D} {6,S}
+2   C u0 {1,S} {4,D} {5,S}
+3   C u0 {1,D} {4,S}
+4   C u0 {2,D} {3,S}
+5   C u0 {2,S} {7,S}
+6   C u0 {1,S} {7,S}
+7   C u0 {5,S} {6,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-37.8976,-43.0012,-43.237,-40.8415,-34.8466,-29.5607,-23.5751],'J/(mol*K)'),
+        H298 = (427.842,'kJ/mol'),
+        S298 = (261.07,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from thermo library values""",
+    longDesc = 
+u"""
+Fitted from molecule s2_4_5_diene_4_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -2785,14 +3171,14 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_4_6_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_4_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
     index = 0,
     label = "s2_4_6_ene",
-    group = "OR{s2_4_6_ene_1, s2_4_6_ene_2}",
+    group = "OR{s2_4_6_ene_1, s2_4_6_ene_2, s2_4_6_ene_6}",
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
@@ -2824,7 +3210,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_4_6_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_4_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -2851,14 +3237,41 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_4_6_ene_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_4_6_ene_2 from Bicyclics_QM_190_isomorphic library.
+""",
+)
+
+entry(
+    index = 79,
+    label = "s2_4_6_ene_6",
+    group = 
+"""
+1   C u0 {2,S} {4,S} {5,S}
+2   C u0 {1,S} {3,S} {6,S}
+3   C u0 {2,S} {4,D}
+4   C u0 {1,S} {3,D}
+5   C u0 {1,S} {7,S}
+6   C u0 {2,S} {8,S}
+7 * C u0 {5,S} {8,S}
+8   C u0 {6,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-34.5248,-33.2711,-31.3482,-27.5195,-21.339,-15.2388,-8.7172],'J/(mol*K)'),
+        H298 = (220.778,'kJ/mol'),
+        S298 = (206.929,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from thermo library values""",
+    longDesc = 
+u"""
+Fitted from molecule s2_4_6_ene_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
     index = 0,
     label = "s2_4_6_diene",
-    group = "OR{s2_4_6_diene_1_3, s2_4_6_diene_1_6, s2_4_6_diene_2_6}",
+    group = "OR{s2_4_6_diene_1_3, s2_4_6_diene_1_6, s2_4_6_diene_2_6, s2_4_6_diene_5_7}",
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
@@ -2890,7 +3303,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_4_6_diene_1_3 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_4_6_diene_1_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -2917,7 +3330,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_4_6_diene_1_6 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_4_6_diene_1_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -2937,14 +3350,41 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-26.6518,-26.7244,-25.953,-23.3602,-19.2686,-14.3808,-9.61984],'J/(mol*K)'),
-        H298 = (214.322,'kJ/mol'),
-        S298 = (210.792,'J/(mol*K)'),
+        Cpdata = ([-24.2298,-25.4244,-25.289,-22.7942,-18.6756,-13.8318,-9.32484],'J/(mol*K)'),
+        H298 = (159.306,'kJ/mol'),
+        S298 = (218.773,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_4_6_diene_2_6 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_4_6_diene_2_6 from Bicyclics_QM_190_isomorphic library.
+""",
+)
+
+entry(
+    index = 182,
+    label = "s2_4_6_diene_5_7",
+    group = 
+"""
+1   C u0 {2,S} {4,D} {6,S}
+2   C u0 {1,S} {3,D} {5,S}
+3   C u0 {2,D} {4,S}
+4   C u0 {1,D} {3,S}
+5   C u0 {2,S} {7,S}
+6   C u0 {1,S} {8,S}
+7 * C u0 {5,S} {8,S}
+8   C u0 {6,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-33.7626,-39.097,-39.354,-35.5619,-26.8375,-20.0782,-13.0261],'J/(mol*K)'),
+        H298 = (358.647,'kJ/mol'),
+        S298 = (250.961,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from thermo library values""",
+    longDesc = 
+u"""
+Fitted from molecule s2_4_6_diene_5_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -2964,14 +3404,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-13.1643,-12.9828,-12.2894,-11.5987,-9.35604,-6.5714,-1.5946],'J/(mol*K)'),
+        Cpdata = ([-13.1733,-12.9918,-12.2974,-11.6067,-9.36104,-6.5744,-1.5936],'J/(mol*K)'),
         H298 = (148.973,'kJ/mol'),
-        S298 = (117.967,'J/(mol*K)'),
+        S298 = (117.954,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_4_6_ben from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_4_6_ben from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3020,7 +3460,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_5_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_5_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3059,7 +3499,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_5_ene_0 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_5_ene_0 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3079,14 +3519,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-35.2578,-34.3901,-31.8848,-28.0805,-21.537,-15.2468,-8.6872],'J/(mol*K)'),
-        H298 = (121.68,'kJ/mol'),
-        S298 = (210.932,'J/(mol*K)'),
+        Cpdata = ([-35.5098,-34.6031,-31.9528,-27.9945,-21.362,-15.0548,-8.5992],'J/(mol*K)'),
+        H298 = (71.0703,'kJ/mol'),
+        S298 = (213.583,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_5_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_5_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3106,14 +3546,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-36.0191,-36.796,-35.0088,-31.1401,-23.1831,-16.6038,-8.33044],'J/(mol*K)'),
+        Cpdata = ([-36.0191,-36.797,-35.0088,-31.1401,-23.1831,-16.6038,-8.33044],'J/(mol*K)'),
         H298 = (86.2088,'kJ/mol'),
         S298 = (204.403,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_5_ene_m from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_5_ene_m from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3145,14 +3585,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-40.8587,-39.2957,-35.8144,-31.5597,-23.4596,-17.2834,-10.8314],'J/(mol*K)'),
+        Cpdata = ([-40.8587,-39.2967,-35.8144,-31.5587,-23.4596,-17.2834,-10.8314],'J/(mol*K)'),
         H298 = (98.2803,'kJ/mol'),
         S298 = (234.449,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_5_diene_0_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_5_diene_0_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3179,7 +3619,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_5_diene_0_3 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_5_diene_0_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3206,7 +3646,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_5_diene_m_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_5_diene_m_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3233,7 +3673,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_5_diene_0_4 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_5_diene_0_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3260,7 +3700,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_5_diene_0_5 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_5_diene_0_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3287,7 +3727,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_5_diene_0_6 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_5_diene_0_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3307,14 +3747,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-28.6878,-28.0364,-26.536,-23.5412,-19.2576,-14.2928,-9.58484],'J/(mol*K)'),
-        H298 = (138.631,'kJ/mol'),
-        S298 = (207.589,'J/(mol*K)'),
+        Cpdata = ([-28.5408,-28.8784,-27.579,-24.3002,-19.7766,-14.6598,-9.82684],'J/(mol*K)'),
+        H298 = (65.5921,'kJ/mol'),
+        S298 = (213.858,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_5_diene_1_5 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_5_diene_1_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3341,7 +3781,46 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_5_diene_1_6 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_5_diene_1_6 from Bicyclics_QM_190_isomorphic library.
+""",
+)
+
+entry(
+    index = 0,
+    label = "s2_5_5_tetraene",
+    group = "OR{s2_5_5_tetraene_0_2_4_6}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 84,
+    label = "s2_5_5_tetraene_0_2_4_6",
+    group = 
+"""
+1   C u0 {2,S} {3,S} {4,D}
+2   C u0 {1,S} {5,D} {6,S}
+3 * C u0 {1,S} {8,D}
+4   C u0 {1,D} {7,S}
+5   C u0 {2,D} {8,S}
+6   C u0 {2,S} {7,D}
+7   C u0 {4,S} {6,D}
+8   C u0 {3,D} {5,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-21.677,-25.8011,-27.002,-27.3347,-26.4292,-23.2292,-24.6771],'J/(mol*K)'),
+        H298 = (135.898,'kJ/mol'),
+        S298 = (289.394,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from thermo library values""",
+    longDesc = 
+u"""
+Fitted from molecule s2_5_5_tetraene_0_2_4_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3392,7 +3871,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3432,7 +3911,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_ene_0 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_ene_0 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3453,14 +3932,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-37.5018,-36.8389,-34.8198,-30.5359,-21.9949,-14.3303,-6.2002],'J/(mol*K)'),
-        H298 = (71.2912,'kJ/mol'),
-        S298 = (196.469,'J/(mol*K)'),
+        Cpdata = ([-38.9638,-37.7409,-35.1268,-30.7369,-22.2439,-14.5863,-6.4012],'J/(mol*K)'),
+        H298 = (62.9293,'kJ/mol'),
+        S298 = (193.573,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3488,7 +3967,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_ene_m from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_ene_m from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3516,7 +3995,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_ene_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3544,7 +4023,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_ene_5 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_ene_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3565,14 +4044,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-37.9658,-36.6869,-34.2058,-29.9599,-21.6489,-14.1173,-6.0852],'J/(mol*K)'),
-        H298 = (88.6107,'kJ/mol'),
-        S298 = (191.577,'J/(mol*K)'),
+        Cpdata = ([-38.4628,-37.1559,-34.5418,-30.1859,-21.7599,-14.1703,-6.1302],'J/(mol*K)'),
+        H298 = (72.3374,'kJ/mol'),
+        S298 = (192.941,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_ene_6 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_ene_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3605,14 +4084,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-37.8274,-40.67,-39.3488,-34.8703,-25.392,-17.7936,-9.05308],'J/(mol*K)'),
+        Cpdata = ([-37.8264,-40.67,-39.3488,-34.8713,-25.392,-17.7936,-9.05308],'J/(mol*K)'),
         H298 = (64.8989,'kJ/mol'),
         S298 = (210.302,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_diene_m_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_diene_m_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3633,14 +4112,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-32.3014,-34.4352,-32.8344,-28.7852,-20.8258,-14.759,-6.48632],'J/(mol*K)'),
+        Cpdata = ([-32.3004,-34.4352,-32.8344,-28.7852,-20.8258,-14.759,-6.48532],'J/(mol*K)'),
         H298 = (42.7943,'kJ/mol'),
         S298 = (193.491,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_diene_m_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_diene_m_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3661,14 +4140,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-38.63,-40.3085,-38.2637,-33.8928,-24.6281,-17.3259,-8.3302],'J/(mol*K)'),
+        Cpdata = ([-38.629,-40.3085,-38.2637,-33.8928,-24.6281,-17.3259,-8.3302],'J/(mol*K)'),
         H298 = (51.5473,'kJ/mol'),
         S298 = (204.962,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_diene_m_7 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_diene_m_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3689,14 +4168,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-38.1067,-39.288,-37.6375,-33.3805,-24.832,-17.3096,-9.09196],'J/(mol*K)'),
+        Cpdata = ([-38.1067,-39.288,-37.6375,-33.3805,-24.832,-17.3106,-9.09196],'J/(mol*K)'),
         H298 = (65.0161,'kJ/mol'),
         S298 = (206.507,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_diene_0_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_diene_0_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3724,7 +4203,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_diene_0_3 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_diene_0_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3752,7 +4231,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_diene_0_4 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_diene_0_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3773,14 +4252,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-38.7904,-40.955,-39.4838,-35.1913,-25.819,-18.1126,-9.06408],'J/(mol*K)'),
+        Cpdata = ([-38.7904,-40.956,-39.4838,-35.1923,-25.819,-18.1126,-9.06408],'J/(mol*K)'),
         H298 = (53.2024,'kJ/mol'),
         S298 = (211.109,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_diene_0_5 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_diene_0_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3808,7 +4287,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_diene_0_6 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_diene_0_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3836,7 +4315,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_diene_0_7 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_diene_0_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3857,14 +4336,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-36.769,-38.408,-37.4832,-33.1327,-24.8959,-17.2205,-9.47184],'J/(mol*K)'),
-        H298 = (85.0458,'kJ/mol'),
-        S298 = (207.938,'J/(mol*K)'),
+        Cpdata = ([-37.026,-38.605,-37.5762,-33.1727,-24.9369,-17.2835,-9.61384],'J/(mol*K)'),
+        H298 = (70.9548,'kJ/mol'),
+        S298 = (222.284,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_diene_1_3 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_diene_1_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3892,7 +4371,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_diene_1_5 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_diene_1_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3920,7 +4399,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_diene_1_6 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_diene_1_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -3948,7 +4427,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_diene_1_7 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_diene_1_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4004,7 +4483,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_diene_2_5 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_diene_2_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4025,14 +4504,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-31.8178,-31.2752,-29.2986,-26.0706,-19.9045,-13.5633,-7.10184],'J/(mol*K)'),
+        Cpdata = ([-31.8178,-31.2752,-29.2986,-26.0706,-19.9045,-13.5623,-7.10184],'J/(mol*K)'),
         H298 = (65.0092,'kJ/mol'),
         S298 = (191.089,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_diene_2_6 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_diene_2_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4060,7 +4539,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_diene_5_7 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_diene_5_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4081,14 +4560,348 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-38.594,-40.0215,-37.8257,-33.4848,-24.3501,-17.1569,-8.3362],'J/(mol*K)'),
+        Cpdata = ([-38.594,-40.0215,-37.8257,-33.4848,-24.3491,-17.1569,-8.3362],'J/(mol*K)'),
         H298 = (56.0623,'kJ/mol'),
         S298 = (201.108,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_diene_5_8 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_diene_5_8 from Bicyclics_QM_190_isomorphic library.
+""",
+)
+
+entry(
+    index = 0,
+    label = "s2_5_6_triene",
+    group = "OR{s2_5_6_triene_0_2_6, s2_5_6_triene_0_2_7, s2_5_6_triene_0_3_7, s2_5_6_triene_1_3_5, s2_5_6_triene_1_3_6, s2_5_6_triene_1_6_8, s2_5_6_triene_2_5_7, s2_5_6_triene_m_1_7, s2_5_6_triene_m_2_6}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 99,
+    label = "s2_5_6_triene_0_2_6",
+    group = 
+"""
+1 * C u0 {2,S} {3,S} {6,D}
+2   C u0 {1,S} {4,S} {5,S}
+3   C u0 {1,S} {7,S}
+4   C u0 {2,S} {8,S}
+5   C u0 {2,S} {7,D}
+6   C u0 {1,D} {9,S}
+7   C u0 {3,S} {5,D}
+8   C u0 {4,S} {9,D}
+9   C u0 {6,S} {8,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.68,-6.81,-6.56,-5.84,-4.8,-3.99,-3.4],'cal/(mol*K)'),
+        H298 = (6.863,'kcal/mol'),
+        S298 = (57.6932,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt21 from C10H11 library.
+""",
+)
+
+entry(
+    index = 99,
+    label = "s2_5_6_triene_0_2_7",
+    group = 
+"""
+1 * C u0 {2,S} {4,S} {5,S}
+2   C u0 {1,S} {3,D} {6,S}
+3   C u0 {2,D} {8,S}
+4   C u0 {1,S} {9,S}
+5   C u0 {1,S} {7,S}
+6   C u0 {2,S} {7,D}
+7   C u0 {5,S} {6,D}
+8   C u0 {3,S} {9,D}
+9   C u0 {4,S} {8,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.07,-7.77333,-7.70333,-6.73333,-5.47333,-4.32333,-2.97333],'cal/(mol*K)','+|-',[3.26137,4.03866,3.95722,3.57416,2.7068,2.08753,1.35534]),
+        H298 = (2.643,'kcal/mol','+|-',4.3516),
+        S298 = (60.4632,'cal/(mol*K)','+|-',1.24756),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt21 from C10H11 library.
+Fitted from species pdt27 from C10H11 library.
+Fitted from species pdt32 from C10H11 library.
+""",
+)
+
+entry(
+    index = 99,
+    label = "s2_5_6_triene_0_3_7",
+    group = 
+"""
+1 * C u0 {2,S} {4,D} {5,S}
+2   C u0 {1,S} {3,S} {6,S}
+3   C u0 {2,S} {7,S}
+4   C u0 {1,D} {8,S}
+5   C u0 {1,S} {7,D}
+6   C u0 {2,S} {9,D}
+7   C u0 {3,S} {5,D}
+8   C u0 {4,S} {9,S}
+9   C u0 {6,D} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.91,-7.09,-6.83,-6.08,-4.95,-4.08,-3.42],'cal/(mol*K)'),
+        H298 = (5.483,'kcal/mol'),
+        S298 = (58.2132,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt32 from C10H11 library.
+""",
+)
+
+entry(
+    index = 99,
+    label = "s2_5_6_triene_1_3_5",
+    group = 
+"""
+1 * C u0 {2,S} {4,S} {6,S}
+2   C u0 {1,S} {3,D} {5,S}
+3   C u0 {2,D} {7,S}
+4   C u0 {1,S} {7,S}
+5   C u0 {2,S} {9,D}
+6   C u0 {1,S} {8,D}
+7   C u0 {3,S} {4,S}
+8   C u0 {6,D} {9,S}
+9   C u0 {5,D} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.9,-8.9,-8.26,-7.24,-5.57,-4.36,-2.74],'cal/(mol*K)'),
+        H298 = (3.693,'kcal/mol'),
+        S298 = (61.9332,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt32 from C10H11 library.
+""",
+)
+
+entry(
+    index = 99,
+    label = "s2_5_6_triene_1_3_6",
+    group = 
+"""
+1 * C u0 {2,S} {3,S} {6,S}
+2   C u0 {1,S} {4,S} {5,S}
+3   C u0 {1,S} {7,S}
+4   C u0 {2,S} {8,D}
+5   C u0 {2,S} {7,D}
+6   C u0 {1,S} {9,D}
+7   C u0 {3,S} {5,D}
+8   C u0 {4,D} {9,S}
+9   C u0 {6,D} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.78,-6.1,-4.92,-3.65,-2.41,-1.62,-0.77],'cal/(mol*K)'),
+        H298 = (-15.727,'kcal/mol'),
+        S298 = (49.8332,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt32 from C10H11 library.
+""",
+)
+
+entry(
+    index = 99,
+    label = "s2_5_6_triene_1_6_8",
+    group = 
+"""
+1 * C u0 {2,S} {3,S} {5,S}
+2   C u0 {1,S} {4,D} {6,S}
+3   C u0 {1,S} {8,S}
+4   C u0 {2,D} {7,S}
+5   C u0 {1,S} {7,D}
+6   C u0 {2,S} {9,D}
+7   C u0 {4,S} {5,D}
+8   C u0 {3,S} {9,S}
+9   C u0 {6,D} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.67,-8.62,-7.99,-7,-5.42,-4.27,-2.72],'cal/(mol*K)'),
+        H298 = (2.023,'kcal/mol'),
+        S298 = (61.7232,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt21 from C10H11 library.
+""",
+)
+
+entry(
+    index = 99,
+    label = "s2_5_6_triene_2_5_7",
+    group = 
+"""
+1 * C u0 {2,S} {3,S} {4,S}
+2   C u0 {1,S} {5,D} {6,S}
+3   C u0 {1,S} {9,S}
+4   C u0 {1,S} {7,D}
+5   C u0 {2,D} {7,S}
+6   C u0 {2,S} {8,S}
+7   C u0 {4,D} {5,S}
+8   C u0 {6,S} {9,D}
+9   C u0 {3,S} {8,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.68,-6.81,-6.56,-5.84,-4.8,-3.99,-3.4],'cal/(mol*K)'),
+        H298 = (6.863,'kcal/mol'),
+        S298 = (57.6932,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt21 from C10H11 library.
+""",
+)
+
+entry(
+    index = 99,
+    label = "s2_5_6_triene_m_1_7",
+    group = 
+"""
+1 * C u0 {2,D} {3,S} {6,S}
+2   C u0 {1,D} {4,S} {5,S}
+3   C u0 {1,S} {9,D}
+4   C u0 {2,S} {8,S}
+5   C u0 {2,S} {7,S}
+6   C u0 {1,S} {7,D}
+7   C u0 {5,S} {6,D}
+8   C u0 {4,S} {9,S}
+9   C u0 {3,D} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.57,-4.83,-4.71,-4.26,-4,-3.54,-3.01],'cal/(mol*K)'),
+        H298 = (-2.777,'kcal/mol'),
+        S298 = (59.5532,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt27 from C10H11 library.
+""",
+)
+
+entry(
+    index = 99,
+    label = "s2_5_6_triene_m_2_6",
+    group = 
+"""
+1 * C u0 {2,D} {3,S} {5,S}
+2   C u0 {1,D} {4,S} {6,S}
+3   C u0 {1,S} {7,D}
+4   C u0 {2,S} {8,S}
+5   C u0 {1,S} {9,S}
+6   C u0 {2,S} {7,S}
+7   C u0 {3,D} {6,S}
+8   C u0 {4,S} {9,D}
+9   C u0 {5,S} {8,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.88,-7.18,-6.81,-6.07,-4.85,-4.06,-3.25],'cal/(mol*K)'),
+        H298 = (6.883,'kcal/mol'),
+        S298 = (58.0732,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt27 from C10H11 library.
+""",
+)
+
+entry(
+    index = 0,
+    label = "s2_5_6_tetraene",
+    group = "OR{s2_5_6_tetraene_1_3_5_7, s2_5_6_tetraene_1_3_5_8}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 99,
+    label = "s2_5_6_tetraene_1_3_5_7",
+    group = 
+"""
+1 * C u0 {2,S} {4,S} {5,D}
+2   C u0 {1,S} {3,S} {6,S}
+3   C u0 {2,S} {8,D}
+4   C u0 {1,S} {9,D}
+5   C u0 {1,D} {7,S}
+6   C u0 {2,S} {7,D}
+7   C u0 {5,S} {6,D}
+8   C u0 {3,D} {9,S}
+9   C u0 {4,D} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-9.63,-9.81,-9.04,-7.82,-5.95,-4.71,-3.23],'cal/(mol*K)'),
+        H298 = (14.05,'kcal/mol'),
+        S298 = (60.39,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt22 from C10H11 library.
+""",
+)
+
+entry(
+    index = 99,
+    label = "s2_5_6_tetraene_1_3_5_8",
+    group = 
+"""
+1 * C u0 {2,S} {5,S} {6,D}
+2   C u0 {1,S} {3,S} {4,D}
+3   C u0 {2,S} {8,D}
+4   C u0 {2,D} {7,S}
+5   C u0 {1,S} {9,D}
+6   C u0 {1,D} {7,S}
+7   C u0 {4,S} {6,S}
+8   C u0 {3,D} {9,S}
+9   C u0 {5,D} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.49,-4.75,-4.62,-4.45,-4.55,-4.28,-4.48],'cal/(mol*K)'),
+        H298 = (-0.61,'kcal/mol'),
+        S298 = (58.88,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species 2HINDENE from C10H11 library.
 """,
 )
 
@@ -4116,7 +4929,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_5_6_ben from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_5_6_ben from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4125,15 +4938,15 @@ entry(
     label = "s2_5_6_indene",
     group = 
 """
-1 * C  u0 {2,B} {3,S} {4,B}
-2   C  u0 {1,B} {5,S} {6,B}
+1 * C u0 {2,B} {3,S} {4,B}
+2   C u0 {1,B} {5,S} {6,B}
 3   C u0 {1,S} {7,S}
-4   C  u0 {1,B} {8,B}
-5   C  u0 {2,S} {7,D}
-6   C  u0 {2,B} {9,B}
-7   C  u0 {3,S} {5,D}
-8   C  u0 {4,B} {9,B}
-9   C  u0 {6,B} {8,B}
+4   C u0 {1,B} {8,B}
+5   C u0 {2,S} {7,D}
+6   C u0 {2,B} {9,B}
+7   C u0 {3,S} {5,D}
+8   C u0 {4,B} {9,B}
+9   C u0 {6,B} {8,B}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4145,6 +4958,319 @@ entry(
     longDesc = 
 u"""
 Verevkin (2011), experimental, S and cp from PM7
+""",
+)
+
+entry(
+    index = 0,
+    label = "s2_5_7",
+    group = 
+"""
+1  * C u0 {2,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+2    C u0 {1,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
+3    C u0 {2,[S,D,T,B]} {9,[S,D,T,B]}
+4    C u0 {1,[S,D,T,B]} {8,[S,D,T,B]}
+5    C u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
+6    C u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+7    C u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
+8    C u0 {4,[S,D,T,B]} {10,[S,D,T,B]}
+9    C u0 {3,[S,D,T,B]} {10,[S,D,T,B]}
+10   C u0 {8,[S,D,T,B]} {9,[S,D,T,B]}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 0,
+    label = "s2_5_7_triene",
+    group = "OR{s2_5_7_triene_0_2_8, s2_5_7_triene_0_3_8, s2_5_7_triene_1_3_7, s2_5_7_triene_1_3_8, s2_5_7_triene_1_3_9, s2_5_7_triene_1_4_7}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 118,
+    label = "s2_5_7_triene_0_2_8",
+    group = 
+"""
+1  * C u0 {2,S} {4,D} {6,S}
+2    C u0 {1,S} {3,S} {5,S}
+3    C u0 {2,S} {7,S}
+4    C u0 {1,D} {8,S}
+5    C u0 {2,S} {9,S}
+6    C u0 {1,S} {7,D}
+7    C u0 {3,S} {6,D}
+8    C u0 {4,S} {10,D}
+9    C u0 {5,S} {10,S}
+10   C u0 {8,D} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.56,-9.04,-8.6,-7.5,-5.91,-4.62,-2.75],'cal/(mol*K)'),
+        H298 = (0.693,'kcal/mol'),
+        S298 = (56.96,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt29 from C10H11 library.
+""",
+)
+
+entry(
+    index = 118,
+    label = "s2_5_7_triene_0_3_8",
+    group = 
+"""
+1  * C u0 {2,S} {5,S} {6,S}
+2    C u0 {1,S} {3,D} {4,S}
+3    C u0 {2,D} {8,S}
+4    C u0 {2,S} {7,D}
+5    C u0 {1,S} {9,S}
+6    C u0 {1,S} {7,S}
+7    C u0 {4,D} {6,S}
+8    C u0 {3,S} {10,S}
+9    C u0 {5,S} {10,D}
+10   C u0 {8,S} {9,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.57,-7.23,-7.07,-6.34,-5.29,-4.34,-3.43],'cal/(mol*K)'),
+        H298 = (6.033,'kcal/mol'),
+        S298 = (53.24,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt29 from C10H11 library.
+""",
+)
+
+entry(
+    index = 118,
+    label = "s2_5_7_triene_1_3_7",
+    group = 
+"""
+1  * C u0 {2,S} {3,S} {4,S}
+2    C u0 {1,S} {5,S} {6,S}
+3    C u0 {1,S} {7,D}
+4    C u0 {1,S} {9,S}
+5    C u0 {2,S} {7,S}
+6    C u0 {2,S} {8,D}
+7    C u0 {3,D} {5,S}
+8    C u0 {6,D} {10,S}
+9    C u0 {4,S} {10,D}
+10   C u0 {8,S} {9,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.535,-6.635,-6.36,-5.495,-4.605,-3.68,-2.31],'cal/(mol*K)','+|-',[3.13605,3.13605,2.84019,2.426,1.71595,1.18341,0.473366]),
+        H298 = (13.728,'kcal/mol','+|-',10.9884),
+        S298 = (54.235,'cal/(mol*K)','+|-',0.296985),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt8 from C10H11 library.
+Fitted from species pdt23 from C10H11 library.
+""",
+)
+
+entry(
+    index = 118,
+    label = "s2_5_7_triene_1_3_8",
+    group = 
+"""
+1  * C u0 {2,S} {3,S} {6,S}
+2    C u0 {1,S} {4,S} {5,S}
+3    C u0 {1,S} {7,D}
+4    C u0 {2,S} {9,S}
+5    C u0 {2,S} {7,S}
+6    C u0 {1,S} {8,D}
+7    C u0 {3,D} {5,S}
+8    C u0 {6,D} {10,S}
+9    C u0 {4,S} {10,D}
+10   C u0 {8,S} {9,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.3425,-7.0575,-5.85,-4.7975,-3.47,-2.58,-1.35],'cal/(mol*K)','+|-',[4.00405,3.66182,6.7465,8.34184,9.49513,9.23012,7.85553]),
+        H298 = (6.758,'kcal/mol','+|-',29.8859),
+        S298 = (51.8325,'cal/(mol*K)','+|-',9.6992),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt8 from C10H11 library.
+Fitted from species pdt23 from C10H11 library.
+Fitted from species pdt28 from C10H11 library.
+Fitted from species pdt29 from C10H11 library.
+""",
+)
+
+entry(
+    index = 118,
+    label = "s2_5_7_triene_1_3_9",
+    group = 
+"""
+1  * C u0 {2,S} {3,S} {6,S}
+2    C u0 {1,S} {4,S} {5,D}
+3    C u0 {1,S} {8,S}
+4    C u0 {2,S} {9,D}
+5    C u0 {2,D} {7,S}
+6    C u0 {1,S} {7,S}
+7    C u0 {5,S} {6,S}
+8    C u0 {3,S} {10,D}
+9    C u0 {4,D} {10,S}
+10   C u0 {8,D} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.56,-9.04,-8.6,-7.5,-5.91,-4.62,-2.75],'cal/(mol*K)'),
+        H298 = (3.993,'kcal/mol'),
+        S298 = (56.96,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt29 from C10H11 library.
+""",
+)
+
+entry(
+    index = 118,
+    label = "s2_5_7_triene_1_4_7",
+    group = 
+"""
+1  * C u0 {2,S} {4,S} {6,S}
+2    C u0 {1,S} {3,S} {5,S}
+3    C u0 {2,S} {7,S}
+4    C u0 {1,S} {7,D}
+5    C u0 {2,S} {8,D}
+6    C u0 {1,S} {9,D}
+7    C u0 {3,S} {4,D}
+8    C u0 {5,D} {10,S}
+9    C u0 {6,D} {10,S}
+10   C u0 {8,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.31,-5.81,-5.33,-4.69,-3.97,-3.35,-2.88],'cal/(mol*K)'),
+        H298 = (14.973,'kcal/mol'),
+        S298 = (52.13,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt8 from C10H11 library.
+""",
+)
+
+entry(
+    index = 0,
+    label = "s2_5_7_tetraene",
+    group = "OR{s2_5_7_tetraene_0_2_4_8, s2_5_7_tetraene_1_3_7_9, s2_5_7_tetraene_m_1_3_8}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 118,
+    label = "s2_5_7_tetraene_0_2_4_8",
+    group = 
+"""
+1  * C u0 {2,S} {4,S} {6,S}
+2    C u0 {1,S} {3,D} {5,S}
+3    C u0 {2,D} {9,S}
+4    C u0 {1,S} {8,D}
+5    C u0 {2,S} {7,D}
+6    C u0 {1,S} {7,S}
+7    C u0 {5,D} {6,S}
+8    C u0 {4,D} {10,S}
+9    C u0 {3,S} {10,D}
+10   C u0 {8,S} {9,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-10.94,-11.19,-10.38,-8.99,-6.63,-5,-2.79],'cal/(mol*K)'),
+        H298 = (11.73,'kcal/mol'),
+        S298 = (57.98,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt31 from C10H11 library.
+""",
+)
+
+entry(
+    index = 118,
+    label = "s2_5_7_tetraene_1_3_7_9",
+    group = 
+"""
+1  * C u0 {2,S} {3,S} {5,S}
+2    C u0 {1,S} {4,S} {6,D}
+3    C u0 {1,S} {8,S}
+4    C u0 {2,S} {9,D}
+5    C u0 {1,S} {7,D}
+6    C u0 {2,D} {7,S}
+7    C u0 {5,D} {6,S}
+8    C u0 {3,S} {10,D}
+9    C u0 {4,D} {10,S}
+10   C u0 {8,D} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-10.84,-11.12,-10.33,-8.95,-6.62,-4.99,-2.8],'cal/(mol*K)'),
+        H298 = (14.29,'kcal/mol'),
+        S298 = (58.23,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt30 from C10H11 library.
+""",
+)
+
+entry(
+    index = 118,
+    label = "s2_5_7_tetraene_m_1_3_8",
+    group = 
+"""
+1  * C u0 {2,D} {3,S} {6,S}
+2    C u0 {1,D} {4,S} {5,S}
+3    C u0 {1,S} {8,S}
+4    C u0 {2,S} {9,D}
+5    C u0 {2,S} {7,D}
+6    C u0 {1,S} {7,S}
+7    C u0 {5,D} {6,S}
+8    C u0 {3,S} {10,D}
+9    C u0 {4,D} {10,S}
+10   C u0 {8,D} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.52,-7.11,-6.7,-5.92,-4.93,-4.1,-2.95],'cal/(mol*K)'),
+        H298 = (8.12,'kcal/mol'),
+        S298 = (54.6,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt35 from C10H11 library.
 """,
 )
 
@@ -4197,7 +5323,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_6_6_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_6_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4238,7 +5364,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_6_6_ene_0 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_6_6_ene_0 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4260,14 +5386,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-41.3108,-37.9067,-34.3308,-29.4523,-19.9858,-11.6909,-2.8732],'J/(mol*K)'),
-        H298 = (260.592,'kJ/mol'),
-        S298 = (166.041,'J/(mol*K)'),
+        Cpdata = ([-42.9588,-40.6357,-37.4708,-32.3113,-22.1888,-13.3879,-3.8232],'J/(mol*K)'),
+        H298 = (62.7273,'kJ/mol'),
+        S298 = (169.342,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_6_6_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_6_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4296,7 +5422,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_6_6_ene_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_6_6_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4318,14 +5444,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-45.2261,-43.8146,-40.2788,-34.6869,-23.5958,-14.779,-3.51844],'J/(mol*K)'),
+        Cpdata = ([-45.2251,-43.8136,-40.2788,-34.6869,-23.5968,-14.78,-3.51744],'J/(mol*K)'),
         H298 = (34.5594,'kJ/mol'),
         S298 = (154.144,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_6_6_ene_m from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_6_6_ene_m from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4359,14 +5485,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-42.4824,-44.2048,-42.1578,-36.9087,-25.8979,-17.1012,-6.65508],'J/(mol*K)'),
+        Cpdata = ([-42.4834,-44.2058,-42.1578,-36.9087,-25.8969,-17.1002,-6.65608],'J/(mol*K)'),
         H298 = (47.0401,'kJ/mol'),
         S298 = (188.632,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_6_6_diene_m_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_6_6_diene_m_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4388,14 +5514,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-36.4704,-37.505,-35.2594,-30.5046,-21.0927,-13.8636,-3.90332],'J/(mol*K)'),
+        Cpdata = ([-36.4704,-37.506,-35.2594,-30.5046,-21.0927,-13.8636,-3.90332],'J/(mol*K)'),
         H298 = (27.5712,'kJ/mol'),
         S298 = (167.901,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_6_6_diene_m_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_6_6_diene_m_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4417,14 +5543,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-41.1707,-42.9518,-41.3835,-35.9789,-25.3008,-16.5271,-7.06396],'J/(mol*K)'),
+        Cpdata = ([-41.1697,-42.9508,-41.3835,-35.9799,-25.3008,-16.5271,-7.06396],'J/(mol*K)'),
         H298 = (63.4493,'kJ/mol'),
         S298 = (189.537,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_6_6_diene_0_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_6_6_diene_0_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4453,7 +5579,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_6_6_diene_0_3 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_6_6_diene_0_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4475,14 +5601,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-42.7634,-44.3158,-42.0638,-36.6807,-25.5709,-16.8262,-6.67908],'J/(mol*K)'),
+        Cpdata = ([-42.7644,-44.3168,-42.0638,-36.6797,-25.5709,-16.8262,-6.67908],'J/(mol*K)'),
         H298 = (53.8256,'kJ/mol'),
         S298 = (181.405,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_6_6_diene_0_4 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_6_6_diene_0_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4504,14 +5630,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-43.7554,-45.3278,-42.9508,-37.4467,-26.1409,-17.2482,-6.89208],'J/(mol*K)'),
+        Cpdata = ([-43.7554,-45.3278,-42.9508,-37.4467,-26.1409,-17.2492,-6.89208],'J/(mol*K)'),
         H298 = (34.4058,'kJ/mol'),
         S298 = (180.245,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_6_6_diene_0_5 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_6_6_diene_0_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4533,14 +5659,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-40.4475,-37.0305,-33.0252,-27.7354,-17.703,-10.5603,-3.47136],'J/(mol*K)'),
+        Cpdata = ([-40.4485,-37.0315,-33.0252,-27.7344,-17.702,-10.5593,-3.47236],'J/(mol*K)'),
         H298 = (259.528,'kJ/mol'),
         S298 = (176.442,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_6_6_diene_0_6 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_6_6_diene_0_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4562,14 +5688,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-35.6501,-36.3455,-34.5142,-29.6663,-20.6586,-13.2452,-4.61608],'J/(mol*K)'),
+        Cpdata = ([-35.6501,-36.3445,-34.5142,-29.6673,-20.6586,-13.2452,-4.61508],'J/(mol*K)'),
         H298 = (40.2236,'kJ/mol'),
         S298 = (173.573,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_6_6_diene_0_7 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_6_6_diene_0_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4598,7 +5724,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_6_6_diene_0_8 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_6_6_diene_0_8 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4627,7 +5753,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_6_6_diene_1_3 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_6_6_diene_1_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4656,7 +5782,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_6_6_diene_1_6 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_6_6_diene_1_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4685,7 +5811,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_6_6_diene_1_7 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_6_6_diene_1_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4714,7 +5840,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_6_6_diene_1_8 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_6_6_diene_1_8 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4743,7 +5869,324 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_6_6_diene_2_7 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_6_6_diene_2_7 from Bicyclics_QM_190_isomorphic library.
+""",
+)
+
+entry(
+    index = 0,
+    label = "s2_6_6_triene",
+    group = "OR{s2_6_6_triene_0_2_6, s2_6_6_triene_0_2_7, s2_6_6_triene_0_3_7, s2_6_6_triene_1_3_6, s2_6_6_triene_1_3_7}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 123,
+    label = "s2_6_6_triene_0_2_6",
+    group = 
+"""
+1    C u0 {2,S} {4,S} {6,S}
+2    C u0 {1,S} {3,S} {5,D}
+3    C u0 {2,S} {10,S}
+4    C u0 {1,S} {7,D}
+5    C u0 {2,D} {8,S}
+6    C u0 {1,S} {9,S}
+7  * C u0 {4,D} {10,S}
+8    C u0 {5,S} {9,D}
+9    C u0 {6,S} {8,D}
+10   C u0 {3,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.27,-7.7,-6.87,-5.9,-4.53,-3.57,-2.03],'cal/(mol*K)'),
+        H298 = (7.693,'kcal/mol'),
+        S298 = (54.74,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt19 from C10H11 library.
+""",
+)
+
+entry(
+    index = 123,
+    label = "s2_6_6_triene_0_2_7",
+    group = 
+"""
+1    C u0 {2,S} {4,S} {6,S}
+2    C u0 {1,S} {3,D} {5,S}
+3    C u0 {2,D} {7,S}
+4    C u0 {1,S} {9,S}
+5    C u0 {2,S} {8,S}
+6    C u0 {1,S} {10,S}
+7  * C u0 {3,S} {9,D}
+8    C u0 {5,S} {10,D}
+9    C u0 {4,S} {7,D}
+10   C u0 {6,S} {8,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.98,-7.21,-6.77,-5.84,-4.695,-3.755,-2.135],'cal/(mol*K)','+|-',[2.95853,2.36683,1.77512,1.4201,0.88756,0.650878,0.295853]),
+        H298 = (2.333,'kcal/mol','+|-',14.9058),
+        S298 = (51.955,'cal/(mol*K)','+|-',2.95571),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt19 from C10H11 library.
+Fitted from species pdt37 from C10H11 library.
+""",
+)
+
+entry(
+    index = 123,
+    label = "s2_6_6_triene_0_3_7",
+    group = 
+"""
+1    C u0 {2,S} {4,D} {6,S}
+2    C u0 {1,S} {3,S} {5,S}
+3    C u0 {2,S} {10,D}
+4    C u0 {1,D} {7,S}
+5    C u0 {2,S} {8,S}
+6    C u0 {1,S} {9,S}
+7  * C u0 {4,S} {10,S}
+8    C u0 {5,S} {9,D}
+9    C u0 {6,S} {8,D}
+10   C u0 {3,D} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.74,-6.32,-5.65,-4.95,-3.99,-3.38,-2.69],'cal/(mol*K)'),
+        H298 = (2.193,'kcal/mol'),
+        S298 = (48.91,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt37 from C10H11 library.
+""",
+)
+
+entry(
+    index = 123,
+    label = "s2_6_6_triene_1_3_6",
+    group = 
+"""
+1    C u0 {2,S} {3,S} {4,S}
+2    C u0 {1,S} {5,S} {6,S}
+3    C u0 {1,S} {9,S}
+4    C u0 {1,S} {10,D}
+5    C u0 {2,S} {8,D}
+6    C u0 {2,S} {7,D}
+7  * C u0 {6,D} {9,S}
+8    C u0 {5,D} {10,S}
+9    C u0 {3,S} {7,S}
+10   C u0 {4,D} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.91,-7.26,-6.54,-5.57,-4.35,-3.43,-2.07],'cal/(mol*K)'),
+        H298 = (7.733,'kcal/mol'),
+        S298 = (54.59,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt10bis from C10H11 library.
+""",
+)
+
+entry(
+    index = 123,
+    label = "s2_6_6_triene_1_3_7",
+    group = 
+"""
+1    C u0 {2,S} {4,S} {6,S}
+2    C u0 {1,S} {3,S} {5,S}
+3    C u0 {2,S} {7,S}
+4    C u0 {1,S} {8,S}
+5    C u0 {2,S} {10,D}
+6    C u0 {1,S} {9,D}
+7  * C u0 {3,S} {8,D}
+8    C u0 {4,S} {7,D}
+9    C u0 {6,D} {10,S}
+10   C u0 {5,D} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.455,-6.46,-6.15,-5.28,-4.38,-3.47,-2.41],'cal/(mol*K)','+|-',[0.532536,0.946731,1.53844,1.65678,1.53844,1.30176,2.24849]),
+        H298 = (3.073,'kcal/mol','+|-',13.7744),
+        S298 = (52.44,'cal/(mol*K)','+|-',1.21622),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt10bis from C10H11 library.
+Fitted from species pdt37 from C10H11 library.
+""",
+)
+
+entry(
+    index = 0,
+    label = "s2_6_6_tetraene",
+    group = "OR{s2_6_6_tetraene_0_2_4_7, s2_6_6_tetraene_0_2_5_7, s2_6_6_tetraene_0_2_6_8, s2_6_6_tetraene_0_3_6_8, s2_6_6_tetraene_1_3_6_8}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 123,
+    label = "s2_6_6_tetraene_0_2_4_7",
+    group = 
+"""
+1    C u0 {2,S} {3,S} {4,D}
+2    C u0 {1,S} {5,D} {6,S}
+3    C u0 {1,S} {8,S}
+4    C u0 {1,D} {7,S}
+5    C u0 {2,D} {10,S}
+6    C u0 {2,S} {9,S}
+7  * C u0 {4,S} {10,D}
+8    C u0 {3,S} {9,D}
+9    C u0 {6,S} {8,D}
+10   C u0 {5,S} {7,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-10.4,-11.67,-11.09,-9.63,-7.17,-5.47,-2.85],'cal/(mol*K)'),
+        H298 = (-17.82,'kcal/mol'),
+        S298 = (53.93,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt38 from C10H11 library.
+""",
+)
+
+entry(
+    index = 123,
+    label = "s2_6_6_tetraene_0_2_5_7",
+    group = 
+"""
+1    C u0 {2,S} {3,D} {5,S}
+2    C u0 {1,S} {4,S} {6,D}
+3    C u0 {1,D} {8,S}
+4    C u0 {2,S} {10,S}
+5    C u0 {1,S} {9,S}
+6    C u0 {2,D} {7,S}
+7  * C u0 {6,S} {9,D}
+8    C u0 {3,S} {10,D}
+9    C u0 {5,S} {7,D}
+10   C u0 {4,S} {8,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-9.51,-10.83,-10.38,-9.04,-6.78,-5.2,-2.72],'cal/(mol*K)'),
+        H298 = (10.33,'kcal/mol'),
+        S298 = (53.47,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt26 from C10H11 library.
+""",
+)
+
+entry(
+    index = 123,
+    label = "s2_6_6_tetraene_0_2_6_8",
+    group = 
+"""
+1    C u0 {2,S} {3,S} {6,S}
+2    C u0 {1,S} {4,D} {5,S}
+3    C u0 {1,S} {8,D}
+4    C u0 {2,D} {7,S}
+5    C u0 {2,S} {10,D}
+6    C u0 {1,S} {9,S}
+7  * C u0 {4,S} {9,D}
+8    C u0 {3,D} {10,S}
+9    C u0 {6,S} {7,D}
+10   C u0 {5,D} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-10.475,-10.72,-10,-8.715,-6.555,-5.06,-3.055],'cal/(mol*K)','+|-',[6.21292,6.62712,5.79873,4.4378,1.71595,0.355024,3.13605]),
+        H298 = (1.5665,'kcal/mol','+|-',21.2797),
+        S298 = (58.74,'cal/(mol*K)','+|-',4.18607),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt11 from C10H11 library.
+Fitted from species prod4 from naphthalene_H library.
+""",
+)
+
+entry(
+    index = 123,
+    label = "s2_6_6_tetraene_0_3_6_8",
+    group = 
+"""
+1    C u0 {2,S} {5,D} {6,S}
+2    C u0 {1,S} {3,S} {4,S}
+3    C u0 {2,S} {8,D}
+4    C u0 {2,S} {10,D}
+5    C u0 {1,D} {7,S}
+6    C u0 {1,S} {9,D}
+7  * C u0 {5,S} {8,S}
+8    C u0 {3,D} {7,S}
+9    C u0 {6,D} {10,S}
+10   C u0 {4,D} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.57,-7.86,-7.37,-6.54,-5.25,-4.39,-3.88],'cal/(mol*K)'),
+        H298 = (-1.957,'kcal/mol'),
+        S298 = (55.67,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species prod4 from naphthalene_H library.
+""",
+)
+
+entry(
+    index = 123,
+    label = "s2_6_6_tetraene_1_3_6_8",
+    group = 
+"""
+1    C u0 {2,S} {3,S} {4,S}
+2    C u0 {1,S} {5,S} {6,S}
+3    C u0 {1,S} {8,D}
+4    C u0 {1,S} {9,D}
+5    C u0 {2,S} {10,D}
+6    C u0 {2,S} {7,D}
+7  * C u0 {6,D} {8,S}
+8    C u0 {3,D} {7,S}
+9    C u0 {4,D} {10,S}
+10   C u0 {5,D} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-10.33,-8.08,-6.33,-4.9,-3.09,-2.2,-1.2],'cal/(mol*K)'),
+        H298 = (-22.037,'kcal/mol'),
+        S298 = (49.84,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species prod4 from naphthalene_H library.
 """,
 )
 
@@ -4772,7 +6215,106 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s2_6_6_ben from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s2_6_6_ben from Bicyclics_QM_190_isomorphic library.
+""",
+)
+
+entry(
+    index = 0,
+    label = "s2_6_6_ben_ene",
+    group = "OR{s2_6_6_ben_ene_1, s2_6_6_ben_ene_2}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 123,
+    label = "s2_6_6_ben_ene_1",
+    group = 
+"""
+1    C u0 {2,B} {3,S} {4,B}
+2    C u0 {1,B} {5,B} {6,S}
+3    C u0 {1,S} {7,D}
+4    C u0 {1,B} {8,B}
+5    C u0 {2,B} {9,B}
+6    C u0 {2,S} {10,S}
+7  * C u0 {3,D} {10,S}
+8    C u0 {4,B} {9,B}
+9    C u0 {5,B} {8,B}
+10   C u0 {6,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-20.9962,-19.5374,-17.8098,-15.9012,-10.8962,-6.2246,-0.13508],'J/(mol*K)'),
+        H298 = (17.9864,'kJ/mol'),
+        S298 = (87.3879,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from thermo library values""",
+    longDesc = 
+u"""
+Fitted from molecule s2_6_6_ben_ene_1 from Bicyclics_QM_190_isomorphic library.
+""",
+)
+
+entry(
+    index = 123,
+    label = "s2_6_6_ben_ene_2",
+    group = 
+"""
+1    C u0 {2,B} {4,B} {5,S}
+2    C u0 {1,B} {3,S} {6,B}
+3    C u0 {2,S} {8,S}
+4    C u0 {1,B} {10,B}
+5    C u0 {1,S} {7,S}
+6    C u0 {2,B} {9,B}
+7  * C u0 {5,S} {8,D}
+8    C u0 {3,S} {7,D}
+9    C u0 {6,B} {10,B}
+10   C u0 {4,B} {9,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.68,-1.73,-1.85,-1.91,-2.19,-2.39,-2.51],'cal/(mol*K)'),
+        H298 = (2.84,'kcal/mol'),
+        S298 = (35.91,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species pdt38 from C10H11 library.
+""",
+)
+
+entry(
+    index = 185,
+    label = "s2_6_6_naphthalene",
+    group = 
+"""
+1    C u0 {2,B} {3,B} {4,B}
+2    C u0 {1,B} {5,B} {6,B}
+3    C u0 {1,B} {9,B}
+4    C u0 {1,B} {8,B}
+5    C u0 {2,B} {10,B}
+6    C u0 {2,B} {7,B}
+7  * C u0 {6,B} {8,B}
+8    C u0 {4,B} {7,B}
+9    C u0 {3,B} {10,B}
+10   C u0 {5,B} {9,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.79295e-15,0,-1.35859e-14,-6.79295e-15,0,1.35859e-14,-1.35859e-14],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (-2.75,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species naphthalene from naphthalene_H library.
 """,
 )
 
@@ -4815,7 +6357,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_4_4_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_4_4_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4851,7 +6393,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_4_4_ene_0 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_4_4_ene_0 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4887,7 +6429,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_4_4_diene_0_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_4_4_diene_0_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4932,7 +6474,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_4_5_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_4_5_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4969,7 +6511,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_4_5_ene_0 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_4_5_ene_0 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -4994,7 +6536,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_4_5_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_4_5_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5012,14 +6554,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-21.1076,-22.3405,-21.9755,-20.2055,-17.8073,-14.9817,-12.3823],'J/(mol*K)'),
+        Cpdata = ([-21.1077,-22.3405,-21.9755,-20.2055,-17.8073,-14.9817,-12.3823],'J/(mol*K)'),
         H298 = (402.876,'kJ/mol'),
         S298 = (254.658,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_4_5_ene_3 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_4_5_ene_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5056,7 +6598,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_4_5_diene_0_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_4_5_diene_0_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5074,14 +6616,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-16.0961,-23.1066,-25.1175,-23.8,-20.3886,-17.9916,-15.1753],'J/(mol*K)'),
+        Cpdata = ([-16.0956,-23.1066,-25.1175,-23.8,-20.3886,-17.9916,-15.1753],'J/(mol*K)'),
         H298 = (425.803,'kJ/mol'),
         S298 = (275.729,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_4_5_diene_0_3 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_4_5_diene_0_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5099,14 +6641,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-29.109,-28.7021,-26.8164,-24.6529,-20.7769,-17.6863,-15.1744],'J/(mol*K)'),
+        Cpdata = ([-29.1089,-28.7021,-26.8164,-24.6529,-20.7769,-17.6863,-15.1744],'J/(mol*K)'),
         H298 = (412.175,'kJ/mol'),
         S298 = (273.542,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_4_5_diene_1_3 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_4_5_diene_1_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5131,7 +6673,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_4_5_diene_3_4 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_4_5_diene_3_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5178,7 +6720,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_4_6_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_4_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5216,7 +6758,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_4_6_ene_0 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_4_6_ene_0 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5242,7 +6784,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_4_6_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_4_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5268,7 +6810,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_4_6_ene_4 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_4_6_ene_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5306,7 +6848,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_4_6_diene_0_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_4_6_diene_0_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5332,7 +6874,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_4_6_diene_0_3 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_4_6_diene_0_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5358,7 +6900,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_4_6_diene_0_4 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_4_6_diene_0_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5384,7 +6926,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_4_6_diene_1_4 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_4_6_diene_1_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5410,7 +6952,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_4_6_diene_1_5 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_4_6_diene_1_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5457,19 +6999,46 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_5_5_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_5_5_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
     index = 0,
     label = "s3_5_5_ene",
-    group = "OR{s3_5_5_ene_1, s3_5_5_ene_side}",
+    group = "OR{s3_5_5_ene_0, s3_5_5_ene_1, s3_5_5_ene_side, s3_5_5_ene_m}",
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 158,
+    label = "s3_5_5_ene_0",
+    group = 
+"""
+1   C u0 {3,S} {4,S} {6,D}
+2   C u0 {3,S} {5,S} {7,S}
+3   C u0 {1,S} {2,S}
+4 * C u0 {1,S} {5,S}
+5   C u0 {2,S} {4,S}
+6   C u0 {1,D} {7,S}
+7   C u0 {2,S} {6,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.785,-6.005,-5.34,-4.815,-4.35,-3.915,-3.05],'cal/(mol*K)','+|-',[8.69809,7.63302,6.62712,5.8579,4.61531,3.60941,2.13015]),
+        H298 = (71.868,'kcal/mol','+|-',63.5123),
+        S298 = (58.32,'cal/(mol*K)','+|-',1.69706),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species product23 from vinylCPD_H library.
+Fitted from species product29 from vinylCPD_H library.
 """,
 )
 
@@ -5495,7 +7064,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_5_5_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_5_5_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5504,13 +7073,14 @@ entry(
     label = "s3_5_5_ene_side",
     group = 
 """
-1   C u0 {3,S} {4,S} {7,S}
-2   C u0 {3,S} {5,S} {6,S}
-3   C u0 {1,S} {2,S}
-4 * C u0 {1,S} {5,S}
-5   C u0 {2,S} {4,S}
-6   C u0 {2,S} {7,S}
-7   C u0 {1,S} {6,S}
+1   C u0 {3,S} {4,S} {6,S}
+2   C u0 {4,S} {5,S} {7,S}
+3 * C u0 {1,S} {5,S} {8,D}
+4   C u0 {1,S} {2,S}
+5   C u0 {2,S} {3,S}
+6   C u0 {1,S} {7,S}
+7   C u0 {2,S} {6,S}
+8   R ux {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5522,6 +7092,32 @@ entry(
     longDesc = 
 u"""
 A.G. Vandeputte isodesmic reactions + B3LYP/cbsb7 S and cp, CHECK!
+""",
+)
+
+entry(
+    index = 159,
+    label = "s3_5_5_ene_m",
+    group = 
+"""
+1   C u0 {3,D} {5,S} {7,S}
+2   C u0 {3,S} {4,S} {6,S}
+3   C u0 {1,D} {2,S}
+4 * C u0 {2,S} {7,S}
+5   C u0 {1,S} {6,S}
+6   C u0 {2,S} {5,S}
+7   C u0 {1,S} {4,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.05,-5.36,-4.88,-4.32,-3.96,-3.61,-2.87],'cal/(mol*K)'),
+        H298 = (94.073,'kcal/mol'),
+        S298 = (58.92,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Fitted from species product29 from vinylCPD_H library.
 """,
 )
 
@@ -5559,7 +7155,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_5_5_diene_1_4 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_5_5_diene_1_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5601,14 +7197,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-45.1747,-42.5118,-37.9276,-32.9248,-24.0434,-16.4148,-8.02356],'J/(mol*K)'),
-        H298 = (94.5493,'kJ/mol'),
-        S298 = (209.474,'J/(mol*K)'),
+        Cpdata = ([-46.2517,-42.6158,-37.5346,-32.5278,-23.8414,-16.3148,-7.93156],'J/(mol*K)'),
+        H298 = (67.4227,'kJ/mol'),
+        S298 = (196.089,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_5_6_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_5_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5647,7 +7243,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_5_6_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_5_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5674,7 +7270,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_5_6_ene_5 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_5_6_ene_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5713,7 +7309,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_5_6_diene_1_5 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_5_6_diene_1_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5757,14 +7353,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-51.2247,-47.4056,-42.0976,-36.4612,-25.7252,-16.6263,-6.05456],'J/(mol*K)'),
+        Cpdata = ([-51.2247,-47.4056,-42.0986,-36.4622,-25.7252,-16.6263,-6.05456],'J/(mol*K)'),
         H298 = (65.8567,'kJ/mol'),
         S298 = (170.519,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_6_6_ane from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_6_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5804,7 +7400,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_6_6_ene_0 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_6_6_ene_0 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5825,14 +7421,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-42.2258,-39.5459,-35.7798,-31.0779,-22.7329,-15.0973,-6.6942],'J/(mol*K)'),
-        H298 = (67.0007,'kJ/mol'),
-        S298 = (180.872,'J/(mol*K)'),
+        Cpdata = ([-42.2638,-39.4379,-35.5818,-30.8459,-22.4699,-14.8223,-6.4372],'J/(mol*K)'),
+        H298 = (45.0863,'kJ/mol'),
+        S298 = (180.213,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_6_6_ene_1 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_6_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5853,14 +7449,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-31.5534,-30.7949,-29.0665,-24.8037,-17.0309,-10.8024,-4.68532],'J/(mol*K)'),
+        Cpdata = ([-31.5534,-30.7939,-29.0665,-24.8047,-17.0319,-10.8034,-4.68532],'J/(mol*K)'),
         H298 = (449.093,'kJ/mol'),
         S298 = (191.929,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_6_6_ene_4 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_6_6_ene_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5900,7 +7496,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_6_6_diene_0_m from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_6_6_diene_0_m from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5928,7 +7524,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_6_6_diene_0_2 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_6_6_diene_0_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5956,7 +7552,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_6_6_diene_0_3 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_6_6_diene_0_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -5984,7 +7580,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_6_6_diene_0_4 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_6_6_diene_0_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -6012,7 +7608,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_6_6_diene_0_5 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_6_6_diene_0_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -6040,7 +7636,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_6_6_diene_0_6 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_6_6_diene_0_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -6061,14 +7657,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-37.3301,-33.3122,-29.196,-25.2285,-17.6312,-12.0471,-5.61348],'J/(mol*K)'),
-        H298 = (292.685,'kJ/mol'),
-        S298 = (195.572,'J/(mol*K)'),
+        Cpdata = ([-40.4851,-35.1412,-30.136,-25.8755,-18.0682,-12.3311,-5.67248],'J/(mol*K)'),
+        H298 = (261.359,'kJ/mol'),
+        S298 = (186.547,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_6_6_diene_1_m from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_6_6_diene_1_m from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -6096,7 +7692,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_6_6_diene_1_5 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_6_6_diene_1_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -6124,7 +7720,7 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_6_6_diene_1_6 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_6_6_diene_1_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -6152,7 +7748,142 @@ entry(
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s3_6_6_diene_1_8 from polycyclic_all_thermoLiabrary library.
+Fitted from molecule s3_6_6_diene_1_8 from Bicyclics_QM_190_isomorphic library.
+""",
+)
+
+entry(
+    index = 0,
+    label = "s3_6_7",
+    group = 
+"""
+1    C u0 {3,[S,D,T,B]} {6,[S,D,T,B]} {7,[S,D,T,B]}
+2    C u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+3    C u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
+4  * C u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+5    C u0 {2,[S,D,T,B]} {9,[S,D,T,B]}
+6    C u0 {1,[S,D,T,B]} {8,[S,D,T,B]}
+7    C u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
+8    C u0 {4,[S,D,T,B]} {6,[S,D,T,B]}
+9    C u0 {5,[S,D,T,B]} {10,[S,D,T,B]}
+10   C u0 {7,[S,D,T,B]} {9,[S,D,T,B]}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 186,
+    label = "s3_6_7_ane",
+    group = 
+"""
+1    C u0 {3,S} {6,S} {7,S}
+2    C u0 {3,S} {4,S} {5,S}
+3    C u0 {1,S} {2,S}
+4  * C u0 {2,S} {8,S}
+5    C u0 {2,S} {9,S}
+6    C u0 {1,S} {8,S}
+7    C u0 {1,S} {10,S}
+8    C u0 {4,S} {6,S}
+9    C u0 {5,S} {10,S}
+10   C u0 {7,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-52.0757,-47.7534,-42.6136,-36.6226,-24.3801,-14.2979,-2.76456],'J/(mol*K)'),
+        H298 = (80.8622,'kJ/mol'),
+        S298 = (157.986,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from thermo library values""",
+    longDesc = 
+u"""
+Fitted from molecule s3_6_7_ane from Bicyclics_QM_190_isomorphic library.
+""",
+)
+
+entry(
+    index = 0,
+    label = "s3_6_7_ene",
+    group = "OR{s3_6_7_ene_6}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 187,
+    label = "s3_6_7_ene_6",
+    group = 
+"""
+1    C u0 {3,S} {6,S} {7,S}
+2    C u0 {3,S} {4,S} {5,S}
+3    C u0 {1,S} {2,S}
+4    C u0 {2,S} {9,S}
+5  * C u0 {2,S} {8,D}
+6    C u0 {1,S} {10,S}
+7    C u0 {1,S} {8,S}
+8    C u0 {5,D} {7,S}
+9    C u0 {4,S} {10,S}
+10   C u0 {6,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-46.6388,-42.4017,-37.8678,-32.5923,-22.7928,-14.1219,-4.4222],'J/(mol*K)'),
+        H298 = (184.655,'kJ/mol'),
+        S298 = (156.543,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from thermo library values""",
+    longDesc = 
+u"""
+Fitted from molecule s3_6_7_ene_6 from Bicyclics_QM_190_isomorphic library.
+""",
+)
+
+entry(
+    index = 0,
+    label = "s3_6_7_diene",
+    group = "OR{s3_6_7_diene_6_9-0}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 188,
+    label = "s3_6_7_diene_6_9-0",
+    group = 
+"""
+1    C u0 {3,D} {4,S} {7,S}
+2    C u0 {3,S} {5,S} {6,S}
+3    C u0 {1,D} {2,S}
+4    C u0 {1,S} {10,S}
+5  * C u0 {2,S} {8,D}
+6    C u0 {2,S} {9,S}
+7    C u0 {1,S} {8,S}
+8    C u0 {5,D} {7,S}
+9    C u0 {6,S} {10,S}
+10   C u0 {4,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-40.7561,-34.753,-29.908,-25.4219,-16.5741,-10.1356,-2.73148],'J/(mol*K)'),
+        H298 = (447.124,'kJ/mol'),
+        S298 = (169.068,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from thermo library values""",
+    longDesc = 
+u"""
+Fitted from molecule s3_6_7_diene_6_9-0 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -6202,6 +7933,141 @@ entry(
     longDesc = 
 u"""
 Wiberg, K. Angew. Chem., Int. Ed. Engl. 1986, 25, 312 1986 experimental S, Cp from PM7 calculation
+""",
+)
+
+entry(
+    index = 0,
+    label = "s4_6_8",
+    group = 
+"""
+1    C u0 {4,[S,D,T,B]} {5,[S,D,T,B]} {7,[S,D,T,B]}
+2    C u0 {3,[S,D,T,B]} {6,[S,D,T,B]} {8,[S,D,T,B]}
+3  * C u0 {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    C u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
+5    C u0 {1,[S,D,T,B]} {6,[S,D,T,B]}
+6    C u0 {2,[S,D,T,B]} {5,[S,D,T,B]}
+7    C u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
+8    C u0 {2,[S,D,T,B]} {9,[S,D,T,B]}
+9    C u0 {8,[S,D,T,B]} {10,[S,D,T,B]}
+10   C u0 {7,[S,D,T,B]} {9,[S,D,T,B]}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 189,
+    label = "s4_6_8_ane",
+    group = 
+"""
+1    C u0 {4,S} {5,S} {7,S}
+2    C u0 {3,S} {6,S} {8,S}
+3  * C u0 {2,S} {4,S}
+4    C u0 {1,S} {3,S}
+5    C u0 {1,S} {6,S}
+6    C u0 {2,S} {5,S}
+7    C u0 {1,S} {10,S}
+8    C u0 {2,S} {9,S}
+9    C u0 {8,S} {10,S}
+10   C u0 {7,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-46.2777,-42.7734,-38.8706,-33.5046,-22.3041,-13.1179,-3.02056],'J/(mol*K)'),
+        H298 = (292.061,'kJ/mol'),
+        S298 = (169.335,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from thermo library values""",
+    longDesc = 
+u"""
+Fitted from molecule s4_6_8_ane from Bicyclics_QM_190_isomorphic library.
+""",
+)
+
+entry(
+    index = 0,
+    label = "s4_6_8_ene",
+    group = "OR{s4_6_8_ene_7}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 190,
+    label = "s4_6_8_ene_7",
+    group = 
+"""
+1    C u0 {3,S} {4,S} {8,S}
+2    C u0 {5,D} {6,S} {7,S}
+3  * C u0 {1,S} {5,S}
+4    C u0 {1,S} {6,S}
+5    C u0 {2,D} {3,S}
+6    C u0 {2,S} {4,S}
+7    C u0 {2,S} {9,S}
+8    C u0 {1,S} {10,S}
+9    C u0 {7,S} {10,S}
+10   C u0 {8,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-44.5304,-41.3997,-37.2241,-32.1561,-21.8408,-13.2809,-3.36732],'J/(mol*K)'),
+        H298 = (136.419,'kJ/mol'),
+        S298 = (159.81,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from thermo library values""",
+    longDesc = 
+u"""
+Fitted from molecule s4_6_8_ene_7 from Bicyclics_QM_190_isomorphic library.
+""",
+)
+
+entry(
+    index = 0,
+    label = "s4_6_8_diene",
+    group = "OR{s4_6_8_diene_7_9}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 191,
+    label = "s4_6_8_diene_7_9",
+    group = 
+"""
+1    C u0 {3,D} {5,S} {7,S}
+2    C u0 {4,S} {6,S} {8,S}
+3  * C u0 {1,D} {4,S}
+4    C u0 {2,S} {3,S}
+5    C u0 {1,S} {6,D}
+6    C u0 {2,S} {5,D}
+7    C u0 {1,S} {10,S}
+8    C u0 {2,S} {9,S}
+9    C u0 {8,S} {10,S}
+10   C u0 {7,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-43.5867,-42.4018,-39.4395,-34.4239,-24.4858,-15.9891,-6.57996],'J/(mol*K)'),
+        H298 = (144.295,'kJ/mol'),
+        S298 = (176.495,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from thermo library values""",
+    longDesc = 
+u"""
+Fitted from molecule s4_6_8_diene_7_9 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
@@ -6281,6 +8147,12 @@ L1: PolycyclicRing
             L4: s1_5_6_diene_2_7
             L4: s1_5_6_diene_2_8
             L4: s1_5_6_diene_7_9
+        L3: s1_5_6_triene
+            L4: s1_5_6_triene_1_3_7
+            L4: s1_5_6_triene_1_3_8
+        L3: s1_5_6_tetraene
+            L4: s1_5_6_tetraene_1_3_7_9
+            L4: s1_5_6_tetraene_1_4_7_9
     L2: s1_6_6
         L3: s1_6_6_ane
         L3: s1_6_6_ene
@@ -6304,13 +8176,18 @@ L1: PolycyclicRing
         L3: s2_3_5_ane
         L3: s2_3_5_ene
             L4: s2_3_5_ene_1
+            L4: s2_3_5_ene_side
+            L4: s2_3_5_ene_1_side
     L2: s2_3_6
         L3: s2_3_6_ane
         L3: s2_3_6_ene
             L4: s2_3_6_ene_1
             L4: s2_3_6_ene_2
         L3: s2_3_6_diene
+            L4: s2_3_6_diene_0_2
+            L4: s2_3_6_diene_0_3
             L4: s2_3_6_diene_1_3
+        L3: s2_3_6_ben
     L2: s2_3_7
         L3: s2_3_7_ane
     L2: s2_3_8
@@ -6323,16 +8200,23 @@ L1: PolycyclicRing
     L2: s2_4_5
         L3: s2_4_5_ane
         L3: s2_4_5_ene
+            L4: s2_4_5_ene_0
             L4: s2_4_5_ene_1
+        L3: s2_4_5_diene
+            L4: s2_4_5_diene_0_3
+            L4: s2_4_5_diene_1_5
+            L4: s2_4_5_diene_4_6
     L2: s2_4_6
         L3: s2_4_6_ane
         L3: s2_4_6_ene
             L4: s2_4_6_ene_1
             L4: s2_4_6_ene_2
+            L4: s2_4_6_ene_6
         L3: s2_4_6_diene
             L4: s2_4_6_diene_1_3
             L4: s2_4_6_diene_1_6
             L4: s2_4_6_diene_2_6
+            L4: s2_4_6_diene_5_7
         L3: s2_4_6_ben
     L2: s2_5_5
         L3: s2_5_5_ane
@@ -6349,6 +8233,8 @@ L1: PolycyclicRing
             L4: s2_5_5_diene_0_6
             L4: s2_5_5_diene_1_5
             L4: s2_5_5_diene_1_6
+        L3: s2_5_5_tetraene
+            L4: s2_5_5_tetraene_0_2_4_6
     L2: s2_5_6
         L3: s2_5_6_ane
         L3: s2_5_6_ene
@@ -6377,8 +8263,33 @@ L1: PolycyclicRing
             L4: s2_5_6_diene_2_6
             L4: s2_5_6_diene_5_7
             L4: s2_5_6_diene_5_8
+        L3: s2_5_6_triene
+            L4: s2_5_6_triene_0_2_6
+            L4: s2_5_6_triene_0_2_7
+            L4: s2_5_6_triene_0_3_7
+            L4: s2_5_6_triene_1_3_5
+            L4: s2_5_6_triene_1_3_6
+            L4: s2_5_6_triene_1_6_8
+            L4: s2_5_6_triene_2_5_7
+            L4: s2_5_6_triene_m_1_7
+            L4: s2_5_6_triene_m_2_6
+        L3: s2_5_6_tetraene
+            L4: s2_5_6_tetraene_1_3_5_7
+            L4: s2_5_6_tetraene_1_3_5_8
         L3: s2_5_6_ben
         L3: s2_5_6_indene
+    L2: s2_5_7
+        L3: s2_5_7_triene
+            L4: s2_5_7_triene_0_2_8
+            L4: s2_5_7_triene_0_3_8
+            L4: s2_5_7_triene_1_3_7
+            L4: s2_5_7_triene_1_3_8
+            L4: s2_5_7_triene_1_3_9
+            L4: s2_5_7_triene_1_4_7
+        L3: s2_5_7_tetraene
+            L4: s2_5_7_tetraene_0_2_4_8
+            L4: s2_5_7_tetraene_1_3_7_9
+            L4: s2_5_7_tetraene_m_1_3_8
     L2: s2_6_6
         L3: s2_6_6_ane
         L3: s2_6_6_ene
@@ -6401,7 +8312,23 @@ L1: PolycyclicRing
             L4: s2_6_6_diene_1_7
             L4: s2_6_6_diene_1_8
             L4: s2_6_6_diene_2_7
+        L3: s2_6_6_triene
+            L4: s2_6_6_triene_0_2_6
+            L4: s2_6_6_triene_0_2_7
+            L4: s2_6_6_triene_0_3_7
+            L4: s2_6_6_triene_1_3_6
+            L4: s2_6_6_triene_1_3_7
+        L3: s2_6_6_tetraene
+            L4: s2_6_6_tetraene_0_2_4_7
+            L4: s2_6_6_tetraene_0_2_5_7
+            L4: s2_6_6_tetraene_0_2_6_8
+            L4: s2_6_6_tetraene_0_3_6_8
+            L4: s2_6_6_tetraene_1_3_6_8
         L3: s2_6_6_ben
+        L3: s2_6_6_ben_ene
+            L4: s2_6_6_ben_ene_1
+            L4: s2_6_6_ben_ene_2
+        L3: s2_6_6_naphthalene
     L2: s3_4_4
         L3: s3_4_4_ane
         L3: s3_4_4_ene
@@ -6434,8 +8361,10 @@ L1: PolycyclicRing
     L2: s3_5_5
         L3: s3_5_5_ane
         L3: s3_5_5_ene
+            L4: s3_5_5_ene_0
             L4: s3_5_5_ene_1
             L4: s3_5_5_ene_side
+            L4: s3_5_5_ene_m
         L3: s3_5_5_diene
             L4: s3_5_5_diene_1_4
     L2: s3_5_6
@@ -6462,8 +8391,20 @@ L1: PolycyclicRing
             L4: s3_6_6_diene_1_5
             L4: s3_6_6_diene_1_6
             L4: s3_6_6_diene_1_8
+    L2: s3_6_7
+        L3: s3_6_7_ane
+        L3: s3_6_7_ene
+            L4: s3_6_7_ene_6
+        L3: s3_6_7_diene
+            L4: s3_6_7_diene_6_9-0
     L2: s4_6_6
         L3: s4_6_6_ane
+    L2: s4_6_8
+        L3: s4_6_8_ane
+        L3: s4_6_8_ene
+            L4: s4_6_8_ene_7
+        L3: s4_6_8_diene
+            L4: s4_6_8_diene_7_9
 """
 )
 
