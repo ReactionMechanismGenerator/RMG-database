@@ -43894,6 +43894,21 @@ Value from CBS-QB3 + Cantherm, with symmetry contribution removed.
 """,
 )
 
+entry(
+    index = 2001,
+    label = 'sid',
+    group =
+"""
+1 * Sid u0 p[1,2] c0
+""",
+    thermo = u'si-Sid-H',
+    shortDesc=u"""""",
+    longDesc =
+u"""
+Enabled to allow sid, which will always be bonded to an Sid.
+""",
+)
+
 tree(
 """
 L1: R
@@ -45875,6 +45890,7 @@ L1: R
              L4: si-Sid2
              L4: si-Sid-si
              L4: si-si2
+             L4: sid
     L2: S
         L3: Sd
             L4: Sd-Cd
