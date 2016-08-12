@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+# IMPORTANT REQUEST: If you add a globally forbidden group, please comment why it is forbidden and give example\s.
+
 name = ""
 shortDesc = u""
 longDesc = u"""
