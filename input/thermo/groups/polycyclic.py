@@ -8071,6 +8071,412 @@ Fitted from molecule s4_6_8_diene_7_9 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
+entry(
+    index = 3,
+    label = "s2-3_5_5_5_ane",
+    group = 
+"""
+1    C u0 {2,S} {4,S} {9,S}
+2    C u0 {1,S} {3,S} {8,S}
+3  * C u0 {2,S} {5,S} {6,S}
+4    C u0 {1,S} {5,S} {7,S}
+5    C u0 {3,S} {4,S}
+6    C u0 {3,S} {7,S}
+7    C u0 {4,S} {6,S}
+8    C u0 {2,S} {10,S}
+9    C u0 {1,S} {10,S}
+10   C u0 {8,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-15.018,-13.783,-12.193,-10.63,-8.502,-6.688,-4.111],'cal/(mol*K)'),
+        H298 = (17.68,'kcal/mol'),
+        S298 = (78.53,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Modified Aaron G. Vandeputte to make estimates in agreement with value of Hudzik et al. 2010
+""",
+)
+
+entry(
+    index = 4,
+    label = "s2-3_5d1_5_5_ene",
+    group = 
+"""
+1    C u0 {2,S} {4,S} {9,S}
+2    C u0 {1,S} {3,S} {8,S}
+3  * C u0 {2,S} {5,S} {6,S}
+4    C u0 {1,S} {5,S} {7,S}
+5    C u0 {3,S} {4,S}
+6    C u0 {3,S} {7,S}
+7    C u0 {4,S} {6,S}
+8    C u0 {2,S} {10,D}
+9    C u0 {1,S} {10,S}
+10   C u0 {8,D} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-15.018,-13.783,-12.193,-10.63,-8.502,-6.688,-4.111],'cal/(mol*K)'),
+        H298 = (22.65,'kcal/mol'),
+        S298 = (78.53,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from exo-tricyclo[5.2.1.0(2.6)]decane
+""",
+)
+
+entry(
+    index = 5,
+    label = "s2-3f0_5_5_5_ane",
+    group = 
+"""
+1  * C u0 {2,S} {4,S} {6,S} {7,S}
+2    C u0 {1,S} {5,S} {8,S}
+3    C u0 {4,S} {5,S} {9,S}
+4    C u0 {1,S} {3,S}
+5    C u0 {2,S} {3,S}
+6    C u0 {1,S} {9,S}
+7    C u0 {1,S} {10,S}
+8    C u0 {2,S} {10,S}
+9    C u0 {3,S} {6,S}
+10   C u0 {7,S} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-15.018,-13.783,-12.193,-10.63,-8.502,-6.688,-4.111],'cal/(mol*K)'),
+        H298 = (23.86,'kcal/mol'),
+        S298 = (78.53,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from exo-tricyclo[5.2.1.0(2.6)]decane
+""",
+)
+
+entry(
+    index = 6,
+    label = "s2-3f1_6_5_5_ane",
+    group = 
+"""
+1    C u0 {2,S} {3,S} {5,S}
+2    C u0 {1,S} {7,S} {8,S}
+3    C u0 {1,S} {6,S} {9,S}
+4  * C u0 {5,S} {6,S} {7,S}
+5    C u0 {1,S} {4,S}
+6    C u0 {3,S} {4,S}
+7    C u0 {2,S} {4,S}
+8    C u0 {2,S} {10,S}
+9    C u0 {3,S} {10,S}
+10   C u0 {8,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-15.018,-13.783,-12.193,-10.63,-8.502,-6.688,-4.111],'cal/(mol*K)'),
+        H298 = (19.26,'kcal/mol'),
+        S298 = (78.53,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from exo-tricyclo[5.2.1.0(2.6)]decane
+""",
+)
+
+entry(
+    index = 8,
+    label = "s2-3_5_5_5d1_ene",
+    group = 
+"""
+1    C u0 {2,S} {3,S} {8,S}
+2    C u0 {1,S} {4,S} {9,S}
+3  * C u0 {1,S} {5,S} {7,S}
+4    C u0 {2,S} {5,S} {6,S}
+5    C u0 {3,S} {4,S}
+6    C u0 {4,S} {7,D}
+7    C u0 {3,S} {6,D}
+8    C u0 {1,S} {10,S}
+9    C u0 {2,S} {10,S}
+10   C u0 {8,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-12.29,-11.16,-10.04,-8.64,-7.12,-5.72,-3.81],'cal/(mol*K)'),
+        H298 = (22.83,'kcal/mol'),
+        S298 = (79.45,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+A. G. Vandeputte CBS-QB3 isodesmic reaction, S and cp match B3LYP/cbsb7 data, CHECK
+""",
+)
+
+entry(
+    index = 72,
+    label = "s3-3_5_6_5_ane",
+    group = 
+"""
+1  * C u0 {2,S} {6,S} {8,S}
+2    C u0 {1,S} {5,S} {9,S}
+3    C u0 {4,S} {5,S} {10,S}
+4    C u0 {3,S} {6,S} {7,S}
+5    C u0 {2,S} {3,S}
+6    C u0 {1,S} {4,S}
+7    C u0 {4,S} {8,S}
+8    C u0 {1,S} {7,S}
+9    C u0 {2,S} {10,S}
+10   C u0 {3,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-15.1,-13.4,-11.6,-10,-7.8,-6.1,-3.7],'cal/(mol*K)'),
+        H298 = (22.5,'kcal/mol'),
+        S298 = (77.13,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+A.G Vandeputte CBS-QB3, reaction JP10 <-> tricyclo[4.2.1.1(2.5)]decane
+""",
+)
+
+entry(
+    index = 13,
+    label = "s2-4f1_5_6_7_ane",
+    group = 
+"""
+1    C u0 {2,S} {3,S} {7,S}
+2  * C u0 {1,S} {5,S} {8,S}
+3    C u0 {1,S} {6,S} {9,S}
+4    C u0 {5,S} {6,S} {10,S}
+5    C u0 {2,S} {4,S}
+6    C u0 {3,S} {4,S}
+7    C u0 {1,S} {10,S}
+8    C u0 {2,S} {9,S}
+9    C u0 {3,S} {8,S}
+10   C u0 {4,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-15.58,-14.7,-12.37,-9.37,-5.42,-4.64,-1.58],'cal/(mol*K)'),
+        H298 = (20.77,'kcal/mol'),
+        S298 = (78.58,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from PM7
+""",
+)
+
+entry(
+    index = 14,
+    label = "s2-4f2_5_6_8_ane",
+    group = 
+"""
+1  * C u0 {2,S} {5,S} {6,S}
+2    C u0 {1,S} {7,S} {9,S}
+3    C u0 {5,S} {7,S} {8,S}
+4    C u0 {6,S} {8,S} {10,S}
+5    C u0 {1,S} {3,S}
+6    C u0 {1,S} {4,S}
+7    C u0 {2,S} {3,S}
+8    C u0 {3,S} {4,S}
+9    C u0 {2,S} {10,S}
+10   C u0 {4,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-16.03,-15.03,-12.57,-9.46,-5.47,-4.74,-1.59],'cal/(mol*K)'),
+        H298 = (18.29,'kcal/mol'),
+        S298 = (75.75,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from PM7
+""",
+)
+
+entry(
+    index = 32,
+    label = "s2-2f1_5_5_2_ane",
+    group = 
+"""
+1    C u0 {2,S} {3,S} {4,S}
+2  * C u0 {1,S} {5,S} {10,S}
+3    C u0 {1,S} {6,S} {7,S}
+4    C u0 {1,S} {8,S} {9,S}
+5    C u0 {2,S} {6,S}
+6    C u0 {3,S} {5,S}
+7    C u0 {3,S} {8,S}
+8    C u0 {4,S} {7,S}
+9    C u0 {4,S} {10,S}
+10   C u0 {2,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-15.018,-13.783,-12.193,-10.63,-8.502,-6.688,-4.111],'cal/(mol*K)'),
+        H298 = (15.68,'kcal/mol'),
+        S298 = (78.53,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Modified Aaron G. Vandeputte, kept enthalpy Nick Vandewiele, modified S and cp to be equal to exo-tricyclo[5.2.1.0(2.6)]
+""",
+)
+
+entry(
+    index = 33,
+    label = "s2-3f1_5_5_6_ane",
+    group = 
+"""
+1    C u0 {2,S} {3,S} {5,S}
+2  * C u0 {1,S} {6,S} {7,S}
+3    C u0 {1,S} {8,S} {9,S}
+4    C u0 {5,S} {6,S} {10,S}
+5    C u0 {1,S} {4,S}
+6    C u0 {2,S} {4,S}
+7    C u0 {2,S} {8,S}
+8    C u0 {3,S} {7,S}
+9    C u0 {3,S} {10,S}
+10   C u0 {4,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-15.6,-14.69,-12.36,-9.34,-5.4,-4.64,-1.58],'cal/(mol*K)'),
+        H298 = (21.48,'kcal/mol'),
+        S298 = (78.96,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from PM7
+""",
+)
+
+entry(
+    index = 34,
+    label = "s2-4f0_5_5_6_ane",
+    group = 
+"""
+1  * C u0 {2,S} {4,S} {5,S} {6,S}
+2    C u0 {1,S} {3,S} {7,S}
+3    C u0 {2,S} {8,S} {9,S}
+4    C u0 {1,S} {8,S}
+5    C u0 {1,S} {9,S}
+6    C u0 {1,S} {10,S}
+7    C u0 {2,S} {10,S}
+8    C u0 {3,S} {4,S}
+9    C u0 {3,S} {5,S}
+10   C u0 {6,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-15.15,-14.51,-12.47,-9.72,-5.97,-5.19,-1.39],'cal/(mol*K)'),
+        H298 = (29.65,'kcal/mol'),
+        S298 = (82.23,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from PM7
+""",
+)
+
+entry(
+    index = 35,
+    label = "s2-4f1_5_5_7_ane",
+    group = 
+"""
+1  * C u0 {2,S} {3,S} {6,S}
+2    C u0 {1,S} {4,S} {5,S}
+3    C u0 {1,S} {7,S} {8,S}
+4    C u0 {2,S} {9,S} {10,S}
+5    C u0 {2,S} {7,S}
+6    C u0 {1,S} {10,S}
+7    C u0 {3,S} {5,S}
+8    C u0 {3,S} {9,S}
+9    C u0 {4,S} {8,S}
+10   C u0 {4,S} {6,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-15.5,-14.55,-12.19,-9.17,-5.28,-4.57,-1.53],'cal/(mol*K)'),
+        H298 = (20.74,'kcal/mol'),
+        S298 = (77.45,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from PM7
+""",
+)
+
+entry(
+    index = 69,
+    label = "s4-3f1_6_6_6_ane",
+    group = 
+"""
+1  * C u0 {3,S} {6,S} {7,S}
+2    C u0 {4,S} {5,S} {8,S}
+3    C u0 {1,S} {5,S} {9,S}
+4    C u0 {2,S} {6,S} {10,S}
+5    C u0 {2,S} {3,S}
+6    C u0 {1,S} {4,S}
+7    C u0 {1,S} {8,S}
+8    C u0 {2,S} {7,S}
+9    C u0 {3,S} {10,S}
+10   C u0 {4,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-16.13,-15.02,-12.47,-9.29,-5.32,-4.7,-1.53],'cal/(mol*K)'),
+        H298 = (26.12,'kcal/mol'),
+        S298 = (75.25,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from cyclohexane
+""",
+)
+
+entry(
+    index = 67,
+    label = "s3-3f1_6_5_6_ane",
+    group = 
+"""
+1  * C u0 {4,S} {5,S} {6,S}
+2    C u0 {3,S} {5,S} {7,S}
+3    C u0 {2,S} {6,S} {10,S}
+4    C u0 {1,S} {8,S} {9,S}
+5    C u0 {1,S} {2,S}
+6    C u0 {1,S} {3,S}
+7    C u0 {2,S} {8,S}
+8    C u0 {4,S} {7,S}
+9    C u0 {4,S} {10,S}
+10   C u0 {3,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-16.09,-14.97,-12.4,-9.23,-5.27,-4.66,-1.5],'cal/(mol*K)'),
+        H298 = (30.9,'kcal/mol'),
+        S298 = (75.36,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from cyclopentane
+""",
+)
+
 tree(
 """
 L1: PolycyclicRing
@@ -8405,6 +8811,20 @@ L1: PolycyclicRing
             L4: s4_6_8_ene_7
         L3: s4_6_8_diene
             L4: s4_6_8_diene_7_9
+    L2: s2-3_5_5_5_ane
+    L2: s2-3_5d1_5_5_ene
+    L2: s2-3f0_5_5_5_ane
+    L2: s2-3f1_6_5_5_ane
+    L2: s2-3_5_5_5d1_ene
+    L2: s3-3_5_6_5_ane
+    L2: s2-4f1_5_6_7_ane
+    L2: s2-4f2_5_6_8_ane
+    L2: s2-2f1_5_5_2_ane
+    L2: s2-3f1_5_5_6_ane
+    L2: s2-4f0_5_5_6_ane
+    L2: s2-4f1_5_5_7_ane
+    L2: s4-3f1_6_6_6_ane
+    L2: s3-3f1_6_5_6_ane
 """
 )
 
