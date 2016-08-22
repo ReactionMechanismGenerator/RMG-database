@@ -426,7 +426,7 @@ CH3CH2CH2CO (doublet): EXTSYM = 1, three hindered rotors (methyl group, symmetry
 
 entry(
     index = 427,
-    label = "COm;CH[CH3]2",
+    label = "COm;CH(CH3)2",
     kinetics = ArrheniusEP(
         A = (8.61e+07, 'cm^3/(mol*s)', '*|/', 3),
         n = 1.36,
