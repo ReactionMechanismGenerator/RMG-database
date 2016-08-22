@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 
-template(reactants=["C1(R)(H)(O[OC3(OH)(R')]C2)"], products=["C1(R)(O)(C2)", "C3(OH)(O)(R')"], ownReverse=False)
+template(reactants=["C1(R)(H)(O(OC3(OH)(R'))C2)"], products=["C1(R)(O)(C2)", "C3(OH)(O)(R')"], ownReverse=False)
 
 reverse = "none"
 
@@ -22,7 +22,7 @@ recipe(actions=[
 
 entry(
     index = 1,
-    label = "C1(R)(H)(O[OC3(OH)(R')]C2)",
+    label = "C1(R)(H)(O(OC3(OH)(R'))C2)",
     group = 
 """
 1  *1 C u0 {2,S} {4,S} {7,S} {9,S}
@@ -43,7 +43,7 @@ entry(
 
 tree(
 """
-L1: C1(R)(H)(O[OC3(OH)(R')]C2)
+L1: C1(R)(H)(O(OC3(OH)(R'))C2)
 """
 )
 

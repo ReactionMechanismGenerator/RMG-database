@@ -403,7 +403,7 @@ entry(
 
 entry(
     index = 32,
-    label = "CH[CH3]2",
+    label = "CH(CH3)2",
     group = 
 """
 1  *2 C  u1 {2,S} {3,S} {4,S}
@@ -741,7 +741,7 @@ L1: Y_rad
             L4: C_rad/H2/O
         L3: C_sec_rad
             L4: C_rad/H/NonDeC
-                L5: CH[CH3]2
+                L5: CH(CH3)2
             L4: C_rad/H/NonDeO
                 L5: C_rad/H/CsO
                 L5: C_rad/H/O2
