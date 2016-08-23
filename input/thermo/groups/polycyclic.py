@@ -8480,6 +8480,20 @@ Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from 
 tree(
 """
 L1: PolycyclicRing
+    L2: s2-3_5_5_5_ane
+    L2: s2-3_5d1_5_5_ene
+    L2: s2-3f0_5_5_5_ane
+    L2: s2-3f1_6_5_5_ane
+    L2: s2-3_5_5_5d1_ene
+    L2: s3-3_5_6_5_ane
+    L2: s2-4f1_5_6_7_ane
+    L2: s2-4f2_5_6_8_ane
+    L2: s2-2f1_5_5_2_ane
+    L2: s2-3f1_5_5_6_ane
+    L2: s2-4f0_5_5_6_ane
+    L2: s2-4f1_5_5_7_ane
+    L2: s4-3f1_6_6_6_ane
+    L2: s3-3f1_6_5_6_ane
     L2: s1_3_3
         L3: s1_3_3_ane
         L3: s1_3_3_ene
@@ -8581,9 +8595,9 @@ L1: PolycyclicRing
     L2: s2_3_5
         L3: s2_3_5_ane
         L3: s2_3_5_ene
-            L4: s2_3_5_ene_1
-            L4: s2_3_5_ene_side
             L4: s2_3_5_ene_1_side
+            L4: s2_3_5_ene_1
+            L4: s2_3_5_ene_side 
     L2: s2_3_6
         L3: s2_3_6_ane
         L3: s2_3_6_ene
@@ -8811,20 +8825,6 @@ L1: PolycyclicRing
             L4: s4_6_8_ene_7
         L3: s4_6_8_diene
             L4: s4_6_8_diene_7_9
-    L2: s2-3_5_5_5_ane
-    L2: s2-3_5d1_5_5_ene
-    L2: s2-3f0_5_5_5_ane
-    L2: s2-3f1_6_5_5_ane
-    L2: s2-3_5_5_5d1_ene
-    L2: s3-3_5_6_5_ane
-    L2: s2-4f1_5_6_7_ane
-    L2: s2-4f2_5_6_8_ane
-    L2: s2-2f1_5_5_2_ane
-    L2: s2-3f1_5_5_6_ane
-    L2: s2-4f0_5_5_6_ane
-    L2: s2-4f1_5_5_7_ane
-    L2: s4-3f1_6_6_6_ane
-    L2: s3-3f1_6_5_6_ane
 """
 )
 
