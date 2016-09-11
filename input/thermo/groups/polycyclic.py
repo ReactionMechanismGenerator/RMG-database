@@ -2444,13 +2444,13 @@ entry(
     label = "s2_3_5_ene_side",
     group = 
 """
-1 * C u0 {2,S} {4,S} {6,S}
-2   C u0 {1,S} {4,S} {5,S}
-3   C u0 {5,S} {6,S} {7,D}
-4   C u0 {1,S} {2,S}
-5   C u0 {2,S} {3,S}
-6   C u0 {1,S} {3,S}
-7   R ux {3,D}
+1 * C   u0 {2,S} {4,S} {6,S}
+2   C   u0 {1,S} {4,S} {5,S}
+3   C   u0 {5,S} {6,S} {7,D}
+4   C   u0 {1,S} {2,S}
+5   C   u0 {2,S} {3,S}
+6   C   u0 {1,S} {3,S}
+7   R!H ux {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2470,13 +2470,13 @@ entry(
     label = "s2_3_5_ene_1_side",
     group = 
 """
-1 * C u0 {2,S} {3,S} {4,S}
-2   C u0 {1,S} {3,S} {5,S}
-3   C u0 {1,S} {2,S} {7,D}
-4   C u0 {1,S} {6,S}
-5   C u0 {2,S} {6,D}
-6   C u0 {4,S} {5,D}
-7   R ux {3,D}
+1 * C   u0 {2,S} {3,S} {4,S}
+2   C   u0 {1,S} {3,S} {5,S}
+3   C   u0 {1,S} {2,S} {7,D}
+4   C   u0 {1,S} {6,S}
+5   C   u0 {2,S} {6,D}
+6   C   u0 {4,S} {5,D}
+7   R!H ux {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7073,14 +7073,14 @@ entry(
     label = "s3_5_5_ene_side",
     group = 
 """
-1   C u0 {3,S} {4,S} {6,S}
-2   C u0 {4,S} {5,S} {7,S}
-3 * C u0 {1,S} {5,S} {8,D}
-4   C u0 {1,S} {2,S}
-5   C u0 {2,S} {3,S}
-6   C u0 {1,S} {7,S}
-7   C u0 {2,S} {6,S}
-8   R ux {3,D}
+1   C   u0 {3,S} {4,S} {6,S}
+2   C   u0 {4,S} {5,S} {7,S}
+3 * C   u0 {1,S} {5,S} {8,D}
+4   C   u0 {1,S} {2,S}
+5   C   u0 {2,S} {3,S}
+6   C   u0 {1,S} {7,S}
+7   C   u0 {2,S} {6,S}
+8   R!H ux {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -8593,11 +8593,11 @@ L1: PolycyclicRing
             L4: s2_3_4_ene_1
             L4: s2_3_4_ene_m
     L2: s2_3_5
-        L3: s2_3_5_ane
         L3: s2_3_5_ene
             L4: s2_3_5_ene_1_side
             L4: s2_3_5_ene_1
             L4: s2_3_5_ene_side 
+        L3: s2_3_5_ane
     L2: s2_3_6
         L3: s2_3_6_ane
         L3: s2_3_6_ene
@@ -8779,12 +8779,12 @@ L1: PolycyclicRing
             L4: s3_4_6_diene_1_4
             L4: s3_4_6_diene_1_5
     L2: s3_5_5
-        L3: s3_5_5_ane
         L3: s3_5_5_ene
             L4: s3_5_5_ene_0
             L4: s3_5_5_ene_1
             L4: s3_5_5_ene_side
             L4: s3_5_5_ene_m
+        L3: s3_5_5_ane
         L3: s3_5_5_diene
             L4: s3_5_5_diene_1_4
     L2: s3_5_6
