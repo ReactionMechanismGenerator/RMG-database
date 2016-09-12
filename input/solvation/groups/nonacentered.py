@@ -861,21 +861,21 @@ tree(
 """
 L1: R
     L2: CO
+        L3: Lac
+            L4: Lac3
+            L4: Lac4
+            L4: Lac5
+            L4: Lac6
         L3: Oss(CdsOd)
-            L4: Lac
-                L5: Lac3
-                L5: Lac4
-                L5: Lac5
-                L5: Lac6
         L3: Oss(CdsOd)Oss
         L3: OssH(CdsOd)
         L3: Cd(Od)Cd=CdCd(Od)
+        L3: Lactam
+            L4: Lactam4
+            L4: Lactam5
+            L4: Lactam6
+            L4: Lactam7        
         L3: Cd(Od)N
-            L4: Lactam
-                L5: Lactam4
-                L5: Lactam5
-                L5: Lactam6
-                L5: Lactam7
             L4: NCd(Od)N
             L4: OsCd(Od)N
             L4: Cd(Od)NCd(Od)
