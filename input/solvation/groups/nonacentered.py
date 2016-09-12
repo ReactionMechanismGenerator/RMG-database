@@ -557,9 +557,9 @@ entry(
     label = "OxR3",
     group = 
 """
-1 * Os u0 {2,S} {3,S}
-2   R  u0 {1,S} {3,[S,D,B]}
-3   R  u0 {1,S} {2,[S,D,B]}
+1 * Os  u0 {2,S} {3,S}
+2   R!H u0 {1,S} {3,[S,D,B]}
+3   R!H u0 {1,S} {2,[S,D,B]}
 """,
     solute = None,
     shortDesc = u"""O in a 3 membered ring""",
@@ -574,10 +574,10 @@ entry(
     label = "OxR4",
     group = 
 """
-1 * Os u0 {2,S} {4,S}
-2   R  u0 {1,S} {3,[S,D,B]}
-3   R  u0 {2,[S,D,B]} {4,[S,D,B]}
-4   R  u0 {1,S} {3,[S,D,B]}
+1 * Os  u0 {2,S} {4,S}
+2   R!H u0 {1,S} {3,[S,D,B]}
+3   R!H u0 {2,[S,D,B]} {4,[S,D,B]}
+4   R!H u0 {1,S} {3,[S,D,B]}
 """,
     solute = None,
     shortDesc = u"""O in a 4 membered ring""",
@@ -592,11 +592,11 @@ entry(
     label = "OxR5",
     group = 
 """
-1 * Os u0 {2,S} {5,S}
-2   R  u0 {1,S} {3,[S,D,B]}
-3   R  u0 {2,[S,D,B]} {4,[S,D,B]}
-4   R  u0 {3,[S,D,B]} {5,[S,D,B]}
-5   R  u0 {1,S} {4,[S,D,B]}
+1 * Os  u0 {2,S} {5,S}
+2   R!H u0 {1,S} {3,[S,D,B]}
+3   R!H u0 {2,[S,D,B]} {4,[S,D,B]}
+4   R!H u0 {3,[S,D,B]} {5,[S,D,B]}
+5   R!H u0 {1,S} {4,[S,D,B]}
 """,
     solute = None,
     shortDesc = u"""O in a 5 membered ring""",
@@ -611,12 +611,12 @@ entry(
     label = "OxR6",
     group = 
 """
-1 * Os u0 {2,S} {6,S}
-2   R  u0 {1,S} {3,[S,D,B]}
-3   R  u0 {2,[S,D,B]} {4,[S,D,B]}
-4   R  u0 {3,[S,D,B]} {5,[S,D,B]}
-5   R  u0 {4,[S,D,B]} {6,[S,D,B]}
-6   R  u0 {1,S} {5,[S,D,B]}
+1 * Os  u0 {2,S} {6,S}
+2   R!H u0 {1,S} {3,[S,D,B]}
+3   R!H u0 {2,[S,D,B]} {4,[S,D,B]}
+4   R!H u0 {3,[S,D,B]} {5,[S,D,B]}
+5   R!H u0 {4,[S,D,B]} {6,[S,D,B]}
+6   R!H u0 {1,S} {5,[S,D,B]}
 """,
     solute = None,
     shortDesc = u"""O in a 6 membered ring""",
@@ -631,13 +631,13 @@ entry(
     label = "OxR7",
     group = 
 """
-1 * Os u0 {2,S} {7,S}
-2   R  u0 {1,S} {3,[S,D,B]}
-3   R  u0 {2,[S,D,B]} {4,[S,D,B]}
-4   R  u0 {3,[S,D,B]} {5,[S,D,B]}
-5   R  u0 {4,[S,D,B]} {6,[S,D,B]}
-6   R  u0 {5,[S,D,B]} {7,[S,D,B]}
-7   R  u0 {1,S} {6,[S,D,B]}
+1 * Os  u0 {2,S} {7,S}
+2   R!H u0 {1,S} {3,[S,D,B]}
+3   R!H u0 {2,[S,D,B]} {4,[S,D,B]}
+4   R!H u0 {3,[S,D,B]} {5,[S,D,B]}
+5   R!H u0 {4,[S,D,B]} {6,[S,D,B]}
+6   R!H u0 {5,[S,D,B]} {7,[S,D,B]}
+7   R!H u0 {1,S} {6,[S,D,B]}
 """,
     solute = None,
     shortDesc = u"""O in a 7 membered ring""",
@@ -647,29 +647,30 @@ u"""
 """,
 )
 
-entry(
-    index = 26,
-    label = "SdOdOdN",
-    group = 
-"""
-1 * Sd u0 {2,D} {3,D} {4,S}
-2   Od u0 {1,D}
-3   Od u0 {1,D}
-4   N  u0 {1,S}
-""",
-    solute = SoluteData(
-        S = -0.569,
-        B = -0.446,
-        E = -0.111,
-        L = 0.0,
-        A = 0.356,
-    ),
-    shortDesc = u"""Platts group 51 sulfonamide -S(O)(O)N- (and fragment 13 for A)""",
-    longDesc = 
-u"""
+#temporarily removed until multivalent Sulfur is implemented
+# entry(
+#     index = 26,
+#     label = "SdOdOdN",
+#     group = 
+# """
+# 1 * Sd u0 {2,D} {3,D} {4,S}
+# 2   Od u0 {1,D}
+# 3   Od u0 {1,D}
+# 4   N  u0 {1,S}
+# """,
+#     solute = SoluteData(
+#         S = -0.569,
+#         B = -0.446,
+#         E = -0.111,
+#         L = 0.0,
+#         A = 0.356,
+#     ),
+#     shortDesc = u"""Platts group 51 sulfonamide -S(O)(O)N- (and fragment 13 for A)""",
+#     longDesc = 
+# u"""
 
-""",
-)
+# """,
+# )
 
 entry(
     index = 30,
@@ -889,12 +890,11 @@ L1: R
         L3: OxR5
         L3: OxR6
         L3: OxR7
-    L2: SdOdOdN
     L2: N3sH2-benz
+    L2: N3sHCd(Od)N3sH
     L2: Cd(Od)NH2
     L2: Cd(Od)NHR
         L3: Cd(Od)NH-arom
-    L2: N3sHCd(Od)N3sH
     L2: N3sCd(Od)N3sH
     L2: CdsNdNsNs
 """
