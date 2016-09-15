@@ -338,15 +338,16 @@ u"""
 """,
 )
 
+
 entry(
     index = 37,
-    label = "Cb-noH",
+    label = "Cbf-noH",
     group = 
 """
-1 * Cb  u0 {2,B} {3,B} {4,B}
+1 * Cbf u0 {2,B} {3,B} {4,B}
 2   R!H u0 {1,B}
-3   R!H u0 {1,B}
-4   R!H u0 {1,B}
+3   R!H  u0 {1,B}
+4   R!H  u0 {1,B}
 """,
     solute = SoluteData(
         S = 0.101,
@@ -1120,37 +1121,38 @@ u"""
 
 """,
 )
+#removed until we have aromatic sulfurs
+# entry(
+#     index = 35,
+#     label = "SdsOsOdOd",
+#     group = 
+# """
+# 1 * Sd u0 {2,D} {3,D} {4,S} {5,S}
+# 2   Od u0 {1,D}
+# 3   Od u0 {1,D}
+# 4   Os u0 {1,S}
+# 5   R  u0 {1,S}
+# """,
+#     solute = SoluteData(
+#         S = -0.505,
+#         B = -0.188,
+#         E = 0.0,
+#         L = 0.0,
+#         A = 0.0,
+#     ),
+#     shortDesc = u"""Platts fragment 35 sulfonate""",
+#     longDesc = 
+# u"""
 
-entry(
-    index = 35,
-    label = "SdsOsOdOd",
-    group = 
-"""
-1 * Sd u0 {2,D} {3,D} {4,S} {5,S}
-2   Od u0 {1,D}
-3   Od u0 {1,D}
-4   Os u0 {1,S}
-5   R  u0 {1,S}
-""",
-    solute = SoluteData(
-        S = -0.505,
-        B = -0.188,
-        E = 0.0,
-        L = 0.0,
-        A = 0.0,
-    ),
-    shortDesc = u"""Platts fragment 35 sulfonate""",
-    longDesc = 
-u"""
-
-""",
-)
+# """,
+# )
 
 tree(
 """
 L1: R
     L2: C
         L3: Cbf
+            L4: Cbf-noH
         L3: Css
             L4: CssH3
             L4: CssH2
@@ -1164,7 +1166,6 @@ L1: R
             L4: CtOt
         L3: Cdd
         L3: Cb
-            L4: Cb-noH
             L4: Cb-H
             L4: Cb-noHnoRing
     L2: O
@@ -1200,7 +1201,6 @@ L1: R
             L4: Ss-aromatic
         L3: Sd
             L4: Sds
-                L5: SdsOsOdOd
 """
 )
 
