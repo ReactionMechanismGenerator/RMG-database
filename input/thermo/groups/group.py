@@ -102,10 +102,22 @@ entry(
     label = "Cbf-CbfCbfCbf",
     group = 
 """
-1 * Cbf u0 {2,B} {3,B} {4,B}
-2   Cbf u0 {1,B}
-3   Cbf u0 {1,B}
-4   Cbf u0 {1,B}
+1 * Cbf u0 p0 c0 {3,B} {6,B} {2,B}
+2   Cbf u0 p0 c0 {4,B} {5,B} {1,B}
+3   Cbf u0 p0 c0 {8,B} {9,B} {1,B}
+4   Cbf u0 p0 c0 {10,B} {11,B} {2,B}
+5   Cbf u0 p0 c0 {13,B} {14,B} {2,B}
+6   Cbf u0 p0 c0 {15,B} {16,B} {1,B}
+7   C   u0 p0 c0 {8,B} {16,B}
+8   C   u0 p0 c0 {7,B} {3,B}
+9   C   u0 p0 c0 {3,B} {10,B}
+10  C   u0 p0 c0 {9,B} {4,B}
+11  C   u0 p0 c0 {4,B} {12,B}
+12  C   u0 p0 c0 {11,B} {13,B}
+13  C   u0 p0 c0 {12,B} {5,B}
+14  C   u0 p0 c0 {5,B} {15,B}
+15  C   u0 p0 c0 {14,B} {6,B}
+16  C   u0 p0 c0 {7,B} {6,B}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -116,7 +128,10 @@ entry(
     shortDesc = u"""Cbf-CbfCbfCbf STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
     longDesc = 
 u"""
-
+The smallest PAH that can have Cbf-CbfCbfCbf is pyrene. Currently the database is restricted
+that any group with more three Cbf atoms must have all benzene rings explicitly written out.
+Previously, this node would also match one carbon on Benzo[c]phenanthrene and does not now.
+Examples from the original source do not include Benzo[c]phenanthrene. 
 """,
 )
 
