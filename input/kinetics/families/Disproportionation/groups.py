@@ -1207,25 +1207,25 @@ entry(
     kinetics = None,
 )
 
-entry(
-    index = 232,
-    label = "N5_rad",
-    group = 
-"""
-1 *1 [N5d,N5dd,N5t] u1
-""",
-    kinetics = None,
-)
+# entry(
+#     index = 232,
+#     label = "N5_rad",
+#     group = 
+# """
+# 1 *1 [N5d,N5dd,N5t] u1
+# """,
+#     kinetics = None,
+# )
 
-entry(
-    index = 233,
-    label = "N5d_rad",
-    group = 
-"""
-1 *1 N5d u1
-""",
-    kinetics = None,
-)
+# entry(
+#     index = 233,
+#     label = "N5d_rad",
+#     group = 
+# """
+# 1 *1 N5d u1
+# """,
+#     kinetics = None,
+# )
 
 entry(
     index = 2,
@@ -2695,13 +2695,13 @@ entry(
 
 entry(
     index = 288,
-    label = "Cd_Cdrad",
+    label = "Cds/H/R!H",
     group = 
 """
-1 *2 Cd u0 {2,D} {3,S}
-2 *3 Cd u1 {1,D}
-3 *4 H u0 {1,S}
-
+1 *2 C   u0 {2,D} {3,S} {4,S}
+2 *3 R!H u1 {1,D}
+3 *4 H   u0 {1,S}
+4    R!H u0 {1,S}
 """,
     kinetics = None,
 )
@@ -2808,8 +2808,6 @@ L1: Y_rad_birad_trirad_quadrad
                 L5: N3d_rad/C
                 L5: N3d_rad/O
                 L5: N3d_rad/N
-        L3: N5_rad
-            L4: N5d_rad
         L3: H_rad
 L1: XH_Rrad_birad
     L2: XH_Rrad
@@ -2895,7 +2893,6 @@ L1: XH_Rrad_birad
                 L5: N5H_s_Rrad
         L3: XH_d_Rrad
             L4: CH_d_Rrad
-                L5: Cd_Cdrad
                 L5: Cds/H2_d_Rrad
                     L6: Cds/H2_d_Crad
                     L6: Cds/H2_d_N3rad
@@ -2905,8 +2902,9 @@ L1: XH_Rrad_birad
                             L8: Cds/H2_d_N5ddrad/C
                             L8: Cds/H2_d_N5ddrad/O
                             L8: Cds/H2_d_N5ddrad/N
-                L5: Cds/H/NonDe_d_Rrad
-                L5: Cds/H/Deloc_d_Rrad
+                L5: Cds/H/R!H
+                    L6: Cds/H/NonDe_d_Rrad
+                    L6: Cds/H/Deloc_d_Rrad
             L4: NH_d_Rrad
                 L5: N3d/H_d_Rrad
                     L6: N3d/H_d_Crad

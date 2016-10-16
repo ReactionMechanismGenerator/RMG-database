@@ -1922,27 +1922,6 @@ ref: DOI: 10.1021/jp0221946
 
 entry(
     index = 555,
-    label = "O2b;Cd_Cdrad",
-    kinetics = ArrheniusEP(
-        A = (1.3E+15, 'cm^3/(mol*s)','*|/',5),
-        n = -1.26,
-        alpha = 0,
-        E0 = (3.31, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""S.S. Merchant estimate""",
-    longDesc = 
-u"""
-This rate rule is a estimate taken from NIST, ref: Aromatic and Polycyclic Aromatic
-Hydrocarbon Formation in a Laminar Premixed n-butane Flame
-Derived from fitting to a complex mechanism for C2H3 + O2 = C2H2 + HO2  
-""",
-)
-
-entry(
-    index = 555,
     label = "O2b;Cmethyl_Csrad/H/Cd",
     kinetics = ArrheniusEP(
         A = (7.23E+12, 'cm^3/(mol*s)','*|/',10),
