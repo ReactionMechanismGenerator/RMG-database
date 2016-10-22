@@ -2,8 +2,13 @@
 # encoding: utf-8
 
 name = "Narayanaswamy_aromatic_only"
-shortDesc = u""
+shortDesc = u"Aromatic reactions only from 2010 Narayanaswamy et al. Combustion and Flame mechanism"
 longDesc = u"""
+Includes only reactions involving aromatic species from the mechanism in:
+K. Narayanaswamy et al.,
+"A Consistent Chemical Mechanism for Oxidation of Substituted Aromatic Species"
+Combustion and Flame 157 (2010) 1879-1898
+"""
 
 """
 entry(
