@@ -41271,16 +41271,23 @@ u"""
 
 entry(
     index = 1600,
-    label = "Si",
+    label = "Si-BAD!",
     group = 
 """
 1 * Si u0 
 """,
-    thermo = u'Sis',
-    shortDesc = u"""""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.53,11.45,12.97,14.24,16.24,17.68,19.68],'cal/(mol*K)'),
+        H298 = (99.9,'kcal/mol'),
+        S298 = (0.0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Artificially high""",
     longDesc = 
 u"""
+Artificially high to stop things with this node entering the core!
 
+Anything that cannot match a child node, is probably a crazy species.
 """,
 )
 
@@ -45895,7 +45902,7 @@ L1: R
                 L5: Os-CsCs
                 L5: Os-CsCb
                 L5: Os-CbCb
-     L2: Si
+     L2: Si-BAD!
          L3: Sis
              L4: SiH4
              L4: Sis-Si
