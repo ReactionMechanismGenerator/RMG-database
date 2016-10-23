@@ -41590,6 +41590,34 @@ u"""
 """,
 )
 
+
+entry(
+    index=1616,
+    label="Sit-BAD!",
+    group=
+"""
+1 * Sit  u0
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([8.44, 9.62, 10.51, 11.24, 12.41, 13.29, 14.53], 'cal/(mol*K)'),
+        H298=(999.9, 'kcal/mol'),
+        S298=(0.0, 'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Fictionally high""",
+    longDesc=
+u"""
+Made up to be very high in energy, so that the alternative
+resonance form is used. ie. If there's a Si with a triple
+bond that can be converted to a Si with a lone pair 
+and a single bond to something else with a lone pair.
+That is the form that has valid thermo estimates 
+in this tree, and so we force the algorithm to choose
+that form for its estimates by making this form high in H298.
+""",
+)
+
+
 entry(
     index = 1616,
     label = "Sid-Sid-H2",
@@ -45881,6 +45909,7 @@ L1: R
                  L5: Sid-sid-H-Si
              L4: Sid-Sid-Si2
                  L5: Sid-sid-Si2
+         L3: Sit-BAD!
          L3: si
              L4: si-Sis-H
              L4: si-Sis2
