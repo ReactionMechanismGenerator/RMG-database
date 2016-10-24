@@ -6,7 +6,7 @@ shortDesc = u"Aromatic reactions only from 2010 Narayanaswamy et al. Combustion 
 longDesc = u"""
 Includes only reactions involving aromatic species from the mechanism in:
 K. Narayanaswamy et al.,
-"A Consistent Chemical Mechanism for Oxidation of Substituted Aromatic Species"
+A Consistent Chemical Mechanism for Oxidation of Substituted Aromatic Species
 Combustion and Flame 157 (2010) 1879-1898
 """
 

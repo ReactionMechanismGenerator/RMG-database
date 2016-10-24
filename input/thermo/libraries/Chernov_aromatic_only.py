@@ -2,12 +2,13 @@
 # encoding: utf-8
 
 name = "Chernov_aromatic_only"
-shortDesc = u"Aromatic reactions only from 2014 Chernov et al. Combustion and Flame mechanism"
+shortDesc = u"Thermo from 2014 Chernov et al. Combustion and Flame mechanism"
 longDesc = u"""
-Includes only reactions involving aromatic species from the mechanism in:
+Includes thermo for species from the mechanism in:
 V. Chernov, et al., 
-"Soot Formation with C1 and C2 Fuels Using an Improved Chemical Mechanism for PAH growth"
+Soot Formation with C1 and C2 Fuels Using an Improved Chemical Mechanism for PAH growth
 Combustion and Flame 161 (2014) 592-601
+except for CH2HCO, which was found to have innacurate thermo and removed
 """
 entry(
     index = 1,
