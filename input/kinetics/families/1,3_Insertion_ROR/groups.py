@@ -21,7 +21,7 @@ recipe(actions=[
 entry(
     index = 1,
     label = "doublebond",
-    group = "OR{Cd_Cdd, Cdd_Cd, Cd_Cd, Sd_Cd, N3d_N3d, N3d_Cd}",
+    group = "OR{Cd_Cdd, Cdd_Cd, Cd_Cd, Sd_Cd, N1d_N5dd, N3d_Cd}",
     kinetics = None,
 )
 
@@ -1175,12 +1175,12 @@ entry(
 
 entry(
     index = 97,
-    label = "N3d_N3d",
+    label = "N1d_N5dd",
     group = 
 """
-1 *1 N3d u0 {2,D}
-2 *2 N3d u0 {1,D} {3,D}
-3    Od  u0 {2,D}
+1 *1 N1d  u0 {2,D}
+2 *2 N5dd u0 {1,D} {3,D}
+3    Od   u0 {2,D}
 """,
     kinetics = None,
 )
@@ -1545,7 +1545,7 @@ L1: doublebond
                     L6: Sd_Cd/CsOs
                 L5: Sd_Cd/Nd/De
                 L5: Sd_Cd/De2
-    L2: N3d_N3d
+    L2: N1d_N5dd
     L2: N3d_Cd
 L1: R_OR
     L2: H_OR
