@@ -392,11 +392,12 @@ entry(
            			T0 = (1, 'K'),
         			),
         		alpha = -0.5218,
-        		T3 = (-0.5232, 'K'),
-        		T1 = (16.824, 'K'),
-        		T2 = (36.524, 'K'),
+        		T3 = (36.524, 'K'),
+        		T1 = (-22422, 'K'),
+        		T2 = (16.824, 'K'),
 			),
 		longDesc = u"""
 		Added by Belinda Slakman from Dollet & de Persis, 2007, J. Anal. Appl. Pyrolysis
+        Page 468, last reaction, Ar bath gas.
 		"""
 		)
