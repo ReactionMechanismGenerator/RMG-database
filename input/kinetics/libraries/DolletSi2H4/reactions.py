@@ -4,6 +4,10 @@ longDesc = u"""
 Reactions and rate constants are from Table 5 in J. Anal. Appl. Pyrolysis 80, 460 (2007)
 Authors A. Dollet and S. de Persis
 Rates obtained from quantum RRK theory; pressure dependent. All parameters given are for Ar as bath gas. H2 and SiH4 also given in paper and not included here.
+
+Note that Si2H2 is represented in this library as H-Si-Si-H
+although in Dollet's work it is actually a di-bridged Si(H2)Si
+but we can't represent H atoms with two (half-)bonds in RMG.
 """
 
 entry(
