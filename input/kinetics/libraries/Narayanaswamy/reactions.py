@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Narayanaswamy_aromatic_only"
+name = "Narayanaswamy"
 shortDesc = u"Aromatic reactions only from 2010 Narayanaswamy et al. Combustion and Flame mechanism"
 longDesc = u"""
 Includes only reactions involving aromatic species from the mechanism in:

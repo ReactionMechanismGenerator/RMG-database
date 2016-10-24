@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Chernov_aromatic_only"
+name = "Chernov"
 shortDesc = u"Aromatic reactions only from 2014 Chernov et al. Combustion and Flame mechanism"
 longDesc = u"""
 Includes only reactions involving aromatic species from the mechanism in:
