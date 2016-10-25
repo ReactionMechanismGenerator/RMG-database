@@ -2,9 +2,15 @@
 # encoding: utf-8
 
 name = "kislovB"
-shortDesc = u""
+shortDesc = u"level of theory:Ab initio G3(MP2,CC)//B3LYP"
 longDesc = u"""
-
+Kinetics from:
+Ab Initio G3-type/Statistical Theory Study of the Formation of Indene in Combustion
+Flames. I. Pathways Involving Benzene and Phenyl Radical
+V. V. Kislov and A. M. Mebel*
+Department of Chemistry and Biochemistry, Florida International UniVersity, Miami, Florida 33199
+Received: October 30, 2006; In Final Form: December 19, 2006
+J. Phys. Chem. A 2007, 111, 3922-3931
 """
 entry(
     index = 1,
