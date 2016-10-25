@@ -28,7 +28,7 @@ entry(
 entry(
     index = 2,
     label = "YJ",
-    group = "OR{HJ, CJ, OJ, SJ, NJ, Y_1centerbirad, Y_1centertrirad, Y_1centerquadrad}",
+    group = "OR{HJ, Y_1centerquadrad, Y_1centertrirad, Y_1centerbirad, CJ, OJ, SJ, NJ}",
     kinetics = None,
 )
 
@@ -17568,6 +17568,20 @@ L1: R_R
                 L5: Sd_Cds-C=SC=S
 L1: YJ
     L2: HJ
+    L2: Y_1centerquadrad
+        L3: C_quintet
+        L3: C_triplet
+    L2: Y_1centertrirad
+        L3: N_atom_quartet
+        L3: N_atom_doublet
+        L3: CH_quartet
+        L3: CH_doublet
+    L2: Y_1centerbirad
+        L3: O_atom_triplet
+        L3: SJJ
+        L3: CH2_triplet
+        L3: CO_birad
+        L3: NH_triplet
     L2: CJ
         L3: CbJ
         L3: CtJ
@@ -17723,20 +17737,6 @@ L1: YJ
                 L5: N3dJ_C
                 L5: N3dJ_O
                 L5: N3dJ_N
-    L2: Y_1centerbirad
-        L3: O_atom_triplet
-        L3: SJJ
-        L3: CH2_triplet
-        L3: CO_birad
-        L3: NH_triplet
-    L2: Y_1centertrirad
-        L3: N_atom_quartet
-        L3: N_atom_doublet
-        L3: CH_quartet
-        L3: CH_doublet
-    L2: Y_1centerquadrad
-        L3: C_quintet
-        L3: C_triplet
 """
 )
 
