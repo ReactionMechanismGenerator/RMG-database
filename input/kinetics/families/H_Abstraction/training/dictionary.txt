@@ -1105,4 +1105,3 @@ multiplicity 2
 10    O u0 p2 c0 {3,D}
 11    H u0 p0 c0 {4,S}
 12    H u0 p0 c0 {4,S}
-

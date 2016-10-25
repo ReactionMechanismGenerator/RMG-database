@@ -19,7 +19,7 @@ recipe(actions=[
 entry(
     index = 1,
     label = "X_H_or_Xrad_H_Xbirad_H_Xtrirad_H",
-    group = "OR{X_H, Xrad_H, Xbirad_H, Xtrirad_H}",
+    group = "OR{Xtrirad_H, Xbirad_H, Xrad_H, X_H}",
     kinetics = None,
 )
 
@@ -2049,20 +2049,6 @@ entry(
 )
 
 entry(
-    index = 130,
-    label = "C/H2/Cb",
-    group = 
-"""
-1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H  u0 {1,S}
-3    H  u0 {1,S}
-4    C  u0 {1,S}
-5    Cb u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 131,
     label = "C_ter",
     group = 
@@ -2879,20 +2865,6 @@ entry(
 )
 
 entry(
-    index = 184,
-    label = "C/H/Cb",
-    group = 
-"""
-1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H  u0 {1,S}
-3    C  u0 {1,S}
-4    C  u0 {1,S}
-5    Cb u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 409,
     label = "N3_H",
     group = 
@@ -3100,33 +3072,23 @@ entry(
     label = "N3d/H/OneDe",
     group = 
 """
-1 *1 N3d                   u0 {2,S} {3,D}
-2 *2 H                     u0 {1,S}
-3    [Cd,Ct,Cb,CO,N5d,N5t] u0 {1,D}
+1 *1 N3d  u0 {2,S} {3,D}
+2 *2 H    u0 {1,S}
+3    Cdd  u0 {1,D} {4,D}
+4    R!H  u0 {3,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 467,
-    label = "N3d/H/OneDeCO",
+    label = "N3d/H/CddO",
     group = 
 """
-1 *1 N3d u0 {2,S} {3,D}
-2 *2 H   u0 {1,S}
-3    CO  u0 {1,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 468,
-    label = "N3d/H/OneDeN",
-    group = 
-"""
-1 *1 N3d       u0 {2,S} {3,D}
-2 *2 H         u0 {1,S}
-3    [N5d,N5t] u0 {1,D}
+1 *1 N3d  u0 {2,S} {3,D}
+2 *2 H    u0 {1,S}
+3    Cdd  u0 {1,D} {4,D}
+4    Od   u0 {3,D}
 """,
     kinetics = None,
 )
@@ -3171,7 +3133,7 @@ entry(
     label = "Xrad_H",
     group = 
 """
-1 *1 R u1 {2,S}
+1 *1 R!H u1 {2,S}
 2 *2 H u0 {1,S}
 """,
     kinetics = None,
@@ -5104,10 +5066,10 @@ entry(
     label = "C_rad/H/NonDeCN",
     group = 
 """
-1 *3 C u1 {2,S} {3,S} {4,S}
-2    H u0 {1,S}
-3    C u0 {1,S}
-4    N u0 {1,S}
+1 *3 Cs u1 {2,S} {3,S} {4,S}
+2    H  u0 {1,S}
+3    Cs u0 {1,S}
+4    N  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -6389,6 +6351,24 @@ entry(
 tree(
 """
 L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
+    L2: Xtrirad_H
+        L3: C_quartet_H
+        L3: C_doublet_H
+    L2: Xbirad_H
+        L3: CH2_triplet_H
+        L3: CH2_singlet_H
+        L3: NH_triplet_H
+        L3: NH_singlet_H
+    L2: Xrad_H
+        L3: C_rad_H
+            L4: CH3_rad_H
+            L4: Cs/H2/OneDeN
+        L3: OH_rad_H
+        L3: Srad_H
+        L3: N3s_rad_H
+            L4: NH2_rad_H
+            L4: N3s_rad_H_pri
+                L5: N3s_rad_H/H/NonDeN
     L2: X_H
         L3: H2
         L3: Ct_H
@@ -6530,7 +6510,6 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                     L6: C/H2/CdCd
                     L6: C/H2/CdCS
                     L6: C/H2/CSCS
-                L5: C/H2/Cb
             L4: C_ter
                 L5: C/H/NonDe
                     L6: C/H/Cs3
@@ -6586,7 +6565,6 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                     L6: C/H/TDMustO
                     L6: C/H/TDMustS
                 L5: C/H/ThreeDe
-                L5: C/H/Cb
         L3: N3_H
             L4: N3s_H
                 L5: NH3
@@ -6604,29 +6582,10 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                     L6: N3d/H/NonDeO
                     L6: N3d/H/NonDeN
                 L5: N3d/H/OneDe
-                    L6: N3d/H/OneDeCO
-                    L6: N3d/H/OneDeN
+                    L6: N3d/H/CddO
         L3: N5_H
             L4: N5d_H
                 L5: N5d/H/NonDeOO
-    L2: Xrad_H
-        L3: C_rad_H
-            L4: CH3_rad_H
-            L4: Cs/H2/OneDeN
-        L3: OH_rad_H
-        L3: Srad_H
-        L3: N3s_rad_H
-            L4: NH2_rad_H
-            L4: N3s_rad_H_pri
-                L5: N3s_rad_H/H/NonDeN
-    L2: Xbirad_H
-        L3: CH2_triplet_H
-        L3: CH2_singlet_H
-        L3: NH_triplet_H
-        L3: NH_singlet_H
-    L2: Xtrirad_H
-        L3: C_quartet_H
-        L3: C_doublet_H
 L1: Y_rad_birad_trirad_quadrad
     L2: Y_1centerquadrad
         L3: C_quintet
