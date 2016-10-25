@@ -367,3 +367,114 @@ entry(
 		""",
 		)
 
+entry(
+		index = 17,
+		label = 'cSi4H8',
+		molecule = 
+		"""
+		1  Si u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
+                2  H  u0 p0 c0 {1,S}
+                3  H  u0 p0 c0 {1,S}
+                4  Si u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+                5  H  u0 p0 c0 {4,S}
+                6  H  u0 p0 c0 {4,S}
+                7  Si u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+                8  H  u0 p0 c0 {7,S}
+                9  H  u0 p0 c0 {7,S}
+                10 Si u0 p0 c0 {1,S} {7,S} {11,S} {12,S}
+                11 H  u0 p0 c0 {10,S}
+                12 H  u0 p0 c0 {10,S}""",
+		thermo = ThermoData(
+			Tdata = ([300,400,500,600,800,1000,1500],'K'),
+			Cpdata = ([33.1,39.3,43.8,47.4,52.8,56.6,61.9], 'cal/(mol*K)'),
+			H298 = (55.3, 'kcal/mol'),
+			S298 = (86.0, 'cal/(mol*K)'),
+			),
+		shortDesc = u"",
+		longDesc = u"""
+                H298 from Katzer et al., 1997, J. Phys. Chem. A (101)
+		G3//B3LYP calculations with bond additivity corrections from Wong et al., J. Phys. Chem. A (108), 2004.
+		""",
+		)
+
+entry(
+		index = 17,
+		label = 'cSi4H6-lp',
+		molecule = 
+		"""
+		1  Si u0 p1 c0 {2,S} {8,S}
+                2  Si u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+                3  H  u0 p0 c0 {2,S}
+                4  H  u0 p0 c0 {2,S}
+                5  Si u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+                6  H  u0 p0 c0 {5,S}
+                7  H  u0 p0 c0 {5,S}
+                8  Si u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
+                9  H  u0 p0 c0 {8,S}
+                10 H  u0 p0 c0 {8,S}""",
+                thermo = ThermoData(
+			Tdata = ([300,400,500,600,800,1000,1500],'K'),
+			Cpdata = ([30.0,34.7,38.1,40.7,44.7,47.6,51.5], 'cal/(mol*K)'),
+			H298 = (108.8, 'kcal/mol'),
+			S298 = (84.8, 'cal/(mol*K)'),
+			),
+		shortDesc = u"",
+		longDesc = u"""
+                H298 from Katzer et al., 1997, J. Phys. Chem. A (101)
+		G3//B3LYP calculations with bond additivity corrections from Wong et al., J. Phys. Chem. A (108), 2004.
+		""",
+		)
+
+entry(
+		index = 18,
+		label = 'cSi4H6-D',
+		molecule = 
+		"""
+                1  Si u0 p0 c0 {2,S} {3,D} {8,S}
+                2  H  u0 p0 c0 {1,S}
+                3  Si u0 p0 c0 {1,D} {4,S} {5,S}
+                4  H  u0 p0 c0 {3,S}
+                5  Si u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+                6  H  u0 p0 c0 {5,S}
+                7  H  u0 p0 c0 {5,S}
+                8  Si u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
+                9  H  u0 p0 c0 {8,S}
+                10 H  u0 p0 c0 {8,S}""",
+                thermo = ThermoData(
+			Tdata = ([300,400,500,600,800,1000,1500],'K'),
+			Cpdata = ([29.5,34.5,37.9,40.6,44.6,47.5,51.4], 'cal/(mol*K)'),
+			H298 = (95.6, 'kcal/mol'),
+			S298 = (84.3, 'cal/(mol*K)'),
+			),
+		shortDesc = u"",
+		longDesc = u"""
+                H298 from Katzer et al., 1997, J. Phys. Chem. A (101)
+		G3//B3LYP calculations with bond additivity corrections from Wong et al., J. Phys. Chem. A (108), 2004.
+		""",
+		)
+
+entry(
+		index = 19,
+		label = 'cSi4H4-lp-D',
+		molecule = 
+		"""
+                1 Si u0 p1 c0 {2,S} {6,S}
+                2 Si u0 p0 c0 {1,S} {3,S} {4,D}
+                3 H  u0 p0 c0 {2,S}
+                4 Si u0 p0 c0 {2,D} {5,S} {6,S}
+                5 H  u0 p0 c0 {4,S}
+                6 Si u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+                7 H  u0 p0 c0 {6,S}
+                8 H  u0 p0 c0 {6,S}""",
+                thermo = ThermoData(
+			Tdata = ([300,400,500,600,800,1000,1500],'K'),
+			Cpdata = ([26.0,29.5,31.9,33.7,36.4,38.3,40.9], 'cal/(mol*K)'),
+			H298 = (116.8, 'kcal/mol'),
+			S298 = (80.4, 'cal/(mol*K)'),
+			),
+		shortDesc = u"",
+		longDesc = u"""
+		G3//B3LYP calculations with bond additivity corrections from Wong et al., J. Phys. Chem. A (108), 2004.
+		""",
+		)
+
