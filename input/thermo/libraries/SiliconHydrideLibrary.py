@@ -294,7 +294,7 @@ entry(
 
 entry(
 		index = 14,
-		label = 'cSi3H4(S)',
+		label = 'cSi3H4-lp',
 		molecule = 
 		"""
 		1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -320,7 +320,7 @@ entry(
 
 entry(
 		index = 15,
-		label = 'cSi3H4',
+		label = 'cSi3H4-D',
 		molecule = 
 		"""
 		1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -346,7 +346,7 @@ entry(
 
 entry(
 		index = 16,
-		label = 'cSi3H2(S)',
+		label = 'cSi3H2-lp-D',
 		molecule = 
 		"""
 		1 Si u0 p1 c0 {2,S} {3,S}
