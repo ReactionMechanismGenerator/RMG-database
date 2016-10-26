@@ -50,7 +50,7 @@ if __name__ == '__main__':
     for spec in speciesDict.values():
         index = index + 1
         species = Species(molecule = spec.molecule)
-        species.generateThermoData(database)
+        species.getThermoData()
         species.index = index
         speciesList.append(species)
 
