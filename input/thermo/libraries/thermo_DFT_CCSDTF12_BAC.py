@@ -3495,26 +3495,26 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
 )
 
-entry(
-    index = 434,
-    label = "NNH2(S)",
-    molecule = 
-"""
-1 N u0 p0 c+2 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 N u0 p3 c-2 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.61,9.45,10.46,11.48,13.24,14.63,16.86],'cal/(mol*K)'),
-        H298 = (71.66,'kcal/mol'),
-        S298 = (52.09,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
-""",
-)
+#entry(
+#    index = 434,
+#    label = "NNH2(S)",
+#    molecule = 
+#"""
+#1 N u0 p0 c+2 {2,S} {3,S} {4,S}
+#2 H u0 p0 c0 {1,S}
+#3 H u0 p0 c0 {1,S}
+#4 N u0 p3 c-2 {1,S}
+#""",
+#    thermo = ThermoData(
+#        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#        Cpdata = ([8.61,9.45,10.46,11.48,13.24,14.63,16.86],'cal/(mol*K)'),
+#        H298 = (71.66,'kcal/mol'),
+#        S298 = (52.09,'cal/(mol*K)'),
+#    ),
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
+#level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
+#""",
+#)
 
