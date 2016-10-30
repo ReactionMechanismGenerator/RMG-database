@@ -41981,14 +41981,9 @@ entry(
     label = "N",
     group = 
 """
-1 * [N1d,N3s,N3d,N3t,N5s,N5d,N5dd,N5t] u0
+1 * N u0
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
+    thermo = u'N3s',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -41997,11 +41992,128 @@ u"""
 )
 
 entry(
+    index = 10001,
+    label = "N1s",
+    group = 
+"""
+1 * N1s u0 p2 {2,S}
+2   R   ux px {1,S}
+""",
+    thermo = u'N1s-H',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Nitrogen with two lone pairs and a single bond
+""",
+)
+
+entry(
+    index = 10002,
+    label = "N1s-H",
+    group = 
+"""
+1 * N1s u0 p2 {2,S}
+2   H   u0 p0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.9764,6.9777,6.9982,7.0454,7.2242,7.4742,8.0656],'cal/(mol*K)'),
+        H298 = (85.2952,'kcal/mol'),
+        S298 = (43.3053,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""NH(S)""",
+    longDesc = 
+u"""
+Data base on species NH(S), source: GRIMech3.0-N
+""",
+)
+
+entry(
+    index = 10002,
+    label = "N1s-N1s",
+    group = 
+"""
+1 * N1s u0 p2 {2,S}
+2   N1s u0 p2 {1,S}
+""",
+    thermo = u'N1s-H',
+    shortDesc = u"""[N][N](S)""",
+    longDesc = 
+u"""
+Pointing to NH(S), so far no better alternative
+""",
+)
+
+entry(
+    index = 10003,
+    label = "N1s-Cs",
+    group = 
+"""
+1 * N1s u0 p2 {2,S}
+2   C   u0 p0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.00,2.65,2.50,2.49,2.65,2.65,2.57],'cal/(mol*K)'),
+        H298 = (120.94,'kcal/mol'),
+        S298 = (24.25,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""[N]-CH3(S)""",
+    longDesc = 
+u"""
+Data base on species CH3N(S), source: thermo_DFT_CCSDTF12_BAC
+level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
+subtracting the Cs-N2sHHH group
+[N1s-CH3 (N-CH3 species) from thermo_DFT_CCSDTF12_BAC] - [Cs-N2sHHH from group.py]
+""",
+)
+
+entry(
+    index = 10004,
+    label = "N1s-N3s",
+    group = 
+"""
+1 * N1s u0 p2 {2,S}
+2   N   u0 px {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.97,2.07,2.25,2.50,3.05,3.48,5.50],'cal/(mol*K)'),
+        H298 = (61.00,'kcal/mol'),
+        S298 = (23.00,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""[N]-NH2(S)""",
+    longDesc = 
+u"""
+Data base on species H2NN(S), source: Curran thermo library
+subtracting the N3s-N3sFF group
+[N1s-NH2 (N-NH2 species) from Curran] - [N3s-N3sHH from group.py]
+""",
+)
+
+entry(
+    index = 10005,
+    label = "N1s-Os",
+    group = 
+"""
+1 * N1s u0 p2 {2,S}
+2   O   u0 px {1,S}
+""",
+    thermo = u'N1s-H',
+    shortDesc = u"""[N]-OH(S)""",
+    longDesc = 
+u"""
+Pointing to NH(S), so far no better alternative
+""",
+)
+
+entry(
     index = 1922,
     label = "N1d",
     group = 
 """
-1 * N1d u0 p2
+1 * N1d u0 p2 {2,D}
+2   R   ux px {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -42023,7 +42135,7 @@ entry(
 """
 1 * N3s u0
 """,
-    thermo = None,
+    thermo = u'N3s-CsHH',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -45299,6 +45411,12 @@ L1: R
                 L5: Ss-C=SCd
                 L5: Ss-C=SCb
     L2: N
+		L3: N1s
+			L4:	N1s-H
+			L4:	N1s-N1s
+			L4:	N1s-Cs
+			L4:	N1s-N3s
+			L4:	N1s-Os
         L3: N1d
         L3: N3s
             L4: N3s-CHH
