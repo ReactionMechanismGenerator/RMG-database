@@ -4,7 +4,8 @@
 name = "Mebel_C6H5_C2H2"
 shortDesc = u""
 longDesc = u"""
-
+A. M. Mebel, Y. Georgievskii, A. W. Jasper, S. J. Klippenstein, Temperature and pressure dependent rate coefficients 
+for the HACA pathways from benzene to naphthalene, Proceedings of the Combust. Inst. (2016) 1-8
 """
 entry(
     index = 1,
