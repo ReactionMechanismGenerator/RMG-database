@@ -42129,6 +42129,22 @@ u"""
 )
 
 entry(
+    index = 10001,
+    label = "N2s",
+    group = 
+"""
+1 * N1s u0 p2 {2,S}
+2   R   ux px {1,S}
+""",
+    thermo = u'N1s',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Nitrogen with two lone pairs and a single bond
+""",
+)
+
+entry(
     index = 1888,
     label = "N3s",
     group = 
@@ -45418,6 +45434,7 @@ L1: R
 			L4:	N1s-N3s
 			L4:	N1s-Os
         L3: N1d
+		L3: N2s
         L3: N3s
             L4: N3s-CHH
                 L5: N3s-CsHH
