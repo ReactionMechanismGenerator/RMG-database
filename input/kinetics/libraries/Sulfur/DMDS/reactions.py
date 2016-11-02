@@ -34,7 +34,7 @@ entry(
 
 entry(
     index = 3,
-    label = "SJJ + SJJ <=> S2",
+    label = "Sa + Sa <=> S2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.6e+11, 'cm^3/(mol*s)'),
