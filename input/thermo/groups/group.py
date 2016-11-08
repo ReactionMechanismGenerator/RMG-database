@@ -42003,7 +42003,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-Nitrogen with two lone pairs and a single bond
+Nitrogen with three lone pairs and a single bond
 """,
 )
 
@@ -42149,8 +42149,9 @@ entry(
     label = "N2s",
     group = 
 """
-1 * N2s u0 p2 {2,S}
+1 * N2s u0 p2 {2,S} (3,S}
 2   R   ux px {1,S}
+3   R   ux px {1,S}
 """,
     thermo = u'N1s',
     shortDesc = u"""""",
