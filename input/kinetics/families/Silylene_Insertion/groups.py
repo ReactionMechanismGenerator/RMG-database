@@ -21,13 +21,13 @@ recipe(actions=[
 entry(
     index = 1,
     label = "Si2S",
-    group = 
+    group =
 """
-1 *3 Si ux p1 c0 
+1 *3 Si ux p1 c0
 """,
     kinetics = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -39,7 +39,7 @@ entry(
     group = "OR{H_H, Si_H}",
     kinetics = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -48,14 +48,14 @@ u"""
 entry(
     index = 3,
     label = "H_H",
-    group = 
+    group =
 """
 1 *1 H u0 p0 c0 {2,S}
 2 *2 H u0 p0 c0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -65,12 +65,12 @@ entry(
     index = 4,
     label = "Si_H",
     group = """
-1 *1 Si ux p0 c0 {2,S} 
+1 *1 Si ux p0 c0 {2,S}
 2 *2 H  u0 p0 c0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -88,7 +88,7 @@ entry(
 """,
     kinetics = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -106,7 +106,7 @@ entry(
 """,
     kinetics = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -124,7 +124,7 @@ entry(
 """,
     kinetics = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -142,7 +142,7 @@ entry(
 """,
     kinetics = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -151,7 +151,7 @@ u"""
 entry(
     index = 5,
     label = "SiH2",
-    group = 
+    group =
 """
 1 *3  Si u0 p1 c0 {2,S} {3,S}
 2     H u0 p0 c0 {1,S}
@@ -159,7 +159,7 @@ entry(
 """,
     kinetics = None,
     shortDesc = u"""silylene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -168,7 +168,7 @@ u"""
 entry(
     index = 5,
     label = "Si-Si-H",
-    group = 
+    group =
 """
 1 *3  Si u0 p1 c0 {2,S} {3,S}
 2     H u0 p0 c0 {1,S}
@@ -176,7 +176,7 @@ entry(
 """,
     kinetics = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -185,7 +185,7 @@ u"""
 entry(
     index = 5,
     label = "Si-Si-Si",
-    group = 
+    group =
 """
 1 *3  Si u0 p1 c0 {2,S} {3,S}
 2     Si ux px {1,S}
@@ -193,7 +193,7 @@ entry(
 """,
     kinetics = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -203,7 +203,7 @@ u"""
 entry(
     index = 8,
     label = "SiH4",
-    group = 
+    group =
 """
 1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H u0 p0 c0 {1,S}
@@ -213,7 +213,7 @@ entry(
 """,
     kinetics = None,
     shortDesc = u"""Silane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -241,25 +241,12 @@ L1: Y_H
 
 forbidden(
     label = "Si_wrong_valence",
-    group = 
+    group =
 """
-1 *3  Si u0 p2 c0 
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
-    label = "Si_wrong_valence",
-    group = 
-"""
-1 *3  Si u0 p2 c0 
+1 *3  Si u0 p2 c0
 """,
     shortDesc = u"""This violates Hund's rule for Silicon""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -267,15 +254,14 @@ u"""
 
 forbidden(
     label = "silylene_as_si-h",
-    group = 
+    group =
 """
 1 *1  Si ux p1 c0 {2,S}
-2 *2  H  u0 p0 c0 {1,S} 
+2 *2  H  u0 p0 c0 {1,S}
 """,
     shortDesc = u"""We shouldn't be able to insert into an Si-H bond in a silylene.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
 )
-
