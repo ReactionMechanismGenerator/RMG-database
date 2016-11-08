@@ -25,13 +25,11 @@ entry(
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + *CH2CH2CH2CH2OH = nButanol + HO2
-
 CBS-QB3 method was used to calculate electronic energy of reactants, products, and TS; frequencies were
 calculated using B3LYP/CBSB7 method.  Arrhenius expression was computed using CanTherm: an asymmetric Eckart
 tunneling correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomery et al.
 J.Chem.Phys. 110 (1999) 2822-2827).  The external symmetry number for H2O2 was 2; the external symmetry number
 for the remaining species and TS were set to 1.  The rate coefficient was computed at 600-2000K (in 200 K increments).
-
 For nButanol+HO2=H2O2+*CH2CH2CH2CH2OH:
 Moc et al. (AIP Conference Proceedings (2009) 1148 161-164 "The Unimolecular Decomposition
 and H Abstraction Reactions by HO and HO2 from n-Butanol") report reaction barriers and
@@ -60,13 +58,11 @@ entry(
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3*CHCH2CH2OH = nButanol + HO2
-
 CBS-QB3 method was used to calculate electronic energy of reactants, products, and TS; frequencies were
 calculated using B3LYP/CBSB7 method.  Arrhenius expression was computed using CanTherm: an asymmetric Eckart
 tunneling correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomery et al.
 J.Chem.Phys. 110 (1999) 2822-2827).  The external symmetry number for H2O2 was 2; the external symmetry number
 for the remaining species and TS were set to 1.  The rate coefficient was computed at 600-2000K (in 200 K increments).
-
 For nButanol+HO2=H2O2+CH3*CHCH2CH2OH:
 Moc et al. (AIP Conference Proceedings (2009) 1148 161-164 "The Unimolecular Decomposition
 and H Abstraction Reactions by HO and HO2 from n-Butanol") report reaction barriers and
@@ -95,13 +91,11 @@ entry(
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3CH2*CHCH2OH = nButanol + HO2
-
 CBS-QB3 method was used to calculate electronic energy of reactants, products, and TS; frequencies were
 calculated using B3LYP/CBSB7 method.  Arrhenius expression was computed using CanTherm: an asymmetric Eckart
 tunneling correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomery et al.
 J.Chem.Phys. 110 (1999) 2822-2827).  The external symmetry number for H2O2 was 2; the external symmetry number
 for the remaining species and TS were set to 1.  The rate coefficient was computed at 600-2000K (in 200 K increments).
-
 For nButanol+HO2=H2O2+CH3CH2*CHCH2OH:
 Moc et al. (AIP Conference Proceedings (2009) 1148 161-164 "The Unimolecular Decomposition
 and H Abstraction Reactions by HO and HO2 from n-Butanol") report reaction barriers and
@@ -130,13 +124,11 @@ entry(
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3CH2CH2*CHOH = nButanol + HO2
-
 CBS-QB3 method was used to calculate electronic energy of reactants, products, and TS; frequencies were
 calculated using B3LYP/CBSB7 method.  Arrhenius expression was computed using CanTherm: an asymmetric Eckart
 tunneling correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomery et al.
 J.Chem.Phys. 110 (1999) 2822-2827).  The external symmetry number for H2O2 was 2; the external symmetry number
 for the remaining species and TS were set to 1.  The rate coefficient was computed at 600-2000K (in 200 K increments).
-
 For nButanol+HO2=H2O2+CH3CH2CH2*CHOH:
 Moc et al. (AIP Conference Proceedings (2009) 1148 161-164 "The Unimolecular Decomposition
 and H Abstraction Reactions by HO and HO2 from n-Butanol") report reaction barriers and
@@ -165,7 +157,6 @@ entry(
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + *CH2CH2CH[OH]CH3 = 2-Butanol + HO2
-
 CBS-QB3 method was used to calculate electronic energy of reactants, products, and TS; frequencies were
 calculated using B3LYP/CBSB7 method.  Arrhenius expression was computed using CanTherm: an asymmetric Eckart
 tunneling correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomery et al.
@@ -192,7 +183,6 @@ entry(
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3*CHCH[OH]CH3 = 2-Butanol + HO2
-
 CBS-QB3 method was used to calculate electronic energy of reactants, products, and TS; frequencies were
 calculated using B3LYP/CBSB7 method.  Arrhenius expression was computed using CanTherm: an asymmetric Eckart
 tunneling correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomery et al.
@@ -219,7 +209,6 @@ entry(
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3CH2*C[OH]CH3 = 2-Butanol + HO2
-
 CBS-QB3 method was used to calculate electronic energy of reactants, products, and TS; frequencies were
 calculated using B3LYP/CBSB7 method.  Arrhenius expression was computed using CanTherm: an asymmetric Eckart
 tunneling correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomery et al.
@@ -246,7 +235,6 @@ entry(
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3CH2CH[OH]*CH2 = 2-Butanol + HO2
-
 CBS-QB3 method was used to calculate electronic energy of reactants, products, and TS; frequencies were
 calculated using B3LYP/CBSB7 method.  Arrhenius expression was computed using CanTherm: an asymmetric Eckart
 tunneling correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomery et al.
@@ -273,7 +261,6 @@ entry(
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + HOC[*CH2][CH3][CH3] = tert-Butanol + HO2
-
 CBS-QB3 method was used to calculate electronic energy of reactants, products, and TS; frequencies were
 calculated using B3LYP/CBSB7 method.  Arrhenius expression was computed using CanTherm: an asymmetric Eckart
 tunneling correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomery et al.
@@ -300,14 +287,12 @@ entry(
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 CH2O + H2C=C[*CH2][CH3] = HCO + H2C=C[CH3]2
-
 Geometries and energies of reactants, products, and TS were computed using the CBS-QB3 methodology; frequencies
 were calculated at B3LYP/CBSB7.  Arrhenius expression was computed using CanTherm; an asymmetric Eckart tunneling
 correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomergy et al.; J. Chem. Phys.
 110 (1999) 2822-2827).  The Arrhenius fit was based on k(T) at T=600, 800, 1000, 1200, 1400, 1600, 1800, and 2000K.
 The external symmetry number for CH2O and iso-butene was 2; the external symmetry for all others was 1.  The
 electronic spin multiplicity was 1 for CH2O and iso-butene; the electronic spin multiplicity for all others was 2.
-
 There are no rate coefficients for this reaction in the literature (based on MRH's limited search).
    Tsang {J. Phys. Chem. Ref. Data 20 (1991) 221-273} recommends the following for the reaction of 
    CH2O + H2C=CH-*CH2 = HCO + H2C=CH-CH3: k(T) = 1.26e+08 * T^1.9 * exp(-18.184 kcal/mol / RT) cm3 mol-1 s-1.
@@ -335,7 +320,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C3H8/c1-3-2/h3H2,1-2H3 (external symmetry number = 2, spin multiplicity = 1)
  +
 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -363,7 +347,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
  +
 InChI=1/C3H7/c1-3-2/h3H,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -391,7 +374,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 (external symmetry number = 2, spin multiplicity = 1)
  +
 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -419,7 +401,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 (external symmetry number = 2, spin multiplicity = 1)
  +
 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -447,7 +428,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 (external symmetry number = 2, spin multiplicity = 1)
  +
 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -475,7 +455,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 (external symmetry number = 2, spin multiplicity = 1)
  +
 InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -503,7 +482,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 (external symmetry number = 1, spin multiplicity = 1)
  +
 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -511,7 +489,6 @@ InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3 (external symmetry number = 1, spin mul
 InChI=1/C3H5/c1-3-2/h3H,1-2H2 (external symmetry number = 2, spin multiplicity = 2)
  +
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
-
 Tsang [Tsang1991]_ recommends k(T) = 2.23e+00 * (T/K)^3.5 * exp(-6.64 kcal/mol /RT) cm3 mol-1 s-1
 for the reaction C3H6 + iso-C4H9 = iso-C4H10 + C3H5.  The new rate coefficient expression is
 in good agreement with this expression (within 10% over most of the valid temperature range).
@@ -535,7 +512,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 (external symmetry number = 1, spin multiplicity = 1)
  +
 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -543,7 +519,6 @@ InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3 (external symmetry number = 1, spin multi
 InChI=1/C3H5/c1-3-2/h3H,1-2H2 (external symmetry number = 2, spin multiplicity = 2)
  +
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
-
 Tsang [Tsang1991]_ recommends k(T) = 3.01e-05 * (T/K)^4.9 * exp(-7.95 kcal/mol /RT) cm3 mol-1 s-1
 for the reaction C3H6 + tert-C4H9 = iso-C4H10 + C3H5.  The new rate coefficient expression is faster
 by as much as 10x over of the valid temperature range.
@@ -567,7 +542,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 (external symmetry number = 1, spin multiplicity = 1)
  +
 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -595,7 +569,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 (external symmetry number = 1, spin multiplicity = 1)
  +
 InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -623,7 +596,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C2H6/c1-2/h1-2H3 (external symmetry number = 6, spin multiplicity = 1)
  +
 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -631,7 +603,6 @@ InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3 (external symmetry number = 1, spin mul
 InChI=1/C2H5/c1-2/h1H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
  +
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
-
 Tsang [Tsang1990]_ recommends k(T) = 2.894e-01 * (T/K)^3.7 * exp(-9.78 kcal/mol /RT) cm3 mol-1 s-1
 for the reaction C2H6 + iso-C4H9 = iso-C4H10 + C2H5.  The new rate coefficient expression is faster
 by 10-100x over of the valid temperature range.
@@ -655,7 +626,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
  +
 InChI=1/C2H5/c1-2/h1H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -663,7 +633,6 @@ InChI=1/C2H5/c1-2/h1H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
  +
 InChI=1/C2H6/c1-2/h1-2H3 (external symmetry number = 6, spin multiplicity = 1)
-
 Tsang [Tsang1990]_ recommends k(T) = 5.41e-01 * (T/K)^3.46 * exp(-5.96 kcal/mol /RT) cm3 mol-1 s-1
 for the reaction iso-C4H10 + C2H5 = C2H6 + tert-C4H9.  The new rate coefficient expression is
 in good agreement with this expression (within a factor of 1.6 over the valid temperature range).
@@ -687,7 +656,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
  +
 InChI=1/C2H5/c1-2/h1H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -715,7 +683,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C2H6/c1-2/h1-2H3 (external symmetry number = 6, spin multiplicity = 1)
  +
 InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -743,7 +710,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
  +
 InChI=1/C2H3/c1-2/h1H,2H2 (external symmetry number = 1, spin multiplicity = 2)
@@ -751,7 +717,6 @@ InChI=1/C2H3/c1-2/h1H,2H2 (external symmetry number = 1, spin multiplicity = 2)
 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
  +
 InChI=1/C2H4/c1-2/h1-2H2 (external symmetry number = 4, spin multiplicity = 1)
-
 Tsang [Tsang1990]_ recommends k(T) = 9.04e-01 * (T/K)^3.46 * exp(-2.60 kcal/mol /RT) cm3 mol-1 s-1
 for the reaction iso-C4H10 + C2H3 = C2H4 + tert-C4H9.  The new rate coefficient is faster by 4-10x
 over the valid temperature range.
@@ -775,7 +740,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
  +
 InChI=1/C3H5/c1-3-2/h1H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -803,7 +767,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
  +
 InChI=1/C3H5/c1-3-2/h1H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -831,7 +794,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C3H6O/c1-2-3-4/h3H,2H2,1H3 (external symmetry number = 1, spin multiplicity = 1)
  +
 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -859,7 +821,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
  +
 InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -887,7 +848,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
  +
 InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -915,7 +875,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C4H8O/c1-4(2)3-5/h3-4H,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
  +
 InChI=1/H (external symmetry number = 1, spin multiplicity = 2)
@@ -943,7 +902,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 (external symmetry number = 2, spin multiplicity = 1)
  +
 InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -971,7 +929,6 @@ entry(
     longDesc = 
 u"""
 SSM CBS-QB3 calculations w/RRHO.
-
 InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+ (external symmetry number = 2, spin multiplicity = 1)
  +
 HO2 (external symmetry number = 1, spin multiplicity = 2)
@@ -1001,7 +958,6 @@ u"""
 SSM CBS-QB3 calculations w/RRHO.
 The rate rule is valid in a range of temperature from 300 -2000 K.
 The Wigner tunneling currection that was used to account for tunneling.
-
 InChI=1/C4H7/c1-3-4-2/h3H,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
  +
 H2O2 (external symmetry number = 2, spin multiplicity = 1)
@@ -1031,7 +987,6 @@ u"""
 SSM CBS-QB3 calculations w/RRHO.
 The rate rule is valid in a range of temperature from 300 -2000 K.
 The Wigner tunneling currection that was used to account for tunneling.
-
 InChI=1/C4H8/c1-3-4-2/h3H,1,4H2,2H3 (external symmetry number = 1, spin multiplicity = 1)
  +
 HO2 (external symmetry number = 1, spin multiplicity = 2)
@@ -1061,7 +1016,6 @@ u"""
 SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 2 to account for summetry of H2O2
 The rate rule is valid in a range of temperature from 300 -2000 K.
 The Wigner tunneling currection that was used to account for tunneling.
-
 InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3  (external symmetry number = 1, spin multiplicity = 2)
  +
 H2O2 (external symmetry number = 2, spin multiplicity = 1)
@@ -1090,18 +1044,15 @@ entry(
 u"""
 Exact reaction: HOOH + *O-CH=CH-C2H5 <=> HO-CH=CH-C2H5 + HOO*
 Rxn family nodes: H2O2 + InChI=1/C4H7O/c1-2-3-4-5/h3-4H,2H2,1H3
-
 MHS computed rate coefficient using CBS-QB3 method, see _[MRHCBSQB3RRHO] for general algorithm
 employed.  Two differences::
     1) the k(T) was calculated from 600 to 2000 K, in 200 K increments.
     2) Low-frequency torsional modes were treated as 1-d separable hindered rotors.  The scans
         were performed at the B3LYP/6-31G(d) level.
-
 MHS computed the fitted Arrhenius expression to be: k(T) = 6.99e-2 (T/1K)^3.75 exp(-10.89 kcal mol-1 / RT) cm3 mol-1 s-1.
 The pre-exponential was divided by 2 to get the per-H event.  The uncertainty in the E0
 was estimated to be 2 kcal mol-1 (general accuracy of CBS-QB3 calculations) and the uncertainty
 in the A parameter was MRH guess.
-
 RMG previously estimated the kinetics of the titled reaction to be ~10^3 times faster
 than calculations of MHS.
 """,
@@ -1125,18 +1076,15 @@ entry(
 u"""
 Exact reaction: HOOH + *O-O-CH3 <=> HO-O-CH3 + HOO*
 Rxn family nodes: H2O2 + OOCH3
-
 MHS computed rate coefficient using CBS-QB3 method, see _[MRHCBSQB3RRHO] for general algorithm
 employed.  Two differences::
     1) the k(T) was calculated from 600 to 2000 K, in 200 K increments.
     2) Low-frequency torsional modes were treated as 1-d separable hindered rotors.  The scans
         were performed at the B3LYP/6-31G(d) level.
-
 MHS computed the fitted Arrhenius expression to be: k(T) = 1.84e-1 (T/1K)^3.96 exp(-6.63 kcal mol-1 / RT) cm3 mol-1 s-1.
 The pre-exponential was divided by 2 to get the per-H event.  The uncertainty in the E0
 was estimated to be 2 kcal mol-1 (general accuracy of CBS-QB3 calculations) and the uncertainty
 in the A parameter was MRH guess.
-
 RMG previously estimated the kinetics of the titled reaction to be 1-3 orders of magnitude faster
 than calculations of MHS.
 """,
@@ -1160,12 +1108,10 @@ entry(
 u"""
 MRH CBS-QB3 calculations w/1d hindered rotor corrections
 Exact reaction: CH3CH2CH=CH2 + OOCH3 = HOOCH3 + CH3CHCH=CH2
-
 This reaction was of interest to MRH/MHS because the butanol model was sensitive to its kinetics
 (in particular, the C4H8-1 predicted concentration for 10-atm JSR simulations between 800-1000 K).
 The original mechanism had an estimate that was much faster than these new calculations (the RMG old
 k(T) was 50-100x faster than these calculations between 800-1000 K).
-
 MRH computed these kinetics using the CBS-QB3 method.  Hindered rotor corrections were accounted for in all species:
     CH3CH2CH=CH2: -CH3 and -CH2CH3 rotor
     OOCH3: -CH3 rotor
@@ -1174,9 +1120,7 @@ MRH computed these kinetics using the CBS-QB3 method.  Hindered rotor correction
     CH3CHCH=CH2: -CH3 and -CH=CH2 rotor
 External symmetry number of all speces was 1.  k(T) was computed from 600 - 2000 K, in 200 K intervals.  An
 asymmetric Eckart tunneling correction was used.
-
 The computed k(T) was 1.482e-02 * (T/1K)^4.313 * exp(-8.016 kcal/mol / RT) cm3 mol-1 s-1.
-
 NOTE: Running PopulateReactions before and after this number produced results that differed by less than a factor
 of three.  New numbers in the RMG database thus lead to an improvement in the RMG estimate (RMG works!).  Also,
 this computed rate coefficient is a factor of 10 faster than Tsang's recommendation for C3H6 + OOCH3 = HOOCH3 + allyl;
@@ -1204,18 +1148,15 @@ entry(
 u"""
 MHS CBS-QB3 calculations w/1d hindered rotor corrections
 Exact reaction: *CH2-CH=CH2 + H2O2 = CH3-CH=CH2 + HO2
-
 MHS computed rate coefficient using CBS-QB3 method, see _[MRHCBSQB3RRHO] for general algorithm
 employed.  Two differences::
     1) the k(T) was calculated from 600 to 2000 K, in 200 K increments.
     2) Low-frequency torsional modes were treated as 1-d separable hindered rotors.  The scans
         were performed at the B3LYP/6-31G(d) level.
-
 MHS computed the fitted Arrhenius expression to be: k(T) = 3.51e-2 (T/1K)^4.22 exp(-9.86 kcal mol-1 / RT) cm3 mol-1 s-1.
 The uncertainty in the E0
 was estimated to be 2 kcal mol-1 (general accuracy of CBS-QB3 calculations) and the uncertainty
 in the A parameter was MRH guess.
-
 RMG previously estimated the kinetics of the titled reaction to be ~2 orders of magnitude faster
 than calculations of MHS.
 """,
@@ -1239,10 +1180,8 @@ entry(
 u"""
 MHS CBS-QB3 calculations without 1d hindered rotor correction (due to presence of hydrogen bond interactions)
 Exact reaction: HO2 + CH3-CH2-CH2-CH=O = H2O2 + CH3-CH2-CH2-C*=O
-
 MHS computed rate coefficient using CBS-QB3 method, see _[MRHCBSQB3RRHO] for general algorithm
 employed.  With the difference that the k(T) was calculated from 600 to 2000 K, in 200 K increments.
-
 MHS computed the fitted Arrhenius expression to be: k(T) = 1.91e-4 (T/1K)^4.25 exp(-0.81 kcal mol-1 / RT) cm3 mol-1 s-1.
 The uncertainty in the E0 was estimated to be 2 kcal mol-1 (general accuracy of CBS-QB3 calculations) and the uncertainty
 in the A parameter was MRH guess.
@@ -1266,7 +1205,6 @@ entry(
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
-
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
  +
 InChI=1/C3H7/c1-3-2/h3H,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
@@ -1274,7 +1212,6 @@ InChI=1/C3H7/c1-3-2/h3H,1-2H3 (external symmetry number = 1, spin multiplicity =
 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
  +
 InChI=1/C3H8/c1-3-2/h3H2,1-2H3 (external symmetry number = 2, spin multiplicity = 1)
-
 Tsang [Tsang1990]_ recommends k(T) = 1.51e-03 * (T/K)^4.2 * exp(-5.96 kcal/mol /RT) cm3 mol-1 s-1
 for the reaction iso-C4H10 + iso-C3H7 = C3H8 + tert-C4H9.  The new rate coefficient expression is
 in good agreement with this expression (within a factor of 3.5 over the valid temperature range).
@@ -1298,13 +1235,10 @@ entry(
     longDesc = 
 u"""
 CC(=O)C + OH --> CJC(=O)C + H2O
-
 G3 PES calculations using Variflex including tunneling corrections.
-
 High-pressure limit rate constants of the title reactions have been calculated in the temperature range
 of 5002000 K using the Variflex code including Eckart tunneling corrections. Variable reaction coordinate
 transition state theory (VRC-TST) has been used for the rate constants of the barrier-less entrance channel.
-
 Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
@@ -1328,13 +1262,10 @@ entry(
     longDesc = 
 u"""
 CC(=O)CC + OH --> CJC(=O)CC + H2O
-
 G3 PES calculations using Variflex including tunneling corrections.
-
 High-pressure limit rate constants of the title reactions have been calculated in the temperature range
 of 5002000 K using the Variflex code including Eckart tunneling corrections. Variable reaction coordinate
 transition state theory (VRC-TST) has been used for the rate constants of the barrier-less entrance channel.
-
 Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
@@ -1358,13 +1289,10 @@ entry(
     longDesc = 
 u"""
 CC(=O)CC + OH --> CC(=)CJC + H2O
-
 G3 PES calculations using Variflex including tunneling corrections.
-
 High-pressure limit rate constants of the title reactions have been calculated in the temperature range
 of 5002000 K using the Variflex code including Eckart tunneling corrections. Variable reaction coordinate
 transition state theory (VRC-TST) has been used for the rate constants of the barrier-less entrance channel.
-
 Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
@@ -1388,13 +1316,10 @@ entry(
     longDesc = 
 u"""
 CC(=O)CC + OH --> CC(=O)CCJ + H2O
-
 G3 PES calculations using Variflex including tunneling corrections.
-
 High-pressure limit rate constants of the title reactions have been calculated in the temperature range
 of 5002000 K using the Variflex code including Eckart tunneling corrections. Variable reaction coordinate
 transition state theory (VRC-TST) has been used for the rate constants of the barrier-less entrance channel.
-
 Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
@@ -1418,13 +1343,10 @@ entry(
     longDesc = 
 u"""
 CC(=O)C(C)C + OH --> CJC(=O)C(C)C
-
 G3 PES calculations using Variflex including tunneling corrections.
-
 High-pressure limit rate constants of the title reactions have been calculated in the temperature range
 of 5002000 K using the Variflex code including Eckart tunneling corrections. Variable reaction coordinate
 transition state theory (VRC-TST) has been used for the rate constants of the barrier-less entrance channel.
-
 Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
@@ -1448,13 +1370,10 @@ entry(
     longDesc = 
 u"""
 CC(=O)C(C)C + OH --> CC(=O)CJ(C)C
-
 G3 PES calculations using Variflex including tunneling corrections.
-
 High-pressure limit rate constants of the title reactions have been calculated in the temperature range
 of 5002000 K using the Variflex code including Eckart tunneling corrections. Variable reaction coordinate
 transition state theory (VRC-TST) has been used for the rate constants of the barrier-less entrance channel.
-
 Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
@@ -1478,13 +1397,10 @@ entry(
     longDesc = 
 u"""
 CC(=O)C(C)C + OH --> CC(=O)C(C)CJ + H2O
-
 G3 PES calculations using Variflex including tunneling corrections.
-
 High-pressure limit rate constants of the title reactions have been calculated in the temperature range
 of 5002000 K using the Variflex code including Eckart tunneling corrections. Variable reaction coordinate
 transition state theory (VRC-TST) has been used for the rate constants of the barrier-less entrance channel.
-
 Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
@@ -1508,6 +1424,355 @@ entry(
 u"""
 Rate comes from quantum calculation by J. Zador at CCSD(T) level
 [ This rate was obtained by personal communication as of Sept 2012]
+""",
+)
+
+entry(
+    index = 1201,
+    label = "CH3CH2NH2_1 + H <=> CH2CH2NH2 + H2",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (9.07e+04, 'cm^3/(mol*s)'),
+        n = 2.75,
+        Ea = (6800, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1202,
+    label = "CH3CH2NH2_2 + H <=> CH3CHNH2 + H2",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (9.54e+03, 'cm^3/(mol*s)'),
+        n = 2.94,
+        Ea = (500, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1203,
+    label = "CH3CH2NH2_3 + H <=> CH3CH2NH + H2",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (8.04e+04, 'cm^3/(mol*s)'),
+        n = 2.64,
+        Ea = (5500, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1204,
+    label = "CH3CH2NH2_1 + CH3 <=> CH2CH2NH2 + CH4",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (3.28e-04, 'cm^3/(mol*s)'),
+        n = 4.85,
+        Ea = (7000, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1205,
+    label = "CH3CH2NH2_2 + CH3 <=> CH3CHNH2 + CH4",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.76e-02, 'cm^3/(mol*s)'),
+        n = 4.23,
+        Ea = (4200, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1206,
+    label = "CH3CH2NH2_3 + CH3 <=> CH3CH2NH + CH4",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.27e-02, 'cm^3/(mol*s)'),
+        n = 4.41,
+        Ea = (4800, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1207,
+    label = "CH3CH2NH2_1 + NH2 <=> CH2CH2NH2 + NH3",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (1.44e-02, 'cm^3/(mol*s)'),
+        n = 4.43,
+        Ea = (3600, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1208,
+    label = "CH3CH2NH2_2 + NH2 <=> CH3CHNH2 + NH3",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.28e+00, 'cm^3/(mol*s)'),
+        n = 3.75,
+        Ea = (1000, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1209,
+    label = "CH3CH2NH2_3 + NH2 <=> CH3CH2NH + NH3",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (9.73e-02, 'cm^3/(mol*s)'),
+        n = 4.03,
+        Ea = (1900, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1210,
+    label = "CH3CH2NH2_1 + OH <=> CH2CH2NH2 + H2O",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (7.94e+02, 'cm^3/(mol*s)'),
+        n = 2.97,
+        Ea = (-1040, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""VTST CCSD(T)/6-311++g(2d,2p)""",
+    longDesc = 
+u"""
+S. Li, E. Dames, D.F. Davidson, R.K. Hanson
+"High-Temperature Measurements of the Reactions of OH with Ethylamine and Dimethylamine"
+The Journal of Physical Chemistry A, 2014, 118, 70-77, http://dx.doi.org/10.1021/jp411141w
+(with geometries from http://dx.doi.org/10.1021/ct7002786 CCSD(T)/6-311++G(2d,2p) single-point calculations)
+""",
+)
+
+entry(
+    index = 1211,
+    label = "CH3CH2NH2_2 + OH <=> CH3CHNH2 + H2O",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.28e+05, 'cm^3/(mol*s)'),
+        n = 2.24,
+        Ea = (-3040, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""VTST CCSD(T)/6-311++g(2d,2p)""",
+    longDesc = 
+u"""
+S. Li, E. Dames, D.F. Davidson, R.K. Hanson
+"High-Temperature Measurements of the Reactions of OH with Ethylamine and Dimethylamine"
+The Journal of Physical Chemistry A, 2014, 118, 70-77, http://dx.doi.org/10.1021/jp411141w
+(with geometries from http://dx.doi.org/10.1021/ct7002786 CCSD(T)/6-311++G(2d,2p) single-point calculations)
+""",
+)
+
+entry(
+    index = 1212,
+    label = "CH3CH2NH2_3 + OH <=> CH3CH2NH + H2O",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.12e+05, 'cm^3/(mol*s)'),
+        n = 2.36,
+        Ea = (-2860, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""VTST CCSD(T)/6-311++g(2d,2p)""",
+    longDesc = 
+u"""
+S. Li, E. Dames, D.F. Davidson, R.K. Hanson
+"High-Temperature Measurements of the Reactions of OH with Ethylamine and Dimethylamine"
+The Journal of Physical Chemistry A, 2014, 118, 70-77, http://dx.doi.org/10.1021/jp411141w
+(with geometries from http://dx.doi.org/10.1021/ct7002786 CCSD(T)/6-311++G(2d,2p) single-point calculations)
+""",
+)
+
+entry(
+    index = 1213,
+    label = "N2H4 + H <=> N2H3 + H2",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (1.48e+08, 'cm^3/(mol*s)'),
+        n = 1.69,
+        Ea = (4000, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1214,
+    label = "N2H4 + CH3 <=> N2H3 + CH4",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (1.77e+01, 'cm^3/(mol*s)'),
+        n = 3.60,
+        Ea = (3500, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1215,
+    label = "N2H4 + NH2 <=> N2H3 + NH3",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (2.59e+03, 'cm^3/(mol*s)'),
+        n = 2.83,
+        Ea = (700, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1216,
+    label = "CH3CHNH_1 + H <=> CH2CHNH + H2",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (3.98e+04, 'cm^3/(mol*s)'),
+        n = 2.76,
+        Ea = (4400, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1217,
+    label = "CH3CHNH_2 + H <=> CH3CHN + H2",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.19e+07, 'cm^3/(mol*s)'),
+        n = 1.96,
+        Ea = (2400, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
 """,
 )
 
