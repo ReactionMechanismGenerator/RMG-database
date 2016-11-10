@@ -8162,40 +8162,46 @@ L1: Radical
             L4: CsJ
                 L5: CH3
                 L5: Cs_P
-                    L6: CsCsJ
+                    L6: CJCO
+                        L7: C=C(O)CJ
                         L7: CJCOOH
-                        L7: CCJ
-                        L7: RCCJ
-                        L7: Isobutyl
-                        L7: Neopentyl
-                            L8: CJC(C)2C=O
-                                L9: CJC(C=O)2C
-                                    L10: C=CC(C=O)2CJ
-                                L9: C=CC(C)(C=O)CJ
                         L7: CJC(C)OC
                         L7: CJC(C)2O
-                            L8: C=CC(C)(O)CJ
-                                L9: C=CC(O)(C=O)CJ
-                            L8: CJC(C)(C=O)O
+                                L8: C=CC(C)(O)CJ
+                                    L9: C=CC(O)(C=O)CJ
+                                L8: CJC(C)(C=O)O
                         L7: CJC(O)2C
                             L8: C=CC(O)2CJ
+                    L6: CJCC=O
+                        L7: CJC(C)2C=O
+                            L8: CJC(C=O)2C
+                                L9: C=CC(C=O)2CJ
+                            L8: C=CC(C)(C=O)CJ
                         L7: CJC(C)C=O
+                        L7: C=C(C=O)CJ
+                    L6: CJCC=C=O
                         L7: CJC(C)C=C=O
+                        L7: C=C(CJ)C=C=O
+                    L6: CsCsJ
+                        L7: CCJ
+                        L7: RCCJ
+                        L7: Neopentyl
+                        L7: Isobutyl
                     L6: Benzyl_P
                     L6: Allyl_P
                         L7: C=CC=CCJ
                         L7: CTCC=CCJ
-                        L7: C=C(O)CJ
-                        L7: C=C(C=O)CJ
                         L7: CJC=C=O
-                        L7: C=C(CJ)C=C=O
                     L6: Propargyl
-                    L6: CJCO
                     L6: CJC=O
                         L7: C2JC=O
-                    L6: CJCC=O
-                    L6: CJCC=C=O
                 L5: Cs_S
+                    L6: CCJCO
+                        L7: C=CCJCO
+                            L8: C=CCJC(O)C=C
+                        L7: CCJCOOH
+                    L6: CCJCC=O
+                    L6: CCJC(C)=C=O
                     L6: (Cs)2CsJ
                         L7: cyclopentene-4
                             L8: bicyclo[2.1.1]hex-2-ene-C5
@@ -8226,7 +8232,6 @@ L1: Radical
                             L8: bicyclo[3.2.0]heptane-C5-6
                             L8: tricyclo[2.2.1.0(1,4)]heptane-C2
                             L8: bicyclo[4.2.0]octane-C4-7
-                        L7: CCJCOOH
                         L7: bicyclo[3.1.1]heptane-C2
                             L8: tricyclo[3.1.1.0(1,5)]heptane-C2
                         L7: bicyclo[3.1.0]hexane-C5-2
@@ -8258,25 +8263,21 @@ L1: Radical
                         L7: cyclobutene-allyl
                         L7: cyclopentene-allyl
                         L7: cyclohexene-allyl
-                        L7: C=CCJC(O)C=C
                     L6: C=CCJC=C
                         L7: cyclopropenyl-allyl
                         L7: 1,3-cyclopentadiene-allyl
                         L7: C=CCJC=C=O
                     L6: Sec_Propargyl
-                    L6: CCJCO
-                        L7: C=CCJCO
                     L6: CCJC=O
                         L7: CCJCHO
                         L7: C=OCJC=O
-                    L6: CCJCC=O
-                    L6: CCJC(C)=C=O
                 L5: Cs_T
+                    L6: CCJ(C)CO
+                        L7: C2CJCOOH
                     L6: Tertalkyl
                         L7: bicyclo[1.1.0]butane-tertiary
                         L7: bicyclo[2.1.0]pentane-tertiary
                         L7: bicyclo[1.1.1]pentane-C1
-                        L7: C2CJCOOH
                         L7: bicyclo[3.1.0]hexane-tertiary
                         L7: bicyclo[2.2.0]hexane-tertiary
                         L7: bicyclo[2.1.1]hexane-C1
@@ -8288,6 +8289,9 @@ L1: Radical
                         L7: bicyclo[4.2.0]octane-tertiary
                         L7: bicyclo[2.2.2]octane-C1
                     L6: Benzyl_T
+                    L6: CCJ(C)C=C=O
+                        L7: C=CCJ(C)C=C=O
+                            L8: C=CCJ(C=C=O)C=C
                     L6: Allyl_T
                         L7: bicyclo[2.1.0]pent-2-ene-C1
                         L7: bicyclo[2.1.1]hex-2-ene-C1
@@ -8295,12 +8299,8 @@ L1: Radical
                     L6: C2CJCO
                         L7: C2CJCHO
                     L6: bicyclo[2.2.0]hexa-2,5-diene-C1
-                    L6: CCJ(C)CO
                     L6: C=CCJ(C)C=O
                         L7: C=CCJ(C=O)C=C
-                    L6: CCJ(C)C=C=O
-                        L7: C=CCJ(C)C=C=O
-                            L8: C=CCJ(C=C=O)C=C
                 L5: CsJO
                     L6: CsJOH
                     L6: CsJOC
@@ -8318,19 +8318,19 @@ L1: Radical
                         L7: CsJOOH
                         L7: CsJOOC
                 L5: CCsJO
-                    L6: CCsJOH
                     L6: CCsJOC
+                        L7: C=CCJ(O)C
                         L7: CCsJOCs
                         L7: CCsJOCds
                             L8: CCsJOC(O)
                                 L9: CCsJOC(O)H
                                 L9: CCsJOC(O)C
-                        L7: C=CCJ(O)C
+                    L6: C=CCJO
+                    L6: OCJC=O
+                    L6: CCsJOH
                     L6: CCsJOO
                         L7: CCsJOOH
                         L7: CCsJOOC
-                    L6: C=CCJO
-                    L6: OCJC=O
                 L5: C2CsJO
                     L6: C2CsJOH
                     L6: C2CsJOC
@@ -8375,19 +8375,19 @@ L1: Radical
                 L5: CdsJO
                     L6: HCdsJO
                     L6: CCJ=O
-                        L7: CsCJ=O
-                            L8: CC(C)CJ=O
-                                L9: CC(C)2CJ=O
-                                    L10: CC(C)(C=O)CJ=O
-                                        L11: C=CC(C)(C=O)CJ=O
-                                    L10: C=CC(C)2CJ=O
-                                L9: CC(C)(O)CJ=O
-                                    L10: C=CC(C)(O)CJ=O
-                        L7: C=CCJ=O
+                        L7: CC(C)CJ=O
+                            L8: CC(C)2CJ=O
+                                L9: CC(C)(C=O)CJ=O
+                                    L10: C=CC(C)(C=O)CJ=O
+                                L9: C=CC(C)2CJ=O
+                            L8: CC(C)(O)CJ=O
+                                L9: C=CC(C)(O)CJ=O
                         L7: CCCJ=O
                             L8: C=OCCJ=O
                                 L9: C=OC=OCJ=O
                             L8: C=C(C)CJ=O
+                        L7: CsCJ=O
+                        L7: C=CCJ=O
                         L7: OC=OCJ=O
                     L6: (O)CJO
                         L7: (O)CJOH
@@ -8399,6 +8399,7 @@ L1: Radical
                 L5: Cds_P
                     L6: C=C=CJ
                 L5: Cds_S
+                    L6: C=CJC=O
                     L6: C=CJC=C
                         L7: cyclobutadiene-C1
                             L8: bicyclo[2.2.0]hexa-1(4),2,5-triene-C2
@@ -8411,7 +8412,6 @@ L1: Radical
                     L6: cyclopentene-vinyl
                         L7: bicyclo[2.1.1]hex-2-ene-C2
                     L6: 1,3-cyclopentadiene-vinyl-1
-                    L6: C=CJC=O
                     L6: CCCJ=C=O
                         L7: CC(C)CJ=C=O
                         L7: C=C(C)CJ=C=O
@@ -8429,26 +8429,26 @@ L1: Radical
         L3: OJ
             L4: HOJ
             L4: COJ
-                L5: CsOJ
-                    L6: H3COJ
+                L5: CCOJ
+                    L6: C=OCOJ
+                        L7: C=CC(C)(C=O)OJ
+                        L7: CC(C)(C=O)OJ
+                        L7: C=OC=OOJ
                     L6: CC(C)OJ
                         L7: CC(C)2OJ
                             L8: C=CC(C)2OJ
-                                L9: C=CC(C)(C=O)OJ
-                            L8: CC(C)(C=O)OJ
                         L7: CC(C)(O)OJ
                             L8: C=CC(C)(O)OJ
+                    L6: C=C(C)OJ
                 L5: CdsOJ
                     L6: RC=COJ
                         L7: C=COJ
-                            L8: C=C(C)OJ
                     L6: OJC=O
                         L7: OC=OOJ
-                        L7: C=OC=OOJ
-                L5: CbOJ
-                L5: CCOJ
-                    L6: C=OCOJ
                 L5: OCOJ
+                L5: CsOJ
+                    L6: H3COJ
+                L5: CbOJ
             L4: OOJ
                 L5: ROOJ
                     L6: C(=O)OOJ
