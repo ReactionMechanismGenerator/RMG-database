@@ -436,3 +436,25 @@ Mcoll = numpy.zeros((Nisom,Ngrains,NJ,Ngrains,NJ), numpy.float64)
 """,
 )
 
+entry(
+    label = "C(=[CH])[O-][N+]#N",
+    group = 
+"""
+multiplicity [2]
+1 C u0 p0 c0 {2,D} {4,S} {7,S}
+2 C u1 p0 c0 {1,D} {3,S}
+3 H u0 p0 c0 {2,S}
+4 O u0 p2 c-1 {1,S} {5,S}
+5 N u0 p0 c+1 {4,S} {6,T}
+6 N u0 p1 c0 {5,T}
+7 H u0 p0 c0 {1,S}
+
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+EA sim (xa1479) crashed with error:
+Invalid k(E) values computed for path reaction "C(=[CH])[O-][N+]#N(6454) <=> c1cn[n+][o-]1(6594)".
+""",
+)
+
