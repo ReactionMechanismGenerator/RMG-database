@@ -1776,3 +1776,77 @@ Ethylamine paper
 """,
 )
 
+entry(
+    index = 1230,
+    label = "NH + CH4b <=> NH2b + CH3b",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (9e13, 'cm^3/(mol*s)', '*|/', 1.5),
+        n = 0,
+        Ea = (84, 'kJ/mol', '+|-', 5),
+        T0 = (1, 'K'),
+        Tmin = (1150, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Wagner""",
+    longDesc =
+u"""
+Experimental measurements
+
+Michael Röhrig andHeinz Georg Wagner
+A kinetic study about the reactions of NH(X3Σ−) with hydrocarbons part 1: Saturated hydrocarbons and acetaldehyde
+Berichte der Bunsengesellschaft für physikalische Chemie Volume 98, Issue 6, pages 858–863, June 1994
+DOI: 10.1002/bbpc.19940980615
+""",
+)
+
+entry(
+    index = 1231,
+    label = "NH + C2H6 <=> NH2b + C2H5b",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (7e13, 'cm^3/(mol*s)', '*|/', 1.75),
+        n = 0,
+        Ea = (70, 'kJ/mol', '+|-', 5),
+        T0 = (1, 'K'),
+        Tmin = (1150, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Wagner""",
+    longDesc =
+u"""
+Experimental measurements
+
+Michael Röhrig andHeinz Georg Wagner
+A kinetic study about the reactions of NH(X3Σ−) with hydrocarbons part 1: Saturated hydrocarbons and acetaldehyde
+Berichte der Bunsengesellschaft für physikalische Chemie Volume 98, Issue 6, pages 858–863, June 1994
+DOI: 10.1002/bbpc.19940980615
+""",
+)
+
+entry(
+    index = 1232,
+    label = "NH + HNCO <=> NH2b + NCO",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (6.26e12, 'cm^3/(mol*s)'),
+        n = 1.82,
+        Ea = (99.82, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (1000, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Sun""",
+    longDesc =
+u"""
+calculated at UQCISD(T)/6-311G** level
+Zhen-Feng Xu and Jia-Zhong Sun
+Theoretical Study on the Reaction Path and Variational Rate Constant of the Reaction HNCO + NH → NCO + NH2
+J. Phys. Chem. A, 1998, 102 (7), pp 1194–1199
+DOI: 10.1021/jp972959n
+""",
+)
+
