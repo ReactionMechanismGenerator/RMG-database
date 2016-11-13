@@ -2654,8 +2654,6 @@ u"""
 """,
 )
 
-<<<<<<< HEAD
-=======
 forbidden(
     label = "mb_intra_R3",
     group = 

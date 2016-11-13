@@ -2958,3 +2958,66 @@ u"""
 """,
 )
 
+forbidden(
+    label = "beta_C_rad_to_meta_phenyl_res1",
+    group =
+"""
+1 *4 C u0 {2,S} {3,[S,D,T]}
+2 *6 C u0 {1,S} {4,D} {5,S}
+3 *1 C u1 {1,[S,D,T]}
+4 *5 C u0 {2,D} {7,S}
+5    C u0 {2,S} {8,D}
+6 *3 C u0 {7,D} {8,S}
+7 *2 C u0 {4,S} {6,D}
+8    C u0 {5,D} {6,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a carbon radical 2 carbons away from a phenyl side group from adding to the meta-position
+because the TS would be far too strained. Resonance form 1.
+""",
+)
+
+forbidden(
+    label = "beta_C_rad_to_meta_phenyl_res2",
+    group =
+"""
+1 *4 C u0 {2,S} {3,[S,D,T]}
+2 *6 C u0 {1,S} {4,S} {5,D}
+3 *1 C u1 {1,[S,D,T]}
+4 *3 C u0 {2,S} {7,D}
+5 *7 C u0 {2,D} {8,S}
+6 *5 C u0 {7,S} {8,D}
+7 *2 C u0 {4,D} {6,S}
+8 *8 C u0 {5,S} {6,D}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a carbon radical 2 carbons away from a phenyl side group from adding to the meta-position
+because the TS would be far too strained. Resonance form 2.
+""",
+)
+
+forbidden(
+    label = "beta_C_rad_para_phenyl",
+    group =
+"""
+1 *4 C u0 {2,S} {3,[S,D,T]}
+2 *6 C u0 {1,S} {4,D} {5,S}
+3 *1 C u1 {1,[S,D,T]}
+4    C u0 {2,D} {7,S}
+5 *7 C u0 {2,S} {8,D}
+6 *2 C u0 {7,D} {8,S}
+7 *3 C u0 {4,S} {6,D}
+8 *5 C u0 {5,D} {6,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a carbon radical 2 carbons away from a phenyl side group from adding to the para-position
+because the TS would be far too strained.
+""",
+)
+
