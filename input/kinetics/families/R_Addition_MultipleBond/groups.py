@@ -16576,9 +16576,131 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 1048,
+    label = "Cb_Cb",
+    group =
+"""
+1 *1 Cd u0 {2,D} {3,S}
+2 *2 Cd u0 {1,D} {4,S}
+3 Cd u0 {1,S} {5,D}
+4 Cd u0 {2,S} {6,D}
+5 Cd u0 {3,D} {6,S}
+6 Cd u0 {4,D} {5,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1049,
+    label = "Cb-R!H_Cb",
+    group =
+"""
+1 *1 Cd u0 {2,D} {3,S} {7,S}
+2 *2 Cd u0 {1,D} {4,S}
+3 Cd u0 {1,S} {5,D}
+4 Cd u0 {2,S} {6,D}
+5 Cd u0 {3,D} {6,S}
+6 Cd u0 {4,D} {5,S}
+7 R!H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1050,
+    label = "Cb-R!H_Cb-R!H",
+    group =
+"""
+1 *1 Cd u0 {2,D} {3,S} {7,S}
+2 *2 Cd u0 {1,D} {4,S} {8,S}
+3 Cd u0 {1,S} {5,D}
+4 Cd u0 {2,S} {6,D}
+5 Cd u0 {3,D} {6,S}
+6 Cd u0 {4,D} {5,S}
+7 R!H u0 {1,S}
+8 R!H u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1051,
+    label = "Cb-R!H_Cb-H",
+    group =
+"""
+1 *1 Cd u0 {2,D} {3,S} {7,S}
+2 *2 Cd u0 {1,D} {4,S} {8,S}
+3 Cd u0 {1,S} {5,D}
+4 Cd u0 {2,S} {6,D}
+5 Cd u0 {3,D} {6,S}
+6 Cd u0 {4,D} {5,S}
+7 R!H u0 {1,S}
+8 H u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1052,
+    label = "Cb-H_Cb",
+    group =
+"""
+1 *1 Cd u0 {2,D} {3,S} {7,S}
+2 *2 Cd u0 {1,D} {4,S}
+3 Cd u0 {1,S} {5,D}
+4 Cd u0 {2,S} {6,D}
+5 Cd u0 {3,D} {6,S}
+6 Cd u0 {4,D} {5,S}
+7 H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1053,
+    label = "Cb-H_Cb-R!H",
+    group =
+"""
+1 *1 Cd u0 {2,D} {3,S} {7,S}
+2 *2 Cd u0 {1,D} {4,S} {8,S}
+3 Cd u0 {1,S} {5,D}
+4 Cd u0 {2,S} {6,D}
+5 Cd u0 {3,D} {6,S}
+6 Cd u0 {4,D} {5,S}
+7 H u0 {1,S}
+8 R!H u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1054,
+    label = "Cb-H_Cb-H",
+    group =
+"""
+1 *1 Cd u0 {2,D} {3,S} {7,S}
+2 *2 Cd u0 {1,D} {4,S} {8,S}
+3 Cd u0 {1,S} {5,D}
+4 Cd u0 {2,S} {6,D}
+5 Cd u0 {3,D} {6,S}
+6 Cd u0 {4,D} {5,S}
+7 H u0 {1,S}
+8 H u0 {2,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: R_R
+    L2: Cb_Cb
+        L3: Cb-R!H_Cb
+            L4: Cb-R!H_Cb-R!H
+            L4: Cb-R!H_Cb-H
+        L3: Cb-H_Cb
+            L4: Cb-H_Cb-R!H
+            L4: Cb-H_Cb-H
     L2: Cd_R
         L3: Cdd_Od
             L4: CO2
