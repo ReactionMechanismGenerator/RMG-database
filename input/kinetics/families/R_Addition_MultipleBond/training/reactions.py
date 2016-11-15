@@ -1198,89 +1198,6 @@ Taken from entry: prod4 <=> naphthalene + H
 
 entry(
     index = 73,
-    label = "propene_1 + C6H5 <=> C9H11-6",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(214.5, 'cm^3/(mol*s)'), n=3.05, Ea=(0.83, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
-    longDesc = 
-u"""
-Taken from entry: C6H5 + C3H6 <=> i1
-""",
-)
-
-entry(
-    index = 74,
-    label = "propene_2 + C6H5 <=> C9H11-7",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (32.79, 'cm^3/(mol*s)'),
-        n = 3.085,
-        Ea = (1.881, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
-    longDesc = 
-u"""
-Taken from entry: C6H5 + C3H6 <=> i2
-""",
-)
-
-entry(
-    index = 75,
-    label = "C9H11-8 <=> C9H10-5 + H",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.848e+10, 's^-1'), n=0.848, Ea=(33.958, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
-    longDesc = 
-u"""
-Taken from entry: i2 <=> p4 + H
-""",
-)
-
-entry(
-    index = 76,
-    label = "C9H11-9 <=> C8H8-2 + CH3",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.603e+12, 's^-1'), n=0.523, Ea=(29.345, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
-    longDesc = 
-u"""
-Taken from entry: i2 <=> p1 + CH3
-""",
-)
-
-entry(
-    index = 77,
-    label = "C9H11-10 <=> C9H10-6 + H",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(4.935e+11, 's^-1'), n=0.894, Ea=(34.903, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
-    longDesc = 
-u"""
-Taken from entry: i1 <=> p2 + H
-""",
-)
-
-entry(
-    index = 78,
-    label = "C9H11-11 <=> C9H10-7 + H",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(2.424e+10, 's^-1'), n=0.914, Ea=(34.551, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
-    longDesc = 
-u"""
-Taken from entry: i1 <=> p3 + H
-""",
-)
-
-entry(
-    index = 79,
     label = "C9H11 <=> C8H8 + CH3",
     degeneracy = 1,
     kinetics = Arrhenius(A=(9.662e+12, 's^-1'), n=0.757, Ea=(48.395, 'kcal/mol'), T0=(1, 'K')),
@@ -1293,8 +1210,8 @@ Taken from entry: i8 <=> p7 + CH3
 )
 
 entry(
-    index = 80,
-    label = "C9H11-12 <=> C9H10-8 + H",
+    index = 74,
+    label = "C9H11-2 <=> C9H10 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(6.732e+10, 's^-1'), n=0.856, Ea=(26.921, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
@@ -1306,20 +1223,7 @@ Taken from entry: i8 <=> p8 + H
 )
 
 entry(
-    index = 81,
-    label = "C9H11-13 <=> C9H10-9 + H",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(6.13e+13, 's^-1'), n=-0.029, Ea=(41.271, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
-    longDesc = 
-u"""
-Taken from entry: i9 <=> p4 + H
-""",
-)
-
-entry(
-    index = 82,
+    index = 75,
     label = "C9H11-3 <=> C9H10-2 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.715e+10, 's^-1'), n=0.858, Ea=(25.452, 'kcal/mol'), T0=(1, 'K')),
@@ -1332,21 +1236,8 @@ Taken from entry: i10 <=> p4 + H
 )
 
 entry(
-    index = 83,
-    label = "C9H11-14 <=> C9H10-10 + H",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(7.447e+10, 's^-1'), n=0.874, Ea=(36.168, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
-    longDesc = 
-u"""
-Taken from entry: i4 <=> p2 + H
-""",
-)
-
-entry(
-    index = 84,
-    label = "C9H11-15 <=> C9H10-11 + H",
+    index = 76,
+    label = "C9H11-4 <=> C9H10-3 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.417e+10, 's^-1'), n=0.841, Ea=(23.191, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
@@ -1358,7 +1249,7 @@ Taken from entry: i5 <=> p5 + H
 )
 
 entry(
-    index = 85,
+    index = 77,
     label = "C9H11-5 <=> C9H10-4 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.124e+12, 's^-1'), n=0.476, Ea=(47.412, 'kcal/mol'), T0=(1, 'K')),
@@ -1371,54 +1262,66 @@ Taken from entry: i5 <=> p9 + H
 )
 
 entry(
-    index = 86,
-    label = "C9H11-16 <=> C8H8-3 + CH3",
+    index = 78,
+    label = "C9H11 <=> C8H8 + CH3",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.59e+12, 's^-1'), n=0.733, Ea=(35.918, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(9.662e+12, 's^-1'), n=0.757, Ea=(48.395, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
     longDesc = 
 u"""
-Taken from entry: i7 <=> p1 + CH3
+Taken from entry: i8 <=> p7 + CH3
 """,
 )
 
 entry(
-    index = 87,
-    label = "C9H11-17 <=> C9H10-12 + H",
+    index = 79,
+    label = "C9H11-2 <=> C9H10 + H",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.88e+11, 's^-1'), n=0.972, Ea=(40.036, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(6.732e+10, 's^-1'), n=0.856, Ea=(26.921, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
     longDesc = 
 u"""
-Taken from entry: i7 <=> p6 + H
+Taken from entry: i8 <=> p8 + H
 """,
 )
 
 entry(
-    index = 88,
-    label = "C9H11-18 <=> C9H10-13 + H",
+    index = 80,
+    label = "C9H11-3 <=> C9H10-2 + H",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.539e+11, 's^-1'), n=0.868, Ea=(26.827, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(2.715e+10, 's^-1'), n=0.858, Ea=(25.452, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
     longDesc = 
 u"""
-Taken from entry: i6 <=> p2 + H
+Taken from entry: i10 <=> p4 + H
 """,
 )
 
 entry(
-    index = 89,
-    label = "C9H11-19 <=> ethene + C7H7-3",
+    index = 81,
+    label = "C9H11-4 <=> C9H10-3 + H",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.958e+16, 's^-1'), n=1.043, Ea=(23.608, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(3.417e+10, 's^-1'), n=0.841, Ea=(23.191, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
     longDesc = 
 u"""
-Taken from entry: i4 <=> C2H4 + Benzyl
+Taken from entry: i5 <=> p5 + H
 """,
 )
 
+entry(
+    index = 82,
+    label = "C9H11-5 <=> C9H10-4 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.124e+12, 's^-1'), n=0.476, Ea=(47.412, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
+    longDesc = 
+u"""
+Taken from entry: i5 <=> p9 + H
+""",
+)
