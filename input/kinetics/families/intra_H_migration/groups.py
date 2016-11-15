@@ -3908,6 +3908,32 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 266,
+    label = "Cs_H_out_AromDe",
+    group =
+"""
+1 *2 Cs  u0 {2,S} {3,S} {4,S}
+2 *3 H   u0 {1,S}
+3    R!H u0 {1,S}
+4    Cb  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 267,
+    label = "Cs_H_out_H/AromDe",
+    group =
+"""
+1 *2 Cs  u0 {2,S} {3,S} {4,S}
+2 *3 H   u0 {1,S}
+3    Cb  u0 {1,S}
+4    H   u0 {1,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: RnH
@@ -4162,6 +4188,7 @@ L1: XH_out
                 L5: Cs_H_out_H/CO
                 L5: Cs_H_out_H/CS
                 L5: Cs_H_out_H/Cd
+            L4: Cs_H_out_H/AromDe
         L3: Cs_H_out_noH
             L4: Cs_H_out_NonDe
                 L5: Cs_H_out_Cs2
@@ -4178,6 +4205,7 @@ L1: XH_out
                 L5: Cs_H_out_CtCt
                 L5: Cs_H_out_CdCt
                 L5: Cs_H_out_CdCd
+            L4: Cs_H_out_AromDe
         L3: Cs_H_out_OOH
             L4: Cs_H_out_OOH/Cs
 """
