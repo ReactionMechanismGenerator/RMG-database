@@ -1511,3 +1511,58 @@ Rate comes from quantum calculation by J. Zador at CCSD(T) level
 """,
 )
 
+
+entry(
+    index = 1011,
+    label = "C3H6-3 + C6H5 <=> C6H6 + C3H5-3",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.209, 'cm^3/(mol*s)'),
+        n = 3.709,
+        Ea = (6.35, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
+    longDesc = 
+u"""
+Taken from entry: C6H5 + C3H6 <=> CH3CHCH + C6H6
+""",
+)
+
+entry(
+    index = 1012,
+    label = "C3H6-2 + C6H5 <=> C6H6 + C3H5-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.949, 'cm^3/(mol*s)'),
+        n = 3.696,
+        Ea = (4.575, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
+    longDesc = 
+u"""
+Taken from entry: C6H5 + C3H6 <=> CH3CCH2 + C6H6
+""",
+)
+
+entry(
+    index = 1013,
+    label = "C3H6 + C6H5 <=> C6H6 + C3H5",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (6.533, 'cm^3/(mol*s)'),
+        n = 3.646,
+        Ea = (1.897, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
+    longDesc = 
+u"""
+Taken from entry: C6H5 + C3H6 <=> CH2CHCH2 + C6H6
+""",
+)
+
