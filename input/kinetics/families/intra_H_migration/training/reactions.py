@@ -551,7 +551,7 @@ entry(
     index = 38,
     label = "C9H11-9 <=> C9H11-10",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.651e-05, 's^-1'), n=2.68, Ea=(4.252, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(8.846e+04, 's^-1'), n=0.0, Ea=(9.609, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
     longDesc = 
