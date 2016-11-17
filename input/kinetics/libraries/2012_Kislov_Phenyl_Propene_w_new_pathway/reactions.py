@@ -476,7 +476,7 @@ From 2012 Kislov
 
 entry(
     index = 27,
-    label = "i7 <=> p6 + H",
+    label = "i7 <=> p3 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.88e+11, 's^-1'),
