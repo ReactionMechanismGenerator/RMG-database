@@ -5413,6 +5413,7 @@ Forbid a radical 2 atoms away from a phenyl side group from abstracting an H fro
 because the TS would be far too strained. Resonance form 3.
 """,
 )
+
 ##########
 
 ##########
