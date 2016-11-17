@@ -21,7 +21,7 @@ recipe(actions=[
 entry(
     index = 1,
     label = "R_R",
-    group = "OR{Cd_R, Ct_R, Od_R, Sd_R, Nd_R, Nt_R}",
+    group = "OR{Cd_R, Ct_R, Od_R, Sd_R, Nd_R, Nt_R, Cb_Cb}",
     kinetics = None,
 )
 
