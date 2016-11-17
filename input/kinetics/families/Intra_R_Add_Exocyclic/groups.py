@@ -1080,7 +1080,7 @@ entry(
 entry(
     index = 76,
     label = "R7plus",
-    group = "OR{R7, R8, R9}",
+    group = "OR{R7, R8, R9, R10, R11}",
     kinetics = None,
 )
 
@@ -2735,6 +2735,45 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 251,
+    label = "R10",
+    group = 
+"""
+1 *1 R!H           u1 {2,[S,D,T,B]}
+2 *4 R!H           ux {1,[S,D,T,B]} {3,[S,D,T,B]}
+3 *6 R!H           ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4 *7 R!H           ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *8 R!H           ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *9 R!H           ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *10 R!H          ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *5 R!H           ux {7,[S,D,T,B]} {9,S}
+9 *2 [Cd,Ct,CO,N]     u0 {8,S} {10,[D,T]}
+10 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {9,[D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 252,
+    label = "R11",
+    group = 
+"""
+1 *1 R!H           u1 {2,[S,D,T,B]}
+2 *4 R!H           ux {1,[S,D,T,B]} {3,[S,D,T,B]}
+3 *6 R!H           ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4 *7 R!H           ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *8 R!H           ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *9 R!H           ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *10 R!H          ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *11 R!H          ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *5 R!H           ux {8,[S,D,T,B]} {10,S}
+10 *2 [Cd,Ct,CO,N]     u0 {9,S} {11,[D,T]}
+11 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {10,[D,T]}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Rn
@@ -2869,6 +2908,8 @@ L1: Rn
             L4: R7_SMMS
         L3: R8
         L3: R9
+        L3: R10
+        L3: R11
 L1: multiplebond_intra
     L2: doublebond_intra
         L3: doublebond_intra_2H
