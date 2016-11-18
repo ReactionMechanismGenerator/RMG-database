@@ -2655,7 +2655,7 @@ u"""
 )
 
 forbidden(
-    label = "mb_intra_R3",
+    label = "mb_intra_Rxc3",
     group = 
 """
 1 *2 R!H u0 {2,[D,T]} {3,[S,D,T,B]}
@@ -2671,7 +2671,7 @@ duplicate reactions. Therefore, we forbid all cyclics in this family.
 )
 
 forbidden(
-    label = "mb_intra_R4",
+    label = "mb_intra_Rxc4",
     group = 
 """
 1 *2 R!H u0 {2,[D,T]} {4,[S,D,T,B]}
@@ -2688,7 +2688,7 @@ duplicate reactions. Therefore, we forbid all cyclics in this family.
 )
 
 forbidden(
-    label = "mb_intra_R5",
+    label = "mb_intra_Rxc5",
     group = 
 """
 1 *2 R!H u0 {2,[D,T]} {5,[S,D,T,B]}
@@ -2706,7 +2706,7 @@ duplicate reactions. Therefore, we forbid all cyclics in this family.
 )
 
 forbidden(
-    label = "mb_intra_R6",
+    label = "mb_intra_Rxc6",
     group = 
 """
 1 *2 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
@@ -2725,7 +2725,7 @@ duplicate reactions. Therefore, we forbid all cyclics in this family.
 )
 
 forbidden(
-    label = "mb_intra_R7",
+    label = "mb_intra_Rxc7",
     group = 
 """
 1 *2 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
@@ -2745,7 +2745,7 @@ duplicate reactions. Therefore, we forbid all cyclics in this family.
 )
 
 forbidden(
-    label = "mb_intra_R8",
+    label = "mb_intra_Rxc8",
     group = 
 """
 1 *2 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
@@ -2756,6 +2756,117 @@ forbidden(
 6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
 7    R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
 8 *5 R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclics in this family.
+""",
+)
+
+forbidden(
+    label = "mb_intra_R1c3_beta",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {3,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3 *4 R!H ux {2,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclics in this family.
+""",
+)
+
+forbidden(
+    label = "mb_intra_R1c4_beta",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {4,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4 *4 R!H ux {3,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclics in this family.
+""",
+)
+
+forbidden(
+    label = "mb_intra_R1c5_beta",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {5,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *4 R!H ux {4,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclics in this family.
+""",
+)
+
+forbidden(
+    label = "mb_intra_R1c6_beta",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *4 R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclics in this family.
+""",
+)
+
+forbidden(
+    label = "mb_intra_R1c7_beta",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *4 R!H ux {6,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclics in this family.
+""",
+)
+
+forbidden(
+    label = "mb_intra_R1c8_beta",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *4 R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]}
 """,
     shortDesc = u"""""",
     longDesc = 
