@@ -2875,3 +2875,22 @@ If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will g
 duplicate reactions. Therefore, we forbid all cyclics in this family.
 """,
 )
+
+forbidden(
+    label = "mb_intra_Rxc6_aromatic",
+    group =
+"""
+1 *2 R!H u0 {2,D} {6,S}
+2 *3 R!H u0 {1,D} {3,S}
+3    R!H ux {2,S} {4,D}
+4    R!H ux {3,D} {5,S}
+5    R!H ux {4,S} {6,D}
+6    R!H ux {5,D} {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclics in this family.
+""",
+)
