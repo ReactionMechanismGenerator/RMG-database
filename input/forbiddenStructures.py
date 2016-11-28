@@ -350,3 +350,46 @@ u"""
 """,
 )
 
+entry(
+    label = "Methylene_triplet",
+    group =
+"""
+1 C   u2 p0
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    label = "Methylene_singlet",
+    group =
+"""
+1 C   u0 p1
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    label = "Adjacent_Cd_in_6_member_ring",
+    group =
+"""
+1 C ux {2,D} {6,D}
+2 C ux {1,D} {3,[S,D,T,D]}
+3 C ux {2,[S,D,T,D]} {4,[S,D,T,D]}
+4 C ux {3,[S,D,T,D]} {5,[S,D,T,D]}
+5 C ux {4,[S,D,T,D]} {6,[S,D,T,D]}
+6 C ux {1,D} {5,[S,D,T,D]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
