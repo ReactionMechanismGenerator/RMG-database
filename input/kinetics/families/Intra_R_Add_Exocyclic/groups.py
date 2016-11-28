@@ -2958,8 +2958,9 @@ u"""
 """,
 )
 
+####################
+#Forbid a carbon radical 2 carbons away from a phenyl side group from adding to either the meta- or para- position
 forbidden(
-<<<<<<< HEAD
     label = "beta_C_rad_to_meta_phenyl_res1",
     group =
 """
@@ -2967,15 +2968,6 @@ forbidden(
 2 *6 C u0 {1,S} {4,D} {5,S}
 3 *1 C u1 {1,[S,D,T]}
 4 *5 C u0 {2,D} {7,S}
-=======
-    label = "2_C_rad_add_to_m_position_of_phenyl_sidegroup_res1",
-    group =
-"""
-1    C u0 {2,S} {3,[S,D,T]}
-2    C u0 {1,S} {4,D} {5,S}
-3 *1 C u1 {1,[S,D,T]}
-4    C u0 {2,D} {7,S}
->>>>>>> b72ed81... Added 3 forbidden groups to Intra_R_add_Exo and Endocyclic families
 5    C u0 {2,S} {8,D}
 6 *3 C u0 {7,D} {8,S}
 7 *2 C u0 {4,S} {6,D}
@@ -2990,7 +2982,6 @@ because the TS would be far too strained. Resonance form 1.
 )
 
 forbidden(
-<<<<<<< HEAD
     label = "beta_C_rad_to_meta_phenyl_res2",
     group =
 """
@@ -3002,19 +2993,6 @@ forbidden(
 6 *5 C u0 {7,S} {8,D}
 7 *2 C u0 {4,D} {6,S}
 8 *8 C u0 {5,S} {6,D}
-=======
-    label = "2_C_rad_add_to_m_position_of_phenyl_sidegroup_res2",
-    group =
-"""
-1    C u0 {2,S} {3,[S,D,T]}
-2    C u0 {1,S} {4,S} {5,D}
-3 *1 C u1 {1,[S,D,T]}
-4 *3 C u0 {2,S} {7,D}
-5    C u0 {2,D} {8,S}
-6    C u0 {7,S} {8,D}
-7 *2 C u0 {4,D} {6,S}
-8    C u0 {5,S} {6,D}
->>>>>>> b72ed81... Added 3 forbidden groups to Intra_R_add_Exo and Endocyclic families
 """,
     shortDesc = u"""""",
     longDesc =
@@ -3025,7 +3003,6 @@ because the TS would be far too strained. Resonance form 2.
 )
 
 forbidden(
-<<<<<<< HEAD
     label = "beta_C_rad_para_phenyl",
     group =
 """
@@ -3037,90 +3014,150 @@ forbidden(
 6 *2 C u0 {7,D} {8,S}
 7 *3 C u0 {4,S} {6,D}
 8 *5 C u0 {5,D} {6,S}
-=======
-    label = "2_C_rad_add_to_p_position_of_phenyl_sidegroup_res1",
-    group =
-"""
-1    C u0 {2,S} {3,[S,D,T]}
-2    C u0 {1,S} {4,D} {5,S}
-3 *1 C u1 {1,[S,D,T]}
-4    C u0 {2,D} {7,S}
-5    C u0 {2,S} {8,D}
-6 *2 C u0 {7,D} {8,S}
-7 *3 C u0 {4,S} {6,D}
-8    C u0 {5,D} {6,S}
->>>>>>> b72ed81... Added 3 forbidden groups to Intra_R_add_Exo and Endocyclic families
 """,
     shortDesc = u"""""",
     longDesc =
 u"""
 Forbid a carbon radical 2 carbons away from a phenyl side group from adding to the para-position
-<<<<<<< HEAD
 because the TS would be far too strained.
 """,
 )
+###################
 
+####################
+#Forbid a carbon radical 1 carbon away from a phenyl side group (benzylic position) from adding to either the meta- or para- position
 forbidden(
-    label = "Phenyl_self_3_5_ring_close_res1",
+    label = "alpha_C_rad_to_meta_phenyl_res1",
     group =
 """
-1 *1 C u1 {2,D} {6,S}
-2    C u0 {1,D} {3,S}
-3 *2 C u0 {2,S} {4,D}
-4 *3 C u0 {3,D} {5,S}
-5    C u0 {4,S} {6,D}
-6    C u0 {1,S} {5,D}
+1 *1 C u1 {2,S}
+2 *4 C u0 {1,S} {3,D} {4,S}
+3 *5 C u0 {2,D} {6,S}
+4    C u0 {2,S} {7,D}
+5 *3 C u0 {6,D} {7,S}
+6 *2 C u0 {3,S} {5,D}
+7    C u0 {4,D} {5,S}
 """,
     shortDesc = u"""""",
     longDesc =
 u"""
-Forbid a phenyl radical from doing a ring closure on itself to form a fused 3 and 5 membered ring. Resonance form 1.
-""",
-)
-
-forbidden(
-    label = "Phenyl_self_3_5_ring_close_res2",
-    group =
-"""
-1 *1 C u1 {2,S} {6,D}
-2 *3 C u0 {1,S} {3,D}
-3 *2 C u0 {2,D} {4,S}
-4    C u0 {3,S} {5,D}
-5    C u0 {4,D} {6,S}
-6    C u0 {1,D} {5,S}
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-Forbid a phenyl radical from doing a ring closure on itself to form a fused 3 and 5 membered ring. Resonance form 2.
-""",
-)
-
-forbidden(
-    label = "Phenyl_self_4_4_ring_close_res1",
-    group =
-"""
-1 *1 C u1 {2,D} {6,S}
-2    C u0 {1,D} {3,S}
-3 *3 C u0 {2,S} {4,D}
-4 *2 C u0 {3,D} {5,S}
-5    C u0 {4,S} {6,D}
-6    C u0 {1,S} {5,D}
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-Forbid a phenyl radical from doing a ring closure on itself to form a fused 4 and 4 membered ring. Resonance form 1.
-""",
-)
-=======
+Forbid a carbon radical 1 carbons away from a phenyl side group (benzylic position) from adding to the meta-position
 because the TS would be far too strained. Resonance form 1.
 """,
 )
 
-<<<<<<< HEAD
->>>>>>> b72ed81... Added 3 forbidden groups to Intra_R_add_Exo and Endocyclic families
-=======
+forbidden(
+    label = "alpha_C_rad_to_meta_phenyl_res2",
+    group =
+"""
+1 *1 C u1 {2,S}
+2 *4 C u0 {1,S} {3,S} {4,D}
+3 *3 C u0 {2,S} {6,D}
+4 *6 C u0 {2,D} {7,S}
+5 *5 C u0 {6,S} {7,D}
+6 *2 C u0 {3,D} {5,S}
+7 *7 C u0 {4,S} {5,D}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a carbon radical 1 carbons away from a phenyl side group (benzylic position) from adding to the meta-position
+because the TS would be far too strained. Resonance form 2.
+""",
+)
+
+forbidden(
+    label = "alpha_C_rad_to_para_phenyl",
+    group =
+"""
+1 *1 C u1 {2,S}
+2 *4 C u0 {1,S} {3,S} {4,D}
+3 *6 C u0 {2,S} {6,D}
+4    C u0 {2,D} {7,S}
+5 *2 C u0 {6,S} {7,D}
+6 *5 C u0 {3,D} {5,S}
+7 *3 C u0 {4,S} {5,D}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a carbon radical 1 carbons away from a phenyl side group (benzylic position) from adding to the para-position
+because the TS would be far too strained.
+""",
+)
+###################
+
+####################
+#Forbid a carbon radical 3 carbons away from a phenyl side group from adding to either the meta- or para- position
+forbidden(
+    label = "gamma_C_rad_to_meta_phenyl_res1",
+    group =
+"""
+1 *6 C u0 {2,S} {3,[S,D,T]}
+2 *7 C u0 {1,S} {4,D} {5,S}
+3 *4 C u0 {1,[S,D,T]} {9,[S,D,T]}
+4 *5 C u0 {2,D} {7,S}
+5    C u0 {2,S} {8,D}
+6 *3 C u0 {7,D} {8,S}
+7 *2 C u0 {4,S} {6,D}
+8    C u0 {5,D} {6,S}
+9 *1 C u1 {3,[S,D,T]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a carbon radical 3 carbons away from a phenyl side group from adding to the meta-position
+because the TS would be far too strained. Resonance form 1.
+""",
+)
+
+forbidden(
+    label = "gamma_C_rad_to_meta_phenyl_res2",
+    group =
+"""
+1 *6 C u0 {2,S} {3,[S,D,T]}
+2 *7 C u0 {1,S} {4,S} {5,D}
+3 *4 C u0 {1,[S,D,T]} {9,[S,D,T]}
+4 *3 C u0 {2,S} {7,D}
+5 *8 C u0 {2,D} {8,S}
+6 *5 C u0 {7,S} {8,D}
+7 *2 C u0 {4,D} {6,S}
+8 *9 C u0 {5,S} {6,D}
+9 *1 C u1 {3,[S,D,T]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a carbon radical 3 carbons away from a phenyl side group from adding to the meta-position
+because the TS would be far too strained. Resonance form 2.
+""",
+)
+
+forbidden(
+    label = "gamma_C_rad_to_para_phenyl",
+    group =
+"""
+1 *6 C u0 {2,S} {3,[S,D,T]}
+2 *7 C u0 {1,S} {4,S} {5,D}
+3 *4 C u0 {1,[S,D,T]} {9,[S,D,T]}
+4 *8 C u0 {2,S} {7,D}
+5    C u0 {2,D} {8,S}
+6 *2 C u0 {7,S} {8,D}
+7 *5 C u0 {4,D} {6,S}
+8 *3 C u0 {5,S} {6,D}
+9 *1 C u1 {3,[S,D,T]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a carbon radical 3 carbons away from a phenyl side group from adding to the para-position
+because the TS would be far too strained.
+""",
+)
+###################
+
+###################
+#Forbid phenyl radical from ring-closing on itself to make either a 3-5 or 4-4 membered bicyclic
 forbidden(
     label = "Phenyl_self_3_5_ring_close_res1",
     group =
@@ -3174,4 +3211,4 @@ u"""
 Forbid a phenyl radical from doing a ring closure on itself to form a fused 4 and 4 membered ring. Resonance form 1.
 """,
 )
->>>>>>> a508552... Forbid Phenyl ring from ring closing on itself (via
+###################
