@@ -2655,15 +2655,15 @@ u"""
 )
 
 forbidden(
-    label = "mb_intra_R3",
-    group = 
+    label = "mb_intra_Rxc3",
+    group =
 """
 1 *2 R!H u0 {2,[D,T]} {3,[S,D,T,B]}
 2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
 3 *5 R!H ux {2,[S,D,T,B]} {1,[S,D,T,B]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will get unwanted
 duplicate reactions. Therefore, we forbid all cyclics in this family.
@@ -2671,8 +2671,8 @@ duplicate reactions. Therefore, we forbid all cyclics in this family.
 )
 
 forbidden(
-    label = "mb_intra_R4",
-    group = 
+    label = "mb_intra_Rxc4",
+    group =
 """
 1 *2 R!H u0 {2,[D,T]} {4,[S,D,T,B]}
 2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
@@ -2680,7 +2680,7 @@ forbidden(
 4 *5 R!H ux {3,[S,D,T,B]} {1,[S,D,T,B]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will get unwanted
 duplicate reactions. Therefore, we forbid all cyclics in this family.
@@ -2688,8 +2688,8 @@ duplicate reactions. Therefore, we forbid all cyclics in this family.
 )
 
 forbidden(
-    label = "mb_intra_R5",
-    group = 
+    label = "mb_intra_Rxc5",
+    group =
 """
 1 *2 R!H u0 {2,[D,T]} {5,[S,D,T,B]}
 2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
@@ -2698,7 +2698,7 @@ forbidden(
 5 *5 R!H ux {4,[S,D,T,B]} {1,[S,D,T,B]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will get unwanted
 duplicate reactions. Therefore, we forbid all cyclics in this family.
@@ -2706,8 +2706,8 @@ duplicate reactions. Therefore, we forbid all cyclics in this family.
 )
 
 forbidden(
-    label = "mb_intra_R6",
-    group = 
+    label = "mb_intra_Rxc6",
+    group =
 """
 1 *2 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
 2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
@@ -2717,7 +2717,7 @@ forbidden(
 6 *5 R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will get unwanted
 duplicate reactions. Therefore, we forbid all cyclics in this family.
@@ -2725,8 +2725,8 @@ duplicate reactions. Therefore, we forbid all cyclics in this family.
 )
 
 forbidden(
-    label = "mb_intra_R7",
-    group = 
+    label = "mb_intra_Rxc7",
+    group =
 """
 1 *2 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
 2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
@@ -2737,7 +2737,7 @@ forbidden(
 7 *5 R!H ux {6,[S,D,T,B]} {1,[S,D,T,B]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will get unwanted
 duplicate reactions. Therefore, we forbid all cyclics in this family.
@@ -2745,8 +2745,8 @@ duplicate reactions. Therefore, we forbid all cyclics in this family.
 )
 
 forbidden(
-    label = "mb_intra_R8",
-    group = 
+    label = "mb_intra_Rxc8",
+    group =
 """
 1 *2 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
 2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
@@ -2758,7 +2758,137 @@ forbidden(
 8 *5 R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
+u"""
+If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclics in this family.
+""",
+)
+
+forbidden(
+    label = "mb_intra_R1c3_beta",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {3,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3 *4 R!H ux {2,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclics in this family.
+""",
+)
+
+forbidden(
+    label = "mb_intra_R1c4_beta",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {4,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4 *4 R!H ux {3,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclics in this family.
+""",
+)
+
+forbidden(
+    label = "mb_intra_R1c5_beta",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {5,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *4 R!H ux {4,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclics in this family.
+""",
+)
+
+forbidden(
+    label = "mb_intra_R1c6_beta",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *4 R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclics in this family.
+""",
+)
+
+forbidden(
+    label = "mb_intra_R1c7_beta",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *4 R!H ux {6,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclics in this family.
+""",
+)
+
+forbidden(
+    label = "mb_intra_R1c8_beta",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *4 R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclics in this family.
+""",
+)
+
+forbidden(
+    label = "mb_intra_Rxc6_aromatic",
+    group =
+"""
+1 *2 R!H u0 {2,D} {6,S}
+2 *3 R!H u0 {1,D} {3,S}
+3    R!H ux {2,S} {4,D}
+4    R!H ux {3,D} {5,S}
+5    R!H ux {4,S} {6,D}
+6    R!H ux {5,D} {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
 u"""
 If we allow cyclics in both this family and Intra_R_Add_Exocyclic then we will get unwanted
 duplicate reactions. Therefore, we forbid all cyclics in this family.
