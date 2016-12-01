@@ -104,3 +104,78 @@ CH2.-CH3    -->   CH2.-CH2   +   H
      X X               X         X
 """,
 )
+
+
+forbidden(
+    label = "disigma1",
+    group = 
+"""
+1 *1 R u0 {2,[S,D,T]}
+2    R u0 {1,[S,D,T]} {3,[S,D,T]}
+3    X u0 {2,[S,D,T]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+The adsorbing atom should not be adjacent to an atom that is already adsorbed.
+e.g. this is not allowed:
+
+H  O=C-O   <-->  O=CH-O
+|    | |              |
+X    X X         X X  X
+""",
+)
+
+forbidden(
+    label = "disigma2",
+    group = 
+"""
+1 *2 R u0 {2,[S,D,T]}
+2    R u0 {1,[S,D,T]} {3,[S,D,T]}
+3    X u0 {2,[S,D,T]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+The adsorbing atom should not be adjacent to an atom that is already adsorbed.
+e.g. this is not allowed:
+
+H  O=C-O   <-->  O=CH-O
+|    | |              |
+X    X X         X X  X
+""",
+)
+
+forbidden(
+    label = "disigma3",
+    group = 
+"""
+1 *1 R u0 {2,[S,D,T]}
+2    R u0 {1,[S,D,T]} {3,[S,D,T]}
+3    R u0 {2,[S,D,T]} {4,[S,D,T]}
+4    X u0 {3,[S,D,T]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+The adsorbing atom should not be next-nearest neighbor to an atom that is already adsorbed.
+""",
+)
+
+
+forbidden(
+    label = "disigma4",
+    group = 
+"""
+1 *2 R u0 {2,[S,D,T]}
+2    R u0 {1,[S,D,T]} {3,[S,D,T]}
+3    R u0 {2,[S,D,T]} {4,[S,D,T]}
+4    X u0 {3,[S,D,T]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+The adsorbing atom should not be next-nearest neighbor to an atom that is already adsorbed.
+""",
+)
+

@@ -9,7 +9,7 @@ entry(
     index = 1,
     label = "Abstracting;Donating",
     kinetics = SurfaceArrhenius(
-        A = (1.0e13, 'm^2/(mol*s)'),
+        A = (1.0e17, 'm^2/(mol*s)'),
         n = 0,
         Ea=(10., 'kcal/mol'),
         Tmin = (200, 'K'),
@@ -26,6 +26,8 @@ Publisher:	San Diego : Academic Press, 2001.
 Series:	Semiconductors and semimetals, v. 72.
 
 Ea made up.
+
+CFG: I bumped the prefactor from E13 to E17. I think that is closer to what other groups have.
     """
 )
 

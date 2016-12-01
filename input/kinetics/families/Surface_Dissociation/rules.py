@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Surface_Recombination/rules"
+name = "Surface_Dissociation/rules"
 shortDesc = u""
 longDesc = u"""
 """
@@ -9,7 +9,7 @@ entry(
     index = 1,
     label = "Combined;VacantSite",
     kinetics = SurfaceArrheniusBEP(
-        A = (1.0e13, 'm^2/(mol*s)'),
+        A = (1.0e17, 'm^2/(mol*s)'),
         n = 0,
         alpha = 0.84,
         E0=(44.25, 'kcal/mol'),
