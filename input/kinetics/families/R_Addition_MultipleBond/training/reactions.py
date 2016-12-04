@@ -1408,16 +1408,3 @@ u"""
 Taken from entry: i6 <=> p2 + H
 """,
 )
-
-entry(
-    index = 89,
-    label = "C9H11-19 <=> ethene + C7H7-3",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.958e+16, 's^-1'), n=1.043, Ea=(23.608, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
-    longDesc = 
-u"""
-Taken from entry: i4 <=> C2H4 + Benzyl
-""",
-)

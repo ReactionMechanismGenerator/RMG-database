@@ -534,29 +534,3 @@ Taken from entry: i1 <=> i7
 """,
 )
 
-entry(
-    index = 37,
-    label = "C9H11-7 <=> C9H11-8",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(0.003481, 's^-1'), n=4.357, Ea=(21.411, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
-    longDesc = 
-u"""
-Taken from entry: i1 <=> inew
-""",
-)
-
-entry(
-    index = 38,
-    label = "C9H11-9 <=> C9H11-10",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(8.846e+04, 's^-1'), n=0.0, Ea=(9.609, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
-    longDesc = 
-u"""
-Taken from entry: inew <=> i4
-""",
-)
-
