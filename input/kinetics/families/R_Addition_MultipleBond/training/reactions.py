@@ -1421,3 +1421,36 @@ u"""
 Taken from entry: i4 <=> C2H4 + Benzyl
 """,
 )
+
+
+entry(
+    index = 90,
+    label = "C7H8-5 + H <=> C7H9-9",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (4.65e+06, 'cm^3/(mol*s)'),
+        n = 2.063,
+        Ea = (3.976, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2001_Tokmakov_H_Toluene_to_CH3_Benzene_high_P""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + H <=> ipso-(C7H9)
+""",
+)
+
+entry(
+    index = 91,
+    label = "C7H9-8 <=> C6H6-2 + CH3",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5.831e+11, 's^-1'), n=0.669, Ea=(19.862, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2001_Tokmakov_H_Toluene_to_CH3_Benzene_high_P""",
+    longDesc = 
+u"""
+Taken from entry: ipso-(C7H9) <=> C6H6 + CH3
+""",
+)
+
