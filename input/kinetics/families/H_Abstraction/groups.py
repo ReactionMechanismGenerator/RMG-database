@@ -7285,7 +7285,7 @@ forbidden(
     group = 
 """
 1 *1 R u0 {2,S} {3,S}
-2    C u1 {1,S}
+2    [C,Si] u1 {1,S}
 3 *2 H u0 {1,S}
 """,
     shortDesc = u"""""",
