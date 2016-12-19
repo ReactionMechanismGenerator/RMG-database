@@ -43446,6 +43446,49 @@ u"""
 """,
 )
 
+entry(
+    index = 1919,
+    label = "N3t",
+    group =
+"""
+1 * N3t  u0 p1 {2,T}
+2   R!H  u0 {1,T}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 1920,
+    label = "N3t-CtH",
+    group =
+"""
+1 * N3t  u0 p1 {2,T}
+2   Ct   u0 {1,T} {3,S}
+3   H    u0 (2,S)
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.28,5.68,5.97,6.22,6.6,6.97,6.66],'cal/(mol*K)'),
+        H298 = (3.17,'kcal/mol'),
+        S298 = (41.74,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Calculated by subtracting the data for the Ct-CtCs group (Ct-Cs STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714) from respective values from thermo_DFT_CCSDTF12_BAC data for the HCN species.
+""",
+)
+
 tree(
 """
 L1: R
@@ -45503,6 +45546,8 @@ L1: R
                 L5: N3d-CdCs
                 L5: N3d-N3dCs
             L4: N3d-CbR
+        L3: N3t
+            L4: N3t-CtH
         L3: N5d
             L4: N5d-OdOsCs
             L4: N5d-OdOsCd
