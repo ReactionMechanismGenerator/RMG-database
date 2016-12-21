@@ -1794,7 +1794,7 @@ entry(
 u"""
 Experimental measurements
 
-Michael Röhrig andHeinz Georg Wagner
+Michael Röhrig and Heinz Georg Wagner
 A kinetic study about the reactions of NH(X3Σ−) with hydrocarbons part 1: Saturated hydrocarbons and acetaldehyde
 Berichte der Bunsengesellschaft für physikalische Chemie Volume 98, Issue 6, pages 858–863, June 1994
 DOI: 10.1002/bbpc.19940980615
@@ -1819,7 +1819,7 @@ entry(
 u"""
 Experimental measurements
 
-Michael Röhrig andHeinz Georg Wagner
+Michael Röhrig and Heinz Georg Wagner
 A kinetic study about the reactions of NH(X3Σ−) with hydrocarbons part 1: Saturated hydrocarbons and acetaldehyde
 Berichte der Bunsengesellschaft für physikalische Chemie Volume 98, Issue 6, pages 858–863, June 1994
 DOI: 10.1002/bbpc.19940980615
