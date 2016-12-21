@@ -56,6 +56,18 @@ entry(
 )
 
 entry(
+    index = 1500,
+    label = "Cdd_Od-N3d",
+    group =
+"""
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Od  u0 {1,D}
+3    N3d u0 {1,D}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 5,
     label = "CO2",
     group = 
