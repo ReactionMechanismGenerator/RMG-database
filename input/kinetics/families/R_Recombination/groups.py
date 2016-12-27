@@ -1301,18 +1301,6 @@ entry(
 )
 
 entry(
-    index = 112,
-    label = "N3s_rad_sec",
-    group = 
-"""
-1 * N3s u1 {2,S} {3,S}
-2   R!H u0 {1,S}
-3   R!H u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 113,
     label = "N3s_sec_rad",
     group = 
@@ -1498,7 +1486,7 @@ entry(
     label = "N5t_rad",
     group = 
 """
-1 * N5d u1 p0
+1 * N5t u1 p0
 """,
     kinetics = None,
 )
@@ -1508,7 +1496,7 @@ entry(
     label = "N5b_rad",
     group = 
 """
-1 * N5d u1 p0
+1 * N5b u1 p0
 """,
     kinetics = None,
 )

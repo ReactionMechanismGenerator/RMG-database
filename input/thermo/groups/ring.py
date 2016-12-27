@@ -680,24 +680,6 @@ u"""
 
 entry(
     index = 14,
-    label = "Cyclobutadiene",
-    group = 
-"""
-1   [Cd,N3d] u0 {2,S} {4,D}
-2 * [Cd,N3d] u0 {1,S} {3,D}
-3   [Cd,N3d] u0 {2,D} {4,S}
-4   [Cd,N3d] u0 {1,D} {3,S}
-""",
-    thermo = u'Cyclobutene',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 14,
     label = "Cyclobutadiene2",
     group = 
 """
@@ -3845,7 +3827,7 @@ L1: Ring
         L3: Cyclobutane
         L3: Cyclobutene
         L3: Cyclobutene2
-        L3: Cyclobutadiene
+        L3: cyclobutadiene
         L3: Cyclobutadiene2
         L3: Cyclobutadiene3
         L3: Oxetane
@@ -3854,7 +3836,6 @@ L1: Ring
         L3: Cyclobutanone
         L3: 12dioxetane
         L3: dioxerene
-        L3: cyclobutadiene
         L3: thietane
         L3: 1,2-dithietane
         L3: 1,3-dithietane

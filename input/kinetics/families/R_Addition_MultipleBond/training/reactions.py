@@ -1209,7 +1209,7 @@ Ethylamine paper
 
 entry(
     index = 74,
-    label = "C2H4 + NH2 <=> CH2CH2NH2",
+    label = "ethene + NH2 <=> CH2CH2NH2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.228e+03, 's^-1'), n=2.756, Ea=(1658, 'cal/mol'), T0=(1, 'K')),
     rank = 3,

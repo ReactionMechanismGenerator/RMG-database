@@ -16596,6 +16596,7 @@ L1: R_R
             L4: CO2
             L4: Ck_O
             L4: C=S_O
+            L4: Cdd_Od-N3d
         L3: CO_O
             L4: CO-HH_O
             L4: CO-NdH_O
