@@ -72,7 +72,7 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,[S,D,B,T]}
-2    R!H u0 {1,[S,D,B,T]} {3,[S,D,B]}
+2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B]}
 3 *2 R!H u0 {2,[S,D,B]} {4,S} {5,S}
 4 *3 R!H u1 {3,S}
 5 *4 H   u0 {3,S}
@@ -93,7 +93,7 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,[S,D,B,T]}
-2    R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
+2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
 3 *3 R!H u1 {2,[S,D,B,T]} {4,S}
 4 *2 R!H u0 {3,S} {5,S}
 5 *4 H   u0 {4,S}
@@ -107,8 +107,8 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,[S,D,B,T]}
-2    R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
-3    R!H u0 {2,[S,D,B,T]} {4,[S,D,B]}
+2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
+3 *6 R!H u0 {2,[S,D,B,T]} {4,[S,D,B]}
 4 *2 R!H u0 {3,[S,D,B]} {5,S} {6,S}
 5 *3 R!H u1 {4,S}
 6 *4 H   u0 {4,S}
@@ -129,8 +129,8 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,[S,D,B,T]}
-2    R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
-3    R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}
+2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
+3 *6 R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}
 4 *3 R!H u1 {3,[S,D,B,T]} {5,S}
 5 *2 R!H u0 {4,S} {6,S}
 6 *4 H   u0 {5,S}
@@ -144,9 +144,9 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,[S,D,B,T]}
-2    R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
-3    R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}
-4    R!H u0 {3,[S,D,B,T]} {5,[S,D,B]}
+2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
+3 *7 R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}
+4 *6 R!H u0 {3,[S,D,B,T]} {5,[S,D,B]}
 5 *2 R!H u0 {4,[S,D,B]} {6,S} {7,S}
 6 *3 R!H u1 {5,S}
 7 *4 H   u0 {5,S}
@@ -167,9 +167,9 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,[S,D,B,T]}
-2    R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
-3    R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}
-4    R!H u0 {3,[S,D,B,T]} {5,[S,D,B,T]}
+2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
+3 *7 R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}
+4 *6 R!H u0 {3,[S,D,B,T]} {5,[S,D,B,T]}
 5 *3 R!H u1 {4,[S,D,B,T]} {6,S}
 6 *2 R!H u0 {5,S} {7,S}
 7 *4 H   u0 {6,S}
@@ -183,10 +183,10 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,[S,D,B,T]}
-2    R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
-3    R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}
-4    R!H u0 {3,[S,D,B,T]} {5,[S,D,B,T]}
-5    R!H u0 {4,[S,D,B,T]} {6,[S,D,B]}
+2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
+3 *7 R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}
+4 *8 R!H u0 {3,[S,D,B,T]} {5,[S,D,B,T]}
+5 *6 R!H u0 {4,[S,D,B,T]} {6,[S,D,B]}
 6 *2 R!H u0 {5,[S,D,B]} {7,S} {8,S}
 7 *3 R!H u1 {6,S}
 8 *4 H   u0 {6,S}
@@ -207,10 +207,10 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,[S,D,B,T]}
-2    R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
-3    R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}
-4    R!H u0 {3,[S,D,B,T]} {5,[S,D,B,T]}
-5    R!H u0 {4,[S,D,B,T]} {6,[S,D,B,T]}
+2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
+3 *7 R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}
+4 *8 R!H u0 {3,[S,D,B,T]} {5,[S,D,B,T]}
+5 *6 R!H u0 {4,[S,D,B,T]} {6,[S,D,B,T]}
 6 *3 R!H u1 {5,[S,D,B,T]} {7,S}
 7 *2 R!H u0 {6,S} {8,S}
 8 *4 H   u0 {7,S}
@@ -224,11 +224,11 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,[S,D,B,T]}
-2    R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
-3    R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}
-4    R!H u0 {3,[S,D,B,T]} {5,[S,D,B,T]}
-5    R!H u0 {4,[S,D,B,T]} {6,[S,D,B,T]}
-6    R!H u0 {5,[S,D,B,T]} {7,[S,D,B]}
+2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
+3 *7 R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}
+4 *8 R!H u0 {3,[S,D,B,T]} {5,[S,D,B,T]}
+5 *9 R!H u0 {4,[S,D,B,T]} {6,[S,D,B,T]}
+6 *6 R!H u0 {5,[S,D,B,T]} {7,[S,D,B]}
 7 *2 R!H u0 {6,[S,D,B]} {8,S} {9,S}
 8 *3 R!H u1 {7,S}
 9 *4 H   u0 {7,S}
