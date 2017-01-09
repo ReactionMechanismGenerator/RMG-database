@@ -44324,10 +44324,322 @@ u"""
 """,
 )
 
+entry(
+    index = 1919,
+    label = "CJ2_singlet",
+    group =
+"""
+1 * C u0 p1
+""",
+    thermo = u'CsJ2_singlet-CsH',
+    shortDesc = u"""Branch for singlet carbenes""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 1920,
+    label = "CsJ2_singlet-HH",
+    group =
+"""
+1 * Cs u0 p1 {2,S} {3,S}
+2 H u0 {1,S}
+3 H u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.069, 8.313, 8.631, 8.994, 9.768, 10.497, 11.825],'cal/(mol*K)'),
+        H298 = (102.462,'kcal/mol'),
+        S298 = (45.144,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted to DFT_QCI_thermo library""",
+    longDesc =
+u"""
+Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
+
+Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
+J. Phys. Chem. A 2012, 116, 9033-9057.
+""",
+)
+
+
+entry(
+    index = 1921,
+    label = "CsJ2_singlet-OsH",
+    group =
+"""
+1 * Cs u0 p1 {2,S} {3,S}
+2 Os u0 {1,S}
+3 H u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.075, 5.312, 6.211, 6.926, 8.355, 9.557, 10.212],'cal/(mol*K)'),
+        H298 = (65.592,'kcal/mol'),
+        S298 = (23.749,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted to DFT_QCI_thermo library""",
+    longDesc =
+u"""
+Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
+
+Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
+J. Phys. Chem. A 2012, 116, 9033-9057.
+""",
+)
+
+entry(
+    index = 1922,
+    label = "CdJ2_singlet-(Cdd-Od)",
+    group =
+"""
+1 Cdd u0 {2,D} {3,D}
+2 * Cd u0 p1 {1,D}
+3 Od u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.135, 11.201, 11.749, 12.051, 12.813, 13.581, 14.122],'cal/(mol*K)'),
+        H298 = (110.367,'kcal/mol'),
+        S298 = (53.61,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted to DFT_QCI_thermo library""",
+    longDesc =
+u"""
+Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
+
+Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
+J. Phys. Chem. A 2012, 116, 9033-9057.
+""",
+)
+
+entry(
+    index = 1923,
+    label = "CsJ2_singlet-CH",
+    group =
+"""
+1 C u0 {2,S}
+2 * Cs u0 p1 {1,S} {3,S}
+3 H u0 {2,S}
+""",
+    thermo = u'CsJ2_singlet-CsH',
+    shortDesc = u"""Branch for singlet carbenes single-bonded to one carbon and one hydrogen""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 1924,
+    label = "CsJ2_singlet-CsH",
+    group =
+"""
+1 Cs u0 {2,S}
+2 * Cs u0 p1 {1,S} {3,S}
+3 H u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.255, 5.932, 6.136, 6.192, 6.77, 7.73, 8.134],'cal/(mol*K)'),
+        H298 = (97.669,'kcal/mol'),
+        S298 = (29.684,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted to DFT_QCI_thermo library""",
+    longDesc =
+u"""
+Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
+
+Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
+J. Phys. Chem. A 2012, 116, 9033-9057.
+""",
+)
+
+entry(
+    index = 1925,
+    label = "CsJ2_singlet-CtH",
+    group =
+"""
+1 Ct u0 {2,S}
+2 * Cs u0 p1 {1,S} {3,S}
+3 H u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.675, 6.472, 6.776, 6.9, 7.469, 8.156, 7.58],'cal/(mol*K)'),
+        H298 = (88.247,'kcal/mol'),
+        S298 = (28.407,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted to DFT_QCI_thermo library""",
+    longDesc =
+u"""
+Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
+
+Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
+J. Phys. Chem. A 2012, 116, 9033-9057.
+""",
+)
+
+entry(
+    index = 1926,
+    label = "CdJ2_singlet-Cd",
+    group =
+"""
+1 C u0 {2,D}
+2 * Cd u0 p1 {1,D}
+""",
+    thermo = u'CdJ2_singlet-Cds',
+    shortDesc = u"""Branch for singlet carbenes double-bonded to one carbon""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 1927,
+    label = "CdJ2_singlet-Cds",
+    group =
+"""
+1 Cd u0 {2,D}
+2 * Cd u0 p1 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.372, 5.272, 4.916, 4.506, 4.219, 4.263, 3.97],'cal/(mol*K)'),
+        H298 = (92.157,'kcal/mol'),
+        S298 = (26.864,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted to DFT_QCI_thermo library""",
+    longDesc =
+u"""
+Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
+
+Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
+J. Phys. Chem. A 2012, 116, 9033-9057.
+""",
+)
+
+entry(
+    index = 1928,
+    label = "CdJ2_singlet-(Cdd-Cds)",
+    group =
+"""
+1 Cdd u0 {2,D} {3,D)
+2 * Cd u0 p1 {1,D}
+3 C u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.406, 3.333, 3.175, 3.019, 3.156, 3.468, 3.593],'cal/(mol*K)'),
+        H298 = (91.676,'kcal/mol'),
+        S298 = (26.434,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted to DFT_QCI_thermo library""",
+    longDesc =
+u"""
+Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
+
+Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
+J. Phys. Chem. A 2012, 116, 9033-9057.
+""",
+)
+
+entry(
+    index = 1929,
+    label = "CsJ2_singlet-(Cds-Cds-Cds-C)C",
+    group =
+"""
+1  C u0 {2,D}
+2  Cd u0 {1,D} {6,S}
+3  C u0 {4,S}
+4 * Cs u0 p1 {3,S} {5,S}
+5  Cd u0 {6,D} {4,S}
+6  Cd u0 {2,S} {5,D}
+""",
+    thermo = u'CsJ2_singlet-(Cds-Cds-Cds-Cds)Cs_6_ring',
+    shortDesc = u"""Branch for singlet carbenes delocalized over two conjugated carbon double bonds""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 1930,
+    label = "CsJ2_singlet-(Cds-Cds-Cds-Cds)Cs_5_ring",
+    group =
+"""
+1  Cd u0 {2,D}
+2  Cd u0 {1,D} {6,S} {3,S}
+3  Cs u0 {4,S} {2,S}
+4 * Cs u0 p1 {3,S} {5,S}
+5  Cd u0 {6,D} {4,S}
+6  Cd u0 {2,S} {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.025, 5.12, 5.268, 4.917, 4.799, 5.731, 5.087],'cal/(mol*K)'),
+        H298 = (82.041,'kcal/mol'),
+        S298 = (10.325,'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Fitted to DFT_QCI_thermo library""",
+    longDesc=
+    u"""
+    Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
+
+    Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
+    J. Phys. Chem. A 2012, 116, 9033-9057.
+    """,
+)
+
+entry(
+    index = 1931,
+    label = "CsJ2_singlet-(Cds-Cds-Cds-Cds)Cs_6_ring",
+    group =
+"""
+1  Cd u0 {2,D} {3,S}
+2  Cd u0 {1,D} {6,S}
+3  Cs u0 {4,S} {1,S}
+4 * Cs u0 p1 {3,S} {5,S}
+5  Cd u0 {6,D} {4,S}
+6  Cd u0 {2,S} {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.322, 5.406, 5.554, 5.182, 5.008, 5.927, 5.232],'cal/(mol*K)'),
+        H298 = (80.263,'kcal/mol'),
+        S298 = (12.963,'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Fitted to DFT_QCI_thermo library""",
+    longDesc=
+    u"""
+    Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
+
+    Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
+    J. Phys. Chem. A 2012, 116, 9033-9057.
+    """,
+)
+
 tree(
 """
 L1: R
     L2: C
+        L3: CJ2_singlet
+            L4: CsJ2_singlet-HH
+            L4: CsJ2_singlet-OsH
+            L4: CdJ2_singlet-(Cdd-Od)
+            L4: CsJ2_singlet-CH
+                L5: CsJ2_singlet-CsH
+                L5: CsJ2_singlet-CtH
+            L4: CdJ2_singlet-Cd
+                L5: CdJ2_singlet-Cds
+                L5: CdJ2_singlet-(Cdd-Cds)
+            L4: CsJ2_singlet-(Cds-Cds-Cds-C)C
+                L5: CsJ2_singlet-(Cds-Cds-Cds-Cds)Cs_5_ring
+                L5: CsJ2_singlet-(Cds-Cds-Cds-Cds)Cs_6_ring
         L3: Cbf
             L4: Cbf-CbCbCbf
             L4: Cbf-CbCbfCbf
