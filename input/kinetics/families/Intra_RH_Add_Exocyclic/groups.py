@@ -12,10 +12,10 @@ template(reactants=["Rn"], products=["RnCycle"], ownReverse=False)
 reverse = "Ring_Open+H_Migration"
 
 recipe(actions=[
-    ['BREAK_BOND', '*1', 'S', '*4'],
-    ['FORM_BOND', '*1', 'S', '*2'],
-    ['FORM_BOND', '*3', 'S', '*4'],
-    ['CHANGE_BOND', '*2', '-1', '*3'],
+    ['BREAK_BOND', '*1', 1, '*4'],
+    ['FORM_BOND', '*1', 1, '*2'],
+    ['FORM_BOND', '*3', 1, '*4'],
+    ['CHANGE_BOND', '*2', -1, '*3'],
 ])
 
 entry(

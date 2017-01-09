@@ -12,12 +12,12 @@ template(reactants=["{ene,yne}", "diene_out"], products=["Six_Ring"], ownReverse
 reverse = "Retro_Diels_Alder_Addition"
 
 recipe(actions=[
-    ['CHANGE_BOND', '*1', '-1', '*2'],
-    ['CHANGE_BOND', '*3', '-1', '*4'],
-    ['CHANGE_BOND', '*4', '1', '*5'],
-    ['CHANGE_BOND', '*5', '-1', '*6'],
-    ['FORM_BOND', '*1', 'S', '*3'],
-    ['FORM_BOND', '*2', 'S', '*6'],
+    ['CHANGE_BOND', '*1', -1, '*2'],
+    ['CHANGE_BOND', '*3', -1, '*4'],
+    ['CHANGE_BOND', '*4', 1, '*5'],
+    ['CHANGE_BOND', '*5', -1, '*6'],
+    ['FORM_BOND', '*1', 1, '*3'],
+    ['FORM_BOND', '*2', 1, '*6'],
 ])
 
 entry(

@@ -12,12 +12,12 @@ template(reactants=["cyclohexene"], products=["open"], ownReverse=False)
 reverse = "ringopening"
 
 recipe(actions=[
-    ['CHANGE_BOND', '*1', '1', '*2'],
-    ['CHANGE_BOND', '*3', '1', '*4'],
-    ['CHANGE_BOND', '*2', '-1', '*3'],
-    ['CHANGE_BOND', '*5', '1', '*6'],
-    ['BREAK_BOND', '*1', 'S', '*6'],
-    ['BREAK_BOND', '*4', 'S', '*5'],
+    ['CHANGE_BOND', '*1', 1, '*2'],
+    ['CHANGE_BOND', '*3', 1, '*4'],
+    ['CHANGE_BOND', '*2', -1, '*3'],
+    ['CHANGE_BOND', '*5', 1, '*6'],
+    ['BREAK_BOND', '*1', 1, '*6'],
+    ['BREAK_BOND', '*4', 1, '*5'],
 ])
 
 entry(
