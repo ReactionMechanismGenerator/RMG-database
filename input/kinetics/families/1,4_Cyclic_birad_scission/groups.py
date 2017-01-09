@@ -12,11 +12,11 @@ template(reactants=["RJJ"], products=["diene"], ownReverse=False)
 reverse = "none"
 
 recipe(actions=[
-    ['BREAK_BOND', '*2', 'S', '*3'],
+    ['BREAK_BOND', '*2', 1, '*3'],
     ['LOSE_RADICAL', '*1', '1'],
     ['LOSE_RADICAL', '*4', '1'],
-    ['CHANGE_BOND', '*1', '1', '*2'],
-    ['CHANGE_BOND', '*3', '1', '*4'],
+    ['CHANGE_BOND', '*1', 1, '*2'],
+    ['CHANGE_BOND', '*3', 1, '*4'],
 ])
 
 entry(

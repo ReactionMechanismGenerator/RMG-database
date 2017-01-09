@@ -12,10 +12,10 @@ template(reactants=["R2OO"], products=["R=R", "OOH"], ownReverse=False)
 reverse = "HO2_concerted_addition"
 
 recipe(actions=[
-    ['BREAK_BOND', '*1', 'S', '*5'],
-    ['BREAK_BOND', '*2', 'S', '*3'],
-    ['CHANGE_BOND', '*1', '1', '*2'],
-    ['FORM_BOND', '*4', 'S', '*5'],
+    ['BREAK_BOND', '*1', 1, '*5'],
+    ['BREAK_BOND', '*2', 1, '*3'],
+    ['CHANGE_BOND', '*1', 1, '*2'],
+    ['FORM_BOND', '*4', 1, '*5'],
     ['GAIN_RADICAL', '*3', '1'],
     ['LOSE_RADICAL', '*4', '1'],
 ])

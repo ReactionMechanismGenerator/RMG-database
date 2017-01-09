@@ -12,8 +12,8 @@ template(reactants=["R1_rad_R2_R3"], products=["R1_R2_Cycle", "R3_rad"], ownReve
 reverse = "Ring_Open_Rad_Addition"
 
 recipe(actions=[
-    ['BREAK_BOND', '*2', 'S', '*3'],
-    ['FORM_BOND', '*1', 'S', '*2'],
+    ['BREAK_BOND', '*2', 1, '*3'],
+    ['FORM_BOND', '*1', 1, '*2'],
     ['LOSE_RADICAL', '*1', '1'],
     ['GAIN_RADICAL', '*3', '1'],
 ])

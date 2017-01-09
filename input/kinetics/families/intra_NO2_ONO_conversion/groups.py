@@ -12,8 +12,8 @@ template(reactants=["RNO2"], products=["RONO"], ownReverse=False)
 reverse = "intra_ONO_NO2_migration"
 
 recipe(actions=[
-    ['BREAK_BOND', '*1', 'S', '*2'],
-    ['FORM_BOND', '*1', 'S', '*3'],
+    ['BREAK_BOND', '*1', 1, '*2'],
+    ['FORM_BOND', '*1', 1, '*3'],
     ['LOSE_PAIR', '*3', '1'],
     ['GAIN_PAIR', '*2', '1'],
 ])

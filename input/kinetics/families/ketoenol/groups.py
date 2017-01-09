@@ -12,10 +12,10 @@ template(reactants=["R_ROR"], products=["keton"], ownReverse=False)
 reverse = "none"
 
 recipe(actions=[
-    ['CHANGE_BOND', '*1', '-1', '*2'],
-    ['CHANGE_BOND', '*2', '1', '*3'],
-    ['BREAK_BOND', '*3', 'S', '*4'],
-    ['FORM_BOND', '*4', 'S', '*1'],
+    ['CHANGE_BOND', '*1', -1, '*2'],
+    ['CHANGE_BOND', '*2', 1, '*3'],
+    ['BREAK_BOND', '*3', 1, '*4'],
+    ['FORM_BOND', '*4', 1, '*1'],
 ])
 
 entry(
