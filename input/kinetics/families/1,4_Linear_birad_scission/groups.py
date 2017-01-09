@@ -14,9 +14,9 @@ reverse = "none"
 recipe(actions=[
     ['LOSE_RADICAL', '*1', '1'],
     ['LOSE_RADICAL', '*4', '1'],
-    ['CHANGE_BOND', '*1', '1', '*2'],
-    ['CHANGE_BOND', '*3', '1', '*4'],
-    ['BREAK_BOND', '*2', 'S', '*3'],
+    ['CHANGE_BOND', '*1', 1, '*2'],
+    ['CHANGE_BOND', '*3', 1, '*4'],
+    ['BREAK_BOND', '*2', 1, '*3'],
 ])
 
 entry(

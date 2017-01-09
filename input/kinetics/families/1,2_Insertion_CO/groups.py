@@ -12,11 +12,11 @@ template(reactants=["CO_birad", "RR'"], products=["R_CO_R'"], ownReverse=False)
 reverse = "1,1_Elimination"
 
 recipe(actions=[
-    ['CHANGE_BOND', '*1', '-1', '*4'],
+    ['CHANGE_BOND', '*1', -1, '*4'],
     ['GAIN_PAIR', '*4', '1'],
-    ['BREAK_BOND', '*2', 'S', '*3'],
-    ['FORM_BOND', '*1', 'S', '*2'],
-    ['FORM_BOND', '*1', 'S', '*3'],
+    ['BREAK_BOND', '*2', 1, '*3'],
+    ['FORM_BOND', '*1', 1, '*2'],
+    ['FORM_BOND', '*1', 1, '*3'],
     ['LOSE_PAIR', '*1', '1'],
 ])
 

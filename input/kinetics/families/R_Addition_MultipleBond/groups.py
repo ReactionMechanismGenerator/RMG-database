@@ -12,8 +12,8 @@ template(reactants=["R_R", "YJ"], products=["RJ_R_Y"], ownReverse=False)
 reverse = "Beta_Scission"
 
 recipe(actions=[
-    ['CHANGE_BOND', '*1', '-1', '*2'],
-    ['FORM_BOND', '*1', 'S', '*3'],
+    ['CHANGE_BOND', '*1', -1, '*2'],
+    ['FORM_BOND', '*1', 1, '*3'],
     ['GAIN_RADICAL', '*2', '1'],
     ['LOSE_RADICAL', '*3', '1'],
 ])

@@ -13,7 +13,7 @@ template(reactants=["Y_rad", "Oa"], products=["YO."], ownReverse=False)
 reverse = "RO_Bond_Dissociation"
 
 recipe(actions=[
-    ['FORM_BOND', '*1', 'S', '*2'],
+    ['FORM_BOND', '*1', 1, '*2'],
     ['LOSE_RADICAL', '*1', '1'],
     ['LOSE_RADICAL', '*2', '1'],
 ])

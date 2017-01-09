@@ -10,8 +10,8 @@ The reaction site *3 needs a lone pair in order to react. It cannot be 2S or 4S.
 template(reactants=["X_H_or_Xrad_H_Xbirad_H_Xtrirad_H", "Y_rad_birad_trirad_quadrad"], products=["X_H_or_Xrad_H_Xbirad_H_Xtrirad_H", "Y_rad_birad_trirad_quadrad"], ownReverse=True)
 
 recipe(actions=[
-    ['BREAK_BOND', '*1', 'S', '*2'],
-    ['FORM_BOND', '*2', 'S', '*3'],
+    ['BREAK_BOND', '*1', 1, '*2'],
+    ['FORM_BOND', '*2', 1, '*3'],
     ['GAIN_RADICAL', '*1', '1'],
     ['LOSE_RADICAL', '*3', '1'],
 ])

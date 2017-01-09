@@ -13,10 +13,10 @@ reverse = "COM_Elimination_From_Carbonyl"
 
 recipe(actions=[
     ['LOSE_PAIR', '*1', '1'],
-    ['CHANGE_BOND', '*1', '-1', '*3'],
+    ['CHANGE_BOND', '*1', -1, '*3'],
     ['GAIN_RADICAL', '*1', '1'],
     ['GAIN_PAIR', '*3', '1'],
-    ['FORM_BOND', '*1', 'S', '*2'],
+    ['FORM_BOND', '*1', 1, '*2'],
     ['LOSE_RADICAL', '*2', '1'],
 ])
 

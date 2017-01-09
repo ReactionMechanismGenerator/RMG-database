@@ -12,8 +12,8 @@ template(reactants=["RnOO"], products=["RO", "OR"], ownReverse=False)
 reverse = "OH+CyclicEther_Form_Alkyl-hydroperoxyl"
 
 recipe(actions=[
-    ['BREAK_BOND', '*2', 'S', '*3'],
-    ['FORM_BOND', '*1', 'S', '*2'],
+    ['BREAK_BOND', '*2', 1, '*3'],
+    ['FORM_BOND', '*1', 1, '*2'],
     ['GAIN_RADICAL', '*3', '1'],
     ['LOSE_RADICAL', '*1', '1'],
 ])
