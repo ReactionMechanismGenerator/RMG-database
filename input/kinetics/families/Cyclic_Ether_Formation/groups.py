@@ -30,7 +30,7 @@ entry(
     label = "Y_rad_intra",
     group = 
 """
-1 *1 R u1
+1 *1 R!H u1
 """,
     kinetics = None,
 )
@@ -194,7 +194,7 @@ entry(
 """
 1 *1 [CO,Cd,Cs,Sid,Sis,N] u1 {2,[S,D]}
 2 *4 [CO,Cd,Cs,Sid,Sis,N] u0 {1,[S,D]} {3,[S,D]}
-3    [CO,Cd,Cs,Sid,Sis,N] u0 {2,[S,D]} {4,S}
+3 *5 [CO,Cd,Cs,Sid,Sis,N] u0 {2,[S,D]} {4,S}
 4 *2 O                    u0 {3,S} {5,S}
 5 *3 O                    u1 {4,S}
 """,
@@ -208,7 +208,7 @@ entry(
 """
 1 *1 [CO,Cd,Cs,Sid,Sis,N] u1 {2,[S,D]}
 2 *4 [CO,Cd,Cs,Sid,Sis,N] u0 {1,[S,D]} {3,[S,D]}
-3    [CO,Cd,Cs,Sid,Sis,N] u0 {2,[S,D]} {4,S}
+3 *5 [CO,Cd,Cs,Sid,Sis,N] u0 {2,[S,D]} {4,S}
 4 *2 O                    u0 {3,S} {5,S}
 5 *3 O                    u0 {4,S} {6,S}
 6    H                    u0 {5,S}
@@ -223,7 +223,7 @@ entry(
 """
 1 *1 [Cd,Cs]    u1 {2,S}
 2 *4 [Cd,Cs]    u0 {1,S} {3,S}
-3    [Cd,Cs,CO] u0 {2,S} {4,S}
+3 *5 [Cd,Cs,CO] u0 {2,S} {4,S}
 4 *2 O          u0 {3,S} {5,S}
 5 *3 O          u0 {4,S} {6,S}
 6    H          u0 {5,S}
@@ -238,7 +238,7 @@ entry(
 """
 1 *1 [Cd,Cs] u1 {2,S}
 2 *4 [Cd,Cs] u0 {1,S} {3,S}
-3    CO      u0 {2,S} {4,S}
+3 *5 CO      u0 {2,S} {4,S}
 4 *2 O       u0 {3,S} {5,S}
 5 *3 O       u0 {4,S} {6,S}
 6    H       u0 {5,S}
@@ -253,7 +253,7 @@ entry(
 """
 1 *1 [Cd,Cs] u1 {2,S}
 2 *4 Cd      u0 {1,S} {3,D}
-3    Cd      u0 {2,D} {4,S}
+3 *5 Cd      u0 {2,D} {4,S}
 4 *2 O       u0 {3,S} {5,S}
 5 *3 O       u0 {4,S} {6,S}
 6    H       u0 {5,S}
@@ -268,7 +268,7 @@ entry(
 """
 1 *1 Cd         u1 {2,D}
 2 *4 Cd         u0 {1,D} {3,S}
-3    [Cd,Cs,CO] u0 {2,S} {4,S}
+3 *5 [Cd,Cs,CO] u0 {2,S} {4,S}
 4 *2 O          u0 {3,S} {5,S}
 5 *3 O          u0 {4,S} {6,S}
 6    H          u0 {5,S}
@@ -283,7 +283,7 @@ entry(
 """
 1 *1 [CO,Cd,Cs,Sid,Sis,N] u1 {2,[S,D]}
 2 *4 [CO,Cd,Cs,Sid,Sis,N] u0 {1,[S,D]} {3,[S,D]}
-3    [CO,Cd,Cs,Sid,Sis,N] u0 {2,[S,D]} {4,S}
+3 *5 [CO,Cd,Cs,Sid,Sis,N] u0 {2,[S,D]} {4,S}
 4 *2 O                    u0 {3,S} {5,S}
 5 *3 O                    u0 {4,S} {6,S}
 6    R!H                  u0 {5,S}
@@ -298,7 +298,7 @@ entry(
 """
 1 *1 [Cd,Cs]    u1 {2,S}
 2 *4 [Cd,Cs]    u0 {1,S} {3,S}
-3    [Cd,Cs,CO] u0 {2,S} {4,S}
+3 *5 [Cd,Cs,CO] u0 {2,S} {4,S}
 4 *2 O          u0 {3,S} {5,S}
 5 *3 O          u0 {4,S} {6,S}
 6    R!H        u0 {5,S}
@@ -313,7 +313,7 @@ entry(
 """
 1 *1 [Cd,Cs] u1 {2,S}
 2 *4 [Cd,Cs] u0 {1,S} {3,S}
-3    CO      u0 {2,S} {4,S}
+3 *5 CO      u0 {2,S} {4,S}
 4 *2 O       u0 {3,S} {5,S}
 5 *3 O       u0 {4,S} {6,S}
 6    R!H     u0 {5,S}
@@ -328,7 +328,7 @@ entry(
 """
 1 *1 [Cd,Cs] u1 {2,S}
 2 *4 Cd      u0 {1,S} {3,D}
-3    Cd      u0 {2,D} {4,S}
+3 *5 Cd      u0 {2,D} {4,S}
 4 *2 O       u0 {3,S} {5,S}
 5 *3 O       u0 {4,S} {6,S}
 6    R!H     u0 {5,S}
@@ -343,7 +343,7 @@ entry(
 """
 1 *1 Cd         u1 {2,D}
 2 *4 Cd         u0 {1,D} {3,S}
-3    [Cd,Cs,CO] u0 {2,S} {4,S}
+3 *5 [Cd,Cs,CO] u0 {2,S} {4,S}
 4 *2 O          u0 {3,S} {5,S}
 5 *3 O          u0 {4,S} {6,S}
 6    R!H        u0 {5,S}
@@ -365,8 +365,8 @@ entry(
 """
 1 *1 [CO,Cd,Cs,Sid,Sis,N] u1 {2,[S,D]}
 2 *4 [CO,Cd,Cs,Sid,Sis,N] u0 {1,[S,D]} {3,[S,D]}
-3    [CO,Cd,Cs,Sid,Sis,N] u0 {2,[S,D]} {4,[S,D]}
-4    [CO,Cd,Cs,Sid,Sis,N] u0 {3,[S,D]} {5,S}
+3 *6 [CO,Cd,Cs,Sid,Sis,N] u0 {2,[S,D]} {4,[S,D]}
+4 *5 [CO,Cd,Cs,Sid,Sis,N] u0 {3,[S,D]} {5,S}
 5 *2 O                    u0 {4,S} {6,S}
 6 *3 O                    u1 {5,S}
 """,
@@ -380,8 +380,8 @@ entry(
 """
 1 *1 [CO,Cd,Cs,Sid,Sis,N] u1 {2,[S,D]}
 2 *4 [CO,Cd,Cs,Sid,Sis,N] u0 {1,[S,D]} {3,[S,D]}
-3    [CO,Cd,Cs,Sid,Sis,N] u0 {2,[S,D]} {4,[S,D]}
-4    [CO,Cd,Cs,Sid,Sis,N] u0 {3,[S,D]} {5,S}
+3 *6 [CO,Cd,Cs,Sid,Sis,N] u0 {2,[S,D]} {4,[S,D]}
+4 *5 [CO,Cd,Cs,Sid,Sis,N] u0 {3,[S,D]} {5,S}
 5 *2 O                    u0 {4,S} {6,S}
 6 *3 O                    u0 {5,S} {7,S}
 7    H                    u0 {6,S}
@@ -396,8 +396,8 @@ entry(
 """
 1 *1 [Cd,Cs]    u1 {2,S}
 2 *4 [Cd,Cs]    u0 {1,S} {3,S}
-3    [Cd,Cs,CO] u0 {2,S} {4,S}
-4    [Cd,Cs,CO] u0 {3,S} {5,S}
+3 *6 [Cd,Cs,CO] u0 {2,S} {4,S}
+4 *5 [Cd,Cs,CO] u0 {3,S} {5,S}
 5 *2 O          u0 {4,S} {6,S}
 6 *3 O          u0 {5,S} {7,S}
 7    H          u0 {6,S}
@@ -412,8 +412,8 @@ entry(
 """
 1 *1 [Cd,Cs] u1 {2,S}
 2 *4 [Cd,Cs] u0 {1,S} {3,S}
-3    [Cd,Cs] u0 {2,S} {4,S}
-4    CO      u0 {3,S} {5,S}
+3 *6 [Cd,Cs] u0 {2,S} {4,S}
+4 *5 CO      u0 {3,S} {5,S}
 5 *2 O       u0 {4,S} {6,S}
 6 *3 O       u0 {5,S} {7,S}
 7    H       u0 {6,S}
@@ -428,8 +428,8 @@ entry(
 """
 1 *1 [Cd,Cs] u1 {2,S}
 2 *4 [Cd,Cs] u0 {1,S} {3,S}
-3    Cd      u0 {2,S} {4,D}
-4    Cd      u0 {3,D} {5,S}
+3 *6 Cd      u0 {2,S} {4,D}
+4 *5 Cd      u0 {3,D} {5,S}
 5 *2 O       u0 {4,S} {6,S}
 6 *3 O       u0 {5,S} {7,S}
 7    H       u0 {6,S}
@@ -444,8 +444,8 @@ entry(
 """
 1 *1 [Cd,Cs]    u1 {2,S}
 2 *4 Cd         u0 {1,S} {3,D}
-3    Cd         u0 {2,D} {4,S}
-4    [Cd,Cs,CO] u0 {3,S} {5,S}
+3 *6 Cd         u0 {2,D} {4,S}
+4 *5 [Cd,Cs,CO] u0 {3,S} {5,S}
 5 *2 O          u0 {4,S} {6,S}
 6 *3 O          u0 {5,S} {7,S}
 7    H          u0 {6,S}
@@ -460,8 +460,8 @@ entry(
 """
 1 *1 Cd         u1 {2,D}
 2 *4 Cd         u0 {1,D} {3,S}
-3    [Cd,Cs,CO] u0 {2,S} {4,S}
-4    [Cd,Cs,CO] u0 {3,S} {5,S}
+3 *6 [Cd,Cs,CO] u0 {2,S} {4,S}
+4 *5 [Cd,Cs,CO] u0 {3,S} {5,S}
 5 *2 O          u0 {4,S} {6,S}
 6 *3 O          u0 {5,S} {7,S}
 7    H          u0 {6,S}
@@ -476,8 +476,8 @@ entry(
 """
 1 *1 Cd u1 {2,D}
 2 *4 Cd u0 {1,D} {3,S}
-3    Cd u0 {2,S} {4,D}
-4    Cd u0 {3,D} {5,S}
+3 *6 Cd u0 {2,S} {4,D}
+4 *5 Cd u0 {3,D} {5,S}
 5 *2 O  u0 {4,S} {6,S}
 6 *3 O  u0 {5,S} {7,S}
 7    H  u0 {6,S}
@@ -492,8 +492,8 @@ entry(
 """
 1 *1 [CO,Cd,Cs,Sid,Sis,N] u1 {2,[S,D]}
 2 *4 [CO,Cd,Cs,Sid,Sis,N] u0 {1,[S,D]} {3,[S,D]}
-3    [CO,Cd,Cs,Sid,Sis,N] u0 {2,[S,D]} {4,[S,D]}
-4    [CO,Cd,Cs,Sid,Sis,N] u0 {3,[S,D]} {5,S}
+3 *6 [CO,Cd,Cs,Sid,Sis,N] u0 {2,[S,D]} {4,[S,D]}
+4 *5 [CO,Cd,Cs,Sid,Sis,N] u0 {3,[S,D]} {5,S}
 5 *2 O                    u0 {4,S} {6,S}
 6 *3 O                    u0 {5,S} {7,S}
 7    R!H                  u0 {6,S}
@@ -508,8 +508,8 @@ entry(
 """
 1 *1 [Cd,Cs]    u1 {2,S}
 2 *4 [Cd,Cs]    u0 {1,S} {3,S}
-3    [Cd,Cs,CO] u0 {2,S} {4,S}
-4    [Cd,Cs,CO] u0 {3,S} {5,S}
+3 *6 [Cd,Cs,CO] u0 {2,S} {4,S}
+4 *5 [Cd,Cs,CO] u0 {3,S} {5,S}
 5 *2 O          u0 {4,S} {6,S}
 6 *3 O          u0 {5,S} {7,S}
 7    R!H        u0 {6,S}
@@ -524,8 +524,8 @@ entry(
 """
 1 *1 [Cd,Cs] u1 {2,S}
 2 *4 [Cd,Cs] u0 {1,S} {3,S}
-3    [Cd,Cs] u0 {2,S} {4,S}
-4    CO      u0 {3,S} {5,S}
+3 *6 [Cd,Cs] u0 {2,S} {4,S}
+4 *5 CO      u0 {3,S} {5,S}
 5 *2 O       u0 {4,S} {6,S}
 6 *3 O       u0 {5,S} {7,S}
 7    R!H     u0 {6,S}
@@ -540,8 +540,8 @@ entry(
 """
 1 *1 [Cd,Cs] u1 {2,S}
 2 *4 [Cd,Cs] u0 {1,S} {3,S}
-3    Cd      u0 {2,S} {4,D}
-4    Cd      u0 {3,D} {5,S}
+3 *6 Cd      u0 {2,S} {4,D}
+4 *5 Cd      u0 {3,D} {5,S}
 5 *2 O       u0 {4,S} {6,S}
 6 *3 O       u0 {5,S} {7,S}
 7    R!H     u0 {6,S}
@@ -556,8 +556,8 @@ entry(
 """
 1 *1 [Cd,Cs]    u1 {2,S}
 2 *4 Cd         u0 {1,S} {3,D}
-3    Cd         u0 {2,D} {4,S}
-4    [Cd,Cs,CO] u0 {3,S} {5,S}
+3 *6 Cd         u0 {2,D} {4,S}
+4 *5 [Cd,Cs,CO] u0 {3,S} {5,S}
 5 *2 O          u0 {4,S} {6,S}
 6 *3 O          u0 {5,S} {7,S}
 7    R!H        u0 {6,S}
@@ -572,8 +572,8 @@ entry(
 """
 1 *1 Cd         u1 {2,D}
 2 *4 Cd         u0 {1,D} {3,S}
-3    [Cd,Cs,CO] u0 {2,S} {4,S}
-4    [Cd,Cs,CO] u0 {3,S} {5,S}
+3 *6 [Cd,Cs,CO] u0 {2,S} {4,S}
+4 *5 [Cd,Cs,CO] u0 {3,S} {5,S}
 5 *2 O          u0 {4,S} {6,S}
 6 *3 O          u0 {5,S} {7,S}
 7    R!H        u0 {6,S}
@@ -588,8 +588,8 @@ entry(
 """
 1 *1 Cd  u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
-3    Cd  u0 {2,S} {4,D}
-4    Cd  u0 {3,D} {5,S}
+3 *6 Cd  u0 {2,S} {4,D}
+4 *5 Cd  u0 {3,D} {5,S}
 5 *2 O   u0 {4,S} {6,S}
 6 *3 O   u0 {5,S} {7,S}
 7    R!H u0 {6,S}
@@ -611,9 +611,9 @@ entry(
 """
 1 *1 [CO,Cd,Cs,Sid,Sis,N] u1 {2,[S,D]}
 2 *4 [CO,Cd,Cs,Sid,Sis,N] u0 {1,[S,D]} {3,[S,D]}
-3    [CO,Cd,Cs,Sid,Sis,N] u0 {2,[S,D]} {4,[S,D]}
-4    [CO,Cd,Cs,Sid,Sis,N] u0 {3,[S,D]} {5,[S,D]}
-5    [CO,Cd,Cs,Sid,Sis,N] u0 {4,[S,D]} {6,S}
+3 *6 [CO,Cd,Cs,Sid,Sis,N] u0 {2,[S,D]} {4,[S,D]}
+4 *7 [CO,Cd,Cs,Sid,Sis,N] u0 {3,[S,D]} {5,[S,D]}
+5 *5 [CO,Cd,Cs,Sid,Sis,N] u0 {4,[S,D]} {6,S}
 6 *2 O                    u0 {5,S} {7,S}
 7 *3 O                    u1 {6,S}
 """,
@@ -627,9 +627,9 @@ entry(
 """
 1 *1 [CO,Cd,Cs,Sid,Sis,N] u1 {2,[S,D]}
 2 *4 [CO,Cd,Cs,Sid,Sis,N] u0 {1,[S,D]} {3,[S,D]}
-3    [CO,Cd,Cs,Sid,Sis,N] u0 {2,[S,D]} {4,[S,D]}
-4    [CO,Cd,Cs,Sid,Sis,N] u0 {3,[S,D]} {5,[S,D]}
-5    [CO,Cd,Cs,Sid,Sis,N] u0 {4,[S,D]} {6,S}
+3 *6 [CO,Cd,Cs,Sid,Sis,N] u0 {2,[S,D]} {4,[S,D]}
+4 *7 [CO,Cd,Cs,Sid,Sis,N] u0 {3,[S,D]} {5,[S,D]}
+5 *5 [CO,Cd,Cs,Sid,Sis,N] u0 {4,[S,D]} {6,S}
 6 *2 O                    u0 {5,S} {7,S}
 7 *3 O                    u0 {6,S} {8,S}
 8    H                    u0 {7,S}
@@ -644,9 +644,9 @@ entry(
 """
 1 *1 [Cd,Cs]    u1 {2,S}
 2 *4 [Cd,Cs]    u0 {1,S} {3,S}
-3    [Cd,Cs,CO] u0 {2,S} {4,S}
-4    [Cd,Cs,CO] u0 {3,S} {5,S}
-5    [Cd,Cs,CO] u0 {4,S} {6,S}
+3 *6 [Cd,Cs,CO] u0 {2,S} {4,S}
+4 *7 [Cd,Cs,CO] u0 {3,S} {5,S}
+5 *5 [Cd,Cs,CO] u0 {4,S} {6,S}
 6 *2 O          u0 {5,S} {7,S}
 7 *3 O          u0 {6,S} {8,S}
 8    H          u0 {7,S}
@@ -661,9 +661,9 @@ entry(
 """
 1 *1 [Cd,Cs] u1 {2,S}
 2 *4 [Cd,Cs] u0 {1,S} {3,S}
-3    [Cd,Cs] u0 {2,S} {4,S}
-4    [Cd,Cs] u0 {3,S} {5,S}
-5    CO      u0 {4,S} {6,S}
+3 *6 [Cd,Cs] u0 {2,S} {4,S}
+4 *7 [Cd,Cs] u0 {3,S} {5,S}
+5 *5 CO      u0 {4,S} {6,S}
 6 *2 O       u0 {5,S} {7,S}
 7 *3 O       u0 {6,S} {8,S}
 8    H       u0 {7,S}
@@ -678,9 +678,9 @@ entry(
 """
 1 *1 [Cd,Cs]    u1 {2,S}
 2 *4 [Cd,Cs]    u0 {1,S} {3,S}
-3    [Cd,Cs,CO] u0 {2,S} {4,S}
-4    Cd         u0 {3,S} {5,D}
-5    Cd         u0 {4,D} {6,S}
+3 *6 [Cd,Cs,CO] u0 {2,S} {4,S}
+4 *7 Cd         u0 {3,S} {5,D}
+5 *5 Cd         u0 {4,D} {6,S}
 6 *2 O          u0 {5,S} {7,S}
 7 *3 O          u0 {6,S} {8,S}
 8    H          u0 {7,S}
@@ -695,9 +695,9 @@ entry(
 """
 1 *1 [Cd,Cs]    u1 {2,S}
 2 *4 [Cd,Cs]    u0 {1,S} {3,S}
-3    Cd         u0 {2,S} {4,D}
-4    Cd         u0 {3,D} {5,S}
-5    [Cd,Cs,CO] u0 {4,S} {6,S}
+3 *6 Cd         u0 {2,S} {4,D}
+4 *7 Cd         u0 {3,D} {5,S}
+5 *5 [Cd,Cs,CO] u0 {4,S} {6,S}
 6 *2 O          u0 {5,S} {7,S}
 7 *3 O          u0 {6,S} {8,S}
 8    H          u0 {7,S}
@@ -712,9 +712,9 @@ entry(
 """
 1 *1 [Cd,Cs]    u1 {2,S}
 2 *4 Cd         u0 {1,S} {3,D}
-3    Cd         u0 {2,D} {4,S}
-4    [Cd,Cs,CO] u0 {3,S} {5,S}
-5    [Cd,Cs,CO] u0 {4,S} {6,S}
+3 *6 Cd         u0 {2,D} {4,S}
+4 *7 [Cd,Cs,CO] u0 {3,S} {5,S}
+5 *5 [Cd,Cs,CO] u0 {4,S} {6,S}
 6 *2 O          u0 {5,S} {7,S}
 7 *3 O          u0 {6,S} {8,S}
 8    H          u0 {7,S}
@@ -729,9 +729,9 @@ entry(
 """
 1 *1 Cd         u1 {2,D}
 2 *4 Cd         u0 {1,D} {3,S}
-3    [Cd,Cs,CO] u0 {2,S} {4,S}
-4    [Cd,Cs,CO] u0 {3,S} {5,S}
-5    [Cd,Cs,CO] u0 {4,S} {6,S}
+3 *6 [Cd,Cs,CO] u0 {2,S} {4,S}
+4 *7 [Cd,Cs,CO] u0 {3,S} {5,S}
+5 *5 [Cd,Cs,CO] u0 {4,S} {6,S}
 6 *2 O          u0 {5,S} {7,S}
 7 *3 O          u0 {6,S} {8,S}
 8    H          u0 {7,S}
@@ -746,9 +746,9 @@ entry(
 """
 1 *1 [Cd,Cs] u1 {2,S}
 2 *4 Cd      u0 {1,S} {3,D}
-3    Cd      u0 {2,D} {4,S}
-4    Cd      u0 {3,S} {5,D}
-5    Cd      u0 {4,D} {6,S}
+3 *6 Cd      u0 {2,D} {4,S}
+4 *7 Cd      u0 {3,S} {5,D}
+5 *5 Cd      u0 {4,D} {6,S}
 6 *2 O       u0 {5,S} {7,S}
 7 *3 O       u0 {6,S} {8,S}
 8    H       u0 {7,S}
@@ -763,9 +763,9 @@ entry(
 """
 1 *1 Cd u1 {2,D}
 2 *4 Cd u0 {1,D} {3,S}
-3    Cd u0 {2,S} {4,D}
-4    Cd u0 {3,D} {5,S}
-5    Cd u0 {4,S} {6,S}
+3 *6 Cd u0 {2,S} {4,D}
+4 *7 Cd u0 {3,D} {5,S}
+5 *5 Cd u0 {4,S} {6,S}
 6 *2 O  u0 {5,S} {7,S}
 7 *3 O  u0 {6,S} {8,S}
 8    H  u0 {7,S}
@@ -780,9 +780,9 @@ entry(
 """
 1 *1 [CO,Cd,Cs,Sid,Sis,N] u1 {2,[S,D]}
 2 *4 [CO,Cd,Cs,Sid,Sis,N] u0 {1,[S,D]} {3,[S,D]}
-3    [CO,Cd,Cs,Sid,Sis,N] u0 {2,[S,D]} {4,[S,D]}
-4    [CO,Cd,Cs,Sid,Sis,N] u0 {3,[S,D]} {5,[S,D]}
-5    [CO,Cd,Cs,Sid,Sis,N] u0 {4,[S,D]} {6,S}
+3 *6 [CO,Cd,Cs,Sid,Sis,N] u0 {2,[S,D]} {4,[S,D]}
+4 *7 [CO,Cd,Cs,Sid,Sis,N] u0 {3,[S,D]} {5,[S,D]}
+5 *5 [CO,Cd,Cs,Sid,Sis,N] u0 {4,[S,D]} {6,S}
 6 *2 O                    u0 {5,S} {7,S}
 7 *3 O                    u0 {6,S} {8,S}
 8    R!H                  u0 {7,S}
@@ -797,9 +797,9 @@ entry(
 """
 1 *1 [Cd,Cs]    u1 {2,S}
 2 *4 [Cd,Cs]    u0 {1,S} {3,S}
-3    [Cd,Cs,CO] u0 {2,S} {4,S}
-4    [Cd,Cs,CO] u0 {3,S} {5,S}
-5    [Cd,Cs,CO] u0 {4,S} {6,S}
+3 *6 [Cd,Cs,CO] u0 {2,S} {4,S}
+4 *7 [Cd,Cs,CO] u0 {3,S} {5,S}
+5 *5 [Cd,Cs,CO] u0 {4,S} {6,S}
 6 *2 O          u0 {5,S} {7,S}
 7 *3 O          u0 {6,S} {8,S}
 8    R!H        u0 {7,S}
@@ -814,9 +814,9 @@ entry(
 """
 1 *1 [Cd,Cs] u1 {2,S}
 2 *4 [Cd,Cs] u0 {1,S} {3,S}
-3    [Cd,Cs] u0 {2,S} {4,S}
-4    [Cd,Cs] u0 {3,S} {5,S}
-5    CO      u0 {4,S} {6,S}
+3 *6 [Cd,Cs] u0 {2,S} {4,S}
+4 *7 [Cd,Cs] u0 {3,S} {5,S}
+5 *5 CO      u0 {4,S} {6,S}
 6 *2 O       u0 {5,S} {7,S}
 7 *3 O       u0 {6,S} {8,S}
 8    R!H     u0 {7,S}
@@ -831,9 +831,9 @@ entry(
 """
 1 *1 [Cd,Cs]    u1 {2,S}
 2 *4 [Cd,Cs]    u0 {1,S} {3,S}
-3    [Cd,Cs,CO] u0 {2,S} {4,S}
-4    Cd         u0 {3,S} {5,D}
-5    Cd         u0 {4,D} {6,S}
+3 *6 [Cd,Cs,CO] u0 {2,S} {4,S}
+4 *7 Cd         u0 {3,S} {5,D}
+5 *5 Cd         u0 {4,D} {6,S}
 6 *2 O          u0 {5,S} {7,S}
 7 *3 O          u0 {6,S} {8,S}
 8    R!H        u0 {7,S}
@@ -848,9 +848,9 @@ entry(
 """
 1 *1 [Cd,Cs]    u1 {2,S}
 2 *4 [Cd,Cs]    u0 {1,S} {3,S}
-3    Cd         u0 {2,S} {4,D}
-4    Cd         u0 {3,D} {5,S}
-5    [Cd,Cs,CO] u0 {4,S} {6,S}
+3 *6 Cd         u0 {2,S} {4,D}
+4 *7 Cd         u0 {3,D} {5,S}
+5 *5 [Cd,Cs,CO] u0 {4,S} {6,S}
 6 *2 O          u0 {5,S} {7,S}
 7 *3 O          u0 {6,S} {8,S}
 8    R!H        u0 {7,S}
@@ -865,9 +865,9 @@ entry(
 """
 1 *1 [Cd,Cs]    u1 {2,S}
 2 *4 Cd         u0 {1,S} {3,D}
-3    Cd         u0 {2,D} {4,S}
-4    [Cd,Cs,CO] u0 {3,S} {5,S}
-5    [Cd,Cs,CO] u0 {4,S} {6,S}
+3 *6 Cd         u0 {2,D} {4,S}
+4 *7 [Cd,Cs,CO] u0 {3,S} {5,S}
+5 *5 [Cd,Cs,CO] u0 {4,S} {6,S}
 6 *2 O          u0 {5,S} {7,S}
 7 *3 O          u0 {6,S} {8,S}
 8    R!H        u0 {7,S}
@@ -882,9 +882,9 @@ entry(
 """
 1 *1 Cd         u1 {2,D}
 2 *4 Cd         u0 {1,D} {3,S}
-3    [Cd,Cs,CO] u0 {2,S} {4,S}
-4    [Cd,Cs,CO] u0 {3,S} {5,S}
-5    [Cd,Cs,CO] u0 {4,S} {6,S}
+3 *6 [Cd,Cs,CO] u0 {2,S} {4,S}
+4 *7 [Cd,Cs,CO] u0 {3,S} {5,S}
+5 *5 [Cd,Cs,CO] u0 {4,S} {6,S}
 6 *2 O          u0 {5,S} {7,S}
 7 *3 O          u0 {6,S} {8,S}
 8    R!H        u0 {7,S}
@@ -899,9 +899,9 @@ entry(
 """
 1 *1 [Cd,Cs] u1 {2,S}
 2 *4 Cd      u0 {1,S} {3,D}
-3    Cd      u0 {2,D} {4,S}
-4    Cd      u0 {3,S} {5,D}
-5    Cd      u0 {4,D} {6,S}
+3 *6 Cd      u0 {2,D} {4,S}
+4 *7 Cd      u0 {3,S} {5,D}
+5 *5 Cd      u0 {4,D} {6,S}
 6 *2 O       u0 {5,S} {7,S}
 7 *3 O       u0 {6,S} {8,S}
 8    R!H     u0 {7,S}
@@ -916,9 +916,9 @@ entry(
 """
 1 *1 Cd  u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
-3    Cd  u0 {2,S} {4,D}
-4    Cd  u0 {3,D} {5,S}
-5    Cd  u0 {4,S} {6,S}
+3 *6 Cd  u0 {2,S} {4,D}
+4 *7 Cd  u0 {3,D} {5,S}
+5 *5 Cd  u0 {4,S} {6,S}
 6 *2 O   u0 {5,S} {7,S}
 7 *3 O   u0 {6,S} {8,S}
 8    R!H u0 {7,S}
