@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Intra_Diels_alder/groups"
+name = "Intra_Retro_Diels_alder_bicyclic/groups"
 shortDesc = u""
 longDesc = u"""
 

@@ -27,7 +27,7 @@ recommendedFamilies = {
 'HO2_Elimination_from_PeroxyRadical':True,
 'H_Abstraction':True,
 'H_shift_cyclopentadiene':True,
-'Intra_Diels_alder':True,
+'Intra_Retro_Diels_alder_bicyclic':True,
 'Intra_Disproportionation':True,
 'Intra_RH_Add_Endocyclic':False,
 'Intra_RH_Add_Exocyclic':False,
