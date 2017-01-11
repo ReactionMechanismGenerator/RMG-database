@@ -52,4 +52,5 @@ recommendedFamilies = {
 'ketoenol':True,
 'lone_electron_pair_bond':True,
 'Singlet_Carbene_Disproportionation':True,
+'Intra_5_membered_conjugated_C=C_C=C_addition':True
 }
