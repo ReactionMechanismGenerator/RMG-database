@@ -56,4 +56,5 @@ recommendedFamilies = {
 'Concerted_Intra_Diels_alder_monocyclic_1,2_shiftH':True,
 'Intra_2+2_cycloaddition_Cd':True,
 'Intra_ene_reaction':True,
+'Cyclopentadiene_scission':True,
 }
