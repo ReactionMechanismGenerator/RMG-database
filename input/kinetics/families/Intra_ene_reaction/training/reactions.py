@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "H_shift_cyclopentadiene/training"
+name = "Intra_ene_reaction/training"
 shortDesc = u"Kinetics used to train group additivity values"
 longDesc = u"""
 Put kinetic parameters for reactions to use as a training set for fitting
