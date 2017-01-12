@@ -55,4 +55,5 @@ recommendedFamilies = {
 'Intra_5_membered_conjugated_C=C_C=C_addition':True,
 'Intra_Diels_alder_monocyclic':True,
 'Concerted_Intra_Diels_alder_monocyclic_1,2_shiftH':True,
+'Intra_2+2_cycloaddition_Cd':True,
 }
