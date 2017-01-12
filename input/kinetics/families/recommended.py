@@ -57,4 +57,5 @@ recommendedFamilies = {
 'Intra_2+2_cycloaddition_Cd':True,
 'Intra_ene_reaction':True,
 'Cyclopentadiene_scission':True,
+'6_membered_central_C-C_shift':True
 }
