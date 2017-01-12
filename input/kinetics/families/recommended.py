@@ -26,7 +26,6 @@ recommendedFamilies = {
 'Disproportionation':True,
 'HO2_Elimination_from_PeroxyRadical':True,
 'H_Abstraction':True,
-'H_shift_cyclopentadiene':True,
 'Intra_Retro_Diels_alder_bicyclic':True,
 'Intra_Disproportionation':True,
 'Intra_RH_Add_Endocyclic':False,
@@ -56,4 +55,5 @@ recommendedFamilies = {
 'Intra_Diels_alder_monocyclic':True,
 'Concerted_Intra_Diels_alder_monocyclic_1,2_shiftH':True,
 'Intra_2+2_cycloaddition_Cd':True,
+'Intra_ene_reaction':True,
 }
