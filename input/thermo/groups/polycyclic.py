@@ -7209,6 +7209,60 @@ Fitted from molecule s3_5_6_ane from Bicyclics_QM_190_isomorphic library.
 )
 
 entry(
+    index = 194,
+    label = "s3_5_6_ane_hetero_O",
+    group =
+"""
+1   C u0 {3,S} {5,S} {6,S}
+2   C u0 {3,S} {4,S} {7,S}
+3   C u0 {1,S} {2,S}
+4   C u0 {2,S} {5,S}
+5   O u0 {1,S} {4,S}
+6   C u0 {1,S} {8,S}
+7   C u0 {2,S} {8,S}
+8 * C u0 {6,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata=([300,400,500,600,800,1000,1500],'K'),
+        Cpdata=([-48.1208,-43.3576,-36.967,-32.094,-24.3395,-17.5001,-6.91253],'J/(mol*K)'),
+        H298=(23771.6,'J/mol'),
+        S298=(198.394,'J/(mol*K)')
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+From my CBS-QB3 calculation.
+""",
+)
+
+entry(
+    index = 195,
+    label = "s3_5_6_ane_hetero_OO",
+    group =
+"""
+1   C u0 {3,S} {5,S} {6,S}
+2   C u0 {3,S} {4,S} {7,S}
+3   C u0 {1,S} {2,S}
+4   O u0 {2,S} {5,S}
+5   O u0 {1,S} {4,S}
+6   C u0 {1,S} {8,S}
+7   C u0 {2,S} {8,S}
+8 * C u0 {6,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata=([300,400,500,600,800,1000,1500],'K'),
+        Cpdata=([-47.4839,-44.3752,-40.1496,-37.211,-31.3655,-25.0969,-13.3325],'J/(mol*K)'),
+        H298=(29119.9,'J/mol'),
+        S298=(205.027,'J/(mol*K)')
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+From my CBS-QB3 calculation.
+""",
+)
+
+entry(
     index = 0,
     label = "s3_5_6_ene",
     group = "OR{s3_5_6_ene_1, s3_5_6_ene_5}",
@@ -7933,6 +7987,58 @@ entry(
     longDesc = 
 u"""
 Wiberg, K. Angew. Chem., Int. Ed. Engl. 1986, 25, 312 1986 experimental S, Cp from PM7 calculation
+""",
+)
+
+entry(
+    index = 192,
+    label = "s4_6_6_ane_hetero_O",
+    group =
+"""
+1 * C u0 {3,S} {6,S} {8,S}
+2   C u0 {4,S} {5,S} {7,S}
+3   O u0 {1,S} {4,S}
+4   C u0 {2,S} {3,S}
+5   C u0 {2,S} {6,S}
+6   C u0 {1,S} {5,S}
+7   C u0 {2,S} {8,S}
+8   C u0 {1,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata=([300,400,500,600,800,1000,1500],'K'),
+        Cpdata=([-48.9713,-47.148,-41.7965,-36.4966,-25.6172,-14.6013,-0.230842],'J/(mol*K)'),
+        H298=(-16807,'J/mol'),
+        S298=(206.921,'J/(mol*K)')),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Fitted from CBS-QB3 calculation of Cineole
+""",
+)
+
+entry(
+    index = 193,
+    label = "s4_6_6_ane_hetero_OO",
+    group =
+"""
+1 * C u0 {3,S} {6,S} {8,S}
+2   C u0 {4,S} {5,S} {7,S}
+3   O u0 {1,S} {4,S}
+4   O u0 {2,S} {3,S}
+5   C u0 {2,S} {6,S}
+6   C u0 {1,S} {5,S}
+7   C u0 {2,S} {8,S}
+8   C u0 {1,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata=([300,400,500,600,800,1000,1500],'K'),
+        Cpdata=([-46.3919,-44.0812,-40.3076,-37.437,-31.5025,-25.1749,-13.3655],'J/(mol*K)'),
+        H298=(253.175,'J/mol'),
+        S298=(212.248,'J/(mol*K)')),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+From CBS-QB3 calculation
 """,
 )
 
@@ -8789,6 +8895,8 @@ L1: PolycyclicRing
             L4: s3_5_5_diene_1_4
     L2: s3_5_6
         L3: s3_5_6_ane
+            L4: s3_5_6_ane_hetero_O
+            L4: s3_5_6_ane_hetero_OO
         L3: s3_5_6_ene
             L4: s3_5_6_ene_1
             L4: s3_5_6_ene_5
@@ -8819,6 +8927,8 @@ L1: PolycyclicRing
             L4: s3_6_7_diene_6_9-0
     L2: s4_6_6
         L3: s4_6_6_ane
+            L4: s4_6_6_ane_hetero_O
+            L4: s4_6_6_ane_hetero_OO
     L2: s4_6_8
         L3: s4_6_8_ane
         L3: s4_6_8_ene
