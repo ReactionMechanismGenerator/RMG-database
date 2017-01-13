@@ -16691,6 +16691,56 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 1055,
+    label = "Cds-CdH_Cds-(CsH-Cs-Cds)_cyc6",
+    group =
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Cs u0 {2,S} {8,S}
+6    H  u0 {2,S}
+7    Cd  u0 {3,D} {8,S}
+8    Cs  u0 {5,S} {7,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1056,
+    label = "Cds-CsH_Cds-(CsH-Cds-Cds)_cyc6",
+    group =
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S} {8,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S} {7,S}
+6    H  u0 {2,S}
+7    Cd  u0 {5,S} {8,D}
+8    Cd  u0 {7,D} {3,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1057,
+    label = "Cds-CsH_Cds-(CdsH-Cds)_cyc5",
+    group =
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S} {7,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Cd  u0 {6,D} {3,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: R_R
@@ -16931,6 +16981,7 @@ L1: R_R
                 L5: Cds-CsH_Cds-HH
                     L6: Cds-Cs\Os/H_Cds-HH
                 L5: Cds-CsH_Cds-CsH
+                    L6: Cds-CsH_Cds-(CsH-Cds-Cds)_cyc6
                 L5: Cds-CsH_Cds-CsCs
                 L5: Cds-CsH_Cds-OsH
                 L5: Cds-CsH_Cds-OsCs
@@ -16945,6 +16996,7 @@ L1: R_R
                         L7: Cds-CsH_Cds-CbH
                         L7: Cds-CsH_Cds-COH
                         L7: Cds-CsH_Cds-CdH
+                            L8: Cds-CsH_Cds-(CdsH-Cds)_cyc5
                         L7: Cds-CsH_Cds-C=SH
                     L6: Cds-CsH_Cds-OneDeCs
                         L7: Cds-CsH_Cds-CtCs
@@ -17150,6 +17202,7 @@ L1: R_R
                     L6: Cds-CdH_Cds
                         L7: Cds-CdH_Cds-HH
                         L7: Cds-CdH_Cds-CsH
+                            L8: Cds-CdH_Cds-(CsH-Cs-Cds)_cyc6
                         L7: Cds-CdH_Cds-CsCs
                         L7: Cds-CdH_Cds-OsH
                         L7: Cds-CdH_Cds-OsCs
