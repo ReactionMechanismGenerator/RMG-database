@@ -32,9 +32,9 @@ entry(
     label = "C6H5 + C4H4 <=> W1",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (34950, 'cm^3/(mol*s)'),
-        n = 2.169,
-        Ea = (-0.263, 'kcal/mol'),
+        A = (5.276e-20, 'cm^3/(mol*s)'),
+        n = 2.181,
+        Ea = (-0.286, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
 )
@@ -65,9 +65,9 @@ entry(
     label = "C6H5 + C4H4 <=> W2",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (382400, 'cm^3/(mol*s)'),
+        A = (6.372e-19, 'cm^3/(mol*s)'),
         n = 2.195,
-        Ea = (4.288, 'kcal/mol'),
+        Ea = (4.29, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
 )
@@ -98,9 +98,9 @@ entry(
     label = "C6H5 + C4H4 <=> W3",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (47220, 'cm^3/(mol*s)'),
-        n = 2.169,
-        Ea = (1.467, 'kcal/mol'),
+        A = (7.566e-20, 'cm^3/(mol*s)'),
+        n = 2.174,
+        Ea = (1.46, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
 )
@@ -121,9 +121,9 @@ entry(
 
 entry(
     index = 15,
-    label = "W6 <=> W18",
+    label = "W18 <=> W6",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.862e+13, 's^-1'), n=0.216, Ea=(58.693, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(6.176e+12, 's^-1'), n=-0.326, Ea=(5.666, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -142,9 +142,9 @@ entry(
 
 entry(
     index = 18,
-    label = "W8 <=> W9",
+    label = "W9 <=> W8",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.078e+13, 's^-1'), n=-0.048, Ea=(6.657, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(1.126e+14, 's^-1'), n=-0.355, Ea=(28.539, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -191,9 +191,9 @@ entry(
 
 entry(
     index = 25,
-    label = "W15 <=> W16",
+    label = "W16 <=> W15",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.895e+11, 's^-1'), n=0.516, Ea=(3.785, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(8.443e+10, 's^-1'), n=0.474, Ea=(23.82, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -214,19 +214,14 @@ entry(
     index = 28,
     label = "W20 <=> P2 + H",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2e+13, 's^-1'), n=0.609, Ea=(49.05, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(1.951e+13, 's^-1'), n=0.612, Ea=(49.045, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 29,
     label = "C6H5 + C4H4 <=> W14",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1579, 'cm^3/(mol*s)'),
-        n = 2.629,
-        Ea = (2.073, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(1571, 'cm^3/(mol*s)'), n=2.63, Ea=(2.072, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -234,9 +229,9 @@ entry(
     label = "P1 + H <=> W6",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.86e+09, 'cm^3/(mol*s)'),
-        n = 1.549,
-        Ea = (4.523, 'kcal/mol'),
+        A = (1.824e+09, 'cm^3/(mol*s)'),
+        n = 1.551,
+        Ea = (4.518, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
 )
@@ -246,7 +241,7 @@ entry(
     label = "P1 + H <=> W13",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.781e+08, 'cm^3/(mol*s)'),
+        A = (1.785e+08, 'cm^3/(mol*s)'),
         n = 1.663,
         Ea = (10.356, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -258,9 +253,9 @@ entry(
     label = "P4 + H <=> W3",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.123e+11, 'cm^3/(mol*s)'),
-        n = 1.058,
-        Ea = (3.961, 'kcal/mol'),
+        A = (1.163e+11, 'cm^3/(mol*s)'),
+        n = 1.054,
+        Ea = (3.968, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
 )
@@ -270,9 +265,9 @@ entry(
     label = "P4 + H <=> W9",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (6.652e+08, 'cm^3/(mol*s)'),
-        n = 1.535,
-        Ea = (3.84, 'kcal/mol'),
+        A = (6.786e+08, 'cm^3/(mol*s)'),
+        n = 1.533,
+        Ea = (3.846, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
 )
@@ -294,9 +289,9 @@ entry(
     label = "P5 + H <=> W20",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.138e+09, 'cm^3/(mol*s)'),
-        n = 1.597,
-        Ea = (4.011, 'kcal/mol'),
+        A = (1.149e+09, 'cm^3/(mol*s)'),
+        n = 1.595,
+        Ea = (4.014, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
 )
