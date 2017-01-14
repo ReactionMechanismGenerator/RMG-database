@@ -142,3 +142,18 @@ u"""
 Taken from entry: i4 <=> i5
 """,
 )
+
+
+entry(
+    index = 11,
+    label = "C6H9 <=> C6H9-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5.249e+08, 's^-1'), n=0.846, Ea=(19.298, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Buras_Vinyl_1_3_Butadiene""",
+    longDesc = 
+u"""
+Taken from entry: C6H9 <=> c5-C6H9
+""",
+)
+

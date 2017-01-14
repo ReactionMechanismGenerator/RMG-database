@@ -1454,3 +1454,88 @@ Taken from entry: ipso-(C7H9) <=> C6H6 + CH3
 """,
 )
 
+
+
+entry(
+    index = 92,
+    label = "C4H6 + C2H3 <=> C6H9-6",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (39130, 'cm^3/(mol*s)'),
+        n = 2.404,
+        Ea = (0.42, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Buras_Vinyl_1_3_Butadiene""",
+    longDesc = 
+u"""
+Taken from entry: C2H3 + C4H6 <=> C6H9
+""",
+)
+
+entry(
+    index = 93,
+    label = "C6H9-7 <=> C6H8-3 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.29e+06, 's^-1'), n=2.017, Ea=(40.664, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Buras_Vinyl_1_3_Butadiene""",
+    longDesc = 
+u"""
+Taken from entry: C6H9 <=> C6H8 + H
+""",
+)
+
+entry(
+    index = 94,
+    label = "C6H9-8 <=> C6H8-4 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.972e+07, 's^-1'), n=1.802, Ea=(32.304, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Buras_Vinyl_1_3_Butadiene""",
+    longDesc = 
+u"""
+Taken from entry: c5-C6H9 <=> H + c5-C6H8
+""",
+)
+
+entry(
+    index = 95,
+    label = "C6H9-9 <=> C6H8-5 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(7.487e+08, 's^-1'), n=1.395, Ea=(33.132, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Buras_Vinyl_1_3_Butadiene""",
+    longDesc = 
+u"""
+Taken from entry: c6-C6H9 <=> H + C6H8-c6-13
+""",
+)
+
+entry(
+    index = 96,
+    label = "C6H9-10 <=> C6H8-6 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.097e+09, 's^-1'), n=1.299, Ea=(33.394, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Buras_Vinyl_1_3_Butadiene""",
+    longDesc = 
+u"""
+Taken from entry: c6-C6H9 <=> H + C6H8-c6-14
+""",
+)
+
+entry(
+    index = 97,
+    label = "C6H9-11 <=> C5H6-2 + CH3",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.961e+11, 's^-1'), n=0.717, Ea=(38.962, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Buras_Vinyl_1_3_Butadiene""",
+    longDesc = 
+u"""
+Taken from entry: c5-C6H9-2 <=> C5H6 + CH3
+""",
+)
+

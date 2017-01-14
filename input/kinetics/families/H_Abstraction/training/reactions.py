@@ -1566,3 +1566,41 @@ Taken from entry: C6H5 + C3H6 <=> CH2CHCH2 + C6H6
 """,
 )
 
+
+
+entry(
+    index = 1014,
+    label = "C4H6 + C2H3 <=> C2H4 + C4H5",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (0.0003437, 'cm^3/(mol*s)'),
+        n = 4.732,
+        Ea = (6.579, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Buras_Vinyl_1_3_Butadiene""",
+    longDesc = 
+u"""
+Taken from entry: C2H3 + C4H6 <=> C2H4 + nC4H5
+""",
+)
+
+entry(
+    index = 1015,
+    label = "C4H6-2 + C2H3 <=> C2H4 + C4H5-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (0.000621, 'cm^3/(mol*s)'),
+        n = 4.814,
+        Ea = (4.902, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Buras_Vinyl_1_3_Butadiene""",
+    longDesc = 
+u"""
+Taken from entry: C2H3 + C4H6 <=> C2H4 + iC4H5
+""",
+)
+

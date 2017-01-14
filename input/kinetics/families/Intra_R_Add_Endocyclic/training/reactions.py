@@ -1295,3 +1295,18 @@ coefficient computed TST with Eckart Tunnelling"
 """,
 )
 
+
+
+entry(
+    index = 53,
+    label = "C6H9-7 <=> C6H9-8",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5.041e+08, 's^-1'), n=0.7, Ea=(20.246, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Buras_Vinyl_1_3_Butadiene""",
+    longDesc = 
+u"""
+Taken from entry: C6H9 <=> c6-C6H9
+""",
+)
+
