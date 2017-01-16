@@ -50,3 +50,18 @@ Taken from entry: pdt22 <=> INDENE
 """,
 )
 
+
+
+entry(
+    index = 4,
+    label = "C6H6 <=> C6H6-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.086e+09, 's^-1'), n=1.038, Ea=(39.326, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2003_Miller_Propargyl_Recomb_High_P""",
+    longDesc = 
+u"""
+Taken from entry: II <=> VIII
+""",
+)
+
