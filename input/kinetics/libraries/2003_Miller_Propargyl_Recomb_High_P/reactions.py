@@ -144,10 +144,28 @@ entry(
     index = 13,
     label = "X <=> XI",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.392e+10, 's^-1'), n=0.782, Ea=(34.256, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(3.355e+12, 's^-1'), n=0.294, Ea=(35.954, 'kcal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
 Originally from reaction library: Unclassified
+""",
+)
+
+entry(
+    index = 14,
+    label = "IV <=> B",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.012e+13, 's^-1'),
+        n = 0.1,
+        Ea = (41.203, 'kcal/mol'),
+        T0 = (1, 'K'),
+        comment = 'CBS-QB3 calculated',
+    ),
+    longDesc = 
+u"""
+Originally from reaction library: Unclassified
+CBS-QB3 calculated
 """,
 )
 
