@@ -54,24 +54,6 @@ L1: VacantSite
 """
 )
 
-forbidden(
-    label = "disigma0",
-    group = 
-"""
-1 *1 R u1 {2,[S,D,T]}
-2    X u0 {1,[S,D,T]}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-The adsorbing atom should not already be adsorbed.
-e.g. this is not allowed:
-
-R2C   <-->  R2C*
- / \          |
- X X       X  X
-""",
-)
 
 forbidden(
     label = "adjacentradical1",
@@ -89,21 +71,5 @@ e.g. this is not allowed:
 .O-O.    -->   .O-O
                   |
    X              X
-""",
-)
-
-forbidden(
-    label = "disigma2",
-    group = 
-"""
-1 *1 R u1 {2,[S,D,T]}
-2    R u0 {1,[S,D,T]} {3,[S,D,T]}
-3    R u0 {2,[S,D,T]} {4,[S,D,T]}
-4    X u0 {3,[S,D,T]}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-The adsorbing atom should not be next-nearest neighbor to an atom that is already adsorbed.
 """,
 )
