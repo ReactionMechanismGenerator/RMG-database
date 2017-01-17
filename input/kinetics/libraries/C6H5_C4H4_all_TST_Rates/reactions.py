@@ -32,9 +32,9 @@ entry(
     label = "C6H5 + C4H4 <=> W1",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (5.276e-20, 'cm^3/(mol*s)'),
-        n = 2.181,
-        Ea = (-0.286, 'kcal/mol'),
+        A = (32420, 'cm^3/(mol*s)'),
+        n = 2.179,
+        Ea = (-0.282, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
 )
@@ -65,9 +65,9 @@ entry(
     label = "C6H5 + C4H4 <=> W2",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (6.372e-19, 'cm^3/(mol*s)'),
-        n = 2.195,
-        Ea = (4.29, 'kcal/mol'),
+        A = (392600, 'cm^3/(mol*s)'),
+        n = 2.192,
+        Ea = (4.297, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
 )
@@ -98,9 +98,9 @@ entry(
     label = "C6H5 + C4H4 <=> W3",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (7.566e-20, 'cm^3/(mol*s)'),
-        n = 2.174,
-        Ea = (1.46, 'kcal/mol'),
+        A = (44410, 'cm^3/(mol*s)'),
+        n = 2.177,
+        Ea = (1.454, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
 )
@@ -121,9 +121,9 @@ entry(
 
 entry(
     index = 15,
-    label = "W18 <=> W6",
+    label = "W7 <=> W6",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(6.176e+12, 's^-1'), n=-0.326, Ea=(5.666, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(2.983e+12, 's^-1'), n=-0.321, Ea=(5.655, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -170,16 +170,16 @@ entry(
 
 entry(
     index = 22,
-    label = "W12 <=> W13",
+    label = "W10 <=> W13",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.261e+11, 's^-1'), n=0.209, Ea=(7.419, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(6.258e+10, 's^-1'), n=0.21, Ea=(7.415, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 23,
-    label = "W12 <=> W20",
+    label = "W10 <=> W20",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.572e+09, 's^-1'), n=1.403, Ea=(41.301, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(7.56e+08, 's^-1'), n=1.408, Ea=(41.295, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -205,9 +205,9 @@ entry(
 
 entry(
     index = 27,
-    label = "W18 <=> W20",
+    label = "W7 <=> W20",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.202e+09, 's^-1'), n=0.703, Ea=(7.054, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(1.658e+09, 's^-1'), n=0.699, Ea=(7.063, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
