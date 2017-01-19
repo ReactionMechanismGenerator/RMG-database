@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "C6H5_C4H4_all_TST_Rates"
+name = "C6H5_C4H4_all_TST_rates"
 shortDesc = u"level of theory: G3(MP2,CC)//B3LYP/6-311G(d,p)"
 longDesc = u"""
 Kinetics from:
@@ -22,6 +22,7 @@ entry(
     index = 2,
     label = "W1 <=> W14",
     degeneracy = 1,
+    duplicate = True,
     kinetics = Arrhenius(A=(7.179e+07, 's^-1'), n=1.101, Ea=(27.148, 'kcal/mol'), T0=(1, 'K')),
 )
 
@@ -316,5 +317,13 @@ entry(
         Ea = (6.797, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
+)
+
+entry(
+    index = 37,
+    label = "W14 <=> W1",
+    degeneracy = 1,
+    duplicate = True,
+    kinetics = Arrhenius(A=(7.809e+07, 's^-1'), n=1.057, Ea=(15.061, 'kcal/mol'), T0=(1, 'K')),
 )
 
