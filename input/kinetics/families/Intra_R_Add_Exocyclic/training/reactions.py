@@ -157,3 +157,96 @@ Taken from entry: C6H9 <=> c5-C6H9
 """,
 )
 
+
+
+entry(
+    index = 12,
+    label = "C10H9-3 <=> C10H9-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.54e+10, 's^-1'), n=0.69, Ea=(20.376, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C6H5_C4H4_all_TST_rates""",
+    longDesc = 
+u"""
+Taken from entry: W2 <=> W8
+""",
+)
+
+entry(
+    index = 13,
+    label = "C10H9-5 <=> C10H9-6",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(9.423e+09, 's^-1'), n=0.834, Ea=(24.235, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C6H5_C4H4_all_TST_rates""",
+    longDesc = 
+u"""
+Taken from entry: W2 <=> W19
+""",
+)
+
+entry(
+    index = 14,
+    label = "C10H9-7 <=> C10H9-8",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.233e+11, 's^-1'), n=0.39, Ea=(35.846, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C6H5_C4H4_all_TST_rates""",
+    longDesc = 
+u"""
+Taken from entry: W3 <=> W19
+""",
+)
+
+entry(
+    index = 15,
+    label = "C10H9-9 <=> C10H9-10",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.126e+14, 's^-1'), n=-0.355, Ea=(28.539, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C6H5_C4H4_all_TST_rates""",
+    longDesc = 
+u"""
+Taken from entry: W9 <=> W8
+""",
+)
+
+entry(
+    index = 16,
+    label = "C10H9-11 <=> C10H9-12",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(6.258e+10, 's^-1'), n=0.21, Ea=(7.415, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C6H5_C4H4_all_TST_rates""",
+    longDesc = 
+u"""
+Taken from entry: W10 <=> W13
+""",
+)
+
+entry(
+    index = 17,
+    label = "C10H9-13 <=> C10H9-14",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.881e+08, 's^-1'), n=1.062, Ea=(16.546, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C6H5_C4H4_all_TST_rates""",
+    longDesc = 
+u"""
+Taken from entry: W14 <=> W15
+""",
+)
+
+entry(
+    index = 18,
+    label = "C10H9-15 <=> C10H9-16",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(8.443e+10, 's^-1'), n=0.474, Ea=(23.82, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C6H5_C4H4_all_TST_rates""",
+    longDesc = 
+u"""
+Taken from entry: W16 <=> W15
+""",
+)
+

@@ -891,6 +891,20 @@ entry(
 )
 
 entry(
+    index = 1062,
+    label = "Ca-Cdd_Cds-HH",
+    group = 
+"""
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Cdd u0 {1,D}
+4    H   u0 {2,S}
+5    H   u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 61,
     label = "Ca_Cds-CsH",
     group = 
@@ -13017,6 +13031,22 @@ entry(
 )
 
 entry(
+    index = 1058,
+    label = "Ct-H_Ct-Cd-C-Cb",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    H  u0 {1,S}
+4    Cd u0 {2,S} {5,D}
+5    C  u0 {4,D} {6,S}
+6    Cb u0 {5,S}
+""",
+    kinetics = None,
+)
+
+
+entry(
     index = 849,
     label = "Ct-H_Ct-C=S",
     group = 
@@ -13332,6 +13362,19 @@ entry(
 4    Cd u0 {2,S} {6,D}
 5    C  u0 {3,D}
 6    C  u0 {4,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1059,
+    label = "Ct-De_Ct-Cb",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    [Cd,Ct,Cb,CO,CS,N3d,N5d] u0 {1,S}
+4    Cb u0 {2,S}
 """,
     kinetics = None,
 )
@@ -16642,6 +16685,26 @@ entry(
 )
 
 entry(
+    index = 1060,
+    label = "Cb-Cb_Cb-H",
+    group =
+"""
+1 *1 Cd u0 {2,D} {3,S} {7,S}
+2 *2 Cd u0 {1,D} {4,S} {8,S}
+3 Cd u0 {1,S} {5,D} {11,S}
+4 Cd u0 {2,S} {6,D}
+5 Cd u0 {3,D} {6,S}
+6 Cd u0 {4,D} {5,S}
+7 Cd u0 {1,S} {9,D}
+8 H  u0 {2,S}
+9 Cd u0 {7,D} {10,S}
+10 Cd u0 {9,S} {11,D}
+11 Cd u0 {10,D} {3,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 1052,
     label = "Cb-H_Cb",
     group =
@@ -16670,6 +16733,26 @@ entry(
 6 Cd u0 {4,D} {5,S}
 7 H u0 {1,S}
 8 R!H u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1061,
+    label = "Cb-H_Cb-Cb",
+    group =
+"""
+1 *1 Cd u0 {2,D} {3,S} {7,S}
+2 *2 Cd u0 {1,D} {4,S} {8,S}
+3 Cd u0 {1,S} {5,D}
+4 Cd u0 {2,S} {6,D} {11,S}
+5 Cd u0 {3,D} {6,S}
+6 Cd u0 {4,D} {5,S}
+7 H u0 {1,S}
+8 Cd u0 {2,S} {9,D}
+9 Cd u0 {8,D} {10,S}
+10 Cd u0 {9,S} {11,D}
+11 Cd u0 {10,D} {4,S}
 """,
     kinetics = None,
 )
@@ -16748,8 +16831,10 @@ L1: R_R
         L3: Cb-R!H_Cb
             L4: Cb-R!H_Cb-R!H
             L4: Cb-R!H_Cb-H
+		L5: Cb-Cb_Cb-H
         L3: Cb-H_Cb
             L4: Cb-H_Cb-R!H
+		L5: Cb-H_Cb-Cb
             L4: Cb-H_Cb-H
     L2: Cd_R
         L3: Cdd_Od
@@ -16814,6 +16899,7 @@ L1: R_R
         L3: Cdd_Cds
             L4: Ca_Cds
                 L5: Ca_Cds-HH
+		    L6: Ca-Cdd_Cds-HH
                 L5: Ca_Cds-CsH
                 L5: Ca_Cds-CsCs
                 L5: Ca_Cds-OneDeH
@@ -17610,6 +17696,7 @@ L1: R_R
                 L5: Ct-H_Ct-Cb
                 L5: Ct-H_Ct-CO
                 L5: Ct-H_Ct-Cd
+		   L6: Ct-H_Ct-Cd-C-Cb
                 L5: Ct-H_Ct-C=S
             L4: Ct-Cs_Ct-De
                 L5: Ct-Cs_Ct-Ct
@@ -17634,6 +17721,7 @@ L1: R_R
                 L5: Ct-Cd_Ct-Ct
                 L5: Ct-Ct_Ct-Cd
                 L5: Ct-Cd_Ct-Cd
+		L5: Ct-De_Ct-Cb
         L3: Ct_Nt
             L4: Ct_N3t
                 L5: Ct-H_N3t

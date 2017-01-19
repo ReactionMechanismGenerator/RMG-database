@@ -2957,6 +2957,18 @@ entry(
 )
 
 entry(
+    index = 268,
+    label = "Cd_rad_out_double_benzene",
+    group = 
+"""
+1 *1 Cd       u1 {2,D}
+2    [Cd,Cdd] u0 {1,D} {3,S}
+3    Cb       u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 190,
     label = "Cd_rad_out_double",
     group = 
@@ -3010,6 +3022,18 @@ entry(
 """,
     kinetics = None,
 )
+
+entry(
+    index = 268,
+    label = "Cd_rad_out_singleDe_Cb",
+    group = 
+"""
+1 *1 Cd            u1 {2,S}
+2    Cb u0 {1,S}
+""",
+    kinetics = None,
+)
+
 
 entry(
     index = 195,
@@ -3411,6 +3435,21 @@ entry(
 """,
     kinetics = None,
 )
+
+entry(
+    index = 268,
+    label = "Cd_H_out_singleDe_CdCb",
+    group = 
+"""
+1 *2 Cd            u0 {2,S} {3,S}
+2 *3 H             u0 {1,S}
+3    Cd            u0 {1,S} {4,D}
+4    Cd		   u0 {3,D} {5,S}
+5    Cb            u0 {4,S}
+""",
+    kinetics = None,
+)
+
 
 entry(
     index = 230,
@@ -4132,10 +4171,12 @@ L1: Y_rad_out
     L2: S_rad_out
     L2: Cd_rad_out
         L3: Cd_rad_out_double
+	    L4: Cd_rad_out_double_benzene
         L3: Cd_rad_out_single
             L4: Cd_rad_out_singleH
             L4: Cd_rad_out_singleNd
             L4: Cd_rad_out_singleDe
+		L5: Cd_rad_out_singleDe_Cb
     L2: Ct_rad_out
     L2: Cb_rad_out
     L2: CO_rad_out
@@ -4171,6 +4212,7 @@ L1: XH_out
         L3: Cd_H_out_singleH
         L3: Cd_H_out_singleNd
         L3: Cd_H_out_singleDe
+	    L4:Cd_H_out_singleDe_CdCb
     L2: Cs_H_out
         L3: Cs_H_out_2H
             L4: Cs_H_out_2H/NonDeC
