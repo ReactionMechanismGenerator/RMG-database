@@ -1176,6 +1176,21 @@ entry(
 )
 
 entry(
+    index = 163,
+    label = "R6_MSR_D",
+    group = 
+"""
+1 *1 [Cd,Ct,Cb]        u1 {2,[D,T,B]}
+2 *4 [Cd,Ct,Cb]        u0 {1,[D,T,B]} {3,S}
+3 *6 R!H               u0 {2,S} {4,D}
+4 *5 R!H               u0 {3,D} {5,S}
+5 *2 [Cd,Ct,CO,CS]     u0 {4,S} {6,[D,T]}
+6 *3 [Cd,Ct,Od,Sd,Cdd] u0 {5,[D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 70,
     label = "R6_DSR",
     group = 
@@ -2546,6 +2561,7 @@ L1: Rn
                             L8: R6_TSM_D
                             L8: R6_TSM_T
                             L8: R6_TSM_CO
+		    L6: R6_MSR_D
             L4: R6_SMS
                 L5: R6_SMS_D
                 L5: R6_SMS_T
