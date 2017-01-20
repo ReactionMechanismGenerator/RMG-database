@@ -65,3 +65,18 @@ Taken from entry: II <=> VIII
 """,
 )
 
+
+
+entry(
+    index = 5,
+    label = "C6H6-3 <=> C6H6-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.697e+08, 's^-1'), n=1.15, Ea=(52.158, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2003_Miller_Propargyl_Recomb_High_P_reverse""",
+    longDesc = 
+u"""
+Taken from entry: VIII <=> II
+""",
+)
+
