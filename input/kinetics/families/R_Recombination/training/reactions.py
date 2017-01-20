@@ -390,3 +390,18 @@ Taken from entry: R4 + H <=> C5H5CH3-5
 """,
 )
 
+
+
+entry(
+    index = 18,
+    label = "C10H7 + H <=> C10H8",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.87e+13, 'cm^3/(mol*s)'), n=0.13, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C6H4C2H_C2H2_highP""",
+    longDesc = 
+u"""
+Taken from entry: C10H7-1 + H <=> C10H8
+""",
+)
+

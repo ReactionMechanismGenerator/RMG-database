@@ -1786,3 +1786,18 @@ Taken from entry: P6 + H <=> W14
 """,
 )
 
+
+
+entry(
+    index = 113,
+    label = "C2H2 + C8H5 <=> C10H7",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(13400, 'cm^3/(mol*s)'), n=2.499, Ea=(1283, 'cal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C6H4C2H_C2H2_highP""",
+    longDesc = 
+u"""
+Taken from entry: C6H4C2H + C2H2 <=> A12
+""",
+)
+

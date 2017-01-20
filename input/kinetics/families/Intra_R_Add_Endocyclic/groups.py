@@ -2470,6 +2470,21 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 163,
+    label = "R6_DSB_T",
+    group = 
+"""
+1 *1 Cd u1 {2,D}
+2 *4 Cd u0 {1,D} {3,S}
+3 *6 Cb u0 {2,S} {4,B}
+4 *5 Cb u0 {3,B} {5,S}
+5 *2 Ct u0 {4,S} {6,T}
+6 *3 Ct u0 {5,T}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Rn
@@ -2549,6 +2564,7 @@ L1: Rn
                         L7: R6_DSM
                             L8: R6_DSM_D
                             L8: R6_DSM_T
+                            	L9: R6_DSB_T
                             L8: R6_DSM_CO
                     L6: R6_TSR
                         L7: R6_TSS

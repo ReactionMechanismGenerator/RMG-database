@@ -1364,3 +1364,18 @@ Taken from entry: W11 <=> W10
 """,
 )
 
+
+
+entry(
+    index = 58,
+    label = "C10H7 <=> C10H7-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(9.948e+11, 's^-1'), n=0.045, Ea=(5395, 'cal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C6H4C2H_C2H2_highP""",
+    longDesc = 
+u"""
+Taken from entry: A12 <=> C10H7-1
+""",
+)
+
