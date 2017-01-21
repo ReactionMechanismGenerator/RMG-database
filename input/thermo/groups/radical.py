@@ -7899,6 +7899,32 @@ u"""
 )
 
 entry(
+    index = 137,
+    label = "OsCsJ2H_triplet",
+    group =
+"""
+1 * Cs u2 {2,S} {3,S}
+2   H  u0 {1,S}
+3   O  u0 p2 {1,S} {4,S}
+4   H  u0 {3,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-0.444, -1.111, -1.988, -2.889, -4.529, -5.915, -8.422], 'cal/(mol*K)'),
+        H298=(205.773, 'kcal/mol'),
+        S298=(-2.011, 'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fittted to DFT_QCI_thermo library""",
+    longDesc =
+u"""
+Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
+
+Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
+J. Phys. Chem. A 2012, 116, 9033-9057.
+""",
+)
+
+entry(
     index = 124,
     label = "CdJ2_triplet",
     group = 
@@ -7921,19 +7947,63 @@ entry(
 1 * Cd u2 {2,D}
 2   C  u0 {1,D}
 """,
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0, 0, 0, 0, 0, 0, 0], 'cal/(mol*K)'),
-        H298=(190.7, 'kcal/mol'),
-        S298=(0, 'cal/(mol*K)'),
-    ),
+    thermo=u'CdCdJ2_triplet',
     shortDesc = u"""""",
     longDesc = 
 u"""
-Is this pointing toward the singlet a good idea? -nyee
-Data above is from CCdJ2_singlet. Placeholder until DFT_QCI_thermo calculations
-can be used to fit this group
+
 """,
+)
+
+entry(
+    index = 138,
+    label = "CdCdJ2_triplet",
+    group =
+"""
+1 * Cd u2 {2,D}
+2   Cd u0 {1,D} {3,S} {4,S}
+3   H  u0 {2,S}
+4   H  u0 {2,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-0.904, -2.152, -3.433, -4.583, -6.214, -7.197, -9.27], 'cal/(mol*K)'),
+        H298=(237.632, 'kcal/mol'),
+        S298=(1.79, 'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Fittted to DFT_QCI_thermo library""",
+    longDesc=
+    u"""
+    Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
+
+    Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
+    J. Phys. Chem. A 2012, 116, 9033-9057.
+    """,
+)
+
+entry(
+    index = 139,
+    label = "(CO)CdJ2_triplet",
+    group =
+"""
+1 * Cd u2 {2,D}
+2   Cdd u0 {1,D} {3,D}
+3   O u0 p2 {2,D}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-1.763, -2.732, -3.654, -4.473, -5.712, -6.563, -8.315], 'cal/(mol*K)'),
+        H298=(206.595, 'kcal/mol'),
+        S298=(-1.634, 'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Fittted to DFT_QCI_thermo library""",
+    longDesc=
+    u"""
+    Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
+
+    Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
+    J. Phys. Chem. A 2012, 116, 9033-9057.
+    """,
 )
 
 entry(
@@ -8608,6 +8678,7 @@ L1: Radical
                 L5: SJ-Ss-Ss
     L2: RJ2_triplet
         L3: CJ2_triplet
+            L4: OsCsJ2H_triplet
             L4: CsJ2_triplet
                 L5: CH2_triplet
                 L5: CsJ2_P_triplet
@@ -8618,6 +8689,8 @@ L1: Radical
                 L5: CsJ2_S_triplet
             L4: CdJ2_triplet
                 L5: CCdJ2_triplet
+                    L6: CdCdJ2_triplet
+                    L6: (CO)CdJ2_triplet
             L4: CdJ2-Sd_triplet
         L3: NJ2_triplet
             L4: N3sJ2
