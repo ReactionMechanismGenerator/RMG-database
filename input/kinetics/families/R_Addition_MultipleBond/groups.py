@@ -16854,12 +16854,50 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 1058,
+    label = "Cb-indeneDe_Cb-indeneNde",
+    group =
+"""
+1 *1 Cd u0 {2,D} {3,S} {7,S}
+2 *2 Cd u0 {1,D} {4,S} {8,S}
+3 Cd u0 {1,S} {5,D}
+4 Cd u0 {2,S} {6,D}
+5 Cd u0 {3,D} {6,S}
+6 Cd u0 {4,D} {5,S}
+7 Cd u0 {1,S} {9,D}
+8 C u0 {2,S} {9,S}
+9 Cd u0 {7,D} {8,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1059,
+    label = "Cb-indeneNde_Cb-indene_De",
+    group =
+"""
+1 *2 Cd u0 {2,D} {3,S} {7,S}
+2 *1 Cd u0 {1,D} {4,S} {8,S}
+3 Cd u0 {1,S} {5,D}
+4 Cd u0 {2,S} {6,D}
+5 Cd u0 {3,D} {6,S}
+6 Cd u0 {4,D} {5,S}
+7 Cd u0 {1,S} {9,D}
+8 C u0 {2,S} {9,S}
+9 Cd u0 {7,D} {8,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: R_R
     L2: Cb_Cb
         L3: Cb-R!H_Cb
             L4: Cb-R!H_Cb-R!H
+                L5:Cb-indeneDe_Cb-indeneNde
+                L5:Cb-indeneNde_Cb-indene_De
             L4: Cb-R!H_Cb-H
 		L5: Cb-Cb_Cb-H
         L3: Cb-H_Cb
