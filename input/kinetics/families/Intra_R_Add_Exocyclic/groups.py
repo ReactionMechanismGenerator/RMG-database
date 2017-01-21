@@ -4108,6 +4108,42 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 342,
+    label = "Rn3c6b_alpha",
+    group = 
+"""
+1 *2 C u0 {2,D} {6,S}
+2 *3 C u0 {1,D} {3,S}
+3    C ux {2,S} {4,D}
+4    C ux {3,D} {5,S}
+5    C ux {4,S} {6,D}
+6 *5 C ux {5,D} {1,S} {7,[S,D,T,B]}
+7 *6 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *4 R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *1 R!H u1 {8,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 343,
+    label = "Rn3(2S)c6b_alpha",
+    group = 
+"""
+1 *2 C u0 {2,D} {6,S}
+2 *3 C u0 {1,D} {3,S}
+3    C ux {2,S} {4,D}
+4    C ux {3,D} {5,S}
+5    C ux {4,S} {6,D}
+6 *5 C ux {5,D} {1,S} {7,S}
+7 *6 R!H ux {6,S} {8,S}
+8 *4 R!H ux {7,S} {9,[S,D,T,B]}
+9 *1 R!H u1 {8,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Rn
@@ -4147,6 +4183,8 @@ L1: Rn
 		    L6:Rn4c6_alpha_benzene
 			L7:Rn4c6_alpha_benzene_Cdchain
                 L5: Rn3c6_alpha
+                    L6:Rn3c6b_alpha
+                        L7:Rn3(2S)c6b_alpha
                 L5: Rn2c6_alpha
                 L5: Rn1c6_alpha
             L4: Rnxc6_beta_long
