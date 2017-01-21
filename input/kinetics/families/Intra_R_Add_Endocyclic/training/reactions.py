@@ -1379,3 +1379,59 @@ Taken from entry: A12 <=> C10H7-1
 """,
 )
 
+
+
+entry(
+    index = 59,
+    label = "C9H9 <=> C9H9-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(6.485e+11, 's^-1'), n=0.065, Ea=(27.941, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: C9H9(2) <=> C9H9(3)
+""",
+)
+
+entry(
+    index = 60,
+    label = "C9H9-3 <=> C9H9-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5.565e+11, 's^-1'), n=0.009, Ea=(28.521, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: C9H9(6) <=> C9H9(3)
+""",
+)
+
+entry(
+    index = 61,
+    label = "C9H7 <=> C9H7-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.534e+11, 's^-1'), n=0.102, Ea=(13.049, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: C9H7(18) <=> C9H7(19)
+""",
+)
+
+
+
+entry(
+    index = 62,
+    label = "C9H7-3 <=> C9H7-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.431e+11, 's^-1'), n=0.114, Ea=(15.579, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: C9H7(22) <=> C9H7(19)
+""",
+)
+

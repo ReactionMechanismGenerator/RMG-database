@@ -21,7 +21,7 @@ recipe(actions=[
 entry(
     index = 1,
     label = "Rn",
-    group = "OR{R3, R4, R5, R6plus}",
+    group = "OR{Rnx_cyclics, R3, R4, R5, R6plus}",
     kinetics = None,
 )
 
@@ -712,8 +712,8 @@ entry(
 """
 1 *1 [Cd,Ct,Cb]          u1 {2,[D,T,B]}
 2 *4 [Cd,Ct,Cb]          u0 {1,[D,T,B]} {3,S}
-3 *5 R!H                 u0 {2,S} {4,S}
-4 *2 [Cd,Ct,CO,N,CS]     u0 {3,S} {5,[D,T]}
+3 *5 R!H                 u0 {2,S} {4,[S,D]}
+4 *2 [Cd,Ct,CO,N,CS,Cdd]     u0 {3,[S,D]} {5,[D,T]}
 5 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {4,[D,T]}
 """,
     kinetics = None,
@@ -1625,7 +1625,7 @@ entry(
     label = "doublebond_intra",
     group = 
 """
-1 *2 Cd       u0 {2,D}
+1 *2 [Cd,Cdd] u0 {2,D}
 2 *3 [Cd,Cdd] u0 {1,D}
 """,
     kinetics = None,
@@ -2485,6 +2485,108 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 164,
+    label = "Rn3c6_alpha",
+    group = 
+"""
+1    R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2    R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *1  R!H u1 {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *4 R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]} {7,[S,D,T,B]}
+7 *5 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *2 R!H u0 {7,[S,D,T,B]} {9,[D,T]}
+9 *3 R!H u0 {8,[D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 165,
+    label = "Rn2c6_alpha",
+    group = 
+"""
+1    R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2    R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *1 R!H u1 {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *4 R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]} {8,[S,D,T,B]}
+8 *2 R!H u0 {6,[S,D,T,B]} {9,[D,T]}
+9 *3 R!H u0 {8,[D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 166,
+    label = "Rnxc6_alpha",
+    group = "OR{Rn3c6_alpha, Rn2c6_alpha}",
+    kinetics = None,
+)
+
+entry(
+    index = 167,
+    label = "Rnxc6",
+    group = "OR{Rnxc6_alpha}",
+    kinetics = None,
+)
+
+entry(
+    index = 168,
+    label = "Rnx_cyclics",
+    group = "OR{Rnxc6}",
+    kinetics = None,
+)
+
+entry(
+    index = 169,
+    label = "radadd_intra_csH(CdCdCd)",
+    group = 
+"""
+1 *1 Cs u1 {2,S} {3,S}
+2    H  u0 {1,S}
+3    Cd u0 {1,S} {4,D}
+4    Cd u0 {3,D} {5,S}
+5    Cd u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 170,
+    label = "doublebond_intra_CdCdd",
+    group = 
+"""
+1 *3 Cd       u0 {2,D}
+2 *2 Cdd      u0 {1,D}
+""",
+    kinetics = None,
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 171,
+    label = "Rn3c6b_alpha",
+    group = 
+"""
+1    Cd u0 {2,D} {6,S}
+2    Cd u0 {1,D} {3,S}
+3    Cd ux {2,S} {4,D}
+4    Cd ux {3,D} {5,S}
+5 *1 Cd u1 {4,S} {6,D}
+6 *4 Cd ux {5,D} {1,S} {7,[S,D,T,B]}
+7 *5 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *2 R!H u0 {7,[S,D,T,B]} {9,[D,T]}
+9 *3 R!H u0 {8,[D,T]}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Rn
@@ -2586,8 +2688,15 @@ L1: Rn
         L3: R9
             L4: R9_SSSSSD
             L4: R9_SDSSSD
+    L2: Rnx_cyclics
+	L3: Rnxc6
+	    L4: Rnxc6_alpha
+	        L5: Rn3c6_alpha
+	    	    L6: Rn3c6b_alpha
+    	        L5: Rn2c6_alpha
 L1: multiplebond_intra
     L2: doublebond_intra
+        L3: doublebond_intra_CdCdd
         L3: doublebond_intra_pri
             L4: doublebond_intra_pri_2H
             L4: doublebond_intra_pri_HNd
@@ -2639,6 +2748,7 @@ L1: radadd_intra
         L3: radadd_intra_csHNd
         L3: radadd_intra_csHDe
             L4: radadd_intra_csHCd
+               L5: radadd_intra_csH(CdCdCd)
             L4: radadd_intra_csHCt
         L3: radadd_intra_csNdNd
         L3: radadd_intra_csNdDe
