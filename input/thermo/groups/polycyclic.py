@@ -2492,6 +2492,46 @@ Fitted from species product42 from vinylCPD_H library.
 )
 
 entry(
+    index = 65,
+    label = "s2_3_5_diene",
+    group = "OR{s2_3_5_diene_0_2}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 65,
+    label = "s2_3_5_diene_0_2",
+    group=
+    """
+    1 * R!H u0 {2,S} {3,S} {5,S}
+    2   R!H u0 {1,S} {3,S} {4,D}
+    3   R!H u0 {1,S} {2,S}
+    4   R!H u0 {2,D} {6,S}
+    5   R!H u0 {1,S} {6,D}
+    6   R!H u0 {4,S} {5,D}
+    """,
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-6.479, -6.013, -5.833, -6.146, -5.718, -3.93, -3.679], 'cal/(mol*K)'),
+        H298=(70.241, 'kcal/mol'),
+        S298=(69.007, 'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations for "Intermediate B" of:
+
+Miller, J. A.; Klippenstein, S. J., The Recombination of Propargyl Radicals and Other Reactions on a C6H6 Potential.
+J. Phys. Chem. A 2003, 107, 7783-7799.
+""",
+)
+
+entry(
     index = 0,
     label = "s2_3_6",
     group = 
@@ -8598,6 +8638,8 @@ L1: PolycyclicRing
             L4: s2_3_5_ene_1
             L4: s2_3_5_ene_side 
         L3: s2_3_5_ane
+        L3: s2_3_5_diene
+            L4: s2_3_5_diene_0_2
     L2: s2_3_6
         L3: s2_3_6_ane
         L3: s2_3_6_ene
