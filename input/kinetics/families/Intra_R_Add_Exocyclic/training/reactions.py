@@ -250,3 +250,18 @@ Taken from entry: W16 <=> W15
 """,
 )
 
+
+
+entry(
+    index = 19,
+    label = "C9H9 <=> C9H9-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.257e+11, 's^-1'), n=0.139, Ea=(13.233, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: C9H9(13) <=> C9H9(14)
+""",
+)
+
