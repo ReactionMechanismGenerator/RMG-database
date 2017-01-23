@@ -12,10 +12,10 @@ Watch out:  if the groups on the two labeled atoms are identical, it's value sho
             It should be claimed in the 'longDesc' if a entry was halved.
 
 Source: 
-For aromatic molecule: [1] Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008
-For aromatic radical: [2] A paper from the same group but still under reviewing.
+For aromatic molecule: [1] Ince et al., AIChE 2015, DOI 10.1002/aic.15008
+For aromatic radical: [2] Ince et al., AIChE 2016, DOI 10.1002/aic.15588
 
-Sep-29-2016 PZ
+Jan-23-2017 PZ
 """
 
 entry(
