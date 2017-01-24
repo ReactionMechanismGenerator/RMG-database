@@ -2517,9 +2517,9 @@ entry(
     """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-6.479, -6.013, -5.833, -6.146, -5.718, -3.93, -3.679], 'cal/(mol*K)'),
-        H298=(70.241, 'kcal/mol'),
-        S298=(69.007, 'cal/(mol*K)'),
+        Cpdata=([-7.289, -6.524, -6.162, -6.421, -5.93, -4.094, -3.76], 'cal/(mol*K)'),
+        H298=(68.847, 'kcal/mol'),
+        S298=(65.182, 'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc =
@@ -8517,6 +8517,43 @@ Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from 
 """,
 )
 
+entry(
+    index = 0,
+    label = "s2_4_4_diene",
+    group = "OR{s2_4_4_diene_1_m}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 75,
+    label = "s2_4_4_diene_1_m",
+    group =
+"""
+1   R!H u0 {2,D} {4,S} {6,S}
+2   R!H u0 {1,D} {3,S} {5,S}
+3 * R!H u0 {2,S} {4,S}
+4   R!H u0 {1,S} {3,S}
+5   R!H u0 {2,S} {6,D}
+6   R!H u0 {1,S} {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.911294694, -6.76788695, -7.426491396, -7.70704517, -6.76857218, -4.65110325, -4.246702677],'cal/(mol*K)'),
+        H298 = (134.9052041,'kcal/mol'),
+        S298 = (69.47292352,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Fitted to M06 calculations
+""",
+)
+
 tree(
 """
 L1: PolycyclicRing
@@ -8659,6 +8696,8 @@ L1: PolycyclicRing
         L3: s2_4_4_ene
             L4: s2_4_4_ene_1
             L4: s2_4_4_ene_m
+        L3: s2_4_4_diene
+            L4: s2_4_4_diene_1_m
     L2: s2_4_5
         L3: s2_4_5_ane
         L3: s2_4_5_ene
