@@ -3908,6 +3908,18 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 266,
+    label = "C_rad_out_Cd/Cd",
+    group =
+"""
+1 *1 C  u1 {2,S} {3,S}
+2    Cd u0 {1,S}
+3    Cd u0 {1,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: RnH
@@ -4133,6 +4145,7 @@ L1: Y_rad_out
                 L5: C_rad_out_OneDe/O
                 L5: C_rad_out_OneDe/S
             L4: C_rad_out_TwoDe
+                L5: C_rad_out_Cd/Cd
 L1: XH_out
     L2: CO_H_out
     L2: O_H_out

@@ -80,3 +80,38 @@ Taken from entry: VIII <=> II
 """,
 )
 
+
+
+entry(
+    index = 6,
+    label = "C6H7 <=> C6H7-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.23e+07, 's^-1'), n=1.54, Ea=(13.4, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    longDesc = 
+u"""
+Taken from entry: C5H5CH2-1 <=> C5H5CH2-2
+""",
+)
+
+
+
+entry(
+    index = 7,
+    label = "C6H7-3 <=> C6H7-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (6.2767e+08, 's^-1'),
+        n = 1.42887,
+        Ea = (158.561, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    longDesc = 
+u"""
+Taken from entry: C5H5CH2-2 <=> C5H5CH2-1
+""",
+)
+
