@@ -66,3 +66,44 @@ L1: VacantSite2
 """
 )
 
+
+forbidden(
+    label = "chargedSurface1",
+    group = 
+"""
+1 *1 R u0 c-1 {2,T}
+2 *2 R u0 c+1 {1,T}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+The adsorbing molecule should not have a charge on the surface. I've written it specifically for the case of CO adsorption for now.
+
+e.g. this is not allowed:
+    
+-C#O+    -->  -C=O+
+               | |
+ X X           X X
+""",
+)
+
+forbidden(
+    label = "chargedSurface2",
+    group = 
+"""
+1 *1 R u0 c+1 {2,T}
+2 *2 R u0 c-1 {1,T}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+The adsorbing molecule should not have a charge on the surface. I've written it specifically for the case of CO adsorption for now.
+e.g. this is not allowed:
+    
+-C#O+    -->  -C=O+
+               | |
+ X X           X X
+""",
+)
+
+
