@@ -1435,3 +1435,33 @@ Taken from entry: C9H7(22) <=> C9H7(19)
 """,
 )
 
+
+
+entry(
+    index = 63,
+    label = "C7H9-7 <=> C7H9-8",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(8.9e+10, 's^-1'), n=0.33, Ea=(6.8, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: prod_16 <=> prod_17
+""",
+)
+
+
+
+entry(
+    index = 64,
+    label = "C7H9-9 <=> C7H9-10",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.21e+11, 's^-1'), n=0.34, Ea=(21.2, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: prod_13 <=> prod_14
+""",
+)
+

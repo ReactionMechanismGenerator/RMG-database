@@ -693,19 +693,6 @@ Taken from entry: C3H4p + BD2YL <=> prod_16
 )
 
 entry(
-    index = 41,
-    label = "C7H9-22 <=> C7H8-12 + H",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(6.47e+10, 's^-1'), n=1.22, Ea=(45.7, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
-u"""
-Taken from entry: prod_17 <=> prod_18 + H
-""",
-)
-
-entry(
     index = 42,
     label = "C3H4-3 + allyl <=> C6H9-5",
     degeneracy = 1,
@@ -1913,6 +1900,21 @@ entry(
     longDesc = 
 u"""
 Taken from entry: benzene(1) + C3H3(9) <=> C9H9(2)
+""",
+)
+
+
+
+entry(
+    index = 121,
+    label = "C7H9-23 <=> C7H8-13 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(6.47e+10, 's^-1'), n=1.22, Ea=(45.7, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3""",
+    longDesc = 
+u"""
+Taken from entry: prod_17 <=> prod_18 + H
 """,
 )
 

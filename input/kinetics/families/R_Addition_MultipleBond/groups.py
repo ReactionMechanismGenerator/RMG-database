@@ -16860,6 +16860,38 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 1060,
+    label = "CsJ-(CdC)HH",
+    group =
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    C  u0 {2,D}
+6    C  u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1061,
+    label = "CPD",
+    group =
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Cs u0 {2,S} {7,S}
+6    H  u0 {2,S}
+7    C  u0 {3,D} {5,S}
+""",
+    kinetics = None,
+)
+
+
 tree(
 """
 L1: R_R
@@ -17327,6 +17359,7 @@ L1: R_R
                         L7: Cds-CdH_Cds-HH
                         L7: Cds-CdH_Cds-CsH
                             L8: Cds-CdH_Cds-(CsH-Cs-Cds)_cyc6
+                            L8: CPD
                         L7: Cds-CdH_Cds-CsCs
                         L7: Cds-CdH_Cds-OsH
                         L7: Cds-CdH_Cds-OsCs
@@ -17902,6 +17935,7 @@ L1: YJ
                     L6: CsJ-CbHH
                     L6: CsJ-COHH
                     L6: CsJ-CdHH
+                        L7: CsJ-(CdC)HH
                     L6: CsJ-C=SHH
                 L5: CsJ-OneDeCsH
                     L6: CsJ-CtCsH
