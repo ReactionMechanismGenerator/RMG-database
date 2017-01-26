@@ -3092,3 +3092,597 @@ u"""
 Forbid a phenyl radical from doing a ring closure on itself to form a fused 4 and 4 membered ring. Resonance form 1.
 """,
 )
+
+##########
+#Forbidden groups below prevent cyclics of different sizes (x) from doing ring closures on themselves to form
+#bicyclics (sizes y and z) that share two atoms. Labels are formatted as cx_self_y_z_ring_close. Only
+#Intra_R_Add_Exo family will be allowed to undergo such reactions.
+
+forbidden(
+    label = "c4_self_3_3_ring_close",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {4,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4 *1 R!H u1 {3,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c5_self_3_4_ring_close",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {5,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *1 R!H u1 {4,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c5_self_4_3_ring_close",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {5,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4 *1 R!H u1 {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c6_self_3_5_ring_close",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *1 R!H u1 {5,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c6_self_4_4_ring_close",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *1 R!H u1 {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c6_self_5_3_ring_close",
+    group =
+"""
+1 *3 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2 *2 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *1 R!H u1 {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c7_self_3_6_ring_close",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *1 R!H u1 {6,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c7_self_4_5_ring_close",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *1 R!H u1 {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux {6,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c7_self_5_4_ring_close",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *1 R!H u1 {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux {6,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c7_self_6_3_ring_close",
+    group =
+"""
+1 *3 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
+2 *2 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *1 R!H u1 {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux {6,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c8_self_3_7_ring_close",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *1 R!H u1 {7,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c8_self_4_6_ring_close",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *1 R!H u1 {6,[S,D,T,B]} {8,[S,D,T,B]}
+8    R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c8_self_5_5_ring_close",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *1 R!H u1 {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8    R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c8_self_6_4_ring_close",
+    group =
+"""
+1 *3 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2 *2 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *1 R!H u1 {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8    R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c8_self_7_3_ring_close",
+    group =
+"""
+1 *3 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2 *2 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *1 R!H u1 {6,[S,D,T,B]} {8,[S,D,T,B]}
+8    R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c9_self_3_8_ring_close",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {9,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8    R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *1 R!H u1 {8,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c9_self_4_7_ring_close",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {9,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *1 R!H u1 {7,[S,D,T,B]} {9,[S,D,T,B]}
+9    R!H ux {8,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c9_self_5_6_ring_close",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {9,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *1 R!H u1 {6,[S,D,T,B]} {8,[S,D,T,B]}
+8    R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9    R!H ux {8,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c9_self_6_5_ring_close",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {9,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *1 R!H u1 {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8    R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9    R!H ux {8,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c9_self_7_4_ring_close",
+    group =
+"""
+1 *3 R!H u0 {2,[D,T]} {9,[S,D,T,B]}
+2 *2 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *1 R!H u1 {6,[S,D,T,B]} {8,[S,D,T,B]}
+8    R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9    R!H ux {8,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c9_self_8_3_ring_close",
+    group =
+"""
+1 *3 R!H u0 {2,[D,T]} {9,[S,D,T,B]}
+2 *2 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *1 R!H u1 {7,[S,D,T,B]} {9,[S,D,T,B]}
+9    R!H ux {8,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c10_self_3_9_ring_close",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {10,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8    R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9    R!H ux {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 *1 R!H u1 {9,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c10_self_4_8_ring_close",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {10,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8    R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *1 R!H u1 {8,[S,D,T,B]} {10,[S,D,T,B]}
+10   R!H ux {9,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c10_self_5_7_ring_close",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {10,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *1 R!H u1 {7,[S,D,T,B]} {9,[S,D,T,B]}
+9    R!H ux {8,[S,D,T,B]} {10,[S,D,T,B]}
+10   R!H ux {9,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c10_self_6_6_ring_close",
+    group =
+"""
+1 *2 R!H u0 {2,[D,T]} {10,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *1 R!H u1 {6,[S,D,T,B]} {8,[S,D,T,B]}
+8    R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9    R!H ux {8,[S,D,T,B]} {10,[S,D,T,B]}
+10   R!H ux {9,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c10_self_7_5_ring_close",
+    group =
+"""
+1 *3 R!H u0 {2,[D,T]} {10,[S,D,T,B]}
+2 *2 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *1 R!H u1 {6,[S,D,T,B]} {8,[S,D,T,B]}
+8    R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9    R!H ux {8,[S,D,T,B]} {10,[S,D,T,B]}
+10   R!H ux {9,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c10_self_8_4_ring_close",
+    group =
+"""
+1 *3 R!H u0 {2,[D,T]} {10,[S,D,T,B]}
+2 *2 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *1 R!H u1 {7,[S,D,T,B]} {9,[S,D,T,B]}
+9    R!H ux {8,[S,D,T,B]} {10,[S,D,T,B]}
+10   R!H ux {9,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+
+forbidden(
+    label = "c10_self_9_3_ring_close",
+    group =
+"""
+1 *3 R!H u0 {2,[D,T]} {10,[S,D,T,B]}
+2 *2 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8    R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *1 R!H u1 {8,[S,D,T,B]} {10,[S,D,T,B]}
+10   R!H ux {9,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocyclic then we will get unwanted
+duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
+""",
+)
+##########
