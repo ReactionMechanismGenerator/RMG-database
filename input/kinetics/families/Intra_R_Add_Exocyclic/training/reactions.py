@@ -291,3 +291,72 @@ Taken from entry: biring1 <=> cyC6H7
 """,
 )
 
+
+
+entry(
+    index = 22,
+    label = "C10H9-17 <=> C10H9-18",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(8.89e+11, 's^-1'), n=0.12, Ea=(9.6, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
+    longDesc = 
+u"""
+Taken from entry: adducta <=> prod1
+""",
+)
+
+entry(
+    index = 23,
+    label = "C10H9-19 <=> C10H9-20",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(7.73e+11, 's^-1'), n=0.31, Ea=(22.9, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
+    longDesc = 
+u"""
+Taken from entry: prod1 <=> prod2
+""",
+)
+
+entry(
+    index = 24,
+    label = "C10H9-21 <=> C10H9-22",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.14e+11, 's^-1'), n=0.34, Ea=(11.9, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
+    longDesc = 
+u"""
+Taken from entry: prod2 <=> prod3
+""",
+)
+
+entry(
+    index = 25,
+    label = "C10H9-11 <=> C10H9-12",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.42e+11, 's^-1'), n=0.22, Ea=(4.8, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
+    longDesc = 
+u"""
+Taken from entry: prod5 <=> prod4
+""",
+)
+
+
+
+entry(
+    index = 26,
+    label = "C10H9-23 <=> C10H9-24",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(8.79e+11, 's^-1'), n=0.33, Ea=(10.5, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
+    longDesc = 
+u"""
+Taken from entry: prod3 <=> prod4
+""",
+)
+

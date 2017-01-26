@@ -802,3 +802,18 @@ Taken from entry: C5H5CH2-3 <=> C5H5CH2-2
 """,
 )
 
+
+
+entry(
+    index = 57,
+    label = "C10H9-19 <=> C10H9-20",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5.46e+06, 's^-1'), n=2.01, Ea=(27.5, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
+    longDesc = 
+u"""
+Taken from entry: adductb <=> adductc
+""",
+)
+
