@@ -4355,6 +4355,87 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 344,
+    label = "R4_intra_6_member_ring_S",
+    group =
+"""
+1 *1 R!H              u1 {2,S} {6,[S,D,T]}
+2 *4 R!H              ux {1,S} {3,S}
+3 *2 [Cd,Ct,CO,N]     u0 {2,S} {4,[D,T]}
+4 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {3,[D,T]} {5,[S,D,T]}
+5    R!H              ux {4,[S,D,T]} {6,[S,D,T]}
+6    R!H              ux {5,[S,D,T]} {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 345,
+    label = "R4_intra_6_member_ring_S_D",
+    group =
+"""
+1 *1 R!H              u1 {2,S} {6,[S,D,T]}
+2 *4 R!H              ux {1,S} {3,S}
+3 *2 [Cd,Ct,CO,N]     u0 {2,S} {4,D}
+4 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {3,D} {5,[S,D,T]}
+5    R!H              ux {4,[S,D,T]} {6,[S,D,T]}
+6    R!H              ux {5,[S,D,T]} {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 346,
+    label = "R4_intra_6_member_ring_S_D_2H",
+    group =
+"""
+1 *1 R!H              u1 {2,S} {6,[S,D,T]}
+2 *4 R!H              u0 {1,S} {3,S} {7,S} {8,S}
+3 *2 [Cd,Ct,CO,N]     u0 {2,S} {4,D}
+4 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {3,D} {5,[S,D,T]}
+5    R!H              ux {4,[S,D,T]} {6,[S,D,T]}
+6    R!H              ux {5,[S,D,T]} {1,[S,D,T]}
+7    H                u0 {2,S}
+8    H                u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 347,
+    label = "R4_intra_6_member_ring_S_D_2R!H",
+    group =
+"""
+1 *1 R!H              u1 {2,S} {6,[S,D,T]}
+2 *4 R!H              u0 {1,S} {3,S} {7,S} {8,S}
+3 *2 [Cd,Ct,CO,N]     u0 {2,S} {4,D}
+4 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {3,D} {5,[S,D,T]}
+5    R!H              ux {4,[S,D,T]} {6,[S,D,T]}
+6    R!H              ux {5,[S,D,T]} {1,[S,D,T]}
+7    R!H                u0 {2,S}
+8    R!H                u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 348,
+    label = "R4_intra_6_member_ring_S_D_H_R!H",
+    group =
+"""
+1 *1 R!H              u1 {2,S} {6,[S,D,T]}
+2 *4 R!H              u0 {1,S} {3,S} {7,S} {8,S}
+3 *2 [Cd,Ct,CO,N]     u0 {2,S} {4,D}
+4 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {3,D} {5,[S,D,T]}
+5    R!H              ux {4,[S,D,T]} {6,[S,D,T]}
+6    R!H              ux {5,[S,D,T]} {1,[S,D,T]}
+7    H                u0 {2,S}
+8    R!H              u0 {2,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Rn
@@ -4452,6 +4533,15 @@ L1: Rn
             L4: Rnxc8_epsilon
                 L5: Rn1c8_epsilon
     L2: R4
+<<<<<<< HEAD
+=======
+        L3: R4_intra_6_member_ring
+            L4: R4_intra_6_member_ring_S
+                L5: R4_intra_6_member_ring_S_D
+                    L6: R4_intra_6_member_ring_S_D_2H
+                    L6: R4_intra_6_member_ring_S_D_2R!H
+                    L6: R4_intra_6_member_ring_S_D_H_R!H
+>>>>>>> 66d57b1... Added all naphthalene_H library reactions as training reactions.
         L3: R4_S
             L4: R4_S_D
             L4: R4_S_T
