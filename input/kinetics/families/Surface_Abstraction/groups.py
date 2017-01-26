@@ -8,11 +8,9 @@ Two adsorbates react. One has a multiple bond to the surface, the other has a
 single-bond to the surface and some functional group. 
 The functional group is transferred from the single
 to the multiple-bonded species.
-
  *1   *4-*3             *1-*4  *3
  ||       |      ---->   |     ||
 ~*2~~ + ~*5~~          ~*2~ + ~*5~~
-
 The rate, which should be in mol/m2/s,
 will be given by k * (mol/m2) * (mol/m2)
 so k should be in (m2/mol/s)
@@ -50,12 +48,62 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 3,
+    label="R-H",
+    group = 
+"""
+1 *4 H  ux {2,S}
+2 *3 R  ux {1,S} {3,[S,D,T]}
+3 *5 Xo u0       {2,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 4,
+    label="R-O",
+    group = 
+"""
+1 *4 O  ux {2,S}
+2 *3 R  ux {1,S} {3,[S,D,T]}
+3 *5 Xo u0       {2,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 5,
+    label="R-OH",
+    group = 
+"""
+1 *4 O  ux {2,S} {4,S}
+2 *3 R  ux {1,S} {3,[S,D,T]}
+3 *5 Xo u0       {2,[S,D,T]}
+4    H  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 6,
+    label="R-C",
+    group = 
+"""
+1 *4 C  ux {2,S}
+2 *3 R  ux {1,S} {3,[S,D,T]}
+3 *5 Xo u0       {2,[S,D,T]}
+""",
+    kinetics = None,
+)
 
 tree(
 """
 L1: Abstracting
-
 L1: Donating
+    L2: R-H
+    L2: R-O
+        L3: R-OH
+    L2: R-C
 """
 )
-

@@ -9,9 +9,9 @@ entry(
     index = 1,
     label = "Abstracting;Donating",
     kinetics = SurfaceArrhenius(
-        A = (1.0e17, 'm^2/(mol*s)'),
+        A = (1.0e15, 'm^2/(mol*s)'),
         n = 0,
-        Ea=(10., 'kcal/mol'),
+        Ea=(20., 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -31,5 +31,19 @@ CFG: I bumped the prefactor from E13 to E17. I think that is closer to what othe
     """
 )
 
-
-
+entry(
+    index = 1,
+    label = "Abstracting;R-H",
+    kinetics = SurfaceArrhenius(
+        A = (1.0e17, 'm^2/(mol*s)'),
+        n = 0,
+        Ea=(10., 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Made up""",
+    longDesc = u"""
+Totally made up by Richard to demonstrate how to define things in this file.
+    """
+)
