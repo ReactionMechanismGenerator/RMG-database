@@ -360,3 +360,165 @@ Taken from entry: prod3 <=> prod4
 """,
 )
 
+
+
+entry(
+    index = 27,
+    label = "C10H11-7 <=> C10H11-8",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.89e+11, 's^-1'), n=0.29, Ea=(15.4, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: adductd <=> pdt7
+""",
+)
+
+entry(
+    index = 28,
+    label = "C10H11-9 <=> C10H11-10",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(6.25e+09, 's^-1'), n=0.76, Ea=(6.2, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt9 <=> pdt10bis
+""",
+)
+
+entry(
+    index = 29,
+    label = "C10H11-11 <=> C10H11-12",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.43e+11, 's^-1'), n=0.21, Ea=(8.5, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: adducte <=> pdt7
+""",
+)
+
+entry(
+    index = 30,
+    label = "C10H11-13 <=> C10H11-14",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.36e+10, 's^-1'), n=0.44, Ea=(32.2, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt16 <=> pdt17
+""",
+)
+
+entry(
+    index = 31,
+    label = "C10H11-15 <=> C10H11-16",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.48e+11, 's^-1'), n=0.26, Ea=(7.2, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt17 <=> pdt24
+""",
+)
+
+entry(
+    index = 32,
+    label = "C10H11-17 <=> C10H11-18",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.43e+12, 's^-1'), n=0.31, Ea=(18.2, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt24 <=> pdt28
+""",
+)
+
+entry(
+    index = 33,
+    label = "C10H11-19 <=> C10H11-20",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5.51e+11, 's^-1'), n=0.28, Ea=(12.9, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt14 <=> pdt57
+""",
+)
+
+entry(
+    index = 34,
+    label = "C10H11-21 <=> C10H11-22",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(7.75e+11, 's^-1'), n=0.44, Ea=(18.7, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt57 <=> pdt12
+""",
+)
+
+
+
+entry(
+    index = 35,
+    label = "C10H11-23 <=> C10H11-24",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.51e+11, 's^-1'), n=0.58, Ea=(29.1, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt7 <=> pdt8
+""",
+)
+
+entry(
+    index = 36,
+    label = "C10H11-25 <=> C10H11-26",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(8.39e+10, 's^-1'), n=0.91, Ea=(36.4, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt8 <=> pdt9
+""",
+)
+
+
+
+entry(
+    index = 37,
+    label = "C10H11-27 <=> C10H11-28",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.27e+10, 's^-1'), n=1.01, Ea=(40.7, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt23 <=> pdt9
+""",
+)
+
+entry(
+    index = 38,
+    label = "C10H11-29 <=> C10H11-30",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1e+11, 's^-1'), n=0.41, Ea=(32.4, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt25 <=> pdt32
+""",
+)
+

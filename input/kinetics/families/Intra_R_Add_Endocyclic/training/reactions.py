@@ -1465,3 +1465,100 @@ Taken from entry: prod_13 <=> prod_14
 """,
 )
 
+
+
+entry(
+    index = 65,
+    label = "C10H11 <=> C10H11-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(8.76e+10, 's^-1'), n=0.78, Ea=(24.5, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt10bis <=> pdt12
+""",
+)
+
+
+
+entry(
+    index = 66,
+    label = "C10H11-3 <=> C10H11-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.02e+11, 's^-1'), n=0.85, Ea=(46.1, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: adductd <=> pdt14
+""",
+)
+
+entry(
+    index = 67,
+    label = "C10H11-5 <=> C10H11-6",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5.47e+10, 's^-1'), n=0.79, Ea=(29, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt17 <=> pdt18
+""",
+)
+
+entry(
+    index = 68,
+    label = "C10H11-7 <=> C10H11-8",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(7.9e+10, 's^-1'), n=0.29, Ea=(21.1, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt20 <=> pdt21
+""",
+)
+
+entry(
+    index = 69,
+    label = "C10H11-9 <=> C10H11-10",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(9.38e+09, 's^-1'), n=1.08, Ea=(42.3, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt39 <=> pdt33
+""",
+)
+
+
+
+entry(
+    index = 70,
+    label = "C10H11-11 <=> C10H11-12",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5.29e+09, 's^-1'), n=1.04, Ea=(31.2, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt15 <=> pdt16
+""",
+)
+
+entry(
+    index = 71,
+    label = "C10H11-13 <=> C10H11-14",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(9.16e+10, 's^-1'), n=0.2, Ea=(24.2, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt33 <=> pdt29
+""",
+)
+

@@ -2587,6 +2587,22 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 109,
+    label = "R7_SDSD_D",
+    group =
+"""
+1 *1 R!H                 u1 {2,S}
+2 *4 R!H                 ux {1,S} {3,D}
+3 *6 R!H                 ux {2,D} {4,S}
+4 *7 R!H                 ux {3,S} {5,D}
+5 *5 R!H                 ux {4,D} {6,S}
+6 *2 [Cd,Ct,CO,N,CS]     u0 {5,S} {7,D}
+7 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {6,D}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Rn
@@ -2684,6 +2700,7 @@ L1: Rn
                 L5: R6_SMS_CO
             L4: R6_SMM
         L3: R7
+            L4: R7_SDSD_D
         L3: R8
         L3: R9
             L4: R9_SSSSSD
