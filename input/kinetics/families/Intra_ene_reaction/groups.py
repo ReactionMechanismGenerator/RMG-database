@@ -458,3 +458,44 @@ Forbid an H from shifting to a doubly resonant radical site on a CPD ring,
 in order to avoid redundancy with Intra_H_migration family
 """,
 )
+
+
+forbidden(
+    label = "H_shift_to_single_resonant_radical_linear",
+    group =
+"""
+1 *1 C u0 {5,[S,D]} {6,S}
+2 *2 C u0 {3,[D,T]}
+3 *3 C u0 {2,[D,T]} {4,[S,D]} {7,S}
+4 *4 C u0 {3,[S,D]} {5,[D,T]}
+5 *5 C u0 {1,[S,D]} {4,[D,T]}
+6 *6 H u0 {1,S}
+7    C u1 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid an H from shifting to a resonant radical site on a linear 1,3-unsaturated hexane chain,
+in order to avoid redundancy with Intra_H_migration family
+""",
+)
+
+forbidden(
+    label = "H_shift_to_double_resonant_radical_linear",
+    group =
+"""
+1 *1 C u0 {5,[S,D]} {6,S}
+2 *2 C u0 {3,[D,T]}
+3 *3 C u0 {2,[D,T]} {4,[S,D]}
+4 *4 C u0 {3,[S,D]} {5,[D,T]}
+5 *5 C u0 {1,[S,D]} {4,[D,T]} {7,S}
+6 *6 H u0 {1,S}
+7    C u1 {5,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid an H from shifting to a doubly resonant radical site on a linear 1,3-unsaturated hexane chain,
+in order to avoid redundancy with Intra_H_migration family
+""",
+)
