@@ -16907,7 +16907,7 @@ entry(
 
 entry(
     index = 1061,
-    label = "CPD",
+    label = "Cds-CdH_Cds-(CsH-Cds)_cyc5",
     group =
 """
 1 *1 Cd u0 {2,D} {3,S} {4,S}
@@ -17007,6 +17007,73 @@ entry(
 6    Cd u0 {2,S}
 7    Cd  u0 {5,D} {8,S}
 8    Cd  u0 {7,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1067,
+    label = "Cds-CsH_Cds-Cd(Cd)H",
+    group =
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,S}
+7    Cd  u0 {6,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1068,
+    label = "Cds-CsH_Cds-(Cd-Cd-Cd)H",
+    group =
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Cd  u0 {6,D} {8,S}
+8    Cd  u0 {7,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 455,
+    label = "Cds-CdH_Cds-CdH_cyc5_1",
+    group =
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {8,D} {7,S}
+7    Cd  u0 {3,D} {6,S}
+8    C  u0 {6,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 455,
+    label = "Cds-CdH_Cds-CdH_cyc5_2",
+    group =
+"""
+1 *2 Cd u0 {2,D} {3,S} {4,S}
+2 *1 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {8,D} {7,S}
+7    Cd  u0 {3,D} {6,S}
+8    C  u0 {6,D}
 """,
     kinetics = None,
 )
@@ -17274,6 +17341,8 @@ L1: R_R
                         L7: Cds-CsH_Cds-CbH
                         L7: Cds-CsH_Cds-COH
                         L7: Cds-CsH_Cds-(Cd-Cd-Cd-Cd-Cd)H
+                        L7: Cds-CsH_Cds-(Cd-Cd-Cd)H
+                        L7: Cds-CsH_Cds-Cd(Cd)H
                         L7: Cds-CsH_Cds-CdH
                             L8: Cds-CsH_Cds-(CdsH-Cds)_cyc5
                         L7: Cds-CsH_Cds-C=SH
@@ -17484,7 +17553,7 @@ L1: R_R
                         L7: Cds-CdH_Cds-HH
                         L7: Cds-CdH_Cds-CsH
                             L8: Cds-CdH_Cds-(CsH-Cs-Cds)_cyc6
-                            L8: CPD
+                            L8: Cds-CdH_Cds-(CsH-Cds)_cyc5
                         L7: Cds-CdH_Cds-CsCs
                         L7: Cds-CdH_Cds-OsH
                         L7: Cds-CdH_Cds-OsCs
@@ -17499,6 +17568,8 @@ L1: R_R
                                 L9: Cds-CdH_Cds-CbH
                                 L9: Cds-CdH_Cds-COH
                                 L9: Cds-CdH_Cds-CdH
+                                    L10: Cds-CdH_Cds-CdH_cyc5_1
+                                    L10: Cds-CdH_Cds-CdH_cyc5_2
                                 L9: Cds-CdH_Cds-C=SH
                             L8: Cds-CdH_Cds-OneDeCs
                                 L9: Cds-CdH_Cds-CtCs
