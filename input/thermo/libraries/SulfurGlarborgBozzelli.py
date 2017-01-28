@@ -4,6 +4,10 @@
 name = "SulfurGlarborgBozzeli"
 shortDesc = u""
 longDesc = u"""
+Contains: SOx, HSxOy, HxS, SOx-NOx
+
+The effect of SO2 on moist CO oxidation with and without NO
+
 Taken from:
 Impact of SO2 and NO on CO oxidation under post-flame conditions
 Peter Glarborg, Dorte Kubel, Kim Dam-Johansen, Hong-Ming Chiang, Joseph W. Bozzelli
