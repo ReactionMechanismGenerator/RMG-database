@@ -1562,3 +1562,85 @@ Taken from entry: pdt33 <=> pdt29
 """,
 )
 
+
+
+entry(
+    index = 72,
+    label = "C7H9-11 <=> C7H9-12",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.17e+10, 's^-1'), n=0.34, Ea=(31.2, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
+    longDesc = 
+u"""
+Taken from entry: addC <=> product6
+""",
+)
+
+entry(
+    index = 73,
+    label = "C7H9-13 <=> C7H9-14",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.12e+11, 's^-1'), n=0.26, Ea=(22.8, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
+    longDesc = 
+u"""
+Taken from entry: product11 <=> product12
+""",
+)
+
+entry(
+    index = 74,
+    label = "C7H9-15 <=> C7H9-16",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.81e+10, 's^-1'), n=0.91, Ea=(32, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
+    longDesc = 
+u"""
+Taken from entry: product26 <=> product11
+""",
+)
+
+
+
+entry(
+    index = 75,
+    label = "C7H9-17 <=> C7H9-18",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.77e+10, 's^-1'), n=0.87, Ea=(35, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
+    longDesc = 
+u"""
+Taken from entry: addC <=> product16
+""",
+)
+
+entry(
+    index = 76,
+    label = "C7H9-19 <=> C7H9-20",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.56e+10, 's^-1'), n=1.17, Ea=(48.6, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
+    longDesc = 
+u"""
+Taken from entry: product10 <=> product11
+""",
+)
+
+entry(
+    index = 77,
+    label = "C7H9-21 <=> C7H9-22",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.95e+10, 's^-1'), n=1.05, Ea=(39.9, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
+    longDesc = 
+u"""
+Taken from entry: product25 <=> product26
+""",
+)
+

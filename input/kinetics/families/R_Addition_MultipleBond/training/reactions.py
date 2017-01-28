@@ -1971,3 +1971,18 @@ Taken from entry: pdt38 + H <=> pdt37
 """,
 )
 
+
+
+entry(
+    index = 125,
+    label = "C7H9-24 <=> C7H8-14 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.06e+10, 's^-1'), n=1.26, Ea=(28.1, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
+    longDesc = 
+u"""
+Taken from entry: product20 <=> TOLUENE + H
+""",
+)
+

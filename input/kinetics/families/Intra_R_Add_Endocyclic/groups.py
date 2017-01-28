@@ -2537,7 +2537,7 @@ entry(
 entry(
     index = 168,
     label = "Rnx_cyclics",
-    group = "OR{Rnxc6}",
+    group = "OR{Rnxc6, Rnxc5}",
     kinetics = None,
 )
 
@@ -2599,6 +2599,52 @@ entry(
 5 *5 R!H                 ux {4,D} {6,S}
 6 *2 [Cd,Ct,CO,N,CS]     u0 {5,S} {7,D}
 7 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {6,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 167,
+    label = "Rnxc5",
+    group = "OR{Rnxc5_beta}",
+    kinetics = None,
+)
+
+entry(
+    index = 166,
+    label = "Rnxc5_beta",
+    group = "OR{Rn2c5_beta}",
+    kinetics = None,
+)
+
+entry(
+    index = 165,
+    label = "Rn2c5_beta",
+    group =
+"""
+2    R!H u0 {6,[S,D,T,B]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4 *1 R!H u1 {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *5 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *4 R!H ux {5,[S,D,T,B]} {2,[S,D,T,B]} {8,[S,D,T,B]}
+8 *2 R!H u0 {6,[S,D,T,B]} {9,[D,T]}
+9 *3 R!H u0 {8,[D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 166,
+    label = "R6_SMS(M)_D",
+    group =
+"""
+1 *1 R!H        u1 {2,S}
+2 *4 [Cd,Ct,Cb] u0 {1,S} {3,[D,T,B]}
+3 *6 [Cd,Ct,Cb] u0 {2,[D,T,B]} {4,S}
+4 *5 R!H        u0 {3,S} {5,S} {7,[D,T,B]}
+5 *2 Cd         u0 {4,S} {6,D}
+6 *3 [Cd,Cdd]   u0 {5,D}
+7    R!H        u0 {4,[D,T,B]}
 """,
     kinetics = None,
 )
@@ -2693,9 +2739,10 @@ L1: Rn
                             L8: R6_TSM_D
                             L8: R6_TSM_T
                             L8: R6_TSM_CO
-		    L6: R6_MSR_D
+                    L6: R6_MSR_D
             L4: R6_SMS
                 L5: R6_SMS_D
+                    L6: R6_SMS(M)_D
                 L5: R6_SMS_T
                 L5: R6_SMS_CO
             L4: R6_SMM
@@ -2706,11 +2753,14 @@ L1: Rn
             L4: R9_SSSSSD
             L4: R9_SDSSSD
     L2: Rnx_cyclics
-	L3: Rnxc6
-	    L4: Rnxc6_alpha
-	        L5: Rn3c6_alpha
-	    	    L6: Rn3c6b_alpha
-    	        L5: Rn2c6_alpha
+        L3: Rnxc5
+            L4: Rnxc5_beta
+                L5: Rn2c5_beta
+        L3: Rnxc6
+            L4: Rnxc6_alpha
+                L5: Rn3c6_alpha
+                    L6: Rn3c6b_alpha
+                L5: Rn2c6_alpha
 L1: multiplebond_intra
     L2: doublebond_intra
         L3: doublebond_intra_CdCdd
