@@ -11,7 +11,7 @@ The effect of SO2 on moist CO oxidation with and without NO
 Taken from:
 Impact of SO2 and NO on CO oxidation under post-flame conditions
 Peter Glarborg, Dorte Kubel, Kim Dam-Johansen, Hong-Ming Chiang, Joseph W. Bozzelli
-International Journal of CHemical Kinetics, 28: 773-790, 1996
+International Journal of Chemical Kinetics, 28 (1996) 773-790
 DOI: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
 """
 

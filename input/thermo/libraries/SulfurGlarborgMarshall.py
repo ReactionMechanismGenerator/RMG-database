@@ -9,7 +9,7 @@ OCS chemistry
 Taken from:
 Oxidation of Reduced Sulfur Species: Carbonyl Sulfide
 Peter Glarborg, Paul Marshall
-International Journal of CHemical Kinetics, 45(7): 429-439, 2013
+International Journal of Chemical Kinetics, 45(7) (2013) 429-439
 DOI: 10.1002/kin.20778
 """
 
