@@ -15,7 +15,7 @@ entry(
     kinetics = StickingCoefficient(
         A = 3.2E-2,
         n = 0,
-        Ea=(0, 'J/mol'),
+        Ea = (0, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),

@@ -9,10 +9,11 @@ Adsorption of an unsaturated gas-phase species forming a single adsorbate that i
 entry(
     index = 1,
     label = "Adsorbate;VacantSite1;VacantSite2",
-    kinetics = StickingCoefficient(
+    kinetics = StickingCoefficientBEP(
         A = 0.1,
         n = 0,
-        Ea=(0, 'kcal/mol'),
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),

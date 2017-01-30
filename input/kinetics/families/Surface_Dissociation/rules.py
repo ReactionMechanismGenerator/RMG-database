@@ -12,7 +12,7 @@ entry(
         A = (1.0e17, 'm^2/(mol*s)'),
         n = 0,
         alpha = 0.84,
-        E0=(44.25, 'kcal/mol'),
+        E0 = (44.25, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),

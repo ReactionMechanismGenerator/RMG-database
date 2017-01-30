@@ -9,10 +9,11 @@ Surface adsorption of a gas-phase triplet forming a double bond to the surface s
 entry(
     index = 1,
     label = "Adsorbate;VacantSite",
-    kinetics = StickingCoefficient(
+    kinetics = StickingCoefficientBEP(
         A = 0.1,
         n = 0,
-        Ea=(0, 'kcal/mol'),
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
