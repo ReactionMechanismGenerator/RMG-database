@@ -11,19 +11,20 @@ Catalysts, 2015, 5, 871-904
 """
 
 #moved to Surface_Adsorption_Dissociative/training
-#entry(
-#    index = 1,
-#    label = "H2 + Ni + Ni <=> HX + HX",
-#    kinetics = StickingCoefficient(
-#        A = 3.2E-2,
-#        n = 0,
-#        Ea=(0, 'J/mol'),
-#        Tmin = (200, 'K'),
-#        Tmax = (3000, 'K'),
-#    ),
-#    shortDesc = u"""Default""",
-#    longDesc = u"""R1"""
-#)
+#actually, no. moved back here. Including it in training made all other dissociative adsorption too facile.
+entry(
+    index = 1,
+    label = "H2 + Ni + Ni <=> HX + HX",
+    kinetics = StickingCoefficient(
+        A = 3.2E-2,
+        n = 0,
+        Ea=(0, 'J/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Default""",
+    longDesc = u"""R1"""
+)
 
 #skip R2 - reverse included
 
@@ -148,50 +149,51 @@ entry(
 )
 
 #skip R23
-
-entry(
-    index = 24,
-    label = "CH2X + HOX <=> CH3X + OX",
-    kinetics = SurfaceArrhenius(
-        A=(1.39E17, 'm^2/(mol*s)'),
-        n = 0.101,
-        Ea=(19000.0, 'J/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Default""",
-    longDesc = u"""R24"""
-)
+#moved R24 to Surface_Abstraction/training
+#entry(
+#    index = 24,
+#    label = "CH2X + HOX <=> CH3X + OX",
+#    kinetics = SurfaceArrhenius(
+#        A=(1.39E17, 'm^2/(mol*s)'),
+#        n = 0.101,
+#        Ea=(19000.0, 'J/mol'),
+#        Tmin = (200, 'K'),
+#        Tmax = (3000, 'K'),
+#    ),
+#    shortDesc = u"""Default""",
+#    longDesc = u"""R24"""
+#)
 
 #skip R25
+#moved R26 to Surface_Abstraction/training
+#entry(
+#    index = 26,
+#    label = "CHX + HOX <=> CH2X + OX",
+#    kinetics = SurfaceArrhenius(
+#        A=(4.40E18, 'm^2/(mol*s)'),
+#        n = 0.101,
+#        Ea=(42400.0, 'J/mol'),
+#        Tmin = (200, 'K'),
+#        Tmax = (3000, 'K'),
+#    ),
+#    shortDesc = u"""Default""",
+#    longDesc = u"""R26"""
+#)
 
-entry(
-    index = 26,
-    label = "CHX + HOX <=> CH2X + OX",
-    kinetics = SurfaceArrhenius(
-        A=(4.40E18, 'm^2/(mol*s)'),
-        n = 0.101,
-        Ea=(42400.0, 'J/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Default""",
-    longDesc = u"""R26"""
-)
-
-entry(
-    index = 27,
-    label = "CHX + OX <=> CX + HOX",
-    kinetics = SurfaceArrhenius(
-        A=(2.47E17, 'm^2/(mol*s)'),
-        n = 0.312,
-        Ea=(57700.0, 'J/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Default""",
-    longDesc = u"""R27"""
-)
+#moved R27 to Surface_Abstraction/training
+#entry(
+#    index = 27,
+#    label = "CHX + OX <=> CX + HOX",
+#    kinetics = SurfaceArrhenius(
+#        A=(2.47E17, 'm^2/(mol*s)'),
+#        n = 0.312,
+#        Ea=(57700.0, 'J/mol'),
+#        Tmin = (200, 'K'),
+#        Tmax = (3000, 'K'),
+#    ),
+#    shortDesc = u"""Default""",
+#    longDesc = u"""R27"""
+#)
 
 #skip R28
 #skip R29 vdW
