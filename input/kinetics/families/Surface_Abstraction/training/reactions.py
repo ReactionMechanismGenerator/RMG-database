@@ -31,6 +31,7 @@ Catalysts, 2015, 5, 871-904. Reaction R24
 entry(
     index = 26,
     label = "CHX_1 + HOX_3 <=> CH2X_4 + OX_5",
+    degeneracy = 1,
     kinetics = SurfaceArrhenius(
         A=(4.40E18, 'm^2/(mol*s)'),
         n = 0.101,
@@ -49,6 +50,7 @@ Catalysts, 2015, 5, 871-904. Reaction R26
 entry(
     index = 28,
     label = "CX_1 + HOX_3 <=> CHX_4 + OX_5",
+    degeneracy = 1,
     kinetics = SurfaceArrhenius(
         A=(2.43E17, 'm^2/(mol*s)'),
         n = -0.312,
