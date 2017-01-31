@@ -48,13 +48,13 @@ Catalysts, 2015, 5, 871-904. Reaction R26
 )
 
 entry(
-    index = 28,
-    label = "CX_1 + HOX_3 <=> CHX_4 + OX_5",
+    index = 27,
+    label = "OX_5 + CHX_4 <=> HOX_3 + CX_1 ",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
-        A=(2.43E17, 'm^2/(mol*s)'),
-        n = -0.312,
-        Ea=(118900.0, 'J/mol'),
+        A=(2.47E17, 'm^2/(mol*s)'),
+        n = 0.312,
+        Ea=(57700.0, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -62,26 +62,7 @@ entry(
     longDesc = u"""
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 Delgado et al
-Catalysts, 2015, 5, 871-904. Reaction R28
+Catalysts, 2015, 5, 871-904. Reaction R27
 """
 )
-
-#For some reason, it wasn't happen with the reaction in this direction, so I entered the reverse direction, R28, even though that is the endothermic direction.
-#entry(
-#    index = 27,
-#    label = "OX_1 + CHX_3 <=> HOX_4 + CX_5 ",
-#    kinetics = SurfaceArrhenius(
-#        A=(2.47E17, 'm^2/(mol*s)'),
-#        n = 0.312,
-#        Ea=(57700.0, 'J/mol'),
-#        Tmin = (200, 'K'),
-#        Tmax = (3000, 'K'),
-#    ),
-#    shortDesc = u"""Default""",
-#    longDesc = u"""
-#"Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
-#Delgado et al
-#Catalysts, 2015, 5, 871-904. Reaction R27
-#"""
-#)
 
