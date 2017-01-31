@@ -12,7 +12,7 @@ entry(
         A = (1.0e15, 'm^2/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (20., 'kcal/mol'),
+        E0 = (80., 'kJ/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -37,10 +37,10 @@ entry(
     index = 1,
     label = "Abstracting;R-H",
     kinetics = SurfaceArrheniusBEP(
-        A = (1.0e17, 'm^2/(mol*s)'),
+        A = (5.0e17, 'm^2/(mol*s)'),
         n = 0,
-        alpha = 0,
-        E0 = (10., 'kcal/mol'),
+        alpha = 0.0, #0.26
+        E0 = (40.0, 'kJ/mol'), #34.3
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
