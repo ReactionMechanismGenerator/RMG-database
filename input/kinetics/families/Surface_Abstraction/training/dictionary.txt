@@ -21,4 +21,26 @@ OX_5
 1 *5 X u0 p0 c0 {2,D}
 2 *3 O u0 p2 c0 {1,D}
 
+
+CHX_1
+1 *1 C u0 p0 {2,S} {3,T}
+2    H u0 p0 {1,S}
+3 *2 X u0 p0 {1,T}
+
+CH2X_4
+1 *1 C u0 p0 {2,S} {3,S} {4,D}
+2 *4 H u0 p0 {1,S}
+3    H u0 p0 {1,S}
+4 *2 X u0 p0 {1,D}
+
+
+CX_1
+1 *1 C u0 p0 {2,Q}
+2 *2 X u0 p0 {1,Q}
+
+CHX_4
+1 *1 C u0 p0 {2,S} {3,T}
+2 *4 H u0 p0 {1,S}
+3 *2 X u0 p0 {1,T}
+
 # pointless blank line at the end because we're even buggier than Gaussian
