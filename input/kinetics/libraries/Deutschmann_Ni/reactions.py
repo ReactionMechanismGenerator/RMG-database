@@ -117,20 +117,20 @@ entry(
 #    longDesc = u"""R18"""
 #)
 
-# doesn't work right now in Surface_Dissociation/training -- although it should.
-entry(
-    index = 19,
-    label = "CHX + Ni <=> CX + HX",
-    kinetics = SurfaceArrhenius(
-        A=(9.88E16, 'm^2/(mol*s)'),
-        n = 0.5,
-        Ea=(21900.0, 'J/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Default""",
-    longDesc = u"""R19"""
-)
+# moved to Surface_Dissociation/training
+#entry(
+#    index = 19,
+#    label = "CHX + Ni <=> CX + HX",
+#    kinetics = SurfaceArrhenius(
+#        A=(9.88E16, 'm^2/(mol*s)'),
+#        n = 0.5,
+#        Ea=(21900.0, 'J/mol'),
+#        Tmin = (200, 'K'),
+#        Tmax = (3000, 'K'),
+#    ),
+#    shortDesc = u"""Default""",
+#    longDesc = u"""R19"""
+#)
 
 #skip R20
 #skip R21
@@ -401,20 +401,3 @@ entry(
     longDesc = u"""R52"""
 )
 
-
-
-
-# CFG: I removed this reaction and replaced it with a forbidden structure in the Surface_Adsorption_Single group.
-#entry(
-#    index = 3,
-#    label = "O2 + Ni <=> O2X",
-#    kinetics = StickingCoefficient(
-#        A = 0.0,
-#        n = 0,
-#        Ea=(0, 'J/mol'),
-#        Tmin = (200, 'K'),
-#        Tmax = (3000, 'K'),
-#    ),
-#    shortDesc = u"""Default""",
-#    longDesc = u"""Prevent O2 non-dissociative adsorption"""
-#)
