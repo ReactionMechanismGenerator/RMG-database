@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 
-template(reactants=["Rn-Cs-Cb"], products=["Rn-Cs-Cb"], ownReverse=True)
+template(reactants=["R4-Cs-Cb"], products=["R4-Cs-Cb"], ownReverse=True)
 
 recipe(actions=[
     ['BREAK_BOND', '*2', 'S', '*4'],
@@ -18,7 +18,7 @@ recipe(actions=[
 
 entry(
     index = 1,
-    label = "Rn-Cs-Cb",
+    label = "R4-Cs-Cb",
     group = 
 """
 1 *1 C 	 u1 {2,S}
@@ -64,7 +64,7 @@ entry(
 
 tree(
 """
-L1: Rn-Cs-Cb
+L1: R4-Cs-Cb
 
 L1: rad
    L2: rad-Ct
