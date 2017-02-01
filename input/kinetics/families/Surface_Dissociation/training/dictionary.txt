@@ -68,4 +68,14 @@ CXHO_1
 
 
 
+CHX_1
+1 *1 C u0 p0 {2,S} {3,T}
+2 *2 H u0 p0 {1,S}
+3 *3 X u0 p0 {1,T}
+
+
+CX_3
+1 *1 C u0 p0 {2,Q}
+2 *3 X u0 p0 {1,Q}
+
 # pointless blank line at the end because we're even buggier than Gaussian
