@@ -48,24 +48,24 @@ Catalysts, 2015, 5, 871-904. Reaction R18
 )
 
 
-#entry(
-#    index = 19,
-#    label = "CHX_1 + Ni_4 <=> CX_3 + HX_5",
-#    degeneracy = 1,
-#    kinetics = SurfaceArrhenius(
-#        A=(9.88E16, 'm^2/(mol*s)'),
-#        n = 0.5,
-#        Ea=(21900.0, 'J/mol'),
-#        Tmin = (200, 'K'),
-#        Tmax = (3000, 'K'),
-#    ),
-#    shortDesc = u"""Default""",
-#    longDesc = u"""
-#"Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
-#Delgado et al
-#Catalysts, 2015, 5, 871-904. Reaction R19
-#"""
-#)
+entry(
+    index = 19,
+    label = "CHX_1 + Ni_4 <=> CX_3 + HX_5",
+    degeneracy = 1,
+    kinetics = SurfaceArrhenius(
+        A=(9.88E16, 'm^2/(mol*s)'),
+        n = 0.5,
+        Ea=(21900.0, 'J/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Default""",
+    longDesc = u"""
+"Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
+Delgado et al
+Catalysts, 2015, 5, 871-904. Reaction R19
+"""
+)
 
 
 entry(
