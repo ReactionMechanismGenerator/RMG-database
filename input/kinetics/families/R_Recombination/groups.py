@@ -1212,6 +1212,16 @@ entry(
 
 entry(
     index = 104,
+    label = "N1s_rad",
+    group = 
+"""
+1 * N1s u1 p2
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 105,
     label = "N3_rad",
     group = 
 """
@@ -1221,7 +1231,7 @@ entry(
 )
 
 entry(
-    index = 105,
+    index = 106,
     label = "N3s_rad",
     group = 
 """
@@ -1231,20 +1241,8 @@ entry(
 )
 
 entry(
-    index = 106,
-    label = "NH2_rad",
-    group = 
-"""
-1 * N3s u1 {2,S} {3,S}
-2   H   u0 {1,S}
-3   H   u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 107,
-    label = "N3s_rad_pri",
+    label = "N3s_pri_rad",
     group = 
 """
 1 * N3s u1 {2,S} {3,S}
@@ -1256,7 +1254,55 @@ entry(
 
 entry(
     index = 108,
-    label = "N3s_rad_sec",
+    label = "NH2_rad",
+    group = 
+"""
+1 * N3s u1 {2,S} {3,S}
+2   H   u0 {1,S}
+3   H   u0 {1,S}
+""",
+    kinetics = None,
+)
+        
+entry(
+    index = 109,
+    label = "N3s-Cs",
+    group = 
+"""
+1 * N3s u1 {2,S} {3,S}
+2   H   u0 {1,S}
+3   Cs  u0 {1,S}
+""",
+    kinetics = None,
+)
+        
+entry(
+    index = 110,
+    label = "N3s-Os",
+    group = 
+"""
+1 * N3s u1 {2,S} {3,S}
+2   H   u0 {1,S}
+3   Os  u0 {1,S}
+""",
+    kinetics = None,
+)
+        
+entry(
+    index = 111,
+    label = "N3s-N3s",
+    group = 
+"""
+1 * N3s u1 {2,S} {3,S}
+2   H   u0 {1,S}
+3   N3s u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 113,
+    label = "N3s_sec_rad",
     group = 
 """
 1 * N3s u1 {2,S} {3,S}
@@ -1267,7 +1313,79 @@ entry(
 )
 
 entry(
-    index = 109,
+    index = 114,
+    label = "N3s-CsCs",
+    group = 
+"""
+1 * N3s u1 {2,S} {3,S}
+2   Cs  u0 {1,S}
+3   Cs  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 115,
+    label = "N3s-CsOs",
+    group = 
+"""
+1 * N3s u1 {2,S} {3,S}
+2   Cs  u0 {1,S}
+3   Os  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 116,
+    label = "N3s-CsN3s",
+    group = 
+"""
+1 * N3s u1 {2,S} {3,S}
+2   Cs  u0 {1,S}
+3   N3s u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 117,
+    label = "N3s-OsOs",
+    group = 
+"""
+1 * N3s u1 {2,S} {3,S}
+2   Os  u0 {1,S}
+3   Os  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 118,
+    label = "N3s-OsN3s",
+    group = 
+"""
+1 * N3s u1 {2,S} {3,S}
+2   Os  u0 {1,S}
+3   N3s u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 119,
+    label = "N3s-N3sN3s",
+    group = 
+"""
+1 * N3s u1 {2,S} {3,S}
+2   N3s u0 {1,S}
+3   N3s u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 120,
     label = "N3d_rad",
     group = 
 """
@@ -1278,21 +1396,107 @@ entry(
 )
 
 entry(
-    index = 110,
-    label = "N5_rad",
+    index = 121,
+    label = "N3d-Cd",
     group = 
 """
-1 * [N5s,N5d,N5t] u1
+1 * N3d u1 {2,D}
+2   Cd  u0 {1,D}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 111,
+    index = 122,
+    label = "N3d-Cdd",
+    group = 
+"""
+1 * N3d u1 {2,D}
+2   Cdd u0 {1,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 123,
+    label = "N3d-Od",
+    group = 
+"""
+1 * N3d u1 {2,D}
+2   Od  u0 {1,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 130,
+    label = "N3d-OdOs",
+    group = 
+"""
+1 * N3d u1 {2,D} {3,S}
+2   Od  u0 {1,D}
+3   Os  u0 (1,S)
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 124,
+    label = "N3d-N3d",
+    group = 
+"""
+1 * N3d u1 {2,D}
+2   N3d u0 {1,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 125,
+    label = "N5_rad",
+    group = 
+"""
+1 * [N5s,N5d,N5t,N5b] u1 p0
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 126,
+    label = "N5s_rad",
+    group = 
+"""
+1 * N5s u1 p0
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 127,
     label = "N5d_rad",
     group = 
 """
-1 * N5d u1
+1 * N5d u1 p0
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 128,
+    label = "N5t_rad",
+    group = 
+"""
+1 * N5t u1 p0
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 129,
+    label = "N5b_rad",
+    group = 
+"""
+1 * N5b u1 p0
 """,
     kinetics = None,
 )
@@ -1395,14 +1599,32 @@ L1: Y_rad
                 L5: CsJ-CsCdSs
                 L5: CsJ-CsC=SSs
             L4: CsJ-SsSsSs
+    L2: N1s_rad
     L2: N3_rad
         L3: N3s_rad
             L4: NH2_rad
-            L4: N3s_rad_pri
-            L4: N3s_rad_sec
+            L4: N3s_pri_rad
+                L5: N3s-Cs
+                L5: N3s-Os
+                L5: N3s-N3s
+            L4: N3s_sec_rad
+                L5: N3s-CsCs
+                L5: N3s-CsOs
+                L5: N3s-CsN3s
+                L5: N3s-OsOs
+                L5: N3s-OsN3s
+                L5: N3s-N3sN3s
         L3: N3d_rad
+            L4: N3d-Cd
+            L4: N3d-Cdd
+            L4: N3d-Od
+                L5: N3d-OdOs
+            L4: N3d-N3d
     L2: N5_rad
+        L3: N5s_rad
         L3: N5d_rad
+        L3: N5t_rad
+        L3: N5b_rad
 """
 )
 

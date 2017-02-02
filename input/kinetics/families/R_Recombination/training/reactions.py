@@ -242,8 +242,6 @@ Quantum dynamics calculations. Reaction potential energy suraface was studied us
 """,
 )
 
-
-
 entry(
     index = 10,
     label = "C5H5 + C2H5 <=> C7H10",
@@ -259,6 +257,39 @@ entry(
     longDesc = 
 u"""
 Taken from entry: ethyl + CPDyl <=> ethylCPD
+""",
+)
+
+entry(
+    index = 15,
+    label = "CH3NO2 <=> CH3 + NO2",
+    kinetics = Arrhenius(A=(1.8e+16, 's^-1'), n=0, Ea=(58500, 'cal/mol'), T0=(1, 'K')),
+    rank = 1,
+    shortDesc = u"""Experimental, P. Glarborg, A.B. Bendtsen, J.A. Miller""",
+    longDesc = 
+u"""
+P. Glarborg, A.B. Bendtsen, J.A. Miller
+Nitromethane Dissociation: Implications for the CH3 + NO2 Reaction
+International Journal of Chemical Kinetics Volume 31, Issue 9, pages 591–602, 1999
+DOI: 10.1002/(SICI)1097-4601(1999)31:9<591::AID-KIN1>3.0.CO;2-E
+
+Also appears in the Nitrogen_Glarborg_Zhang_et_al library (index 671)
+and in the Nitrogen_Glarborg_Gimenez_et_al library (index 953)
+
+The high-pressure limit kinetics was taken. Troe coefficients are:
+    kinetics = Troe(
+        arrheniusHigh = Arrhenius(A=(1.8e+16, 's^-1'), n=0, Ea=(58500, 'cal/mol'), T0=(1, 'K')),
+        arrheniusLow = Arrhenius(
+            A = (1.259e+17, 'cm^3/(mol*s)'),
+            n = 0,
+            Ea = (42000, 'cal/mol'),
+            T0 = (1, 'K'),
+        ),
+        alpha = 0.183,
+        T3 = (1e-30, 'K'),
+        T1 = (1e+30, 'K'),
+        efficiencies = {},
+    ),
 """,
 )
 
