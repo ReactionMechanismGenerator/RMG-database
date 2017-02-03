@@ -24,7 +24,7 @@ recipe(actions=[
 entry(
     index = 1,
     label = "Y_rad_birad_trirad_quadrad",
-    group = "OR{Y_1centerquadrad, Y_1centertrirad, Y_2centerbirad, Y_1centerbirad, Y_rad, H_rad}",
+    group = "OR{Y_1centerquadrad, Y_1centertrirad, Y_2centerbirad, Y_1centerbirad, Y_rad}",
     kinetics = None,
 )
 
@@ -2727,6 +2727,7 @@ L1: Y_rad_birad_trirad_quadrad
         L3: CH2_triplet
         L3: NH_triplet
     L2: Y_rad
+        L3: H_rad
         L3: Ct_rad
             L4: Ct_rad/Ct
             L4: Ct_rad/Nt
@@ -2810,7 +2811,6 @@ L1: Y_rad_birad_trirad_quadrad
                 L5: N3d_rad/N
         L3: N5_rad
             L4: N5d_rad
-        L3: H_rad
 L1: XH_Rrad_birad
     L2: XH_Rrad
         L3: XH_s_Rrad
