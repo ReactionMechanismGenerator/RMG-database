@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+# IMPORTANT REQUEST: If you add a globally forbidden group, please comment why it is forbidden and give example\s.
+
 name = ""
 shortDesc = u""
 longDesc = u"""
@@ -27,37 +29,6 @@ entry(
 """
 1 O u1 {2,D}
 2 R ux {1,D}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    label = "N_monorad_3singleBonds",
-    group = 
-"""
-1 N u1 p0 {2,S} {3,S} {4,S}
-2 R ux {1,S}
-3 R ux {1,S}
-4 R ux {1,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    label = "N_birad_singlet_2singleBonds",
-    group = 
-"""
-1 N u0 p1 {2,S} {3,S}
-2 R ux {1,S}
-3 R ux {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -169,52 +140,10 @@ u"""
 )
 
 entry(
-    label = "Carbene_D_triplet",
-    group = 
-"""
-1 C u2 p0 {2,D}
-2 C u0 {1,D}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    label = "Carbene_D_singlet",
-    group = 
-"""
-1 C u0 p1 {2,D}
-2 C u0 {1,D}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     label = "Carbene_S_triplet",
     group = 
 """
 1 C   u2 p0 {2,S}
-2 R!H u0 {1,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    label = "Carbene_S_singlet",
-    group = 
-"""
-1 C   u0 p1 {2,S}
 2 R!H u0 {1,S}
 """,
     shortDesc = u"""""",
