@@ -91,3 +91,31 @@ Taken from entry: prod2 <=> prod5
 """,
 )
 
+
+
+entry(
+    index = 7,
+    label = "C6H7 <=> C6H7-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.18e+11, 's^-1'), n=0.17, Ea=(4.4, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    longDesc = 
+u"""
+Taken from entry: C5H5CH2-1 <=> biring1
+""",
+)
+
+entry(
+    index = 8,
+    label = "C6H7-3 <=> C6H7-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(8.51e+11, 's^-1'), n=0.41, Ea=(16.7, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    longDesc = 
+u"""
+Taken from entry: biring1 <=> cyC6H7
+""",
+)
+

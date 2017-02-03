@@ -7681,6 +7681,32 @@ u"""
 )
 
 entry(
+    index = 137,
+    label = "OsCsJ2H_triplet",
+    group =
+"""
+1 * Cs u2 {2,S} {3,S}
+2   H  u0 {1,S}
+3   O  u0 p2 {1,S} {4,S}
+4   H  u0 {3,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-0.444, -1.111, -1.988, -2.889, -4.529, -5.915, -8.422], 'cal/(mol*K)'),
+        H298=(205.773, 'kcal/mol'),
+        S298=(-2.011, 'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fittted to DFT_QCI_thermo library""",
+    longDesc =
+u"""
+Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
+
+Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
+J. Phys. Chem. A 2012, 116, 9033-9057.
+""",
+)
+
+entry(
     index = 124,
     label = "CdJ2_triplet",
     group = 
@@ -7703,12 +7729,63 @@ entry(
 1 * Cd u2 {2,D}
 2   C  u0 {1,D}
 """,
-    thermo = u'CCdJ2_singlet',
+    thermo=u'CdCdJ2_triplet',
     shortDesc = u"""""",
     longDesc = 
 u"""
-Is this pointing toward the singlet a good idea? -nyee
+
 """,
+)
+
+entry(
+    index = 138,
+    label = "CdCdJ2_triplet",
+    group =
+"""
+1 * Cd u2 {2,D}
+2   Cd u0 {1,D} {3,S} {4,S}
+3   H  u0 {2,S}
+4   H  u0 {2,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-0.904, -2.152, -3.433, -4.583, -6.214, -7.197, -9.27], 'cal/(mol*K)'),
+        H298=(237.632, 'kcal/mol'),
+        S298=(1.79, 'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Fittted to DFT_QCI_thermo library""",
+    longDesc=
+    u"""
+    Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
+
+    Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
+    J. Phys. Chem. A 2012, 116, 9033-9057.
+    """,
+)
+
+entry(
+    index = 139,
+    label = "(CO)CdJ2_triplet",
+    group =
+"""
+1 * Cd u2 {2,D}
+2   Cdd u0 {1,D} {3,D}
+3   O u0 p2 {2,D}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-1.763, -2.732, -3.654, -4.473, -5.712, -6.563, -8.315], 'cal/(mol*K)'),
+        H298=(206.595, 'kcal/mol'),
+        S298=(-1.634, 'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Fittted to DFT_QCI_thermo library""",
+    longDesc=
+    u"""
+    Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
+
+    Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
+    J. Phys. Chem. A 2012, 116, 9033-9057.
+    """,
 )
 
 entry(
@@ -7790,37 +7867,7 @@ u"""
 entry(
     index = 3000,
     label = "RJ2_singlet",
-    group = "OR{CJ2_singlet, Oa_singlet, SiJ2_singlet, SJ2_singlet, NJ2_singlet, CO}",
-    thermo = u'CJ2_singlet',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 3001,
-    label = "CJ2_singlet",
-    group = 
-"""
-1 * C u0 p1
-""",
-    thermo = u'CH2_singlet',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 3006,
-    label = "CsJ2_singlet",
-    group = 
-"""
-1 * Cs u0 p1
-""",
+    group = "OR{CH2_singlet, Oa_singlet, SiJ2_singlet, SJ2_singlet, NJ2_singlet, CO, CdJ2-Sd_singlet}",
     thermo = u'CH2_singlet',
     shortDesc = u"""""",
     longDesc = 
@@ -7845,152 +7892,6 @@ entry(
         S298 = (-1.73,'cal/(mol*K)'),
     ),
     shortDesc = u"""BDE JANOSCHEK & ROSSI. S and Cp from CH2_t.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 3006,
-    label = "CsJ2_P_singlet",
-    group = 
-"""
-1 * Cs u0 p1 {2,S} {3,S}
-2   C  u0 {1,S}
-3   H  u0 {1,S}
-""",
-    thermo = u'CsCsJ2_singlet',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 3007,
-    label = "CsCsJ2_singlet",
-    group = 
-"""
-1 * Cs u0 p1 {2,S} {3,S}
-2   Cs u0 {1,S}
-3   H  u0 {1,S}
-""",
-    thermo = u'CCJ2_singlet',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 116,
-    label = "CCJ2_singlet",
-    group = 
-"""
-1 * Cs u0 p1 {2,S} {3,S}
-2   Cs u0 {1,S} {4,S} {5,S} {6,S}
-3   H  u0 {1,S}
-4   H  u0 {2,S}
-5   H  u0 {2,S}
-6   H  u0 {2,S}
-""",
-    thermo = u'CCJ2_t',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 119,
-    label = "PhCH_singlet",
-    group = 
-"""
-1 * Cs u0 p1 {2,S} {3,S}
-2   Cb u0 {1,S}
-3   H  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (205.8,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""BDE from NGUYEN et al.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 122,
-    label = "AllylJ2_singlet",
-    group = 
-"""
-1 * Cs u0 p1 {2,S} {3,S}
-2   Cd u0 {1,S}
-3   H  u0 {1,S}
-""",
-    thermo = u'AllylJ2_triplet',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-This is pointing towards the triplet, which is probably not that similar -nyee
-""",
-)
-
-entry(
-    index = 3005,
-    label = "CsJ2_S_singlet",
-    group = 
-"""
-1 * Cs u0 p1 {2,S} {3,S}
-2   C  u0 {1,S}
-3   C  u0 {1,S}
-""",
-    thermo = u'CH2_singlet',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 3008,
-    label = "CdJ2_singlet",
-    group = 
-"""
-1 * [Cd,CO] u0 p1
-""",
-    thermo = u'CCdJ2_singlet',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 127,
-    label = "CCdJ2_singlet",
-    group = 
-"""
-1 * Cd u0 p1 {2,D}
-2   C  u0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (190.7,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""BDE from ERWIN et al.""",
     longDesc = 
 u"""
 
@@ -8066,7 +7967,7 @@ entry(
 """
 1 * Si u0 p1
 """,
-    thermo = u'CJ2_singlet',
+    thermo = u'CH2_singlet',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -8470,6 +8371,7 @@ L1: Radical
                 L5: SJ-Ss-Ss
     L2: RJ2_triplet
         L3: CJ2_triplet
+            L4: OsCsJ2H_triplet
             L4: CsJ2_triplet
                 L5: CH2_triplet
                 L5: CsJ2_P_triplet
@@ -8480,24 +8382,16 @@ L1: Radical
                 L5: CsJ2_S_triplet
             L4: CdJ2_triplet
                 L5: CCdJ2_triplet
+                    L6: CdCdJ2_triplet
+                    L6: (CO)CdJ2_triplet
             L4: CdJ2-Sd_triplet
         L3: Oa_triplet
         L3: SiJ2_triplet
         L3: SJ2_triplet
     L2: RJ2_singlet
-        L3: CJ2_singlet
-            L4: CsJ2_singlet
-                L5: CH2_singlet
-                L5: CsJ2_P_singlet
-                    L6: CsCsJ2_singlet
-                        L7: CCJ2_singlet
-                    L6: PhCH_singlet
-                    L6: AllylJ2_singlet
-                L5: CsJ2_S_singlet
-            L4: CdJ2_singlet
-                L5: CCdJ2_singlet
-            L4: CO
-            L4: CdJ2-Sd_singlet
+        L3: CH2_singlet
+        L3: CO
+        L3: CdJ2-Sd_singlet
         L3: Oa_singlet
         L3: SiJ2_singlet
         L3: SJ2_singlet

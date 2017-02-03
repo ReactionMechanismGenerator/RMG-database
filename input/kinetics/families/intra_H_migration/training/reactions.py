@@ -493,3 +493,18 @@ Taken from entry: C5H4CH3 <=> C5H5CH2-1
 """,
 )
 
+
+
+entry(
+    index = 34,
+    label = "C6H7-9 <=> C6H7-10",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(9220, 's^-1'), n=2.81, Ea=(30.2, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    longDesc = 
+u"""
+Taken from entry: C5H5CH2-3 <=> C5H5CH2-2
+""",
+)
+

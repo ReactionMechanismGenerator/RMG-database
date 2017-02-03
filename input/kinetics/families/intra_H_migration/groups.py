@@ -3908,6 +3908,18 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 266,
+    label = "C_rad_out_Cd/Cd",
+    group =
+"""
+1 *1 C  u1 {2,S} {3,S}
+2    Cd u0 {1,S}
+3    Cd u0 {1,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: RnH
@@ -4133,6 +4145,7 @@ L1: Y_rad_out
                 L5: C_rad_out_OneDe/O
                 L5: C_rad_out_OneDe/S
             L4: C_rad_out_TwoDe
+                L5: C_rad_out_Cd/Cd
 L1: XH_out
     L2: CO_H_out
     L2: O_H_out
@@ -5279,3 +5292,22 @@ u"""
 """,
 )
 
+forbidden(
+    label = "fulvene_H_mig_ring_edge_to_tail",
+    group =
+"""
+1 *1 C u1 {2,S}
+2 C u0 {1,S} {3,D} {4,S}
+3 C u0 {2,D} {5,S}
+4 C u0 {2,S} {6,D}
+5 *2 C u0 {3,S} {6,S} {7,S}
+6 C u0 {4,D} {5,S}
+7 *3 H u0 {5,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Prevents the fulvene + H radical with radical site on the tail from abstracting an H
+from the far edge of the ring
+""",
+)

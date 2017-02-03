@@ -170,59 +170,59 @@ u"""
 
 entry(
     label = "Carbene_D_triplet",
-    group = 
+    group =
 """
 1 C u2 p0 {2,D}
 2 C u0 {1,D}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
 )
 
-entry(
-    label = "Carbene_D_singlet",
-    group = 
-"""
-1 C u0 p1 {2,D}
-2 C u0 {1,D}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+# entry(
+#     label = "Carbene_D_singlet",
+#     group =
+# """
+# 1 C u0 p1 {2,D}
+# 2 C u0 {1,D}
+# """,
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
 
 entry(
     label = "Carbene_S_triplet",
-    group = 
+    group =
 """
 1 C   u2 p0 {2,S}
 2 R!H u0 {1,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
 )
 
-entry(
-    label = "Carbene_S_singlet",
-    group = 
-"""
-1 C   u0 p1 {2,S}
-2 R!H u0 {1,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+# entry(
+#     label = "Carbene_S_singlet",
+#     group =
+# """
+# 1 C   u0 p1 {2,S}
+# 2 R!H u0 {1,S}
+# """,
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
 
 entry(
     label = "O3",
