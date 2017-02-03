@@ -47,15 +47,34 @@ Catalysts, 2015, 5, 871-904. Reaction R18
 """
 )
 
+#Delgado has this reaction as exothermic. However, our own thermo has this reaction as endothermic. removing and replacing with reverse direction, R20.
+#entry(
+#    index = 19,
+#    label = "CHX_1 + Ni_4 <=> CX_3 + HX_5",
+#    degeneracy = 1,
+#    kinetics = SurfaceArrhenius(
+#        A=(9.88E16, 'm^2/(mol*s)'),
+#        n = 0.5,
+#        Ea=(21900.0, 'J/mol'),
+#        Tmin = (298, 'K'),
+#        Tmax = (2000, 'K'),
+#    ),
+#    shortDesc = u"""Default""",
+#    longDesc = u"""
+#"Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
+#Delgado et al
+#Catalysts, 2015, 5, 871-904. Reaction R19
+#"""
+#)
 
 entry(
-    index = 19,
-    label = "CHX_1 + Ni_4 <=> CX_3 + HX_5",
+    index = 20,
+    label = "CX_3 + HX_5 <=> CHX_1 + Ni_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
-        A=(9.88E16, 'm^2/(mol*s)'),
-        n = 0.5,
-        Ea=(21900.0, 'J/mol'),
+        A=(1.70E20, 'm^2/(mol*s)'),
+        n = -0.5,
+        Ea=(157900., 'J/mol'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -63,9 +82,10 @@ entry(
     longDesc = u"""
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 Delgado et al
-Catalysts, 2015, 5, 871-904. Reaction R19
+Catalysts, 2015, 5, 871-904. Reaction R20
 """
 )
+
 
 
 entry(
