@@ -27,6 +27,7 @@ entry(
 
 #skip R2
 
+#CFG: O2 is a special case: we need to treat it separately
 entry(
     index = 3,
     label = "O2 + Ni + Ni <=> OX + OX",
@@ -47,6 +48,7 @@ entry(
 #skip R7 vdW
 #skip R8 vdW
 
+#CFG: CO is a special case: we need to treat it separately
 entry(
     index = 9,
     label = "CO + Ni <=> OCX",
@@ -80,7 +82,8 @@ entry(
 #    longDesc = u"""R11. Deutschmann actually has physisorbed ch4 going to ch3 + h"""
 #)
 
-
+#CFG: Modified version of R14: reverse of dissociative adsorption
+#since vdW is not yet functioning, we include this reaction in library
 entry(
     index = 14,
     label = "CH3X + HX <=> CH4 + Ni + Ni",
@@ -127,21 +130,39 @@ entry(
     longDesc = u"""R18"""
 )
 
+#Delgado has this reaction as exothermic. However, our own thermo has this reaction as endothermic. removing and replacing with reverse direction, R20.
+#entry(
+#    index = 19,
+#    label = "CHX + Ni <=> CX + HX",
+#    kinetics = SurfaceArrhenius(
+#        A=(9.88E16, 'm^2/(mol*s)'),
+#        n = 0.5,
+#        Ea=(21900.0, 'J/mol'),
+#        Tmin = (200, 'K'),
+#        Tmax = (3000, 'K'),
+#    ),
+#    shortDesc = u"""Default""",
+#    longDesc = u"""R19"""
+#)
+
 entry(
-    index = 19,
-    label = "CHX + Ni <=> CX + HX",
+    index = 20,
+    label = "CX + HX <=> CHX + Ni",
+    degeneracy = 1,
     kinetics = SurfaceArrhenius(
-        A=(9.88E16, 'm^2/(mol*s)'),
-        n = 0.5,
-        Ea=(21900.0, 'J/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
+        A=(1.70E20, 'm^2/(mol*s)'),
+        n = -0.5,
+        Ea=(157900., 'J/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R19"""
+    longDesc = u"""
+"Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
+Delgado et al
+Catalysts, 2015, 5, 871-904. Reaction R20
+"""
 )
-
-#skip R20
 #skip R21
 
 entry(
@@ -190,21 +211,40 @@ entry(
     longDesc = u"""R26"""
 )
 
-entry(
-    index = 27,
-    label = "CHX + OX <=> CX + HOX",
-    kinetics = SurfaceArrhenius(
-        A=(2.47E17, 'm^2/(mol*s)'),
-        n = 0.312,
-        Ea=(57700.0, 'J/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Default""",
-    longDesc = u"""R27"""
-)
+#Delgado has this reaction as exothermic. However, our own thermo has this reaction as endothermic. removing and replacing with reverse direction, R28.
+#entry(
+#    index = 27,
+#    label = "CHX + OX <=> CX + HOX",
+#    kinetics = SurfaceArrhenius(
+#        A=(2.47E17, 'm^2/(mol*s)'),
+#        n = 0.312,
+#        Ea=(57700.0, 'J/mol'),
+#        Tmin = (200, 'K'),
+#        Tmax = (3000, 'K'),
+#    ),
+#    shortDesc = u"""Default""",
+#    longDesc = u"""R27"""
+#)
 
-#skip R28
+entry(
+    index = 28,
+    label = "HOX + CX <=> OX + CHX ",
+    degeneracy = 1,
+    kinetics = SurfaceArrhenius(
+        A=(2.43E17, 'm^2/(mol*s)'),
+        n = -0.312,
+        Ea=(118900.0, 'J/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    #rank = 3,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+"Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
+Delgado et al
+Catalysts, 2015, 5, 871-904. Reaction R28
+"""
+)
 #skip R29 vdW
 
 
