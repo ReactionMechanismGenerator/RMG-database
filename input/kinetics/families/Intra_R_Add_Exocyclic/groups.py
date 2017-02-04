@@ -5662,3 +5662,32 @@ u"""
 Forbid product34 in vinylCPD_H library from ring closing to form a fused 6, 3, and 3-membered ring tricyclic.
 """,
 )
+
+###################
+#Forbidden groups to enable Naphthalene formation from CPD'yl recombination
+
+forbidden(
+    label = "product1_strained_ringclose",
+    group =
+"""
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,S} {6,S}
+3 C u0 p0 c0 {1,S} {2,S} {7,S}
+4 *2 C u0 p0 c0 {1,S} {9,D}
+5 C u0 p0 c0 {1,S} {10,D}
+6 C u0 p0 c0 {2,S} {8,D}
+7 *1 C u1 p0 c0 {3,S} {8,S}
+8 C u0 p0 c0 {6,D} {7,S}
+9 *3 C u0 p0 c0 {4,D} {10,S}
+10 C u0 p0 c0 {5,D} {9,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid product1 in naphthalene_H library from ring closing to form a highly-strained
+fused 5, 4, 3, and 5-membered ring tetracyclic.
+
+Badly estimated kinetics and thermo for this reaction would cause RMG to divert flux
+to this reaction, instead of following the naphthalene-forming pathway.
+""",
+)
