@@ -8854,6 +8854,64 @@ polycyclic(s2_5_7_diene_7_8) = polycyclic(s2_5_7_triene_1_3_7) - ring(Cyclopente
 """,
 )
 
+entry(
+    index = 86,
+    label = "s1-2_5d1d3_3_5d1_triene",
+    group =
+"""
+1 * R!H u0 {2,S} {3,S} {4,S} {5,S}
+2 R!H u0 {1,S} {3,S} {6,S}
+3 R!H u0 {1,S} {2,S} {7,S}
+4 R!H u0 {1,S} {9,D}
+5 R!H u0 {1,S} {10,D}
+6 R!H u0 {2,S} {8,D}
+7 R!H u0 {3,S} {8,S}
+8 R!H u0 {6,D} {7,S}
+9 R!H u0 {4,D} {10,S}
+10 R!H u0 {5,D} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.108, -7.764, -7.893, -7.784, -7.495, -7.132, -5.2],'cal/(mol*K)'),
+        H298 = (38.553,'kcal/mol'),
+        S298 = (95.09,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 87,
+    label = "s2-2_5d1_3_6d1d3_triene",
+    group =
+"""
+1 * R!H u0 {2,S} {3,S} {4,S} {5,S}
+2 R!H u0 {1,S} {3,S} {7,S}
+3 R!H u0 {1,S} {2,S} {6,S}
+4 R!H u0 {1,S} {8,S}
+5 R!H u0 {1,S} {10,D}
+6 R!H u0 {3,S} {8,D}
+7 R!H u0 {2,S} {9,D}
+8 R!H u0 {4,S} {6,D}
+9 R!H u0 {7,D} {10,S}
+10 R!H u0 {5,D} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.846, -7.913, -8.399, -8.495, -8.078, -7.325, -5.437],'cal/(mol*K)'),
+        H298 = (32.243,'kcal/mol'),
+        S298 = (93.33,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
 tree(
 """
 L1: PolycyclicRing
@@ -8871,6 +8929,8 @@ L1: PolycyclicRing
     L2: s2-4f1_5_5_7_ane
     L2: s4-3f1_6_6_6_ane
     L2: s3-3f1_6_5_6_ane
+    L2: s1-2_5d1d3_3_5d1_triene
+    L2: s2-2_5d1_3_6d1d3_triene
     L2: s1_3_3
         L3: s1_3_3_ane
         L3: s1_3_3_ene
