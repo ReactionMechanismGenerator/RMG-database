@@ -335,15 +335,7 @@ entry(
 5 *8 R!H u0 {4,[S,D]} {6,[S,D]}
 6 *4 R   u0 {5,[S,D]} {7,S}
 7 *1 Ss  u0 {6,S} {8,S}
-<<<<<<< HEAD
 8 *2 R   u0 {7,S}
-=======
-<<<<<<< HEAD
-8 *2 R!H   u0 {7,S}
-=======
-8 *2 R   u0 {7,S}
->>>>>>> f1f42ee... reorganization of the intra_substitutionS_cyclization group to meet tests after group formatting fixes, combination of redundant branches and minor restructuring, changes in generality
->>>>>>> 19bd96e... reorganization of the intra_substitutionS_cyclization group to meet tests after group formatting fixes, combination of redundant branches and minor restructuring, changes in generality
 """,
     kinetics = None,
 )
