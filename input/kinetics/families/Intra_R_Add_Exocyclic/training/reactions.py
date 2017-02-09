@@ -775,3 +775,18 @@ Taken from entry: product23 <=> product24
 """,
 )
 
+
+
+entry(
+    index = 58,
+    label = "C8H7O <=> C8H7O-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.1405e+11, 's^-1'), n=0.213, Ea=(30.11, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: OH_phenylacetylene_CBSQB3""",
+    longDesc = 
+u"""
+Taken from entry: i4_9 <=> i6
+""",
+)
+
