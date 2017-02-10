@@ -4976,7 +4976,7 @@ Fitted from molecule s2_5_6_ben from Bicyclics_QM_190_isomorphic library.
 entry(
     index = 117,
     label = "s2_5_6_indene",
-    group = 
+    group =
 """
 1 * R!H u0 {2,B} {3,S} {4,B}
 2   R!H u0 {1,B} {5,S} {6,B}
@@ -4995,7 +4995,7 @@ entry(
         S298 = (33.08,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Verevkin (2011), experimental, S and cp from PM7
 """,
