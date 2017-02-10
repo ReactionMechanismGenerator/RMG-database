@@ -2645,7 +2645,7 @@ Fitted from molecule s2_3_6_ene_2 from Bicyclics_QM_190_isomorphic library.
 entry(
     index = 0,
     label = "s2_3_6_diene",
-    group = "OR{s2_3_6_diene_0_2, s2_3_6_diene_0_3, s2_3_6_diene_1_3, s2_3_6_diene_2_5}",
+    group = "OR{s2_3_6_diene_0_2, s2_3_6_diene_0_3, s2_3_6_diene_1_3, s2_3_6_diene_2_5, s2_3_6_diene_1_6}",
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
@@ -8912,6 +8912,34 @@ u"""
 """,
 )
 
+entry(
+    index = 88,
+    label = "s2_3_6_diene_1_6",
+    group =
+"""
+1   R!H u0 {2,S} {3,D} {4,S}
+2   R!H u0 {1,S} {3,S} {5,S}
+3   R!H u0 {1,D} {2,S}
+4   R!H u0 {1,S} {7,D}
+5   R!H u0 {2,S} {6,S}
+6 * R!H u0 {5,S} {7,S}
+7   R!H u0 {4,D} {6,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-4.032344168, -4.650874761, -4.815852772, -4.625092734, -4.20190153, -3.46458891, -2.754087954], 'cal/(mol*K)'),
+        H298=(58.40530516, 'kcal/mol'),
+        S298=(56.0752652, 'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Estimated""",
+    longDesc =
+u"""
+Estimated according to the following equation in order to take into account the highly strained cyclopropene ring:
+polycyclic(s2_3_6_diene_1_6) = polycyclic(s2_3_6_ene_1) - ring(Cyclopropane) + ring(Cyclopropene)
+""",
+)
+
+
 tree(
 """
 L1: PolycyclicRing
@@ -9049,6 +9077,7 @@ L1: PolycyclicRing
             L4: s2_3_6_diene_0_3
             L4: s2_3_6_diene_1_3
             L4: s2_3_6_diene_2_5
+            L4: s2_3_6_diene_1_6
         L3: s2_3_6_ben
     L2: s2_3_7
         L3: s2_3_7_ane
