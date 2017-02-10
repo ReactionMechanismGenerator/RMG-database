@@ -4976,7 +4976,7 @@ Fitted from molecule s2_5_6_ben from Bicyclics_QM_190_isomorphic library.
 entry(
     index = 117,
     label = "s2_5_6_indene",
-    group = 
+    group =
 """
 1 * R!H u0 {2,B} {3,S} {4,B}
 2   R!H u0 {1,B} {5,S} {6,B}
@@ -4995,7 +4995,7 @@ entry(
         S298 = (33.08,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Verevkin (2011), experimental, S and cp from PM7
 """,
@@ -8939,6 +8939,90 @@ polycyclic(s2_3_6_diene_1_6) = polycyclic(s2_3_6_ene_1) - ring(Cyclopropane) + r
 """,
 )
 
+entry(
+    index = 118,
+    label = "s2_5_6_ben_yne_1_res1",
+    group =
+"""
+1 * R!H u0 {2,B} {3,S} {4,B}
+2   R!H u0 {1,B} {5,S} {6,B}
+3   R!H u0 {1,S} {7,S}
+4   R!H u0 {1,B} {8,B}
+5   R!H u0 {2,S} {7,T}
+6   R!H u0 {2,B} {9,B}
+7   R!H u0 {3,S} {5,T}
+8   R!H u0 {4,B} {9,B}
+9   R!H u0 {6,B} {8,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.5365, -2.13592, -2.3522, -2.02817, -1.28741, -1.73936, -3.47344],'cal/(mol*K)'),
+        H298 = (68.097,'kcal/mol'),
+        S298 = (34.0579,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Estimated""",
+    longDesc =
+u"""
+Estimated according to the following equation in order to take into account the highly strained cyclopentyne ring:
+polycyclic(s2_5_6_ben_yne_1) = polycyclic(s2_5_6_indene) - ring(Cyclopentadiene) + ring(Cyclopentyne)
+""",
+)
+
+entry(
+    index = 118,
+    label = "s2_5_6_ben_yne_1_res2",
+    group =
+"""
+1 * R!H u0 {2,D} {3,S} {4,S}
+2   R!H u0 {1,D} {5,S} {6,S}
+3   R!H u0 {1,S} {7,S}
+4   R!H u0 {1,S} {8,D}
+5   R!H u0 {2,S} {7,T}
+6   R!H u0 {2,S} {9,D}
+7   R!H u0 {3,S} {5,T}
+8   R!H u0 {4,D} {9,S}
+9   R!H u0 {6,D} {8,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-1.5365, -2.13592, -2.3522, -2.02817, -1.28741, -1.73936, -3.47344], 'cal/(mol*K)'),
+        H298=(68.097, 'kcal/mol'),
+        S298=(34.0579, 'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Copy of res 1 correction. Fitted to CBS-QB3 calculations
+""",
+)
+
+entry(
+    index = 118,
+    label = "s2_5_6_ben_yne_1_res3",
+    group =
+"""
+1 * R!H u0 {2,S} {3,S} {4,D}
+2   R!H u0 {1,S} {5,S} {6,D}
+3   R!H u0 {1,S} {7,S}
+4   R!H u0 {1,D} {8,S}
+5   R!H u0 {2,S} {7,T}
+6   R!H u0 {2,D} {9,S}
+7   R!H u0 {3,S} {5,T}
+8   R!H u0 {4,S} {9,D}
+9   R!H u0 {6,S} {8,D}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-1.5365, -2.13592, -2.3522, -2.02817, -1.28741, -1.73936, -3.47344], 'cal/(mol*K)'),
+        H298=(68.097, 'kcal/mol'),
+        S298=(34.0579, 'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Copy of res 1 correction. Fitted to CBS-QB3 calculations
+""",
+)
 
 tree(
 """
@@ -9173,6 +9257,9 @@ L1: PolycyclicRing
             L4: s2_5_6_tetraene_1_3_5_8
         L3: s2_5_6_ben
         L3: s2_5_6_indene
+        L3: s2_5_6_ben_yne_1_res1
+        L3: s2_5_6_ben_yne_1_res2
+        L3: s2_5_6_ben_yne_1_res3
         L3: s2_5_6_diene_6_7
     L2: s2_5_7
         L3: s2_5_7_triene
