@@ -5862,3 +5862,66 @@ Prevent a s2_4_5_diene_1_5 bicyclic (using polycyclic.py nomenclature) from unde
 from the tip of the 5-member ring to the corner of the 4. Resonance form 3.
 """,
 )
+
+####################
+#Forbid a carbon radical bonded to a cyclohexadiene side group from adding to the meta or para- position
+
+forbidden(
+    label = "s2_3_6_diene_0_2_self_ring_close_1_res_1",
+    group =
+"""
+1  *1 C u1 {3,S} {8,S}
+3  C u0 {1,S} {4,D} {8,S}
+4  C u0 {3,D} {5,S}
+5  *3 C u0 {4,S} {6,D}
+6  *2 C u0 {5,D} {7,S}
+7  C u0 {6,S} {8,S}
+8  C u0 (1,S} {3,S} {7,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Prevent a s2_3_6_diene_0_2 bicyclic (using polycyclic.py nomenclature) from undergoing a highly strained self-ring closure
+from the tip of the 3-member ring to one of the far corners of the 6. Resonance form 1.
+""",
+)
+
+forbidden(
+    label = "s2_3_6_diene_0_2_self_ring_close_1_res_2",
+    group =
+"""
+1  *2 C u0 {3,D} {8,S}
+3  *3 C u0 {1,D} {4,S} {8,S}
+4  C u0 {3,S} {5,D}
+5  C u0 {4,D} {6,S}
+6  *1 C u1 {5,S} {7,S}
+7  C u0 {6,S} {8,S}
+8  C u0 (1,S} {3,S} {7,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Prevent a s2_3_6_diene_0_2 bicyclic (using polycyclic.py nomenclature) from undergoing a highly strained self-ring closure
+from the tip of the 3-member ring to one of the far corners of the 6. Resonance form 2.
+""",
+)
+
+forbidden(
+    label = "s2_3_6_diene_0_2_self_ring_close_2_2",
+    group =
+"""
+1  *1 C u1 {3,S} {8,S}
+3  C u0 {1,S} {4,D} {8,S}
+4  C u0 {3,D} {5,S}
+5  *2 C u0 {4,S} {6,D}
+6  *3 C u0 {5,D} {7,S}
+7  C u0 {6,S} {8,S}
+8  C u0 (1,S} {3,S} {7,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Prevent a s2_3_6_diene_0_2 bicyclic (using polycyclic.py nomenclature) from undergoing a highly strained self-ring closure
+from the tip of the 3-member ring to one of the far corners of the 6.
+""",
+)
