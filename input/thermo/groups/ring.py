@@ -3824,11 +3824,11 @@ entry(
     label = "1,2-Cyclopentadiene",
     group =
 """
-1 * Cs u0 {2,S} {5,S}
+1 * C u0 {2,S} {5,S}
 2   Cd u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {4,D}
 4   Cd u0 {3,D} {5,S}
-5   Cs u0 {1,S} {4,S}
+5   C u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3850,9 +3850,9 @@ entry(
 """
 1 * Ct u0 {2,T} {5,S}
 2   Ct u0 {1,T} {3,S}
-3   Cs u0 {2,S} {4,S}
-4   Cs u0 {3,S} {5,S}
-5   Cs u0 {1,S} {4,S}
+3   C u0 {2,S} {4,S}
+4   C u0 {3,S} {5,S}
+5   C u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
