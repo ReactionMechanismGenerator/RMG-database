@@ -10,6 +10,7 @@ from copy import copy, deepcopy
 from rmgpy.data.base import LogicOr
 from rmgpy.molecule import Group
 from rmgpy.molecule.atomtype import atomTypes
+from rmgpy.molecule.pathfinder import find_shortest_path
 
 import nose
 import nose.tools
@@ -80,7 +81,7 @@ class TestDatabase():  # cannot inherit from unittest.TestCase if we want to use
             self.compat_func_name = test_name
             yield test, family_name
             
-            if len(family.forwardTemplate.reactants)==1 and len(family.groups.top) != 1 and family_name != 'Diels_alder_addition':
+            if len(family.forwardTemplate.reactants) < len(family.groups.top) and family_name != 'Diels_alder_addition':
                 test = lambda x: self.kinetics_checkUnimolecularGroups(family_name)
                 test_name = "Kinetics family {0} check that unimolecular group is formatted correctly?".format(family_name)
                 test.description = test_name
@@ -450,30 +451,16 @@ The following adjList may have atoms in a different ordering than the input file
     
     def kinetics_checkUnimolecularGroups(self,family_name):
         """
-        This test goes through all unimolecular groups that have more than one top level, the first 
-        top level is assumed to be the backbone (contains the whole reactant molecule) and the other top levels are assumed
-        to be endgroups
-        the following are checked:
-        1)endgroup entries have the same labels as their top level entry
+        This test goes through all unimolecular groups that have more than one top level, top level groups
+        that overlap with family.reactant are assumed to be backbones(contains the whole reactant molecule)
+        and the other top levels are assumedto be endgroups
+
+        the following are format requirements are checked:
+        1)endgroup entries hav exactly the same labels as their top level entry
         2)backbone groups have all labels that endgroups have
         3)backbone groups have labels tracing between the endgroups that follow the shortest path
-        4)the backbone subgraph corresponding to each endgroup is the top level entry of the
-        corresponding endgroup for every endgroup
+        4)The end subgraph inside each backbone is exactly the same as the top level of the correspodning end tree
         """
-        def find_shortest_path(start, end, path=None):
-            path = path if path else []
-            path = path + [start]
-            if start == end:
-                return path
-        
-            shortest = None
-            for node,_ in start.bonds.iteritems():
-                if node not in path:
-                    newpath = find_shortest_path(node, end, path)
-                    if newpath:
-                        if not shortest or len(newpath) < len(shortest):
-                            shortest = newpath
-            return shortest
     
         def getEndFromBackbone(backbone, endLabels):
             """
@@ -518,13 +505,13 @@ The following adjList may have atoms in a different ordering than the input file
                 raise Exception("Group {0} not split correctly".format(backbone.label))
         
             return group
-        
-        
+        #################################################################################
         family = self.database.kinetics.families[family_name]
-        
-        backbone =  family.forwardTemplate.reactants[0]
+        print family
+
+        backbone =  family.getBackboneRoots()[0]
     
-        endGroups = [entry for entry in family.groups.top if entry not in family.forwardTemplate.reactants]
+        endGroups = family.getEndRoots()
     
         endLabels = {}
         for endGroup in endGroups:
@@ -534,8 +521,8 @@ The following adjList may have atoms in a different ordering than the input file
                     labels.append(atom.label)
             endLabels[endGroup] = set(labels)
     
-        #one atom from each end group
-        midLabels = ["*1", "*3"]
+        #get boundary atoms to test that backbones have labels between end groups
+        nose.tools.assert_is_not_none(family.boundaryAtoms)
     
         # set of all end_labels should be backbone label
         backboneLabel = set([])
@@ -560,7 +547,7 @@ The following adjList may have atoms in a different ordering than the input file
                         if not labels.issubset(presentLabels):
                             C.append([endGroup, entry])
                     #check D
-                    midAtoms = [group.getLabeledAtom(x) for x in midLabels]
+                    midAtoms = [group.getLabeledAtom(x) for x in family.boundaryAtoms]
                     pathAtoms = find_shortest_path(midAtoms[0], midAtoms[1])
                     for atom in pathAtoms:
                         if not atom.label:
@@ -575,9 +562,7 @@ The following adjList may have atoms in a different ordering than the input file
                             if not endGroup.item.isIdentical(endFromBackbone):
                                 E.append([endGroup, entry])
                         else: raise Exception("Group {0} has split into end group {1}, but does not match any root".format(entry.label, endFromBackbone.toAdjacencyList()))
-    
-    
-    
+
                 else:
                     presentLabels = set([])
                     for endNode, labelledAtoms in endLabels.iteritems():
