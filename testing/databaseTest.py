@@ -79,7 +79,7 @@ class TestDatabase():  # cannot inherit from unittest.TestCase if we want to use
             test.description = test_name
             self.compat_func_name = test_name
             yield test, family_name
-            
+
             for depository in family.depositories:
                 
                 test = lambda x: self.kinetics_checkAdjlistsNonidentical(depository)
@@ -439,7 +439,6 @@ class TestDatabase():  # cannot inherit from unittest.TestCase if we want to use
 The following adjList may have atoms in a different ordering than the input file:
 {4}
                                             """.format(family_name, entry, correctAtom, index+1, entry.item.toAdjacencyList()))
-
 
     def general_checkNodesFoundInTree(self, group_name, group):
         """
