@@ -432,7 +432,7 @@ entry(
 )
 
 entry(
-    index = 28,
+    index = 82,
     label = "O_rad",
     group = 
 """
@@ -442,55 +442,11 @@ entry(
 )
 
 entry(
-    index = 29,
+    index = 83,
     label = "S_rad",
     group = 
 """
 1 *1 Ss u1
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 30,
-    label = "Cd_rad_out",
-    group = 
-"""
-1 *1 C       u1 {2,D}
-2    [C,O,S] u0 {1,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 31,
-    label = "Cd_rad_out_C",
-    group = 
-"""
-1 *1 C u1 {2,D}
-2    C u0 {1,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 32,
-    label = "Cd_rad_out_O",
-    group = 
-"""
-1 *1 C u1 {2,D}
-2    O u0 {1,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 33,
-    label = "Cd_rad_out_S",
-    group = 
-"""
-1 *1 C u1 {2,D}
-2    S u0 {1,D}
 """,
     kinetics = None,
 )
@@ -759,50 +715,6 @@ entry(
     group = 
 """
 1 *2 Ss u1
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 57,
-    label = "Cdpri_rad_out",
-    group = 
-"""
-1 *2 C       u1 {2,D}
-2    [C,O,S] u0 {1,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 58,
-    label = "Cdpri_rad_out_C",
-    group = 
-"""
-1 *2 C u1 {2,D}
-2    C u0 {1,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 59,
-    label = "Cdpri_rad_out_O",
-    group = 
-"""
-1 *2 C u1 {2,D}
-2    O u0 {1,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 60,
-    label = "Cdpri_rad_out_S",
-    group = 
-"""
-1 *2 C u1 {2,D}
-2    S u0 {1,D}
 """,
     kinetics = None,
 )
@@ -1088,21 +1000,11 @@ L1: Rn
 L1: Y_rad_out
     L2: O_rad
     L2: S_rad
-    L2: Cd_rad_out
-        L3: Cd_rad_out_C
-        L3: Cd_rad_out_O
-        L3: Cd_rad_out_S
     L2: Cdsingle_rad_out
-        L3: CdsingleH_rad_out
-        L3: CdsingleND_rad_out
         L3: CdsingleDe_rad_out
+        L3: CdsingleND_rad_out
+        L3: CdsingleH_rad_out
     L2: C_rad_out_single
-        L3: C_rad_out_2H
-        L3: C_rad_out_1H
-            L4: C_rad_out_H/NonDeC
-            L4: C_rad_out_H/NonDeO
-            L4: C_rad_out_H/NonDeS
-            L4: C_rad_out_H/OneDe
         L3: C_rad_out_noH
             L4: C_rad_out_NonDe
                 L5: C_rad_out_Cs2
@@ -1113,24 +1015,20 @@ L1: Y_rad_out
                 L5: C_rad_out_OneDe/O
                 L5: C_rad_out_OneDe/S
             L4: C_rad_out_TwoDe
+        L3: C_rad_out_1H
+            L4: C_rad_out_H/NonDeC
+            L4: C_rad_out_H/NonDeO
+            L4: C_rad_out_H/NonDeS
+            L4: C_rad_out_H/OneDe
+        L3: C_rad_out_2H
 L1: Ypri_rad_out
     L2: Opri_rad
     L2: Spri_rad
-    L2: Cdpri_rad_out
-        L3: Cdpri_rad_out_C
-        L3: Cdpri_rad_out_O
-        L3: Cdpri_rad_out_S
     L2: Cdsinglepri_rad_out
         L3: CdsinglepriH_rad_out
         L3: CdsinglepriND_rad_out
         L3: CdsinglepriDe_rad_out
     L2: Cpri_rad_out_single
-        L3: Cpri_rad_out_2H
-        L3: Cpri_rad_out_1H
-            L4: Cpri_rad_out_H/NonDeC
-            L4: Cpri_rad_out_H/NonDeO
-            L4: Cpri_rad_out_H/NonDeS
-            L4: Cpri_rad_out_H/OneDe
         L3: Cpri_rad_out_noH
             L4: Cpri_rad_out_NonDe
                 L5: Cpri_rad_out_Cs2
@@ -1141,6 +1039,12 @@ L1: Ypri_rad_out
                 L5: Cpri_rad_out_OneDe/O
                 L5: Cpri_rad_out_OneDe/S
             L4: Cpri_rad_out_TwoDe
+        L3: Cpri_rad_out_1H
+            L4: Cpri_rad_out_H/NonDeC
+            L4: Cpri_rad_out_H/NonDeO
+            L4: Cpri_rad_out_H/NonDeS
+            L4: Cpri_rad_out_H/OneDe
+        L3: Cpri_rad_out_2H
 """
 )
 
