@@ -1553,25 +1553,24 @@ L1: YJ-Ss
     L2: CJ-Ss
         L3: CdsJ-Ss
         L3: CsJ-Ss
-            L4: CsJ-SsHH
-            L4: CsJ-SsCsH
-            L4: CsJ-SsCsCs
-            L4: CsJ-SsSsH
-            L4: CsJ-SsSsSs
-            L4: CsJ-SsCsSs
             L4: CsJ-SsOneDe
-                L5: CsJ-SsOneDeH
-                    L6: CsJ-SsCdH
                 L5: CsJ-SsOneDeCs
                     L6: CsJ-SsCdCs
                 L5: CsJ-SsOneDeSs
                     L6: CsJ-SsCdSs
+                L5: CsJ-SsOneDeH
+                    L6: CsJ-SsCdH
+            L4: CsJ-SsSsSs
+            L4: CsJ-SsCsSs
+            L4: CsJ-SsCsCs
+            L4: CsJ-SsCsH
+            L4: CsJ-SsSsH
+            L4: CsJ-SsHH 
     L2: SJ-Ss
 L1: C-Ss
     L2: Cb-Ss
     L2: Ct-Ss
     L2: Cds-Ss
-        L3: Cds-SsH
         L3: Cds-SsCs
         L3: Cds-SsCt
         L3: Cds-SsCb
@@ -1580,8 +1579,8 @@ L1: C-Ss
         L3: Cds-SsSs
         L3: Cds-SsCd
         L3: Cds-SsC=S
+        L3: Cds-SsH
     L2: C=S-Ss
-        L3: C=S-SsH
         L3: C=S-SsCs
         L3: C=S-SsCt
         L3: C=S-SsCb
@@ -1590,66 +1589,17 @@ L1: C-Ss
         L3: C=S-SsSs
         L3: C=S-SsCd
         L3: C=S-SsC=S
+        L3: C=S-SsH
     L2: Cs-Ss
-        L3: Cs-SsHHH
-        L3: Cs-SsCsHH
-        L3: Cs-SsCsCsH
         L3: Cs-SsCsCsCs
-        L3: Cs-SsOsHH
-        L3: Cs-SsOsCsH
         L3: Cs-SsOsCsCs
-        L3: Cs-SsOsOsH
         L3: Cs-SsOsOsCs
         L3: Cs-SsOsOsOs
-        L3: Cs-SsSsHH
-        L3: Cs-SsSsCsH
         L3: Cs-SsSsCsCs
-        L3: Cs-SsSsSsH
         L3: Cs-SsSsSsCs
         L3: Cs-SsSsSsSs
-        L3: Cs-SsOneDe
-            L4: Cs-SsOneDeHH
-                L5: Cs-SsCtHH
-                L5: Cs-SsCbHH
-                L5: Cs-SsCOHH
-                L5: Cs-SsCdHH
-                L5: Cs-SsC=SHH
-            L4: Cs-SsOneDeCsH
-                L5: Cs-SsCtCsH
-                L5: Cs-SsCbCsH
-                L5: Cs-SsCOCsH
-                L5: Cs-SsCdCsH
-                L5: Cs-SsC=SCsH
-            L4: Cs-SsOneDeOsH
-            L4: Cs-SsOneDeSsH
-            L4: Cs-SsOneDeCsCs
-                L5: Cs-SsCtCsCs
-                L5: Cs-SsCbCsCs
-                L5: Cs-SsCOCsCs
-                L5: Cs-SsCdCsCs
-                L5: Cs-SsC=SCsCs
-            L4: Cs-SsOneDeOsCs
-            L4: Cs-SsOneDeSsCs
-            L4: Cs-SsOneDeOsOs
-            L4: Cs-SsOneDeOsSs
-            L4: Cs-SsOneDeSsSs
+        L3: Cs-SsThreeDe
         L3: Cs-SsTwoDe
-            L4: Cs-SsTwoDeH
-                L5: Cs-SsCtCtH
-                L5: Cs-SsCtCbH
-                L5: Cs-SsCtCOH
-                L5: Cs-SsCbCbH
-                L5: Cs-SsCbCOH
-                L5: Cs-SsCOCOH
-                L5: Cs-SsCdCtH
-                L5: Cs-SsCdCbH
-                L5: Cs-SsCdCOH
-                L5: Cs-SsCtC=SH
-                L5: Cs-SsCbC=SH
-                L5: Cs-SsCOC=SH
-                L5: Cs-SsCdCdH
-                L5: Cs-SsCdC=SH
-                L5: Cs-SsC=SC=SH
             L4: Cs-SsTwoDeCs
                 L5: Cs-SsCtCtCs
                 L5: Cs-SsCtCbCs
@@ -1668,7 +1618,58 @@ L1: C-Ss
                 L5: Cs-SsC=SC=SCs
             L4: Cs-SsTwoDeOs
             L4: Cs-SsTwoDeSs
-        L3: Cs-SsThreeDe
+            L4: Cs-SsTwoDeH
+                L5: Cs-SsCtCtH
+                L5: Cs-SsCtCbH
+                L5: Cs-SsCtCOH
+                L5: Cs-SsCbCbH
+                L5: Cs-SsCbCOH
+                L5: Cs-SsCOCOH
+                L5: Cs-SsCdCtH
+                L5: Cs-SsCdCbH
+                L5: Cs-SsCdCOH
+                L5: Cs-SsCtC=SH
+                L5: Cs-SsCbC=SH
+                L5: Cs-SsCOC=SH
+                L5: Cs-SsCdCdH
+                L5: Cs-SsCdC=SH
+                L5: Cs-SsC=SC=SH
+        L3: Cs-SsOneDe
+            L4: Cs-SsOneDeCsCs
+                L5: Cs-SsCtCsCs
+                L5: Cs-SsCbCsCs
+                L5: Cs-SsCOCsCs
+                L5: Cs-SsCdCsCs
+                L5: Cs-SsC=SCsCs
+            L4: Cs-SsOneDeOsCs
+            L4: Cs-SsOneDeSsCs
+            L4: Cs-SsOneDeOsOs
+            L4: Cs-SsOneDeOsSs
+            L4: Cs-SsOneDeSsSs
+            L4: Cs-SsOneDeOsH
+            L4: Cs-SsOneDeSsH
+            L4: Cs-SsOneDeCsH
+                L5: Cs-SsCtCsH
+                L5: Cs-SsCbCsH
+                L5: Cs-SsCOCsH
+                L5: Cs-SsCdCsH
+                L5: Cs-SsC=SCsH
+            L4: Cs-SsOneDeHH
+                L5: Cs-SsCtHH
+                L5: Cs-SsCbHH
+                L5: Cs-SsCOHH
+                L5: Cs-SsCdHH
+                L5: Cs-SsC=SHH
+        L3: Cs-SsCsCsH
+        L3: Cs-SsOsOsH
+        L3: Cs-SsOsCsH
+        L3: Cs-SsSsSsH
+        L3: Cs-SsSsCsH
+        L3: Cs-SsOsHH
+        L3: Cs-SsCsHH
+        L3: Cs-SsSsHH
+        L3: Cs-SsHHH
+        
 """
 )
 
