@@ -23,6 +23,8 @@ entry(
     kinetics = None,
 )
 
+boundaryAtoms = ["*1", "*3"]
+
 entry(
     index = 2,
     label = "YJ",

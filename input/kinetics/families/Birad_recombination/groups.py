@@ -24,6 +24,8 @@ entry(
     kinetics = None,
 )
 
+boundaryAtoms = ["*1", "*2"]
+
 entry(
     index = 2,
     label = "Y_rad_out",

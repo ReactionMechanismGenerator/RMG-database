@@ -18,6 +18,8 @@ recipe(actions=[
     ['CHANGE_BOND', '*2', '-1', '*3'],
 ])
 
+boundaryAtoms = ["*1", "*2"]
+
 entry(
     index = 1,
     label = "Rn",
