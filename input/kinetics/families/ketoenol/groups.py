@@ -18,6 +18,8 @@ recipe(actions=[
     ['FORM_BOND', '*4', 1, '*1'],
 ])
 
+boundaryAtoms = ["*2", "*3"]
+
 entry(
         index = 19,
         label = 'R1_doublebond',
