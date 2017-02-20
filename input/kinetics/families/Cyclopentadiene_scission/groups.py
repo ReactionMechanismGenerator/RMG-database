@@ -14,11 +14,11 @@ template(reactants=["CPD_backbone"], products=["conjugated_singlet_carbene"], ow
 reverse = "Intra_singlet_carbene_addition"
 
 recipe(actions=[
-    ['BREAK_BOND', '*1', 'S', '*2'],
-    ['CHANGE_BOND', '*2', '-1', '*3'],
-    ['CHANGE_BOND', '*4', '-1', '*5'],
-    ['CHANGE_BOND', '*1', '1', '*5'],
-    ['CHANGE_BOND', '*4', '1', '*3'],
+    ['BREAK_BOND', '*1', 1, '*2'],
+    ['CHANGE_BOND', '*2', -1, '*3'],
+    ['CHANGE_BOND', '*4', -1, '*5'],
+    ['CHANGE_BOND', '*1', 1, '*5'],
+    ['CHANGE_BOND', '*4', 1, '*3'],
     ['GAIN_PAIR', '*2', '1']
 ])
 entry(

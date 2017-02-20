@@ -13,12 +13,12 @@ J. Phys. Chem. A 2003, 107, 7783-7799.
 template(reactants=["1_5_unsaturated_hexane"], products=["1_5_unsaturated_hexane"], ownReverse=True)
 
 recipe(actions=[
-    ['BREAK_BOND', '*3', 'S', '*4'],
-    ['CHANGE_BOND', '*1', '-1', '*2'],
-    ['CHANGE_BOND', '*5', '-1', '*6'],
-    ['CHANGE_BOND', '*2', '1', '*3'],
-    ['CHANGE_BOND', '*4', '1', '*5'],
-    ['FORM_BOND', '*1', 'S', '*6'],
+    ['BREAK_BOND', '*3', 1, '*4'],
+    ['CHANGE_BOND', '*1', -1, '*2'],
+    ['CHANGE_BOND', '*5', -1, '*6'],
+    ['CHANGE_BOND', '*2', 1, '*3'],
+    ['CHANGE_BOND', '*4', 1, '*5'],
+    ['FORM_BOND', '*1', 1, '*6'],
 ])
 
 entry(

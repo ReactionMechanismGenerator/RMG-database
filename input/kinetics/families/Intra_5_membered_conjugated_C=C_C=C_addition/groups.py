@@ -16,11 +16,11 @@ template(reactants=["C=C=C-C=C"], products=["C1-CJ2(S)-C=C-C-C1"], ownReverse=Fa
 reverse = "5_membered_cyclic_conjugated_singlet_carbene_scission"
 
 recipe(actions=[
-    ['CHANGE_BOND', '*1', '-1', '*5'],
-    ['CHANGE_BOND', '*2', '-1', '*3'],
-    ['FORM_BOND', '*1', 'S', '*2'],
-    ['CHANGE_BOND', '*3', '1', '*4'],
-    ['CHANGE_BOND', '*4', '-1', '*5'],
+    ['CHANGE_BOND', '*1', -1, '*5'],
+    ['CHANGE_BOND', '*2', -1, '*3'],
+    ['FORM_BOND', '*1', 1, '*2'],
+    ['CHANGE_BOND', '*3', 1, '*4'],
+    ['CHANGE_BOND', '*4', -1, '*5'],
     ['GAIN_PAIR', '*5', '1'],
 
 ])

@@ -10,12 +10,12 @@ longDesc = u"""
 template(reactants=["1_3_unsaturated_pentane_backbone"], products=["1_3_unsaturated_pentane_backbone"], ownReverse=True)
 
 recipe(actions=[
-    ['BREAK_BOND', '*1', 'S', '*6'],
-    ['FORM_BOND', '*2', 'S', '*6'],
-    ['CHANGE_BOND', '*2', '-1', '*3'],
-    ['CHANGE_BOND', '*4', '-1', '*5'],
-    ['CHANGE_BOND', '*1', '1', '*5'],
-    ['CHANGE_BOND', '*4', '1', '*3'],
+    ['BREAK_BOND', '*1', 1, '*6'],
+    ['FORM_BOND', '*2', 1, '*6'],
+    ['CHANGE_BOND', '*2', -1, '*3'],
+    ['CHANGE_BOND', '*4', -1, '*5'],
+    ['CHANGE_BOND', '*1', 1, '*5'],
+    ['CHANGE_BOND', '*4', 1, '*3'],
 ])
 entry(
     index = 1,

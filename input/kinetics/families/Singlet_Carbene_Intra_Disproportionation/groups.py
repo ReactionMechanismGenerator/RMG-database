@@ -13,9 +13,9 @@ reverse = "SingletCarbenefromMultipleBond"
 
 recipe(actions=[
     ['LOSE_PAIR', '*1', '1'],
-    ['FORM_BOND', '*1', 'S', '*3'],
-    ['BREAK_BOND', '*2', 'S', '*3'],
-    ['CHANGE_BOND', '*1', '1', '*2'],
+    ['FORM_BOND', '*1', 1, '*3'],
+    ['BREAK_BOND', '*2', 1, '*3'],
+    ['CHANGE_BOND', '*1', 1, '*2'],
 ])
 
 entry(

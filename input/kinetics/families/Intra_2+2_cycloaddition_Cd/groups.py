@@ -12,10 +12,10 @@ template(reactants=["1,3-butadiene_backbone"], products=["unsaturated_four_ring"
 reverse = "Four_Ring_Open"
 
 recipe(actions=[
-    ['CHANGE_BOND', '*1', '-1', '*2'],
-    ['CHANGE_BOND', '*3', '-1', '*4'],
-    ['FORM_BOND', '*1', 'S', '*3'],
-    ['CHANGE_BOND', '*2', '1', '*4'],
+    ['CHANGE_BOND', '*1', -1, '*2'],
+    ['CHANGE_BOND', '*3', -1, '*4'],
+    ['FORM_BOND', '*1', 1, '*3'],
+    ['CHANGE_BOND', '*2', 1, '*4'],
 ])
 
 entry(

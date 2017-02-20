@@ -17,15 +17,15 @@ template(reactants=["1_3_hexadien_5_yne"], products=["unsaturated_singlet_carben
 reverse = "Concerted_Retro_Intra_Diels_alder_monocyclic_singlet_carbene_disproportionation"
 
 recipe(actions=[
-    ['CHANGE_BOND', '*1', '-1', '*2'],
-    ['CHANGE_BOND', '*3', '-1', '*4'],
-    ['CHANGE_BOND', '*2', '1', '*3'],
-    ['CHANGE_BOND', '*5', '-1', '*6'],
-    ['CHANGE_BOND', '*4', '1', '*5'],
-    ['FORM_BOND', '*1', 'S', '*6'],
-    ['CHANGE_BOND', '*5', '-1', '*6'],
-    ['BREAK_BOND', '*6', 'S', '*7'],
-    ['FORM_BOND', '*5', 'S', '*7'],
+    ['CHANGE_BOND', '*1', -1, '*2'],
+    ['CHANGE_BOND', '*3', -1, '*4'],
+    ['CHANGE_BOND', '*2', 1, '*3'],
+    ['CHANGE_BOND', '*5', -1, '*6'],
+    ['CHANGE_BOND', '*4', 1, '*5'],
+    ['FORM_BOND', '*1', 1, '*6'],
+    ['CHANGE_BOND', '*5', -1, '*6'],
+    ['BREAK_BOND', '*6', 1, '*7'],
+    ['FORM_BOND', '*5', 1, '*7'],
     ['GAIN_PAIR', '*6', '1'],
 ])
 
