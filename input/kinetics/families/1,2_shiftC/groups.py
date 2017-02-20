@@ -12,8 +12,8 @@ Could possibly be generalized to include  1,2-methyl shift from an Oxygen to Car
 template(reactants=["CH3CCJ"], products=["CH3CCJ"], ownReverse=True)
 
 recipe(actions=[
-    ['BREAK_BOND', '*1', 'S', '*2'],
-    ['FORM_BOND', '*1', 'S', '*3'],
+    ['BREAK_BOND', '*1', 1, '*2'],
+    ['FORM_BOND', '*1', 1, '*3'],
     ['GAIN_RADICAL', '*2', '1'],
     ['LOSE_RADICAL', '*3', '1'],
 ])
