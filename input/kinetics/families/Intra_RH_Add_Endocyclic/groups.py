@@ -1189,49 +1189,13 @@ entry(
 )
 
 entry(
-    index = 190,
-    label = "radadd_intra_cdsingleH",
-    group = 
-"""
-1 *1 Cd u0 {2,S} {3,S}
-2 *4 H  u0 {1,S}
-3    H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 191,
-    label = "radadd_intra_cdsingleNd",
-    group = 
-"""
-1 *1 Cd     u0 {2,S} {3,S}
-2 *4 H      u0 {1,S}
-3    [Cs,O] u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 192,
-    label = "radadd_intra_cdsingleDe",
-    group = 
-"""
-1 *1 Cd            u0 {2,S} {3,S}
-2 *4 H             u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 193,
     label = "radadd_intra_cddouble",
     group = 
 """
-1 *1 Cd u0 {2,S} {3,D}
-2 *4 H  u0 {1,S}
-3    Cd u0 {1,D}
+1 *1 Cd  u0 {2,S} {3,D}
+2 *4 H   u0 {1,S}
+3    R!H u0 {1,D}
 """,
     kinetics = None,
 )
@@ -1253,9 +1217,8 @@ entry(
     label = "radadd_intra_Ct",
     group = 
 """
-1 *1 Ct u0 {2,S} {3,T}
+1 *1 Ct u0 {2,S}
 2 *4 H  u0 {1,S}
-3    Ct u0 {1,T}
 """,
     kinetics = None,
 )
@@ -1279,8 +1242,8 @@ L1: Rn
     L2: R6
         L3: R6_RSR
             L4: R6_SSR
-                L5: R6_SSS
                 L5: R6_SSM
+                L5: R6_SSS
             L4: R6_DSR
                 L5: R6_DSS
                 L5: R6_DSM
@@ -1326,23 +1289,20 @@ L1: Rn
         L3: R7_SBBS
 L1: multiplebond_intra
     L2: doublebond_intra_2H
-        L3: doublebond_intra_2H_pri
-        L3: doublebond_intra_2H_secNd
         L3: doublebond_intra_2H_secDe
+        L3: doublebond_intra_2H_secNd
+        L3: doublebond_intra_2H_pri
 L1: radadd_intra
     L2: radadd_intra_cs
-        L3: radadd_intra_cs2H
-            L4: radadd_intra_csHHNd
-            L4: radadd_intra_csHHDe
         L3: radadd_intra_csNdNd
         L3: radadd_intra_csNdDe
         L3: radadd_intra_csDeDe
+        L3: radadd_intra_cs2H
+            L4: radadd_intra_csHHNd
+            L4: radadd_intra_csHHDe
     L2: radadd_intra_O
     L2: radadd_intra_Cb
     L2: radadd_intra_cdsingle
-        L3: radadd_intra_cdsingleH
-        L3: radadd_intra_cdsingleNd
-        L3: radadd_intra_cdsingleDe
     L2: radadd_intra_cddouble
     L2: radadd_intra_CO
     L2: radadd_intra_Ct
