@@ -9020,7 +9020,7 @@ polycyclic(s2_5_5_diene_1_2) = polycyclic(s2_5_5_ane) - ring(Cyclopentane) + rin
 entry(
     index = 0,
     label = "s2_(1_2_CPD)_6",
-    group="OR{s2_5_6_diene_6_7, s2_5_6_diene_5_6, s2_5_6_diene_m_5}",
+    group="OR{s2_5_6_diene_6_7, s2_5_6_diene_5_6}",
     thermo=None,
     shortDesc = u"""Should capture all 1,2-CPD containing s2_5_6 bicyclics""",
     longDesc =
@@ -9087,39 +9087,39 @@ polycyclic(s2_5_6_diene_6_7) = polycyclic(s2_5_6_ane) - ring(Cyclopentane) + rin
 """,
 )
 
-entry(
-    index = 190,
-    label = "s2_5_6_diene_m_5",
-    group =
-"""
-1 * R!H u0 {2,D} {4,[S,D,T,B]} {5,D}
-2   R!H u0 {1,D} {3,[S,D,T,B]} {6,[S,D,T,B]}
-3   R!H u0 {2,[S,D,T,B]} {9,[S,D,T,B]}
-4   R!H u0 {1,[S,D,T,B]} {8,[S,D,T,B]}
-5   R!H u0 {1,D} {7,[S,D,T,B]}
-6   R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
-7   R!H u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
-8   R!H u0 {4,[S,D,T,B]} {9,[S,D,T,B]}
-9   R!H u0 {3,[S,D,T,B]} {8,[S,D,T,B]}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-7.967230401, -8.037430211, -7.862294455, -7.275646272, -5.361500956, -3.27522849, -2.136611854],'cal/(mol*K)'),
-        H298 = (74.40849904,'kcal/mol'),
-        S298 = (45.28954111,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Estimated""",
-    longDesc =
-u"""
-Estimated according to the following equation in order to take into account the highly strained 1,2-cyclopentadiene ring:
-polycyclic(s2_5_6_diene_6_7) = polycyclic(s2_5_6_ane) - ring(Cyclopentane) + ring(1,2-Cyclopentadiene)
-""",
-)
+# entry(
+#     index = 190,
+#     label = "s2_5_6_diene_m_5",
+#     group =
+# """
+# 1 * R!H u0 {2,D} {4,[S,D,T,B]} {5,D}
+# 2   R!H u0 {1,D} {3,[S,D,T,B]} {6,[S,D,T,B]}
+# 3   R!H u0 {2,[S,D,T,B]} {9,[S,D,T,B]}
+# 4   R!H u0 {1,[S,D,T,B]} {8,[S,D,T,B]}
+# 5   R!H u0 {1,D} {7,[S,D,T,B]}
+# 6   R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+# 7   R!H u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
+# 8   R!H u0 {4,[S,D,T,B]} {9,[S,D,T,B]}
+# 9   R!H u0 {3,[S,D,T,B]} {8,[S,D,T,B]}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([-7.967230401, -8.037430211, -7.862294455, -7.275646272, -5.361500956, -3.27522849, -2.136611854],'cal/(mol*K)'),
+#         H298 = (74.40849904,'kcal/mol'),
+#         S298 = (45.28954111,'cal/(mol*K)'),
+#     ),
+#     shortDesc = u"""Estimated""",
+#     longDesc =
+# u"""
+# Estimated according to the following equation in order to take into account the highly strained 1,2-cyclopentadiene ring:
+# polycyclic(s2_5_6_diene_6_7) = polycyclic(s2_5_6_ane) - ring(Cyclopentane) + ring(1,2-Cyclopentadiene)
+# """,
+# )
 
 entry(
     index = 0,
     label = "s2_(1_2_CPD)_7",
-    group="OR{s2_5_7_diene_7_8, s2_5_7_diene_6_7, s2_5_7_diene_m_6}",
+    group="OR{s2_5_7_diene_7_8, s2_5_7_diene_6_7}",
     thermo=None,
     shortDesc = u"""Should capture all 1,2-CPD containing s2_5_7 bicyclics""",
     longDesc =
@@ -9188,35 +9188,35 @@ polycyclic(s2_5_7_diene_7_8) = polycyclic(s2_5_7_triene_1_3_7) - ring(Cyclopente
 """,
 )
 
-entry(
-    index = 192,
-    label = "s2_5_7_diene_m_6",
-    group =
-"""
-1  * R!H u0 {2,D} {3,D} {4,[S,D,T,B]}
-2    R!H u0 {1,D} {5,[S,D,T,B]} {6,[S,D,T,B]}
-3    R!H u0 {1,D} {7,[S,D,T,B]}
-4    R!H u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
-5    R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
-6    R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
-7    R!H u0 {3,[S,D,T,B]} {5,[S,D,T,B]}
-8    R!H u0 {6,[S,D,T,B]} {10,[S,D,T,B]}
-9    R!H u0 {4,[S,D,T,B]} {10,[S,D,T,B]}
-10   R!H u0 {8,[S,D,T,B]} {9,[S,D,T,B]}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-5.645227533, -5.913365201, -5.9873174, -5.596732314, -5.028231358, -3.721783939, -2.722015296],'cal/(mol*K)'),
-        H298 = (73.61143212,'kcal/mol'),
-        S298 = (55.15890402,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Estimated""",
-    longDesc =
-u"""
-Estimated according to the following equation in order to take into account the highly strained 1,2-cyclopentadiene ring:
-polycyclic(s2_5_7_diene_7_8) = polycyclic(s2_5_7_triene_1_3_7) - ring(Cyclopentene) + ring(1,2-Cyclopentadiene)
-""",
-)
+# entry(
+#     index = 192,
+#     label = "s2_5_7_diene_m_6",
+#     group =
+# """
+# 1  * R!H u0 {2,D} {3,D} {4,[S,D,T,B]}
+# 2    R!H u0 {1,D} {5,[S,D,T,B]} {6,[S,D,T,B]}
+# 3    R!H u0 {1,D} {7,[S,D,T,B]}
+# 4    R!H u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
+# 5    R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+# 6    R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+# 7    R!H u0 {3,[S,D,T,B]} {5,[S,D,T,B]}
+# 8    R!H u0 {6,[S,D,T,B]} {10,[S,D,T,B]}
+# 9    R!H u0 {4,[S,D,T,B]} {10,[S,D,T,B]}
+# 10   R!H u0 {8,[S,D,T,B]} {9,[S,D,T,B]}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([-5.645227533, -5.913365201, -5.9873174, -5.596732314, -5.028231358, -3.721783939, -2.722015296],'cal/(mol*K)'),
+#         H298 = (73.61143212,'kcal/mol'),
+#         S298 = (55.15890402,'cal/(mol*K)'),
+#     ),
+#     shortDesc = u"""Estimated""",
+#     longDesc =
+# u"""
+# Estimated according to the following equation in order to take into account the highly strained 1,2-cyclopentadiene ring:
+# polycyclic(s2_5_7_diene_7_8) = polycyclic(s2_5_7_triene_1_3_7) - ring(Cyclopentene) + ring(1,2-Cyclopentadiene)
+# """,
+# )
 
 entry(
     index = 86,
@@ -9935,7 +9935,6 @@ L1: PolycyclicRing
         L3: s2_(1_2_CPD)_6
             L4: s2_5_6_diene_6_7
             L4: s2_5_6_diene_5_6
-            L4: s2_5_6_diene_m_5
         L3: s2_5_6_yne_6
     L2: s2_5_7
         L3: s2_5_7_triene
@@ -9952,7 +9951,6 @@ L1: PolycyclicRing
         L3: s2_(1_2_CPD)_7
             L4: s2_5_7_diene_7_8
             L4: s2_5_7_diene_6_7
-            L4: s2_5_7_diene_m_6
         L3: s2_5_7_yne_7
     L2: s2_6_6
         L3: s2_6_6_ane
