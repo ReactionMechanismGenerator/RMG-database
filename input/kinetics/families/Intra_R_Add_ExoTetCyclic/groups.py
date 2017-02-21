@@ -1641,8 +1641,7 @@ entry(
     label = "radadd_intra_Ct",
     group = 
 """
-1 *1 Ct u1 {2,T}
-2    Ct u0 {1,T}
+1 *1 Ct u1
 """,
     kinetics = None,
 )
@@ -1713,50 +1712,50 @@ L1: R1_rad_R2_R3
         L3: R7_SBBS
 L1: multiplebond_intra
     L2: doublebond_intra
-        L3: doublebond_intra_2H
-            L4: doublebond_intra_2H_pri
-            L4: doublebond_intra_2H_secNd
-            L4: doublebond_intra_2H_secDe
-        L3: doublebond_intra_HNd
-            L4: doublebond_intra_HNd_pri
-            L4: doublebond_intra_HNd_secNd
-            L4: doublebond_intra_HNd_secDe
-        L3: doublebond_intra_HDe
-            L4: doublebond_intra_HDe_pri
-                L5: doublebond_intra_HCd_pri
-                L5: doublebond_intra_HCt_pri
-            L4: doublebond_intra_HDe_secNd
-            L4: doublebond_intra_HDe_secDe
         L3: doublebond_intra_NdNd
-            L4: doublebond_intra_NdNd_pri
-            L4: doublebond_intra_NdNd_secNd
             L4: doublebond_intra_NdNd_secDe
+            L4: doublebond_intra_NdNd_secNd
+            L4: doublebond_intra_NdNd_pri
         L3: doublebond_intra_NdDe
+            L4: doublebond_intra_NdDe_secDe
+            L4: doublebond_intra_NdDe_secNd
             L4: doublebond_intra_NdDe_pri
                 L5: doublebond_intra_NdCd_pri
                 L5: doublebond_intra_NdCt_pri
-            L4: doublebond_intra_NdDe_secNd
-            L4: doublebond_intra_NdDe_secDe
         L3: doublebond_intra_DeDe
-            L4: doublebond_intra_DeDe_pri
-            L4: doublebond_intra_DeDe_secNd
             L4: doublebond_intra_DeDe_secDe
+            L4: doublebond_intra_DeDe_secNd
+            L4: doublebond_intra_DeDe_pri
+        L3: doublebond_intra_HDe
+            L4: doublebond_intra_HDe_secDe
+            L4: doublebond_intra_HDe_secNd
+            L4: doublebond_intra_HDe_pri
+                L5: doublebond_intra_HCd_pri
+                L5: doublebond_intra_HCt_pri
+        L3: doublebond_intra_HNd
+            L4: doublebond_intra_HNd_secDe
+            L4: doublebond_intra_HNd_secNd
+            L4: doublebond_intra_HNd_pri
+        L3: doublebond_intra_2H
+            L4: doublebond_intra_2H_secDe
+            L4: doublebond_intra_2H_secNd
+            L4: doublebond_intra_2H_pri
     L2: carbonylbond_intra
-        L3: carbonylbond_intra_H
-        L3: carbonylbond_intra_Nd
         L3: carbonylbond_intra_De
+        L3: carbonylbond_intra_Nd
+        L3: carbonylbond_intra_H
 L1: radadd_intra
     L2: radadd_intra_cs
-        L3: radadd_intra_cs2H
-        L3: radadd_intra_csHNd
-        L3: radadd_intra_csHDe
-            L4: radadd_intra_csHCd
-            L4: radadd_intra_csHCt
         L3: radadd_intra_csNdNd
         L3: radadd_intra_csNdDe
             L4: radadd_intra_csNdCd
             L4: radadd_intra_csNdCt
         L3: radadd_intra_csDeDe
+        L3: radadd_intra_csHDe
+            L4: radadd_intra_csHCd
+            L4: radadd_intra_csHCt
+        L3: radadd_intra_csHNd
+        L3: radadd_intra_cs2H
     L2: radadd_intra_O
     L2: radadd_intra_Cb
     L2: radadd_intra_cdsingle
