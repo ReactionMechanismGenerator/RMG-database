@@ -1358,8 +1358,9 @@ entry(
     label = "radadd_intra_cdsingleH",
     group = 
 """
-1 *1 Cd u1 {2,S}
+1 *1 Cd u1 {2,S} {3,D}
 2    H  u0 {1,S}
+3    Cd u0 {1,D}
 """,
     kinetics = None,
 )
@@ -1369,8 +1370,9 @@ entry(
     label = "radadd_intra_cdsingleNd",
     group = 
 """
-1 *1 Cd       u1 {2,S}
+1 *1 Cd       u1 {2,S} {3,D}
 2    [Cs,O,S] u0 {1,S}
+3    Cd u0 {1,D}
 """,
     kinetics = None,
 )
@@ -1380,19 +1382,21 @@ entry(
     label = "radadd_intra_cdsingleDe",
     group = 
 """
-1 *1 Cd            u1 {2,S}
+1 *1 Cd            u1 {2,S} {3,D}
 2    [Cd,Ct,Cb,CO] u0 {1,S}
+3    Cd u0 {1,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 160,
-    label = "radadd_intra_cddouble",
+    label = "radadd_intra_cdsingle_C",
     group = 
 """
-1 *1 Cd u1 {2,D}
+1 *1 Cd u1 {2,D} {3,S}
 2    Cd u0 {1,D}
+3    R  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1458,28 +1462,6 @@ L1: Rn
             L4: R9_SDSSSD
 L1: multiplebond_intra
     L2: doublebond_intra
-        L3: doublebond_intra_pri
-            L4: doublebond_intra_pri_2H
-            L4: doublebond_intra_pri_HNd
-            L4: doublebond_intra_pri_HDe
-                L5: doublebond_intra_pri_HCd
-                L5: doublebond_intra_pri_HCt
-            L4: doublebond_intra_pri_NdNd
-            L4: doublebond_intra_pri_NdDe
-                L5: doublebond_intra_pri_NdCd
-                L5: doublebond_intra_pri_NdCt
-            L4: doublebond_intra_pri_DeDe
-        L3: doublebond_intra_secNd
-            L4: doublebond_intra_secNd_2H
-            L4: doublebond_intra_secNd_HNd
-            L4: doublebond_intra_secNd_HDe
-                L5: doublebond_intra_secNd_HCd
-                L5: doublebond_intra_secNd_HCt
-            L4: doublebond_intra_secNd_NdNd
-            L4: doublebond_intra_secNd_NdDe
-                L5: doublebond_intra_secNd_NdCd
-                L5: doublebond_intra_secNd_NdCt
-            L4: doublebond_intra_secNd_DeDe
         L3: doublebond_intra_secDe
             L4: doublebond_intra_secDe_2H
             L4: doublebond_intra_secDe_HNd
@@ -1491,38 +1473,60 @@ L1: multiplebond_intra
                 L5: doublebond_intra_secDe_NdCd
                 L5: doublebond_intra_secDe_NdCt
             L4: doublebond_intra_secDe_DeDe
+        L3: doublebond_intra_secNd
+            L4: doublebond_intra_secNd_2H
+            L4: doublebond_intra_secNd_HNd
+            L4: doublebond_intra_secNd_HDe
+                L5: doublebond_intra_secNd_HCd
+                L5: doublebond_intra_secNd_HCt
+            L4: doublebond_intra_secNd_NdNd
+            L4: doublebond_intra_secNd_NdDe
+                L5: doublebond_intra_secNd_NdCd
+                L5: doublebond_intra_secNd_NdCt
+            L4: doublebond_intra_secNd_DeDe
+        L3: doublebond_intra_pri
+            L4: doublebond_intra_pri_2H
+            L4: doublebond_intra_pri_HNd
+            L4: doublebond_intra_pri_HDe
+                L5: doublebond_intra_pri_HCd
+                L5: doublebond_intra_pri_HCt
+            L4: doublebond_intra_pri_NdNd
+            L4: doublebond_intra_pri_NdDe
+                L5: doublebond_intra_pri_NdCd
+                L5: doublebond_intra_pri_NdCt
+            L4: doublebond_intra_pri_DeDe
     L2: triplebond_intra
-        L3: triplebond_intra_H
-        L3: triplebond_intra_Nd
         L3: triplebond_intra_De
+        L3: triplebond_intra_Nd
+        L3: triplebond_intra_H
     L2: carbonyl_intra
-        L3: carbonyl_intra_H
-        L3: carbonyl_intra_Nd
         L3: carbonyl_intra_De
+        L3: carbonyl_intra_Nd
+        L3: carbonyl_intra_H
     L2: thiyl_intra
-        L3: thiyl_intra_H
-        L3: thiyl_intra_Nd
         L3: thiyl_intra_De
+        L3: thiyl_intra_Nd
+        L3: thiyl_intra_H
 L1: radadd_intra
     L2: radadd_intra_cs
-        L3: radadd_intra_cs2H
-        L3: radadd_intra_csHNd
-        L3: radadd_intra_csHDe
-            L4: radadd_intra_csHCd
-            L4: radadd_intra_csHCt
         L3: radadd_intra_csNdNd
         L3: radadd_intra_csNdDe
             L4: radadd_intra_csNdCd
             L4: radadd_intra_csNdCt
         L3: radadd_intra_csDeDe
+        L3: radadd_intra_csHDe
+            L4: radadd_intra_csHCd
+            L4: radadd_intra_csHCt
+        L3: radadd_intra_csHNd
+        L3: radadd_intra_cs2H
     L2: radadd_intra_O
     L2: radadd_intra_S
     L2: radadd_intra_Cb
     L2: radadd_intra_cdsingle
-        L3: radadd_intra_cdsingleH
-        L3: radadd_intra_cdsingleNd
-        L3: radadd_intra_cdsingleDe
-    L2: radadd_intra_cddouble
+        L3: radadd_intra_cdsingle_C
+            L4: radadd_intra_cdsingleH
+            L4: radadd_intra_cdsingleNd
+            L4: radadd_intra_cdsingleDe
     L2: radadd_intra_CO
     L2: radadd_intra_Ct
 """
