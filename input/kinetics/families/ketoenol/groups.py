@@ -25,7 +25,7 @@ entry(
         label = 'R1_doublebond',
         group = 
 """
-1 *1 R u0
+1 *1 R!H u0
 """,
     kinetics = None,
 )
@@ -35,7 +35,7 @@ entry(
         label = 'R2_doublebond',
         group = 
 """
-1 *2 R u0
+1 *2 R!H u0
 """,
     kinetics = None,
 )
@@ -55,10 +55,10 @@ entry(
     label = "R_ROR",
     group = 
 """
-1 *1 R u0 {2,D}
-2 *2 R u0 {1,D} {3,S}
-3 *3 O u0 {2,S} {4,S}
-4 *4 R u0 {3,S}
+1 *1 R!H u0 {2,D}
+2 *2 R!H u0 {1,D} {3,S}
+3 *3 O   u0 {2,S} {4,S}
+4 *4 R   u0 {3,S}
 """,
     kinetics = None,
 )
@@ -211,16 +211,16 @@ tree(
 """
 L1: R_ROR
 L1: R1_doublebond
-    L2: R1_doublebond_CH2
     L2: R1_doublebond_CHR
         L3: R1_doublebond_CHCH3
     L2: R1_doublebond_S
+    L2: R1_doublebond_CH2
 L1: R2_doublebond
-    L2: R2_doublebond_H
     L2: R2_doublebond_Cs
         L3: R2_doublebond_CH3
         L3: R2_doublebond_CsC
             L4: R2_doublebond_CH2CH3
+    L2: R2_doublebond_H
 L1: R_O
     L2: R_O_H
     L2: R_O_R
