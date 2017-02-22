@@ -90,3 +90,63 @@ entry(
     ),
 )
 
+entry(
+    index = 8,
+    label = "C5H5CH3-5 <=> C5H5CH3-1",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (7.0333e+08, 's^-1'),
+        n = 1.2,
+        Ea = (24.8, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+)
+
+entry(
+    index = 9,
+    label = "C5H5CH3-1 <=> C5H5CH3-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.6539e+07, 's^-1'),
+        n = 2.1,
+        Ea = (25.1, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+)
+
+entry(
+    index = 10,
+    label = "fulvene + H2 <=> C5H5CH3-5",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.3943e-19, 'cm^3/(molecule*s)'),
+        n = 3.9,
+        Ea = (81.1, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+)
+
+entry(
+    index = 11,
+    label = "fulvene + H2 <=> C5H5CH3-1",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.0095e-16, 'cm^3/(molecule*s)'),
+        n = 1.4,
+        Ea = (71, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+)
+
+entry(
+    index = 12,
+    label = "fulvene + H2 <=> C5H5CH3-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.6943e-18, 'cm^3/(molecule*s)'),
+        n = 1.6,
+        Ea = (55.5, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+)
+

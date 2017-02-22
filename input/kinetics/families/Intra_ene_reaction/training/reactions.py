@@ -171,3 +171,31 @@ Taken from entry: pdt15 <=> pdt39
 """,
 )
 
+
+
+entry(
+    index = 12,
+    label = "C6H8 <=> C6H8-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(7.0333e+08, 's^-1'), n=1.2, Ea=(24.8, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: c-C5H5_CH3_Sharma_TST""",
+    longDesc = 
+u"""
+Taken from entry: C5H5CH3-5 <=> C5H5CH3-1
+""",
+)
+
+entry(
+    index = 13,
+    label = "C6H8-3 <=> C6H8-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.6539e+07, 's^-1'), n=2.1, Ea=(25.1, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: c-C5H5_CH3_Sharma_TST""",
+    longDesc = 
+u"""
+Taken from entry: C5H5CH3-1 <=> C5H5CH3-2
+""",
+)
+
