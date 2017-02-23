@@ -121,8 +121,8 @@ entry(
     group = 
 """
 1 *1 R!H            u1 {2,S}
-2 *4 [Cd,Ct,Cb]     u0 {1,S} {3,[B,T,D]}
-3 *5 [Cd,Ct,Cb]     u0 {2,[B,T,D]} {4,S}
+2 *4 [Cd,Ct,Cb]     u0 {1,S} {3,[D,T,B]}
+3 *5 [Cd,Ct,Cb]     u0 {2,[D,T,B]} {4,S}
 4 *2 [Cd,Ct,CO,N]     u0 {3,S} {5,[D,T]}
 5 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {4,[D,T]}
 """,
@@ -176,8 +176,8 @@ entry(
     label = "R5_MS",
     group = 
 """
-1 *1 R!H     u1 {2,[B,T,D]}
-2 *4 [Cd,Ct,Cb]     u0 {1,[B,T,D]} {3,S}
+1 *1 R!H     u1 {2,[D,T,B]}
+2 *4 [Cd,Ct,Cb]     u0 {1,[D,T,B]} {3,S}
 3 *5 R!H            u0 {2,S} {4,S}
 4 *2 [Cd,Ct,CO,N]     u0 {3,S} {5,[D,T]}
 5 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {4,[D,T]}
@@ -204,9 +204,9 @@ entry(
     label = "R5_MM",
     group = 
 """
-1 *1 R!H             u1 {2,[B,D]}
-2 *4 [Cdd,Cbf]      u0 {1,[B,D]} {3,[B,D]}
-3 *5 [Cb,Cd]        u0 {2,[B,D]} {4,S}
+1 *1 R!H             u1 {2,[D,B]}
+2 *4 [Cdd,Cbf]      u0 {1,[D,B]} {3,[D,B]}
+3 *5 [Cd,Cb]        u0 {2,[D,B]} {4,S}
 4 *2 [Cd,Ct,CO,N]     u0 {3,S} {5,[D,T]}
 5 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {4,[D,T]}
 """,
@@ -659,8 +659,8 @@ entry(
     label = "R7_MSMS",
     group = 
 """
-1 *1 R!H     u1 {2,[B,T,D]}
-2 *4 [Cd,Ct,Cb]     u0 {1,[B,T,D]} {3,S}
+1 *1 R!H     u1 {2,[D,T,B]}
+2 *4 [Cd,Ct,Cb]     u0 {1,[D,T,B]} {3,S}
 3 *6 [Cd,Ct,Cb]     u0 {2,S} {4,[D,T,B]}
 4 *7 [Cd,Ct,Cb]     u0 {3,[D,T,B]} {5,S}
 5 *5 R!H            u0 {4,S} {6,S}
@@ -755,9 +755,9 @@ entry(
     label = "R7_MMSR",
     group = 
 """
-1 *1 R!H        u1 {2,[B,D]}
-2 *4 [Cbf,Cdd]      u0 {1,[B,D]} {3,[B,D]}
-3 *6 [Cb,Cd]        u0 {2,[B,D]} {4,S}
+1 *1 R!H        u1 {2,[D,B]}
+2 *4 [Cdd,Cbf]      u0 {1,[D,B]} {3,[D,B]}
+3 *6 [Cd,Cb]        u0 {2,[D,B]} {4,S}
 4 *7 R!H            u0 {3,S} {5,[S,D,T,B]}
 5 *5 R!H            u0 {4,[S,D,T,B]} {6,S}
 6 *2 [Cd,Ct,CO,N]     u0 {5,S} {7,[D,T]}
@@ -773,9 +773,9 @@ entry(
 """
 1 *1 R!H            u1 {2,[S,D,T,B]}
 2 *4 R!H            u0 {1,[S,D,T,B]} {3,S}
-3 *6 [Cb,Cd]        u0 {2,S} {4,[D,B]}
-4 *7 [Cbf,Cdd]      u0 {3,[D,B]} {5,[D,B]}
-5 *5 [Cb,Cd]        u0 {4,[D,B]} {6,S}
+3 *6 [Cd,Cb]        u0 {2,S} {4,[D,B]}
+4 *7 [Cdd,Cbf]      u0 {3,[D,B]} {5,[D,B]}
+5 *5 [Cd,Cb]        u0 {4,[D,B]} {6,S}
 6 *2 [Cd,Ct,CO,N]     u0 {5,S} {7,[D,T]}
 7 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {6,[D,T]}
 """,
@@ -788,9 +788,9 @@ entry(
     group = 
 """
 1 *1 R!H            u1 {2,S}
-2 *4 [Cb,Cd]        u0 {1,S} {3,[D,B]}
-3 *6 [Cbf,Cdd]      u0 {2,[D,B]} {4,[D,B]}
-4 *7 [Cb,Cd]        u0 {3,[D,B]} {5,S}
+2 *4 [Cd,Cb]        u0 {1,S} {3,[D,B]}
+3 *6 [Cdd,Cbf]      u0 {2,[D,B]} {4,[D,B]}
+4 *7 [Cd,Cb]        u0 {3,[D,B]} {5,S}
 5 *5 R!H            u0 {4,S} {6,S}
 6 *2 [Cd,Ct,CO,N]     u0 {5,S} {7,[D,T]}
 7 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {6,[D,T]}
@@ -1490,8 +1490,9 @@ entry(
     label = "radadd_intra_cdsingleH",
     group = 
 """
-1 *1 Cd u1 {2,S}
+1 *1 Cd u1 {2,S} {3,D}
 2    H  u0 {1,S}
+3    Cd u0 {1,D}
 """,
     kinetics = None,
 )
@@ -1501,8 +1502,9 @@ entry(
     label = "radadd_intra_cdsingleNd",
     group = 
 """
-1 *1 Cd     u1 {2,S}
+1 *1 Cd     u1 {2,S} {3,D}
 2    [Cs,O,S] u0 {1,S}
+3    Cd u0 {1,D}
 """,
     kinetics = None,
 )
@@ -1512,19 +1514,21 @@ entry(
     label = "radadd_intra_cdsingleDe",
     group = 
 """
-1 *1 Cd            u1 {2,S}
+1 *1 Cd            u1 {2,S} {3,D}
 2    [Cd,Ct,Cb,CO] u0 {1,S}
+3    Cd u0 {1,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 240,
-    label = "radadd_intra_cddouble",
+    label = "radadd_intra_cdsingle_C",
     group = 
 """
-1 *1 Cd u1 {2,D}
+1 *1 Cd u1 {2,D} {3,S}
 2    Cd u0 {1,D}
+3    R  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1607,62 +1611,64 @@ L1: Rn
         L3: R8
         L3: R9
 L1: multiplebond_intra
+    L2: carbonylbond_intra
+        L3: carbonylbond_intra_De
+        L3: carbonylbond_intra_Nd
+        L3: carbonylbond_intra_H
     L2: doublebond_intra
-        L3: doublebond_intra_2H
-            L4: doublebond_intra_2H_pri
-            L4: doublebond_intra_2H_secNd
-            L4: doublebond_intra_2H_secDe
-        L3: doublebond_intra_HNd
-            L4: doublebond_intra_HNd_pri
-            L4: doublebond_intra_HNd_secNd
-            L4: doublebond_intra_HNd_secDe
-        L3: doublebond_intra_HDe
-            L4: doublebond_intra_HDe_pri
-                L5: doublebond_intra_HCd_pri
-                L5: doublebond_intra_HCt_pri
-            L4: doublebond_intra_HDe_secNd
-            L4: doublebond_intra_HDe_secDe
         L3: doublebond_intra_NdNd
-            L4: doublebond_intra_NdNd_pri
-            L4: doublebond_intra_NdNd_secNd
             L4: doublebond_intra_NdNd_secDe
+            L4: doublebond_intra_NdNd_secNd
+            L4: doublebond_intra_NdNd_pri
         L3: doublebond_intra_NdDe
+            L4: doublebond_intra_NdDe_secDe
+            L4: doublebond_intra_NdDe_secNd
             L4: doublebond_intra_NdDe_pri
                 L5: doublebond_intra_NdCd_pri
                 L5: doublebond_intra_NdCt_pri
-            L4: doublebond_intra_NdDe_secNd
-            L4: doublebond_intra_NdDe_secDe
         L3: doublebond_intra_DeDe
-            L4: doublebond_intra_DeDe_pri
-            L4: doublebond_intra_DeDe_secNd
             L4: doublebond_intra_DeDe_secDe
+            L4: doublebond_intra_DeDe_secNd
+            L4: doublebond_intra_DeDe_pri
+        L3: doublebond_intra_HDe
+            L4: doublebond_intra_HDe_secDe
+            L4: doublebond_intra_HDe_secNd
+            L4: doublebond_intra_HDe_pri
+                L5: doublebond_intra_HCd_pri
+                L5: doublebond_intra_HCt_pri
+        L3: doublebond_intra_HNd
+            L4: doublebond_intra_HNd_secDe
+            L4: doublebond_intra_HNd_secNd
+            L4: doublebond_intra_HNd_pri
+        L3: doublebond_intra_2H
+            L4: doublebond_intra_2H_secDe
+            L4: doublebond_intra_2H_secNd
+            L4: doublebond_intra_2H_pri
     L2: triplebond_intra
-        L3: triplebond_intra_H
-        L3: triplebond_intra_Nd
         L3: triplebond_intra_De
-    L2: carbonylbond_intra
-        L3: carbonylbond_intra_H
-        L3: carbonylbond_intra_Nd
-        L3: carbonylbond_intra_De
+        L3: triplebond_intra_Nd
+        L3: triplebond_intra_H
 L1: radadd_intra
+
+    L2: radadd_intra_cdsingle
+        L3: radadd_intra_cdsingle_C
+            L4: radadd_intra_cdsingleDe
+            L4: radadd_intra_cdsingleNd
+            L4: radadd_intra_cdsingleH
     L2: radadd_intra_cs
-        L3: radadd_intra_cs2H
-        L3: radadd_intra_csHNd
-        L3: radadd_intra_csHDe
-            L4: radadd_intra_csHCd
-            L4: radadd_intra_csHCt
         L3: radadd_intra_csNdNd
         L3: radadd_intra_csNdDe
             L4: radadd_intra_csNdCd
             L4: radadd_intra_csNdCt
         L3: radadd_intra_csDeDe
+        L3: radadd_intra_csHDe
+            L4: radadd_intra_csHCd
+            L4: radadd_intra_csHCt
+        L3: radadd_intra_csHNd
+        L3: radadd_intra_cs2H
     L2: radadd_intra_O
     L2: radadd_intra_Cb
-    L2: radadd_intra_cdsingle
-        L3: radadd_intra_cdsingleH
-        L3: radadd_intra_cdsingleNd
-        L3: radadd_intra_cdsingleDe
-    L2: radadd_intra_cddouble
+    
     L2: radadd_intra_CO
     L2: radadd_intra_Ct
 """
