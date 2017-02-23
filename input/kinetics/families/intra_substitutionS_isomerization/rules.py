@@ -23,7 +23,7 @@ entry(
 
 entry(
     index = 2,
-    label = "XSR3J_S;CsJ-3-SsHH;S-Cs(HHH)Ss",
+    label = "XSR3J_S;CsJ-SsHH;S-Cs(HHH)Ss",
     kinetics = ArrheniusEP(
         A = (3.29e+11, 's^-1'),
         n = 0.211,
