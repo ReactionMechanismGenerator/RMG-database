@@ -8,7 +8,7 @@ longDesc = u"""
 """
 entry(
     index = 812,
-    label = "RnOO;Y_rad_intra;OO_intra",
+    label = "RnOO;Y_rad_intra",
     kinetics = ArrheniusEP(
         A = (1e+11, 's^-1'),
         n = 0,
@@ -22,7 +22,7 @@ entry(
 
 entry(
     index = 813,
-    label = "R2OO_S;C_pri_rad_intra;OOH",
+    label = "R2OOH_S;C_pri_rad_intra",
     kinetics = ArrheniusEP(
         A = (3.98e+12, 's^-1', '*|/', 1.2),
         n = 0,
@@ -37,7 +37,7 @@ entry(
 
 entry(
     index = 813,
-    label = "R2OO_S;C_pri_rad_intra;OOR",
+    label = "R2OOR_S;C_pri_rad_intra",
     kinetics = ArrheniusEP(
         A = (3.98e+12, 's^-1', '*|/', 1.2),
         n = 0,
@@ -52,7 +52,7 @@ entry(
 
 entry(
     index = 814,
-    label = "R2OO_S;C_sec_rad_intra;OOH",
+    label = "R2OOH_S;C_sec_rad_intra",
     kinetics = ArrheniusEP(
         A = (1.38e+12, 's^-1', '*|/', 1.2),
         n = 0,
@@ -67,7 +67,7 @@ entry(
 
 entry(
     index = 814,
-    label = "R2OO_S;C_sec_rad_intra;OOR",
+    label = "R2OOR_S;C_sec_rad_intra",
     kinetics = ArrheniusEP(
         A = (1.38e+12, 's^-1', '*|/', 1.2),
         n = 0,
@@ -82,7 +82,7 @@ entry(
 
 entry(
     index = 815,
-    label = "R2OO_S;C_ter_rad_intra;OOR",
+    label = "R2OOR_S;C_ter_rad_intra",
     kinetics = ArrheniusEP(
         A = (3.09e+12, 's^-1', '*|/', 1.2),
         n = 0,
@@ -97,7 +97,7 @@ entry(
 
 entry(
     index = 815,
-    label = "R2OO_S;C_ter_rad_intra;OOH",
+    label = "R2OOH_S;C_ter_rad_intra",
     kinetics = ArrheniusEP(
         A = (3.09e+12, 's^-1', '*|/', 1.2),
         n = 0,
@@ -112,7 +112,7 @@ entry(
 
 entry(
     index = 816,
-    label = "R3OO_SS;C_pri_rad_intra;OOH",
+    label = "R3OOH_SS;C_pri_rad_intra",
     kinetics = ArrheniusEP(
         A = (4.47e+11, 's^-1', '*|/', 1.74),
         n = 0,
@@ -127,7 +127,7 @@ entry(
 
 entry(
     index = 816,
-    label = "R3OO_SS;C_pri_rad_intra;OOR",
+    label = "R3OOR_SS;C_pri_rad_intra",
     kinetics = ArrheniusEP(
         A = (4.47e+11, 's^-1', '*|/', 1.74),
         n = 0,
@@ -142,7 +142,7 @@ entry(
 
 entry(
     index = 817,
-    label = "R3OO_SS;C_sec_rad_intra;OOH",
+    label = "R3OOH_SS;C_sec_rad_intra",
     kinetics = ArrheniusEP(
         A = (2.04e+11, 's^-1', '*|/', 1.74),
         n = 0,
@@ -157,7 +157,7 @@ entry(
 
 entry(
     index = 817,
-    label = "R3OO_SS;C_sec_rad_intra;OOR",
+    label = "R3OOR_SS;C_sec_rad_intra",
     kinetics = ArrheniusEP(
         A = (2.04e+11, 's^-1', '*|/', 1.74),
         n = 0,
@@ -172,7 +172,7 @@ entry(
 
 entry(
     index = 818,
-    label = "R3OO_SS;C_ter_rad_intra;OOR",
+    label = "R3OOR_SS;C_ter_rad_intra",
     kinetics = ArrheniusEP(
         A = (3.31e+11, 's^-1', '*|/', 1.74),
         n = 0,
@@ -187,7 +187,7 @@ entry(
 
 entry(
     index = 818,
-    label = "R3OO_SS;C_ter_rad_intra;OOH",
+    label = "R3OOH_SS;C_ter_rad_intra",
     kinetics = ArrheniusEP(
         A = (3.31e+11, 's^-1', '*|/', 1.74),
         n = 0,
@@ -202,7 +202,7 @@ entry(
 
 entry(
     index = 819,
-    label = "R4OO_SSS;C_pri_rad_intra;OOR",
+    label = "R4OOR_SSS;C_pri_rad_intra",
     kinetics = ArrheniusEP(
         A = (5.13e+10, 's^-1', '*|/', 1.41),
         n = 0,
@@ -217,7 +217,7 @@ entry(
 
 entry(
     index = 819,
-    label = "R4OO_SSS;C_pri_rad_intra;OOH",
+    label = "R4OOH_SSS;C_pri_rad_intra",
     kinetics = ArrheniusEP(
         A = (5.13e+10, 's^-1', '*|/', 1.41),
         n = 0,
@@ -232,7 +232,7 @@ entry(
 
 entry(
     index = 820,
-    label = "R4OO_SSS;C_sec_rad_intra;OOR",
+    label = "R4OOR_SSS;C_sec_rad_intra",
     kinetics = ArrheniusEP(
         A = (3.63e+10, 's^-1', '*|/', 1.41),
         n = 0,
@@ -247,7 +247,7 @@ entry(
 
 entry(
     index = 820,
-    label = "R4OO_SSS;C_sec_rad_intra;OOH",
+    label = "R4OOH_SSS;C_sec_rad_intra",
     kinetics = ArrheniusEP(
         A = (3.63e+10, 's^-1', '*|/', 1.41),
         n = 0,
@@ -262,7 +262,7 @@ entry(
 
 entry(
     index = 821,
-    label = "R4OO_SSS;C_ter_rad_intra;OOR",
+    label = "R4OOR_SSS;C_ter_rad_intra",
     kinetics = ArrheniusEP(
         A = (2.57e+10, 's^-1', '*|/', 1.41),
         n = 0,
@@ -277,7 +277,7 @@ entry(
 
 entry(
     index = 821,
-    label = "R4OO_SSS;C_ter_rad_intra;OOH",
+    label = "R4OOH_SSS;C_ter_rad_intra",
     kinetics = ArrheniusEP(
         A = (2.57e+10, 's^-1', '*|/', 1.41),
         n = 0,
@@ -292,7 +292,7 @@ entry(
 
 entry(
     index = 822,
-    label = "R2OO_S;Cs_rad_intra;OOR",
+    label = "R2OOR_S;Cs_rad_intra",
     kinetics = ArrheniusEP(
         A = (6e+11, 's^-1'),
         n = 0,
@@ -307,7 +307,7 @@ entry(
 
 entry(
     index = 822,
-    label = "R2OO_S;Cs_rad_intra;OOH",
+    label = "R2OOH_S;Cs_rad_intra",
     kinetics = ArrheniusEP(
         A = (6e+11, 's^-1'),
         n = 0,
@@ -322,7 +322,7 @@ entry(
 
 entry(
     index = 823,
-    label = "R3OO_SS;Cs_rad_intra;OOR",
+    label = "R3OOR_SS;Cs_rad_intra",
     kinetics = ArrheniusEP(
         A = (7.5e+10, 's^-1'),
         n = 0,
@@ -337,7 +337,7 @@ entry(
 
 entry(
     index = 823,
-    label = "R3OO_SS;Cs_rad_intra;OOH",
+    label = "R3OOH_SS;Cs_rad_intra",
     kinetics = ArrheniusEP(
         A = (7.5e+10, 's^-1'),
         n = 0,
@@ -352,7 +352,7 @@ entry(
 
 entry(
     index = 824,
-    label = "R4OO_SSS;Cs_rad_intra;OOR",
+    label = "R4OOR_SSS;Cs_rad_intra",
     kinetics = ArrheniusEP(
         A = (9.38e+09, 's^-1'),
         n = 0,
@@ -367,7 +367,7 @@ entry(
 
 entry(
     index = 824,
-    label = "R4OO_SSS;Cs_rad_intra;OOH",
+    label = "R4OOH_SSS;Cs_rad_intra",
     kinetics = ArrheniusEP(
         A = (9.38e+09, 's^-1'),
         n = 0,
@@ -382,7 +382,7 @@ entry(
 
 entry(
     index = 825,
-    label = "R5OO_SSSS;Cs_rad_intra;OOH",
+    label = "R5OOH_SSSS;Cs_rad_intra",
     kinetics = ArrheniusEP(
         A = (1.17e+09, 's^-1'),
         n = 0,
@@ -397,7 +397,7 @@ entry(
 
 entry(
     index = 825,
-    label = "R5OO_SSSS;Cs_rad_intra;OOR",
+    label = "R5OOR_SSSS;Cs_rad_intra",
     kinetics = ArrheniusEP(
         A = (1.17e+09, 's^-1'),
         n = 0,
@@ -412,7 +412,7 @@ entry(
 
 entry(
     index = 826,
-    label = "R5OO_SSSSCO;Cs_rad_intra;OOR",
+    label = "R5OOR_SSSSCO;Cs_rad_intra",
     kinetics = ArrheniusEP(
         A = (1.27e+08, 's^-1'),
         n = 0.77,
@@ -427,7 +427,7 @@ entry(
 
 entry(
     index = 826,
-    label = "R5OO_SSSSCO;Cs_rad_intra;OOH",
+    label = "R5OOH_SSSSCO;Cs_rad_intra",
     kinetics = ArrheniusEP(
         A = (1.27e+08, 's^-1'),
         n = 0.77,
@@ -442,7 +442,7 @@ entry(
 
 entry(
     index = 827,
-    label = "R2OO_SCO;Cs_rad_intra;OOR",
+    label = "R2OOR_SCO;Cs_rad_intra",
     kinetics = ArrheniusEP(
         A = (6.92e+15, 's^-1'),
         n = -0.53,
@@ -457,7 +457,7 @@ entry(
 
 entry(
     index = 827,
-    label = "R2OO_SCO;Cs_rad_intra;OOH",
+    label = "R2OOH_SCO;Cs_rad_intra",
     kinetics = ArrheniusEP(
         A = (6.92e+15, 's^-1'),
         n = -0.53,
@@ -472,7 +472,7 @@ entry(
 
 entry(
     index = 828,
-    label = "R4OO_SSSCO;Cs_rad_intra;OOR",
+    label = "R4OOR_SSSCO;Cs_rad_intra",
     kinetics = ArrheniusEP(
         A = (1.27e+08, 's^-1'),
         n = 0.77,
@@ -487,7 +487,7 @@ entry(
 
 entry(
     index = 828,
-    label = "R4OO_SSSCO;Cs_rad_intra;OOH",
+    label = "R4OOH_SSSCO;Cs_rad_intra",
     kinetics = ArrheniusEP(
         A = (1.27e+08, 's^-1'),
         n = 0.77,
@@ -502,7 +502,7 @@ entry(
 
 entry(
     index = 829,
-    label = "R3OO_SSCO;Cs_rad_intra;OOH",
+    label = "R3OOH_SSCO;Cs_rad_intra",
     kinetics = ArrheniusEP(
         A = (1.27e+08, 's^-1'),
         n = 0.77,
@@ -517,7 +517,7 @@ entry(
 
 entry(
     index = 829,
-    label = "R3OO_SSCO;Cs_rad_intra;OOR",
+    label = "R3OOR_SSCO;Cs_rad_intra",
     kinetics = ArrheniusEP(
         A = (1.27e+08, 's^-1'),
         n = 0.77,
@@ -532,7 +532,7 @@ entry(
 
 entry(
     index = 830,
-    label = "R2OO_S;C_pri_rad_intra;OOJ",
+    label = "R2OOJ_S;C_pri_rad_intra",
     kinetics = ArrheniusEP(
         A = (1.62e+09, 's^-1'),
         n = 1.1,
@@ -547,7 +547,7 @@ entry(
 
 entry(
     index = 831,
-    label = "R2OO_S;C_pri_rad_intra;OOJ",
+    label = "R2OOJ_S;C_pri_rad_intra",
     kinetics = ArrheniusEP(
         A = (1.61e+09, 's^-1'),
         n = 1.09,
@@ -562,7 +562,7 @@ entry(
 
 entry(
     index = 832,
-    label = "R2OO_S;C_rad/H/NonDeC_intra;OOJ",
+    label = "R2OOJ_S;C_rad/H/NonDeC_intra",
     kinetics = ArrheniusEP(
         A = (3.27e+09, 's^-1'),
         n = 1.06,
