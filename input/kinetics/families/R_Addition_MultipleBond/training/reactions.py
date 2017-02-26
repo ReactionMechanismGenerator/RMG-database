@@ -1513,18 +1513,18 @@ Taken from entry: c6-C6H9 <=> H + C6H8-c6-14
 """,
 )
 
-entry(
-    index = 97,
-    label = "C6H9-11 <=> C5H6-2 + CH3",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(4.961e+11, 's^-1'), n=0.717, Ea=(38.962, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2015_Buras_Vinyl_1_3_Butadiene""",
-    longDesc = 
-u"""
-Taken from entry: c5-C6H9-2 <=> C5H6 + CH3
-""",
-)
+# entry(
+#     index = 97,
+#     label = "C6H9-11 <=> C5H6-2 + CH3",
+#     degeneracy = 1,
+#     kinetics = Arrhenius(A=(4.961e+11, 's^-1'), n=0.717, Ea=(38.962, 'kcal/mol'), T0=(1, 'K')),
+#     rank = 3,
+#     shortDesc = u"""Training reaction from kinetics library: 2015_Buras_Vinyl_1_3_Butadiene""",
+#     longDesc =
+# u"""
+# Taken from entry: c5-C6H9-2 <=> C5H6 + CH3
+# """,
+# )
 
 
 
@@ -2133,6 +2133,21 @@ entry(
     longDesc = 
 u"""
 Taken from entry: p2 + H <=> i6
+""",
+)
+
+
+
+entry(
+    index = 134,
+    label = "C6H9-11 <=> C5H6-2 + CH3",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(9.89e+14, 's^-1'), n=0, Ea=(38.9, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Wang_K_C6H9""",
+    longDesc = 
+u"""
+Taken from entry: Well_5 <=> CH3 + CPD
 """,
 )
 
