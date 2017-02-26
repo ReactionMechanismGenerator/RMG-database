@@ -2676,7 +2676,7 @@ u"""
 entry(
     index = 182,
     label = "1,3-cyclopentadiene-allyl",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {6,S}
 2   Cd u0 {1,S} {4,D}
@@ -2687,14 +2687,15 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.54,-1.82,-2.08,-2.32,-2.75,-3.14,-3.85],'cal/(mol*K)'),
-        H298 = (82.6,'kcal/mol'),
-        S298 = (-3.81,'cal/(mol*K)'),
+        Cpdata = ([2.157, 0.892, -0.937, -2.776, -4.931, -3.793, -4.855],'cal/(mol*K)'),
+        H298 = (84.912,'kcal/mol'),
+        S298 = (-2.047,'cal/(mol*K)'),
     ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
-    longDesc = 
+    shortDesc = u"""Combined experimental and theoretical results of Tranter for 1,2-CPD'yl""",
+    longDesc =
 u"""
-
+Absolute Enthalpy of formation at 298 K from experiment (1998 Kern and Tranter).
+All other  values from theory (2001 Kiefer and Tranter).
 """,
 )
 
