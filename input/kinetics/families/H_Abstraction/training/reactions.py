@@ -1696,3 +1696,31 @@ Taken from entry: C9H8(21) + H(15) <=> C9H7(22) + H2(23)
 """,
 )
 
+
+
+entry(
+    index = 1021,
+    label = "C4H6-2 + C6H5 <=> C6H6 + C4H5-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(8710, 'cm^3/(mol*s)'), n=3.12, Ea=(8.1, 'kJ/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2005_Ismail_C6H5_C4H6""",
+    longDesc = 
+u"""
+Taken from entry: phenyl + (1_3)butadiene <=> benzene + (1_3)butadien_2_yl
+""",
+)
+
+entry(
+    index = 1022,
+    label = "C4H6 + C6H5 <=> C6H6 + C4H5",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(31600, 'cm^3/(mol*s)'), n=3.11, Ea=(16.7, 'kJ/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2005_Ismail_C6H5_C4H6""",
+    longDesc = 
+u"""
+Taken from entry: phenyl + (1_3)butadiene <=> benzene + (1_3)butadien_1_yl
+""",
+)
+

@@ -898,3 +898,18 @@ Taken from entry: W8_9 <=> W15
 """,
 )
 
+
+
+entry(
+    index = 67,
+    label = "C10H11-31 <=> C10H11-32",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(324000, 's^-1'), n=1.64, Ea=(110.61, 'kJ/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2005_Ismail_C6H5_C4H6""",
+    longDesc = 
+u"""
+Taken from entry: (4)phenyl_buten_3_yl <=> trihydronaphthalene
+""",
+)
+

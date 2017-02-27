@@ -2566,3 +2566,59 @@ Taken from entry: Indene + CH3 <=> W2
 """,
 )
 
+
+
+entry(
+    index = 158,
+    label = "C4H6 + C6H5 <=> C10H11-23",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(813000, 'cm^3/(mol*s)'), n=2.56, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2005_Ismail_C6H5_C4H6""",
+    longDesc = 
+u"""
+Taken from entry: phenyl + (1_3)butadiene <=> (4)phenyl_buten_3_yl
+""",
+)
+
+entry(
+    index = 159,
+    label = "C4H6-2 + C6H5 <=> C10H11-24",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(47900, 'cm^3/(mol*s)'), n=2.65, Ea=(16.7, 'kJ/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2005_Ismail_C6H5_C4H6""",
+    longDesc = 
+u"""
+Taken from entry: phenyl + (1_3)butadiene <=> (3)phenyl_buten_4_yl
+""",
+)
+
+entry(
+    index = 160,
+    label = "C10H11-25 <=> C10H10-15 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(6.61e+07, 's^-1'), n=2.11, Ea=(161.62, 'kJ/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2005_Ismail_C6H5_C4H6""",
+    longDesc = 
+u"""
+Taken from entry: (4)phenyl_buten_3_yl <=> (1)phenyl_1_3_butadiene + H
+""",
+)
+
+
+
+entry(
+    index = 161,
+    label = "C10H11-17 <=> C10H10-11 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.38e+10, 's^-1'), n=1.25, Ea=(92.6, 'kJ/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2005_Ismail_C6H5_C4H6""",
+    longDesc = 
+u"""
+Taken from entry: trihydronaphthalene <=> (1_4)dihydro_naphthalene + H
+""",
+)
+
