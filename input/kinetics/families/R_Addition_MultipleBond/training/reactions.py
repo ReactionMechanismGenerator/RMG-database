@@ -2474,3 +2474,95 @@ Taken from entry: Indene + H <=> W18
 """,
 )
 
+
+
+entry(
+    index = 153,
+    label = "C10H10-12 + H <=> C10H11-18",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.059e+08, 'cm^3/(mol*s)'),
+        n = 1.596,
+        Ea = (4.69, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_Indene_CH3""",
+    longDesc = 
+u"""
+Taken from entry: (3)methylindene + H <=> W1
+""",
+)
+
+entry(
+    index = 154,
+    label = "C10H10-13 + H <=> C10H11-19",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5.904e+08, 'cm^3/(mol*s)'),
+        n = 1.534,
+        Ea = (3.418, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_Indene_CH3""",
+    longDesc = 
+u"""
+Taken from entry: (1)methylindene + H <=> W1
+""",
+)
+
+entry(
+    index = 155,
+    label = "C9H8-6 + CH3 <=> C10H11-20",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3206, 'cm^3/(mol*s)'),
+        n = 2.611,
+        Ea = (8.195, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_Indene_CH3""",
+    longDesc = 
+u"""
+Taken from entry: Indene + CH3 <=> W1
+""",
+)
+
+entry(
+    index = 156,
+    label = "C10H10-14 + H <=> C10H11-21",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.441e+08, 'cm^3/(mol*s)'),
+        n = 1.514,
+        Ea = (2.403, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_Indene_CH3""",
+    longDesc = 
+u"""
+Taken from entry: (2)methylindene + H <=> W2
+""",
+)
+
+entry(
+    index = 157,
+    label = "C9H8-7 + CH3 <=> C10H11-22",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5064, 'cm^3/(mol*s)'),
+        n = 2.608,
+        Ea = (5.867, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_Indene_CH3""",
+    longDesc = 
+u"""
+Taken from entry: Indene + CH3 <=> W2
+""",
+)
+
