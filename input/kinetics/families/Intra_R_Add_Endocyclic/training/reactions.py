@@ -1644,3 +1644,31 @@ Taken from entry: product25 <=> product26
 """,
 )
 
+
+
+entry(
+    index = 78,
+    label = "C9H9-5 <=> C9H9-6",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(6.999e+07, 's^-1'), n=0.942, Ea=(10.168, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H9""",
+    longDesc = 
+u"""
+Taken from entry: W21 <=> W22
+""",
+)
+
+entry(
+    index = 79,
+    label = "C9H9-7 <=> C9H9-8",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.315e+10, 's^-1'), n=0.447, Ea=(22.628, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H9""",
+    longDesc = 
+u"""
+Taken from entry: W45 <=> W23
+""",
+)
+

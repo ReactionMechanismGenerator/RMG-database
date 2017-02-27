@@ -955,3 +955,161 @@ Taken from entry: i4_9 <=> i20
 """,
 )
 
+
+
+entry(
+    index = 68,
+    label = "C9H9-9 <=> C9H9-10",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.75e+11, 's^-1'), n=0.633, Ea=(46.955, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H9""",
+    longDesc = 
+u"""
+Taken from entry: W1_2 <=> W5
+""",
+)
+
+entry(
+    index = 69,
+    label = "C9H9-11 <=> C9H9-12",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(401300, 's^-1'), n=2.064, Ea=(37.093, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H9""",
+    longDesc = 
+u"""
+Taken from entry: W1_2 <=> W8_9
+""",
+)
+
+entry(
+    index = 70,
+    label = "C9H9-13 <=> C9H9-14",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.915e+06, 's^-1'), n=1.697, Ea=(19.915, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H9""",
+    longDesc = 
+u"""
+Taken from entry: W3_4 <=> W13
+""",
+)
+
+entry(
+    index = 71,
+    label = "C9H9-15 <=> C9H9-16",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(240, 's^-1'), n=2.932, Ea=(30.907, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H9""",
+    longDesc = 
+u"""
+Taken from entry: W3_4 <=> W6
+""",
+)
+
+entry(
+    index = 72,
+    label = "C9H9-17 <=> C9H9-18",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(53440, 's^-1'), n=2.305, Ea=(38.286, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H9""",
+    longDesc = 
+u"""
+Taken from entry: W5 <=> W8_9
+""",
+)
+
+entry(
+    index = 73,
+    label = "C9H9-19 <=> C9H9-20",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.166e+07, 's^-1'), n=1.625, Ea=(37.367, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H9""",
+    longDesc = 
+u"""
+Taken from entry: W6 <=> W13
+""",
+)
+
+entry(
+    index = 74,
+    label = "C9H9-21 <=> C9H9-22",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(420000, 's^-1'), n=2.094, Ea=(61.014, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H9""",
+    longDesc = 
+u"""
+Taken from entry: W8_9 <=> W20
+""",
+)
+
+entry(
+    index = 75,
+    label = "C9H9-23 <=> C9H9-24",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(7.5e+08, 's^-1'), n=0.835, Ea=(58.13, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H9""",
+    longDesc = 
+u"""
+Taken from entry: W8_9 <=> W11
+""",
+)
+
+entry(
+    index = 76,
+    label = "C9H9-25 <=> C9H9-26",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.45e+06, 's^-1'), n=1.572, Ea=(60.563, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H9""",
+    longDesc = 
+u"""
+Taken from entry: W8_9 <=> W21
+""",
+)
+
+entry(
+    index = 77,
+    label = "C9H9-27 <=> C9H9-28",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.286e+08, 's^-1'), n=1.323, Ea=(24.182, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H9""",
+    longDesc = 
+u"""
+Taken from entry: W11 <=> W21
+""",
+)
+
+entry(
+    index = 78,
+    label = "C9H9-29 <=> C9H9-30",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.37e+08, 's^-1'), n=1.713, Ea=(43.474, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H9""",
+    longDesc = 
+u"""
+Taken from entry: W11 <=> W20
+""",
+)
+
+entry(
+    index = 79,
+    label = "C9H9-31 <=> C9H9-32",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(59980, 's^-1'), n=1.941, Ea=(8.652, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H9""",
+    longDesc = 
+u"""
+Taken from entry: W21 <=> W20
+""",
+)
+

@@ -4786,6 +4786,44 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 353,
+    label = "radadd_intra_cd_Cs",
+    group =
+"""
+1 *1 Cd     u1 {2,S}
+2    Cs     u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 354,
+    label = "R4_S_(Cd)_D",
+    group =
+"""
+1 *1 R!H      u1 {2,S}
+2 *4 Cd       u0 {1,S} {3,S}
+3 *2 Cd       u0 {2,S} {4,D}
+4 *3 [Cd,Cdd] u0 {3,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 355,
+    label = "R5_SB",
+    group =
+"""
+1 *1 R!H                 u1 {2,S}
+2 *4 Cb                  u0 {1,S} {3,B}
+3 *5 Cb                  u0 {2,B} {4,S}
+4 *2 [Cd,Ct,CO,N,CS]     u0 {3,S} {5,[D,T]}
+5 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {4,[D,T]}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Rn
@@ -4902,6 +4940,7 @@ L1: Rn
                 L5: R4_intra_7_member_ring_S_D
         L3: R4_S
             L4: R4_S_D
+                L5: R4_S_(Cd)_D
             L4: R4_S_T
             L4: R4_S_CO
         L3: R4_D
@@ -4931,6 +4970,7 @@ L1: Rn
                 L5: R5_ST_D
                 L5: R5_ST_T
                 L5: R5_ST_CO
+            L4: R5_SB
         L3: R5_MS
             L4: R5_DS
                 L5: R5_DS_D
@@ -5110,8 +5150,9 @@ L1: radadd_intra
     L2: radadd_intra_cdsingle
         L3: radadd_intra_cdsingleH
         L3: radadd_intra_cdsingleNd
+            L4: radadd_intra_cd_Cs
         L3: radadd_intra_cdsingleDe
-	    L4:radadd_intra_cdsingleDe_cb
+	        L4:radadd_intra_cdsingleDe_cb
     L2: radadd_intra_cddouble
     L2: radadd_intra_CO
     L2: radadd_intra_Ct
