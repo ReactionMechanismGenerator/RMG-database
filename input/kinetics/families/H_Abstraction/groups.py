@@ -6386,6 +6386,71 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 442,
+    label = "1_methyl_CPD",
+    group =
+"""
+1 *1 C u0 {2,S} {7,S}
+2  C u0 {1,S} {3,D} {6,S}
+3  C u0 {2,D} {4,S}
+4  C u0 {3,S} {5,D}
+5  C u0 {4,D} {6,S}
+6  C u0 {2,S} {5,S}
+7 *2 H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 443,
+    label = "2_methyl_CPD",
+    group =
+"""
+1 *1 C u0 {3,S} {7,S}
+2  C u0 {3,D} {6,S}
+3  C u0 {2,D} {4,S} {1,S}
+4  C u0 {3,S} {5,D}
+5  C u0 {4,D} {6,S}
+6  C u0 {2,S} {5,S}
+7 *2 H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 444,
+    label = "C/H3/Cs\TwoDe",
+    group =
+"""
+1 *1 C        u0 {2,S} {3,S} {4,S} {5,S}
+2    Cs       u0 {1,S} {6,S} {7,S} {8,S}
+3 *2 H        u0 {1,S}
+4    H        u0 {1,S}
+5    H        u0 {1,S}
+6    [Cd,CO,Cb,Ct] u0 {2,S}
+7    [Cd,CO,Cb,Ct] u0 {2,S}
+8    H        u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 445,
+    label = "5_methyl_CPD",
+    group =
+"""
+1 *1 C u0 {6,S} {7,S}
+2  C u0 {3,D} {6,S}
+3  C u0 {2,D} {4,S}
+4  C u0 {3,S} {5,D}
+5  C u0 {4,D} {6,S}
+6  C u0 {2,S} {5,S} {1,S}
+7 *2 H u0 {1,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
@@ -6469,6 +6534,8 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                     L6: C/H3/Cs\TwoNonDe
                         L7: C/H3/Cs\H\Cs\O
                         L7: C/H3/Cs\H\Cs\Cs|O
+                    L6: C/H3/Cs\TwoDe
+                        L7: 5_methyl_CPD
                 L5: C/H3/O
                 L5: C/H3/S
                 L5: C/H3/OneDe
@@ -6476,6 +6543,8 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                     L6: C/H3/Cb
                     L6: C/H3/CO
                     L6: C/H3/Cd
+                        L7: 1_methyl_CPD
+                        L7: 2_methyl_CPD
                         L7: C/H3/Cd\H_Cd\H2
                         L7: C/H3/Cd\H_Cd\H\Cs
                         L7: C/H3/Cd\Cs_Cd\H2

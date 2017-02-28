@@ -1724,3 +1724,57 @@ Taken from entry: phenyl + (1_3)butadiene <=> benzene + (1_3)butadien_1_yl
 """,
 )
 
+entry(
+    index = 1023,
+    label = "C6H8 + H <=> H2 + C6H7",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (23.121e+06, 'cm^3/(mol*s)'),
+        n = 2.007,
+        Ea = (4.132, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Methyl_CPD_H_abs""",
+    longDesc =
+u"""
+Taken from entry: (1)methyl_CPD + H <=> (1)methyl_CPD_1_yl + H2
+""",
+)
+
+entry(
+    index = 1024,
+    label = "C6H8-2 + H <=> H2 + C6H7-2",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (2792400, 'cm^3/(mol*s)'),
+        n = 2.265,
+        Ea = (3.244, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Methyl_CPD_H_abs""",
+    longDesc =
+u"""
+Taken from entry: (2)methyl_CPD + H <=> (2)methyl_CPD_2_yl + H2
+""",
+)
+
+entry(
+    index = 1025,
+    label = "C6H8-3 + H <=> H2 + C6H7-3",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (1254300, 'cm^3/(mol*s)'),
+        n = 2.424,
+        Ea = (7.318, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Methyl_CPD_H_abs""",
+    longDesc =
+u"""
+Taken from entry: (5)methyl_CPD + H <=> (5)methyl_CPD_5_yl + H2
+""",
+)
+
