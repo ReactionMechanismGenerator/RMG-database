@@ -448,3 +448,18 @@ Taken from entry: phenyl(16) + C3H3(9) <=> C9H8(21)
 """,
 )
 
+
+
+entry(
+    index = 22,
+    label = "C10H9 <=> C10H8-2 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.89e+16, 's^-1'), n=-0.28, Ea=(68.378, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W111 <=> P114 + H
+""",
+)
+

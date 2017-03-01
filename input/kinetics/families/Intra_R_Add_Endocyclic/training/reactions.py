@@ -1672,6 +1672,7 @@ Taken from entry: W45 <=> W23
 """,
 )
 
+<<<<<<< 0823044629769bb1d204a06bc4dea7fd14149ecd
 
 
 entry(
@@ -1687,3 +1688,85 @@ Taken from entry: A8 <=> A9
 """,
 )
 
+=======
+
+
+entry(
+    index = 80,
+    label = "C10H9-9 <=> C10H9-10",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.57e+10, 's^-1'), n=0.43, Ea=(1.924, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W5 <=> W6
+""",
+)
+
+entry(
+    index = 81,
+    label = "C10H9-11 <=> C10H9-12",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.017e+13, 's^-1'), n=0.272, Ea=(49.677, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W102 <=> W103
+""",
+)
+
+entry(
+    index = 82,
+    label = "C10H9-13 <=> C10H9-14",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.69e+10, 's^-1'), n=0.239, Ea=(33.778, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W103 <=> W104
+""",
+)
+
+entry(
+    index = 83,
+    label = "C10H9-15 <=> C10H9-16",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.279e+13, 's^-1'), n=0.395, Ea=(53.699, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W108 <=> W111
+""",
+)
+
+entry(
+    index = 84,
+    label = "C10H9-17 <=> C10H9-18",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.473e+12, 's^-1'), n=0.247, Ea=(55.262, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W108 <=> W115
+""",
+)
+
+entry(
+    index = 85,
+    label = "C10H9-19 <=> C10H9-20",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(6.748e+10, 's^-1'), n=0.262, Ea=(19.926, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W111 <=> W112
+""",
+)
+
+>>>>>>> Input the C10H9 surface frin Mebel 2016 Faraday Discussion paper, also all the elementary steps TST rates as the training reactions

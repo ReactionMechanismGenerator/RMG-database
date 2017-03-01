@@ -199,3 +199,31 @@ Taken from entry: C5H5CH3-1 <=> C5H5CH3-2
 """,
 )
 
+
+
+entry(
+    index = 14,
+    label = "C10H9-3 <=> C10H9-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.429e+08, 's^-1'), n=1.267, Ea=(24.384, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W8 <=> W102
+""",
+)
+
+entry(
+    index = 15,
+    label = "C10H9-5 <=> C10H9-6",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.548e+09, 's^-1'), n=0.934, Ea=(9.114, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W107 <=> W108
+""",
+)
+

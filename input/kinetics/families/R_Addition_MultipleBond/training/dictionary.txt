@@ -171,6 +171,7 @@ C2H2O-3
 4    H u0 p0 c0 {1,S}
 5    O u0 p2 c0 {2,D}
 
+<<<<<<< 0823044629769bb1d204a06bc4dea7fd14149ecd
 C7H9-18
 multiplicity 2
 1     C u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
@@ -189,6 +190,136 @@ multiplicity 2
 14    H u0 p0 c0 {6,S}
 15    H u0 p0 c0 {7,S}
 16    H u0 p0 c0 {7,S}
+=======
+C10H9-20
+multiplicity 2
+1  *1 C u0 p0 c0 {4,S} {5,S} {11,S} {12,S}
+2     C u0 p0 c0 {3,B} {4,S} {7,B}
+3     C u0 p0 c0 {2,B} {6,S} {8,B}
+4  *2 C u1 p0 c0 {1,S} {2,S} {13,S}
+5     C u0 p0 c0 {1,S} {6,D} {14,S}
+6     C u0 p0 c0 {3,S} {5,D} {17,S}
+7     C u0 p0 c0 {2,B} {9,B} {15,S}
+8     C u0 p0 c0 {3,B} {10,B} {18,S}
+9     C u0 p0 c0 {7,B} {10,B} {16,S}
+10    C u0 p0 c0 {8,B} {9,B} {19,S}
+11    H u0 p0 c0 {1,S}
+12 *3 H u0 p0 c0 {1,S}
+13    H u0 p0 c0 {4,S}
+14    H u0 p0 c0 {5,S}
+15    H u0 p0 c0 {7,S}
+16    H u0 p0 c0 {9,S}
+17    H u0 p0 c0 {6,S}
+18    H u0 p0 c0 {8,S}
+19    H u0 p0 c0 {10,S}
+
+C10H9-21
+multiplicity 2
+1  *1 C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
+2     C u0 p0 c0 {1,S} {3,B} {6,B}
+3     C u0 p0 c0 {2,B} {5,S} {7,B}
+4     C u0 p0 c0 {1,S} {5,D} {12,S}
+5     C u0 p0 c0 {3,S} {4,D} {13,S}
+6     C u0 p0 c0 {2,B} {8,B} {14,S}
+7     C u0 p0 c0 {3,B} {9,B} {15,S}
+8     C u0 p0 c0 {6,B} {9,B} {16,S}
+9     C u0 p0 c0 {7,B} {8,B} {17,S}
+10 *2 C u1 p0 c0 {1,S} {18,S} {19,S}
+11 *3 H u0 p0 c0 {1,S}
+12    H u0 p0 c0 {4,S}
+13    H u0 p0 c0 {5,S}
+14    H u0 p0 c0 {6,S}
+15    H u0 p0 c0 {7,S}
+16    H u0 p0 c0 {8,S}
+17    H u0 p0 c0 {9,S}
+18    H u0 p0 c0 {10,S}
+19    H u0 p0 c0 {10,S}
+
+C7H9-18
+multiplicity 2
+1     C u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
+2  *1 C u0 p0 c0 {4,S} {5,S} {10,S} {11,S}
+3     C u0 p0 c0 {1,S} {6,S} {7,D}
+4  *2 C u1 p0 c0 {1,S} {2,S} {12,S}
+5     C u0 p0 c0 {2,S} {6,D} {13,S}
+6     C u0 p0 c0 {3,S} {5,D} {14,S}
+7     C u0 p0 c0 {3,D} {15,S} {16,S}
+8     H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {1,S}
+10    H u0 p0 c0 {2,S}
+11 *3 H u0 p0 c0 {2,S}
+12    H u0 p0 c0 {4,S}
+13    H u0 p0 c0 {5,S}
+14    H u0 p0 c0 {6,S}
+15    H u0 p0 c0 {7,S}
+16    H u0 p0 c0 {7,S}
+
+C10H9-23
+multiplicity 2
+1  *1 C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
+2  *2 C u1 p0 c0 {1,S} {3,S} {5,S}
+3     C u0 p0 c0 {2,S} {4,B} {8,B}
+4     C u0 p0 c0 {3,B} {6,B} {7,S}
+5     C u0 p0 c0 {2,S} {7,D} {19,S}
+6     C u0 p0 c0 {4,B} {9,B} {14,S}
+7     C u0 p0 c0 {4,S} {5,D} {17,S}
+8     C u0 p0 c0 {3,B} {10,B} {18,S}
+9     C u0 p0 c0 {6,B} {10,B} {15,S}
+10    C u0 p0 c0 {8,B} {9,B} {16,S}
+11    H u0 p0 c0 {1,S}
+12    H u0 p0 c0 {1,S}
+13 *3 H u0 p0 c0 {1,S}
+14    H u0 p0 c0 {6,S}
+15    H u0 p0 c0 {9,S}
+16    H u0 p0 c0 {10,S}
+17    H u0 p0 c0 {7,S}
+18    H u0 p0 c0 {8,S}
+19    H u0 p0 c0 {5,S}
+
+C10H9-24
+multiplicity 2
+1  *1 C u0 p0 c0 {2,S} {5,S} {11,S} {12,S}
+2     C u0 p0 c0 {1,S} {3,S} {10,D}
+3     C u0 p0 c0 {2,S} {4,B} {6,B}
+4     C u0 p0 c0 {3,B} {5,S} {7,B}
+5  *2 C u1 p0 c0 {1,S} {4,S} {13,S}
+6     C u0 p0 c0 {3,B} {8,B} {14,S}
+7     C u0 p0 c0 {4,B} {9,B} {15,S}
+8     C u0 p0 c0 {6,B} {9,B} {16,S}
+9     C u0 p0 c0 {7,B} {8,B} {17,S}
+10    C u0 p0 c0 {2,D} {18,S} {19,S}
+11    H u0 p0 c0 {1,S}
+12 *3 H u0 p0 c0 {1,S}
+13    H u0 p0 c0 {5,S}
+14    H u0 p0 c0 {6,S}
+15    H u0 p0 c0 {7,S}
+16    H u0 p0 c0 {8,S}
+17    H u0 p0 c0 {9,S}
+18    H u0 p0 c0 {10,S}
+19    H u0 p0 c0 {10,S}
+
+C10H9-25
+multiplicity 2
+1  *2 C u1 p0 c0 {2,S} {3,S} {7,S}
+2     C u0 p0 c0 {1,S} {4,S} {10,D}
+3     C u0 p0 c0 {1,S} {5,D} {11,S}
+4     C u0 p0 c0 {2,S} {6,D} {13,S}
+5     C u0 p0 c0 {3,D} {6,S} {12,S}
+6     C u0 p0 c0 {4,D} {5,S} {14,S}
+7  *1 C u0 p0 c0 {1,S} {8,D} {15,S}
+8     C u0 p0 c0 {7,D} {16,S} {17,S}
+9     C u0 p0 c0 {10,D} {18,S} {19,S}
+10    C u0 p0 c0 {2,D} {9,D}
+11    H u0 p0 c0 {3,S}
+12    H u0 p0 c0 {5,S}
+13    H u0 p0 c0 {4,S}
+14    H u0 p0 c0 {6,S}
+15 *3 H u0 p0 c0 {7,S}
+16    H u0 p0 c0 {8,S}
+17    H u0 p0 c0 {8,S}
+18    H u0 p0 c0 {9,S}
+19    H u0 p0 c0 {9,S}
+>>>>>>> Input the C10H9 surface frin Mebel 2016 Faraday Discussion paper, also all the elementary steps TST rates as the training reactions
 
 C9H9-18
 multiplicity 2
@@ -940,6 +1071,73 @@ multiplicity 2
 20    H u0 p0 c0 {8,S}
 21    H u0 p0 c0 {10,S}
 
+<<<<<<< 0823044629769bb1d204a06bc4dea7fd14149ecd
+=======
+C10H9-28
+multiplicity 2
+1  *1 C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
+2  *2 C u1 p0 c0 {1,S} {5,S} {6,S}
+3     C u0 p0 c0 {4,S} {5,D} {7,S}
+4     C u0 p0 c0 {3,S} {6,D} {8,S}
+5     C u0 p0 c0 {2,S} {3,D} {14,S}
+6     C u0 p0 c0 {2,S} {4,D} {16,S}
+7     C u0 p0 c0 {3,S} {9,D} {15,S}
+8     C u0 p0 c0 {4,S} {10,D} {18,S}
+9     C u0 p0 c0 {7,D} {10,S} {17,S}
+10    C u0 p0 c0 {8,D} {9,S} {19,S}
+11    H u0 p0 c0 {1,S}
+12    H u0 p0 c0 {1,S}
+13 *3 H u0 p0 c0 {1,S}
+14    H u0 p0 c0 {5,S}
+15    H u0 p0 c0 {7,S}
+16    H u0 p0 c0 {6,S}
+17    H u0 p0 c0 {9,S}
+18    H u0 p0 c0 {8,S}
+19    H u0 p0 c0 {10,S}
+
+C10H9-29
+multiplicity 2
+1  *1 C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
+2  *2 C u1 p0 c0 {1,S} {4,S} {6,S}
+3     C u0 p0 c0 {1,S} {5,S} {10,D}
+4     C u0 p0 c0 {2,S} {5,D} {7,S}
+5     C u0 p0 c0 {3,S} {4,D} {13,S}
+6     C u0 p0 c0 {2,S} {8,D} {14,S}
+7     C u0 p0 c0 {4,S} {9,D} {15,S}
+8     C u0 p0 c0 {6,D} {9,S} {16,S}
+9     C u0 p0 c0 {7,D} {8,S} {17,S}
+10    C u0 p0 c0 {3,D} {18,S} {19,S}
+11    H u0 p0 c0 {1,S}
+12 *3 H u0 p0 c0 {1,S}
+13    H u0 p0 c0 {5,S}
+14    H u0 p0 c0 {6,S}
+15    H u0 p0 c0 {7,S}
+16    H u0 p0 c0 {8,S}
+17    H u0 p0 c0 {9,S}
+18    H u0 p0 c0 {10,S}
+19    H u0 p0 c0 {10,S}
+
+C10H8-17
+1     C u0 p0 c0 {2,B} {3,B} {6,S}
+2     C u0 p0 c0 {1,B} {4,B} {9,S}
+3     C u0 p0 c0 {1,B} {7,B} {13,S}
+4     C u0 p0 c0 {2,B} {5,B} {11,S}
+5     C u0 p0 c0 {4,B} {7,B} {12,S}
+6     C u0 p0 c0 {1,S} {8,D} {14,S}
+7     C u0 p0 c0 {3,B} {5,B} {15,S}
+8     C u0 p0 c0 {6,D} {16,S} {17,S}
+9  *1 C u0 p0 c0 {2,S} {10,T}
+10 *2 C u0 p0 c0 {9,T} {18,S}
+11    H u0 p0 c0 {4,S}
+12    H u0 p0 c0 {5,S}
+13    H u0 p0 c0 {3,S}
+14    H u0 p0 c0 {6,S}
+15    H u0 p0 c0 {7,S}
+16    H u0 p0 c0 {8,S}
+17    H u0 p0 c0 {8,S}
+18    H u0 p0 c0 {10,S}
+
+>>>>>>> Input the C10H9 surface frin Mebel 2016 Faraday Discussion paper, also all the elementary steps TST rates as the training reactions
 ethene
 1 *1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 *2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -1169,6 +1367,29 @@ multiplicity 2
 12    H u0 p0 c0 {5,S}
 13    H u0 p0 c0 {6,S}
 
+<<<<<<< 0823044629769bb1d204a06bc4dea7fd14149ecd
+=======
+C10H8-25
+1     C u0 p0 c0 {2,B} {3,S} {6,B}
+2     C u0 p0 c0 {1,B} {5,S} {7,B}
+3     C u0 p0 c0 {1,S} {4,S} {10,D}
+4  *2 C u0 p0 c0 {3,S} {5,D} {11,S}
+5  *1 C u0 p0 c0 {2,S} {4,D} {12,S}
+6     C u0 p0 c0 {1,B} {8,B} {13,S}
+7     C u0 p0 c0 {2,B} {9,B} {15,S}
+8     C u0 p0 c0 {6,B} {9,B} {14,S}
+9     C u0 p0 c0 {7,B} {8,B} {16,S}
+10    C u0 p0 c0 {3,D} {17,S} {18,S}
+11    H u0 p0 c0 {4,S}
+12    H u0 p0 c0 {5,S}
+13    H u0 p0 c0 {6,S}
+14    H u0 p0 c0 {8,S}
+15    H u0 p0 c0 {7,S}
+16    H u0 p0 c0 {9,S}
+17    H u0 p0 c0 {10,S}
+18    H u0 p0 c0 {10,S}
+
+>>>>>>> Input the C10H9 surface frin Mebel 2016 Faraday Discussion paper, also all the elementary steps TST rates as the training reactions
 C9H9-11
 multiplicity 2
 1     C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
@@ -1190,6 +1411,29 @@ multiplicity 2
 17    H u0 p0 c0 {9,S}
 18    H u0 p0 c0 {6,S}
 
+<<<<<<< 0823044629769bb1d204a06bc4dea7fd14149ecd
+=======
+C10H8-23
+1     C u0 p0 c0 {2,S} {4,D} {6,S}
+2     C u0 p0 c0 {1,S} {5,D} {7,S}
+3  *2 C u0 p0 c0 {4,S} {5,S} {10,D}
+4     C u0 p0 c0 {1,D} {3,S} {11,S}
+5     C u0 p0 c0 {2,D} {3,S} {13,S}
+6     C u0 p0 c0 {1,S} {8,D} {12,S}
+7     C u0 p0 c0 {2,S} {9,D} {15,S}
+8     C u0 p0 c0 {6,D} {9,S} {14,S}
+9     C u0 p0 c0 {7,D} {8,S} {16,S}
+10 *1 C u0 p0 c0 {3,D} {17,S} {18,S}
+11    H u0 p0 c0 {4,S}
+12    H u0 p0 c0 {6,S}
+13    H u0 p0 c0 {5,S}
+14    H u0 p0 c0 {8,S}
+15    H u0 p0 c0 {7,S}
+16    H u0 p0 c0 {9,S}
+17    H u0 p0 c0 {10,S}
+18    H u0 p0 c0 {10,S}
+
+>>>>>>> Input the C10H9 surface frin Mebel 2016 Faraday Discussion paper, also all the elementary steps TST rates as the training reactions
 C10H8-10
 1     C u0 p0 c0 {2,B} {3,B} {9,S}
 2     C u0 p0 c0 {1,B} {4,B} {11,S}
@@ -1210,6 +1454,49 @@ C10H8-10
 17    H u0 p0 c0 {8,S}
 18    H u0 p0 c0 {8,S}
 
+<<<<<<< 0823044629769bb1d204a06bc4dea7fd14149ecd
+=======
+C10H8-21
+1     C u0 p0 c0 {2,S} {4,D} {6,S}
+2     C u0 p0 c0 {1,S} {5,D} {7,S}
+3  *1 C u0 p0 c0 {4,S} {5,S} {10,D}
+4     C u0 p0 c0 {1,D} {3,S} {11,S}
+5     C u0 p0 c0 {2,D} {3,S} {12,S}
+6     C u0 p0 c0 {1,S} {8,D} {13,S}
+7     C u0 p0 c0 {2,S} {9,D} {14,S}
+8     C u0 p0 c0 {6,D} {9,S} {15,S}
+9     C u0 p0 c0 {7,D} {8,S} {16,S}
+10 *2 C u0 p0 c0 {3,D} {17,S} {18,S}
+11    H u0 p0 c0 {4,S}
+12    H u0 p0 c0 {5,S}
+13    H u0 p0 c0 {6,S}
+14    H u0 p0 c0 {7,S}
+15    H u0 p0 c0 {8,S}
+16    H u0 p0 c0 {9,S}
+17    H u0 p0 c0 {10,S}
+18    H u0 p0 c0 {10,S}
+
+C10H8-20
+1  *2 C u0 p0 c0 {2,S} {3,S} {9,D}
+2     C u0 p0 c0 {1,S} {4,S} {10,D}
+3     C u0 p0 c0 {1,S} {5,D} {11,S}
+4     C u0 p0 c0 {2,S} {6,D} {13,S}
+5     C u0 p0 c0 {3,D} {6,S} {12,S}
+6     C u0 p0 c0 {4,D} {5,S} {14,S}
+7     C u0 p0 c0 {9,D} {15,S} {16,S}
+8     C u0 p0 c0 {10,D} {17,S} {18,S}
+9  *1 C u0 p0 c0 {1,D} {7,D}
+10    C u0 p0 c0 {2,D} {8,D}
+11    H u0 p0 c0 {3,S}
+12    H u0 p0 c0 {5,S}
+13    H u0 p0 c0 {4,S}
+14    H u0 p0 c0 {6,S}
+15    H u0 p0 c0 {7,S}
+16    H u0 p0 c0 {7,S}
+17    H u0 p0 c0 {8,S}
+18    H u0 p0 c0 {8,S}
+
+>>>>>>> Input the C10H9 surface frin Mebel 2016 Faraday Discussion paper, also all the elementary steps TST rates as the training reactions
 C4H4-4
 1 *1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 *2 C u0 p0 c0 {1,D} {6,S} {7,S}
@@ -1473,9 +1760,61 @@ C9H10-7
 14    H u0 p0 c0 {5,S}
 15    H u0 p0 c0 {7,S}
 16    H u0 p0 c0 {8,S}
+<<<<<<< 0823044629769bb1d204a06bc4dea7fd14149ecd
 17    H u0 p0 c0 {6,S}
 18    H u0 p0 c0 {4,S}
 19    H u0 p0 c0 {9,S}
+=======
+17    H u0 p0 c0 {6,S}
+18    H u0 p0 c0 {4,S}
+19    H u0 p0 c0 {9,S}
+
+C10H11-11
+multiplicity 2
+1     C u0 p0 c0 {2,S} {3,S} {4,S} {11,S}
+2     C u0 p0 c0 {1,S} {5,S} {12,S} {13,S}
+3  *1 C u0 p0 c0 {1,S} {6,S} {14,S} {15,S}
+4     C u0 p0 c0 {1,S} {7,S} {8,D}
+5     C u0 p0 c0 {2,S} {7,D} {16,S}
+6  *2 C u1 p0 c0 {3,S} {9,S} {17,S}
+7     C u0 p0 c0 {4,S} {5,D} {18,S}
+8     C u0 p0 c0 {4,D} {10,S} {19,S}
+9     C u0 p0 c0 {6,S} {10,D} {21,S}
+10    C u0 p0 c0 {8,S} {9,D} {20,S}
+11    H u0 p0 c0 {1,S}
+12    H u0 p0 c0 {2,S}
+13    H u0 p0 c0 {2,S}
+14    H u0 p0 c0 {3,S}
+15 *3 H u0 p0 c0 {3,S}
+16    H u0 p0 c0 {5,S}
+17    H u0 p0 c0 {6,S}
+18    H u0 p0 c0 {7,S}
+19    H u0 p0 c0 {8,S}
+20    H u0 p0 c0 {10,S}
+21    H u0 p0 c0 {9,S}
+
+C10H9-30
+multiplicity 2
+1  *1 C u0 p0 c0 {2,S} {5,S} {11,S} {12,S}
+2     C u0 p0 c0 {1,S} {3,B} {6,B}
+3     C u0 p0 c0 {2,B} {4,S} {7,B}
+4     C u0 p0 c0 {3,S} {5,S} {10,D}
+5  *2 C u1 p0 c0 {1,S} {4,S} {13,S}
+6     C u0 p0 c0 {2,B} {9,B} {16,S}
+7     C u0 p0 c0 {3,B} {8,B} {14,S}
+8     C u0 p0 c0 {7,B} {9,B} {15,S}
+9     C u0 p0 c0 {6,B} {8,B} {17,S}
+10    C u0 p0 c0 {4,D} {18,S} {19,S}
+11    H u0 p0 c0 {1,S}
+12 *3 H u0 p0 c0 {1,S}
+13    H u0 p0 c0 {5,S}
+14    H u0 p0 c0 {7,S}
+15    H u0 p0 c0 {8,S}
+16    H u0 p0 c0 {6,S}
+17    H u0 p0 c0 {9,S}
+18    H u0 p0 c0 {10,S}
+19    H u0 p0 c0 {10,S}
+>>>>>>> Input the C10H9 surface frin Mebel 2016 Faraday Discussion paper, also all the elementary steps TST rates as the training reactions
 
 C10H11-11
 multiplicity 2
@@ -2507,6 +2846,23 @@ multiplicity 2
 18    H u0 p0 c0 {8,S}
 19    H u0 p0 c0 {10,S}
 
+C7H7-3
+multiplicity 2
+1     C u0 p0 c0 {2,B} {3,B} {7,S}
+2     C u0 p0 c0 {1,B} {4,B} {8,S}
+3     C u0 p0 c0 {1,B} {6,B} {12,S}
+4     C u0 p0 c0 {2,B} {5,B} {9,S}
+5     C u0 p0 c0 {4,B} {6,B} {10,S}
+6     C u0 p0 c0 {3,B} {5,B} {11,S}
+7  *3 C u1 p0 c0 {1,S} {13,S} {14,S}
+8     H u0 p0 c0 {2,S}
+9     H u0 p0 c0 {4,S}
+10    H u0 p0 c0 {5,S}
+11    H u0 p0 c0 {6,S}
+12    H u0 p0 c0 {3,S}
+13    H u0 p0 c0 {7,S}
+14    H u0 p0 c0 {7,S}
+
 C10H8-6
 1     C u0 p0 c0 {2,B} {3,B} {4,S}
 2     C u0 p0 c0 {1,B} {5,B} {12,S}
@@ -2611,6 +2967,31 @@ multiplicity 2
 14    H u0 p0 c0 {6,S}
 15    H u0 p0 c0 {7,S}
 16    H u0 p0 c0 {7,S}
+<<<<<<< 0823044629769bb1d204a06bc4dea7fd14149ecd
+=======
+
+C10H9-22
+multiplicity 2
+1     C u0 p0 c0 {2,B} {3,B} {6,S}
+2     C u0 p0 c0 {1,B} {4,B} {8,S}
+3     C u0 p0 c0 {1,B} {7,B} {13,S}
+4     C u0 p0 c0 {2,B} {5,B} {11,S}
+5     C u0 p0 c0 {4,B} {7,B} {12,S}
+6     C u0 p0 c0 {1,S} {9,D} {14,S}
+7     C u0 p0 c0 {3,B} {5,B} {15,S}
+8  *1 C u0 p0 c0 {2,S} {10,D} {16,S}
+9     C u0 p0 c0 {6,D} {17,S} {18,S}
+10 *2 C u1 p0 c0 {8,D} {19,S}
+11    H u0 p0 c0 {4,S}
+12    H u0 p0 c0 {5,S}
+13    H u0 p0 c0 {3,S}
+14    H u0 p0 c0 {6,S}
+15    H u0 p0 c0 {7,S}
+16 *3 H u0 p0 c0 {8,S}
+17    H u0 p0 c0 {9,S}
+18    H u0 p0 c0 {9,S}
+19    H u0 p0 c0 {10,S}
+>>>>>>> Input the C10H9 surface frin Mebel 2016 Faraday Discussion paper, also all the elementary steps TST rates as the training reactions
 
 C10H11-15
 multiplicity 2
@@ -2694,6 +3075,29 @@ multiplicity 2
 14    H u0 p0 c0 {6,S}
 15    H u0 p0 c0 {7,S}
 16    H u0 p0 c0 {7,S}
+<<<<<<< 0823044629769bb1d204a06bc4dea7fd14149ecd
+=======
+
+C10H8-15
+1     C u0 p0 c0 {2,B} {3,S} {4,B}
+2     C u0 p0 c0 {1,B} {5,S} {6,B}
+3  *2 C u0 p0 c0 {1,S} {7,D} {11,S}
+4     C u0 p0 c0 {1,B} {9,B} {13,S}
+5     C u0 p0 c0 {2,S} {8,D} {16,S}
+6     C u0 p0 c0 {2,B} {10,B} {17,S}
+7  *1 C u0 p0 c0 {3,D} {8,S} {12,S}
+8     C u0 p0 c0 {5,D} {7,S} {14,S}
+9     C u0 p0 c0 {4,B} {10,B} {15,S}
+10    C u0 p0 c0 {6,B} {9,B} {18,S}
+11    H u0 p0 c0 {3,S}
+12    H u0 p0 c0 {7,S}
+13    H u0 p0 c0 {4,S}
+14    H u0 p0 c0 {8,S}
+15    H u0 p0 c0 {9,S}
+16    H u0 p0 c0 {5,S}
+17    H u0 p0 c0 {6,S}
+18    H u0 p0 c0 {10,S}
+>>>>>>> Input the C10H9 surface frin Mebel 2016 Faraday Discussion paper, also all the elementary steps TST rates as the training reactions
 
 C4H6-2
 1  *1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -2709,6 +3113,7 @@ C4H6-2
 
 C10H9-19
 multiplicity 2
+<<<<<<< 0823044629769bb1d204a06bc4dea7fd14149ecd
 1     C u0 p0 c0 {2,B} {3,B} {4,S}
 2     C u0 p0 c0 {1,B} {5,B} {11,S}
 3     C u0 p0 c0 {1,B} {7,B} {15,S}
@@ -2726,6 +3131,25 @@ multiplicity 2
 15    H u0 p0 c0 {3,S}
 16    H u0 p0 c0 {4,S}
 17    H u0 p0 c0 {8,S}
+=======
+1     C u0 p0 c0 {2,B} {3,B} {7,S}
+2  *3 C u0 p0 c0 {1,B} {4,B} {8,S}
+3     C u0 p0 c0 {1,B} {5,B} {12,S}
+4     C u0 p0 c0 {2,B} {6,B} {15,S}
+5     C u0 p0 c0 {3,B} {6,B} {13,S}
+6     C u0 p0 c0 {4,B} {5,B} {11,S}
+7     C u0 p0 c0 {1,S} {9,D} {14,S}
+8  *1 C u0 p0 c0 {2,S} {10,D} {16,S}
+9     C u0 p0 c0 {7,D} {17,S} {18,S}
+10 *2 C u1 p0 c0 {8,D} {19,S}
+11    H u0 p0 c0 {6,S}
+12    H u0 p0 c0 {3,S}
+13    H u0 p0 c0 {5,S}
+14    H u0 p0 c0 {7,S}
+15    H u0 p0 c0 {4,S}
+16    H u0 p0 c0 {8,S}
+17    H u0 p0 c0 {9,S}
+>>>>>>> Input the C10H9 surface frin Mebel 2016 Faraday Discussion paper, also all the elementary steps TST rates as the training reactions
 18    H u0 p0 c0 {9,S}
 19    H u0 p0 c0 {10,S}
 
@@ -2811,6 +3235,7 @@ multiplicity 2
 19    H u0 p0 c0 {9,S}
 20    H u0 p0 c0 {10,S}
 21    H u0 p0 c0 {10,S}
+<<<<<<< 0823044629769bb1d204a06bc4dea7fd14149ecd
 
 C7H7-3
 multiplicity 2
@@ -2828,6 +3253,8 @@ multiplicity 2
 12    H u0 p0 c0 {3,S}
 13    H u0 p0 c0 {7,S}
 14    H u0 p0 c0 {7,S}
+=======
+>>>>>>> Input the C10H9 surface frin Mebel 2016 Faraday Discussion paper, also all the elementary steps TST rates as the training reactions
 
 C3H5O
 multiplicity 2
@@ -3023,6 +3450,29 @@ multiplicity 2
 20    H u0 p0 c0 {10,S}
 21    H u0 p0 c0 {9,S}
 
+<<<<<<< 0823044629769bb1d204a06bc4dea7fd14149ecd
+=======
+C10H8-24
+1  *2 C u0 p0 c0 {2,S} {4,D} {6,S}
+2     C u0 p0 c0 {1,S} {5,D} {7,S}
+3     C u0 p0 c0 {4,S} {5,S} {10,D}
+4  *1 C u0 p0 c0 {1,D} {3,S} {11,S}
+5     C u0 p0 c0 {2,D} {3,S} {12,S}
+6     C u0 p0 c0 {1,S} {8,D} {13,S}
+7     C u0 p0 c0 {2,S} {9,D} {14,S}
+8     C u0 p0 c0 {6,D} {9,S} {15,S}
+9     C u0 p0 c0 {7,D} {8,S} {16,S}
+10    C u0 p0 c0 {3,D} {17,S} {18,S}
+11    H u0 p0 c0 {4,S}
+12    H u0 p0 c0 {5,S}
+13    H u0 p0 c0 {6,S}
+14    H u0 p0 c0 {7,S}
+15    H u0 p0 c0 {8,S}
+16    H u0 p0 c0 {9,S}
+17    H u0 p0 c0 {10,S}
+18    H u0 p0 c0 {10,S}
+
+>>>>>>> Input the C10H9 surface frin Mebel 2016 Faraday Discussion paper, also all the elementary steps TST rates as the training reactions
 allyl
 multiplicity 2
 1    C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -3068,6 +3518,26 @@ C7H8-3
 13    H u0 p0 c0 {6,S}
 14    H u0 p0 c0 {7,S}
 15    H u0 p0 c0 {7,S}
+
+C10H8-16
+1     C u0 p0 c0 {2,B} {3,S} {6,B}
+2     C u0 p0 c0 {1,B} {5,S} {7,B}
+3  *1 C u0 p0 c0 {1,S} {4,S} {10,D}
+4     C u0 p0 c0 {3,S} {5,D} {11,S}
+5     C u0 p0 c0 {2,S} {4,D} {12,S}
+6     C u0 p0 c0 {1,B} {8,B} {13,S}
+7     C u0 p0 c0 {2,B} {9,B} {14,S}
+8     C u0 p0 c0 {6,B} {9,B} {15,S}
+9     C u0 p0 c0 {7,B} {8,B} {16,S}
+10 *2 C u0 p0 c0 {3,D} {17,S} {18,S}
+11    H u0 p0 c0 {4,S}
+12    H u0 p0 c0 {5,S}
+13    H u0 p0 c0 {6,S}
+14    H u0 p0 c0 {7,S}
+15    H u0 p0 c0 {8,S}
+16    H u0 p0 c0 {9,S}
+17    H u0 p0 c0 {10,S}
+18    H u0 p0 c0 {10,S}
 
 C3H4-4
 1    C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -3116,6 +3586,31 @@ multiplicity 2
 11    H u0 p0 c0 {4,S}
 12    H u0 p0 c0 {5,S}
 
+<<<<<<< 0823044629769bb1d204a06bc4dea7fd14149ecd
+=======
+C10H9-26
+multiplicity 2
+1  *1 C u0 p0 c0 {4,S} {5,S} {10,S} {11,S}
+2     C u0 p0 c0 {3,S} {4,D} {6,S}
+3     C u0 p0 c0 {2,S} {5,D} {7,S}
+4     C u0 p0 c0 {1,S} {2,D} {12,S}
+5     C u0 p0 c0 {1,S} {3,D} {13,S}
+6     C u0 p0 c0 {2,S} {8,D} {14,S}
+7     C u0 p0 c0 {3,S} {9,D} {15,S}
+8     C u0 p0 c0 {6,D} {9,S} {16,S}
+9     C u0 p0 c0 {7,D} {8,S} {17,S}
+10 *2 C u1 p0 c0 {1,S} {18,S} {19,S}
+11 *3 H u0 p0 c0 {1,S}
+12    H u0 p0 c0 {4,S}
+13    H u0 p0 c0 {5,S}
+14    H u0 p0 c0 {6,S}
+15    H u0 p0 c0 {7,S}
+16    H u0 p0 c0 {8,S}
+17    H u0 p0 c0 {9,S}
+18    H u0 p0 c0 {10,S}
+19    H u0 p0 c0 {10,S}
+
+>>>>>>> Input the C10H9 surface frin Mebel 2016 Faraday Discussion paper, also all the elementary steps TST rates as the training reactions
 C9H10
 1     C u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
 2     C u0 p0 c0 {1,S} {5,S} {11,S} {12,S}
@@ -3338,6 +3833,26 @@ multiplicity 2
 18    H u0 p0 c0 {9,S}
 19    H u0 p0 c0 {10,S}
 
+C10H8-18
+1     C u0 p0 c0 {2,B} {3,S} {6,B}
+2     C u0 p0 c0 {1,B} {4,B} {5,S}
+3  *2 C u0 p0 c0 {1,S} {7,S} {10,D}
+4     C u0 p0 c0 {2,B} {8,B} {11,S}
+5     C u0 p0 c0 {2,S} {7,D} {14,S}
+6     C u0 p0 c0 {1,B} {9,B} {15,S}
+7     C u0 p0 c0 {3,S} {5,D} {16,S}
+8     C u0 p0 c0 {4,B} {9,B} {12,S}
+9     C u0 p0 c0 {6,B} {8,B} {13,S}
+10 *1 C u0 p0 c0 {3,D} {17,S} {18,S}
+11    H u0 p0 c0 {4,S}
+12    H u0 p0 c0 {8,S}
+13    H u0 p0 c0 {9,S}
+14    H u0 p0 c0 {5,S}
+15    H u0 p0 c0 {6,S}
+16    H u0 p0 c0 {7,S}
+17    H u0 p0 c0 {10,S}
+18    H u0 p0 c0 {10,S}
+
 C7H8-2
 1     C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
 2     C u0 p0 c0 {1,S} {5,D} {9,S}
@@ -3399,6 +3914,29 @@ multiplicity 2
 18    H u0 p0 c0 {9,S}
 19    H u0 p0 c0 {9,S}
 
+<<<<<<< 0823044629769bb1d204a06bc4dea7fd14149ecd
+=======
+C10H8-22
+1     C u0 p0 c0 {2,B} {3,S} {4,B}
+2     C u0 p0 c0 {1,B} {5,S} {6,B}
+3  *1 C u0 p0 c0 {1,S} {7,D} {11,S}
+4     C u0 p0 c0 {1,B} {9,B} {14,S}
+5     C u0 p0 c0 {2,S} {8,D} {15,S}
+6     C u0 p0 c0 {2,B} {10,B} {16,S}
+7  *2 C u0 p0 c0 {3,D} {8,S} {12,S}
+8     C u0 p0 c0 {5,D} {7,S} {13,S}
+9     C u0 p0 c0 {4,B} {10,B} {17,S}
+10    C u0 p0 c0 {6,B} {9,B} {18,S}
+11    H u0 p0 c0 {3,S}
+12    H u0 p0 c0 {7,S}
+13    H u0 p0 c0 {8,S}
+14    H u0 p0 c0 {4,S}
+15    H u0 p0 c0 {5,S}
+16    H u0 p0 c0 {6,S}
+17    H u0 p0 c0 {9,S}
+18    H u0 p0 c0 {10,S}
+
+>>>>>>> Input the C10H9 surface frin Mebel 2016 Faraday Discussion paper, also all the elementary steps TST rates as the training reactions
 C9H9-20
 multiplicity 2
 1  *3 C u0 p0 c0 {8,S} {10,S} {11,S} {12,S}
@@ -4042,6 +4580,28 @@ multiplicity 2
 19    H u0 p0 c0 {9,S}
 20    H u0 p0 c0 {9,S}
 
+C10H9-27
+multiplicity 2
+1  *1 C u0 p0 c0 {2,S} {4,S} {11,S} {12,S}
+2     C u0 p0 c0 {1,S} {3,B} {5,B}
+3     C u0 p0 c0 {2,B} {6,S} {7,B}
+4  *2 C u1 p0 c0 {1,S} {8,S} {13,S}
+5     C u0 p0 c0 {2,B} {9,B} {15,S}
+6     C u0 p0 c0 {3,S} {8,D} {16,S}
+7     C u0 p0 c0 {3,B} {10,B} {17,S}
+8     C u0 p0 c0 {4,S} {6,D} {14,S}
+9     C u0 p0 c0 {5,B} {10,B} {18,S}
+10    C u0 p0 c0 {7,B} {9,B} {19,S}
+11    H u0 p0 c0 {1,S}
+12 *3 H u0 p0 c0 {1,S}
+13    H u0 p0 c0 {4,S}
+14    H u0 p0 c0 {8,S}
+15    H u0 p0 c0 {5,S}
+16    H u0 p0 c0 {6,S}
+17    H u0 p0 c0 {7,S}
+18    H u0 p0 c0 {9,S}
+19    H u0 p0 c0 {10,S}
+
 C10H11-19
 multiplicity 2
 1     C u0 p0 c0 {3,S} {4,S} {6,S} {11,S}
@@ -4203,6 +4763,7 @@ C8H8
 
 C8H7
 multiplicity 2
+<<<<<<< 0823044629769bb1d204a06bc4dea7fd14149ecd
 1     C u0 p0 c0 {2,B} {3,B} {7,S}
 2     C u0 p0 c0 {1,B} {4,B} {9,S}
 3     C u0 p0 c0 {1,B} {6,B} {13,S}
@@ -4218,6 +4779,23 @@ multiplicity 2
 13    H u0 p0 c0 {3,S}
 14    H u0 p0 c0 {7,S}
 15    H u0 p0 c0 {8,S}
+=======
+1     C u0 p0 c0 {2,B} {5,S} {8,B}
+2     C u0 p0 c0 {1,B} {3,B} {10,S}
+3     C u0 p0 c0 {2,B} {4,B} {11,S}
+4     C u0 p0 c0 {3,B} {6,B} {9,S}
+5     C u0 p0 c0 {1,S} {7,D} {12,S}
+6     C u0 p0 c0 {4,B} {8,B} {13,S}
+7     C u0 p0 c0 {5,D} {14,S} {15,S}
+8  *3 C u1 p0 c0 {1,B} {6,B}
+9     H u0 p0 c0 {4,S}
+10    H u0 p0 c0 {2,S}
+11    H u0 p0 c0 {3,S}
+12    H u0 p0 c0 {5,S}
+13    H u0 p0 c0 {6,S}
+14    H u0 p0 c0 {7,S}
+15    H u0 p0 c0 {7,S}
+>>>>>>> Input the C10H9 surface frin Mebel 2016 Faraday Discussion paper, also all the elementary steps TST rates as the training reactions
 
 C9H11-8
 multiplicity 2
@@ -5108,6 +5686,26 @@ multiplicity 2
 11    H u0 p0 c0 {2,S}
 12    H u0 p0 c0 {5,S}
 13    H u0 p0 c0 {6,S}
+
+C10H8-19
+1     C u0 p0 c0 {2,B} {3,S} {5,B}
+2     C u0 p0 c0 {1,B} {6,S} {7,B}
+3     C u0 p0 c0 {1,S} {4,S} {10,D}
+4  *1 C u0 p0 c0 {3,S} {6,D} {11,S}
+5     C u0 p0 c0 {1,B} {8,B} {12,S}
+6  *2 C u0 p0 c0 {2,S} {4,D} {13,S}
+7     C u0 p0 c0 {2,B} {9,B} {14,S}
+8     C u0 p0 c0 {5,B} {9,B} {15,S}
+9     C u0 p0 c0 {7,B} {8,B} {16,S}
+10    C u0 p0 c0 {3,D} {17,S} {18,S}
+11    H u0 p0 c0 {4,S}
+12    H u0 p0 c0 {5,S}
+13    H u0 p0 c0 {6,S}
+14    H u0 p0 c0 {7,S}
+15    H u0 p0 c0 {8,S}
+16    H u0 p0 c0 {9,S}
+17    H u0 p0 c0 {10,S}
+18    H u0 p0 c0 {10,S}
 
 C9H11-10
 multiplicity 2

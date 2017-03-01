@@ -913,3 +913,70 @@ Taken from entry: (4)phenyl_buten_3_yl <=> trihydronaphthalene
 """,
 )
 
+
+
+entry(
+    index = 68,
+    label = "C10H9-25 <=> C10H9-26",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(6.311e+09, 's^-1'), n=0.537, Ea=(2.307, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W5 <=> W8
+""",
+)
+
+entry(
+    index = 69,
+    label = "C10H9-27 <=> C10H9-28",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.588e+10, 's^-1'), n=0.535, Ea=(9.58, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W8 <=> W13
+""",
+)
+
+entry(
+    index = 70,
+    label = "C10H9-29 <=> C10H9-30",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.53e+12, 's^-1'), n=0.189, Ea=(29.234, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W6 <=> W13
+""",
+)
+
+entry(
+    index = 71,
+    label = "C10H9-31 <=> C10H9-32",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(9.161e+12, 's^-1'), n=0.277, Ea=(28.025, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W13 <=> W107
+""",
+)
+
+entry(
+    index = 72,
+    label = "C10H9-33 <=> C10H9-34",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.998e+12, 's^-1'), n=0.237, Ea=(16.277, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W117 <=> W118
+""",
+)
+

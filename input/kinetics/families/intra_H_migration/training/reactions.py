@@ -1113,3 +1113,122 @@ Taken from entry: W21 <=> W20
 """,
 )
 
+
+
+entry(
+    index = 80,
+    label = "C10H9-21 <=> C10H9-22",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(8.964e+07, 's^-1'), n=1.633, Ea=(47.984, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W101 <=> W8
+""",
+)
+
+entry(
+    index = 81,
+    label = "C10H9-23 <=> C10H9-24",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.193e+07, 's^-1'), n=1.425, Ea=(7.283, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W5 <=> W103
+""",
+)
+
+entry(
+    index = 82,
+    label = "C10H9-25 <=> C10H9-26",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.09e+11, 's^-1'), n=0.703, Ea=(23.53, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W104 <=> W6
+""",
+)
+
+entry(
+    index = 83,
+    label = "C10H9-27 <=> C10H9-28",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(7.423e+08, 's^-1'), n=1.522, Ea=(63.602, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W106 <=> W107
+""",
+)
+
+entry(
+    index = 84,
+    label = "C10H9-29 <=> C10H9-30",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(68.8, 's^-1'), n=3.351, Ea=(60.931, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W106 <=> W108
+""",
+)
+
+entry(
+    index = 85,
+    label = "C10H9-9 <=> C10H9-10",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(9.753e+08, 's^-1'), n=1.291, Ea=(40.177, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W112 <=> W118
+""",
+)
+
+entry(
+    index = 86,
+    label = "C10H9-31 <=> C10H9-32",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.93e+07, 's^-1'), n=1.684, Ea=(33.806, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W6 <=> W118
+""",
+)
+
+entry(
+    index = 87,
+    label = "C10H9-33 <=> C10H9-34",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.401e+08, 's^-1'), n=1.453, Ea=(42.614, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W115 <=> W117
+""",
+)
+
+entry(
+    index = 88,
+    label = "C10H9-35 <=> C10H9-36",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.181e+10, 's^-1'), n=0.964, Ea=(32.063, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H9_Mebel_TST""",
+    longDesc = 
+u"""
+Taken from entry: W102 <=> W119
+""",
+)
+
