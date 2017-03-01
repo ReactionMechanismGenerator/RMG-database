@@ -922,8 +922,8 @@ entry(
 1 *1 R!H                 u1 {2,[S,D,T,B]}
 2 *4 R!H                 ux {1,[S,D,T,B]} {3,[S,D,T,B]}
 3 *6 R!H                 ux {2,[S,D,T,B]} {4,[S,D,T,B]}
-4 *5 R!H                 ux {3,[S,D,T,B]} {5,S}
-5 *2 [Cd,Ct,CO,N,CS]     u0 {4,S} {6,[D,T]}
+4 *5 R!H                 ux {3,[S,D,T,B]} {5,[S,D]}
+5 *2 [Cd,Ct,CO,N,CS,Cdd] u0 {4,[S,D]} {6,[D,T]}
 6 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {5,[D,T]}
 """,
     kinetics = None,
@@ -1296,6 +1296,21 @@ entry(
 )
 
 entry(
+    index = 188,
+    label = "R6_DSB_D",
+    group = 
+"""
+1 *1 Cd         u1 {2,D}
+2 *4 Cd         u0 {1,D} {3,S}
+3 *6 Cb         u0 {2,S} {4,B}
+4 *5 Cb         u0 {3,B} {5,S}
+5 *2 Cd         u0 {4,S} {6,D}
+6 *3 [Cd,Cdd]   u0 {5,D}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 77,
     label = "R6_DSM_T",
     group = 
@@ -1468,8 +1483,8 @@ entry(
 1 *1 R!H                 u1 {2,S}
 2 *4 [Cd,Ct,Cb]          u0 {1,S} {3,[D,T,B]}
 3 *6 [Cd,Ct,Cb]          u0 {2,[D,T,B]} {4,S}
-4 *5 R!H                 u0 {3,S} {5,S}
-5 *2 [Cd,Ct,CO,N,CS]     u0 {4,S} {6,[D,T]}
+4 *5 R!H                 u0 {3,S} {5,[S,D]}
+5 *2 [Cd,Ct,CO,N,CS,Cdd] u0 {4,[S,D]} {6,[D,T]}
 6 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {5,[D,T]}
 """,
     kinetics = None,
@@ -1483,8 +1498,38 @@ entry(
 1 *1 R!H        u1 {2,S}
 2 *4 [Cd,Ct,Cb] u0 {1,S} {3,[D,T,B]}
 3 *6 [Cd,Ct,Cb] u0 {2,[D,T,B]} {4,S}
-4 *5 R!H        u0 {3,S} {5,S}
-5 *2 Cd         u0 {4,S} {6,D}
+4 *5 R!H        u0 {3,S} {5,[S,D]}
+5 *2 [Cd,Cdd]   u0 {4,[S,D]} {6,D}
+6 *3 [Cd,Cdd]   u0 {5,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 173,
+    label = "R6_SBS_D",
+    group = 
+"""
+1 *1 R!H        u1 {2,S}
+2 *4 [Cd,Ct,Cb] u0 {1,S} {3,B}
+3 *6 [Cd,Ct,Cb] u0 {2,B} {4,S}
+4 *5 R!H        u0 {3,S} {5,[S,D]}
+5 *2 [Cd,Cdd]   u0 {4,[S,D]} {6,D}
+6 *3 [Cd,Cdd]   u0 {5,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 189,
+    label = "R6_SDS_D",
+    group = 
+"""
+1 *1 R!H        u1 {2,S}
+2 *4 Cd         u0 {1,S} {3,D}
+3 *6 Cd	        u0 {2,D} {4,S}
+4 *5 R!H        u0 {3,S} {5,[S,D]}
+5 *2 [Cd,Cdd]   u0 {4,[S,D]} {6,D}
 6 *3 [Cd,Cdd]   u0 {5,D}
 """,
     kinetics = None,
@@ -2282,6 +2327,18 @@ entry(
 )
 
 entry(
+    index = 172,
+    label = "radadd_intra_csHCb",
+    group = 
+"""
+1 *1 Cs u1 {2,S} {3,S}
+2    H  u0 {1,S}
+3    Cb u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 164,
     label = "radadd_intra_csHCd",
     group = 
@@ -2759,7 +2816,11 @@ L1: Rn
                             L8: R6_DSS_CO
                         L7: R6_DSM
                             L8: R6_DSM_D
+<<<<<<< 0823044629769bb1d204a06bc4dea7fd14149ecd
                             	L9: R6_DSB_D
+=======
+				L9: R6_DSB_D
+>>>>>>> Input the C10H9 surface frin Mebel 2016 Faraday Discussion paper, also all the elementary steps TST rates as the training reactions
                             L8: R6_DSM_T
                             	L9: R6_DSB_T
                             L8: R6_DSM_CO
@@ -2776,6 +2837,8 @@ L1: Rn
             L4: R6_SMS
                 L5: R6_SMS_D
                     L6: R6_SMS(M)_D
+		    L6: R6_SDS_D
+		    L6: R6_SBS_D
                 L5: R6_SMS_T
                 L5: R6_SMS_CO
             L4: R6_SMM
@@ -2850,6 +2913,7 @@ L1: radadd_intra
             L4: radadd_intra_csHCd
                L5: radadd_intra_csH(CdCdCd)
             L4: radadd_intra_csHCt
+	    L4: radadd_intra_csHCb
         L3: radadd_intra_csNdNd
         L3: radadd_intra_csNdDe
             L4: radadd_intra_csNdCd
