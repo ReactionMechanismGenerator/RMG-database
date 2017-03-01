@@ -943,7 +943,7 @@ entry(
 """
 1 *1 Od  u0 {2,D}
 2 *2 Cdd u0 {1,D} {3,D}
-3    R   u0 {2,D}
+3    R!H   u0 {2,D}
 """,
     kinetics = None,
 )
@@ -1144,7 +1144,7 @@ entry(
 """
 1 *1 Sd  u0 {2,D}
 2 *2 Cdd u0 {1,D} {3,D}
-3    R   u0 {2,D}
+3    R!H   u0 {2,D}
 """,
     kinetics = None,
 )
