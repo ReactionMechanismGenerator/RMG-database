@@ -2622,25 +2622,11 @@ Taken from entry: trihydronaphthalene <=> (1_4)dihydro_naphthalene + H
 """,
 )
 
-
-
 entry(
     index = 162,
     label = "C2H2 + C8H7 <=> C10H9-19",
     degeneracy = 1,
     kinetics = Arrhenius(
-<<<<<<< 0823044629769bb1d204a06bc4dea7fd14149ecd
-        A = (750000, 'cm^3/(mol*s)'),
-        n = 1.979,
-        Ea = (5066, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: C10H8_HACA""",
-    longDesc = 
-u"""
-Taken from entry: A3a + C2H2 <=> A4b
-=======
         A = (7.12e+07, 'cm^3/(mol*s)'),
         n = 1.489,
         Ea = (4.331, 'kcal/mol'),
@@ -2794,7 +2780,6 @@ entry(
     longDesc = 
 u"""
 Taken from entry: W119 <=> P2 + H
->>>>>>> Input the C10H9 surface frin Mebel 2016 Faraday Discussion paper, also all the elementary steps TST rates as the training reactions
 """,
 )
 
