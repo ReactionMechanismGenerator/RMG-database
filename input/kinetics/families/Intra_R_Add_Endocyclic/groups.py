@@ -1296,21 +1296,6 @@ entry(
 )
 
 entry(
-    index = 188,
-    label = "R6_DSB_D",
-    group = 
-"""
-1 *1 Cd         u1 {2,D}
-2 *4 Cd         u0 {1,D} {3,S}
-3 *6 Cb         u0 {2,S} {4,B}
-4 *5 Cb         u0 {3,B} {5,S}
-5 *2 Cd         u0 {4,S} {6,D}
-6 *3 [Cd,Cdd]   u0 {5,D}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 77,
     label = "R6_DSM_T",
     group = 
@@ -2816,11 +2801,7 @@ L1: Rn
                             L8: R6_DSS_CO
                         L7: R6_DSM
                             L8: R6_DSM_D
-<<<<<<< 0823044629769bb1d204a06bc4dea7fd14149ecd
                             	L9: R6_DSB_D
-=======
-				L9: R6_DSB_D
->>>>>>> Input the C10H9 surface frin Mebel 2016 Faraday Discussion paper, also all the elementary steps TST rates as the training reactions
                             L8: R6_DSM_T
                             	L9: R6_DSB_T
                             L8: R6_DSM_CO
