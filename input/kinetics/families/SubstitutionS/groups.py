@@ -3342,7 +3342,7 @@ entry(
     group = 
 """
 1 *1 Ss u0 {2,S} {3,S}
-2 *2 R  u1 {1,S}
+2 *2 R!H  u1 {1,S}
 3    R  u0 {1,S}
 """,
     kinetics = None,
