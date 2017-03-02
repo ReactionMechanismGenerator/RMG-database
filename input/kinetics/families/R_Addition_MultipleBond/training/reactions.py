@@ -2783,3 +2783,23 @@ Taken from entry: W119 <=> P2 + H
 """,
 )
 
+
+
+entry(
+    index = 174,
+    label = "C2H2 + C8H7-2 <=> C10H9-31",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (750000, 'cm^3/(mol*s)'),
+        n = 1.979,
+        Ea = (5066, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H8_HACA2""",
+    longDesc = 
+u"""
+Taken from entry: A3a + C2H2 <=> A4b
+""",
+)
+
