@@ -628,7 +628,7 @@ Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations
 
 entry(
     index = 645,
-    label = "R2H_S;Cd_rad_out_double;Cs_H_out_2H",
+    label = "R2H_S;Cd_rad_out;Cs_H_out_2H",
     kinetics = ArrheniusEP(
         A = (2.44e+09, 's^-1'),
         n = 1.12,
@@ -666,7 +666,7 @@ Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations
 
 entry(
     index = 647,
-    label = "R2H_S;Cd_rad_out_double;Cs_H_out_H/OneDe",
+    label = "R2H_S;Cd_rad_out;Cs_H_out_H/OneDe",
     kinetics = ArrheniusEP(
         A = (7.24e+09, 's^-1'),
         n = 0.82,
@@ -704,7 +704,7 @@ Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations
 
 entry(
     index = 649,
-    label = "R2H_S;Cd_rad_out_double;Cs_H_out_OneDe",
+    label = "R2H_S;Cd_rad_out;Cs_H_out_OneDe",
     kinetics = ArrheniusEP(
         A = (1.67e+10, 's^-1'),
         n = 0.79,
@@ -1939,7 +1939,7 @@ Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations
 
 entry(
     index = 715,
-    label = "R3H_SS;Cd_rad_out_double;Cs_H_out_2H",
+    label = "R3H_SS;Cd_rad_out;Cs_H_out_2H",
     kinetics = ArrheniusEP(
         A = (7.68e+08, 's^-1'),
         n = 1.24,
@@ -1977,7 +1977,7 @@ Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations
 
 entry(
     index = 717,
-    label = "R3H_SS;Cd_rad_out_double;Cs_H_out_H/NonDeC",
+    label = "R3H_SS;Cd_rad_out;Cs_H_out_H/NonDeC",
     kinetics = ArrheniusEP(
         A = (1.66e+09, 's^-1'),
         n = 0.99,
@@ -2015,7 +2015,7 @@ Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations
 
 entry(
     index = 719,
-    label = "R3H_SS;Cd_rad_out_double;Cs_H_out_Cs2",
+    label = "R3H_SS;Cd_rad_out;Cs_H_out_Cs2",
     kinetics = ArrheniusEP(
         A = (1.1e+10, 's^-1'),
         n = 0.78,
@@ -4317,7 +4317,7 @@ Sandeep's CBS-QB3 calculations.
 
 entry(
     index = 871,
-    label = "R4H_SDS;Cd_rad_out_double;Cs_H_out_2H",
+    label = "R4H_SDS;Cd_rad_out;Cs_H_out_2H",
     kinetics = ArrheniusEP(
         A = (1.11e+08, 's^-1'),
         n = 1.1915,

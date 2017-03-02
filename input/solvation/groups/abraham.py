@@ -1104,7 +1104,7 @@ entry(
     label = "Sds",
     group = 
 """
-1 * Sd u0 {2,S} {3,S}
+1 * Sd u0 p1 {2,S} {3,S}
 2   R  u0 {1,S}
 3   R  u0 {1,S}
 """,
@@ -1121,7 +1121,7 @@ u"""
 
 """,
 )
-#removed until we have aromatic sulfurs
+#remove until we have hypervalent sulfur
 # entry(
 #     index = 35,
 #     label = "SdsOsOdOd",

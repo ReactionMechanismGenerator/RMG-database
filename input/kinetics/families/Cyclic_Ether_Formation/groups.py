@@ -409,6 +409,17 @@ entry(
 )
 
 entry(
+    index = 52,
+    label = "Cd_rad_out",
+    group = 
+"""
+1 *1 Cd  u1 {2,D}
+2    R!H u0 {1,D}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 53,
     label = "Cd_rad_in",
     group = 
@@ -481,17 +492,6 @@ entry(
 """
 1 *1 Cd            u1 {2,S}
 2    [Cd,Ct,Cb,CO] u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 59,
-    label = "Cd_rad_out",
-    group = 
-"""
-1 *1 Cd u1 {2,D}
-2    Cd u0 {1,D}
 """,
     kinetics = None,
 )
@@ -761,6 +761,7 @@ L1: RnOO
         L3: R5OO_SDSD
         L3: R5OO_DSDS
 L1: Y_rad_intra
+    L2: Cd_rad_out
     L2: Cd_rad_in
         L3: Cd_pri_rad_in
         L3: Cd_sec_rad_in
@@ -768,14 +769,7 @@ L1: Y_rad_intra
             L4: Cd_rad_in/NonDeO
             L4: Cd_rad_in/NonDeN
             L4: Cd_rad_in/OneDe
-    L2: Cd_rad_out
     L2: Cs_rad_intra
-        L3: C_pri_rad_intra
-        L3: C_sec_rad_intra
-            L4: C_rad/H/NonDeC_intra
-            L4: C_rad/H/NonDeO_intra
-            L4: C_rad/H/NonDeN_intra
-            L4: C_rad/H/OneDe_intra
         L3: C_ter_rad_intra
             L4: C_rad/NonDeC_intra
                 L5: C_rad/Cs3_intra
@@ -784,6 +778,12 @@ L1: Y_rad_intra
                 L5: C_rad/Cs2_intra
                 L5: C_rad/ODMustO_intra
             L4: C_rad/TwoDe_intra
+        L3: C_sec_rad_intra
+            L4: C_rad/H/NonDeC_intra
+            L4: C_rad/H/NonDeO_intra
+            L4: C_rad/H/NonDeN_intra
+            L4: C_rad/H/OneDe_intra
+        L3: C_pri_rad_intra
     L2: N_rad
 L1: OO_intra
     L2: OOJ

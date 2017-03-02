@@ -7498,7 +7498,7 @@ entry(
     label = "RJ2_triplet",
     group = 
 """
-1 * R u2
+1 * R!H u2
 """,
     thermo = u'CJ2_triplet',
     shortDesc = u"""""",
@@ -8002,8 +8002,8 @@ entry(
     label = "CO",
     group = 
 """
-1 * Ct u0 p1 {2,T}
-2   Ot u0 p1 {1,T}
+1 * Ct u0 p1 c-1 {2,T}
+2   Ot u0 p1 c+1 {1,T}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -8109,7 +8109,7 @@ entry(
     label = "RJ3",
     group = 
 """
-1 * R u3
+1 * R!H u3
 """,
     thermo = u'CJ3',
     shortDesc = u"""""",
