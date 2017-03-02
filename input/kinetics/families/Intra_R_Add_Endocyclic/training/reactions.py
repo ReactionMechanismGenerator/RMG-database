@@ -1749,3 +1749,18 @@ u"""
 Taken from entry: W111 <=> W112
 """,
 )
+
+
+entry(
+    index = 86,
+    label = "C10H9-9 <=> C10H9-10",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5.135e+12, 's^-1'), n=0.056, Ea=(2127, 'cal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H8_HACA2""",
+    longDesc = 
+u"""
+Taken from entry: A8 <=> A9
+""",
+)
+
