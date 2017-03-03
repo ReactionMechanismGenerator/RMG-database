@@ -2063,24 +2063,6 @@ Taken from entry: phenyl + hocch <=> ic1
 )
 
 entry(
-    index = 130,
-    label = "C2H2O + C6H5 <=> C8H7O-5",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (55.92, 'cm^3/(mol*s)'),
-        n = 3.064,
-        Ea = (2.224, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: OH_phenylacetylene_CBSQB3""",
-    longDesc = 
-u"""
-Taken from entry: phenyl + ketene <=> ic2
-""",
-)
-
-entry(
     index = 131,
     label = "C8H6O-4 + H <=> C8H7O-6",
     degeneracy = 1,
@@ -2097,26 +2079,6 @@ u"""
 Taken from entry: H + p1 <=> i1
 """,
 )
-
-entry(
-    index = 132,
-    label = "C2H2O-3 + C6H5 <=> C8H7O-7",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (469.9, 'cm^3/(mol*s)'),
-        n = 2.967,
-        Ea = (1.94, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: OH_phenylacetylene_CBSQB3""",
-    longDesc = 
-u"""
-Taken from entry: phenyl + ketene <=> i20
-""",
-)
-
-
 
 entry(
     index = 133,
@@ -2800,6 +2762,80 @@ entry(
     longDesc = 
 u"""
 Taken from entry: A3a + C2H2 <=> A4b
+""",
+)
+
+
+
+entry(
+    index = 175,
+    label = "C2H2O + C6H5 <=> C8H7O-5",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2364, 'cm^3/(mol*s)'),
+        n = 2.565,
+        Ea = (0.552, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: OH_phenylacetylene_CBSQB3""",
+    longDesc = 
+u"""
+Taken from entry: phenyl + ketene <=> ic2
+""",
+)
+
+entry(
+    index = 176,
+    label = "C2H2O-3 + C6H5 <=> C8H7O-7",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (19210, 'cm^3/(mol*s)'),
+        n = 2.549,
+        Ea = (0.743, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: OH_phenylacetylene_CBSQB3""",
+    longDesc = 
+u"""
+Taken from entry: phenyl + ketene <=> i20
+""",
+)
+
+entry(
+    index = 177,
+    label = "C8H6-2 + HO <=> C8H7O-9",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (7.744e+06, 'cm^3/(mol*s)'),
+        n = 1.886,
+        Ea = (-2.895, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: OH_phenylacetylene_CBSQB3""",
+    longDesc = 
+u"""
+Taken from entry: OH + phenylacetylene <=> i1
+""",
+)
+
+entry(
+    index = 178,
+    label = "C8H6 + HO <=> C8H7O-10",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (111000, 'cm^3/(mol*s)'),
+        n = 2.135,
+        Ea = (-0.967, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: OH_phenylacetylene_CBSQB3""",
+    longDesc = 
+u"""
+Taken from entry: OH + phenylacetylene <=> ic1
 """,
 )
 
