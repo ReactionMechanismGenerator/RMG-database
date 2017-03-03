@@ -6391,13 +6391,15 @@ entry(
     label = "1_methyl_CPD",
     group =
 """
-1 *1 C u0 {2,S} {7,S}
+1 *1 C u0 {2,S} {7,S} {8,S} {9,S}
 2  Cd u0 {1,S} {3,D} {6,S}
 3  Cd u0 {2,D} {4,S}
 4  Cd u0 {3,S} {5,D}
 5  Cd u0 {4,D} {6,S}
 6  C u0 {2,S} {5,S}
 7 *2 H u0 {1,S}
+8  H  u0 {1,S}
+9  H  u0 {1,S}
 """,
     kinetics = None,
 )
