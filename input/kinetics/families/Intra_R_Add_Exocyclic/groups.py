@@ -295,7 +295,7 @@ entry(
 1 *1 R!H            u1 {2,S}
 2 *4 [Cd,Ct,Cb]     u0 {1,S} {3,[B,T,D]}
 3 *5 [Cd,Ct,Cb]     u0 {2,[B,T,D]} {4,S}
-4 *2 [Cd,Ct,CO,N]     u0 {3,S} {5,[D,T]}
+4 *2 [Cd,Ct,CO,N,CS]     u0 {3,S} {5,[D,T]}
 5 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {4,[D,T]}
 """,
     kinetics = None,
