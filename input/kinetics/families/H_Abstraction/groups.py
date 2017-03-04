@@ -6363,7 +6363,7 @@ entry(
     label = "1_methyl_CPD",
     group =
 """
-1 *1 C u0 {2,S} {7,S} {8,S} {9,S}
+1 *1 Cs u0 {2,S} {7,S} {8,S} {9,S}
 2  Cd u0 {1,S} {3,D} {6,S}
 3  Cd u0 {2,D} {4,S}
 4  Cd u0 {3,S} {5,D}
@@ -6381,13 +6381,15 @@ entry(
     label = "2_methyl_CPD",
     group =
 """
-1 *1 C u0 {3,S} {7,S}
-2  C u0 {3,D} {6,S}
-3  C u0 {2,D} {4,S} {1,S}
-4  C u0 {3,S} {5,D}
-5  C u0 {4,D} {6,S}
+1 *1 Cs u0 {3,S} {7,S} {8,S} {9,S}
+2  Cd u0 {3,D} {6,S}
+3  Cd u0 {2,D} {4,S} {1,S}
+4  Cd u0 {3,S} {5,D}
+5  Cd u0 {4,D} {6,S}
 6  C u0 {2,S} {5,S}
 7 *2 H u0 {1,S}
+8  H  u0 {1,S}
+9  H  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -6414,13 +6416,16 @@ entry(
     label = "5_methyl_CPD",
     group =
 """
-1 *1 C u0 {6,S} {7,S}
-2  C u0 {3,D} {6,S}
-3  C u0 {2,D} {4,S}
-4  C u0 {3,S} {5,D}
-5  C u0 {4,D} {6,S}
-6  C u0 {2,S} {5,S} {1,S}
+1 *1 Cs u0 {6,S} {7,S} {8,S} {9,S}
+2  Cd u0 {3,D} {6,S}
+3  Cd u0 {2,D} {4,S}
+4  Cd u0 {3,S} {5,D}
+5  Cd u0 {4,D} {6,S}
+6  Cs u0 {2,S} {5,S} {1,S} {10,S}
 7 *2 H u0 {1,S}
+8    H        u0 {1,S}
+9    H        u0 {1,S}
+10   H        u0 {6,S}
 """,
     kinetics = None,
 )
