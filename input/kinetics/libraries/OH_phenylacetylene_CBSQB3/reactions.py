@@ -2,10 +2,10 @@
 # encoding: utf-8
 
 name = "OH_phenylacetylene_CBSQB3"
-shortDesc = u"Majority of Surface calculated with CBS-QB4"
+shortDesc = u""
 longDesc = u"""
-Isomerization reactions calculated by CBS-QB3. OH+phenylacetylene and phenyl+ketene entrance channels fit to experiments
-of 2014 Goulay and 2004 Choi and Lin, respectively.
+Isomerizations calculated with CBS-QB3. OH+phenylacetylene and phenyl+ketene entrances fitted to match 2014 Goulay and
+2004 Lin experiments.
 """
 entry(
     index = 1,
@@ -17,9 +17,9 @@ entry(
         Ea = (0.552, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
-Fit to 2004 Choi and Lin CRDS experiments
+Originally from reaction library: Unclassified
 """,
 )
 
@@ -33,9 +33,9 @@ entry(
         Ea = (0.743, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
-Fit to 2004 Choi and Lin CRDS experiments
+Originally from reaction library: Unclassified
 """,
 )
 
@@ -49,9 +49,9 @@ entry(
         Ea = (-2.895, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
-Fit to 2014 Goulay OH LIF experiments
+Originally from reaction library: Unclassified
 """,
 )
 
@@ -65,9 +65,9 @@ entry(
         Ea = (-0.967, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
-Fit to 2014 Goulay OH LIF experiments
+Originally from reaction library: Unclassified
 """,
 )
 
@@ -261,6 +261,44 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(89.7, 's^-1'), n=3.07, Ea=(38.56, 'kcal/mol'), T0=(1, 'K')),
     longDesc =
+u"""
+Originally from reaction library: Unclassified
+""",
+)
+
+entry(
+    index = 20,
+    label = "benzyl + CO <=> i20",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (73810, 'cm^3/(mol*s)'),
+        n = 2.309,
+        Ea = (10.738, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    longDesc = 
+u"""
+Originally from reaction library: Unclassified
+""",
+)
+
+entry(
+    index = 21,
+    label = "i20 <=> i21",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.725e+10, 's^-1'), n=0.547, Ea=(34.586, 'kcal/mol'), T0=(1, 'K')),
+    longDesc = 
+u"""
+Originally from reaction library: Unclassified
+""",
+)
+
+entry(
+    index = 22,
+    label = "ic2 <=> i21",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(8.831e+11, 's^-1'), n=0.359, Ea=(33.014, 'kcal/mol'), T0=(1, 'K')),
+    longDesc = 
 u"""
 Originally from reaction library: Unclassified
 """,

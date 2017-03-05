@@ -980,3 +980,31 @@ Taken from entry: W117 <=> W118
 """,
 )
 
+
+
+entry(
+    index = 73,
+    label = "C8H7O-3 <=> C8H7O-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.725e+10, 's^-1'), n=0.547, Ea=(34.586, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: OH_phenylacetylene_CBSQB3""",
+    longDesc = 
+u"""
+Taken from entry: i20 <=> i21
+""",
+)
+
+entry(
+    index = 74,
+    label = "C8H7O-5 <=> C8H7O-6",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(8.831e+11, 's^-1'), n=0.359, Ea=(33.014, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: OH_phenylacetylene_CBSQB3""",
+    longDesc = 
+u"""
+Taken from entry: ic2 <=> i21
+""",
+)
+
