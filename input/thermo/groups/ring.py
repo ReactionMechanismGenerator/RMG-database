@@ -3911,6 +3911,56 @@ Fitted to CBS-QB3 calculation for cyclohexyne
 """,
 )
 
+entry(
+    index = 96,
+    label = "six-inringonetriple",
+    group =
+"""
+1 * Ct u0 {2,T} {6,S}
+2   Ct u0 {1,T} {3,S}
+3   [C,Os] u0 {2,S} {4,S}
+4   [C,Os] u0 {3,S} {5,S}
+5   [C,Os] u0 {4,S} {6,S}
+6   [C,Os] u0 {1,S} {5,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.306, -2.849, -2.452, -2.229, -1.543, -0.932, -2.535],'cal/(mol*K)'),
+        H298 = (39.857,'kcal/mol'),
+        S298 = (21.862,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+Fitted to CBS-QB3 calculation for cyclohex_1_yne_4_ene
+""",
+)
+
+entry(
+    index = 96,
+    label = "six-inringonetripleonedouble-14",
+    group =
+"""
+1 * Ct u0 {2,T} {6,S}
+2   Ct u0 {1,T} {3,S}
+3   [C,Os] u0 {2,S} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   [C,Os] u0 {1,S} {5,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.431, -0.775, -1.308, -1.515, -1.294, -0.369, -1.036],'cal/(mol*K)'),
+        H298 = (38.484,'kcal/mol'),
+        S298 = (25.2137,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+Fitted to CBS-QB3 calculation for cyclohex_1_yne_4_ene
+""",
+)
+
 tree(
 """
 L1: Ring
@@ -4054,6 +4104,7 @@ L1: Ring
             L4: pxylene
         L3: 3,4-dimethylenecyclohexene
         L3: six-inringonetriple
+        L3: six-inringonetripleonedouble-14
     L2: SevenMember
         L3: Cycloheptane
         L3: Cycloheptene
