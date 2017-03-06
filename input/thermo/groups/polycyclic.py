@@ -9878,7 +9878,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-8.363002868 - 9.06606501, -8.995977055, -9.143913958, -8.281269598, -6.627444551, -6.731596558],'cal/(mol*K)'),
+        Cpdata=([-8.363002868, -9.06606501, -8.995977055, -9.143913958, -8.281269598, -6.627444551, -6.731596558],'cal/(mol*K)'),
         H298=(54.63206692, 'kcal/mol'),
         S298=(49.57153709, 'cal/(mol*K)'),
     ),
@@ -9920,7 +9920,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-9.402916826, -9.794745698, -9.524179732, -9.476944551, -8.243243786, -6.31449044, -6.057839388],'cal/(mol*K)'),
+        Cpdata = ([-9.402916826,-9.794745698,-9.524179732,-9.476944551,-8.243243786,-6.31449044,-6.057839388],'cal/(mol*K)'),
         H298 = (47.50553728,'kcal/mol'),
         S298 = (41.72784685,'cal/(mol*K)'),
     ),
@@ -9950,7 +9950,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-9.402916826, -9.794745698, -9.524179732, -9.476944551, -8.243243786, -6.31449044, -6.057839388],'cal/(mol*K)'),
+        Cpdata=([-9.402916826,-9.794745698,-9.524179732,-9.476944551,-8.243243786,-6.31449044,-6.057839388],'cal/(mol*K)'),
         H298=(47.50553728, 'kcal/mol'),
         S298=(41.72784685, 'cal/(mol*K)'),
     ),
@@ -9959,6 +9959,168 @@ entry(
 u"""
 Estimated according to the following equation in order to take into account the highly strained cyclohexyne ring:
 polycyclic(s2_6_6_yne_2) = polycyclic(s2_6_6_ane) - ring(Cyclohexane) + ring(cyclohexyne)
+""",
+)
+
+entry(
+    index = 0,
+    label = "s2_3_6_yne_ene",
+    group="OR{s2_3_6_yne_1_ene_4}",
+    thermo=None,
+    shortDesc = u"""Should capture all cyclohex-yne-ene containing s2_3_6 bicyclics""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 197,
+    label = "s2_3_6_yne_1_ene_4",
+    group =
+"""
+1   R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {5,D}
+2   R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]} {4,S}
+3   R!H u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
+4   R!H u0 {2,S} {6,T}
+5   R!H u0 {1,D} {7,S}
+6 * R!H u0 {4,T} {7,S}
+7   R!H u0 {5,S} {6,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.786282027, -4.653250478, -5.838353728, -6.94334608, -7.652561185, -6.45232696, -6.507223709],'cal/(mol*K)'),
+        H298 = (75.38081644,'kcal/mol'),
+        S298 = (63.59818929,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Estimated""",
+    longDesc =
+u"""
+Estimated according to the following equation in order to take into account the highly strained cyclohex_1_yne_4_ene ring:
+polycyclic(s2_3_6_yne_1_ene_4) = polycyclic(s2_3_6_ane) - ring(Cyclohexane) + ring(six-inringonetripleonedouble-14)
+""",
+)
+
+entry(
+    index = 0,
+    label = "s2_4_6_yne_ene",
+    group="OR{s2_4_6_yne_1_ene_4}",
+    thermo=None,
+    shortDesc = u"""Should capture all cyclohex-yne-ene containing s2_4_6 bicyclics""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 198,
+    label = "s2_4_6_yne_1_ene_4",
+    group =
+"""
+1   R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {6,S}
+2   R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {5,D}
+3   R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]}
+4   R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]}
+5   R!H u0 {2,D} {8,S}
+6   R!H u0 {1,S} {7,T}
+7 * R!H u0 {6,T} {8,S}
+8   R!H u0 {5,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.620890057, -6.065248566, -6.8746826, -7.66667304, -7.841590822, -6.260070746, -5.847319312],'cal/(mol*K)'),
+        H298 = (72.34281453,'kcal/mol'),
+        S298 = (56.0776348,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Estimated""",
+    longDesc =
+u"""
+Estimated according to the following equation in order to take into account the highly strained cyclohex_1_yne_4_ene ring:
+polycyclic(s2_4_6_yne_1_ene_4) = polycyclic(s2_4_6_ane) - ring(Cyclohexane) + ring(six-inringonetripleonedouble-14)
+""",
+)
+
+entry(
+    index = 0,
+    label = "s2_5_6_yne_ene",
+    group="OR{s2_5_6_yne_1_ene_4}",
+    thermo=None,
+    shortDesc = u"""Should capture all cyclohex-yne-ene containing s2_5_6 bicyclics""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 198,
+    label = "s2_5_6_yne_1_ene_4",
+    group =
+"""
+1 * R!H u0 {2,[S,D,T,B]} {4,S} {5,[S,D,T,B]}
+2   R!H u0 {1,[S,D,T,B]} {3,D} {6,[S,D,T,B]}
+3   R!H u0 {2,D} {9,S}
+4   R!H u0 {1,S} {8,T}
+5   R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
+6   R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+7   R!H u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
+8   R!H u0 {4,T} {9,S}
+9   R!H u0 {3,S} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.488002868, -6.99206501, -7.851977055, -8.429913958, -8.032269598, -6.064444551, -5.232596558],'cal/(mol*K)'),
+        H298 = (53.25906692,'kcal/mol'),
+        S298 = (52.92323709,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Estimated""",
+    longDesc =
+u"""
+Estimated according to the following equation in order to take into account the highly strained cyclohex_1_yne_4_ene ring:
+polycyclic(s2_5_6_yne_1_ene_4) = polycyclic(s2_5_6_ane) - ring(Cyclohexane) + ring(six-inringonetripleonedouble-14)
+""",
+)
+
+entry(
+    index = 0,
+    label = "s2_6_6_yne_ene",
+    group="OR{s2_6_6_yne_1_ene_4}",
+    thermo=None,
+    shortDesc = u"""Should capture all cyclohex-yne-ene containing s2_6_6 bicyclics""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 199,
+    label = "s2_6_6_yne_1_ene_4",
+    group =
+"""
+1    R!H u0 {2,[S,D,T,B]} {3,D} {6,[S,D,T,B]}
+2    R!H u0 {1,[S,D,T,B]} {4,S} {5,[S,D,T,B]}
+3    R!H u0 {1,D} {9,S}
+4    R!H u0 {2,S} {7,T}
+5    R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+6    R!H u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
+7  * R!H u0 {4,T} {9,S}
+8    R!H u0 {5,[S,D,T,B]} {10,[S,D,T,B]}
+9    R!H u0 {3,S} {7,S}
+10   R!H u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.527916826, -7.720745698, -8.380179732, -8.762944551, -7.994243786, -5.75149044, -4.558839388],'cal/(mol*K)'),
+        H298 = (46.13253728,'kcal/mol'),
+        S298 = (45.07954685,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Estimated""",
+    longDesc =
+u"""
+Estimated according to the following equation in order to take into account the highly strained cyclohex_1_yne_4_ene ring:
+polycyclic(s2_6_6_yne_1_ene_4) = polycyclic(s2_6_6_ane) - ring(Cyclohexane) + ring(six-inringonetripleonedouble-14)
 """,
 )
 
@@ -10107,6 +10269,8 @@ L1: PolycyclicRing
         L3: s2_3_6_yne
             L4: s2_3_6_yne_1
             L4: s2_3_6_yne_2
+        L3: s2_3_6_yne_ene
+            L4: s2_3_6_yne_1_ene_4
     L2: s2_3_7
         L3: s2_3_7_ane
     L2: s2_3_8
@@ -10146,6 +10310,8 @@ L1: PolycyclicRing
         L3: s2_4_6_yne
             L4: s2_4_6_yne_1
             L4: s2_4_6_yne_2
+        L3: s2_4_6_yne_ene
+            L4: s2_4_6_yne_1_ene_4
     L2: s2_5_5
         L3: s2_5_5_ane
         L3: s2_5_5_ene
@@ -10221,6 +10387,8 @@ L1: PolycyclicRing
         L3: s2_5_6_hexyne
             L4: s2_5_6_yne_1
             L4: s2_5_6_yne_2
+        L3: s2_5_6_yne_ene
+            L4: s2_5_6_yne_1_ene_4
     L2: s2_5_7
         L3: s2_5_7_triene
             L4: s2_5_7_triene_0_2_8
@@ -10279,6 +10447,8 @@ L1: PolycyclicRing
         L3: s2_6_6_yne
             L4: s2_6_6_yne_1
             L4: s2_6_6_yne_2
+        L3: s2_6_6_yne_ene
+            L4: s2_6_6_yne_1_ene_4
     L2: s3_4_4
         L3: s3_4_4_ane
         L3: s3_4_4_ene
