@@ -2572,10 +2572,10 @@ entry(
         S298 = (236.447,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
-    longDesc = 
-u"""
-Fitted from molecule s2_3_6_ane from Bicyclics_QM_190_isomorphic library.
-""",
+    longDesc=
+    u"""
+    Fitted from molecule s2_3_6_ane from Bicyclics_QM_190_isomorphic library.
+    """,
 )
 
 entry(
@@ -9052,6 +9052,9 @@ L1: PolycyclicRing
             L4: s2_3_6_diene_1_3
             L4: s2_3_6_diene_2_5
         L3: s2_3_6_ben
+        L3: s2_3_6_yne
+            L4: s2_3_6_yne_1
+            L4: s2_3_6_yne_2
     L2: s2_3_7
         L3: s2_3_7_ane
     L2: s2_3_8
@@ -9084,6 +9087,9 @@ L1: PolycyclicRing
             L4: s2_4_6_diene_2_6
             L4: s2_4_6_diene_5_7
         L3: s2_4_6_ben
+        L3: s2_4_6_yne
+            L4: s2_4_6_yne_1
+            L4: s2_4_6_yne_2
     L2: s2_5_5
         L3: s2_5_5_ane
         L3: s2_5_5_ene
@@ -9195,6 +9201,9 @@ L1: PolycyclicRing
             L4: s2_6_6_ben_ene_1
             L4: s2_6_6_ben_ene_2
         L3: s2_6_6_naphthalene
+        L3: s2_6_6_yne
+            L4: s2_6_6_yne_1
+            L4: s2_6_6_yne_2
     L2: s3_4_4
         L3: s3_4_4_ane
         L3: s3_4_4_ene
