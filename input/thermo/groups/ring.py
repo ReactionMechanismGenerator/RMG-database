@@ -1847,8 +1847,8 @@ entry(
     label = "SixMember",
     group = 
 """
-1 * R!H u0 {2,[S,D]} {6,[S,D]}
-2   R!H u0 {1,[S,D]} {3,[S,D]}
+1 * R!H u0 {2,[S,D,T]} {6,[S,D]}
+2   R!H u0 {1,[S,D,T]} {3,[S,D]}
 3   R!H u0 {2,[S,D]} {4,[S,D]}
 4   R!H u0 {3,[S,D]} {5,[S,D]}
 5   R!H u0 {4,[S,D]} {6,[S,D]}
@@ -3776,6 +3776,31 @@ Use cyclopentyne ring correction for any five-membered ring containing a triple 
 """,
 )
 
+entry(
+    index = 95,
+    label = "six-inringonetriple",
+    group =
+"""
+1 * Ct u0 {2,T} {6,S}
+2   Ct u0 {1,T} {3,S}
+3   [C,Os] u0 {2,S} {4,S}
+4   [C,Os] u0 {3,S} {5,S}
+5   [C,Os] u0 {4,S} {6,S}
+6   [C,Os] u0 {1,S} {5,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.306, -2.849, -2.452, -2.229, -1.543, -0.932, -2.535],'cal/(mol*K)'),
+        H298 = (39.857,'kcal/mol'),
+        S298 = (21.862,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+Fitted to CBS-QB3 calculation for cyclohexyne
+""",
+)
+
 tree(
 """
 L1: Ring
@@ -3910,6 +3935,7 @@ L1: Ring
             L4: pbenzoquinone
             L4: pxylene
         L3: 3,4-dimethylenecyclohexene
+        L3: six-inringonetriple
     L2: SevenMember
         L3: Cycloheptane
         L3: Cycloheptene
