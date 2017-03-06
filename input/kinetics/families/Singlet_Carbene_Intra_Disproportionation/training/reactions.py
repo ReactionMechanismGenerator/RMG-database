@@ -13,7 +13,7 @@ group additivity values in this file.
 entry(
     index = 1,
     label = "C6H6 <=> C6H6-2",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(8.067e+10, 's^-1'), n=0.649, Ea=(8.03, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: 2003_Miller_Propargyl_Recomb_High_P""",
@@ -26,7 +26,7 @@ Taken from entry: A <=> IV
 entry(
     index = 2,
     label = "C6H6-3 <=> C6H6-4",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(1.454e+12, 's^-1'), n=0.178, Ea=(0.205, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: 2003_Miller_Propargyl_Recomb_High_P""",

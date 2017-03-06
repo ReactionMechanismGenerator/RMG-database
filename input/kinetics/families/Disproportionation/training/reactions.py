@@ -10,7 +10,7 @@ group additivity values in this file.
 entry(
     index = 1,
     label = "C2H + CH3O <=> C2H2 + CH2O",
-    degeneracy = 3,
+    degeneracy = 1,
     kinetics = Arrhenius(
         A = (3.61e+13, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,

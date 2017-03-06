@@ -2390,7 +2390,7 @@ TST
 entry(
     index = 1043,
     label = "HSS_r12 + HSS_r3 <=> HSSH_p23 + S2_p1",
-    degeneracy = 2,
+    degeneracy = 1,
     kinetics = Arrhenius(A=(9.56e+00, 'cm^3/(mol*s)'), n=3.370, Ea=(-1672, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",

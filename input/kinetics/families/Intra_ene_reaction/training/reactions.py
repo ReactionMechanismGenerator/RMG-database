@@ -12,7 +12,7 @@ group additivity values in this file.
 entry(
     index = 1,
     label = "C7H9 <=> C7H9-2",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(4.39e+07, 's^-1'), n=1.58, Ea=(21.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
@@ -25,7 +25,7 @@ Taken from entry: addB <=> product21
 entry(
     index = 2,
     label = "C7H9-3 <=> C7H9-4",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(5.06e+07, 's^-1'), n=1.74, Ea=(24.3, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
@@ -55,7 +55,7 @@ Taken from entry: pdt22 <=> INDENE
 entry(
     index = 4,
     label = "C6H6 <=> C6H6-2",
-    degeneracy = 1,
+    degeneracy = 4,
     kinetics = Arrhenius(A=(2.08398e+09, 's^-1'), n=0.809263, Ea=(163.807, 'kJ/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: 2003_Miller_Propargyl_Recomb_High_P""",
