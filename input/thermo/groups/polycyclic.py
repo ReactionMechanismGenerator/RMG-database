@@ -10352,6 +10352,120 @@ polycyclic(s2_6_6_yne_2_ene_4) = polycyclic(s2_6_6_ane) - ring(Cyclohexane) + ri
 """,
 )
 
+entry(
+    index = 209,
+    label = "s2_3_6_diyne_1_3",
+    group =
+"""
+1   R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {5,S}
+2   R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]} {4,S}
+3   R!H u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
+4   R!H u0 {2,S} {6,T}
+5   R!H u0 {1,S} {7,T}
+6 * R!H u0 {4,T} {7,S}
+7   R!H u0 {5,T} {6,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.441282027, -5.336250478, -6.222353728, -7.17534608, -7.823561185, -7.48632696, -9.183223709],'cal/(mol*K)'),
+        H298 = (140.3808164,'kcal/mol'),
+        S298 = (69.60548929,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Estimated""",
+    longDesc =
+u"""
+Estimated according to the following equation in order to take into account the highly strained 1_3_cyclohexadiyne ring:
+polycyclic(s2_3_6_diyne_1_3) = polycyclic(s2_3_6_ane) - ring(Cyclohexane) + ring(six-inringtwotriple-13)
+""",
+)
+
+entry(
+    index = 210,
+    label = "s2_4_6_diyne_1_3",
+    group =
+"""
+1   R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {6,S}
+2   R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {5,S}
+3   R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]}
+4   R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]}
+5   R!H u0 {2,S} {8,T}
+6   R!H u0 {1,S} {7,T}
+7 * R!H u0 {6,T} {8,S}
+8   R!H u0 {5,T} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.275890057, -6.748248566, -7.2586826, -7.89867304, -8.012590822, -7.294070746, -8.523319312],'cal/(mol*K)'),
+        H298 = (137.3428145,'kcal/mol'),
+        S298 = (62.0849348,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Estimated""",
+    longDesc =
+u"""
+Estimated according to the following equation in order to take into account the highly strained 1_3_cyclohexadiyne ring:
+polycyclic(s2_4_6_diyne_1_3) = polycyclic(s2_4_6_ane) - ring(Cyclohexane) + ring(six-inringtwotriple-13)
+""",
+)
+
+entry(
+    index = 211,
+    label = "s2_5_6_diyne_1_3",
+    group =
+"""
+1 * R!H u0 {2,[S,D,T,B]} {4,S} {5,[S,D,T,B]}
+2   R!H u0 {1,[S,D,T,B]} {3,S} {6,[S,D,T,B]}
+3   R!H u0 {2,S} {9,T}
+4   R!H u0 {1,S} {8,T}
+5   R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
+6   R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+7   R!H u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
+8   R!H u0 {4,T} {9,S}
+9   R!H u0 {3,T} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.143002868, -7.67506501, -8.235977055, -8.661913958, -8.203269598, -7.098444551, -7.908596558],'cal/(mol*K)'),
+        H298 = (118.2590669,'kcal/mol'),
+        S298 = (58.93053709,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Estimated""",
+    longDesc =
+u"""
+Estimated according to the following equation in order to take into account the highly strained 1_3_cyclohexadiyne ring:
+polycyclic(s2_5_6_diyne_1_3) = polycyclic(s2_5_6_ane) - ring(Cyclohexane) + ring(six-inringtwotriple-13)
+""",
+)
+
+entry(
+    index = 212,
+    label = "s2_6_6_diyne_1_3",
+    group =
+"""
+1    R!H u0 {2,[S,D,T,B]} {3,S} {6,[S,D,T,B]}
+2    R!H u0 {1,[S,D,T,B]} {4,S} {5,[S,D,T,B]}
+3    R!H u0 {1,S} {9,T}
+4    R!H u0 {2,S} {7,T}
+5    R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+6    R!H u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
+7  * R!H u0 {4,T} {9,S}
+8    R!H u0 {5,[S,D,T,B]} {10,[S,D,T,B]}
+9    R!H u0 {3,T} {7,S}
+10   R!H u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.182916826, -8.403745698, -8.764179732, -8.994944551, -8.165243786, -6.78549044, -7.234839388],'cal/(mol*K)'),
+        H298 = (111.1325373,'kcal/mol'),
+        S298 = (51.08684685,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Estimated""",
+    longDesc =
+u"""
+Estimated according to the following equation in order to take into account the highly strained 1_3_cyclohexadiyne ring:
+polycyclic(s2_6_6_diyne_1_3) = polycyclic(s2_6_6_ane) - ring(Cyclohexane) + ring(six-inringtwotriple-13)
+""",
+)
+
 tree(
 """
 L1: PolycyclicRing
@@ -10501,6 +10615,7 @@ L1: PolycyclicRing
             L4: s2_3_6_yne_1_ene_4
             L4: s2_3_6_yne_1_ene_3
             L4: s2_3_6_yne_2_ene_4
+        L3: s2_3_6_diyne_1_3
     L2: s2_3_7
         L3: s2_3_7_ane
     L2: s2_3_8
@@ -10544,6 +10659,7 @@ L1: PolycyclicRing
             L4: s2_4_6_yne_1_ene_4
             L4: s2_4_6_yne_1_ene_3
             L4: s2_4_6_yne_2_ene_4
+        L3: s2_4_6_diyne_1_3
     L2: s2_5_5
         L3: s2_5_5_ane
         L3: s2_5_5_ene
@@ -10623,6 +10739,7 @@ L1: PolycyclicRing
             L4: s2_5_6_yne_1_ene_4
             L4: s2_5_6_yne_1_ene_3
             L4: s2_5_6_yne_2_ene_4
+        L3: s2_5_6_diyne_1_3
     L2: s2_5_7
         L3: s2_5_7_triene
             L4: s2_5_7_triene_0_2_8
@@ -10685,6 +10802,7 @@ L1: PolycyclicRing
             L4: s2_6_6_yne_1_ene_4
             L4: s2_6_6_yne_1_ene_3
             L4: s2_6_6_yne_2_ene_4
+        L3: s2_6_6_diyne_1_3
     L2: s3_4_4
         L3: s3_4_4_ane
         L3: s3_4_4_ene
