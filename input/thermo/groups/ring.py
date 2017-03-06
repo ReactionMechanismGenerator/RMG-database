@@ -3961,6 +3961,31 @@ Fitted to CBS-QB3 calculation for cyclohex_1_yne_4_ene
 """,
 )
 
+entry(
+    index = 97,
+    label = "six-inringonetripleonedouble-13",
+    group =
+"""
+1 * Ct u0 {2,T} {6,S}
+2   Ct u0 {1,T} {3,S}
+3   Cd u0 {2,S} {4,D}
+4   Cd u0 {3,D} {5,S}
+5   [C,Os] u0 {4,S} {6,S}
+6   [C,Os] u0 {1,S} {5,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.292 ,-2.038, -2.856, -3.187, -2.814, -1.639,-2.564],'cal/(mol*K)'),
+        H298 = (48.034,'kcal/mol'),
+        S298 = (25.6327,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+Fitted to CBS-QB3 calculation for cyclohex_1_yne_3_ene
+""",
+)
+
 tree(
 """
 L1: Ring
@@ -4105,6 +4130,7 @@ L1: Ring
         L3: 3,4-dimethylenecyclohexene
         L3: six-inringonetriple
         L3: six-inringonetripleonedouble-14
+        L3: six-inringonetripleonedouble-13
     L2: SevenMember
         L3: Cycloheptane
         L3: Cycloheptene
