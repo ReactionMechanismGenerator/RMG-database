@@ -463,3 +463,82 @@ Taken from entry: W111 <=> P114 + H
 """,
 )
 
+
+
+entry(
+    index = 23,
+    label = "C3H3 + C7H7 <=> C10H10",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5.781e+17, 'cm^3/(mol*s)'),
+        n = -1.568,
+        Ea = (0.4547, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3H3_C7H7_Matsugi""",
+    longDesc = 
+u"""
+Taken from entry: C3H3 + C7H7 <=> W1
+""",
+)
+
+entry(
+    index = 24,
+    label = "C10H10-2 <=> C10H9-2 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(9.431e+15, 's^-1'), n=-0.34, Ea=(77.615, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3H3_C7H7_Matsugi""",
+    longDesc = 
+u"""
+Taken from entry: W10 <=> P5 + H
+""",
+)
+
+entry(
+    index = 25,
+    label = "C10H10-3 <=> C10H9-3 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5.081e+15, 's^-1'), n=-0.263, Ea=(86.584, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3H3_C7H7_Matsugi""",
+    longDesc = 
+u"""
+Taken from entry: W17 <=> P9 + H
+""",
+)
+
+entry(
+    index = 26,
+    label = "C10H10-4 <=> C10H9-4 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.899e+16, 's^-1'), n=-0.42, Ea=(88.738, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3H3_C7H7_Matsugi""",
+    longDesc = 
+u"""
+Taken from entry: W17 <=> P10 + H
+""",
+)
+
+
+
+entry(
+    index = 27,
+    label = "C3H3-2 + C7H7 <=> C10H10-5",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.144e+19, 'cm^3/(mol*s)'),
+        n = -2.163,
+        Ea = (1.195, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3H3_C7H7_Matsugi""",
+    longDesc = 
+u"""
+Taken from entry: C3H3 + C7H7 <=> W2
+""",
+)
+

@@ -71,10 +71,26 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 5,
+    label = "R5JJ_Cd",
+    group = 
+"""
+1 *1 R u1 {2,[S,D]} {5,S}
+2 *2 R u0 {1,[S,D]} {3,S}
+3 *3 R u0 {2,S} {4,[S,D]}
+4 *4 R u1 {3,[S,D]} {5,S}
+5    R u0 {1,S} {4,S} {6,S}
+6   Cd u0 {5,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: RJJ
     L2: R5JJ
+        L3: R5JJ_Cd
     L2: R6JJ
     L2: R7JJ
 """

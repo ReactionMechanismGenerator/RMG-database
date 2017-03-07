@@ -2839,3 +2839,18 @@ Taken from entry: OH + phenylacetylene <=> ic1
 """,
 )
 
+
+
+entry(
+    index = 179,
+    label = "C10H10-16 <=> C10H9-32 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5.401e+11, 's^-1'), n=0.549, Ea=(19.678, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3H3_C7H7_Matsugi""",
+    longDesc = 
+u"""
+Taken from entry: W14 <=> P9 + H
+""",
+)
+
