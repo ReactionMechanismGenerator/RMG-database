@@ -7,7 +7,7 @@ longDesc = u"""
 Reaction site *1 should always be a singlet in this family.
 """
 
-template(reactants=["CO_birad", "RR'"], products=["R_CO_R'"], ownReverse=False)
+template(reactants=["CO", "RR'"], products=["R_CO_R'"], ownReverse=False)
 
 reverse = "1,1_Elimination"
 
@@ -22,11 +22,11 @@ recipe(actions=[
 
 entry(
     index = 3,
-    label = "CO_birad",
+    label = "CO",
     group = 
 """
-1 *1 C u0 p1 {2,T}
-2 *4 O u0 p1 {1,T}
+1 *1 C u0 p1 c-1 {2,T}
+2 *4 O u0 p1 c+1 {1,T}
 """,
     kinetics = None,
 )
@@ -764,7 +764,7 @@ entry(
 
 tree(
 """
-L1: CO_birad
+L1: CO
 L1: RR'
     L2: R_H
         L3: H2

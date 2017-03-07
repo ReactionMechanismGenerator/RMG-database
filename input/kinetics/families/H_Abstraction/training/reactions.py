@@ -1510,4 +1510,3 @@ Rate comes from quantum calculation by J. Zador at CCSD(T) level
 [ This rate was obtained by personal communication as of Sept 2012]
 """,
 )
-

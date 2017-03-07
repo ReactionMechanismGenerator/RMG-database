@@ -10,7 +10,6 @@ group additivity values in this file.
 entry(
     index = 1,
     label = "C2H + CH3O <=> C2H2 + CH2O",
-    degeneracy = 1,
     kinetics = Arrhenius(
         A = (3.61e+13, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
@@ -36,4 +35,28 @@ to very exothermic rxn.  No data available at the time.
 MRH 30-Aug-2009
 """,
 )
+
+entry(
+    index = 2,
+    label = "C2H3 + O2 = C2H2_1 + HO2",
+    kinetics = Arrhenius(
+        A = (1.04E+16, 'cm^3/(mol*s)','*|/',5),
+        n = -1.26,
+        Ea = (3.31, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""S.S. Merchant estimate""",
+    longDesc = 
+u"""
+This rate rule is a estimate taken from NIST, ref: Aromatic and Polycyclic Aromatic
+Hydrocarbon Formation in a Laminar Premixed n-butane Flame
+Derived from fitting to a complex mechanism for C2H3 + O2 = C2H2 + HO2  
+""",
+)
+
+
+
 

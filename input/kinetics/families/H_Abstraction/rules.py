@@ -5260,36 +5260,6 @@ entry(
 )
 
 entry(
-    index = 542,
-    label = "C/H2/Cb;O_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (4.2e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (2.59, 'kcal/mol'),
-        Tmin = (500, 'K'),
-        Tmax = (1000, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Tully et al. experimental data (changed to per H)""",
-)
-
-entry(
-    index = 543,
-    label = "C/H/Cb;O_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (4.2e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (2.59, 'kcal/mol'),
-        Tmin = (500, 'K'),
-        Tmax = (1000, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Tully et al. experimental data (changed to per H)""",
-)
-
-entry(
     index = 544,
     label = "C/H3/Cb;O_rad/NonDeO",
     kinetics = ArrheniusEP(
@@ -5306,7 +5276,7 @@ entry(
 
 entry(
     index = 545,
-    label = "C/H2/Cb;O_rad/NonDeO",
+    label = "C/H2/CbCs;O_rad/NonDeO",
     kinetics = ArrheniusEP(
         A = (1.33e+11, 'cm^3/(mol*s)'),
         n = 0,
@@ -5321,7 +5291,7 @@ entry(
 
 entry(
     index = 546,
-    label = "C/H/Cb;O_rad/NonDeO",
+    label = "C/H/Cs2Cb;O_rad/NonDeO",
     kinetics = ArrheniusEP(
         A = (1.33e+11, 'cm^3/(mol*s)'),
         n = 0,
@@ -5351,7 +5321,7 @@ entry(
 
 entry(
     index = 548,
-    label = "C/H2/Cb;O2b",
+    label = "C/H2/CbCs;O2b",
     kinetics = ArrheniusEP(
         A = (6e+11, 'cm^3/(mol*s)'),
         n = 0,
@@ -5366,7 +5336,7 @@ entry(
 
 entry(
     index = 549,
-    label = "C/H/Cb;O2b",
+    label = "C/H/Cs2Cb;O2b",
     kinetics = ArrheniusEP(
         A = (6e+11, 'cm^3/(mol*s)'),
         n = 0,
@@ -9598,7 +9568,7 @@ Added by Beat Buesser, value for reaction: HOCN + NH2 = NH3 + NCO (B&D #55h) in 
 
 entry(
     index = 3000,
-    label = "N3d/H/OneDeCO;O_pri_rad",
+    label = "N3d/H/CddO;O_pri_rad",
     kinetics = ArrheniusEP(
         A = (5.2e+10, 'cm^3/(mol*s)'),
         n = -0.03,
@@ -9617,7 +9587,7 @@ Added by Beat Buesser, value for reaction: HNCO + OH = NCO + H2O (B&D #56d2) in 
 
 entry(
     index = 3000,
-    label = "N3d/H/OneDeCO;O_pri_rad",
+    label = "N3d/H/CddO;O_pri_rad",
     kinetics = ArrheniusEP(
         A = (3.6e+07, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -9636,7 +9606,7 @@ Added by Beat Buesser, value for reaction: HNCO + OH = NCO + H2O (B&D #56g) in '
 
 entry(
     index = 3000,
-    label = "N3d/H/OneDeCO;H_rad",
+    label = "N3d/H/CddO;H_rad",
     kinetics = ArrheniusEP(
         A = (180000, 'cm^3/(mol*s)'),
         n = 2.4,
@@ -9655,7 +9625,7 @@ Added by Beat Buesser, value for reaction: HNCO + H = NCO + H2 (B&D #56e) in 'Ga
 
 entry(
     index = 3000,
-    label = "N3d/H/OneDeCO;O_atom_triplet",
+    label = "N3d/H/CddO;O_atom_triplet",
     kinetics = ArrheniusEP(
         A = (3.1e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -9674,7 +9644,7 @@ Added by Beat Buesser, value for reaction: HNCO + O = NCO + OH (B&D #56f) in 'Ga
 
 entry(
     index = 3000,
-    label = "N3d/H/OneDeCO;C_methyl",
+    label = "N3d/H/CddO;C_methyl",
     kinetics = ArrheniusEP(
         A = (1e+12, 'cm^3/(mol*s)'),
         n = 0,
@@ -9693,7 +9663,7 @@ Added by Beat Buesser, value for reaction: HNCO + CH3 = NCO + CH4 (B&D #56h) in 
 
 entry(
     index = 3000,
-    label = "N3d/H/OneDeCO;NH2_rad",
+    label = "N3d/H/CddO;NH2_rad",
     kinetics = ArrheniusEP(
         A = (1e+12, 'cm^3/(mol*s)'),
         n = 0,
