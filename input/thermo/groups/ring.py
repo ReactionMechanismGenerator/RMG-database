@@ -1206,11 +1206,11 @@ entry(
     label = "five-inringthreedouble-124",
     group = 
 """
-1 * [Cd,N3d]  u0 {2,D} {5,S}
+1 * R!H  u0 {2,D} {5,[S,D]}
 2   Cdd u0 {1,D} {3,D}
-3   [Cd,N3d]  u0 {2,D} {4,S}
-4   [Cd,N3d]  u0 {3,S} {5,D}
-5   [Cd,N3d]  u0 {1,S} {4,D}
+3   R!H  u0 {2,D} {4,[S,D]}
+4   R!H  u0 {3,[S,D]} {5,D}
+5   R!H  u0 {1,[S,D]} {4,D}
 """,
     thermo = u'Cyclopentatriene',
     shortDesc = u"""""",
@@ -3819,11 +3819,11 @@ entry(
     label = "five-inringtwodouble-12",
     group =
 """
-1 * C u0 {2,[S,D]} {5,S}
-2   Cd u0 {1,[S,D]} {3,D}
+1 * R!H u0 {2,[S,D]} {5,S}
+2   R!H u0 {1,[S,D]} {3,D}
 3   Cdd u0 {2,D} {4,D}
-4   Cd u0 {3,D} {5,[S,D]}
-5   C u0 {1,S} {4,[S,D]}
+4   R!H u0 {3,D} {5,[S,D]}
+5   R!H u0 {1,S} {4,[S,D]}
 """,
     thermo = u'1,2-Cyclopentadiene',
     shortDesc = u"""""",
@@ -3862,11 +3862,11 @@ entry(
     label = "five-inringonetriple",
     group =
 """
-1 * R!H u0 {2,T} {5,[S,D]}
-2   R!H u0 {1,T} {3,[S,D]}
-3   R!H u0 {2,[S,D]} {4,[S,D]}
+1 * R!H u0 {2,T} {5,S}
+2   R!H u0 {1,T} {3,S}
+3   R!H u0 {2,S} {4,[S,D]}
 4   R!H u0 {3,[S,D]} {5,[S,D,T]}
-5   R!H u0 {1,[S,D]} {4,[S,D,T]}
+5   R!H u0 {1,S} {4,[S,D,T]}
 """,
     thermo = u'Cyclopentyne',
     shortDesc = u"""""",
@@ -3904,8 +3904,8 @@ entry(
 1 * Ct u0 {2,T} {6,S}
 2   Ct u0 {1,T} {3,S}
 3   R!H u0 {2,S} {4,[S,D]}
-4   R!H u0 {3,[S,D]} {5,D}
-5   R!H u0 {4,D} {6,[S,D]}
+4   R!H u0 {3,[S,D]} {5,[S,D]}
+5   R!H u0 {4,[S,D]} {6,[S,D]}
 6   R!H u0 {1,S} {5,[S,D]}
 """,
     thermo = u'cyclohex_1_yne_4_ene',
@@ -3951,8 +3951,8 @@ entry(
 2   Ct u0 {1,T} {3,S}
 3   Ct u0 {2,S} {4,T}
 4   Ct u0 {3,T} {5,S}
-5   R!H u0 {4,S} {6,[D,T]}
-6   R!H u0 {1,S} {5,[D,T]}
+5   R!H u0 {4,S} {6,[S,D,T]}
+6   R!H u0 {1,S} {5,[S,D,T]}
 """,
     thermo = u'1_3_cyclohexadiyne',
     shortDesc = u"""CBS-QB3""",
