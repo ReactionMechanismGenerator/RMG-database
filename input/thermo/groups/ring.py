@@ -2734,23 +2734,19 @@ entry(
     label = "six-inringthreedouble",
     group = 
 """
-1   Cd      u0 {2,D} {6,S}
+1   R!H     u0 {2,D} {6,[S,D]}
 2 * Cdd     u0 {1,D} {3,D}
-3   Cd      u0 {2,D} {4,S}
-4   [Cs,Os] u0 {3,S} {5,S}
-5   Cd      u0 {4,S} {6,D}
-6   Cd      u0 {1,S} {5,D}
+3   R!H      u0 {2,D} {4,[S,D]}
+4   R!H u0 {3,[S,D]} {5,[S,D]}
+5   R!H      u0 {4,[S,D]} {6,D}
+6   R!H      u0 {1,[S,D]} {5,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-4.21,-4.32,-3.9,-3.46,-2.71,-2.25,-1.38],'cal/(mol*K)'),
-        H298 = (36.04,'kcal/mol'),
-        S298 = (26.47,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3 isodesmic reaction approach C1=CC=CCC=1 + 3 ethane + ethene = allene + 2 2-butene + propane""",
+    thermo = u'124cyclohexatriene',
+    shortDesc = u"""""",
     longDesc = 
 u"""
-
+Use 124cyclohexatriene correction for any 6-membered ring that contains at least 3 double bonds in the 1,2 and 4 p
+positions.
 """,
 )
 
@@ -4085,6 +4081,31 @@ Fitted to CBS-QB3 calculation for 1_3_cyclohexadiyne
 """,
 )
 
+entry(
+    index = 157,
+    label = "124cyclohexatriene",
+    group =
+"""
+1   Cd      u0 {2,D} {6,S}
+2 * Cdd     u0 {1,D} {3,D}
+3   Cd      u0 {2,D} {4,S}
+4   [Cs,Os] u0 {3,S} {5,S}
+5   Cd      u0 {4,S} {6,D}
+6   Cd      u0 {1,S} {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.21,-4.32,-3.9,-3.46,-2.71,-2.25,-1.38],'cal/(mol*K)'),
+        H298 = (36.04,'kcal/mol'),
+        S298 = (26.47,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 isodesmic reaction approach C1=CC=CCC=1 + 3 ethane + ethene = allene + 2 2-butene + propane""",
+    longDesc =
+u"""
+
+""",
+)
+
 tree(
 """
 L1: Ring
@@ -4212,6 +4233,7 @@ L1: Ring
             L4: 1,4-Cyclohexadiene
             L4: 14dioxin
         L3: six-inringthreedouble
+            L4: 124cyclohexatriene
         L3: six-inringtwodouble-12
         L3: six-oneside-twoindoubles-25
             L4: 25cyclohexadienone
