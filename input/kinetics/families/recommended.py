@@ -80,6 +80,7 @@ surface = {
     'Surface_Adsorption_Bidentate',
     #'Surface_Recombination', #DEPRECATED. USE SURFACE_DISSOCIATION INSTEAD!
     'Surface_Dissociation',
+    'Surface_Dissociation_vdW',
     'Surface_Abstraction',
 }
 
