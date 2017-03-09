@@ -756,36 +756,6 @@ ALZ/GLA01 TSU/MAT97
 )
 
 entry(
-    index = 74,
-    label = "SO(S) <=> SO",
-    degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-        efficiencies = {},
-    ),
-    longDesc = 
-u"""
-RAS/MAR07
-""",
-)
-
-entry(
-    index = 75,
-    label = "SO(S) + O2 <=> SO2 + O",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-RAS/MAR07
-""",
-)
-
-entry(
     index = 76,
     label = "SO2 + H <=> HSO2",
     degeneracy = 1,
@@ -1065,38 +1035,6 @@ entry(
     longDesc = 
 u"""
 SEN/HAY07
-""",
-)
-
-entry(
-    index = 91,
-    label = "HSO + H <=> SO(S) + H2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-RAS/MAR07 estimated kinetics (UL?)
-""",
-)
-
-entry(
-    index = 92,
-    label = "HSO + OH <=> SO(S) + H2O",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-RAS/MAR07 estimated kinetics (UL?)
 """,
 )
 
@@ -1454,7 +1392,7 @@ RAS/MAR07 HU/MAR05
 
 entry(
     index = 114,
-    label = "HOSO + H <=> SO(S) + H2O",
+    label = "HOSO + H <=> SO + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.4e+14, 'cm^3/(mol*s)'),

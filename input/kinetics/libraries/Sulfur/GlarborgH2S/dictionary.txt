@@ -152,10 +152,6 @@ HSSH
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {2,S}
 
-SO(S)
-1 S u0 p2 c0 {2,D}
-2 O u0 p2 c0 {1,D}
-
 H2SO
 1 S u0 p1 c0 {2,D} {3,S} {4,S}
 2 O u0 p2 c0 {1,D}

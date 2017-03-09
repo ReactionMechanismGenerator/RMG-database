@@ -249,7 +249,7 @@ Zhou est (2009)
 
 entry(
     index = 15,
-    label = "H2S + SO(S) <=> HSO + SH",
+    label = "H2S + SO <=> HSO + SH",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1e+13, 'cm^3/(mol*s)'),
@@ -1026,36 +1026,6 @@ entry(
 u"""
 est
 Zhou est (2009)
-""",
-)
-
-entry(
-    index = 63,
-    label = "SO(S) <=> SO",
-    degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-        efficiencies = {},
-    ),
-    longDesc = 
-u"""
-Rasmussen CL GlArborg P MArshall P Proc Combust Inst 2007, 31, 339-347
-""",
-)
-
-entry(
-    index = 64,
-    label = "SO(S) + O2 <=> SO2 + O",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Rasmussen CL GlArborg P MArshall P Proc Combust Inst 2007, 31, 339-347
 """,
 )
 
@@ -2260,7 +2230,7 @@ X Hu P MArshall, poster presented at the 18th International Symposium on Gas Kin
 
 entry(
     index = 136,
-    label = "HOSO + H <=> SO(S) + H2O",
+    label = "HOSO + H <=> SO + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.4e+14, 'cm^3/(mol*s)'),

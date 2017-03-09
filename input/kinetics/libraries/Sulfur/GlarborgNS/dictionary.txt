@@ -1,5 +1,6 @@
 SO
-1 S u0 p2 c0 {2,D}
+multiplicity 3
+1 S u2 p1 c0 {2,D}
 2 O u0 p2 c0 {1,D}
 
 N

@@ -113,10 +113,6 @@ H
 multiplicity 2
 1 H u1 p0 c0
 
-SO(S)
-1 S u0 p2 c0 {2,D}
-2 O u0 p2 c0 {1,D}
-
 O
 multiplicity 3
 1 O u2 p2 c0
