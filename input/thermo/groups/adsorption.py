@@ -199,12 +199,12 @@ entry(
 """,
     thermo=ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata=([-1.17, -1.10, -1.06, -1.04, -1.02, -1.01, -1.00], 'cal/(mol*K)'),
-        H298=(-0.46, 'kcal/mol'),
-        S298=(-19.25, 'cal/(mol*K)'),
+        Cpdata=([0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'cal/(mol*K)'),
+        H298=(-8.9, 'kcal/mol'),
+        S298=(-10.4, 'cal/(mol*K)'),
     ),
     shortDesc = u"""CR4 physisorbed on nickel""",
-    longDesc =  u"""Estimated via CFG-TiC
+    longDesc =  u"""taken from Delgado, ratio of rate constants for R11/R12
  R2-C-R2
     :
 ***********
@@ -223,12 +223,12 @@ entry(
 """,
     thermo=ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata=([-0.99, -0.99, -0.99, -0.99, -0.99, -0.99, -0.99], 'cal/(mol*K)'),
-        H298=(-0.46, 'kcal/mol'),
-        S298=(-14.96, 'cal/(mol*K)'),
+        Cpdata=([0.0, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00], 'cal/(mol*K)'),
+        H298=(-14.5, 'kcal/mol'),
+        S298=(-0.7, 'cal/(mol*K)'),
     ),
     shortDesc = u"""R2O physisorbed on nickel""",
-    longDesc =  u"""Estimated via CFG-TiC
+    longDesc =  u"""Estimated Delgado mechanism for ratio of R5/R6
   R-O-R
     :
 ***********
