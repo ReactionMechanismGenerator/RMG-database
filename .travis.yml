@@ -26,6 +26,7 @@ before_install:
   # Add RMG-Py to PYTHONPATH
   - export PYTHONPATH=$TRAVIS_BUILD_DIR/RMG-Py:$PYTHONPATH
   - cd RMG-Py
+  - git checkout SOxNOx
 
 install:
   - conda env create -f environment_linux.yml
