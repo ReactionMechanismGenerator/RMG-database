@@ -601,10 +601,10 @@ entry(
     label = "FourMember",
     group = 
 """
-1 * R!H u0 {2,[S,D]} {4,[S,D]}
-2   R!H u0 {1,[S,D]} {3,[S,D,T]}
-3   R!H u0 {2,[S,D,T]} {4,[S,D]}
-4   R!H u0 {1,[S,D]} {3,[S,D]}
+1 * R!H u0 {2,[S,D,T]} {4,[S,D]}
+2   R!H u0 {1,[S,D,T]} {3,[S,D]}
+3   R!H u0 {2,[S,D]} {4,[S,D,T]}
+4   R!H u0 {1,[S,D]} {3,[S,D,T]}
 """,
     thermo = u'Cyclobutane',
     shortDesc = u"""""",
@@ -4180,9 +4180,9 @@ entry(
     label = "four-inringoneunsaturated",
     group =
 """
-1 * R!H u0 {2,S} {4,S}
-2   R!H u0 {1,S} {3,[D,T]}
-3   R!H u0 {2,[D,T]} {4,S}
+1 * R!H u0 {2,[D,T]} {4,S}
+2   R!H u0 {1,[D,T]} {3,S}
+3   R!H u0 {2,S} {4,S}
 4   R!H u0 {1,S} {3,S}
 """,
     thermo = u'Cyclobutene',
@@ -4195,19 +4195,19 @@ Use cyclobutene correction for any four membered ring with one double or triple 
 
 entry(
     index = 162,
-    label = "four-inringtwodouble",
+    label = "four-inringtwounsaturated",
     group =
 """
-1   R!H u0 {2,D} {4,[S,D]}
-2 * R!H u0 {1,D} {3,[S,D]}
-3   R!H u0 {2,[S,D]} {4,D}
-4   R!H u0 {1,[S,D]} {3,D}
+1   R!H u0 {2,[D,T]} {4,[S,D]}
+2 * R!H u0 {1,[D,T]} {3,[S,D]}
+3   R!H u0 {2,[S,D]} {4,[D,T]}
+4   R!H u0 {1,[S,D]} {3,[D,T]}
 """,
     thermo = u'cyclobutadiene_13',
     shortDesc = u"""""",
     longDesc =
 u"""
-Use cyclobutadiene_13 correction for any four membered ring with at least two double bonds
+Use cyclobutadiene_13 correction for any four membered ring with at least two double or triple bonds
 """,
 )
 
@@ -4275,7 +4275,7 @@ L1: Ring
         L3: Cyclobutanone
         L3: 12dioxetane
         L3: dioxerene
-        L3: four-inringtwodouble
+        L3: four-inringtwounsaturated
             L4: cyclobutadiene_13
         L3: cyclobutadiene_12
         L3: thietane
