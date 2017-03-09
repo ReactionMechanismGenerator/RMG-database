@@ -61,14 +61,16 @@ entry(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'cal/(mol*K)'),
         H298=(-10.0, 'kcal/mol'),
-        S298=(-2.0, 'cal/(mol*K)'),
+        S298=(-4.0, 'cal/(mol*K)'),
         ),
     shortDesc=u"""Anything physisorbed by a van der Waals bond""",
     longDesc =  u"""
    R
    :  <---(van der Waals bond)
 ********
-Data made up by Franklin to get something working. Please improve.
+Consider the Deutschmann mechanism rate constants for CH4, CO2, and H2O.
+The average binding enthalpy is 41.3 kJ/mol, so call it 10 kcal/mol.
+The average loss in entropy is -16.7 J/mol-K, so call it -4. cal/mol-K
 """,
 )
 
