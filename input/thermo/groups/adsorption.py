@@ -59,16 +59,16 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-0.2, -0.2, -0.2, -0.2, -0.2, -0.2, -0.2], 'cal/(mol*K)'),
-        H298=(-2, 'kcal/mol'),
-        S298=(-0, 'cal/(mol*K)'),
+        Cpdata=([0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'cal/(mol*K)'),
+        H298=(-10.0, 'kcal/mol'),
+        S298=(-2.0, 'cal/(mol*K)'),
         ),
     shortDesc=u"""Anything physisorbed by a van der Waals bond""",
     longDesc =  u"""
    R
    :  <---(van der Waals bond)
 ********
-Data made up by Richard to get something working. Please improve.
+Data made up by Franklin to get something working. Please improve.
 """,
 )
 
