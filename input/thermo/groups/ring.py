@@ -602,8 +602,8 @@ entry(
     group = 
 """
 1 * R!H u0 {2,[S,D]} {4,[S,D]}
-2   R!H u0 {1,[S,D]} {3,[S,D]}
-3   R!H u0 {2,[S,D]} {4,[S,D]}
+2   R!H u0 {1,[S,D]} {3,[S,D,T]}
+3   R!H u0 {2,[S,D,T]} {4,[S,D]}
 4   R!H u0 {1,[S,D]} {3,[S,D]}
 """,
     thermo = u'Cyclobutane',
@@ -854,7 +854,7 @@ u"""
 
 entry(
     index = 19,
-    label = "cyclobutadiene",
+    label = "cyclobutadiene_13",
     group = 
 """
 1   [Cd,N3d] u0 {2,D} {4,S}
@@ -4124,7 +4124,7 @@ entry(
     shortDesc = u"""""",
     longDesc =
 u"""
-
+Fitted to M06 calculations
 """,
 )
 
@@ -4171,7 +4171,61 @@ entry(
     shortDesc = u"""""",
     longDesc =
 u"""
+Fitted to M06 calculations
+""",
+)
 
+entry(
+    index = 161,
+    label = "four-inringoneunsaturated",
+    group =
+"""
+1 * R!H u0 {2,S} {4,S}
+2   R!H u0 {1,S} {3,[D,T]}
+3   R!H u0 {2,[D,T]} {4,S}
+4   R!H u0 {1,S} {3,S}
+""",
+    thermo = u'Cyclobutene',
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Use cyclobutene correction for any four membered ring with one double or triple bond
+""",
+)
+
+entry(
+    index = 162,
+    label = "four-inringtwodouble",
+    group =
+"""
+1   R!H u0 {2,D} {4,[S,D]}
+2 * R!H u0 {1,D} {3,[S,D]}
+3   R!H u0 {2,[S,D]} {4,D}
+4   R!H u0 {1,[S,D]} {3,D}
+""",
+    thermo = u'cyclobutadiene_13',
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Use cyclobutadiene_13 correction for any four membered ring with at least two double bonds
+""",
+)
+
+entry(
+    index = 163,
+    label = "cyclobutadiene_12",
+    group =
+"""
+1   R!H u0 {2,D} {4,S}
+2 * R!H u0 {1,D} {3,D}
+3   R!H u0 {2,D} {4,S}
+4   R!H u0 {1,S} {3,S}
+""",
+    thermo = u'cyclobutadiene_13',
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Use cyclobutadiene_13 correction for 1,2_CBD
 """,
 )
 
@@ -4213,12 +4267,16 @@ L1: Ring
         L3: Cyclobutadiene2
         L3: Cyclobutadiene3
         L3: 34methylenecyclobutene
+        L3: four-inringoneunsaturated
+            L4: Cyclobutene
         L3: Oxetane
 		L3: Oxetene
         L3: Beta-Propiolactone
         L3: Cyclobutanone
         L3: 12dioxetane
         L3: dioxerene
+        L3: four-inringtwodouble
+            L4: cyclobutadiene_13
         L3: cyclobutadiene_12
         L3: thietane
         L3: 1,2-dithietane
