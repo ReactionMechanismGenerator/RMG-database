@@ -81,8 +81,8 @@ entry(
     label = "ThreeMember",
     group = 
 """
-1 * R!H u0 {2,[S,D]} {3,[S,D]}
-2   R!H u0 {1,[S,D]} {3,[S,D]}
+1 * R!H u0 {2,[S,D,T]} {3,[S,D]}
+2   R!H u0 {1,[S,D,T]} {3,[S,D]}
 3   R!H u0 {1,[S,D]} {2,[S,D]}
 """,
     thermo = u'Cyclopropane',
@@ -2646,15 +2646,15 @@ u"""
 
 entry(
     index = 153,
-    label = "six-inringthreedouble",
+    label = "six-inringthreedouble_124",
     group = 
 """
-1   R!H     u0 {2,D} {6,[S,D]}
+1   R!H     u0 {2,D} {6,S}
 2 * Cdd     u0 {1,D} {3,D}
-3   R!H      u0 {2,D} {4,[S,D]}
-4   R!H u0 {3,[S,D]} {5,[S,D]}
+3   R!H      u0 {2,D} {4,S}
+4   R!H u0 {3,S} {5,[S,D]}
 5   R!H      u0 {4,[S,D]} {6,D}
-6   R!H      u0 {1,[S,D]} {5,D}
+6   R!H      u0 {1,S} {5,D}
 """,
     thermo = u'124cyclohexatriene',
     shortDesc = u"""""",
@@ -3996,6 +3996,75 @@ u"""
 """,
 )
 
+entry(
+    index = 158,
+    label = "Cyclopropyne",
+    group =
+"""
+1 * Ct u0 {2,T} {3,S}
+2   Ct u0 {1,T} {3,S}
+3   R!H u0 {1,S} {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.22, 1.515, 0.554, -0.319, -1.215, -1.31, -2.439],'cal/(mol*K)'),
+        H298 = (111.641,'kcal/mol'),
+        S298 = (37.345,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+
+entry(
+    index = 159,
+    label = "six-inringthreedouble_123",
+    group =
+"""
+1   Cdd     u0 {2,D} {6,D}
+2 * Cdd     u0 {1,D} {3,D}
+3   R!H      u0 {2,D} {4,[S,D]}
+4   R!H u0 {3,[S,D]} {5,[S,D]}
+5   R!H      u0 {4,[S,D]} {6,[S,D]}
+6   R!H      u0 {1,D} {5,[S,D]}
+""",
+    thermo = u'123cyclohexatriene',
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Use 123cyclohexatriene correction for any 6-membered ring that contains at least 3 double bonds in the 1,2 and 3
+positions.
+""",
+)
+
+entry(
+    index = 160,
+    label = "123cyclohexatriene",
+    group =
+"""
+1   Cdd      u0 {2,D} {6,D}
+2 * Cdd     u0 {1,D} {3,D}
+3   Cd      u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs      u0 {4,S} {6,S}
+6   Cd      u0 {1,D} {5,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.033, -4.022, -3.919, -3.755, -3.149 ,-2.312, -1.645],'cal/(mol*K)'),
+        H298 = (50.291,'kcal/mol'),
+        S298 = (27.334,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
 tree(
 """
 L1: Ring
@@ -4005,6 +4074,7 @@ L1: Ring
         L3: Cyclopropane
         L3: Cyclopropene
         L3: Cyclopropadiene
+        L3: Cyclopropyne
 		L3: oxirene
         L3: Cyclopropatriene
         L3: Ethylene_oxide
@@ -4116,8 +4186,10 @@ L1: Ring
         L3: six-inringtwodouble-14
             L4: 1,4-Cyclohexadiene
             L4: 14dioxin
-        L3: six-inringthreedouble
+        L3: six-inringthreedouble_124
             L4: 124cyclohexatriene
+        L3: six-inringthreedouble_123
+            L4: 123cyclohexatriene
         L3: six-inringtwodouble-12
         L3: six-oneside-twoindoubles-25
             L4: 25cyclohexadienone
