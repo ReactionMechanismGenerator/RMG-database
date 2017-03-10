@@ -319,22 +319,22 @@ u"""
 """,
 )
 
-entry(
-    label = "cyclopropyne",
-    group = 
-"""
-1 C u0 {2,T} {3,S}
-2 C u0 {1,T} {3,S}
-3 C u0 {1,S} {2,S} {4,S} {5,S}
-4 H u0 {3,S}
-5 H u0 {3,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+# entry(
+#     label = "cyclopropyne",
+#     group =
+# """
+# 1 C u0 {2,T} {3,S}
+# 2 C u0 {1,T} {3,S}
+# 3 C u0 {1,S} {2,S} {4,S} {5,S}
+# 4 H u0 {3,S}
+# 5 H u0 {3,S}
+# """,
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
 
 entry(
     label = "3H-Pyrazol",
