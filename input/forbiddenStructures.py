@@ -357,6 +357,21 @@ See RMG-Py issue #253
 )
 
 entry(
+    label = "cyclobutyne",
+    group =
+"""
+1   R!H ux {2,T} {4,[S,D,T]}
+2   R!H ux {1,T} {3,[S,D,T]}
+3   R!H ux {2,[S,D,T]} {4,[S,D,T]}
+4   R!H ux {1,[S,D,T]} {3,[S,D,T]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+""",
+)
+
+entry(
     label = "C=N[N]C#[C]",
     group = 
 """
@@ -379,6 +394,22 @@ See RMG-Py issue #806
 )
 
 entry(
+    label = "s2_3_4_yne_1",
+    group =
+"""
+1   R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]} {4,[S,D,T,B]}
+2   R!H ux {1,[S,D,T,B]} {3,[S,D,T,B]} {5,[S,D,T,B]}
+3   R!H ux {1,[S,D,T,B]} {2,[S,D,T,B]}
+4   R!H ux {1,[S,D,T,B]} {5,T}
+5   R!H ux {2,[S,D,T,B]} {4,T}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+""",
+)
+
+entry(
     label = "C1=CO[N][N]1",
     group = 
 """
@@ -396,6 +427,23 @@ multiplicity [3]
 u"""
 EA sims (xa1462-xa1465) crashed with error:
 Invalid k(E) values computed for path reaction "C(=[CH])N=[N+][O-](2989) <=> C1=CO[N][N]1(3358)".
+""",
+)
+
+entry(
+    label = "s2_4_4_yne_1",
+    group =
+"""
+1   R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+2   R!H ux {1,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
+3   R!H ux {2,[S,D,T,B]} {4,T}
+4   R!H ux {1,[S,D,T,B]} {3,T}
+5   R!H ux {1,[S,D,T,B]} {6,[S,D,T,B]}
+6   R!H ux {2,[S,D,T,B]} {5,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
 """,
 )
 
@@ -423,6 +471,24 @@ Mcoll = numpy.zeros((Nisom,Ngrains,NJ,Ngrains,NJ), numpy.float64)
 )
 
 entry(
+    label = "s2_4_5_yne_5",
+    group =
+"""
+1   R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]} {5,[S,D,T,B]}
+2   R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]} {6,[S,D,T,B]}
+3   R!H ux {1,[S,D,T,B]} {4,T}
+4   R!H ux {2,[S,D,T,B]} {3,T}
+5   R!H ux {1,[S,D,T,B]} {7,[S,D,T,B]}
+6   R!H ux {2,[S,D,T,B]} {7,[S,D,T,B]}
+7   R!H ux {5,[S,D,T,B]} {6,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+""",
+)
+
+entry(
     label = "C(=[CH])[O-][N+]#N",
     group = 
 """
@@ -443,3 +509,22 @@ Invalid k(E) values computed for path reaction "C(=[CH])[O-][N+]#N(6454) <=> c1c
 """,
 )
 
+entry(
+    label = "s2_4_6_yne_6",
+    group =
+"""
+1   R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
+2   R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+3   R!H ux {1,[S,D,T,B]} {4,T}
+4   R!H ux {2,[S,D,T,B]} {3,T}
+5   R!H ux {2,[S,D,T,B]} {8,[S,D,T,B]}
+6   R!H ux {1,[S,D,T,B]} {7,[S,D,T,B]}
+7   R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8   R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
