@@ -3794,11 +3794,11 @@ entry(
 5   R!H u0 {4,[S,D]} {6,[S,D]}
 6   R!H u0 {1,S} {5,[S,D]}
 """,
-    thermo = u'cyclohex_1_yne_4_ene',
+    thermo = u'cyclohex_1_yne_3_ene',
     shortDesc = u"""""",
     longDesc =
 u"""
-Use cyclohex_1_yne_4_ene correction for any 6-membered ring containing at least one triple bond
+Use cyclohex_1_yne_3_ene correction for any 6-membered ring containing at least one triple bond
 and one double bond.
 """,
 )
