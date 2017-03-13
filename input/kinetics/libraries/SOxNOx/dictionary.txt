@@ -139,14 +139,6 @@ HNO3
 4 O u0 p3 c-1 {1,S}
 5 H u0 p0 c0 {3,S}
 
-ONONO2
-1 O u0 p2 c0 {2,D}
-2 N u0 p1 c0 {1,D} {3,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 N u0 p0 c+1 {3,S} {5,S} {6,D}
-5 O u0 p3 c-1 {4,S}
-6 O u0 p2 c0 {4,D}
-
 N2O3
 1 O u0 p2 c0 {2,D}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -159,6 +151,14 @@ N2O4
 2 N u0 p0 c+1 {1,D} {3,S} {4,S}
 3 O u0 p3 c-1 {2,S}
 4 N u0 p0 c+1 {2,S} {5,S} {6,D}
+5 O u0 p3 c-1 {4,S}
+6 O u0 p2 c0 {4,D}
+
+ONONO2
+1 O u0 p2 c0 {2,D}
+2 N u0 p1 c0 {1,D} {3,S}
+3 O u0 p2 c0 {2,S} {4,S}
+4 N u0 p0 c+1 {3,S} {5,S} {6,D}
 5 O u0 p3 c-1 {4,S}
 6 O u0 p2 c0 {4,D}
 
@@ -314,6 +314,13 @@ HCN
 1 C u0 p0 c0 {2,T} {3,S}
 2 N u0 p1 c0 {1,T}
 3 H u0 p0 c0 {1,S}
+
+H2CN
+multiplicity 2
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 N u1 p1 c0 {1,D}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
 
 HNC
 multiplicity 3
@@ -560,6 +567,7 @@ multiplicity 2
 2 H u0 p0 c0 {1,S}
 
 SO
+multiplicity 3
 1 S u2 p1 c0 {2,D}
 2 O u0 p2 c0 {1,D}
 
