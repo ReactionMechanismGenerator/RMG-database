@@ -1430,12 +1430,12 @@ entry(
 
 entry(
     index = 130,
-    label = "N3d-OdOs",
+    label = "N5d-OdOs",
     group = 
 """
-1 * N3d u1 {2,D} {3,S}
+1 * N5d u1 p0 c+1 {2,D} {3,S}
 2   Od  u0 {1,D}
-3   Os  u0 (1,S)
+3   Os  u0 p3 c-1 (1,S)
 """,
     kinetics = None,
 )
@@ -1618,11 +1618,11 @@ L1: Y_rad
             L4: N3d-Cd
             L4: N3d-Cdd
             L4: N3d-Od
-                L5: N3d-OdOs
             L4: N3d-N3d
     L2: N5_rad
         L3: N5s_rad
         L3: N5d_rad
+            L4: N5d-OdOs
         L3: N5t_rad
         L3: N5b_rad
 """

@@ -2423,7 +2423,7 @@ entry(
 
 entry(
     index = 600,
-    label = "N3d-OdOs;O_rad",
+    label = "N5d-OdOs;O_rad",
     kinetics = ArrheniusEP(
         A = (3.5e+12, 'cm^3/(mol*s)'),
         n = 0.24,
@@ -2461,7 +2461,7 @@ The high-pressure limit kinetics was taken. Troe coefficients are:
 
 entry(
     index = 601,
-    label = "N3d-OdOs;O_pri_rad",
+    label = "N5d-OdOs;O_pri_rad",
     kinetics = ArrheniusEP(
         A = (3e+13, 'cm^3/(mol*s)'),
         n = 0,
