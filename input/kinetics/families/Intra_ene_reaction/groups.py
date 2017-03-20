@@ -516,3 +516,43 @@ Forbid an H from shifting to a doubly resonant radical site on a linear 1,3-unsa
 in order to avoid redundancy with Intra_H_migration family
 """,
 )
+
+forbidden(
+    label = "para_to_benzylic_shift",
+    group =
+"""
+1  *1 C u0 {2,S} {8,S}
+2  *5 C u0 {1,S} {3,D} {7,[S,D]}
+3  *4 C u0 {2,D} {4,S}
+4  *3 C u0 {3,S} {5,D}
+5  *2 C u0 {4,D} {6,[S,D]}
+6  R!H ux {5,[S,D]} {7,[D,T]}
+7  R!H ux {2,[S,D]} {6,[D,T]}
+8  *6 H u0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Prevents an H on para position of a benzene ring from shifting to the benzylic position of a tail
+""",
+)
+
+forbidden(
+    label = "benzylic_to_para_shift",
+    group =
+"""
+1  *2 C u0 {2,D}
+2  *3 C u0 {1,D} {3,S} {7,[S,D]}
+3  *4 C u0 {2,S} {4,D}
+4  *5 C u0 {3,D} {5,S}
+5  *1 C u0 {4,S} {6,[S,D]} {8,S}
+6  R!H ux {5,[S,D]} {7,[D,T]}
+7  R!H ux {2,[S,D]} {6,[D,T]}
+8  *6 H u0 {5,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Prevents an H on the benzylic position of a tail from shifting to the para position of the benzene ring
+""",
+)
