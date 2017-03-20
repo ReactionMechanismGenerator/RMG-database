@@ -3155,7 +3155,7 @@ entry(
         S298 = (15.9,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cycloheptane ring BENSON""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4229,6 +4229,31 @@ Use cyclobutadiene_13 correction for 1,2_CBD
 """,
 )
 
+entry(
+    index = 164,
+    label = "o_benzyne",
+    group =
+"""
+1 * Ct u0 {2,T} {6,S}
+2   Ct u0 {1,T} {3,S}
+3   Cd u0 {2,S} {4,D}
+4   Cd u0 {3,D} {5,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {1,S} {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.003, -4.523, -5.242, -5.892, -5.423, -3.742, -3.198],'cal/(mol*K)'),
+        H298 = (26.527,'kcal/mol'),
+        S298 = (29.264,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+Fitted to CBS-QB3 calculation for o_benzyne
+""",
+)
+
 tree(
 """
 L1: Ring
@@ -4386,6 +4411,7 @@ L1: Ring
         L3: six-inringonetripleonedouble
             L4: cyclohex_1_yne_4_ene
             L4: cyclohex_1_yne_3_ene
+            L4: o_benzyne
         L3: six-inringtwotriple-13
             L4: 1_3_cyclohexadiyne
     L2: SevenMember
