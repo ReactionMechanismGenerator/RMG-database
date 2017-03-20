@@ -3119,8 +3119,8 @@ entry(
     label = "SevenMember",
     group = 
 """
-1 * R!H u0 {2,[S,D]} {7,[S,D]}
-2   R!H u0 {1,[S,D]} {3,[S,D]}
+1 * R!H u0 {2,[S,D,T]} {7,[S,D]}
+2   R!H u0 {1,[S,D,T]} {3,[S,D]}
 3   R!H u0 {2,[S,D]} {4,[S,D]}
 4   R!H u0 {3,[S,D]} {5,[S,D]}
 5   R!H u0 {4,[S,D]} {6,[S,D]}
@@ -4254,6 +4254,147 @@ Fitted to CBS-QB3 calculation for o_benzyne
 """,
 )
 
+entry(
+    index = 165,
+    label = "seven-inringtwodouble-12",
+    group =
+"""
+1  * Cd u0 {2,D} {7,S}
+2    Cdd u0 {1,D} {3,D}
+3    Cd u0 {4,S} {2,D}
+4    R!H u0 {3,S} {5,[S,D]}
+5    R!H u0 {6,[S,D]} {4,[S,D]}
+6    R!H u0 {5,[S,D]} {7,[S,D]}
+7    R!H u0 {1,S} {6,[S,D]}
+""",
+    thermo = u'1_2_cycloheptadiene',
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Use 1_2_cycloheptadiene correction for any seven membered ring with at least two double bonds in the 1,2-positions
+""",
+)
+
+entry(
+    index = 166,
+    label = "1_2_cycloheptadiene",
+    group =
+"""
+1  * Cd u0 {2,D} {7,S}
+2    Cdd u0 {1,D} {3,D}
+3    Cd u0 {4,S} {2,D}
+4    C u0 {3,S} {5,S}
+5    C u0 {6,S} {4,S}
+6    C u0 {5,S} {7,S}
+7    C u0 {1,S} {6,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-5.058, -4.616, -4.065, -3.549, -2.425, -1.185, -0.012], 'cal/(mol*K)'),
+        H298=(19.726, 'kcal/mol'),
+        S298=(17.979, 'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Fitted to CBS-QB3 calculations
+""",
+)
+
+entry(
+    index = 167,
+    label = "seven-inringthreedouble-123",
+    group =
+"""
+1  * R!H u0 {2,D} {7,[S,D]}
+2    Cdd u0 {1,D} {3,D}
+3    Cdd u0 {4,D} {2,D}
+4    R!H u0 {3,D} {5,[S,D]}
+5    R!H u0 {6,[S,D]} {4,[S,D]}
+6    R!H u0 {5,[S,D]} {7,[S,D]}
+7    R!H u0 {1,[S,D]} {6,[S,D]}
+""",
+    thermo = u'1_2_3_cycloheptatriene',
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Use 1_2_3_cycloheptatriene correction for any seven membered ring with at least three double bonds in the 1,2 and 3-positions
+""",
+)
+
+entry(
+    index = 168,
+    label = "1_2_3_cycloheptatriene",
+    group =
+"""
+1  * Cd u0 {2,D} {7,S}
+2    Cdd u0 {1,D} {3,D}
+3    Cdd u0 {4,D} {2,D}
+4    Cd u0 {3,D} {5,S}
+5    C u0 {6,S} {4,S}
+6    C u0 {5,S} {7,S}
+7    C u0 {1,S} {6,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-4.854, -4.544, -4.148, -3.726, -2.801, -1.852, -0.8], 'cal/(mol*K)'),
+        H298=(25.76, 'kcal/mol'),
+        S298=(22.122, 'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Fitted to CBS-QB3 calculations
+""",
+)
+
+entry(
+    index = 169,
+    label = "seven-inringonetriple",
+    group =
+"""
+1  * Ct u0 {2,T} {7,S}
+2    Ct u0 {1,T} {3,S}
+3    R!H u0 {4,[S,D]} {2,S}
+4    R!H u0 {3,[S,D]} {5,[S,D]}
+5    R!H u0 {6,[S,D]} {4,[S,D]}
+6    R!H u0 {5,[S,D]} {7,[S,D]}
+7    R!H u0 {1,S} {6,[S,D]}
+""",
+    thermo = u'cycloheptyne',
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Use cycloheptyne correction for any seven membered ring with at least one triple bond
+""",
+)
+
+entry(
+    index = 170,
+    label = "cycloheptyne",
+    group =
+"""
+1  * Ct u0 {2,T} {7,S}
+2    Ct u0 {1,T} {3,S}
+3    C u0 {4,S} {2,S}
+4    C u0 {3,S} {5,S}
+5    C u0 {6,S} {4,S}
+6    C u0 {5,S} {7,S}
+7    C u0 {1,S} {6,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-4, -3.568, -3.106, -2.646, -1.582, -0.695, -1.916], 'cal/(mol*K)'),
+        H298=(24.448, 'kcal/mol'),
+        S298=(17.688, 'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Fitted to CBS-QB3 calculations
+""",
+)
+
 tree(
 """
 L1: Ring
@@ -4421,7 +4562,13 @@ L1: Ring
         L3: 1,3,5-Cycloheptatriene
         L3: Cycloheptanone
         L3: 1,4-Cycloheptadiene
-        L3: 1,2,4,6-Cycloheptatetraene
+        L3: seven-inringtwodouble-12
+            L4: 1_2_cycloheptadiene
+            L4: 1,2,4,6-Cycloheptatetraene
+        L3: seven-inringthreedouble-123
+            L4: 1_2_3_cycloheptatriene
+        L3: seven-inringonetriple
+            L4: cycloheptyne
         L3: heptasulfur
 	L3: oxepane
     L2: EightMember
