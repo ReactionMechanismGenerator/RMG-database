@@ -56,16 +56,21 @@ CO2
 2 O u0 p2 c0 {1,D}
 3 O u0 p2 c0 {1,D}
 
-C
-multiplicity 5
-1 C u4 p0 c0
+C(T)
+multiplicity 3
+1 C u2 p1 c0
 
-CH
+CH(D)
+multiplicity 2
+1 C u1 p1 c0 {2,S}
+2 H u0 p0 c0 {1,S}
+
+CH(Q)
 multiplicity 4
 1 C u3 p0 c0 {2,S}
 2 H u0 p0 c0 {1,S}
 
-CH2
+CH2(T)
 multiplicity 3
 1 C u2 p0 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
