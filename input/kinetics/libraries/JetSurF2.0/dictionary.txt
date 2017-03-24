@@ -1393,8 +1393,8 @@ multiplicity 2
 16 H u0 p0 c0 {5,S}
 
 C
-multiplicity 5
-1 C u4 p0 c0
+multiplicity 3
+1 C u2 p1 c0
 
 C4H2
 1 C u0 p0 c0 {2,S} {3,T}
@@ -2253,8 +2253,8 @@ CH3COCH3
 10 O u0 p2 c0 {3,D}
 
 CH
-multiplicity 4
-1 C u3 p0 c0 {2,S}
+multiplicity 2
+1 C u1 p1 c0 {2,S}
 2 H u0 p0 c0 {1,S}
 
 CO
@@ -3272,7 +3272,7 @@ C12H24
 35 H u0 p0 c0 {12,S}
 36 H u0 p0 c0 {12,S}
 
-AR
+Ar
 1 Ar u0 p4 c0
 
 SXC9H19
