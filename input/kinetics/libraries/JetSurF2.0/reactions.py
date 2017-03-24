@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "JetSurF0.2"
+name = "JetSurF2.0"
 shortDesc = u""
 longDesc = u"""
 JetSurF – A Jet Surrogate Fuel Model
@@ -12,6 +12,32 @@ H. Wang, E. Dames, B. Sirjean, D. A. Sheen, R. Tango, A. Violi, J. Y. W. Lai, F.
  A high-temperature chemical kinetic model of n-alkane (up to n-dodecane), cyclohexane, and methyl-, ethyl-,
  n-propyl and n-butyl-cyclohexane oxidation at high temperatures, JetSurF version 2.0,
  September 19, 2010 (http://web.stanford.edu/group/haiwanglab/JetSurF/JetSurF2.0/index.html).
+ 
+ 
+The following reactions involve excited CH and OH species, which currently cannot be represented in RMG.
+In order to compare RMG's predictions with experimental results of excited CH or OH,
+it is advised to append the following reactions to the final Chemkin file.
+Note that the model generation in RMG could have been somewhat different if these reactions were to integrated as a library.
+See https://github.com/ReactionMechanismGenerator/RMG-database/issues/174 for more info.
+
+CH* => CH                     1.90E+06 0.0 0.0
+!DUPLICATE
+CH* + M => CH + M             4.00E+10 0.5 0.0
+!DUPLICATE
+CH* + O2 => CH + O2           2.40E+12 0.5 0.0
+C2H + O2 => CH* + CO2         4.50E+15 0.0 25000
+H+O+M = OH* +M                3.10E+14   0.0 10000.
+OH*+Ar = OH+Ar                2.17E+10  0.5   2060.
+OH* +H2O = OH+H2O             5.92E+12  0.5   -861.
+OH* +CO2 = OH+CO2             2.75E+12  0.5   -968.
+OH* +CO = OH+CO               3.23E+12  0.5   -787.
+OH* +H2 = OH+H2               2.95E+12  0.5   -444.
+OH* +O2 = OH+O2               2.10E+12  0.5   -482.
+OH* +OH = OH+OH               1.50E+12  0.5      0.
+OH* +H = OH+H                 1.50E+12  0.5      0.
+OH* +O = OH+O                 1.50E+12  0.5      0.
+OH* +CH4 = OH+CH4             3.36E+12  0.5   -635.
+OH* = OH                      1.40E+6   0.0      0.
 """
 
 entry(
@@ -106,7 +132,7 @@ entry(
     longDesc = 
 u"""
 GRI3.0 * 1.78
-HE/0.63/
+He/0.63/
 """,
 )
 
@@ -171,7 +197,7 @@ entry(
     longDesc = 
 u"""
 GRI3.0 * 2.00
-HE/0.38/
+He/0.38/
 """,
 )
 
@@ -187,7 +213,7 @@ entry(
     longDesc = 
 u"""
 86TSA/HAM * 2.00
-HE/0.7/
+He/0.7/
 """,
 )
 
@@ -212,7 +238,7 @@ entry(
     longDesc = 
 u"""
 GRI3.0
-HE/0.83/
+He/0.83/
 """,
 )
 
@@ -230,7 +256,7 @@ entry(
     longDesc = 
 u"""
 00 TROE - Based on M=N2 * 1.10
-HE/0.46/
+He/0.46/
 """,
 )
 
@@ -275,7 +301,7 @@ u"""
 88ZEL/EWI * 1.50
 Fit 88ZEL/EWI and 92BAU/COB
 H2O=6xN2 88ZEL/EWI
-HE/0.7/
+He/0.7/
 Reactions of HO2
 """,
 )
@@ -1147,7 +1173,7 @@ Reactions of CH2(singlet)
 
 entry(
     index = 60,
-    label = "CH2(S) + AR <=> CH2 + AR",
+    label = "CH2(S) + Ar <=> CH2 + Ar",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (9e+12, 'cm^3/(mol*s)'),
@@ -12742,11 +12768,11 @@ entry(
         n = 0,
         Ea = (12400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = '88-HE-MAL',
+        comment = '88-He-MAL',
     ),
     longDesc = 
 u"""
-88-HE-MAL
+88-He-MAL
 """,
 )
 
@@ -12759,11 +12785,11 @@ entry(
         n = 0,
         Ea = (7910, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = '88-HE-MAL',
+        comment = '88-He-MAL',
     ),
     longDesc = 
 u"""
-88-HE-MAL
+88-He-MAL
 """,
 )
 
@@ -12776,11 +12802,11 @@ entry(
         n = 0,
         Ea = (5148, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = '88-HE-MAL',
+        comment = '88-He-MAL',
     ),
     longDesc = 
 u"""
-88-HE-MAL
+88-He-MAL
 """,
 )
 
@@ -13298,11 +13324,11 @@ entry(
         n = 0,
         Ea = (7352, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = '88-HE-MAL',
+        comment = '88-He-MAL',
     ),
     longDesc = 
 u"""
-88-HE-MAL
+88-He-MAL
 """,
 )
 
@@ -14388,7 +14414,7 @@ entry(
         n = -1.94,
         Ea = (75470, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = '08/TSAwip  !BS\nReactions of C5H10\nC5H10+H(+M) = PXC5H11(+M)                    1.33E+13    0.00     3260.7   ! =(C3H6+H) !BS\nLOW  / 6.26E+38   -6.66     7000.0   /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/\nC5H10+H(+M) = SXC5H11(+M)                    1.33E+13    0.00     1559.8   ! =(C3H6+H) !BS\nLOW  / 8.70E+42   -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/',
+        comment = '08/TSAwip  !BS\nReactions of C5H10\nC5H10+H(+M) = PXC5H11(+M)                    1.33E+13    0.00     3260.7   ! =(C3H6+H) !BS\nLOW  / 6.26E+38   -6.66     7000.0   /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nC5H10+H(+M) = SXC5H11(+M)                    1.33E+13    0.00     1559.8   ! =(C3H6+H) !BS\nLOW  / 8.70E+42   -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
     longDesc = 
 u"""
@@ -14397,11 +14423,11 @@ Reactions of C5H10
 C5H10+H(+M) = PXC5H11(+M)                    1.33E+13    0.00     3260.7   ! =(C3H6+H) !BS
 LOW  / 6.26E+38   -6.66     7000.0   /
 TROE / 1.000  1000.0  1310.0 48097.0 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 C5H10+H(+M) = SXC5H11(+M)                    1.33E+13    0.00     1559.8   ! =(C3H6+H) !BS
 LOW  / 8.70E+42   -7.50   4721.8      /
 TROE / 1.000  1000.0   645.4  6844.3 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 """,
 )
 
@@ -14874,7 +14900,7 @@ entry(
         T1 = (1314, 'K'),
         T2 = (50000, 'K'),
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
-        comment = '=(iC3H7+CH3)\nReactions of S2XC5H11\nC4H81+CH3(+M)= S2XC5H11(+M)               1.70E+11    0.00   7403.6  ! =(C3H6+CH3) !BS\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/\nS2XC5H11+O2 = C5H10+HO2                       1.30E+11    0.00      0.0  ! =(iC3H7+O2)\nReactions of PXC5H11\nC2H4+nC3H7 = PXC5H11                         3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS',
+        comment = '=(iC3H7+CH3)\nReactions of S2XC5H11\nC4H81+CH3(+M)= S2XC5H11(+M)               1.70E+11    0.00   7403.6  ! =(C3H6+CH3) !BS\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nS2XC5H11+O2 = C5H10+HO2                       1.30E+11    0.00      0.0  ! =(iC3H7+O2)\nReactions of PXC5H11\nC2H4+nC3H7 = PXC5H11                         3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS',
     ),
     longDesc = 
 u"""
@@ -14883,7 +14909,7 @@ Reactions of S2XC5H11
 C4H81+CH3(+M)= S2XC5H11(+M)               1.70E+11    0.00   7403.6  ! =(C3H6+CH3) !BS
 LOW  / 2.31E+28  -4.27   1831.0      /
 TROE / 0.565 60000.0   534.2  3007.2 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 S2XC5H11+O2 = C5H10+HO2                       1.30E+11    0.00      0.0  ! =(iC3H7+O2)
 Reactions of PXC5H11
 C2H4+nC3H7 = PXC5H11                         3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS
@@ -15717,7 +15743,7 @@ entry(
         n = -2.03,
         Ea = (74958, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = '05/TOU-BU  !BS\nReactions of C6H12\nC6H12+H(+M) = PXC6H13(+M)                    1.33E+13    0.00   3260.7  ! =(C3H6+H) !BS\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/\nC6H12+H(+M) = SXC6H13(+M)                    1.33E+13    0.00   1559.8  ! =(C3H6+H) !BS\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/',
+        comment = '05/TOU-BU  !BS\nReactions of C6H12\nC6H12+H(+M) = PXC6H13(+M)                    1.33E+13    0.00   3260.7  ! =(C3H6+H) !BS\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nC6H12+H(+M) = SXC6H13(+M)                    1.33E+13    0.00   1559.8  ! =(C3H6+H) !BS\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
     longDesc = 
 u"""
@@ -15726,11 +15752,11 @@ Reactions of C6H12
 C6H12+H(+M) = PXC6H13(+M)                    1.33E+13    0.00   3260.7  ! =(C3H6+H) !BS
 LOW  / 6.26E+38  -6.66   7000.0      /
 TROE / 1.000  1000.0  1310.0 48097.0 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 C6H12+H(+M) = SXC6H13(+M)                    1.33E+13    0.00   1559.8  ! =(C3H6+H) !BS
 LOW  / 8.70E+42  -7.50   4721.8      /
 TROE / 1.000  1000.0   645.4  6844.3 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 """,
 )
 
@@ -15979,7 +16005,7 @@ entry(
         T1 = (28, 'K'),
         T2 = (50000, 'K'),
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
-        comment = '=(C3H8+CH3)\nReactions of PXC6H13\nC2H4+pC4H9 = PXC6H13                         3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nPXC6H13+H(+M) = NC6H14(+M)                   3.60E+13    0.00      0.0  ! =(nC3H7+H)    !BS\nLOW  / 3.01E+48  -9.32   5833.6      /\nTROE / 0.498  1314.0  1314.0 50000.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/\nBeta-scission Reactions of hexyl radicals',
+        comment = '=(C3H8+CH3)\nReactions of PXC6H13\nC2H4+pC4H9 = PXC6H13                         3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nPXC6H13+H(+M) = NC6H14(+M)                   3.60E+13    0.00      0.0  ! =(nC3H7+H)    !BS\nLOW  / 3.01E+48  -9.32   5833.6      /\nTROE / 0.498  1314.0  1314.0 50000.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nBeta-scission Reactions of hexyl radicals',
     ),
     longDesc = 
 u"""
@@ -15989,7 +16015,7 @@ C2H4+pC4H9 = PXC6H13                         3.00E+11    0.00   7300.0  ! =(C2H4
 PXC6H13+H(+M) = NC6H14(+M)                   3.60E+13    0.00      0.0  ! =(nC3H7+H)    !BS
 LOW  / 3.01E+48  -9.32   5833.6      /
 TROE / 0.498  1314.0  1314.0 50000.0 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 Beta-scission Reactions of hexyl radicals
 """,
 )
@@ -16381,7 +16407,7 @@ entry(
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = '=(iC3H7+CH3)\nReactions of S2XC6H13\nC2H5+C4H81 = S2XC6H13                       3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!B\nC5H10+CH3(+M)= S2XC6H13(+M)                 1.70E+11    0.00   7403.6  ! =(C3H6+CH3)   !B\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/',
+        comment = '=(iC3H7+CH3)\nReactions of S2XC6H13\nC2H5+C4H81 = S2XC6H13                       3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!B\nC5H10+CH3(+M)= S2XC6H13(+M)                 1.70E+11    0.00   7403.6  ! =(C3H6+CH3)   !B\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
     longDesc = 
 u"""
@@ -16391,7 +16417,7 @@ C2H5+C4H81 = S2XC6H13                       3.00E+11    0.00   7300.0  ! =(C2H4+
 C5H10+CH3(+M)= S2XC6H13(+M)                 1.70E+11    0.00   7403.6  ! =(C3H6+CH3)   !B
 LOW  / 2.31E+28  -4.27   1831.0      /
 TROE / 0.565 60000.0   534.2  3007.2 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 """,
 )
 
@@ -16862,7 +16888,7 @@ entry(
         n = -2.03,
         Ea = (74958, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = '=(C2H4+C2H5)*2\nReactions of C7H14\nC7H14+H(+M) = PXC7H15(+M)                    1.33E+13    0.00   3260.7  ! =(C3H6+H) !B\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/\nC7H14+H(+M) = SXC7H15(+M)                    1.33E+13    0.00   1559.8  ! =(C3H6+H) !B\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/',
+        comment = '=(C2H4+C2H5)*2\nReactions of C7H14\nC7H14+H(+M) = PXC7H15(+M)                    1.33E+13    0.00   3260.7  ! =(C3H6+H) !B\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nC7H14+H(+M) = SXC7H15(+M)                    1.33E+13    0.00   1559.8  ! =(C3H6+H) !B\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
     longDesc = 
 u"""
@@ -16871,11 +16897,11 @@ Reactions of C7H14
 C7H14+H(+M) = PXC7H15(+M)                    1.33E+13    0.00   3260.7  ! =(C3H6+H) !B
 LOW  / 6.26E+38  -6.66   7000.0      /
 TROE / 1.000  1000.0  1310.0 48097.0 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 C7H14+H(+M) = SXC7H15(+M)                    1.33E+13    0.00   1559.8  ! =(C3H6+H) !B
 LOW  / 8.70E+42  -7.50   4721.8      /
 TROE / 1.000  1000.0   645.4  6844.3 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 """,
 )
 
@@ -17356,7 +17382,7 @@ entry(
         n = -3.94,
         Ea = (15916, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = '=(nC3H7+CH3)\nReactions of SXC7H15\npC4H9+C3H6 = SXC7H15                        3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2 !B\nSXC7H15+H(+M) = NC7H16(+M)                   2.40E+13    0.00      0.0  ! =(iC3H7+H)     !B\nLOW  / 1.70E+58 -12.08  11263.7      /\nTROE / 0.649  1213.1  1213.1 13369.7 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/\nSXC7H15+H = PXC5H11+C2H5                     5.90E+23   -2.81  10009.0  ! =(iC3H7+H)',
+        comment = '=(nC3H7+CH3)\nReactions of SXC7H15\npC4H9+C3H6 = SXC7H15                        3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2 !B\nSXC7H15+H(+M) = NC7H16(+M)                   2.40E+13    0.00      0.0  ! =(iC3H7+H)     !B\nLOW  / 1.70E+58 -12.08  11263.7      /\nTROE / 0.649  1213.1  1213.1 13369.7 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nSXC7H15+H = PXC5H11+C2H5                     5.90E+23   -2.81  10009.0  ! =(iC3H7+H)',
     ),
     longDesc = 
 u"""
@@ -17366,7 +17392,7 @@ pC4H9+C3H6 = SXC7H15                        3.00E+11    0.00   7300.0  ! =(C2H4+
 SXC7H15+H(+M) = NC7H16(+M)                   2.40E+13    0.00      0.0  ! =(iC3H7+H)     !B
 LOW  / 1.70E+58 -12.08  11263.7      /
 TROE / 0.649  1213.1  1213.1 13369.7 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 SXC7H15+H = PXC5H11+C2H5                     5.90E+23   -2.81  10009.0  ! =(iC3H7+H)
 """,
 )
@@ -17500,7 +17526,7 @@ entry(
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = '=(iC3H7+CH3)\nReactions of S2XC7H15\nnC3H7+C4H81 = S2XC7H15                      3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2 !B\nC6H12+CH3(+M)= S2XC7H15(+M)                 1.70E+11    0.00   7403.6  ! =(C3H6+CH3)    !B\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/',
+        comment = '=(iC3H7+CH3)\nReactions of S2XC7H15\nnC3H7+C4H81 = S2XC7H15                      3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2 !B\nC6H12+CH3(+M)= S2XC7H15(+M)                 1.70E+11    0.00   7403.6  ! =(C3H6+CH3)    !B\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
     longDesc = 
 u"""
@@ -17510,7 +17536,7 @@ nC3H7+C4H81 = S2XC7H15                      3.00E+11    0.00   7300.0  ! =(C2H4+
 C6H12+CH3(+M)= S2XC7H15(+M)                 1.70E+11    0.00   7403.6  ! =(C3H6+CH3)    !B
 LOW  / 2.31E+28  -4.27   1831.0      /
 TROE / 0.565 60000.0   534.2  3007.2 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 """,
 )
 
@@ -18102,7 +18128,7 @@ entry(
         n = -2.03,
         Ea = (74958, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = '=(C2H4+C2H5)*2\nReactions of C8H16\nC8H16+H(+M) = PXC8H17(+M)                    1.33E+13    0.00   3260.7  ! =(C3H6+H) !B\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/\nC8H16+H(+M) = SXC8H17(+M)                    1.33E+13    0.00   1559.8  ! =(C3H6+H) !B\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/',
+        comment = '=(C2H4+C2H5)*2\nReactions of C8H16\nC8H16+H(+M) = PXC8H17(+M)                    1.33E+13    0.00   3260.7  ! =(C3H6+H) !B\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nC8H16+H(+M) = SXC8H17(+M)                    1.33E+13    0.00   1559.8  ! =(C3H6+H) !B\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
     longDesc = 
 u"""
@@ -18111,11 +18137,11 @@ Reactions of C8H16
 C8H16+H(+M) = PXC8H17(+M)                    1.33E+13    0.00   3260.7  ! =(C3H6+H) !B
 LOW  / 6.26E+38  -6.66   7000.0      /
 TROE / 1.000  1000.0  1310.0 48097.0 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 C8H16+H(+M) = SXC8H17(+M)                    1.33E+13    0.00   1559.8  ! =(C3H6+H) !B
 LOW  / 8.70E+42  -7.50   4721.8      /
 TROE / 1.000  1000.0   645.4  6844.3 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 """,
 )
 
@@ -18786,7 +18812,7 @@ entry(
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = '=(iC3H7+CH3)\nReactions of S2XC8H17\npC4H9+C4H81 = S2XC8H17                      3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2\nC7H14+CH3(+M)= S2XC8H17(+M)                 1.70E+11    0.00   7403.6  ! =(C3H6+CH3)\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/',
+        comment = '=(iC3H7+CH3)\nReactions of S2XC8H17\npC4H9+C4H81 = S2XC8H17                      3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2\nC7H14+CH3(+M)= S2XC8H17(+M)                 1.70E+11    0.00   7403.6  ! =(C3H6+CH3)\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
     longDesc = 
 u"""
@@ -18796,7 +18822,7 @@ pC4H9+C4H81 = S2XC8H17                      3.00E+11    0.00   7300.0  ! =(C2H4+
 C7H14+CH3(+M)= S2XC8H17(+M)                 1.70E+11    0.00   7403.6  ! =(C3H6+CH3)
 LOW  / 2.31E+28  -4.27   1831.0      /
 TROE / 0.565 60000.0   534.2  3007.2 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 """,
 )
 
@@ -19406,7 +19432,7 @@ entry(
         n = -2.03,
         Ea = (74958, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = '=(C2H4+C2H5)*2\nReactions of C9H18\nC9H18+H(+M) = PXC9H19(+M)                    1.33E+13    0.00   3260.7  ! =(C3H6+H) !BS\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/\nC9H18+H(+M) = SXC9H19(+M)                    1.33E+13    0.00   1559.8  ! =(C3H6+H) !BS\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/',
+        comment = '=(C2H4+C2H5)*2\nReactions of C9H18\nC9H18+H(+M) = PXC9H19(+M)                    1.33E+13    0.00   3260.7  ! =(C3H6+H) !BS\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nC9H18+H(+M) = SXC9H19(+M)                    1.33E+13    0.00   1559.8  ! =(C3H6+H) !BS\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
     longDesc = 
 u"""
@@ -19415,11 +19441,11 @@ Reactions of C9H18
 C9H18+H(+M) = PXC9H19(+M)                    1.33E+13    0.00   3260.7  ! =(C3H6+H) !BS
 LOW  / 6.26E+38  -6.66   7000.0      /
 TROE / 1.000  1000.0  1310.0 48097.0 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 C9H18+H(+M) = SXC9H19(+M)                    1.33E+13    0.00   1559.8  ! =(C3H6+H) !BS
 LOW  / 8.70E+42  -7.50   4721.8      /
 TROE / 1.000  1000.0   645.4  6844.3 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 """,
 )
 
@@ -20115,7 +20141,7 @@ entry(
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = '=(iC3H7+CH3)\nReactions of S2XC9H19\nPXC5H11+C4H81 = S2XC9H19                    3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nC8H16+CH3(+M)= S2XC9H19(+M)                 1.70E+11    0.00   7403.6  ! =(C3H6+CH3)!BS\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/',
+        comment = '=(iC3H7+CH3)\nReactions of S2XC9H19\nPXC5H11+C4H81 = S2XC9H19                    3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nC8H16+CH3(+M)= S2XC9H19(+M)                 1.70E+11    0.00   7403.6  ! =(C3H6+CH3)!BS\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
     longDesc = 
 u"""
@@ -20125,7 +20151,7 @@ PXC5H11+C4H81 = S2XC9H19                    3.00E+11    0.00   7300.0  ! =(C2H4+
 C8H16+CH3(+M)= S2XC9H19(+M)                 1.70E+11    0.00   7403.6  ! =(C3H6+CH3)!BS
 LOW  / 2.31E+28  -4.27   1831.0      /
 TROE / 0.565 60000.0   534.2  3007.2 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 """,
 )
 
@@ -20856,7 +20882,7 @@ entry(
         n = -2.03,
         Ea = (74958, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = '=(C2H4+C2H5)*2\nReactions of C10H20\nC10H20+H(+M) = PXC10H21(+M)                  1.33E+13    0.00   3260.7  ! =(C3H6+H) !BS\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/\nC10H20+H(+M) = SXC10H21(+M)                  1.33E+13    0.00   1559.8  ! =(C3H6+H) !BS\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/',
+        comment = '=(C2H4+C2H5)*2\nReactions of C10H20\nC10H20+H(+M) = PXC10H21(+M)                  1.33E+13    0.00   3260.7  ! =(C3H6+H) !BS\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nC10H20+H(+M) = SXC10H21(+M)                  1.33E+13    0.00   1559.8  ! =(C3H6+H) !BS\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
     longDesc = 
 u"""
@@ -20865,11 +20891,11 @@ Reactions of C10H20
 C10H20+H(+M) = PXC10H21(+M)                  1.33E+13    0.00   3260.7  ! =(C3H6+H) !BS
 LOW  / 6.26E+38  -6.66   7000.0      /
 TROE / 1.000  1000.0  1310.0 48097.0 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 C10H20+H(+M) = SXC10H21(+M)                  1.33E+13    0.00   1559.8  ! =(C3H6+H) !BS
 LOW  / 8.70E+42  -7.50   4721.8      /
 TROE / 1.000  1000.0   645.4  6844.3 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 """,
 )
 
@@ -21590,7 +21616,7 @@ entry(
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = '=(iC3H7+CH3)\nReactions of S2XC10H21\nPXC6H13+C4H81 = S2XC10H21                   3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nC9H18+CH3(+M)= S2XC10H21(+M)                1.70E+11    0.00   7403.6  ! =(C3H6+CH3)!BS\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/',
+        comment = '=(iC3H7+CH3)\nReactions of S2XC10H21\nPXC6H13+C4H81 = S2XC10H21                   3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nC9H18+CH3(+M)= S2XC10H21(+M)                1.70E+11    0.00   7403.6  ! =(C3H6+CH3)!BS\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
     longDesc = 
 u"""
@@ -21600,7 +21626,7 @@ PXC6H13+C4H81 = S2XC10H21                   3.00E+11    0.00   7300.0  ! =(C2H4+
 C9H18+CH3(+M)= S2XC10H21(+M)                1.70E+11    0.00   7403.6  ! =(C3H6+CH3)!BS
 LOW  / 2.31E+28  -4.27   1831.0      /
 TROE / 0.565 60000.0   534.2  3007.2 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 """,
 )
 
@@ -22349,7 +22375,7 @@ entry(
         n = -2.03,
         Ea = (74958, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = '=(C2H4+C2H5)*2\nReactions of C11H22\nC11H22+H(+M) = PXC11H23(+M)                  1.33E+13    0.00   3260.7  ! =(C3H6+H) !BS\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/\nC11H22+H(+M) = SXC11H23(+M)                  1.33E+13    0.00   1559.8  ! =(C3H6+H) !BS\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/',
+        comment = '=(C2H4+C2H5)*2\nReactions of C11H22\nC11H22+H(+M) = PXC11H23(+M)                  1.33E+13    0.00   3260.7  ! =(C3H6+H) !BS\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nC11H22+H(+M) = SXC11H23(+M)                  1.33E+13    0.00   1559.8  ! =(C3H6+H) !BS\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
     longDesc = 
 u"""
@@ -22358,11 +22384,11 @@ Reactions of C11H22
 C11H22+H(+M) = PXC11H23(+M)                  1.33E+13    0.00   3260.7  ! =(C3H6+H) !BS
 LOW  / 6.26E+38  -6.66   7000.0      /
 TROE / 1.000  1000.0  1310.0 48097.0 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 C11H22+H(+M) = SXC11H23(+M)                  1.33E+13    0.00   1559.8  ! =(C3H6+H) !BS
 LOW  / 8.70E+42  -7.50   4721.8      /
 TROE / 1.000  1000.0   645.4  6844.3 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 """,
 )
 
@@ -23108,7 +23134,7 @@ entry(
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = '=(iC3H7+CH3)\nReactions of S2XC11H23\nPXC7H15+C4H81 = S2XC11H23                   3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nC10H20+CH3(+M)= S2XC11H23(+M)               1.70E+11    0.00   7403.6  ! =(C3H6+CH3)!BS\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/',
+        comment = '=(iC3H7+CH3)\nReactions of S2XC11H23\nPXC7H15+C4H81 = S2XC11H23                   3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nC10H20+CH3(+M)= S2XC11H23(+M)               1.70E+11    0.00   7403.6  ! =(C3H6+CH3)!BS\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
     longDesc = 
 u"""
@@ -23118,7 +23144,7 @@ PXC7H15+C4H81 = S2XC11H23                   3.00E+11    0.00   7300.0  ! =(C2H4+
 C10H20+CH3(+M)= S2XC11H23(+M)               1.70E+11    0.00   7403.6  ! =(C3H6+CH3)!BS
 LOW  / 2.31E+28  -4.27   1831.0      /
 TROE / 0.565 60000.0   534.2  3007.2 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 """,
 )
 
@@ -23988,7 +24014,7 @@ entry(
         n = -2.03,
         Ea = (74958, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = '=(C2H4+C2H5)*2\nReactions of C12H24\nC12H24+H(+M) = PXC12H25(+M)                  1.33E+13    0.00   3260.7  ! =(C3H6+H) !BS\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/\nC12H24+H(+M) = SXC12H25(+M)                  1.33E+13    0.00   1559.8  ! =(C3H6+H) !BS\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/',
+        comment = '=(C2H4+C2H5)*2\nReactions of C12H24\nC12H24+H(+M) = PXC12H25(+M)                  1.33E+13    0.00   3260.7  ! =(C3H6+H) !BS\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nC12H24+H(+M) = SXC12H25(+M)                  1.33E+13    0.00   1559.8  ! =(C3H6+H) !BS\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
     longDesc = 
 u"""
@@ -23997,11 +24023,11 @@ Reactions of C12H24
 C12H24+H(+M) = PXC12H25(+M)                  1.33E+13    0.00   3260.7  ! =(C3H6+H) !BS
 LOW  / 6.26E+38  -6.66   7000.0      /
 TROE / 1.000  1000.0  1310.0 48097.0 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 C12H24+H(+M) = SXC12H25(+M)                  1.33E+13    0.00   1559.8  ! =(C3H6+H) !BS
 LOW  / 8.70E+42  -7.50   4721.8      /
 TROE / 1.000  1000.0   645.4  6844.3 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 """,
 )
 
@@ -24610,7 +24636,7 @@ entry(
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = '=(iC3H7+CH3)\nReactions of S2XC12H25\nC4H81+PXC8H17 = S2XC12H25                  3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2 !BS\nC11H22+CH3(+M) = S2XC12H25(+M)             1.70E+11    0.00   7403.6  ! =(C3H6+CH3) !BS\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/',
+        comment = '=(iC3H7+CH3)\nReactions of S2XC12H25\nC4H81+PXC8H17 = S2XC12H25                  3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2 !BS\nC11H22+CH3(+M) = S2XC12H25(+M)             1.70E+11    0.00   7403.6  ! =(C3H6+CH3) !BS\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
     longDesc = 
 u"""
@@ -24620,7 +24646,7 @@ C4H81+PXC8H17 = S2XC12H25                  3.00E+11    0.00   7300.0  ! =(C2H4+C
 C11H22+CH3(+M) = S2XC12H25(+M)             1.70E+11    0.00   7403.6  ! =(C3H6+CH3) !BS
 LOW  / 2.31E+28  -4.27   1831.0      /
 TROE / 0.565 60000.0   534.2  3007.2 /
-H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ AR/0.7/
+H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/
 """,
 )
 
