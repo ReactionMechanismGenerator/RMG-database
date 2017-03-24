@@ -19,7 +19,10 @@ OH*               ATcT AO   1H   1    0    0G   200.000  6000.000 1000.        1
  2.75582920E+00 1.39848756E-03-4.19428493E-07 6.33453282E-11-3.56042218E-15    2! OH A 2Sigma+ (excited)
  5.09751756E+04 5.62581429E+00 3.46084428E+00 5.01872172E-04-2.00254474E-06    3! CAS: 3352-57-6 (?)
  3.18901984E-09-1.35451838E-12 5.07349466E+04 1.73976415E+00 5.17770741E+04    4! Uncertainty unknown => -1.0
-
+CH*               EG4/09C   1H   1    0    0G   200.000  6000.000 1000.        1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
+ 2.78220752E+00 1.47246754E-03-4.63436227E-07 7.32736021E-11-4.19705404E-15    2! CH A2Delta  excited state only
+ 1.04547060E+05 5.17421018E+00 3.47250101E+00 4.26443626E-04-1.95181794E-06    3! CAS: 3315-37-5
+ 3.51755043E-09-1.60436174E-12 1.04334869E+05 1.44799533E+00 1.05378099E+05    4! Uncertainty unknown => -1.0
 CH2*              IU3/03C   1H   2    0    0G   200.000  6000.000 1000.        1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
  3.13501686E+00 2.89593926E-03-8.16668090E-07 1.13572697E-10-6.36262835E-15    2! Methylene radical excited 
  5.05040504E+04 4.06030621E+00 4.19331325E+00-2.33105184E-03 8.15676451E-06    3! CAS 2465-56-7
@@ -452,7 +455,7 @@ CAS 7440-44-0
 
 entry(
     index = 15,
-    label = "CH(D)",
+    label = "CH",
     molecule = 
 """
 multiplicity 2
@@ -474,33 +477,6 @@ Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Methylidyne
 CAS 3315-37-5
 596.173 +- 0.124 kJ/mol ATcT 31.01.2011
-""",
-)
-
-entry(
-    index = 37,
-    label = "CH(Q)",
-    molecule = 
-"""
-multiplicity 4
-1 C u3 p0 c0 {2,S}
-2 H u0 p0 c0 {1,S}
-""",
-    thermo = NASA(
-        polynomials = [
-			NASAPolynomial(coeffs=[3.4725,0.000426444,-1.95182e-06,3.51755e-09,-1.60436e-12,104335,1.448], Tmin=(200,'K'), Tmax=(1000,'K')),
-			NASAPolynomial(coeffs=[2.78221,0.00147247,-4.63436e-07,7.32736e-11,-4.19705e-15,104547,5.17421], Tmin=(1000,'K'), Tmax=(6000,'K'))
-        ],
-        Tmin = (200,'K'),
-        Tmax = (6000,'K'),
-    ),
-    shortDesc = u"""IU3/03""",
-    longDesc = 
-u"""
-Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
-CH A2Delta  excited state only
-CAS 3315-37-5
-Uncertainty unknown => -1.0
 """,
 )
 
