@@ -15,74 +15,17 @@ G. P. Smith, Y. Tao, and H. Wang, Foundational Fuel Chemistry Model Version 1.0 
 http://nanoenergy.stanford.edu/ffcm1, 2016.
 
 Species that were not included:
+Excited OH, A2Sigma+:
 OH*               ATcT AO   1H   1    0    0G   200.000  6000.000 1000.        1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
  2.75582920E+00 1.39848756E-03-4.19428493E-07 6.33453282E-11-3.56042218E-15    2! OH A 2Sigma+ (excited)
  5.09751756E+04 5.62581429E+00 3.46084428E+00 5.01872172E-04-2.00254474E-06    3! CAS: 3352-57-6 (?)
  3.18901984E-09-1.35451838E-12 5.07349466E+04 1.73976415E+00 5.17770741E+04    4! Uncertainty unknown => -1.0
+
+Excited CH, A2Delta:
 CH*               EG4/09C   1H   1    0    0G   200.000  6000.000 1000.        1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
  2.78220752E+00 1.47246754E-03-4.63436227E-07 7.32736021E-11-4.19705404E-15    2! CH A2Delta  excited state only
  1.04547060E+05 5.17421018E+00 3.47250101E+00 4.26443626E-04-1.95181794E-06    3! CAS: 3315-37-5
  3.51755043E-09-1.60436174E-12 1.04334869E+05 1.44799533E+00 1.05378099E+05    4! Uncertainty unknown => -1.0
-CH2*              IU3/03C   1H   2    0    0G   200.000  6000.000 1000.        1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
- 3.13501686E+00 2.89593926E-03-8.16668090E-07 1.13572697E-10-6.36262835E-15    2! Methylene radical excited 
- 5.05040504E+04 4.06030621E+00 4.19331325E+00-2.33105184E-03 8.15676451E-06    3! CAS 2465-56-7
--6.62985981E-09 1.93233199E-12 5.03662246E+04-7.46734310E-01 5.15724919E+04    4! 429.039 +- 0.14 kJ/mol ATcT 31.01.2011 
-HOCO              ATcT/AC   1O   2H   1    0G   200.000  6000.000              1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
- 5.39206152E+00 4.11221455E-03-1.48194900E-06 2.39875460E-10-1.43903104E-14    2! Carboxyl radical 
--2.38606717E+04-2.23529091E+00 2.92207919E+00 7.62453859E-03 3.29884437E-06    3! CAS 2564-86-5
--1.07135205E-08 5.11587057E-12-2.30281524E+04 1.12925886E+01-2.18076591E+04    4! -181.32+/-2.3 kJ/mol ATcT 31.01.201111
-CH3O2             T04/10C   1H   3O   2    0G   200.000  6000.000 1000.        1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
- 5.55530486E+00 9.12236137E-03-3.23851661E-06 5.18713798E-10-3.08834151E-14    2! Methylperoxide radical
--1.03569402E+03-3.99158547E+00 4.97169544E+00-5.29356557E-03 4.77334149E-05    3! CAS: 2143-58-0
--5.77065617E-08 2.22219969E-11-1.29022161E+02 2.81501182E+00 1.43618036E+03    4! 12.055 +- 0.9 kJ/mol AtcT 10-05-2012
-CH3O2H            A 7/05C   1H   4O   2    0G   200.000  6000.000 1000.        1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
- 7.76538058E+00 8.61499712E-03-2.98006935E-06 4.68638071E-10-2.75339255E-14    2! Methylperoxide
--1.82979984E+04-1.43992663E+01 2.90540897E+00 1.74994735E-02 5.28243630E-06    3! CAS: 3031-73-0
--2.52827275E-08 1.34368212E-11-1.68894632E+04 1.13741987E+01-1.52423685E+04    4! 12.055 +- 0.9 kJ/mol AtcT 10-05-2012
-C2H5OH            L 8/88C   2H   6O   1    0G   200.000  6000.000 1000.        1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012  
- 0.65624365E+01 0.15204222E-01-0.53896795E-05 0.86225011E-09-0.51289787E-13    2! Ethanol
--0.31525621E+05-0.94730202E+01 0.48586957E+01-0.37401726E-02 0.69555378E-04    3! CAS: 64-17-5
--0.88654796E-07 0.35168835E-10-0.29996132E+05 0.48018545E+01-0.28257829E+05    4! -234.56 +- 0.2 kJ/mol ATcT 10.05.2012
-CH3OCH3           T03/10C   2H   6O   1    0G   200.000  6000.000 1000.        1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
- 5.64844274E+00 1.63381875E-02-5.86802189E-06 9.46836384E-10-5.66504295E-14    2! Dimethyl ether
--2.50864216E+04-5.96267354E+00 5.30562273E+00-2.14253958E-03 5.30873092E-05    3! CAS: 115-10-6
--6.23146897E-08 2.30730916E-11-2.39655820E+04 7.13244569E-01-2.21221696E+04    4! -184.02 +-0.43 kJ/mol ATcT 10.05.2012
-CH2CH2OH          T05/11C   2H   5O   1    0G   200.000  6000.000 1000.        1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
- 7.01348674E+00 1.20204391E-02-4.21992012E-06 6.70675981E-10-3.97135273E-14    2! 2-Hydroxylethyl
--6.16161779E+03-8.62052409E+00 4.20954137E+00 9.12964578E-03 2.47462263E-05    3! CAS: 4422-54-2
--3.92945764E-08 1.66541312E-11-4.91511371E+03 8.30445413E+00-3.10541451E+03    4! -25.82+- 0.6 kJ/mol ATcT 10.05.2012
-CH3CHOH           T06/11C   2H   5O   1    0G   200.000  6000.000 1000.        1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
- 6.35842302E+00 1.24356276E-02-4.33096839E-06 6.84530381E-10-4.03713238E-14    2! 1-Hydroxylethyl
--9.53018581E+03-6.05106112E+00 4.22283250E+00 5.12174798E-03 3.48386522E-05    3! CAS: 2348-46-1
--4.91943637E-08 2.01183723E-11-8.35622088E+03 8.01675700E+00-6.64945980E+03    4! -54.03 +- 4.0 kJ/mol ATcT 10.05.2012
-CH3CH2O           T06/11C   2H   5O   1    0G   200.000  6000.000 1000.        1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
- 6.55053877E+00 1.32525511E-02-4.74726060E-06 7.64699226E-10-4.57008357E-14    2! Ethyl oxide radical
--4.47191998E+03-9.61231141E+00 3.26905655E+00 9.33562904E-03 2.96317166E-05    3! CAS: 2154-50-9
--4.53411341E-08 1.88795595E-11-2.95022955E+03 1.04200942E+01-1.37951605E+03    4! -13.6 +-4.0 kJ/mol ATcT 10.05.2012
-CH3OCH2           A10/04C   2H   5O   1    0G   200.000  6000.000 1000.        1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
- 5.94067593E+00 1.29906358E-02-4.56921036E-06 7.26888932E-10-4.30599587E-14    2! CH2-O-CH3 radical   
--2.58503562E+03-4.52841964E+00 4.53195381E+00 7.81884271E-03 1.94968539E-05    3! CAS: 16520-04-0
--2.74538336E-08 1.06521135E-11-1.70629244E+03 5.06122980E+00 1.15460803E+02    4! -2.8 +- 1.2 kcal/mol ATcT 10.05.2012 (from MacMillen Golden 1982)
-CH2OCH2           L 8/88C   2H   4O   1    0G   200.000  6000.000  1000.       1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
- 0.54887641E+01 0.12046190E-01-0.43336931E-05 0.70028311E-09-0.41949088E-13    2! Oxirane, cyc-(CH2)2O, Ethylene oxide
--0.91804251E+04-0.70799605E+01 0.37590532E+01-0.94412180E-02 0.80309721E-04    3! CAS: 75-21-8
--0.10080788E-06 0.40039921E-10-0.75608143E+04 0.78497475E+01 0.425             4! -52.681 +- 0.425 kJ/mol ATcT 31.01.2011
-C2H3OH            T03/10C   2H   4O   1    0G   200.000  6000.000 1000.        1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
- 7.49818166E+00 1.03957000E-02-3.66891058E-06 5.85205827E-10-3.47373827E-14    2! Vinyl Alcohol 
--1.81643092E+04-1.38388104E+01 2.28758479E+00 1.97013262E-02 1.96382662E-06    3! CAS: 557-75-5
--1.94389758E-08 1.02616778E-11-1.65373421E+04 1.41333462E+01-1.49958566E+04    4! -28.85+/-2. kcal/mol ATcT 10.05.2012 
-C2H3O             A 1/05C   2H   3O   1    0G   200.000  6000.000 1000.        1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
- 5.60158035E+00 9.17613962E-03-3.28028902E-06 5.27903888E-10-3.15362241E-14    2! Oxirane (ethylene oxide) radical 
- 1.71446252E+04-5.47228512E+00 3.58349017E+00-6.02275805E-03 6.32426867E-05    3! 31586-84-2
--8.18540707E-08 3.30444505E-11 1.85681353E+04 9.59725926E+00 1.97814471E+04    4! No ATcT value, G3B3 +- 8 kJ/mol
-HCCOH             T12/09C   2H   2O   1    0G   200.000  6000.000   1000.0     1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
- 6.37509678E+00 5.49429011E-03-1.88136576E-06 2.93803536E-10-1.71771901E-14    2! Ethynol, Hydroxyacetylene
- 8.93277676E+03-8.24498007E+00 2.05541154E+00 2.52003372E-02-3.80821654E-05    3! CAS: 32038-79-2
- 3.09890632E-08-9.89799902E-12 9.76872113E+03 1.22271534E+01 1.33              4! 92.7 +- 1.33 kJ/mol ATcT 31.01.2011
-C2O               T 8/11C   2O   1    0    0G   200.000  6000.000   1000.0     1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
- 5.42468378E+00 1.85393945E-03-5.17932956E-07 6.77646230E-11-3.53315237E-15    2! Carbon oxide
- 4.37161379E+04-3.69608405E+00 2.86278214E+00 1.19701204E-02-1.80851222E-05    3! 12071-23-7 
- 1.52777730E-08-5.20063163E-12 4.43125964E+04 8.89759099E+00 1.2               4! 378.86 +/- 1.2 kJ/mol ATcT 31.01.2011
 """
 entry(
     index = 1,
@@ -983,12 +926,12 @@ entry(
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {4,S} {5,S}
-2 C u0 p0 c0 {1,D} {3,S} {6,S}
-3 O u1 p2 c0 {2,S}
-4 H u0 p0 c0 {1,S}
-5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {2,S}
+1 C u1 p0 c0 {2,S} {3,S} {4,S}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 C u0 p0 c0 {1,S} {5,D} {6,S}
+5 O u0 p2 c0 {4,D}
+6 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1096,6 +1039,446 @@ Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012 no newer NASA polynom
 Vinylidene
 CAS: 2143-69-3
 kk:1
+""",
+)
+
+entry(
+    index = 37,
+    label = "HOCO",
+    molecule = 
+"""
+multiplicity 2
+1 O u0 p2 c0 {2,S} {4,S}
+2 C u1 p0 c0 {1,S} {3,D}
+3 O u0 p2 c0 {2,D}
+4 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.92208,0.00762454,3.29884e-06,-1.07135e-08,5.11587e-12,-23028.2,11.2926], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[5.39206,0.00411221,-1.48195e-06,2.39875e-10,-1.43903e-14,-23860.7,-2.23529], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+    ),
+    shortDesc = u"""ATcT/A""",
+    longDesc = 
+u"""
+Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
+Carboxyl radical
+CAS 2564-86-5
+-181.32+/-2.3 kJ/mol ATcT 31.01.201111
+""",
+)
+
+entry(
+    index = 38,
+    label = "CH3O2",
+    molecule = 
+"""
+multiplicity 2
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 O u1 p2 c0 {2,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.9717,-0.00529357,4.77334e-05,-5.77066e-08,2.2222e-11,-129.022,2.81501], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[5.5553,0.00912236,-3.23852e-06,5.18714e-10,-3.08834e-14,-1035.69,-3.99159], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+    ),
+    shortDesc = u"""T04/10""",
+    longDesc = 
+u"""
+Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
+Methylperoxide radical
+CAS: 2143-58-0
+12.055 +- 0.9 kJ/mol AtcT 10-05-2012
+""",
+)
+
+entry(
+    index = 39,
+    label = "CH3O2H",
+    molecule = 
+"""
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 O u0 p2 c0 {2,S} {7,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.90541,0.0174995,5.28244e-06,-2.52827e-08,1.34368e-11,-16889.5,11.3742], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[7.76538,0.008615,-2.98007e-06,4.68638e-10,-2.75339e-14,-18298,-14.3993], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+    ),
+    shortDesc = u"""A 7/05""",
+    longDesc = 
+u"""
+Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
+Methylperoxide
+CAS: 3031-73-0
+12.055 +- 0.9 kJ/mol AtcT 10-05-2012
+""",
+)
+
+entry(
+    index = 40,
+    label = "C2H5OH",
+    molecule = 
+"""
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.8587,-0.00374017,6.95554e-05,-8.86548e-08,3.51688e-11,-29996.1,4.80185], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[6.56244,0.0152042,-5.38968e-06,8.6225e-10,-5.12898e-14,-31525.6,-9.47302], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+    ),
+    shortDesc = u"""L 8/88""",
+    longDesc = 
+u"""
+Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
+Ethanol
+CAS: 64-17-5
+-234.56 +- 0.2 kJ/mol ATcT 10.05.2012
+""",
+)
+
+entry(
+    index = 41,
+    label = "CH3OCH3",
+    molecule = 
+"""
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[5.30562,-0.00214254,5.30873e-05,-6.23147e-08,2.30731e-11,-23965.6,0.713245], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[5.64844,0.0163382,-5.86802e-06,9.46836e-10,-5.66504e-14,-25086.4,-5.96267], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+    ),
+    shortDesc = u"""T03/10""",
+    longDesc = 
+u"""
+Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
+Dimethyl ether
+CAS: 115-10-6
+-184.02 +-0.43 kJ/mol ATcT 10.05.2012
+""",
+)
+
+entry(
+    index = 42,
+    label = "CH2CH2OH",
+    molecule = 
+"""
+multiplicity 2
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.20954,0.00912965,2.47462e-05,-3.92946e-08,1.66541e-11,-4915.11,8.30445], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[7.01349,0.0120204,-4.21992e-06,6.70676e-10,-3.97135e-14,-6161.62,-8.62052], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+    ),
+    shortDesc = u"""T05/11""",
+    longDesc = 
+u"""
+Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
+2-Hydroxylethyl
+CAS: 4422-54-2
+-25.82+- 0.6 kJ/mol ATcT 10.05.2012
+""",
+)
+
+entry(
+    index = 43,
+    label = "CH3CHOH",
+    molecule = 
+"""
+multiplicity 2
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {3,S} {7,S}
+3 O u0 p2 c0 {2,S} {8,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.22283,0.00512175,3.48387e-05,-4.91944e-08,2.01184e-11,-8356.22,8.01676], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[6.35842,0.0124356,-4.33097e-06,6.8453e-10,-4.03713e-14,-9530.19,-6.05106], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+    ),
+    shortDesc = u"""T06/11""",
+    longDesc = 
+u"""
+Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
+1-Hydroxylethyl
+CAS: 2348-46-1
+-54.03 +- 4.0 kJ/mol ATcT 10.05.2012
+""",
+)
+
+entry(
+    index = 44,
+    label = "CH3CH2O",
+    molecule = 
+"""
+multiplicity 2
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+3 O u1 p2 c0 {2,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.26906,0.00933563,2.96317e-05,-4.53411e-08,1.88796e-11,-2950.23,10.4201], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[6.55054,0.0132526,-4.74726e-06,7.64699e-10,-4.57008e-14,-4471.92,-9.61231], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+    ),
+    shortDesc = u"""T06/11""",
+    longDesc = 
+u"""
+Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
+Ethyl oxide radical
+CAS: 2154-50-9
+-13.6 +-4.0 kJ/mol ATcT 10.05.2012
+""",
+)
+
+entry(
+    index = 45,
+    label = "CH3OCH2",
+    molecule = 
+"""
+multiplicity 2
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {3,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.53195,0.00781884,1.94969e-05,-2.74538e-08,1.06521e-11,-1706.29,5.06123], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[5.94068,0.0129906,-4.56921e-06,7.26889e-10,-4.306e-14,-2585.04,-4.52842], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+    ),
+    shortDesc = u"""A10/04""",
+    longDesc = 
+u"""
+Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
+CH2-O-CH3 radical
+CAS: 16520-04-0
+-2.8 +- 1.2 kcal/mol ATcT 10.05.2012 (from MacMillen Golden 1982)
+""",
+)
+
+entry(
+    index = 46,
+    label = "CH2OCH2",
+    molecule = 
+"""
+multiplicity 3
+1 C u1 p0 c0 {2,S} {3,S} {4,S}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 O u0 p2 c0 {1,S} {5,S}
+5 C u1 p0 c0 {4,S} {6,S} {7,S}
+6 H u0 p0 c0 {5,S}
+7 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.75905,-0.00944122,8.03097e-05,-1.00808e-07,4.00399e-11,-7560.81,7.84975], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[5.48876,0.0120462,-4.33369e-06,7.00283e-10,-4.19491e-14,-9180.43,-7.07996], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+    ),
+    shortDesc = u"""L 8/88""",
+    longDesc = 
+u"""
+Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
+Oxirane, cyc-(CH2)2O, Ethylene oxide
+CAS: 75-21-8
+-52.681 +- 0.425 kJ/mol ATcT 31.01.2011
+""",
+)
+
+entry(
+    index = 47,
+    label = "C2H3OH",
+    molecule = 
+"""
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 C u0 p0 c0 {1,D} {3,S} {6,S}
+3 O u0 p2 c0 {2,S} {7,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.28758,0.0197013,1.96383e-06,-1.9439e-08,1.02617e-11,-16537.3,14.1333], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[7.49818,0.0103957,-3.66891e-06,5.85206e-10,-3.47374e-14,-18164.3,-13.8388], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+    ),
+    shortDesc = u"""T03/10""",
+    longDesc = 
+u"""
+Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
+Vinyl Alcohol
+CAS: 557-75-5
+-28.85+/-2. kcal/mol ATcT 10.05.2012
+""",
+)
+
+entry(
+    index = 48,
+    label = "C2H3O",
+    molecule = 
+"""
+multiplicity 2
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 C u0 p0 c0 {1,D} {3,S} {6,S}
+3 O u1 p2 c0 {2,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.58349,-0.00602276,6.32427e-05,-8.18541e-08,3.30445e-11,18568.1,9.59726], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[5.60158,0.00917614,-3.28029e-06,5.27904e-10,-3.15362e-14,17144.6,-5.47229], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+    ),
+    shortDesc = u"""A 1/05""",
+    longDesc = 
+u"""
+Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
+Oxirane (ethylene oxide) radical
+31586-84-2
+No ATcT value, G3B3 +- 8 kJ/mol
+""",
+)
+
+entry(
+    index = 49,
+    label = "HCCOH",
+    molecule = 
+"""
+1 C u0 p0 c0 {2,T} {4,S}
+2 C u0 p0 c0 {1,T} {3,S}
+3 O u0 p2 c0 {2,S} {5,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.05541,0.0252003,-3.80822e-05,3.09891e-08,-9.898e-12,9768.72,12.2272], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[6.3751,0.00549429,-1.88137e-06,2.93804e-10,-1.71772e-14,8932.78,-8.24498], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+    ),
+    shortDesc = u"""T12/09""",
+    longDesc = 
+u"""
+Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
+Ethynol, Hydroxyacetylene
+CAS: 32038-79-2
+92.7 +- 1.33 kJ/mol ATcT 31.01.2011
+""",
+)
+
+entry(
+    index = 50,
+    label = "C2O",
+    molecule = 
+"""
+multiplicity 3
+1 C u2 p0 c0 {2,D}
+2 C u0 p0 c0 {1,D} {3,D}
+3 O u0 p2 c0 {2,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.86278,0.0119701,-1.80851e-05,1.52778e-08,-5.20063e-12,44312.6,8.89759], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[5.42468,0.00185394,-5.17933e-07,6.77646e-11,-3.53315e-15,43716.1,-3.69608], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+    ),
+    shortDesc = u"""T 8/11""",
+    longDesc = 
+u"""
+Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
+Carbon oxide
+12071-23-7
+378.86 +/- 1.2 kJ/mol ATcT 31.01.2011
 """,
 )
 
