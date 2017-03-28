@@ -558,8 +558,8 @@ entry(
     label = "CH",
     molecule = 
 """
-multiplicity 4
-1 C u3 p0 c0 {2,S}
+multiplicity 2
+1 C u1 p1 c0 {2,S}
 2 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
