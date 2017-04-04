@@ -248,22 +248,6 @@ Zhou est (2009)
 )
 
 entry(
-    index = 15,
-    label = "H2S + SO <=> HSO + SH",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (11000, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
     index = 16,
     label = "H2S + SO2 <=> S2O + H2O",
     degeneracy = 1,
