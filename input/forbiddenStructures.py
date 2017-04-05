@@ -95,20 +95,6 @@ u"""
 )
 
 entry(
-    label = "CH_doublet",
-    group = 
-"""
-1 C u1 p1 {2,S}
-2 H u0 {1,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     label = "C8H7S2J",
     group = 
 """
