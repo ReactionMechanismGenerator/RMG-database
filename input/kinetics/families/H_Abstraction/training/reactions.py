@@ -1549,26 +1549,6 @@ Taken from entry: C6H5 + C3H6 <=> CH3CCH2 + C6H6
 )
 
 entry(
-    index = 1013,
-    label = "C3H6 + C6H5 <=> C6H6 + C3H5",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (6.533, 'cm^3/(mol*s)'),
-        n = 3.646,
-        Ea = (1.897, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
-    longDesc = 
-u"""
-Taken from entry: C6H5 + C3H6 <=> CH2CHCH2 + C6H6
-""",
-)
-
-
-
-entry(
     index = 1014,
     label = "C4H6 + C2H3 <=> C2H4 + C4H5",
     degeneracy = 1,
@@ -1775,6 +1755,21 @@ entry(
     longDesc =
 u"""
 Taken from entry: (5)methyl_CPD + H <=> (5)methyl_CPD_5_yl + H2
+""",
+)
+
+
+
+entry(
+    index = 1026,
+    label = "C3H6 + C6H5 <=> C6H6 + C3H5",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.36, 'cm^3/(mol*s)'), n=3.82, Ea=(1.437, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2006_Park_Phenyl_Propene""",
+    longDesc = 
+u"""
+Taken from entry: C6H5 + C3H6 <=> CH2CHCH2 + C6H6
 """,
 )
 

@@ -1181,39 +1181,6 @@ Taken from entry: prod4 <=> naphthalene + H
 """,
 )
 
-
-
-entry(
-    index = 73,
-    label = "propene_1 + C6H5 <=> C9H11-6",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(214.5, 'cm^3/(mol*s)'), n=3.05, Ea=(0.83, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
-    longDesc = 
-u"""
-Taken from entry: C6H5 + C3H6 <=> i1
-""",
-)
-
-entry(
-    index = 74,
-    label = "propene_2 + C6H5 <=> C9H11-7",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (32.79, 'cm^3/(mol*s)'),
-        n = 3.085,
-        Ea = (1.881, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
-    longDesc = 
-u"""
-Taken from entry: C6H5 + C3H6 <=> i2
-""",
-)
-
 entry(
     index = 75,
     label = "C9H11-8 <=> C9H10-5 + H",
@@ -2851,6 +2818,39 @@ entry(
     longDesc = 
 u"""
 Taken from entry: W14 <=> P9 + H
+""",
+)
+
+
+
+entry(
+    index = 180,
+    label = "propene_1 + C6H5 <=> C9H11-6",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (17000, 'cm^3/(mol*s)'),
+        n = 2.47,
+        Ea = (0.735, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2006_Park_Phenyl_Propene""",
+    longDesc = 
+u"""
+Taken from entry: C6H5 + C3H6 <=> i1
+""",
+)
+
+entry(
+    index = 181,
+    label = "propene_2 + C6H5 <=> C9H11-7",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1600, 'cm^3/(mol*s)'), n=2.64, Ea=(1.683, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2006_Park_Phenyl_Propene""",
+    longDesc = 
+u"""
+Taken from entry: C6H5 + C3H6 <=> i2
 """,
 )
 
