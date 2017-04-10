@@ -5,6 +5,19 @@ name = "lone_electron_pair_bond/groups"
 shortDesc = u""
 longDesc = u"""
 
+After review by alongd and nyee, this family looks deprecated or unfinished.
+
+Currently, we expect O atom in RMG to be in triplet, not singlet state.
+Therefore this family will never be found by RMG in its current state.
+
+If we naively changed O atom to triplet state for this family, the
+entire family would be spin-forbidden
+
+It is likely that this actually occurs through some two-step reaction pathway
+through an exicted triplet state.
+
+NRRR + O(T) <=> ONRRR(T)
+ONRRR(T) + M <=> ONRRR(S) + M
 """
 
 template(reactants=["N3sRRR", "O_atom_singlet"], products=["N3sRRRO"], ownReverse=False)

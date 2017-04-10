@@ -56,6 +56,18 @@ entry(
 )
 
 entry(
+    index = 1500,
+    label = "Cdd_Od-N3d",
+    group =
+"""
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Od  u0 {1,D}
+3    N3d u0 {1,D}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 5,
     label = "CO2",
     group = 
@@ -4852,6 +4864,21 @@ entry(
 4    Ss u0 {1,S}
 5    R  u0 {2,S}
 6    R  u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1499,
+    label = "Cds-N3sH_Cds",
+    group = 
+"""
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cd  u0 {1,D} {5,S} {6,S}
+3    N3s u0 {1,S}
+4    H   u0 {1,S}
+5    R   u0 {2,S}
+6    R   u0 {2,S}
 """,
     kinetics = None,
 )
@@ -16261,7 +16288,10 @@ entry(
 entry(
     index = 395,
     label = "NJ",
-    group = "OR{N3J}",
+    group =
+"""
+1 *3 N u1
+""",
     kinetics = None,
 )
 
@@ -16584,6 +16614,7 @@ L1: R_R
             L4: CO2
             L4: Ck_O
             L4: C=S_O
+            L4: Cdd_Od-N3d
         L3: CO_O
             L4: CO-HH_O
             L4: CO-NdH_O
@@ -16913,6 +16944,7 @@ L1: R_R
             L4: Cds-SsH_Cds
             L4: Cds-SsCs_Cds
             L4: Cds-SsSs_Cds
+            L4: Cds-N3sH_Cds
             L4: Cds-OsH_Cds
                 L5: Cds-OsH_Cds-CsH
             L4: Cds-OsCs_Cds
