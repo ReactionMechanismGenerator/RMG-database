@@ -2802,11 +2802,11 @@ entry(
     index = 183,
     label = "C8H6 + HO <=> C8H7O-10",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (8.773e+11, 'cm^3/(mol*s)'),
-        n = 0.581,
-        Ea = (2.274, 'kcal/mol'),
-        T0 = (1, 'K'),
+    kinetics=Arrhenius(
+        A=(1.541e+12, 'cm^3/(mol*s)'),
+        n=0.512,
+        Ea=(3.163, 'kcal/mol'),
+        T0=(1, 'K'),
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: OH_phenylacetylene_CBSQB3_MESMER""",
