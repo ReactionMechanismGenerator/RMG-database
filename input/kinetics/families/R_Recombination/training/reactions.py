@@ -293,3 +293,51 @@ The high-pressure limit kinetics was taken. Troe coefficients are:
 """,
 )
 
+entry(
+    index = 20,
+    label = "CH3 + CH3 <=> C2H6",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(9.45e+14, 'cm^3/(mol*s)'), n=-0.538, Ea=(135.1, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
+    rank = 2,
+    shortDesc = u"""CASPT2/cc-pvdz""",
+    longDesc = 
+u"""
+S.J. Klippenstein, Y. Georgievskiia, L.B. Hardingb
+Predictive theory for the combination kinetics of two alkyl radicals
+Phys. Chem. Chem. Phys., 2006, 8, 1133-1147
+doi: 10.1039/B515914H
+""",
+)
+
+entry(
+    index = 21,
+    label = "CH3 + C2H5 <=> C3H8",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.23e+15, 'cm^3/(mol*s)'), n=-0.562, Ea=(20.5, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
+    rank = 2,
+    shortDesc = u"""CASPT2/cc-pvdz""",
+    longDesc = 
+u"""
+S.J. Klippenstein, Y. Georgievskiia, L.B. Hardingb
+Predictive theory for the combination kinetics of two alkyl radicals
+Phys. Chem. Chem. Phys., 2006, 8, 1133-1147
+doi: 10.1039/B515914H
+""",
+)
+
+entry(
+    index = 22,
+    label = "C2H5 + C2H5 <=> C4H10",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(8.73e+14, 'cm^3/(mol*s)'), n=-0.699, Ea=(-3.2, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
+    rank = 2,
+    shortDesc = u"""CASPT2/cc-pvdz""",
+    longDesc = 
+u"""
+S.J. Klippenstein, Y. Georgievskiia, L.B. Hardingb
+Predictive theory for the combination kinetics of two alkyl radicals
+Phys. Chem. Chem. Phys., 2006, 8, 1133-1147
+doi: 10.1039/B515914H
+""",
+)
+
