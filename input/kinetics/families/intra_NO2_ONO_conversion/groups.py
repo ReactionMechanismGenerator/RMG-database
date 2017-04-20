@@ -30,10 +30,27 @@ entry(
 """,
     kinetics = None,
 )
+ 
+entry(
+    index = 2,
+    label = "CH3NO2",
+    group = 
+"""
+1 *1 Cs u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 *3 Os u0 p2 c0 {1,S} {3,S}
+3 *2 N5d u0 p1 c0 {2,S} {4,D}
+4    Od u0 p2 c0 {3,D}
+5    H u0 p0 c0 {1,S}
+6    H u0 p0 c0 {1,S}
+7    H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
 
 tree(
 """
 L1: RNO2
+	L2: CH3NO2
 """
 )
 
