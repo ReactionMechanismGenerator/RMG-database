@@ -3736,6 +3736,16 @@ entry(
 """,
     kinetics = None,
 )
+ 
+entry(
+    index = 600,
+    label = "S_atom_triplet",
+    group = 
+"""
+1 *3 S u2
+""",
+    kinetics = None,
+)
 
 entry(
     index = 190,
@@ -7225,6 +7235,7 @@ L1: Y_rad_birad_trirad_quadrad
         L3: CH_doublet
     L2: Y_1centerbirad
         L3: O_atom_triplet
+        L3: S_atom_triplet
         L3: CH2_triplet
         L3: NH_triplet
     L2: Y_rad
