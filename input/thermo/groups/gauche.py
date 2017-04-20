@@ -11,7 +11,7 @@ entry(
     label = "CsOsCdSs",
     group = 
 """
-1 * [Cs,Os,Cd,Ss] u0
+1 * [Cs,Os,Cd,S2s] u0
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3021,10 +3021,10 @@ u"""
 
 entry(
     index = 96,
-    label = "Ss(RR)",
+    label = "S2s(RR)",
     group = 
 """
-1 * Ss u0
+1 * S2s u0
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3041,10 +3041,10 @@ u"""
 
 entry(
     index = 97,
-    label = "Ss(CsR)",
+    label = "S2s(CsR)",
     group = 
 """
-1 * Ss                         u0 {2,S} {3,S}
+1 * S2s                         u0 {2,S} {3,S}
 2   Cs                         u0 {1,S}
 3   [Cd,Cdd,Ct,Cb,Cbf,Os,CO,H] u0 {1,S}
 """,
@@ -3063,10 +3063,10 @@ u"""
 
 entry(
     index = 98,
-    label = "Ss(CsH)",
+    label = "S2s(CsH)",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Cs u0 {1,S}
 3   H  u0 {1,S}
 """,
@@ -3085,10 +3085,10 @@ u"""
 
 entry(
     index = 99,
-    label = "Ss(Cs(CsHH)H)",
+    label = "S2s(Cs(CsHH)H)",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Cs u0 {1,S} {4,S} {5,S} {6,S}
 3   H  u0 {1,S}
 4   H  u0 {2,S}
@@ -3110,10 +3110,10 @@ u"""
 
 entry(
     index = 100,
-    label = "Ss(CsCs)",
+    label = "S2s(CsCs)",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Cs u0 {1,S}
 3   Cs u0 {1,S}
 """,
@@ -3228,11 +3228,11 @@ L1: CsOsCdSs
         L3: Cd(Cs(CsCsCs)Cs(CsRR))
         L3: Cd(Cs(CsCsCs)Cs(CsCsR))
         L3: Cd(Cs(CsCsCs)Cs(CsCsCs))
-    L2: Ss(RR)
-        L3: Ss(CsR)
-            L4: Ss(CsH)
-                L5: Ss(Cs(CsHH)H)
-        L3: Ss(CsCs)
+    L2: S2s(RR)
+        L3: S2s(CsR)
+            L4: S2s(CsH)
+                L5: S2s(Cs(CsHH)H)
+        L3: S2s(CsCs)
 """
 )
 
