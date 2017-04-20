@@ -56,7 +56,37 @@ Hydrocarbon Formation in a Laminar Premixed n-butane Flame
 Derived from fitting to a complex mechanism for C2H3 + O2 = C2H2 + HO2  
 """,
 )
+ 
+entry(
+    index = 3,
+    label = "N2H3 + NO2 <=> N2H2 + HONO",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.40e+55, 'cm^3/(mol*s)'), n=-16.7, Ea=(-14397, 'cal/mol'), T0=(1, 'K'), Tmin = (800, 'K'), Tmax = (3000, 'K')),
+    rank = 2,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+P. Raghunath, N.T. Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6
+p. 278
+P = 1 atm
+calculations done at the CCSD(T)/6-311++G(3df,2p)//B3LYP/6-311++G(3df,2p) level of theoty
+""",
+)
 
-
-
+entry(
+    index = 4,
+    label = "HOSO2 + O2 <=> SO3 + HO2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(7.8e+11, 'cm^3/(mol*s)'), n=0.00, Ea=(655, 'cal/mol'), T0=(1, 'K')),
+    rank = 2,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Data from: R. Atkinson, D.L. Baulch, R.A. Cox, R.F. Hampson, J. Kerr, J. Phys. Chem. Ref. Data 1992, 21, 1125-1568: Evaluated kinetic and photochemical data for atmospheric chemistry
+As reported by:
+A. Yilmaz, L. Hindiyarti, A.D. Jensen, P. Glarbotg, P. Marshall, J. Phys. Chem. A, 2006, 110 (21), 6654–6659, doi: 10.1021/jp0557215
+and:
+L. Hindiyarti, P. Glarborg, P. Marshall, J. Phys. Chem. A, 2007, 111(19), 3984–3991, doi: 10.1021/jp067499p
+""",
+)
 
