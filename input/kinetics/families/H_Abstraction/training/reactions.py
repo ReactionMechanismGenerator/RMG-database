@@ -284,7 +284,7 @@ for the remaining species and TS were set to 1.  The rate coefficient was comput
 
 entry(
     index = 500,
-    label = "CH2O + C4H7 <=> CHO + C4H8",
+    label = "CH2O + C4H7 <=> HCO_r3 + C4H8",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.0613, 'cm^3/(mol*s)'),
@@ -956,7 +956,7 @@ InChI=1/C3H6O/c1-2-3-4/h2-4H,1H3/ (external symmetry number = 1, spin multiplici
 
 entry(
     index = 525,
-    label = "C4H8-2 + HO2 <=> C4H7-2 + H2O2",
+    label = "C4H8-2 + HO2_r3 <=> C4H7-2 + H2O2",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (0.00346998, 'cm^3/(mol*s)'),
@@ -1014,7 +1014,7 @@ HO2 (external symmetry number = 1, spin multiplicity = 2)
 
 entry(
     index = 529,
-    label = "C4H8-4 + HO2 <=> C4H7-4 + H2O2",
+    label = "C4H8-4 + HO2_r3 <=> C4H7-4 + H2O2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.000508, 'cm^3/(mol*s)'),
@@ -1223,7 +1223,7 @@ than calculations of MHS.
 
 entry(
     index = 540,
-    label = "C4H8O-3 + HO2 <=> C4H7O-3 + H2O2",
+    label = "C4H8O-3 + HO2_r3 <=> C4H7O-3 + H2O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (0.000191, 'cm^3/(mol*s)', '*|/', 3),
@@ -1524,10 +1524,10 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""CBS-QB3""",
+    shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
     longDesc = 
 u"""
-Ethylamine paper
+CBS-QB3
 """,
 )
 
@@ -1544,10 +1544,10 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""CBS-QB3""",
+    shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
     longDesc = 
 u"""
-Ethylamine paper
+CBS-QB3
 """,
 )
 
@@ -1564,16 +1564,16 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""CBS-QB3""",
+    shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
     longDesc = 
 u"""
-Ethylamine paper
+CBS-QB3
 """,
 )
 
 entry(
     index = 1204,
-    label = "CH3CH2NH2_1 + CH3 <=> CH2CH2NH2 + CH4",
+    label = "CH3CH2NH2_1 + CH3_r3 <=> CH2CH2NH2 + CH4",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (3.28e-04, 'cm^3/(mol*s)'),
@@ -1584,16 +1584,16 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""CBS-QB3""",
+    shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
     longDesc = 
 u"""
-Ethylamine paper
+CBS-QB3
 """,
 )
 
 entry(
     index = 1205,
-    label = "CH3CH2NH2_2 + CH3 <=> CH3CHNH2 + CH4",
+    label = "CH3CH2NH2_2 + CH3_r3 <=> CH3CHNH2 + CH4",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2.76e-02, 'cm^3/(mol*s)'),
@@ -1604,16 +1604,16 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""CBS-QB3""",
+    shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
     longDesc = 
 u"""
-Ethylamine paper
+CBS-QB3
 """,
 )
 
 entry(
     index = 1206,
-    label = "CH3CH2NH2_3 + CH3 <=> CH3CH2NH + CH4",
+    label = "CH3CH2NH2_3 + CH3_r3 <=> CH3CH2NH + CH4",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.27e-02, 'cm^3/(mol*s)'),
@@ -1624,10 +1624,10 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""CBS-QB3""",
+    shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
     longDesc = 
 u"""
-Ethylamine paper
+CBS-QB3
 """,
 )
 
@@ -1644,10 +1644,10 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""CBS-QB3""",
+    shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
     longDesc = 
 u"""
-Ethylamine paper
+CBS-QB3
 """,
 )
 
@@ -1664,10 +1664,10 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""CBS-QB3""",
+    shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
     longDesc = 
 u"""
-Ethylamine paper
+CBS-QB3
 """,
 )
 
@@ -1684,10 +1684,10 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""CBS-QB3""",
+    shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
     longDesc = 
 u"""
-Ethylamine paper
+CBS-QB3
 """,
 )
 
@@ -1773,16 +1773,16 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""CBS-QB3""",
+    shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
     longDesc = 
 u"""
-Ethylamine paper
+CBS-QB3
 """,
 )
 
 entry(
     index = 1214,
-    label = "N2H4 + CH3 <=> N2H3 + CH4",
+    label = "N2H4 + CH3_r3 <=> N2H3 + CH4",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (1.77e+01, 'cm^3/(mol*s)'),
@@ -1793,10 +1793,10 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""CBS-QB3""",
+    shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
     longDesc = 
 u"""
-Ethylamine paper
+CBS-QB3
 """,
 )
 
@@ -1813,10 +1813,10 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""CBS-QB3""",
+    shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
     longDesc = 
 u"""
-Ethylamine paper
+CBS-QB3
 """,
 )
 
@@ -1833,10 +1833,10 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""CBS-QB3""",
+    shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
     longDesc = 
 u"""
-Ethylamine paper
+CBS-QB3
 """,
 )
 
@@ -1853,16 +1853,16 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""CBS-QB3""",
+    shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
     longDesc = 
 u"""
-Ethylamine paper
+CBS-QB3
 """,
 )
 
 entry(
     index = 1230,
-    label = "NH + CH4b <=> NH2b + CH3b",
+    label = "NH + CH4b <=> NH2b + CH3_p1",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (9e13, 'cm^3/(mol*s)', '*|/', 1.5),
@@ -1936,7 +1936,7 @@ DOI: 10.1021/jp972959n
 
 entry(
     index = 1011,
-    label = "CH4b + SH <=> CH3a + H2S",
+    label = "CH4b + SH <=> CH3_p1 + H2S",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (7.78e-22, 'cm^3/(mol*s)'),
@@ -1956,7 +1956,7 @@ J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
 
 entry(
     index = 1012,
-    label = "C2H6 + SH <=> CH2CH3 + H2S",
+    label = "C2H6 + SH <=> C2H5b + H2S",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (4.37e-22, 'cm^3/(mol*s)'),
@@ -2152,4 +2152,484 @@ u"""
 Rate comes from quantum calculation at CBS-QB3 level
 J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
 """,
+)
+
+entry(
+    index = 1023,
+    label = "O_rad + HNCN <=> OH_p23 + NCN",
+    degeneracy = 4,
+    kinetics = Arrhenius(A=(1.48e+22, 'cm^3/(mol*s)'), n=-3.37, Ea=(5429, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+k8 in S. Xu, M.C. Lin, Proceedings of the Combustion Institute, 2009, 32, 99-106, doi: 10.1016/j.proci.2008.07.011
+Done at the CCSD(T)/6-311+G(3df,2p)//CCSD/6-311++G(d,p) level of theory
+The paper reports on four pathways to get to the same products, but only one is considered hydrogen abstraction.
+""",
+)
+
+entry(
+    index = 1024,
+    label = "O2 + HNCN <=> HO2 + NCN",
+    degeneracy = 2,
+    kinetics = Arrhenius(A=(1.61e+08, 'cm^3/(mol*s)'), n=1.25, Ea=(24443, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+k13 in S. Xu, M.C. Lin, Proceedings of the Combustion Institute, 2009, 32, 99-106, doi: 10.1016/j.proci.2008.07.011
+Done at the CCSD(T)/6-311+G(3df,2p)//CCSD/6-311++G(d,p) level of theory
+The paper reports on two pathways to get to the same products, but only one is considered hydrogen abstraction.
+""",
+)
+
+entry(
+    index = 1025,
+    label = "N + H2 <=> NH_p + H_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.60e+14, 'cm^3/(mol*s)'), n=0, Ea=(25138, 'cal/mol'), T0=(1, 'K')),
+    rank = 1,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+D.F. Davidson, R.K. Hanson, Int. J. Chem. Kin., 1990, 22(8), 843–861, doi: 10.1002/kin.550220805
+""",
+)
+
+entry(
+    index = 1026,
+    label = "N2H4 + NO <=> N2H3 + HNO_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(6.44e+01, 'cm^3/(mol*s)'), n=3.16, Ea=(30488, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+P. Raghunath, Y.H. Lin, M.C. Lin, Computational and Theoretical Chemistry, 2014, 1046, 73-80, doi: 10.1016/j.comptc.2014.07.011
+calculations done at the CCSD(T)/CBS//CCSD level of theoty,
+and the moment of inertia and harmonic vibrational frequencies were obtained by the CCSD/6-31G(d,p) level
+""",
+)
+
+entry(
+    index = 1027,
+    label = "HNCN + OH <=> H2O_p + NCN",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.04e+05, 'cm^3/(mol*s)'), n=2.48, Ea=(-1886, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+k7 in: S. Xu, M.C. Lin, J. Phys. Chem. A, 2007, 111, 6730-6740, doi: 10.1021/jp069038+
+Done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory
+""",
+)
+
+entry(
+    index = 1028,
+    label = "N2H4 + NO2 <=> N2H3 + HONO_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.23e+00, 'cm^3/(mol*s)'), n=3.56, Ea=(763, 'cal/mol'), T0=(1, 'K'), Tmin = (250, 'K'), Tmax = (2500, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+P. Raghunath, N.T. Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6
+p. 265
+calculations done at the G2M(CC2)//B3LYP/6-311þþG(3df,2p) level of theoty
+""",
+)
+
+entry(
+    index = 1029,
+    label = "N2H4 + NO3 <=> N2H3 + HNO3",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.28e+04, 'cm^3/(mol*s)'), n=2.53, Ea=(-2947, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+P. Raghunath, N.T. Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6
+p. 269
+CCSD(T)//BHandHLYP/6-311þþG(3df,2p) level of theoty
+Pressure independent at least up to 100 atm
+""",
+)
+
+entry(
+    index = 1030,
+    label = "NH3_r + NO <=> NH2_p + HNO_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.04e+07, 'cm^3/(mol*s)'), n=1.73, Ea=(56544, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (5000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+A.M. Mebel, E.W.G. Diau, M.C. Lin, K.Morokuma, J. Phys. Chem., 1996, 100, 7517-7525, doi: 10.1021/jp953644f
+k1 on p. 7519
+calculations done at the UMP2/6-311G-(d,p)//UMP2/6-311G(d,p) level of theory
+""",
+)
+
+entry(
+    index = 1031,
+    label = "NH2 + H2 <=> NH3 + H_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.23e+05, 'cm^3/(mol*s)'), n=2.23, Ea=(7168, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (5000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+A.M. Mebel, L.V. Moskaleva, M.C. Lin, J. Molec. Struc. (Theochem), 1999, 461-462, 223-238, doi: 10.1016/S0166-1280(98)00423-0
+k1_theo on p. 229
+calculations done at the G2M//B3LYP/6-311G(d,p) level of theory
+""",
+)
+
+entry(
+    index = 1032,
+    label = "NH2 + CH4b <=> NH3 + CH3_p1",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.36e+04, 'cm^3/(mol*s)'), n=2.87, Ea=(10691, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (5000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+A.M. Mebel, L.V. Moskaleva, M.C. Lin, J. Molec. Struc. (Theochem), 1999, 461-462, 223-238, doi: 10.1016/S0166-1280(98)00423-0
+k2 on p. 232
+calculations done at the G2M//B3LYP/6-311G(d,p) level of theory
+""",
+)
+
+entry(
+    index = 1033,
+    label = "NH2 + H2O <=> NH3 + OH_p1",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.62e+13, 'cm^3/(mol*s)'), n=0, Ea=(16846, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (5000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+A.M. Mebel, L.V. Moskaleva, M.C. Lin, J. Molec. Struc. (Theochem), 1999, 461-462, 223-238, doi: 10.1016/S0166-1280(98)00423-0
+k4 on p. 233
+calculations done at the G2M//B3LYP/6-311G(d,p) level of theory
+A lower and upper rate limits were given. Here an average rate was taken.
+Fitted to a 2 parameter Arrhenius with a coefficient of determination of 0.9943
+""",
+)
+
+entry(
+    index = 1036,
+    label = "H2S_r + H <=> SH_p1 + H2_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.5e+07, 'cm^3/(mol*s)'), n=1.94, Ea=(904, 'cal/mol'), T0=(1, 'K'), Tmin = (190, 'K'), Tmax = (2237, 'K')),
+    rank = 1,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+J. Peng, X. Hu, P. Marshall, J. Phys. Chem. A, 1999, 103, 5307-5311, doi: 10.1021/jp984242l
+Combined experimental (298-598 K) and computational calculation at the QCISD(T)/6-311+G(3df,2p) level
+(also available from D. Woiki, P. Roth, Israel Journal of Chemistry, 1996, 36(3), 279-283, doi: 10.1002/ijch.199600039)
+""",
+)
+
+entry(
+    index = 1037,
+    label = "H2S_r + S_rad <=> SH_p1 + SH",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.7e+06, 'cm^3/(mol*s)'), n=2.297, Ea=(9010, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+C.R. Zhou, K. Sendt, B.S. Haynes, J. Phys. Chem. A, 2008, 112, 3239-3247, doi: 10.1021/jp710488d
+calculations done at the MRCI/aug-cc-pV(Q+d)Z//MRCI/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 1038,
+    label = "H2 + S_rad <=> SH + H_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.58e+14, 'cm^3/(mol*s)'), n=0, Ea=(19700, 'cal/mol'), T0=(1, 'K'), Tmin = (2740, 'K'), Tmax = (3570, 'K')),
+    rank = 1,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+Shock Tube
+H. Shiina, M. Oya, K. Yamashita, A. Miyoshi, H. Matsui, J. Phys. Chem., 1996, 100(6), 2136–2140, doi: 10.1021/jp952472j
+""",
+)
+
+entry(
+    index = 1039,
+    label = "CH4b + S_rad <=> SH + CH3_p1",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.04e+14, 'cm^3/(mol*s)'), n=0, Ea=(19910, 'cal/mol'), T0=(1, 'K'), Tmin = (830, 'K'), Tmax = (2500, 'K')),
+    rank = 1,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+K. Tsuchiya, K. Yamashita, A. Miyoshi, H. Matsui, J. Phys. Chem., 1996, 100(43), 17202–17206, doi: 10.1021/jp961252i
+Shock Tube
+T > 830 K
+""",
+)
+
+entry(
+    index = 1040,
+    label = "C2H6 + S_rad <=> SH + C2H5b",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.23e+14, 'cm^3/(mol*s)'), n=0, Ea=(14750, 'cal/mol'), T0=(1, 'K'), Tmin = (830, 'K'), Tmax = (2500, 'K')),
+    rank = 1,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+K. Tsuchiya, K. Yamashita, A. Miyoshi, H. Matsui, J. Phys. Chem., 1996, 100(43), 17202–17206, doi: 10.1021/jp961252i
+Shock Tube
+T > 830 K
+""",
+)
+
+entry(
+    index = 1041,
+    label = "H + HSS_r12 <=> H2_p + S2_p1",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.23e+08, 'cm^3/(mol*s)'), n=1.653, Ea=(-1105, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
+TST
+""",
+)
+
+entry(
+    index = 1042,
+    label = "S_rad + HSS_r12 <=> SH_p1 + S2_p1",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.17e+06, 'cm^3/(mol*s)'), n=2.200, Ea=(-600, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
+TST
+""",
+)
+
+entry(
+    index = 1043,
+    label = "HSS_r12 + HSS_r3 <=> HSSH_p23 + S2_p1",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(9.56e+00, 'cm^3/(mol*s)'), n=3.370, Ea=(-1672, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
+TST
+""",
+)
+
+entry(
+    index = 1044,
+    label = "HSSH_r12 + H <=> HSS_p1 + H2_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(9.56e+00, 'cm^3/(mol*s)'), n=3.370, Ea=(-1672, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
+TST
+""",
+)
+
+entry(
+    index = 1045,
+    label = "HSSH_r12 + SH <=> H2S + HSS_p1",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(6.40e+03, 'cm^3/(mol*s)'), n=2.980, Ea=(-1480, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
+TST
+""",
+)
+
+entry(
+    index = 1046,
+    label = "HSSH_r12 + S_rad <=> HSS_p1 + SH",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(6.40e+03, 'cm^3/(mol*s)'), n=2.980, Ea=(-1480, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
+TST
+""",
+)
+
+entry(
+    index = 1047,
+    label = "HONO_r + H <=> H2_p + NO2_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.01e+08, 'cm^3/(mol*s)'), n=1.55, Ea=(6614, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3500, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+C.C. Hsu, M.C. Lin, A.M. Mebel, C.F. Melius, J. Phys. Chem. A, 1997, 101(1), 60–66, doi: 10.1021/jp962286t
+G2 and BAC-MP4
+""",
+)
+
+entry(
+    index = 1048,
+    label = "HNO_r + H <=> NO_p + H2_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.46e+11, 'cm^3/(mol*s)'), n=0.720, Ea=(655, 'cal/mol'), T0=(1, 'K'), Tmin = (200, 'K'), Tmax = (3000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+M.R. Soto, M. Page, J. Chem. Phys., 1992, 97, 7287, doi: 10.1063/1.463501
+calculations done at the CASSCF//(CASSCF and CISD) levels of theory
+""",
+)
+
+entry(
+    index = 1049,
+    label = "HNO3_r + H <=> H2_p + NO3_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5.56e+08, 'cm^3/(mol*s)'), n=1.53, Ea=(16400, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+J.W. Boughton, S. Kristyan, M.C. Lin, Chemical Physics, 1997, 214(2-3), 219-227, doi: 10.1016/S0301-0104(96)00313-8
+CTST
+""",
+)
+
+entry(
+    index = 1050,
+    label = "HCO_r3 + HNO_r <=> CH2O_p + NO_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5.83e-01, 'cm^3/(mol*s)'), n=3.84, Ea=(115, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+Z.F. Xu, M.C. Lin, Int. J. Chem. Kin., 2004, 36(4), 205-215, doi: 10.1002/kin.10178
+calculations done at the G2M//BH&HLYP/6-311G(d, p) level of theory
+""",
+)
+
+entry(
+    index = 1051,
+    label = "CH2O + NO2 <=> CHO_p1 + HONO_p",
+    degeneracy = 3,
+    kinetics = Arrhenius(A=(8.55e+16, 'cm^3/(mol*s)'), n=5.64, Ea=(9221, 'cal/mol'), T0=(1, 'K'), Tmin = (200, 'K'), Tmax = (3000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+Z.F. Xu, M.C. Lin, Int. J. Chem. Kin., 2003, 35(5), 184-190, doi: 10.1002/kin.10115
+calculations done at the G2M//B3LYP/6−311+G(d,p) and G2M//MPW1PW91/6−311+G(3df,2p) levels of theory
+* There are two other pathways for the formation of these products, this is the fastest one. k_tot was also given in the paper.
+""",
+)
+
+entry(
+    index = 1052,
+    label = "HNO3_r + OH <=> H2O_p + NO3_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(8.73e+00, 'cm^3/(mol*s)'), n=3.50, Ea=(-1667, 'cal/mol'), T0=(1, 'K'), Tmin = (750, 'K'), Tmax = (1500, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+W.S. Xia, M.C. Lin, J. Chem. Phys., 2001, 114, 4522-4532, doi: 10.1063/1.1337061
+calculations done at the B3LYP/6-311G(d,p)//B3LYP/6-311G(d,p) level of theory
+""",
+)
+
+entry(
+    index = 1053,
+    label = "HCN_r + O_rad <=> CN_p + OH_p23",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.0e+08, 'cm^3/(mol*s)'), n=1.47, Ea=(7550, 'cal/mol'), T0=(1, 'K'), Tmin = (500, 'K'), Tmax = (2500, 'K')),
+    rank = 1,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+W. Tsang, J.T. Herron, Journal of Physical and Chemical Reference Data, 1991, 20, 609, doi: 10.1063/1.555890
+Review and reccomendation, based on 5 different experimental studies
+""",
+)
+
+entry(
+    index = 1054,
+    label = "HCN_r + H <=> CN_p + H2_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.8e+14, 'cm^3/(mol*s)'), n=0, Ea=(24600, 'cal/mol'), T0=(1, 'K'), Tmin = (500, 'K'), Tmax = (2500, 'K')),
+    rank = 1,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+W. Tsang, J.T. Herron, Journal of Physical and Chemical Reference Data, 1991, 20, 609, doi: 10.1063/1.555890
+Review and reccomendation, based on experimental studies
+""",
+)
+
+entry(
+    index = 1055,
+    label = "HCN_r + OH <=> CN_p + H2O_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.8e+14, 'cm^3/(mol*s)'), n=0, Ea=(24600, 'cal/mol'), T0=(1, 'K'), Tmin = (298, 'K'), Tmax = (2840, 'K')),
+    rank = 1,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+W. Tsang, J.T. Herron, Journal of Physical and Chemical Reference Data, 1991, 20, 609, doi: 10.1063/1.555890
+Review and reccomendation, based on experimental studies
+""",
+)
+
+entry(
+    index = 1056,
+    label = "CH3SH_r1 + H <=> CH3S_p + H2_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.39e+08, 'cm^3/(mol*s)'), n=1.729, Ea=(986, 'cal/mol'), T0=(1, 'K'), Tmin = (250, 'K'), Tmax = (3000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+WK.E. Kerr, I.M. Alecu, K.M. Thompson, Y. Gao, P. Marshall, J. Phys. CHem. A, 2015, 119, 7352-7360, doi: 10.1021/jp512966a
+Table 5, R1
+calculations done at the QCISD/6-311G(d,p) level
+""",
+)
+
+entry(
+    index = 1057,
+    label = "CH3SH_r2 + H <=> CH2SH_p + H2_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.16e+03, 'cm^3/(mol*s)'), n=2.925, Ea=(4747, 'cal/mol'), T0=(1, 'K'), Tmin = (250, 'K'), Tmax = (3000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+WK.E. Kerr, I.M. Alecu, K.M. Thompson, Y. Gao, P. Marshall, J. Phys. CHem. A, 2015, 119, 7352-7360, doi: 10.1021/jp512966a
+Table 5, R2
+calculations done at the QCISD/6-311G(d,p) level
+""",
+)
 
