@@ -1747,7 +1747,7 @@ u"""
 
 entry(
     index = 482,
-    label = "CsJ-SsHH;H_rad",
+    label = "C_rad/H2/N;H_rad",
     kinetics = ArrheniusEP(
         A = (5e+11, 'cm^3/(mol*s)'),
         n = 0.65,
