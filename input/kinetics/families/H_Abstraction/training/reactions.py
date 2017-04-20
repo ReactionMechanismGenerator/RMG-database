@@ -1933,3 +1933,223 @@ J. Phys. Chem. A, 1998, 102 (7), pp 1194–1199
 DOI: 10.1021/jp972959n
 """,
 )
+
+entry(
+    index = 1011,
+    label = "CH4b + SH <=> CH3a + H2S",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (7.78e-22, 'cm^3/(mol*s)'),
+        n = 3.02,
+        Ea = (66.3, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""Glarborg CBS-QB3 calc""",
+    longDesc = 
+u"""
+Rate comes from quantum calculation at CBS-QB3 level
+J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+""",
+)
+
+entry(
+    index = 1012,
+    label = "C2H6 + SH <=> CH2CH3 + H2S",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (4.37e-22, 'cm^3/(mol*s)'),
+        n = 3.41,
+        Ea = (42.2, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""Glarborg CBS-QB3 calc""",
+    longDesc = 
+u"""
+Rate comes from quantum calculation at CBS-QB3 level
+J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+""",
+)
+
+entry(
+    index = 1013,
+    label = "C3H8 + SH <=> CH2CH2CH3 + H2S",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (8.51e-22, 'cm^3/(mol*s)'),
+        n = 3.39,
+        Ea = (43.2, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""Glarborg CBS-QB3 calc""",
+    longDesc = 
+u"""
+Rate comes from quantum calculation at CBS-QB3 level
+J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+""",
+)
+
+entry(
+    index = 1014,
+    label = "C3H8 + SH <=> CH3CHCH3 + H2S",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5.25e-18, 'cm^3/(mol*s)'),
+        n = 1.79,
+        Ea = (34.6, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""Glarborg CBS-QB3 calc""",
+    longDesc = 
+u"""
+Rate comes from quantum calculation at CBS-QB3 level
+J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+""",
+)
+
+entry(
+    index = 1015,
+    label = "C4H10 + SH <=> CH3CHCH2CH3 + H2S",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.26e-20, 'cm^3/(mol*s)'),
+        n = 2.53,
+        Ea = (31.3, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""Glarborg CBS-QB3 calc""",
+    longDesc = 
+u"""
+Rate comes from quantum calculation at CBS-QB3 level
+J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+""",
+)
+
+entry(
+    index = 1016,
+    label = "C2H4 + SH <=> CHCH2 + H2S",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.96e-25, 'cm^3/(mol*s)'),
+        n = 3.31,
+        Ea = (81.3, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""Glarborg CBS-QB3 calc""",
+    longDesc = 
+u"""
+Rate comes from quantum calculation at CBS-QB3 level
+J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+""",
+)
+
+entry(
+    index = 1017,
+    label = "C3H6 + SH <=> CH2CHCH2 + H2S",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.00e-24, 'cm^3/(mol*s)'),
+        n = 3.79,
+        Ea = (9.9, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""Glarborg CBS-QB3 calc""",
+    longDesc = 
+u"""
+Rate comes from quantum calculation at CBS-QB3 level
+J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+""",
+)
+
+entry(
+    index = 1018,
+    label = "C4H8-4 + SH <=> CH2CHCHCH3 + H2S",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.19e-23, 'cm^3/(mol*s)'),
+        n = 3.40,
+        Ea = (0.4, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""Glarborg CBS-QB3 calc""",
+    longDesc = 
+u"""
+Rate comes from quantum calculation at CBS-QB3 level
+J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+""",
+)
+
+entry(
+    index = 1019,
+    label = "C4H8-6 + SH <=> CH2CCH2CH3 + H2S",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.69e-22, 'cm^3/(mol*s)'),
+        n = 3.32,
+        Ea = (36.5, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""Glarborg CBS-QB3 calc""",
+    longDesc = 
+u"""
+Rate comes from quantum calculation at CBS-QB3 level
+J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+""",
+)
+
+entry(
+    index = 1020,
+    label = "C3H4-1 + SH <=> CH2CCH + H2S",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.51e-22, 'cm^3/(mol*s)'),
+        n = 3.37,
+        Ea = (30.2, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""Glarborg CBS-QB3 calc""",
+    longDesc = 
+u"""
+Rate comes from quantum calculation at CBS-QB3 level
+J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+""",
+)
+
+entry(
+    index = 1022,
+    label = "C4H6 + SH <=> CHCCHCH3 + H2S",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.10e-22, 'cm^3/(mol*s)'),
+        n = 3.32,
+        Ea = (8.01, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""Glarborg CBS-QB3 calc""",
+    longDesc = 
+u"""
+Rate comes from quantum calculation at CBS-QB3 level
+J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+""",
+
