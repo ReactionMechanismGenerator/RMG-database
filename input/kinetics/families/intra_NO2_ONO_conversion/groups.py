@@ -23,10 +23,26 @@ entry(
     label = "RNO2",
     group = 
 """
-1 *1 R   u0 {2,S}
-2 *2 N5d u0 {1,S} {3,S} {4,D}
-3 *3 Os  u0 {2,S}
-4    Od  u0 {2,D}
+1 *1 R   u0 p0 c0  {2,S}
+2 *2 N5d u0 p0 c+1 {1,S} {3,S} {4,D}
+3 *3 Os  u0 p3 c-1 {2,S}
+4    Od  u0 p2 c0  {2,D}
+""",
+    kinetics = None,
+)
+ 
+entry(
+    index = 2,
+    label = "CH3NO2",
+    group = 
+"""
+1 *1 Cs  u0 p0 c0  {2,S} {5,S} {6,S} {7,S}
+2 *2 N5d u0 p0 c+1 {1,S} {3,S} {4,D}
+3 *3 Os  u0 p3 c-1 {2,S}
+4    Od  u0 p2 c0  {2,D}
+5    H   u0 p0 c0  {1,S}
+6    H   u0 p0 c0  {1,S}
+7    H   u0 p0 c0  {1,S}
 """,
     kinetics = None,
 )
@@ -34,6 +50,7 @@ entry(
 tree(
 """
 L1: RNO2
+	L2: CH3NO2
 """
 )
 
