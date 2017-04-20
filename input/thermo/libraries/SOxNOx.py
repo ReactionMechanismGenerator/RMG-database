@@ -4,69 +4,10 @@
 name = ""
 shortDesc = u"SOxNOx"
 longDesc = u"""
-
 """
 
 entry(
     index = 1,
-    label = "C",
-    molecule = 
-"""
-multiplicity 5
-1 C u4 p0 c0
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[2.55424,-0.000321538,7.33792e-07,-7.32235e-10,2.66521e-13,85442.7,4.53131], Tmin=(200,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[2.60558,-0.000195934,1.06737e-07,-1.64239e-11,8.18706e-16,85411.7,4.19239], Tmin=(1000,'K'), Tmax=(6000,'K')),
-        ],
-        Tmin = (200,'K'),
-        Tmax = (6000,'K'),
-    ),
-    shortDesc = u"""L 7/88""",
-    longDesc = 
-u"""
-AramcoMech
-W. K. Metcalfe, S. M. Burke, S. S. Ahmed, H. J. Curran
-A Hierarchical and Comparative Kinetic Modeling Study of C1-C2 Hydrocarbon and Oxygenated Fuels
-Intl. J. Chemical Kinetics 45 (2013) 638-675. Release date: August 26th 2013. 
-http://c3.nuigalway.ie/Mechanism_release/frontmatter.html
-""",
-)
-
-entry(
-    index = 2,
-    label = "N2O5",
-    molecule = 
-"""
-1 O u0 p2 c0 {2,D}
-2 N u0 p0 c+1 {1,D} {3,S} {4,S}
-3 O u0 p3 c-1 {2,S}
-4 O u0 p2 c0 {2,S} {5,S}
-5 N u0 p0 c+1 {4,S} {6,S} {7,D}
-6 O u0 p3 c-1 {5,S}
-7 O u0 p2 c0 {5,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([86.53,99.74,109.60,117.11,127.29,133.42,140.73],'J/(mol*K)'),
-        H298 = (13.53,'kJ/mol','+|-',0.56),
-        S298 = (353.45,'J/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-M06-2X/MG3S
-I.M. Alecu, P. Marshall
-Computational Study of the Thermochemistry of N2O5 and the Kinetics of the Reaction N2O5 + H2O => 2 HNO3
-J. Phys. Chem. A, 2014, 118, 11405−11416
-doi: 10.1021/jp509301t (see also erratum: doi: 10.1021/acs.jpca.6b12514)
-Data available in the source at a widet T range than reported here
-""",
-)
-
-entry(
-    index = 3,
     label = "HOSH",
     molecule = 
 """
@@ -88,73 +29,6 @@ UMP2=full/6-31G+
 A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall
 The Journal of Chemical Physics 101, 9405 (1994); doi: http://dx.doi.org/10.1063/1.467971
 As reported by: M.U. Alzueta, R. Bilbao, P. Glarborg, Comb. Flame, 2001, 127(4) 2234-2251, doi: 10.1016/S0010-2180(01)00325-X 
-""",
-)
-
-entry(
-    index = 4,
-    label = "S",
-    molecule = 
-"""
-multiplicity 3
-1 S u2 p2 c0
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.67,5.54,5.43,5.35,5.22,5.13,5.06],'cal/(mol*K)'),
-        H298 = (66.2,'kcal/mol'),
-        S298 = (40.09,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-R.J. Kee, F.M. Rupley, J.A. Miller, The Chemkin Thermodynamic Data Base, Sandia Report SAND87-8215, Sandia National Laboratories, Livermore, California, 1991
-As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
-""",
-)
-
-entry(
-    index = 4,
-    label = "S2",
-    molecule = 
-"""
-1 S u0 p2 c0 {2,D}
-2 S u0 p2 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.79,8.13,8.38,8.56,8.76,8.89,9.29],'cal/(mol*K)'),
-        H298 = (30.7,'kcal/mol'),
-        S298 = (54.50,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-R.J. Kee, F.M. Rupley, J.A. Miller, The Chemkin Thermodynamic Data Base, Sandia Report SAND87-8215, Sandia National Laboratories, Livermore, California, 1991
-As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
-""",
-)
-
-entry(
-    index = 4,
-    label = "SH",
-    molecule = 
-"""
-multiplicity 2
-1 S u1 p2 c0 {2,S}
-2 H u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.74,7.59,7.49,7.46,7.59,7.85,8.34],'cal/(mol*K)'),
-        H298 = (33.3,'kcal/mol'),
-        S298 = (46.73,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-R.J. Kee, F.M. Rupley, J.A. Miller, The Chemkin Thermodynamic Data Base, Sandia Report SAND87-8215, Sandia National Laboratories, Livermore, California, 1991
-As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
 """,
 )
 
@@ -381,10 +255,10 @@ entry(
     molecule = 
 """
 multiplicity 2
-1 S u1 p0 c0 {2,S} {3,D} {4,D}
+1 S u0 p1 c0 {2,S} {3,D} {4,S}
 2 O u0 p2 c0 {1,S} {5,S}
 3 O u0 p2 c0 {1,D}
-4 O u0 p2 c0 {1,D}
+4 O u1 p2 c0 {1,S}
 5 H u0 p0 c0 {2,S}
 """,
     thermo = ThermoData(
@@ -398,30 +272,6 @@ multiplicity 2
 u"""
 H.M. Chiang, J.W. Bozzelli, Quantum Rice–Ramsberger–Kassel (QRRK) Analysis on Reaction of HSO + O, H + SO2, and OH + SO; HO2 and HOSO Formation and Dissociation
 As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
-""",
-)
-
-entry(
-    index = 4,
-    label = "HS2",
-    molecule = 
-"""
-multiplicity 2
-1 S u0 p2 c0 {2,S} {3,S}
-2 S u1 p2 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([39.75,42.72,45.02,46.82,49.50,51.55,54.39],'J/(mol*K)'),
-        H298 = (104.6,'kJ/mol'),
-        S298 = (253.3,'J/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-A. Burcat, B. McBride, (1995) Ideal Gas Thermodynamic Data for Combustion and Air-Pollution Use; Aerospace Engineering Report TAE 732, Technion, Israel Institute of Technology; January 2001 update
-As reported by: M.U. Alzueta, R. Bilbao, P. Glarborg, Comb. Flame, 2001, 127(4) 2234-2251, doi: 10.1016/S0010-2180(01)00325-X 
 """,
 )
 
@@ -446,9 +296,248 @@ multiplicity 2
     longDesc = 
 u"""
 Table 5
-MP2)FULL/6-31G(d)
+MP2=FULL/6-31G(d)
 A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall
 J. Phys. Chem. A, 1999, 103, 11328-11335, doi: 10.1021/jp9924070
+""",
+)
+
+entry(
+    index = 4,
+    label = "NS",
+    molecule = 
+"""
+multiplicity 2
+1 N u1 p1 c0 {2,D}
+2 S u0 p2 c0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.07,8.17,8.26,8.35,8.50,8.62,8.84],'cal/(mol*K)'),
+        H298 = (66.4,'kcal/mol','+|-',0.5),
+        S298 = (52.76,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Enthalpy is taken from Marshall2002:
+L.R. Peebles, P. Marshall, Chem. Phys. Letters, 2002, 366(5-6), 520-524, doi: 10.1016/S0009-2614(02)01619-6
+Entropy and Cp are taken from Burcat2005:
+Alexander Burcat and Branko Ruscic
+"Third Millennium Ideal Gas and Condensed Phase Thermochemical Database for
+Combustion with updates from Active Thermochemical Tables" TAE # 960; ANL-50/20
+Technion-IIT, Aerospace Engineering, and Argonne National Laboratory, Chemistry
+Division, 2005. http://garfield.chem.elte.hu/Burcat/burcat.html
+""",
+)
+
+entry(
+    index = 4,
+    label = "NH(S)",
+    molecule = 
+"""
+1 N u0 p2 c0 {2,S}
+2 H u0 p0 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.98,7.00,7.11,7.27,7.60,7.91,8.44],'cal/(mol*K)'),
+        H298 = (120.9,'kcal/mol','+|-',0.5),
+        S298 = (41.7,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Anthony M. Dean, Joseph W. Bozzelli, Combustion Chemistry of Nitrogen,
+in: Gas-Phase Combustion Chemistry, Editor: W.C. Gardiner, 2000, 125-341,
+doi: 10.1007/978-1-4612-1310-9_2
+""",
+)
+
+entry(
+    index = 4,
+    label = "NNOH",
+    molecule = 
+"""
+multiplicity 2
+1 N u1 p1 c0 {2,D}
+2 N u0 p1 c0 {1,D} {3,S}
+3 O u0 p2 c0 {2,S} {4,S}
+4 H u0 p0 c0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.44,11.42,12.25,13.10,14.32,15.15,16.68],'cal/(mol*K)'),
+        H298 = (58.1,'kcal/mol','+|-',0.5),
+        S298 = (61.4,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Anthony M. Dean, Joseph W. Bozzelli, Combustion Chemistry of Nitrogen,
+in: Gas-Phase Combustion Chemistry, Editor: W.C. Gardiner, 2000, 125-341,
+doi: 10.1007/978-1-4612-1310-9_2
+""",
+)
+
+entry(
+    index = 4,
+    label = "CH2NN",
+    molecule = 
+"""
+1 C u0 p1 c-1 {2,S} {3,S} {4,S}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 N u0 p0 c+1 {1,S} {5,T}
+5 N u0 p1 c0 {4,T}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.74,13.86,15.60,17.04,19.17,20.67,22.94],'cal/(mol*K)'),
+        H298 = (68.5,'kcal/mol','+|-',0.5),
+        S298 = (57.96,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""diazomethyl""",
+    longDesc = 
+u"""
+Anthony M. Dean, Joseph W. Bozzelli, Combustion Chemistry of Nitrogen,
+in: Gas-Phase Combustion Chemistry, Editor: W.C. Gardiner, 2000, 125-341,
+doi: 10.1007/978-1-4612-1310-9_2
+""",
+)
+
+entry(
+    index = 4,
+    label = "HCNN",
+    molecule = 
+"""
+multiplicity 2
+1 C u1 p1 c-1 {2,S} {3,S}
+2 H u0 p0 c0 {1,S}
+3 N u0 p0 c+1 {1,S} {4,T}
+4 N u0 p1 c0 {3,T}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.78,12.19,13.40,14.29,15.68,16.56,17.71],'cal/(mol*K)'),
+        H298 = (109.0,'kcal/mol','+|-',0.5),
+        S298 = (59.3,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""diazomethyl radical""",
+    longDesc = 
+u"""
+Anthony M. Dean, Joseph W. Bozzelli, Combustion Chemistry of Nitrogen,
+in: Gas-Phase Combustion Chemistry, Editor: W.C. Gardiner, 2000, 125-341,
+doi: 10.1007/978-1-4612-1310-9_2
+""",
+)
+
+entry(
+    index = 4,
+    label = "HCN2",
+    molecule = 
+"""
+multiplicity 2
+1 N u0 p1 c0 {2,D} {3,S}
+2 N u0 p1 c0 {1,D} {3,S}
+3 C u1 p0 c0 {1,S} {2,S} {4,S}
+4 H u0 p0 c0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.00,12.02,13.00,13.81,15.30,16.09,17.59],'cal/(mol*K)'),
+        H298 = (107.1,'kcal/mol','+|-',0.5),
+        S298 = (57.5,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""diazirine radical""",
+    longDesc = 
+u"""
+Anthony M. Dean, Joseph W. Bozzelli, Combustion Chemistry of Nitrogen,
+in: Gas-Phase Combustion Chemistry, Editor: W.C. Gardiner, 2000, 125-341,
+doi: 10.1007/978-1-4612-1310-9_2
+""",
+)
+
+entry(
+    index = 4,
+    label = "CH2NNH2",
+    molecule = 
+"""
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 N u0 p1 c0 {1,D} {3,S}
+3 N u0 p1 c0 {2,S} {6,S} {7,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {3,S}
+7 H u0 p0 c0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.29,17.21,18.24,19.79,25.19,29.11,32.34],'cal/(mol*K)'),
+        H298 = (45.5,'kcal/mol','+|-',0.5),
+        S298 = (63.1,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Anthony M. Dean, Joseph W. Bozzelli, Combustion Chemistry of Nitrogen,
+in: Gas-Phase Combustion Chemistry, Editor: W.C. Gardiner, 2000, 125-341,
+doi: 10.1007/978-1-4612-1310-9_2
+""",
+)
+
+entry(
+    index = 4,
+    label = "CH3NNH",
+    molecule = 
+"""
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 N u0 p1 c0 {1,S} {3,D}
+3 N u0 p1 c0 {2,D} {7,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.70,16.20,16.82,18.69,24.40,27.10,31.31],'cal/(mol*K)'),
+        H298 = (42.8,'kcal/mol','+|-',0.5),
+        S298 = (61.4,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Anthony M. Dean, Joseph W. Bozzelli, Combustion Chemistry of Nitrogen,
+in: Gas-Phase Combustion Chemistry, Editor: W.C. Gardiner, 2000, 125-341,
+doi: 10.1007/978-1-4612-1310-9_2
+""",
+)
+
+entry(
+    index = 4,
+    label = "NCHOH",
+    molecule = 
+"""
+multiplicity 2
+1 N u1 p1 c0 {2,D}
+2 C u0 p0 c0 {1,D} {3,S} {4,S}
+3 H u0 p0 c0 {2,S}
+4 O u0 p2 c0 {2,S} {5,S}
+5 H u0 p0 c0 {4,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.50,14.24,15.80,17.16,19.17,20.46,22.39],'cal/(mol*K)'),
+        H298 = (13.9,'kcal/mol','+|-',0.5),
+        S298 = (62.9,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Anthony M. Dean, Joseph W. Bozzelli, Combustion Chemistry of Nitrogen,
+in: Gas-Phase Combustion Chemistry, Editor: W.C. Gardiner, 2000, 125-341,
+doi: 10.1007/978-1-4612-1310-9_2
 """,
 )
 
@@ -470,23 +559,35 @@ J. Phys. Chem. A, 1999, 103, 11328-11335, doi: 10.1021/jp9924070
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"""
+check Burcat?
+check GlarborgNS?
+Add:
+HOSO2
+N2H3NO
+HNNO2 - bad
+H2NONO
+NH2NHNO
+NH2NHNO2
+NH2NHONO
+CH2N2 - radical, but no data for non-rad
+CHN2 - same
+cN2CH2 - same
+CNNH - same
+CNN - same
+CH2NC - same
+CH2NCN
+NCCHN
+NCNCN
+cNCN
+OHNHCN - bad
+HONCNH
+NCOHNH
+HN(O)CN - bad
+HNC(O)N
+HOOS
+SNO
+H298 for NCN from Lin2013b: http://pubs.acs.org/doi/abs/10.1021/jp402903t
+I can derive thermo for S, SNO, NSO, SON, SNO excited, NOS excited, SON excited in Cantherm with assistance from Table II in http://aip.scitation.org/doi/abs/10.1063/1.1806419
+"""
 
