@@ -1711,7 +1711,7 @@ Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 
 entry(
     index = 480,
-    label = "SsJ-Ss;C_methyl",
+    label = "SsJ-S2s;C_methyl",
     kinetics = ArrheniusEP(
         A = (3.94e+09, 'cm^3/(mol*s)'),
         n = 1.25,
@@ -1783,7 +1783,7 @@ u"""
 
 entry(
     index = 484,
-    label = "SsJ-Ss;C_rad/Cs3",
+    label = "SsJ-S2s;C_rad/Cs3",
     kinetics = ArrheniusEP(
         A = (3.94e+09, 'cm^3/(mol*s)'),
         n = 1.25,
@@ -2143,7 +2143,7 @@ Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 
 entry(
     index = 491,
-    label = "SsJ-Ss;C_methyl",
+    label = "SsJ-S2s;C_methyl",
     kinetics = ArrheniusEP(
         A = (6.44e+09, 'cm^3/(mol*s)'),
         n = 1.19,

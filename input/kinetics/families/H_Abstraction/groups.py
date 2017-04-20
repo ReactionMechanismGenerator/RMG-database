@@ -3481,8 +3481,8 @@ entry(
     label = "Y_2centeradjbirad",
     group = 
 """
-1 *3 [Ct,Os,Ss] u1 {2,[S,T]}
-2    [Ct,Os,Ss] u1 {1,[S,T]}
+1 *3 [Ct,Os,S2s] u1 {2,[S,T]}
+2    [Ct,Os,S2s] u1 {1,[S,T]}
 """,
     kinetics = None,
 )
