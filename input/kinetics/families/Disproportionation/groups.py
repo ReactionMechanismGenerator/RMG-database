@@ -1446,6 +1446,45 @@ entry(
 """,
     kinetics = None,
 )
+ 
+ entry(
+    index = 240,
+    label = "O_Srad",
+    group = 
+"""
+1 *2 O u0 {2,S} {3,S}
+2 *3 S u1 {1,S}
+3 *4 H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 241,
+    label = "O_SradOd",
+    group = 
+"""
+1 *2 O  u0 {2,S} {3,S}
+2 *3 S  u1 {1,S} {4,D}
+3 *4 H  u0 {1,S}
+4    Od u0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 242,
+    label = "O_SradOdOd",
+    group = 
+"""
+1 *2 O     u0 {2,S} {3,S}
+2 *3 S6dd  u1 {1,S} {4,D} {5,D}
+3 *4 H     u0 {1,S}
+4    Od    u0 {2,D}
+5    Od    u0 {2,D}
+""",
+    kinetics = None,
+)
 
 entry(
     index = 82,
@@ -2811,6 +2850,9 @@ L1: XH_Rrad_birad
                 L5: O_COrad
                 L5: O_Orad
                 L5: O_Nrad
+                L5: O_Srad
+                    L6: O_SradOd
+                        L7: O_SradOdOd
             L4: S_Rrad
                 L5: S_Csrad
                 L5: S_Cdrad
