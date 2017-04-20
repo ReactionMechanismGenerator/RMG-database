@@ -1016,7 +1016,7 @@ entry(
     label = "S",
     group = 
 """
-1 * [S,Ss,Sd,Sa] u0
+1 * [S,S2s,S2d,Sa] u0
 """,
     solute = SoluteData(
         S = 0.643,
@@ -1034,10 +1034,10 @@ u"""
 
 entry(
     index = 31,
-    label = "Ss",
+    label = "S2s",
     group = 
 """
-1 * Ss u0
+1 * S2s u0
 """,
     solute = SoluteData(
         S = 0.189,
@@ -1055,10 +1055,10 @@ u"""
 
 entry(
     index = 32,
-    label = "Ss-aromatic",
+    label = "S2s-aromatic",
     group = 
 """
-1 * Ss       u0 {2,S} {5,S}
+1 * S2s       u0 {2,S} {5,S}
 2   Cb       u0 {1,S} {3,B}
 3   [Cb,N3b] u0 {2,B} {4,B}
 4   [Cb,N3b] u0 {3,B} {5,B}
@@ -1080,10 +1080,10 @@ u"""
 
 entry(
     index = 33,
-    label = "Sd",
+    label = "S2d",
     group = 
 """
-1 * Sd u0
+1 * S2d u0
 """,
     solute = SoluteData(
         S = 0.618,
@@ -1104,9 +1104,9 @@ entry(
     label = "Sds",
     group = 
 """
-1 * Sd u0 p1 {2,S} {3,S}
-2   R  u0 {1,S}
-3   R  u0 {1,S}
+1 * S2d u0 p1 {2,S} {3,S}
+2   R   u0 {1,S}
+3   R   u0 {1,S}
 """,
     solute = SoluteData(
         S = 1.065,
@@ -1127,7 +1127,7 @@ u"""
 #     label = "SdsOsOdOd",
 #     group = 
 # """
-# 1 * Sd u0 {2,D} {3,D} {4,S} {5,S}
+# 1 * S2d u0 {2,D} {3,D} {4,S} {5,S}
 # 2   Od u0 {1,D}
 # 3   Od u0 {1,D}
 # 4   Os u0 {1,S}
@@ -1197,9 +1197,9 @@ L1: R
         L3: N3b
             L4: N3bpyr
     L2: S
-        L3: Ss
-            L4: Ss-aromatic
-        L3: Sd
+        L3: S2s
+            L4: S2s-aromatic
+        L3: S2d
             L4: Sds
 """
 )

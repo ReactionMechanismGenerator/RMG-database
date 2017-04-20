@@ -244,7 +244,7 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,S}
-2 [Cs,Os,Ss] u0 {1,S}
+2 [Cs,Os,S2s] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -268,7 +268,7 @@ entry(
 1 *3 R!H u1 {2,S} {4,S}
 2 *2 R!H u0 {1,S} {3,S}
 3 *4 H u0 {2,S}
-4 [Cs,Os,Ss] u0 {1,S}
+4 [Cs,Os,S2s] u0 {1,S}
 """,
     kinetics = None,
 )

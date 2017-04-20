@@ -52,7 +52,7 @@ entry(
     label = "int14_gauche",
     group = 
 """
-1 *1 [Cs,Os,Cd,Ss] u0 {2,S}
+1 *1 [Cs,Os,Cd,S2s] u0 {2,S}
 2 *2 Cs u0 {1,S}
 """,
     thermo = ThermoData(
@@ -811,7 +811,7 @@ entry(
     label = "SsCs",
     group = 
 """
-1 *1 Ss u0 {2,S}
+1 *1 S2s u0 {2,S}
 2 *2 Cs u0 {1,S}
 """,
     thermo = ThermoData(
@@ -828,10 +828,10 @@ u"""
 
 entry(
     index = 24,
-    label = "Ss(Cs(CsHH)H)",
+    label = "S2s(Cs(CsHH)H)",
     group = 
 """
-1 *1 Ss u0 {2,S} {3,S}
+1 *1 S2s u0 {2,S} {3,S}
 2 *2 Cs u0 {1,S} {4,S} {5,S} {6,S}
 3   H  u0 {1,S}
 4   H  u0 {2,S}
@@ -856,7 +856,7 @@ entry(
     group = 
 """
 1 *1 Cs u0 {2,S} {4,S} {5,S}
-2    [Cs,Os,Ss] u0 {1,S} {3,S}
+2    [Cs,Os,S2s] u0 {1,S} {3,S}
 3 *2 Cs u0 {2,S} {6,S} {7,S} {8,S}
 4    Cs u0 {1,S}
 5    Cs u0 {1,S}
@@ -1044,7 +1044,7 @@ entry(
     group = 
 """
 1 *1 Cs u0 {2,S} {4,S} {5,S}
-2    Ss u0 {1,S} {3,S}
+2    S2s u0 {1,S} {3,S}
 3 *2 Cs u0 {2,S} {6,S} {7,S} {8,S}
 4    Cs u0 {1,S}
 5    Cs u0 {1,S}
@@ -1070,7 +1070,7 @@ entry(
     group = 
 """
 1 *1 Cs u0 {2,S} {4,S} {5,S} {9,S}
-2    Ss u0 {1,S} {3,S}
+2    S2s u0 {1,S} {3,S}
 3 *2 Cs u0 {2,S} {6,S} {7,S} {8,S}
 4    Cs u0 {1,S}
 5    Cs u0 {1,S}
@@ -1097,7 +1097,7 @@ entry(
     group = 
 """
 1 *1 Cs u0 {2,S} {4,S} {5,S} {6,S}
-2    Ss u0 {1,S} {3,S}
+2    S2s u0 {1,S} {3,S}
 3 *2 Cs u0 {2,S} {7,S} {8,S} {9,S}
 4    Cs u0 {1,S}
 5    Cs u0 {1,S}
@@ -1153,7 +1153,7 @@ L1: R
                 L5: CdCs-ST
                 L5: CdCs-SQ
         L3: SsCs
-            L4: Ss(Cs(CsHH)H)
+            L4: S2s(Cs(CsHH)H)
     L2: int15
         L3: CsCsCs
             L4: CsCsCs-TQ
