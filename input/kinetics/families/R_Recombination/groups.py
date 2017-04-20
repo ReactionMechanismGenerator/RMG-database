@@ -156,6 +156,17 @@ entry(
 """,
     kinetics = None,
 )
+ 
+entry(
+    index = 14,
+    label = "S2_birad",
+    group = 
+"""
+1 * S u1 {2,S}
+2   S u1 {1,S}
+""",
+    kinetics = None,
+)
 
 entry(
     index = 100,
@@ -1516,6 +1527,7 @@ L1: Y_rad
                 L5: SsJ-C=S
             L4: SsJ-S2s
             L4: SsJ-Os
+    L2: S2_birad
     L2: Ct_rad
         L3: Ct_rad/Ct
         L3: Ct_rad/Nt
