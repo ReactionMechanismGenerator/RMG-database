@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Oa_R_Recombination/groups"
+name = "Birad_R_Recombination/groups"
 shortDesc = u""
 longDesc = u"""
-This reaction family is reserved for O_atom (triplet only). The forbidden groups
-at the bottom prevent it from reacting with other forms of O.
+This reaction family is reserved for recombination of O_atom, S_atom, N_R_birad (triplets only).
+The forbidden groups at the bottom prevent it from reacting with other forms of O, S, NH.
 """
 
-template(reactants=["Y_rad", "Oa"], products=["YO."], ownReverse=False)
+template(reactants=["Y_rad", "Birad"], products=["YOS."], ownReverse=False)
 
-reverse = "RO_Bond_Dissociation"
+reverse = "ROS_Bond_Dissociation"
 
 recipe(actions=[
     ['FORM_BOND', '*1', 1, '*2'],
@@ -30,10 +30,95 @@ entry(
 
 entry(
     index = 2,
+    label = "Birad",
+    group = 
+"""
+1 *2 R!H u2
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 50,
     label = "Oa",
     group = 
 """
-1 *2 O u2
+1 *2 O u2 p2
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 51,
+    label = "Sa",
+    group = 
+"""
+1 *2 S u2 p2
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 52,
+    label = "N_R_birad",
+    group = 
+"""
+1 *2 N u2 p1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 53,
+    label = "N_birad/H",
+    group = 
+"""
+1 *2 N u2 p1 {2,S}
+2    H u0 p0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 54,
+    label = "N_birad/C",
+    group = 
+"""
+1 *2 N u2 p1 {2,S}
+2    C ux    {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 55,
+    label = "N_birad/O",
+    group = 
+"""
+1 *2 N u2 p1 {2,S}
+2    O ux    {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 56,
+    label = "N_birad/N",
+    group = 
+"""
+1 *2 N u2 p1 {2,S}
+2    N ux    {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 57,
+    label = "N_birad/S",
+    group = 
+"""
+1 *2 N u2 p1 {2,S}
+2    S ux    {1,S}
 """,
     kinetics = None,
 )
@@ -673,7 +758,15 @@ L1: Y_rad
                 L5: C_rad/Cs
                 L5: C_rad/TDMustO
             L4: C_rad/ThreeDe
-L1: Oa
+L1: Birad
+    L2: Oa
+    L2: Sa
+    L2: N_R_birad
+        L3: N_birad/H
+        L3: N_birad/C
+        L3: N_birad/O
+        L3: N_birad/N
+        L3: N_birad/S
 """
 )
 
@@ -682,6 +775,20 @@ forbidden(
     group = 
 """
 1 *1 O u2 p1 {2,S}
+2    R u0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+ 
+forbidden(
+    label = "S2_1centeredBirad",
+    group = 
+"""
+1 *1 S u2 p1 {2,S}
 2    R u0 {1,S}
 """,
     shortDesc = u"""""",
@@ -704,12 +811,52 @@ u"""
 
 """,
 )
+ 
+forbidden(
+    label = "S2_birad",
+    group = 
+"""
+1 *1 S u1 p2 {2,S}
+2    S u1 p2 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
 
 forbidden(
     label = "O_atom_singlet",
     group = 
 """
 1 *1 O u0 p3
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "S_atom_singlet",
+    group = 
+"""
+1 *1 S u0 p3
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "N_R_singlet",
+    group = 
+"""
+1 *1 N u0 p2
 """,
     shortDesc = u"""""",
     longDesc = 
