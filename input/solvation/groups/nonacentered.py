@@ -647,30 +647,29 @@ u"""
 """,
 )
 
-#temporarily removed until multivalent Sulfur is implemented
-# entry(
-#     index = 26,
-#     label = "SdOdOdN",
-#     group = 
-# """
-# 1 * S2d u0 {2,D} {3,D} {4,S}
-# 2   Od u0 {1,D}
-# 3   Od u0 {1,D}
-# 4   N  u0 {1,S}
-# """,
-#     solute = SoluteData(
-#         S = -0.569,
-#         B = -0.446,
-#         E = -0.111,
-#         L = 0.0,
-#         A = 0.356,
-#     ),
-#     shortDesc = u"""Platts group 51 sulfonamide -S(O)(O)N- (and fragment 13 for A)""",
-#     longDesc = 
-# u"""
+entry(
+    index = 26,
+    label = "SdOdOdN",
+    group = 
+"""
+1 * S6dd u0 {2,D} {3,D} {4,S}
+2   Od   u0 {1,D}
+3   Od   u0 {1,D}
+4   N    u0 {1,S}
+""",
+    solute = SoluteData(
+        S = -0.569,
+        B = -0.446,
+        E = -0.111,
+        L = 0.0,
+        A = 0.356,
+    ),
+    shortDesc = u"""Platts group 51 sulfonamide -S(O)(O)N- (and fragment 13 for A)""",
+    longDesc = 
+u"""
 
-# """,
-# )
+""",
+)
 
 entry(
     index = 30,
@@ -897,6 +896,7 @@ L1: R
         L3: Cd(Od)NH-arom
     L2: N3sCd(Od)N3sH
     L2: CdsNdNsNs
+    L2: SdOdOdN
 """
 )
 
