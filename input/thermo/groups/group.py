@@ -44621,6 +44621,30 @@ entry(
     """,
 )
 
+entry(
+    index = 1932,
+    label = "Cds-(Cds-Os)CbH",
+    group =
+"""
+1 * Cd u0 {2,D} {3,S} {4,S}
+2   Cd u0 {1,D} {5,S}
+3   Cb u0 {1,S}
+4   H  u0 {1,S}
+5   Os u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.28, 6.83, 7.245, 7.264, 8.226, 9.901, 10.176],'cal/(mol*K)'),
+        H298 = (10.329,'kcal/mol'),
+        S298 = (2.958,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+Fitted to CBS-QB3 calculations for OC=Cc1ccccc1
+""",
+)
+
 tree(
 """
 L1: R
@@ -44829,6 +44853,7 @@ L1: R
                 L5: Cds-CdsCtH
                     L6: Cds-CdsH(CtN3t)
                 L5: Cds-CdsCbH
+                    L6: Cds-(Cds-Os)CbH
                 L5: Cds-CddCsH
                     L6: Cds-(Cdd-Od)CsH
                     L6: Cds-(Cdd-Sd)CsH
