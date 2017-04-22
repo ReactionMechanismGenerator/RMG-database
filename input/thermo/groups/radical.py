@@ -8352,6 +8352,29 @@ u"""
 """,
 )
 
+entry(
+    index = 137,
+    label = "OC=CJCb",
+    group =
+"""
+1 * Cd u1 {2,D} {3,S}
+2   C  u0 {1,D} {4,S}
+3   Cb u0 {1,S}
+4   Os u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.047, 0.607, 0.374, -0.3, -1.28, -1.972, -3.196],'cal/(mol*K)'),
+        H298 = (123.797,'kcal/mol'),
+        S298 = (2.661,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fit to CCSD(T)-F12/cc-pVDZ-F12//M06/vtz calculations""",
+    longDesc =
+u"""
+Fit to CCSD(T)-F12/cc-pVDZ-F12//M06/vtz calculations for OC=[C]c1ccccc1
+""",
+)
+
 tree(
 """
 L1: Radical
@@ -8613,6 +8636,7 @@ L1: Radical
                     L6: CCCJ=C=O
                         L7: CC(C)CJ=C=O
                         L7: C=C(C)CJ=C=O
+                    L6: OC=CJCb
                 L5: CdsJ-Ss
                 L5: C=CJO
             L4: CtJ
