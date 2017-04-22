@@ -41497,16 +41497,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([24.6,30.3,32.52,33.15,33.29,33.55,34.97],'J/(mol*K)','+|-',[4.18,4.18,4.18,4.18,4.18,4.18,4.18]),
-        H298 = (-188.1,'kJ/mol','+|-',3.56),
-        S298 = (106.3,'J/(mol*K)','+|-',4.87),
+        Cpdata = ([4.3,4.5,4.82,5.23,6.02,6.61,7.44],'cal/(mol*K)','+|-',[0.1,0.1,0.1,0.1,0.1,0.1,0.1]),
+        H298 = (-37.9,'kcal/mol','+|-',0.16),
+        S298 = (29.1,'cal/(mol*K)','+|-',0.1),
     ),
-    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    shortDesc = u"""O-CdH BENSON (Assigned O-CsH)""",
+    longDesc =
 u"""
-Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
-optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
-DOI: 10.1002/chem.201301381
+
 """,
 )
 
