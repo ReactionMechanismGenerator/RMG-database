@@ -17329,6 +17329,80 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 1076,
+    label = "Ct-CdCdCb_Ct-Cb_cyc6",
+    group =
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Cd u0 {1,S} {5,D}
+4    Cb u0 {2,S} {6,B}
+5    Cd u0 {3,D} {6,S}
+6    Cb u0 {5,S} {4,B}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1077,
+    label = "Ct-Cb_Ct-CdCdCb_cyc6",
+    group =
+"""
+1 *2 Ct u0 {2,T} {3,S}
+2 *1 Ct u0 {1,T} {4,S}
+3    Cd u0 {1,S} {5,D}
+4    Cb u0 {2,S} {6,B}
+5    Cd u0 {3,D} {6,S}
+6    Cb u0 {5,S} {4,B}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1078,
+    label = "Ca-Cb_Ca-Cb_cyc6",
+    group =
+"""
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cdd u0 {1,D} {4,D}
+3    Cd   u0 {1,D} {5,S}
+4    Cd   u0 {2,D} {6,S}
+5    Cb   u0 {6,B} {3,S}
+6    Cb   u0 {5,B} {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1079,
+    label = "Ct-Cd_Ct-Cd_cyc6",
+    group =
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Cd u0 {1,S} {5,D}
+4    Cd u0 {2,S} {6,D}
+5    Cd  u0 {3,D} {6,S}
+6    Cd  u0 {4,D} {5,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1080,
+    label = "Ct-Cb_Ct-CdCb_cyc5",
+    group =
+"""
+1 *1 Ct                       u0 {2,T} {4,S}
+2 *2 Ct                       u0 {1,T} {3,S}
+3    Cd                       u0 {2,S} {5,S}
+4    Cb                       u0 {1,S} {5,B}
+5    Cb                       u0 {3,S} {4,B}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: R_R
@@ -17476,6 +17550,7 @@ L1: R_R
                     L6: Ck_Cds-C=SC=S
         L3: Cdd_Cdd
             L4: Ca_Ca
+                L5: Ca-Cb_Ca-Cb_cyc6
             L4: Ck_Ck
             L4: Ca_Ck
             L4: Ck_Ca
@@ -18250,9 +18325,13 @@ L1: R_R
                 L5: Ct-Cd_Ct-Ct
                 L5: Ct-Ct_Ct-Cd
                 L5: Ct-Cd_Ct-Cd
+                    L6: Ct-Cd_Ct-Cd_cyc6
 		        L5: Ct-De_Ct-Cb
 		            L6: Ct-Cd_Ct-Cb
+		                L7: Ct-CdCdCb_Ct-Cb_cyc6
 		        L5: Ct-Cb_Ct-Cd
+		            L6: Ct-Cb_Ct-CdCdCb_cyc6
+		            L6: Ct-Cb_Ct-CdCb_cyc5
             L4: Ct-O_Ct
                 L5: Ct-O_Ct-Cb
         L3: Ct_Nt

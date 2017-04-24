@@ -4301,6 +4301,46 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 290,
+    label = "R4H_DSB_benzofulvenyl",
+    group =
+"""
+1  *5 Cb u0 {2,B} {3,S} {4,B}
+2  Cb u0 {1,B} {5,B} {6,S}
+3  *4 Cd u0 {1,S} {7,S} {10,D}
+4  *2 Cb u0 {1,B} {8,B} {11,S}
+5  Cb u0 {2,B} {9,B}
+6  Cd u0 {2,S} {7,D}
+7  Cd u0 {3,S} {6,D}
+8  Cb u0 {4,B} {9,B}
+9  Cb u0 {5,B} {8,B}
+10 *1 Cd u1 {3,D}
+11 *3 H u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 291,
+    label = "R3H_DS_benzofulvenyl",
+    group =
+"""
+1  Cb u0 {2,B} {3,S} {4,B}
+2  Cb u0 {1,B} {5,B} {6,S}
+3  *4 Cd u0 {1,S} {7,S} {10,D}
+4  Cb u0 {1,B} {8,B}
+5  Cb u0 {2,B} {9,B}
+6  Cd u0 {2,S} {7,D}
+7  *2 Cd u0 {3,S} {6,D} {11,S}
+8  Cb u0 {4,B} {9,B}
+9  Cb u0 {5,B} {8,B}
+10 *1 Cd u1 {3,D}
+11 *3 H u0 {7,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: RnH
@@ -4334,6 +4374,7 @@ L1: RnH
                 L5: R3H_SB
             L4: R3H_MS
                 L5: R3H_DS
+                    L6: R3H_DS_benzofulvenyl
                 L5: R3H_TS
                 L5: R3H_BS
             L4: R3H_BB
@@ -4365,6 +4406,7 @@ L1: RnH
                 L5: R4H_RSB
                     L6: R4H_SSB
                     L6: R4H_DSB
+                        L7: R4H_DSB_benzofulvenyl
                     L6: R4H_TSB
                     L6: R4H_BSB
             L4: R4H_SMS
