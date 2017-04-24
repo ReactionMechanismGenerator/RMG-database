@@ -2852,3 +2852,131 @@ Taken from entry: phenyl + ketene <=> i20
 """,
 )
 
+
+
+entry(
+    index = 186,
+    label = "C2H2 + C8H5 <=> C10H7",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (4.068e+06, 'cm^3/(mol*s)'),
+        n = 1.842,
+        Ea = (3.272, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H4C2H_C2H2_High_P""",
+    longDesc = 
+u"""
+Taken from entry: R1 + C2H2 <=> W1
+""",
+)
+
+entry(
+    index = 187,
+    label = "C10H6 + H <=> C10H7-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.775e+09, 'cm^3/(mol*s)'),
+        n = 1.414,
+        Ea = (6.896, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H4C2H_C2H2_High_P""",
+    longDesc = 
+u"""
+Taken from entry: P1 + H <=> W1
+""",
+)
+
+entry(
+    index = 188,
+    label = "C10H6-2 + H <=> C10H7-3",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (4.586e+11, 'cm^3/(mol*s)'),
+        n = 0.743,
+        Ea = (0.228, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H4C2H_C2H2_High_P""",
+    longDesc = 
+u"""
+Taken from entry: P2 + H <=> W2
+""",
+)
+
+entry(
+    index = 189,
+    label = "C10H6-3 + H <=> C10H7-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.409e+12, 'cm^3/(mol*s)'),
+        n = 0.597,
+        Ea = (0.436, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H4C2H_C2H2_High_P""",
+    longDesc = 
+u"""
+Taken from entry: P2 + H <=> W4
+""",
+)
+
+entry(
+    index = 190,
+    label = "C10H6-4 + H <=> C10H7-5",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5.179e+12, 'cm^3/(mol*s)'),
+        n = 0.61,
+        Ea = (0.09, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H4C2H_C2H2_High_P""",
+    longDesc = 
+u"""
+Taken from entry: P3 + H <=> W4
+""",
+)
+
+entry(
+    index = 191,
+    label = "C10H6-5 + H <=> C10H7-6",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (9.919e+13, 'cm^3/(mol*s)'),
+        n = 0.168,
+        Ea = (-0.002, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H4C2H_C2H2_High_P""",
+    longDesc = 
+u"""
+Taken from entry: P4 + H <=> W5
+""",
+)
+
+entry(
+    index = 192,
+    label = "C10H6-6 + H <=> C10H7-7",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (9.919e+13, 'cm^3/(mol*s)'),
+        n = 0.168,
+        Ea = (-0.002, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H4C2H_C2H2_High_P""",
+    longDesc = 
+u"""
+Taken from entry: P5 + H <=> W7
+""",
+)
+

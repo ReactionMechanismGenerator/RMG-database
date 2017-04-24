@@ -1764,3 +1764,18 @@ Taken from entry: A8 <=> A9
 """,
 )
 
+
+
+entry(
+    index = 87,
+    label = "C10H7 <=> C10H7-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(9.926e+10, 's^-1'), n=0.198, Ea=(5.455, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H4C2H_C2H2_High_P""",
+    longDesc = 
+u"""
+Taken from entry: W1 <=> W2
+""",
+)
+

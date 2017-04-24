@@ -1008,3 +1008,18 @@ Taken from entry: ic2 <=> i21
 """,
 )
 
+
+
+entry(
+    index = 75,
+    label = "C10H7 <=> C10H7-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.42e+11, 's^-1'), n=0.258, Ea=(3.797, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Mebel_C6H4C2H_C2H2_High_P""",
+    longDesc = 
+u"""
+Taken from entry: W1 <=> W3_6
+""",
+)
+
