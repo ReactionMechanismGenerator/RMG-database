@@ -896,3 +896,26 @@ For certain unsaturated versions of this strained tricyclic, RMG's Clar optimiza
 to crash.
 """,
 )
+
+entry(
+    label = "strained_tricyclic_2",
+    group =
+"""
+1  R!H ux {2,[S,D,T,B]} {10,[S,D,T,B]}
+2  R!H ux {1,[S,D,T,B]} {3,[S,D,T,B]}
+3  R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]} {8,[S,D,T,B]}
+4  R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5  R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]} {10,[S,D,T,B]}
+6  R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7  R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8  R!H ux {3,[S,D,T,B]} {7,[S,D,T,B]} {9,[S,D,T,B]}
+9  R!H ux {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 R!H ux {1,[S,D,T,B]} {5,[S,D,T,B]} {9,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Certain unsaturated versions of this strained tricyclic cause RMG
+to crash.
+""",
+)
