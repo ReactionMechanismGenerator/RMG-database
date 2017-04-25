@@ -72,3 +72,49 @@ L1: rad
     
 """
 )
+
+forbidden(
+    label = "Benzofulvenyl_1",
+    group =
+"""
+1  *1 C u1 {4,S}
+4  *4 Cs u0 {1,S} {5,S} {12,S}
+5  Cd u0 {4,S} {6,D}
+6  Cd u0 {5,D} {7,S}
+7  *3 Cb u0 {6,S} {8,B} {12,B}
+8  Cb u0 {7,B} {9,B}
+9  Cb u0 {8,B} {10,B}
+10 Cb u0 {9,B} {11,B}
+11 Cb u0 {10,B} {12,B}
+12 *2 Cb u0 {4,S} {7,B} {11,B}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a benzofulvenyl radical  from isomerizing to 1H_naphthalene in one step using this family. No transition state was
+found for such a reaction.
+""",
+)
+
+forbidden(
+    label = "Benzofulvenyl_2",
+    group =
+"""
+1  *1 C u1 {4,S}
+4  *4 Cs u0 {1,S} {5,S} {12,S}
+5  Cd u0 {4,S} {6,D}
+6  Cd u0 {5,D} {7,S}
+7  Cb u0 {6,S} {8,B} {12,B}
+8  Cb u0 {7,B} {9,B}
+9  Cb u0 {8,B} {10,B}
+10 Cb u0 {9,B} {11,B}
+11 *3 Cb u0 {10,B} {12,B}
+12 *2 Cb u0 {4,S} {7,B} {11,B}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a benzofulvenyl radical  from isomerizing to 1H_naphthalene in one step using this family. No transition state was
+found for such a reaction.
+""",
+)
