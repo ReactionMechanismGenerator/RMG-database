@@ -771,97 +771,69 @@ L1: Birad
 )
 
 forbidden(
-    label = "O2_1centeredBirad",
+    label = "O2_p1",
     group = 
 """
-1 *1 O u2 p1 {2,S}
-2    R u0 {1,S}
+1 *2 O u2 p1
 """,
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+This family is intended to handle
+[O] u2 p2,    or
+[S] u2 p2,    or
+[NH] u2 p1,
+instances with a different number of lone pairs are forbidden
 """,
 )
  
 forbidden(
-    label = "S2_1centeredBirad",
+    label = "S2_p1",
     group = 
 """
-1 *1 S u2 p1 {2,S}
-2    R u0 {1,S}
+1 *2 S u2 p1
 """,
     shortDesc = u"""""",
     longDesc = 
 u"""
-
-""",
-)
-
-forbidden(
-    label = "O2_birad",
-    group = 
-"""
-1 *1 O u1 p2 {2,S}
-2    O u1 p2 {1,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
+This family is intended to handle
+[O] u2 p2,    or
+[S] u2 p2,    or
+[NH] u2 p1,
+instances with a different number of lone pairs are forbidden
 """,
 )
  
 forbidden(
-    label = "S2_birad",
+    label = "S2_p0",
     group = 
 """
-1 *1 S u1 p2 {2,S}
-2    S u1 p2 {1,S}
+1 *2 S u2 p0
 """,
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+This family is intended to handle
+[O] u2 p2,    or
+[S] u2 p2,    or
+[NH] u2 p1,
+instances with a different number of lone pairs are forbidden
 """,
 )
 
 forbidden(
-    label = "O_atom_singlet",
+    label = "OS_chain",
     group = 
 """
-1 *1 O u0 p3
+1 *1 [O,S] u1 p2 {2,S}
+2    [O,S] u0 p2 {1,S} {3,S}
+3    [O,S] u0 p2 {2,S} {4,S}
+4    [O,S] u1 p2 {3,S}
 """,
     shortDesc = u"""""",
     longDesc = 
 u"""
-
-""",
-)
-
-forbidden(
-    label = "S_atom_singlet",
-    group = 
-"""
-1 *1 S u0 p3
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
-    label = "N_R_singlet",
-    group = 
-"""
-1 *1 N u0 p2
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
+Group added to forbid this family from forming S-O chains
 """,
 )
 
