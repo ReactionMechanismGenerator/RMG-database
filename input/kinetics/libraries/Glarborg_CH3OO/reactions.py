@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Glarborg/C1"
+name = "Glarborg_CH3OO"
 shortDesc = u""
 longDesc = u"""
 
