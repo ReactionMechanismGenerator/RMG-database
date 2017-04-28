@@ -38,7 +38,7 @@ MRH 30-Aug-2009
 
 entry(
     index = 2,
-    label = "C2H3 + O2 = C2H2_1 + HO2",
+    label = "C2H3 + O2 <=> C2H2_1 + HO2",
     kinetics = Arrhenius(
         A = (1.04E+16, 'cm^3/(mol*s)','*|/',5),
         n = -1.26,
