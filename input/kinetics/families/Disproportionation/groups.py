@@ -2789,7 +2789,6 @@ L1: Y_rad_birad_trirad_quadrad
                 L5: N3d_rad/C
                 L5: N3d_rad/O
                 L5: N3d_rad/N
-        L3: H_rad
 L1: XH_Rrad_birad
     L2: XH_Rrad
         L3: XH_s_Rrad
