@@ -9,24 +9,14 @@ http://web.stanford.edu/group/haiwanglab/FFCM1/pages/FFCM1.html
 
 FFCM-1
 H2/CO/C1 reaction model - Chemkin form - version v1.0c 
-Release date: 05/31/3016.
+Release date: 05/31/2016.
 
 G. P. Smith, Y. Tao, and H. Wang, Foundational Fuel Chemistry Model Version 1.0 (FFCM-1),
 http://nanoenergy.stanford.edu/ffcm1, 2016.
 
-Species that were not included:
-Excited OH, A2Sigma+:
-OH*               ATcT AO   1H   1    0    0G   200.000  6000.000 1000.        1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
- 2.75582920E+00 1.39848756E-03-4.19428493E-07 6.33453282E-11-3.56042218E-15    2! OH A 2Sigma+ (excited)
- 5.09751756E+04 5.62581429E+00 3.46084428E+00 5.01872172E-04-2.00254474E-06    3! CAS: 3352-57-6 (?)
- 3.18901984E-09-1.35451838E-12 5.07349466E+04 1.73976415E+00 5.17770741E+04    4! Uncertainty unknown => -1.0
-
-Excited CH, A2Delta:
-CH*               EG4/09C   1H   1    0    0G   200.000  6000.000 1000.        1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
- 2.78220752E+00 1.47246754E-03-4.63436227E-07 7.32736021E-11-4.19705404E-15    2! CH A2Delta  excited state only
- 1.04547060E+05 5.17421018E+00 3.47250101E+00 4.26443626E-04-1.95181794E-06    3! CAS: 3315-37-5
- 3.51755043E-09-1.60436174E-12 1.04334869E+05 1.44799533E+00 1.05378099E+05    4! Uncertainty unknown => -1.0
+Thermo data for excited species (CH*, OH*) is available from the FFCM1(excited) library
 """
+
 entry(
     index = 1,
     label = "Ar",

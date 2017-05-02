@@ -9,42 +9,12 @@ http://web.stanford.edu/group/haiwanglab/FFCM1/pages/FFCM1.html
 
 FFCM-1
 H2/CO/C1 reaction model - Chemkin form - version v1.0c 
-Release date: 05/31/3016.
+Release date: 05/31/2016.
 
 G. P. Smith, Y. Tao, and H. Wang, Foundational Fuel Chemistry Model Version 1.0 (FFCM-1),
 http://nanoenergy.stanford.edu/ffcm1, 2016.
 
-The following reactions involve excited CH and OH species, which currently cannot be represented in RMG.
-In order to compare RMG's predictions with experimental results of excited CH or OH,
-it is advised to append the following reactions to the final Chemkin file.
-Note that the model generation in RMG could have been somewhat different if these reactions were to integrated as a library.
-See https://github.com/ReactionMechanismGenerator/RMG-database/issues/174 for more info.
-
-CH+O2<=>CO+OH*                                     1.800E+11    0.000        0.00
-C2H+O<=>CO+CH*                                     2.500E+12    0.000        0.00
-C2H+O2<=>CO2+CH*                                   3.200E+11    0.000     1600.00
-H+O+M=>OH*+M                                       5.450E+12    0.000        0.00
-2OH+H=>OH*+H2O                                     1.450E+15    0.000        0.00
-CH*=>CH                                            1.850E+06    0.000        0.00
-CH*+N2<=>CH+N2                                     3.030E+02    3.400     -381.00
-CH*+O2<=>CH+O2                                     2.400E+06    2.140    -1720.00
-CH*+H2O<=>CH+H2O                                   5.300E+13    0.000        0.00
-CH*+H2<=>CH+H2                                     1.470E+14    0.000     1361.00
-CH*+CO2<=>CH+CO2                                   2.410E-01    4.300    -1694.00
-CH*+CO<=>CH+CO                                     2.440E+12    0.500        0.00
-CH*+CH4<=>CH+CH4                                   1.730E+13    0.000      167.00
-CH*+Ar<=>CH+Ar                                     1.250E+10    0.500        0.00
-CH*+He<=>CH+He                                     1.950E+09    0.500        0.00
-OH*=>OH                                            1.450E+06    0.000        0.00
-OH*+N2<=>OH+N2                                     1.080E+11    0.500    -1238.00
-OH*+O2<=>OH+O2                                     2.100E+12    0.500     -482.00
-OH*+H2O<=>OH+H2O                                   5.920E+12    0.500     -861.00
-OH*+H2<=>OH+H2                                     2.950E+12    0.500     -444.00
-OH*+CO2<=>OH+CO2                                   2.750E+12    0.500     -968.00
-OH*+CO<=>OH+CO                                     3.230E+12    0.500     -787.00
-OH*+CH4<=>OH+CH4                                   3.360E+12    0.500     -635.00
-OH*+Ar<=>OH+Ar                                     1.250E+10    0.500        0.00
-OH*+He<=>OH+He                                     1.950E+09    0.500        0.00
+The reactions involving excited species (CH*, OH*) are available from the FFCM1(excited) library
 """
 
 entry(
