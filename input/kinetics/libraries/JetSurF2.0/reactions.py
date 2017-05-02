@@ -13176,24 +13176,6 @@ u"""
 """,
 )
 
-# RMG does not accept a reaction with more than 3 products\reactants
-#entry(
-#    index = 718,
-#    label = "C6H4O2 + O <=> CO + CO + C2H2 + CH2CO",
-#    degeneracy = 1,
-#    kinetics = Arrhenius(
-#        A = (3e+13, 'cm^3/(mol*s)'),
-#        n = 0,
-#        Ea = (5000, 'cal/mol'),
-#        T0 = (1, 'K'),
-#        comment = 'est. HW k = kinf[C6H6 + H]',
-#    ),
-#    longDesc = 
-#u"""
-#est. HW k = kinf[C6H6 + H]
-#""",
-#)
-
 entry(
     index = 719,
     label = "C6H5O + H <=> C5H5 + HCO",
@@ -26838,12 +26820,4 @@ u"""
 BS
 """,
 )
-
-# RMG does not accept a reaction with more than 3 products\reactants
-#entry(
-#    index = 1440,
-#    label = "OC12OOH <=> CH2O + C2H4 + C2H4 + C2H4 + C2H4 + C2H5 + OH + CO",
-#    degeneracy = 1,
-#    kinetics = Arrhenius(A=(7e+14, 's^-1'), n=0, Ea=(42065, 'cal/mol'), T0=(1, 'K')),
-#)
 

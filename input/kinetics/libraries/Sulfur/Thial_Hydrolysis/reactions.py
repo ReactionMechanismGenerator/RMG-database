@@ -7,20 +7,7 @@ longDesc = u"""
 calculated rate constants (by Caleb?) for the pathway
 from thioformaldehyde and thioacetaldehyde to COS and then CO2.
 """
-#entry(
-#    index = 1,
-#    label = "CH2S + H2O <=> CH2OHSH",
-#    degeneracy = 1,
-#    kinetics = Arrhenius(A=(960, 'cm^3/(mol*s)'), n=2.43, Ea=(28.13, 'kcal/mol'), T0=(1, 'K')),
-#)
-#
-#entry(
-#    index = 2,
-#    label = "CH3CHS + H2O <=> CHCH3OHSH",
-#    degeneracy = 1,
-#    kinetics = Arrhenius(A=(15.4, 'cm^3/(mol*s)'), n=2.78, Ea=(27.8, 'kcal/mol'), T0=(1, 'K')),
-#)
-#
+
 entry(
     index = 1,
     label = "CH2OHSJ <=> CHOHS + HJ",

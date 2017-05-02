@@ -65,22 +65,6 @@ entry(
 	""",
 )
 
-#entry(
-#    index = 5,
-#    label = "H + HSS <=> SH + SH",
-#    degeneracy = 1,
-#    kinetics = Arrhenius(
-#        A = (1.1e+13, 'cm^3/(mol*s)'),
-#        n = 0.353,
-#        Ea = (0.21, 'kcal/mol'),
-#        T0 = (1, 'K'),
-#    ),
-#    longDesc = 
-#	u"""
-#	Using unadjusted singlet surface calculation for this one (see paper)
-#	""",
-#)
-
 entry(
     index = 6,
     label = "SH + HSS <=> H2S + S2",

@@ -1121,31 +1121,6 @@ u"""
 
 """,
 )
-#remove until we have hypervalent sulfur
-# entry(
-#     index = 35,
-#     label = "SdsOsOdOd",
-#     group = 
-# """
-# 1 * Sd u0 {2,D} {3,D} {4,S} {5,S}
-# 2   Od u0 {1,D}
-# 3   Od u0 {1,D}
-# 4   Os u0 {1,S}
-# 5   R  u0 {1,S}
-# """,
-#     solute = SoluteData(
-#         S = -0.505,
-#         B = -0.188,
-#         E = 0.0,
-#         L = 0.0,
-#         A = 0.0,
-#     ),
-#     shortDesc = u"""Platts fragment 35 sulfonate""",
-#     longDesc = 
-# u"""
-
-# """,
-# )
 
 tree(
 """
