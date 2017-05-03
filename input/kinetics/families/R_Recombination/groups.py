@@ -1241,6 +1241,18 @@ entry(
 )
 
 entry(
+    index = 108,
+    label = "NH2_rad",
+    group = 
+"""
+1 * N3s u1 {2,S} {3,S}
+2   H   u0 {1,S}
+3   H   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 107,
     label = "N3s_pri_rad",
     group = 
@@ -1253,18 +1265,6 @@ entry(
 )
 
 entry(
-    index = 108,
-    label = "NH2_rad",
-    group = 
-"""
-1 * N3s u1 {2,S} {3,S}
-2   H   u0 {1,S}
-3   H   u0 {1,S}
-""",
-    kinetics = None,
-)
-        
-entry(
     index = 109,
     label = "N3s-Cs",
     group = 
@@ -1275,7 +1275,7 @@ entry(
 """,
     kinetics = None,
 )
-        
+
 entry(
     index = 110,
     label = "N3s-Os",
@@ -1287,7 +1287,7 @@ entry(
 """,
     kinetics = None,
 )
-        
+
 entry(
     index = 111,
     label = "N3s-N3s",
@@ -1429,18 +1429,6 @@ entry(
 )
 
 entry(
-    index = 130,
-    label = "N5d-OdOs",
-    group = 
-"""
-1 * N5d u1 p0 c+1 {2,D} {3,S}
-2   Od  u0 {1,D}
-3   Os  u0 p3 c-1 (1,S)
-""",
-    kinetics = None,
-)
-
-entry(
     index = 124,
     label = "N3d-N3d",
     group = 
@@ -1477,6 +1465,18 @@ entry(
     group = 
 """
 1 * N5d u1 p0
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 130,
+    label = "N5d-OdOs",
+    group = 
+"""
+1 * N5d u1 p0 c+1 {2,D} {3,S}
+2   Od  u0 {1,D}
+3   Os  u0 p3 c-1 {1,S}
 """,
     kinetics = None,
 )

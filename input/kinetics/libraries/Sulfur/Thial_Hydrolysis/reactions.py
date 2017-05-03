@@ -7,7 +7,6 @@ longDesc = u"""
 calculated rate constants (by Caleb?) for the pathway
 from thioformaldehyde and thioacetaldehyde to COS and then CO2.
 """
-
 entry(
     index = 1,
     label = "CH2OHSJ <=> CHOHS + HJ",
@@ -92,7 +91,7 @@ entry(
     label = "CO + H2O <=> CO2 + H2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5000, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
-	longDesc = 
+    longDesc = 
 u"""
 Approximate water-gas shift reaction
 """,

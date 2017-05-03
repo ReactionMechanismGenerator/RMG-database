@@ -33,7 +33,7 @@ entry(
         eps = 80.4,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -66,7 +66,7 @@ entry(
         eps = 10.3,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 alpha = 0.328, #primary alcohols
 beta = 0.45, #primary alcohols,
@@ -100,7 +100,7 @@ entry(
         eps = 2.3,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -133,7 +133,7 @@ entry(
         eps = 2.0,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -166,7 +166,7 @@ entry(
         eps = 3.1,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -199,7 +199,7 @@ entry(
         eps = 2.0,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -232,7 +232,7 @@ entry(
         eps = 17.8,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -265,7 +265,7 @@ entry(
         eps = 2.23,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 beta = 0.05, # Note 24 in Snelgrove et al. 2001
 """,
@@ -298,7 +298,7 @@ entry(
         eps = 4.8,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -331,7 +331,7 @@ entry(
         eps = 2.0,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -364,7 +364,7 @@ entry(
         eps = 10.7,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -373,7 +373,7 @@ u"""
 entry(
     index = 12,
     label = "dimethylformamide",
-    molecule = "N(C)(C)C=O",
+    molecule = "CN(C)C=O",
     solvent = SolventData(
         s_g = 2.315,
         b_g = 0,
@@ -397,7 +397,7 @@ entry(
         eps = 36.7,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -430,7 +430,7 @@ entry(
         eps = 46.7,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 Molecule Search on RMG website cannot draw molecule and says "Invalid adjacency list" although it can give the
 adjacency list with the solvent name or its correct SMILES representation
@@ -464,7 +464,7 @@ entry(
         eps = 2.0,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -497,7 +497,7 @@ entry(
         eps = 24.3,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -530,7 +530,7 @@ entry(
         eps = 1.9,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -563,7 +563,7 @@ entry(
         eps = 2.08,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -596,7 +596,7 @@ entry(
         eps = 2.0,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -629,7 +629,7 @@ entry(
         eps = 1.94,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -662,7 +662,7 @@ entry(
         eps = 2.0,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -695,7 +695,7 @@ entry(
         eps = 1.8,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -728,7 +728,7 @@ entry(
         eps = 2.2,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 eps = 2.2 # aerage of range 2.0-2.4
 """,
@@ -761,7 +761,7 @@ entry(
         eps = 2.0,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -794,7 +794,7 @@ entry(
         eps = 37.5,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -827,7 +827,7 @@ entry(
         eps = 6.0,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,

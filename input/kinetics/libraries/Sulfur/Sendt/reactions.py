@@ -53,16 +53,11 @@ entry(
     index = 5,
     label = "H + HSS <=> SH + SH",
     degeneracy = 1,
-    kinetics = Arrhenius(
-		A=(3e+14, 'cm^3/(mol*s)'),
-		n=0,
-		Ea=(0, 'kcal/mol'),
-		T0=(1, 'K')
-	),
+    kinetics = Arrhenius(A=(3e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
     longDesc = 
-	u"""
-	Using adjusted singlet surface calculation for this one (see paper)
-	""",
+u"""
+Using adjusted singlet surface calculation for this one (see paper)
+""",
 )
 
 entry(

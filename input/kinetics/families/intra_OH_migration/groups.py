@@ -249,22 +249,22 @@ entry(
 )
 
 entry(
+    index = 18,
+    label = "Cd_rad_out",
+    group = 
+"""
+1 *1 [Cd,Cdd] u1
+""",
+    kinetics = None,
+)
+
+entry(
     index = 17,
     label = "Cd_rad_out_double",
     group = 
 """
 1 *1 [Cd,Cdd] u1 {2,D}
 2    Cd       u0 {1,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 18,
-    label = "Cd_rad_out",
-    group = 
-"""
-1 *1 [Cd,Cdd] u1
 """,
     kinetics = None,
 )
@@ -310,66 +310,6 @@ entry(
 1 *1 C u1 {2,S} {3,S}
 2    R u0 {1,S}
 3    R u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 23,
-    label = "C_rad_out_2H",
-    group = 
-"""
-1 *1 C u1 {2,S} {3,S}
-2    H u0 {1,S}
-3    H u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 24,
-    label = "C_rad_out_1H",
-    group = 
-"""
-1 *1 C   u1 {2,S} {3,S}
-2    H   u0 {1,S}
-3    R!H u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 25,
-    label = "C_rad_out_H/NonDeC",
-    group = 
-"""
-1 *1 C  u1 {2,S} {3,S}
-2    H  u0 {1,S}
-3    Cs u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 26,
-    label = "C_rad_out_H/NonDeO",
-    group = 
-"""
-1 *1 C u1 {2,S} {3,S}
-2    H u0 {1,S}
-3    O u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 27,
-    label = "C_rad_out_H/OneDe",
-    group = 
-"""
-1 *1 C             u1 {2,S} {3,S}
-2    H             u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -466,6 +406,66 @@ entry(
 1 *1 C             u1 {2,S} {3,S}
 2    [Cd,Ct,Cb,CO] u0 {1,S}
 3    [Cd,Ct,Cb,CO] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 24,
+    label = "C_rad_out_1H",
+    group = 
+"""
+1 *1 C   u1 {2,S} {3,S}
+2    H   u0 {1,S}
+3    R!H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 25,
+    label = "C_rad_out_H/NonDeC",
+    group = 
+"""
+1 *1 C  u1 {2,S} {3,S}
+2    H  u0 {1,S}
+3    Cs u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 26,
+    label = "C_rad_out_H/NonDeO",
+    group = 
+"""
+1 *1 C u1 {2,S} {3,S}
+2    H u0 {1,S}
+3    O u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 27,
+    label = "C_rad_out_H/OneDe",
+    group = 
+"""
+1 *1 C             u1 {2,S} {3,S}
+2    H             u0 {1,S}
+3    [Cd,Ct,Cb,CO] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 23,
+    label = "C_rad_out_2H",
+    group = 
+"""
+1 *1 C u1 {2,S} {3,S}
+2    H u0 {1,S}
+3    H u0 {1,S}
 """,
     kinetics = None,
 )

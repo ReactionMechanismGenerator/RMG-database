@@ -58,6 +58,30 @@ u"""
 )
 
 entry(
+    index = 37,
+    label = "Cbf-noH",
+    group = 
+"""
+1 * Cbf u0 {2,B} {3,B} {4,B}
+2   R!H u0 {1,B}
+3   R!H u0 {1,B}
+4   R!H u0 {1,B}
+""",
+    solute = SoluteData(
+        S = 0.101,
+        B = 0,
+        E = 0.18,
+        L = 0.624,
+        A = 0,
+    ),
+    shortDesc = u"""same as Platts group 7""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = -1,
     label = "Css",
     group = 
@@ -332,31 +356,6 @@ entry(
 """,
     solute = None,
     shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-
-entry(
-    index = 37,
-    label = "Cbf-noH",
-    group = 
-"""
-1 * Cbf u0 {2,B} {3,B} {4,B}
-2   R!H u0 {1,B}
-3   R!H  u0 {1,B}
-4   R!H  u0 {1,B}
-""",
-    solute = SoluteData(
-        S = 0.101,
-        B = 0,
-        E = 0.18,
-        L = 0.624,
-        A = 0,
-    ),
-    shortDesc = u"""same as Platts group 7""",
     longDesc = 
 u"""
 

@@ -76,10 +76,9 @@ entry(
         Ea = (6.589, 'kcal/mol', '+|-', 0.024),
         T0 = (1, 'K'),
     ),
-    reference = None,
     referenceType = "theory",
     shortDesc = u"""nyee TST calculations at CBS-QB3 level with hindered rotors level""",
-    longDesc =
+    longDesc = 
 u"""
 Quantum chemistry calculations at the CBS-QB3 level with hindered rotors
 using Gaussian 03. High-pressure-limit rate coefficient computed
@@ -88,14 +87,13 @@ same initial geometry. It was forced to go back by editing the scan log.
 """,
 )
 
-
 entry(
     index = 4,
     label = "allyl + ethene <=> pent1en5yl",
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (2.70E+03, 'cm^3/(mol*s)', '*|/', 2),
-        n = 2.700,
+        A = (2700, 'cm^3/(mol*s)', '*|/', 2),
+        n = 2.7,
         Ea = (11.3, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
@@ -122,9 +120,9 @@ entry(
     label = "allyl + propene_1 <=> hex1en5yl",
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (1.56E+03, 'cm^3/(mol*s)', '*|/', 2),
-        n = 2.530,
-        Ea = (11.0, 'kcal/mol', '+|-', 1),
+        A = (1560, 'cm^3/(mol*s)', '*|/', 2),
+        n = 2.53,
+        Ea = (11, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
@@ -150,8 +148,8 @@ entry(
     label = "allyl + propene_2 <=> methylpentenyl",
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (1.37E+02, 'cm^3/(mol*s)', '*|/', 2),
-        n = 2.840,
+        A = (137, 'cm^3/(mol*s)', '*|/', 2),
+        n = 2.84,
         Ea = (12.2, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
@@ -178,8 +176,8 @@ entry(
     label = "allyl + butene1_1 <=> hept1en5yl",
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (1.31E+03, 'cm^3/(mol*s)', '*|/', 2),
-        n = 2.620,
+        A = (1310, 'cm^3/(mol*s)', '*|/', 2),
+        n = 2.62,
         Ea = (10.9, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
@@ -206,8 +204,8 @@ entry(
     label = "allyl + butene1_2 <=> C7H13",
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (1.22E+01, 'cm^3/(mol*s)', '*|/', 2),
-        n = 3.060,
+        A = (12.2, 'cm^3/(mol*s)', '*|/', 2),
+        n = 3.06,
         Ea = (11.7, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
@@ -234,8 +232,8 @@ entry(
     label = "allyl + butene2 <=> C7H13_2",
     degeneracy = 8,
     kinetics = Arrhenius(
-        A = (9.53E+02, 'cm^3/(mol*s)', '*|/', 2),
-        n = 2.700,
+        A = (953, 'cm^3/(mol*s)', '*|/', 2),
+        n = 2.7,
         Ea = (11.2, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
@@ -542,8 +540,6 @@ Taken from entry: FA + H <=> vinylCPDyl
 """,
 )
 
-
-
 entry(
     index = 30,
     label = "C3H4 + allyl <=> C6H9",
@@ -819,8 +815,6 @@ Taken from entry: C3H3 + C3H4a <=> prod_29
 """,
 )
 
-
-
 entry(
     index = 50,
     label = "C5H6 + C5H5 <=> C10H11",
@@ -1043,8 +1037,6 @@ Taken from entry: pdt38 + H <=> pdt37
 """,
 )
 
-
-
 entry(
     index = 64,
     label = "C6H6 + H <=> C6H7-4",
@@ -1124,8 +1116,6 @@ u"""
 Taken from entry: cyC6H7 <=> benzene + H
 """,
 )
-
-
 
 entry(
     index = 69,
@@ -1211,7 +1201,7 @@ entry(
     index = 74,
     label = "ethene + NH2 <=> CH2CH2NH2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.228e+03, 's^-1'), n=2.756, Ea=(1658, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(1228, 's^-1'), n=2.756, Ea=(1658, 'cal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""CBS-QB3""",
     longDesc = 

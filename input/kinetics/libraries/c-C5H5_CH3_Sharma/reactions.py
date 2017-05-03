@@ -13,7 +13,7 @@ J. Phys. Chem. A 2009, 113, 8871-8882
 
 Rates from Table 8 and Table 9 are fitted in Chebyshev form
 Duplicated rates (backward rate if there is the forward rate) are deleted after we checked the backward rates are similar to those rates calculated from thermo by using plot kinetics tool in RMG website
-The adduct C5H5CH3 in the dictionary is same as C5H5CH3-5 in the paper, because the paper mentioned either C5H5CH3-5, C5H5CH3-2, or C5H5CH3-3 would give similar computational results 
+The adduct C5H5CH3 in the dictionary is same as C5H5CH3-5 in the paper, because the paper mentioned either C5H5CH3-5, C5H5CH3-2, or C5H5CH3-3 would give similar computational results
 """
 entry(
     index = 1,

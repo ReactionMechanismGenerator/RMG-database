@@ -10,7 +10,6 @@ Simone Fascella, Carlo Cavallotti,* Renato Rota,* and Sergio Carra`
 Politecnico di Milano, Dipartimento di Chimica, Materiali e Ingegneria Chimica G. Natta / CIIRCO
 J. Phys. Chem. A 2005, 109, 7546-7557
 a Kinetic parameters are reported in units consistent with kcal, s, mol, and cm.
-
 """
 entry(
     index = 1,

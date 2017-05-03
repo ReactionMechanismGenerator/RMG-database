@@ -39,7 +39,6 @@ OH* +O = OH+O                 1.50E+12  0.5      0.
 OH* +CH4 = OH+CH4             3.36E+12  0.5   -635.
 OH* = OH                      1.40E+6   0.0      0.
 """
-
 entry(
     index = 1,
     label = "H + O2 <=> O + OH",

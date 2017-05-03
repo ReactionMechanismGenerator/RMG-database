@@ -73,7 +73,8 @@ u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Helium
 CAS: 7440-59-7
-Reference element""",
+Reference element
+""",
 )
 
 entry(
@@ -927,11 +928,11 @@ entry(
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
+2 C u0 p0 c0 {1,S} {5,D} {6,S}
 3 H u0 p0 c0 {1,S}
-4 C u0 p0 c0 {1,S} {5,D} {6,S}
-5 O u0 p2 c0 {4,D}
-6 H u0 p0 c0 {4,S}
+4 H u0 p0 c0 {1,S}
+5 O u0 p2 c0 {2,D}
+6 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1368,11 +1369,11 @@ entry(
     label = "C2H3OH",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {4,S} {5,S}
-2 C u0 p0 c0 {1,D} {3,S} {6,S}
-3 O u0 p2 c0 {2,S} {7,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
 4 H u0 p0 c0 {1,S}
-5 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {2,S}
 6 H u0 p0 c0 {2,S}
 7 H u0 p0 c0 {3,S}
 """,
@@ -1430,10 +1431,10 @@ entry(
     label = "HCCOH",
     molecule = 
 """
-1 C u0 p0 c0 {2,T} {4,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 O u0 p2 c0 {2,S} {5,S}
-4 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,T} {3,S}
+2 C u0 p0 c0 {1,T} {4,S}
+3 O u0 p2 c0 {1,S} {5,S}
+4 H u0 p0 c0 {2,S}
 5 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(

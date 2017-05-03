@@ -3131,9 +3131,42 @@ entry(
     label = "O-RRrad",
     group = 
 """
-1 *1 Os u0 {2,S} {3,S}
-2 *2 R!H  u1 {1,S}
-3    R  u0 {1,S}
+1 *1 Os  u0 {2,S} {3,S}
+2 *2 R!H u1 {1,S}
+3    R   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 330,
+    label = "Y_2centeradjbirad",
+    group = 
+"""
+1 *3 [Os,Ct] u1 {2,[S,T]}
+2    [Os,Ct] u1 {1,[S,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 331,
+    label = "O2b",
+    group = 
+"""
+1 *3 Os u1 {2,S}
+2    Os u1 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 332,
+    label = "C2b",
+    group = 
+"""
+1 *3 Ct u1 {2,T}
+2    Ct u1 {1,T}
 """,
     kinetics = None,
 )
@@ -4099,39 +4132,6 @@ entry(
 2    [Cd,Ct,Cb,CO] u0 {1,S}
 3    [Cd,Ct,Cb,CO] u0 {1,S}
 4    [Cd,Ct,Cb,CO] u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 330,
-    label = "Y_2centeradjbirad",
-    group = 
-"""
-1 *3 [Os,Ct] u1 {2,[S,T]}
-2    [Os,Ct] u1 {1,[S,T]}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 331,
-    label = "O2b",
-    group = 
-"""
-1 *3 Os u1 {2,S}
-2    Os u1 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 332,
-    label = "C2b",
-    group = 
-"""
-1 *3 Ct u1 {2,T}
-2    Ct u1 {1,T}
 """,
     kinetics = None,
 )

@@ -7,8 +7,6 @@ longDesc = u"""
 Put kinetic parameters for reactions to use as a training set for fitting
 group additivity values in this file.
 """
-
-
 entry(
     index = 1,
     label = "C7H9 <=> C7H9-2",
@@ -34,8 +32,6 @@ u"""
 Taken from entry: product21 <=> product22
 """,
 )
-
-
 
 entry(
     index = 3,

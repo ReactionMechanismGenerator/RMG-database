@@ -7,8 +7,6 @@ longDesc = u"""
 Put kinetic parameters for reactions to use as a training set for fitting
 group additivity values in this file.
 """
-
-
 entry(
     index = 1,
     label = "C7H9 <=> C7H9-2",
@@ -47,8 +45,6 @@ u"""
 Taken from entry: product22 <=> product25
 """,
 )
-
-
 
 entry(
     index = 4,
@@ -198,7 +194,7 @@ entry(
     label = "C_CCCJ <=> cyclobutyl",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (6.60e+07, 's^-1'),
+        A = (6.6e+07, 's^-1'),
         n = 1.08,
         Ea = (30.4, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
@@ -211,8 +207,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -240,8 +236,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -256,7 +252,7 @@ entry(
     label = "C_CCCJCC <=> 3-ethylcyclobutyl",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.00e+07, 's^-1'),
+        A = (1e+07, 's^-1'),
         n = 1.34,
         Ea = (29.4, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
@@ -269,8 +265,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -298,8 +294,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -327,8 +323,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -345,7 +341,7 @@ entry(
     kinetics = Arrhenius(
         A = (3.82e+08, 's^-1'),
         n = 0.91,
-        Ea = (30.0, 'kcal/mol', '+|-', 1),
+        Ea = (30, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
     ),
     reference = Article(
@@ -356,8 +352,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -385,8 +381,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -414,8 +410,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -443,8 +439,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -472,8 +468,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -501,8 +497,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -530,8 +526,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -559,8 +555,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -588,8 +584,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -617,8 +613,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -646,8 +642,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -663,7 +659,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.23e+07, 's^-1'),
-        n = 1.00,
+        n = 1,
         Ea = (13.5, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
     ),
@@ -675,8 +671,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -704,8 +700,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -720,7 +716,7 @@ entry(
     label = "C_CC(C)(C)CCJ <=> 2,2-dimethylcyclopentyl",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.60e+08, 's^-1'),
+        A = (1.6e+08, 's^-1'),
         n = 0.76,
         Ea = (13.4, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
@@ -733,8 +729,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -749,7 +745,7 @@ entry(
     label = "CC(C)_CCCCJ <=> 2,2-dimethylcyclopentyl",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (4.90e+06, 's^-1'),
+        A = (4.9e+06, 's^-1'),
         n = 1.13,
         Ea = (15.6, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
@@ -762,8 +758,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -791,8 +787,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -807,7 +803,7 @@ entry(
     label = "C_CCCCCJC <=> 3-methylcyclohexyl",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (4.87e+05, 's^-1'),
+        A = (487000, 's^-1'),
         n = 1.17,
         Ea = (6.3, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
@@ -820,8 +816,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -836,7 +832,7 @@ entry(
     label = "C_CCCCCJ(C)C <=> 3,3-dimethylcyclohexyl",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (3.30e+04, 's^-1'),
+        A = (33000, 's^-1'),
         n = 1.42,
         Ea = (4.7, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
@@ -849,8 +845,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -878,8 +874,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -907,8 +903,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -936,8 +932,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -965,8 +961,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -994,8 +990,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -1023,8 +1019,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -1039,8 +1035,8 @@ entry(
     label = "C_CCC(C)(C)CCJ <=> 3,3-dimethylcyclohexyl",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (3.50e+07, 's^-1'),
-        n = 0.70,
+        A = (3.5e+07, 's^-1'),
+        n = 0.7,
         Ea = (6.3, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
     ),
@@ -1052,8 +1048,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -1081,8 +1077,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -1097,8 +1093,8 @@ entry(
     label = "CC(C)_CCCCCJ <=> 2,2-dimethylcyclohexyl",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (3.44e+05, 's^-1'),
-        n = 1.10,
+        A = (344000, 's^-1'),
+        n = 1.1,
         Ea = (7.7, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
     ),
@@ -1110,8 +1106,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -1126,8 +1122,8 @@ entry(
     label = "C_CCCCCCJ <=> cycloheptyl",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.14e+05, 's^-1'),
-        n = 1.20,
+        A = (114000, 's^-1'),
+        n = 1.2,
         Ea = (6.5, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
     ),
@@ -1139,8 +1135,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -1155,7 +1151,7 @@ entry(
     label = "C_CCCCCCJC <=> 3-methylcycloheptyl",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.11e+04, 's^-1'),
+        A = (21100, 's^-1'),
         n = 1.34,
         Ea = (6.4, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
@@ -1168,8 +1164,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -1183,12 +1179,7 @@ entry(
     index = 49,
     label = "C_CCCCCCJ(C)C <=> 3,3-dimethylcycloheptyl",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (5.54e+02, 's^-1'),
-        n = 1.66,
-        Ea = (4.9, 'kcal/mol', '+|-', 1),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(554, 's^-1'), n=1.66, Ea=(4.9, 'kcal/mol', '+|-', 1), T0=(1, 'K')),
     reference = Article(
         authors = ["K. Wang", "S. Villano", "A. Dean"],
         title = u'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
@@ -1197,8 +1188,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -1213,7 +1204,7 @@ entry(
     label = "CC_CCCCCCJ <=> 2-methylcycloheptyl",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.10e+05, 's^-1'),
+        A = (110000, 's^-1'),
         n = 1.18,
         Ea = (6.5, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
@@ -1226,8 +1217,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -1242,7 +1233,7 @@ entry(
     label = "C_C(C)CCCCCJ <=> 1-methylcycloheptyl",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.85e+05, 's^-1'),
+        A = (185000, 's^-1'),
         n = 1.07,
         Ea = (6.4, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
@@ -1255,8 +1246,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""
@@ -1271,7 +1262,7 @@ entry(
     label = "CC(C)_CCCCCCJ <=> 2,2-dimethylcycloheptyl",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.22e+04, 's^-1'),
+        A = (12200, 's^-1'),
         n = 1.36,
         Ea = (8.5, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
@@ -1284,8 +1275,8 @@ entry(
         pages = """7205-7221""",
         year = "2015",
     ),
-	rank = 3,
     referenceType = "theory",
+    rank = 3,
     shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
     longDesc = 
 u"""

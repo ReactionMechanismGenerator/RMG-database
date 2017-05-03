@@ -263,6 +263,7 @@ Taken from entry: ethyl + CPDyl <=> ethylCPD
 entry(
     index = 15,
     label = "CH3NO2 <=> CH3 + NO2",
+    degeneracy = 1,
     kinetics = Arrhenius(A=(1.8e+16, 's^-1'), n=0, Ea=(58500, 'cal/mol'), T0=(1, 'K')),
     rank = 1,
     shortDesc = u"""Experimental, P. Glarborg, A.B. Bendtsen, J.A. Miller""",
@@ -270,7 +271,7 @@ entry(
 u"""
 P. Glarborg, A.B. Bendtsen, J.A. Miller
 Nitromethane Dissociation: Implications for the CH3 + NO2 Reaction
-International Journal of Chemical Kinetics Volume 31, Issue 9, pages 591–602, 1999
+International Journal of Chemical Kinetics Volume 31, Issue 9, pages 591602, 1999
 DOI: 10.1002/(SICI)1097-4601(1999)31:9<591::AID-KIN1>3.0.CO;2-E
 
 Also appears in the Nitrogen_Glarborg_Zhang_et_al library (index 671)
@@ -297,7 +298,14 @@ entry(
     index = 20,
     label = "CH3 + CH3 <=> C2H6",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9.45e+14, 'cm^3/(mol*s)'), n=-0.538, Ea=(135.1, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
+    kinetics = Arrhenius(
+        A = (9.45e+14, 'cm^3/(mol*s)'),
+        n = -0.538,
+        Ea = (135.1, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (200, 'K'),
+        Tmax = (2000, 'K'),
+    ),
     rank = 2,
     shortDesc = u"""CASPT2/cc-pvdz""",
     longDesc = 
@@ -313,7 +321,14 @@ entry(
     index = 21,
     label = "CH3 + C2H5 <=> C3H8",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.23e+15, 'cm^3/(mol*s)'), n=-0.562, Ea=(20.5, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
+    kinetics = Arrhenius(
+        A = (1.23e+15, 'cm^3/(mol*s)'),
+        n = -0.562,
+        Ea = (20.5, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (200, 'K'),
+        Tmax = (2000, 'K'),
+    ),
     rank = 2,
     shortDesc = u"""CASPT2/cc-pvdz""",
     longDesc = 
@@ -329,7 +344,14 @@ entry(
     index = 22,
     label = "C2H5 + C2H5 <=> C4H10",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(8.73e+14, 'cm^3/(mol*s)'), n=-0.699, Ea=(-3.2, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
+    kinetics = Arrhenius(
+        A = (8.73e+14, 'cm^3/(mol*s)'),
+        n = -0.699,
+        Ea = (-3.2, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (200, 'K'),
+        Tmax = (2000, 'K'),
+    ),
     rank = 2,
     shortDesc = u"""CASPT2/cc-pvdz""",
     longDesc = 

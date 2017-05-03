@@ -333,7 +333,7 @@ entry(
 1 *1 R!H                 u1 {2,S}
 2 *4 R!H                 u0 {1,S} {3,S}
 3 *5 R!H                 u0 {2,S} {4,S}
-4 *2 [Cd,Ct,CO,N,CS]        u0 {3,S} {5,[D,T]}
+4 *2 [Cd,Ct,CO,N,CS]     u0 {3,S} {5,[D,T]}
 5 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {4,[D,T]}
 """,
     kinetics = None,
@@ -994,7 +994,7 @@ entry(
     label = "R6_CsCsCs_RR_D",
     group = 
 """
-1  *1 Cs      u1 {2,S}
+1  *1 Cs       u1 {2,S}
 2  *4 Cs       u0 {1,S} {3,S} {7,S} {8,S}
 3  *6 Cs       u0 {2,S} {4,S} {9,S} {10,S}
 4  *5 Cs       u0 {3,S} {5,S} {11,S} {12,S}
@@ -1021,7 +1021,7 @@ entry(
     label = "R6_CsCsCs_RH_D",
     group = 
 """
-1  *1 Cs      u1 {2,S}
+1  *1 Cs       u1 {2,S}
 2  *4 Cs       u0 {1,S} {3,S} {7,S} {8,S}
 3  *6 Cs       u0 {2,S} {4,S} {9,S} {10,S}
 4  *5 Cs       u0 {3,S} {5,S} {11,S} {12,S}
@@ -1048,7 +1048,7 @@ entry(
     label = "R6_CsCsCs_HH_D",
     group = 
 """
-1  *1 Cs      u1 {2,S}
+1  *1 Cs       u1 {2,S}
 2  *4 Cs       u0 {1,S} {3,S} {7,S} {8,S}
 3  *6 Cs       u0 {2,S} {4,S} {9,S} {10,S}
 4  *5 Cs       u0 {3,S} {5,S} {11,S} {12,S}

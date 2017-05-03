@@ -31,6 +31,205 @@ entry(
 )
 
 entry(
+    index = 474,
+    label = "Xtrirad_H",
+    group = "OR{C_quartet_H, C_doublet_H}",
+    kinetics = None,
+)
+
+entry(
+    index = 480,
+    label = "C_quartet_H",
+    group = 
+"""
+1 *1 C u3 p0 {2,S}
+2 *2 H u0 p0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 481,
+    label = "C_doublet_H",
+    group = 
+"""
+1 *1 C u1 p1 {2,S}
+2 *2 H u0 p0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 444,
+    label = "Xbirad_H",
+    group = "OR{CH2_triplet_H, CH2_singlet_H, NH_triplet_H, NH_singlet_H}",
+    kinetics = None,
+)
+
+entry(
+    index = 476,
+    label = "CH2_triplet_H",
+    group = 
+"""
+1 *1 Cs u2 {2,S} {3,S}
+2 *2 H  u0 {1,S}
+3    H  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 477,
+    label = "CH2_singlet_H",
+    group = 
+"""
+1 *1 C u0 p1 {2,S} {3,S}
+2 *2 H u0 {1,S}
+3    H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 478,
+    label = "NH_triplet_H",
+    group = 
+"""
+1 *1 N u2 p1 {2,S}
+2 *2 H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 479,
+    label = "NH_singlet_H",
+    group = 
+"""
+1 *1 N u0 p2 {2,S}
+2 *2 H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 185,
+    label = "Xrad_H",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *2 H   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 469,
+    label = "C_rad_H",
+    group = 
+"""
+1 *1 C u1 {2,S}
+2 *2 H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 442,
+    label = "CH3_rad_H",
+    group = 
+"""
+1 *1 Cs u1 {2,S} {3,S} {4,S}
+2 *2 H  u0 {1,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 470,
+    label = "Cs/H2/OneDeN",
+    group = 
+"""
+1 *1 C         u1 {2,S} {3,S} {4,S}
+2 *2 H         u0 {1,S}
+3    H         u0 {1,S}
+4    [N3d,N5d] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 443,
+    label = "OH_rad_H",
+    group = 
+"""
+1 *1 O u1 {2,S}
+2 *2 H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 186,
+    label = "Srad_H",
+    group = 
+"""
+1 *1 S u1 {2,S}
+2 *2 H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 416,
+    label = "N3s_rad_H",
+    group = 
+"""
+1 *1 N3s u1 {2,S}
+2 *2 H   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 417,
+    label = "NH2_rad_H",
+    group = 
+"""
+1 *1 N3s u1 {2,S} {3,S}
+2 *2 H   u0 {1,S}
+3    H   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 418,
+    label = "N3s_rad_H_pri",
+    group = 
+"""
+1 *1 N3s     u1 {2,S} {3,S}
+2 *2 H       u0 {1,S}
+3    [C,N,O] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 449,
+    label = "N3s_rad_H/H/NonDeN",
+    group = 
+"""
+1 *1 N3s u1 {2,S} {3,S}
+2 *2 H   u0 {1,S}
+3    N3s u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 3,
     label = "X_H",
     group = 
@@ -3072,10 +3271,10 @@ entry(
     label = "N3d/H/OneDe",
     group = 
 """
-1 *1 N3d  u0 {2,S} {3,D}
-2 *2 H    u0 {1,S}
-3    Cdd  u0 {1,D} {4,D}
-4    R!H  u0 {3,D}
+1 *1 N3d u0 {2,S} {3,D}
+2 *2 H   u0 {1,S}
+3    Cdd u0 {1,D} {4,D}
+4    R!H u0 {3,D}
 """,
     kinetics = None,
 )
@@ -3085,10 +3284,10 @@ entry(
     label = "N3d/H/CddO",
     group = 
 """
-1 *1 N3d  u0 {2,S} {3,D}
-2 *2 H    u0 {1,S}
-3    Cdd  u0 {1,D} {4,D}
-4    Od   u0 {3,D}
+1 *1 N3d u0 {2,S} {3,D}
+2 *2 H   u0 {1,S}
+3    Cdd u0 {1,D} {4,D}
+4    Od  u0 {3,D}
 """,
     kinetics = None,
 )
@@ -3124,205 +3323,6 @@ entry(
 2 *2 H   u0 {1,S}
 3    Os  u0 {1,S}
 4    Od  u0 {1,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 185,
-    label = "Xrad_H",
-    group = 
-"""
-1 *1 R!H u1 {2,S}
-2 *2 H u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 469,
-    label = "C_rad_H",
-    group = 
-"""
-1 *1 C u1 {2,S}
-2 *2 H u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 442,
-    label = "CH3_rad_H",
-    group = 
-"""
-1 *1 Cs u1 {2,S} {3,S} {4,S}
-2 *2 H  u0 {1,S}
-3    H  u0 {1,S}
-4    H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 470,
-    label = "Cs/H2/OneDeN",
-    group = 
-"""
-1 *1 C         u1 {2,S} {3,S} {4,S}
-2 *2 H         u0 {1,S}
-3    H         u0 {1,S}
-4    [N3d,N5d] u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 443,
-    label = "OH_rad_H",
-    group = 
-"""
-1 *1 O u1 {2,S}
-2 *2 H u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 186,
-    label = "Srad_H",
-    group = 
-"""
-1 *1 S u1 {2,S}
-2 *2 H u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 416,
-    label = "N3s_rad_H",
-    group = 
-"""
-1 *1 N3s u1 {2,S}
-2 *2 H   u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 417,
-    label = "NH2_rad_H",
-    group = 
-"""
-1 *1 N3s u1 {2,S} {3,S}
-2 *2 H   u0 {1,S}
-3    H   u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 418,
-    label = "N3s_rad_H_pri",
-    group = 
-"""
-1 *1 N3s     u1 {2,S} {3,S}
-2 *2 H       u0 {1,S}
-3    [C,N,O] u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 449,
-    label = "N3s_rad_H/H/NonDeN",
-    group = 
-"""
-1 *1 N3s u1 {2,S} {3,S}
-2 *2 H   u0 {1,S}
-3    N3s u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 444,
-    label = "Xbirad_H",
-    group = "OR{CH2_triplet_H, CH2_singlet_H, NH_triplet_H, NH_singlet_H}",
-    kinetics = None,
-)
-
-entry(
-    index = 476,
-    label = "CH2_triplet_H",
-    group = 
-"""
-1 *1 Cs u2 {2,S} {3,S}
-2 *2 H  u0 {1,S}
-3    H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 477,
-    label = "CH2_singlet_H",
-    group = 
-"""
-1 *1 C u0 p1 {2,S} {3,S}
-2 *2 H u0 {1,S}
-3    H u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 478,
-    label = "NH_triplet_H",
-    group = 
-"""
-1 *1 N u2 p1 {2,S}
-2 *2 H u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 479,
-    label = "NH_singlet_H",
-    group = 
-"""
-1 *1 N u0 p2 {2,S}
-2 *2 H u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 474,
-    label = "Xtrirad_H",
-    group = "OR{C_quartet_H, C_doublet_H}",
-    kinetics = None,
-)
-
-entry(
-    index = 480,
-    label = "C_quartet_H",
-    group = 
-"""
-1 *1 C u3 p0 {2,S}
-2 *2 H u0 p0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 481,
-    label = "C_doublet_H",
-    group = 
-"""
-1 *1 C u1 p1 {2,S}
-2 *2 H u0 p0 {1,S}
 """,
     kinetics = None,
 )

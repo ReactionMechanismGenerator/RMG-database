@@ -10,7 +10,6 @@ International Journal of Chemical Kinetics
 Volume 44, Issue 7, pages 444–474, July 2012
 DOI: 10.1002/kin.20603
 """
-
 entry(
     index = 1,
     label = "H",
@@ -22,7 +21,7 @@ multiplicity 2
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([4.97,4.97,4.97,4.97,4.97,4.97,4.97],'cal/(mol*K)'),
-        H298 = (52.10,'kcal/mol'),
+        H298 = (52.1,'kcal/mol'),
         S298 = (27.39,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
@@ -45,8 +44,8 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.90,6.96,7.00,7.02,7.07,7.21,7.73],'cal/(mol*K)'),
-        H298 = (0.00,'kcal/mol'),
+        Cpdata = ([6.9,6.96,7,7.02,7.07,7.21,7.73],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
         S298 = (31.21,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
@@ -69,7 +68,7 @@ multiplicity 3
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.23,5.14,5.08,5.05,5.02,5.00,4.98],'cal/(mol*K)'),
+        Cpdata = ([5.23,5.14,5.08,5.05,5.02,5,4.98],'cal/(mol*K)'),
         H298 = (59.56,'kcal/mol'),
         S298 = (38.46,'cal/(mol*K)'),
     ),
@@ -95,8 +94,8 @@ multiplicity 2
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([7.16,7.08,7.05,7.06,7.15,7.34,7.87],'cal/(mol*K)'),
-        H298 = (8.90,'kcal/mol'),
-        S298 = (43.90,'cal/(mol*K)'),
+        H298 = (8.9,'kcal/mol'),
+        S298 = (43.9,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -119,9 +118,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.00,8.23,8.45,8.67,9.22,9.87,11.26],'cal/(mol*K)'),
-        H298 = (-57.80,'kcal/mol'),
-        S298 = (45.10,'cal/(mol*K)'),
+        Cpdata = ([8,8.23,8.45,8.67,9.22,9.87,11.26],'cal/(mol*K)'),
+        H298 = (-57.8,'kcal/mol'),
+        S298 = (45.1,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
     longDesc = 
@@ -145,8 +144,8 @@ multiplicity 3
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([7.01,7.22,7.44,7.66,8.07,8.35,8.72],'cal/(mol*K)'),
-        H298 = (0.00,'kcal/mol'),
-        S298 = (49.00,'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (49,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
     longDesc = 
@@ -170,8 +169,8 @@ multiplicity 2
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.35,8.89,9.47,10.00,10.77,11.38,12.48],'cal/(mol*K)'),
-        H298 = (3.00,'kcal/mol'),
+        Cpdata = ([8.35,8.89,9.47,10,10.77,11.38,12.48],'cal/(mol*K)'),
+        H298 = (3,'kcal/mol'),
         S298 = (54.75,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -269,8 +268,8 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.95,7.01,7.08,7.19,7.50,7.83,8.32],'cal/(mol*K)'),
-        H298 = (0.00,'kcal/mol'),
+        Cpdata = ([6.95,7.01,7.08,7.19,7.5,7.83,8.32],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
         S298 = (45.77,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
@@ -293,7 +292,7 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([4.97,4.97,4.97,4.97,4.97,4.97,4.97],'cal/(mol*K)'),
-        H298 = (0.00,'kcal/mol'),
+        H298 = (0,'kcal/mol'),
         S298 = (36.98,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
@@ -316,7 +315,7 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([4.97,4.97,4.97,4.97,4.97,4.97,4.97],'cal/(mol*K)'),
-        H298 = (0.00,'kcal/mol'),
+        H298 = (0,'kcal/mol'),
         S298 = (30.12,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",

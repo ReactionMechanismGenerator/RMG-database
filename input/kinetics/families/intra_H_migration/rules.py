@@ -501,7 +501,7 @@ entry(
     index = 638,
     label = "R2H_S;C_rad_out_2H;Cs_H_out_H/NonDeC",
     kinetics = ArrheniusEP(
-        A = (3.59E+05, 's^-1'),
+        A = (359000, 's^-1'),
         n = 2.05,
         alpha = 0,
         E0 = (36.3, 'kcal/mol'),
@@ -5279,7 +5279,7 @@ entry(
     index = 1024,
     label = "R5H_SMSS;C_rad_out_2H;Cs_H_out_H/Cd",
     kinetics = ArrheniusEP(
-        A = (2.40E+03, 's^-1'),
+        A = (2400, 's^-1'),
         n = 2.15,
         alpha = 0,
         E0 = (22.1, 'kcal/mol'),
@@ -5648,10 +5648,11 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""ED, RQCISD(T)/CBS TST with Eckart and 1-HR""",
-    longDesc = """
+    longDesc = 
+u"""
 RQCISD(T)/CBS TST calculations with Eckart and 1-dHR corrections from Enoch for 
 alpha-hydroxyethyl surface, reference: doi 10.1002/kin.20844
-    """,
+""",
 )
 
 entry(
@@ -5667,10 +5668,11 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""ED, RQCISD(T)/CBS TST with Eckart and 1-HR""",
-    longDesc = """
+    longDesc = 
+u"""
 RQCISD(T)/CBS TST calculations with Eckart and 1-dHR corrections from Enoch for 
 alpha-hydroxyethyl surface, reference: doi 10.1002/kin.20844
-    """,
+""",
 )
 
 entry(
@@ -5686,10 +5688,11 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""ED, RQCISD(T)/CBS TST with Eckart and 1-HR""",
-    longDesc = """
+    longDesc = 
+u"""
 RQCISD(T)/CBS TST calculations with Eckart and 1-dHR corrections from Enoch for 
 alpha-hydroxyethyl surface, reference: doi 10.1002/kin.20844
-    """,
+""",
 )
 
 entry(
@@ -5705,10 +5708,11 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""ED, RQCISD(T)/CBS TST with Eckart and 1-HR""",
-    longDesc = """
+    longDesc = 
+u"""
 RQCISD(T)/CBS TST calculations with Eckart and 1-dHR corrections from Enoch for 
 alpha-hydroxyethyl surface, reference: doi 10.1002/kin.20844
-    """,
+""",
 )
 
 entry(
@@ -5724,10 +5728,11 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""ED, RQCISD(T)/CBS TST with Eckart and 1-HR""",
-    longDesc = """
+    longDesc = 
+u"""
 RQCISD(T)/CBS TST calculations with Eckart and 1-dHR corrections from Enoch for 
 alpha-hydroxyethyl surface, reference: doi 10.1002/kin.20844
-    """,
+""",
 )
 
 entry(
@@ -5743,16 +5748,17 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2d,d,p)""",
-    longDesc = """
+    longDesc = 
+u"""
 BMK/6-311G(2d,d,p) TST Eckart, no HR. calculated for cycC5H5-CH2 -> cycC5H4-CH3
-    """,
+""",
 )
 
 entry(
     index = 1057,
     label = "R4H_MMS;Cd_rad_out;Cs_H_out",
     kinetics = ArrheniusEP(
-        A = (1.0E-10, 's^-1'),
+        A = (1e-10, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -5767,7 +5773,7 @@ entry(
     index = 1058,
     label = "R2H_D;Cd_rad_out_singleH;Cd_H_out_singleDe",
     kinetics = ArrheniusEP(
-        A = (1.0E-10, 's^-1'),
+        A = (1e-10, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -5777,3 +5783,4 @@ entry(
     rank = 4,
     shortDesc = u"""Aaron Vandeputte guess""",
 )
+

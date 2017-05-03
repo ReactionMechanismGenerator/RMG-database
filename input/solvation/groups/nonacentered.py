@@ -37,31 +37,6 @@ u"""
 )
 
 entry(
-    index = 1,
-    label = "Oss(CdsOd)",
-    group = 
-"""
-1 * CO                         u0 {2,S} {3,S} {4,D}
-2   Os                         u0 {1,S} {5,S}
-3   [Cs,Cd,Cdd,Ct,Cb,Cbf,CO,H] u0 {1,S}
-4   Od                         u0 {1,D}
-5   R!H                        u0 {2,S}
-""",
-    solute = SoluteData(
-        S = -0.225,
-        B = -0.206,
-        E = -0.113,
-        L = -0.39,
-        A = 0,
-    ),
-    shortDesc = u"""Platts fragment 43 non-cyclic ester""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 15,
     label = "Lac",
     group = "OR{Lac3, Lac4, Lac5, Lac6}",
@@ -158,6 +133,31 @@ u"""
 )
 
 entry(
+    index = 1,
+    label = "Oss(CdsOd)",
+    group = 
+"""
+1 * CO                         u0 {2,S} {3,S} {4,D}
+2   Os                         u0 {1,S} {5,S}
+3   [Cs,Cd,Cdd,Ct,Cb,Cbf,CO,H] u0 {1,S}
+4   Od                         u0 {1,D}
+5   R!H                        u0 {2,S}
+""",
+    solute = SoluteData(
+        S = -0.225,
+        B = -0.206,
+        E = -0.113,
+        L = -0.39,
+        A = 0,
+    ),
+    shortDesc = u"""Platts fragment 43 non-cyclic ester""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 2,
     label = "Oss(CdsOd)Oss",
     group = 
@@ -232,29 +232,6 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts fragment 55 quinone""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 20,
-    label = "Cd(Od)N",
-    group = 
-"""
-1 * CO        u0 {2,D} {3,S}
-2   Od        u0 {1,D}
-3   [N3s,N3d] u0 {1,S}
-""",
-    solute = SoluteData(
-        S = 0.175,
-        B = -0.287,
-        E = 0.0,
-        L = 0.603,
-        A = 0.0,
-    ),
-    shortDesc = u"""Platts group 49 noncyclic aliphatic amide""",
     longDesc = 
 u"""
 
@@ -355,6 +332,29 @@ entry(
 """,
     solute = None,
     shortDesc = u"""lactam, 7 membered ring""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 20,
+    label = "Cd(Od)N",
+    group = 
+"""
+1 * CO        u0 {2,D} {3,S}
+2   Od        u0 {1,D}
+3   [N3s,N3d] u0 {1,S}
+""",
+    solute = SoluteData(
+        S = 0.175,
+        B = -0.287,
+        E = 0.0,
+        L = 0.603,
+        A = 0.0,
+    ),
+    shortDesc = u"""Platts group 49 noncyclic aliphatic amide""",
     longDesc = 
 u"""
 
@@ -677,6 +677,32 @@ u"""
 )
 
 entry(
+    index = 34,
+    label = "N3sHCd(Od)N3sH",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S}
+2   H   u0 {1,S}
+3   CO  u0 {1,S} {4,D} {5,S}
+4   Od  u0 {3,D}
+5   N3s u0 {3,S} {6,S}
+6   H   u0 {5,S}
+""",
+    solute = SoluteData(
+        S = 0.0,
+        B = 0.0,
+        E = 0.0,
+        L = 0.0,
+        A = -0.0825,
+    ),
+    shortDesc = u"""urea correction for A (fragment 14)""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 31,
     label = "Cd(Od)NH2",
     group = 
@@ -745,32 +771,6 @@ entry(
         A = -0.091,
     ),
     shortDesc = u"""aromatic amide correction for A (fragment 12)""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 34,
-    label = "N3sHCd(Od)N3sH",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S}
-2   H   u0 {1,S}
-3   CO  u0 {1,S} {4,D} {5,S}
-4   Od  u0 {3,D}
-5   N3s u0 {3,S} {6,S}
-6   H   u0 {5,S}
-""",
-    solute = SoluteData(
-        S = 0.0,
-        B = 0.0,
-        E = 0.0,
-        L = 0.0,
-        A = -0.0825,
-    ),
-    shortDesc = u"""urea correction for A (fragment 14)""",
     longDesc = 
 u"""
 
@@ -850,7 +850,7 @@ L1: R
             L4: Lactam4
             L4: Lactam5
             L4: Lactam6
-            L4: Lactam7        
+            L4: Lactam7
         L3: Cd(Od)N
             L4: NCd(Od)N
             L4: OsCd(Od)N

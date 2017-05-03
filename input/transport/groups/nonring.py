@@ -490,27 +490,6 @@ entry(
 )
 
 entry(
-    index = 17,
-    label = "Aldehyde_Ocentered",
-    group = 
-"""
-1 * O   u0 {2,D}
-2   C   u0 {1,D} {3,S} {4,S}
-3   R!H u0 {2,S}
-4   H   u0 {2,S}
-""",
-    transportGroup = CriticalPointGroupContribution(
-        Tc = 0,
-        Pc = 0,
-        Vc = 0,
-        Tb = 0,
-        structureIndex = 1,
-    ),
-    shortDesc = u"""nonring_library value for Aldehyde_Ocentered""",
-    longDesc = u"""""",
-)
-
-entry(
     index = 20,
     label = "Acid_Ocentered2",
     group = 
@@ -551,6 +530,27 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for Ester_Ocentered2""",
+    longDesc = u"""""",
+)
+
+entry(
+    index = 17,
+    label = "Aldehyde_Ocentered",
+    group = 
+"""
+1 * O   u0 {2,D}
+2   C   u0 {1,D} {3,S} {4,S}
+3   R!H u0 {2,S}
+4   H   u0 {2,S}
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0,
+        Pc = 0,
+        Vc = 0,
+        Tb = 0,
+        structureIndex = 1,
+    ),
+    shortDesc = u"""nonring_library value for Aldehyde_Ocentered""",
     longDesc = u"""""",
 )
 

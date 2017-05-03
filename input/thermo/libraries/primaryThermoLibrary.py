@@ -785,7 +785,7 @@ McBride, Heimel, Ehlers & Gordon, "Thermodynamic Properties to 6000 K", 1963.
 entry(
     index = 35,
     label = "ONHN",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 O u0 p3 c-1 {2,S}
@@ -795,25 +795,14 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [4.04618, -0.00333952, 3.35365e-05, -4.57384e-08, 2.0107e-11, 36047.5, 6.95758],
-                Tmin = (10, 'K'),
-                Tmax = (708.753, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [2.46943, 0.0105681, -6.49838e-06, 1.89046e-09, -2.10479e-13, 36145.2, 13.1342],
-                Tmin = (708.753, 'K'),
-                Tmax = (3000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[4.04618,-0.00333952,3.35365e-05,-4.57384e-08,2.0107e-11,36047.5,6.95758], Tmin=(10,'K'), Tmax=(708.753,'K')),
+            NASAPolynomial(coeffs=[2.46943,0.0105681,-6.49838e-06,1.89046e-09,-2.10479e-13,36145.2,13.1342], Tmin=(708.753,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (10, 'K'),
-        Tmax = (3000, 'K'),
-        E0 = (299.723, 'kJ/mol'),
-        Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (83.1447, 'J/(mol*K)'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
     ),
     shortDesc = u"""CBS-QB3""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,

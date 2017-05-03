@@ -613,152 +613,6 @@ u"""
 )
 
 entry(
-    index = 25,
-    label = "Amide_pri",
-    group = 
-"""
-1 * N u0 {2,S} {5,S} {6,S}
-2   CO u0 {1,S} {3,S} {4,D}
-3   C u0 {2,S}
-4   O u0 {2,D}
-5   H u0 {1,S}
-6   H u0 {1,S}
-""",
-    statmech = GroupFrequencies(
-        frequencies = [
-            (3480, 3540, 1),
-            (3380, 3420, 1),
-            (1670, 1690, 1),
-            (1590, 1620, 1),
-            (1400, 1420, 1),
-            (1140, 1160, 1),
-            (600, 750, 1),
-            (550, 600, 1),
-            (450, 500, 1),
-        ],
-        symmetry = 1,
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-(3480, 3540, 1), # asymmetric N-H stretch, (free) primary amides
-(3380, 3420, 1), # symmetric N-H stretch, (free) primary amides
-(1670, 1690, 1), # C=O stretch, known as amide I band, primary amides (dilute solution)
-(1590, 1620, 1), # , primary amides (dilute solution)
-(1400, 1420, 1), # C-N stretch, known as amide III band, primary amides
-(1140, 1160, 1), # NH2 in-plane rocking vibration, primary amides
-(600, 750, 1),   # br. NH2 deformation vibration, primary amides
-(550, 600, 1),   # N-C=O deformation vibration, primary amides
-(450, 500, 1),   # C-C=O deformation vibration, primary amides
-
-""",
-)
-
-entry(
-    index = 26,
-    label = "Amide_sec",
-    group = 
-"""
-1 * N u0 {2,S} {5,S} {6,S}
-2   CO u0 {1,S} {3,S} {4,D}
-3   C u0 {2,S}
-4   O u0 {2,D}
-5   C u0 {1,S}
-6   H u0 {1,S}
-""",
-    statmech = GroupFrequencies(
-        frequencies = [
-            (3420, 3460, 1),
-            (1510, 1550, 1),
-            (1665, 1700, 1),
-            (1200, 1305, 1),
-            (620, 770, 1),
-        ],
-        symmetry = 1,
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-(3420, 3460, 1), # N-H stretch, trans form (in dilute solution)
-(1510, 1550, 1), # amide II band, trans form (in dilute solution)
-(1665, 1700, 1), # C=O stretch, secondary amides (dilute solution)
-(1200, 1305, 1), # amide III band, secondary amides (trans form)
-(620, 770, 1),   # br. out-of-plane N-H, secondary amides (trans form)
-
-""",
-)
-
-entry(
-    index = 27,
-    label = "Amide_ter",
-    group = 
-"""
-1 * N u0 {2,S} {5,S} {6,S}
-2   CO u0 {1,S} {3,S} {4,D}
-3   C u0 {2,S}
-4   O u0 {2,D}
-5   C u0 {1,S}
-6   C u0 {1,S}
-""",
-    statmech = GroupFrequencies(
-        frequencies = [
-            (1630, 1670, 1),
-            (700, 870, 1),
-            (570, 620, 1),
-            (440, 480, 1),
-            (320, 390, 1),
-        ],
-        symmetry = 1,
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-(1630, 1670, 1), # C=O stretch, tertiary amides (dilute solution or solid phase)
-(700, 870, 1), # asymmetric CNC stretch, tertiary amides
-(570, 620, 1), # , tertiary amides
-(440, 480, 1), # , tertiary amides
-(320, 390, 1), # , tertiary amides
-
-""",
-)
-
-entry(
-    index = 28,
-    label = "Imide",
-    group = 
-"""
-1 * N u0 {2,S} {3,S} {6,S}
-2   H u0 {1,S}
-3   CO u0 {1,S} {4,D} {5,S}
-4   O u0 {3,D}
-5   R u0 {3,S}
-6   CO u0 {1,S} {7,D} {8,S}
-7   O u0 {6,D}
-8   R u0 {6,S}
-""",
-    statmech = GroupFrequencies(
-        frequencies = [
-            (3200, 3280, 1),
-            (1670, 1740, 1),
-            (1500, 1510, 1),
-            (1165, 1235, 1),
-            (730, 740, 1),
-        ],
-        symmetry = 1,
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-(3200, 3280, 1), # N-H stretch, Imides (solid phase)
-(1670, 1740, 1), # C=O stretch, amide I band, Imides (solid phase)
-(1500, 1510, 1), # br., amide II band, Imides (solid phase)
-(1165, 1235, 1), # amide III band, Imides (solid phase)
-(730, 740, 1),   # br. N-H wagging, amide II band, Imides (solid phase)
-
-""",
-)
-
-entry(
     index = 29,
     label = "Amine_pri",
     group = 
@@ -786,6 +640,48 @@ u"""
 (1580, 1650, 1), # br. scissor vibration, saturated primary amines
 (1145, 1295, 1), # NH2 rocking/twisting vibration, saturated primary amines
 (650, 895, 1), # N-H bending out of plane, saturated primary amines
+
+""",
+)
+
+entry(
+    index = 25,
+    label = "Amide_pri",
+    group = 
+"""
+1 * N  u0 {2,S} {5,S} {6,S}
+2   CO u0 {1,S} {3,S} {4,D}
+3   C  u0 {2,S}
+4   O  u0 {2,D}
+5   H  u0 {1,S}
+6   H  u0 {1,S}
+""",
+    statmech = GroupFrequencies(
+        frequencies = [
+            (3480, 3540, 1),
+            (3380, 3420, 1),
+            (1670, 1690, 1),
+            (1590, 1620, 1),
+            (1400, 1420, 1),
+            (1140, 1160, 1),
+            (600, 750, 1),
+            (550, 600, 1),
+            (450, 500, 1),
+        ],
+        symmetry = 1,
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+(3480, 3540, 1), # asymmetric N-H stretch, (free) primary amides
+(3380, 3420, 1), # symmetric N-H stretch, (free) primary amides
+(1670, 1690, 1), # C=O stretch, known as amide I band, primary amides (dilute solution)
+(1590, 1620, 1), # , primary amides (dilute solution)
+(1400, 1420, 1), # C-N stretch, known as amide III band, primary amides
+(1140, 1160, 1), # NH2 in-plane rocking vibration, primary amides
+(600, 750, 1),   # br. NH2 deformation vibration, primary amides
+(550, 600, 1),   # N-C=O deformation vibration, primary amides
+(450, 500, 1),   # C-C=O deformation vibration, primary amides
 
 """,
 )
@@ -819,6 +715,76 @@ u"""
 )
 
 entry(
+    index = 26,
+    label = "Amide_sec",
+    group = 
+"""
+1 * N  u0 {2,S} {5,S} {6,S}
+2   CO u0 {1,S} {3,S} {4,D}
+3   C  u0 {2,S}
+4   O  u0 {2,D}
+5   C  u0 {1,S}
+6   H  u0 {1,S}
+""",
+    statmech = GroupFrequencies(
+        frequencies = [
+            (3420, 3460, 1),
+            (1510, 1550, 1),
+            (1665, 1700, 1),
+            (1200, 1305, 1),
+            (620, 770, 1),
+        ],
+        symmetry = 1,
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+(3420, 3460, 1), # N-H stretch, trans form (in dilute solution)
+(1510, 1550, 1), # amide II band, trans form (in dilute solution)
+(1665, 1700, 1), # C=O stretch, secondary amides (dilute solution)
+(1200, 1305, 1), # amide III band, secondary amides (trans form)
+(620, 770, 1),   # br. out-of-plane N-H, secondary amides (trans form)
+
+""",
+)
+
+entry(
+    index = 28,
+    label = "Imide",
+    group = 
+"""
+1 * N  u0 {2,S} {3,S} {6,S}
+2   H  u0 {1,S}
+3   CO u0 {1,S} {4,D} {5,S}
+4   O  u0 {3,D}
+5   R  u0 {3,S}
+6   CO u0 {1,S} {7,D} {8,S}
+7   O  u0 {6,D}
+8   R  u0 {6,S}
+""",
+    statmech = GroupFrequencies(
+        frequencies = [
+            (3200, 3280, 1),
+            (1670, 1740, 1),
+            (1500, 1510, 1),
+            (1165, 1235, 1),
+            (730, 740, 1),
+        ],
+        symmetry = 1,
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+(3200, 3280, 1), # N-H stretch, Imides (solid phase)
+(1670, 1740, 1), # C=O stretch, amide I band, Imides (solid phase)
+(1500, 1510, 1), # br., amide II band, Imides (solid phase)
+(1165, 1235, 1), # amide III band, Imides (solid phase)
+(730, 740, 1),   # br. N-H wagging, amide II band, Imides (solid phase)
+
+""",
+)
+
+entry(
     index = 31,
     label = "Amine_ter",
     group = 
@@ -838,6 +804,40 @@ entry(
     longDesc = 
 u"""
 
+
+""",
+)
+
+entry(
+    index = 27,
+    label = "Amide_ter",
+    group = 
+"""
+1 * N  u0 {2,S} {5,S} {6,S}
+2   CO u0 {1,S} {3,S} {4,D}
+3   C  u0 {2,S}
+4   O  u0 {2,D}
+5   C  u0 {1,S}
+6   C  u0 {1,S}
+""",
+    statmech = GroupFrequencies(
+        frequencies = [
+            (1630, 1670, 1),
+            (700, 870, 1),
+            (570, 620, 1),
+            (440, 480, 1),
+            (320, 390, 1),
+        ],
+        symmetry = 1,
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+(1630, 1670, 1), # C=O stretch, tertiary amides (dilute solution or solid phase)
+(700, 870, 1), # asymmetric CNC stretch, tertiary amides
+(570, 620, 1), # , tertiary amides
+(440, 480, 1), # , tertiary amides
+(320, 390, 1), # , tertiary amides
 
 """,
 )
@@ -890,36 +890,6 @@ entry(
 u"""
 (1330, 1425, 1), # aliphatic compounds
 (1320, 1345, 1), # aliphatic compounds
-
-""",
-)
-
-entry(
-    index = 34,
-    label = "Nitrites",
-    group = 
-"""
-1 * N u0 {2,D} {3,S}
-2   O u0 {1,D}
-3   O u0 {1,S} {4,S}
-4   R u0 {3,S}
-""",
-    statmech = GroupFrequencies(
-        frequencies = [
-            (3220, 3360, 1),
-            (1650, 1680, 1),
-            (750, 815, 1),
-            (565, 625, 1),
-        ],
-        symmetry = 1,
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-(3220, 3360, 1), # Overtones of N=O stretch, nitrite compounds
-(1650, 1680, 1), # N=O stretch, nitrites, trans form
-(750, 815, 1),   # N-O stretch trans form, saturated primary and secondary aliphatic nitro compounds
-(565, 625, 1),   # O-N=O deformation vibration, saturated primary and secondary aliphatic nitro compounds
 
 """,
 )
@@ -987,6 +957,36 @@ u"""
 (745, 765, 1),   # NO2 out-of-plane deformation vibration, Nitrates, -ONO2
 (680, 720, 1),   # NO2 deformation vibration, Nitrates, -ONO2
 (560, 610, 1),   # NO2 in-plane deformation vibration, Nitrates, -ONO2
+
+""",
+)
+
+entry(
+    index = 34,
+    label = "Nitrites",
+    group = 
+"""
+1 * N u0 {2,D} {3,S}
+2   O u0 {1,D}
+3   O u0 {1,S} {4,S}
+4   R u0 {3,S}
+""",
+    statmech = GroupFrequencies(
+        frequencies = [
+            (3220, 3360, 1),
+            (1650, 1680, 1),
+            (750, 815, 1),
+            (565, 625, 1),
+        ],
+        symmetry = 1,
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+(3220, 3360, 1), # Overtones of N=O stretch, nitrite compounds
+(1650, 1680, 1), # N=O stretch, nitrites, trans form
+(750, 815, 1),   # N-O stretch trans form, saturated primary and secondary aliphatic nitro compounds
+(565, 625, 1),   # O-N=O deformation vibration, saturated primary and secondary aliphatic nitro compounds
 
 """,
 )

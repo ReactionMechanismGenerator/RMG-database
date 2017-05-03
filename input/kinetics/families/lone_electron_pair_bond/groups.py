@@ -4,7 +4,6 @@
 name = "lone_electron_pair_bond/groups"
 shortDesc = u""
 longDesc = u"""
-
 After review by alongd and nyee, this family looks deprecated or unfinished.
 
 Currently, we expect O atom in RMG to be in triplet, not singlet state.
@@ -58,3 +57,4 @@ L1: N3sRRR
 L1: O_atom_singlet
 """
 )
+

@@ -40,7 +40,7 @@ entry(
     label = "S1C4 <=> S1C4b",
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (1.775e+09, 's^-1', '*|/', 3.0),
+        A = (1.775e+09, 's^-1', '*|/', 3),
         n = 0.686,
         Ea = (6.774, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -68,7 +68,7 @@ entry(
     label = "S2C4 <=> S2C4b",
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (1.540e+04, 's^-1', '*|/', 3.0),
+        A = (15400, 's^-1', '*|/', 3),
         n = 2.338,
         Ea = (7.127, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -96,12 +96,11 @@ entry(
     label = "C4H7O2 <=> C4H7O2b",
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (6.358e+01, 's^-1', '*|/', 3.66),
+        A = (63.58, 's^-1', '*|/', 3.66),
         n = 2.81162,
-        Ea = (8.231, 'kcal/mol', '+|-', 1.00),
+        Ea = (8.231, 'kcal/mol', '+|-', 1),
         T0 = (1, 'K'),
     ),
-    reference = None,
     referenceType = "theory",
     shortDesc = u"""TST calculations at M08SO/MG3S level by edames""",
     longDesc = 
@@ -305,8 +304,6 @@ Taken from entry: vinylCPDyl <=> product41
 """,
 )
 
-
-
 entry(
     index = 20,
     label = "C5H5 <=> C5H5-2",
@@ -358,8 +355,6 @@ u"""
 Taken from entry: prod_30 <=> prod_33
 """,
 )
-
-
 
 entry(
     index = 24,
@@ -477,8 +472,6 @@ u"""
 Taken from entry: pdt58 <=> pdt20
 """,
 )
-
-
 
 entry(
     index = 33,

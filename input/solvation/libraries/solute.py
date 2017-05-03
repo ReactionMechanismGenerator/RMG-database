@@ -2856,18 +2856,17 @@ Dummy values set to solve issue #285 on RMGPY
 """,
 )
 
-#chatelak: New  data found in litterature
 entry(
     index = 151,
     label = "N2",
-    molecule = 'N#N',
+    molecule = "N#N",
     solute = SoluteData(
         S = 0.0,
-        B = 0.00,
-        E = 0.00,
+        B = 0.0,
+        E = 0.0,
         L = -0.978,
-        A = 0.00,
-        V = 0.2222
+        A = 0.0,
+        V = 0.2222,
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2881,20 +2880,21 @@ DOI: 10.1039/B104682A
 entry(
     index = 152,
     label = "O2",
-    molecule = '[O][O]',
+    molecule = "[O][O]",
     solute = SoluteData(
         S = 0.0,
-        B = 0.00,
-        E = 0.00,
+        B = 0.0,
+        E = 0.0,
         L = -0.723,
-        A = 0.00,
-        V = 0.1830
+        A = 0.0,
+        V = 0.183,
     ),
     shortDesc = u"""""",
     longDesc = 
 u"""
 Michael H. Abraham,a Andreas M. Zissimos, a and William E. Acree, Jr.
 Phys. Chem. Chem. Phys., 2001,3, 3732-3736
-DOI: 10.1039/B104682A 
+DOI: 10.1039/B104682A
 """,
 )
+

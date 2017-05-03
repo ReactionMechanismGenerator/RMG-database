@@ -30,7 +30,12 @@ entry(
     kinetics = MultiArrhenius(
         arrhenius = [
             Arrhenius(A=(3.818e+12, 'cm^3/(mol*s)'), n=0, Ea=(7948, 'cal/mol'), T0=(1, 'K')),
-            Arrhenius(A=(8.792e+14, 'cm^3/(mol*s)'), n=0, Ea=(19170, 'cal/mol'), T0 = (1, 'K')),
+            Arrhenius(
+                A = (8.792e+14, 'cm^3/(mol*s)'),
+                n = 0,
+                Ea = (19170, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
         ],
     ),
     shortDesc = u"""Baulch et al., J. Phys. Chem. Ref. Data, 21:411 (1992)""",
@@ -40,7 +45,12 @@ entry(
     index = 3,
     label = "H2 + OH <=> H2O + H",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.16e+08, 'cm^3/(mol*s)'), n=1.51, Ea=(3430, 'cal/mol'), T0 = (1, 'K')),
+    kinetics = Arrhenius(
+        A = (2.16e+08, 'cm^3/(mol*s)'),
+        n = 1.51,
+        Ea = (3430, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
     shortDesc = u"""Michael and Sutherland, J. Phys. Chem. 92:3853 (1988)""",
 )
 
@@ -57,8 +67,13 @@ entry(
     label = "H2 <=> H + H",
     degeneracy = 1,
     kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(A=(4.577e+19, 'cm^3/(mol*s)'), n=-1.40, Ea=(104380, 'cal/mol'), T0 = (1, 'K')),
-        efficiencies = {'[H][H]': 2.5, 'O': 12, '[C-]#[O+]': 1.9, 'O=C=O': 3.8, '[Ar]': 0, '[He]': 0},
+        arrheniusLow = Arrhenius(
+            A = (4.577e+19, 'cm^3/(mol*s)'),
+            n = -1.4,
+            Ea = (104380, 'cal/mol'),
+            T0 = (1, 'K'),
+        ),
+        efficiencies = {'O=C=O': 3.8, 'O': 12, '[H][H]': 2.5, '[He]': 0, '[C-]#[O+]': 1.9, '[Ar]': 0},
     ),
     shortDesc = u"""Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)""",
 )
@@ -67,7 +82,12 @@ entry(
     index = 6,
     label = "H2 + Ar <=> H + H + Ar",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.84e+18, 'cm^3/(mol*s)'), n=-1.10, Ea=(104380, 'cal/mol'), T0 = (1, 'K')),
+    kinetics = Arrhenius(
+        A = (5.84e+18, 'cm^3/(mol*s)'),
+        n = -1.1,
+        Ea = (104380, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
     shortDesc = u"""Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)""",
 )
 
@@ -75,7 +95,12 @@ entry(
     index = 7,
     label = "H2 + He <=> H + H + He",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.84e+18, 'cm^3/(mol*s)'), n=-1.10, Ea=(104380, 'cal/mol'), T0 = (1, 'K')),
+    kinetics = Arrhenius(
+        A = (5.84e+18, 'cm^3/(mol*s)'),
+        n = -1.1,
+        Ea = (104380, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
     shortDesc = u"""Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)""",
 )
 
@@ -84,8 +109,13 @@ entry(
     label = "O + O <=> O2",
     degeneracy = 1,
     kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(A=(6.165e+15, 'cm^6/(mol^2*s)'), n=-0.50, Ea = (0, 'cal/mol'),T0 = (1, 'K')),
-        efficiencies = {'[H][H]': 2.5, 'O': 12, '[C-]#[O+]': 1.9, 'O=C=O': 3.8, '[Ar]': 0, '[He]': 0},
+        arrheniusLow = Arrhenius(
+            A = (6.165e+15, 'cm^6/(mol^2*s)'),
+            n = -0.5,
+            Ea = (0, 'cal/mol'),
+            T0 = (1, 'K'),
+        ),
+        efficiencies = {'O=C=O': 3.8, 'O': 12, '[H][H]': 2.5, '[He]': 0, '[C-]#[O+]': 1.9, '[Ar]': 0},
     ),
     shortDesc = u"""Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)""",
 )
@@ -94,7 +124,12 @@ entry(
     index = 9,
     label = "O + O + Ar <=> O2 + Ar",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.886e+13, 'cm^6/(mol^2*s)'), n=0, Ea=(-1788, 'cal/mol'), T0 = (1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.886e+13, 'cm^6/(mol^2*s)'),
+        n = 0,
+        Ea = (-1788, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
     shortDesc = u"""Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)""",
 )
 
@@ -102,7 +137,12 @@ entry(
     index = 10,
     label = "O + O + He <=> O2 + He",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.886e+13, 'cm^6/(mol^2*s)'), n=0, Ea=(-1788, 'cal/mol'), T0 = (1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.886e+13, 'cm^6/(mol^2*s)'),
+        n = 0,
+        Ea = (-1788, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
     shortDesc = u"""Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)""",
 )
 
@@ -112,7 +152,7 @@ entry(
     degeneracy = 1,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(4.714e+18, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-        efficiencies = {'[H][H]': 2.5, 'O': 12, '[C-]#[O+]': 1.9, 'O=C=O': 3.8, '[Ar]': 0.75, '[He]': 0.75},
+        efficiencies = {'O=C=O': 3.8, 'O': 12, '[H][H]': 2.5, '[He]': 0.75, '[C-]#[O+]': 1.9, '[Ar]': 0.75},
     ),
     shortDesc = u"""Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)""",
 )
@@ -122,8 +162,13 @@ entry(
     label = "H2O <=> H + OH",
     degeneracy = 1,
     kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(A=(6.064e+27, 'cm^3/(mol*s)'), n=-3.322, Ea=(120790, 'cal/mol'), T0 = (1, 'K')),
-        efficiencies = {'[H][H]': 3, 'O': 0, '[C-]#[O+]': 1.9, 'O=C=O': 3.8, '[O][O]': 1.5, '[He]': 1.1, 'N#N': 2},
+        arrheniusLow = Arrhenius(
+            A = (6.064e+27, 'cm^3/(mol*s)'),
+            n = -3.322,
+            Ea = (120790, 'cal/mol'),
+            T0 = (1, 'K'),
+        ),
+        efficiencies = {'O=C=O': 3.8, 'O': 0, '[H][H]': 3, '[He]': 1.1, '[O][O]': 1.5, 'N#N': 2, '[C-]#[O+]': 1.9},
     ),
     shortDesc = u"""Srinivasan and Michael, Int. J. Chem. Kinetic. 38 (2006)""",
     longDesc = 
@@ -138,7 +183,12 @@ entry(
     index = 13,
     label = "H2O + H2O <=> H + OH + H2O",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.006e+26, 'cm^3/(mol*s)'), n = -2.44, Ea = (120180, 'cal/mol'), T0 = (1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.006e+26, 'cm^3/(mol*s)'),
+        n = -2.44,
+        Ea = (120180, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
     shortDesc = u"""Srinivasan and Michael, Int. J. Chem. Kinetic. 38 (2006)""",
 )
 
@@ -147,12 +197,22 @@ entry(
     label = "H + O2 <=> HO2",
     degeneracy = 1,
     kinetics = Troe(
-        arrheniusHigh = Arrhenius(A=(4.65084e+12, 'cm^3/(mol*s)'), n=0.44, Ea=(0, 'cal/mol'), T0 = (1, 'K')),
-        arrheniusLow = Arrhenius(A=(9.042e+19, 'cm^6/(mol^2*s)'), n = -1.50, Ea = (492.2, 'cal/mol'), T0 = (1, 'K')),
+        arrheniusHigh = Arrhenius(
+            A = (4.65084e+12, 'cm^3/(mol*s)'),
+            n = 0.44,
+            Ea = (0, 'cal/mol'),
+            T0 = (1, 'K'),
+        ),
+        arrheniusLow = Arrhenius(
+            A = (9.042e+19, 'cm^6/(mol^2*s)'),
+            n = -1.5,
+            Ea = (492.2, 'cal/mol'),
+            T0 = (1, 'K'),
+        ),
         alpha = 0.5,
         T3 = (1e-30, 'K'),
         T1 = (1e+30, 'K'),
-        efficiencies = {'[H][H]': 3, '[O][O]': 1.1, '[C-]#[O+]': 2.7, 'O=C=O': 5.4, 'O': 21, '[He]': 1.2, 'N#N': 1.5},
+        efficiencies = {'O=C=O': 5.4, 'O': 21, '[H][H]': 3, '[He]': 1.2, '[O][O]': 1.1, 'N#N': 1.5, '[C-]#[O+]': 2.7},
     ),
     shortDesc = u"""MAIN BATH GAS IS Ar or He""",
     longDesc = 
@@ -167,7 +227,12 @@ entry(
     index = 15,
     label = "HO2 + H <=> H2 + O2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.75e+06, 'cm^3/(mol*s)'), n = 2.09, Ea = (-1451, 'cal/mol'), T0 = (1, 'K')),
+    kinetics = Arrhenius(
+        A = (2.75e+06, 'cm^3/(mol*s)'),
+        n = 2.09,
+        Ea = (-1451, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
     shortDesc = u"""Michael et al., Proc. Comb. Inst. 28:1471 (2000)""",
     longDesc = 
 u"""
@@ -188,7 +253,12 @@ entry(
     index = 17,
     label = "HO2 + O <=> O2 + OH",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.85e+10, 'cm^3/(mol*s)'), n = 1, Ea = (-723.93, 'cal/mol'), T0 = (1, 'K')),
+    kinetics = Arrhenius(
+        A = (2.85e+10, 'cm^3/(mol*s)'),
+        n = 1,
+        Ea = (-723.93, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
     shortDesc = u"""Fernandez-Ramos and Varandas, J. Phys. Chem. A 106:4077-4083 (2002)""",
     longDesc = 
 u"""
@@ -213,7 +283,12 @@ entry(
     kinetics = MultiArrhenius(
         arrhenius = [
             Arrhenius(A=(4.2e+14, 'cm^3/(mol*s)'), n=0, Ea=(11982, 'cal/mol'), T0=(1, 'K')),
-            Arrhenius(A=(1.3e+11, 'cm^3/(mol*s)'), n=0, Ea=(-1629.3, 'cal/mol'), T0 = (1, 'K')),
+            Arrhenius(
+                A = (1.3e+11, 'cm^3/(mol*s)'),
+                n = 0,
+                Ea = (-1629.3, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
         ],
     ),
     shortDesc = u"""Hippler et al., J. Chem. Phys. 93:1755 (1990)""",
@@ -225,11 +300,16 @@ entry(
     degeneracy = 1,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2e+12, 's^-1'), n=0.9, Ea=(48749, 'cal/mol'), T0=(1, 'K')),
-        arrheniusLow = Arrhenius(A=(2.49e+24, 'cm^3/(mol*s)'), n=-2.3, Ea=(48749, 'cal/mol'), T0=(1, 'K')),
+        arrheniusLow = Arrhenius(
+            A = (2.49e+24, 'cm^3/(mol*s)'),
+            n = -2.3,
+            Ea = (48749, 'cal/mol'),
+            T0 = (1, 'K'),
+        ),
         alpha = 0.43,
         T3 = (1e-30, 'K'),
         T1 = (1e+30, 'K'),
-        efficiencies = {'[H][H]': 3.7, 'O': 7.5, '[O][O]': 1.2, 'N#N': 1.5, '[C-]#[O+]': 2.8, 'OO': 7.7, 'O=C=O': 1.6, '[He]': 0.65},
+        efficiencies = {'OO': 7.7, 'O=C=O': 1.6, 'O': 7.5, '[H][H]': 3.7, '[He]': 0.65, '[O][O]': 1.2, 'N#N': 1.5, '[C-]#[O+]': 2.8},
     ),
     shortDesc = u"""Troe, Combust. Flame, 158:594-601 (2011)""",
     longDesc = 
@@ -274,6 +354,7 @@ entry(
             Arrhenius(A=(7.59e+13, 'cm^3/(mol*s)'), n=0, Ea=(7270, 'cal/mol'), T0=(1, 'K')),
         ],
     ),
-    shortDesc = u"""Hong et al., J. Phys. Chem. A 114 (2010) 5718–5727""",
+    shortDesc = u"""Hong et al., J. Phys. Chem. A 114 (2010) 57185727
+""",
 )
 

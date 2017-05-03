@@ -16,11 +16,10 @@ o-vibrational property analyses carried out at the B3LYP/cc-pVTZ level of theory
 Paper: http://pubs.acs.org/doi/abs/10.1021/acs.jpca.6b05723
 Supp Info: http://pubs.acs.org/doi/suppl/10.1021/acs.jpca.6b05723
 """
-
 entry(
     index = 1,
     label = "C2H3NO2",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,D} {6,S} {7,S}
 2 C u0 p0 c0 {1,D} {3,S} {8,S}
@@ -40,7 +39,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -49,18 +48,18 @@ u"""
 entry(
     index = 2,
     label = "C2H5NO2",
-    molecule =
+    molecule = 
 """
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
-3  N u0 p0 c+1 {2,S} {4,S} {5,D}
-4  O u0 p3 c-1 {3,S}
-5  O u0 p2 c0 {3,D}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  N u0 p0 c+1 {1,S} {9,S} {10,D}
+4  H u0 p0 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  O u0 p3 c-1 {3,S}
+10 O u0 p2 c0 {3,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -71,7 +70,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -80,7 +79,7 @@ u"""
 entry(
     index = 3,
     label = "C2H5ONO2",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
@@ -103,7 +102,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -112,18 +111,18 @@ u"""
 entry(
     index = 4,
     label = "C2H5ONO",
-    molecule =
+    molecule = 
 """
-1  O u0 p2 c0 {2,D}
-2  N u0 p1 c0 {1,D} {3,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-5  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
-6  H u0 p0 c0 {4,S}
-7  H u0 p0 c0 {4,S}
-8  H u0 p0 c0 {5,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  O u0 p2 c0 {1,S} {4,S}
+4  N u0 p1 c0 {3,S} {10,D}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 O u0 p2 c0 {4,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -134,7 +133,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 Data taken from the cis form, which is the more favorable conformation due to lower enthalpy of formation
 Appears in original paper as C2H5ONOcis
@@ -145,8 +144,9 @@ Data for C2H5ONOtrans was ignored
 entry(
     index = 5,
     label = "CH2CN",
-    molecule =
+    molecule = 
 """
+multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
 2 H u0 p0 c0 {1,S}
 3 H u0 p0 c0 {1,S}
@@ -162,7 +162,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -171,7 +171,7 @@ u"""
 entry(
     index = 6,
     label = "CH2NH",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 N u0 p1 c0 {1,D} {5,S}
@@ -188,7 +188,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -197,8 +197,9 @@ u"""
 entry(
     index = 7,
     label = "CH2NH2",
-    molecule =
+    molecule = 
 """
+multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
 3 H u0 p0 c0 {1,S}
@@ -215,7 +216,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -224,7 +225,7 @@ u"""
 entry(
     index = 8,
     label = "CH3CN",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -242,7 +243,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -251,14 +252,15 @@ u"""
 entry(
     index = 9,
     label = "CH3NH",
-    molecule =
+    molecule = 
 """
-1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2 N u1 p1 c0 {1,S} {3,S}
-3 H u0 p0 c0 {2,S}
+multiplicity 2
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 N u1 p1 c0 {1,S} {6,S}
+3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -269,7 +271,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -278,7 +280,7 @@ u"""
 entry(
     index = 10,
     label = "CH3NH2",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -297,7 +299,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -306,7 +308,7 @@ u"""
 entry(
     index = 11,
     label = "CH3NO",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -324,7 +326,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -333,15 +335,15 @@ u"""
 entry(
     index = 12,
     label = "CH3NO2",
-    molecule =
+    molecule = 
 """
-1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-2 N u0 p0 c+1 {1,S} {3,D} {4,S}
-3 O u0 p2 c0 {2,D}
-4 O u0 p3 c-1 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 N u0 p0 c+1 {1,S} {6,D} {7,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
+6 O u0 p2 c0 {2,D}
+7 O u0 p3 c-1 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -352,7 +354,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -361,7 +363,7 @@ u"""
 entry(
     index = 13,
     label = "CH3ONO2",
-    molecule =
+    molecule = 
 """
 1 O u0 p3 c-1 {2,S}
 2 N u0 p0 c+1 {1,S} {3,D} {4,S}
@@ -381,7 +383,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -390,15 +392,15 @@ u"""
 entry(
     index = 14,
     label = "CH3ONO",
-    molecule =
+    molecule = 
 """
-1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
-3 N u0 p1 c0 {2,S} {4,D}
-4 O u0 p2 c0 {3,D}
+3 N u0 p1 c0 {2,S} {7,D}
+4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
+7 O u0 p2 c0 {3,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -409,7 +411,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 Data taken from the cis form, which is the more favorable conformation due to lower enthalpy of formation
 Appears in original paper as CH3ONOcis
@@ -420,7 +422,7 @@ Data for CH3ONOtrans was ignored
 entry(
     index = 15,
     label = "CN",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u1 p0 c0 {2,T}
@@ -435,7 +437,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -444,7 +446,7 @@ u"""
 entry(
     index = 16,
     label = "H2CN",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -461,7 +463,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -470,7 +472,7 @@ u"""
 entry(
     index = 17,
     label = "H2CNO",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
@@ -488,7 +490,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -497,7 +499,7 @@ u"""
 entry(
     index = 18,
     label = "H2CNO2",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {5,S} {6,S}
@@ -516,7 +518,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -525,7 +527,7 @@ u"""
 entry(
     index = 19,
     label = "H2NN",
-    molecule =
+    molecule = 
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 H u0 p0 c0 {1,S}
@@ -541,7 +543,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -550,7 +552,7 @@ u"""
 entry(
     index = 20,
     label = "H2NO",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -567,7 +569,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -576,7 +578,7 @@ u"""
 entry(
     index = 21,
     label = "HCN",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 N u0 p1 c0 {1,T}
@@ -591,7 +593,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -600,13 +602,13 @@ u"""
 entry(
     index = 22,
     label = "HCNH",
-    molecule =
+    molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 N u0 p1 c0 {1,D} {4,S}
-4 H u0 p0 c0 {3,S}
+1 C u1 p0 c0 {2,D} {3,S}
+2 N u0 p1 c0 {1,D} {4,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -617,7 +619,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 Data taken from the trans form, which is the more favorable conformation due to lower enthalpy of formation
 Appears in original paper as HCNHtrans
@@ -628,7 +630,7 @@ Data for HCNHcis was ignored
 entry(
     index = 23,
     label = "HCNN",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,D}
@@ -645,7 +647,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -654,12 +656,12 @@ u"""
 entry(
     index = 24,
     label = "HCNO",
-    molecule =
+    molecule = 
 """
-1 O u0 p3 c-1 {2,S}
-2 N u0 p0 c+1 {1,S} {3,T}
-3 C u0 p0 c0 {2,T} {4,S}
-4 H u0 p0 c0 {3,S}
+1 N u0 p0 c+1 {2,T} {3,S}
+2 C u0 p0 c0 {1,T} {4,S}
+3 O u0 p3 c-1 {1,S}
+4 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -670,7 +672,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -679,7 +681,7 @@ u"""
 entry(
     index = 25,
     label = "HNCO",
-    molecule =
+    molecule = 
 """
 1 N u0 p1 c0 {2,D} {4,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -695,7 +697,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -704,11 +706,11 @@ u"""
 entry(
     index = 26,
     label = "HNC",
-    molecule =
+    molecule = 
 """
-1 C u0 p1 c-1 {2,T}
-2 N u0 p0 c+1 {1,T} {3,S}
-3 H u0 p0 c0 {2,S}
+1 N u0 p0 c+1 {2,T} {3,S}
+2 C u0 p1 c-1 {1,T}
+3 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -719,7 +721,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""Hydrogen isocyanide""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -728,7 +730,7 @@ u"""
 entry(
     index = 27,
     label = "HNNO",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 O u0 p2 c0 {2,D}
@@ -745,7 +747,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 Data taken from the trans form, which is the more favorable conformation due to lower enthalpy of formation
 Appears in original paper as HNNOtrans
@@ -756,7 +758,7 @@ Data for HNNOcis was ignored
 entry(
     index = 28,
     label = "HNO",
-    molecule =
+    molecule = 
 """
 1 N u0 p1 c0 {2,D} {3,S}
 2 O u0 p2 c0 {1,D}
@@ -771,7 +773,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -780,7 +782,7 @@ u"""
 entry(
     index = 29,
     label = "HNO2",
-    molecule =
+    molecule = 
 """
 1 N u0 p0 c+1 {2,S} {3,S} {4,D}
 2 H u0 p0 c0 {1,S}
@@ -796,7 +798,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -805,13 +807,13 @@ u"""
 entry(
     index = 30,
     label = "HNOH",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 N u1 p1 c0 {2,S} {3,S}
-2 H u0 p0 c0 {1,S}
-3 O u0 p2 c0 {1,S} {4,S}
-4 H u0 p0 c0 {3,S}
+2 O u0 p2 c0 {1,S} {4,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -822,7 +824,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 Data taken from the trans form, which is the more favorable conformation due to lower enthalpy of formation
 appears in original paper as HNOHtrans
@@ -833,7 +835,7 @@ Data for HNOHcis was ignored
 entry(
     index = 31,
     label = "HOCN",
-    molecule =
+    molecule = 
 """
 1 O u0 p2 c0 {2,S} {4,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -849,7 +851,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -858,7 +860,7 @@ u"""
 entry(
     index = 32,
     label = "HONO2",
-    molecule =
+    molecule = 
 """
 1 N u0 p0 c+1 {2,D} {3,S} {4,S}
 2 O u0 p2 c0 {1,D}
@@ -875,7 +877,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -884,12 +886,12 @@ u"""
 entry(
     index = 33,
     label = "HONO",
-    molecule =
+    molecule = 
 """
-1 O u0 p2 c0 {2,D}
-2 N u0 p1 c0 {1,D} {3,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 H u0 p0 c0 {3,S}
+1 N u0 p1 c0 {2,S} {3,D}
+2 O u0 p2 c0 {1,S} {4,S}
+3 O u0 p2 c0 {1,D}
+4 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -900,7 +902,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 Data taken from the trans form, which is the more favorable conformation due to lower enthalpy of formation
 appears in original paper as HONOtrans
@@ -911,7 +913,7 @@ Data for HONOcis was ignored
 entry(
     index = 34,
     label = "HON(S)",
-    molecule =
+    molecule = 
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 N u0 p2 c0 {1,S}
@@ -926,7 +928,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -935,8 +937,9 @@ u"""
 entry(
     index = 35,
     label = "HON(T)",
-    molecule =
+    molecule = 
 """
+multiplicity 3
 1 O u0 p2 c0 {2,S} {3,S}
 2 N u2 p1 c0 {1,S}
 3 H u0 p0 c0 {1,S}
@@ -950,7 +953,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -959,7 +962,7 @@ u"""
 entry(
     index = 36,
     label = "N2H2trans",
-    molecule =
+    molecule = 
 """
 1 N u0 p1 c0 {2,D} {3,S}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -975,7 +978,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 Data taken from the trans form, which is the more favorable conformation due to lower enthalpy of formation
 appears in original paper as N2H2trans
@@ -986,7 +989,7 @@ Data for N2H2cis was ignored
 entry(
     index = 37,
     label = "N2H3",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 N u1 p1 c0 {2,S} {3,S}
@@ -1004,7 +1007,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -1013,7 +1016,7 @@ u"""
 entry(
     index = 38,
     label = "N2H4",
-    molecule =
+    molecule = 
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -1031,7 +1034,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -1040,7 +1043,7 @@ u"""
 entry(
     index = 39,
     label = "N2O",
-    molecule =
+    molecule = 
 """
 1 N u0 p1 c0 {2,T}
 2 N u0 p0 c+1 {1,T} {3,S}
@@ -1055,7 +1058,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -1064,7 +1067,7 @@ u"""
 entry(
     index = 40,
     label = "N2O3",
-    molecule =
+    molecule = 
 """
 1 O u0 p3 c-1 {2,S}
 2 N u0 p0 c+1 {1,S} {3,D} {4,S}
@@ -1081,7 +1084,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""Dinitrogen trioxide""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -1090,7 +1093,7 @@ u"""
 entry(
     index = 41,
     label = "N2O4",
-    molecule =
+    molecule = 
 """
 1 O u0 p3 c-1 {2,S}
 2 N u0 p0 c+1 {1,S} {3,D} {4,S}
@@ -1108,7 +1111,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""Dinitrogen tetroxide""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -1117,7 +1120,7 @@ u"""
 entry(
     index = 42,
     label = "NCCN",
-    molecule =
+    molecule = 
 """
 1 N u0 p1 c0 {2,T}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -1133,7 +1136,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -1142,7 +1145,7 @@ u"""
 entry(
     index = 43,
     label = "NCN",
-    molecule =
+    molecule = 
 """
 multiplicity 3
 1 N u1 p1 c0 {2,D}
@@ -1158,7 +1161,7 @@ multiplicity 3
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -1167,7 +1170,7 @@ u"""
 entry(
     index = 44,
     label = "NCO",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 N u1 p1 c0 {2,D}
@@ -1183,7 +1186,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -1192,7 +1195,7 @@ u"""
 entry(
     index = 45,
     label = "NH2",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 N u1 p1 c0 {2,S} {3,S}
@@ -1208,7 +1211,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -1217,7 +1220,7 @@ u"""
 entry(
     index = 46,
     label = "NH2OH",
-    molecule =
+    molecule = 
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -1234,7 +1237,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""Hydroxylamine""",
-    longDesc =
+    longDesc = 
 u"""
 Data taken from the trans form, which is the more favorable conformation due to lower enthalpy of formation
 appears in original paper as NH2OHtrans
@@ -1245,7 +1248,7 @@ Data for NH2OHcis was ignored
 entry(
     index = 47,
     label = "NH3",
-    molecule =
+    molecule = 
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 H u0 p0 c0 {1,S}
@@ -1261,7 +1264,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -1270,7 +1273,7 @@ u"""
 entry(
     index = 48,
     label = "NH",
-    molecule =
+    molecule = 
 """
 multiplicity 3
 1 N u2 p1 c0 {2,S}
@@ -1285,7 +1288,7 @@ multiplicity 3
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -1294,7 +1297,7 @@ u"""
 entry(
     index = 49,
     label = "NNH",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 N u1 p1 c0 {2,D}
@@ -1310,7 +1313,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -1319,7 +1322,7 @@ u"""
 entry(
     index = 50,
     label = "NO",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 N u1 p1 c0 {2,D}
@@ -1334,7 +1337,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -1343,7 +1346,7 @@ u"""
 entry(
     index = 51,
     label = "NO2",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 N u0 p1 c0 {2,D} {3,S}
@@ -1359,7 +1362,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -1368,7 +1371,7 @@ u"""
 entry(
     index = 52,
     label = "NO3",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 O u0 p2 c0 {2,D}
@@ -1385,7 +1388,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,

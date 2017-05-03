@@ -1786,17 +1786,16 @@ L1: doublebond
 """
 )
 
-
 forbidden(
     label = "benzene_db",
     group = 
 """
-1 *1 Cd u0 {2,D} {6,S} 
+1 *1 Cd u0 {2,D} {6,S}
 2 *2 Cd u0 {1,D} {3,S}
 3    Cd ux {2,S} {4,D}
-4    Cd ux {3,D} {5,S} 
+4    Cd ux {3,D} {5,S}
 5    Cd ux {4,S} {6,D}
-6    Cd ux {5,D} {1,S} 
+6    Cd ux {1,S} {5,D}
 """,
     shortDesc = u"""Benzene doublebond *1 *2""",
     longDesc = 
@@ -1809,12 +1808,12 @@ forbidden(
     label = "benzene_doublebond",
     group = 
 """
-1 *3 Cd u0 {2,D} {6,S} 
+1 *3 Cd u0 {2,D} {6,S}
 2 *4 Cd u0 {1,D} {3,S}
 3    Cd ux {2,S} {4,D}
-4    Cd ux {3,D} {5,S} 
+4    Cd ux {3,D} {5,S}
 5    Cd ux {4,S} {6,D}
-6    Cd ux {5,D} {1,S} 
+6    Cd ux {1,S} {5,D}
 """,
     shortDesc = u"""Benzene doublebond *3 *4""",
     longDesc = 
@@ -1822,3 +1821,4 @@ u"""
 Banning the doublebond within Benzene from reacting in 2+2 cycloaddition.
 """,
 )
+

@@ -1516,7 +1516,7 @@ entry(
     label = "CH3CH2NH2_1 + H <=> CH2CH2NH2 + H2",
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (9.07e+04, 'cm^3/(mol*s)'),
+        A = (90700, 'cm^3/(mol*s)'),
         n = 2.75,
         Ea = (6800, 'cal/mol'),
         T0 = (1, 'K'),
@@ -1536,7 +1536,7 @@ entry(
     label = "CH3CH2NH2_2 + H <=> CH3CHNH2 + H2",
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (9.54e+03, 'cm^3/(mol*s)'),
+        A = (9540, 'cm^3/(mol*s)'),
         n = 2.94,
         Ea = (500, 'cal/mol'),
         T0 = (1, 'K'),
@@ -1556,7 +1556,7 @@ entry(
     label = "CH3CH2NH2_3 + H <=> CH3CH2NH + H2",
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (8.04e+04, 'cm^3/(mol*s)'),
+        A = (80400, 'cm^3/(mol*s)'),
         n = 2.64,
         Ea = (5500, 'cal/mol'),
         T0 = (1, 'K'),
@@ -1576,7 +1576,7 @@ entry(
     label = "CH3CH2NH2_1 + CH3 <=> CH2CH2NH2 + CH4",
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (3.28e-04, 'cm^3/(mol*s)'),
+        A = (0.000328, 'cm^3/(mol*s)'),
         n = 4.85,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
@@ -1596,7 +1596,7 @@ entry(
     label = "CH3CH2NH2_2 + CH3 <=> CH3CHNH2 + CH4",
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (2.76e-02, 'cm^3/(mol*s)'),
+        A = (0.0276, 'cm^3/(mol*s)'),
         n = 4.23,
         Ea = (4200, 'cal/mol'),
         T0 = (1, 'K'),
@@ -1616,7 +1616,7 @@ entry(
     label = "CH3CH2NH2_3 + CH3 <=> CH3CH2NH + CH4",
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (1.27e-02, 'cm^3/(mol*s)'),
+        A = (0.0127, 'cm^3/(mol*s)'),
         n = 4.41,
         Ea = (4800, 'cal/mol'),
         T0 = (1, 'K'),
@@ -1636,7 +1636,7 @@ entry(
     label = "CH3CH2NH2_1 + NH2 <=> CH2CH2NH2 + NH3",
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (1.44e-02, 'cm^3/(mol*s)'),
+        A = (0.0144, 'cm^3/(mol*s)'),
         n = 4.43,
         Ea = (3600, 'cal/mol'),
         T0 = (1, 'K'),
@@ -1656,7 +1656,7 @@ entry(
     label = "CH3CH2NH2_2 + NH2 <=> CH3CHNH2 + NH3",
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (1.28e+00, 'cm^3/(mol*s)'),
+        A = (1.28, 'cm^3/(mol*s)'),
         n = 3.75,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
@@ -1676,7 +1676,7 @@ entry(
     label = "CH3CH2NH2_3 + NH2 <=> CH3CH2NH + NH3",
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (9.73e-02, 'cm^3/(mol*s)'),
+        A = (0.0973, 'cm^3/(mol*s)'),
         n = 4.03,
         Ea = (1900, 'cal/mol'),
         T0 = (1, 'K'),
@@ -1696,7 +1696,7 @@ entry(
     label = "CH3CH2NH2_1 + OH <=> CH2CH2NH2 + H2O",
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (7.94e+02, 'cm^3/(mol*s)'),
+        A = (794, 'cm^3/(mol*s)'),
         n = 2.97,
         Ea = (-1040, 'cal/mol'),
         T0 = (1, 'K'),
@@ -1719,7 +1719,7 @@ entry(
     label = "CH3CH2NH2_2 + OH <=> CH3CHNH2 + H2O",
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (3.28e+05, 'cm^3/(mol*s)'),
+        A = (328000, 'cm^3/(mol*s)'),
         n = 2.24,
         Ea = (-3040, 'cal/mol'),
         T0 = (1, 'K'),
@@ -1742,7 +1742,7 @@ entry(
     label = "CH3CH2NH2_3 + OH <=> CH3CH2NH + H2O",
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (1.12e+05, 'cm^3/(mol*s)'),
+        A = (112000, 'cm^3/(mol*s)'),
         n = 2.36,
         Ea = (-2860, 'cal/mol'),
         T0 = (1, 'K'),
@@ -1785,8 +1785,8 @@ entry(
     label = "N2H4 + CH3 <=> N2H3 + CH4",
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (1.77e+01, 'cm^3/(mol*s)'),
-        n = 3.60,
+        A = (17.7, 'cm^3/(mol*s)'),
+        n = 3.6,
         Ea = (3500, 'cal/mol'),
         T0 = (1, 'K'),
         Tmin = (700, 'K'),
@@ -1805,7 +1805,7 @@ entry(
     label = "N2H4 + NH2 <=> N2H3 + NH3",
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (2.59e+03, 'cm^3/(mol*s)'),
+        A = (2590, 'cm^3/(mol*s)'),
         n = 2.83,
         Ea = (700, 'cal/mol'),
         T0 = (1, 'K'),
@@ -1825,7 +1825,7 @@ entry(
     label = "CH3CHNH_1 + H <=> CH2CHNH + H2",
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (3.98e+04, 'cm^3/(mol*s)'),
+        A = (39800, 'cm^3/(mol*s)'),
         n = 2.76,
         Ea = (4400, 'cal/mol'),
         T0 = (1, 'K'),
@@ -1865,7 +1865,7 @@ entry(
     label = "NH + CH4b <=> NH2b + CH3b",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (9e13, 'cm^3/(mol*s)', '*|/', 1.5),
+        A = (9e+13, 'cm^3/(mol*s)', '*|/', 1.5),
         n = 0,
         Ea = (84, 'kJ/mol', '+|-', 5),
         T0 = (1, 'K'),
@@ -1874,13 +1874,13 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Wagner""",
-    longDesc =
+    longDesc = 
 u"""
 Experimental measurements
 
-Michael Röhrig and Heinz Georg Wagner
-A kinetic study about the reactions of NH(X3Σ−) with hydrocarbons part 1: Saturated hydrocarbons and acetaldehyde
-Berichte der Bunsengesellschaft für physikalische Chemie Volume 98, Issue 6, pages 858–863, June 1994
+Michael Rhrig and Heinz Georg Wagner
+A kinetic study about the reactions of NH(X3) with hydrocarbons part 1: Saturated hydrocarbons and acetaldehyde
+Berichte der Bunsengesellschaft fr physikalische Chemie Volume 98, Issue 6, pages 858863, June 1994
 DOI: 10.1002/bbpc.19940980615
 """,
 )
@@ -1890,7 +1890,7 @@ entry(
     label = "NH + C2H6 <=> NH2b + C2H5b",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (7e13, 'cm^3/(mol*s)', '*|/', 1.75),
+        A = (7e+13, 'cm^3/(mol*s)', '*|/', 1.75),
         n = 0,
         Ea = (70, 'kJ/mol', '+|-', 5),
         T0 = (1, 'K'),
@@ -1899,13 +1899,13 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Wagner""",
-    longDesc =
+    longDesc = 
 u"""
 Experimental measurements
 
-Michael Röhrig and Heinz Georg Wagner
-A kinetic study about the reactions of NH(X3Σ−) with hydrocarbons part 1: Saturated hydrocarbons and acetaldehyde
-Berichte der Bunsengesellschaft für physikalische Chemie Volume 98, Issue 6, pages 858–863, June 1994
+Michael Rhrig and Heinz Georg Wagner
+A kinetic study about the reactions of NH(X3) with hydrocarbons part 1: Saturated hydrocarbons and acetaldehyde
+Berichte der Bunsengesellschaft fr physikalische Chemie Volume 98, Issue 6, pages 858863, June 1994
 DOI: 10.1002/bbpc.19940980615
 """,
 )
@@ -1915,7 +1915,7 @@ entry(
     label = "NH + HNCO <=> NH2b + NCO",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (6.26e12, 'cm^3/(mol*s)'),
+        A = (6.26e+12, 'cm^3/(mol*s)'),
         n = 1.82,
         Ea = (99.82, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -1924,12 +1924,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Sun""",
-    longDesc =
+    longDesc = 
 u"""
 calculated at UQCISD(T)/6-311G** level
 Zhen-Feng Xu and Jia-Zhong Sun
-Theoretical Study on the Reaction Path and Variational Rate Constant of the Reaction HNCO + NH → NCO + NH2
-J. Phys. Chem. A, 1998, 102 (7), pp 1194–1199
+Theoretical Study on the Reaction Path and Variational Rate Constant of the Reaction HNCO + NH  NCO + NH2
+J. Phys. Chem. A, 1998, 102 (7), pp 11941199
 DOI: 10.1021/jp972959n
 """,
 )
+

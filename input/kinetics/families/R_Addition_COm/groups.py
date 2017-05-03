@@ -88,7 +88,7 @@ entry(
     label = "O_rad/NonDe",
     group = 
 """
-1 *2 O      u1 {2,S}
+1 *2 O        u1 {2,S}
 2    [Cs,O,S] u0 {1,S}
 """,
     kinetics = None,

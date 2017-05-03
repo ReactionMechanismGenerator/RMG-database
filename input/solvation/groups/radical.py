@@ -61,29 +61,6 @@ u"""
 )
 
 entry(
-    index = 3,
-    label = "ROOJ",
-    group = 
-"""
-1 * O u1 p2 c0 {2,S}
-2   O u0 p2 {1,S} {3,S}
-3   R u0 {2,S}
-""",
-    solute = SoluteData(
-        S = 0.0,
-        B = 0.0,
-        E = 0.0,
-        L = 0.0,
-        A = -0.345,
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 4,
     label = "RC(O)OJ",
     group = 
@@ -108,11 +85,56 @@ u"""
 )
 
 entry(
+    index = 3,
+    label = "ROOJ",
+    group = 
+"""
+1 * O u1 p2 c0 {2,S}
+2   O u0 p2 {1,S} {3,S}
+3   R u0 {2,S}
+""",
+    solute = SoluteData(
+        S = 0.0,
+        B = 0.0,
+        E = 0.0,
+        L = 0.0,
+        A = -0.345,
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 7,
+    label = "phenoxy",
+    group = 
+"""
+1 * O  u1 p2 c0 {2,S}
+2   Cb u0 {1,S}
+""",
+    solute = SoluteData(
+        S = 0.0,
+        B = 0.0,
+        E = 0.0,
+        L = 0.0,
+        A = -0.543,
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 5,
     label = "N3s_rad",
     group = 
 """
-1 * N3s u1 p1 
+1 * N3s u1 p1
 """,
     solute = SoluteData(
         S = 0.0,
@@ -145,28 +167,6 @@ entry(
         E = 0.0,
         L = 0.0,
         A = -0.371,
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 7,
-    label = "phenoxy",
-    group = 
-"""
-1 * O  u1 p2 c0 {2,S}
-2   Cb u0 {1,S}
-""",
-    solute = SoluteData(
-        S = 0.0,
-        B = 0.0,
-        E = 0.0,
-        L = 0.0,
-        A = -0.543,
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -228,6 +228,32 @@ u"""
 )
 
 entry(
+    index = 12,
+    label = "N3_urea_pri",
+    group = 
+"""
+1 * N3s u1 p1 c0 {2,S} {3,S}
+2   R!H u0 p0 c0 {1,S}
+3   CO  u0 {1,S} {4,D} {5,S}
+4   O   u0 p2 {3,D}
+5   N3s u0 p1 {3,S} {6,S}
+6   H   u0 p0 c0 {5,S}
+""",
+    solute = SoluteData(
+        S = 0.0,
+        B = 0.0,
+        E = 0.0,
+        L = 0.0,
+        A = 0.0825,
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 10,
     label = "N3_amide_sec",
     group = 
@@ -243,30 +269,6 @@ entry(
         E = 0.0,
         L = 0.0,
         A = -0.281,
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 11,
-    label = "N3_amide_aromatic",
-    group = 
-"""
-1 * N3s      u1 p1 c0 {2,S} {3,S}
-2   [Cb,N3b] u0 {1,S}
-3   CO       u0 {1,S} {4,D}
-4   O        u0 p2 {3,D}
-""",
-    solute = SoluteData(
-        S = 0.0,
-        B = 0.0,
-        E = 0.0,
-        L = 0.0,
-        A = 0.091,
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -329,6 +331,30 @@ u"""
 )
 
 entry(
+    index = 11,
+    label = "N3_amide_aromatic",
+    group = 
+"""
+1 * N3s      u1 p1 c0 {2,S} {3,S}
+2   [Cb,N3b] u0 {1,S}
+3   CO       u0 {1,S} {4,D}
+4   O        u0 p2 {3,D}
+""",
+    solute = SoluteData(
+        S = 0.0,
+        B = 0.0,
+        E = 0.0,
+        L = 0.0,
+        A = 0.091,
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 14,
     label = "N3d_guanidine",
     group = 
@@ -347,7 +373,7 @@ entry(
         B = 0.0,
         E = 0.0,
         L = 0.0,
-        A = -0.17
+        A = -0.17,
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -355,6 +381,7 @@ u"""
 
 """,
 )
+
 tree(
 """
 L1: R_rad

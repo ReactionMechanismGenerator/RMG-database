@@ -46,7 +46,6 @@ OH*+CH4<=>OH+CH4                                   3.360E+12    0.500     -635.0
 OH*+Ar<=>OH+Ar                                     1.250E+10    0.500        0.00
 OH*+He<=>OH+He                                     1.950E+09    0.500        0.00
 """
-
 entry(
     index = 1,
     label = "H + O2 <=> O + OH",
@@ -65,12 +64,7 @@ entry(
     degeneracy = 1,
     kinetics = MultiArrhenius(
         arrhenius = [
-            Arrhenius(
-                A = (3.848e+12, 'cm^3/(mol*s)'),
-                n = 0,
-                Ea = (7950, 'cal/mol'),
-                T0 = (1, 'K'),
-            ),
+            Arrhenius(A=(3.848e+12, 'cm^3/(mol*s)'), n=0, Ea=(7950, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(
                 A = (6.687e+14, 'cm^3/(mol*s)'),
                 n = 0,
@@ -97,12 +91,7 @@ entry(
     index = 4,
     label = "OH + OH <=> O + H2O",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (31610, 'cm^3/(mol*s)'),
-        n = 2.42,
-        Ea = (-1928, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(31610, 'cm^3/(mol*s)'), n=2.42, Ea=(-1928, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -116,7 +105,7 @@ entry(
             Ea = (104390, 'cal/mol'),
             T0 = (1, 'K'),
         ),
-        efficiencies = {'[Ar]': 0, '[He]': 0, 'N#N': 1.01, '[H][H]': 2.55, 'O': 12.02, '[C-]#[O+]': 1.95, 'O=C=O': 3.83, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 3.83, 'CC': 3, 'O': 12.02, 'C=O': 2.5, '[H][H]': 2.55, '[He]': 0, 'N#N': 1.01, '[C-]#[O+]': 1.95, '[Ar]': 0},
     ),
 )
 
@@ -155,7 +144,7 @@ entry(
             Ea = (0, 'cal/mol'),
             T0 = (1, 'K'),
         ),
-        efficiencies = {'[Ar]': 0, '[He]': 0, '[H][H]': 2.50, 'O': 12.00, '[C-]#[O+]': 1.90, 'O=C=O': 3.80, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 3.8, 'CC': 3, 'O': 12, 'C=O': 2.5, '[H][H]': 2.5, '[He]': 0, '[C-]#[O+]': 1.9, '[Ar]': 0},
     ),
 )
 
@@ -189,7 +178,7 @@ entry(
     degeneracy = 1,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(4.71e+18, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-        efficiencies = {'[Ar]': 0.75, '[He]': 0.75, 'N#N': 1.32, '[H][H]': 2.50, 'O': 15.80, '[C-]#[O+]': 2.52, 'O=C=O': 5.01, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 5.01, 'CC': 3, 'O': 15.8, 'C=O': 2.5, '[H][H]': 2.5, '[He]': 0.75, 'N#N': 1.32, '[C-]#[O+]': 2.52, '[Ar]': 0.75},
     ),
 )
 
@@ -204,7 +193,7 @@ entry(
             Ea = (120800, 'cal/mol'),
             T0 = (1, 'K'),
         ),
-        efficiencies = {'[Ar]': 1.23, '[He]': 1.33, 'N#N': 2.46, '[H][H]': 3.77, '[O][O]': 1.50, 'O': 0.00, '[C-]#[O+]': 2.40, 'O=C=O': 4.67, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 4.67, 'CC': 3, 'O': 0, 'C=O': 2.5, '[H][H]': 3.77, '[He]': 1.33, '[O][O]': 1.5, 'N#N': 2.46, '[C-]#[O+]': 2.4, '[Ar]': 1.23},
     ),
 )
 
@@ -225,12 +214,7 @@ entry(
     label = "H + O2 <=> HO2",
     degeneracy = 1,
     kinetics = Troe(
-        arrheniusHigh = Arrhenius(
-            A = (4.565e+12, 'cm^3/(mol*s)'),
-            n = 0.44,
-            Ea = (0, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
+        arrheniusHigh = Arrhenius(A=(4.565e+12, 'cm^3/(mol*s)'), n=0.44, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
             A = (6.37e+20, 'cm^6/(mol^2*s)'),
             n = -1.72,
@@ -241,7 +225,7 @@ entry(
         T3 = (30, 'K'),
         T1 = (90000, 'K'),
         T2 = (90000, 'K'),
-        efficiencies = {'[Ar]': 0.6, '[He]': 0.71, 'N#N': 0.96, '[H][H]': 1.87, '[O][O]': 0.75, 'O': 15.81, '[C-]#[O+]': 1.90, 'O=C=O': 3.45, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 3.45, 'CC': 3, 'O': 15.81, 'C=O': 2.5, '[H][H]': 1.87, '[He]': 0.71, '[O][O]': 0.75, 'N#N': 0.96, '[C-]#[O+]': 1.9, '[Ar]': 0.6},
     ),
 )
 
@@ -275,12 +259,7 @@ entry(
     index = 18,
     label = "HO2 + O <=> OH + O2",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.609e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (-445, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(1.609e+13, 'cm^3/(mol*s)'), n=0, Ea=(-445, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -323,7 +302,7 @@ entry(
         T3 = (30, 'K'),
         T1 = (90000, 'K'),
         T2 = (90000, 'K'),
-        efficiencies = {'[Ar]': 0.85, '[He]': 0.65, 'N#N': 1.33, '[H][H]': 3.27, '[O][O]': 1.20, 'O': 6.63, 'OO': 6.61, '[C-]#[O+]': 2.80, 'O=C=O': 1.60, 'C': 2.00, 'C=O': 2.33, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'OO': 6.61, 'C': 2, 'CO': 3, 'O=C=O': 1.6, 'CC': 3, 'O': 6.63, 'C=O': 2.33, '[H][H]': 3.27, '[He]': 0.65, '[O][O]': 1.2, 'N#N': 1.33, '[C-]#[O+]': 2.8, '[Ar]': 0.85},
     ),
 )
 
@@ -331,36 +310,21 @@ entry(
     index = 22,
     label = "H2O2 + H <=> OH + H2O",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2.045e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (3970, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(2.045e+13, 'cm^3/(mol*s)'), n=0, Ea=(3970, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 23,
     label = "H2O2 + H <=> HO2 + H2",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (5.856e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (7950, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(5.856e+13, 'cm^3/(mol*s)'), n=0, Ea=(7950, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 24,
     label = "H2O2 + O <=> OH + HO2",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (8.513e+06, 'cm^3/(mol*s)'),
-        n = 2,
-        Ea = (3970, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(8.513e+06, 'cm^3/(mol*s)'), n=2, Ea=(3970, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -382,7 +346,7 @@ entry(
             Ea = (5500, 'cal/mol'),
             T0 = (1, 'K'),
         ),
-        efficiencies = {'[Ar]': 0.87, '[He]': 2.50, 'O': 12.00, '[C-]#[O+]': 1.90, 'O=C=O': 3.80, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 3.8, 'CC': 3, 'O': 12, 'C=O': 2.5, '[He]': 2.5, '[C-]#[O+]': 1.9, '[Ar]': 0.87},
     ),
 )
 
@@ -402,12 +366,7 @@ entry(
     index = 28,
     label = "CO + OH <=> H + CO2",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (61870, 'cm^3/(mol*s)'),
-        n = 2.053,
-        Ea = (-356, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(61870, 'cm^3/(mol*s)'), n=2.053, Ea=(-356, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -433,7 +392,7 @@ entry(
             Ea = (17734, 'cal/mol'),
             T0 = (1, 'K'),
         ),
-        efficiencies = {'[Ar]': 1.40, '[He]': 1.31, 'N#N': 1.31, '[H][H]': 1.31, '[O][O]': 1.32, 'O': 15.31, '[C-]#[O+]': 2.40, 'O=C=O': 2.00, 'C': 2.60, 'C=O': 3.29, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2.6, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 15.31, 'C=O': 3.29, '[H][H]': 1.31, '[He]': 1.31, '[O][O]': 1.32, 'N#N': 1.31, '[C-]#[O+]': 2.4, '[Ar]': 1.4},
     ),
 )
 
@@ -516,12 +475,7 @@ entry(
     index = 41,
     label = "CH + H2 <=> H + CH2(T)",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.612e+14, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (3320, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(1.612e+14, 'cm^3/(mol*s)'), n=0, Ea=(3320, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -540,7 +494,7 @@ entry(
         T3 = (152, 'K'),
         T1 = (22850, 'K'),
         T2 = (10350, 'K'),
-        efficiencies = {'[Ar]': 0.71, '[He]': 0.70, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[He]': 0.7, '[C-]#[O+]': 1.5, '[Ar]': 0.71},
     ),
 )
 
@@ -615,7 +569,7 @@ entry(
         T3 = (30, 'K'),
         T1 = (90000, 'K'),
         T2 = (90000, 'K'),
-        efficiencies = {'[Ar]': 0.70, '[He]': 0.70, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[He]': 0.7, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
     ),
 )
 
@@ -647,7 +601,7 @@ entry(
         T3 = (258, 'K'),
         T1 = (2811, 'K'),
         T2 = (9908, 'K'),
-        efficiencies = {'[Ar]': 0.70, '[He]': 0.70, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[He]': 0.7, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
     ),
 )
 
@@ -674,12 +628,7 @@ entry(
     index = 53,
     label = "CH2(T) + OH <=> CH + H2O",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (863000, 'cm^3/(mol*s)'),
-        n = 2.02,
-        Ea = (6776, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(863000, 'cm^3/(mol*s)'), n=2.02, Ea=(6776, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -693,36 +642,21 @@ entry(
     index = 55,
     label = "CH2(T) + H2 <=> H + CH3",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.265e+06, 'cm^3/(mol*s)'),
-        n = 2,
-        Ea = (7230, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(1.265e+06, 'cm^3/(mol*s)'), n=2, Ea=(7230, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 56,
     label = "CH2(T) + O2 <=> OH + H + CO",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2.643e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (1000, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(2.643e+12, 'cm^3/(mol*s)'), n=0, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 57,
     label = "CH2(T) + O2 <=> H + H + CO2",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.844e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (1000, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(1.844e+12, 'cm^3/(mol*s)'), n=0, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -736,12 +670,7 @@ entry(
     index = 59,
     label = "CH2(T) + O2 <=> H2 + CO2",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.836e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (1000, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(1.836e+12, 'cm^3/(mol*s)'), n=0, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -856,7 +785,7 @@ entry(
         T3 = (943, 'K'),
         T1 = (47310, 'K'),
         T2 = (47110, 'K'),
-        efficiencies = {'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[C-]#[O+]': 1.5},
     ),
 )
 
@@ -933,7 +862,7 @@ entry(
         T3 = (271, 'K'),
         T1 = (2755, 'K'),
         T2 = (6570, 'K'),
-        efficiencies = {'[Ar]': 0.79, '[He]': 0.70, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.84, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.84, '[He]': 0.7, '[C-]#[O+]': 1.5, '[Ar]': 0.79},
     ),
 )
 
@@ -953,7 +882,7 @@ entry(
         T3 = (197, 'K'),
         T1 = (1540, 'K'),
         T2 = (10300, 'K'),
-        efficiencies = {'[Ar]': 0.70, '[He]': 0.70, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[He]': 0.7, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
     ),
 )
 
@@ -997,12 +926,7 @@ entry(
     index = 85,
     label = "CH2O + O2 <=> HO2 + HCO",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (329700, 'cm^3/(mol*s)'),
-        n = 2.5,
-        Ea = (36460, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(329700, 'cm^3/(mol*s)'), n=2.5, Ea=(36460, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -1063,7 +987,7 @@ entry(
         T3 = (1801, 'K'),
         T1 = (33.1, 'K'),
         T2 = (90000, 'K'),
-        efficiencies = {'[Ar]': 0.36, '[He]': 0.42, 'N#N': 0.59, '[O][O]': 0.59, 'O': 3.42, '[C-]#[O+]': 0.89, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 3.42, 'C=O': 2.5, '[He]': 0.42, '[O][O]': 0.59, 'N#N': 0.59, '[C-]#[O+]': 0.89, '[Ar]': 0.36},
     ),
 )
 
@@ -1102,7 +1026,7 @@ entry(
         T3 = (156, 'K'),
         T1 = (1675, 'K'),
         T2 = (4530, 'K'),
-        efficiencies = {'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[C-]#[O+]': 1.5},
     ),
 )
 
@@ -1153,12 +1077,7 @@ entry(
     index = 100,
     label = "CH3 + HO2 <=> OH + CH3O",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (8.821e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (-590, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(8.821e+12, 'cm^3/(mol*s)'), n=0, Ea=(-590, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -1229,7 +1148,7 @@ entry(
         T3 = (151, 'K'),
         T1 = (1038, 'K'),
         T2 = (4970, 'K'),
-        efficiencies = {'[Ar]': 0.69, '[He]': 0.70, '[O][O]': 1.00, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 1.99, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 1.99, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[He]': 0.7, '[O][O]': 1, '[C-]#[O+]': 1.5, '[Ar]': 0.69},
     ),
 )
 
@@ -1275,7 +1194,7 @@ entry(
         T3 = (28, 'K'),
         T1 = (1000, 'K'),
         T2 = (2339, 'K'),
-        efficiencies = {'[Ar]': 0.85, '[He]': 0.67, '[H][H]': 2.00, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'O': 6, 'C=O': 2.5, '[H][H]': 2, '[He]': 0.67, '[C-]#[O+]': 1.5, '[Ar]': 0.85},
     ),
 )
 
@@ -1295,7 +1214,7 @@ entry(
         T3 = (37050, 'K'),
         T1 = (41490, 'K'),
         T2 = (3980, 'K'),
-        efficiencies = {'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[C-]#[O+]': 1.5},
     ),
 )
 
@@ -1393,7 +1312,7 @@ entry(
         T3 = (50, 'K'),
         T1 = (600, 'K'),
         T2 = (2780, 'K'),
-        efficiencies = {'[Ar]': 0.85, '[He]': 0.67, '[H][H]': 2.00, 'O': 5.97, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'O': 5.97, 'C=O': 2.5, '[H][H]': 2, '[He]': 0.67, '[C-]#[O+]': 1.5, '[Ar]': 0.85},
     ),
 )
 
@@ -1413,7 +1332,7 @@ entry(
         T3 = (37050, 'K'),
         T1 = (41490, 'K'),
         T2 = (3980, 'K'),
-        efficiencies = {'[Ar]': 0.70, '[He]': 0.70, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[He]': 0.7, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
     ),
 )
 
@@ -1466,12 +1385,7 @@ entry(
     index = 129,
     label = "CH2OH + O2 <=> HO2 + CH2O",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (7.298e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (3736, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(7.298e+13, 'cm^3/(mol*s)'), n=0, Ea=(3736, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -1530,24 +1444,14 @@ entry(
     index = 136,
     label = "CH4 + CH2(T) <=> CH3 + CH3",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2.483e+06, 'cm^3/(mol*s)'),
-        n = 2,
-        Ea = (8270, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(2.483e+06, 'cm^3/(mol*s)'), n=2, Ea=(8270, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 137,
     label = "CH4 + CH2(S) <=> CH3 + CH3",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.867e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (-497, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(1.867e+13, 'cm^3/(mol*s)'), n=0, Ea=(-497, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -1654,12 +1558,7 @@ entry(
     index = 148,
     label = "CH3OH + CH <=> CH3 + CH2O",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (9.04e+18, 'cm^3/(mol*s)'),
-        n = -1.93,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(9.04e+18, 'cm^3/(mol*s)'), n=-1.93, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -1748,7 +1647,7 @@ entry(
         T3 = (132, 'K'),
         T1 = (1315, 'K'),
         T2 = (5566, 'K'),
-        efficiencies = {'[Ar]': 0.70, '[He]': 0.70, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[He]': 0.7, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
     ),
 )
 
@@ -1782,12 +1681,7 @@ entry(
     index = 163,
     label = "C2H + O2 <=> HCO + CO",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.63e+14, 'cm^3/(mol*s)'),
-        n = -0.35,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(1.63e+14, 'cm^3/(mol*s)'), n=-0.35, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -1856,7 +1750,7 @@ entry(
             Ea = (49700, 'cal/mol'),
             T0 = (1, 'K'),
         ),
-        efficiencies = {'[Ar]': 0.69, '[He]': 0.70, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[He]': 0.7, '[C-]#[O+]': 1.5, '[Ar]': 0.69},
     ),
 )
 
@@ -1881,7 +1775,7 @@ entry(
         T3 = (10.7, 'K'),
         T1 = (1043, 'K'),
         T2 = (2341, 'K'),
-        efficiencies = {'[Ar]': 0.70, '[He]': 0.70, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[He]': 0.7, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
     ),
 )
 
@@ -1937,12 +1831,7 @@ entry(
     index = 177,
     label = "C2H2 + OH <=> CH3 + CO",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (614000, 'cm^3/(mol*s)'),
-        n = 1.62,
-        Ea = (-731, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(614000, 'cm^3/(mol*s)'), n=1.62, Ea=(-731, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -1971,12 +1860,7 @@ entry(
     label = "CH2(T) + CO <=> CH2CO",
     degeneracy = 1,
     kinetics = Troe(
-        arrheniusHigh = Arrhenius(
-            A = (8.1e+11, 'cm^3/(mol*s)'),
-            n = 0.5,
-            Ea = (4510, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
+        arrheniusHigh = Arrhenius(A=(8.1e+11, 'cm^3/(mol*s)'), n=0.5, Ea=(4510, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
             A = (2.69e+33, 'cm^6/(mol^2*s)'),
             n = -5.11,
@@ -1987,7 +1871,7 @@ entry(
         T3 = (275, 'K'),
         T1 = (1226, 'K'),
         T2 = (5185, 'K'),
-        efficiencies = {'[Ar]': 0.70, '[He]': 0.70, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[He]': 0.7, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
     ),
 )
 
@@ -2061,12 +1945,7 @@ entry(
     index = 190,
     label = "CH2CO + OH <=> CH2OH + CO",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.01e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (-1013, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(1.01e+12, 'cm^3/(mol*s)'), n=0, Ea=(-1013, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -2092,7 +1971,7 @@ entry(
         T3 = (207.5, 'K'),
         T1 = (2663, 'K'),
         T2 = (6095, 'K'),
-        efficiencies = {'[Ar]': 0.70, '[He]': 0.70, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[He]': 0.7, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
     ),
 )
 
@@ -2192,7 +2071,7 @@ entry(
         T3 = (100, 'K'),
         T1 = (50000, 'K'),
         T2 = (34204, 'K'),
-        efficiencies = {'[H][H]': 2.00, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'C#C': 3.00, 'C=C': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[H][H]': 2, '[C-]#[O+]': 1.5, 'C=C': 3, 'C#C': 3},
     ),
 )
 
@@ -2212,7 +2091,7 @@ entry(
         T3 = (199, 'K'),
         T1 = (2032, 'K'),
         T2 = (111702, 'K'),
-        efficiencies = {'[H][H]': 2.00, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'C#C': 3.00, 'C=C': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[H][H]': 2, '[C-]#[O+]': 1.5, 'C=C': 3, 'C#C': 3},
     ),
 )
 
@@ -2281,7 +2160,7 @@ entry(
         T3 = (122, 'K'),
         T1 = (50000, 'K'),
         T2 = (16935, 'K'),
-        efficiencies = {'[H][H]': 2.00, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'C#C': 3.00, 'C=C': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[H][H]': 2, '[C-]#[O+]': 1.5, 'C=C': 3, 'C#C': 3},
     ),
 )
 
@@ -2301,7 +2180,7 @@ entry(
         T3 = (2900, 'K'),
         T1 = (2900, 'K'),
         T2 = (5132, 'K'),
-        efficiencies = {'[H][H]': 2.00, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'C#C': 3.00, 'C=C': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[H][H]': 2, '[C-]#[O+]': 1.5, 'C=C': 3, 'C#C': 3},
     ),
 )
 
@@ -2373,7 +2252,7 @@ entry(
             Ea = (95922, 'cal/mol'),
             T0 = (1, 'K'),
         ),
-        efficiencies = {'[H][H]': 2.00, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'C#C': 3.00, 'C=C': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[H][H]': 2, '[C-]#[O+]': 1.5, 'C=C': 3, 'C#C': 3},
         comment = 'Warning: SRI parameters from chemkin file ignored on import.',
     ),
     longDesc = 
@@ -2394,7 +2273,7 @@ entry(
             Ea = (95922, 'cal/mol'),
             T0 = (1, 'K'),
         ),
-        efficiencies = {'[H][H]': 2.00, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'C#C': 3.00, 'C=C': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[H][H]': 2, '[C-]#[O+]': 1.5, 'C=C': 3, 'C#C': 3},
         comment = 'Warning: SRI parameters from chemkin file ignored on import.',
     ),
     longDesc = 
@@ -2457,12 +2336,7 @@ entry(
     index = 229,
     label = "CH3CHO + O2 <=> HO2 + CH3CO",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (120000, 'cm^3/(mol*s)'),
-        n = 2.5,
-        Ea = (37560, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(120000, 'cm^3/(mol*s)'), n=2.5, Ea=(37560, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -2490,13 +2364,8 @@ entry(
     degeneracy = 1,
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(3.985e+15, 's^-1'), n=0, Ea=(87060, 'cal/mol'), T0=(1, 'K')),
-        arrheniusLow = Arrhenius(
-            A = (3.71e+16, 'cm^3/(mol*s)'),
-            n = 0,
-            Ea = (67816, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        efficiencies = {'[Ar]': 0.70, '[He]': 0.70, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.01, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        arrheniusLow = Arrhenius(A=(3.71e+16, 'cm^3/(mol*s)'), n=0, Ea=(67816, 'cal/mol'), T0=(1, 'K')),
+        efficiencies = {'C': 2.01, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[He]': 0.7, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
     ),
 )
 
@@ -2521,7 +2390,7 @@ entry(
         T3 = (-9147, 'K'),
         T1 = (299, 'K'),
         T2 = (152.4, 'K'),
-        efficiencies = {'[Ar]': 0.70, '[He]': 0.70, 'N#N': 0.86, 'O': 4.92, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 4.92, 'C=O': 2.5, '[He]': 0.7, 'N#N': 0.86, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
     ),
 )
 
@@ -2529,12 +2398,7 @@ entry(
     index = 234,
     label = "C2H4 + H <=> C2H3 + H2",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (220.1, 'cm^3/(mol*s)'),
-        n = 3.62,
-        Ea = (11270, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(220.1, 'cm^3/(mol*s)'), n=3.62, Ea=(11270, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -2572,36 +2436,21 @@ entry(
     index = 238,
     label = "C2H4 + OH <=> C2H3 + H2O",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (21440, 'cm^3/(mol*s)'),
-        n = 2.745,
-        Ea = (2216, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(21440, 'cm^3/(mol*s)'), n=2.745, Ea=(2216, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 239,
     label = "C2H4 + OH <=> CH2O + CH3",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (178000, 'cm^3/(mol*s)'),
-        n = 1.68,
-        Ea = (2060, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(178000, 'cm^3/(mol*s)'), n=1.68, Ea=(2060, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 240,
     label = "C2H4 + OH <=> H + CH3CHO",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (0.0238, 'cm^3/(mol*s)'),
-        n = 3.91,
-        Ea = (1723, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(0.0238, 'cm^3/(mol*s)'), n=3.91, Ea=(1723, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -2644,7 +2493,7 @@ entry(
         T3 = (125, 'K'),
         T1 = (2219, 'K'),
         T2 = (6882, 'K'),
-        efficiencies = {'[Ar]': 0.70, '[He]': 0.70, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'CC': 3.00},
+        efficiencies = {'C': 2, 'CO': 3, 'O=C=O': 2, 'CC': 3, 'O': 6, 'C=O': 2.5, '[He]': 0.7, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
     ),
 )
 
@@ -2739,12 +2588,7 @@ entry(
     index = 255,
     label = "C2H6 + CH <=> CH3 + C2H4",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.077e+14, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (-262, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(1.077e+14, 'cm^3/(mol*s)'), n=0, Ea=(-262, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -2765,23 +2609,13 @@ entry(
     index = 258,
     label = "C2H6 + O2 <=> C2H5 + HO2",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (729000, 'cm^3/(mol*s)'),
-        n = 2.5,
-        Ea = (49160, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(729000, 'cm^3/(mol*s)'), n=2.5, Ea=(49160, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 259,
     label = "C2H6 + HO2 <=> C2H5 + H2O2",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (110000, 'cm^3/(mol*s)'),
-        n = 2.5,
-        Ea = (16850, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(110000, 'cm^3/(mol*s)'), n=2.5, Ea=(16850, 'cal/mol'), T0=(1, 'K')),
 )
 

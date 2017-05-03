@@ -102,22 +102,22 @@ entry(
     label = "Cbf-CbfCbfCbf",
     group = 
 """
-1 * Cbf u0 p0 c0 {3,B} {6,B} {2,B}
-2   Cbf u0 p0 c0 {4,B} {5,B} {1,B}
-3   Cbf u0 p0 c0 {8,B} {9,B} {1,B}
-4   Cbf u0 p0 c0 {10,B} {11,B} {2,B}
-5   Cbf u0 p0 c0 {13,B} {14,B} {2,B}
-6   Cbf u0 p0 c0 {15,B} {16,B} {1,B}
-7   C   u0 p0 c0 {8,B} {16,B}
-8   C   u0 p0 c0 {7,B} {3,B}
-9   C   u0 p0 c0 {3,B} {10,B}
-10  C   u0 p0 c0 {9,B} {4,B}
-11  C   u0 p0 c0 {4,B} {12,B}
-12  C   u0 p0 c0 {11,B} {13,B}
-13  C   u0 p0 c0 {12,B} {5,B}
-14  C   u0 p0 c0 {5,B} {15,B}
-15  C   u0 p0 c0 {14,B} {6,B}
-16  C   u0 p0 c0 {7,B} {6,B}
+1  * Cbf u0 p0 c0 {2,B} {3,B} {6,B}
+2    Cbf u0 p0 c0 {1,B} {4,B} {5,B}
+3    Cbf u0 p0 c0 {1,B} {8,B} {9,B}
+4    Cbf u0 p0 c0 {2,B} {10,B} {11,B}
+5    Cbf u0 p0 c0 {2,B} {13,B} {14,B}
+6    Cbf u0 p0 c0 {1,B} {15,B} {16,B}
+7    C   u0 p0 c0 {8,B} {16,B}
+8    C   u0 p0 c0 {3,B} {7,B}
+9    C   u0 p0 c0 {3,B} {10,B}
+10   C   u0 p0 c0 {4,B} {9,B}
+11   C   u0 p0 c0 {4,B} {12,B}
+12   C   u0 p0 c0 {11,B} {13,B}
+13   C   u0 p0 c0 {5,B} {12,B}
+14   C   u0 p0 c0 {5,B} {15,B}
+15   C   u0 p0 c0 {6,B} {14,B}
+16   C   u0 p0 c0 {6,B} {7,B}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -131,7 +131,7 @@ u"""
 The smallest PAH that can have Cbf-CbfCbfCbf is pyrene. Currently the database is restricted
 that any group with more three Cbf atoms must have all benzene rings explicitly written out.
 Previously, this node would also match one carbon on Benzo[c]phenanthrene and does not now.
-Examples from the original source do not include Benzo[c]phenanthrene. 
+Examples from the original source do not include Benzo[c]phenanthrene.
 """,
 )
 
@@ -207,6 +207,27 @@ entry(
         S298 = (-7.94,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1821,
+    label = "Cb-N3s",
+    group = 
+"""
+1 * Cb  u0 {2,S}
+2   N3s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.95,5.21,5.94,6.32,6.53,6.56,6.635],'cal/(mol*K)'),
+        H298 = (-0.5,'kcal/mol'),
+        S298 = (-9.69,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -456,27 +477,6 @@ entry(
         S298 = (-8.64,'cal/(mol*K)','+|-',0.15),
     ),
     shortDesc = u"""Cb-Cb BENSON""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 1821,
-    label = "Cb-N3s",
-    group = 
-"""
-1 * Cb  u0 {2,S}
-2   N3s u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.95,5.21,5.94,6.32,6.53,6.56,6.635],'cal/(mol*K)'),
-        H298 = (-0.5,'kcal/mol'),
-        S298 = (-9.69,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3720,6 +3720,32 @@ u"""
 )
 
 entry(
+    index = 1999,
+    label = "Cd-Cd(CO)H",
+    group = 
+"""
+1 * Cd u0 {2,S} {3,S} {4,D}
+2   CO u0 {1,S} {5,D}
+3   H  u0 {1,S}
+4   Cd u0 {1,D}
+5   Od u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([18.08,21.17,24.43,27.41,32.22,35.73,40.97],'J/(mol*K)'),
+        H298 = (36.4,'kJ/mol'),
+        S298 = (33.51,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
     index = 139,
     label = "Cds-Cds(Cds-Cd)H",
     group = 
@@ -3778,6 +3804,33 @@ entry(
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 2000,
+    label = "Cd-Cd(CCO)H",
+    group = 
+"""
+1 * Cd  u0 {2,S} {4,S} {5,D}
+2   Cd  u0 {1,S} {3,D}
+3   Cdd u0 {2,D} {6,D}
+4   H   u0 {1,S}
+5   Cd  u0 {1,D}
+6   Od  u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([18.08,21.17,24.43,27.41,32.22,35.73,40.97],'J/(mol*K)'),
+        H298 = (36.4,'kJ/mol'),
+        S298 = (33.51,'J/(mol*K)'),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -4581,59 +4634,6 @@ entry(
     longDesc = 
 u"""
 
-""",
-)
-
-entry(
-    index = 1999,
-    label = "Cd-Cd(CO)H",
-    group = 
-"""
-1 * Cd u0 {2,S} {3,S} {4,D}
-2   CO u0 {1,S} {5,D}
-3   H  u0 {1,S}
-4   Cd u0 {1,D}
-5   Od u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.08,21.17,24.43,27.41,32.22,35.73,40.97],'J/(mol*K)'),
-        H298 = (36.4,'kJ/mol'),
-        S298 = (33.51,'J/(mol*K)'),
-    ),
-    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
-u"""
-Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
-optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
-DOI: 10.1002/chem.201301381
-""",
-)
-
-entry(
-    index = 2000,
-    label = "Cd-Cd(CCO)H",
-    group = 
-"""
-1 * Cd  u0 {2,S} {4,S} {5,D}
-2   Cd  u0 {1,S} {3,D}
-3   Cdd u0 {2,D} {6,D}
-4   H   u0 {1,S}
-5   Cd  u0 {1,D}
-6   Od  u0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.08,21.17,24.43,27.41,32.22,35.73,40.97],'J/(mol*K)'),
-        H298 = (36.4,'kJ/mol'),
-        S298 = (33.51,'J/(mol*K)'),
-    ),
-    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
-u"""
-Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
-optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
-DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -5989,6 +5989,32 @@ u"""
 )
 
 entry(
+    index = 1996,
+    label = "Cd-CdCs(CO)",
+    group = 
+"""
+1 * Cd u0 {2,S} {3,S} {4,D}
+2   CO u0 {1,S} {5,D}
+3   Cs u0 {1,S}
+4   Cd u0 {1,D}
+5   Od u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([15.33,16.82,18.64,20.42,23.2,25,27.1],'J/(mol*K)','+|-',[5.66,5.66,5.66,5.66,5.66,5.66,5.66]),
+        H298 = (39,'kJ/mol','+|-',4.82),
+        S298 = (-51.26,'J/(mol*K)','+|-',6.6),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
     index = 204,
     label = "Cds-Cds(Cds-Cd)Cs",
     group = 
@@ -6047,6 +6073,33 @@ entry(
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 2011,
+    label = "Cd-CdCs(CCO)",
+    group = 
+"""
+1 * Cd  u0 {2,S} {4,S} {5,D}
+2   Cd  u0 {1,S} {3,D}
+3   Cdd u0 {2,D} {6,D}
+4   Cs  u0 {1,S}
+5   Cd  u0 {1,D}
+6   Od  u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([22.68,24.05,24.63,25.07,25.64,25.84,25.7],'J/(mol*K)','+|-',[8,8,8,8,8,8,8]),
+        H298 = (41.6,'kJ/mol','+|-',6.82),
+        S298 = (-48.01,'J/(mol*K)','+|-',9.33),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -9968,59 +10021,6 @@ u"""
 )
 
 entry(
-    index = 1996,
-    label = "Cd-CdCs(CO)",
-    group = 
-"""
-1 * Cd u0 {2,S} {3,S} {4,D}
-2   CO u0 {1,S} {5,D}
-3   Cs u0 {1,S}
-4   Cd u0 {1,D}
-5   Od u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.33,16.82,18.64,20.42,23.2,25,27.1],'J/(mol*K)','+|-',[5.66,5.66,5.66,5.66,5.66,5.66,5.66]),
-        H298 = (39,'kJ/mol','+|-',4.82),
-        S298 = (-51.26,'J/(mol*K)','+|-',6.6),
-    ),
-    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
-u"""
-Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
-optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
-DOI: 10.1002/chem.201301381
-""",
-)
-
-entry(
-    index = 2011,
-    label = "Cd-CdCs(CCO)",
-    group = 
-"""
-1 * Cd  u0 {2,S} {4,S} {5,D}
-2   Cd  u0 {1,S} {3,D}
-3   Cdd u0 {2,D} {6,D}
-4   Cs  u0 {1,S}
-5   Cd  u0 {1,D}
-6   Od  u0 {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([22.68,24.05,24.63,25.07,25.64,25.84,25.7],'J/(mol*K)','+|-',[8,8,8,8,8,8,8]),
-        H298 = (41.6,'kJ/mol','+|-',6.82),
-        S298 = (-48.01,'J/(mol*K)','+|-',9.33),
-    ),
-    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
-u"""
-Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
-optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
-DOI: 10.1002/chem.201301381
-""",
-)
-
-entry(
     index = 1923,
     label = "Cds-CNH",
     group = 
@@ -12057,6 +12057,31 @@ u"""
 )
 
 entry(
+    index = 1806,
+    label = "Cs-(N3dN3d)CsCsH",
+    group = 
+"""
+1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
+2   N3d u0 {1,S} {3,D}
+3   N3d u0 {2,D}
+4   Cs  u0 {1,S}
+5   Cs  u0 {1,S}
+6   H   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (-3.3,'kcal/mol'),
+        S298 = (-11.7,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 1929,
     label = "Cs-N5dCsCsH",
     group = 
@@ -12155,56 +12180,6 @@ u"""
 )
 
 entry(
-    index = 1806,
-    label = "Cs-(N3dN3d)CsCsH",
-    group = 
-"""
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   N3d u0 {1,S} {3,D}
-3   N3d u0 {2,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
-6   H   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (-3.3,'kcal/mol'),
-        S298 = (-11.7,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 1807,
-    label = "Cs-(N3dN3d)CsCsCs",
-    group = 
-"""
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   N3d u0 {1,S} {3,D}
-3   N3d u0 {2,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (-1.9,'kcal/mol'),
-        S298 = (-34.7,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 1931,
     label = "Cs-N3dCsCsCs",
     group = 
@@ -12245,6 +12220,31 @@ entry(
         Cpdata = ([12.2,13.3,14,14.5,15.3,15.7,16.2],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
         H298 = (24.1,'kcal/mol','+|-',1.3),
         S298 = (1.2,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1807,
+    label = "Cs-(N3dN3d)CsCsCs",
+    group = 
+"""
+1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
+2   N3d u0 {1,S} {3,D}
+3   N3d u0 {2,D}
+4   Cs  u0 {1,S}
+5   Cs  u0 {1,S}
+6   Cs  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (-1.9,'kcal/mol'),
+        S298 = (-34.7,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13453,6 +13453,35 @@ u"""
 )
 
 entry(
+    index = 2010,
+    label = "Cs-Cd(CCO)HH",
+    group = 
+"""
+1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cd  u0 {1,S} {4,D}
+3   Cd  u0 {1,S} {7,D}
+4   Cdd u0 {2,D} {8,D}
+5   H   u0 {1,S}
+6   H   u0 {1,S}
+7   Cd  u0 {3,D}
+8   Od  u0 {4,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([25.85,31.99,37.06,41.14,47.42,52.15,59.73],'J/(mol*K)','+|-',[6.93,6.93,6.93,6.93,6.93,6.93,6.93]),
+        H298 = (-22.2,'kJ/mol','+|-',5.9),
+        S298 = (37.92,'J/(mol*K)','+|-',8.08),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
     index = -1,
     label = "Cs-(Cds-Cdd-Sd)(Cds-Cds)HH",
     group = 
@@ -13634,35 +13663,6 @@ entry(
     longDesc = 
 u"""
 
-""",
-)
-
-entry(
-    index = 2010,
-    label = "Cs-Cd(CCO)HH",
-    group = 
-"""
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cdd u0 {2,D} {8,D}
-5   H   u0 {1,S}
-6   H   u0 {1,S}
-7   Cd  u0 {3,D}
-8   Od  u0 {4,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([25.85,31.99,37.06,41.14,47.42,52.15,59.73],'J/(mol*K)','+|-',[6.93,6.93,6.93,6.93,6.93,6.93,6.93]),
-        H298 = (-22.2,'kJ/mol','+|-',5.9),
-        S298 = (37.92,'J/(mol*K)','+|-',8.08),
-    ),
-    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
-u"""
-Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
-optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
-DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -14899,6 +14899,35 @@ u"""
 )
 
 entry(
+    index = 2008,
+    label = "Cs-CsCd(CCO)H",
+    group = 
+"""
+1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cd  u0 {1,S} {4,D}
+3   Cd  u0 {1,S} {7,D}
+4   Cdd u0 {2,D} {8,D}
+5   Cs  u0 {1,S}
+6   H   u0 {1,S}
+7   Cd  u0 {3,D}
+8   Od  u0 {4,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([24.45,31.59,36.01,38.8,42.13,44.21,47.25],'J/(mol*K)','+|-',[6.93,6.93,6.93,6.93,6.93,6.93,6.93]),
+        H298 = (-10.4,'kJ/mol','+|-',5.9),
+        S298 = (-54.03,'J/(mol*K)','+|-',8.08),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
     index = -1,
     label = "Cs-(Cds-Cdd-Sd)(Cds-Cds)CsH",
     group = 
@@ -15082,35 +15111,6 @@ entry(
     longDesc = 
 u"""
 
-""",
-)
-
-entry(
-    index = 2008,
-    label = "Cs-CsCd(CCO)H",
-    group = 
-"""
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
-6   H   u0 {1,S}
-7   Cd  u0 {3,D}
-8   Od  u0 {4,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([24.45,31.59,36.01,38.8,42.13,44.21,47.25],'J/(mol*K)','+|-',[6.93,6.93,6.93,6.93,6.93,6.93,6.93]),
-        H298 = (-10.4,'kJ/mol','+|-',5.9),
-        S298 = (-54.03,'J/(mol*K)','+|-',8.08),
-    ),
-    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
-u"""
-Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
-optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
-DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -15937,6 +15937,36 @@ u"""
 )
 
 entry(
+    index = 2009,
+    label = "Cs-CdCd(CCO)H",
+    group = 
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cd  u0 {1,S} {5,D}
+3   Cd  u0 {1,S} {7,D}
+4   Cd  u0 {1,S} {8,D}
+5   Cdd u0 {2,D} {9,D}
+6   H   u0 {1,S}
+7   Cd  u0 {3,D}
+8   Cd  u0 {4,D}
+9   Od  u0 {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([27.62,35.4,39.24,41.25,43.4,44.87,47.43],'J/(mol*K)','+|-',[6.93,6.93,6.93,6.93,6.93,6.93,6.93]),
+        H298 = (-6.8,'kJ/mol','+|-',5.9),
+        S298 = (-55.37,'J/(mol*K)','+|-',8.08),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
     index = -1,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Sd)H",
     group = 
@@ -16318,36 +16348,6 @@ entry(
     longDesc = 
 u"""
 
-""",
-)
-
-entry(
-    index = 2009,
-    label = "Cs-CdCd(CCO)H",
-    group = 
-"""
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
-5   Cdd u0 {2,D} {9,D}
-6   H   u0 {1,S}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
-9   Od  u0 {5,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([27.62,35.4,39.24,41.25,43.4,44.87,47.43],'J/(mol*K)','+|-',[6.93,6.93,6.93,6.93,6.93,6.93,6.93]),
-        H298 = (-6.8,'kJ/mol','+|-',5.9),
-        S298 = (-55.37,'J/(mol*K)','+|-',8.08),
-    ),
-    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
-u"""
-Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
-optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
-DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -19144,6 +19144,35 @@ u"""
 )
 
 entry(
+    index = 2007,
+    label = "Cs-CsCsCd(CCO)",
+    group = 
+"""
+1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cd  u0 {1,S} {4,D}
+3   Cd  u0 {1,S} {7,D}
+4   Cdd u0 {2,D} {8,D}
+5   Cs  u0 {1,S}
+6   Cs  u0 {1,S}
+7   Cd  u0 {3,D}
+8   Od  u0 {4,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([25.48,31.89,35.19,36.68,37.19,36.66,34.96],'J/(mol*K)','+|-',[6.93,6.93,6.93,6.93,6.93,6.93,6.93]),
+        H298 = (2.9,'kJ/mol','+|-',5.9),
+        S298 = (-144.6,'J/(mol*K)','+|-',8.08),
+    ),
+    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    longDesc = 
+u"""
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
+""",
+)
+
+entry(
     index = -1,
     label = "Cs-(Cds-Cdd-Sd)(Cds-Cds)CsCs",
     group = 
@@ -19325,35 +19354,6 @@ entry(
     longDesc = 
 u"""
 
-""",
-)
-
-entry(
-    index = 2007,
-    label = "Cs-CsCsCd(CCO)",
-    group = 
-"""
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
-7   Cd  u0 {3,D}
-8   Od  u0 {4,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([25.48,31.89,35.19,36.68,37.19,36.66,34.96],'J/(mol*K)','+|-',[6.93,6.93,6.93,6.93,6.93,6.93,6.93]),
-        H298 = (2.9,'kJ/mol','+|-',5.9),
-        S298 = (-144.6,'J/(mol*K)','+|-',8.08),
-    ),
-    shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
-u"""
-Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
-optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
-DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -43010,7 +43010,7 @@ entry(
     group = 
 """
 1 * N1sc u0 p3 c-2 {2,S}
-2   R    ux px     {1,S}
+2   R    ux {1,S}
 """,
     thermo = u'N1s',
     shortDesc = u"""""",
@@ -43082,7 +43082,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.00,2.65,2.50,2.49,2.65,2.65,2.57],'cal/(mol*K)'),
+        Cpdata = ([3,2.65,2.5,2.49,2.65,2.65,2.57],'cal/(mol*K)'),
         H298 = (120.94,'kcal/mol'),
         S298 = (24.25,'cal/(mol*K)'),
     ),
@@ -43102,13 +43102,13 @@ entry(
     group = 
 """
 1 * N1s u0 p2 {2,S}
-2   N   u0 px {1,S}
+2   N   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.97,2.07,2.25,2.50,3.05,3.48,5.50],'cal/(mol*K)'),
-        H298 = (61.00,'kcal/mol'),
-        S298 = (23.00,'cal/(mol*K)'),
+        Cpdata = ([1.97,2.07,2.25,2.5,3.05,3.48,5.5],'cal/(mol*K)'),
+        H298 = (61,'kcal/mol'),
+        S298 = (23,'cal/(mol*K)'),
     ),
     shortDesc = u"""[N]-NH2(S)""",
     longDesc = 
@@ -43125,7 +43125,7 @@ entry(
     group = 
 """
 1 * N1s u0 p2 {2,S}
-2   O   u0 px {1,S}
+2   O   u0 {1,S}
 """,
     thermo = u'N1s-H',
     shortDesc = u"""[N]-OH(S)""",
@@ -43141,7 +43141,7 @@ entry(
     group = 
 """
 1 * N1d u0 p2 {2,D}
-2   R!H ux px {1,D}
+2   R!H ux {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -43161,9 +43161,9 @@ entry(
     label = "N2s",
     group = 
 """
-1 * N2s u0 p2 {2,S} (3,S}
-2   R   ux px {1,S}
-3   R   ux px {1,S}
+1 * N2s u0 p2 {2,S} {3,S}
+2   R   ux {1,S}
+3   R   ux {1,S}
 """,
     thermo = u'N1s',
     shortDesc = u"""""",
@@ -43736,7 +43736,7 @@ u"""
 entry(
     index = 1812,
     label = "N3s-N3dHH",
-    group =
+    group = 
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   H   u0 {1,S}
@@ -43745,7 +43745,7 @@ entry(
 """,
     thermo = u'N3s-N3sHH',
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 Currently points to N3s-N3sHH with no better estimate available
 """,
@@ -44169,15 +44169,15 @@ u"""
 entry(
     index = 1907,
     label = "N3d-CdN3s",
-    group =
+    group = 
 """
-1 * N3d  u0 {2,D} {3,S}
-2   Cd   u0 {1,D}
-3   N3s  u0 {1,S}
+1 * N3d u0 {2,D} {3,S}
+2   Cd  u0 {1,D}
+3   N3s u0 {1,S}
 """,
     thermo = u'N3d-CdH',
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 Currently references to N3d-CdH with no better data
 """,
@@ -44382,6 +44382,49 @@ u"""
 )
 
 entry(
+    index = 1919,
+    label = "N3t",
+    group = 
+"""
+1 * N3t u0 p1 {2,T}
+2   R!H u0 {1,T}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1920,
+    label = "N3t-CtH",
+    group = 
+"""
+1 * N3t u0 p1 {2,T}
+2   Ct  u0 {1,T} {3,S}
+3   H   u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.28,5.68,5.97,6.22,6.6,6.97,6.66],'cal/(mol*K)'),
+        H298 = (3.17,'kcal/mol'),
+        S298 = (41.74,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Calculated by subtracting the data for the Ct-CtCs group (Ct-Cs STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714) from respective values from thermo_DFT_CCSDTF12_BAC data for the HCN species.
+""",
+)
+
+entry(
     index = 1913,
     label = "N5d",
     group = 
@@ -44500,49 +44543,6 @@ entry(
     longDesc = 
 u"""
 
-""",
-)
-
-entry(
-    index = 1919,
-    label = "N3t",
-    group =
-"""
-1 * N3t  u0 p1 {2,T}
-2   R!H  u0 {1,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc =
-u"""
-
-""",
-)
-
-entry(
-    index = 1920,
-    label = "N3t-CtH",
-    group =
-"""
-1 * N3t  u0 p1 {2,T}
-2   Ct   u0 {1,T} {3,S}
-3   H    u0 (2,S)
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.28,5.68,5.97,6.22,6.6,6.97,6.66],'cal/(mol*K)'),
-        H298 = (3.17,'kcal/mol'),
-        S298 = (41.74,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc =
-u"""
-Calculated by subtracting the data for the Ct-CtCs group (Ct-Cs STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714) from respective values from thermo_DFT_CCSDTF12_BAC data for the HCN species.
 """,
 )
 
@@ -46546,14 +46546,14 @@ L1: R
                 L5: Ss-C=SCb
     L2: N
         L3: N1sc
-		L3: N1s
-			L4:	N1s-H
-			L4:	N1s-N1s
-			L4:	N1s-Cs
-			L4:	N1s-N3s
-			L4:	N1s-Os
+        L3: N1s
+            L4: N1s-H
+            L4: N1s-N1s
+            L4: N1s-Cs
+            L4: N1s-N3s
+            L4: N1s-Os
         L3: N1d
-		L3: N2s
+        L3: N2s
         L3: N3s
             L4: N3s-CHH
                 L5: N3s-CsHH

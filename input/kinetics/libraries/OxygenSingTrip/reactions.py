@@ -34,7 +34,7 @@ entry(
     duplicate = True,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(3e+06, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
-        efficiencies = {'c1ccccc1': 1.067, 'O': 1.783, '[H][H]': 1, '[O][O]': 0.34, 'N#N': 0.028, '[C]=O': 14, '[Ar]': 0.00166},
+        efficiencies = {'C1=CC=CC=C1': 1.067, 'O': 1.783, '[H][H]': 1, '[O][O]': 0.34, 'N#N': 0.028, '[C]=O': 14, '[Ar]': 0.00166},
     ),
 )
 

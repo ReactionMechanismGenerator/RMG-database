@@ -141,6 +141,17 @@ entry(
 )
 
 entry(
+    index = 8,
+    label = "S2b",
+    group = 
+"""
+1 *1 S u1 {2,S}
+2    S u1 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 3,
     label = "Y_1centerbirad",
     group = 
@@ -195,21 +206,21 @@ entry(
 )
 
 entry(
-    index = 7,
-    label = "H_rad",
-    group = 
-"""
-1 *1 H u1
-""",
-    kinetics = None,
-)
-
-entry(
     index = 6,
     label = "Y_rad",
     group = 
 """
 1 *1 R u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 7,
+    label = "H_rad",
+    group = 
+"""
+1 *1 H u1
 """,
     kinetics = None,
 )
@@ -331,17 +342,6 @@ entry(
 """
 1 *1 S u1 {2,S}
 2    R u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 8,
-    label = "S2b",
-    group = 
-"""
-1 *1 S u1 {2,S}
-2    S u1 {1,S}
 """,
     kinetics = None,
 )
@@ -1524,6 +1524,22 @@ entry(
 )
 
 entry(
+    index = 287,
+    label = "Cmethyl_Csrad/H/Cd",
+    group = 
+"""
+1 *2 C  u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs u1 {1,S} {6,S} {7,S}
+3 *4 H  u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {1,S}
+6    H  u0 {2,S}
+7    Cd u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 88,
     label = "Cmethyl_Cdrad",
     group = 
@@ -1636,6 +1652,22 @@ entry(
 )
 
 entry(
+    index = 287,
+    label = "C/H2/Nd_Csrad/H/Cd",
+    group = 
+"""
+1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs       u1 {1,S} {6,S} {7,S}
+3 *4 H        u0 {1,S}
+4    H        u0 {1,S}
+5    [Cs,O,S] u0 {1,S}
+6    H        u0 {2,S}
+7    Cd       u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 95,
     label = "C/H2/Nd_Cdrad",
     group = 
@@ -1729,6 +1761,22 @@ entry(
 3 *4 H             u0 {1,S}
 4    H             u0 {1,S}
 5    [Cd,Ct,Cb,CO] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 287,
+    label = "C/H2/De_Csrad/H/Cd",
+    group = 
+"""
+1 *2 C             u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs            u1 {1,S} {6,S} {7,S}
+3 *4 H             u0 {1,S}
+4    H             u0 {1,S}
+5    [Cd,Ct,Cb,CO] u0 {1,S}
+6    H             u0 {2,S}
+7    Cd            u0 {2,S}
 """,
     kinetics = None,
 )
@@ -1832,6 +1880,22 @@ entry(
 )
 
 entry(
+    index = 287,
+    label = "C/H/NdMd_Csrad/H/Cd",
+    group = 
+"""
+1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs       u1 {1,S} {6,S} {7,S}
+3 *4 H        u0 {1,S}
+4    [Cs,O,S] u0 {1,S}
+5    [Cs,O,S] u0 {1,S}
+6    H        u0 {2,S}
+7    Cd       u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 106,
     label = "C/H/NdNd_Cdrad",
     group = 
@@ -1916,6 +1980,22 @@ entry(
 )
 
 entry(
+    index = 287,
+    label = "C/H/NdDe_Csrad/H/Cd",
+    group = 
+"""
+1 *2 C             u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs            u1 {1,S} {6,S} {7,S}
+3 *4 H             u0 {1,S}
+4    [Cs,O,S]      u0 {1,S}
+5    [Cd,Ct,Cb,CO] u0 {1,S}
+6    H             u0 {2,S}
+7    Cd            u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 111,
     label = "C/H/NdDe_Cdrad",
     group = 
@@ -1995,6 +2075,22 @@ entry(
 3 *4 H             u0 {1,S}
 4    [Cd,Ct,Cb,CO] u0 {1,S}
 5    [Cd,Ct,Cb,CO] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 287,
+    label = "C/H/DeDe_Csrad/H/Cd",
+    group = 
+"""
+1 *2 C             u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs            u1 {1,S} {6,S} {7,S}
+3 *4 H             u0 {1,S}
+4    [Cd,Ct,Cb,CO] u0 {1,S}
+5    [Cd,Ct,Cb,CO] u0 {1,S}
+6    H             u0 {2,S}
+7    Cd            u0 {2,S}
 """,
     kinetics = None,
 )
@@ -2340,6 +2436,19 @@ entry(
 )
 
 entry(
+    index = 288,
+    label = "Cds/H/R!H",
+    group = 
+"""
+1 *2 C   u0 {2,D} {3,S} {4,S}
+2 *3 R!H u1 {1,D}
+3 *4 H   u0 {1,S}
+4    R!H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 268,
     label = "Cds/H/NonDe_d_Rrad",
     group = 
@@ -2571,117 +2680,6 @@ entry(
 1 *2 R!H u0 {2,D} {3,S}
 2 *3 R!H u2 {1,D}
 3 *4 H   u0 {1,S}
-""",
-    kinetics = None,
-)
-
-
-entry(
-    index = 287,
-    label = "Cmethyl_Csrad/H/Cd",
-    group = 
-"""
-1 *2 C u0 {2,S}, {3,S}, {4,S}, {5,S}
-2 *3 Cs u1 {1,S} {6,S} {7,S}
-3 *4 H u0 {1,S}
-4 H u0 {1,S}
-5 H u0 {1,S}
-6 H u0 {2,S}
-7 Cd u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 287,
-    label = "C/H2/Nd_Csrad/H/Cd",
-    group = 
-"""
-1 *2 C u0 {2,S}, {3,S}, {4,S}, {5,S}
-2 *3 Cs u1 {1,S} {6,S} {7,S}
-3 *4 H u0 {1,S}
-4 H u0 {1,S}
-5 [Cs,O,S] u0 {1,S}
-6 H u0 {2,S}
-7 Cd u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 287,
-    label = "C/H2/De_Csrad/H/Cd",
-    group = 
-"""
-1 *2 C u0 {2,S}, {3,S}, {4,S}, {5,S}
-2 *3 Cs u1 {1,S} {6,S} {7,S}
-3 *4 H u0 {1,S}
-4 H u0 {1,S}
-5 [Cd,Ct,Cb,CO] u0 {1,S}
-6 H u0 {2,S}
-7 Cd u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 287,
-    label = "C/H/NdMd_Csrad/H/Cd",
-    group = 
-"""
-1 *2 C u0 {2,S}, {3,S}, {4,S}, {5,S}
-2 *3 Cs u1 {1,S} {6,S} {7,S}
-3 *4 H u0 {1,S}
-4 [Cs,O,S] u0 {1,S}
-5 [Cs,O,S] u0 {1,S}
-6 H u0 {2,S}
-7 Cd u0 {2,S} 
-""",
-    kinetics = None,
-)
- 
-
-entry(
-    index = 287,
-    label = "C/H/NdDe_Csrad/H/Cd",
-    group = 
-"""
-1 *2 C u0 {2,S}, {3,S}, {4,S}, {5,S}
-2 *3 Cs u1 {1,S} {6,S} {7,S}
-3 *4 H u0 {1,S}
-4 [Cs,O,S] u0 {1,S}
-5 [Cd,Ct,Cb,CO] u0 {1,S}
-6 H u0 {2,S}
-7 Cd u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 287,
-    label = "C/H/DeDe_Csrad/H/Cd",
-    group = 
-"""
-1 *2 C u0 {2,S}, {3,S}, {4,S}, {5,S}
-2 *3 Cs u1 {1,S} {6,S} {7,S}
-3 *4 H u0 {1,S}
-4 [Cd,Ct,Cb,CO] u0 {1,S}
-5 [Cd,Ct,Cb,CO] u0 {1,S}
-6 H u0 {2,S}
-7 Cd u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 288,
-    label = "Cds/H/R!H",
-    group = 
-"""
-1 *2 C   u0 {2,D} {3,S} {4,S}
-2 *3 R!H u1 {1,D}
-3 *4 H   u0 {1,S}
-4    R!H u0 {1,S}
 """,
     kinetics = None,
 )
@@ -2950,12 +2948,27 @@ u"""
 )
 
 forbidden(
+    label = "XH_N_birad_singlet",
+    group = 
+"""
+1 *3 N   u0 p2 {2,[S,D]}
+2 *2 R!H ux {1,[S,D]} {3,S}
+3 *4 H   u0 {2,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
     label = "XH_birad_singlet",
     group = 
 """
 1 *3 [C,Si] u0 p1 {2,[S,D,T]}
-2 *2 R!H      ux {1,[S,D,T]} {3,S}
-3 *4 H        u0 {2,S}
+2 *2 R!H    ux {1,[S,D,T]} {3,S}
+3 *4 H      u0 {2,S}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -2969,23 +2982,8 @@ forbidden(
     group = 
 """
 1 *3 [C,Si] u0 p2 {2,[S,D,T]}
-2 *2 R!H      ux {1,[S,D,T]} {3,S}
-3 *4 H        u0 {2,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
-    label = "XH_N_birad_singlet",
-    group = 
-"""
-1 *3 N u0 p2 {2,[S,D]}
-2 *2 R!H      ux {1,[S,D]} {3,S}
-3 *4 H        u0 {2,S}
+2 *2 R!H    ux {1,[S,D,T]} {3,S}
+3 *4 H      u0 {2,S}
 """,
     shortDesc = u"""""",
     longDesc = 

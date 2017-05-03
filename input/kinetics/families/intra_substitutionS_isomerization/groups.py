@@ -16,14 +16,14 @@ recipe(actions=[
     ['LOSE_RADICAL', '*3', '1'],
 ])
 
+boundaryAtoms = ["*1", "*3"]
+
 entry(
     index = 1,
     label = "XSYJ",
     group = "OR{XSR3J, XSR4J, XSR5J, XSR6J, XSR7J}",
     kinetics = None,
 )
-
-boundaryAtoms = ["*1", "*3"]
 
 entry(
     index = 2,
@@ -351,55 +351,6 @@ entry(
 )
 
 entry(
-    index = 37,
-    label = "CsJ-Cs",
-    group = 
-"""
-1 *3 Cs u1 {2,S} {3,S}
-2    Cs u0 {1,S}
-3    R  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 38,
-    label = "CsJ-HH",
-    group = 
-"""
-1 *3 Cs u1 {2,S} {3,S}
-2    H  u0 {1,S}
-3    H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 39,
-    label = "CsJ-CsH",
-    group = 
-"""
-1 *3 Cs u1 {2,S} {3,S}
-2    Cs u0 {1,S}
-3    H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 40,
-    label = "CsJ-CsCs",
-    group = 
-"""
-1 *3 Cs u1 {2,S} {3,S}
-2    Cs u0 {1,S}
-3    Cs u0 {1,S}
-""",
-    kinetics = None,
-)
-
-
-entry(
     index = 52,
     label = "CsJ-Cd",
     group = 
@@ -407,18 +358,6 @@ entry(
 1 *3 Cs u1 {2,S} {3,S}
 2    Cd u0 {1,S}
 3    R  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 54,
-    label = "CsJ-CdH",
-    group = 
-"""
-1 *3 Cs u1 {2,S} {3,S}
-2    Cd u0 {1,S}
-3    H  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -448,6 +387,18 @@ entry(
 )
 
 entry(
+    index = 54,
+    label = "CsJ-CdH",
+    group = 
+"""
+1 *3 Cs u1 {2,S} {3,S}
+2    Cd u0 {1,S}
+3    H  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 67,
     label = "CsJ-Ss",
     group = 
@@ -455,18 +406,6 @@ entry(
 1 *3 Cs u1 {2,S} {3,S}
 2    Ss u0 {1,S}
 3    R  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 69,
-    label = "CsJ-SsH",
-    group = 
-"""
-1 *3 Cs u1 {2,S} {3,S}
-2    Ss u0 {1,S}
-3    H  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -491,6 +430,66 @@ entry(
 1 *3 Cs u1 {2,S} {3,S}
 2    Ss u0 {1,S}
 3    Ss u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 69,
+    label = "CsJ-SsH",
+    group = 
+"""
+1 *3 Cs u1 {2,S} {3,S}
+2    Ss u0 {1,S}
+3    H  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 37,
+    label = "CsJ-Cs",
+    group = 
+"""
+1 *3 Cs u1 {2,S} {3,S}
+2    Cs u0 {1,S}
+3    R  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 40,
+    label = "CsJ-CsCs",
+    group = 
+"""
+1 *3 Cs u1 {2,S} {3,S}
+2    Cs u0 {1,S}
+3    Cs u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 39,
+    label = "CsJ-CsH",
+    group = 
+"""
+1 *3 Cs u1 {2,S} {3,S}
+2    Cs u0 {1,S}
+3    H  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 38,
+    label = "CsJ-HH",
+    group = 
+"""
+1 *3 Cs u1 {2,S} {3,S}
+2    H  u0 {1,S}
+3    H  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1090,7 +1089,6 @@ L1: XSYJ
         L3: XSR5J_DDD
     L2: XSR6J
     L2: XSR7J
-
 L1: YJ
     L2: CJ
         L3: CdsJ
@@ -1106,10 +1104,8 @@ L1: YJ
             L4: CsJ-Cs
                 L5: CsJ-CsCs
                 L5: CsJ-CsH
-            L4: CsJ-HH 
-
+            L4: CsJ-HH
     L2: SsJ
-
 L1: S-RR
     L2: S-HC
     L2: S-CC
@@ -1165,6 +1161,7 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 

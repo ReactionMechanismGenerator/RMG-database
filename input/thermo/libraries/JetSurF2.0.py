@@ -13,7 +13,6 @@ H. Wang, E. Dames, B. Sirjean, D. A. Sheen, R. Tango, A. Violi, J. Y. W. Lai, F.
  n-propyl and n-butyl-cyclohexane oxidation at high temperatures, JetSurF version 2.0,
  September 19, 2010 (http://web.stanford.edu/group/haiwanglab/JetSurF/JetSurF2.0/index.html).
 """
-
 entry(
     index = 1,
     label = "Ar",

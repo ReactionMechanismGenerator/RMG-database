@@ -10933,7 +10933,10 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
-    longDesc = u"""Value for ipentanol, x3 lower mainly because of gamma O restricting rotation of abstracting methyl""",
+    longDesc = 
+u"""
+Value for ipentanol, x3 lower mainly because of gamma O restricting rotation of abstracting methyl
+""",
 )
 
 entry(
@@ -11024,11 +11027,12 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""C2H5OH+O=OH+CH2CH2OH""",
-    longDesc = """
+    longDesc = 
+u"""
 iBuOH+O SSM estimates		 
 Values for -alpha,-gamma,-O come from C2H5OH+O TST calculations:
 C. W. Wu, Y. P. Lee, S. C. Xu, M. C. Lin, J. Phys. Chem. A 111 (2007) 6693-6703. 		 //!	C. W. Wu, Y. P. Lee, S. C. Xu, M. C. Lin, J. Phys. Chem. A 111 (2007) 6693-6703. 
--alpha is 2*k(C2H5OH+O=OH+CH2CH2OH)		
+-alpha is 2*k(C2H5OH+O=OH+CH2CH2OH)
 """,
 )
 
@@ -11150,8 +11154,11 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CCSD(T)-F12a/pVTZ with MS-VTST treatment for rotors""",
-    longDesc = """Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
-doi: 10.1021/jp310910f""",
+    longDesc = 
+u"""
+Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
+doi: 10.1021/jp310910f
+""",
 )
 
 entry(
@@ -11167,8 +11174,11 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CCSD(T)-F12a/pVTZ with MS-VTST treatment for rotors""",
-    longDesc = """Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
-doi: 10.1021/jp310910f""",
+    longDesc = 
+u"""
+Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
+doi: 10.1021/jp310910f
+""",
 )
 
 entry(
@@ -11198,8 +11208,11 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CCSD(T)-F12a/pVTZ with MS-VTST treatment for rotors""",
-    longDesc = """Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
-doi: 10.1021/jp310910f""",
+    longDesc = 
+u"""
+Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
+doi: 10.1021/jp310910f
+""",
 )
 
 entry(
@@ -11215,8 +11228,11 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CCSD(T)-F12a/pVTZ with MS-VTST treatment for rotors""",
-    longDesc = """Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
-doi: 10.1021/jp310910f""",
+    longDesc = 
+u"""
+Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
+doi: 10.1021/jp310910f
+""",
 )
 
 entry(
@@ -12269,13 +12285,13 @@ entry(
 )
 
 entry(
-    index = 4068,
-    label = "C_methane;Cd_rad/Ct",
+    index = 4067,
+    label = "C_methane;C_rad/H2/S",
     kinetics = ArrheniusEP(
-        A = (0.000605, 'cm^3/(mol*s)'),
+        A = (0.00207, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
-        E0 = (10.7, 'kcal/mol'),
+        E0 = (15.6, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -12284,13 +12300,13 @@ entry(
 )
 
 entry(
-    index = 4067,
-    label = "C_methane;C_rad/H2/S",
+    index = 4068,
+    label = "C_methane;Cd_rad/Ct",
     kinetics = ArrheniusEP(
-        A = (0.00207, 'cm^3/(mol*s)'),
+        A = (0.000605, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
-        E0 = (15.6, 'kcal/mol'),
+        E0 = (10.7, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -12929,21 +12945,6 @@ entry(
 )
 
 entry(
-    index = 4112,
-    label = "C/H3/Cs;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.0165, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (17, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
     index = 4110,
     label = "C/H3/Cs;Cd_rad/Ct",
     kinetics = ArrheniusEP(
@@ -12966,6 +12967,21 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (12.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4112,
+    label = "C/H3/Cs;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.0165, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (17, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -13604,21 +13620,6 @@ entry(
 )
 
 entry(
-    index = 4157,
-    label = "C/H2/NonDeC;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.0166, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (14, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
     index = 4154,
     label = "C/H2/NonDeC;Cd_rad/Ct",
     kinetics = ArrheniusEP(
@@ -13656,6 +13657,21 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (9.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4157,
+    label = "C/H2/NonDeC;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.0166, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (14, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -14279,21 +14295,6 @@ entry(
 )
 
 entry(
-    index = 4202,
-    label = "C/H/Cs3;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.0191, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (11, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
     index = 4198,
     label = "C/H/Cs3;Cd_rad/Ct",
     kinetics = ArrheniusEP(
@@ -14346,6 +14347,21 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4202,
+    label = "C/H/Cs3;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.0191, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (11, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -14954,21 +14970,6 @@ entry(
 )
 
 entry(
-    index = 4247,
-    label = "C/H3/Cd;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.00164, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (10.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
     index = 4242,
     label = "C/H3/Cd;Cd_rad/Ct",
     kinetics = ArrheniusEP(
@@ -15036,6 +15037,21 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (14.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4247,
+    label = "C/H3/Cd;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.00164, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (10.9, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -15629,21 +15645,6 @@ entry(
 )
 
 entry(
-    index = 4292,
-    label = "C/H2/CdCs;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.00512, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (8.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
     index = 4286,
     label = "C/H2/CdCs;Cd_rad/Ct",
     kinetics = ArrheniusEP(
@@ -15726,6 +15727,21 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (13.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4292,
+    label = "C/H2/CdCs;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.00512, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (8.5, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -16319,21 +16335,6 @@ entry(
 )
 
 entry(
-    index = 4338,
-    label = "C/H/Cs2Cd;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000686, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (2.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
     index = 4331,
     label = "C/H/Cs2Cd;C_rad/H2/S",
     kinetics = ArrheniusEP(
@@ -16431,6 +16432,21 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (-10, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4338,
+    label = "C/H/Cs2Cd;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000686, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (2.6, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -16979,21 +16995,6 @@ entry(
 )
 
 entry(
-    index = 4382,
-    label = "C/H2/CdCd;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.00218, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (4.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
     index = 4374,
     label = "C/H2/CdCd;Cd_rad/Ct",
     kinetics = ArrheniusEP(
@@ -17106,6 +17107,21 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (-13.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4382,
+    label = "C/H2/CdCd;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.00218, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (4.1, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -17654,21 +17670,6 @@ entry(
 )
 
 entry(
-    index = 4427,
-    label = "C/H/CdCd;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.000887, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (1.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
     index = 4418,
     label = "C/H/CdCd;Cd_rad/Ct",
     kinetics = ArrheniusEP(
@@ -17796,6 +17797,21 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (11.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4427,
+    label = "C/H/CdCd;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.000887, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (1.9, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -18329,21 +18345,6 @@ entry(
 )
 
 entry(
-    index = 4472,
-    label = "C/H3/Ct;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.0051, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (11.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
     index = 4462,
     label = "C/H3/Ct;Cd_rad/Ct",
     kinetics = ArrheniusEP(
@@ -18486,6 +18487,21 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (14.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4472,
+    label = "C/H3/Ct;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.0051, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (11.5, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -19004,21 +19020,6 @@ entry(
 )
 
 entry(
-    index = 4517,
-    label = "C/H2/CtCs;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.00552, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (8.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
     index = 4506,
     label = "C/H2/CtCs;Cd_rad/Ct",
     kinetics = ArrheniusEP(
@@ -19176,6 +19177,21 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (10.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4517,
+    label = "C/H2/CtCs;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.00552, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (8.9, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -19679,21 +19695,6 @@ entry(
 )
 
 entry(
-    index = 4562,
-    label = "C/H/Cs2Ct;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.00524, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (6.4, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
     index = 4550,
     label = "C/H/Cs2Ct;Cd_rad/Ct",
     kinetics = ArrheniusEP(
@@ -19866,6 +19867,21 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (16.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4562,
+    label = "C/H/Cs2Ct;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.00524, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (6.4, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -20354,21 +20370,6 @@ entry(
 )
 
 entry(
-    index = 4607,
-    label = "C/H2/CtCt;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.00195, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (4.2, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
     index = 4594,
     label = "C/H2/CtCt;Cd_rad/Ct",
     kinetics = ArrheniusEP(
@@ -20556,6 +20557,21 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (12.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4607,
+    label = "C/H2/CtCt;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.00195, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (4.2, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -21029,21 +21045,6 @@ entry(
 )
 
 entry(
-    index = 4652,
-    label = "C/H/CtCt;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.00177, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (2, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
     index = 4638,
     label = "C/H/CtCt;Cd_rad/Ct",
     kinetics = ArrheniusEP(
@@ -21246,6 +21247,21 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (2.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4652,
+    label = "C/H/CtCt;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.00177, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (2, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -21704,21 +21720,6 @@ entry(
 )
 
 entry(
-    index = 4697,
-    label = "C/H3/Cb;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.00139, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (12.8, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
     index = 4682,
     label = "C/H3/Cb;Cd_rad/Ct",
     kinetics = ArrheniusEP(
@@ -21936,6 +21937,21 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (14, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4697,
+    label = "C/H3/Cb;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.00139, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (12.8, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -22379,21 +22395,6 @@ entry(
 )
 
 entry(
-    index = 4742,
-    label = "C/H2/CbCs;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.00168, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (9.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
     index = 4726,
     label = "C/H2/CbCs;Cd_rad/Ct",
     kinetics = ArrheniusEP(
@@ -22626,6 +22627,21 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (10.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4742,
+    label = "C/H2/CbCs;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.00168, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (9.9, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -23069,21 +23085,6 @@ entry(
 )
 
 entry(
-    index = 4788,
-    label = "C/H/Cs2Cb;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000263, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (4, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
     index = 4771,
     label = "C/H/Cs2Cb;C_rad/H2/S",
     kinetics = ArrheniusEP(
@@ -23331,6 +23332,21 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (10.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4788,
+    label = "C/H/Cs2Cb;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000263, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (4, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -23744,21 +23760,6 @@ entry(
 )
 
 entry(
-    index = 4833,
-    label = "Cd_pri;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.001, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (11.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
     index = 4815,
     label = "Cd_pri;C_rad/H2/S",
     kinetics = ArrheniusEP(
@@ -24021,6 +24022,21 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (17.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4833,
+    label = "Cd_pri;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.001, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (11.1, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -24404,21 +24420,6 @@ entry(
 )
 
 entry(
-    index = 4877,
-    label = "Cd/H/NonDeC;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.023, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (17.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
     index = 4858,
     label = "Cd/H/NonDeC;Cd_rad/Ct",
     kinetics = ArrheniusEP(
@@ -24696,6 +24697,21 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (14.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4877,
+    label = "Cd/H/NonDeC;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.023, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (17.5, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -25079,21 +25095,6 @@ entry(
 )
 
 entry(
-    index = 4922,
-    label = "Cd/H/Cd;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.0265, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (18.4, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
     index = 4902,
     label = "Cd/H/Cd;Cd_rad/Ct",
     kinetics = ArrheniusEP(
@@ -25386,6 +25387,21 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (17.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4922,
+    label = "Cd/H/Cd;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.0265, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (18.4, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -25769,21 +25785,6 @@ entry(
 )
 
 entry(
-    index = 4968,
-    label = "Cb_H;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.00123, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (13, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
     index = 4947,
     label = "Cb_H;C_rad/H2/S",
     kinetics = ArrheniusEP(
@@ -26100,579 +26101,9 @@ entry(
 
 entry(
     index = 4968,
-    label = "Cd_Cdd/H2;H_rad",
+    label = "Cb_H;Cd_rad/Ct",
     kinetics = ArrheniusEP(
-        A = (1.63, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (3.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4991,
-    label = "Cd_Cdd/H2;C_methyl",
-    kinetics = ArrheniusEP(
-        A = (0.0387, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (5.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4992,
-    label = "Cd_Cdd/H2;C_rad/H2/Cs",
-    kinetics = ArrheniusEP(
-        A = (0.00545, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (5.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4993,
-    label = "Cd_Cdd/H2;C_rad/H/NonDeC",
-    kinetics = ArrheniusEP(
-        A = (0.00631, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (5.7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4994,
-    label = "Cd_Cdd/H2;C_rad/Cs3",
-    kinetics = ArrheniusEP(
-        A = (0.00635, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (4.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4995,
-    label = "Cd_Cdd/H2;C_rad/H2/Cd",
-    kinetics = ArrheniusEP(
-        A = (0.0272, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (14.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4996,
-    label = "Cd_Cdd/H2;C_rad/H/CdCs",
-    kinetics = ArrheniusEP(
-        A = (0.0169, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (15.2, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4997,
-    label = "Cd_Cdd/H2;C_rad/CdCs2",
-    kinetics = ArrheniusEP(
-        A = (0.00263, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (14.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4998,
-    label = "Cd_Cdd/H2;C_rad/H/CdCd",
-    kinetics = ArrheniusEP(
-        A = (0.0213, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (20.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4999,
-    label = "Cd_Cdd/H2;C_rad/CdCdCs",
-    kinetics = ArrheniusEP(
-        A = (0.000953, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (20, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5000,
-    label = "Cd_Cdd/H2;C_rad/H2/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.0139, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (10.7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5001,
-    label = "Cd_Cdd/H2;C_rad/H/CtCs",
-    kinetics = ArrheniusEP(
-        A = (0.00457, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (11.2, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5002,
-    label = "Cd_Cdd/H2;C_rad/CtCs2",
-    kinetics = ArrheniusEP(
-        A = (0.00172, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (10.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5003,
-    label = "Cd_Cdd/H2;C_rad/H/CtCt",
-    kinetics = ArrheniusEP(
-        A = (0.00646, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (14.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5004,
-    label = "Cd_Cdd/H2;C_rad/CtCtCs",
-    kinetics = ArrheniusEP(
-        A = (0.00026, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (14.8, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5005,
-    label = "Cd_Cdd/H2;C_rad/H2/Cb",
-    kinetics = ArrheniusEP(
-        A = (0.0252, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (12.4, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5006,
-    label = "Cd_Cdd/H2;C_rad/H/CbCs",
-    kinetics = ArrheniusEP(
-        A = (0.0106, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (12.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5007,
-    label = "Cd_Cdd/H2;C_rad/CbCs2",
-    kinetics = ArrheniusEP(
-        A = (0.000522, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (10.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5008,
-    label = "Cd_Cdd/H2;Cd_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (0.0417, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5009,
-    label = "Cd_Cdd/H2;Cd_rad/NonDeC",
-    kinetics = ArrheniusEP(
-        A = (0.0236, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (0.8, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5010,
-    label = "Cd_Cdd/H2;Cd_rad/Cd",
-    kinetics = ArrheniusEP(
-        A = (0.0193, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (8.7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5011,
-    label = "Cd_Cdd/H2;Cb_rad",
-    kinetics = ArrheniusEP(
-        A = (0.0531, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (-1.7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5012,
-    label = "Cd_Cdd/H2;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.0308, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (11.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5013,
-    label = "Cd_Cdd/H2;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.00452, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5014,
-    label = "Cd_Cdd/H2;C_rad/H2/S",
-    kinetics = ArrheniusEP(
-        A = (0.0122, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (8.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5015,
-    label = "Cd_Cdd/H2;C_rad/H/CsS",
-    kinetics = ArrheniusEP(
-        A = (0.0343, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5016,
-    label = "Cd_Cdd/H2;C_rad/Cs2S",
-    kinetics = ArrheniusEP(
-        A = (0.0199, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (5.7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5017,
-    label = "Cd_Cdd/H2;C_rad/H2/CS",
-    kinetics = ArrheniusEP(
-        A = (0.0195, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (15.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5018,
-    label = "Cd_Cdd/H2;C_rad/H/CSCs",
-    kinetics = ArrheniusEP(
-        A = (0.0304, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (17.3, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5019,
-    label = "Cd_Cdd/H2;C_rad/CSCs2",
-    kinetics = ArrheniusEP(
-        A = (0.014, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (18.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5020,
-    label = "Cd_Cdd/H2;Cd_rad/NonDeS",
-    kinetics = ArrheniusEP(
-        A = (0.0154, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (-3.3, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5021,
-    label = "Cd_Cdd/H2;Cd_rad/CS",
-    kinetics = ArrheniusEP(
-        A = (0.167, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (16.4, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5022,
-    label = "Cd_Cdd/H2;C_rad/H/CdS",
-    kinetics = ArrheniusEP(
-        A = (0.0514, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (15.3, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5023,
-    label = "Cd_Cdd/H2;C_rad/CdCsS",
-    kinetics = ArrheniusEP(
-        A = (0.0066, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (14.2, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5024,
-    label = "Cd_Cdd/H2;C_rad/H/CSS",
-    kinetics = ArrheniusEP(
-        A = (0.241, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (22.3, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5025,
-    label = "Cd_Cdd/H2;C_rad/CSCsS",
-    kinetics = ArrheniusEP(
-        A = (0.0639, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (22.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5026,
-    label = "Cd_Cdd/H2;C_rad/H/CtS",
-    kinetics = ArrheniusEP(
-        A = (0.0261, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (13.3, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5027,
-    label = "Cd_Cdd/H2;C_rad/CtCsS",
-    kinetics = ArrheniusEP(
-        A = (0.0103, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (13.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5028,
-    label = "Cd_Cdd/H2;C_rad/H/CbS",
-    kinetics = ArrheniusEP(
-        A = (0.0123, 'cm^3/(mol*s)'),
+        A = (0.00123, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (13, 'kcal/mol'),
@@ -26684,103 +26115,13 @@ entry(
 )
 
 entry(
-    index = 5029,
-    label = "Cd_Cdd/H2;C_rad/CbCsS",
+    index = 4968,
+    label = "Cd_Cdd/H2;H_rad",
     kinetics = ArrheniusEP(
-        A = (0.00444, 'cm^3/(mol*s)'),
+        A = (1.63, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
-        E0 = (11.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5030,
-    label = "Cd_Cdd/H2;CS_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (0.144, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (12.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5031,
-    label = "Cd_Cdd/H2;CS_rad/Cs",
-    kinetics = ArrheniusEP(
-        A = (0.0918, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (11.2, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5032,
-    label = "Cd_Cdd/H2;CS_rad/S",
-    kinetics = ArrheniusEP(
-        A = (0.136, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (12.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5033,
-    label = "Cd_Cdd/H2;CS_rad/Cd",
-    kinetics = ArrheniusEP(
-        A = (0.0603, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (15.2, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5034,
-    label = "Cd_Cdd/H2;CS_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.169, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (18.8, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5035,
-    label = "Cd/H/Ct;H_rad",
-    kinetics = ArrheniusEP(
-        A = (0.295, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (3.8, 'kcal/mol'),
+        E0 = (3.5, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27119,13 +26460,13 @@ entry(
 )
 
 entry(
-    index = 5058,
-    label = "Cd/H/Ct;Cd_rad/Ct",
+    index = 4991,
+    label = "Cd_Cdd/H2;C_methyl",
     kinetics = ArrheniusEP(
-        A = (0.000816, 'cm^3/(mol*s)'),
+        A = (0.0387, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
-        E0 = (6.3, 'kcal/mol'),
+        E0 = (5.6, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27150,12 +26491,42 @@ entry(
 
 entry(
     index = 4992,
+    label = "Cd_Cdd/H2;C_rad/H2/Cs",
+    kinetics = ArrheniusEP(
+        A = (0.00545, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (5.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4992,
     label = "Cd/H/Ct;C_rad/H/CsS",
     kinetics = ArrheniusEP(
         A = (0.00955, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (11.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4993,
+    label = "Cd_Cdd/H2;C_rad/H/NonDeC",
+    kinetics = ArrheniusEP(
+        A = (0.00631, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (5.7, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27180,12 +26551,42 @@ entry(
 
 entry(
     index = 4994,
+    label = "Cd_Cdd/H2;C_rad/Cs3",
+    kinetics = ArrheniusEP(
+        A = (0.00635, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (4.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4994,
     label = "Cd/H/Ct;C_rad/H2/CS",
     kinetics = ArrheniusEP(
         A = (0.0228, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (22.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4995,
+    label = "Cd_Cdd/H2;C_rad/H2/Cd",
+    kinetics = ArrheniusEP(
+        A = (0.0272, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (14.5, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27210,12 +26611,42 @@ entry(
 
 entry(
     index = 4996,
+    label = "Cd_Cdd/H2;C_rad/H/CdCs",
+    kinetics = ArrheniusEP(
+        A = (0.0169, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (15.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4996,
     label = "Cd/H/Ct;C_rad/CSCs2",
     kinetics = ArrheniusEP(
         A = (0.0243, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (27.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4997,
+    label = "Cd_Cdd/H2;C_rad/CdCs2",
+    kinetics = ArrheniusEP(
+        A = (0.00263, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (14.5, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27240,12 +26671,42 @@ entry(
 
 entry(
     index = 4998,
+    label = "Cd_Cdd/H2;C_rad/H/CdCd",
+    kinetics = ArrheniusEP(
+        A = (0.0213, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (20.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4998,
     label = "Cd/H/Ct;Cd_rad/CS",
     kinetics = ArrheniusEP(
         A = (0.0301, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (16.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4999,
+    label = "Cd_Cdd/H2;C_rad/CdCdCs",
+    kinetics = ArrheniusEP(
+        A = (0.000953, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (20, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27270,12 +26731,42 @@ entry(
 
 entry(
     index = 5000,
+    label = "Cd_Cdd/H2;C_rad/H2/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.0139, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (10.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5000,
     label = "Cd/H/Ct;C_rad/CdCsS",
     kinetics = ArrheniusEP(
         A = (0.00708, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (22.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5001,
+    label = "Cd_Cdd/H2;C_rad/H/CtCs",
+    kinetics = ArrheniusEP(
+        A = (0.00457, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (11.2, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27300,12 +26791,42 @@ entry(
 
 entry(
     index = 5002,
+    label = "Cd_Cdd/H2;C_rad/CtCs2",
+    kinetics = ArrheniusEP(
+        A = (0.00172, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (10.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5002,
     label = "Cd/H/Ct;C_rad/CSCsS",
     kinetics = ArrheniusEP(
         A = (0.115, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (33.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5003,
+    label = "Cd_Cdd/H2;C_rad/H/CtCt",
+    kinetics = ArrheniusEP(
+        A = (0.00646, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (14.9, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27330,12 +26851,42 @@ entry(
 
 entry(
     index = 5004,
+    label = "Cd_Cdd/H2;C_rad/CtCtCs",
+    kinetics = ArrheniusEP(
+        A = (0.00026, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (14.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5004,
     label = "Cd/H/Ct;C_rad/CtCsS",
     kinetics = ArrheniusEP(
         A = (0.011, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (21.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5005,
+    label = "Cd_Cdd/H2;C_rad/H2/Cb",
+    kinetics = ArrheniusEP(
+        A = (0.0252, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (12.4, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27360,12 +26911,42 @@ entry(
 
 entry(
     index = 5006,
+    label = "Cd_Cdd/H2;C_rad/H/CbCs",
+    kinetics = ArrheniusEP(
+        A = (0.0106, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (12.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5006,
     label = "Cd/H/Ct;C_rad/CbCsS",
     kinetics = ArrheniusEP(
         A = (0.00476, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (19.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5007,
+    label = "Cd_Cdd/H2;C_rad/CbCs2",
+    kinetics = ArrheniusEP(
+        A = (0.000522, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (10.6, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27390,12 +26971,42 @@ entry(
 
 entry(
     index = 5008,
+    label = "Cd_Cdd/H2;Cd_pri_rad",
+    kinetics = ArrheniusEP(
+        A = (0.0417, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5008,
     label = "Cd/H/Ct;CS_rad/Cs",
     kinetics = ArrheniusEP(
         A = (0.0202, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (12.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5009,
+    label = "Cd_Cdd/H2;Cd_rad/NonDeC",
+    kinetics = ArrheniusEP(
+        A = (0.0236, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (0.8, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27420,12 +27031,42 @@ entry(
 
 entry(
     index = 5010,
+    label = "Cd_Cdd/H2;Cd_rad/Cd",
+    kinetics = ArrheniusEP(
+        A = (0.0193, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (8.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5010,
     label = "Cd/H/Ct;CS_rad/Cd",
     kinetics = ArrheniusEP(
         A = (0.0109, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (15.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5011,
+    label = "Cd_Cdd/H2;Cb_rad",
+    kinetics = ArrheniusEP(
+        A = (0.0531, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (-1.7, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27450,12 +27091,42 @@ entry(
 
 entry(
     index = 5012,
+    label = "Cd_Cdd/H2;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.0308, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (11.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5012,
     label = "C/H3/S;H_rad",
     kinetics = ArrheniusEP(
         A = (0.0556, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (3.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5013,
+    label = "Cd_Cdd/H2;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.00452, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (6, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27480,12 +27151,42 @@ entry(
 
 entry(
     index = 5014,
+    label = "Cd_Cdd/H2;C_rad/H2/S",
+    kinetics = ArrheniusEP(
+        A = (0.0122, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (8.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5014,
     label = "C/H3/S;C_rad/H2/Cs",
     kinetics = ArrheniusEP(
         A = (0.000218, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (6.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5015,
+    label = "Cd_Cdd/H2;C_rad/H/CsS",
+    kinetics = ArrheniusEP(
+        A = (0.0343, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (7, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27510,12 +27211,42 @@ entry(
 
 entry(
     index = 5016,
+    label = "Cd_Cdd/H2;C_rad/Cs2S",
+    kinetics = ArrheniusEP(
+        A = (0.0199, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (5.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5016,
     label = "C/H3/S;C_rad/Cs3",
     kinetics = ArrheniusEP(
         A = (0.00035, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (5.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5017,
+    label = "Cd_Cdd/H2;C_rad/H2/CS",
+    kinetics = ArrheniusEP(
+        A = (0.0195, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (15.5, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27540,12 +27271,42 @@ entry(
 
 entry(
     index = 5018,
+    label = "Cd_Cdd/H2;C_rad/H/CSCs",
+    kinetics = ArrheniusEP(
+        A = (0.0304, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (17.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5018,
     label = "C/H3/S;C_rad/H/CdCs",
     kinetics = ArrheniusEP(
         A = (0.00206, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (16.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5019,
+    label = "Cd_Cdd/H2;C_rad/CSCs2",
+    kinetics = ArrheniusEP(
+        A = (0.014, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (18.6, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27570,12 +27331,42 @@ entry(
 
 entry(
     index = 5020,
+    label = "Cd_Cdd/H2;Cd_rad/NonDeS",
+    kinetics = ArrheniusEP(
+        A = (0.0154, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (-3.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5020,
     label = "C/H3/S;C_rad/H/CdCd",
     kinetics = ArrheniusEP(
         A = (0.00673, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (22.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5021,
+    label = "Cd_Cdd/H2;Cd_rad/CS",
+    kinetics = ArrheniusEP(
+        A = (0.167, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (16.4, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27600,12 +27391,42 @@ entry(
 
 entry(
     index = 5022,
+    label = "Cd_Cdd/H2;C_rad/H/CdS",
+    kinetics = ArrheniusEP(
+        A = (0.0514, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (15.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5022,
     label = "C/H3/S;C_rad/H2/Ct",
     kinetics = ArrheniusEP(
         A = (0.00144, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (11.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5023,
+    label = "Cd_Cdd/H2;C_rad/CdCsS",
+    kinetics = ArrheniusEP(
+        A = (0.0066, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (14.2, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27630,12 +27451,42 @@ entry(
 
 entry(
     index = 5024,
+    label = "Cd_Cdd/H2;C_rad/H/CSS",
+    kinetics = ArrheniusEP(
+        A = (0.241, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (22.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5024,
     label = "C/H3/S;C_rad/CtCs2",
     kinetics = ArrheniusEP(
         A = (0.000247, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (12.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5025,
+    label = "Cd_Cdd/H2;C_rad/CSCsS",
+    kinetics = ArrheniusEP(
+        A = (0.0639, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (22.6, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27660,12 +27511,42 @@ entry(
 
 entry(
     index = 5026,
+    label = "Cd_Cdd/H2;C_rad/H/CtS",
+    kinetics = ArrheniusEP(
+        A = (0.0261, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (13.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5026,
     label = "C/H3/S;C_rad/CtCtCs",
     kinetics = ArrheniusEP(
         A = (9.69e-05, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (17.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5027,
+    label = "Cd_Cdd/H2;C_rad/CtCsS",
+    kinetics = ArrheniusEP(
+        A = (0.0103, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (13.1, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27690,6 +27571,21 @@ entry(
 
 entry(
     index = 5028,
+    label = "Cd_Cdd/H2;C_rad/H/CbS",
+    kinetics = ArrheniusEP(
+        A = (0.0123, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (13, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5028,
     label = "C/H3/S;C_rad/H/CbCs",
     kinetics = ArrheniusEP(
         A = (0.0013, 'cm^3/(mol*s)'),
@@ -27705,9 +27601,39 @@ entry(
 
 entry(
     index = 5029,
+    label = "Cd_Cdd/H2;C_rad/CbCsS",
+    kinetics = ArrheniusEP(
+        A = (0.00444, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (11.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5029,
     label = "C/H3/S;C_rad/CbCs2",
     kinetics = ArrheniusEP(
         A = (7.48e-05, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (12.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5030,
+    label = "Cd_Cdd/H2;CS_pri_rad",
+    kinetics = ArrheniusEP(
+        A = (0.144, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (12.5, 'kcal/mol'),
@@ -27735,12 +27661,42 @@ entry(
 
 entry(
     index = 5031,
+    label = "Cd_Cdd/H2;CS_rad/Cs",
+    kinetics = ArrheniusEP(
+        A = (0.0918, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (11.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5031,
     label = "C/H3/S;Cd_rad/NonDeC",
     kinetics = ArrheniusEP(
         A = (0.000944, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (1.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5032,
+    label = "Cd_Cdd/H2;CS_rad/S",
+    kinetics = ArrheniusEP(
+        A = (0.136, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (12.1, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27765,12 +27721,42 @@ entry(
 
 entry(
     index = 5033,
+    label = "Cd_Cdd/H2;CS_rad/Cd",
+    kinetics = ArrheniusEP(
+        A = (0.0603, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (15.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5033,
     label = "C/H3/S;Cb_rad",
     kinetics = ArrheniusEP(
         A = (0.00181, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
         E0 = (-1.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5034,
+    label = "Cd_Cdd/H2;CS_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.169, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (18.8, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -27794,13 +27780,13 @@ entry(
 )
 
 entry(
-    index = 5103,
-    label = "C/H3/S;Cd_rad/Ct",
+    index = 5035,
+    label = "Cd/H/Ct;H_rad",
     kinetics = ArrheniusEP(
-        A = (0.000154, 'cm^3/(mol*s)'),
+        A = (0.295, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
-        E0 = (6, 'kcal/mol'),
+        E0 = (3.8, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -28155,6 +28141,21 @@ entry(
 
 entry(
     index = 5058,
+    label = "Cd/H/Ct;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000816, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (6.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5058,
     label = "C/H2/CsS;C_rad/H2/Cs",
     kinetics = ArrheniusEP(
         A = (0.000418, 'cm^3/(mol*s)'),
@@ -28461,21 +28462,6 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (10.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5148,
-    label = "C/H2/CsS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000361, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (4.6, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -28845,6 +28831,21 @@ entry(
 
 entry(
     index = 5103,
+    label = "C/H3/S;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000154, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5103,
     label = "C/H/Cs2S;C_rad/H/NonDeC",
     kinetics = ArrheniusEP(
         A = (0.000166, 'cm^3/(mol*s)'),
@@ -29136,21 +29137,6 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (7.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5193,
-    label = "C/H/Cs2S;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000193, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (3.1, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -29535,6 +29521,21 @@ entry(
 
 entry(
     index = 5148,
+    label = "C/H2/CsS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000361, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (4.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5148,
     label = "C/H3/CS;C_rad/Cs3",
     kinetics = ArrheniusEP(
         A = (0.000313, 'cm^3/(mol*s)'),
@@ -29811,21 +29812,6 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (13.2, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5238,
-    label = "C/H3/CS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000386, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (3.4, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -30225,6 +30211,21 @@ entry(
 
 entry(
     index = 5193,
+    label = "C/H/Cs2S;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000193, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (3.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5193,
     label = "C/H2/CSCs;C_rad/H2/Cd",
     kinetics = ArrheniusEP(
         A = (0.00161, 'cm^3/(mol*s)'),
@@ -30486,21 +30487,6 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (4.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5283,
-    label = "C/H2/CSCs;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000548, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (2.2, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -30915,6 +30901,21 @@ entry(
 
 entry(
     index = 5238,
+    label = "C/H3/CS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000386, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (3.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5238,
     label = "C/H/Cs2CS;C_rad/H/CdCs",
     kinetics = ArrheniusEP(
         A = (0.0003, 'cm^3/(mol*s)'),
@@ -31161,21 +31162,6 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (2.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5328,
-    label = "C/H/Cs2CS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000362, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (0.9, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -31605,6 +31591,21 @@ entry(
 
 entry(
     index = 5283,
+    label = "C/H2/CSCs;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000548, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (2.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5283,
     label = "Cd/H/NonDeS;C_rad/CdCs2",
     kinetics = ArrheniusEP(
         A = (0.000124, 'cm^3/(mol*s)'),
@@ -31836,21 +31837,6 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (10.4, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5373,
-    label = "Cd/H/NonDeS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000518, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (7, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -32295,6 +32281,21 @@ entry(
 
 entry(
     index = 5328,
+    label = "C/H/Cs2CS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000362, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (0.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5328,
     label = "Cd/H/CS;C_rad/H/CdCd",
     kinetics = ArrheniusEP(
         A = (0.0966, 'cm^3/(mol*s)'),
@@ -32511,21 +32512,6 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (19.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5418,
-    label = "Cd/H/CS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.00138, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (9.7, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -32985,6 +32971,21 @@ entry(
 
 entry(
     index = 5373,
+    label = "Cd/H/NonDeS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000518, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5373,
     label = "C/H2/CdS;C_rad/CdCdCs",
     kinetics = ArrheniusEP(
         A = (7.21e-05, 'cm^3/(mol*s)'),
@@ -33186,21 +33187,6 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (6.7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5463,
-    label = "C/H2/CdS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000567, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (3.6, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -33675,6 +33661,21 @@ entry(
 
 entry(
     index = 5418,
+    label = "Cd/H/CS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.00138, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (9.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5418,
     label = "C/H/CSCsS;C_rad/H2/Ct",
     kinetics = ArrheniusEP(
         A = (0.000754, 'cm^3/(mol*s)'),
@@ -33861,21 +33862,6 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (4.3, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5508,
-    label = "C/H/CSCsS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000379, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (2.3, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -34365,6 +34351,21 @@ entry(
 
 entry(
     index = 5463,
+    label = "C/H2/CdS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000567, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (3.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5463,
     label = "C/H2/CSS;C_rad/H/CtCs",
     kinetics = ArrheniusEP(
         A = (0.000449, 'cm^3/(mol*s)'),
@@ -34536,21 +34537,6 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (3.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5553,
-    label = "C/H2/CSS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000856, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (2.5, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -35069,6 +35055,21 @@ entry(
 )
 
 entry(
+    index = 5508,
+    label = "C/H/CSCsS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000379, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (2.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
     index = 5509,
     label = "C/H/CSCsS;C_rad/H/CtCt",
     kinetics = ArrheniusEP(
@@ -35211,21 +35212,6 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5598,
-    label = "C/H/CSCsS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000735, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (1.5, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -35745,6 +35731,21 @@ entry(
 
 entry(
     index = 5553,
+    label = "C/H2/CSS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000856, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (2.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5553,
     label = "C/H2/CtS;C_rad/H/CtCt",
     kinetics = ArrheniusEP(
         A = (0.00218, 'cm^3/(mol*s)'),
@@ -35886,21 +35887,6 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (5.8, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5643,
-    label = "C/H2/CtS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000397, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (2.7, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -36435,6 +36421,21 @@ entry(
 
 entry(
     index = 5598,
+    label = "C/H/CSCsS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000735, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (1.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5598,
     label = "C/H/CtCsS;C_rad/CtCtCs",
     kinetics = ArrheniusEP(
         A = (5.71e-05, 'cm^3/(mol*s)'),
@@ -36561,21 +36562,6 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (3.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5688,
-    label = "C/H/CtCsS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000486, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (1.5, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -37125,6 +37111,21 @@ entry(
 
 entry(
     index = 5643,
+    label = "C/H2/CtS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000397, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (2.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5643,
     label = "C/H2/CbS;C_rad/H2/Cb",
     kinetics = ArrheniusEP(
         A = (0.00165, 'cm^3/(mol*s)'),
@@ -37236,21 +37237,6 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (7.2, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5733,
-    label = "C/H2/CbS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000375, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (4.1, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -37815,6 +37801,21 @@ entry(
 
 entry(
     index = 5688,
+    label = "C/H/CtCsS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000486, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (1.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5688,
     label = "C/H/CbCsS;C_rad/H/CbCs",
     kinetics = ArrheniusEP(
         A = (0.000255, 'cm^3/(mol*s)'),
@@ -37911,21 +37912,6 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5778,
-    label = "C/H/CbCsS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000212, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (3, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -38505,6 +38491,21 @@ entry(
 
 entry(
     index = 5733,
+    label = "C/H2/CbS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000375, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (4.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5733,
     label = "CS_pri;C_rad/CbCs2",
     kinetics = ArrheniusEP(
         A = (0.00114, 'cm^3/(mol*s)'),
@@ -38586,21 +38587,6 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (14, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5823,
-    label = "CS_pri;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.00172, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (4.2, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -39195,6 +39181,21 @@ entry(
 
 entry(
     index = 5778,
+    label = "C/H/CbCsS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000212, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5778,
     label = "CS/H/NonDeC;Cd_pri_rad",
     kinetics = ArrheniusEP(
         A = (0.00645, 'cm^3/(mol*s)'),
@@ -39261,21 +39262,6 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (12.2, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5868,
-    label = "CS/H/NonDeC;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000699, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (3.5, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -39885,6 +39871,21 @@ entry(
 
 entry(
     index = 5823,
+    label = "CS_pri;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.00172, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (4.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5823,
     label = "CS/H/NonDeS;Cd_rad/NonDeC",
     kinetics = ArrheniusEP(
         A = (0.00417, 'cm^3/(mol*s)'),
@@ -39936,21 +39937,6 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (9.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5913,
-    label = "CS/H/NonDeS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.00068, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (2.6, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -40575,6 +40561,21 @@ entry(
 
 entry(
     index = 5868,
+    label = "CS/H/NonDeC;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000699, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (3.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5868,
     label = "CS/H/Cd;Cd_rad/Cd",
     kinetics = ArrheniusEP(
         A = (0.00255, 'cm^3/(mol*s)'),
@@ -40611,21 +40612,6 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (13.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5958,
-    label = "CS/H/Cd;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000598, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (3.7, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -41265,6 +41251,21 @@ entry(
 
 entry(
     index = 5913,
+    label = "CS/H/NonDeS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.00068, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (2.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5913,
     label = "CS/H/Ct;Cb_rad",
     kinetics = ArrheniusEP(
         A = (0.00844, 'cm^3/(mol*s)'),
@@ -41286,21 +41287,6 @@ entry(
         n = 4.34,
         alpha = 0,
         E0 = (12.8, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 6003,
-    label = "CS/H/Ct;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000719, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (3, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -41624,6 +41610,21 @@ entry(
 )
 
 entry(
+    index = 5958,
+    label = "CS/H/Cd;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000598, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (3.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
     index = 6000,
     label = "S_pri;H_rad",
     kinetics = ArrheniusEP(
@@ -41666,6 +41667,21 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 6003,
+    label = "CS/H/Ct;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000719, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
 entry(
@@ -46421,7 +46437,10 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CBS-QB3 (RRHO), SSM""",
-    longDesc = """SSM CBS-QB3 calculations for propargyl + vinylalcohol (RRHO approximation)""",
+    longDesc = 
+u"""
+SSM CBS-QB3 calculations for propargyl + vinylalcohol (RRHO approximation)
+""",
 )
 
 entry(
@@ -46437,7 +46456,10 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CBS-QB3 (RRHO), SSM""",
-    longDesc = """SSM CBS-QB3 calculations for propargyl + vinylalcohol (RRHO approximation)""",
+    longDesc = 
+u"""
+SSM CBS-QB3 calculations for propargyl + vinylalcohol (RRHO approximation)
+""",
 )
 
 entry(
@@ -46453,9 +46475,11 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""NIST SSM""",
-    longDesc = """
+    longDesc = 
+u"""
 NIST CH3CHO + OH = CH3CO + H2O rate coefficient ref: DOI: 10.1016/S0082-0784(96)80252-9
-Most estimates seem to be  ~ 3E+12 for 200-350 K range""",
+Most estimates seem to be  ~ 3E+12 for 200-350 K range
+""",
 )
 
 entry(
@@ -46471,10 +46495,11 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CCSD(T)/CBS//M08-HX/maug-cc-pVTZ MSTOR""",
-    longDesc = """
+    longDesc = 
+u"""
 ref: Role of conformational structures and torsional anharmonicity in controlling chemical reaction rates and
 relative yields: butanal + HO2 reactions
-Refitted from four parameter fits to three parameters fits,  
+Refitted from four parameter fits to three parameters fits,
 """,
 )
 
@@ -46491,10 +46516,11 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CCSD(T)/CBS//M08-HX/maug-cc-pVTZ MSTOR""",
-    longDesc = """
+    longDesc = 
+u"""
 ref: Role of conformational structures and torsional anharmonicity in controlling chemical reaction rates and
 relative yields: butanal + HO2 reactions
-Refitted from four parameter fits to three parameters fits,  
+Refitted from four parameter fits to three parameters fits,
 """,
 )
 
@@ -46511,10 +46537,11 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CCSD(T)/CBS//M08-HX/maug-cc-pVTZ MSTOR""",
-    longDesc = """
+    longDesc = 
+u"""
 ref: Role of conformational structures and torsional anharmonicity in controlling chemical reaction rates and
 relative yields: butanal + HO2 reactions
-Refitted from four parameter fits to three parameters fits,  
+Refitted from four parameter fits to three parameters fits,
 """,
 )
 
@@ -46531,11 +46558,12 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Same as C_rad/H/Cs\H2\CO/Cs H2O2""",
-    longDesc = """
+    longDesc = 
+u"""
 CCSD(T)/CBS//M08-HX/maug-cc-pVTZ MSTOR.
 ref: Role of conformational structures and torsional anharmonicity in controlling chemical reaction rates and
 relative yields: butanal + HO2 reactions
-Refitted from four parameter fits to three parameters fits,  
+Refitted from four parameter fits to three parameters fits,
 """,
 )
 
@@ -46552,9 +46580,11 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CCSD(T)/6-311++G(d,p)""",
-    longDesc = """
+    longDesc = 
+u"""
 Kinetics of Hydrogen Abstraction Reactions of Butene Isomers by OH Radical
-s-allylic site from 1-Butene + OH ref: DOI: 10.1021/jp1062786""",
+s-allylic site from 1-Butene + OH ref: DOI: 10.1021/jp1062786
+""",
 )
 
 entry(
@@ -46570,9 +46600,11 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CCSD(T)/6-311++G(d,p)""",
-    longDesc = """
+    longDesc = 
+u"""
 Kinetics of Hydrogen Abstraction Reactions of Butene Isomers by OH Radical
-p-allylic site of 2-butene ref: DOI: 10.1021/jp1062786""",
+p-allylic site of 2-butene ref: DOI: 10.1021/jp1062786
+""",
 )
 
 entry(
@@ -46588,8 +46620,10 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CCSD(T)/6-311++G(d,p)""",
-    longDesc = """
+    longDesc = 
+u"""
 Kinetics of Hydrogen Abstraction Reactions of Butene Isomers by OH Radical
-p-allylic site of iso-butene ref: DOI: 10.1021/jp1062786""",
+p-allylic site of iso-butene ref: DOI: 10.1021/jp1062786
+""",
 )
 
