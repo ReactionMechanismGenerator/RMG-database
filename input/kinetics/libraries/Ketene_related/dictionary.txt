@@ -74,7 +74,5 @@ multiplicity 2
 6 H u0 p0 c0 {1,S}
 7 O u0 p2 c0 {2,D}
 8 H u0 p0 c0 {3,S}
-
-
 9 H u0 p0 c0 {3,S}
 
