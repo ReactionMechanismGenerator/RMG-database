@@ -23,7 +23,7 @@ entry(
     molecule = 
 """
 multiplicity 2
-MolecularTermSymbol A^2S+
+molecularTermSymbol A^2S+
 1 O u1 p2 c0 {2,S}
 2 H u0 p0 c0 {1,S}
 """,
@@ -51,7 +51,7 @@ entry(
     molecule = 
 """
 multiplicity 2
-MolecularTermSymbol A^2D
+molecularTermSymbol A^2D
 1 C u1 p1 c0 {2,S}
 2 H u0 p0 c0 {1,S}
 """,
