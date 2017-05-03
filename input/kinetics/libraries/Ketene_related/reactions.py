@@ -30,3 +30,11 @@ entry(
     longDesc = u"""Use the rate from the average value from master branch 04/30/2017""",
 )
 
+entry(
+    index = 4,
+    label = "CH3 + CH2CO <=> C3H5O",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.05855e+04, 'cm^3/(mol*s)'), n=2.41, Ea=(8055, 'cal/mol'), T0=(1, 'K')),
+    longDesc = u"""Use the rate from the average value from master branch 05/03/2017""",
+)
+
