@@ -2980,3 +2980,23 @@ Taken from entry: P5 + H <=> W7
 """,
 )
 
+
+
+entry(
+    index = 193,
+    label = "C4H2 + HO <=> C4H3O",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+                A = (2.843e+11, 'cm^3/(mol*s)'),
+                n = 0.474,
+                Ea = (-0.492, 'kcal/mol'),
+                T0 = (1, 'K'),
+            ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: OH_C4H2""",
+    longDesc =
+u"""
+Taken from entry: OH + C4H2 <=> C4H3O, level of theory: UB3LYP/6-311++G(d,p) for geometry, RQCISD(T) and two basis set extrapolation schemes for energy, internal rotors were considered, Kinetics from: Oxidation pathways in the reaction of diacetylene with OH radicals, 2007;The high pressure limit rate for initial addition
+""",
+)
+
