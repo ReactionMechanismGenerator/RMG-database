@@ -79,6 +79,7 @@ entry(
             ),
         ],
     ),
+    longDesc = u"""The multiArrhenius form is to capture both high and low temperature behavior""",
 )
 
 entry(
@@ -287,24 +288,46 @@ entry(
     index = 19,
     label = "HO2 + OH <=> H2O + O2",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (7.347e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (-1093, 'cal/mol'),
-        T0 = (1, 'K'),
+    kinetics = MultiArrhenius(
+        arrhenius = [
+            Arrhenius(
+                A = (7.347e+12, 'cm^3/(mol*s)'),
+                n = 0,
+                Ea = (-1093, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (4.534e+14, 'cm^3/(mol*s)'),
+                n = 0,
+                Ea = (10930, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
     ),
+    longDesc = u"""The multiArrhenius form is to capture both high and low temperature behavior""",
 )
 
 entry(
     index = 20,
     label = "HO2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.958e+11, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (-1409, 'cal/mol'),
-        T0 = (1, 'K'),
+    kinetics = MultiArrhenius(
+        arrhenius = [
+            Arrhenius(
+                A = (1.958e+11, 'cm^3/(mol*s)'),
+                n = 0,
+                Ea = (-1409, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (1.111e+14, 'cm^3/(mol*s)'),
+                n = 0,
+                Ea = (11040, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
     ),
+    longDesc = u"""The multiArrhenius form is to capture both high and low temperature behavior""",
 )
 
 entry(
@@ -367,7 +390,23 @@ entry(
     index = 25,
     label = "H2O2 + OH <=> H2O + HO2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.565e+12, 'cm^3/(mol*s)'), n=0, Ea=(318, 'cal/mol'), T0=(1, 'K')),
+    kinetics = MultiArrhenius(
+        arrhenius = [
+            Arrhenius(
+                A = (1.565e+12, 'cm^3/(mol*s)'),
+                n = 0,
+                Ea = (318, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (7.340e+13, 'cm^3/(mol*s)'),
+                n = 0,
+                Ea = (7270, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
+    ),
+    longDesc = u"""The multiArrhenius form is to capture both high and low temperature behavior""",
 )
 
 entry(
@@ -402,12 +441,23 @@ entry(
     index = 28,
     label = "CO + OH <=> H + CO2",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (61870, 'cm^3/(mol*s)'),
-        n = 2.053,
-        Ea = (-356, 'cal/mol'),
-        T0 = (1, 'K'),
+    kinetics = MultiArrhenius(
+        arrhenius = [
+            Arrhenius(
+                A = (61870, 'cm^3/(mol*s)'),
+                n = 2.053,
+                Ea = (-356, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (5.017e+12, 'cm^3/(mol*s)'),
+                n = 0.664,
+                Ea = (332, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
     ),
+    longDesc = u"""The multiArrhenius form is to capture both high and low temperature behavior""",
 )
 
 entry(
@@ -2596,12 +2646,23 @@ entry(
     index = 240,
     label = "C2H4 + OH <=> H + CH3CHO",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (0.0238, 'cm^3/(mol*s)'),
-        n = 3.91,
-        Ea = (1723, 'cal/mol'),
-        T0 = (1, 'K'),
+    kinetics = MultiArrhenius(
+        arrhenius = [
+            Arrhenius(
+                A = (0.0238, 'cm^3/(mol*s)'),
+                n = 3.91,
+                Ea = (1723, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (3.190e+5, 'cm^3/(mol*s)'),
+                n = 2.190,
+                Ea = (5256, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
     ),
+    longDesc = u"""The multiArrhenius form is to capture both high and low temperature behavior""",
 )
 
 entry(
@@ -2758,7 +2819,23 @@ entry(
     index = 257,
     label = "C2H6 + CH3 <=> C2H5 + CH4",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.6e+10, 'cm^3/(mol*s)'), n=0, Ea=(9420, 'cal/mol'), T0=(1, 'K')),
+    kinetics = MultiArrhenius(
+        arrhenius = [
+            Arrhenius(
+                A = (5.6e+10, 'cm^3/(mol*s)'),
+                n = 0,
+                Ea = (9420, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (8.299e+14, 'cm^3/(mol*s)'),
+                n = 0,
+                Ea = (22260, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
+    ),
+    longDesc = u"""The multiArrhenius form is to capture both high and low temperature behavior""",
 )
 
 entry(
