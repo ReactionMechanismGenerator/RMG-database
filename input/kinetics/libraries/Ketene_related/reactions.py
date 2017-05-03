@@ -32,9 +32,19 @@ entry(
 
 entry(
     index = 4,
-    label = "CH3 + CH2CO <=> C3H5O",
+    label = "CH3 + CH2CO <=> C3H5O_1",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.05855e+04, 'cm^3/(mol*s)'), n=2.41, Ea=(8055, 'cal/mol'), T0=(1, 'K')),
     longDesc = u"""Use the rate from the average value from master branch 05/03/2017""",
 )
+
+entry(
+    index = 5,
+    label = "C3H5O_2 <=> CH3 + CH2CO",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1e+14, 's^-1'), n=0, Ea=(31000, 'cal/mol'), T0=(1, 'K')),
+    longDesc = u"""Use the rate from Dooley/methylformate/288""",
+)
+
+
 
