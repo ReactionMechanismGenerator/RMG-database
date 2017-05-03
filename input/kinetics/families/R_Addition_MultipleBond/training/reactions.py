@@ -3000,3 +3000,41 @@ Taken from entry: OH + C4H2 <=> C4H3O, level of theory: UB3LYP/6-311++G(d,p) for
 """,
 )
 
+
+
+entry(
+    index = 194,
+    label = "C4H2 + C6H5 <=> C10H7-8",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.667e+06, 'cm^3/(mol*s)'),
+        n = 2.038,
+        Ea = (-0.857, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: phenyl_diacetylene_entrance""",
+    longDesc = 
+u"""
+Taken from entry: C6H5 + C4H2 <=> i1. CBS-QB3 calculated with 1D-HR.
+""",
+)
+
+entry(
+    index = 195,
+    label = "C4H2-2 + C6H5 <=> C10H7-9",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (297100, 'cm^3/(mol*s)'),
+        n = 2.146,
+        Ea = (2.616, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: phenyl_diacetylene_entrance""",
+    longDesc = 
+u"""
+Taken from entry: C6H5 + C4H2 <=> i5.  CBS-QB3 calculated with 1D-HR.
+""",
+)
+
