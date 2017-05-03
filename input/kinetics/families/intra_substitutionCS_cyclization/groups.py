@@ -21,14 +21,14 @@ recipe(actions=[
 boundaryAtoms = ["*1", "*3"]
 
 entry(
-    index = 1,
+    index = 0,
     label = "XSYJ",
     group = "OR{XSR3J, XSR4J, XSR5J, XSR6J, XSR7J}",
     kinetics = None,
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "YJ",
     group = 
 """
@@ -48,7 +48,7 @@ entry(
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "S",
     group = 
 """
@@ -58,7 +58,7 @@ entry(
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "XSR3J",
     group = 
 """
@@ -71,7 +71,7 @@ entry(
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "XSR3J_S",
     group = 
 """
@@ -84,7 +84,7 @@ entry(
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "XSR3J_D",
     group = 
 """
@@ -97,7 +97,7 @@ entry(
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "XSR4J",
     group = 
 """
@@ -111,7 +111,7 @@ entry(
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "XSR4J_SS",
     group = 
 """
@@ -125,7 +125,7 @@ entry(
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "XSR4J_SD",
     group = 
 """
@@ -139,7 +139,7 @@ entry(
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "XSR4J_DS",
     group = 
 """
@@ -153,7 +153,7 @@ entry(
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "XSR4J_DD",
     group = 
 """
@@ -167,7 +167,7 @@ entry(
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "XSR5J",
     group = 
 """
@@ -182,7 +182,7 @@ entry(
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "XSR5J_SSS",
     group = 
 """
@@ -197,7 +197,7 @@ entry(
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "XSR5J_SSD",
     group = 
 """
@@ -212,7 +212,7 @@ entry(
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "XSR5J_SDS",
     group = 
 """
@@ -227,7 +227,7 @@ entry(
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "XSR5J_DSS",
     group = 
 """
@@ -242,7 +242,7 @@ entry(
 )
 
 entry(
-    index = 18,
+    index = 17,
     label = "XSR5J_DDS",
     group = 
 """
@@ -257,7 +257,7 @@ entry(
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "XSR5J_DSD",
     group = 
 """
@@ -272,7 +272,7 @@ entry(
 )
 
 entry(
-    index = 20,
+    index = 19,
     label = "XSR5J_SDD",
     group = 
 """
@@ -287,7 +287,7 @@ entry(
 )
 
 entry(
-    index = 21,
+    index = 20,
     label = "XSR5J_DDD",
     group = 
 """
@@ -302,7 +302,7 @@ entry(
 )
 
 entry(
-    index = 22,
+    index = 21,
     label = "XSR6J",
     group = 
 """
@@ -318,7 +318,7 @@ entry(
 )
 
 entry(
-    index = 23,
+    index = 22,
     label = "XSR7J",
     group = 
 """
@@ -335,7 +335,7 @@ entry(
 )
 
 entry(
-    index = 24,
+    index = 23,
     label = "CJ",
     group = 
 """
@@ -345,7 +345,7 @@ entry(
 )
 
 entry(
-    index = 25,
+    index = 24,
     label = "CdsJ",
     group = 
 """
@@ -355,7 +355,7 @@ entry(
 )
 
 entry(
-    index = 36,
+    index = 25,
     label = "CsJ",
     group = 
 """
@@ -367,7 +367,7 @@ entry(
 )
 
 entry(
-    index = 52,
+    index = 26,
     label = "CsJ-Cd",
     group = 
 """
@@ -379,7 +379,7 @@ entry(
 )
 
 entry(
-    index = 55,
+    index = 27,
     label = "CsJ-CdCs",
     group = 
 """
@@ -391,7 +391,7 @@ entry(
 )
 
 entry(
-    index = 57,
+    index = 28,
     label = "CsJ-CdSs",
     group = 
 """
@@ -403,7 +403,7 @@ entry(
 )
 
 entry(
-    index = 54,
+    index = 29,
     label = "CsJ-CdH",
     group = 
 """
@@ -415,7 +415,7 @@ entry(
 )
 
 entry(
-    index = 67,
+    index = 30,
     label = "CsJ-Ss",
     group = 
 """
@@ -427,7 +427,7 @@ entry(
 )
 
 entry(
-    index = 70,
+    index = 31,
     label = "CsJ-SsCs",
     group = 
 """
@@ -439,7 +439,7 @@ entry(
 )
 
 entry(
-    index = 72,
+    index = 32,
     label = "CsJ-SsSs",
     group = 
 """
@@ -451,7 +451,7 @@ entry(
 )
 
 entry(
-    index = 69,
+    index = 33,
     label = "CsJ-SsH",
     group = 
 """
@@ -463,7 +463,7 @@ entry(
 )
 
 entry(
-    index = 37,
+    index = 34,
     label = "CsJ-Cs",
     group = 
 """
@@ -475,7 +475,7 @@ entry(
 )
 
 entry(
-    index = 40,
+    index = 35,
     label = "CsJ-CsCs",
     group = 
 """
@@ -487,7 +487,7 @@ entry(
 )
 
 entry(
-    index = 39,
+    index = 36,
     label = "CsJ-CsH",
     group = 
 """
@@ -499,7 +499,7 @@ entry(
 )
 
 entry(
-    index = 38,
+    index = 37,
     label = "CsJ-HH",
     group = 
 """
@@ -511,7 +511,7 @@ entry(
 )
 
 entry(
-    index = 82,
+    index = 38,
     label = "SsJ",
     group = 
 """
@@ -521,7 +521,7 @@ entry(
 )
 
 entry(
-    index = 3,
+    index = 39,
     label = "Cs-RR",
     group = 
 """
@@ -533,7 +533,7 @@ entry(
 )
 
 entry(
-    index = 157,
+    index = 40,
     label = "Cs-RS",
     group = 
 """
@@ -545,7 +545,7 @@ entry(
 )
 
 entry(
-    index = 162,
+    index = 41,
     label = "Cs-(De)S",
     group = 
 """
@@ -557,7 +557,7 @@ entry(
 )
 
 entry(
-    index = 158,
+    index = 42,
     label = "Cs-(NonDe)S",
     group = 
 """
@@ -569,7 +569,7 @@ entry(
 )
 
 entry(
-    index = 161,
+    index = 43,
     label = "Cs-CsS",
     group = 
 """
@@ -581,7 +581,7 @@ entry(
 )
 
 entry(
-    index = 160,
+    index = 44,
     label = "Cs-HS",
     group = 
 """
@@ -593,7 +593,7 @@ entry(
 )
 
 entry(
-    index = 150,
+    index = 45,
     label = "Cs-RC",
     group = 
 """
@@ -605,7 +605,7 @@ entry(
 )
 
 entry(
-    index = 155,
+    index = 46,
     label = "Cs-(De)C",
     group = 
 """
@@ -617,7 +617,7 @@ entry(
 )
 
 entry(
-    index = 151,
+    index = 47,
     label = "Cs-(NonDe)C",
     group = 
 """
@@ -629,7 +629,7 @@ entry(
 )
 
 entry(
-    index = 154,
+    index = 48,
     label = "Cs-CsC",
     group = 
 """
@@ -641,7 +641,7 @@ entry(
 )
 
 entry(
-    index = 153,
+    index = 49,
     label = "Cs-HC",
     group = 
 """
@@ -653,7 +653,7 @@ entry(
 )
 
 entry(
-    index = 162,
+    index = 50,
     label = "Cs-HH",
     group = 
 """
@@ -665,7 +665,7 @@ entry(
 )
 
 entry(
-    index = 165,
+    index = 51,
     label = "S-Cs",
     group = 
 """
@@ -676,7 +676,7 @@ entry(
 )
 
 entry(
-    index = 166,
+    index = 52,
     label = "S-Ss",
     group = 
 """
@@ -687,7 +687,7 @@ entry(
 )
 
 entry(
-    index = 167,
+    index = 53,
     label = "S-SJ",
     group = 
 """
@@ -698,7 +698,7 @@ entry(
 )
 
 entry(
-    index = 164,
+    index = 54,
     label = "S-H",
     group = 
 """

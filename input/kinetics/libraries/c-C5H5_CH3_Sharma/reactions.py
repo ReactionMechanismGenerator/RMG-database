@@ -16,7 +16,7 @@ Duplicated rates (backward rate if there is the forward rate) are deleted after 
 The adduct C5H5CH3 in the dictionary is same as C5H5CH3-5 in the paper, because the paper mentioned either C5H5CH3-5, C5H5CH3-2, or C5H5CH3-3 would give similar computational results
 """
 entry(
-    index = 1,
+    index = 0,
     label = "c-C5H5 + CH3 <=> C5H5CH3",
     degeneracy = 1,
     kinetics = Chebyshev(
@@ -37,7 +37,7 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "c-C5H5 + CH3 <=> fulvene + H2",
     degeneracy = 1,
     kinetics = Chebyshev(
@@ -58,7 +58,7 @@ entry(
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "c-C5H5 + CH3 <=> R1 + H",
     degeneracy = 1,
     kinetics = Chebyshev(
@@ -79,7 +79,7 @@ entry(
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "c-C5H5 + CH3 <=> R2 + H",
     degeneracy = 1,
     kinetics = Chebyshev(
@@ -100,7 +100,7 @@ entry(
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "c-C5H5 + CH3 <=> R3 + H",
     degeneracy = 1,
     kinetics = Chebyshev(
@@ -121,7 +121,7 @@ entry(
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "c-C5H5 + CH3 <=> R4 + H",
     degeneracy = 1,
     kinetics = Chebyshev(
@@ -142,7 +142,7 @@ entry(
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "C5H5CH3 <=> fulvene + H2",
     degeneracy = 1,
     kinetics = Chebyshev(
@@ -163,7 +163,7 @@ entry(
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "C5H5CH3 <=> R1 + H",
     degeneracy = 1,
     kinetics = Chebyshev(
@@ -184,7 +184,7 @@ entry(
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "C5H5CH3 <=> R2 + H",
     degeneracy = 1,
     kinetics = Chebyshev(
@@ -205,7 +205,7 @@ entry(
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "C5H5CH3 <=> R3 + H",
     degeneracy = 1,
     kinetics = Chebyshev(
@@ -226,7 +226,7 @@ entry(
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "C5H5CH3 <=> R4 + H",
     degeneracy = 1,
     kinetics = Chebyshev(

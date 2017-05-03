@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 entry(
-    index = -3,
+    index = 0,
     label = "R",
     group = 
 """
@@ -22,7 +22,7 @@ u"""
 )
 
 entry(
-    index = -2,
+    index = 1,
     label = "C",
     group = 
 """
@@ -37,7 +37,7 @@ u"""
 )
 
 entry(
-    index = 8,
+    index = 2,
     label = "Cbf",
     group = 
 """
@@ -58,7 +58,7 @@ u"""
 )
 
 entry(
-    index = 37,
+    index = 3,
     label = "Cbf-noH",
     group = 
 """
@@ -82,7 +82,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 4,
     label = "Css",
     group = 
 """
@@ -97,7 +97,7 @@ u"""
 )
 
 entry(
-    index = 1,
+    index = 5,
     label = "CssH3",
     group = 
 """
@@ -122,7 +122,7 @@ u"""
 )
 
 entry(
-    index = 2,
+    index = 6,
     label = "CssH2",
     group = 
 """
@@ -147,7 +147,7 @@ u"""
 )
 
 entry(
-    index = 3,
+    index = 7,
     label = "CssH",
     group = 
 """
@@ -172,7 +172,7 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 8,
     label = "Css-noH",
     group = 
 """
@@ -197,7 +197,7 @@ u"""
 )
 
 entry(
-    index = 0,
+    index = 9,
     label = "Cds",
     group = 
 """
@@ -212,7 +212,7 @@ u"""
 )
 
 entry(
-    index = 5,
+    index = 10,
     label = "CdsH2",
     group = 
 """
@@ -236,7 +236,7 @@ u"""
 )
 
 entry(
-    index = 6,
+    index = 11,
     label = "CdsH",
     group = 
 """
@@ -260,7 +260,7 @@ u"""
 )
 
 entry(
-    index = 7,
+    index = 12,
     label = "Cds-noH",
     group = 
 """
@@ -284,7 +284,7 @@ u"""
 )
 
 entry(
-    index = 9,
+    index = 13,
     label = "Ct",
     group = 
 """
@@ -305,7 +305,7 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 14,
     label = "CtOt",
     group = 
 """
@@ -327,7 +327,7 @@ u"""
 )
 
 entry(
-    index = 57,
+    index = 15,
     label = "Cdd",
     group = 
 """
@@ -348,7 +348,7 @@ u"""
 )
 
 entry(
-    index = -9,
+    index = 16,
     label = "Cb",
     group = 
 """
@@ -363,7 +363,7 @@ u"""
 )
 
 entry(
-    index = 38,
+    index = 17,
     label = "Cb-H",
     group = 
 """
@@ -387,7 +387,7 @@ u"""
 )
 
 entry(
-    index = 39,
+    index = 18,
     label = "Cb-noHnoRing",
     group = 
 """
@@ -411,7 +411,7 @@ Cb is attached to a 3rd R group that isn't in the ring,as in phenol.
 )
 
 entry(
-    index = -4,
+    index = 19,
     label = "O",
     group = 
 """
@@ -426,7 +426,7 @@ u"""
 )
 
 entry(
-    index = -10,
+    index = 20,
     label = "Oss",
     group = 
 """
@@ -441,7 +441,7 @@ u"""
 )
 
 entry(
-    index = 26,
+    index = 21,
     label = "OssH",
     group = 
 """
@@ -463,7 +463,7 @@ u"""
 )
 
 entry(
-    index = 27,
+    index = 22,
     label = "Oss-noncyclic",
     group = 
 """
@@ -486,7 +486,7 @@ u"""
 )
 
 entry(
-    index = 30,
+    index = 23,
     label = "Od",
     group = 
 """
@@ -507,7 +507,7 @@ u"""
 )
 
 entry(
-    index = 30,
+    index = 24,
     label = "OtCt",
     group = 
 """
@@ -529,7 +529,7 @@ u"""
 )
 
 entry(
-    index = -8,
+    index = 25,
     label = "N",
     group = 
 """
@@ -544,7 +544,7 @@ u"""
 )
 
 entry(
-    index = -7,
+    index = 26,
     label = "N3s",
     group = 
 """
@@ -559,7 +559,7 @@ u"""
 )
 
 entry(
-    index = 23,
+    index = 27,
     label = "NO2",
     group = 
 """
@@ -583,7 +583,7 @@ u"""
 )
 
 entry(
-    index = 46,
+    index = 28,
     label = "NO2-aromatic",
     group = 
 """
@@ -607,7 +607,7 @@ u"""
 )
 
 entry(
-    index = 25,
+    index = 29,
     label = "ONO2",
     group = 
 """
@@ -631,7 +631,7 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 30,
     label = "N3sH2",
     group = 
 """
@@ -654,7 +654,7 @@ u"""
 )
 
 entry(
-    index = 11,
+    index = 31,
     label = "N3sH2-aromatic",
     group = "OR{N3sH2-Cb, N3sH2-N5ring}",
     solute = SoluteData(
@@ -672,7 +672,7 @@ u"""
 )
 
 entry(
-    index = 40,
+    index = 32,
     label = "N3sH2-Cb",
     group = 
 """
@@ -695,7 +695,7 @@ u"""
 )
 
 entry(
-    index = 41,
+    index = 33,
     label = "N3sH2-N5ring",
     group = 
 """
@@ -717,7 +717,7 @@ u"""
 )
 
 entry(
-    index = 12,
+    index = 34,
     label = "N3sH",
     group = 
 """
@@ -741,7 +741,7 @@ u"""
 )
 
 entry(
-    index = 43,
+    index = 35,
     label = "N3sH-aromatic",
     group = 
 """
@@ -765,7 +765,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 36,
     label = "N3sH-pyrrole",
     group = 
 """
@@ -791,7 +791,7 @@ u"""
 )
 
 entry(
-    index = 15,
+    index = 37,
     label = "N3s-noH",
     group = 
 """
@@ -815,7 +815,7 @@ u"""
 )
 
 entry(
-    index = 45,
+    index = 38,
     label = "N3s-noH-aromatic",
     group = 
 """
@@ -839,7 +839,7 @@ u"""
 )
 
 entry(
-    index = 17,
+    index = 39,
     label = "N3s-noH-pyrrole",
     group = 
 """
@@ -865,7 +865,7 @@ u"""
 )
 
 entry(
-    index = 18,
+    index = 40,
     label = "N3d",
     group = 
 """
@@ -886,7 +886,7 @@ u"""
 )
 
 entry(
-    index = 21,
+    index = 41,
     label = "N3t",
     group = 
 """
@@ -908,7 +908,7 @@ u"""
 )
 
 entry(
-    index = 22,
+    index = 42,
     label = "N3t-aromatic",
     group = "OR{N3t-Cb, N3t-N5ring}",
     solute = SoluteData(
@@ -926,7 +926,7 @@ u"""
 )
 
 entry(
-    index = 55,
+    index = 43,
     label = "N3t-Cb",
     group = 
 """
@@ -943,7 +943,7 @@ u"""
 )
 
 entry(
-    index = 56,
+    index = 44,
     label = "N3t-N5ring",
     group = 
 """
@@ -964,7 +964,7 @@ u"""
 )
 
 entry(
-    index = 19,
+    index = 45,
     label = "N3b",
     group = 
 """
@@ -985,7 +985,7 @@ u"""
 )
 
 entry(
-    index = 20,
+    index = 46,
     label = "N3bpyr",
     group = 
 """
@@ -1011,7 +1011,7 @@ u"""
 )
 
 entry(
-    index = 36,
+    index = 47,
     label = "S",
     group = 
 """
@@ -1032,7 +1032,7 @@ u"""
 )
 
 entry(
-    index = 31,
+    index = 48,
     label = "Ss",
     group = 
 """
@@ -1053,7 +1053,7 @@ u"""
 )
 
 entry(
-    index = 32,
+    index = 49,
     label = "Ss-aromatic",
     group = 
 """
@@ -1078,7 +1078,7 @@ u"""
 )
 
 entry(
-    index = 33,
+    index = 50,
     label = "Sd",
     group = 
 """
@@ -1099,7 +1099,7 @@ u"""
 )
 
 entry(
-    index = 34,
+    index = 51,
     label = "Sds",
     group = 
 """

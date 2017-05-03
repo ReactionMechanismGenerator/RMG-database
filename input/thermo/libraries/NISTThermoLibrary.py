@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 entry(
-    index = 1,
+    index = 0,
     label = "NO2",
     molecule = 
 """
@@ -30,7 +30,7 @@ u"""
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "O",
     molecule = 
 """
@@ -51,7 +51,7 @@ u"""
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "C(T)",
     molecule = 
 """
@@ -72,7 +72,7 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "HO2",
     molecule = 
 """
@@ -95,7 +95,7 @@ u"""
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "NH2",
     molecule = 
 """
@@ -118,7 +118,7 @@ u"""
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "NH3",
     molecule = 
 """
@@ -141,7 +141,7 @@ u"""
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "NO",
     molecule = 
 """
@@ -163,7 +163,7 @@ u"""
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "HNO",
     molecule = 
 """
@@ -185,7 +185,7 @@ u"""
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "HONO",
     molecule = 
 """

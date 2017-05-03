@@ -61,7 +61,7 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "RC(O)OJ",
     group = 
 """
@@ -85,7 +85,7 @@ u"""
 )
 
 entry(
-    index = 3,
+    index = 4,
     label = "ROOJ",
     group = 
 """
@@ -108,7 +108,7 @@ u"""
 )
 
 entry(
-    index = 7,
+    index = 5,
     label = "phenoxy",
     group = 
 """
@@ -130,7 +130,7 @@ u"""
 )
 
 entry(
-    index = 5,
+    index = 6,
     label = "N3s_rad",
     group = 
 """
@@ -151,7 +151,7 @@ u"""
 )
 
 entry(
-    index = 6,
+    index = 7,
     label = "N3_pyrrole",
     group = 
 """
@@ -254,7 +254,7 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 11,
     label = "N3_amide_sec",
     group = 
 """
@@ -331,7 +331,7 @@ u"""
 )
 
 entry(
-    index = 11,
+    index = 14,
     label = "N3_amide_aromatic",
     group = 
 """
@@ -355,7 +355,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 15,
     label = "N3d_guanidine",
     group = 
 """

@@ -29,7 +29,7 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "N3sRRR",
     group = 
 """
@@ -42,7 +42,7 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "O_atom_singlet",
     group = 
 """

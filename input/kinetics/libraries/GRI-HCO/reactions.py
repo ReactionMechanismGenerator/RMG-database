@@ -7,14 +7,14 @@ longDesc = u"""
 
 """
 entry(
-    index = 1,
+    index = 0,
     label = "HCO + H2O <=> H + CO + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.5e+18, 'cm^3/(mol*s)'), n=-1, Ea=(17000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "HCO <=> H + CO",
     degeneracy = 1,
     kinetics = ThirdBody(

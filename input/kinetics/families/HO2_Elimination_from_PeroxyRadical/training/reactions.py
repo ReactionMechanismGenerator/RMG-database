@@ -8,7 +8,7 @@ Put kinetic parameters for reactions to use as a training set for fitting
 group additivity values in this file.
 """
 entry(
-    index = 1,
+    index = 0,
     label = "C2H3O3 <=> C2H2O + HO2",
     degeneracy = 3,
     kinetics = Arrhenius(

@@ -21,14 +21,14 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "cyclohexene",
     group = "OR{cyclohexene_1inring, cyclohexene_2inring, cyclohexene_3inring, cyclohexene_4inring}",
     kinetics = None,
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "cyclohexene_1inring",
     group = 
 """
@@ -47,7 +47,7 @@ entry(
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "cyclohexene_2inring",
     group = 
 """
@@ -67,7 +67,7 @@ entry(
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "cyclohexene_3inring",
     group = 
 """
@@ -88,7 +88,7 @@ entry(
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "cyclohexene_4inring",
     group = 
 """

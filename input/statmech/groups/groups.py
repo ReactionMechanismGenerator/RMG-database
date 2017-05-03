@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 entry(
-    index = -1,
+    index = 0,
     label = "R!H",
     group = "OR{R!Hx0, R!Hx1, R!Hx2_trip, R!Hx3_quart}",
     statmech = None,
@@ -20,7 +20,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 1,
     label = "R!Hx0",
     group = 
 """
@@ -36,7 +36,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 2,
     label = "C_R0",
     group = 
 """
@@ -52,7 +52,7 @@ u"""
 )
 
 entry(
-    index = 1,
+    index = 3,
     label = "RsCH3",
     group = 
 """
@@ -90,7 +90,7 @@ pg 125 Retrieved from http://web.mit.edu/cfgold/www/Homepage/Thesis_files/Thesis
 )
 
 entry(
-    index = 2,
+    index = 4,
     label = "RdCH2",
     group = 
 """
@@ -122,7 +122,7 @@ u"""
 )
 
 entry(
-    index = 3,
+    index = 5,
     label = "CtCH",
     group = 
 """
@@ -149,7 +149,7 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 6,
     label = "RsCH2sR",
     group = 
 """
@@ -184,7 +184,7 @@ u"""
 )
 
 entry(
-    index = 6,
+    index = 7,
     label = "Aldehyde",
     group = 
 """
@@ -244,7 +244,7 @@ u"""
 )
 
 entry(
-    index = 7,
+    index = 9,
     label = "Cumulene",
     group = 
 """
@@ -269,7 +269,7 @@ u"""
 )
 
 entry(
-    index = 5,
+    index = 10,
     label = "CdCHsR",
     group = 
 """
@@ -301,7 +301,7 @@ u"""
 )
 
 entry(
-    index = 9,
+    index = 11,
     label = "CtCsR",
     group = 
 """
@@ -326,7 +326,7 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 12,
     label = "RsCHsR2",
     group = 
 """
@@ -357,7 +357,7 @@ u"""
 )
 
 entry(
-    index = 11,
+    index = 13,
     label = "CdCsR2",
     group = 
 """
@@ -387,7 +387,7 @@ u"""
 )
 
 entry(
-    index = 12,
+    index = 14,
     label = "Ketone",
     group = 
 """
@@ -417,7 +417,7 @@ u"""
 )
 
 entry(
-    index = 13,
+    index = 15,
     label = "CsCsC3",
     group = 
 """
@@ -446,7 +446,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 16,
     label = "O_R0",
     group = 
 """
@@ -462,7 +462,7 @@ u"""
 )
 
 entry(
-    index = 20,
+    index = 17,
     label = "Alcohol",
     group = 
 """
@@ -489,7 +489,7 @@ u"""
 )
 
 entry(
-    index = 21,
+    index = 18,
     label = "Ether",
     group = 
 """
@@ -512,7 +512,7 @@ u"""
 )
 
 entry(
-    index = 22,
+    index = 19,
     label = "COOH",
     group = 
 """
@@ -544,7 +544,7 @@ u"""
 )
 
 entry(
-    index = 23,
+    index = 20,
     label = "COOC",
     group = 
 """
@@ -570,7 +570,7 @@ u"""
 )
 
 entry(
-    index = 24,
+    index = 21,
     label = "Peroxy",
     group = 
 """
@@ -597,7 +597,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 22,
     label = "N_R0",
     group = 
 """
@@ -613,7 +613,7 @@ u"""
 )
 
 entry(
-    index = 29,
+    index = 23,
     label = "Amine_pri",
     group = 
 """
@@ -645,7 +645,7 @@ u"""
 )
 
 entry(
-    index = 25,
+    index = 24,
     label = "Amide_pri",
     group = 
 """
@@ -687,7 +687,7 @@ u"""
 )
 
 entry(
-    index = 30,
+    index = 25,
     label = "Amine_sec",
     group = 
 """
@@ -749,7 +749,7 @@ u"""
 )
 
 entry(
-    index = 28,
+    index = 27,
     label = "Imide",
     group = 
 """
@@ -785,7 +785,7 @@ u"""
 )
 
 entry(
-    index = 31,
+    index = 28,
     label = "Amine_ter",
     group = 
 """
@@ -809,7 +809,7 @@ u"""
 )
 
 entry(
-    index = 27,
+    index = 29,
     label = "Amide_ter",
     group = 
 """
@@ -843,7 +843,7 @@ u"""
 )
 
 entry(
-    index = 32,
+    index = 30,
     label = "Nitrile",
     group = 
 """
@@ -870,7 +870,7 @@ u"""
 )
 
 entry(
-    index = 33,
+    index = 31,
     label = "Nitroso",
     group = 
 """
@@ -895,7 +895,7 @@ u"""
 )
 
 entry(
-    index = 35,
+    index = 32,
     label = "Nitro",
     group = 
 """
@@ -928,7 +928,7 @@ u"""
 )
 
 entry(
-    index = 36,
+    index = 33,
     label = "Nitrates",
     group = 
 """
@@ -992,7 +992,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 35,
     label = "R!Hx1",
     group = 
 """
@@ -1008,7 +1008,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 36,
     label = "C_R1",
     group = 
 """
@@ -1024,7 +1024,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 37,
     label = "RsCH2r",
     group = 
 """
@@ -1056,7 +1056,7 @@ u"""
 )
 
 entry(
-    index = 15,
+    index = 38,
     label = "RdCHr",
     group = 
 """
@@ -1085,7 +1085,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 39,
     label = "CtCr",
     group = 
 """
@@ -1102,7 +1102,7 @@ u"""
 )
 
 entry(
-    index = 16,
+    index = 40,
     label = "RsCHrsR",
     group = 
 """
@@ -1132,7 +1132,7 @@ u"""
 )
 
 entry(
-    index = 18,
+    index = 41,
     label = "OdCrsR",
     group = 
 """
@@ -1159,7 +1159,7 @@ u"""
 )
 
 entry(
-    index = 17,
+    index = 42,
     label = "CdCrsR",
     group = 
 """
@@ -1184,7 +1184,7 @@ u"""
 )
 
 entry(
-    index = 19,
+    index = 43,
     label = "RsCrsR2",
     group = 
 """
@@ -1210,7 +1210,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 44,
     label = "O_R1",
     group = 
 """
@@ -1226,7 +1226,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 45,
     label = "Oxy",
     group = 
 """
@@ -1243,7 +1243,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 46,
     label = "R!Hx2_trip",
     group = 
 """
@@ -1259,7 +1259,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 47,
     label = "C_R2",
     group = 
 """
@@ -1275,7 +1275,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 48,
     label = "RsCHrr",
     group = 
 """
@@ -1293,7 +1293,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 49,
     label = "RdCrr",
     group = 
 """
@@ -1310,7 +1310,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 50,
     label = "RsCrrsR",
     group = 
 """
@@ -1328,7 +1328,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 51,
     label = "R!Hx3_quart",
     group = 
 """

@@ -8,7 +8,7 @@ Put kinetic parameters for reactions to use as a training set for fitting
 group additivity values in this file.
 """
 entry(
-    index = 1,
+    index = 0,
     label = "C2H2 + C4H9 <=> C6H11",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -39,7 +39,7 @@ A=5.01e+10 cm^3/(mol*s) is the full rate; NB the degeneracy=2 so the per-site ra
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "C2H3O3 <=> C2H2O + HO2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -67,7 +67,7 @@ using Variflex.
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "CH2O + C3H5O <=> C4H7O2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -88,7 +88,7 @@ same initial geometry. It was forced to go back by editing the scan log.
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "allyl + ethene <=> pent1en5yl",
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -116,7 +116,7 @@ CBS-QB3, high-P limit, atomization method for energies, hindered rotors for tors
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "allyl + propene_1 <=> hex1en5yl",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -144,7 +144,7 @@ CBS-QB3, high-P limit, atomization method for energies, hindered rotors for tors
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "allyl + propene_2 <=> methylpentenyl",
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -172,7 +172,7 @@ CBS-QB3, high-P limit, atomization method for energies, hindered rotors for tors
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "allyl + butene1_1 <=> hept1en5yl",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -200,7 +200,7 @@ CBS-QB3, high-P limit, atomization method for energies, hindered rotors for tors
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "allyl + butene1_2 <=> C7H13",
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -228,7 +228,7 @@ CBS-QB3, high-P limit, atomization method for energies, hindered rotors for tors
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "allyl + butene2 <=> C7H13_2",
     degeneracy = 8,
     kinetics = Arrhenius(
@@ -256,7 +256,7 @@ CBS-QB3, high-P limit, atomization method for energies, hindered rotors for tors
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "C7H8 + H <=> C7H9",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -274,7 +274,7 @@ Taken from entry: vinylCPD + H <=> addA
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "C7H8-2 + H <=> C7H9-2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -292,7 +292,7 @@ Taken from entry: vinylCPD + H <=> addB
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "C7H8-3 + H <=> C7H9-3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -310,7 +310,7 @@ Taken from entry: vinylCPD + H <=> addC
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "C7H8-4 + H <=> C7H9-4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -328,7 +328,7 @@ Taken from entry: vinylCPD + H <=> addD
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "C7H9-5 <=> ethene + C5H5",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.87e+11, 's^-1'), n=0.68, Ea=(13.9, 'kcal/mol'), T0=(1, 'K')),
@@ -341,7 +341,7 @@ Taken from entry: addB <=> CPDyl + C2H4
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "C7H9-6 <=> C6H6 + CH3",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.06e+11, 's^-1'), n=1.15, Ea=(39.7, 'kcal/mol'), T0=(1, 'K')),
@@ -354,7 +354,7 @@ Taken from entry: product7 <=> FULVENE + CH3
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "C7H9-7 <=> C5H6 + C2H3",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.5e+12, 's^-1'), n=0.81, Ea=(33.6, 'kcal/mol'), T0=(1, 'K')),
@@ -367,7 +367,7 @@ Taken from entry: addD <=> CPD + C2H3
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "C7H9-8 <=> C6H6-2 + CH3",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.07e+11, 's^-1'), n=0.83, Ea=(22.8, 'kcal/mol'), T0=(1, 'K')),
@@ -380,7 +380,7 @@ Taken from entry: product2 <=> BENZENE + CH3
 )
 
 entry(
-    index = 18,
+    index = 17,
     label = "C7H9-9 <=> C7H8-5 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.03e+09, 's^-1'), n=1.36, Ea=(26.5, 'kcal/mol'), T0=(1, 'K')),
@@ -393,7 +393,7 @@ Taken from entry: product2 <=> TOLUENE + H
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "C7H9-10 <=> C7H8-6 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.01e+09, 's^-1'), n=1.23, Ea=(28.3, 'kcal/mol'), T0=(1, 'K')),
@@ -406,7 +406,7 @@ Taken from entry: product5 <=> product13 + H
 )
 
 entry(
-    index = 20,
+    index = 19,
     label = "C7H9-11 <=> C7H8-7 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.47e+10, 's^-1'), n=1.17, Ea=(41.1, 'kcal/mol'), T0=(1, 'K')),
@@ -419,7 +419,7 @@ Taken from entry: product12 <=> product14 + H
 )
 
 entry(
-    index = 21,
+    index = 20,
     label = "C7H9-12 <=> C7H8-8 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.58e+10, 's^-1'), n=1.38, Ea=(48.4, 'kcal/mol'), T0=(1, 'K')),
@@ -432,7 +432,7 @@ Taken from entry: product4 <=> product15 + H
 )
 
 entry(
-    index = 22,
+    index = 21,
     label = "C7H9-13 <=> C5H6-2 + C2H3",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.89e+12, 's^-1'), n=0.87, Ea=(45, 'kcal/mol'), T0=(1, 'K')),
@@ -445,7 +445,7 @@ Taken from entry: addC <=> CPD + C2H3
 )
 
 entry(
-    index = 23,
+    index = 22,
     label = "C6H6-3 + CH3 <=> C7H9-14",
     degeneracy = 1,
     kinetics = Arrhenius(A=(263, 'cm^3/(mol*s)'), n=2.89, Ea=(6.1, 'kcal/mol'), T0=(1, 'K')),
@@ -458,7 +458,7 @@ Taken from entry: FULVENE + CH3 <=> product18
 )
 
 entry(
-    index = 24,
+    index = 23,
     label = "C7H9-15 <=> C7H8-9 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.47e+10, 's^-1'), n=1.17, Ea=(41.1, 'kcal/mol'), T0=(1, 'K')),
@@ -471,7 +471,7 @@ Taken from entry: product24 <=> product13 + H
 )
 
 entry(
-    index = 25,
+    index = 24,
     label = "C6H6-4 + CH3 <=> C7H9-16",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2790, 'cm^3/(mol*s)'), n=2.91, Ea=(1.3, 'kcal/mol'), T0=(1, 'K')),
@@ -484,7 +484,7 @@ Taken from entry: FULVENE + CH3 <=> product32
 )
 
 entry(
-    index = 26,
+    index = 25,
     label = "C6H6-5 + CH3 <=> C7H9-17",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2470, 'cm^3/(mol*s)'), n=2.88, Ea=(2, 'kcal/mol'), T0=(1, 'K')),
@@ -497,7 +497,7 @@ Taken from entry: FULVENE + CH3 <=> product31
 )
 
 entry(
-    index = 27,
+    index = 26,
     label = "C7H9-18 <=> C7H8-10 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.03e+10, 's^-1'), n=1.22, Ea=(40.9, 'kcal/mol'), T0=(1, 'K')),
@@ -510,7 +510,7 @@ Taken from entry: product37 <=> product13 + H
 )
 
 entry(
-    index = 28,
+    index = 27,
     label = "C2H2 + C5H5 <=> C7H7",
     degeneracy = 1,
     kinetics = Arrhenius(A=(25500, 'cm^3/(mol*s)'), n=2.27, Ea=(10.2, 'kcal/mol'), T0=(1, 'K')),
@@ -523,7 +523,7 @@ Taken from entry: CPDyl + ethyne <=> product44
 )
 
 entry(
-    index = 29,
+    index = 28,
     label = "C7H6 + H <=> C7H7-2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -541,7 +541,7 @@ Taken from entry: FA + H <=> vinylCPDyl
 )
 
 entry(
-    index = 30,
+    index = 29,
     label = "C3H4 + allyl <=> C6H9",
     degeneracy = 1,
     kinetics = Arrhenius(A=(42, 'cm^3/(mol*s)'), n=3.27, Ea=(11, 'kcal/mol'), T0=(1, 'K')),
@@ -554,7 +554,7 @@ Taken from entry: aC3H5 + C3H4a <=> prod_1
 )
 
 entry(
-    index = 31,
+    index = 30,
     label = "C6H9-2 <=> C6H8 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(7.93e+09, 's^-1'), n=1.27, Ea=(31, 'kcal/mol'), T0=(1, 'K')),
@@ -567,7 +567,7 @@ Taken from entry: prod_2 <=> prod_3 + H
 )
 
 entry(
-    index = 32,
+    index = 31,
     label = "C3H4 + C4H7 <=> C7H11",
     degeneracy = 1,
     kinetics = Arrhenius(A=(18.6, 'cm^3/(mol*s)'), n=3, Ea=(9.5, 'kcal/mol'), T0=(1, 'K')),
@@ -580,7 +580,7 @@ Taken from entry: C3H4a + iC4H7 <=> prod_6
 )
 
 entry(
-    index = 33,
+    index = 32,
     label = "C7H11-2 <=> C7H10 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(6.37e+08, 's^-1'), n=1.3, Ea=(29.5, 'kcal/mol'), T0=(1, 'K')),
@@ -593,7 +593,7 @@ Taken from entry: prod_4 <=> prod_5 + H
 )
 
 entry(
-    index = 34,
+    index = 33,
     label = "C3H4-2 + allyl <=> C6H9-3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -611,7 +611,7 @@ Taken from entry: C3H4p + aC3H5 <=> prod_7
 )
 
 entry(
-    index = 35,
+    index = 34,
     label = "C6H9-4 <=> C6H8-2 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(7.99e+10, 's^-1'), n=1, Ea=(32.7, 'kcal/mol'), T0=(1, 'K')),
@@ -624,7 +624,7 @@ Taken from entry: prod_8 <=> prod_9 + H
 )
 
 entry(
-    index = 36,
+    index = 35,
     label = "C3H4-2 + C4H7 <=> C7H11-3",
     degeneracy = 1,
     kinetics = Arrhenius(A=(121, 'cm^3/(mol*s)'), n=2.9, Ea=(10.3, 'kcal/mol'), T0=(1, 'K')),
@@ -637,7 +637,7 @@ Taken from entry: C3H4p + iC4H7 <=> prod_10
 )
 
 entry(
-    index = 37,
+    index = 36,
     label = "C7H11-4 <=> C7H10-2 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.77e+09, 's^-1'), n=1.4, Ea=(32, 'kcal/mol'), T0=(1, 'K')),
@@ -650,7 +650,7 @@ Taken from entry: prod_11 <=> prod_12 + H
 )
 
 entry(
-    index = 38,
+    index = 37,
     label = "C3H4 + C4H5 <=> C7H9-19",
     degeneracy = 1,
     kinetics = Arrhenius(A=(128, 'cm^3/(mol*s)'), n=3.05, Ea=(7.4, 'kcal/mol'), T0=(1, 'K')),
@@ -663,7 +663,7 @@ Taken from entry: C3H4a + BD2YL <=> prod_13
 )
 
 entry(
-    index = 39,
+    index = 38,
     label = "C7H9-20 <=> C7H8-11 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4e+10, 's^-1'), n=1.27, Ea=(44.7, 'kcal/mol'), T0=(1, 'K')),
@@ -676,7 +676,7 @@ Taken from entry: prod_14 <=> prod_15 + H
 )
 
 entry(
-    index = 40,
+    index = 39,
     label = "C3H4-2 + C4H5 <=> C7H9-21",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1900, 'cm^3/(mol*s)'), n=2.92, Ea=(8.5, 'kcal/mol'), T0=(1, 'K')),
@@ -689,7 +689,7 @@ Taken from entry: C3H4p + BD2YL <=> prod_16
 )
 
 entry(
-    index = 41,
+    index = 40,
     label = "C7H9-22 <=> C7H8-12 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(6.47e+10, 's^-1'), n=1.22, Ea=(45.7, 'kcal/mol'), T0=(1, 'K')),
@@ -702,7 +702,7 @@ Taken from entry: prod_17 <=> prod_18 + H
 )
 
 entry(
-    index = 42,
+    index = 41,
     label = "C3H4-3 + allyl <=> C6H9-5",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3960, 'cm^3/(mol*s)'), n=2.65, Ea=(11.6, 'kcal/mol'), T0=(1, 'K')),
@@ -715,7 +715,7 @@ Taken from entry: aC3H5 + C3H4a <=> prod_19
 )
 
 entry(
-    index = 43,
+    index = 42,
     label = "C3H4-3 + C4H7 <=> C7H11-5",
     degeneracy = 1,
     kinetics = Arrhenius(A=(37, 'cm^3/(mol*s)'), n=2.89, Ea=(9.9, 'kcal/mol'), T0=(1, 'K')),
@@ -728,7 +728,7 @@ Taken from entry: C3H4a + iC4H7 <=> prod_20
 )
 
 entry(
-    index = 44,
+    index = 43,
     label = "C2H2 + allyl <=> C5H7",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -746,7 +746,7 @@ Taken from entry: aC3H5 + C2H2 <=> prod_21
 )
 
 entry(
-    index = 45,
+    index = 44,
     label = "C5H7-2 <=> C5H6 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.19e+09, 's^-1'), n=1.37, Ea=(31.9, 'kcal/mol'), T0=(1, 'K')),
@@ -759,7 +759,7 @@ Taken from entry: prod_22 <=> CPD + H
 )
 
 entry(
-    index = 46,
+    index = 45,
     label = "C2H2 + C3H3 <=> C5H5-2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -777,7 +777,7 @@ Taken from entry: C3H3 + C2H2 <=> prod_23
 )
 
 entry(
-    index = 47,
+    index = 46,
     label = "C3H4-2 + C3H3 <=> C6H7",
     degeneracy = 1,
     kinetics = Arrhenius(A=(7040, 'cm^3/(mol*s)'), n=2.87, Ea=(9.8, 'kcal/mol'), T0=(1, 'K')),
@@ -790,7 +790,7 @@ Taken from entry: C3H3 + C3H4p <=> prod_25
 )
 
 entry(
-    index = 48,
+    index = 47,
     label = "C3H4-4 + C3H3 <=> C6H7-2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(285, 'cm^3/(mol*s)'), n=2.93, Ea=(11.1, 'kcal/mol'), T0=(1, 'K')),
@@ -803,7 +803,7 @@ Taken from entry: C3H3 + C3H4p <=> prod_27
 )
 
 entry(
-    index = 49,
+    index = 48,
     label = "C3H4-3 + C3H3 <=> C6H7-3",
     degeneracy = 1,
     kinetics = Arrhenius(A=(850, 'cm^3/(mol*s)'), n=2.81, Ea=(8.9, 'kcal/mol'), T0=(1, 'K')),
@@ -816,7 +816,7 @@ Taken from entry: C3H3 + C3H4a <=> prod_29
 )
 
 entry(
-    index = 50,
+    index = 49,
     label = "C5H6 + C5H5 <=> C10H11",
     degeneracy = 1,
     kinetics = Arrhenius(A=(288, 'cm^3/(mol*s)'), n=2.8, Ea=(8.7, 'kcal/mol'), T0=(1, 'K')),
@@ -829,7 +829,7 @@ Taken from entry: CPD + CPDyl <=> adducte
 )
 
 entry(
-    index = 51,
+    index = 50,
     label = "C5H6-2 + C5H5 <=> C10H11-2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(288, 'cm^3/(mol*s)'), n=2.74, Ea=(3.3, 'kcal/mol'), T0=(1, 'K')),
@@ -842,7 +842,7 @@ Taken from entry: CPD + CPDyl <=> adductd
 )
 
 entry(
-    index = 52,
+    index = 51,
     label = "C10H10 + H <=> C10H11-3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -860,7 +860,7 @@ Taken from entry: pdt11 + H <=> pdt10bis
 )
 
 entry(
-    index = 53,
+    index = 52,
     label = "C10H11-4 <=> C6H6-2 + C4H5-2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(7.14e+12, 's^-1'), n=0.52, Ea=(22.9, 'kcal/mol'), T0=(1, 'K')),
@@ -873,7 +873,7 @@ Taken from entry: pdt12 <=> benzene + butadieneyl
 )
 
 entry(
-    index = 54,
+    index = 53,
     label = "C10H10-2 + H <=> C10H11-5",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -891,7 +891,7 @@ Taken from entry: pdt13 + H <=> pdt12
 )
 
 entry(
-    index = 55,
+    index = 54,
     label = "C9H8 + CH3 <=> C10H11-6",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2480, 'cm^3/(mol*s)'), n=2.89, Ea=(-0.9, 'kcal/mol'), T0=(1, 'K')),
@@ -904,7 +904,7 @@ Taken from entry: pdt22 + CH3 <=> pdt21
 )
 
 entry(
-    index = 56,
+    index = 55,
     label = "C10H11-7 <=> C10H10-3 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.49e+09, 's^-1'), n=1.41, Ea=(38.3, 'kcal/mol'), T0=(1, 'K')),
@@ -917,7 +917,7 @@ Taken from entry: pdt23 <=> pdt30 + H
 )
 
 entry(
-    index = 57,
+    index = 56,
     label = "C10H10-4 + H <=> C10H11-8",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -935,7 +935,7 @@ Taken from entry: pdt26 + H <=> pdt19
 )
 
 entry(
-    index = 58,
+    index = 57,
     label = "C10H10-5 + H <=> C10H11-9",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -953,7 +953,7 @@ Taken from entry: pdt31 + H <=> pdt8
 )
 
 entry(
-    index = 59,
+    index = 58,
     label = "C10H11-10 <=> C9H8-2 + CH3",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.72e+10, 's^-1'), n=1.33, Ea=(51.9, 'kcal/mol'), T0=(1, 'K')),
@@ -966,7 +966,7 @@ Taken from entry: pdt32 <=> pdt22 + CH3
 )
 
 entry(
-    index = 60,
+    index = 59,
     label = "C10H10-6 + H <=> C10H11-11",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -984,7 +984,7 @@ Taken from entry: pdt31 + H <=> pdt29
 )
 
 entry(
-    index = 61,
+    index = 60,
     label = "C10H10-7 + H <=> C10H11-12",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1002,7 +1002,7 @@ Taken from entry: pdt30 + H <=> pdt29
 )
 
 entry(
-    index = 62,
+    index = 61,
     label = "C10H10-8 + H <=> C10H11-13",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1020,7 +1020,7 @@ Taken from entry: pdt35 + H <=> pdt29
 )
 
 entry(
-    index = 63,
+    index = 62,
     label = "C10H10-9 + H <=> C10H11-14",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1038,7 +1038,7 @@ Taken from entry: pdt38 + H <=> pdt37
 )
 
 entry(
-    index = 64,
+    index = 63,
     label = "C6H6 + H <=> C6H7-4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1056,7 +1056,7 @@ Taken from entry: FULVENE + H <=> C5H4CH3
 )
 
 entry(
-    index = 65,
+    index = 64,
     label = "C6H6-3 + H <=> C6H7-5",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.31e+08, 'cm^3/(mol*s)'), n=1.76, Ea=(2, 'kcal/mol'), T0=(1, 'K')),
@@ -1069,7 +1069,7 @@ Taken from entry: FULVENE + H <=> C5H5CH2-1
 )
 
 entry(
-    index = 66,
+    index = 65,
     label = "C6H6-5 + H <=> C6H7-6",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1087,7 +1087,7 @@ Taken from entry: FULVENE + H <=> C5H5CH2-3
 )
 
 entry(
-    index = 67,
+    index = 66,
     label = "C6H6-4 + H <=> C6H7-7",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1105,7 +1105,7 @@ Taken from entry: FULVENE + H <=> C5H5CH2-2
 )
 
 entry(
-    index = 68,
+    index = 67,
     label = "C6H7-8 <=> C6H6-2 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.84e+09, 's^-1'), n=1.3, Ea=(27.4, 'kcal/mol'), T0=(1, 'K')),
@@ -1118,7 +1118,7 @@ Taken from entry: cyC6H7 <=> benzene + H
 )
 
 entry(
-    index = 69,
+    index = 68,
     label = "C10H8 + H <=> C10H9",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1136,7 +1136,7 @@ Taken from entry: biCPD3ene + H <=> adducta
 )
 
 entry(
-    index = 70,
+    index = 69,
     label = "C10H8-2 + H <=> C10H9-2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1154,7 +1154,7 @@ Taken from entry: biCPD3ene + H <=> adductb
 )
 
 entry(
-    index = 71,
+    index = 70,
     label = "C10H8-3 + H <=> C10H9-3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1172,7 +1172,7 @@ Taken from entry: biCPD3ene + H <=> adductc
 )
 
 entry(
-    index = 72,
+    index = 71,
     label = "C10H9-4 <=> C10H8-4 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.34e+08, 's^-1'), n=1.55, Ea=(15.3, 'kcal/mol'), T0=(1, 'K')),
@@ -1185,7 +1185,7 @@ Taken from entry: prod4 <=> naphthalene + H
 )
 
 entry(
-    index = 73,
+    index = 72,
     label = "CH2CHNH2 + H <=> CH2CH2NH2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.141e+07, 's^-1'), n=1.767, Ea=(3729, 'cal/mol'), T0=(1, 'K')),
@@ -1198,7 +1198,7 @@ Ethylamine paper
 )
 
 entry(
-    index = 74,
+    index = 73,
     label = "ethene + NH2 <=> CH2CH2NH2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1228, 's^-1'), n=2.756, Ea=(1658, 'cal/mol'), T0=(1, 'K')),
@@ -1211,7 +1211,7 @@ Ethylamine paper
 )
 
 entry(
-    index = 75,
+    index = 74,
     label = "CH2NH + H <=> CH2NH2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.475e+08, 's^-1'), n=1.674, Ea=(2295, 'cal/mol'), T0=(1, 'K')),

@@ -7,7 +7,7 @@ longDesc = u"""
 Reactions of singlet and triplet oxygen. added based on the new adjacency list representation in 2014 by Connie
 """
 entry(
-    index = 1,
+    index = 0,
     label = "O2S => O2",
     degeneracy = 1,
     duplicate = True,
@@ -16,7 +16,7 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "O2S => O2",
     degeneracy = 1,
     duplicate = True,
@@ -28,7 +28,7 @@ entry(
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "O2S <=> O2",
     degeneracy = 1,
     duplicate = True,

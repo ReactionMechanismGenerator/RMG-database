@@ -17,7 +17,7 @@ University, The University of Texas at Austin, and SRI International.
 This method seems to use direct thermo data instead of NASA Polynomials (that GRI-Mech3.0 uses)
 """
 entry(
-    index = 1,
+    index = 0,
     label = "C(T)",
     molecule = 
 """
@@ -38,7 +38,7 @@ u"""
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "C2H",
     molecule = 
 """
@@ -61,7 +61,7 @@ u"""
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "C2H2",
     molecule = 
 """
@@ -84,7 +84,7 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "CH2CO",
     molecule = 
 """
@@ -108,7 +108,7 @@ u"""
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "HCCOH",
     molecule = 
 """
@@ -132,7 +132,7 @@ u"""
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "C2H3",
     molecule = 
 """
@@ -157,7 +157,7 @@ u"""
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "CH2CHO",
     molecule = 
 """
@@ -183,7 +183,7 @@ u"""
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "C2H4",
     molecule = 
 """
@@ -208,7 +208,7 @@ u"""
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "CH3CHO",
     molecule = 
 """
@@ -234,7 +234,7 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "C2H5",
     molecule = 
 """
@@ -261,7 +261,7 @@ u"""
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "C2H6",
     molecule = 
 """
@@ -288,7 +288,7 @@ u"""
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "HCCO",
     molecule = 
 """
@@ -312,7 +312,7 @@ u"""
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "C3H8",
     molecule = 
 """
@@ -342,7 +342,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "CH",
     molecule = 
 """
@@ -364,7 +364,7 @@ u"""
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "CH2(S)",
     molecule = 
 """
@@ -386,7 +386,7 @@ u"""
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "CH2",
     molecule = 
 """
@@ -409,7 +409,7 @@ u"""
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "H2CN",
     molecule = 
 """
@@ -433,7 +433,7 @@ u"""
 )
 
 entry(
-    index = 18,
+    index = 17,
     label = "CH2O",
     molecule = 
 """
@@ -456,7 +456,7 @@ u"""
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "CH3",
     molecule = 
 """
@@ -480,7 +480,7 @@ u"""
 )
 
 entry(
-    index = 20,
+    index = 19,
     label = "CH3O",
     molecule = 
 """
@@ -505,7 +505,7 @@ u"""
 )
 
 entry(
-    index = 21,
+    index = 20,
     label = "CH2OH",
     molecule = 
 """
@@ -530,7 +530,7 @@ u"""
 )
 
 entry(
-    index = 22,
+    index = 21,
     label = "CH4",
     molecule = 
 """
@@ -554,7 +554,7 @@ u"""
 )
 
 entry(
-    index = 23,
+    index = 22,
     label = "CH3OH",
     molecule = 
 """
@@ -579,7 +579,7 @@ u"""
 )
 
 entry(
-    index = 24,
+    index = 23,
     label = "HCN",
     molecule = 
 """
@@ -601,7 +601,7 @@ u"""
 )
 
 entry(
-    index = 25,
+    index = 24,
     label = "HCNN",
     molecule = 
 """
@@ -625,7 +625,7 @@ u"""
 )
 
 entry(
-    index = 26,
+    index = 25,
     label = "HNCO",
     molecule = 
 """
@@ -648,7 +648,7 @@ u"""
 )
 
 entry(
-    index = 27,
+    index = 26,
     label = "HOCN",
     molecule = 
 """
@@ -671,7 +671,7 @@ u"""
 )
 
 entry(
-    index = 28,
+    index = 27,
     label = "HCNO",
     molecule = 
 """
@@ -694,7 +694,7 @@ u"""
 )
 
 entry(
-    index = 29,
+    index = 28,
     label = "HCO",
     molecule = 
 """
@@ -717,7 +717,7 @@ u"""
 )
 
 entry(
-    index = 30,
+    index = 29,
     label = "NCO",
     molecule = 
 """
@@ -740,7 +740,7 @@ u"""
 )
 
 entry(
-    index = 31,
+    index = 30,
     label = "CO",
     molecule = 
 """
@@ -761,7 +761,7 @@ u"""
 )
 
 entry(
-    index = 32,
+    index = 31,
     label = "CO2",
     molecule = 
 """
@@ -783,7 +783,7 @@ u"""
 )
 
 entry(
-    index = 33,
+    index = 32,
     label = "H",
     molecule = 
 """
@@ -804,7 +804,7 @@ u"""
 )
 
 entry(
-    index = 34,
+    index = 33,
     label = "H2",
     molecule = 
 """
@@ -825,7 +825,7 @@ u"""
 )
 
 entry(
-    index = 35,
+    index = 34,
     label = "NH2",
     molecule = 
 """
@@ -848,7 +848,7 @@ u"""
 )
 
 entry(
-    index = 36,
+    index = 35,
     label = "H2O",
     molecule = 
 """
@@ -870,7 +870,7 @@ u"""
 )
 
 entry(
-    index = 37,
+    index = 36,
     label = "H2O2",
     molecule = 
 """
@@ -893,7 +893,7 @@ u"""
 )
 
 entry(
-    index = 38,
+    index = 37,
     label = "NH3",
     molecule = 
 """
@@ -916,7 +916,7 @@ u"""
 )
 
 entry(
-    index = 39,
+    index = 38,
     label = "NH",
     molecule = 
 """
@@ -937,7 +937,7 @@ u"""
 )
 
 entry(
-    index = 40,
+    index = 39,
     label = "NNH",
     molecule = 
 """
@@ -960,7 +960,7 @@ u"""
 )
 
 entry(
-    index = 41,
+    index = 40,
     label = "HNO",
     molecule = 
 """
@@ -982,7 +982,7 @@ u"""
 )
 
 entry(
-    index = 42,
+    index = 41,
     label = "OH",
     molecule = 
 """
@@ -1004,7 +1004,7 @@ u"""
 )
 
 entry(
-    index = 43,
+    index = 42,
     label = "HO2",
     molecule = 
 """
@@ -1027,7 +1027,7 @@ u"""
 )
 
 entry(
-    index = 44,
+    index = 43,
     label = "N",
     molecule = 
 """
@@ -1048,7 +1048,7 @@ u"""
 )
 
 entry(
-    index = 45,
+    index = 44,
     label = "N2",
     molecule = 
 """
@@ -1069,7 +1069,7 @@ u"""
 )
 
 entry(
-    index = 46,
+    index = 45,
     label = "N2O",
     molecule = 
 """
@@ -1091,7 +1091,7 @@ u"""
 )
 
 entry(
-    index = 47,
+    index = 46,
     label = "NO",
     molecule = 
 """
@@ -1113,7 +1113,7 @@ u"""
 )
 
 entry(
-    index = 48,
+    index = 47,
     label = "NO2",
     molecule = 
 """
@@ -1136,7 +1136,7 @@ u"""
 )
 
 entry(
-    index = 49,
+    index = 48,
     label = "O",
     molecule = 
 """
@@ -1157,7 +1157,7 @@ u"""
 )
 
 entry(
-    index = 50,
+    index = 49,
     label = "O2",
     molecule = 
 """
@@ -1179,7 +1179,7 @@ u"""
 )
 
 entry(
-    index = 51,
+    index = 50,
     label = "CN",
     molecule = 
 """

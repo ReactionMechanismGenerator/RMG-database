@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 entry(
-    index = -3,
+    index = 0,
     label = "R",
     group = 
 """
@@ -22,7 +22,7 @@ u"""
 )
 
 entry(
-    index = -2,
+    index = 1,
     label = "CO",
     group = 
 """
@@ -37,7 +37,7 @@ u"""
 )
 
 entry(
-    index = 15,
+    index = 2,
     label = "Lac",
     group = "OR{Lac3, Lac4, Lac5, Lac6}",
     solute = SoluteData(
@@ -55,7 +55,7 @@ u"""
 )
 
 entry(
-    index = 16,
+    index = 3,
     label = "Lac3",
     group = 
 """
@@ -73,7 +73,7 @@ u"""
 )
 
 entry(
-    index = 17,
+    index = 4,
     label = "Lac4",
     group = 
 """
@@ -92,7 +92,7 @@ u"""
 )
 
 entry(
-    index = 18,
+    index = 5,
     label = "Lac5",
     group = 
 """
@@ -112,7 +112,7 @@ u"""
 )
 
 entry(
-    index = 19,
+    index = 6,
     label = "Lac6",
     group = 
 """
@@ -133,7 +133,7 @@ u"""
 )
 
 entry(
-    index = 1,
+    index = 7,
     label = "Oss(CdsOd)",
     group = 
 """
@@ -158,7 +158,7 @@ u"""
 )
 
 entry(
-    index = 2,
+    index = 8,
     label = "Oss(CdsOd)Oss",
     group = 
 """
@@ -184,7 +184,7 @@ u"""
 )
 
 entry(
-    index = 3,
+    index = 9,
     label = "OssH(CdsOd)",
     group = 
 """
@@ -209,7 +209,7 @@ u"""
 )
 
 entry(
-    index = 5,
+    index = 10,
     label = "Cd(Od)Cd=CdCd(Od)",
     group = 
 """
@@ -239,7 +239,7 @@ u"""
 )
 
 entry(
-    index = 21,
+    index = 11,
     label = "Lactam",
     group = "OR{Lactam4, Lactam5, Lactam6, Lactam7}",
     solute = SoluteData(
@@ -257,7 +257,7 @@ u"""
 )
 
 entry(
-    index = 22,
+    index = 12,
     label = "Lactam4",
     group = 
 """
@@ -276,7 +276,7 @@ u"""
 )
 
 entry(
-    index = 23,
+    index = 13,
     label = "Lactam5",
     group = 
 """
@@ -296,7 +296,7 @@ u"""
 )
 
 entry(
-    index = 24,
+    index = 14,
     label = "Lactam6",
     group = 
 """
@@ -317,7 +317,7 @@ u"""
 )
 
 entry(
-    index = 25,
+    index = 15,
     label = "Lactam7",
     group = 
 """
@@ -339,7 +339,7 @@ u"""
 )
 
 entry(
-    index = 20,
+    index = 16,
     label = "Cd(Od)N",
     group = 
 """
@@ -362,7 +362,7 @@ u"""
 )
 
 entry(
-    index = 27,
+    index = 17,
     label = "NCd(Od)N",
     group = 
 """
@@ -386,7 +386,7 @@ u"""
 )
 
 entry(
-    index = 28,
+    index = 18,
     label = "OsCd(Od)N",
     group = 
 """
@@ -410,7 +410,7 @@ u"""
 )
 
 entry(
-    index = 29,
+    index = 19,
     label = "Cd(Od)NCd(Od)",
     group = 
 """
@@ -435,7 +435,7 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 20,
     label = "Cs(OssH)Cs(OssH)",
     group = 
 """
@@ -465,7 +465,7 @@ u"""
 )
 
 entry(
-    index = 6,
+    index = 21,
     label = "CbCsOssH",
     group = 
 """
@@ -489,7 +489,7 @@ u"""
 )
 
 entry(
-    index = 8,
+    index = 22,
     label = "OssH",
     group = 
 """
@@ -512,7 +512,7 @@ u"""
 )
 
 entry(
-    index = 7,
+    index = 23,
     label = "phenol",
     group = 
 """
@@ -535,7 +535,7 @@ u"""
 )
 
 entry(
-    index = 9,
+    index = 24,
     label = "OxRing",
     group = "OR{OxR3, OxR4, OxR5, OxR6, OxR7}",
     solute = SoluteData(
@@ -553,7 +553,7 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 25,
     label = "OxR3",
     group = 
 """
@@ -570,7 +570,7 @@ u"""
 )
 
 entry(
-    index = 11,
+    index = 26,
     label = "OxR4",
     group = 
 """
@@ -588,7 +588,7 @@ u"""
 )
 
 entry(
-    index = 12,
+    index = 27,
     label = "OxR5",
     group = 
 """
@@ -607,7 +607,7 @@ u"""
 )
 
 entry(
-    index = 13,
+    index = 28,
     label = "OxR6",
     group = 
 """
@@ -627,7 +627,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 29,
     label = "OxR7",
     group = 
 """
@@ -677,7 +677,7 @@ u"""
 )
 
 entry(
-    index = 34,
+    index = 31,
     label = "N3sHCd(Od)N3sH",
     group = 
 """
@@ -703,7 +703,7 @@ u"""
 )
 
 entry(
-    index = 31,
+    index = 32,
     label = "Cd(Od)NH2",
     group = 
 """
@@ -728,7 +728,7 @@ u"""
 )
 
 entry(
-    index = 32,
+    index = 33,
     label = "Cd(Od)NHR",
     group = 
 """
@@ -753,7 +753,7 @@ u"""
 )
 
 entry(
-    index = 33,
+    index = 34,
     label = "Cd(Od)NH-arom",
     group = 
 """

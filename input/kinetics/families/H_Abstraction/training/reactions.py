@@ -8,7 +8,7 @@ Put kinetic parameters for reactions to use as a training set for fitting
 group additivity values in this file.
 """
 entry(
-    index = 301,
+    index = 0,
     label = "H2O2 + C4H9O <=> HO2 + C4H10O",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -43,7 +43,7 @@ Enthalpy:       14.25       14.66           13.70
 )
 
 entry(
-    index = 302,
+    index = 1,
     label = "H2O2 + C4H9O-2 <=> HO2 + C4H10O-2",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -78,7 +78,7 @@ Enthalpy:       11.05       12.41           10.11
 )
 
 entry(
-    index = 303,
+    index = 2,
     label = "H2O2 + C4H9O-3 <=> HO2 + C4H10O-3",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -113,7 +113,7 @@ Enthalpy:       13.53       14.02           11.48
 )
 
 entry(
-    index = 304,
+    index = 3,
     label = "H2O2 + C4H9O-4 <=> HO2 + C4H10O-4",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -148,7 +148,7 @@ Enthalpy:        8.35        8.63            7.17
 )
 
 entry(
-    index = 305,
+    index = 4,
     label = "H2O2 + C4H9O-5 <=> HO2 + C4H10O-5",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -175,7 +175,7 @@ for the remaining species and TS were set to 1.  The rate coefficient was comput
 )
 
 entry(
-    index = 306,
+    index = 5,
     label = "H2O2 + C4H9O-6 <=> HO2 + C4H10O-6",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -202,7 +202,7 @@ for the remaining species and TS were set to 1.  The rate coefficient was comput
 )
 
 entry(
-    index = 307,
+    index = 6,
     label = "H2O2 + C4H9O-7 <=> HO2 + C4H10O-7",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -229,7 +229,7 @@ for the remaining species and TS were set to 1.  The rate coefficient was comput
 )
 
 entry(
-    index = 308,
+    index = 7,
     label = "H2O2 + C4H9O-8 <=> HO2 + C4H10O-8",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -256,7 +256,7 @@ for the remaining species and TS were set to 1.  The rate coefficient was comput
 )
 
 entry(
-    index = 309,
+    index = 8,
     label = "H2O2 + C4H9O-9 <=> HO2 + C4H10O-9",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -283,7 +283,7 @@ for the remaining species and TS were set to 1.  The rate coefficient was comput
 )
 
 entry(
-    index = 500,
+    index = 9,
     label = "CH2O + C4H7 <=> CHO + C4H8",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -319,7 +319,7 @@ There are no rate coefficients for this reaction in the literature (based on MRH
 )
 
 entry(
-    index = 501,
+    index = 10,
     label = "C3H8 + C4H9O-10 <=> C3H7 + C4H10O-10",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -347,7 +347,7 @@ InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin mu
 )
 
 entry(
-    index = 502,
+    index = 11,
     label = "C4H10O-11 + C3H7 <=> C4H9O-11 + C3H8",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -375,7 +375,7 @@ InChI=1/C3H8/c1-3-2/h3H2,1-2H3 (external symmetry number = 2, spin multiplicity 
 )
 
 entry(
-    index = 503,
+    index = 12,
     label = "C4H8 + C4H9O-12 <=> C4H7 + C4H10O-12",
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -403,7 +403,7 @@ InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin mu
 )
 
 entry(
-    index = 504,
+    index = 13,
     label = "C4H8 + C4H9O-10 <=> C4H7 + C4H10O-10",
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -431,7 +431,7 @@ InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin mu
 )
 
 entry(
-    index = 505,
+    index = 14,
     label = "C4H8 + C4H9O-11 <=> C4H7 + C4H10O-11",
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -459,7 +459,7 @@ InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin mu
 )
 
 entry(
-    index = 506,
+    index = 15,
     label = "C4H8 + C4H9O-13 <=> C4H7 + C4H10O-13",
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -487,7 +487,7 @@ InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin mu
 )
 
 entry(
-    index = 507,
+    index = 16,
     label = "C3H6 + C4H9O-12 <=> C3H5 + C4H10O-12",
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -519,7 +519,7 @@ in good agreement with this expression (within 10% over most of the valid temper
 )
 
 entry(
-    index = 508,
+    index = 17,
     label = "C3H6 + C4H9O-10 <=> C3H5 + C4H10O-10",
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -551,7 +551,7 @@ by as much as 10x over of the valid temperature range.
 )
 
 entry(
-    index = 509,
+    index = 18,
     label = "C3H6 + C4H9O-11 <=> C3H5 + C4H10O-11",
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -579,7 +579,7 @@ InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin mu
 )
 
 entry(
-    index = 510,
+    index = 19,
     label = "C3H6 + C4H9O-13 <=> C3H5 + C4H10O-13",
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -607,7 +607,7 @@ InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin mu
 )
 
 entry(
-    index = 511,
+    index = 20,
     label = "C2H6 + C4H9O-12 <=> C2H5 + C4H10O-12",
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -639,7 +639,7 @@ by 10-100x over of the valid temperature range.
 )
 
 entry(
-    index = 512,
+    index = 21,
     label = "C4H10O-10 + C2H5 <=> C4H9O-10 + C2H6",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -671,7 +671,7 @@ in good agreement with this expression (within a factor of 1.6 over the valid te
 )
 
 entry(
-    index = 513,
+    index = 22,
     label = "C4H10O-11 + C2H5 <=> C4H9O-11 + C2H6",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -699,7 +699,7 @@ InChI=1/C2H6/c1-2/h1-2H3 (external symmetry number = 6, spin multiplicity = 1)
 )
 
 entry(
-    index = 514,
+    index = 23,
     label = "C2H6 + C4H9O-13 <=> C2H5 + C4H10O-13",
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -727,7 +727,7 @@ InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin mu
 )
 
 entry(
-    index = 515,
+    index = 24,
     label = "C4H10O-10 + C2H3 <=> C4H9O-10 + C2H4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -759,7 +759,7 @@ over the valid temperature range.
 )
 
 entry(
-    index = 516,
+    index = 25,
     label = "C4H10O-12 + C3H5-2 <=> C4H9O-12 + C3H6-2",
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -787,7 +787,7 @@ InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 (external symmetry number = 1, spin multiplicity
 )
 
 entry(
-    index = 517,
+    index = 26,
     label = "C4H10O-11 + C3H5-2 <=> C4H9O-11 + C3H6-2",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -815,7 +815,7 @@ InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 (external symmetry number = 1, spin multiplicity
 )
 
 entry(
-    index = 518,
+    index = 27,
     label = "C3H6O + C4H9O-12 <=> C3H5O + C4H10O-12",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -843,7 +843,7 @@ InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin mu
 )
 
 entry(
-    index = 519,
+    index = 28,
     label = "C4H10O-10 + C3H5O <=> C4H9O-10 + C3H6O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -871,7 +871,7 @@ InChI=1/C3H6O/c1-2-3-4/h3H,2H2,1H3 (external symmetry number = 1, spin multiplic
 )
 
 entry(
-    index = 520,
+    index = 29,
     label = "C4H10O-11 + C3H5O <=> C4H9O-11 + C3H6O",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -899,7 +899,7 @@ InChI=1/C3H6O/c1-2-3-4/h3H,2H2,1H3 (external symmetry number = 1, spin multiplic
 )
 
 entry(
-    index = 521,
+    index = 30,
     label = "C4H8O + H <=> C4H7O + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -927,7 +927,7 @@ InChI=1/H2/h1H (external symmetry number = 2, spin multiplicity = 1)
 )
 
 entry(
-    index = 522,
+    index = 31,
     label = "C4H8 + C3H5O-2 <=> C4H7 + C3H6O-2",
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -955,7 +955,7 @@ InChI=1/C3H6O/c1-2-3-4/h2-4H,1H3/ (external symmetry number = 1, spin multiplici
 )
 
 entry(
-    index = 525,
+    index = 32,
     label = "C4H8-2 + HO2 <=> C4H7-2 + H2O2",
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -983,7 +983,7 @@ H2O2 (external symmetry number = 2, spin multiplicity = 1)
 )
 
 entry(
-    index = 527,
+    index = 33,
     label = "H2O2 + C4H7-3 <=> HO2 + C4H8-3",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1013,7 +1013,7 @@ HO2 (external symmetry number = 1, spin multiplicity = 2)
 )
 
 entry(
-    index = 529,
+    index = 34,
     label = "C4H8-4 + HO2 <=> C4H7-4 + H2O2",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1043,7 +1043,7 @@ H2O2 (external symmetry number = 2, spin multiplicity = 1)
 )
 
 entry(
-    index = 531,
+    index = 35,
     label = "H2O2 + C4H7-5 <=> HO2 + C4H8-5",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1073,7 +1073,7 @@ HO2 (external symmetry number = 1, spin multiplicity = 2)
 )
 
 entry(
-    index = 534,
+    index = 36,
     label = "H2O2 + C4H7O-2 <=> HO2 + C4H8O-2",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1108,7 +1108,7 @@ than calculations of MHS.
 )
 
 entry(
-    index = 536,
+    index = 37,
     label = "H2O2 + CH3O2 <=> HO2 + CH4O2",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1143,7 +1143,7 @@ than calculations of MHS.
 )
 
 entry(
-    index = 538,
+    index = 38,
     label = "C4H8-4 + CH3O2 <=> C4H7-4 + CH4O2",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1187,7 +1187,7 @@ this calculation is in reasonable agreement with the literature.
 )
 
 entry(
-    index = 539,
+    index = 39,
     label = "H2O2 + C3H5 <=> HO2 + C3H6",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1222,7 +1222,7 @@ than calculations of MHS.
 )
 
 entry(
-    index = 540,
+    index = 40,
     label = "C4H8O-3 + HO2 <=> C4H7O-3 + H2O2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1250,7 +1250,7 @@ in the A parameter was MRH guess.
 )
 
 entry(
-    index = 1002,
+    index = 41,
     label = "C4H10O-10 + C3H7 <=> C4H9O-10 + C3H8",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1282,7 +1282,7 @@ in good agreement with this expression (within a factor of 3.5 over the valid te
 )
 
 entry(
-    index = 1003,
+    index = 42,
     label = "C3H6O-3 + OH <=> C3H5O-3 + H2O",
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -1312,7 +1312,7 @@ DOI: 10.1039/C0CP02754E
 )
 
 entry(
-    index = 1004,
+    index = 43,
     label = "C4H8O-4 + OH <=> C4H7O-4 + H2O",
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -1342,7 +1342,7 @@ DOI: 10.1039/C0CP02754E
 )
 
 entry(
-    index = 1005,
+    index = 44,
     label = "C4H8O-5 + OH <=> C4H7O-5 + H2O",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1372,7 +1372,7 @@ DOI: 10.1039/C0CP02754E
 )
 
 entry(
-    index = 1006,
+    index = 45,
     label = "C4H8O-6 + OH <=> C4H7O-6 + H2O",
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -1402,7 +1402,7 @@ DOI: 10.1039/C0CP02754E
 )
 
 entry(
-    index = 1007,
+    index = 46,
     label = "C5H10O + OH <=> C5H9O + H2O",
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -1432,7 +1432,7 @@ DOI: 10.1039/C0CP02754E
 )
 
 entry(
-    index = 1008,
+    index = 47,
     label = "C5H10O-2 + OH <=> C5H9O-2 + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1462,7 +1462,7 @@ DOI: 10.1039/C0CP02754E
 )
 
 entry(
-    index = 1009,
+    index = 48,
     label = "C5H10O-3 + OH <=> C5H9O-3 + H2O",
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -1492,7 +1492,7 @@ DOI: 10.1039/C0CP02754E
 )
 
 entry(
-    index = 1010,
+    index = 49,
     label = "C4H10O-4 + OH <=> H2O + C4H9O-4",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1512,7 +1512,7 @@ Rate comes from quantum calculation by J. Zador at CCSD(T) level
 )
 
 entry(
-    index = 1201,
+    index = 50,
     label = "CH3CH2NH2_1 + H <=> CH2CH2NH2 + H2",
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -1532,7 +1532,7 @@ Ethylamine paper
 )
 
 entry(
-    index = 1202,
+    index = 51,
     label = "CH3CH2NH2_2 + H <=> CH3CHNH2 + H2",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1552,7 +1552,7 @@ Ethylamine paper
 )
 
 entry(
-    index = 1203,
+    index = 52,
     label = "CH3CH2NH2_3 + H <=> CH3CH2NH + H2",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1572,7 +1572,7 @@ Ethylamine paper
 )
 
 entry(
-    index = 1204,
+    index = 53,
     label = "CH3CH2NH2_1 + CH3 <=> CH2CH2NH2 + CH4",
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -1592,7 +1592,7 @@ Ethylamine paper
 )
 
 entry(
-    index = 1205,
+    index = 54,
     label = "CH3CH2NH2_2 + CH3 <=> CH3CHNH2 + CH4",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1612,7 +1612,7 @@ Ethylamine paper
 )
 
 entry(
-    index = 1206,
+    index = 55,
     label = "CH3CH2NH2_3 + CH3 <=> CH3CH2NH + CH4",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1632,7 +1632,7 @@ Ethylamine paper
 )
 
 entry(
-    index = 1207,
+    index = 56,
     label = "CH3CH2NH2_1 + NH2 <=> CH2CH2NH2 + NH3",
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -1652,7 +1652,7 @@ Ethylamine paper
 )
 
 entry(
-    index = 1208,
+    index = 57,
     label = "CH3CH2NH2_2 + NH2 <=> CH3CHNH2 + NH3",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1672,7 +1672,7 @@ Ethylamine paper
 )
 
 entry(
-    index = 1209,
+    index = 58,
     label = "CH3CH2NH2_3 + NH2 <=> CH3CH2NH + NH3",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1692,7 +1692,7 @@ Ethylamine paper
 )
 
 entry(
-    index = 1210,
+    index = 59,
     label = "CH3CH2NH2_1 + OH <=> CH2CH2NH2 + H2O",
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -1715,7 +1715,7 @@ The Journal of Physical Chemistry A, 2014, 118, 70-77, http://dx.doi.org/10.1021
 )
 
 entry(
-    index = 1211,
+    index = 60,
     label = "CH3CH2NH2_2 + OH <=> CH3CHNH2 + H2O",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1738,7 +1738,7 @@ The Journal of Physical Chemistry A, 2014, 118, 70-77, http://dx.doi.org/10.1021
 )
 
 entry(
-    index = 1212,
+    index = 61,
     label = "CH3CH2NH2_3 + OH <=> CH3CH2NH + H2O",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1761,7 +1761,7 @@ The Journal of Physical Chemistry A, 2014, 118, 70-77, http://dx.doi.org/10.1021
 )
 
 entry(
-    index = 1213,
+    index = 62,
     label = "N2H4 + H <=> N2H3 + H2",
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -1781,7 +1781,7 @@ Ethylamine paper
 )
 
 entry(
-    index = 1214,
+    index = 63,
     label = "N2H4 + CH3 <=> N2H3 + CH4",
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -1801,7 +1801,7 @@ Ethylamine paper
 )
 
 entry(
-    index = 1215,
+    index = 64,
     label = "N2H4 + NH2 <=> N2H3 + NH3",
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -1821,7 +1821,7 @@ Ethylamine paper
 )
 
 entry(
-    index = 1216,
+    index = 65,
     label = "CH3CHNH_1 + H <=> CH2CHNH + H2",
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -1841,7 +1841,7 @@ Ethylamine paper
 )
 
 entry(
-    index = 1217,
+    index = 66,
     label = "CH3CHNH_2 + H <=> CH3CHN + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1861,7 +1861,7 @@ Ethylamine paper
 )
 
 entry(
-    index = 1230,
+    index = 67,
     label = "NH + CH4b <=> NH2b + CH3b",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1886,7 +1886,7 @@ DOI: 10.1002/bbpc.19940980615
 )
 
 entry(
-    index = 1231,
+    index = 68,
     label = "NH + C2H6 <=> NH2b + C2H5b",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1911,7 +1911,7 @@ DOI: 10.1002/bbpc.19940980615
 )
 
 entry(
-    index = 1232,
+    index = 69,
     label = "NH + HNCO <=> NH2b + NCO",
     degeneracy = 1,
     kinetics = Arrhenius(

@@ -8,7 +8,7 @@ Put kinetic parameters for reactions to use as a training set for fitting
 group additivity values in this file.
 """
 entry(
-    index = 1,
+    index = 0,
     label = "CH3O2 <=> O2 + CH3",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.09e+14, 's^-1'), n=0.25, Ea=(33.3, 'kcal/mol'), T0=(1, 'K')),
@@ -25,7 +25,7 @@ Method CBS-QB3 w/ 1-d Hindered rotor corrections
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "C2H5O2 <=> O2 + C2H5",
     degeneracy = 1,
     kinetics = Arrhenius(A=(9.49e+21, 's^-1'), n=-2.41, Ea=(35.8, 'kcal/mol'), T0=(1, 'K')),
@@ -42,7 +42,7 @@ Method CBS-QB3 w/ 1-d Hindered rotor corrections
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "C3H7O2 <=> O2 + C3H7",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.52e+23, 's^-1'), n=-2.71, Ea=(36.4, 'kcal/mol'), T0=(1, 'K')),
@@ -59,7 +59,7 @@ Method CBS-QB3 w/ 1-d Hindered rotor corrections
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "1-hydroxybutyl + O2 <=> 1-hydroxybutylO2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -77,7 +77,7 @@ DOI: 10.1021/jp403792t
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "NO2 + NO2 <=> N2O4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -110,7 +110,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "NO + O2 <=> NO3",
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -144,7 +144,7 @@ Analytical technique: Pressure measurement
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "NO2 + NO3-2 <=> N2O5",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -180,7 +180,7 @@ Theoretical modeling of k0, k and Fc=0.38 exp(-T/4900K) led to consistency with 
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "NO2 + OH <=> HNO3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -211,7 +211,7 @@ Quantum dynamics calculations. Reaction potential energy suraface was studied us
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "NO2-2 + OH <=> HNO3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -243,7 +243,7 @@ Quantum dynamics calculations. Reaction potential energy suraface was studied us
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "C5H5 + C2H5 <=> C7H10",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -261,7 +261,7 @@ Taken from entry: ethyl + CPDyl <=> ethylCPD
 )
 
 entry(
-    index = 15,
+    index = 10,
     label = "CH3NO2 <=> CH3 + NO2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.8e+16, 's^-1'), n=0, Ea=(58500, 'cal/mol'), T0=(1, 'K')),
@@ -295,7 +295,7 @@ The high-pressure limit kinetics was taken. Troe coefficients are:
 )
 
 entry(
-    index = 20,
+    index = 11,
     label = "CH3 + CH3 <=> C2H6",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -318,7 +318,7 @@ doi: 10.1039/B515914H
 )
 
 entry(
-    index = 21,
+    index = 12,
     label = "CH3 + C2H5 <=> C3H8",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -341,7 +341,7 @@ doi: 10.1039/B515914H
 )
 
 entry(
-    index = 22,
+    index = 13,
     label = "C2H5 + C2H5 <=> C4H10",
     degeneracy = 1,
     kinetics = Arrhenius(

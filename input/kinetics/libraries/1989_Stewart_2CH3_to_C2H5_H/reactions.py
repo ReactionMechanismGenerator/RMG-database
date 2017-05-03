@@ -11,7 +11,7 @@ Combustion and Flame 75: 25-31 (1989)
 The k computed by Stewart that we fit was for a "strong collider" because "weak collider" correction they provide is only valid to 900 K
 """
 entry(
-    index = 1,
+    index = 0,
     label = "CH3 + CH3 <=> C2H5 + H",
     degeneracy = 1,
     kinetics = Chebyshev(

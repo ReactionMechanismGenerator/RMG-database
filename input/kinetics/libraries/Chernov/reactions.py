@@ -10,7 +10,7 @@ Soot Formation with C1 and C2 Fuels Using an Improved Chemical Mechanism for PAH
 Combustion and Flame 161 (2014) 592-601
 """
 entry(
-    index = 1,
+    index = 0,
     label = "H2CCCH + C2H3 <=> C5H5 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27,7 +27,7 @@ u"""
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "H2CCCH + C2H2 <=> C5H5",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -44,7 +44,7 @@ u"""
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "C5H5 + O2 <=> CH2CO + C2H2 + HCO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -61,7 +61,7 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "C5H6 + O2 <=> C5H5 + HO2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -78,7 +78,7 @@ u"""
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "C5H5 + O <=> i-C4H5 + CO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -95,7 +95,7 @@ u"""
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "C5H6 + H <=> C5H5 + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -112,7 +112,7 @@ u"""
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "C5H5 + H <=> C5H6",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -131,7 +131,7 @@ C5H6+H = C3H5+C2H2 6.600E+14 0.0000 6200.00
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "C5H5 + OH <=> CH2O + C2H2 + C2H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -148,7 +148,7 @@ u"""
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "C5H6 + OH <=> C5H5 + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -165,7 +165,7 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "C5H6 + HO2 <=> C5H5 + H2O2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -182,7 +182,7 @@ u"""
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "C5H6 + C2H3 <=> C5H5 + C2H4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -199,7 +199,7 @@ u"""
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "C6H5O <=> C5H5 + CO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -216,7 +216,7 @@ u"""
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "C6H5O + O <=> C5H5 + CO2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -233,7 +233,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "C6H5O + H <=> C5H6 + CO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -250,7 +250,7 @@ u"""
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "C6H5O + H <=> C6H5OH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -267,7 +267,7 @@ u"""
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "C6H5OH <=> C5H6 + CO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -284,7 +284,7 @@ u"""
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "C6H5OH + O <=> C6H5O + OH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -301,7 +301,7 @@ u"""
 )
 
 entry(
-    index = 18,
+    index = 17,
     label = "C6H5OH + H <=> C6H5O + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -318,7 +318,7 @@ u"""
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "C6H5OH + OH <=> C6H5O + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -335,7 +335,7 @@ u"""
 )
 
 entry(
-    index = 20,
+    index = 19,
     label = "C6H5OH + C2H3 <=> C6H5O + C2H4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -352,7 +352,7 @@ u"""
 )
 
 entry(
-    index = 21,
+    index = 20,
     label = "H2CCCH + H2CCCH <=> A1",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -369,7 +369,7 @@ u"""
 )
 
 entry(
-    index = 22,
+    index = 21,
     label = "H2CCCH + H2CCCH <=> A1- + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -386,7 +386,7 @@ u"""
 )
 
 entry(
-    index = 23,
+    index = 22,
     label = "H2CCCCH + C2H3 <=> A1",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -403,7 +403,7 @@ u"""
 )
 
 entry(
-    index = 24,
+    index = 23,
     label = "H2CCCCH + C2H3 <=> A1- + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -420,7 +420,7 @@ u"""
 )
 
 entry(
-    index = 25,
+    index = 24,
     label = "H2CCCH + C3H4 <=> A1 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -437,7 +437,7 @@ u"""
 )
 
 entry(
-    index = 26,
+    index = 25,
     label = "C2H3 + C4H4 <=> A1 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -454,7 +454,7 @@ u"""
 )
 
 entry(
-    index = 27,
+    index = 26,
     label = "H2CCCCH + C2H2 <=> A1-",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -471,7 +471,7 @@ u"""
 )
 
 entry(
-    index = 28,
+    index = 27,
     label = "C4H4 + C2H2 <=> A1- + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -488,7 +488,7 @@ u"""
 )
 
 entry(
-    index = 29,
+    index = 28,
     label = "i-C4H5 + C2H2 <=> A1 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -505,7 +505,7 @@ u"""
 )
 
 entry(
-    index = 30,
+    index = 29,
     label = "i-C4H5 + C2H3 <=> A1 + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -522,7 +522,7 @@ u"""
 )
 
 entry(
-    index = 31,
+    index = 30,
     label = "i-C4H5 + C2H <=> A1",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -539,7 +539,7 @@ u"""
 )
 
 entry(
-    index = 32,
+    index = 31,
     label = "i-C4H5 + C2H <=> A1- + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -556,7 +556,7 @@ u"""
 )
 
 entry(
-    index = 33,
+    index = 32,
     label = "C5H6 + C2H3 <=> A1 + CH3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -575,7 +575,7 @@ C5H5+CH3 = A1+2H 1.000E+18 0.0000 30000.00
 )
 
 entry(
-    index = 34,
+    index = 33,
     label = "A1 <=> A1- + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -592,7 +592,7 @@ u"""
 )
 
 entry(
-    index = 35,
+    index = 34,
     label = "A1 <=> C4H4 + C2H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -609,7 +609,7 @@ u"""
 )
 
 entry(
-    index = 36,
+    index = 35,
     label = "A1 + O2 <=> A1- + HO2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -626,7 +626,7 @@ u"""
 )
 
 entry(
-    index = 37,
+    index = 36,
     label = "A1 + O <=> A1- + OH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -643,7 +643,7 @@ u"""
 )
 
 entry(
-    index = 38,
+    index = 37,
     label = "A1 + O <=> C6H5OH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -660,7 +660,7 @@ u"""
 )
 
 entry(
-    index = 39,
+    index = 38,
     label = "A1 + O <=> C6H5O + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -677,7 +677,7 @@ u"""
 )
 
 entry(
-    index = 40,
+    index = 39,
     label = "A1 + H <=> A1- + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -694,7 +694,7 @@ u"""
 )
 
 entry(
-    index = 41,
+    index = 40,
     label = "A1 + OH <=> C6H5OH + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -711,7 +711,7 @@ u"""
 )
 
 entry(
-    index = 42,
+    index = 41,
     label = "A1 + OH <=> A1- + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -728,7 +728,7 @@ u"""
 )
 
 entry(
-    index = 43,
+    index = 42,
     label = "A1 + CH3 <=> A1- + CH4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -745,7 +745,7 @@ u"""
 )
 
 entry(
-    index = 44,
+    index = 43,
     label = "A1 + C2H <=> A1- + C2H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -762,7 +762,7 @@ u"""
 )
 
 entry(
-    index = 45,
+    index = 44,
     label = "A1 + C4H <=> A1- + C4H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -779,7 +779,7 @@ u"""
 )
 
 entry(
-    index = 46,
+    index = 45,
     label = "A1 + C6H <=> A1- + C6H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -796,7 +796,7 @@ u"""
 )
 
 entry(
-    index = 47,
+    index = 46,
     label = "A1 + C8H <=> A1- + C8H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -813,7 +813,7 @@ u"""
 )
 
 entry(
-    index = 48,
+    index = 47,
     label = "A1- + O2 <=> C6H5O + O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -830,7 +830,7 @@ u"""
 )
 
 entry(
-    index = 49,
+    index = 48,
     label = "A1- + O <=> C5H5 + CO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -847,7 +847,7 @@ u"""
 )
 
 entry(
-    index = 50,
+    index = 49,
     label = "A1- + OH <=> C6H5O + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -864,7 +864,7 @@ u"""
 )
 
 entry(
-    index = 51,
+    index = 50,
     label = "A1- + C6H5OH <=> C6H5O + A1",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -881,7 +881,7 @@ u"""
 )
 
 entry(
-    index = 52,
+    index = 51,
     label = "i-C4H5 + C3H4 <=> C7H8 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -898,7 +898,7 @@ u"""
 )
 
 entry(
-    index = 53,
+    index = 52,
     label = "i-C4H5 + H2CCCH <=> C7H7 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -915,7 +915,7 @@ u"""
 )
 
 entry(
-    index = 54,
+    index = 53,
     label = "A1 + CH2 <=> C7H8",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -932,7 +932,7 @@ u"""
 )
 
 entry(
-    index = 55,
+    index = 54,
     label = "A1 + CH2(S) <=> C7H8",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -949,7 +949,7 @@ u"""
 )
 
 entry(
-    index = 56,
+    index = 55,
     label = "C7H8 <=> A1- + CH3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -966,7 +966,7 @@ u"""
 )
 
 entry(
-    index = 57,
+    index = 56,
     label = "i-C4H5 + H2CCCH <=> C7H8",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -983,7 +983,7 @@ u"""
 )
 
 entry(
-    index = 58,
+    index = 57,
     label = "C7H8 + O2 <=> C7H7 + HO2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1000,7 +1000,7 @@ u"""
 )
 
 entry(
-    index = 59,
+    index = 58,
     label = "C7H8 + O <=> C7H7 + OH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1017,7 +1017,7 @@ u"""
 )
 
 entry(
-    index = 60,
+    index = 59,
     label = "C7H8 + H <=> A1 + CH3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1034,7 +1034,7 @@ u"""
 )
 
 entry(
-    index = 61,
+    index = 60,
     label = "C7H8 + H <=> C7H7 + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1051,7 +1051,7 @@ u"""
 )
 
 entry(
-    index = 62,
+    index = 61,
     label = "C7H8 + OH <=> C7H7 + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1068,7 +1068,7 @@ u"""
 )
 
 entry(
-    index = 63,
+    index = 62,
     label = "C7H8 + HO2 <=> C7H7 + H2O2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1085,7 +1085,7 @@ u"""
 )
 
 entry(
-    index = 64,
+    index = 63,
     label = "C7H8 + CH3 <=> C7H7 + CH4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1102,7 +1102,7 @@ u"""
 )
 
 entry(
-    index = 65,
+    index = 64,
     label = "C7H8 + C2H3 <=> C7H7 + C2H4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1119,7 +1119,7 @@ u"""
 )
 
 entry(
-    index = 66,
+    index = 65,
     label = "C7H8 + H2CCCH <=> C7H7 + C3H4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1136,7 +1136,7 @@ u"""
 )
 
 entry(
-    index = 67,
+    index = 66,
     label = "C7H8 + C3H5 <=> C7H7 + C3H6",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1153,7 +1153,7 @@ u"""
 )
 
 entry(
-    index = 68,
+    index = 67,
     label = "C7H8 + C5H5 <=> C7H7 + C5H6",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1170,7 +1170,7 @@ u"""
 )
 
 entry(
-    index = 69,
+    index = 68,
     label = "C7H8 + A1- <=> C7H7 + A1",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1187,7 +1187,7 @@ u"""
 )
 
 entry(
-    index = 70,
+    index = 69,
     label = "A1- + CH3 <=> C7H7 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1204,7 +1204,7 @@ u"""
 )
 
 entry(
-    index = 71,
+    index = 70,
     label = "C7H7 <=> C4H4 + H2CCCH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1221,7 +1221,7 @@ u"""
 )
 
 entry(
-    index = 72,
+    index = 71,
     label = "C7H7 + O <=> A1 + HCO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1240,7 +1240,7 @@ C7H7 = C5H5+C2H2 6.100E+13 0.0000 35000.00
 )
 
 entry(
-    index = 73,
+    index = 72,
     label = "C7H7 + O <=> A1- + CH2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1257,7 +1257,7 @@ u"""
 )
 
 entry(
-    index = 74,
+    index = 73,
     label = "C7H7 + H <=> C7H8",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1274,7 +1274,7 @@ u"""
 )
 
 entry(
-    index = 75,
+    index = 74,
     label = "C7H7 + HO2 <=> A1 + HCO + OH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1291,7 +1291,7 @@ u"""
 )
 
 entry(
-    index = 76,
+    index = 75,
     label = "C7H7 + HO2 <=> A1- + CH2O + OH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1308,7 +1308,7 @@ u"""
 )
 
 entry(
-    index = 77,
+    index = 76,
     label = "C7H7 + H + OH <=> A1 + CH2OH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1325,7 +1325,7 @@ u"""
 )
 
 entry(
-    index = 78,
+    index = 77,
     label = "i-C4H5 + C4H2 <=> A1C2H + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1342,7 +1342,7 @@ u"""
 )
 
 entry(
-    index = 79,
+    index = 78,
     label = "A1C2H- + H <=> A1C2H",
     degeneracy = 1,
     kinetics = Troe(
@@ -1367,7 +1367,7 @@ u"""
 )
 
 entry(
-    index = 80,
+    index = 79,
     label = "H2CCCCH + C4H2 <=> A1C2H-",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1384,7 +1384,7 @@ u"""
 )
 
 entry(
-    index = 81,
+    index = 80,
     label = "A1- + C4H2 <=> A1C2H + C2H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1401,7 +1401,7 @@ u"""
 )
 
 entry(
-    index = 82,
+    index = 81,
     label = "A1- + C2H3 <=> A1C2H + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1418,7 +1418,7 @@ u"""
 )
 
 entry(
-    index = 83,
+    index = 82,
     label = "A1- + C4H4 <=> A1C2H + C2H3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1435,7 +1435,7 @@ u"""
 )
 
 entry(
-    index = 84,
+    index = 83,
     label = "A1 + C2H <=> A1C2H + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1452,7 +1452,7 @@ u"""
 )
 
 entry(
-    index = 85,
+    index = 84,
     label = "A1- + C2H <=> A1C2H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1469,7 +1469,7 @@ u"""
 )
 
 entry(
-    index = 86,
+    index = 85,
     label = "A1C2H + O <=> A1C2H- + OH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1486,7 +1486,7 @@ u"""
 )
 
 entry(
-    index = 87,
+    index = 86,
     label = "A1C2H + O <=> A1- + HCCO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1503,7 +1503,7 @@ u"""
 )
 
 entry(
-    index = 88,
+    index = 87,
     label = "A1C2H + O <=> C6H5O + C2H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1520,7 +1520,7 @@ u"""
 )
 
 entry(
-    index = 89,
+    index = 88,
     label = "A1C2H + H <=> A1C2H- + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1537,7 +1537,7 @@ u"""
 )
 
 entry(
-    index = 90,
+    index = 89,
     label = "A1C2H + H <=> A1- + C2H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1554,7 +1554,7 @@ u"""
 )
 
 entry(
-    index = 91,
+    index = 90,
     label = "A1C2H + H <=> n-C8H7",
     degeneracy = 1,
     duplicate = True,
@@ -1572,7 +1572,7 @@ u"""
 )
 
 entry(
-    index = 92,
+    index = 91,
     label = "A1C2H + OH <=> A1C2H- + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1589,7 +1589,7 @@ u"""
 )
 
 entry(
-    index = 93,
+    index = 92,
     label = "A1C2H + OH <=> A1- + CH2CO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1606,7 +1606,7 @@ u"""
 )
 
 entry(
-    index = 94,
+    index = 93,
     label = "A1C2H + OH <=> A1 + HCCO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1623,7 +1623,7 @@ u"""
 )
 
 entry(
-    index = 95,
+    index = 94,
     label = "A1C2H + C2H <=> A1C2H- + C2H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1640,7 +1640,7 @@ u"""
 )
 
 entry(
-    index = 96,
+    index = 95,
     label = "C4H4 + C4H4 <=> A1C2H3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1657,7 +1657,7 @@ u"""
 )
 
 entry(
-    index = 97,
+    index = 96,
     label = "i-C4H5 + C4H4 <=> A1C2H3 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1674,7 +1674,7 @@ u"""
 )
 
 entry(
-    index = 98,
+    index = 97,
     label = "C5H5 + H2CCCH <=> A1C2H3* + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1692,7 +1692,7 @@ Rxn 568 commented out because reverse rate coefficient is above Z
 )
 
 entry(
-    index = 99,
+    index = 98,
     label = "A1 + C2H3 <=> A1C2H3 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1709,7 +1709,7 @@ u"""
 )
 
 entry(
-    index = 100,
+    index = 99,
     label = "A1- + C2H3 <=> A1C2H3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1726,7 +1726,7 @@ u"""
 )
 
 entry(
-    index = 101,
+    index = 100,
     label = "A1- + C2H4 <=> A1C2H3 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1743,7 +1743,7 @@ u"""
 )
 
 entry(
-    index = 102,
+    index = 101,
     label = "A1- + C4H4 <=> A1C2H3 + C2H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1760,7 +1760,7 @@ u"""
 )
 
 entry(
-    index = 103,
+    index = 102,
     label = "A1- + C4H6 <=> A1C2H3 + C2H3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1777,7 +1777,7 @@ u"""
 )
 
 entry(
-    index = 104,
+    index = 103,
     label = "C7H7 + CH2 <=> A1C2H3 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1794,7 +1794,7 @@ u"""
 )
 
 entry(
-    index = 105,
+    index = 104,
     label = "A1C2H3 + H <=> n-C8H7 + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1811,7 +1811,7 @@ u"""
 )
 
 entry(
-    index = 106,
+    index = 105,
     label = "A1C2H3 + H <=> A1C2H3* + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1828,7 +1828,7 @@ u"""
 )
 
 entry(
-    index = 107,
+    index = 106,
     label = "A1C2H3 + O <=> A1- + CH2HCO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1845,7 +1845,7 @@ u"""
 )
 
 entry(
-    index = 108,
+    index = 107,
     label = "A1C2H3 + O <=> A1- + CH3 + CO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1862,7 +1862,7 @@ u"""
 )
 
 entry(
-    index = 109,
+    index = 108,
     label = "A1C2H3 + O <=> C2H3 + C6H5O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1879,7 +1879,7 @@ u"""
 )
 
 entry(
-    index = 110,
+    index = 109,
     label = "A1C2H3 + O <=> n-C8H7 + OH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1896,7 +1896,7 @@ u"""
 )
 
 entry(
-    index = 111,
+    index = 110,
     label = "A1C2H3 + OH <=> n-C8H7 + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1913,7 +1913,7 @@ u"""
 )
 
 entry(
-    index = 112,
+    index = 111,
     label = "A1C2H3 + OH => C6H5O + C2H4",
     degeneracy = 1,
     reversible = False,
@@ -1931,7 +1931,7 @@ u"""
 )
 
 entry(
-    index = 113,
+    index = 112,
     label = "A1C2H3 + OH <=> A1C2H3* + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1948,7 +1948,7 @@ u"""
 )
 
 entry(
-    index = 114,
+    index = 113,
     label = "A1C2H3 + OH <=> C7H7 + CH2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1965,7 +1965,7 @@ u"""
 )
 
 entry(
-    index = 115,
+    index = 114,
     label = "A1C2H3 + O2 <=> C6H5O + CH2HCO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1982,7 +1982,7 @@ u"""
 )
 
 entry(
-    index = 116,
+    index = 115,
     label = "A1C2H3* + O2 <=> C6H5O + CH2CO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1999,7 +1999,7 @@ u"""
 )
 
 entry(
-    index = 117,
+    index = 116,
     label = "A1C2H3* + H <=> A1C2H3",
     degeneracy = 1,
     kinetics = Troe(
@@ -2024,7 +2024,7 @@ u"""
 )
 
 entry(
-    index = 118,
+    index = 117,
     label = "C5H5 + H2CCCH <=> n-C8H7 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2042,7 +2042,7 @@ Rxn 588 commented out because k>Z for T<1400 K
 )
 
 entry(
-    index = 119,
+    index = 118,
     label = "A1 + C2H <=> n-C8H7",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2059,7 +2059,7 @@ u"""
 )
 
 entry(
-    index = 120,
+    index = 119,
     label = "A1- + C2H2 <=> n-C8H7",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2076,7 +2076,7 @@ u"""
 )
 
 entry(
-    index = 121,
+    index = 120,
     label = "A1- + C2H3 <=> n-C8H7 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2093,7 +2093,7 @@ u"""
 )
 
 entry(
-    index = 122,
+    index = 121,
     label = "n-C8H7 <=> A1C2H + H",
     degeneracy = 1,
     duplicate = True,
@@ -2109,7 +2109,7 @@ u"""
 )
 
 entry(
-    index = 123,
+    index = 122,
     label = "n-C8H7 + H <=> A1C2H3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2126,7 +2126,7 @@ u"""
 )
 
 entry(
-    index = 124,
+    index = 123,
     label = "n-C8H7 + H <=> A1C2H + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2143,7 +2143,7 @@ u"""
 )
 
 entry(
-    index = 125,
+    index = 124,
     label = "n-C8H7 + OH <=> A1C2H + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2160,7 +2160,7 @@ u"""
 )
 
 entry(
-    index = 126,
+    index = 125,
     label = "C5H5 + C4H4 <=> INDENE + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2177,7 +2177,7 @@ u"""
 )
 
 entry(
-    index = 127,
+    index = 126,
     label = "A1- + H2CCCH <=> INDENE",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2194,7 +2194,7 @@ u"""
 )
 
 entry(
-    index = 128,
+    index = 127,
     label = "C4H6 + A1- <=> INDENE + CH3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2211,7 +2211,7 @@ u"""
 )
 
 entry(
-    index = 129,
+    index = 128,
     label = "i-C4H5 + A1 <=> INDENE + CH3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2228,7 +2228,7 @@ u"""
 )
 
 entry(
-    index = 130,
+    index = 129,
     label = "A1- + C3H4 <=> INDENE + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2245,7 +2245,7 @@ u"""
 )
 
 entry(
-    index = 131,
+    index = 130,
     label = "INDENE <=> INDENYL + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2262,7 +2262,7 @@ u"""
 )
 
 entry(
-    index = 132,
+    index = 131,
     label = "INDENE + O <=> INDENYL + OH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2279,7 +2279,7 @@ u"""
 )
 
 entry(
-    index = 133,
+    index = 132,
     label = "INDENE + O <=> C7H7 + HCCO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2296,7 +2296,7 @@ u"""
 )
 
 entry(
-    index = 134,
+    index = 133,
     label = "INDENE + H <=> INDENYL + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2313,7 +2313,7 @@ u"""
 )
 
 entry(
-    index = 135,
+    index = 134,
     label = "C7H7 + C2H2 <=> INDENE + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2330,7 +2330,7 @@ u"""
 )
 
 entry(
-    index = 136,
+    index = 135,
     label = "INDENE + H <=> A1C2H + CH3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2347,7 +2347,7 @@ u"""
 )
 
 entry(
-    index = 137,
+    index = 136,
     label = "INDENE + H <=> A1 + H2CCCH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2364,7 +2364,7 @@ u"""
 )
 
 entry(
-    index = 138,
+    index = 137,
     label = "INDENE + OH <=> C7H7 + CH2CO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2381,7 +2381,7 @@ u"""
 )
 
 entry(
-    index = 139,
+    index = 138,
     label = "INDENE + OH <=> INDENYL + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2398,7 +2398,7 @@ u"""
 )
 
 entry(
-    index = 140,
+    index = 139,
     label = "INDENE + CH3 <=> INDENYL + CH4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2415,7 +2415,7 @@ u"""
 )
 
 entry(
-    index = 141,
+    index = 140,
     label = "INDENE + H2CCCH <=> INDENYL + C3H4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2432,7 +2432,7 @@ u"""
 )
 
 entry(
-    index = 142,
+    index = 141,
     label = "INDENE + A1- <=> INDENYL + A1",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2449,7 +2449,7 @@ u"""
 )
 
 entry(
-    index = 143,
+    index = 142,
     label = "INDENE + C7H7 <=> INDENYL + C7H8",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2466,7 +2466,7 @@ u"""
 )
 
 entry(
-    index = 144,
+    index = 143,
     label = "C5H5 + C4H2 <=> INDENYL",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2483,7 +2483,7 @@ u"""
 )
 
 entry(
-    index = 145,
+    index = 144,
     label = "INDENYL => C2H2 + C4H2 + H2CCCH",
     degeneracy = 1,
     reversible = False,
@@ -2501,7 +2501,7 @@ u"""
 )
 
 entry(
-    index = 146,
+    index = 145,
     label = "INDENYL + O <=> n-C8H7 + CO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2518,7 +2518,7 @@ u"""
 )
 
 entry(
-    index = 147,
+    index = 146,
     label = "INDENYL + O <=> A1C2H3* + CO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2535,7 +2535,7 @@ u"""
 )
 
 entry(
-    index = 148,
+    index = 147,
     label = "INDENYL + HO2 => n-C8H7 + CO + OH",
     degeneracy = 1,
     reversible = False,
@@ -2553,7 +2553,7 @@ u"""
 )
 
 entry(
-    index = 149,
+    index = 148,
     label = "INDENYL + HO2 => A1C2H + CO + H2O",
     degeneracy = 1,
     reversible = False,
@@ -2571,7 +2571,7 @@ u"""
 )
 
 entry(
-    index = 150,
+    index = 149,
     label = "INDENYL + HO2 => A1C2H3* + CO + OH",
     degeneracy = 1,
     reversible = False,
@@ -2589,7 +2589,7 @@ u"""
 )
 
 entry(
-    index = 151,
+    index = 150,
     label = "A1- + A1 <=> P2 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2606,7 +2606,7 @@ u"""
 )
 
 entry(
-    index = 152,
+    index = 151,
     label = "INDENYL + H2CCCH => P2",
     degeneracy = 1,
     reversible = False,
@@ -2624,7 +2624,7 @@ u"""
 )
 
 entry(
-    index = 153,
+    index = 152,
     label = "INDENE + H2CCCH => P2 + H",
     degeneracy = 1,
     reversible = False,
@@ -2642,7 +2642,7 @@ u"""
 )
 
 entry(
-    index = 154,
+    index = 153,
     label = "A1- + A1- <=> P2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2659,7 +2659,7 @@ u"""
 )
 
 entry(
-    index = 155,
+    index = 154,
     label = "A1- + A1- <=> P2- + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2676,7 +2676,7 @@ u"""
 )
 
 entry(
-    index = 156,
+    index = 155,
     label = "P2 <=> P2- + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2693,7 +2693,7 @@ u"""
 )
 
 entry(
-    index = 157,
+    index = 156,
     label = "P2 <=> INDENE + C3H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2710,7 +2710,7 @@ u"""
 )
 
 entry(
-    index = 158,
+    index = 157,
     label = "P2- + O2 <=> A2 + HCO + CO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2727,7 +2727,7 @@ u"""
 )
 
 entry(
-    index = 159,
+    index = 158,
     label = "P2 + H <=> P2- + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2744,7 +2744,7 @@ u"""
 )
 
 entry(
-    index = 160,
+    index = 159,
     label = "P2 + OH <=> P2- + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2761,7 +2761,7 @@ u"""
 )
 
 entry(
-    index = 161,
+    index = 160,
     label = "i-C4H5 + A1 => A2 + H2 + H",
     degeneracy = 1,
     reversible = False,
@@ -2779,7 +2779,7 @@ u"""
 )
 
 entry(
-    index = 162,
+    index = 161,
     label = "C4H6 + A1- => A2 + H2 + H",
     degeneracy = 1,
     reversible = False,
@@ -2797,7 +2797,7 @@ u"""
 )
 
 entry(
-    index = 163,
+    index = 162,
     label = "A1- + H2CCCCH <=> A2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2814,7 +2814,7 @@ u"""
 )
 
 entry(
-    index = 164,
+    index = 163,
     label = "A1- + H2CCCCH <=> A2- + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2831,7 +2831,7 @@ u"""
 )
 
 entry(
-    index = 165,
+    index = 164,
     label = "A1- + C4H4 <=> A2 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2848,7 +2848,7 @@ u"""
 )
 
 entry(
-    index = 166,
+    index = 165,
     label = "C7H7 + H2CCCH => A2 + H + H",
     degeneracy = 1,
     reversible = False,
@@ -2866,7 +2866,7 @@ u"""
 )
 
 entry(
-    index = 167,
+    index = 166,
     label = "A1C2H- + C2H2 <=> A2-",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2883,7 +2883,7 @@ u"""
 )
 
 entry(
-    index = 168,
+    index = 167,
     label = "A1C2H3* + C2H2 <=> A2 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2900,7 +2900,7 @@ u"""
 )
 
 entry(
-    index = 169,
+    index = 168,
     label = "n-C8H7 + C2H2 <=> A2 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2917,7 +2917,7 @@ u"""
 )
 
 entry(
-    index = 170,
+    index = 169,
     label = "INDENYL + CH3 <=> A2 + H + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2935,7 +2935,7 @@ Rxn 640 commented out because k>Z for T>2000 K
 )
 
 entry(
-    index = 171,
+    index = 170,
     label = "INDENE + CH2 => A2 + H + H",
     degeneracy = 1,
     reversible = False,
@@ -2953,7 +2953,7 @@ u"""
 )
 
 entry(
-    index = 172,
+    index = 171,
     label = "INDENE + CH2(S) <=> A2 + H + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2970,7 +2970,7 @@ u"""
 )
 
 entry(
-    index = 173,
+    index = 172,
     label = "A2 + O <=> CH2CO + A1C2H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2987,7 +2987,7 @@ u"""
 )
 
 entry(
-    index = 174,
+    index = 173,
     label = "A2 + O => INDENYL + CO + H",
     degeneracy = 1,
     reversible = False,
@@ -3005,7 +3005,7 @@ u"""
 )
 
 entry(
-    index = 175,
+    index = 174,
     label = "A2 + O <=> n-C8H7 + HCCO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3022,7 +3022,7 @@ u"""
 )
 
 entry(
-    index = 176,
+    index = 175,
     label = "A2 + O <=> A1C2H3* + HCCO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3039,7 +3039,7 @@ u"""
 )
 
 entry(
-    index = 177,
+    index = 176,
     label = "A2 + O <=> A2- + OH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3056,7 +3056,7 @@ u"""
 )
 
 entry(
-    index = 178,
+    index = 177,
     label = "A2 + H <=> A2- + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3073,7 +3073,7 @@ u"""
 )
 
 entry(
-    index = 179,
+    index = 178,
     label = "A2 + OH <=> A2- + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3090,7 +3090,7 @@ u"""
 )
 
 entry(
-    index = 180,
+    index = 179,
     label = "A2 + OH => A1C2H + CH2CO + H",
     degeneracy = 1,
     reversible = False,
@@ -3108,7 +3108,7 @@ u"""
 )
 
 entry(
-    index = 181,
+    index = 180,
     label = "A2 + CH3 <=> A2- + CH4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3125,7 +3125,7 @@ u"""
 )
 
 entry(
-    index = 182,
+    index = 181,
     label = "A2 + C2H <=> A2- + C2H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3142,7 +3142,7 @@ u"""
 )
 
 entry(
-    index = 183,
+    index = 182,
     label = "A2 + C2H <=> A2C2H + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3159,7 +3159,7 @@ u"""
 )
 
 entry(
-    index = 184,
+    index = 183,
     label = "A2- + O2 => A1C2H + HCO + CO",
     degeneracy = 1,
     reversible = False,
@@ -3177,7 +3177,7 @@ u"""
 )
 
 entry(
-    index = 185,
+    index = 184,
     label = "A2- + O => INDENYL + CO",
     degeneracy = 1,
     reversible = False,
@@ -3195,7 +3195,7 @@ u"""
 )
 
 entry(
-    index = 186,
+    index = 185,
     label = "A2- + H <=> A2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3212,7 +3212,7 @@ u"""
 )
 
 entry(
-    index = 187,
+    index = 186,
     label = "A2- + HO2 => INDENYL + CO + OH",
     degeneracy = 1,
     reversible = False,
@@ -3230,7 +3230,7 @@ u"""
 )
 
 entry(
-    index = 188,
+    index = 187,
     label = "A2- + C2H2 <=> A2C2H + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3247,7 +3247,7 @@ u"""
 )
 
 entry(
-    index = 189,
+    index = 188,
     label = "A2C2H + H <=> A2C2H* + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3264,7 +3264,7 @@ u"""
 )
 
 entry(
-    index = 190,
+    index = 189,
     label = "A2C2H + OH <=> A2- + CH2CO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3281,7 +3281,7 @@ u"""
 )
 
 entry(
-    index = 191,
+    index = 190,
     label = "A2C2H + OH <=> A2C2H* + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3298,7 +3298,7 @@ u"""
 )
 
 entry(
-    index = 192,
+    index = 191,
     label = "INDENYL + H2CCCH => A2C2H + H + H",
     degeneracy = 1,
     reversible = False,
@@ -3316,7 +3316,7 @@ u"""
 )
 
 entry(
-    index = 193,
+    index = 192,
     label = "A2 + CH2 <=> A2CH3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3333,7 +3333,7 @@ u"""
 )
 
 entry(
-    index = 194,
+    index = 193,
     label = "A2 + CH2(S) <=> A2CH3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3350,7 +3350,7 @@ u"""
 )
 
 entry(
-    index = 195,
+    index = 194,
     label = "A2CH3 <=> A2- + CH3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3367,7 +3367,7 @@ u"""
 )
 
 entry(
-    index = 196,
+    index = 195,
     label = "A2CH3 <=> A2CH2 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3384,7 +3384,7 @@ u"""
 )
 
 entry(
-    index = 197,
+    index = 196,
     label = "A2CH3 + O2 <=> A2CH2 + HO2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3401,7 +3401,7 @@ u"""
 )
 
 entry(
-    index = 198,
+    index = 197,
     label = "A2CH3 + O <=> A2CH2 + OH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3418,7 +3418,7 @@ u"""
 )
 
 entry(
-    index = 199,
+    index = 198,
     label = "A2CH3 + H <=> A2CH2 + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3435,7 +3435,7 @@ u"""
 )
 
 entry(
-    index = 200,
+    index = 199,
     label = "A2CH3 + H <=> A2 + CH3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3452,7 +3452,7 @@ u"""
 )
 
 entry(
-    index = 201,
+    index = 200,
     label = "A2CH3 + OH <=> A2CH2 + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3469,7 +3469,7 @@ u"""
 )
 
 entry(
-    index = 202,
+    index = 201,
     label = "A2CH3 + HO2 <=> A2CH2 + H2O2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3486,7 +3486,7 @@ u"""
 )
 
 entry(
-    index = 203,
+    index = 202,
     label = "A2CH3 + CH3 <=> A2CH2 + CH4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3503,7 +3503,7 @@ u"""
 )
 
 entry(
-    index = 204,
+    index = 203,
     label = "A2CH2 + O <=> A2- + CH2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3520,7 +3520,7 @@ u"""
 )
 
 entry(
-    index = 205,
+    index = 204,
     label = "A2CH2 + HO2 <=> A2- + CH2O + OH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3537,7 +3537,7 @@ u"""
 )
 
 entry(
-    index = 206,
+    index = 205,
     label = "A2CH2 + CH2 <=> A2C2H + H2 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3554,7 +3554,7 @@ u"""
 )
 
 entry(
-    index = 207,
+    index = 206,
     label = "A2CH2 + H2CCCH <=> A3 + H + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3571,7 +3571,7 @@ u"""
 )
 
 entry(
-    index = 208,
+    index = 207,
     label = "A1C2H- + C4H4 <=> A2R5 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3588,7 +3588,7 @@ u"""
 )
 
 entry(
-    index = 209,
+    index = 208,
     label = "A1C2H3* + C4H2 <=> A2R5 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3605,7 +3605,7 @@ u"""
 )
 
 entry(
-    index = 210,
+    index = 209,
     label = "n-C8H7 + C4H2 <=> A2R5 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3622,7 +3622,7 @@ u"""
 )
 
 entry(
-    index = 211,
+    index = 210,
     label = "INDENYL + H2CCCH => A2R5 + H + H",
     degeneracy = 1,
     reversible = False,
@@ -3640,7 +3640,7 @@ u"""
 )
 
 entry(
-    index = 212,
+    index = 211,
     label = "INDENE + H2CCCH => A2R5 + H + H2",
     degeneracy = 1,
     reversible = False,
@@ -3658,7 +3658,7 @@ u"""
 )
 
 entry(
-    index = 213,
+    index = 212,
     label = "INDENYL + H2CCCH <=> A2R5 + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3675,7 +3675,7 @@ u"""
 )
 
 entry(
-    index = 214,
+    index = 213,
     label = "A2- + C2H2 <=> A2R5 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3692,7 +3692,7 @@ u"""
 )
 
 entry(
-    index = 215,
+    index = 214,
     label = "A2C2H* + H <=> A2R5",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3709,7 +3709,7 @@ u"""
 )
 
 entry(
-    index = 216,
+    index = 215,
     label = "A2C2H + H <=> A2R5 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3726,7 +3726,7 @@ u"""
 )
 
 entry(
-    index = 217,
+    index = 216,
     label = "A2R5- + H <=> A2R5",
     degeneracy = 1,
     kinetics = Troe(
@@ -3751,7 +3751,7 @@ u"""
 )
 
 entry(
-    index = 218,
+    index = 217,
     label = "A2R5 <=> A1C2H + C4H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3768,7 +3768,7 @@ u"""
 )
 
 entry(
-    index = 219,
+    index = 218,
     label = "A2R5 + O <=> A2R5- + OH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3785,7 +3785,7 @@ u"""
 )
 
 entry(
-    index = 220,
+    index = 219,
     label = "A2R5 + O => A2- + HCCO",
     degeneracy = 1,
     reversible = False,
@@ -3803,7 +3803,7 @@ u"""
 )
 
 entry(
-    index = 221,
+    index = 220,
     label = "A2R5 + H <=> A2R5- + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3820,7 +3820,7 @@ u"""
 )
 
 entry(
-    index = 222,
+    index = 221,
     label = "A2R5 + OH <=> A2R5- + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3837,7 +3837,7 @@ u"""
 )
 
 entry(
-    index = 223,
+    index = 222,
     label = "A2R5 + OH <=> A2- + CH2CO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3854,7 +3854,7 @@ u"""
 )
 
 entry(
-    index = 224,
+    index = 223,
     label = "A1C2H + A1- <=> A3 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3871,7 +3871,7 @@ u"""
 )
 
 entry(
-    index = 225,
+    index = 224,
     label = "A1C2H- + A1 <=> A3 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3888,7 +3888,7 @@ u"""
 )
 
 entry(
-    index = 226,
+    index = 225,
     label = "A2- + C4H4 <=> A3 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3905,7 +3905,7 @@ u"""
 )
 
 entry(
-    index = 227,
+    index = 226,
     label = "A2- + C4H2 <=> A3-",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3922,7 +3922,7 @@ u"""
 )
 
 entry(
-    index = 228,
+    index = 227,
     label = "P2- + C2H2 <=> A3 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3939,7 +3939,7 @@ u"""
 )
 
 entry(
-    index = 229,
+    index = 228,
     label = "A2C2H* + C2H2 <=> A3-",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3956,7 +3956,7 @@ u"""
 )
 
 entry(
-    index = 230,
+    index = 229,
     label = "A2R5- + C2H2 <=> A3-",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3973,7 +3973,7 @@ u"""
 )
 
 entry(
-    index = 231,
+    index = 230,
     label = "A2R5 + C2H2 => A3",
     degeneracy = 1,
     reversible = False,
@@ -3991,7 +3991,7 @@ u"""
 )
 
 entry(
-    index = 232,
+    index = 231,
     label = "A2 + C4H2 => A3",
     degeneracy = 1,
     reversible = False,
@@ -4009,7 +4009,7 @@ u"""
 )
 
 entry(
-    index = 233,
+    index = 232,
     label = "A3 + O <=> A2C2H + CH2CO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4026,7 +4026,7 @@ u"""
 )
 
 entry(
-    index = 234,
+    index = 233,
     label = "A3 + O <=> A3- + OH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4043,7 +4043,7 @@ u"""
 )
 
 entry(
-    index = 235,
+    index = 234,
     label = "A3 + O => HCCO + P2-",
     degeneracy = 1,
     reversible = False,
@@ -4061,7 +4061,7 @@ u"""
 )
 
 entry(
-    index = 236,
+    index = 235,
     label = "A3 + H <=> A3- + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4078,7 +4078,7 @@ u"""
 )
 
 entry(
-    index = 237,
+    index = 236,
     label = "A3 + OH <=> A3- + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4096,7 +4096,7 @@ Rxn 707 commented out because k>Z for T>2000 K
 )
 
 entry(
-    index = 238,
+    index = 237,
     label = "A3 + OH => A2C2H + CH2CO + H",
     degeneracy = 1,
     reversible = False,
@@ -4114,7 +4114,7 @@ u"""
 )
 
 entry(
-    index = 239,
+    index = 238,
     label = "A3 + OH <=> CH2CO + P2-",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4131,7 +4131,7 @@ u"""
 )
 
 entry(
-    index = 240,
+    index = 239,
     label = "A3 + CH3 <=> A3- + CH4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4148,7 +4148,7 @@ u"""
 )
 
 entry(
-    index = 241,
+    index = 240,
     label = "A3 + C2H <=> A3C2H + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4165,7 +4165,7 @@ u"""
 )
 
 entry(
-    index = 242,
+    index = 241,
     label = "A3C2H + H <=> A3C2H* + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4182,7 +4182,7 @@ u"""
 )
 
 entry(
-    index = 243,
+    index = 242,
     label = "A3C2H + OH <=> A3- + CH2CO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4199,7 +4199,7 @@ u"""
 )
 
 entry(
-    index = 244,
+    index = 243,
     label = "A3- + O2 => CO + HCO + A2R5",
     degeneracy = 1,
     reversible = False,
@@ -4217,7 +4217,7 @@ u"""
 )
 
 entry(
-    index = 245,
+    index = 244,
     label = "A3- + H <=> A3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4234,7 +4234,7 @@ u"""
 )
 
 entry(
-    index = 246,
+    index = 245,
     label = "A3- + C2H2 <=> A3C2H + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4251,7 +4251,7 @@ u"""
 )
 
 entry(
-    index = 247,
+    index = 246,
     label = "A3 + CH2 <=> A3CH3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4268,7 +4268,7 @@ u"""
 )
 
 entry(
-    index = 248,
+    index = 247,
     label = "A3 + CH2(S) <=> A3CH3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4285,7 +4285,7 @@ u"""
 )
 
 entry(
-    index = 249,
+    index = 248,
     label = "A3CH2 + H <=> A3- + CH3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4302,7 +4302,7 @@ u"""
 )
 
 entry(
-    index = 250,
+    index = 249,
     label = "A3CH3 <=> A3CH2 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4319,7 +4319,7 @@ u"""
 )
 
 entry(
-    index = 251,
+    index = 250,
     label = "A3CH3 + O2 <=> A3CH2 + HO2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4336,7 +4336,7 @@ u"""
 )
 
 entry(
-    index = 252,
+    index = 251,
     label = "A3CH3 + O <=> A3CH2 + OH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4353,7 +4353,7 @@ u"""
 )
 
 entry(
-    index = 253,
+    index = 252,
     label = "A3CH2 + O <=> A3- + CH2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4370,7 +4370,7 @@ u"""
 )
 
 entry(
-    index = 254,
+    index = 253,
     label = "A3CH3 + H <=> A3CH2 + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4387,7 +4387,7 @@ u"""
 )
 
 entry(
-    index = 255,
+    index = 254,
     label = "A3CH3 + H <=> A3 + CH3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4404,7 +4404,7 @@ u"""
 )
 
 entry(
-    index = 256,
+    index = 255,
     label = "A3CH3 + OH <=> A3CH2 + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4421,7 +4421,7 @@ u"""
 )
 
 entry(
-    index = 257,
+    index = 256,
     label = "A3CH3 + HO2 <=> A3CH2 + H2O2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4438,7 +4438,7 @@ u"""
 )
 
 entry(
-    index = 258,
+    index = 257,
     label = "A3CH3 + CH3 <=> A3CH2 + CH4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4455,7 +4455,7 @@ u"""
 )
 
 entry(
-    index = 259,
+    index = 258,
     label = "A3CH2 + HO2 => A3- + CH2O + OH",
     degeneracy = 1,
     reversible = False,
@@ -4473,7 +4473,7 @@ u"""
 )
 
 entry(
-    index = 260,
+    index = 259,
     label = "A3CH2 + CH2 <=> A4 + H2 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4490,7 +4490,7 @@ u"""
 )
 
 entry(
-    index = 261,
+    index = 260,
     label = "C4H2 + A2R5 => A4",
     degeneracy = 1,
     reversible = False,
@@ -4508,7 +4508,7 @@ u"""
 )
 
 entry(
-    index = 262,
+    index = 261,
     label = "A1C2H + A1C2H- <=> A4 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4525,7 +4525,7 @@ u"""
 )
 
 entry(
-    index = 263,
+    index = 262,
     label = "n-C8H7 + A1C2H => A4 + H2 + H",
     degeneracy = 1,
     reversible = False,
@@ -4543,7 +4543,7 @@ u"""
 )
 
 entry(
-    index = 264,
+    index = 263,
     label = "A1C2H3* + A1C2H => A4 + H2 + H",
     degeneracy = 1,
     reversible = False,
@@ -4561,7 +4561,7 @@ u"""
 )
 
 entry(
-    index = 265,
+    index = 264,
     label = "INDENYL + C7H7 => A4 + H2 + H2",
     degeneracy = 1,
     reversible = False,
@@ -4579,7 +4579,7 @@ u"""
 )
 
 entry(
-    index = 266,
+    index = 265,
     label = "INDENYL + INDENYL => A4 + C2H2 + H2",
     degeneracy = 1,
     reversible = False,
@@ -4597,7 +4597,7 @@ u"""
 )
 
 entry(
-    index = 267,
+    index = 266,
     label = "A2 + C6H <=> A4-",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4614,7 +4614,7 @@ u"""
 )
 
 entry(
-    index = 268,
+    index = 267,
     label = "A2 + A1- <=> A4 + H + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4631,7 +4631,7 @@ u"""
 )
 
 entry(
-    index = 269,
+    index = 268,
     label = "A2- + A1 <=> A4 + H + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4648,7 +4648,7 @@ u"""
 )
 
 entry(
-    index = 270,
+    index = 269,
     label = "A2- + A1- => A4 + H2",
     degeneracy = 1,
     reversible = False,
@@ -4666,7 +4666,7 @@ u"""
 )
 
 entry(
-    index = 271,
+    index = 270,
     label = "A2- + C6H2 <=> A4-",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4683,7 +4683,7 @@ u"""
 )
 
 entry(
-    index = 272,
+    index = 271,
     label = "A2C2H* + C4H4 <=> A4 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4700,7 +4700,7 @@ u"""
 )
 
 entry(
-    index = 273,
+    index = 272,
     label = "A2R5- + C4H2 => A4-",
     degeneracy = 1,
     reversible = False,
@@ -4718,7 +4718,7 @@ u"""
 )
 
 entry(
-    index = 274,
+    index = 273,
     label = "A2R5- + H2CCCCH <=> A4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4735,7 +4735,7 @@ u"""
 )
 
 entry(
-    index = 275,
+    index = 274,
     label = "A3- + C2H2 <=> A4 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4752,7 +4752,7 @@ u"""
 )
 
 entry(
-    index = 276,
+    index = 275,
     label = "A3C2H + H <=> A4 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4769,7 +4769,7 @@ u"""
 )
 
 entry(
-    index = 277,
+    index = 276,
     label = "A4 + O <=> A3- + HCCO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4786,7 +4786,7 @@ u"""
 )
 
 entry(
-    index = 278,
+    index = 277,
     label = "A4 + H <=> A4- + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4803,7 +4803,7 @@ u"""
 )
 
 entry(
-    index = 279,
+    index = 278,
     label = "A4 + OH <=> A4- + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4820,7 +4820,7 @@ u"""
 )
 
 entry(
-    index = 280,
+    index = 279,
     label = "A4 + OH <=> A3- + CH2CO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4837,7 +4837,7 @@ u"""
 )
 
 entry(
-    index = 281,
+    index = 280,
     label = "A4 + CH3 <=> A4- + CH4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4854,7 +4854,7 @@ u"""
 )
 
 entry(
-    index = 282,
+    index = 281,
     label = "A4- + O2 <=> CO + CO + A3-",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4871,7 +4871,7 @@ u"""
 )
 
 entry(
-    index = 283,
+    index = 282,
     label = "A4- + H <=> A4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4888,7 +4888,7 @@ u"""
 )
 
 entry(
-    index = 284,
+    index = 283,
     label = "A4- + C2H2 <=> A4C2H + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4905,7 +4905,7 @@ u"""
 )
 
 entry(
-    index = 285,
+    index = 284,
     label = "A4C2H + H <=> A4C2H* + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4922,7 +4922,7 @@ u"""
 )
 
 entry(
-    index = 286,
+    index = 285,
     label = "A4C2H + H <=> BGHIF + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4939,7 +4939,7 @@ u"""
 )
 
 entry(
-    index = 287,
+    index = 286,
     label = "A4C2H* + H <=> BGHIF",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4956,7 +4956,7 @@ u"""
 )
 
 entry(
-    index = 288,
+    index = 287,
     label = "P2 + C6H <=> C18H11",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4973,7 +4973,7 @@ u"""
 )
 
 entry(
-    index = 289,
+    index = 288,
     label = "P2- + C6H2 <=> BGHIF + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4990,7 +4990,7 @@ u"""
 )
 
 entry(
-    index = 290,
+    index = 289,
     label = "P2- + C6H2 <=> C18H11",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5007,7 +5007,7 @@ u"""
 )
 
 entry(
-    index = 291,
+    index = 290,
     label = "A3- + C4H4 <=> C18H12 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5024,7 +5024,7 @@ u"""
 )
 
 entry(
-    index = 292,
+    index = 291,
     label = "A3C2H* + C2H2 <=> BGHIF + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5041,7 +5041,7 @@ u"""
 )
 
 entry(
-    index = 293,
+    index = 292,
     label = "A2R5 + C6H2 => BGHIF",
     degeneracy = 1,
     reversible = False,
@@ -5059,7 +5059,7 @@ u"""
 )
 
 entry(
-    index = 294,
+    index = 293,
     label = "A1C2H- + A2 => BGHIF + H2 + H",
     degeneracy = 1,
     reversible = False,
@@ -5077,7 +5077,7 @@ u"""
 )
 
 entry(
-    index = 295,
+    index = 294,
     label = "A1C2H + A2- => BGHIF + H2 + H",
     degeneracy = 1,
     reversible = False,
@@ -5095,7 +5095,7 @@ u"""
 )
 
 entry(
-    index = 296,
+    index = 295,
     label = "INDENE + INDENYL => C18H12 + H2 + H",
     degeneracy = 1,
     reversible = False,
@@ -5113,7 +5113,7 @@ u"""
 )
 
 entry(
-    index = 297,
+    index = 296,
     label = "INDENYL + INDENYL => BGHIF + H2 + H2",
     degeneracy = 1,
     reversible = False,
@@ -5131,7 +5131,7 @@ u"""
 )
 
 entry(
-    index = 298,
+    index = 297,
     label = "A2 + C8H2 => BGHIF",
     degeneracy = 1,
     reversible = False,
@@ -5149,7 +5149,7 @@ u"""
 )
 
 entry(
-    index = 299,
+    index = 298,
     label = "A2C2H + A1- <=> C18H12 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5166,7 +5166,7 @@ u"""
 )
 
 entry(
-    index = 300,
+    index = 299,
     label = "A2C2H* + A1 <=> C18H12 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5183,7 +5183,7 @@ u"""
 )
 
 entry(
-    index = 301,
+    index = 300,
     label = "A2R5- + A1 => BGHIF + H2 + H",
     degeneracy = 1,
     reversible = False,
@@ -5201,7 +5201,7 @@ u"""
 )
 
 entry(
-    index = 302,
+    index = 301,
     label = "A3C2H* + C4H4 <=> BAPYR + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5218,7 +5218,7 @@ u"""
 )
 
 entry(
-    index = 303,
+    index = 302,
     label = "A4- + C4H4 <=> BAPYR + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5235,7 +5235,7 @@ u"""
 )
 
 entry(
-    index = 304,
+    index = 303,
     label = "A4C2H* + C2H2 <=> BAPYR*S",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5252,7 +5252,7 @@ u"""
 )
 
 entry(
-    index = 305,
+    index = 304,
     label = "BAPYR*S + H <=> BAPYR",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5269,7 +5269,7 @@ u"""
 )
 
 entry(
-    index = 306,
+    index = 305,
     label = "P2 + A1C2H- => BAPYR + H2 + H",
     degeneracy = 1,
     reversible = False,
@@ -5287,7 +5287,7 @@ u"""
 )
 
 entry(
-    index = 307,
+    index = 306,
     label = "P2- + A1C2H3* => BAPYR + H2 + H2",
     degeneracy = 1,
     reversible = False,
@@ -5305,7 +5305,7 @@ u"""
 )
 
 entry(
-    index = 308,
+    index = 307,
     label = "P2- + n-C8H7 => BAPYR + H2 + H2",
     degeneracy = 1,
     reversible = False,
@@ -5323,7 +5323,7 @@ u"""
 )
 
 entry(
-    index = 309,
+    index = 308,
     label = "A2R5- + A1C2H- <=> BAPYR",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5340,7 +5340,7 @@ u"""
 )
 
 entry(
-    index = 310,
+    index = 309,
     label = "A2R5 + A1C2H- <=> BAPYR + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5357,7 +5357,7 @@ u"""
 )
 
 entry(
-    index = 311,
+    index = 310,
     label = "A2R5- + A1C2H <=> BAPYR + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5374,7 +5374,7 @@ u"""
 )
 
 entry(
-    index = 312,
+    index = 311,
     label = "C18H11 + O2 => HCO + CO + A4",
     degeneracy = 1,
     reversible = False,
@@ -5392,7 +5392,7 @@ u"""
 )
 
 entry(
-    index = 313,
+    index = 312,
     label = "C18H11 + H <=> BGHIF + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5409,7 +5409,7 @@ u"""
 )
 
 entry(
-    index = 314,
+    index = 313,
     label = "C18H11 + C2H => BAPYR",
     degeneracy = 1,
     reversible = False,
@@ -5427,7 +5427,7 @@ u"""
 )
 
 entry(
-    index = 315,
+    index = 314,
     label = "C18H11 + C2H2 <=> BAPYR + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5444,7 +5444,7 @@ u"""
 )
 
 entry(
-    index = 316,
+    index = 315,
     label = "C18H12 + O <=> C18H11 + OH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5461,7 +5461,7 @@ u"""
 )
 
 entry(
-    index = 317,
+    index = 316,
     label = "C18H12 + H <=> C18H11 + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5478,7 +5478,7 @@ u"""
 )
 
 entry(
-    index = 318,
+    index = 317,
     label = "C18H12 + OH <=> C18H11 + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5495,7 +5495,7 @@ u"""
 )
 
 entry(
-    index = 319,
+    index = 318,
     label = "BGHIF + O <=> HCCO + A4-",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5512,7 +5512,7 @@ u"""
 )
 
 entry(
-    index = 320,
+    index = 319,
     label = "BGHIF + OH <=> CH2CO + A4-",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5529,7 +5529,7 @@ u"""
 )
 
 entry(
-    index = 321,
+    index = 320,
     label = "BAPYR*S + O2 => HCO + CO + BGHIF",
     degeneracy = 1,
     reversible = False,
@@ -5547,7 +5547,7 @@ u"""
 )
 
 entry(
-    index = 322,
+    index = 321,
     label = "C4H2 + A4 => BAPYR",
     degeneracy = 1,
     reversible = False,
@@ -5565,7 +5565,7 @@ u"""
 )
 
 entry(
-    index = 323,
+    index = 322,
     label = "BAPYR + O <=> HCCO + C18H11",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5582,7 +5582,7 @@ u"""
 )
 
 entry(
-    index = 324,
+    index = 323,
     label = "BAPYR + OH => CH2CO + C18H11",
     degeneracy = 1,
     reversible = False,
@@ -5600,7 +5600,7 @@ u"""
 )
 
 entry(
-    index = 325,
+    index = 324,
     label = "C5H5 + C5H5 <=> A2 + H + H",
     degeneracy = 1,
     kinetics = MultiArrhenius(
@@ -5624,7 +5624,7 @@ entry(
 )
 
 entry(
-    index = 326,
+    index = 325,
     label = "C5H5 + H2CCCH <=> A1C2H3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5641,7 +5641,7 @@ u"""
 )
 
 entry(
-    index = 327,
+    index = 326,
     label = "C5H5 + H2CCCCH <=> INDENE",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5658,7 +5658,7 @@ u"""
 )
 
 entry(
-    index = 328,
+    index = 327,
     label = "C5H5 + C5H5 <=> INDENYL + CH3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5675,7 +5675,7 @@ u"""
 )
 
 entry(
-    index = 329,
+    index = 328,
     label = "C5H6 + CH3 <=> C5H5 + CH4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5692,7 +5692,7 @@ u"""
 )
 
 entry(
-    index = 330,
+    index = 329,
     label = "n-C8H7 + A1C2H- => A4 + H + H",
     degeneracy = 1,
     reversible = False,
@@ -5712,7 +5712,7 @@ C5H5+C5H6 = INDENE+CH3 9.630E+13 1.6300 29972.00
 )
 
 entry(
-    index = 331,
+    index = 330,
     label = "INDENYL + C5H5 => A3 + H + H",
     degeneracy = 1,
     reversible = False,
@@ -5730,7 +5730,7 @@ u"""
 )
 
 entry(
-    index = 332,
+    index = 331,
     label = "INDENYL + INDENYL => C18H12 + H + H",
     degeneracy = 1,
     reversible = False,
@@ -5748,7 +5748,7 @@ u"""
 )
 
 entry(
-    index = 333,
+    index = 332,
     label = "A1C2H3* + A1C2H- <=> A4 + H + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5765,7 +5765,7 @@ u"""
 )
 
 entry(
-    index = 334,
+    index = 333,
     label = "A2C2H* + n-C8H7 <=> BAPYR + H + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5782,7 +5782,7 @@ u"""
 )
 
 entry(
-    index = 335,
+    index = 334,
     label = "A2C2H* + A1C2H3* <=> BAPYR + H + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5799,7 +5799,7 @@ u"""
 )
 
 entry(
-    index = 336,
+    index = 335,
     label = "A2R5- + A1- => BGHIF + H + H",
     degeneracy = 1,
     reversible = False,
@@ -5817,7 +5817,7 @@ u"""
 )
 
 entry(
-    index = 337,
+    index = 336,
     label = "P2- + A1C2H- => BAPYR + H + H",
     degeneracy = 1,
     reversible = False,
@@ -5835,7 +5835,7 @@ u"""
 )
 
 entry(
-    index = 338,
+    index = 337,
     label = "A1C2H3 + CH3 <=> A1C2H3* + CH4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5852,7 +5852,7 @@ u"""
 )
 
 entry(
-    index = 339,
+    index = 338,
     label = "A2R5 + CH3 <=> A2R5- + CH4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5869,7 +5869,7 @@ u"""
 )
 
 entry(
-    index = 340,
+    index = 339,
     label = "P2 + CH3 <=> P2- + CH4",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5886,7 +5886,7 @@ u"""
 )
 
 entry(
-    index = 341,
+    index = 340,
     label = "A1 + O <=> C5H6 + CO",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5903,7 +5903,7 @@ u"""
 )
 
 entry(
-    index = 342,
+    index = 341,
     label = "A2R5 + OH => A2 + HCCO",
     degeneracy = 1,
     reversible = False,
@@ -5921,7 +5921,7 @@ u"""
 )
 
 entry(
-    index = 343,
+    index = 342,
     label = "A1C2H3* + CH3 <=> INDENE + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5938,7 +5938,7 @@ u"""
 )
 
 entry(
-    index = 344,
+    index = 343,
     label = "C7H7 + CH3 <=> A1C2H3 + H2",
     degeneracy = 1,
     kinetics = Arrhenius(

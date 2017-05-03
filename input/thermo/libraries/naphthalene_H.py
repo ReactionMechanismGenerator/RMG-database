@@ -13,7 +13,7 @@ Guy B. Marin, William H. Green, "Detailed study of cyclopentadiene pyrolysis in 
 presence of ethene: realistic pathways from C5H5 to naphthalene." (2016)
 """
 entry(
-    index = 1,
+    index = 0,
     label = "biCPD3ene",
     molecule = 
 """
@@ -50,7 +50,7 @@ u"""
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "adducta",
     molecule = 
 """
@@ -89,7 +89,7 @@ u"""
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "adductb",
     molecule = 
 """
@@ -128,7 +128,7 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "adductc",
     molecule = 
 """
@@ -167,7 +167,7 @@ u"""
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "prod1",
     molecule = 
 """
@@ -206,7 +206,7 @@ u"""
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "prod2",
     molecule = 
 """
@@ -245,7 +245,7 @@ u"""
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "prod4",
     molecule = 
 """
@@ -284,7 +284,7 @@ u"""
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "prod5",
     molecule = 
 """
@@ -323,7 +323,7 @@ u"""
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "naphthalene",
     molecule = 
 """
@@ -360,7 +360,7 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "prod3",
     molecule = 
 """
@@ -399,7 +399,7 @@ u"""
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "biCPD_1",
     molecule = 
 """
@@ -438,7 +438,7 @@ u"""
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "biCPD_2",
     molecule = 
 """
@@ -477,7 +477,7 @@ u"""
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "biCPD_3",
     molecule = 
 """
@@ -516,7 +516,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "biCPD_4",
     molecule = 
 """
@@ -555,7 +555,7 @@ u"""
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "biCPD_5",
     molecule = 
 """
@@ -594,7 +594,7 @@ u"""
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "biCPD_6",
     molecule = 
 """

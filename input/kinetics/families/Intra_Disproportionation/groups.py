@@ -22,14 +22,14 @@ recipe(actions=[
 boundaryAtoms = ["*1", "*3"]
 
 entry(
-    index = 1,
+    index = 0,
     label = "Rn",
     group = "OR{R3, R4, R5, R6, R7}",
     kinetics = None,
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "Y_rad",
     group = 
 """
@@ -40,7 +40,7 @@ entry(
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "XH_Rrad",
     group = 
 """
@@ -53,7 +53,7 @@ entry(
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "R3",
     group = "OR{R3radExo}",
     kinetics = None,
@@ -70,7 +70,7 @@ the rate rules are the same as for the probably more typical exo case (2nd radic
 )
 
 entry(
-    index = 6,
+    index = 4,
     label = "R3radExo",
     group = 
 """
@@ -84,14 +84,14 @@ entry(
 )
 
 entry(
-    index = 7,
+    index = 5,
     label = "R4",
     group = "OR{R4radEndo, R4radExo}",
     kinetics = None,
 )
 
 entry(
-    index = 8,
+    index = 6,
     label = "R4radEndo",
     group = 
 """
@@ -105,7 +105,7 @@ entry(
 )
 
 entry(
-    index = 9,
+    index = 7,
     label = "R4radExo",
     group = 
 """
@@ -120,14 +120,14 @@ entry(
 )
 
 entry(
-    index = 10,
+    index = 8,
     label = "R5",
     group = "OR{R5radEndo, R5radExo}",
     kinetics = None,
 )
 
 entry(
-    index = 11,
+    index = 9,
     label = "R5radEndo",
     group = 
 """
@@ -142,7 +142,7 @@ entry(
 )
 
 entry(
-    index = 12,
+    index = 10,
     label = "R5radExo",
     group = 
 """
@@ -158,14 +158,14 @@ entry(
 )
 
 entry(
-    index = 13,
+    index = 11,
     label = "R6",
     group = "OR{R6radEndo, R6radExo}",
     kinetics = None,
 )
 
 entry(
-    index = 14,
+    index = 12,
     label = "R6radEndo",
     group = 
 """
@@ -181,7 +181,7 @@ entry(
 )
 
 entry(
-    index = 15,
+    index = 13,
     label = "R6radExo",
     group = 
 """
@@ -198,14 +198,14 @@ entry(
 )
 
 entry(
-    index = 16,
+    index = 14,
     label = "R7",
     group = "OR{R7radEndo, R7radExo}",
     kinetics = None,
 )
 
 entry(
-    index = 17,
+    index = 15,
     label = "R7radEndo",
     group = 
 """
@@ -222,7 +222,7 @@ entry(
 )
 
 entry(
-    index = 18,
+    index = 16,
     label = "R7radExo",
     group = 
 """
@@ -240,7 +240,7 @@ entry(
 )
 
 entry(
-    index = 19,
+    index = 17,
     label = "Y_rad_NDe",
     group = 
 """
@@ -251,7 +251,7 @@ entry(
 )
 
 entry(
-    index = 20,
+    index = 18,
     label = "Y_rad_De",
     group = 
 """
@@ -262,7 +262,7 @@ entry(
 )
 
 entry(
-    index = 21,
+    index = 19,
     label = "XH_Rrad_NDe",
     group = 
 """
@@ -275,7 +275,7 @@ entry(
 )
 
 entry(
-    index = 22,
+    index = 20,
     label = "XH_Rrad_De",
     group = 
 """

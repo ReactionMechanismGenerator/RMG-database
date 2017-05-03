@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 entry(
-    index = 96,
+    index = 0,
     label = "Ring",
     group = 
 """
@@ -28,7 +28,7 @@ u"""
 )
 
 entry(
-    index = 96,
+    index = 1,
     label = "Aromatic",
     group = 
 """
@@ -49,7 +49,7 @@ Ring correction is zero because RMG uses Cb group corrections instead in the cas
 )
 
 entry(
-    index = 96,
+    index = 2,
     label = "Benzene",
     group = 
 """
@@ -75,7 +75,7 @@ Ring correction is zero because RMG uses Cb group corrections instead in the cas
 )
 
 entry(
-    index = 97,
+    index = 3,
     label = "ThreeMember",
     group = 
 """
@@ -92,7 +92,7 @@ u"""
 )
 
 entry(
-    index = 1,
+    index = 4,
     label = "Cyclopropane",
     group = 
 """
@@ -114,7 +114,7 @@ u"""
 )
 
 entry(
-    index = 2,
+    index = 5,
     label = "Cyclopropene",
     group = 
 """
@@ -136,7 +136,7 @@ u"""
 )
 
 entry(
-    index = 3,
+    index = 6,
     label = "Cyclopropene2",
     group = 
 """
@@ -153,7 +153,7 @@ u"""
 )
 
 entry(
-    index = 125,
+    index = 7,
     label = "Cyclopropadiene",
     group = 
 """
@@ -175,7 +175,7 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 8,
     label = "Cyclopropadiene2",
     group = 
 """
@@ -192,7 +192,7 @@ u"""
 )
 
 entry(
-    index = 158,
+    index = 9,
     label = "oxirene",
     group = 
 """
@@ -214,7 +214,7 @@ u"""
 )
 
 entry(
-    index = 126,
+    index = 10,
     label = "Cyclopropatriene",
     group = 
 """
@@ -236,7 +236,7 @@ u"""
 )
 
 entry(
-    index = 69,
+    index = 11,
     label = "Ethylene_oxide",
     group = 
 """
@@ -258,7 +258,7 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 12,
     label = "dioxirane",
     group = 
 """
@@ -280,7 +280,7 @@ u"""
 )
 
 entry(
-    index = 7,
+    index = 13,
     label = "2(co)oxirane",
     group = 
 """
@@ -302,7 +302,7 @@ u"""
 )
 
 entry(
-    index = 8,
+    index = 14,
     label = "cyclopropanedione",
     group = 
 """
@@ -324,7 +324,7 @@ u"""
 )
 
 entry(
-    index = 9,
+    index = 15,
     label = "cyclopropenone",
     group = 
 """
@@ -346,7 +346,7 @@ u"""
 )
 
 entry(
-    index = 133,
+    index = 16,
     label = "thiirane",
     group = 
 """
@@ -368,7 +368,7 @@ u"""
 )
 
 entry(
-    index = 134,
+    index = 17,
     label = "dithiirane",
     group = 
 """
@@ -390,7 +390,7 @@ u"""
 )
 
 entry(
-    index = 135,
+    index = 18,
     label = "trithiirane",
     group = 
 """
@@ -412,7 +412,7 @@ u"""
 )
 
 entry(
-    index = 151,
+    index = 19,
     label = "thiirene",
     group = 
 """
@@ -434,7 +434,7 @@ u"""
 )
 
 entry(
-    index = 92,
+    index = 20,
     label = "Ethyleneimine",
     group = 
 """
@@ -456,7 +456,7 @@ u"""
 )
 
 entry(
-    index = 3,
+    index = 21,
     label = "Methylene_cyclopropane",
     group = 
 """
@@ -479,7 +479,7 @@ u"""
 )
 
 entry(
-    index = 5,
+    index = 22,
     label = "cyclopropanone",
     group = 
 """
@@ -502,7 +502,7 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 23,
     label = "methylenecyclopropene",
     group = 
 """
@@ -525,7 +525,7 @@ u"""
 )
 
 entry(
-    index = 11,
+    index = 24,
     label = "methylenecyclopropanone",
     group = 
 """
@@ -548,7 +548,7 @@ u"""
 )
 
 entry(
-    index = 12,
+    index = 25,
     label = "methyleneoxirane",
     group = 
 """
@@ -571,7 +571,7 @@ u"""
 )
 
 entry(
-    index = 6,
+    index = 26,
     label = "12Methylenecyclopropane",
     group = 
 """
@@ -595,7 +595,7 @@ u"""
 )
 
 entry(
-    index = 98,
+    index = 27,
     label = "FourMember",
     group = 
 """
@@ -613,7 +613,7 @@ u"""
 )
 
 entry(
-    index = 13,
+    index = 28,
     label = "Cyclobutane",
     group = 
 """
@@ -636,7 +636,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 29,
     label = "Cyclobutene",
     group = 
 """
@@ -659,7 +659,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 30,
     label = "Cyclobutene2",
     group = 
 """
@@ -677,7 +677,7 @@ u"""
 )
 
 entry(
-    index = 19,
+    index = 31,
     label = "cyclobutadiene",
     group = 
 """
@@ -700,7 +700,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 32,
     label = "Cyclobutadiene2",
     group = 
 """
@@ -718,7 +718,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 33,
     label = "Cyclobutadiene3",
     group = 
 """
@@ -736,7 +736,7 @@ u"""
 )
 
 entry(
-    index = 70,
+    index = 34,
     label = "Oxetane",
     group = 
 """
@@ -759,7 +759,7 @@ u"""
 )
 
 entry(
-    index = 159,
+    index = 35,
     label = "Oxetene",
     group = 
 """
@@ -782,7 +782,7 @@ u"""
 )
 
 entry(
-    index = 83,
+    index = 36,
     label = "Beta-Propiolactone",
     group = 
 """
@@ -805,7 +805,7 @@ u"""
 )
 
 entry(
-    index = 85,
+    index = 37,
     label = "Cyclobutanone",
     group = 
 """
@@ -828,7 +828,7 @@ u"""
 )
 
 entry(
-    index = 15,
+    index = 38,
     label = "12dioxetane",
     group = 
 """
@@ -851,7 +851,7 @@ u"""
 )
 
 entry(
-    index = 16,
+    index = 39,
     label = "dioxerene",
     group = 
 """
@@ -874,7 +874,7 @@ u"""
 )
 
 entry(
-    index = 136,
+    index = 40,
     label = "thietane",
     group = 
 """
@@ -897,7 +897,7 @@ u"""
 )
 
 entry(
-    index = 137,
+    index = 41,
     label = "1,2-dithietane",
     group = 
 """
@@ -920,7 +920,7 @@ u"""
 )
 
 entry(
-    index = 138,
+    index = 42,
     label = "1,3-dithietane",
     group = 
 """
@@ -943,7 +943,7 @@ u"""
 )
 
 entry(
-    index = 139,
+    index = 43,
     label = "trithietane",
     group = 
 """
@@ -966,7 +966,7 @@ u"""
 )
 
 entry(
-    index = 140,
+    index = 44,
     label = "tetrathietane",
     group = 
 """
@@ -989,7 +989,7 @@ u"""
 )
 
 entry(
-    index = 93,
+    index = 45,
     label = "Azetidine",
     group = 
 """
@@ -1012,7 +1012,7 @@ u"""
 )
 
 entry(
-    index = 84,
+    index = 46,
     label = "4-Methylene-2-oxetanone",
     group = 
 """
@@ -1036,7 +1036,7 @@ u"""
 )
 
 entry(
-    index = 17,
+    index = 47,
     label = "methylenecyclobutane",
     group = 
 """
@@ -1060,7 +1060,7 @@ u"""
 )
 
 entry(
-    index = 18,
+    index = 48,
     label = "2methyleneoxetane",
     group = 
 """
@@ -1084,7 +1084,7 @@ u"""
 )
 
 entry(
-    index = 20,
+    index = 49,
     label = "12methylenecyclobutane",
     group = 
 """
@@ -1109,7 +1109,7 @@ u"""
 )
 
 entry(
-    index = 99,
+    index = 50,
     label = "FiveMember",
     group = 
 """
@@ -1128,7 +1128,7 @@ u"""
 )
 
 entry(
-    index = 21,
+    index = 51,
     label = "Cyclopentane",
     group = 
 """
@@ -1152,7 +1152,7 @@ u"""
 )
 
 entry(
-    index = 22,
+    index = 52,
     label = "Cyclopentene",
     group = 
 """
@@ -1176,7 +1176,7 @@ u"""
 )
 
 entry(
-    index = 23,
+    index = 53,
     label = "Cyclopentadiene",
     group = 
 """
@@ -1200,7 +1200,7 @@ u"""
 )
 
 entry(
-    index = 152,
+    index = 54,
     label = "Cyclopentatriene",
     group = 
 """
@@ -1224,7 +1224,7 @@ u"""
 )
 
 entry(
-    index = 71,
+    index = 55,
     label = "Tetrahydrofuran",
     group = 
 """
@@ -1248,7 +1248,7 @@ u"""
 )
 
 entry(
-    index = 76,
+    index = 56,
     label = "2,3-Dihydrofuran",
     group = 
 """
@@ -1272,7 +1272,7 @@ u"""
 )
 
 entry(
-    index = 77,
+    index = 57,
     label = "1,3-Dioxolane",
     group = 
 """
@@ -1296,7 +1296,7 @@ u"""
 )
 
 entry(
-    index = 78,
+    index = 58,
     label = "Furan",
     group = 
 """
@@ -1320,7 +1320,7 @@ u"""
 )
 
 entry(
-    index = 80,
+    index = 59,
     label = "Dihydro-2,5-furandione",
     group = 
 """
@@ -1344,7 +1344,7 @@ u"""
 )
 
 entry(
-    index = 82,
+    index = 60,
     label = "2,5-Furandione",
     group = 
 """
@@ -1368,7 +1368,7 @@ u"""
 )
 
 entry(
-    index = 86,
+    index = 61,
     label = "Cyclopentanone",
     group = 
 """
@@ -1392,7 +1392,7 @@ u"""
 )
 
 entry(
-    index = 25,
+    index = 62,
     label = "butyrolactone",
     group = 
 """
@@ -1416,7 +1416,7 @@ u"""
 )
 
 entry(
-    index = 26,
+    index = 63,
     label = "25dihydrofuran",
     group = 
 """
@@ -1440,7 +1440,7 @@ u"""
 )
 
 entry(
-    index = 27,
+    index = 64,
     label = "12dioxolane",
     group = 
 """
@@ -1464,7 +1464,7 @@ u"""
 )
 
 entry(
-    index = 28,
+    index = 65,
     label = "12dioxolene",
     group = 
 """
@@ -1488,7 +1488,7 @@ u"""
 )
 
 entry(
-    index = 29,
+    index = 66,
     label = "123trioxolane",
     group = 
 """
@@ -1512,7 +1512,7 @@ u"""
 )
 
 entry(
-    index = 30,
+    index = 67,
     label = "124trioxolane",
     group = 
 """
@@ -1536,7 +1536,7 @@ u"""
 )
 
 entry(
-    index = 141,
+    index = 68,
     label = "thiolane",
     group = 
 """
@@ -1560,7 +1560,7 @@ u"""
 )
 
 entry(
-    index = 142,
+    index = 69,
     label = "2,3-dihydrothiophene",
     group = 
 """
@@ -1584,7 +1584,7 @@ u"""
 )
 
 entry(
-    index = 143,
+    index = 70,
     label = "2,5-dihydrothiophene",
     group = 
 """
@@ -1608,7 +1608,7 @@ u"""
 )
 
 entry(
-    index = 144,
+    index = 71,
     label = "thiophene",
     group = 
 """
@@ -1632,7 +1632,7 @@ u"""
 )
 
 entry(
-    index = 145,
+    index = 72,
     label = "1,2-dithiolane",
     group = 
 """
@@ -1656,7 +1656,7 @@ u"""
 )
 
 entry(
-    index = 146,
+    index = 73,
     label = "1,3-dithiolane",
     group = 
 """
@@ -1680,7 +1680,7 @@ u"""
 )
 
 entry(
-    index = 147,
+    index = 74,
     label = "1,2,3-trithiolane",
     group = 
 """
@@ -1704,7 +1704,7 @@ u"""
 )
 
 entry(
-    index = 148,
+    index = 75,
     label = "1,2,4-trithiolane",
     group = 
 """
@@ -1728,7 +1728,7 @@ u"""
 )
 
 entry(
-    index = 149,
+    index = 76,
     label = "tetrathiolane",
     group = 
 """
@@ -1752,7 +1752,7 @@ u"""
 )
 
 entry(
-    index = 150,
+    index = 77,
     label = "pentathiolane",
     group = 
 """
@@ -1776,7 +1776,7 @@ u"""
 )
 
 entry(
-    index = 94,
+    index = 78,
     label = "Pyrrolidine",
     group = 
 """
@@ -1800,7 +1800,7 @@ u"""
 )
 
 entry(
-    index = 31,
+    index = 79,
     label = "methylenecyclopentane",
     group = 
 """
@@ -1825,7 +1825,7 @@ u"""
 )
 
 entry(
-    index = 122,
+    index = 80,
     label = "Fulvene",
     group = 
 """
@@ -1850,7 +1850,7 @@ u"""
 )
 
 entry(
-    index = 123,
+    index = 81,
     label = "3-Methylenecyclopentene",
     group = 
 """
@@ -1875,7 +1875,7 @@ u"""
 )
 
 entry(
-    index = 124,
+    index = 82,
     label = "4-Methylenecyclopentene",
     group = 
 """
@@ -1900,7 +1900,7 @@ u"""
 )
 
 entry(
-    index = 24,
+    index = 83,
     label = "12methylenecyclopentane",
     group = 
 """
@@ -1926,7 +1926,7 @@ u"""
 )
 
 entry(
-    index = 100,
+    index = 84,
     label = "SixMember",
     group = 
 """
@@ -1946,7 +1946,7 @@ u"""
 )
 
 entry(
-    index = 105,
+    index = 85,
     label = "sixnosidedouble",
     group = 
 """
@@ -1966,7 +1966,7 @@ u"""
 )
 
 entry(
-    index = 32,
+    index = 86,
     label = "Cyclohexane",
     group = 
 """
@@ -1991,7 +1991,7 @@ u"""
 )
 
 entry(
-    index = 38,
+    index = 87,
     label = "12dioxane",
     group = 
 """
@@ -2016,7 +2016,7 @@ u"""
 )
 
 entry(
-    index = 73,
+    index = 88,
     label = "1,3-Dioxane",
     group = 
 """
@@ -2041,7 +2041,7 @@ u"""
 )
 
 entry(
-    index = 74,
+    index = 89,
     label = "1,4-Dioxane",
     group = 
 """
@@ -2066,7 +2066,7 @@ u"""
 )
 
 entry(
-    index = 75,
+    index = 90,
     label = "1,3,5-Trioxane",
     group = 
 """
@@ -2091,7 +2091,7 @@ u"""
 )
 
 entry(
-    index = 42,
+    index = 91,
     label = "124trioxane",
     group = 
 """
@@ -2116,7 +2116,7 @@ u"""
 )
 
 entry(
-    index = 43,
+    index = 92,
     label = "123trioxane",
     group = 
 """
@@ -2141,7 +2141,7 @@ u"""
 )
 
 entry(
-    index = 111,
+    index = 93,
     label = "Oxane",
     group = 
 """
@@ -2166,7 +2166,7 @@ u"""
 )
 
 entry(
-    index = 155,
+    index = 94,
     label = "hexasulfur",
     group = 
 """
@@ -2216,7 +2216,7 @@ u"""
 )
 
 entry(
-    index = 106,
+    index = 96,
     label = "six-sidedoubles",
     group = 
 """
@@ -2241,7 +2241,7 @@ u"""
 )
 
 entry(
-    index = 107,
+    index = 97,
     label = "six-onesidedouble",
     group = 
 """
@@ -2261,7 +2261,7 @@ u"""
 )
 
 entry(
-    index = 87,
+    index = 98,
     label = "Cyclohexanone",
     group = 
 """
@@ -2286,7 +2286,7 @@ u"""
 )
 
 entry(
-    index = 108,
+    index = 99,
     label = "sixmembd-allsingles-twosidedoubles-para",
     group = 
 """
@@ -2306,7 +2306,7 @@ u"""
 )
 
 entry(
-    index = 36,
+    index = 100,
     label = "14methylenecyclohexane",
     group = 
 """
@@ -2333,7 +2333,7 @@ u"""
 )
 
 entry(
-    index = 109,
+    index = 101,
     label = "sixmembd-allsingles-twosidedoubles-ortho",
     group = 
 """
@@ -2353,7 +2353,7 @@ u"""
 )
 
 entry(
-    index = 110,
+    index = 102,
     label = "sixmembd-allsingles-twosidedoubles-meta",
     group = 
 """
@@ -2373,7 +2373,7 @@ u"""
 )
 
 entry(
-    index = 114,
+    index = 103,
     label = "six-inringonedouble",
     group = 
 """
@@ -2393,7 +2393,7 @@ u"""
 )
 
 entry(
-    index = 40,
+    index = 104,
     label = "34dihydro12dioxin",
     group = 
 """
@@ -2418,7 +2418,7 @@ u"""
 )
 
 entry(
-    index = 37,
+    index = 105,
     label = "36dihydro2hpyran",
     group = 
 """
@@ -2443,7 +2443,7 @@ u"""
 )
 
 entry(
-    index = 33,
+    index = 106,
     label = "Cyclohexene",
     group = 
 """
@@ -2468,7 +2468,7 @@ u"""
 )
 
 entry(
-    index = 79,
+    index = 107,
     label = "3,4-Dihydro-2H-pyran",
     group = 
 """
@@ -2493,7 +2493,7 @@ u"""
 )
 
 entry(
-    index = 39,
+    index = 108,
     label = "36dihydro12dioxin",
     group = 
 """
@@ -2518,7 +2518,7 @@ u"""
 )
 
 entry(
-    index = 112,
+    index = 109,
     label = "24dihydro13dioxin",
     group = 
 """
@@ -2543,7 +2543,7 @@ u"""
 )
 
 entry(
-    index = 113,
+    index = 110,
     label = "23dihydro14dioxin",
     group = 
 """
@@ -2568,7 +2568,7 @@ u"""
 )
 
 entry(
-    index = 44,
+    index = 111,
     label = "124trioxene",
     group = 
 """
@@ -2593,7 +2593,7 @@ u"""
 )
 
 entry(
-    index = 45,
+    index = 112,
     label = "123trioxene",
     group = 
 """
@@ -2618,7 +2618,7 @@ u"""
 )
 
 entry(
-    index = 115,
+    index = 113,
     label = "six-inringtwodouble-13",
     group = 
 """
@@ -2638,7 +2638,7 @@ u"""
 )
 
 entry(
-    index = 34,
+    index = 114,
     label = "1,3-Cyclohexadiene",
     group = 
 """
@@ -2663,7 +2663,7 @@ u"""
 )
 
 entry(
-    index = 116,
+    index = 115,
     label = "six-inringtwodouble-14",
     group = 
 """
@@ -2683,7 +2683,7 @@ u"""
 )
 
 entry(
-    index = 35,
+    index = 116,
     label = "1,4-Cyclohexadiene",
     group = 
 """
@@ -2708,7 +2708,7 @@ u"""
 )
 
 entry(
-    index = 41,
+    index = 117,
     label = "14dioxin",
     group = 
 """
@@ -2733,7 +2733,7 @@ u"""
 )
 
 entry(
-    index = 153,
+    index = 118,
     label = "six-inringthreedouble",
     group = 
 """
@@ -2758,7 +2758,7 @@ u"""
 )
 
 entry(
-    index = 117,
+    index = 119,
     label = "six-inringtwodouble-12",
     group = 
 """
@@ -2783,7 +2783,7 @@ u"""
 )
 
 entry(
-    index = 118,
+    index = 120,
     label = "six-oneside-twoindoubles-25",
     group = 
 """
@@ -2803,7 +2803,7 @@ u"""
 )
 
 entry(
-    index = 49,
+    index = 121,
     label = "25cyclohexadienone",
     group = 
 """
@@ -2828,7 +2828,7 @@ u"""
 )
 
 entry(
-    index = 47,
+    index = 122,
     label = "14cyclohexadiene3methylene",
     group = 
 """
@@ -2854,7 +2854,7 @@ u"""
 )
 
 entry(
-    index = 119,
+    index = 123,
     label = "six-oneside-twoindoubles-24",
     group = 
 """
@@ -2874,7 +2874,7 @@ u"""
 )
 
 entry(
-    index = 48,
+    index = 124,
     label = "24cyclohexadienone",
     group = 
 """
@@ -2899,7 +2899,7 @@ u"""
 )
 
 entry(
-    index = 46,
+    index = 125,
     label = "13cyclohexadiene5methylene",
     group = 
 """
@@ -2925,7 +2925,7 @@ u"""
 )
 
 entry(
-    index = 120,
+    index = 126,
     label = "six-twoin13-twoout",
     group = 
 """
@@ -2945,7 +2945,7 @@ u"""
 )
 
 entry(
-    index = 50,
+    index = 127,
     label = "fg6",
     group = 
 """
@@ -2971,7 +2971,7 @@ u"""
 )
 
 entry(
-    index = 51,
+    index = 128,
     label = "oxylene",
     group = 
 """
@@ -2998,7 +2998,7 @@ u"""
 )
 
 entry(
-    index = 54,
+    index = 129,
     label = "obenzoquinone",
     group = 
 """
@@ -3023,7 +3023,7 @@ u"""
 )
 
 entry(
-    index = 121,
+    index = 130,
     label = "six-twoin14-twoout",
     group = 
 """
@@ -3043,7 +3043,7 @@ u"""
 )
 
 entry(
-    index = 53,
+    index = 131,
     label = "pbenzoquinone",
     group = 
 """
@@ -3068,7 +3068,7 @@ u"""
 )
 
 entry(
-    index = 52,
+    index = 132,
     label = "pxylene",
     group = 
 """
@@ -3095,7 +3095,7 @@ u"""
 )
 
 entry(
-    index = 125,
+    index = 133,
     label = "3,4-dimethylenecyclohexene",
     group = 
 """
@@ -3122,7 +3122,7 @@ u"""
 )
 
 entry(
-    index = 101,
+    index = 134,
     label = "SevenMember",
     group = 
 """
@@ -3143,7 +3143,7 @@ u"""
 )
 
 entry(
-    index = 55,
+    index = 135,
     label = "Cycloheptane",
     group = 
 """
@@ -3169,7 +3169,7 @@ u"""
 )
 
 entry(
-    index = 56,
+    index = 136,
     label = "Cycloheptene",
     group = 
 """
@@ -3195,7 +3195,7 @@ u"""
 )
 
 entry(
-    index = 57,
+    index = 137,
     label = "1,3-Cycloheptadiene",
     group = 
 """
@@ -3221,7 +3221,7 @@ u"""
 )
 
 entry(
-    index = 58,
+    index = 138,
     label = "1,3,5-Cycloheptatriene",
     group = 
 """
@@ -3247,7 +3247,7 @@ u"""
 )
 
 entry(
-    index = 88,
+    index = 139,
     label = "Cycloheptanone",
     group = 
 """
@@ -3273,7 +3273,7 @@ u"""
 )
 
 entry(
-    index = 129,
+    index = 140,
     label = "1,4-Cycloheptadiene",
     group = 
 """
@@ -3299,7 +3299,7 @@ u"""
 )
 
 entry(
-    index = 103,
+    index = 141,
     label = "1,2,4,6-Cycloheptatetraene",
     group = 
 """
@@ -3325,7 +3325,7 @@ CBS-QB3 isodesmic reaction approach C7H6 + 4 ethene = allene + 3 butadiene
 )
 
 entry(
-    index = 156,
+    index = 142,
     label = "heptasulfur",
     group = 
 """
@@ -3351,7 +3351,7 @@ u"""
 )
 
 entry(
-    index = 160,
+    index = 143,
     label = "oxepane",
     group = 
 """
@@ -3377,7 +3377,7 @@ u"""
 )
 
 entry(
-    index = 102,
+    index = 144,
     label = "EightMember",
     group = 
 """
@@ -3399,7 +3399,7 @@ u"""
 )
 
 entry(
-    index = 59,
+    index = 145,
     label = "Cyclooctane",
     group = 
 """
@@ -3426,7 +3426,7 @@ u"""
 )
 
 entry(
-    index = 60,
+    index = 146,
     label = "cis-Cyclooctene",
     group = 
 """
@@ -3453,7 +3453,7 @@ u"""
 )
 
 entry(
-    index = 62,
+    index = 147,
     label = "1,3,5-Cyclooctatriene",
     group = 
 """
@@ -3480,7 +3480,7 @@ u"""
 )
 
 entry(
-    index = 63,
+    index = 148,
     label = "Cyclooctatetraene",
     group = 
 """
@@ -3507,7 +3507,7 @@ u"""
 )
 
 entry(
-    index = 89,
+    index = 149,
     label = "Cyclooctanone",
     group = 
 """
@@ -3534,7 +3534,7 @@ u"""
 )
 
 entry(
-    index = 126,
+    index = 150,
     label = "1,3-cyclooctadiene",
     group = 
 """
@@ -3556,7 +3556,7 @@ u"""
 )
 
 entry(
-    index = 127,
+    index = 151,
     label = "1,4-cyclooctadiene",
     group = 
 """
@@ -3583,7 +3583,7 @@ u"""
 )
 
 entry(
-    index = 128,
+    index = 152,
     label = "1,5-cyclooctadiene",
     group = 
 """
@@ -3605,7 +3605,7 @@ u"""
 )
 
 entry(
-    index = 157,
+    index = 153,
     label = "octasulfur",
     group = 
 """
@@ -3632,7 +3632,7 @@ u"""
 )
 
 entry(
-    index = 103,
+    index = 154,
     label = "NineMember",
     group = 
 """
@@ -3655,7 +3655,7 @@ u"""
 )
 
 entry(
-    index = 64,
+    index = 155,
     label = "Cyclononane",
     group = 
 """
@@ -3683,7 +3683,7 @@ u"""
 )
 
 entry(
-    index = 90,
+    index = 156,
     label = "Cyclononanone",
     group = 
 """
@@ -3711,7 +3711,7 @@ u"""
 )
 
 entry(
-    index = 104,
+    index = 157,
     label = "TenMember",
     group = 
 """
@@ -3735,7 +3735,7 @@ u"""
 )
 
 entry(
-    index = 67,
+    index = 158,
     label = "Cyclodecane",
     group = 
 """
@@ -3764,7 +3764,7 @@ u"""
 )
 
 entry(
-    index = 91,
+    index = 159,
     label = "Cyclodecanone",
     group = 
 """

@@ -21,7 +21,7 @@ recipe(actions=[
 boundaryAtoms = ["*2", "*3"]
 
 entry(
-    index = 1,
+    index = 0,
     label = "R_ROR",
     group = 
 """
@@ -34,7 +34,7 @@ entry(
 )
 
 entry(
-    index = 19,
+    index = 1,
     label = "R1_doublebond",
     group = 
 """
@@ -44,7 +44,7 @@ entry(
 )
 
 entry(
-    index = 20,
+    index = 2,
     label = "R2_doublebond",
     group = 
 """
@@ -54,7 +54,7 @@ entry(
 )
 
 entry(
-    index = 21,
+    index = 3,
     label = "R_O",
     group = 
 """
@@ -64,7 +64,7 @@ entry(
 )
 
 entry(
-    index = 25,
+    index = 4,
     label = "R1_doublebond_CHR",
     group = 
 """
@@ -76,7 +76,7 @@ entry(
 )
 
 entry(
-    index = 27,
+    index = 5,
     label = "R1_doublebond_CHCH3",
     group = 
 """
@@ -91,7 +91,7 @@ entry(
 )
 
 entry(
-    index = 26,
+    index = 6,
     label = "R1_doublebond_S",
     group = 
 """
@@ -101,7 +101,7 @@ entry(
 )
 
 entry(
-    index = 24,
+    index = 7,
     label = "R1_doublebond_CH2",
     group = 
 """
@@ -113,7 +113,7 @@ entry(
 )
 
 entry(
-    index = 28,
+    index = 8,
     label = "R2_doublebond_Cs",
     group = 
 """
@@ -124,7 +124,7 @@ entry(
 )
 
 entry(
-    index = 31,
+    index = 9,
     label = "R2_doublebond_CH3",
     group = 
 """
@@ -138,7 +138,7 @@ entry(
 )
 
 entry(
-    index = 32,
+    index = 10,
     label = "R2_doublebond_CsC",
     group = 
 """
@@ -150,7 +150,7 @@ entry(
 )
 
 entry(
-    index = 33,
+    index = 11,
     label = "R2_doublebond_CH2CH3",
     group = 
 """
@@ -167,7 +167,7 @@ entry(
 )
 
 entry(
-    index = 29,
+    index = 12,
     label = "R2_doublebond_H",
     group = 
 """
@@ -178,7 +178,7 @@ entry(
 )
 
 entry(
-    index = 22,
+    index = 13,
     label = "R_O_H",
     group = 
 """
@@ -188,7 +188,7 @@ entry(
 )
 
 entry(
-    index = 23,
+    index = 14,
     label = "R_O_R",
     group = 
 """
@@ -198,7 +198,7 @@ entry(
 )
 
 entry(
-    index = 34,
+    index = 15,
     label = "R_O_C",
     group = 
 """

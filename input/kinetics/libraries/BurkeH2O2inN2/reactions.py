@@ -15,7 +15,7 @@ takes the form reccomended by the authors for the case of
 N2 as the main bath gas.
 """
 entry(
-    index = 1,
+    index = 0,
     label = "H + O2 <=> O + OH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.04e+14, 'cm^3/(mol*s)'), n=0, Ea=(15286, 'cal/mol'), T0=(1, 'K')),
@@ -23,7 +23,7 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "O + H2 <=> H + OH",
     degeneracy = 1,
     duplicate = True,
@@ -42,7 +42,7 @@ entry(
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "H2 + OH <=> H2O + H",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -55,7 +55,7 @@ entry(
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "OH + OH <=> O + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(A=(33400, 'cm^3/(mol*s)'), n=2.42, Ea=(-1930, 'cal/mol'), T0=(1, 'K')),
@@ -63,7 +63,7 @@ entry(
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "H2 <=> H + H",
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -79,7 +79,7 @@ entry(
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "H2 + Ar <=> H + H + Ar",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -92,7 +92,7 @@ entry(
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "H2 + He <=> H + H + He",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -105,7 +105,7 @@ entry(
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "O + O <=> O2",
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -121,7 +121,7 @@ entry(
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "O + O + Ar <=> O2 + Ar",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -134,7 +134,7 @@ entry(
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "O + O + He <=> O2 + He",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -147,7 +147,7 @@ entry(
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "O + H <=> OH",
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -158,7 +158,7 @@ entry(
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "H2O <=> H + OH",
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -180,7 +180,7 @@ Efficiencies for CO and CO2 taken from Li et al., Int. J. Chem. Kinet. 36:566-57
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "H2O + H2O <=> H + OH + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -193,7 +193,7 @@ entry(
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "H + O2 <=> HO2",
     degeneracy = 1,
     kinetics = Troe(
@@ -224,7 +224,7 @@ Centering factors from Fernandes et al., Phys. Chem. Chem. Phys. 10:4313-4321 (2
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "HO2 + H <=> H2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -242,7 +242,7 @@ Originally: 3.659E+06 2.09 -1.451E+03
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "HO2 + H <=> OH + OH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(7.079e+13, 'cm^3/(mol*s)'), n=0, Ea=(295, 'cal/mol'), T0=(1, 'K')),
@@ -250,7 +250,7 @@ entry(
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "HO2 + O <=> O2 + OH",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -268,7 +268,7 @@ Originally: 4.750E+10 1.00 -7.2393E+02
 )
 
 entry(
-    index = 18,
+    index = 17,
     label = "HO2 + OH <=> H2O + O2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.89e+13, 'cm^3/(mol*s)'), n=0, Ea=(-497, 'cal/mol'), T0=(1, 'K')),
@@ -276,7 +276,7 @@ entry(
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "HO2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     duplicate = True,
@@ -295,7 +295,7 @@ entry(
 )
 
 entry(
-    index = 20,
+    index = 19,
     label = "H2O2 <=> OH + OH",
     degeneracy = 1,
     kinetics = Troe(
@@ -320,7 +320,7 @@ Efficiencies for H2 and CO taken from Li et al., Int. J. Chem. Kinet. 36:566-575
 )
 
 entry(
-    index = 21,
+    index = 20,
     label = "H2O2 + H <=> H2O + OH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.41e+13, 'cm^3/(mol*s)'), n=0, Ea=(3970, 'cal/mol'), T0=(1, 'K')),
@@ -328,7 +328,7 @@ entry(
 )
 
 entry(
-    index = 22,
+    index = 21,
     label = "H2O2 + H <=> HO2 + H2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.82e+13, 'cm^3/(mol*s)'), n=0, Ea=(7950, 'cal/mol'), T0=(1, 'K')),
@@ -336,7 +336,7 @@ entry(
 )
 
 entry(
-    index = 23,
+    index = 22,
     label = "H2O2 + O <=> OH + HO2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(9.55e+06, 'cm^3/(mol*s)'), n=2, Ea=(3970, 'cal/mol'), T0=(1, 'K')),
@@ -344,7 +344,7 @@ entry(
 )
 
 entry(
-    index = 24,
+    index = 23,
     label = "H2O2 + OH <=> HO2 + H2O",
     degeneracy = 1,
     duplicate = True,
