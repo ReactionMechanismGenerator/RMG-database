@@ -7,7 +7,7 @@ longDesc = u"""
 Sulfur library originally created by Caleb in RMG-Java. No mention of source of kinetics in Java git commits.
 """
 entry(
-    index = 1,
+    index = 0,
     label = "C2H5SJ1 <=> C2H5SJ2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(85.5, 's^-1'), n=3.04, Ea=(11.62, 'kcal/mol'), T0=(1, 'K')),
@@ -26,14 +26,14 @@ Ontbinding DMDS
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "C2H4 + SH <=> C2H5SJ2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(9960, 'cm^3/(mol*s)'), n=2.7, Ea=(-0.8, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "SJJ + SJJ <=> S2",
     degeneracy = 1,
     kinetics = Arrhenius(

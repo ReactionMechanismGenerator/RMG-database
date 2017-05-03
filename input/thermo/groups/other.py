@@ -27,7 +27,7 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 1,
     label = "ketene",
     group = 
 """
@@ -51,7 +51,7 @@ u"""
 )
 
 entry(
-    index = 13,
+    index = 2,
     label = "ketene_2C-C",
     group = 
 """
@@ -77,7 +77,7 @@ u"""
 )
 
 entry(
-    index = 11,
+    index = 3,
     label = "ketene_1C-C_1C-H",
     group = 
 """
@@ -105,7 +105,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 4,
     label = "biketene",
     group = 
 """
@@ -134,7 +134,7 @@ u"""
 )
 
 entry(
-    index = 12,
+    index = 5,
     label = "ketene_2C-H",
     group = 
 """

@@ -19,6 +19,9 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""AG Vandeputte, CBS-QB3""",
-    longDesc = """Rate taken from H shift in ethyleneCPD""",
+    longDesc = 
+u"""
+Rate taken from H shift in ethyleneCPD
+""",
 )
 

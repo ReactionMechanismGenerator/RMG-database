@@ -1722,126 +1722,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""A.G. Vandeputte""",
-    longDesc = 
-u"""
-""",
-)
-
-entry(
-    index = 481,
-    label = "SsJ-Cs;SsJ-Cs",
-    kinetics = ArrheniusEP(
-        A = (1.06e+11, 'cm^3/(mol*s)'),
-        n = 1.21,
-        alpha = 0,
-        E0 = (-0.95, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""A.G. Vandeputte""",
-    longDesc = 
-u"""
-""",
-)
-
-entry(
-    index = 482,
-    label = "CsJ-SsHH;H_rad",
-    kinetics = ArrheniusEP(
-        A = (5e+11, 'cm^3/(mol*s)'),
-        n = 0.65,
-        alpha = 0,
-        E0 = (-0.37, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""A.G. Vandeputte""",
-    longDesc = 
-u"""
-""",
-)
-
-entry(
-    index = 483,
-    label = "SsJ-H;H_rad",
-    kinetics = ArrheniusEP(
-        A = (7.07e+12, 'cm^3/(mol*s)'),
-        n = 0.56,
-        alpha = 0,
-        E0 = (-0.08, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""A.G. Vandeputte""",
-    longDesc = 
-u"""
-""",
-)
-
-entry(
-    index = 484,
-    label = "SsJ-Ss;C_rad/Cs3",
-    kinetics = ArrheniusEP(
-        A = (3.94e+09, 'cm^3/(mol*s)'),
-        n = 1.25,
-        alpha = 0,
-        E0 = (-0.74, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""A.G. Vandeputte""",
-    longDesc = 
-u"""
-""",
-)
-
-entry(
-    index = 485,
-    label = "SsJ-Cs;C_rad/H2/Cs",
-    kinetics = ArrheniusEP(
-        A = (8.94e+07, 'cm^3/(mol*s)'),
-        n = 1.54,
-        alpha = 0,
-        E0 = (-1.32, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""A.G. Vandeputte, calculated""",
-)
-
-entry(
-    index = 486,
-    label = "SsJ-Cs;C_methyl",
-    kinetics = ArrheniusEP(
-        A = (8.94e+07, 'cm^3/(mol*s)'),
-        n = 1.54,
-        alpha = 0,
-        E0 = (-1.32, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""A.G. Vandeputte, calculated""",
-)
-
-entry(
-    index = 487,
-    label = "SsJ-Cs;C_rad/Cs3",
-    kinetics = ArrheniusEP(
-        A = (8.94e+07, 'cm^3/(mol*s)'),
-        n = 1.54,
-        alpha = 0,
-        E0 = (-1.32, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""A.G. Vandeputte, calculated""",
 )
 
 entry(
@@ -1867,6 +1747,36 @@ C.D.W. divided rate expression by 2, to get rate of addition per site
 
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
+)
+
+entry(
+    index = 481,
+    label = "SsJ-Cs;SsJ-Cs",
+    kinetics = ArrheniusEP(
+        A = (1.06e+11, 'cm^3/(mol*s)'),
+        n = 1.21,
+        alpha = 0,
+        E0 = (-0.95, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A.G. Vandeputte""",
+)
+
+entry(
+    index = 482,
+    label = "CsJ-SsHH;H_rad",
+    kinetics = ArrheniusEP(
+        A = (5e+11, 'cm^3/(mol*s)'),
+        n = 0.65,
+        alpha = 0,
+        E0 = (-0.37, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A.G. Vandeputte""",
 )
 
 entry(
@@ -1922,6 +1832,21 @@ Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 
 entry(
     index = 483,
+    label = "SsJ-H;H_rad",
+    kinetics = ArrheniusEP(
+        A = (7.07e+12, 'cm^3/(mol*s)'),
+        n = 0.56,
+        alpha = 0,
+        E0 = (-0.08, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A.G. Vandeputte""",
+)
+
+entry(
+    index = 483,
     label = "O2_birad;C_pri_rad",
     kinetics = ArrheniusEP(
         A = (2.26e+12, 'cm^3/(mol*s)', '+|-', 4.2e+11),
@@ -1971,6 +1896,21 @@ Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 
 entry(
     index = 484,
+    label = "SsJ-Ss;C_rad/Cs3",
+    kinetics = ArrheniusEP(
+        A = (3.94e+09, 'cm^3/(mol*s)'),
+        n = 1.25,
+        alpha = 0,
+        E0 = (-0.74, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A.G. Vandeputte""",
+)
+
+entry(
+    index = 484,
     label = "O2_birad;C_sec_rad",
     kinetics = ArrheniusEP(
         A = (3.77e+12, 'cm^3/(mol*s)', '+|-', 1e+12),
@@ -2002,6 +1942,21 @@ rwest@mit.edu  7-Sep-2009
 
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
+)
+
+entry(
+    index = 485,
+    label = "SsJ-Cs;C_rad/H2/Cs",
+    kinetics = ArrheniusEP(
+        A = (8.94e+07, 'cm^3/(mol*s)'),
+        n = 1.54,
+        alpha = 0,
+        E0 = (-1.32, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A.G. Vandeputte, calculated""",
 )
 
 entry(
@@ -2055,6 +2010,21 @@ Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 
 entry(
     index = 486,
+    label = "SsJ-Cs;C_methyl",
+    kinetics = ArrheniusEP(
+        A = (8.94e+07, 'cm^3/(mol*s)'),
+        n = 1.54,
+        alpha = 0,
+        E0 = (-1.32, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A.G. Vandeputte, calculated""",
+)
+
+entry(
+    index = 486,
     label = "O2_birad;Cd_pri_rad",
     kinetics = ArrheniusEP(
         A = (3e+12, 'cm^3/(mol*s)'),
@@ -2073,6 +2043,21 @@ RRKM extrapolation (adjusted to match data).O2 +CH = CH2CHOO. C.D.W. divided rat
 
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
+)
+
+entry(
+    index = 487,
+    label = "SsJ-Cs;C_rad/Cs3",
+    kinetics = ArrheniusEP(
+        A = (8.94e+07, 'cm^3/(mol*s)'),
+        n = 1.54,
+        alpha = 0,
+        E0 = (-1.32, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A.G. Vandeputte, calculated""",
 )
 
 entry(
@@ -2154,9 +2139,6 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""A.G. Vandeputte""",
-    longDesc = 
-u"""
-""",
 )
 
 entry(
@@ -2313,7 +2295,7 @@ entry(
     index = 505,
     label = "Cd_allenic;Cd_allenic",
     kinetics = ArrheniusEP(
-        A = (4.29E+9, 'cm^3/(mol*s)'),
+        A = (4.29e+09, 'cm^3/(mol*s)'),
         n = 0.8,
         alpha = 0,
         E0 = (-1.03, 'kcal/mol'),
@@ -2322,7 +2304,8 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""2007GEO/MIL4259-4268""",
-    longDesc = """
+    longDesc = 
+u"""
 A. G. Vandeputte
 Some estimated values for propyne recombination reactions
 """,
@@ -2332,7 +2315,7 @@ entry(
     index = 506,
     label = "Cd_allenic;C_methyl",
     kinetics = ArrheniusEP(
-        A = (5.00E+12, 'cm^3/(mol*s)'),
+        A = (5e+12, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -2341,7 +2324,8 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""1987WU/KER6291""",
-    longDesc = """
+    longDesc = 
+u"""
 Estimated value, agrees with 1987WU/KER6291
 """,
 )
@@ -2350,7 +2334,7 @@ entry(
     index = 507,
     label = "Cd_allenic;H_rad",
     kinetics = ArrheniusEP(
-        A = (1.00E+13, 'cm^3/(mol*s)'),
+        A = (1e+13, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -2365,7 +2349,7 @@ entry(
     index = 508,
     label = "C_rad_cyclopentadiene;H_rad",
     kinetics = ArrheniusEP(
-        A = (1.00E+14, 'cm^3/(mol*s)'),
+        A = (1e+14, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -2380,7 +2364,7 @@ entry(
     index = 509,
     label = "C_rad_cyclopentadiene;C_methyl",
     kinetics = ArrheniusEP(
-        A = (8.34E+15, 'cm^3/(mol*s)'),
+        A = (8.34e+15, 'cm^3/(mol*s)'),
         n = -0.7,
         alpha = 0,
         E0 = (0.5, 'kcal/mol'),
@@ -2395,7 +2379,7 @@ entry(
     index = 510,
     label = "C_rad_cyclopentadiene;C_rad_cyclopentadiene",
     kinetics = ArrheniusEP(
-        A = (5.00E+13, 'cm^3/(mol*s)'),
+        A = (5e+13, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -2410,7 +2394,7 @@ entry(
     index = 511,
     label = "H_rad;C_rad/H/CdCd",
     kinetics = ArrheniusEP(
-        A = (2.00E+13, 'cm^3/(mol*s)'),
+        A = (2e+13, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -2437,7 +2421,7 @@ entry(
     longDesc = 
 u"""
 J. Hahn, K. Luther and J. Troe
-Experimental and theoretical study of the temperature and pressure dependences of the recombination reactions O + NO2(+M) → NO3(+M) and NO2 + NO3(+M) → N2O5(+M)
+Experimental and theoretical study of the temperature and pressure dependences of the recombination reactions O + NO2(+M)  NO3(+M) and NO2 + NO3(+M)  N2O5(+M)
 Phys. Chem. Chem. Phys., 2000, 2, 5098-5104
 DOI: 10.1039/B005756H
 
@@ -2475,8 +2459,8 @@ entry(
     longDesc = 
 u"""
 J. Troe
-Analysis of the temperature and pressure dependence of the reaction HO + NO2 + M ⇔ HONO2 + M
-International Journal of Chemical Kinetics, Volume 33, Issue 12 December 2001 Pages 878–889
+Analysis of the temperature and pressure dependence of the reaction HO + NO2 + M  HONO2 + M
+International Journal of Chemical Kinetics, Volume 33, Issue 12 December 2001 Pages 878889
 DOI: 10.1002/kin.10019
 
 NO2 + OH <=> HONO2; T range: 50 to 1400 K, P range: 10E-4 to 10E3 bar

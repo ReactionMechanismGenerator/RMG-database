@@ -319,10 +319,10 @@ entry(
     rank = 4,
     shortDesc = u"""AG Vandeputte, CBS-QB3 + HO""",
     longDesc = 
-    """
-    Updated by AG Vandeputte, CBSQB3 + HO,
+u"""
+Updated by AG Vandeputte, CBSQB3 + HO,
     calculated for butadiene + H2O -> 2-butenol
-    """,
+""",
 )
 
 entry(
@@ -354,9 +354,9 @@ entry(
     rank = 4,
     shortDesc = u"""AG Vandeputte, CBS-QB3 + HO""",
     longDesc = 
-    """
+u"""
 AG Vandeputte, calculated the rate coefficient for methanol + ethene -> propanol
-    """,
+""",
 )
 
 entry(

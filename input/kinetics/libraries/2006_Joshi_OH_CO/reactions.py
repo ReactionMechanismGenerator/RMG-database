@@ -12,7 +12,7 @@ The surface includes OH+CO, HOCO and H+CO2 only.
 Calculated for an N2/Ar bath gas
 """
 entry(
-    index = 1,
+    index = 0,
     label = "OH + CO <=> HOCO",
     degeneracy = 1,
     kinetics = Chebyshev(
@@ -33,7 +33,7 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "OH + CO <=> H + CO2",
     degeneracy = 1,
     kinetics = Chebyshev(

@@ -12,7 +12,7 @@ Table 46. Entropy of Gas - Organic Compounds
 Contains only compounds with carbon hydrogen and nitrogen
 """
 entry(
-    index = -1,
+    index = 0,
     label = "1  N 0 {2,T}",
     molecule = 
 """
@@ -40,7 +40,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 1,
     label = "C4H5Nf",
     molecule = 
 """
@@ -64,7 +64,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 2,
     label = "C5H5N",
     molecule = 
 """
@@ -89,7 +89,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 3,
     label = "C6H7Nb",
     molecule = 
 """
@@ -117,7 +117,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 4,
     label = "C6H7Nc",
     molecule = 
 """
@@ -145,7 +145,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 5,
     label = "C6H7Nd",
     molecule = 
 """
@@ -173,7 +173,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 6,
     label = "C7H5N",
     molecule = 
 """
@@ -200,7 +200,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 7,
     label = "C7H9N",
     molecule = 
 """
@@ -231,7 +231,7 @@ u"""
 )
 
 entry(
-    index = 1,
+    index = 8,
     label = "HCN",
     molecule = 
 """
@@ -253,7 +253,7 @@ u"""
 )
 
 entry(
-    index = 2,
+    index = 9,
     label = "CH5N",
     molecule = 
 """
@@ -279,7 +279,7 @@ u"""
 )
 
 entry(
-    index = 3,
+    index = 10,
     label = "C2H3Na",
     molecule = 
 """
@@ -304,7 +304,7 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 11,
     label = "C2H5N",
     molecule = 
 """
@@ -331,7 +331,7 @@ u"""
 )
 
 entry(
-    index = 5,
+    index = 12,
     label = "C2H7Na",
     molecule = 
 """
@@ -360,7 +360,7 @@ u"""
 )
 
 entry(
-    index = 6,
+    index = 13,
     label = "C2H7Nb",
     molecule = 
 """
@@ -389,7 +389,7 @@ u"""
 )
 
 entry(
-    index = 7,
+    index = 14,
     label = "C2H8N2",
     molecule = 
 """
@@ -420,7 +420,7 @@ u"""
 )
 
 entry(
-    index = 8,
+    index = 15,
     label = "C3H2N2",
     molecule = 
 """
@@ -446,7 +446,7 @@ u"""
 )
 
 entry(
-    index = 9,
+    index = 16,
     label = "C3H3N",
     molecule = 
 """
@@ -472,7 +472,7 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 17,
     label = "C3H5Na",
     molecule = 
 """
@@ -500,7 +500,7 @@ u"""
 )
 
 entry(
-    index = 11,
+    index = 18,
     label = "C3H7Na",
     molecule = 
 """
@@ -530,7 +530,7 @@ u"""
 )
 
 entry(
-    index = 12,
+    index = 19,
     label = "C3H7Nb",
     molecule = 
 """
@@ -560,7 +560,7 @@ u"""
 )
 
 entry(
-    index = 13,
+    index = 20,
     label = "C3H9Na",
     molecule = 
 """
@@ -592,7 +592,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 21,
     label = "C3H9Nb",
     molecule = 
 """
@@ -624,7 +624,7 @@ u"""
 )
 
 entry(
-    index = 15,
+    index = 22,
     label = "C3H9Nc",
     molecule = 
 """
@@ -656,7 +656,7 @@ u"""
 )
 
 entry(
-    index = 16,
+    index = 23,
     label = "C3H9Nd",
     molecule = 
 """
@@ -688,7 +688,7 @@ u"""
 )
 
 entry(
-    index = 17,
+    index = 24,
     label = "C3H10N2a",
     molecule = 
 """
@@ -722,7 +722,7 @@ u"""
 )
 
 entry(
-    index = 18,
+    index = 25,
     label = "C3H10N2c",
     molecule = 
 """
@@ -756,7 +756,7 @@ u"""
 )
 
 entry(
-    index = 19,
+    index = 26,
     label = "C4H4N2",
     molecule = 
 """
@@ -785,7 +785,7 @@ u"""
 )
 
 entry(
-    index = 20,
+    index = 27,
     label = "C4H5Nc",
     molecule = 
 """
@@ -814,7 +814,7 @@ u"""
 )
 
 entry(
-    index = 21,
+    index = 28,
     label = "C4H5Nd",
     molecule = 
 """
@@ -843,7 +843,7 @@ u"""
 )
 
 entry(
-    index = 22,
+    index = 29,
     label = "C4H5Ne",
     molecule = 
 """
@@ -872,7 +872,7 @@ u"""
 )
 
 entry(
-    index = 23,
+    index = 30,
     label = "C4H7Na",
     molecule = 
 """
@@ -903,7 +903,7 @@ u"""
 )
 
 entry(
-    index = 24,
+    index = 31,
     label = "C4H7Nb",
     molecule = 
 """
@@ -934,7 +934,7 @@ u"""
 )
 
 entry(
-    index = 25,
+    index = 32,
     label = "C4H9N",
     molecule = 
 """
@@ -967,7 +967,7 @@ u"""
 )
 
 entry(
-    index = 26,
+    index = 33,
     label = "C4H10N2",
     molecule = 
 """
@@ -1002,7 +1002,7 @@ u"""
 )
 
 entry(
-    index = 27,
+    index = 34,
     label = "C4H11Na",
     molecule = 
 """
@@ -1037,7 +1037,7 @@ u"""
 )
 
 entry(
-    index = 28,
+    index = 35,
     label = "C4H11Nb",
     molecule = 
 """
@@ -1072,7 +1072,7 @@ u"""
 )
 
 entry(
-    index = 29,
+    index = 36,
     label = "C4H11Nc",
     molecule = 
 """
@@ -1107,7 +1107,7 @@ u"""
 )
 
 entry(
-    index = 30,
+    index = 37,
     label = "C4H11Nd",
     molecule = 
 """
@@ -1142,7 +1142,7 @@ u"""
 )
 
 entry(
-    index = 31,
+    index = 38,
     label = "C4H11Nf",
     molecule = 
 """
@@ -1177,7 +1177,7 @@ u"""
 )
 
 entry(
-    index = 32,
+    index = 39,
     label = "C4H11Ng",
     molecule = 
 """
@@ -1212,7 +1212,7 @@ u"""
 )
 
 entry(
-    index = 33,
+    index = 40,
     label = "C4H11Nh",
     molecule = 
 """
@@ -1247,7 +1247,7 @@ u"""
 )
 
 entry(
-    index = 34,
+    index = 41,
     label = "C4H11Ni",
     molecule = 
 """
@@ -1282,7 +1282,7 @@ u"""
 )
 
 entry(
-    index = 35,
+    index = 42,
     label = "C4H13N3",
     molecule = 
 """
@@ -1321,7 +1321,7 @@ u"""
 )
 
 entry(
-    index = 36,
+    index = 43,
     label = "C5H6N2",
     molecule = 
 """
@@ -1353,7 +1353,7 @@ u"""
 )
 
 entry(
-    index = 37,
+    index = 44,
     label = "C5H9Na",
     molecule = 
 """
@@ -1387,7 +1387,7 @@ u"""
 )
 
 entry(
-    index = 38,
+    index = 45,
     label = "C5H9Nb",
     molecule = 
 """
@@ -1421,7 +1421,7 @@ u"""
 )
 
 entry(
-    index = 39,
+    index = 46,
     label = "C5H9Nc",
     molecule = 
 """
@@ -1455,7 +1455,7 @@ u"""
 )
 
 entry(
-    index = 40,
+    index = 47,
     label = "C5H9Nd",
     molecule = 
 """
@@ -1489,7 +1489,7 @@ u"""
 )
 
 entry(
-    index = 42,
+    index = 48,
     label = "C5H11Na",
     molecule = 
 """
@@ -1525,7 +1525,7 @@ u"""
 )
 
 entry(
-    index = 43,
+    index = 49,
     label = "C5H11Nb",
     molecule = 
 """
@@ -1561,7 +1561,7 @@ u"""
 )
 
 entry(
-    index = 44,
+    index = 50,
     label = "C5H11Nc",
     molecule = 
 """
@@ -1597,7 +1597,7 @@ u"""
 )
 
 entry(
-    index = 45,
+    index = 51,
     label = "C5H11Nd",
     molecule = 
 """
@@ -1633,7 +1633,7 @@ u"""
 )
 
 entry(
-    index = 46,
+    index = 52,
     label = "C5H13Na",
     molecule = 
 """
@@ -1671,7 +1671,7 @@ u"""
 )
 
 entry(
-    index = 47,
+    index = 53,
     label = "C5H13Nb",
     molecule = 
 """
@@ -1709,7 +1709,7 @@ u"""
 )
 
 entry(
-    index = 48,
+    index = 54,
     label = "C5H13Nc",
     molecule = 
 """
@@ -1747,7 +1747,7 @@ u"""
 )
 
 entry(
-    index = 49,
+    index = 55,
     label = "C5H13Nd",
     molecule = 
 """
@@ -1785,7 +1785,7 @@ u"""
 )
 
 entry(
-    index = 50,
+    index = 56,
     label = "C5H13Ne",
     molecule = 
 """
@@ -1823,7 +1823,7 @@ u"""
 )
 
 entry(
-    index = 51,
+    index = 57,
     label = "C5H13Nf",
     molecule = 
 """
@@ -1861,7 +1861,7 @@ u"""
 )
 
 entry(
-    index = 52,
+    index = 58,
     label = "C5H13Ng",
     molecule = 
 """
@@ -1899,7 +1899,7 @@ u"""
 )
 
 entry(
-    index = 53,
+    index = 59,
     label = "C5H13Nh",
     molecule = 
 """
@@ -1937,7 +1937,7 @@ u"""
 )
 
 entry(
-    index = 54,
+    index = 60,
     label = "C5H13Ni",
     molecule = 
 """
@@ -1975,7 +1975,7 @@ u"""
 )
 
 entry(
-    index = 55,
+    index = 61,
     label = "C5H13Nj",
     molecule = 
 """
@@ -2013,7 +2013,7 @@ u"""
 )
 
 entry(
-    index = 56,
+    index = 62,
     label = "C5H13Nk",
     molecule = 
 """
@@ -2051,7 +2051,7 @@ u"""
 )
 
 entry(
-    index = 57,
+    index = 63,
     label = "C5H13Nl",
     molecule = 
 """
@@ -2089,7 +2089,7 @@ u"""
 )
 
 entry(
-    index = 58,
+    index = 64,
     label = "C5H13Nm",
     molecule = 
 """
@@ -2127,7 +2127,7 @@ u"""
 )
 
 entry(
-    index = 59,
+    index = 65,
     label = "C5H13Nn",
     molecule = 
 """
@@ -2165,7 +2165,7 @@ u"""
 )
 
 entry(
-    index = 60,
+    index = 66,
     label = "C5H13No",
     molecule = 
 """
@@ -2203,7 +2203,7 @@ u"""
 )
 
 entry(
-    index = 61,
+    index = 67,
     label = "C5H13Np",
     molecule = 
 """
@@ -2241,7 +2241,7 @@ u"""
 )
 
 entry(
-    index = 62,
+    index = 68,
     label = "C5H13Nq",
     molecule = 
 """
@@ -2279,7 +2279,7 @@ u"""
 )
 
 entry(
-    index = 65,
+    index = 69,
     label = "C6H6N2c",
     molecule = 
 """
@@ -2312,7 +2312,7 @@ u"""
 )
 
 entry(
-    index = 66,
+    index = 70,
     label = "C6H7Na",
     molecule = 
 """
@@ -2345,7 +2345,7 @@ u"""
 )
 
 entry(
-    index = 67,
+    index = 71,
     label = "C6H8N2a",
     molecule = 
 """
@@ -2380,7 +2380,7 @@ u"""
 )
 
 entry(
-    index = 68,
+    index = 72,
     label = "C6H8N2b",
     molecule = 
 """
@@ -2415,7 +2415,7 @@ u"""
 )
 
 entry(
-    index = 69,
+    index = 73,
     label = "C6H8N2c",
     molecule = 
 """
@@ -2450,7 +2450,7 @@ u"""
 )
 
 entry(
-    index = 70,
+    index = 74,
     label = "C6H8N2d",
     molecule = 
 """
@@ -2485,7 +2485,7 @@ u"""
 )
 
 entry(
-    index = 71,
+    index = 75,
     label = "C6H8N2e",
     molecule = 
 """
@@ -2520,7 +2520,7 @@ u"""
 )
 
 entry(
-    index = 72,
+    index = 76,
     label = "C6H8N2f",
     molecule = 
 """
@@ -2555,7 +2555,7 @@ u"""
 )
 
 entry(
-    index = 73,
+    index = 77,
     label = "C6H11Na",
     molecule = 
 """
@@ -2592,7 +2592,7 @@ u"""
 )
 
 entry(
-    index = 74,
+    index = 78,
     label = "C6H11Nb",
     molecule = 
 """
@@ -2629,7 +2629,7 @@ u"""
 )
 
 entry(
-    index = 75,
+    index = 79,
     label = "C6H11Nc",
     molecule = 
 """
@@ -2666,7 +2666,7 @@ u"""
 )
 
 entry(
-    index = 76,
+    index = 80,
     label = "C6H11Nd",
     molecule = 
 """
@@ -2703,7 +2703,7 @@ u"""
 )
 
 entry(
-    index = 77,
+    index = 81,
     label = "C6H11Ne",
     molecule = 
 """
@@ -2740,7 +2740,7 @@ u"""
 )
 
 entry(
-    index = 78,
+    index = 82,
     label = "C6H11Nf",
     molecule = 
 """
@@ -2777,7 +2777,7 @@ u"""
 )
 
 entry(
-    index = 79,
+    index = 83,
     label = "C6H11Ng",
     molecule = 
 """
@@ -2814,7 +2814,7 @@ u"""
 )
 
 entry(
-    index = 80,
+    index = 84,
     label = "C6H11Nh",
     molecule = 
 """
@@ -2851,7 +2851,7 @@ u"""
 )
 
 entry(
-    index = 81,
+    index = 85,
     label = "C6H12N2",
     molecule = 
 """
@@ -2890,7 +2890,7 @@ u"""
 )
 
 entry(
-    index = 82,
+    index = 86,
     label = "C6H13Na",
     molecule = 
 """
@@ -2929,7 +2929,7 @@ u"""
 )
 
 entry(
-    index = 83,
+    index = 87,
     label = "C6H13Nb",
     molecule = 
 """
@@ -2968,7 +2968,7 @@ u"""
 )
 
 entry(
-    index = 84,
+    index = 88,
     label = "C6H15Na",
     molecule = 
 """
@@ -3009,7 +3009,7 @@ u"""
 )
 
 entry(
-    index = 85,
+    index = 89,
     label = "C6H15Nb",
     molecule = 
 """
@@ -3050,7 +3050,7 @@ u"""
 )
 
 entry(
-    index = 86,
+    index = 90,
     label = "C6H15Nc",
     molecule = 
 """
@@ -3091,7 +3091,7 @@ u"""
 )
 
 entry(
-    index = 87,
+    index = 91,
     label = "C6H15Nd",
     molecule = 
 """
@@ -3132,7 +3132,7 @@ u"""
 )
 
 entry(
-    index = 88,
+    index = 92,
     label = "C6H15Ne",
     molecule = 
 """
@@ -3173,7 +3173,7 @@ u"""
 )
 
 entry(
-    index = 89,
+    index = 93,
     label = "C6H15Nf",
     molecule = 
 """
@@ -3214,7 +3214,7 @@ u"""
 )
 
 entry(
-    index = 90,
+    index = 94,
     label = "C6H15Ng",
     molecule = 
 """
@@ -3255,7 +3255,7 @@ u"""
 )
 
 entry(
-    index = 91,
+    index = 95,
     label = "C6H15Nh",
     molecule = 
 """
@@ -3296,7 +3296,7 @@ u"""
 )
 
 entry(
-    index = 92,
+    index = 96,
     label = "C6H15Ni",
     molecule = 
 """
@@ -3337,7 +3337,7 @@ u"""
 )
 
 entry(
-    index = 93,
+    index = 97,
     label = "C6H15Nj",
     molecule = 
 """
@@ -3378,7 +3378,7 @@ u"""
 )
 
 entry(
-    index = 94,
+    index = 98,
     label = "C6H15Nk",
     molecule = 
 """
@@ -3419,7 +3419,7 @@ u"""
 )
 
 entry(
-    index = 95,
+    index = 99,
     label = "C6H15Nl",
     molecule = 
 """
@@ -3460,7 +3460,7 @@ u"""
 )
 
 entry(
-    index = 96,
+    index = 100,
     label = "C6H15Nm",
     molecule = 
 """
@@ -3501,7 +3501,7 @@ u"""
 )
 
 entry(
-    index = 97,
+    index = 101,
     label = "C6H15Nn",
     molecule = 
 """
@@ -3542,7 +3542,7 @@ u"""
 )
 
 entry(
-    index = 98,
+    index = 102,
     label = "C6H15No",
     molecule = 
 """
@@ -3583,7 +3583,7 @@ u"""
 )
 
 entry(
-    index = 99,
+    index = 103,
     label = "C6H15Np",
     molecule = 
 """
@@ -3624,7 +3624,7 @@ u"""
 )
 
 entry(
-    index = 100,
+    index = 104,
     label = "C6H15Nq",
     molecule = 
 """
@@ -3665,7 +3665,7 @@ u"""
 )
 
 entry(
-    index = 102,
+    index = 105,
     label = "C6H15Ns",
     molecule = 
 """
@@ -3706,7 +3706,7 @@ u"""
 )
 
 entry(
-    index = 103,
+    index = 106,
     label = "C6H15Nt",
     molecule = 
 """
@@ -3747,7 +3747,7 @@ u"""
 )
 
 entry(
-    index = 104,
+    index = 107,
     label = "C6H15Nu",
     molecule = 
 """
@@ -3788,7 +3788,7 @@ u"""
 )
 
 entry(
-    index = 105,
+    index = 108,
     label = "C6H15Nv",
     molecule = 
 """
@@ -3829,7 +3829,7 @@ u"""
 )
 
 entry(
-    index = 106,
+    index = 109,
     label = "C6H15Nw",
     molecule = 
 """
@@ -3870,7 +3870,7 @@ u"""
 )
 
 entry(
-    index = 107,
+    index = 110,
     label = "C6H15Nx",
     molecule = 
 """
@@ -3911,7 +3911,7 @@ u"""
 )
 
 entry(
-    index = 108,
+    index = 111,
     label = "C6H15Ny",
     molecule = 
 """
@@ -3952,7 +3952,7 @@ u"""
 )
 
 entry(
-    index = 109,
+    index = 112,
     label = "C6H15Nz",
     molecule = 
 """
@@ -3993,7 +3993,7 @@ u"""
 )
 
 entry(
-    index = 110,
+    index = 113,
     label = "C6H15Naa",
     molecule = 
 """
@@ -4034,7 +4034,7 @@ u"""
 )
 
 entry(
-    index = 111,
+    index = 114,
     label = "C6H15Nbb",
     molecule = 
 """
@@ -4075,7 +4075,7 @@ u"""
 )
 
 entry(
-    index = 112,
+    index = 115,
     label = "C6H15Ncc",
     molecule = 
 """
@@ -4116,7 +4116,7 @@ u"""
 )
 
 entry(
-    index = 113,
+    index = 116,
     label = "C6H15Ndd",
     molecule = 
 """
@@ -4157,7 +4157,7 @@ u"""
 )
 
 entry(
-    index = 114,
+    index = 117,
     label = "C6H15Nee",
     molecule = 
 """
@@ -4198,7 +4198,7 @@ u"""
 )
 
 entry(
-    index = 115,
+    index = 118,
     label = "C6H15Nff",
     molecule = 
 """
@@ -4239,7 +4239,7 @@ u"""
 )
 
 entry(
-    index = 117,
+    index = 119,
     label = "C6H15Nhh",
     molecule = 
 """
@@ -4280,7 +4280,7 @@ u"""
 )
 
 entry(
-    index = 118,
+    index = 120,
     label = "C6H15Nii",
     molecule = 
 """
@@ -4321,7 +4321,7 @@ u"""
 )
 
 entry(
-    index = 119,
+    index = 121,
     label = "C6H15Njj",
     molecule = 
 """
@@ -4362,7 +4362,7 @@ u"""
 )
 
 entry(
-    index = 120,
+    index = 122,
     label = "C6H15Nkk",
     molecule = 
 """
@@ -4403,7 +4403,7 @@ u"""
 )
 
 entry(
-    index = 121,
+    index = 123,
     label = "C6H15Nll",
     molecule = 
 """
@@ -4444,7 +4444,7 @@ u"""
 )
 
 entry(
-    index = 122,
+    index = 124,
     label = "C6H15Nmm",
     molecule = 
 """
@@ -4485,7 +4485,7 @@ u"""
 )
 
 entry(
-    index = 123,
+    index = 125,
     label = "C6H15Nnn",
     molecule = 
 """
@@ -4526,7 +4526,7 @@ u"""
 )
 
 entry(
-    index = 124,
+    index = 126,
     label = "C6H15N3",
     molecule = 
 """
@@ -4569,7 +4569,7 @@ u"""
 )
 
 entry(
-    index = 125,
+    index = 127,
     label = "C6H16N2a",
     molecule = 
 """
@@ -4612,7 +4612,7 @@ u"""
 )
 
 entry(
-    index = 126,
+    index = 128,
     label = "C6H16N2b",
     molecule = 
 """
@@ -4655,7 +4655,7 @@ u"""
 )
 
 entry(
-    index = 127,
+    index = 129,
     label = "C6H16N2c",
     molecule = 
 """
@@ -4698,7 +4698,7 @@ u"""
 )
 
 entry(
-    index = 128,
+    index = 130,
     label = "C6H16N2d",
     molecule = 
 """
@@ -4741,7 +4741,7 @@ u"""
 )
 
 entry(
-    index = 129,
+    index = 131,
     label = "C6H16N2e",
     molecule = 
 """
@@ -4784,7 +4784,7 @@ u"""
 )
 
 entry(
-    index = 130,
+    index = 132,
     label = "C6H16N2f",
     molecule = 
 """
@@ -4827,7 +4827,7 @@ u"""
 )
 
 entry(
-    index = 131,
+    index = 133,
     label = "C6H16N2g",
     molecule = 
 """
@@ -4870,7 +4870,7 @@ u"""
 )
 
 entry(
-    index = 132,
+    index = 134,
     label = "C6H16N2h",
     molecule = 
 """
@@ -4913,7 +4913,7 @@ u"""
 )
 
 entry(
-    index = 133,
+    index = 135,
     label = "C6H16N2i",
     molecule = 
 """
@@ -4956,7 +4956,7 @@ u"""
 )
 
 entry(
-    index = 134,
+    index = 136,
     label = "C6H16N2j",
     molecule = 
 """
@@ -4999,7 +4999,7 @@ u"""
 )
 
 entry(
-    index = 135,
+    index = 137,
     label = "C6H18N4",
     molecule = 
 """
@@ -5046,7 +5046,7 @@ u"""
 )
 
 entry(
-    index = 136,
+    index = 138,
     label = "CH3CHNH2",
     molecule = 
 """
@@ -5075,7 +5075,7 @@ u"""
 )
 
 entry(
-    index = 137,
+    index = 139,
     label = "CH2=CHNH2",
     molecule = 
 """
@@ -5102,7 +5102,7 @@ u"""
 )
 
 entry(
-    index = 138,
+    index = 140,
     label = "CH3CH=NH2",
     molecule = 
 """

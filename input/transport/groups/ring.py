@@ -25,7 +25,7 @@ entry(
 )
 
 entry(
-    index = 0,
+    index = 1,
     label = "C_centered_ring",
     group = 
 """
@@ -37,7 +37,7 @@ entry(
 )
 
 entry(
-    index = 1,
+    index = 2,
     label = "CsringH2R2",
     group = 
 """
@@ -59,7 +59,7 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 3,
     label = "CsringHR3",
     group = 
 """
@@ -81,7 +81,7 @@ entry(
 )
 
 entry(
-    index = 3,
+    index = 4,
     label = "CsringR4",
     group = 
 """
@@ -124,7 +124,7 @@ entry(
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "Ketone_ring",
     group = 
 """
@@ -145,7 +145,7 @@ entry(
 )
 
 entry(
-    index = 4,
+    index = 7,
     label = "CdringHR2",
     group = 
 """
@@ -166,7 +166,7 @@ entry(
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "Cddring",
     group = 
 """
@@ -192,7 +192,7 @@ I'm copying R=CH-R in a ring.
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "Ctring",
     group = 
 """
@@ -217,7 +217,7 @@ I'm copying R=CH-R in a ring.
 )
 
 entry(
-    index = 0,
+    index = 10,
     label = "O_centered_ring",
     group = 
 """
@@ -229,7 +229,7 @@ entry(
 )
 
 entry(
-    index = 6,
+    index = 11,
     label = "Ether_ring",
     group = 
 """
@@ -249,7 +249,7 @@ entry(
 )
 
 entry(
-    index = 0,
+    index = 12,
     label = "S_centered_ring",
     group = 
 """
@@ -261,7 +261,7 @@ entry(
 )
 
 entry(
-    index = 8,
+    index = 13,
     label = "Thioether_ring",
     group = 
 """

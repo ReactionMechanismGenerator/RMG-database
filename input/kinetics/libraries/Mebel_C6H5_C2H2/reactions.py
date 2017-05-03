@@ -8,7 +8,7 @@ A. M. Mebel, Y. Georgievskii, A. W. Jasper, S. J. Klippenstein, Temperature and 
 for the HACA pathways from benzene to naphthalene, Proceedings of the Combust. Inst. (2016) 1-8
 """
 entry(
-    index = 1,
+    index = 0,
     label = "C6H5 + C2H2 <=> C6H5C2H2",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -43,7 +43,7 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "C6H5 + C2H2 <=> C6H4C2H3",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -78,7 +78,7 @@ entry(
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "C6H5 + C2H2 <=> C6H5C2H + H",
     degeneracy = 1,
     kinetics = PDepArrhenius(

@@ -13,21 +13,21 @@ Guy B. Marin, William H. Green, "Detailed study of cyclopentadiene pyrolysis in 
 presence of ethene: realistic pathways from C5H5 to naphthalene." (2016)
 """
 entry(
-    index = 1,
+    index = 0,
     label = "CPD + CPDyl <=> adducte",
     degeneracy = 1,
     kinetics = Arrhenius(A=(288, 'cm^3/(mol*s)'), n=2.8, Ea=(8.7, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "CPD + CPDyl <=> adductd",
     degeneracy = 1,
     kinetics = Arrhenius(A=(288, 'cm^3/(mol*s)'), n=2.74, Ea=(3.3, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "adductd <=> pdt7",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.89e+11, 's^-1'), n=0.29, Ea=(15.4, 'kcal/mol'), T0=(1, 'K')),
@@ -38,35 +38,35 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "pdt7 <=> pdt8",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.51e+11, 's^-1'), n=0.58, Ea=(29.1, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "pdt8 <=> pdt9",
     degeneracy = 1,
     kinetics = Arrhenius(A=(8.39e+10, 's^-1'), n=0.91, Ea=(36.4, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "pdt9 <=> pdt10bis",
     degeneracy = 1,
     kinetics = Arrhenius(A=(6.25e+09, 's^-1'), n=0.76, Ea=(6.2, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "adducte <=> pdt7",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.43e+11, 's^-1'), n=0.21, Ea=(8.5, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "pdt11 + H <=> pdt10bis",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -82,21 +82,21 @@ u"""
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "pdt10bis <=> pdt12",
     degeneracy = 1,
     kinetics = Arrhenius(A=(8.76e+10, 's^-1'), n=0.78, Ea=(24.5, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "pdt12 <=> benzene + butadieneyl",
     degeneracy = 1,
     kinetics = Arrhenius(A=(7.14e+12, 's^-1'), n=0.52, Ea=(22.9, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "pdt13 + H <=> pdt12",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -112,7 +112,7 @@ u"""
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "adductd <=> pdt14",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.02e+11, 's^-1'), n=0.85, Ea=(46.1, 'kcal/mol'), T0=(1, 'K')),
@@ -124,14 +124,14 @@ u"""
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "adductd <=> pdt15",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.12e+08, 's^-1'), n=1.64, Ea=(22.7, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "pdt15 <=> pdt16",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.29e+09, 's^-1'), n=1.04, Ea=(31.2, 'kcal/mol'), T0=(1, 'K')),
@@ -142,49 +142,49 @@ u"""
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "pdt16 <=> pdt17",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.36e+10, 's^-1'), n=0.44, Ea=(32.2, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "pdt17 <=> pdt18",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.47e+10, 's^-1'), n=0.79, Ea=(29, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "pdt18 <=> pdt19",
     degeneracy = 1,
     kinetics = Arrhenius(A=(6.69e+11, 's^-1'), n=0.22, Ea=(40, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 18,
+    index = 17,
     label = "pdt14 <=> pdt16",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.28e+08, 's^-1'), n=1.55, Ea=(18.4, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "pdt14 <=> pdt20",
     degeneracy = 1,
     kinetics = Arrhenius(A=(0.107, 's^-1'), n=3.67, Ea=(29.6, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 20,
+    index = 19,
     label = "pdt20 <=> pdt21",
     degeneracy = 1,
     kinetics = Arrhenius(A=(7.9e+10, 's^-1'), n=0.29, Ea=(21.1, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 21,
+    index = 20,
     label = "pdt22 + CH3 <=> pdt21",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2480, 'cm^3/(mol*s)'), n=2.89, Ea=(-0.9, 'kcal/mol'), T0=(1, 'K')),
@@ -195,28 +195,28 @@ u"""
 )
 
 entry(
-    index = 22,
+    index = 21,
     label = "pdt14 <=> pdt23",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.19e+11, 's^-1'), n=0.08, Ea=(16.7, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 23,
+    index = 22,
     label = "pdt22 <=> INDENE",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.2e+09, 's^-1'), n=0.96, Ea=(6.8, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 24,
+    index = 23,
     label = "pdt23 <=> pdt9",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.27e+10, 's^-1'), n=1.01, Ea=(40.7, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 25,
+    index = 24,
     label = "pdt23 <=> pdt30 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.49e+09, 's^-1'), n=1.41, Ea=(38.3, 'kcal/mol'), T0=(1, 'K')),
@@ -227,7 +227,7 @@ u"""
 )
 
 entry(
-    index = 26,
+    index = 25,
     label = "pdt26 + H <=> pdt19",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -243,14 +243,14 @@ u"""
 )
 
 entry(
-    index = 27,
+    index = 26,
     label = "pdt18 <=> pdt25",
     degeneracy = 1,
     kinetics = Arrhenius(A=(250000, 's^-1'), n=1.95, Ea=(24, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 28,
+    index = 27,
     label = "pdt13 + H <=> pdt25",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -266,7 +266,7 @@ u"""
 )
 
 entry(
-    index = 29,
+    index = 28,
     label = "pdt31 + H <=> pdt8",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -282,28 +282,28 @@ u"""
 )
 
 entry(
-    index = 30,
+    index = 29,
     label = "pdt17 <=> pdt24",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.48e+11, 's^-1'), n=0.26, Ea=(7.2, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 31,
+    index = 30,
     label = "pdt24 <=> pdt28",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.43e+12, 's^-1'), n=0.31, Ea=(18.2, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 32,
+    index = 31,
     label = "pdt21 <=> pdt27",
     degeneracy = 1,
     kinetics = Arrhenius(A=(6.07e+06, 's^-1'), n=2, Ea=(26.1, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 33,
+    index = 32,
     label = "INDENE + CH3 <=> pdt27",
     degeneracy = 1,
     kinetics = Arrhenius(A=(643, 'cm^3/(mol*s)'), n=2.8, Ea=(8.6, 'kcal/mol'), T0=(1, 'K')),
@@ -314,7 +314,7 @@ u"""
 )
 
 entry(
-    index = 34,
+    index = 33,
     label = "pdt16 <=> pdt20",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.59e+08, 's^-1'), n=1.01, Ea=(26.4, 'kcal/mol'), T0=(1, 'K')),
@@ -325,35 +325,35 @@ u"""
 )
 
 entry(
-    index = 35,
+    index = 34,
     label = "pdt28 <=> pdt29",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.67e+09, 's^-1'), n=1.14, Ea=(22.4, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 36,
+    index = 35,
     label = "pdt28 <=> pdt23",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.46e+07, 's^-1'), n=1.66, Ea=(31.6, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 37,
+    index = 36,
     label = "pdt25 <=> pdt32",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1e+11, 's^-1'), n=0.41, Ea=(32.4, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 38,
+    index = 37,
     label = "pdt32 <=> pdt22 + CH3",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.72e+10, 's^-1'), n=1.33, Ea=(51.9, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 39,
+    index = 38,
     label = "pdt14 <=> pdt33",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.18e+07, 's^-1'), n=1.8, Ea=(15.8, 'kcal/mol'), T0=(1, 'K')),
@@ -364,7 +364,7 @@ u"""
 )
 
 entry(
-    index = 40,
+    index = 39,
     label = "pdt33 <=> pdt20",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.27e+06, 's^-1'), n=1.5, Ea=(33.7, 'kcal/mol'), T0=(1, 'K')),
@@ -375,7 +375,7 @@ u"""
 )
 
 entry(
-    index = 41,
+    index = 40,
     label = "pdt33 <=> pdt29",
     degeneracy = 1,
     kinetics = Arrhenius(A=(9.16e+10, 's^-1'), n=0.2, Ea=(24.2, 'kcal/mol'), T0=(1, 'K')),
@@ -386,7 +386,7 @@ u"""
 )
 
 entry(
-    index = 42,
+    index = 41,
     label = "pdt31 + H <=> pdt29",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -403,7 +403,7 @@ u"""
 )
 
 entry(
-    index = 43,
+    index = 42,
     label = "pdt30 + H <=> pdt29",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -419,7 +419,7 @@ u"""
 )
 
 entry(
-    index = 44,
+    index = 43,
     label = "pdt35 + H <=> pdt29",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -435,7 +435,7 @@ u"""
 )
 
 entry(
-    index = 45,
+    index = 44,
     label = "pdt10bis <=> pdt37",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.83e+08, 's^-1'), n=1.45, Ea=(31.9, 'kcal/mol'), T0=(1, 'K')),
@@ -446,7 +446,7 @@ u"""
 )
 
 entry(
-    index = 46,
+    index = 45,
     label = "pdt38 + H <=> pdt37",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -462,7 +462,7 @@ u"""
 )
 
 entry(
-    index = 47,
+    index = 46,
     label = "pdt15 <=> pdt39",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.18e+08, 's^-1'), n=1.8, Ea=(21.8, 'kcal/mol'), T0=(1, 'K')),
@@ -473,7 +473,7 @@ u"""
 )
 
 entry(
-    index = 48,
+    index = 47,
     label = "pdt39 <=> pdt33",
     degeneracy = 1,
     kinetics = Arrhenius(A=(9.38e+09, 's^-1'), n=1.08, Ea=(42.3, 'kcal/mol'), T0=(1, 'K')),
@@ -485,7 +485,7 @@ u"""
 )
 
 entry(
-    index = 49,
+    index = 48,
     label = "pdt14 <=> pdt57",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.51e+11, 's^-1'), n=0.28, Ea=(12.9, 'kcal/mol'), T0=(1, 'K')),
@@ -496,14 +496,14 @@ u"""
 )
 
 entry(
-    index = 50,
+    index = 49,
     label = "pdt57 <=> pdt12",
     degeneracy = 1,
     kinetics = Arrhenius(A=(7.75e+11, 's^-1'), n=0.44, Ea=(18.7, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 51,
+    index = 50,
     label = "adductd <=> pdt55",
     degeneracy = 1,
     kinetics = Arrhenius(A=(6.36e+06, 's^-1'), n=1.7, Ea=(31.7, 'kcal/mol'), T0=(1, 'K')),
@@ -514,28 +514,28 @@ u"""
 )
 
 entry(
-    index = 52,
+    index = 51,
     label = "pdt15 <=> pdt55",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.78e+06, 's^-1'), n=1.75, Ea=(25.3, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 53,
+    index = 52,
     label = "pdt55 <=> pdt58",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.02e+11, 's^-1'), n=0.79, Ea=(35.3, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 54,
+    index = 53,
     label = "pdt58 <=> pdt20",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.04e+07, 's^-1'), n=1.61, Ea=(27.1, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 55,
+    index = 54,
     label = "INDENYL <=> INDENYL_ADD",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1e-11, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
@@ -546,21 +546,21 @@ u"""
 )
 
 entry(
-    index = 56,
+    index = 55,
     label = "INDENYL <=> INDENYL_ADD2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1e-11, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 57,
+    index = 56,
     label = "INDENYL <=> INDENYL_ADD3",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1e-11, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 58,
+    index = 57,
     label = "INDENYL <=> INDENYL_ADD4",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1e-11, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),

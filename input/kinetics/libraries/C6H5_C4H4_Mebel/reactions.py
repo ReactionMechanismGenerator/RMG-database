@@ -17,7 +17,7 @@ All the rates at each pressure are the sum of MultiArrhenius expressions
 Duplicated rates (backward rate if there is the forward rate) are deleted after we checked the backward rates are similar to those rates calculated from thermo by using plot kinetics tool in RMG website
 """
 entry(
-    index = 1,
+    index = 0,
     label = "C6H5 + C4H4 <=> W1",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -100,7 +100,7 @@ fit btw. 500 and 2250 K with MAE of 3.7%, 12.1%
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "C6H5 + C4H4 <=> W2",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -168,7 +168,7 @@ fit btw. 500 and 1650 K with MAE of 1.3%, 2.2%
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "C6H5 + C4H4 <=> W3",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -251,7 +251,7 @@ fit btw. 500 and 1800 K with MAE of 2.8%, 8.3%
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "C6H5 + C4H4 <=> W9",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -334,7 +334,7 @@ fit btw. 500 and 2000 K with MAE of 5.6%, 16.9%
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "C6H5 + C4H4 <=> W14",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -407,7 +407,7 @@ fit btw. 500 and 1650 K with MAE of 0.4%, 0.6%
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "C6H5 + C4H4 <=> W16",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -490,7 +490,7 @@ fit btw. 500 and 2000 K with MAE of 8.9%, 35.7%
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "C6H5 + C4H4 <=> P1 + H",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -573,7 +573,7 @@ fit btw. 500 and 2500 K with MAE of 27.1%, 73.7%
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "C6H5 + C4H4 <=> P3 + H",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -698,7 +698,7 @@ fit btw. 500 and 2500 K with MAE of 6.3%, 15.6% from P3
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "C6H5 + C4H4 <=> P4 + H",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -781,7 +781,7 @@ fit btw. 500 and 2500 K with MAE of 10.3%, 28.6%
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "C6H5 + C4H4 <=> P5 + H",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -864,7 +864,7 @@ fit btw. 500 and 2500 K with MAE of 8.4%, 14.5%
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "C6H5 + C4H4 <=> P6 + H",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -937,7 +937,7 @@ fit btw. 500 and 2500 K with MAE of 4.2%, 12.1%
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "P3 + H <=> W21",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -1072,7 +1072,7 @@ fit btw. 500 and 2000 K with MAE of 29.8%, 142.2% from P3
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "P3 + H <=> P1 + H",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -1207,7 +1207,7 @@ fit btw. 500 and 2500 K with MAE of 6.4%, 14.7% from P3
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "P3 + H <=> W1",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -1290,7 +1290,7 @@ fit btw. 500 and 2250 K with MAE of 2.5%, 4.4%
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "P3 + H <=> P5 + H",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -1373,7 +1373,7 @@ fit btw. 500 and 2500 K with MAE of 17.2%, 39.2%
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "P3 + H <=> P6 + H",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -1451,7 +1451,7 @@ fit btw. 500 and 2500 K with MAE of 6.1%, 18.2%
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "P4 + H <=> W3",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -1534,7 +1534,7 @@ fit btw. 500 and 1800 K with MAE of 2.4%, 4.7%
 )
 
 entry(
-    index = 18,
+    index = 17,
     label = "P4 + H <=> W9",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -1617,7 +1617,7 @@ fit btw. 500 and 2000 K with MAE of 1.1%, 1.8%
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "P4 + H <=> P1 + H",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -1700,7 +1700,7 @@ fit btw. 500 and 2500 K with MAE of 20.8%, 47.5%
 )
 
 entry(
-    index = 20,
+    index = 19,
     label = "P4 + H <=> P3 + H",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -1830,7 +1830,7 @@ fit btw. 500 and 2500 K with MAE of 7.9%, 23.5% from P2
 )
 
 entry(
-    index = 21,
+    index = 20,
     label = "P4 + H <=> P5 + H",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -1913,7 +1913,7 @@ fit btw. 500 and 2500 K with MAE of 6.8%, 12.3%
 )
 
 entry(
-    index = 22,
+    index = 21,
     label = "C6H5 + C4H4 <=> i-C4H3 + C6H6",
     degeneracy = 1,
     kinetics = MultiArrhenius(
@@ -1931,7 +1931,7 @@ entry(
 )
 
 entry(
-    index = 23,
+    index = 22,
     label = "C6H5 + C4H4 <=> n-C4H3 + C6H6",
     degeneracy = 1,
     kinetics = MultiArrhenius(

@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 entry(
-    index = 1,
+    index = 0,
     label = "H2",
     molecule = 
 """
@@ -27,7 +27,7 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "O2",
     molecule = 
 """
@@ -48,7 +48,7 @@ multiplicity 3
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "H2O",
     molecule = 
 """
@@ -69,7 +69,7 @@ entry(
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "H2O2",
     molecule = 
 """
@@ -91,7 +91,7 @@ entry(
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "CO2",
     molecule = 
 """
@@ -112,7 +112,7 @@ entry(
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "CO",
     molecule = 
 """
@@ -132,7 +132,7 @@ entry(
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "H2S",
     molecule = 
 """
@@ -153,7 +153,7 @@ entry(
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "N2",
     molecule = 
 """
@@ -173,7 +173,7 @@ entry(
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "C(S)",
     molecule = 
 """
@@ -192,7 +192,7 @@ entry(
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "NH(S)",
     molecule = 
 """
@@ -212,7 +212,7 @@ entry(
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "N(D)",
     molecule = 
 """

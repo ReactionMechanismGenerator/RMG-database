@@ -13,7 +13,7 @@ Guy B. Marin, William H. Green, "Detailed study of cyclopentadiene pyrolysis in 
 presence of ethene: realistic pathways from C5H5 to naphthalene." (2016)
 """
 entry(
-    index = 1,
+    index = 0,
     label = "FULVENE + H <=> C5H4CH3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25,14 +25,14 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "FULVENE + H <=> C5H5CH2-1",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.31e+08, 'cm^3/(mol*s)'), n=1.76, Ea=(2, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "FULVENE + H <=> C5H5CH2-3",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -44,7 +44,7 @@ entry(
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "FULVENE + H <=> C5H5CH2-2",
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -56,42 +56,42 @@ entry(
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "C5H4CH3 <=> C5H5CH2-1",
     degeneracy = 1,
     kinetics = Arrhenius(A=(0.00218, 's^-1'), n=4.91, Ea=(40.4, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "C5H5CH2-1 <=> C5H5CH2-3",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.23e+07, 's^-1'), n=1.54, Ea=(13.4, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "C5H5CH2-3 <=> C5H5CH2-2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(9220, 's^-1'), n=2.81, Ea=(30.2, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "C5H5CH2-1 <=> biring1",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.18e+11, 's^-1'), n=0.17, Ea=(4.4, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "biring1 <=> cyC6H7",
     degeneracy = 1,
     kinetics = Arrhenius(A=(8.51e+11, 's^-1'), n=0.41, Ea=(16.7, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "cyC6H7 <=> benzene + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.84e+09, 's^-1'), n=1.3, Ea=(27.4, 'kcal/mol'), T0=(1, 'K')),

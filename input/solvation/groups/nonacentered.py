@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 entry(
-    index = -3,
+    index = 0,
     label = "R",
     group = 
 """
@@ -22,7 +22,7 @@ u"""
 )
 
 entry(
-    index = -2,
+    index = 1,
     label = "CO",
     group = 
 """
@@ -37,7 +37,103 @@ u"""
 )
 
 entry(
-    index = 1,
+    index = 2,
+    label = "Lac",
+    group = "OR{Lac3, Lac4, Lac5, Lac6}",
+    solute = SoluteData(
+        S = 0.36,
+        B = -0.214,
+        E = 0,
+        L = 0.406,
+        A = 0,
+    ),
+    shortDesc = u"""Platts group 44 lactone""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 3,
+    label = "Lac3",
+    group = 
+"""
+1   Od  u0 {2,D}
+2 * CO  u0 {1,D} {3,S} {4,S}
+3   Os  u0 {2,S} {4,S}
+4   R!H u0 {2,S} {3,S}
+""",
+    solute = None,
+    shortDesc = u"""lactone, 3 membered ring""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 4,
+    label = "Lac4",
+    group = 
+"""
+1   Od  u0 {2,D}
+2 * CO  u0 {1,D} {3,S} {5,S}
+3   Os  u0 {2,S} {4,S}
+4   R!H u0 {3,S} {5,S}
+5   R!H u0 {2,S} {4,S}
+""",
+    solute = None,
+    shortDesc = u"""lactone, 4 membered ring""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 5,
+    label = "Lac5",
+    group = 
+"""
+1   Od  u0 {2,D}
+2 * CO  u0 {1,D} {3,S} {6,S}
+3   Os  u0 {2,S} {4,S}
+4   R!H u0 {3,S} {5,S}
+5   R!H u0 {4,S} {6,S}
+6   R!H u0 {2,S} {5,S}
+""",
+    solute = None,
+    shortDesc = u"""lactone, 5 membered ring""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 6,
+    label = "Lac6",
+    group = 
+"""
+1   Od  u0 {2,D}
+2 * CO  u0 {1,D} {3,S} {7,S}
+3   Os  u0 {2,S} {4,S}
+4   R!H u0 {3,S} {5,S}
+5   R!H u0 {4,S} {6,S}
+6   R!H u0 {5,S} {7,S}
+7   R!H u0 {2,S} {6,S}
+""",
+    solute = None,
+    shortDesc = u"""lactone, 6 membered ring""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 7,
     label = "Oss(CdsOd)",
     group = 
 """
@@ -62,103 +158,7 @@ u"""
 )
 
 entry(
-    index = 15,
-    label = "Lac",
-    group = "OR{Lac3, Lac4, Lac5, Lac6}",
-    solute = SoluteData(
-        S = 0.36,
-        B = -0.214,
-        E = 0,
-        L = 0.406,
-        A = 0,
-    ),
-    shortDesc = u"""Platts group 44 lactone""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 16,
-    label = "Lac3",
-    group = 
-"""
-1   Od  u0 {2,D}
-2 * CO  u0 {1,D} {3,S} {4,S}
-3   Os  u0 {2,S} {4,S}
-4   R!H u0 {2,S} {3,S}
-""",
-    solute = None,
-    shortDesc = u"""lactone, 3 membered ring""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 17,
-    label = "Lac4",
-    group = 
-"""
-1   Od  u0 {2,D}
-2 * CO  u0 {1,D} {3,S} {5,S}
-3   Os  u0 {2,S} {4,S}
-4   R!H u0 {3,S} {5,S}
-5   R!H u0 {2,S} {4,S}
-""",
-    solute = None,
-    shortDesc = u"""lactone, 4 membered ring""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 18,
-    label = "Lac5",
-    group = 
-"""
-1   Od  u0 {2,D}
-2 * CO  u0 {1,D} {3,S} {6,S}
-3   Os  u0 {2,S} {4,S}
-4   R!H u0 {3,S} {5,S}
-5   R!H u0 {4,S} {6,S}
-6   R!H u0 {2,S} {5,S}
-""",
-    solute = None,
-    shortDesc = u"""lactone, 5 membered ring""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 19,
-    label = "Lac6",
-    group = 
-"""
-1   Od  u0 {2,D}
-2 * CO  u0 {1,D} {3,S} {7,S}
-3   Os  u0 {2,S} {4,S}
-4   R!H u0 {3,S} {5,S}
-5   R!H u0 {4,S} {6,S}
-6   R!H u0 {5,S} {7,S}
-7   R!H u0 {2,S} {6,S}
-""",
-    solute = None,
-    shortDesc = u"""lactone, 6 membered ring""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 2,
+    index = 8,
     label = "Oss(CdsOd)Oss",
     group = 
 """
@@ -184,7 +184,7 @@ u"""
 )
 
 entry(
-    index = 3,
+    index = 9,
     label = "OssH(CdsOd)",
     group = 
 """
@@ -209,7 +209,7 @@ u"""
 )
 
 entry(
-    index = 5,
+    index = 10,
     label = "Cd(Od)Cd=CdCd(Od)",
     group = 
 """
@@ -239,7 +239,107 @@ u"""
 )
 
 entry(
-    index = 20,
+    index = 11,
+    label = "Lactam",
+    group = "OR{Lactam4, Lactam5, Lactam6, Lactam7}",
+    solute = SoluteData(
+        S = -0.1,
+        B = -0.231,
+        E = 0.061,
+        L = 0.583,
+        A = 0,
+    ),
+    shortDesc = u"""Platts group 50 lactam""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 12,
+    label = "Lactam4",
+    group = 
+"""
+1   Od u0 {2,D}
+2 * CO u0 {1,D} {3,S} {5,S}
+3   N  u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {2,S} {4,S}
+""",
+    solute = None,
+    shortDesc = u"""lactam, 4 membered ring""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 13,
+    label = "Lactam5",
+    group = 
+"""
+1   Od u0 {2,D}
+2 * CO u0 {1,D} {3,S} {6,S}
+3   N  u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cs u0 {2,S} {5,S}
+""",
+    solute = None,
+    shortDesc = u"""lactam, 5 membered ring""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 14,
+    label = "Lactam6",
+    group = 
+"""
+1   Od u0 {2,D}
+2 * CO u0 {1,D} {3,S} {7,S}
+3   N  u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cs u0 {2,S} {6,S}
+""",
+    solute = None,
+    shortDesc = u"""lactam, 6 membered ring""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 15,
+    label = "Lactam7",
+    group = 
+"""
+1   Od u0 {2,D}
+2 * CO u0 {1,D} {3,S} {8,S}
+3   N  u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cs u0 {6,S} {8,S}
+8   Cs u0 {2,S} {7,S}
+""",
+    solute = None,
+    shortDesc = u"""lactam, 7 membered ring""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 16,
     label = "Cd(Od)N",
     group = 
 """
@@ -262,107 +362,7 @@ u"""
 )
 
 entry(
-    index = 21,
-    label = "Lactam",
-    group = "OR{Lactam4, Lactam5, Lactam6, Lactam7}",
-    solute = SoluteData(
-        S = -0.1,
-        B = -0.231,
-        E = 0.061,
-        L = 0.583,
-        A = 0,
-    ),
-    shortDesc = u"""Platts group 50 lactam""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 22,
-    label = "Lactam4",
-    group = 
-"""
-1   Od u0 {2,D}
-2 * CO u0 {1,D} {3,S} {5,S}
-3   N  u0 {2,S} {4,S}
-4   Cs u0 {3,S} {5,S}
-5   Cs u0 {2,S} {4,S}
-""",
-    solute = None,
-    shortDesc = u"""lactam, 4 membered ring""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 23,
-    label = "Lactam5",
-    group = 
-"""
-1   Od u0 {2,D}
-2 * CO u0 {1,D} {3,S} {6,S}
-3   N  u0 {2,S} {4,S}
-4   Cs u0 {3,S} {5,S}
-5   Cs u0 {4,S} {6,S}
-6   Cs u0 {2,S} {5,S}
-""",
-    solute = None,
-    shortDesc = u"""lactam, 5 membered ring""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 24,
-    label = "Lactam6",
-    group = 
-"""
-1   Od u0 {2,D}
-2 * CO u0 {1,D} {3,S} {7,S}
-3   N  u0 {2,S} {4,S}
-4   Cs u0 {3,S} {5,S}
-5   Cs u0 {4,S} {6,S}
-6   Cs u0 {5,S} {7,S}
-7   Cs u0 {2,S} {6,S}
-""",
-    solute = None,
-    shortDesc = u"""lactam, 6 membered ring""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 25,
-    label = "Lactam7",
-    group = 
-"""
-1   Od u0 {2,D}
-2 * CO u0 {1,D} {3,S} {8,S}
-3   N  u0 {2,S} {4,S}
-4   Cs u0 {3,S} {5,S}
-5   Cs u0 {4,S} {6,S}
-6   Cs u0 {5,S} {7,S}
-7   Cs u0 {6,S} {8,S}
-8   Cs u0 {2,S} {7,S}
-""",
-    solute = None,
-    shortDesc = u"""lactam, 7 membered ring""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 27,
+    index = 17,
     label = "NCd(Od)N",
     group = 
 """
@@ -386,7 +386,7 @@ u"""
 )
 
 entry(
-    index = 28,
+    index = 18,
     label = "OsCd(Od)N",
     group = 
 """
@@ -410,7 +410,7 @@ u"""
 )
 
 entry(
-    index = 29,
+    index = 19,
     label = "Cd(Od)NCd(Od)",
     group = 
 """
@@ -435,7 +435,7 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 20,
     label = "Cs(OssH)Cs(OssH)",
     group = 
 """
@@ -465,7 +465,7 @@ u"""
 )
 
 entry(
-    index = 6,
+    index = 21,
     label = "CbCsOssH",
     group = 
 """
@@ -489,7 +489,7 @@ u"""
 )
 
 entry(
-    index = 8,
+    index = 22,
     label = "OssH",
     group = 
 """
@@ -512,7 +512,7 @@ u"""
 )
 
 entry(
-    index = 7,
+    index = 23,
     label = "phenol",
     group = 
 """
@@ -535,7 +535,7 @@ u"""
 )
 
 entry(
-    index = 9,
+    index = 24,
     label = "OxRing",
     group = "OR{OxR3, OxR4, OxR5, OxR6, OxR7}",
     solute = SoluteData(
@@ -553,7 +553,7 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 25,
     label = "OxR3",
     group = 
 """
@@ -570,7 +570,7 @@ u"""
 )
 
 entry(
-    index = 11,
+    index = 26,
     label = "OxR4",
     group = 
 """
@@ -588,7 +588,7 @@ u"""
 )
 
 entry(
-    index = 12,
+    index = 27,
     label = "OxR5",
     group = 
 """
@@ -607,7 +607,7 @@ u"""
 )
 
 entry(
-    index = 13,
+    index = 28,
     label = "OxR6",
     group = 
 """
@@ -627,7 +627,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 29,
     label = "OxR7",
     group = 
 """
@@ -646,31 +646,6 @@ u"""
 
 """,
 )
-
-#temporarily removed until multivalent Sulfur is implemented
-# entry(
-#     index = 26,
-#     label = "SdOdOdN",
-#     group = 
-# """
-# 1 * Sd u0 {2,D} {3,D} {4,S}
-# 2   Od u0 {1,D}
-# 3   Od u0 {1,D}
-# 4   N  u0 {1,S}
-# """,
-#     solute = SoluteData(
-#         S = -0.569,
-#         B = -0.446,
-#         E = -0.111,
-#         L = 0.0,
-#         A = 0.356,
-#     ),
-#     shortDesc = u"""Platts group 51 sulfonamide -S(O)(O)N- (and fragment 13 for A)""",
-#     longDesc = 
-# u"""
-
-# """,
-# )
 
 entry(
     index = 30,
@@ -703,6 +678,32 @@ u"""
 
 entry(
     index = 31,
+    label = "N3sHCd(Od)N3sH",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S}
+2   H   u0 {1,S}
+3   CO  u0 {1,S} {4,D} {5,S}
+4   Od  u0 {3,D}
+5   N3s u0 {3,S} {6,S}
+6   H   u0 {5,S}
+""",
+    solute = SoluteData(
+        S = 0.0,
+        B = 0.0,
+        E = 0.0,
+        L = 0.0,
+        A = -0.0825,
+    ),
+    shortDesc = u"""urea correction for A (fragment 14)""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 32,
     label = "Cd(Od)NH2",
     group = 
 """
@@ -727,7 +728,7 @@ u"""
 )
 
 entry(
-    index = 32,
+    index = 33,
     label = "Cd(Od)NHR",
     group = 
 """
@@ -752,7 +753,7 @@ u"""
 )
 
 entry(
-    index = 33,
+    index = 34,
     label = "Cd(Od)NH-arom",
     group = 
 """
@@ -770,32 +771,6 @@ entry(
         A = -0.091,
     ),
     shortDesc = u"""aromatic amide correction for A (fragment 12)""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 34,
-    label = "N3sHCd(Od)N3sH",
-    group = 
-"""
-1 * N3s u0 {2,S} {3,S}
-2   H   u0 {1,S}
-3   CO  u0 {1,S} {4,D} {5,S}
-4   Od  u0 {3,D}
-5   N3s u0 {3,S} {6,S}
-6   H   u0 {5,S}
-""",
-    solute = SoluteData(
-        S = 0.0,
-        B = 0.0,
-        E = 0.0,
-        L = 0.0,
-        A = -0.0825,
-    ),
-    shortDesc = u"""urea correction for A (fragment 14)""",
     longDesc = 
 u"""
 
@@ -875,7 +850,7 @@ L1: R
             L4: Lactam4
             L4: Lactam5
             L4: Lactam6
-            L4: Lactam7        
+            L4: Lactam7
         L3: Cd(Od)N
             L4: NCd(Od)N
             L4: OsCd(Od)N

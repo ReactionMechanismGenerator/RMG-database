@@ -1045,7 +1045,7 @@ entry(
     index = 70,
     label = "Cds-HH_Cds-CdH;CdsJ-H",
     kinetics = ArrheniusEP(
-        A = (2.45e+2, 'cm^3/(mol*s)'),
+        A = (245, 'cm^3/(mol*s)'),
         n = 3.08,
         alpha = 0,
         E0 = (1.4, 'kcal/mol'),
@@ -39333,7 +39333,7 @@ entry(
     index = 3055,
     label = "Cds-HH_Cds-HH;CdsJ=Cdd",
     kinetics = ArrheniusEP(
-        A = (1.04E+00, 'cm^3/(mol*s)'),
+        A = (1.04, 'cm^3/(mol*s)'),
         n = 3.05,
         alpha = 0,
         E0 = (13.1, 'kcal/mol'),
@@ -39348,7 +39348,7 @@ entry(
     index = 3056,
     label = "Ct-H_Ct-H;CdsJ=Cdd",
     kinetics = ArrheniusEP(
-        A = (1.70E+05, 'cm^3/(mol*s)'),
+        A = (170000, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (13.8, 'kcal/mol'),
@@ -39357,21 +39357,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""A.G. Vandeputte, BMK/cbsb7 no 1D-HR (slow anyway)""",
-)
-
-entry(
-    index = 3134,
-    label = "Ca_Cds-HH;CdsJ=Cdd",
-    kinetics = ArrheniusEP(
-        A = (1.04E+00, 'cm^3/(mol*s)'),
-        n = 3.05,
-        alpha = 0,
-        E0 = (13.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""A.G. Vandeputte estimate.  Equal to Cds-HH_Cds-HH;CdsJ=Cdd""",
 )
 
 entry(
@@ -39569,7 +39554,7 @@ entry(
     index = 3069,
     label = "Cds-HH_Cds-CsH;OJ_pri",
     kinetics = ArrheniusEP(
-        A = (3.2E+5, 'cm^3/(mol*s)'),
+        A = (320000, 'cm^3/(mol*s)'),
         n = 2.03,
         alpha = 0,
         E0 = (-3.5, 'kcal/mol'),
@@ -39577,12 +39562,13 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = "propene+OH rate coefficient",
-    longDesc = """
+    shortDesc = u"""propene+OH rate coefficient""",
+    longDesc = 
+u"""
 Ref Ab Initio Kinetics for the Decomposition of Hydroxybutyl and Butoxy Radicals of n-Butanol,Zhang P.,Klippenstein S.K.,Law C.K.
 The thermochemistry for the species is obtained from Mike's n-butanol paper dx.doi.org/10.1016/j.combustflame.2010.06.002         
-Original rate is too high (~ factor of 10) replaced with propene+OH rate coefficient 
-    """,
+Original rate is too high (~ factor of 10) replaced with propene+OH rate coefficient
+""",
 )
 
 entry(
@@ -40256,6 +40242,25 @@ entry(
 )
 
 entry(
+    index = 3119,
+    label = "CO-HH_O;HJ",
+    kinetics = ArrheniusEP(
+        A = (6.31e+07, 'cm^3/(mol*s)'),
+        n = 1.8,
+        alpha = 0,
+        E0 = (4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+u"""
+AGV BMK/cbsb7 with 1dHR
+""",
+)
+
+entry(
     index = 3120,
     label = "Cds-OsH_Cds-CsH;HJ",
     kinetics = ArrheniusEP(
@@ -40271,6 +40276,25 @@ entry(
 )
 
 entry(
+    index = 3120,
+    label = "CO-CsH_O;HJ",
+    kinetics = ArrheniusEP(
+        A = (8.76e+06, 'cm^3/(mol*s)'),
+        n = 1.99,
+        alpha = 0,
+        E0 = (5.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+u"""
+AGV BMK/cbsb7 with 1dHR
+""",
+)
+
+entry(
     index = 3121,
     label = "Cds-HH_Cds-CsH;HJ",
     kinetics = ArrheniusEP(
@@ -40283,9 +40307,29 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
-    longDesc = """
-    Update: changed rank to 5.  A.G. Vandeputte.  GA estimate is probably better.
-"""
+    longDesc = 
+u"""
+Update: changed rank to 5.  A.G. Vandeputte.  GA estimate is probably better.
+""",
+)
+
+entry(
+    index = 3121,
+    label = "CO-CsH_O;HJ",
+    kinetics = ArrheniusEP(
+        A = (792000, 'cm^3/(mol*s)'),
+        n = 2.4,
+        alpha = 0,
+        E0 = (8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+u"""
+AGV BMK/cbsb7 with 1dHR
+""",
 )
 
 entry(
@@ -40304,6 +40348,25 @@ entry(
 )
 
 entry(
+    index = 3122,
+    label = "CO-CdH_O;HJ",
+    kinetics = ArrheniusEP(
+        A = (7.5e+06, 'cm^3/(mol*s)'),
+        n = 2.16,
+        alpha = 0,
+        E0 = (4.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+u"""
+AGV BMK/cbsb7 with 1dHR
+""",
+)
+
+entry(
     index = 3123,
     label = "Cds-CsH_Cds-OsH;HJ",
     kinetics = ArrheniusEP(
@@ -40316,6 +40379,25 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
+)
+
+entry(
+    index = 3123,
+    label = "CO-CdCs_O;HJ",
+    kinetics = ArrheniusEP(
+        A = (3.97e+07, 'cm^3/(mol*s)'),
+        n = 1.88,
+        alpha = 0,
+        E0 = (7.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+u"""
+AGV BMK/cbsb7 with 1dHR
+""",
 )
 
 entry(
@@ -40334,6 +40416,25 @@ entry(
 )
 
 entry(
+    index = 3124,
+    label = "CO-CtH_O;HJ",
+    kinetics = ArrheniusEP(
+        A = (2.99e+06, 'cm^3/(mol*s)'),
+        n = 2.12,
+        alpha = 0,
+        E0 = (4.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+u"""
+AGV BMK/cbsb7 with 1dHR
+""",
+)
+
+entry(
     index = 3125,
     label = "Od_CO;HJ",
     kinetics = ArrheniusEP(
@@ -40346,6 +40447,25 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""SSM calc CBS-QB3 1dhr, gave parent same value as one of the children""",
+)
+
+entry(
+    index = 3125,
+    label = "CO-CtCs_O;HJ",
+    kinetics = ArrheniusEP(
+        A = (1.59e+07, 'cm^3/(mol*s)'),
+        n = 1.84,
+        alpha = 0,
+        E0 = (7.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+u"""
+AGV BMK/cbsb7 with 1dHR
+""",
 )
 
 entry(
@@ -40364,6 +40484,25 @@ entry(
 )
 
 entry(
+    index = 3126,
+    label = "Od_CO-HH;HJ",
+    kinetics = ArrheniusEP(
+        A = (2330, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (6.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+u"""
+AGV BMK/cbsb7 with 1dHR
+""",
+)
+
+entry(
     index = 3127,
     label = "Cds-HH_Cds-HH;CsJ-OsHH",
     kinetics = ArrheniusEP(
@@ -40376,6 +40515,25 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
+)
+
+entry(
+    index = 3127,
+    label = "Od_CO-CsH;HJ",
+    kinetics = ArrheniusEP(
+        A = (1460, 'cm^3/(mol*s)'),
+        n = 3.14,
+        alpha = 0,
+        E0 = (7.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+u"""
+AGV BMK/cbsb7 with 1dHR
+""",
 )
 
 entry(
@@ -40394,6 +40552,25 @@ entry(
 )
 
 entry(
+    index = 3128,
+    label = "Od_CO-CsCs;HJ",
+    kinetics = ArrheniusEP(
+        A = (32300, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (7.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+u"""
+AGV BMK/cbsb7 with 1dHR
+""",
+)
+
+entry(
     index = 3129,
     label = "CO-HH_O;CsJ-CsHH",
     kinetics = ArrheniusEP(
@@ -40406,6 +40583,25 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
+)
+
+entry(
+    index = 3129,
+    label = "Od_CO-CdH;HJ",
+    kinetics = ArrheniusEP(
+        A = (373000, 'cm^3/(mol*s)'),
+        n = 2.53,
+        alpha = 0,
+        E0 = (5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+u"""
+AGV BMK/cbsb7 with 1dHR
+""",
 )
 
 entry(
@@ -40424,6 +40620,25 @@ entry(
 )
 
 entry(
+    index = 3130,
+    label = "Od_CO-CdCs;HJ",
+    kinetics = ArrheniusEP(
+        A = (6.39e+06, 'cm^3/(mol*s)'),
+        n = 2.09,
+        alpha = 0,
+        E0 = (6.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+u"""
+AGV BMK/cbsb7 with 1dHR
+""",
+)
+
+entry(
     index = 3131,
     label = "CO-HH_O;HJ",
     kinetics = ArrheniusEP(
@@ -40436,6 +40651,159 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""High-P Limit from EFRC Mechanism""",
+)
+
+entry(
+    index = 3131,
+    label = "Od_CO-CtH;HJ",
+    kinetics = ArrheniusEP(
+        A = (1.07e+06, 'cm^3/(mol*s)'),
+        n = 2.43,
+        alpha = 0,
+        E0 = (5.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+u"""
+AGV BMK/cbsb7 with 1dHR
+""",
+)
+
+entry(
+    index = 3132,
+    label = "Od_CO-CtCs;HJ",
+    kinetics = ArrheniusEP(
+        A = (1.83e+07, 'cm^3/(mol*s)'),
+        n = 1.99,
+        alpha = 0,
+        E0 = (6.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
+    longDesc = 
+u"""
+AGV BMK/cbsb7 with 1dHR
+""",
+)
+
+entry(
+    index = 3133,
+    label = "Cds-HH_Cds-HH;CsJ-CdHH",
+    kinetics = Arrhenius(
+        A = (675, 'cm^3/(mol*s)', '*|/', 2),
+        n = 2.7,
+        Ea = (11.3, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Wang CBS-QB3""",
+    longDesc = 
+u"""
+Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
+    
+    Table 4
+    allyl + ethene <=> pent-1-en-5-yl
+
+    CBS-QB3, high-P limit, atomization method for energies, hindered rotors for torsions
+    around single bonds, tunneling with Eckart potentials.
+""",
+)
+
+entry(
+    index = 3134,
+    label = "Cds-HH_Cds-CsH;CsJ-CdHH",
+    kinetics = Arrhenius(
+        A = (780, 'cm^3/(mol*s)', '*|/', 2),
+        n = 2.53,
+        Ea = (11, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Wang CBS-QB3""",
+    longDesc = 
+u"""
+Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
+    
+    Table 4
+    allyl + propene = hex-1-en-5-yl
+
+    CBS-QB3, high-P limit, atomization method for energies, hindered rotors for torsions
+    around single bonds, tunneling with Eckart potentials.
+""",
+)
+
+entry(
+    index = 3134,
+    label = "Ca_Cds-HH;CdsJ=Cdd",
+    kinetics = ArrheniusEP(
+        A = (1.04, 'cm^3/(mol*s)'),
+        n = 3.05,
+        alpha = 0,
+        E0 = (13.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""A.G. Vandeputte estimate.  Equal to Cds-HH_Cds-HH;CdsJ=Cdd""",
+)
+
+entry(
+    index = 3135,
+    label = "Cds-CsH_Cds-HH;CsJ-CdHH",
+    kinetics = Arrhenius(
+        A = (34.3, 'cm^3/(mol*s)', '*|/', 2),
+        n = 2.84,
+        Ea = (12.2, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Wang CBS-QB3""",
+    longDesc = 
+u"""
+Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
+    
+    Table 4
+    allyl + propene = 4-methylpent-1-en-5-yl
+
+    CBS-QB3, high-P limit, atomization method for energies, hindered rotors for torsions
+    around single bonds, tunneling with Eckart potentials.
+""",
+)
+
+entry(
+    index = 3136,
+    label = "Cds-CsH_Cds-CsH;CsJ-CdHH",
+    kinetics = Arrhenius(
+        A = (119, 'cm^3/(mol*s)', '*|/', 2),
+        n = 2.7,
+        Ea = (11.2, 'kcal/mol', '+|-', 1),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Wang CBS-QB3""",
+    longDesc = 
+u"""
+Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
+    
+    Table 4
+    allyl + 2-butene = 4-methylhex-1-en-5-yl
+
+    CBS-QB3, high-P limit, atomization method for energies, hindered rotors for torsions
+    around single bonds, tunneling with Eckart potentials.
+""",
 )
 
 entry(
@@ -40610,368 +40978,3 @@ Added by Beat Buesser, value for reaction: HCN + O = HCNO (B&D #54) in 'Gas-Phas
 """,
 )
 
-entry(
-    index = 3119,
-    label = "CO-HH_O;HJ",
-    kinetics = ArrheniusEP(
-        A = (6.31E+07, 'cm^3/(mol*s)'),
-        n = 1.80,
-        alpha = 0,
-        E0 = (4.0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
-    """
-    AGV BMK/cbsb7 with 1dHR
-    """
-)
-
-entry(
-    index = 3120,
-    label = "CO-CsH_O;HJ",
-    kinetics = ArrheniusEP(
-        A = (8.76E+06, 'cm^3/(mol*s)'),
-        n = 1.99,
-        alpha = 0,
-        E0 = (5.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
-    """
-    AGV BMK/cbsb7 with 1dHR
-    """
-)
-
-entry(
-    index = 3121,
-    label = "CO-CsH_O;HJ",
-    kinetics = ArrheniusEP(
-        A = (7.92E+05, 'cm^3/(mol*s)'),
-        n = 2.40,
-        alpha = 0,
-        E0 = (8.0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
-    """
-    AGV BMK/cbsb7 with 1dHR
-    """
-)
-
-entry(
-    index = 3122,
-    label = "CO-CdH_O;HJ",
-    kinetics = ArrheniusEP(
-        A = (7.50E+06, 'cm^3/(mol*s)'),
-        n = 2.16,
-        alpha = 0,
-        E0 = (4.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
-    """
-    AGV BMK/cbsb7 with 1dHR
-    """
-)
-
-entry(
-    index = 3123,
-    label = "CO-CdCs_O;HJ",
-    kinetics = ArrheniusEP(
-        A = (3.97E+07, 'cm^3/(mol*s)'),
-        n = 1.88,
-        alpha = 0,
-        E0 = (7.7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
-    """
-    AGV BMK/cbsb7 with 1dHR
-    """
-)
-
-entry(
-    index = 3124,
-    label = "CO-CtH_O;HJ",
-    kinetics = ArrheniusEP(
-        A = (2.99E+06, 'cm^3/(mol*s)'),
-        n = 2.12,
-        alpha = 0,
-        E0 = (4.8, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
-    """
-    AGV BMK/cbsb7 with 1dHR
-    """
-)
-
-entry(
-    index = 3125,
-    label = "CO-CtCs_O;HJ",
-    kinetics = ArrheniusEP(
-        A = (1.59E+07, 'cm^3/(mol*s)'),
-        n = 1.84,
-        alpha = 0,
-        E0 = (7.8, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
-    """
-    AGV BMK/cbsb7 with 1dHR
-    """
-)
-
-entry(
-    index = 3126,
-    label = "Od_CO-HH;HJ",
-    kinetics = ArrheniusEP(
-        A = (2.33E+03, 'cm^3/(mol*s)'),
-        n = 3.17,
-        alpha = 0,
-        E0 = (6.7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
-    """
-    AGV BMK/cbsb7 with 1dHR
-    """
-)
-
-entry(
-    index = 3127,
-    label = "Od_CO-CsH;HJ",
-    kinetics = ArrheniusEP(
-        A = (1.46E+03, 'cm^3/(mol*s)'),
-        n = 3.14 ,
-        alpha = 0,
-        E0 = (7.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
-    """
-    AGV BMK/cbsb7 with 1dHR
-    """
-)
-
-entry(
-    index = 3128,
-    label = "Od_CO-CsCs;HJ",
-    kinetics = ArrheniusEP(
-        A = (3.23E+04, 'cm^3/(mol*s)'),
-        n = 2.98 ,
-        alpha = 0,
-        E0 = (7.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
-    """
-    AGV BMK/cbsb7 with 1dHR
-    """
-)
-
-entry(
-    index = 3129,
-    label = "Od_CO-CdH;HJ",
-    kinetics = ArrheniusEP(
-        A = (3.73E+05, 'cm^3/(mol*s)'),
-        n = 2.53 ,
-        alpha = 0,
-        E0 = (5.0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
-    """
-    AGV BMK/cbsb7 with 1dHR
-    """
-)
-
-entry(
-    index = 3130,
-    label = "Od_CO-CdCs;HJ",
-    kinetics = ArrheniusEP(
-        A = (6.39E+06, 'cm^3/(mol*s)'),
-        n = 2.09 ,
-        alpha = 0,
-        E0 = (6.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
-    """
-    AGV BMK/cbsb7 with 1dHR
-    """
-)
-
-entry(
-    index = 3131,
-    label = "Od_CO-CtH;HJ",
-    kinetics = ArrheniusEP(
-        A = (1.07E+06, 'cm^3/(mol*s)'),
-        n = 2.43 ,
-        alpha = 0,
-        E0 = (5.4, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
-    """
-    AGV BMK/cbsb7 with 1dHR
-    """
-)
-
-entry(
-    index = 3132,
-    label = "Od_CO-CtCs;HJ",
-    kinetics = ArrheniusEP(
-        A = (1.83E+07, 'cm^3/(mol*s)'),
-        n = 1.99 ,
-        alpha = 0,
-        E0 = (6.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
-    """
-    AGV BMK/cbsb7 with 1dHR
-    """
-)
-
-entry(
-    index = 3133,
-    label = "Cds-HH_Cds-HH;CsJ-CdHH",
-    kinetics = Arrhenius(
-        A = (6.75E+02, 'cm^3/(mol*s)', '*|/', 2),
-        n = 2.700,
-        Ea = (11.3, 'kcal/mol', '+|-', 1),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Wang CBS-QB3""",
-    longDesc = 
-    """
-    Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
-    
-    Table 4
-    allyl + ethene <=> pent-1-en-5-yl
-
-    CBS-QB3, high-P limit, atomization method for energies, hindered rotors for torsions
-    around single bonds, tunneling with Eckart potentials.
-    """
-)
-
-entry(
-    index = 3134,
-    label = "Cds-HH_Cds-CsH;CsJ-CdHH",
-    kinetics = Arrhenius(
-        A = (7.80E+02, 'cm^3/(mol*s)', '*|/', 2),
-        n = 2.530,
-        Ea = (11.0, 'kcal/mol', '+|-', 1),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Wang CBS-QB3""",
-    longDesc = 
-    """
-    Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
-    
-    Table 4
-    allyl + propene = hex-1-en-5-yl
-
-    CBS-QB3, high-P limit, atomization method for energies, hindered rotors for torsions
-    around single bonds, tunneling with Eckart potentials.
-    """
-)
-
-entry(
-    index = 3135,
-    label = "Cds-CsH_Cds-HH;CsJ-CdHH",
-    kinetics = Arrhenius(
-        A = (3.43E+01, 'cm^3/(mol*s)', '*|/', 2),
-        n = 2.840,
-        Ea = (12.2, 'kcal/mol', '+|-', 1),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Wang CBS-QB3""",
-    longDesc = 
-    """
-    Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
-    
-    Table 4
-    allyl + propene = 4-methylpent-1-en-5-yl
-
-    CBS-QB3, high-P limit, atomization method for energies, hindered rotors for torsions
-    around single bonds, tunneling with Eckart potentials.
-    """
-)
-
-entry(
-    index = 3136,
-    label = "Cds-CsH_Cds-CsH;CsJ-CdHH",
-    kinetics = Arrhenius(
-        A = (1.19E+02, 'cm^3/(mol*s)', '*|/', 2),
-        n = 2.700,
-        Ea = (11.2, 'kcal/mol', '+|-', 1),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Wang CBS-QB3""",
-    longDesc = 
-    """
-    Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
-    
-    Table 4
-    allyl + 2-butene = 4-methylhex-1-en-5-yl
-
-    CBS-QB3, high-P limit, atomization method for energies, hindered rotors for torsions
-    around single bonds, tunneling with Eckart potentials.
-    """
-)

@@ -10,7 +10,7 @@ Remaining reactions from A. M. Mebel, Y. Georgievskii, A. W. Jasper, S. J. Klipp
 for the HACA pathways from benzene to naphthalene, Proceedings of the Combust. Inst. (2016) 1-8
 """
 entry(
-    index = 1,
+    index = 0,
     label = "C6H4C2H + C2H2 <=> naphthyl-1",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -45,7 +45,7 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "C6H4C2H + C2H2 <=> benzofulvenyl",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -80,7 +80,7 @@ entry(
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "C6H4C2H + C2H2 <=> naphthyl-2",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -115,7 +115,7 @@ entry(
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "C6H4C2H + C2H2 <=> C6H4(C2H)2 + H",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -150,7 +150,7 @@ entry(
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "C6H4C2H + C2H2 <=> naphthyne-12 + H",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -185,7 +185,7 @@ entry(
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "C6H4C2H + C2H2 <=> naphthyne-23 + H",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -220,7 +220,7 @@ entry(
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "C6H4(C2H)2 + H <=> naphthyl-1",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -255,7 +255,7 @@ entry(
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "C6H4(C2H)2 + H <=> benzofulvenyl",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -290,7 +290,7 @@ entry(
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "C6H4(C2H)2 + H <=> naphthyl-2",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -325,7 +325,7 @@ entry(
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "C6H4(C2H)2 + H <=> naphthyne-12 + H",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -360,7 +360,7 @@ entry(
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "C6H4(C2H)2 + H <=> naphthyne-23 + H",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -395,7 +395,7 @@ entry(
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "naphthyne-12 + H <=> naphthyl-1",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -430,7 +430,7 @@ entry(
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "naphthyne-12 + H <=> benzofulvenyl",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -465,7 +465,7 @@ entry(
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "naphthyne-12 + H <=> naphthyl-2",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -500,7 +500,7 @@ entry(
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "naphthyne-12 + H <=> naphthyne-23 + H",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -535,7 +535,7 @@ entry(
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "naphthyne-23 + H <=> naphthyl-1",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -570,7 +570,7 @@ entry(
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "naphthyne-23 + H <=> benzofulvenyl",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -605,7 +605,7 @@ entry(
 )
 
 entry(
-    index = 18,
+    index = 17,
     label = "naphthyne-23 + H <=> naphthyl-2",
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -640,14 +640,14 @@ entry(
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "naphthyl-1 + H <=> C10H8",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.87e+13, 'cm^3/(mol*s)'), n=0.13, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 20,
+    index = 19,
     label = "naphthyl-2 + H <=> C10H8",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.26e+13, 'cm^3/(mol*s)'), n=0.17, Ea=(0, 'cal/mol'), T0=(1, 'K')),

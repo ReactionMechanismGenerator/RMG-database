@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 entry(
-    index = 96,
+    index = 0,
     label = "Ring",
     group = 
 """
@@ -27,9 +27,8 @@ u"""
     rank = 10,
 )
 
-
 entry(
-    index = 96,
+    index = 1,
     label = "Aromatic",
     group = 
 """
@@ -49,9 +48,8 @@ Ring correction is zero because RMG uses Cb group corrections instead in the cas
     rank = 1,
 )
 
-
 entry(
-    index = 96,
+    index = 2,
     label = "Benzene",
     group = 
 """
@@ -77,7 +75,7 @@ Ring correction is zero because RMG uses Cb group corrections instead in the cas
 )
 
 entry(
-    index = 97,
+    index = 3,
     label = "ThreeMember",
     group = 
 """
@@ -94,7 +92,7 @@ u"""
 )
 
 entry(
-    index = 1,
+    index = 4,
     label = "Cyclopropane",
     group = 
 """
@@ -116,7 +114,7 @@ u"""
 )
 
 entry(
-    index = 2,
+    index = 5,
     label = "Cyclopropene",
     group = 
 """
@@ -138,7 +136,7 @@ u"""
 )
 
 entry(
-    index = 3,
+    index = 6,
     label = "Cyclopropene2",
     group = 
 """
@@ -155,7 +153,7 @@ u"""
 )
 
 entry(
-    index = 125,
+    index = 7,
     label = "Cyclopropadiene",
     group = 
 """
@@ -177,7 +175,7 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 8,
     label = "Cyclopropadiene2",
     group = 
 """
@@ -194,95 +192,7 @@ u"""
 )
 
 entry(
-    index = 126,
-    label = "Cyclopropatriene",
-    group = 
-"""
-1 * Cdd u0 {2,D} {3,D}
-2   Cdd u0 {1,D} {3,D}
-3   Cdd u0 {1,D} {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.469,-0.789,-0.953,-1.107,-1.45,-1.696,-1.716],'cal/(mol*K)'),
-        H298 = (78,'kcal/mol'),
-        S298 = (33.3257,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Enthalpy from doi:10.1021/j100005a002 (S and Cp from Cyclopropene row above)""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 69,
-    label = "Ethylene_oxide",
-    group = 
-"""
-1 * O        u0 {2,S} {3,S}
-2   [Cs,N3s] u0 {1,S} {3,S}
-3   [Cs,N3s] u0 {1,S} {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.891,-2.459,-2.221,-1.969,-1.965,-1.759,2.564],'cal/(mol*K)'),
-        H298 = (26.82,'kcal/mol'),
-        S298 = (31.1767,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CY/C2O from THERM (Dorofeeva, 92) Cp1500 est. as Cp1000""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 4,
-    label = "dioxirane",
-    group = 
-"""
-1 * Os       u0 {2,S} {3,S}
-2   Os       u0 {1,S} {3,S}
-3   [Cs,N3s] u0 {1,S} {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.099,-3.194,-3.095,-3.038,-3.281,-3.818,-1.346],'cal/(mol*K)'),
-        H298 = (25.1977,'kcal/mol'),
-        S298 = (32.3877,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 7,
-    label = "2(co)oxirane",
-    group = 
-"""
-1   CO       u0 {2,S} {3,S}
-2 * Os       u0 {1,S} {3,S}
-3   [Cs,N3s] u0 {1,S} {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.147,-1.715,-2.067,-2.254,-2.546,-2.592,-1.488],'cal/(mol*K)'),
-        H298 = (40.7699,'kcal/mol'),
-        S298 = (34.529,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 158,
+    index = 9,
     label = "oxirene",
     group = 
 """
@@ -304,7 +214,95 @@ u"""
 )
 
 entry(
-    index = 8,
+    index = 10,
+    label = "Cyclopropatriene",
+    group = 
+"""
+1 * Cdd u0 {2,D} {3,D}
+2   Cdd u0 {1,D} {3,D}
+3   Cdd u0 {1,D} {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.469,-0.789,-0.953,-1.107,-1.45,-1.696,-1.716],'cal/(mol*K)'),
+        H298 = (78,'kcal/mol'),
+        S298 = (33.3257,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Enthalpy from doi:10.1021/j100005a002 (S and Cp from Cyclopropene row above)""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 11,
+    label = "Ethylene_oxide",
+    group = 
+"""
+1 * O        u0 {2,S} {3,S}
+2   [Cs,N3s] u0 {1,S} {3,S}
+3   [Cs,N3s] u0 {1,S} {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.891,-2.459,-2.221,-1.969,-1.965,-1.759,2.564],'cal/(mol*K)'),
+        H298 = (26.82,'kcal/mol'),
+        S298 = (31.1767,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CY/C2O from THERM (Dorofeeva, 92) Cp1500 est. as Cp1000""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 12,
+    label = "dioxirane",
+    group = 
+"""
+1 * Os       u0 {2,S} {3,S}
+2   Os       u0 {1,S} {3,S}
+3   [Cs,N3s] u0 {1,S} {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.099,-3.194,-3.095,-3.038,-3.281,-3.818,-1.346],'cal/(mol*K)'),
+        H298 = (25.1977,'kcal/mol'),
+        S298 = (32.3877,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 13,
+    label = "2(co)oxirane",
+    group = 
+"""
+1   CO       u0 {2,S} {3,S}
+2 * Os       u0 {1,S} {3,S}
+3   [Cs,N3s] u0 {1,S} {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.147,-1.715,-2.067,-2.254,-2.546,-2.592,-1.488],'cal/(mol*K)'),
+        H298 = (40.7699,'kcal/mol'),
+        S298 = (34.529,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 14,
     label = "cyclopropanedione",
     group = 
 """
@@ -326,7 +324,7 @@ u"""
 )
 
 entry(
-    index = 9,
+    index = 15,
     label = "cyclopropenone",
     group = 
 """
@@ -348,7 +346,7 @@ u"""
 )
 
 entry(
-    index = 133,
+    index = 16,
     label = "thiirane",
     group = 
 """
@@ -370,7 +368,7 @@ u"""
 )
 
 entry(
-    index = 134,
+    index = 17,
     label = "dithiirane",
     group = 
 """
@@ -392,7 +390,7 @@ u"""
 )
 
 entry(
-    index = 135,
+    index = 18,
     label = "trithiirane",
     group = 
 """
@@ -414,7 +412,7 @@ u"""
 )
 
 entry(
-    index = 151,
+    index = 19,
     label = "thiirene",
     group = 
 """
@@ -436,13 +434,13 @@ u"""
 )
 
 entry(
-    index = 92,
+    index = 20,
     label = "Ethyleneimine",
     group = 
 """
-1 * N3s       u0 {2,S} {3,S}
-2   [Cs,N3s]  u0 {1,S} {3,S}
-3   [Cs,N3s]  u0 {1,S} {2,S}
+1 * N3s      u0 {2,S} {3,S}
+2   [Cs,N3s] u0 {1,S} {3,S}
+3   [Cs,N3s] u0 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -458,7 +456,7 @@ u"""
 )
 
 entry(
-    index = 3,
+    index = 21,
     label = "Methylene_cyclopropane",
     group = 
 """
@@ -481,7 +479,7 @@ u"""
 )
 
 entry(
-    index = 5,
+    index = 22,
     label = "cyclopropanone",
     group = 
 """
@@ -504,7 +502,7 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 23,
     label = "methylenecyclopropene",
     group = 
 """
@@ -527,7 +525,7 @@ u"""
 )
 
 entry(
-    index = 11,
+    index = 24,
     label = "methylenecyclopropanone",
     group = 
 """
@@ -550,7 +548,7 @@ u"""
 )
 
 entry(
-    index = 12,
+    index = 25,
     label = "methyleneoxirane",
     group = 
 """
@@ -573,12 +571,12 @@ u"""
 )
 
 entry(
-    index = 6,
+    index = 26,
     label = "12Methylenecyclopropane",
     group = 
 """
 1   [Cd,N3d] u0 {2,S} {3,S} {4,D}
-2 * Cd u0 {1,S} {3,S} {5,D}
+2 * Cd       u0 {1,S} {3,S} {5,D}
 3   [Cs,N3s] u0 {1,S} {2,S}
 4   [Cd,N3d] u0 {1,D}
 5   [Cd,N3d] u0 {2,D}
@@ -597,7 +595,7 @@ u"""
 )
 
 entry(
-    index = 98,
+    index = 27,
     label = "FourMember",
     group = 
 """
@@ -615,14 +613,14 @@ u"""
 )
 
 entry(
-    index = 13,
+    index = 28,
     label = "Cyclobutane",
     group = 
 """
-1 * [Cs] u0 {2,S} {4,S}
-2   [Cs] u0 {1,S} {3,S}
-3   [Cs] u0 {2,S} {4,S}
-4   [Cs] u0 {1,S} {3,S}
+1 * Cs u0 {2,S} {4,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -638,7 +636,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 29,
     label = "Cyclobutene",
     group = 
 """
@@ -661,7 +659,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 30,
     label = "Cyclobutene2",
     group = 
 """
@@ -679,181 +677,7 @@ u"""
 )
 
 entry(
-    index = 14,
-    label = "Cyclobutadiene2",
-    group = 
-"""
-1   [Cs,N3s] u0 {2,S} {4,S}
-2 * [Cd,N3d] u0 {1,S} {3,D}
-3   Cdd      u0 {2,D} {4,D}
-4   [Cd,N3d] u0 {1,S} {3,D}
-""",
-    thermo = u'Cyclobutene',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 14,
-    label = "Cyclobutadiene3",
-    group = 
-"""
-1 * [Cs,N3s] u0 {2,S} {4,S}
-2   [Cd,N3d] u0 {1,S} {3,D}
-3   Cdd      u0 {2,D} {4,D}
-4   [Cd,N3d] u0 {1,S} {3,D}
-""",
-    thermo = u'Cyclobutene',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 70,
-    label = "Oxetane",
-    group = 
-"""
-1 * O        u0 {2,S} {4,S}
-2   [Cs,N3s] u0 {1,S} {3,S}
-3   [Cs,N3s] u0 {2,S} {4,S}
-4   [Cs,N3s] u0 {1,S} {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-4.08,-4.28,-3.636,-3.016,-2.451,-1.896,2.84],'cal/(mol*K)'),
-        H298 = (25.08,'kcal/mol'),
-        S298 = (28.5487,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CY/C3O from THERM (Dorofeeva, 92) Cp1500 est. as Cp1000""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 159,
-    label = "Oxetene",
-    group = 
-"""
-1 * Os       u0 {2,S} {4,S}
-2   [Cd,N3d] u0 {1,S} {3,D}
-3   [Cd,N3d] u0 {2,D} {4,S}
-4   [C,N3s]  u0 {1,S} {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.88,-4.22,-4.18,-3.97,-3.65,-3.56,-2.93],'cal/(mol*K)'),
-        H298 = (32.51,'kcal/mol'),
-        S298 = (29.26,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Derived from goldsmith's DFT-QCI library""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 83,
-    label = "Beta-Propiolactone",
-    group = 
-"""
-1 * O        u0 {2,S} {4,S}
-2   [Cs,N3s] u0 {1,S} {3,S}
-3   [Cs,N3s] u0 {2,S} {4,S}
-4   CO       u0 {1,S} {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-4.434,-4.019,-3.31,-2.703,-2.253,-2.012,1.3],'cal/(mol*K)'),
-        H298 = (22.98,'kcal/mol'),
-        S298 = (30.392,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Beta-Propiolactone ring BENSON""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 85,
-    label = "Cyclobutanone",
-    group = 
-"""
-1 * CO       u0 {2,S} {4,S}
-2   [Cs,N3s] u0 {1,S} {3,S}
-3   [Cs,N3s] u0 {2,S} {4,S}
-4   [Cs,N3s] u0 {1,S} {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-5.62,-4.96,-3.744,-2.671,-1.962,-1.415,-0.3],'cal/(mol*K)'),
-        H298 = (22.53,'kcal/mol'),
-        S298 = (29.8337,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Cyclobutanone ring BENSON""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 15,
-    label = "12dioxetane",
-    group = 
-"""
-1   [Cs,N3d] u0 {2,S} {4,S}
-2 * [Cs,N3d] u0 {1,S} {3,S}
-3   Os       u0 {2,S} {4,S}
-4   Os       u0 {1,S} {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.586,-4.031,-3.818,-3.503,-3.252,-3.45,1.262],'cal/(mol*K)'),
-        H298 = (28.0736,'kcal/mol'),
-        S298 = (29.0217,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 16,
-    label = "dioxerene",
-    group = 
-"""
-1   [Cd,N3d] u0 {2,D} {4,S}
-2 * [Cd,N3d] u0 {1,D} {3,S}
-3   Os       u0 {2,S} {4,S}
-4   Os       u0 {1,S} {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.375,-4.281,-4.206,-4.037,-3.926,-3.327,-2.473],'cal/(mol*K)'),
-        H298 = (24.4413,'kcal/mol'),
-        S298 = (29.7827,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 19,
+    index = 31,
     label = "cyclobutadiene",
     group = 
 """
@@ -876,7 +700,181 @@ u"""
 )
 
 entry(
-    index = 136,
+    index = 32,
+    label = "Cyclobutadiene2",
+    group = 
+"""
+1   [Cs,N3s] u0 {2,S} {4,S}
+2 * [Cd,N3d] u0 {1,S} {3,D}
+3   Cdd      u0 {2,D} {4,D}
+4   [Cd,N3d] u0 {1,S} {3,D}
+""",
+    thermo = u'Cyclobutene',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 33,
+    label = "Cyclobutadiene3",
+    group = 
+"""
+1 * [Cs,N3s] u0 {2,S} {4,S}
+2   [Cd,N3d] u0 {1,S} {3,D}
+3   Cdd      u0 {2,D} {4,D}
+4   [Cd,N3d] u0 {1,S} {3,D}
+""",
+    thermo = u'Cyclobutene',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 34,
+    label = "Oxetane",
+    group = 
+"""
+1 * O        u0 {2,S} {4,S}
+2   [Cs,N3s] u0 {1,S} {3,S}
+3   [Cs,N3s] u0 {2,S} {4,S}
+4   [Cs,N3s] u0 {1,S} {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.08,-4.28,-3.636,-3.016,-2.451,-1.896,2.84],'cal/(mol*K)'),
+        H298 = (25.08,'kcal/mol'),
+        S298 = (28.5487,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CY/C3O from THERM (Dorofeeva, 92) Cp1500 est. as Cp1000""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 35,
+    label = "Oxetene",
+    group = 
+"""
+1 * Os       u0 {2,S} {4,S}
+2   [Cd,N3d] u0 {1,S} {3,D}
+3   [Cd,N3d] u0 {2,D} {4,S}
+4   [C,N3s]  u0 {1,S} {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.88,-4.22,-4.18,-3.97,-3.65,-3.56,-2.93],'cal/(mol*K)'),
+        H298 = (32.51,'kcal/mol'),
+        S298 = (29.26,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from goldsmith's DFT-QCI library""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 36,
+    label = "Beta-Propiolactone",
+    group = 
+"""
+1 * O        u0 {2,S} {4,S}
+2   [Cs,N3s] u0 {1,S} {3,S}
+3   [Cs,N3s] u0 {2,S} {4,S}
+4   CO       u0 {1,S} {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.434,-4.019,-3.31,-2.703,-2.253,-2.012,1.3],'cal/(mol*K)'),
+        H298 = (22.98,'kcal/mol'),
+        S298 = (30.392,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Beta-Propiolactone ring BENSON""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 37,
+    label = "Cyclobutanone",
+    group = 
+"""
+1 * CO       u0 {2,S} {4,S}
+2   [Cs,N3s] u0 {1,S} {3,S}
+3   [Cs,N3s] u0 {2,S} {4,S}
+4   [Cs,N3s] u0 {1,S} {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.62,-4.96,-3.744,-2.671,-1.962,-1.415,-0.3],'cal/(mol*K)'),
+        H298 = (22.53,'kcal/mol'),
+        S298 = (29.8337,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Cyclobutanone ring BENSON""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 38,
+    label = "12dioxetane",
+    group = 
+"""
+1   [Cs,N3d] u0 {2,S} {4,S}
+2 * [Cs,N3d] u0 {1,S} {3,S}
+3   Os       u0 {2,S} {4,S}
+4   Os       u0 {1,S} {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.586,-4.031,-3.818,-3.503,-3.252,-3.45,1.262],'cal/(mol*K)'),
+        H298 = (28.0736,'kcal/mol'),
+        S298 = (29.0217,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 39,
+    label = "dioxerene",
+    group = 
+"""
+1   [Cd,N3d] u0 {2,D} {4,S}
+2 * [Cd,N3d] u0 {1,D} {3,S}
+3   Os       u0 {2,S} {4,S}
+4   Os       u0 {1,S} {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.375,-4.281,-4.206,-4.037,-3.926,-3.327,-2.473],'cal/(mol*K)'),
+        H298 = (24.4413,'kcal/mol'),
+        S298 = (29.7827,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 40,
     label = "thietane",
     group = 
 """
@@ -899,7 +897,7 @@ u"""
 )
 
 entry(
-    index = 137,
+    index = 41,
     label = "1,2-dithietane",
     group = 
 """
@@ -922,7 +920,7 @@ u"""
 )
 
 entry(
-    index = 138,
+    index = 42,
     label = "1,3-dithietane",
     group = 
 """
@@ -945,7 +943,7 @@ u"""
 )
 
 entry(
-    index = 139,
+    index = 43,
     label = "trithietane",
     group = 
 """
@@ -968,7 +966,7 @@ u"""
 )
 
 entry(
-    index = 140,
+    index = 44,
     label = "tetrathietane",
     group = 
 """
@@ -991,14 +989,14 @@ u"""
 )
 
 entry(
-    index = 93,
+    index = 45,
     label = "Azetidine",
     group = 
 """
-1 * N3s       u0 {4,S} {2,S}
-2   [Cs,N3s]  u0 {1,S} {3,S}
-3   [Cs,N3s]  u0 {2,S} {4,S}
-4   [Cs,N3s]  u0 {3,S} {1,S}
+1 * N3s      u0 {2,S} {4,S}
+2   [Cs,N3s] u0 {1,S} {3,S}
+3   [Cs,N3s] u0 {2,S} {4,S}
+4   [Cs,N3s] u0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1014,7 +1012,7 @@ u"""
 )
 
 entry(
-    index = 84,
+    index = 46,
     label = "4-Methylene-2-oxetanone",
     group = 
 """
@@ -1038,7 +1036,7 @@ u"""
 )
 
 entry(
-    index = 17,
+    index = 47,
     label = "methylenecyclobutane",
     group = 
 """
@@ -1062,7 +1060,7 @@ u"""
 )
 
 entry(
-    index = 18,
+    index = 48,
     label = "2methyleneoxetane",
     group = 
 """
@@ -1086,7 +1084,7 @@ u"""
 )
 
 entry(
-    index = 20,
+    index = 49,
     label = "12methylenecyclobutane",
     group = 
 """
@@ -1111,7 +1109,7 @@ u"""
 )
 
 entry(
-    index = 99,
+    index = 50,
     label = "FiveMember",
     group = 
 """
@@ -1130,7 +1128,7 @@ u"""
 )
 
 entry(
-    index = 21,
+    index = 51,
     label = "Cyclopentane",
     group = 
 """
@@ -1154,7 +1152,7 @@ u"""
 )
 
 entry(
-    index = 22,
+    index = 52,
     label = "Cyclopentene",
     group = 
 """
@@ -1178,7 +1176,7 @@ u"""
 )
 
 entry(
-    index = 23,
+    index = 53,
     label = "Cyclopentadiene",
     group = 
 """
@@ -1202,15 +1200,15 @@ u"""
 )
 
 entry(
-    index = 152,
+    index = 54,
     label = "Cyclopentatriene",
     group = 
 """
-1 * [Cd,N3d]  u0 {2,D} {5,S}
-2   Cdd u0 {1,D} {3,D}
-3   [Cd,N3d]  u0 {2,D} {4,S}
-4   [Cd,N3d]  u0 {3,S} {5,D}
-5   [Cd,N3d]  u0 {1,S} {4,D}
+1 * [Cd,N3d] u0 {2,D} {5,S}
+2   Cdd      u0 {1,D} {3,D}
+3   [Cd,N3d] u0 {2,D} {4,S}
+4   [Cd,N3d] u0 {3,S} {5,D}
+5   [Cd,N3d] u0 {1,S} {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1226,7 +1224,7 @@ u"""
 )
 
 entry(
-    index = 71,
+    index = 55,
     label = "Tetrahydrofuran",
     group = 
 """
@@ -1250,7 +1248,7 @@ u"""
 )
 
 entry(
-    index = 76,
+    index = 56,
     label = "2,3-Dihydrofuran",
     group = 
 """
@@ -1274,7 +1272,7 @@ u"""
 )
 
 entry(
-    index = 77,
+    index = 57,
     label = "1,3-Dioxolane",
     group = 
 """
@@ -1298,7 +1296,7 @@ u"""
 )
 
 entry(
-    index = 78,
+    index = 58,
     label = "Furan",
     group = 
 """
@@ -1322,7 +1320,7 @@ u"""
 )
 
 entry(
-    index = 80,
+    index = 59,
     label = "Dihydro-2,5-furandione",
     group = 
 """
@@ -1346,7 +1344,7 @@ u"""
 )
 
 entry(
-    index = 82,
+    index = 60,
     label = "2,5-Furandione",
     group = 
 """
@@ -1370,7 +1368,7 @@ u"""
 )
 
 entry(
-    index = 86,
+    index = 61,
     label = "Cyclopentanone",
     group = 
 """
@@ -1394,7 +1392,7 @@ u"""
 )
 
 entry(
-    index = 25,
+    index = 62,
     label = "butyrolactone",
     group = 
 """
@@ -1418,7 +1416,7 @@ u"""
 )
 
 entry(
-    index = 26,
+    index = 63,
     label = "25dihydrofuran",
     group = 
 """
@@ -1442,7 +1440,7 @@ u"""
 )
 
 entry(
-    index = 27,
+    index = 64,
     label = "12dioxolane",
     group = 
 """
@@ -1466,7 +1464,7 @@ u"""
 )
 
 entry(
-    index = 28,
+    index = 65,
     label = "12dioxolene",
     group = 
 """
@@ -1490,7 +1488,7 @@ u"""
 )
 
 entry(
-    index = 29,
+    index = 66,
     label = "123trioxolane",
     group = 
 """
@@ -1514,7 +1512,7 @@ u"""
 )
 
 entry(
-    index = 30,
+    index = 67,
     label = "124trioxolane",
     group = 
 """
@@ -1538,11 +1536,11 @@ u"""
 )
 
 entry(
-    index = 141,
+    index = 68,
     label = "thiolane",
     group = 
 """
-1 * S u0 {2,S} {5,S}
+1 * S     u0 {2,S} {5,S}
 2   [C,N] u0 {1,S} {3,S}
 3   [C,N] u0 {2,S} {4,S}
 4   [C,N] u0 {3,S} {5,S}
@@ -1562,7 +1560,7 @@ u"""
 )
 
 entry(
-    index = 142,
+    index = 69,
     label = "2,3-dihydrothiophene",
     group = 
 """
@@ -1586,7 +1584,7 @@ u"""
 )
 
 entry(
-    index = 143,
+    index = 70,
     label = "2,5-dihydrothiophene",
     group = 
 """
@@ -1610,7 +1608,7 @@ u"""
 )
 
 entry(
-    index = 144,
+    index = 71,
     label = "thiophene",
     group = 
 """
@@ -1634,7 +1632,7 @@ u"""
 )
 
 entry(
-    index = 145,
+    index = 72,
     label = "1,2-dithiolane",
     group = 
 """
@@ -1658,7 +1656,7 @@ u"""
 )
 
 entry(
-    index = 146,
+    index = 73,
     label = "1,3-dithiolane",
     group = 
 """
@@ -1682,7 +1680,7 @@ u"""
 )
 
 entry(
-    index = 147,
+    index = 74,
     label = "1,2,3-trithiolane",
     group = 
 """
@@ -1706,7 +1704,7 @@ u"""
 )
 
 entry(
-    index = 148,
+    index = 75,
     label = "1,2,4-trithiolane",
     group = 
 """
@@ -1730,7 +1728,7 @@ u"""
 )
 
 entry(
-    index = 149,
+    index = 76,
     label = "tetrathiolane",
     group = 
 """
@@ -1754,7 +1752,7 @@ u"""
 )
 
 entry(
-    index = 150,
+    index = 77,
     label = "pentathiolane",
     group = 
 """
@@ -1778,15 +1776,15 @@ u"""
 )
 
 entry(
-    index = 94,
+    index = 78,
     label = "Pyrrolidine",
     group = 
 """
-1 * N3s       u0 {2,S} {5,S}
-2   [Cs,N3s]  u0 {1,S} {3,S}
-3   [Cs,N3s]  u0 {2,S} {4,S}
-4   [Cs,N3s]  u0 {3,S} {5,S}
-5   [Cs,N3s]  u0 {1,S} {4,S}
+1 * N3s      u0 {2,S} {5,S}
+2   [Cs,N3s] u0 {1,S} {3,S}
+3   [Cs,N3s] u0 {2,S} {4,S}
+4   [Cs,N3s] u0 {3,S} {5,S}
+5   [Cs,N3s] u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1802,7 +1800,7 @@ u"""
 )
 
 entry(
-    index = 31,
+    index = 79,
     label = "methylenecyclopentane",
     group = 
 """
@@ -1827,7 +1825,7 @@ u"""
 )
 
 entry(
-    index = 122,
+    index = 80,
     label = "Fulvene",
     group = 
 """
@@ -1852,7 +1850,7 @@ u"""
 )
 
 entry(
-    index = 123,
+    index = 81,
     label = "3-Methylenecyclopentene",
     group = 
 """
@@ -1877,7 +1875,7 @@ u"""
 )
 
 entry(
-    index = 124,
+    index = 82,
     label = "4-Methylenecyclopentene",
     group = 
 """
@@ -1902,7 +1900,7 @@ u"""
 )
 
 entry(
-    index = 24,
+    index = 83,
     label = "12methylenecyclopentane",
     group = 
 """
@@ -1928,7 +1926,7 @@ u"""
 )
 
 entry(
-    index = 100,
+    index = 84,
     label = "SixMember",
     group = 
 """
@@ -1948,7 +1946,7 @@ u"""
 )
 
 entry(
-    index = 105,
+    index = 85,
     label = "sixnosidedouble",
     group = 
 """
@@ -1968,7 +1966,7 @@ u"""
 )
 
 entry(
-    index = 32,
+    index = 86,
     label = "Cyclohexane",
     group = 
 """
@@ -1993,7 +1991,7 @@ u"""
 )
 
 entry(
-    index = 38,
+    index = 87,
     label = "12dioxane",
     group = 
 """
@@ -2018,7 +2016,7 @@ u"""
 )
 
 entry(
-    index = 73,
+    index = 88,
     label = "1,3-Dioxane",
     group = 
 """
@@ -2043,7 +2041,7 @@ u"""
 )
 
 entry(
-    index = 74,
+    index = 89,
     label = "1,4-Dioxane",
     group = 
 """
@@ -2068,7 +2066,7 @@ u"""
 )
 
 entry(
-    index = 75,
+    index = 90,
     label = "1,3,5-Trioxane",
     group = 
 """
@@ -2093,7 +2091,7 @@ u"""
 )
 
 entry(
-    index = 42,
+    index = 91,
     label = "124trioxane",
     group = 
 """
@@ -2118,7 +2116,7 @@ u"""
 )
 
 entry(
-    index = 43,
+    index = 92,
     label = "123trioxane",
     group = 
 """
@@ -2143,7 +2141,7 @@ u"""
 )
 
 entry(
-    index = 111,
+    index = 93,
     label = "Oxane",
     group = 
 """
@@ -2168,7 +2166,7 @@ u"""
 )
 
 entry(
-    index = 155,
+    index = 94,
     label = "hexasulfur",
     group = 
 """
@@ -2218,7 +2216,7 @@ u"""
 )
 
 entry(
-    index = 106,
+    index = 96,
     label = "six-sidedoubles",
     group = 
 """
@@ -2243,7 +2241,7 @@ u"""
 )
 
 entry(
-    index = 107,
+    index = 97,
     label = "six-onesidedouble",
     group = 
 """
@@ -2263,7 +2261,7 @@ u"""
 )
 
 entry(
-    index = 87,
+    index = 98,
     label = "Cyclohexanone",
     group = 
 """
@@ -2288,7 +2286,7 @@ u"""
 )
 
 entry(
-    index = 108,
+    index = 99,
     label = "sixmembd-allsingles-twosidedoubles-para",
     group = 
 """
@@ -2308,7 +2306,7 @@ u"""
 )
 
 entry(
-    index = 36,
+    index = 100,
     label = "14methylenecyclohexane",
     group = 
 """
@@ -2335,7 +2333,7 @@ u"""
 )
 
 entry(
-    index = 109,
+    index = 101,
     label = "sixmembd-allsingles-twosidedoubles-ortho",
     group = 
 """
@@ -2355,7 +2353,7 @@ u"""
 )
 
 entry(
-    index = 110,
+    index = 102,
     label = "sixmembd-allsingles-twosidedoubles-meta",
     group = 
 """
@@ -2375,7 +2373,7 @@ u"""
 )
 
 entry(
-    index = 114,
+    index = 103,
     label = "six-inringonedouble",
     group = 
 """
@@ -2395,7 +2393,7 @@ u"""
 )
 
 entry(
-    index = 40,
+    index = 104,
     label = "34dihydro12dioxin",
     group = 
 """
@@ -2420,7 +2418,7 @@ u"""
 )
 
 entry(
-    index = 37,
+    index = 105,
     label = "36dihydro2hpyran",
     group = 
 """
@@ -2445,7 +2443,7 @@ u"""
 )
 
 entry(
-    index = 33,
+    index = 106,
     label = "Cyclohexene",
     group = 
 """
@@ -2470,7 +2468,7 @@ u"""
 )
 
 entry(
-    index = 79,
+    index = 107,
     label = "3,4-Dihydro-2H-pyran",
     group = 
 """
@@ -2495,7 +2493,7 @@ u"""
 )
 
 entry(
-    index = 39,
+    index = 108,
     label = "36dihydro12dioxin",
     group = 
 """
@@ -2520,7 +2518,7 @@ u"""
 )
 
 entry(
-    index = 112,
+    index = 109,
     label = "24dihydro13dioxin",
     group = 
 """
@@ -2545,7 +2543,7 @@ u"""
 )
 
 entry(
-    index = 113,
+    index = 110,
     label = "23dihydro14dioxin",
     group = 
 """
@@ -2570,7 +2568,7 @@ u"""
 )
 
 entry(
-    index = 44,
+    index = 111,
     label = "124trioxene",
     group = 
 """
@@ -2595,7 +2593,7 @@ u"""
 )
 
 entry(
-    index = 45,
+    index = 112,
     label = "123trioxene",
     group = 
 """
@@ -2620,7 +2618,7 @@ u"""
 )
 
 entry(
-    index = 115,
+    index = 113,
     label = "six-inringtwodouble-13",
     group = 
 """
@@ -2640,7 +2638,7 @@ u"""
 )
 
 entry(
-    index = 34,
+    index = 114,
     label = "1,3-Cyclohexadiene",
     group = 
 """
@@ -2665,7 +2663,7 @@ u"""
 )
 
 entry(
-    index = 116,
+    index = 115,
     label = "six-inringtwodouble-14",
     group = 
 """
@@ -2685,7 +2683,7 @@ u"""
 )
 
 entry(
-    index = 35,
+    index = 116,
     label = "1,4-Cyclohexadiene",
     group = 
 """
@@ -2710,7 +2708,7 @@ u"""
 )
 
 entry(
-    index = 41,
+    index = 117,
     label = "14dioxin",
     group = 
 """
@@ -2735,7 +2733,7 @@ u"""
 )
 
 entry(
-    index = 153,
+    index = 118,
     label = "six-inringthreedouble",
     group = 
 """
@@ -2760,7 +2758,7 @@ u"""
 )
 
 entry(
-    index = 117,
+    index = 119,
     label = "six-inringtwodouble-12",
     group = 
 """
@@ -2785,7 +2783,7 @@ u"""
 )
 
 entry(
-    index = 118,
+    index = 120,
     label = "six-oneside-twoindoubles-25",
     group = 
 """
@@ -2805,7 +2803,7 @@ u"""
 )
 
 entry(
-    index = 49,
+    index = 121,
     label = "25cyclohexadienone",
     group = 
 """
@@ -2830,7 +2828,7 @@ u"""
 )
 
 entry(
-    index = 47,
+    index = 122,
     label = "14cyclohexadiene3methylene",
     group = 
 """
@@ -2856,7 +2854,7 @@ u"""
 )
 
 entry(
-    index = 119,
+    index = 123,
     label = "six-oneside-twoindoubles-24",
     group = 
 """
@@ -2876,7 +2874,7 @@ u"""
 )
 
 entry(
-    index = 48,
+    index = 124,
     label = "24cyclohexadienone",
     group = 
 """
@@ -2901,7 +2899,7 @@ u"""
 )
 
 entry(
-    index = 46,
+    index = 125,
     label = "13cyclohexadiene5methylene",
     group = 
 """
@@ -2927,7 +2925,7 @@ u"""
 )
 
 entry(
-    index = 120,
+    index = 126,
     label = "six-twoin13-twoout",
     group = 
 """
@@ -2947,7 +2945,7 @@ u"""
 )
 
 entry(
-    index = 50,
+    index = 127,
     label = "fg6",
     group = 
 """
@@ -2973,7 +2971,7 @@ u"""
 )
 
 entry(
-    index = 51,
+    index = 128,
     label = "oxylene",
     group = 
 """
@@ -3000,7 +2998,7 @@ u"""
 )
 
 entry(
-    index = 54,
+    index = 129,
     label = "obenzoquinone",
     group = 
 """
@@ -3025,7 +3023,7 @@ u"""
 )
 
 entry(
-    index = 121,
+    index = 130,
     label = "six-twoin14-twoout",
     group = 
 """
@@ -3045,7 +3043,7 @@ u"""
 )
 
 entry(
-    index = 53,
+    index = 131,
     label = "pbenzoquinone",
     group = 
 """
@@ -3070,7 +3068,7 @@ u"""
 )
 
 entry(
-    index = 52,
+    index = 132,
     label = "pxylene",
     group = 
 """
@@ -3097,7 +3095,7 @@ u"""
 )
 
 entry(
-    index = 125,
+    index = 133,
     label = "3,4-dimethylenecyclohexene",
     group = 
 """
@@ -3124,7 +3122,7 @@ u"""
 )
 
 entry(
-    index = 101,
+    index = 134,
     label = "SevenMember",
     group = 
 """
@@ -3145,7 +3143,7 @@ u"""
 )
 
 entry(
-    index = 55,
+    index = 135,
     label = "Cycloheptane",
     group = 
 """
@@ -3171,7 +3169,7 @@ u"""
 )
 
 entry(
-    index = 56,
+    index = 136,
     label = "Cycloheptene",
     group = 
 """
@@ -3197,7 +3195,7 @@ u"""
 )
 
 entry(
-    index = 57,
+    index = 137,
     label = "1,3-Cycloheptadiene",
     group = 
 """
@@ -3223,7 +3221,7 @@ u"""
 )
 
 entry(
-    index = 58,
+    index = 138,
     label = "1,3,5-Cycloheptatriene",
     group = 
 """
@@ -3249,7 +3247,7 @@ u"""
 )
 
 entry(
-    index = 88,
+    index = 139,
     label = "Cycloheptanone",
     group = 
 """
@@ -3275,7 +3273,7 @@ u"""
 )
 
 entry(
-    index = 129,
+    index = 140,
     label = "1,4-Cycloheptadiene",
     group = 
 """
@@ -3301,39 +3299,17 @@ u"""
 )
 
 entry(
-    index = 102,
-    label = "EightMember",
-    group = 
-"""
-1 * R!H u0 {2,[S,D]} {8,[S,D]}
-2   R!H u0 {1,[S,D]} {3,[S,D]}
-3   R!H u0 {2,[S,D]} {4,[S,D]}
-4   R!H u0 {3,[S,D]} {5,[S,D]}
-5   R!H u0 {4,[S,D]} {6,[S,D]}
-6   R!H u0 {5,[S,D]} {7,[S,D]}
-7   R!H u0 {6,[S,D]} {8,[S,D]}
-8   R!H u0 {1,[S,D]} {7,[S,D]}
-""",
-    thermo = u'Cyclooctane',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 103,
+    index = 141,
     label = "1,2,4,6-Cycloheptatetraene",
     group = 
 """
-1  * Cd u0 {2,D} {7,S}
-2    Cdd u0 {1,D} {3,D}
-3    Cd u0 {4,S} {2,D}
-4    Cd u0 {3,S} {5,D}
-5    Cd u0 {6,S} {4,D}
-6    Cd u0 {5,S} {7,D}
-7    Cd u0 {1,S} {6,D}
+1 * Cd  u0 {2,D} {7,S}
+2   Cdd u0 {1,D} {3,D}
+3   Cd  u0 {2,D} {4,S}
+4   Cd  u0 {3,S} {5,D}
+5   Cd  u0 {4,D} {6,S}
+6   Cd  u0 {5,S} {7,D}
+7   Cd  u0 {1,S} {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3349,7 +3325,7 @@ CBS-QB3 isodesmic reaction approach C7H6 + 4 ethene = allene + 3 butadiene
 )
 
 entry(
-    index = 156,
+    index = 142,
     label = "heptasulfur",
     group = 
 """
@@ -3375,33 +3351,55 @@ u"""
 )
 
 entry(
-    index = 160,
+    index = 143,
     label = "oxepane",
-    group =
+    group = 
 """
-1 * C u0 {2,S} {7,S}
-2   C u0 {1,S} {3,S}
-3   C u0 {2,S} {4,S}
-4   C u0 {3,S} {5,S}
-5   C u0 {4,S} {6,S}
-6   C u0 {5,S} {7,S}
+1 * C  u0 {2,S} {7,S}
+2   C  u0 {1,S} {3,S}
+3   C  u0 {2,S} {4,S}
+4   C  u0 {3,S} {5,S}
+5   C  u0 {4,S} {6,S}
+6   C  u0 {5,S} {7,S}
 7   Os u0 {1,S} {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-6.10,-5.33,-3.85,-2.52,-0.92,0.26,5.83],'cal/(mol*K)'),
+        Cpdata = ([-6.1,-5.33,-3.85,-2.52,-0.92,0.26,5.83],'cal/(mol*K)'),
         H298 = (6.54,'kcal/mol'),
         S298 = (17.14,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculation: Mixture of two twist chair formations""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 59,
+    index = 144,
+    label = "EightMember",
+    group = 
+"""
+1 * R!H u0 {2,[S,D]} {8,[S,D]}
+2   R!H u0 {1,[S,D]} {3,[S,D]}
+3   R!H u0 {2,[S,D]} {4,[S,D]}
+4   R!H u0 {3,[S,D]} {5,[S,D]}
+5   R!H u0 {4,[S,D]} {6,[S,D]}
+6   R!H u0 {5,[S,D]} {7,[S,D]}
+7   R!H u0 {6,[S,D]} {8,[S,D]}
+8   R!H u0 {1,[S,D]} {7,[S,D]}
+""",
+    thermo = u'Cyclooctane',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 145,
     label = "Cyclooctane",
     group = 
 """
@@ -3428,7 +3426,7 @@ u"""
 )
 
 entry(
-    index = 60,
+    index = 146,
     label = "cis-Cyclooctene",
     group = 
 """
@@ -3455,7 +3453,7 @@ u"""
 )
 
 entry(
-    index = 62,
+    index = 147,
     label = "1,3,5-Cyclooctatriene",
     group = 
 """
@@ -3482,7 +3480,7 @@ u"""
 )
 
 entry(
-    index = 63,
+    index = 148,
     label = "Cyclooctatetraene",
     group = 
 """
@@ -3509,7 +3507,7 @@ u"""
 )
 
 entry(
-    index = 89,
+    index = 149,
     label = "Cyclooctanone",
     group = 
 """
@@ -3536,7 +3534,7 @@ u"""
 )
 
 entry(
-    index = 126,
+    index = 150,
     label = "1,3-cyclooctadiene",
     group = 
 """
@@ -3558,7 +3556,7 @@ u"""
 )
 
 entry(
-    index = 127,
+    index = 151,
     label = "1,4-cyclooctadiene",
     group = 
 """
@@ -3585,7 +3583,7 @@ u"""
 )
 
 entry(
-    index = 128,
+    index = 152,
     label = "1,5-cyclooctadiene",
     group = 
 """
@@ -3607,7 +3605,7 @@ u"""
 )
 
 entry(
-    index = 157,
+    index = 153,
     label = "octasulfur",
     group = 
 """
@@ -3634,7 +3632,7 @@ u"""
 )
 
 entry(
-    index = 103,
+    index = 154,
     label = "NineMember",
     group = 
 """
@@ -3657,7 +3655,7 @@ u"""
 )
 
 entry(
-    index = 64,
+    index = 155,
     label = "Cyclononane",
     group = 
 """
@@ -3685,7 +3683,7 @@ u"""
 )
 
 entry(
-    index = 90,
+    index = 156,
     label = "Cyclononanone",
     group = 
 """
@@ -3713,7 +3711,7 @@ u"""
 )
 
 entry(
-    index = 104,
+    index = 157,
     label = "TenMember",
     group = 
 """
@@ -3737,7 +3735,7 @@ u"""
 )
 
 entry(
-    index = 67,
+    index = 158,
     label = "Cyclodecane",
     group = 
 """
@@ -3766,7 +3764,7 @@ u"""
 )
 
 entry(
-    index = 91,
+    index = 159,
     label = "Cyclodecanone",
     group = 
 """
@@ -3805,7 +3803,7 @@ L1: Ring
         L3: Cyclopropene2
         L3: Cyclopropadiene
         L3: Cyclopropadiene2
-		L3: oxirene
+        L3: oxirene
         L3: Cyclopropatriene
         L3: Ethylene_oxide
         L3: dioxirane
@@ -3831,7 +3829,7 @@ L1: Ring
         L3: Cyclobutadiene2
         L3: Cyclobutadiene3
         L3: Oxetane
-		L3: Oxetene
+        L3: Oxetene
         L3: Beta-Propiolactone
         L3: Cyclobutanone
         L3: 12dioxetane
@@ -3939,7 +3937,7 @@ L1: Ring
         L3: 1,4-Cycloheptadiene
         L3: 1,2,4,6-Cycloheptatetraene
         L3: heptasulfur
-	L3: oxepane
+        L3: oxepane
     L2: EightMember
         L3: Cyclooctane
         L3: cis-Cyclooctene

@@ -531,7 +531,7 @@ entry(
     index = 614,
     label = "diene_5ring_Nd_Nd_out;diene_in_2H;ene_HNd_HNd",
     kinetics = ArrheniusEP(
-        A = (8.11E-02, 'cm^3/(mol*s)'),
+        A = (0.0811, 'cm^3/(mol*s)'),
         n = 3.05,
         alpha = 0,
         E0 = (24.75, 'kcal/mol'),
@@ -546,7 +546,7 @@ entry(
     index = 615,
     label = "diene_unsub_unsub_out;diene_in_2H;yne_unsub_monosub",
     kinetics = ArrheniusEP(
-        A = (1.22E-01, 'cm^3/(mol*s)'),
+        A = (0.122, 'cm^3/(mol*s)'),
         n = 2.98,
         alpha = 0,
         E0 = (28.1, 'kcal/mol'),
@@ -561,13 +561,14 @@ entry(
     index = 616,
     label = "diene_unsub_unsub_out;diene_in_2H;allene_unsub",
     kinetics = ArrheniusEP(
-        A = (1.77e-01, 'cm^3/(mol*s)'),
+        A = (0.177, 'cm^3/(mol*s)'),
         n = 2.94,
         alpha = 0,
-        E0 = (29.0, 'kcal/mol'),
+        E0 = (29, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
     rank = 4,
     shortDesc = u"""A. G. Vandeputte, BMK/cbsb7 HO, butadiene + allene""",
 )
+

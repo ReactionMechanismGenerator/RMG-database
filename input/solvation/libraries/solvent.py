@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 entry(
-    index = 1,
+    index = 0,
     label = "water",
     molecule = "O",
     solvent = SolventData(
@@ -33,14 +33,14 @@ entry(
         eps = 80.4,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "1-octanol",
     molecule = "CCCCCCCCO",
     solvent = SolventData(
@@ -66,7 +66,7 @@ entry(
         eps = 10.3,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 alpha = 0.328, #primary alcohols
 beta = 0.45, #primary alcohols,
@@ -74,7 +74,7 @@ beta = 0.45, #primary alcohols,
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "benzene",
     molecule = "C1=CC=CC=C1",
     solvent = SolventData(
@@ -100,14 +100,14 @@ entry(
         eps = 2.3,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "cyclohexane",
     molecule = "C1CCCCC1",
     solvent = SolventData(
@@ -133,14 +133,14 @@ entry(
         eps = 2.0,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "dibutylether",
     molecule = "CCCCOCCCC",
     solvent = SolventData(
@@ -166,14 +166,14 @@ entry(
         eps = 3.1,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "octane",
     molecule = "CCCCCCCC",
     solvent = SolventData(
@@ -199,14 +199,14 @@ entry(
         eps = 2.0,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "butanol",
     molecule = "CCCCO",
     solvent = SolventData(
@@ -232,14 +232,14 @@ entry(
         eps = 17.8,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "carbontet",
     molecule = "ClC(Cl)(Cl)Cl",
     solvent = SolventData(
@@ -265,14 +265,14 @@ entry(
         eps = 2.23,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 beta = 0.05, # Note 24 in Snelgrove et al. 2001
 """,
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "chloroform",
     molecule = "ClC(Cl)Cl",
     solvent = SolventData(
@@ -298,14 +298,14 @@ entry(
         eps = 4.8,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "decane",
     molecule = "CCCCCCCCCC",
     solvent = SolventData(
@@ -331,14 +331,14 @@ entry(
         eps = 2.0,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "dichloroethane",
     molecule = "CC(Cl)Cl",
     solvent = SolventData(
@@ -364,16 +364,16 @@ entry(
         eps = 10.7,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "dimethylformamide",
-    molecule = "N(C)(C)C=O",
+    molecule = "CN(C)C=O",
     solvent = SolventData(
         s_g = 2.315,
         b_g = 0,
@@ -397,14 +397,14 @@ entry(
         eps = 36.7,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "dimethylsulfoxide",
     molecule = "CS(C)=O",
     solvent = SolventData(
@@ -430,7 +430,7 @@ entry(
         eps = 46.7,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 Molecule Search on RMG website cannot draw molecule and says "Invalid adjacency list" although it can give the
 adjacency list with the solvent name or its correct SMILES representation
@@ -438,7 +438,7 @@ adjacency list with the solvent name or its correct SMILES representation
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "dodecane",
     molecule = "CCCCCCCCCCCC",
     solvent = SolventData(
@@ -464,14 +464,14 @@ entry(
         eps = 2.0,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "ethanol",
     molecule = "CCO",
     solvent = SolventData(
@@ -497,14 +497,14 @@ entry(
         eps = 24.3,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "heptane",
     molecule = "CCCCCCC",
     solvent = SolventData(
@@ -530,14 +530,14 @@ entry(
         eps = 1.9,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "hexadecane",
     molecule = "CCCCCCCCCCCCCCCC",
     solvent = SolventData(
@@ -563,14 +563,14 @@ entry(
         eps = 2.08,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 18,
+    index = 17,
     label = "hexane",
     molecule = "CCCCCC",
     solvent = SolventData(
@@ -596,14 +596,14 @@ entry(
         eps = 2.0,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "isooctane",
     molecule = "CC(C)CC(C)(C)C",
     solvent = SolventData(
@@ -629,14 +629,14 @@ entry(
         eps = 1.94,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 20,
+    index = 19,
     label = "nonane",
     molecule = "CCCCCCCCC",
     solvent = SolventData(
@@ -662,14 +662,14 @@ entry(
         eps = 2.0,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 21,
+    index = 20,
     label = "pentane",
     molecule = "CCCCC",
     solvent = SolventData(
@@ -695,14 +695,14 @@ entry(
         eps = 1.8,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 22,
+    index = 21,
     label = "toluene",
     molecule = "CC1C=CC=CC=1",
     solvent = SolventData(
@@ -728,14 +728,14 @@ entry(
         eps = 2.2,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 eps = 2.2 # aerage of range 2.0-2.4
 """,
 )
 
 entry(
-    index = 23,
+    index = 22,
     label = "undecane",
     molecule = "CCCCCCCCCCC",
     solvent = SolventData(
@@ -761,14 +761,14 @@ entry(
         eps = 2.0,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 24,
+    index = 23,
     label = "acetonitrile",
     molecule = "CC#N",
     solvent = SolventData(
@@ -794,14 +794,14 @@ entry(
         eps = 37.5,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 25,
+    index = 24,
     label = "ethylacetate",
     molecule = "CCOC(C)=O",
     solvent = SolventData(
@@ -827,7 +827,7 @@ entry(
         eps = 6.0,
     ),
     shortDesc = u""" """,
-    longDesc =
+    longDesc = 
 u"""
 
 """,

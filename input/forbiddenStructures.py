@@ -35,37 +35,6 @@ u"""
 """,
 )
 
-#entry(
-#    label = "N_monorad_3singleBonds",
-#    group = 
-#"""
-#1 N u1 p0 {2,S} {3,S} {4,S}
-#2 R ux {1,S}
-#3 R ux {1,S}
-#4 R ux {1,S}
-#""",
-#    shortDesc = u"""""",
-#    longDesc = 
-#u"""
-#restricts H2NO, see RMG-Py issue #514
-#""",
-#)
-
-#entry(
-#    label = "N_birad_singlet_2singleBonds",
-#    group = 
-#"""
-#1 N u0 p1 {2,S} {3,S}
-#2 R ux {1,S}
-#3 R ux {1,S}
-#""",
-#    shortDesc = u"""""",
-#    longDesc = 
-#u"""
-#restricts NH3, see RMG-Py issue #514
-#""",
-#)
-
 entry(
     label = "N_birad_triplet_2singleBonds",
     group = 
