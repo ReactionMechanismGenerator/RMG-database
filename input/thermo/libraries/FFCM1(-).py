@@ -1398,14 +1398,13 @@ entry(
     index = 48,
     label = "C2H3O",
     molecule = 
-"""
-multiplicity 2
-1 C u0 p0 c0 {2,D} {4,S} {5,S}
-2 C u0 p0 c0 {1,D} {3,S} {6,S}
-3 O u1 p2 c0 {2,S}
-4 H u0 p0 c0 {1,S}
+"""multiplicity 2
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {3,S} {4,S}
+3 H u0 p0 c0 {2,S}
+4 O u0 p2 c0 {1,S} {2,S}
 5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
