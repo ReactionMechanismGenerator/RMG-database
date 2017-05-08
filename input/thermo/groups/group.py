@@ -3369,15 +3369,15 @@ u"""
 
 entry(
     index = -1,
-    label = "Cds-CdSsH",
+    label = "Cds-CdSH",
     group = 
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
-3   S2s u0 {1,S}
+3   S  u0 {1,S}
 4   H  u0 {1,S}
 """,
-    thermo = None,
+    thermo = u'Cds-CdsSsH',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -11301,11 +11301,11 @@ u"""
 
 entry(
     index = 1183,
-    label = "C=S-HH",
+    label = "C=S2d-HH",
     group = 
 """
 1 * CS u0 {2,D} {3,S} {4,S}
-2   S2d u0 {1,D}
+2   S2d  u0 {1,D}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 """,
@@ -11317,6 +11317,24 @@ entry(
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1184,
+    label = "C=S-HH",
+    group =
+"""
+1 * CS u0 {2,D} {3,S} {4,S}
+2   S  u0 {1,D}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = u'C=S2d-HH',
+    shortDesc = u""" """,
+    longDesc =
 u"""
 
 """,
@@ -40570,16 +40588,16 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-CSsHH",
+    label = "Cs-CSHH",
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
-3   S2s u0 {1,S}
+3   S  u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 """,
-    thermo = None,
+    thermo = u'Cs-CsSsHH',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -42464,9 +42482,26 @@ u"""
 )
 
 entry(
+    index = 1148,
+    label = "S2s-SH",
+    group =
+"""
+1 * S2s u0 {2,S} {3,S}
+2   S  ux {1,S}
+3   H  u0 {1,S}
+""",
+    thermo = u'S2s-SsH',
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
     index = 1152,
     label = "S2s-SsSs",
-    group = 
+    group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   S2s u0 {1,S}
@@ -42479,7 +42514,41 @@ entry(
         S298 = (11.18,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 1152,
+    label = "S2s-SS",
+    group =
+"""
+1 * S2s u0 {2,S} {3,S}
+2   S ux {1,S}
+3   S ux {1,S}
+""",
+    thermo = u'S2s-SsSs',
+    shortDesc = u""" """,
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "S2s-SC",
+    group =
+"""
+1 * S2s u0 {2,S} {3,S}
+2   S ux {1,S}
+3   C ux {1,S}
+""",
+    thermo = u'S2s-SsC',
+    shortDesc = u"""""",
+    longDesc =
 u"""
 
 """,
@@ -42494,7 +42563,7 @@ entry(
 2   S2s u0 {1,S}
 3   C  u0 {1,S}
 """,
-    thermo = None,
+    thermo = u'S2s-SsCs',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -44804,8 +44873,8 @@ entry(
     group =
 """
 1 * S4dd  u0 p1 {2,D} {3,D}
-2   O     ux {1,D}
-3   O     ux (1,D)
+2   O     ux p2 {1,D}
+3   O     ux p2 (1,D)
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -45128,6 +45197,28 @@ Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4
 
 entry(
     index = 2025,
+    label = "Os-CsS6dd",
+    group =
+"""
+1 * Os    u0 {2,S} {3,S}
+2   S6dd   ux {1,S}
+3   Cs    ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.631054,4.453556,5.049900,5.572096,6.211867,6.618059,6.828744],'cal/(mol*K)'),
+        H298 = (-22.450406,'kcal/mol'),
+        S298 = (0.891093,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4/2017, Ryan Gillis
+""",
+)
+
+entry(
+    index = 2032,
     label = "Os-CsS4d",
     group =
 """
@@ -45137,9 +45228,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.631054,4.453556,5.049900,5.572096,6.211867,6.618059,6.828744],'cal/(mol*K)'),
-        H298 = (-22.450406,'kcal/mol'),
-        S298 = (0.891093,'cal/(mol*K)'),
+        Cpdata = ([5.238,5.483,5.734,6.092,6.521,6.794,7.037],'cal/(mol*K)'),
+        H298 = (-49.470,'kcal/mol'),
+        S298 = (3.776,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
     longDesc =
@@ -45195,7 +45286,7 @@ entry(
 2   S     ux {1,S}
 3   C     ux {1,S}
 """,
-    thermo = u'Os-CsS4d',
+    thermo = u'Os-CsS6dd',
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
     longDesc =
 u""""
@@ -45207,9 +45298,7 @@ entry(
     label = "S4dd",
     group =
 """
-1 * S4dd  u0 {2,D} {3,D}
-2   R     ux {1,D}
-3   R     ux {1,D}
+1 * S4dd  u0
 """,
     thermo = u'S4dd-OdOd',
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
@@ -45223,10 +45312,7 @@ entry(
     label = "S4d",
     group =
 """
-1 * S4d  u0 {2,D} {3,S} {4,S}
-2   R     ux {1,D}
-3   R     ux {1,S}
-4   R     ux {1,S}
+1 * S4d  u0
 """,
     thermo = u'S4d-OdCC',
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
@@ -45240,10 +45326,7 @@ entry(
     label = "S6ddd",
     group =
 """
-1 * S6ddd  u0 {2,D} {3,D} {4,D}
-2   R      ux {1,D}
-3   R      ux {1,D}
-4   R      ux {1,D}
+1 * S6ddd  u0
 """,
     thermo = u'S6ddd-OdOdOd',
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
@@ -45257,11 +45340,7 @@ entry(
     label = "S6dd",
     group =
 """
-1 * S6dd   u0 {2,D} {3,D} {4,S} {5,S}
-2   R      ux {1,D}
-3   R      ux {1,D}
-4   R      ux {1,S}
-5   R      ux {1,S}
+1 * S6dd   u0
 """,
     thermo = u'S6dd-OdOdCC',
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
@@ -45438,7 +45517,7 @@ L1: R
                 L5: Cds-CddOsH
                     L6: Cds-(Cdd-Od)OsH
                     L6: Cds-(Cdd-Cd)OsH
-            L4: Cds-CdSsH
+            L4: Cds-CdSH
                 L5: Cds-CdsSsH
                 L5: Cds-CddSsH
                     L6: Cds-(Cdd-S2d)SsH
@@ -45825,6 +45904,7 @@ L1: R
                 L5: C=S-C=SC=S
                 L5: C=S-CbC=S
             L4: C=S-HH
+                L5: C=S2d-HH
             L4: C=S-SsH
             L4: C=S-CSs
                 L5: C=S-CbSs
@@ -47153,7 +47233,7 @@ L1: R
                         L7: Cs-C=S(Cds-Cdd-Cd)SsH
                         L7: Cs-C=S(Cds-Cdd-S2d)SsH
                     L6: Cs-C=S(Cds-Cds)SsH
-            L4: Cs-CSsHH
+            L4: Cs-CSHH
                 L5: Cs-CsSsHH
                 L5: Cs-CdsSsHH
                     L6: Cs-(Cds-Cd)SsHH
@@ -47233,6 +47313,7 @@ L1: R
                 L5: Os-Cs(Cds-S2d)
             L4: Os-CS
                 L5: Os-CsS4d
+		L5: Os-CsS6dd
             L4: Os-SH
                 L5: Os-S4dH
     L2: Si
@@ -47249,14 +47330,17 @@ L1: R
                 L5: S2s-CbH
                 L5: S2s-COH
                 L5: S2s-C=SH
-            L4: S2s-SsH
-            L4: S2s-SsSs
-            L4: S2s-SsC
-                L5: S2s-SsCs
-                L5: S2s-SsCd
-                L5: S2s-SsCt
-                L5: S2s-SsCb
-                L5: S2s-C=SSs
+            L4: S2s-SH
+                L5: S2s-SsH
+            L4: S2s-SS
+                L5: S2s-SsSs
+            L4: S2s-SC
+                L5: S2s-SsC
+                    L6: S2s-SsCs
+                    L6: S2s-SsCd
+                    L6: S2s-SsCt
+                    L6: S2s-SsCb
+                    L6: S2s-C=SSs
             L4: S2s-CC
                 L5: S2s-CsCs
                 L5: S2s-CsCd
