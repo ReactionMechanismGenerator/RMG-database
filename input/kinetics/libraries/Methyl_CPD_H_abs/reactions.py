@@ -8,7 +8,7 @@ TST calculations using CBS-QB3.
 """
 entry(
     index = 1,
-    label = "(1)methyl_CPD + H <=> (1)methyl_CPD_1_yl + H2",
+    label = "1_methyl_CPD + H <=> 1_methyl_CPD_1_yl + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (7.707e+06, 'cm^3/(mol*s)'),
@@ -24,7 +24,7 @@ CBS-QB3 calculations
 
 entry(
     index = 2,
-    label = "(2)methyl_CPD + H <=> (2)methyl_CPD_2_yl + H2",
+    label = "2_methyl_CPD + H <=> 2_methyl_CPD_2_yl + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (930800, 'cm^3/(mol*s)'),
@@ -40,7 +40,7 @@ CBS-QB3 calculations
 
 entry(
     index = 3,
-    label = "(5)methyl_CPD + H <=> (5)methyl_CPD_5_yl + H2",
+    label = "5_methyl_CPD + H <=> 5_methyl_CPD_5_yl + H2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (418100, 'cm^3/(mol*s)'),
