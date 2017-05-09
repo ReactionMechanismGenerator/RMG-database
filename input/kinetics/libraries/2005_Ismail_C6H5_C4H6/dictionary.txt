@@ -54,7 +54,7 @@ multiplicity 2
 10 H u0 p0 c0 {4,S}
 11 H u0 p0 c0 {5,S}
 
-(1_4)dihydro_naphthalene
+1_4_dihydro_naphthalene
 1  C u0 p0 c0 {4,S} {5,S} {11,S} {12,S}
 2  C u0 p0 c0 {3,S} {6,S} {13,S} {14,S}
 3  C u0 p0 c0 {2,S} {4,B} {7,B}
@@ -76,7 +76,7 @@ multiplicity 2
 19 H u0 p0 c0 {10,S}
 20 H u0 p0 c0 {8,S}
 
-(1_3)butadiene
+1_3_butadiene
 1  C u0 p0 c0 {2,S} {3,D} {5,S}
 2  C u0 p0 c0 {1,S} {4,D} {6,S}
 3  C u0 p0 c0 {1,D} {7,S} {8,S}
@@ -88,7 +88,7 @@ multiplicity 2
 9  H u0 p0 c0 {4,S}
 10 H u0 p0 c0 {4,S}
 
-(3)phenyl_buten_4_yl
+3_phenyl_buten_4_yl
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {11,S}
 2  C u0 p0 c0 {1,S} {4,B} {5,B}
@@ -112,7 +112,7 @@ multiplicity 2
 20 H u0 p0 c0 {10,S}
 21 H u0 p0 c0 {10,S}
 
-(1)phenyl_1_3_butadiene
+1_phenyl_1_3_butadiene
 1  C u0 p0 c0 {2,S} {3,B} {4,B}
 2  C u0 p0 c0 {1,S} {5,D} {13,S}
 3  C u0 p0 c0 {1,B} {6,B} {14,S}
@@ -134,7 +134,7 @@ multiplicity 2
 19 H u0 p0 c0 {10,S}
 20 H u0 p0 c0 {10,S}
 
-(4)phenyl_buten_3_yl
+4_phenyl_buten_3_yl
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
 2  C u0 p0 c0 {1,S} {4,B} {5,B}
@@ -158,7 +158,7 @@ multiplicity 2
 20 H u0 p0 c0 {10,S}
 21 H u0 p0 c0 {10,S}
 
-(1_3)butadien_1_yl
+1_3_butadien_1_yl
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -170,7 +170,7 @@ multiplicity 2
 8 H u0 p0 c0 {3,S}
 9 H u0 p0 c0 {4,S}
 
-(1_3)butadien_2_yl
+1_3_butadien_2_yl
 multiplicity 2
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
 2 C u0 p0 c0 {1,D} {6,S} {7,S}
