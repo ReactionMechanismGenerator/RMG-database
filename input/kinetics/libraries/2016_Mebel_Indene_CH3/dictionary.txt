@@ -1,4 +1,4 @@
-(3)methylindene
+3_methylindene
 1  C u0 p0 c0 {3,S} {6,S} {11,S} {12,S}
 2  C u0 p0 c0 {4,S} {13,S} {14,S} {15,S}
 3  C u0 p0 c0 {1,S} {5,B} {7,B}
@@ -20,7 +20,7 @@
 19 H u0 p0 c0 {9,S}
 20 H u0 p0 c0 {10,S}
 
-(1)methylindene
+1_methylindene
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {11,S}
 2  C u0 p0 c0 {1,S} {12,S} {13,S} {14,S}
 3  C u0 p0 c0 {1,S} {4,B} {6,B}
@@ -46,7 +46,7 @@ H
 multiplicity 2
 1 H u1 p0 c0
 
-(2)methylindene
+2_methylindene
 1  C u0 p0 c0 {3,S} {4,S} {11,S} {12,S}
 2  C u0 p0 c0 {3,S} {13,S} {14,S} {15,S}
 3  C u0 p0 c0 {1,S} {2,S} {6,D}

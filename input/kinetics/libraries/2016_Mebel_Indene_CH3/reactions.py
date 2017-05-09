@@ -8,7 +8,7 @@ longDesc = u"""
 """
 entry(
     index = 1,
-    label = "(3)methylindene + H <=> W1",
+    label = "3_methylindene + H <=> W1",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.059e+08, 'cm^3/(mol*s)'),
@@ -24,7 +24,7 @@ Originally from reaction library: Unclassified
 
 entry(
     index = 2,
-    label = "(1)methylindene + H <=> W1",
+    label = "1_methylindene + H <=> W1",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (5.904e+08, 'cm^3/(mol*s)'),
@@ -56,7 +56,7 @@ Originally from reaction library: Unclassified
 
 entry(
     index = 4,
-    label = "(2)methylindene + H <=> W2",
+    label = "2_methylindene + H <=> W2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.441e+08, 'cm^3/(mol*s)'),
