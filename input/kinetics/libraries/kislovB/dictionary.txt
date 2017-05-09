@@ -1,4 +1,4 @@
-C3H3(9)
+C3H3_9
 multiplicity 2
 1 C u1 p0 c0 {2,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -7,7 +7,7 @@ multiplicity 2
 5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {3,S}
 
-C9H9(24)
+C9H9_24
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
 2  C u0 p0 c0 {1,S} {3,S} {6,S} {11,S}
@@ -28,7 +28,7 @@ multiplicity 2
 17 H u0 p0 c0 {9,S}
 18 H u0 p0 c0 {7,S}
 
-C9H7(18)
+C9H7_18
 multiplicity 2
 1  C u0 p0 c0 {2,S} {8,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {3,B} {7,B}
@@ -47,7 +47,7 @@ multiplicity 2
 15 H u0 p0 c0 {6,S}
 16 H u0 p0 c0 {9,S}
 
-C7H9(12)
+C7H9_12
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
 2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
@@ -66,7 +66,7 @@ multiplicity 2
 15 H u0 p0 c0 {7,S}
 16 H u0 p0 c0 {6,S}
 
-C9H8(21)
+C9H8_21
 1  C u0 p0 c0 {2,B} {3,B} {7,S}
 2  C u0 p0 c0 {1,B} {4,B} {10,S}
 3  C u0 p0 c0 {1,B} {6,B} {14,S}
@@ -85,7 +85,7 @@ C9H8(21)
 16 H u0 p0 c0 {8,S}
 17 H u0 p0 c0 {8,S}
 
-C9H7(22)
+C9H7_22
 multiplicity 2
 1  C u0 p0 c0 {2,B} {5,S} {8,B}
 2  C u0 p0 c0 {1,B} {3,B} {10,S}
@@ -104,7 +104,7 @@ multiplicity 2
 15 H u0 p0 c0 {7,S}
 16 H u0 p0 c0 {7,S}
 
-C7H7(10)
+C7H7_10
 multiplicity 2
 1  C u0 p0 c0 {2,B} {3,B} {7,S}
 2  C u0 p0 c0 {1,B} {4,B} {8,S}
@@ -121,7 +121,7 @@ multiplicity 2
 13 H u0 p0 c0 {7,S}
 14 H u0 p0 c0 {7,S}
 
-C9H9(5)
+C9H9_5
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
 2  C u0 p0 c0 {1,S} {5,S} {11,S} {12,S}
@@ -142,14 +142,14 @@ multiplicity 2
 17 H u0 p0 c0 {8,S}
 18 H u0 p0 c0 {6,S}
 
-methyl(7)
+methyl_7
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
 2 H u0 p0 c0 {1,S}
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {1,S}
 
-C9H9(3)
+C9H9_3
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
 2  C u0 p0 c0 {1,S} {5,S} {6,S} {11,S}
@@ -170,11 +170,11 @@ multiplicity 2
 17 H u0 p0 c0 {8,S}
 18 H u0 p0 c0 {6,S}
 
-H(15)
+H_15
 multiplicity 2
 1 H u1 p0 c0
 
-benzene(1)
+benzene_1
 1  C u0 p0 c0 {2,B} {6,B} {7,S}
 2  C u0 p0 c0 {1,B} {3,B} {8,S}
 3  C u0 p0 c0 {2,B} {4,B} {9,S}
@@ -188,14 +188,14 @@ benzene(1)
 11 H u0 p0 c0 {5,S}
 12 H u0 p0 c0 {6,S}
 
-CH4(26)
+CH4_26
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}
 
-C7H8(17)
+C7H8_17
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {3,B} {4,B}
 3  C u0 p0 c0 {2,B} {5,B} {11,S}
@@ -212,7 +212,7 @@ C7H8(17)
 14 H u0 p0 c0 {7,S}
 15 H u0 p0 c0 {4,S}
 
-C9H9(14)
+C9H9_14
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {10,S}
 2  C u0 p0 c0 {3,S} {6,S} {11,S} {12,S}
@@ -233,11 +233,11 @@ multiplicity 2
 17 H u0 p0 c0 {9,S}
 18 H u0 p0 c0 {7,S}
 
-H2(23)
+H2_23
 1 H u0 p0 c0 {2,S}
 2 H u0 p0 c0 {1,S}
 
-indene(25)
+indene_25
 1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {3,B} {5,B}
 3  C u0 p0 c0 {2,B} {6,S} {7,B}
@@ -256,7 +256,7 @@ indene(25)
 16 H u0 p0 c0 {7,S}
 17 H u0 p0 c0 {6,S}
 
-phenyl(16)
+phenyl_16
 multiplicity 2
 1  C u0 p0 c0 {2,B} {3,B} {8,S}
 2  C u0 p0 c0 {1,B} {4,B} {7,S}
@@ -270,7 +270,7 @@ multiplicity 2
 10 H u0 p0 c0 {4,S}
 11 H u0 p0 c0 {5,S}
 
-C9H7(19)
+C9H7_19
 multiplicity 2
 1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {3,B} {4,B}
@@ -289,7 +289,7 @@ multiplicity 2
 15 H u0 p0 c0 {5,S}
 16 H u0 p0 c0 {8,S}
 
-C9H8(20)
+C9H8_20
 1  C u0 p0 c0 {2,S} {8,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {3,B} {4,B}
 3  C u0 p0 c0 {2,B} {5,B} {12,S}
@@ -308,7 +308,7 @@ C9H8(20)
 16 H u0 p0 c0 {4,S}
 17 H u0 p0 c0 {9,S}
 
-C9H9(4)
+C9H9_4
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
 2  C u0 p0 c0 {1,S} {5,S} {9,S} {11,S}
@@ -329,7 +329,7 @@ multiplicity 2
 17 H u0 p0 c0 {8,S}
 18 H u0 p0 c0 {6,S}
 
-C7H7(11)
+C7H7_11
 multiplicity 2
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {3,B} {7,B}
@@ -346,7 +346,7 @@ multiplicity 2
 13 H u0 p0 c0 {5,S}
 14 H u0 p0 c0 {6,S}
 
-C9H9(2)
+C9H9_2
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
 2  C u0 p0 c0 {1,S} {8,S} {11,S} {12,S}
@@ -367,7 +367,7 @@ multiplicity 2
 17 H u0 p0 c0 {6,S}
 18 H u0 p0 c0 {9,S}
 
-C9H9(13)
+C9H9_13
 multiplicity 2
 1  C u0 p0 c0 {2,S} {8,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {3,B} {4,B}
@@ -388,7 +388,7 @@ multiplicity 2
 17 H u0 p0 c0 {8,S}
 18 H u0 p0 c0 {9,S}
 
-C9H9(6)
+C9H9_6
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
 2  C u0 p0 c0 {1,S} {5,D} {11,S}
@@ -409,7 +409,7 @@ multiplicity 2
 17 H u0 p0 c0 {8,S}
 18 H u0 p0 c0 {8,S}
 
-ethyne(8)
+ethyne_8
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
 3 H u0 p0 c0 {1,S}
