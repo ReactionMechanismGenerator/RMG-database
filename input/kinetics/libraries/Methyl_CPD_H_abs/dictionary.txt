@@ -1,4 +1,4 @@
-(5)methyl_CPD
+5_methyl_CPD
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
 3  C u0 p0 c0 {1,S} {5,D} {11,S}
@@ -14,7 +14,7 @@
 13 H u0 p0 c0 {5,S}
 14 H u0 p0 c0 {6,S}
 
-(1)methyl_CPD_1_yl
+1_methyl_CPD_1_yl
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -38,7 +38,7 @@ H
 multiplicity 2
 1 H u1 p0 c0
 
-(1)methyl_CPD
+1_methyl_CPD
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
 3  C u0 p0 c0 {1,S} {2,S} {5,D}
@@ -54,7 +54,7 @@ multiplicity 2
 13 H u0 p0 c0 {5,S}
 14 H u0 p0 c0 {6,S}
 
-(2)methyl_CPD
+2_methyl_CPD
 1  C u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
 3  C u0 p0 c0 {2,S} {4,D} {6,S}
@@ -70,7 +70,7 @@ multiplicity 2
 13 H u0 p0 c0 {4,S}
 14 H u0 p0 c0 {6,S}
 
-(5)methyl_CPD_5_yl
+5_methyl_CPD_5_yl
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -86,7 +86,7 @@ multiplicity 2
 12 H u0 p0 c0 {6,S}
 13 H u0 p0 c0 {6,S}
 
-(2)methyl_CPD_2_yl
+2_methyl_CPD_2_yl
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,D} {5,S} {6,S}
