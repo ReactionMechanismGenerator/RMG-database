@@ -2393,6 +2393,48 @@ T > 830 K
 )
 
 entry(
+    index = 1041,
+    label = "H + HSS_r12 <=> H2_p + S2_p1",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.23e+08, 'cm^3/(mol*s)'), n=1.653, Ea=(-1105, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
+TST
+""",
+)
+
+entry(
+    index = 1042,
+    label = "S_rad + HSS_r12 <=> SH_p1 + S2_p1",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.17e+06, 'cm^3/(mol*s)'), n=2.200, Ea=(-600, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
+TST
+""",
+)
+
+entry(
+    index = 1043,
+    label = "HSS_r12 + HSS_r3 <=> HSSH_p23 + S2_p1",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(9.56e+00, 'cm^3/(mol*s)'), n=3.370, Ea=(-1672, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
+TST
+""",
+)
+
+entry(
     index = 1044,
     label = "HSSH_r12 + H <=> HSS_p1 + H2_p",
     degeneracy = 1,
