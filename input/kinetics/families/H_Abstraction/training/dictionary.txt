@@ -1357,16 +1357,16 @@ C3H4-1
 7    H u0 p0 c0 {3,S}
 
 C4H6
-1  C u0 p0 c0 {2,T} {5,S}
-2  C u0 p0 c0 {1,T} {3,S}
-3  *1 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-4  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
-5  H u0 p0 c0 {1,S}
-6  *2 H u0 p0 c0 {3,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
+1    C u0 p0 c0 {2,T} {5,S}
+2    C u0 p0 c0 {1,T} {3,S}
+3 *1 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+4    C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
+5    H u0 p0 c0 {1,S}
+6 *2 H u0 p0 c0 {3,S}
+7    H u0 p0 c0 {3,S}
+8    H u0 p0 c0 {4,S}
+9    H u0 p0 c0 {4,S}
+10   H u0 p0 c0 {4,S}
 
 CH3_p1
 multiplicity 2
