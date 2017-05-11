@@ -180,69 +180,6 @@ Theoretical modeling of k0, k and Fc=0.38 exp(-T/4900K) led to consistency with 
 )
 
 entry(
-    index = 8,
-    label = "NO2 + OH <=> HNO3",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2.41e+07, 'm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (200, 'K'),
-        Tmax = (400, 'K'),
-    ),
-    reference = Article(
-        authors = ["Williams, C.F.", "Pogrebnya, S.K.", "Clary, D.C."],
-        title = u'Quantum study on the branching ratio of the reaction NO2+OH',
-        journal = "J. Chem. Phys.",
-        volume = "126",
-        pages = """154321""",
-        year = "2007",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2007WIL/POG154321:2",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Other theoretical""",
-    longDesc = 
-u"""
-Pressure dependence: Rate constant is high pressure limit
-
-Quantum dynamics calculations. Reaction potential energy suraface was studied using quantum chemistry.
-""",
-)
-
-entry(
-    index = 9,
-    label = "NO2-2 + OH <=> HNO3",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.205e+06, 'm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (200, 'K'),
-        Tmax = (400, 'K'),
-    ),
-    reference = Article(
-        authors = ["Williams, C.F.", "Pogrebnya, S.K.", "Clary, D.C."],
-        title = u'Quantum study on the branching ratio of the reaction NO2+OH',
-        journal = "J. Chem. Phys.",
-        volume = "126",
-        pages = """154321""",
-        year = "2007",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2007WIL/POG154321:2",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Other theoretical""",
-    longDesc = 
-u"""
-Pressure dependence: Rate constant is high pressure limit
-Reference reaction: 2007WIL/POG154321:4
-Branching ration: 0.05
-Quantum dynamics calculations. Reaction potential energy suraface was studied using quantum chemistry.
-""",
-)
-
-entry(
     index = 10,
     label = "C5H5 + C2H5 <=> C7H10",
     degeneracy = 1,
@@ -263,33 +200,26 @@ Taken from entry: ethyl + CPDyl <=> ethylCPD
 entry(
     index = 15,
     label = "CH3NO2 <=> CH3 + NO2",
-    kinetics = Arrhenius(A=(1.8e+16, 's^-1'), n=0, Ea=(58500, 'cal/mol'), T0=(1, 'K')),
-    rank = 1,
-    shortDesc = u"""Experimental, P. Glarborg, A.B. Bendtsen, J.A. Miller""",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5.88e+24, 's^-1'), n=-2.35, Ea=(62398, 'cal/mol'), T0=(1, 'K'), Tmin = (500, 'K'), Tmax = (3000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
     longDesc = 
 u"""
+R.S. Zhu, P. Raghunath, M.C. Lin, J. Phys. Chem. A, 2013, 117, 7308-7313, doi: 10.1021/jp401148q
+p. 7311
+calculations done at the UCCSD(T)/CBS//UB3LYP/6-311+G(3df,2p) level of theory
+The high pressure limit rate is giving here. A 1 atm rate is also available from the same source.
+
+Also available (experimental) from:
 P. Glarborg, A.B. Bendtsen, J.A. Miller
 Nitromethane Dissociation: Implications for the CH3 + NO2 Reaction
 International Journal of Chemical Kinetics Volume 31, Issue 9, pages 591-602, 1999
 DOI: 10.1002/(SICI)1097-4601(1999)31:9<591::AID-KIN1>3.0.CO;2-E
+    kinetics = Arrhenius(A=(1.8e+16, 's^-1'), n=0, Ea=(58500, 'cal/mol'), T0=(1, 'K')),
 
 Also appears in the Nitrogen_Glarborg_Zhang_et_al library (index 671)
 and in the Nitrogen_Glarborg_Gimenez_et_al library (index 953)
-
-The high-pressure limit kinetics was taken. Troe coefficients are:
-    kinetics = Troe(
-        arrheniusHigh = Arrhenius(A=(1.8e+16, 's^-1'), n=0, Ea=(58500, 'cal/mol'), T0=(1, 'K')),
-        arrheniusLow = Arrhenius(
-            A = (1.259e+17, 'cm^3/(mol*s)'),
-            n = 0,
-            Ea = (42000, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        alpha = 0.183,
-        T3 = (1e-30, 'K'),
-        T1 = (1e+30, 'K'),
-        efficiencies = {},
-    ),
 """,
 )
 
@@ -341,3 +271,213 @@ doi: 10.1039/B515914H
 """,
 )
 
+entry(
+    index = 30,
+    label = "CH3ONO <=> CH3O + NO",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(7.90e+22, 's^-1'), n=-2.18, Ea=(41930, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+R.S. Zhu, P. Raghunath, M.C. Lin, J. Phys. Chem. A, 2013, 117, 7308-7313, doi: 10.1021/jp401148q
+p. 7311
+calculations done at the UCCSD(T)/CBS//UB3LYP/6-311+G(3df,2p) level of theory
+The high pressure limit rate is giving here. A 1 atm rate is akso available from the same source.
+Reported rate was divided by 2 due to a 50% branching ratio (Fig. 7 in the manuscript).
+""",
+)
+
+entry(
+    index = 31,
+    label = "CN + NCN <=> NCNCN",
+    degeneracy = 2,
+    kinetics = Arrhenius(A=(1.010e+09, 'cm^3/(mol*s)'), n=0, Ea=(-34691, 'cal/mol'), T0=(1, 'K'), Tmin=(2000, 'K'), Tmax=(4000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+See Table 1 on p. 2397 in L.V Moskaleva, M.C. Lin, Proceedings of the Combustion Institute, 2000, 28(2), 2393-2401, doi: 10.1016/S0082-0784(00)80652-9
+Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
+""",
+)
+
+entry(
+    index = 32,
+    label = "HSOO <=> SH + O2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.41e+18, 's^-1'), n=-1.07, Ea=(7750, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall, J. Phys. Chem. A, 1999, 103(51), 11328–11335 doi: 10.1021/jp9924070
+Table 7 on p. 11333
+calculations done at the QCISD(T)/6-311+G(3df,2p)//MP2=FULL/6-31G(d) level of theory
+
+Troe expression given, only k_inf taken here:
+kinetics = Troe(
+        arrheniusHigh = Arrhenius(A=(4.41e+18, 's^-1'), n=-1.07, Ea=(7750, 'cal/mol'), T0=(1, 'K'), Tmin = (200, 'K'), Tmax = (2000, 'K')),
+        arrheniusLow = Arrhenius(A=(1.56e+23, 'cm^3/(mol*s)'), n=-2.82, Ea=(-7450, 'cal/mol'), T0=(1, 'K'), Tmin = (200, 'K'), Tmax = (2000, 'K')),
+        alpha=1, T3=(1e-30, 'K'), T1=(1e+30, 'K'), efficiencies={}),
+""",
+)
+
+entry(
+    index = 33,
+    label = "OH + NO2-2 <=> HOONO",
+    degeneracy = 2,
+    kinetics = Arrhenius(A=(1.03e+14, 'cm^3/(mol*s)'), n=-0.24, Ea=(-200, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc = 
+u"""
+R.S. Zhu, M.C. Lin, J. Chem. Phys., 2003, 119, 10667, doi: 10.1063/1.1619373
+
+Lindemann expression given, only k_inf taken here:
+    kinetics = Lindemann(
+        arrheniusHigh = Arrhenius(A=(1.03e+14, 'cm^3/(mol*s)'), n=-0.24, Ea=(-200, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
+        arrheniusLow = Arrhenius(A=(1.14e+50, 'cm^6/(mol^2*s)'), n=-12.3, Ea=(1163, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K'))),
+        
+A low T (200-400 K) kinetics from a different source is:
+    kinetics = Arrhenius(
+        A = (2.41e+07, 'm^3/(mol*s)'),
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (200, 'K'),
+        Tmax = (400, 'K'),
+    ),
+    reference = Article(
+        authors = ["Williams, C.F.", "Pogrebnya, S.K.", "Clary, D.C."],
+        title = u'Quantum study on the branching ratio of the reaction NO2+OH',
+        journal = "J. Chem. Phys.",
+        volume = "126",
+        pages = "154321",
+        year = "2007",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2007WIL/POG154321:2",
+    ),
+""",
+)
+
+entry(
+    index = 34,
+    label = "N2H4 <=> NH2 + NH2",
+    degeneracy = 1,
+    rank = 2,
+    kinetics = Arrhenius(A=(1.57e+21, 's^-1'), n=-1.04, Ea=(66565, 'cal/mol'), T0=(1, 'K'), Tmin=(700, 'K'), Tmax=(2000, 'K')),
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc =
+u"""
+P. Raghunath, N.T. Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6
+p. 264
+Calculations done at the RCCSD(T)/6-311þG(3df,2p)//B3LYP/6-311G(d,p) level of theoty
+Only High Pressure Limit rate was taken; low limit and 1 atm rate are also available from the same source
+Also available from [Klippenstein2009] in reverse:
+label = "NH2 + NH2 <=> N2H4",
+    kinetics = Troe(
+       arrheniusHigh = Arrhenius(A=(9.33e-10, 's^-1'), n=-0.414, Ea=(66, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+       arrheniusLow = Arrhenius(A=(2.7e+10, 'cm^3/(mol*s)'), n=-5.49, Ea=(1987, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+       alpha=0.31, T3=(1e-30, 'K'), T1=(1e+30, 'K'), efficiencies={}),
+Table 3, p. 10245, T range: 300-2500 K, calculated at the (CCSD(T) and CAS+1+2+QC level
+""",
+)
+
+entry(
+    index = 35,
+    label = "H + NJCO <=> HNCO",
+    degeneracy = 1,
+    rank = 2,
+    kinetics = Arrhenius(A=(2.80e+12, 'cm^3/(mol*s)'), n=0.493, Ea=(-294, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc =
+u"""
+S.J. Klippenstein, L.B. Harding, Proc. Comb. Inst., 2009, 32, 149-155, doi: 10.1016/j.proci.2008.06.135
+Table 2, p. 154
+The reported branching ratio is 80% HNCO 20% NCOH; the original rates were multiplied here by 80%.
+calculated at the multi-reference configuration interaction (MR-CI) CASSCF level
+The isomerization barrier between HNCO and HOCN is well below the H + NCO asymptote. Thus, a rapid isomerization between
+the initial adducts is expected and the distinction between the initial addition sites should be largely irrelevant to
+the overall kinetics. The contributions from the triplet additions are quite minor, increasing to only 10% at 2500 K.
+""",
+)
+
+entry(
+    index = 36,
+    label = "H + NCOJ <=> NCOH",
+    degeneracy = 1,
+    rank = 2,
+    kinetics = Arrhenius(A=(7.00e+11, 'cm^3/(mol*s)'), n=0.493, Ea=(-294, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    longDesc =
+u"""
+S.J. Klippenstein, L.B. Harding, Proc. Comb. Inst., 2009, 32, 149-155, doi: 10.1016/j.proci.2008.06.135
+Table 2, p. 154
+The reported branching ratio is 80% HNCO 20% NCOH; the original rates were multiplied here by 20%.
+calculated at the multi-reference configuration interaction (MR-CI) CASSCF level
+The isomerization barrier between HNCO and HOCN is well below the H + NCO asymptote. Thus, a rapid isomerization between
+the initial adducts is expected and the distinction between the initial addition sites should be largely irrelevant to
+the overall kinetics. The contributions from the triplet additions are quite minor, increasing to only 10% at 2500 K.
+""",
+)
+
+entry(
+    index = 37,
+    label = "NH2 + HO2 <=> NH2OOH",
+    degeneracy = 1,
+    rank = 4,
+    kinetics = Arrhenius(A=(2.50e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(1900, 'K')),
+    shortDesc = u"""QRRK""",
+    longDesc =
+u"""
+J.W. Bozzeli, A.M Dean, J. Phys. Chem., 1989, 93, 1058-1065, doi: 10.1021/j100340a009
+Table 1, k1
+P range: 0.001-10 atm
+""",
+)
+
+entry(
+    index = 38,
+    label = "NH2 + O2 <=> NH2OO",
+    degeneracy = 1,
+    rank = 4,
+    kinetics = Arrhenius(A=(2.60e+19, 'cm^3/(mol*s)'), n=-3.683, Ea=(1630, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(1900, 'K')),
+    shortDesc = u"""QRRK""",
+    longDesc =
+u"""
+J.W. Bozzeli, A.M Dean, J. Phys. Chem., 1989, 93, 1058-1065, doi: 10.1021/j100340a009
+Table 1, k1
+P range: 0.001-10 atm
+Calculated with N2 as third body. Data for He, CH4, and Ar as third body colliders is also available
+""",
+)
+
+entry(
+    index = 39,
+    label = "CH3NHNH2 <=> NH2 + CH3NH",
+    degeneracy = 1,
+    rank = 2,
+    kinetics = Arrhenius(A=(4.55e+23, 'cm^3/(mol*s)'), n=-2.147, Ea=(64703, 'cal/mol'), T0=(1, 'K'), Tmin=(400, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""QRRK""",
+    longDesc =
+u"""
+P. Zhang, S.J. Klippenstein, H. Sun, C.K. Law, Proc. Comb. Inst., 2011, 33(1), 425-432, doi: 10.1016/j.proci.2010.05.010
+R1
+Calculated at the QCISD(T)/CBS//B3LYP/6-311++G(d,p) level
+""",
+)
+
+entry(
+    index = 40,
+    label = "CH3NHNH2 <=> CH3 + NHNH2",
+    degeneracy = 1,
+    rank = 2,
+    kinetics = Arrhenius(A=(5.65e+19, 'cm^3/(mol*s)'), n=-1.120, Ea=(65677, 'cal/mol'), T0=(1, 'K'), Tmin=(400, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""QRRK""",
+    longDesc =
+u"""
+P. Zhang, S.J. Klippenstein, H. Sun, C.K. Law, Proc. Comb. Inst., 2011, 33(1), 425-432, doi: 10.1016/j.proci.2010.05.010
+R2
+Calculated at the QCISD(T)/CBS//B3LYP/6-311++G(d,p) level
+""",
+)
