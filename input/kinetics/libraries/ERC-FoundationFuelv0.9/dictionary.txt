@@ -15,12 +15,6 @@ CH3OH
 5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {2,S}
 
-CH2O
-1 C u0 p0 c0 {2,D} {3,S} {4,S}
-2 O u0 p2 c0 {1,D}
-3 H u0 p0 c0 {1,S}
-4 H u0 p0 c0 {1,S}
-
 CH2OH
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
