@@ -8,7 +8,7 @@ longDesc = u"""
 """
 entry(
     index = 553,
-    label = "CO;RR'",
+    label = "COS;RR'",
     kinetics = ArrheniusEP(
         A = (100000, 'cm^3/(mol*s)'),
         n = 2,
