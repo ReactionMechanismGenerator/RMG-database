@@ -212,9 +212,9 @@ entry(
     label = "CsJ-SsOneDeSs",
     group = 
 """
-1 *3 Cs            u1 {2,S} {3,S}
-2    S2s            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
+1 *3 Cs               u1 {2,S} {3,S}
+2    S2s              u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -224,9 +224,9 @@ entry(
     label = "CsJ-SsCdSs",
     group = 
 """
-1 *3 Cs u1 {2,S} {3,S}
+1 *3 Cs  u1 {2,S} {3,S}
 2    S2s u0 {1,S}
-3    Cd u0 {1,S}
+3    Cd  u0 {1,S}
 """,
     kinetics = None,
 )
