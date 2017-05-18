@@ -42,8 +42,8 @@ entry(
     label = "R_H",
     group = 
 """
-1 *2 [H,Cs,Cd,Cb,Ct,O,Sis,Sid,N] u0 {2,S}
-2 *3 H                           u0 {1,S}
+1 *2 [H,Cs,Cd,Cb,Ct,O,Sis,Sid,N,S] u0 {2,S}
+2 *3 H                             u0 {1,S}
 """,
     kinetics = None,
 )
@@ -96,13 +96,37 @@ entry(
 )
 
 entry(
-    index = 6,
+    index = 50,
     label = "CsO_H",
     group = 
 """
 1 *2 O  u0 {2,S} {3,S}
 2 *3 H  u0 {1,S}
 3    Cs u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 51,
+    label = "RS_H",
+    group = 
+"""
+1 *2 S2s u0 {2,S} {3,S}
+2 *3 H   u0 {1,S}
+3    R   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 52,
+    label = "CsS_H",
+    group = 
+"""
+1 *2 S2s u0 {2,S} {3,S}
+2 *3 H   u0 {1,S}
+3    Cs  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -188,14 +212,27 @@ entry(
 )
 
 entry(
+    index = 53,
+    label = "Cd/H/NonDeS",
+    group = 
+"""
+1 *2 Cd  u0 {2,D} {3,S} {4,S}
+2    C   u0 {1,D}
+3 *3 H   u0 {1,S}
+4    S2s u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 12,
     label = "Cd/H/OneDe",
     group = 
 """
-1 *2 Cd            u0 {2,D} {3,S} {4,S}
-2    C             u0 {1,D}
-3 *3 H             u0 {1,S}
-4    [Cd,Ct,Cb,CO] u0 {1,S}
+1 *2 Cd               u0 {2,D} {3,S} {4,S}
+2    C                u0 {1,D}
+3 *3 H                u0 {1,S}
+4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -284,15 +321,29 @@ entry(
 )
 
 entry(
+    index = 54,
+    label = "C_pri/NonDeS",
+    group = 
+"""
+1 *2 Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H   u0 {1,S}
+3    H   u0 {1,S}
+4    H   u0 {1,S}
+5    S2s u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 19,
     label = "C_pri/De",
     group = 
 """
-1 *2 Cs            u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H             u0 {1,S}
-3    H             u0 {1,S}
-4    H             u0 {1,S}
-5    [Cd,Ct,Cb,CO] u0 {1,S}
+1 *2 Cs               u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H                u0 {1,S}
+3    H                u0 {1,S}
+4    H                u0 {1,S}
+5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -358,11 +409,11 @@ entry(
     label = "C/H2/NonDeO",
     group = 
 """
-1 *2 Cs     u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H      u0 {1,S}
-3    H      u0 {1,S}
-4    O      u0 {1,S}
-5    [Cs,O] u0 {1,S}
+1 *2 Cs         u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H          u0 {1,S}
+3    H          u0 {1,S}
+4    O          u0 {1,S}
+5    [Cs,O,S]   u0 {1,S}
 """,
     kinetics = None,
 )
@@ -396,15 +447,57 @@ entry(
 )
 
 entry(
+    index = 55,
+    label = "C/H2/NonDeS",
+    group = 
+"""
+1 *2 Cs         u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H          u0 {1,S}
+3    H          u0 {1,S}
+4    S2s        u0 {1,S}
+5    [Cs,O,S]   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 56,
+    label = "C/H2/CsS",
+    group = 
+"""
+1 *2 Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H   u0 {1,S}
+3    H   u0 {1,S}
+4    S2s u0 {1,S}
+5    Cs  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 57,
+    label = "C/H2/S2",
+    group = 
+"""
+1 *2 Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H   u0 {1,S}
+3    H   u0 {1,S}
+4    S2s u0 {1,S}
+5    S2s u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 25,
     label = "C/H2/OneDe",
     group = 
 """
-1 *2 Cs            u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H             u0 {1,S}
-3    H             u0 {1,S}
-4    [Cd,Ct,CO,Cb] u0 {1,S}
-5    [Cs,O]        u0 {1,S}
+1 *2 Cs               u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H                u0 {1,S}
+3    H                u0 {1,S}
+4    [Cd,Ct,CO,Cb,CS] u0 {1,S}
+5    [Cs,O,S]         u0 {1,S}
 """,
     kinetics = None,
 )
@@ -414,11 +507,11 @@ entry(
     label = "C/H2/OneDeC",
     group = 
 """
-1 *2 Cs            u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H             u0 {1,S}
-3    H             u0 {1,S}
-4    [Cd,Ct,CO,Cb] u0 {1,S}
-5    Cs            u0 {1,S}
+1 *2 Cs               u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H                u0 {1,S}
+3    H                u0 {1,S}
+4    [Cd,Ct,CO,Cb,CS] u0 {1,S}
+5    Cs               u0 {1,S}
 """,
     kinetics = None,
 )
@@ -428,11 +521,25 @@ entry(
     label = "C/H2/OneDeO",
     group = 
 """
-1 *2 Cs            u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H             u0 {1,S}
-3    H             u0 {1,S}
-4    [Cd,Ct,CO,Cb] u0 {1,S}
-5    O             u0 {1,S}
+1 *2 Cs               u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H                u0 {1,S}
+3    H                u0 {1,S}
+4    [Cd,Ct,CO,Cb,CS] u0 {1,S}
+5    O                u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 58,
+    label = "C/H2/OneDeS",
+    group = 
+"""
+1 *2 Cs               u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H                u0 {1,S}
+3    H                u0 {1,S}
+4    [Cd,Ct,CO,Cb,CS] u0 {1,S}
+5    S2s              u0 {1,S}
 """,
     kinetics = None,
 )
@@ -442,11 +549,11 @@ entry(
     label = "C/H2/TwoDe",
     group = 
 """
-1 *2 Cs            u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H             u0 {1,S}
-3    H             u0 {1,S}
-4    [Cd,Ct,CO,Cb] u0 {1,S}
-5    [Cd,Ct,CO,Cb] u0 {1,S}
+1 *2 Cs               u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H                u0 {1,S}
+3    H                u0 {1,S}
+4    [Cd,Ct,CO,Cb,CS] u0 {1,S}
+5    [Cd,Ct,CO,Cb,CS] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -470,11 +577,11 @@ entry(
     label = "C/H/NonDeC",
     group = 
 """
-1 *2 Cs     u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H      u0 {1,S}
-3    [Cs,O] u0 {1,S}
-4    [Cs,O] u0 {1,S}
-5    [Cs,O] u0 {1,S}
+1 *2 Cs       u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H        u0 {1,S}
+3    [Cs,O,S] u0 {1,S}
+4    [Cs,O,S] u0 {1,S}
+5    [Cs,O,S] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -498,11 +605,25 @@ entry(
     label = "C/H/NDMustO",
     group = 
 """
-1 *2 Cs     u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H      u0 {1,S}
-3    O      u0 {1,S}
-4    [Cs,O] u0 {1,S}
-5    [Cs,O] u0 {1,S}
+1 *2 Cs       u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H        u0 {1,S}
+3    O        u0 {1,S}
+4    [Cs,O,S] u0 {1,S}
+5    [Cs,O,S] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 59,
+    label = "C/H/NDMustS",
+    group = 
+"""
+1 *2 Cs       u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H        u0 {1,S}
+3    S2s      u0 {1,S}
+4    [Cs,O,S] u0 {1,S}
+5    [Cs,O,S] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -512,11 +633,11 @@ entry(
     label = "C/H/OneDe",
     group = 
 """
-1 *2 Cs            u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H             u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    [Cs,O]        u0 {1,S}
-5    [Cs,O]        u0 {1,S}
+1 *2 Cs               u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H                u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    [Cs,O,S]         u0 {1,S}
+5    [Cs,O,S]         u0 {1,S}
 """,
     kinetics = None,
 )
@@ -526,11 +647,11 @@ entry(
     label = "C/H/Cs2",
     group = 
 """
-1 *2 Cs            u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H             u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    Cs            u0 {1,S}
-5    Cs            u0 {1,S}
+1 *2 Cs               u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H                u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    Cs               u0 {1,S}
+5    Cs               u0 {1,S}
 """,
     kinetics = None,
 )
@@ -540,11 +661,25 @@ entry(
     label = "C/H/ODMustO",
     group = 
 """
-1 *2 Cs            u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H             u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    O             u0 {1,S}
-5    [Cs,O]        u0 {1,S}
+1 *2 Cs               u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H                u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    O                u0 {1,S}
+5    [Cs,O,S]         u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 60,
+    label = "C/H/ODMustS",
+    group = 
+"""
+1 *2 Cs               u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H                u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    S2s              u0 {1,S}
+5    [Cs,O,S]         u0 {1,S}
 """,
     kinetics = None,
 )
@@ -554,11 +689,11 @@ entry(
     label = "C/H/TwoDe",
     group = 
 """
-1 *2 Cs            u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H             u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    [Cd,Ct,Cb,CO] u0 {1,S}
-5    [Cs,O]        u0 {1,S}
+1 *2 Cs               u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H                u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+5    [Cs,O,S]         u0 {1,S}
 """,
     kinetics = None,
 )
@@ -568,11 +703,11 @@ entry(
     label = "C/H/Cs",
     group = 
 """
-1 *2 Cs            u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H             u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    [Cd,Ct,Cb,CO] u0 {1,S}
-5    Cs            u0 {1,S}
+1 *2 Cs               u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H                u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+5    Cs               u0 {1,S}
 """,
     kinetics = None,
 )
@@ -582,11 +717,25 @@ entry(
     label = "C/H/TDMustO",
     group = 
 """
-1 *2 Cs            u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H             u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    [Cd,Ct,Cb,CO] u0 {1,S}
-5    O             u0 {1,S}
+1 *2 Cs               u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H                u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+5    O                u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 61,
+    label = "C/H/TDMustS",
+    group = 
+"""
+1 *2 Cs               u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H                u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+5    S2s              u0 {1,S}
 """,
     kinetics = None,
 )
@@ -596,11 +745,11 @@ entry(
     label = "C/H/ThreeDe",
     group = 
 """
-1 *2 Cs            u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H             u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    [Cd,Ct,Cb,CO] u0 {1,S}
-5    [Cd,Ct,Cb,CO] u0 {1,S}
+1 *2 Cs               u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H                u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -610,11 +759,11 @@ entry(
     label = "R_R'",
     group = 
 """
-1 *2 [Cs,Sis,N]              u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 [Cs,Cd,Cb,Ct,Sis,Sid,N] u0 {1,S}
-3    H                       u0 {1,S}
-4    H                       u0 {1,S}
-5    H                       u0 {1,S}
+1 *2 [Cs,Sis,N]                u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 [Cs,Cd,Cb,Ct,Sis,Sid,N,S] u0 {1,S}
+3    H                         u0 {1,S}
+4    H                         u0 {1,S}
+5    H                         u0 {1,S}
 """,
     kinetics = None,
 )
@@ -771,12 +920,15 @@ L1: RR'
             L4: acetylene
         L3: RO_H
             L4: CsO_H
+        L3: RS_H
+            L4: CsS_H
         L3: Cd_H
             L4: Cd_pri
                 L5: ethene
             L4: Cd_sec
                 L5: Cd/H/NonDeC
                 L5: Cd/H/NonDeO
+                L5: Cd/H/NonDeS
                 L5: Cd/H/OneDe
         L3: Cb_H
         L3: Cs_H
@@ -784,6 +936,7 @@ L1: RR'
             L4: C_pri
                 L5: C_pri/NonDeC
                 L5: C_pri/NonDeO
+                L5: C_pri/NonDeS
                 L5: C_pri/De
                     L6: C_pri/Cd
                     L6: C_pri/Ct
@@ -792,20 +945,27 @@ L1: RR'
                 L5: C/H2/NonDeO
                     L6: C/H2/CsO
                     L6: C/H2/O2
+                L5: C/H2/NonDeS
+                    L6: C/H2/CsS
+                    L6: C/H2/S2
                 L5: C/H2/OneDe
                     L6: C/H2/OneDeC
                     L6: C/H2/OneDeO
+                    L6: C/H2/OneDeS
                 L5: C/H2/TwoDe
             L4: C_ter
                 L5: C/H/NonDeC
                     L6: C/H/Cs3
                     L6: C/H/NDMustO
+                    L6: C/H/NDMustS
                 L5: C/H/OneDe
                     L6: C/H/Cs2
                     L6: C/H/ODMustO
+                    L6: C/H/ODMustS
                 L5: C/H/TwoDe
                     L6: C/H/Cs
                     L6: C/H/TDMustO
+                    L6: C/H/TDMustS
                 L5: C/H/ThreeDe
     L2: R_R'
         L3: Cs_Cs
