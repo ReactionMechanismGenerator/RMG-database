@@ -6240,3 +6240,77 @@ u"""
 Forbid a radical double-bonded to a 6-membered ring from abstracting an H the para position
 """,
 )
+
+##########
+
+forbidden(
+    label = "R5H_DDSS",
+    group =
+"""
+1 *1 Cd  u1 {2,D}
+2 *4 Cdd  u0 {1,D} {3,D}
+3 *6 R!H u0 {2,D} {4,S}
+4 *5 R!H u0 {3,S} {5,S}
+5 *2 R!H u0 {4,S} {6,S}
+6 *3 H   u0 {5,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid allenic R5H backbone from doing H-migration
+""",
+)
+
+forbidden(
+    label = "R5H_SSDD",
+    group =
+"""
+1 *1 R!H  u1 {2,S}
+2 *4 R!H  u0 {1,S} {3,S}
+3 *6 R!H u0 {2,S} {4,D}
+4 *5 Cdd u0 {3,D} {5,D}
+5 *2 Cd u0 {4,D} {6,S}
+6 *3 H   u0 {5,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid allenic R5H backbone from doing H-migration, reverse
+""",
+)
+
+forbidden(
+    label = "R5H_TSSS",
+    group =
+"""
+1 *1 Ct  u1 {2,T}
+2 *4 Ct  u0 {1,T} {3,S}
+3 *6 R!H u0 {2,S} {4,S}
+4 *5 R!H u0 {3,S} {5,S}
+5 *2 R!H u0 {4,S} {6,S}
+6 *3 H   u0 {5,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid R5H backbone triple bond form from doing H-migration
+""",
+)
+
+forbidden(
+    label = "R5H_SSST",
+    group =
+"""
+1 *1 R!H  u1 {2,S}
+2 *4 R!H  u0 {1,S} {3,S}
+3 *6 R!H u0 {2,S} {4,S}
+4 *5 Ct u0 {3,S} {5,T}
+5 *2 Ct u0 {4,T} {6,S}
+6 *3 H   u0 {5,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid R5H backbone triple bond form from doing H-migration, reverse
+""",
+)
