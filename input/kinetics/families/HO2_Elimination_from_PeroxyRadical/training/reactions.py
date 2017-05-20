@@ -21,9 +21,9 @@ entry(
         authors = ["J. W. Allen", "C. F. Goldsmith", "W. H. Green"],
         title = u'Automatic Estimation of Pressure-Dependent Rate Coefficients',
         journal = "Phys. Chem. Chem. Phys.",
-        volume = "???",
-        pages = """???-???""",
-        year = "2011 (accepted)",
+        volume = "14",
+        pages = """1131-1155""",
+        year = "2012",
     ),
     referenceType = "theory",
     shortDesc = u"""CFG VTST calculations at RQCISD(T)/CBS//B3LYP/6-311++G(d,p) level""",
@@ -32,6 +32,7 @@ u"""
 Quantum chemistry calculations at the RQCISD(T)/CBS//B3LYP/6-311++G(d,p) level
 using Gaussian 03 and MOLPRO. High-pressure-limit rate coefficient computed
 using Variflex.
+DOI: 10.1039/C1CP22765C
 """,
 )
 
