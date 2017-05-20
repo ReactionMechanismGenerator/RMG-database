@@ -243,8 +243,8 @@ entry(
     label = "Y_rad_NDe",
     group = 
 """
-1 *1 R!H u1 {2,S}
-2 [Cs,Os,S2s] u0 {1,S}
+1 *1 R!H         u1 {2,S}
+2    [Cs,Os,S2s] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -254,8 +254,8 @@ entry(
     label = "Y_rad_De",
     group = 
 """
-1 *1 R!H u1 {2,[S,D]}
-2 [Cd,Cdd,Ct,CO,Cb] u0 {1,[S,D]}
+1 *1 R!H                  u1 {2,[S,D]}
+2    [Cd,Cdd,Ct,CO,CS,Cb] u0 {1,[S,D]}
 """,
     kinetics = None,
 )
@@ -265,10 +265,10 @@ entry(
     label = "XH_Rrad_NDe",
     group = 
 """
-1 *3 R!H u1 {2,S} {4,S}
-2 *2 R!H u0 {1,S} {3,S}
-3 *4 H u0 {2,S}
-4 [Cs,Os,S2s] u0 {1,S}
+1 *3 R!H         u1 {2,S} {4,S}
+2 *2 R!H         u0 {1,S} {3,S}
+3 *4 H           u0 {2,S}
+4    [Cs,Os,S2s] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -278,10 +278,10 @@ entry(
     label = "XH_Rrad_De",
     group = 
 """
-1 *3 R!H u1 {2,S} {4,[S,D]}
-2 *2 R!H u0 {1,S} {3,S}
-3 *4 H u0 {2,S}
-4 [Cd,Cdd,Ct,CO,Cb] u0 {1,[S,D]}
+1 *3 R!H                  u1 {2,S} {4,[S,D]}
+2 *2 R!H                  u0 {1,S} {3,S}
+3 *4 H                    u0 {2,S}
+4    [Cd,Cdd,Ct,CO,CS,Cb] u0 {1,[S,D]}
 """,
     kinetics = None,
 )
