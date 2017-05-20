@@ -468,8 +468,8 @@ entry(
     label = "CsJ-CdSs",
     group = 
 """
-1 *3 Cs u1 {2,S} {3,S}
-2    Cd u0 {1,S}
+1 *3 Cs  u1 {2,S} {3,S}
+2    Cd  u0 {1,S}
 3    S2s u0 {1,S}
 """,
     kinetics = None,
@@ -480,9 +480,9 @@ entry(
     label = "CsJ-S2s",
     group = 
 """
-1 *3 Cs u1 {2,S} {3,S}
+1 *3 Cs  u1 {2,S} {3,S}
 2    S2s u0 {1,S}
-3    R  u0 {1,S}
+3    R   u0 {1,S}
 """,
     kinetics = None,
 )
@@ -492,9 +492,9 @@ entry(
     label = "CsJ-SsH",
     group = 
 """
-1 *3 Cs u1 {2,S} {3,S}
+1 *3 Cs  u1 {2,S} {3,S}
 2    S2s u0 {1,S}
-3    H  u0 {1,S}
+3    H   u0 {1,S}
 """,
     kinetics = None,
 )
@@ -504,9 +504,9 @@ entry(
     label = "CsJ-SsCs",
     group = 
 """
-1 *3 Cs u1 {2,S} {3,S}
+1 *3 Cs  u1 {2,S} {3,S}
 2    S2s u0 {1,S}
-3    Cs u0 {1,S}
+3    Cs  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -516,7 +516,7 @@ entry(
     label = "CsJ-SsSs",
     group = 
 """
-1 *3 Cs u1 {2,S} {3,S}
+1 *3 Cs  u1 {2,S} {3,S}
 2    S2s u0 {1,S}
 3    S2s u0 {1,S}
 """,
@@ -550,8 +550,8 @@ entry(
     label = "Cs-(NonDe)C",
     group = 
 """
-1 *1 Cs           u0 {2,S} {3,S}
-2    C            u0 {1,S}
+1 *1 Cs            u0 {2,S} {3,S}
+2    C             u0 {1,S}
 3    [H,Cs,Os,S2s] u0 {1,S}
 """,
     kinetics = None,
@@ -586,9 +586,9 @@ entry(
     label = "Cs-(De)C",
     group = 
 """
-1 *1 Cs            u0 {2,S} {3,S}
-2    C             u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
+1 *1 Cs               u0 {2,S} {3,S}
+2    C                u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -610,8 +610,8 @@ entry(
     label = "Cs-(NonDe)S",
     group = 
 """
-1 *1 Cs           u0 {2,S} {3,S}
-2    S            u0 {1,S}
+1 *1 Cs            u0 {2,S} {3,S}
+2    S             u0 {1,S}
 3    [H,Cs,Os,S2s] u0 {1,S}
 """,
     kinetics = None,
@@ -646,9 +646,9 @@ entry(
     label = "Cs-(De)S",
     group = 
 """
-1 *1 Cs            u0 {2,S} {3,S}
-2    S             u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
+1 *1 Cs               u0 {2,S} {3,S}
+2    S                u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -692,7 +692,7 @@ entry(
     label = "S-S2s",
     group = 
 """
-1 *2 S  u0 {2,S}
+1 *2 S   u0 {2,S}
 2    S2s u0 {1,S}
 """,
     kinetics = None,
@@ -703,8 +703,8 @@ entry(
     label = "S-SJ",
     group = 
 """
-1 *2 S  u0 {2,S}
-2    S  u1 {1,S}
+1 *2 S u0 {2,S}
+2    S u1 {1,S}
 """,
     kinetics = None,
 )
