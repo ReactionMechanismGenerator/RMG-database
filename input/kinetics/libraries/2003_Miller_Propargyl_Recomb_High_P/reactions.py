@@ -12,7 +12,7 @@ entry(
     index = 1,
     label = "I <=> II",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.873e+11, 's^-1'), n=0.278, Ea=(35.198, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(2.309e+10, 's^-1'), n=0.360, Ea=(34.586, 'kcal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
 Originally from reaction library: Unclassified
@@ -23,7 +23,7 @@ entry(
     index = 2,
     label = "II <=> III",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.606e+11, 's^-1'), n=0.285, Ea=(29.433, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(5.000e+11, 's^-1'), n=0.056, Ea=(29.257, 'kcal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
 Originally from reaction library: Unclassified
@@ -34,7 +34,7 @@ entry(
     index = 3,
     label = "II <=> A",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(6.056e+11, 's^-1'), n=0.183, Ea=(38.65, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(1.162e+12, 's^-1'), n=-0.046, Ea=(38.474, 'kcal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
 Originally from reaction library: Unclassified
@@ -56,7 +56,7 @@ entry(
     index = 5,
     label = "II <=> VIII",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.086e+09, 's^-1'), n=1.038, Ea=(39.326, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(2.084e+09, 's^-1'), n=0.809, Ea=(39.151, 'kcal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
 Originally from reaction library: Unclassified
@@ -111,7 +111,7 @@ entry(
     index = 10,
     label = "VIII <=> IX",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.994e+12, 's^-1'), n=0.197, Ea=(51.841, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(2.655e+13, 's^-1'), n=-0.215, Ea=(51.959, 'kcal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
 Originally from reaction library: Unclassified
@@ -122,7 +122,7 @@ entry(
     index = 11,
     label = "VIII <=> X",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.587e+11, 's^-1'), n=0.108, Ea=(37.209, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(3.180e+12, 's^-1'), n=-0.304, Ea=(37.327, 'kcal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
 Originally from reaction library: Unclassified
