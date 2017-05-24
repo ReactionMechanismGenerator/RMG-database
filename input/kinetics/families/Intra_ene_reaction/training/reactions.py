@@ -56,7 +56,7 @@ entry(
     index = 4,
     label = "C6H6 <=> C6H6-2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.086e+09, 's^-1'), n=1.038, Ea=(39.326, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(2.08398e+09, 's^-1'), n=0.809263, Ea=(163.807, 'kJ/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: 2003_Miller_Propargyl_Recomb_High_P""",
     longDesc = 
@@ -71,7 +71,7 @@ entry(
     index = 5,
     label = "C6H6-3 <=> C6H6-4",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4.697e+08, 's^-1'), n=1.15, Ea=(52.158, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(4.16475e+09, 's^-1'), n=0.737748, Ea=(218.723, 'kJ/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: 2003_Miller_Propargyl_Recomb_High_P_reverse""",
     longDesc = 
