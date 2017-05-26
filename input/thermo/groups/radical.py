@@ -8068,9 +8068,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.311, 2.915, 2.448, 1.676, 0.545, -0.314, -1.977],'cal/(mol*K)'),
-        H298 = (124.169,'kcal/mol'),
-        S298 = (5.65,'cal/(mol*K)'),
+        Cpdata = ([0.047, 0.607, 0.374, -0.3, -1.28, -1.972, -3.196],'cal/(mol*K)'),
+        H298 = (123.797,'kcal/mol'),
+        S298 = (2.661,'cal/(mol*K)'),
     ),
     shortDesc = u"""Fit to CCSD(T)-F12/cc-pVDZ-F12//M06/vtz calculations""",
     longDesc =
