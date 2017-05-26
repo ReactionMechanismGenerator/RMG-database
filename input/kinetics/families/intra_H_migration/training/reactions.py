@@ -540,7 +540,7 @@ entry(
     index = 37,
     label = "C9H11-7 <=> C9H11-8",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.153e+12, 's^-1'), n=0, Ea=(29.608, 'kcal/mol'), T0=(1, 'K')),
+    kinetics=Arrhenius(A=(4.555e-01, 's^-1'), n=3.436, Ea=(23.613, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: New_Phenyl_Propene_Pathway""",
     longDesc = 
@@ -553,7 +553,7 @@ entry(
     index = 38,
     label = "C9H11-9 <=> C9H11-10",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.978e+11, 's^-1'), n=0, Ea=(7.048, 'kcal/mol'), T0=(1, 'K')),
+    kinetics=Arrhenius(A=(2.419e+02, 's^-1'), n=2.452, Ea=(3.561, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: New_Phenyl_Propene_Pathway""",
     longDesc = 

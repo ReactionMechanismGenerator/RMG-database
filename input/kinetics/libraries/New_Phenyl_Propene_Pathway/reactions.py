@@ -11,16 +11,16 @@ entry(
     label = "i1 <=> inew",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.153e+12, 's^-1'),
-        n = 0.0,
-        Ea = (29.608, 'kcal/mol'),
+        A = (4.555e-01, 's^-1'),
+        n = 3.436,
+        Ea = (23.613, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'CBS-QB3',
+        comment = 'G3(CC,MP2)//B3LYP/6-311G**',
     ),
     longDesc = 
 u"""
 Originally from reaction library: Unclassified
-CBS-QB3
+G3(CC,MP2)//B3LYP/6-311G** method of Mebel
 """,
 )
 
@@ -29,16 +29,16 @@ entry(
     label = "inew <=> i4",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.978e+11, 's^-1'),
-        n = 0.0,
-        Ea = (7.048, 'kcal/mol'),
+        A = (2.419e+02, 's^-1'),
+        n = 2.452,
+        Ea = (3.561, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'CBS-QB3',
+        comment = 'G3(CC,MP2)//B3LYP/6-311G**',
     ),
     longDesc = 
 u"""
 Originally from reaction library: Unclassified
-CBS-QB3
+G3(CC,MP2)//B3LYP/6-311G** method of Mebel
 """,
 )
 
@@ -47,16 +47,16 @@ entry(
     label = "i4 <=> C2H4 + Benzyl",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.717e+13, 's^-1'),
-        n = 0.0,
-        Ea = (22.905, 'kcal/mol'),
+        A = (2.836e+09, 's^-1'),
+        n = 1.093,
+        Ea = (22.805, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'CBS-QB3',
+        comment = 'G3(CC,MP2)//B3LYP/6-311G**',
     ),
     longDesc = 
 u"""
 Originally from reaction library: Unclassified
-CBS-QB3
+G3(CC,MP2)//B3LYP/6-311G** method of Mebel
 """,
 )
 
