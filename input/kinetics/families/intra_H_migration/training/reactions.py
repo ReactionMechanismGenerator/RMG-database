@@ -1279,7 +1279,7 @@ entry(
     index = 92,
     label = "C10H7-7 <=> C10H7-8",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.004209, 's^-1'), n=3.941, Ea=(19.492, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(5.333e-03, 's^-1'), n=3.992, Ea=(19.578, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: phenyl_diacetylene_intra_H_mig""",
     longDesc = 
