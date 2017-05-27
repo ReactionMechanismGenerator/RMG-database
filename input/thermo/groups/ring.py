@@ -1840,14 +1840,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.1,-3.4,-3.4,-3.2,-3,-2.6,-2.6],'cal/(mol*K)'),
-        H298 = (14.73,'kcal/mol'),
-        S298 = (34.1,'cal/(mol*K)'),
+        Cpdata = ([-3.376, -3.662, -3.634, -3.412, -3.209, -2.823, -2.737],'cal/(mol*K)'),
+        H298 = (9.06,'kcal/mol'),
+        S298 = (33.947,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CBS-QB3""",
     longDesc = 
 u"""
-
+Fit to CBS-QB3 calculations of fulvene thermo in vinylCPD_H and Fulvene_H libraries
 """,
 )
 
