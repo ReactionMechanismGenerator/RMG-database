@@ -3794,6 +3794,31 @@ u"""
 """,
 )
 
+entry(
+    index = 171,
+    label = "34methylenecyclobutene",
+    group =
+"""
+1 * Cd  u0 {2,S} {4,S} {5,D}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd  u0 {1,S} {3,S} {6,D}
+5   Cd u0 {1,D}
+6   Cd u0 {4,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.441, 0.307, -0.336, -1.197, -1.921, -1.513, -3.264],'cal/(mol*K)'),
+        H298 = (33.076,'kcal/mol'),
+        S298 = (38.6947,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+
+""",
+)
+
 tree(
 """
 L1: Ring
@@ -3830,12 +3855,14 @@ L1: Ring
         L3: cyclobutadiene
         L3: Cyclobutadiene2
         L3: Cyclobutadiene3
+        L3: 34methylenecyclobutene
         L3: Oxetane
 		L3: Oxetene
         L3: Beta-Propiolactone
         L3: Cyclobutanone
         L3: 12dioxetane
         L3: dioxerene
+        L3: cyclobutadiene_12
         L3: thietane
         L3: 1,2-dithietane
         L3: 1,3-dithietane
@@ -3846,11 +3873,14 @@ L1: Ring
         L3: methylenecyclobutane
         L3: 2methyleneoxetane
         L3: 12methylenecyclobutane
+        L3: four-inringtwodouble
+            L4: cyclobutadiene_13
+        L3: four-inringonedouble
+            L4: Cyclobutene
     L2: FiveMember
         L3: Cyclopentane
         L3: Cyclopentene
         L3: Cyclopentadiene
-        L3: Cyclopentatriene
         L3: Tetrahydrofuran
         L3: 2,3-Dihydrofuran
         L3: 1,3-Dioxolane
@@ -3880,6 +3910,12 @@ L1: Ring
         L3: 3-Methylenecyclopentene
         L3: 4-Methylenecyclopentene
         L3: 12methylenecyclopentane
+        L3: five-inringtwodouble-12
+            L4: 1,2-Cyclopentadiene
+        L3: five-inringthreedouble-124
+            L4: Cyclopentatriene
+        L3: five-inringonetriple
+            L4: Cyclopentyne
     L2: SixMember
         L3: sixnosidedouble
             L4: Cyclohexane
