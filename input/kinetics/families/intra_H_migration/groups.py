@@ -1860,6 +1860,36 @@ entry(
 )
 
 entry(
+    index = 294,
+    label = "R5H_RSMM",
+    group = 
+"""
+1 *1 R!H u1 {2,[S,D,T,B]}
+2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
+3 *6 R!H u0 {2,S} {4,[D,T,B]}
+4 *5 R!H u0 {3,[D,T,B]} {5,[D,T,B]}
+5 *2 R!H u0 {4,[D,T,B]} {6,S}
+6 *3 H   u0 {5,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 295,
+    label = "R5H_RSDD",
+    group = 
+"""
+1 *1 R!H u1 {2,[S,D,T,B]}
+2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
+3 *6 R!H u0 {2,S} {4,D}
+4 *5 R!H u0 {3,D} {5,D}
+5 *2 R!H u0 {4,D} {6,S}
+6 *3 H   u0 {5,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 123,
     label = "R5H_SSBB",
     group = 
@@ -4519,11 +4549,13 @@ L1: RnH
                 L5: R5H_BBSD
                 L5: R5H_BBST
                 L5: R5H_BBSB
-            L4: R5H_RSBB
-                L5: R5H_SSBB
-                L5: R5H_DSBB
-                L5: R5H_TSBB
-                L5: R5H_BSBB
+            L4: R5H_RSMM
+		L5: R5H_RSDD            
+		L5: R5H_RSBB
+                	L6: R5H_SSBB
+                	L6: R5H_DSBB
+                	L6: R5H_TSBB
+                	L6: R5H_BSBB
             L4: R5H_SBBS
             L4: R5H_SBBB
             L4: R5H_BBBS
