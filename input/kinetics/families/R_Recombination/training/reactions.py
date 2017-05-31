@@ -522,8 +522,6 @@ Taken from entry: W17 <=> P10 + H
 """,
 )
 
-
-
 entry(
     index = 27,
     label = "C3H3-2 + C7H7 <=> C10H10-5",
@@ -540,5 +538,34 @@ entry(
 u"""
 Taken from entry: C3H3 + C7H7 <=> W2
 """,
+)
+
+entry(
+    index = 28,
+    label = "C3H3-2 + C3H3-2 <=> CH2CCHCHCCH2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.288e+9, 'cm^3/(mol*s)'), n=0.795, Ea=(-4303.6, 'J/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: propargyl_recomb""",
+    longDesc = u"""Head-to-head recombination""",
+)
+
+entry(
+    index = 29,
+    label = "C3H3 + C3H3-2 <=> CH2CCHCH2CCH",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.307e+12, 'cm^3/(mol*s)'), n=0.192, Ea=(-2807.0, 'J/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: propargyl_recomb""",
+    longDesc = u"""Head-to-tail recombination""",
+)
+
+entry(
+    index = 30,
+    label = "C3H3 + C3H3 <=> CHCCH2CH2CCH",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.945e+13, 'cm^3/(mol*s)'), n=-0.278, Ea=(-1268.8, 'J/mol'), T0=(1, 'K')),
+    shortDesc = u"""Training reaction from kinetics library: propargyl_recomb""",
+    longDesc = u"""tail-to-tail recombination""",
 )
 
