@@ -38,3 +38,39 @@ L1: RJJ
 """
 )
 
+
+forbidden(
+    label = "N2O2a",
+    group =
+"""
+multiplicity [3]
+1 *3 O u0 p2 c0 {2,S} {3,S}
+2 *2 N u0 p1 c0 {1,S} {4,D}
+3 *4 O u1 p2 c0 {1,S}
+4 *1 N u1 p1 c0 {2,D}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+N2O2 reacts in this family to form a singlet O2 (O=O)
+See RMG-Py issue #1020
+""",
+)
+
+forbidden(
+    label = "N2O2b",
+    group =
+"""
+multiplicity [3]
+1 *2 O u0 p2 c0 {2,S} {3,S}
+2 *3 N u0 p1 c0 {1,S} {4,D}
+3 *1 O u1 p2 c0 {1,S}
+4 *4 N u1 p1 c0 {2,D}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Same as above, inverse atom labeling
+""",
+)
+
