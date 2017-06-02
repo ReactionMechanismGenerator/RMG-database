@@ -446,13 +446,13 @@ forbidden(
 4 *4 C u0 {3,[S,D]} {5,[D,T]}
 5 *5 C u0 {1,[S,D]} {4,[D,T]}
 6 *6 H u0 {1,S}
-7    C u1 {3,S}
+7    R!H u1 {3,S}
 """,
     shortDesc = u"""""",
     longDesc =
 u"""
 Forbid an H from shifting to a resonant radical site on a CPD ring,
-in order to avoid redundancy with Intra_H_migration family
+in order to avoid redundancy with Intra_H_migration family, the radical atom can be anything element
 """,
 )
 
@@ -466,13 +466,13 @@ forbidden(
 4 *4 C u0 {3,[S,D]} {5,[D,T]}
 5 *5 C u0 {1,[S,D]} {4,[D,T]} {7,S}
 6 *6 H u0 {1,S}
-7    C u1 {5,S}
+7    R!H u1 {5,S}
 """,
     shortDesc = u"""""",
     longDesc =
 u"""
 Forbid an H from shifting to a doubly resonant radical site on a CPD ring,
-in order to avoid redundancy with Intra_H_migration family
+in order to avoid redundancy with Intra_H_migration family, the radical atom can be anything element
 """,
 )
 
@@ -487,13 +487,13 @@ forbidden(
 4 *4 C u0 {3,[S,D]} {5,[D,T]}
 5 *5 C u0 {1,[S,D]} {4,[D,T]}
 6 *6 H u0 {1,S}
-7    C u1 {3,S}
+7    R!H u1 {3,S}
 """,
     shortDesc = u"""""",
     longDesc =
 u"""
 Forbid an H from shifting to a resonant radical site on a linear 1,3-unsaturated hexane chain,
-in order to avoid redundancy with Intra_H_migration family
+in order to avoid redundancy with Intra_H_migration family, the radical atom can be anything element
 """,
 )
 
@@ -507,13 +507,13 @@ forbidden(
 4 *4 C u0 {3,[S,D]} {5,[D,T]}
 5 *5 C u0 {1,[S,D]} {4,[D,T]} {7,S}
 6 *6 H u0 {1,S}
-7    C u1 {5,S}
+7    R!H u1 {5,S}
 """,
     shortDesc = u"""""",
     longDesc =
 u"""
 Forbid an H from shifting to a doubly resonant radical site on a linear 1,3-unsaturated hexane chain,
-in order to avoid redundancy with Intra_H_migration family
+in order to avoid redundancy with Intra_H_migration family, the radical atom can be anything element
 """,
 )
 
