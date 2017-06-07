@@ -1053,30 +1053,30 @@ u"""
 """,
 )
 
-entry(
-    index = 32,
-    label = "S2s-aromatic",
-    group = 
-"""
-1 * S2s      u0 p2 {2,S} {5,S}
-2   Cb       u0    {1,S} {3,B}
-3   [Cb,N3b] u0    {2,B} {4,B}
-4   [Cb,N3b] u0    {3,B} {5,B}
-5   Cb       u0    {1,S} {4,B}
-""",
-    solute = SoluteData(
-        S = 0,
-        B = 0.043,
-        E = 0.116,
-        L = 0.848,
-        A = 0,
-    ),
-    shortDesc = u"""Platts fragment 32 -S- aromatic""",
-    longDesc = 
-u"""
+# entry(
+#     index = 32,
+#     label = "Ss-aromatic",
+#     group = 
+# """
+# 1 * S2b      u0 p2 {2,B} {5,B}
+# 2   Cb       u0    {1,B} {3,B}
+# 3   [Cb,N3b] u0    {2,B} {4,B}
+# 4   [Cb,N3b] u0    {3,B} {5,B}
+# 5   Cb       u0    {1,B} {4,B}
+# """,
+#     solute = SoluteData(
+#         S = 0,
+#         B = 0.043,
+#         E = 0.116,
+#         L = 0.848,
+#         A = 0,
+#     ),
+#     shortDesc = u"""Platts fragment 32 -S- aromatic""",
+#     longDesc = 
+# u"""
 
-""",
-)
+# """,
+# )
 
 entry(
     index = 33,
@@ -1198,7 +1198,6 @@ L1: R
             L4: N3bpyr
     L2: S
         L3: S2s
-            L4: S2s-aromatic
         L3: S2d
         L3: S4d
         L3: S6dd-OdOdOR
