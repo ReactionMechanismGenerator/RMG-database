@@ -2525,61 +2525,6 @@ entry(
 )
 
 entry(
-    index = 264,
-    label = "Cds/H2_d_N5ddrad",
-    group = 
-"""
-1 *2 C    u0 {2,D} {3,S} {4,S}
-2 *3 N5dd u1 {1,D}
-3 *4 H    u0 {1,S}
-4    H    u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 265,
-    label = "Cds/H2_d_N5ddrad/C",
-    group = 
-"""
-1 *2 C    u0 {2,D} {3,S} {4,S}
-2 *3 N5dd u1 {1,D} {5,D}
-3 *4 H    u0 {1,S}
-4    H    u0 {1,S}
-5    C    u0 {2,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 266,
-    label = "Cds/H2_d_N5ddrad/O",
-    group = 
-"""
-1 *2 C    u0 {2,D} {3,S} {4,S}
-2 *3 N5dd u1 {1,D} {5,D}
-3 *4 H    u0 {1,S}
-4    H    u0 {1,S}
-5    O    u0 {2,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 267,
-    label = "Cds/H2_d_N5ddrad/N",
-    group = 
-"""
-1 *2 C    u0 {2,D} {3,S} {4,S}
-2 *3 N5dd u1 {1,D} {5,D}
-3 *4 H    u0 {1,S}
-4    H    u0 {1,S}
-5    N    u0 {2,D}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 268,
     label = "Cds/H/NonDe_d_Rrad",
     group = 
@@ -3138,10 +3083,6 @@ L1: XH_Rrad_birad
                     L6: Cds/H2_d_N3rad
                     L6: Cds/H2_d_N5rad
                         L7: Cds/H2_d_N5drad
-                        L7: Cds/H2_d_N5ddrad
-                            L8: Cds/H2_d_N5ddrad/C
-                            L8: Cds/H2_d_N5ddrad/O
-                            L8: Cds/H2_d_N5ddrad/N
                 L5: Cds/H/R!H
                     L6: Cds/H/NonDe_d_Rrad
                     L6: Cds/H/Deloc_d_Rrad
