@@ -35,6 +35,7 @@ recommendedFamilies = {
 'Intra_R_Add_Endocyclic':True,
 'Intra_R_Add_ExoTetCyclic':False,
 'Intra_R_Add_Exocyclic':True,
+'Intra_R_Add_Polycyclic':True,
 'Korcek_step1':False,
 'Korcek_step2':False,
 'R_Addition_COm':True,
