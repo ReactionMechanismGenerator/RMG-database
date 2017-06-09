@@ -1018,3 +1018,32 @@ Group added to forbid this family from forming S-O chains
 """,
 )
 
+forbidden(
+    label = "[N-]",
+    group =
+"""
+1 *2 N u2 p2 c-1
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid the reverse reaction of R-[N+](=O)[N-] dissociation into [Nbirad-] + RNO
+""",
+)
+
+forbidden(
+    label = "RNON",
+    group =
+"""
+1    R!H u0 p1 c0 {2,S}
+2 *1 N   u0 p0 c+1 {1,S} {3,D} {4,S}
+3    O   u0 p2 c0 {2,D}
+4 *2 N   u1 p2 c-1 {2,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid the reverse reaction of R-[N+](=O)[N-] dissociation into [Nbirad-] + RNO
+""",
+)
+
