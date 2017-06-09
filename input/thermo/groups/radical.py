@@ -134,10 +134,10 @@ entry(
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
 2   Cs u0 {1,S} {3,S}
-3   Os u0 {2,S} {6,S}
+3   O2s u0 {2,S} {6,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
-6   Os u0 {3,S}
+6   O2s u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -268,7 +268,7 @@ entry(
 5   C  u0 {1,S}
 6   H  u0 {2,S}
 7   H  u0 {2,S}
-8   Od u0 {3,D}
+8   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -297,8 +297,8 @@ entry(
 5   C  u0 {1,S}
 6   H  u0 {2,S}
 7   H  u0 {2,S}
-8   Od u0 {3,D}
-9   Od u0 {4,D}
+8   O2d u0 {3,D}
+9   O2d u0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -328,8 +328,8 @@ entry(
 6    H  u0 {2,S}
 7    H  u0 {2,S}
 8    C  u0 {5,D}
-9    Od u0 {3,D}
-10   Od u0 {4,D}
+9    O2d u0 {3,D}
+10   O2d u0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -359,7 +359,7 @@ entry(
 6   H  u0 {2,S}
 7   H  u0 {2,S}
 8   C  u0 {4,D}
-9   Od u0 {3,D}
+9   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -383,7 +383,7 @@ entry(
 """
 1   Cs u0 {2,S} {3,S} {4,S}
 2 * Cs u1 {1,S} {5,S} {6,S}
-3   Os u0 {1,S} {7,S}
+3   O2s u0 {1,S} {7,S}
 4   C  u0 {1,S}
 5   H  u0 {2,S}
 6   H  u0 {2,S}
@@ -413,7 +413,7 @@ entry(
 2 * Cs u1 {1,S} {6,S} {7,S}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
-5   Os u0 {1,S}
+5   O2s u0 {1,S}
 6   H  u0 {2,S}
 7   H  u0 {2,S}
 """,
@@ -440,7 +440,7 @@ entry(
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * Cs u1 {1,S} {6,S} {7,S}
 3   Cd u0 {1,S} {8,D}
-4   Os u0 {1,S}
+4   O2s u0 {1,S}
 5   C  u0 {1,S}
 6   H  u0 {2,S}
 7   H  u0 {2,S}
@@ -470,11 +470,11 @@ entry(
 2 * Cs u1 {1,S} {6,S} {7,S}
 3   CO u0 {1,S} {9,D}
 4   Cd u0 {1,S} {8,D}
-5   Os u0 {1,S}
+5   O2s u0 {1,S}
 6   H  u0 {2,S}
 7   H  u0 {2,S}
 8   C  u0 {4,D}
-9   Od u0 {3,D}
+9   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -500,10 +500,10 @@ entry(
 2 * Cs u1 {1,S} {6,S} {7,S}
 3   CO u0 {1,S} {8,D}
 4   C  u0 {1,S}
-5   Os u0 {1,S}
+5   O2s u0 {1,S}
 6   H  u0 {2,S}
 7   H  u0 {2,S}
-8   Od u0 {3,D}
+8   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -528,8 +528,8 @@ entry(
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * Cs u1 {1,S} {6,S} {7,S}
 3   C  u0 {1,S}
-4   Os u0 {1,S}
-5   Os u0 {1,S}
+4   O2s u0 {1,S}
+5   O2s u0 {1,S}
 6   H  u0 {2,S}
 7   H  u0 {2,S}
 """,
@@ -556,8 +556,8 @@ entry(
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * Cs u1 {1,S} {6,S} {7,S}
 3   Cd u0 {1,S} {8,D}
-4   Os u0 {1,S}
-5   Os u0 {1,S}
+4   O2s u0 {1,S}
+5   O2s u0 {1,S}
 6   H  u0 {2,S}
 7   H  u0 {2,S}
 8   C  u0 {3,D}
@@ -588,7 +588,7 @@ entry(
 4   C  u0 {1,S}
 5   H  u0 {2,S}
 6   H  u0 {2,S}
-7   Od u0 {3,D}
+7   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -617,7 +617,7 @@ entry(
 5   C   u0 {1,S}
 6   H   u0 {2,S}
 7   H   u0 {2,S}
-8   Od  u0 {4,D}
+8   O2d  u0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -739,7 +739,7 @@ entry(
 2   Cd u0 {1,S} {5,S} {6,D}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
-5   Os u0 {2,S}
+5   O2s u0 {2,S}
 6   C  u0 {2,D}
 """,
     thermo = ThermoData(
@@ -768,7 +768,7 @@ entry(
 4   C  u0 {1,D}
 5   H  u0 {2,S}
 6   H  u0 {2,S}
-7   Od u0 {3,D}
+7   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -795,7 +795,7 @@ entry(
 3   Cdd u0 {2,D} {6,D}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
-6   Od  u0 {3,D}
+6   O2d  u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -824,7 +824,7 @@ entry(
 5   C   u0 {1,D}
 6   H   u0 {2,S}
 7   H   u0 {2,S}
-8   Od  u0 {4,D}
+8   O2d  u0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -873,7 +873,7 @@ entry(
 2   C  u0 {1,S} {5,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
-5   Os u0 {2,S}
+5   O2s u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -899,7 +899,7 @@ entry(
 2   CO u0 {1,S} {5,D}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
-5   Od u0 {2,D}
+5   O2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -925,7 +925,7 @@ entry(
 2   CO u0 {1,S} {5,D} {6,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
-5   Od u0 {2,D}
+5   O2d u0 {2,D}
 6   C  u0 {2,S}
 """,
     thermo = ThermoData(
@@ -951,7 +951,7 @@ entry(
 3   CO u0 {2,S} {6,D}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
-6   Od u0 {3,D}
+6   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -979,7 +979,7 @@ entry(
 4   Cdd u0 {3,D} {7,D}
 5   H   u0 {1,S}
 6   H   u0 {1,S}
-7   Od  u0 {4,D}
+7   O2d  u0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1534,10 +1534,10 @@ entry(
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
 2   Cs u0 {1,S} {3,S}
-3   Os u0 {2,S} {6,S}
+3   O2s u0 {2,S} {6,S}
 4   Cs u0 {1,S}
 5   H  u0 {1,S}
-6   Os u0 {3,S}
+6   O2s u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2608,7 +2608,7 @@ entry(
 3   Cd u0 {1,S} {8,D}
 4   Cd u0 {2,S} {7,D}
 5   H  u0 {1,S}
-6   Os u0 {2,S}
+6   O2s u0 {2,S}
 7   C  u0 {4,D}
 8   C  u0 {3,D}
 """,
@@ -2709,7 +2709,7 @@ entry(
 4   Cdd u0 {2,D} {7,D}
 5   H   u0 {1,S}
 6   C   u0 {3,D}
-7   Od  u0 {4,D}
+7   O2d  u0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2758,7 +2758,7 @@ entry(
 2   C  u0 {1,S} {5,S}
 3   C  u0 {1,S}
 4   H  u0 {1,S}
-5   Os u0 {2,S}
+5   O2s u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2784,7 +2784,7 @@ entry(
 2   C  u0 {1,S} {5,S}
 3   Cd u0 {1,S} {6,D}
 4   H  u0 {1,S}
-5   Os u0 {2,S}
+5   O2s u0 {2,S}
 6   C  u0 {3,D}
 """,
     thermo = ThermoData(
@@ -2811,7 +2811,7 @@ entry(
 2   CO u0 {1,S} {5,D}
 3   C  u0 {1,S}
 4   H  u0 {1,S}
-5   Od u0 {2,D}
+5   O2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2837,7 +2837,7 @@ entry(
 2   CO u0 {1,S} {5,D} {6,S}
 3   Cs u0 {1,S}
 4   H  u0 {1,S}
-5   Od u0 {2,D}
+5   O2d u0 {2,D}
 6   H  u0 {2,S}
 """,
     thermo = ThermoData(
@@ -2862,8 +2862,8 @@ entry(
 2   CO u0 {1,S} {5,D}
 3   CO u0 {1,S} {6,D}
 4   H  u0 {1,S}
-5   Od u0 {2,D}
-6   Od u0 {3,D}
+5   O2d u0 {2,D}
+6   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2890,7 +2890,7 @@ entry(
 3   CO u0 {2,S} {6,D}
 4   C  u0 {1,S}
 5   H  u0 {1,S}
-6   Od u0 {3,D}
+6   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2918,7 +2918,7 @@ entry(
 4   Cdd u0 {2,D} {7,D}
 5   H   u0 {1,S}
 6   C   u0 {3,S}
-7   Od  u0 {4,D}
+7   O2d  u0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3054,10 +3054,10 @@ entry(
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
 2   Cs u0 {1,S} {3,S}
-3   Os u0 {2,S} {6,S}
+3   O2s u0 {2,S} {6,S}
 4   Cs u0 {1,S}
 5   Cs u0 {1,S}
-6   Os u0 {3,S}
+6   O2s u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3459,7 +3459,7 @@ entry(
 2   CO u0 {1,S} {5,D} {6,S}
 3   Cs u0 {1,S}
 4   Cs u0 {1,S}
-5   Od u0 {2,D}
+5   O2d u0 {2,D}
 6   R  u0 {2,S}
 """,
     thermo = u'C2CJCHO',
@@ -3479,7 +3479,7 @@ entry(
 2   CO u0 {1,S} {5,D} {6,S}
 3   Cs u0 {1,S}
 4   Cs u0 {1,S}
-5   Od u0 {2,D}
+5   O2d u0 {2,D}
 6   H  u0 {2,S}
 """,
     thermo = ThermoData(
@@ -3529,7 +3529,7 @@ entry(
 2   C  u0 {1,S} {5,S}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
-5   Os u0 {2,S}
+5   O2s u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3556,7 +3556,7 @@ entry(
 3   CO u0 {1,S} {6,D}
 4   C  u0 {1,S}
 5   C  u0 {2,D}
-6   Od u0 {3,D}
+6   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3584,7 +3584,7 @@ entry(
 4   Cd u0 {1,S} {6,D}
 5   C  u0 {2,D}
 6   C  u0 {4,D}
-7   Od u0 {3,D}
+7   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3611,7 +3611,7 @@ entry(
 3   Cdd u0 {2,D} {6,D}
 4   C   u0 {1,S}
 5   C   u0 {1,S}
-6   Od  u0 {3,D}
+6   O2d  u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3639,7 +3639,7 @@ entry(
 4   Cdd u0 {2,D} {7,D}
 5   C   u0 {1,S}
 6   C   u0 {3,D}
-7   Od  u0 {4,D}
+7   O2d  u0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3668,7 +3668,7 @@ entry(
 5   Cdd u0 {2,D} {8,D}
 6   C   u0 {3,D}
 7   C   u0 {4,D}
-8   Od  u0 {5,D}
+8   O2d  u0 {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3691,7 +3691,7 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S}
+2   O2s u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 """,
@@ -3716,7 +3716,7 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
+2   O2s u0 {1,S} {5,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {2,S}
@@ -3740,7 +3740,7 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
+2   O2s u0 {1,S} {5,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 5   C  u0 {2,S}
@@ -3759,7 +3759,7 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
+2   O2s u0 {1,S} {5,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 5   Cs u0 {2,S}
@@ -3779,7 +3779,7 @@ entry(
 """
 1   Cs u0 {3,S} {4,S} {5,S} {6,S}
 2 * Cs u1 {3,S} {7,S} {8,S}
-3   Os u0 {1,S} {2,S}
+3   O2s u0 {1,S} {2,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 6   H  u0 {1,S}
@@ -3806,7 +3806,7 @@ entry(
 """
 1   Cs u0 {3,S} {4,S} {5,S} {6,S}
 2 * Cs u1 {3,S} {7,S} {8,S}
-3   Os u0 {1,S} {2,S}
+3   O2s u0 {1,S} {2,S}
 4   C  u0 {1,S}
 5   H  u0 {1,S}
 6   H  u0 {1,S}
@@ -3833,7 +3833,7 @@ entry(
 """
 1   Cs u0 {3,S} {4,S} {5,S} {6,S}
 2 * Cs u1 {3,S} {7,S} {8,S}
-3   Os u0 {1,S} {2,S}
+3   O2s u0 {1,S} {2,S}
 4   C  u0 {1,S}
 5   C  u0 {1,S}
 6   H  u0 {1,S}
@@ -3860,7 +3860,7 @@ entry(
 """
 1   Cs u0 {3,S} {4,S} {5,S} {6,S}
 2 * Cs u1 {3,S} {7,S} {8,S}
-3   Os u0 {1,S} {2,S}
+3   O2s u0 {1,S} {2,S}
 4   C  u0 {1,S}
 5   C  u0 {1,S}
 6   C  u0 {1,S}
@@ -3886,7 +3886,7 @@ entry(
     group = 
 """
 1 * Cs      u1 {2,S} {3,S} {4,S}
-2   Os      u0 {1,S} {5,S}
+2   O2s      u0 {1,S} {5,S}
 3   H       u0 {1,S}
 4   H       u0 {1,S}
 5   [Cd,CO] u0 {2,S}
@@ -3905,11 +3905,11 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
-2   Os u0 {1,S} {3,S}
+2   O2s u0 {1,S} {3,S}
 3   CO u0 {2,S} {6,D}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
-6   Od u0 {3,D}
+6   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3931,10 +3931,10 @@ entry(
 """
 1 * Cs u1 {3,S} {4,S} {5,S}
 2   CO u0 {3,S} {6,D} {7,S}
-3   Os u0 {1,S} {2,S}
+3   O2s u0 {1,S} {2,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
-6   Od u0 {2,D}
+6   O2d u0 {2,D}
 7   H  u0 {2,S}
 """,
     thermo = ThermoData(
@@ -3957,10 +3957,10 @@ entry(
 """
 1 * Cs u1 {3,S} {4,S} {5,S}
 2   CO u0 {3,S} {6,D} {7,S}
-3   Os u0 {1,S} {2,S}
+3   O2s u0 {1,S} {2,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
-6   Od u0 {2,D}
+6   O2d u0 {2,D}
 7   C  u0 {2,S}
 """,
     thermo = ThermoData(
@@ -3982,7 +3982,7 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
-2   Os u0 {1,S} {3,S}
+2   O2s u0 {1,S} {3,S}
 3   Cd u0 {2,S} {6,D}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
@@ -4009,10 +4009,10 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
+2   O2s u0 {1,S} {5,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
-5   Os u0 {2,S}
+5   O2s u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4033,8 +4033,8 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
-2   Os u0 {1,S} {3,S}
-3   Os u0 {2,S} {6,S}
+2   O2s u0 {1,S} {3,S}
+3   O2s u0 {2,S} {6,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 6   H  u0 {3,S}
@@ -4058,8 +4058,8 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
-2   Os u0 {1,S} {3,S}
-3   Os u0 {2,S} {6,S}
+2   O2s u0 {1,S} {3,S}
+3   O2s u0 {2,S} {6,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 6   C  u0 {3,S}
@@ -4083,7 +4083,7 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S}
+2   O2s u0 {1,S}
 3   C  u0 {1,S}
 4   H  u0 {1,S}
 """,
@@ -4108,7 +4108,7 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
+2   O2s u0 {1,S} {5,S}
 3   C  u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {2,S}
@@ -4132,7 +4132,7 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
+2   O2s u0 {1,S} {5,S}
 3   C  u0 {1,S}
 4   H  u0 {1,S}
 5   C  u0 {2,S}
@@ -4151,7 +4151,7 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
+2   O2s u0 {1,S} {5,S}
 3   C  u0 {1,S}
 4   H  u0 {1,S}
 5   Cs u0 {2,S}
@@ -4175,7 +4175,7 @@ entry(
     group = 
 """
 1 * Cs      u1 {2,S} {3,S} {4,S}
-2   Os      u0 {1,S} {5,S}
+2   O2s      u0 {1,S} {5,S}
 3   C       u0 {1,S}
 4   H       u0 {1,S}
 5   [CO,Cd] u0 {2,S}
@@ -4194,11 +4194,11 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
-2   Os u0 {1,S} {3,S}
+2   O2s u0 {1,S} {3,S}
 3   CO u0 {2,S} {6,D}
 4   C  u0 {1,S}
 5   H  u0 {1,S}
-6   Od u0 {3,D}
+6   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4220,10 +4220,10 @@ entry(
 """
 1 * Cs u1 {3,S} {4,S} {5,S}
 2   CO u0 {3,S} {6,D} {7,S}
-3   Os u0 {1,S} {2,S}
+3   O2s u0 {1,S} {2,S}
 4   C  u0 {1,S}
 5   H  u0 {1,S}
-6   Od u0 {2,D}
+6   O2d u0 {2,D}
 7   H  u0 {2,S}
 """,
     thermo = ThermoData(
@@ -4246,10 +4246,10 @@ entry(
 """
 1 * Cs u1 {3,S} {4,S} {5,S}
 2   CO u0 {3,S} {6,D} {7,S}
-3   Os u0 {1,S} {2,S}
+3   O2s u0 {1,S} {2,S}
 4   C  u0 {1,S}
 5   H  u0 {1,S}
-6   Od u0 {2,D}
+6   O2d u0 {2,D}
 7   C  u0 {2,S}
 """,
     thermo = None,
@@ -4267,7 +4267,7 @@ entry(
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S} {5,D}
-3   Os u0 {1,S} {6,S}
+3   O2s u0 {1,S} {6,S}
 4   H  u0 {1,S}
 5   C  u0 {2,D}
 6   C  u0 {3,S}
@@ -4293,10 +4293,10 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
+2   O2s u0 {1,S} {5,S}
 3   C  u0 {1,S}
 4   H  u0 {1,S}
-5   Os u0 {2,S}
+5   O2s u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4317,8 +4317,8 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
-2   Os u0 {1,S} {3,S}
-3   Os u0 {2,S} {6,S}
+2   O2s u0 {1,S} {3,S}
+3   O2s u0 {2,S} {6,S}
 4   C  u0 {1,S}
 5   H  u0 {1,S}
 6   H  u0 {3,S}
@@ -4342,8 +4342,8 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
-2   Os u0 {1,S} {3,S}
-3   Os u0 {2,S} {6,S}
+2   O2s u0 {1,S} {3,S}
+3   O2s u0 {2,S} {6,S}
 4   C  u0 {1,S}
 5   H  u0 {1,S}
 6   C  u0 {3,S}
@@ -4368,7 +4368,7 @@ entry(
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S} {5,D}
-3   Os u0 {1,S}
+3   O2s u0 {1,S}
 4   H  u0 {1,S}
 5   C  u0 {2,D}
 """,
@@ -4394,9 +4394,9 @@ entry(
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   CO u0 {1,S} {5,D}
-3   Os u0 {1,S}
+3   O2s u0 {1,S}
 4   H  u0 {1,S}
-5   Od u0 {2,D}
+5   O2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4419,7 +4419,7 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S}
+2   O2s u0 {1,S}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
 """,
@@ -4444,7 +4444,7 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
+2   O2s u0 {1,S} {5,S}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
 5   H  u0 {2,S}
@@ -4468,7 +4468,7 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
+2   O2s u0 {1,S} {5,S}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
 5   C  u0 {2,S}
@@ -4487,7 +4487,7 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
+2   O2s u0 {1,S} {5,S}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
 5   Cs u0 {2,S}
@@ -4511,7 +4511,7 @@ entry(
     group = 
 """
 1 * Cs      u1 {2,S} {3,S} {4,S}
-2   Os      u0 {1,S} {5,S}
+2   O2s      u0 {1,S} {5,S}
 3   C       u0 {1,S}
 4   C       u0 {1,S}
 5   [Cd,CO] u0 {2,S}
@@ -4530,11 +4530,11 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
-2   Os u0 {1,S} {3,S}
+2   O2s u0 {1,S} {3,S}
 3   CO u0 {2,S} {6,D}
 4   C  u0 {1,S}
 5   C  u0 {1,S}
-6   Od u0 {3,D}
+6   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4556,10 +4556,10 @@ entry(
 """
 1 * Cs u1 {3,S} {4,S} {5,S}
 2   CO u0 {3,S} {6,D} {7,S}
-3   Os u0 {1,S} {2,S}
+3   O2s u0 {1,S} {2,S}
 4   C  u0 {1,S}
 5   C  u0 {1,S}
-6   Od u0 {2,D}
+6   O2d u0 {2,D}
 7   H  u0 {2,S}
 """,
     thermo = ThermoData(
@@ -4582,10 +4582,10 @@ entry(
 """
 1 * Cs u1 {3,S} {4,S} {5,S}
 2   CO u0 {3,S} {6,D} {7,S}
-3   Os u0 {1,S} {2,S}
+3   O2s u0 {1,S} {2,S}
 4   C  u0 {1,S}
 5   C  u0 {1,S}
-6   Od u0 {2,D}
+6   O2d u0 {2,D}
 7   C  u0 {2,S}
 """,
     thermo = ThermoData(
@@ -4607,10 +4607,10 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
+2   O2s u0 {1,S} {5,S}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
-5   Os u0 {2,S}
+5   O2s u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4631,8 +4631,8 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
-2   Os u0 {1,S} {3,S}
-3   Os u0 {2,S} {6,S}
+2   O2s u0 {1,S} {3,S}
+3   O2s u0 {2,S} {6,S}
 4   C  u0 {1,S}
 5   C  u0 {1,S}
 6   H  u0 {3,S}
@@ -4656,8 +4656,8 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
-2   Os u0 {1,S} {3,S}
-3   Os u0 {2,S} {6,S}
+2   O2s u0 {1,S} {3,S}
+3   O2s u0 {2,S} {6,S}
 4   C  u0 {1,S}
 5   C  u0 {1,S}
 6   C  u0 {3,S}
@@ -5167,7 +5167,7 @@ entry(
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   C  u0 {1,S}
-3   Os u0 {1,S}
+3   O2s u0 {1,S}
 4   S2s u0 {1,S}
 """,
     thermo = u'CCsJOHSH',
@@ -5184,7 +5184,7 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S} {5,S}
+2   O2s u0 {1,S} {5,S}
 3   S2s u0 {1,S} {6,S}
 4   C  u0 {1,S}
 5   H  u0 {2,S}
@@ -5268,8 +5268,8 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Os u0 {1,S}
-3   Os u0 {1,S}
+2   O2s u0 {1,S}
+3   O2s u0 {1,S}
 4   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -5308,7 +5308,7 @@ entry(
     group = 
 """
 1 * CO u1 {2,D}
-2   Od u0 {1,D}
+2   O2d u0 {1,D}
 """,
     thermo = u'CCJ=O',
     shortDesc = u"""""",
@@ -5324,7 +5324,7 @@ entry(
     group = 
 """
 1 * CO u1 {2,D} {3,S}
-2   Od u0 {1,D}
+2   O2d u0 {1,D}
 3   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -5346,7 +5346,7 @@ entry(
     group = 
 """
 1 * CO u1 {2,D} {3,S}
-2   Od u0 {1,D}
+2   O2d u0 {1,D}
 3   C  u0 {1,S}
 """,
     thermo = u'CsCJ=O',
@@ -5363,7 +5363,7 @@ entry(
     group = 
 """
 1 * CO u1 {2,D} {3,S}
-2   Od u0 {1,D}
+2   O2d u0 {1,D}
 3   Cs u0 {1,S}
 """,
     thermo = ThermoData(
@@ -5388,7 +5388,7 @@ entry(
 2 * CO u1 {1,S} {5,D}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
-5   Od u0 {2,D}
+5   O2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5415,7 +5415,7 @@ entry(
 3   C  u0 {1,S}
 4   C  u0 {1,S}
 5   C  u0 {1,S}
-6   Od u0 {2,D}
+6   O2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5442,8 +5442,8 @@ entry(
 3   CO u0 {1,S} {7,D}
 4   C  u0 {1,S}
 5   C  u0 {1,S}
-6   Od u0 {2,D}
-7   Od u0 {3,D}
+6   O2d u0 {2,D}
+7   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5471,8 +5471,8 @@ entry(
 4   Cd u0 {1,S} {6,D}
 5   C  u0 {1,S}
 6   C  u0 {4,D}
-7   Od u0 {2,D}
-8   Od u0 {3,D}
+7   O2d u0 {2,D}
+8   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5500,7 +5500,7 @@ entry(
 4   C  u0 {1,S}
 5   C  u0 {1,S}
 6   C  u0 {3,D}
-7   Od u0 {2,D}
+7   O2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5525,9 +5525,9 @@ entry(
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * CO u1 {1,S} {6,D}
 3   C  u0 {1,S}
-4   Os u0 {1,S}
+4   O2s u0 {1,S}
 5   C  u0 {1,S}
-6   Od u0 {2,D}
+6   O2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5552,10 +5552,10 @@ entry(
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * CO u1 {1,S} {7,D}
 3   Cd u0 {1,S} {6,D}
-4   Os u0 {1,S}
+4   O2s u0 {1,S}
 5   C  u0 {1,S}
 6   C  u0 {3,D}
-7   Od u0 {2,D}
+7   O2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5579,7 +5579,7 @@ entry(
 """
 1 * CO u1 {2,S} {3,D}
 2   Cd u0 {1,S} {4,D}
-3   Od u0 {1,D}
+3   O2d u0 {1,D}
 4   Cd u0 {2,D}
 """,
     thermo = ThermoData(
@@ -5605,7 +5605,7 @@ entry(
 1 * CO u1 {2,S} {4,D}
 2   C  u0 {1,S} {3,S}
 3   C  u0 {2,S}
-4   Od u0 {1,D}
+4   O2d u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5630,8 +5630,8 @@ entry(
 1   C  u0 {2,S} {3,S}
 2 * CO u1 {1,S} {4,D}
 3   CO u0 {1,S} {5,D}
-4   Od u0 {2,D}
-5   Od u0 {3,D}
+4   O2d u0 {2,D}
+5   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5656,9 +5656,9 @@ entry(
 1   CO u0 {2,S} {3,S} {4,D}
 2 * CO u1 {1,S} {5,D}
 3   CO u0 {1,S} {6,D}
-4   Od u0 {1,D}
-5   Od u0 {2,D}
-6   Od u0 {3,D}
+4   O2d u0 {1,D}
+5   O2d u0 {2,D}
+6   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5684,7 +5684,7 @@ entry(
 2 * CO u1 {1,S} {5,D}
 3   C  u0 {1,S}
 4   C  u0 {1,D}
-5   Od u0 {2,D}
+5   O2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5708,9 +5708,9 @@ entry(
 """
 1   CO u0 {2,S} {3,S} {4,D}
 2 * CO u1 {1,S} {5,D}
-3   Os u0 {1,S}
-4   Od u0 {1,D}
-5   Od u0 {2,D}
+3   O2s u0 {1,S}
+4   O2d u0 {1,D}
+5   O2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5733,8 +5733,8 @@ entry(
     group = 
 """
 1 * CO u1 {2,D} {3,S}
-2   Od u0 {1,D}
-3   Os u0 {1,S}
+2   O2d u0 {1,D}
+3   O2s u0 {1,S}
 """,
     thermo = u'(O)CJOC',
     shortDesc = u"""""",
@@ -5750,8 +5750,8 @@ entry(
     group = 
 """
 1 * CO u1 {2,S} {3,D}
-2   Os u0 {1,S} {4,S}
-3   Od u0 {1,D}
+2   O2s u0 {1,S} {4,S}
+3   O2d u0 {1,D}
 4   H  u0 {2,S}
 """,
     thermo = ThermoData(
@@ -5773,8 +5773,8 @@ entry(
     group = 
 """
 1 * CO u1 {2,S} {3,D}
-2   Os u0 {1,S} {4,S}
-3   Od u0 {1,D}
+2   O2s u0 {1,S} {4,S}
+3   O2d u0 {1,D}
 4   C  u0 {2,S}
 """,
     thermo = ThermoData(
@@ -5798,12 +5798,12 @@ entry(
     group = 
 """
 1   Cs u0 {2,S} {4,S} {5,S} {6,S}
-2   Os u0 {1,S} {3,S}
+2   O2s u0 {1,S} {3,S}
 3 * CO u1 {2,S} {7,D}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 6   H  u0 {1,S}
-7   Od u0 {3,D}
+7   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5824,12 +5824,12 @@ entry(
     group = 
 """
 1   Cs u0 {2,S} {4,S} {5,S} {6,S}
-2   Os u0 {1,S} {3,S}
+2   O2s u0 {1,S} {3,S}
 3 * CO u1 {2,S} {7,D}
 4   C  u0 {1,S}
 5   H  u0 {1,S}
 6   H  u0 {1,S}
-7   Od u0 {3,D}
+7   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5850,12 +5850,12 @@ entry(
     group = 
 """
 1   Cs u0 {2,S} {4,S} {5,S} {6,S}
-2   Os u0 {1,S} {3,S}
+2   O2s u0 {1,S} {3,S}
 3 * CO u1 {2,S} {7,D}
 4   C  u0 {1,S}
 5   C  u0 {1,S}
 6   H  u0 {1,S}
-7   Od u0 {3,D}
+7   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5876,12 +5876,12 @@ entry(
     group = 
 """
 1   Cs u0 {2,S} {4,S} {5,S} {6,S}
-2   Os u0 {1,S} {3,S}
+2   O2s u0 {1,S} {3,S}
 3 * CO u1 {2,S} {7,D}
 4   C  u0 {1,S}
 5   C  u0 {1,S}
 6   C  u0 {1,S}
-7   Od u0 {3,D}
+7   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6257,7 +6257,7 @@ entry(
 1 * Cd u1 {2,S} {3,D}
 2   CO u0 {1,S} {4,D}
 3   C  u0 {1,D}
-4   Od u0 {2,D}
+4   O2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6283,7 +6283,7 @@ entry(
 2   C   u0 {1,S} {4,S}
 3   Cdd u0 {1,D} {5,D}
 4   C   u0 {2,S}
-5   Od  u0 {3,D}
+5   O2d  u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6310,7 +6310,7 @@ entry(
 3   Cdd u0 {2,D} {6,D}
 4   C   u0 {1,S}
 5   C   u0 {1,S}
-6   Od  u0 {3,D}
+6   O2d  u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6337,7 +6337,7 @@ entry(
 3   Cdd u0 {2,D} {6,D}
 4   C   u0 {1,D}
 5   C   u0 {1,S}
-6   Od  u0 {3,D}
+6   O2d  u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6383,7 +6383,7 @@ entry(
 """
 1 * Cd u1 {2,D} {3,S}
 2   C  u0 {1,D}
-3   Os u0 {1,S}
+3   O2s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6596,7 +6596,7 @@ entry(
     label = "HOJ",
     group = 
 """
-1 * Os u1 {2,S}
+1 * O2s u1 {2,S}
 2   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -6617,7 +6617,7 @@ entry(
     label = "COJ",
     group = 
 """
-1 * Os u1 {2,S}
+1 * O2s u1 {2,S}
 2   C  u0 {1,S}
 """,
     thermo = u'CsOJ',
@@ -6633,7 +6633,7 @@ entry(
     label = "CsOJ",
     group = 
 """
-1 * Os u1 {2,S}
+1 * O2s u1 {2,S}
 2   Cs u0 {1,S}
 """,
     thermo = ThermoData(
@@ -6655,7 +6655,7 @@ entry(
     group = 
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 * Os u1 {1,S}
+2 * O2s u1 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
@@ -6679,7 +6679,7 @@ entry(
     group = 
 """
 1   Cs u0 {2,S} {3,S} {4,S}
-2 * Os u1 {1,S}
+2 * O2s u1 {1,S}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
 """,
@@ -6704,7 +6704,7 @@ entry(
     group = 
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 * Os u1 {1,S}
+2 * O2s u1 {1,S}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
 5   C  u0 {1,S}
@@ -6731,7 +6731,7 @@ entry(
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
-3 * Os u1 {1,S}
+3 * O2s u1 {1,S}
 4   C  u0 {1,S}
 5   C  u0 {1,S}
 6   C  u0 {2,D}
@@ -6759,10 +6759,10 @@ entry(
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {7,D}
 3   Cd u0 {1,S} {6,D}
-4 * Os u1 {1,S}
+4 * O2s u1 {1,S}
 5   C  u0 {1,S}
 6   C  u0 {3,D}
-7   Od u0 {2,D}
+7   O2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6786,10 +6786,10 @@ entry(
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
-3 * Os u1 {1,S}
+3 * O2s u1 {1,S}
 4   C  u0 {1,S}
 5   C  u0 {1,S}
-6   Od u0 {2,D}
+6   O2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6812,10 +6812,10 @@ entry(
     group = 
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 * Os u1 {1,S}
+2 * O2s u1 {1,S}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
-5   Os u0 {1,S}
+5   O2s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6839,9 +6839,9 @@ entry(
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
-3 * Os u1 {1,S}
+3 * O2s u1 {1,S}
 4   C  u0 {1,S}
-5   Os u0 {1,S}
+5   O2s u0 {1,S}
 6   C  u0 {2,D}
 """,
     thermo = ThermoData(
@@ -6864,7 +6864,7 @@ entry(
     label = "CdsOJ",
     group = 
 """
-1 * Os      u1 {2,S}
+1 * O2s      u1 {2,S}
 2   [Cd,CO] u0 {1,S}
 """,
     thermo = u'RC=COJ',
@@ -6880,7 +6880,7 @@ entry(
     label = "RC=COJ",
     group = 
 """
-1 * Os u1 {2,S}
+1 * O2s u1 {2,S}
 2   Cd u0 {1,S}
 """,
     thermo = ThermoData(
@@ -6902,7 +6902,7 @@ entry(
     group = 
 """
 1   Cd u0 {2,S} {3,D}
-2 * Os u1 {1,S}
+2 * O2s u1 {1,S}
 3   C  u0 {1,D}
 """,
     thermo = ThermoData(
@@ -6926,7 +6926,7 @@ entry(
     group = 
 """
 1   Cd u0 {2,S} {3,D} {4,S}
-2 * Os u1 {1,S}
+2 * O2s u1 {1,S}
 3   C  u0 {1,D}
 4   C  u0 {1,S}
 """,
@@ -6951,8 +6951,8 @@ entry(
     group = 
 """
 1   CO u0 {2,S} {3,D}
-2 * Os u1 {1,S}
-3   Od u0 {1,D}
+2 * O2s u1 {1,S}
+3   O2d u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6973,9 +6973,9 @@ entry(
     group = 
 """
 1   CO u0 {2,S} {3,S} {4,D}
-2 * Os u1 {1,S}
-3   Os u0 {1,S}
-4   Od u0 {1,D}
+2 * O2s u1 {1,S}
+3   O2s u0 {1,S}
+4   O2d u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6999,9 +6999,9 @@ entry(
 """
 1   CO u0 {2,S} {3,S} {4,D}
 2   CO u0 {1,S} {5,D}
-3 * Os u1 {1,S}
-4   Od u0 {1,D}
-5   Od u0 {2,D}
+3 * O2s u1 {1,S}
+4   O2d u0 {1,D}
+5   O2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7023,7 +7023,7 @@ entry(
     label = "CbOJ",
     group = 
 """
-1 * Os u1 {2,S}
+1 * O2s u1 {2,S}
 2   Cb u0 {1,S}
 """,
     thermo = u'RC=COJ',
@@ -7040,7 +7040,7 @@ entry(
     group = 
 """
 1   C  u0 {2,S} {3,S}
-2 * Os u1 {1,S}
+2 * O2s u1 {1,S}
 3   C  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -7065,8 +7065,8 @@ entry(
 """
 1   C  u0 {2,S} {3,S}
 2   CO u0 {1,S} {4,D}
-3 * Os u1 {1,S}
-4   Od u0 {2,D}
+3 * O2s u1 {1,S}
+4   O2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7089,8 +7089,8 @@ entry(
     group = 
 """
 1   C  u0 {2,S} {3,S}
-2 * Os u1 {1,S}
-3   Os u0 {1,S}
+2 * O2s u1 {1,S}
+3   O2s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7112,8 +7112,8 @@ entry(
     label = "OOJ",
     group = 
 """
-1 * Os u1 {2,S}
-2   Os u0 {1,S}
+1 * O2s u1 {2,S}
+2   O2s u0 {1,S}
 """,
     thermo = u'ROOJ',
     shortDesc = u"""""",
@@ -7128,8 +7128,8 @@ entry(
     label = "ROOJ",
     group = 
 """
-1   Os  u0 {2,S} {3,S}
-2 * Os  u1 {1,S}
+1   O2s  u0 {2,S} {3,S}
+2 * O2s  u1 {1,S}
 3   R!H u0 {1,S}
 """,
     thermo = ThermoData(
@@ -7150,10 +7150,10 @@ entry(
     label = "C(=O)OOJ",
     group = 
 """
-1   Os u0 {2,S} {3,S}
+1   O2s u0 {2,S} {3,S}
 2   CO u0 {1,S} {4,D}
-3 * Os u1 {1,S}
-4   Od u0 {2,D}
+3 * O2s u1 {1,S}
+4   O2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7174,11 +7174,11 @@ entry(
     group = 
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Os u0 {1,S} {6,S}
+2   O2s u0 {1,S} {6,S}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
 5   C  u0 {1,S}
-6 * Os u1 {2,S}
+6 * O2s u1 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7198,8 +7198,8 @@ entry(
     label = "HOOJ",
     group = 
 """
-1   Os u0 {2,S} {3,S}
-2 * Os u1 {1,S}
+1   O2s u0 {2,S} {3,S}
+2 * O2s u1 {1,S}
 3   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -7615,7 +7615,7 @@ entry(
 """
 1 * S2s u1 p2 {2,S}
 2   CO  u0    {1,S} {3,D}
-3   Od  u0    {2,D}
+3   O2d  u0    {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -8335,7 +8335,7 @@ entry(
     label = "CdJ2-Sd_singlet",
     group = 
 """
-1 * CS u0 p1 {2,D}
+1 * CS  u0 p1 {2,D}
 2   S2d u0 {1,D}
 """,
     thermo = ThermoData(
@@ -8456,7 +8456,7 @@ entry(
     label = "S4dJ-OdH",
     group =
 """
-1   Od  u0 p2 c0 {2,D}
+1   O2d  u0 p2 c0 {2,D}
 2 * S4d u1 p1 c0 {1,D} {3,S}
 3   H   u0 p0 c0 {2,S}
 """,
@@ -8479,7 +8479,7 @@ entry(
     group =
 """
 1 * S2s  u1 p2 c0 {2,S}
-2   Os   u0 p2 c0 {1,S}
+2   O2s   u0 p2 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -8499,9 +8499,9 @@ entry(
     label = "S4dJ-OdO",
     group =
 """
-1   Od  u0 p2 c0 {2,D}
+1   O2d  u0 p2 c0 {2,D}
 2 * S4d u1 p1 c0 {1,D} {3,S}
-3   Os  u0 p2 c0 {2,S}
+3   O2s  u0 p2 c0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -8521,9 +8521,9 @@ entry(
     label = "S6ddJ-OdOdH",
     group =
 """
-1   Od   u0 p2 c0 {2,D}
+1   O2d   u0 p2 c0 {2,D}
 2 * S6dd u1 p0 c0 {1,D} {3,D} {4,S}
-3   Od   u0 p2 c0 {2,D}
+3   O2d   u0 p2 c0 {2,D}
 4   H    u0 p0 c0 {2,S}
 """,
     thermo = ThermoData(
@@ -8544,10 +8544,10 @@ entry(
     label = "S6ddJ-OdOdO",
     group =
 """
-1   Od   u0 p2 c0 {2,D}
+1   O2d   u0 p2 c0 {2,D}
 2 * S6dd u1 p0 c0 {1,D} {3,D} {4,S}
-3   Od   u0 p2 c0 {2,D}
-4   Os   u0 p2 c0 {2,S}
+3   O2d   u0 p2 c0 {2,D}
+4   O2s   u0 p2 c0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -8567,7 +8567,7 @@ entry(
     label = "O2sJ-Ss",
     group =
 """
-1 * Os    u1 p2 c0 {2,S}
+1 * O2s    u1 p2 c0 {2,S}
 2   S4d   u0 p1 c0 {1,S}
 """,
     thermo = ThermoData(
@@ -8589,7 +8589,7 @@ entry(
     label = "SOJ",
     group =
 """
-1 * Os  u1 p2 c0 {2,S}
+1 * O2s  u1 p2 c0 {2,S}
 2   S   ux px c0 {1,S}
 """,
     thermo = u'O2sJ-Ss',

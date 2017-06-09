@@ -451,7 +451,7 @@ entry(
 
 entry(
     index = 24,
-    label = "Od",
+    label = "O2d",
     group = 
 """
 1 * O   u0 {2,D}
@@ -464,7 +464,7 @@ entry(
         Tb = -10.5,
         structureIndex = 0,
     ),
-    shortDesc = u"""nonring_library value for Od""",
+    shortDesc = u"""nonring_library value for O2d""",
     longDesc = u"""""",
 )
 
@@ -630,7 +630,7 @@ L1: R
             L4: Acid_Ocentered1
         L3: Ether
             L4: Ester_Ocentered1
-        L3: Od
+        L3: O2d
             L4: Ketone_Ocentered
                 L5: Acid_Ocentered2
                 L5: Ester_Ocentered2

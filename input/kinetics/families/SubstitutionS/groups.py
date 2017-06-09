@@ -409,9 +409,9 @@ entry(
 1 *1 S2s           u0 {2,S} {3,S}
 2    H             u0 {1,S}
 3 *2 Cs            u0 {1,S} {4,S} {5,S} {6,S}
-4    [H,Cs,Os,S2s] u0 {3,S}
-5    [H,Cs,Os,S2s] u0 {3,S}
-6    [H,Cs,Os,S2s] u0 {3,S}
+4    [H,Cs,O2s,S2s] u0 {3,S}
+5    [H,Cs,O2s,S2s] u0 {3,S}
+6    [H,Cs,O2s,S2s] u0 {3,S}
 """,
     kinetics = None,
 )
@@ -485,7 +485,7 @@ entry(
 2    H   u0 {1,S}
 3 *2 Cs  u0 {1,S} {4,S} {5,S} {6,S}
 4    Cs  u0 {3,S}
-5    Os  u0 {3,S}
+5    O2s  u0 {3,S}
 6    H   u0 {3,S}
 """,
     kinetics = None,
@@ -3368,8 +3368,8 @@ entry(
     label = "Y_2centeradjbirad",
     group = 
 """
-1 *3 [Ct,Os,S2s] u1 {2,[S,T]}
-2    [Ct,Os,S2s] u1 {1,[S,T]}
+1 *3 [Ct,O2s,S2s] u1 {2,[S,T]}
+2    [Ct,O2s,S2s] u1 {1,[S,T]}
 """,
     kinetics = None,
 )
@@ -3390,8 +3390,8 @@ entry(
     label = "O2b",
     group = 
 """
-1 *3 Os u1 {2,S}
-2    Os u1 {1,S}
+1 *3 O2s u1 {2,S}
+2    O2s u1 {1,S}
 """,
     kinetics = None,
 )
@@ -3530,7 +3530,7 @@ entry(
     group = 
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
-2    Os u0 {1,S}
+2    O2s u0 {1,S}
 3    H  u0 {1,S}
 4    H  u0 {1,S}
 """,
@@ -3543,7 +3543,7 @@ entry(
     group = 
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
-2    Os u0 {1,S}
+2    O2s u0 {1,S}
 3    Cs u0 {1,S}
 4    H  u0 {1,S}
 """,
@@ -3556,7 +3556,7 @@ entry(
     group = 
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
-2    Os u0 {1,S}
+2    O2s u0 {1,S}
 3    Cs u0 {1,S}
 4    Cs u0 {1,S}
 """,
@@ -3569,8 +3569,8 @@ entry(
     group = 
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
-2    Os u0 {1,S}
-3    Os u0 {1,S}
+2    O2s u0 {1,S}
+3    O2s u0 {1,S}
 4    H  u0 {1,S}
 """,
     kinetics = None,
@@ -3582,8 +3582,8 @@ entry(
     group = 
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
-2    Os u0 {1,S}
-3    Os u0 {1,S}
+2    O2s u0 {1,S}
+3    O2s u0 {1,S}
 4    Cs u0 {1,S}
 """,
     kinetics = None,
@@ -3595,9 +3595,9 @@ entry(
     group = 
 """
 1 *3 C  u1 {2,S} {3,S} {4,S}
-2    Os u0 {1,S}
-3    Os u0 {1,S}
-4    Os u0 {1,S}
+2    O2s u0 {1,S}
+3    O2s u0 {1,S}
+4    O2s u0 {1,S}
 """,
     kinetics = None,
 )
@@ -3687,8 +3687,8 @@ entry(
 """
 1 *3 C                u1 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-3    [H,Cs,Os,S2s]    u0 {1,S}
-4    [H,Cs,Os,S2s]    u0 {1,S}
+3    [H,Cs,O2s,S2s]    u0 {1,S}
+4    [H,Cs,O2s,S2s]    u0 {1,S}
 """,
     kinetics = None,
 )
@@ -3858,7 +3858,7 @@ entry(
 """
 1 *3 C                u1 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-3    Os               u0 {1,S}
+3    O2s               u0 {1,S}
 4    H                u0 {1,S}
 """,
     kinetics = None,
@@ -3963,7 +3963,7 @@ entry(
 """
 1 *3 C                u1 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-3    Os               u0 {1,S}
+3    O2s               u0 {1,S}
 4    Cs               u0 {1,S}
 """,
     kinetics = None,
@@ -3989,8 +3989,8 @@ entry(
 """
 1 *3 C                u1 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-3    Os               u0 {1,S}
-4    Os               u0 {1,S}
+3    O2s               u0 {1,S}
+4    O2s               u0 {1,S}
 """,
     kinetics = None,
 )
@@ -4002,7 +4002,7 @@ entry(
 """
 1 *3 C                u1 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-3    Os               u0 {1,S}
+3    O2s               u0 {1,S}
 4    S2s              u0 {1,S}
 """,
     kinetics = None,
@@ -4029,7 +4029,7 @@ entry(
 1 *3 C                u1 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-4    [H,Cs,Os,S2s]    u0 {1,S}
+4    [H,Cs,O2s,S2s]    u0 {1,S}
 """,
     kinetics = None,
 )
@@ -4470,7 +4470,7 @@ entry(
 1 *3 C                u1 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-4    Os               u0 {1,S}
+4    O2s               u0 {1,S}
 """,
     kinetics = None,
 )
@@ -4600,12 +4600,12 @@ entry(
 
 entry(
     index = 236,
-    label = "CdsJ-Os",
+    label = "CdsJ-O2s",
     group = 
 """
 1 *3 C  u1 {2,D} {3,S}
 2    C  u0 {1,D}
-3    Os u0 {1,S}
+3    O2s u0 {1,S}
 """,
     kinetics = None,
 )
@@ -4734,11 +4734,11 @@ entry(
 
 entry(
     index = 246,
-    label = "C=SJ-Os",
+    label = "C=SJ-O2s",
     group = 
 """
 1 *3 CS u1 {2,S}
-2    Os u0 {1,S}
+2    O2s u0 {1,S}
 """,
     kinetics = None,
 )
@@ -5327,7 +5327,7 @@ L1: YJ
             L4: CdsJ-Cb
             L4: CdsJ-CO
             L4: CdsJ-C=S
-            L4: CdsJ-Os
+            L4: CdsJ-O2s
             L4: CdsJ-S2s
         L3: CtJ
         L3: CbJ
@@ -5339,7 +5339,7 @@ L1: YJ
             L4: C=SJ-Cb
             L4: C=SJ-CO
             L4: C=SJ-C=S
-            L4: C=SJ-Os
+            L4: C=SJ-O2s
             L4: C=SJ-S2s
         L3: CO_rad
             L4: CO_pri_rad

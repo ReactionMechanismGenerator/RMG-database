@@ -3344,7 +3344,7 @@ entry(
 1 *1 N3s         u0 {2,S} {3,S} {4,S}
 2 *2 H           u0 {1,S}
 3    H           u0 {1,S}
-4    [N3s,Cs,Os] u0 {1,S}
+4    [N3s,Cs,O2s] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -3370,7 +3370,7 @@ entry(
 1 *1 N3s u0 {2,S} {3,S} {4,S}
 2 *2 H   u0 {1,S}
 3    H   u0 {1,S}
-4    Os  u0 {1,S}
+4    O2s  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -3446,7 +3446,7 @@ entry(
 """
 1 *1 N3d         u0 {2,S} {3,D}
 2 *2 H           u0 {1,S}
-3    [N3d,Od,Cd] u0 {1,D}
+3    [N3d,O2d,Cd] u0 {1,D}
 """,
     kinetics = None,
 )
@@ -3472,7 +3472,7 @@ entry(
 """
 1 *1 N3d u0 {2,S} {3,D}
 2 *2 H   u0 {1,S}
-3    Od  u0 {1,D}
+3    O2d  u0 {1,D}
 """,
     kinetics = None,
 )
@@ -3510,7 +3510,7 @@ entry(
 1 *1 N3d  u0 {2,S} {3,D}
 2 *2 H    u0 {1,S}
 3    Cdd  u0 {1,D} {4,D}
-4    Od   u0 {3,D}
+4    O2d   u0 {3,D}
 """,
     kinetics = None,
 )
@@ -3544,8 +3544,8 @@ entry(
 """
 1 *1 N5d u0 {2,S} {3,S} {4,D}
 2 *2 H   u0 {1,S}
-3    Os  u0 {1,S}
-4    Od  u0 {1,D}
+3    O2s  u0 {1,S}
+4    O2d  u0 {1,D}
 """,
     kinetics = None,
 )
@@ -3903,8 +3903,8 @@ entry(
     label = "Y_2centeradjbirad",
     group = 
 """
-1 *3 [Ct,Os,S2s] u1 {2,[S,T]}
-2    [Ct,Os,S2s] u1 {1,[S,T]}
+1 *3 [Ct,O2s,S2s] u1 {2,[S,T]}
+2    [Ct,O2s,S2s] u1 {1,[S,T]}
 """,
     kinetics = None,
 )
@@ -3914,8 +3914,8 @@ entry(
     label = "O2b",
     group = 
 """
-1 *3 Os u1 {2,S}
-2    Os u1 {1,S}
+1 *3 O2s u1 {2,S}
+2    O2s u1 {1,S}
 """,
     kinetics = None,
 )
@@ -4216,10 +4216,10 @@ entry(
     label = "InChI=1S/NO3/c2-1(3)4",
     group = 
 """
-1 *3 Os  u1 {2,S}
+1 *3 O2s  u1 {2,S}
 2    N5d u0 {1,S} {3,D} {4,S}
-3    Od  u0 {2,D}
-4    Os  u0 {2,S}
+3    O2d  u0 {2,D}
+4    O2s  u0 {2,S}
 """,
     kinetics = None,
 )
@@ -5597,7 +5597,7 @@ entry(
 2     Cs       u0 {4,S} {9,S} {10,S} {11,S}
 3  *3 C        u1 {1,S} {4,S} {12,S}
 4     Cs       u0 {2,S} {3,S} {5,S} {13,S}
-5     [Os,S2s] u0 {4,S} {14,S}
+5     [O2s,S2s] u0 {4,S} {14,S}
 6     H        u0 {1,S}
 7     H        u0 {1,S}
 8     H        u0 {1,S}
@@ -7030,7 +7030,7 @@ entry(
 """
 1 *3 N3d u1 {2,D}
 2    Cdd u0 {1,D} {3,D}
-3    Od  u0 {2,D}
+3    O2d  u0 {2,D}
 """,
     kinetics = None,
 )

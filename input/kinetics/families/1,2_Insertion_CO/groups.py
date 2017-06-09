@@ -25,8 +25,8 @@ entry(
     label = "COS",
     group = 
 """
-1 *1 C     u0 p1 c-1 {2,T}
-2 *4 [O,S] u0 p1 c+1 {1,T}
+1 *1 C2t         u0 p1 c-1 {2,T}
+2 *4 [O4tc,S4tc] u0 p1 c+1 {1,T}
 """,
     kinetics = None,
 )
@@ -36,8 +36,8 @@ entry(
     label = "CO",
     group = 
 """
-1 *1 C u0 p1 c-1 {2,T}
-2 *4 O u0 p1 c+1 {1,T}
+1 *1 C2t  u0 p1 c-1 {2,T}
+2 *4 O4tc u0 p1 c+1 {1,T}
 """,
     kinetics = None,
 )
@@ -47,8 +47,8 @@ entry(
     label = "CS",
     group = 
 """
-1 *1 C u0 p1 c-1 {2,T}
-2 *4 S u0 p1 c+1 {1,T}
+1 *1 C2t  u0 p1 c-1 {2,T}
+2 *4 S4tc u0 p1 c+1 {1,T}
 """,
     kinetics = None,
 )

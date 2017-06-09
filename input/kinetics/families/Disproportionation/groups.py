@@ -167,7 +167,7 @@ entry(
     group = 
 """
 1 *1 C  u2 {2,D}
-2    Od u0 {1,D}
+2    O2d u0 {1,D}
 """,
     kinetics = None,
 )
@@ -1194,7 +1194,7 @@ entry(
     group = 
 """
 1 *1 N3s             u1 {2,S} {3,S}
-2    [Cs,N3s,Os,S2s] u0 {1,S}
+2    [Cs,N3s,O2s,S2s] u0 {1,S}
 3    H               u0 {1,S}
 """,
     kinetics = None,
@@ -1218,7 +1218,7 @@ entry(
     group = 
 """
 1 *1 N3s u1 {2,S} {3,S}
-2    Os  u0 {1,S}
+2    O2s  u0 {1,S}
 3    H   u0 {1,S}
 """,
     kinetics = None,
@@ -1278,8 +1278,8 @@ entry(
     group = 
 """
 1 *1 N3s             u1 {2,S} {3,S}
-2    [Cs,N3s,Os,S2s] u0 {1,S}
-3    [Cs,N3s,Os,S2s] u0 {1,S}
+2    [Cs,N3s,O2s,S2s] u0 {1,S}
+3    [Cs,N3s,O2s,S2s] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1291,7 +1291,7 @@ entry(
 """
 1 *1 N3s                         u1 {2,S} {3,S}
 2    [Cd,Ct,Cb,CO,CS,CS,N3d,N5d] u0 {1,S}
-3    [Cs,N3s,Os,S2s]             u0 {1,S}
+3    [Cs,N3s,O2s,S2s]             u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1335,7 +1335,7 @@ entry(
     group = 
 """
 1 *1 N3d u1 {2,D}
-2    Od  u0 {1,D}
+2    O2d  u0 {1,D}
 """,
     kinetics = None,
 )
@@ -1654,7 +1654,7 @@ entry(
 1 *2 O        u0        {2,S} {3,S}
 2 *3 S        u1 p[0,1] {1,S} {4,D}
 3 *4 H        u0        {1,S}
-4    [Od,S2d] u0        {2,D}
+4    [O2d,S2d] u0        {2,D}
 """,
     kinetics = None,
 )
@@ -1667,8 +1667,8 @@ entry(
 1 *2 O        u0    {2,S} {3,S}
 2 *3 S6dd     u1 p0 {1,S} {4,D} {5,D}
 3 *4 H        u0    {1,S}
-4    [Od,S2d] u0    {2,D}
-5    [Od,S2d] u0    {2,D}
+4    [O2d,S2d] u0    {2,D}
+5    [O2d,S2d] u0    {2,D}
 """,
     kinetics = None,
 )
@@ -2405,7 +2405,7 @@ entry(
 1 *2 N3s         u0 {2,S} {3,S} {4,S}
 2 *3 R!H         u1 {1,S}
 3 *4 H           u0 {1,S}
-4    [Cs,N3s,Os] u0 {1,S}
+4    [Cs,N3s,O2s] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -2532,7 +2532,7 @@ entry(
 1 *2 C           u0 {2,D} {3,S} {4,S}
 2 *3 R!H         u1 {1,D}
 3 *4 H           u0 {1,S}
-4    [Cs,N3s,Os] u0 {1,S}
+4    [Cs,N3s,O2s] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -2717,7 +2717,7 @@ entry(
 1 *2 N3s         u0 {2,S} {3,S} {4,S}
 2 *3 N           u2 {1,S}
 3 *4 H           u0 {1,S}
-4    [Cs,N3s,Os] u0 {1,S}
+4    [Cs,N3s,O2s] u0 {1,S}
 """,
     kinetics = None,
 )

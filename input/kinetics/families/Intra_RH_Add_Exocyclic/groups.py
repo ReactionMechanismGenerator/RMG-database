@@ -1106,7 +1106,7 @@ entry(
     group = 
 """
 1 *2 CO u0 {2,D}
-2 *3 Od u0 {1,D}
+2 *3 O2d u0 {1,D}
 """,
     kinetics = None,
 )
@@ -1117,7 +1117,7 @@ entry(
     group = 
 """
 1 *2 CO u0 {2,D} {3,S}
-2 *3 Od u0 {1,D}
+2 *3 O2d u0 {1,D}
 3    H  u0 {1,S}
 """,
     kinetics = None,
@@ -1129,7 +1129,7 @@ entry(
     group = 
 """
 1 *2 CO     u0 {2,D} {3,S}
-2 *3 Od     u0 {1,D}
+2 *3 O2d     u0 {1,D}
 3    [Cs,O,S2s] u0 {1,S}
 """,
     kinetics = None,
@@ -1141,7 +1141,7 @@ entry(
     group = 
 """
 1 *2 CO            u0 {2,D} {3,S}
-2 *3 Od            u0 {1,D}
+2 *3 O2d            u0 {1,D}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,

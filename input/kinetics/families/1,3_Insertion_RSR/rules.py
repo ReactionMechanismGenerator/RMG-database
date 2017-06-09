@@ -188,7 +188,7 @@ entry(
 
 entry(
     index = 115,
-    label = "Cd/H/Nd_Cd/H/Os;H_SH",
+    label = "Cd/H/Nd_Cd/H/O2s;H_SH",
     kinetics = ArrheniusEP(
         A = (21700, 'cm^3/(mol*s)'),
         n = 2.9,

@@ -222,7 +222,7 @@ entry(
     group = 
 """
 1 * Cdd u0 {2,D} {3,D}
-2   Od  u0 {1,D}
+2   O2d  u0 {1,D}
 3   C   ux {1,D}
 """,
     statmech = GroupFrequencies(

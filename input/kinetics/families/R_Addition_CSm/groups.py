@@ -25,8 +25,8 @@ entry(
     label = "CSm",
     group = 
 """
-1 *3 S u0 p1 c+1 {2,T}
-2 *1 C u0 p1 c-1 {1,T}
+1 *3 S4tc u0 p1 c+1 {2,T}
+2 *1 C    u0 p1 c-1 {1,T}
 """,
     kinetics = None,
 )

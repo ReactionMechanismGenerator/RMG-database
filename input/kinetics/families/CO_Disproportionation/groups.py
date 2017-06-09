@@ -167,7 +167,7 @@ entry(
     group =
 """
 1 *1 C  u2 {2,D}
-2    Od u0 {1,D}
+2    O2d u0 {1,D}
 """,
     kinetics = None,
 )
@@ -1194,7 +1194,7 @@ entry(
     group =
 """
 1 *1 N3s         u1 {2,S} {3,S}
-2    [Cs,N3s,Os] u0 {1,S}
+2    [Cs,N3s,O2s] u0 {1,S}
 3    H           u0 {1,S}
 """,
     kinetics = None,
@@ -1218,7 +1218,7 @@ entry(
     group =
 """
 1 *1 N3s u1 {2,S} {3,S}
-2    Os  u0 {1,S}
+2    O2s  u0 {1,S}
 3    H   u0 {1,S}
 """,
     kinetics = None,
@@ -1266,8 +1266,8 @@ entry(
     group =
 """
 1 *1 N3s         u1 {2,S} {3,S}
-2    [Cs,N3s,Os] u0 {1,S}
-3    [Cs,N3s,Os] u0 {1,S}
+2    [Cs,N3s,O2s] u0 {1,S}
+3    [Cs,N3s,O2s] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1279,7 +1279,7 @@ entry(
 """
 1 *1 N3s                      u1 {2,S} {3,S}
 2    [Cd,Ct,Cb,CO,CS,CS,N3d,N5d] u0 {1,S}
-3    [Cs,N3s,Os]              u0 {1,S}
+3    [Cs,N3s,O2s]              u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1323,7 +1323,7 @@ entry(
     group =
 """
 1 *1 N3d u1 {2,D}
-2    Od  u0 {1,D}
+2    O2d  u0 {1,D}
 """,
     kinetics = None,
 )
@@ -1553,7 +1553,7 @@ L1: HCO_HCS
 )
 
 forbidden(
-    label = "O2d",
+    label = "Od",
     group =
 """
 1 *2 O u0 {2,D}
