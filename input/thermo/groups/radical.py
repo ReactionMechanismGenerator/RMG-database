@@ -8314,8 +8314,8 @@ entry(
     label = "CO",
     group = 
 """
-1 * Ct u0 p1 c-1 {2,T}
-2   Ot u0 p1 c+1 {1,T}
+1 * CO u0 p1 {2,D}
+2   O2d u0 p2 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -9009,7 +9009,7 @@ L1: Radical
                 L5: CsJ2_S_singlet
             L4: CdJ2_singlet
                 L5: CCdJ2_singlet
-            L4: CO
+                L5: CO
             L4: CdJ2-Sd_singlet
         L3: Oa_singlet
         L3: SiJ2_singlet
