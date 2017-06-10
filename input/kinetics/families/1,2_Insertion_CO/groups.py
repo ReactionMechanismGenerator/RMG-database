@@ -13,8 +13,8 @@ reverse = "1,1_Elimination"
 
 recipe(actions=[
     ['LOSE_PAIR', '*1', '1'],
-    ['CHANGE_BOND', '*1', -1, '*4'],
     ['GAIN_PAIR', '*4', '1'],
+    ['CHANGE_BOND', '*1', -1, '*4'],
     ['BREAK_BOND', '*2', 1, '*3'],
     ['FORM_BOND', '*1', 1, '*2'],
     ['FORM_BOND', '*1', 1, '*3'],

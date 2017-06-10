@@ -20,9 +20,9 @@ reverse = "CO_Addition"
 
 recipe(actions=[
     ['FORM_BOND', '*1', 1, '*4'],
+    ['GAIN_PAIR', '*3', '1'],
     ['BREAK_BOND', '*3', 1, '*4'],
     ['LOSE_PAIR', '*2', '1'],
-    ['GAIN_PAIR', '*3', '1'],
     ['CHANGE_BOND', '*2', 1, '*3'],
     ['LOSE_RADICAL', '*1', '1'],
     ['LOSE_RADICAL', '*3', '1'],
