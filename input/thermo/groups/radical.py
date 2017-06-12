@@ -8131,7 +8131,7 @@ entry(
     label = "CsJ2_singlet",
     group = 
 """
-1 * Cs u0 p1
+1 * C2s u0 p1
 """,
     thermo = u'CH2_singlet',
     shortDesc = u"""""",
@@ -8146,7 +8146,7 @@ entry(
     label = "CH2_singlet",
     group = 
 """
-1 * Cs u0 p1 {2,S} {3,S}
+1 * C2s u0 p1 {2,S} {3,S}
 2   H  u0 {1,S}
 3   H  u0 {1,S}
 """,
@@ -8168,7 +8168,7 @@ entry(
     label = "CsJ2_P_singlet",
     group = 
 """
-1 * Cs u0 p1 {2,S} {3,S}
+1 * C2s u0 p1 {2,S} {3,S}
 2   C  u0 {1,S}
 3   H  u0 {1,S}
 """,
@@ -8185,7 +8185,7 @@ entry(
     label = "CsCsJ2_singlet",
     group = 
 """
-1 * Cs u0 p1 {2,S} {3,S}
+1 * C2s u0 p1 {2,S} {3,S}
 2   Cs u0 {1,S}
 3   H  u0 {1,S}
 """,
@@ -8202,7 +8202,7 @@ entry(
     label = "CCJ2_singlet",
     group = 
 """
-1 * Cs u0 p1 {2,S} {3,S}
+1 * C2s u0 p1 {2,S} {3,S}
 2   Cs u0 {1,S} {4,S} {5,S} {6,S}
 3   H  u0 {1,S}
 4   H  u0 {2,S}
@@ -8222,7 +8222,7 @@ entry(
     label = "PhCH_singlet",
     group = 
 """
-1 * Cs u0 p1 {2,S} {3,S}
+1 * C2s u0 p1 {2,S} {3,S}
 2   Cb u0 {1,S}
 3   H  u0 {1,S}
 """,
@@ -8244,7 +8244,7 @@ entry(
     label = "AllylJ2_singlet",
     group = 
 """
-1 * Cs u0 p1 {2,S} {3,S}
+1 * C2s u0 p1 {2,S} {3,S}
 2   Cd u0 {1,S}
 3   H  u0 {1,S}
 """,
@@ -8261,7 +8261,7 @@ entry(
     label = "CsJ2_S_singlet",
     group = 
 """
-1 * Cs u0 p1 {2,S} {3,S}
+1 * C2s u0 p1 {2,S} {3,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 """,
@@ -8278,7 +8278,7 @@ entry(
     label = "CdJ2_singlet",
     group = 
 """
-1 * [Cd,CO] u0 p1
+1 * C2d u0 p1
 """,
     thermo = u'CCdJ2_singlet',
     shortDesc = u"""""",
@@ -8293,7 +8293,7 @@ entry(
     label = "CCdJ2_singlet",
     group = 
 """
-1 * Cd u0 p1 {2,D}
+1 * C2d u0 p1 {2,D}
 2   C  u0 {1,D}
 """,
     thermo = ThermoData(
@@ -8314,7 +8314,7 @@ entry(
     label = "CO",
     group = 
 """
-1 * CO u0 p1 {2,D}
+1 * C2d u0 p1 {2,D}
 2   O2d u0 p2 {1,D}
 """,
     thermo = ThermoData(
@@ -8335,7 +8335,7 @@ entry(
     label = "CdJ2-Sd_singlet",
     group = 
 """
-1 * CS  u0 p1 {2,D}
+1 * C2d  u0 p1 {2,D}
 2   S2d u0 {1,D}
 """,
     thermo = ThermoData(
@@ -8391,7 +8391,7 @@ entry(
     label = "SJ2_singlet",
     group = 
 """
-1 * S u0 p3
+1 * Sa u0 p3
 """,
     thermo = u'SJ2_triplet',
     shortDesc = u"""""",
@@ -9010,7 +9010,7 @@ L1: Radical
             L4: CdJ2_singlet
                 L5: CCdJ2_singlet
                 L5: CO
-            L4: CdJ2-Sd_singlet
+                L5: CdJ2-Sd_singlet
         L3: Oa_singlet
         L3: SiJ2_singlet
         L3: SJ2_singlet
