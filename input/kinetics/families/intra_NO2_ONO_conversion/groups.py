@@ -24,7 +24,7 @@ entry(
     group = 
 """
 1 *1 R    u0 p0 c0  {2,S}
-2 *2 N5d  u0 p0 c+1 {1,S} {3,S} {4,D}
+2 *2 N5dc u0 p0 c+1 {1,S} {3,S} {4,D}
 3 *3 O0sc u0 p3 c-1 {2,S}
 4    O2d  u0 p2 c0  {2,D}
 """,
@@ -37,7 +37,7 @@ entry(
     group = 
 """
 1 *1 Cs   u0 p0 c0  {2,S} {5,S} {6,S} {7,S}
-2 *2 N5d  u0 p0 c+1 {1,S} {3,S} {4,D}
+2 *2 N5dc u0 p0 c+1 {1,S} {3,S} {4,D}
 3 *3 O0sc u0 p3 c-1 {2,S}
 4    O2d  u0 p2 c0  {2,D}
 5    H    u0 p0 c0  {1,S}

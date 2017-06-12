@@ -10070,12 +10070,12 @@ u"""
 
 entry(
     index = 1838,
-    label = "Cd-CdH(N5dOdOs)",
+    label = "Cd-CdH(N5dcOdOs)",
     group = 
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cd  u0 {1,D} {5,S} {6,S}
-3   N5d u0 {1,S} {7,D} {8,S}
+3   N5dc u0 {1,S} {7,D} {8,S}
 4   H   u0 {1,S}
 5   R   u0 {2,S}
 6   R   u0 {2,S}
@@ -10145,12 +10145,12 @@ u"""
 
 entry(
     index = 1861,
-    label = "Cd-CdCs(N5dOdOs)",
+    label = "Cd-CdCs(N5dcOdOs)",
     group = 
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cd  u0 {1,D} {5,S} {6,S}
-3   N5d u0 {1,S} {7,D} {8,S}
+3   N5dc u0 {1,S} {7,D} {8,S}
 4   Cs  u0 {1,S}
 5   R   u0 {2,S}
 6   R   u0 {2,S}
@@ -11929,11 +11929,11 @@ u"""
 
 entry(
     index = 1926,
-    label = "Cs-N5dCsHH",
+    label = "Cs-N5dcCsHH",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   N5d u0 {1,S}
+2   N5dc u0 {1,S}
 3   Cs  u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
@@ -11953,11 +11953,11 @@ u"""
 
 entry(
     index = 1841,
-    label = "Cs-(N5dOdOs)CsHH",
+    label = "Cs-(N5dcOdOs)CsHH",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   N5d u0 {1,S} {6,D} {7,S}
+2   N5dc u0 {1,S} {6,D} {7,S}
 3   Cs  u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
@@ -12076,11 +12076,11 @@ u"""
 
 entry(
     index = 1929,
-    label = "Cs-N5dCsCsH",
+    label = "Cs-N5dcCsCsH",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   N5d u0 {1,S}
+2   N5dc u0 {1,S}
 3   Cs  u0 {1,S}
 4   Cs  u0 {1,S}
 5   H   u0 {1,S}
@@ -12100,11 +12100,11 @@ u"""
 
 entry(
     index = 1842,
-    label = "Cs-(N5dOdOs)CsCsH",
+    label = "Cs-(N5dcOdOs)CsCsH",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   N5d u0 {1,S} {6,D} {7,S}
+2   N5dc u0 {1,S} {6,D} {7,S}
 3   Cs  u0 {1,S}
 4   Cs  u0 {1,S}
 5   H   u0 {1,S}
@@ -12273,11 +12273,11 @@ u"""
 
 entry(
     index = 1932,
-    label = "Cs-N5dCsCsCs",
+    label = "Cs-N5dcCsCsCs",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   N5d u0 {1,S}
+2   N5dc u0 {1,S}
 3   Cs  u0 {1,S}
 4   Cs  u0 {1,S}
 5   Cs  u0 {1,S}
@@ -12297,11 +12297,11 @@ u"""
 
 entry(
     index = 1843,
-    label = "Cs-(N5dOdOs)CsCsCs",
+    label = "Cs-(N5dcOdOs)CsCsCs",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   N5d u0 {1,S} {6,D} {7,S}
+2   N5dc u0 {1,S} {6,D} {7,S}
 3   Cs  u0 {1,S}
 4   Cs  u0 {1,S}
 5   Cs  u0 {1,S}
@@ -12347,12 +12347,12 @@ u"""
 
 entry(
     index = 1934,
-    label = "Cs-N5dN5dCsCs",
+    label = "Cs-N5dcN5dcCsCs",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   N5d u0 {1,S}
-3   N5d u0 {1,S}
+2   N5dc u0 {1,S}
+3   N5dc u0 {1,S}
 4   Cs  u0 {1,S}
 5   Cs  u0 {1,S}
 """,
@@ -12395,12 +12395,12 @@ u"""
 
 entry(
     index = 1846,
-    label = "Cs-(N5dOdOs)(N5dOdOs)CsH",
+    label = "Cs-(N5dcOdOs)(N5dcOdOs)CsH",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   N5d u0 {1,S} {6,D} {7,S}
-3   N5d u0 {1,S} {8,D} {9,S}
+2   N5dc u0 {1,S} {6,D} {7,S}
+3   N5dc u0 {1,S} {8,D} {9,S}
 4   Cs  u0 {1,S}
 5   H   u0 {1,S}
 6   O2d  u0 {2,D}
@@ -40923,11 +40923,11 @@ u"""
 
 entry(
     index = 1944,
-    label = "O2d-N5d",
+    label = "O2d-N5dc",
     group = 
 """
 1 * O2d  u0 {2,D}
-2   N5d u0 {1,D}
+2   N5dc u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -41106,12 +41106,12 @@ u"""
 
 entry(
     index = 1876,
-    label = "O2s-CsN5d",
+    label = "O2s-CsN5dc",
     group = 
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Cs  u0 {1,S}
-3   N5d u0 {1,S}
+3   N5dc u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -41123,10 +41123,10 @@ u"""
 
 entry(
     index = 1848,
-    label = "O2s-Cs(N5dOdOs)",
+    label = "O2s-Cs(N5dcOdOs)",
     group = 
 """
-1   N5d u0 {2,S} {3,D} {4,S}
+1   N5dc u0 {2,S} {3,D} {4,S}
 2 * O2s  u0 {1,S} {5,S}
 3   O2d  u0 {1,D}
 4   O2s  u0 {1,S}
@@ -41147,12 +41147,12 @@ u"""
 
 entry(
     index = 1879,
-    label = "O2s-CdN5d",
+    label = "O2s-CdN5dc",
     group = 
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Cd  u0 {1,S}
-3   N5d u0 {1,S}
+3   N5dc u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -41164,10 +41164,10 @@ u"""
 
 entry(
     index = 1880,
-    label = "O2s-(Cd-CdHH)(N5dOdOs)",
+    label = "O2s-(Cd-CdHH)(N5dcOdOs)",
     group = 
 """
-1   N5d u0 {3,S} {4,D} {5,S}
+1   N5dc u0 {3,S} {4,D} {5,S}
 2   Cd  u0 {3,S} {6,D} {7,S}
 3 * O2s  u0 {1,S} {2,S}
 4   O2d  u0 {1,D}
@@ -43075,10 +43075,10 @@ u"""
 
 entry(
     index = 10001,
-    label = "N1sc",
+    label = "N0sc",
     group = 
 """
-1 * N1sc u0 p3 c-2 {2,S}
+1 * N0sc u0 p3 c-2 {2,S}
 2   R    ux px     {1,S}
 """,
     thermo = u'N1s',
@@ -43160,8 +43160,8 @@ entry(
 u"""
 Data base on species CH3N(S), source: thermo_DFT_CCSDTF12_BAC
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
-subtracting the Cs-N2sHHH group
-[N1s-CH3 (N-CH3 species) from thermo_DFT_CCSDTF12_BAC] - [Cs-N2sHHH from group.py]
+subtracting the Cs-N1scHHH group
+[N1s-CH3 (N-CH3 species) from thermo_DFT_CCSDTF12_BAC] - [Cs-N1scHHH from group.py]
 """,
 )
 
@@ -43206,11 +43206,11 @@ Pointing to NH(S), so far no better alternative
 
 entry(
     index = 1922,
-    label = "N1d",
+    label = "N1dc",
     group = 
 """
-1 * N1d u0 p2 {2,D}
-2   R!H ux px {1,D}
+1 * N1dc u0 p2 {2,D}
+2   R!H  ux px {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -43227,12 +43227,12 @@ u"""
 
 entry(
     index = 10001,
-    label = "N2s",
+    label = "N1sc",
     group = 
 """
-1 * N2s u0 p2 {2,S} (3,S}
-2   R   ux px {1,S}
-3   R   ux px {1,S}
+1 * N1sc u0 p2 {2,S} (3,S}
+2   R    ux px {1,S}
+3   R    ux px {1,S}
 """,
     thermo = u'N1s',
     shortDesc = u"""""",
@@ -43915,13 +43915,13 @@ u"""
 
 entry(
     index = 1902,
-    label = "N3s-CsH(N5dOdOs)",
+    label = "N3s-CsH(N5dcOdOs)",
     group = 
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cs  u0 {1,S}
 3   H   u0 {1,S}
-4   N5d u0 {1,S} {5,D} {6,S}
+4   N5dc u0 {1,S} {5,D} {6,S}
 5   O2d  u0 {4,D}
 6   O2s  u0 {4,S}
 """,
@@ -44058,13 +44058,13 @@ u"""
 
 entry(
     index = 1903,
-    label = "N3s-CsCs(N5dOdOs)",
+    label = "N3s-CsCs(N5dcOdOs)",
     group = 
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cs  u0 {1,S}
 3   Cs  u0 {1,S}
-4   N5d u0 {1,S} {5,D} {6,S}
+4   N5dc u0 {1,S} {5,D} {6,S}
 5   O2d  u0 {4,D}
 6   O2s  u0 {4,S}
 """,
@@ -44452,10 +44452,10 @@ u"""
 
 entry(
     index = 1913,
-    label = "N5d",
+    label = "N5dc",
     group = 
 """
-1 * N5d u0
+1 * N5dc u0
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -44467,10 +44467,10 @@ u"""
 
 entry(
     index = 1914,
-    label = "N5d-OdOsCs",
+    label = "N5dc-OdOsCs",
     group = 
 """
-1 * N5d u0 {2,D} {3,S} {4,S}
+1 * N5dc u0 {2,D} {3,S} {4,S}
 2   O2d  u0 {1,D}
 3   O2s  u0 {1,S}
 4   Cs  u0 {1,S}
@@ -44490,10 +44490,10 @@ u"""
 
 entry(
     index = 1915,
-    label = "N5d-OdOsCd",
+    label = "N5dc-OdOsCd",
     group = 
 """
-1 * N5d u0 {2,D} {3,S} {4,S}
+1 * N5dc u0 {2,D} {3,S} {4,S}
 2   O2d  u0 {1,D}
 3   O2s  u0 {1,S}
 4   Cd  u0 {1,S}
@@ -44513,10 +44513,10 @@ u"""
 
 entry(
     index = 1916,
-    label = "N5d-OdOsOs",
+    label = "N5dc-OdOsOs",
     group = 
 """
-1 * N5d u0 {2,D} {3,S} {4,S}
+1 * N5dc u0 {2,D} {3,S} {4,S}
 2   O2d  u0 {1,D}
 3   O2s  u0 {1,S}
 4   O2s  u0 {1,S}
@@ -44536,10 +44536,10 @@ u"""
 
 entry(
     index = 1917,
-    label = "N5d-OdOsN3s",
+    label = "N5dc-OdOsN3s",
     group = 
 """
-1 * N5d u0 {2,D} {3,S} {4,S}
+1 * N5dc u0 {2,D} {3,S} {4,S}
 2   O2d  u0 {1,D}
 3   O2s  u0 {1,S}
 4   N3s u0 {1,S}
@@ -44559,10 +44559,10 @@ u"""
 
 entry(
     index = 1918,
-    label = "N5dd",
+    label = "N5dcd",
     group = 
 """
-1 * N5dd u0
+1 * N5dcd u0
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -45843,10 +45843,10 @@ L1: R
                 L5: Cds-(Cdd-S2d)C=SC=S
             L4: Cds-CNH
                 L5: Cd-CdHN3s
-                L5: Cd-CdH(N5dOdOs)
+                L5: Cd-CdH(N5dcOdOs)
             L4: Cds-CCN
                 L5: Cd-CdCsN3s
-                L5: Cd-CdCs(N5dOdOs)
+                L5: Cd-CdCs(N5dcOdOs)
             L4: C=S-SsSs
             L4: C=S-CH
                 L5: C=S-CsH
@@ -45932,26 +45932,26 @@ L1: R
                     L6: Cs-(N3dN3d)CsHH
                     L6: Cs-(N3dOd)CHH
                     L6: Cs-(N3dCd)CsHH
-                L5: Cs-N5dCsHH
-                    L6: Cs-(N5dOdOs)CsHH
+                L5: Cs-N5dcCsHH
+                    L6: Cs-(N5dcOdOs)CsHH
             L4: Cs-NCsCsH
                 L5: Cs-N3sCsCsH
                 L5: Cs-N3dCsCsH
                     L6: Cs-(N3dOd)CsCsH
                     L6: Cs-(N3dN3d)CsCsH
-                L5: Cs-N5dCsCsH
-                    L6: Cs-(N5dOdOs)CsCsH
+                L5: Cs-N5dcCsCsH
+                    L6: Cs-(N5dcOdOs)CsCsH
             L4: Cs-NCsCsCs
                 L5: Cs-N3sCsCsCs
                 L5: Cs-N3dCsCsCs
                     L6: Cs-(N3dOd)CsCsCs
                     L6: Cs-(N3dN3d)CsCsCs
-                L5: Cs-N5dCsCsCs
-                    L6: Cs-(N5dOdOs)CsCsCs
+                L5: Cs-N5dcCsCsCs
+                    L6: Cs-(N5dcOdOs)CsCsCs
             L4: Cs-NNCsCs
-                L5: Cs-N5dN5dCsCs
+                L5: Cs-N5dcN5dcCsCs
             L4: Cs-NNCsH
-                L5: Cs-(N5dOdOs)(N5dOdOs)CsH
+                L5: Cs-(N5dcOdOs)(N5dcOdOs)CsH
             L4: Cs-HHHH
             L4: Cs-CHHH
                 L5: Cs-CsHHH
@@ -47249,7 +47249,7 @@ L1: R
             L4: O2d-Cd
             L4: O2d-O2d
             L4: O2d-N3d
-            L4: O2d-N5d
+            L4: O2d-N5dc
             L4: O2d-Sd
         L3: O2s
             L4: O2s-N
@@ -47259,10 +47259,10 @@ L1: R
                         L7: O2s-Cs(N3dOd)
                     L6: O2s-CdN3d
                         L7: O2s-(Cd-Cd)(N3dOd)
-                    L6: O2s-CsN5d
-                        L7: O2s-Cs(N5dOdOs)
-                    L6: O2s-CdN5d
-                        L7: O2s-(Cd-CdHH)(N5dOdOs)
+                    L6: O2s-CsN5dc
+                        L7: O2s-Cs(N5dcOdOs)
+                    L6: O2s-CdN5dc
+                        L7: O2s-(Cd-CdHH)(N5dcOdOs)
                 L5: O2s-ON
                     L6: O2s-OsN3s
                     L6: O2s-OsN3d
@@ -47387,15 +47387,15 @@ L1: R
             L4: S6dd-OdOdSS
             L4: S6dd-OdOdSH
     L2: N
-        L3: N1sc
+        L3: N0sc
 		L3: N1s
 			L4:	N1s-H
 			L4:	N1s-N1s
 			L4:	N1s-Cs
 			L4:	N1s-N3s
 			L4:	N1s-O2s
-        L3: N1d
-		L3: N2s
+        L3: N1dc
+		L3: N1sc
         L3: N3s
             L4: N3s-CHH
                 L5: N3s-CsHH
@@ -47425,13 +47425,13 @@ L1: R
                 L5: N3s-N3sCsH
                 L5: N3s-N3sCbH
                 L5: N3s-CsH(N3dOd)
-                L5: N3s-CsH(N5dOdOs)
+                L5: N3s-CsH(N5dcOdOs)
                 L5: N3s-(CdCd)HN3s
             L4: N3s-NCC
                 L5: N3s-NCsCs
                     L6: N3s-CsCsN3s
                     L6: N3s-CsCs(N3dOd)
-                    L6: N3s-CsCs(N5dOdOs)
+                    L6: N3s-CsCs(N5dcOdOs)
                 L5: N3s-NCdCs
                     L6: N3s-(CdCd)CsN3s
             L4: N3s-CsHOs
@@ -47451,12 +47451,12 @@ L1: R
             L4: N3d-CbR
         L3: N3t
             L4: N3t-CtH
-        L3: N5d
-            L4: N5d-OdOsCs
-            L4: N5d-OdOsCd
-            L4: N5d-OdOsOs
-            L4: N5d-OdOsN3s
-        L3: N5dd
+        L3: N5dc
+            L4: N5dc-OdOsCs
+            L4: N5dc-OdOsCd
+            L4: N5dc-OdOsOs
+            L4: N5dc-OdOsN3s
+        L3: N5dcd
 """
 )
 
