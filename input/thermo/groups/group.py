@@ -44559,10 +44559,10 @@ u"""
 
 entry(
     index = 1918,
-    label = "N5dcd",
+    label = "N5ddc",
     group = 
 """
-1 * N5dcd u0
+1 * N5ddc u0
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -47456,7 +47456,7 @@ L1: R
             L4: N5dc-OdOsCd
             L4: N5dc-OdOsOs
             L4: N5dc-OdOsN3s
-        L3: N5dcd
+        L3: N5ddc
 """
 )
 
