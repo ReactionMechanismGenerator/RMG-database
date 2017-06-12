@@ -1254,7 +1254,7 @@ entry(
     group = 
 """
 1 *1 N3s                                         u1 {2,S} {3,S}
-4    [Cd,Ct,Cb,CO,CS,N3d,N3t,N5dc,N5ddc,N5tc,N5b] u0 {1,S}
+2    [Cd,Ct,Cb,CO,CS,N3d,N3t,N5dc,N5ddc,N5tc,N5b] u0 {1,S}
 3    H                                           u0 {1,S}
 """,
     kinetics = None,
@@ -1290,7 +1290,7 @@ entry(
     group = 
 """
 1 *1 N3s                         u1 {2,S} {3,S}
-2    [Cd,Ct,Cb,CO,CS,CS,N3d,N5dc] u0 {1,S}
+2    [Cd,Ct,Cb,CO,CS,N3d,N5dc] u0 {1,S}
 3    [Cs,N3s,O2s,S2s]             u0 {1,S}
 """,
     kinetics = None,
@@ -1302,8 +1302,8 @@ entry(
     group = 
 """
 1 *1 N3s                         u1 {2,S} {3,S}
-2    [Cd,Ct,Cb,CO,CS,CS,N3d,N5dc] u0 {1,S}
-3    [Cd,Ct,Cb,CO,CS,CS,N3d,N5dc] u0 {1,S}
+2    [Cd,Ct,Cb,CO,CS,N3d,N5dc] u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS,N3d,N5dc] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1356,7 +1356,7 @@ entry(
     label = "N5_rad",
     group =
 """
-1 *1 [N3d,N3t,N5dc,N5ddc,N5tc,N5b] u1
+1 *1 [N5sc,N5dc,N5dc2,N5dd,N5tc,N5b] u1
 """,
     kinetics = None,
 )
@@ -2504,7 +2504,7 @@ entry(
     group = 
 """
 1 *2 C              u0 {2,D} {3,S} {4,S}
-2 *3 [N5dc,N5dcd,N5tc] u1 {1,D}
+2 *3 [N5dc,N5ddc,N5tc] u1 {1,D}
 3 *4 H              u0 {1,S}
 4    H              u0 {1,S}
 """,

@@ -12,8 +12,8 @@ template(reactants=["COS", "RR'"], products=["R_CO_R'"], ownReverse=False)
 reverse = "1,1_Elimination"
 
 recipe(actions=[
-    ['LOSE_PAIR', '*1', '1'],
     ['GAIN_PAIR', '*4', '1'],
+    ['LOSE_PAIR', '*1', '1'],
     ['CHANGE_BOND', '*1', -1, '*4'],
     ['BREAK_BOND', '*2', 1, '*3'],
     ['FORM_BOND', '*1', 1, '*2'],
@@ -25,7 +25,7 @@ entry(
     label = "COS",
     group = 
 """
-1 *1 C2t         u0 p1 c-1 {2,T}
+1 *1 C2tc        u0 p1 c-1 {2,T}
 2 *4 [O4tc,S4tc] u0 p1 c+1 {1,T}
 """,
     kinetics = None,
@@ -36,7 +36,7 @@ entry(
     label = "CO",
     group = 
 """
-1 *1 C2t  u0 p1 c-1 {2,T}
+1 *1 C2tc u0 p1 c-1 {2,T}
 2 *4 O4tc u0 p1 c+1 {1,T}
 """,
     kinetics = None,
@@ -47,7 +47,7 @@ entry(
     label = "CS",
     group = 
 """
-1 *1 C2t  u0 p1 c-1 {2,T}
+1 *1 C2tc u0 p1 c-1 {2,T}
 2 *4 S4tc u0 p1 c+1 {1,T}
 """,
     kinetics = None,

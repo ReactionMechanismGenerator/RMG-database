@@ -3520,7 +3520,7 @@ entry(
     label = "N5_H",
     group = 
 """
-1 *1 [N5sc,N5dc,N5dcd,N5tc,N5b] u0 {2,S}
+1 *1 [N5sc,N5dc,N5ddc,N5tc,N5b] u0 {2,S}
 2 *2 H                      u0 {1,S}
 """,
     kinetics = None,
