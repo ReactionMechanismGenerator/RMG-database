@@ -443,3 +443,327 @@ Invalid k(E) values computed for path reaction "C(=[CH])[O-][N+]#N(6454) <=> c1c
 """,
 )
 
+entry(
+    label = "Double_Carbene_neighbor",
+    group =
+"""
+1 C   u0 p1 {2,[S,D,T,B]}
+2 C   u0 p1 {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid two singlet carbene groups in the same molecule from being direct neighbors
+""",
+)
+
+entry(
+    label = "Double_Carbene_sep_1",
+    group =
+"""
+1 C   u0 p1 {3,[S,D,T,B]}
+2 C   u0 p1 {3,[S,D,T,B]}
+3 R!H ux {1,[S,D,T,B]} {2,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid two singlet carbene groups in the same molecule from being separated by one atom
+""",
+)
+
+entry(
+    label = "Double_Carbene_sep_2",
+    group =
+"""
+1 C   u0 p1 {3,[S,D,T,B]}
+2 C   u0 p1 {4,[S,D,T,B]}
+3 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+4 R!H ux {3,[S,D,T,B]} {2,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid two singlet carbene groups in the same molecule from being separated by 2 atoms
+""",
+)
+
+entry(
+    label = "Double_Carbene_sep_3",
+    group =
+"""
+1 C   u0 p1 {3,[S,D,T,B]}
+2 C   u0 p1 {5,[S,D,T,B]}
+3 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+4 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 R!H ux {4,[S,D,T,B]} {2,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid two singlet carbene groups in the same molecule from being separated by 3 atoms
+""",
+)
+
+entry(
+    label = "Double_Carbene_sep_4",
+    group =
+"""
+1 C   u0 p1 {3,[S,D,T,B]}
+2 C   u0 p1 {6,[S,D,T,B]}
+3 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+4 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 R!H ux {5,[S,D,T,B]} {2,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid two singlet carbene groups in the same molecule from being separated by 4 atoms
+""",
+)
+
+entry(
+    label = "Double_Carbene_sep_5",
+    group =
+"""
+1 C   u0 p1 {3,[S,D,T,B]}
+2 C   u0 p1 {7,[S,D,T,B]}
+3 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+4 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 R!H ux {6,[S,D,T,B]} {2,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid two singlet carbene groups in the same molecule from being separated by 5 atoms
+""",
+)
+
+entry(
+    label = "Double_Carbene_sep_6",
+    group =
+"""
+1 C   u0 p1 {3,[S,D,T,B]}
+2 C   u0 p1 {8,[S,D,T,B]}
+3 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+4 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 R!H ux {7,[S,D,T,B]} {2,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid two singlet carbene groups in the same molecule from being separated by 6 atoms
+""",
+)
+
+entry(
+    label = "Double_Carbene_sep_7",
+    group =
+"""
+1 C   u0 p1 {3,[S,D,T,B]}
+2 C   u0 p1 {9,[S,D,T,B]}
+3 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+4 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 R!H ux {8,[S,D,T,B]} {2,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid two singlet carbene groups in the same molecule from being separated by 7 atoms
+""",
+)
+
+entry(
+    label = "Double_Carbene_sep_8",
+    group =
+"""
+1 C   u0 p1 {3,[S,D,T,B]}
+2 C   u0 p1 {10,[S,D,T,B]}
+3 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+4 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 R!H ux {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 R!H ux {9,[S,D,T,B]} {2,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid two singlet carbene groups in the same molecule from being separated by 8 atoms
+""",
+)
+
+entry(
+    label = "Carbene_Radical_neighbor",
+    group =
+"""
+1 C   u0 p1 {2,[S,D,T,B]}
+2 R!H u1 {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a singlet carbene and a radical group in the same molecule from being direct neighbors
+""",
+)
+
+entry(
+    label = "Carbene_Radical_sep_1",
+    group =
+"""
+1 C   u0 p1 {3,[S,D,T,B]}
+2 R!H u1 {3,[S,D,T,B]}
+3 R!H ux {1,[S,D,T,B]} {2,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a singlet carbene and a radical group in the same molecule from being separated by one atom
+""",
+)
+
+entry(
+    label = "Carbene_Radical_sep_2",
+    group =
+"""
+1 C   u0 p1 {3,[S,D,T,B]}
+2 R!H u1 {4,[S,D,T,B]}
+3 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+4 R!H ux {3,[S,D,T,B]} {2,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a singlet carbene and a radical group in the same molecule from being separated by 2 atoms
+""",
+)
+
+entry(
+    label = "Carbene_Radical_sep_3",
+    group =
+"""
+1 C   u0 p1 {3,[S,D,T,B]}
+2 R!H u1 {5,[S,D,T,B]}
+3 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+4 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 R!H ux {4,[S,D,T,B]} {2,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a singlet carbene and a radical group in the same molecule from being separated by 3 atoms
+""",
+)
+
+entry(
+    label = "Carbene_Radical_sep_4",
+    group =
+"""
+1 C   u0 p1 {3,[S,D,T,B]}
+2 R!H u1 {6,[S,D,T,B]}
+3 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+4 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 R!H ux {5,[S,D,T,B]} {2,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a singlet carbene and a radical group in the same molecule from being separated by 4 atoms
+""",
+)
+
+entry(
+    label = "Carbene_Radical_sep_5",
+    group =
+"""
+1 C   u0 p1 {3,[S,D,T,B]}
+2 R!H u1 {7,[S,D,T,B]}
+3 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+4 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 R!H ux {6,[S,D,T,B]} {2,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a singlet carbene and a radical group in the same molecule from being separated by 5 atoms
+""",
+)
+
+entry(
+    label = "Carbene_Radical_sep_6",
+    group =
+"""
+1 C   u0 p1 {3,[S,D,T,B]}
+2 R!H u1 {8,[S,D,T,B]}
+3 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+4 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 R!H ux {7,[S,D,T,B]} {2,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a singlet carbene and a radical group in the same molecule from being separated by 6 atoms
+""",
+)
+
+entry(
+    label = "Carbene_Radical_sep_7",
+    group =
+"""
+1 C   u0 p1 {3,[S,D,T,B]}
+2 R!H u1 {9,[S,D,T,B]}
+3 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+4 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 R!H ux {8,[S,D,T,B]} {2,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a singlet carbene and a radical group in the same molecule from being separated by 7 atoms
+""",
+)
+
+entry(
+    label = "Carbene_Radical_sep_8",
+    group =
+"""
+1 C   u0 p1 {3,[S,D,T,B]}
+2 R!H u1 {10,[S,D,T,B]}
+3 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+4 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 R!H ux {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 R!H ux {9,[S,D,T,B]} {2,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a singlet carbene and a radical group in the same molecule from being separated by 8 atoms
+""",
+)
+
