@@ -38,7 +38,7 @@ install:
 
 script:
   - make test-database
-  - make test
+  - make test-all
   - cd $TRAVIS_BUILD_DIR
 
 after_success:
