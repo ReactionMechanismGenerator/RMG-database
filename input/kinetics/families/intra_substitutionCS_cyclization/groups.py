@@ -552,7 +552,7 @@ entry(
 """
 1 *1 Cs            u0 {2,S} {3,S}
 2    C             u0 {1,S}
-3    [H,Cs,Os,S2s] u0 {1,S}
+3    [H,Cs,O2s,S2s] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -612,7 +612,7 @@ entry(
 """
 1 *1 Cs            u0 {2,S} {3,S}
 2    S             u0 {1,S}
-3    [H,Cs,Os,S2s] u0 {1,S}
+3    [H,Cs,O2s,S2s] u0 {1,S}
 """,
     kinetics = None,
 )

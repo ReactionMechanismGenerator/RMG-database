@@ -376,7 +376,7 @@ entry(
 
 entry(
     index = 718,
-    label = "Sd_Cdd/Od;H_OH",
+    label = "Sd_Cdd/O2d;H_OH",
     kinetics = ArrheniusEP(
         A = (4.39e-07, 'cm^3/(mol*s)'),
         n = 5.4,

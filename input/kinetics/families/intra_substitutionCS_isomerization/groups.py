@@ -465,9 +465,9 @@ entry(
     group = 
 """
 1 *1 C             u0 {2,S} {3,S} {4,S}
-2    [H,Cs,Os,S2s] u0 {1,S}
-3    [H,Cs,Os,S2s] u0 {1,S}
-4    [H,Cs,Os,S2s] u0 {1,S}
+2    [H,Cs,O2s,S2s] u0 {1,S}
+3    [H,Cs,O2s,S2s] u0 {1,S}
+4    [H,Cs,O2s,S2s] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -531,8 +531,8 @@ entry(
 """
 1 *1 C         u0 {2,S} {3,S} {4,S}
 2    S2s       u0 {1,S}
-3    [H,Cs,Os] u0 {1,S}
-4    [H,Cs,Os] u0 {1,S}
+3    [H,Cs,O2s] u0 {1,S}
+4    [H,Cs,O2s] u0 {1,S}
 """,
     kinetics = None,
 )

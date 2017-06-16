@@ -749,7 +749,7 @@ entry(
 """
 1 *1 Ct          u0 {2,T} {3,S}
 2 *2 Ct          u0 {1,T} {4,S}
-3    [Cs,Os,S2s] u0 {1,S}
+3    [Cs,O2s,S2s] u0 {1,S}
 4    H           u0 {2,S}
 """,
     kinetics = None,
@@ -775,8 +775,8 @@ entry(
 """
 1 *1 Ct          u0 {2,T} {3,S}
 2 *2 Ct          u0 {1,T} {4,S}
-3    [Cs,Os,S2s] u0 {1,S}
-4    [Cs,Os,S2s] u0 {2,S}
+3    [Cs,O2s,S2s] u0 {1,S}
+4    [Cs,O2s,S2s] u0 {2,S}
 """,
     kinetics = None,
 )

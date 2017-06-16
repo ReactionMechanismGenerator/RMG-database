@@ -8,7 +8,7 @@ longDesc = u"""
 """
 entry(
     index = 1,
-    label = "XSYJ;YJ-Ss;C-Ss",
+    label = "XSYJ;YJ-S2s;C-S2s",
     kinetics = ArrheniusEP(
         A = (1e+08, 's^-1'),
         n = 2,

@@ -39,7 +39,7 @@ entry(
 """
 1 *1 Cd       u0 {2,D}
 2 *2 Cdd      u0 {1,D} {3,D}
-3    [Od,S2d] u0 {2,D}
+3    [O2d,S2d] u0 {2,D}
 """,
     kinetics = None,
 )
@@ -51,7 +51,7 @@ entry(
 """
 1 *1 Cd       u0 {2,D} {4,S} {5,S}
 2 *2 Cdd      u0 {1,D} {3,D}
-3    [Od,S2d] u0 {2,D}
+3    [O2d,S2d] u0 {2,D}
 4    H        u0 {1,S}
 5    H        u0 {1,S}
 """,
@@ -65,7 +65,7 @@ entry(
 """
 1 *1 Cd       u0 {2,D} {4,S} {5,S}
 2 *2 Cdd      u0 {1,D} {3,D}
-3    [Od,S2d] u0 {2,D}
+3    [O2d,S2d] u0 {2,D}
 4    H        u0 {1,S}
 5    [Cs,O,S] u0 {1,S}
 """,
@@ -79,7 +79,7 @@ entry(
 """
 1 *1 Cd               u0 {2,D} {4,S} {5,S}
 2 *2 Cdd              u0 {1,D} {3,D}
-3    [Od,S2d]         u0 {2,D}
+3    [O2d,S2d]         u0 {2,D}
 4    H                u0 {1,S}
 5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
@@ -93,7 +93,7 @@ entry(
 """
 1 *1 Cd       u0 {2,D} {4,S} {5,S}
 2 *2 Cdd      u0 {1,D} {3,D}
-3    [Od,S2d] u0 {2,D}
+3    [O2d,S2d] u0 {2,D}
 4    [Cs,O,S] u0 {1,S}
 5    [Cs,O,S] u0 {1,S}
 """,
@@ -107,7 +107,7 @@ entry(
 """
 1 *1 Cd               u0 {2,D} {4,S} {5,S}
 2 *2 Cdd              u0 {1,D} {3,D}
-3    [Od,S2d]         u0 {2,D}
+3    [O2d,S2d]         u0 {2,D}
 4    [Cs,O,S]         u0 {1,S}
 5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
@@ -121,7 +121,7 @@ entry(
 """
 1 *1 Cd               u0 {2,D} {4,S} {5,S}
 2 *2 Cdd              u0 {1,D} {3,D}
-3    [Od,S2d]         u0 {2,D}
+3    [O2d,S2d]         u0 {2,D}
 4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
@@ -135,7 +135,7 @@ entry(
 """
 1 *1 Cdd      u0 {2,D} {3,D}
 2 *2 Cd       u0 {1,D}
-3    [Od,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
 """,
     kinetics = None,
 )
@@ -147,7 +147,7 @@ entry(
 """
 1 *1 Cdd      u0 {2,D} {3,D}
 2 *2 Cd       u0 {1,D} {4,S} {5,S}
-3    [Od,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
 4    H        u0 {2,S}
 5    H        u0 {2,S}
 """,
@@ -161,7 +161,7 @@ entry(
 """
 1 *1 Cdd      u0 {2,D} {3,D}
 2 *2 Cd       u0 {1,D} {4,S} {5,S}
-3    [Od,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
 4    H        u0 {2,S}
 5    [Cs,O,S] u0 {2,S}
 """,
@@ -175,7 +175,7 @@ entry(
 """
 1 *1 Cdd              u0 {2,D} {3,D}
 2 *2 Cd               u0 {1,D} {4,S} {5,S}
-3    [Od,S2d]         u0 {1,D}
+3    [O2d,S2d]         u0 {1,D}
 4    H                u0 {2,S}
 5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
 """,
@@ -189,7 +189,7 @@ entry(
 """
 1 *1 Cdd      u0 {2,D} {3,D}
 2 *2 Cd       u0 {1,D} {4,S} {5,S}
-3    [Od,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
 4    [Cs,O,S] u0 {2,S}
 5    [Cs,O,S] u0 {2,S}
 """,
@@ -203,7 +203,7 @@ entry(
 """
 1 *1 Cdd              u0 {2,D} {3,D}
 2 *2 Cd               u0 {1,D} {4,S} {5,S}
-3    [Od,S2d]         u0 {1,D}
+3    [O2d,S2d]         u0 {1,D}
 4    [Cs,O,S]         u0 {2,S}
 5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
 """,
@@ -217,7 +217,7 @@ entry(
 """
 1 *1 Cdd              u0 {2,D} {3,D}
 2 *2 Cd               u0 {1,D} {4,S} {5,S}
-3    [Od,S2d]         u0 {1,D}
+3    [O2d,S2d]         u0 {1,D}
 4    [Cd,Ct,Cb,CO,CS] u0 {2,S}
 5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
 """,
@@ -941,7 +941,7 @@ entry(
     label = "Od_Cdd",
     group = 
 """
-1 *1 Od  u0 {2,D}
+1 *1 O2d  u0 {2,D}
 2 *2 Cdd u0 {1,D} {3,D}
 3    R!H u0 {2,D}
 """,
@@ -953,7 +953,7 @@ entry(
     label = "Od_Cds",
     group = 
 """
-1 *1 Od u0 {2,D}
+1 *1 O2d u0 {2,D}
 2 *2 CO u0 {1,D} {3,S} {4,S}
 3    R  u0 {2,S}
 4    R  u0 {2,S}
@@ -966,7 +966,7 @@ entry(
     label = "Od_Cd/unsub",
     group = 
 """
-1 *1 Od u0 {2,D}
+1 *1 O2d u0 {2,D}
 2 *2 CO u0 {1,D} {3,S} {4,S}
 3    H  u0 {2,S}
 4    H  u0 {2,S}
@@ -979,7 +979,7 @@ entry(
     label = "Od_Cd/monosub",
     group = 
 """
-1 *1 Od  u0 {2,D}
+1 *1 O2d  u0 {2,D}
 2 *2 CO  u0 {1,D} {3,S} {4,S}
 3    H   u0 {2,S}
 4    R!H u0 {2,S}
@@ -992,7 +992,7 @@ entry(
     label = "Od_Cd/H/Nd",
     group = 
 """
-1 *1 Od       u0 {2,D}
+1 *1 O2d       u0 {2,D}
 2 *2 CO       u0 {1,D} {3,S} {4,S}
 3    H        u0 {2,S}
 4    [Cs,O,S] u0 {2,S}
@@ -1005,7 +1005,7 @@ entry(
     label = "Od_Cd/H/Os",
     group = 
 """
-1 *1 Od u0 {2,D}
+1 *1 O2d u0 {2,D}
 2 *2 CO u0 {1,D} {3,S} {4,S}
 3    H  u0 {2,S}
 4    O  u0 {2,S}
@@ -1018,7 +1018,7 @@ entry(
     label = "Od_Cd/H/De",
     group = 
 """
-1 *1 Od               u0 {2,D}
+1 *1 O2d               u0 {2,D}
 2 *2 CO               u0 {1,D} {3,S} {4,S}
 3    H                u0 {2,S}
 4    [Cd,Ct,Cb,CO,CS] u0 {2,S}
@@ -1031,7 +1031,7 @@ entry(
     label = "Od_Cd/H/Cd",
     group = 
 """
-1 *1 Od u0 {2,D}
+1 *1 O2d u0 {2,D}
 2 *2 CO u0 {1,D} {3,S} {4,S}
 3    H  u0 {2,S}
 4    Cd u0 {2,S}
@@ -1044,7 +1044,7 @@ entry(
     label = "Od_Cd/H/Cb",
     group = 
 """
-1 *1 Od u0 {2,D}
+1 *1 O2d u0 {2,D}
 2 *2 CO u0 {1,D} {3,S} {4,S}
 3    H  u0 {2,S}
 4    Cb u0 {2,S}
@@ -1057,7 +1057,7 @@ entry(
     label = "Od_Cd/disub",
     group = 
 """
-1 *1 Od  u0 {2,D}
+1 *1 O2d  u0 {2,D}
 2 *2 CO  u0 {1,D} {3,S} {4,S}
 3    R!H u0 {2,S}
 4    R!H u0 {2,S}
@@ -1070,7 +1070,7 @@ entry(
     label = "Od_Cd/Nd2",
     group = 
 """
-1 *1 Od       u0 {2,D}
+1 *1 O2d       u0 {2,D}
 2 *2 CO       u0 {1,D} {3,S} {4,S}
 3    [Cs,O,S] u0 {2,S}
 4    [Cs,O,S] u0 {2,S}
@@ -1083,7 +1083,7 @@ entry(
     label = "Od_Cd/CsCs",
     group = 
 """
-1 *1 Od u0 {2,D}
+1 *1 O2d u0 {2,D}
 2 *2 CO u0 {1,D} {3,S} {4,S}
 3    Cs u0 {2,S}
 4    Cs u0 {2,S}
@@ -1096,7 +1096,7 @@ entry(
     label = "Od_Cd/CsOs",
     group = 
 """
-1 *1 Od u0 {2,D}
+1 *1 O2d u0 {2,D}
 2 *2 CO u0 {1,D} {3,S} {4,S}
 3    Cs u0 {2,S}
 4    O  u0 {2,S}
@@ -1109,7 +1109,7 @@ entry(
     label = "Od_Cd/Nd/De",
     group = 
 """
-1 *1 Od               u0 {2,D}
+1 *1 O2d               u0 {2,D}
 2 *2 CO               u0 {1,D} {3,S} {4,S}
 3    [Cs,O,S]         u0 {2,S}
 4    [Cd,Ct,Cb,CO,CS] u0 {2,S}
@@ -1122,7 +1122,7 @@ entry(
     label = "Od_Cd/De2",
     group = 
 """
-1 *1 Od               u0 {2,D}
+1 *1 O2d               u0 {2,D}
 2 *2 CO               u0 {1,D} {3,S} {4,S}
 3    [Cd,Ct,Cb,CO,CS] u0 {2,S}
 4    [Cd,Ct,Cb,CO,CS] u0 {2,S}
