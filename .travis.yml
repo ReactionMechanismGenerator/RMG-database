@@ -30,6 +30,7 @@ before_install:
   # Add RMG-Py to PYTHONPATH
   - export PYTHONPATH=$TRAVIS_BUILD_DIR/RMG-Py:$PYTHONPATH
   - cd RMG-Py
+  - git checkout -b chargedAT origin/chargedAT
 
 install:
   - conda env create -f environment_linux.yml
