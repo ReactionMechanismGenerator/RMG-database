@@ -167,7 +167,7 @@ entry(
     group =
 """
 1 *1 C  u2 {2,D}
-2    Od u0 {1,D}
+2    O2d u0 {1,D}
 """,
     kinetics = None,
 )
@@ -274,7 +274,7 @@ entry(
     group =
 """
 1 *1 Ct        u1 {2,T}
-2    [N3t,N5t] u0 {1,T}
+2    [N3t,N5tc] u0 {1,T}
 """,
     kinetics = None,
 )
@@ -1194,7 +1194,7 @@ entry(
     group =
 """
 1 *1 N3s         u1 {2,S} {3,S}
-2    [Cs,N3s,Os] u0 {1,S}
+2    [Cs,N3s,O2s] u0 {1,S}
 3    H           u0 {1,S}
 """,
     kinetics = None,
@@ -1218,7 +1218,7 @@ entry(
     group =
 """
 1 *1 N3s u1 {2,S} {3,S}
-2    Os  u0 {1,S}
+2    O2s  u0 {1,S}
 3    H   u0 {1,S}
 """,
     kinetics = None,
@@ -1242,7 +1242,7 @@ entry(
     group =
 """
 1 *1 N3s                      u1 {2,S} {3,S}
-2    [Cd,Ct,Cb,CO,CS,CS,N3d,N5d] u0 {1,S}
+2    [Cd,Ct,Cb,CO,CS,CS,N3d,N5dc] u0 {1,S}
 3    H                        u0 {1,S}
 """,
     kinetics = None,
@@ -1266,8 +1266,8 @@ entry(
     group =
 """
 1 *1 N3s         u1 {2,S} {3,S}
-2    [Cs,N3s,Os] u0 {1,S}
-3    [Cs,N3s,Os] u0 {1,S}
+2    [Cs,N3s,O2s] u0 {1,S}
+3    [Cs,N3s,O2s] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1278,8 +1278,8 @@ entry(
     group =
 """
 1 *1 N3s                      u1 {2,S} {3,S}
-2    [Cd,Ct,Cb,CO,CS,CS,N3d,N5d] u0 {1,S}
-3    [Cs,N3s,Os]              u0 {1,S}
+2    [Cd,Ct,Cb,CO,CS,CS,N3d,N5dc] u0 {1,S}
+3    [Cs,N3s,O2s]              u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1290,8 +1290,8 @@ entry(
     group =
 """
 1 *1 N3s                      u1 {2,S} {3,S}
-2    [Cd,Ct,Cb,CO,CS,CS,N3d,N5d] u0 {1,S}
-3    [Cd,Ct,Cb,CO,CS,CS,N3d,N5d] u0 {1,S}
+2    [Cd,Ct,Cb,CO,CS,CS,N3d,N5dc] u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS,CS,N3d,N5dc] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1323,7 +1323,7 @@ entry(
     group =
 """
 1 *1 N3d u1 {2,D}
-2    Od  u0 {1,D}
+2    O2d  u0 {1,D}
 """,
     kinetics = None,
 )
@@ -1355,7 +1355,7 @@ entry(
     label = "N5_rad",
     group =
 """
-1 *1 [N5s,N5d,N5dd,N5t,N5b] u1
+1 *1 [N5sc,N5dc,N5dd,N5tc,N5b] u1
 """,
     kinetics = None,
 )
@@ -1365,17 +1365,17 @@ entry(
     label = "N5s_rad",
     group =
 """
-1 *1 N5s u1 p0
+1 *1 N5sc u1 p0
 """,
     kinetics = None,
 )
 
 entry(
     index = 104,
-    label = "N5d_rad",
+    label = "N5dc_rad",
     group =
 """
-1 *1 N5d u1 p0 c+1 {2,D} {3,S}
+1 *1 N5dc u1 p0 c+1 {2,D} {3,S}
 2    R!H u0 px c0  {1,D}
 3    R!H u0 px c-1 {1,S}
 """,
@@ -1387,7 +1387,7 @@ entry(
     label = "N5t_rad",
     group =
 """
-1 *1 N5t u1 p0 cx {2,T}
+1 *1 N5tc u1 p0 cx {2,T}
 2    R!H ux px cx {1,T}
 """,
     kinetics = None,
@@ -1544,7 +1544,7 @@ L1: Y_rad_birad_trirad_quadrad
                 L5: N3d_rad/S
         L3: N5_rad
             L4: N5s_rad
-            L4: N5d_rad
+            L4: N5dc_rad
             L4: N5t_rad
 L1: HCO_HCS
     L2: HCO

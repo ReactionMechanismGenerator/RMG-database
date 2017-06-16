@@ -52,8 +52,8 @@ entry(
     group = 
 """
 1 *2 Cdd u0 {2,D} {3,D}
-2 *1 Od  u0 {1,D}
-3    Od  u0 {1,D}
+2 *1 O2d  u0 {1,D}
+3    O2d  u0 {1,D}
 """,
     kinetics = None,
 )
@@ -64,8 +64,8 @@ entry(
     group = 
 """
 1 *1 Cdd u0 {2,D} {3,D}
-2 *2 Od  u0 {1,D}
-3    Od  u0 {1,D}
+2 *2 O2d  u0 {1,D}
+3    O2d  u0 {1,D}
 """,
     kinetics = None,
 )
@@ -188,7 +188,7 @@ entry(
 1 *3 Cd u0 {2,D} {3,S} {4,S}
 2    Cd u0 {1,D}
 3 *4 H  u0 {1,S}
-4    Os u0 {1,S}
+4    O2s u0 {1,S}
 """,
     kinetics = None,
 )
@@ -271,7 +271,7 @@ entry(
 2 *4 H  u0 {1,S}
 3    H  u0 {1,S}
 4    H  u0 {1,S}
-5    Os u0 {1,S}
+5    O2s u0 {1,S}
 """,
     kinetics = None,
 )

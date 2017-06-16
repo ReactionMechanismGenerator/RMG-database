@@ -285,8 +285,8 @@ entry(
     label = "CtOt",
     group = 
 """
-1 * Ct u0 {2,T}
-2   Ot u0 {1,T}
+1 * C2tc u0 p1 c-1 {2,T}
+2   O4tc u0 p1 c+1 {1,T}
 """,
     solute = SoluteData(
         S = -0.085,
@@ -430,7 +430,7 @@ entry(
     label = "O",
     group = 
 """
-1 * [Os,Od,Ot] u0
+1 * [O2s,O2d,O4tc] u0
 """,
     solute = None,
     shortDesc = u"""""",
@@ -445,7 +445,7 @@ entry(
     label = "Oss",
     group = 
 """
-1 * Os u0
+1 * O2s u0
 """,
     solute = None,
     shortDesc = u"""""",
@@ -460,7 +460,7 @@ entry(
     label = "OssH",
     group = 
 """
-1 * Os u0 {2,S}
+1 * O2s u0 {2,S}
 2   H  u0 {1,S}
 """,
     solute = SoluteData(
@@ -482,7 +482,7 @@ entry(
     label = "Oss-noncyclic",
     group = 
 """
-1 * Os  u0 {2,S} {3,S}
+1 * O2s  u0 {2,S} {3,S}
 2   R!H u0 {1,S}
 3   R!H u0 {1,S}
 """,
@@ -502,10 +502,10 @@ u"""
 
 entry(
     index = 30,
-    label = "Od",
+    label = "O2d",
     group = 
 """
-1 * Od u0
+1 * O2d u0
 """,
     solute = SoluteData(
         S = 0.37,
@@ -526,8 +526,8 @@ entry(
     label = "OtCt",
     group = 
 """
-1 * Ot u0 {2,T}
-2   Ct u0 {1,T}
+1 * O4tc u0 p1 c+1 {2,T}
+2   C2tc u0 p1 c-1 {1,T}
 """,
     solute = SoluteData(
         S = 0.37,
@@ -580,8 +580,8 @@ entry(
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   R   u0 {1,S}
-3   Os  u0 {1,S}
-4   Os  u0 {1,S}
+3   O2s  u0 {1,S}
+4   O2s  u0 {1,S}
 """,
     solute = SoluteData(
         S = 0.0,
@@ -603,8 +603,8 @@ entry(
     group = 
 """
 1 * N3s      u0 {2,S} {3,S} {4,S}
-2   Os       u0 {1,S}
-3   Os       u0 {1,S}
+2   O2s       u0 {1,S}
+3   O2s       u0 {1,S}
 4   [Cb,N3b] u0 {1,S}
 """,
     solute = SoluteData(
@@ -627,9 +627,9 @@ entry(
     group = 
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
-2   Os  u0 {1,S}
-3   Os  u0 {1,S}
-4   Os  u0 {1,S}
+2   O2s  u0 {1,S}
+3   O2s  u0 {1,S}
+4   O2s  u0 {1,S}
 """,
     solute = SoluteData(
         S = -0.476,
@@ -1142,9 +1142,9 @@ entry(
     group = 
 """
 1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
-2   Od   u0 p2 {1,D}
-3   Od   u0 p2 {1,D}
-4   Os   u0 p2 {1,S}
+2   O2d   u0 p2 {1,D}
+3   O2d   u0 p2 {1,D}
+4   O2s   u0 p2 {1,S}
 5   R    u0    {1,S}
 """,
     solute = SoluteData(
@@ -1177,7 +1177,7 @@ L1: R
             L4: CdsH
             L4: Cds-noH
         L3: Ct
-            L4: CtOt
+        L3: CtOt
         L3: Cdd
         L3: Cb
             L4: Cb-H
@@ -1187,7 +1187,7 @@ L1: R
         L3: Oss
             L4: OssH
             L4: Oss-noncyclic
-        L3: Od
+        L3: O2d
         L3: OtCt
     L2: N
         L3: N3s

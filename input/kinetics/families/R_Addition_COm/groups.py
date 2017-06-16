@@ -25,8 +25,8 @@ entry(
     label = "COm",
     group = 
 """
-1 *1 Ct u0 p1 c-1 {2,T}
-2 *3 Ot u0 p1 c+1 {1,T}
+1 *1 C2tc u0 p1 c-1 {2,T}
+2 *3 O4tc u0 p1 c+1 {1,T}
 """,
     kinetics = None,
 )

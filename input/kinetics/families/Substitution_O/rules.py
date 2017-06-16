@@ -698,7 +698,7 @@ entry(
 
 entry(
     index = 52,
-    label = "O-Cs(HHH)Os(H);HJ",
+    label = "O-Cs(HHH)O2s(H);HJ",
     kinetics = ArrheniusEP(
         A = (8.01017e+06, 'cm^3/(mol*s)'),
         n = 1.98323,
@@ -728,7 +728,7 @@ entry(
 
 entry(
     index = 54,
-    label = "O-Cs(HHH)Os(Cs);HJ",
+    label = "O-Cs(HHH)O2s(Cs);HJ",
     kinetics = ArrheniusEP(
         A = (7.02751e+10, 'cm^3/(mol*s)'),
         n = 0.29359,
@@ -773,7 +773,7 @@ entry(
 
 entry(
     index = 57,
-    label = "O-Cs(HHH)Os(H);CsJ-HHH",
+    label = "O-Cs(HHH)O2s(H);CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (20989.5, 'cm^3/(mol*s)'),
         n = 2.47358,
@@ -788,7 +788,7 @@ entry(
 
 entry(
     index = 58,
-    label = "O-Cs(HHH)Os(Cs);CsJ-HHH",
+    label = "O-Cs(HHH)O2s(Cs);CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (1.2996e+07, 'cm^3/(mol*s)'),
         n = 1.07449,
@@ -803,7 +803,7 @@ entry(
 
 entry(
     index = 59,
-    label = "O-Os(H)Os(H);HJ",
+    label = "O-O2s(H)O2s(H);HJ",
     kinetics = ArrheniusEP(
         A = (3.73772e+06, 'cm^3/(mol*s)'),
         n = 2.13626,
@@ -818,7 +818,7 @@ entry(
 
 entry(
     index = 60,
-    label = "O-HOs(Os);HJ",
+    label = "O-HOs(O2s);HJ",
     kinetics = ArrheniusEP(
         A = (7.17266e+08, 'cm^3/(mol*s)'),
         n = 1.4407,
@@ -833,7 +833,7 @@ entry(
 
 entry(
     index = 61,
-    label = "O-Os(Cs)Os(H);HJ",
+    label = "O-O2s(Cs)O2s(H);HJ",
     kinetics = ArrheniusEP(
         A = (2.95051e+06, 'cm^3/(mol*s)'),
         n = 2.54316,
@@ -848,7 +848,7 @@ entry(
 
 entry(
     index = 62,
-    label = "O-Cs(HHH)Os(Os);HJ",
+    label = "O-Cs(HHH)O2s(O2s);HJ",
     kinetics = ArrheniusEP(
         A = (9.56529e+07, 'cm^3/(mol*s)'),
         n = 2.045,
@@ -863,7 +863,7 @@ entry(
 
 entry(
     index = 64,
-    label = "O-Os(H)Os(Cs);HJ",
+    label = "O-O2s(H)O2s(Cs);HJ",
     kinetics = ArrheniusEP(
         A = (1.2409e+06, 'cm^3/(mol*s)'),
         n = 2.35959,
@@ -878,7 +878,7 @@ entry(
 
 entry(
     index = 67,
-    label = "O-Os(Cs)Os(Cs);HJ",
+    label = "O-O2s(Cs)O2s(Cs);HJ",
     kinetics = ArrheniusEP(
         A = (7.95424e+06, 'cm^3/(mol*s)'),
         n = 2.71236,
@@ -893,7 +893,7 @@ entry(
 
 entry(
     index = 69,
-    label = "O-Os(H)Os(H);CsJ-HHH",
+    label = "O-O2s(H)O2s(H);CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (1119.49, 'cm^3/(mol*s)'),
         n = 3.06029,
@@ -908,7 +908,7 @@ entry(
 
 entry(
     index = 70,
-    label = "O-HOs(Os);CsJ-HHH",
+    label = "O-HOs(O2s);CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (17942.7, 'cm^3/(mol*s)'),
         n = 2.60187,
@@ -923,7 +923,7 @@ entry(
 
 entry(
     index = 71,
-    label = "O-Os(H)Os(Cs);CsJ-HHH",
+    label = "O-O2s(H)O2s(Cs);CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (152659, 'cm^3/(mol*s)'),
         n = 2.22409,
@@ -938,7 +938,7 @@ entry(
 
 entry(
     index = 72,
-    label = "O-Cs(HHH)Os(Os);CsJ-HHH",
+    label = "O-Cs(HHH)O2s(O2s);CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (101433, 'cm^3/(mol*s)'),
         n = 2.72306,
@@ -953,7 +953,7 @@ entry(
 
 entry(
     index = 73,
-    label = "O-Os(Cs)Os(H);CsJ-HHH",
+    label = "O-O2s(Cs)O2s(H);CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (26016.1, 'cm^3/(mol*s)'),
         n = 2.61392,
@@ -968,7 +968,7 @@ entry(
 
 entry(
     index = 75,
-    label = "O-Os(Cs)Os(Cs);CsJ-HHH",
+    label = "O-O2s(Cs)O2s(Cs);CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (98402.5, 'cm^3/(mol*s)'),
         n = 2.87073,
@@ -1778,7 +1778,7 @@ entry(
 
 entry(
     index = 135,
-    label = "O-Os(H)H;OsJ-H",
+    label = "O-O2s(H)H;OsJ-H",
     kinetics = ArrheniusEP(
         A = (0.00278991, 'cm^3/(mol*s)'),
         n = 4.75128,
@@ -1793,7 +1793,7 @@ entry(
 
 entry(
     index = 136,
-    label = "O-HH;OsJ-Os",
+    label = "O-HH;OsJ-O2s",
     kinetics = ArrheniusEP(
         A = (0.0267498, 'cm^3/(mol*s)'),
         n = 4.5091,
@@ -1808,7 +1808,7 @@ entry(
 
 entry(
     index = 137,
-    label = "O-Os(Cs)H;OsJ-H",
+    label = "O-O2s(Cs)H;OsJ-H",
     kinetics = ArrheniusEP(
         A = (0.000781287, 'cm^3/(mol*s)'),
         n = 5.15922,
@@ -1823,7 +1823,7 @@ entry(
 
 entry(
     index = 138,
-    label = "O-Cs(HHH)H;OsJ-Os",
+    label = "O-Cs(HHH)H;OsJ-O2s",
     kinetics = ArrheniusEP(
         A = (1.54686e-05, 'cm^3/(mol*s)'),
         n = 5.55622,
@@ -1838,7 +1838,7 @@ entry(
 
 entry(
     index = 140,
-    label = "O-Os(H)H;OsJ-Cs",
+    label = "O-O2s(H)H;OsJ-Cs",
     kinetics = ArrheniusEP(
         A = (2.47435e-05, 'cm^3/(mol*s)'),
         n = 5.26357,
@@ -1853,7 +1853,7 @@ entry(
 
 entry(
     index = 143,
-    label = "O-Os(Cs)H;OsJ-Cs",
+    label = "O-O2s(Cs)H;OsJ-Cs",
     kinetics = ArrheniusEP(
         A = (2.92558e-06, 'cm^3/(mol*s)'),
         n = 5.89053,
@@ -1868,7 +1868,7 @@ entry(
 
 entry(
     index = 145,
-    label = "O-Os(H)Cs(HHH);OsJ-H",
+    label = "O-O2s(H)Cs(HHH);OsJ-H",
     kinetics = ArrheniusEP(
         A = (0.376691, 'cm^3/(mol*s)'),
         n = 4.46709,
@@ -1883,7 +1883,7 @@ entry(
 
 entry(
     index = 146,
-    label = "O-HCs(HHH);OsJ-Os",
+    label = "O-HCs(HHH);OsJ-O2s",
     kinetics = ArrheniusEP(
         A = (0.00368718, 'cm^3/(mol*s)'),
         n = 4.90384,
@@ -1898,7 +1898,7 @@ entry(
 
 entry(
     index = 147,
-    label = "O-Os(H)Cs(HHH);OsJ-Cs",
+    label = "O-O2s(H)Cs(HHH);OsJ-Cs",
     kinetics = ArrheniusEP(
         A = (1.37223, 'cm^3/(mol*s)'),
         n = 3.91986,
@@ -1913,7 +1913,7 @@ entry(
 
 entry(
     index = 148,
-    label = "O-Cs(HHH)Cs(HHH);OsJ-Os",
+    label = "O-Cs(HHH)Cs(HHH);OsJ-O2s",
     kinetics = ArrheniusEP(
         A = (13.1108, 'cm^3/(mol*s)'),
         n = 3.71859,
@@ -1928,7 +1928,7 @@ entry(
 
 entry(
     index = 149,
-    label = "O-Os(Cs)Cs(HHH);OsJ-H",
+    label = "O-O2s(Cs)Cs(HHH);OsJ-H",
     kinetics = ArrheniusEP(
         A = (21552.6, 'cm^3/(mol*s)'),
         n = 2.45745,
@@ -1943,7 +1943,7 @@ entry(
 
 entry(
     index = 151,
-    label = "O-Os(Cs)Cs(HHH);OsJ-Cs",
+    label = "O-O2s(Cs)Cs(HHH);OsJ-Cs",
     kinetics = ArrheniusEP(
         A = (0.0036016, 'cm^3/(mol*s)'),
         n = 5.31614,

@@ -227,7 +227,7 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,S}
-2 *4 Os u0 {1,S} {3,S}
+2 *4 O2s u0 {1,S} {3,S}
 3 *2 R!H u0 {2,S} {4,S}
 4 *3 H  u0 {3,S}
 """,
@@ -616,7 +616,7 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,S}
-2 *4 Os u0 {1,S} {3,S}
+2 *4 O2s u0 {1,S} {3,S}
 3 *5 Cs u0 {2,S} {4,S}
 4 *2 R!H u0 {3,S} {5,S}
 5 *3 H  u0 {4,S}
@@ -630,7 +630,7 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,S}
-2 *4 Os u0 {1,S} {3,S}
+2 *4 O2s u0 {1,S} {3,S}
 3 *5 Cs u0 {2,S} {4,S} {6,S}
 4 *2 R!H u0 {3,S} {5,S}
 5 *3 H  u0 {4,S}
@@ -645,7 +645,7 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,S}
-2 *4 Os u0 {1,S} {3,S}
+2 *4 O2s u0 {1,S} {3,S}
 3 *5 Cs u0 {2,S} {4,S} {6,S} {7,S}
 4 *2 R!H u0 {3,S} {5,S}
 5 *3 H  u0 {4,S}
@@ -1189,14 +1189,14 @@ entry(
 4 *5 C  u0 {3,S} {5,S}
 5 *2 R!H u0 {4,S} {6,S} {7,D}
 6 *3 H  u0 {5,S}
-7    Od u0 {5,D}
+7    O2d u0 {5,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 267,
-    label = "R5H_CC(Od)CC",
+    label = "R5H_CC(O2d)CC",
     group = 
 """
 1 *1 R!H  u1 {2,S}
@@ -1205,14 +1205,14 @@ entry(
 4 *5 CO u0 {3,S} {5,S} {7,D}
 5 *2 R!H  u0 {4,S} {6,S}
 6 *3 H  u0 {5,S}
-7    Od u0 {4,D}
+7    O2d u0 {4,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 268,
-    label = "R5H_CCC(Od)C",
+    label = "R5H_CCC(O2d)C",
     group = 
 """
 1 *1 R!H  u1 {2,S}
@@ -1221,14 +1221,14 @@ entry(
 4 *5 C  u0 {3,S} {5,S}
 5 *2 R!H  u0 {4,S} {6,S}
 6 *3 H  u0 {5,S}
-7    Od u0 {3,D}
+7    O2d u0 {3,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 269,
-    label = "R5H_CCCC(Od)",
+    label = "R5H_CCCC(O2d)",
     group = 
 """
 1 *1 R!H  u1 {2,S}
@@ -1237,7 +1237,7 @@ entry(
 4 *5 C  u0 {3,S} {5,S}
 5 *2 R!H  u0 {4,S} {6,S}
 6 *3 H  u0 {5,S}
-7    Od u0 {2,D}
+7    O2d u0 {2,D}
 """,
     kinetics = None,
 )
@@ -1263,7 +1263,7 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,S}
-2 *4 Os u0 {1,S} {3,S}
+2 *4 O2s u0 {1,S} {3,S}
 3 *6 Cs u0 {2,S} {4,S}
 4 *5 Cs u0 {3,S} {5,S}
 5 *2 R!H u0 {4,S} {6,S}
@@ -1278,7 +1278,7 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,S}
-2 *4 Os u0 {1,S} {3,S}
+2 *4 O2s u0 {1,S} {3,S}
 3 *6 Cs u0 {2,S} {4,S} {7,S}
 4 *5 Cs u0 {3,S} {5,S}
 5 *2 R!H u0 {4,S} {6,S}
@@ -1294,7 +1294,7 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,S}
-2 *4 Os u0 {1,S} {3,S}
+2 *4 O2s u0 {1,S} {3,S}
 3 *6 Cs u0 {2,S} {4,S} {7,S} {8,S}
 4 *5 Cs u0 {3,S} {5,S}
 5 *2 R!H u0 {4,S} {6,S}
@@ -1311,7 +1311,7 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,S}
-2 *4 Os u0 {1,S} {3,S}
+2 *4 O2s u0 {1,S} {3,S}
 3 *6 Cs u0 {2,S} {4,S}
 4 *5 Cs u0 {3,S} {5,S} {7,S}
 5 *2 R!H u0 {4,S} {6,S}
@@ -1327,7 +1327,7 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,S}
-2 *4 Os u0 {1,S} {3,S}
+2 *4 O2s u0 {1,S} {3,S}
 3 *6 Cs u0 {2,S} {4,S}
 4 *5 Cs u0 {3,S} {5,S} {7,S} {8,S}
 5 *2 R!H u0 {4,S} {6,S}
@@ -2151,7 +2151,7 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,S}
-2 *4 Os u0 {1,S} {3,S}
+2 *4 O2s u0 {1,S} {3,S}
 3 *6 Cs u0 {2,S} {4,S}
 4 *7 Cs u0 {3,S} {5,S}
 5 *5 Cs u0 {4,S} {6,S}
@@ -2167,7 +2167,7 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,S}
-2 *4 Os u0 {1,S} {3,S}
+2 *4 O2s u0 {1,S} {3,S}
 3 *6 Cs u0 {2,S} {4,S} {8,S}
 4 *7 Cs u0 {3,S} {5,S}
 5 *5 Cs u0 {4,S} {6,S}
@@ -2184,7 +2184,7 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,S}
-2 *4 Os u0 {1,S} {3,S}
+2 *4 O2s u0 {1,S} {3,S}
 3 *6 Cs u0 {2,S} {4,S} {8,S}
 4 *7 Cs u0 {3,S} {5,S}
 5 *5 Cs u0 {4,S} {6,S}
@@ -2202,7 +2202,7 @@ entry(
     group = 
 """
 1 *1 R!H u1 {2,S}
-2 *4 Os u0 {1,S} {3,S}
+2 *4 O2s u0 {1,S} {3,S}
 3 *6 Cs u0 {2,S} {4,S}
 4 *7 Cs u0 {3,S} {5,S}
 5 *5 Cs u0 {4,S} {6,S}
@@ -2886,7 +2886,7 @@ entry(
     group = 
 """
 1 *1 R!H  u1 {2,S}
-2 *4 Os  u0 {1,S} {3,S}
+2 *4 O2s  u0 {1,S} {3,S}
 3 *6 R!H u0 {2,S} {4,[S,D,T,B]}
 4 *7 R!H u0 {3,[S,D,T,B]} {5,[S,D,T,B]}
 5 *8 R!H u0 {4,[S,D,T,B]} {6,[S,D,T,B]}
@@ -2903,7 +2903,7 @@ entry(
     group = 
 """
 1 *1 R!H  u1 {2,S}
-2 *4 Os  u0 {1,S} {3,S}
+2 *4 O2s  u0 {1,S} {3,S}
 3 *6 R!H u0 {2,S} {4,[S,D,T,B]}
 4 *7 R!H u0 {3,[S,D,T,B]} {5,[S,D,T,B]}
 5 *8 R!H u0 {4,[S,D,T,B]} {6,[S,D,T,B]}
@@ -3955,9 +3955,9 @@ L1: RnH
                     L6: R5H_SSSS
                         L7: R5H_CCC
                             L8: R5H_CCC_O
-                            L8: R5H_CC(Od)CC
-                            L8: R5H_CCC(Od)C
-                            L8: R5H_CCCC(Od)
+                            L8: R5H_CC(O2d)CC
+                            L8: R5H_CCC(O2d)C
+                            L8: R5H_CCCC(O2d)
                         L7: R5H_SSSS_CsCsS
                         L7: R5H_SSSS_OCC
                             L8: R5H_SSSS_OCC_C

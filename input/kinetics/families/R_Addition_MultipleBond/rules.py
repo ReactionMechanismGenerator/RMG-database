@@ -39376,7 +39376,7 @@ entry(
 
 entry(
     index = 3056,
-    label = "CO-NdH_O;OJ-Os",
+    label = "CO-NdH_O;OJ-O2s",
     kinetics = ArrheniusEP(
         A = (0.04245, 'cm^3/(mol*s)'),
         n = 3.486,
@@ -39390,7 +39390,7 @@ entry(
 
 entry(
     index = 3057,
-    label = "CO-CsCs_O;OJ-Os",
+    label = "CO-CsCs_O;OJ-O2s",
     kinetics = ArrheniusEP(
         A = (0.04245, 'cm^3/(mol*s)'),
         n = 3.486,
@@ -39404,7 +39404,7 @@ entry(
 
 entry(
     index = 3058,
-    label = "CO-HH_O;OJ-Os",
+    label = "CO-HH_O;OJ-O2s",
     kinetics = ArrheniusEP(
         A = (0.04245, 'cm^3/(mol*s)'),
         n = 3.486,
@@ -39418,7 +39418,7 @@ entry(
 
 entry(
     index = 3059,
-    label = "CO-CsCs_O;OJ-Os",
+    label = "CO-CsCs_O;OJ-O2s",
     kinetics = ArrheniusEP(
         A = (0.04245, 'cm^3/(mol*s)'),
         n = 3.486,
@@ -39432,7 +39432,7 @@ entry(
 
 entry(
     index = 3060,
-    label = "Cds-HH_Cds-HH;OJ-Os",
+    label = "Cds-HH_Cds-HH;OJ-O2s",
     kinetics = ArrheniusEP(
         A = (35.6, 'cm^3/(mol*s)'),
         n = 3.22,
@@ -39447,7 +39447,7 @@ entry(
 
 entry(
     index = 3061,
-    label = "Cds-HH_Cds-CsH;OJ-Os",
+    label = "Cds-HH_Cds-CsH;OJ-O2s",
     kinetics = ArrheniusEP(
         A = (791, 'cm^3/(mol*s)'),
         n = 2.78,
@@ -39462,7 +39462,7 @@ entry(
 
 entry(
     index = 3062,
-    label = "Cds-HH_Cds-CsCs;OJ-Os",
+    label = "Cds-HH_Cds-CsCs;OJ-O2s",
     kinetics = ArrheniusEP(
         A = (1350, 'cm^3/(mol*s)'),
         n = 2.67,
@@ -39477,7 +39477,7 @@ entry(
 
 entry(
     index = 3063,
-    label = "Cds-CsH_Cds-HH;OJ-Os",
+    label = "Cds-CsH_Cds-HH;OJ-O2s",
     kinetics = ArrheniusEP(
         A = (10.6, 'cm^3/(mol*s)'),
         n = 3.29,
@@ -39492,7 +39492,7 @@ entry(
 
 entry(
     index = 3064,
-    label = "Cds-CsH_Cds-CsH;OJ-Os",
+    label = "Cds-CsH_Cds-CsH;OJ-O2s",
     kinetics = ArrheniusEP(
         A = (46.2, 'cm^3/(mol*s)'),
         n = 3.09,
@@ -39507,7 +39507,7 @@ entry(
 
 entry(
     index = 3065,
-    label = "Cds-CsH_Cds-CsCs;OJ-Os",
+    label = "Cds-CsH_Cds-CsCs;OJ-O2s",
     kinetics = ArrheniusEP(
         A = (186, 'cm^3/(mol*s)'),
         n = 2.95,
@@ -39522,7 +39522,7 @@ entry(
 
 entry(
     index = 3066,
-    label = "Cds-CsCs_Cds-HH;OJ-Os",
+    label = "Cds-CsCs_Cds-HH;OJ-O2s",
     kinetics = ArrheniusEP(
         A = (0.337, 'cm^3/(mol*s)'),
         n = 3.67,
@@ -39537,7 +39537,7 @@ entry(
 
 entry(
     index = 3067,
-    label = "Cds-CsCs_Cds-CsH;OJ-Os",
+    label = "Cds-CsCs_Cds-CsH;OJ-O2s",
     kinetics = ArrheniusEP(
         A = (0.172, 'cm^3/(mol*s)'),
         n = 3.7,
@@ -39552,7 +39552,7 @@ entry(
 
 entry(
     index = 3068,
-    label = "Cds-CsCs_Cds-CsCs;OJ-Os",
+    label = "Cds-CsCs_Cds-CsCs;OJ-O2s",
     kinetics = ArrheniusEP(
         A = (1.69, 'cm^3/(mol*s)'),
         n = 3.44,
@@ -39587,7 +39587,7 @@ Original rate is too high (~ factor of 10) replaced with propene+OH rate coeffic
 
 entry(
     index = 3070,
-    label = "Cds-HH_Cds-Cs\Os/H;CsJ-HHH",
+    label = "Cds-HH_Cds-Cs\O2s/H;CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (532000, 'cm^3/(mol*s)'),
         n = 1.85,
@@ -40290,7 +40290,7 @@ entry(
 
 entry(
     index = 3122,
-    label = "Cds-HH_Cds-Cs\Os/H;HJ",
+    label = "Cds-HH_Cds-Cs\O2s/H;HJ",
     kinetics = ArrheniusEP(
         A = (5.014e+08, 'cm^3/(mol*s)'),
         n = 1.733,
@@ -40380,7 +40380,7 @@ entry(
 
 entry(
     index = 3128,
-    label = "Cds-Cs\Os/H_Cds-HH;HJ",
+    label = "Cds-Cs\O2s/H_Cds-HH;HJ",
     kinetics = ArrheniusEP(
         A = (1.73e+08, 'cm^3/(mol*s)'),
         n = 1.583,

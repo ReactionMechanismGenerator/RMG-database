@@ -42,9 +42,9 @@ entry(
     group = 
 """
 1 * CO                         u0 {2,S} {3,S} {4,D}
-2   Os                         u0 {1,S} {5,S}
+2   O2s                         u0 {1,S} {5,S}
 3   [Cs,Cd,Cdd,Ct,Cb,Cbf,CO,H] u0 {1,S}
-4   Od                         u0 {1,D}
+4   O2d                         u0 {1,D}
 5   R!H                        u0 {2,S}
 """,
     solute = SoluteData(
@@ -84,9 +84,9 @@ entry(
     label = "Lac3",
     group = 
 """
-1   Od  u0 {2,D}
+1   O2d  u0 {2,D}
 2 * CO  u0 {1,D} {3,S} {4,S}
-3   Os  u0 {2,S} {4,S}
+3   O2s  u0 {2,S} {4,S}
 4   R!H u0 {2,S} {3,S}
 """,
     solute = None,
@@ -102,9 +102,9 @@ entry(
     label = "Lac4",
     group = 
 """
-1   Od  u0 {2,D}
+1   O2d  u0 {2,D}
 2 * CO  u0 {1,D} {3,S} {5,S}
-3   Os  u0 {2,S} {4,S}
+3   O2s  u0 {2,S} {4,S}
 4   R!H u0 {3,S} {5,S}
 5   R!H u0 {2,S} {4,S}
 """,
@@ -121,9 +121,9 @@ entry(
     label = "Lac5",
     group = 
 """
-1   Od  u0 {2,D}
+1   O2d  u0 {2,D}
 2 * CO  u0 {1,D} {3,S} {6,S}
-3   Os  u0 {2,S} {4,S}
+3   O2s  u0 {2,S} {4,S}
 4   R!H u0 {3,S} {5,S}
 5   R!H u0 {4,S} {6,S}
 6   R!H u0 {2,S} {5,S}
@@ -141,9 +141,9 @@ entry(
     label = "Lac6",
     group = 
 """
-1   Od  u0 {2,D}
+1   O2d  u0 {2,D}
 2 * CO  u0 {1,D} {3,S} {7,S}
-3   Os  u0 {2,S} {4,S}
+3   O2s  u0 {2,S} {4,S}
 4   R!H u0 {3,S} {5,S}
 5   R!H u0 {4,S} {6,S}
 6   R!H u0 {5,S} {7,S}
@@ -163,9 +163,9 @@ entry(
     group = 
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
-2   Os  u0 {1,S} {5,S}
-3   Os  u0 {1,S} {6,S}
-4   Od  u0 {1,D}
+2   O2s  u0 {1,S} {5,S}
+3   O2s  u0 {1,S} {6,S}
+4   O2d  u0 {1,D}
 5   R!H u0 {2,S}
 6   R!H u0 {3,S}
 """,
@@ -189,9 +189,9 @@ entry(
     group = 
 """
 1 * CO                         u0 {2,S} {3,S} {4,D}
-2   Os                         u0 {1,S} {5,S}
+2   O2s                         u0 {1,S} {5,S}
 3   [Cs,Cd,Cdd,Ct,Cb,Cbf,CO,H] u0 {1,S}
-4   Od                         u0 {1,D}
+4   O2d                         u0 {1,D}
 5   H                          u0 {2,S}
 """,
     solute = SoluteData(
@@ -210,11 +210,11 @@ u"""
 
 entry(
     index = 5,
-    label = "Cd(Od)Cd=CdCd(Od)",
+    label = "Cd(O2d)Cd=CdCd(O2d)",
     group = 
 """
 1  * CO u0 {2,D} {3,S} {4,S}
-2    Od u0 {1,D}
+2    O2d u0 {1,D}
 3    Cd u0 {1,S} {5,S} {6,D}
 4    R  u0 {1,S}
 5    R  u0 {3,S}
@@ -222,7 +222,7 @@ entry(
 7    R  u0 {6,S}
 8    CO u0 {6,S} {9,S} {10,D}
 9    R  u0 {8,S}
-10   Od u0 {8,D}
+10   O2d u0 {8,D}
 """,
     solute = SoluteData(
         S = -0.2055,
@@ -240,11 +240,11 @@ u"""
 
 entry(
     index = 20,
-    label = "Cd(Od)N",
+    label = "Cd(O2d)N",
     group = 
 """
 1 * CO        u0 {2,D} {3,S}
-2   Od        u0 {1,D}
+2   O2d        u0 {1,D}
 3   [N3s,N3d] u0 {1,S}
 """,
     solute = SoluteData(
@@ -284,7 +284,7 @@ entry(
     label = "Lactam4",
     group = 
 """
-1   Od u0 {2,D}
+1   O2d u0 {2,D}
 2 * CO u0 {1,D} {3,S} {5,S}
 3   N  u0 {2,S} {4,S}
 4   Cs u0 {3,S} {5,S}
@@ -303,7 +303,7 @@ entry(
     label = "Lactam5",
     group = 
 """
-1   Od u0 {2,D}
+1   O2d u0 {2,D}
 2 * CO u0 {1,D} {3,S} {6,S}
 3   N  u0 {2,S} {4,S}
 4   Cs u0 {3,S} {5,S}
@@ -323,7 +323,7 @@ entry(
     label = "Lactam6",
     group = 
 """
-1   Od u0 {2,D}
+1   O2d u0 {2,D}
 2 * CO u0 {1,D} {3,S} {7,S}
 3   N  u0 {2,S} {4,S}
 4   Cs u0 {3,S} {5,S}
@@ -344,7 +344,7 @@ entry(
     label = "Lactam7",
     group = 
 """
-1   Od u0 {2,D}
+1   O2d u0 {2,D}
 2 * CO u0 {1,D} {3,S} {8,S}
 3   N  u0 {2,S} {4,S}
 4   Cs u0 {3,S} {5,S}
@@ -363,11 +363,11 @@ u"""
 
 entry(
     index = 27,
-    label = "NCd(Od)N",
+    label = "NCd(O2d)N",
     group = 
 """
 1 * CO  u0 {2,D} {3,S} {4,S}
-2   Od  u0 {1,D}
+2   O2d  u0 {1,D}
 3   N3s u0 {1,S}
 4   N3s u0 {1,S}
 """,
@@ -387,12 +387,12 @@ u"""
 
 entry(
     index = 28,
-    label = "OsCd(Od)N",
+    label = "OsCd(O2d)N",
     group = 
 """
 1 * CO  u0 {2,D} {3,S} {4,S}
-2   Od  u0 {1,D}
-3   Os  u0 {1,S}
+2   O2d  u0 {1,D}
+3   O2s  u0 {1,S}
 4   N3s u0 {1,S}
 """,
     solute = SoluteData(
@@ -411,14 +411,14 @@ u"""
 
 entry(
     index = 29,
-    label = "Cd(Od)NCd(Od)",
+    label = "Cd(O2d)NCd(O2d)",
     group = 
 """
 1 * CO  u0 {2,D} {3,S}
-2   Od  u0 {1,D}
+2   O2d  u0 {1,D}
 3   N3s u0 {1,S} {4,S}
 4   CO  u0 {3,S} {5,D}
-5   Od  u0 {4,D}
+5   O2d  u0 {4,D}
 """,
     solute = SoluteData(
         S = -0.255,
@@ -442,12 +442,12 @@ entry(
 1  * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2    R  u0 {1,S}
 3    R  u0 {1,S}
-4    Os u0 {1,S} {6,S}
+4    O2s u0 {1,S} {6,S}
 5    Cs u0 {1,S} {7,S} {8,S} {9,S}
 6    H  u0 {4,S}
 7    R  u0 {5,S}
 8    R  u0 {5,S}
-9    Os u0 {5,S} {10,S}
+9    O2s u0 {5,S} {10,S}
 10   H  u0 {9,S}
 """,
     solute = SoluteData(
@@ -471,7 +471,7 @@ entry(
 """
 1 * Cb u0 {2,S}
 2   Cs u0 {1,S} {3,S}
-3   Os u0 {2,S} {4,S}
+3   O2s u0 {2,S} {4,S}
 4   H  u0 {3,S}
 """,
     solute = SoluteData(
@@ -493,9 +493,9 @@ entry(
     label = "OssH",
     group = 
 """
-1 * Os                 u0 {2,S} {3,S}
+1 * O2s                 u0 {2,S} {3,S}
 2   H                  u0 {1,S}
-3   [Cs,Cd,Ct,CO,Os,H] u0 {1,S}
+3   [Cs,Cd,Ct,CO,O2s,H] u0 {1,S}
 """,
     solute = SoluteData(
         S = 0,
@@ -516,7 +516,7 @@ entry(
     label = "phenol",
     group = 
 """
-1 * Os       u0 {2,S} {3,S}
+1 * O2s       u0 {2,S} {3,S}
 2   H        u0 {1,S}
 3   [Cb,Cbf] u0 {1,S}
 """,
@@ -557,7 +557,7 @@ entry(
     label = "OxR3",
     group = 
 """
-1 * Os  u0 {2,S} {3,S}
+1 * O2s  u0 {2,S} {3,S}
 2   R!H u0 {1,S} {3,[S,D,B]}
 3   R!H u0 {1,S} {2,[S,D,B]}
 """,
@@ -574,7 +574,7 @@ entry(
     label = "OxR4",
     group = 
 """
-1 * Os  u0 {2,S} {4,S}
+1 * O2s  u0 {2,S} {4,S}
 2   R!H u0 {1,S} {3,[S,D,B]}
 3   R!H u0 {2,[S,D,B]} {4,[S,D,B]}
 4   R!H u0 {1,S} {3,[S,D,B]}
@@ -592,7 +592,7 @@ entry(
     label = "OxR5",
     group = 
 """
-1 * Os  u0 {2,S} {5,S}
+1 * O2s  u0 {2,S} {5,S}
 2   R!H u0 {1,S} {3,[S,D,B]}
 3   R!H u0 {2,[S,D,B]} {4,[S,D,B]}
 4   R!H u0 {3,[S,D,B]} {5,[S,D,B]}
@@ -611,7 +611,7 @@ entry(
     label = "OxR6",
     group = 
 """
-1 * Os  u0 {2,S} {6,S}
+1 * O2s  u0 {2,S} {6,S}
 2   R!H u0 {1,S} {3,[S,D,B]}
 3   R!H u0 {2,[S,D,B]} {4,[S,D,B]}
 4   R!H u0 {3,[S,D,B]} {5,[S,D,B]}
@@ -631,7 +631,7 @@ entry(
     label = "OxR7",
     group = 
 """
-1 * Os  u0 {2,S} {7,S}
+1 * O2s  u0 {2,S} {7,S}
 2   R!H u0 {1,S} {3,[S,D,B]}
 3   R!H u0 {2,[S,D,B]} {4,[S,D,B]}
 4   R!H u0 {3,[S,D,B]} {5,[S,D,B]}
@@ -653,8 +653,8 @@ entry(
     group = 
 """
 1 * S6dd u0 {2,D} {3,D} {4,S}
-2   Od   u0 {1,D}
-3   Od   u0 {1,D}
+2   O2d   u0 {1,D}
+3   O2d   u0 {1,D}
 4   N    u0 {1,S}
 """,
     solute = SoluteData(
@@ -702,14 +702,14 @@ u"""
 
 entry(
     index = 31,
-    label = "Cd(Od)NH2",
+    label = "Cd(O2d)NH2",
     group = 
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   H   u0 {1,S}
 3   H   u0 {1,S}
 4   CO  u0 {1,S} {5,D}
-5   Od  u0 {4,D}
+5   O2d  u0 {4,D}
 """,
     solute = SoluteData(
         S = 0.0,
@@ -727,14 +727,14 @@ u"""
 
 entry(
     index = 32,
-    label = "Cd(Od)NHR",
+    label = "Cd(O2d)NHR",
     group = 
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   H   u0 {1,S}
 3   R!H u0 {1,S}
 4   CO  u0 {1,S} {5,D}
-5   Od  u0 {4,D}
+5   O2d  u0 {4,D}
 """,
     solute = SoluteData(
         S = 0.0,
@@ -752,14 +752,14 @@ u"""
 
 entry(
     index = 33,
-    label = "Cd(Od)NH-arom",
+    label = "Cd(O2d)NH-arom",
     group = 
 """
 1 * N3s      u0 {2,S} {3,S} {4,S}
 2   H        u0 {1,S}
 3   [Cb,N3b] u0 {1,S}
 4   CO       u0 {1,S} {5,D}
-5   Od       u0 {4,D}
+5   O2d       u0 {4,D}
 """,
     solute = SoluteData(
         S = 0.0,
@@ -777,13 +777,13 @@ u"""
 
 entry(
     index = 34,
-    label = "N3sHCd(Od)N3sH",
+    label = "N3sHCd(O2d)N3sH",
     group = 
 """
 1 * N3s u0 {2,S} {3,S}
 2   H   u0 {1,S}
 3   CO  u0 {1,S} {4,D} {5,S}
-4   Od  u0 {3,D}
+4   O2d  u0 {3,D}
 5   N3s u0 {3,S} {6,S}
 6   H   u0 {5,S}
 """,
@@ -803,13 +803,13 @@ u"""
 
 entry(
     index = 35,
-    label = "N3sCd(Od)N3sH",
+    label = "N3sCd(O2d)N3sH",
     group = 
 """
 1 * N3s u0 {2,S} {3,S} {7,S}
 2   R!H u0 {1,S}
 3   CO  u0 {1,S} {4,D} {5,S}
-4   Od  u0 {3,D}
+4   O2d  u0 {3,D}
 5   N3s u0 {3,S} {6,S}
 6   H   u0 {5,S}
 7   R!H u0 {1,S}
@@ -869,16 +869,16 @@ L1: R
         L3: Oss(CdsOd)
         L3: Oss(CdsOd)Oss
         L3: OssH(CdsOd)
-        L3: Cd(Od)Cd=CdCd(Od)
+        L3: Cd(O2d)Cd=CdCd(O2d)
         L3: Lactam
             L4: Lactam4
             L4: Lactam5
             L4: Lactam6
             L4: Lactam7        
-        L3: Cd(Od)N
-            L4: NCd(Od)N
-            L4: OsCd(Od)N
-            L4: Cd(Od)NCd(Od)
+        L3: Cd(O2d)N
+            L4: NCd(O2d)N
+            L4: OsCd(O2d)N
+            L4: Cd(O2d)NCd(O2d)
     L2: Cs(OssH)Cs(OssH)
     L2: CbCsOssH
     L2: OssH
@@ -890,11 +890,11 @@ L1: R
         L3: OxR6
         L3: OxR7
     L2: N3sH2-benz
-    L2: N3sHCd(Od)N3sH
-    L2: Cd(Od)NH2
-    L2: Cd(Od)NHR
-        L3: Cd(Od)NH-arom
-    L2: N3sCd(Od)N3sH
+    L2: N3sHCd(O2d)N3sH
+    L2: Cd(O2d)NH2
+    L2: Cd(O2d)NHR
+        L3: Cd(O2d)NH-arom
+    L2: N3sCd(O2d)N3sH
     L2: CdsNdNsNs
     L2: SdOdOdN
 """
