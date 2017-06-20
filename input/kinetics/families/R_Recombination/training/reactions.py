@@ -569,3 +569,41 @@ entry(
     longDesc = u"""tail-to-tail recombination""",
 )
 
+
+
+entry(
+    index = 31,
+    label = "C3H3 + H <=> C3H4",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.144e+14, 'cm^3/(mol*s)'),
+        n = 0.102,
+        Ea = (-130.54, 'J/mol'),
+        T0 = (298, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: propargyl_H""",
+    longDesc = 
+u"""
+Taken from entry: C3H3-1 + H <=> C3H4-1
+""",
+)
+
+entry(
+    index = 32,
+    label = "C3H3-2 + H <=> C3H4-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (6.624e+13, 'cm^3/(mol*s)'),
+        n = 0.206,
+        Ea = (-724.19, 'J/mol'),
+        T0 = (298, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: propargyl_H""",
+    longDesc = 
+u"""
+Taken from entry: C3H3-2 + H <=> C3H4-2
+""",
+)
+
