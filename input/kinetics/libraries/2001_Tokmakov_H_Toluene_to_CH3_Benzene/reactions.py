@@ -12,9 +12,9 @@ Int. J. Chem. Kin., Vol. 33, Iss. 11, November 2001, Pages 633-653
 Calculated for an N2 bath gas
 """
 entry(
-    index = 1,
+    index = 0,
     label = "C6H5CH3 + H <=> ipso-(C7H9)",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Chebyshev(
         coeffs = [
             [10.3, 0.4378, -0.06555, 0.0005308],
@@ -33,9 +33,9 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "ipso-(C7H9) <=> C6H6 + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Chebyshev(
         coeffs = [
             [4.9, 0.3872, -0.05504, -0.0009308],
@@ -54,9 +54,9 @@ entry(
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "C6H5CH3 + H <=> C6H6 + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Chebyshev(
         coeffs = [
             [9.422, -0.9213, -0.08453, 0.000839],

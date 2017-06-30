@@ -20,14 +20,14 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "RJJ",
     group = 
 """
-1 *1 R!H u1 {2,[S,D]}
-2 *2 R!H u0 {1,[S,D]} {3,S}
-3 *3 R!H u0 {2,S} {4,[S,D]}
-4 *4 R!H u1 {3,[S,D]}
+1 *2 R!H u0 {2,S} {3,[S,D]}
+2 *3 R!H u0 {1,S} {4,[S,D]}
+3 *1 R!H u1 {1,[S,D]}
+4 *4 R!H u1 {2,[S,D]}
 """,
     kinetics = None,
 )
@@ -38,10 +38,9 @@ L1: RJJ
 """
 )
 
-
 forbidden(
     label = "N2O2a",
-    group =
+    group = 
 """
 multiplicity [3]
 1 *3 O u0 p2 c0 {2,S} {3,S}
@@ -50,7 +49,7 @@ multiplicity [3]
 4 *1 N u1 p1 c0 {2,D}
 """,
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 N2O2 reacts in this family to form a singlet O2 (O=O)
 See RMG-Py issue #1020
@@ -59,7 +58,7 @@ See RMG-Py issue #1020
 
 forbidden(
     label = "N2O2b",
-    group =
+    group = 
 """
 multiplicity [3]
 1 *2 O u0 p2 c0 {2,S} {3,S}
@@ -68,7 +67,7 @@ multiplicity [3]
 4 *4 N u1 p1 c0 {2,D}
 """,
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 Same as above, inverse atom labeling
 """,

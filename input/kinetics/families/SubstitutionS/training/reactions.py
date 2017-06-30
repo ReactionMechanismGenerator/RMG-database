@@ -7,3 +7,3409 @@ longDesc = u"""
 Put kinetic parameters for reactions to use as a training set for fitting
 group additivity values in this file.
 """
+entry(
+    index = 0,
+    label = "H + CH4S <=> H2S + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (4.04e+08, 'cm^3/(mol*s)'),
+        n = 1.49,
+        alpha = 0,
+        E0 = (3.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(HHH);HJ
+""",
+)
+
+entry(
+    index = 1,
+    label = "H + C2H6S <=> H2S + C2H5",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (3.06e+07, 'cm^3/(mol*s)'),
+        n = 2.13,
+        alpha = 0,
+        E0 = (3.69, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 2,
+    shortDesc = u"""CAC CBS-QB3 1dhr""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CsHH);HJ
+""",
+)
+
+entry(
+    index = 2,
+    label = "H + C3H8S <=> H2S + C3H7",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (2.84e+08, 'cm^3/(mol*s)'),
+        n = 1.59,
+        alpha = 0,
+        E0 = (3.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CsCsH);HJ
+""",
+)
+
+entry(
+    index = 3,
+    label = "H + C4H10S <=> H2S + C4H9",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (2.79e+08, 'cm^3/(mol*s)'),
+        n = 1.63,
+        alpha = 0,
+        E0 = (2.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CsCsCs);HJ
+""",
+)
+
+entry(
+    index = 4,
+    label = "H + C2H4S <=> H2S + C2H3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (2.9e+08, 'cm^3/(mol*s)'),
+        n = 1.54,
+        alpha = 0,
+        E0 = (4.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCds(H);HJ
+""",
+)
+
+entry(
+    index = 5,
+    label = "H + C3H6S <=> H2S + C3H5",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1.19e+06, 'cm^3/(mol*s)'),
+        n = 2.44,
+        alpha = 0,
+        E0 = (4.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCds(Cs);HJ
+""",
+)
+
+entry(
+    index = 6,
+    label = "H + C3H6S-2 <=> H2S + C3H5-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1.42e+08, 'cm^3/(mol*s)'),
+        n = 1.66,
+        alpha = 0,
+        E0 = (2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CdHH);HJ
+""",
+)
+
+entry(
+    index = 7,
+    label = "H + C4H8S <=> H2S + C4H7",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (2.93e+08, 'cm^3/(mol*s)'),
+        n = 1.57,
+        alpha = 0,
+        E0 = (2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CdCsH);HJ
+""",
+)
+
+entry(
+    index = 8,
+    label = "H + C5H10S <=> H2S + C5H9",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (6.66e+08, 'cm^3/(mol*s)'),
+        n = 1.56,
+        alpha = 0,
+        E0 = (1.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CdCsCs);HJ
+""",
+)
+
+entry(
+    index = 9,
+    label = "H + C3H4S <=> H2S + C3H3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (2.81e+08, 'cm^3/(mol*s)'),
+        n = 1.57,
+        alpha = 0,
+        E0 = (2.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CtHH);HJ
+""",
+)
+
+entry(
+    index = 10,
+    label = "H + C4H6S <=> H2S + C4H5",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (7.79e+08, 'cm^3/(mol*s)'),
+        n = 1.49,
+        alpha = 0,
+        E0 = (2.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CtCsH);HJ
+""",
+)
+
+entry(
+    index = 11,
+    label = "H + C5H8S <=> H2S + C5H7",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (4.76e+08, 'cm^3/(mol*s)'),
+        n = 1.51,
+        alpha = 0,
+        E0 = (2.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CtCsCs);HJ
+""",
+)
+
+entry(
+    index = 12,
+    label = "H + C2H6S-2 <=> CH4S-2 + CH3",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (3.28e+08, 'cm^3/(mol*s)'),
+        n = 1.52,
+        alpha = 0,
+        E0 = (3.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Cs(HHH);HJ
+""",
+)
+
+entry(
+    index = 13,
+    label = "H + C3H8S-2 <=> CH4S-2 + C2H5",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1.98e+08, 'cm^3/(mol*s)'),
+        n = 1.51,
+        alpha = 0,
+        E0 = (3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Cs(CsHH);HJ
+""",
+)
+
+entry(
+    index = 14,
+    label = "H + C4H10S-2 <=> CH4S-2 + C3H7",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (3.68e+08, 'cm^3/(mol*s)'),
+        n = 1.48,
+        alpha = 0,
+        E0 = (3.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Cs(CsCsH);HJ
+""",
+)
+
+entry(
+    index = 15,
+    label = "H + C5H12S <=> CH4S-2 + C4H9",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (3.14e+08, 'cm^3/(mol*s)'),
+        n = 1.5,
+        alpha = 0,
+        E0 = (2.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Cs(CsCsCs);HJ
+""",
+)
+
+entry(
+    index = 16,
+    label = "H + C3H6S-3 <=> CH4S-2 + C2H3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (2.38e+10, 'cm^3/(mol*s)'),
+        n = 0.79,
+        alpha = 0,
+        E0 = (8.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Cds(H);HJ
+""",
+)
+
+entry(
+    index = 17,
+    label = "H + C4H8S-2 <=> CH4S-2 + C3H5",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (2.81e+09, 'cm^3/(mol*s)'),
+        n = 1.15,
+        alpha = 0,
+        E0 = (5.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Cds(Cs);HJ
+""",
+)
+
+entry(
+    index = 18,
+    label = "H + C4H8S-3 <=> CH4S-2 + C3H5-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (2.53e+08, 'cm^3/(mol*s)'),
+        n = 1.54,
+        alpha = 0,
+        E0 = (2.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Cs(CdHH);HJ
+""",
+)
+
+entry(
+    index = 19,
+    label = "H + C5H10S-2 <=> CH4S-2 + C4H7",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (4.05e+08, 'cm^3/(mol*s)'),
+        n = 1.49,
+        alpha = 0,
+        E0 = (2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Cs(CdCsH);HJ
+""",
+)
+
+entry(
+    index = 20,
+    label = "H + C6H12S <=> CH4S-2 + C5H9",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1.92e+08, 'cm^3/(mol*s)'),
+        n = 1.57,
+        alpha = 0,
+        E0 = (1.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Cs(CdCsCs);HJ
+""",
+)
+
+entry(
+    index = 21,
+    label = "H + C4H6S-2 <=> CH4S-2 + C3H3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1.33e+08, 'cm^3/(mol*s)'),
+        n = 1.62,
+        alpha = 0,
+        E0 = (2.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Cs(CtHH);HJ
+""",
+)
+
+entry(
+    index = 22,
+    label = "H + C5H8S-2 <=> CH4S-2 + C4H5",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1.87e+08, 'cm^3/(mol*s)'),
+        n = 1.62,
+        alpha = 0,
+        E0 = (2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Cs(CtCsH);HJ
+""",
+)
+
+entry(
+    index = 23,
+    label = "H + C6H10S <=> CH4S-2 + C5H7",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1.36e+08, 'cm^3/(mol*s)'),
+        n = 1.63,
+        alpha = 0,
+        E0 = (1.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Cs(CtCsCs);HJ
+""",
+)
+
+entry(
+    index = 24,
+    label = "H + C3H8S-3 <=> C2H6S-3 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (6.81e+07, 'cm^3/(mol*s)'),
+        n = 1.48,
+        alpha = 0,
+        E0 = (2.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(CsHH)Cs(HHH);HJ
+""",
+)
+
+entry(
+    index = 25,
+    label = "H + C4H10S-3 <=> C3H8S-4 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (6.57e+07, 'cm^3/(mol*s)'),
+        n = 1.45,
+        alpha = 0,
+        E0 = (3.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(CsCsH)Cs(HHH);HJ
+""",
+)
+
+entry(
+    index = 26,
+    label = "H + C5H12S-2 <=> C4H10S-4 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (8.66e+07, 'cm^3/(mol*s)'),
+        n = 1.54,
+        alpha = 0,
+        E0 = (4.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(CsCsCs)Cs(HHH);HJ
+""",
+)
+
+entry(
+    index = 27,
+    label = "H + C3H6S-4 <=> C2H4S-2 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (8.62e+07, 'cm^3/(mol*s)'),
+        n = 1.53,
+        alpha = 0,
+        E0 = (4.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cds(H)Cs(HHH);HJ
+""",
+)
+
+entry(
+    index = 28,
+    label = "H + C4H8S-4 <=> C3H6S-5 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (7.81e+07, 'cm^3/(mol*s)'),
+        n = 1.6,
+        alpha = 0,
+        E0 = (5.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cds(Cs)Cs(HHH);HJ
+""",
+)
+
+entry(
+    index = 29,
+    label = "H + C4H8S-5 <=> C3H6S-6 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1.61e+08, 'cm^3/(mol*s)'),
+        n = 1.54,
+        alpha = 0,
+        E0 = (3.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(CdHH)Cs(HHH);HJ
+""",
+)
+
+entry(
+    index = 30,
+    label = "H + C5H10S-3 <=> C4H8S-6 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1.34e+08, 'cm^3/(mol*s)'),
+        n = 1.43,
+        alpha = 0,
+        E0 = (4.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(CdCsH)Cs(HHH);HJ
+""",
+)
+
+entry(
+    index = 31,
+    label = "H + C6H12S-2 <=> C5H10S-4 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1.31e+08, 'cm^3/(mol*s)'),
+        n = 1.52,
+        alpha = 0,
+        E0 = (5.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(CdCsCs)Cs(HHH);HJ
+""",
+)
+
+entry(
+    index = 32,
+    label = "H + C4H6S-3 <=> C3H4S-2 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1.21e+08, 'cm^3/(mol*s)'),
+        n = 1.54,
+        alpha = 0,
+        E0 = (3.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(CtHH)Cs(HHH);HJ
+""",
+)
+
+entry(
+    index = 33,
+    label = "H + C5H8S-3 <=> C4H6S-4 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1.42e+08, 'cm^3/(mol*s)'),
+        n = 1.47,
+        alpha = 0,
+        E0 = (3.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(CtCsH)Cs(HHH);HJ
+""",
+)
+
+entry(
+    index = 34,
+    label = "H + C6H10S-2 <=> C5H8S-4 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (7.68e+07, 'cm^3/(mol*s)'),
+        n = 1.59,
+        alpha = 0,
+        E0 = (4.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(CtCsCs)Cs(HHH);HJ
+""",
+)
+
+entry(
+    index = 35,
+    label = "CH4S + CH3-2 <=> CH4S-3 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (5130, 'cm^3/(mol*s)'),
+        n = 2.54,
+        alpha = 0,
+        E0 = (13.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: S-HCs(HHH);CsJ-HHH
+""",
+)
+
+entry(
+    index = 36,
+    label = "C2H6S + CH3-2 <=> CH4S-3 + C2H5",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (9810, 'cm^3/(mol*s)'),
+        n = 2.55,
+        alpha = 0,
+        E0 = (11.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CsHH);CsJ-HHH
+""",
+)
+
+entry(
+    index = 37,
+    label = "C3H8S + CH3-2 <=> CH4S-3 + C3H7",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (5340, 'cm^3/(mol*s)'),
+        n = 2.54,
+        alpha = 0,
+        E0 = (10.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CsCsH);CsJ-HHH
+""",
+)
+
+entry(
+    index = 38,
+    label = "C4H10S + CH3-2 <=> CH4S-3 + C4H9",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1.38e+06, 'cm^3/(mol*s)'),
+        n = 1.59,
+        alpha = 0,
+        E0 = (9.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CsCsCs);CsJ-HHH
+""",
+)
+
+entry(
+    index = 39,
+    label = "C2H4S + CH3-2 <=> CH4S-3 + C2H3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (43200, 'cm^3/(mol*s)'),
+        n = 2.43,
+        alpha = 0,
+        E0 = (16.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCds(H);CsJ-HHH
+""",
+)
+
+entry(
+    index = 40,
+    label = "C3H6S + CH3-2 <=> CH4S-3 + C3H5",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (96.1, 'cm^3/(mol*s)'),
+        n = 3.24,
+        alpha = 0,
+        E0 = (14.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCds(Cs);CsJ-HHH
+""",
+)
+
+entry(
+    index = 41,
+    label = "C3H6S-2 + CH3-2 <=> CH4S-3 + C3H5-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (2720, 'cm^3/(mol*s)'),
+        n = 2.64,
+        alpha = 0,
+        E0 = (8.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CdHH);CsJ-HHH
+""",
+)
+
+entry(
+    index = 42,
+    label = "C4H8S + CH3-2 <=> CH4S-3 + C4H7",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (3420, 'cm^3/(mol*s)'),
+        n = 2.69,
+        alpha = 0,
+        E0 = (7.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CdCsH);CsJ-HHH
+""",
+)
+
+entry(
+    index = 43,
+    label = "C5H10S + CH3-2 <=> CH4S-3 + C5H9",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (9750, 'cm^3/(mol*s)'),
+        n = 2.63,
+        alpha = 0,
+        E0 = (6.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CdCsCs);CsJ-HHH
+""",
+)
+
+entry(
+    index = 44,
+    label = "C3H4S + CH3-2 <=> CH4S-3 + C3H3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (3470, 'cm^3/(mol*s)'),
+        n = 2.64,
+        alpha = 0,
+        E0 = (8.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CtHH);CsJ-HHH
+""",
+)
+
+entry(
+    index = 45,
+    label = "C4H6S + CH3-2 <=> CH4S-3 + C4H5",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (7000, 'cm^3/(mol*s)'),
+        n = 2.65,
+        alpha = 0,
+        E0 = (7.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CtCsH);CsJ-HHH
+""",
+)
+
+entry(
+    index = 46,
+    label = "C5H8S + CH3-2 <=> CH4S-3 + C5H7",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (2910, 'cm^3/(mol*s)'),
+        n = 2.6,
+        alpha = 0,
+        E0 = (6.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CtCsCs);CsJ-HHH
+""",
+)
+
+entry(
+    index = 47,
+    label = "H + CH4S2 <=> H2S2 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (9.44e+07, 'cm^3/(mol*s)'),
+        n = 1.64,
+        alpha = 0,
+        E0 = (5.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(H)Cs(HHH);HJ
+""",
+)
+
+entry(
+    index = 48,
+    label = "H + C2H6S2 <=> CH4S2-2 + CH3",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (1.494e+08, 'cm^3/(mol*s)'),
+        n = 1.66,
+        alpha = 0,
+        E0 = (5.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(Cs)Cs(HHH);HJ
+""",
+)
+
+entry(
+    index = 49,
+    label = "H + H2S2-2 <=> H2S + HS",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (1.086e+09, 'cm^3/(mol*s)'),
+        n = 1.56,
+        alpha = 0,
+        E0 = (0.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HSs(H);HJ
+""",
+)
+
+entry(
+    index = 50,
+    label = "H + CH4S2-3 <=> CH4S-2 + HS",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (4.07e+08, 'cm^3/(mol*s)'),
+        n = 1.6,
+        alpha = 0,
+        E0 = (0.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Ss(H);HJ
+""",
+)
+
+entry(
+    index = 51,
+    label = "H + CH4S2-4 <=> H2S + CH3S",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1.03e+09, 'cm^3/(mol*s)'),
+        n = 1.54,
+        alpha = 0,
+        E0 = (0.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HSs(Cs);HJ
+""",
+)
+
+entry(
+    index = 52,
+    label = "H + C2H6S2-2 <=> CH4S-2 + CH3S",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (1.062e+09, 'cm^3/(mol*s)'),
+        n = 1.6,
+        alpha = 0,
+        E0 = (0.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Ss(Cs);HJ
+""",
+)
+
+entry(
+    index = 53,
+    label = "H2S2-2 + CH3-2 <=> CH4S-3 + HS",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (586000, 'cm^3/(mol*s)'),
+        n = 1.72,
+        alpha = 0,
+        E0 = (2.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HSs(H);CsJ-HHH
+""",
+)
+
+entry(
+    index = 54,
+    label = "CH4S2-4 + CH3-2 <=> CH4S-3 + CH3S",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (3570, 'cm^3/(mol*s)'),
+        n = 2.63,
+        alpha = 0,
+        E0 = (4.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HSs(Cs);CsJ-HHH
+""",
+)
+
+entry(
+    index = 55,
+    label = "CH4S2-3 + CH3-2 <=> C2H6S-4 + HS",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (2020, 'cm^3/(mol*s)'),
+        n = 2.72,
+        alpha = 0,
+        E0 = (3.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Ss(H);CsJ-HHH
+""",
+)
+
+entry(
+    index = 56,
+    label = "CH3-2 + C2H6S2-2 <=> C2H6S-4 + CH3S",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (10260, 'cm^3/(mol*s)'),
+        n = 2.66,
+        alpha = 0,
+        E0 = (4.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Ss(Cs);CsJ-HHH
+""",
+)
+
+entry(
+    index = 57,
+    label = "H + H2S3 <=> H2S2 + HS",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (6.94e+08, 'cm^3/(mol*s)'),
+        n = 1.64,
+        alpha = 0,
+        E0 = (1.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(H)Ss(H);HJ
+""",
+)
+
+entry(
+    index = 58,
+    label = "H + H2S3-2 <=> H2S + HS2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (4.68e+09, 'cm^3/(mol*s)'),
+        n = 1.56,
+        alpha = 0,
+        E0 = (0.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HSs(Ss);HJ
+""",
+)
+
+entry(
+    index = 59,
+    label = "H + CH4S3 <=> CH4S2-2 + HS",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (6.14e+08, 'cm^3/(mol*s)'),
+        n = 1.63,
+        alpha = 0,
+        E0 = (1.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(Cs)Ss(H);HJ
+""",
+)
+
+entry(
+    index = 60,
+    label = "H + CH4S3-2 <=> CH4S-2 + HS2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (5.07e+08, 'cm^3/(mol*s)'),
+        n = 1.58,
+        alpha = 0,
+        E0 = (1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Ss(Ss);HJ
+""",
+)
+
+entry(
+    index = 61,
+    label = "H + CH4S3-3 <=> H2S3-3 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (8.23e+07, 'cm^3/(mol*s)'),
+        n = 1.64,
+        alpha = 0,
+        E0 = (5.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(Ss)Cs(HHH);HJ
+""",
+)
+
+entry(
+    index = 62,
+    label = "H + CH4S3-4 <=> H2S2 + CH3S",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1.8e+08, 'cm^3/(mol*s)'),
+        n = 1.66,
+        alpha = 0,
+        E0 = (2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(H)Ss(Cs);HJ
+""",
+)
+
+entry(
+    index = 63,
+    label = "H + C2H6S3 <=> CH4S2-2 + CH3S",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (7.92e+08, 'cm^3/(mol*s)'),
+        n = 1.66,
+        alpha = 0,
+        E0 = (1.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(Cs)Ss(Cs);HJ
+""",
+)
+
+entry(
+    index = 64,
+    label = "H2S3 + CH3-2 <=> CH4S2-5 + HS",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (4820, 'cm^3/(mol*s)'),
+        n = 2.7,
+        alpha = 0,
+        E0 = (3.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(H)Ss(H);CsJ-HHH
+""",
+)
+
+entry(
+    index = 65,
+    label = "H2S3-2 + CH3-2 <=> CH4S-3 + HS2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (21400, 'cm^3/(mol*s)'),
+        n = 2.68,
+        alpha = 0,
+        E0 = (1.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HSs(Ss);CsJ-HHH
+""",
+)
+
+entry(
+    index = 66,
+    label = "CH4S3-4 + CH3-2 <=> CH4S2-5 + CH3S",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (3560, 'cm^3/(mol*s)'),
+        n = 2.61,
+        alpha = 0,
+        E0 = (5.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(H)Ss(Cs);CsJ-HHH
+""",
+)
+
+entry(
+    index = 67,
+    label = "CH4S3-2 + CH3-2 <=> C2H6S-4 + HS2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (3850, 'cm^3/(mol*s)'),
+        n = 2.69,
+        alpha = 0,
+        E0 = (1.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Ss(Ss);CsJ-HHH
+""",
+)
+
+entry(
+    index = 68,
+    label = "CH4S3 + CH3-2 <=> C2H6S2-3 + HS",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (2490, 'cm^3/(mol*s)'),
+        n = 2.69,
+        alpha = 0,
+        E0 = (3.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(Cs)Ss(H);CsJ-HHH
+""",
+)
+
+entry(
+    index = 69,
+    label = "CH3-2 + C2H6S3 <=> C2H6S2-3 + CH3S",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (7420, 'cm^3/(mol*s)'),
+        n = 2.65,
+        alpha = 0,
+        E0 = (5.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(Cs)Ss(Cs);CsJ-HHH
+""",
+)
+
+entry(
+    index = 70,
+    label = "H2S-2 + CH3-2 <=> CH4S-3 + H-2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (2960, 'cm^3/(mol*s)'),
+        n = 2.72,
+        alpha = 0,
+        E0 = (19.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HH;CsJ-HHH
+""",
+)
+
+entry(
+    index = 71,
+    label = "H2S-2 + C2H5-2 <=> C2H6S-5 + H-2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (20.4, 'cm^3/(mol*s)'),
+        n = 2.96,
+        alpha = 0,
+        E0 = (18.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HH;CsJ-CsHH
+""",
+)
+
+entry(
+    index = 72,
+    label = "H2S-2 + C3H7-2 <=> C3H8S-5 + H-2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (0.964, 'cm^3/(mol*s)'),
+        n = 3.24,
+        alpha = 0,
+        E0 = (18.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HH;CsJ-CsCsH
+""",
+)
+
+entry(
+    index = 73,
+    label = "H2S-2 + C4H9-2 <=> C4H10S-5 + H-2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (0.1678, 'cm^3/(mol*s)'),
+        n = 3.51,
+        alpha = 0,
+        E0 = (18.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HH;CsJ-CsCsCs
+""",
+)
+
+entry(
+    index = 74,
+    label = "H2S-2 + C2H3-2 <=> C2H4S-3 + H-2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (12.86, 'cm^3/(mol*s)'),
+        n = 3.21,
+        alpha = 0,
+        E0 = (8.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HH;CdsJ-H
+""",
+)
+
+entry(
+    index = 75,
+    label = "H2S-2 + C3H5-3 <=> C3H6S-7 + H-2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (1.434, 'cm^3/(mol*s)'),
+        n = 3.37,
+        alpha = 0,
+        E0 = (9.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HH;CdsJ-Cs
+""",
+)
+
+entry(
+    index = 76,
+    label = "H2S-2 + C3H5-4 <=> C3H6S-8 + H-2",
+    degeneracy = 4.0,
+    kinetics = ArrheniusEP(
+        A = (62, 'cm^3/(mol*s)'),
+        n = 3.29,
+        alpha = 0,
+        E0 = (31.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HH;CsJ-CdHH
+""",
+)
+
+entry(
+    index = 77,
+    label = "H2S-2 + C4H7-2 <=> C4H8S-7 + H-2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (5.08, 'cm^3/(mol*s)'),
+        n = 3.35,
+        alpha = 0,
+        E0 = (32.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HH;CsJ-CdCsH
+""",
+)
+
+entry(
+    index = 78,
+    label = "H2S-2 + C5H9-2 <=> C5H10S-5 + H-2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (0.92, 'cm^3/(mol*s)'),
+        n = 3.41,
+        alpha = 0,
+        E0 = (32.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HH;CsJ-CdCsCs
+""",
+)
+
+entry(
+    index = 79,
+    label = "H2S-2 + C3H3-2 <=> C3H4S-3 + H-2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (58.6, 'cm^3/(mol*s)'),
+        n = 3.13,
+        alpha = 0,
+        E0 = (31.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HH;CsJ-CtHH
+""",
+)
+
+entry(
+    index = 80,
+    label = "H2S-2 + C4H5-2 <=> C4H6S-5 + H-2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (4.92, 'cm^3/(mol*s)'),
+        n = 3.23,
+        alpha = 0,
+        E0 = (31.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HH;CsJ-CtCsH
+""",
+)
+
+entry(
+    index = 81,
+    label = "H2S-2 + C5H7-2 <=> C5H8S-5 + H-2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (0.41, 'cm^3/(mol*s)'),
+        n = 3.46,
+        alpha = 0,
+        E0 = (31.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HH;CsJ-CtCsCs
+""",
+)
+
+entry(
+    index = 82,
+    label = "CH4S-4 + CH3-2 <=> C2H6S-4 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (41.9, 'cm^3/(mol*s)'),
+        n = 2.89,
+        alpha = 0,
+        E0 = (15.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)H;CsJ-HHH
+""",
+)
+
+entry(
+    index = 83,
+    label = "CH4S-4 + C2H5-2 <=> C3H8S-6 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (0.963, 'cm^3/(mol*s)'),
+        n = 3.09,
+        alpha = 0,
+        E0 = (15.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)H;CsJ-CsHH
+""",
+)
+
+entry(
+    index = 84,
+    label = "CH4S-4 + C3H7-2 <=> C4H10S-6 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (0.0719, 'cm^3/(mol*s)'),
+        n = 3.31,
+        alpha = 0,
+        E0 = (16, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)H;CsJ-CsCsH
+""",
+)
+
+entry(
+    index = 85,
+    label = "CH4S-4 + C4H9-2 <=> C5H12S-3 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (0.00752, 'cm^3/(mol*s)'),
+        n = 3.43,
+        alpha = 0,
+        E0 = (16.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)H;CsJ-CsCsCs
+""",
+)
+
+entry(
+    index = 86,
+    label = "C2H3-2 + CH4S-4 <=> C3H6S-9 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (34.6, 'cm^3/(mol*s)'),
+        n = 2.64,
+        alpha = 0,
+        E0 = (7.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)H;CdsJ-H
+""",
+)
+
+entry(
+    index = 87,
+    label = "CH4S-4 + C3H5-3 <=> C4H8S-8 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (0.807, 'cm^3/(mol*s)'),
+        n = 3.02,
+        alpha = 0,
+        E0 = (7.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)H;CdsJ-Cs
+""",
+)
+
+entry(
+    index = 88,
+    label = "CH4S-4 + C3H5-4 <=> C4H8S-9 + H-2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (3.56, 'cm^3/(mol*s)'),
+        n = 3.29,
+        alpha = 0,
+        E0 = (28.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)H;CsJ-CdHH
+""",
+)
+
+entry(
+    index = 89,
+    label = "CH4S-4 + C4H7-2 <=> C5H10S-6 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (0.25, 'cm^3/(mol*s)'),
+        n = 3.4,
+        alpha = 0,
+        E0 = (28.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)H;CsJ-CdCsH
+""",
+)
+
+entry(
+    index = 90,
+    label = "CH4S-4 + C5H9-2 <=> C6H12S-3 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (0.0101, 'cm^3/(mol*s)'),
+        n = 3.51,
+        alpha = 0,
+        E0 = (28.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)H;CsJ-CdCsCs
+""",
+)
+
+entry(
+    index = 91,
+    label = "C3H3-2 + CH4S-4 <=> C4H6S-6 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1.33, 'cm^3/(mol*s)'),
+        n = 3.3,
+        alpha = 0,
+        E0 = (27, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)H;CsJ-CtHH
+""",
+)
+
+entry(
+    index = 92,
+    label = "C4H5-2 + CH4S-4 <=> C5H8S-6 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (0.0674, 'cm^3/(mol*s)'),
+        n = 3.5,
+        alpha = 0,
+        E0 = (26.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)H;CsJ-CtCsH
+""",
+)
+
+entry(
+    index = 93,
+    label = "C5H7-2 + CH4S-4 <=> C6H10S-3 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (0.00339, 'cm^3/(mol*s)'),
+        n = 3.67,
+        alpha = 0,
+        E0 = (27.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)H;CsJ-CtCsCs
+""",
+)
+
+entry(
+    index = 94,
+    label = "C2H6S-6 + CH3-2 <=> C3H8S-7 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (48.5, 'cm^3/(mol*s)'),
+        n = 2.83,
+        alpha = 0,
+        E0 = (15.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(CsHH)H;CsJ-HHH
+""",
+)
+
+entry(
+    index = 95,
+    label = "C3H8S-8 + CH3-2 <=> C4H10S-7 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (26.7, 'cm^3/(mol*s)'),
+        n = 2.86,
+        alpha = 0,
+        E0 = (16.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(CsCsH)H;CsJ-HHH
+""",
+)
+
+entry(
+    index = 96,
+    label = "C4H10S-8 + CH3-2 <=> C5H12S-4 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (25.1, 'cm^3/(mol*s)'),
+        n = 2.82,
+        alpha = 0,
+        E0 = (17.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(CsCsCs)H;CsJ-HHH
+""",
+)
+
+entry(
+    index = 97,
+    label = "C2H4S-4 + CH3-2 <=> C3H6S-10 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (21.6, 'cm^3/(mol*s)'),
+        n = 2.93,
+        alpha = 0,
+        E0 = (15.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cds(H)H;CsJ-HHH
+""",
+)
+
+entry(
+    index = 98,
+    label = "C3H6S-11 + CH3-2 <=> C4H8S-10 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (17, 'cm^3/(mol*s)'),
+        n = 2.82,
+        alpha = 0,
+        E0 = (17, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cds(Cs)H;CsJ-HHH
+""",
+)
+
+entry(
+    index = 99,
+    label = "C3H6S-12 + CH3-2 <=> C4H8S-11 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (38.7, 'cm^3/(mol*s)'),
+        n = 2.87,
+        alpha = 0,
+        E0 = (15.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(CdHH)H;CsJ-HHH
+""",
+)
+
+entry(
+    index = 100,
+    label = "C4H8S-12 + CH3-2 <=> C5H10S-7 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (35, 'cm^3/(mol*s)'),
+        n = 2.79,
+        alpha = 0,
+        E0 = (16, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(CdCsH)H;CsJ-HHH
+""",
+)
+
+entry(
+    index = 101,
+    label = "C5H10S-8 + CH3-2 <=> C6H12S-4 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (37, 'cm^3/(mol*s)'),
+        n = 2.83,
+        alpha = 0,
+        E0 = (17, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(CdCsCs)H;CsJ-HHH
+""",
+)
+
+entry(
+    index = 102,
+    label = "C3H4S-4 + CH3-2 <=> C4H6S-7 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (45, 'cm^3/(mol*s)'),
+        n = 2.88,
+        alpha = 0,
+        E0 = (15.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(CtHH)H;CsJ-HHH
+""",
+)
+
+entry(
+    index = 103,
+    label = "C4H6S-8 + CH3-2 <=> C5H8S-7 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (60.8, 'cm^3/(mol*s)'),
+        n = 2.83,
+        alpha = 0,
+        E0 = (15.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(CtCsH)H;CsJ-HHH
+""",
+)
+
+entry(
+    index = 104,
+    label = "C5H8S-8 + CH3-2 <=> C6H10S-4 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (16.6, 'cm^3/(mol*s)'),
+        n = 2.91,
+        alpha = 0,
+        E0 = (16.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(CtCsCs)H;CsJ-HHH
+""",
+)
+
+entry(
+    index = 105,
+    label = "CH4S + C2H5-2 <=> C2H6S-5 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (73.3, 'cm^3/(mol*s)'),
+        n = 2.76,
+        alpha = 0,
+        E0 = (11.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(HHH);CsJ-CsHH
+""",
+)
+
+entry(
+    index = 106,
+    label = "CH4S + C3H7-2 <=> C3H8S-5 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (2.62, 'cm^3/(mol*s)'),
+        n = 2.96,
+        alpha = 0,
+        E0 = (10.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(HHH);CsJ-CsCsH
+""",
+)
+
+entry(
+    index = 107,
+    label = "CH4S + C4H9-2 <=> C4H10S-5 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (39.6, 'cm^3/(mol*s)'),
+        n = 2.74,
+        alpha = 0,
+        E0 = (9.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(HHH);CsJ-CsCsCs
+""",
+)
+
+entry(
+    index = 108,
+    label = "C2H3-2 + CH4S <=> C2H4S-3 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (245, 'cm^3/(mol*s)'),
+        n = 2.88,
+        alpha = 0,
+        E0 = (5.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(HHH);CdsJ-H
+""",
+)
+
+entry(
+    index = 109,
+    label = "CH4S + C3H5-3 <=> C3H6S-7 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (13.4, 'cm^3/(mol*s)'),
+        n = 2.97,
+        alpha = 0,
+        E0 = (4.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(HHH);CdsJ-Cs
+""",
+)
+
+entry(
+    index = 110,
+    label = "CH4S + C3H5-4 <=> C3H6S-8 + CH3",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (169.2, 'cm^3/(mol*s)'),
+        n = 3.04,
+        alpha = 0,
+        E0 = (22.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(HHH);CsJ-CdHH
+""",
+)
+
+entry(
+    index = 111,
+    label = "CH4S + C4H7-2 <=> C4H8S-7 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (8.56, 'cm^3/(mol*s)'),
+        n = 3.23,
+        alpha = 0,
+        E0 = (21.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(HHH);CsJ-CdCsH
+""",
+)
+
+entry(
+    index = 112,
+    label = "CH4S + C5H9-2 <=> C5H10S-5 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1.93, 'cm^3/(mol*s)'),
+        n = 3.25,
+        alpha = 0,
+        E0 = (22, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(HHH);CsJ-CdCsCs
+""",
+)
+
+entry(
+    index = 113,
+    label = "C3H3-2 + CH4S <=> C3H4S-3 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (103, 'cm^3/(mol*s)'),
+        n = 2.96,
+        alpha = 0,
+        E0 = (21.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(HHH);CsJ-CtHH
+""",
+)
+
+entry(
+    index = 114,
+    label = "C4H5-2 + CH4S <=> C4H6S-5 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (6.33, 'cm^3/(mol*s)'),
+        n = 3.16,
+        alpha = 0,
+        E0 = (20.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(HHH);CsJ-CtCsH
+""",
+)
+
+entry(
+    index = 115,
+    label = "C5H7-2 + CH4S <=> C5H8S-5 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (0.36, 'cm^3/(mol*s)'),
+        n = 3.32,
+        alpha = 0,
+        E0 = (20.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(HHH);CsJ-CtCsCs
+""",
+)
+
+entry(
+    index = 116,
+    label = "H2S2-3 + CH3-2 <=> CH4S2-5 + H-2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (88.8, 'cm^3/(mol*s)'),
+        n = 3.04,
+        alpha = 0,
+        E0 = (16.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(H)H;CsJ-HHH
+""",
+)
+
+entry(
+    index = 117,
+    label = "CH4S2-6 + CH3-2 <=> C2H6S2-3 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (11.3, 'cm^3/(mol*s)'),
+        n = 3.03,
+        alpha = 0,
+        E0 = (16, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(Cs)H;CsJ-HHH
+""",
+)
+
+entry(
+    index = 118,
+    label = "HS-2 + H2S-2 <=> H2S2-4 + H-2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (1608, 'cm^3/(mol*s)'),
+        n = 3.08,
+        alpha = 0,
+        E0 = (26.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HH;SsJ-H
+""",
+)
+
+entry(
+    index = 119,
+    label = "HS-2 + CH4S-4 <=> CH4S2-7 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (75.2, 'cm^3/(mol*s)'),
+        n = 3.3,
+        alpha = 0,
+        E0 = (22.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)H;SsJ-H
+""",
+)
+
+entry(
+    index = 120,
+    label = "H2S-2 + CH3S-2 <=> CH4S2-8 + H-2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (2.5, 'cm^3/(mol*s)'),
+        n = 4.01,
+        alpha = 0,
+        E0 = (24.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HH;SsJ-Cs
+""",
+)
+
+entry(
+    index = 121,
+    label = "CH4S-4 + CH3S-2 <=> C2H6S2-4 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (0.0263, 'cm^3/(mol*s)'),
+        n = 4.22,
+        alpha = 0,
+        E0 = (20.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)H;SsJ-Cs
+""",
+)
+
+entry(
+    index = 122,
+    label = "HS-2 + CH4S <=> H2S2-4 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (999, 'cm^3/(mol*s)'),
+        n = 3.08,
+        alpha = 0,
+        E0 = (13.09, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 2,
+    shortDesc = u"""CAC calc CBS-QB3 1dhr""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(HHH);SsJ-H
+""",
+)
+
+entry(
+    index = 123,
+    label = "CH4S + CH3S-2 <=> CH4S2-8 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1.28, 'cm^3/(mol*s)'),
+        n = 3.85,
+        alpha = 0,
+        E0 = (12.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(HHH);SsJ-Cs
+""",
+)
+
+entry(
+    index = 124,
+    label = "HS-2 + C2H6S-2 <=> CH4S2-7 + CH3",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (3540, 'cm^3/(mol*s)'),
+        n = 3.03,
+        alpha = 0,
+        E0 = (12.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Cs(HHH);SsJ-H
+""",
+)
+
+entry(
+    index = 125,
+    label = "CH3S-2 + C2H6S-2 <=> C2H6S2-4 + CH3",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (2.34, 'cm^3/(mol*s)'),
+        n = 3.89,
+        alpha = 0,
+        E0 = (12, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Cs(HHH);SsJ-Cs
+""",
+)
+
+entry(
+    index = 126,
+    label = "HS-2 + H2S2-3 <=> H2S3-4 + H-2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (53.4, 'cm^3/(mol*s)'),
+        n = 3.36,
+        alpha = 0,
+        E0 = (21.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(H)H;SsJ-H
+""",
+)
+
+entry(
+    index = 127,
+    label = "HS2-2 + H2S-2 <=> H2S3-5 + H-2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (1.718, 'cm^3/(mol*s)'),
+        n = 3.89,
+        alpha = 0,
+        E0 = (37.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HH;SsJ-Ss
+""",
+)
+
+entry(
+    index = 128,
+    label = "HS-2 + CH4S2-6 <=> CH4S3-5 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (83.6, 'cm^3/(mol*s)'),
+        n = 3.33,
+        alpha = 0,
+        E0 = (20.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(Cs)H;SsJ-H
+""",
+)
+
+entry(
+    index = 129,
+    label = "HS2-2 + CH4S-4 <=> CH4S3-6 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (0.0413, 'cm^3/(mol*s)'),
+        n = 4.06,
+        alpha = 0,
+        E0 = (32.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)H;SsJ-Ss
+""",
+)
+
+entry(
+    index = 130,
+    label = "H2S3-6 + CH3-2 <=> CH4S3-7 + H-2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (137, 'cm^3/(mol*s)'),
+        n = 3.02,
+        alpha = 0,
+        E0 = (15, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(Ss)H;CsJ-HHH
+""",
+)
+
+entry(
+    index = 131,
+    label = "H2S2-3 + CH3S-2 <=> CH4S3-8 + H-2",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (0.0404, 'cm^3/(mol*s)'),
+        n = 4.3,
+        alpha = 0,
+        E0 = (19, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(H)H;SsJ-Cs
+""",
+)
+
+entry(
+    index = 132,
+    label = "CH4S2-6 + CH3S-2 <=> C2H6S3-2 + H-2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (0.0168, 'cm^3/(mol*s)'),
+        n = 4.25,
+        alpha = 0,
+        E0 = (17.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(Cs)H;SsJ-Cs
+""",
+)
+
+entry(
+    index = 133,
+    label = "HS-2 + CH4S2 <=> H2S3-4 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (467, 'cm^3/(mol*s)'),
+        n = 3,
+        alpha = 0,
+        E0 = (12.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(H)Cs(HHH);SsJ-H
+""",
+)
+
+entry(
+    index = 134,
+    label = "HS2-2 + CH4S <=> H2S3-5 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1.08, 'cm^3/(mol*s)'),
+        n = 3.79,
+        alpha = 0,
+        E0 = (23.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(HHH);SsJ-Ss
+""",
+)
+
+entry(
+    index = 135,
+    label = "CH4S2 + CH3S-2 <=> CH4S3-8 + CH3",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (0.923, 'cm^3/(mol*s)'),
+        n = 3.83,
+        alpha = 0,
+        E0 = (11.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(H)Cs(HHH);SsJ-Cs
+""",
+)
+
+entry(
+    index = 136,
+    label = "HS2-2 + C2H6S-2 <=> CH4S3-6 + CH3",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (1.214, 'cm^3/(mol*s)'),
+        n = 3.8,
+        alpha = 0,
+        E0 = (25.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(HHH)Cs(HHH);SsJ-Ss
+""",
+)
+
+entry(
+    index = 137,
+    label = "HS-2 + C2H6S2 <=> CH4S3-5 + CH3",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (4740, 'cm^3/(mol*s)'),
+        n = 3,
+        alpha = 0,
+        E0 = (11.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(Cs)Cs(HHH);SsJ-H
+""",
+)
+
+entry(
+    index = 138,
+    label = "CH3S-2 + C2H6S2 <=> C2H6S3-2 + CH3",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (2.14, 'cm^3/(mol*s)'),
+        n = 3.86,
+        alpha = 0,
+        E0 = (10.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Ss(Cs)Cs(HHH);SsJ-Cs
+""",
+)
+
+entry(
+    index = 139,
+    label = "H + C4H10S-9 <=> C2H6S-3 + C2H5",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (2.54e+07, 'cm^3/(mol*s)'),
+        n = 2.26,
+        alpha = 0,
+        E0 = (3.83, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 2,
+    shortDesc = u"""CAC CBS-QB3 1dhr""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-Cs(CsHH)Cs(CsHH);HJ
+""",
+)
+
+entry(
+    index = 140,
+    label = "H + CH2OS <=> H2S + CHO",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1.26e+09, 'cm^3/(mol*s)'),
+        n = 1.46,
+        alpha = 0,
+        E0 = (3.14, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""CAC CBS-QB3 1dhr""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCO;HJ
+""",
+)
+
+entry(
+    index = 141,
+    label = "CH2OS + CH3-2 <=> CH4S-3 + CHO",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (3.88e+06, 'cm^3/(mol*s)'),
+        n = 1.4,
+        alpha = 0,
+        E0 = (10.56, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""CAC CBS-QB3 1dhr""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCO;CsJ-HHH
+""",
+)
+
+entry(
+    index = 142,
+    label = "H + C2H6OS <=> H2S + C2H5O",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (3.91e+09, 'cm^3/(mol*s)'),
+        n = 1.32,
+        alpha = 0,
+        E0 = (3.05, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""CAC CBS-QB3 1dhr""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CsOsH);HJ
+""",
+)
+
+entry(
+    index = 143,
+    label = "C2H6OS + CH3-2 <=> CH4S-3 + C2H5O",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (0.00296, 'cm^3/(mol*s)'),
+        n = 5.57,
+        alpha = 0,
+        E0 = (8.47, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""CAC CBS-QB3 1dhr""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CsOsH);CsJ-HHH
+""",
+)
+
+entry(
+    index = 144,
+    label = "C2H6OS + CH3-2 <=> CH4S-3 + C2H5O",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (0.00296, 'cm^3/(mol*s)'),
+        n = 5.57,
+        alpha = 0,
+        E0 = (8.47, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 4,
+    shortDesc = u"""based on 157""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CsOsH);CJ
+""",
+)
+
+entry(
+    index = 145,
+    label = "HS-2 + C2H6OS <=> H2S2-4 + C2H5O",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (1180, 'cm^3/(mol*s)'),
+        n = 3,
+        alpha = 0,
+        E0 = (13.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 4,
+    shortDesc = u"""based on CAC's 131 calc""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CsOsH);SsJ-H
+""",
+)
+
+entry(
+    index = 146,
+    label = "H2S2-2 + C3H5-4 <=> C3H6S-8 + HS",
+    degeneracy = 4.0,
+    kinetics = ArrheniusEP(
+        A = (3720, 'cm^3/(mol*s)'),
+        n = 2.61,
+        alpha = 0,
+        E0 = (10.07, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 4,
+    shortDesc = u"""CAC CBS-QB3, HO approx""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HSs(H);CsJ-CdHH
+""",
+)
+
+entry(
+    index = 147,
+    label = "C2H6S + CH3S-2 <=> CH4S2-8 + C2H5",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (72.5, 'cm^3/(mol*s)'),
+        n = 3.21,
+        alpha = 0,
+        E0 = (11.45, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 3,
+    shortDesc = u"""CAC CBS-QB3 1dhr""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: S-HCs(CsHH);SsJ-Cs
+""",
+)
+

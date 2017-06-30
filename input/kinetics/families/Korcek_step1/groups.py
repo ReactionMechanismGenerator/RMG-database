@@ -19,22 +19,22 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "RCH(OOH)CH2C(O)R'",
     group = 
 """
-1     C u0 {2,S} {4,S} {7,S} {9,S}
-2     C u0 {1,S} {3,S} {11,S} {12,S}
-3  *4 C u0 {2,S} {6,D} {8,S}
-4     O u0 {1,S} {5,S}
-5  *1 O u0 {4,S} {10,S}
-6  *3 O u0 {3,D}
-7     R u0 {1,S}
-8     R u0 {3,S}
-9     H u0 {1,S}
-10 *2 H u0 {5,S}
-11    H u0 {2,S}
-12    H u0 {2,S}
+1     C u0 {2,S} {3,S} {6,S} {7,S}
+2     C u0 {1,S} {4,S} {8,S} {9,S}
+3  *4 C u0 {1,S} {10,D} {11,S}
+4     O u0 {2,S} {5,S}
+5  *1 O u0 {4,S} {12,S}
+6     H u0 {1,S}
+7     H u0 {1,S}
+8     R u0 {2,S}
+9     H u0 {2,S}
+10 *3 O u0 {3,D}
+11    R u0 {3,S}
+12 *2 H u0 {5,S}
 """,
     kinetics = None,
 )

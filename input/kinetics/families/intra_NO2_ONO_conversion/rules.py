@@ -16,7 +16,14 @@ entry(
         E0 = (67, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
+        comment = '\n\nDegeneracy not recalculated\n\nConverted to training reaction from rate rule: RNO2',
     ),
     rank = 0,
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: RNO2
+""",
 )
 

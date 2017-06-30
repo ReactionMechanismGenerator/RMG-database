@@ -19,14 +19,14 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "RNO2",
     group = 
 """
-1 *1 R   u0 {2,S}
-2 *2 N5d u0 {1,S} {3,S} {4,D}
-3 *3 Os  u0 {2,S}
-4    Od  u0 {2,D}
+1 *2 N5d u0 {2,S} {3,S} {4,D}
+2 *1 R   u0 {1,S}
+3 *3 Os  u0 {1,S}
+4    Od  u0 {1,D}
 """,
     kinetics = None,
 )

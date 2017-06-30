@@ -12,9 +12,9 @@ PLog rates taken directly from Table 6 of this paper.
 Rates are for an Argon bath gas
 """
 entry(
-    index = 1,
+    index = 0,
     label = "OH + C2H2 <=> H2O + C2H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (4.37e-18, 'cm^3/(molecule*s)'),
         n = 2.14,
@@ -24,9 +24,9 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "OH + C2H2 <=> HCCOH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.01, 0.025, 0.1, 1, 10, 100], 'atm'),
         arrhenius = [
@@ -71,9 +71,9 @@ entry(
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "OH + C2H2 <=> CH2CO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.01, 0.025, 0.1, 1, 10, 100], 'atm'),
         arrhenius = [
@@ -118,9 +118,9 @@ entry(
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "OH + C2H2 <=> CO + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.01, 0.025, 0.1, 1, 10, 100], 'atm'),
         arrhenius = [
@@ -165,9 +165,9 @@ entry(
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "OH + C2H2 <=> HOC2H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.01, 0.025, 0.1, 1, 10, 100], 'atm'),
         arrhenius = [

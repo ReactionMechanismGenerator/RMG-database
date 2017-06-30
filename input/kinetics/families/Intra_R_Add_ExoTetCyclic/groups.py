@@ -21,14 +21,14 @@ recipe(actions=[
 boundaryAtoms = ["*1", "*2"]
 
 entry(
-    index = 1,
+    index = 0,
     label = "R1_rad_R2_R3",
     group = "OR{R4, R5, R6, R7}",
     kinetics = None,
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "multiplebond_intra",
     group = 
 """
@@ -39,7 +39,7 @@ entry(
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "radadd_intra",
     group = 
 """
@@ -49,7 +49,7 @@ entry(
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "R4",
     group = 
 """
@@ -62,7 +62,7 @@ entry(
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "R4_S",
     group = 
 """
@@ -75,11 +75,11 @@ entry(
 )
 
 entry(
-    index = 9,
+    index = 5,
     label = "R4_D",
     group = 
 """
-1 *1 R!H    u1 {2,D}
+1 *1 R!H   u1 {2,D}
 2 *4 Cd    u0 {1,D} {3,S}
 3 *2 [C,O] u0 {2,S} {4,S}
 4 *3 [C,O] u0 {3,S}
@@ -88,11 +88,11 @@ entry(
 )
 
 entry(
-    index = 13,
+    index = 6,
     label = "R4_T",
     group = 
 """
-1 *1 R!H    u1 {2,T}
+1 *1 R!H   u1 {2,T}
 2 *4 Ct    u0 {1,T} {3,S}
 3 *2 [C,O] u0 {2,S} {4,S}
 4 *3 [C,O] u0 {3,S}
@@ -101,11 +101,11 @@ entry(
 )
 
 entry(
-    index = 17,
+    index = 7,
     label = "R4_B",
     group = 
 """
-1 *1 R!H    u1 {2,B}
+1 *1 R!H   u1 {2,B}
 2 *4 Cb    u0 {1,B} {3,S}
 3 *2 [C,O] u0 {2,S} {4,S}
 4 *3 [C,O] u0 {3,S}
@@ -114,7 +114,7 @@ entry(
 )
 
 entry(
-    index = 21,
+    index = 8,
     label = "R5",
     group = 
 """
@@ -128,7 +128,7 @@ entry(
 )
 
 entry(
-    index = 22,
+    index = 9,
     label = "R5_SS",
     group = 
 """
@@ -142,7 +142,7 @@ entry(
 )
 
 entry(
-    index = 26,
+    index = 10,
     label = "R5_SD",
     group = 
 """
@@ -156,11 +156,11 @@ entry(
 )
 
 entry(
-    index = 30,
+    index = 11,
     label = "R5_DS",
     group = 
 """
-1 *1 R!H    u1 {2,D}
+1 *1 R!H   u1 {2,D}
 2 *4 Cd    u0 {1,D} {3,S}
 3 *5 R!H   u0 {2,S} {4,S}
 4 *2 [C,O] u0 {3,S} {5,S}
@@ -170,7 +170,7 @@ entry(
 )
 
 entry(
-    index = 34,
+    index = 12,
     label = "R5_ST",
     group = 
 """
@@ -184,11 +184,11 @@ entry(
 )
 
 entry(
-    index = 38,
+    index = 13,
     label = "R5_TS",
     group = 
 """
-1 *1 R!H    u1 {2,T}
+1 *1 R!H   u1 {2,T}
 2 *4 Ct    u0 {1,T} {3,S}
 3 *5 R!H   u0 {2,S} {4,S}
 4 *2 [C,O] u0 {3,S} {5,S}
@@ -198,7 +198,7 @@ entry(
 )
 
 entry(
-    index = 42,
+    index = 14,
     label = "R5_SB",
     group = 
 """
@@ -212,11 +212,11 @@ entry(
 )
 
 entry(
-    index = 46,
+    index = 15,
     label = "R5_BS",
     group = 
 """
-1 *1 R!H    u1 {2,B}
+1 *1 R!H   u1 {2,B}
 2 *4 Cb    u0 {1,B} {3,S}
 3 *5 R!H   u0 {2,S} {4,S}
 4 *2 [C,O] u0 {3,S} {5,S}
@@ -226,7 +226,7 @@ entry(
 )
 
 entry(
-    index = 50,
+    index = 16,
     label = "R6",
     group = 
 """
@@ -241,7 +241,7 @@ entry(
 )
 
 entry(
-    index = 51,
+    index = 17,
     label = "R6_RSR",
     group = 
 """
@@ -256,7 +256,7 @@ entry(
 )
 
 entry(
-    index = 52,
+    index = 18,
     label = "R6_SSR",
     group = 
 """
@@ -271,7 +271,7 @@ entry(
 )
 
 entry(
-    index = 53,
+    index = 19,
     label = "R6_SSS",
     group = 
 """
@@ -286,7 +286,7 @@ entry(
 )
 
 entry(
-    index = 57,
+    index = 20,
     label = "R6_SSM",
     group = 
 """
@@ -301,11 +301,11 @@ entry(
 )
 
 entry(
-    index = 61,
+    index = 21,
     label = "R6_DSR",
     group = 
 """
-1 *1 R!H    u1 {2,D}
+1 *1 R!H   u1 {2,D}
 2 *4 Cd    u0 {1,D} {3,S}
 3 *6 R!H   u0 {2,S} {4,[S,D,T,B]}
 4 *5 R!H   u0 {3,[S,D,T,B]} {5,S}
@@ -316,11 +316,11 @@ entry(
 )
 
 entry(
-    index = 62,
+    index = 22,
     label = "R6_DSS",
     group = 
 """
-1 *1 R!H    u1 {2,D}
+1 *1 R!H   u1 {2,D}
 2 *4 Cd    u0 {1,D} {3,S}
 3 *6 R!H   u0 {2,S} {4,S}
 4 *5 R!H   u0 {3,S} {5,S}
@@ -331,11 +331,11 @@ entry(
 )
 
 entry(
-    index = 66,
+    index = 23,
     label = "R6_DSM",
     group = 
 """
-1 *1 R!H         u1 {2,D}
+1 *1 R!H        u1 {2,D}
 2 *4 Cd         u0 {1,D} {3,S}
 3 *6 [Cd,Ct,Cb] u0 {2,S} {4,[D,T,B]}
 4 *5 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
@@ -346,11 +346,11 @@ entry(
 )
 
 entry(
-    index = 70,
+    index = 24,
     label = "R6_TSR",
     group = 
 """
-1 *1 R!H    u1 {2,T}
+1 *1 R!H   u1 {2,T}
 2 *4 Ct    u0 {1,T} {3,S}
 3 *6 R!H   u0 {2,S} {4,[S,D,T,B]}
 4 *5 R!H   u0 {3,[S,D,T,B]} {5,S}
@@ -361,11 +361,11 @@ entry(
 )
 
 entry(
-    index = 71,
+    index = 25,
     label = "R6_TSS",
     group = 
 """
-1 *1 R!H    u1 {2,T}
+1 *1 R!H   u1 {2,T}
 2 *4 Ct    u0 {1,T} {3,S}
 3 *6 R!H   u0 {2,S} {4,S}
 4 *5 R!H   u0 {3,S} {5,S}
@@ -376,11 +376,11 @@ entry(
 )
 
 entry(
-    index = 75,
+    index = 26,
     label = "R6_TSM",
     group = 
 """
-1 *1 R!H         u1 {2,T}
+1 *1 R!H        u1 {2,T}
 2 *4 Ct         u0 {1,T} {3,S}
 3 *6 [Cd,Ct,Cb] u0 {2,S} {4,[D,T,B]}
 4 *5 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
@@ -391,11 +391,11 @@ entry(
 )
 
 entry(
-    index = 79,
+    index = 27,
     label = "R6_BSR",
     group = 
 """
-1 *1 R!H    u1 {2,B}
+1 *1 R!H   u1 {2,B}
 2 *4 Cb    u0 {1,B} {3,S}
 3 *6 R!H   u0 {2,S} {4,[S,D,T,B]}
 4 *5 R!H   u0 {3,[S,D,T,B]} {5,S}
@@ -406,11 +406,11 @@ entry(
 )
 
 entry(
-    index = 80,
+    index = 28,
     label = "R6_BSS",
     group = 
 """
-1 *1 R!H    u1 {2,B}
+1 *1 R!H   u1 {2,B}
 2 *4 Cb    u0 {1,B} {3,S}
 3 *6 R!H   u0 {2,S} {4,S}
 4 *5 R!H   u0 {3,S} {5,S}
@@ -421,11 +421,11 @@ entry(
 )
 
 entry(
-    index = 84,
+    index = 29,
     label = "R6_BSM",
     group = 
 """
-1 *1 R!H         u1 {2,B}
+1 *1 R!H        u1 {2,B}
 2 *4 Cb         u0 {1,B} {3,S}
 3 *6 [Cd,Ct,Cb] u0 {2,S} {4,[D,T,B]}
 4 *5 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
@@ -436,7 +436,7 @@ entry(
 )
 
 entry(
-    index = 88,
+    index = 30,
     label = "R6_SMS",
     group = 
 """
@@ -451,7 +451,7 @@ entry(
 )
 
 entry(
-    index = 92,
+    index = 31,
     label = "R6_SBB",
     group = 
 """
@@ -466,11 +466,11 @@ entry(
 )
 
 entry(
-    index = 96,
+    index = 32,
     label = "R6_BBS",
     group = 
 """
-1 *1 R!H    u1 {2,B}
+1 *1 R!H   u1 {2,B}
 2 *4 Cbf   u0 {1,B} {3,B}
 3 *6 Cb    u0 {2,B} {4,S}
 4 *5 R!H   u0 {3,S} {5,S}
@@ -481,7 +481,7 @@ entry(
 )
 
 entry(
-    index = 100,
+    index = 33,
     label = "R7",
     group = 
 """
@@ -497,7 +497,7 @@ entry(
 )
 
 entry(
-    index = 101,
+    index = 34,
     label = "R7_RSSR",
     group = 
 """
@@ -513,7 +513,7 @@ entry(
 )
 
 entry(
-    index = 102,
+    index = 35,
     label = "R7_SSSR",
     group = 
 """
@@ -529,7 +529,7 @@ entry(
 )
 
 entry(
-    index = 103,
+    index = 36,
     label = "R7_SSSS",
     group = 
 """
@@ -545,7 +545,7 @@ entry(
 )
 
 entry(
-    index = 107,
+    index = 37,
     label = "R7_SSSM",
     group = 
 """
@@ -561,11 +561,11 @@ entry(
 )
 
 entry(
-    index = 111,
+    index = 38,
     label = "R7_DSSR",
     group = 
 """
-1 *1 R!H    u1 {2,D}
+1 *1 R!H   u1 {2,D}
 2 *4 Cd    u0 {1,D} {3,S}
 3 *6 R!H   u0 {2,S} {4,S}
 4 *7 R!H   u0 {3,S} {5,[S,D,T,B]}
@@ -577,11 +577,11 @@ entry(
 )
 
 entry(
-    index = 112,
+    index = 39,
     label = "R7_DSSS",
     group = 
 """
-1 *1 R!H    u1 {2,D}
+1 *1 R!H   u1 {2,D}
 2 *4 Cd    u0 {1,D} {3,S}
 3 *6 R!H   u0 {2,S} {4,S}
 4 *7 R!H   u0 {3,S} {5,S}
@@ -593,11 +593,11 @@ entry(
 )
 
 entry(
-    index = 116,
+    index = 40,
     label = "R7_DSSM",
     group = 
 """
-1 *1 R!H         u1 {2,D}
+1 *1 R!H        u1 {2,D}
 2 *4 Cd         u0 {1,D} {3,S}
 3 *6 R!H        u0 {2,S} {4,S}
 4 *7 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
@@ -609,11 +609,11 @@ entry(
 )
 
 entry(
-    index = 120,
+    index = 41,
     label = "R7_TSSR",
     group = 
 """
-1 *1 R!H    u1 {2,T}
+1 *1 R!H   u1 {2,T}
 2 *4 Ct    u0 {1,T} {3,S}
 3 *6 R!H   u0 {2,S} {4,S}
 4 *7 R!H   u0 {3,S} {5,[S,D,T,B]}
@@ -625,11 +625,11 @@ entry(
 )
 
 entry(
-    index = 121,
+    index = 42,
     label = "R7_TSSS",
     group = 
 """
-1 *1 R!H    u1 {2,T}
+1 *1 R!H   u1 {2,T}
 2 *4 Ct    u0 {1,T} {3,S}
 3 *6 R!H   u0 {2,S} {4,S}
 4 *7 R!H   u0 {3,S} {5,S}
@@ -641,11 +641,11 @@ entry(
 )
 
 entry(
-    index = 125,
+    index = 43,
     label = "R7_TSSM",
     group = 
 """
-1 *1 R!H         u1 {2,T}
+1 *1 R!H        u1 {2,T}
 2 *4 Ct         u0 {1,T} {3,S}
 3 *6 R!H        u0 {2,S} {4,S}
 4 *7 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
@@ -657,11 +657,11 @@ entry(
 )
 
 entry(
-    index = 129,
+    index = 44,
     label = "R7_BSSR",
     group = 
 """
-1 *1 R!H    u1 {2,B}
+1 *1 R!H   u1 {2,B}
 2 *4 Cb    u0 {1,B} {3,S}
 3 *6 R!H   u0 {2,S} {4,S}
 4 *7 R!H   u0 {3,S} {5,[S,D,T,B]}
@@ -673,11 +673,11 @@ entry(
 )
 
 entry(
-    index = 130,
+    index = 45,
     label = "R7_BSSS",
     group = 
 """
-1 *1 R!H    u1 {2,B}
+1 *1 R!H   u1 {2,B}
 2 *4 Cb    u0 {1,B} {3,S}
 3 *6 R!H   u0 {2,S} {4,S}
 4 *7 R!H   u0 {3,S} {5,S}
@@ -689,11 +689,11 @@ entry(
 )
 
 entry(
-    index = 134,
+    index = 46,
     label = "R7_BSSM",
     group = 
 """
-1 *1 R!H         u1 {2,B}
+1 *1 R!H        u1 {2,B}
 2 *4 Cb         u0 {1,B} {3,S}
 3 *6 R!H        u0 {2,S} {4,S}
 4 *7 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
@@ -705,7 +705,7 @@ entry(
 )
 
 entry(
-    index = 138,
+    index = 47,
     label = "R7_RSMS",
     group = 
 """
@@ -721,7 +721,7 @@ entry(
 )
 
 entry(
-    index = 139,
+    index = 48,
     label = "R7_SSMS",
     group = 
 """
@@ -737,11 +737,11 @@ entry(
 )
 
 entry(
-    index = 143,
+    index = 49,
     label = "R7_DSMS",
     group = 
 """
-1 *1 R!H         u1 {2,D}
+1 *1 R!H        u1 {2,D}
 2 *4 Cd         u0 {1,D} {3,S}
 3 *6 [Cd,Ct,Cb] u0 {2,S} {4,[D,T,B]}
 4 *7 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
@@ -753,11 +753,11 @@ entry(
 )
 
 entry(
-    index = 147,
+    index = 50,
     label = "R7_TSMS",
     group = 
 """
-1 *1 R!H         u1 {2,T}
+1 *1 R!H        u1 {2,T}
 2 *4 Ct         u0 {1,T} {3,S}
 3 *6 [Cd,Ct,Cb] u0 {2,S} {4,[D,T,B]}
 4 *7 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
@@ -769,11 +769,11 @@ entry(
 )
 
 entry(
-    index = 151,
+    index = 51,
     label = "R7_BSMS",
     group = 
 """
-1 *1 R!H         u1 {2,B}
+1 *1 R!H        u1 {2,B}
 2 *4 Cb         u0 {1,B} {3,S}
 3 *6 [Cd,Ct,Cb] u0 {2,S} {4,[D,T,B]}
 4 *7 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
@@ -785,7 +785,7 @@ entry(
 )
 
 entry(
-    index = 155,
+    index = 52,
     label = "R7_SMSR",
     group = 
 """
@@ -801,7 +801,7 @@ entry(
 )
 
 entry(
-    index = 156,
+    index = 53,
     label = "R7_SMSS",
     group = 
 """
@@ -817,7 +817,7 @@ entry(
 )
 
 entry(
-    index = 160,
+    index = 54,
     label = "R7_SMSM",
     group = 
 """
@@ -833,11 +833,11 @@ entry(
 )
 
 entry(
-    index = 164,
+    index = 55,
     label = "R7_BBSR",
     group = 
 """
-1 *1 R!H    u1 {2,B}
+1 *1 R!H   u1 {2,B}
 2 *4 Cbf   u0 {1,B} {3,B}
 3 *6 Cb    u0 {2,B} {4,S}
 4 *7 R!H   u0 {3,S} {5,[S,D,T,B]}
@@ -849,11 +849,11 @@ entry(
 )
 
 entry(
-    index = 165,
+    index = 56,
     label = "R7_BBSS",
     group = 
 """
-1 *1 R!H    u1 {2,B}
+1 *1 R!H   u1 {2,B}
 2 *4 Cbf   u0 {1,B} {3,B}
 3 *6 Cb    u0 {2,B} {4,S}
 4 *7 R!H   u0 {3,S} {5,S}
@@ -865,11 +865,11 @@ entry(
 )
 
 entry(
-    index = 169,
+    index = 57,
     label = "R7_BBSM",
     group = 
 """
-1 *1 R!H         u1 {2,B}
+1 *1 R!H        u1 {2,B}
 2 *4 Cbf        u0 {1,B} {3,B}
 3 *6 Cb         u0 {2,B} {4,S}
 4 *7 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
@@ -881,7 +881,7 @@ entry(
 )
 
 entry(
-    index = 173,
+    index = 58,
     label = "R7_RSBB",
     group = 
 """
@@ -897,7 +897,7 @@ entry(
 )
 
 entry(
-    index = 174,
+    index = 59,
     label = "R7_SSBB",
     group = 
 """
@@ -913,11 +913,11 @@ entry(
 )
 
 entry(
-    index = 178,
+    index = 60,
     label = "R7_DSBB",
     group = 
 """
-1 *1 R!H    u1 {2,D}
+1 *1 R!H   u1 {2,D}
 2 *4 Cd    u0 {1,D} {3,S}
 3 *6 Cb    u0 {2,S} {4,B}
 4 *7 Cbf   u0 {3,B} {5,B}
@@ -929,11 +929,11 @@ entry(
 )
 
 entry(
-    index = 182,
+    index = 61,
     label = "R7_TSBB",
     group = 
 """
-1 *1 R!H    u1 {2,T}
+1 *1 R!H   u1 {2,T}
 2 *4 Ct    u0 {1,T} {3,S}
 3 *6 Cb    u0 {2,S} {4,B}
 4 *7 Cbf   u0 {3,B} {5,B}
@@ -945,11 +945,11 @@ entry(
 )
 
 entry(
-    index = 186,
+    index = 62,
     label = "R7_BSBB",
     group = 
 """
-1 *1 R!H    u1 {2,B}
+1 *1 R!H   u1 {2,B}
 2 *4 Cb    u0 {1,B} {3,S}
 3 *6 Cb    u0 {2,S} {4,B}
 4 *7 Cbf   u0 {3,B} {5,B}
@@ -961,7 +961,7 @@ entry(
 )
 
 entry(
-    index = 190,
+    index = 63,
     label = "R7_SBBS",
     group = 
 """
@@ -977,7 +977,7 @@ entry(
 )
 
 entry(
-    index = 194,
+    index = 64,
     label = "doublebond_intra",
     group = 
 """
@@ -988,200 +988,7 @@ entry(
 )
 
 entry(
-    index = 195,
-    label = "doublebond_intra_2H",
-    group = 
-"""
-1 *2 [C,O] u0 {2,S}
-2 *3 C     u0 {1,S} {3,S} {4,S}
-3    H     u0 {2,S}
-4    H     u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 196,
-    label = "doublebond_intra_2H_pri",
-    group = 
-"""
-1 *2 [C,O] u0 {2,S} {3,S}
-2 *3 C     u0 {1,S} {4,S} {5,S}
-3    H     u0 {1,S}
-4    H     u0 {2,S}
-5    H     u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 197,
-    label = "doublebond_intra_2H_secNd",
-    group = 
-"""
-1 *2 [C,O]  u0 {2,S} {3,S}
-2 *3 C      u0 {1,S} {4,S} {5,S}
-3    [Cs,O] u0 {1,S}
-4    H      u0 {2,S}
-5    H      u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 198,
-    label = "doublebond_intra_2H_secDe",
-    group = 
-"""
-1 *2 [C,O]         u0 {2,S} {3,S}
-2 *3 C             u0 {1,S} {4,S} {5,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    H             u0 {2,S}
-5    H             u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 199,
-    label = "doublebond_intra_HNd",
-    group = 
-"""
-1 *2 [C,O]  u0 {2,S}
-2 *3 C      u0 {1,S} {3,S} {4,S}
-3    H      u0 {2,S}
-4    [Cs,O] u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 200,
-    label = "doublebond_intra_HNd_pri",
-    group = 
-"""
-1 *2 [C,O]  u0 {2,S} {3,S}
-2 *3 C      u0 {1,S} {4,S} {5,S}
-3    H      u0 {1,S}
-4    H      u0 {2,S}
-5    [Cs,O] u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 201,
-    label = "doublebond_intra_HNd_secNd",
-    group = 
-"""
-1 *2 [C,O]  u0 {2,S} {3,S}
-2 *3 C      u0 {1,S} {4,S} {5,S}
-3    [Cs,O] u0 {1,S}
-4    H      u0 {2,S}
-5    [Cs,O] u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 202,
-    label = "doublebond_intra_HNd_secDe",
-    group = 
-"""
-1 *2 [C,O]         u0 {2,S} {3,S}
-2 *3 C             u0 {1,S} {4,S} {5,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    H             u0 {2,S}
-5    [Cs,O]        u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 203,
-    label = "doublebond_intra_HDe",
-    group = 
-"""
-1 *2 [C,O]         u0 {2,S}
-2 *3 C             u0 {1,S} {3,S} {4,S}
-3    H             u0 {2,S}
-4    [Cd,Ct,Cb,CO] u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 204,
-    label = "doublebond_intra_HDe_pri",
-    group = 
-"""
-1 *2 [C,O]         u0 {2,S} {3,S}
-2 *3 C             u0 {1,S} {4,S} {5,S}
-3    H             u0 {1,S}
-4    H             u0 {2,S}
-5    [Cd,Ct,Cb,CO] u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 205,
-    label = "doublebond_intra_HCd_pri",
-    group = 
-"""
-1 *2 [C,O] u0 {2,S} {3,S}
-2 *3 C     u0 {1,S} {4,S} {5,S}
-3    H     u0 {1,S}
-4    H     u0 {2,S}
-5    Cd    u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 206,
-    label = "doublebond_intra_HCt_pri",
-    group = 
-"""
-1 *2 [C,O] u0 {2,S} {3,S}
-2 *3 C     u0 {1,S} {4,S} {5,S}
-3    H     u0 {1,S}
-4    H     u0 {2,S}
-5    Ct    u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 207,
-    label = "doublebond_intra_HDe_secNd",
-    group = 
-"""
-1 *2 [C,O]         u0 {2,S} {3,S}
-2 *3 C             u0 {1,S} {4,S} {5,S}
-3    [Cs,O]        u0 {1,S}
-4    H             u0 {2,S}
-5    [Cd,Ct,Cb,CO] u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 208,
-    label = "doublebond_intra_HDe_secDe",
-    group = 
-"""
-1 *2 [C,O]         u0 {2,S} {3,S}
-2 *3 C             u0 {1,S} {4,S} {5,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    H             u0 {2,S}
-5    [Cd,Ct,Cb,CO] u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 209,
+    index = 65,
     label = "doublebond_intra_NdNd",
     group = 
 """
@@ -1194,35 +1001,7 @@ entry(
 )
 
 entry(
-    index = 210,
-    label = "doublebond_intra_NdNd_pri",
-    group = 
-"""
-1 *2 [C,O]  u0 {2,S} {3,S}
-2 *3 C      u0 {1,S} {4,S} {5,S}
-3    H      u0 {1,S}
-4    [Cs,O] u0 {2,S}
-5    [Cs,O] u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 211,
-    label = "doublebond_intra_NdNd_secNd",
-    group = 
-"""
-1 *2 [C,O]  u0 {2,S} {3,S}
-2 *3 C      u0 {1,S} {4,S} {5,S}
-3    [Cs,O] u0 {1,S}
-4    [Cs,O] u0 {2,S}
-5    [Cs,O] u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 212,
+    index = 66,
     label = "doublebond_intra_NdNd_secDe",
     group = 
 """
@@ -1236,7 +1015,35 @@ entry(
 )
 
 entry(
-    index = 213,
+    index = 67,
+    label = "doublebond_intra_NdNd_secNd",
+    group = 
+"""
+1 *2 [C,O]  u0 {2,S} {3,S}
+2 *3 C      u0 {1,S} {4,S} {5,S}
+3    [Cs,O] u0 {1,S}
+4    [Cs,O] u0 {2,S}
+5    [Cs,O] u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 68,
+    label = "doublebond_intra_NdNd_pri",
+    group = 
+"""
+1 *2 [C,O]  u0 {2,S} {3,S}
+2 *3 C      u0 {1,S} {4,S} {5,S}
+3    H      u0 {1,S}
+4    [Cs,O] u0 {2,S}
+5    [Cs,O] u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 69,
     label = "doublebond_intra_NdDe",
     group = 
 """
@@ -1249,63 +1056,7 @@ entry(
 )
 
 entry(
-    index = 212,
-    label = "doublebond_intra_NdDe_pri",
-    group = 
-"""
-1 *2 [C,O]         u0 {2,S} {3,S}
-2 *3 C             u0 {1,S} {4,S} {5,S}
-3    H             u0 {1,S}
-4    [Cs,O]        u0 {2,S}
-5    [Cd,Ct,Cb,CO] u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 215,
-    label = "doublebond_intra_NdCd_pri",
-    group = 
-"""
-1 *2 [C,O]  u0 {2,S} {3,S}
-2 *3 C      u0 {1,S} {4,S} {5,S}
-3    H      u0 {1,S}
-4    [Cs,O] u0 {2,S}
-5    Cd     u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 216,
-    label = "doublebond_intra_NdCt_pri",
-    group = 
-"""
-1 *2 [C,O]  u0 {2,S} {3,S}
-2 *3 C      u0 {1,S} {4,S} {5,S}
-3    H      u0 {1,S}
-4    [Cs,O] u0 {2,S}
-5    Ct     u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 217,
-    label = "doublebond_intra_NdDe_secNd",
-    group = 
-"""
-1 *2 [C,O]         u0 {2,S} {3,S}
-2 *3 C             u0 {1,S} {4,S} {5,S}
-3    [Cs,O]        u0 {1,S}
-4    [Cs,O]        u0 {2,S}
-5    [Cd,Ct,Cb,CO] u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 214,
+    index = 70,
     label = "doublebond_intra_NdDe_secDe",
     group = 
 """
@@ -1319,7 +1070,63 @@ entry(
 )
 
 entry(
-    index = 215,
+    index = 71,
+    label = "doublebond_intra_NdDe_secNd",
+    group = 
+"""
+1 *2 [C,O]         u0 {2,S} {3,S}
+2 *3 C             u0 {1,S} {4,S} {5,S}
+3    [Cs,O]        u0 {1,S}
+4    [Cs,O]        u0 {2,S}
+5    [Cd,Ct,Cb,CO] u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 72,
+    label = "doublebond_intra_NdDe_pri",
+    group = 
+"""
+1 *2 [C,O]         u0 {2,S} {3,S}
+2 *3 C             u0 {1,S} {4,S} {5,S}
+3    H             u0 {1,S}
+4    [Cs,O]        u0 {2,S}
+5    [Cd,Ct,Cb,CO] u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 73,
+    label = "doublebond_intra_NdCd_pri",
+    group = 
+"""
+1 *2 [C,O]  u0 {2,S} {3,S}
+2 *3 C      u0 {1,S} {4,S} {5,S}
+3    H      u0 {1,S}
+4    [Cs,O] u0 {2,S}
+5    Cd     u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 74,
+    label = "doublebond_intra_NdCt_pri",
+    group = 
+"""
+1 *2 [C,O]  u0 {2,S} {3,S}
+2 *3 C      u0 {1,S} {4,S} {5,S}
+3    H      u0 {1,S}
+4    [Cs,O] u0 {2,S}
+5    Ct     u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 75,
     label = "doublebond_intra_DeDe",
     group = 
 """
@@ -1332,35 +1139,7 @@ entry(
 )
 
 entry(
-    index = 216,
-    label = "doublebond_intra_DeDe_pri",
-    group = 
-"""
-1 *2 [C,O]         u0 {2,S} {3,S}
-2 *3 C             u0 {1,S} {4,S} {5,S}
-3    H             u0 {1,S}
-4    [Cd,Ct,Cb,CO] u0 {2,S}
-5    [Cd,Ct,Cb,CO] u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 217,
-    label = "doublebond_intra_DeDe_secNd",
-    group = 
-"""
-1 *2 [C,O]         u0 {2,S} {3,S}
-2 *3 C             u0 {1,S} {4,S} {5,S}
-3    [Cs,O]        u0 {1,S}
-4    [Cd,Ct,Cb,CO] u0 {2,S}
-5    [Cd,Ct,Cb,CO] u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 218,
+    index = 76,
     label = "doublebond_intra_DeDe_secDe",
     group = 
 """
@@ -1374,7 +1153,228 @@ entry(
 )
 
 entry(
-    index = 223,
+    index = 77,
+    label = "doublebond_intra_DeDe_secNd",
+    group = 
+"""
+1 *2 [C,O]         u0 {2,S} {3,S}
+2 *3 C             u0 {1,S} {4,S} {5,S}
+3    [Cs,O]        u0 {1,S}
+4    [Cd,Ct,Cb,CO] u0 {2,S}
+5    [Cd,Ct,Cb,CO] u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 78,
+    label = "doublebond_intra_DeDe_pri",
+    group = 
+"""
+1 *2 [C,O]         u0 {2,S} {3,S}
+2 *3 C             u0 {1,S} {4,S} {5,S}
+3    H             u0 {1,S}
+4    [Cd,Ct,Cb,CO] u0 {2,S}
+5    [Cd,Ct,Cb,CO] u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 79,
+    label = "doublebond_intra_HDe",
+    group = 
+"""
+1 *2 [C,O]         u0 {2,S}
+2 *3 C             u0 {1,S} {3,S} {4,S}
+3    H             u0 {2,S}
+4    [Cd,Ct,Cb,CO] u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 80,
+    label = "doublebond_intra_HDe_secDe",
+    group = 
+"""
+1 *2 [C,O]         u0 {2,S} {3,S}
+2 *3 C             u0 {1,S} {4,S} {5,S}
+3    [Cd,Ct,Cb,CO] u0 {1,S}
+4    H             u0 {2,S}
+5    [Cd,Ct,Cb,CO] u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 81,
+    label = "doublebond_intra_HDe_secNd",
+    group = 
+"""
+1 *2 [C,O]         u0 {2,S} {3,S}
+2 *3 C             u0 {1,S} {4,S} {5,S}
+3    [Cs,O]        u0 {1,S}
+4    H             u0 {2,S}
+5    [Cd,Ct,Cb,CO] u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 82,
+    label = "doublebond_intra_HDe_pri",
+    group = 
+"""
+1 *2 [C,O]         u0 {2,S} {3,S}
+2 *3 C             u0 {1,S} {4,S} {5,S}
+3    H             u0 {1,S}
+4    H             u0 {2,S}
+5    [Cd,Ct,Cb,CO] u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 83,
+    label = "doublebond_intra_HCd_pri",
+    group = 
+"""
+1 *2 [C,O] u0 {2,S} {3,S}
+2 *3 C     u0 {1,S} {4,S} {5,S}
+3    H     u0 {1,S}
+4    H     u0 {2,S}
+5    Cd    u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 84,
+    label = "doublebond_intra_HCt_pri",
+    group = 
+"""
+1 *2 [C,O] u0 {2,S} {3,S}
+2 *3 C     u0 {1,S} {4,S} {5,S}
+3    H     u0 {1,S}
+4    H     u0 {2,S}
+5    Ct    u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 85,
+    label = "doublebond_intra_HNd",
+    group = 
+"""
+1 *2 [C,O]  u0 {2,S}
+2 *3 C      u0 {1,S} {3,S} {4,S}
+3    H      u0 {2,S}
+4    [Cs,O] u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 86,
+    label = "doublebond_intra_HNd_secDe",
+    group = 
+"""
+1 *2 [C,O]         u0 {2,S} {3,S}
+2 *3 C             u0 {1,S} {4,S} {5,S}
+3    [Cd,Ct,Cb,CO] u0 {1,S}
+4    H             u0 {2,S}
+5    [Cs,O]        u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 87,
+    label = "doublebond_intra_HNd_secNd",
+    group = 
+"""
+1 *2 [C,O]  u0 {2,S} {3,S}
+2 *3 C      u0 {1,S} {4,S} {5,S}
+3    [Cs,O] u0 {1,S}
+4    H      u0 {2,S}
+5    [Cs,O] u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 88,
+    label = "doublebond_intra_HNd_pri",
+    group = 
+"""
+1 *2 [C,O]  u0 {2,S} {3,S}
+2 *3 C      u0 {1,S} {4,S} {5,S}
+3    H      u0 {1,S}
+4    H      u0 {2,S}
+5    [Cs,O] u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 89,
+    label = "doublebond_intra_2H",
+    group = 
+"""
+1 *2 [C,O] u0 {2,S}
+2 *3 C     u0 {1,S} {3,S} {4,S}
+3    H     u0 {2,S}
+4    H     u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 90,
+    label = "doublebond_intra_2H_secDe",
+    group = 
+"""
+1 *2 [C,O]         u0 {2,S} {3,S}
+2 *3 C             u0 {1,S} {4,S} {5,S}
+3    [Cd,Ct,Cb,CO] u0 {1,S}
+4    H             u0 {2,S}
+5    H             u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 91,
+    label = "doublebond_intra_2H_secNd",
+    group = 
+"""
+1 *2 [C,O]  u0 {2,S} {3,S}
+2 *3 C      u0 {1,S} {4,S} {5,S}
+3    [Cs,O] u0 {1,S}
+4    H      u0 {2,S}
+5    H      u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 92,
+    label = "doublebond_intra_2H_pri",
+    group = 
+"""
+1 *2 [C,O] u0 {2,S} {3,S}
+2 *3 C     u0 {1,S} {4,S} {5,S}
+3    H     u0 {1,S}
+4    H     u0 {2,S}
+5    H     u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 93,
     label = "carbonylbond_intra",
     group = 
 """
@@ -1385,31 +1385,7 @@ entry(
 )
 
 entry(
-    index = 224,
-    label = "carbonylbond_intra_H",
-    group = 
-"""
-1 *2 [C,O] u0 {2,S} {3,S}
-2 *3 O     u0 {1,S}
-3    H     u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 225,
-    label = "carbonylbond_intra_Nd",
-    group = 
-"""
-1 *2 [C,O]  u0 {2,S} {3,S}
-2 *3 O      u0 {1,S}
-3    [Cs,O] u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 226,
+    index = 94,
     label = "carbonylbond_intra_De",
     group = 
 """
@@ -1421,7 +1397,31 @@ entry(
 )
 
 entry(
-    index = 227,
+    index = 95,
+    label = "carbonylbond_intra_Nd",
+    group = 
+"""
+1 *2 [C,O]  u0 {2,S} {3,S}
+2 *3 O      u0 {1,S}
+3    [Cs,O] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 96,
+    label = "carbonylbond_intra_H",
+    group = 
+"""
+1 *2 [C,O] u0 {2,S} {3,S}
+2 *3 O     u0 {1,S}
+3    H     u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 97,
     label = "radadd_intra_cs",
     group = 
 """
@@ -1431,67 +1431,7 @@ entry(
 )
 
 entry(
-    index = 228,
-    label = "radadd_intra_cs2H",
-    group = 
-"""
-1 *1 Cs u1 {2,S} {3,S}
-2    H  u0 {1,S}
-3    H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 229,
-    label = "radadd_intra_csHNd",
-    group = 
-"""
-1 *1 Cs     u1 {2,S} {3,S}
-2    H      u0 {1,S}
-3    [Cs,O] u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 230,
-    label = "radadd_intra_csHDe",
-    group = 
-"""
-1 *1 Cs            u1 {2,S} {3,S}
-2    H             u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 231,
-    label = "radadd_intra_csHCd",
-    group = 
-"""
-1 *1 Cs u1 {2,S} {3,S}
-2    H  u0 {1,S}
-3    Cd u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 232,
-    label = "radadd_intra_csHCt",
-    group = 
-"""
-1 *1 Cs u1 {2,S} {3,S}
-2    H  u0 {1,S}
-3    Ct u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 233,
+    index = 98,
     label = "radadd_intra_csNdNd",
     group = 
 """
@@ -1503,7 +1443,7 @@ entry(
 )
 
 entry(
-    index = 243,
+    index = 99,
     label = "radadd_intra_csNdDe",
     group = 
 """
@@ -1515,7 +1455,7 @@ entry(
 )
 
 entry(
-    index = 244,
+    index = 100,
     label = "radadd_intra_csNdCd",
     group = 
 """
@@ -1527,7 +1467,7 @@ entry(
 )
 
 entry(
-    index = 245,
+    index = 101,
     label = "radadd_intra_csNdCt",
     group = 
 """
@@ -1539,7 +1479,7 @@ entry(
 )
 
 entry(
-    index = 246,
+    index = 102,
     label = "radadd_intra_csDeDe",
     group = 
 """
@@ -1551,7 +1491,67 @@ entry(
 )
 
 entry(
-    index = 234,
+    index = 103,
+    label = "radadd_intra_csHDe",
+    group = 
+"""
+1 *1 Cs            u1 {2,S} {3,S}
+2    H             u0 {1,S}
+3    [Cd,Ct,Cb,CO] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 104,
+    label = "radadd_intra_csHCd",
+    group = 
+"""
+1 *1 Cs u1 {2,S} {3,S}
+2    H  u0 {1,S}
+3    Cd u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 105,
+    label = "radadd_intra_csHCt",
+    group = 
+"""
+1 *1 Cs u1 {2,S} {3,S}
+2    H  u0 {1,S}
+3    Ct u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 106,
+    label = "radadd_intra_csHNd",
+    group = 
+"""
+1 *1 Cs     u1 {2,S} {3,S}
+2    H      u0 {1,S}
+3    [Cs,O] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 107,
+    label = "radadd_intra_cs2H",
+    group = 
+"""
+1 *1 Cs u1 {2,S} {3,S}
+2    H  u0 {1,S}
+3    H  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 108,
     label = "radadd_intra_O",
     group = 
 """
@@ -1561,7 +1561,7 @@ entry(
 )
 
 entry(
-    index = 235,
+    index = 109,
     label = "radadd_intra_Cb",
     group = 
 """
@@ -1571,7 +1571,7 @@ entry(
 )
 
 entry(
-    index = 236,
+    index = 110,
     label = "radadd_intra_cdsingle",
     group = 
 """
@@ -1582,7 +1582,7 @@ entry(
 )
 
 entry(
-    index = 237,
+    index = 111,
     label = "radadd_intra_cdsingleH",
     group = 
 """
@@ -1593,7 +1593,7 @@ entry(
 )
 
 entry(
-    index = 238,
+    index = 112,
     label = "radadd_intra_cdsingleNd",
     group = 
 """
@@ -1604,7 +1604,7 @@ entry(
 )
 
 entry(
-    index = 239,
+    index = 113,
     label = "radadd_intra_cdsingleDe",
     group = 
 """
@@ -1615,7 +1615,7 @@ entry(
 )
 
 entry(
-    index = 240,
+    index = 114,
     label = "radadd_intra_cddouble",
     group = 
 """
@@ -1626,7 +1626,7 @@ entry(
 )
 
 entry(
-    index = 241,
+    index = 115,
     label = "radadd_intra_CO",
     group = 
 """
@@ -1637,7 +1637,7 @@ entry(
 )
 
 entry(
-    index = 242,
+    index = 116,
     label = "radadd_intra_Ct",
     group = 
 """

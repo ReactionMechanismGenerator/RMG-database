@@ -20,14 +20,14 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "RJJ",
     group = "OR{R5JJ, R6JJ, R7JJ}",
     kinetics = None,
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "R5JJ",
     group = 
 """
@@ -41,7 +41,7 @@ entry(
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "R6JJ",
     group = 
 """
@@ -56,7 +56,7 @@ entry(
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "R7JJ",
     group = 
 """

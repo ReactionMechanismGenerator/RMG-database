@@ -7,13 +7,12 @@ longDesc = u"""
 Put kinetic parameters for reactions to use as a training set for fitting
 group additivity values in this file.
 """
-
 entry(
-    index = 1,
+    index = 0,
     label = "CH2 + C2H2 <=> CH3CCH",
-    degeneracy = 2,
+    degeneracy = 2.0,
     kinetics = Arrhenius(
-        A = (6.63e+7, 'cm^3/(mol*s)', '*|/', 0.25),
+        A = (6.63e+07, 'cm^3/(mol*s)', '*|/', 0.25),
         n = 1.475,
         Ea = (-1.651, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -26,8 +25,8 @@ entry(
         pages = """12677-12692""",
         year = "2013",
     ),
-	rank = 2,
     referenceType = "theory",
+    rank = 2,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
     longDesc = 
 u"""
@@ -36,9 +35,9 @@ Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hin
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "CH2 + C2H4 <=> CH3CHCH2",
-    degeneracy = 4,
+    degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (5.3e+12, 'cm^3/(mol*s)', '*|/', 0.25),
         n = 0.0073,
@@ -53,8 +52,8 @@ entry(
         pages = """12677-12692""",
         year = "2013",
     ),
-	rank = 2,
     referenceType = "theory",
+    rank = 2,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
     longDesc = 
 u"""
@@ -63,11 +62,11 @@ Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hin
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "CH2 + CH3CCH_r1 <=> CH3CCCH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (2.03e+8, 'cm^3/(mol*s)', '*|/', 0.25),
+        A = (2.03e+08, 'cm^3/(mol*s)', '*|/', 0.25),
         n = 1.249,
         Ea = (-2.214, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -80,8 +79,8 @@ entry(
         pages = """12677-12692""",
         year = "2013",
     ),
-	rank = 2,
     referenceType = "theory",
+    rank = 2,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
     longDesc = 
 u"""
@@ -90,9 +89,9 @@ Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hin
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "CH2 + CH3CCH_r2 <=> CH3CH2CCH",
-    degeneracy = 3,
+    degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (9.18e+10, 'cm^3/(mol*s)', '*|/', 0.25),
         n = 0.524,
@@ -107,8 +106,8 @@ entry(
         pages = """12677-12692""",
         year = "2013",
     ),
-	rank = 2,
     referenceType = "theory",
+    rank = 2,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
     longDesc = 
 u"""
@@ -117,9 +116,9 @@ Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hin
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "CH2 + CH3CHCH2_r1 <=> CH3CHCHCH3",
-    degeneracy = 2,
+    degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (3.97e+13, 'cm^3/(mol*s)', '*|/', 0.25),
         n = -0.324,
@@ -134,8 +133,8 @@ entry(
         pages = """12677-12692""",
         year = "2013",
     ),
-	rank = 2,
     referenceType = "theory",
+    rank = 2,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
     longDesc = 
 u"""
@@ -144,9 +143,9 @@ Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hin
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "CH2 + CH3CHCH2_r2 <=> CH2C(CH3)CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.13e+13, 'cm^3/(mol*s)', '*|/', 0.25),
         n = -0.274,
@@ -161,8 +160,8 @@ entry(
         pages = """12677-12692""",
         year = "2013",
     ),
-	rank = 2,
     referenceType = "theory",
+    rank = 2,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
     longDesc = 
 u"""
@@ -171,9 +170,9 @@ Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hin
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "CH2 + CH3CHCH2_r3 <=> CH3CH2CHCH2",
-    degeneracy = 3,
+    degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (1.87e+13, 'cm^3/(mol*s)', '*|/', 0.25),
         n = -0.146,
@@ -188,8 +187,8 @@ entry(
         pages = """12677-12692""",
         year = "2013",
     ),
-	rank = 2,
     referenceType = "theory",
+    rank = 2,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
     longDesc = 
 u"""
@@ -198,11 +197,11 @@ Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hin
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "CH2 + CH2CCH2 <=> CH3CHCCH2",
-    degeneracy = 4,
+    degeneracy = 4.0,
     kinetics = Arrhenius(
-        A = (2.80e+11, 'cm^3/(mol*s)', '*|/', 0.25),
+        A = (2.8e+11, 'cm^3/(mol*s)', '*|/', 0.25),
         n = 0.465,
         Ea = (-1.742, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -215,8 +214,8 @@ entry(
         pages = """12677-12692""",
         year = "2013",
     ),
-	rank = 2,
     referenceType = "theory",
+    rank = 2,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
     longDesc = 
 u"""
@@ -225,9 +224,9 @@ Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hin
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "CH2 + CH2CHCHCH2_r1 <=> CH3CHCHCHCH2",
-    degeneracy = 4,
+    degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (5.26e+11, 'cm^3/(mol*s)', '*|/', 0.25),
         n = 0.313,
@@ -242,8 +241,8 @@ entry(
         pages = """12677-12692""",
         year = "2013",
     ),
-	rank = 2,
     referenceType = "theory",
+    rank = 2,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
     longDesc = 
 u"""
@@ -252,9 +251,9 @@ Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hin
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "CH2 + CH2CHCHCH2_r2 <=> CH2C(CH3)CHCH2",
-    degeneracy = 2,
+    degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (7.34e+10, 'cm^3/(mol*s)', '*|/', 0.25),
         n = 0.498,
@@ -269,8 +268,8 @@ entry(
         pages = """12677-12692""",
         year = "2013",
     ),
-	rank = 2,
     referenceType = "theory",
+    rank = 2,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
     longDesc = 
 u"""
@@ -279,9 +278,9 @@ Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hin
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "CH2 + CH3CCCH3_r1 <=> CH3CH2CCCH3",
-    degeneracy = 6,
+    degeneracy = 6.0,
     kinetics = Arrhenius(
         A = (2.96e+10, 'cm^3/(mol*s)', '*|/', 0.25),
         n = 0.797,
@@ -296,8 +295,8 @@ entry(
         pages = """12677-12692""",
         year = "2013",
     ),
-	rank = 2,
     referenceType = "theory",
+    rank = 2,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
     longDesc = 
 u"""
@@ -306,9 +305,9 @@ Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hin
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "CH2 + benzene <=> toluene",
-    degeneracy = 6,
+    degeneracy = 6.0,
     kinetics = Arrhenius(
         A = (6.48e+13, 'cm^3/(mol*s)', '*|/', 0.25),
         n = -0.272,
@@ -323,11 +322,12 @@ entry(
         pages = """12677-12692""",
         year = "2013",
     ),
-	rank = 2,
     referenceType = "theory",
+    rank = 2,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
     longDesc = 
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hindered rotor corrections. A-factor error is estimated by source.
 """,
 )
+

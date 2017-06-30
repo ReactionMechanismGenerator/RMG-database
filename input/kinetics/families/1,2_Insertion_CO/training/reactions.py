@@ -7,3 +7,170 @@ longDesc = u"""
 Put kinetic parameters for reactions to use as a training set for fitting
 group additivity values in this file.
 """
+entry(
+    index = 0,
+    label = "CO + C2H6 <=> C3H6O",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (538, 'cm^3/(mol*s)'),
+        n = 3.29,
+        alpha = 0,
+        E0 = (104.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 2,
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
+    longDesc = 
+u"""
+Taken from entry: Some of the tortional motions in the alkyl part of the
+transition states are treated as free rotations as they are relatively loose TSs.
+
+Converted to training reaction from rate rule: CO;C_methyl_C_methyl
+""",
+)
+
+entry(
+    index = 1,
+    label = "CO + H2 <=> CH2O",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (2.89e+09, 'cm^3/(mol*s)'),
+        n = 1.16,
+        alpha = 0,
+        E0 = (82.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 2,
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
+    longDesc = 
+u"""
+Taken from entry: Some of the tortional motions in the alkyl part of the
+transition states are treated as free rotations as they are relatively loose TSs.
+
+Converted to training reaction from rate rule: CO;H2
+""",
+)
+
+entry(
+    index = 2,
+    label = "CO + CH4 <=> C2H4O",
+    degeneracy = 4.0,
+    kinetics = ArrheniusEP(
+        A = (65600, 'cm^3/(mol*s)'),
+        n = 2.86,
+        alpha = 0,
+        E0 = (86.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 2,
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
+    longDesc = 
+u"""
+Taken from entry: Some of the tortional motions in the alkyl part of the
+transition states are treated as free rotations as they are relatively loose TSs.
+
+Converted to training reaction from rate rule: CO;C_methane
+""",
+)
+
+entry(
+    index = 3,
+    label = "CO + C2H6-2 <=> C3H6O-2",
+    degeneracy = 6.0,
+    kinetics = ArrheniusEP(
+        A = (548400, 'cm^3/(mol*s)'),
+        n = 2.53,
+        alpha = 0,
+        E0 = (85.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 2,
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
+    longDesc = 
+u"""
+Taken from entry: Some of the tortional motions in the alkyl part of the
+transition states are treated as free rotations as they are relatively loose TSs.
+
+Converted to training reaction from rate rule: CO;C_pri/NonDeC
+""",
+)
+
+entry(
+    index = 4,
+    label = "CO + C3H8 <=> C4H8O",
+    degeneracy = 2.0,
+    kinetics = ArrheniusEP(
+        A = (1.532e+06, 'cm^3/(mol*s)'),
+        n = 2.07,
+        alpha = 0,
+        E0 = (82.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 2,
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
+    longDesc = 
+u"""
+Taken from entry: Some of the tortional motions in the alkyl part of the
+transition states are treated as free rotations as they are relatively loose TSs.
+
+Converted to training reaction from rate rule: CO;C/H2/NonDeC
+""",
+)
+
+entry(
+    index = 5,
+    label = "CO + C4H10 <=> C5H10O",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (8.89e+07, 'cm^3/(mol*s)'),
+        n = 1.51,
+        alpha = 0,
+        E0 = (79.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 2,
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: CO;C/H/Cs3
+""",
+)
+
+entry(
+    index = 6,
+    label = "CO + CH4O <=> C2H4O2",
+    degeneracy = 1.0,
+    kinetics = ArrheniusEP(
+        A = (0.127, 'cm^3/(mol*s)'),
+        n = 3.7,
+        alpha = 0,
+        E0 = (53.36, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 2,
+    shortDesc = u"""CBS-QB3 calculations by Franklin, 2010""",
+    longDesc = 
+u"""
+Taken from entry: CBS-QB3 calculations by CFG, Jan 2010 
+Methyl group was hindered rotor. ester CO bond also a rotor.
+
+Converted to training reaction from rate rule: CO;CsO_H
+""",
+)
+

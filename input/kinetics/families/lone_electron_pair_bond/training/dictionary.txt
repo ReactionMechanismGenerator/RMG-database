@@ -1,0 +1,16 @@
+H3N
+1 *1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2    H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+
+H3NO
+1 *1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
+2 *2 O u0 p3 c-1 {1,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {1,S}
+
+O
+1 *2 O u0 p3 c0
+
