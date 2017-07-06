@@ -8641,6 +8641,82 @@ u""""
 """,
 )
 
+entry(
+    index = 2008,
+    label = "S4sJ",
+    group =
+"""
+1 * S4s   u1 p1
+""",
+    thermo = u'S4sJ-CCC',
+    shortDesc = u"""Sulfur Oxygen Extension""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2009,
+    label = "S6sJ",
+    group =
+"""
+1 * S6s   u1 p0
+""",
+    thermo = u'S6sJ-CCCCC',
+    shortDesc = u"""Calculated at CBS-QB3""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2010,
+    label = "S4sJ-CCC",
+    group =
+"""
+1 * S4s    u1 p1 c0 {2,S} {3,S} {4,S}
+2   C      ux {1,S}
+3   C      ux {1,S}
+4   C      ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.055,-3.801,4.696,-5.408,-6.524,-7.325,-8.52],'cal/(mol*K)'),
+        H298 = (63.249,'kcal/mol'),
+        S298 = (12.849,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+Calculated at CBS-QB3
+""",
+)
+
+entry(
+    index = 2010,
+    label = "S6sJ-CCCCC",
+    group =
+"""
+1 * S6s    u1 p0 c0 {2,S} {3,S} {4,S} {5,S} {6,S}
+2   C      ux {1,S}
+3   C      ux {1,S}
+4   C      ux {1,S}
+5   C      ux {1,S}
+6   C      ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.815,3.48,2.34,1.364,-0.161,-1.233,-2.644],'cal/(mol*K)'),
+        H298 = (60.164,'kcal/mol'),
+        S298 = (9.723,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 4/2017, Ryan Gillis
+""",
+)
+
 tree(
 """
 L1: Radical
@@ -8970,9 +9046,13 @@ L1: Radical
                     L6: S2J-S2s-Cs
                     L6: S2J-S2s-S2s
                 L5: S2sJ-O
+            L4:S4sJ
+                L5: S4sJ-CCC
             L4:S4dJ
                 L5: S4dJ-OdH
                 L5: S4dJ-OdO
+            L4:S6sJ
+                L5: S6sJ-CCCCC
             L4:S6ddJ
                 L5: S6ddJ-OdOdH
                 L5: S6ddJ-OdOdO
