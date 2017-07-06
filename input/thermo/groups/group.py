@@ -45349,6 +45349,198 @@ u""""
 """,
 )
 
+entry(
+    index = 2032,
+    label = "S4s",
+    group =
+"""
+1 * S4s   u0
+""",
+    thermo = u'S4s-CCCH',
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+Couldn't converge these geometries to calculate values and so I copied the S6s values that seem similarly unfavorable
+""",
+)
+
+entry(
+    index = 2033,
+    label = "S4s-CCCH",
+    group =
+"""
+1 * S4s   u0 p1 {2,S} {3,S} {4,S} {5,S}
+2   C     ux {1,S}
+3   C     ux {1,S}
+4   C     ux {1,S}
+5   H     u0 {1,S}
+""",
+        thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.893,11.821,12.392,12.853,13.627,14.09,14.51],'cal/(mol*K)'),
+        H298 = (82.151,'kcal/mol'),
+        S298 = (-10.446,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+calculated CBS-QB3 July 2017
+""",
+)
+
+entry(
+    index = 2034,
+    label = "S6s",
+    group =
+"""
+1 * S6s   u0
+""",
+    thermo = u'S6s-CCCCCH',
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2035,
+    label = "S6s-CCCCCH",
+    group =
+"""
+1 * S6s   u0 p0 {2,S} {3,S} {4,S} {5,S} {6,S} {7,S}
+2   C     ux {1,S}
+3   C     ux {1,S}
+4   C     ux {1,S}
+5   C     ux {1,S}
+6   C     ux {1,S}
+7   H     u0 {1,S}
+""",
+        thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.483,10.309,11.463,12.376,13.821,14.62,15.158],'cal/(mol*K)'),
+        H298 = (126.031,'kcal/mol'),
+        S298 = (-63.166,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+Calculated at CBS-QB3, June 2017
+""",
+)
+
+entry(
+    index = 2036,
+    label = "S4s-OCCH",
+    group =
+"""
+1 * S4s   u0 p1 {2,S} {3,S} {4,S} {5,S}
+2   O     ux {1,S}
+3   C     ux {1,S}
+4   C     ux {1,S}
+5   H     u0 {1,S}
+""",
+        thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.11,9.941,10.642,11.241,12.366,13.05,13.715],'cal/(mol*K)'),
+        H298 = (46.591,'kcal/mol'),
+        S298 = (-4.194,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+calculated CBS-QB3 July 2017
+""",
+)
+
+entry(
+    index = 2037,
+    label = "S6s-OCCCCH",
+    group =
+"""
+1 * S6s   u0 p0 {2,S} {3,S} {4,S} {5,S} {6,S} {7,S}
+2   O     ux {1,S}
+3   C     ux {1,S}
+4   C     ux {1,S}
+5   C     ux {1,S}
+6   C     ux {1,S}
+7   H     u0 {1,S}
+""",
+        thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.128,12.799,14.042,15.058,16.795,17.769,18.466],'cal/(mol*K)'),
+        H298 = (97.768,'kcal/mol'),
+        S298 = (-48.917,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+calculated CBS-QB3 July 2017
+""",
+)
+
+entry(
+    index = 2038,
+    label = "S6d-OdOCCH",
+    group =
+"""
+1 * S6d   u0 p0 {2,S} {3,S} {4,S} {5,D} {6,S}
+2   O     ux {1,S}
+3   C     ux {1,S}
+4   C     ux {1,S}
+5   O     ux {1,D}
+6   H     u0 {1,S}
+""",
+        thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.9,5.741,6.537,7.209,8.526,9.368,10.229],'cal/(mol*K)'),
+        H298 = (45.178,'kcal/mol'),
+        S298 = (-20.801,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+calculated CBS-QB3 July 2017
+""",
+)
+
+entry(
+    index = 2039,
+    label = "S6d-OdCCCH",
+    group =
+"""
+1 * S6d   u0 p0 {2,S} {3,S} {4,S} {5,D} {6,S}
+2   C     ux {1,S}
+3   C     ux {1,S}
+4   C     ux {1,S}
+5   O     ux {1,D}
+6   H     u0 {1,S}
+""",
+        thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.322,7.51,8.346,8.982,10.005,10.555,10.874],'cal/(mol*K)'),
+        H298 = (78.908,'kcal/mol'),
+        S298 = (-25.074,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+calculated CBS-QB3 July 2017
+""",
+)
+
+entry(
+    index = 2040,
+    label = "S6d",
+    group =
+"""
+1 * S6d   u0
+""",
+    thermo = u'S6d-OdCCCH',
+    shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
+    longDesc =
+u""""
+""",
+)
 
 tree(
 """
@@ -47373,6 +47565,15 @@ L1: R
             L4: S4d-OdOS
             L4: S4d-OdSS
             L4: S4d-OdSH
+        L3: S4s
+            L4: S4s-OCCH
+            L4: S4s-CCCH
+        L3: S6s
+            L4: S6s-CCCCCH
+            L4: S6s-OCCCCH
+        L3: S6d
+            L4: S6d-OdOCCH
+            L4: S6d-OdCCCH
         L3: S6ddd
             L4: S6ddd-OdOdOd
         L3: S6dd
