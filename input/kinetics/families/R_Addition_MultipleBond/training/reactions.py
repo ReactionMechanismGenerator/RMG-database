@@ -2752,13 +2752,13 @@ entry(
     label = "propene_1 + C6H5 <=> C9H11-6",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (17000, 'cm^3/(mol*s)'),
-        n = 2.47,
-        Ea = (0.735, 'kcal/mol'),
+        A = (3.132e+03, 'cm^3/(mol*s)'),
+        n = 2.668,
+        Ea = (0.410, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2006_Park_Phenyl_Propene""",
+    shortDesc = u"""Training reaction fit to Absorbance measurements of Buras and Chu""",
     longDesc = 
 u"""
 Taken from entry: C6H5 + C3H6 <=> i1
@@ -2769,9 +2769,9 @@ entry(
     index = 181,
     label = "propene_2 + C6H5 <=> C9H11-7",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1600, 'cm^3/(mol*s)'), n=2.64, Ea=(1.683, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(6.818e+02, 'cm^3/(mol*s)'), n=2.750, Ea=(2.279, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2006_Park_Phenyl_Propene""",
+    shortDesc = u"""Calculated using G3(MP2,CC) method of Kislov and Mebel.""",
     longDesc = 
 u"""
 Taken from entry: C6H5 + C3H6 <=> i2

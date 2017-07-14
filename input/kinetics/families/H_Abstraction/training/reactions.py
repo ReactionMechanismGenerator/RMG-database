@@ -1517,13 +1517,13 @@ entry(
     label = "C3H6-3 + C6H5 <=> C6H6 + C3H5-3",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (3.209, 'cm^3/(mol*s)'),
-        n = 3.709,
-        Ea = (6.35, 'kcal/mol'),
+        A = (5.510e-03, 'cm^3/(mol*s)'),
+        n = 4.401,
+        Ea = (4.745, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
+    shortDesc = u"""Calculated using G3(MP2,CC) method of Kislov and Mebel""",
     longDesc = 
 u"""
 Taken from entry: C6H5 + C3H6 <=> CH3CHCH + C6H6
@@ -1535,13 +1535,13 @@ entry(
     label = "C3H6-2 + C6H5 <=> C6H6 + C3H5-2",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.949, 'cm^3/(mol*s)'),
-        n = 3.696,
-        Ea = (4.575, 'kcal/mol'),
+        A = (6.725e-02, 'cm^3/(mol*s)'),
+        n = 4.149,
+        Ea = (3.361, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2012_Kislov_Phenyl_Propene_w_new_pathway""",
+    shortDesc = u"""Calculated using G3(MP2,CC) method of Kislov and Mebel""",
     longDesc = 
 u"""
 Taken from entry: C6H5 + C3H6 <=> CH3CCH2 + C6H6
@@ -1764,9 +1764,9 @@ entry(
     index = 1026,
     label = "C3H6 + C6H5 <=> C6H6 + C3H5",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.36, 'cm^3/(mol*s)'), n=3.82, Ea=(1.437, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(2.601e-01, 'cm^3/(mol*s)'), n=4.002, Ea=(1.735, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2006_Park_Phenyl_Propene""",
+    shortDesc = u"""Calculated using G3(MP2,CC) method of Kislov and Mebel""",
     longDesc = 
 u"""
 Taken from entry: C6H5 + C3H6 <=> CH2CHCH2 + C6H6
