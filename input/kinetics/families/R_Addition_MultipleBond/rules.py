@@ -67,21 +67,6 @@ entry(
 )
 
 entry(
-    index = 5,
-    label = "Cds-HH_Cds-HH;CsJ-CdHH",
-    kinetics = ArrheniusEP(
-        A = (22100, 'cm^3/(mol*s)'),
-        n = 2.41,
-        alpha = 0,
-        E0 = (11.92, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-)
-
-entry(
     index = 6,
     label = "Cds-HH_Cds-HH;CsJ-CdCsH",
     kinetics = ArrheniusEP(
