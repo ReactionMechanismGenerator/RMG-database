@@ -3940,6 +3940,7 @@ entry(
 2    Ct u1 {1,T}
 """,
     kinetics = None,
+    nodalDistance=15.0,
 )
 
 entry(
