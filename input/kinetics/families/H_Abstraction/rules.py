@@ -172,7 +172,7 @@ entry(
     shortDesc = u"""Estimate [W.H. Green]""",
     longDesc = 
 u"""
-Sumathy CBS-Q calculations. Rate expression per H atom.
+
 """,
 )
 
@@ -191,7 +191,7 @@ entry(
     shortDesc = u"""Estimate [W.H. Green]""",
     longDesc = 
 u"""
-Sumathy CBS-Q calculations. Rate expression per H atom.
+
 """,
 )
 
