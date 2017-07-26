@@ -1773,3 +1773,41 @@ Taken from entry: C6H5 + C3H6 <=> CH2CHCH2 + C6H6
 """,
 )
 
+
+
+entry(
+    index = 1027,
+    label = "C3H4 + H <=> H2 + C3H3",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (8.132e-08, 'cm^3/(mol*s)'),
+        n = 6.735,
+        Ea = (1.204, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3H3_H2_H_abstraciton""",
+    longDesc = 
+u"""
+Taken from entry: C3H4-p + H <=> C3H3 + H2
+""",
+)
+
+entry(
+    index = 1028,
+    label = "C3H4-2 + H <=> H2 + C3H3-2",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (3.943e-07, 'cm^3/(mol*s)'),
+        n = 6.484,
+        Ea = (1.904, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3H3_H2_H_abstraciton""",
+    longDesc = 
+u"""
+Taken from entry: C3H4-a + H <=> C3H3 + H2
+""",
+)
+
