@@ -3826,43 +3826,4 @@ If we allow cyclic self ring closure in both this family and Intra_R_Add_Exocycl
 duplicate reactions. Therefore, we forbid all cyclic self ring-closure (up to 10-membered rings) in this family.
 """,
 )
-
-forbidden(
-    label = "R5_DD",
-    group =
-"""
-1 *1 R!H      u1 {2,D}
-2 *4 Cdd      u0 {1,D} {3,D}
-3 *5 Cd       u0 {2,D} {4,[S,D,T,B]}
-4 *2 R!H      u0 {3,[S,D,T,B]} {5,[D,T,B]}
-5 *3 R!H      u0 {4,[D,T,B]}
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-The ring being formed has 5 atoms in.
-Starting at the radical site, the first two bonds are double, then double. (The next is a single)
-The multiple bond being attacked is a multiple bond (to another atom).
-""",
-)
-
-forbidden(
-    label = "R5_SD_S_T",
-    group =
-"""
-1 *1 R!H      u1 {2,S}
-2 *4 Cd       u0 {1,S} {3,D}
-3 *5 Cd       u0 {2,D} {4,S}
-4 *2 Ct       u0 {3,S} {5,T}
-5 *3 Ct       u0 {4,T}
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-The ring being formed has 5 atoms in.
-Starting at the radical site, the first two bonds are single, then double. (The next is a single)
-The multiple bond being attacked is a triple bond (to another atom).
-The is the resonance form of the previous one.
-""",
-)
 ##########
