@@ -2591,3 +2591,192 @@ calculations done at the QCISD/6-311G(d,p) level
 """,
 )
 
+entry(
+    index = 1058,
+    label = "CPO-2_r + OH <=> H2O_p + CPO-2_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.34e3, 'cm^3/(mol*s)'), n=3.04, Ea=(6792.5, 'J/mol'), T0=(1, 'K'), Tmin=(500,'K'), Tmax = (2000,'K')),
+    rank = 3,
+    shortDesc = u"""G4 level calculation""",
+    longDesc = """
+    Zhou et al. 2016, Journal of Physical Chemistry A
+    Toward the Development of a Fundamentally Based Chemical Model for Cyclopentanone: 
+        High-Pressure-Limit Rate Constants for H Atom Abstraction and Fuel Radical 
+        Decomposition 
+    G4 level calculations
+    """
+)
+    
+entry(
+    index = 1059,
+    label = "CPO-3_r + OH <=> H2O_p + CPO-3_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.13e5, 'cm^3/(mol*s)'), n=2.58, Ea=(5204.6, 'J/mol'), T0=(1, 'K'), Tmin=(500,'K'), Tmax = (2000,'K')),
+    rank = 3,
+    shortDesc = u"""G4 level calculation""",
+    longDesc = """
+    Zhou et al. 2016, Journal of Physical Chemistry A
+    Toward the Development of a Fundamentally Based Chemical Model for Cyclopentanone: 
+        High-Pressure-Limit Rate Constants for H Atom Abstraction and Fuel Radical 
+        Decomposition 
+    G4 level calculations
+    """
+)
+    
+entry(
+    index = 1060,
+    label = "CPO-2_r + HO2_r3 <=> H2O2 + CPO-2_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(9.91e-4, 'cm^3/(mol*s)'), n=4.74, Ea=(-4.19026e4, 'J/mol'), T0=(1, 'K'), Tmin=(500,'K'), Tmax = (2000,'K')),
+    rank = 3,
+    shortDesc = u"""G4 level calculation""",
+    longDesc = """
+    Zhou et al. 2016, Journal of Physical Chemistry A
+    Toward the Development of a Fundamentally Based Chemical Model for Cyclopentanone: 
+        High-Pressure-Limit Rate Constants for H Atom Abstraction and Fuel Radical 
+        Decomposition 
+    G4 level calculations
+    """
+)
+  
+entry(
+    index = 1061,
+    label = "CPO-3_r + HO2_r3 <=> H2O2 + CPO-3_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5.45e-2, 'cm^3/(mol*s)'), n=4.27, Ea=(-4.95265e4, 'J/mol'), T0=(1, 'K'), Tmin=(500,'K'), Tmax = (2000,'K')),
+    rank = 3,
+    shortDesc = u"""G4 level calculation""",
+    longDesc = """
+    Zhou et al. 2016, Journal of Physical Chemistry A
+    Toward the Development of a Fundamentally Based Chemical Model for Cyclopentanone: 
+        High-Pressure-Limit Rate Constants for H Atom Abstraction and Fuel Radical 
+        Decomposition 
+    G4 level calculations
+    """
+)
+
+entry(
+    index = 1062,
+    label = "CPO-2_r + H <=> H2_p + CPO-2_p",
+    degeneracy = 1,
+    kinetics = MultiArrhenius(
+        arrhenius = [
+            Arrhenius(A=(2.64e6, 'cm^3/(mol*s)'), n=2.185, Ea=(18.1, 'kJ/mol'), T0=(1, 'K'), Tmin=(500,'K'), Tmax = (2000,'K')),
+            Arrhenius(A=(3.39e6, 'cm^3/(mol*s)'), n=2.121, Ea=(10.8, 'kJ/mol'), T0 = (1, 'K'), Tmin=(500,'K'), Tmax = (2000,'K'))
+        ],
+    ),
+    rank = 3,
+    shortDesc = u"""G4 level calculation""",
+    longDesc = """
+    Zhou et al. 2016, Journal of Physical Chemistry A
+    Toward the Development of a Fundamentally Based Chemical Model for Cyclopentanone: 
+        High-Pressure-Limit Rate Constants for H Atom Abstraction and Fuel Radical 
+        Decomposition 
+    G4 level calculations
+    """
+)
+
+entry(
+    index = 1063,
+    label = "CPO-3_r + H <=> H2_p + CPO-3_p",
+    degeneracy = 1,
+    kinetics = MultiArrhenius(
+        arrhenius = [
+            Arrhenius(A=(2.05e6, 'cm^3/(mol*s)'), n=2.259, Ea=(24.6, 'kJ/mol'), T0=(1, 'K'), Tmin=(500,'K'), Tmax = (2000,'K')),
+            Arrhenius(A=(1.71e6, 'cm^3/(mol*s)'), n=2.263, Ea=(18.5, 'kJ/mol'), T0 = (1, 'K'), Tmin=(500,'K'), Tmax = (2000,'K'))
+        ],
+    ),
+    rank = 3,
+    shortDesc = u"""G4 level calculation""",
+    longDesc = """
+    Zhou et al. 2016, Journal of Physical Chemistry A
+    Toward the Development of a Fundamentally Based Chemical Model for Cyclopentanone: 
+        High-Pressure-Limit Rate Constants for H Atom Abstraction and Fuel Radical 
+        Decomposition 
+    G4 level calculations
+    """
+)
+        
+entry(
+    index = 1064,
+    label = "CPO-2_r + O_rad <=> OH + CPO-2_p",
+    degeneracy = 1,
+    kinetics = MultiArrhenius(
+        arrhenius = [
+            Arrhenius(A=(2.09e5, 'cm^3/(mol*s)'), n=2.501, Ea=(15.8, 'kJ/mol'), T0=(1, 'K'), Tmin=(500,'K'), Tmax = (2000,'K')),
+            Arrhenius(A=(1.33e5, 'cm^3/(mol*s)'), n=2.389, Ea=(8.6, 'kJ/mol'), T0 = (1, 'K'), Tmin=(500,'K'), Tmax = (2000,'K'))
+        ],
+    ),
+    rank = 3,
+    shortDesc = u"""G4 level calculation""",
+    longDesc = """
+    Zhou et al. 2016, Journal of Physical Chemistry A
+    Toward the Development of a Fundamentally Based Chemical Model for Cyclopentanone: 
+        High-Pressure-Limit Rate Constants for H Atom Abstraction and Fuel Radical 
+        Decomposition 
+    G4 level calculations
+    """
+)    
+
+entry(
+    index = 1065,
+    label = "CPO-3_r + O_rad <=> OH + CPO-3_p",
+    degeneracy = 1,
+    kinetics = MultiArrhenius(
+        arrhenius = [
+            Arrhenius(A=(5.14e4, 'cm^3/(mol*s)'), n=2.629, Ea=(10.9, 'kJ/mol'), T0=(1, 'K'), Tmin=(500,'K'), Tmax = (2000,'K')),
+            Arrhenius(A=(7.03e4, 'cm^3/(mol*s)'), n=2.522, Ea=(6.6, 'kJ/mol'), T0 = (1, 'K'), Tmin=(500,'K'), Tmax = (2000,'K'))
+        ],
+    ),
+    rank = 3,
+    shortDesc = u"""G4 level calculation""",
+    longDesc = """
+    Zhou et al. 2016, Journal of Physical Chemistry A
+    Toward the Development of a Fundamentally Based Chemical Model for Cyclopentanone: 
+        High-Pressure-Limit Rate Constants for H Atom Abstraction and Fuel Radical 
+        Decomposition 
+    G4 level calculations
+    """
+)      
+
+entry(
+    index = 1066,
+    label = "CPO-2_r + CH3_r3 <=> CH4 + CPO-2_p",
+    degeneracy = 1,
+    kinetics = MultiArrhenius(
+        arrhenius = [
+            Arrhenius(A=(5.49e1, 'cm^3/(mol*s)'), n=3.270, Ea=(25.2, 'kJ/mol'), T0=(1, 'K'), Tmin=(500,'K'), Tmax = (2000,'K')),
+            Arrhenius(A=(3.38e1, 'cm^3/(mol*s)'), n=3.232, Ea=(18.7, 'kJ/mol'), T0 = (1, 'K'), Tmin=(500,'K'), Tmax = (2000,'K'))
+        ],
+    ),
+    rank = 3,
+    shortDesc = u"""G4 level calculation""",
+    longDesc = """
+    Zhou et al. 2016, Journal of Physical Chemistry A
+    Toward the Development of a Fundamentally Based Chemical Model for Cyclopentanone: 
+        High-Pressure-Limit Rate Constants for H Atom Abstraction and Fuel Radical 
+        Decomposition 
+    G4 level calculations
+    """
+)    
+
+entry(
+    index = 1067,
+    label = "CPO-3_r + CH3_r3 <=> CH4 + CPO-3_p",
+    degeneracy = 1,
+    kinetics = MultiArrhenius(
+        arrhenius = [
+            Arrhenius(A=(8.48, 'cm^3/(mol*s)'), n=3.483, Ea=(33.2, 'kJ/mol'), T0=(1, 'K'), Tmin=(500,'K'), Tmax = (2000,'K')),
+            Arrhenius(A=(9.69, 'cm^3/(mol*s)'), n=3.468, Ea=(28.7, 'kJ/mol'), T0 = (1, 'K'), Tmin=(500,'K'), Tmax = (2000,'K'))
+        ],
+    ),
+    rank = 3,
+    shortDesc = u"""G4 level calculation""",
+    longDesc = """
+    Zhou et al. 2016, Journal of Physical Chemistry A
+    Toward the Development of a Fundamentally Based Chemical Model for Cyclopentanone: 
+        High-Pressure-Limit Rate Constants for H Atom Abstraction and Fuel Radical 
+        Decomposition 
+    G4 level calculations
+    """
+)  
