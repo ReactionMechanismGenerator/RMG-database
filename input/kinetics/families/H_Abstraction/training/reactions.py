@@ -2594,7 +2594,7 @@ calculations done at the QCISD/6-311G(d,p) level
 entry(
     index = 1058,
     label = "CPO-2_r + OH <=> H2O_p + CPO-2_p",
-    degeneracy = 1,
+    degeneracy = 4,
     kinetics = Arrhenius(A=(2.34e3, 'cm^3/(mol*s)'), n=3.04, Ea=(6792.5, 'J/mol'), T0=(1, 'K'), Tmin=(500,'K'), Tmax = (2000,'K')),
     rank = 3,
     shortDesc = u"""G4 level calculation""",
@@ -2610,7 +2610,7 @@ entry(
 entry(
     index = 1059,
     label = "CPO-3_r + OH <=> H2O_p + CPO-3_p",
-    degeneracy = 1,
+    degeneracy = 4,
     kinetics = Arrhenius(A=(1.13e5, 'cm^3/(mol*s)'), n=2.58, Ea=(5204.6, 'J/mol'), T0=(1, 'K'), Tmin=(500,'K'), Tmax = (2000,'K')),
     rank = 3,
     shortDesc = u"""G4 level calculation""",
@@ -2626,7 +2626,7 @@ entry(
 entry(
     index = 1060,
     label = "CPO-2_r + HO2_r3 <=> H2O2 + CPO-2_p",
-    degeneracy = 1,
+    degeneracy = 4,
     kinetics = Arrhenius(A=(9.91e-4, 'cm^3/(mol*s)'), n=4.74, Ea=(-4.19026e4, 'J/mol'), T0=(1, 'K'), Tmin=(500,'K'), Tmax = (2000,'K')),
     rank = 3,
     shortDesc = u"""G4 level calculation""",
@@ -2642,7 +2642,7 @@ entry(
 entry(
     index = 1061,
     label = "CPO-3_r + HO2_r3 <=> H2O2 + CPO-3_p",
-    degeneracy = 1,
+    degeneracy = 4,
     kinetics = Arrhenius(A=(5.45e-2, 'cm^3/(mol*s)'), n=4.27, Ea=(-4.95265e4, 'J/mol'), T0=(1, 'K'), Tmin=(500,'K'), Tmax = (2000,'K')),
     rank = 3,
     shortDesc = u"""G4 level calculation""",
