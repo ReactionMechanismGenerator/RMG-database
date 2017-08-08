@@ -1233,3 +1233,44 @@ Ethylamine paper
 """,
 )
 
+
+
+entry(
+    index = 76,
+    label = "C5H7O <=> C2H2O-2 + allyl",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.5e+11, '1/s'), n=0, Ea=(68.7, 'kJ/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: ZhouCyclopentanone""",
+    longDesc = 
+u"""
+Taken from entry: RO4 <=> RO5 + CH2CO
+""",
+)
+
+entry(
+    index = 77,
+    label = "C5H7O-2 <=> ethene + C3H3O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.68e+14, '1/s'), n=0, Ea=(105.7, 'kJ/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: ZhouCyclopentanone""",
+    longDesc = 
+u"""
+Taken from entry: RO1 <=> RO8 + C2H4
+""",
+)
+
+entry(
+    index = 78,
+    label = "C5H7O-3 <=> ethene + C3H3O-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.69e+13, '1/s'), n=0, Ea=(104.6, 'kJ/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: ZhouCyclopentanone""",
+    longDesc = 
+u"""
+Taken from entry: RO2 <=> RO9 + C2H4
+""",
+)
+

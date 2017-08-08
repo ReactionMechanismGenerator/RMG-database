@@ -1295,3 +1295,57 @@ coefficient computed TST with Eckart Tunnelling"
 """,
 )
 
+
+
+entry(
+    index = 53,
+    label = "C5H7O <=> C5H7O-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.32e+14, '1/s'), n=0, Ea=(169.5, 'kJ/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: ZhouCyclopentanone""",
+    longDesc = 
+u"""
+Taken from entry: CPO-2 <=> RO1
+""",
+)
+
+entry(
+    index = 54,
+    label = "C5H7O-3 <=> C5H7O-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9.5e+13, '1/s'), n=0, Ea=(153.5, 'kJ/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: ZhouCyclopentanone""",
+    longDesc = 
+u"""
+Taken from entry: CPO-2 <=> RO2
+""",
+)
+
+entry(
+    index = 55,
+    label = "C5H7O-5 <=> C5H7O-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.39e+13, '1/s'), n=0, Ea=(138.1, 'kJ/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: ZhouCyclopentanone""",
+    longDesc = 
+u"""
+Taken from entry: CPO-3 <=> RO3
+""",
+)
+
+entry(
+    index = 56,
+    label = "C5H7O-7 <=> C5H7O-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.72e+13, '1/s'), n=0, Ea=(121.8, 'kJ/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: ZhouCyclopentanone""",
+    longDesc = 
+u"""
+Taken from entry: CPO-3 <=> RO4
+""",
+)
+
