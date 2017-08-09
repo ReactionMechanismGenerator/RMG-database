@@ -3927,12 +3927,12 @@ entry(
     label = "cyclohex_1_yne_3_ene",
     group =
 """
-1 * Ct u0 {2,T} {6,S}
-2   Ct u0 {1,T} {3,S}
-3   Cd u0 {2,S} {4,D}
-4   Cd u0 {3,D} {5,S}
-5   [C,Os] u0 {4,S} {6,S}
-6   [C,Os] u0 {1,S} {5,S}
+1 * Ct      u0 {2,T} {6,S}
+2   Ct      u0 {1,T} {3,S}
+3   Cd      u0 {2,S} {4,D}
+4   Cd      u0 {3,D} {5,S}
+5   [C,O2s] u0 {4,S} {6,S}
+6   [C,O2s] u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4020,12 +4020,12 @@ entry(
     label = "cyclohexyne",
     group =
 """
-1 * Ct u0 {2,T} {6,S}
-2   Ct u0 {1,T} {3,S}
-3   [C,Os] u0 {2,S} {4,S}
-4   [C,Os] u0 {3,S} {5,S}
-5   [C,Os] u0 {4,S} {6,S}
-6   [C,Os] u0 {1,S} {5,S}
+1 * Ct      u0 {2,T} {6,S}
+2   Ct      u0 {1,T} {3,S}
+3   [C,O2s] u0 {2,S} {4,S}
+4   [C,O2s] u0 {3,S} {5,S}
+5   [C,O2s] u0 {4,S} {6,S}
+6   [C,O2s] u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4045,12 +4045,12 @@ entry(
     label = "cyclohex_1_yne_4_ene",
     group =
 """
-1 * Ct u0 {2,T} {6,S}
-2   Ct u0 {1,T} {3,S}
-3   [C,Os] u0 {2,S} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   [C,Os] u0 {1,S} {5,S}
+1 * Ct      u0 {2,T} {6,S}
+2   Ct      u0 {1,T} {3,S}
+3   [C,O2s] u0 {2,S} {4,S}
+4   Cd      u0 {3,S} {5,D}
+5   Cd      u0 {4,D} {6,S}
+6   [C,O2s] u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4070,12 +4070,12 @@ entry(
     label = "1_3_cyclohexadiyne",
     group =
 """
-1 * Ct u0 {2,T} {6,S}
-2   Ct u0 {1,T} {3,S}
-3   Ct u0 {2,S} {4,T}
-4   Ct u0 {3,T} {5,S}
-5   [C,Os] u0 {4,S} {6,S}
-6   [C,Os] u0 {1,S} {5,S}
+1 * Ct      u0 {2,T} {6,S}
+2   Ct      u0 {1,T} {3,S}
+3   Ct      u0 {2,S} {4,T}
+4   Ct      u0 {3,T} {5,S}
+5   [C,O2s] u0 {4,S} {6,S}
+6   [C,O2s] u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4095,12 +4095,12 @@ entry(
     label = "124cyclohexatriene",
     group =
 """
-1   Cd      u0 {2,D} {6,S}
-2 * Cdd     u0 {1,D} {3,D}
-3   Cd      u0 {2,D} {4,S}
-4   [Cs,Os] u0 {3,S} {5,S}
-5   Cd      u0 {4,S} {6,D}
-6   Cd      u0 {1,S} {5,D}
+1   Cd       u0 {2,D} {6,S}
+2 * Cdd      u0 {1,D} {3,D}
+3   Cd       u0 {2,D} {4,S}
+4   [Cs,O2s] u0 {3,S} {5,S}
+5   Cd       u0 {4,S} {6,D}
+6   Cd       u0 {1,S} {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),

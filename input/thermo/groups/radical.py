@@ -8358,10 +8358,10 @@ entry(
     label = "OC=CJCb",
     group =
 """
-1 * Cd u1 {2,D} {3,S}
-2   C  u0 {1,D} {4,S}
-3   Cb u0 {1,S}
-4   Os u0 {2,S}
+1 * Cd  u1 {2,D} {3,S}
+2   C   u0 {1,D} {4,S}
+3   Cb  u0 {1,S}
+4   O2s u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
