@@ -2976,18 +2976,6 @@ entry(
 )
 
 entry(
-    index = 268,
-    label = "Cd_rad_out_double_benzene",
-    group = 
-"""
-1 *1 Cd       u1 {2,D}
-2    [Cd,Cdd] u0 {1,D} {3,S}
-3    Cb       u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 190,
     label = "Cd_rad_out_double",
     group = 
@@ -4611,9 +4599,8 @@ L1: Y_rad_out
     L2: Cd_rad_out
         L3: Cd_rad_out_double
             L4: Cd_rad_out_Cd
-		L5: Cd_rad_out_Cd_Cb
-		L5: Cd_rad_out_Cd_sec_ring
-	    L4: Cd_rad_out_double_benzene
+                L5: Cd_rad_out_Cd_Cb
+                L5: Cd_rad_out_Cd_sec_ring
         L3: Cd_rad_out_single
             L4: Cd_rad_out_singleH
             L4: Cd_rad_out_singleNd
@@ -4674,23 +4661,6 @@ L1: XH_out
             L4: Cs_H_out_OOH/Cs
             L4: Cs_H_out_OOH/H
         L3: Cs_H_out_2H
-            L4: Cs_H_out_2H/NonDeC
-        L3: Cs_H_out_1H
-            L4: Cs_H_out_H/NonDeC
-                L5: Cs_H_out_H/(NonDeC/Cs)
-                    L6: Cs_H_out_H/(NonDeC/Cs/Cs)
-                        L7: Cs_H_out_H/(NonDeC/Cs/Cs/Cs)
-                L5: Cs_H_out_H/(NonDeC/O)
-            L4: Cs_H_out_H/NonDeS
-            L4: Cs_H_out_H/OneDe
-                L5: Cs_H_out_H/Ct
-                L5: Cs_H_out_H/CO
-                L5: Cs_H_out_H/CS
-                L5: Cs_H_out_H/(Cd-Cd-Cd-Cd-Cd)
-                L5: Cs_H_out_H/(Cd-Cd-Cd)
-                L5: Cs_H_out_H/Cd
-		    L6: Cs_H_out_H/Cd/C/Cb	
-            L4: Cs_H_out_H/AromDe
         L3: Cs_H_out_noH
             L4: Cs_H_out_NonDe
                 L5: Cs_H_out_Cs2
@@ -4722,8 +4692,11 @@ L1: XH_out
                 L5: Cs_H_out_H/Ct
                 L5: Cs_H_out_H/CO
                 L5: Cs_H_out_H/CS
+                L5: Cs_H_out_H/(Cd-Cd-Cd-Cd-Cd)
+                L5: Cs_H_out_H/(Cd-Cd-Cd)
                 L5: Cs_H_out_H/Cd
-        L3: Cs_H_out_2H   
+                    L6: Cs_H_out_H/Cd/C/Cb	
+            L4: Cs_H_out_H/AromDe
 """
 )
 
