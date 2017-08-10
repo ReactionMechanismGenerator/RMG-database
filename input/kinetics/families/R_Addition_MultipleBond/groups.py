@@ -17043,7 +17043,7 @@ entry(
     label = "CsJ-(CdC)HH",
     group =
 """
-1 *3 C  u1 {2,S} {3,S} {4,S}
+1 *3 C  u1 p0 {2,S} {3,S} {4,S}
 2    Cd u0 {1,S} {5,D} {6,S}
 3    H  u0 {1,S}
 4    H  u0 {1,S}
@@ -17320,7 +17320,7 @@ entry(
     label = "CdsJ-(CdCb)H",
     group = 
 """
-1 *3 Cd u1 {2,D} {3,S}
+1 *3 Cd u1 p0 {2,D} {3,S}
 2    Cd u0 {1,D} {4,S} {5,S}
 3    H u0 {1,S}
 4    Cb u0 {2,S}
