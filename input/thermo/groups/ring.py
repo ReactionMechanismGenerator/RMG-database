@@ -661,60 +661,6 @@ u"""
 )
 
 entry(
-    index = 14,
-    label = "Cyclobutene2",
-    group = 
-"""
-1   [Cs,N3s] u0 {2,S} {4,S}
-2 * [Cd,N3d] u0 {1,S} {3,D}
-3   [Cd,N3d] u0 {2,D} {4,S}
-4   [Cs,N3s] u0 {1,S} {3,S}
-""",
-    thermo = u'Cyclobutene',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 14,
-    label = "Cyclobutadiene2",
-    group = 
-"""
-1   [Cs,N3s] u0 {2,S} {4,S}
-2 * [Cd,N3d] u0 {1,S} {3,D}
-3   Cdd      u0 {2,D} {4,D}
-4   [Cd,N3d] u0 {1,S} {3,D}
-""",
-    thermo = u'Cyclobutene',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 14,
-    label = "Cyclobutadiene3",
-    group = 
-"""
-1 * [Cs,N3s] u0 {2,S} {4,S}
-2   [Cd,N3d] u0 {1,S} {3,D}
-3   Cdd      u0 {2,D} {4,D}
-4   [Cd,N3d] u0 {1,S} {3,D}
-""",
-    thermo = u'Cyclobutene',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 70,
     label = "Oxetane",
     group = 
@@ -3894,14 +3840,14 @@ Use cyclohexyne correction for any 6-membered ring containing 1 triple bond
 
 entry(
     index = 96,
-    label = "six-inringonetripleonedouble",
+    label = "six-inringonetripleonedouble-13",
     group =
 """
 1 * Ct u0 {2,T} {6,S}
 2   Ct u0 {1,T} {3,S}
-3   R!H u0 {2,S} {4,[S,D]}
-4   R!H u0 {3,[S,D]} {5,[S,D]}
-5   R!H u0 {4,[S,D]} {6,[S,D]}
+3   R!H u0 {2,S} {4,D}
+4   R!H u0 {3,D} {5,S}
+5   R!H u0 {4,S} {6,[S,D]}
 6   R!H u0 {1,S} {5,[S,D]}
 """,
     thermo = u'cyclohex_1_yne_3_ene',
@@ -3909,7 +3855,70 @@ entry(
     longDesc =
 u"""
 Use cyclohex_1_yne_3_ene correction for any 6-membered ring containing at least one triple bond
-and one double bond.
+and one double bond in the 1,3-positions.
+""",
+)
+
+entry(
+    index = 171,
+    label = "six-inringonetripleonedouble-14",
+    group =
+"""
+1 * Ct u0 {2,T} {6,S}
+2   Ct u0 {1,T} {3,S}
+3   R!H u0 {2,S} {4,S}
+4   R!H u0 {3,S} {5,D}
+5   R!H u0 {4,D} {6,S}
+6   R!H u0 {1,S} {5,S}
+""",
+    thermo = u'cyclohex_1_yne_4_ene',
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Use cyclohex_1_yne_4_ene correction for any 6-membered ring containing at least one triple bond
+and one double bond in the 1,4-positions.
+""",
+)
+
+entry(
+    index = 172,
+    label = "six-inringonetripletwodouble-134",
+    group =
+"""
+1 * Ct u0 {2,T} {6,S}
+2   Ct u0 {1,T} {3,S}
+3   R!H u0 {2,S} {4,D}
+4   R!H u0 {3,D} {5,D}
+5   R!H u0 {4,D} {6,S}
+6   R!H u0 {1,S} {5,S}
+""",
+    thermo = u'cyclohex_1_yne_3_ene',
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Use cyclohex_1_yne_3_ene correction for any 6-membered ring containing at least one triple bond
+and two double bonds in the 1,3,4-positions.
+""",
+)
+
+entry(
+    index = 173,
+    label = "six-inringonetriplethreedouble-1345",
+    group =
+"""
+1 * Ct u0 {2,T} {6,S}
+2   Ct u0 {1,T} {3,S}
+3   R!H u0 {2,S} {4,D}
+4   R!H u0 {3,D} {5,D}
+5   R!H u0 {4,D} {6,D}
+6   R!H u0 {1,S} {5,D}
+""",
+    thermo = u'cyclohex_1_yne_3_ene',
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Use cyclohex_1_yne_3_ene correction for any 6-membered ring containing at least one triple bond
+and three double bonds in the 1,3,4,5-positions.
 """,
 )
 
@@ -4180,9 +4189,9 @@ entry(
     label = "four-inringonedouble",
     group =
 """
-1 * R!H u0 {2,D} {4,S}
+1   R!H u0 {2,D} {4,S}
 2   R!H u0 {1,D} {3,S}
-3   R!H u0 {2,S} {4,S}
+3 * R!H u0 {2,S} {4,S}
 4   R!H u0 {1,S} {3,S}
 """,
     thermo = u'Cyclobutene',
@@ -4427,20 +4436,15 @@ L1: Ring
         L3: 12Methylenecyclopropane
     L2: FourMember
         L3: Cyclobutane
-        L3: Cyclobutene
-        L3: Cyclobutene2
-        L3: cyclobutadiene
-        L3: Cyclobutadiene2
-        L3: Cyclobutadiene3
         L3: 34methylenecyclobutene
+        L3: dioxerene
+        L3: Oxetene
         L3: four-inringonedouble
             L4: Cyclobutene
         L3: Oxetane
-		L3: Oxetene
         L3: Beta-Propiolactone
         L3: Cyclobutanone
         L3: 12dioxetane
-        L3: dioxerene
         L3: four-inringtwodouble
             L4: cyclobutadiene_13
         L3: cyclobutadiene_12
@@ -4454,7 +4458,6 @@ L1: Ring
         L3: methylenecyclobutane
         L3: 2methyleneoxetane
         L3: 12methylenecyclobutane
-        L3: Cyclobutene
     L2: FiveMember
         L3: Cyclopentane
         L3: Cyclopentene
@@ -4549,10 +4552,13 @@ L1: Ring
         L3: 3,4-dimethylenecyclohexene
         L3: six-inringonetriple
             L4: cyclohexyne
-        L3: six-inringonetripleonedouble
-            L4: cyclohex_1_yne_4_ene
+        L3: six-inringonetripleonedouble-13
             L4: cyclohex_1_yne_3_ene
             L4: o_benzyne
+        L3: six-inringonetripleonedouble-14
+            L4: cyclohex_1_yne_4_ene
+        L3: six-inringonetripletwodouble-134
+        L3: six-inringonetriplethreedouble-1345
         L3: six-inringtwotriple-13
             L4: 1_3_cyclohexadiyne
     L2: SevenMember
