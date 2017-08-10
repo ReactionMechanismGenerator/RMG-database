@@ -23,7 +23,7 @@ entry(
 """
 1 *1 C 	 u1 {2,S}
 2 *3 C   u0 {1,S} {3,S}
-3 *2 Cb  u0 {2,S} {4,B}
+3 *2 Cb  u0 {2,S} 
 """,
     kinetics = None,
 )
