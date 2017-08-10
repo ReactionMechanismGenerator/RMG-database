@@ -8178,7 +8178,7 @@ u"""
 entry(
     index = 3000,
     label = "RJ2_singlet",
-    group = "OR{CH2_singlet, Oa_singlet, SiJ2_singlet, SJ2_singlet, NJ2_singlet, CO, CdJ2-Sd_singlet}",
+    group = "OR{CH2_singlet, Oa_singlet, SiJ2_singlet, SJ2_singlet, CO, CdJ2-Sd_singlet}",
     thermo = u'CH2_singlet',
     shortDesc = u"""""",
     longDesc = 
