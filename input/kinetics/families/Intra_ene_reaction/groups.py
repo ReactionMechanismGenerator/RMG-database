@@ -17,6 +17,9 @@ recipe(actions=[
     ['CHANGE_BOND', '*1', 1, '*5'],
     ['CHANGE_BOND', '*4', 1, '*3'],
 ])
+
+boundaryAtoms = ["*1", "*2"]
+
 entry(
     index = 1,
     label = "1_3_unsaturated_pentane_backbone",

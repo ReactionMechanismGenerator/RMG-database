@@ -18,6 +18,8 @@ recipe(actions=[
     ['CHANGE_BOND', '*1', 1, '*2'],
 ])
 
+boundaryAtoms = ["*1", "*2"]
+
 entry(
     index = 1,
     label = "singletcarbene_CH",

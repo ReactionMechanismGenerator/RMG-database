@@ -29,6 +29,8 @@ recipe(actions=[
     ['GAIN_PAIR', '*6', '1'],
 ])
 
+boundaryAtoms = ["*1", "*7"]
+
 entry(
     index = 1,
     label = "1_3_hexadien_5_yne",

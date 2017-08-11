@@ -21,6 +21,9 @@ recipe(actions=[
     ['CHANGE_BOND', '*4', 1, '*3'],
     ['GAIN_PAIR', '*2', '1']
 ])
+
+boundaryAtoms = ["*1", "*2"]
+
 entry(
     index = 1,
     label = "CPD_backbone",
