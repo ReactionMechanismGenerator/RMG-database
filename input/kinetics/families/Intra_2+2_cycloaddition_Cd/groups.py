@@ -18,6 +18,8 @@ recipe(actions=[
     ['CHANGE_BOND', '*2', 1, '*4'],
 ])
 
+boundaryAtoms = ["*1", "*3"]
+
 entry(
     index = 1,
     label = "1,3-butadiene_backbone",

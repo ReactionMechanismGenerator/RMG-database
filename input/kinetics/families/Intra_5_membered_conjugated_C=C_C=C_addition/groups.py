@@ -25,6 +25,8 @@ recipe(actions=[
 
 ])
 
+boundaryAtoms = ["*1", "*2"]
+
 entry(
     index = 1,
     label = "C=C=C-C=C",

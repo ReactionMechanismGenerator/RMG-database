@@ -21,6 +21,8 @@ recipe(actions=[
     ['FORM_BOND', '*1', 1, '*6'],
 ])
 
+boundaryAtoms = ["*1", "*6"]
+
 entry(
     index = 1,
     label = "1_3_5_unsaturated_hexane",
