@@ -4348,13 +4348,13 @@ entry(
 1  *5 Cb u0 {2,B} {3,S} {4,B}
 2  Cb u0 {1,B} {5,B} {6,S}
 3  *4 Cd u0 {1,S} {7,S} {10,D}
-4  *2 Cb u0 {1,B} {8,B} {11,S}
+4  *2 R!H u0 {1,B} {8,B} {11,S}
 5  Cb u0 {2,B} {9,B}
 6  Cd u0 {2,S} {7,D}
 7  Cd u0 {3,S} {6,D}
 8  Cb u0 {4,B} {9,B}
 9  Cb u0 {5,B} {8,B}
-10 *1 Cd u1 {3,D}
+10 *1 R!H u1 {3,D}
 11 *3 H u0 {4,S}
 """,
     kinetics = None,
@@ -4371,10 +4371,10 @@ entry(
 4  Cb u0 {1,B} {8,B}
 5  Cb u0 {2,B} {9,B}
 6  Cd u0 {2,S} {7,D}
-7  *2 Cd u0 {3,S} {6,D} {11,S}
+7  *2 R!H u0 {3,S} {6,D} {11,S}
 8  Cb u0 {4,B} {9,B}
 9  Cb u0 {5,B} {8,B}
-10 *1 Cd u1 {3,D}
+10 *1 R!H u1 {3,D}
 11 *3 H u0 {7,S}
 """,
     kinetics = None,
