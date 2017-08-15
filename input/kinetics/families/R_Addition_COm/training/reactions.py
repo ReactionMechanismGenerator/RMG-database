@@ -27,3 +27,23 @@ Taken from entry: benzyl + CO <=> i20
 """,
 )
 
+
+
+entry(
+    index = 2,
+    label = "CO + CH3 <=> C2H3O",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.634e+07, 'cm^3/(mol*s)'),
+        n = 1.512,
+        Ea = (6.013, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2006_Senosiain_H_CH2CO_High_P""",
+    longDesc = 
+u"""
+Taken from entry: CH3 + CO <=> CH3CO
+""",
+)
+

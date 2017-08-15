@@ -3038,3 +3038,41 @@ Taken from entry: C6H5 + C4H2 <=> i5.  CBS-QB3 calculated with 1D-HR.
 """,
 )
 
+
+
+entry(
+    index = 196,
+    label = "C2H2O-3 + H <=> C2H3O",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.82e-16, 'cm^3/(molecule*s)'),
+        n = 1.61,
+        Ea = (10992, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2006_Senosiain_H_CH2CO_High_P""",
+    longDesc = 
+u"""
+Taken from entry: H + CH2CO <=> CH3CO
+""",
+)
+
+entry(
+    index = 197,
+    label = "C2H2O + H <=> C2H3O-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.3e-15, 'cm^3/(molecule*s)'),
+        n = 1.43,
+        Ea = (25318, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2006_Senosiain_H_CH2CO_High_P""",
+    longDesc = 
+u"""
+Taken from entry: H + CH2CO <=> CH2CHO
+""",
+)
+
