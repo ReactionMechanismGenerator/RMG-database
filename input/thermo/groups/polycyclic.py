@@ -2492,6 +2492,46 @@ Fitted from species product42 from vinylCPD_H library.
 )
 
 entry(
+    index = 65,
+    label = "s2_3_5_diene",
+    group = "OR{s2_3_5_diene_0_2}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 65,
+    label = "s2_3_5_diene_0_2",
+    group=
+    """
+    1 * R!H u0 {2,S} {3,S} {5,S}
+    2   R!H u0 {1,S} {3,S} {4,D}
+    3   R!H u0 {1,S} {2,S}
+    4   R!H u0 {2,D} {6,S}
+    5   R!H u0 {1,S} {6,D}
+    6   R!H u0 {4,S} {5,D}
+    """,
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-7.289, -6.524, -6.162, -6.421, -5.93, -4.094, -3.76], 'cal/(mol*K)'),
+        H298=(68.847, 'kcal/mol'),
+        S298=(65.182, 'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations for "Intermediate B" of:
+
+Miller, J. A.; Klippenstein, S. J., The Recombination of Propargyl Radicals and Other Reactions on a C6H6 Potential.
+J. Phys. Chem. A 2003, 107, 7783-7799.
+""",
+)
+
+entry(
     index = 0,
     label = "s2_3_6",
     group = 
@@ -8477,6 +8517,43 @@ Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from 
 """,
 )
 
+entry(
+    index = 0,
+    label = "s2_4_4_diene",
+    group = "OR{s2_4_4_diene_1_m}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 75,
+    label = "s2_4_4_diene_1_m",
+    group =
+"""
+1   R!H u0 {2,D} {4,S} {6,S}
+2   R!H u0 {1,D} {3,S} {5,S}
+3 * R!H u0 {2,S} {4,S}
+4   R!H u0 {1,S} {3,S}
+5   R!H u0 {2,S} {6,D}
+6   R!H u0 {1,S} {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.911294694, -6.76788695, -7.426491396, -7.70704517, -6.76857218, -4.65110325, -4.246702677],'cal/(mol*K)'),
+        H298 = (134.9052041,'kcal/mol'),
+        S298 = (69.47292352,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Fitted to M06 calculations
+""",
+)
+
 tree(
 """
 L1: PolycyclicRing
@@ -8598,6 +8675,8 @@ L1: PolycyclicRing
             L4: s2_3_5_ene_1
             L4: s2_3_5_ene_side 
         L3: s2_3_5_ane
+        L3: s2_3_5_diene
+            L4: s2_3_5_diene_0_2
     L2: s2_3_6
         L3: s2_3_6_ane
         L3: s2_3_6_ene
@@ -8617,6 +8696,8 @@ L1: PolycyclicRing
         L3: s2_4_4_ene
             L4: s2_4_4_ene_1
             L4: s2_4_4_ene_m
+        L3: s2_4_4_diene
+            L4: s2_4_4_diene_1_m
     L2: s2_4_5
         L3: s2_4_5_ane
         L3: s2_4_5_ene

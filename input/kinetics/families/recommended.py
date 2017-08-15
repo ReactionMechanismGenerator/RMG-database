@@ -26,8 +26,7 @@ recommendedFamilies = {
 'Disproportionation':True,
 'HO2_Elimination_from_PeroxyRadical':True,
 'H_Abstraction':True,
-'H_shift_cyclopentadiene':True,
-'Intra_Diels_alder':True,
+'Intra_Retro_Diels_alder_bicyclic':True,
 'Intra_Disproportionation':True,
 'Intra_RH_Add_Endocyclic':False,
 'Intra_RH_Add_Exocyclic':False,
@@ -51,4 +50,12 @@ recommendedFamilies = {
 'intra_substitutionS_isomerization':True,
 'ketoenol':True,
 'lone_electron_pair_bond':True,
+'Singlet_Carbene_Intra_Disproportionation':True,
+'Intra_5_membered_conjugated_C=C_C=C_addition':True,
+'Intra_Diels_alder_monocyclic':True,
+'Concerted_Intra_Diels_alder_monocyclic_1,2_shiftH':True,
+'Intra_2+2_cycloaddition_Cd':True,
+'Intra_ene_reaction':True,
+'Cyclopentadiene_scission':True,
+'6_membered_central_C-C_shift':True
 }
