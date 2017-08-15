@@ -47,3 +47,18 @@ Taken from entry: CH3 + CO <=> CH3CO
 """,
 )
 
+
+
+entry(
+    index = 3,
+    label = "C3H5O <=> CO + C2H5",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(8.417e+12, 's^-1'), n=0.428, Ea=(15.009, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Zador_C3H5O""",
+    longDesc = 
+u"""
+Taken from entry: W8 <=> C2H5 + CO
+""",
+)
+

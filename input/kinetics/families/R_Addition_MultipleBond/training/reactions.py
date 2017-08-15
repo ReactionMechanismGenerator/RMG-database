@@ -3076,3 +3076,31 @@ Taken from entry: H + CH2CO <=> CH2CHO
 """,
 )
 
+
+
+entry(
+    index = 198,
+    label = "C3H5O-2 <=> C2H2O-3 + CH3",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.977e+09, 's^-1'), n=1.37, Ea=(41.408, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Zador_C3H5O""",
+    longDesc = 
+u"""
+Taken from entry: W8 <=> CH3 + CH2CO
+""",
+)
+
+entry(
+    index = 199,
+    label = "C3H5O-3 <=> C2H2O-4 + CH3",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.022e+12, 's^-1'), n=0.577, Ea=(41.055, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Zador_C3H5O""",
+    longDesc = 
+u"""
+Taken from entry: W10 <=> CH3 + CH2CO
+""",
+)
+
