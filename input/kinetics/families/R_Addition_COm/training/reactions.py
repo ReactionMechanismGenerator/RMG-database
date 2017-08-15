@@ -62,3 +62,18 @@ Taken from entry: W8 <=> C2H5 + CO
 """,
 )
 
+
+
+entry(
+    index = 4,
+    label = "C2H3O <=> CO + CH3",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.07e+12, 's^-1'), n=0.63, Ea=(70698, 'J/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2006_Senosiain_H_CH2CO_High_P""",
+    longDesc = 
+u"""
+Taken from entry: CH3CO <=> CH3 + CO
+""",
+)
+

@@ -3104,3 +3104,18 @@ Taken from entry: W10 <=> CH3 + CH2CO
 """,
 )
 
+
+
+entry(
+    index = 200,
+    label = "C2H3O-2 <=> C2H2O + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.43e+15, 's^-1'), n=-0.15, Ea=(190834, 'J/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2006_Senosiain_H_CH2CO_High_P""",
+    longDesc = 
+u"""
+Taken from entry: CH2CHO <=> H + CH2CO
+""",
+)
+
