@@ -7,3 +7,26 @@ longDesc = u"""
 Put kinetic parameters for reactions to use as a training set for fitting
 group additivity values in this file.
 """
+entry(
+    index = 0,
+    label = "O + H3N <=> H3NO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (100000, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (418.4, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    referenceType = "<type 'NoneType'>",
+    rank = 0,
+    shortDesc = u"""Default""",
+    longDesc = 
+u"""
+Taken from entry: 
+
+Converted to training reaction from rate rule: N3sRRR;O_atom_singlet
+""",
+)
+

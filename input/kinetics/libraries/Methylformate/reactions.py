@@ -7,37 +7,37 @@ longDesc = u"""
 
 """
 entry(
-    index = 1,
+    index = 0,
     label = "Mfmt <=> CO + CH3OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.128e+12, 's^-1'), n=0.735, Ea=(68.628, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "Mfmt <=> CH2O + CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.158e+09, 's^-1'), n=1.28, Ea=(75.979, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "Mfmt <=> CO2 + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.536e+11, 's^-1'), n=0.832, Ea=(83.612, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "Mofml <=> CO2 + CH3j",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.3e+09, 's^-1'), n=1.09, Ea=(14.9, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "CO + CH3Oj <=> Mofml",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.97e+09, 'cm^3/(mol*s)'),
         n = 1.27,
@@ -47,23 +47,23 @@ entry(
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "HCjO + CH2O <=> Fmoml",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5030, 'cm^3/(mol*s)'), n=2.48, Ea=(9.32, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "Hj + Mfmt <=> H2 + Mofml",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(228000, 'cm^3/(mol*s)'), n=2.5, Ea=(6.56, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "Hj + Mfmt <=> H2 + Fmoml",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (116000, 'cm^3/(mol*s)'),
         n = 2.55,
@@ -73,30 +73,30 @@ entry(
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "CH3j + Mfmt <=> CH4 + Mofml",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.34, 'cm^3/(mol*s)'), n=2.82, Ea=(6.81, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "CH3j + Mfmt <=> CH4 + Fmoml",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.257, 'cm^3/(mol*s)'), n=3.96, Ea=(8.02, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "CH3Oj + HCjO <=> Mfmt",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "CH3j + OjCHO <=> Mfmt",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
 )
 

@@ -19,15 +19,15 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "cyclopentadiene",
     group = 
 """
-1 *1 C u0 {2,S} {5,S} {6,S}
-2 *2 C u0 {1,S} {3,D}
-3 *3 C u0 {2,D} {4,S}
-4 *4 C u0 {3,S} {5,D}
-5 *5 C u0 {1,S} {4,D}
+1 *1 C u0 {2,S} {3,S} {6,S}
+2 *2 C u0 {1,S} {4,D}
+3 *5 C u0 {1,S} {5,D}
+4 *3 C u0 {2,D} {5,S}
+5 *4 C u0 {3,D} {4,S}
 6 *6 H u0 {1,S}
 """,
     kinetics = None,

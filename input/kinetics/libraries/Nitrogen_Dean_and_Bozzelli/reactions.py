@@ -9,9 +9,9 @@ Combustion Chemistry of Nitrogen
 in Gas-Phase Combustion Chemistry, 2000, pp 125-341
 """
 entry(
-    index = 1,
+    index = 0,
     label = "O + N2 <=> N + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+14, 'cm^3/(mol*s)'), n=0, Ea=(76774, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -20,9 +20,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "NO <=> N + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.4e+15, 'cm^3/(mol*s)'), n=0, Ea=(148345, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
@@ -34,9 +34,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "N2O <=> N2 + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(5.7e+14, 'cm^3/(mol*s)'), n=0, Ea=(56061, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
@@ -48,9 +48,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "N2O + O <=> N2 + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.4e+12, 'cm^3/(mol*s)'), n=0, Ea=(10803, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -59,9 +59,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "N2O + O <=> NO + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.9e+13, 'cm^3/(mol*s)'), n=0, Ea=(23135, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -70,9 +70,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "NH3 <=> NH2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(3.6e+16, 'cm^3/(mol*s)'), n=0, Ea=(93733, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
@@ -84,9 +84,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "NH3 + H <=> NH2 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(540000, 'cm^3/(mol*s)'), n=2.4, Ea=(9910, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -95,9 +95,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "NH3 + OH <=> NH2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+07, 'cm^3/(mol*s)'), n=1.6, Ea=(953, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -106,9 +106,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "NH3 + O <=> NH2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (9.4e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -122,9 +122,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "NH2 + H <=> NH(S) + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(7934, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -133,9 +133,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "HO2 + NO <=> NO2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.2e+12, 'cm^3/(mol*s)'), n=0, Ea=(-477, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -144,9 +144,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "N2O + H <=> HNNO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -177,9 +177,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "N2O + H <=> N2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.2e+14, 'cm^3/(mol*s)'), n=0, Ea=(16741, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -188,9 +188,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "H + N2O <=> NH(T) + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (8.5e+20, 'cm^3/(mol*s)'),
         n = -1.26,
@@ -204,9 +204,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "H + N2O <=> NNH + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.4e+19, 'cm^3/(mol*s)'),
         n = -1.26,
@@ -220,9 +220,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "NH(T) + NO <=> N2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.4e+17, 'cm^3/(mol*s)'),
         n = -1.49,
@@ -236,9 +236,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 18,
+    index = 16,
     label = "NH(T) + NO <=> NNH + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.7e+14, 'cm^3/(mol*s)'),
         n = -0.2,
@@ -252,9 +252,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 19,
+    index = 17,
     label = "NH(T) + O2 <=> HNOO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -275,9 +275,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 20,
+    index = 18,
     label = "NH(T) + O2 <=> NO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.6e+10, 'cm^3/(mol*s)'), n=0, Ea=(1529, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -286,9 +286,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 21,
+    index = 19,
     label = "NH(T) + O2 <=> H + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.3e+10, 'cm^3/(mol*s)'), n=0, Ea=(2482, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -297,9 +297,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 22,
+    index = 20,
     label = "NH(T) + O2 <=> HNO + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(460000, 'cm^3/(mol*s)'), n=2, Ea=(6494, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -308,9 +308,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 23,
+    index = 21,
     label = "NH2 + O2 <=> NH2O + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.5e+11, 'cm^3/(mol*s)'),
         n = 0.48,
@@ -324,9 +324,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 24,
+    index = 22,
     label = "NH2 + O2 <=> HNO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (6.2e+07, 'cm^3/(mol*s)'),
         n = 1.23,
@@ -340,9 +340,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 25,
+    index = 23,
     label = "NH2 + HO2 <=> NH2O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -351,9 +351,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 26,
+    index = 24,
     label = "NH2 + HO2 <=> NH3 + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -367,9 +367,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 27,
+    index = 25,
     label = "NH2 + O <=> HNO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -378,9 +378,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 28,
+    index = 26,
     label = "NH2 + O <=> NH(T) + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -389,9 +389,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 29,
+    index = 27,
     label = "NH2 + OH <=> NH2OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -417,9 +417,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 30,
+    index = 28,
     label = "NH2 + OH <=> NH(S) + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(50, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -428,9 +428,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 31,
+    index = 29,
     label = "NH2 + NH2 <=> N2H4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -461,9 +461,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 32,
+    index = 30,
     label = "NH2 + NH2 <=> H2NN + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -494,9 +494,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 33,
+    index = 31,
     label = "NH2 + NH2 <=> N2H3 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -527,9 +527,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 34,
+    index = 32,
     label = "NH2 + NH2 <=> NH3 + NH(T)",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(9929, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -538,9 +538,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 35,
+    index = 33,
     label = "NH2 + NO <=> N2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (4.7e+12, 'cm^3/(mol*s)'),
         n = -0.25,
@@ -554,9 +554,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 36,
+    index = 34,
     label = "NH2 + NO <=> NNH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.5e+10, 'cm^3/(mol*s)'),
         n = 0.34,
@@ -570,9 +570,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 37,
+    index = 35,
     label = "NH2 + NO <=> NH2NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -603,9 +603,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 38,
+    index = 36,
     label = "CH3 + NO + N2 <=> CH3NO + N2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -614,9 +614,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 39,
+    index = 37,
     label = "CH3 + NO <=> CH3NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -642,9 +642,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 40,
+    index = 38,
     label = "CH3 + NO <=> H2CN + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.2e+09, 'cm^3/(mol*s)'),
         n = 0.75,
@@ -658,9 +658,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 41,
+    index = 39,
     label = "CH3 + NO <=> HCN + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (4.9e+08, 'cm^3/(mol*s)'),
         n = 0.46,
@@ -674,9 +674,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 42,
+    index = 40,
     label = "CH3 + N <=> H2CN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (6.1e+14, 'cm^3/(mol*s)'),
         n = -0.31,
@@ -690,9 +690,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 43,
+    index = 41,
     label = "CH3 + N <=> HCN + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.7e+12, 'cm^3/(mol*s)'), n=0.15, Ea=(-89, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -701,9 +701,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 44,
+    index = 42,
     label = "CH3 + N <=> HCNH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.2e+11, 'cm^3/(mol*s)'),
         n = 0.52,
@@ -717,9 +717,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 45,
+    index = 43,
     label = "CH3 + NH2 <=> CH3NH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -750,9 +750,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 46,
+    index = 44,
     label = "CH3 + NH2 <=> CH2NH2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -778,9 +778,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 47,
+    index = 45,
     label = "CH3 + NH2 <=> CH3NH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -811,9 +811,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 48,
+    index = 46,
     label = "CH3 + NH2 <=> H2CNH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -844,9 +844,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 49,
+    index = 47,
     label = "CH3 + NH2 <=> CH4 + NH(S)",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -860,9 +860,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 50,
+    index = 48,
     label = "CH3 + NH2 <=> CH2(T) + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.6e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -876,9 +876,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 51,
+    index = 49,
     label = "CH2(T) + N2 <=> CH2NN",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -909,9 +909,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 52,
+    index = 50,
     label = "CH2(T) + N2 <=> HCN + NH(T)",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(73954, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -920,9 +920,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 53,
+    index = 51,
     label = "CH2(T) + NO <=> HCNO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.8e+13, 'cm^3/(mol*s)'),
         n = -0.36,
@@ -936,9 +936,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 54,
+    index = 52,
     label = "CH2(T) + NO <=> HCN + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.9e+14, 'cm^3/(mol*s)'),
         n = -0.69,
@@ -952,9 +952,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 55,
+    index = 53,
     label = "CH2(T) + NO <=> HNCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.1e+17, 'cm^3/(mol*s)'),
         n = -1.38,
@@ -968,9 +968,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 56,
+    index = 54,
     label = "CH2(T) + NO <=> NH2 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.3e+16, 'cm^3/(mol*s)'),
         n = -1.43,
@@ -984,9 +984,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 57,
+    index = 55,
     label = "CH2(T) + NO <=> H2CN + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (8.1e+07, 'cm^3/(mol*s)'),
         n = 1.42,
@@ -1000,9 +1000,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 58,
+    index = 56,
     label = "CH + N2 <=> HCNN",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -1033,9 +1033,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 59,
+    index = 57,
     label = "CH + N2 <=> HCN + N",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.4e+12, 'cm^3/(mol*s)'), n=0, Ea=(21964, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1044,9 +1044,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 60,
+    index = 58,
     label = "CH + NO <=> HCN + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1055,9 +1055,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 61,
+    index = 59,
     label = "CH + NO <=> H + NCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1066,9 +1066,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 62,
+    index = 60,
     label = "CH + NO <=> N + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.9e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1077,9 +1077,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 63,
+    index = 61,
     label = "CH + NO <=> NH(T) + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1088,9 +1088,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 64,
+    index = 62,
     label = "CH + NO <=> OH + CN",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.3e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1099,9 +1099,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 65,
+    index = 63,
     label = "N + O2 <=> NO + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9e+09, 'cm^3/(mol*s)'), n=1, Ea=(6494, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1110,9 +1110,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 66,
+    index = 64,
     label = "N + OH <=> NH(T) + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (6.4e+12, 'cm^3/(mol*s)'),
         n = 0.1,
@@ -1126,9 +1126,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 67,
+    index = 65,
     label = "N + OH <=> NO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.1e+14, 'cm^3/(mol*s)'), n=0, Ea=(1122, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1137,9 +1137,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 68,
+    index = 66,
     label = "CH + N <=> CN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+14, 'cm^3/(mol*s)'), n=-0.09, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1148,9 +1148,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 69,
+    index = 67,
     label = "CH2(T) + N <=> HCN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1159,9 +1159,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 70,
+    index = 68,
     label = "NH(T) + N <=> N2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1170,9 +1170,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 71,
+    index = 69,
     label = "NH2 + N <=> N2 + H + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1181,9 +1181,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 72,
+    index = 70,
     label = "CN + N <=> C(T) + N2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(-556, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1192,9 +1192,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 73,
+    index = 71,
     label = "NH(T) + NH(T) <=> N2 + H + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1203,9 +1203,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 74,
+    index = 72,
     label = "NH2 + NH(T) <=> N2H2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+15, 'cm^3/(mol*s)'), n=-0.5, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1214,9 +1214,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 75,
+    index = 73,
     label = "NH2 + NH(T) <=> NH3 + N",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(2443, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1225,9 +1225,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 76,
+    index = 74,
     label = "NH(T) + OH <=> HNO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1236,9 +1236,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 77,
+    index = 75,
     label = "NH(T) + OH <=> N + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-487, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1247,9 +1247,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 78,
+    index = 76,
     label = "NH(T) + H <=> N + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(1728, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1258,9 +1258,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 79,
+    index = 77,
     label = "NH(T) + O <=> NO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1269,9 +1269,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 81,
+    index = 78,
     label = "NH(T) + CH3 <=> H2CNH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1280,9 +1280,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 82,
+    index = 79,
     label = "NH(T) + CH3 <=> CH4 + N",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(820000, 'cm^3/(mol*s)'), n=1.87, Ea=(5848, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1291,9 +1291,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 83,
+    index = 80,
     label = "NNH + O2 <=> N2 + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.2e+12, 'cm^3/(mol*s)'),
         n = -0.34,
@@ -1307,9 +1307,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 84,
+    index = 81,
     label = "NNH + O2 <=> N2O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.9e+11, 'cm^3/(mol*s)'),
         n = -0.34,
@@ -1323,9 +1323,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 85,
+    index = 82,
     label = "NNH + H <=> N2 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(496, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1334,9 +1334,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 86,
+    index = 83,
     label = "NNH + OH <=> N2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.4e+22, 'cm^3/(mol*s)'),
         n = -2.88,
@@ -1350,9 +1350,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 87,
+    index = 84,
     label = "NNH + O <=> N2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.7e+16, 'cm^3/(mol*s)'),
         n = -1.23,
@@ -1366,9 +1366,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 88,
+    index = 85,
     label = "NNH + NH2 <=> N2 + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(1698, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1377,9 +1377,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 89,
+    index = 86,
     label = "NNH + HO2 <=> N2 + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(14000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1388,9 +1388,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 90,
+    index = 87,
     label = "NNH + HO2 <=> HNNO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(70211, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1399,9 +1399,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 91,
+    index = 88,
     label = "NNH + NO <=> N2 + HNO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(70717, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1410,9 +1410,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 92,
+    index = 89,
     label = "N2H2 <=> NNH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiPDepArrhenius(
         arrhenius = [
@@ -1441,9 +1441,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 93,
+    index = 90,
     label = "N2H2 <=> H2NN",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -1459,9 +1459,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 94,
+    index = 91,
     label = "N2H2 + H <=> NNH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(496, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1470,9 +1470,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 95,
+    index = 92,
     label = "N2H2 + O <=> NNH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.3e+08, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -1486,9 +1486,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 96,
+    index = 93,
     label = "N2H2 + OH <=> NNH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1152, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1497,9 +1497,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 97,
+    index = 94,
     label = "N2H2 + NH2 <=> NH3 + NNH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -1513,9 +1513,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 98,
+    index = 95,
     label = "N2H2 + CH3 <=> NNH + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.6e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -1529,9 +1529,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 99,
+    index = 96,
     label = "N2H2 + NH(T) <=> NNH + NH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(11915, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1540,9 +1540,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 100,
+    index = 97,
     label = "N2H2 + NO <=> N2O + NH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+12, 'cm^3/(mol*s)'), n=0, Ea=(51762, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1551,9 +1551,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 101,
+    index = 98,
     label = "H2NN <=> NNH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiPDepArrhenius(
         arrhenius = [
@@ -1592,9 +1592,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 102,
+    index = 99,
     label = "H2NN + O2 <=> NH2 + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(5958, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1603,9 +1603,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 103,
+    index = 100,
     label = "H2NN + H <=> N2H2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.8e+10, 'cm^3/(mol*s)'),
         n = 0.97,
@@ -1619,9 +1619,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 104,
+    index = 101,
     label = "H2NN + H <=> NNH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1630,9 +1630,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 105,
+    index = 102,
     label = "H2NN + O <=> NH2 + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.2e+09, 'cm^3/(mol*s)'),
         n = 1.03,
@@ -1646,9 +1646,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 106,
+    index = 103,
     label = "H2NN + O <=> OH + NNH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1657,9 +1657,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 107,
+    index = 104,
     label = "H2NN + OH <=> NH2NO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1668,9 +1668,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 108,
+    index = 105,
     label = "H2NN + OH <=> NNH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1679,9 +1679,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 109,
+    index = 106,
     label = "H2NN + CH3 <=> H2CNNH2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(830000, 'cm^3/(mol*s)'), n=1.93, Ea=(6494, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1690,9 +1690,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 110,
+    index = 107,
     label = "H2NN + CH3 <=> CH3NNH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(830000, 'cm^3/(mol*s)'), n=1.93, Ea=(6494, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1701,9 +1701,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 111,
+    index = 108,
     label = "H2NN + CH3 <=> CH4 + NNH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+06, 'cm^3/(mol*s)'), n=1.87, Ea=(129, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1712,9 +1712,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 112,
+    index = 109,
     label = "H2NN + NH2 <=> HNNNH2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (7.9e+06, 'cm^3/(mol*s)'),
         n = 1.9,
@@ -1728,9 +1728,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 113,
+    index = 110,
     label = "H2NN + NH2 <=> NH3 + NNH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -1744,9 +1744,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 114,
+    index = 111,
     label = "H2NN + HO2 <=> NH2NO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(660000, 'cm^3/(mol*s)'), n=1.94, Ea=(7050, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1755,9 +1755,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 115,
+    index = 112,
     label = "H2NN + HO2 <=> NNH + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1766,9 +1766,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 116,
+    index = 113,
     label = "N2H3 <=> N2H2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -1784,9 +1784,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 117,
+    index = 114,
     label = "N2H3 + H <=> N2H2 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1795,9 +1795,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 118,
+    index = 115,
     label = "N2H3 + O <=> NH2 + HNO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1806,9 +1806,42 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 119,
+    index = 116,
     label = "N2H3 + O <=> NH2NO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    longDesc = 
+u"""
+Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+""",
+)
+
+entry(
+    index = 117,
+    label = "N2H3 + O <=> N2H2 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-645, 'cal/mol'), T0=(1, 'K')),
+    longDesc = 
+u"""
+Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+""",
+)
+
+entry(
+    index = 118,
+    label = "N2H3 + OH <=> N2H2 + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
+    longDesc = 
+u"""
+Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+""",
+)
+
+entry(
+    index = 119,
+    label = "N2H3 + OH <=> H2NN + H2O",
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1818,41 +1851,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 
 entry(
     index = 120,
-    label = "N2H3 + O <=> N2H2 + OH",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-645, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
-""",
-)
-
-entry(
-    index = 121,
-    label = "N2H3 + OH <=> N2H2 + H2O",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
-""",
-)
-
-entry(
-    index = 122,
-    label = "N2H3 + OH <=> H2NN + H2O",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
-""",
-)
-
-entry(
-    index = 123,
     label = "N2H3 + CH3 <=> N2H2 + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(820000, 'cm^3/(mol*s)'), n=1.87, Ea=(1817, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1861,9 +1861,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 124,
+    index = 121,
     label = "N2H3 + CH3 <=> H2NN + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1872,9 +1872,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 125,
+    index = 122,
     label = "N2H3 + NH2 <=> N2H2 + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -1888,9 +1888,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 126,
+    index = 123,
     label = "N2H3 + NH2 <=> H2NN + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1899,9 +1899,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 127,
+    index = 124,
     label = "N2H3 + HO2 <=> H2NNHO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1910,9 +1910,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 128,
+    index = 125,
     label = "N2H3 + HO2 <=> N2H2 + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1921,9 +1921,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 129,
+    index = 126,
     label = "N2H3 + HO2 <=> N2H4 + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(2125, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1932,9 +1932,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 130,
+    index = 127,
     label = "N2H4 <=> H2NN + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -1950,9 +1950,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 131,
+    index = 128,
     label = "N2H4 + H <=> N2H3 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.6e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(4836, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1961,9 +1961,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 132,
+    index = 129,
     label = "N2H4 + O <=> N2H3 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(2850, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1972,9 +1972,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 133,
+    index = 130,
     label = "N2H4 + OH <=> N2H3 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.8e+06, 'cm^3/(mol*s)'), n=2, Ea=(-645, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1983,9 +1983,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 134,
+    index = 131,
     label = "N2H4 + CH3 <=> N2H3 + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.3e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -1999,9 +1999,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 135,
+    index = 132,
     label = "N2H4 + NH2 <=> N2H3 + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.7e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -2015,9 +2015,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 136,
+    index = 133,
     label = "NO + C(T) <=> CO + N",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2026,9 +2026,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 137,
+    index = 134,
     label = "NO + C(T) <=> CN + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2037,9 +2037,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 138,
+    index = 135,
     label = "NO + HCCO <=> HCNO + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(695, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2048,9 +2048,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 139,
+    index = 136,
     label = "NO + HCCO <=> HCN + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(695, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2059,9 +2059,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 140,
+    index = 137,
     label = "NO2 + H <=> NO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3e+14, 'cm^3/(mol*s)'), n=0, Ea=(357, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2070,9 +2070,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 141,
+    index = 138,
     label = "NO2 + O <=> NO + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.9e+12, 'cm^3/(mol*s)'), n=0, Ea=(-238, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2081,9 +2081,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 142,
+    index = 139,
     label = "NO2 <=> NO + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(5.7e+15, 'cm^3/(mol*s)'), n=0, Ea=(59954, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
@@ -2095,9 +2095,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 143,
+    index = 140,
     label = "NO2 + NH2 <=> N2O + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.5e+16, 'cm^3/(mol*s)'),
         n = -1.44,
@@ -2111,9 +2111,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 144,
+    index = 141,
     label = "NO2 + NH2 <=> NH2O + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (6.6e+16, 'cm^3/(mol*s)'),
         n = -1.44,
@@ -2127,9 +2127,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 145,
+    index = 142,
     label = "NO2 + CH3 <=> NO + CH3O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2138,9 +2138,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 146,
+    index = 143,
     label = "N2O + OH <=> N2 + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.013, 'cm^3/(mol*s)'), n=4.72, Ea=(36540, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2149,9 +2149,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 147,
+    index = 144,
     label = "HNO <=> H + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(2.6e+16, 'cm^3/(mol*s)'), n=0, Ea=(48654, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
@@ -2163,9 +2163,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 148,
+    index = 145,
     label = "HNO + HNO <=> N2O + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.5e+08, 'cm^3/(mol*s)'), n=0, Ea=(3078, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2174,9 +2174,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 149,
+    index = 146,
     label = "HNO + OH <=> NO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.3e+07, 'cm^3/(mol*s)'),
         n = 1.88,
@@ -2190,9 +2190,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 150,
+    index = 147,
     label = "HNO + H <=> H2 + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.5e+11, 'cm^3/(mol*s)'), n=0.72, Ea=(655, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2201,9 +2201,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 152,
+    index = 148,
     label = "HNO + O <=> OH + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.5e+11, 'cm^3/(mol*s)'), n=0.72, Ea=(655, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2212,9 +2212,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 153,
+    index = 149,
     label = "HNO + NH2 <=> NH3 + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -2228,9 +2228,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 154,
+    index = 150,
     label = "HNO + NO <=> N2O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(29570, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2239,9 +2239,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 155,
+    index = 151,
     label = "HNO + O2 <=> NO + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(15887, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2250,9 +2250,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 156,
+    index = 152,
     label = "HNO + CH3 <=> NO + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (820000, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -2266,9 +2266,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 157,
+    index = 153,
     label = "NH2O <=> HNO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (2.8e+24, 'cm^3/(mol*s)'),
@@ -2285,9 +2285,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 158,
+    index = 154,
     label = "NH2O <=> HNOH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -2303,9 +2303,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 159,
+    index = 155,
     label = "NH2O + H <=> NH2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2314,9 +2314,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 160,
+    index = 156,
     label = "NH2O + H <=> HNO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(1559, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2325,9 +2325,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 161,
+    index = 157,
     label = "NH2O + O <=> HNO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(487, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2336,9 +2336,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 162,
+    index = 158,
     label = "NH2O + OH <=> HNO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2347,9 +2347,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 163,
+    index = 159,
     label = "NH2O + CH3 <=> CH3O + NH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2358,9 +2358,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 164,
+    index = 160,
     label = "NH2O + CH3 <=> CH4 + HNO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.6e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -2374,9 +2374,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 165,
+    index = 161,
     label = "NH2O + NH2 <=> HNO + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -2390,9 +2390,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 166,
+    index = 162,
     label = "NH2O + HO2 <=> HNO + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2401,9 +2401,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 167,
+    index = 163,
     label = "NH2O + HO2 <=> O2 + NH2OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2412,9 +2412,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 168,
+    index = 164,
     label = "HNOH <=> H + HNO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (2e+24, 'cm^3/(mol*s)'),
@@ -2431,9 +2431,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 169,
+    index = 165,
     label = "HNOH + H <=> NH2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2442,9 +2442,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 170,
+    index = 166,
     label = "HNOH + H <=> HNO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(377, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2453,9 +2453,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 171,
+    index = 167,
     label = "HNOH + O <=> HNO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2464,9 +2464,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 172,
+    index = 168,
     label = "HNOH + OH <=> HNO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2475,9 +2475,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 173,
+    index = 169,
     label = "HNOH + CH3 <=> CH3NH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2486,9 +2486,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 174,
+    index = 170,
     label = "HNOH + CH3 <=> CH4 + HNO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.6e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -2502,9 +2502,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 175,
+    index = 171,
     label = "HNOH + NH2 <=> N2H3 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.7e+06, 'cm^3/(mol*s)'), n=1.82, Ea=(715, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2513,9 +2513,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 176,
+    index = 172,
     label = "HNOH + NH2 <=> H2NN + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (4.6e+19, 'cm^3/(mol*s)'),
         n = -1.94,
@@ -2529,9 +2529,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 177,
+    index = 173,
     label = "HNOH + NH2 <=> HNO + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -2545,9 +2545,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 178,
+    index = 174,
     label = "HNOH + HO2 <=> HONHO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2556,9 +2556,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 179,
+    index = 175,
     label = "HNOH + HO2 <=> HNO + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2567,9 +2567,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 180,
+    index = 176,
     label = "HNOH + HO2 <=> NH2OH + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2578,9 +2578,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 181,
+    index = 177,
     label = "HNOO <=> OH + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (1.5e+36, 'cm^3/(mol*s)'),
@@ -2597,9 +2597,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 182,
+    index = 178,
     label = "HONO <=> OH + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (2e+31, 'cm^3/(mol*s)'),
@@ -2616,9 +2616,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 183,
+    index = 179,
     label = "HONO + H <=> H2 + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+08, 'cm^3/(mol*s)'), n=1.55, Ea=(6613, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2627,9 +2627,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 184,
+    index = 180,
     label = "HONO + H <=> H2O + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (8.1e+06, 'cm^3/(mol*s)'),
         n = 1.89,
@@ -2643,9 +2643,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 185,
+    index = 181,
     label = "HONO + H <=> OH + HNO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (5.6e+10, 'cm^3/(mol*s)'),
         n = 0.86,
@@ -2659,9 +2659,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 186,
+    index = 182,
     label = "HONO + O <=> OH + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(3028, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2670,9 +2670,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 187,
+    index = 183,
     label = "HONO + OH <=> H2O + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-596, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2681,9 +2681,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 188,
+    index = 184,
     label = "HONO + CH3 <=> NO2 + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(810000, 'cm^3/(mol*s)'), n=1.87, Ea=(5501, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2692,9 +2692,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 189,
+    index = 185,
     label = "HONO + NH2 <=> NO2 + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(1916, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2703,9 +2703,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 190,
+    index = 186,
     label = "HNO2 <=> HONO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -2721,9 +2721,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 191,
+    index = 187,
     label = "HNO2 + H <=> H2 + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(4160, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2732,9 +2732,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 192,
+    index = 188,
     label = "HNO2 + O <=> OH + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(2363, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2743,9 +2743,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 193,
+    index = 189,
     label = "HNO2 + OH <=> H2O + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-794, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2754,9 +2754,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 194,
+    index = 190,
     label = "HNO2 + CH3 <=> NO2 + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(810000, 'cm^3/(mol*s)'), n=1.87, Ea=(4836, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2765,9 +2765,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 195,
+    index = 191,
     label = "HNO2 + NH2 <=> NO2 + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(874, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2776,9 +2776,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 196,
+    index = 192,
     label = "HCN <=> HNC",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -2794,9 +2794,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 198,
+    index = 193,
     label = "OH + HCN <=> HNCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4400, 'cm^3/(mol*s)'), n=2.26, Ea=(6395, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2805,9 +2805,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 199,
+    index = 194,
     label = "OH + HCN <=> HOCN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.1e+06, 'cm^3/(mol*s)'),
         n = 2.03,
@@ -2821,9 +2821,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 200,
+    index = 195,
     label = "OH + HCN <=> NH2 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(160, 'cm^3/(mol*s)'), n=2.56, Ea=(8996, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2832,9 +2832,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 201,
+    index = 196,
     label = "OH + HCN <=> NCHOH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -2865,9 +2865,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 202,
+    index = 197,
     label = "HCN + O <=> NH(T) + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (5.4e+08, 'cm^3/(mol*s)'),
         n = 1.21,
@@ -2881,9 +2881,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 203,
+    index = 198,
     label = "HCN + O <=> NCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+08, 'cm^3/(mol*s)'), n=1.47, Ea=(7586, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2892,9 +2892,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 204,
+    index = 199,
     label = "HCN + O <=> CN + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (4.2e+10, 'cm^3/(mol*s)'),
         n = 0.4,
@@ -2908,9 +2908,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 205,
+    index = 200,
     label = "O + HNC <=> NH(T) + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.6e+12, 'cm^3/(mol*s)'), n=0, Ea=(2184, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2919,9 +2919,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 206,
+    index = 201,
     label = "OH + HNC <=> HNCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(3694, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2930,9 +2930,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 207,
+    index = 202,
     label = "HNC + O2 <=> HNCO + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.5e+12, 'cm^3/(mol*s)'),
         n = 0.01,
@@ -2946,9 +2946,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 208,
+    index = 203,
     label = "HNC + O2 <=> NH(T) + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.6e+19, 'cm^3/(mol*s)'),
         n = -2.25,
@@ -2962,9 +2962,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 209,
+    index = 204,
     label = "CN + H2 <=> HCN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.6e+08, 'cm^3/(mol*s)'),
         n = 1.55,
@@ -2978,9 +2978,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 210,
+    index = 205,
     label = "CN + H2O <=> HCN + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.8e+12, 'cm^3/(mol*s)'), n=0, Ea=(7447, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2989,9 +2989,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 211,
+    index = 206,
     label = "CN + O <=> CO + N",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3000,9 +3000,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 212,
+    index = 207,
     label = "CN + O2 <=> NCO + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3011,9 +3011,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 213,
+    index = 208,
     label = "CN + OH <=> NCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3022,9 +3022,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 214,
+    index = 209,
     label = "CN + HCN <=> NCCN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.5e+07, 'cm^3/(mol*s)'),
         n = 1.71,
@@ -3038,9 +3038,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 215,
+    index = 210,
     label = "CN + N2O <=> NCN + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.2e+11, 'cm^3/(mol*s)'), n=0, Ea=(7169, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3049,9 +3049,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 216,
+    index = 211,
     label = "CN + NO2 <=> NCO + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (6.2e+15, 'cm^3/(mol*s)'),
         n = -0.75,
@@ -3065,9 +3065,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 217,
+    index = 212,
     label = "CN + CH4 <=> HCN + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(120000, 'cm^3/(mol*s)'), n=2.64, Ea=(-159, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3076,9 +3076,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 218,
+    index = 213,
     label = "CN + NH3 <=> HCN + NH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.2e+12, 'cm^3/(mol*s)'), n=0, Ea=(-357, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3087,9 +3087,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 219,
+    index = 214,
     label = "H2CN <=> HCN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -3105,9 +3105,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 220,
+    index = 215,
     label = "H2CN + HO2 <=> CH2NO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3116,9 +3116,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 221,
+    index = 216,
     label = "H2CN + HO2 <=> HCN + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(14000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1609, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3127,9 +3127,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 222,
+    index = 217,
     label = "H2CN + HO2 <=> H2CNH + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(14000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1609, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3138,9 +3138,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 223,
+    index = 218,
     label = "H2CN + O2 <=> CH2O + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+12, 'cm^3/(mol*s)'), n=0, Ea=(5958, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3149,9 +3149,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 224,
+    index = 219,
     label = "H2CN + CH3 <=> HCN + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (810000, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -3165,9 +3165,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 225,
+    index = 220,
     label = "H2CN + OH <=> HCN + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -3198,9 +3198,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 226,
+    index = 221,
     label = "H2CN + N <=> N2 + CH2(T)",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+13, 'cm^3/(mol*s)'), n=0, Ea=(397, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3209,9 +3209,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 227,
+    index = 222,
     label = "H2CN + H <=> HCN + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3220,9 +3220,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 228,
+    index = 223,
     label = "H2CN + NH2 <=> HCN + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -3236,9 +3236,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 229,
+    index = 224,
     label = "H2CN + O <=> HCN + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3247,9 +3247,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 230,
+    index = 225,
     label = "H2CN + O <=> HNCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3258,9 +3258,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 231,
+    index = 226,
     label = "H2CN + O <=> HCNO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3269,9 +3269,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 232,
+    index = 227,
     label = "HCNH <=> HCN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -3287,9 +3287,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 233,
+    index = 228,
     label = "HCNH + H <=> H2CN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3298,9 +3298,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 234,
+    index = 229,
     label = "HCNH + H <=> HCN + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3309,9 +3309,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 235,
+    index = 230,
     label = "HCNH + O <=> HNCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3320,9 +3320,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 236,
+    index = 231,
     label = "HCNH + O <=> HCN + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3331,9 +3331,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 237,
+    index = 232,
     label = "HCNH + OH <=> HCN + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3342,9 +3342,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 238,
+    index = 233,
     label = "HCNH + CH3 <=> HCN + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (820000, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -3358,9 +3358,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 239,
+    index = 234,
     label = "HCNN + O2 <=> H + CO2 + N2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3369,9 +3369,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 240,
+    index = 235,
     label = "HCNN + O2 <=> HCO + N2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3380,9 +3380,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 241,
+    index = 236,
     label = "H2CNH + H <=> H2CN + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(7318, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3391,9 +3391,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 242,
+    index = 237,
     label = "H2CNH + O <=> H2CN + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(4627, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3402,9 +3402,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 243,
+    index = 238,
     label = "H2CNH + OH <=> H2CN + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-89, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3413,9 +3413,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 244,
+    index = 239,
     label = "H2CNH + CH3 <=> H2CN + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(820000, 'cm^3/(mol*s)'), n=1.87, Ea=(7119, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3424,9 +3424,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 245,
+    index = 240,
     label = "H2CNH + NH2 <=> H2CN + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(4438, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3435,9 +3435,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 246,
+    index = 241,
     label = "H2CNH + H <=> HCNH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(6126, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3446,9 +3446,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 247,
+    index = 242,
     label = "H2CNH + O <=> HCNH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.2e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(5402, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3457,9 +3457,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 248,
+    index = 243,
     label = "H2CNH + OH <=> HCNH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(457, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3468,9 +3468,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 249,
+    index = 244,
     label = "H2CNH + CH3 <=> HCNH + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(530000, 'cm^3/(mol*s)'), n=1.87, Ea=(9681, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3479,9 +3479,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 250,
+    index = 245,
     label = "H2CNH + NH2 <=> HCNH + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -3495,9 +3495,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 251,
+    index = 246,
     label = "H2CNH + O <=> CH2O + NH(T)",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+06, 'cm^3/(mol*s)'), n=2.08, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3506,9 +3506,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 252,
+    index = 247,
     label = "CH3NH <=> H2CNH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -3524,9 +3524,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 253,
+    index = 248,
     label = "CH3NH + H <=> H2CNH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.2e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3535,9 +3535,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 254,
+    index = 249,
     label = "CH3NH + O <=> H2CNH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3546,9 +3546,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 255,
+    index = 250,
     label = "CH3NH + OH <=> H2CNH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.6e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3557,9 +3557,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 256,
+    index = 251,
     label = "CH3NH + CH3 <=> H2CNH + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.4e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -3573,9 +3573,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 257,
+    index = 252,
     label = "CH2NH2 <=> H2CNH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -3591,9 +3591,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 258,
+    index = 253,
     label = "CH2NH2 + O2 <=> H2CNH + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+22, 'cm^3/(mol*s)'), n=-3.09, Ea=(6752, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3602,9 +3602,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 259,
+    index = 254,
     label = "CH2NH2 + O2 <=> NH2 + CH2O + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (6e+18, 'cm^3/(mol*s)'),
         n = -1.59,
@@ -3618,9 +3618,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 260,
+    index = 255,
     label = "CH2NH2 + H <=> H2CNH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3629,9 +3629,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 261,
+    index = 256,
     label = "CH2NH2 + O <=> CH2O + NH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3640,9 +3640,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 262,
+    index = 257,
     label = "CH2NH2 + O <=> H2CNH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3651,9 +3651,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 263,
+    index = 258,
     label = "CH2NH2 + OH <=> CH2OH + NH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3662,9 +3662,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 264,
+    index = 259,
     label = "CH2NH2 + OH <=> H2CNH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3673,9 +3673,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 265,
+    index = 260,
     label = "CH2NH2 + CH3 <=> C2H5 + NH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(2701, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3684,9 +3684,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 266,
+    index = 261,
     label = "CH2NH2 + CH3 <=> H2CNH + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.6e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -3700,9 +3700,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 267,
+    index = 262,
     label = "CH3NH2 + H <=> CH2NH2 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.6e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(5461, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3711,9 +3711,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 268,
+    index = 263,
     label = "CH3NH2 + O <=> CH2NH2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(5193, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3722,9 +3722,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 269,
+    index = 264,
     label = "CH3NH2 + OH <=> CH2NH2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.6e+06, 'cm^3/(mol*s)'), n=2, Ea=(238, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3733,9 +3733,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 270,
+    index = 265,
     label = "CH3NH2 + CH3 <=> CH2NH2 + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.5e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -3749,9 +3749,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 271,
+    index = 266,
     label = "CH3NH2 + NH2 <=> CH2NH2 + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -3765,9 +3765,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 272,
+    index = 267,
     label = "CH3NH2 + H <=> CH3NH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(9701, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3776,9 +3776,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 273,
+    index = 268,
     label = "CH3NH2 + O <=> CH3NH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(6345, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3787,9 +3787,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 274,
+    index = 269,
     label = "CH3NH2 + OH <=> CH3NH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(447, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3798,9 +3798,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 275,
+    index = 270,
     label = "CH3NH2 + CH3 <=> CH3NH + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.6e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -3814,9 +3814,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 276,
+    index = 271,
     label = "CH3NH2 + NH2 <=> CH3NH + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -3830,9 +3830,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 277,
+    index = 272,
     label = "NCCN <=> CN + CN",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (1.6e+34, 'cm^3/(mol*s)'),
@@ -3849,9 +3849,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 279,
+    index = 273,
     label = "NCCN + O <=> NCO + CN",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.6e+12, 'cm^3/(mol*s)'), n=0, Ea=(8877, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3860,9 +3860,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 280,
+    index = 274,
     label = "NCCN + OH <=> HOCN + CN",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+12, 'cm^3/(mol*s)'), n=0, Ea=(18985, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3871,9 +3871,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 281,
+    index = 275,
     label = "NCO + NO <=> CO2 + N2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (7.8e+17, 'cm^3/(mol*s)'),
         n = -1.73,
@@ -3887,9 +3887,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 282,
+    index = 276,
     label = "NCO + NO <=> N2O + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (6.2e+17, 'cm^3/(mol*s)'),
         n = -1.73,
@@ -3903,9 +3903,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 283,
+    index = 277,
     label = "NCO <=> N + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(3.3e+14, 'cm^3/(mol*s)'), n=0, Ea=(54016, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
@@ -3917,9 +3917,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 284,
+    index = 278,
     label = "NCO + H2 <=> HNCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(760, 'cm^3/(mol*s)'), n=3, Ea=(3972, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3928,9 +3928,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 285,
+    index = 279,
     label = "NCO + O <=> NO + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3939,9 +3939,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 286,
+    index = 280,
     label = "NCO + O <=> N + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(8e+12, 'cm^3/(mol*s)'), n=0, Ea=(2502, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3950,9 +3950,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 287,
+    index = 281,
     label = "NCO + H <=> NH(T) + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3961,9 +3961,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 288,
+    index = 282,
     label = "NCO + N <=> N2 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3972,9 +3972,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 289,
+    index = 283,
     label = "NCO + OH <=> HNCO + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(78000, 'cm^3/(mol*s)'), n=2.27, Ea=(-993, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3983,9 +3983,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 290,
+    index = 284,
     label = "NCO + OH <=> HON(T) + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (5.3e+12, 'cm^3/(mol*s)'),
         n = -0.07,
@@ -3999,9 +3999,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 291,
+    index = 285,
     label = "NCO + OH <=> H + CO + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (8.3e+12, 'cm^3/(mol*s)'),
         n = -0.05,
@@ -4015,9 +4015,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 292,
+    index = 286,
     label = "NCO + NO2 <=> CO2 + N2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.3e+12, 'cm^3/(mol*s)'), n=0, Ea=(-874, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4026,9 +4026,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 293,
+    index = 287,
     label = "NCO + NO2 <=> CO + NO + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.1e+11, 'cm^3/(mol*s)'), n=0, Ea=(-874, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4037,9 +4037,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 294,
+    index = 288,
     label = "NCO + CH4 <=> HNCO + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.8e+12, 'cm^3/(mol*s)'), n=0, Ea=(8122, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4048,9 +4048,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 296,
+    index = 289,
     label = "HCNO <=> HCN + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -4066,9 +4066,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 297,
+    index = 290,
     label = "HCNO + H <=> HNCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.1e+15, 'cm^3/(mol*s)'),
         n = -0.69,
@@ -4082,9 +4082,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 298,
+    index = 291,
     label = "HCNO + H <=> HCN + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.7e+11, 'cm^3/(mol*s)'),
         n = 0.18,
@@ -4098,9 +4098,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 299,
+    index = 292,
     label = "HCNO + H <=> NH2 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.7e+14, 'cm^3/(mol*s)'),
         n = -0.75,
@@ -4114,9 +4114,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 300,
+    index = 293,
     label = "HCNO + H <=> HOCN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.4e+11, 'cm^3/(mol*s)'),
         n = -0.19,
@@ -4130,9 +4130,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 301,
+    index = 294,
     label = "HCNO + O <=> HCO + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4141,9 +4141,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 302,
+    index = 295,
     label = "HCNO + OH <=> HCOH + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4152,9 +4152,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 304,
+    index = 296,
     label = "HOCN + H <=> HNCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.1e+08, 'cm^3/(mol*s)'),
         n = 0.84,
@@ -4168,9 +4168,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 305,
+    index = 297,
     label = "HOCN + H <=> NH2 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.2e+08, 'cm^3/(mol*s)'),
         n = 0.61,
@@ -4184,9 +4184,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 306,
+    index = 298,
     label = "HOCN + H <=> H2 + NCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(6613, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4195,9 +4195,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 307,
+    index = 299,
     label = "HOCN + O <=> OH + NCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(4131, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4206,9 +4206,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 308,
+    index = 300,
     label = "HOCN + OH <=> H2O + NCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-248, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4217,9 +4217,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 309,
+    index = 301,
     label = "HOCN + CH3 <=> CH4 + NCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(820000, 'cm^3/(mol*s)'), n=1.87, Ea=(6613, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4228,9 +4228,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 310,
+    index = 302,
     label = "HOCN + NH2 <=> NCO + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -4244,9 +4244,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 311,
+    index = 303,
     label = "HNCO <=> NH(T) + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.3e+16, 'cm^3/(mol*s)'), n=0, Ea=(84320, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
@@ -4258,9 +4258,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 312,
+    index = 304,
     label = "HNCO + H <=> NH2 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(36000, 'cm^3/(mol*s)'), n=2.49, Ea=(2343, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4269,9 +4269,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 313,
+    index = 305,
     label = "HNCO + O <=> HNO + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+06, 'cm^3/(mol*s)'), n=2.08, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4280,9 +4280,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 314,
+    index = 306,
     label = "HNCO + O <=> NH(T) + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+06, 'cm^3/(mol*s)'), n=2.08, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4291,9 +4291,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 315,
+    index = 307,
     label = "HNCO + OH <=> NH2 + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (6.3e+10, 'cm^3/(mol*s)'),
         n = -0.06,
@@ -4307,9 +4307,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 316,
+    index = 308,
     label = "HNCO + OH <=> NCO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (5.2e+10, 'cm^3/(mol*s)'),
         n = -0.03,
@@ -4323,9 +4323,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 320,
+    index = 309,
     label = "HNCO + NH2 <=> NCO + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+12, 'cm^3/(mol*s)'), n=0, Ea=(8936, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4334,9 +4334,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 321,
+    index = 310,
     label = "CH2NO <=> HNCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -4352,9 +4352,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 322,
+    index = 311,
     label = "CH2NO + O2 <=> CH2O + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.2e+15, 'cm^3/(mol*s)'),
         n = -1.01,
@@ -4368,9 +4368,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 323,
+    index = 312,
     label = "CH2NO + H <=> CH3 + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4379,9 +4379,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 324,
+    index = 313,
     label = "CH2NO + H <=> HCNO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4390,9 +4390,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 325,
+    index = 314,
     label = "CH2NO + O <=> CH2O + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4401,9 +4401,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 326,
+    index = 315,
     label = "CH2NO + O <=> HCNO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4412,9 +4412,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 327,
+    index = 316,
     label = "CH2NO + OH <=> CH2OH + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4423,9 +4423,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 328,
+    index = 317,
     label = "CH2NO + OH <=> HCNO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4434,9 +4434,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 329,
+    index = 318,
     label = "CH2NO + CH3 <=> C2H5 + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4445,9 +4445,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 330,
+    index = 319,
     label = "CH2NO + CH3 <=> HCNO + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.6e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -4461,9 +4461,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 331,
+    index = 320,
     label = "CH2NO + NH2 <=> CH2NH2 + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4472,9 +4472,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 332,
+    index = 321,
     label = "CH2NO + NH2 <=> HCNO + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -4488,9 +4488,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 333,
+    index = 322,
     label = "CH3NO + H <=> CH2NO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(377, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4499,9 +4499,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 334,
+    index = 323,
     label = "CH3NO + O <=> CH2NO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(3614, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4510,9 +4510,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 335,
+    index = 324,
     label = "CH3NO + OH <=> CH2NO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.6e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4521,9 +4521,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 336,
+    index = 325,
     label = "CH3NO + CH3 <=> CH2NO + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(790000, 'cm^3/(mol*s)'), n=1.87, Ea=(5412, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4532,9 +4532,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 337,
+    index = 326,
     label = "CH3NO + NH2 <=> CH2NO + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -4548,9 +4548,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 338,
+    index = 327,
     label = "CH3NO + H <=> CH3 + HNO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(2780, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4559,9 +4559,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 339,
+    index = 328,
     label = "CH3NO + O <=> CH3 + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+06, 'cm^3/(mol*s)'), n=2.08, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4570,9 +4570,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 340,
+    index = 329,
     label = "CH3NO + OH <=> CH3 + HONO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(993, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4581,9 +4581,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 341,
+    index = 330,
     label = "HON(S) <=> NO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (5.1e+19, 'cm^3/(mol*s)'),
@@ -4600,9 +4600,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 342,
+    index = 331,
     label = "HON(S) + H <=> HNO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4611,9 +4611,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 343,
+    index = 332,
     label = "HON(S) + H <=> OH + NH(S)",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4622,9 +4622,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 344,
+    index = 333,
     label = "HON(S) + O <=> OH + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4633,9 +4633,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 345,
+    index = 334,
     label = "HON(S) + OH <=> HONO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4644,9 +4644,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 346,
+    index = 335,
     label = "HON(S) + O2 <=> HONO + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+12, 'cm^3/(mol*s)'), n=0, Ea=(4965, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4655,9 +4655,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 347,
+    index = 336,
     label = "HCOH <=> CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -4673,9 +4673,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 348,
+    index = 337,
     label = "NH2OH + H <=> HNOH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(6246, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4684,9 +4684,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 349,
+    index = 338,
     label = "NH2OH + H <=> NH2O + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(5064, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4695,9 +4695,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 350,
+    index = 339,
     label = "NH2OH + O <=> HNOH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(3863, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4706,9 +4706,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 351,
+    index = 340,
     label = "NH2OH + O <=> NH2O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(3009, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4717,9 +4717,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 352,
+    index = 341,
     label = "NH2OH + OH <=> HNOH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-328, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4728,9 +4728,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 353,
+    index = 342,
     label = "NH2OH + OH <=> NH2O + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-596, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4739,9 +4739,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 354,
+    index = 343,
     label = "NH2OH + CH3 <=> HNOH + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.6e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -4755,9 +4755,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 355,
+    index = 344,
     label = "NH2OH + CH3 <=> NH2O + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(820000, 'cm^3/(mol*s)'), n=1.87, Ea=(5491, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4766,9 +4766,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 356,
+    index = 345,
     label = "NH2OH + NH2 <=> HNOH + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -4782,9 +4782,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 357,
+    index = 346,
     label = "NH2OH + NH2 <=> NH2O + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(1887, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4793,9 +4793,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 358,
+    index = 347,
     label = "NH2OH + HO2 <=> HNOH + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(9552, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4804,9 +4804,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 359,
+    index = 348,
     label = "NH2OH + HO2 <=> NH2O + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(14000, 'cm^3/(mol*s)'), n=2.69, Ea=(6414, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4815,9 +4815,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 360,
+    index = 349,
     label = "NH2NO <=> N2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -4833,9 +4833,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 361,
+    index = 350,
     label = "NH2NO + H <=> HNNO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(7407, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4844,9 +4844,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 362,
+    index = 351,
     label = "NH2NO + O <=> HNNO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(4697, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4855,9 +4855,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 363,
+    index = 352,
     label = "NH2NO + OH <=> HNNO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-70, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4866,9 +4866,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 364,
+    index = 353,
     label = "NH2NO + CH3 <=> HNNO + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.6e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -4882,9 +4882,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 365,
+    index = 354,
     label = "NH2NO + NH2 <=> HNNO + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -4898,9 +4898,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 366,
+    index = 355,
     label = "NH2NO + HO2 <=> HNNO + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(12620, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4909,9 +4909,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 367,
+    index = 356,
     label = "H2NNHO <=> NH2 + HNO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -4927,9 +4927,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 368,
+    index = 357,
     label = "H2NNHO + H <=> HNNHO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4938,9 +4938,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 369,
+    index = 358,
     label = "H2NNHO + O <=> HNNHO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4949,9 +4949,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 370,
+    index = 359,
     label = "H2NNHO + OH <=> HNNHO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4960,9 +4960,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 371,
+    index = 360,
     label = "H2NNHO + CH3 <=> HNNHO + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+06, 'cm^3/(mol*s)'), n=1.87, Ea=(377, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4971,9 +4971,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 372,
+    index = 361,
     label = "H2NNHO + NH2 <=> HNNHO + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -4987,9 +4987,9 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 )
 
 entry(
-    index = 373,
+    index = 362,
     label = "H2NNHO + HO2 <=> HNNHO + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""

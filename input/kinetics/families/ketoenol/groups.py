@@ -21,9 +21,22 @@ recipe(actions=[
 boundaryAtoms = ["*2", "*3"]
 
 entry(
-        index = 19,
-        label = 'R1_doublebond',
-        group = 
+    index = 0,
+    label = "R_ROR",
+    group = 
+"""
+1 *2 R!H u0 {2,S} {3,D}
+2 *3 O   u0 {1,S} {4,S}
+3 *1 R!H u0 {1,D}
+4 *4 R   u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1,
+    label = "R1_doublebond",
+    group = 
 """
 1 *1 R!H u0
 """,
@@ -31,104 +44,39 @@ entry(
 )
 
 entry(
-        index = 20,
-        label = 'R2_doublebond',
-        group = 
+    index = 2,
+    label = "R2_doublebond",
+    group = 
 """
 1 *2 R!H u0
 """,
     kinetics = None,
 )
 
-entry( 
-        index = 21,
-        label = 'R_O',
-        group = 
-"""
-1 *4 R u0 
-""",
-    kinetics = None,
-        )
-
 entry(
-    index = 1,
-    label = "R_ROR",
+    index = 3,
+    label = "R_O",
     group = 
 """
-1 *1 R!H u0 {2,D}
-2 *2 R!H u0 {1,D} {3,S}
-3 *3 O   u0 {2,S} {4,S}
-4 *4 R   u0 {3,S}
+1 *4 R u0
 """,
     kinetics = None,
 )
 
 entry(
-    index = 22,
-    label = "R_O_H",
-    group = 
-"""
-1 *4 H u0
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 23,
-    label = "R_O_R",
-    group = 
-"""
-1 *4 R!H u0
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 34,
-    label = "R_O_C",
-    group = 
-"""
-1 *4 C u0
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 24,
-    label = "R1_doublebond_CH2",
-    group = 
-"""
-1 *1 C u0 {2,S} {3,S}
-2    H u0 {1,S}
-3    H u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 25,
+    index = 4,
     label = "R1_doublebond_CHR",
     group = 
 """
-1 *1 C u0 {2,S} {3,S}
+1 *1 C   u0 {2,S} {3,S}
 2    R!H u0 {1,S}
-3    H u0 {1,S}
+3    H   u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 26,
-    label = "R1_doublebond_S",
-    group = 
-"""
-1 *1 S u0 
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 27,
+    index = 5,
     label = "R1_doublebond_CHCH3",
     group = 
 """
@@ -143,18 +91,83 @@ entry(
 )
 
 entry(
-    index = 28,
+    index = 6,
+    label = "R1_doublebond_S",
+    group = 
+"""
+1 *1 S u0
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 7,
+    label = "R1_doublebond_CH2",
+    group = 
+"""
+1 *1 C u0 {2,S} {3,S}
+2    H u0 {1,S}
+3    H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 8,
     label = "R2_doublebond_Cs",
     group = 
 """
-1 *2 C u0 {2,S}
+1 *2 C  u0 {2,S}
 2    Cs u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 29,
+    index = 9,
+    label = "R2_doublebond_CH3",
+    group = 
+"""
+1    Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C  u0 {1,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10,
+    label = "R2_doublebond_CsC",
+    group = 
+"""
+1    Cs u0 {2,S} {3,S}
+2 *2 C  u0 {1,S}
+3    C  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 11,
+    label = "R2_doublebond_CH2CH3",
+    group = 
+"""
+1    Cs u0 {2,S} {3,S} {4,S} {5,S}
+2    Cs u0 {1,S} {6,S} {7,S} {8,S}
+3 *2 C  u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {1,S}
+6    H  u0 {2,S}
+7    H  u0 {2,S}
+8    H  u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 12,
     label = "R2_doublebond_H",
     group = 
 """
@@ -165,44 +178,31 @@ entry(
 )
 
 entry(
-    index = 31,
-    label = "R2_doublebond_CH3",
+    index = 13,
+    label = "R_O_H",
     group = 
 """
-1 *2 C u0 {2,S} 
-2    Cs u0 {1,S} {3,S} {4,S} {5,S}
-3    H u0 {2,S}
-4    H u0 {2,S}
-5    H u0 {2,S}
+1 *4 H u0
 """,
     kinetics = None,
 )
 
 entry(
-    index = 32,
-    label = "R2_doublebond_CsC",
+    index = 14,
+    label = "R_O_R",
     group = 
 """
-1 *2 C u0 {2,S}
-2    Cs u0 {1,S} {3,S}
-3    C u0 {2,S}
+1 *4 R!H u0
 """,
     kinetics = None,
 )
 
 entry(
-    index = 33,
-    label = "R2_doublebond_CH2CH3",
+    index = 15,
+    label = "R_O_C",
     group = 
 """
-1 *2 C u0 {2,S}
-2    Cs u0 {1,S} {3,S} {4,S} {5,S}
-3    Cs u0 {2,S} {6,S} {7,S} {8,S}
-4    H u0 {2,S}
-5    H u0 {2,S}
-6    H u0 {3,S}
-7    H u0 {3,S}
-8    H u0 {3,S}
+1 *4 C u0
 """,
     kinetics = None,
 )

@@ -210,6 +210,10 @@ def createParityPlot(parityData):
     plt.xlabel('Actual rate coefficient (cm^3/mol-s)')
     plt.ylabel('Estimated rate coefficient (cm^3/mol-s)')
     plt.axis([minimum/10, maximum*10, minimum/10, maximum*10])
+    
+    extra = Rectangle((0, 0), 1, 1, fc='w', fill=False, edgecolor='none', linewidth=0)
+    l = plt.legend([extra], ('Q = ' + str(calculateQ(parityData))), bbox_to_anchor=(1.05,1), loc=2, borderaxespad=0)
+    l.get_texts()[0].set_color('red')
 
 def countNodes(family):
     """

@@ -13,12 +13,12 @@ J. Phys. Chem. A 2009, 113, 8871-8882
 
 Rates from Table 8 and Table 9 are fitted in Chebyshev form
 Duplicated rates (backward rate if there is the forward rate) are deleted after we checked the backward rates are similar to those rates calculated from thermo by using plot kinetics tool in RMG website
-The adduct C5H5CH3 in the dictionary is same as C5H5CH3-5 in the paper, because the paper mentioned either C5H5CH3-5, C5H5CH3-2, or C5H5CH3-3 would give similar computational results 
+The adduct C5H5CH3 in the dictionary is same as C5H5CH3-5 in the paper, because the paper mentioned either C5H5CH3-5, C5H5CH3-2, or C5H5CH3-3 would give similar computational results
 """
 entry(
-    index = 1,
+    index = 0,
     label = "c-C5H5 + CH3 <=> C5H5CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Chebyshev(
         coeffs = [
             [12.78, 0.8785, -0.1149, -0.001832],
@@ -37,9 +37,9 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "c-C5H5 + CH3 <=> fulvene + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Chebyshev(
         coeffs = [
             [7.023, -0.291, -0.1032, -0.01261],
@@ -58,9 +58,9 @@ entry(
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "c-C5H5 + CH3 <=> R1 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Chebyshev(
         coeffs = [
             [10.68, -0.3394, -0.1189, -0.001221],
@@ -79,9 +79,9 @@ entry(
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "c-C5H5 + CH3 <=> R2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Chebyshev(
         coeffs = [
             [12.13, -0.3468, -0.1171, -0.01825],
@@ -100,9 +100,9 @@ entry(
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "c-C5H5 + CH3 <=> R3 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Chebyshev(
         coeffs = [
             [9.917, -0.2487, -0.1087, -0.02675],
@@ -121,9 +121,9 @@ entry(
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "c-C5H5 + CH3 <=> R4 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Chebyshev(
         coeffs = [
             [7.724, -0.0752, -0.04855, -0.02425],
@@ -142,9 +142,9 @@ entry(
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "C5H5CH3 <=> fulvene + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Chebyshev(
         coeffs = [
             [-4.702, 1.599, -0.2011, -0.004738],
@@ -163,9 +163,9 @@ entry(
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "C5H5CH3 <=> R1 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Chebyshev(
         coeffs = [
             [-0.7895, 1.467, -0.2007, 0.006475],
@@ -184,9 +184,9 @@ entry(
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "C5H5CH3 <=> R2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Chebyshev(
         coeffs = [
             [0.7718, 1.395, -0.1817, -0.003595],
@@ -205,9 +205,9 @@ entry(
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "C5H5CH3 <=> R3 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Chebyshev(
         coeffs = [
             [-2.109, 1.956, -0.3158, 0.02151],
@@ -226,9 +226,9 @@ entry(
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "C5H5CH3 <=> R4 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Chebyshev(
         coeffs = [
             [-7.617, 5.607, -1.541, 0.3103],

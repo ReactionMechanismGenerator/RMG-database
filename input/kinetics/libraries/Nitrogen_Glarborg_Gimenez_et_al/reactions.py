@@ -9,9 +9,9 @@ Experimental and kinetic modeling study of C2H4 oxidation at high pressure
 Proceedings of the Combustion Institute Volume 32, Issue 1, 2009, Pages 367–375
 """
 entry(
-    index = 1,
+    index = 0,
     label = "H + O2 <=> O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.6e+15, 'cm^3/(mol*s)'),
         n = -0.41,
@@ -21,30 +21,30 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "H + H + N2 <=> H2 + N2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.4e+18, 'cm^6/(mol^2*s)'), n=-1.3, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "H + H + H2 <=> H2 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+17, 'cm^6/(mol^2*s)'), n=-0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "H + H + H2O <=> H2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+19, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "O + H2 <=> OH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -55,16 +55,16 @@ entry(
 )
 
 entry(
-    index = 7,
+    index = 5,
     label = "OH + OH <=> O + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4300, 'cm^3/(mol*s)'), n=2.7, Ea=(-1822, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 8,
+    index = 6,
     label = "OH + H2 <=> H + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.1e+08, 'cm^3/(mol*s)'),
         n = 1.52,
@@ -74,9 +74,9 @@ entry(
 )
 
 entry(
-    index = 9,
+    index = 7,
     label = "H2 + O2 <=> HO2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (740000, 'cm^3/(mol*s)'),
         n = 2.433,
@@ -86,30 +86,30 @@ entry(
 )
 
 entry(
-    index = 10,
+    index = 8,
     label = "HO2 + H <=> OH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(400, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 11,
+    index = 9,
     label = "HO2 + H <=> H2O + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.4e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 12,
+    index = 10,
     label = "HO2 + O <=> OH + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(-445, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 13,
+    index = 11,
     label = "HO2 + OH <=> H2O + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -125,9 +125,9 @@ entry(
 )
 
 entry(
-    index = 15,
+    index = 12,
     label = "HO2 + HO2 <=> H2O2 + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -138,30 +138,30 @@ entry(
 )
 
 entry(
-    index = 17,
+    index = 13,
     label = "H2O2 + H <=> H2O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(3580, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 18,
+    index = 14,
     label = "H2O2 + H <=> HO2 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+12, 'cm^3/(mol*s)'), n=0, Ea=(3760, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 19,
+    index = 15,
     label = "H2O2 + O <=> HO2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.6e+06, 'cm^3/(mol*s)'), n=2, Ea=(3970, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 20,
+    index = 16,
     label = "H2O2 + OH <=> H2O + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -172,16 +172,16 @@ entry(
 )
 
 entry(
-    index = 22,
+    index = 17,
     label = "CO + O2 <=> CO2 + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.7e+12, 'cm^3/(mol*s)'), n=0, Ea=(60500, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 23,
+    index = 18,
     label = "CO + HO2 <=> CO2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (160000, 'cm^3/(mol*s)'),
         n = 2.18,
@@ -191,9 +191,9 @@ entry(
 )
 
 entry(
-    index = 24,
+    index = 19,
     label = "CO + OH <=> CO2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -204,9 +204,9 @@ entry(
 )
 
 entry(
-    index = 26,
+    index = 20,
     label = "CO + OH <=> HOCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -223,9 +223,9 @@ entry(
 )
 
 entry(
-    index = 29,
+    index = 21,
     label = "HOCO <=> CO2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -236,9 +236,9 @@ entry(
 )
 
 entry(
-    index = 31,
+    index = 22,
     label = "HOCO + OH <=> CO2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -249,16 +249,16 @@ entry(
 )
 
 entry(
-    index = 33,
+    index = 23,
     label = "HOCO + O2 <=> CO2 + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.9e+11, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 34,
+    index = 24,
     label = "CH2O + H <=> HCO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (4.1e+08, 'cm^3/(mol*s)'),
         n = 1.47,
@@ -268,9 +268,9 @@ entry(
 )
 
 entry(
-    index = 35,
+    index = 25,
     label = "CH2O + O <=> HCO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (4.2e+11, 'cm^3/(mol*s)'),
         n = 0.57,
@@ -280,16 +280,16 @@ entry(
 )
 
 entry(
-    index = 36,
+    index = 26,
     label = "CH2O + O2 <=> HCO + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(240000, 'cm^3/(mol*s)'), n=2.5, Ea=(36461, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 37,
+    index = 27,
     label = "CH2O + OH <=> HCO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (7.8e+07, 'cm^3/(mol*s)'),
         n = 1.63,
@@ -299,191 +299,191 @@ entry(
 )
 
 entry(
-    index = 38,
+    index = 28,
     label = "CH2O + HO2 <=> HCO + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 39,
+    index = 29,
     label = "CH2O + CH3 <=> HCO + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(32, 'cm^3/(mol*s)'), n=3.36, Ea=(4310, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 40,
+    index = 30,
     label = "HCO <=> H + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.9e+13, 's^-1'), n=-0.865, Ea=(16755, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 41,
+    index = 31,
     label = "HCO + H <=> CO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 42,
+    index = 32,
     label = "HCO + O <=> CO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 43,
+    index = 33,
     label = "HCO + O <=> CO2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 44,
+    index = 34,
     label = "HCO + OH <=> CO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 45,
+    index = 35,
     label = "HCO + O2 <=> CO + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.4e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 46,
+    index = 36,
     label = "HCO + HO2 <=> CO2 + OH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 47,
+    index = 37,
     label = "HCO + HCO <=> CO + CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 48,
+    index = 38,
     label = "CH4 + H <=> CH3 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4100, 'cm^3/(mol*s)'), n=3.156, Ea=(8755, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 49,
+    index = 39,
     label = "CH4 + O <=> CH3 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(440000, 'cm^3/(mol*s)'), n=2.5, Ea=(6577, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 50,
+    index = 40,
     label = "CH4 + OH <=> CH3 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+06, 'cm^3/(mol*s)'), n=2.182, Ea=(2506, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 51,
+    index = 41,
     label = "CH4 + HO2 <=> CH3 + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(47000, 'cm^3/(mol*s)'), n=2.5, Ea=(21000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 52,
+    index = 42,
     label = "CH4 + CH2 <=> CH3 + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.3e+12, 'cm^3/(mol*s)'), n=0, Ea=(10030, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 53,
+    index = 43,
     label = "CH4 + CH2(S) <=> CH3 + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 54,
+    index = 44,
     label = "CH3 + H <=> CH2 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9e+13, 'cm^3/(mol*s)'), n=0, Ea=(15100, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 55,
+    index = 45,
     label = "CH2(S) + H2 <=> CH3 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 56,
+    index = 46,
     label = "CH3 + O <=> CH2O + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.9e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 57,
+    index = 47,
     label = "CH3 + O <=> H2 + CO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 58,
+    index = 48,
     label = "CH3 + OH <=> CH2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1100, 'cm^3/(mol*s)'), n=3, Ea=(2780, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 59,
+    index = 49,
     label = "CH2(S) + H2O <=> CH3 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+15, 'cm^3/(mol*s)'), n=-0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 60,
+    index = 50,
     label = "CH3 + HO2 <=> CH4 + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1800, 'cm^3/(mol*s)'), n=2.83, Ea=(-3730, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 61,
+    index = 51,
     label = "CH3 + HO2 <=> CH3O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(1075, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 62,
+    index = 52,
     label = "CH3 + O2 <=> CH3O + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(28297, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 63,
+    index = 53,
     label = "CH3 + O2 <=> CH2O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.9e+11, 'cm^3/(mol*s)'), n=0, Ea=(9842, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 64,
+    index = 54,
     label = "CH3 + O2 <=> CH3OO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -504,23 +504,23 @@ entry(
 )
 
 entry(
-    index = 66,
+    index = 55,
     label = "CH3 + HCO <=> CH4 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 67,
+    index = 56,
     label = "CH3 + CH3 <=> C2H5 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(16055, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 68,
+    index = 57,
     label = "CH2 <=> CH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(5.6e+15, 'cm^3/(mol*s)'), n=0, Ea=(89000, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
@@ -528,9 +528,9 @@ entry(
 )
 
 entry(
-    index = 69,
+    index = 58,
     label = "CH2 <=> C(T) + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (5.8e+12, 'cm^3/(mol*s)'),
@@ -543,44 +543,44 @@ entry(
 )
 
 entry(
-    index = 70,
+    index = 59,
     label = "CH2 + H <=> CH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+18, 'cm^3/(mol*s)'), n=-1.56, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 71,
+    index = 60,
     label = "CH2 + O <=> CO + H + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 72,
+    index = 61,
     label = "CH2 + O <=> CO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 73,
+    index = 62,
     label = "CH2 + OH <=> CH2O + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 74,
+    index = 63,
     label = "CH2 + OH <=> CH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.1e+07, 'cm^3/(mol*s)'), n=2, Ea=(3000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 75,
+    index = 64,
     label = "CH2 + O2 <=> CO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.2e+22, 'cm^3/(mol*s)'),
         n = -3.3,
@@ -590,9 +590,9 @@ entry(
 )
 
 entry(
-    index = 76,
+    index = 65,
     label = "CH2 + O2 <=> CO2 + H + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.3e+21, 'cm^3/(mol*s)'),
         n = -3.3,
@@ -602,9 +602,9 @@ entry(
 )
 
 entry(
-    index = 77,
+    index = 66,
     label = "CH2 + O2 <=> CH2O + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.3e+21, 'cm^3/(mol*s)'),
         n = -3.3,
@@ -614,9 +614,9 @@ entry(
 )
 
 entry(
-    index = 78,
+    index = 67,
     label = "CH2 + O2 <=> CO2 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.6e+21, 'cm^3/(mol*s)'),
         n = -3.3,
@@ -626,9 +626,9 @@ entry(
 )
 
 entry(
-    index = 79,
+    index = 68,
     label = "CH2 + O2 <=> CO + OH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.6e+21, 'cm^3/(mol*s)'),
         n = -3.3,
@@ -638,114 +638,114 @@ entry(
 )
 
 entry(
-    index = 80,
+    index = 69,
     label = "CH2 + CO2 <=> CO + CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+11, 'cm^3/(mol*s)'), n=0, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 81,
+    index = 70,
     label = "CH2(S) + N2 <=> CH2 + N2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(430, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 82,
+    index = 71,
     label = "CH2(S) + H <=> CH2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 83,
+    index = 72,
     label = "CH2(S) + H <=> CH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 84,
+    index = 73,
     label = "CH2(S) + O <=> CO + H + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 85,
+    index = 74,
     label = "CH2(S) + OH <=> CH2O + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 86,
+    index = 75,
     label = "CH2(S) + O2 <=> CO + OH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 87,
+    index = 76,
     label = "CH2(S) + H2O <=> CH2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 88,
+    index = 77,
     label = "CH2(S) + CO2 <=> CH2O + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 89,
+    index = 78,
     label = "CH + H <=> C(T) + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 90,
+    index = 79,
     label = "CH + O <=> CO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 91,
+    index = 80,
     label = "CH + OH <=> HCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 92,
+    index = 81,
     label = "CH + OH <=> C(T) + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+07, 'cm^3/(mol*s)'), n=2, Ea=(3000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 93,
+    index = 82,
     label = "CH + O2 <=> HCO + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 94,
+    index = 83,
     label = "CH + H2O <=> CH2O + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.7e+12, 'cm^3/(mol*s)'), n=0, Ea=(-755, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 95,
+    index = 84,
     label = "CH + CO2 <=> HCO + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (8.8e+06, 'cm^3/(mol*s)'),
         n = 1.75,
@@ -755,23 +755,23 @@ entry(
 )
 
 entry(
-    index = 96,
+    index = 85,
     label = "C(T) + OH <=> CO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 97,
+    index = 86,
     label = "C(T) + O2 <=> CO + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 98,
+    index = 87,
     label = "CH3OH + H <=> CH2OH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.9e+09, 'cm^3/(mol*s)'),
         n = 1.24,
@@ -781,9 +781,9 @@ entry(
 )
 
 entry(
-    index = 99,
+    index = 88,
     label = "CH3OH + H <=> CH3O + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (5.1e+08, 'cm^3/(mol*s)'),
         n = 1.24,
@@ -793,23 +793,23 @@ entry(
 )
 
 entry(
-    index = 100,
+    index = 89,
     label = "CH3OH + O <=> CH2OH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(5305, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 101,
+    index = 90,
     label = "CH3OH + O <=> CH3O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.7e+12, 'cm^3/(mol*s)'), n=0, Ea=(5305, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 102,
+    index = 91,
     label = "CH3OH + OH <=> CH2OH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.5e+08, 'cm^3/(mol*s)'),
         n = 1.4434,
@@ -819,9 +819,9 @@ entry(
 )
 
 entry(
-    index = 103,
+    index = 92,
     label = "CH3OH + OH <=> CH3O + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.7e+07, 'cm^3/(mol*s)'),
         n = 1.4434,
@@ -831,65 +831,65 @@ entry(
 )
 
 entry(
-    index = 104,
+    index = 93,
     label = "CH3OH + HO2 <=> CH2OH + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(15000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 105,
+    index = 94,
     label = "CH3OH + O2 <=> CH2OH + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+13, 'cm^3/(mol*s)'), n=0, Ea=(46600, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 106,
+    index = 95,
     label = "CH3OH + O2 <=> CH3O + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+13, 'cm^3/(mol*s)'), n=0, Ea=(54800, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 107,
+    index = 96,
     label = "CH2OH + H <=> CH2O + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 108,
+    index = 97,
     label = "CH2OH + H <=> CH3 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 109,
+    index = 98,
     label = "CH2OH + O <=> CH2O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(-693, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 110,
+    index = 99,
     label = "CH2OH + OH <=> CH2O + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 111,
+    index = 100,
     label = "CH2OH + HO2 <=> CH2O + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 112,
+    index = 101,
     label = "CH2OH + O2 <=> CH2O + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -900,93 +900,93 @@ entry(
 )
 
 entry(
-    index = 114,
+    index = 102,
     label = "CH2OH + HCO <=> CH3OH + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 115,
+    index = 103,
     label = "CH2OH + HCO <=> CH2O + CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 116,
+    index = 104,
     label = "CH2OH + CH2O <=> CH3OH + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5500, 'cm^3/(mol*s)'), n=2.81, Ea=(5862, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 117,
+    index = 105,
     label = "CH2OH + CH2OH <=> CH3OH + CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.8e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 118,
+    index = 106,
     label = "CH2OH + CH3O <=> CH3OH + CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 119,
+    index = 107,
     label = "CH2OH + CH4 <=> CH3OH + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(22, 'cm^3/(mol*s)'), n=3.1, Ea=(16227, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 120,
+    index = 108,
     label = "CH3O + H <=> CH2O + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(745, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 121,
+    index = 109,
     label = "CH3O + H <=> CH3 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.6e+12, 'cm^3/(mol*s)'), n=0, Ea=(745, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 122,
+    index = 110,
     label = "CH3O + O <=> CH2O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.8e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 123,
+    index = 111,
     label = "CH3O + OH <=> CH2O + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 124,
+    index = 112,
     label = "CH3O + HO2 <=> CH2O + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 125,
+    index = 113,
     label = "CH3O + O2 <=> CH2O + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.2e+10, 'cm^3/(mol*s)'), n=0, Ea=(1749, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 126,
+    index = 114,
     label = "CH3O + CO <=> CH3 + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (9.5e+25, 'cm^3/(mol*s)'),
         n = -4.93,
@@ -996,156 +996,156 @@ entry(
 )
 
 entry(
-    index = 127,
+    index = 115,
     label = "CH3O + CH3 <=> CH2O + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 128,
+    index = 116,
     label = "CH3O + CH4 <=> CH3OH + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3e+14, 'cm^3/(mol*s)'), n=0, Ea=(15073, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 129,
+    index = 117,
     label = "CH3O + CH2O <=> CH3OH + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+11, 'cm^3/(mol*s)'), n=0, Ea=(2981, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 130,
+    index = 118,
     label = "CH3O + CH3O <=> CH3OH + CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 131,
+    index = 119,
     label = "CH3OOH <=> CH3O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.8e+26, 's^-1'), n=-3.5, Ea=(46340, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 132,
+    index = 120,
     label = "CH3OOH + H <=> CH2OOH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.4e+10, 'cm^3/(mol*s)'), n=0, Ea=(1860, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 133,
+    index = 121,
     label = "CH3OOH + H <=> CH3OO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.4e+10, 'cm^3/(mol*s)'), n=0, Ea=(1860, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 134,
+    index = 122,
     label = "CH3OOH + H <=> CH3O + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+10, 'cm^3/(mol*s)'), n=0, Ea=(1860, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 135,
+    index = 123,
     label = "CH3OOH + O <=> CH2OOH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(4750, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 136,
+    index = 124,
     label = "CH3OOH + O <=> CH3OO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.7e+12, 'cm^3/(mol*s)'), n=0, Ea=(4750, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 137,
+    index = 125,
     label = "CH3OOH + OH <=> CH3OO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.1e+12, 'cm^3/(mol*s)'), n=0, Ea=(-437, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 138,
+    index = 126,
     label = "CH3OOH + OH <=> CH2OOH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.2e+11, 'cm^3/(mol*s)'), n=0, Ea=(-258, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 139,
+    index = 127,
     label = "CH3OOH + HO2 <=> CH3OO + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 140,
+    index = 128,
     label = "CH3OO + H <=> CH3O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 141,
+    index = 129,
     label = "CH3OO + O <=> CH3O + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(-445, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 142,
+    index = 130,
     label = "CH3OO + OH <=> CH3OH + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+15, 'cm^3/(mol*s)'), n=-0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 143,
+    index = 131,
     label = "CH3OO + OH <=> CH3O + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+11, 'cm^3/(mol*s)'), n=0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 144,
+    index = 132,
     label = "CH3OO + HO2 <=> CH3OOH + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.5e+11, 'cm^3/(mol*s)'), n=0, Ea=(-1490, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 145,
+    index = 133,
     label = "CH3OO + CH3 <=> CH3O + CH3O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.1e+12, 'cm^3/(mol*s)'), n=0, Ea=(-1411, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 146,
+    index = 134,
     label = "CH3OO + CH4 <=> CH3OOH + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(47000, 'cm^3/(mol*s)'), n=2.5, Ea=(21000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 147,
+    index = 135,
     label = "CH3OO + HCO <=> CH3O + H + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 148,
+    index = 136,
     label = "CH3OO + CO <=> CH3O + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (160000, 'cm^3/(mol*s)'),
         n = 2.18,
@@ -1155,30 +1155,30 @@ entry(
 )
 
 entry(
-    index = 149,
+    index = 137,
     label = "CH3OO + CH2O <=> CH3OOH + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 150,
+    index = 138,
     label = "CH3OO + CH3O <=> CH2O + CH3OOH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 151,
+    index = 139,
     label = "CH3OO + CH3OH <=> CH3OOH + CH2OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(19400, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 152,
+    index = 140,
     label = "CH3OO + CH3OO <=> CH3O + CH3O + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -1194,9 +1194,9 @@ entry(
 )
 
 entry(
-    index = 154,
+    index = 141,
     label = "CH3OO + CH3OO <=> CH3OH + CH2O + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2e+11, 'cm^3/(mol*s)'),
         n = -0.55,
@@ -1206,66 +1206,66 @@ entry(
 )
 
 entry(
-    index = 155,
+    index = 142,
     label = "CH3OO + C2H5 <=> CH3O + CH3CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.1e+12, 'cm^3/(mol*s)'), n=0, Ea=(-1410, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 156,
+    index = 143,
     label = "CH3OO + C2H6 <=> CH3OOH + C2H5",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(19, 'cm^3/(mol*s)'), n=3.64, Ea=(17100, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 157,
+    index = 144,
     label = "CH2OOH => CH2O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     reversible = False,
     kinetics = Arrhenius(A=(7e+14, 's^-1'), n=-1.064, Ea=(1744, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 158,
+    index = 145,
     label = "C2H6 + H <=> C2H5 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(9220, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 159,
+    index = 146,
     label = "C2H6 + O <=> C2H5 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.1e-07, 'cm^3/(mol*s)'), n=6.5, Ea=(274, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 160,
+    index = 147,
     label = "C2H6 + OH <=> C2H5 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(990, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 161,
+    index = 148,
     label = "C2H6 + HO2 <=> C2H5 + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(110000, 'cm^3/(mol*s)'), n=2.5, Ea=(16850, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 162,
+    index = 149,
     label = "C2H6 + O2 <=> C2H5 + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(730000, 'cm^3/(mol*s)'), n=2.5, Ea=(49160, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 163,
+    index = 150,
     label = "C2H6 + CH3 <=> C2H5 + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -1276,51 +1276,51 @@ entry(
 )
 
 entry(
-    index = 165,
+    index = 151,
     label = "C2H6 + CH2(S) <=> C2H5 + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 166,
+    index = 152,
     label = "C2H5 + O <=> CH3 + CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 167,
+    index = 153,
     label = "C2H5 + O <=> CH3CHO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 168,
+    index = 154,
     label = "C2H5 + O <=> C2H4 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 169,
+    index = 155,
     label = "C2H5 + OH <=> C2H4 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 170,
+    index = 156,
     label = "C2H5 + HO2 <=> CH3CH2O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 171,
+    index = 157,
     label = "C2H5 + O2 <=> C2H4 + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.4e+07, 'cm^3/(mol*s)'),
         n = 1.09,
@@ -1330,65 +1330,65 @@ entry(
 )
 
 entry(
-    index = 172,
+    index = 158,
     label = "C2H5 + CH2O <=> C2H6 + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5500, 'cm^3/(mol*s)'), n=2.81, Ea=(5860, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 173,
+    index = 159,
     label = "C2H5 + HCO <=> C2H6 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 174,
+    index = 160,
     label = "C2H5 + CH3 <=> C2H4 + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9e+11, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 175,
+    index = 161,
     label = "C2H5 + C2H5 <=> C2H6 + C2H4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 176,
+    index = 162,
     label = "C2H4 + H <=> C2H3 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(240, 'cm^3/(mol*s)'), n=3.62, Ea=(11266, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 177,
+    index = 163,
     label = "CH4 + CH <=> C2H4 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(-400, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 178,
+    index = 164,
     label = "CH3 + CH2 <=> C2H4 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 179,
+    index = 165,
     label = "CH3 + CH2(S) <=> C2H4 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 180,
+    index = 166,
     label = "C2H4 + O <=> CH3 + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -1399,9 +1399,9 @@ entry(
 )
 
 entry(
-    index = 182,
+    index = 167,
     label = "C2H4 + O <=> CH2CHO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -1412,23 +1412,23 @@ entry(
 )
 
 entry(
-    index = 184,
+    index = 168,
     label = "C2H4 + OH <=> C2H3 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.13, 'cm^3/(mol*s)'), n=4.2, Ea=(-860, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 185,
+    index = 169,
     label = "C2H4 + OH <=> CH3 + CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.3e+11, 'cm^3/(mol*s)'), n=0, Ea=(9079, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 186,
+    index = 170,
     label = "C2H4 + OH <=> CH3CHO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.4e+33, 'cm^3/(mol*s)'),
         n = -6.114,
@@ -1438,16 +1438,16 @@ entry(
 )
 
 entry(
-    index = 187,
+    index = 171,
     label = "C2H4 + OH <=> CH2CHOH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+13, 'cm^3/(mol*s)'), n=0, Ea=(11527, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 188,
+    index = 172,
     label = "C2H4 + OH <=> CH2CH2OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.4e+20, 'cm^3/(mol*s)'),
         n = -2.399,
@@ -1457,184 +1457,184 @@ entry(
 )
 
 entry(
-    index = 189,
+    index = 173,
     label = "C2H4 + HO2 <=> cC2H4O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.2e+12, 'cm^3/(mol*s)'), n=0, Ea=(17200, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 190,
+    index = 174,
     label = "C2H4 + O2 <=> C2H3 + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(60010, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 191,
+    index = 175,
     label = "C2H4 + CH3 <=> C2H3 + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+07, 'cm^3/(mol*s)'), n=1.56, Ea=(16630, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 192,
+    index = 176,
     label = "C2H3 + H <=> C2H2 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 193,
+    index = 177,
     label = "CH3 + CH <=> C2H3 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 194,
+    index = 178,
     label = "C2H3 + O <=> CH2CO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 195,
+    index = 179,
     label = "C2H3 + OH <=> C2H2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 196,
+    index = 180,
     label = "C2H3 + HO2 <=> CH2CHO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 197,
+    index = 181,
     label = "C2H3 + O2 <=> CH2CHOO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.1e+12, 'cm^3/(mol*s)'), n=0, Ea=(-1680, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 198,
+    index = 182,
     label = "C2H3 + O2 <=> CH2O + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.3e+12, 'cm^3/(mol*s)'), n=0, Ea=(3130, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 199,
+    index = 183,
     label = "C2H3 + O2 <=> CH2CHO + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.8e+12, 'cm^3/(mol*s)'), n=0, Ea=(4800, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 200,
+    index = 184,
     label = "C2H3 + O2 <=> C2H2 + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.6e+11, 'cm^3/(mol*s)'), n=0, Ea=(7930, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 201,
+    index = 185,
     label = "C2H3 + O2 <=> CH3O + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.8e+11, 'cm^3/(mol*s)'), n=0, Ea=(3130, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 202,
+    index = 186,
     label = "C2H3 + O2 <=> CH3 + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3e+10, 'cm^3/(mol*s)'), n=0, Ea=(3130, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 203,
+    index = 187,
     label = "C2H3 + CH2O <=> C2H4 + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5400, 'cm^3/(mol*s)'), n=2.81, Ea=(5860, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 204,
+    index = 188,
     label = "C2H3 + HCO <=> C2H4 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 205,
+    index = 189,
     label = "C2H3 + CH3 <=> C2H2 + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 206,
+    index = 190,
     label = "C2H3 + CH <=> CH2 + C2H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 207,
+    index = 191,
     label = "C2H3 + C2H3 <=> C2H4 + C2H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 208,
+    index = 192,
     label = "C2H3 + C2H <=> C2H2 + C2H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 209,
+    index = 193,
     label = "CH3 + C(T) <=> C2H2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 210,
+    index = 194,
     label = "CH2 + CH <=> C2H2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 211,
+    index = 195,
     label = "CH2 + CH2 <=> C2H2 + H + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 212,
+    index = 196,
     label = "C2H2 + O <=> HCCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.4e+07, 'cm^3/(mol*s)'), n=2, Ea=(1900, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 213,
+    index = 197,
     label = "C2H2 + O <=> CH2 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.1e+06, 'cm^3/(mol*s)'), n=2, Ea=(1900, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 214,
+    index = 198,
     label = "C2H2 + O <=> C2H + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.2e+15, 'cm^3/(mol*s)'),
         n = -0.6,
@@ -1644,16 +1644,16 @@ entry(
 )
 
 entry(
-    index = 215,
+    index = 199,
     label = "C2H2 + OH <=> CH3 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(830000, 'cm^3/(mol*s)'), n=1.77, Ea=(4697, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 216,
+    index = 200,
     label = "C2H2 + OH <=> HCCOH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (7.3e+06, 'cm^3/(mol*s)'),
         n = 1.89,
@@ -1663,9 +1663,9 @@ entry(
 )
 
 entry(
-    index = 217,
+    index = 201,
     label = "C2H2 + OH <=> CHCHOH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -1686,128 +1686,128 @@ entry(
 )
 
 entry(
-    index = 219,
+    index = 202,
     label = "C2H2 + OH <=> CH2CO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(15000, 'cm^3/(mol*s)'), n=2.45, Ea=(4477, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 220,
+    index = 203,
     label = "C2H2 + HO2 <=> CH2O + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+12, 'cm^3/(mol*s)'), n=0, Ea=(10000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 221,
+    index = 204,
     label = "C2H2 + HO2 <=> CH2CHO + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+12, 'cm^3/(mol*s)'), n=0, Ea=(10000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 222,
+    index = 205,
     label = "C2H2 + O2 <=> HCO + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7e+07, 'cm^3/(mol*s)'), n=1.8, Ea=(30600, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 223,
+    index = 206,
     label = "C2H2 + CH2(S) <=> C2H2 + CH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 224,
+    index = 207,
     label = "H2CC <=> C2H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+07, 's^-1'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 225,
+    index = 208,
     label = "H2CC + H <=> C2H2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 226,
+    index = 209,
     label = "H2CC + OH <=> CH2CO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 227,
+    index = 210,
     label = "H2CC + O2 <=> CH2 + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 228,
+    index = 211,
     label = "C2 + H2 <=> C2H + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(400000, 'cm^3/(mol*s)'), n=2.4, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 229,
+    index = 212,
     label = "CH2 + C(T) <=> C2H + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 230,
+    index = 213,
     label = "C2H + O <=> CH + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 231,
+    index = 214,
     label = "C2H + OH <=> HCCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 232,
+    index = 215,
     label = "C2H + OH <=> C2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+07, 'cm^3/(mol*s)'), n=2, Ea=(8000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 233,
+    index = 216,
     label = "C2H + H2 <=> C2H2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(410000, 'cm^3/(mol*s)'), n=2.39, Ea=(864, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 234,
+    index = 217,
     label = "C2H + O2 <=> CO + CO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.7e+13, 'cm^3/(mol*s)'), n=-0.16, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 235,
+    index = 218,
     label = "C2H + CH4 <=> CH3 + C2H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.2e+12, 'cm^3/(mol*s)'), n=0, Ea=(976, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 236,
+    index = 219,
     label = "C2 <=> C(T) + C(T)",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.5e+16, 'cm^3/(mol*s)'), n=0, Ea=(142300, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
@@ -1815,30 +1815,30 @@ entry(
 )
 
 entry(
-    index = 237,
+    index = 220,
     label = "C2 + O <=> C(T) + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 238,
+    index = 221,
     label = "C2 + OH <=> C2O + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 239,
+    index = 222,
     label = "C2 + O2 <=> CO + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9e+12, 'cm^3/(mol*s)'), n=0, Ea=(980, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 240,
+    index = 223,
     label = "CH3CH2OH + H <=> CH3CHOH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.6e+07, 'cm^3/(mol*s)'),
         n = 1.65,
@@ -1848,16 +1848,16 @@ entry(
 )
 
 entry(
-    index = 241,
+    index = 224,
     label = "CH3CH2OH + H <=> CH2CH2OH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+07, 'cm^3/(mol*s)'), n=1.8, Ea=(5098, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 242,
+    index = 225,
     label = "CH3CH2OH + H <=> CH3CH2O + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.5e+07, 'cm^3/(mol*s)'),
         n = 1.65,
@@ -1867,9 +1867,9 @@ entry(
 )
 
 entry(
-    index = 243,
+    index = 226,
     label = "CH3CH2OH + O <=> CH3CHOH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.9e+07, 'cm^3/(mol*s)'),
         n = 1.85,
@@ -1879,86 +1879,86 @@ entry(
 )
 
 entry(
-    index = 244,
+    index = 227,
     label = "CH3CH2OH + O <=> CH2CH2OH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.4e+07, 'cm^3/(mol*s)'), n=1.7, Ea=(5459, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 245,
+    index = 228,
     label = "CH3CH2OH + O <=> CH3CH2O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+07, 'cm^3/(mol*s)'), n=2, Ea=(4448, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 246,
+    index = 229,
     label = "CH3CH2OH + OH <=> CH3CHOH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.6e+11, 'cm^3/(mol*s)'), n=0.15, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 247,
+    index = 230,
     label = "CH3CH2OH + OH <=> CH2CH2OH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+11, 'cm^3/(mol*s)'), n=0.27, Ea=(600, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 248,
+    index = 231,
     label = "CH3CH2OH + OH <=> CH3CH2O + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.5e+11, 'cm^3/(mol*s)'), n=0.3, Ea=(1634, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 249,
+    index = 232,
     label = "CH3CH2OH + HO2 <=> CH3CHOH + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(8200, 'cm^3/(mol*s)'), n=2.55, Ea=(10750, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 250,
+    index = 233,
     label = "CH3CH2OH + HO2 <=> CH2CH2OH + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(12000, 'cm^3/(mol*s)'), n=2.55, Ea=(15750, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 251,
+    index = 234,
     label = "CH3CH2OH + HO2 <=> CH3CH2O + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(24000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 252,
+    index = 235,
     label = "CH3CH2OH + CH3 <=> CH3CHOH + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(730, 'cm^3/(mol*s)'), n=2.99, Ea=(7948, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 253,
+    index = 236,
     label = "CH3CH2OH + CH3 <=> CH2CH2OH + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(220, 'cm^3/(mol*s)'), n=3.18, Ea=(9622, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 254,
+    index = 237,
     label = "CH3CH2OH + CH3 <=> CH3CH2O + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(150, 'cm^3/(mol*s)'), n=2.99, Ea=(7649, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 255,
+    index = 238,
     label = "CH3CHOH <=> CH3CHO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(25000, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
@@ -1966,44 +1966,44 @@ entry(
 )
 
 entry(
-    index = 256,
+    index = 239,
     label = "CH3CHOH + O <=> CH3CHO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 257,
+    index = 240,
     label = "CH3CHOH + H <=> CH2OH + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 258,
+    index = 241,
     label = "CH3CHOH + H <=> C2H4 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 259,
+    index = 242,
     label = "CH3CHOH + OH <=> CH3CHO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 260,
+    index = 243,
     label = "CH3CHOH + HO2 <=> CH3CHO + OH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 261,
+    index = 244,
     label = "CH3CHOH + O2 <=> CH3CHO + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -2014,59 +2014,59 @@ entry(
 )
 
 entry(
-    index = 263,
+    index = 245,
     label = "CH2CH2OH <=> CH2CHOH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(220000, 's^-1'), n=2.84, Ea=(32920, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 264,
+    index = 246,
     label = "CH3CH2O <=> CH2CH2OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.8e-29, 's^-1'), n=11.9, Ea=(4450, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 265,
+    index = 247,
     label = "CH2CH2OH + H <=> CH3 + CH2OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 266,
+    index = 248,
     label = "CH2CH2OH + O <=> CH2O + CH2OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 267,
+    index = 249,
     label = "CH2CH2OH + OH <=> CH2CHOH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 268,
+    index = 250,
     label = "CH2CH2OH + HO2 <=> CH3CH2OH + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 269,
+    index = 251,
     label = "CH2CH2OH + HO2 => CH2OH + CH2O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     reversible = False,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 270,
+    index = 252,
     label = "CH2CH2OH + O2 <=> CH2CHOH + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.4e+07, 'cm^3/(mol*s)'),
         n = 1.09,
@@ -2076,37 +2076,37 @@ entry(
 )
 
 entry(
-    index = 271,
+    index = 253,
     label = "CH3CH2O <=> CH3CHO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3e+13, 's^-1'), n=0, Ea=(20060, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 272,
+    index = 254,
     label = "CH3CH2O + H <=> CH3CHO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 273,
+    index = 255,
     label = "CH3CH2O + OH <=> CH3CHO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 274,
+    index = 256,
     label = "CH3CH2O + O2 <=> CH3CHO + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+10, 'cm^3/(mol*s)'), n=0, Ea=(645, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 275,
+    index = 257,
     label = "CH3CH2O + CO <=> C2H5 + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (9.5e+25, 'cm^3/(mol*s)'),
         n = -4.93,
@@ -2116,9 +2116,9 @@ entry(
 )
 
 entry(
-    index = 276,
+    index = 258,
     label = "CH3CHO + H <=> CH3CO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (4.7e+13, 'cm^3/(mol*s)'),
         n = -0.35,
@@ -2128,16 +2128,16 @@ entry(
 )
 
 entry(
-    index = 277,
+    index = 259,
     label = "CH3CHO + H <=> CH2CHO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.9e+12, 'cm^3/(mol*s)'), n=0.4, Ea=(5359, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 278,
+    index = 260,
     label = "CH3CHO + O <=> CH3CO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.8e+18, 'cm^3/(mol*s)'),
         n = -1.9,
@@ -2147,9 +2147,9 @@ entry(
 )
 
 entry(
-    index = 279,
+    index = 261,
     label = "CH3CHO + O <=> CH2CHO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.7e+13, 'cm^3/(mol*s)'),
         n = -0.2,
@@ -2159,9 +2159,9 @@ entry(
 )
 
 entry(
-    index = 280,
+    index = 262,
     label = "CH3CHO + OH <=> CH3CO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.4e+11, 'cm^3/(mol*s)'),
         n = 0.3,
@@ -2171,16 +2171,16 @@ entry(
 )
 
 entry(
-    index = 281,
+    index = 263,
     label = "CH3CHO + OH <=> CH2CHO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=-0.6, Ea=(800, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 282,
+    index = 264,
     label = "CH3CHO + HO2 <=> CH3CO + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.4e+19, 'cm^3/(mol*s)'),
         n = -2.2,
@@ -2190,9 +2190,9 @@ entry(
 )
 
 entry(
-    index = 283,
+    index = 265,
     label = "CH3CHO + HO2 <=> CH2CHO + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.3e+11, 'cm^3/(mol*s)'),
         n = 0.4,
@@ -2202,142 +2202,142 @@ entry(
 )
 
 entry(
-    index = 284,
+    index = 266,
     label = "CH3CHO + O2 <=> CH3CO + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(120000, 'cm^3/(mol*s)'), n=2.5, Ea=(37554, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 285,
+    index = 267,
     label = "CH3CHO + CH3 <=> CH3CO + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.9e-07, 'cm^3/(mol*s)'), n=5.8, Ea=(2200, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 286,
+    index = 268,
     label = "CH3CHO + CH3 <=> CH2CHO + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(25, 'cm^3/(mol*s)'), n=3.15, Ea=(5727, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 287,
+    index = 269,
     label = "cC2H4O <=> CH2CHO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.8e+13, 's^-1'), n=0.2, Ea=(71780, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 288,
+    index = 270,
     label = "cC2H4O <=> CH3 + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.6e+13, 's^-1'), n=0.4, Ea=(61880, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 289,
+    index = 271,
     label = "cC2H4O <=> CH3CO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+13, 's^-1'), n=0.25, Ea=(65310, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 290,
+    index = 272,
     label = "cC2H4O <=> CH2CO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.6e+12, 's^-1'), n=-0.2, Ea=(63030, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 291,
+    index = 273,
     label = "cC2H4O <=> CH3CHO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.2e+12, 's^-1'), n=-0.75, Ea=(46424, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 292,
+    index = 274,
     label = "cC2H4O <=> C2H2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.6e+12, 's^-1'), n=0.06, Ea=(69530, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 293,
+    index = 275,
     label = "cC2H4O + H <=> cC2H3O + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(8310, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 294,
+    index = 276,
     label = "cC2H4O + H <=> C2H3 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+09, 'cm^3/(mol*s)'), n=0, Ea=(5000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 295,
+    index = 277,
     label = "cC2H4O + H <=> C2H4 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.5e+10, 'cm^3/(mol*s)'), n=0, Ea=(5000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 296,
+    index = 278,
     label = "cC2H4O + O <=> cC2H3O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.9e+12, 'cm^3/(mol*s)'), n=0, Ea=(5250, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 297,
+    index = 279,
     label = "cC2H4O + OH <=> cC2H3O + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(3610, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 298,
+    index = 280,
     label = "cC2H4O + HO2 <=> cC2H3O + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+12, 'cm^3/(mol*s)'), n=0, Ea=(17000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 299,
+    index = 281,
     label = "cC2H4O + O2 <=> cC2H3O + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(61500, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 300,
+    index = 282,
     label = "cC2H4O + CH3 <=> cC2H3O + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.1e+12, 'cm^3/(mol*s)'), n=0, Ea=(11830, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 301,
+    index = 283,
     label = "CH2CHOH + H <=> CHCHOH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(240, 'cm^3/(mol*s)'), n=3.63, Ea=(11266, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 302,
+    index = 284,
     label = "CH2CHOH + H <=> CH2CHO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+07, 'cm^3/(mol*s)'), n=1.7, Ea=(3000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 303,
+    index = 285,
     label = "CH2CHOH + O <=> CH2OH + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -2348,30 +2348,30 @@ entry(
 )
 
 entry(
-    index = 305,
+    index = 286,
     label = "CH2CHOH + O <=> CH2CHO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+07, 'cm^3/(mol*s)'), n=2, Ea=(4400, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 306,
+    index = 287,
     label = "CH2CHOH + OH <=> CHCHOH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.13, 'cm^3/(mol*s)'), n=4.2, Ea=(-860, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 307,
+    index = 288,
     label = "CH2CHOH + OH <=> CH2CHO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.5e+11, 'cm^3/(mol*s)'), n=0.3, Ea=(1600, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 308,
+    index = 289,
     label = "CH2CHOH + O2 => CH2O + HCO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     reversible = False,
     kinetics = Arrhenius(
         A = (3.5e+07, 'cm^3/(mol*s)'),
@@ -2382,114 +2382,114 @@ entry(
 )
 
 entry(
-    index = 309,
+    index = 290,
     label = "CHCHOH <=> HCCOH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.1e+31, 's^-1'), n=-6.153, Ea=(51383, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 310,
+    index = 291,
     label = "CHCHOH + H <=> CH2CHO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 311,
+    index = 292,
     label = "CHCHOH + O <=> OCHCHO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 312,
+    index = 293,
     label = "CHCHOH + O2 <=> HCCOH + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(140, 'cm^3/(mol*s)'), n=3.4, Ea=(3700, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 313,
+    index = 294,
     label = "cC2H3O <=> CH2CHO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.7e+31, 's^-1'), n=-6.9, Ea=(14994, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 314,
+    index = 295,
     label = "cC2H3O <=> CH2CO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 's^-1'), n=0, Ea=(14863, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 315,
+    index = 296,
     label = "cC2H3O <=> CH3 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.1e+12, 's^-1'), n=0, Ea=(14280, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 316,
+    index = 297,
     label = "CH2CHO <=> CH2CO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+36, 's^-1'), n=-6.48, Ea=(55171, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 317,
+    index = 298,
     label = "CH2CHO <=> CH3 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.2e+33, 's^-1'), n=-5.97, Ea=(50448, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 318,
+    index = 299,
     label = "CH2CHO + H <=> CH3 + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 319,
+    index = 300,
     label = "CH2CHO + H <=> CH3CO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 320,
+    index = 301,
     label = "CH2CHO + H <=> CH2CO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 321,
+    index = 302,
     label = "CH2CHO + O <=> CH2CO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 322,
+    index = 303,
     label = "CH2CHO + OH <=> CH2CO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 323,
+    index = 304,
     label = "CH2CHO + OH <=> CH2OH + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 324,
+    index = 305,
     label = "CH2CHO + O2 <=> CH2O + CO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.5e-10, 'cm^3/(mol*s)'),
         n = 6.69,
@@ -2499,51 +2499,51 @@ entry(
 )
 
 entry(
-    index = 325,
+    index = 306,
     label = "CH2CHO + CH3 <=> C2H5 + CO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.9e+14, 'cm^3/(mol*s)'), n=-0.5, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 326,
+    index = 307,
     label = "CH2CHO + HO2 <=> CH2O + HCO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7e+12, 'cm^3/(mol*s)'), n=-0.5, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 327,
+    index = 308,
     label = "CH2CHO + HO2 <=> CH3CHO + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+12, 'cm^3/(mol*s)'), n=-0.5, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 328,
+    index = 309,
     label = "CH2CHO + CH2 <=> C2H4 + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 329,
+    index = 310,
     label = "CH2CHO + CH <=> C2H3 + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 330,
+    index = 311,
     label = "CH3CO <=> CH3 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3e+20, 's^-1'), n=-2.32, Ea=(18012, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 331,
+    index = 312,
     label = "CH2CO + H <=> CH3CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.3e+08, 'cm^3/(mol*s)'),
         n = 1.61,
@@ -2553,72 +2553,72 @@ entry(
 )
 
 entry(
-    index = 332,
+    index = 313,
     label = "CH3CO + H <=> CH3 + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 333,
+    index = 314,
     label = "CH3CO + H <=> CH2CO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 334,
+    index = 315,
     label = "CH3CO + O <=> CH3 + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 335,
+    index = 316,
     label = "CH3CO + O <=> CH2CO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 336,
+    index = 317,
     label = "CH3CO + OH <=> CH2CO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 337,
+    index = 318,
     label = "CH3CO + CH3OO <=> CH3 + CO2 + CH3O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 338,
+    index = 319,
     label = "CH3CO + CH3 <=> C2H6 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 339,
+    index = 320,
     label = "CH3CO + CH3 <=> CH2CO + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 340,
+    index = 321,
     label = "CH3CO + O2 <=> CH2O + CO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.9e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 341,
+    index = 322,
     label = "CH2CO + H <=> CH3 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.3e+10, 'cm^3/(mol*s)'),
         n = 0.851,
@@ -2628,114 +2628,114 @@ entry(
 )
 
 entry(
-    index = 342,
+    index = 323,
     label = "CH2CO + H <=> HCCO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+07, 'cm^3/(mol*s)'), n=2, Ea=(10000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 343,
+    index = 324,
     label = "CH + CH2O <=> CH2CO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(-517, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 344,
+    index = 325,
     label = "CH2CO + O <=> CO2 + CH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.8e+12, 'cm^3/(mol*s)'), n=0, Ea=(1350, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 345,
+    index = 326,
     label = "CH2CO + O <=> HCCO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+07, 'cm^3/(mol*s)'), n=2, Ea=(10000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 346,
+    index = 327,
     label = "CH2CO + OH <=> CH2OH + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+12, 'cm^3/(mol*s)'), n=0, Ea=(-1013, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 347,
+    index = 328,
     label = "CH2CO + OH <=> CH3 + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.7e+11, 'cm^3/(mol*s)'), n=0, Ea=(-1013, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 348,
+    index = 329,
     label = "CH2CO + OH <=> HCCO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+07, 'cm^3/(mol*s)'), n=2, Ea=(3000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 349,
+    index = 330,
     label = "CH2CO + CH2(S) <=> C2H4 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 350,
+    index = 331,
     label = "HCCOH + H <=> HCCO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+07, 'cm^3/(mol*s)'), n=2, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 351,
+    index = 332,
     label = "HCCOH + O <=> HCCO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+07, 'cm^3/(mol*s)'), n=2, Ea=(1900, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 352,
+    index = 333,
     label = "HCCOH + OH <=> HCCO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+07, 'cm^3/(mol*s)'), n=2, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 353,
+    index = 334,
     label = "HCCO + H <=> CH2(S) + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 354,
+    index = 335,
     label = "HCCO + O <=> CO + CO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 355,
+    index = 336,
     label = "HCCO + OH <=> HCO + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 356,
+    index = 337,
     label = "HCCO + OH <=> C2O + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 357,
+    index = 338,
     label = "HCCO + O2 <=> CO2 + CO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (4.9e+12, 'cm^3/(mol*s)'),
         n = -0.142,
@@ -2745,9 +2745,9 @@ entry(
 )
 
 entry(
-    index = 358,
+    index = 339,
     label = "HCCO + O2 <=> CO + CO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.6e+11, 'cm^3/(mol*s)'),
         n = -0.02,
@@ -2757,37 +2757,37 @@ entry(
 )
 
 entry(
-    index = 359,
+    index = 340,
     label = "HCCO + O2 <=> HCO + CO + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(220, 'cm^3/(mol*s)'), n=2.69, Ea=(3540, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 360,
+    index = 341,
     label = "HCCO + CH2 <=> C2H3 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 361,
+    index = 342,
     label = "HCCO + CH <=> C2H2 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 362,
+    index = 343,
     label = "HCCO + HCCO <=> C2H2 + CO + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 363,
+    index = 344,
     label = "C2O <=> C(T) + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(2e+15, 'cm^3/(mol*s)'), n=0, Ea=(44200, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
@@ -2795,149 +2795,149 @@ entry(
 )
 
 entry(
-    index = 364,
+    index = 345,
     label = "C2O + H <=> CH + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 365,
+    index = 346,
     label = "C2O + O <=> CO + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 366,
+    index = 347,
     label = "C2O + OH <=> CO + CO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 367,
+    index = 348,
     label = "C2O + O2 <=> CO + CO + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(2600, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 368,
+    index = 349,
     label = "C2O + O2 <=> CO + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(2600, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 369,
+    index = 350,
     label = "C2O + C(T) <=> CO + C2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 370,
+    index = 351,
     label = "CH3CH2OOH <=> CH3CH2O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+35, 's^-1'), n=-6.7, Ea=(47450, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 371,
+    index = 352,
     label = "CH3CH2OOH + H <=> CH3CHOOH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.5e+10, 'cm^3/(mol*s)'), n=0, Ea=(1860, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 372,
+    index = 353,
     label = "CH3CH2OOH + H <=> CH3CH2OO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.3e+10, 'cm^3/(mol*s)'), n=0, Ea=(1860, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 373,
+    index = 354,
     label = "CH3CH2OOH + H <=> CH3CH2O + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+10, 'cm^3/(mol*s)'), n=0, Ea=(1860, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 374,
+    index = 355,
     label = "CH3CH2OOH + O <=> CH3CHOOH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(4750, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 375,
+    index = 356,
     label = "CH3CH2OOH + O <=> CH3CH2OO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.7e+12, 'cm^3/(mol*s)'), n=0, Ea=(4750, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 376,
+    index = 357,
     label = "CH3CH2OOH + OH <=> CH3CHOOH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.2e+11, 'cm^3/(mol*s)'), n=0, Ea=(-258, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 377,
+    index = 358,
     label = "CH3CH2OOH + OH <=> CH3CH2OO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.1e+12, 'cm^3/(mol*s)'), n=0, Ea=(-437, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 378,
+    index = 359,
     label = "CH3CH2OOH + HO2 <=> CH3CH2OO + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 379,
+    index = 360,
     label = "CH3CH2OO + H <=> CH3CH2O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 380,
+    index = 361,
     label = "CH3CH2OO + O <=> CH3CH2O + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(-145, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 381,
+    index = 362,
     label = "CH3CH2OO + OH <=> CH3CH2OH + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+15, 'cm^3/(mol*s)'), n=-0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 382,
+    index = 363,
     label = "CH3CH2OO + OH <=> CH3CH2O + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+11, 'cm^3/(mol*s)'), n=0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 383,
+    index = 364,
     label = "CH3CH2OO + HO2 <=> CH3CH2OOH + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.5e+11, 'cm^3/(mol*s)'), n=0, Ea=(-1391, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 384,
+    index = 365,
     label = "CH3CH2OO + CO <=> CH3CH2O + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (160000, 'cm^3/(mol*s)'),
         n = 2.18,
@@ -2947,51 +2947,51 @@ entry(
 )
 
 entry(
-    index = 385,
+    index = 366,
     label = "CH3CH2OO + CH3 <=> CH3CH2O + CH3O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.1e+12, 'cm^3/(mol*s)'), n=0, Ea=(-1411, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 386,
+    index = 367,
     label = "CH3CH2OO + CH4 <=> CH3CH2OOH + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(47000, 'cm^3/(mol*s)'), n=2.5, Ea=(21000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 387,
+    index = 368,
     label = "CH3CH2OO + CH3OH <=> CH3CH2OOH + CH2OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(19400, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 388,
+    index = 369,
     label = "CH3CH2OO + CH2O <=> CH3CH2OOH + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 389,
+    index = 370,
     label = "CH3CH2OO + C2H5 <=> CH3CH2O + CH3CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.1e+12, 'cm^3/(mol*s)'), n=0, Ea=(-1411, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 390,
+    index = 371,
     label = "CH3CH2OO + C2H6 <=> CH3CH2OOH + C2H5",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.6, 'cm^3/(mol*s)'), n=3.76, Ea=(17200, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 391,
+    index = 372,
     label = "CH3CH2OO + CH3CHO <=> CH3CH2OOH + CH3CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.4e+19, 'cm^3/(mol*s)'),
         n = -2.2,
@@ -3001,9 +3001,9 @@ entry(
 )
 
 entry(
-    index = 392,
+    index = 373,
     label = "CH3CH2OO + CH3CHO <=> CH3CH2OOH + CH2CHO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.3e+11, 'cm^3/(mol*s)'),
         n = 0.4,
@@ -3013,9 +3013,9 @@ entry(
 )
 
 entry(
-    index = 393,
+    index = 374,
     label = "CH3CH2OO + CH3CH2OO <=> CH3CH2O + CH3CH2O + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.9e+11, 'cm^3/(mol*s)'),
         n = -0.27,
@@ -3025,142 +3025,142 @@ entry(
 )
 
 entry(
-    index = 394,
+    index = 375,
     label = "CH3CH2OO + CH3CH2OO <=> CH3CHO + CH3CH2OH + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.3e+09, 'cm^3/(mol*s)'), n=0, Ea=(-850, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 395,
+    index = 376,
     label = "CH3CHOOH <=> CH3CHO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.5e+12, 's^-1'), n=-0.947, Ea=(979, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 396,
+    index = 377,
     label = "CH2CH2OOH <=> cC2H4O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3e+10, 's^-1'), n=0.72, Ea=(15380, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 397,
+    index = 378,
     label = "CH2CH2OOH <=> CH3CH2OO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+07, 's^-1'), n=1.04, Ea=(17980, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 398,
+    index = 379,
     label = "CH2CH2OOH <=> C2H4 + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3e+11, 's^-1'), n=0.52, Ea=(16150, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 399,
+    index = 380,
     label = "CH2CHOOH <=> CH2CHO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+35, 's^-1'), n=-6.7, Ea=(47450, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 400,
+    index = 381,
     label = "CH2CHOOH + H <=> CH2CHOO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.3e+10, 'cm^3/(mol*s)'), n=0, Ea=(1860, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 401,
+    index = 382,
     label = "CH2CHOOH + H <=> CH2CHO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+10, 'cm^3/(mol*s)'), n=0, Ea=(1860, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 402,
+    index = 383,
     label = "CH2CHOOH + O <=> CH2CHOO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.7e+12, 'cm^3/(mol*s)'), n=0, Ea=(4750, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 403,
+    index = 384,
     label = "CH2CHOOH + OH <=> CH2CHOO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.1e+12, 'cm^3/(mol*s)'), n=0, Ea=(-437, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 404,
+    index = 385,
     label = "CH2CHOOH + HO2 <=> CH2CHOO + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 405,
+    index = 386,
     label = "CH2CHOO <=> C2H2 + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.6e+48, 's^-1'), n=-8.868, Ea=(110591, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 406,
+    index = 387,
     label = "CH2CHOO <=> CH2O + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.1e+47, 's^-1'), n=-8.701, Ea=(111046, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 407,
+    index = 388,
     label = "CH2CHOO <=> CYCOOC",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.9e+09, 's^-1'), n=0, Ea=(22250, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 408,
+    index = 389,
     label = "CH2CHOO + H <=> CH2CHO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 409,
+    index = 390,
     label = "CH2CHOO + O <=> CH2CHO + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(-145, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 410,
+    index = 391,
     label = "CH2CHOO + OH <=> CH2CHOH + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+15, 'cm^3/(mol*s)'), n=-0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 411,
+    index = 392,
     label = "CH2CHOO + OH <=> CH2CHO + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+11, 'cm^3/(mol*s)'), n=0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 412,
+    index = 393,
     label = "CH2CHOO + HO2 <=> CH2CHOOH + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.5e+11, 'cm^3/(mol*s)'), n=0, Ea=(-1391, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 413,
+    index = 394,
     label = "CH2CHOO + CO <=> CH2CHO + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (160000, 'cm^3/(mol*s)'),
         n = 2.18,
@@ -3170,201 +3170,201 @@ entry(
 )
 
 entry(
-    index = 414,
+    index = 395,
     label = "CH2CHOO + CH3 <=> CH2CHO + CH3O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.1e+12, 'cm^3/(mol*s)'), n=0, Ea=(-1411, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 415,
+    index = 396,
     label = "CH2CHOO + CH4 <=> CH2CHOOH + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(47000, 'cm^3/(mol*s)'), n=2.5, Ea=(21000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 416,
+    index = 397,
     label = "CH2CHOO + CH3OH <=> CH2CHOOH + CH2OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(19400, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 417,
+    index = 398,
     label = "CH2CHOO + CH2O <=> CH2CHOOH + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 418,
+    index = 399,
     label = "CH2CHOO + C2H6 <=> CH2CHOOH + C2H5",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.6, 'cm^3/(mol*s)'), n=3.76, Ea=(17200, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 419,
+    index = 400,
     label = "CYCOOC <=> CH2O + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.1e+10, 's^-1'), n=0, Ea=(914, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 420,
+    index = 401,
     label = "CYCOOC <=> OCHCHO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+13, 's^-1'), n=-1.093, Ea=(3159, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 421,
+    index = 402,
     label = "OCHCHO + H <=> CH2O + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 422,
+    index = 403,
     label = "OCHCHO + OH <=> HCO + CO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.6e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 423,
+    index = 404,
     label = "HOCH2CH2OO <=> CH2O + CH2O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.4e+08, 's^-1'), n=0.994, Ea=(22250, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 424,
+    index = 405,
     label = "HOCH2CH2OO + HO2 => CH2OOH + CH2OH + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     reversible = False,
     kinetics = Arrhenius(A=(2.5e+11, 'cm^3/(mol*s)'), n=0, Ea=(-1490, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 425,
+    index = 406,
     label = "HOCH2CH2OO + CH2O => CH2OOH + CH2OH + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     reversible = False,
     kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 426,
+    index = 407,
     label = "HOCH2CH2OO + C2H4 => CH2O + CH2OH + CH3CHO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     reversible = False,
     kinetics = Arrhenius(A=(2.2e+12, 'cm^3/(mol*s)'), n=0, Ea=(17200, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 427,
+    index = 408,
     label = "C2H5 + HCO <=> C2H5CHO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 428,
+    index = 409,
     label = "CH2CHO + CH3 <=> C2H5CHO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 429,
+    index = 410,
     label = "C2H5CHO + H <=> C2H5CO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(8e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 430,
+    index = 411,
     label = "C2H5CHO + O <=> C2H5CO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.8e+12, 'cm^3/(mol*s)'), n=0, Ea=(1730, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 431,
+    index = 412,
     label = "C2H5CHO + OH <=> C2H5CO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 432,
+    index = 413,
     label = "C2H5 + CO <=> C2H5CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+11, 'cm^3/(mol*s)'), n=0, Ea=(4800, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 433,
+    index = 414,
     label = "C3H6 <=> C2H2 + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.5e+12, 's^-1'), n=0, Ea=(70000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 434,
+    index = 415,
     label = "C3H6 <=> H2CCCH2 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 's^-1'), n=0, Ea=(80000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 435,
+    index = 416,
     label = "CH3CHCH + H <=> C3H6",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 436,
+    index = 417,
     label = "CH3CCH2 + H <=> C3H6",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 437,
+    index = 418,
     label = "C3H6 + H <=> C2H4 + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.2e+12, 'cm^3/(mol*s)'), n=0, Ea=(1302, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 438,
+    index = 419,
     label = "C3H6 + H <=> CH2CHCH2 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(170000, 'cm^3/(mol*s)'), n=2.5, Ea=(2492, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 439,
+    index = 420,
     label = "C3H6 + H <=> CH3CCH2 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(410000, 'cm^3/(mol*s)'), n=2.5, Ea=(9794, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 440,
+    index = 421,
     label = "C3H6 + H <=> CH3CHCH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(800000, 'cm^3/(mol*s)'), n=2.5, Ea=(12284, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 441,
+    index = 422,
     label = "C3H6 + O <=> C2H5 + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.6e+07, 'cm^3/(mol*s)'),
         n = 1.76,
@@ -3374,86 +3374,86 @@ entry(
 )
 
 entry(
-    index = 442,
+    index = 423,
     label = "C3H6 + O <=> CH2CHCH2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.2e+11, 'cm^3/(mol*s)'), n=0.7, Ea=(5884, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 443,
+    index = 424,
     label = "C3H6 + O <=> CH3CHCH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+11, 'cm^3/(mol*s)'), n=0.7, Ea=(8959, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 444,
+    index = 425,
     label = "C3H6 + O <=> CH3CCH2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+10, 'cm^3/(mol*s)'), n=0.7, Ea=(7632, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 445,
+    index = 426,
     label = "C3H6 + O <=> CH3CHCO + H + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+07, 'cm^3/(mol*s)'), n=1.76, Ea=(76, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 446,
+    index = 427,
     label = "C3H6 + OH <=> CH2CHCH2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.1e+06, 'cm^3/(mol*s)'), n=2, Ea=(-298, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 447,
+    index = 428,
     label = "C3H6 + OH <=> CH3CCH2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.1e+06, 'cm^3/(mol*s)'), n=2, Ea=(1451, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 448,
+    index = 429,
     label = "C3H6 + OH <=> CH3CHCH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.1e+06, 'cm^3/(mol*s)'), n=2, Ea=(2778, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 449,
+    index = 430,
     label = "C3H6 + HO2 <=> CH2CHCH2 + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9600, 'cm^3/(mol*s)'), n=2.6, Ea=(13910, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 450,
+    index = 431,
     label = "CH3CHCH + HO2 <=> C3H6 + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 451,
+    index = 432,
     label = "CH2CHCH2 + HO2 <=> C3H6 + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 452,
+    index = 433,
     label = "CH3CCH2 + HO2 <=> C3H6 + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 453,
+    index = 434,
     label = "C3H6 + HCO <=> CH2CHCH2 + CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.1e+07, 'cm^3/(mol*s)'),
         n = 1.9,
@@ -3463,37 +3463,37 @@ entry(
 )
 
 entry(
-    index = 454,
+    index = 435,
     label = "C3H6 + CH3 <=> CH2CHCH2 + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.2, 'cm^3/(mol*s)'), n=3.5, Ea=(5675, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 455,
+    index = 436,
     label = "C3H6 + CH3 <=> CH3CCH2 + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.84, 'cm^3/(mol*s)'), n=3.5, Ea=(11656, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 456,
+    index = 437,
     label = "C3H6 + CH3 <=> CH3CHCH + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.4, 'cm^3/(mol*s)'), n=3.5, Ea=(12848, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 457,
+    index = 438,
     label = "CH2CHCH2 + CH2CHCH2 <=> C3H6 + H2CCCH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 458,
+    index = 439,
     label = "C2H2 + CH3 <=> CH3CHCH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.2e+35, 'cm^3/(mol*s)'),
         n = -7.76,
@@ -3503,37 +3503,37 @@ entry(
 )
 
 entry(
-    index = 459,
+    index = 440,
     label = "CH3CHCH + H <=> CH2CHCH2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 460,
+    index = 441,
     label = "CH3CHCH + H <=> H3CCCH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 461,
+    index = 442,
     label = "CH3CHCH + O <=> CH3CHCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 462,
+    index = 443,
     label = "CH3CHCH + OH <=> H3CCCH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 463,
+    index = 444,
     label = "CH3CHCH + O2 <=> CH3CHO + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.2e+23, 'cm^3/(mol*s)'),
         n = -3.29,
@@ -3543,9 +3543,9 @@ entry(
 )
 
 entry(
-    index = 464,
+    index = 445,
     label = "CH3CHCH + O2 <=> CH3CHCO + H + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.6e+15, 'cm^3/(mol*s)'),
         n = -0.78,
@@ -3555,9 +3555,9 @@ entry(
 )
 
 entry(
-    index = 465,
+    index = 446,
     label = "C2H2 + CH3 <=> CH3CCH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (5e+22, 'cm^3/(mol*s)'),
         n = -4.39,
@@ -3567,37 +3567,37 @@ entry(
 )
 
 entry(
-    index = 466,
+    index = 447,
     label = "CH3CCH2 + H <=> CH2CHCH2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 467,
+    index = 448,
     label = "CH3CCH2 + H <=> H3CCCH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 468,
+    index = 449,
     label = "CH3CCH2 + O <=> CH2CO + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 469,
+    index = 450,
     label = "CH3CCH2 + OH <=> H3CCCH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 470,
+    index = 451,
     label = "CH3CCH2 + O2 <=> CH3CO + CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.2e+22, 'cm^3/(mol*s)'),
         n = -3.29,
@@ -3607,30 +3607,30 @@ entry(
 )
 
 entry(
-    index = 471,
+    index = 452,
     label = "CH3CCH2 + CH3 <=> H3CCCH + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+11, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 472,
+    index = 453,
     label = "C2H4 + CH2(S) <=> CH2CHCH2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 473,
+    index = 454,
     label = "C2H3 + CH3 <=> CH2CHCH2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(470, 'cm^3/(mol*s)'), n=3.7, Ea=(5677, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 474,
+    index = 455,
     label = "C2H2 + CH3 <=> CH2CHCH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.7e+53, 'cm^3/(mol*s)'),
         n = -12.82,
@@ -3640,44 +3640,44 @@ entry(
 )
 
 entry(
-    index = 475,
+    index = 456,
     label = "CH2CHCH2 + H <=> H2CCCH2 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 476,
+    index = 457,
     label = "CH2CHCH2 + O <=> CH2CHCHO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.8e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 477,
+    index = 458,
     label = "CH2CHCH2 + OH <=> H2CCCH2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 478,
+    index = 459,
     label = "CH2CHCH2 + HO2 <=> CH2CHCHO + H + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 479,
+    index = 460,
     label = "CH2CHCH2 + O2 <=> H2CCCH2 + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+15, 'cm^3/(mol*s)'), n=-1.4, Ea=(22428, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 480,
+    index = 461,
     label = "CH2CHCH2 + O2 <=> CH2CHO + CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.1e+10, 'cm^3/(mol*s)'),
         n = 0.34,
@@ -3687,9 +3687,9 @@ entry(
 )
 
 entry(
-    index = 481,
+    index = 462,
     label = "CH2CHCH2 + O2 <=> C2H2 + CH2O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.8e+25, 'cm^3/(mol*s)'),
         n = -4.8,
@@ -3699,9 +3699,9 @@ entry(
 )
 
 entry(
-    index = 482,
+    index = 463,
     label = "CH2CHCH2 + O2 <=> CH2CHCHO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.8e+13, 'cm^3/(mol*s)'),
         n = -0.41,
@@ -3711,23 +3711,23 @@ entry(
 )
 
 entry(
-    index = 483,
+    index = 464,
     label = "CH2CHCH2 + CH3 <=> H2CCCH2 + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+12, 'cm^3/(mol*s)'), n=-0.3, Ea=(-131, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 484,
+    index = 465,
     label = "C2H3 + CH2 <=> H2CCCH2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 485,
+    index = 466,
     label = "C2H2 + CH3 <=> H2CCCH2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (5.1e+09, 'cm^3/(mol*s)'),
         n = 0.86,
@@ -3737,30 +3737,30 @@ entry(
 )
 
 entry(
-    index = 486,
+    index = 467,
     label = "H2CCCH2 <=> H3CCCH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.2e+14, 's^-1'), n=0, Ea=(68100, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 487,
+    index = 468,
     label = "H2CCCH2 + H <=> H3CCCH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(5000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 488,
+    index = 469,
     label = "H2CCCH2 + H <=> H2CCCH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+07, 'cm^3/(mol*s)'), n=2, Ea=(5000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 489,
+    index = 470,
     label = "H2CCCH2 + H <=> CH3CHCH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.1e+30, 'cm^3/(mol*s)'),
         n = -6.52,
@@ -3770,9 +3770,9 @@ entry(
 )
 
 entry(
-    index = 490,
+    index = 471,
     label = "H2CCCH2 + H <=> CH3CCH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = Arrhenius(
         A = (9.2e+38, 'cm^3/(mol*s)'),
@@ -3783,9 +3783,9 @@ entry(
 )
 
 entry(
-    index = 491,
+    index = 472,
     label = "H2CCCH2 + H <=> CH2CHCH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = Arrhenius(
         A = (9.6e+61, 'cm^3/(mol*s)'),
@@ -3796,37 +3796,37 @@ entry(
 )
 
 entry(
-    index = 492,
+    index = 473,
     label = "H2CCCH2 + O <=> C2H4 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+07, 'cm^3/(mol*s)'), n=1.8, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 493,
+    index = 474,
     label = "H2CCCH2 + OH <=> H2CCCH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+07, 'cm^3/(mol*s)'), n=2, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 494,
+    index = 475,
     label = "H2CCCH2 + CH3 <=> H2CCCH + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3e+12, 'cm^3/(mol*s)'), n=0, Ea=(7700, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 495,
+    index = 476,
     label = "H2CCCH2 + C2H <=> C2H2 + H2CCCH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 496,
+    index = 477,
     label = "C2H2 + CH3 <=> H3CCCH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.6e+09, 'cm^3/(mol*s)'),
         n = 1.1,
@@ -3836,283 +3836,283 @@ entry(
 )
 
 entry(
-    index = 497,
+    index = 478,
     label = "H3CCCH + H <=> H2CCCH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+07, 'cm^3/(mol*s)'), n=2, Ea=(5000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 498,
+    index = 479,
     label = "H3CCCH + O <=> HCCO + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(2250, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 499,
+    index = 480,
     label = "H3CCCH + O <=> C2H4 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.8e+12, 'cm^3/(mol*s)'), n=0, Ea=(2250, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 500,
+    index = 481,
     label = "H3CCCH + OH <=> H2CCCH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+07, 'cm^3/(mol*s)'), n=2, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 501,
+    index = 482,
     label = "H3CCCH + O2 => CH3 + HCO + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     reversible = False,
     kinetics = Arrhenius(A=(4e+14, 'cm^3/(mol*s)'), n=0, Ea=(41900, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 502,
+    index = 483,
     label = "H3CCCH + CH3 <=> H2CCCH + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.8e+12, 'cm^3/(mol*s)'), n=0, Ea=(7700, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 503,
+    index = 484,
     label = "H3CCCH + C2H <=> C2H2 + H2CCCH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 504,
+    index = 485,
     label = "cC3H4 <=> H2CCCH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+14, 's^-1'), n=0, Ea=(50450, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 505,
+    index = 486,
     label = "cC3H4 <=> H3CCCH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+15, 's^-1'), n=0, Ea=(43730, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 506,
+    index = 487,
     label = "C2H2 + CH2 <=> H2CCCH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(6621, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 507,
+    index = 488,
     label = "C2H2 + CH2(S) <=> H2CCCH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.8e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 508,
+    index = 489,
     label = "C2H2 + HCCO <=> H2CCCH + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+11, 'cm^3/(mol*s)'), n=0, Ea=(3000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 509,
+    index = 490,
     label = "C2H3 + C2H3 <=> H2CCCH + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 510,
+    index = 491,
     label = "H2CCCH <=> C3H2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.2e+12, 's^-1'), n=0, Ea=(78447, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 511,
+    index = 492,
     label = "H2CCCH + H <=> C3H2 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 512,
+    index = 493,
     label = "H2CCCH + O <=> CH2O + C2H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.4e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 513,
+    index = 494,
     label = "H2CCCH + OH <=> C3H2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 514,
+    index = 495,
     label = "H2CCCH + OH <=> CH2O + C2H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 515,
+    index = 496,
     label = "H2CCCH + OH <=> C2H3 + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 516,
+    index = 497,
     label = "H2CCCH + HO2 <=> H2CCCH2 + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 517,
+    index = 498,
     label = "H2CCCH + HO2 <=> H3CCCH + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 518,
+    index = 499,
     label = "H2CCCH + O2 <=> CH2CO + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(170000, 'cm^3/(mol*s)'), n=1.7, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 519,
+    index = 500,
     label = "H2CCCH + HCO <=> H2CCCH2 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 520,
+    index = 501,
     label = "H2CCCH + HCO <=> H3CCCH + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 521,
+    index = 502,
     label = "C3H2 + H <=> C3H + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 522,
+    index = 503,
     label = "C2H2 + CH <=> C3H2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.1e+14, 'cm^3/(mol*s)'), n=0, Ea=(-121, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 523,
+    index = 504,
     label = "C3H2 + O <=> C2H2 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 524,
+    index = 505,
     label = "C3H2 + OH <=> C2H2 + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 525,
+    index = 506,
     label = "C3H2 + O2 <=> HCCO + CO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+12, 'cm^3/(mol*s)'), n=0, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 526,
+    index = 507,
     label = "C3H + O <=> C2H + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 527,
+    index = 508,
     label = "C3H + O2 <=> HCCO + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 528,
+    index = 509,
     label = "CH2CHCHO + H <=> C2H4 + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(3500, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 529,
+    index = 510,
     label = "CH2CHCHO + H <=> CH2CHCO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(4200, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 530,
+    index = 511,
     label = "CH2CHCHO + O <=> CH2CHCO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.2e+12, 'cm^3/(mol*s)'), n=0, Ea=(1970, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 531,
+    index = 512,
     label = "CH2CHCHO + O <=> CH2CO + HCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+07, 'cm^3/(mol*s)'), n=1.76, Ea=(76, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 532,
+    index = 513,
     label = "CH2CHCHO + OH <=> CH2CHCO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 533,
+    index = 514,
     label = "CH2CHCHO + O2 <=> CH2CHCO + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(36000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 534,
+    index = 515,
     label = "CH2CHCO <=> C2H3 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 's^-1'), n=0, Ea=(34000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 535,
+    index = 516,
     label = "CH2CHCO + O <=> C2H3 + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 536,
+    index = 517,
     label = "CH2CHCO + O2 <=> CH2CHO + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (5.4e+20, 'cm^3/(mol*s)'),
         n = -2.72,
@@ -4122,107 +4122,107 @@ entry(
 )
 
 entry(
-    index = 537,
+    index = 518,
     label = "HNO + H <=> NO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.4e+11, 'cm^3/(mol*s)'), n=0.72, Ea=(650, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 538,
+    index = 519,
     label = "HNO + O <=> NO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 539,
+    index = 520,
     label = "HNO + OH <=> NO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 540,
+    index = 521,
     label = "HNO + O2 <=> HO2 + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(16000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 541,
+    index = 522,
     label = "HNO + HNO <=> N2O + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9e+08, 'cm^3/(mol*s)'), n=0, Ea=(3100, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 542,
+    index = 523,
     label = "HNO + NO2 <=> HONO + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(44000, 'cm^3/(mol*s)'), n=2.64, Ea=(4040, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 543,
+    index = 524,
     label = "NO + HO2 <=> NO2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.1e+12, 'cm^3/(mol*s)'), n=0, Ea=(-497, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 544,
+    index = 525,
     label = "NO2 + H <=> NO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3e+14, 'cm^3/(mol*s)'), n=0, Ea=(362, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 545,
+    index = 526,
     label = "NO2 + O <=> NO + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.1e+14, 'cm^3/(mol*s)'), n=-0.52, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 546,
+    index = 527,
     label = "NO2 + HO2 <=> HONO + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.9, 'cm^3/(mol*s)'), n=3.32, Ea=(3044, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 547,
+    index = 528,
     label = "NO2 + HO2 <=> HNO2 + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(19, 'cm^3/(mol*s)'), n=3.26, Ea=(4983, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 548,
+    index = 529,
     label = "NO2 + H2 <=> HONO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(13000, 'cm^3/(mol*s)'), n=2.76, Ea=(29770, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 549,
+    index = 530,
     label = "NO2 + H2 <=> HNO2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4, 'cm^3/(mol*s)'), n=3.73, Ea=(32400, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 550,
+    index = 531,
     label = "NO2 + NO2 <=> NO + NO + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(27599, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 551,
+    index = 532,
     label = "NO2 + NO2 <=> NO3 + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (9.6e+09, 'cm^3/(mol*s)'),
         n = 0.73,
@@ -4232,9 +4232,9 @@ entry(
 )
 
 entry(
-    index = 552,
+    index = 533,
     label = "HONO + H <=> HNO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (5.6e+10, 'cm^3/(mol*s)'),
         n = 0.86,
@@ -4244,9 +4244,9 @@ entry(
 )
 
 entry(
-    index = 553,
+    index = 534,
     label = "HONO + H <=> NO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (8.1e+06, 'cm^3/(mol*s)'),
         n = 1.89,
@@ -4256,86 +4256,86 @@ entry(
 )
 
 entry(
-    index = 554,
+    index = 535,
     label = "HONO + O <=> NO2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(5960, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 555,
+    index = 536,
     label = "HONO + OH <=> NO2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+12, 'cm^3/(mol*s)'), n=0, Ea=(-520, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 556,
+    index = 537,
     label = "HONO + NO2 <=> HONO2 + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+11, 'cm^3/(mol*s)'), n=0, Ea=(32700, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 557,
+    index = 538,
     label = "HONO + HONO <=> NO + NO2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.35, 'cm^3/(mol*s)'), n=3.64, Ea=(12140, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 558,
+    index = 539,
     label = "HNO2 + O <=> NO2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(2000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 559,
+    index = 540,
     label = "HNO2 + OH <=> NO2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 560,
+    index = 541,
     label = "NO3 + H <=> NO2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 561,
+    index = 542,
     label = "NO3 + O <=> NO2 + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 562,
+    index = 543,
     label = "NO3 + OH <=> NO2 + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 563,
+    index = 544,
     label = "NO3 + HO2 <=> NO2 + O2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 564,
+    index = 545,
     label = "NO3 + NO2 <=> NO + NO2 + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+10, 'cm^3/(mol*s)'), n=0, Ea=(2940, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 565,
+    index = 546,
     label = "HONO2 + H <=> H2 + NO3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (5.6e+08, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -4345,30 +4345,30 @@ entry(
 )
 
 entry(
-    index = 566,
+    index = 547,
     label = "HONO2 + H <=> H2O + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(61, 'cm^3/(mol*s)'), n=3.3, Ea=(6285, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 567,
+    index = 548,
     label = "HONO2 + H <=> OH + HONO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(380000, 'cm^3/(mol*s)'), n=2.3, Ea=(6976, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 568,
+    index = 549,
     label = "HONO2 + OH <=> H2O + NO3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+10, 'cm^3/(mol*s)'), n=0, Ea=(-1240, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 569,
+    index = 550,
     label = "N2O + H <=> N2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -4379,30 +4379,30 @@ entry(
 )
 
 entry(
-    index = 571,
+    index = 551,
     label = "N2O + O <=> NO + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(27679, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 572,
+    index = 552,
     label = "N2O + O <=> N2 + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.7e+12, 'cm^3/(mol*s)'), n=0, Ea=(15936, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 573,
+    index = 553,
     label = "N2O + OH <=> N2 + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.013, 'cm^3/(mol*s)'), n=4.72, Ea=(36560, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 574,
+    index = 554,
     label = "N2O + OH <=> HNO + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (0.00012, 'cm^3/(mol*s)'),
         n = 4.33,
@@ -4412,9 +4412,9 @@ entry(
 )
 
 entry(
-    index = 575,
+    index = 555,
     label = "N2O + NO <=> NO2 + N2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (530000, 'cm^3/(mol*s)'),
         n = 2.23,
@@ -4424,9 +4424,9 @@ entry(
 )
 
 entry(
-    index = 576,
+    index = 556,
     label = "NH3 <=> NH2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(2.2e+16, 'cm^3/(mol*s)'), n=0, Ea=(93470, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
@@ -4434,9 +4434,9 @@ entry(
 )
 
 entry(
-    index = 577,
+    index = 557,
     label = "NH3 + H <=> NH2 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (640000, 'cm^3/(mol*s)'),
         n = 2.39,
@@ -4446,9 +4446,9 @@ entry(
 )
 
 entry(
-    index = 578,
+    index = 558,
     label = "NH3 + O <=> NH2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (9.4e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -4458,58 +4458,58 @@ entry(
 )
 
 entry(
-    index = 579,
+    index = 559,
     label = "NH3 + OH <=> NH2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+06, 'cm^3/(mol*s)'), n=2.04, Ea=(566, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 580,
+    index = 560,
     label = "NH3 + HO2 <=> NH2 + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11, 'cm^3/(mol*s)'), n=0, Ea=(22000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 581,
+    index = 561,
     label = "NH2 + H <=> NH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(720000, 'cm^3/(mol*s)'), n=2.32, Ea=(799, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 582,
+    index = 562,
     label = "NH2 + O <=> HNO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.6e+14, 'cm^3/(mol*s)'), n=-0.5, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 583,
+    index = 563,
     label = "NH2 + O <=> NH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.8e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 584,
+    index = 564,
     label = "NH2 + OH <=> NH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+06, 'cm^3/(mol*s)'), n=2, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 585,
+    index = 565,
     label = "NH2 + HO2 <=> H2NO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 586,
+    index = 566,
     label = "NH2 + HO2 <=> NH3 + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -4519,9 +4519,9 @@ entry(
 )
 
 entry(
-    index = 587,
+    index = 567,
     label = "NH2 + O2 <=> H2NO + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.5e+11, 'cm^3/(mol*s)'),
         n = 0.48,
@@ -4531,9 +4531,9 @@ entry(
 )
 
 entry(
-    index = 588,
+    index = 568,
     label = "NH2 + O2 <=> HNO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (6.2e+07, 'cm^3/(mol*s)'),
         n = 1.23,
@@ -4543,37 +4543,37 @@ entry(
 )
 
 entry(
-    index = 589,
+    index = 569,
     label = "NH2 + NH2 <=> NH3 + NH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(10000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 590,
+    index = 570,
     label = "NH2 + NH <=> N2H2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 591,
+    index = 571,
     label = "NH2 + NH <=> NH3 + N",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(2444, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 592,
+    index = 572,
     label = "NH2 + N <=> N2 + H + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 593,
+    index = 573,
     label = "NH2 + HNO <=> NH3 + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.6e+06, 'cm^3/(mol*s)'),
         n = 1.63,
@@ -4583,9 +4583,9 @@ entry(
 )
 
 entry(
-    index = 594,
+    index = 574,
     label = "NH2 + NO <=> N2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.8e+20, 'cm^3/(mol*s)'),
         n = -2.654,
@@ -4595,9 +4595,9 @@ entry(
 )
 
 entry(
-    index = 595,
+    index = 575,
     label = "NH2 + NO <=> NNH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.3e+10, 'cm^3/(mol*s)'),
         n = 0.425,
@@ -4607,16 +4607,16 @@ entry(
 )
 
 entry(
-    index = 596,
+    index = 576,
     label = "NH2 + HONO <=> NH3 + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(71, 'cm^3/(mol*s)'), n=3.02, Ea=(-4940, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 597,
+    index = 577,
     label = "NH2 + NO2 <=> N2O + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.6e+16, 'cm^3/(mol*s)'),
         n = -1.44,
@@ -4626,9 +4626,9 @@ entry(
 )
 
 entry(
-    index = 598,
+    index = 578,
     label = "NH2 + NO2 <=> H2NO + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (6.5e+16, 'cm^3/(mol*s)'),
         n = -1.44,
@@ -4638,191 +4638,191 @@ entry(
 )
 
 entry(
-    index = 599,
+    index = 579,
     label = "NH + H <=> N + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 600,
+    index = 580,
     label = "NH + O <=> NO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 601,
+    index = 581,
     label = "NH + OH <=> HNO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 602,
+    index = 582,
     label = "NH + OH <=> N + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+11, 'cm^3/(mol*s)'), n=0.5, Ea=(2000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 603,
+    index = 583,
     label = "NH + O2 <=> HNO + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(460000, 'cm^3/(mol*s)'), n=2, Ea=(6500, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 604,
+    index = 584,
     label = "NH + O2 <=> NO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3e+06, 'cm^3/(mol*s)'), n=1.5, Ea=(100, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 605,
+    index = 585,
     label = "NH + NH <=> N2 + H + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 606,
+    index = 586,
     label = "NH + N <=> N2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 607,
+    index = 587,
     label = "NH + NO <=> N2O + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.9e+14, 'cm^3/(mol*s)'), n=-0.4, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 608,
+    index = 588,
     label = "NH + NO <=> N2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.2e+13, 'cm^3/(mol*s)'), n=-0.23, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 609,
+    index = 589,
     label = "NH + HONO <=> NH2 + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 610,
+    index = 590,
     label = "NH + NO2 <=> N2O + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 611,
+    index = 591,
     label = "N + OH <=> NO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 612,
+    index = 592,
     label = "N + O2 <=> NO + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.4e+09, 'cm^3/(mol*s)'), n=1, Ea=(6280, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 613,
+    index = 593,
     label = "N + NO <=> N2 + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.3e+12, 'cm^3/(mol*s)'), n=0.3, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 614,
+    index = 594,
     label = "NNH <=> N2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.5e+07, 's^-1'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 615,
+    index = 595,
     label = "NNH + H <=> N2 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 616,
+    index = 596,
     label = "NNH + O <=> N2O + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 617,
+    index = 597,
     label = "NNH + O <=> N2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(8e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 618,
+    index = 598,
     label = "NNH + O <=> NH + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 619,
+    index = 599,
     label = "NNH + OH <=> N2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 620,
+    index = 600,
     label = "NNH + O2 <=> N2 + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 621,
+    index = 601,
     label = "NNH + O2 <=> N2 + H + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 622,
+    index = 602,
     label = "NNH + NH <=> N2 + NH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 623,
+    index = 603,
     label = "NNH + NH2 <=> N2 + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 624,
+    index = 604,
     label = "NNH + NO <=> N2 + HNO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 625,
+    index = 605,
     label = "NH2 + NH2 <=> N2H4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (5.6e+48, 'cm^3/(mol*s)'),
         n = -11.3,
@@ -4832,51 +4832,51 @@ entry(
 )
 
 entry(
-    index = 626,
+    index = 606,
     label = "N2H4 + H <=> N2H3 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7e+12, 'cm^3/(mol*s)'), n=0, Ea=(2500, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 627,
+    index = 607,
     label = "N2H4 + O <=> N2H2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.4e+11, 'cm^3/(mol*s)'), n=0, Ea=(-1270, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 628,
+    index = 608,
     label = "N2H4 + O <=> N2H3 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(2851, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 629,
+    index = 609,
     label = "N2H4 + OH <=> N2H3 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 630,
+    index = 610,
     label = "N2H4 + NH2 <=> N2H3 + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.9e+12, 'cm^3/(mol*s)'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 631,
+    index = 611,
     label = "N2H3 <=> N2H2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.6e+47, 's^-1'), n=-10.38, Ea=(69009, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 632,
+    index = 612,
     label = "NH2 + NH2 <=> N2H3 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.2e+12, 'cm^3/(mol*s)'),
         n = -0.03,
@@ -4886,73 +4886,73 @@ entry(
 )
 
 entry(
-    index = 633,
+    index = 613,
     label = "N2H3 + H <=> N2H2 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-10, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 634,
+    index = 614,
     label = "N2H3 + O <=> N2H2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-646, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 635,
+    index = 615,
     label = "N2H3 + O <=> NH2 + HNO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 636,
+    index = 616,
     label = "N2H3 + O => NH2 + NO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     reversible = False,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 637,
+    index = 617,
     label = "N2H3 + OH <=> N2H2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 638,
+    index = 618,
     label = "N2H3 + OH <=> H2NN + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 639,
+    index = 619,
     label = "N2H3 + OH <=> NH3 + HNO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+12, 'cm^3/(mol*s)'), n=0, Ea=(15000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 640,
+    index = 620,
     label = "N2H3 + HO2 <=> N2H2 + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(14000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1600, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 641,
+    index = 621,
     label = "N2H3 + HO2 <=> N2H4 + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(2126, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 642,
+    index = 622,
     label = "N2H3 + NH2 <=> N2H2 + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -4962,72 +4962,72 @@ entry(
 )
 
 entry(
-    index = 643,
+    index = 623,
     label = "N2H3 + NH2 <=> H2NN + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 644,
+    index = 624,
     label = "N2H3 + NH <=> N2H2 + NH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 645,
+    index = 625,
     label = "N2H2 + H <=> NNH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(85000, 'cm^3/(mol*s)'), n=2.63, Ea=(230, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 646,
+    index = 626,
     label = "N2H2 + O <=> NNH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(497, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 647,
+    index = 627,
     label = "N2H2 + O <=> NH2 + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 648,
+    index = 628,
     label = "N2H2 + OH <=> NNH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(59, 'cm^3/(mol*s)'), n=3.4, Ea=(1360, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 649,
+    index = 629,
     label = "N2H2 + NH2 <=> NNH + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.088, 'cm^3/(mol*s)'), n=4.05, Ea=(1610, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 650,
+    index = 630,
     label = "N2H2 + NH <=> NNH + NH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 651,
+    index = 631,
     label = "N2H2 + NO <=> N2O + NH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+12, 'cm^3/(mol*s)'), n=0, Ea=(11922, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 652,
+    index = 632,
     label = "NH2 + NH2 <=> H2NN + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.2e+21, 'cm^3/(mol*s)'),
         n = -3.08,
@@ -5037,81 +5037,81 @@ entry(
 )
 
 entry(
-    index = 653,
+    index = 633,
     label = "H2NN <=> NNH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.4e+26, 's^-1'), n=-4.83, Ea=(46228, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 654,
+    index = 634,
     label = "H2NN + H <=> NNH + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 655,
+    index = 635,
     label = "H2NN + H <=> N2H2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 656,
+    index = 636,
     label = "H2NN + O <=> NNH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 657,
+    index = 637,
     label = "H2NN + O <=> NH2 + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 658,
+    index = 638,
     label = "H2NN + OH <=> NNH + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 659,
+    index = 639,
     label = "H2NN + OH => NH2 + NO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     reversible = False,
     kinetics = Arrhenius(A=(2e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 660,
+    index = 640,
     label = "H2NN + HO2 => NH2 + NO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     reversible = False,
     kinetics = Arrhenius(A=(9e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 661,
+    index = 641,
     label = "H2NN + HO2 <=> NNH + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1600, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 662,
+    index = 642,
     label = "H2NN + O2 <=> NH2 + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(5961, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 663,
+    index = 643,
     label = "H2NN + NH2 <=> NNH + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -5121,86 +5121,86 @@ entry(
 )
 
 entry(
-    index = 664,
+    index = 644,
     label = "H2NO + H <=> HNO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+07, 'cm^3/(mol*s)'), n=2, Ea=(2000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 665,
+    index = 645,
     label = "H2NO + H <=> NH2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 666,
+    index = 646,
     label = "H2NO + O <=> HNO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+07, 'cm^3/(mol*s)'), n=2, Ea=(2000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 667,
+    index = 647,
     label = "H2NO + OH <=> HNO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+07, 'cm^3/(mol*s)'), n=2, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 668,
+    index = 648,
     label = "H2NO + HO2 <=> HNO + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1600, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 669,
+    index = 649,
     label = "H2NO + O2 <=> HNO + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+12, 'cm^3/(mol*s)'), n=0, Ea=(25000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 670,
+    index = 650,
     label = "H2NO + NH2 <=> HNO + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+12, 'cm^3/(mol*s)'), n=0, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 671,
+    index = 651,
     label = "H2NO + NO <=> HNO + HNO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(20000, 'cm^3/(mol*s)'), n=2, Ea=(13000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 672,
+    index = 652,
     label = "H2NO + NO2 <=> HONO + HNO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+11, 'cm^3/(mol*s)'), n=0, Ea=(2000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 673,
+    index = 653,
     label = "HNOH + H <=> NH2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 674,
+    index = 654,
     label = "HNOH + H <=> HNO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(378, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 675,
+    index = 655,
     label = "HNOH + O <=> HNO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -5211,37 +5211,37 @@ entry(
 )
 
 entry(
-    index = 677,
+    index = 656,
     label = "HNOH + OH <=> HNO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 678,
+    index = 657,
     label = "HNOH + HO2 <=> HNO + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1600, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 679,
+    index = 658,
     label = "HNOH + O2 <=> HNO + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+12, 'cm^3/(mol*s)'), n=0, Ea=(25000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 680,
+    index = 659,
     label = "HNOH + NH2 <=> N2H3 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(10, 'cm^3/(mol*s)'), n=3.46, Ea=(-467, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 681,
+    index = 660,
     label = "HNOH + NH2 <=> H2NN + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (8.8e+16, 'cm^3/(mol*s)'),
         n = -1.08,
@@ -5251,9 +5251,9 @@ entry(
 )
 
 entry(
-    index = 682,
+    index = 661,
     label = "HNOH + NH2 <=> NH3 + HNO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -5263,16 +5263,16 @@ entry(
 )
 
 entry(
-    index = 683,
+    index = 662,
     label = "HNOH + NO2 <=> HONO + HNO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+11, 'cm^3/(mol*s)'), n=0, Ea=(2000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 684,
+    index = 663,
     label = "HCN + N2 <=> H + CN + N2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.6e+26, 'cm^3/(mol*s)'),
         n = -2.6,
@@ -5282,23 +5282,23 @@ entry(
 )
 
 entry(
-    index = 685,
+    index = 664,
     label = "CN + H2 <=> HCN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(110000, 'cm^3/(mol*s)'), n=2.6, Ea=(1908, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 686,
+    index = 665,
     label = "HCN + O <=> NCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(14000, 'cm^3/(mol*s)'), n=2.64, Ea=(4980, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 687,
+    index = 666,
     label = "HCN + O <=> CN + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (4.2e+10, 'cm^3/(mol*s)'),
         n = 0.4,
@@ -5308,16 +5308,16 @@ entry(
 )
 
 entry(
-    index = 688,
+    index = 667,
     label = "HCN + O <=> NH + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3500, 'cm^3/(mol*s)'), n=2.64, Ea=(4980, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 689,
+    index = 668,
     label = "HCN + OH <=> CN + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.9e+06, 'cm^3/(mol*s)'),
         n = 1.83,
@@ -5327,37 +5327,37 @@ entry(
 )
 
 entry(
-    index = 690,
+    index = 669,
     label = "HCN + OH <=> HOCN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(59000, 'cm^3/(mol*s)'), n=2.4, Ea=(12500, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 691,
+    index = 670,
     label = "HCN + OH <=> HNCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.002, 'cm^3/(mol*s)'), n=4, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 692,
+    index = 671,
     label = "HCN + OH <=> NH2 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00078, 'cm^3/(mol*s)'), n=4, Ea=(4000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 693,
+    index = 672,
     label = "HCN + O2 <=> CN + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(75100, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 694,
+    index = 673,
     label = "HCN + CN <=> NCCN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.5e+07, 'cm^3/(mol*s)'),
         n = 1.71,
@@ -5367,72 +5367,72 @@ entry(
 )
 
 entry(
-    index = 695,
+    index = 674,
     label = "HNC + H <=> HCN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(3600, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 696,
+    index = 675,
     label = "HNC + O <=> NH + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.6e+12, 'cm^3/(mol*s)'), n=0, Ea=(2200, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 697,
+    index = 676,
     label = "HNC + OH <=> HNCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(3700, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 698,
+    index = 677,
     label = "HNC + CN <=> NCCN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 699,
+    index = 678,
     label = "CN + O <=> CO + N",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.9e+12, 'cm^3/(mol*s)'), n=0.46, Ea=(723, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 700,
+    index = 679,
     label = "CN + OH <=> NCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+15, 'cm^3/(mol*s)'), n=-0.437, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 701,
+    index = 680,
     label = "CN + O2 <=> NCO + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.2e+12, 'cm^3/(mol*s)'), n=0, Ea=(-417, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 702,
+    index = 681,
     label = "CN + O2 <=> NO + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.8e+17, 'cm^3/(mol*s)'), n=-2, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 703,
+    index = 682,
     label = "CN + NO <=> NCO + N",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(42100, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 704,
+    index = 683,
     label = "CN + NO2 <=> NCO + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (5.3e+15, 'cm^3/(mol*s)'),
         n = -0.752,
@@ -5442,9 +5442,9 @@ entry(
 )
 
 entry(
-    index = 705,
+    index = 684,
     label = "CN + NO2 <=> CO + N2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (4.9e+14, 'cm^3/(mol*s)'),
         n = -0.752,
@@ -5454,9 +5454,9 @@ entry(
 )
 
 entry(
-    index = 706,
+    index = 685,
     label = "CN + NO2 <=> N2 + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.7e+14, 'cm^3/(mol*s)'),
         n = -0.752,
@@ -5466,58 +5466,58 @@ entry(
 )
 
 entry(
-    index = 707,
+    index = 686,
     label = "CN + HNO <=> HCN + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 708,
+    index = 687,
     label = "CN + HONO <=> HCN + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 709,
+    index = 688,
     label = "CN + N2O <=> NCN + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3800, 'cm^3/(mol*s)'), n=2.6, Ea=(3700, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 710,
+    index = 689,
     label = "CN + HNCO <=> HCN + NCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 711,
+    index = 690,
     label = "CN + NCO <=> NCN + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 712,
+    index = 691,
     label = "HNCO + H <=> NH2 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(36000, 'cm^3/(mol*s)'), n=2.49, Ea=(2345, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 713,
+    index = 692,
     label = "HNCO + H <=> NCO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9e+07, 'cm^3/(mol*s)'), n=1.66, Ea=(13900, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 714,
+    index = 693,
     label = "HNCO + O <=> NCO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.2e+06, 'cm^3/(mol*s)'),
         n = 2.11,
@@ -5527,9 +5527,9 @@ entry(
 )
 
 entry(
-    index = 715,
+    index = 694,
     label = "HNCO + O <=> NH + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (9.6e+07, 'cm^3/(mol*s)'),
         n = 1.41,
@@ -5539,9 +5539,9 @@ entry(
 )
 
 entry(
-    index = 716,
+    index = 695,
     label = "HNCO + O <=> HNO + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.5e+08, 'cm^3/(mol*s)'),
         n = 1.57,
@@ -5551,37 +5551,37 @@ entry(
 )
 
 entry(
-    index = 717,
+    index = 696,
     label = "HNCO + OH <=> NCO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.6e+07, 'cm^3/(mol*s)'), n=1.5, Ea=(3600, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 718,
+    index = 697,
     label = "HNCO + HO2 <=> NCO + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11, 'cm^3/(mol*s)'), n=0, Ea=(22000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 719,
+    index = 698,
     label = "HNCO + O2 <=> HNO + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+12, 'cm^3/(mol*s)'), n=0, Ea=(35000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 720,
+    index = 699,
     label = "HNCO + NH <=> NH2 + NCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(23700, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 721,
+    index = 700,
     label = "HOCN + H <=> HNCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.1e+08, 'cm^3/(mol*s)'),
         n = 0.84,
@@ -5591,9 +5591,9 @@ entry(
 )
 
 entry(
-    index = 722,
+    index = 701,
     label = "HOCN + H <=> NH2 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.2e+08, 'cm^3/(mol*s)'),
         n = 0.61,
@@ -5603,44 +5603,44 @@ entry(
 )
 
 entry(
-    index = 723,
+    index = 702,
     label = "HOCN + H <=> H2 + NCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(6617, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 724,
+    index = 703,
     label = "HOCN + O <=> OH + NCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(4133, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 725,
+    index = 704,
     label = "HOCN + OH <=> H2O + NCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-248, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 726,
+    index = 705,
     label = "HOCN + NH2 <=> NCO + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(3646, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 727,
+    index = 706,
     label = "HCNO <=> HCN + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.2e+31, 's^-1'), n=-6.12, Ea=(61210, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 728,
+    index = 707,
     label = "HCNO + H <=> HCN + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (7.2e+10, 'cm^3/(mol*s)'),
         n = 0.841,
@@ -5650,72 +5650,72 @@ entry(
 )
 
 entry(
-    index = 729,
+    index = 708,
     label = "HCNO + O <=> HCO + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 730,
+    index = 709,
     label = "HCNO + OH <=> CH2O + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 731,
+    index = 710,
     label = "HCNO + O <=> NCO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 732,
+    index = 711,
     label = "HCNO + OH <=> NO + CO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 733,
+    index = 712,
     label = "HCNO + OH <=> NCO + H + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 734,
+    index = 713,
     label = "HCNO + OH <=> NCO + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 735,
+    index = 714,
     label = "HCNO + OH <=> HCO + HNO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 736,
+    index = 715,
     label = "NCO + H <=> CO + NH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 737,
+    index = 716,
     label = "NCO + O <=> NO + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+15, 'cm^3/(mol*s)'), n=-0.5, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 738,
+    index = 717,
     label = "NCO + OH <=> HON + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (5.3e+12, 'cm^3/(mol*s)'),
         n = -0.07,
@@ -5725,9 +5725,9 @@ entry(
 )
 
 entry(
-    index = 739,
+    index = 718,
     label = "NCO + OH <=> H + CO + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (8.3e+12, 'cm^3/(mol*s)'),
         n = -0.05,
@@ -5737,30 +5737,30 @@ entry(
 )
 
 entry(
-    index = 740,
+    index = 719,
     label = "NCO + HO2 <=> HNCO + O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 741,
+    index = 720,
     label = "NCO + O2 <=> NO + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+12, 'cm^3/(mol*s)'), n=0, Ea=(20000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 742,
+    index = 721,
     label = "NCO + NO <=> N2O + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+19, 'cm^3/(mol*s)'), n=-2.19, Ea=(1743, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 743,
+    index = 722,
     label = "NCO + NO <=> N2 + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.5e+21, 'cm^3/(mol*s)'),
         n = -2.74,
@@ -5770,79 +5770,79 @@ entry(
 )
 
 entry(
-    index = 744,
+    index = 723,
     label = "NCO + NO2 <=> CO + NO + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.5e+11, 'cm^3/(mol*s)'), n=0, Ea=(-707, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 745,
+    index = 724,
     label = "NCO + NO2 <=> CO2 + N2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+12, 'cm^3/(mol*s)'), n=0, Ea=(-707, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 746,
+    index = 725,
     label = "NCO + HNO <=> HNCO + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 747,
+    index = 726,
     label = "NCO + HONO <=> HNCO + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.6e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 748,
+    index = 727,
     label = "NCO + N <=> N2 + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 749,
+    index = 728,
     label = "NCO + NH3 <=> HNCO + NH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(28000, 'cm^3/(mol*s)'), n=2.48, Ea=(980, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 750,
+    index = 729,
     label = "NCO + NCO <=> CO + CO + N2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 751,
+    index = 730,
     label = "H2CN <=> HCN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+28, 's^-1'), n=-6.03, Ea=(29897, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 752,
+    index = 731,
     label = "H2CN + H <=> HCN + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 753,
+    index = 732,
     label = "H2CN + O <=> HCN + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 754,
+    index = 733,
     label = "H2CN + OH <=> HCN + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -5858,16 +5858,16 @@ entry(
 )
 
 entry(
-    index = 756,
+    index = 734,
     label = "H2CN + O2 <=> CH2O + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+12, 'cm^3/(mol*s)'), n=0, Ea=(5961, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 757,
+    index = 735,
     label = "H2CN + NH2 <=> HCN + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -5877,72 +5877,72 @@ entry(
 )
 
 entry(
-    index = 758,
+    index = 736,
     label = "H2CN + N <=> CH2 + N2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 759,
+    index = 737,
     label = "HCNH <=> HCN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.1e+28, 's^-1'), n=-5.69, Ea=(24271, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 760,
+    index = 738,
     label = "HCNH + H <=> H2CN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 761,
+    index = 739,
     label = "HCNH + H <=> HCN + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 762,
+    index = 740,
     label = "HCNH + O <=> HNCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 763,
+    index = 741,
     label = "HCNH + O <=> HCN + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 764,
+    index = 742,
     label = "HCNH + OH <=> HCN + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 765,
+    index = 743,
     label = "CO + NO2 <=> NO + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9e+13, 'cm^3/(mol*s)'), n=0, Ea=(33800, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 766,
+    index = 744,
     label = "CO + N2O <=> N2 + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.7e+11, 'cm^3/(mol*s)'), n=0, Ea=(20237, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 767,
+    index = 745,
     label = "CH2O + NO2 <=> HONO + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.4e-07, 'cm^3/(mol*s)'),
         n = 5.64,
@@ -5952,93 +5952,93 @@ entry(
 )
 
 entry(
-    index = 768,
+    index = 746,
     label = "CH2O + NO2 <=> HNO2 + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.11, 'cm^3/(mol*s)'), n=4.22, Ea=(19850, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 769,
+    index = 747,
     label = "HCO + NO <=> HNO + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.9e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 770,
+    index = 748,
     label = "HCO + NO2 <=> NO + CO2 + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 771,
+    index = 749,
     label = "HCO + NO2 <=> HONO + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 772,
+    index = 750,
     label = "HCO + NO2 <=> NO + CO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 773,
+    index = 751,
     label = "HCO + HNO <=> NO + CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.58, 'cm^3/(mol*s)'), n=3.84, Ea=(115, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 774,
+    index = 752,
     label = "CH4 + NO2 <=> HONO + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.5e+14, 'cm^3/(mol*s)'), n=0, Ea=(45800, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 775,
+    index = 753,
     label = "CH4 + NO2 <=> HNO2 + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+14, 'cm^3/(mol*s)'), n=0, Ea=(37600, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 776,
+    index = 754,
     label = "CH3 + NO2 <=> CH3O + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 777,
+    index = 755,
     label = "CH3 + HNO <=> NO + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.3e+14, 'cm^3/(mol*s)'), n=0, Ea=(8400, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 778,
+    index = 756,
     label = "CH3OH + NO2 <=> HONO + CH2OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(150, 'cm^3/(mol*s)'), n=3.32, Ea=(20035, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 779,
+    index = 757,
     label = "CH3OH + NO2 <=> HNO2 + CH2OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2400, 'cm^3/(mol*s)'), n=2.9, Ea=(27470, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 780,
+    index = 758,
     label = "CH3O + NO <=> HNO + CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -6049,334 +6049,334 @@ entry(
 )
 
 entry(
-    index = 782,
+    index = 759,
     label = "CH3O + NO2 <=> HONO + CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+12, 'cm^3/(mol*s)'), n=0, Ea=(2285, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 783,
+    index = 760,
     label = "CH3O + HNO <=> NO + CH3OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 784,
+    index = 761,
     label = "CH2OH + NO <=> CH2O + HNO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 785,
+    index = 762,
     label = "CH2OH + NO2 <=> HONO + CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 786,
+    index = 763,
     label = "CH2OH + HNO <=> NO + CH3OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 787,
+    index = 764,
     label = "CH3OO + NO <=> NO2 + CH3O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.4e+12, 'cm^3/(mol*s)'), n=0, Ea=(-715, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 788,
+    index = 765,
     label = "C2H6 + NO2 <=> HONO + C2H5",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.5e+14, 'cm^3/(mol*s)'), n=0, Ea=(41400, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 789,
+    index = 766,
     label = "C2H6 + NO2 <=> HNO2 + C2H5",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+14, 'cm^3/(mol*s)'), n=0, Ea=(33200, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 790,
+    index = 767,
     label = "C2H5 + NO2 <=> NO + CH3CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=-0.2, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 791,
+    index = 768,
     label = "C2H4 + NO2 <=> HONO + C2H3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.5e+14, 'cm^3/(mol*s)'), n=0, Ea=(41400, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 792,
+    index = 769,
     label = "C2H4 + NO2 <=> HNO2 + C2H3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+14, 'cm^3/(mol*s)'), n=0, Ea=(33200, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 793,
+    index = 770,
     label = "C2H3 + NO <=> C2H2 + HNO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+12, 'cm^3/(mol*s)'), n=0, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 794,
+    index = 771,
     label = "C2H3 + NO2 <=> NO + CH2CHO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.7e+14, 'cm^3/(mol*s)'), n=-0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 795,
+    index = 772,
     label = "CH3CH2OO + NO <=> NO2 + CH3CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+12, 'cm^3/(mol*s)'), n=0, Ea=(-755, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 796,
+    index = 773,
     label = "CH3CH2O + NO <=> HNO + CH3CHO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.6e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 797,
+    index = 774,
     label = "CH3CH2O + NO2 <=> HONO + CH3CHO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 798,
+    index = 775,
     label = "CH2CHO + NO2 <=> CH2CO + HONO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.9e+12, 'cm^3/(mol*s)'), n=0, Ea=(-159, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 799,
+    index = 776,
     label = "CH3CO + NO2 => CH3 + CO2 + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     reversible = False,
     kinetics = Arrhenius(A=(1.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 800,
+    index = 777,
     label = "CH2CH2OH + NO2 => CH2O + CH2OH + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     reversible = False,
     kinetics = Arrhenius(A=(7e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 801,
+    index = 778,
     label = "CH2CHOO + NO <=> NO2 + CH2CHO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+12, 'cm^3/(mol*s)'), n=0, Ea=(-755, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 802,
+    index = 779,
     label = "HOCH2CH2OO + NO => CH2OH + CH2O + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     reversible = False,
     kinetics = Arrhenius(A=(1.6e+12, 'cm^3/(mol*s)'), n=0, Ea=(-755, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 803,
+    index = 780,
     label = "CH3NO2 + H <=> HONO + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.3e+12, 'cm^3/(mol*s)'), n=0, Ea=(3730, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 804,
+    index = 781,
     label = "CH3NO2 + H <=> CH3NO + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.4e+12, 'cm^3/(mol*s)'), n=0, Ea=(3730, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 805,
+    index = 782,
     label = "CH3NO2 + H <=> CH2NO2 + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(540, 'cm^3/(mol*s)'), n=3.5, Ea=(5200, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 806,
+    index = 783,
     label = "CH3NO2 + O <=> CH2NO2 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(5350, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 807,
+    index = 784,
     label = "CH3NO2 + O2 <=> CH2NO2 + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(57000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 808,
+    index = 785,
     label = "CH3NO2 + OH <=> CH3OH + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+10, 'cm^3/(mol*s)'), n=0, Ea=(-1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 809,
+    index = 786,
     label = "CH3NO2 + OH <=> CH2NO2 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(500000, 'cm^3/(mol*s)'), n=2, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 810,
+    index = 787,
     label = "CH3NO2 + HO2 <=> CH2NO2 + H2O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+12, 'cm^3/(mol*s)'), n=0, Ea=(23000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 811,
+    index = 788,
     label = "CH3NO2 + CH3 <=> CH2NO2 + CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.55, 'cm^3/(mol*s)'), n=4, Ea=(8300, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 812,
+    index = 789,
     label = "CH3NO2 + CH3O <=> CH2NO2 + CH3OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11, 'cm^3/(mol*s)'), n=0, Ea=(7000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 813,
+    index = 790,
     label = "CH3NO2 + NO2 <=> CH2NO2 + HONO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11, 'cm^3/(mol*s)'), n=0, Ea=(32000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 814,
+    index = 791,
     label = "CH2NO2 <=> CH2O + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 's^-1'), n=0, Ea=(36000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 815,
+    index = 792,
     label = "CH2NO2 + H <=> CH3 + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 816,
+    index = 793,
     label = "CH2NO2 + O <=> CH2O + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 817,
+    index = 794,
     label = "CH2NO2 + OH <=> CH2OH + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 818,
+    index = 795,
     label = "CH2NO2 + OH <=> CH2O + HONO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 819,
+    index = 796,
     label = "CH3ONO + H <=> CH3OH + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+11, 'cm^3/(mol*s)'), n=0, Ea=(1900, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 820,
+    index = 797,
     label = "CH3ONO + H <=> CH2O + H2 + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.4e+11, 'cm^3/(mol*s)'), n=0, Ea=(1900, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 821,
+    index = 798,
     label = "CH3ONO + O <=> CH3O + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(5210, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 822,
+    index = 799,
     label = "CH3ONO + OH <=> CH3OH + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+13, 'cm^3/(mol*s)'), n=0, Ea=(3505, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 823,
+    index = 800,
     label = "CH3ONO2 + H <=> CH3O + HONO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 824,
+    index = 801,
     label = "CH3ONO2 + O <=> CH3O + NO3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(5260, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 825,
+    index = 802,
     label = "CH3ONO2 + OH <=> CH3O + HONO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.9e+11, 'cm^3/(mol*s)'), n=0, Ea=(2027, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 826,
+    index = 803,
     label = "C2H5NO2 + OH <=> CH3CH2OH + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+10, 'cm^3/(mol*s)'), n=0, Ea=(-1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 827,
+    index = 804,
     label = "CH3CH2ONO + OH <=> CH3CH2OH + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+14, 'cm^3/(mol*s)'), n=0, Ea=(3505, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 828,
+    index = 805,
     label = "CH3CH2ONO2 + OH <=> CH3CH2O + HONO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -6387,9 +6387,9 @@ entry(
 )
 
 entry(
-    index = 830,
+    index = 806,
     label = "CO2 + CN <=> NCO + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.7e+06, 'cm^3/(mol*s)'),
         n = 2.16,
@@ -6399,191 +6399,191 @@ entry(
 )
 
 entry(
-    index = 831,
+    index = 807,
     label = "CH2O + NCO <=> HNCO + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 832,
+    index = 808,
     label = "HCO + NCO <=> HNCO + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 833,
+    index = 809,
     label = "CH4 + NH2 <=> CH3 + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(710000, 'cm^3/(mol*s)'), n=2, Ea=(9300, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 834,
+    index = 810,
     label = "CH4 + NH <=> CH3 + NH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9e+13, 'cm^3/(mol*s)'), n=0, Ea=(20000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 835,
+    index = 811,
     label = "CH4 + CN <=> CH3 + HCN",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(62000, 'cm^3/(mol*s)'), n=2.64, Ea=(-437, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 836,
+    index = 812,
     label = "CH4 + NCO <=> CH3 + HNCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.8e+12, 'cm^3/(mol*s)'), n=0, Ea=(8120, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 837,
+    index = 813,
     label = "CH3 + N <=> H2CN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 838,
+    index = 814,
     label = "CH3 + NO <=> HCN + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.15, 'cm^3/(mol*s)'), n=3.52, Ea=(3950, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 839,
+    index = 815,
     label = "CH3 + NO <=> H2CN + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.15, 'cm^3/(mol*s)'), n=3.52, Ea=(3950, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 840,
+    index = 816,
     label = "CH3 + CN <=> CH2CN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 841,
+    index = 817,
     label = "CH3 + HOCN <=> CH3CN + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+12, 'cm^3/(mol*s)'), n=0, Ea=(2000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 842,
+    index = 818,
     label = "CH2 + N <=> HCN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 843,
+    index = 819,
     label = "CH2 + NO <=> HCNO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.1e+12, 'cm^3/(mol*s)'), n=0, Ea=(-378, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 844,
+    index = 820,
     label = "CH2 + NO <=> HCN + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.9e+11, 'cm^3/(mol*s)'), n=0, Ea=(-378, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 845,
+    index = 821,
     label = "CH2 + NO2 <=> CH2O + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.9e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 846,
+    index = 822,
     label = "CH2 + N2 <=> HCN + NH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(74000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 847,
+    index = 823,
     label = "CH2(S) + NO <=> HCN + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 848,
+    index = 824,
     label = "CH2(S) + NO <=> CH2 + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 849,
+    index = 825,
     label = "CH2(S) + HCN <=> CH3 + CN",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 850,
+    index = 826,
     label = "CH + NH3 <=> H2CN + H + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(-630, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 851,
+    index = 827,
     label = "CH + N <=> CN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 852,
+    index = 828,
     label = "CH + NO <=> HCN + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 853,
+    index = 829,
     label = "CH + NO <=> HCO + N",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 854,
+    index = 830,
     label = "CH + NO <=> NCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.9e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 855,
+    index = 831,
     label = "CH + NO2 <=> HCO + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 856,
+    index = 832,
     label = "CH + N2O <=> HCN + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.9e+13, 'cm^3/(mol*s)'), n=0, Ea=(-511, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 857,
+    index = 833,
     label = "CH + N2 <=> NCN + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.7e+07, 'cm^3/(mol*s)'),
         n = 1.42,
@@ -6593,51 +6593,51 @@ entry(
 )
 
 entry(
-    index = 858,
+    index = 834,
     label = "C(T) + NO <=> CN + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 859,
+    index = 835,
     label = "C(T) + NO <=> CO + N",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 860,
+    index = 836,
     label = "C(T) + N2O <=> CN + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.8e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 861,
+    index = 837,
     label = "C(T) + N2 <=> CN + N",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(46000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 862,
+    index = 838,
     label = "CH2OH + CN <=> CH2CN + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 863,
+    index = 839,
     label = "C2H6 + NH2 <=> C2H5 + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.1e+06, 'cm^3/(mol*s)'), n=1.8, Ea=(6300, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 864,
+    index = 840,
     label = "C2H6 + CN <=> C2H5 + HCN",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (120000, 'cm^3/(mol*s)'),
         n = 2.77,
@@ -6647,9 +6647,9 @@ entry(
 )
 
 entry(
-    index = 865,
+    index = 841,
     label = "C2H6 + NCO <=> C2H5 + HNCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.5e-09, 'cm^3/(mol*s)'),
         n = 6.89,
@@ -6659,37 +6659,37 @@ entry(
 )
 
 entry(
-    index = 866,
+    index = 842,
     label = "C2H5 + N <=> C2H4 + NH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 867,
+    index = 843,
     label = "C2H5 + N <=> CH3 + H2CN",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 868,
+    index = 844,
     label = "C2H4 + NH2 <=> C2H3 + NH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+11, 'cm^3/(mol*s)'), n=0, Ea=(3950, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 869,
+    index = 845,
     label = "C2H4 + CN <=> C2H3 + HCN",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.9e+14, 'cm^3/(mol*s)'), n=-0.24, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 870,
+    index = 846,
     label = "C2H3 + NO <=> HCN + CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (7e+21, 'cm^3/(mol*s)'),
         n = -3.382,
@@ -6699,51 +6699,51 @@ entry(
 )
 
 entry(
-    index = 871,
+    index = 847,
     label = "C2H2 + NCO <=> HCCO + HCN",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.4e+12, 'cm^3/(mol*s)'), n=0, Ea=(1815, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 872,
+    index = 848,
     label = "C2H + NH3 <=> C2H2 + NH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.2e+12, 'cm^3/(mol*s)'), n=0, Ea=(-735, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 873,
+    index = 849,
     label = "C2H + NO <=> HCN + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+13, 'cm^3/(mol*s)'), n=0, Ea=(570, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 874,
+    index = 850,
     label = "C2 + NO <=> CN + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 875,
+    index = 851,
     label = "C2 + N2 <=> CN + CN",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(41730, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 876,
+    index = 852,
     label = "HCCO + N <=> HCN + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 877,
+    index = 853,
     label = "HCCO + NO <=> HCNO + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (5.9e+12, 'cm^3/(mol*s)'),
         n = 0.089,
@@ -6753,9 +6753,9 @@ entry(
 )
 
 entry(
-    index = 878,
+    index = 854,
     label = "HCCO + NO <=> HCN + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.7e+14, 'cm^3/(mol*s)'),
         n = -0.75,
@@ -6765,86 +6765,86 @@ entry(
 )
 
 entry(
-    index = 879,
+    index = 855,
     label = "HCCO + NO2 <=> HCNO + CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 880,
+    index = 856,
     label = "C2O + NO <=> CO + NCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 881,
+    index = 857,
     label = "NCN + H <=> HCN + N",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 882,
+    index = 858,
     label = "NCN + O <=> CN + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 883,
+    index = 859,
     label = "NCN + OH <=> HCN + NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 884,
+    index = 860,
     label = "NCN + O2 <=> NO + NCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+09, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 885,
+    index = 861,
     label = "CH3CN + H <=> HCN + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+07, 'cm^3/(mol*s)'), n=2, Ea=(2000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 886,
+    index = 862,
     label = "CH3CN + H <=> CH2CN + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+07, 'cm^3/(mol*s)'), n=2, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 887,
+    index = 863,
     label = "CH3CN + O <=> NCO + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(15000, 'cm^3/(mol*s)'), n=2.64, Ea=(4980, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 888,
+    index = 864,
     label = "CH3CN + OH <=> CH2CN + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+07, 'cm^3/(mol*s)'), n=2, Ea=(2000, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 889,
+    index = 865,
     label = "CH2CN + O <=> CH2O + CN",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
-    index = 890,
+    index = 866,
     label = "H + H <=> H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(7e+17, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'[H][H]': 0, 'O': 0, 'N#N': 0},
@@ -6852,9 +6852,9 @@ entry(
 )
 
 entry(
-    index = 891,
+    index = 867,
     label = "H + O <=> OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(6.2e+16, 'cm^6/(mol^2*s)'), n=-0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'O': 5},
@@ -6862,9 +6862,9 @@ entry(
 )
 
 entry(
-    index = 892,
+    index = 868,
     label = "H + O2 <=> HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.5e+12, 'cm^3/(mol*s)'), n=0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -6881,9 +6881,9 @@ entry(
 )
 
 entry(
-    index = 893,
+    index = 869,
     label = "O + O <=> O2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (1.9e+13, 'cm^6/(mol^2*s)'),
@@ -6896,9 +6896,9 @@ entry(
 )
 
 entry(
-    index = 894,
+    index = 870,
     label = "OH + H <=> H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(4.5e+22, 'cm^6/(mol^2*s)'), n=-2, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'[H][H]': 0.73, 'O': 12, '[Ar]': 0.38},
@@ -6906,9 +6906,9 @@ entry(
 )
 
 entry(
-    index = 895,
+    index = 871,
     label = "H2O2 <=> OH + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(4e+11, 's^-1'), n=0, Ea=(37137, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -6926,9 +6926,9 @@ entry(
 )
 
 entry(
-    index = 896,
+    index = 872,
     label = "CO + O <=> CO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.8e+10, 'cm^3/(mol*s)'), n=0, Ea=(2384, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -6946,9 +6946,9 @@ entry(
 )
 
 entry(
-    index = 897,
+    index = 873,
     label = "CH2O <=> HCO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(8e+15, 's^-1'), n=0, Ea=(87726, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -6962,9 +6962,9 @@ entry(
 )
 
 entry(
-    index = 898,
+    index = 874,
     label = "CH2O <=> CO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(3.7e+13, 's^-1'), n=0, Ea=(71969, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -6978,9 +6978,9 @@ entry(
 )
 
 entry(
-    index = 899,
+    index = 875,
     label = "CH3 + H <=> CH4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -6998,9 +6998,9 @@ entry(
 )
 
 entry(
-    index = 900,
+    index = 876,
     label = "CH2 + H <=> CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(3.8e+16, 'cm^3/(mol*s)'), n=-0.8, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7018,9 +7018,9 @@ entry(
 )
 
 entry(
-    index = 901,
+    index = 877,
     label = "CH3 + CH3 <=> C2H6",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(3.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7038,9 +7038,9 @@ entry(
 )
 
 entry(
-    index = 902,
+    index = 878,
     label = "CH2(S) <=> CH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'[H]': 0, 'O': 0, 'N#N': 0, '[Ar]': 0},
@@ -7048,9 +7048,9 @@ entry(
 )
 
 entry(
-    index = 903,
+    index = 879,
     label = "CH3OH <=> CH3 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.1e+18, 's^-1'), n=-0.6148, Ea=(92540, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7068,9 +7068,9 @@ entry(
 )
 
 entry(
-    index = 904,
+    index = 880,
     label = "CH2OH <=> CH2O + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.8e+14, 's^-1'), n=-0.73, Ea=(32820, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7088,9 +7088,9 @@ entry(
 )
 
 entry(
-    index = 905,
+    index = 881,
     label = "CH2OH + H <=> CH3OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(4.3e+15, 'cm^3/(mol*s)'), n=-0.79, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7108,9 +7108,9 @@ entry(
 )
 
 entry(
-    index = 906,
+    index = 882,
     label = "CH3O <=> CH2O + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(6.8e+13, 's^-1'), n=0, Ea=(26154, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7127,9 +7127,9 @@ entry(
 )
 
 entry(
-    index = 907,
+    index = 883,
     label = "CH3O + H <=> CH3OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.4e+12, 'cm^3/(mol*s)'), n=0.515, Ea=(50, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7147,9 +7147,9 @@ entry(
 )
 
 entry(
-    index = 908,
+    index = 884,
     label = "C2H4 + H <=> C2H5",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (1.4e+09, 'cm^3/(mol*s)'),
@@ -7172,9 +7172,9 @@ entry(
 )
 
 entry(
-    index = 909,
+    index = 885,
     label = "C2H5 + H <=> C2H6",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (5.2e+17, 'cm^3/(mol*s)'),
@@ -7197,9 +7197,9 @@ entry(
 )
 
 entry(
-    index = 910,
+    index = 886,
     label = "C2H5 + O2 <=> CH3CH2OO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2e+10, 'cm^3/(mol*s)'), n=0.98, Ea=(-64, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7217,9 +7217,9 @@ entry(
 )
 
 entry(
-    index = 911,
+    index = 887,
     label = "C2H3 + H <=> C2H4",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(3.9e+13, 'cm^3/(mol*s)'), n=0.2, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(A=(2.1e+24, 'cm^6/(mol^2*s)'), n=-1.3, Ea=(0, 'cal/mol'), T0=(1, 'K')),
@@ -7232,9 +7232,9 @@ entry(
 )
 
 entry(
-    index = 912,
+    index = 888,
     label = "C2H4 <=> H2CC + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(8e+12, 's^-1'), n=0.44, Ea=(88800, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7252,9 +7252,9 @@ entry(
 )
 
 entry(
-    index = 913,
+    index = 889,
     label = "C2H2 + H <=> C2H3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (1.7e+10, 'cm^3/(mol*s)'),
@@ -7276,9 +7276,9 @@ entry(
 )
 
 entry(
-    index = 914,
+    index = 890,
     label = "C2H2 <=> C2H + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (9.1e+30, 'cm^3/(mol*s)'),
@@ -7291,9 +7291,9 @@ entry(
 )
 
 entry(
-    index = 915,
+    index = 891,
     label = "CH3CH2OH <=> CH2OH + CH3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(5.9e+23, 's^-1'), n=-1.68, Ea=(91163, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7311,9 +7311,9 @@ entry(
 )
 
 entry(
-    index = 916,
+    index = 892,
     label = "CH3CH2OH <=> C2H5 + OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.3e+23, 's^-1'), n=-1.54, Ea=(96005, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7331,9 +7331,9 @@ entry(
 )
 
 entry(
-    index = 917,
+    index = 893,
     label = "CH3CH2OH <=> C2H4 + H2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.8e+13, 's^-1'), n=0.09, Ea=(66136, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7351,9 +7351,9 @@ entry(
 )
 
 entry(
-    index = 918,
+    index = 894,
     label = "CH3CH2OH <=> CH3CHO + H2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(7.2e+11, 's^-1'), n=0.095, Ea=(91007, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7371,9 +7371,9 @@ entry(
 )
 
 entry(
-    index = 919,
+    index = 895,
     label = "CH2CH2OH + H <=> CH3CH2OH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (5.2e+17, 'cm^3/(mol*s)'),
@@ -7396,9 +7396,9 @@ entry(
 )
 
 entry(
-    index = 920,
+    index = 896,
     label = "CH2CH2OH + O2 <=> HOCH2CH2OO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2e+10, 'cm^3/(mol*s)'), n=0.98, Ea=(-64, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7416,9 +7416,9 @@ entry(
 )
 
 entry(
-    index = 921,
+    index = 897,
     label = "CH3CH2O <=> CH3 + CH2O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.1e+13, 's^-1'), n=0, Ea=(16790, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(A=(2e+16, 'cm^3/(mol*s)'), n=0, Ea=(13970, 'cal/mol'), T0=(1, 'K')),
@@ -7431,9 +7431,9 @@ entry(
 )
 
 entry(
-    index = 922,
+    index = 898,
     label = "CH3CHO <=> CH3 + HCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(4.3e+22, 's^-1'), n=-1.88, Ea=(85480, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7451,9 +7451,9 @@ entry(
 )
 
 entry(
-    index = 923,
+    index = 899,
     label = "CH2 + CO <=> CH2CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(8.1e+11, 'cm^3/(mol*s)'), n=0.5, Ea=(4510, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7471,9 +7471,9 @@ entry(
 )
 
 entry(
-    index = 924,
+    index = 900,
     label = "CH + CO <=> HCCO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7491,9 +7491,9 @@ entry(
 )
 
 entry(
-    index = 925,
+    index = 901,
     label = "CH3CH2OO <=> C2H4 + HO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(71000, 's^-1'), n=2.32, Ea=(27955, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7511,9 +7511,9 @@ entry(
 )
 
 entry(
-    index = 926,
+    index = 902,
     label = "CH2CHCH2 + H <=> C3H6",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7531,9 +7531,9 @@ entry(
 )
 
 entry(
-    index = 927,
+    index = 903,
     label = "C2H3 + CH3 <=> C3H6",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7551,9 +7551,9 @@ entry(
 )
 
 entry(
-    index = 928,
+    index = 904,
     label = "H2CCCH2 + H <=> CH3CCH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(8.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(2000, 'cal/mol'), T0=(1, 'K')),
@@ -7572,9 +7572,9 @@ entry(
 )
 
 entry(
-    index = 929,
+    index = 905,
     label = "H3CCCH + H <=> CH3CCH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(6.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(2000, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7592,9 +7592,9 @@ entry(
 )
 
 entry(
-    index = 930,
+    index = 906,
     label = "H2CCCH2 + H <=> CH2CHCH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     duplicate = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
@@ -7618,9 +7618,9 @@ entry(
 )
 
 entry(
-    index = 931,
+    index = 907,
     label = "H2CCCH + H <=> H2CCCH2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1e+17, 'cm^3/(mol*s)'), n=-0.82, Ea=(315, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7638,9 +7638,9 @@ entry(
 )
 
 entry(
-    index = 932,
+    index = 908,
     label = "H2CCCH + H <=> H3CCCH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1e+17, 'cm^3/(mol*s)'), n=-0.82, Ea=(315, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7658,9 +7658,9 @@ entry(
 )
 
 entry(
-    index = 933,
+    index = 909,
     label = "NO + H <=> HNO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.5e+15, 'cm^3/(mol*s)'), n=-0.41, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7678,9 +7678,9 @@ entry(
 )
 
 entry(
-    index = 934,
+    index = 910,
     label = "NO + O <=> NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.3e+15, 'cm^3/(mol*s)'), n=-0.75, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7698,9 +7698,9 @@ entry(
 )
 
 entry(
-    index = 935,
+    index = 911,
     label = "NO + OH <=> HONO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.1e+14, 'cm^3/(mol*s)'), n=-0.3, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7718,9 +7718,9 @@ entry(
 )
 
 entry(
-    index = 936,
+    index = 912,
     label = "NO2 + O <=> NO3",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(3.5e+12, 'cm^3/(mol*s)'), n=0.24, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(A=(2.5e+20, 'cm^6/(mol^2*s)'), n=-1.5, Ea=(0, 'cal/mol'), T0=(1, 'K')),
@@ -7733,9 +7733,9 @@ entry(
 )
 
 entry(
-    index = 937,
+    index = 913,
     label = "NO2 + OH <=> HONO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(A=(2.938e+25, 'cm^6/(mol^2*s)'), n=-3, Ea=(0, 'cal/mol'), T0=(1, 'K')),
@@ -7748,9 +7748,9 @@ entry(
 )
 
 entry(
-    index = 938,
+    index = 914,
     label = "HNO2 <=> HONO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.5e+14, 's^-1'), n=0, Ea=(32300, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(A=(3.1e+18, 'cm^3/(mol*s)'), n=0, Ea=(31500, 'cal/mol'), T0=(1, 'K')),
@@ -7763,9 +7763,9 @@ entry(
 )
 
 entry(
-    index = 939,
+    index = 915,
     label = "N2O <=> N2 + O",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(1.3e+12, 's^-1'), n=0, Ea=(62570, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(A=(4e+14, 'cm^3/(mol*s)'), n=0, Ea=(56600, 'cal/mol'), T0=(1, 'K')),
@@ -7774,9 +7774,9 @@ entry(
 )
 
 entry(
-    index = 940,
+    index = 916,
     label = "N2H2 <=> NNH + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (1.9e+27, 'cm^3/(mol*s)'),
@@ -7789,9 +7789,9 @@ entry(
 )
 
 entry(
-    index = 941,
+    index = 917,
     label = "H2NO <=> HNO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (2.8e+24, 'cm^3/(mol*s)'),
@@ -7804,9 +7804,9 @@ entry(
 )
 
 entry(
-    index = 942,
+    index = 918,
     label = "H2NO <=> HNOH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.1e+29, 'cm^3/(mol*s)'), n=-4, Ea=(44000, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'O': 10},
@@ -7814,9 +7814,9 @@ entry(
 )
 
 entry(
-    index = 943,
+    index = 919,
     label = "HNOH <=> HNO + H",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (2e+24, 'cm^3/(mol*s)'),
@@ -7829,9 +7829,9 @@ entry(
 )
 
 entry(
-    index = 944,
+    index = 920,
     label = "HCN <=> H + CN",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (3.4e+35, 'cm^3/(mol*s)'),
@@ -7844,9 +7844,9 @@ entry(
 )
 
 entry(
-    index = 945,
+    index = 921,
     label = "HCN <=> HNC",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (1.6e+26, 'cm^3/(mol*s)'),
@@ -7859,9 +7859,9 @@ entry(
 )
 
 entry(
-    index = 946,
+    index = 922,
     label = "HNCO <=> CO + NH",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.1e+16, 'cm^3/(mol*s)'), n=0, Ea=(86000, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'N#N': 1.5},
@@ -7869,9 +7869,9 @@ entry(
 )
 
 entry(
-    index = 947,
+    index = 923,
     label = "NCO <=> N + CO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(2.2e+14, 'cm^3/(mol*s)'), n=0, Ea=(54050, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'N#N': 1.5},
@@ -7879,9 +7879,9 @@ entry(
 )
 
 entry(
-    index = 948,
+    index = 924,
     label = "CH3 + NO <=> CH3NO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(9e+12, 'cm^3/(mol*s)'), n=0, Ea=(192, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7899,9 +7899,9 @@ entry(
 )
 
 entry(
-    index = 949,
+    index = 925,
     label = "CH3O + NO <=> CH3ONO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(6e+14, 'cm^3/(mol*s)'), n=-0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7919,9 +7919,9 @@ entry(
 )
 
 entry(
-    index = 950,
+    index = 926,
     label = "CH3O + NO2 <=> CH3ONO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.2e+15, 'cm^3/(mol*s)'), n=-0.88, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7939,9 +7939,9 @@ entry(
 )
 
 entry(
-    index = 951,
+    index = 927,
     label = "CH3CH2O + NO <=> CH3CH2ONO",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(-143, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(A=(9.43e+19, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
@@ -7954,9 +7954,9 @@ entry(
 )
 
 entry(
-    index = 952,
+    index = 928,
     label = "CH3CH2O + NO2 <=> CH3CH2ONO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(5.1e+15, 'cm^3/(mol*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(A=(5.88e+30, 'cm^6/(mol^2*s)'), n=-4, Ea=(0, 'cal/mol'), T0=(1, 'K')),
@@ -7969,9 +7969,9 @@ entry(
 )
 
 entry(
-    index = 953,
+    index = 929,
     label = "CH3NO2 <=> CH3 + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.8e+16, 's^-1'), n=0, Ea=(58500, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7988,9 +7988,9 @@ entry(
 )
 
 entry(
-    index = 954,
+    index = 930,
     label = "C2H5NO2 <=> C2H5 + NO2",
-    degeneracy = 1,
+    degeneracy = 1.0,
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(2e+15, 's^-1'), n=0, Ea=(54000, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(A=(1e+18, 'cm^3/(mol*s)'), n=0, Ea=(36000, 'cal/mol'), T0=(1, 'K')),
