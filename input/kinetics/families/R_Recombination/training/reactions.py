@@ -270,7 +270,7 @@ entry(
 u"""
 P. Glarborg, A.B. Bendtsen, J.A. Miller
 Nitromethane Dissociation: Implications for the CH3 + NO2 Reaction
-International Journal of Chemical Kinetics Volume 31, Issue 9, pages 591–602, 1999
+International Journal of Chemical Kinetics Volume 31, Issue 9, pages 591-602, 1999
 DOI: 10.1002/(SICI)1097-4601(1999)31:9<591::AID-KIN1>3.0.CO;2-E
 
 Also appears in the Nitrogen_Glarborg_Zhang_et_al library (index 671)

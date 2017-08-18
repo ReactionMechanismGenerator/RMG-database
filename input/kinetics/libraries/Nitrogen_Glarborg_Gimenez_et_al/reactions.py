@@ -6,7 +6,7 @@ shortDesc = u""
 longDesc = u"""
 Jorge Gimenez Lopeza, Christian Lund Rasmussena, Maria U. Alzuetab, Yide Gaoc, Paul Marshall, Peter Glarborg
 Experimental and kinetic modeling study of C2H4 oxidation at high pressure
-Proceedings of the Combustion Institute Volume 32, Issue 1, 2009, Pages 367–375
+Proceedings of the Combustion Institute Volume 32, Issue 1, 2009, Pages 367-375
 """
 entry(
     index = 1,

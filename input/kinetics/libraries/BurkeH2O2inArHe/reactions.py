@@ -7,7 +7,7 @@ longDesc = u"""
 Comprehensive H2/O2 kinetic model for high-pressure combustion
 M.P. Burke, M. Chaos, Y. Ju, F.L. Dryer, S.J. Klippenstein
 International Journal of Chemical Kinetics
-Volume 44, Issue 7, pages 444–474, July 2012
+Volume 44, Issue 7, pages 444-474, July 2012
 DOI: 10.1002/kin.20603
 
 In this version of the library, the reaction H+O2(+M)=HO2(+M)
@@ -274,6 +274,6 @@ entry(
             Arrhenius(A=(7.59e+13, 'cm^3/(mol*s)'), n=0, Ea=(7270, 'cal/mol'), T0=(1, 'K')),
         ],
     ),
-    shortDesc = u"""Hong et al., J. Phys. Chem. A 114 (2010) 5718–5727""",
+    shortDesc = u"""Hong et al., J. Phys. Chem. A 114 (2010) 5718-5727""",
 )
 

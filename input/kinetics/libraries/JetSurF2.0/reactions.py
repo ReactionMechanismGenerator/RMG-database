@@ -4,7 +4,7 @@
 name = "JetSurF2.0"
 shortDesc = u""
 longDesc = u"""
-JetSurF – A Jet Surrogate Fuel Model
+JetSurF - A Jet Surrogate Fuel Model
 JetSurF is a detailed chemical reaction model for the combustion of jet-fuel surrogate.
 
 H. Wang, E. Dames, B. Sirjean, D. A. Sheen, R. Tango, A. Violi, J. Y. W. Lai, F. N. Egolfopoulos,

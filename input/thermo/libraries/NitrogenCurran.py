@@ -5,7 +5,7 @@ name = "NitrogenCurran"
 shortDesc = u"Thermo data for emissions of nitrogen-containing compounds"
 longDesc = u"""
 Taken from:
-John Bugler, Kieran P. Somers, John M. Simmie, Felix Güthe, and Henry J. Curran,
+John Bugler, Kieran P. Somers, John M. Simmie, Felix Guthe, and Henry J. Curran,
 H. Phys. Chem. A, 2016
 DOI: 10.1021/acs.jpca.6b05723
 
