@@ -7,7 +7,7 @@ longDesc = u"""
 Comprehensive H2/O2 kinetic model for high-pressure combustion
 M.P. Burke, M. Chaos, Y. Ju, F.L. Dryer, S.J. Klippenstein
 International Journal of Chemical Kinetics
-Volume 44, Issue 7, pages 444–474, July 2012
+Volume 44, Issue 7, pages 444-474, July 2012
 DOI: 10.1002/kin.20603
 """
 

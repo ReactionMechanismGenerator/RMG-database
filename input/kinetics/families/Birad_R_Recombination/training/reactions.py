@@ -57,7 +57,7 @@ kinetics = Troe(
 #u"""
 #Taken from the SOxNOx library, Part of the "SOx" subset
 #T range: 200-2000 K
-#A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall, J. Phys. Chem. A, 1999, 103(51), 11328–11335 doi: 10.1021/jp9924070
+#A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall, J. Phys. Chem. A, 1999, 103(51), 11328-11335 doi: 10.1021/jp9924070
 #Table 7 on p. 11333
 #calculations done at the QCISD(T)/6-311+G(3df,2p)//MP2=FULL/6-31G(d) level of theory
 #Originally a Troe expression was given, only k_inf is taken here
