@@ -3193,3 +3193,41 @@ Taken from entry: allene + OH <=> W9
 """,
 )
 
+
+
+entry(
+    index = 205,
+    label = "C4H2 + H <=> C4H3",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (7.16e-14, 'cm^3/(molecule*s)'),
+        n = 1.119,
+        Ea = (1.672, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2005_Klippenstein_C4H3""",
+    longDesc = 
+u"""
+Taken from entry: H + C4H2 <=> i-C4H3
+""",
+)
+
+entry(
+    index = 206,
+    label = "C4H2-2 + H <=> C4H3-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.35e-14, 'cm^3/(molecule*s)'),
+        n = 1.305,
+        Ea = (5.018, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2005_Klippenstein_C4H3""",
+    longDesc = 
+u"""
+Taken from entry: H + C4H2 <=> n-C4H3
+""",
+)
+
