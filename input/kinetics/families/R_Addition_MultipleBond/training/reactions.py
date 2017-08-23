@@ -3231,3 +3231,224 @@ Taken from entry: H + C4H2 <=> n-C4H3
 """,
 )
 
+
+
+entry(
+    index = 207,
+    label = "C4H4-5 + H <=> C4H5-3",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.246e+09, 'cm^3/(mol*s)'),
+        n = 1.429,
+        Ea = (3.987, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H5_backward""",
+    longDesc = 
+u"""
+Taken from entry: CH2CCCH2 + H <=> W6
+""",
+)
+
+entry(
+    index = 208,
+    label = "C4H4-3 + H <=> C4H5-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.156e+09, 'cm^3/(mol*s)'),
+        n = 1.502,
+        Ea = (2.371, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H5_backward""",
+    longDesc = 
+u"""
+Taken from entry: vinylacetylene + H <=> W6
+""",
+)
+
+entry(
+    index = 209,
+    label = "C4H4-2 + H <=> C4H5-5",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.642e+08, 'cm^3/(mol*s)'),
+        n = 1.548,
+        Ea = (4.546, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H5_backward""",
+    longDesc = 
+u"""
+Taken from entry: vinylacetylene + H <=> W7
+""",
+)
+
+entry(
+    index = 210,
+    label = "C2H2 + C2H3 <=> C4H5-6",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.168e+07, 'cm^3/(mol*s)'),
+        n = 1.997,
+        Ea = (5.452, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H5_backward""",
+    longDesc = 
+u"""
+Taken from entry: acetylene + C2H3 <=> W7
+""",
+)
+
+entry(
+    index = 211,
+    label = "C4H4 + H <=> C4H5-7",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.163e+09, 'cm^3/(mol*s)'),
+        n = 1.493,
+        Ea = (1.378, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H5_backward""",
+    longDesc = 
+u"""
+Taken from entry: vinylacetylene + H <=> W8
+""",
+)
+
+entry(
+    index = 212,
+    label = "C4H4-6 + H <=> C4H5-8",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.466e+09, 'cm^3/(mol*s)'),
+        n = 1.473,
+        Ea = (1.273, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H5_backward""",
+    longDesc = 
+u"""
+Taken from entry: CH2CCCH2 + H <=> W9
+""",
+)
+
+entry(
+    index = 213,
+    label = "C4H4-4 + H <=> C4H5-9",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.726e+08, 'cm^3/(mol*s)'),
+        n = 1.617,
+        Ea = (4.056, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H5_backward""",
+    longDesc = 
+u"""
+Taken from entry: vinylacetylene + H <=> W10
+""",
+)
+
+
+
+entry(
+    index = 214,
+    label = "C4H5-3 <=> C4H4-5 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.575e+11, 's^-1'), n=0.753, Ea=(57.151, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H5_forward""",
+    longDesc = 
+u"""
+Taken from entry: W6 <=> CH2CCCH2 + H
+""",
+)
+
+entry(
+    index = 215,
+    label = "C4H5-4 <=> C4H4-3 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.976e+12, 's^-1'), n=0.79, Ea=(47.629, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H5_forward""",
+    longDesc = 
+u"""
+Taken from entry: W6 <=> vinylacetylene + H
+""",
+)
+
+entry(
+    index = 216,
+    label = "C4H5-5 <=> C4H4-2 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5.502e+09, 's^-1'), n=1.257, Ea=(39.226, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H5_forward""",
+    longDesc = 
+u"""
+Taken from entry: W7 <=> vinylacetylene + H
+""",
+)
+
+entry(
+    index = 217,
+    label = "C4H5-6 <=> C2H2 + C2H3",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.898e+14, 's^-1'), n=0.366, Ea=(45.569, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H5_forward""",
+    longDesc = 
+u"""
+Taken from entry: W7 <=> acetylene + C2H3
+""",
+)
+
+entry(
+    index = 218,
+    label = "C4H5-7 <=> C4H4 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(7.345e+09, 's^-1'), n=1.312, Ea=(45.774, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H5_forward""",
+    longDesc = 
+u"""
+Taken from entry: W8 <=> vinylacetylene + H
+""",
+)
+
+entry(
+    index = 219,
+    label = "C4H5-8 <=> C4H4-6 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.727e+09, 's^-1'), n=1.411, Ea=(56.058, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H5_forward""",
+    longDesc = 
+u"""
+Taken from entry: W9 <=> CH2CCCH2 + H
+""",
+)
+
+entry(
+    index = 220,
+    label = "C4H5-9 <=> C4H4-4 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.246e+09, 's^-1'), n=1.319, Ea=(35.573, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H5_forward""",
+    longDesc = 
+u"""
+Taken from entry: W10 <=> vinylacetylene + H
+""",
+)
+
