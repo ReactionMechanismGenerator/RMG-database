@@ -3376,3 +3376,47 @@ u"""
 """,
 )
 
+forbidden(
+    label="cyclic_1",
+    group=
+"""
+1 *2 R!H u0 r1 {2,[D,T,B]} {3,[S,D,T,B]}
+2 *3 R!H u0 r1 {1,[D,T,B]}
+3 *1 R!H u0 r1 {1,[S,D,T,B]}
+""",
+    shortDesc=u"""""",
+    longDesc=
+u"""
+Intra addition to double bond in ring should occur in Intra_R_Add_Polycyclic.
+""",
+)
+
+forbidden(
+    label = "cyclic_2",
+    group =
+"""
+1 *2 R!H u0 r1 {2,[D,T,B]} {3,[S,D,T,B]}
+2 *3 R!H u0 r1 {1,[D,T,B]}
+3 *4 R!H u0 r1 {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Intra addition to double bond in ring should occur in Intra_R_Add_Polycyclic.
+""",
+)
+
+forbidden(
+    label = "cyclic_3",
+    group =
+"""
+1 *2 R!H u0 r1 {2,[D,T,B]} {3,[S,D,T,B]}
+2 *3 R!H u0 r1 {1,[D,T,B]}
+3 *5 R!H u0 r1 {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Intra addition to double bond in ring should occur in Intra_R_Add_Polycyclic.
+""",
+)
