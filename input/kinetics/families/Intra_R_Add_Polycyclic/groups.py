@@ -2953,3 +2953,21 @@ L1: radadd_intra
 """
 )
 
+forbidden(
+    label = "kekule_benzene",
+    group = 
+"""
+1 *2 C ux {2,D} {6,S}
+2 *3 C ux {1,D} {3,S}
+3    C ux {2,S} {4,D}
+4    C ux {3,D} {5,S}
+5    C ux {4,S} {6,D}
+6    C ux {1,S} {5,D}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Only aromatic benzene should react in this family.
+""",
+)
+
