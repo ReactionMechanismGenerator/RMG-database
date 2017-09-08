@@ -8,7 +8,7 @@ longDesc = u"""
 """
 entry(
     index = 1000,
-    label = "Y_rad;Oa",
+    label = "Y_rad;O_birad",
     kinetics = ArrheniusEP(
         A = (1e+13, 'cm^3/(mol*s)'),
         n = 0,
@@ -22,7 +22,7 @@ entry(
 
 entry(
     index = 2000,
-    label = "Y_rad;Sa",
+    label = "Y_rad;S_birad",
     kinetics = ArrheniusEP(
         A = (1e+13, 'cm^3/(mol*s)'),
         n = 0,

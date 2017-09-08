@@ -56,7 +56,20 @@ Hydrocarbon Formation in a Laminar Premixed n-butane Flame
 Derived from fitting to a complex mechanism for C2H3 + O2 = C2H2 + HO2  
 """,
 )
-
-
-
+ 
+entry(
+    index = 3,
+    label = "N2H3 + NO2 <=> N2H2 + HONO",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.40e+55, 'cm^3/(mol*s)'), n=-16.7, Ea=(-14397, 'cal/mol'), T0=(1, 'K'), Tmin = (800, 'K'), Tmax = (3000, 'K')),
+    rank = 2,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+P. Raghunath, N.T. Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6
+p. 278
+P = 1 atm
+calculations done at the CCSD(T)/6-311++G(3df,2p)//B3LYP/6-311++G(3df,2p) level of theoty
+""",
+)
 

@@ -1952,12 +1952,12 @@ entry(
     label = "sixnosidedouble",
     group = 
 """
-1 * [Cs,Os,N3s,Ss] u0 {2,S} {6,S}
-2   [Cs,Os,N3s,Ss] u0 {1,S} {3,S}
-3   [Cs,Os,N3s,Ss] u0 {2,S} {4,S}
-4   [Cs,Os,N3s,Ss] u0 {3,S} {5,S}
-5   [Cs,Os,N3s,Ss] u0 {4,S} {6,S}
-6   [Cs,Os,N3s,Ss] u0 {1,S} {5,S}
+1 * [Cs,Os,N3s,S2s] u0 {2,S} {6,S}
+2   [Cs,Os,N3s,S2s] u0 {1,S} {3,S}
+3   [Cs,Os,N3s,S2s] u0 {2,S} {4,S}
+4   [Cs,Os,N3s,S2s] u0 {3,S} {5,S}
+5   [Cs,Os,N3s,S2s] u0 {4,S} {6,S}
+6   [Cs,Os,N3s,S2s] u0 {1,S} {5,S}
 """,
     thermo = u'Cyclohexane',
     shortDesc = u"""""",
@@ -2172,12 +2172,12 @@ entry(
     label = "hexasulfur",
     group = 
 """
-1 * Ss u0 {2,S} {6,S}
-2   Ss u0 {1,S} {3,S}
-3   Ss u0 {2,S} {4,S}
-4   Ss u0 {3,S} {5,S}
-5   Ss u0 {4,S} {6,S}
-6   Ss u0 {1,S} {5,S}
+1 * S2s u0 {2,S} {6,S}
+2   S2s u0 {1,S} {3,S}
+3   S2s u0 {2,S} {4,S}
+4   S2s u0 {3,S} {5,S}
+5   S2s u0 {4,S} {6,S}
+6   S2s u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3353,13 +3353,13 @@ entry(
     label = "heptasulfur",
     group = 
 """
-1 * Ss u0 {2,S} {7,S}
-2   Ss u0 {1,S} {3,S}
-3   Ss u0 {2,S} {4,S}
-4   Ss u0 {3,S} {5,S}
-5   Ss u0 {4,S} {6,S}
-6   Ss u0 {5,S} {7,S}
-7   Ss u0 {1,S} {6,S}
+1 * S2s u0 {2,S} {7,S}
+2   S2s u0 {1,S} {3,S}
+3   S2s u0 {2,S} {4,S}
+4   S2s u0 {3,S} {5,S}
+5   S2s u0 {4,S} {6,S}
+6   S2s u0 {5,S} {7,S}
+7   S2s u0 {1,S} {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3611,14 +3611,14 @@ entry(
     label = "octasulfur",
     group = 
 """
-1 * Ss u0 {2,S} {8,S}
-2   Ss u0 {1,S} {3,S}
-3   Ss u0 {2,S} {4,S}
-4   Ss u0 {3,S} {5,S}
-5   Ss u0 {4,S} {6,S}
-6   Ss u0 {5,S} {7,S}
-7   Ss u0 {6,S} {8,S}
-8   Ss u0 {1,S} {7,S}
+1 * S2s u0 {2,S} {8,S}
+2   S2s u0 {1,S} {3,S}
+3   S2s u0 {2,S} {4,S}
+4   S2s u0 {3,S} {5,S}
+5   S2s u0 {4,S} {6,S}
+6   S2s u0 {5,S} {7,S}
+7   S2s u0 {6,S} {8,S}
+8   S2s u0 {1,S} {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),

@@ -38236,7 +38236,7 @@ entry(
 
 entry(
     index = 2516,
-    label = "Cds-HH_Sd;SsJ-Ss",
+    label = "Cds-HH_Sd;SsJ-S2s",
     kinetics = ArrheniusEP(
         A = (31.9, 'cm^3/(mol*s)'),
         n = 3,
@@ -38386,7 +38386,7 @@ entry(
 
 entry(
     index = 2539,
-    label = "Sd_Cds-HH;SsJ-Ss",
+    label = "Sd_Cds-HH;SsJ-S2s",
     kinetics = ArrheniusEP(
         A = (13.4, 'cm^3/(mol*s)'),
         n = 3.3,
@@ -38491,7 +38491,7 @@ entry(
 
 entry(
     index = 2549,
-    label = "Cds-HH_Cds-HH;SsJ-Ss",
+    label = "Cds-HH_Cds-HH;SsJ-S2s",
     kinetics = ArrheniusEP(
         A = (4.21, 'cm^3/(mol*s)'),
         n = 3.3,

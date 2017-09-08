@@ -4,10 +4,12 @@
 name = "ketoenol/groups"
 shortDesc = u""
 longDesc = u"""
-
+Sulfur was added to this family, and is treated the same as oxygen.
+Ideally we would like to branch this into a new family "R=RSR <=> RRR=S"
+once relevant kinetic data is available
 """
 
-template(reactants=["R_ROR"], products=["keton"], ownReverse=False)
+template(reactants=["R_ROSR"], products=["keton"], ownReverse=False)
 
 reverse = "none"
 
@@ -50,6 +52,15 @@ entry(
     kinetics = None,
         )
 
+
+entry(
+    index = 500,
+    label = "R_ROSR",
+    group = "OR{R_ROR, R_RSR}",
+    kinetics = None,
+)
+
+
 entry(
     index = 1,
     label = "R_ROR",
@@ -58,6 +69,20 @@ entry(
 1 *1 R!H u0 {2,D}
 2 *2 R!H u0 {1,D} {3,S}
 3 *3 O   u0 {2,S} {4,S}
+4 *4 R   u0 {3,S}
+""",
+    kinetics = None,
+)
+
+
+entry(
+    index = 501,
+    label = "R_RSR",
+    group = 
+"""
+1 *1 R!H u0 {2,D}
+2 *2 R!H u0 {1,D} {3,S}
+3 *3 S2s u0 {2,S} {4,S}
 4 *4 R   u0 {3,S}
 """,
     kinetics = None,
@@ -110,9 +135,9 @@ entry(
     label = "R1_doublebond_CHR",
     group = 
 """
-1 *1 C u0 {2,S} {3,S}
+1 *1 C   u0 {2,S} {3,S}
 2    R!H u0 {1,S}
-3    H u0 {1,S}
+3    H   u0 {1,S}
 """,
     kinetics = None,
 )
@@ -209,7 +234,9 @@ entry(
 
 tree(
 """
-L1: R_ROR
+L1: R_ROSR
+    L2: R_ROR
+    L2: R_RSR
 L1: R1_doublebond
     L2: R1_doublebond_CHR
         L3: R1_doublebond_CHCH3
