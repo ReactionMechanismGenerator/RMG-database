@@ -23,7 +23,7 @@ boundaryAtoms = ["*1", "*2"]
 entry(
     index = 1,
     label = "Rn",
-    group = "OR{R4, R5, R6, R7plus}",
+    group = "OR{Rnx_cyclics, R4, R5, R6, R7plus}",
     kinetics = None,
 )
 
@@ -1082,7 +1082,7 @@ entry(
 entry(
     index = 76,
     label = "R7plus",
-    group = "OR{R7, R8, R9}",
+    group = "OR{R7, R8, R9, R10, R11}",
     kinetics = None,
 )
 
@@ -2737,9 +2737,1392 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 251,
+    label = "R10",
+    group = 
+"""
+1 *1 R!H           u1 {2,[S,D,T,B]}
+2 *4 R!H           ux {1,[S,D,T,B]} {3,[S,D,T,B]}
+3 *6 R!H           ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4 *7 R!H           ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *8 R!H           ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *9 R!H           ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *10 R!H          ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *5 R!H           ux {7,[S,D,T,B]} {9,S}
+9 *2 [Cd,Ct,CO,N]     u0 {8,S} {10,[D,T]}
+10 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {9,[D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 252,
+    label = "R11",
+    group = 
+"""
+1 *1 R!H           u1 {2,[S,D,T,B]}
+2 *4 R!H           ux {1,[S,D,T,B]} {3,[S,D,T,B]}
+3 *6 R!H           ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4 *7 R!H           ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *8 R!H           ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *9 R!H           ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *10 R!H          ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *11 R!H          ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *5 R!H           ux {8,[S,D,T,B]} {10,S}
+10 *2 [Cd,Ct,CO,N]     u0 {9,S} {11,[D,T]}
+11 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {10,[D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 253,
+    label = "Rnx_cyclics",
+    group = "OR{Rnxc3, Rnxc4, Rnxc5, Rnxc6, Rnxc7, Rnxc8}",
+    kinetics = None,
+)
+
+entry(
+    index = 290,
+    label = "Rnxc3",
+    group = "OR{Rn4c3_alpha, Rn3c3_alpha, Rn2c3_alpha, Rn1c3_alpha}",
+    kinetics = None,
+)
+
+entry(
+    index = 254,
+    label = "Rn4c3_alpha",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {3,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3 *5 R!H ux {2,[S,D,T,B]} {1,[S,D,T,B]} {4,[S,D,T,B]}
+4 *7 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *6 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *4 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *1 R!H u1 {6,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 255,
+    label = "Rn3c3_alpha",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {3,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3 *5 R!H ux {2,[S,D,T,B]} {1,[S,D,T,B]} {4,[S,D,T,B]}
+4 *6 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *4 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *1 R!H u1 {5,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 256,
+    label = "Rn2c3_alpha",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {3,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3 *5 R!H ux {2,[S,D,T,B]} {1,[S,D,T,B]} {4,[S,D,T,B]}
+4 *4 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *1 R!H u1 {4,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 257,
+    label = "Rn1c3_alpha",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {3,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3 *4 R!H ux {2,[S,D,T,B]} {1,[S,D,T,B]} {4,[S,D,T,B]}
+4 *1 R!H u1 {3,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 258,
+    label = "Rnxc4",
+    group = "OR{Rnxc4_alpha, Rnxc4_beta}",
+    kinetics = None,
+)
+
+entry(
+    index = 259,
+    label = "Rnxc4_alpha",
+    group = "OR{Rn4c4_alpha, Rn3c4_alpha, Rn2c4_alpha, Rn1c4_alpha}",
+    kinetics = None,
+)
+
+entry(
+    index = 260,
+    label = "Rn4c4_alpha",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {4,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4 *5 R!H ux {3,[S,D,T,B]} {1,[S,D,T,B]} {5,[S,D,T,B]}
+5 *7 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *6 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *4 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *1 R!H u1 {7,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 261,
+    label = "Rn3c4_alpha",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {4,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4 *5 R!H ux {3,[S,D,T,B]} {1,[S,D,T,B]} {5,[S,D,T,B]}
+5 *6 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *4 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *1 R!H u1 {6,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 262,
+    label = "Rn2c4_alpha",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {4,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4 *5 R!H ux {3,[S,D,T,B]} {1,[S,D,T,B]} {5,[S,D,T,B]}
+5 *4 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *1 R!H u1 {5,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 263,
+    label = "Rn1c4_alpha",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {4,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4 *4 R!H ux {3,[S,D,T,B]} {1,[S,D,T,B]} {5,[S,D,T,B]}
+5 *1 R!H u1 {4,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 264,
+    label = "Rnxc4_beta",
+    group = "OR{Rn3c4_beta, Rn2c4_beta, Rn1c4_beta}",
+    kinetics = None,
+)
+
+entry(
+    index = 265,
+    label = "Rn3c4_beta",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {4,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3 *7 R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+4 *5 R!H ux {3,[S,D,T,B]} {1,[S,D,T,B]}
+5 *6 R!H ux {3,[S,D,T,B]} {6,[S,D,T,B]}
+6 *4 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *1 R!H u1 {6,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 266,
+    label = "Rn2c4_beta",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {4,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3 *6 R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+4 *5 R!H ux {3,[S,D,T,B]} {1,[S,D,T,B]}
+5 *4 R!H ux {3,[S,D,T,B]} {6,[S,D,T,B]}
+6 *1 R!H u1 {5,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 267,
+    label = "Rn1c4_beta",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {4,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3 *4 R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+4 *5 R!H ux {3,[S,D,T,B]} {1,[S,D,T,B]}
+5 *1 R!H u1 {3,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 268,
+    label = "Rnxc5",
+    group = "OR{Rnxc5_alpha, Rnxc5_beta_long, Rnxc5_beta_short}",
+    kinetics = None,
+)
+
+entry(
+    index = 269,
+    label = "Rnxc5_alpha",
+    group = "OR{Rn4c5_alpha, Rn3c5_alpha, Rn2c5_alpha, Rn1c5_alpha}",
+    kinetics = None,
+)
+
+entry(
+    index = 270,
+    label = "Rn4c5_alpha",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {5,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *5 R!H ux {4,[S,D,T,B]} {1,[S,D,T,B]} {6,[S,D,T,B]}
+6 *7 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *6 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *4 R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *1 R!H u1 {8,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 271,
+    label = "Rn3c5_alpha",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {5,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *5 R!H ux {4,[S,D,T,B]} {1,[S,D,T,B]} {6,[S,D,T,B]}
+6 *6 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *4 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *1 R!H u1 {7,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 272,
+    label = "Rn2c5_alpha",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {5,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *5 R!H ux {4,[S,D,T,B]} {1,[S,D,T,B]} {6,[S,D,T,B]}
+6 *4 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *1 R!H u1 {6,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 273,
+    label = "Rn1c5_alpha",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {5,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *4 R!H ux {4,[S,D,T,B]} {1,[S,D,T,B]} {6,[S,D,T,B]}
+6 *1 R!H u1 {5,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 274,
+    label = "Rnxc5_beta_long",
+    group = "OR{Rn3c5_beta_long, Rn2c5_beta_long, Rn1c5_beta_long}",
+    kinetics = None,
+)
+
+entry(
+    index = 275,
+    label = "Rn3c5_beta_long",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {5,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3 *7 R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]} {6,[S,D,T,B]}
+4 *8 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *5 R!H ux {4,[S,D,T,B]} {1,[S,D,T,B]}
+6 *6 R!H ux {3,[S,D,T,B]} {7,[S,D,T,B]}
+7 *4 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *1 R!H u1 {7,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 276,
+    label = "Rn2c5_beta_long",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {5,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3 *6 R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]} {6,[S,D,T,B]}
+4 *7 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *5 R!H ux {4,[S,D,T,B]} {1,[S,D,T,B]}
+6 *4 R!H ux {3,[S,D,T,B]} {7,[S,D,T,B]}
+7 *1 R!H u1 {6,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 277,
+    label = "Rn1c5_beta_long",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {5,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3 *4 R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]} {6,[S,D,T,B]}
+4 *6 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *5 R!H ux {4,[S,D,T,B]} {1,[S,D,T,B]}
+6 *1 R!H u1 {3,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 278,
+    label = "Rnxc5_beta_short",
+    group = "OR{Rn3c5_beta_short, Rn2c5_beta_short, Rn1c5_beta_short}",
+    kinetics = None,
+)
+
+entry(
+    index = 279,
+    label = "Rn3c5_beta_short",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {5,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4 *7 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]} {6,[S,D,T,B]}
+5 *5 R!H ux {4,[S,D,T,B]} {1,[S,D,T,B]}
+6 *6 R!H ux {4,[S,D,T,B]} {7,[S,D,T,B]}
+7 *4 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *1 R!H u1 {7,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 280,
+    label = "Rn2c5_beta_short",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {5,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4 *6 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]} {6,[S,D,T,B]}
+5 *5 R!H ux {4,[S,D,T,B]} {1,[S,D,T,B]}
+6 *4 R!H ux {4,[S,D,T,B]} {7,[S,D,T,B]}
+7 *1 R!H u1 {6,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 281,
+    label = "Rn1c5_beta_short",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {5,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4 *4 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]} {6,[S,D,T,B]}
+5 *5 R!H ux {4,[S,D,T,B]} {1,[S,D,T,B]}
+6 *1 R!H u1 {4,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 282,
+    label = "Rnxc6",
+    group = "OR{Rnxc6_alpha, Rnxc6_beta_long, Rnxc6_beta_short, Rnxc6_gamma}",
+    kinetics = None,
+)
+
+entry(
+    index = 283,
+    label = "Rnxc6_alpha",
+    group = "OR{Rn4c6_alpha, Rn3c6_alpha, Rn2c6_alpha, Rn1c6_alpha}",
+    kinetics = None,
+)
+
+entry(
+    index = 284,
+    label = "Rn4c6_alpha",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4     R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5     R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6  *5 R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]} {7,[S,D,T,B]}
+7  *7 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8  *6 R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9  *4 R!H ux {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 *1 R!H u1 {9,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 285,
+    label = "Rn3c6_alpha",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *5 R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]} {7,[S,D,T,B]}
+7 *6 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *4 R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *1 R!H u1 {8,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+entry(
+    index = 286,
+    label = "Rn2c6_alpha",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *5 R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]} {7,[S,D,T,B]}
+7 *4 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *1 R!H u1 {7,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 287,
+    label = "Rn1c6_alpha",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *4 R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]} {7,[S,D,T,B]}
+7 *1 R!H u1 {6,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 288,
+    label = "Rnxc6_beta_long",
+    group = "OR{Rn3c6_beta_long, Rn2c6_beta_long, Rn1c6_beta_long}",
+    kinetics = None,
+)
+
+entry(
+    index = 289,
+    label = "Rn3c6_beta_long",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3 *7 R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]} {7,[S,D,T,B]}
+4 *8 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *9 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *5 R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]}
+7 *6 R!H ux {3,[S,D,T,B]} {8,[S,D,T,B]}
+8 *4 R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *1 R!H u1 {8,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 291,
+    label = "Rn2c6_beta_long",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3 *6 R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]} {7,[S,D,T,B]}
+4 *7 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *8 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *5 R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]}
+7 *4 R!H ux {3,[S,D,T,B]} {8,[S,D,T,B]}
+8 *1 R!H u1 {7,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 292,
+    label = "Rn1c6_beta_long",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3 *4 R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]} {7,[S,D,T,B]}
+4 *6 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *7 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *5 R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]}
+7 *1 R!H u1 {3,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 293,
+    label = "Rnxc6_beta_short",
+    group = "OR{Rn3c6_beta_short, Rn2c6_beta_short, Rn1c6_beta_short}",
+    kinetics = None,
+)
+
+entry(
+    index = 294,
+    label = "Rn3c6_beta_short",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *7 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]} {7,[S,D,T,B]}
+6 *5 R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]}
+7 *6 R!H ux {5,[S,D,T,B]} {8,[S,D,T,B]}
+8 *4 R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *1 R!H u1 {8,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 295,
+    label = "Rn2c6_beta_short",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *6 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]} {7,[S,D,T,B]}
+6 *5 R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]}
+7 *4 R!H ux {5,[S,D,T,B]} {8,[S,D,T,B]}
+8 *1 R!H u1 {7,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 296,
+    label = "Rn1c6_beta_short",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *4 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]} {7,[S,D,T,B]}
+6 *5 R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]}
+7 *1 R!H u1 {5,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 297,
+    label = "Rnxc6_gamma",
+    group = "OR{Rn2c6_gamma, Rn1c6_gamma}",
+    kinetics = None,
+)
+
+entry(
+    index = 298,
+    label = "Rn2c6_gamma",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4 *6 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]} {7,[S,D,T,B]}
+5 *7 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *5 R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]}
+7 *4 R!H ux {4,[S,D,T,B]} {8,[S,D,T,B]}
+8 *1 R!H u1 {7,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 299,
+    label = "Rn1c6_gamma",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4 *4 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]} {7,[S,D,T,B]}
+5 *6 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6 *5 R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]}
+7 *1 R!H u1 {4,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 300,
+    label = "Rnxc7",
+    group = "OR{Rnxc7_alpha, Rnxc7_beta_long, Rnxc7_beta_short, Rnxc7_gamma_long, Rnxc7_gamma_short}",
+    kinetics = None,
+)
+
+entry(
+    index = 301,
+    label = "Rnxc7_alpha",
+    group = "OR{Rn4c7_alpha, Rn3c7_alpha, Rn2c7_alpha, Rn1c7_alpha}",
+    kinetics = None,
+)
+
+entry(
+    index = 302,
+    label = "Rn4c7_alpha",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4     R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5     R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6     R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7  *5 R!H ux {6,[S,D,T,B]} {1,[S,D,T,B]} {8,[S,D,T,B]}
+8  *7 R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9  *6 R!H ux {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 *4 R!H ux {9,[S,D,T,B]} {11,[S,D,T,B]}
+11 *1 R!H u1 {10,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 303,
+    label = "Rn3c7_alpha",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4     R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5     R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6     R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7  *5 R!H ux {6,[S,D,T,B]} {1,[S,D,T,B]} {8,[S,D,T,B]}
+8  *6 R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9  *4 R!H ux {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 *1 R!H u1 {9,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 304,
+    label = "Rn2c7_alpha",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *5 R!H ux {6,[S,D,T,B]} {1,[S,D,T,B]} {8,[S,D,T,B]}
+8 *4 R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *1 R!H u1 {8,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 305,
+    label = "Rn1c7_alpha",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7 *4 R!H ux {6,[S,D,T,B]} {1,[S,D,T,B]} {8,[S,D,T,B]}
+8 *1 R!H u1 {7,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 306,
+    label = "Rnxc7_beta_long",
+    group = "OR{Rn3c7_beta_long, Rn2c7_beta_long, Rn1c7_beta_long}",
+    kinetics = None,
+)
+
+entry(
+    index = 307,
+    label = "Rn3c7_beta_long",
+    group = 
+"""
+1  *2  R!H u0 {2,[D,T]} {7,[S,D,T,B]}
+2  *3  R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3  *7  R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]} {8,[S,D,T,B]}
+4  *8  R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5  *9  R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6  *10 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7  *5  R!H ux {6,[S,D,T,B]} {1,[S,D,T,B]}
+8  *6  R!H ux {3,[S,D,T,B]} {9,[S,D,T,B]}
+9  *4  R!H ux {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 *1  R!H u1 {9,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 308,
+    label = "Rn2c7_beta_long",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3  *6 R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]} {8,[S,D,T,B]}
+4  *7 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5  *8 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6  *9 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7  *5 R!H ux {6,[S,D,T,B]} {1,[S,D,T,B]}
+8  *4 R!H ux {3,[S,D,T,B]} {9,[S,D,T,B]}
+9  *1 R!H u1 {8,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 309,
+    label = "Rn1c7_beta_long",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3  *4 R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]} {8,[S,D,T,B]}
+4  *6 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5  *7 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6  *8 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7  *5 R!H ux {6,[S,D,T,B]} {1,[S,D,T,B]}
+8  *1 R!H u1 {3,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 310,
+    label = "Rnxc7_beta_short",
+    group = "OR{Rn3c7_beta_short, Rn2c7_beta_short, Rn1c7_beta_short}",
+    kinetics = None,
+)
+
+entry(
+    index = 311,
+    label = "Rn3c7_beta_short",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4     R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5     R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6  *7 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]} {8,[S,D,T,B]}
+7  *5 R!H ux {6,[S,D,T,B]} {1,[S,D,T,B]}
+8  *6 R!H ux {6,[S,D,T,B]} {9,[S,D,T,B]}
+9  *4 R!H ux {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 *1 R!H u1 {9,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 312,
+    label = "Rn2c7_beta_short",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4     R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5     R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6  *6 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]} {8,[S,D,T,B]}
+7  *5 R!H ux {6,[S,D,T,B]} {1,[S,D,T,B]}
+8  *4 R!H ux {6,[S,D,T,B]} {9,[S,D,T,B]}
+9  *1 R!H u1 {8,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 313,
+    label = "Rn1c7_beta_short",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4     R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5     R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6  *4 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]} {8,[S,D,T,B]}
+7  *5 R!H ux {6,[S,D,T,B]} {1,[S,D,T,B]}
+8  *1 R!H u1 {6,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 314,
+    label = "Rnxc7_gamma_long",
+    group = "OR{Rn2c7_gamma_long, Rn1c7_gamma_long}",
+    kinetics = None,
+)
+
+entry(
+    index = 315,
+    label = "Rn2c7_gamma_long",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4  *6 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]} {8,[S,D,T,B]}
+5  *7 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6  *8 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7  *5 R!H ux {6,[S,D,T,B]} {1,[S,D,T,B]}
+8  *4 R!H ux {4,[S,D,T,B]} {9,[S,D,T,B]}
+9  *1 R!H u1 {8,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 316,
+    label = "Rn1c7_gamma_long",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4  *4 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]} {8,[S,D,T,B]}
+5  *6 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6  *7 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7  *5 R!H ux {6,[S,D,T,B]} {1,[S,D,T,B]}
+8  *1 R!H u1 {4,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 317,
+    label = "Rnxc7_gamma_short",
+    group = "OR{Rn2c7_gamma_short, Rn1c7_gamma_short}",
+    kinetics = None,
+)
+
+entry(
+    index = 318,
+    label = "Rn2c7_gamma_short",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4     R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5  *6 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]} {8,[S,D,T,B]}
+6  *7 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7  *5 R!H ux {6,[S,D,T,B]} {1,[S,D,T,B]}
+8  *4 R!H ux {5,[S,D,T,B]} {9,[S,D,T,B]}
+9  *1 R!H u1 {8,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 319,
+    label = "Rn1c7_gamma_short",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {7,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4     R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5  *4 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]} {8,[S,D,T,B]}
+6  *6 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7  *5 R!H ux {6,[S,D,T,B]} {1,[S,D,T,B]}
+8  *1 R!H u1 {5,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 320,
+    label = "Rn4c8_alpha",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4     R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5     R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6     R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7     R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8  *5 R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]} {9,[S,D,T,B]}
+9  *7 R!H ux {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 *6 R!H ux {9,[S,D,T,B]} {11,[S,D,T,B]}
+11 *4 R!H ux {10,[S,D,T,B]} {12,[S,D,T,B]}
+12 *1 R!H u1 {11,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 321,
+    label = "Rnxc8",
+    group = "OR{Rnxc8_alpha, Rnxc8_beta_long, Rnxc8_beta_short, Rnxc8_gamma_long, Rnxc8_gamma_short, Rnxc8_epsilon}",
+    kinetics = None,
+)
+
+entry(
+    index = 322,
+    label = "Rnxc8_alpha",
+    group = "OR{Rn4c8_alpha, Rn3c8_alpha, Rn2c8_alpha, Rn1c8_alpha}",
+    kinetics = None,
+)
+
+entry(
+    index = 323,
+    label = "Rn3c8_alpha",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4     R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5     R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6     R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7     R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8  *5 R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]} {9,[S,D,T,B]}
+9  *6 R!H ux {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 *4 R!H ux {9,[S,D,T,B]} {11,[S,D,T,B]}
+11 *1 R!H u1 {10,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 324,
+    label = "Rn2c8_alpha",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4     R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5     R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6     R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7     R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8  *5 R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]} {9,[S,D,T,B]}
+9  *4 R!H ux {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 *1 R!H u1 {9,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 325,
+    label = "Rn1c8_alpha",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5    R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *4 R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]} {9,[S,D,T,B]}
+9 *1 R!H u1 {8,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 326,
+    label = "Rnxc8_beta_long",
+    group = "OR{Rn3c8_beta_long, Rn2c8_beta_long, Rn1c8_beta_long}",
+    kinetics = None,
+)
+
+entry(
+    index = 327,
+    label = "Rn3c8_beta_long",
+    group = 
+"""
+1  *2  R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2  *3  R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3  *7  R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]} {9,[S,D,T,B]}
+4  *8  R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5  *9  R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6  *10 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7  *11 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8  *5  R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]}
+9  *6  R!H ux {3,[S,D,T,B]} {10,[S,D,T,B]}
+10 *4  R!H ux {9,[S,D,T,B]} {11,[S,D,T,B]}
+11 *1  R!H u1 {10,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 328,
+    label = "Rn2c8_beta_long",
+    group = 
+"""
+1  *2  R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2  *3  R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3  *6  R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]} {9,[S,D,T,B]}
+4  *7  R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5  *8  R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6  *9  R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7  *10 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8  *5  R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]}
+9  *4  R!H ux {3,[S,D,T,B]} {10,[S,D,T,B]}
+10 *1  R!H u1 {9,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 329,
+    label = "Rn1c8_beta_long",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3  *4 R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]} {9,[S,D,T,B]}
+4  *6 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5  *7 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6  *8 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7  *9 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8  *5 R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]}
+9  *1 R!H u1 {3,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 330,
+    label = "Rnxc8_beta_short",
+    group = "OR{Rn3c8_beta_short, Rn2c8_beta_short, Rn1c8_beta_short}",
+    kinetics = None,
+)
+
+entry(
+    index = 331,
+    label = "Rn3c8_beta_short",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4     R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5     R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6     R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7  *7 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]} {9,[S,D,T,B]}
+8  *5 R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]}
+9  *6 R!H ux {7,[S,D,T,B]} {10,[S,D,T,B]}
+10 *4 R!H ux {9,[S,D,T,B]} {11,[S,D,T,B]}
+11 *1 R!H u1 {10,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 332,
+    label = "Rn2c8_beta_short",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4     R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5     R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6     R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7  *6 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]} {9,[S,D,T,B]}
+8  *5 R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]}
+9  *4 R!H ux {7,[S,D,T,B]} {10,[S,D,T,B]}
+10 *1 R!H u1 {9,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 333,
+    label = "Rn1c8_beta_short",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4     R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5     R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6     R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7  *4 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]} {9,[S,D,T,B]}
+8  *5 R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]}
+9  *1 R!H u1 {7,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 334,
+    label = "Rnxc8_gamma_long",
+    group = "OR{Rn2c8_gamma_long, Rn1c8_gamma_long}",
+    kinetics = None,
+)
+
+entry(
+    index = 335,
+    label = "Rn2c8_gamma_long",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4  *6 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]} {9,[S,D,T,B]}
+5  *7 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6  *8 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7  *9 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8  *5 R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]}
+9  *4 R!H ux {4,[S,D,T,B]} {10,[S,D,T,B]}
+10 *1 R!H u1 {9,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+entry(
+    index = 336,
+    label = "Rn1c8_gamma_long",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4  *4 R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]} {9,[S,D,T,B]}
+5  *6 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6  *7 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7  *8 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8  *5 R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]}
+9  *1 R!H u1 {4,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 337,
+    label = "Rnxc8_gamma_short",
+    group = "OR{Rn2c8_gamma_short, Rn1c8_gamma_short}",
+    kinetics = None,
+)
+
+entry(
+    index = 338,
+    label = "Rn2c8_gamma_short",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4     R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5     R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6  *6 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]} {9,[S,D,T,B]}
+7  *7 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8  *5 R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]}
+9  *4 R!H ux {6,[S,D,T,B]} {10,[S,D,T,B]}
+10 *1 R!H u1 {9,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 339,
+    label = "Rn1c8_gamma_short",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4     R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5     R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6  *4 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]} {9,[S,D,T,B]}
+7  *6 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8  *5 R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]}
+9  *1 R!H u1 {6,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 340,
+    label = "Rnxc8_epsilon",
+    group = "OR{Rn1c8_epsilon}",
+    kinetics = None,
+)
+
+entry(
+    index = 341,
+    label = "Rn1c8_epsilon",
+    group = 
+"""
+1  *2 R!H u0 {2,[D,T]} {8,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4     R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5  *4 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]} {9,[S,D,T,B]}
+6  *6 R!H ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7  *7 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8  *5 R!H ux {7,[S,D,T,B]} {1,[S,D,T,B]}
+9  *1 R!H u1 {5,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Rn
+    L2: Rnx_cyclics
+        L3: Rnxc3
+            L4: Rn4c3_alpha
+            L4: Rn3c3_alpha
+            L4: Rn2c3_alpha
+            L4: Rn1c3_alpha
+        L3: Rnxc4
+            L4: Rnxc4_alpha
+                L5: Rn4c4_alpha
+                L5: Rn3c4_alpha
+                L5: Rn2c4_alpha
+                L5: Rn1c4_alpha
+            L4: Rnxc4_beta
+                L5: Rn3c4_beta
+                L5: Rn2c4_beta
+                L5: Rn1c4_beta
+        L3: Rnxc5
+            L4: Rnxc5_alpha
+                L5: Rn4c5_alpha
+                L5: Rn3c5_alpha
+                L5: Rn2c5_alpha
+                L5: Rn1c5_alpha
+            L4: Rnxc5_beta_long
+                L5: Rn3c5_beta_long
+                L5: Rn2c5_beta_long
+                L5: Rn1c5_beta_long
+            L4: Rnxc5_beta_short
+                L5: Rn3c5_beta_short
+                L5: Rn2c5_beta_short
+                L5: Rn1c5_beta_short
+        L3: Rnxc6
+            L4: Rnxc6_alpha
+                L5: Rn4c6_alpha
+                L5: Rn3c6_alpha
+                L5: Rn2c6_alpha
+                L5: Rn1c6_alpha
+            L4: Rnxc6_beta_long
+                L5: Rn3c6_beta_long
+                L5: Rn2c6_beta_long
+                L5: Rn1c6_beta_long
+            L4: Rnxc6_beta_short
+                L5: Rn3c6_beta_short
+                L5: Rn2c6_beta_short
+                L5: Rn1c6_beta_short
+            L4: Rnxc6_gamma
+                L5: Rn2c6_gamma
+                L5: Rn1c6_gamma
+        L3: Rnxc7
+            L4: Rnxc7_alpha
+                L5: Rn4c7_alpha
+                L5: Rn3c7_alpha
+                L5: Rn2c7_alpha
+                L5: Rn1c7_alpha
+            L4: Rnxc7_beta_long
+                L5: Rn3c7_beta_long
+                L5: Rn2c7_beta_long
+                L5: Rn1c7_beta_long
+            L4: Rnxc7_beta_short
+                L5: Rn3c7_beta_short
+                L5: Rn2c7_beta_short
+                L5: Rn1c7_beta_short
+            L4: Rnxc7_gamma_long
+                L5: Rn2c7_gamma_long
+                L5: Rn1c7_gamma_long
+            L4: Rnxc7_gamma_short
+                L5: Rn2c7_gamma_short
+                L5: Rn1c7_gamma_short
+        L3: Rnxc8
+            L4: Rnxc8_alpha
+                L5: Rn4c8_alpha
+                L5: Rn3c8_alpha
+                L5: Rn2c8_alpha
+                L5: Rn1c8_alpha
+            L4: Rnxc8_beta_long
+                L5: Rn3c8_beta_long
+                L5: Rn2c8_beta_long
+                L5: Rn1c8_beta_long
+            L4: Rnxc8_beta_short
+                L5: Rn3c8_beta_short
+                L5: Rn2c8_beta_short
+                L5: Rn1c8_beta_short
+            L4: Rnxc8_gamma_long
+                L5: Rn2c8_gamma_long
+                L5: Rn1c8_gamma_long
+            L4: Rnxc8_gamma_short
+                L5: Rn2c8_gamma_short
+                L5: Rn1c8_gamma_short
+            L4: Rnxc8_epsilon
+                L5: Rn1c8_epsilon
     L2: R4
         L3: R4_S
             L4: R4_S_D
@@ -2871,6 +4254,8 @@ L1: Rn
             L4: R7_SMMS
         L3: R8
         L3: R9
+        L3: R10
+        L3: R11
 L1: multiplebond_intra
     L2: doublebond_intra
         L3: doublebond_intra_2H
@@ -2960,3 +4345,257 @@ u"""
 """,
 )
 
+####################
+#Forbid a carbon radical 2 carbons away from a phenyl side group from adding to either the meta- or para- position
+forbidden(
+    label = "beta_C_rad_to_meta_phenyl_res1",
+    group =
+"""
+1 *4 C u0 {2,S} {3,[S,D,T]}
+2 *6 C u0 {1,S} {4,D} {5,S}
+3 *1 C u1 {1,[S,D,T]}
+4 *5 C u0 {2,D} {7,S}
+5    C u0 {2,S} {8,D}
+6 *3 C u0 {7,D} {8,S}
+7 *2 C u0 {4,S} {6,D}
+8    C u0 {5,D} {6,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a carbon radical 2 carbons away from a phenyl side group from adding to the meta-position
+because the TS would be far too strained. Resonance form 1.
+""",
+)
+
+forbidden(
+    label = "beta_C_rad_to_meta_phenyl_res2",
+    group =
+"""
+1 *4 C u0 {2,S} {3,[S,D,T]}
+2 *6 C u0 {1,S} {4,S} {5,D}
+3 *1 C u1 {1,[S,D,T]}
+4 *3 C u0 {2,S} {7,D}
+5 *7 C u0 {2,D} {8,S}
+6 *5 C u0 {7,S} {8,D}
+7 *2 C u0 {4,D} {6,S}
+8 *8 C u0 {5,S} {6,D}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a carbon radical 2 carbons away from a phenyl side group from adding to the meta-position
+because the TS would be far too strained. Resonance form 2.
+""",
+)
+
+forbidden(
+    label = "beta_C_rad_para_phenyl",
+    group =
+"""
+1 *4 C u0 {2,S} {3,[S,D,T]}
+2 *6 C u0 {1,S} {4,D} {5,S}
+3 *1 C u1 {1,[S,D,T]}
+4    C u0 {2,D} {7,S}
+5 *7 C u0 {2,S} {8,D}
+6 *2 C u0 {7,D} {8,S}
+7 *3 C u0 {4,S} {6,D}
+8 *5 C u0 {5,D} {6,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a carbon radical 2 carbons away from a phenyl side group from adding to the para-position
+because the TS would be far too strained.
+""",
+)
+###################
+
+####################
+#Forbid a carbon radical 1 carbon away from a phenyl side group (benzylic position) from adding to either the meta- or para- position
+forbidden(
+    label = "alpha_C_rad_to_meta_phenyl_res1",
+    group =
+"""
+1 *1 C u1 {2,S}
+2 *4 C u0 {1,S} {3,D} {4,S}
+3 *5 C u0 {2,D} {6,S}
+4    C u0 {2,S} {7,D}
+5 *3 C u0 {6,D} {7,S}
+6 *2 C u0 {3,S} {5,D}
+7    C u0 {4,D} {5,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a carbon radical 1 carbons away from a phenyl side group (benzylic position) from adding to the meta-position
+because the TS would be far too strained. Resonance form 1.
+""",
+)
+
+forbidden(
+    label = "alpha_C_rad_to_meta_phenyl_res2",
+    group =
+"""
+1 *1 C u1 {2,S}
+2 *4 C u0 {1,S} {3,S} {4,D}
+3 *3 C u0 {2,S} {6,D}
+4 *6 C u0 {2,D} {7,S}
+5 *5 C u0 {6,S} {7,D}
+6 *2 C u0 {3,D} {5,S}
+7 *7 C u0 {4,S} {5,D}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a carbon radical 1 carbons away from a phenyl side group (benzylic position) from adding to the meta-position
+because the TS would be far too strained. Resonance form 2.
+""",
+)
+
+forbidden(
+    label = "alpha_C_rad_to_para_phenyl",
+    group =
+"""
+1 *1 C u1 {2,S}
+2 *4 C u0 {1,S} {3,S} {4,D}
+3 *6 C u0 {2,S} {6,D}
+4    C u0 {2,D} {7,S}
+5 *2 C u0 {6,S} {7,D}
+6 *5 C u0 {3,D} {5,S}
+7 *3 C u0 {4,S} {5,D}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a carbon radical 1 carbons away from a phenyl side group (benzylic position) from adding to the para-position
+because the TS would be far too strained.
+""",
+)
+###################
+
+####################
+#Forbid a carbon radical 3 carbons away from a phenyl side group from adding to either the meta- or para- position
+forbidden(
+    label = "gamma_C_rad_to_meta_phenyl_res1",
+    group =
+"""
+1 *6 C u0 {2,S} {3,[S,D,T]}
+2 *7 C u0 {1,S} {4,D} {5,S}
+3 *4 C u0 {1,[S,D,T]} {9,[S,D,T]}
+4 *5 C u0 {2,D} {7,S}
+5    C u0 {2,S} {8,D}
+6 *3 C u0 {7,D} {8,S}
+7 *2 C u0 {4,S} {6,D}
+8    C u0 {5,D} {6,S}
+9 *1 C u1 {3,[S,D,T]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a carbon radical 3 carbons away from a phenyl side group from adding to the meta-position
+because the TS would be far too strained. Resonance form 1.
+""",
+)
+
+forbidden(
+    label = "gamma_C_rad_to_meta_phenyl_res2",
+    group =
+"""
+1 *6 C u0 {2,S} {3,[S,D,T]}
+2 *7 C u0 {1,S} {4,S} {5,D}
+3 *4 C u0 {1,[S,D,T]} {9,[S,D,T]}
+4 *3 C u0 {2,S} {7,D}
+5 *8 C u0 {2,D} {8,S}
+6 *5 C u0 {7,S} {8,D}
+7 *2 C u0 {4,D} {6,S}
+8 *9 C u0 {5,S} {6,D}
+9 *1 C u1 {3,[S,D,T]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a carbon radical 3 carbons away from a phenyl side group from adding to the meta-position
+because the TS would be far too strained. Resonance form 2.
+""",
+)
+
+forbidden(
+    label = "gamma_C_rad_to_para_phenyl",
+    group =
+"""
+1 *6 C u0 {2,S} {3,[S,D,T]}
+2 *7 C u0 {1,S} {4,S} {5,D}
+3 *4 C u0 {1,[S,D,T]} {9,[S,D,T]}
+4 *8 C u0 {2,S} {7,D}
+5    C u0 {2,D} {8,S}
+6 *2 C u0 {7,S} {8,D}
+7 *5 C u0 {4,D} {6,S}
+8 *3 C u0 {5,S} {6,D}
+9 *1 C u1 {3,[S,D,T]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a carbon radical 3 carbons away from a phenyl side group from adding to the para-position
+because the TS would be far too strained.
+""",
+)
+###################
+
+###################
+#Forbid phenyl radical from ring-closing on itself to make either a 3-5 or 4-4 membered bicyclic
+forbidden(
+    label = "Phenyl_self_3_5_ring_close_res1",
+    group =
+"""
+1 *1 C u1 {2,D} {6,S}
+2    C u0 {1,D} {3,S}
+3 *2 C u0 {2,S} {4,D}
+4 *3 C u0 {3,D} {5,S}
+5    C u0 {4,S} {6,D}
+6    C u0 {1,S} {5,D}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a phenyl radical from doing a ring closure on itself to form a fused 3 and 5 membered ring. Resonance form 1.
+""",
+)
+
+forbidden(
+    label = "Phenyl_self_3_5_ring_close_res2",
+    group =
+"""
+1 *1 C u1 {2,S} {6,D}
+2 *3 C u0 {1,S} {3,D}
+3 *2 C u0 {2,D} {4,S}
+4    C u0 {3,S} {5,D}
+5    C u0 {4,D} {6,S}
+6    C u0 {1,D} {5,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a phenyl radical from doing a ring closure on itself to form a fused 3 and 5 membered ring. Resonance form 2.
+""",
+)
+
+forbidden(
+    label = "Phenyl_self_4_4_ring_close_res1",
+    group =
+"""
+1 *1 C u1 {2,D} {6,S}
+2    C u0 {1,D} {3,S}
+3 *3 C u0 {2,S} {4,D}
+4 *2 C u0 {3,D} {5,S}
+5    C u0 {4,S} {6,D}
+6    C u0 {1,S} {5,D}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a phenyl radical from doing a ring closure on itself to form a fused 4 and 4 membered ring. Resonance form 1.
+""",
+)
+###################
