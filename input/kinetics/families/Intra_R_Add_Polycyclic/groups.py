@@ -148,6 +148,87 @@ entry(
 )
 
 entry(
+    index = 11,
+    label = "Rn0c6_beta_long_SSSD",
+    group =
+"""
+1 *3 C u0 r1 {2,D} {6,[S,D,T,B]}
+2 *2 C u0 r1 {1,D} {3,S}
+3 *5 C ux r1 {2,S} {4,S}
+4 *4 C ux r1 {3,S} {5,S}
+5 *1 C u1 r1 {4,S} {6,[S,D,T,B]}
+6    C ux r1 {1,[S,D,T,B]} {5,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 11,
+    label = "Rn0c6_beta_long_SDSD",
+    group =
+"""
+1 *3 C u0 r1 {2,D} {6,[S,D,T,B]}
+2 *2 C u0 r1 {1,D} {3,S}
+3 *5 C ux r1 {2,S} {4,D}
+4 *4 C ux r1 {3,D} {5,S}
+5 *1 C u1 r1 {4,S} {6,[S,D,T,B]}
+6    C ux r1 {1,[S,D,T,B]} {5,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 11,
+    label = "Rn0c6_beta_long_SDSD_H",
+    group =
+"""
+1 *3 C u0 r1 {2,D} {6,[S,D,T,B]}
+2 *2 C u0 r1 {1,D} {3,S}
+3 *5 C ux r1 {2,S} {4,D}
+4 *4 C ux r1 {3,D} {5,S}
+5 *1 C u1 r1 {4,S} {6,[S,D,T,B]}
+6    C ux r1 {1,[S,D,T,B]} {5,[S,D,T,B]} {7,S} {8,S}
+7    H u0 r0 {6,S}
+8    H u0 r0 {6,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 11,
+    label = "Rn0c6_beta_long_SDSD_R1",
+    group =
+"""
+1 *3 C   u0 r1 {2,D} {6,[S,D,T,B]}
+2 *2 C   u0 r1 {1,D} {3,S}
+3 *5 C   ux r1 {2,S} {4,D}
+4 *4 C   ux r1 {3,D} {5,S}
+5 *1 C   u1 r1 {4,S} {6,[S,D,T,B]}
+6    C   ux r1 {1,[S,D,T,B]} {5,[S,D,T,B]} {7,S} {8,S}
+7    R!H u0 r0 {6,S}
+8    H   u0 r0 {6,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 11,
+    label = "Rn0c6_beta_long_SDSD_R2",
+    group =
+"""
+1 *3 C   u0 r1 {2,D} {6,[S,D,T,B]}
+2 *2 C   u0 r1 {1,D} {3,S}
+3 *5 C   ux r1 {2,S} {4,D}
+4 *4 C   ux r1 {3,D} {5,S}
+5 *1 C   u1 r1 {4,S} {6,[S,D,T,B]}
+6    C   ux r1 {1,[S,D,T,B]} {5,[S,D,T,B]} {7,S} {8,S}
+7    R!H u0 r0 {6,S}
+8    R!H u0 r0 {6,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 12,
     label = "Rn0c7_beta",
     group = "OR{Rn0c7_beta_short, Rn0c7_beta_long}",
@@ -284,6 +365,41 @@ entry(
 5 *1 R!H u1 r1 {4,[S,D,T,B]} {7,[S,D,T,B]}
 6    R!H ux r1 {1,[S,D,T,B]} {7,[S,D,T,B]}
 7    R!H ux r1 {5,[S,D,T,B]} {6,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 22,
+    label = "Rn0c7_gamma_long_SDSD",
+    group =
+"""
+1 *3 C u0 r1 {2,D} {6,[S,D,T,B]}
+2 *2 C u0 r1 {1,D} {3,S}
+3 *5 C ux r1 {2,S} {4,D}
+4 *4 C ux r1 {3,D} {5,S}
+5 *1 C u1 r1 {4,S} {7,[S,D,T,B]}
+6    C ux r1 {1,[S,D,T,B]} {7,[S,D,T,B]}
+7    C ux r1 {5,[S,D,T,B]} {6,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 22,
+    label = "Rn0c7_gamma_long_SDSD_R5",
+    group =
+"""
+1  *3 C   u0 r1 {2,D} {6,[S,D,T,B]}
+2  *2 C   u0 r1 {1,D} {3,S}
+3  *5 C   ux r1 {2,S} {4,D}
+4  *4 C   ux r1 {3,D} {5,S}
+5  *1 C   u1 r1 {4,S} {7,[S,D,T,B]}
+6     C   ux r1 {1,[S,D,T,B]} {7,[S,D,T,B]} {8,[S,D,T,B]}
+7     C   ux r1 {5,[S,D,T,B]} {6,[S,D,T,B]} {9,[S,D,T,B]}
+8     R!H ux r1 {6,[S,D,T,B]} {10,[S,D,T,B]}
+9     R!H ux r1 {7,[S,D,T,B]} {10,[S,D,T,B]}
+10    R!H ux r1 {8,[S,D,T,B]} {9,[S,D,T,B]}
 """,
     kinetics = None,
 )
@@ -468,6 +584,68 @@ entry(
 4 *6 R!H ux r1 {3,[S,D,T,B]} {5,[S,D,T,B]}
 5 *4 R!H ux r1 {1,[S,D,T,B]} {4,[S,D,T,B]} {6,[S,D,T,B]}
 6 *1 R!H u1 {5,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 38,
+    label = "Rn1c5_alpha_long_SSSDS",
+    group =
+"""
+1 *3 C u0 r1 {2,D} {5,S}
+2 *2 C u0 r1 {1,D} {3,S}
+3 *5 C ux r1 {2,S} {4,S}
+4 *6 C ux r1 {3,S} {5,S}
+5 *4 C ux r1 {1,S} {4,S} {6,S}
+6 *1 C u1 r0 {5,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 38,
+    label = "Rn1c5_alpha_long_SDSDS",
+    group =
+"""
+1 *3 C u0 r1 {2,D} {5,S}
+2 *2 C u0 r1 {1,D} {3,S}
+3 *5 C ux r1 {2,S} {4,D}
+4 *6 C ux r1 {3,D} {5,S}
+5 *4 C ux r1 {1,S} {4,S} {6,S}
+6 *1 C u1 r0 {5,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 38,
+    label = "Rn1c5_alpha_long_SDSDS_H",
+    group =
+"""
+1 *3 C u0 r1 {2,D} {5,S}
+2 *2 C u0 r1 {1,D} {3,S}
+3 *5 C ux r1 {2,S} {4,D}
+4 *6 C ux r1 {3,D} {5,S}
+5 *4 C ux r1 {1,S} {4,S} {6,S} {7,S}
+6 *1 C u1 r0 {5,S}
+7    H u0 r0 {5,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 38,
+    label = "Rn1c5_alpha_long_SDSDS_R",
+    group =
+"""
+1 *3 C   u0 r1 {2,D} {5,S}
+2 *2 C   u0 r1 {1,D} {3,S}
+3 *5 C   ux r1 {2,S} {4,D}
+4 *6 C   ux r1 {3,D} {5,S}
+5 *4 C   ux r1 {1,S} {4,S} {6,S} {7,S}
+6 *1 C   u1 r0 {5,S}
+7    R!H u0 r0 {5,S}
 """,
     kinetics = None,
 )
@@ -890,6 +1068,38 @@ entry(
 5 *1 R!H u1 r0 {4,[S,D,T,B]}
 6    R!H ux r1 {1,[S,D,T,B]} {7,[S,D,T,B]}
 7    R!H ux r1 {3,[S,D,T,B]} {6,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 71,
+    label = "Rn2c5_beta_short_SDSDS",
+    group =
+"""
+1 *3 C u0 r1 {2,D} {6,S}
+2 *2 C u0 r1 {1,D} {3,S}
+3 *5 C ux r1 {2,S} {4,S} {7,S}
+4 *4 C ux r0 {3,S} {5,S}
+5 *1 C u1 r0 {4,S}
+6    C ux r1 {1,S} {7,D}
+7    C ux r1 {3,S} {6,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 71,
+    label = "Rn2c5_beta_short_SDSSD",
+    group =
+"""
+1 *3 C u0 r1 {2,D} {6,S}
+2 *2 C u0 r1 {1,D} {3,S}
+3 *5 C ux r1 {2,S} {4,S} {7,D}
+4 *4 C ux r0 {3,S} {5,S}
+5 *1 C u1 r0 {4,S}
+6    C ux r1 {1,S} {7,S}
+7    C ux r1 {3,D} {6,S}
 """,
     kinetics = None,
 )
@@ -2752,6 +2962,11 @@ L1: Rn_cyclic
             L4: Rn0c6_beta
                 L5: Rn0c6_beta_short
                 L5: Rn0c6_beta_long
+                    L6: Rn0c6_beta_long_SSSD
+                    L6: Rn0c6_beta_long_SDSD
+                        L7: Rn0c6_beta_long_SDSD_H
+                        L7: Rn0c6_beta_long_SDSD_R1
+                        L7: Rn0c6_beta_long_SDSD_R2
             L4: Rn0c7_beta
                 L5: Rn0c7_beta_short
                 L5: Rn0c7_beta_long
@@ -2763,6 +2978,8 @@ L1: Rn_cyclic
             L4: Rn0c7_gamma
                 L5: Rn0c7_gamma_short
                 L5: Rn0c7_gamma_long
+                    L6: Rn0c7_gamma_long_SDSD
+                        L7: Rn0c7_gamma_long_SDSD_R5
             L4: Rn0c8_gamma
                 L5: Rn0c8_gamma_short
                 L5: Rn0c8_gamma_long
@@ -2779,6 +2996,10 @@ L1: Rn_cyclic
             L4: Rn1c5_alpha
                 L5: Rn1c5_alpha_short
                 L5: Rn1c5_alpha_long
+                    L6: Rn1c5_alpha_long_SSSDS
+                    L6: Rn1c5_alpha_long_SDSDS
+                        L7: Rn1c5_alpha_long_SDSDS_H
+                        L7: Rn1c5_alpha_long_SDSDS_R
             L4: Rn1c6_alpha
                 L5: Rn1c6_alpha_short
                 L5: Rn1c6_alpha_long
@@ -2812,6 +3033,8 @@ L1: Rn_cyclic
             L4: Rn2c4_beta
             L4: Rn2c5_beta
                 L5: Rn2c5_beta_short
+                    L6: Rn2c5_beta_short_SDSDS
+                    L6: Rn2c5_beta_short_SDSSD
                 L5: Rn2c5_beta_long
             L4: Rn2c6_beta
                 L5: Rn2c6_beta_short
