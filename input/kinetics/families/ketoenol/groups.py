@@ -58,37 +58,7 @@ entry(
 1 *1 R!H u0 {2,D}
 2 *2 R!H u0 {1,D} {3,S}
 3 *3 O   u0 {2,S} {4,S}
-4 *4 R   u0 {3,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 22,
-    label = "R_O_H",
-    group = 
-"""
-1 *4 H u0
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 23,
-    label = "R_O_R",
-    group = 
-"""
-1 *4 R!H u0
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 34,
-    label = "R_O_C",
-    group = 
-"""
-1 *4 C u0
+4 *4 H   u0 {3,S}
 """,
     kinetics = None,
 )
@@ -221,10 +191,6 @@ L1: R2_doublebond
         L3: R2_doublebond_CsC
             L4: R2_doublebond_CH2CH3
     L2: R2_doublebond_H
-L1: R_O
-    L2: R_O_H
-    L2: R_O_R
-        L3: R_O_C
 """
 )
 

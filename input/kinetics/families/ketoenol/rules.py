@@ -8,7 +8,7 @@ longDesc = u"""
 """
 entry(
     index = 1,
-    label = "R_ROR;R1_doublebond;R2_doublebond;R_O",
+    label = "R_ROR;R1_doublebond;R2_doublebond",
     kinetics = ArrheniusEP(
         A = (100000, 's^-1'),
         n = 2,
@@ -23,7 +23,7 @@ entry(
 
 entry(
     index = 2,
-    label = "R_ROR;R1_doublebond_CH2;R2_doublebond_CsC;R_O_H",
+    label = "R_ROR;R1_doublebond_CH2;R2_doublebond_CsC",
     kinetics = ArrheniusEP(
         A = (205000, 's^-1'),
         n = 2.37,
@@ -38,7 +38,7 @@ entry(
 
 entry(
     index = 3,
-    label = "R_ROR;R1_doublebond_CH2;R2_doublebond_H;R_O_H",
+    label = "R_ROR;R1_doublebond_CH2;R2_doublebond_H",
     kinetics = ArrheniusEP(
         A = (7040, 's^-1'),
         n = 2.66,
@@ -53,7 +53,7 @@ entry(
 
 entry(
     index = 4,
-    label = "R_ROR;R1_doublebond_S;R2_doublebond_H;R_O_H",
+    label = "R_ROR;R1_doublebond_S;R2_doublebond_H",
     kinetics = ArrheniusEP(
         A = (52, 's^-1'),
         n = 3.26,
@@ -68,7 +68,7 @@ entry(
 
 entry(
     index = 5,
-    label = "R_ROR;R1_doublebond_S;R2_doublebond_CH3;R_O_H",
+    label = "R_ROR;R1_doublebond_S;R2_doublebond_CH3",
     kinetics = ArrheniusEP(
         A = (104, 's^-1'),
         n = 3.21,
@@ -83,7 +83,7 @@ entry(
 
 entry(
     index = 6,
-    label = "R_ROR;R1_doublebond_S;R2_doublebond_CH2CH3;R_O_H",
+    label = "R_ROR;R1_doublebond_S;R2_doublebond_CH2CH3",
     kinetics = ArrheniusEP(
         A = (87.5, 's^-1'),
         n = 3.23,
