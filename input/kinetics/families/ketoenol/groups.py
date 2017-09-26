@@ -81,6 +81,7 @@ entry(
 1 *4 R!H u0
 """,
     kinetics = None,
+    nodalDistance=10,
 )
 
 entry(
