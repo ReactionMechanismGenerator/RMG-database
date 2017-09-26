@@ -95,4 +95,41 @@ entry(
     rank = 3,
     shortDesc = u"""calculated by CAC, CCSD(T)/vtz f12""",
 )
+    
+entry(
+    index = 7,
+    label = "R_ROR;R1_doublebond_CH2;R2_doublebond_H;R_O_R",
+    kinetics = ArrheniusEP(
+        A = (7040, 's^-1'),
+        n = 2.66,
+        alpha = 0,
+        E0 = (75, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""W.H. Green estimate
+                   A,n from R_ROR;R1_doublebond_CH2;R2_doublebond_H;R_O_H
+                   Ea = W.H. Green estimate
+                   """,
+)
+    
+entry(
+    index = 8,
+    label = "R_ROR;R1_doublebond_CH2;R2_doublebond_H;R_O_C",
+    kinetics = ArrheniusEP(
+        A = (7040, 's^-1'),
+        n = 2.66,
+        alpha = 0,
+        E0 = (84, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""W.H. Green estimate
+                   A,n from R_ROR;R1_doublebond_CH2;R2_doublebond_H;R_O_H
+                   Ea = C-C BDE
+                   """,
+)
+
 
