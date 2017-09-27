@@ -1849,3 +1849,72 @@ Taken from entry: allene + OH <=> C3H3 + H2O
 """,
 )
 
+
+
+entry(
+    index = 1031,
+    label = "C4H4 + CH3 <=> CH4 + C4H3",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(9.24, 'cm^3/(mol*s)'), n=3.335, Ea=(7.75, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C4H4 + CH3 <=> C4H3 + CH4
+""",
+)
+
+entry(
+    index = 1032,
+    label = "C4H4 + H <=> H2 + C4H3",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.092e+06, 'cm^3/(mol*s)'),
+        n = 2.211,
+        Ea = (7.181, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C4H4 + H <=> C4H3 + H2
+""",
+)
+
+entry(
+    index = 1033,
+    label = "C4H6-3 + CH3 <=> CH4 + C4H5-3",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (14.26, 'cm^3/(mol*s)'),
+        n = 3.317,
+        Ea = (6.61, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C4H6 + CH3 <=> C4H5 + CH4
+""",
+)
+
+entry(
+    index = 1034,
+    label = "C4H6-3 + H <=> H2 + C4H5-3",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.867e+06, 'cm^3/(mol*s)'),
+        n = 2.242,
+        Ea = (5.318, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C4H6 + H <=> C4H5 + H2
+""",
+)
+
