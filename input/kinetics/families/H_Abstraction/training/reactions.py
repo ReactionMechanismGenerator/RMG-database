@@ -1516,9 +1516,9 @@ entry(
     label = "CH3CH2NH2_1 + H <=> CH2CH2NH2 + H2",
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (9.07e+04, 'cm^3/(mol*s)'),
-        n = 2.75,
-        Ea = (6800, 'cal/mol'),
+        A = (1.6e+13, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (8174, 'cal/mol'),
         T0 = (1, 'K'),
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
@@ -1528,6 +1528,7 @@ entry(
     longDesc = 
 u"""
 CBS-QB3
+doi: 10.1016/j.combustflame.2015.10.032
 """,
 )
 
@@ -1536,9 +1537,9 @@ entry(
     label = "CH3CH2NH2_2 + H <=> CH3CHNH2 + H2",
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (9.54e+03, 'cm^3/(mol*s)'),
-        n = 2.94,
-        Ea = (500, 'cal/mol'),
+        A = (1.16e+13, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (3585, 'cal/mol'),
         T0 = (1, 'K'),
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
@@ -1548,6 +1549,7 @@ entry(
     longDesc = 
 u"""
 CBS-QB3
+doi: 10.1016/j.combustflame.2015.10.032
 """,
 )
 
@@ -1556,9 +1558,9 @@ entry(
     label = "CH3CH2NH2_3 + H <=> CH3CH2NH + H2",
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (8.04e+04, 'cm^3/(mol*s)'),
-        n = 2.64,
-        Ea = (5500, 'cal/mol'),
+        A = (5.47e+12, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (6907, 'cal/mol'),
         T0 = (1, 'K'),
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
@@ -1568,6 +1570,7 @@ entry(
     longDesc = 
 u"""
 CBS-QB3
+doi: 10.1016/j.combustflame.2015.10.032
 """,
 )
 
@@ -1576,9 +1579,9 @@ entry(
     label = "CH3CH2NH2_1 + CH3_r3 <=> CH2CH2NH2 + CH4",
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (3.28e-04, 'cm^3/(mol*s)'),
-        n = 4.85,
-        Ea = (7000, 'cal/mol'),
+        A = (6.00e+12, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (12620, 'cal/mol'),
         T0 = (1, 'K'),
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
@@ -1588,6 +1591,7 @@ entry(
     longDesc = 
 u"""
 CBS-QB3
+doi: 10.1016/j.combustflame.2015.10.032
 """,
 )
 
@@ -1596,9 +1600,9 @@ entry(
     label = "CH3CH2NH2_2 + CH3_r3 <=> CH3CHNH2 + CH4",
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (2.76e-02, 'cm^3/(mol*s)'),
-        n = 4.23,
-        Ea = (4200, 'cal/mol'),
+        A = (1.23e+13, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (7911, 'cal/mol'),
         T0 = (1, 'K'),
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
@@ -1608,6 +1612,7 @@ entry(
     longDesc = 
 u"""
 CBS-QB3
+doi: 10.1016/j.combustflame.2015.10.032
 """,
 )
 
@@ -1616,9 +1621,9 @@ entry(
     label = "CH3CH2NH2_3 + CH3_r3 <=> CH3CH2NH + CH4",
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (1.27e-02, 'cm^3/(mol*s)'),
-        n = 4.41,
-        Ea = (4800, 'cal/mol'),
+        A = (2.23e+12, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (9441, 'cal/mol'),
         T0 = (1, 'K'),
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
@@ -1628,6 +1633,7 @@ entry(
     longDesc = 
 u"""
 CBS-QB3
+doi: 10.1016/j.combustflame.2015.10.032
 """,
 )
 
@@ -1636,9 +1642,9 @@ entry(
     label = "CH3CH2NH2_1 + NH2 <=> CH2CH2NH2 + NH3",
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (1.44e-02, 'cm^3/(mol*s)'),
-        n = 4.43,
-        Ea = (3600, 'cal/mol'),
+        A = (9.21e+12, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (9393, 'cal/mol'),
         T0 = (1, 'K'),
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
@@ -1648,6 +1654,7 @@ entry(
     longDesc = 
 u"""
 CBS-QB3
+doi: 10.1016/j.combustflame.2015.10.032
 """,
 )
 
@@ -1656,9 +1663,9 @@ entry(
     label = "CH3CH2NH2_2 + NH2 <=> CH3CHNH2 + NH3",
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (1.28e+00, 'cm^3/(mol*s)'),
-        n = 3.75,
-        Ea = (1000, 'cal/mol'),
+        A = (8.01e+12, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (4493, 'cal/mol'),
         T0 = (1, 'K'),
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
@@ -1668,6 +1675,7 @@ entry(
     longDesc = 
 u"""
 CBS-QB3
+doi: 10.1016/j.combustflame.2015.10.032
 """,
 )
 
@@ -1676,9 +1684,9 @@ entry(
     label = "CH3CH2NH2_3 + NH2 <=> CH3CH2NH + NH3",
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (9.73e-02, 'cm^3/(mol*s)'),
-        n = 4.03,
-        Ea = (1900, 'cal/mol'),
+        A = (2.14e+12, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (5927, 'cal/mol'),
         T0 = (1, 'K'),
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
@@ -1688,6 +1696,7 @@ entry(
     longDesc = 
 u"""
 CBS-QB3
+doi: 10.1016/j.combustflame.2015.10.032
 """,
 )
 
@@ -1709,7 +1718,8 @@ entry(
 u"""
 S. Li, E. Dames, D.F. Davidson, R.K. Hanson
 "High-Temperature Measurements of the Reactions of OH with Ethylamine and Dimethylamine"
-The Journal of Physical Chemistry A, 2014, 118, 70-77, http://dx.doi.org/10.1021/jp411141w
+The Journal of Physical Chemistry A, 2014, 118, 70-77
+doi: 10.1021/jp411141w
 (with geometries from http://dx.doi.org/10.1021/ct7002786 CCSD(T)/6-311++G(2d,2p) single-point calculations)
 """,
 )
@@ -1732,7 +1742,8 @@ entry(
 u"""
 S. Li, E. Dames, D.F. Davidson, R.K. Hanson
 "High-Temperature Measurements of the Reactions of OH with Ethylamine and Dimethylamine"
-The Journal of Physical Chemistry A, 2014, 118, 70-77, http://dx.doi.org/10.1021/jp411141w
+The Journal of Physical Chemistry A, 2014, 118, 70-77
+doi: 10.1021/jp411141w
 (with geometries from http://dx.doi.org/10.1021/ct7002786 CCSD(T)/6-311++G(2d,2p) single-point calculations)
 """,
 )
@@ -1755,7 +1766,8 @@ entry(
 u"""
 S. Li, E. Dames, D.F. Davidson, R.K. Hanson
 "High-Temperature Measurements of the Reactions of OH with Ethylamine and Dimethylamine"
-The Journal of Physical Chemistry A, 2014, 118, 70-77, http://dx.doi.org/10.1021/jp411141w
+The Journal of Physical Chemistry A, 2014, 118, 70-77
+doi: 10.1021/jp411141w
 (with geometries from http://dx.doi.org/10.1021/ct7002786 CCSD(T)/6-311++G(2d,2p) single-point calculations)
 """,
 )
