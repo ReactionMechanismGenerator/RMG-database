@@ -1918,3 +1918,41 @@ Taken from entry: C4H6 + H <=> C4H5 + H2
 """,
 )
 
+
+
+entry(
+    index = 1035,
+    label = "C4H6-4 + CH3 <=> CH4 + C4H5-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (29.41, 'cm^3/(mol*s)'),
+        n = 3.184,
+        Ea = (5.529, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: Butyne + CH3 <=> C4H5 + CH4
+""",
+)
+
+entry(
+    index = 1036,
+    label = "C4H6-4 + H <=> H2 + C4H5-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (8.501e+06, 'cm^3/(mol*s)'),
+        n = 2.027,
+        Ea = (4.069, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: Butyne + H <=> C4H5 + H2
+""",
+)
+
