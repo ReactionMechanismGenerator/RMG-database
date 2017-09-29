@@ -617,3 +617,40 @@ Certain unsaturated versions of this strained tricyclic cause RMG
 to crash.
 """,
 )
+
+entry(
+    label = "[N]=[N]",
+    group =
+"""
+multiplicity [3]
+1 N u1 p1 c0 {2,D}
+2 N u1 p1 c0 {1,D}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbidden after discussion with whgreen.
+We do believe this can be easily generated (e.g., abstracting H from NNH),
+but it should quickly transform into N#N.
+It is not a resonance structure of N2 (or otherwise we'll have N2 participating in all radical familes).
+Since we don't have a good thermo estimation for it, it is forbidden here.
+""",
+)
+
+entry(
+    label = "[O][S]=O",
+    group =
+"""
+multiplicity [3]
+1 O u1 p2 c0 {2,S}
+2 S u1 p1 c0 {1,S} {3,D}
+3 O u0 p2 c0 {2,D}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbidden after discussion with whgreen.
+This species should quickly transform into a closed shell SO2.
+It is not a resonance structure of SO2 (or otherwise we'll have SO2 participating in all radical familes).
+""",
+)
