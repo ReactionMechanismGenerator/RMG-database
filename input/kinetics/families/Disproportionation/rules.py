@@ -25,7 +25,7 @@ entry(
     index = 487,
     label = "O2b;Cmethyl_Csrad",
     kinetics = ArrheniusEP(
-        A = (7.23e+12, 'cm^3/(mol*s)', '*|/', 3),
+        A = (7.23e+12/6, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
         alpha = 0,
         E0 = (15.99, 'kcal/mol'),
@@ -36,22 +36,8 @@ entry(
     shortDesc = u"""[AJ] Miyoshi 2011 (Table 4, Node 'sp') dx.doi.org/10.1021/jp112152n""",
     longDesc = 
 u"""
-[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
-Literature review: i-C3H7 + O2 = HO2 + C3H6
-
-pg. 931-932: Discussion on evaluated data
-
-Entry 42,3 (a): Author appears to be skeptical of the only experimentally reported
-
-value.  Author notes that more recent work on C2H5+O2 suggested that the
-addition and disproportionation rxns may be coupled through a common intermediate.
-For the time being, the author decided to recommend the only experimentally
-reported rate coefficient, only for temperatures above 700K, as they note the
-addition rxn should be the predominant rxn at lower temperatures.
-MRH 30-Aug-2009
-
-Divide the rate constant by 12 to account for symmetry of 2 (O2) and 6 (i-C3H7, carbons #1 and 3).  The final result is 1.05833e+10 cm3/mol/s.
-JDM 31-Mar-2010
+Divide the rate constant by 6 to account for symmetry of 2 (O2) and 3 (CH3 group of i-C3H7). Symmetry of 2 for carbons #1 and #3 already accounted for by Miyoshi.
+ZB 2-Oct-2017
 """,
 )
 
@@ -59,7 +45,7 @@ entry(
     index = 488,
     label = "CH2_triplet;Cmethyl_Csrad",
     kinetics = ArrheniusEP(
-        A = (3.01e+13, 'cm^3/(mol*s)', '*|/', 2),
+        A = (3.01e+13/6, 'cm^3/(mol*s)', '*|/', 2),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -80,6 +66,9 @@ Entry 42,26: No data available at the time.  Author suggests this is a minor cha
 stating the main process should be combination, leading to chemically activated
 i-butyl radical.  Rate coefficient is estimate.
 MRH 30-Aug-2009
+
+Divide the rate constant by 6 to account for symmetry of iC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -87,7 +76,7 @@ entry(
     index = 489,
     label = "H_rad;Cmethyl_Csrad",
     kinetics = ArrheniusEP(
-        A = (3.61e+12, 'cm^3/(mol*s)', '*|/', 2),
+        A = (3.61e+12/6, 'cm^3/(mol*s)', '*|/', 2),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -107,6 +96,9 @@ Entry 42,4 (a): No data available at the time.  Author recommends a rate coeffic
 
 expression equal to double the rate expression of H+C2H5=H2+C2H4.
 MRH 30-Aug-2009
+
+Divide the rate constant by 6 to account for symmetry of iC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -114,7 +106,7 @@ entry(
     index = 490,
     label = "H_rad;Cmethyl_Csrad",
     kinetics = ArrheniusEP(
-        A = (1.81e+12, 'cm^3/(mol*s)', '*|/', 3),
+        A = (1.81e+12/3, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -134,6 +126,9 @@ Entry 17,4 (c): Author recommends rate coefficient from study performed by
 
 Camilleri, et al. (1974)
 MRH 30-Aug-2009
+
+Divide the rate constant by 3 to account for symmetry of CH3 group in C2H5.
+ZB 2-Oct-2017
 """,
 )
 
@@ -141,7 +136,7 @@ entry(
     index = 491,
     label = "C_methyl;Cmethyl_Csrad",
     kinetics = ArrheniusEP(
-        A = (2.19e+14, 'cm^3/(mol*s)', '*|/', 1.1),
+        A = (2.19e+14/6, 'cm^3/(mol*s)', '*|/', 1.1),
         n = -0.68,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -177,6 +172,9 @@ These are the values that now reside in the database.  The online NIST database
 
 (kinetics.nist.gov) agree with what I have calculated.
 MRH 30-Aug-2009
+
+Divide the rate constant by 6 to account for symmetry of iC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -184,7 +182,7 @@ entry(
     index = 492,
     label = "C_rad/H2/Cs;Cmethyl_Csrad",
     kinetics = ArrheniusEP(
-        A = (2.3e+13, 'cm^3/(mol*s)', '*|/', 1.1),
+        A = (2.3e+13/6, 'cm^3/(mol*s)', '*|/', 1.1),
         n = -0.35,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -206,6 +204,9 @@ the combination rxn is computed using the geometric mean rule and is reported as
 2.6x10^-11 * (300/T)^0.35 cm3/molecule/s.  The recommended branching ratio for 
 disproportionation to addition is that reported by Gibian and Corley (1973).
 MRH 30-Aug-2009
+
+Divide the rate constant by 6 to account for symmetry of iC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -213,7 +214,7 @@ entry(
     index = 493,
     label = "C_rad/H2/Cd;Cmethyl_Csrad",
     kinetics = ArrheniusEP(
-        A = (2.29e+13, 'cm^3/(mol*s)', '*|/', 3),
+        A = (2.29e+13/12, 'cm^3/(mol*s)', '*|/', 3),
         n = -0.35,
         alpha = 0,
         E0 = (-0.13, 'kcal/mol'),
@@ -236,6 +237,9 @@ for "alkyl radicals" (Gibian M.J. and Corley R.C.); this leads to disproportiona
 to-addition ratio of 0.2.  The addition rate expression was derived using the geometric
 mean rule for the rxns C3H5+C3H5-->adduct and iC3H7+iC3H7-->adduct.
 MRH 31-Aug-2009
+
+Divide the rate constant by 12 to account for symmetry of iC3H7 (6) and C3H5 (2).
+ZB 2-Oct-2017
 """,
 )
 
@@ -243,7 +247,7 @@ entry(
     index = 494,
     label = "C_rad/H2/O;Cmethyl_Csrad",
     kinetics = ArrheniusEP(
-        A = (2.89e+12, 'cm^3/(mol*s)', '*|/', 5),
+        A = (2.89e+12/6, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -263,6 +267,9 @@ Entry 42,39 (c): No data available at the time.  Author recommends a rate coeffi
 
 of 4.8x10^-12 based on the rate expression of i-C3H7+C2H5=C2H6+C3H6
 MRH 30-Aug-2009
+
+Divide the rate constant by 6 to account for symmetry of iC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -270,7 +277,7 @@ entry(
     index = 495,
     label = "C_rad/H/NonDeC;Cmethyl_Csrad",
     kinetics = ArrheniusEP(
-        A = (2.11e+14, 'cm^3/(mol*s)', '*|/', 2),
+        A = (2.11e+14/6, 'cm^3/(mol*s)', '*|/', 2),
         n = -0.7,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -291,6 +298,9 @@ Entry 42,42 (b): No high-Temperature data available.  Author has fit rate coeffi
 expression for addition rxn to 4 sets of experimental data.  Recommended branching
 ratio agrees well with most of the experimental data.
 MRH 30-Aug-2009
+
+Divide the rate constant by 6 to account for symmetry of iC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -298,7 +308,7 @@ entry(
     index = 496,
     label = "C_rad/Cs3;Cmethyl_Csrad",
     kinetics = ArrheniusEP(
-        A = (2.86e+15, 'cm^3/(mol*s)', '*|/', 1.7),
+        A = (2.86e+15/6, 'cm^3/(mol*s)', '*|/', 1.7),
         n = -1.1,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -320,6 +330,9 @@ mean rule (of the rxns t-C4H9+t-C4H9-->adduct and i-C3H7+i-C3H7-->adduct).  The
 disproportionation rate coefficient expression was then computed using the
 reported branching ratio.
 MRH 30-Aug-2009
+
+Divide the rate constant by 6 to account for symmetry of iC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -327,7 +340,7 @@ entry(
     index = 497,
     label = "Cd_pri_rad;Cmethyl_Csrad",
     kinetics = ArrheniusEP(
-        A = (1.52e+14, 'cm^3/(mol*s)', '*|/', 1.5),
+        A = (1.52e+14/6, 'cm^3/(mol*s)', '*|/', 1.5),
         n = -0.7,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -349,6 +362,9 @@ expression of C2H5+i-C3H7 for the rate expression for C2H3+i-C3H7.  Author also
 recommends the branching ratio of disproportionation to addition of the 
 C2H5+i-C3H7 system for the C2H3+i-C3H7 system.
 MRH 30-Aug-2009
+
+Divide the rate constant by 6 to account for symmetry of iC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -356,7 +372,7 @@ entry(
     index = 498,
     label = "Ct_rad/Ct;Cmethyl_Csrad",
     kinetics = ArrheniusEP(
-        A = (3.61e+12, 'cm^3/(mol*s)', '*|/', 2),
+        A = (3.61e+12/6, 'cm^3/(mol*s)', '*|/', 2),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -376,6 +392,9 @@ Entry 42,21 (a): No data available at the time.  Author recommends a rate coeffi
 
 of 6x10^-12 cm3/molecule/s, a "typical" disproportionation rate.
 MRH 30-Aug-2009
+
+Divide the rate constant by 6 to account for symmetry of iC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -383,7 +402,7 @@ entry(
     index = 499,
     label = "O_pri_rad;Cmethyl_Csrad",
     kinetics = ArrheniusEP(
-        A = (2.41e+13, 'cm^3/(mol*s)', '*|/', 3),
+        A = (2.41e+13/6, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -403,6 +422,9 @@ Entry 42,6: No data available at the time.  Author notes that both a H-atom abst
 
 rxn and an addition + hot adduct decomposition rxn will result in the same products.
 MRH 30-Aug-2009
+
+Divide the rate constant by 6 to account for symmetry of iC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -410,7 +432,7 @@ entry(
     index = 500,
     label = "H_rad;Cmethyl_Orad",
     kinetics = ArrheniusEP(
-        A = (1.81e+13, 'cm^3/(mol*s)', '*|/', 3.16),
+        A = (1.81e+13/3, 'cm^3/(mol*s)', '*|/', 3.16),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -429,6 +451,9 @@ H+CH3O --> H2+CH2O: Authors state that no new data have been reported for this r
 MRH assumes the recommended value comes from a previous review article published
 by authors.  In any case, recommended data fits the reported data well.
 MRH 31-Aug-2009
+
+Divide the rate constant by 3 to account for symmetry of CH3O.
+ZB 2-Oct-2017
 """,
 )
 
@@ -436,7 +461,7 @@ entry(
     index = 501,
     label = "O2b;C/H2/Nd_Csrad",
     kinetics = ArrheniusEP(
-        A = (4.5825e+12, 'cm^3/(mol*s)', '*|/', 3),
+        A = (4.5825e+12/4, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
         alpha = 0,
         E0 = (14.85, 'kcal/mol'),
@@ -447,21 +472,8 @@ entry(
     shortDesc = u"""[AJ] Miyoshi 2011 (Table 4, Node 'ss') dx.doi.org/10.1021/jp112152n""",
     longDesc = 
 u"""
-[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
-Literature review: n-C3H7 + O2 = HO2 + C3H6
-
-pg. 914-915: Discussion on evaluated data
-
-Entry 41,3 (a): The author suggests a rate coefficient based on those reported in the
-
-literature.  The author notes that the data reported in the literature suggests
-the formation of C3H6 is controlled by the addition rxn.  The author further
-notes that it is surprising that p-dependence effects are not observed for
-C3H6 formation.
-MRH 30-Aug-2009
-
-Divide the rate constant by 4 to account for symmetry of 2 (O2) and 2 (n-C3H7, carbon #2).  The final result is 2.25825e+10 cm3/mol/s.
-JDM 31-Mar-2010
+Divide the rate constant by 4 to account for symmetry of 2 (O2) and 2 (n-C3H7, carbon #2). 
+ZB 2-Oct-2017
 """,
 )
 
@@ -469,7 +481,7 @@ entry(
     index = 502,
     label = "CH2_triplet;C/H2/Nd_Csrad",
     kinetics = ArrheniusEP(
-        A = (1.81e+12, 'cm^3/(mol*s)', '*|/', 5),
+        A = (1.81e+12/2, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -491,6 +503,9 @@ expression of the addition rxn.  The author then recommends that the disproporti
 rate coefficient not exceed 10% of the combination rate.  Thus, the rate coefficient
 is an upper limit.
 MRH 30-Aug-2009
+
+Divide the rate constant by 2 to account for symmetry of nC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -513,7 +528,7 @@ entry(
     index = 503,
     label = "H_rad;C/H2/Nd_Csrad",
     kinetics = ArrheniusEP(
-        A = (1.81e+12, 'cm^3/(mol*s)', '*|/', 2),
+        A = (1.81e+12/2, 'cm^3/(mol*s)', '*|/', 2),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -533,6 +548,9 @@ Entry 41,4 (a): No data available at the time.  Author recommends the rate coeff
 
 of the H+C2H5=C2H4+H2 rxn for the H+n-C3H7=C3H6+H2 rxn.
 MRH 30-Aug-2009
+
+Divide the rate constant by 2 to account for symmetry of nC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -540,7 +558,7 @@ entry(
     index = 504,
     label = "C_rad/H/OneDeC;C/H2/Nd_Srad",
     kinetics = ArrheniusEP(
-        A = (7.63e+11, 'cm^3/(mol*s)'),
+        A = (7.63e+11/2, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (-0.55, 'kcal/mol'),
@@ -551,19 +569,8 @@ entry(
     shortDesc = u"""Rough estimate based on 1/10 of #3026 in R_Recombination""",
     longDesc = 
 u"""
-[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
-Literature review.  CH3 + n-C3H7 --> C3H6 + CH4
-
-pg. 920: Discussion on evaluated data
-
-Entry 41,16 (b): No direct measurements for either the addition or disproportionation
-
-rxns.  Author recommends a rate coefficient expression for the addition rxn, based
-on the geometric mean rule of the rxns CH3+CH3=>adduct and n-C3H7+n-C3H7=>adduct.
-Furthermore, author recommends a branching ratio for disproportionation to
-addition of 0.06 (which appears to MRH to be consistent with the experimentally
-measured branching ratios)
-MRH 30-Aug-2009
+Divide the rate constant by 2 to account for symmetry of nC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -571,7 +578,7 @@ entry(
     index = 504,
     label = "C_methyl;C/H2/Nd_Csrad",
     kinetics = ArrheniusEP(
-        A = (1.15e+13, 'cm^3/(mol*s)', '*|/', 1.7),
+        A = (1.15e+13/2, 'cm^3/(mol*s)', '*|/', 1.7),
         n = -0.32,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -595,6 +602,9 @@ Furthermore, author recommends a branching ratio for disproportionation to
 addition of 0.06 (which appears to MRH to be consistent with the experimentally
 measured branching ratios)
 MRH 30-Aug-2009
+
+Divide the rate constant by 2 to account for symmetry of nC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -602,7 +612,7 @@ entry(
     index = 505,
     label = "C_rad/H2/Cs;C/H2/Nd_Csrad",
     kinetics = ArrheniusEP(
-        A = (1.45e+12, 'cm^3/(mol*s)', '*|/', 1.4),
+        A = (1.45e+12/2, 'cm^3/(mol*s)', '*|/', 1.4),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -616,9 +626,9 @@ u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  C2H5 + n-C3H7 --> C3H6 + C2H6
 
-pg. 937-938: Discussion on evaluated data
+pg. 921: Discussion on evaluated data
 
-Entry 42,17 (b): No direct measurements for either the addition or disproportionation
+Entry 41,17 (b): No direct measurements for either the addition or disproportionation
 
 rxns.  Author recommends a rate coefficient expression for the addition rxn, based
 on the geometric mean rule of the rxns C2H5+C2H5=>adduct and n-C3H7+n-C3H7=>adduct.
@@ -626,6 +636,9 @@ Furthermore, author recommends a branching ratio for disproportionation to
 addition of 0.073 (which is an average of the 2 experimentally determined
 branching ratios)
 MRH 30-Aug-2009
+
+Divide the rate constant by 2 to account for symmetry of nC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -633,7 +646,7 @@ entry(
     index = 505,
     label = "C_rad/H/TwoDe;C/H2/Nd_Srad",
     kinetics = ArrheniusEP(
-        A = (1.94e+12, 'cm^3/(mol*s)'),
+        A = (1.94e+12/2, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0.36, 'kcal/mol'),
@@ -644,19 +657,8 @@ entry(
     shortDesc = u"""Rough estimate based on 1/10 of #3027 in R_Recombination""",
     longDesc = 
 u"""
-[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
-Literature review.  C2H5 + n-C3H7 --> C3H6 + C2H6
-
-pg. 937-938: Discussion on evaluated data
-
-Entry 42,17 (b): No direct measurements for either the addition or disproportionation
-
-rxns.  Author recommends a rate coefficient expression for the addition rxn, based
-on the geometric mean rule of the rxns C2H5+C2H5=>adduct and n-C3H7+n-C3H7=>adduct.
-Furthermore, author recommends a branching ratio for disproportionation to
-addition of 0.073 (which is an average of the 2 experimentally determined
-branching ratios)
-MRH 30-Aug-2009
+Divide the rate constant by 2 to account for symmetry of nC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -665,7 +667,7 @@ entry(
     index = 506,
     label = "C_rad/H2/Cd;C/H2/Nd_Csrad",
     kinetics = ArrheniusEP(
-        A = (1.45e+12, 'cm^3/(mol*s)', '*|/', 3),
+        A = (1.45e+12/4, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
         alpha = 0,
         E0 = (-0.13, 'kcal/mol'),
@@ -688,6 +690,9 @@ for "alkyl radicals" (Gibian M.J. and Corley R.C.); this leads to disproportiona
 to-addition ratio of 0.07.  The addition rate expression was derived using the geometric
 mean rule for the rxns C3H5+C3H5-->adduct and nC3H7+nC3H7-->adduct.
 MRH 31-Aug-2009
+
+Divide the rate constant by 4 to account for symmetry of nC3H7 (2) and allyl (2).
+ZB 2-Oct-2017
 """,
 )
 
@@ -710,7 +715,7 @@ entry(
     index = 507,
     label = "C_rad/H2/O;C/H2/Nd_Csrad",
     kinetics = ArrheniusEP(
-        A = (4.82e+11, 'cm^3/(mol*s)', '*|/', 3),
+        A = (4.82e+11/2, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -731,6 +736,9 @@ Entry 41,39 (c): No data available at the time.  Author estimates the rate coeff
 for the addition rxn to be similar to the rate for n-C3H7+n-C3H7=>adduct.  Author
 also estimates the branching ratio of disproportionation to addition as 0.051
 MRH 30-Aug-2009
+
+Divide the rate constant by 2 to account for symmetry of nC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -738,7 +746,7 @@ entry(
     index = 507,
     label = "S_rad/NonDeC;C/H/NdNd_Csrad",
     kinetics = ArrheniusEP(
-        A = (7.63e+11, 'cm^3/(mol*s)'),
+        A = (7.63e+11/2, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (-0.55, 'kcal/mol'),
@@ -749,16 +757,8 @@ entry(
     shortDesc = u"""Rough estimate based on 1/10 of #3026 in R_Recombination""",
     longDesc = 
 u"""
-[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
-Literature review.  CH2OH + n-C3H7 --> C3H6 + CH3OH
-
-pg. 926: Discussion on evaluated data
-
-Entry 41,39 (c): No data available at the time.  Author estimates the rate coefficient
-
-for the addition rxn to be similar to the rate for n-C3H7+n-C3H7=>adduct.  Author
-also estimates the branching ratio of disproportionation to addition as 0.051
-MRH 30-Aug-2009
+Divide the rate constant by 2 to account for symmetry of nC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -767,7 +767,7 @@ entry(
     index = 508,
     label = "C_rad/H/NonDeC;C/H2/Nd_Csrad",
     kinetics = ArrheniusEP(
-        A = (5.13e+13, 'cm^3/(mol*s)', '*|/', 2),
+        A = (5.13e+13/2, 'cm^3/(mol*s)', '*|/', 2),
         n = -0.35,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -790,6 +790,9 @@ for n-C3H7+n-C3H7=>adduct, and the geometric mean rule.  The author recommends
 the branching ratio of disproportionation to addition reported by Gibian and
 Corley (1973).
 MRH 30-Aug-2009
+
+Divide the rate constant by 2 to account for symmetry of nC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -797,7 +800,7 @@ entry(
     index = 509,
     label = "C_rad/Cs3;C/H2/Nd_Csrad",
     kinetics = ArrheniusEP(
-        A = (2.16e+14, 'cm^3/(mol*s)', '*|/', 2),
+        A = (2.16e+14/2, 'cm^3/(mol*s)', '*|/', 2),
         n = -0.75,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -820,6 +823,9 @@ and n-C3H7+n-C3H7-->adduct).  The author then estimates the disproportionation
 rate expression using the branching ratio; the branching ratio is from "analogous
 processes".
 MRH 30-Aug-2009
+
+Divide the rate constant by 2 to account for symmetry of nC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -827,7 +833,7 @@ entry(
     index = 510,
     label = "Cd_pri_rad;C/H2/Nd_Csrad",
     kinetics = ArrheniusEP(
-        A = (1.21e+12, 'cm^3/(mol*s)', '*|/', 3),
+        A = (1.21e+12/2, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -847,6 +853,9 @@ Entry 41,19 (a): No data available at the time.  Author estimates the rate coeff
 
 based on the rxn C2H5+n-C3H7=C3H6=C2H6.
 MRH 30-Aug-2009
+
+Divide the rate constant by 2 to account for symmetry of nC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -873,7 +882,7 @@ entry(
     index = 511,
     label = "Ct_rad/Ct;C/H2/Nd_Csrad",
     kinetics = ArrheniusEP(
-        A = (6.03e+12, 'cm^3/(mol*s)', '*|/', 3),
+        A = (6.03e+12/2, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -894,6 +903,9 @@ Entry 41,21 (a): No data available at the time.  Author notes that the rxn is mo
 than the rxn CH3+n-C3H7=C3H6+CH4 and suggests a rate coefficient 3x larger,
 namely 1.0x10^-11 cm3/molecule/s.
 MRH 30-Aug-2009
+
+Divide the rate constant by 2 to account for symmetry of nC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -919,7 +931,7 @@ entry(
     index = 512,
     label = "O_pri_rad;C/H2/Nd_Csrad",
     kinetics = ArrheniusEP(
-        A = (2.41e+13, 'cm^3/(mol*s)', '*|/', 3),
+        A = (2.41e+13/2, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -939,6 +951,9 @@ Entry 41,6 (a): No data available at the time.  Author estimates rate coefficien
 
 on the rate coefficient for OH+C2H5=C2H4+H2O, namely 4.0x10^-11 cm3/molecule/s.
 MRH 30-Aug-2009
+
+Divide the rate constant by 2 to account for symmetry of nC3H7.
+ZB 2-Oct-2017
 """,
 )
 
@@ -946,7 +961,7 @@ entry(
     index = 513,
     label = "O2b;C/H/NdNd_Csrad",
     kinetics = ArrheniusEP(
-        A = (1.2044e+10, 'cm^3/(mol*s)', '*|/', 5),
+        A = (2.4e+10/2, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -1127,7 +1142,7 @@ entry(
     index = 519,
     label = "C_rad/H2/Cd;C/H/NdNd_Csrad",
     kinetics = ArrheniusEP(
-        A = (7.83e+11, 'cm^3/(mol*s)', '*|/', 3),
+        A = (7.83e+11/2, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
         alpha = 0,
         E0 = (-0.13, 'kcal/mol'),
@@ -1149,6 +1164,9 @@ based on rxn C3H5+C2H5=C2H4+C3H6 (James, D.G.L. and Troughton, G.E.); this leads
 to-addition ratio of 0.04.  The addition rate expression was derived using the geometric
 mean rule for the rxns C3H5+C3H5-->adduct and iC4H9+iC4H9-->adduct.
 MRH 31-Aug-2009
+
+Divide the rate constant by 2 to account for symmetry of allyl
+ZB 2-Oct-2017
 """,
 )
 
@@ -1606,7 +1624,7 @@ entry(
     index = 543,
     label = "C_rad/H2/Cd;O_Csrad",
     kinetics = ArrheniusEP(
-        A = (1.81e+13, 'cm^3/(mol*s)', '*|/', 2.5),
+        A = (1.81e+13/2, 'cm^3/(mol*s)', '*|/', 2.5),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -1628,6 +1646,9 @@ reactants will form 3-butene-1-ol which should decompose under combustion condit
 to form C3H6 + CH2O (same products).  The author therefore recommends a rate
 coefficient of 3x10^-11 cm3/molecule/s.
 MRH 31-Aug-2009
+
+Divide the rate constant by 2 to account for symmetry of allyl.
+ZB 2-Oct-2017
 """,
 )
 
@@ -2154,7 +2175,7 @@ entry(
     index = 528,
     label = "C_rad/H2/Cd;Cdpri_Csrad",
     kinetics = ArrheniusEP(
-        A = (8.43e+10, 'cm^3/(mol*s)', '*|/', 2.5),
+        A = (8.43e+10/2, 'cm^3/(mol*s)', '*|/', 2.5),
         n = 0,
         alpha = 0,
         E0 = (6, 'kcal/mol'),
@@ -2176,6 +2197,9 @@ determined disproportionation-to-addition ratio of 0.008 (James and Kambanis)
 and the addition rate rule (C3H5+C3H5-->adduct) calculated based on the results
 of Tulloch et al.
 MRH 31-Aug-2009
+
+Divide the rate constant by 2 to account for symmetry of allyl.
+ZB 2-Oct-2017
 """,
 )
 
