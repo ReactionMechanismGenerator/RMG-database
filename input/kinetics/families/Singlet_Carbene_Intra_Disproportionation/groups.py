@@ -25,7 +25,7 @@ entry(
     label = "singletcarbene_CH",
     group=
     """
-    1 *1 C u0 p1 {2,[S,D]}
+    1 *1 C u0 p1 c0 {2,[S,D]}
     2 *2 C u0 {1,[S,D]} {3,S}
     3 *3 H u0 {2,S}
     """,
@@ -37,7 +37,7 @@ entry(
     label = "singletcarbene",
     group =
 """
-1 *1 C u0 p1
+1 *1 C u0 p1 c0
 """,
     kinetics = None,
     shortDesc = "",
@@ -73,7 +73,7 @@ entry(
 3 C u0 {2,S} {4,D}
 4 C u0 {3,D} {6,S}
 5 C u0 {2,D}
-6 *1 C u0 p1 {1,S} {4,S}
+6 *1 C u0 p1 c0 {1,S} {4,S}
 7 *3 H u0 {1,S}
 """,
     kinetics = None,
@@ -94,7 +94,7 @@ entry(
 3  C u0 {2,D} {4,S}
 4  C u0 {3,S} {5,D}
 5  C u0 {4,D} {6,S}
-6  *1 C u0 p1 {1,S} {5,S}
+6  *1 C u0 p1 c0 {1,S} {5,S}
 7 *3 H u0 {1,S}
 """,
     kinetics = None,
@@ -110,7 +110,7 @@ entry(
     label = "CsJ2-C",
     group =
 """
-1 *1 C u0 p1 {2,S}
+1 *1 C u0 p1 c0 {2,S}
 2 *2 C u0 {1,S} {3,S}
 3 *3 H u0 {2,S}
 """,
@@ -127,7 +127,7 @@ entry(
     label = "CdJ2=C",
     group =
 """
-1 *1 C u0 p1 {2,D}
+1 *1 C u0 p1 c0 {2,D}
 2 *2 C u0 {1,D} {3,S}
 3 *3 H u0 {2,S}
 """,
@@ -144,7 +144,7 @@ entry(
     label = "CdJ2",
     group =
 """
-1 *1 Cd u0 p1
+1 *1 Cd u0 p1 c0
 """,
     kinetics = None,
     shortDesc = "",
@@ -159,7 +159,7 @@ entry(
     label = "CsJ2H",
     group =
 """
-1 *1 Cs u0 p1 {2,S}
+1 *1 Cs u0 p1 c0 {2,S}
 2 H u0 {1,S}
 """,
     kinetics = None,
@@ -175,7 +175,7 @@ entry(
     label = "CsJ2C",
     group =
 """
-1 *1 Cs u0 p1 {2,S}
+1 *1 Cs u0 p1 c0 {2,S}
 2 C u0 {1,S}
 """,
     kinetics = None,
@@ -191,7 +191,7 @@ entry(
     label = "CsJ2(CsC)",
     group =
 """
-1 *1 Cs u0 p1 {2,S}
+1 *1 Cs u0 p1 c0 {2,S}
 2 Cs u0 {1,S} {3,S}
 3 C u0 {2,S}
 """,
@@ -208,7 +208,7 @@ entry(
     label = "CsJ2(C=C)",
     group =
 """
-1 *1 Cs u0 p1 {2,S}
+1 *1 Cs u0 p1 c0 {2,S}
 2 Cd u0 {1,S} {3,D}
 3 C u0 {2,D}
 """,
