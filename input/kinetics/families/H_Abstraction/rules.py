@@ -6065,20 +6065,20 @@ entry(
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
-entry(
-    index = 2007,
-    label = "C/H3/Cs;InChI=1S/NO3/c2-1(3)4",
-    kinetics = ArrheniusEP(
-        A = (2.03e-12, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (8.31, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
-)
+# entry(
+#     index = 2007,
+#     label = "C/H3/Cs;InChI=1S/NO3/c2-1(3)4",
+#     kinetics = ArrheniusEP(
+#         A = (2.03e-12, 'cm^3/(mol*s)'),
+#         n = 0,
+#         alpha = 0,
+#         E0 = (8.31, 'kcal/mol'),
+#         Tmin = (300, 'K'),
+#         Tmax = (2000, 'K'),
+#     ),
+#     rank = 1,
+#     shortDesc = u"""Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
+# )
 
 entry(
     index = 2008,
