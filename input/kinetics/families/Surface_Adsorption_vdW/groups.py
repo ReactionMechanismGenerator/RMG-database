@@ -26,7 +26,7 @@ recipe(actions=[
 entry(
     index = 1,
     label = "Adsorbate",
-    group = 
+    group =
 """
 1 *1 R u0
 """,
@@ -36,7 +36,7 @@ entry(
 entry(
     index = 2,
     label="VacantSite",
-    group = 
+    group =
 """
 1 *2 Xv u0
 """,
@@ -53,3 +53,15 @@ L1: VacantSite
 """
 )
 
+
+forbidden(
+    label = "radical",
+    group =
+"""
+1 R u[1,2,3]
+""",
+    shortDesc = u"""Radicals not allowed""",
+    longDesc =
+u"""
+""",
+)
