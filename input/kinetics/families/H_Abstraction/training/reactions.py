@@ -1988,7 +1988,7 @@ J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 
 entry(
     index = 1013,
-    label = "C3H8 + SH <=> CH2CH2CH3 + H2S",
+    label = "C3H8b + SH <=> CH2CH2CH3 + H2S",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (5.12e+02, 'cm^3/(mol*s)'),
@@ -2620,7 +2620,7 @@ doi: 10.1021/acs.jpca.6b12890
 
 entry(
     index = 1059,
-    label = "NH2 + C3H8 <=> NH3 + CH2CH2CH3",
+    label = "NH2 + C3H8b <=> NH3 + CH2CH2CH3",
     degeneracy = 6,
     kinetics = Arrhenius(A=(1.37e+13, 'cm^3/(mol*s)'), n=0, Ea=(10000, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
     rank = 3,
