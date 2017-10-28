@@ -2028,7 +2028,7 @@ J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 
 entry(
     index = 1015,
-    label = "C4H10 + SH <=> CH3CHCH2CH3 + H2S",
+    label = "C4H10b + SH <=> CH3CHCH2CH3 + H2S",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (1.94e+04, 'cm^3/(mol*s)'),
