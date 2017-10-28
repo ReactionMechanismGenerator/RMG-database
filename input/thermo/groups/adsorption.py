@@ -54,14 +54,14 @@ entry(
     label="R*vdW",
     group=
 """
-1 R u0 px 
+1 R u0 px
 2 X u0 p0
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'cal/(mol*K)'),
-        H298=(-10.0, 'kcal/mol'),
-        S298=(-4.0, 'cal/(mol*K)'),
+        H298=(-5.0, 'kcal/mol'),
+        S298=(-15.0, 'cal/(mol*K)'),
         ),
     shortDesc=u"""Anything physisorbed by a van der Waals bond""",
     longDesc =  u"""
@@ -71,6 +71,9 @@ entry(
 Consider the Deutschmann mechanism rate constants for CH4, CO2, and H2O.
 The average binding enthalpy is 41.3 kJ/mol, so call it 10 kcal/mol.
 The average loss in entropy is -16.7 J/mol-K, so call it -4. cal/mol-K
+
+This binds too strongly and won't desorb until ~2500K, so we're trying
+5 kcal/mol and -15 cal/mol/K
 """,
 )
 
@@ -195,7 +198,7 @@ entry(
 3 R u0 p0 {1,S}
 4 R u0 p0 {1,S}
 5 R u0 p0 {1,S}
-6 X u0 p0 
+6 X u0 p0
 """,
     thermo=ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -219,7 +222,7 @@ entry(
 1 O u0 p2 {2,S} {3,S}
 2 R u0 p0 {1,S}
 3 R u0 p0 {1,S}
-4 X u0 p0 
+4 X u0 p0
 """,
     thermo=ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -465,6 +468,6 @@ L1: R*
         L3: (CR4)*
         L3: (OR2)*
            L4: (CR3OR)*
-        
+
 """
 )
