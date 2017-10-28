@@ -73,7 +73,7 @@ The average binding enthalpy is 41.3 kJ/mol, so call it 10 kcal/mol.
 The average loss in entropy is -16.7 J/mol-K, so call it -4. cal/mol-K
 
 This binds too strongly and won't desorb until ~2500K, so we're trying
-2 kcal/mol and -15 cal/mol/K
+-2 kcal/mol and -15 cal/mol/K
 """,
 )
 
@@ -200,14 +200,9 @@ entry(
 5 R u0 p0 {1,S}
 6 X u0 p0
 """,
-    thermo=ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata=([0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'cal/(mol*K)'),
-        H298=(-8.9, 'kcal/mol'),
-        S298=(-10.4, 'cal/(mol*K)'),
-    ),
+    thermo=None,
     shortDesc = u"""CR4 physisorbed on nickel""",
-    longDesc =  u"""taken from Delgado, ratio of rate constants for R11/R12
+    longDesc =  u"""
  R2-C-R2
     :
 ***********
@@ -224,14 +219,9 @@ entry(
 3 R u0 p0 {1,S}
 4 X u0 p0
 """,
-    thermo=ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata=([0.0, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00], 'cal/(mol*K)'),
-        H298=(-14.5, 'kcal/mol'),
-        S298=(-0.7, 'cal/(mol*K)'),
-    ),
+    thermo=None,
     shortDesc = u"""R2O physisorbed on nickel""",
-    longDesc =  u"""Estimated Delgado mechanism for ratio of R5/R6
+    longDesc =  u"""
   R-O-R
     :
 ***********
@@ -409,14 +399,9 @@ entry(
 6 R u0 p0 {2,S}
 7 X u0 p0
 """,
-    thermo=ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata=([0.98, 0.99, 0.99, 0.99, 0.99, 0.99, 0.99], 'cal/(mol*K)'),
-        H298=(-0.69, 'kcal/mol'),
-        S298=(-17.57, 'cal/(mol*K)'),
-    ),
+    thermo=None,
     shortDesc = u"""CR3OR physisorbed on nickel: SUBSET OF O*R2""",
-    longDesc =  u"""Estimated via CFG-TiC
+    longDesc =  u"""
    CR3
    |
    O-R
