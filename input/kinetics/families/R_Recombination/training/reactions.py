@@ -61,7 +61,7 @@ Method CBS-QB3 w/ 1-d Hindered rotor corrections
 entry(
     index = 4,
     label = "1-hydroxybutyl + O2 <=> 1-hydroxybutylO2",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (8.36e+12, 'cm^3/(mol*s)'),
         n = -0.085,
@@ -146,7 +146,7 @@ Analytical technique: Pressure measurement
 entry(
     index = 7,
     label = "NO2 + NO3-2 <=> N2O5",
-    degeneracy = 1,
+    degeneracy = 3,
     kinetics = Arrhenius(
         A = (366000, 'm^3/(mol*s)', '+|-', 57700),
         n = 0.2,
@@ -182,7 +182,7 @@ Theoretical modeling of k0, k and Fc=0.38 exp(-T/4900K) led to consistency with 
 entry(
     index = 10,
     label = "C5H5 + C2H5 <=> C7H10",
-    degeneracy = 1,
+    degeneracy = 5,
     kinetics = Arrhenius(
         A = (8.34e+15, 'cm^3/(mol*s)'),
         n = -0.7,

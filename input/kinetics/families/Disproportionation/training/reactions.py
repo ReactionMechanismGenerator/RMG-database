@@ -10,6 +10,7 @@ group additivity values in this file.
 entry(
     index = 1,
     label = "C2H + CH3O <=> C2H2 + CH2O",
+    degeneracy = 3,
     kinetics = Arrhenius(
         A = (3.61e+13, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
@@ -39,6 +40,7 @@ MRH 30-Aug-2009
 entry(
     index = 2,
     label = "C2H3 + O2 = C2H2_1 + HO2",
+    degeneracy = 4,
     kinetics = Arrhenius(
         A = (1.04E+16, 'cm^3/(mol*s)','*|/',5),
         n = -1.26,
@@ -60,7 +62,7 @@ Derived from fitting to a complex mechanism for C2H3 + O2 = C2H2 + HO2
 entry(
     index = 3,
     label = "N2H3 + NO2 <=> N2H2 + HONO",
-    degeneracy = 1,
+    degeneracy = 4,
     kinetics = Arrhenius(A=(2.40e+55, 'cm^3/(mol*s)'), n=-16.7, Ea=(-14397, 'cal/mol'), T0=(1, 'K'), Tmin = (800, 'K'), Tmax = (3000, 'K')),
     rank = 2,
     shortDesc = u"""""",
