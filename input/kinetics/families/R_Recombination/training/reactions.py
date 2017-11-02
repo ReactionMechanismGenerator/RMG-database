@@ -271,68 +271,68 @@ doi: 10.1039/B515914H
 """,
 )
 
-entry(
-    index = 30,
-    label = "N2H4 <=> NH2 + NH2",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.57e+21, 's^-1'), n=-1.04, Ea=(66565, 'cal/mol'), T0=(1, 'K'), Tmin = (700, 'K'), Tmax = (2000, 'K')),
-    rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
-    longDesc = 
-u"""
-P. Raghunath, N.T. Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6
-p. 264
-calculations done at the RCCSD(T)/6-311þG(3df,2p)//B3LYP/6-311G(d,p) level of theoty
-Only High Pressure Limit rate was taken; low limit and 1 atm rate are also available from the same source
-""",
-)
-
-entry(
-    index = 31,
-    label = "N2H4 <=> N2H3 + H",
-    degeneracy = 4,
-    kinetics = Arrhenius(A=(1.57e+21, 's^-1'), n=-1.04, Ea=(66565, 'cal/mol'), T0=(1, 'K'), Tmin = (700, 'K'), Tmax = (2000, 'K')),
-    rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
-    longDesc = 
-u"""
-P. Raghunath, N.T. Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6
-p. 264
-calculations done at the RCCSD(T)/6-311þG(3df,2p)//B3LYP/6-311G(d,p) level of theoty
-Only High Pressure Limit rate was taken; low limit and 1 atm rate are also available from the same source
-""",
-)
-
-entry(
-    index = 32,
-    label = "ONONO2 <=> NO + NO3-2",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(2.41e+21, 's^-1'), n=-1.76, Ea=(31535, 'cal/mol'), T0=(1, 'K'), Tmin = (700, 'K'), Tmax = (2000, 'K')),
-    rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
-    longDesc = 
-u"""
-P. Raghunath, N.T. Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6
-p. 265
-calculations done at the RCCSD(T)/6-311þG(3df,2p)//B3LYP/6-311G(d,p) level of theoty
-Only High Pressure Limit rate was taken; low limit and 1 atm rate are also available from the same source
-""",
-)
-
-entry(
-    index = 33,
-    label = "NH2NHNO <=> N2H3 + NO",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(6.24e+15, 's^-1'), n=-0.15, Ea=(35611, 'cal/mol'), T0=(1, 'K'), Tmin = (250, 'K'), Tmax = (1500, 'K')),
-    rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
-    longDesc = 
-u"""
-P. Raghunath, N.T. Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6
-p. 274
-calculations done at the CCSD(T)/6-311þG(3df,2p) level of theoty
-""",
-)
+# entry(
+#     index = 30,
+#     label = "N2H4 <=> NH2 + NH2",
+#     degeneracy = 1,
+#     kinetics = Arrhenius(A=(1.57e+21, 's^-1'), n=-1.04, Ea=(66565, 'cal/mol'), T0=(1, 'K'), Tmin = (700, 'K'), Tmax = (2000, 'K')),
+#     rank = 2,
+#     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+#     longDesc =
+# u"""
+# P. Raghunath, N.T. Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6
+# p. 264
+# calculations done at the RCCSD(T)/6-311þG(3df,2p)//B3LYP/6-311G(d,p) level of theoty
+# Only High Pressure Limit rate was taken; low limit and 1 atm rate are also available from the same source
+# """,
+# )
+#
+# entry(
+#     index = 31,
+#     label = "N2H4 <=> N2H3 + H",
+#     degeneracy = 4,
+#     kinetics = Arrhenius(A=(1.57e+21, 's^-1'), n=-1.04, Ea=(66565, 'cal/mol'), T0=(1, 'K'), Tmin = (700, 'K'), Tmax = (2000, 'K')),
+#     rank = 2,
+#     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+#     longDesc =
+# u"""
+# P. Raghunath, N.T. Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6
+# p. 264
+# calculations done at the RCCSD(T)/6-311þG(3df,2p)//B3LYP/6-311G(d,p) level of theoty
+# Only High Pressure Limit rate was taken; low limit and 1 atm rate are also available from the same source
+# """,
+# )
+#
+# entry(
+#     index = 32,
+#     label = "ONONO2 <=> NO + NO3-2",
+#     degeneracy = 1,
+#     kinetics = Arrhenius(A=(2.41e+21, 's^-1'), n=-1.76, Ea=(31535, 'cal/mol'), T0=(1, 'K'), Tmin = (700, 'K'), Tmax = (2000, 'K')),
+#     rank = 2,
+#     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+#     longDesc =
+# u"""
+# P. Raghunath, N.T. Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6
+# p. 265
+# calculations done at the RCCSD(T)/6-311þG(3df,2p)//B3LYP/6-311G(d,p) level of theoty
+# Only High Pressure Limit rate was taken; low limit and 1 atm rate are also available from the same source
+# """,
+# )
+#
+# entry(
+#     index = 33,
+#     label = "NH2NHNO <=> N2H3 + NO",
+#     degeneracy = 1,
+#     kinetics = Arrhenius(A=(6.24e+15, 's^-1'), n=-0.15, Ea=(35611, 'cal/mol'), T0=(1, 'K'), Tmin = (250, 'K'), Tmax = (1500, 'K')),
+#     rank = 2,
+#     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+#     longDesc =
+# u"""
+# P. Raghunath, N.T. Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6
+# p. 274
+# calculations done at the CCSD(T)/6-311þG(3df,2p) level of theoty
+# """,
+# )
 
 entry(
     index = 34,
