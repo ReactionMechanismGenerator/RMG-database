@@ -17217,6 +17217,20 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 1075,
+    label = "CdsJ-(CdCb)H",
+    group = 
+"""
+1 *3 Cd u1 {2,D} {3,S}
+2    Cd u0 {1,D} {4,S} {5,S}
+3    H u0 {1,S}
+4    Cb u0 {2,S}
+5    R u0 {2,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: R_R
@@ -18359,6 +18373,7 @@ L1: YJ
         L3: CdsJ=Cdd
         L3: CdsJ
             L4: CdsJ-H
+            	L5: CdsJ-(CdCb)H
             L4: CdsJ-Cs
             L4: CdsJ-Ct
             L4: CdsJ-Cb
