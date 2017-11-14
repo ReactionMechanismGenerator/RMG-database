@@ -1320,6 +1320,24 @@ entry(
 )
 
 entry(
+    index = 1078,
+    label = "Ca_Cds-CdCdCdCdCd_cycle",
+    group = 
+"""
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Cd  u0 {2,S} {6,D}
+5    Cd  u0 {2,S} {7,D} {9,S}
+6    Cd  u0 {4,D} {8,S}
+7    C   u0 {5,D}
+8    Cd  u0 {6,S} {9,D}
+9    Cd  u0 {8,D} {5,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 89,
     label = "Ca_Cds-CdC=S",
     group = 
@@ -3137,6 +3155,24 @@ entry(
 )
 
 entry(
+    index = 1076,
+    label = "Cds-HH_Cds-CdCbCbCdCdCd_cycle",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cb u0 {2,S} {8,B}
+7    Cd u0 {5,D} {8,S}
+8    Cb u0 {7,S} {6,B}
+""",
+    kinetics = None,
+)
+
+
+entry(
     index = 212,
     label = "Cds-HH_Cds-CdCO",
     group = 
@@ -3210,6 +3246,27 @@ entry(
 6    Cd u0 {2,S} {8,D}
 7    C  u0 {5,D}
 8    C  u0 {6,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1080,
+    label = "Cds-HH_Cds-CdCd_cyc",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cd u0 {2,S} {8,D}
+7    Cd u0 {5,D} {9,S}
+8    Cd u0 {6,D} {12,S}
+9    Cd u0 {7,S} {10,D}
+10   Cd u0 {9,D} {11,S}
+11   Cd u0 {10,S} {12,D}
+12   Cd u0 {11,D} {8,S} 
 """,
     kinetics = None,
 )
@@ -6053,6 +6110,23 @@ entry(
 )
 
 entry(
+    index = 1079,
+    label = "Cds-CbH_Cds-Cd(CdCb)H",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Cd u0 {6,D} {8,S}
+8    Cb u0 {7,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 403,
     label = "Cds-CbH_Cds-C=SH",
     group = 
@@ -6842,6 +6916,40 @@ entry(
 )
 
 entry(
+    index = 1077,
+    label = "Cds-CdH_Cds-Cb(Cb)H_cycle",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D} {8,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cb u0 {2,S} {8,B}
+7    C  u0 {3,D}
+8    Cb u0 {6,B} {3,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1075,
+    label = "Cds(CdCb)-CdH_Cds-CbH_cycle",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cb u0 {2,S} {8,B}
+7    Cd u0 {3,D} {8,S}
+8    Cb u0 {7,S} {6,B}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 454,
     label = "Cds-CdH_Cds-COH",
     group = 
@@ -7406,6 +7514,46 @@ entry(
 7    C  u0 {3,D}
 8    C  u0 {5,D}
 9    C  u0 {6,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1081,
+    label = "Cds-CdH_Cds-CdCd_cyc6",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    Cd u0 {2,S} {9,D} {11,S}
+7    C  u0 {3,D}
+8    Cd u0 {5,D} {10,S}
+9    C  u0 {6,D} 
+10   Cd u0 {8,S} {11,D}
+11   Cd u0 {10,D} {6,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1082,
+    label = "Cds-CdH_Cds-CdCd_cyc6_cyc5",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D} {9,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    Cd u0 {2,S} {9,D} {11,S}
+7    C  u0 {3,D}
+8    Cd u0 {5,D} {10,S}
+9    C  u0 {6,D} {3,S}
+10   Cd u0 {8,S} {11,D}
+11   Cd u0 {10,D} {6,S}
 """,
     kinetics = None,
 )
@@ -17385,6 +17533,7 @@ L1: R_R
                     L6: Ca_Cds-CbC=S
                     L6: Ca_Cds-COC=S
                     L6: Ca_Cds-CdCd
+			L7: Ca_Cds-CdCdCdCdCd_cycle
                     L6: Ca_Cds-CdC=S
                     L6: Ca_Cds-C=SC=S
             L4: Ck_Cds
@@ -17514,11 +17663,13 @@ L1: R_R
                     L6: Cds-HH_Cds-COCO
                     L6: Cds-HH_Cds-CdCt
                     L6: Cds-HH_Cds-CdCb
+			L7: Cds-HH_Cds-CdCbCbCdCdCd_cycle
                     L6: Cds-HH_Cds-CdCO
                     L6: Cds-HH_Cds-CtC=S
                     L6: Cds-HH_Cds-CbC=S
                     L6: Cds-HH_Cds-COC=S
                     L6: Cds-HH_Cds-CdCd
+			L7: Cds-HH_Cds-CdCd_cyc
                     L6: Cds-HH_Cds-CdC=S
                     L6: Cds-HH_Cds-C=SC=S
             L4: Cds-CsH_Cds
@@ -17712,6 +17863,7 @@ L1: R_R
                                 L9: Cds-CbH_Cds-CbH
                                 L9: Cds-CbH_Cds-COH
                                 L9: Cds-CbH_Cds-CdH
+				    L10:Cds-CbH_Cds-Cd(CdCb)H
                                 L9: Cds-CbH_Cds-C=SH
                             L8: Cds-CbH_Cds-OneDeCs
                                 L9: Cds-CbH_Cds-CtCs
@@ -17765,6 +17917,8 @@ L1: R_R
                             L8: Cds-CdH_Cds-OneDeH
                                 L9: Cds-CdH_Cds-CtH
                                 L9: Cds-CdH_Cds-CbH
+				    L10: Cds(CdCb)-CdH_Cds-CbH_cycle
+				    L10: Cds-CdH_Cds-Cb(Cb)H_cycle
                                 L9: Cds-CdH_Cds-COH
                                 L9: Cds-CdH_Cds-CdH
                                     L10: Cds-CdH_Cds-CdH_cyc5_1
@@ -17802,6 +17956,8 @@ L1: R_R
                                 L9: Cds-CdH_Cds-CbC=S
                                 L9: Cds-CdH_Cds-COC=S
                                 L9: Cds-CdH_Cds-CdCd
+				    L10: Cds-CdH_Cds-CdCd_cyc6
+					L11: Cds-CdH_Cds-CdCd_cyc6_cyc5
                                 L9: Cds-CdH_Cds-CdC=S
                                 L9: Cds-CdH_Cds-C=SC=S
                     L6: Cds-C=SH_Cds
