@@ -354,7 +354,7 @@ entry(
 
 entry(
     index = 39,
-    label = "pdt14 <=> pdt33",
+    label = "pdt16 <=> pdt33",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.18e+07, 's^-1'), n=1.8, Ea=(15.8, 'kcal/mol'), T0=(1, 'K')),
     longDesc = 
