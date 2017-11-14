@@ -17341,24 +17341,6 @@ entry(
 )
 
 entry(
-    index = 1072,
-    label = "Cb-benzofuranNde_Cb-benzofuranDe",
-    group =
-"""
-1 *1 Cd u0 {2,D} {3,S} {7,S}
-2 *2 Cd u0 {1,D} {4,S} {8,S}
-3 Cd u0 {1,S} {5,D}
-4 Cd u0 {2,S} {6,D}
-5 Cd u0 {3,D} {6,S}
-6 Cd u0 {4,D} {5,S}
-7 O u0 {1,S} {9,S}
-8 C u0 {2,S} {9,D}
-9 C u0 {7,S} {8,D}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 1073,
     label = "Ct-O_Ct-Cb",
     group =
