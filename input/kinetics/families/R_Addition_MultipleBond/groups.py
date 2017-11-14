@@ -17192,6 +17192,31 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 1073,
+    label = "Ct-O_Ct-Cb",
+    group =
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    O  u0 {1,S}
+4    Cb u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1074,
+    label = "Ct-O_Ct",
+    group =
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T}
+3    O  u0 {1,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: R_R
@@ -18086,7 +18111,7 @@ L1: R_R
                 L5: Ct-H_Ct-Cb
                 L5: Ct-H_Ct-CO
                 L5: Ct-H_Ct-Cd
-		   L6: Ct-H_Ct-Cd-C-Cb
+                    L6: Ct-H_Ct-Cd-C-Cb
                 L5: Ct-H_Ct-C=S
             L4: Ct-Cs_Ct-De
                 L5: Ct-Cs_Ct-Ct
@@ -18114,6 +18139,8 @@ L1: R_R
                 L5: Ct-De_Ct-Cb
                     L6: Ct-Cd_Ct-Cb
                 L5: Ct-Cb_Ct-Cd
+            L4: Ct-O_Ct
+                L5: Ct-O_Ct-Cb
         L3: Ct_Nt
             L4: Ct_N3t
                 L5: Ct-H_N3t
