@@ -479,3 +479,39 @@ Certain unsaturated versions of this strained tricyclic cause RMG
 to crash.
 """,
 )
+
+entry(
+    label = "CO_birad",
+    group =
+"""
+multiplicity [3]
+1 C u2 p0 c0 {2,D}
+2 O u0 p2 c0 {1,D}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbidden after discussion with whgreen.
+This species should quickly transform into a closed shell [C-]#[O+].
+We don't need it as a resonance structure of carbon monoxide for reactivity since carbon monoxide has its designated
+reaction families (CO_Disprop, R_Add_COm).
+""",
+)
+
+entry(
+    label = "CS_birad",
+    group =
+"""
+multiplicity [3]
+1 C u2 p0 c0 {2,D}
+2 S u0 p2 c0 {1,D}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbidden after discussion with whgreen.
+This species should quickly transform into a closed shell [C-]#[S+] similar to the carbon monoxide case above.
+We don't need it as a resonance structure of carbon monsulfide for reactivity since carbon monsulfide has its designated
+reaction families (CO_Disprop [also deals with CS], R_Add_CSm).
+""",
+)
