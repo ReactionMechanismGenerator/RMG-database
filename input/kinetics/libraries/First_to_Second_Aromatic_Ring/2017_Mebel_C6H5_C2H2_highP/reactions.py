@@ -15,10 +15,6 @@ entry(
     label = "W1 <=> P1 + H",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.323e+10, 's^-1'), n=1.103, Ea=(38.251, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -26,10 +22,6 @@ entry(
     label = "W1 <=> W3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.445e+06, 's^-1'), n=1.735, Ea=(23.162, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -42,9 +34,5 @@ entry(
         Ea = (3.448, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 

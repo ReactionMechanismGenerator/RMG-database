@@ -19,10 +19,6 @@ entry(
         Ea = (0.42, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -30,10 +26,6 @@ entry(
     label = "C6H9 <=> C6H8 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.29e+06, 's^-1'), n=2.017, Ea=(40.664, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -41,10 +33,6 @@ entry(
     label = "C6H9 <=> c6-C6H9",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.041e+08, 's^-1'), n=0.7, Ea=(20.246, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -52,10 +40,6 @@ entry(
     label = "C6H9 <=> c5-C6H9",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.249e+08, 's^-1'), n=0.846, Ea=(19.298, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -63,10 +47,6 @@ entry(
     label = "c5-C6H9 <=> H + c5-C6H8",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.972e+07, 's^-1'), n=1.802, Ea=(32.304, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -74,10 +54,6 @@ entry(
     label = "c6-C6H9 <=> H + C6H8-c6-13",
     degeneracy = 1,
     kinetics = Arrhenius(A=(7.487e+08, 's^-1'), n=1.395, Ea=(33.132, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -85,10 +61,6 @@ entry(
     label = "c6-C6H9 <=> H + C6H8-c6-14",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.097e+09, 's^-1'), n=1.299, Ea=(33.394, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -96,10 +68,6 @@ entry(
     label = "c5-C6H9 <=> c5-C6H9-3",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.265e-07, 's^-1'), n=5.639, Ea=(24.541, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -107,10 +75,6 @@ entry(
     label = "c5-C6H9 <=> c5-C6H9-2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.537e-16, 's^-1'), n=8.138, Ea=(14.583, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -118,10 +82,6 @@ entry(
     label = "c5-C6H9-2 <=> C5H6 + CH3",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.961e+11, 's^-1'), n=0.717, Ea=(38.962, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -129,10 +89,6 @@ entry(
     label = "c5-C6H9-3 <=> c5-C6H9-2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.239e-08, 's^-1'), n=6.224, Ea=(24.481, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -145,10 +101,6 @@ entry(
         Ea = (6.579, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -161,9 +113,5 @@ entry(
         Ea = (4.902, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 

@@ -21,10 +21,6 @@ entry(
     label = "W1_2 <=> W5",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.75e+11, 's^-1'), n=0.633, Ea=(46.955, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -32,10 +28,6 @@ entry(
     label = "W1_2 <=> W8_9",
     degeneracy = 1,
     kinetics = Arrhenius(A=(401300, 's^-1'), n=2.064, Ea=(37.093, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -43,10 +35,6 @@ entry(
     label = "W1_2 <=> W31",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.66e+11, 's^-1'), n=0.412, Ea=(27.805, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -54,10 +42,6 @@ entry(
     label = "W3_4 <=> W13",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.915e+06, 's^-1'), n=1.697, Ea=(19.915, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -65,10 +49,6 @@ entry(
     label = "W3_4 <=> W31",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.454e+11, 's^-1'), n=0.447, Ea=(24.536, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -76,10 +56,6 @@ entry(
     label = "W3_4 <=> W6",
     degeneracy = 1,
     kinetics = Arrhenius(A=(240, 's^-1'), n=2.932, Ea=(30.907, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -87,10 +63,6 @@ entry(
     label = "W5 <=> W8_9",
     degeneracy = 1,
     kinetics = Arrhenius(A=(53440, 's^-1'), n=2.305, Ea=(38.286, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -98,10 +70,6 @@ entry(
     label = "W6 <=> W13",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.166e+07, 's^-1'), n=1.625, Ea=(37.367, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -109,10 +77,6 @@ entry(
     label = "W6 <=> W29",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.185e+11, 's^-1'), n=0.586, Ea=(37.614, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -120,10 +84,6 @@ entry(
     label = "W8_9 <=> W20",
     degeneracy = 1,
     kinetics = Arrhenius(A=(420000, 's^-1'), n=2.094, Ea=(61.014, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -131,10 +91,6 @@ entry(
     label = "W8_9 <=> W11",
     degeneracy = 1,
     kinetics = Arrhenius(A=(7.5e+08, 's^-1'), n=0.835, Ea=(58.13, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -142,10 +98,6 @@ entry(
     label = "W8_9 <=> W15",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.63e+12, 's^-1'), n=-0.455, Ea=(30.695, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -153,10 +105,6 @@ entry(
     label = "W8_9 <=> W21",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.45e+06, 's^-1'), n=1.572, Ea=(60.563, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -164,10 +112,6 @@ entry(
     label = "W11 <=> W21",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.286e+08, 's^-1'), n=1.323, Ea=(24.182, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -175,10 +119,6 @@ entry(
     label = "W11 <=> W29",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.241e+10, 's^-1'), n=0.754, Ea=(22.335, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -186,10 +126,6 @@ entry(
     label = "W11 <=> W20",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.37e+08, 's^-1'), n=1.713, Ea=(43.474, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -197,10 +133,6 @@ entry(
     label = "W21 <=> W22",
     degeneracy = 1,
     kinetics = Arrhenius(A=(6.999e+07, 's^-1'), n=0.942, Ea=(10.168, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -208,10 +140,6 @@ entry(
     label = "W21 <=> W24",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.932e+07, 's^-1'), n=1.035, Ea=(14.54, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -219,10 +147,6 @@ entry(
     label = "W21 <=> W20",
     degeneracy = 1,
     kinetics = Arrhenius(A=(59980, 's^-1'), n=1.941, Ea=(8.652, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -230,10 +154,6 @@ entry(
     label = "W20 <=> W18",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.258e+10, 's^-1'), n=0.51, Ea=(12.883, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -241,10 +161,6 @@ entry(
     label = "W45 <=> W23",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.315e+10, 's^-1'), n=0.447, Ea=(22.628, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -252,10 +168,6 @@ entry(
     label = "W45 <=> W24",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.713e+10, 's^-1'), n=0.481, Ea=(30.309, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -268,10 +180,6 @@ entry(
         Ea = (3.037, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -284,10 +192,6 @@ entry(
         Ea = (6.093, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -300,10 +204,6 @@ entry(
         Ea = (3.241, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -311,10 +211,6 @@ entry(
     label = "phenyl + H2CCCH2 <=> W11",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4578, 'cm^3/(mol*s)'), n=2.53, Ea=(1.932, 'kcal/mol'), T0=(1, 'K')),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -327,10 +223,6 @@ entry(
         Ea = (11.371, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -343,10 +235,6 @@ entry(
         Ea = (4.985, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -359,10 +247,6 @@ entry(
         Ea = (3.073, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -375,10 +259,6 @@ entry(
         Ea = (-0.465, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -391,10 +271,6 @@ entry(
         Ea = (7.429, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -407,10 +283,6 @@ entry(
         Ea = (4.834, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -423,10 +295,6 @@ entry(
         Ea = (3.163, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -439,10 +307,6 @@ entry(
         Ea = (2.462, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -455,10 +319,6 @@ entry(
         Ea = (2.425, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -471,10 +331,6 @@ entry(
         Ea = (4.384, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -487,10 +343,6 @@ entry(
         Ea = (3.143, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -503,10 +355,6 @@ entry(
         Ea = (4.911, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -519,10 +367,6 @@ entry(
         Ea = (11.733, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -535,9 +379,5 @@ entry(
         Ea = (7.568, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc =
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
