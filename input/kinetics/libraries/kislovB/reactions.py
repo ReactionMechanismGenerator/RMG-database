@@ -14,7 +14,7 @@ J. Phys. Chem. A 2007, 111, 3922-3931
 """
 entry(
     index = 1,
-    label = "benzene(1) + methyl(7) <=> C7H9(12)",
+    label = "benzene_1 + methyl_7 <=> C7H9_12",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2195, 'cm^3/(mol*s)'),
@@ -26,7 +26,7 @@ entry(
 
 entry(
     index = 2,
-    label = "benzene(1) + methyl(7) <=> phenyl(16) + CH4(26)",
+    label = "benzene_1 + methyl_7 <=> phenyl_16 + CH4_26",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (5151, 'cm^3/(mol*s)'),
@@ -38,14 +38,14 @@ entry(
 
 entry(
     index = 3,
-    label = "C7H9(12) <=> C7H8(17) + H(15)",
+    label = "C7H9_12 <=> C7H8_17 + H_15",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.217e+10, 's^-1'), n=0.87, Ea=(25.199, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 4,
-    label = "C7H8(17) + H(15) <=> C7H7(10) + H2(23)",
+    label = "C7H8_17 + H_15 <=> C7H7_10 + H2_23",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.152e+06, 'cm^3/(mol*s)'),
@@ -57,7 +57,7 @@ entry(
 
 entry(
     index = 5,
-    label = "C7H8(17) + H(15) <=> C7H7(11) + H2(23)",
+    label = "C7H8_17 + H_15 <=> C7H7_11 + H2_23",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.738e+07, 'cm^3/(mol*s)'),
@@ -69,14 +69,14 @@ entry(
 
 entry(
     index = 6,
-    label = "C7H7(11) <=> C7H7(10)",
+    label = "C7H7_11 <=> C7H7_10",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.712e+10, 's^-1'), n=0.722, Ea=(41.878, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 7,
-    label = "C7H7(10) + ethyne(8) <=> C9H9(13)",
+    label = "C7H7_10 + ethyne_8 <=> C9H9_13",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (31630, 'cm^3/(mol*s)'),
@@ -88,21 +88,21 @@ entry(
 
 entry(
     index = 8,
-    label = "C9H9(13) <=> C9H9(14)",
+    label = "C9H9_13 <=> C9H9_14",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.257e+11, 's^-1'), n=0.139, Ea=(13.233, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 9,
-    label = "C9H9(14) <=> indene(25) + H(15)",
+    label = "C9H9_14 <=> indene_25 + H_15",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.597e+10, 's^-1'), n=0.889, Ea=(20.893, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 10,
-    label = "benzene(1) + C3H3(9) <=> C9H9(2)",
+    label = "benzene_1 + C3H3_9 <=> C9H9_2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (144.6, 'cm^3/(mol*s)'),
@@ -114,7 +114,7 @@ entry(
 
 entry(
     index = 11,
-    label = "benzene(1) + C3H3(9) <=> C9H9(6)",
+    label = "benzene_1 + C3H3_9 <=> C9H9_6",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (312.3, 'cm^3/(mol*s)'),
@@ -126,56 +126,56 @@ entry(
 
 entry(
     index = 12,
-    label = "C9H9(2) <=> C9H9(3)",
+    label = "C9H9_2 <=> C9H9_3",
     degeneracy = 1,
     kinetics = Arrhenius(A=(6.485e+11, 's^-1'), n=0.065, Ea=(27.941, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 13,
-    label = "C9H9(6) <=> C9H9(3)",
+    label = "C9H9_6 <=> C9H9_3",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.565e+11, 's^-1'), n=0.009, Ea=(28.521, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 14,
-    label = "C9H9(3) <=> C9H9(24)",
+    label = "C9H9_3 <=> C9H9_24",
     degeneracy = 1,
     kinetics = Arrhenius(A=(9.527e+10, 's^-1'), n=0.853, Ea=(47.848, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 15,
-    label = "C9H9(24) <=> C9H9(14)",
+    label = "C9H9_24 <=> C9H9_14",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.438e+10, 's^-1'), n=0.625, Ea=(38.324, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 16,
-    label = "C9H9(3) <=> C9H9(4)",
+    label = "C9H9_3 <=> C9H9_4",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.231e+11, 's^-1'), n=0.765, Ea=(55.941, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 17,
-    label = "C9H9(4) <=> C9H9(5)",
+    label = "C9H9_4 <=> C9H9_5",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.677e+10, 's^-1'), n=0.839, Ea=(43.638, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 18,
-    label = "C9H9(5) <=> indene(25) + H(15)",
+    label = "C9H9_5 <=> indene_25 + H_15",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.591e+10, 's^-1'), n=0.886, Ea=(24.975, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 19,
-    label = "C9H8(20) + H(15) <=> C9H7(18) + H2(23)",
+    label = "C9H8_20 + H_15 <=> C9H7_18 + H2_23",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (5.54e+07, 'cm^3/(mol*s)'),
@@ -187,14 +187,14 @@ entry(
 
 entry(
     index = 20,
-    label = "C9H7(18) <=> C9H7(19)",
+    label = "C9H7_18 <=> C9H7_19",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.534e+11, 's^-1'), n=0.102, Ea=(13.049, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 21,
-    label = "C9H8(21) + H(15) <=> C9H7(22) + H2(23)",
+    label = "C9H8_21 + H_15 <=> C9H7_22 + H2_23",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (6.725e+07, 'cm^3/(mol*s)'),
@@ -206,28 +206,28 @@ entry(
 
 entry(
     index = 22,
-    label = "C9H7(22) <=> C9H7(19)",
+    label = "C9H7_22 <=> C9H7_19",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.431e+11, 's^-1'), n=0.114, Ea=(15.579, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 23,
-    label = "phenyl(16) + C3H3(9) <=> C9H8(20)",
+    label = "phenyl_16 + C3H3_9 <=> C9H8_20",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 24,
-    label = "phenyl(16) + C3H3(9) <=> C9H8(21)",
+    label = "phenyl_16 + C3H3_9 <=> C9H8_21",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 25,
-    label = "C9H7(19) + H(15) <=> indene(25)",
+    label = "C9H7_19 + H_15 <=> indene_25",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
 )

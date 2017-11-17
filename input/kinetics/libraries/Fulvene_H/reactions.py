@@ -64,7 +64,7 @@ entry(
 
 entry(
     index = 6,
-    label = "C5H5CH2-1 <=> C5H5CH2-3",
+    label = "C5H5CH2-1 <=> C5H5CH2-2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.23e+07, 's^-1'), n=1.54, Ea=(13.4, 'kcal/mol'), T0=(1, 'K')),
 )
@@ -96,4 +96,3 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.84e+09, 's^-1'), n=1.3, Ea=(27.4, 'kcal/mol'), T0=(1, 'K')),
 )
-

@@ -13,10 +13,6 @@ entry(
     label = "I <=> II",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.309e+10, 's^-1'), n=0.360, Ea=(34.586, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -24,10 +20,6 @@ entry(
     label = "II <=> III",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.000e+11, 's^-1'), n=0.056, Ea=(29.257, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -35,10 +27,6 @@ entry(
     label = "II <=> A",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.162e+12, 's^-1'), n=-0.046, Ea=(38.474, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -46,10 +34,6 @@ entry(
     label = "A <=> IV",
     degeneracy = 1,
     kinetics = Arrhenius(A=(8.067e+10, 's^-1'), n=0.649, Ea=(8.03, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -57,10 +41,6 @@ entry(
     label = "II <=> VIII",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.084e+09, 's^-1'), n=0.809, Ea=(39.151, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -68,10 +48,6 @@ entry(
     label = "IV <=> VI",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.676e+10, 's^-1'), n=1.256, Ea=(85.885, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -79,10 +55,6 @@ entry(
     label = "B <=> IX",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.45e+12, 's^-1'), n=0.194, Ea=(32.274, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -90,10 +62,6 @@ entry(
     label = "V <=> VI",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.55e+11, 's^-1'), n=-0.049, Ea=(30.306, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -101,10 +69,6 @@ entry(
     label = "IX <=> VII",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.454e+12, 's^-1'), n=0.178, Ea=(0.205, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -112,10 +76,6 @@ entry(
     label = "VIII <=> IX",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.655e+13, 's^-1'), n=-0.215, Ea=(51.959, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -123,10 +83,6 @@ entry(
     label = "VIII <=> X",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.180e+12, 's^-1'), n=-0.304, Ea=(37.327, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -134,10 +90,6 @@ entry(
     label = "X <=> IX",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.865e+11, 's^-1'), n=0.577, Ea=(29.169, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -145,10 +97,6 @@ entry(
     label = "X <=> XI",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.355e+12, 's^-1'), n=0.294, Ea=(35.954, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
 )
 
 entry(
@@ -164,7 +112,6 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
 CBS-QB3 calculated
 """,
 )
