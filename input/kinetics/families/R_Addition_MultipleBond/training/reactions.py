@@ -1946,3 +1946,16 @@ u"""
 Taken from entry: INDENE + CH3 <=> pdt27
 """,
 )
+
+entry(
+    index = 124,
+    label = "C7H9-27 <=> C7H8-13 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.06e+10, 's^-1'), n=1.26, Ea=(28.1, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
+    longDesc = 
+u"""
+Taken from entry: product20 <=> TOLUENE + H
+""",
+)
