@@ -1915,3 +1915,34 @@ u"""
 Taken from entry: P6 + H <=> W14
 """,
 )
+
+entry(
+    index = 122,
+    label = "C10H10-10 + H <=> C10H11-15",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.4e+08, 'cm^3/(mol*s)'),
+        n = 1.58,
+        Ea = (1.6, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt13 + H <=> pdt25
+""",
+)
+
+entry(
+    index = 123,
+    label = "C9H8-3 + CH3 <=> C10H11-16",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(643, 'cm^3/(mol*s)'), n=2.8, Ea=(8.6, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: INDENE + CH3 <=> pdt27
+""",
+)
