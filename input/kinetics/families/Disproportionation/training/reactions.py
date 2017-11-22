@@ -55,10 +55,6 @@ entry(
 u"""
 This rate rule is a estimate taken from NIST, ref: Aromatic and Polycyclic Aromatic
 Hydrocarbon Formation in a Laminar Premixed n-butane Flame
-Derived from fitting to a complex mechanism for C2H3 + O2 = C2H2 + HO2  
+Derived from fitting to a complex mechanism for C2H3 + O2 = C2H2 + HO2
 """,
 )
-
-
-
-

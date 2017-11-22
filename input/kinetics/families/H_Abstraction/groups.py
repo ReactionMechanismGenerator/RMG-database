@@ -956,11 +956,11 @@ entry(
     label = "Cd/H/OneDe",
     group = 
 """
-1 *1 C                                             u0 {2,D} {3,S} {4,S}
-2    Cd                                            u0 {1,D} {5,S}
-3 *2 H                                             u0 {1,S}
-4    [Cd,Ct,Cb,CO,CS,N3d,N3t,N3b,N5dc,N5dd,N5tc,N5b] u0 {1,S}
-5    R                                             u0 {2,S}
+1 *1 C                                                u0 {2,D} {3,S} {4,S}
+2    Cd                                               u0 {1,D} {5,S}
+3 *2 H                                                u0 {1,S}
+4    [Cd,Ct,Cb,CO,CS,N3d,N3t,N3b,N5dc,N5ddc,N5tc,N5b] u0 {1,S}
+5    R                                                u0 {2,S}
 """,
     kinetics = None,
 )
@@ -1041,11 +1041,11 @@ entry(
     label = "Cd/H/DeN",
     group = 
 """
-1 *1 C                              u0 {2,D} {3,S} {4,S}
-2    Cd                             u0 {1,D} {5,S}
-3 *2 H                              u0 {1,S}
-4    [N3d,N3t,N3b,N5dc,N5dd,N5tc,N5b] u0 {1,S}
-5    R                              u0 {2,S}
+1 *1 C                                 u0 {2,D} {3,S} {4,S}
+2    Cd                                u0 {1,D} {5,S}
+3 *2 H                                 u0 {1,S}
+4    [N3d,N3t,N3b,N5dc,N5ddc,N5tc,N5b] u0 {1,S}
+5    R                                 u0 {2,S}
 """,
     kinetics = None,
 )
@@ -3520,8 +3520,8 @@ entry(
     label = "N5_H",
     group = 
 """
-1 *1 [N5sc,N5dc,N5dd,N5tc,N5b] u0 {2,S}
-2 *2 H                      u0 {1,S}
+1 *1 [N5sc,N5dc,N5ddc,N5tc,N5b] u0 p0 c+1 {2,S}
+2 *2 H                          u0        {1,S}
 """,
     kinetics = None,
 )
@@ -3531,8 +3531,8 @@ entry(
     label = "N5dc_H",
     group = 
 """
-1 *1 N5dc u0 {2,S}
-2 *2 H   u0 {1,S}
+1 *1 N5dc u0 p0 c+1 {2,S}
+2 *2 H    u0        {1,S}
 """,
     kinetics = None,
 )
@@ -3542,10 +3542,10 @@ entry(
     label = "N5dc/H/NonDeOO",
     group = 
 """
-1 *1 N5dc u0 {2,S} {3,S} {4,D}
-2 *2 H   u0 {1,S}
-3    O2s  u0 {1,S}
-4    O2d  u0 {1,D}
+1 *1 N5dc u0 p0 c+1 {2,S} {3,S} {4,D}
+2 *2 H    u0        {1,S}
+3    O2s  u0        {1,S}
+4    O2d  u0        {1,D}
 """,
     kinetics = None,
 )

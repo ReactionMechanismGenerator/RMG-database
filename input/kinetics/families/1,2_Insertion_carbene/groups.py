@@ -759,8 +759,8 @@ entry(
     label = "R_R'",
     group = 
 """
-1 *2 [Cs,Sis,N]                u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 [Cs,Cd,Cb,Ct,Sis,Sid,N,S] u0 {1,S}
+1 *2 [Cs,Sis,N]                u0 px c0 {2,S} {3,S} {4,S} {5,S}
+2 *3 [Cs,Cd,Cb,Ct,Sis,Sid,N,S] u0 px c0 {1,S}
 3    H                         u0 {1,S}
 4    H                         u0 {1,S}
 5    H                         u0 {1,S}
@@ -773,8 +773,8 @@ entry(
     label = "Cs_Cs",
     group = 
 """
-1 *2 Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs u0 {1,S}
+1 *2 Cs u0 px c0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs u0 px c0 {1,S}
 3    H  u0 {1,S}
 4    H  u0 {1,S}
 5    H  u0 {1,S}
@@ -787,8 +787,8 @@ entry(
     label = "C_methyl_C_methyl",
     group = 
 """
-1 *2 Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs u0 {1,S} {6,S} {7,S} {8,S}
+1 *2 Cs u0 px c0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs u0 px c0 {1,S} {6,S} {7,S} {8,S}
 3    H  u0 {1,S}
 4    H  u0 {1,S}
 5    H  u0 {1,S}
@@ -804,8 +804,8 @@ entry(
     label = "C_methyl_C_pri",
     group = 
 """
-1 *2 Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs u0 {1,S} {6,S} {7,S} {8,S}
+1 *2 Cs u0 px c0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs u0 px c0 {1,S} {6,S} {7,S} {8,S}
 3    H  u0 {1,S}
 4    H  u0 {1,S}
 5    H  u0 {1,S}
@@ -821,8 +821,8 @@ entry(
     label = "C_methyl_C_sec",
     group = 
 """
-1 *2 Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs u0 {1,S} {6,S} {7,S} {8,S}
+1 *2 Cs u0 px c0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs u0 px c0 {1,S} {6,S} {7,S} {8,S}
 3    H  u0 {1,S}
 4    H  u0 {1,S}
 5    H  u0 {1,S}
@@ -838,8 +838,8 @@ entry(
     label = "C_methyl_C_ter",
     group = 
 """
-1 *2 Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs u0 {1,S} {6,S} {7,S} {8,S}
+1 *2 Cs u0 px c0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs u0 px c0 {1,S} {6,S} {7,S} {8,S}
 3    H  u0 {1,S}
 4    H  u0 {1,S}
 5    H  u0 {1,S}
@@ -855,8 +855,8 @@ entry(
     label = "Cs_Cd",
     group = 
 """
-1 *2 Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cd u0 {1,S}
+1 *2 Cs u0 px c0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cd u0 px c0 {1,S}
 3    H  u0 {1,S}
 4    H  u0 {1,S}
 5    H  u0 {1,S}
@@ -869,8 +869,8 @@ entry(
     label = "C_methyl_Cd_pri",
     group = 
 """
-1 *2 Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cd u0 {1,S} {6,S} {7,D}
+1 *2 Cs u0 px c0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cd u0 px c0 {1,S} {6,S} {7,D}
 3    H  u0 {1,S}
 4    H  u0 {1,S}
 5    H  u0 {1,S}
@@ -885,8 +885,8 @@ entry(
     label = "C_methyl_Cd_sec",
     group = 
 """
-1 *2 Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cd u0 {1,S} {6,S} {7,D}
+1 *2 Cs u0 px c0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cd u0 px c0 {1,S} {6,S} {7,D}
 3    H  u0 {1,S}
 4    H  u0 {1,S}
 5    H  u0 {1,S}
@@ -901,8 +901,8 @@ entry(
     label = "Cs_Cb",
     group = 
 """
-1 *2 Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cb u0 {1,S}
+1 *2 Cs u0 px c0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cb u0 px c0 {1,S}
 3    H  u0 {1,S}
 4    H  u0 {1,S}
 5    H  u0 {1,S}

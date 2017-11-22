@@ -88,7 +88,7 @@ entry(
 """
 1 *1 R!H u0 {2,D}
 2 *2 R!H u0 {1,D} {3,S}
-3 *3 S2s u0 {2,S} {4,S}
+3 *3 S2s u0 p2 c0 {2,S} {4,S}
 4 *4 R   u0 {3,S}
 """,
     kinetics = None,

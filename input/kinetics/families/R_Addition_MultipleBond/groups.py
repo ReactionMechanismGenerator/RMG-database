@@ -13552,7 +13552,7 @@ entry(
 """
 1 *1 Ct u0 {2,T} {3,S}
 2 *2 Ct u0 {1,T} {4,S}
-3    [Cd,Ct,Cb,CO,CS,N3d,N5d] u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS,N3d,N5dc] u0 {1,S}
 4    Cb u0 {2,S}
 """,
     kinetics = None,
@@ -14246,7 +14246,7 @@ entry(
     label = "Sd_R",
     group = 
 """
-1 *1 S2d u0 p2 {2,D}
+1 *1 S   u0 px {2,D}
 2 *2 R!H u0    {1,D}
 """,
     kinetics = None,

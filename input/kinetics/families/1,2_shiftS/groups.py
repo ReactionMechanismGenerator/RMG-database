@@ -25,9 +25,9 @@ entry(
     label = "XSYJ",
     group = 
 """
-1 *1 C   u0 {2,S}
-2 *2 S   u0 {1,S} {3,S}
-3 *3 R!H u1 {2,S}
+1 *1 C   u0       {2,S}
+2 *2 S   u0 px c0 {1,S} {3,S}
+3 *3 R!H u1       {2,S}
 """,
     kinetics = None,
 )
