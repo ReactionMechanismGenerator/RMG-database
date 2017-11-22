@@ -27,10 +27,10 @@ entry(
         year = "1962",
         url = "http://kinetics.nist.gov/kinetics/Detail?id=1962GAR/TRO940-944:1",
     ),
-    longDesc = 
+    longDesc =
 u"""
 Dominguez et al. Data derived from fitting to a complex mechanism.
-Pressure 0.01-0.32 atm. Excitation : direct photolysis, analysis : GC. 
+Pressure 0.01-0.32 atm. Excitation : direct photolysis, analysis : GC.
 C2H2 + Tert-C4H9 --> (CH3)3CCH=CH
 
 Was in the rules database with rank=4. Richard moved to the training database and checked with NIST database. NIST squib: 1962GAR/TRO940-944
@@ -58,7 +58,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""CFG VTST calculations at RQCISD(T)/CBS//B3LYP/6-311++G(d,p) level""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the RQCISD(T)/CBS//B3LYP/6-311++G(d,p) level
 using Gaussian 03 and MOLPRO. High-pressure-limit rate coefficient computed
@@ -109,7 +109,7 @@ entry(
         year = "2015",
         url = "http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G",
     ),
-    longDesc = 
+    longDesc =
 u"""
 Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
 Table 4
@@ -137,7 +137,7 @@ entry(
         year = "2015",
         url = "http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G",
     ),
-    longDesc = 
+    longDesc =
 u"""
 Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
 Table 4
@@ -165,7 +165,7 @@ entry(
         year = "2015",
         url = "http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G",
     ),
-    longDesc = 
+    longDesc =
 u"""
 Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
 Table 4
@@ -193,7 +193,7 @@ entry(
         year = "2015",
         url = "http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G",
     ),
-    longDesc = 
+    longDesc =
 u"""
 Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
 Table 4
@@ -221,7 +221,7 @@ entry(
         year = "2015",
         url = "http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G",
     ),
-    longDesc = 
+    longDesc =
 u"""
 Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
 Table 4
@@ -249,7 +249,7 @@ entry(
         year = "2015",
         url = "http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G",
     ),
-    longDesc = 
+    longDesc =
 u"""
 Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
 Table 4
@@ -269,7 +269,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: vinylCPD + H <=> addA
 """,
@@ -287,7 +287,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: vinylCPD + H <=> addB
 """,
@@ -305,7 +305,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: vinylCPD + H <=> addC
 """,
@@ -323,7 +323,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: vinylCPD + H <=> addD
 """,
@@ -336,7 +336,7 @@ entry(
     kinetics = Arrhenius(A=(1.87e+11, 's^-1'), n=0.68, Ea=(13.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: addB <=> CPDyl + C2H4
 """,
@@ -349,7 +349,7 @@ entry(
     kinetics = Arrhenius(A=(1.06e+11, 's^-1'), n=1.15, Ea=(39.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product7 <=> FULVENE + CH3
 """,
@@ -362,7 +362,7 @@ entry(
     kinetics = Arrhenius(A=(1.5e+12, 's^-1'), n=0.81, Ea=(33.6, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: addD <=> CPD + C2H3
 """,
@@ -375,7 +375,7 @@ entry(
     kinetics = Arrhenius(A=(2.07e+11, 's^-1'), n=0.83, Ea=(22.8, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product2 <=> BENZENE + CH3
 """,
@@ -388,7 +388,7 @@ entry(
     kinetics = Arrhenius(A=(1.03e+09, 's^-1'), n=1.36, Ea=(26.5, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product2 <=> TOLUENE + H
 """,
@@ -401,7 +401,7 @@ entry(
     kinetics = Arrhenius(A=(1.01e+09, 's^-1'), n=1.23, Ea=(28.3, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product5 <=> product13 + H
 """,
@@ -414,7 +414,7 @@ entry(
     kinetics = Arrhenius(A=(4.47e+10, 's^-1'), n=1.17, Ea=(41.1, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product12 <=> product14 + H
 """,
@@ -427,7 +427,7 @@ entry(
     kinetics = Arrhenius(A=(3.58e+10, 's^-1'), n=1.38, Ea=(48.4, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product4 <=> product15 + H
 """,
@@ -440,7 +440,7 @@ entry(
     kinetics = Arrhenius(A=(1.89e+12, 's^-1'), n=0.87, Ea=(45, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: addC <=> CPD + C2H3
 """,
@@ -453,7 +453,7 @@ entry(
     kinetics = Arrhenius(A=(263, 'cm^3/(mol*s)'), n=2.89, Ea=(6.1, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: FULVENE + CH3 <=> product18
 """,
@@ -466,7 +466,7 @@ entry(
     kinetics = Arrhenius(A=(4.47e+10, 's^-1'), n=1.17, Ea=(41.1, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product24 <=> product13 + H
 """,
@@ -479,7 +479,7 @@ entry(
     kinetics = Arrhenius(A=(2790, 'cm^3/(mol*s)'), n=2.91, Ea=(1.3, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: FULVENE + CH3 <=> product32
 """,
@@ -492,7 +492,7 @@ entry(
     kinetics = Arrhenius(A=(2470, 'cm^3/(mol*s)'), n=2.88, Ea=(2, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: FULVENE + CH3 <=> product31
 """,
@@ -505,7 +505,7 @@ entry(
     kinetics = Arrhenius(A=(3.03e+10, 's^-1'), n=1.22, Ea=(40.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product37 <=> product13 + H
 """,
@@ -518,7 +518,7 @@ entry(
     kinetics = Arrhenius(A=(25500, 'cm^3/(mol*s)'), n=2.27, Ea=(10.2, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: CPDyl + ethyne <=> product44
 """,
@@ -536,7 +536,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: FA + H <=> vinylCPDyl
 """,
@@ -551,7 +551,7 @@ entry(
     kinetics = Arrhenius(A=(42, 'cm^3/(mol*s)'), n=3.27, Ea=(11, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: aC3H5 + C3H4a <=> prod_1
 """,
@@ -564,7 +564,7 @@ entry(
     kinetics = Arrhenius(A=(7.93e+09, 's^-1'), n=1.27, Ea=(31, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: prod_2 <=> prod_3 + H
 """,
@@ -577,7 +577,7 @@ entry(
     kinetics = Arrhenius(A=(18.6, 'cm^3/(mol*s)'), n=3, Ea=(9.5, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H4a + iC4H7 <=> prod_6
 """,
@@ -590,7 +590,7 @@ entry(
     kinetics = Arrhenius(A=(6.37e+08, 's^-1'), n=1.3, Ea=(29.5, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: prod_4 <=> prod_5 + H
 """,
@@ -608,7 +608,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H4p + aC3H5 <=> prod_7
 """,
@@ -621,7 +621,7 @@ entry(
     kinetics = Arrhenius(A=(7.99e+10, 's^-1'), n=1, Ea=(32.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: prod_8 <=> prod_9 + H
 """,
@@ -634,7 +634,7 @@ entry(
     kinetics = Arrhenius(A=(121, 'cm^3/(mol*s)'), n=2.9, Ea=(10.3, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H4p + iC4H7 <=> prod_10
 """,
@@ -647,7 +647,7 @@ entry(
     kinetics = Arrhenius(A=(2.77e+09, 's^-1'), n=1.4, Ea=(32, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: prod_11 <=> prod_12 + H
 """,
@@ -660,7 +660,7 @@ entry(
     kinetics = Arrhenius(A=(128, 'cm^3/(mol*s)'), n=3.05, Ea=(7.4, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H4a + BD2YL <=> prod_13
 """,
@@ -673,7 +673,7 @@ entry(
     kinetics = Arrhenius(A=(4e+10, 's^-1'), n=1.27, Ea=(44.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: prod_14 <=> prod_15 + H
 """,
@@ -686,7 +686,7 @@ entry(
     kinetics = Arrhenius(A=(1900, 'cm^3/(mol*s)'), n=2.92, Ea=(8.5, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H4p + BD2YL <=> prod_16
 """,
@@ -699,7 +699,7 @@ entry(
     kinetics = Arrhenius(A=(6.47e+10, 's^-1'), n=1.22, Ea=(45.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: prod_17 <=> prod_18 + H
 """,
@@ -712,7 +712,7 @@ entry(
     kinetics = Arrhenius(A=(3960, 'cm^3/(mol*s)'), n=2.65, Ea=(11.6, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: aC3H5 + C3H4a <=> prod_19
 """,
@@ -725,7 +725,7 @@ entry(
     kinetics = Arrhenius(A=(37, 'cm^3/(mol*s)'), n=2.89, Ea=(9.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H4a + iC4H7 <=> prod_20
 """,
@@ -743,7 +743,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: aC3H5 + C2H2 <=> prod_21
 """,
@@ -756,7 +756,7 @@ entry(
     kinetics = Arrhenius(A=(4.19e+09, 's^-1'), n=1.37, Ea=(31.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: prod_22 <=> CPD + H
 """,
@@ -774,7 +774,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H3 + C2H2 <=> prod_23
 """,
@@ -787,7 +787,7 @@ entry(
     kinetics = Arrhenius(A=(7040, 'cm^3/(mol*s)'), n=2.87, Ea=(9.8, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H3 + C3H4p <=> prod_25
 """,
@@ -800,7 +800,7 @@ entry(
     kinetics = Arrhenius(A=(285, 'cm^3/(mol*s)'), n=2.93, Ea=(11.1, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H3 + C3H4p <=> prod_27
 """,
@@ -813,7 +813,7 @@ entry(
     kinetics = Arrhenius(A=(850, 'cm^3/(mol*s)'), n=2.81, Ea=(8.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H3 + C3H4a <=> prod_29
 """,
@@ -828,7 +828,7 @@ entry(
     kinetics = Arrhenius(A=(288, 'cm^3/(mol*s)'), n=2.8, Ea=(8.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: CPD + CPDyl <=> adducte
 """,
@@ -841,7 +841,7 @@ entry(
     kinetics = Arrhenius(A=(288, 'cm^3/(mol*s)'), n=2.74, Ea=(3.3, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: CPD + CPDyl <=> adductd
 """,
@@ -859,7 +859,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt11 + H <=> pdt10bis
 """,
@@ -872,7 +872,7 @@ entry(
     kinetics = Arrhenius(A=(7.14e+12, 's^-1'), n=0.52, Ea=(22.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt12 <=> benzene + butadieneyl
 """,
@@ -890,7 +890,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt13 + H <=> pdt12
 """,
@@ -903,7 +903,7 @@ entry(
     kinetics = Arrhenius(A=(2480, 'cm^3/(mol*s)'), n=2.89, Ea=(-0.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt22 + CH3 <=> pdt21
 """,
@@ -916,7 +916,7 @@ entry(
     kinetics = Arrhenius(A=(1.49e+09, 's^-1'), n=1.41, Ea=(38.3, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt23 <=> pdt30 + H
 """,
@@ -934,7 +934,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt26 + H <=> pdt19
 """,
@@ -952,7 +952,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt31 + H <=> pdt8
 """,
@@ -965,7 +965,7 @@ entry(
     kinetics = Arrhenius(A=(5.72e+10, 's^-1'), n=1.33, Ea=(51.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt32 <=> pdt22 + CH3
 """,
@@ -983,7 +983,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt31 + H <=> pdt29
 """,
@@ -1001,7 +1001,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt30 + H <=> pdt29
 """,
@@ -1019,7 +1019,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt35 + H <=> pdt29
 """,
@@ -1037,7 +1037,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt38 + H <=> pdt37
 """,
@@ -1057,7 +1057,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: FULVENE + H <=> C5H4CH3
 """,
@@ -1070,7 +1070,7 @@ entry(
     kinetics = Arrhenius(A=(1.31e+08, 'cm^3/(mol*s)'), n=1.76, Ea=(2, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: FULVENE + H <=> C5H5CH2-1
 """,
@@ -1088,7 +1088,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: FULVENE + H <=> C5H5CH2-3
 """,
@@ -1106,7 +1106,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: FULVENE + H <=> C5H5CH2-2
 """,
@@ -1119,7 +1119,7 @@ entry(
     kinetics = Arrhenius(A=(1.84e+09, 's^-1'), n=1.3, Ea=(27.4, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: cyC6H7 <=> benzene + H
 """,
@@ -1139,7 +1139,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: biCPD3ene + H <=> adducta
 """,
@@ -1157,7 +1157,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: biCPD3ene + H <=> adductb
 """,
@@ -1175,7 +1175,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: biCPD3ene + H <=> adductc
 """,
@@ -1188,7 +1188,7 @@ entry(
     kinetics = Arrhenius(A=(1.34e+08, 's^-1'), n=1.55, Ea=(15.3, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: prod4 <=> naphthalene + H
 """,
@@ -1201,7 +1201,7 @@ entry(
     kinetics = Arrhenius(A=(3.141e+07, 'cm^3/(mol*s)'), n=1.767, Ea=(3729, 'cal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3
 """,
@@ -1214,7 +1214,7 @@ entry(
     kinetics = Arrhenius(A=(1.228e+03, 'cm^3/(mol*s)'), n=2.756, Ea=(1658, 'cal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3
 """,
@@ -1227,7 +1227,7 @@ entry(
     kinetics = Arrhenius(A=(1.475e+08, 'cm^3/(mol*s)'), n=1.674, Ea=(2295, 'cal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3
 """,
@@ -1240,7 +1240,7 @@ entry(
     kinetics = Arrhenius(A=(236.006, 'cm^3/(mol*s)'), n=2.7878, Ea=(15.4228, 'kJ/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2016
 More information can be found on pharos ~laitcl/Gaussian/HxBUpdated
@@ -1258,7 +1258,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'From 2012 Kislov',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: From 2012 Kislov
 """,
@@ -1275,7 +1275,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'CBS-QB3',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: New_Phenyl_Propene_Pathway
 CBS-QB3
@@ -1289,7 +1289,7 @@ entry(
     kinetics = Arrhenius(A=(1.75247e+08, 'cm^3/(mol*s)'), n = 1.70829, Ea = (25.4744, 'kJ/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 Hexylbenzene + H --> CCCCCCC1C=C[CH]C=C1
@@ -1304,7 +1304,7 @@ entry(
     kinetics = Arrhenius(A=(2.15859e+09, 'cm^3/(mol*s)'), n = 1.42903, Ea = (22.7647, 'kJ/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 Toluene + H --> CC1[CH]C=CCC=1
@@ -1319,7 +1319,7 @@ entry(
     kinetics = Arrhenius(A=(2.04885e+09, 'cm^3/(mol*s)'), n = 1.43982, Ea = (18.8871, 'kJ/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 Toluene + H --> CC1=C[CH]C=CC1
@@ -1334,7 +1334,7 @@ entry(
     kinetics = Arrhenius(A=(2.24659e+09, 'cm^3/(mol*s)'), n = 1.42368, Ea = (22.5731, 'kJ/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 Toluene + H --> CC1C=CC[CH]C=1
@@ -1349,7 +1349,7 @@ entry(
     kinetics = Arrhenius(A=(4.40866e+08, 'cm^3/(mol*s)'), n = 1.56916, Ea = (26.7856, 'kJ/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 Toluene + H --> CC1C=C[CH]C=C1
@@ -1357,4 +1357,206 @@ More information can be found on pharos/home/laitcl/Gaussian/HAdditiontoRing
 """,
 )
 
+
+
+
+entry(
+    index = 84,
+    label = "propene_1 + C6H5 <=> C9H11",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3132, 'cm^3/(mol*s)'), n=2.668, Ea=(0.41, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: C6H5 + C3H6 <=> i1
+""",
+)
+
+entry(
+    index = 85,
+    label = "propene_2 + C6H5 <=> C9H11-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (681.8, 'cm^3/(mol*s)'),
+        n = 2.75,
+        Ea = (2.279, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: C6H5 + C3H6 <=> i2
+""",
+)
+
+entry(
+    index = 86,
+    label = "C9H11-4 <=> C9H10 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.532e+07, 's^-1'), n=1.831, Ea=(34.3, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: i1 <=> p2 + H
+""",
+)
+
+entry(
+    index = 87,
+    label = "C9H11-5 <=> C9H10-2 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.133e+08, 's^-1'), n=1.389, Ea=(34.424, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: i1 <=> p3 + H
+""",
+)
+
+entry(
+    index = 88,
+    label = "C9H11-6 <=> C8H8-2 + CH3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.169e+10, 's^-1'), n=0.925, Ea=(28.785, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: i2 <=> p1 + CH3
+""",
+)
+
+entry(
+    index = 89,
+    label = "C9H11-7 <=> C9H10-3 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.145e+09, 's^-1'), n=1.255, Ea=(34.391, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: i2 <=> p4 + H
+""",
+)
+
+entry(
+    index = 90,
+    label = "C9H11-8 <=> C9H10-4 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.77e+08, 's^-1'), n=1.506, Ea=(35.156, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: i4 <=> p2 + H
+""",
+)
+
+entry(
+    index = 91,
+    label = "C9H11-9 <=> C9H10-5 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.595e+09, 's^-1'), n=1.097, Ea=(22.941, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: i5 <=> p5 + H
+""",
+)
+
+entry(
+    index = 92,
+    label = "C9H11-10 <=> C9H10-6 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.6e+09, 's^-1'), n=1.106, Ea=(25.978, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: i6 <=> p2 + H
+""",
+)
+
+entry(
+    index = 93,
+    label = "C9H11-1 <=> C8H8 + CH3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.276e+11, 's^-1'), n=0.842, Ea=(35.998, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: i7 <=> p1 + CH3
+""",
+)
+
+entry(
+    index = 94,
+    label = "C9H11-11 <=> C9H10-7 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.757e+10, 's^-1'), n=1.083, Ea=(40.433, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: i7 <=> p3 + H
+""",
+)
+
+entry(
+    index = 95,
+    label = "C9H11-12 <=> C8H8-3 + CH3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.37e+13, 's^-1'), n=0.61, Ea=(48.173, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: i8 <=> p7 + CH3
+""",
+)
+
+entry(
+    index = 96,
+    label = "C9H11-13 <=> C9H10-8 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9.945e+09, 's^-1'), n=1.096, Ea=(26.664, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: i8 <=> p8 + H
+""",
+)
+
+entry(
+    index = 97,
+    label = "C9H11-14 <=> C9H10-9 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.086e+10, 's^-1'), n=0.921, Ea=(25.035, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: i10 <=> p4 + H
+""",
+)
+
+entry(
+    index = 98,
+    label = "C9H11-3 <=> C2H4 + C7H7-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.39e+09, 's^-1'), n=1.1, Ea=(22.881, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: i4 <=> benzyl + C2H4
+""",
+)
 
