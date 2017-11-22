@@ -1367,7 +1367,7 @@ entry(
     kinetics = Arrhenius(A=(3132, 'cm^3/(mol*s)'), n=2.668, Ea=(0.41, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C6H5 + C3H6 <=> i1
 """,
@@ -1385,7 +1385,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C6H5 + C3H6 <=> i2
 """,
@@ -1398,7 +1398,7 @@ entry(
     kinetics = Arrhenius(A=(7.532e+07, 's^-1'), n=1.831, Ea=(34.3, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i1 <=> p2 + H
 """,
@@ -1411,7 +1411,7 @@ entry(
     kinetics = Arrhenius(A=(4.133e+08, 's^-1'), n=1.389, Ea=(34.424, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i1 <=> p3 + H
 """,
@@ -1424,7 +1424,7 @@ entry(
     kinetics = Arrhenius(A=(5.169e+10, 's^-1'), n=0.925, Ea=(28.785, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i2 <=> p1 + CH3
 """,
@@ -1437,7 +1437,7 @@ entry(
     kinetics = Arrhenius(A=(1.145e+09, 's^-1'), n=1.255, Ea=(34.391, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i2 <=> p4 + H
 """,
@@ -1450,7 +1450,7 @@ entry(
     kinetics = Arrhenius(A=(3.77e+08, 's^-1'), n=1.506, Ea=(35.156, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i4 <=> p2 + H
 """,
@@ -1463,7 +1463,7 @@ entry(
     kinetics = Arrhenius(A=(4.595e+09, 's^-1'), n=1.097, Ea=(22.941, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i5 <=> p5 + H
 """,
@@ -1476,7 +1476,7 @@ entry(
     kinetics = Arrhenius(A=(7.6e+09, 's^-1'), n=1.106, Ea=(25.978, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i6 <=> p2 + H
 """,
@@ -1489,7 +1489,7 @@ entry(
     kinetics = Arrhenius(A=(4.276e+11, 's^-1'), n=0.842, Ea=(35.998, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i7 <=> p1 + CH3
 """,
@@ -1502,7 +1502,7 @@ entry(
     kinetics = Arrhenius(A=(3.757e+10, 's^-1'), n=1.083, Ea=(40.433, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i7 <=> p3 + H
 """,
@@ -1515,7 +1515,7 @@ entry(
     kinetics = Arrhenius(A=(1.37e+13, 's^-1'), n=0.61, Ea=(48.173, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i8 <=> p7 + CH3
 """,
@@ -1528,7 +1528,7 @@ entry(
     kinetics = Arrhenius(A=(9.945e+09, 's^-1'), n=1.096, Ea=(26.664, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i8 <=> p8 + H
 """,
@@ -1541,7 +1541,7 @@ entry(
     kinetics = Arrhenius(A=(4.086e+10, 's^-1'), n=0.921, Ea=(25.035, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i10 <=> p4 + H
 """,
@@ -1554,9 +1554,42 @@ entry(
     kinetics = Arrhenius(A=(4.39e+09, 's^-1'), n=1.1, Ea=(22.881, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i4 <=> benzyl + C2H4
+""",
+)
+
+
+
+entry(
+    index = 99,
+    label = "C7H8-5 + H <=> C7H9-9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.65e+06, 'cm^3/(mol*s)'),
+        n = 2.063,
+        Ea = (3.976, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2001_Tokmakov_H_Toluene_to_CH3_Benzene_high_P""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + H <=> ipso-(C7H9)
+""",
+)
+
+entry(
+    index = 100,
+    label = "C7H9-8 <=> C6H6-6 + CH3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.831e+11, 's^-1'), n=0.669, Ea=(19.862, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2001_Tokmakov_H_Toluene_to_CH3_Benzene_high_P""",
+    longDesc = 
+u"""
+Taken from entry: ipso-(C7H9) <=> C6H6 + CH3
 """,
 )
 
