@@ -2278,3 +2278,93 @@ u"""
 Taken from entry: phenylacetylene + CH3 <=> W5
 """,
 )
+
+entry(
+    index = 143,
+    label = "C10H10-11 + H <=> C10H11-17",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.059e+08, 'cm^3/(mol*s)'),
+        n = 1.596,
+        Ea = (4.69, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_Indene_CH3_highP""",
+    longDesc = 
+u"""
+Taken from entry: 3_methylindene + H <=> W1
+""",
+)
+
+entry(
+    index = 144,
+    label = "C10H10-12 + H <=> C10H11-18",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.904e+08, 'cm^3/(mol*s)'),
+        n = 1.534,
+        Ea = (3.418, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_Indene_CH3_highP""",
+    longDesc = 
+u"""
+Taken from entry: 1_methylindene + H <=> W1
+""",
+)
+
+entry(
+    index = 145,
+    label = "C9H8-5 + CH3 <=> C10H11-19",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3206, 'cm^3/(mol*s)'),
+        n = 2.611,
+        Ea = (8.195, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_Indene_CH3_highP""",
+    longDesc = 
+u"""
+Taken from entry: Indene + CH3 <=> W1
+""",
+)
+
+entry(
+    index = 146,
+    label = "C10H10-13 + H <=> C10H11-20",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.441e+08, 'cm^3/(mol*s)'),
+        n = 1.514,
+        Ea = (2.403, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_Indene_CH3_highP""",
+    longDesc = 
+u"""
+Taken from entry: 2_methylindene + H <=> W2
+""",
+)
+
+entry(
+    index = 147,
+    label = "C9H8-6 + CH3 <=> C10H11-21",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5064, 'cm^3/(mol*s)'),
+        n = 2.608,
+        Ea = (5.867, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_Indene_CH3_highP""",
+    longDesc = 
+u"""
+Taken from entry: Indene + CH3 <=> W2
+""",
+)
