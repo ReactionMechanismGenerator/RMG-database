@@ -2581,3 +2581,16 @@ u"""
 Taken from entry: W119 <=> P2 + H
 """,
 )
+
+entry(
+    index = 164,
+    label = "C10H10-16 <=> C10H9-32 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.401e+11, 's^-1'), n=0.549, Ea=(19.678, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2012_Matsugi_C3H3_C7H7_highP""",
+    longDesc = 
+u"""
+Taken from entry: W14 <=> P9 + H
+""",
+)
