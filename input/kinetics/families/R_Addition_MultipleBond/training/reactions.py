@@ -1973,3 +1973,324 @@ Taken from entry: product20 <=> TOLUENE + H
 """,
 )
 
+
+
+entry(
+    index = 125,
+    label = "C3H4-2 + C6H5 <=> C9H9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.075e+06, 'cm^3/(mol*s)'),
+        n = 2.038,
+        Ea = (3.037, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_C9H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: phenyl + HCCCH3 <=> W1_2
+""",
+)
+
+entry(
+    index = 126,
+    label = "C3H4-4 + C6H5 <=> C9H9-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (630400, 'cm^3/(mol*s)'),
+        n = 2.103,
+        Ea = (6.093, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_C9H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: phenyl + HCCCH3 <=> W3_4
+""",
+)
+
+entry(
+    index = 127,
+    label = "C3H4 + C6H5 <=> C9H9-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (28890, 'cm^3/(mol*s)'),
+        n = 2.595,
+        Ea = (3.241, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_C9H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: phenyl + H2CCCH2 <=> W6
+""",
+)
+
+entry(
+    index = 128,
+    label = "C3H4-3 + C6H5 <=> C9H9-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4578, 'cm^3/(mol*s)'), n=2.53, Ea=(1.932, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_C9H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: phenyl + H2CCCH2 <=> W11
+""",
+)
+
+entry(
+    index = 129,
+    label = "C2H2 + C7H7-3 <=> C9H9-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (892300, 'cm^3/(mol*s)'),
+        n = 2.091,
+        Ea = (11.371, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_C9H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: benzyl + C2H2 <=> W20
+""",
+)
+
+entry(
+    index = 130,
+    label = "C9H8-4 + H <=> C9H9-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (9.954e+07, 'cm^3/(mol*s)'),
+        n = 1.548,
+        Ea = (4.985, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_C9H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: Indene + H <=> W15
+""",
+)
+
+entry(
+    index = 131,
+    label = "C9H8-5 + H <=> C9H9-7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.514e+08, 'cm^3/(mol*s)'),
+        n = 1.545,
+        Ea = (3.073, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_C9H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: Indene + H <=> W22
+""",
+)
+
+entry(
+    index = 132,
+    label = "C9H8-6 + H <=> C9H9-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.739e+10, 'cm^3/(mol*s)'),
+        n = 0.881,
+        Ea = (-0.465, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_C9H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: Indene + H <=> W23
+""",
+)
+
+entry(
+    index = 133,
+    label = "C9H8-7 + H <=> C9H9-9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (7.379e+07, 'cm^3/(mol*s)'),
+        n = 1.723,
+        Ea = (7.429, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_C9H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: Indene + H <=> W18
+""",
+)
+
+entry(
+    index = 134,
+    label = "C9H8-8 + H <=> C9H9-10",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.639e+10, 'cm^3/(mol*s)'),
+        n = 1.06,
+        Ea = (4.834, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_C9H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: P2 + H <=> W1_2
+""",
+)
+
+entry(
+    index = 135,
+    label = "C9H8-9 + H <=> C9H9-11",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.492e+10, 'cm^3/(mol*s)'),
+        n = 1.051,
+        Ea = (3.163, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_C9H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: P2 + H <=> W5
+""",
+)
+
+entry(
+    index = 136,
+    label = "C9H8-10 + H <=> C9H9-12",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.175e+08, 'cm^3/(mol*s)'),
+        n = 1.505,
+        Ea = (2.462, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_C9H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: phenyl-allene + H <=> W1_2
+""",
+)
+
+entry(
+    index = 137,
+    label = "C9H8-11 + H <=> C9H9-13",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.339e+08, 'cm^3/(mol*s)'),
+        n = 1.587,
+        Ea = (2.425, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_C9H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: phenyl-allene + H <=> W8_9
+""",
+)
+
+entry(
+    index = 138,
+    label = "C9H8-12 + H <=> C9H9-14",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.113e+08, 'cm^3/(mol*s)'),
+        n = 1.511,
+        Ea = (4.384, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_C9H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: phenyl-allene + H <=> W11
+""",
+)
+
+entry(
+    index = 139,
+    label = "C9H8-13 + H <=> C9H9-15",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.255e+11, 'cm^3/(mol*s)'),
+        n = 1.005,
+        Ea = (3.143, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_C9H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: P4 + H <=> W11
+""",
+)
+
+entry(
+    index = 140,
+    label = "C9H8-14 + H <=> C9H9-16",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.276e+10, 'cm^3/(mol*s)'),
+        n = 1.103,
+        Ea = (4.911, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_C9H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: P4 + H <=> W20
+""",
+)
+
+entry(
+    index = 141,
+    label = "C8H6 + CH3 <=> C9H9-17",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (563200, 'cm^3/(mol*s)'),
+        n = 2.488,
+        Ea = (11.733, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_C9H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: phenylacetylene + CH3 <=> W3_4
+""",
+)
+
+entry(
+    index = 142,
+    label = "C8H6-2 + CH3 <=> C9H9-18",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (713400, 'cm^3/(mol*s)'),
+        n = 2.58,
+        Ea = (7.568, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_C9H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: phenylacetylene + CH3 <=> W5
+""",
+)
+
