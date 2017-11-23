@@ -2720,3 +2720,16 @@ u"""
 Taken from entry: P5 + H <=> W7
 """,
 )
+
+entry(
+    index = 172,
+    label = "C6H9-11 <=> C5H6-2 + CH3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9.89e+14, 's^-1'), n=0, Ea=(38.9, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Wang_K_C6H9""",
+    longDesc = 
+u"""
+Taken from entry: Well_5 <=> CH3 + CPD
+""",
+)
