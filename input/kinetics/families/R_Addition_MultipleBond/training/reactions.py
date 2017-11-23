@@ -1314,7 +1314,7 @@ More information can be found on pharos/home/laitcl/Gaussian/HAdditiontoRing
 
 entry(
     index = 81,
-    label = "C7H8-28 + H <=> C7H9-24",
+    label = "C7H8-13 + H <=> C7H9-24",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.04885e+09, 'cm^3/(mol*s)'), n = 1.43982, Ea = (18.8871, 'kJ/mol'), T0=(1, 'K')),
     rank = 3,
@@ -1582,7 +1582,7 @@ Taken from entry: C6H5CH3 + H <=> ipso-(C7H9)
 
 entry(
     index = 100,
-    label = "C7H9-8 <=> C6H6-6 + CH3",
+    label = "C7H9-8 <=> C6H6-2 + CH3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.831e+11, 's^-1'), n=0.669, Ea=(19.862, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
@@ -2429,7 +2429,7 @@ Taken from entry: 4_phenyl_buten_3_yl <=> 1_phenyl_1_3_butadiene + H
 
 entry(
     index = 151,
-    label = "C10H11-14 <=> C10H10-15 + H",
+    label = "C10H11-14 <=> C10H10-9 + H",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.38e+10, 's^-1'), n=1.25, Ea=(92.6, 'kJ/mol'), T0=(1, 'K')),
     rank = 3,
@@ -2849,7 +2849,7 @@ Taken from entry: benzene_1 + methyl_7 <=> C7H9_12
 
 entry(
     index = 178,
-    label = "C7H9-9 <=> C7H8-14 + H",
+    label = "C7H9-9 <=> C7H8-5 + H",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.217e+10, 's^-1'), n=0.87, Ea=(25.199, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
@@ -2880,7 +2880,7 @@ Taken from entry: C7H7_10 + ethyne_8 <=> C9H9_13
 
 entry(
     index = 180,
-    label = "C9H9-9 <=> C9H8-15 + H",
+    label = "C9H9-9 <=> C9H8-7 + H",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.597e+10, 's^-1'), n=0.889, Ea=(20.893, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
@@ -2929,7 +2929,7 @@ Taken from entry: benzene_1 + C3H3_9 <=> C9H9_6
 
 entry(
     index = 183,
-    label = "C9H9-6 <=> C9H8-16 + H",
+    label = "C9H9-6 <=> C9H8-4 + H",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.591e+10, 's^-1'), n=0.886, Ea=(24.975, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
