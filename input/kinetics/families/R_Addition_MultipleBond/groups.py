@@ -17021,7 +17021,7 @@ entry(
 
 entry(
     index = 1074,
-    label = "Cb-H_Cb-C-Ortho",
+    label = "Cb-H-Ortho_Cb-C",
     group =
 """
 1 *1 Cb       u0 {2,B} {3,S}
@@ -17035,7 +17035,7 @@ entry(
 
 entry(
     index = 1075,
-    label = "Cb-H_Cb-H-Meta",
+    label = "Cb-H-Meta_Cb-H",
     group =
 """
 1 *1 Cb       u0 {2,B} {6,S}
@@ -17050,7 +17050,7 @@ entry(
 
 entry(
     index = 1076,
-    label = "Cb-H_Cb-H-Para",
+    label = "Cb-H-Para_Cb-H",
     group =
 """
 1 *1 Cb       u0 {2,B} {7,S}
@@ -17471,10 +17471,10 @@ L1: R_R
             L4: Cb-H_Cb-R!H
                 L5: Cb-H_Cb-indeneNde
                 L5: Cb-H_Cbf-Cb
-                L5: Cb-H_Cb-C-Ortho
+                L5: Cb-H-Ortho_Cb-C
             L4: Cb-H_Cb-H
-                L5: Cb-H_Cb-H-Meta
-                L5: Cb-H_Cb-H-Para
+                L5: Cb-H-Meta_Cb-H
+                L5: Cb-H-Para_Cb-H
                 L5: Cb-H_Cb-H_o_ketene
     L2: Cd_R
         L3: Cdd_Od
