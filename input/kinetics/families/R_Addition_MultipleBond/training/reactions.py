@@ -2777,3 +2777,34 @@ u"""
 Taken from entry: W4 <=> P1 + H
 """,
 )
+
+entry(
+    index = 176,
+    label = "C8H7-3 <=> C8H6 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.323e+10, 's^-1'), n=1.103, Ea=(38.251, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Mebel_C6H5_C2H2_highP""",
+    longDesc = 
+u"""
+Taken from entry: W1 <=> P1 + H
+""",
+)
+
+entry(
+    index = 177,
+    label = "C2H2 + C6H5 <=> C8H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.954e+07, 'cm^3/(mol*s)'),
+        n = 1.638,
+        Ea = (3.448, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Mebel_C6H5_C2H2_highP""",
+    longDesc = 
+u"""
+Taken from entry: R1 + C2H2 <=> W1
+""",
+)
