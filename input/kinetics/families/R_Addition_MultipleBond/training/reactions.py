@@ -2808,3 +2808,114 @@ u"""
 Taken from entry: R1 + C2H2 <=> W1
 """,
 )
+
+entry(
+    index = 178,
+    label = "C6H6-2 + CH3 <=> C7H9-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2195, 'cm^3/(mol*s)'),
+        n = 2.878,
+        Ea = (10.912, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: benzene_1 + methyl_7 <=> C7H9_12
+""",
+)
+
+entry(
+    index = 179,
+    label = "C7H9-9 <=> C7H8-14 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.217e+10, 's^-1'), n=0.87, Ea=(25.199, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: C7H9_12 <=> C7H8_17 + H_15
+""",
+)
+
+entry(
+    index = 180,
+    label = "C2H2 + C7H7-3 <=> C9H9-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (31630, 'cm^3/(mol*s)'),
+        n = 2.479,
+        Ea = (11.061, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: C7H7_10 + ethyne_8 <=> C9H9_13
+""",
+)
+
+entry(
+    index = 181,
+    label = "C9H9-9 <=> C9H8-15 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.597e+10, 's^-1'), n=0.889, Ea=(20.893, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: C9H9_14 <=> indene_25 + H_15
+""",
+)
+
+entry(
+    index = 182,
+    label = "C6H6-2 + C3H3 <=> C9H9-19",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (144.6, 'cm^3/(mol*s)'),
+        n = 2.951,
+        Ea = (14.055, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: benzene_1 + C3H3_9 <=> C9H9_2
+""",
+)
+
+entry(
+    index = 183,
+    label = "C6H6-2 + C3H3-2 <=> C9H9-20",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (312.3, 'cm^3/(mol*s)'),
+        n = 2.973,
+        Ea = (16.396, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: benzene_1 + C3H3_9 <=> C9H9_6
+""",
+)
+
+entry(
+    index = 184,
+    label = "C9H9-6 <=> C9H8-16 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.591e+10, 's^-1'), n=0.886, Ea=(24.975, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: C9H9_5 <=> indene_25 + H_15
+""",
+)
