@@ -37,7 +37,7 @@ entry(
     label = "o_atom_singlet",
     group = 
 """
-1 *3 O u0 p3
+1 *3 O u0 p3 c0
 """,
     kinetics = None,
 )
@@ -47,7 +47,7 @@ entry(
     label = "S_atom_singlet",
     group = 
 """
-1 *3 S u0 p3
+1 *3 S u0 p3 c0
 """,
     kinetics = None,
 )
@@ -840,5 +840,18 @@ L1: multiplebond
         L3: mb_tb_disub
             L4: mb_tb_disub_twoNd
 """
+)
+
+forbidden(
+    label = "O0sc",
+    group =
+"""
+1 *3 O0sc u0 p3 c-1
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+This will form unreasonable structures such as C=N + C1[O-](N1)[N+]#N <=> C1[O-](N1)[N+]#N
+""",
 )
 
