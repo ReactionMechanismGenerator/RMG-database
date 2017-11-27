@@ -7056,6 +7056,78 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 442,
+    label = "2_methyl_CPD",
+    group =
+"""
+1 *1 Cs u0 {2,S} {7,S} {8,S} {9,S}
+2  Cd u0 {1,S} {3,D} {6,S}
+3  Cd u0 {2,D} {4,S}
+4  Cd u0 {3,S} {5,D}
+5  Cd u0 {4,D} {6,S}
+6  C u0 {2,S} {5,S}
+7 *2 H u0 {1,S}
+8  H  u0 {1,S}
+9  H  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 443,
+    label = "3_methyl_CPD",
+    group =
+"""
+1 *1 Cs u0 {3,S} {7,S} {8,S} {9,S}
+2  Cd u0 {3,D} {6,S}
+3  Cd u0 {2,D} {4,S} {1,S}
+4  Cd u0 {3,S} {5,D}
+5  Cd u0 {4,D} {6,S}
+6  C u0 {2,S} {5,S}
+7 *2 H u0 {1,S}
+8  H  u0 {1,S}
+9  H  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 444,
+    label = "C/H3/Cs\TwoDe",
+    group =
+"""
+1 *1 C        u0 {2,S} {3,S} {4,S} {5,S}
+2    Cs       u0 {1,S} {6,S} {7,S} {8,S}
+3 *2 H        u0 {1,S}
+4    H        u0 {1,S}
+5    H        u0 {1,S}
+6    [Cd,CO,Cb,Ct] u0 {2,S}
+7    [Cd,CO,Cb,Ct] u0 {2,S}
+8    H        u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 445,
+    label = "1_methyl_CPD",
+    group =
+"""
+1 *1 Cs u0 {6,S} {7,S} {8,S} {9,S}
+2  Cd u0 {3,D} {6,S}
+3  Cd u0 {2,D} {4,S}
+4  Cd u0 {3,S} {5,D}
+5  Cd u0 {4,D} {6,S}
+6  Cs u0 {2,S} {5,S} {1,S} {10,S}
+7 *2 H u0 {1,S}
+8    H        u0 {1,S}
+9    H        u0 {1,S}
+10   H        u0 {6,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
@@ -7192,6 +7264,8 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                     L6: C/H3/Cs\TwoNonDe
                         L7: C/H3/Cs\H\Cs\O
                         L7: C/H3/Cs\H\Cs\Cs|O
+                    L6: C/H3/Cs\TwoDe
+                        L7: 1_methyl_CPD
                 L5: C/H3/O
                 L5: C/H3/S
                 L5: C/H3/OneDe
@@ -7200,6 +7274,8 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                     L6: C/H3/CO
                     L6: C/H3/CS
                     L6: C/H3/Cd
+                        L7: 2_methyl_CPD
+                        L7: 3_methyl_CPD
                         L7: C/H3/Cd\H_Cd\H2
                         L7: C/H3/Cd\H_Cd\H\Cs
                         L7: C/H3/Cd\Cs_Cd\H2
