@@ -3297,6 +3297,18 @@ entry(
 )
 
 entry(
+    index = 286,
+    label = "C_rad_out_Cd/Cb",
+    group = 
+"""
+1 *1 C   u1 {2,S} {3,S}
+2    Cd  u0 {1,S}
+3    Cb  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 218,
     label = "CO_H_out",
     group = 
@@ -3660,6 +3672,23 @@ entry(
 5    C  u0 {3,D} {7,S} {8,S}
 6    R  u0 {3,S}
 7    R  u0 {5,S}
+8    R  u0 {5,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 290,
+    label = "Cs_H_out_H/Cd/C/Cb",
+    group = 
+"""
+1 *2 Cs u0 {2,S} {3,S} {4,S}
+2 *3 H  u0 {1,S}
+3    Cd u0 {1,S} {5,D} {6,S}
+4    H  u0 {1,S}
+5    C  u0 {3,D} {7,S} {8,S}
+6    R  u0 {3,S}
+7    Cb u0 {5,S}
 8    R  u0 {5,S}
 """,
     kinetics = None,
@@ -4138,6 +4167,24 @@ entry(
 )
 
 entry(
+    index = 288,
+    label = "C_rad_out_Cd/Cd_cyc5_cyc6",
+    group =
+"""
+1 *1 C  u1 {2,S} {3,S}
+2    Cd u0 {1,S} {4,D}
+3    Cd u0 {1,S} {5,D}
+4    Cd u0 {5,S} {2,D} {9,S}
+5    Cd u0 {4,S} {3,D} {6,S}
+6    Cd u0 {5,S} {7,D}
+7    Cd u0 {6,D} {8,S}
+8    Cd u0 {7,S} {9,D}
+9    Cd u0 {8,D} {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 279,
     label = "Cd_H_out_double(Cd-Cd-Cd-Cd)",
     group =
@@ -4221,6 +4268,35 @@ entry(
 """
 1 *1 Cd       u1 {2,D}
 2    Cd       u0 {1,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 287,
+    label = "Cd_rad_out_Cd_sec_ring",
+    group =
+"""
+1 *1 Cd u1 {2,D}
+2    Cd u0 {1,D} {3,S} {7,S}
+3    Cd	u0 {2,S} {4,D}
+4    Cd u0 {3,D} {5,S}
+5    Cd u0 {4,S} {6,D}
+6    Cd u0 {5,D} {7,S}
+7    Cd u0 {6,S} {2,S} {8,D}
+8    Cd u0 {7,D}		
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 289,
+    label = "Cd_rad_out_Cd_Cb",
+    group =
+"""
+1 *1 Cd       u1 {2,D}
+2    Cd       u0 {1,D} {3,S}
+3    Cb	      u0 {2,S}
 """,
     kinetics = None,
 )
@@ -4428,7 +4504,9 @@ L1: Y_rad_out
     L2: Cd_rad_out
         L3: Cd_rad_out_double
             L4: Cd_rad_out_Cd
-	    L4: Cd_rad_out_double_benzene
+                L5: Cd_rad_out_Cd_Cb
+                L5: Cd_rad_out_Cd_sec_ring
+            L4: Cd_rad_out_double_benzene
         L3: Cd_rad_out_single
             L4: Cd_rad_out_singleH
             L4: Cd_rad_out_singleNd
@@ -4464,6 +4542,8 @@ L1: Y_rad_out
             L4: C_rad_out_TwoDe
                 L5: C_rad_out_Cd/Cd
                     L6: C_rad_out_Cd/Cd_cyc5
+                        L7: C_rad_out_Cd/Cd_cyc5_cyc6
+		        L5: C_rad_out_Cd/Cb
 L1: XH_out
     L2: CO_H_out
     L2: O_H_out
@@ -4499,6 +4579,7 @@ L1: XH_out
                 L5: Cs_H_out_H/Cd
                     L6: Cs_H_out_H/(Cd-Cd-Cd)
                         L7: Cs_H_out_H/(Cd-Cd-Cd-Cd-Cd)
+                    L6: Cs_H_out_H/Cd/C/Cb	
             L4: Cs_H_out_H/AromDe
         L3: Cs_H_out_noH
             L4: Cs_H_out_NonDe

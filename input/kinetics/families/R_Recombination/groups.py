@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # encoding: utf-8
 
 name = "R_Recombination/groups"
@@ -1501,6 +1500,18 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 112,
+    label = "Cd_allenic_Cb",
+    group = 
+"""
+1 * C   u1 {2,D} {3,S}
+2   Cdd u0 {1,D}
+3   Cb  u0 {1,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Y_rad
@@ -1532,6 +1543,7 @@ L1: Y_rad
             L4: Cd_rad/OneDe
                 L5: Cd_rad/Cd
         L3: Cd_allenic
+	    L4: Cd_allenic_Cb
     L2: Cb_rad
     L2: CO_rad
         L3: CO_pri_rad
