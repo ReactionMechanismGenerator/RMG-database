@@ -3425,7 +3425,7 @@ entry(
 
 entry(
     index = 268,
-    label = "Cd_H_out_singleDe_CdCb",
+    label = "Cd_H_out_CdCb",
     group = 
 """
 1 *2 Cd            u0 {2,S} {3,S}
@@ -4179,6 +4179,51 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 282,
+    label = "Cd_rad_out_Cs",
+    group =
+"""
+1 *1 Cd       u1 {2,S}
+2    Cs       u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 283,
+    label = "Cd_H_out_Cb",
+    group =
+"""
+1 *2 Cd            u0 {2,S} {3,S}
+2 *3 H             u0 {1,S}
+3    Cb            u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 284,
+    label = "C_rad_out_H/Cd",
+    group =
+"""
+1 *1 C  u1 {2,S} {3,S}
+2    H  u0 {1,S}
+3    Cd u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 285,
+    label = "Cd_rad_out_Cd",
+    group =
+"""
+1 *1 Cd       u1 {2,D}
+2    Cd       u0 {1,D}
+""",
+    kinetics = None,
+)
 
 tree(
 """
@@ -4382,12 +4427,14 @@ L1: Y_rad_out
     L2: S_rad_out
     L2: Cd_rad_out
         L3: Cd_rad_out_double
+            L4: Cd_rad_out_Cd
 	    L4: Cd_rad_out_double_benzene
         L3: Cd_rad_out_single
             L4: Cd_rad_out_singleH
             L4: Cd_rad_out_singleNd
+                L5: Cd_rad_out_Cs
             L4: Cd_rad_out_singleDe
-		L5: Cd_rad_out_singleDe_Cb
+                L5: Cd_rad_out_singleDe_Cb
     L2: Ct_rad_out
     L2: Cb_rad_out
     L2: CO_rad_out
@@ -4401,6 +4448,7 @@ L1: Y_rad_out
             L4: C_rad_out_H/OneDe
                 L5: C_rad_out_H/(Cd-Cd-Cd-Cd-Cd)
                 L5: C_rad_out_H/(Cd-Cd-Cd)
+                L5: C_rad_out_H/Cd
                 L5: C_rad_out_H/Cb
         L3: C_rad_out_noH
             L4: C_rad_out_NonDe
@@ -4429,7 +4477,8 @@ L1: XH_out
         L3: Cd_H_out_singleH
         L3: Cd_H_out_singleNd
         L3: Cd_H_out_singleDe
-	    L4:Cd_H_out_singleDe_CdCb
+            L4: Cd_H_out_Cb
+	        L4: Cd_H_out_CdCb
     L2: Cs_H_out
         L3: Cs_H_out_OOH    
             L4: Cs_H_out_OOH/Cs
