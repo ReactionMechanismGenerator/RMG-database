@@ -6027,3 +6027,26 @@ Prevents the fulvene + H radical with radical site on the ring-edge from abstrac
 from the end of the tail
 """,
 )
+
+##########
+#Forbid a radical double-bonded to a 6-membered ring from abstracting an H the para position
+
+forbidden(
+    label = "H_mig_from_p_position_of_cyc6_sidegroup_to_1_position_of_double_bonded_sidechain_dir_1",
+    group =
+"""
+1 *1 R!H u1 {2,D}
+2    R!H u0 {1,D} {3,[S,D,T,B]} {4,[S,D,T,B]}
+3    R!H u0 {2,[S,D,T,B]} {6,[S,D,T,B]}
+4    R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+5 *2 R!H u0 {6,[S,D,T,B]} {7,[S,D,T,B]} {8,S}
+6    R!H u0 {3,[S,D,T,B]} {5,[S,D,T,B]}
+7    R!H u0 {4,[S,D,T,B]} {5,[S,D,T,B]}
+8 *3 H u0 {5,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a radical double-bonded to a 6-membered ring from abstracting an H the para position
+""",
+)
