@@ -3946,6 +3946,23 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 268,
+    label = "Cs_H_out_(CdCdCd)",
+    group = 
+"""
+1 *2 Cs     u0 {2,S} {3,S} {4,S}
+2 *3 H      u0 {1,S}
+3    Cd     u0 {1,S} {5,D} {6,S}
+4    [Cs,O] u0 {1,S}
+5    Cd      u0 {3,D} {7,S} {8,S}
+6    R      u0 {3,S}
+7    Cd      u0 {5,S}
+8    R      u0 {5,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: RnH
@@ -4216,6 +4233,7 @@ L1: XH_out
                 L5: Cs_H_out_CO
                 L5: Cs_H_out_CS
                 L5: Cs_H_out_Cd
+                    L6: Cs_H_out_(CdCdCd)
             L4: Cs_H_out_TwoDe
                 L5: Cs_H_out_CtCt
                 L5: Cs_H_out_CdCt
