@@ -336,7 +336,7 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 22,
     label = "indene",
     group =
 """
@@ -354,11 +354,31 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 23,
+    label = "cyclopentadiene_cyc6",
+    group =
+"""
+1 *1 Cs u0 {2,S} {5,S} {6,S}
+2 *2 Cd u0 {1,S} {3,D}
+3 *3 Cd u0 {2,D} {4,S} {7,S}
+4 *4 Cd u0 {3,S} {5,D} {10,S}
+5 *5 Cd u0 {1,S} {4,D}
+6 *6 H  u0 {1,S}
+7    Cd u0 {3,S} {8,D}
+8    Cd u0 {7,D} {9,S}
+9    Cd u0 {8,S} {10,D}
+10   Cd u0 {9,D} {4,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: 1_3_unsaturated_pentane_backbone
     L2: cyclopentadiene
         L3: indene
+        L3: cyclopentadiene_cyc6
     L2: 1_3_4_pentatriene
     L2: 1_3_pentadiene
     L2: 1_pentyn_3_ene
