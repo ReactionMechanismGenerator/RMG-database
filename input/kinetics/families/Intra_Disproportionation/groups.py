@@ -24,7 +24,7 @@ boundaryAtoms = ["*1", "*3"]
 entry(
     index = 1,
     label = "Rn",
-    group = "OR{R3, R4, R5, R6, R7}",
+    group = "OR{R2radExo, R3, R4, R5, R6, R7}",
     kinetics = None,
 )
 
@@ -286,9 +286,23 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 24,
+    label = "R2radExo",
+    group = 
+"""
+1 *1 R!H u1 {2,[S,D,B]}
+2 *2 R!H u0 {1,[S,D,B]} {3,S} {4,S}
+3 *3 R!H u1 {2,S}
+4 *4 H   u0 {2,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Rn
+    L2: R2radExo
     L2: R3
         L3: R3radExo
     L2: R4
@@ -392,33 +406,3 @@ u"""
 """,
 )
 
-forbidden(
-    label = "Allylicrad1",
-    group = 
-"""
-1 *1 R u1 {2,S}
-2 R u0 {1,S} {3,D}
-3 R u0 {2,D} 
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-
-forbidden(
-    label = "Allylicrad2",
-    group = 
-"""
-+1 *3 R u1 {2,S}
-+2 R u0 {1,S} {3,D}
-+3 R u0 {2,D} 
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
