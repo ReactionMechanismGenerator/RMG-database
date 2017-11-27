@@ -2946,18 +2946,6 @@ entry(
 )
 
 entry(
-    index = 268,
-    label = "Cd_rad_out_double_benzene",
-    group = 
-"""
-1 *1 Cd       u1 {2,D}
-2    [Cd,Cdd] u0 {1,D} {3,S}
-3    Cb       u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 190,
     label = "Cd_rad_out_double",
     group = 
@@ -3688,12 +3676,9 @@ entry(
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
-3    Cd u0 {1,S} {5,D} {6,S}
+3    Cd u0 {1,S} {5,D}
 4    H  u0 {1,S}
-5    C  u0 {3,D} {7,S} {8,S}
-6    R  u0 {3,S}
-7    R  u0 {5,S}
-8    R  u0 {5,S}
+5    C  u0 {3,D}
 """,
     kinetics = None,
 )
@@ -4330,13 +4315,13 @@ entry(
 1  *5 Cb u0 {2,B} {3,S} {4,B}
 2  Cb u0 {1,B} {5,B} {6,S}
 3  *4 Cd u0 {1,S} {7,S} {10,D}
-4  *2 Cb u0 {1,B} {8,B} {11,S}
+4  *2 R!H u0 {1,B} {8,B} {11,S}
 5  Cb u0 {2,B} {9,B}
 6  Cd u0 {2,S} {7,D}
 7  Cd u0 {3,S} {6,D}
 8  Cb u0 {4,B} {9,B}
 9  Cb u0 {5,B} {8,B}
-10 *1 Cd u1 {3,D}
+10 *1 R!H u1 {3,D}
 11 *3 H u0 {4,S}
 """,
     kinetics = None,
@@ -4353,10 +4338,10 @@ entry(
 4  Cb u0 {1,B} {8,B}
 5  Cb u0 {2,B} {9,B}
 6  Cd u0 {2,S} {7,D}
-7  *2 Cd u0 {3,S} {6,D} {11,S}
+7  *2 R!H u0 {3,S} {6,D} {11,S}
 8  Cb u0 {4,B} {9,B}
 9  Cb u0 {5,B} {8,B}
-10 *1 Cd u1 {3,D}
+10 *1 R!H u1 {3,D}
 11 *3 H u0 {7,S}
 """,
     kinetics = None,
@@ -4581,7 +4566,6 @@ L1: Y_rad_out
             L4: Cd_rad_out_Cd
                 L5: Cd_rad_out_Cd_Cb
                 L5: Cd_rad_out_Cd_sec_ring
-            L4: Cd_rad_out_double_benzene
         L3: Cd_rad_out_single
             L4: Cd_rad_out_singleH
             L4: Cd_rad_out_singleNd
@@ -4642,23 +4626,6 @@ L1: XH_out
             L4: Cs_H_out_OOH/Cs
             L4: Cs_H_out_OOH/H
         L3: Cs_H_out_2H
-            L4: Cs_H_out_2H/NonDeC
-        L3: Cs_H_out_1H
-            L4: Cs_H_out_H/NonDeC
-                L5: Cs_H_out_H/(NonDeC/Cs)
-                    L6: Cs_H_out_H/(NonDeC/Cs/Cs)
-                        L7: Cs_H_out_H/(NonDeC/Cs/Cs/Cs)
-                L5: Cs_H_out_H/(NonDeC/O)
-            L4: Cs_H_out_H/NonDeS
-            L4: Cs_H_out_H/OneDe
-                L5: Cs_H_out_H/Ct
-                L5: Cs_H_out_H/CO
-                L5: Cs_H_out_H/CS
-                L5: Cs_H_out_H/Cd
-                    L6: Cs_H_out_H/(Cd-Cd-Cd)
-                        L7: Cs_H_out_H/(Cd-Cd-Cd-Cd-Cd)
-                    L6: Cs_H_out_H/Cd/C/Cb	
-            L4: Cs_H_out_H/AromDe
         L3: Cs_H_out_noH
             L4: Cs_H_out_NonDe
                 L5: Cs_H_out_Cs2
@@ -4691,7 +4658,10 @@ L1: XH_out
                 L5: Cs_H_out_H/CO
                 L5: Cs_H_out_H/CS
                 L5: Cs_H_out_H/Cd
-        L3: Cs_H_out_2H
+                    L6: Cs_H_out_H/(Cd-Cd-Cd)
+                        L7: Cs_H_out_H/(Cd-Cd-Cd-Cd-Cd)
+                    L6: Cs_H_out_H/Cd/C/Cb	
+            L4: Cs_H_out_H/AromDe
 """
 )
 
