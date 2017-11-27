@@ -3023,6 +3023,27 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 292,
+    label = "Cd_rad_out_singleDe_Ct",
+    group = 
+"""
+1 *1 Cd            u1 {2,S}
+2    Ct u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 293,
+    label = "Cd_rad_out_singleDe_Cd",
+    group = 
+"""
+1 *1 Cd            u1 {2,S}
+2    Cd u0 {1,S}
+""",
+    kinetics = None,
+)
 
 entry(
     index = 195,
@@ -4555,6 +4576,8 @@ L1: Y_rad_out
                 L5: Cd_rad_out_Cs
             L4: Cd_rad_out_singleDe
                 L5: Cd_rad_out_singleDe_Cb
+                L5: Cd_rad_out_singleDe_Ct
+                L5: Cd_rad_out_singleDe_Cd
     L2: Ct_rad_out
     L2: Cb_rad_out
     L2: CO_rad_out
