@@ -307,6 +307,34 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 20,
+    label = "CdCJ_2",
+    group =
+"""
+1  *2 Cd u0 {2,S}
+2  C u1 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 21,
+    label = "CH(CJ)_1",
+    group =
+"""
+1 *1 Cs u0 {2,S} {3,S}
+2 *6 H u0 {1,S}
+3 C u1 {1,S}
+""",
+    kinetics = None,
+    shortDesc = "",
+    longDesc =
+u"""
+
+""",
+)
+
 tree(
 """
 L1: 1_3_unsaturated_pentane_backbone
@@ -320,11 +348,13 @@ L1: CH_end
     L2: CH3_1
     L2: CH2(C)_1
     L2: CH(C)C_1
+    L2: CH(CJ)_1
     L2: CH=C_1
 L1: unsaturated_end
     L2: CdH2_2
     L2: CdHC_2
     L2: Cd(C)C_2
+    L2: CdCJ_2
     L2: CddC_2
     L2: CtH_2
     L2: CtC_2
