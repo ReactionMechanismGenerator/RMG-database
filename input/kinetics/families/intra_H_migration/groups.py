@@ -4109,6 +4109,34 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 277,
+    label = "C_rad_out_H/(Cd-Cd-Cd)",
+    group =
+"""
+1 *1 C  u1 {2,S} {3,S}
+2    H  u0 {1,S}
+3    Cd u0 {1,S} {4,D}
+4    Cd u0 {5,S} {3,D}
+5    Cd u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 278,
+    label = "C_rad_out_Cd/Cd_cyc5",
+    group =
+"""
+1 *1 C  u1 {2,S} {3,S}
+2    Cd u0 {1,S} {4,D}
+3    Cd u0 {1,S} {5,D}
+4    Cd u0 {5,S} {2,D}
+5    Cd u0 {4,S} {3,D}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: RnH
@@ -4328,6 +4356,7 @@ L1: Y_rad_out
             L4: C_rad_out_H/NonDeS
             L4: C_rad_out_H/OneDe
                 L5: C_rad_out_H/(Cd-Cd-Cd-Cd-Cd)
+                L5: C_rad_out_H/(Cd-Cd-Cd)
         L3: C_rad_out_noH
             L4: C_rad_out_NonDe
                 L5: C_rad_out_Cs2
@@ -4341,6 +4370,7 @@ L1: Y_rad_out
                 L5: C_rad_out_OneDe/S
             L4: C_rad_out_TwoDe
                 L5: C_rad_out_Cd/Cd
+                    L6: C_rad_out_Cd/Cd_cyc5
 L1: XH_out
     L2: CO_H_out
     L2: O_H_out
