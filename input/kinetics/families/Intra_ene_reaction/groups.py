@@ -340,8 +340,8 @@ entry(
     label = "indene",
     group =
 """
-1 *1 Cs u0 {2,S} {5,S} {6,S} {7,S}
-2 *2 Cd u0 {1,S} {3,D}
+1 *1 C u0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C u0 {1,S} {3,D}
 3 *3 Cd u0 {2,D} {4,S}
 4 *4 Cd u0 {3,S} {5,D}
 5 *5 Cd u0 {1,S} {4,D} {10,S}
@@ -359,8 +359,8 @@ entry(
     label = "cyclopentadiene_cyc6",
     group =
 """
-1 *1 Cs u0 {2,S} {5,S} {6,S}
-2 *2 Cd u0 {1,S} {3,D}
+1 *1 C u0 {2,S} {5,S} {6,S}
+2 *2 C u0 {1,S} {3,D}
 3 *3 Cd u0 {2,D} {4,S} {7,S}
 4 *4 Cd u0 {3,S} {5,D} {10,S}
 5 *5 Cd u0 {1,S} {4,D}
