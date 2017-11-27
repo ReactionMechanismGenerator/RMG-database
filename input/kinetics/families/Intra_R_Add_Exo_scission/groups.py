@@ -16,6 +16,8 @@ recipe(actions=[
     ['GAIN_RADICAL', '*3', '1'],
 ])
 
+boundaryAtoms = ["*1", "*2"]
+
 entry(
     index = 1,
     label = "Rn-Cs-Cb",
