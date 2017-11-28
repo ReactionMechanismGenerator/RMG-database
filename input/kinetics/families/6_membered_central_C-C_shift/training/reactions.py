@@ -36,3 +36,61 @@ Taken from entry: II <=> I
 """,
 )
 
+
+
+entry(
+    index = 3,
+    label = "C10H10 <=> C10H10-2",
+    degeneracy = 1.0,
+    duplicate = True,
+    kinetics = Arrhenius(A=(2.214e+09, 's^-1'), n=0.749, Ea=(47.859, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2012_Matsugi_C3H3_C7H7_highP""",
+    longDesc = 
+u"""
+Taken from entry: W1 <=> W4
+""",
+)
+
+entry(
+    index = 4,
+    label = "C10H10-2 <=> C10H10",
+    degeneracy = 1.0,
+    duplicate = True,
+    kinetics = Arrhenius(A=(3.213e+11, 's^-1'), n=0.07, Ea=(18.329, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2012_Matsugi_C3H3_C7H7_highP""",
+    longDesc = 
+u"""
+Taken from entry: W4 <=> W1
+""",
+)
+
+entry(
+    index = 5,
+    label = "C10H10-3 <=> C10H10-4",
+    degeneracy = 1.0,
+    duplicate = True,
+    kinetics = Arrhenius(A=(4.484e+11, 's^-1'), n=0.032, Ea=(50.631, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2012_Matsugi_C3H3_C7H7_highP""",
+    longDesc = 
+u"""
+Taken from entry: W2 <=> W3
+""",
+)
+
+entry(
+    index = 6,
+    label = "C10H10-4 <=> C10H10-3",
+    degeneracy = 1.0,
+    duplicate = True,
+    kinetics = Arrhenius(A=(3.626e+11, 's^-1'), n=0.119, Ea=(18.066, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2012_Matsugi_C3H3_C7H7_highP""",
+    longDesc = 
+u"""
+Taken from entry: W3 <=> W2
+""",
+)
+
