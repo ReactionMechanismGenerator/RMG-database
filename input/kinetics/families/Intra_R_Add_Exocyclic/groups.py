@@ -5924,3 +5924,94 @@ Prevent a s2_3_6_diene_0_2 bicyclic (using polycyclic.py nomenclature) from unde
 from the tip of the 3-member ring to one of the far corners of the 6.
 """,
 )
+
+###################
+#Forbidden groups for Naphthyl radical
+
+forbidden(
+    label = "1_naphthyl_7_add_res1",
+    group =
+"""
+1 C u0 {2,B} {3,S} {4,B}
+2 C u0 {1,B} {5,S} {10,B}
+3 C u0 {1,S} {6,D}
+4 C u0 {1,B} {8,B}
+5 *3 C u0 {2,S} {7,D}
+6 C u0 {3,D} {7,S}
+7 *2 C u0 {5,D} {6,S}
+8 C u0 {4,B} {9,B}
+9 C u0 {8,B} {10,B}
+10 *1 C u1 {2,B} {9,B}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Prevent a 1-naphthyl radical from attacking it's 7 site. Resonance form 1.
+""",
+)
+
+forbidden(
+    label = "1_naphthyl_7_add_res2",
+    group =
+"""
+1 C u0 {2,S} {3,S} {4,D}
+2 C u0 {1,S} {5,S} {10,D}
+3 C u0 {1,S} {6,D}
+4 C u0 {1,D} {8,S}
+5 *3 C u0 {2,S} {7,D}
+6 C u0 {3,D} {7,S}
+7 *2 C u0 {5,D} {6,S}
+8 C u0 {4,S} {9,D}
+9 C u0 {8,D} {10,S}
+10 *1 C u1 {2,D} {9,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Prevent a 1-naphthyl radical from attacking it's 7 site. Resonance form 2.
+""",
+)
+
+forbidden(
+    label = "1_naphthyl_7_add_res3",
+    group =
+"""
+1 C u0 {2,D} {3,S} {4,S}
+2 C u0 {1,D} {5,S} {10,S}
+3 C u0 {1,S} {6,D}
+4 C u0 {1,S} {8,D}
+5 *3 C u0 {2,S} {7,D}
+6 C u0 {3,D} {7,S}
+7 *2 C u0 {5,D} {6,S}
+8 C u0 {4,D} {9,S}
+9 C u0 {8,S} {10,D}
+10 *1 C u1 {2,S} {9,D}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Prevent a 1-naphthyl radical from attacking it's 7 site. Resonance form 3.
+""",
+)
+
+forbidden(
+    label = "1_naphthyl_7_add_res4",
+    group =
+"""
+1 C u0 {2,S} {3,S} {4,D}
+2 C u0 {1,S} {5,S} {10,D}
+3 C u0 {1,S} {6,D}
+4 C u0 {1,D} {8,S}
+5 *1 C u1 {2,S} {7,D}
+6 C u0 {3,D} {7,S}
+7 C u0 {5,D} {6,S}
+8 *3 C u0 {4,S} {9,D}
+9 *2 C u0 {8,D} {10,S}
+10 C u0 {2,D} {9,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Prevent a 1-naphthyl radical from attacking it's 7 site. Resonance form 4.
+""",
+)
