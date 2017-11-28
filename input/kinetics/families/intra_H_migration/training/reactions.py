@@ -1176,3 +1176,18 @@ Taken from entry: C9H9_4 <=> C9H9_5
 """,
 )
 
+
+
+entry(
+    index = 85,
+    label = "C3H3O2 <=> C3H3O2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.427, 's^-1'), n=3.311, Ea=(30.765, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3H3OO_intra_H_migration""",
+    longDesc = 
+u"""
+Taken from entry: C3H3OO <=> C3H2OOH
+""",
+)
+
