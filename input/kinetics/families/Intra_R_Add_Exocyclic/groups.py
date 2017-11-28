@@ -2614,6 +2614,22 @@ entry(
 )
 
 entry(
+    index = 342,
+    label = "doublebond_intra_HDe_secDe_benzene",
+    group = 
+"""
+1 *2 Cd            u0 {2,D} {3,S}
+2 *3 Cd            u0 {1,D} {4,S} {5,S}
+3    Cd            u0 {1,S} {6,D}
+4    H             u0 {2,S}
+5    Cd            u0 {2,S} {7,D}
+6    Cd            u0 {3,D} {7,S}
+7    Cd            u0 {6,S} {5,D}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 209,
     label = "doublebond_intra_NdNd",
     group = 
@@ -2971,6 +2987,18 @@ entry(
 )
 
 entry(
+    index = 344,
+    label = "radadd_intra_csHCb",
+    group = 
+"""
+1 *1 Cs u1 {2,S} {3,S}
+2    H  u0 {1,S}
+3    Cb u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 237,
     label = "radadd_intra_csNdNd",
     group = 
@@ -3090,6 +3118,17 @@ entry(
 """
 1 *1 Cd               u1 {2,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 342,
+    label = "radadd_intra_cdsingleDe_cb",
+    group = 
+"""
+1 *1 Cd            u1 {2,S}
+2    Cb		   u0 {1,S}
 """,
     kinetics = None,
 )
@@ -3585,6 +3624,44 @@ entry(
 8  *6 R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
 9  *4 R!H ux {8,[S,D,T,B]} {10,[S,D,T,B]}
 10 *1 R!H u1 {9,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 342,
+    label = "Rn4c6_alpha_benzene",
+    group = 
+"""
+1  *2 C u0 {2,D} {6,S}
+2  *3 C u0 {1,D} {3,S}
+3     C u0 {2,S} {4,D}
+4     C u0 {3,D} {5,S}
+5     C u0 {4,S} {6,D}
+6  *5 C u0 {5,D} {1,S} {7,[S,D,T,B]}
+7  *7 C u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
+8  *6 C u0 {7,[S,D,T,B]} {9,[S,D,T,B]}
+9  *4 C u0 {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 *1 C u1 {9,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 343,
+    label = "Rn4c6_alpha_benzene_Cdchain",
+    group = 
+"""
+1  *2 C u0 {2,D} {6,S}
+2  *3 C u0 {1,D} {3,S}
+3     C u0 {2,S} {4,D}
+4     C u0 {3,D} {5,S}
+5     C u0 {4,S} {6,D}
+6  *5 C u0 {5,D} {1,S} {7,S}
+7  *7 C u0 {6,S} {8,D}
+8  *6 C u0 {7,D} {9,S}
+9  *4 C u0 {8,S} {10,D}
+10 *1 C u1 {9,D}
 """,
     kinetics = None,
 )
@@ -4457,6 +4534,8 @@ L1: Rn
         L3: Rnxc6
             L4: Rnxc6_alpha
                 L5: Rn4c6_alpha
+                    L6:Rn4c6_alpha_benzene
+                        L7:Rn4c6_alpha_benzene_Cdchain
                 L5: Rn3c6_alpha
                 L5: Rn2c6_alpha
                 L5: Rn1c6_alpha
@@ -4688,6 +4767,7 @@ L1: multiplebond_intra
                 L5: doublebond_intra_HCt_pri
             L4: doublebond_intra_HDe_secNd
             L4: doublebond_intra_HDe_secDe
+                L5:doublebond_intra_HDe_secDe_benzene 
         L3: doublebond_intra_NdNd
             L4: doublebond_intra_NdNd_pri
             L4: doublebond_intra_NdNd_secNd
@@ -4717,6 +4797,7 @@ L1: radadd_intra
         L3: radadd_intra_csHDe
             L4: radadd_intra_csHCd
             L4: radadd_intra_csHCt
+            L4: radadd_intra_csHCb
         L3: radadd_intra_csNdNd
         L3: radadd_intra_csNdDe
             L4: radadd_intra_csNdCd
@@ -4728,6 +4809,7 @@ L1: radadd_intra
         L3: radadd_intra_cdsingleH
         L3: radadd_intra_cdsingleNd
         L3: radadd_intra_cdsingleDe
+            L4:radadd_intra_cdsingleDe_cb
     L2: radadd_intra_cddouble
     L2: radadd_intra_CO
     L2: radadd_intra_Ct
