@@ -789,3 +789,41 @@ Taken from entry: C3H3 + C3H3 <=> CHCCH2CH2CCH
 """,
 )
 
+
+
+entry(
+    index = 53,
+    label = "C3H3 + H <=> C3H4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.398e+13, 'cm^3/(mol*s)'),
+        n = 0.102,
+        Ea = (-130.54, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: propargyl_H""",
+    longDesc = 
+u"""
+Taken from entry: C3H3-1 + H <=> C3H4-1
+""",
+)
+
+entry(
+    index = 54,
+    label = "C3H3-2 + H <=> C3H4-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.048e+13, 'cm^3/(mol*s)'),
+        n = 0.206,
+        Ea = (-724.19, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: propargyl_H""",
+    longDesc = 
+u"""
+Taken from entry: C3H3-2 + H <=> C3H4-2
+""",
+)
+
