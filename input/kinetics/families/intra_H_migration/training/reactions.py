@@ -563,3 +563,44 @@ Taken from entry: inew <=> i4
 """,
 )
 
+
+
+entry(
+    index = 39,
+    label = "C6H9 <=> C6H9-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.265e-07, 's^-1'), n=5.639, Ea=(24.541, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Buras_C2H3_C4H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: c5-C6H9 <=> c5-C6H9-3
+""",
+)
+
+entry(
+    index = 40,
+    label = "C6H9-3 <=> C6H9-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.537e-16, 's^-1'), n=8.138, Ea=(14.583, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Buras_C2H3_C4H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: c5-C6H9 <=> c5-C6H9-2
+""",
+)
+
+entry(
+    index = 41,
+    label = "C6H9-5 <=> C6H9-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.239e-08, 's^-1'), n=6.224, Ea=(24.481, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Buras_C2H3_C4H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: c5-C6H9-3 <=> c5-C6H9-2
+""",
+)
+

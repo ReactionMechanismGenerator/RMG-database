@@ -3794,3 +3794,39 @@ Taken from entry: C6H5 + C3H6 <=> C6H6 + CH2CHCH2
 """,
 )
 
+entry(
+    index = 1279,
+    label = "C4H6-3 + C2H3 <=> C2H4 + C4H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.0003437, 'cm^3/(mol*s)'),
+        n = 4.732,
+        Ea = (6.579, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Buras_C2H3_C4H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: C2H3 + C4H6 <=> C2H4 + nC4H5
+""",
+)
+
+entry(
+    index = 1280,
+    label = "C4H6-4 + C2H3 <=> C2H4 + C4H5-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.000621, 'cm^3/(mol*s)'),
+        n = 4.814,
+        Ea = (4.902, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Buras_C2H3_C4H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: C2H3 + C4H6 <=> C2H4 + iC4H5
+""",
+)
+
