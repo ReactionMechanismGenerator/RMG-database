@@ -151,3 +151,44 @@ Taken from entry: adductb <=> adductc
 """,
 )
 
+
+
+entry(
+    index = 11,
+    label = "C10H11 <=> C10H11-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.12e+08, 's^-1'), n=1.64, Ea=(22.7, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: adductd <=> pdt15
+""",
+)
+
+entry(
+    index = 12,
+    label = "C10H11-3 <=> C10H11-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.28e+08, 's^-1'), n=1.55, Ea=(18.4, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt14 <=> pdt16
+""",
+)
+
+entry(
+    index = 13,
+    label = "C10H11-5 <=> C10H11-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.18e+08, 's^-1'), n=1.8, Ea=(21.8, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt15 <=> pdt39
+""",
+)
+
