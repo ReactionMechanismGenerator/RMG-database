@@ -1097,3 +1097,18 @@ Taken from entry: W3_6 <=> W7
 """,
 )
 
+
+
+entry(
+    index = 79,
+    label = "C8H7 <=> C8H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.445e+06, 's^-1'), n=1.735, Ea=(23.162, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Mebel_C6H5_C2H2_highP""",
+    longDesc = 
+u"""
+Taken from entry: W1 <=> W3
+""",
+)
+
