@@ -2913,3 +2913,59 @@ K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Che
 doi: 10.1021/acs.jpca.6b12890
 """,
 )
+
+
+entry(
+    index = 1233,
+    label = "C3H6-3 + C6H5 <=> C6H6 + C3H5-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00551, 'cm^3/(mol*s)'),
+        n = 4.401,
+        Ea = (4.745, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: C6H5 + C3H6 <=> C6H6 + CH3CHCH
+""",
+)
+
+entry(
+    index = 1234,
+    label = "C3H6-2 + C6H5 <=> C6H6 + C3H5-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.06725, 'cm^3/(mol*s)'),
+        n = 4.149,
+        Ea = (3.361, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: C6H5 + C3H6 <=> C6H6 + CH3CCH2
+""",
+)
+
+entry(
+    index = 1235,
+    label = "C3H6 + C6H5 <=> C6H6 + C3H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.2601, 'cm^3/(mol*s)'),
+        n = 4.002,
+        Ea = (1.735, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: C6H5 + C3H6 <=> C6H6 + CH2CHCH2
+""",
+)
+
