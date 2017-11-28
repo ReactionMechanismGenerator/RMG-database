@@ -4940,6 +4940,32 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 383,
+    label = "R4_S_(Cm)_D",
+    group =
+"""
+1 *1 R!H      u1 {2,S}
+2 *4 [Cd,CO]  u0 {1,S} {3,S}
+3 *2 Cd       u0 {2,S} {4,D}
+4 *3 [Cd,Cdd] u0 {3,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 384,
+    label = "R4_S_(CO)_D",
+    group =
+"""
+1 *1 R!H      u1 {2,S}
+2 *4 CO       u0 {1,S} {3,S}
+3 *2 Cd       u0 {2,S} {4,D}
+4 *3 [Cd,Cdd] u0 {3,D}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Rn
@@ -5059,7 +5085,9 @@ L1: Rn
                 L5: R4_intra_7_member_ring_S_D
         L3: R4_S
             L4: R4_S_D
-                L5: R4_S_(Cd)_D
+                L5: R4_S_(Cm)_D
+                    L6: R4_S_(Cd)_D
+                    L6: R4_S_(CO)_D
             L4: R4_S_T
             L4: R4_S_CO
         L3: R4_D
