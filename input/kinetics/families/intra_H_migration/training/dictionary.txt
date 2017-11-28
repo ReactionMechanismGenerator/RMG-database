@@ -3142,3 +3142,39 @@ multiplicity 2
 16 *3 H u0 p0 c0 {9,S}
 17    H u0 p0 c0 {9,S}
 
+C8H7
+multiplicity 2
+1  *5 C u0 p0 c0 {2,B} {3,B} {7,S}
+2  *2 C u0 p0 c0 {1,B} {6,B} {11,S}
+3     C u0 p0 c0 {1,B} {4,B} {12,S}
+4     C u0 p0 c0 {3,B} {5,B} {13,S}
+5     C u0 p0 c0 {4,B} {6,B} {10,S}
+6     C u0 p0 c0 {2,B} {5,B} {9,S}
+7  *4 C u0 p0 c0 {1,S} {8,D} {14,S}
+8  *1 C u1 p0 c0 {7,D} {15,S}
+9     H u0 p0 c0 {6,S}
+10    H u0 p0 c0 {5,S}
+11 *3 H u0 p0 c0 {2,S}
+12    H u0 p0 c0 {3,S}
+13    H u0 p0 c0 {4,S}
+14    H u0 p0 c0 {7,S}
+15    H u0 p0 c0 {8,S}
+
+C8H7-2
+multiplicity 2
+1  *4 C u0 p0 c0 {2,B} {5,S} {8,B}
+2     C u0 p0 c0 {1,B} {3,B} {10,S}
+3     C u0 p0 c0 {2,B} {4,B} {11,S}
+4     C u0 p0 c0 {3,B} {6,B} {9,S}
+5  *5 C u0 p0 c0 {1,S} {7,D} {12,S}
+6     C u0 p0 c0 {4,B} {8,B} {13,S}
+7  *2 C u0 p0 c0 {5,D} {14,S} {15,S}
+8  *1 C u1 p0 c0 {1,B} {6,B}
+9     H u0 p0 c0 {4,S}
+10    H u0 p0 c0 {2,S}
+11    H u0 p0 c0 {3,S}
+12    H u0 p0 c0 {5,S}
+13    H u0 p0 c0 {6,S}
+14 *3 H u0 p0 c0 {7,S}
+15    H u0 p0 c0 {7,S}
+
