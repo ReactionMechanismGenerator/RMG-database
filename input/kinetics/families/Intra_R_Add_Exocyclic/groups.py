@@ -2779,7 +2779,7 @@ entry(
 entry(
     index = 251,
     label = "R10",
-    group = 
+    group =
 """
 1 *1 R!H           u1 {2,[S,D,T,B]}
 2 *4 R!H           ux {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -4144,6 +4144,21 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 344,
+    label = "R4_intra_6_member_ring",
+    group =
+"""
+1 *1 R!H              u1 {2,[S,D,T]} {6,[S,D,T]}
+2 *4 R!H              ux {1,[S,D,T]} {3,S}
+3 *2 [Cd,Ct,CO,N]     u0 {2,S} {4,[D,T]}
+4 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {3,[D,T]} {5,[S,D,T]}
+5    R!H              ux {4,[S,D,T]} {6,[S,D,T]}
+6    R!H              ux {5,[S,D,T]} {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Rn
@@ -4241,6 +4256,7 @@ L1: Rn
             L4: Rnxc8_epsilon
                 L5: Rn1c8_epsilon
     L2: R4
+        L3: R4_intra_6_member_ring
         L3: R4_S
             L4: R4_S_D
             L4: R4_S_T
