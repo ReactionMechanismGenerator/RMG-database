@@ -2405,6 +2405,24 @@ entry(
 )
 
 entry(
+    index = 378,
+    label = "doublebond_intra_DeDe_pri_cyc6",
+    group = 
+"""
+1 *2 Cd  u0 {2,D} {3,S}
+2 *3 Cd  u0 {1,D} {4,S} {5,S}
+3    H   u0 {1,S}
+4    Cd  u0 {2,S} {6,D}
+5    Cd  u0 {2,S} {8,S} {9,D}
+6    Cd  u0 {4,D} {7,S}
+7    Cd  u0 {6,S} {8,D}
+8    Cd  u0 {7,D} {5,S}
+9    Cd  u0 {5,D}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 217,
     label = "doublebond_intra_DeDe_secNd",
     group = 
@@ -3089,6 +3107,21 @@ entry(
 2 *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
 3    R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
 4    R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 *4 R!H ux {4,[S,D,T,B]} {1,[S,D,T,B]} {6,[S,D,T,B]}
+6 *1 R!H u1 {5,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 377,
+    label = "Rn1c5_alpha_benzene",
+    group = 
+"""
+1 *2 R!H u0 {2,[D,T]} {5,[S,D,T,B]}
+2 *3 R!H u0 {1,[D,T]} {3,S}
+3    Cb  u0 {2,S} {4,B}
+4    Cb  u0 {3,B} {5,[S,D,T,B]}
 5 *4 R!H ux {4,[S,D,T,B]} {1,[S,D,T,B]} {6,[S,D,T,B]}
 6 *1 R!H u1 {5,[S,D,T,B]}
 """,
@@ -4153,8 +4186,8 @@ entry(
 2 *4 R!H              ux {1,[S,D,T]} {3,S}
 3 *2 [Cd,Ct,CO,N]     u0 {2,S} {4,[D,T]}
 4 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {3,[D,T]} {5,[S,D,T]}
-5    R!H              ux {4,[S,D,T]} {6,[S,D,T]}
-6    R!H              ux {5,[S,D,T]} {1,[S,D,T]}
+5    R!H              ux {4,[S,D,T]} {6,[S,D,T,B]}
+6    R!H              ux {5,[S,D,T,B]} {1,[S,D,T]}
 """,
     kinetics = None,
 )
@@ -4168,8 +4201,8 @@ entry(
 2 *4 R!H              ux {1,S} {3,S}
 3 *2 [Cd,Ct,CO,N]     u0 {2,S} {4,[D,T]}
 4 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {3,[D,T]} {5,[S,D,T]}
-5    R!H              ux {4,[S,D,T]} {6,[S,D,T]}
-6    R!H              ux {5,[S,D,T]} {1,[S,D,T]}
+5    R!H              ux {4,[S,D,T]} {6,[S,D,T,B]}
+6    R!H              ux {5,[S,D,T,B]} {1,[S,D,T]}
 """,
     kinetics = None,
 )
@@ -4183,8 +4216,8 @@ entry(
 2 *4 R!H              ux {1,S} {3,S}
 3 *2 [Cd,Ct,CO,N]     u0 {2,S} {4,D}
 4 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {3,D} {5,[S,D,T]}
-5    R!H              ux {4,[S,D,T]} {6,[S,D,T]}
-6    R!H              ux {5,[S,D,T]} {1,[S,D,T]}
+5    R!H              ux {4,[S,D,T]} {6,[S,D,T,B]}
+6    R!H              ux {5,[S,D,T,B]} {1,[S,D,T]}
 """,
     kinetics = None,
 )
@@ -4198,8 +4231,25 @@ entry(
 2 *4 R!H              u0 {1,S} {3,S} {7,S} {8,S}
 3 *2 [Cd,Ct,CO,N]     u0 {2,S} {4,D}
 4 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {3,D} {5,[S,D,T]}
-5    R!H              ux {4,[S,D,T]} {6,[S,D,T]}
-6    R!H              ux {5,[S,D,T]} {1,[S,D,T]}
+5    R!H              ux {4,[S,D,T]} {6,[S,D,T,B]}
+6    R!H              ux {5,[S,D,T,B]} {1,[S,D,T]}
+7    H                u0 {2,S}
+8    H                u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 379,
+    label = "2-hydro-nathphalene",
+    group =
+"""
+1 *1 C                u1 {2,S} {6,S}
+2 *4 C                u0 {1,S} {3,S} {7,S} {8,S}
+3 *2 Cd		      u0 {2,S} {4,D}
+4 *3 Cd               u0 {3,D} {5,S}
+5    Cb               u0 {4,S} {6,B}
+6    Cb               u0 {5,B} {1,S}
 7    H                u0 {2,S}
 8    H                u0 {2,S}
 """,
@@ -4215,8 +4265,8 @@ entry(
 2 *4 R!H              u0 {1,S} {3,S} {7,S} {8,S}
 3 *2 [Cd,Ct,CO,N]     u0 {2,S} {4,D}
 4 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {3,D} {5,[S,D,T]}
-5    R!H              ux {4,[S,D,T]} {6,[S,D,T]}
-6    R!H              ux {5,[S,D,T]} {1,[S,D,T]}
+5    R!H              ux {4,[S,D,T]} {6,[S,D,T,B]}
+6    R!H              ux {5,[S,D,T,B]} {1,[S,D,T]}
 7    R!H                u0 {2,S}
 8    R!H                u0 {2,S}
 """,
@@ -4232,8 +4282,8 @@ entry(
 2 *4 R!H              u0 {1,S} {3,S} {7,S} {8,S}
 3 *2 [Cd,Ct,CO,N]     u0 {2,S} {4,D}
 4 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {3,D} {5,[S,D,T]}
-5    R!H              ux {4,[S,D,T]} {6,[S,D,T]}
-6    R!H              ux {5,[S,D,T]} {1,[S,D,T]}
+5    R!H              ux {4,[S,D,T]} {6,[S,D,T,B]}
+6    R!H              ux {5,[S,D,T,B]} {1,[S,D,T]}
 7    H                u0 {2,S}
 8    R!H              u0 {2,S}
 """,
@@ -4845,6 +4895,51 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 380,
+    label = "R6_intra_6_member_ring",
+    group =
+"""
+1 *1 R!H              u1 {2,[S,D,T]} {4,[S,D,T]}
+2 *3 [Cd,Ct,Od,Sd,Cdd,N] ux {1,[S,D,T]} {3,[D,T]}
+3 *2 [Cd,Ct,CO,N]     u0 {2,[D,T]} {6,S}
+4 *4 R!H              u0 {5,[S,D,T,B]} {1,[S,D,T]}
+5 *6 R!H              ux {4,[S,D,T,B]} {6,[S,D,T]}
+6 *5 R!H              ux {3,S} {5,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 381,
+    label = "R6_intra_6_member_ring_SBS",
+    group =
+"""
+1 *1 R!H              u1 {2,[S,D,T]} {4,S}
+2 *3 [Cd,Ct,Od,Sd,Cdd,N] ux {1,[S,D,T]} {3,[D,T]}
+3 *2 [Cd,Ct,CO,N]     u0 {2,[D,T]} {6,S}
+4 *4 R!H              u0 {5,B} {1,S}
+5 *6 R!H              ux {4,B} {6,S}
+6 *5 R!H              ux {3,S} {5,S} 
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 382,
+    label = "R6_intra_6_member_ring_SBS_D",
+    group =
+"""
+1 *1 R!H              u1 {2,[S,D,T]} {4,S}
+2 *3 [Cd,Ct,Od,Sd,Cdd,N] ux {1,[S,D,T]} {3,D}
+3 *2 [Cd,Ct,CO,N]     u0 {2,D} {6,S}
+4 *4 R!H              u0 {5,B} {1,S}
+5 *6 R!H              ux {4,B} {6,S}
+6 *5 R!H              ux {3,S} {5,S} 
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Rn
@@ -4872,6 +4967,7 @@ L1: Rn
                     L6: Rn2(SS)c5_alpha
                     L6: Rn2(DS)c5_alpha
                 L5: Rn1c5_alpha
+                    L6: Rn1c5_alpha_benzene
             L4: Rnxc5_beta_long
                 L5: Rn3c5_beta_long
                 L5: Rn2c5_beta_long
@@ -4955,6 +5051,7 @@ L1: Rn
             L4: R4_intra_6_member_ring_S
                 L5: R4_intra_6_member_ring_S_D
                     L6: R4_intra_6_member_ring_S_D_2H
+                        L7: 2-hydro-nathphalene
                     L6: R4_intra_6_member_ring_S_D_2R!H
                     L6: R4_intra_6_member_ring_S_D_H_R!H
         L3: R4_intra_7_member_ring
@@ -5010,6 +5107,9 @@ L1: Rn
         L3: R6_intra_7_member_ring
             L4: R6_intra_7_member_ring_SSD
                 L5: R6_intra_7_member_ring_SSD_D
+        L3: R6_intra_6_member_ring
+            L4: R6_intra_6_member_ring_SBS
+                L5: R6_intra_6_member_ring_SBS_D
         L3: R6_RSR
             L4: R6_SSR
                 L5: R6_SSS
@@ -5144,6 +5244,7 @@ L1: multiplebond_intra
             L4: doublebond_intra_NdDe_secDe
         L3: doublebond_intra_DeDe
             L4: doublebond_intra_DeDe_pri
+                L5: doublebond_intra_DeDe_pri_cyc6
             L4: doublebond_intra_DeDe_secNd
             L4: doublebond_intra_DeDe_secDe
     L2: triplebond_intra
