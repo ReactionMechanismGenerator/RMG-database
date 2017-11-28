@@ -738,3 +738,44 @@ Taken from entry: C5H5CH2-3 <=> C5H5CH2-2
 """,
 )
 
+
+
+entry(
+    index = 52,
+    label = "C10H11-19 <=> C10H11-20",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6.07e+06, 's^-1'), n=2, Ea=(26.1, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt21 <=> pdt27
+""",
+)
+
+entry(
+    index = 53,
+    label = "C10H11-21 <=> C10H11-22",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.18e+07, 's^-1'), n=1.8, Ea=(15.8, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt16 <=> pdt33
+""",
+)
+
+entry(
+    index = 54,
+    label = "C10H11-23 <=> C10H11-24",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.27e+06, 's^-1'), n=1.5, Ea=(33.7, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+    longDesc = 
+u"""
+Taken from entry: pdt33 <=> pdt20
+""",
+)
+
