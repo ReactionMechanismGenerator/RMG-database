@@ -1,4 +1,4 @@
-/#!/usr/bin/env python
+#!/usr/bin/env python
 # encoding: utf-8
 
 name = "Intra_R_Add_Exocyclic/groups"
@@ -6035,5 +6035,46 @@ forbidden(
 u"""
 Forbid an indenyl radical from doing a ring closure to form a fused 6,5, and 4-membered ring tricyclic.
 Resonance form 2.
+""",
+)
+
+###################
+#Forbidden groups from vinylCPD_H kinetic library
+
+forbidden(
+    label = "product45_to_product56",
+    group =
+"""
+1 C u0 p0 c0 {2,S} {3,S} {5,S}
+2 C u0 p0 c0 {1,S} {4,S} {6,S}
+3 *3 C u0 p0 c0 {1,S} {4,D}
+4 *2 C u0 p0 c0 {2,S} {3,D}
+5 C u0 p0 c0 {1,S} {7,D}
+6 *1 C u1 p0 c0 {2,S} {7,S}
+7 C u0 p0 c0 {5,D} {6,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid product45 in vinylCPD_H library from ring closing to form a fused 5, 4, and 3-membered ring tricyclic.
+""",
+)
+
+forbidden(
+    label = "product34_to_product57",
+    group =
+"""
+1 C u0 p0 c0 {2,S} {3,S} {4,S}
+2 C u0 p0 c0 {1,S} {3,S} {5,S}
+3 *1 C u1 p0 c0 {1,S} {2,S}
+4 *2 C u0 p0 c0 {1,S} {6,D}
+5 C u0 p0 c0 {2,S} {7,D}
+6 *3 C u0 p0 c0 {4,D} {7,S}
+7 C u0 p0 c0 {5,D} {6,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid product34 in vinylCPD_H library from ring closing to form a fused 6, 3, and 3-membered ring tricyclic.
 """,
 )
