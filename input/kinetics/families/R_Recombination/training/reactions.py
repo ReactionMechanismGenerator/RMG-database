@@ -734,3 +734,58 @@ u"""
 Taken from entry: C9H7_19 + H_15 <=> indene_25
 """,
 )
+
+entry(
+    index = 50,
+    label = "C3H3-2 + C3H3-2 <=> C6H6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.288e+09, 'cm^3/(mol*s)'),
+        n = 0.795,
+        Ea = (-4303.6, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: propargyl_recomb""",
+    longDesc = 
+u"""
+Taken from entry: C3H3 + C3H3 <=> CH2CCHCHCCH2
+""",
+)
+
+entry(
+    index = 51,
+    label = "C3H3 + C3H3-2 <=> C6H6-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.307e+12, 'cm^3/(mol*s)'),
+        n = 0.192,
+        Ea = (-2807, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: propargyl_recomb""",
+    longDesc = 
+u"""
+Taken from entry: C3H3 + C3H3 <=> CH2CCHCH2CCH
+""",
+)
+
+entry(
+    index = 52,
+    label = "C3H3 + C3H3 <=> C6H6-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.945e+13, 'cm^3/(mol*s)'),
+        n = -0.278,
+        Ea = (-1268.8, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: propargyl_recomb""",
+    longDesc = 
+u"""
+Taken from entry: C3H3 + C3H3 <=> CHCCH2CH2CCH
+""",
+)
+
