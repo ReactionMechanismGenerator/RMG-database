@@ -3740,3 +3740,57 @@ A-factor multiplied by 1/3 to account for different degeneracy of isopropylbenze
 """,
 )
 
+entry(
+    index=1276,
+    label = "C3H6-3 + C6H5 <=> C6H6 + C3H5-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00551, 'cm^3/(mol*s)'),
+        n = 4.401,
+        Ea = (4.745, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
+    longDesc =
+u"""
+Taken from entry: C6H5 + C3H6 <=> C6H6 + CH3CHCH
+""",
+)
+
+entry(
+    index = 1277,
+    label = "C3H6-2 + C6H5 <=> C6H6 + C3H5-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.06725, 'cm^3/(mol*s)'),
+        n = 4.149,
+        Ea = (3.361, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
+    longDesc =
+u"""
+Taken from entry: C6H5 + C3H6 <=> C6H6 + CH3CCH2
+""",
+)
+
+entry(
+    index = 1278,
+    label = "C3H6 + C6H5 <=> C6H6 + C3H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.2601, 'cm^3/(mol*s)'),
+        n = 4.002,
+        Ea = (1.735, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
+    longDesc =
+u"""
+Taken from entry: C6H5 + C3H6 <=> C6H6 + CH2CHCH2
+""",
+)
+

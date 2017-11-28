@@ -3121,3 +3121,14 @@ C9H11
 18 H u0 p0 c0 {7,S}
 19 H u0 p0 c0 {8,S}
 20 H u0 p0 c0 {9,S}
+
+C3H5-4
+multiplicity 2
+1    C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2    C u0 p0 c0 {1,S} {3,D} {7,S}
+3 *3 C u1 p0 c0 {2,D} {8,S}
+4    H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {1,S}
+6    H u0 p0 c0 {1,S}
+7    H u0 p0 c0 {2,S}
+8    H u0 p0 c0 {3,S}
