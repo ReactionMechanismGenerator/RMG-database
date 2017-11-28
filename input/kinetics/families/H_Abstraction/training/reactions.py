@@ -3127,3 +3127,79 @@ Taken from entry: C9H8_21 + H_15 <=> C9H7_22 + H2_23
 """,
 )
 
+
+
+entry(
+    index = 1245,
+    label = "C3H4 + H <=> H2 + C3H3",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (196.3, 'cm^3/(mol*s)'),
+        n = 3.47,
+        Ea = (3.214, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3H3_H2_H_abstraciton""",
+    longDesc = 
+u"""
+Taken from entry: C3H4-p + H <=> C3H3 + H2
+""",
+)
+
+entry(
+    index = 1246,
+    label = "C3H4-1 + H <=> H2 + C3H3-2",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(
+        A = (14.13, 'cm^3/(mol*s)'),
+        n = 3.852,
+        Ea = (3.502, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3H3_H2_H_abstraciton""",
+    longDesc = 
+u"""
+Taken from entry: C3H4-a + H <=> C3H3 + H2
+""",
+)
+
+
+
+entry(
+    index = 1247,
+    label = "H2 + C3H3 <=> C3H4 + H",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (3.056, 'cm^3/(mol*s)'),
+        n = 3.503,
+        Ea = (15.039, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3H3_H2_H_abstraciton""",
+    longDesc = 
+u"""
+Taken from entry: C3H3 + H2 <=> C3H4-p + H
+""",
+)
+
+entry(
+    index = 1248,
+    label = "H2 + C3H3-2 <=> C3H4-1 + H",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (0.07496, 'cm^3/(mol*s)'),
+        n = 3.944,
+        Ea = (16.255, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C3H3_H2_H_abstraciton""",
+    longDesc = 
+u"""
+Taken from entry: C3H3 + H2 <=> C3H4-a + H
+""",
+)
+
