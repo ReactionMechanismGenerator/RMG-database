@@ -3830,3 +3830,29 @@ Taken from entry: C2H3 + C4H6 <=> C2H4 + iC4H5
 """,
 )
 
+entry(
+    index = 1281,
+    label = "C4H6-4 + C6H5 <=> C6H6 + C4H5-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8710, 'cm^3/(mol*s)'), n=3.12, Ea=(8.1, 'kJ/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2005_Ismail_C6H5_C4H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: phenyl + 1_3_butadiene <=> benzene + 1_3_butadien_2_yl
+""",
+)
+
+entry(
+    index = 1282,
+    label = "C4H6-3 + C6H5 <=> C6H6 + C4H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(31600, 'cm^3/(mol*s)'), n=3.11, Ea=(16.7, 'kJ/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2005_Ismail_C6H5_C4H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: phenyl + 1_3_butadiene <=> benzene + 1_3_butadien_1_yl
+""",
+)
+
