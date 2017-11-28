@@ -725,3 +725,42 @@ u"""
 Taken from entry: W17 <=> P10 + H
 """,
 )
+
+entry(
+    index = 49,
+    label = "C6H5 + C3H3 <=> C9H8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: phenyl_16 + C3H3_9 <=> C9H8_20
+""",
+)
+
+entry(
+    index = 50,
+    label = "C6H5 + C3H3-2 <=> C9H8-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: phenyl_16 + C3H3_9 <=> C9H8_21
+""",
+)
+
+entry(
+    index = 51,
+    label = "C9H7 + H <=> C9H8-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: C9H7_19 + H_15 <=> indene_25
+""",
+)

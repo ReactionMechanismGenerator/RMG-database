@@ -3856,3 +3856,93 @@ Taken from entry: phenyl + 1_3_butadiene <=> benzene + 1_3_butadien_1_yl
 """,
 )
 
+entry(
+    index = 1283,
+    label = "C6H6 + CH3_p23 <=> CH4b + C6H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5151, 'cm^3/(mol*s)'),
+        n = 2.896,
+        Ea = (15.308, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: benzene_1 + methyl_7 <=> phenyl_16 + CH4_26
+""",
+)
+
+entry(
+    index = 1284,
+    label = "C7H8 + H <=> H2 + C7H7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.152e+06, 'cm^3/(mol*s)'),
+        n = 1.985,
+        Ea = (6.175, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: C7H8_17 + H_15 <=> C7H7_10 + H2_23
+""",
+)
+
+entry(
+    index = 1285,
+    label = "C7H8-2 + H <=> H2 + C7H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.738e+07, 'cm^3/(mol*s)'),
+        n = 1.889,
+        Ea = (15.461, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: C7H8_17 + H_15 <=> C7H7_11 + H2_23
+""",
+)
+
+entry(
+    index = 1286,
+    label = "C9H8 + H <=> H2 + C9H7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.54e+07, 'cm^3/(mol*s)'),
+        n = 1.901,
+        Ea = (15.418, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: C9H8_20 + H_15 <=> C9H7_18 + H2_23
+""",
+)
+
+entry(
+    index = 1287,
+    label = "C9H8-2 + H <=> H2 + C9H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.725e+07, 'cm^3/(mol*s)'),
+        n = 1.892,
+        Ea = (16.619, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: C9H8_21 + H_15 <=> C9H7_22 + H2_23
+""",
+)
+
