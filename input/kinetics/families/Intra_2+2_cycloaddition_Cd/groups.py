@@ -239,11 +239,11 @@ forbidden(
     label = "resonant_radical_5",
     group =
 """
-1  *1 C u0 {2,D} {5,S}
+1  *1 C u0 {2,D} {5,[S,D]}
 2  *2 Cd u0 {1,D} {3,S}
 3  *4 Cd u0 {2,S} {4,D}
 4  *3 C u0 {3,D}
-5     R!H u1 {1,S}
+5     R!H u1 {1,[S,D]}
 """,
     shortDesc = u"""""",
     longDesc =
@@ -259,8 +259,8 @@ forbidden(
 1  *1 C u0 {2,D}
 2  *2 Cd u0 {1,D} {3,S}
 3  *4 Cd u0 {2,S} {4,D}
-4  *3 C u0 {3,D} {5,S}
-5     R!H u1 {4,S}
+4  *3 C u0 {3,D} {5,[S,D]}
+5     R!H u1 {4,[S,D]}
 """,
     shortDesc = u"""""",
     longDesc =
