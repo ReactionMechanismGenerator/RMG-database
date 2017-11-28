@@ -4518,7 +4518,7 @@ entry(
 
 entry(
     index = 343,
-    label = "Rn3(2S)c6b_alpha",
+    label = "Rn3(RSS)c6b_alpha",
     group = 
 """
 1 *2 C u0 {2,D} {6,S}
@@ -4630,6 +4630,346 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 349,
+    label = "R5_intra_7_member_ring",
+    group =
+"""
+1 *1 R!H              u1 {2,[S,D,T]} {7,[S,D,T]}
+2 *4 R!H              ux {1,[S,D,T]} {5,[S,D,T]}
+3 *2 [Cd,Ct,CO,N]     u0 {5,S} {4,[D,T]}
+4 *3 [Cd,Ct,O2d,S2d,Cdd,N] u0 px c0 {3,[D,T]} {6,[S,D,T]}
+5 *5 R!H              ux {2,[S,D,T]} {3,S}
+6    R!H              ux {4,[S,D,T]} {7,[S,D,T]}
+7    R!H              ux {6,[S,D,T]} {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 350,
+    label = "R5_intra_7_member_ring_SS",
+    group =
+"""
+1 *1 R!H              u1 {2,S} {7,[S,D,T]}
+2 *4 R!H              ux {1,S} {5,S}
+3 *2 [Cd,Ct,CO,N]     u0 {5,S} {4,[D,T]}
+4 *3 [Cd,Ct,O2d,S2d,Cdd,N] u0 px c0 {3,[D,T]} {6,[S,D,T]}
+5 *5 R!H              ux {2,S} {3,S}
+6    R!H              ux {4,[S,D,T]} {7,[S,D,T]}
+7    R!H              ux {6,[S,D,T]} {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 351,
+    label = "R5_intra_7_member_ring_SS_D",
+    group =
+"""
+1 *1 R!H              u1 {2,S} {7,[S,D,T]}
+2 *4 R!H              ux {1,S} {5,S}
+3 *2 [Cd,Ct,CO,N]     u0 {5,S} {4,D}
+4 *3 [Cd,Ct,O2d,S2d,Cdd,N] u0 px c0 {3,D} {6,[S,D,T]}
+5 *5 R!H              ux {2,S} {3,S}
+6    R!H              ux {4,[S,D,T]} {7,[S,D,T]}
+7    R!H              ux {6,[S,D,T]} {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 352,
+    label = "R6_intra_10_member_ring",
+    group =
+"""
+1 *1 R!H              u1 {2,[S,D,T]} {10,[S,D,T]}
+2 *4 R!H              ux {1,[S,D,T]} {5,[S,D,T]}
+3 *2 [Cd,Ct,CO,N]     u0 {6,S} {4,[D,T]}
+4 *3 [Cd,Ct,O2d,S2d,Cdd,N] u0 px c0 {3,[D,T]} {7,[S,D,T]}
+5 *6 R!H              ux {2,[S,D,T]} {6,[S,D,T]}
+6 *5 R!H              ux {5,[S,D,T]} {3,S}
+7    R!H              ux {4,[S,D,T]} {8,[S,D,T]}
+8    R!H              ux {7,[S,D,T]} {9,[S,D,T]}
+9    R!H              ux {8,[S,D,T]} {10,[S,D,T]}
+10   R!H              ux {9,[S,D,T]} {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 353,
+    label = "R6_intra_10_member_ring_SSD",
+    group =
+"""
+1 *1 R!H              u1 {2,S} {10,[S,D,T]}
+2 *4 R!H              ux {1,S} {5,S}
+3 *2 [Cd,Ct,CO,N]     u0 {6,S} {4,[D,T]}
+4 *3 [Cd,Ct,O2d,S2d,Cdd,N] u0 px c0 {3,[D,T]} {7,[S,D,T]}
+5 *6 R!H              ux {2,S} {6,D}
+6 *5 R!H              ux {5,D} {3,S}
+7    R!H              ux {4,[S,D,T]} {8,[S,D,T]}
+8    R!H              ux {7,[S,D,T]} {9,[S,D,T]}
+9    R!H              ux {8,[S,D,T]} {10,[S,D,T]}
+10   R!H              ux {9,[S,D,T]} {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 354,
+    label = "R6_intra_10_member_ring_SSD_D",
+    group =
+"""
+1 *1 R!H              u1 {2,S} {10,[S,D,T]}
+2 *4 R!H              ux {1,S} {5,S}
+3 *2 [Cd,Ct,CO,N]     u0 {6,S} {4,D}
+4 *3 [Cd,Ct,O2d,S2d,Cdd,N] u0 px c0 {3,D} {7,[S,D,T]}
+5 *6 R!H              ux {2,S} {6,D}
+6 *5 R!H              ux {5,D} {3,S}
+7    R!H              ux {4,[S,D,T]} {8,[S,D,T]}
+8    R!H              ux {7,[S,D,T]} {9,[S,D,T]}
+9    R!H              ux {8,[S,D,T]} {10,[S,D,T]}
+10   R!H              ux {9,[S,D,T]} {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 355,
+    label = "R7_intra_10_member_ring",
+    group =
+"""
+1 *1 R!H              u1 {2,[S,D,T]} {10,[S,D,T]}
+2 *4 R!H              ux {1,[S,D,T]} {5,[S,D,T]}
+3 *2 [Cd,Ct,CO,N]     u0 {7,S} {4,[D,T]}
+4 *3 [Cd,Ct,O2d,S2d,Cdd,N] u0 px c0 {3,[D,T]} {8,[S,D,T]}
+5 *6 R!H              ux {2,[S,D,T]} {6,[S,D,T]}
+6 *7 R!H              ux {5,[S,D,T]} {7,[S,D,T]}
+7 *5 R!H              ux {6,[S,D,T]} {3,S}
+8    R!H              ux {4,[S,D,T]} {9,[S,D,T]}
+9    R!H              ux {8,[S,D,T]} {10,[S,D,T]}
+10   R!H              ux {9,[S,D,T]} {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 356,
+    label = "R7_intra_10_member_ring_SDSD",
+    group =
+"""
+1 *1 R!H              u1 {2,S} {10,[S,D,T]}
+2 *4 R!H              ux {1,S} {5,D}
+3 *2 [Cd,Ct,CO,N]     u0 {7,S} {4,[D,T]}
+4 *3 [Cd,Ct,O2d,S2d,Cdd,N] u0 px c0 {3,[D,T]} {8,[S,D,T]}
+5 *6 R!H              ux {2,D} {6,S}
+6 *7 R!H              ux {5,S} {7,D}
+7 *5 R!H              ux {6,D} {3,S}
+8    R!H              ux {4,[S,D,T]} {9,[S,D,T]}
+9    R!H              ux {8,[S,D,T]} {10,[S,D,T]}
+10   R!H              ux {9,[S,D,T]} {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 357,
+    label = "R7_intra_10_member_ring_SDSD_D",
+    group =
+"""
+1 *1 R!H              u1 {2,S} {10,[S,D,T]}
+2 *4 R!H              ux {1,S} {5,D}
+3 *2 [Cd,Ct,CO,N]     u0 {7,S} {4,D}
+4 *3 [Cd,Ct,O2d,S2d,Cdd,N] u0 px c0 {3,D} {8,[S,D,T]}
+5 *6 R!H              ux {2,D} {6,S}
+6 *7 R!H              ux {5,S} {7,D}
+7 *5 R!H              ux {6,D} {3,S}
+8    R!H              ux {4,[S,D,T]} {9,[S,D,T]}
+9    R!H              ux {8,[S,D,T]} {10,[S,D,T]}
+10   R!H              ux {9,[S,D,T]} {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 358,
+    label = "Rn4(SDSD)c6_alpha",
+    group =
+"""
+1  *2 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4     R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5     R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6  *5 R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]} {7,D}
+7  *7 R!H ux {6,D} {8,S}
+8  *6 R!H ux {7,S} {9,D}
+9  *4 R!H ux {8,D} {10,S}
+10 *1 R!H u1 {9,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 359,
+    label = "R8_SDSDS",
+    group =
+"""
+1 *1 R!H           u1 {2,S}
+2 *4 R!H           ux {1,S} {3,D}
+3 *6 R!H           ux {2,D} {4,S}
+4 *7 R!H           ux {3,S} {5,D}
+5 *8 R!H           ux {4,D} {6,S}
+6 *5 R!H           ux {5,S} {7,S}
+7 *2 [Cd,Ct,CO,N]   u0 {6,S} {8,[D,T]}
+8 *3 [Cd,Ct,O2d,S2d,Cdd,N] u0 px c0 {7,[D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 360,
+    label = "R8_intra_10_member_ring",
+    group =
+"""
+1 *1 R!H              u1 {2,[S,D,T]} {10,[S,D,T]}
+2 *4 R!H              ux {1,[S,D,T]} {5,[S,D,T]}
+3 *2 [Cd,Ct,CO,N]     u0 {8,S} {4,[D,T]}
+4 *3 [Cd,Ct,O2d,S2d,Cdd,N] u0 px c0 {3,[D,T]} {9,[S,D,T]}
+5 *6 R!H              ux {2,[S,D,T]} {6,[S,D,T]}
+6 *7 R!H              ux {5,[S,D,T]} {7,[S,D,T]}
+7 *8 R!H              ux {6,[S,D,T]} {8,[S,D,T]}
+8 *5 R!H              ux {7,[S,D,T]} {3,S}
+9    R!H              ux {4,[S,D,T]} {10,[S,D,T]}
+10   R!H              ux {9,[S,D,T]} {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 361,
+    label = "R8_intra_10_member_ring_SSDSD",
+    group =
+"""
+1 *1 R!H              u1 {2,S} {10,[S,D,T]}
+2 *4 R!H              ux {1,S} {5,S}
+3 *2 [Cd,Ct,CO,N]     u0 {8,S} {4,[D,T]}
+4 *3 [Cd,Ct,O2d,S2d,Cdd,N] u0 px c0 {3,[D,T]} {9,[S,D,T]}
+5 *6 R!H              ux {2,S} {6,D}
+6 *7 R!H              ux {5,D} {7,S}
+7 *8 R!H              ux {6,S} {8,D}
+8 *5 R!H              ux {7,D} {3,S}
+9    R!H              ux {4,[S,D,T]} {10,[S,D,T]}
+10   R!H              ux {9,[S,D,T]} {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 362,
+    label = "R8_intra_10_member_ring_SSDSD_D",
+    group =
+"""
+1 *1 R!H              u1 {2,S} {10,[S,D,T]}
+2 *4 R!H              ux {1,S} {5,S}
+3 *2 [Cd,Ct,CO,N]     u0 {8,S} {4,D}
+4 *3 [Cd,Ct,O2d,S2d,Cdd,N] u0 px c0 {3,D} {9,[S,D,T]}
+5 *6 R!H              ux {2,S} {6,D}
+6 *7 R!H              ux {5,D} {7,S}
+7 *8 R!H              ux {6,S} {8,D}
+8 *5 R!H              ux {7,D} {3,S}
+9    R!H              ux {4,[S,D,T]} {10,[S,D,T]}
+10   R!H              ux {9,[S,D,T]} {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 363,
+    label = "R4_intra_7_member_ring",
+    group =
+"""
+1 *1 R!H              u1 {2,[S,D,T]} {7,[S,D,T]}
+2 *4 R!H              ux {1,[S,D,T]} {3,S}
+3 *2 [Cd,Ct,CO,N]     u0 {2,S} {4,[D,T]}
+4 *3 [Cd,Ct,O2d,S2d,Cdd,N] u0 px c0 {3,[D,T]} {5,[S,D,T]}
+5    R!H              ux {4,[S,D,T]} {6,[S,D,T]}
+6    R!H              ux {5,[S,D,T]} {7,[S,D,T]}
+7    R!H              ux {6,[S,D,T]} {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 364,
+    label = "R4_intra_7_member_ring_S",
+    group =
+"""
+1 *1 R!H              u1 {2,S} {7,[S,D,T]}
+2 *4 R!H              ux {1,S} {3,S}
+3 *2 [Cd,Ct,CO,N]     u0 {2,S} {4,[D,T]}
+4 *3 [Cd,Ct,O2d,S2d,Cdd,N] u0 px c0 {3,[D,T]} {5,[S,D,T]}
+5    R!H              ux {4,[S,D,T]} {6,[S,D,T]}
+6    R!H              ux {5,[S,D,T]} {7,[S,D,T]}
+7    R!H              ux {6,[S,D,T]} {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 365,
+    label = "R4_intra_7_member_ring_S_D",
+    group =
+"""
+1 *1 R!H              u1 {2,S} {7,[S,D,T]}
+2 *4 R!H              ux {1,S} {3,S}
+3 *2 [Cd,Ct,CO,N]     u0 {2,S} {4,D}
+4 *3 [Cd,Ct,O2d,S2d,Cdd,N] u0 px c0 {3,D} {5,[S,D,T]}
+5    R!H              ux {4,[S,D,T]} {6,[S,D,T]}
+6    R!H              ux {5,[S,D,T]} {7,[S,D,T]}
+7    R!H              ux {6,[S,D,T]} {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 366,
+    label = "Rn3(SDS)c6b_alpha",
+    group =
+"""
+1 *2 C u0 {2,D} {6,S}
+2 *3 C u0 {1,D} {3,S}
+3    C ux {2,S} {4,D}
+4    C ux {3,D} {5,S}
+5    C ux {4,S} {6,D}
+6 *5 C ux {5,D} {1,S} {7,S}
+7 *6 R!H ux {6,S} {8,D}
+8 *4 R!H ux {7,D} {9,S}
+9 *1 R!H u1 {8,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 367,
+    label = "Rn4(looped)c6_alpha",
+    group =
+"""
+1  *2 R!H u0 {2,[D,T]} {6,[S,D,T,B]}
+2  *3 R!H u0 {1,[D,T]} {3,[S,D,T,B]}
+3     R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4     R!H ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5     R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6  *5 R!H ux {5,[S,D,T,B]} {1,[S,D,T,B]} {7,[S,D,T,B]} {10,[S,D,T,B]}
+7  *7 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8  *6 R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9  *4 R!H ux {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 *1 R!H u1 {9,[S,D,T,B]} {6,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Rn
@@ -4668,9 +5008,12 @@ L1: Rn
                 L5: Rn4c6_alpha
                     L6:Rn4c6_alpha_benzene
                         L7:Rn4c6_alpha_benzene_Cdchain
+                    L6: Rn4(SDSD)c6_alpha
+                    L6: Rn4(looped)c6_alpha
                 L5: Rn3c6_alpha
                     L6:Rn3c6b_alpha
-                        L7:Rn3(2S)c6b_alpha
+                        L7: Rn3(RSS)c6b_alpha
+                        L7: Rn3(SDS)c6b_alpha
                 L5: Rn2c6_alpha
                 L5: Rn1c6_alpha
             L4: Rnxc6_beta_long
@@ -4733,6 +5076,9 @@ L1: Rn
                     L6: R4_intra_6_member_ring_S_D_2H
                     L6: R4_intra_6_member_ring_S_D_2R!H
                     L6: R4_intra_6_member_ring_S_D_H_R!H
+        L3: R4_intra_7_member_ring
+            L4: R4_intra_7_member_ring_S
+                L5: R4_intra_7_member_ring_S_D
         L3: R4_S
             L4: R4_S_D
             L4: R4_S_T
@@ -4749,6 +5095,9 @@ L1: Rn
             L4: R4_T_CO
             L4: R4_T_CS
     L2: R5
+        L3: R5_intra_7_member_ring
+            L4: R5_intra_7_member_ring_SS
+                L5: R5_intra_7_member_ring_SS_D
         L3: R5_SS
             L4: R5_SS_D
             L4: R5_SS_T
@@ -4778,6 +5127,9 @@ L1: Rn
                 L5: R5_TS_CS
         L3: R5_MM
     L2: R6
+        L3: R6_intra_10_member_ring
+            L4: R6_intra_10_member_ring_SSD
+                L5: R6_intra_10_member_ring_SSD_D
         L3: R6_RSR
             L4: R6_SSR
                 L5: R6_SSS
@@ -4821,6 +5173,9 @@ L1: Rn
         L3: R6_SMM
     L2: R7plus
         L3: R7
+            L4: R7_intra_10_member_ring
+                L5: R7_intra_10_member_ring_SDSD
+                    L6: R7_intra_10_member_ring_SDSD_D
             L4: R7_RSSR
                 L5: R7_SSSR
                     L6: R7_SSSS
@@ -4888,6 +5243,10 @@ L1: Rn
             L4: R7_RSMM
             L4: R7_SMMS
         L3: R8
+            L4: R8_intra_10_member_ring
+                L5: R8_intra_10_member_ring_SSDSD
+                    L6: R8_intra_10_member_ring_SSDSD_D
+            L4: R8_SDSDS
         L3: R9
         L3: R10
         L3: R11
