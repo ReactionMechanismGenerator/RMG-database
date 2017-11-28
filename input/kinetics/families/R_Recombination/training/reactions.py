@@ -607,3 +607,16 @@ R2
 Calculated at the QCISD(T)/CBS//B3LYP/6-311++G(d,p) level
 """,
 )
+
+entry(
+    index = 41,
+    label = "C10H9 <=> C10H8 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.89e+16, 's^-1'), n=-0.28, Ea=(68.378, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_C10H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: W111 <=> P114 + H
+""",
+)
