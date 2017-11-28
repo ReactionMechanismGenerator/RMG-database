@@ -353,8 +353,8 @@ entry(
 """
 1 *1 R!H                   u1 {2,[S,D,T,B]}
 2 *4 R!H                   ux {1,[S,D,T,B]} {3,[S,D,T,B]}
-3 *5 R!H                   ux {2,[S,D,T,B]} {4,S}
-4 *2 [Cd,Ct,CO,N,CS]       u0 {3,S} {5,[D,T]}
+3 *5 R!H                   ux {2,[S,D,T,B]} {4,[S,D]}
+4 *2 [Cd,Ct,CO,N,CS,Cdd]   u0 {3,[S,D]} {5,[D,T]}
 5 *3 [Cd,Ct,O2d,S2d,Cdd,N] u0 px c0 {4,[D,T]}
 """,
     kinetics = None,
