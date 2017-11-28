@@ -5291,9 +5291,9 @@ entry(
     group =
 """
 1 *1 R!H              u1 {2,[S,D,T]} {4,[S,D,T]}
-2 *3 [Cd,Ct,O2d,S2d,Cdd,N] ux px c0 {1,[S,D,T]} {3,[D,T]}
+2 *3 [Cd,Ct,O2d,S2d,Cdd,N] u0 px c0 {1,[S,D,T]} {3,[D,T]}
 3 *2 [Cd,Ct,CO,N]     u0 {2,[D,T]} {6,S}
-4 *4 R!H              u0 {5,[S,D,T,B]} {1,[S,D,T]}
+4 *4 R!H              ux {5,[S,D,T,B]} {1,[S,D,T]}
 5 *6 R!H              ux {4,[S,D,T,B]} {6,[S,D,T]}
 6 *5 R!H              ux {3,S} {5,[S,D,T]}
 """,
@@ -5306,9 +5306,9 @@ entry(
     group =
 """
 1 *1 R!H              u1 {2,[S,D,T]} {4,S}
-2 *3 [Cd,Ct,O2d,S2d,Cdd,N] ux px c0 {1,[S,D,T]} {3,[D,T]}
+2 *3 [Cd,Ct,O2d,S2d,Cdd,N] u0 px c0 {1,[S,D,T]} {3,[D,T]}
 3 *2 [Cd,Ct,CO,N]     u0 {2,[D,T]} {6,S}
-4 *4 R!H              u0 {5,B} {1,S}
+4 *4 R!H              ux {5,B} {1,S}
 5 *6 R!H              ux {4,B} {6,S}
 6 *5 R!H              ux {3,S} {5,S} 
 """,
@@ -5321,9 +5321,9 @@ entry(
     group =
 """
 1 *1 R!H              u1 {2,[S,D,T]} {4,S}
-2 *3 [Cd,Ct,O2d,S2d,Cdd,N] ux px c0 {1,[S,D,T]} {3,D}
+2 *3 [Cd,Ct,O2d,S2d,Cdd,N] u0 px c0 {1,[S,D,T]} {3,D}
 3 *2 [Cd,Ct,CO,N]     u0 {2,D} {6,S}
-4 *4 R!H              u0 {5,B} {1,S}
+4 *4 R!H              ux {5,B} {1,S}
 5 *6 R!H              ux {4,B} {6,S}
 6 *5 R!H              ux {3,S} {5,S} 
 """,
