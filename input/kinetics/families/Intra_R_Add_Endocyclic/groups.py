@@ -2651,6 +2651,20 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 167,
+    label = "R5_SB",
+    group =
+"""
+1 *1 R!H                 u1 {2,S}
+2 *4 Cb                  u0 {1,S} {3,B}
+3 *5 Cb                  u0 {2,B} {4,S}
+4 *2 [Cd,Ct,CO,N,CS]     u0 {3,S} {5,[D,T]}
+5 *3 [Cd,Ct,Od,Sd,Cdd,N] u0 {4,[D,T]}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Rn
@@ -2695,6 +2709,7 @@ L1: Rn
                 L5: R5_ST_D
                 L5: R5_ST_T
                 L5: R5_ST_CO
+            L4: R5_SB
         L3: R5_MS
             L4: R5_DS
                 L5: R5_DS_D
