@@ -5216,6 +5216,25 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 342,
+    label = "Rn4(SDSS)c6_alpha_benzene",
+    group =
+"""
+1  *2 C u0 {2,D} {6,S}
+2  *3 C u0 {1,D} {3,S}
+3     C u0 {2,S} {4,D}
+4     C u0 {3,D} {5,S}
+5     C u0 {4,S} {6,D}
+6  *5 C u0 {5,D} {1,S} {7,S}
+7  *7 C u0 {6,S} {8,S}
+8  *6 C u0 {7,S} {9,D}
+9  *4 C u0 {8,D} {10,S}
+10 *1 C u1 {9,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Rn
@@ -5256,8 +5275,9 @@ L1: Rn
         L3: Rnxc6
             L4: Rnxc6_alpha
                 L5: Rn4c6_alpha
-                    L6:Rn4c6_alpha_benzene
-                        L7:Rn4c6_alpha_benzene_Cdchain
+                    L6: Rn4c6_alpha_benzene
+                        L7: Rn4c6_alpha_benzene_Cdchain
+                        L7: Rn4(SDSS)c6_alpha_benzene
                     L6: Rn4(SDSD)c6_alpha
                     L6: Rn4(looped)c6_alpha
                 L5: Rn3c6_alpha
