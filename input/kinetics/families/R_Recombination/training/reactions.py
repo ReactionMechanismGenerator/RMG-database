@@ -827,3 +827,41 @@ Taken from entry: C3H3-2 + H <=> C3H4-2
 """,
 )
 
+
+
+entry(
+    index = 55,
+    label = "C3H3 + O2 <=> C3H3O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (47800, 'cm^3/(mol*s)'),
+        n = 2.243,
+        Ea = (-1.064, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2002_Hahn_C3H3_O2""",
+    longDesc = 
+u"""
+Taken from entry: C3H3 + O2 <=> C3H3O2(I)
+""",
+)
+
+entry(
+    index = 56,
+    label = "C3H3-2 + O2 <=> C3H3O2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8270, 'cm^3/(mol*s)'),
+        n = 2.525,
+        Ea = (1.989, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2002_Hahn_C3H3_O2""",
+    longDesc = 
+u"""
+Taken from entry: C3H3 + O2 <=> C3H3O2(II)
+""",
+)
+
