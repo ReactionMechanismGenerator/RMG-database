@@ -734,3 +734,59 @@ Taken from entry: C3H3 + O2 <=> C3H3O2(II)
 """,
 )
 
+
+
+entry(
+    index = 46,
+    label = "CH3 + C3H3-2 <=> C4H6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.705e+09, 'cm^3/(mol*s)'),
+        n = 1.07,
+        Ea = (-2.268, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H6_backward""",
+    longDesc = 
+u"""
+Taken from entry: CH3 + C3H3 <=> W1
+""",
+)
+
+entry(
+    index = 47,
+    label = "C4H5 + H <=> C4H6-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.117e+14, 'cm^3/(mol*s)'),
+        n = -0.152,
+        Ea = (1.003, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H6_backward""",
+    longDesc = 
+u"""
+Taken from entry: iC4H5 + H <=> W2
+""",
+)
+
+entry(
+    index = 48,
+    label = "C4H5-2 + H <=> C4H6-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.25e+14, 'cm^3/(mol*s)'),
+        n = -0.119,
+        Ea = (-1.012, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H6_backward""",
+    longDesc = 
+u"""
+Taken from entry: C4H5-2 + H <=> W3
+""",
+)
+
