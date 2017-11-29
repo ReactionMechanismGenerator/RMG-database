@@ -1295,3 +1295,31 @@ coefficient computed TST with Eckart Tunnelling"
 """,
 )
 
+
+
+entry(
+    index = 53,
+    label = "C4H5 <=> C4H5-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.605e+12, 's^-1'), n=0.275, Ea=(32.899, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H5_backward""",
+    longDesc = 
+u"""
+Taken from entry: W6 <=> W3
+""",
+)
+
+entry(
+    index = 54,
+    label = "C4H5-3 <=> C4H5-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.631e+12, 's^-1'), n=0.216, Ea=(46.951, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H5_backward""",
+    longDesc = 
+u"""
+Taken from entry: W9 <=> W5
+""",
+)
+
