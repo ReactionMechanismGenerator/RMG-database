@@ -3203,3 +3203,108 @@ Taken from entry: C3H3 + H2 <=> C3H4-a + H
 """,
 )
 
+
+
+entry(
+    index = 1249,
+    label = "C4H4 + CH3_p23 <=> CH4b + C4H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9.24, 'cm^3/(mol*s)'), n=3.335, Ea=(7.75, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C4H4 + CH3 <=> C4H3 + CH4
+""",
+)
+
+entry(
+    index = 1250,
+    label = "C4H4 + H <=> H2 + C4H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.092e+06, 'cm^3/(mol*s)'),
+        n = 2.211,
+        Ea = (7.181, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C4H4 + H <=> C4H3 + H2
+""",
+)
+
+entry(
+    index = 1251,
+    label = "C4H6-5 + CH3_p23 <=> CH4b + C4H5-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (14.26, 'cm^3/(mol*s)'),
+        n = 3.317,
+        Ea = (6.61, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C4H6 + CH3 <=> C4H5 + CH4
+""",
+)
+
+entry(
+    index = 1252,
+    label = "C4H6-5 + H <=> H2 + C4H5-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.867e+06, 'cm^3/(mol*s)'),
+        n = 2.242,
+        Ea = (5.318, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C4H6 + H <=> C4H5 + H2
+""",
+)
+
+entry(
+    index = 1253,
+    label = "C4H6 + CH3_p23 <=> CH4b + C4H5-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (29.41, 'cm^3/(mol*s)'),
+        n = 3.184,
+        Ea = (5.529, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: Butyne + CH3 <=> C4H5 + CH4
+""",
+)
+
+entry(
+    index = 1254,
+    label = "C4H6 + H <=> H2 + C4H5-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.501e+06, 'cm^3/(mol*s)'),
+        n = 2.027,
+        Ea = (4.069, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: Butyne + H <=> C4H5 + H2
+""",
+)
+
