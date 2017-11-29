@@ -2185,3 +2185,44 @@ Taken from entry: C3H3OO <=> C3H2OOH
 """,
 )
 
+
+
+entry(
+    index = 119,
+    label = "C4H5 <=> C4H5-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.992e-05, 's^-1'), n=4.805, Ea=(56.041, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H5_backward""",
+    longDesc = 
+u"""
+Taken from entry: W8 <=> W6
+""",
+)
+
+entry(
+    index = 120,
+    label = "C4H5-3 <=> C4H5-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(606700, 's^-1'), n=2.347, Ea=(51.259, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H5_backward""",
+    longDesc = 
+u"""
+Taken from entry: W9 <=> W6
+""",
+)
+
+entry(
+    index = 121,
+    label = "C4H5-5 <=> C4H5-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.471e+06, 's^-1'), n=1.841, Ea=(29.797, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: C4H5_backward""",
+    longDesc = 
+u"""
+Taken from entry: W10 <=> W8
+""",
+)
+
