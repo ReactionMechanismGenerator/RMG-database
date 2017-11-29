@@ -2986,3 +2986,40 @@ The paper reports a HO-RR rate, and a sum-over-states rate (where vib-rot aren't
 The sum-over-states rate was taken here.
 """,
 )
+
+entry(
+    index = 186,
+    label = "C2H2O-2 + H <=> C2H3O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.82e-16, 'cm^3/(molecule*s)'),
+        n = 1.61,
+        Ea = (10992, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2006_Senosiain_H_CH2CO_High_P""",
+    longDesc =
+u"""
+Taken from entry: H + CH2CO <=> CH3CO
+""",
+)
+
+entry(
+    index=187,
+    label = "C2H2O + H <=> C2H3O-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.3e-15, 'cm^3/(molecule*s)'),
+        n = 1.43,
+        Ea = (25318, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2006_Senosiain_H_CH2CO_High_P""",
+    longDesc = 
+u"""
+Taken from entry: H + CH2CO <=> CH2CHO
+""",
+)
+
