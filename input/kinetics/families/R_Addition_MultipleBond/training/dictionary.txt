@@ -6073,3 +6073,39 @@ multiplicity 2
 5    O u0 p2 c0 {2,D}
 6 *3 H u0 p0 c0 {2,S}
 
+C4H2
+1 *2 C u0 p0 c0 {2,S} {3,T}
+2    C u0 p0 c0 {1,S} {4,T}
+3 *1 C u0 p0 c0 {1,T} {5,S}
+4    C u0 p0 c0 {2,T} {6,S}
+5    H u0 p0 c0 {3,S}
+6    H u0 p0 c0 {4,S}
+
+C4H3
+multiplicity 2
+1 *1 C u0 p0 c0 {2,D} {5,S} {6,S}
+2 *2 C u1 p0 c0 {1,D} {3,S}
+3    C u0 p0 c0 {2,S} {4,T}
+4    C u0 p0 c0 {3,T} {7,S}
+5    H u0 p0 c0 {1,S}
+6 *3 H u0 p0 c0 {1,S}
+7    H u0 p0 c0 {4,S}
+
+C4H2-2
+1 *1 C u0 p0 c0 {2,S} {3,T}
+2    C u0 p0 c0 {1,S} {4,T}
+3 *2 C u0 p0 c0 {1,T} {5,S}
+4    C u0 p0 c0 {2,T} {6,S}
+5    H u0 p0 c0 {3,S}
+6    H u0 p0 c0 {4,S}
+
+C4H3-2
+multiplicity 2
+1 *1 C u0 p0 c0 {2,S} {3,D} {5,S}
+2    C u0 p0 c0 {1,S} {4,T}
+3 *2 C u1 p0 c0 {1,D} {6,S}
+4    C u0 p0 c0 {2,T} {7,S}
+5 *3 H u0 p0 c0 {1,S}
+6    H u0 p0 c0 {3,S}
+7    H u0 p0 c0 {4,S}
+
