@@ -3297,3 +3297,41 @@ Taken from entry: Butyne + H <=> C4H5 + H2
 """,
 )
 
+
+
+entry(
+    index = 1255,
+    label = "C3H4 + OH <=> H2O + C3H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (12560, 'cm^3/(mol*s)'),
+        n = 2.794,
+        Ea = (0.153, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Zador_C3H5O""",
+    longDesc = 
+u"""
+Taken from entry: propyne + OH <=> C3H3 + H2O
+""",
+)
+
+entry(
+    index = 1256,
+    label = "C3H4-1 + OH <=> H2O + C3H3-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (33830, 'cm^3/(mol*s)'),
+        n = 2.802,
+        Ea = (0.933, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Zador_C3H5O""",
+    longDesc = 
+u"""
+Taken from entry: allene + OH <=> C3H3 + H2O
+""",
+)
+

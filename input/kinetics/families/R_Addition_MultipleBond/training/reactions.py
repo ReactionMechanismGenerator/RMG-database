@@ -3144,3 +3144,103 @@ Taken from entry: vinylacetylene + H <=> W10
 """,
 )
 
+
+
+entry(
+    index = 195,
+    label = "C3H5O-2 <=> C2H2O-2 + CH3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.977e+09, 's^-1'), n=1.37, Ea=(41.408, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Zador_C3H5O""",
+    longDesc = 
+u"""
+Taken from entry: W8 <=> CH3 + CH2CO
+""",
+)
+
+entry(
+    index = 196,
+    label = "C3H5O-3 <=> C2H2O + CH3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.022e+12, 's^-1'), n=0.577, Ea=(41.055, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Zador_C3H5O""",
+    longDesc = 
+u"""
+Taken from entry: W10 <=> CH3 + CH2CO
+""",
+)
+
+entry(
+    index = 197,
+    label = "C3H4-2 + HO <=> C3H5O-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.508e+07, 'cm^3/(mol*s)'),
+        n = 1.628,
+        Ea = (-0.462, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Zador_C3H5O""",
+    longDesc = 
+u"""
+Taken from entry: propyne + OH <=> W4
+""",
+)
+
+entry(
+    index = 198,
+    label = "C3H4-4 + HO <=> C3H5O-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.148e+06, 'cm^3/(mol*s)'),
+        n = 1.876,
+        Ea = (-0.423, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Zador_C3H5O""",
+    longDesc = 
+u"""
+Taken from entry: propyne + OH <=> W11
+""",
+)
+
+entry(
+    index = 199,
+    label = "C3H4-3 + HO <=> C3H5O-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.973e+06, 'cm^3/(mol*s)'),
+        n = 2.037,
+        Ea = (-1.433, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Zador_C3H5O""",
+    longDesc = 
+u"""
+Taken from entry: allene + OH <=> W1
+""",
+)
+
+entry(
+    index = 200,
+    label = "C3H4 + HO <=> C3H5O-7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (41610, 'cm^3/(mol*s)'),
+        n = 2.487,
+        Ea = (-1.81, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Zador_C3H5O""",
+    longDesc = 
+u"""
+Taken from entry: allene + OH <=> W9
+""",
+)
+
