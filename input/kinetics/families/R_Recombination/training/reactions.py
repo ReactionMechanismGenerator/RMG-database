@@ -790,3 +790,77 @@ Taken from entry: C4H5-2 + H <=> W3
 """,
 )
 
+
+
+entry(
+    index = 49,
+    label = "C6H5 + CH3 <=> C7H8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.87e-10, 'cm^3/(molecule*s)'),
+        n = -0.283,
+        Ea = (-0.191, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2007_Klippenstein_C7H8_highP""",
+    longDesc = 
+u"""
+Taken from entry: C6H5 + CH3 <=> Toluene
+""",
+)
+
+entry(
+    index = 50,
+    label = "C7H7 + H <=> C7H8-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.2e-10, 'cm^3/(molecule*s)'),
+        n = 0.062,
+        Ea = (-0.044, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2007_Klippenstein_C7H8_highP""",
+    longDesc = 
+u"""
+Taken from entry: C7H7 + H <=> Toluene
+""",
+)
+
+entry(
+    index = 51,
+    label = "C7H7-2 + H <=> C7H8-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.28e-13, 'cm^3/(molecule*s)'),
+        n = 0.611,
+        Ea = (-0.436, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2007_Klippenstein_C7H8_highP""",
+    longDesc = 
+u"""
+Taken from entry: C7H7 + H <=> OiT
+""",
+)
+
+entry(
+    index = 52,
+    label = "C7H7-3 + H <=> C7H8-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.07e-11, 'cm^3/(molecule*s)'),
+        n = 0.245,
+        Ea = (-0.333, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2007_Klippenstein_C7H8_highP""",
+    longDesc = 
+u"""
+Taken from entry: C7H7 + H <=> PiT
+""",
+)
+
