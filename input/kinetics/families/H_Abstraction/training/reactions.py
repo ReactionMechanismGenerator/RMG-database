@@ -3420,3 +3420,365 @@ Taken from entry: Toluene + H <=> P4 + H2
 """,
 )
 
+
+
+entry(
+    index = 1261,
+    label = "C7H8 + OH <=> H2O + C7H7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (130169, 'cm^3/(mol*s)'),
+        n = 2.28048,
+        Ea = (-572.972, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Li_Toluene_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + OH <=> C6H5CH2 + H2O
+""",
+)
+
+entry(
+    index = 1262,
+    label = "C7H8-2 + OH <=> H2O + C7H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (277.731, 'cm^3/(mol*s)'),
+        n = 2.99789,
+        Ea = (1245.72, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Li_Toluene_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + OH <=> o-C6H4CH3 + H2O
+""",
+)
+
+entry(
+    index = 1263,
+    label = "C7H8-3 + OH <=> H2O + C7H7-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (819.665, 'cm^3/(mol*s)'),
+        n = 3.09594,
+        Ea = (1507.71, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Li_Toluene_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + OH <=> m-C6H4CH3 + H2O
+""",
+)
+
+entry(
+    index = 1264,
+    label = "C7H8-4 + OH <=> H2O + C7H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (763.895, 'cm^3/(mol*s)'),
+        n = 3.10443,
+        Ea = (1688.65, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Li_Toluene_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + OH <=> p-C6H4CH3 + H2O
+""",
+)
+
+entry(
+    index = 1265,
+    label = "C7H8 + H <=> H2 + C7H7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (75372.2, 'cm^3/(mol*s)'),
+        n = 2.57378,
+        Ea = (3145.75, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Li_Toluene_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + H <=> C6H5CH2 + H2
+""",
+)
+
+entry(
+    index = 1266,
+    label = "C7H8-2 + H <=> H2 + C7H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (281049, 'cm^3/(mol*s)'),
+        n = 2.41207,
+        Ea = (8837.35, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Li_Toluene_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + H <=> o-C6H4CH3 + H2
+""",
+)
+
+entry(
+    index = 1267,
+    label = "C7H8-3 + H <=> H2 + C7H7-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.16e+06, 'cm^3/(mol*s)'),
+        n = 2.44202,
+        Ea = (9052.88, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Li_Toluene_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + H <=> m-C6H4CH3 + H2
+""",
+)
+
+entry(
+    index = 1268,
+    label = "C7H8-4 + H <=> H2 + C7H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.57e+06, 'cm^3/(mol*s)'),
+        n = 2.40693,
+        Ea = (9440.52, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Li_Toluene_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + H <=> p-C6H4CH3 + H2
+""",
+)
+
+entry(
+    index = 1269,
+    label = "C7H8 + O_rad <=> HO + C7H7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00788, 'cm^3/(mol*s)'),
+        n = 4.29278,
+        Ea = (11250.7, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Li_Toluene_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + O <=> C6H5CH2 + OH
+""",
+)
+
+entry(
+    index = 1270,
+    label = "C7H8-2 + O_rad <=> HO + C7H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.71418, 'cm^3/(mol*s)'),
+        n = 3.64569,
+        Ea = (21743.3, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Li_Toluene_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + O <=> o-C6H4CH3 + OH
+""",
+)
+
+entry(
+    index = 1271,
+    label = "C7H8-3 + O_rad <=> HO + C7H7-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.02029, 'cm^3/(mol*s)'),
+        n = 3.64209,
+        Ea = (22208.2, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Li_Toluene_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + O <=> m-C6H4CH3 + OH
+""",
+)
+
+entry(
+    index = 1272,
+    label = "C7H8-4 + O_rad <=> HO + C7H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.79741, 'cm^3/(mol*s)'),
+        n = 3.6191,
+        Ea = (22697.5, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Li_Toluene_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + O <=> p-C6H4CH3 + OH
+""",
+)
+
+entry(
+    index = 1273,
+    label = "C7H8 + CH3_p23 <=> CH4b + C7H7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.07e+06, 'cm^3/(mol*s)'),
+        n = 2.26764,
+        Ea = (4392.37, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Li_Toluene_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + CH3 <=> C6H5CH2 + CH4
+""",
+)
+
+entry(
+    index = 1274,
+    label = "C7H8-2 + CH3_p23 <=> CH4b + C7H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.21e+07, 'cm^3/(mol*s)'),
+        n = 1.81483,
+        Ea = (14155.6, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Li_Toluene_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + CH3 <=> o-C6H4CH3 + CH4
+""",
+)
+
+entry(
+    index = 1275,
+    label = "C7H8-3 + CH3_p23 <=> CH4b + C7H7-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.11e+08, 'cm^3/(mol*s)'),
+        n = 1.80464,
+        Ea = (14389, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Li_Toluene_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + CH3 <=> m-C6H4CH3 + CH4
+""",
+)
+
+entry(
+    index = 1276,
+    label = "C7H8-4 + CH3_p23 <=> CH4b + C7H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.05e+08, 'cm^3/(mol*s)'),
+        n = 1.81188,
+        Ea = (14672.5, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Li_Toluene_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + CH3 <=> p-C6H4CH3 + CH4
+""",
+)
+
+entry(
+    index = 1277,
+    label = "C7H8 + HO2_r3 <=> H2O2 + C7H7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.55836, 'cm^3/(mol*s)'),
+        n = 3.80712,
+        Ea = (7395.74, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Li_Toluene_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + HO2 <=> C6H5CH2 + H2O2
+""",
+)
+
+entry(
+    index = 1278,
+    label = "C7H8-2 + HO2_r3 <=> H2O2 + C7H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (91.4407, 'cm^3/(mol*s)'),
+        n = 3.28308,
+        Ea = (14233.3, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Li_Toluene_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + HO2 <=> o-C6H4CH3 + H2O2
+""",
+)
+
+entry(
+    index = 1279,
+    label = "C7H8-3 + HO2_r3 <=> H2O2 + C7H7-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (197.267, 'cm^3/(mol*s)'),
+        n = 3.28482,
+        Ea = (14542.4, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Li_Toluene_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + HO2 <=> m-C6H4CH3 + H2O2
+""",
+)
+
+entry(
+    index = 1280,
+    label = "C7H8-4 + HO2_r3 <=> H2O2 + C7H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (204.902, 'cm^3/(mol*s)'),
+        n = 3.30806,
+        Ea = (14723.9, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Li_Toluene_H_abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H5CH3 + HO2 <=> p-C6H4CH3 + H2O2
+""",
+)
+
