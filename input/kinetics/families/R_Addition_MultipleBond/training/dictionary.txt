@@ -6290,3 +6290,22 @@ multiplicity 2
 8    H u0 p0 c0 {3,S}
 9    H u0 p0 c0 {4,S}
 
+C7H9-28
+multiplicity 2
+1  *1 C u0 p0 c0 {4,S} {5,S} {8,S} {9,S}
+2     C u0 p0 c0 {3,S} {10,S} {11,S} {12,S}
+3     C u0 p0 c0 {2,S} {4,S} {6,D}
+4  *2 C u1 p0 c0 {1,S} {3,S} {13,S}
+5     C u0 p0 c0 {1,S} {7,D} {14,S}
+6     C u0 p0 c0 {3,D} {7,S} {16,S}
+7     C u0 p0 c0 {5,D} {6,S} {15,S}
+8     H u0 p0 c0 {1,S}
+9  *3 H u0 p0 c0 {1,S}
+10    H u0 p0 c0 {2,S}
+11    H u0 p0 c0 {2,S}
+12    H u0 p0 c0 {2,S}
+13    H u0 p0 c0 {4,S}
+14    H u0 p0 c0 {5,S}
+15    H u0 p0 c0 {7,S}
+16    H u0 p0 c0 {6,S}
+
