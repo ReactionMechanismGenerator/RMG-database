@@ -3335,3 +3335,77 @@ Taken from entry: allene + OH <=> C3H3 + H2O
 """,
 )
 
+
+
+entry(
+    index = 1257,
+    label = "C7H8 + H <=> H2 + C7H7",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (578.5, 'cm^3/(mol*s)'),
+        n = 3.192,
+        Ea = (1.81, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Truhlar_C7H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: Toluene + H <=> P1 + H2
+""",
+)
+
+entry(
+    index = 1258,
+    label = "C7H8-2 + H <=> H2 + C7H7-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1.779e+06, 'cm^3/(mol*s)'),
+        n = 2.321,
+        Ea = (13.054, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Truhlar_C7H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: Toluene + H <=> P2 + H2
+""",
+)
+
+entry(
+    index = 1259,
+    label = "C7H8-3 + H <=> H2 + C7H7-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1.392e+11, 'cm^3/(mol*s)'),
+        n = 1.352,
+        Ea = (15.275, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Truhlar_C7H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: Toluene + H <=> P3 + H2
+""",
+)
+
+entry(
+    index = 1260,
+    label = "C7H8-4 + H <=> H2 + C7H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.742e+06, 'cm^3/(mol*s)'),
+        n = 2.308,
+        Ea = (13.16, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2016_Truhlar_C7H9_highP""",
+    longDesc = 
+u"""
+Taken from entry: Toluene + H <=> P4 + H2
+""",
+)
+
