@@ -3771,3 +3771,95 @@ Taken from entry: C6H5CH3 + HO2 <=> p-C6H4CH3 + H2O2
 """,
 )
 
+
+
+entry(
+    index = 1281,
+    label = "C6H6 + H <=> H2 + C6H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.42e+08, 'cm^3/(mol*s)'),
+        n = 1.77,
+        Ea = (13.056, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Benzene_Naphthalene_H_Abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H6 + H <=> C6H5 + H2
+""",
+)
+
+entry(
+    index = 1282,
+    label = "C10H8 + H <=> H2 + C10H7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.27e+08, 'cm^3/(mol*s)'),
+        n = 1.71,
+        Ea = (16.236, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Benzene_Naphthalene_H_Abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C10H8 + H <=> C10H7-1 + H2
+""",
+)
+
+entry(
+    index = 1283,
+    label = "C6H6 + OH <=> H2O + C6H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.88e-20, 'cm^3/(molecule*s)'),
+        n = 2.683,
+        Ea = (0.7333, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Benzene_Naphthalene_H_Abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H6 + OH <=> C6H5 + H2O
+""",
+)
+
+entry(
+    index = 1284,
+    label = "C6H6 + CH3_p23 <=> CH4b + C6H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.07e-21, 'cm^3/(molecule*s)'),
+        n = 2.88,
+        Ea = (13.332, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Benzene_Naphthalene_H_Abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H6 + CH3 <=> C6H5 + CH4
+""",
+)
+
+entry(
+    index = 1285,
+    label = "C6H6 + C2H5 <=> C2H6 + C6H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.62e-22, 'cm^3/(molecule*s)'),
+        n = 3.11,
+        Ea = (18.66, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Benzene_Naphthalene_H_Abstraction""",
+    longDesc = 
+u"""
+Taken from entry: C6H6 + C2H5 <=> C6H5 + C2H6
+""",
+)
+
