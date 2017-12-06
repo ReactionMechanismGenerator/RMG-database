@@ -584,3 +584,105 @@ multiplicity 2
 18    H u0 p0 c0 {10,S}
 19    H u0 p0 c0 {10,S}
 
+C7H7
+multiplicity 2
+1     C u1 p0 c0 {2,S} {7,S} {8,S}
+2  *2 C u0 p0 c0 {1,S} {3,D} {9,S}
+3  *3 C u0 p0 c0 {2,D} {4,S} {10,S}
+4  *4 C u0 p0 c0 {3,S} {5,D} {11,S}
+5  *5 C u0 p0 c0 {4,D} {6,S} {12,S}
+6  *1 C u0 p0 c0 {5,S} {7,D} {13,S}
+7     C u0 p0 c0 {1,S} {6,D} {14,S}
+8     H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {2,S}
+10    H u0 p0 c0 {3,S}
+11    H u0 p0 c0 {4,S}
+12    H u0 p0 c0 {5,S}
+13 *6 H u0 p0 c0 {6,S}
+14    H u0 p0 c0 {7,S}
+
+C7H7-2
+multiplicity 2
+1  *1 C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
+2  *5 C u0 p0 c0 {1,S} {4,D} {11,S}
+3     C u1 p0 c0 {1,S} {5,S} {10,S}
+4  *4 C u0 p0 c0 {2,D} {6,S} {12,S}
+5     C u0 p0 c0 {3,S} {7,D} {14,S}
+6  *3 C u0 p0 c0 {4,S} {7,D} {13,S}
+7  *2 C u0 p0 c0 {5,D} {6,D}
+8     H u0 p0 c0 {1,S}
+9  *6 H u0 p0 c0 {1,S}
+10    H u0 p0 c0 {3,S}
+11    H u0 p0 c0 {2,S}
+12    H u0 p0 c0 {4,S}
+13    H u0 p0 c0 {6,S}
+14    H u0 p0 c0 {5,S}
+
+C7H7-3
+multiplicity 2
+1  *1 C u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
+2  *5 C u0 p0 c0 {1,S} {4,D} {9,S}
+3  *2 C u0 p0 c0 {1,S} {5,D} {10,S}
+4  *4 C u0 p0 c0 {2,D} {5,S} {12,S}
+5  *3 C u0 p0 c0 {3,D} {4,S} {13,S}
+6     C u0 p0 c0 {1,S} {7,D} {11,S}
+7     C u1 p0 c0 {6,D} {14,S}
+8  *6 H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {2,S}
+10    H u0 p0 c0 {3,S}
+11    H u0 p0 c0 {6,S}
+12    H u0 p0 c0 {4,S}
+13    H u0 p0 c0 {5,S}
+14    H u0 p0 c0 {7,S}
+
+C7H7-4
+multiplicity 2
+1  *1 C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
+2  *2 C u0 p0 c0 {1,S} {4,D} {6,S}
+3  *5 C u0 p0 c0 {1,S} {5,D} {10,S}
+4  *3 C u0 p0 c0 {2,D} {5,S} {11,S}
+5  *4 C u0 p0 c0 {3,D} {4,S} {12,S}
+6     C u0 p0 c0 {2,S} {7,D} {13,S}
+7     C u1 p0 c0 {6,D} {14,S}
+8  *6 H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {1,S}
+10    H u0 p0 c0 {3,S}
+11    H u0 p0 c0 {4,S}
+12    H u0 p0 c0 {5,S}
+13    H u0 p0 c0 {6,S}
+14    H u0 p0 c0 {7,S}
+
+C7H7-5
+multiplicity 2
+1  *1 C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+2  *5 C u0 p0 c0 {1,S} {4,D} {9,S}
+3  *2 C u0 p0 c0 {1,S} {5,D} {10,S}
+4  *4 C u0 p0 c0 {2,D} {5,S} {11,S}
+5  *3 C u0 p0 c0 {3,D} {4,S} {12,S}
+6     C u0 p0 c0 {7,D} {13,S} {14,S}
+7     C u1 p0 c0 {1,S} {6,D}
+8  *6 H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {2,S}
+10    H u0 p0 c0 {3,S}
+11    H u0 p0 c0 {4,S}
+12    H u0 p0 c0 {5,S}
+13    H u0 p0 c0 {6,S}
+14    H u0 p0 c0 {6,S}
+
+C7H7-6
+multiplicity 2
+1  *1 C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
+2  *2 C u0 p0 c0 {1,S} {4,D} {7,S}
+3  *5 C u0 p0 c0 {1,S} {5,D} {10,S}
+4  *3 C u0 p0 c0 {2,D} {5,S} {11,S}
+5  *4 C u0 p0 c0 {3,D} {4,S} {12,S}
+6     C u0 p0 c0 {7,D} {13,S} {14,S}
+7     C u1 p0 c0 {2,S} {6,D}
+8  *6 H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {1,S}
+10    H u0 p0 c0 {3,S}
+11    H u0 p0 c0 {4,S}
+12    H u0 p0 c0 {5,S}
+13    H u0 p0 c0 {6,S}
+14    H u0 p0 c0 {6,S}
+

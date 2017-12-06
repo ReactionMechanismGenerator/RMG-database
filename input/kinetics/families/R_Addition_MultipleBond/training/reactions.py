@@ -3363,3 +3363,62 @@ Taken from entry: Toluene + H <=> P8
 """,
 )
 
+
+
+entry(
+    index = 207,
+    label = "C2H2 + C5H5 <=> C7H7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (408000, 'cm^3/(mol*s)'),
+        n = 2.24,
+        Ea = (10.8, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2010_Silva_C7H7_highP""",
+    longDesc = 
+u"""
+Taken from entry: C5H5 + C2H2 <=> w3
+""",
+)
+
+entry(
+    index = 208,
+    label = "C7H7-4 <=> C7H6-2 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.06e+10, 's^-1'), n=1.16, Ea=(26.18, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2010_Silva_C7H7_highP""",
+    longDesc = 
+u"""
+Taken from entry: w11 <=> w12 + H
+""",
+)
+
+entry(
+    index = 209,
+    label = "C7H7-2 <=> C7H6 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.16e+10, 's^-1'), n=1.24, Ea=(65.98, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2010_Silva_C7H7_highP""",
+    longDesc = 
+u"""
+Taken from entry: w13 <=> fulvenallene + H
+""",
+)
+
+entry(
+    index = 210,
+    label = "C7H7-5 <=> C7H6-3 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.02e+13, 's^-1'), n=0.34, Ea=(46.7, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2010_Silva_C7H7_highP""",
+    longDesc = 
+u"""
+Taken from entry: w15 <=> fulvenallene + H
+""",
+)
+

@@ -220,3 +220,44 @@ Taken from entry: W107 <=> W108
 """,
 )
 
+
+
+entry(
+    index = 16,
+    label = "C7H7 <=> C7H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.5e+08, 's^-1'), n=1.56, Ea=(62.12, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2010_Silva_C7H7_highP""",
+    longDesc = 
+u"""
+Taken from entry: c-C7H7 <=> w6
+""",
+)
+
+entry(
+    index = 17,
+    label = "C7H7-3 <=> C7H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.01e+10, 's^-1'), n=0.97, Ea=(19.17, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2010_Silva_C7H7_highP""",
+    longDesc = 
+u"""
+Taken from entry: w3 <=> w11
+""",
+)
+
+entry(
+    index = 18,
+    label = "C7H7-5 <=> C7H7-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6.21e+08, 's^-1'), n=1.38, Ea=(15.29, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2010_Silva_C7H7_highP""",
+    longDesc = 
+u"""
+Taken from entry: w14 <=> w15
+""",
+)
+
