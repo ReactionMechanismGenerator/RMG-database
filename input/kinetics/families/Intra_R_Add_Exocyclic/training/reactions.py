@@ -91,3 +91,70 @@ Taken from entry: prod2 <=> prod5
 """,
 )
 
+
+
+entry(
+    index = 7,
+    label = "C7H7 <=> C7H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9.25e+11, 's^-1'), n=0.16, Ea=(9.81, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2010_Silva_C7H7_highP""",
+    longDesc = 
+u"""
+Taken from entry: w3 <=> w4
+""",
+)
+
+entry(
+    index = 8,
+    label = "C7H7-3 <=> C7H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.51e+12, 's^-1'), n=0.26, Ea=(25.25, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2010_Silva_C7H7_highP""",
+    longDesc = 
+u"""
+Taken from entry: w4 <=> c-C7H7
+""",
+)
+
+entry(
+    index = 9,
+    label = "C7H7-5 <=> C7H7-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.1e+12, 's^-1'), n=0.14, Ea=(0.3, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2010_Silva_C7H7_highP""",
+    longDesc = 
+u"""
+Taken from entry: w7 <=> w8
+""",
+)
+
+entry(
+    index = 10,
+    label = "C7H7-7 <=> C7H7-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.98e+12, 's^-1'), n=0.5, Ea=(61, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2010_Silva_C7H7_highP""",
+    longDesc = 
+u"""
+Taken from entry: benzyl <=> w10
+""",
+)
+
+entry(
+    index = 11,
+    label = "C7H7-9 <=> C7H7-10",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.8e+13, 's^-1'), n=0.15, Ea=(19.35, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2010_Silva_C7H7_highP""",
+    longDesc = 
+u"""
+Taken from entry: w10 <=> w14
+""",
+)
+

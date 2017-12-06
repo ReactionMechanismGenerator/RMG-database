@@ -1323,3 +1323,18 @@ Taken from entry: W9 <=> W5
 """,
 )
 
+
+
+entry(
+    index = 55,
+    label = "C7H7 <=> C7H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.24e+12, 's^-1'), n=0.31, Ea=(3.62, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2010_Silva_C7H7_highP""",
+    longDesc = 
+u"""
+Taken from entry: w8 <=> benzyl
+""",
+)
+
