@@ -158,3 +158,31 @@ Taken from entry: w10 <=> w14
 """,
 )
 
+
+
+entry(
+    index = 12,
+    label = "C6H7 <=> C6H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.018e+12, 's^-1'), n=0.05, Ea=(5.961, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Mebel_C6H7_highP""",
+    longDesc = 
+u"""
+Taken from entry: W2 <=> W1
+""",
+)
+
+entry(
+    index = 13,
+    label = "C6H7-3 <=> C6H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.307e+12, 's^-1'), n=0.256, Ea=(36.797, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2017_Mebel_C6H7_highP""",
+    longDesc = 
+u"""
+Taken from entry: W3 <=> W2
+""",
+)
+
