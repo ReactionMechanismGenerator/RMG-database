@@ -114,12 +114,12 @@ entry(
     index = 8,
     label = "C6H7 <=> C6H7-2",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.23e+07, 's^-1'), n=1.54, Ea=(13.4, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(2.270e+10, 's^-1'), n=0.581, Ea=(16.586, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    shortDesc = u"""Training reaction from kinetics library: 2017_Mebel_C6H7_highP""",
     longDesc = 
 u"""
-Taken from entry: C5H5CH2-1 <=> C5H5CH2-2
+Taken from entry: W1 <=> W5
 """,
 )
 
