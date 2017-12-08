@@ -86,12 +86,12 @@ entry(
     index = 6,
     label = "C6H8 <=> C6H8-2",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(7.0333e+08, 's^-1'), n=1.2, Ea=(24.8, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(3.201e+11, 's^-1'), n=0.600, Ea=(23.767, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
+    shortDesc = u"""Training reaction from kinetics library: 2017_Mebel_C6H8_high""",
     longDesc = 
 u"""
-Taken from entry: C5H5CH3-5 <=> C5H5CH3-1
+Taken from entry: W1 <=> W2
 """,
 )
 
@@ -99,12 +99,12 @@ entry(
     index = 7,
     label = "C6H8-3 <=> C6H8-4",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.6539e+07, 's^-1'), n=2.1, Ea=(25.1, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(4.432e+11, 's^-1'), n=0.625, Ea=(26.957, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
+    shortDesc = u"""Training reaction from kinetics library: 2017_Mebel_C6H8_highP""",
     longDesc = 
 u"""
-Taken from entry: C5H5CH3-1 <=> C5H5CH3-2
+Taken from entry: W2 <=> W3
 """,
 )
 
