@@ -36,6 +36,7 @@ recommendedFamilies = {
 'Intra_R_Add_ExoTetCyclic':False,
 'Intra_R_Add_Exocyclic':True,
 'Korcek_step1':False,
+'Korcek_step1_cat':False,
 'Korcek_step2':False,
 'R_Addition_COm':True,
 'R_Addition_CSm':False,
