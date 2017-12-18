@@ -7669,3 +7669,19 @@ u"""
 """,
 )
 
+forbidden(
+    label = "HCO",
+    group =
+"""
+1 *1 Cd  u1 p0 c0 {2,S} {3,D}
+2 *2 H   u0 p0 c0 {1,S}
+3    O2d u0 p2 c0 {1,D}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+HCO should not react through H_Abs to give the birad [C]=O form.
+The correct reaction class is already captured by the CO_Disproportionation family giving [C-]#[O+]
+""",
+)
+
