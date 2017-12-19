@@ -2,8 +2,6 @@ language: python
 sudo: false
 python:
   - "2.7"
-virtualenv:
-    system_site_packages: true
 env:
   global:
     - secure: "L2ja+ZnV83w4qG3E8FwTjm0D6IWNOnj5wuFOjYTwbzQP4OAgLAWBzCMtxzWy5sMxFLtRgkswBH1d5f5kg8Ab7GIyAMFgQwe8UFqMJ+N05QNszE1mJkAvJtv2XN7669XXQhTt5EXfHrCcGZaODVnI2CEA8GB5DxiHO2Lcqf/xvgE="
@@ -11,35 +9,30 @@ env:
     - secure: N/LNeY6kM4g2TOWiwuZhevrFOVSSDXj42hOWmbWVfwjLxVTMpFO29os3TiXxod8q6ezpDkXi5yVcGGtKLQZr6CgoiGW8zS+UKsUntKH4HI4dZdK+hKAKwaWU641aDNIq/XqSzNJ8v7ZmLLo3sk878aTHODPRPBfb7Q9wk2l3sDs=
     - secure: jSRuOGP7vghJet6oelSprSLGBd/eYuUaU3UM+QnZW0GhETWyXxjg/17hpl2R2NzVLhVz2m0KRaoT9JmG+EyJ9NW47JwTaKL+CNtxg2gPTM3/6iVNdVrXM1vOTvaJhtZ/C2SbLDg/+JPLLUMfT9/9oXkiz+enh7VzZuZDywgoTsw=
     - secure: Y4tbLIssPDkRQZp2lLUtou/YZr3APmhfD3o3tUcv1mqveeg6NBYZ8o6bLSULO3wdm88s1sug23VbP+Gt74XN4Ylbt4GjhKkOxvd+Vut7dR0o0cxsH372AWHYPicCOkuYAfeDK5cqxeXkGibHW1eBdduAAT82wcW5NcD9USyv9ig=
-addons:
-  apt:
-    packages:
-    - git
 
 before_install:
+  - cd ..
   # Set up anaconda
-  - wget http://repo.continuum.io/miniconda/Miniconda2-4.0.5-Linux-x86_64.sh -O miniconda.sh
-  - chmod +x miniconda.sh
-  - ./miniconda.sh -b -p $HOME/miniconda
+  - wget http://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh -O miniconda.sh
+  - bash miniconda.sh -b -p $HOME/miniconda
   - export PATH=$HOME/miniconda/bin:$PATH
   # Update conda itself
   - conda update --yes conda
-  - cd ..
-  # this is the RMG-database project, so need to fetch RMG-Py
+  - conda info -a
+  # This is the RMG-database project, so need to fetch RMG-Py
   - git clone https://github.com/ReactionMechanismGenerator/RMG-Py.git
-  # Add RMG-Py to PYTHONPATH
-  - export PYTHONPATH=$TRAVIS_BUILD_DIR/RMG-Py:$PYTHONPATH
   - cd RMG-Py
 
 install:
-  - conda env create -f environment_linux.yml
+  - conda env create -q -f environment_linux.yml
   - source activate rmg_env
+  - conda list
   - make
 
 script:
   - make test-database
   - make test-all
-  - cd $TRAVIS_BUILD_DIR
 
 after_success:
+  - cd $TRAVIS_BUILD_DIR
   - bash ./deploy.sh
