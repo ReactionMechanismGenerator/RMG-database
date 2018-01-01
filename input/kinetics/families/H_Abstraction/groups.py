@@ -7612,16 +7612,65 @@ L1: Y_rad_birad_trirad_quadrad
 )
 
 forbidden(
-    label = "disprop1",
+    label = "disprop1_base_case",
     group = 
 """
-1 *1 R u0 {2,S} {3,S}
-2    C u1 {1,S}
-3 *2 H u0 {1,S}
+1 *1 R     u0 {2,S} {3,S}
+2    [C,N] u1 {1,S}
+3 *2 H     u0 {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
 u"""
+Generally, we'd like to forbid `HR[R].` from reacting here (`.` marks a radical), since this is a disprop reaction.
+However, the following specific cases must not be forbidden here: `HO2`, `HSS`, `HOS`, `HSO`
+(since they form the ground state triplets O2, S2, and SO).
+This group forbids `HR[C,N].`, where the radical site isn't O or S
+""",
+)
+
+forbidden(
+    label = "disprop1_OS_rad",
+    group =
+"""
+1 *1 [C,N] u0 {2,S} {3,S}
+2    [O,S] u1 {1,S}
+3 *2 H     u0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+This group forbids `H[C,N][O,S].`, where the radical site is O or S, but the non-rad site isn't
+""",
+)
+
+forbidden(
+    label = "disprop1_hyperS_H",
+    group =
+"""
+1 *1 S u0 p[0,1] {2,S} {3,S}
+2    [O,S] u1    {1,S}
+3 *2 H     u0    {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+This group forbids `H[S p0,1][O,S].`, where hypervalance S is allowed at the H site
+""",
+)
+
+forbidden(
+    label = "disprop1_hyperS_rad",
+    group =
+"""
+1 *1 [O,S] u0        {2,S} {3,S}
+2    S     u1 p[0,1] {1,S}
+3 *2 H     u0        {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+This group forbids `H[O,S][S p0,1].`, where hypervalance S is allowed at the rad site
 """,
 )
 
