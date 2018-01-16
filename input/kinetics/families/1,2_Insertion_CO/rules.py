@@ -8,7 +8,7 @@ longDesc = u"""
 """
 entry(
     index = 553,
-    label = "CO_birad;RR'",
+    label = "CO;RR'",
     kinetics = ArrheniusEP(
         A = (100000, 'cm^3/(mol*s)'),
         n = 2,
@@ -28,7 +28,7 @@ transition states are treated as free rotations as they are relatively loose TSs
 
 entry(
     index = 554,
-    label = "CO_birad;C_methyl_C_methyl",
+    label = "CO;C_methyl_C_methyl",
     kinetics = ArrheniusEP(
         A = (538, 'cm^3/(mol*s)'),
         n = 3.29,
@@ -48,7 +48,7 @@ transition states are treated as free rotations as they are relatively loose TSs
 
 entry(
     index = 555,
-    label = "CO_birad;H2",
+    label = "CO;H2",
     kinetics = ArrheniusEP(
         A = (2.89e+09, 'cm^3/(mol*s)'),
         n = 1.16,
@@ -68,7 +68,7 @@ transition states are treated as free rotations as they are relatively loose TSs
 
 entry(
     index = 556,
-    label = "CO_birad;C_methane",
+    label = "CO;C_methane",
     kinetics = ArrheniusEP(
         A = (16400, 'cm^3/(mol*s)'),
         n = 2.86,
@@ -88,7 +88,7 @@ transition states are treated as free rotations as they are relatively loose TSs
 
 entry(
     index = 557,
-    label = "CO_birad;C_pri/NonDeC",
+    label = "CO;C_pri/NonDeC",
     kinetics = ArrheniusEP(
         A = (91400, 'cm^3/(mol*s)'),
         n = 2.53,
@@ -108,7 +108,7 @@ transition states are treated as free rotations as they are relatively loose TSs
 
 entry(
     index = 558,
-    label = "CO_birad;C/H2/NonDeC",
+    label = "CO;C/H2/NonDeC",
     kinetics = ArrheniusEP(
         A = (766000, 'cm^3/(mol*s)'),
         n = 2.07,
@@ -128,7 +128,7 @@ transition states are treated as free rotations as they are relatively loose TSs
 
 entry(
     index = 559,
-    label = "CO_birad;C/H/Cs3",
+    label = "CO;C/H/Cs3",
     kinetics = ArrheniusEP(
         A = (8.89e+07, 'cm^3/(mol*s)'),
         n = 1.51,
@@ -143,7 +143,7 @@ entry(
 
 entry(
     index = 560,
-    label = "CO_birad;CsO_H",
+    label = "CO;CsO_H",
     kinetics = ArrheniusEP(
         A = (0.127, 'cm^3/(mol*s)'),
         n = 3.7,

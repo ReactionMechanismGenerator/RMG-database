@@ -2,31 +2,33 @@
 # encoding: utf-8
 
 name = "Narayanaswamy"
-shortDesc = u""
+shortDesc = u"Aromatic reactions only from 2010 Narayanaswamy et al. Combustion and Flame mechanism"
 longDesc = u"""
-From: Narayanaswamy, K.; Blanquart, G.; Pitsch, H., 
-A consistent chemical mechanism for oxidation of substituted aromatic species. Combust. Flame 2010, 157, 1879-1898.
+Includes thermo for species from the mechanism in:
+K. Narayanaswamy et al.,
+A Consistent Chemical Mechanism for Oxidation of Substituted Aromatic Species
+Combustion and Flame 157 (2010) 1879-1898
 """
 entry(
     index = 1,
-    label = "N2",
+    label = "CH4(1)",
     molecule = 
 """
-1 N u0 p1 c0 {2,T}
-2 N u0 p1 c0 {1,T}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.29868,0.00140824,-3.96322e-06,5.64152e-09,-2.44485e-12,-1020.9,3.95037], Tmin=(298,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[2.92664,0.00148798,-5.68476e-07,1.0097e-10,-6.75335e-15,-922.798,5.98053], Tmin=(1000,'K'), Tmax=(5000,'K')),
+            NASAPolynomial(coeffs=[4.20542,-0.00535566,2.51126e-05,-2.13766e-08,5.97538e-12,-10161.9,-0.921305], Tmin=(100,'K'), Tmax=(1084.11,'K')),
+            NASAPolynomial(coeffs=[0.908224,0.0114542,-4.57178e-06,8.29201e-10,-5.66322e-14,-9719.96,13.9933], Tmin=(1084.11,'K'), Tmax=(5000,'K')),
         ],
-        Tmin = (298,'K'),
+        Tmin = (100,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""121286
-** Thermodynamic properties taken from **
-GRI-MECH Version 3.0
-CAS# : 7727-37-9""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -35,7 +37,7 @@ u"""
 
 entry(
     index = 2,
-    label = "H",
+    label = "H(2)",
     molecule = 
 """
 multiplicity 2
@@ -43,14 +45,13 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[2.5,7.05333e-13,-1.99592e-15,2.30082e-18,-9.27732e-22,25473.7,-0.446683], Tmin=(200,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[2.5,-2.30843e-11,1.61562e-14,-4.73515e-18,4.98197e-22,25473.7,-0.446683], Tmin=(1000,'K'), Tmax=(3500,'K')),
+            NASAPolynomial(coeffs=[2.5,-1.91243e-12,2.45329e-15,-1.02377e-18,1.31369e-22,25474.2,-0.444973], Tmin=(100,'K'), Tmax=(4563.27,'K')),
+            NASAPolynomial(coeffs=[2.50167,-1.43051e-06,4.6025e-10,-6.57826e-14,3.52412e-18,25472.7,-0.455578], Tmin=(4563.27,'K'), Tmax=(5000,'K')),
         ],
-        Tmin = (200,'K'),
-        Tmax = (3500,'K'),
+        Tmin = (100,'K'),
+        Tmax = (5000,'K'),
     ),
-    shortDesc = u"""L 7/88
-CAS# : 12385-13-6""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -59,7 +60,7 @@ u"""
 
 entry(
     index = 3,
-    label = "O2",
+    label = "O2(3)",
     molecule = 
 """
 multiplicity 3
@@ -68,14 +69,13 @@ multiplicity 3
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.78246,-0.00299673,9.8473e-06,-9.6813e-09,3.24373e-12,-1063.94,3.65768], Tmin=(200,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[3.28254,0.00148309,-7.57967e-07,2.09471e-10,-2.16718e-14,-1088.46,5.45323], Tmin=(1000,'K'), Tmax=(3500,'K')),
+            NASAPolynomial(coeffs=[3.53732,-0.00121571,5.31618e-06,-4.89443e-09,1.45845e-12,-1038.59,4.68368], Tmin=(100,'K'), Tmax=(1074.56,'K')),
+            NASAPolynomial(coeffs=[3.15382,0.00167804,-7.69971e-07,1.51275e-10,-1.08782e-14,-1040.82,6.16754], Tmin=(1074.56,'K'), Tmax=(5000,'K')),
         ],
-        Tmin = (200,'K'),
-        Tmax = (3500,'K'),
+        Tmin = (100,'K'),
+        Tmax = (5000,'K'),
     ),
-    shortDesc = u"""TPIS89
-CAS# : 7782-44-7""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -84,7 +84,7 @@ u"""
 
 entry(
     index = 4,
-    label = "O",
+    label = "O(4)",
     molecule = 
 """
 multiplicity 3
@@ -92,14 +92,13 @@ multiplicity 3
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.16827,-0.00327932,6.64306e-06,-6.12807e-09,2.11266e-12,29122.3,2.05193], Tmin=(200,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[2.56942,-8.59741e-05,4.19485e-08,-1.00178e-11,1.22834e-15,29217.6,4.78434], Tmin=(1000,'K'), Tmax=(3500,'K')),
+            NASAPolynomial(coeffs=[2.5,-1.91243e-12,2.45329e-15,-1.02377e-18,1.31369e-22,29230.2,4.09104], Tmin=(100,'K'), Tmax=(4563.27,'K')),
+            NASAPolynomial(coeffs=[2.50167,-1.43051e-06,4.6025e-10,-6.57826e-14,3.52412e-18,29228.7,4.08044], Tmin=(4563.27,'K'), Tmax=(5000,'K')),
         ],
-        Tmin = (200,'K'),
-        Tmax = (3500,'K'),
+        Tmin = (100,'K'),
+        Tmax = (5000,'K'),
     ),
-    shortDesc = u"""L 1/90
-CAS# : 17778-80-2""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -108,7 +107,7 @@ u"""
 
 entry(
     index = 5,
-    label = "OH",
+    label = "OH(5)",
     molecule = 
 """
 multiplicity 2
@@ -117,18 +116,13 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.12531,-0.00322545,6.52765e-06,-5.79854e-09,2.06237e-12,3381.54,-0.690433], Tmin=(200,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[2.86473,0.0010565,-2.59083e-07,3.05219e-11,-1.33196e-15,3718.86,5.70164], Tmin=(1000,'K'), Tmax=(6000,'K')),
+            NASAPolynomial(coeffs=[3.51457,2.92796e-05,-5.32171e-07,1.0195e-09,-3.85948e-13,3414.25,2.10435], Tmin=(100,'K'), Tmax=(1145.75,'K')),
+            NASAPolynomial(coeffs=[3.07194,0.000604013,-1.3977e-08,-2.13449e-11,2.48068e-15,3579.39,4.57799], Tmin=(1145.75,'K'), Tmax=(5000,'K')),
         ],
-        Tmin = (200,'K'),
-        Tmax = (6000,'K'),
+        Tmin = (100,'K'),
+        Tmax = (5000,'K'),
     ),
-    shortDesc = u"""S 9/01
-** Thermodynamic properties taken from **
-" An optimized kinetic model of H2/CO combustion"
-Davis, Joshi, Wang, and Egolfopoulos
-Proc. Comb. Inst. 30 (2005) 1283-1292
-CAS# : 3352-57-6""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -137,7 +131,7 @@ u"""
 
 entry(
     index = 6,
-    label = "H2",
+    label = "H2(6)",
     molecule = 
 """
 1 H u0 p0 c0 {2,S}
@@ -145,14 +139,13 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[2.34433,0.00798052,-1.94782e-05,2.01572e-08,-7.37612e-12,-917.935,0.68301], Tmin=(200,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[3.33728,-4.94025e-05,4.99457e-07,-1.79566e-10,2.00255e-14,-950.159,-3.20502], Tmin=(1000,'K'), Tmax=(3500,'K')),
+            NASAPolynomial(coeffs=[3.43536,0.000212707,-2.78618e-07,3.40262e-10,-7.76019e-14,-1031.36,-3.90842], Tmin=(100,'K'), Tmax=(1959.09,'K')),
+            NASAPolynomial(coeffs=[2.78813,0.000587687,1.58989e-07,-5.52696e-11,4.34279e-15,-596.123,0.112943], Tmin=(1959.09,'K'), Tmax=(5000,'K')),
         ],
-        Tmin = (200,'K'),
-        Tmax = (3500,'K'),
+        Tmin = (100,'K'),
+        Tmax = (5000,'K'),
     ),
-    shortDesc = u"""TPIS78
-CAS# : 1333-74-0""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -161,7 +154,7 @@ u"""
 
 entry(
     index = 7,
-    label = "H2O",
+    label = "H2O(7)",
     molecule = 
 """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -170,14 +163,13 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.19864,-0.00203643,6.5204e-06,-5.48797e-09,1.77198e-12,-30293.7,-0.849032], Tmin=(200,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[3.03399,0.00217692,-1.64073e-07,-9.7042e-11,1.68201e-14,-30004.3,4.96677], Tmin=(1000,'K'), Tmax=(3500,'K')),
+            NASAPolynomial(coeffs=[4.05764,-0.000787936,2.90878e-06,-1.47519e-09,2.12843e-13,-30281.6,-0.311364], Tmin=(100,'K'), Tmax=(1130.24,'K')),
+            NASAPolynomial(coeffs=[2.84325,0.00275109,-7.81032e-07,1.07244e-10,-5.79392e-15,-29958.6,5.91042], Tmin=(1130.24,'K'), Tmax=(5000,'K')),
         ],
-        Tmin = (200,'K'),
-        Tmax = (3500,'K'),
+        Tmin = (100,'K'),
+        Tmax = (5000,'K'),
     ),
-    shortDesc = u"""L 8/89
-CAS# : 7732-18-5""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -186,12 +178,12 @@ u"""
 
 entry(
     index = 8,
-    label = "CO2",
+    label = "CO2(8)",
     molecule = 
 """
-1 O u0 p2 c0 {3,D}
-2 O u0 p2 c0 {3,D}
-3 C u0 p0 c0 {1,D} {2,D}
+1 C u0 p0 c0 {2,D} {3,D}
+2 O u0 p2 c0 {1,D}
+3 O u0 p2 c0 {1,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -201,8 +193,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    shortDesc = u"""L 7/88
-CAS# : 124-38-9""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -211,13 +202,13 @@ u"""
 
 entry(
     index = 9,
-    label = "HO2",
+    label = "HO2(9)",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 H u0 p0 c0 {2,S}
+1 O u0 p2 c0 {2,S} {3,S}
+2 O u1 p2 c0 {1,S}
+3 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -227,8 +218,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    shortDesc = u"""L 5/89
-CAS# : 3170-83-0""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -237,7 +227,7 @@ u"""
 
 entry(
     index = 10,
-    label = "H2O2",
+    label = "H2O2(10)",
     molecule = 
 """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -253,8 +243,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    shortDesc = u"""L 7/88
-CAS# : 7722-84-1""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -263,7 +252,7 @@ u"""
 
 entry(
     index = 11,
-    label = "CO",
+    label = "CO(11)",
     molecule = 
 """
 1 C u0 p1 c-1 {2,T}
@@ -277,8 +266,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    shortDesc = u"""TPIS79
-CAS# : 630-08-0""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -287,13 +275,13 @@ u"""
 
 entry(
     index = 12,
-    label = "HCO",
+    label = "HCO(12)",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u1 p0 c0 {1,D} {3,S}
-3 H u0 p0 c0 {2,S}
+1 C u1 p0 c0 {2,D} {3,S}
+2 O u0 p2 c0 {1,D}
+3 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -303,8 +291,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    shortDesc = u"""L12/89
-CAS# : 2597-44-6""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -313,21 +300,20 @@ u"""
 
 entry(
     index = 13,
-    label = "C",
+    label = "C(13)",
     molecule = 
 """
 1 C u0 p2 c0
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[2.55424,-0.000321538,7.33792e-07,-7.32235e-10,2.66521e-13,85443.9,4.53131], Tmin=(200,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[2.49267,4.79889e-05,-7.24335e-08,3.74291e-11,-4.87278e-15,85451.3,4.8015], Tmin=(1000,'K'), Tmax=(3500,'K')),
+            NASAPolynomial(coeffs=[2.5,-1.91243e-12,2.45329e-15,-1.02377e-18,1.31369e-22,100099,2.56126], Tmin=(100,'K'), Tmax=(4563.27,'K')),
+            NASAPolynomial(coeffs=[2.50167,-1.43051e-06,4.6025e-10,-6.57826e-14,3.52412e-18,100097,2.55065], Tmin=(4563.27,'K'), Tmax=(5000,'K')),
         ],
-        Tmin = (200,'K'),
-        Tmax = (3500,'K'),
+        Tmin = (100,'K'),
+        Tmax = (5000,'K'),
     ),
-    shortDesc = u"""L11/88
-CAS# : 7440-44-0""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -336,7 +322,7 @@ u"""
 
 entry(
     index = 14,
-    label = "CH",
+    label = "CH(14)",
     molecule = 
 """
 multiplicity 4
@@ -351,8 +337,7 @@ multiplicity 4
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    shortDesc = u"""TPIS79
-CAS# : 3315-37-5""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -361,7 +346,7 @@ u"""
 
 entry(
     index = 15,
-    label = "T-CH2",
+    label = "T-CH2(15)",
     molecule = 
 """
 multiplicity 3
@@ -371,14 +356,13 @@ multiplicity 3
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.76268,0.000968872,2.7949e-06,-3.85091e-09,1.68742e-12,46004,1.56253], Tmin=(200,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[2.8741,0.00365639,-1.40895e-06,2.6018e-10,-1.87728e-14,46263.6,6.17119], Tmin=(1000,'K'), Tmax=(3500,'K')),
+            NASAPolynomial(coeffs=[4.01192,-0.000154979,3.26298e-06,-2.40422e-09,5.69497e-13,45867.7,0.5332], Tmin=(100,'K'), Tmax=(1104.58,'K')),
+            NASAPolynomial(coeffs=[3.14983,0.00296674,-9.76055e-07,1.54115e-10,-9.50337e-15,46058.1,4.77807], Tmin=(1104.58,'K'), Tmax=(5000,'K')),
         ],
-        Tmin = (200,'K'),
-        Tmax = (3500,'K'),
+        Tmin = (100,'K'),
+        Tmax = (5000,'K'),
     ),
-    shortDesc = u"""L S/93
-CAS# : 2465-56-7""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -387,7 +371,7 @@ u"""
 
 entry(
     index = 16,
-    label = "CH3",
+    label = "CH3(16)",
     molecule = 
 """
 multiplicity 2
@@ -404,15 +388,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    shortDesc = u"""METHYL        IU0702
-** Thermodynamic properties taken from **
-
-Alexander Burcat and Branko Ruscic
-Ideal Gas Thermochemical Database with updates from Active Thermochemical Tables
-<ftp://ftp.technion.ac.il/pub/supported/aetdd/thermodynamics>; 21 July 2008.
-mirrored at
-<http://garfield.chem.elte.hu/Burcat/burcat.html>; 21 July 2008.
-CAS# : 2229-07-4""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -421,13 +397,13 @@ u"""
 
 entry(
     index = 17,
-    label = "CH2O",
+    label = "CH2O(17)",
     molecule = 
 """
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 O u0 p2 c0 {1,D}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -437,8 +413,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    shortDesc = u"""L 8/88
-CAS# : 50-00-0""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -447,7 +422,7 @@ u"""
 
 entry(
     index = 18,
-    label = "HCCO",
+    label = "HCCO(18)",
     molecule = 
 """
 multiplicity 2
@@ -464,8 +439,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (4000,'K'),
     ),
-    shortDesc = u"""SRIC91
-CAS# : 51095-15-9""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -474,13 +448,13 @@ u"""
 
 entry(
     index = 19,
-    label = "C2H",
+    label = "C2H(19)",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,T}
-2 C u0 p0 c0 {1,T} {3,S}
-3 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,T} {3,S}
+2 C u1 p0 c0 {1,T}
+3 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -490,8 +464,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    shortDesc = u"""L 1/91
-CAS# : 2122-48-7""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -500,7 +473,7 @@ u"""
 
 entry(
     index = 20,
-    label = "CH2CO",
+    label = "CH2CO(20)",
     molecule = 
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -517,8 +490,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    shortDesc = u"""L 5/90
-CAS# : 436-51-4""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -527,7 +499,7 @@ u"""
 
 entry(
     index = 21,
-    label = "C2H2",
+    label = "C2H2(21)",
     molecule = 
 """
 1 C u0 p0 c0 {2,T} {3,S}
@@ -543,8 +515,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    shortDesc = u"""L 1/91
-CAS# : 74-86-2""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -553,7 +524,7 @@ u"""
 
 entry(
     index = 22,
-    label = "S-CH2",
+    label = "S-CH2(22)",
     molecule = 
 """
 1 C u0 p1 c0 {2,S} {3,S}
@@ -562,14 +533,13 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.1986,-0.00236661,8.23296e-06,-6.68816e-09,1.94315e-12,50496.8,-0.769119], Tmin=(200,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[2.29204,0.00465589,-2.01192e-06,4.17906e-10,-3.39716e-14,50926,8.6265], Tmin=(1000,'K'), Tmax=(3500,'K')),
+            NASAPolynomial(coeffs=[4.10264,-0.00144068,5.45067e-06,-3.58e-09,7.56187e-13,50400.6,-0.411763], Tmin=(100,'K'), Tmax=(1442.37,'K')),
+            NASAPolynomial(coeffs=[2.62649,0.00394761,-1.49923e-06,2.54537e-10,-1.62954e-14,50691.7,6.78371], Tmin=(1442.37,'K'), Tmax=(5000,'K')),
         ],
-        Tmin = (200,'K'),
-        Tmax = (3500,'K'),
+        Tmin = (100,'K'),
+        Tmax = (5000,'K'),
     ),
-    shortDesc = u"""L S/93
-CAS# : 2465-56-7""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -578,21 +548,21 @@ u"""
 
 entry(
     index = 23,
-    label = "AR",
+    label = "N2",
     molecule = 
 """
-1 Ar u0 p4 c0
+1 N u0 p1 c0 {2,T}
+2 N u0 p1 c0 {1,T}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,4.366], Tmin=(298,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,4.366], Tmin=(1000,'K'), Tmax=(5000,'K')),
+            NASAPolynomial(coeffs=[3.53101,-0.000123661,-5.02999e-07,2.43531e-09,-1.40881e-12,-1046.98,2.96747], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[2.95258,0.0013969,-4.92632e-07,7.8601e-11,-4.60755e-15,-923.949,5.87189], Tmin=(1000,'K'), Tmax=(6000,'K')),
         ],
-        Tmin = (298,'K'),
-        Tmax = (5000,'K'),
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
     ),
-    shortDesc = u"""120186
-CAS# : 7440-37-1""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -601,14 +571,36 @@ u"""
 
 entry(
     index = 24,
-    label = "CH3OH",
+    label = "AR",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {3,S}
-2 C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+1 Ar u0 p4 c0
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,4.37967], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,4.37967], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 25,
+    label = "CH3OH(25)",
+    molecule = 
+"""
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 O u0 p2 c0 {1,S} {6,S}
 3 H u0 p0 c0 {1,S}
-4 H u0 p0 c0 {2,S}
-5 H u0 p0 c0 {2,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
@@ -619,8 +611,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    shortDesc = u"""L 8/88
-CAS# : 67-56-1""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -628,8 +619,8 @@ u"""
 )
 
 entry(
-    index = 25,
-    label = "CH2OH",
+    index = 26,
+    label = "CH2OH(26)",
     molecule = 
 """
 multiplicity 2
@@ -647,8 +638,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    shortDesc = u"""GUNL93
-CAS# : 2597-43-5""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -656,8 +646,8 @@ u"""
 )
 
 entry(
-    index = 26,
-    label = "CH3O",
+    index = 27,
+    label = "CH3O(27)",
     molecule = 
 """
 multiplicity 2
@@ -675,35 +665,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""121686
-CAS# : 2143-68-2""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 27,
-    label = "CH4",
-    molecule = 
-"""
-1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 H u0 p0 c0 {1,S}
-5 H u0 p0 c0 {1,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[5.14911,-0.0136622,4.91454e-05,-4.84247e-08,1.66603e-11,-10246.6,-4.63849], Tmin=(200,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[1.65326,0.0100263,-3.31661e-06,5.36483e-10,-3.14697e-14,-10009.6,9.90506], Tmin=(1000,'K'), Tmax=(6000,'K')),
-        ],
-        Tmin = (200,'K'),
-        Tmax = (6000,'K'),
-    ),
-    shortDesc = u"""g 8/99
-CAS# : 74-82-8""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -712,16 +674,16 @@ u"""
 
 entry(
     index = 28,
-    label = "CH3O2",
+    label = "CH3O2(28)",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4 H u0 p0 c0 {3,S}
-5 H u0 p0 c0 {3,S}
-6 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 O u0 p2 c0 {1,S} {6,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 O u1 p2 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -731,8 +693,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    shortDesc = u"""PEROXYMETH  T04/02
-CAS# : 2143-58-0""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -741,14 +702,14 @@ u"""
 
 entry(
     index = 29,
-    label = "C2H3",
+    label = "C2H3(29)",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,D} {3,S}
-2 C u0 p0 c0 {1,D} {4,S} {5,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u1 p0 c0 {1,D} {5,S}
 3 H u0 p0 c0 {1,S}
-4 H u0 p0 c0 {2,S}
+4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
@@ -759,8 +720,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    shortDesc = u"""L 2/92
-CAS# : 2669-89-8""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -769,7 +729,7 @@ u"""
 
 entry(
     index = 30,
-    label = "C2H4",
+    label = "C2H4(30)",
     molecule = 
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -787,8 +747,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    shortDesc = u"""L 1/91
-CAS# : 74-85-1""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -797,15 +756,15 @@ u"""
 
 entry(
     index = 31,
-    label = "C2H5",
+    label = "C2H5(31)",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {6,S} {7,S}
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {1,S}
-5 H u0 p0 c0 {2,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {2,S}
 7 H u0 p0 c0 {2,S}
 """,
@@ -817,8 +776,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    shortDesc = u"""L12/92
-CAS# : 2025-56-1""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -827,7 +785,7 @@ u"""
 
 entry(
     index = 32,
-    label = "HCCOH",
+    label = "HCCOH(32)",
     molecule = 
 """
 1 C u0 p0 c0 {2,S} {3,T}
@@ -844,8 +802,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""SRI91
-CAS# : 32038-79-2""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -854,7 +811,7 @@ u"""
 
 entry(
     index = 33,
-    label = "CH2CHO",
+    label = "CH2CHO(33)",
     molecule = 
 """
 multiplicity 2
@@ -873,12 +830,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-Enthalpy of formation from published articles
-=============================================
-Senosian, Klippenstein & Miller 2006
-CAS# : 6912-06-7
-DfH = 18.74 kJ/mol, Cp = 53.75 J/mol/K, S = 259.50 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -887,16 +839,16 @@ u"""
 
 entry(
     index = 34,
-    label = "CH3CHO",
+    label = "CH3CHO(34)",
     molecule = 
 """
-1 O u0 p2 c0 {3,D}
-2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-3 C u0 p0 c0 {1,D} {2,S} {7,S}
-4 H u0 p0 c0 {2,S}
-5 H u0 p0 c0 {2,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,D} {7,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 O u0 p2 c0 {2,D}
+7 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -906,11 +858,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-Enthalpy of formation taken from experiments
-============================================
-CAS# : 75-07-0
-DfH = -170.70 kJ/mol, Cp = 56.05 J/mol/K, S = 263.06 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -919,14 +867,14 @@ u"""
 
 entry(
     index = 35,
-    label = "H2C2",
+    label = "H2C2(35)",
     molecule = 
 """
 multiplicity 3
-1 C u2 p0 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u2 p0 c0 {1,D}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -936,8 +884,7 @@ multiplicity 3
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    shortDesc = u"""L12/89
-CAS# : 2143-69-3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -946,18 +893,18 @@ u"""
 
 entry(
     index = 36,
-    label = "C2H5O",
+    label = "C2H5O(36)",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {3,S}
-2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-3 C u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
-4 H u0 p0 c0 {2,S}
-5 H u0 p0 c0 {2,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+3 O u1 p2 c0 {2,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -967,16 +914,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-** Thermodynamic properties taken from **
-
-Lawrence Livermore n-Heptane Mechanism - ver 2c
-"A Comprehensive Modeling Study of n-Heptane Oxidation"
-Curran, H. J., Gaffuri, P., Pitz, W. J., and Westbrook, C. K.
-Combustion and Flame 114:149-177 (1998).
-UCRL-WEB-204236
-Review and release date: May 19, 2004.
-CAS# : 2154-50-9""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -985,7 +923,7 @@ u"""
 
 entry(
     index = 37,
-    label = "N-C3H7",
+    label = "N-C3H7(37)",
     molecule = 
 """
 multiplicity 2
@@ -1008,8 +946,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""N-L 9/85
-CAS# : 2143-61-5""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1018,7 +955,7 @@ u"""
 
 entry(
     index = 38,
-    label = "C2H6",
+    label = "C2H6(38)",
     molecule = 
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -1038,8 +975,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    shortDesc = u"""L 8/88
-CAS# : 74-84-0""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1048,15 +984,15 @@ u"""
 
 entry(
     index = 39,
-    label = "C3H8",
+    label = "C3H8(39)",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
 4  H u0 p0 c0 {1,S}
 5  H u0 p0 c0 {1,S}
-6  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
 7  H u0 p0 c0 {2,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {3,S}
@@ -1071,8 +1007,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""L 4/85
-CAS# : 74-98-6""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1081,16 +1016,16 @@ u"""
 
 entry(
     index = 40,
-    label = "C3H6",
+    label = "C3H6(40)",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {4,S} {5,S}
-2 C u0 p0 c0 {1,D} {3,S} {6,S}
-3 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
 4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {3,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
 8 H u0 p0 c0 {3,S}
 9 H u0 p0 c0 {3,S}
 """,
@@ -1102,9 +1037,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 115-07-1
-DfH = 19.70 kJ/mol, Cp = 65.09 J/mol/K, S = 266.77 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1113,7 +1046,7 @@ u"""
 
 entry(
     index = 41,
-    label = "C3H3",
+    label = "C3H3(41)",
     molecule = 
 """
 multiplicity 2
@@ -1132,9 +1065,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 2932-78-7
-DfH = 339.00 kJ/mol, Cp = 62.91 J/mol/K, S = 254.55 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1143,7 +1074,7 @@ u"""
 
 entry(
     index = 42,
-    label = "P-C3H4",
+    label = "P-C3H4(42)",
     molecule = 
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -1162,9 +1093,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 74-99-7
-DfH = 185.40 kJ/mol, Cp = 60.88 J/mol/K, S = 247.91 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1173,7 +1102,7 @@ u"""
 
 entry(
     index = 43,
-    label = "A-C3H4",
+    label = "A-C3H4(43)",
     molecule = 
 """
 1 C u0 p0 c0 {3,D} {4,S} {5,S}
@@ -1192,9 +1121,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 463-49-0
-DfH = 190.90 kJ/mol, Cp = 59.10 J/mol/K, S = 243.32 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1203,7 +1130,7 @@ u"""
 
 entry(
     index = 44,
-    label = "S-C3H5",
+    label = "S-C3H5(44)",
     molecule = 
 """
 multiplicity 2
@@ -1224,11 +1151,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-Enthalpy of formation evaluated from isodesmic reactions
-========================================================
-CAS# : 6067-68-1
-DfH = 271.74 kJ/mol, Cp = 65.12 J/mol/K, S = 271.24 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1237,7 +1160,7 @@ u"""
 
 entry(
     index = 45,
-    label = "N-C4H3",
+    label = "N-C4H3(45)",
     molecule = 
 """
 multiplicity 2
@@ -1257,9 +1180,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 2810-61-9
-DfH = 547.27 kJ/mol, Cp = 72.24 J/mol/K, S = 283.58 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1268,17 +1189,17 @@ u"""
 
 entry(
     index = 46,
-    label = "C2H3CHO",
+    label = "C3H4O(46)",
     molecule = 
 """
-1 O u0 p2 c0 {4,D}
-2 C u0 p0 c0 {3,D} {5,S} {6,S}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 C u0 p0 c0 {1,D} {3,S} {8,S}
-5 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 C u0 p0 c0 {1,S} {5,D} {8,S}
+4 H u0 p0 c0 {1,S}
+5 O u0 p2 c0 {3,D}
 6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1288,8 +1209,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : 107-02-8""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1298,7 +1218,7 @@ u"""
 
 entry(
     index = 47,
-    label = "A-C3H5",
+    label = "A-C3H5(47)",
     molecule = 
 """
 multiplicity 2
@@ -1319,9 +1239,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 1981-80-2
-DfH = 166.1 kJ/mol, Cp = 63.37 J/mol/K, S = 258.61 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1330,7 +1248,7 @@ u"""
 
 entry(
     index = 48,
-    label = "C2O",
+    label = "C2O(48)",
     molecule = 
 """
 multiplicity 3
@@ -1346,8 +1264,7 @@ multiplicity 3
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    shortDesc = u"""g 8/00
-CAS# : 12071-23-7""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1356,16 +1273,16 @@ u"""
 
 entry(
     index = 49,
-    label = "C4H4",
+    label = "C4H4(49)",
     molecule = 
 """
-1 C u0 p0 c0 {2,T} {5,S}
-2 C u0 p0 c0 {1,T} {4,S}
-3 C u0 p0 c0 {4,D} {6,S} {7,S}
-4 C u0 p0 c0 {2,S} {3,D} {8,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {3,T} {8,S}
 5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {3,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
 8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -1376,10 +1293,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-Wheeler, Allen & Schaefer 2004
-CAS# : 687-97-4
-DfH = 295.00 kJ/mol, Cp = 72.70 J/mol/K, S = 278.25 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1388,7 +1302,7 @@ u"""
 
 entry(
     index = 50,
-    label = "C3H2",
+    label = "C3H2(50)",
     molecule = 
 """
 multiplicity 3
@@ -1406,23 +1320,7 @@ multiplicity 3
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-** Thermodynamic properties taken from **
-
-"Chemical mechanism for high temperature combustion of engine relevant fuels
-with emphasis on soot precursors"
-G. Blanquart, P. Pepiot-Desjardins, and H. Pitsch
-Comb. Flame - Volume 156, Issue 3, March 2009, Pages 588-607
-
-Optimized geometries with B3LYP/6-311++G**
-Internal decgrees of rotation treated as in JPCA 2007
-DfH : heat of formation at 298K
-Cp  : heat capacity at 298K
-S   : entropy at 298K
-Enthalpy of formation computed with G3MP2B3
-===========================================
-CAS# : 67152-18-5
-DfH = 544.53 kJ/mol, Cp = 66.85 J/mol/K, S = 257.24 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1431,14 +1329,14 @@ u"""
 
 entry(
     index = 51,
-    label = "C3H2O",
+    label = "C3H2O(51)",
     molecule = 
 """
-1 O u0 p2 c0 {3,D}
-2 C u0 p0 c0 {4,T} {5,S}
-3 C u0 p0 c0 {1,D} {4,S} {6,S}
-4 C u0 p0 c0 {2,T} {3,S}
-5 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {4,D} {5,S}
+2 C u0 p0 c0 {1,S} {3,T}
+3 C u0 p0 c0 {2,T} {6,S}
+4 O u0 p2 c0 {1,D}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -1449,9 +1347,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 624-67-9
-DfH = 126.79 kJ/mol, Cp = 63.73 J/mol/K, S = 275.12 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1460,15 +1356,15 @@ u"""
 
 entry(
     index = 52,
-    label = "C4H2",
+    label = "C4H2(52)",
     molecule = 
 """
-1 C u0 p0 c0 {3,T} {5,S}
-2 C u0 p0 c0 {4,T} {6,S}
-3 C u0 p0 c0 {1,T} {4,S}
-4 C u0 p0 c0 {2,T} {3,S}
-5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,T}
+2 C u0 p0 c0 {1,S} {4,T}
+3 C u0 p0 c0 {1,T} {5,S}
+4 C u0 p0 c0 {2,T} {6,S}
+5 H u0 p0 c0 {3,S}
+6 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1478,10 +1374,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-Klippenstein & Miller 2005
-CAS# : 460-12-8
-DfH = 463.59 kJ/mol, Cp = 71.86 J/mol/K, S = 247.64 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1490,7 +1383,7 @@ u"""
 
 entry(
     index = 53,
-    label = "I-C4H3",
+    label = "I-C4H3(53)",
     molecule = 
 """
 multiplicity 2
@@ -1510,9 +1403,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 63707-54-0
-DfH = 499.15 kJ/mol, Cp = 78.69 J/mol/K, S = 289.13 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1521,7 +1412,7 @@ u"""
 
 entry(
     index = 54,
-    label = "T-C3H5",
+    label = "T-C3H5(54)",
     molecule = 
 """
 multiplicity 2
@@ -1542,9 +1433,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 15552-77-9
-DfH = 254.55 kJ/mol, Cp = 65.05 J/mol/K, S = 273.28 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1553,19 +1442,19 @@ u"""
 
 entry(
     index = 55,
-    label = "C3H5O",
+    label = "C3H5O(55)",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {4,S}
-2 C u0 p0 c0 {3,D} {5,S} {6,S}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-5 H u0 p0 c0 {2,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 O u1 p2 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1575,8 +1464,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : ???""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1585,14 +1473,14 @@ u"""
 
 entry(
     index = 56,
-    label = "C4H",
+    label = "C4H(56)",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,T}
-2 C u0 p0 c0 {1,T} {4,S}
-3 C u0 p0 c0 {4,T} {5,S}
-4 C u0 p0 c0 {2,S} {3,T}
+1 C u0 p0 c0 {2,S} {3,T}
+2 C u0 p0 c0 {1,S} {4,T}
+3 C u0 p0 c0 {1,T} {5,S}
+4 C u1 p0 c0 {2,T}
 5 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -1603,11 +1491,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-Enthalpy of formation computed with G3MP2B3
-===========================================
-CAS# : 53561-65-2
-DfH = 795.24 kJ/mol, Cp = 64.54 J/mol/K, S = 265.22 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1616,19 +1500,19 @@ u"""
 
 entry(
     index = 57,
-    label = "C8H2",
+    label = "C8H2(57)",
     molecule = 
 """
-1  C u0 p0 c0 {3,T} {9,S}
-2  C u0 p0 c0 {4,T} {10,S}
-3  C u0 p0 c0 {1,T} {5,S}
-4  C u0 p0 c0 {2,T} {6,S}
-5  C u0 p0 c0 {3,S} {7,T}
-6  C u0 p0 c0 {4,S} {8,T}
-7  C u0 p0 c0 {5,T} {8,S}
-8  C u0 p0 c0 {6,T} {7,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {3,T} {5,S}
+2  C u0 p0 c0 {4,T} {6,S}
+3  C u0 p0 c0 {1,T} {4,S}
+4  C u0 p0 c0 {2,T} {3,S}
+5  C u0 p0 c0 {1,S} {7,T}
+6  C u0 p0 c0 {2,S} {8,T}
+7  C u0 p0 c0 {5,T} {9,S}
+8  C u0 p0 c0 {6,T} {10,S}
+9  H u0 p0 c0 {7,S}
+10 H u0 p0 c0 {8,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1638,8 +1522,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    shortDesc = u"""T11/07
-CAS# : 6165-96-4""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1648,17 +1531,17 @@ u"""
 
 entry(
     index = 58,
-    label = "C6H2",
+    label = "C6H2(58)",
     molecule = 
 """
-1 C u0 p0 c0 {3,T} {7,S}
-2 C u0 p0 c0 {4,T} {8,S}
-3 C u0 p0 c0 {1,T} {5,S}
-4 C u0 p0 c0 {2,T} {6,S}
-5 C u0 p0 c0 {3,S} {6,T}
-6 C u0 p0 c0 {4,S} {5,T}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,T} {3,S}
+2 C u0 p0 c0 {1,T} {4,S}
+3 C u0 p0 c0 {1,S} {5,T}
+4 C u0 p0 c0 {2,S} {6,T}
+5 C u0 p0 c0 {3,T} {7,S}
+6 C u0 p0 c0 {4,T} {8,S}
+7 H u0 p0 c0 {5,S}
+8 H u0 p0 c0 {6,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1668,8 +1551,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    shortDesc = u"""T 3/92
-CAS# : 3161-99-7""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1678,18 +1560,18 @@ u"""
 
 entry(
     index = 59,
-    label = "C4H6",
+    label = "C4H6(59)",
     molecule = 
 """
-1  C u0 p0 c0 {3,D} {5,S} {6,S}
-2  C u0 p0 c0 {4,D} {7,S} {8,S}
-3  C u0 p0 c0 {1,D} {4,S} {9,S}
-4  C u0 p0 c0 {2,D} {3,S} {10,S}
+1  C u0 p0 c0 {2,S} {3,D} {5,S}
+2  C u0 p0 c0 {1,S} {4,D} {6,S}
+3  C u0 p0 c0 {1,D} {7,S} {8,S}
+4  C u0 p0 c0 {2,D} {9,S} {10,S}
 5  H u0 p0 c0 {1,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {4,S}
 10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -1700,13 +1582,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-Enthalpy of formation from published articles
-=============================================
-Wheeler, Allen & Schaefer 2004
-CAS# : 106-99-0
-DfH = 111.13 kJ/mol, Cp = 80.72 J/mol/K, S = 278.84 J/mol/K
-Hindered Rotor : J. Chem. Phys. 125, 049902 (2006); DOI:10.1063/1.2219449""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1715,7 +1591,7 @@ u"""
 
 entry(
     index = 60,
-    label = "N-C4H5",
+    label = "N-C4H5(60)",
     molecule = 
 """
 multiplicity 2
@@ -1737,9 +1613,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 86181-68-2
-DfH = 363.04 kJ/mol, Cp = 77.44 J/mol/K, S = 305.68 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1748,7 +1622,7 @@ u"""
 
 entry(
     index = 61,
-    label = "I-C4H5",
+    label = "I-C4H5(61)",
     molecule = 
 """
 multiplicity 2
@@ -1770,9 +1644,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 108179-96-0
-DfH = 318.22 kJ/mol, Cp = 79.53 J/mol/K, S = 292.35 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1781,7 +1653,7 @@ u"""
 
 entry(
     index = 62,
-    label = "A1",
+    label = "A1(62)",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {6,B} {7,S}
@@ -1805,13 +1677,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-** Thermodynamic properties taken from **
-
-"Thermochemical Properties of Polycyclic Aromatic Hydrocarbons (PAH)
-from G3MP2B3 Calculations"
-G. Blanquart and H. Pitsch
-J. Phys. Chem. A 2007, 111, 6510 -6520""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1820,30 +1686,30 @@ u"""
 
 entry(
     index = 63,
-    label = "N-C7H16",
+    label = "C7H16(63)",
     molecule = 
 """
-1  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
-2  C u0 p0 c0 {4,S} {11,S} {12,S} {13,S}
-3  C u0 p0 c0 {1,S} {5,S} {14,S} {15,S}
-4  C u0 p0 c0 {2,S} {7,S} {16,S} {17,S}
-5  C u0 p0 c0 {3,S} {6,S} {18,S} {19,S}
-6  C u0 p0 c0 {5,S} {7,S} {20,S} {21,S}
-7  C u0 p0 c0 {4,S} {6,S} {22,S} {23,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {2,S}
-12 H u0 p0 c0 {2,S}
-13 H u0 p0 c0 {2,S}
-14 H u0 p0 c0 {3,S}
-15 H u0 p0 c0 {3,S}
-16 H u0 p0 c0 {4,S}
-17 H u0 p0 c0 {4,S}
-18 H u0 p0 c0 {5,S}
-19 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {4,S} {12,S} {13,S}
+2  C u0 p0 c0 {1,S} {3,S} {14,S} {15,S}
+3  C u0 p0 c0 {2,S} {5,S} {16,S} {17,S}
+4  C u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
+5  C u0 p0 c0 {3,S} {7,S} {10,S} {11,S}
+6  C u0 p0 c0 {4,S} {18,S} {19,S} {20,S}
+7  C u0 p0 c0 {5,S} {21,S} {22,S} {23,S}
+8  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {5,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {2,S}
+15 H u0 p0 c0 {2,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {6,S}
+19 H u0 p0 c0 {6,S}
 20 H u0 p0 c0 {6,S}
-21 H u0 p0 c0 {6,S}
+21 H u0 p0 c0 {7,S}
 22 H u0 p0 c0 {7,S}
 23 H u0 p0 c0 {7,S}
 """,
@@ -1855,8 +1721,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : 142-82-5""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1865,22 +1730,22 @@ u"""
 
 entry(
     index = 64,
-    label = "C5H11",
+    label = "C5H11(64)",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {3,S} {6,S} {7,S}
-2  C u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
-3  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
-4  C u0 p0 c0 {3,S} {5,S} {13,S} {14,S}
-5  C u0 p0 c0 {2,S} {4,S} {15,S} {16,S}
+1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {5,S} {10,S} {11,S}
+4  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+5  C u1 p0 c0 {3,S} {15,S} {16,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {4,S}
 13 H u0 p0 c0 {4,S}
 14 H u0 p0 c0 {4,S}
 15 H u0 p0 c0 {5,S}
@@ -1894,8 +1759,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : 2672-01-7 or 2492-34-4""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1904,7 +1768,7 @@ u"""
 
 entry(
     index = 65,
-    label = "P-C4H9",
+    label = "P-C4H9(65)",
     molecule = 
 """
 multiplicity 2
@@ -1930,8 +1794,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : 2492-36-6 or 2348-55-2""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1940,7 +1803,7 @@ u"""
 
 entry(
     index = 66,
-    label = "C7H15",
+    label = "C7H15(66)",
     molecule = 
 """
 multiplicity 2
@@ -1975,8 +1838,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : 3356-67-0 or 3474-30-4 or ??? or ???""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -1985,7 +1847,7 @@ u"""
 
 entry(
     index = 67,
-    label = "P-C4H8",
+    label = "P-C4H8(67)",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -2009,8 +1871,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : 106-98-9""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2019,21 +1880,21 @@ u"""
 
 entry(
     index = 68,
-    label = "C5H10",
+    label = "C5H10(68)",
     molecule = 
 """
-1  C u0 p0 c0 {3,D} {6,S} {7,S}
-2  C u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
-3  C u0 p0 c0 {1,D} {4,S} {11,S}
-4  C u0 p0 c0 {3,S} {5,S} {12,S} {13,S}
-5  C u0 p0 c0 {2,S} {4,S} {14,S} {15,S}
+1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
+4  C u0 p0 c0 {2,S} {5,D} {13,S}
+5  C u0 p0 c0 {4,D} {14,S} {15,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {4,S}
+12 H u0 p0 c0 {3,S}
 13 H u0 p0 c0 {4,S}
 14 H u0 p0 c0 {5,S}
 15 H u0 p0 c0 {5,S}
@@ -2046,8 +1907,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : 109-67-1""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2056,7 +1916,7 @@ u"""
 
 entry(
     index = 69,
-    label = "C7H14",
+    label = "C7H14(69)",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
@@ -2089,8 +1949,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : 592-76-7 or 14686-13-6""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2099,33 +1958,33 @@ u"""
 
 entry(
     index = 70,
-    label = "C7H15O",
+    label = "C7H15O(70)",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {3,S} {5,S}
-2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
-3  C u1 p0 c0 {1,S} {2,S} {12,S}
-4  C u0 p0 c0 {6,S} {13,S} {14,S} {15,S}
-5  C u0 p0 c0 {1,S} {7,S} {16,S} {17,S}
-6  C u0 p0 c0 {4,S} {8,S} {18,S} {19,S}
-7  C u0 p0 c0 {5,S} {8,S} {20,S} {21,S}
-8  C u0 p0 c0 {6,S} {7,S} {22,S} {23,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {13,S} {14,S}
+2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
+3  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
+4  C u0 p0 c0 {2,S} {8,S} {15,S} {16,S}
+5  C u0 p0 c0 {3,S} {17,S} {18,S} {19,S}
+6  C u0 p0 c0 {7,S} {20,S} {21,S} {22,S}
+7  C u1 p0 c0 {6,S} {8,S} {23,S}
+8  O u0 p2 c0 {4,S} {7,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {2,S}
-12 H u0 p0 c0 {3,S}
-13 H u0 p0 c0 {4,S}
-14 H u0 p0 c0 {4,S}
+12 H u0 p0 c0 {2,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {1,S}
 15 H u0 p0 c0 {4,S}
-16 H u0 p0 c0 {5,S}
+16 H u0 p0 c0 {4,S}
 17 H u0 p0 c0 {5,S}
-18 H u0 p0 c0 {6,S}
-19 H u0 p0 c0 {6,S}
-20 H u0 p0 c0 {7,S}
-21 H u0 p0 c0 {7,S}
-22 H u0 p0 c0 {8,S}
-23 H u0 p0 c0 {8,S}
+18 H u0 p0 c0 {5,S}
+19 H u0 p0 c0 {5,S}
+20 H u0 p0 c0 {6,S}
+21 H u0 p0 c0 {6,S}
+22 H u0 p0 c0 {6,S}
+23 H u0 p0 c0 {7,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2135,8 +1994,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : ??? or ??? or ???""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2145,22 +2003,22 @@ u"""
 
 entry(
     index = 71,
-    label = "C3H7CHO",
+    label = "C4H8O(71)",
     molecule = 
 """
-1  O u0 p2 c0 {2,D}
-2  C u0 p0 c0 {1,D} {4,S} {6,S}
-3  C u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
-4  C u0 p0 c0 {2,S} {5,S} {10,S} {11,S}
-5  C u0 p0 c0 {3,S} {4,S} {12,S} {13,S}
-6  H u0 p0 c0 {2,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  C u0 p0 c0 {2,S} {12,D} {13,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {5,S}
-13 H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 O u0 p2 c0 {4,D}
+13 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2170,8 +2028,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : 123-72-8""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2180,7 +2037,7 @@ u"""
 
 entry(
     index = 72,
-    label = "C4H7",
+    label = "C4H7(72)",
     molecule = 
 """
 multiplicity 2
@@ -2204,8 +2061,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    shortDesc = u"""3butene-1yl T05/04
-CAS# : 2154-62-3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2214,7 +2070,7 @@ u"""
 
 entry(
     index = 73,
-    label = "C7H13",
+    label = "C7H13(73)",
     molecule = 
 """
 multiplicity 2
@@ -2247,8 +2103,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : ??? or ???""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2257,19 +2112,19 @@ u"""
 
 entry(
     index = 74,
-    label = "C5H9",
+    label = "C5H9(74)",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {3,D} {6,S} {7,S}
-2  C u1 p0 c0 {4,S} {8,S} {9,S}
-3  C u0 p0 c0 {1,D} {5,S} {10,S}
-4  C u0 p0 c0 {2,S} {5,S} {11,S} {12,S}
-5  C u0 p0 c0 {3,S} {4,S} {13,S} {14,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
+2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {5,D} {10,S}
+4  C u1 p0 c0 {2,S} {11,S} {12,S}
+5  C u0 p0 c0 {3,D} {13,S} {14,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
 10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {4,S}
 12 H u0 p0 c0 {4,S}
@@ -2284,8 +2139,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : 130825-72-8 or ???""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2294,7 +2148,7 @@ u"""
 
 entry(
     index = 75,
-    label = "C4H7O",
+    label = "C4H7O(75)",
     molecule = 
 """
 multiplicity 2
@@ -2319,8 +2173,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : ???""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2329,21 +2182,21 @@ u"""
 
 entry(
     index = 76,
-    label = "N-C3H7O",
+    label = "C3H7O(76)",
     molecule = 
 """
 multiplicity 2
-1  O u1 p2 c0 {4,S}
-2  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
-5  H u0 p0 c0 {2,S}
-6  H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {6,S} {10,S} {11,S}
+4  H u0 p0 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  O u1 p2 c0 {3,S}
 7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2353,8 +2206,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : 16499-18-6""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2363,26 +2215,26 @@ u"""
 
 entry(
     index = 77,
-    label = "I-C8H18",
+    label = "C8H18(77)",
     molecule = 
 """
-1  C u0 p0 c0 {7,S} {9,S} {10,S} {11,S}
-2  C u0 p0 c0 {7,S} {12,S} {13,S} {14,S}
-3  C u0 p0 c0 {8,S} {15,S} {16,S} {17,S}
-4  C u0 p0 c0 {8,S} {18,S} {19,S} {20,S}
-5  C u0 p0 c0 {8,S} {21,S} {22,S} {23,S}
-6  C u0 p0 c0 {7,S} {8,S} {24,S} {25,S}
-7  C u0 p0 c0 {1,S} {2,S} {6,S} {26,S}
-8  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {2,S}
-13 H u0 p0 c0 {2,S}
-14 H u0 p0 c0 {2,S}
-15 H u0 p0 c0 {3,S}
-16 H u0 p0 c0 {3,S}
-17 H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {2,S} {10,S} {11,S}
+4  C u0 p0 c0 {1,S} {18,S} {19,S} {20,S}
+5  C u0 p0 c0 {1,S} {21,S} {22,S} {23,S}
+6  C u0 p0 c0 {1,S} {24,S} {25,S} {26,S}
+7  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+8  C u0 p0 c0 {2,S} {15,S} {16,S} {17,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {7,S}
+13 H u0 p0 c0 {7,S}
+14 H u0 p0 c0 {7,S}
+15 H u0 p0 c0 {8,S}
+16 H u0 p0 c0 {8,S}
+17 H u0 p0 c0 {8,S}
 18 H u0 p0 c0 {4,S}
 19 H u0 p0 c0 {4,S}
 20 H u0 p0 c0 {4,S}
@@ -2391,7 +2243,7 @@ entry(
 23 H u0 p0 c0 {5,S}
 24 H u0 p0 c0 {6,S}
 25 H u0 p0 c0 {6,S}
-26 H u0 p0 c0 {7,S}
+26 H u0 p0 c0 {6,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2401,8 +2253,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : 540-84-1""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2411,7 +2262,7 @@ u"""
 
 entry(
     index = 78,
-    label = "Y-C7H15",
+    label = "C7H15(78)",
     molecule = 
 """
 multiplicity 2
@@ -2446,7 +2297,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2455,7 +2306,7 @@ u"""
 
 entry(
     index = 79,
-    label = "I-C4H8",
+    label = "I-C4H8(79)",
     molecule = 
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -2479,8 +2330,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : 115-11-7""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2489,7 +2339,7 @@ u"""
 
 entry(
     index = 80,
-    label = "I-C3H7",
+    label = "I-C3H7(80)",
     molecule = 
 """
 multiplicity 2
@@ -2512,19 +2362,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : ???
-CAS# : ???
-CAS# : ???
-** Thermodynamic properties taken from **
-
-Lawrence Livermore Iso-Octane Mechanism - ver 2e
-Curran, H. J., Gaffuri, P., Pitz, W. J., and Westbrook, C. K.
-"A Comprehensive Modeling Study of iso-Octane Oxidation"
-Combustion and Flame 129:253-280 (2002).
-UCRL-WEB-204236
-Review and release date: May 19, 2004.
-CAS# : 2025-55-0""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2533,7 +2371,7 @@ u"""
 
 entry(
     index = 81,
-    label = "T-C4H9",
+    label = "T-C4H9(81)",
     molecule = 
 """
 multiplicity 2
@@ -2559,8 +2397,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : 1605-73-8""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2569,24 +2406,24 @@ u"""
 
 entry(
     index = 82,
-    label = "C-C8H17",
+    label = "C8H17(82)",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {3,S} {9,S} {10,S}
-2  C u0 p0 c0 {3,S} {11,S} {12,S} {13,S}
-3  C u0 p0 c0 {1,S} {2,S} {8,S} {14,S}
-4  C u0 p0 c0 {7,S} {15,S} {16,S} {17,S}
-5  C u0 p0 c0 {7,S} {18,S} {19,S} {20,S}
-6  C u0 p0 c0 {7,S} {21,S} {22,S} {23,S}
-7  C u0 p0 c0 {4,S} {5,S} {6,S} {8,S}
-8  C u0 p0 c0 {3,S} {7,S} {24,S} {25,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {2,S}
-12 H u0 p0 c0 {2,S}
-13 H u0 p0 c0 {2,S}
-14 H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {2,S} {10,S} {11,S}
+4  C u0 p0 c0 {1,S} {15,S} {16,S} {17,S}
+5  C u0 p0 c0 {1,S} {18,S} {19,S} {20,S}
+6  C u0 p0 c0 {1,S} {21,S} {22,S} {23,S}
+7  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+8  C u1 p0 c0 {2,S} {24,S} {25,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {7,S}
+13 H u0 p0 c0 {7,S}
+14 H u0 p0 c0 {7,S}
 15 H u0 p0 c0 {4,S}
 16 H u0 p0 c0 {4,S}
 17 H u0 p0 c0 {4,S}
@@ -2607,8 +2444,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : ???""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2617,7 +2453,7 @@ u"""
 
 entry(
     index = 83,
-    label = "Y-C7H14",
+    label = "C7H14(83)",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
@@ -2650,8 +2486,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : 2213-32-3 or 762-62-9 or 625-65-0""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2660,36 +2495,36 @@ u"""
 
 entry(
     index = 84,
-    label = "D-C8H17O",
+    label = "C8H17O(84)",
     molecule = 
 """
 multiplicity 2
-1  O u1 p2 c0 {3,S}
-2  C u0 p0 c0 {8,S} {10,S} {11,S} {12,S}
-3  C u0 p0 c0 {1,S} {8,S} {13,S} {14,S}
-4  C u0 p0 c0 {9,S} {15,S} {16,S} {17,S}
-5  C u0 p0 c0 {9,S} {18,S} {19,S} {20,S}
-6  C u0 p0 c0 {9,S} {21,S} {22,S} {23,S}
-7  C u0 p0 c0 {8,S} {9,S} {24,S} {25,S}
-8  C u0 p0 c0 {2,S} {3,S} {7,S} {26,S}
-9  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {2,S}
-12 H u0 p0 c0 {2,S}
-13 H u0 p0 c0 {3,S}
-14 H u0 p0 c0 {3,S}
-15 H u0 p0 c0 {4,S}
-16 H u0 p0 c0 {4,S}
-17 H u0 p0 c0 {4,S}
-18 H u0 p0 c0 {5,S}
-19 H u0 p0 c0 {5,S}
-20 H u0 p0 c0 {5,S}
-21 H u0 p0 c0 {6,S}
-22 H u0 p0 c0 {6,S}
-23 H u0 p0 c0 {6,S}
-24 H u0 p0 c0 {7,S}
-25 H u0 p0 c0 {7,S}
-26 H u0 p0 c0 {8,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {2,S} {10,S} {11,S}
+4  C u0 p0 c0 {1,S} {18,S} {19,S} {20,S}
+5  C u0 p0 c0 {1,S} {21,S} {22,S} {23,S}
+6  C u0 p0 c0 {1,S} {24,S} {25,S} {26,S}
+7  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
+8  C u0 p0 c0 {2,S} {12,S} {16,S} {17,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 O u1 p2 c0 {8,S}
+13 H u0 p0 c0 {7,S}
+14 H u0 p0 c0 {7,S}
+15 H u0 p0 c0 {7,S}
+16 H u0 p0 c0 {8,S}
+17 H u0 p0 c0 {8,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {4,S}
+20 H u0 p0 c0 {4,S}
+21 H u0 p0 c0 {5,S}
+22 H u0 p0 c0 {5,S}
+23 H u0 p0 c0 {5,S}
+24 H u0 p0 c0 {6,S}
+25 H u0 p0 c0 {6,S}
+26 H u0 p0 c0 {6,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2699,7 +2534,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2708,19 +2543,19 @@ u"""
 
 entry(
     index = 85,
-    label = "CH3COCH3",
+    label = "C3H6O(85)",
     molecule = 
 """
-1  O u0 p2 c0 {2,D}
-2  C u0 p0 c0 {1,D} {3,S} {4,S}
-3  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-4  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-5  H u0 p0 c0 {3,S}
-6  H u0 p0 c0 {3,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {2,S} {10,D}
+4  H u0 p0 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 O u0 p2 c0 {3,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -2730,8 +2565,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    shortDesc = u"""acetone  ATcT A
-CAS # 67-64-1""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2740,7 +2574,7 @@ u"""
 
 entry(
     index = 86,
-    label = "I-C4H7",
+    label = "I-C4H7(86)",
     molecule = 
 """
 multiplicity 2
@@ -2764,8 +2598,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : 15157-95-6""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2774,7 +2607,7 @@ u"""
 
 entry(
     index = 87,
-    label = "X-C7H13",
+    label = "C7H13(87)",
     molecule = 
 """
 multiplicity 2
@@ -2807,7 +2640,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2816,19 +2649,19 @@ u"""
 
 entry(
     index = 88,
-    label = "I-C3H5CHO",
+    label = "C4H6O(88)",
     molecule = 
 """
-1  O u0 p2 c0 {3,D}
-2  C u0 p0 c0 {5,D} {6,S} {7,S}
-3  C u0 p0 c0 {1,D} {5,S} {8,S}
-4  C u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
-5  C u0 p0 c0 {2,D} {3,S} {4,S}
-6  H u0 p0 c0 {2,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {4,S}
+3  C u0 p0 c0 {2,D} {9,S} {10,S}
+4  C u0 p0 c0 {2,S} {8,D} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  O u0 p2 c0 {4,D}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -2839,8 +2672,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : 4170-30-3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2849,24 +2681,24 @@ u"""
 
 entry(
     index = 89,
-    label = "T-C4H9O",
+    label = "C4H9O(89)",
     molecule = 
 """
 multiplicity 2
-1  O u1 p2 c0 {3,S}
-2  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
-3  C u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
-4  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
-5  C u0 p0 c0 {3,S} {12,S} {13,S} {14,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  C u0 p0 c0 {1,S} {12,S} {13,S} {14,S}
+5  O u1 p2 c0 {1,S}
 6  H u0 p0 c0 {2,S}
 7  H u0 p0 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {5,S}
-13 H u0 p0 c0 {5,S}
-14 H u0 p0 c0 {5,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {4,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2876,8 +2708,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : 3141-58-0 or 26397-42-2""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2886,7 +2717,7 @@ u"""
 
 entry(
     index = 90,
-    label = "I-C4H7O",
+    label = "C4H7O(90)",
     molecule = 
 """
 multiplicity 2
@@ -2911,8 +2742,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    shortDesc = u"""000000
-CAS# : 309966-76-5""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2921,7 +2751,7 @@ u"""
 
 entry(
     index = 91,
-    label = "C5H4CH2",
+    label = "C6H6(91)",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,D}
@@ -2945,9 +2775,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""FULVENE   G3B3
-CAS# : 497-20-1
-DfH = 224.26 kJ/mol, Cp = 91.62 J/mol/K, S = 294.44 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2956,7 +2784,7 @@ u"""
 
 entry(
     index = 92,
-    label = "A1-",
+    label = "A1-(92)",
     molecule = 
 """
 multiplicity 2
@@ -2980,7 +2808,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -2989,7 +2817,7 @@ u"""
 
 entry(
     index = 93,
-    label = "A1C2H2",
+    label = "A1C2H2(93)",
     molecule = 
 """
 multiplicity 2
@@ -3017,7 +2845,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3026,7 +2854,7 @@ u"""
 
 entry(
     index = 94,
-    label = "A1C2H3",
+    label = "A1C2H3(94)",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {3,B} {4,S}
@@ -3054,7 +2882,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3063,7 +2891,7 @@ u"""
 
 entry(
     index = 95,
-    label = "A1C2H",
+    label = "A1C2H(95)",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {3,B} {7,S}
@@ -3089,7 +2917,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3098,7 +2926,7 @@ u"""
 
 entry(
     index = 96,
-    label = "A1C2H*",
+    label = "A1C2H*(96)",
     molecule = 
 """
 multiplicity 2
@@ -3124,7 +2952,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3133,7 +2961,7 @@ u"""
 
 entry(
     index = 97,
-    label = "A1C2H3*",
+    label = "C8H7(97)",
     molecule = 
 """
 multiplicity 2
@@ -3161,7 +2989,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3170,20 +2998,20 @@ u"""
 
 entry(
     index = 98,
-    label = "A2-",
+    label = "A2-(98)",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {3,S} {4,D}
-2  C u0 p0 c0 {1,S} {5,D} {10,S}
-3  C u0 p0 c0 {1,S} {8,D} {12,S}
-4  C u0 p0 c0 {1,D} {6,S} {13,S}
-5  C u0 p0 c0 {2,D} {7,S} {16,S}
-6  C u0 p0 c0 {4,S} {7,D} {14,S}
-7  C u0 p0 c0 {5,S} {6,D} {15,S}
-8  C u0 p0 c0 {3,D} {9,S} {11,S}
-9  C u0 p0 c0 {8,S} {10,D} {17,S}
-10 C u1 p0 c0 {2,S} {9,D}
+1  C u0 p0 c0 {2,B} {3,B} {4,B}
+2  C u0 p0 c0 {1,B} {5,B} {10,B}
+3  C u0 p0 c0 {1,B} {8,B} {12,S}
+4  C u0 p0 c0 {1,B} {6,B} {13,S}
+5  C u0 p0 c0 {2,B} {7,B} {16,S}
+6  C u0 p0 c0 {4,B} {7,B} {14,S}
+7  C u0 p0 c0 {5,B} {6,B} {15,S}
+8  C u0 p0 c0 {3,B} {9,B} {11,S}
+9  C u0 p0 c0 {8,B} {10,B} {17,S}
+10 C u1 p0 c0 {2,B} {9,B}
 11 H u0 p0 c0 {8,S}
 12 H u0 p0 c0 {3,S}
 13 H u0 p0 c0 {4,S}
@@ -3200,7 +3028,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3209,19 +3037,19 @@ u"""
 
 entry(
     index = 99,
-    label = "A2",
+    label = "A2(99)",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {3,D} {4,S}
-2  C u0 p0 c0 {1,S} {5,S} {6,D}
-3  C u0 p0 c0 {1,D} {8,S} {13,S}
-4  C u0 p0 c0 {1,S} {9,D} {14,S}
-5  C u0 p0 c0 {2,S} {10,D} {17,S}
-6  C u0 p0 c0 {2,D} {7,S} {18,S}
-7  C u0 p0 c0 {6,S} {8,D} {11,S}
-8  C u0 p0 c0 {3,S} {7,D} {12,S}
-9  C u0 p0 c0 {4,D} {10,S} {15,S}
-10 C u0 p0 c0 {5,D} {9,S} {16,S}
+1  C u0 p0 c0 {2,B} {3,B} {4,B}
+2  C u0 p0 c0 {1,B} {5,B} {6,B}
+3  C u0 p0 c0 {1,B} {8,B} {13,S}
+4  C u0 p0 c0 {1,B} {9,B} {14,S}
+5  C u0 p0 c0 {2,B} {10,B} {17,S}
+6  C u0 p0 c0 {2,B} {7,B} {18,S}
+7  C u0 p0 c0 {6,B} {8,B} {11,S}
+8  C u0 p0 c0 {3,B} {7,B} {12,S}
+9  C u0 p0 c0 {4,B} {10,B} {15,S}
+10 C u0 p0 c0 {5,B} {9,B} {16,S}
 11 H u0 p0 c0 {7,S}
 12 H u0 p0 c0 {8,S}
 13 H u0 p0 c0 {3,S}
@@ -3239,7 +3067,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3248,20 +3076,20 @@ u"""
 
 entry(
     index = 100,
-    label = "A2*",
+    label = "A2*(100)",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {3,S} {5,D}
-2  C u0 p0 c0 {1,S} {4,S} {8,D}
-3  C u0 p0 c0 {1,S} {6,D} {12,S}
-4  C u0 p0 c0 {2,S} {7,D} {15,S}
-5  C u0 p0 c0 {1,D} {9,S} {11,S}
-6  C u0 p0 c0 {3,D} {7,S} {13,S}
-7  C u0 p0 c0 {4,D} {6,S} {14,S}
-8  C u0 p0 c0 {2,D} {10,S} {17,S}
-9  C u0 p0 c0 {5,S} {10,D} {16,S}
-10 C u1 p0 c0 {8,S} {9,D}
+1  C u0 p0 c0 {2,B} {3,B} {5,B}
+2  C u0 p0 c0 {1,B} {4,B} {8,B}
+3  C u0 p0 c0 {1,B} {6,B} {12,S}
+4  C u0 p0 c0 {2,B} {7,B} {15,S}
+5  C u0 p0 c0 {1,B} {9,B} {11,S}
+6  C u0 p0 c0 {3,B} {7,B} {13,S}
+7  C u0 p0 c0 {4,B} {6,B} {14,S}
+8  C u0 p0 c0 {2,B} {10,B} {17,S}
+9  C u0 p0 c0 {5,B} {10,B} {16,S}
+10 C u1 p0 c0 {8,B} {9,B}
 11 H u0 p0 c0 {5,S}
 12 H u0 p0 c0 {3,S}
 13 H u0 p0 c0 {6,S}
@@ -3278,7 +3106,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3287,20 +3115,20 @@ u"""
 
 entry(
     index = 101,
-    label = "A2C2H2A",
+    label = "C12H9(101)",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {3,S} {7,D}
-2  C u0 p0 c0 {1,S} {5,S} {6,D}
-3  C u0 p0 c0 {1,S} {4,D} {11,S}
-4  C u0 p0 c0 {3,D} {8,S} {13,S}
-5  C u0 p0 c0 {2,S} {8,D} {15,S}
-6  C u0 p0 c0 {2,D} {9,S} {16,S}
-7  C u0 p0 c0 {1,D} {10,S} {19,S}
-8  C u0 p0 c0 {4,S} {5,D} {14,S}
-9  C u0 p0 c0 {6,S} {10,D} {17,S}
-10 C u0 p0 c0 {7,S} {9,D} {18,S}
+1  C u0 p0 c0 {2,B} {3,B} {7,B}
+2  C u0 p0 c0 {1,B} {5,B} {6,B}
+3  C u0 p0 c0 {1,B} {4,B} {11,S}
+4  C u0 p0 c0 {3,B} {8,B} {13,S}
+5  C u0 p0 c0 {2,B} {8,B} {15,S}
+6  C u0 p0 c0 {2,B} {9,B} {16,S}
+7  C u0 p0 c0 {1,B} {10,B} {19,S}
+8  C u0 p0 c0 {4,B} {5,B} {14,S}
+9  C u0 p0 c0 {6,B} {10,B} {17,S}
+10 C u0 p0 c0 {7,B} {9,B} {18,S}
 11 C u0 p0 c0 {3,S} {12,D} {20,S}
 12 C u1 p0 c0 {11,D} {21,S}
 13 H u0 p0 c0 {4,S}
@@ -3321,7 +3149,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3330,20 +3158,20 @@ u"""
 
 entry(
     index = 102,
-    label = "A2C2H2B",
+    label = "C12H9(102)",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,D} {7,S}
-2  C u0 p0 c0 {1,S} {4,D} {8,S}
-3  C u0 p0 c0 {4,S} {5,D} {11,S}
-4  C u0 p0 c0 {2,D} {3,S} {19,S}
-5  C u0 p0 c0 {3,D} {6,S} {13,S}
-6  C u0 p0 c0 {1,D} {5,S} {14,S}
-7  C u0 p0 c0 {1,S} {9,D} {15,S}
-8  C u0 p0 c0 {2,S} {10,D} {18,S}
-9  C u0 p0 c0 {7,D} {10,S} {16,S}
-10 C u0 p0 c0 {8,D} {9,S} {17,S}
+1  C u0 p0 c0 {2,B} {6,B} {7,B}
+2  C u0 p0 c0 {1,B} {4,B} {8,B}
+3  C u0 p0 c0 {4,B} {5,B} {11,S}
+4  C u0 p0 c0 {2,B} {3,B} {19,S}
+5  C u0 p0 c0 {3,B} {6,B} {13,S}
+6  C u0 p0 c0 {1,B} {5,B} {14,S}
+7  C u0 p0 c0 {1,B} {9,B} {15,S}
+8  C u0 p0 c0 {2,B} {10,B} {18,S}
+9  C u0 p0 c0 {7,B} {10,B} {16,S}
+10 C u0 p0 c0 {8,B} {9,B} {17,S}
 11 C u0 p0 c0 {3,S} {12,D} {20,S}
 12 C u1 p0 c0 {11,D} {21,S}
 13 H u0 p0 c0 {5,S}
@@ -3364,7 +3192,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3373,19 +3201,19 @@ u"""
 
 entry(
     index = 103,
-    label = "A2C2HA",
+    label = "C12H8(103)",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {3,S} {6,D}
-2  C u0 p0 c0 {1,S} {4,S} {5,D}
-3  C u0 p0 c0 {1,S} {7,D} {11,S}
-4  C u0 p0 c0 {2,S} {8,D} {15,S}
-5  C u0 p0 c0 {2,D} {9,S} {16,S}
-6  C u0 p0 c0 {1,D} {10,S} {19,S}
-7  C u0 p0 c0 {3,D} {8,S} {13,S}
-8  C u0 p0 c0 {4,D} {7,S} {14,S}
-9  C u0 p0 c0 {5,S} {10,D} {17,S}
-10 C u0 p0 c0 {6,S} {9,D} {18,S}
+1  C u0 p0 c0 {2,B} {3,B} {6,B}
+2  C u0 p0 c0 {1,B} {4,B} {5,B}
+3  C u0 p0 c0 {1,B} {7,B} {11,S}
+4  C u0 p0 c0 {2,B} {8,B} {15,S}
+5  C u0 p0 c0 {2,B} {9,B} {16,S}
+6  C u0 p0 c0 {1,B} {10,B} {19,S}
+7  C u0 p0 c0 {3,B} {8,B} {13,S}
+8  C u0 p0 c0 {4,B} {7,B} {14,S}
+9  C u0 p0 c0 {5,B} {10,B} {17,S}
+10 C u0 p0 c0 {6,B} {9,B} {18,S}
 11 C u0 p0 c0 {3,S} {12,T}
 12 C u0 p0 c0 {11,T} {20,S}
 13 H u0 p0 c0 {7,S}
@@ -3405,7 +3233,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3414,19 +3242,19 @@ u"""
 
 entry(
     index = 104,
-    label = "A2C2HB",
+    label = "C12H8(104)",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {5,D} {6,S}
-2  C u0 p0 c0 {1,S} {4,D} {7,S}
-3  C u0 p0 c0 {4,S} {8,D} {11,S}
-4  C u0 p0 c0 {2,D} {3,S} {19,S}
-5  C u0 p0 c0 {1,D} {8,S} {14,S}
-6  C u0 p0 c0 {1,S} {9,D} {15,S}
-7  C u0 p0 c0 {2,S} {10,D} {18,S}
-8  C u0 p0 c0 {3,D} {5,S} {13,S}
-9  C u0 p0 c0 {6,D} {10,S} {16,S}
-10 C u0 p0 c0 {7,D} {9,S} {17,S}
+1  C u0 p0 c0 {2,B} {5,B} {6,B}
+2  C u0 p0 c0 {1,B} {4,B} {7,B}
+3  C u0 p0 c0 {4,B} {8,B} {11,S}
+4  C u0 p0 c0 {2,B} {3,B} {19,S}
+5  C u0 p0 c0 {1,B} {8,B} {14,S}
+6  C u0 p0 c0 {1,B} {9,B} {15,S}
+7  C u0 p0 c0 {2,B} {10,B} {18,S}
+8  C u0 p0 c0 {3,B} {5,B} {13,S}
+9  C u0 p0 c0 {6,B} {10,B} {16,S}
+10 C u0 p0 c0 {7,B} {9,B} {17,S}
 11 C u0 p0 c0 {3,S} {12,T}
 12 C u0 p0 c0 {11,T} {20,S}
 13 H u0 p0 c0 {8,S}
@@ -3446,7 +3274,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3455,20 +3283,20 @@ u"""
 
 entry(
     index = 105,
-    label = "A2C2HA*",
+    label = "C12H7(105)",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {4,S} {6,D}
-2  C u0 p0 c0 {1,S} {3,S} {8,D}
-3  C u0 p0 c0 {2,S} {5,D} {11,S}
-4  C u0 p0 c0 {1,S} {7,D} {15,S}
-5  C u0 p0 c0 {3,D} {7,S} {13,S}
-6  C u0 p0 c0 {1,D} {9,S} {16,S}
-7  C u0 p0 c0 {4,D} {5,S} {14,S}
-8  C u0 p0 c0 {2,D} {10,S} {18,S}
-9  C u0 p0 c0 {6,S} {10,D} {17,S}
-10 C u1 p0 c0 {8,S} {9,D}
+1  C u0 p0 c0 {2,B} {4,B} {6,B}
+2  C u0 p0 c0 {1,B} {3,B} {8,B}
+3  C u0 p0 c0 {2,B} {5,B} {11,S}
+4  C u0 p0 c0 {1,B} {7,B} {15,S}
+5  C u0 p0 c0 {3,B} {7,B} {13,S}
+6  C u0 p0 c0 {1,B} {9,B} {16,S}
+7  C u0 p0 c0 {4,B} {5,B} {14,S}
+8  C u0 p0 c0 {2,B} {10,B} {18,S}
+9  C u0 p0 c0 {6,B} {10,B} {17,S}
+10 C u1 p0 c0 {8,B} {9,B}
 11 C u0 p0 c0 {3,S} {12,T}
 12 C u0 p0 c0 {11,T} {19,S}
 13 H u0 p0 c0 {5,S}
@@ -3487,7 +3315,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3496,20 +3324,20 @@ u"""
 
 entry(
     index = 106,
-    label = "A2C2HB*",
+    label = "C12H7(106)",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {4,D} {5,S}
-2  C u0 p0 c0 {1,S} {6,S} {10,D}
-3  C u0 p0 c0 {4,S} {9,D} {11,S}
-4  C u0 p0 c0 {1,D} {3,S} {17,S}
-5  C u0 p0 c0 {1,S} {8,D} {16,S}
-6  C u0 p0 c0 {2,S} {7,D} {13,S}
-7  C u0 p0 c0 {6,D} {8,S} {14,S}
-8  C u0 p0 c0 {5,D} {7,S} {15,S}
-9  C u0 p0 c0 {3,D} {10,S} {18,S}
-10 C u1 p0 c0 {2,D} {9,S}
+1  C u0 p0 c0 {2,B} {4,B} {5,B}
+2  C u0 p0 c0 {1,B} {6,B} {10,B}
+3  C u0 p0 c0 {4,B} {9,B} {11,S}
+4  C u0 p0 c0 {1,B} {3,B} {17,S}
+5  C u0 p0 c0 {1,B} {8,B} {16,S}
+6  C u0 p0 c0 {2,B} {7,B} {13,S}
+7  C u0 p0 c0 {6,B} {8,B} {14,S}
+8  C u0 p0 c0 {5,B} {7,B} {15,S}
+9  C u0 p0 c0 {3,B} {10,B} {18,S}
+10 C u1 p0 c0 {2,B} {9,B}
 11 C u0 p0 c0 {3,S} {12,T}
 12 C u0 p0 c0 {11,T} {19,S}
 13 H u0 p0 c0 {6,S}
@@ -3528,7 +3356,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3537,21 +3365,21 @@ u"""
 
 entry(
     index = 107,
-    label = "A2R5",
+    label = "A2R5(107)",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {3,S} {4,D}
-2  C u0 p0 c0 {1,S} {6,S} {7,D}
-3  C u0 p0 c0 {1,S} {8,S} {9,D}
-4  C u0 p0 c0 {1,D} {5,S} {10,S}
+1  C u0 p0 c0 {2,B} {3,B} {4,B}
+2  C u0 p0 c0 {1,B} {6,S} {7,B}
+3  C u0 p0 c0 {1,B} {8,B} {9,B}
+4  C u0 p0 c0 {1,B} {5,S} {10,B}
 5  C u0 p0 c0 {4,S} {6,D} {13,S}
 6  C u0 p0 c0 {2,S} {5,D} {14,S}
-7  C u0 p0 c0 {2,D} {11,S} {15,S}
-8  C u0 p0 c0 {3,S} {11,D} {17,S}
-9  C u0 p0 c0 {3,D} {12,S} {18,S}
-10 C u0 p0 c0 {4,S} {12,D} {20,S}
-11 C u0 p0 c0 {7,S} {8,D} {16,S}
-12 C u0 p0 c0 {9,S} {10,D} {19,S}
+7  C u0 p0 c0 {2,B} {11,B} {15,S}
+8  C u0 p0 c0 {3,B} {11,B} {17,S}
+9  C u0 p0 c0 {3,B} {12,B} {18,S}
+10 C u0 p0 c0 {4,B} {12,B} {20,S}
+11 C u0 p0 c0 {7,B} {8,B} {16,S}
+12 C u0 p0 c0 {9,B} {10,B} {19,S}
 13 H u0 p0 c0 {5,S}
 14 H u0 p0 c0 {6,S}
 15 H u0 p0 c0 {7,S}
@@ -3569,7 +3397,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3578,22 +3406,22 @@ u"""
 
 entry(
     index = 108,
-    label = "A2R5-",
+    label = "A2R5-(108)",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {3,D} {4,S}
-2  C u0 p0 c0 {1,S} {6,S} {7,D}
-3  C u0 p0 c0 {1,D} {5,S} {10,S}
-4  C u0 p0 c0 {1,S} {8,S} {11,D}
+1  C u0 p0 c0 {2,B} {3,B} {4,B}
+2  C u0 p0 c0 {1,B} {6,S} {7,B}
+3  C u0 p0 c0 {1,B} {5,S} {10,B}
+4  C u0 p0 c0 {1,B} {8,B} {11,B}
 5  C u0 p0 c0 {3,S} {6,D} {13,S}
 6  C u0 p0 c0 {2,S} {5,D} {14,S}
-7  C u0 p0 c0 {2,D} {9,S} {15,S}
-8  C u0 p0 c0 {4,S} {9,D} {17,S}
-9  C u0 p0 c0 {7,S} {8,D} {16,S}
-10 C u0 p0 c0 {3,S} {12,D} {18,S}
-11 C u0 p0 c0 {4,D} {12,S} {19,S}
-12 C u1 p0 c0 {10,D} {11,S}
+7  C u0 p0 c0 {2,B} {9,B} {15,S}
+8  C u0 p0 c0 {4,B} {9,B} {17,S}
+9  C u0 p0 c0 {7,B} {8,B} {16,S}
+10 C u0 p0 c0 {3,B} {12,B} {18,S}
+11 C u0 p0 c0 {4,B} {12,B} {19,S}
+12 C u1 p0 c0 {10,B} {11,B}
 13 H u0 p0 c0 {5,S}
 14 H u0 p0 c0 {6,S}
 15 H u0 p0 c0 {7,S}
@@ -3610,7 +3438,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3619,22 +3447,22 @@ u"""
 
 entry(
     index = 109,
-    label = "A2R5C2H2",
+    label = "C14H9(109)",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {3,S} {4,S}
-2  C u0 p0 c0 {1,D} {6,S} {8,S}
-3  C u0 p0 c0 {1,S} {9,S} {10,D}
-4  C u0 p0 c0 {1,S} {7,D} {11,S}
-5  C u0 p0 c0 {6,D} {7,S} {13,S}
-6  C u0 p0 c0 {2,S} {5,D} {15,S}
-7  C u0 p0 c0 {4,D} {5,S} {21,S}
+1  C u0 p0 c0 {2,B} {3,B} {4,B}
+2  C u0 p0 c0 {1,B} {6,B} {8,S}
+3  C u0 p0 c0 {1,B} {9,S} {10,B}
+4  C u0 p0 c0 {1,B} {7,B} {11,B}
+5  C u0 p0 c0 {6,B} {7,B} {13,S}
+6  C u0 p0 c0 {2,B} {5,B} {15,S}
+7  C u0 p0 c0 {4,B} {5,B} {21,S}
 8  C u0 p0 c0 {2,S} {9,D} {16,S}
 9  C u0 p0 c0 {3,S} {8,D} {17,S}
-10 C u0 p0 c0 {3,D} {12,S} {18,S}
-11 C u0 p0 c0 {4,S} {12,D} {20,S}
-12 C u0 p0 c0 {10,S} {11,D} {19,S}
+10 C u0 p0 c0 {3,B} {12,B} {18,S}
+11 C u0 p0 c0 {4,B} {12,B} {20,S}
+12 C u0 p0 c0 {10,B} {11,B} {19,S}
 13 C u0 p0 c0 {5,S} {14,D} {22,S}
 14 C u1 p0 c0 {13,D} {23,S}
 15 H u0 p0 c0 {6,S}
@@ -3655,7 +3483,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3664,21 +3492,21 @@ u"""
 
 entry(
     index = 110,
-    label = "A2R5C2H",
+    label = "C14H8(110)",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {3,S} {4,S}
-2  C u0 p0 c0 {1,D} {6,S} {8,S}
-3  C u0 p0 c0 {1,S} {9,S} {10,D}
-4  C u0 p0 c0 {1,S} {7,D} {11,S}
-5  C u0 p0 c0 {6,D} {7,S} {13,S}
-6  C u0 p0 c0 {2,S} {5,D} {15,S}
-7  C u0 p0 c0 {4,D} {5,S} {21,S}
+1  C u0 p0 c0 {2,B} {3,B} {4,B}
+2  C u0 p0 c0 {1,B} {6,B} {8,S}
+3  C u0 p0 c0 {1,B} {9,S} {10,B}
+4  C u0 p0 c0 {1,B} {7,B} {11,B}
+5  C u0 p0 c0 {6,B} {7,B} {13,S}
+6  C u0 p0 c0 {2,B} {5,B} {15,S}
+7  C u0 p0 c0 {4,B} {5,B} {21,S}
 8  C u0 p0 c0 {2,S} {9,D} {16,S}
 9  C u0 p0 c0 {3,S} {8,D} {17,S}
-10 C u0 p0 c0 {3,D} {12,S} {18,S}
-11 C u0 p0 c0 {4,S} {12,D} {20,S}
-12 C u0 p0 c0 {10,S} {11,D} {19,S}
+10 C u0 p0 c0 {3,B} {12,B} {18,S}
+11 C u0 p0 c0 {4,B} {12,B} {20,S}
+12 C u0 p0 c0 {10,B} {11,B} {19,S}
 13 C u0 p0 c0 {5,S} {14,T}
 14 C u0 p0 c0 {13,T} {22,S}
 15 H u0 p0 c0 {6,S}
@@ -3698,7 +3526,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3707,22 +3535,22 @@ u"""
 
 entry(
     index = 111,
-    label = "A2R5C2H*",
+    label = "C14H7(111)",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {3,S} {4,S}
-2  C u0 p0 c0 {1,D} {6,S} {8,S}
-3  C u0 p0 c0 {1,S} {9,S} {10,D}
-4  C u0 p0 c0 {1,S} {7,D} {11,S}
-5  C u0 p0 c0 {6,D} {7,S} {13,S}
-6  C u0 p0 c0 {2,S} {5,D} {15,S}
-7  C u0 p0 c0 {4,D} {5,S} {18,S}
+1  C u0 p0 c0 {2,B} {3,B} {4,B}
+2  C u0 p0 c0 {1,B} {6,B} {8,S}
+3  C u0 p0 c0 {1,B} {9,S} {10,B}
+4  C u0 p0 c0 {1,B} {7,B} {11,B}
+5  C u0 p0 c0 {6,B} {7,B} {13,S}
+6  C u0 p0 c0 {2,B} {5,B} {15,S}
+7  C u0 p0 c0 {4,B} {5,B} {18,S}
 8  C u0 p0 c0 {2,S} {9,D} {16,S}
 9  C u0 p0 c0 {3,S} {8,D} {17,S}
-10 C u0 p0 c0 {3,D} {12,S} {19,S}
-11 C u0 p0 c0 {4,S} {12,D} {20,S}
-12 C u1 p0 c0 {10,S} {11,D}
+10 C u0 p0 c0 {3,B} {12,B} {19,S}
+11 C u0 p0 c0 {4,B} {12,B} {20,S}
+12 C u1 p0 c0 {10,B} {11,B}
 13 C u0 p0 c0 {5,S} {14,T}
 14 C u0 p0 c0 {13,T} {21,S}
 15 H u0 p0 c0 {6,S}
@@ -3741,7 +3569,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3750,7 +3578,7 @@ u"""
 
 entry(
     index = 112,
-    label = "P2",
+    label = "P2(112)",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,B} {4,B}
@@ -3784,7 +3612,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3793,7 +3621,7 @@ u"""
 
 entry(
     index = 113,
-    label = "P2-",
+    label = "P2-(113)",
     molecule = 
 """
 multiplicity 2
@@ -3827,7 +3655,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3836,24 +3664,24 @@ u"""
 
 entry(
     index = 114,
-    label = "A3-",
+    label = "A3-(114)",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {3,S} {8,S}
-2  C u0 p0 c0 {1,D} {4,S} {5,S}
-3  C u0 p0 c0 {1,S} {6,D} {7,S}
-4  C u0 p0 c0 {2,S} {9,D} {14,S}
-5  C u0 p0 c0 {2,S} {12,D} {16,S}
-6  C u0 p0 c0 {3,D} {9,S} {18,S}
-7  C u0 p0 c0 {3,S} {10,D} {19,S}
-8  C u0 p0 c0 {1,S} {11,D} {22,S}
-9  C u0 p0 c0 {4,D} {6,S} {17,S}
-10 C u0 p0 c0 {7,D} {11,S} {20,S}
-11 C u0 p0 c0 {8,D} {10,S} {21,S}
-12 C u0 p0 c0 {5,D} {13,S} {15,S}
-13 C u0 p0 c0 {12,S} {14,D} {23,S}
-14 C u1 p0 c0 {4,S} {13,D}
+1  C u0 p0 c0 {2,B} {3,B} {8,B}
+2  C u0 p0 c0 {1,B} {4,B} {5,B}
+3  C u0 p0 c0 {1,B} {6,B} {7,B}
+4  C u0 p0 c0 {2,B} {9,B} {14,B}
+5  C u0 p0 c0 {2,B} {12,B} {16,S}
+6  C u0 p0 c0 {3,B} {9,B} {18,S}
+7  C u0 p0 c0 {3,B} {10,B} {19,S}
+8  C u0 p0 c0 {1,B} {11,B} {22,S}
+9  C u0 p0 c0 {4,B} {6,B} {17,S}
+10 C u0 p0 c0 {7,B} {11,B} {20,S}
+11 C u0 p0 c0 {8,B} {10,B} {21,S}
+12 C u0 p0 c0 {5,B} {13,B} {15,S}
+13 C u0 p0 c0 {12,B} {14,B} {23,S}
+14 C u1 p0 c0 {4,B} {13,B}
 15 H u0 p0 c0 {12,S}
 16 H u0 p0 c0 {5,S}
 17 H u0 p0 c0 {9,S}
@@ -3872,7 +3700,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3881,23 +3709,23 @@ u"""
 
 entry(
     index = 115,
-    label = "A3",
+    label = "A3(115)",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {3,S} {5,D}
-2  C u0 p0 c0 {1,S} {4,S} {10,D}
-3  C u0 p0 c0 {1,S} {6,D} {7,S}
-4  C u0 p0 c0 {2,S} {8,S} {9,D}
-5  C u0 p0 c0 {1,D} {12,S} {17,S}
-6  C u0 p0 c0 {3,D} {11,S} {18,S}
-7  C u0 p0 c0 {3,S} {8,D} {19,S}
-8  C u0 p0 c0 {4,S} {7,D} {20,S}
-9  C u0 p0 c0 {4,D} {13,S} {21,S}
-10 C u0 p0 c0 {2,D} {14,S} {24,S}
-11 C u0 p0 c0 {6,S} {12,D} {15,S}
-12 C u0 p0 c0 {5,S} {11,D} {16,S}
-13 C u0 p0 c0 {9,S} {14,D} {22,S}
-14 C u0 p0 c0 {10,S} {13,D} {23,S}
+1  C u0 p0 c0 {2,B} {3,B} {5,B}
+2  C u0 p0 c0 {1,B} {4,B} {10,B}
+3  C u0 p0 c0 {1,B} {6,B} {7,B}
+4  C u0 p0 c0 {2,B} {8,B} {9,B}
+5  C u0 p0 c0 {1,B} {12,B} {17,S}
+6  C u0 p0 c0 {3,B} {11,B} {18,S}
+7  C u0 p0 c0 {3,B} {8,B} {19,S}
+8  C u0 p0 c0 {4,B} {7,B} {20,S}
+9  C u0 p0 c0 {4,B} {13,B} {21,S}
+10 C u0 p0 c0 {2,B} {14,B} {24,S}
+11 C u0 p0 c0 {6,B} {12,B} {15,S}
+12 C u0 p0 c0 {5,B} {11,B} {16,S}
+13 C u0 p0 c0 {9,B} {14,B} {22,S}
+14 C u0 p0 c0 {10,B} {13,B} {23,S}
 15 H u0 p0 c0 {11,S}
 16 H u0 p0 c0 {12,S}
 17 H u0 p0 c0 {5,S}
@@ -3917,7 +3745,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3926,24 +3754,24 @@ u"""
 
 entry(
     index = 116,
-    label = "A3*",
+    label = "A3*(116)",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {4,D} {9,S}
-2  C u0 p0 c0 {1,S} {7,D} {8,S}
-3  C u0 p0 c0 {4,S} {5,S} {6,D}
-4  C u0 p0 c0 {1,D} {3,S} {14,S}
-5  C u0 p0 c0 {3,S} {12,D} {16,S}
-6  C u0 p0 c0 {3,D} {7,S} {17,S}
-7  C u0 p0 c0 {2,D} {6,S} {18,S}
-8  C u0 p0 c0 {2,S} {10,D} {19,S}
-9  C u0 p0 c0 {1,S} {11,D} {22,S}
-10 C u0 p0 c0 {8,D} {11,S} {20,S}
-11 C u0 p0 c0 {9,D} {10,S} {21,S}
-12 C u0 p0 c0 {5,D} {13,S} {15,S}
-13 C u0 p0 c0 {12,S} {14,D} {23,S}
-14 C u1 p0 c0 {4,S} {13,D}
+1  C u0 p0 c0 {2,B} {4,B} {9,B}
+2  C u0 p0 c0 {1,B} {7,B} {8,B}
+3  C u0 p0 c0 {4,B} {5,B} {6,B}
+4  C u0 p0 c0 {1,B} {3,B} {14,B}
+5  C u0 p0 c0 {3,B} {12,B} {16,S}
+6  C u0 p0 c0 {3,B} {7,B} {17,S}
+7  C u0 p0 c0 {2,B} {6,B} {18,S}
+8  C u0 p0 c0 {2,B} {10,B} {19,S}
+9  C u0 p0 c0 {1,B} {11,B} {22,S}
+10 C u0 p0 c0 {8,B} {11,B} {20,S}
+11 C u0 p0 c0 {9,B} {10,B} {21,S}
+12 C u0 p0 c0 {5,B} {13,B} {15,S}
+13 C u0 p0 c0 {12,B} {14,B} {23,S}
+14 C u1 p0 c0 {4,B} {13,B}
 15 H u0 p0 c0 {12,S}
 16 H u0 p0 c0 {5,S}
 17 H u0 p0 c0 {6,S}
@@ -3962,7 +3790,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -3971,26 +3799,26 @@ u"""
 
 entry(
     index = 117,
-    label = "A3R5-",
+    label = "A3R5-(117)",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {3,D} {4,S} {5,S}
-2  C u0 p0 c0 {3,S} {6,S} {12,D}
-3  C u0 p0 c0 {1,D} {2,S} {11,S}
-4  C u0 p0 c0 {1,S} {7,D} {8,S}
-5  C u0 p0 c0 {1,S} {9,S} {10,D}
-6  C u0 p0 c0 {2,S} {7,S} {14,D}
-7  C u0 p0 c0 {4,D} {6,S} {18,S}
+1  C u0 p0 c0 {3,B} {4,B} {5,B}
+2  C u0 p0 c0 {3,B} {6,B} {12,B}
+3  C u0 p0 c0 {1,B} {2,B} {11,B}
+4  C u0 p0 c0 {1,B} {7,B} {8,S}
+5  C u0 p0 c0 {1,B} {9,S} {10,B}
+6  C u0 p0 c0 {2,B} {7,B} {14,B}
+7  C u0 p0 c0 {4,B} {6,B} {18,S}
 8  C u0 p0 c0 {4,S} {9,D} {19,S}
 9  C u0 p0 c0 {5,S} {8,D} {20,S}
-10 C u0 p0 c0 {5,D} {13,S} {21,S}
-11 C u0 p0 c0 {3,S} {13,D} {23,S}
-12 C u0 p0 c0 {2,D} {15,S} {17,S}
-13 C u0 p0 c0 {10,S} {11,D} {22,S}
-14 C u0 p0 c0 {6,D} {16,S} {25,S}
-15 C u0 p0 c0 {12,S} {16,D} {24,S}
-16 C u1 p0 c0 {14,S} {15,D}
+10 C u0 p0 c0 {5,B} {13,B} {21,S}
+11 C u0 p0 c0 {3,B} {13,B} {23,S}
+12 C u0 p0 c0 {2,B} {15,B} {17,S}
+13 C u0 p0 c0 {10,B} {11,B} {22,S}
+14 C u0 p0 c0 {6,B} {16,B} {25,S}
+15 C u0 p0 c0 {12,B} {16,B} {24,S}
+16 C u1 p0 c0 {14,B} {15,B}
 17 H u0 p0 c0 {12,S}
 18 H u0 p0 c0 {7,S}
 19 H u0 p0 c0 {8,S}
@@ -4009,7 +3837,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4018,25 +3846,25 @@ u"""
 
 entry(
     index = 118,
-    label = "A3R5",
+    label = "A3R5(118)",
     molecule = 
 """
-1  C u0 p0 c0 {3,S} {4,S} {6,D}
-2  C u0 p0 c0 {3,S} {5,S} {11,D}
-3  C u0 p0 c0 {1,S} {2,S} {12,D}
-4  C u0 p0 c0 {1,S} {7,D} {9,S}
-5  C u0 p0 c0 {2,S} {7,S} {10,D}
-6  C u0 p0 c0 {1,D} {8,S} {13,S}
-7  C u0 p0 c0 {4,D} {5,S} {19,S}
+1  C u0 p0 c0 {3,B} {4,B} {6,B}
+2  C u0 p0 c0 {3,B} {5,B} {11,B}
+3  C u0 p0 c0 {1,B} {2,B} {12,B}
+4  C u0 p0 c0 {1,B} {7,B} {9,S}
+5  C u0 p0 c0 {2,B} {7,B} {10,B}
+6  C u0 p0 c0 {1,B} {8,S} {13,B}
+7  C u0 p0 c0 {4,B} {5,B} {19,S}
 8  C u0 p0 c0 {6,S} {9,D} {17,S}
 9  C u0 p0 c0 {4,S} {8,D} {18,S}
-10 C u0 p0 c0 {5,D} {14,S} {20,S}
-11 C u0 p0 c0 {2,D} {15,S} {23,S}
-12 C u0 p0 c0 {3,D} {16,S} {24,S}
-13 C u0 p0 c0 {6,S} {16,D} {26,S}
-14 C u0 p0 c0 {10,S} {15,D} {21,S}
-15 C u0 p0 c0 {11,S} {14,D} {22,S}
-16 C u0 p0 c0 {12,S} {13,D} {25,S}
+10 C u0 p0 c0 {5,B} {14,B} {20,S}
+11 C u0 p0 c0 {2,B} {15,B} {23,S}
+12 C u0 p0 c0 {3,B} {16,B} {24,S}
+13 C u0 p0 c0 {6,B} {16,B} {26,S}
+14 C u0 p0 c0 {10,B} {15,B} {21,S}
+15 C u0 p0 c0 {11,B} {14,B} {22,S}
+16 C u0 p0 c0 {12,B} {13,B} {25,S}
 17 H u0 p0 c0 {8,S}
 18 H u0 p0 c0 {9,S}
 19 H u0 p0 c0 {7,S}
@@ -4056,7 +3884,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4065,25 +3893,25 @@ u"""
 
 entry(
     index = 119,
-    label = "A4",
+    label = "A4(119)",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {3,S} {6,S}
-2  C u0 p0 c0 {1,D} {4,S} {5,S}
-3  C u0 p0 c0 {1,S} {7,S} {8,D}
-4  C u0 p0 c0 {2,S} {9,D} {10,S}
-5  C u0 p0 c0 {2,S} {11,D} {12,S}
-6  C u0 p0 c0 {1,S} {13,S} {14,D}
-7  C u0 p0 c0 {3,S} {15,D} {18,S}
-8  C u0 p0 c0 {3,D} {9,S} {19,S}
-9  C u0 p0 c0 {4,D} {8,S} {20,S}
-10 C u0 p0 c0 {4,S} {16,D} {21,S}
-11 C u0 p0 c0 {5,D} {16,S} {23,S}
-12 C u0 p0 c0 {5,S} {13,D} {24,S}
-13 C u0 p0 c0 {6,S} {12,D} {25,S}
-14 C u0 p0 c0 {6,D} {15,S} {26,S}
-15 C u0 p0 c0 {7,D} {14,S} {17,S}
-16 C u0 p0 c0 {10,D} {11,S} {22,S}
+1  C u0 p0 c0 {2,B} {3,B} {6,B}
+2  C u0 p0 c0 {1,B} {4,B} {5,B}
+3  C u0 p0 c0 {1,B} {7,B} {8,B}
+4  C u0 p0 c0 {2,B} {9,B} {10,B}
+5  C u0 p0 c0 {2,B} {11,B} {12,B}
+6  C u0 p0 c0 {1,B} {13,B} {14,B}
+7  C u0 p0 c0 {3,B} {15,B} {18,S}
+8  C u0 p0 c0 {3,B} {9,B} {19,S}
+9  C u0 p0 c0 {4,B} {8,B} {20,S}
+10 C u0 p0 c0 {4,B} {16,B} {21,S}
+11 C u0 p0 c0 {5,B} {16,B} {23,S}
+12 C u0 p0 c0 {5,B} {13,B} {24,S}
+13 C u0 p0 c0 {6,B} {12,B} {25,S}
+14 C u0 p0 c0 {6,B} {15,B} {26,S}
+15 C u0 p0 c0 {7,B} {14,B} {17,S}
+16 C u0 p0 c0 {10,B} {11,B} {22,S}
 17 H u0 p0 c0 {15,S}
 18 H u0 p0 c0 {7,S}
 19 H u0 p0 c0 {8,S}
@@ -4103,7 +3931,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4112,26 +3940,26 @@ u"""
 
 entry(
     index = 120,
-    label = "A4-",
+    label = "A4-(120)",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {5,S} {6,S}
-2  C u0 p0 c0 {1,D} {3,S} {4,S}
-3  C u0 p0 c0 {2,S} {8,D} {9,S}
-4  C u0 p0 c0 {2,S} {10,D} {11,S}
-5  C u0 p0 c0 {1,S} {7,D} {14,S}
-6  C u0 p0 c0 {1,S} {12,S} {15,D}
-7  C u0 p0 c0 {5,D} {8,S} {17,S}
-8  C u0 p0 c0 {3,D} {7,S} {18,S}
-9  C u0 p0 c0 {3,S} {13,D} {19,S}
-10 C u0 p0 c0 {4,D} {13,S} {21,S}
-11 C u0 p0 c0 {4,S} {12,D} {22,S}
-12 C u0 p0 c0 {6,S} {11,D} {23,S}
-13 C u0 p0 c0 {9,D} {10,S} {20,S}
-14 C u0 p0 c0 {5,S} {16,D} {24,S}
-15 C u0 p0 c0 {6,D} {16,S} {25,S}
-16 C u1 p0 c0 {14,D} {15,S}
+1  C u0 p0 c0 {2,B} {5,B} {6,B}
+2  C u0 p0 c0 {1,B} {3,B} {4,B}
+3  C u0 p0 c0 {2,B} {8,B} {9,B}
+4  C u0 p0 c0 {2,B} {10,B} {11,B}
+5  C u0 p0 c0 {1,B} {7,B} {14,B}
+6  C u0 p0 c0 {1,B} {12,B} {15,B}
+7  C u0 p0 c0 {5,B} {8,B} {17,S}
+8  C u0 p0 c0 {3,B} {7,B} {18,S}
+9  C u0 p0 c0 {3,B} {13,B} {19,S}
+10 C u0 p0 c0 {4,B} {13,B} {21,S}
+11 C u0 p0 c0 {4,B} {12,B} {22,S}
+12 C u0 p0 c0 {6,B} {11,B} {23,S}
+13 C u0 p0 c0 {9,B} {10,B} {20,S}
+14 C u0 p0 c0 {5,B} {16,B} {24,S}
+15 C u0 p0 c0 {6,B} {16,B} {25,S}
+16 C u1 p0 c0 {14,B} {15,B}
 17 H u0 p0 c0 {7,S}
 18 H u0 p0 c0 {8,S}
 19 H u0 p0 c0 {9,S}
@@ -4150,7 +3978,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4159,27 +3987,27 @@ u"""
 
 entry(
     index = 121,
-    label = "A4R5",
+    label = "A4R5(121)",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {4,S} {8,D}
-2  C u0 p0 c0 {1,S} {3,D} {7,S}
-3  C u0 p0 c0 {2,D} {5,S} {6,S}
-4  C u0 p0 c0 {1,S} {9,D} {11,S}
-5  C u0 p0 c0 {3,S} {9,S} {12,D}
-6  C u0 p0 c0 {3,S} {13,S} {14,D}
-7  C u0 p0 c0 {2,S} {15,D} {16,S}
-8  C u0 p0 c0 {1,D} {10,S} {17,S}
-9  C u0 p0 c0 {4,D} {5,S} {21,S}
+1  C u0 p0 c0 {2,B} {4,B} {8,B}
+2  C u0 p0 c0 {1,B} {3,B} {7,B}
+3  C u0 p0 c0 {2,B} {5,B} {6,B}
+4  C u0 p0 c0 {1,B} {9,B} {11,S}
+5  C u0 p0 c0 {3,B} {9,B} {12,B}
+6  C u0 p0 c0 {3,B} {13,B} {14,B}
+7  C u0 p0 c0 {2,B} {15,B} {16,B}
+8  C u0 p0 c0 {1,B} {10,S} {17,B}
+9  C u0 p0 c0 {4,B} {5,B} {21,S}
 10 C u0 p0 c0 {8,S} {11,D} {19,S}
 11 C u0 p0 c0 {4,S} {10,D} {20,S}
-12 C u0 p0 c0 {5,D} {18,S} {22,S}
-13 C u0 p0 c0 {6,S} {18,D} {24,S}
-14 C u0 p0 c0 {6,D} {15,S} {25,S}
-15 C u0 p0 c0 {7,D} {14,S} {26,S}
-16 C u0 p0 c0 {7,S} {17,D} {27,S}
-17 C u0 p0 c0 {8,S} {16,D} {28,S}
-18 C u0 p0 c0 {12,S} {13,D} {23,S}
+12 C u0 p0 c0 {5,B} {18,B} {22,S}
+13 C u0 p0 c0 {6,B} {18,B} {24,S}
+14 C u0 p0 c0 {6,B} {15,B} {25,S}
+15 C u0 p0 c0 {7,B} {14,B} {26,S}
+16 C u0 p0 c0 {7,B} {17,B} {27,S}
+17 C u0 p0 c0 {8,B} {16,B} {28,S}
+18 C u0 p0 c0 {12,B} {13,B} {23,S}
 19 H u0 p0 c0 {10,S}
 20 H u0 p0 c0 {11,S}
 21 H u0 p0 c0 {9,S}
@@ -4199,7 +4027,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4208,25 +4036,25 @@ u"""
 
 entry(
     index = 122,
-    label = "FLTN",
+    label = "FLTN(122)",
     molecule = 
 """
-1  C u0 p0 c0 {4,S} {5,D} {6,S}
-2  C u0 p0 c0 {3,S} {5,S} {7,D}
-3  C u0 p0 c0 {2,S} {4,S} {8,D}
-4  C u0 p0 c0 {1,S} {3,S} {9,D}
-5  C u0 p0 c0 {1,D} {2,S} {12,S}
-6  C u0 p0 c0 {1,S} {10,S} {11,D}
-7  C u0 p0 c0 {2,D} {14,S} {19,S}
-8  C u0 p0 c0 {3,D} {13,S} {20,S}
-9  C u0 p0 c0 {4,D} {15,S} {21,S}
-10 C u0 p0 c0 {6,S} {15,D} {23,S}
-11 C u0 p0 c0 {6,D} {16,S} {24,S}
-12 C u0 p0 c0 {5,S} {16,D} {26,S}
-13 C u0 p0 c0 {8,S} {14,D} {17,S}
-14 C u0 p0 c0 {7,S} {13,D} {18,S}
-15 C u0 p0 c0 {9,S} {10,D} {22,S}
-16 C u0 p0 c0 {11,S} {12,D} {25,S}
+1  C u0 p0 c0 {4,B} {5,B} {6,B}
+2  C u0 p0 c0 {3,B} {5,S} {7,B}
+3  C u0 p0 c0 {2,B} {4,S} {8,B}
+4  C u0 p0 c0 {1,B} {3,S} {9,B}
+5  C u0 p0 c0 {1,B} {2,S} {12,B}
+6  C u0 p0 c0 {1,B} {10,B} {11,B}
+7  C u0 p0 c0 {2,B} {14,B} {19,S}
+8  C u0 p0 c0 {3,B} {13,B} {20,S}
+9  C u0 p0 c0 {4,B} {15,B} {21,S}
+10 C u0 p0 c0 {6,B} {15,B} {23,S}
+11 C u0 p0 c0 {6,B} {16,B} {24,S}
+12 C u0 p0 c0 {5,B} {16,B} {26,S}
+13 C u0 p0 c0 {8,B} {14,B} {17,S}
+14 C u0 p0 c0 {7,B} {13,B} {18,S}
+15 C u0 p0 c0 {9,B} {10,B} {22,S}
+16 C u0 p0 c0 {11,B} {12,B} {25,S}
 17 H u0 p0 c0 {13,S}
 18 H u0 p0 c0 {14,S}
 19 H u0 p0 c0 {7,S}
@@ -4246,7 +4074,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4255,19 +4083,19 @@ u"""
 
 entry(
     index = 123,
-    label = "C5H6",
+    label = "C5H6(123)",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {4,D} {6,S}
-2  C u0 p0 c0 {1,S} {3,D} {7,S}
-3  C u0 p0 c0 {2,D} {5,S} {8,S}
-4  C u0 p0 c0 {1,D} {5,S} {9,S}
-5  C u0 p0 c0 {3,S} {4,S} {10,S} {11,S}
+1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {5,D} {8,S}
+3  C u0 p0 c0 {1,S} {4,D} {9,S}
+4  C u0 p0 c0 {3,D} {5,S} {10,S}
+5  C u0 p0 c0 {2,D} {4,S} {11,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 11 H u0 p0 c0 {5,S}
 """,
     thermo = NASA(
@@ -4278,10 +4106,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-Roy et al. 2001
-CAS# : 542-92-7
-DfH = 134.30 kJ/mol, Cp = 76.66 J/mol/K, S = 274.82 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4290,7 +4115,7 @@ u"""
 
 entry(
     index = 124,
-    label = "C5H5",
+    label = "C5H5(124)",
     molecule = 
 """
 multiplicity 2
@@ -4313,12 +4138,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""Refitted
-Entropy and Heat capacity from Kiefer et al. 2001
-Energy from Tokmakov et al. 2003
-Refitted from 298 to 3000
-CAS# : 2143-53-5
-DfH = 261.50 kJ/mol, Cp = 84.46 J/mol/K, S = 265.55 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4327,7 +4147,7 @@ u"""
 
 entry(
     index = 125,
-    label = "T-C5H5O",
+    label = "C5H5O(125)",
     molecule = 
 """
 multiplicity 2
@@ -4351,8 +4171,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    shortDesc = u"""T 4/91
-CAS# : 136936-20-4""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4361,19 +4180,19 @@ u"""
 
 entry(
     index = 126,
-    label = "C5H4O",
+    label = "C5H4O(126)",
     molecule = 
 """
-1  O u0 p2 c0 {2,D}
-2  C u0 p0 c0 {1,D} {3,S} {6,S}
-3  C u0 p0 c0 {2,S} {4,D} {7,S}
-4  C u0 p0 c0 {3,D} {5,S} {8,S}
-5  C u0 p0 c0 {4,S} {6,D} {9,S}
-6  C u0 p0 c0 {2,S} {5,D} {10,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,D}
+2  C u0 p0 c0 {1,S} {3,D} {7,S}
+3  C u0 p0 c0 {2,D} {4,S} {8,S}
+4  C u0 p0 c0 {3,S} {5,D} {9,S}
+5  C u0 p0 c0 {1,S} {4,D} {10,S}
+6  O u0 p2 c0 {1,D}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {5,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4383,10 +4202,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-Wang & Brezinsky 1998
-CAS# : 3177-38-3
-DfH = 55.23 kJ/mol, Cp = 84.18 J/mol/K, S = 291.26 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4395,7 +4211,7 @@ u"""
 
 entry(
     index = 127,
-    label = "S-C5H5O",
+    label = "C5H5O(127)",
     molecule = 
 """
 multiplicity 2
@@ -4419,8 +4235,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""D 9/97
-CAS# : 136936-19-1""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4429,7 +4244,7 @@ u"""
 
 entry(
     index = 128,
-    label = "C9H8",
+    label = "C9H8(128)",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
@@ -4458,9 +4273,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""Indene      G3B3
-CAS# : 95-13-6
-DfH = 166.08 kJ/mol, Cp = 125.19 J/mol/K, S = 336.40 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4469,7 +4282,7 @@ u"""
 
 entry(
     index = 129,
-    label = "C9H7",
+    label = "C9H7(129)",
     molecule = 
 """
 multiplicity 2
@@ -4498,9 +4311,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""Indenyl     G3B3
-CAS# : 71551-80-9
-DfH = 286.12 kJ/mol, Cp = 123.56 J/mol/K, S = 333.38 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4509,7 +4320,7 @@ u"""
 
 entry(
     index = 130,
-    label = "A1CH2",
+    label = "A1CH2(130)",
     molecule = 
 """
 multiplicity 2
@@ -4536,9 +4347,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 2154-56-5
-DfH = 207.00 kJ/mol, Cp = 108.44 J/mol/K, S = 316.61 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4547,7 +4356,7 @@ u"""
 
 entry(
     index = 131,
-    label = "C9H6O",
+    label = "C9H6O(131)",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {3,B} {6,S}
@@ -4575,9 +4384,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""Indenone    G3B3
-CAS# :
-DfH = 69.33 kJ/mol, Cp = 131.93 J/mol/K, S = 352.14 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4586,19 +4393,19 @@ u"""
 
 entry(
     index = 132,
-    label = "O-C6H4",
+    label = "C6H4(132)",
     molecule = 
 """
-1  C u0 p0 c0 {2,T} {4,S}
-2  C u0 p0 c0 {1,T} {3,S}
-3  C u0 p0 c0 {2,S} {5,D} {7,S}
-4  C u0 p0 c0 {1,S} {6,D} {8,S}
-5  C u0 p0 c0 {3,D} {6,S} {9,S}
-6  C u0 p0 c0 {4,D} {5,S} {10,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,D} {7,S}
+2  C u0 p0 c0 {1,S} {4,D} {8,S}
+3  C u0 p0 c0 {1,D} {6,S} {9,S}
+4  C u0 p0 c0 {2,D} {5,S} {10,S}
+5  C u0 p0 c0 {4,S} {6,T}
+6  C u0 p0 c0 {3,S} {5,T}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4608,10 +4415,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-Xu, Wang et al - 6th Internat Conf Chem Kinet NIST 2005
-CAS# : 462-80-6
-DfH = 446.01 kJ/mol, Cp = 81.19 J/mol/K, S = 284.44 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4620,7 +4424,7 @@ u"""
 
 entry(
     index = 133,
-    label = "A1CH3",
+    label = "A1CH3(133)",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
@@ -4647,9 +4451,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 108-88-3
-DfH = 50.00 kJ/mol, Cp = 105.42 J/mol/K, S = 321.87 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4658,7 +4460,7 @@ u"""
 
 entry(
     index = 134,
-    label = "A1OH",
+    label = "A1OH(134)",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {3,B} {7,S}
@@ -4683,20 +4485,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-** Thermodynamic properties taken from **
-
-Optimized geometries with B3LYP/6-311++G**
-Internal decgrees of rotation treated as in JPCA 2007
-Guillaume Blanquart
-
-DfH : heat of formation at 298K
-Cp  : heat capacity at 298K
-S   : entropy at 298K
-Enthalpy of formation from experiments
-======================================
-CAS# : 108-95-2
-DfH = -96.36 kJ/mol, Cp = 104.84 J/mol/K, S = 313.81 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4705,7 +4494,7 @@ u"""
 
 entry(
     index = 135,
-    label = "HOA1CH3",
+    label = "C7H8O(135)",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
@@ -4733,10 +4522,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 108-39-4 or 106-44-5 or 95-48-7
-DfH = -130.84 kJ/mol, Cp = 126.57 J/mol/K, S = 369.31 J/mol/K
-All isomers lumped into m-methyl-phenol (degeneracy=2.5)""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4745,7 +4531,7 @@ u"""
 
 entry(
     index = 136,
-    label = "OA1CH3",
+    label = "C7H7O(136)",
     molecule = 
 """
 multiplicity 2
@@ -4773,10 +4559,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# :
-DfH = 19.06 kJ/mol, Cp = 120.95 J/mol/K, S = 361.48 J/mol/K
-All isomers lumped into m-methyl-phenoxy (degeneracy=2.5)""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4785,7 +4568,7 @@ u"""
 
 entry(
     index = 137,
-    label = "A1CH2O",
+    label = "C7H7O(137)",
     molecule = 
 """
 multiplicity 2
@@ -4813,9 +4596,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 26397-37-5
-DfH = 122.42 kJ/mol, Cp = 116.99 J/mol/K, S = 359.90 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4824,7 +4605,7 @@ u"""
 
 entry(
     index = 138,
-    label = "A1CH2OH",
+    label = "C7H8O(138)",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
@@ -4852,8 +4633,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    shortDesc = u"""T10/06
-CAS# : 100-51-6""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4862,7 +4642,7 @@ u"""
 
 entry(
     index = 139,
-    label = "A1CHO",
+    label = "A1CHO(139)",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {3,B} {7,S}
@@ -4888,9 +4668,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 100-52-7
-DfH = -37.20 kJ/mol, Cp = 112.08 J/mol/K, S = 335.94 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4899,7 +4677,7 @@ u"""
 
 entry(
     index = 140,
-    label = "A1O",
+    label = "A1O(140)",
     molecule = 
 """
 multiplicity 2
@@ -4924,10 +4702,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-Sebbar, Bockhorn, Bozzelli IJCK 2007
-CAS# : 2122-46-5
-DfH = 53.98 kJ/mol, Cp = 97.83 J/mol/K, S = 311.94 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4936,7 +4711,7 @@ u"""
 
 entry(
     index = 141,
-    label = "A1CH3*",
+    label = "C7H7(141)",
     molecule = 
 """
 multiplicity 2
@@ -4963,12 +4738,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-Enthalpy of formation evaluated from isodesmic reactions
-========================================================
-CAS# : 2396-02-3
-DfH = 306.55 kJ/mol, Cp = 103.82 J/mol/K, S = 340.28 J/mol/K
-All isomers lumped into m-methyl-phenyl (degeneracy=2.5)""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -4977,7 +4747,7 @@ u"""
 
 entry(
     index = 142,
-    label = "A1C2H4",
+    label = "C8H9(142)",
     molecule = 
 """
 multiplicity 2
@@ -5007,8 +4777,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    shortDesc = u"""C6H5C2H4 A11/04
-CAS# : ???""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -5017,7 +4786,7 @@ u"""
 
 entry(
     index = 143,
-    label = "A1C2H5",
+    label = "C8H10(143)",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -5047,8 +4816,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    shortDesc = u"""C6H5C2H5 A11/04
-CAS# : 100-41-4""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -5057,7 +4825,7 @@ u"""
 
 entry(
     index = 144,
-    label = "C8H9O2",
+    label = "S(144)",
     molecule = 
 """
 multiplicity 2
@@ -5089,9 +4857,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : ??
-DfH = 171.18 kJ/mol, Cp = 153.76 J/mol/K, S = 420.11 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -5100,7 +4866,7 @@ u"""
 
 entry(
     index = 145,
-    label = "C8H8OOH",
+    label = "S(145)",
     molecule = 
 """
 multiplicity 2
@@ -5132,9 +4898,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : ??
-DfH = 171.18 kJ/mol, Cp = 153.76 J/mol/K, S = 420.11 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -5143,7 +4907,7 @@ u"""
 
 entry(
     index = 146,
-    label = "OC8H7OOH",
+    label = "S(146)",
     molecule = 
 """
 1  C u0 p0 c0 {3,B} {4,B} {5,S}
@@ -5174,9 +4938,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : ??
-DfH = -142.66 kJ/mol, Cp = 170.32 J/mol/K, S = 441.46 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -5185,7 +4947,7 @@ u"""
 
 entry(
     index = 147,
-    label = "A1CH3CH3",
+    label = "C8H10(147)",
     molecule = 
 """
 1  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -5215,10 +4977,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 108-38-3
-DfH =  17.18 kJ/mol, Cp = 127.33 J/mol/K, S = 366.41 J/mol/K
-All isomers lumped into m-xylene (degeneracy=2.5)""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -5227,7 +4986,7 @@ u"""
 
 entry(
     index = 148,
-    label = "A1CH3CH2",
+    label = "C8H9(148)",
     molecule = 
 """
 multiplicity 2
@@ -5257,10 +5016,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 2348-47-2
-DfH = 173.79 kJ/mol, Cp = 130.21 J/mol/K, S = 366.65 J/mol/K
-All isomers lumped into m-xylyl radical (degeneracy=2.5)""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -5269,7 +5025,7 @@ u"""
 
 entry(
     index = 149,
-    label = "A1CH3CHO",
+    label = "C8H8O(149)",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
@@ -5298,10 +5054,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 620-23-5
-DfH = -70.83 kJ/mol, Cp = 134.19 J/mol/K, S = 383.80 J/mol/K
-All isomers lumped into m-tolualdehyde (degeneracy=2.5)""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -5310,20 +5063,20 @@ u"""
 
 entry(
     index = 150,
-    label = "A2CH3",
+    label = "A2CH3(150)",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
-2  C u0 p0 c0 {1,S} {3,S} {5,D}
-3  C u0 p0 c0 {2,S} {4,S} {8,D}
-4  C u0 p0 c0 {3,S} {6,S} {7,D}
-5  C u0 p0 c0 {2,D} {9,S} {15,S}
-6  C u0 p0 c0 {4,S} {9,D} {17,S}
-7  C u0 p0 c0 {4,D} {10,S} {18,S}
-8  C u0 p0 c0 {3,D} {11,S} {21,S}
-9  C u0 p0 c0 {5,S} {6,D} {16,S}
-10 C u0 p0 c0 {7,S} {11,D} {19,S}
-11 C u0 p0 c0 {8,S} {10,D} {20,S}
+2  C u0 p0 c0 {1,S} {3,B} {5,B}
+3  C u0 p0 c0 {2,B} {4,B} {8,B}
+4  C u0 p0 c0 {3,B} {6,B} {7,B}
+5  C u0 p0 c0 {2,B} {9,B} {15,S}
+6  C u0 p0 c0 {4,B} {9,B} {17,S}
+7  C u0 p0 c0 {4,B} {10,B} {18,S}
+8  C u0 p0 c0 {3,B} {11,B} {21,S}
+9  C u0 p0 c0 {5,B} {6,B} {16,S}
+10 C u0 p0 c0 {7,B} {11,B} {19,S}
+11 C u0 p0 c0 {8,B} {10,B} {20,S}
 12 H u0 p0 c0 {1,S}
 13 H u0 p0 c0 {1,S}
 14 H u0 p0 c0 {1,S}
@@ -5343,9 +5096,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 90-12-0
-DfH = 118.40 kJ/mol, Cp = 160.90 J/mol/K, S = 376.27 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -5354,7 +5105,7 @@ u"""
 
 entry(
     index = 151,
-    label = "A1CHOCH2",
+    label = "C8H7O(151)",
     molecule = 
 """
 multiplicity 2
@@ -5383,10 +5134,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : ???
-DfH =  88.32 kJ/mol, Cp = 137.09 J/mol/K, S = 378.43 J/mol/K
-All isomers lumped into m-tolualdehyde radical (degeneracy=2.5)""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -5395,7 +5143,7 @@ u"""
 
 entry(
     index = 152,
-    label = "A1CHOCHO",
+    label = "S(152)",
     molecule = 
 """
 1  C u0 p0 c0 {3,B} {6,B} {7,S}
@@ -5423,10 +5171,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 626-19-7
-DfH = -153.34 kJ/mol, Cp = 141.61 J/mol/K, S = 391.23 J/mol/K
-All isomers lumped into m-phthalaldehyde (degeneracy=2.5)""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -5435,19 +5180,19 @@ u"""
 
 entry(
     index = 153,
-    label = "A2OH",
+    label = "A2OH(153)",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {3,S} {6,D}
-2  C u0 p0 c0 {1,S} {4,S} {5,D}
-3  C u0 p0 c0 {1,S} {7,D} {11,S}
-4  C u0 p0 c0 {2,S} {8,D} {14,S}
-5  C u0 p0 c0 {2,D} {9,S} {15,S}
-6  C u0 p0 c0 {1,D} {10,S} {18,S}
-7  C u0 p0 c0 {3,D} {8,S} {12,S}
-8  C u0 p0 c0 {4,D} {7,S} {13,S}
-9  C u0 p0 c0 {5,S} {10,D} {16,S}
-10 C u0 p0 c0 {6,S} {9,D} {17,S}
+1  C u0 p0 c0 {2,B} {3,B} {6,B}
+2  C u0 p0 c0 {1,B} {4,B} {5,B}
+3  C u0 p0 c0 {1,B} {7,B} {11,S}
+4  C u0 p0 c0 {2,B} {8,B} {14,S}
+5  C u0 p0 c0 {2,B} {9,B} {15,S}
+6  C u0 p0 c0 {1,B} {10,B} {18,S}
+7  C u0 p0 c0 {3,B} {8,B} {12,S}
+8  C u0 p0 c0 {4,B} {7,B} {13,S}
+9  C u0 p0 c0 {5,B} {10,B} {16,S}
+10 C u0 p0 c0 {6,B} {9,B} {17,S}
 11 O u0 p2 c0 {3,S} {19,S}
 12 H u0 p0 c0 {7,S}
 13 H u0 p0 c0 {8,S}
@@ -5466,8 +5211,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    shortDesc = u"""Naphthol     T 7/98
-CAS# : 135-19-3""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -5476,20 +5220,20 @@ u"""
 
 entry(
     index = 154,
-    label = "A2CH2",
+    label = "A2CH2(154)",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {3,S} {7,D}
-2  C u0 p0 c0 {1,S} {5,S} {6,D}
-3  C u0 p0 c0 {1,S} {4,D} {11,S}
-4  C u0 p0 c0 {3,D} {8,S} {12,S}
-5  C u0 p0 c0 {2,S} {8,D} {14,S}
-6  C u0 p0 c0 {2,D} {9,S} {15,S}
-7  C u0 p0 c0 {1,D} {10,S} {18,S}
-8  C u0 p0 c0 {4,S} {5,D} {13,S}
-9  C u0 p0 c0 {6,S} {10,D} {16,S}
-10 C u0 p0 c0 {7,S} {9,D} {17,S}
+1  C u0 p0 c0 {2,B} {3,B} {7,B}
+2  C u0 p0 c0 {1,B} {5,B} {6,B}
+3  C u0 p0 c0 {1,B} {4,B} {11,S}
+4  C u0 p0 c0 {3,B} {8,B} {12,S}
+5  C u0 p0 c0 {2,B} {8,B} {14,S}
+6  C u0 p0 c0 {2,B} {9,B} {15,S}
+7  C u0 p0 c0 {1,B} {10,B} {18,S}
+8  C u0 p0 c0 {4,B} {5,B} {13,S}
+9  C u0 p0 c0 {6,B} {10,B} {16,S}
+10 C u0 p0 c0 {7,B} {9,B} {17,S}
 11 C u1 p0 c0 {3,S} {19,S} {20,S}
 12 H u0 p0 c0 {4,S}
 13 H u0 p0 c0 {8,S}
@@ -5509,9 +5253,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 7419-60-5
-DfH = 285.07 kJ/mol, Cp = 158.73 J/mol/K, S = 379.02 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -5520,21 +5262,21 @@ u"""
 
 entry(
     index = 155,
-    label = "A2CH2O",
+    label = "S(155)",
     molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
-2  C u0 p0 c0 {1,S} {3,S} {5,D}
-3  C u0 p0 c0 {2,S} {4,S} {8,D}
-4  C u0 p0 c0 {3,S} {6,S} {7,D}
-5  C u0 p0 c0 {2,D} {9,S} {15,S}
-6  C u0 p0 c0 {4,S} {9,D} {17,S}
-7  C u0 p0 c0 {4,D} {10,S} {18,S}
-8  C u0 p0 c0 {3,D} {11,S} {21,S}
-9  C u0 p0 c0 {5,S} {6,D} {16,S}
-10 C u0 p0 c0 {7,S} {11,D} {19,S}
-11 C u0 p0 c0 {8,S} {10,D} {20,S}
+2  C u0 p0 c0 {1,S} {3,B} {5,B}
+3  C u0 p0 c0 {2,B} {4,B} {8,B}
+4  C u0 p0 c0 {3,B} {6,B} {7,B}
+5  C u0 p0 c0 {2,B} {9,B} {15,S}
+6  C u0 p0 c0 {4,B} {9,B} {17,S}
+7  C u0 p0 c0 {4,B} {10,B} {18,S}
+8  C u0 p0 c0 {3,B} {11,B} {21,S}
+9  C u0 p0 c0 {5,B} {6,B} {16,S}
+10 C u0 p0 c0 {7,B} {11,B} {19,S}
+11 C u0 p0 c0 {8,B} {10,B} {20,S}
 12 O u1 p2 c0 {1,S}
 13 H u0 p0 c0 {1,S}
 14 H u0 p0 c0 {1,S}
@@ -5554,9 +5296,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : ???
-DfH = 218.04 kJ/mol, Cp = 167.93 J/mol/K, S = 419.98 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -5565,19 +5305,19 @@ u"""
 
 entry(
     index = 156,
-    label = "A2CHO",
+    label = "A2CHO(156)",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {3,S} {7,D}
-2  C u0 p0 c0 {1,S} {5,S} {6,D}
-3  C u0 p0 c0 {1,S} {4,D} {11,S}
-4  C u0 p0 c0 {3,D} {8,S} {12,S}
-5  C u0 p0 c0 {2,S} {8,D} {14,S}
-6  C u0 p0 c0 {2,D} {9,S} {15,S}
-7  C u0 p0 c0 {1,D} {10,S} {18,S}
-8  C u0 p0 c0 {4,S} {5,D} {13,S}
-9  C u0 p0 c0 {6,S} {10,D} {16,S}
-10 C u0 p0 c0 {7,S} {9,D} {17,S}
+1  C u0 p0 c0 {2,B} {3,B} {7,B}
+2  C u0 p0 c0 {1,B} {5,B} {6,B}
+3  C u0 p0 c0 {1,B} {4,B} {11,S}
+4  C u0 p0 c0 {3,B} {8,B} {12,S}
+5  C u0 p0 c0 {2,B} {8,B} {14,S}
+6  C u0 p0 c0 {2,B} {9,B} {15,S}
+7  C u0 p0 c0 {1,B} {10,B} {18,S}
+8  C u0 p0 c0 {4,B} {5,B} {13,S}
+9  C u0 p0 c0 {6,B} {10,B} {16,S}
+10 C u0 p0 c0 {7,B} {9,B} {17,S}
 11 C u0 p0 c0 {3,S} {19,D} {20,S}
 12 H u0 p0 c0 {4,S}
 13 H u0 p0 c0 {8,S}
@@ -5597,9 +5337,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""G3B3
-CAS# : 66-77-3
-DfH = 34.20 kJ/mol, Cp = 166.41 J/mol/K, S = 387.78 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -5608,20 +5346,20 @@ u"""
 
 entry(
     index = 157,
-    label = "A2O",
+    label = "A2O(157)",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {4,S} {5,D}
-2  C u0 p0 c0 {1,S} {3,S} {6,D}
-3  C u0 p0 c0 {2,S} {7,D} {11,S}
-4  C u0 p0 c0 {1,S} {8,D} {14,S}
-5  C u0 p0 c0 {1,D} {9,S} {15,S}
-6  C u0 p0 c0 {2,D} {10,S} {18,S}
-7  C u0 p0 c0 {3,D} {8,S} {12,S}
-8  C u0 p0 c0 {4,D} {7,S} {13,S}
-9  C u0 p0 c0 {5,S} {10,D} {16,S}
-10 C u0 p0 c0 {6,S} {9,D} {17,S}
+1  C u0 p0 c0 {2,B} {4,B} {5,B}
+2  C u0 p0 c0 {1,B} {3,B} {6,B}
+3  C u0 p0 c0 {2,B} {7,B} {11,S}
+4  C u0 p0 c0 {1,B} {8,B} {14,S}
+5  C u0 p0 c0 {1,B} {9,B} {15,S}
+6  C u0 p0 c0 {2,B} {10,B} {18,S}
+7  C u0 p0 c0 {3,B} {8,B} {12,S}
+8  C u0 p0 c0 {4,B} {7,B} {13,S}
+9  C u0 p0 c0 {5,B} {10,B} {16,S}
+10 C u0 p0 c0 {6,B} {9,B} {17,S}
 11 O u1 p2 c0 {3,S}
 12 H u0 p0 c0 {7,S}
 13 H u0 p0 c0 {8,S}
@@ -5639,8 +5377,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    shortDesc = u"""Napththoxy   T 7/98
-CAS# : 33490-95-8""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -5649,21 +5386,21 @@ u"""
 
 entry(
     index = 158,
-    label = "OC6H4O",
+    label = "S(158)",
     molecule = 
 """
-1  O u0 p2 c0 {3,D}
-2  O u0 p2 c0 {6,D}
-3  C u0 p0 c0 {1,D} {4,S} {8,S}
-4  C u0 p0 c0 {3,S} {5,D} {9,S}
-5  C u0 p0 c0 {4,D} {6,S} {10,S}
-6  C u0 p0 c0 {2,D} {5,S} {7,S}
-7  C u0 p0 c0 {6,S} {8,D} {11,S}
-8  C u0 p0 c0 {3,S} {7,D} {12,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {7,S}
-12 H u0 p0 c0 {8,S}
+1  C u0 p0 c0 {2,S} {6,S} {7,D}
+2  C u0 p0 c0 {1,S} {3,D} {9,S}
+3  C u0 p0 c0 {2,D} {4,S} {10,S}
+4  C u0 p0 c0 {3,S} {5,S} {8,D}
+5  C u0 p0 c0 {4,S} {6,D} {11,S}
+6  C u0 p0 c0 {1,S} {5,D} {12,S}
+7  O u0 p2 c0 {1,D}
+8  O u0 p2 c0 {4,D}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {5,S}
+12 H u0 p0 c0 {6,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5673,9 +5410,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""p-quinone  G3B3
-CAS# : 106-51-4
-DfH = -115.90 kJ/mol, Cp = 109.67 J/mol/K, S = 324.95 J/mol/K""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
 

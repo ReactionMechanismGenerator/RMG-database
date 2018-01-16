@@ -929,7 +929,7 @@ entry(
     label = "Nitro",
     group = 
 """
-1 * N   u0 {2,D} {3,S} {4,S}
+1 * N5d u0 {2,D} {3,S} {4,S}
 2   O   u0 {1,D}
 3   O   u0 {1,S}
 4   R!H ux {1,S}
@@ -962,10 +962,10 @@ entry(
     label = "Nitrates",
     group = 
 """
-1 * N u0 {2,D} {3,S} {4,S}
-2   O u0 {1,D}
-3   O u0 {1,S}
-4   O u0 {1,S}
+1 * N5d u0 {2,D} {3,S} {4,S}
+2   O   u0 {1,D}
+3   O   u0 {1,S}
+4   O   u0 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -1377,9 +1377,9 @@ L1: R!H
                 L5: Amide_ter
             L4: Nitrile
             L4: Nitroso
-                L5: Nitrites
                 L5: Nitro
                     L6: Nitrates
+                L5: Nitrites
     L2: R!Hx1
         L3: C_R1
             L4: RsCH2r

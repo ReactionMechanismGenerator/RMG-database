@@ -23,7 +23,7 @@ entry(
 
 entry(
     index = 2,
-    label = "XSR3J_S;SsJ-3-Cs;S-HC",
+    label = "XSR3J_S_Cs;SsJ;S-H",
     kinetics = ArrheniusEP(
         A = (5.42e+09, 's^-1'),
         n = 1.1,
@@ -38,7 +38,7 @@ entry(
 
 entry(
     index = 3,
-    label = "XSR3J_S;CsJ-3-CsHH;S-HC",
+    label = "XSR3J_S_Cs;CsJ-HH;S-H",
     kinetics = ArrheniusEP(
         A = (9.34e+10, 's^-1'),
         n = 0.6,
@@ -53,7 +53,7 @@ entry(
 
 entry(
     index = 4,
-    label = "XSR3J_S;CsJ-3-SsHH;S-HSs",
+    label = "XSR3J_S_Ss;CsJ-HH;S-H",
     kinetics = ArrheniusEP(
         A = (3.04e+11, 's^-1'),
         n = 0.5,
@@ -68,7 +68,7 @@ entry(
 
 entry(
     index = 5,
-    label = "XSR3J_S;SsJ-3-Cs;S-Cs(HHH)C",
+    label = "XSR3J_S_Ss;SsJ;S-H",
     kinetics = ArrheniusEP(
         A = (9.65e+11, 's^-1'),
         n = 1.1,
@@ -83,7 +83,7 @@ entry(
 
 entry(
     index = 6,
-    label = "XSR3J_S;CsJ-3-SsHH;S-Cs(HHH)Ss",
+    label = "XSR3J_S_Ss;CsJ-HH;S-Cs(HHH)",
     kinetics = ArrheniusEP(
         A = (1.76e+12, 's^-1'),
         n = 0.2,
@@ -98,7 +98,7 @@ entry(
 
 entry(
     index = 7,
-    label = "XSR3J_S;CsJ-3-SsHH;S-Ss(H)Ss",
+    label = "XSR3J_S_Ss;CsJ-HH;S-Ss(H)",
     kinetics = ArrheniusEP(
         A = (2.65e+12, 's^-1'),
         n = 0.1,
@@ -113,7 +113,7 @@ entry(
 
 entry(
     index = 8,
-    label = "XSR5J_SSS;CsJ-CsCsH;S-Cs(NonDe)C",
+    label = "XSR5J_SSS_CsRCs;CsJ-CsH;S-Cs(NonDe)",
     kinetics = ArrheniusEP(
         A = (27000, 's^-1'),
         n = 0,
@@ -128,7 +128,7 @@ entry(
 
 entry(
     index = 9,
-    label = "XSR6J_SSSS;CsJ-CsCsH;S-Cs(NonDe)C",
+    label = "XSR6J_SSSS_CsRRCs;CsJ-CsH;S-Cs(NonDe)",
     kinetics = ArrheniusEP(
         A = (270, 's^-1'),
         n = 0,

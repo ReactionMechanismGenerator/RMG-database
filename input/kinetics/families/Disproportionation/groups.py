@@ -14,9 +14,9 @@ template(reactants=["Y_rad_birad_trirad_quadrad", "XH_Rrad_birad"], products=["Y
 reverse = "Molecular_Addition"
 
 recipe(actions=[
-    ['FORM_BOND', '*1', 'S', '*4'],
-    ['BREAK_BOND', '*2', 'S', '*4'],
-    ['CHANGE_BOND', '*2', '1', '*3'],
+    ['FORM_BOND', '*1', 1, '*4'],
+    ['BREAK_BOND', '*2', 1, '*4'],
+    ['CHANGE_BOND', '*2', 1, '*3'],
     ['LOSE_RADICAL', '*1', '1'],
     ['LOSE_RADICAL', '*3', '1'],
 ])
@@ -24,7 +24,7 @@ recipe(actions=[
 entry(
     index = 1,
     label = "Y_rad_birad_trirad_quadrad",
-    group = "OR{Y_1centerquadrad, Y_1centertrirad, Y_2centerbirad, Y_1centerbirad, Y_rad, H_rad}",
+    group = "OR{Y_1centerquadrad, Y_1centertrirad, Y_2centerbirad, Y_1centerbirad, Y_rad}",
     kinetics = None,
 )
 
@@ -1208,21 +1208,44 @@ entry(
 )
 
 entry(
-    index = 232,
+    index = 301,
     label = "N5_rad",
-    group = 
+    group =
 """
-1 *1 [N5d,N5dd,N5t] u1
+1 *1 [N5s,N5d,N5dd,N5t,N5b] u1
 """,
     kinetics = None,
 )
 
 entry(
-    index = 233,
-    label = "N5d_rad",
-    group = 
+    index = 302,
+    label = "N5s_rad",
+    group =
 """
-1 *1 N5d u1
+1 *1 N5s u1 p0
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 303,
+    label = "N5d_rad",
+    group =
+"""
+1 *1 N5d u1 p0 c+1 {2,D} {3,S}
+2    R!H u0 px c0  {1,D}
+3    R!H u0 px c-1 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 304,
+    label = "N5t_rad",
+    group =
+"""
+1 *1 N5t u1 p0 cx {2,T}
+2    R!H ux px cx {1,T}
 """,
     kinetics = None,
 )
@@ -2695,13 +2718,13 @@ entry(
 
 entry(
     index = 288,
-    label = "Cd_Cdrad",
+    label = "Cds/H/R!H",
     group = 
 """
-1 *2 Cd u0 {2,D} {3,S}
-2 *3 Cd u1 {1,D}
-3 *4 H u0 {1,S}
-
+1 *2 C   u0 {2,D} {3,S} {4,S}
+2 *3 R!H u1 {1,D}
+3 *4 H   u0 {1,S}
+4    R!H u0 {1,S}
 """,
     kinetics = None,
 )
@@ -2727,6 +2750,7 @@ L1: Y_rad_birad_trirad_quadrad
         L3: CH2_triplet
         L3: NH_triplet
     L2: Y_rad
+        L3: H_rad
         L3: Ct_rad
             L4: Ct_rad/Ct
             L4: Ct_rad/Nt
@@ -2809,8 +2833,9 @@ L1: Y_rad_birad_trirad_quadrad
                 L5: N3d_rad/O
                 L5: N3d_rad/N
         L3: N5_rad
+            L4: N5s_rad
             L4: N5d_rad
-        L3: H_rad
+            L4: N5t_rad
 L1: XH_Rrad_birad
     L2: XH_Rrad
         L3: XH_s_Rrad
@@ -2895,7 +2920,6 @@ L1: XH_Rrad_birad
                 L5: N5H_s_Rrad
         L3: XH_d_Rrad
             L4: CH_d_Rrad
-                L5: Cd_Cdrad
                 L5: Cds/H2_d_Rrad
                     L6: Cds/H2_d_Crad
                     L6: Cds/H2_d_N3rad
@@ -2905,8 +2929,9 @@ L1: XH_Rrad_birad
                             L8: Cds/H2_d_N5ddrad/C
                             L8: Cds/H2_d_N5ddrad/O
                             L8: Cds/H2_d_N5ddrad/N
-                L5: Cds/H/NonDe_d_Rrad
-                L5: Cds/H/Deloc_d_Rrad
+                L5: Cds/H/R!H
+                    L6: Cds/H/NonDe_d_Rrad
+                    L6: Cds/H/Deloc_d_Rrad
             L4: NH_d_Rrad
                 L5: N3d/H_d_Rrad
                     L6: N3d/H_d_Crad

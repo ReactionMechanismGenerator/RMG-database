@@ -12,10 +12,10 @@ template(reactants=["doublebond", "R_SR"], products=["R_singlebond_SR"], ownReve
 reverse = "1,2_Elimination_RSR"
 
 recipe(actions=[
-    ['BREAK_BOND', '*3', 'S', '*4'],
-    ['CHANGE_BOND', '*1', '-1', '*2'],
-    ['FORM_BOND', '*1', 'S', '*3'],
-    ['FORM_BOND', '*2', 'S', '*4'],
+    ['BREAK_BOND', '*3', 1, '*4'],
+    ['CHANGE_BOND', '*1', -1, '*2'],
+    ['FORM_BOND', '*1', 1, '*3'],
+    ['FORM_BOND', '*2', 1, '*4'],
 ])
 
 entry(
@@ -943,7 +943,7 @@ entry(
 """
 1 *1 Od  u0 {2,D}
 2 *2 Cdd u0 {1,D} {3,D}
-3    R   u0 {2,D}
+3    R!H   u0 {2,D}
 """,
     kinetics = None,
 )
@@ -1144,7 +1144,7 @@ entry(
 """
 1 *1 Sd  u0 {2,D}
 2 *2 Cdd u0 {1,D} {3,D}
-3    R   u0 {2,D}
+3    R!H   u0 {2,D}
 """,
     kinetics = None,
 )

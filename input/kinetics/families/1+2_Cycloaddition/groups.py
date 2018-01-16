@@ -12,9 +12,9 @@ template(reactants=["multiplebond", "elec_def"], products=["cycle"], ownReverse=
 reverse = "Three_Ring_Cleavage"
 
 recipe(actions=[
-    ['CHANGE_BOND', '*1', '-1', '*2'],
-    ['FORM_BOND', '*1', 'S', '*3'],
-    ['FORM_BOND', '*2', 'S', '*3'],
+    ['CHANGE_BOND', '*1', -1, '*2'],
+    ['FORM_BOND', '*1', 1, '*3'],
+    ['FORM_BOND', '*2', 1, '*3'],
     ['LOSE_PAIR', '*3', '1'],
 ])
 
@@ -109,7 +109,7 @@ entry(
     label = "imidogen_singlet",
     group = 
 """
-1 *3 N3s u0 p2 {2,S}
+1 *3 N1s u0 p2 {2,S}
 2    H   u0 {1,S}
 """,
     kinetics = None,

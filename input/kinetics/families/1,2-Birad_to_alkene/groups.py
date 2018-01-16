@@ -12,7 +12,7 @@ template(reactants=["Y_12birad"], products=["Y_alkene"], ownReverse=False)
 reverse = "Alkene_to_1,2-birad"
 
 recipe(actions=[
-    ['CHANGE_BOND', '*1', '1', '*2'],
+    ['CHANGE_BOND', '*1', 1, '*2'],
     ['LOSE_RADICAL', '*1', '1'],
     ['LOSE_RADICAL', '*2', '1'],
 ])

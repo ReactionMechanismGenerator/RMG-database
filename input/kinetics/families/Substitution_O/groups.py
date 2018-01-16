@@ -4,14 +4,14 @@
 name = "Substitution_O/groups"
 shortDesc = u""
 longDesc = u"""
-The reacting site *3 must be a triplet for this reaction family.
+If a birad, the reacting site *3 must be a triplet instead of singlet for this reaction family.
 """
 
 template(reactants=["O-RR_or_RRrad", "YJ"], products=["O-RR_or_RRrad", "YJ"], ownReverse=True)
 
 recipe(actions=[
-    ['BREAK_BOND', '*1', 'S', '*2'],
-    ['FORM_BOND', '*1', 'S', '*3'],
+    ['BREAK_BOND', '*1', 1, '*2'],
+    ['FORM_BOND', '*1', 1, '*3'],
     ['GAIN_RADICAL', '*2', '1'],
     ['LOSE_RADICAL', '*3', '1'],
 ])
@@ -3132,7 +3132,7 @@ entry(
     group = 
 """
 1 *1 Os u0 {2,S} {3,S}
-2 *2 R  u1 {1,S}
+2 *2 R!H  u1 {1,S}
 3    R  u0 {1,S}
 """,
     kinetics = None,
@@ -4108,8 +4108,8 @@ entry(
     label = "Y_2centeradjbirad",
     group = 
 """
-1 *3 [Ct,Os] u1 {2,[S,T]}
-2    [Ct,Os] u1 {1,[S,T]}
+1 *3 [Os,Ct] u1 {2,[S,T]}
+2    [Os,Ct] u1 {1,[S,T]}
 """,
     kinetics = None,
 )
@@ -4468,6 +4468,9 @@ L1: O-RR_or_RRrad
             L4: O-Os(Os)Os(Os)
     L2: O-RRrad
 L1: YJ
+    L2: Y_2centeradjbirad
+        L3: O2b
+        L3: C2b
     L2: Y_1centerbirad
     L2: HJ
     L2: CJ
@@ -4544,9 +4547,6 @@ L1: YJ
                     L6: CsJ-CdCdCs
                 L5: CsJ-TwoDeOs
             L4: CsJ-ThreeDe
-    L2: Y_2centeradjbirad
-        L3: O2b
-        L3: C2b
     L2: OJ
         L3: OsJ
             L4: OsJ-H

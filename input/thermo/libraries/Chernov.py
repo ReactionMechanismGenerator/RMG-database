@@ -2,10 +2,13 @@
 # encoding: utf-8
 
 name = "Chernov"
-shortDesc = u""
+shortDesc = u"Thermo from 2014 Chernov et al. Combustion and Flame mechanism"
 longDesc = u"""
-Chernov, V.; Thomson, M. J.; Dworkin, S. B.; Slavinskaya, N. A.; Riedel, U., 
-Soot formation with C1 and C2 fuels using an improved chemical mechanism for PAH growth. Combust. Flame 2014, 161, 592-601
+Includes thermo for species from the mechanism in:
+V. Chernov, et al., 
+Soot Formation with C1 and C2 Fuels Using an Improved Chemical Mechanism for PAH growth
+Combustion and Flame 161 (2014) 592-601
+except for CH2HCO, which was found to have innacurate thermo and removed
 """
 entry(
     index = 1,
@@ -555,8 +558,8 @@ entry(
     label = "CH",
     molecule = 
 """
-multiplicity 4
-1 C u3 p0 c0 {2,S}
+multiplicity 2
+1 C u1 p1 c0 {2,S}
 2 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
@@ -1053,45 +1056,17 @@ u"""
 )
 
 entry(
-    index = 41,
-    label = "CH2HCO",
-    molecule = 
-"""
-multiplicity 2
-1 C u0 p0 c0 {2,D} {4,S} {5,S}
-2 C u0 p0 c0 {1,D} {3,S} {6,S}
-3 O u1 p2 c0 {2,S}
-4 H u0 p0 c0 {1,S}
-5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {2,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[4.03587,0.000877295,3.071e-05,-3.92476e-08,2.86739e-12,1521.48,9.55829], Tmin=(298,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[5.31372,0.00917378,-3.32204e-06,5.39475e-10,-3.24524e-14,-3645.04,-1.67576], Tmin=(1000,'K'), Tmax=(5000,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (5000,'K'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 42,
     label = "CH3CO",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 C u1 p0 c0 {1,S} {6,D}
-3 H u0 p0 c0 {1,S}
-4 H u0 p0 c0 {1,S}
-5 H u0 p0 c0 {1,S}
-6 O u0 p2 c0 {2,D}
+1 O u0 p2 c0 {2,D}
+2 C u1 p0 c0 {1,D} {3,S}
+3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+4 H u0 p0 c0 {3,S}
+5 H u0 p0 c0 {3,S}
+6 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1600,12 +1575,12 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {3,S} {7,S}
-2  C u0 p0 c0 {1,D} {4,S} {9,S}
-3  C u0 p0 c0 {1,S} {6,D} {13,S}
-4  C u0 p0 c0 {2,S} {5,D} {10,S}
-5  C u0 p0 c0 {4,D} {6,S} {11,S}
-6  C u0 p0 c0 {3,D} {5,S} {12,S}
+1  C u0 p0 c0 {2,B} {3,B} {7,S}
+2  C u0 p0 c0 {1,B} {4,B} {9,S}
+3  C u0 p0 c0 {1,B} {6,B} {13,S}
+4  C u0 p0 c0 {2,B} {5,B} {10,S}
+5  C u0 p0 c0 {4,B} {6,B} {11,S}
+6  C u0 p0 c0 {3,B} {5,B} {12,S}
 7  C u0 p0 c0 {1,S} {8,D} {14,S}
 8  C u1 p0 c0 {7,D} {15,S}
 9  H u0 p0 c0 {2,S}
@@ -1707,16 +1682,16 @@ entry(
     label = "A2",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {3,D} {4,S}
-2  C u0 p0 c0 {1,S} {5,S} {6,D}
-3  C u0 p0 c0 {1,D} {8,S} {13,S}
-4  C u0 p0 c0 {1,S} {9,D} {14,S}
-5  C u0 p0 c0 {2,S} {10,D} {17,S}
-6  C u0 p0 c0 {2,D} {7,S} {18,S}
-7  C u0 p0 c0 {6,S} {8,D} {11,S}
-8  C u0 p0 c0 {3,S} {7,D} {12,S}
-9  C u0 p0 c0 {4,D} {10,S} {15,S}
-10 C u0 p0 c0 {5,D} {9,S} {16,S}
+1  C u0 p0 c0 {2,B} {3,B} {4,B}
+2  C u0 p0 c0 {1,B} {5,B} {6,B}
+3  C u0 p0 c0 {1,B} {8,B} {13,S}
+4  C u0 p0 c0 {1,B} {9,B} {14,S}
+5  C u0 p0 c0 {2,B} {10,B} {17,S}
+6  C u0 p0 c0 {2,B} {7,B} {18,S}
+7  C u0 p0 c0 {6,B} {8,B} {11,S}
+8  C u0 p0 c0 {3,B} {7,B} {12,S}
+9  C u0 p0 c0 {4,B} {10,B} {15,S}
+10 C u0 p0 c0 {5,B} {9,B} {16,S}
 11 H u0 p0 c0 {7,S}
 12 H u0 p0 c0 {8,S}
 13 H u0 p0 c0 {3,S}
@@ -1747,16 +1722,16 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {3,S} {5,D}
-2  C u0 p0 c0 {1,S} {4,S} {8,D}
-3  C u0 p0 c0 {1,S} {6,D} {12,S}
-4  C u0 p0 c0 {2,S} {7,D} {15,S}
-5  C u0 p0 c0 {1,D} {9,S} {11,S}
-6  C u0 p0 c0 {3,D} {7,S} {13,S}
-7  C u0 p0 c0 {4,D} {6,S} {14,S}
-8  C u0 p0 c0 {2,D} {10,S} {17,S}
-9  C u0 p0 c0 {5,S} {10,D} {16,S}
-10 C u1 p0 c0 {8,S} {9,D}
+1  C u0 p0 c0 {2,B} {3,B} {5,B}
+2  C u0 p0 c0 {1,B} {4,B} {8,B}
+3  C u0 p0 c0 {1,B} {6,B} {12,S}
+4  C u0 p0 c0 {2,B} {7,B} {15,S}
+5  C u0 p0 c0 {1,B} {9,B} {11,S}
+6  C u0 p0 c0 {3,B} {7,B} {13,S}
+7  C u0 p0 c0 {4,B} {6,B} {14,S}
+8  C u0 p0 c0 {2,B} {10,B} {17,S}
+9  C u0 p0 c0 {5,B} {10,B} {16,S}
+10 C u1 p0 c0 {8,B} {9,B}
 11 H u0 p0 c0 {5,S}
 12 H u0 p0 c0 {3,S}
 13 H u0 p0 c0 {6,S}
@@ -1948,16 +1923,16 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {4,D} {5,S}
-2  C u0 p0 c0 {1,S} {6,S} {10,D}
-3  C u0 p0 c0 {4,S} {9,D} {11,S}
-4  C u0 p0 c0 {1,D} {3,S} {17,S}
-5  C u0 p0 c0 {1,S} {8,D} {16,S}
-6  C u0 p0 c0 {2,S} {7,D} {13,S}
-7  C u0 p0 c0 {6,D} {8,S} {14,S}
-8  C u0 p0 c0 {5,D} {7,S} {15,S}
-9  C u0 p0 c0 {3,D} {10,S} {18,S}
-10 C u1 p0 c0 {2,D} {9,S}
+1  C u0 p0 c0 {2,B} {4,B} {5,B}
+2  C u0 p0 c0 {1,B} {6,B} {10,B}
+3  C u0 p0 c0 {4,B} {9,B} {11,S}
+4  C u0 p0 c0 {1,B} {3,B} {17,S}
+5  C u0 p0 c0 {1,B} {8,B} {16,S}
+6  C u0 p0 c0 {2,B} {7,B} {13,S}
+7  C u0 p0 c0 {6,B} {8,B} {14,S}
+8  C u0 p0 c0 {5,B} {7,B} {15,S}
+9  C u0 p0 c0 {3,B} {10,B} {18,S}
+10 C u1 p0 c0 {2,B} {9,B}
 11 C u0 p0 c0 {3,S} {12,T}
 12 C u0 p0 c0 {11,T} {19,S}
 13 H u0 p0 c0 {6,S}
@@ -1988,18 +1963,18 @@ entry(
     label = "A2R5",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {3,S} {4,D}
-2  C u0 p0 c0 {1,S} {6,S} {7,D}
-3  C u0 p0 c0 {1,S} {8,S} {9,D}
-4  C u0 p0 c0 {1,D} {5,S} {10,S}
+1  C u0 p0 c0 {2,B} {3,B} {4,B}
+2  C u0 p0 c0 {1,B} {6,S} {7,B}
+3  C u0 p0 c0 {1,B} {8,B} {9,B}
+4  C u0 p0 c0 {1,B} {5,S} {10,B}
 5  C u0 p0 c0 {4,S} {6,D} {13,S}
 6  C u0 p0 c0 {2,S} {5,D} {14,S}
-7  C u0 p0 c0 {2,D} {11,S} {15,S}
-8  C u0 p0 c0 {3,S} {11,D} {17,S}
-9  C u0 p0 c0 {3,D} {12,S} {18,S}
-10 C u0 p0 c0 {4,S} {12,D} {20,S}
-11 C u0 p0 c0 {7,S} {8,D} {16,S}
-12 C u0 p0 c0 {9,S} {10,D} {19,S}
+7  C u0 p0 c0 {2,B} {11,B} {15,S}
+8  C u0 p0 c0 {3,B} {11,B} {17,S}
+9  C u0 p0 c0 {3,B} {12,B} {18,S}
+10 C u0 p0 c0 {4,B} {12,B} {20,S}
+11 C u0 p0 c0 {7,B} {8,B} {16,S}
+12 C u0 p0 c0 {9,B} {10,B} {19,S}
 13 H u0 p0 c0 {5,S}
 14 H u0 p0 c0 {6,S}
 15 H u0 p0 c0 {7,S}
@@ -2029,16 +2004,16 @@ entry(
     label = "A2C2H",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {5,D} {6,S}
-2  C u0 p0 c0 {1,S} {4,D} {7,S}
-3  C u0 p0 c0 {4,S} {8,D} {11,S}
-4  C u0 p0 c0 {2,D} {3,S} {19,S}
-5  C u0 p0 c0 {1,D} {8,S} {14,S}
-6  C u0 p0 c0 {1,S} {9,D} {15,S}
-7  C u0 p0 c0 {2,S} {10,D} {18,S}
-8  C u0 p0 c0 {3,D} {5,S} {13,S}
-9  C u0 p0 c0 {6,D} {10,S} {16,S}
-10 C u0 p0 c0 {7,D} {9,S} {17,S}
+1  C u0 p0 c0 {2,B} {5,B} {6,B}
+2  C u0 p0 c0 {1,B} {4,B} {7,B}
+3  C u0 p0 c0 {4,B} {8,B} {11,S}
+4  C u0 p0 c0 {2,B} {3,B} {19,S}
+5  C u0 p0 c0 {1,B} {8,B} {14,S}
+6  C u0 p0 c0 {1,B} {9,B} {15,S}
+7  C u0 p0 c0 {2,B} {10,B} {18,S}
+8  C u0 p0 c0 {3,B} {5,B} {13,S}
+9  C u0 p0 c0 {6,B} {10,B} {16,S}
+10 C u0 p0 c0 {7,B} {9,B} {17,S}
 11 C u0 p0 c0 {3,S} {12,T}
 12 C u0 p0 c0 {11,T} {20,S}
 13 H u0 p0 c0 {8,S}
@@ -2071,18 +2046,18 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {3,D} {4,S}
-2  C u0 p0 c0 {1,S} {6,S} {7,D}
-3  C u0 p0 c0 {1,D} {5,S} {10,S}
-4  C u0 p0 c0 {1,S} {8,S} {11,D}
+1  C u0 p0 c0 {2,B} {3,B} {4,B}
+2  C u0 p0 c0 {1,B} {6,S} {7,B}
+3  C u0 p0 c0 {1,B} {5,S} {10,B}
+4  C u0 p0 c0 {1,B} {8,B} {11,B}
 5  C u0 p0 c0 {3,S} {6,D} {13,S}
 6  C u0 p0 c0 {2,S} {5,D} {14,S}
-7  C u0 p0 c0 {2,D} {9,S} {15,S}
-8  C u0 p0 c0 {4,S} {9,D} {17,S}
-9  C u0 p0 c0 {7,S} {8,D} {16,S}
-10 C u0 p0 c0 {3,S} {12,D} {18,S}
-11 C u0 p0 c0 {4,D} {12,S} {19,S}
-12 C u1 p0 c0 {10,D} {11,S}
+7  C u0 p0 c0 {2,B} {9,B} {15,S}
+8  C u0 p0 c0 {4,B} {9,B} {17,S}
+9  C u0 p0 c0 {7,B} {8,B} {16,S}
+10 C u0 p0 c0 {3,B} {12,B} {18,S}
+11 C u0 p0 c0 {4,B} {12,B} {19,S}
+12 C u1 p0 c0 {10,B} {11,B}
 13 H u0 p0 c0 {5,S}
 14 H u0 p0 c0 {6,S}
 15 H u0 p0 c0 {7,S}
@@ -2111,20 +2086,20 @@ entry(
     label = "A3",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {3,S} {5,D}
-2  C u0 p0 c0 {1,S} {4,S} {10,D}
-3  C u0 p0 c0 {1,S} {6,D} {7,S}
-4  C u0 p0 c0 {2,S} {8,S} {9,D}
-5  C u0 p0 c0 {1,D} {12,S} {17,S}
-6  C u0 p0 c0 {3,D} {11,S} {18,S}
-7  C u0 p0 c0 {3,S} {8,D} {19,S}
-8  C u0 p0 c0 {4,S} {7,D} {20,S}
-9  C u0 p0 c0 {4,D} {13,S} {21,S}
-10 C u0 p0 c0 {2,D} {14,S} {24,S}
-11 C u0 p0 c0 {6,S} {12,D} {15,S}
-12 C u0 p0 c0 {5,S} {11,D} {16,S}
-13 C u0 p0 c0 {9,S} {14,D} {22,S}
-14 C u0 p0 c0 {10,S} {13,D} {23,S}
+1  C u0 p0 c0 {2,B} {3,B} {5,B}
+2  C u0 p0 c0 {1,B} {4,B} {10,B}
+3  C u0 p0 c0 {1,B} {6,B} {7,B}
+4  C u0 p0 c0 {2,B} {8,B} {9,B}
+5  C u0 p0 c0 {1,B} {12,B} {17,S}
+6  C u0 p0 c0 {3,B} {11,B} {18,S}
+7  C u0 p0 c0 {3,B} {8,B} {19,S}
+8  C u0 p0 c0 {4,B} {7,B} {20,S}
+9  C u0 p0 c0 {4,B} {13,B} {21,S}
+10 C u0 p0 c0 {2,B} {14,B} {24,S}
+11 C u0 p0 c0 {6,B} {12,B} {15,S}
+12 C u0 p0 c0 {5,B} {11,B} {16,S}
+13 C u0 p0 c0 {9,B} {14,B} {22,S}
+14 C u0 p0 c0 {10,B} {13,B} {23,S}
 15 H u0 p0 c0 {11,S}
 16 H u0 p0 c0 {12,S}
 17 H u0 p0 c0 {5,S}
@@ -2157,20 +2132,20 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {4,D} {9,S}
-2  C u0 p0 c0 {1,S} {7,D} {8,S}
-3  C u0 p0 c0 {4,S} {5,S} {6,D}
-4  C u0 p0 c0 {1,D} {3,S} {14,S}
-5  C u0 p0 c0 {3,S} {12,D} {16,S}
-6  C u0 p0 c0 {3,D} {7,S} {17,S}
-7  C u0 p0 c0 {2,D} {6,S} {18,S}
-8  C u0 p0 c0 {2,S} {10,D} {19,S}
-9  C u0 p0 c0 {1,S} {11,D} {22,S}
-10 C u0 p0 c0 {8,D} {11,S} {20,S}
-11 C u0 p0 c0 {9,D} {10,S} {21,S}
-12 C u0 p0 c0 {5,D} {13,S} {15,S}
-13 C u0 p0 c0 {12,S} {14,D} {23,S}
-14 C u1 p0 c0 {4,S} {13,D}
+1  C u0 p0 c0 {2,B} {4,B} {9,B}
+2  C u0 p0 c0 {1,B} {7,B} {8,B}
+3  C u0 p0 c0 {4,B} {5,B} {6,B}
+4  C u0 p0 c0 {1,B} {3,B} {14,B}
+5  C u0 p0 c0 {3,B} {12,B} {16,S}
+6  C u0 p0 c0 {3,B} {7,B} {17,S}
+7  C u0 p0 c0 {2,B} {6,B} {18,S}
+8  C u0 p0 c0 {2,B} {10,B} {19,S}
+9  C u0 p0 c0 {1,B} {11,B} {22,S}
+10 C u0 p0 c0 {8,B} {11,B} {20,S}
+11 C u0 p0 c0 {9,B} {10,B} {21,S}
+12 C u0 p0 c0 {5,B} {13,B} {15,S}
+13 C u0 p0 c0 {12,B} {14,B} {23,S}
+14 C u1 p0 c0 {4,B} {13,B}
 15 H u0 p0 c0 {12,S}
 16 H u0 p0 c0 {5,S}
 17 H u0 p0 c0 {6,S}
@@ -2201,22 +2176,22 @@ entry(
     label = "A4",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {3,S} {6,S}
-2  C u0 p0 c0 {1,D} {4,S} {5,S}
-3  C u0 p0 c0 {1,S} {7,S} {8,D}
-4  C u0 p0 c0 {2,S} {9,D} {10,S}
-5  C u0 p0 c0 {2,S} {11,D} {12,S}
-6  C u0 p0 c0 {1,S} {13,S} {14,D}
-7  C u0 p0 c0 {3,S} {15,D} {18,S}
-8  C u0 p0 c0 {3,D} {9,S} {19,S}
-9  C u0 p0 c0 {4,D} {8,S} {20,S}
-10 C u0 p0 c0 {4,S} {16,D} {21,S}
-11 C u0 p0 c0 {5,D} {16,S} {23,S}
-12 C u0 p0 c0 {5,S} {13,D} {24,S}
-13 C u0 p0 c0 {6,S} {12,D} {25,S}
-14 C u0 p0 c0 {6,D} {15,S} {26,S}
-15 C u0 p0 c0 {7,D} {14,S} {17,S}
-16 C u0 p0 c0 {10,D} {11,S} {22,S}
+1  C u0 p0 c0 {2,B} {3,B} {6,B}
+2  C u0 p0 c0 {1,B} {4,B} {5,B}
+3  C u0 p0 c0 {1,B} {7,B} {8,B}
+4  C u0 p0 c0 {2,B} {9,B} {10,B}
+5  C u0 p0 c0 {2,B} {11,B} {12,B}
+6  C u0 p0 c0 {1,B} {13,B} {14,B}
+7  C u0 p0 c0 {3,B} {15,B} {18,S}
+8  C u0 p0 c0 {3,B} {9,B} {19,S}
+9  C u0 p0 c0 {4,B} {8,B} {20,S}
+10 C u0 p0 c0 {4,B} {16,B} {21,S}
+11 C u0 p0 c0 {5,B} {16,B} {23,S}
+12 C u0 p0 c0 {5,B} {13,B} {24,S}
+13 C u0 p0 c0 {6,B} {12,B} {25,S}
+14 C u0 p0 c0 {6,B} {15,B} {26,S}
+15 C u0 p0 c0 {7,B} {14,B} {17,S}
+16 C u0 p0 c0 {10,B} {11,B} {22,S}
 17 H u0 p0 c0 {15,S}
 18 H u0 p0 c0 {7,S}
 19 H u0 p0 c0 {8,S}
@@ -2249,22 +2224,22 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {4,S} {5,S}
-2  C u0 p0 c0 {1,D} {3,S} {6,S}
-3  C u0 p0 c0 {2,S} {7,S} {12,D}
-4  C u0 p0 c0 {1,S} {8,S} {9,D}
-5  C u0 p0 c0 {1,S} {10,S} {11,D}
-6  C u0 p0 c0 {2,S} {13,D} {16,S}
-7  C u0 p0 c0 {3,S} {8,D} {18,S}
-8  C u0 p0 c0 {4,S} {7,D} {19,S}
-9  C u0 p0 c0 {4,D} {14,S} {20,S}
-10 C u0 p0 c0 {5,S} {14,D} {22,S}
-11 C u0 p0 c0 {5,D} {13,S} {23,S}
-12 C u0 p0 c0 {3,D} {15,S} {17,S}
-13 C u0 p0 c0 {6,D} {11,S} {24,S}
-14 C u0 p0 c0 {9,S} {10,D} {21,S}
-15 C u0 p0 c0 {12,S} {16,D} {25,S}
-16 C u1 p0 c0 {6,S} {15,D}
+1  C u0 p0 c0 {2,B} {4,B} {5,B}
+2  C u0 p0 c0 {1,B} {3,B} {6,B}
+3  C u0 p0 c0 {2,B} {7,B} {12,B}
+4  C u0 p0 c0 {1,B} {8,B} {9,B}
+5  C u0 p0 c0 {1,B} {10,B} {11,B}
+6  C u0 p0 c0 {2,B} {13,B} {16,B}
+7  C u0 p0 c0 {3,B} {8,B} {18,S}
+8  C u0 p0 c0 {4,B} {7,B} {19,S}
+9  C u0 p0 c0 {4,B} {14,B} {20,S}
+10 C u0 p0 c0 {5,B} {14,B} {22,S}
+11 C u0 p0 c0 {5,B} {13,B} {23,S}
+12 C u0 p0 c0 {3,B} {15,B} {17,S}
+13 C u0 p0 c0 {6,B} {11,B} {24,S}
+14 C u0 p0 c0 {9,B} {10,B} {21,S}
+15 C u0 p0 c0 {12,B} {16,B} {25,S}
+16 C u1 p0 c0 {6,B} {15,B}
 17 H u0 p0 c0 {12,S}
 18 H u0 p0 c0 {7,S}
 19 H u0 p0 c0 {8,S}
@@ -2295,24 +2270,24 @@ entry(
     label = "C18H12",
     molecule = 
 """
-1  C u0 p0 c0 {4,S} {5,S} {7,D}
-2  C u0 p0 c0 {3,D} {4,S} {10,S}
-3  C u0 p0 c0 {2,D} {6,S} {11,S}
-4  C u0 p0 c0 {1,S} {2,S} {14,D}
-5  C u0 p0 c0 {1,S} {8,D} {9,S}
-6  C u0 p0 c0 {3,S} {12,S} {13,D}
-7  C u0 p0 c0 {1,D} {16,S} {21,S}
-8  C u0 p0 c0 {5,D} {15,S} {22,S}
-9  C u0 p0 c0 {5,S} {10,D} {23,S}
-10 C u0 p0 c0 {2,S} {9,D} {24,S}
-11 C u0 p0 c0 {3,S} {17,D} {25,S}
-12 C u0 p0 c0 {6,S} {18,D} {28,S}
-13 C u0 p0 c0 {6,D} {14,S} {29,S}
-14 C u0 p0 c0 {4,D} {13,S} {30,S}
-15 C u0 p0 c0 {8,S} {16,D} {19,S}
-16 C u0 p0 c0 {7,S} {15,D} {20,S}
-17 C u0 p0 c0 {11,D} {18,S} {26,S}
-18 C u0 p0 c0 {12,D} {17,S} {27,S}
+1  C u0 p0 c0 {4,B} {5,B} {7,B}
+2  C u0 p0 c0 {3,B} {4,B} {10,B}
+3  C u0 p0 c0 {2,B} {6,B} {11,B}
+4  C u0 p0 c0 {1,B} {2,B} {14,B}
+5  C u0 p0 c0 {1,B} {8,B} {9,B}
+6  C u0 p0 c0 {3,B} {12,B} {13,B}
+7  C u0 p0 c0 {1,B} {16,B} {21,S}
+8  C u0 p0 c0 {5,B} {15,B} {22,S}
+9  C u0 p0 c0 {5,B} {10,B} {23,S}
+10 C u0 p0 c0 {2,B} {9,B} {24,S}
+11 C u0 p0 c0 {3,B} {17,B} {25,S}
+12 C u0 p0 c0 {6,B} {18,B} {28,S}
+13 C u0 p0 c0 {6,B} {14,B} {29,S}
+14 C u0 p0 c0 {4,B} {13,B} {30,S}
+15 C u0 p0 c0 {8,B} {16,B} {19,S}
+16 C u0 p0 c0 {7,B} {15,B} {20,S}
+17 C u0 p0 c0 {11,B} {18,B} {26,S}
+18 C u0 p0 c0 {12,B} {17,B} {27,S}
 19 H u0 p0 c0 {15,S}
 20 H u0 p0 c0 {16,S}
 21 H u0 p0 c0 {7,S}
@@ -2347,24 +2322,24 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {3,D} {5,S} {7,S}
-2  C u0 p0 c0 {3,S} {4,S} {10,D}
-3  C u0 p0 c0 {1,D} {2,S} {17,S}
-4  C u0 p0 c0 {2,S} {6,S} {11,D}
-5  C u0 p0 c0 {1,S} {8,S} {9,D}
-6  C u0 p0 c0 {4,S} {12,D} {18,S}
-7  C u0 p0 c0 {1,S} {13,D} {19,S}
-8  C u0 p0 c0 {5,S} {14,D} {22,S}
-9  C u0 p0 c0 {5,D} {10,S} {23,S}
-10 C u0 p0 c0 {2,D} {9,S} {24,S}
-11 C u0 p0 c0 {4,D} {15,S} {25,S}
-12 C u0 p0 c0 {6,D} {16,S} {28,S}
-13 C u0 p0 c0 {7,D} {14,S} {20,S}
-14 C u0 p0 c0 {8,D} {13,S} {21,S}
-15 C u0 p0 c0 {11,S} {16,D} {26,S}
-16 C u0 p0 c0 {12,S} {15,D} {27,S}
-17 C u0 p0 c0 {3,S} {18,D} {29,S}
-18 C u1 p0 c0 {6,S} {17,D}
+1  C u0 p0 c0 {3,B} {5,B} {7,B}
+2  C u0 p0 c0 {3,B} {4,B} {10,B}
+3  C u0 p0 c0 {1,B} {2,B} {17,B}
+4  C u0 p0 c0 {2,B} {6,B} {11,B}
+5  C u0 p0 c0 {1,B} {8,B} {9,B}
+6  C u0 p0 c0 {4,B} {12,B} {18,B}
+7  C u0 p0 c0 {1,B} {13,B} {19,S}
+8  C u0 p0 c0 {5,B} {14,B} {22,S}
+9  C u0 p0 c0 {5,B} {10,B} {23,S}
+10 C u0 p0 c0 {2,B} {9,B} {24,S}
+11 C u0 p0 c0 {4,B} {15,B} {25,S}
+12 C u0 p0 c0 {6,B} {16,B} {28,S}
+13 C u0 p0 c0 {7,B} {14,B} {20,S}
+14 C u0 p0 c0 {8,B} {13,B} {21,S}
+15 C u0 p0 c0 {11,B} {16,B} {26,S}
+16 C u0 p0 c0 {12,B} {15,B} {27,S}
+17 C u0 p0 c0 {3,B} {18,B} {29,S}
+18 C u1 p0 c0 {6,B} {17,B}
 19 H u0 p0 c0 {7,S}
 20 H u0 p0 c0 {13,S}
 21 H u0 p0 c0 {14,S}
@@ -2397,20 +2372,20 @@ entry(
     label = "A3C2H",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {3,S} {7,D}
-2  C u0 p0 c0 {1,S} {4,S} {11,D}
-3  C u0 p0 c0 {1,S} {6,D} {8,S}
-4  C u0 p0 c0 {2,S} {9,S} {10,D}
-5  C u0 p0 c0 {6,S} {12,D} {15,S}
-6  C u0 p0 c0 {3,D} {5,S} {25,S}
-7  C u0 p0 c0 {1,D} {12,S} {18,S}
-8  C u0 p0 c0 {3,S} {9,D} {19,S}
-9  C u0 p0 c0 {4,S} {8,D} {20,S}
-10 C u0 p0 c0 {4,D} {13,S} {21,S}
-11 C u0 p0 c0 {2,D} {14,S} {24,S}
-12 C u0 p0 c0 {5,D} {7,S} {17,S}
-13 C u0 p0 c0 {10,S} {14,D} {22,S}
-14 C u0 p0 c0 {11,S} {13,D} {23,S}
+1  C u0 p0 c0 {2,B} {3,B} {7,B}
+2  C u0 p0 c0 {1,B} {4,B} {11,B}
+3  C u0 p0 c0 {1,B} {6,B} {8,B}
+4  C u0 p0 c0 {2,B} {9,B} {10,B}
+5  C u0 p0 c0 {6,B} {12,B} {15,S}
+6  C u0 p0 c0 {3,B} {5,B} {25,S}
+7  C u0 p0 c0 {1,B} {12,B} {18,S}
+8  C u0 p0 c0 {3,B} {9,B} {19,S}
+9  C u0 p0 c0 {4,B} {8,B} {20,S}
+10 C u0 p0 c0 {4,B} {13,B} {21,S}
+11 C u0 p0 c0 {2,B} {14,B} {24,S}
+12 C u0 p0 c0 {5,B} {7,B} {17,S}
+13 C u0 p0 c0 {10,B} {14,B} {22,S}
+14 C u0 p0 c0 {11,B} {13,B} {23,S}
 15 C u0 p0 c0 {5,S} {16,T}
 16 C u0 p0 c0 {15,T} {26,S}
 17 H u0 p0 c0 {12,S}
@@ -2445,20 +2420,20 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {4,S} {7,D}
-2  C u0 p0 c0 {1,S} {6,D} {8,S}
-3  C u0 p0 c0 {4,S} {9,S} {10,D}
-4  C u0 p0 c0 {1,S} {3,S} {14,D}
-5  C u0 p0 c0 {6,S} {11,D} {15,S}
-6  C u0 p0 c0 {2,D} {5,S} {23,S}
-7  C u0 p0 c0 {1,D} {11,S} {18,S}
-8  C u0 p0 c0 {2,S} {9,D} {19,S}
-9  C u0 p0 c0 {3,S} {8,D} {20,S}
-10 C u0 p0 c0 {3,D} {12,S} {21,S}
-11 C u0 p0 c0 {5,D} {7,S} {17,S}
-12 C u0 p0 c0 {10,S} {13,D} {22,S}
-13 C u0 p0 c0 {12,D} {14,S} {24,S}
-14 C u1 p0 c0 {4,D} {13,S}
+1  C u0 p0 c0 {2,B} {4,B} {7,B}
+2  C u0 p0 c0 {1,B} {6,B} {8,B}
+3  C u0 p0 c0 {4,B} {9,B} {10,B}
+4  C u0 p0 c0 {1,B} {3,B} {14,B}
+5  C u0 p0 c0 {6,B} {11,B} {15,S}
+6  C u0 p0 c0 {2,B} {5,B} {23,S}
+7  C u0 p0 c0 {1,B} {11,B} {18,S}
+8  C u0 p0 c0 {2,B} {9,B} {19,S}
+9  C u0 p0 c0 {3,B} {8,B} {20,S}
+10 C u0 p0 c0 {3,B} {12,B} {21,S}
+11 C u0 p0 c0 {5,B} {7,B} {17,S}
+12 C u0 p0 c0 {10,B} {13,B} {22,S}
+13 C u0 p0 c0 {12,B} {14,B} {24,S}
+14 C u1 p0 c0 {4,B} {13,B}
 15 C u0 p0 c0 {5,S} {16,T}
 16 C u0 p0 c0 {15,T} {25,S}
 17 H u0 p0 c0 {11,S}
@@ -2664,22 +2639,22 @@ entry(
     label = "A4C2H",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {3,S} {6,S}
-2  C u0 p0 c0 {1,D} {4,S} {5,S}
-3  C u0 p0 c0 {1,S} {8,S} {10,D}
-4  C u0 p0 c0 {2,S} {11,D} {12,S}
-5  C u0 p0 c0 {2,S} {13,D} {14,S}
-6  C u0 p0 c0 {1,S} {9,D} {15,S}
-7  C u0 p0 c0 {8,D} {9,S} {17,S}
-8  C u0 p0 c0 {3,S} {7,D} {19,S}
-9  C u0 p0 c0 {6,D} {7,S} {27,S}
-10 C u0 p0 c0 {3,D} {11,S} {20,S}
-11 C u0 p0 c0 {4,D} {10,S} {21,S}
-12 C u0 p0 c0 {4,S} {16,D} {22,S}
-13 C u0 p0 c0 {5,D} {16,S} {24,S}
-14 C u0 p0 c0 {5,S} {15,D} {25,S}
-15 C u0 p0 c0 {6,S} {14,D} {26,S}
-16 C u0 p0 c0 {12,D} {13,S} {23,S}
+1  C u0 p0 c0 {2,B} {3,B} {6,B}
+2  C u0 p0 c0 {1,B} {4,B} {5,B}
+3  C u0 p0 c0 {1,B} {8,B} {10,B}
+4  C u0 p0 c0 {2,B} {11,B} {12,B}
+5  C u0 p0 c0 {2,B} {13,B} {14,B}
+6  C u0 p0 c0 {1,B} {9,B} {15,B}
+7  C u0 p0 c0 {8,B} {9,B} {17,S}
+8  C u0 p0 c0 {3,B} {7,B} {19,S}
+9  C u0 p0 c0 {6,B} {7,B} {27,S}
+10 C u0 p0 c0 {3,B} {11,B} {20,S}
+11 C u0 p0 c0 {4,B} {10,B} {21,S}
+12 C u0 p0 c0 {4,B} {16,B} {22,S}
+13 C u0 p0 c0 {5,B} {16,B} {24,S}
+14 C u0 p0 c0 {5,B} {15,B} {25,S}
+15 C u0 p0 c0 {6,B} {14,B} {26,S}
+16 C u0 p0 c0 {12,B} {13,B} {23,S}
 17 C u0 p0 c0 {7,S} {18,T}
 18 C u0 p0 c0 {17,T} {28,S}
 19 H u0 p0 c0 {8,S}
@@ -2714,22 +2689,22 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {3,S} {5,S}
-2  C u0 p0 c0 {1,D} {4,S} {6,S}
-3  C u0 p0 c0 {1,S} {11,D} {12,S}
-4  C u0 p0 c0 {2,S} {8,D} {13,S}
-5  C u0 p0 c0 {1,S} {10,S} {15,D}
-6  C u0 p0 c0 {2,S} {9,S} {16,D}
-7  C u0 p0 c0 {8,S} {9,D} {17,S}
-8  C u0 p0 c0 {4,D} {7,S} {25,S}
-9  C u0 p0 c0 {6,S} {7,D} {19,S}
-10 C u0 p0 c0 {5,S} {14,D} {20,S}
-11 C u0 p0 c0 {3,D} {14,S} {22,S}
-12 C u0 p0 c0 {3,S} {13,D} {23,S}
-13 C u0 p0 c0 {4,S} {12,D} {24,S}
-14 C u0 p0 c0 {10,D} {11,S} {21,S}
-15 C u0 p0 c0 {5,D} {16,S} {26,S}
-16 C u1 p0 c0 {6,D} {15,S}
+1  C u0 p0 c0 {2,B} {3,B} {5,B}
+2  C u0 p0 c0 {1,B} {4,B} {6,B}
+3  C u0 p0 c0 {1,B} {11,B} {12,B}
+4  C u0 p0 c0 {2,B} {8,B} {13,B}
+5  C u0 p0 c0 {1,B} {10,B} {15,B}
+6  C u0 p0 c0 {2,B} {9,B} {16,B}
+7  C u0 p0 c0 {8,B} {9,B} {17,S}
+8  C u0 p0 c0 {4,B} {7,B} {25,S}
+9  C u0 p0 c0 {6,B} {7,B} {19,S}
+10 C u0 p0 c0 {5,B} {14,B} {20,S}
+11 C u0 p0 c0 {3,B} {14,B} {22,S}
+12 C u0 p0 c0 {3,B} {13,B} {23,S}
+13 C u0 p0 c0 {4,B} {12,B} {24,S}
+14 C u0 p0 c0 {10,B} {11,B} {21,S}
+15 C u0 p0 c0 {5,B} {16,B} {26,S}
+16 C u1 p0 c0 {6,B} {15,B}
 17 C u0 p0 c0 {7,S} {18,T}
 18 C u0 p0 c0 {17,T} {27,S}
 19 H u0 p0 c0 {9,S}
@@ -2763,26 +2738,26 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {4,S} {7,S}
-2  C u0 p0 c0 {1,D} {6,S} {8,S}
-3  C u0 p0 c0 {4,S} {5,S} {11,D}
-4  C u0 p0 c0 {1,S} {3,S} {12,D}
-5  C u0 p0 c0 {3,S} {9,S} {10,D}
-6  C u0 p0 c0 {2,S} {13,D} {14,S}
-7  C u0 p0 c0 {1,S} {9,D} {19,S}
-8  C u0 p0 c0 {2,S} {15,D} {20,S}
-9  C u0 p0 c0 {5,S} {7,D} {21,S}
-10 C u0 p0 c0 {5,D} {16,S} {22,S}
-11 C u0 p0 c0 {3,D} {17,S} {25,S}
-12 C u0 p0 c0 {4,D} {13,S} {26,S}
-13 C u0 p0 c0 {6,D} {12,S} {27,S}
-14 C u0 p0 c0 {6,S} {18,D} {28,S}
-15 C u0 p0 c0 {8,D} {18,S} {30,S}
-16 C u0 p0 c0 {10,S} {17,D} {23,S}
-17 C u0 p0 c0 {11,S} {16,D} {24,S}
-18 C u0 p0 c0 {14,D} {15,S} {29,S}
-19 C u0 p0 c0 {7,S} {20,D} {31,S}
-20 C u1 p0 c0 {8,S} {19,D}
+1  C u0 p0 c0 {2,B} {4,B} {7,B}
+2  C u0 p0 c0 {1,B} {6,B} {8,B}
+3  C u0 p0 c0 {4,B} {5,B} {11,B}
+4  C u0 p0 c0 {1,B} {3,B} {12,B}
+5  C u0 p0 c0 {3,B} {9,B} {10,B}
+6  C u0 p0 c0 {2,B} {13,B} {14,B}
+7  C u0 p0 c0 {1,B} {9,B} {19,B}
+8  C u0 p0 c0 {2,B} {15,B} {20,B}
+9  C u0 p0 c0 {5,B} {7,B} {21,S}
+10 C u0 p0 c0 {5,B} {16,B} {22,S}
+11 C u0 p0 c0 {3,B} {17,B} {25,S}
+12 C u0 p0 c0 {4,B} {13,B} {26,S}
+13 C u0 p0 c0 {6,B} {12,B} {27,S}
+14 C u0 p0 c0 {6,B} {18,B} {28,S}
+15 C u0 p0 c0 {8,B} {18,B} {30,S}
+16 C u0 p0 c0 {10,B} {17,B} {23,S}
+17 C u0 p0 c0 {11,B} {16,B} {24,S}
+18 C u0 p0 c0 {14,B} {15,B} {29,S}
+19 C u0 p0 c0 {7,B} {20,B} {31,S}
+20 C u1 p0 c0 {8,B} {19,B}
 21 H u0 p0 c0 {9,S}
 22 H u0 p0 c0 {10,S}
 23 H u0 p0 c0 {16,S}
@@ -2815,24 +2790,24 @@ entry(
     label = "BGHIF",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {4,D} {8,S}
-2  C u0 p0 c0 {1,S} {3,D} {7,S}
-3  C u0 p0 c0 {2,D} {5,S} {6,S}
-4  C u0 p0 c0 {1,D} {5,S} {9,S}
-5  C u0 p0 c0 {3,S} {4,S} {10,D}
-6  C u0 p0 c0 {3,S} {11,S} {12,D}
-7  C u0 p0 c0 {2,S} {13,D} {14,S}
-8  C u0 p0 c0 {1,S} {15,S} {16,D}
-9  C u0 p0 c0 {4,S} {17,D} {20,S}
-10 C u0 p0 c0 {5,D} {18,S} {21,S}
-11 C u0 p0 c0 {6,S} {18,D} {23,S}
-12 C u0 p0 c0 {6,D} {13,S} {24,S}
-13 C u0 p0 c0 {7,D} {12,S} {25,S}
-14 C u0 p0 c0 {7,S} {15,D} {26,S}
-15 C u0 p0 c0 {8,S} {14,D} {27,S}
-16 C u0 p0 c0 {8,D} {17,S} {28,S}
-17 C u0 p0 c0 {9,D} {16,S} {19,S}
-18 C u0 p0 c0 {10,S} {11,D} {22,S}
+1  C u0 p0 c0 {2,B} {4,B} {8,B}
+2  C u0 p0 c0 {1,B} {3,B} {7,B}
+3  C u0 p0 c0 {2,B} {5,B} {6,B}
+4  C u0 p0 c0 {1,B} {5,S} {9,B}
+5  C u0 p0 c0 {3,B} {4,S} {10,B}
+6  C u0 p0 c0 {3,B} {11,B} {12,B}
+7  C u0 p0 c0 {2,B} {13,B} {14,B}
+8  C u0 p0 c0 {1,B} {15,B} {16,B}
+9  C u0 p0 c0 {4,B} {17,B} {20,S}
+10 C u0 p0 c0 {5,B} {18,B} {21,S}
+11 C u0 p0 c0 {6,B} {18,B} {23,S}
+12 C u0 p0 c0 {6,B} {13,B} {24,S}
+13 C u0 p0 c0 {7,B} {12,B} {25,S}
+14 C u0 p0 c0 {7,B} {15,B} {26,S}
+15 C u0 p0 c0 {8,B} {14,B} {27,S}
+16 C u0 p0 c0 {8,B} {17,B} {28,S}
+17 C u0 p0 c0 {9,B} {16,B} {19,S}
+18 C u0 p0 c0 {10,B} {11,B} {22,S}
 19 H u0 p0 c0 {17,S}
 20 H u0 p0 c0 {9,S}
 21 H u0 p0 c0 {10,S}
@@ -2864,26 +2839,26 @@ entry(
     label = "BAPYR",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {4,S} {6,S}
-2  C u0 p0 c0 {1,D} {7,S} {8,S}
-3  C u0 p0 c0 {4,S} {5,S} {10,D}
-4  C u0 p0 c0 {1,S} {3,S} {17,D}
-5  C u0 p0 c0 {3,S} {9,S} {11,D}
-6  C u0 p0 c0 {1,S} {9,D} {12,S}
-7  C u0 p0 c0 {2,S} {13,S} {14,D}
-8  C u0 p0 c0 {2,S} {15,S} {16,D}
-9  C u0 p0 c0 {5,S} {6,D} {25,S}
-10 C u0 p0 c0 {3,D} {19,S} {23,S}
-11 C u0 p0 c0 {5,D} {18,S} {24,S}
-12 C u0 p0 c0 {6,S} {13,D} {26,S}
-13 C u0 p0 c0 {7,S} {12,D} {27,S}
-14 C u0 p0 c0 {7,D} {20,S} {28,S}
-15 C u0 p0 c0 {8,S} {20,D} {30,S}
-16 C u0 p0 c0 {8,D} {17,S} {31,S}
-17 C u0 p0 c0 {4,D} {16,S} {32,S}
-18 C u0 p0 c0 {11,S} {19,D} {21,S}
-19 C u0 p0 c0 {10,S} {18,D} {22,S}
-20 C u0 p0 c0 {14,S} {15,D} {29,S}
+1  C u0 p0 c0 {2,B} {4,B} {6,B}
+2  C u0 p0 c0 {1,B} {7,B} {8,B}
+3  C u0 p0 c0 {4,B} {5,B} {10,B}
+4  C u0 p0 c0 {1,B} {3,B} {17,B}
+5  C u0 p0 c0 {3,B} {9,B} {11,B}
+6  C u0 p0 c0 {1,B} {9,B} {12,B}
+7  C u0 p0 c0 {2,B} {13,B} {14,B}
+8  C u0 p0 c0 {2,B} {15,B} {16,B}
+9  C u0 p0 c0 {5,B} {6,B} {25,S}
+10 C u0 p0 c0 {3,B} {19,B} {23,S}
+11 C u0 p0 c0 {5,B} {18,B} {24,S}
+12 C u0 p0 c0 {6,B} {13,B} {26,S}
+13 C u0 p0 c0 {7,B} {12,B} {27,S}
+14 C u0 p0 c0 {7,B} {20,B} {28,S}
+15 C u0 p0 c0 {8,B} {20,B} {30,S}
+16 C u0 p0 c0 {8,B} {17,B} {31,S}
+17 C u0 p0 c0 {4,B} {16,B} {32,S}
+18 C u0 p0 c0 {11,B} {19,B} {21,S}
+19 C u0 p0 c0 {10,B} {18,B} {22,S}
+20 C u0 p0 c0 {14,B} {15,B} {29,S}
 21 H u0 p0 c0 {18,S}
 22 H u0 p0 c0 {19,S}
 23 H u0 p0 c0 {10,S}
@@ -2918,16 +2893,16 @@ entry(
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
-2  C u0 p0 c0 {1,S} {5,S} {6,D}
-3  C u0 p0 c0 {4,S} {7,D} {8,S}
-4  C u0 p0 c0 {3,S} {5,D} {9,S}
-5  C u0 p0 c0 {2,S} {4,D} {21,S}
-6  C u0 p0 c0 {2,D} {7,S} {15,S}
-7  C u0 p0 c0 {3,D} {6,S} {16,S}
-8  C u0 p0 c0 {3,S} {10,D} {17,S}
-9  C u0 p0 c0 {4,S} {11,D} {20,S}
-10 C u0 p0 c0 {8,D} {11,S} {18,S}
-11 C u0 p0 c0 {9,D} {10,S} {19,S}
+2  C u0 p0 c0 {1,S} {5,B} {6,B}
+3  C u0 p0 c0 {4,B} {7,B} {8,B}
+4  C u0 p0 c0 {3,B} {5,B} {9,B}
+5  C u0 p0 c0 {2,B} {4,B} {21,S}
+6  C u0 p0 c0 {2,B} {7,B} {15,S}
+7  C u0 p0 c0 {3,B} {6,B} {16,S}
+8  C u0 p0 c0 {3,B} {10,B} {17,S}
+9  C u0 p0 c0 {4,B} {11,B} {20,S}
+10 C u0 p0 c0 {8,B} {11,B} {18,S}
+11 C u0 p0 c0 {9,B} {10,B} {19,S}
 12 H u0 p0 c0 {1,S}
 13 H u0 p0 c0 {1,S}
 14 H u0 p0 c0 {1,S}
@@ -2960,16 +2935,16 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,D} {7,S}
-2  C u0 p0 c0 {1,S} {4,D} {8,S}
-3  C u0 p0 c0 {4,S} {5,D} {11,S}
-4  C u0 p0 c0 {2,D} {3,S} {18,S}
-5  C u0 p0 c0 {3,D} {6,S} {12,S}
-6  C u0 p0 c0 {1,D} {5,S} {13,S}
-7  C u0 p0 c0 {1,S} {9,D} {14,S}
-8  C u0 p0 c0 {2,S} {10,D} {17,S}
-9  C u0 p0 c0 {7,D} {10,S} {15,S}
-10 C u0 p0 c0 {8,D} {9,S} {16,S}
+1  C u0 p0 c0 {2,B} {6,B} {7,B}
+2  C u0 p0 c0 {1,B} {4,B} {8,B}
+3  C u0 p0 c0 {4,B} {5,B} {11,S}
+4  C u0 p0 c0 {2,B} {3,B} {18,S}
+5  C u0 p0 c0 {3,B} {6,B} {12,S}
+6  C u0 p0 c0 {1,B} {5,B} {13,S}
+7  C u0 p0 c0 {1,B} {9,B} {14,S}
+8  C u0 p0 c0 {2,B} {10,B} {17,S}
+9  C u0 p0 c0 {7,B} {10,B} {15,S}
+10 C u0 p0 c0 {8,B} {9,B} {16,S}
 11 C u1 p0 c0 {3,S} {19,S} {20,S}
 12 H u0 p0 c0 {5,S}
 13 H u0 p0 c0 {6,S}
@@ -3002,20 +2977,20 @@ entry(
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {16,S} {17,S} {18,S}
-2  C u0 p0 c0 {1,S} {7,S} {8,D}
-3  C u0 p0 c0 {4,S} {5,S} {9,D}
-4  C u0 p0 c0 {3,S} {6,S} {13,D}
-5  C u0 p0 c0 {3,S} {7,D} {10,S}
-6  C u0 p0 c0 {4,S} {11,S} {12,D}
-7  C u0 p0 c0 {2,S} {5,D} {27,S}
-8  C u0 p0 c0 {2,D} {9,S} {19,S}
-9  C u0 p0 c0 {3,D} {8,S} {20,S}
-10 C u0 p0 c0 {5,S} {11,D} {21,S}
-11 C u0 p0 c0 {6,S} {10,D} {22,S}
-12 C u0 p0 c0 {6,D} {14,S} {23,S}
-13 C u0 p0 c0 {4,D} {15,S} {26,S}
-14 C u0 p0 c0 {12,S} {15,D} {24,S}
-15 C u0 p0 c0 {13,S} {14,D} {25,S}
+2  C u0 p0 c0 {1,S} {7,B} {8,B}
+3  C u0 p0 c0 {4,B} {5,B} {9,B}
+4  C u0 p0 c0 {3,B} {6,B} {13,B}
+5  C u0 p0 c0 {3,B} {7,B} {10,B}
+6  C u0 p0 c0 {4,B} {11,B} {12,B}
+7  C u0 p0 c0 {2,B} {5,B} {27,S}
+8  C u0 p0 c0 {2,B} {9,B} {19,S}
+9  C u0 p0 c0 {3,B} {8,B} {20,S}
+10 C u0 p0 c0 {5,B} {11,B} {21,S}
+11 C u0 p0 c0 {6,B} {10,B} {22,S}
+12 C u0 p0 c0 {6,B} {14,B} {23,S}
+13 C u0 p0 c0 {4,B} {15,B} {26,S}
+14 C u0 p0 c0 {12,B} {15,B} {24,S}
+15 C u0 p0 c0 {13,B} {14,B} {25,S}
 16 H u0 p0 c0 {1,S}
 17 H u0 p0 c0 {1,S}
 18 H u0 p0 c0 {1,S}
@@ -3050,20 +3025,20 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {3,S} {8,D}
-2  C u0 p0 c0 {1,S} {4,S} {12,D}
-3  C u0 p0 c0 {1,S} {6,D} {9,S}
-4  C u0 p0 c0 {2,S} {10,S} {11,D}
-5  C u0 p0 c0 {6,S} {7,D} {15,S}
-6  C u0 p0 c0 {3,D} {5,S} {24,S}
-7  C u0 p0 c0 {5,D} {8,S} {16,S}
-8  C u0 p0 c0 {1,D} {7,S} {17,S}
-9  C u0 p0 c0 {3,S} {10,D} {18,S}
-10 C u0 p0 c0 {4,S} {9,D} {19,S}
-11 C u0 p0 c0 {4,D} {13,S} {20,S}
-12 C u0 p0 c0 {2,D} {14,S} {23,S}
-13 C u0 p0 c0 {11,S} {14,D} {21,S}
-14 C u0 p0 c0 {12,S} {13,D} {22,S}
+1  C u0 p0 c0 {2,B} {3,B} {8,B}
+2  C u0 p0 c0 {1,B} {4,B} {12,B}
+3  C u0 p0 c0 {1,B} {6,B} {9,B}
+4  C u0 p0 c0 {2,B} {10,B} {11,B}
+5  C u0 p0 c0 {6,B} {7,B} {15,S}
+6  C u0 p0 c0 {3,B} {5,B} {24,S}
+7  C u0 p0 c0 {5,B} {8,B} {16,S}
+8  C u0 p0 c0 {1,B} {7,B} {17,S}
+9  C u0 p0 c0 {3,B} {10,B} {18,S}
+10 C u0 p0 c0 {4,B} {9,B} {19,S}
+11 C u0 p0 c0 {4,B} {13,B} {20,S}
+12 C u0 p0 c0 {2,B} {14,B} {23,S}
+13 C u0 p0 c0 {11,B} {14,B} {21,S}
+14 C u0 p0 c0 {12,B} {13,B} {22,S}
 15 C u1 p0 c0 {5,S} {25,S} {26,S}
 16 H u0 p0 c0 {7,S}
 17 H u0 p0 c0 {8,S}

@@ -25,7 +25,7 @@ multiplicity 3
 1 S u1 p2 c0 {2,S}
 2 S u1 p2 c0 {1,S}
 
-SJJ
+Sa
 1 S u0 p3 c0
 
 SH

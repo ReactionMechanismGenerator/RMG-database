@@ -4,7 +4,8 @@
 name = "ERC-FoundationFuelv0.9"
 shortDesc = u"Small molecule combustion kinetics by ERC"
 longDesc = u"""
-Small molecule combustion kinetics created by Engine Research Center at University of Wisconsin.  
+Small molecule combustion kinetics created by Engine Research Center at University of Wisconsin.
+https://www.erc.wisc.edu/
 """
 entry(
     index = 1,

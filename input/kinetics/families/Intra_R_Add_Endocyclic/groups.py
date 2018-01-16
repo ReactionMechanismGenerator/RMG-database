@@ -12,11 +12,13 @@ template(reactants=["Rn"], products=["RnCyclic"], ownReverse=False)
 reverse = "Ring_Open_Endo_Cycli_Radical"
 
 recipe(actions=[
-    ['CHANGE_BOND', '*2', '-1', '*3'],
-    ['FORM_BOND', '*1', 'S', '*3'],
+    ['CHANGE_BOND', '*2', -1, '*3'],
+    ['FORM_BOND', '*1', 1, '*3'],
     ['GAIN_RADICAL', '*2', '1'],
     ['LOSE_RADICAL', '*1', '1'],
 ])
+
+boundaryAtoms = ["*1", "*2"]
 
 entry(
     index = 1,

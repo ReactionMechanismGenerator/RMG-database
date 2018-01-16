@@ -12,11 +12,13 @@ template(reactants=["XSYJ"], products=["XYSJ"], ownReverse=False)
 reverse = "Ring_Opening_bySradical"
 
 recipe(actions=[
-    ['BREAK_BOND', '*1', 'S', '*2'],
-    ['FORM_BOND', '*1', 'S', '*3'],
+    ['BREAK_BOND', '*1', 1, '*2'],
+    ['FORM_BOND', '*1', 1, '*3'],
     ['GAIN_RADICAL', '*2', '1'],
     ['LOSE_RADICAL', '*3', '1'],
 ])
+
+boundaryAtoms = ["*1", "*3"]
 
 entry(
     index = 1,
@@ -89,6 +91,32 @@ entry(
 """
 1 *3 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
+3 *2 Ss  u0 {2,S} {4,S}
+4 *1 C   u0 {3,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1002,
+    label = "XSR4J_SS_Cs",
+    group = 
+"""
+1 *3 R!H u1 {2,S}
+2 *4 Cs  u0 {1,S} {3,S}
+3 *2 Ss  u0 {2,S} {4,S}
+4 *1 C   u0 {3,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1003,
+    label = "XSR4J_SS_Ss",
+    group = 
+"""
+1 *3 R!H u1 {2,S}
+2 *4 Ss  u0 {1,S} {3,S}
 3 *2 Ss  u0 {2,S} {4,S}
 4 *1 C   u0 {3,S}
 """,
@@ -210,1019 +238,189 @@ entry(
 )
 
 entry(
-    index = 16,
-    label = "CJ",
-    group = "OR{CsJ, CdsJ, CdsJ-2}",
-    kinetics = None,
-)
-
-entry(
-    index = 17,
-    label = "CdsJ",
-    group = 
-"""
-1 *3 C u1 {2,D} {3,S}
-2 *4 C u0 {1,D}
-3    R u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 18,
-    label = "CdsJ-H",
-    group = 
-"""
-1 *3 C u1 {2,D} {3,S}
-2 *4 C u0 {1,D}
-3    H u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 19,
-    label = "CdsJ-Cs",
-    group = 
-"""
-1 *3 C  u1 {2,D} {3,S}
-2 *4 C  u0 {1,D}
-3    Cs u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 20,
-    label = "CdsJ-Ss",
-    group = 
-"""
-1 *3 C  u1 {2,D} {3,S}
-2 *4 C  u0 {1,D}
-3    Ss u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 21,
-    label = "CdsJ-Cd",
-    group = 
-"""
-1 *3 C  u1 {2,D} {3,S}
-2 *4 C  u0 {1,D}
-3    Cd u0 {1,S} {4,D}
-4    C  u0 {3,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 22,
-    label = "CdsJ-2",
-    group = 
-"""
-1 *3 C u1 {2,D} {3,S}
-2    R u0 {1,D}
-3 *4 R u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 23,
-    label = "CdsJ_C-2",
-    group = 
-"""
-1 *3 C u1 {2,D} {3,S}
-2    C u0 {1,D}
-3 *4 R u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 24,
-    label = "CdsJ_C-Cs2",
+    label = "CJ",
     group = 
 """
-1 *3 C  u1 {2,D} {3,S}
-2    C  u0 {1,D}
-3 *4 Cs u0 {1,S}
+1 *3 C u1
 """,
     kinetics = None,
 )
 
 entry(
     index = 25,
-    label = "CdsJ_C-Ss2",
+    label = "CdsJ",
     group = 
 """
-1 *3 C  u1 {2,D} {3,S}
-2    C  u0 {1,D}
-3 *4 Ss u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 26,
-    label = "CdsJ_S-2",
-    group = 
-"""
-1 *3 C u1 {2,D} {3,S}
-2    S u0 {1,D}
-3 *4 R u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 27,
-    label = "CdsJ_C-Cd2",
-    group = 
-"""
-1 *3 C  u1 {2,D} {3,S}
-2    C  u0 {1,D}
-3 *4 Cd u0 {1,S} {4,D}
-4    C  u0 {3,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 28,
-    label = "CsJ",
-    group = 
-"""
-1 *3 C u1 {2,S} {3,S} {4,S}
-2 *4 R u0 {1,S}
-3    R u0 {1,S}
-4    R u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 29,
-    label = "CsJ-Cs",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Cs u0 {1,S}
-3    R  u0 {1,S}
-4    R  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 30,
-    label = "CsJ-CsHH",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Cs u0 {1,S}
-3    H  u0 {1,S}
-4    H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 31,
-    label = "CsJ-CsCsH",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Cs u0 {1,S}
-3    Cs u0 {1,S}
-4    H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 32,
-    label = "CsJ-CsCsCs",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Cs u0 {1,S}
-3    Cs u0 {1,S}
-4    Cs u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 33,
-    label = "CsJ-CsSsH",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Cs u0 {1,S}
-3    Ss u0 {1,S}
-4    H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 34,
-    label = "CsJ-CsSsSs",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Cs u0 {1,S}
-3    Ss u0 {1,S}
-4    Ss u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 35,
-    label = "CsJ-CsCsSs",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Cs u0 {1,S}
-3    Cs u0 {1,S}
-4    Ss u0 {1,S}
+1 *3 Cd  u1 {2,D}
+2    R!H u0 {1,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 36,
-    label = "CsJ-CsOneDe",
+    label = "CsJ",
     group = 
 """
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2 *4 Cs            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    [H,Cs,Os,Ss]  u0 {1,S}
+1 *3 Cs u1 {2,S} {3,S}
+2    R  u0 {1,S}
+3    R  u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 37,
-    label = "CsJ-CsOneDeH",
+    label = "CsJ-Cs",
     group = 
 """
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2 *4 Cs            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    H             u0 {1,S}
+1 *3 Cs u1 {2,S} {3,S}
+2    Cs u0 {1,S}
+3    R  u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 38,
-    label = "CsJ-CsCdH",
+    label = "CsJ-HH",
     group = 
 """
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Cs u0 {1,S}
-3    Cd u0 {1,S}
-4    H  u0 {1,S}
+1 *3 Cs u1 {2,S} {3,S}
+2    H  u0 {1,S}
+3    H  u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 39,
-    label = "CsJ-CsOneDeCs",
+    label = "CsJ-CsH",
     group = 
 """
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2 *4 Cs            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    Cs            u0 {1,S}
+1 *3 Cs u1 {2,S} {3,S}
+2    Cs u0 {1,S}
+3    H  u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 40,
-    label = "CsJ-CsCdCs",
+    label = "CsJ-CsCs",
     group = 
 """
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Cs u0 {1,S}
-3    Cd u0 {1,S}
-4    Cs u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 41,
-    label = "CsJ-CsOneDeSs",
-    group = 
-"""
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2 *4 Cs            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    Ss            u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 42,
-    label = "CsJ-CsCdSs",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Cs u0 {1,S}
-3    Cd u0 {1,S}
-4    Ss u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 43,
-    label = "CsJ-CsTwoDe",
-    group = 
-"""
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2 *4 Cs            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    [Cd,Ct,Cb,CO] u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 44,
-    label = "CsJ-Cd",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Cd u0 {1,S}
-3    R  u0 {1,S}
-4    R  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 45,
-    label = "CsJ-CdHH",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Cd u0 {1,S}
-3    H  u0 {1,S}
-4    H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 46,
-    label = "CsJ-CdCsH",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Cd u0 {1,S}
+1 *3 Cs u1 {2,S} {3,S}
+2    Cs u0 {1,S}
 3    Cs u0 {1,S}
-4    H  u0 {1,S}
 """,
     kinetics = None,
 )
 
-entry(
-    index = 47,
-    label = "CsJ-CdCsCs",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Cd u0 {1,S}
-3    Cs u0 {1,S}
-4    Cs u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 48,
-    label = "CsJ-CdSsH",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Cd u0 {1,S}
-3    Ss u0 {1,S}
-4    H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 49,
-    label = "CsJ-CdSsSs",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Cd u0 {1,S}
-3    Ss u0 {1,S}
-4    Ss u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 50,
-    label = "CsJ-CdCsSs",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Cd u0 {1,S}
-3    Cs u0 {1,S}
-4    Ss u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 51,
-    label = "CsJ-CdOneDe",
-    group = 
-"""
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2 *4 Cd            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    [H,Cs,Os,Ss]  u0 {1,S}
-""",
-    kinetics = None,
-)
 
 entry(
     index = 52,
-    label = "CsJ-CdOneDeH",
+    label = "CsJ-Cd",
     group = 
 """
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2 *4 Cd            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    H             u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 53,
-    label = "CsJ-CdCdH",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Cd u0 {1,S}
-3    Cd u0 {1,S}
-4    H  u0 {1,S}
+1 *3 Cs u1 {2,S} {3,S}
+2    Cd u0 {1,S}
+3    R  u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 54,
-    label = "CsJ-CdOneDeCs",
+    label = "CsJ-CdH",
     group = 
 """
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2 *4 Cd            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    Cs            u0 {1,S}
+1 *3 Cs u1 {2,S} {3,S}
+2    Cd u0 {1,S}
+3    H  u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 55,
-    label = "CsJ-CdCdCs",
+    label = "CsJ-CdCs",
     group = 
 """
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Cd u0 {1,S}
-3    Cd u0 {1,S}
-4    Cs u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 56,
-    label = "CsJ-CdOneDeSs",
-    group = 
-"""
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2 *4 Cd            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    Ss            u0 {1,S}
+1 *3 Cs u1 {2,S} {3,S}
+2    Cd u0 {1,S}
+3    Cs u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 57,
-    label = "CsJ-CdCdSs",
+    label = "CsJ-CdSs",
     group = 
 """
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Cd u0 {1,S}
-3    Cd u0 {1,S}
-4    Ss u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 58,
-    label = "CsJ-CdTwoDe",
-    group = 
-"""
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2 *4 Cd            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    [Cd,Ct,Cb,CO] u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 59,
-    label = "CsJ-Ss",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Ss u0 {1,S}
-3    R  u0 {1,S}
-4    R  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 60,
-    label = "CsJ-SsHH",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Ss u0 {1,S}
-3    H  u0 {1,S}
-4    H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 61,
-    label = "CsJ-SsCsH",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Ss u0 {1,S}
-3    Cs u0 {1,S}
-4    H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 62,
-    label = "CsJ-SsCsCs",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Ss u0 {1,S}
-3    Cs u0 {1,S}
-4    Cs u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 63,
-    label = "CsJ-SsSsH",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Ss u0 {1,S}
+1 *3 Cs u1 {2,S} {3,S}
+2    Cd u0 {1,S}
 3    Ss u0 {1,S}
-4    H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 64,
-    label = "CsJ-SsSsSs",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Ss u0 {1,S}
-3    Ss u0 {1,S}
-4    Ss u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 65,
-    label = "CsJ-SsCsSs",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Ss u0 {1,S}
-3    Cs u0 {1,S}
-4    Ss u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 66,
-    label = "CsJ-SsOneDe",
-    group = 
-"""
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2 *4 Ss            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    [H,Cs,Os,Ss]  u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 67,
-    label = "CsJ-SsOneDeH",
+    label = "CsJ-Ss",
     group = 
 """
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2 *4 Ss            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    H             u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 68,
-    label = "CsJ-SsCdH",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Ss u0 {1,S}
-3    Cd u0 {1,S}
-4    H  u0 {1,S}
+1 *3 Cs u1 {2,S} {3,S}
+2    Ss u0 {1,S}
+3    R  u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 69,
-    label = "CsJ-SsOneDeCs",
+    label = "CsJ-SsH",
     group = 
 """
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2 *4 Ss            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    Cs            u0 {1,S}
+1 *3 Cs u1 {2,S} {3,S}
+2    Ss u0 {1,S}
+3    H  u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 70,
-    label = "CsJ-SsCdCs",
+    label = "CsJ-SsCs",
     group = 
 """
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Ss u0 {1,S}
-3    Cd u0 {1,S}
-4    Cs u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 71,
-    label = "CsJ-SsOneDeSs",
-    group = 
-"""
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2 *4 Ss            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    Ss            u0 {1,S}
+1 *3 Cs u1 {2,S} {3,S}
+2    Ss u0 {1,S}
+3    Cs u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 72,
-    label = "CsJ-SsCdSs",
+    label = "CsJ-SsSs",
     group = 
 """
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *4 Ss u0 {1,S}
-3    Cd u0 {1,S}
-4    Ss u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 73,
-    label = "SJ",
-    group = 
-"""
-1 *3 S u1 {2,S}
-2 *4 R u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 74,
-    label = "SsJ",
-    group = 
-"""
-1 *3 Ss u1 {2,S}
-2 *4 R  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 75,
-    label = "SsJ-Cs",
-    group = 
-"""
-1 *3 Ss u1 {2,S}
-2 *4 Cs u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 76,
-    label = "SsJ-Ss",
-    group = 
-"""
-1 *3 Ss u1 {2,S}
-2 *4 Ss u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 77,
-    label = "SsJ-OneDe",
-    group = 
-"""
-1 *3 Ss            u1 {2,S}
-2 *4 [Cd,Ct,Cb,CO] u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 78,
-    label = "SsJ-Cd",
-    group = 
-"""
-1 *3 Ss u1 {2,S}
-2 *4 Cd u0 {1,S} {3,D}
-3    C  u0 {2,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 79,
-    label = "CJ-3",
-    group = "OR{CsJ-3, CdsJ-3}",
-    kinetics = None,
-)
-
-entry(
-    index = 80,
-    label = "CdsJ-3",
-    group = 
-"""
-1 *3 C  u1 {2,D} {3,S}
-2    R  u0 {1,D}
-3 *2 Ss u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 81,
-    label = "CsJ-3",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *2 Ss u0 {1,S}
-3    R  u0 {1,S}
-4    R  u0 {1,S}
+1 *3 Cs u1 {2,S} {3,S}
+2    Ss u0 {1,S}
+3    Ss u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 82,
-    label = "CsJ-3-SsHH",
+    label = "SsJ",
     group = 
 """
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *2 Ss u0 {1,S}
-3    H  u0 {1,S}
-4    H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 83,
-    label = "CsJ-3-SsCsH",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *2 Ss u0 {1,S}
-3    Cs u0 {1,S}
-4    H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 84,
-    label = "CsJ-3-SsCsCs",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *2 Ss u0 {1,S}
-3    Cs u0 {1,S}
-4    Cs u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 85,
-    label = "CsJ-3-SsSsH",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *2 Ss u0 {1,S}
-3    Ss u0 {1,S}
-4    H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 86,
-    label = "CsJ-3-SsSsSs",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *2 Ss u0 {1,S}
-3    Ss u0 {1,S}
-4    Ss u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 87,
-    label = "CsJ-3-SsCsSs",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *2 Ss u0 {1,S}
-3    Cs u0 {1,S}
-4    Ss u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 88,
-    label = "CsJ-3-SsOneDe",
-    group = 
-"""
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2 *2 Ss            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    [H,Cs,Os,Ss]  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 89,
-    label = "CsJ-3-SsOneDeH",
-    group = 
-"""
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2 *2 Ss            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    H             u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 90,
-    label = "CsJ-3-SsCdH",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *2 Ss u0 {1,S}
-3    Cd u0 {1,S}
-4    H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 91,
-    label = "CsJ-3-SsOneDeCs",
-    group = 
-"""
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2 *2 Ss            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    Cs            u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 92,
-    label = "CsJ-3-SsCdCs",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *2 Ss u0 {1,S}
-3    Cd u0 {1,S}
-4    Cs u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 93,
-    label = "CsJ-3-SsOneDeSs",
-    group = 
-"""
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2 *2 Ss            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    Ss            u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 94,
-    label = "CsJ-3-SsCdSs",
-    group = 
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2 *2 Ss u0 {1,S}
-3    Cd u0 {1,S}
-4    Ss u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 95,
-    label = "CsJ-3-SsTwoDe",
-    group = 
-"""
-1 *3 C             u1 {2,S} {3,S} {4,S}
-2 *2 Ss            u0 {1,S}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    [Cd,Ct,Cb,CO] u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 96,
-    label = "SJ-3",
-    group = 
-"""
-1 *3 Ss u1 {2,S}
-2 *2 Ss u0 {1,S}
+1 *3 Ss u1
 """,
     kinetics = None,
 )
@@ -1554,6 +752,8 @@ L1: XSYJ
         L3: XSR3J_S
     L2: XSR4J
         L3: XSR4J_SS
+            L4: XSR4J_SS_Cs
+            L4: XSR4J_SS_Ss
         L3: XSR4J_SD
     L2: XSR5J
         L3: XSR5J_SSS
@@ -1566,110 +766,45 @@ L1: C
     L2: Ct
     L2: Cds
     L2: C-RRR
-        L3: C-NonDe
-            L4: C-HHH
-            L4: C-CsHH
-            L4: C-CsCsH
-            L4: C-CsCsCs
-            L4: C-OneS
-                L5: C-SsHH
-                L5: C-SsCsH
-                L5: C-SsCsCs
         L3: C-OneDe
-            L4: C-CdHH
-            L4: C-CdCsH
             L4: C-CdCsCs
-            L4: C-CdSsH
             L4: C-CdSsCs
             L4: C-CdSsSs
-            L4: C-CtHH
-            L4: C-CtCsH
             L4: C-CtCsCs
-            L4: C-CtSsH
             L4: C-CtSsCs
             L4: C-CtSsSs
+            L4: C-CtSsH
+            L4: C-CtCsH
+            L4: C-CdSsH
+            L4: C-CdCsH
+            L4: C-CtHH
+            L4: C-CdHH
+        L3: C-NonDe
+            L4: C-OneS
+                L5: C-SsCsCs
+                L5: C-SsCsH
+                L5: C-SsHH
+            L4: C-CsCsCs
+            L4: C-CsCsH
+            L4: C-CsHH
+            L4: C-HHH
 L1: YJ
     L2: CJ
         L3: CdsJ
-            L4: CdsJ-H
-            L4: CdsJ-Cs
-            L4: CdsJ-Ss
-            L4: CdsJ-Cd
-        L3: CdsJ-2
-            L4: CdsJ_C-2
-                L5: CdsJ_C-Cs2
-                L5: CdsJ_C-Ss2
-                L5: CdsJ_C-Cd2
-            L4: CdsJ_S-2
         L3: CsJ
-            L4: CsJ-Cs
-                L5: CsJ-CsHH
-                L5: CsJ-CsCsH
-                L5: CsJ-CsCsCs
-                L5: CsJ-CsSsH
-                L5: CsJ-CsSsSs
-                L5: CsJ-CsCsSs
-                L5: CsJ-CsOneDe
-                    L6: CsJ-CsOneDeH
-                        L7: CsJ-CsCdH
-                    L6: CsJ-CsOneDeCs
-                        L7: CsJ-CsCdCs
-                    L6: CsJ-CsOneDeSs
-                        L7: CsJ-CsCdSs
-                L5: CsJ-CsTwoDe
             L4: CsJ-Cd
-                L5: CsJ-CdHH
-                L5: CsJ-CdCsH
-                L5: CsJ-CdCsCs
-                L5: CsJ-CdSsH
-                L5: CsJ-CdSsSs
-                L5: CsJ-CdCsSs
-                L5: CsJ-CdOneDe
-                    L6: CsJ-CdOneDeH
-                        L7: CsJ-CdCdH
-                    L6: CsJ-CdOneDeCs
-                        L7: CsJ-CdCdCs
-                    L6: CsJ-CdOneDeSs
-                        L7: CsJ-CdCdSs
-                L5: CsJ-CdTwoDe
+                L5: CsJ-CdCs
+                L5: CsJ-CdSs
+                L5: CsJ-CdH
             L4: CsJ-Ss
-                L5: CsJ-SsHH
-                L5: CsJ-SsCsH
-                L5: CsJ-SsCsCs
-                L5: CsJ-SsSsH
-                L5: CsJ-SsSsSs
-                L5: CsJ-SsCsSs
-                L5: CsJ-SsOneDe
-                    L6: CsJ-SsOneDeH
-                        L7: CsJ-SsCdH
-                    L6: CsJ-SsOneDeCs
-                        L7: CsJ-SsCdCs
-                    L6: CsJ-SsOneDeSs
-                        L7: CsJ-SsCdSs
-    L2: SJ
-        L3: SsJ
-            L4: SsJ-Cs
-            L4: SsJ-Ss
-            L4: SsJ-OneDe
-                L5: SsJ-Cd
-    L2: CJ-3
-        L3: CdsJ-3
-        L3: CsJ-3
-            L4: CsJ-3-SsHH
-            L4: CsJ-3-SsCsH
-            L4: CsJ-3-SsCsCs
-            L4: CsJ-3-SsSsH
-            L4: CsJ-3-SsSsSs
-            L4: CsJ-3-SsCsSs
-            L4: CsJ-3-SsOneDe
-                L5: CsJ-3-SsOneDeH
-                    L6: CsJ-3-SsCdH
-                L5: CsJ-3-SsOneDeCs
-                    L6: CsJ-3-SsCdCs
-                L5: CsJ-3-SsOneDeSs
-                    L6: CsJ-3-SsCdSs
-            L4: CsJ-3-SsTwoDe
-    L2: SJ-3
+                L5: CsJ-SsCs
+                L5: CsJ-SsSs
+                L5: CsJ-SsH
+            L4: CsJ-Cs
+                L5: CsJ-CsCs
+                L5: CsJ-CsH
+            L4: CsJ-HH 
+    L2: SsJ
 """
 )
 
