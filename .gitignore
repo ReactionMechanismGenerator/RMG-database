@@ -1,18 +1,1 @@
-################################################################################
-#
-#   File patterns for git to ignore
-#
-################################################################################
-
-# Eclipse project files
-.project
-.pydevproject
-.settings/*
-
-# C-Compiled scripts
-*.pyc
-
-*.ipynb_checkpoints
-
-# evaluate kinetics folder stuff
-testing/eval/*
+*.idea
