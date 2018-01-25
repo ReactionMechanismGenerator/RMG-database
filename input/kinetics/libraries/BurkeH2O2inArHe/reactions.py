@@ -274,6 +274,81 @@ entry(
             Arrhenius(A=(7.59e+13, 'cm^3/(mol*s)'), n=0, Ea=(7270, 'cal/mol'), T0=(1, 'K')),
         ],
     ),
-    shortDesc = u"""Hong et al., J. Phys. Chem. A 114 (2010) 5718-5727""",
+    shortDesc = u"""Hong et al., J. Phys. Chem. A, 114:5718 (2010)""",
 )
 
+entry(
+    index = 25,
+    label = "HO2 + H <=> H2O + O",
+    degeneracy = 1,
+    duplicate = False,
+    kinetics = Arrhenius(A=(2.90E+08, 'cm^3/(mol*s)'), n=1.55, Ea=(-160.1, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""Mousavipour et al., Bull. Chem. Soc. Jpn., 80:1901 (2007)""",
+    longDesc = u"""Reaction X1 in Burke at el. (Table III)
+    Also available from Karkach et al., J. Chem. Phys., 110:11918 (1999):
+    kinetics = Arrhenius(A=(5.90E+12, 'cm^3/(mol*s)'), n=0.81, Ea=(7700, 'cal/mol'), T0=(1, 'K')),
+    """,
+)
+
+entry(
+    index = 26,
+    label = "HO2 + H <=> H2O2",
+    degeneracy = 1,
+    duplicate = False,
+    kinetics = ThirdBody(
+        arrheniusLow = Arrhenius(A=(6.0E+14, 'cm^6/(mol^2*s)'), n=1.25, Ea=(-270, 'cal/mol'), T0 = (1, 'K'))),
+    shortDesc = u"""Mousavipour et al., Bull. Chem. Soc. Jpn., 80:1901 (2007)""",
+    longDesc = u"""Reaction X2 in Burke at el. (Table III),
+    p. 1909 in Mousavipour et al.
+    Declared 'negligible' by Burke at el.
+    The original rate Arrhenius(A=(7.20E+09, 'cm^6/(mol^2*s)'), n=1.25, Ea=(-270, 'cal/mol'), T0 = (1, 'K')) was
+    multiplied by the inverse of ~1.2E-05 mol cm^-3 which is the density of an ideal gas at 1000 K,
+    so that a ThirdBody kinetics format could be written here""",
+)
+
+entry(
+    index = 27,
+    label = "OH + OH <=> H2 + O2",
+    degeneracy = 1,
+    duplicate = False,
+    kinetics = Arrhenius(A=(2.00E+11, 'cm^3/(mol*s)'), n=0.51, Ea=(5.050E+04, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""Karkach et al., J. Chem. Phys., 110:11918 (1999)""",
+    longDesc = u"""Reaction X3 in Burke at el. (Table III)""",
+)
+
+entry(
+    index = 28,
+    label = "H2O + O <=> H2 + O2",
+    degeneracy = 1,
+    duplicate = False,
+    kinetics = Arrhenius(A=(1.07E+10, 'cm^3/(mol*s)'), n=0.97, Ea=(6.870E+04, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""Karkach et al., J. Chem. Phys., 110:11918 (1999)""",
+    longDesc =  u"""Reaction X4 in Burke at el. (Table III)""",
+)
+
+entry(
+    index = 29,
+    label = "H2O2 + O <=> H2O + O2",
+    degeneracy = 1,
+    duplicate = False,
+    kinetics = Arrhenius(A=(8.43E+11, 'cm^3/(mol*s)'), n=0.00, Ea=(3.970E+03, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""Baulch et al., J. Phys. Chem. Ref. Data, 34:757 (2005)""",
+    longDesc = u"""
+    Reaction X5 in Burke at el. (Table III),
+    Upper limit""",
+)
+
+entry(
+    index = 30,
+    label = "OH + O <=> HO2",
+    degeneracy = 1,
+    duplicate = False,
+    kinetics = ThirdBody(
+        arrheniusLow = Arrhenius(A=(1.00E+15, 'cm^6/(mol^2*s)'), n=0.00, Ea=(0.00, 'cal/mol'), T0 = (1, 'K'))),
+    shortDesc = u"""Germann et al., J. Phys. Chem. A, 101:6358 (1997)""",
+    longDesc = u"""Reaction X6 in Burke at el. (Table III)
+    Also available from Westbrook et al., Prog. Energy Combust. Sci. 10:1 (1984):
+    kinetics = ThirdBody(
+        arrheniusLow = Arrhenius(A=(1.00E+17, 'cm^6/(mol^2*s)'), n=0.00, Ea=(0.00, 'cal/mol'), T0 = (1, 'K')))
+    """,
+)
