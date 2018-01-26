@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Nitrogen_Dean_and_Bozelli"
+name = "Nitrogen_Dean_and_Bozzelli"
 shortDesc = u""
 longDesc = u"""
 Anthony M. Dean and Joseph W. Bozzelli
 Combustion Chemistry of Nitrogen
 in Gas-Phase Combustion Chemistry, 2000, pp 125-341
 """
+
 entry(
     index = 1,
     label = "O + N2 <=> N + NO",
