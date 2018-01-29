@@ -28,6 +28,7 @@ recommendedFamilies = {
 'Disproportionation':True,
 'Peroxyl_Disproportionation':False,
 'Peroxyl_Termination':False,
+'Bimolec_Hydroperoxide_Decomposition':False,
 'HO2_Elimination_from_PeroxyRadical':True,
 'H_Abstraction':True,
 'Intra_Retro_Diels_alder_bicyclic':True,
