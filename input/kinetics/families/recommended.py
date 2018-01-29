@@ -27,6 +27,7 @@ recommendedFamilies = {
 'Diels_alder_addition':True,
 'Disproportionation':True,
 'Peroxyl_Disproportionation':False,
+'Peroxyl_Termination':False,
 'HO2_Elimination_from_PeroxyRadical':True,
 'H_Abstraction':True,
 'Intra_Retro_Diels_alder_bicyclic':True,
