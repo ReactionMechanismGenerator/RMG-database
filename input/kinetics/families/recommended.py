@@ -51,6 +51,7 @@ recommendedFamilies = {
 'ketoenol':True,
 'lone_electron_pair_bond':False,
 'Singlet_Carbene_Intra_Disproportionation':True,
+'Singlet_Val6_to_triplet':True,
 'Intra_5_membered_conjugated_C=C_C=C_addition':True,
 'Intra_Diels_alder_monocyclic':True,
 'Concerted_Intra_Diels_alder_monocyclic_1,2_shiftH':True,
