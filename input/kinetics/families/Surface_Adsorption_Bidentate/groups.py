@@ -20,15 +20,15 @@ template(reactants=["Adsorbate", "VacantSite1", "VacantSite2"], products=["Adsor
 reverse = "Surface_Desorption_Bidentate"
 
 recipe(actions=[
-    ['CHANGE_BOND', '*1', '-1', '*2'],
-    ['FORM_BOND', '*1', 'S', '*3'],
-    ['FORM_BOND', '*2', 'S', '*4']
+    ['CHANGE_BOND', '*1', -1, '*2'],
+    ['FORM_BOND', '*1', 1, '*3'],
+    ['FORM_BOND', '*2', 1, '*4']
 ])
 
 entry(
     index = 1,
     label = "Adsorbate",
-    group = 
+    group =
 """
 1 *1 R u0 {2,[D,T]}
 2 *2 R u0 {1,[D,T]}
@@ -39,7 +39,7 @@ entry(
 entry(
     index = 2,
     label="VacantSite1",
-    group = 
+    group =
 """
 1 *3 Xv u0
 """,
@@ -49,7 +49,7 @@ entry(
 entry(
     index = 3,
     label="VacantSite2",
-    group = 
+    group =
 """
 1 *4 Xv u0
 """,
@@ -69,18 +69,18 @@ L1: VacantSite2
 
 forbidden(
     label = "chargedSurface1",
-    group = 
+    group =
 """
 1 *1 R u0 c-1 {2,T}
 2 *2 R u0 c+1 {1,T}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 The adsorbing molecule should not have a charge on the surface. I've written it specifically for the case of CO adsorption for now.
 
 e.g. this is not allowed:
-    
+
 -C#O+    -->  -C=O+
                | |
  X X           X X
@@ -89,21 +89,19 @@ e.g. this is not allowed:
 
 forbidden(
     label = "chargedSurface2",
-    group = 
+    group =
 """
 1 *1 R u0 c+1 {2,T}
 2 *2 R u0 c-1 {1,T}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 The adsorbing molecule should not have a charge on the surface. I've written it specifically for the case of CO adsorption for now.
 e.g. this is not allowed:
-    
+
 -C#O+    -->  -C=O+
                | |
  X X           X X
 """,
 )
-
-

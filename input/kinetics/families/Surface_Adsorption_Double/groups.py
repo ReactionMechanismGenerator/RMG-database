@@ -20,15 +20,15 @@ template(reactants=["Adsorbate", "VacantSite"], products=["Adsorbed"], ownRevers
 reverse = "Surface_Desorption_Double"
 
 recipe(actions=[
-    ['LOSE_RADICAL', '*1', '2'],
-    ['FORM_BOND', '*1', 'S', '*2'],
-    ['CHANGE_BOND', '*1', '1', '*2']
+    ['LOSE_RADICAL', '*1', 2],
+    ['FORM_BOND', '*1', 1, '*2'],
+    ['CHANGE_BOND', '*1', 1, '*2']
 ])
 
 entry(
     index = 1,
     label = "Adsorbate",
-    group = 
+    group =
 """
 1 *1 R u2
 """,
@@ -38,7 +38,7 @@ entry(
 entry(
     index = 2,
     label="VacantSite",
-    group = 
+    group =
 """
 1 *2 Xv u0
 """,
@@ -54,4 +54,3 @@ L1: Adsorbate
 L1: VacantSite
 """
 )
-

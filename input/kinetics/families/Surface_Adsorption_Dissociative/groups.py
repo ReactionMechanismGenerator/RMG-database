@@ -20,15 +20,15 @@ template(reactants=["Adsorbate", "VacantSite1", "VacantSite2"], products=["Adsor
 reverse = "Surface_Desorption_Associative"
 
 recipe(actions=[
-    ['BREAK_BOND', '*1', 'S', '*2'],
-    ['FORM_BOND', '*1', 'S', '*3'],
-    ['FORM_BOND', '*2', 'S', '*4']
+    ['BREAK_BOND', '*1', 1, '*2'],
+    ['FORM_BOND', '*1', 1, '*3'],
+    ['FORM_BOND', '*2', 1, '*4']
 ])
 
 entry(
     index = 1,
     label = "Adsorbate",
-    group = 
+    group =
 """
 1 *1 R u0 {2,S}
 2 *2 R u0 {1,S}
@@ -39,7 +39,7 @@ entry(
 entry(
     index = 2,
     label="VacantSite1",
-    group = 
+    group =
 """
 1 *3 Xv u0
 """,
@@ -49,7 +49,7 @@ entry(
 entry(
     index = 3,
     label="VacantSite2",
-    group = 
+    group =
 """
 1 *4 Xv u0
 """,
@@ -69,17 +69,17 @@ L1: VacantSite2
 
 forbidden(
     label = "adjacentradical1",
-    group = 
+    group =
 """
 1 *1 R u0 {2,[S,D,T]}
 2    R u1 {1,[S,D,T]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
-The adsorbing atom should not be adjacent to a radical. 
+The adsorbing atom should not be adjacent to a radical.
 e.g. this is not allowed:
-    
+
 CH2.-CH3    -->   CH2.-CH2   +   H
                        |         |
      X X               X         X
@@ -88,13 +88,13 @@ CH2.-CH3    -->   CH2.-CH2   +   H
 
 forbidden(
     label = "adjacentradical2",
-    group = 
+    group =
 """
 1 *2 R u0 {2,[S,D,T]}
 2    R u1 {1,[S,D,T]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Neither adsorbing atom should be adjacent to a radical
 e.g. this is not allowed:
@@ -108,14 +108,14 @@ CH2.-CH3    -->   CH2.-CH2   +   H
 
 forbidden(
     label = "disigma1",
-    group = 
+    group =
 """
 1 *1 R u0 {2,[S,D,T]}
 2    R u0 {1,[S,D,T]} {3,[S,D,T]}
 3    X u0 {2,[S,D,T]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 The adsorbing atom should not be adjacent to an atom that is already adsorbed.
 e.g. this is not allowed:
@@ -128,14 +128,14 @@ X    X X         X X  X
 
 forbidden(
     label = "disigma2",
-    group = 
+    group =
 """
 1 *2 R u0 {2,[S,D,T]}
 2    R u0 {1,[S,D,T]} {3,[S,D,T]}
 3    X u0 {2,[S,D,T]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 The adsorbing atom should not be adjacent to an atom that is already adsorbed.
 e.g. this is not allowed:
@@ -148,7 +148,7 @@ X    X X         X X  X
 
 forbidden(
     label = "disigma3",
-    group = 
+    group =
 """
 1 *1 R u0 {2,[S,D,T]}
 2    R u0 {1,[S,D,T]} {3,[S,D,T]}
@@ -156,7 +156,7 @@ forbidden(
 4    X u0 {3,[S,D,T]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 The adsorbing atom should not be next-nearest neighbor to an atom that is already adsorbed.
 """,
@@ -165,7 +165,7 @@ The adsorbing atom should not be next-nearest neighbor to an atom that is alread
 
 forbidden(
     label = "disigma4",
-    group = 
+    group =
 """
 1 *2 R u0 {2,[S,D,T]}
 2    R u0 {1,[S,D,T]} {3,[S,D,T]}
@@ -173,9 +173,8 @@ forbidden(
 4    X u0 {3,[S,D,T]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 The adsorbing atom should not be next-nearest neighbor to an atom that is already adsorbed.
 """,
 )
-

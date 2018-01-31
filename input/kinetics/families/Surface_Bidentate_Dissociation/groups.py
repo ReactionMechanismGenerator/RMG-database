@@ -21,16 +21,16 @@ template(reactants=["Combined", "VacantSite1", "VacantSite2"], products=["Adsorb
 reverse = "Surface_Bidentate_Association"
 
 recipe(actions=[
-    ['FORM_BOND', '*2', 'S', '*5'],
-    ['FORM_BOND', '*3', 'S', '*6'],
-    ['CHANGE_BOND', '*1', '-1', '*2'],
-    ['BREAK_BOND', '*2', 'S', '*3'],
+    ['FORM_BOND', '*2', 1, '*5'],
+    ['FORM_BOND', '*3', 1, '*6'],
+    ['CHANGE_BOND', '*1', -1, '*2'],
+    ['BREAK_BOND', '*2', 1, '*3'],
 ])
 
 entry(
     index = 1,
     label = "Combined",
-    group = 
+    group =
 """
 1 *1 R  u0 {2,[D,T]} {4,[S,D]}
 2 *2 R  u0 {1,[D,T]} {3,S}
@@ -43,7 +43,7 @@ entry(
 entry(
     index = 2,
     label="VacantSite1",
-    group = 
+    group =
 """
 1 *5 Xv u0
 """,
@@ -53,7 +53,7 @@ entry(
 entry(
     index = 2,
     label="VacantSite2",
-    group = 
+    group =
 """
 1 *6 Xv u0
 """,
@@ -70,4 +70,3 @@ L1: VacantSite1
 L1: VacantSite2
 """
 )
-

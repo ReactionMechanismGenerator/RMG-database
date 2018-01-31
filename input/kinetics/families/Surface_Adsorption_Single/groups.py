@@ -20,14 +20,14 @@ template(reactants=["Adsorbate", "VacantSite"], products=["Adsorbed"], ownRevers
 reverse = "Surface_Desorption_Single"
 
 recipe(actions=[
-    ['FORM_BOND', '*1', 'S', '*2'],
-    ['LOSE_RADICAL', '*1', '1']
+    ['FORM_BOND', '*1', 1, '*2'],
+    ['LOSE_RADICAL', '*1', 1]
 ])
 
 entry(
     index = 1,
     label = "Adsorbate",
-    group = 
+    group =
 """
 1 *1 R u1
 """,
@@ -37,7 +37,7 @@ entry(
 entry(
     index = 2,
     label="VacantSite",
-    group = 
+    group =
 """
 1 *2 Xv u0
 """,
@@ -57,17 +57,17 @@ L1: VacantSite
 
 forbidden(
     label = "adjacentradical1",
-    group = 
+    group =
 """
 1 *1 R u1 {2,S}
 2    R u1 {1,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
-The adsorbing atom should not be adjacent to a radical. 
+The adsorbing atom should not be adjacent to a radical.
 e.g. this is not allowed:
-    
+
 .O-O.    -->   .O-O
                   |
    X              X

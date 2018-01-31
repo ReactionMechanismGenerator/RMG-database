@@ -22,15 +22,15 @@ template(reactants=["Combined", "VacantSite"], products=["Adsorbate1", "Adsorbat
 reverse = "Surface_Association"
 
 recipe(actions=[
-    ['FORM_BOND', '*2', 'S', '*4'],
-    ['CHANGE_BOND', '*1', '1', '*3'],
-    ['BREAK_BOND', '*1', 'S', '*2']
+    ['FORM_BOND', '*2', 1, '*4'],
+    ['CHANGE_BOND', '*1', 1, '*3'],
+    ['BREAK_BOND', '*1', 1, '*2']
 ])
 
 entry(
     index = 1,
     label = "Combined",
-    group = 
+    group =
 """
 1 *1 R  u0 {2,S} {3,[S,D,T]}
 2 *2 R  u0 {1,S}
@@ -42,7 +42,7 @@ entry(
 entry(
     index = 2,
     label="VacantSite",
-    group = 
+    group =
 """
 1 *4 Xv u0
 """,
@@ -57,4 +57,3 @@ L1: Combined
 L1: VacantSite
 """
 )
-
