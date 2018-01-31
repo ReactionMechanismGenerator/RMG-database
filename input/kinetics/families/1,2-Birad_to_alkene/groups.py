@@ -9,7 +9,8 @@ longDesc = u"""
 
 template(reactants=["Y_12birad"], products=["Y_alkene"], ownReverse=False)
 
-reverse = "Alkene_to_1,2-birad"
+reverse = None
+reversible = False
 
 recipe(actions=[
     ['CHANGE_BOND', '*1', 1, '*2'],
