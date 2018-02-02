@@ -24,10 +24,10 @@ entry(
     index = 1,
     label = "diene_out",
     group = """
-1 *3 [Cd,O2d,S2d,S4d,S6d,N3d,N5dc] u0 {2,D}
-2 *4 [Cd,S4d,S6d,N3d,N5dc]        u0 {1,D} {3,S}
-3 *5 [Cd,S4d,S6d,N3d,N5dc]        u0 {2,S} {4,D}
-4 *6 [Cd,O2d,S2d,S4d,S6d,N3d,N5dc] u0 {3,D}
+1 *3 Cd u0 {2,D}
+2 *4 Cd u0 {1,D} {3,S}
+3 *5 Cd u0 {2,S} {4,D}
+4 *6 Cd u0 {3,D}
 """,
     kinetics = None,
 )
