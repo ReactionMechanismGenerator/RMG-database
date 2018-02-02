@@ -222,7 +222,7 @@ entry(
     group = 
 """
 1 * Cdd u0 {2,D} {3,D}
-2   Od  u0 {1,D}
+2   O2d  u0 {1,D}
 3   C   ux {1,D}
 """,
     statmech = GroupFrequencies(
@@ -929,7 +929,7 @@ entry(
     label = "Nitro",
     group = 
 """
-1 * N5d u0 {2,D} {3,S} {4,S}
+1 * N5dc u0 {2,D} {3,S} {4,S}
 2   O   u0 {1,D}
 3   O   u0 {1,S}
 4   R!H ux {1,S}
@@ -962,7 +962,7 @@ entry(
     label = "Nitrates",
     group = 
 """
-1 * N5d u0 {2,D} {3,S} {4,S}
+1 * N5dc u0 {2,D} {3,S} {4,S}
 2   O   u0 {1,D}
 3   O   u0 {1,S}
 4   O   u0 {1,S}

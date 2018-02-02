@@ -2949,3 +2949,40 @@ u"""
 Taken from entry: C9H9_5 <=> indene_25 + H_15
 """,
 )
+
+entry(
+    index = 184,
+    label = "SO2 + H <=> HOSO",
+    degeneracy = 2,
+    kinetics = Arrhenius(A=(2.37e+08, 'cm^3/(mol*s)'), n=1.63, Ea=(7339, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (1700, 'K')),
+    rank = 1,
+    shortDesc = u"""Training reaction from kinetics library: SOx""",
+    longDesc = 
+u"""
+M.A. Blitz, K.J. Hughes, M.J. Pilling, S.H. Robertson, J. Phys. Chem. A, 2006, 110(9), 2996–3009, doi: 10.1021/jp054722u
+As reported by Gimenez-Lopez, M. Martinez, A. Millera, R. Bilbao, M.U. Alzueta, Comb. Flame 2011, 158(1), 48-56, doi: 10.1016/j.combustflame.2010.07.017
+
+Originally a Troe expression was given, only k_inf was taken here:
+kinetics = Troe(
+        arrheniusHigh = Arrhenius(A=(2.37e+08, 'cm^3/(mol*s)'), n=1.63, Ea=(7339, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (1700, 'K')),
+        arrheniusLow = Arrhenius(A=(1.85e+37, 'cm^6/(mol^2*s)'), n=-6.14, Ea=(11075, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (1700, 'K')),
+        alpha=0.283, T3=(272, 'K'), T1=(3995, 'K'), efficiencies={'O=S=O': 10, 'O': 10, 'O=C=O': 2.5}),
+""",
+)
+
+entry(
+    index = 185,
+    label = "N2 + H <=> NNH",
+    degeneracy = 2,
+    kinetics = Arrhenius(A=(7.6e+15, 'cm^3/(mol*s)'), n=-0.64, Ea=(15333, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (25000, 'K')),
+    rank = 2,
+    shortDesc = u"""Training reaction from kinetics library: NOx""",
+    longDesc =
+u"""
+P.J.S.B. Caridade, S.P.J. Rodrigues, F. Sousa, A.J.C. Varandas, J. Phys. Chem. A ,2005, 109, 2356-2363, doi: 10.1021/jp045102g
+Fits to a total of 972 MRCI energies (based on the aug-cc-pVQZ basis set of Dunning27), scaled by the DMBE-SEC
+method to account for excitations higher than singles and doubles and the incompleteness of the one-electron basis set.
+The paper reports a HO-RR rate, and a sum-over-states rate (where vib-rot aren't assumed to be independent).
+The sum-over-states rate was taken here.
+""",
+)

@@ -285,8 +285,8 @@ entry(
     label = "CtOt",
     group = 
 """
-1 * Ct u0 {2,T}
-2   Ot u0 {1,T}
+1 * C2tc u0 p1 c-1 {2,T}
+2   O4tc u0 p1 c+1 {1,T}
 """,
     solute = SoluteData(
         S = -0.085,
@@ -412,11 +412,25 @@ Cb is attached to a 3rd R group that isn't in the ring,as in phenol.
 )
 
 entry(
+    index = 1050,
+    label = "C_singlet",
+    group = 
+"""
+1 * [C2s,C2d] u0 p1
+""",
+    solute = u'CssH2',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
     index = -4,
     label = "O",
     group = 
 """
-1 * [Os,Od,Ot] u0
+1 * [O2s,O2d,O4tc] u0
 """,
     solute = None,
     shortDesc = u"""""",
@@ -431,7 +445,7 @@ entry(
     label = "Oss",
     group = 
 """
-1 * Os u0
+1 * O2s u0
 """,
     solute = None,
     shortDesc = u"""""",
@@ -446,7 +460,7 @@ entry(
     label = "OssH",
     group = 
 """
-1 * Os u0 {2,S}
+1 * O2s u0 {2,S}
 2   H  u0 {1,S}
 """,
     solute = SoluteData(
@@ -468,7 +482,7 @@ entry(
     label = "Oss-noncyclic",
     group = 
 """
-1 * Os  u0 {2,S} {3,S}
+1 * O2s  u0 {2,S} {3,S}
 2   R!H u0 {1,S}
 3   R!H u0 {1,S}
 """,
@@ -488,10 +502,10 @@ u"""
 
 entry(
     index = 30,
-    label = "Od",
+    label = "O2d",
     group = 
 """
-1 * Od u0
+1 * O2d u0
 """,
     solute = SoluteData(
         S = 0.37,
@@ -512,8 +526,8 @@ entry(
     label = "OtCt",
     group = 
 """
-1 * Ot u0 {2,T}
-2   Ct u0 {1,T}
+1 * O4tc u0 p1 c+1 {2,T}
+2   C2tc u0 p1 c-1 {1,T}
 """,
     solute = SoluteData(
         S = 0.37,
@@ -566,8 +580,8 @@ entry(
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   R   u0 {1,S}
-3   Os  u0 {1,S}
-4   Os  u0 {1,S}
+3   O2s  u0 {1,S}
+4   O2s  u0 {1,S}
 """,
     solute = SoluteData(
         S = 0.0,
@@ -589,8 +603,8 @@ entry(
     group = 
 """
 1 * N3s      u0 {2,S} {3,S} {4,S}
-2   Os       u0 {1,S}
-3   Os       u0 {1,S}
+2   O2s       u0 {1,S}
+3   O2s       u0 {1,S}
 4   [Cb,N3b] u0 {1,S}
 """,
     solute = SoluteData(
@@ -613,9 +627,9 @@ entry(
     group = 
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
-2   Os  u0 {1,S}
-3   Os  u0 {1,S}
-4   Os  u0 {1,S}
+2   O2s  u0 {1,S}
+3   O2s  u0 {1,S}
+4   O2s  u0 {1,S}
 """,
     solute = SoluteData(
         S = -0.476,
@@ -1016,7 +1030,7 @@ entry(
     label = "S",
     group = 
 """
-1 * [S,Ss,Sd,Sa] u0
+1 * S u0 px
 """,
     solute = SoluteData(
         S = 0.643,
@@ -1034,10 +1048,10 @@ u"""
 
 entry(
     index = 31,
-    label = "Ss",
+    label = "S2s",
     group = 
 """
-1 * Ss u0
+1 * S2s u0 p2
 """,
     solute = SoluteData(
         S = 0.189,
@@ -1055,14 +1069,14 @@ u"""
 
 entry(
     index = 32,
-    label = "Ss-aromatic",
+    label = "S2s-aromatic",
     group = 
 """
-1 * Ss       u0 {2,S} {5,S}
-2   Cb       u0 {1,S} {3,B}
-3   [Cb,N3b] u0 {2,B} {4,B}
-4   [Cb,N3b] u0 {3,B} {5,B}
-5   Cb       u0 {1,S} {4,B}
+1 * S2s      u0 p2 {2,S} {5,S}
+2   Cb       u0    {1,S} {3,B}
+3   [Cb,N3b] u0    {2,B} {4,B}
+4   [Cb,N3b] u0    {3,B} {5,B}
+5   Cb       u0    {1,S} {4,B}
 """,
     solute = SoluteData(
         S = 0,
@@ -1080,10 +1094,10 @@ u"""
 
 entry(
     index = 33,
-    label = "Sd",
+    label = "S2d",
     group = 
 """
-1 * Sd u0
+1 * S2d u0 p2
 """,
     solute = SoluteData(
         S = 0.618,
@@ -1101,12 +1115,12 @@ u"""
 
 entry(
     index = 34,
-    label = "Sds",
+    label = "S4d",
     group = 
 """
-1 * Sd u0 p1 {2,S} {3,S}
-2   R  u0 {1,S}
-3   R  u0 {1,S}
+1 * S4d u0 p1 {2,S} {3,S}
+2   R   u0    {1,S}
+3   R   u0    {1,S}
 """,
     solute = SoluteData(
         S = 1.065,
@@ -1121,31 +1135,31 @@ u"""
 
 """,
 )
-#remove until we have hypervalent sulfur
-# entry(
-#     index = 35,
-#     label = "SdsOsOdOd",
-#     group = 
-# """
-# 1 * Sd u0 {2,D} {3,D} {4,S} {5,S}
-# 2   Od u0 {1,D}
-# 3   Od u0 {1,D}
-# 4   Os u0 {1,S}
-# 5   R  u0 {1,S}
-# """,
-#     solute = SoluteData(
-#         S = -0.505,
-#         B = -0.188,
-#         E = 0.0,
-#         L = 0.0,
-#         A = 0.0,
-#     ),
-#     shortDesc = u"""Platts fragment 35 sulfonate""",
-#     longDesc = 
-# u"""
 
-# """,
-# )
+entry(
+    index = 35,
+    label = "S6dd-OdOdOR",
+    group = 
+"""
+1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
+2   O2d   u0 p2 {1,D}
+3   O2d   u0 p2 {1,D}
+4   O2s   u0 p2 {1,S}
+5   R    u0    {1,S}
+""",
+    solute = SoluteData(
+        S = -0.505,
+        B = -0.188,
+        E = 0.0,
+        L = 0.0,
+        A = 0.0,
+    ),
+    shortDesc = u"""Platts fragment 35 sulfonate""",
+    longDesc = 
+u"""
+
+""",
+)
 
 tree(
 """
@@ -1163,16 +1177,17 @@ L1: R
             L4: CdsH
             L4: Cds-noH
         L3: Ct
-            L4: CtOt
+        L3: CtOt
         L3: Cdd
         L3: Cb
             L4: Cb-H
             L4: Cb-noHnoRing
+        L3: C_singlet
     L2: O
         L3: Oss
             L4: OssH
             L4: Oss-noncyclic
-        L3: Od
+        L3: O2d
         L3: OtCt
     L2: N
         L3: N3s
@@ -1197,10 +1212,11 @@ L1: R
         L3: N3b
             L4: N3bpyr
     L2: S
-        L3: Ss
-            L4: Ss-aromatic
-        L3: Sd
-            L4: Sds
+        L3: S2s
+            L4: S2s-aromatic
+        L3: S2d
+        L3: S4d
+        L3: S6dd-OdOdOR
 """
 )
 

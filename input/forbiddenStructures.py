@@ -515,3 +515,18 @@ We don't need it as a resonance structure of carbon monsulfide for reactivity si
 reaction families (CO_Disprop [also deals with CS], R_Add_CSm).
 """,
 )
+
+entry(
+    label = "[N][N]",
+    group =
+"""
+multiplicity [5]
+1 N u2 p0 c0 {2,S}
+2 N u2 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+N#N can be excited to [N]=[N], but we shouldn't allow it to reach [N][N]
+""",
+)

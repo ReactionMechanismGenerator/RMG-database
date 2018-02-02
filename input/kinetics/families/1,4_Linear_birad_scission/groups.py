@@ -24,10 +24,10 @@ entry(
     label = "RJJ",
     group = 
 """
-1 *1 R!H u1 {2,[S,D]}
-2 *2 R!H u0 {1,[S,D]} {3,S}
-3 *3 R!H u0 {2,S} {4,[S,D]}
-4 *4 R!H u1 {3,[S,D]}
+1 *1 R!H u1 px c0 {2,[S,D]}
+2 *2 R!H u0 px c0 {1,[S,D]} {3,S}
+3 *3 R!H u0 px c0 {2,S} {4,[S,D]}
+4 *4 R!H u1 px c0 {3,[S,D]}
 """,
     kinetics = None,
 )
