@@ -150,6 +150,12 @@ multiplicity 2
 2 H u0 p0 c0 {1,S}
 3 O u0 p2 c0 {1,D}
 
+HOS
+multiplicity 2
+1 S u1 p2 c0 {3,S}
+2 H u0 p0 c0 {3,S}
+3 O u0 p2 c0 {1,S} {2,S}
+
 HOSO
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
