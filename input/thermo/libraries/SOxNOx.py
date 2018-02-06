@@ -9,7 +9,7 @@ longDesc = u"""
 
 entry(
     index = 1,
-    label = "HOSH",
+    label = "HSOH",
     molecule = 
 """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -20,7 +20,7 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([49.66,56.19,60.09,64.27,68.62,71.38,75.68],'J/(mol*K)'),
-        H298 = (-236.3,'kJ/mol'),
+        H298 = (-118.83,'kJ/mol','+|-',4.2),
         S298 = (270.4,'J/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -29,7 +29,12 @@ u"""
 UMP2=full/6-31G+
 A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall
 The Journal of Chemical Physics 101, 9405 (1994); doi: http://dx.doi.org/10.1063/1.467971
-As reported by: M.U. Alzueta, R. Bilbao, P. Glarborg, Comb. Flame, 2001, 127(4) 2234-2251, doi: 10.1016/S0010-2180(01)00325-X 
+As reported by: M.U. Alzueta, R. Bilbao, P. Glarborg, Comb. Flame, 2001, 127(4) 2234-2251, doi: 10.1016/S0010-2180(01)00325-X
+
+H298 is taken from Table 7 in P.A. Denis, J. Sulfur Chem. 2008, 29(3-4), 327-352, doi: 10.1080/17415990802047352
+This is significantly different that the value reported  by Marshall 1994 (-236.3 kJ/mol),
+but in agreement with SulfurGlargotgBozzelli library that took it from a currently untraceable source.
+Also in agreement with Table 8 in P.A. Denis, Molecular Physics 2008, 106(21-23), 2557-2567, doi: 10.1080/00268970802603523
 """,
 )
 
@@ -45,7 +50,7 @@ multiplicity 3
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([7.22,7.55,7.84,8.08,8.43,8.62,8.95],'cal/(mol*K)'),
-        H298 = (1.2,'kcal/mol'),
+        H298 = (1.2,'kcal/mol','+|-',0.3),
         S298 = (53.01,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -53,6 +58,8 @@ multiplicity 3
 u"""
 R.J. Kee, F.M. Rupley, J.A. Miller, The Chemkin Thermodynamic Data Base, Sandia Report SAND87-8215, Sandia National Laboratories, Livermore, California, 1991
 As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
+
+H298 is taken from Table 7 in P.A. Denis, J. Sulfur Chem. 2008, 29(3-4), 327-352, doi: 10.1080/17415990802047352
 """,
 )
 
@@ -68,7 +75,7 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([9.54,10.41,11.12,11.71,12.55,13.03,13.61],'cal/(mol*K)'),
-        H298 = (-71.0,'kcal/mol'),
+        H298 = (-70.94,'kcal/mol','+|-',0.05),
         S298 = (59.29,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -76,6 +83,8 @@ entry(
 u"""
 R.J. Kee, F.M. Rupley, J.A. Miller, The Chemkin Thermodynamic Data Base, Sandia Report SAND87-8215, Sandia National Laboratories, Livermore, California, 1991
 As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
+
+H298 is taken from Table 7 in P.A. Denis, J. Sulfur Chem. 2008, 29(3-4), 327-352, doi: 10.1080/17415990802047352
 """,
 )
 
@@ -114,16 +123,21 @@ multiplicity 2
 3 O u0 p2 c0 {1,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.02,9.93,10.73,11.36,12.22,12.73,13.34],'cal/(mol*K)'),
-        H298 = (-5.4,'kcal/mol'),
-        S298 = (57.80,'cal/(mol*K)'),
+        Tdata = ([300,400,500,700,1000,1300,2000],'K'),
+        Cpdata = ([36.15,38.6,41.4,45.8,50.1,52.7,55.6],'J/(mol*K)'),
+        H298 = (-5.2,'kcal/mol','+|-',0.5),
+        S298 = (57.65,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
 u"""
-H.M. Chiang, J.W. Bozzelli, Quantum Rice–Ramsberger–Kassel (QRRK) Analysis on Reaction of HSO + O, H + SO2, and OH + SO; HO2 and HOSO Formation and Dissociation
-As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
+A. Goumri, D. Laakso, J‐D R. Rocha, C.E. Smith, P. Marshall
+The Journal of Chemical Physics 102, 161 (1995)
+doi: 10.1063/1.469387
+Table V.
+Cp(200K) = 33.7; Cp(300K) interpolated
+
+H298 is taken from Table 7 in P.A. Denis, J. Sulfur Chem. 2008, 29(3-4), 327-352, doi: 10.1080/17415990802047352
 """,
 )
 
@@ -138,16 +152,77 @@ multiplicity 2
 3 H u0 p0 c0 {1,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.71,9.42,10.00,10.45,11.08,11.53,12.33],'cal/(mol*K)'),
-        H298 = (0.0,'kcal/mol'),
-        S298 = (57.15,'cal/(mol*K)'),
+        Tdata = ([300,400,500,700,1000,1300,2000],'K'),
+        Cpdata = ([36.85,39.6,42.0,45.3,48.6,50.9,54.2],'J/(mol*K)'),
+        H298 = (-1.6,'kcal/mol','+|-',0.5),
+        S298 = (57.48,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
 u"""
-H.M. Chiang, J.W. Bozzelli, Quantum Rice–Ramsberger–Kassel (QRRK) Analysis on Reaction of HSO + O, H + SO2, and OH + SO; HO2 and HOSO Formation and Dissociation
-As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
+A. Goumri, D. Laakso, J‐D R. Rocha, C.E. Smith, P. Marshall
+The Journal of Chemical Physics 102, 161 (1995)
+doi: 10.1063/1.469387
+Table VI.
+Cp(200K) = 34.1; Cp(300K) interpolated
+
+H298 is taken from Table 7 in P.A. Denis, J. Sulfur Chem. 2008, 29(3-4), 327-352, doi: 10.1080/17415990802047352
+""",
+)
+
+entry(
+    index = 25,
+    label = "HSS",
+    molecule =
+"""
+multiplicity 2
+1 S u1 p1 c0 {2,D} {3,S}
+2 S u0 p2 c0 {1,D}
+3 H u0 p0 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.62,10.30,10.80,11.19,11.80,12.26,12.98],'cal/(mol*K)'),
+        H298 = (25.0,'kcal/mol','+|-',0.5),
+        S298 = (60.95,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Taken from the SulfurGlarborgH2S library with comment:
+Zhou - K. Sendt, B.S. Haynes, J. Phys. Chem. A 109 (2005) 8180 to 8186;
+K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
+25.84  60.94
+
+H298 is taken from Table 7 in P.A. Denis, J. Sulfur Chem. 2008, 29(3-4), 327-352, doi: 10.1080/17415990802047352
+""",
+)
+
+entry(
+    index = 26,
+    label = "HSSH",
+    molecule =
+"""
+1 S u0 p2 c0 {2,S} {3,S}
+2 S u0 p2 c0 {1,S} {4,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.63,12.90,13.84,14.57,15.73,16.62,18.02],'cal/(mol*K)'),
+        H298 = (3.70,'kcal/mol','+|-',0.5),
+        S298 = (61.62,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Taken from the SulfurGlarborgH2S library with comment:
+Zhou - K. Sendt, B.S. Haynes, J. Phys. Chem. A 109 (2005) 8180 to 8186;
+K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
+3.70  61.61
+
+H298 (updated uncertainty) is taken from Table 7 in P.A. Denis, J. Sulfur Chem. 2008, 29(3-4), 327-352, doi: 10.1080/17415990802047352
 """,
 )
 
@@ -164,7 +239,7 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([9.53,11.13,12.66,13.95,15.82,17.00,18.44],'cal/(mol*K)'),
-        H298 = (-11.3,'kcal/mol'),
+        H298 = (-12.5,'kcal/mol','+|-',1),
         S298 = (57.26,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -172,6 +247,8 @@ entry(
 u"""
 H.M. Chiang, J.W. Bozzelli, Quantum Rice–Ramsberger–Kassel (QRRK) Analysis on Reaction of HSO + O, H + SO2, and OH + SO; HO2 and HOSO Formation and Dissociation
 As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
+
+H298 is taken from Table 7 in P.A. Denis, J. Sulfur Chem. 2008, 29(3-4), 327-352, doi: 10.1080/17415990802047352
 """,
 )
 
@@ -243,7 +320,7 @@ multiplicity 2
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([16.74,18.76,20.13,21.07,22.22,22.94,24.02],'cal/(mol*K)'),
-        H298 = (-93.5,'kcal/mol'),
+        H298 = (-89.4,'kcal/mol','+|-',0.72),
         S298 = (70.72,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -251,40 +328,44 @@ multiplicity 2
 u"""
 H.M. Chiang, J.W. Bozzelli, Quantum Rice–Ramsberger–Kassel (QRRK) Analysis on Reaction of HSO + O, H + SO2, and OH + SO; HO2 and HOSO Formation and Dissociation
 As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
+H298 is calculated at fc-CCSD(T)/cc-pV(T+d)Z and taken from W. Klopper, D.P. Tew, N. Gonzalez-Garcia, M. Olzmann, J. Chem. Phys. 2008, 129, 114308, doi: 10.1063/1.2973637
 """,
 )
 
-entry(
-    index = 11,
-    label = "HSOO",
-    molecule = 
-"""
-multiplicity 2
-1 S u0 p2 c0 {2,S} {4,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 O u1 p2 c0 {2,S}
-4 H u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,700,1000,1300,2500],'K'),
-        Cpdata = ([51.7,56.8,60.5,65.6,70.2,72.9,76.0],'J/(mol*K)'),
-        H298 = (111.5,'kJ/mol'),
-        S298 = (283.0,'J/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Table 5
-MP2=FULL/6-31G(d)
-A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall
-J. Phys. Chem. A, 1999, 103, 11328-11335, doi: 10.1021/jp9924070
-""",
-)
+# entry(
+#     index = 11,
+#     label = "HSOO",
+#     molecule =
+# """
+# multiplicity 2
+# 1 S u0 p2 c0 {2,S} {4,S}
+# 2 O u0 p2 c0 {1,S} {3,S}
+# 3 O u1 p2 c0 {2,S}
+# 4 H u0 p0 c0 {1,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,700,1000,1300,2500],'K'),
+#         Cpdata = ([51.7,56.8,60.5,65.6,70.2,72.9,76.0],'J/(mol*K)'),
+#         H298 = (111.5,'kJ/mol'),
+#         S298 = (283.0,'J/(mol*K)'),
+#     ),
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+# Table 5
+# MP2=FULL/6-31G(d)
+# A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall
+# J. Phys. Chem. A, 1999, 103, 11328-11335, doi: 10.1021/jp9924070
+#
+# Also available from the SulfurGlarborgH2S library where H298 is 32.29 kcal/mol (here it is 26.65 kcal/mol).
+# Since this library should describe species with trusted thermo, this entry is commented-out until a definite value is obtained.
+# """,
+# )
 
 entry(
     index = 13,
     label = "HOSO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
@@ -299,7 +380,7 @@ multiplicity 2
         S298 = (282.3,'J/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Table 4
 MP2=FULL/6-31G(d)
@@ -605,3 +686,26 @@ Cp @ 6000 K 0.25%. Calculated from original tables.
 """,
 )
 
+entry(
+    index = 3,
+    label = "NSO",
+    molecule =
+"""
+1 N u1 p1 c0 {2,D}
+2 S u0 p1 c0 {1,D} {3,D}
+3 O u0 p2 c0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([42.70,46.11,48.85,50.92,53.56,55.04,56.70],'J/(mol*K)'),
+        H298 = (175.31,'kJ/mol','+|-',2.092),
+        S298 = (262.6,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Taken from the SulfurGlarborgNS library
+
+H298 is updated from Table 7 in P.A. Denis, J. Sulfur Chem. 2008, 29(3-4), 327-352, doi: 10.1080/17415990802047352
+""",
+)
