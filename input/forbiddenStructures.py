@@ -8,16 +8,17 @@ longDesc = u"""
 """
 entry(
     label = "Ods",
-    group = 
+    group =
 """
-1 O ux {2,D} {3,S}
+1 O ux c0 {2,D} {3,S}
 2 R ux {1,D}
 3 R ux {1,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
-
+This forbids O with both single and double bonds WHILE keeping a zero partial charge.
+This does not forbid ozone, [O-][O+]=O
 """,
 )
 
