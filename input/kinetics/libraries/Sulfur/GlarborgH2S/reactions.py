@@ -2934,7 +2934,7 @@ entry(
     degeneracy = 1,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
-            A = (9e+11, 'cm^3/(mol*s)'),
+            A = (3.5e+12, 'cm^3/(mol*s)'),
             n = 0.155,
             Ea = (-1432, 'cal/mol'),
             T0 = (1, 'K'),
