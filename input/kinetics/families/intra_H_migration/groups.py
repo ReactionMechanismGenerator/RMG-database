@@ -4248,12 +4248,6 @@ L1: RnH
                     L6: R5H_SSSS
                         L7: R5H_CCC
                             L8: R5H_CCC_O
-                            L8: R5H_CC(O2d)CC
-                            L8: R5H_CCC(O2d)C
-                            L8: R5H_CCCC(O2d)
-                            L8: R5H_CC(Od)CC
-                            L8: R5H_CCC(Od)C
-                            L8: R5H_CCCC(Od)
                             L8: R5H_CCC_CdCd
                             L8: R5H_CCCd(Cd)
                         L7: R5H_SSSS_CsCsS
