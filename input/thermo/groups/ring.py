@@ -120,9 +120,9 @@ entry(
     label = "Cyclopropene",
     group = 
 """
-1 * [Cs,N]    u0 {2,S} {3,S}
-2   [C,N,O,S] u0 {1,S} {3,D}
-3   [C,N,O,S] u0 {1,S} {2,D}
+1 * [Cs,N]  u0 {2,S} {3,S}
+2   [C,N,S] u0 {1,S} {3,D}
+3   [C,N,S] u0 {1,S} {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4416,7 +4416,7 @@ L1: Ring
         L3: Cyclopropadiene
         L3: Cyclopropadiene2
         L3: Cyclopropyne
-		L3: oxirene
+        L3: oxirene
         L3: Cyclopropatriene
         L3: Ethylene_oxide
         L3: dioxirane

@@ -865,3 +865,29 @@ u"""
 
 """,
 )
+
+entry(
+    index = 36,
+    label = "O3",
+    molecule =
+"""
+1 O u0 p3 c-1 {2,S}
+2 O u0 p1 c+1 {1,S} {3,D}
+3 O u0 p2 c0 {2,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.46261,0.00958278,-7.08736e-06,1.36337e-09,2.96965e-13,16061.5,12.1419], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[5.42937,0.00182038,-7.70561e-07,1.49929e-10,-1.07556e-14,15235.3,-3.26639], Tmin=(1000,'K'), Tmax=(5000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (5000,'K'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Ozone
+Taken from the GlarborgH2S thermo library,
+in agreement with the data by Burcat et al. (H298 = 34.10 kcal/mol in GlarborgH2S vs. 33.89 kcal/mol in BurcatNS)
+""",
+)
