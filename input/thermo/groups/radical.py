@@ -9,7 +9,7 @@ longDesc = u"""
 entry(
     index = 0,
     label = "Radical",
-    group = "OR{RJ, RJ2_singlet, RJ2_triplet, RJ3}",
+    group = "OR{RJ, RJ2_triplet, RJ3}",
     thermo = u'RJ',
     shortDesc = u"""""",
     longDesc = 
@@ -8178,132 +8178,6 @@ u"""
 )
 
 entry(
-    index = 3000,
-    label = "RJ2_singlet",
-    group = "OR{CH2_singlet, Oa_singlet, SiJ2_singlet, SJ2_singlet, CO, CdJ2-Sd_singlet}",
-    thermo = u'CH2_singlet',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 111,
-    label = "CH2_singlet",
-    group = 
-"""
-1 * C2s u0 p1 {2,S} {3,S}
-2   H  u0 {1,S}
-3   H  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.27,-1.08,-2.14,-3.23,-5.18,-6.74,-9.47],'cal/(mol*K)'),
-        H298 = (223.7,'kcal/mol'),
-        S298 = (-1.73,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""BDE JANOSCHEK & ROSSI. S and Cp from CH2_t.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 128,
-    label = "CO",
-    group = 
-"""
-1 * C2d u0 p1 {2,D}
-2   O2d u0 p2 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.5,-2.38,-3.32,-4.24,-5.75,-6.88,-8.59],'cal/(mol*K)'),
-        H298 = (103.73,'kcal/mol'),
-        S298 = (-6.47,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Value for carbon monoxide calculated in relation to formaldehyde from NIST values""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 261,
-    label = "CdJ2-Sd_singlet",
-    group = 
-"""
-1 * C2d u0 p1 {2,D}
-2   S2d u0 p2 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.97,-2.97,-3.85,-4.6,-5.82,-6.79,-8.44],'cal/(mol*K)'),
-        H298 = (143.53,'kcal/mol'),
-        S298 = (-6.23,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 131,
-    label = "Oa_singlet",
-    group = 
-"""
-1 * Oa u0 p3
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.8,-3.05,-3.33,-3.62,-4.24,-4.86,-6.28],'cal/(mol*K)'),
-        H298 = (266.9,'kcal/mol'),
-        S298 = (-8.02,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""BDE from SCHALLEY et al. S and Cp values taken from Oa_t""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 3002,
-    label = "SiJ2_singlet",
-    group = 
-"""
-1 * Si u0 p1
-""",
-    thermo = u'CH2_singlet',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 3003,
-    label = "SJ2_singlet",
-    group = 
-"""
-1 * S u0 p3
-""",
-    thermo = u'SJ2_triplet',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-This probably should be run as I doubt it's that close to the triplet. -nyee
-""",
-)
-
-entry(
     index = 132,
     label = "RJ3",
     group = 
@@ -9006,13 +8880,6 @@ L1: Radical
         L3: Oa_triplet
         L3: SiJ2_triplet
         L3: SJ2_triplet
-    L2: RJ2_singlet
-        L3: CH2_singlet
-        L3: CO
-        L3: CdJ2-Sd_singlet
-        L3: Oa_singlet
-        L3: SiJ2_singlet
-        L3: SJ2_singlet
     L2: RJ3
         L3: CJ3
         L3: SiJ3
