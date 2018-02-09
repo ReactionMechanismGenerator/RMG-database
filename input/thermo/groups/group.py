@@ -40844,6 +40844,28 @@ u"""
 )
 
 entry(
+    index = 2500,
+    label = "Oa(S)",
+    group =
+"""
+1 * O u0 p3 c0
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.968,4.968,4.968,4.968,4.968,4.968,4.968],'cal/(mol*K)'),
+        H298 = (104.81,'kcal/mol'),
+        S298 = (34.25,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""PrimaryTHermoLibrary""",
+    longDesc =
+u"""
+H298: ATcT version 1.110
+level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
+level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
+""",
+)
+
+entry(
     index = 1094,
     label = "O2d",
     group = 
@@ -42200,6 +42222,21 @@ u"""
 )
 
 entry(
+    index = 2504,
+    label = "SiJ2(S)",
+    group =
+"""
+1 * Si u0 p1
+""",
+    thermo = u'CJ2_singlet',
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
     index = 1400,
     label = "S",
     group = 
@@ -42226,6 +42263,27 @@ entry(
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 2501,
+    label = "Sa(S)",
+    group =
+"""
+1 * S u0 p3 c0
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.97,4.97,4.97,4.97,4.97,5.13,5.06],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (66.2,'kcal/mol','+|-',1),
+        S298 = (40.11,'cal/(mol*K)','+|-',1),
+    ),
+    shortDesc = u"""SulfurLibrary""",
+    longDesc =
+u"""
+H298, S298, Cp1000, Cp1500 from [10], rest from AGV
+Singlet sulfur, thermo data copied from triplet sulfur, likely very incorrect (taken from SulfurLibrary).
 """,
 )
 
@@ -46220,6 +46278,48 @@ J. Phys. Chem. A 2012, 116, 9033-9057.
 )
 
 entry(
+    index = 2502,
+    label = "CdJ2_singlet-Od",
+    group =
+"""
+1 * C2d u0 p1 {2,D}
+2   O2d u0 p2 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.5,-2.38,-3.32,-4.24,-5.75,-6.88,-8.59],'cal/(mol*K)'),
+        H298 = (103.73,'kcal/mol'),
+        S298 = (-6.47,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Calculated in relation to formaldehyde from NIST values""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 2503,
+    label = "CdJ2_singlet-Sd",
+    group =
+"""
+1 * C2d u0 p1 {2,D}
+2   S2d u0 p2 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.97,-2.97,-3.85,-4.6,-5.82,-6.79,-8.44],'cal/(mol*K)'),
+        H298 = (143.53,'kcal/mol'),
+        S298 = (-6.23,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
     index = 1922,
     label = "CdJ2_singlet-(Cdd-Od)",
     group =
@@ -46483,6 +46583,8 @@ L1: R
         L3: CJ2_singlet
             L4: CsJ2_singlet-HH
             L4: CsJ2_singlet-OsH
+            L4: CdJ2_singlet-Od
+            L4: CdJ2_singlet-Sd
             L4: CdJ2_singlet-(Cdd-Od)
             L4: CsJ2_singlet-CH
                 L5: CsJ2_singlet-CsH
@@ -48385,6 +48487,7 @@ L1: R
                 L5: Cs-CbSsHH
                 L5: Cs-C=SSsHH
     L2: O
+        L3: Oa(S)
         L3: O2d
             L4: O2d-Cd
             L4: O2d-O2d
@@ -48453,11 +48556,13 @@ L1: R
                 L5: O2s-Cs(Cds-S2d)
             L4: O2s-CS
                 L5: O2s-CsS4d
-		L5: O2s-CsS6dd
+                L5: O2s-CsS6dd
             L4: O2s-SH
                 L5: O2s-S4dH
     L2: Si
+        L3: SiJ2(S)
     L2: S
+        L3: Sa(S)
         L3: S2d
             L4: S2d-Cd
             L4: S2d-S2d
@@ -48566,14 +48671,14 @@ L1: R
             L4: S6td-CtOdH
     L2: N
         L3: N0sc
-		L3: N1s
-			L4:	N1s-H
-			L4:	N1s-N1s
-			L4:	N1s-Cs
-			L4:	N1s-N3s
-			L4:	N1s-O2s
+        L3: N1s
+            L4: N1s-H
+            L4: N1s-N1s
+            L4: N1s-Cs
+            L4: N1s-N3s
+            L4: N1s-O2s
         L3: N1dc
-		L3: N1sc
+        L3: N1sc
         L3: N3s
             L4: N3s-CHH
                 L5: N3s-CsHH
