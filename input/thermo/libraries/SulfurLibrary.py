@@ -78,12 +78,13 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([8.18,8.49,8.89,9.31,10.16,10.93,12.3],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (-4.9,'kcal/mol','+|-',1),
+        H298 = (-4.9,'kcal/mol','+|-',0.5),
         S298 = (49.18,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""All from [10]""",
     longDesc = 
 u"""
+H298 (updated uncertainty) is taken from Table 7 in P.A. Denis, J. Sulfur Chem. 2008, 29(3-4), 327-352, doi: 10.1080/17415990802047352
 """,
 )
 

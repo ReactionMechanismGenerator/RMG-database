@@ -8827,7 +8827,7 @@ Added by Beat Buesser, value for reaction: HONO + NH2 = NO2 + NH3 (B&D #40f) in 
 
 entry(
     index = 3000,
-    label = "N5d/H/NonDeOO;H_rad",
+    label = "N5dc/H/NonDeOO;H_rad",
     kinetics = ArrheniusEP(
         A = (2.4e+08, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -8846,7 +8846,7 @@ Added by Beat Buesser, value for reaction: HNO2 + H = H2 + NO2 (B&D #41a) in 'Ga
 
 entry(
     index = 3000,
-    label = "N5d/H/NonDeOO;O_atom_triplet",
+    label = "N5dc/H/NonDeOO;O_atom_triplet",
     kinetics = ArrheniusEP(
         A = (1.7e+08, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -8865,7 +8865,7 @@ Added by Beat Buesser, value for reaction: HNO2 + O = OH + NO2 (B&D #41b) in 'Ga
 
 entry(
     index = 3000,
-    label = "N5d/H/NonDeOO;O_pri_rad",
+    label = "N5dc/H/NonDeOO;O_pri_rad",
     kinetics = ArrheniusEP(
         A = (1.2e+06, 'cm^3/(mol*s)'),
         n = 2,
@@ -8884,7 +8884,7 @@ Added by Beat Buesser, value for reaction: HNO2 + OH = H2O + NO2 (B&D #41c) in '
 
 entry(
     index = 3000,
-    label = "N5d/H/NonDeOO;C_methyl",
+    label = "N5dc/H/NonDeOO;C_methyl",
     kinetics = ArrheniusEP(
         A = (810000, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -8903,7 +8903,7 @@ Added by Beat Buesser, value for reaction: HNO2 + CH3 = NO2 + CH4 (B&D #41d) in 
 
 entry(
     index = 3000,
-    label = "N5d/H/NonDeOO;NH2_rad",
+    label = "N5dc/H/NonDeOO;NH2_rad",
     kinetics = ArrheniusEP(
         A = (920000, 'cm^3/(mol*s)'),
         n = 1.94,
