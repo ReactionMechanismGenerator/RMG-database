@@ -1453,21 +1453,21 @@ multiplicity 2
     thermo = NASA(
         polynomials = [
             NASAPolynomial(
-                coeffs = [3.72076, 0.0241095, 0.000129351, -2.38191e-07, 1.28204e-10, 13740.3, 12.42],
+                coeffs = [3.94447, 0.00371676, 0.000199109, -3.98552e-07, 2.61611e-10, 17316.8, 11.5954],
                 Tmin = (10, 'K'),
-                Tmax = (589.69, 'K'),
+                Tmax = (391.042, 'K'),
             ),
             NASAPolynomial(
-                coeffs = [-0.734489, 0.0733613, -4.43407e-05, 1.29026e-08, -1.44971e-12, 13934.8, 28.7553],
-                Tmin = (589.69, 'K'),
+                coeffs = [-2.19466, 0.0665475, -4.20309e-05, 1.27717e-08, -1.49365e-12, 17796.7, 35.4456],
+                Tmin = (391.042, 'K'),
                 Tmax = (3000, 'K'),
             ),
         ],
         Tmin = (10, 'K'),
         Tmax = (3000, 'K'),
-        E0 = (114.2, 'kJ/mol'),
+        E0 = (143.977, 'kJ/mol'),
         Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (448.981, 'J/(mol*K)'),
+        CpInf = (378.308, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for ToluenePlusHOrtho calculated by Lawrence Lai""",
     longDesc = 
@@ -1505,21 +1505,21 @@ multiplicity 2
     thermo = NASA(
         polynomials = [
             NASAPolynomial(
-                coeffs = [3.72371, 0.0274434, 9.94458e-05, -1.67849e-07, 7.8708e-11, 14002.6, 12.4],
+                coeffs = [3.94238, 0.00373416, 0.000189866, -3.65712e-07, 2.29978e-10, 17932.8, 11.9908],
                 Tmin = (10, 'K'),
-                Tmax = (707.48, 'K'),
+                Tmax = (408.683, 'K'),
             ),
             NASAPolynomial(
-                coeffs = [0.2413, 0.0705396, -4.15544e-05, 1.17818e-08, -1.29269e-12, 13909.5, 23.8555],
-                Tmin = (707.48, 'K'),
+                coeffs = [-2.52355, 0.0669984, -4.2256e-05, 1.28111e-08, -1.49441e-12, 18461.5, 37.4016],
+                Tmin = (408.683, 'K'),
                 Tmax = (3000, 'K'),
             ),
         ],
         Tmin = (10, 'K'),
         Tmax = (3000, 'K'),
-        E0 = (116.404, 'kJ/mol'),
+        E0 = (149.091, 'kJ/mol'),
         Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (448.981, 'J/(mol*K)'),
+        CpInf = (378.308, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for ToluenePlusHMeta calculated by Lawrence Lai""",
     longDesc = 
@@ -1558,21 +1558,21 @@ multiplicity 2
     thermo = NASA(
         polynomials = [
             NASAPolynomial(
-                coeffs = [3.7767, 0.0221935, 0.000122585, -2.04708e-07, 9.87735e-11, 13994.9, 13.1807],
+                coeffs = [3.94034, 0.00368031, 0.000177387, -3.21352e-07, 1.88539e-10, 17945.9, 12.8922],
                 Tmin = (10, 'K'),
-                Tmax = (675.578, 'K'),
+                Tmax = (440.604, 'K'),
             ),
             NASAPolynomial(
-                coeffs = [-0.565165, 0.07235, -4.30629e-05, 1.2323e-08, -1.36284e-12, 14023.6, 28.2956],
-                Tmin = (675.578, 'K'),
+                coeffs = [-3.18806, 0.0684758, -4.3479e-05, 1.325e-08, -1.55155e-12, 18573.3, 41.4312],
+                Tmin = (440.604, 'K'),
                 Tmax = (3000, 'K'),
             ),
         ],
         Tmin = (10, 'K'),
         Tmax = (3000, 'K'),
-        E0 = (116.338, 'kJ/mol'),
+        E0 = (149.191, 'kJ/mol'),
         Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (448.981, 'J/(mol*K)'),
+        CpInf = (378.308, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for ToluenePlusHPara calculated by Lawrence Lai""",
     longDesc = 
@@ -1610,21 +1610,21 @@ multiplicity 2
     thermo = NASA(
         polynomials = [
             NASAPolynomial(
-                coeffs = [3.8507, 0.00911754, 0.000234697, -4.61266e-07, 2.80881e-10, 14243, 12.2953],
+                coeffs = [3.92063, 0.00475061, 0.000180439, -3.25908e-07, 1.86072e-10, 18796.8, 11.3844],
                 Tmin = (10, 'K'),
-                Tmax = (522.569, 'K'),
+                Tmax = (522.294, 'K'),
             ),
             NASAPolynomial(
-                coeffs = [-0.884215, 0.0766366, -4.88867e-05, 1.50468e-08, -1.78165e-12, 14310.8, 27.9796],
-                Tmin = (522.569, 'K'),
+                coeffs = [-2.5955, 0.068928, -4.48671e-05, 1.40017e-08, -1.67289e-12, 19282.8, 36.7249],
+                Tmin = (522.294, 'K'),
                 Tmax = (3000, 'K'),
             ),
         ],
         Tmin = (10, 'K'),
         Tmax = (3000, 'K'),
-        E0 = (118.372, 'kJ/mol'),
+        E0 = (156.255, 'kJ/mol'),
         Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (448.981, 'J/(mol*K)'),
+        CpInf = (378.308, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for ToluenePlusHSub calculated by Lawrence Lai""",
     longDesc = 
@@ -2279,21 +2279,21 @@ multiplicity 2
     thermo = NASA(
         polynomials = [
             NASAPolynomial(
-                coeffs = [3.94447, 0.00371676, 0.000199109, -3.98552e-07, 2.61611e-10, 17316.8, 11.5954],
+                coeffs = [3.72076, 0.0241095, 0.000129351, -2.38191e-07, 1.28204e-10, 13740.3, 12.42],
                 Tmin = (10, 'K'),
-                Tmax = (391.042, 'K'),
+                Tmax = (589.69, 'K'),
             ),
             NASAPolynomial(
-                coeffs = [-2.19466, 0.0665475, -4.20309e-05, 1.27717e-08, -1.49365e-12, 17796.7, 35.4456],
-                Tmin = (391.042, 'K'),
+                coeffs = [-0.734489, 0.0733613, -4.43407e-05, 1.29026e-08, -1.44971e-12, 13934.8, 28.7553],
+                Tmin = (589.69, 'K'),
                 Tmax = (3000, 'K'),
             ),
         ],
         Tmin = (10, 'K'),
         Tmax = (3000, 'K'),
-        E0 = (143.977, 'kJ/mol'),
+        E0 = (114.2, 'kJ/mol'),
         Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (378.308, 'J/(mol*K)'),
+        CpInf = (448.981, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1=CC=C[CH]C1C calculated by Lawrence Lai""",
     longDesc = 
@@ -2333,21 +2333,21 @@ multiplicity 2
     thermo = NASA(
         polynomials = [
             NASAPolynomial(
-                coeffs = [3.94238, 0.00373416, 0.000189866, -3.65712e-07, 2.29978e-10, 17932.8, 11.9908],
+                coeffs = [3.72371, 0.0274434, 9.94458e-05, -1.67849e-07, 7.8708e-11, 14002.6, 12.4],
                 Tmin = (10, 'K'),
-                Tmax = (408.683, 'K'),
+                Tmax = (707.48, 'K'),
             ),
             NASAPolynomial(
-                coeffs = [-2.52355, 0.0669984, -4.2256e-05, 1.28111e-08, -1.49441e-12, 18461.5, 37.4016],
-                Tmin = (408.683, 'K'),
+                coeffs = [0.2413, 0.0705396, -4.15544e-05, 1.17818e-08, -1.29269e-12, 13909.5, 23.8555],
+                Tmin = (707.48, 'K'),
                 Tmax = (3000, 'K'),
             ),
         ],
         Tmin = (10, 'K'),
         Tmax = (3000, 'K'),
-        E0 = (149.091, 'kJ/mol'),
+        E0 = (116.404, 'kJ/mol'),
         Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (378.308, 'J/(mol*K)'),
+        CpInf = (448.981, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1[CH]C(C)C=CC=1 calculated by Lawrence Lai""",
     longDesc = 
@@ -2387,21 +2387,21 @@ multiplicity 2
     thermo = NASA(
         polynomials = [
             NASAPolynomial(
-                coeffs = [3.94034, 0.00368031, 0.000177387, -3.21352e-07, 1.88539e-10, 17945.9, 12.8922],
+                coeffs = [3.7767, 0.0221935, 0.000122585, -2.04708e-07, 9.87735e-11, 13994.9, 13.1807],
                 Tmin = (10, 'K'),
-                Tmax = (440.604, 'K'),
+                Tmax = (675.578, 'K'),
             ),
             NASAPolynomial(
-                coeffs = [-3.18806, 0.0684758, -4.3479e-05, 1.325e-08, -1.55155e-12, 18573.3, 41.4312],
-                Tmin = (440.604, 'K'),
+                coeffs = [-0.565165, 0.07235, -4.30629e-05, 1.2323e-08, -1.36284e-12, 14023.6, 28.2956],
+                Tmin = (675.578, 'K'),
                 Tmax = (3000, 'K'),
             ),
         ],
         Tmin = (10, 'K'),
         Tmax = (3000, 'K'),
-        E0 = (149.191, 'kJ/mol'),
+        E0 = (116.338, 'kJ/mol'),
         Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (378.308, 'J/(mol*K)'),
+        CpInf = (448.981, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1C=CC(C)[CH]C=1 calculated by Lawrence Lai""",
     longDesc = 
@@ -2441,21 +2441,21 @@ multiplicity 2
     thermo = NASA(
         polynomials = [
             NASAPolynomial(
-                coeffs = [3.92063, 0.00475061, 0.000180439, -3.25908e-07, 1.86072e-10, 18796.8, 11.3844],
+                coeffs = [3.8507, 0.00911754, 0.000234697, -4.61266e-07, 2.80881e-10, 14243, 12.2953],
                 Tmin = (10, 'K'),
-                Tmax = (522.294, 'K'),
+                Tmax = (522.569, 'K'),
             ),
             NASAPolynomial(
-                coeffs = [-2.5955, 0.068928, -4.48671e-05, 1.40017e-08, -1.67289e-12, 19282.8, 36.7249],
-                Tmin = (522.294, 'K'),
+                coeffs = [-0.884215, 0.0766366, -4.88867e-05, 1.50468e-08, -1.78165e-12, 14310.8, 27.9796],
+                Tmin = (522.569, 'K'),
                 Tmax = (3000, 'K'),
             ),
         ],
         Tmin = (10, 'K'),
         Tmax = (3000, 'K'),
-        E0 = (156.255, 'kJ/mol'),
+        E0 = (118.372, 'kJ/mol'),
         Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (378.308, 'J/(mol*K)'),
+        CpInf = (448.981, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1(C)[CH]C=CC=C1 calculated by Lawrence Lai""",
     longDesc = 
