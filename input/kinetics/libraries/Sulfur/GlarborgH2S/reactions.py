@@ -782,7 +782,6 @@ entry(
     index = 48,
     label = "SH + SO2 <=> HSSO2",
     degeneracy = 1,
-    duplicate = True,
     kinetics = Arrhenius(
         A = (1e+13, 'cm^3/(mol*s)'),
         n = 0,
@@ -794,6 +793,27 @@ u"""
 Zhou est (2009)
 """,
 )
+
+# entry(
+#     index = 259,
+#     label = "HSSO2 <=> SH + SO2",
+#     degeneracy = 1,
+#     duplicate = True,
+#     kinetics = ThirdBody(
+#         arrheniusLow = Arrhenius(A=(1e+17, 'cm^3/(mol*s)'), n=0, Ea=(3000, 'cal/mol'), T0=(1, 'K')),
+#         efficiencies = {},
+#     ),
+#     longDesc =
+# u"""
+# Zhou est (2009)
+#
+# alongd comment:
+# The reactions "SH + SO2 <=> HSSO2", "HSSO2 <=> SH + SO2" in this library are taken from
+# Zhou, C. Ph.D. thesis, The University of Sydney, 2009
+# I couldn't locate this thesis, and I ASSUME that these two represent the same pathway, each from a different direction.
+# I'm leaving only the high-P limit reaction in this library, and commenting out the ThirdBody one.
+# """,
+# )
 
 entry(
     index = 49,
@@ -4300,21 +4320,6 @@ entry(
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
-    index = 259,
-    label = "HSSO2 <=> SH + SO2",
-    degeneracy = 1,
-    duplicate = True,
-    kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(A=(1e+17, 'cm^3/(mol*s)'), n=0, Ea=(3000, 'cal/mol'), T0=(1, 'K')),
-        efficiencies = {},
     ),
     longDesc = 
 u"""

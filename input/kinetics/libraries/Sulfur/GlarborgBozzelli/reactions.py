@@ -1027,6 +1027,9 @@ entry(
     longDesc = 
 u"""
 [69]
+alongd comments:
+- ref [69] is: DeMore, W. B., M. J. Molina, S. P. Sander, D. M. Golden, R. F. Hampson, M. J. Kurylo, C. J. Howard, and A. R. Ravishankara. "JPL Publication 87-41." Pasadena, CA (1987): 1.
+- an updated rate is available in the GlarborgH2S library taken from: Sendt K Haynes BS Proc Combust Inst 2007, 31, 257-265 
 """,
 )
 

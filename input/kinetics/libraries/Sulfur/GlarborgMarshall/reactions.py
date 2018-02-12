@@ -1752,6 +1752,7 @@ entry(
     longDesc = 
 u"""
 ALZ/GLA01 HIG/MUR80
+alongd comment: HIG/MUR80 is https://doi.org/10.1246/bcsj.53.15; Rate determined at 4500-6000 K
 """,
 )
 
