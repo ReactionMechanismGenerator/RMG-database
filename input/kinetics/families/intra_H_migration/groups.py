@@ -3870,6 +3870,289 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 266,
+    label = "R6H_RS(M)SMS",
+    group = 
+"""
+1 *1 R!H u1 {2,[S,D,T,B]}
+2 *4 R!H u0 {1,[S,D,T,B]} {3,S} {8,[D,T,B]}
+3 *6 R!H u0 {2,S} {4,S}
+4 *7 R!H u0 {3,S} {5,[D,T,B]}
+5 *5 R!H u0 {4,[D,T,B]} {6,S}
+6 *2 R!H u0 {5,S} {7,S}
+7 *3 H   u0 {6,S}
+8    R!H u0 {2,[D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 267,
+    label = "R4H_SDS_SM",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 Cd  u0 {1,S} {3,D}
+3 *5 Cd  u0 {2,D} {4,S}
+4 *2 R!H u0 {3,S} {5,S} {6,S}
+5 *3 H   u0 {4,S}
+6    C   u0 {4,S} {7,[D,T,B]}
+7    C   u0 {6,[D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 268,
+    label = "R5H_CCC_CdCd",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 C u0 {1,S} {3,S}
+3 *6 C u0 {2,S} {4,S}
+4 *5 C u0 {3,S} {5,S}
+5 *2 R!H u0 {4,S} {6,S} {7,[S,D,T,B]}
+6 *3 H u0 {5,S}
+7    Cd u0 {5,[S,D,T,B]} {8,D}
+8    Cd u0 {7,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 269,
+    label = "R5H_CCCd(Cd)",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 Cd u0 {1,S} {3,S}
+3 *6 C u0 {2,S} {4,S}
+4 *5 C u0 {3,S} {5,S} {7,D}
+5 *2 R!H u0 {4,S} {6,S}
+6 *3 H u0 {5,S}
+7    Cd u0 {4,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 270,
+    label = "R6H_SSSS(M)S",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 R!H u0 {1,S} {3,S}
+3 *6 R!H u0 {2,S} {4,S}
+4 *7 R!H u0 {3,S} {5,S}
+5 *5 R!H u0 {4,S} {6,S} {8,[D,T,B]}
+6 *2 R!H u0 {5,S} {7,S}
+7 *3 H   u0 {6,S}
+8    Cd  u0 {5,[D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 271,
+    label = "R4H_SS(D)S",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 R!H u0 {1,S} {3,S}
+3 *5 R!H u0 {2,S} {4,S} {6,D}
+4 *2 R!H u0 {3,S} {5,S}
+5 *3 H   u0 {4,S}
+6    R!H u0 {3,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 272,
+    label = "R5H_S(D)SMS",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 R!H u0 {1,S} {3,S} {7,D}
+3 *6 R!H u0 {2,S} {4,[D,T,B]}
+4 *5 R!H u0 {3,[D,T,B]} {5,S}
+5 *2 R!H u0 {4,S} {6,S}
+6 *3 H   u0 {5,S}
+7    R!H u0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 273,
+    label = "R4H_SSS_SM",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 R!H u0 {1,S} {3,S}
+3 *5 R!H u0 {2,S} {4,S}
+4 *2 R!H u0 {3,S} {5,S} {6,S}
+5 *3 H   u0 {4,S}
+6    R!H u0 {4,S} {7,[D,T,B]}
+7    R!H u0 {6,[D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 274,
+    label = "R4H_S(D)SS_SM",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 R!H u0 {1,S} {3,S} {8,D}
+3 *5 R!H u0 {2,S} {4,S}
+4 *2 R!H u0 {3,S} {5,S} {6,S}
+5 *3 H   u0 {4,S}
+6    R!H u0 {4,S} {7,[D,T,B]}
+7    R!H u0 {6,[D,T,B]}
+8    R!H u0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 275,
+    label = "R3H_SS_12cy5_RingSSDSS",
+    group = 
+"""
+1 *1 R!H u1 {2,S} {7,S}
+2 *4 R!H u0 {1,S} {3,S} {5,S}
+3 *2 R!H u0 {2,S} {4,S}
+4 *3 H   u0 {3,S}
+5    R!H u0 {2,S} {6,D}
+6    R!H u0 {5,D} {7,S}
+7    R!H u0 {1,S} {6,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 276,
+    label = "R3H_SS_12cy5_RingSSSDS",
+    group = 
+"""
+1 *1 R!H u1 {2,S} {7,S}
+2 *4 R!H u0 {1,S} {3,S} {5,S}
+3 *2 R!H u0 {2,S} {4,S}
+4 *3 H   u0 {3,S}
+5    R!H u0 {2,S} {6,S}
+6    R!H u0 {5,S} {7,D}
+7    R!H u0 {1,S} {6,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 277,
+    label = "R6H_SSSSS_SM",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 R!H u0 {1,S} {3,S}
+3 *6 R!H u0 {2,S} {4,S}
+4 *7 R!H u0 {3,S} {5,S}
+5 *5 R!H u0 {4,S} {6,S}
+6 *2 R!H u0 {5,S} {7,S} {8,S}
+7 *3 H   u0 {6,S}
+8    R!H u0 {6,S} {9,[D,T,B]}
+9    R!H u0 {8,[D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 278,
+    label = "R6H_S(M)SSSS_SD",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 R!H u0 {1,S} {3,S} {10,D}
+3 *6 R!H u0 {2,S} {4,S}
+4 *7 R!H u0 {3,S} {5,S}
+5 *5 R!H u0 {4,S} {6,S}
+6 *2 R!H u0 {5,S} {7,S} {8,S}
+7 *3 H   u0 {6,S}
+8    R!H u0 {6,S} {9,[D,T,B]}
+9    R!H u0 {8,[D,T,B]}
+10   R!H u0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 279,
+    label = "R2H_S_RingSSDSD",
+    group = 
+"""
+1 *1 R!H u1 {2,S} {6,D}
+2 *2 R!H u0 {1,S} {3,S} {4,S}
+3 *3 H   u0 {2,S}
+4    R!H u0 {2,S} {5,D}
+5    R!H u0 {4,D} {6,S}
+6    R!H u0 {1,D} {5,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 280,
+    label = "R2H_S_RingSSD(S)SD",
+    group = 
+"""
+1 *1 R!H u1 {2,S} {6,D}
+2 *2 R!H u0 {1,S} {3,S} {4,S}
+3 *3 H   u0 {2,S}
+4    R!H u0 {2,S} {5,D}
+5    R!H u0 {4,D} {6,S} {7,S}
+6    R!H u0 {1,D} {5,S}
+7    R!H u0 {5,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 281,
+    label = "R2H_S_RingS(S)SDSD",
+    group = 
+"""
+1 *1 R!H u1 {2,S} {6,D}
+2 *2 R!H u0 {1,S} {3,S} {4,S}
+3 *3 H   u0 {2,S}
+4    R!H u0 {2,S} {5,D} {7,S}
+5    R!H u0 {4,D} {6,S}
+6    R!H u0 {1,D} {5,S}
+7    R!H u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 282,
+    label = "R4H_SDS_SMCy5",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 Cd  u0 {1,S} {3,D}
+3 *5 Cd  u0 {2,D} {4,S}
+4 *2 R!H u0 {3,S} {5,S} {6,S}
+5 *3 H   u0 {4,S}
+6    C   u0 {4,S} {7,[D,T,B]}
+7    C   u0 {6,[D,T,B]} {8,S} {11,S}
+8    C   u0 {7,S} {9,D}
+9    C   u0 {8,D} {10,S}
+10   C   u0 {9,S} {11,D}
+11   C   u0 {7,S} {10,D}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: RnH
@@ -3879,6 +4162,9 @@ L1: RnH
                 L5: R2H_S_cy3
                 L5: R2H_S_cy4
                 L5: R2H_S_cy5
+                    L6: R2H_S_RingSSDSD
+                        L7: R2H_S_RingSSD(S)SD
+                        L7: R2H_S_RingS(S)SDSD
             L4: R2H_D
             L4: R2H_B
     L2: R3Hall
@@ -3893,6 +4179,8 @@ L1: RnH
                     L6: R3H_SS_23cy4
                     L6: R3H_SS_13cy5
                     L6: R3H_SS_12cy5
+                        L7: R3H_SS_12cy5_RingSSDSS
+                        L7: R3H_SS_12cy5_RingSSSDS
                     L6: R3H_SS_23cy5
                     L6: R3H_SS_2Cd
                     L6: R3H_SS_O
@@ -3918,6 +4206,9 @@ L1: RnH
                         L7: R4H_SSS_OCs
                             L8: R4H_SSS_O(Cs)Cs
                                 L9: R4H_SSS_O(Cs)CsCs
+                        L7: R4H_SSS_SM
+                            L8: R4H_S(D)SS_SM
+                        L7: R4H_SS(D)S
                     L6: R4H_DSS
                     L6: R4H_TSS
                     L6: R4H_BSS
@@ -3938,6 +4229,8 @@ L1: RnH
                     L6: R4H_BSB
             L4: R4H_SMS
                 L5: R4H_SDS
+                    L6: R4H_SDS_SM
+                        L7: R4H_SDS_SMCy5
                 L5: R4H_STS
                 L5: R4H_SBS
             L4: R4H_SMM
@@ -3955,9 +4248,8 @@ L1: RnH
                     L6: R5H_SSSS
                         L7: R5H_CCC
                             L8: R5H_CCC_O
-                            L8: R5H_CC(O2d)CC
-                            L8: R5H_CCC(O2d)C
-                            L8: R5H_CCCC(O2d)
+                            L8: R5H_CCC_CdCd
+                            L8: R5H_CCCd(Cd)
                         L7: R5H_SSSS_CsCsS
                         L7: R5H_SSSS_OCC
                             L8: R5H_SSSS_OCC_C
@@ -3984,6 +4276,7 @@ L1: RnH
                     L6: R5H_BSSB
             L4: R5H_RSMS
                 L5: R5H_SSMS
+                    L6: R5H_S(D)SMS
                 L5: R5H_DSMS
                 L5: R5H_TSMS
                 L5: R5H_BSMS
@@ -4020,6 +4313,9 @@ L1: RnH
                                 L9: R6H_SSSSS_OO(Cs/Cs)C(Cs/Cs)
                             L8: R6H_SSSSS_OOCCC(Cs/Cs)
                         L7: R6H_SSSSS_bicyclopentane
+                        L7: R6H_SSSS(M)S
+                        L7: R6H_SSSSS_SM
+                            L8: R6H_S(M)SSSS_SD
                     L6: R6H_SSSSD
                     L6: R6H_SSSST
                     L6: R6H_SSSSB
@@ -4039,6 +4335,7 @@ L1: RnH
                     L6: R6H_BSSST
                     L6: R6H_BSSSB
             L4: R6H_RSSMS
+                L5: R6H_RS(M)SMS
             L4: R6H_RSMSR
             L4: R6H_SMSSR
             L4: R6H_SMSMS
