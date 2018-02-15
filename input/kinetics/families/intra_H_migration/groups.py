@@ -4359,6 +4359,186 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 293,
+    label = "R5H_CCC(Cd)",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 C u0 {1,S} {3,S}
+3 *6 C u0 {2,S} {4,S}
+4 *5 C u0 {3,S} {5,S} {7,D}
+5 *2 R!H u0 {4,S} {6,S}
+6 *3 H u0 {5,S}
+7    Cd u0 {4,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 294,
+    label = "R4H_SS(Cd)S",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 R!H u0 {1,S} {3,S}
+3 *5 R!H u0 {2,S} {4,S} {6,D}
+4 *2 R!H u0 {3,S} {5,S}
+5 *3 H   u0 {4,S}
+6    Cd  u0 {3,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 295,
+    label = "R2H_S_cys2_5_7",
+    group = 
+"""
+1 *1 R!H u1 {2,S} {6,[S,D,B]} {7,[S,D,B]}
+2 *2 R!H u0 {1,S} {3,S} {4,[S,D,B]}
+3 *3 H   u0 {2,S}
+4    R!H u0 {2,[S,D,B]} {5,[S,D,B]}
+5    R!H u0 {4,[S,D,B]} {6,[S,D,B]}
+6    R!H u0 {1,[S,D,B]} {5,[S,D,B]} {11,[S,D,B]}
+7    R!H u0 {1,[S,D,B]} {8,[S,D,B]}
+8    R!H u0 {7,[S,D,B]} {9,[S,D,B]}
+9    R!H u0 {8,[S,D,B]} {10,[S,D,B]}
+10   R!H u0 {9,[S,D,B]} {11,[S,D,B]}
+11   R!H u0 {10,[S,D,B]} {6,[S,D,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 296,
+    label = "R6H_SSSS(Cd)S",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 R!H u0 {1,S} {3,S}
+3 *6 R!H u0 {2,S} {4,S}
+4 *7 R!H u0 {3,S} {5,S}
+5 *5 R!H u0 {4,S} {6,S} {8,D}
+6 *2 R!H u0 {5,S} {7,S}
+7 *3 H   u0 {6,S}
+8    Cd  u0 {5,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 297,
+    label = "R5H_C(Cd)CC",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 C u0 {1,S} {3,S} {7,D}
+3 *6 C u0 {2,S} {4,S}
+4 *5 C u0 {3,S} {5,S}
+5 *2 R!H u0 {4,S} {6,S}
+6 *3 H u0 {5,S}
+7    Cd u0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 298,
+    label = "R4H_D(S)SB",
+    group = 
+"""
+1 *1 R!H u1 {2,D}
+2 *4 Cd u0 {1,D} {3,S} {6,[S,D,B]}
+3 *5 Cb u0 {2,S} {4,B}
+4 *2 R!H u0 {3,B} {5,S}
+5 *3 H  u0 {4,S}
+6    C u0 {2,[S,D,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 299,
+    label = "R5H_SS(D)MS",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 R!H u0 {1,S} {3,S} {7,D}
+3 *6 R!H u0 {2,S} {4,[D,T,B]}
+4 *5 R!H u0 {3,[D,T,B]} {5,S}
+5 *2 R!H u0 {4,S} {6,S}
+6 *3 H   u0 {5,S}
+7    Cd  u0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 300,
+    label = "R4H_S(Cd)SS",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 R!H u0 {1,S} {3,S} {6,D}
+3 *5 R!H u0 {2,S} {4,S}
+4 *2 R!H u0 {3,S} {5,S}
+5 *3 H   u0 {4,S}
+6    Cd  u0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 301,
+    label = "R6H_RS(Cd)SMS",
+    group = 
+"""
+1 *1 R!H u1 {2,[S,D,T,B]}
+2 *4 R!H u0 {1,[S,D,T,B]} {3,S} {8,D}
+3 *6 R!H u0 {2,S} {4,S}
+4 *7 R!H u0 {3,S} {5,[D,T,B]}
+5 *5 R!H u0 {4,[D,T,B]} {6,S}
+6 *2 R!H u0 {5,S} {7,S}
+7 *3 H   u0 {6,S}
+8    Cd u0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 302,
+    label = "C_rad_out_H/Cyclopentadiene",
+    group = 
+"""
+1 *1 C  u1 {2,S} {3,S}
+2    H  u0 {1,S}
+3    Cs u0 {1,S} {4,S} {7,S}
+4    Cd u0 {3,S} {5,D}
+5    Cd u0 {4,D} {6,S}
+6    Cd u0 {5,S} {7,D}
+7    Cd u0 {6,D} {3,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 303,
+    label = "R6H_S(Cd)SSSS",
+    group = 
+"""
+1 *1 R!H u1 {2,S}
+2 *4 R!H u0 {1,S} {3,S} {8,D}
+3 *6 R!H u0 {2,S} {4,S}
+4 *7 R!H u0 {3,S} {5,S}
+5 *5 R!H u0 {4,S} {6,S}
+6 *2 R!H u0 {5,S} {7,S}
+7 *3 H   u0 {6,S}
+8    Cd  u0 {2,D}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: RnH
@@ -4368,6 +4548,7 @@ L1: RnH
                 L5: R2H_S_cy3
                 L5: R2H_S_cy4
                 L5: R2H_S_cy5
+                    L6: R2H_S_cys2_5_7
             L4: R2H_D
             L4: R2H_B
     L2: R3Hall
@@ -4403,6 +4584,8 @@ L1: RnH
             L4: R4H_RSR
                 L5: R4H_RSS
                     L6: R4H_SSS
+                        L7: R4H_SS(Cd)S
+                        L7: R4H_S(Cd)SS
                         L7: R4H_SSS_SCs
                         L7: R4H_SSS_CsS
                         L7: R4H_SSS_OCs
@@ -4424,7 +4607,8 @@ L1: RnH
                 L5: R4H_RSB
                     L6: R4H_SSB
                     L6: R4H_DSB
-                        L7: R4H_DSB_benzofulvenyl
+                        L7: R4H_D(S)SB
+                            L8: R4H_DSB_benzofulvenyl
                     L6: R4H_TSB
                     L6: R4H_BSB
             L4: R4H_SMS
@@ -4445,6 +4629,8 @@ L1: RnH
                 L5: R5H_SSSR
                     L6: R5H_SSSS
                         L7: R5H_CCC
+                            L8: R5H_CCC(Cd)
+                            L8: R5H_C(Cd)CC
                             L8: R5H_CCC_O
                             L8: R5H_CC(O2d)CC
                             L8: R5H_CCC(O2d)C
@@ -4475,6 +4661,7 @@ L1: RnH
                     L6: R5H_BSSB
             L4: R5H_RSMS
                 L5: R5H_SSMS
+                    L6: R5H_SS(D)MS
                 L5: R5H_DSMS
                 L5: R5H_TSMS
                 L5: R5H_BSMS
@@ -4507,6 +4694,8 @@ L1: RnH
             L4: R6H_RSSSR
                 L5: R6H_SSSSR
                     L6: R6H_SSSSS
+                        L7: R6H_SSSS(Cd)S
+                        L7: R6H_S(Cd)SSSS
                         L7: R6H_SSSSS_OO
                             L8: R6H_SSSSS_OO(Cs/Cs)Cs
                                 L9: R6H_SSSSS_OO(Cs/Cs)C(Cs/Cs)
@@ -4531,6 +4720,7 @@ L1: RnH
                     L6: R6H_BSSST
                     L6: R6H_BSSSB
             L4: R6H_RSSMS
+                L5: R6H_RS(Cd)SMS
             L4: R6H_RSMSR
             L4: R6H_SMSSR
             L4: R6H_SMSMS
@@ -4582,6 +4772,7 @@ L1: Y_rad_out
         L3: C_rad_out_2H
         L3: C_rad_out_1H
             L4: C_rad_out_H/NonDeC
+                L5: C_rad_out_H/Cyclopentadiene
             L4: C_rad_out_H/NonDeO
             L4: C_rad_out_H/NonDeS
             L4: C_rad_out_H/OneDe
