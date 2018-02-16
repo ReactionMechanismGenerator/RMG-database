@@ -1768,21 +1768,14 @@ L1: Y_rad
                 L5: C_rad/H/OneDeC
                     L6: C_rad/H/CdCs
                     L6: C_rad/H/CtCs
-		    L6: C_rad/H/CbCs
+            L6: C_rad/H/CbCs
                 L5: C_rad/H/OneDeO
                 L5: C_rad/H/OneDeS
                 L5: C_rad/H/OneDeN
             L4: C_rad/H/TwoDe
                 L5: C_rad/H/CdCd
                     L6: C_rad_cyclopentadiene
-		L5: C_rad/H/CdCb
-            L4: CsJ-CSH
-                L5: CsJ-CsSsH
-                L5: CsJ-CtSsH
-                L5: CsJ-CbSsH
-                L5: CsJ-CdSsH
-                L5: CsJ-C=SSsH
-            L4: CsJ-SsSsH
+        L5: C_rad/H/CdCb
         L3: C_ter_rad
             L4: C_rad/NonDe
                 L5: C_rad/Cs3
