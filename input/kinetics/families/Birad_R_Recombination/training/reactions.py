@@ -45,22 +45,25 @@ kinetics = Troe(
 """,
 )
 
-entry(
-   index = 3,
-   label = "HSOO <=> HSO + O",
-   degeneracy = 1,
-   kinetics = Arrhenius(A=(2.01e+19, 's^-1'), n=-1.07, Ea=(28377, 'cal/mol'), T0=(1, 'K'), Tmin = (200, 'K'), Tmax = (2000, 'K')),
-   rank = 2,
-   shortDesc = u"""Training reaction from kinetics library: SOx""",
-   longDesc =
-u"""
-T range: 200-2000 K
-A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall, J. Phys. Chem. A, 1999, 103(51), 11328-11335 doi: 10.1021/jp9924070
-Table 7 on p. 11333
-calculations done at the QCISD(T)/6-311+G(3df,2p)//MP2=FULL/6-31G(d) level of theory
-Originally a Troe expression was given, only k_inf is taken here
-""",
-)
+#This is commented out because currently GAV can't estimate the reverse rate
+#which results in rates that are many orders of magnitude faster than they should
+#be, when this is no longer a problem for these species, this can be uncommented
+#entry(
+#   index = 3,
+#   label = "HSOO <=> HSO + O",
+#   degeneracy = 1,
+#   kinetics = Arrhenius(A=(2.01e+19, 's^-1'), n=-1.07, Ea=(28377, 'cal/mol'), T0=(1, 'K'), Tmin = (200, 'K'), Tmax = (2000, 'K')),
+#   rank = 2,
+#   shortDesc = u"""Training reaction from kinetics library: SOx""",
+#   longDesc =
+#u"""
+#T range: 200-2000 K
+#A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall, J. Phys. Chem. A, 1999, 103(51), 11328-11335 doi: 10.1021/jp9924070
+#Table 7 on p. 11333
+#calculations done at the QCISD(T)/6-311+G(3df,2p)//MP2=FULL/6-31G(d) level of theory
+#Originally a Troe expression was given, only k_inf is taken here
+#""",
+#)
 
 entry(
    index = 4,
@@ -75,5 +78,25 @@ T range: 1350-2100 K
 M. Rohrig, E.L. Petersen, D.F. Davidson, R.K. Hanson, Int. J. Chem. Kin., 1997, 29(7), 483-493, doi: 10.1002/(SICI)1097-4601(1997)29:7<483::AID-KIN2>3.0.CO;2-Q
 Shock tube measurement
 Originally a Troe expression was given, only k_inf is taken here
+""",
+)
+
+entry(
+   index = 5,
+   label = "CH3CH2OO = CH3CH2O + O",
+   degeneracy = 1,
+   kinetics = Arrhenius(A=(2.98e15, 's^-1'), n=-0.09, Ea=(61600, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+   rank = 3,
+   shortDesc = u"""CBS-Q//B3LYP/6-31G(d,p) calculation""",
+   longDesc =
+u"""
+From Detailed Kinetics and Thermochemistry of C2H5+O2:  Reaction Kinetics of the 
+Chemically-Activated and Stabilized CH3CH2OO Adduct
+J. Phys. Chem. A 2002, 106,7276-7293
+Sheng, Bozzelli, Dean and Chang
+'enthalpy
+calculated at the CBS-Q//B3LYP/6-31G(d,p) and entropy and
+heat capacity values from frequencies and structures at B3LYP/
+6-31G(d,p) level of theory'
 """,
 )
