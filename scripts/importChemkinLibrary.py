@@ -10,6 +10,7 @@ appropriate kinetics/libraries and thermo/libraries folder under the user-specif
 import argparse
 import logging
 import os
+from tqdm import tqdm
 from rmgpy.data.thermo import ThermoLibrary
 from rmgpy.data.kinetics import KineticsLibrary
 from rmgpy.data.base import Entry
@@ -30,16 +31,17 @@ if __name__ == '__main__':
     chemkinPath = args.chemkinPath[0]
     dictionaryPath = args.dictionaryPath[0]
     name = args.name[0]
-        
-    speciesList, reactionList = loadChemkinFile(chemkinPath, dictionaryPath)
     
+    print "Loading chemkin file"
+    speciesList, reactionList = loadChemkinFile(chemkinPath, dictionaryPath)
+    print "Finished loading"
     # Make full species identifier the species labels
-    for species in speciesList:
+    for species in tqdm(speciesList, desc="creating species identifiers"):
         species.label = getSpeciesIdentifier(species)
         species.index = -1
     # load thermo library entries
     thermoLibrary = ThermoLibrary(name=name)
-    for i in range(len(speciesList)): 
+    for i in tqdm(range(len(speciesList)), desc="generating thermo entries"): 
         species = speciesList[i]
         if species.thermo:
             thermoLibrary.loadEntry(index = i + 1,
@@ -54,7 +56,7 @@ if __name__ == '__main__':
     # load kinetics library entries                    
     kineticsLibrary = KineticsLibrary(name=name)
     kineticsLibrary.entries = {}
-    for i in range(len(reactionList)):
+    for i in tqdm(range(len(reactionList)), desc="generating kinetics entries"):
         reaction = reactionList[i]        
         entry = Entry(
                 index = i+1,
@@ -81,6 +83,7 @@ if __name__ == '__main__':
     except:
         pass
     
+    print "Saving libraries"
     thermoLibrary.save(os.path.join(databaseDirectory, 'thermo' ,'libraries', name + '.py'))
     kineticsLibrary.save(os.path.join(databaseDirectory, 'kinetics', 'libraries', name, 'reactions.py'))
     kineticsLibrary.saveDictionary(os.path.join(databaseDirectory, 'kinetics', 'libraries', name, 'dictionary.txt'))
