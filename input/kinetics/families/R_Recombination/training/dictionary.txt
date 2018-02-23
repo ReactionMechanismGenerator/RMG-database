@@ -321,15 +321,21 @@ multiplicity 3
 
 HSS
 multiplicity 2
-1 S u0 p2 c0 {2,S} {3,S}
-2 S u1 p2 c0 {1,S}
-3 H u0 p0 c0 {1,S}
+1   S u0 p2 c0 {2,S} {3,S}
+2 * S u1 p2 c0 {1,S}
+3   H u0 p0 c0 {1,S}
 
 HSSH
 1 S u0 p2 c0 {2,S} {3,S}
 2 S u0 p2 c0 {1,S} {4,S}
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {2,S}
+
+H2SS
+1 S u0 p1 c0 {2,S} {3,S} {4,D}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 S u0 p2 c0 {1,D}
 
 HOONO
 1 O u0 p2 c0 {2,S} {5,S}
