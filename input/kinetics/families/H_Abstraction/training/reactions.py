@@ -2172,7 +2172,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.48e+22, 'cm^3/(mol*s)'), n=-3.37, Ea=(5429, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: NOx""",
     longDesc = 
 u"""
 k8 in S. Xu, M.C. Lin, Proceedings of the Combustion Institute, 2009, 32, 99-106, doi: 10.1016/j.proci.2008.07.011
@@ -2187,7 +2187,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(1.61e+08, 'cm^3/(mol*s)'), n=1.25, Ea=(24443, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: NOx""",
     longDesc = 
 u"""
 k13 in S. Xu, M.C. Lin, Proceedings of the Combustion Institute, 2009, 32, 99-106, doi: 10.1016/j.proci.2008.07.011
@@ -2202,7 +2202,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(1.60e+14, 'cm^3/(mol*s)'), n=0, Ea=(25138, 'cal/mol'), T0=(1, 'K')),
     rank = 1,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: NOx""",
     longDesc = 
 u"""
 D.F. Davidson, R.K. Hanson, Int. J. Chem. Kin., 1990, 22(8), 843-861, doi: 10.1002/kin.550220805
@@ -2215,7 +2215,7 @@ entry(
     degeneracy = 4,
     kinetics = Arrhenius(A=(6.44e+01, 'cm^3/(mol*s)'), n=3.16, Ea=(30488, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: NOx""",
     longDesc = 
 u"""
 P. Raghunath, Y.H. Lin, M.C. Lin, Computational and Theoretical Chemistry, 2014, 1046, 73-80, doi: 10.1016/j.comptc.2014.07.011
@@ -2230,7 +2230,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.04e+05, 'cm^3/(mol*s)'), n=2.48, Ea=(-1886, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: NOx""",
     longDesc = 
 u"""
 k7 in: S. Xu, M.C. Lin, J. Phys. Chem. A, 2007, 111, 6730-6740, doi: 10.1021/jp069038+
@@ -2244,7 +2244,7 @@ entry(
     degeneracy = 3,
     kinetics = Arrhenius(A=(1.04e+07, 'cm^3/(mol*s)'), n=1.73, Ea=(56544, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (5000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: NOx""",
     longDesc = 
 u"""
 A.M. Mebel, E.W.G. Diau, M.C. Lin, K.Morokuma, J. Phys. Chem., 1996, 100, 7517-7525, doi: 10.1021/jp953644f
@@ -2259,7 +2259,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(3.23e+05, 'cm^3/(mol*s)'), n=2.23, Ea=(7168, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (5000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: NOx""",
     longDesc = 
 u"""
 A.M. Mebel, L.V. Moskaleva, M.C. Lin, J. Molec. Struc. (Theochem), 1999, 461-462, 223-238, doi: 10.1016/S0166-1280(98)00423-0
@@ -2274,7 +2274,7 @@ entry(
     degeneracy = 4,
     kinetics = Arrhenius(A=(1.36e+04, 'cm^3/(mol*s)'), n=2.87, Ea=(10691, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (5000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: NOx""",
     longDesc = 
 u"""
 A.M. Mebel, L.V. Moskaleva, M.C. Lin, J. Molec. Struc. (Theochem), 1999, 461-462, 223-238, doi: 10.1016/S0166-1280(98)00423-0
@@ -2289,7 +2289,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(2.62e+13, 'cm^3/(mol*s)'), n=0, Ea=(16846, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (5000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: NOx""",
     longDesc = 
 u"""
 A.M. Mebel, L.V. Moskaleva, M.C. Lin, J. Molec. Struc. (Theochem), 1999, 461-462, 223-238, doi: 10.1016/S0166-1280(98)00423-0
@@ -2306,7 +2306,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(3.5e+07, 'cm^3/(mol*s)'), n=1.94, Ea=(904, 'cal/mol'), T0=(1, 'K'), Tmin = (190, 'K'), Tmax = (2237, 'K')),
     rank = 1,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: SOx""",
     longDesc = 
 u"""
 J. Peng, X. Hu, P. Marshall, J. Phys. Chem. A, 1999, 103, 5307-5311, doi: 10.1021/jp984242l
@@ -2321,7 +2321,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(3.7e+06, 'cm^3/(mol*s)'), n=2.297, Ea=(9010, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: SOx""",
     longDesc = 
 u"""
 C.R. Zhou, K. Sendt, B.S. Haynes, J. Phys. Chem. A, 2008, 112, 3239-3247, doi: 10.1021/jp710488d
@@ -2335,7 +2335,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(1.58e+14, 'cm^3/(mol*s)'), n=0, Ea=(19700, 'cal/mol'), T0=(1, 'K'), Tmin = (2740, 'K'), Tmax = (3570, 'K')),
     rank = 1,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: SOx""",
     longDesc = 
 u"""
 Shock Tube
@@ -2349,7 +2349,7 @@ entry(
     degeneracy = 4,
     kinetics = Arrhenius(A=(2.04e+14, 'cm^3/(mol*s)'), n=0, Ea=(19910, 'cal/mol'), T0=(1, 'K'), Tmin = (830, 'K'), Tmax = (2500, 'K')),
     rank = 1,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: SOx""",
     longDesc = 
 u"""
 K. Tsuchiya, K. Yamashita, A. Miyoshi, H. Matsui, J. Phys. Chem., 1996, 100(43), 17202-17206, doi: 10.1021/jp961252i
@@ -2364,7 +2364,7 @@ entry(
     degeneracy = 6,
     kinetics = Arrhenius(A=(1.23e+14, 'cm^3/(mol*s)'), n=0, Ea=(14750, 'cal/mol'), T0=(1, 'K'), Tmin = (830, 'K'), Tmax = (2500, 'K')),
     rank = 1,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: SOx""",
     longDesc = 
 u"""
 K. Tsuchiya, K. Yamashita, A. Miyoshi, H. Matsui, J. Phys. Chem., 1996, 100(43), 17202-17206, doi: 10.1021/jp961252i
@@ -2374,26 +2374,12 @@ T > 830 K
 )
 
 entry(
-    index = 1041,
-    label = "H + HSS_r12 <=> H2_p + S2_p1",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.23e+08, 'cm^3/(mol*s)'), n=1.653, Ea=(-1105, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
-    longDesc = 
-u"""
-K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
-TST
-""",
-)
-
-entry(
     index = 1042,
     label = "S_rad + HSS_r12 <=> SH_p1 + S2_p1",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.17e+06, 'cm^3/(mol*s)'), n=2.200, Ea=(-600, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: SOx""",
     longDesc = 
 u"""
 K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
@@ -2407,7 +2393,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(9.56e+00, 'cm^3/(mol*s)'), n=3.370, Ea=(-1672, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: SOx""",
     longDesc = 
 u"""
 K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
@@ -2421,7 +2407,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(9.56e+00, 'cm^3/(mol*s)'), n=3.370, Ea=(-1672, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: SOx""",
     longDesc = 
 u"""
 K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
@@ -2435,7 +2421,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(6.40e+03, 'cm^3/(mol*s)'), n=2.980, Ea=(-1480, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: SOx""",
     longDesc = 
 u"""
 K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
@@ -2449,7 +2435,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(6.40e+03, 'cm^3/(mol*s)'), n=2.980, Ea=(-1480, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: SOx""",
     longDesc = 
 u"""
 K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
@@ -2463,7 +2449,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.01e+08, 'cm^3/(mol*s)'), n=1.55, Ea=(6614, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3500, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: NOx""",
     longDesc = 
 u"""
 C.C. Hsu, M.C. Lin, A.M. Mebel, C.F. Melius, J. Phys. Chem. A, 1997, 101(1), 60-66, doi: 10.1021/jp962286t
@@ -2477,7 +2463,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.46e+11, 'cm^3/(mol*s)'), n=0.720, Ea=(655, 'cal/mol'), T0=(1, 'K'), Tmin = (200, 'K'), Tmax = (3000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: NOx""",
     longDesc = 
 u"""
 M.R. Soto, M. Page, J. Chem. Phys., 1992, 97, 7287, doi: 10.1063/1.463501
@@ -2491,7 +2477,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.56e+08, 'cm^3/(mol*s)'), n=1.53, Ea=(16400, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: NOx""",
     longDesc = 
 u"""
 J.W. Boughton, S. Kristyan, M.C. Lin, Chemical Physics, 1997, 214(2-3), 219-227, doi: 10.1016/S0301-0104(96)00313-8
@@ -2505,7 +2491,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.83e-01, 'cm^3/(mol*s)'), n=3.84, Ea=(115, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: NOx""",
     longDesc = 
 u"""
 Z.F. Xu, M.C. Lin, Int. J. Chem. Kin., 2004, 36(4), 205-215, doi: 10.1002/kin.10178
@@ -2519,7 +2505,7 @@ entry(
     degeneracy = 4,
     kinetics = Arrhenius(A=(1.42e-7, 'cm^3/(mol*s)'), n=5.64, Ea=(9221, 'cal/mol'), T0=(1, 'K'), Tmin = (200, 'K'), Tmax = (3000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: NOx""",
     longDesc = 
 u"""
 Z.F. Xu, M.C. Lin, Int. J. Chem. Kin., 2003, 35(5), 184-190, doi: 10.1002/kin.10115
@@ -2534,7 +2520,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(8.73e+00, 'cm^3/(mol*s)'), n=3.50, Ea=(-1667, 'cal/mol'), T0=(1, 'K'), Tmin = (750, 'K'), Tmax = (1500, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: NOx""",
     longDesc = 
 u"""
 W.S. Xia, M.C. Lin, J. Chem. Phys., 2001, 114, 4522-4532, doi: 10.1063/1.1337061
@@ -2548,7 +2534,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.0e+08, 'cm^3/(mol*s)'), n=1.47, Ea=(7550, 'cal/mol'), T0=(1, 'K'), Tmin = (500, 'K'), Tmax = (2500, 'K')),
     rank = 1,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: NOx""",
     longDesc = 
 u"""
 W. Tsang, J.T. Herron, Journal of Physical and Chemical Reference Data, 1991, 20, 609, doi: 10.1063/1.555890
@@ -2562,7 +2548,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.8e+14, 'cm^3/(mol*s)'), n=0, Ea=(24600, 'cal/mol'), T0=(1, 'K'), Tmin = (500, 'K'), Tmax = (2500, 'K')),
     rank = 1,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: NOx""",
     longDesc = 
 u"""
 W. Tsang, J.T. Herron, Journal of Physical and Chemical Reference Data, 1991, 20, 609, doi: 10.1063/1.555890
@@ -2576,7 +2562,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.8e+14, 'cm^3/(mol*s)'), n=0, Ea=(24600, 'cal/mol'), T0=(1, 'K'), Tmin = (298, 'K'), Tmax = (2840, 'K')),
     rank = 1,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: NOx""",
     longDesc = 
 u"""
 W. Tsang, J.T. Herron, Journal of Physical and Chemical Reference Data, 1991, 20, 609, doi: 10.1063/1.555890
@@ -2590,7 +2576,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.39e+08, 'cm^3/(mol*s)'), n=1.729, Ea=(986, 'cal/mol'), T0=(1, 'K'), Tmin = (250, 'K'), Tmax = (3000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: SOx""",
     longDesc = 
 u"""
 WK.E. Kerr, I.M. Alecu, K.M. Thompson, Y. Gao, P. Marshall, J. Phys. CHem. A, 2015, 119, 7352-7360, doi: 10.1021/jp512966a
@@ -2605,7 +2591,7 @@ entry(
     degeneracy = 3,
     kinetics = Arrhenius(A=(4.16e+03, 'cm^3/(mol*s)'), n=2.925, Ea=(4747, 'cal/mol'), T0=(1, 'K'), Tmin = (250, 'K'), Tmax = (3000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: SOx""",
     longDesc = 
 u"""
 WK.E. Kerr, I.M. Alecu, K.M. Thompson, Y. Gao, P. Marshall, J. Phys. CHem. A, 2015, 119, 7352-7360, doi: 10.1021/jp512966a
