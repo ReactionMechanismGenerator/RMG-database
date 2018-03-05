@@ -1,55 +1,71 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = ""
+name = "forbiddenStructures"
 shortDesc = u""
 longDesc = u"""
-
+Any molecule to which a group in this file is sub-isomorphic will be forbidden.
+Note that resonance structures could bypass this, hence currently all resonance forms of a forbidden group should be added here
 """
-entry(
-    label = "Ods",
-    group =
-"""
-1 O ux c0 {2,D} {3,S}
-2 R ux {1,D}
-3 R ux {1,S}
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-This forbids O with both single and double bonds WHILE keeping a zero partial charge.
-This does not forbid ozone, [O-][O+]=O
-""",
-)
 
-entry(
-    label = "Od_rad",
-    group = 
-"""
-1 O u1 {2,D}
-2 R ux {1,D}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
+# entry(
+#     label = "Ods",
+#     group =
+# """
+# 1 O ux c0 {2,D} {3,S}
+# 2 R ux {1,D}
+# 3 R ux {1,S}
+# """,
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+# This forbids O with both single and double bonds WHILE keeping a zero partial charge.
+# This does not forbid ozone, [O-][O+]=O
+#
+# * Can be removed: we don't have such O atomType
+# * we do have O4dc for ozone: 1 O u[0,1] p1 c+1 {2,D} {3,S}
+#
+# * Added by Beat with the commit comment:
+# * Ods: an oxygen atom with a single and a double bond
+# * Currently we don't have the thermo groups to estimate the
+# * thermochemistry of such structures. We can allow them again later.
+# """,
+# )
 
-""",
-)
+# entry(
+#     label = "Od_rad",
+#     group =
+# """
+# 1 O u1 {2,D}
+# 2 R ux {1,D}
+# """,
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+# * Changed O4dc to not allow rads (by making the single bond mandatory): 1 O u0 p1 c+1 {2,D} {3,S}
+# * Can now be removed
+#
+# * Added by Beat, no commit comment
+# """,
+# )
 
-entry(
-    label = "N_birad_triplet_2singleBonds",
-    group = 
-"""
-1 N u2 p0 {2,S} {3,S}
-2 R ux {1,S}
-3 R ux {1,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+# entry(
+#     label = "N_birad_triplet_2singleBonds",
+#     group =
+# """
+# 1 N u2 p0 {2,S} {3,S}
+# 2 R ux {1,S}
+# 3 R ux {1,S}
+# """,
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+# * Forbidden by atomTypes (after modifying N5sc)
+# * Can now be removed
+#
+# * Imported from Java, modified by Connie & Nathan
+# """,
+# )
 
 entry(
     label = "C_quintet",
@@ -60,7 +76,9 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+* Can be moved to forbidden molecules
 
+* Added by Connie
 """,
 )
 
@@ -90,7 +108,10 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+* ??
+* title says J, but no radical in structure...
 
+* Added by Josh Allen when importing from Java
 """,
 )
 
@@ -120,7 +141,10 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+* ??
+* title says J, but no radical in structure...
 
+* Added by Josh Allen when importing from Java
 """,
 )
 
@@ -135,6 +159,9 @@ entry(
     longDesc =
 u"""
 restricts C2O, see RMG-Py issue #514
+* should be removed?
+
+* Added by Josh Allen when importing from Java, modified by Nathan
 """,
 )
 
@@ -148,7 +175,8 @@ restricts C2O, see RMG-Py issue #514
 #     shortDesc = u"""""",
 #     longDesc =
 # u"""
-#
+# * Removed by Zach with the commit message:
+# * Removed singlet carbenes from globally forbidden structures because propargyl recombination involves singlet carbene intermediates
 # """,
 # )
 
@@ -162,7 +190,9 @@ entry(
     shortDesc = u"""""",
     longDesc =
 u"""
+* ??
 
+* Added by Josh Allen when importing from Java, modified by Nathan
 """,
 )
 
@@ -176,7 +206,8 @@ u"""
 #     shortDesc = u"""""",
 #     longDesc =
 # u"""
-#
+# * Removed by Zach with the commit message:
+# * Removed singlet carbenes from globally forbidden structures because propargyl recombination involves singlet carbene intermediates
 # """,
 # )
 
@@ -191,7 +222,9 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+* we should add a condition before applying this check
 
+* imported by Josh Allen from Java, modified by Connie
 """,
 )
 
@@ -206,7 +239,9 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+* we should add a condition before applying this check
 
+* imported by Josh Allen from Java, modified by Connie
 """,
 )
 
@@ -221,7 +256,9 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+* we should add a condition before applying this check
 
+* imported by Josh Allen from Java, modified by Connie
 """,
 )
 
@@ -237,7 +274,9 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+* we should add a condition before applying this check
 
+* imported by Josh Allen from Java, modified by Connie
 """,
 )
 
@@ -253,7 +292,9 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+* we should add a condition before applying this check
 
+* imported by Josh Allen from Java, modified by Connie
 """,
 )
 
@@ -269,7 +310,9 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+* we should add a condition before applying this check
 
+* imported by Josh Allen from Java, modified by Connie
 """,
 )
 
@@ -285,7 +328,9 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+* we should add a condition before applying this check
 
+* imported by Josh Allen from Java, modified by Connie
 """,
 )
 
@@ -302,7 +347,8 @@ u"""
 #     shortDesc = u"""""",
 #     longDesc =
 # u"""
-#
+# * Removed by Zach with the commit message:
+# * Unforbid cyclopropyne globally, as there is now a ring correction for it based on M06 calculations.
 # """,
 # )
 
@@ -318,6 +364,9 @@ entry(
     shortDesc = u"""""",
     longDesc =
 u"""
+* we should add a condition before applying this check
+
+* Added by Zach
 """,
 )
 
@@ -334,6 +383,9 @@ entry(
     shortDesc = u"""""",
     longDesc =
 u"""
+* we should add a condition before applying this check
+
+* Added by Zach
 """,
 )
 
@@ -351,6 +403,9 @@ entry(
     shortDesc = u"""""",
     longDesc =
 u"""
+* we should add a condition before applying this check
+
+* Added by Zach
 """,
 )
 
@@ -369,6 +424,9 @@ entry(
     shortDesc = u"""""",
     longDesc =
 u"""
+* we should add a condition before applying this check
+
+* Added by Zach
 """,
 )
 
@@ -388,6 +446,9 @@ entry(
     shortDesc = u"""""",
     longDesc =
 u"""
+* we should add a condition before applying this check
+
+* Added by Zach
 """,
 )
 
@@ -409,8 +470,11 @@ entry(
     shortDesc = u"""""",
     longDesc =
 u"""
-For certain unsaturated versions of this strained tetracyclic, RMG finds multiple reverse H-abstraction reactions, causing RMG
-to crash.
+For certain unsaturated versions of this strained tetracyclic, RMG finds multiple reverse H-abstraction reactions,
+causing RMG to crash.
+* we should add a condition before applying this check
+
+* Added by Zach
 """,
 )
 
@@ -433,6 +497,9 @@ entry(
 u"""
 For certain unsaturated versions of this strained tricyclic, RMG's Clar optimization fails, causing RMG
 to crash.
+* we should add a condition before applying this check
+
+* Added by Zach
 """,
 )
 
@@ -456,6 +523,8 @@ entry(
 u"""
 Certain unsaturated versions of this strained tricyclic cause RMG
 to crash.
+
+* Added by Zach
 """,
 )
 
@@ -478,6 +547,8 @@ entry(
 u"""
 Certain unsaturated versions of this strained tricyclic cause RMG
 to crash.
+
+* Added by Zach
 """,
 )
 
@@ -496,6 +567,10 @@ Forbidden after discussion with whgreen.
 This species should quickly transform into a closed shell [C-]#[O+].
 We don't need it as a resonance structure of carbon monoxide for reactivity since carbon monoxide has its designated
 reaction families (CO_Disprop, R_Add_COm).
+
+* Can be moved to forbidden molecules
+
+* Added by Alon
 """,
 )
 
@@ -514,6 +589,10 @@ Forbidden after discussion with whgreen.
 This species should quickly transform into a closed shell [C-]#[S+] similar to the carbon monoxide case above.
 We don't need it as a resonance structure of carbon monsulfide for reactivity since carbon monsulfide has its designated
 reaction families (CO_Disprop [also deals with CS], R_Add_CSm).
+
+* Can be moved to forbidden molecules
+
+* Added by Alon
 """,
 )
 
@@ -529,5 +608,9 @@ multiplicity [5]
     longDesc =
 u"""
 N#N can be excited to [N]=[N], but we shouldn't allow it to reach [N][N]
+
+* Can be moved to forbidden molecules
+
+* Added by Alon
 """,
 )
