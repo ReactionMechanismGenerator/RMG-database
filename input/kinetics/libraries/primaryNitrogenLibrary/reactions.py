@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "NOx"
-shortDesc = u"NOx"
+name = "primaryNitrogenLirary"
+shortDesc = u"primaryNitrogenLirary"
 longDesc =u"""
-This library includes important NOx related reactions.
+This library includes important nitrogen related reactions.
 Prepared by Alon Grinberg Dana
 
 Notes:

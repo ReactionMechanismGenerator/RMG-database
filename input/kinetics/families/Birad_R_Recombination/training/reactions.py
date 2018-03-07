@@ -14,7 +14,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.42e+16, 'cm^3/(mol*s)'), n=-0.75, Ea=(1226, 'cal/mol'), T0=(1, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLirary""",
     longDesc = 
 u"""
 Part of the "NOx" subset
@@ -32,7 +32,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.3e+14, 'cm^3/(mol*s)'), n=0.24, Ea=(0, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (800, 'K')),
     rank = 1,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primarySulfurLirary""",
     longDesc = 
 u"""
 A. Goumri, D.D. Shao, P. Marshall, J. Chem. Phys., 2004, 121, 9999, doi: 10.1063/1.1806419
@@ -54,7 +54,7 @@ kinetics = Troe(
 #   degeneracy = 1,
 #   kinetics = Arrhenius(A=(2.01e+19, 's^-1'), n=-1.07, Ea=(28377, 'cal/mol'), T0=(1, 'K'), Tmin = (200, 'K'), Tmax = (2000, 'K')),
 #   rank = 2,
-#   shortDesc = u"""Training reaction from kinetics library: SOx""",
+#   shortDesc = u"""Training reaction from kinetics library: primarySulfurLirary""",
 #   longDesc =
 #u"""
 #T range: 200-2000 K
@@ -71,7 +71,7 @@ entry(
    degeneracy = 1,
    kinetics = Arrhenius(A=(3.98e+14, 's^-1'), n=0, Ea=(71700, 'cal/mol'), T0=(1, 'K'), Tmin = (1350, 'K'), Tmax = (2100, 'K')),
    rank = 1,
-   shortDesc = u"""Training reaction from kinetics library: SOx""",
+   shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLirary""",
    longDesc =
 u"""
 T range: 1350-2100 K
