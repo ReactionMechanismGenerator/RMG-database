@@ -534,35 +534,4 @@ entry(
     kinetics = Arrhenius(A=(1.04e+07, 's^-1'), n=1.61, Ea=(27.1, 'kcal/mol'), T0=(1, 'K')),
 )
 
-entry(
-    index = 55,
-    label = "INDENYL <=> INDENYL_ADD",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1e-11, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-/Block indenyl to odd products
-""",
-)
-
-entry(
-    index = 56,
-    label = "INDENYL <=> INDENYL_ADD2",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1e-11, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
-)
-
-entry(
-    index = 57,
-    label = "INDENYL <=> INDENYL_ADD3",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1e-11, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
-)
-
-entry(
-    index = 58,
-    label = "INDENYL <=> INDENYL_ADD4",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1e-11, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
-)
 
