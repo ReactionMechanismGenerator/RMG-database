@@ -7056,6 +7056,16 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 442,
+    label = "Cl_rad",
+    group = 
+"""
+1 *3 Cl1s u1
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
@@ -7584,6 +7594,7 @@ L1: Y_rad_birad_trirad_quadrad
                         L7: N3d_rad/OneDeCdd_O
         L3: N5_rad
             L4: N5dc_rad
+        L3: Cl_rad
 """
 )
 
