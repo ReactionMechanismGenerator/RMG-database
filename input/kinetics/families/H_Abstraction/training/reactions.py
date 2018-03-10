@@ -2913,3 +2913,802 @@ K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Che
 doi: 10.1021/acs.jpca.6b12890
 """,
 )
+
+
+entry(
+    index = 1233,
+    label = "Cl + CH4b <=> ClH + CH3_p23",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.36534e-19, 'cm^3/(molecule*s)'),
+        n = 2.6,
+        Ea = (3201.07, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + CH4 <=> HCl + CH3""",
+    longDesc = 
+u"""
+Kinetics of Cl atom reactions with methane, ethane, and propane from 292 to 800 K 
+J. S. Pilgrim, A. McIlroy, and C. A. Taatjes, J. Phys. Chem. A 101, 1873 (1997) 
+PLP-LIF Measurement from 292-800 K
+""",
+)
+
+entry(
+    index = 1234,
+    label = "Cl + C2H6 <=> ClH + C2H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (7.23e-13, 'cm^3/(molecule*s)'),
+        n = 0.7,
+        Ea = (-972.793, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C2H6 <=> HCl + C2H5""",
+    longDesc = 
+u"""
+Kinetics of Reactions of Cl Atoms with Ethane, Chloroethane, and 1,1-Dichloroethane 
+Bryukov, M. G., Slagle, I. R., and Knyazev, V. D.: J. Phys. Chem. A., 107, 6565, 2003. 
+Fit to multiple experimental measurements from 200-1000 K, including PLP experiments of 1997 Pilgrim
+""",
+)
+
+entry(
+    index = 1235,
+    label = "Cl + C3H8b <=> ClH + C3H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.26e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (748.302, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C3H8 <=> HCl + nC3H7""",
+    longDesc = 
+u"""
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 200-700 K
+""",
+)
+
+entry(
+    index = 1236,
+    label = "Cl + C3H8 <=> ClH + C3H7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.02e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (-623.585, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C3H8 <=> HCl + iC3H7""",
+    longDesc = 
+u"""
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 200-700 K
+""",
+)
+
+entry(
+    index = 1237,
+    label = "Cl + C4H10 <=> ClH + C4H9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (9.02e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (997.737, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + nC4H10 <=> HCl + C4H9-1""",
+    longDesc = 
+u"""
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 290-600 K
+""",
+)
+
+entry(
+    index = 1238,
+    label = "Cl + C4H10b <=> ClH + C4H9-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.21e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (-457.296, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + nC4H10 <=> HCl + C4H9-2""",
+    longDesc = 
+u"""
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 290-600 K
+""",
+)
+
+entry(
+    index = 1239,
+    label = "Cl + CH2O <=> ClH + HCO_r3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.1e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (282.692, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + HCHO <=> HCl + HCO""",
+    longDesc = 
+u"""
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 200-500 K 
+""",
+)
+
+entry(
+    index = 1240,
+    label = "Cl + C2H4O <=> ClH + C2H3O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8e-11, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Cl + CH3CHO <=> HCl + CH3CO""",
+    longDesc = 
+u"""
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 210-340 K
+""",
+)
+
+entry(
+    index = 1241,
+    label = "Cl + C3H6O-3 <=> ClH + C3H5O-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.5e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (4905.54, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + CH3COCH3 <=> HCl + CH3COCH2""",
+    longDesc = 
+u"""
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 215-440 K 
+""",
+)
+
+entry(
+    index = 1242,
+    label = "Cl + CH4O <=> ClH + CH3O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (7.1e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (623.585, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + CH3OH <=> HCl + CH2OH""",
+    longDesc = 
+u"""
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 200-500 K
+""",
+)
+
+entry(
+    index = 1243,
+    label = "Cl + CH4O-2 <=> ClH + CH3O-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (9.65431e-19, 'cm^3/(molecule*s)'),
+        n = 2.5,
+        Ea = (30470, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + CH3OH <=> HCl + CH3O""",
+    longDesc = 
+u"""
+Theoretical study of the kinetics of the hydrogen abstraction from methanol. 2. Reaction of methanol with chlorine and bromine atoms 
+Jodkowski, J.T.; Rayez, M-T.; Rayez, J-C.; Berces, T.; Dobe, S., JPCA, 102, 9230-9243, 1998 
+300-1000 K, Theoretical Predictions
+""",
+)
+
+entry(
+    index = 1244,
+    label = "Cl + C2H6O <=> ClH + C2H5O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.44e-10, 'cm^3/(molecule*s)'),
+        n = -0.089,
+        Ea = (-374.151, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C2H5OH <=> HCl + CH3CHOH""",
+    longDesc = 
+u"""
+Absolute and Site-Specific Abstraction Rate Coefficients for Reactions of Cl with CH3CH2 OH, CH3CD2OH, and CD3CH2OH Between 295 and 600 K 
+Taatjes, C. A., Christensen, L. K., Hurley M. D. and Wallington, T. J.: J. Phys. Chem. A, 103, 9805, 1999. 
+LP-IR experiments from 295-600 K
+""",
+)
+
+entry(
+    index = 1245,
+    label = "Cl + C2H6O-2 <=> ClH + C2H5O-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.13e-13, 'cm^3/(molecule*s)'),
+        n = 0.7494,
+        Ea = (-374.151, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C2H5OH <=> HCl + CH2CH2OH""",
+    longDesc = 
+u"""
+Absolute and Site-Specific Abstraction Rate Coefficients for Reactions of Cl with CH3CH2 OH, CH3CD2OH, and CD3CH2OH Between 295 and 600 K 
+Taatjes, C. A., Christensen, L. K., Hurley M. D. and Wallington, T. J.: J. Phys. Chem. A, 103, 9805, 1999. 
+LP-IR experiments from 295-600 K
+""",
+)
+
+entry(
+    index = 1246,
+    label = "Cl + H2O <=> ClH + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.79e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (72086.5, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + H2O <=> HCl + OH""",
+    longDesc = 
+u"""
+Evaluated kinetic data for high temperature reactions. Volume 4 Homogeneous gas phase reactions of halogen- and cyanide- containing species 
+Baulch, D.L.; Duxbury, J.; Grant, S.J.; Montague, D.C., J. Phys. Chem. Ref. Data, 10, 1981. 
+210-500 K
+""",
+)
+
+entry(
+    index = 1247,
+    label = "Cl + H2O2 <=> ClH + HO2_r3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.1e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (8148.18, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + H2O2 <=> HCl + HO2""",
+    longDesc = 
+u"""
+Evaluated kinetic and photochemical data for atmospheric chemistry: Volume III - gas phase reactions of inorganic halogens 
+Atkinson, R.;Baulch, D.L.;Cox, R.A.;Crowley, J.N.;Hampson, R.F.;Hynes, R.G.;Jenkin, M.E.;Rossi, M.J.;Troe, J., Atmos. Chem. Phys., 7, 981-1191, 2007 
+260-430 K
+""",
+)
+
+entry(
+    index = 1248,
+    label = "Cl + H2 <=> ClH + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.59e-16, 'cm^3/(molecule*s)'),
+        n = 1.588,
+        Ea = (13984.9, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + H2 <=> HCl + H""",
+    longDesc = 
+u"""
+Thermal rate constants for the Cl+H2 and Cl+D2 reactions between 296 and 3000 K 
+Kumaran, S.S.; Lim, K.P.; Michael, J.V., J. Chem. Phys., 101, 9487 - 9498, 1994 
+200-2950 K, from fit to experimental data 
+""",
+)
+
+entry(
+    index = 1249,
+    label = "Cl + C5H10O2 <=> ClH + C5H9O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.24e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (2500.16, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C4H9OCHO <=> HCl + C4H8OCHO-1""",
+    longDesc = 
+u"""
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+212-423 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1250,
+    label = "Cl + C5H10O2-2 <=> ClH + C5H9O2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.32e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (1249.67, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C4H9OCHO <=> HCl + C4H8OCHO-2""",
+    longDesc = 
+u"""
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+212-423 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1251,
+    label = "Cl + C5H10O2-3 <=> ClH + C5H9O2-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.05e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (1249.67, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C4H9OCHO <=> HCl + C4H8OCHO-3""",
+    longDesc = 
+u"""
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+212-423 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1252,
+    label = "Cl + C5H12-2 <=> ClH + C5H11",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.79e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (3849.6, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + neoC5H12 <=> HCl + neoC5H11""",
+    longDesc = 
+u"""
+Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons 
+Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959 
+193-593 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1253,
+    label = "Cl + C3H4-1 <=> ClH + C3H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.40759e-16, 'cm^3/(molecule*s)'),
+        n = 2,
+        Ea = (4400.02, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + aC3H4 <=> HCl + C3H3""",
+    longDesc = 
+u"""
+Infrared frequency-modulation probing of Cl + C3H4 (allene, propyne) reactions: kinetics of HCl production from 292 to 850 K 
+Farrell, J.T.; Taatjes, C.A., J. Phys. Chem. A, 102, 1998, 4846-4856 
+292-850 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1254,
+    label = "Cl + C5H10 <=> ClH + C5H9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.87e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (2419.51, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + cC5H10 <=> HCl + cC5H9""",
+    longDesc = 
+u"""
+The study of chlorine atom reactions in the gas phase 
+Pritchard, H.O.; Pyke, J.B.; Trotman-Dickenson, A.F., JACS, 77, 1955 
+298-484 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1255,
+    label = "Cl + C4H8-8 <=> ClH + C4H7-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.25e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (3449.67, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + cC4H8 <=> HCl + cC4H7""",
+    longDesc = 
+u"""
+Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons 
+Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959 
+193-593 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1256,
+    label = "Cl + C4H8O2 <=> ClH + C4H7O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.27e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (300.152, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + Dioxane14 <=> HCl + Dioxanyl14""",
+    longDesc = 
+u"""
+Experimental and Theoretical Investigation of the Kinetics of the Reaction of Atomic Chlorine with 1,4-Dioxane 
+Giri, B.R.; Roscoe, J.M.; Gonzalez-Garcia, N.; Olzmann, M.; Lo, J.MH.; Marriott, R.A., JPCA, 115, 2011, 5105-5111 
+292-360 K, theoretical prediction matched to experiment
+""",
+)
+
+entry(
+    index = 1257,
+    label = "Cl + C6H12O2 <=> ClH + C6H11O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.32e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (2930.02, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-1""",
+    longDesc = 
+u"""
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+313-433 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1258,
+    label = "Cl + C6H12O2-2 <=> ClH + C6H11O2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.32e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (1249.67, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-2""",
+    longDesc = 
+u"""
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+313-433 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1259,
+    label = "Cl + C6H12O2-3 <=> ClH + C6H11O2-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.62e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (2089.43, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-3""",
+    longDesc = 
+u"""
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+313-433 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1260,
+    label = "Cl + C6H12O2-4 <=> ClH + C6H11O2-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.66e-12, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (3759.8, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-4""",
+    longDesc = 
+u"""
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+313-433 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1261,
+    label = "Cl + C2H6O-3 <=> ClH + C2H5O-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.76e-10, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Cl + CH3OCH3 <=> HCl + CH3OCH2""",
+    longDesc = 
+u"""
+Rate constants for the reaction of atomic chlorine with methanol and dimethyl ether from 200 to 500 K 
+Michael, J.V.; Nava, D.F.; Payne, W.A.; Stief, L.J., J. Chem. Phys., 70, 1979 
+200-500 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1262,
+    label = "Cl + C3H6 <=> ClH + C3H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.9e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (748.302, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C3H6 <=> HCl + aC3H5""",
+    longDesc = 
+u"""
+Infrared absorption probing of the Cl + C3H6 reaction: rate coefficients for HCl production between 290 and 800 K 
+Pilgrim, J.S.; Taatjes, C.A., JPCA, 101, 5776-5782, 1997 
+293-800 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1263,
+    label = "Cl + C6H12 <=> ClH + C6H11",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.41e-10, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Cl + cC6H12 <=> HCl + cC6H11""",
+    longDesc = 
+u"""
+Kinetic and mechanistic studies of the reactions of cyclopentylperoxy and cyclohexylperoxy radicals with HO2 
+Rowley, D.M.; Lesclaux, R.; Lightfoot, P.D.; Noziere, B.; Wallingotn, T.J.; Hurley, M.D., JPC, 96, 1992, 4889-4894 
+248-364 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1264,
+    label = "Cl + C7H8 <=> ClH + C7H7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.59e-12, 'cm^3/(molecule*s)'),
+        n = 1.073,
+        Ea = (6406.3, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C6H5CH3 <=> HCl + C6H5CH2""",
+    longDesc = 
+u"""
+DFT study on the abstraction and addition of Cl atom with toluene 
+Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012 
+Theoretical predictions from 298-1000 K, agrees well with 298 K experiments
+""",
+)
+
+entry(
+    index = 1265,
+    label = "Cl + C7H8-2 <=> ClH + C7H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.88e-45, 'cm^3/(molecule*s)'),
+        n = 10.876,
+        Ea = (-22746.7, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C6H5CH3 <=> HCl + o-C6H4CH3""",
+    longDesc = 
+u"""
+DFT study on the abstraction and addition of Cl atom with toluene 
+Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012 
+Theoretical predictions from 298-1000 K
+""",
+)
+
+entry(
+    index = 1266,
+    label = "Cl + C7H8-3 <=> ClH + C7H7-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.98e-43, 'cm^3/(molecule*s)'),
+        n = 10.407,
+        Ea = (-20733.8, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C6H5CH3 <=> HCl + m-C6H4CH3""",
+    longDesc = 
+u"""
+DFT study on the abstraction and addition of Cl atom with toluene 
+Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012 
+Theoretical predictions from 298-1000 K
+""",
+)
+
+entry(
+    index = 1267,
+    label = "Cl + C7H8-4 <=> ClH + C7H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.75e-27, 'cm^3/(molecule*s)'),
+        n = 5.626,
+        Ea = (-1163.19, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C6H5CH3 <=> HCl + p-C6H4CH3""",
+    longDesc = 
+u"""
+DFT study on the abstraction and addition of Cl atom with toluene 
+Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012 
+Theoretical predictions from 298-1000 K
+""",
+)
+
+entry(
+    index = 1268,
+    label = "Cl + iC4H10 <=> ClH + C4H9-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.94e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (3429.72, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + iC4H10 <=> HCl + iC4H9""",
+    longDesc = 
+u"""
+Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons 
+Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959 
+193-593 K, experimental measurement 
+""",
+)
+
+entry(
+    index = 1269,
+    label = "Cl + iC4H10b <=> ClH + C4H9-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.82e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (79.8189, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + iC4H10 <=> HCl + tC4H9""",
+    longDesc = 
+u"""
+Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons 
+Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959 
+193-593 K, experimental measurement 
+""",
+)
+
+entry(
+    index = 1270,
+    label = "Cl + C3H6-4 <=> ClH + C3H5-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.97e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (17289.9, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + cC3H6 <=> HCl + cC3H5""",
+    longDesc = 
+u"""
+Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons 
+Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959 
+193-593 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1271,
+    label = "Cl + C3H4 <=> ClH + C3H3-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.41e-17, 'cm^3/(molecule*s)'),
+        n = 2,
+        Ea = (4159.73, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + pC3H4 <=> HCl + C3H3""",
+    longDesc = 
+u"""
+Infrared frequency-modulation probing of Cl + C3H4 (allene, propyne) reactions: kinetics of HCl production from 292 to 850 K 
+Farrell, J.T.; Taatjes, C.A., J. Phys. Chem. A, 102, 1998, 4846-4856 
+292-850 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1272,
+    label = "Cl + C2H4 <=> ClH + C2H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.19e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (28269.2, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + Ethene <=> HCl + C2H3""",
+    longDesc = 
+u"""
+Infrared absorption probing of the Cl + Ethene reaction: direct measurement of Arrhenius parameters for hydrogen abstraction 
+Pilgrim, J.S.; Taatjes, C.A., J. Phys. Chem. A, 101, 1997, 4172-4177 
+500-800 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1273,
+    label = "Cl + C6H6 <=> ClH + C6H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.1e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (31600, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C6H6 <=> HCl + C6H5""",
+    longDesc = 
+u"""
+Studies of the kinetics and thermochemistry of the forward and reverse reaction Cl+C6H6=HCl+C6H5 
+Alecu, I.M.; Gao, Y.D.; Hsieh, P.C.; Sand, J.P.; Ors, A.; McLeod, A.; Marshall, P., JPCA, 111, 3970-3976, 2007 
+296-922 K, experimental measurement
+""",
+)
+
