@@ -355,10 +355,11 @@ entry(
     molecule =  
 """
 1 C u0 p0 {2,S} {3,S} {4,S} {5,S}
-2 O u0 p2 {1,S} {5,S}
+2 O u0 p2 {1,S} {6,S}
 3 H u0 p0 {1,S}
 4 H u0 p0 {1,S}
-5 X u0 p0 {1,S} {2,S}
+5 X u0 p0 {1,S}
+6 X u0 p0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -368,8 +369,8 @@ entry(
         Tmin = (298,'K'),
         Tmax = (2000,'K'),
     ),
-    shortDesc = u"""CH2O di-sigma adsorbed on nickel""",
-    longDesc =  u"""Estimated via CFG-TiC""",
+    shortDesc = u"""CH2O di-sigma adsorbed on nickel.""",
+    longDesc =  u"""Estimated via CFG-TiC. Adjacency list changed by Richard to use two surface sites.""",
 )
 
 entry(
