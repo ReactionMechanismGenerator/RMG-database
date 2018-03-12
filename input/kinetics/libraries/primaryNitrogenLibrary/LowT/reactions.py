@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "NOx/LowT"
-shortDesc = u"Low T NOx reactions"
+name = "primaryNitrogenLibrary/LowT"
+shortDesc = u"Low T nitrogen reactions"
 longDesc =u"""
-This library includes low temperature kinetics for reactions included in the NOx library
-For low temperature applications, this library should precede and used conjointly with the NOx library
+This library includes low temperature kinetics for reactions included in the primaryNitrogenLibrary
+For low temperature applications, this library should precede and used conjointly with the primaryNitrogenLibrary
 """
 
 entry(

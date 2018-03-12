@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "NOx"
-shortDesc = u"NOx"
+name = "primaryNitrogenLibrary"
+shortDesc = u"primaryNitrogenLibrary"
 longDesc =u"""
-This library includes important NOx related reactions.
+This library includes important nitrogen related reactions.
 Prepared by Alon Grinberg Dana
 
 Notes:
@@ -13,7 +13,7 @@ Notes:
 - It is reccomended to consider the SOxNOx, NitrogenCurran, SulfurLibrary, thermo_DFT_CCSDTF12_BAC, primaryThermoLibrary,
   CHN, CHON, and BurcatNS thermo libraries for your model generation (in this order)
 - Some reactions have different kinetics coefficients reported for different T range,
-  'The Low T' rate is reported in the comments. You can also use the "SOxNOx/LowT" sub-library, and give it priority over this library
+  'The Low T' rate is reported in the comments. You can also use the "primaryNitrogenLibrary/LowT" sub-library, and give it priority over this library
 - This library should be used along with a library which handles well the transition of ground/excited states of small radicals (e.g., FFCM)
 - At present (when this library was written) RMG does not differentiate between cis and trans conformers.
   When data was available seperately for the production or consumption of two conformers

@@ -1,12 +1,11 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "SOx"
-shortDesc = u"SOx"
+name = "primarySulfurLibrary"
+shortDesc = u"primarySulfurLibrary"
 longDesc =u"""
-This library includes important SOx-related reactions.
+This library includes important sulfur-related reactions.
 Prepared by Alon Grinberg Dana
-
 
 This library consists of the following subsets:
 * SOx
@@ -777,7 +776,7 @@ The PDep path is found in the Sulfur/HSSH_1bar reported for 1 bar.
 These paths are also described by the [Sulfur/GlarborgH2S] library, but they use a fitted high-P rate for the PDep path,
 which theoretically should be zero, but isn't in that library.
 
-(note that this source has a CORRECTION, doi: 10.1021/jp810800a, and the original rate should is multiplied by a factor
+(note that this source has a CORRECTION, doi: 10.1021/jp810800a, and the original rate should be multiplied by a factor
 of x2: i.e., A = 7.4e+06 cm^3/(mol*s), NOT 3.7e+06 cm^3/(mol*s))
 """,
 )
@@ -1170,13 +1169,13 @@ entry(
     shortDesc = u"""[Truhlar2007]""",
     longDesc =
 u"""
-Calculated at several levels, the MO6-2X was taken here as reccommended in [Truhlar2007]
+Calculated at several levels, the MO6-2X was taken here as recommended in [Truhlar2007]
 Rates taken from Table 6 and a modified Arrhenius form was fitted using RMG's functions
     Arrhenius(A=(6.33693e-18,'cm^3/(molecule*s)'), n=2.04583, Ea=(-4.34658,'kJ/mol'), T0=(1,'K'),
     Tmin=(200,'K'), Tmax=(2400,'K'),
     comment="Fitted to 9 data points; dA = *|/ 1.57733, dn = +|- 0.0603264, dEa = +|- 0.272582 kJ/mol")
 Uncertainties represent averaging error
-This rate constant is reported to have an unusual temperature dependence, see [Truhlar2007]
+This reaction is reported to have an unusual temperature dependence, see [Truhlar2007]
 """,
 )
 
