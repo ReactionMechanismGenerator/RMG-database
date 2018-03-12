@@ -1295,3 +1295,126 @@ coefficient computed TST with Eckart Tunnelling"
 """,
 )
 
+
+
+# entry(
+#     index = 53,
+#     label = "C9H11 <=> C9H11-2",
+#     degeneracy = 1,
+#     kinetics = Arrhenius(A=(6.31e+06, 's^-1'), n=1.17, Ea=(28.33, 'kcal/mol'), T0=(1, 'K')),
+#     rank = 3,
+#     shortDesc = u"""Training reaction from kinetics library: ipso""",
+#     longDesc = 
+# u"""
+# Taken from entry: R2 <=> CH3C8H8
+# """,
+# )
+
+# entry(
+#     index = 54,
+#     label = "C10H13 <=> C10H13-2",
+#     degeneracy = 1,
+#     kinetics = Arrhenius(A=(251000, 's^-1'), n=1.22, Ea=(12.69, 'kcal/mol'), T0=(1, 'K')),
+#     rank = 3,
+#     shortDesc = u"""Training reaction from kinetics library: ipso""",
+#     longDesc = 
+# u"""
+# Taken from entry: R4 <=> CH3C9H10
+# """,
+# )
+
+# entry(
+#     index = 55,
+#     label = "C11H15 <=> C11H15-2",
+#     degeneracy = 1,
+#     kinetics = Arrhenius(A=(2750, 's^-1'), n=1.32, Ea=(8.21, 'kcal/mol'), T0=(1, 'K')),
+#     rank = 3,
+#     shortDesc = u"""Training reaction from kinetics library: ipso""",
+#     longDesc = 
+# u"""
+# Taken from entry: R6 <=> CH3C10H12
+# """,
+# )
+
+
+
+entry(
+    index = 56,
+    label = "C12H17 <=> C12H17-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (777306, 's^-1'),
+        n = 2.06947,
+        Ea = (120.563, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (500, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: HBEndoCycloAdd""",
+    longDesc = 
+u"""
+Taken from entry: HBrad2 <=> Endotransrad2
+""",
+)
+
+entry(
+    index = 57,
+    label = "C12H17-3 <=> C12H17-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (28874.8, 's^-1'),
+        n = 1.84298,
+        Ea = (57.1171, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (500, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: HBEndoCycloAdd""",
+    longDesc = 
+u"""
+Taken from entry: HBrad3 <=> Endotransrad3
+""",
+)
+
+entry(
+    index = 58,
+    label = "C12H17-5 <=> C12H17-6",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (7438.1, 's^-1'),
+        n = 1.56257,
+        Ea = (25.3275, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (500, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: HBEndoCycloAdd""",
+    longDesc = 
+u"""
+Taken from entry: HBrad4 <=> Endotransrad4
+""",
+)
+
+entry(
+    index = 59,
+    label = "C12H17-7 <=> C12H17-8",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (558.608, 's^-1'),
+        n = 1.64407,
+        Ea = (35.2185, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (500, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: HBEndoCycloAdd""",
+    longDesc = 
+u"""
+Taken from entry: HBrad5 <=> Endocisrad5
+""",
+)
+
