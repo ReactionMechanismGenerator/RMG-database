@@ -2279,7 +2279,7 @@ X Hu P MArshall, poster presented at the 18th International Symposium on Gas Kin
 
 entry(
     index = 136,
-    label = "HOSO + H <=> SO + H2O",
+    label = "HOSO + H <=> SO(S) + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.4e+14, 'cm^3/(mol*s)'),
@@ -2290,7 +2290,6 @@ entry(
     longDesc = 
 u"""
 X Hu P MArshall, poster presented at the 18th International Symposium on Gas Kinetics, Bristol, UK, August, 7-12, 2004
-Original reaction was HOSO + H <=> SO(S) + H2O
 """,
 )
 
@@ -3548,6 +3547,7 @@ entry(
     longDesc = 
 u"""
 Du, S.Y.; Francisco, J.S.; Shepler, B.C.; Peterson, K.A. J. Chem. Phys. 128 204306 2008
+alongd comment: the above reference is only valid between 100-500 K
 """,
 )
 
