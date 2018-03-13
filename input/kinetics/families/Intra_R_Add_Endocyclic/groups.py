@@ -2637,7 +2637,7 @@ entry(
 3 *6 Cb u0 {2,S} {4,B}
 4 *5 Cb u0 {3,B} {5,S}
 5 *2 Ct u0 {4,S} {6,T}
-6 *3 Ct u0 {5,T}
+6 *3 Ct u0 px c0 {5,T}
 """,
     kinetics = None,
 )
@@ -2717,7 +2717,7 @@ entry(
     label = "doublebond_intra_CdCdd",
     group = 
 """
-1 *3 Cd       u0 {2,D}
+1 *3 Cd       u0 px c0 {2,D}
 2 *2 Cdd      u0 {1,D}
 """,
     kinetics = None,
@@ -2800,7 +2800,7 @@ entry(
 3 *6 [Cd,Ct,Cb] u0 {2,[D,T,B]} {4,S}
 4 *5 R!H        u0 {3,S} {5,S} {7,[D,T,B]}
 5 *2 Cd         u0 {4,S} {6,D}
-6 *3 [Cd,Cdd]   u0 {5,D}
+6 *3 [Cd,Cdd]   u0 px c0 {5,D}
 7    R!H        u0 {4,[D,T,B]}
 """,
     kinetics = None,
@@ -2830,7 +2830,7 @@ entry(
 3 *6 Cb u0 {2,S} {4,B}
 4 *5 Cb u0 {3,B} {5,S}
 5 *2 Cd         u0 {4,S} {6,D}
-6 *3 [Cd,Cdd]   u0 {5,D}
+6 *3 [Cd,Cdd]   u0 px c0 {5,D}
 """,
     kinetics = None,
 )
