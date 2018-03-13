@@ -2925,7 +2925,7 @@ entry(
         Ea = (3201.07, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + CH4 <=> HCl + CH3""",
     longDesc = 
 u"""
@@ -2945,7 +2945,7 @@ entry(
         Ea = (-972.793, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + C2H6 <=> HCl + C2H5""",
     longDesc = 
 u"""
@@ -2965,7 +2965,7 @@ entry(
         Ea = (748.302, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + C3H8 <=> HCl + nC3H7""",
     longDesc = 
 u"""
@@ -2984,7 +2984,7 @@ entry(
         Ea = (-623.585, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + C3H8 <=> HCl + iC3H7""",
     longDesc = 
 u"""
@@ -3003,7 +3003,7 @@ entry(
         Ea = (997.737, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + nC4H10 <=> HCl + C4H9-1""",
     longDesc = 
 u"""
@@ -3022,7 +3022,7 @@ entry(
         Ea = (-457.296, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + nC4H10 <=> HCl + C4H9-2""",
     longDesc = 
 u"""
@@ -3041,7 +3041,7 @@ entry(
         Ea = (282.692, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + HCHO <=> HCl + HCO""",
     longDesc = 
 u"""
@@ -3055,7 +3055,7 @@ entry(
     label = "Cl + C2H4O <=> HCl + C2H3O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8e-11, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + CH3CHO <=> HCl + CH3CO""",
     longDesc = 
 u"""
@@ -3074,7 +3074,7 @@ entry(
         Ea = (4905.54, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + CH3COCH3 <=> HCl + CH3COCH2""",
     longDesc = 
 u"""
@@ -3093,7 +3093,7 @@ entry(
         Ea = (623.585, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + CH3OH <=> HCl + CH2OH""",
     longDesc = 
 u"""
@@ -3132,7 +3132,7 @@ entry(
         Ea = (-374.151, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + C2H5OH <=> HCl + CH3CHOH""",
     longDesc = 
 u"""
@@ -3152,7 +3152,7 @@ entry(
         Ea = (-374.151, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + C2H5OH <=> HCl + CH2CH2OH""",
     longDesc = 
 u"""
@@ -3192,7 +3192,7 @@ entry(
         Ea = (8148.18, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + H2O2 <=> HCl + HO2""",
     longDesc = 
 u"""
@@ -3212,7 +3212,7 @@ entry(
         Ea = (13984.9, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + H2 <=> HCl + H""",
     longDesc = 
 u"""
@@ -3232,7 +3232,7 @@ entry(
         Ea = (2500.16, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + C4H9OCHO <=> HCl + C4H8OCHO-1""",
     longDesc = 
 u"""
@@ -3252,7 +3252,7 @@ entry(
         Ea = (1249.67, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + C4H9OCHO <=> HCl + C4H8OCHO-2""",
     longDesc = 
 u"""
@@ -3292,7 +3292,7 @@ entry(
         Ea = (3849.6, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + neoC5H12 <=> HCl + neoC5H11""",
     longDesc = 
 u"""
@@ -3312,7 +3312,7 @@ entry(
         Ea = (4400.02, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + aC3H4 <=> HCl + C3H3""",
     longDesc = 
 u"""
@@ -3332,7 +3332,7 @@ entry(
         Ea = (2419.51, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + cC5H10 <=> HCl + cC5H9""",
     longDesc = 
 u"""
@@ -3352,7 +3352,7 @@ entry(
         Ea = (3449.67, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + cC4H8 <=> HCl + cC4H7""",
     longDesc = 
 u"""
@@ -3392,7 +3392,7 @@ entry(
         Ea = (2930.02, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-1""",
     longDesc = 
 u"""
@@ -3412,7 +3412,7 @@ entry(
         Ea = (1249.67, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-2""",
     longDesc = 
 u"""
@@ -3432,7 +3432,7 @@ entry(
         Ea = (2089.43, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-3""",
     longDesc = 
 u"""
@@ -3452,7 +3452,7 @@ entry(
         Ea = (3759.8, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-4""",
     longDesc = 
 u"""
@@ -3467,7 +3467,7 @@ entry(
     label = "Cl + C2H6O-3 <=> HCl + C2H5O-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.76e-10, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + CH3OCH3 <=> HCl + CH3OCH2""",
     longDesc = 
 u"""
@@ -3487,7 +3487,7 @@ entry(
         Ea = (748.302, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + C3H6 <=> HCl + aC3H5""",
     longDesc = 
 u"""
@@ -3502,7 +3502,7 @@ entry(
     label = "Cl + C6H12 <=> HCl + C6H11",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.41e-10, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + cC6H12 <=> HCl + cC6H11""",
     longDesc = 
 u"""
@@ -3602,7 +3602,7 @@ entry(
         Ea = (3429.72, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + iC4H10 <=> HCl + iC4H9""",
     longDesc = 
 u"""
@@ -3622,7 +3622,7 @@ entry(
         Ea = (79.8189, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + iC4H10 <=> HCl + tC4H9""",
     longDesc = 
 u"""
@@ -3642,7 +3642,7 @@ entry(
         Ea = (17289.9, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + cC3H6 <=> HCl + cC3H5""",
     longDesc = 
 u"""
@@ -3662,7 +3662,7 @@ entry(
         Ea = (4159.73, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + pC3H4 <=> HCl + C3H3""",
     longDesc = 
 u"""
@@ -3682,7 +3682,7 @@ entry(
         Ea = (28269.2, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + Ethene <=> HCl + C2H3""",
     longDesc = 
 u"""
@@ -3702,7 +3702,7 @@ entry(
         Ea = (31600, 'J/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 1,
     shortDesc = u"""Cl + C6H6 <=> HCl + C6H5""",
     longDesc = 
 u"""
