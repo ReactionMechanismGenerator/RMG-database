@@ -553,7 +553,8 @@ ALZ/GLA01 TSU/MAT97
 
 entry(
     index = 62,
-    label = "SH + O2 <=> HSO2",
+    # label = "SH + O2 <=> HSO2",
+    label = "SH + O2 <=> HSOO",
     degeneracy = 1,
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(2e+14, 'cm^3/(mol*s)'), n=-0.26, Ea=(298, 'cal/mol'), T0=(1, 'K')),
@@ -568,6 +569,9 @@ entry(
     longDesc = 
 u"""
 GOU/MAR05
+alongd comment: taken from doi: 10.1021/j100027a025, calc at G2_RRKM//MP2=FULL/6-31G(d)
+Although HSO2 is described in the present library source (10.1002/kin.20778) as H-S*(=O)=O, SMILES O=[SH]=O,
+it is in fact a peroxide, SMILES SO[O], according to the source (10.1021/j100027a025)
 """,
 )
 
