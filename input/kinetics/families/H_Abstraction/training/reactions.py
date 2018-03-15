@@ -2918,7 +2918,7 @@ doi: 10.1021/acs.jpca.6b12890
 entry(
     index = 1233,
     label = "Cl + CH4b <=> HCl + CH3_p23",
-    degeneracy = 1.0,
+    degeneracy = 4,
     kinetics = Arrhenius(
         A = (1.36534e-19, 'cm^3/(molecule*s)'),
         n = 2.6,
@@ -2938,7 +2938,7 @@ PLP-LIF Measurement from 292-800 K
 entry(
     index = 1234,
     label = "Cl + C2H6 <=> HCl + C2H5",
-    degeneracy = 1.0,
+    degeneracy = 6,
     kinetics = Arrhenius(
         A = (7.23e-13, 'cm^3/(molecule*s)'),
         n = 0.7,
@@ -2958,7 +2958,7 @@ Fit to multiple experimental measurements from 200-1000 K, including PLP experim
 entry(
     index = 1235,
     label = "Cl + C3H8b <=> HCl + C3H7-2",
-    degeneracy = 1.0,
+    degeneracy = 6,
     kinetics = Arrhenius(
         A = (8.26e-11, 'cm^3/(molecule*s)'),
         n = 0,
@@ -2977,7 +2977,7 @@ from 200-700 K
 entry(
     index = 1236,
     label = "Cl + C3H8 <=> HCl + C3H7",
-    degeneracy = 1.0,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (6.02e-11, 'cm^3/(molecule*s)'),
         n = 0,
@@ -2996,7 +2996,7 @@ from 200-700 K
 entry(
     index = 1237,
     label = "Cl + C4H10 <=> HCl + C4H9",
-    degeneracy = 1.0,
+    degeneracy = 6,
     kinetics = Arrhenius(
         A = (9.02e-11, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3015,7 +3015,7 @@ from 290-600 K
 entry(
     index = 1238,
     label = "Cl + C4H10b <=> HCl + C4H9-2",
-    degeneracy = 1.0,
+    degeneracy = 4,
     kinetics = Arrhenius(
         A = (1.21e-10, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3034,7 +3034,7 @@ from 290-600 K
 entry(
     index = 1239,
     label = "Cl + CH2O <=> HCl + HCO_r3",
-    degeneracy = 1.0,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (8.1e-11, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3053,7 +3053,7 @@ from 200-500 K
 entry(
     index = 1240,
     label = "Cl + C2H4O <=> HCl + C2H3O",
-    degeneracy = 1.0,
+    degeneracy = 1,
     kinetics = Arrhenius(A=(8e-11, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
     rank = 1,
     shortDesc = u"""Cl + CH3CHO <=> HCl + CH3CO""",
@@ -3067,7 +3067,7 @@ from 210-340 K
 entry(
     index = 1241,
     label = "Cl + C3H6O-3 <=> HCl + C3H5O-3",
-    degeneracy = 1.0,
+    degeneracy = 6,
     kinetics = Arrhenius(
         A = (1.5e-11, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3086,7 +3086,7 @@ from 215-440 K
 entry(
     index = 1242,
     label = "Cl + CH4O <=> HCl + CH3O",
-    degeneracy = 1.0,
+    degeneracy = 3,
     kinetics = Arrhenius(
         A = (7.1e-11, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3105,7 +3105,7 @@ from 200-500 K
 entry(
     index = 1243,
     label = "Cl + CH4O-2 <=> HCl + CH3O-2",
-    degeneracy = 1.0,
+    degeneracy = 1,
     kinetics = Arrhenius(
         A = (9.65431e-19, 'cm^3/(molecule*s)'),
         n = 2.5,
@@ -3125,7 +3125,7 @@ Jodkowski, J.T.; Rayez, M-T.; Rayez, J-C.; Berces, T.; Dobe, S., JPCA, 102, 9230
 entry(
     index = 1244,
     label = "Cl + C2H6O <=> HCl + C2H5O",
-    degeneracy = 1.0,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.44e-10, 'cm^3/(molecule*s)'),
         n = -0.089,
@@ -3145,7 +3145,7 @@ LP-IR experiments from 295-600 K
 entry(
     index = 1245,
     label = "Cl + C2H6O-2 <=> HCl + C2H5O-2",
-    degeneracy = 1.0,
+    degeneracy = 3,
     kinetics = Arrhenius(
         A = (1.13e-13, 'cm^3/(molecule*s)'),
         n = 0.7494,
@@ -3165,7 +3165,7 @@ LP-IR experiments from 295-600 K
 entry(
     index = 1246,
     label = "Cl + H2O <=> HCl + OH",
-    degeneracy = 1.0,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (2.79e-11, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3185,7 +3185,7 @@ Baulch, D.L.; Duxbury, J.; Grant, S.J.; Montague, D.C., J. Phys. Chem. Ref. Data
 entry(
     index = 1247,
     label = "Cl + H2O2 <=> HCl + HO2_r3",
-    degeneracy = 1.0,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.1e-11, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3205,7 +3205,7 @@ Atkinson, R.;Baulch, D.L.;Cox, R.A.;Crowley, J.N.;Hampson, R.F.;Hynes, R.G.;Jenk
 entry(
     index = 1248,
     label = "Cl + H2 <=> HCl + H",
-    degeneracy = 1.0,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (4.59e-16, 'cm^3/(molecule*s)'),
         n = 1.588,
@@ -3225,7 +3225,7 @@ Kumaran, S.S.; Lim, K.P.; Michael, J.V., J. Chem. Phys., 101, 9487 - 9498, 1994
 entry(
     index = 1249,
     label = "Cl + C5H10O2 <=> HCl + C5H9O2",
-    degeneracy = 1.0,
+    degeneracy = 3,
     kinetics = Arrhenius(
         A = (1.24e-11, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3245,7 +3245,7 @@ Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
 entry(
     index = 1250,
     label = "Cl + C5H10O2-2 <=> HCl + C5H9O2-2",
-    degeneracy = 1.0,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (3.32e-10, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3265,7 +3265,7 @@ Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
 entry(
     index = 1251,
     label = "Cl + C5H10O2-3 <=> HCl + C5H9O2-3",
-    degeneracy = 1.0,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.05e-11, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3285,7 +3285,7 @@ Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
 entry(
     index = 1252,
     label = "Cl + C5H12-2 <=> HCl + C5H11",
-    degeneracy = 1.0,
+    degeneracy = 12,
     kinetics = Arrhenius(
         A = (2.79e-10, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3305,7 +3305,7 @@ Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959
 entry(
     index = 1253,
     label = "Cl + C3H4-1 <=> HCl + C3H3",
-    degeneracy = 1.0,
+    degeneracy = 4,
     kinetics = Arrhenius(
         A = (1.40759e-16, 'cm^3/(molecule*s)'),
         n = 2,
@@ -3325,7 +3325,7 @@ Farrell, J.T.; Taatjes, C.A., J. Phys. Chem. A, 102, 1998, 4846-4856
 entry(
     index = 1254,
     label = "Cl + C5H10 <=> HCl + C5H9",
-    degeneracy = 1.0,
+    degeneracy = 10,
     kinetics = Arrhenius(
         A = (4.87e-10, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3345,7 +3345,7 @@ Pritchard, H.O.; Pyke, J.B.; Trotman-Dickenson, A.F., JACS, 77, 1955
 entry(
     index = 1255,
     label = "Cl + C4H8-8 <=> HCl + C4H7-6",
-    degeneracy = 1.0,
+    degeneracy = 8,
     kinetics = Arrhenius(
         A = (4.25e-10, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3365,7 +3365,7 @@ Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959
 entry(
     index = 1256,
     label = "Cl + C4H8O2 <=> HCl + C4H7O2",
-    degeneracy = 1.0,
+    degeneracy = 8,
     kinetics = Arrhenius(
         A = (2.27e-10, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3385,7 +3385,7 @@ Giri, B.R.; Roscoe, J.M.; Gonzalez-Garcia, N.; Olzmann, M.; Lo, J.MH.; Marriott,
 entry(
     index = 1257,
     label = "Cl + C6H12O2 <=> HCl + C6H11O2",
-    degeneracy = 1.0,
+    degeneracy = 3,
     kinetics = Arrhenius(
         A = (1.32e-11, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3405,7 +3405,7 @@ Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
 entry(
     index = 1258,
     label = "Cl + C6H12O2-2 <=> HCl + C6H11O2-2",
-    degeneracy = 1.0,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (3.32e-11, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3425,7 +3425,7 @@ Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
 entry(
     index = 1259,
     label = "Cl + C6H12O2-3 <=> HCl + C6H11O2-3",
-    degeneracy = 1.0,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (2.62e-11, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3445,7 +3445,7 @@ Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
 entry(
     index = 1260,
     label = "Cl + C6H12O2-4 <=> HCl + C6H11O2-4",
-    degeneracy = 1.0,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.66e-12, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3465,7 +3465,7 @@ Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
 entry(
     index = 1261,
     label = "Cl + C2H6O-3 <=> HCl + C2H5O-3",
-    degeneracy = 1.0,
+    degeneracy = 6,
     kinetics = Arrhenius(A=(1.76e-10, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
     rank = 1,
     shortDesc = u"""Cl + CH3OCH3 <=> HCl + CH3OCH2""",
@@ -3480,7 +3480,7 @@ Michael, J.V.; Nava, D.F.; Payne, W.A.; Stief, L.J., J. Chem. Phys., 70, 1979
 entry(
     index = 1262,
     label = "Cl + C3H6 <=> HCl + C3H5",
-    degeneracy = 1.0,
+    degeneracy = 3,
     kinetics = Arrhenius(
         A = (4.9e-11, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3500,7 +3500,7 @@ Pilgrim, J.S.; Taatjes, C.A., JPCA, 101, 5776-5782, 1997
 entry(
     index = 1263,
     label = "Cl + C6H12 <=> HCl + C6H11",
-    degeneracy = 1.0,
+    degeneracy = 12,
     kinetics = Arrhenius(A=(2.41e-10, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
     rank = 1,
     shortDesc = u"""Cl + cC6H12 <=> HCl + cC6H11""",
@@ -3515,7 +3515,7 @@ Rowley, D.M.; Lesclaux, R.; Lightfoot, P.D.; Noziere, B.; Wallingotn, T.J.; Hurl
 entry(
     index = 1264,
     label = "Cl + C7H8 <=> HCl + C7H7",
-    degeneracy = 1.0,
+    degeneracy = 3,
     kinetics = Arrhenius(
         A = (1.59e-12, 'cm^3/(molecule*s)'),
         n = 1.073,
@@ -3535,7 +3535,7 @@ Theoretical predictions from 298-1000 K, agrees well with 298 K experiments
 entry(
     index = 1265,
     label = "Cl + C7H8-2 <=> HCl + C7H7-2",
-    degeneracy = 1.0,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (6.88e-45, 'cm^3/(molecule*s)'),
         n = 10.876,
@@ -3555,7 +3555,7 @@ Theoretical predictions from 298-1000 K
 entry(
     index = 1266,
     label = "Cl + C7H8-3 <=> HCl + C7H7-3",
-    degeneracy = 1.0,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (4.98e-43, 'cm^3/(molecule*s)'),
         n = 10.407,
@@ -3575,7 +3575,7 @@ Theoretical predictions from 298-1000 K
 entry(
     index = 1267,
     label = "Cl + C7H8-4 <=> HCl + C7H7-4",
-    degeneracy = 1.0,
+    degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.75e-27, 'cm^3/(molecule*s)'),
         n = 5.626,
@@ -3595,7 +3595,7 @@ Theoretical predictions from 298-1000 K
 entry(
     index = 1268,
     label = "Cl + iC4H10 <=> HCl + C4H9-3",
-    degeneracy = 1.0,
+    degeneracy = 9,
     kinetics = Arrhenius(
         A = (1.94e-10, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3615,7 +3615,7 @@ Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959
 entry(
     index = 1269,
     label = "Cl + iC4H10b <=> HCl + C4H9-4",
-    degeneracy = 1.0,
+    degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.82e-11, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3635,7 +3635,7 @@ Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959
 entry(
     index = 1270,
     label = "Cl + C3H6-4 <=> HCl + C3H5-3",
-    degeneracy = 1.0,
+    degeneracy = 6,
     kinetics = Arrhenius(
         A = (8.97e-11, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3655,7 +3655,7 @@ Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959
 entry(
     index = 1271,
     label = "Cl + C3H4 <=> HCl + C3H3-2",
-    degeneracy = 1.0,
+    degeneracy = 3,
     kinetics = Arrhenius(
         A = (1.41e-17, 'cm^3/(molecule*s)'),
         n = 2,
@@ -3675,7 +3675,7 @@ Farrell, J.T.; Taatjes, C.A., J. Phys. Chem. A, 102, 1998, 4846-4856
 entry(
     index = 1272,
     label = "Cl + C2H4 <=> HCl + C2H3",
-    degeneracy = 1.0,
+    degeneracy = 4,
     kinetics = Arrhenius(
         A = (6.19e-11, 'cm^3/(molecule*s)'),
         n = 0,
@@ -3695,7 +3695,7 @@ Pilgrim, J.S.; Taatjes, C.A., J. Phys. Chem. A, 101, 1997, 4172-4177
 entry(
     index = 1273,
     label = "Cl + C6H6 <=> HCl + C6H5",
-    degeneracy = 1.0,
+    degeneracy = 6,
     kinetics = Arrhenius(
         A = (6.1e-11, 'cm^3/(molecule*s)'),
         n = 0,
