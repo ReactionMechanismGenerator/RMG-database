@@ -3712,3 +3712,45 @@ Alecu, I.M.; Gao, Y.D.; Hsieh, P.C.; Sand, J.P.; Ors, A.; McLeod, A.; Marshall, 
 """,
 )
 
+entry(
+    index = 1274,
+    label = "Cl + C8H10 <=> HCl + C8H9",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.06e-12, 'cm^3/(molecule*s)'),
+        n = 1.073,
+        Ea = (6406.3, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C6H5CH2CH3 <=> HCl + C6H5CHCH3""",
+    longDesc = 
+u"""
+DFT study on the abstraction and addition of Cl atom with toluene 
+Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012 
+Theoretical predictions from 298-1000 K, agrees well with 298 K experiments
+A-factor multiplied by 2/3 to account for different degeneracy of ethylbenzene vs. toluene
+""",
+)
+
+entry(
+    index = 1275,
+    label = "Cl + C9H12 <=> HCl + C9H11",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5.3e-13, 'cm^3/(molecule*s)'),
+        n = 1.073,
+        Ea = (6406.3, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C6H5CH(CH3)CH3 <=> HCl + C6H5C(CH3)CH3""",
+    longDesc = 
+u"""
+DFT study on the abstraction and addition of Cl atom with toluene 
+Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012 
+Theoretical predictions from 298-1000 K, agrees well with 298 K experiments
+A-factor multiplied by 1/3 to account for different degeneracy of isopropylbenzene vs. toluene
+""",
+)
+
