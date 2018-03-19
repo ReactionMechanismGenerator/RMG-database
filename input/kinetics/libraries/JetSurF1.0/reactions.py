@@ -1,17 +1,17 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "JetSurF2.0"
-shortDesc = u""
+name = "JetSurF1.0"
+shortDesc = u"JetSurF1.0"
 longDesc = u"""
 JetSurF - A Jet Surrogate Fuel Model
 JetSurF is a detailed chemical reaction model for the combustion of jet-fuel surrogate.
 
-H. Wang, E. Dames, B. Sirjean, D. A. Sheen, R. Tango, A. Violi, J. Y. W. Lai, F. N. Egolfopoulos,
- D. F. Davidson, R. K. Hanson, C. T. Bowman, C. K. Law, W. Tsang, N. P. Cernansky, D. L. Miller, R. P. Lindstedt,
- A high-temperature chemical kinetic model of n-alkane (up to n-dodecane), cyclohexane, and methyl-, ethyl-,
- n-propyl and n-butyl-cyclohexane oxidation at high temperatures, JetSurF version 2.0,
- September 19, 2010 (http://web.stanford.edu/group/haiwanglab/JetSurF/JetSurF2.0/index.html).
+B. Sirjean, E. Dames, D. A. Sheen, X.-Q. You, C. Sung, A. T. Holley, F. N. Egolfopoulos,
+H. Wang, S. S. Vasu, D. F. Davidson, R. K. Hanson, H. Pitsch, C. T. Bowman, A. Kelley,
+C. K. Law, W. Tsang, N. P. Cernansky, D. L. Miller, A. Violi, R. P. Lindstedt,
+A high-temperature chemical kinetic model of n-alkane oxidation, JetSurF version 1.0
+September 15, 2009 (http://web.stanford.edu/group/haiwanglab/JetSurF/JetSurF1.0/index.html).
  
  
 The following reactions involve excited CH and OH species, which currently cannot be represented in RMG.
