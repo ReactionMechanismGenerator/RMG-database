@@ -2890,17 +2890,16 @@ entry(
     label = "o-C6H4",
     molecule = 
 """
-multiplicity 3
-1  C u0 p0 c0 {2,S} {3,D} {7,S}
-2  C u1 p0 c0 {1,S} {4,S} {8,S}
-3  C u0 p0 c0 {1,D} {6,S} {9,S}
-4  C u1 p0 c0 {2,S} {5,S} {10,S}
+1  C u0 p0 c0 {2,S} {3,D} {8,S}
+2  C u0 p0 c0 {1,S} {4,D} {7,S}
+3  C u0 p0 c0 {1,D} {6,S} {10,S}
+4  C u0 p0 c0 {2,D} {5,S} {9,S}
 5  C u0 p0 c0 {4,S} {6,T}
 6  C u0 p0 c0 {3,S} {5,T}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2923,12 +2922,12 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {3,D} {8,S}
-2  C u0 p0 c0 {1,S} {5,D} {7,S}
-3  C u0 p0 c0 {1,D} {4,S} {9,S}
-4  C u0 p0 c0 {3,S} {6,D} {10,S}
-5  C u0 p0 c0 {2,D} {6,S} {11,S}
-6  C u1 p0 c0 {4,D} {5,S}
+1  C u0 p0 c0 {2,B} {3,B} {8,S}
+2  C u0 p0 c0 {1,B} {5,B} {7,S}
+3  C u0 p0 c0 {1,B} {4,B} {9,S}
+4  C u0 p0 c0 {3,B} {6,B} {10,S}
+5  C u0 p0 c0 {2,B} {6,B} {11,S}
+6  C u1 p0 c0 {4,B} {5,B}
 7  H u0 p0 c0 {2,S}
 8  H u0 p0 c0 {1,S}
 9  H u0 p0 c0 {3,S}
@@ -2955,12 +2954,12 @@ entry(
     label = "C6H6",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {6,S} {7,S}
-2  C u0 p0 c0 {1,D} {3,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,D} {9,S}
-4  C u0 p0 c0 {3,D} {5,S} {10,S}
-5  C u0 p0 c0 {4,S} {6,D} {11,S}
-6  C u0 p0 c0 {1,S} {5,D} {12,S}
+1  C u0 p0 c0 {2,B} {6,B} {7,S}
+2  C u0 p0 c0 {1,B} {3,B} {8,S}
+3  C u0 p0 c0 {2,B} {4,B} {9,S}
+4  C u0 p0 c0 {3,B} {5,B} {10,S}
+5  C u0 p0 c0 {4,B} {6,B} {11,S}
+6  C u0 p0 c0 {1,B} {5,B} {12,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {3,S}
@@ -2989,12 +2988,12 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {3,S} {7,S}
-2  C u0 p0 c0 {1,D} {4,S} {8,S}
-3  C u0 p0 c0 {1,S} {6,D} {12,S}
-4  C u0 p0 c0 {2,S} {5,D} {9,S}
-5  C u0 p0 c0 {4,D} {6,S} {10,S}
-6  C u0 p0 c0 {3,D} {5,S} {11,S}
+1  C u0 p0 c0 {2,B} {3,B} {7,S}
+2  C u0 p0 c0 {1,B} {4,B} {8,S}
+3  C u0 p0 c0 {1,B} {6,B} {12,S}
+4  C u0 p0 c0 {2,B} {5,B} {9,S}
+5  C u0 p0 c0 {4,B} {6,B} {10,S}
+6  C u0 p0 c0 {3,B} {5,B} {11,S}
 7  C u1 p0 c0 {1,S} {13,S} {14,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {4,S}
@@ -3025,12 +3024,12 @@ entry(
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  C u0 p0 c0 {1,S} {3,D} {4,S}
-3  C u0 p0 c0 {2,D} {5,S} {11,S}
-4  C u0 p0 c0 {2,S} {7,D} {15,S}
-5  C u0 p0 c0 {3,S} {6,D} {12,S}
-6  C u0 p0 c0 {5,D} {7,S} {13,S}
-7  C u0 p0 c0 {4,D} {6,S} {14,S}
+2  C u0 p0 c0 {1,S} {3,B} {4,B}
+3  C u0 p0 c0 {2,B} {5,B} {11,S}
+4  C u0 p0 c0 {2,B} {7,B} {15,S}
+5  C u0 p0 c0 {3,B} {6,B} {12,S}
+6  C u0 p0 c0 {5,B} {7,B} {13,S}
+7  C u0 p0 c0 {4,B} {6,B} {14,S}
 8  H u0 p0 c0 {1,S}
 9  H u0 p0 c0 {1,S}
 10 H u0 p0 c0 {1,S}
@@ -3060,12 +3059,12 @@ entry(
     label = "C6H5C2H",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {3,S} {7,S}
-2  C u0 p0 c0 {1,D} {4,S} {9,S}
-3  C u0 p0 c0 {1,S} {6,D} {13,S}
-4  C u0 p0 c0 {2,S} {5,D} {10,S}
-5  C u0 p0 c0 {4,D} {6,S} {11,S}
-6  C u0 p0 c0 {3,D} {5,S} {12,S}
+1  C u0 p0 c0 {2,B} {3,B} {7,S}
+2  C u0 p0 c0 {1,B} {4,B} {9,S}
+3  C u0 p0 c0 {1,B} {6,B} {13,S}
+4  C u0 p0 c0 {2,B} {5,B} {10,S}
+5  C u0 p0 c0 {4,B} {6,B} {11,S}
+6  C u0 p0 c0 {3,B} {5,B} {12,S}
 7  C u0 p0 c0 {1,S} {8,T}
 8  C u0 p0 c0 {7,T} {14,S}
 9  H u0 p0 c0 {2,S}
@@ -3096,13 +3095,13 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,D}
-2  C u0 p0 c0 {1,S} {3,D} {8,S}
-3  C u0 p0 c0 {2,D} {4,S} {9,S}
-4  C u1 p0 c0 {3,S} {5,S} {10,S}
-5  C u0 p0 c0 {4,S} {6,D} {11,S}
-6  C u0 p0 c0 {1,S} {5,D} {12,S}
-7  O u0 p2 c0 {1,D}
+1  C u0 p0 c0 {2,B} {6,B} {7,S}
+2  C u0 p0 c0 {1,B} {3,B} {8,S}
+3  C u0 p0 c0 {2,B} {4,B} {9,S}
+4  C u0 p0 c0 {3,B} {5,B} {10,S}
+5  C u0 p0 c0 {4,B} {6,B} {11,S}
+6  C u0 p0 c0 {1,B} {5,B} {12,S}
+7  O u1 p2 c0 {1,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {4,S}
@@ -3129,12 +3128,12 @@ entry(
     label = "C6H5OH",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {3,S} {7,S}
-2  C u0 p0 c0 {1,D} {4,S} {8,S}
-3  C u0 p0 c0 {1,S} {6,D} {12,S}
-4  C u0 p0 c0 {2,S} {5,D} {9,S}
-5  C u0 p0 c0 {4,D} {6,S} {10,S}
-6  C u0 p0 c0 {3,D} {5,S} {11,S}
+1  C u0 p0 c0 {2,B} {3,B} {7,S}
+2  C u0 p0 c0 {1,B} {4,B} {8,S}
+3  C u0 p0 c0 {1,B} {6,B} {12,S}
+4  C u0 p0 c0 {2,B} {5,B} {9,S}
+5  C u0 p0 c0 {4,B} {6,B} {10,S}
+6  C u0 p0 c0 {3,B} {5,B} {11,S}
 7  O u0 p2 c0 {1,S} {13,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {4,S}
@@ -3163,18 +3162,18 @@ entry(
     label = "C6H4O2",
     molecule = 
 """
-1  O u0 p2 c0 {2,D}
-2  C u0 p0 c0 {1,D} {3,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,D} {9,S}
-4  C u0 p0 c0 {3,D} {5,S} {10,S}
-5  C u0 p0 c0 {4,S} {6,D} {7,S}
-6  O u0 p2 c0 {5,D}
-7  C u0 p0 c0 {5,S} {8,D} {11,S}
-8  C u0 p0 c0 {2,S} {7,D} {12,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {7,S}
-12 H u0 p0 c0 {8,S}
+1  C u0 p0 c0 {2,S} {6,S} {7,D}
+2  C u0 p0 c0 {1,S} {3,D} {9,S}
+3  C u0 p0 c0 {2,D} {4,S} {10,S}
+4  C u0 p0 c0 {3,S} {5,S} {8,D}
+5  C u0 p0 c0 {4,S} {6,D} {11,S}
+6  C u0 p0 c0 {1,S} {5,D} {12,S}
+7  O u0 p2 c0 {1,D}
+8  O u0 p2 c0 {4,D}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {5,S}
+12 H u0 p0 c0 {6,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3197,12 +3196,12 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {3,S} {7,S}
-2  C u0 p0 c0 {1,D} {4,S} {8,S}
-3  C u0 p0 c0 {1,S} {6,D} {12,S}
-4  C u0 p0 c0 {2,S} {5,D} {9,S}
-5  C u0 p0 c0 {4,D} {6,S} {10,S}
-6  C u0 p0 c0 {3,D} {5,S} {11,S}
+1  C u0 p0 c0 {2,B} {3,B} {7,S}
+2  C u0 p0 c0 {1,B} {4,B} {8,S}
+3  C u0 p0 c0 {1,B} {6,B} {12,S}
+4  C u0 p0 c0 {2,B} {5,B} {9,S}
+5  C u0 p0 c0 {4,B} {6,B} {10,S}
+6  C u0 p0 c0 {3,B} {5,B} {11,S}
 7  C u1 p0 c0 {1,S} {13,D}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {4,S}
@@ -3231,12 +3230,12 @@ entry(
     label = "C6H5CHO",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {3,S} {7,S}
-2  C u0 p0 c0 {1,D} {4,S} {8,S}
-3  C u0 p0 c0 {1,S} {6,D} {12,S}
-4  C u0 p0 c0 {2,S} {5,D} {9,S}
-5  C u0 p0 c0 {4,D} {6,S} {10,S}
-6  C u0 p0 c0 {3,D} {5,S} {11,S}
+1  C u0 p0 c0 {2,B} {3,B} {7,S}
+2  C u0 p0 c0 {1,B} {4,B} {8,S}
+3  C u0 p0 c0 {1,B} {6,B} {12,S}
+4  C u0 p0 c0 {2,B} {5,B} {9,S}
+5  C u0 p0 c0 {4,B} {6,B} {10,S}
+6  C u0 p0 c0 {3,B} {5,B} {11,S}
 7  C u0 p0 c0 {1,S} {13,D} {14,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {4,S}
@@ -3267,12 +3266,12 @@ entry(
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  C u0 p0 c0 {1,S} {3,D} {4,S}
-3  C u0 p0 c0 {2,D} {5,S} {11,S}
-4  C u0 p0 c0 {2,S} {7,D} {15,S}
-5  C u0 p0 c0 {3,S} {6,D} {12,S}
-6  C u0 p0 c0 {5,D} {7,S} {13,S}
-7  C u0 p0 c0 {4,D} {6,S} {14,S}
+2  C u0 p0 c0 {1,S} {3,B} {4,B}
+3  C u0 p0 c0 {2,B} {5,B} {11,S}
+4  C u0 p0 c0 {2,B} {7,B} {15,S}
+5  C u0 p0 c0 {3,B} {6,B} {12,S}
+6  C u0 p0 c0 {5,B} {7,B} {13,S}
+7  C u0 p0 c0 {4,B} {6,B} {14,S}
 8  O u0 p2 c0 {1,S} {16,S}
 9  H u0 p0 c0 {1,S}
 10 H u0 p0 c0 {1,S}
@@ -3305,16 +3304,16 @@ entry(
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  C u0 p0 c0 {1,S} {3,D} {4,S}
-3  C u0 p0 c0 {2,D} {5,S} {12,S}
-4  C u1 p0 c0 {2,S} {7,S} {15,S}
-5  C u0 p0 c0 {3,S} {6,S} {11,D}
-6  C u0 p0 c0 {5,S} {7,D} {13,S}
-7  C u0 p0 c0 {4,S} {6,D} {14,S}
+2  C u0 p0 c0 {1,S} {3,B} {4,B}
+3  C u0 p0 c0 {2,B} {5,B} {12,S}
+4  C u0 p0 c0 {2,B} {7,B} {15,S}
+5  C u0 p0 c0 {3,B} {6,B} {11,S}
+6  C u0 p0 c0 {5,B} {7,B} {13,S}
+7  C u0 p0 c0 {4,B} {6,B} {14,S}
 8  H u0 p0 c0 {1,S}
 9  H u0 p0 c0 {1,S}
 10 H u0 p0 c0 {1,S}
-11 O u0 p2 c0 {5,D}
+11 O u1 p2 c0 {5,S}
 12 H u0 p0 c0 {3,S}
 13 H u0 p0 c0 {6,S}
 14 H u0 p0 c0 {7,S}
@@ -3341,12 +3340,12 @@ entry(
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
-2  C u0 p0 c0 {1,S} {4,S} {5,D}
-3  C u0 p0 c0 {4,D} {6,S} {8,S}
-4  C u0 p0 c0 {2,S} {3,D} {15,S}
-5  C u0 p0 c0 {2,D} {7,S} {12,S}
-6  C u0 p0 c0 {3,S} {7,D} {14,S}
-7  C u0 p0 c0 {5,S} {6,D} {13,S}
+2  C u0 p0 c0 {1,S} {4,B} {5,B}
+3  C u0 p0 c0 {4,B} {6,B} {8,S}
+4  C u0 p0 c0 {2,B} {3,B} {15,S}
+5  C u0 p0 c0 {2,B} {7,B} {12,S}
+6  C u0 p0 c0 {3,B} {7,B} {14,S}
+7  C u0 p0 c0 {5,B} {6,B} {13,S}
 8  O u0 p2 c0 {3,S} {16,S}
 9  H u0 p0 c0 {1,S}
 10 H u0 p0 c0 {1,S}
@@ -3379,12 +3378,12 @@ entry(
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  C u0 p0 c0 {1,S} {3,D} {4,S}
-3  C u0 p0 c0 {2,D} {5,S} {11,S}
-4  C u1 p0 c0 {2,S} {6,S} {12,S}
-5  C u0 p0 c0 {3,S} {7,D} {13,S}
-6  C u0 p0 c0 {4,S} {7,D} {14,S}
-7  C u0 p0 c0 {5,D} {6,D}
+2  C u0 p0 c0 {1,S} {3,B} {4,B}
+3  C u0 p0 c0 {2,B} {5,B} {11,S}
+4  C u0 p0 c0 {2,B} {6,B} {12,S}
+5  C u0 p0 c0 {3,B} {7,B} {13,S}
+6  C u0 p0 c0 {4,B} {7,B} {14,S}
+7  C u1 p0 c0 {5,B} {6,B}
 8  H u0 p0 c0 {1,S}
 9  H u0 p0 c0 {1,S}
 10 H u0 p0 c0 {1,S}
