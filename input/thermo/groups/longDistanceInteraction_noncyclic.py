@@ -1152,7 +1152,7 @@ entry(
     label = "Cs(Cl)3-Cs(Cl)3",
     group = 
 """
-1 *1 Cs    u0 {2,S} {3,S} {5,S} {7,S} 
+1 *1 Cs    u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs    u0 {1,S} {4,S} {6,S} {8,S}
 3    Cl1s u0 {1,S}
 4    Cl1s u0 {2,S}
@@ -1179,7 +1179,7 @@ entry(
     label = "Cs(Cl)3-Cs(Cl)2",
     group = 
 """
-1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S} 
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs   u0 {1,S} {4,S} {6,S} {8,S}
 3    Cl1s u0 {1,S}
 4    Cl1s u0 {2,S}
@@ -1232,7 +1232,7 @@ entry(
     label = "Cs(Cl)3-C(Cl)",
     group = 
 """
-1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S} 
+1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 [Cs,Cd]    u0 {1,S} {4,S}
 3    Cl1s u0 {1,S}
 4    Cl1s u0 {2,S}
@@ -1382,7 +1382,7 @@ entry(
     label = "C(Cl)-C(Cl)",
     group = 
 """
-1 *1 [Cs,Cd]    u0 {2,S} {3,S} 
+1 *1 [Cs,Cd]    u0 {2,S} {3,S}
 2 *2 [Cs,Cd]    u0 {1,S} {4,S}
 3    Cl1s u0 {1,S}
 4    Cl1s u0 {2,S}
@@ -1482,7 +1482,7 @@ entry(
     label = "Cds(Cl)2=Cds(Cl)2",
     group = 
 """
-1 *1 Cd   u0 {2,D} {3,S} {5,S} 
+1 *1 Cd   u0 {2,D} {3,S} {5,S}
 2 *2 Cd   u0 {1,D} {4,S} {6,S}
 3    Cl1s u0 {1,S}
 4    Cl1s u0 {2,S}
@@ -1507,7 +1507,7 @@ entry(
     label = "Cds(Cl)2=Cds(Cl)",
     group = 
 """
-1 *1 Cd   u0 {2,D} {3,S} {5,S} 
+1 *1 Cd   u0 {2,D} {3,S} {5,S}
 2 *2 Cd   u0 {1,D} {4,S} {6,S}
 3    Cl1s u0 {1,S}
 4    Cl1s u0 {2,S}
@@ -1531,7 +1531,7 @@ entry(
     label = "Cds(Cl)=Cds(Cl)",
     group = 
 """
-1 *1 Cd   u0 {2,D} {3,S} {5,S} 
+1 *1 Cd   u0 {2,D} {3,S} {5,S}
 2 *2 Cd   u0 {1,D} {4,S} {6,S}
 3    Cl1s u0 {1,S}
 4    Cl1s u0 {2,S}

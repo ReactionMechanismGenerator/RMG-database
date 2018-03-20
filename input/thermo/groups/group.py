@@ -46854,7 +46854,7 @@ entry(
     label = "Cl1s",
     group = 
 """
-1 *  Cl1s u0 
+1 *  Cl1s u0
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
