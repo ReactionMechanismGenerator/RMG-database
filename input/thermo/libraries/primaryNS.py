@@ -778,34 +778,64 @@ multiplicity 2
     """,
 )
 
-# entry(
-#     index = 27,
-#     label = "HSOO",
-#     molecule =
-# """
-# multiplicity 2
-# 1 S u0 p2 c0 {2,S} {4,S}
-# 2 O u0 p2 c0 {1,S} {3,S}
-# 3 O u1 p2 c0 {2,S}
-# 4 H u0 p0 c0 {1,S}
-# """,
-#     thermo = ThermoData(
-#         Tdata = ([300,400,500,700,1000,1300,2500],'K'),
-#         Cpdata = ([51.7,56.8,60.5,65.6,70.2,72.9,76.0],'J/(mol*K)'),
-#         H298 = (111.5,'kJ/mol'),
-#         S298 = (283.0,'J/(mol*K)'),
-#     ),
-#     shortDesc = u"""""",
-#     longDesc =
-# u"""
-# Table 5
-# MP2=FULL/6-31G(d)
-# A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall
-# J. Phys. Chem. A, 1999, 103, 11328-11335, doi: 10.1021/jp9924070
-# Also available from the SulfurGlarborgH2S library where H298 is 32.29 kcal/mol (here it is 26.65 kcal/mol).
-# Since this library should describe species with trusted thermo, this entry is commented-out until a definite value is obtained.
-# """,
-# )
+entry(
+    index=27,
+    label="HSOO",
+    molecule=
+    """
+    multiplicity 2
+    1 S u0 p2 c0 {2,S} {4,S}
+    2 O u0 p2 c0 {1,S} {3,S}
+    3 O u1 p2 c0 {2,S}
+    4 H u0 p0 c0 {1,S}
+    """,
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.86474, 0.0135584, -2.40972e-05, 2.93163e-08, -1.55426e-11, 14275.4, 9.88043],
+                Tmin = (10, 'K'),
+                Tmax = (448.899, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [4.48696, 0.00801407, -5.57065e-06, 1.8022e-09, -2.19497e-13, 14219.5, 7.37697],
+                Tmin = (448.899, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (118.694, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (78.9875, 'J/(mol*K)'),
+    ),
+    shortDesc=u"""CCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p)""",
+    longDesc=
+    u"""
+    SMILES: SO[O]
+
+    calculated by alongd (xq1174, xc1086) at the CCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p) level of theory
+    frequencies calculated at B3LYP/6-311G(2d,d,p)
+    rotor calculated at B3LYP/6-311G(2d,pd)
+
+    Thermodynamics for HSOO:
+        Enthalpy of formation (298 K)   =    31.531 kcal/mol
+        Entropy of formation (298 K)    =    69.744 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      12.776      31.557      69.830      10.608
+               400      13.733      32.884      73.641       3.427
+               500      14.532      34.298      76.794      -4.099
+               600      15.204      35.786      79.504     -11.917
+               800      16.227      38.935      84.028     -28.287
+              1000      16.917      42.255      87.728     -45.473
+              1500      17.776      50.965      94.780     -91.205
+              2000      18.159      59.955      99.950    -139.944
+              2400      18.412      67.271     103.283    -180.610
+        =========== =========== =========== =========== ===========
+    """,
+)
 
 entry(
     index = 28,
@@ -1083,20 +1113,347 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.53388,0.0310348,-4.10422e-05,2.95752e-08,-8.81459e-12,-90545.9,3.93961], Tmin=(200,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[11.3355,0.00560829,-1.94574e-06,3.07136e-10,-1.8111e-14,-92108.7,-29.6094], Tmin=(1000,'K'), Tmax=(6000,'K')),
+            NASAPolynomial(
+                coeffs = [3.82425, 0.0119047, 0.000109424, -3.15925e-07, 2.47803e-10, -91732.6, 8.87386],
+                Tmin = (10, 'K'),
+                Tmax = (471.056, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [7.04982, 0.0173189, -1.22766e-05, 4.15079e-09, -5.29527e-13, -92400.4, -8.12269],
+                Tmin = (471.056, 'K'),
+                Tmax = (3000, 'K'),
+            ),
         ],
-        Tmin = (200,'K'),
-        Tmax = (6000,'K'),
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (-762.735, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (153.818, 'J/(mol*K)'),
     ),
-    shortDesc = u"""T 8/03""",
-    longDesc =
+    shortDesc=u"""UCCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p)""",
+    longDesc=
     u"""
-    Taken from the BurcatNS library
-    7664-93-9
-    H2SO4  SULFURIC ACID  SIGMA=2  STATWT=1  IAIBIC=4669.95E-117  NU=3563,1216,1136,
-    831,548,420,355,3567,1452,1157,882,558,475, Ir=0.8097  HF0=-720.8+/-2 KJ
-    HF298=-732.7 kJ   REF=Dorofeeva et al JPCRD 32 (2003),879    Max Lst Sq Error
-    Cp @ 6000 K 0.25%. Calculated from original tables.
+    SMILES: OS(=O)(=O)O
+
+    calculated by alongd (xq1173, xc1085) at the UCCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p) level of theory
+    frequencies calculated at B3LYP/6-311G(2d,d,p)
+    rotors calculated at B3LYP/6-311G(2d,pd)
+
+    Thermodynamics for H2SO4:
+        Enthalpy of formation (298 K)   =  -178.065 kcal/mol
+        Entropy of formation (298 K)    =    73.067 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      21.305    -178.022      73.210    -199.985
+               400      24.281    -175.730      79.784    -207.643
+               500      26.084    -173.206      85.408    -215.910
+               600      27.522    -170.524      90.294    -224.700
+               800      29.721    -164.786      98.533    -243.612
+              1000      31.226    -158.681     105.337    -264.018
+              1500      33.254    -142.490     118.439    -320.149
+              2000      34.409    -125.564     128.170    -381.904
+              2400      35.202    -111.636     134.517    -434.476
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index=34,
+    label="HSO2OO",
+    molecule=
+    """
+multiplicity 2
+1 O u0 p2 c0 {2,D}
+2 S u0 p0 c0 {1,D} {3,S} {4,D} {5,S}
+3 H u0 p0 c0 {2,S}
+4 O u0 p2 c0 {2,D}
+5 O u0 p2 c0 {2,S} {6,S}
+6 O u1 p2 c0 {5,S}
+    """,
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.79167, 0.0166396, 5.60531e-05, -1.97213e-07, 1.66845e-10, -28503.7, 11.2581],
+                Tmin = (10, 'K'),
+                Tmax = (449.043, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [5.95215, 0.0173632, -1.30682e-05, 4.43954e-09, -5.57766e-13, -28899, 0.323081],
+                Tmin = (449.043, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (-237.008, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (128.874, 'J/(mol*K)'),
+    ),
+    shortDesc=u"""CCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p)""",
+    longDesc=
+    u"""
+    SMILES: [O]O[SH](=O)=O
+
+    calculated by alongd (xq1167, xc1079) at the CCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p) level of theory
+    frequencies calculated at B3LYP/6-311G(2d,d,p)
+    rotor calculated at B3LYP/6-311G(2d,pd)
+
+    Thermodynamics for HSO2OO:
+        Enthalpy of formation (298 K)   =   -52.563 kcal/mol
+        Entropy of formation (298 K)    =    77.295 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      19.584     -52.524      77.426     -75.752
+               400      21.990     -50.436      83.416     -83.803
+               500      23.621     -48.152      88.506     -92.405
+               600      24.944     -45.722      92.933    -101.482
+               800      26.874     -40.526     100.394    -120.841
+              1000      28.077     -35.021     106.531    -141.552
+              1500      29.318     -20.602     118.207    -197.912
+              2000      29.803      -5.820     126.709    -259.237
+              2400      30.240       6.189     132.181    -311.046
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index=35,
+    label="HSO3",
+    molecule=
+    """
+multiplicity 2
+1 S u0 p0 c0 {2,S} {3,D} {4,D} {5,S}
+2 H u0 p0 c0 {1,S}
+3 O u0 p2 c0 {1,D}
+4 O u0 p2 c0 {1,D}
+5 O u1 p2 c0 {1,S}
+    """,
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.92255, 0.0129065, -8.44739e-07, -8.83705e-09, 4.38872e-12, -16579, 8.38917],
+                Tmin = (10, 'K'),
+                Tmax = (957.734, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [6.26213, 0.00958261, -5.73674e-06, 1.59724e-09, -1.69777e-13, -17322.8, -4.34062],
+                Tmin = (957.734, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (-137.825, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (108.088, 'J/(mol*K)'),
+    ),
+    shortDesc=u"""CCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p)""",
+    longDesc=
+    u"""
+    SMILES: [O][SH](=O)=O
+
+    calculated by alongd (xq1168, xc1080) at the CCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p) level of theory
+    frequencies calculated at B3LYP/6-311G(2d,d,p)
+
+    Thermodynamics for HSO3:
+        Enthalpy of formation (298 K)   =   -29.530 kcal/mol
+        Entropy of formation (298 K)    =    68.510 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      14.935     -29.500      68.610     -50.083
+               400      16.885     -27.906      73.180     -57.178
+               500      18.549     -26.132      77.132     -64.698
+               600      19.916     -24.207      80.639     -72.590
+               800      21.820     -20.016      86.654     -89.339
+              1000      22.923     -15.533      91.652    -107.184
+              1500      24.362      -3.655     101.264    -155.551
+              2000      24.923       8.686     108.361    -208.035
+              2400      25.166      18.707     112.927    -252.319
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index=36,
+    label="HOSO3",
+    molecule=
+    """
+multiplicity 2
+1 O u1 p2 c0 {2,S}
+2 S u0 p0 c0 {1,S} {3,D} {4,D} {5,S}
+3 O u0 p2 c0 {2,D}
+4 O u0 p2 c0 {2,D}
+5 O u0 p2 c0 {2,S} {6,S}
+6 H u0 p0 c0 {5,S}
+    """,
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.85754, 0.0099495, 8.51696e-05, -2.46189e-07, 1.94906e-10, -63517.7, 11.0751],
+                Tmin = (10, 'K'),
+                Tmax = (458.746, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [5.63474, 0.0171977, -1.28996e-05, 4.40463e-09, -5.5626e-13, -63920.1, 1.27755],
+                Tmin = (458.746, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (-528.134, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (128.874, 'J/(mol*K)'),
+    ),
+    shortDesc=u"""CCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p)""",
+    longDesc=
+    u"""
+    SMILES: [O]S(=O)(=O)O
+
+    calculated by alongd (xq1170, xc1082) at the CCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p) level of theory
+    frequencies calculated at B3LYP/6-311G(2d,d,p)
+    rotor calculated at B3LYP/6-311G(2d,pd)
+
+    Thermodynamics for HOSO3:
+        Enthalpy of formation (298 K)   =  -122.350 kcal/mol
+        Entropy of formation (298 K)    =    75.536 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      18.758    -122.313      75.661    -145.011
+               400      21.259    -120.302      81.428    -152.873
+               500      22.902    -118.090      86.357    -161.269
+               600      24.222    -115.732      90.653    -170.124
+               800      26.161    -110.679      97.907    -189.005
+              1000      27.386    -105.315     103.887    -209.202
+              1500      28.729     -91.218     115.300    -264.169
+              2000      29.349     -76.697     123.651    -324.000
+              2400      29.892     -64.849     129.050    -374.569
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index=37,
+    label="SO4(T)",
+    molecule=
+    """
+multiplicity 3
+1 O u1 p2 c0 {2,S}
+2 S u0 p0 c0 {1,S} {3,D} {4,D} {5,S}
+3 O u0 p2 c0 {2,D}
+4 O u0 p2 c0 {2,D}
+5 O u1 p2 c0 {2,S}
+    """,
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.87898, 0.00756363, 7.69807e-05, -1.95254e-07, 1.34821e-10, -32083.1, 9.11986],
+                Tmin = (10, 'K'),
+                Tmax = (532.188, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [6.41676, 0.0136579, -1.11352e-05, 3.99257e-09, -5.21782e-13, -32709.7, -4.87131],
+                Tmin = (532.188, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (-266.792, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (108.088, 'J/(mol*K)'),
+    ),
+    shortDesc=u"""CCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p)""",
+    longDesc=
+    u"""
+    SMILES: [O]S(=O)(=O)[O]
+
+    calculated by alongd (xq1171, xc1083) at the CCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p) level of theory
+    frequencies calculated at B3LYP/6-311G(2d,d,p)
+
+    Thermodynamics for SO4(T):
+        Enthalpy of formation (298 K)   =   -60.081 kcal/mol
+        Entropy of formation (298 K)    =    70.415 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      17.679     -60.046      70.533     -81.206
+               400      20.223     -58.141      75.995     -88.539
+               500      21.711     -56.037      80.684     -96.379
+               600      22.649     -53.817      84.729    -104.654
+               800      23.940     -49.147      91.438    -122.297
+              1000      24.662     -44.279      96.866    -141.145
+              1500      25.203     -31.767     107.005    -192.274
+              2000      25.404     -19.124     114.278    -247.680
+              2400      25.712      -8.902     118.937    -294.349
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index=37,
+    label="HSOOH",
+    molecule=
+    """
+1 S u0 p2 c0 {2,S} {4,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 O u0 p2 c0 {2,S} {5,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {3,S}
+    """,
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.84407, 0.0150566, 5.35225e-05, -3.37418e-07, 4.77338e-10, -5883.48, 7.95668],
+                Tmin = (10, 'K'),
+                Tmax = (278.49, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [5.11563, 0.0116763, -8.43568e-06, 2.80455e-09, -3.4898e-13, -6012.02, 2.41143],
+                Tmin = (278.49, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (-48.9027, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (99.7737, 'J/(mol*K)'),
+    ),
+    shortDesc=u"""CCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p)""",
+    longDesc=
+    u"""
+    SMILES: [O]S(=O)(=O)[O]
+
+    calculated by alongd (xq1175, xc1087) at the CCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p) level of theory
+    frequencies calculated at B3LYP/6-311G(2d,d,p)
+    rotors calculated at B3LYP/6-311G(2d,pd)
+
+    Thermodynamics for HSOOH:
+        Enthalpy of formation (298 K)   =    -8.025 kcal/mol
+        Entropy of formation (298 K)    =    68.926 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      15.763      -7.993      69.031     -28.702
+               400      17.104      -6.348      73.755     -35.850
+               500      18.230      -4.580      77.696     -43.428
+               600      19.167      -2.708      81.105     -51.371
+               800      20.569       1.275      86.825     -68.185
+              1000      21.485       5.487      91.521     -86.034
+              1500      22.552      16.547     100.475    -134.166
+              2000      23.008      27.943     107.029    -186.115
+              2400      23.332      37.213     111.253    -229.795
+        =========== =========== =========== =========== ===========
     """,
 )
