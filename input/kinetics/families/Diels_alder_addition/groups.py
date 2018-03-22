@@ -55,8 +55,8 @@ entry(
     label = "ene",
     group = 
 """
-1 *1 [Cd,Cdd,O2d,S2d,S4d,S6d,N3d,N5dc] u0 {2,D}
-2 *2 [Cd,O2d,S2d,S4d,S6d,N3d,N5dc]     u0 {1,D}
+1 *1 [Cd,Cdd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc] u0 {2,D}
+2 *2 [Cd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc]     u0 {1,D}
 """,
     kinetics = None,
 )
