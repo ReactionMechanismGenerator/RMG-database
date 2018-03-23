@@ -2913,3 +2913,217 @@ K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Che
 doi: 10.1021/acs.jpca.6b12890
 """,
 )
+
+
+entry(
+    index = 1233,
+    label = "C3H6-3 + C6H5 <=> C6H6 + C3H5-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00551, 'cm^3/(mol*s)'),
+        n = 4.401,
+        Ea = (4.745, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: C6H5 + C3H6 <=> C6H6 + CH3CHCH
+""",
+)
+
+entry(
+    index = 1234,
+    label = "C3H6-2 + C6H5 <=> C6H6 + C3H5-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.06725, 'cm^3/(mol*s)'),
+        n = 4.149,
+        Ea = (3.361, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: C6H5 + C3H6 <=> C6H6 + CH3CCH2
+""",
+)
+
+entry(
+    index = 1235,
+    label = "C3H6 + C6H5 <=> C6H6 + C3H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.2601, 'cm^3/(mol*s)'),
+        n = 4.002,
+        Ea = (1.735, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2017_Buras_C6H5_C3H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: C6H5 + C3H6 <=> C6H6 + CH2CHCH2
+""",
+)
+
+
+
+entry(
+    index = 1236,
+    label = "C4H6-3 + C2H3 <=> C2H4 + C4H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.0003437, 'cm^3/(mol*s)'),
+        n = 4.732,
+        Ea = (6.579, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Buras_C2H3_C4H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: C2H3 + C4H6 <=> C2H4 + nC4H5
+""",
+)
+
+entry(
+    index = 1237,
+    label = "C4H6-4 + C2H3 <=> C2H4 + C4H5-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.000621, 'cm^3/(mol*s)'),
+        n = 4.814,
+        Ea = (4.902, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: 2015_Buras_C2H3_C4H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: C2H3 + C4H6 <=> C2H4 + iC4H5
+""",
+)
+
+
+
+entry(
+    index = 1238,
+    label = "C4H6-4 + C6H5 <=> C6H6 + C4H5-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8710, 'cm^3/(mol*s)'), n=3.12, Ea=(8.1, 'kJ/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2005_Ismail_C6H5_C4H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: phenyl + 1_3_butadiene <=> benzene + 1_3_butadien_2_yl
+""",
+)
+
+entry(
+    index = 1239,
+    label = "C4H6-3 + C6H5 <=> C6H6 + C4H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(31600, 'cm^3/(mol*s)'), n=3.11, Ea=(16.7, 'kJ/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2005_Ismail_C6H5_C4H6_highP""",
+    longDesc = 
+u"""
+Taken from entry: phenyl + 1_3_butadiene <=> benzene + 1_3_butadien_1_yl
+""",
+)
+
+
+
+entry(
+    index = 1240,
+    label = "C6H6 + CH3_p23 <=> CH4b + C6H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5151, 'cm^3/(mol*s)'),
+        n = 2.896,
+        Ea = (15.308, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: benzene_1 + methyl_7 <=> phenyl_16 + CH4_26
+""",
+)
+
+entry(
+    index = 1241,
+    label = "C7H8 + H <=> H2 + C7H7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.152e+06, 'cm^3/(mol*s)'),
+        n = 1.985,
+        Ea = (6.175, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: C7H8_17 + H_15 <=> C7H7_10 + H2_23
+""",
+)
+
+entry(
+    index = 1242,
+    label = "C7H8-2 + H <=> H2 + C7H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.738e+07, 'cm^3/(mol*s)'),
+        n = 1.889,
+        Ea = (15.461, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: C7H8_17 + H_15 <=> C7H7_11 + H2_23
+""",
+)
+
+entry(
+    index = 1243,
+    label = "C9H8 + H <=> H2 + C9H7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.54e+07, 'cm^3/(mol*s)'),
+        n = 1.901,
+        Ea = (15.418, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: C9H8_20 + H_15 <=> C9H7_18 + H2_23
+""",
+)
+
+entry(
+    index = 1244,
+    label = "C9H8-2 + H <=> H2 + C9H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.725e+07, 'cm^3/(mol*s)'),
+        n = 1.892,
+        Ea = (16.619, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    longDesc = 
+u"""
+Taken from entry: C9H8_21 + H_15 <=> C9H7_22 + H2_23
+""",
+)
+

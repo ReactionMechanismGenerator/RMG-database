@@ -2365,15 +2365,15 @@ entry(
     index = 508,
     label = "C_rad_cyclopentadiene;H_rad",
     kinetics = ArrheniusEP(
-        A = (1.00E+14, 'cm^3/(mol*s)'),
+        A = (5.00E+14, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
         Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
+        Tmax = (2500, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""BENZENE OXIDATION TAKEN FROM DACOSTA 2003 IJCK""",
+    shortDesc = u"""From 2001 Roy IJCK high-P value""",
 )
 
 entry(

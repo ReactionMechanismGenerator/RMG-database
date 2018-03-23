@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # encoding: utf-8
 
 name = "R_Recombination/groups"
@@ -1661,6 +1660,44 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 112,
+    label = "Cd_allenic_Cb",
+    group = 
+"""
+1 * C   u1 {2,D} {3,S}
+2   Cdd u0 {1,D}
+3   Cb  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 113,
+    label = "C_rad/H/CdCb",
+    group = 
+"""
+1 * C             u1 {2,S} {3,S} {4,S}
+2   H             u0 {1,S}
+3   Cd		  u0 {1,S}
+4   Cb		  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 114,
+    label = "C_rad/H/CbCs",
+    group = 
+"""
+1 * C  u1 {2,S} {3,S} {4,S}
+2   H  u0 {1,S}
+3   Cb u0 {1,S}
+4   Cs u0 {1,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Y_rad
@@ -1693,6 +1730,7 @@ L1: Y_rad
             L4: Cd_rad/OneDe
                 L5: Cd_rad/Cd
         L3: Cd_allenic
+	    L4: Cd_allenic_Cb
     L2: Cb_rad
     L2: CO_rad
         L3: CO_pri_rad
@@ -1730,12 +1768,14 @@ L1: Y_rad
                 L5: C_rad/H/OneDeC
                     L6: C_rad/H/CdCs
                     L6: C_rad/H/CtCs
+            L6: C_rad/H/CbCs
                 L5: C_rad/H/OneDeO
                 L5: C_rad/H/OneDeS
                 L5: C_rad/H/OneDeN
             L4: C_rad/H/TwoDe
                 L5: C_rad/H/CdCd
                     L6: C_rad_cyclopentadiene
+        L5: C_rad/H/CdCb
         L3: C_ter_rad
             L4: C_rad/NonDe
                 L5: C_rad/Cs3
