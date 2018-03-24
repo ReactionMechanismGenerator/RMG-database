@@ -167,3 +167,20 @@ doi: 10.1002/kin.550220504
 """,
 )
 
+entry(
+    index = 12,
+    label = "CH2OH + HCO <=> CH3OH + CO",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1002/kin.10183""",
+)
+
+entry(
+    index = 13,
+    label = "C2H5 + HCO <=> C2H6 + CO",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1021/j100296a057""",
+)
