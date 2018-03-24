@@ -7056,6 +7056,28 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 442,
+    label = "Cl_rad",
+    group = 
+"""
+1 *3 Cl1s u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 443,
+    label = "HCl",
+    group = 
+"""
+1 *1 Cl1s u0 {2,S}
+2 *2 H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+
 tree(
 """
 L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
@@ -7329,6 +7351,7 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
         L3: N5_H
             L4: N5dc_H
                 L5: N5dc/H/NonDeOO
+	L3: HCl
 L1: Y_rad_birad_trirad_quadrad
     L2: Y_1centerquadrad
         L3: C_quintet
@@ -7584,6 +7607,7 @@ L1: Y_rad_birad_trirad_quadrad
                         L7: N3d_rad/OneDeCdd_O
         L3: N5_rad
             L4: N5dc_rad
+        L3: Cl_rad
 """
 )
 
