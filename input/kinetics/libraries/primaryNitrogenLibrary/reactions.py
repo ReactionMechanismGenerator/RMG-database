@@ -3970,9 +3970,7 @@ entry(
 u"""
 This is the RTS reaction from [Green2014]
 
-In that paper its rate was fitted to agree with experimental results.
-
-Here, the rate was established as follows:
+Here, the rate was estimated as follows:
 
 The A factor is taken from the reaction C2H5ONO <=> C2H5O + NO
 The latter is given in reverse in the Nitrogen_Glarborg_Zhang_et_al library:
@@ -3999,8 +3997,8 @@ The Ea is taken as the bond energy of C2H5O-NO
 Ea = H(NO) + H(C2H5O) - H(CH3CH2ONO)     (values taken at 1000 K)
 Ea = 26.93 + 14.52 - (-0.31) = 41.76 kcal/mol
 
-This is in close agreement with the rate reported by [Green2014]:
-K(T) = 1.0E+16 * exp(42 kcal/mol / RT) cm3/mol*s
+This is in agreement with the rate reported by [Green2014] (probably estimated similarly)::
+K(T) = 1.0E+16 * exp(-42 kcal/mol / RT) cm3/mol*s
 """,
 )
 
