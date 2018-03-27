@@ -477,6 +477,51 @@ Added as a training reaction to Birad_R_Recombination
 )
 
 entry(
+    index = 77,
+    label = "HSO2 <=> HSO + O",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.02e+13, 's^-1'), n=0, Ea=(88, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc = u"""estimated by alongd""",
+    longDesc =
+u"""
+The rate was estimated as follows:
+
+The A factor is taken from the reaction HSO2 <=> SO2 + H
+which is taken from [Pilling2006] where the reverse reaction SO2 + H <=> HSO2 (k1) and Keq are given.
+(k1 high-P):  3.76e+07 * T^1.59 * exp(-2472 cal/mol / RT), cm^3/mol*s  (originally fitted only in 200-1000K)
+(Keq,1):      4.72e-02 * T^0.28 * exp(-16273 cal/mol / RT), cm^3/mol
+High-P limit k(-1) is calculated and fitted here into a two parameter Arrhenius form:
+(k-1, highP): 2.02e+13 * exp(-11963 cal/mol / RT), s^-1
+A = 2.02e+13 s^-1
+
+The Ea is taken as the bond energy of S=O in HSO2:
+Ea = H(HSO) + H(O) - H(HSO2)     (values taken at 1000 K)
+Ea = 2.19 + 63.12 - (-22.66) =~ 88.0 kcal/mol
+
+k(T) = 2.02e+13 * exp(88 kcal/mol / RT) cm3/mol*s
+
+Also available in reverse from the GlarborgH2S library (doi: 10.1002/kin.21055):
+    entry(
+        index = 86,
+        label = "HSO + O <=> HSO2",
+        degeneracy = 1,
+        kinetics = ThirdBody(
+            arrheniusLow = Arrhenius(
+                A = (1.1e+19, 'cm^6/(mol^2*s)'),
+                n = -1.73,
+                Ea = (-50, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            efficiencies = {},
+        ),
+        longDesc = u"P Glarborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790",
+    The source P Glarborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
+    directs to ref 35 in that paper which could not be found.
+)
+""",
+)
+
+entry(
     index = 23,
     label = "SO2 + CO <=> SO + CO2",
     degeneracy = 1,
