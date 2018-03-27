@@ -689,9 +689,9 @@ entry(
     label = "S3",
     molecule = 
 """
-1 S u0 p3 c-1 {2,S}
-2 S u0 p1 c+1 {1,S} {3,D}
-3 S u0 p2 c0 {2,D}
+1 S u0 p1 c0 {2,D} {3,D}
+2 S u0 p2 c0 {1,D}
+3 S u0 p2 c0 {1,D}
 """,
     thermo = NASA(
         polynomials = [
