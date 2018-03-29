@@ -7078,7 +7078,28 @@ entry(
 )
 
 entry(
-    index = 444,
+   index = 444,
+   label = "I_rad",
+   group =
+"""
+1 *3 I1s u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 445,
+    label = "HI",
+    group =
+"""
+1 *1 I1s u0 {2,S}
+2 *2 H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 446,
     label = "2_methyl_CPD",
     group =
 """
@@ -7094,9 +7115,9 @@ entry(
 """,
     kinetics = None,
 )
-
+ 
 entry(
-    index = 445,
+    index = 447,
     label = "3_methyl_CPD",
     group =
 """
@@ -7114,7 +7135,7 @@ entry(
 )
 
 entry(
-    index = 446,
+    index = 448,
     label = "C/H3/Cs\TwoDe",
     group =
 """
@@ -7131,7 +7152,7 @@ entry(
 )
 
 entry(
-    index = 447,
+    index = 449,
     label = "1_methyl_CPD",
     group =
 """
@@ -7148,6 +7169,7 @@ entry(
 """,
     kinetics = None,
 )
+
 
 tree(
 """
@@ -7427,6 +7449,7 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
             L4: N5dc_H
                 L5: N5dc/H/NonDeOO
 	L3: HCl
+	L3: HI
 L1: Y_rad_birad_trirad_quadrad
     L2: Y_1centerquadrad
         L3: C_quintet
@@ -7683,6 +7706,7 @@ L1: Y_rad_birad_trirad_quadrad
         L3: N5_rad
             L4: N5dc_rad
         L3: Cl_rad
+        L3: I_rad
 """
 )
 
