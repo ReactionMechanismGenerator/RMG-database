@@ -498,7 +498,7 @@ The Ea is taken as the bond energy of S=O in HSO2:
 Ea = H(HSO) + H(O) - H(HSO2)     (values taken at 1000 K)
 Ea = 2.19 + 63.12 - (-22.66) =~ 88.0 kcal/mol
 
-k(T) = 2.02e+13 * exp(88 kcal/mol / RT) cm3/mol*s
+k(T) = 2.02e+13 * exp(-88 kcal/mol / RT) cm3/mol*s
 
 Also available in reverse from the GlarborgH2S library (doi: 10.1002/kin.21055):
     entry(
