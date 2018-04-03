@@ -1699,6 +1699,16 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 135,
+    label = "I_rad",
+    group =
+"""
+1 * I1s u1 p3
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Y_rad
@@ -1839,6 +1849,7 @@ L1: Y_rad
             L4: N5dc-OdOs
         L3: N5t_rad
         L3: N5b_rad
+    L2: I_rad
 """
 )
 
