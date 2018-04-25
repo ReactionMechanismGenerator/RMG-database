@@ -6665,6 +6665,60 @@ L1: radadd_intra
 )
 
 forbidden(
+    label = "Rn0c6_beta_long_phenyl",
+    group = 
+"""
+1 *1 C u1 {2,[D,B]} {6,[S,B]}
+2    C u0 {1,[D,B]} {3,[S,B]}
+3 *3 C u0 {2,[S,B]} {4,[D,B]}
+4 *2 C u0 {3,[D,B]} {5,[S,B]}
+5    C u0 {4,[S,B]} {6,[D,B]}
+6    C u0 {1,[S,B]} {5,[D,B]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid a phenyl radical from doing a ring closure on itself to form a fused 3 and 5 membered ring.
+""",
+)
+
+forbidden(
+    label = "Rn0c6_beta_short_phenyl",
+    group = 
+"""
+1 *1 C u1 {2,[S,B]} {6,[D,B]}
+2 *2 C u0 {1,[S,B]} {3,[D,B]}
+3 *3 C u0 {2,[D,B]} {4,[S,B]}
+4    C u0 {3,[S,B]} {5,[D,B]}
+5    C u0 {4,[D,B]} {6,[S,B]}
+6    C u0 {1,[D,B]} {5,[S,B]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid a phenyl radical from doing a ring closure on itself to form a fused 3 and 5 membered ring.
+""",
+)
+
+forbidden(
+    label = "Rn0c6_gamma_phenyl",
+    group = 
+"""
+1 *1 C u1 {2,[D,B]} {6,[S,B]}
+2    C u0 {1,[D,B]} {3,[S,B]}
+3 *2 C u0 {2,[S,B]} {4,[D,B]}
+4 *3 C u0 {3,[D,B]} {5,[S,B]}
+5    C u0 {4,[S,B]} {6,[D,B]}
+6    C u0 {1,[S,B]} {5,[D,B]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid a phenyl radical from doing a ring closure on itself to form a fused 4 and 4 membered ring.
+""",
+)
+
+forbidden(
     label = "Rn1c6_beta_long_phenyl",
     group = 
 """
