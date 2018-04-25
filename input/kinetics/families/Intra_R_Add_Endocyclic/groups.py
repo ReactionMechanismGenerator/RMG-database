@@ -6665,6 +6665,268 @@ L1: radadd_intra
 )
 
 forbidden(
+    label = "INDENYL_TO_INDENYLADD1_res1",
+    group = 
+"""
+1    C u0 p0 c0 {2,S} {3,D} {5,S}
+2    C u0 p0 c0 {1,S} {4,S} {6,D}
+3    C u0 p0 c0 {1,D} {7,S}
+4 *2 C u0 p0 c0 {2,S} {7,D}
+5    C u0 p0 c0 {1,S} {9,D}
+6    C u0 p0 c0 {2,D} {8,S}
+7 *3 C u0 p0 c0 {3,S} {4,D}
+8 *1 C u1 p0 c0 {6,S} {9,S}
+9    C u0 p0 c0 {5,D} {8,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid an indenyl radical from doing a ring closure to form a fused 6,5, and 5-membered ring tricyclic.
+Resonance form 1.
+""",
+)
+
+forbidden(
+    label = "INDENYL_TO_INDENYLADD1_res2",
+    group = 
+"""
+1    C u0 p0 c0 {2,S} {3,D} {5,S}
+2    C u0 p0 c0 {1,S} {4,D} {6,S}
+3    C u0 p0 c0 {1,D} {7,S}
+4    C u0 p0 c0 {2,D} {7,S}
+5 *2 C u0 p0 c0 {1,S} {9,D}
+6    C u0 p0 c0 {2,S} {8,D}
+7 *1 C u1 p0 c0 {3,S} {4,S}
+8    C u0 p0 c0 {6,D} {9,S}
+9 *3 C u0 p0 c0 {5,D} {8,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid an indenyl radical from doing a ring closure to form a fused 6,5, and 5-membered ring tricyclic.
+Resonance form 2.
+""",
+)
+
+forbidden(
+    label = "INDENYL_TO_INDENYLADD2_res1",
+    group = 
+"""
+1 *2 C u0 p0 c0 {2,S} {3,S} {5,D}
+2    C u0 p0 c0 {1,S} {4,S} {6,D}
+3 *1 C u1 p0 c0 {1,S} {7,S}
+4    C u0 p0 c0 {2,S} {7,D}
+5 *3 C u0 p0 c0 {1,D} {9,S}
+6    C u0 p0 c0 {2,D} {8,S}
+7    C u0 p0 c0 {3,S} {4,D}
+8    C u0 p0 c0 {6,S} {9,D}
+9    C u0 p0 c0 {5,S} {8,D}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid an indenyl radical from doing a ring closure to form a fused 6,5, and 3-membered ring tricyclic.
+Resonance form 1.
+""",
+)
+
+forbidden(
+    label = "INDENYL_TO_INDENYLADD2_res2",
+    group = 
+"""
+1 *2 C u0 p0 c0 {2,S} {3,D} {5,S}
+2    C u0 p0 c0 {1,S} {4,S} {6,D}
+3 *3 C u0 p0 c0 {1,D} {7,S}
+4    C u0 p0 c0 {2,S} {7,D}
+5 *1 C u1 p0 c0 {1,S} {9,S}
+6    C u0 p0 c0 {2,D} {8,S}
+7    C u0 p0 c0 {3,S} {4,D}
+8    C u0 p0 c0 {6,S} {9,D}
+9    C u0 p0 c0 {5,S} {8,D}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid an indenyl radical from doing a ring closure to form a fused 6,5, and 3-membered ring tricyclic.
+Resonance form 2.
+""",
+)
+
+forbidden(
+    label = "INDENYL_TO_INDENYLADD2_res3",
+    group = 
+"""
+1    C u0 p0 c0 {2,D} {3,S} {5,S}
+2    C u0 p0 c0 {1,D} {4,S} {6,S}
+3 *1 C u1 p0 c0 {1,S} {7,S}
+4    C u0 p0 c0 {2,S} {7,D}
+5 *3 C u0 p0 c0 {1,S} {9,D}
+6    C u0 p0 c0 {2,S} {8,D}
+7    C u0 p0 c0 {3,S} {4,D}
+8    C u0 p0 c0 {6,D} {9,S}
+9 *2 C u0 p0 c0 {5,D} {8,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid an indenyl radical from doing a ring closure to form a fused 6,5, and 3-membered ring tricyclic.
+Resonance form 3.
+""",
+)
+
+forbidden(
+    label = "INDENYL_TO_INDENYLADD3_res1",
+    group = 
+"""
+1    C u0 p0 c0 {2,S} {3,S} {5,D}
+2    C u0 p0 c0 {1,S} {4,S} {6,D}
+3 *1 C u1 p0 c0 {1,S} {7,S}
+4 *3 C u0 p0 c0 {2,S} {7,D}
+5    C u0 p0 c0 {1,D} {9,S}
+6    C u0 p0 c0 {2,D} {8,S}
+7 *2 C u0 p0 c0 {3,S} {4,D}
+8    C u0 p0 c0 {6,S} {9,D}
+9    C u0 p0 c0 {5,S} {8,D}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid an indenyl radical from doing a ring closure to form a fused 6,4, and 3-membered ring tricyclic.
+Resonance form 1.
+""",
+)
+
+forbidden(
+    label = "INDENYL_TO_INDENYLADD3_res2",
+    group = 
+"""
+1    C u0 p0 c0 {2,D} {3,S} {5,S}
+2    C u0 p0 c0 {1,D} {4,S} {6,S}
+3 *1 C u1 p0 c0 {1,S} {7,S}
+4 *3 C u0 p0 c0 {2,S} {7,D}
+5    C u0 p0 c0 {1,S} {9,D}
+6    C u0 p0 c0 {2,S} {8,D}
+7 *2 C u0 p0 c0 {3,S} {4,D}
+8    C u0 p0 c0 {6,D} {9,S}
+9    C u0 p0 c0 {5,D} {8,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid an indenyl radical from doing a ring closure to form a fused 6,4, and 3-membered ring tricyclic.
+Resonance form 2.
+""",
+)
+
+forbidden(
+    label = "INDENYL_TO_INDENYLADD3_res3",
+    group = 
+"""
+1    C u0 p0 c0 {2,B} {3,S} {5,B}
+2    C u0 p0 c0 {1,B} {4,S} {6,B}
+3 *1 C u1 p0 c0 {1,S} {7,S}
+4 *3 C u0 p0 c0 {2,S} {7,D}
+5    C u0 p0 c0 {1,B} {9,B}
+6    C u0 p0 c0 {2,B} {8,B}
+7 *2 C u0 p0 c0 {3,S} {4,D}
+8    C u0 p0 c0 {6,B} {9,B}
+9    C u0 p0 c0 {5,B} {8,B}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid an indenyl radical from doing a ring closure to form a fused 6,4, and 3-membered ring tricyclic.
+Resonance form3.
+""",
+)
+
+forbidden(
+    label = "INDENYL_TO_INDENYLADD4_res1",
+    group = 
+"""
+1    C u0 p0 c0 {2,S} {3,D} {5,S}
+2    C u0 p0 c0 {1,S} {4,S} {6,D}
+3    C u0 p0 c0 {1,D} {7,S}
+4 *2 C u0 p0 c0 {2,S} {7,D}
+5 *1 C u1 p0 c0 {1,S} {9,S}
+6    C u0 p0 c0 {2,D} {8,S}
+7 *3 C u0 p0 c0 {3,S} {4,D}
+8    C u0 p0 c0 {6,S} {9,D}
+9    C u0 p0 c0 {5,S} {8,D}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid an indenyl radical from doing a ring closure to form a fused 6,5, and 4-membered ring tricyclic.
+Resonance form 1.
+""",
+)
+
+forbidden(
+    label = "INDENYL_TO_INDENYLADD4_res2",
+    group = 
+"""
+1    C u0 p0 c0 {2,S} {3,D} {5,S}
+2    C u0 p0 c0 {1,S} {4,D} {6,S}
+3    C u0 p0 c0 {1,D} {7,S}
+4    C u0 p0 c0 {2,D} {7,S}
+5 *3 C u0 p0 c0 {1,S} {9,D}
+6    C u0 p0 c0 {2,S} {8,D}
+7 *1 C u1 p0 c0 {3,S} {4,S}
+8    C u0 p0 c0 {6,D} {9,S}
+9 *2 C u0 p0 c0 {5,D} {8,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid an indenyl radical from doing a ring closure to form a fused 6,5, and 4-membered ring tricyclic.
+Resonance form 2.
+""",
+)
+
+forbidden(
+    label = "INDENYL_TO_INDENYLADD5_res1",
+    group = 
+"""
+1    C u0 {2,S} {4,S}
+2    C u0 {1,S} {3,S} {7,D}
+3    C u0 {2,S} {5,S} {6,D}
+4 *3 C u0 {1,S} {5,D}
+5 *2 C u0 {3,S} {4,D}
+6    C u0 {3,D} {8,S}
+7    C u0 {2,D} {9,S}
+8    C u0 {6,S} {9,D}
+9 *1 C u1 {7,S} {8,D}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid an indenyl radical from  ring-closing to form a highly strained tricyclic. Resonance form 1.
+""",
+)
+
+forbidden(
+    label = "INDENYL_TO_INDENYLADD5_res2",
+    group = 
+"""
+1    C u0 {2,S} {4,S}
+2    C u0 {1,S} {3,B} {7,B}
+3    C u0 {2,B} {5,S} {6,B}
+4 *3 C u0 {1,S} {5,D}
+5 *2 C u0 {3,S} {4,D}
+6    C u0 {3,B} {8,B}
+7    C u0 {2,B} {9,B}
+8    C u0 {6,B} {9,B}
+9 *1 C u1 {7,B} {8,B}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid an indenyl radical from  ring-closing to form a highly strained tricyclic. Resonance form 2.
+""",
+)
+
+forbidden(
     label = "Rn0c6_beta_long_phenyl",
     group = 
 """
