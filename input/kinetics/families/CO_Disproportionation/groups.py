@@ -26,6 +26,8 @@ recipe(actions=[
     ['CHANGE_BOND', '*2', 1, '*3'],
     ['LOSE_RADICAL', '*1', '1'],
     ['LOSE_RADICAL', '*3', '1'],
+    ['GAIN_CHARGE', '*2', '1'],
+    ['LOSE_CHARGE', '*3', '1'],
 ])
 
 entry(

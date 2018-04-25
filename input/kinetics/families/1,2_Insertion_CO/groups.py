@@ -18,6 +18,8 @@ recipe(actions=[
     ['FORM_BOND', '*1', 1, '*2'],
     ['FORM_BOND', '*1', 1, '*3'],
     ['LOSE_PAIR', '*1', '1'],
+    ['GAIN_CHARGE', '*1', '1'],
+    ['LOSE_CHARGE', '*4', '1'],
 ])
 
 entry(
