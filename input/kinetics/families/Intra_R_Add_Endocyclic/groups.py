@@ -7236,6 +7236,46 @@ Forbid product45 in vinylCPD_H library from ring closing to form a fused 5, 4, a
 )
 
 forbidden(
+    label = "s2_3_6_diene_0_2_self_ring_close_1_res_1",
+    group = 
+"""
+1 *1 C u1 {2,S} {7,S}
+2    C u0 {1,S} {3,[S,D]} {7,S}
+3    C u0 {2,[S,D]} {4,S}
+4 *3 C u0 {3,S} {5,D}
+5 *2 C u0 {4,D} {6,S}
+6    C u0 {5,S} {7,[S,D]}
+7    C u0 {1,S} {2,S} {6,[S,D]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Prevent a s2_3_6_diene_0_2 bicyclic (using polycyclic.py nomenclature) from undergoing a highly strained self-ring closure 
+from the tip of the 3-member ring to one of the far corners of the 6. Resonance form 1.
+""",
+)
+
+forbidden(
+    label = "s2_3_6_diene_0_2_self_ring_close_1_res_2",
+    group = 
+"""
+1 *3 C u0 {2,D} {7,S}
+2 *2 C u0 {1,D} {3,S} {7,S}
+3    C u0 {2,S} {4,D}
+4    C u0 {3,D} {5,S}
+5 *1 C u1 {4,S} {6,S}
+6    C u0 {5,S} {7,S}
+7    C u0 {1,S} {2,S} {6,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Prevent a s2_3_6_diene_0_2 bicyclic (using polycyclic.py nomenclature) from undergoing a highly strained self-ring closure 
+from the tip of the 3-member ring to one of the far corners of the 6. Resonance form 2.
+""",
+)
+
+forbidden(
     label = "s2_4_5_diene_1_5_self_ring_close_res1",
     group = 
 """
