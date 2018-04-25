@@ -6665,6 +6665,72 @@ L1: radadd_intra
 )
 
 forbidden(
+    label = "1_naphthyl_7_add_res1",
+    group = 
+"""
+1     C u0 {2,[D,B]} {3,[S,B]} {4,[S,B]}
+2     C u0 {1,[D,B]} {5,[S,B]} {10,[S,B]}
+3     C u0 {1,[S,B]} {6,[D,B]}
+4     C u0 {1,[S,B]} {8,[D,B]}
+5     C u0 {2,[S,B]} {7,[D,B]}
+6     C u0 {3,[D,B]} {7,[S,B]}
+7  *3 C u0 {5,[D,B]} {6,[S,B]}
+8     C u0 {4,[D,B]} {9,[S,B]}
+9     C u0 {8,[S,B]} {10,[D,B]}
+10 *1 C u1 {2,[S,B]} {9,[D,B]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Prevent a 1-naphthyl radical from attacking it's 7 site. Resonance form 1.
+""",
+)
+
+forbidden(
+    label = "1_naphthyl_7_add_res2",
+    group = 
+"""
+1     C u0 {2,S} {3,S} {4,D}
+2     C u0 {1,S} {5,S} {10,D}
+3     C u0 {1,S} {6,D}
+4     C u0 {1,D} {8,S}
+5  *2 C u0 {2,S} {7,D}
+6     C u0 {3,D} {7,S}
+7  *3 C u0 {5,D} {6,S}
+8     C u0 {4,S} {9,D}
+9     C u0 {8,D} {10,S}
+10 *1 C u1 {2,D} {9,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Prevent a 1-naphthyl radical from attacking it's 7 site. Resonance form 2.
+""",
+)
+
+forbidden(
+    label = "1_naphthyl_7_add_res3",
+    group = 
+"""
+1     C u0 {2,S} {3,S} {4,D}
+2     C u0 {1,S} {5,S} {10,D}
+3     C u0 {1,S} {6,D}
+4     C u0 {1,D} {8,S}
+5  *1 C u1 {2,S} {7,D}
+6     C u0 {3,D} {7,S}
+7     C u0 {5,D} {6,S}
+8  *2 C u0 {4,S} {9,D}
+9  *3 C u0 {8,D} {10,S}
+10    C u0 {2,D} {9,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Prevent a 1-naphthyl radical from attacking it's 7 site. Resonance form 3.
+""",
+)
+
+forbidden(
     label = "INDENYL_TO_INDENYLADD1_res1",
     group = 
 """
