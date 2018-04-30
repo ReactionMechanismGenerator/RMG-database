@@ -40459,7 +40459,7 @@ Added by Beat Buesser, value for reaction: CH2 + N2 = CH2NN (B&D #22a) in 'Gas-P
 
 entry(
     index = 3201,
-    label = "N3t_N3t;CH_quartet",
+    label = "N3t_N3t;CH_doublet",
     kinetics = ArrheniusEP(
         A = (3.6e+28, 'cm^3/(mol*s)'),
         n = -5.84,
@@ -40473,6 +40473,7 @@ entry(
     longDesc = 
 u"""
 Added by Beat Buesser, value for reaction: CH + N2 = HCNN (B&D #24a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Here CH is in its ground state (doublet), as specified in B&D p. 221: The initially formed adduct from CH+N2 is a doublet, and there's a surface crossing to eventually form HCN + N.
 """,
 )
 

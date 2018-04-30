@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "JetSurF0.2"
+name = "JetSurF2.0"
 shortDesc = u""
 longDesc = u"""
-JetSurF – A Jet Surrogate Fuel Model
+JetSurF - A Jet Surrogate Fuel Model
 JetSurF is a detailed chemical reaction model for the combustion of jet-fuel surrogate.
 
 H. Wang, E. Dames, B. Sirjean, D. A. Sheen, R. Tango, A. Violi, J. Y. W. Lai, F. N. Egolfopoulos,
@@ -16,7 +16,7 @@ H. Wang, E. Dames, B. Sirjean, D. A. Sheen, R. Tango, A. Violi, J. Y. W. Lai, F.
 
 entry(
     index = 1,
-    label = "AR",
+    label = "Ar",
     molecule = 
 """
 1 Ar u0 p4 c0
@@ -61,7 +61,7 @@ u"""
 
 entry(
     index = 3,
-    label = "HE",
+    label = "He",
     molecule = 
 """
 1 He u0 p1 c0
@@ -277,8 +277,8 @@ entry(
     label = "C",
     molecule = 
 """
-multiplicity 5
-1 C u4 p0 c0
+multiplicity 3
+1 C u2 p1 c0
 """,
     thermo = NASA(
         polynomials = [
@@ -300,8 +300,8 @@ entry(
     label = "CH",
     molecule = 
 """
-multiplicity 4
-1 C u3 p0 c0 {2,S}
+multiplicity 2
+1 C u1 p1 c0 {2,S}
 2 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
