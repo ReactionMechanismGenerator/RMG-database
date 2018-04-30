@@ -1208,6 +1208,49 @@ entry(
 )
 
 entry(
+    index = 301,
+    label = "N5_rad",
+    group =
+"""
+1 *1 [N5s,N5d,N5dd,N5t,N5b] u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 302,
+    label = "N5s_rad",
+    group =
+"""
+1 *1 N5s u1 p0
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 303,
+    label = "N5d_rad",
+    group =
+"""
+1 *1 N5d u1 p0 c+1 {2,D} {3,S}
+2    R!H u0 px c0  {1,D}
+3    R!H u0 px c-1 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 304,
+    label = "N5t_rad",
+    group =
+"""
+1 *1 N5t u1 p0 cx {2,T}
+2    R!H ux px cx {1,T}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 2,
     label = "XH_Rrad",
     group = 
@@ -2789,7 +2832,10 @@ L1: Y_rad_birad_trirad_quadrad
                 L5: N3d_rad/C
                 L5: N3d_rad/O
                 L5: N3d_rad/N
-        L3: H_rad
+        L3: N5_rad
+            L4: N5s_rad
+            L4: N5d_rad
+            L4: N5t_rad
 L1: XH_Rrad_birad
     L2: XH_Rrad
         L3: XH_s_Rrad

@@ -3518,7 +3518,7 @@ entry(
     index = 798,
     label = "R3H_SS_O;O_rad_out;Cs_H_out_2H",
     kinetics = ArrheniusEP(
-        A = (4.71e+08, 's^-1'),
+        A = (1.57e+08, 's^-1'),
         n = 1.45,
         alpha = 0,
         E0 = (42.27, 'kcal/mol'),
@@ -3529,7 +3529,7 @@ entry(
     shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
 u"""
-Sumathy CBS-Q calculations
+CH3OO to CH2OOH, degeneracy=3, rate for per hydrogen, J. Phys. Chem. A.,Vol.114,No.18,2010
 """,
 )
 
@@ -3537,7 +3537,7 @@ entry(
     index = 799,
     label = "R3H_SS_O;O_rad_out;Cs_H_out_H/NonDeC",
     kinetics = ArrheniusEP(
-        A = (6.66e+08, 's^-1'),
+        A = (3.33e+08, 's^-1'),
         n = 1.28,
         alpha = 0,
         E0 = (39.74, 'kcal/mol'),
@@ -3548,7 +3548,7 @@ entry(
     shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
 u"""
-Sumathy CBS-Q calculations
+CH3CH2OO to CH3CHOOH, degeneracy=2, rate for per hydrogen, J. Phys. Chem. A.,Vol.114,No.18,2010
 """,
 )
 
@@ -3556,7 +3556,7 @@ entry(
     index = 800,
     label = "R3H_SS_O;O_rad_out;Cs_H_out_H/(NonDeC/Cs)",
     kinetics = ArrheniusEP(
-        A = (2.43e+09, 's^-1'),
+        A = (1.22e+09, 's^-1'),
         n = 1.17,
         alpha = 0,
         E0 = (39.66, 'kcal/mol'),
@@ -3567,7 +3567,7 @@ entry(
     shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
 u"""
-Sumathy CBS-Q calculations
+CH3CH2CH2OO to CH3CH2CHOOH, degeneracy=2, rate for per hydrogen, J. Phys. Chem. A.,Vol.114,No.18,2010
 """,
 )
 
@@ -3575,7 +3575,7 @@ entry(
     index = 801,
     label = "R3H_SS_O;O_rad_out;Cs_H_out_H/(NonDeC/Cs/Cs)",
     kinetics = ArrheniusEP(
-        A = (1.07e+10, 's^-1'),
+        A = (5.35e+9, 's^-1'),
         n = 0.98,
         alpha = 0,
         E0 = (39.58, 'kcal/mol'),
@@ -3586,7 +3586,7 @@ entry(
     shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
 u"""
-Sumathy CBS-Q calculations
+(CH3)2CHCH2OO to (CH3)2CHCHOOH, degeneracy=2, rate for per hydrogen, J. Phys. Chem. A.,Vol.114,No.18,2010
 """,
 )
 
@@ -3594,7 +3594,7 @@ entry(
     index = 802,
     label = "R3H_SS_O;O_rad_out;Cs_H_out_H/(NonDeC/Cs/Cs/Cs)",
     kinetics = ArrheniusEP(
-        A = (6.62e+09, 's^-1'),
+        A = (3.31e+09, 's^-1'),
         n = 1.04,
         alpha = 0,
         E0 = (39.34, 'kcal/mol'),
@@ -3605,7 +3605,7 @@ entry(
     shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
 u"""
-Sumathy CBS-Q calculations
+(CH3)3CCH2OO to (CH3)3CCHOOH, degeneracy=2, rate for per hydrogen, J. Phys. Chem. A.,Vol.114,No.18,2010
 """,
 )
 
@@ -3624,7 +3624,7 @@ entry(
     shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
 u"""
-Sumathy CBS-Q calculations
+(CH3)2CHOO to (CH3)2COOH, degeneracy=1, rate for per hydrogen, J. Phys. Chem. A.,Vol.114,No.18,2010
 """,
 )
 
@@ -3632,7 +3632,7 @@ entry(
     index = 804,
     label = "R4H_SSS_OCs;O_rad_out;Cs_H_out_2H",
     kinetics = ArrheniusEP(
-        A = (1.99e+11, 's^-1'),
+        A = (6.63e+10, 's^-1'),
         n = 0.15,
         alpha = 0,
         E0 = (34.21, 'kcal/mol'),
@@ -3643,7 +3643,7 @@ entry(
     shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
 u"""
-Sumathy CBS-Q calculations
+CH3CH2OO to CH2CH2OOH, degeneracy=3, rate for per hydrogen, J. Phys. Chem. A.,Vol.114,No.18,2010
 """,
 )
 
@@ -3651,7 +3651,7 @@ entry(
     index = 805,
     label = "R4H_SSS_O(Cs)Cs;O_rad_out;Cs_H_out_2H",
     kinetics = ArrheniusEP(
-        A = (6.38e+08, 's^-1'),
+        A = (1.06e+08, 's^-1'),
         n = 1.06,
         alpha = 0,
         E0 = (33.51, 'kcal/mol'),
@@ -3662,7 +3662,7 @@ entry(
     shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
 u"""
-Sumathy CBS-Q calculations
+(CH3)2CHOO to CH3(CH2)CHOOH, degeneracy=6, rate for per hydrogen, J. Phys. Chem. A.,Vol.114,No.18,2010
 """,
 )
 
@@ -3670,7 +3670,7 @@ entry(
     index = 806,
     label = "R4H_SSS_O(Cs)CsCs;O_rad_out;Cs_H_out_2H",
     kinetics = ArrheniusEP(
-        A = (5.06e+08, 's^-1'),
+        A = (5.62e+07, 's^-1'),
         n = 1.2,
         alpha = 0,
         E0 = (33.53, 'kcal/mol'),
@@ -3681,7 +3681,7 @@ entry(
     shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
 u"""
-Sumathy CBS-Q calculations
+(CH3)3COO to (CH3)2(CH2)COOH, degeneracy=9, rate for per hydrogen, J. Phys. Chem. A.,Vol.114,No.18,2010
 """,
 )
 

@@ -109,7 +109,7 @@ entry(
     label = "imidogen_singlet",
     group = 
 """
-1 *3 N3s u0 p2 {2,S}
+1 *3 N1s u0 p2 {2,S}
 2    H   u0 {1,S}
 """,
     kinetics = None,

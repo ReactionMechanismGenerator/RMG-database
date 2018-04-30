@@ -1067,45 +1067,6 @@ entry(
     kinetics = None,
 )
 
-entry(
-    index = 190,
-    label = "S-Ss(H)Ss",
-    group = 
-"""
-1 *1 Ss u0 {2,S} {3,S}
-2 *2 Ss u0 {1,S}
-3    Ss u0 {1,S} {4,S}
-4    H  u0 {3,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 191,
-    label = "S-Ss(Cs)Ss",
-    group = 
-"""
-1 *1 Ss u0 {2,S} {3,S}
-2 *2 Ss u0 {1,S}
-3    Ss u0 {1,S} {4,S}
-4    Cs u0 {3,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 192,
-    label = "S-Ss(Ss)Ss",
-    group = 
-"""
-1 *1 Ss u0 {2,S} {3,S}
-2    Ss u0 {1,S}
-3 *2 Ss u0 {1,S} {4,S}
-4    Ss u0 {3,S}
-""",
-    kinetics = None,
-)
-
 tree(
 """
 L1: XSYJ
@@ -1191,9 +1152,6 @@ L1: S-RR
             L4: S-Ss(Ss)C
     L2: S-HSs
     L2: S-SsSs
-        L3: S-Ss(Cs)Ss
-        L3: S-Ss(Ss)Ss
-        L3: S-Ss(H)Ss
 """
 )
 

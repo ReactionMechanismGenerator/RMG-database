@@ -42994,7 +42994,154 @@ entry(
     label = "N",
     group = 
 """
-1 * [N1d,N3s,N3d,N3t,N5s,N5d,N5dd,N5t] u0
+1 * N u0
+""",
+    thermo = u'N3s',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 10001,
+    label = "N1sc",
+    group = 
+"""
+1 * N1sc u0 p3 c-2 {2,S}
+2   R    ux px     {1,S}
+""",
+    thermo = u'N1s',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Nitrogen with three lone pairs and a single bond (e.g., [NH+]#[N+][N-2])
+""",
+)
+
+entry(
+    index = 10002,
+    label = "N1s",
+    group = 
+"""
+1 * N1s u0 p2
+""",
+    thermo = u'N1s-H',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Nitrogen with two lone pairs and a single bond
+""",
+)
+
+entry(
+    index = 10003,
+    label = "N1s-H",
+    group = 
+"""
+1 * N1s u0 p2 {2,S}
+2   H   u0 p0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.9764,6.9777,6.9982,7.0454,7.2242,7.4742,8.0656],'cal/(mol*K)'),
+        H298 = (85.2952,'kcal/mol'),
+        S298 = (43.3053,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""NH(S)""",
+    longDesc = 
+u"""
+Data base on species NH(S), source: GRIMech3.0-N
+""",
+)
+
+entry(
+    index = 10004,
+    label = "N1s-N1s",
+    group = 
+"""
+1 * N1s u0 p2 {2,S}
+2   N1s u0 p2 {1,S}
+""",
+    thermo = u'N1s-H',
+    shortDesc = u"""[N][N](S)""",
+    longDesc = 
+u"""
+Pointing to NH(S), so far no better alternative
+""",
+)
+
+entry(
+    index = 10005,
+    label = "N1s-Cs",
+    group = 
+"""
+1 * N1s u0 p2 {2,S}
+2   C   u0 p0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.00,2.65,2.50,2.49,2.65,2.65,2.57],'cal/(mol*K)'),
+        H298 = (120.94,'kcal/mol'),
+        S298 = (24.25,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""[N]-CH3(S)""",
+    longDesc = 
+u"""
+Data base on species CH3N(S), source: thermo_DFT_CCSDTF12_BAC
+level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
+subtracting the Cs-N2sHHH group
+[N1s-CH3 (N-CH3 species) from thermo_DFT_CCSDTF12_BAC] - [Cs-N2sHHH from group.py]
+""",
+)
+
+entry(
+    index = 10006,
+    label = "N1s-N3s",
+    group = 
+"""
+1 * N1s u0 p2 {2,S}
+2   N   u0 px {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.97,2.07,2.25,2.50,3.05,3.48,5.50],'cal/(mol*K)'),
+        H298 = (61.00,'kcal/mol'),
+        S298 = (23.00,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""[N]-NH2(S)""",
+    longDesc = 
+u"""
+Data base on species H2NN(S), source: Curran thermo library
+subtracting the N3s-N3sFF group
+[N1s-NH2 (N-NH2 species) from Curran] - [N3s-N3sHH from group.py]
+""",
+)
+
+entry(
+    index = 10007,
+    label = "N1s-Os",
+    group = 
+"""
+1 * N1s u0 p2 {2,S}
+2   O   u0 px {1,S}
+""",
+    thermo = u'N1s-H',
+    shortDesc = u"""[N]-OH(S)""",
+    longDesc = 
+u"""
+Pointing to NH(S), so far no better alternative
+""",
+)
+
+entry(
+    index = 1922,
+    label = "N1d",
+    group = 
+"""
+1 * N1d u0 p2 {2,D}
+2   R!H ux px {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -43010,22 +43157,19 @@ u"""
 )
 
 entry(
-    index = 1922,
-    label = "N1d",
+    index = 10001,
+    label = "N2s",
     group = 
 """
-1 * N1d u0 p2
+1 * N2s u0 p2 {2,S} (3,S}
+2   R   ux px {1,S}
+3   R   ux px {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
+    thermo = u'N1s',
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Nitrogen with two lone pairs and two single bonds
 """,
 )
 
@@ -43036,7 +43180,7 @@ entry(
 """
 1 * N3s u0
 """,
-    thermo = None,
+    thermo = u'N3s-CsHH',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -43590,6 +43734,24 @@ u"""
 )
 
 entry(
+    index = 1812,
+    label = "N3s-N3dHH",
+    group =
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   H   u0 {1,S}
+3   H   u0 {1,S}
+4   N3d u0 {1,S}
+""",
+    thermo = u'N3s-N3sHH',
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Currently points to N3s-N3sHH with no better estimate available
+""",
+)
+
+entry(
     index = 1940,
     label = "N3s-NCH",
     group = 
@@ -44005,6 +44167,23 @@ u"""
 )
 
 entry(
+    index = 1907,
+    label = "N3d-CdN3s",
+    group =
+"""
+1 * N3d  u0 {2,D} {3,S}
+2   Cd   u0 {1,D}
+3   N3s  u0 {1,S}
+""",
+    thermo = u'N3d-CdH',
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Currently references to N3d-CdH with no better data
+""",
+)
+
+entry(
     index = 1815,
     label = "N3d-N3dH",
     group = 
@@ -44321,6 +44500,49 @@ entry(
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 1919,
+    label = "N3t",
+    group =
+"""
+1 * N3t  u0 p1 {2,T}
+2   R!H  u0 {1,T}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 1920,
+    label = "N3t-CtH",
+    group =
+"""
+1 * N3t  u0 p1 {2,T}
+2   Ct   u0 {1,T} {3,S}
+3   H    u0 (2,S)
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.28,5.68,5.97,6.22,6.6,6.97,6.66],'cal/(mol*K)'),
+        H298 = (3.17,'kcal/mol'),
+        S298 = (41.74,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Calculated by subtracting the data for the Ct-CtCs group (Ct-Cs STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714) from respective values from thermo_DFT_CCSDTF12_BAC data for the HCN species.
 """,
 )
 
@@ -46323,7 +46545,15 @@ L1: R
                 L5: Ss-C=SCd
                 L5: Ss-C=SCb
     L2: N
+        L3: N1sc
+		L3: N1s
+			L4:	N1s-H
+			L4:	N1s-N1s
+			L4:	N1s-Cs
+			L4:	N1s-N3s
+			L4:	N1s-Os
         L3: N1d
+		L3: N2s
         L3: N3s
             L4: N3s-CHH
                 L5: N3s-CsHH
@@ -46348,6 +46578,7 @@ L1: R
                 L5: N3s-(CtN3t)CsCs
                 L5: N3s-(CdCd)CsCs
             L4: N3s-N3sHH
+            L4: N3s-N3dHH
             L4: N3s-NCH
                 L5: N3s-N3sCsH
                 L5: N3s-N3sCbH
@@ -46366,6 +46597,7 @@ L1: R
             L4: N3s-OsHH
         L3: N3d
             L4: N3d-CdH
+            L4: N3d-CdN3s
             L4: N3d-N3dH
             L4: N3d-N3dN3s
             L4: N3d-OdOs
@@ -46375,6 +46607,8 @@ L1: R
                 L5: N3d-CdCs
                 L5: N3d-N3dCs
             L4: N3d-CbR
+        L3: N3t
+            L4: N3t-CtH
         L3: N5d
             L4: N5d-OdOsCs
             L4: N5d-OdOsCd

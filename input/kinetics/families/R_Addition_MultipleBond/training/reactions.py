@@ -1194,3 +1194,42 @@ Taken from entry: prod4 <=> naphthalene + H
 """,
 )
 
+entry(
+    index = 73,
+    label = "CH2CHNH2 + H <=> CH2CH2NH2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.141e+07, 's^-1'), n=1.767, Ea=(3729, 'cal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 74,
+    label = "ethene + NH2 <=> CH2CH2NH2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.228e+03, 's^-1'), n=2.756, Ea=(1658, 'cal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 75,
+    label = "CH2NH + H <=> CH2NH2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.475e+08, 's^-1'), n=1.674, Ea=(2295, 'cal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+

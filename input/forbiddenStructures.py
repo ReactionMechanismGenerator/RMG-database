@@ -35,36 +35,36 @@ u"""
 """,
 )
 
-entry(
-    label = "N_monorad_3singleBonds",
-    group = 
-"""
-1 N u1 p0 {2,S} {3,S} {4,S}
-2 R ux {1,S}
-3 R ux {1,S}
-4 R ux {1,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
+#entry(
+#    label = "N_monorad_3singleBonds",
+#    group = 
+#"""
+#1 N u1 p0 {2,S} {3,S} {4,S}
+#2 R ux {1,S}
+#3 R ux {1,S}
+#4 R ux {1,S}
+#""",
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
+#restricts H2NO, see RMG-Py issue #514
+#""",
+#)
 
-""",
-)
-
-entry(
-    label = "N_birad_singlet_2singleBonds",
-    group = 
-"""
-1 N u0 p1 {2,S} {3,S}
-2 R ux {1,S}
-3 R ux {1,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+#entry(
+#    label = "N_birad_singlet_2singleBonds",
+#    group = 
+#"""
+#1 N u0 p1 {2,S} {3,S}
+#2 R ux {1,S}
+#3 R ux {1,S}
+#""",
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
+#restricts NH3, see RMG-Py issue #514
+#""",
+#)
 
 entry(
     label = "N_birad_triplet_2singleBonds",
@@ -90,7 +90,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+restricts [C], see RMG-Py issue #514
 """,
 )
 
@@ -164,7 +164,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+restricts C2O, see RMG-Py issue #514
 """,
 )
 
@@ -178,7 +178,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+restricts H2CC, see RMG-Py issue #514
 """,
 )
 
@@ -206,7 +206,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+restricts HCOH, see RMG-Py issue #514
 """,
 )
 
@@ -333,6 +333,113 @@ entry(
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    label = "3H-Pyrazol",
+    group = 
+"""
+multiplicity [2,3,4,5]
+1 C ux {2,[S,D]} {5,[S,D]}
+2 C ux {1,[S,D]} {3,[S,D]}
+3 C ux {2,[S,D]} {4,[S,D]}
+4 N ux {3,[S,D]} {5,[S,D]}
+5 N ux {1,[S,D]} {4,[S,D]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+EA sims (xa1450 & xa1451) crashed with error: Invalid k(E) values computed for path reaction "C(=[CH])[N]N=C(1479) <=> C1[CH]C=N[N]1(1659)"
+EA sims (xa1452 & xa1453) crashed with error: Invalid k(E) values computed for path reaction "C(=[CH])[N]N=C(1478) <=> C1C=C[N][N]1(1824)"
+See RMG-Py issue #253
+""",
+)
+
+entry(
+    label = "C=N[N]C#[C]",
+    group = 
+"""
+multiplicity [3]
+1 C u0 p0 c0 {2,D} {6,S} {7,S}
+2 N u0 p1 c0 {1,D} {3,S}
+3 N u1 p1 c0 {2,S} {4,S}
+4 C u0 p0 c0 {3,S} {5,T}
+5 C u1 p0 c0 {4,T}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+EA sims (xa1456-xa1459) crashed with error:
+Did not find reverse reaction in reaction family H_Abstraction for reaction <Molecule "N(=C=[CH])N=[CH]"> + <Molecule "C=N[N]C#[C]"> <=> <Molecule "C=N[N]C#C"> + <Molecule "N(=C=[C])N=[CH]">.
+See RMG-Py issue #806
+""",
+)
+
+entry(
+    label = "C1=CO[N][N]1",
+    group = 
+"""
+multiplicity [3]
+1 C u0 p0 c0 {2,D} {5,S} {6,S}
+2 C u0 p0 c0 {1,D} {3,S} {7,S}
+3 O u0 p2 c0 {2,S} {4,S}
+4 N u1 p1 c0 {3,S} {5,S}
+5 N u1 p1 c0 {1,S} {4,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+EA sims (xa1462-xa1465) crashed with error:
+Invalid k(E) values computed for path reaction "C(=[CH])N=[N+][O-](2989) <=> C1=CO[N][N]1(3358)".
+""",
+)
+
+entry(
+    label = "C1N[C](N1)[O]",
+    group = 
+"""
+multiplicity [3]
+1 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+2 N u0 p1 c0 {1,S} {3,S} {8,S}
+3 C u1 p0 c0 {2,S} {4,S} {5,S}
+4 N u0 p1 c0 {1,S} {3,S} {9,S}
+5 O u1 p2 c0 {3,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {4,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+EA sim (xa1467) crashed with error:
+Mcoll = numpy.zeros((Nisom,Ngrains,NJ,Ngrains,NJ), numpy.float64)
+""",
+)
+
+entry(
+    label = "C(=[CH])[O-][N+]#N",
+    group = 
+"""
+multiplicity [2]
+1 C u0 p0 c0 {2,D} {4,S} {7,S}
+2 C u1 p0 c0 {1,D} {3,S}
+3 H u0 p0 c0 {2,S}
+4 O u0 p2 c-1 {1,S} {5,S}
+5 N u0 p0 c+1 {4,S} {6,T}
+6 N u0 p1 c0 {5,T}
+7 H u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+EA sim (xa1479) crashed with error:
+Invalid k(E) values computed for path reaction "C(=[CH])[O-][N+]#N(6454) <=> c1cn[n+][o-]1(6594)".
 """,
 )
 
