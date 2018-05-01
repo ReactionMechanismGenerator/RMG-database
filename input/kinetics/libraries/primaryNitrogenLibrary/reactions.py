@@ -1906,7 +1906,7 @@ u"""
 Part of the "N2H4 + N2O4" subset
 p. 264
 T range: 700-2000 K
-calculations done at the RCCSD(T)/6-311þG(3df,2p)//B3LYP/6-311G(d,p) level of theoty
+calculations done at the RCCSD(T)/6-311+G(3df,2p)//B3LYP/6-311G(d,p) level of theory
 Only High Pressure Limit rate was taken; low limit and 1 atm rate are also available from the same source
 Also available from [Klippenstein2009a] in reverse:
 label = "NH2 + NH2 <=> N2H4",
@@ -1914,7 +1914,7 @@ label = "NH2 + NH2 <=> N2H4",
        arrheniusHigh = Arrhenius(A=(9.33e-10, 's^-1'), n=-0.414, Ea=(66, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
        arrheniusLow = Arrhenius(A=(2.7e+10, 'cm^3/(mol*s)'), n=-5.49, Ea=(1987, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
        alpha=0.31, T3=(1e-30, 'K'), T1=(1e+30, 'K'), efficiencies={}),
-Table 3, p. 10245, T range: 300-2500 K, calculated at the (CCSD(T) and CAS+1+2+QC level
+Table 3, p. 10245, T range: 300-2500 K, calculated at the CCSD(T) and CAS+1+2+QC level
 """,
 )
 
