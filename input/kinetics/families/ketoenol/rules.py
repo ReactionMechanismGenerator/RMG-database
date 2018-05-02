@@ -8,7 +8,7 @@ longDesc = u"""
 """
 entry(
     index = 1,
-    label = "R_ROR;R1_doublebond;R2_doublebond;R_O",
+    label = "R_ROSR;R1_doublebond;R2_doublebond;R_O",
     kinetics = ArrheniusEP(
         A = (100000, 's^-1'),
         n = 2,

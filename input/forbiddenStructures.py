@@ -8,16 +8,17 @@ longDesc = u"""
 """
 entry(
     label = "Ods",
-    group = 
+    group =
 """
-1 O ux {2,D} {3,S}
+1 O ux c0 {2,D} {3,S}
 2 R ux {1,D}
 3 R ux {1,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
-
+This forbids O with both single and double bonds WHILE keeping a zero partial charge.
+This does not forbid ozone, [O-][O+]=O
 """,
 )
 
@@ -513,5 +514,20 @@ Forbidden after discussion with whgreen.
 This species should quickly transform into a closed shell [C-]#[S+] similar to the carbon monoxide case above.
 We don't need it as a resonance structure of carbon monsulfide for reactivity since carbon monsulfide has its designated
 reaction families (CO_Disprop [also deals with CS], R_Add_CSm).
+""",
+)
+
+entry(
+    label = "[N][N]",
+    group =
+"""
+multiplicity [5]
+1 N u2 p0 c0 {2,S}
+2 N u2 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+N#N can be excited to [N]=[N], but we shouldn't allow it to reach [N][N]
 """,
 )

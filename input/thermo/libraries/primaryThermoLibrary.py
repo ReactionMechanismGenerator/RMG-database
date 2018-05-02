@@ -71,6 +71,29 @@ u"""
 )
 
 entry(
+    index = 4,
+    label = "O2(S)",
+    molecule =
+"""
+1 O u0 p2 c0 {2,D}
+2 O u0 p2 c0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.0233,7.1986,7.4285,7.6673,8.0656,8.3363,8.7407],'cal/(mol*K)'),
+        H298 = (22.54,'kcal/mol'),
+        S298 = (49.0236,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""from absorption energy""",
+   longDesc =
+u"""
+H298 taken from absorption energy: 7882 cm^-1 = 22.54 kcal/mol
+S and Cp taken from the values for triplet O2
+ref: David R. Kearns, Physical and chemical properties of singlet molecular oxygen, Chemical Reviews 71(4) 1971, 395-427
+""",
+)
+
+entry(
     index = 5,
     label = "CO3s1",
     molecule = 
@@ -264,7 +287,29 @@ u"""
 entry(
     index = 13,
     label = "S2",
-    molecule = 
+    molecule =
+"""
+multiplicity 3
+1 S u1 p2 c0 {2,S}
+2 S u1 p2 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.79,8.14,8.35,8.51,8.75,8.94,9.31],'cal/(mol*K)'),
+        H298 = (30.74,'kcal/mol'),
+        S298 = (54.54,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""from Chase thermo database""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 14,
+    label = "S2(S)",
+    molecule =
 """
 1 S u0 p2 c0 {2,D}
 2 S u0 p2 c0 {1,D}
@@ -283,24 +328,26 @@ u"""
 )
 
 entry(
-    index = 14,
-    label = "S2JJ",
-    molecule = 
+    index = 51,
+    label = "SO(S)",
+    molecule =
 """
-multiplicity 3
-1 S u1 p2 c0 {2,S}
-2 S u1 p2 c0 {1,S}
+1 S u0 p2 c0 {2,D}
+2 O u0 p2 c0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.79,8.14,8.35,8.51,8.75,8.94,9.31],'cal/(mol*K)'),
-        H298 = (30.74,'kcal/mol'),
-        S298 = (54.54,'cal/(mol*K)'),
+        Cpdata=([7.22, 7.55, 7.84, 8.08, 8.43, 8.62, 8.95], 'cal/(mol*K)'),
+        H298 = (23.74, 'kcal/mol'),
+        S298 = (53.01, 'cal/(mol*K)'),
     ),
-    shortDesc = u"""from Chase thermo database""",
-    longDesc = 
+    shortDesc = u"""""",
+    longDesc =
 u"""
-
+H298 taken from absorption energy of O2: 7882 cm^-1 = 22.54 kcal/mol, and was added to H298 of SO(T)
+S and Cp taken from the values for triplet SO
+ref: R.J. Kee, F.M. Rupley, J.A. Miller, The Chemkin Thermodynamic Data Base, Sandia Report SAND87-8215, Sandia National
+Laboratories, Livermore, California, 1991
 """,
 )
 
@@ -819,3 +866,28 @@ u"""
 """,
 )
 
+entry(
+    index = 36,
+    label = "O3",
+    molecule =
+"""
+1 O u0 p3 c-1 {2,S}
+2 O u0 p1 c+1 {1,S} {3,D}
+3 O u0 p2 c0 {2,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.46261,0.00958278,-7.08736e-06,1.36337e-09,2.96965e-13,16061.5,12.1419], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[5.42937,0.00182038,-7.70561e-07,1.49929e-10,-1.07556e-14,15235.3,-3.26639], Tmin=(1000,'K'), Tmax=(5000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (5000,'K'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Ozone
+Taken from the GlarborgH2S thermo library,
+in agreement with the data by Burcat et al. (H298 = 34.10 kcal/mol in GlarborgH2S vs. 33.89 kcal/mol in BurcatNS)
+""",
+)

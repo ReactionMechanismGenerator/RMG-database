@@ -13,7 +13,7 @@ presumably matching the top level node.
 """
 entry(
     index = 571,
-    label = "CO2;RR'",
+    label = "CO2_CS2;RR'",
     kinetics = ArrheniusEP(
         A = (100000, 'cm^3/(mol*s)'),
         n = 2,

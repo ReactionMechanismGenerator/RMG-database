@@ -32,12 +32,12 @@ entry(
     label = "cyclohexene_1inring",
     group = 
 """
-1  *1 R!H u0 {6,S} {2,S} {8,S} {9,S}
-2  *2 R!H u0 {1,S} {3,D}
-3  *3 R!H u0 {2,D} {4,S}
-4  *4 R!H u0 {3,S} {5,S} {7,S} {10,S}
-5  *5 R!H u0 {4,S} {6,S} {7,S}
-6  *6 R!H u0 {1,S} {5,S}
+1  *1 R!H u0 px c0 {6,S} {2,S} {8,S} {9,S}
+2  *2 R!H u0 px c0 {1,S} {3,D}
+3  *3 R!H u0 px c0 {2,D} {4,S}
+4  *4 R!H u0 px c0 {3,S} {5,S} {7,S} {10,S}
+5  *5 R!H u0 px c0 {4,S} {6,S} {7,S}
+6  *6 R!H u0 px c0 {1,S} {5,S}
 7     R!H u0 {4,S} {5,S}
 8  *7 R   u0 {1,S}
 9  *8 R   u0 {1,S}
@@ -51,12 +51,12 @@ entry(
     label = "cyclohexene_2inring",
     group = 
 """
-1 *1 R!H u0 {2,S} {6,S} {9,S} {10,S}
-2 *2 R!H u0 {1,S} {3,D}
-3 *3 R!H u0 {2,D} {4,S}
-4 *4 R!H u0 {3,S} {5,S} {7,S} {11,S}
-5 *5 R!H u0 {4,S} {6,S} {8,S}
-6 *6 R!H u0 {1,S} {5,S}
+1 *1 R!H u0 px c0 {2,S} {6,S} {9,S} {10,S}
+2 *2 R!H u0 px c0 {1,S} {3,D}
+3 *3 R!H u0 px c0 {2,D} {4,S}
+4 *4 R!H u0 px c0 {3,S} {5,S} {7,S} {11,S}
+5 *5 R!H u0 px c0 {4,S} {6,S} {8,S}
+6 *6 R!H u0 px c0 {1,S} {5,S}
 7    R!H u0 {4,S} {8,[S,D]}
 8    R!H u0 {5,S} {7,[S,D]}
 9  *7 R  u0 {1,S}
@@ -71,12 +71,12 @@ entry(
     label = "cyclohexene_3inring",
     group = 
 """
-1 *1 R!H u0 {2,S} {6,S} {10,S} {11,S}
-2 *2 R!H u0 {1,S} {3,D}
-3 *3 R!H u0 {2,D} {4,S}
-4 *4 R!H u0 {3,S} {5,S} {7,S} {12,S}
-5 *5 R!H u0 {4,S} {6,S} {9,S}
-6 *6 R!H u0 {1,S} {5,S}
+1 *1 R!H u0 px c0 {2,S} {6,S} {10,S} {11,S}
+2 *2 R!H u0 px c0 {1,S} {3,D}
+3 *3 R!H u0 px c0 {2,D} {4,S}
+4 *4 R!H u0 px c0 {3,S} {5,S} {7,S} {12,S}
+5 *5 R!H u0 px c0 {4,S} {6,S} {9,S}
+6 *6 R!H u0 px c0 {1,S} {5,S}
 7    R!H u0 {4,S} {8,[S,D]}
 8    R!H u0 {7,[S,D]} {9,[S,D]}
 9    R!H u0 {5,S} {8,[S,D]}
@@ -92,12 +92,12 @@ entry(
     label = "cyclohexene_4inring",
     group = 
 """
-1  *1 R!H u0 {2,S} {6,S} {11,S} {12,S}
-2  *2 R!H u0 {1,S} {3,D}
-3  *3 R!H u0 {2,D} {4,S}
-4  *4 R!H u0 {3,S} {5,S} {7,S} {13,S}
-5  *5 R!H u0 {4,S} {6,S} {10,S}
-6  *6 R!H u0 {1,S} {5,S}
+1  *1 R!H u0 px c0 {2,S} {6,S} {11,S} {12,S}
+2  *2 R!H u0 px c0 {1,S} {3,D}
+3  *3 R!H u0 px c0 {2,D} {4,S}
+4  *4 R!H u0 px c0 {3,S} {5,S} {7,S} {13,S}
+5  *5 R!H u0 px c0 {4,S} {6,S} {10,S}
+6  *6 R!H u0 px c0 {1,S} {5,S}
 7     R!H u0 {4,S} {8,[S,D]}
 8     R!H u0 {7,[S,D]} {9,[S,D]}
 9     R!H u0 {8,[S,D]} {10,[S,D]}
