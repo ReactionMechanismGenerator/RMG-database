@@ -285,7 +285,7 @@ for the remaining species and TS were set to 1.  The rate coefficient was comput
 entry(
     index = 500,
     label = "CH2O + C4H7 <=> HCO_r3 + C4H8",
-    degeneracy = 2,
+    degeneracy = 4,
     kinetics = Arrhenius(
         A = (0.0613, 'cm^3/(mol*s)'),
         n = 3.95,
@@ -1189,7 +1189,7 @@ this calculation is in reasonable agreement with the literature.
 entry(
     index = 539,
     label = "H2O2 + C3H5 <=> HO2 + C3H6",
-    degeneracy = 2,
+    degeneracy = 4,
     kinetics = Arrhenius(
         A = (0.0351, 'cm^3/(mol*s)', '*|/', 3),
         n = 4.22,
@@ -1875,7 +1875,7 @@ CBS-QB3
 entry(
     index = 1230,
     label = "NH + CH4b <=> NH2b + CH3_p1",
-    degeneracy = 1,
+    degeneracy = 4,
     kinetics = Arrhenius(
         A = (9e13, 'cm^3/(mol*s)', '*|/', 1.5),
         n = 0,
@@ -1900,7 +1900,7 @@ DOI: 10.1002/bbpc.19940980615
 entry(
     index = 1231,
     label = "NH + C2H6 <=> NH2b + C2H5b",
-    degeneracy = 1,
+    degeneracy = 6,
     kinetics = Arrhenius(
         A = (7e13, 'cm^3/(mol*s)', '*|/', 1.75),
         n = 0,
@@ -1949,9 +1949,9 @@ DOI: 10.1021/jp972959n
 entry(
     index = 1011,
     label = "CH4b + SH <=> CH3_p1 + H2S",
-    degeneracy = 1,
+    degeneracy = 4,
     kinetics = Arrhenius(
-        A = (7.78e-22, 'cm^3/(mol*s)'),
+        A = (4.69e+02, 'cm^3/(mol*s)'),
         n = 3.02,
         Ea = (66.3, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -1969,9 +1969,9 @@ J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 entry(
     index = 1012,
     label = "C2H6 + SH <=> C2H5b + H2S",
-    degeneracy = 1,
+    degeneracy = 6,
     kinetics = Arrhenius(
-        A = (4.37e-22, 'cm^3/(mol*s)'),
+        A = (2.63e+02, 'cm^3/(mol*s)'),
         n = 3.41,
         Ea = (42.2, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -1988,10 +1988,10 @@ J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 
 entry(
     index = 1013,
-    label = "C3H8 + SH <=> CH2CH2CH3 + H2S",
-    degeneracy = 1,
+    label = "C3H8b + SH <=> CH2CH2CH3 + H2S",
+    degeneracy = 6,
     kinetics = Arrhenius(
-        A = (8.51e-22, 'cm^3/(mol*s)'),
+        A = (5.12e+02, 'cm^3/(mol*s)'),
         n = 3.39,
         Ea = (43.2, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -2009,9 +2009,9 @@ J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 entry(
     index = 1014,
     label = "C3H8 + SH <=> CH3CHCH3 + H2S",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (5.25e-18, 'cm^3/(mol*s)'),
+        A = (3.16e+06, 'cm^3/(mol*s)'),
         n = 1.79,
         Ea = (34.6, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -2028,10 +2028,10 @@ J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 
 entry(
     index = 1015,
-    label = "C4H10 + SH <=> CH3CHCH2CH3 + H2S",
-    degeneracy = 1,
+    label = "C4H10b + SH <=> CH3CHCH2CH3 + H2S",
+    degeneracy = 4,
     kinetics = Arrhenius(
-        A = (3.26e-20, 'cm^3/(mol*s)'),
+        A = (1.94e+04, 'cm^3/(mol*s)'),
         n = 2.53,
         Ea = (31.3, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -2049,9 +2049,9 @@ J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 entry(
     index = 1016,
     label = "C2H4 + SH <=> CHCH2 + H2S",
-    degeneracy = 1,
+    degeneracy = 4,
     kinetics = Arrhenius(
-        A = (2.96e-25, 'cm^3/(mol*s)'),
+        A = (1.78e-01, 'cm^3/(mol*s)'),
         n = 3.31,
         Ea = (81.3, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -2069,9 +2069,9 @@ J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 entry(
     index = 1017,
     label = "C3H6 + SH <=> CH2CHCH2 + H2S",
-    degeneracy = 1,
+    degeneracy = 3,
     kinetics = Arrhenius(
-        A = (2.00e-24, 'cm^3/(mol*s)'),
+        A = (1.20e+00, 'cm^3/(mol*s)'),
         n = 3.79,
         Ea = (9.9, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -2089,9 +2089,9 @@ J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 entry(
     index = 1018,
     label = "C4H8-4 + SH <=> CH2CHCHCH3 + H2S",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (2.19e-23, 'cm^3/(mol*s)'),
+        A = (1.32e+01, 'cm^3/(mol*s)'),
         n = 3.40,
         Ea = (0.4, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -2111,7 +2111,7 @@ entry(
     label = "C4H8-6 + SH <=> CH2CCH2CH3 + H2S",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.69e-22, 'cm^3/(mol*s)'),
+        A = (1.62e+02, 'cm^3/(mol*s)'),
         n = 3.32,
         Ea = (36.5, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -2129,9 +2129,9 @@ J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 entry(
     index = 1020,
     label = "C3H4-1 + SH <=> CH2CCH + H2S",
-    degeneracy = 1,
+    degeneracy = 4,
     kinetics = Arrhenius(
-        A = (2.51e-22, 'cm^3/(mol*s)'),
+        A = (1.51e+02, 'cm^3/(mol*s)'),
         n = 3.37,
         Ea = (30.2, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -2149,9 +2149,9 @@ J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 entry(
     index = 1022,
     label = "C4H6 + SH <=> CHCCHCH3 + H2S",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (1.10e-22, 'cm^3/(mol*s)'),
+        A = (6.62e+01, 'cm^3/(mol*s)'),
         n = 3.32,
         Ea = (8.01, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -2169,7 +2169,7 @@ J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 entry(
     index = 1023,
     label = "O_rad + HNCN <=> OH_p23 + NCN",
-    degeneracy = 4,
+    degeneracy = 1,
     kinetics = Arrhenius(A=(1.48e+22, 'cm^3/(mol*s)'), n=-3.37, Ea=(5429, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
     rank = 2,
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
@@ -2199,7 +2199,7 @@ The paper reports on two pathways to get to the same products, but only one is c
 entry(
     index = 1025,
     label = "N + H2 <=> NH_p + H_p",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(1.60e+14, 'cm^3/(mol*s)'), n=0, Ea=(25138, 'cal/mol'), T0=(1, 'K')),
     rank = 1,
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
@@ -2212,7 +2212,7 @@ D.F. Davidson, R.K. Hanson, Int. J. Chem. Kin., 1990, 22(8), 843-861, doi: 10.10
 entry(
     index = 1026,
     label = "N2H4 + NO <=> N2H3 + HNO_p",
-    degeneracy = 1,
+    degeneracy = 4,
     kinetics = Arrhenius(A=(6.44e+01, 'cm^3/(mol*s)'), n=3.16, Ea=(30488, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
     rank = 2,
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
@@ -2241,7 +2241,7 @@ Done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory
 entry(
     index = 1028,
     label = "N2H4 + NO2 <=> N2H3 + HONO_p",
-    degeneracy = 1,
+    degeneracy = 8,
     kinetics = Arrhenius(A=(3.23e+00, 'cm^3/(mol*s)'), n=3.56, Ea=(763, 'cal/mol'), T0=(1, 'K'), Tmin = (250, 'K'), Tmax = (2500, 'K')),
     rank = 2,
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
@@ -2256,7 +2256,7 @@ calculations done at the G2M(CC2)//B3LYP/6-311++G(3df,2p) level of theoty
 entry(
     index = 1029,
     label = "N2H4 + NO3 <=> N2H3 + HNO3",
-    degeneracy = 1,
+    degeneracy = 12,
     kinetics = Arrhenius(A=(1.28e+04, 'cm^3/(mol*s)'), n=2.53, Ea=(-2947, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
     rank = 2,
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
@@ -2272,7 +2272,7 @@ Pressure independent at least up to 100 atm
 entry(
     index = 1030,
     label = "NH3_r + NO <=> NH2_p + HNO_p",
-    degeneracy = 1,
+    degeneracy = 3,
     kinetics = Arrhenius(A=(1.04e+07, 'cm^3/(mol*s)'), n=1.73, Ea=(56544, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (5000, 'K')),
     rank = 2,
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
@@ -2287,7 +2287,7 @@ calculations done at the UMP2/6-311G-(d,p)//UMP2/6-311G(d,p) level of theory
 entry(
     index = 1031,
     label = "NH2 + H2 <=> NH3 + H_p",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(3.23e+05, 'cm^3/(mol*s)'), n=2.23, Ea=(7168, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (5000, 'K')),
     rank = 2,
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
@@ -2302,7 +2302,7 @@ calculations done at the G2M//B3LYP/6-311G(d,p) level of theory
 entry(
     index = 1032,
     label = "NH2 + CH4b <=> NH3 + CH3_p1",
-    degeneracy = 1,
+    degeneracy = 4,
     kinetics = Arrhenius(A=(1.36e+04, 'cm^3/(mol*s)'), n=2.87, Ea=(10691, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (5000, 'K')),
     rank = 2,
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
@@ -2317,7 +2317,7 @@ calculations done at the G2M//B3LYP/6-311G(d,p) level of theory
 entry(
     index = 1033,
     label = "NH2 + H2O <=> NH3 + OH_p1",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(2.62e+13, 'cm^3/(mol*s)'), n=0, Ea=(16846, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (5000, 'K')),
     rank = 2,
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
@@ -2334,7 +2334,7 @@ Fitted to a 2 parameter Arrhenius with a coefficient of determination of 0.9943
 entry(
     index = 1036,
     label = "H2S_r + H <=> SH_p1 + H2_p",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(3.5e+07, 'cm^3/(mol*s)'), n=1.94, Ea=(904, 'cal/mol'), T0=(1, 'K'), Tmin = (190, 'K'), Tmax = (2237, 'K')),
     rank = 1,
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
@@ -2349,7 +2349,7 @@ Combined experimental (298-598 K) and computational calculation at the QCISD(T)/
 entry(
     index = 1037,
     label = "H2S_r + S_rad <=> SH_p1 + SH",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(3.7e+06, 'cm^3/(mol*s)'), n=2.297, Ea=(9010, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
     rank = 2,
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
@@ -2363,7 +2363,7 @@ calculations done at the MRCI/aug-cc-pV(Q+d)Z//MRCI/aug-cc-pVTZ level of theory
 entry(
     index = 1038,
     label = "H2 + S_rad <=> SH + H_p",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(1.58e+14, 'cm^3/(mol*s)'), n=0, Ea=(19700, 'cal/mol'), T0=(1, 'K'), Tmin = (2740, 'K'), Tmax = (3570, 'K')),
     rank = 1,
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
@@ -2377,7 +2377,7 @@ H. Shiina, M. Oya, K. Yamashita, A. Miyoshi, H. Matsui, J. Phys. Chem., 1996, 10
 entry(
     index = 1039,
     label = "CH4b + S_rad <=> SH + CH3_p1",
-    degeneracy = 1,
+    degeneracy = 4,
     kinetics = Arrhenius(A=(2.04e+14, 'cm^3/(mol*s)'), n=0, Ea=(19910, 'cal/mol'), T0=(1, 'K'), Tmin = (830, 'K'), Tmax = (2500, 'K')),
     rank = 1,
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
@@ -2392,7 +2392,7 @@ T > 830 K
 entry(
     index = 1040,
     label = "C2H6 + S_rad <=> SH + C2H5b",
-    degeneracy = 1,
+    degeneracy = 6,
     kinetics = Arrhenius(A=(1.23e+14, 'cm^3/(mol*s)'), n=0, Ea=(14750, 'cal/mol'), T0=(1, 'K'), Tmin = (830, 'K'), Tmax = (2500, 'K')),
     rank = 1,
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
@@ -2407,7 +2407,7 @@ T > 830 K
 entry(
     index = 1044,
     label = "HSSH_r12 + H <=> HSS_p1 + H2_p",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(9.56e+00, 'cm^3/(mol*s)'), n=3.370, Ea=(-1672, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
@@ -2421,7 +2421,7 @@ TST
 entry(
     index = 1045,
     label = "HSSH_r12 + SH <=> H2S + HSS_p1",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(6.40e+03, 'cm^3/(mol*s)'), n=2.980, Ea=(-1480, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
@@ -2435,7 +2435,7 @@ TST
 entry(
     index = 1046,
     label = "HSSH_r12 + S_rad <=> HSS_p1 + SH",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(6.40e+03, 'cm^3/(mol*s)'), n=2.980, Ea=(-1480, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
@@ -2505,7 +2505,7 @@ calculations done at the G2M//BH&HLYP/6-311G(d, p) level of theory
 entry(
     index = 1051,
     label = "CH2O + NO2 <=> CHO_p1 + HONO_p",
-    degeneracy = 3,
+    degeneracy = 4,
     kinetics = Arrhenius(A=(1.42e-7, 'cm^3/(mol*s)'), n=5.64, Ea=(9221, 'cal/mol'), T0=(1, 'K'), Tmin = (200, 'K'), Tmax = (3000, 'K')),
     rank = 2,
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
@@ -2591,7 +2591,7 @@ calculations done at the QCISD/6-311G(d,p) level
 entry(
     index = 1057,
     label = "CH3SH_r2 + H <=> CH2SH_p + H2_p",
-    degeneracy = 1,
+    degeneracy = 3,
     kinetics = Arrhenius(A=(4.16e+03, 'cm^3/(mol*s)'), n=2.925, Ea=(4747, 'cal/mol'), T0=(1, 'K'), Tmin = (250, 'K'), Tmax = (3000, 'K')),
     rank = 2,
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
@@ -2603,3 +2603,302 @@ calculations done at the QCISD/6-311G(d,p) level
 """,
 )
 
+entry(
+    index = 1058,
+    label = "NH2 + C2H6 <=> NH3 + C2H5b",
+    degeneracy = 6,
+    kinetics = Arrhenius(A=(3.46e+13, 'cm^3/(mol*s)'), n=0, Ea=(13800, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+(R2) in:
+K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
+doi: 10.1021/acs.jpca.6b12890
+""",
+)
+
+entry(
+    index = 1059,
+    label = "NH2 + C3H8b <=> NH3 + CH2CH2CH3",
+    degeneracy = 6,
+    kinetics = Arrhenius(A=(1.37e+13, 'cm^3/(mol*s)'), n=0, Ea=(10000, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+(R3a) in:
+K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
+doi: 10.1021/acs.jpca.6b12890
+""",
+)
+
+entry(
+    index = 1060,
+    label = "NH2 + C3H8 <=> NH3 + CH3CHCH3",
+    degeneracy = 2,
+    kinetics = Arrhenius(A=(1.48e+13, 'cm^3/(mol*s)'), n=0, Ea=(8533, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+(R3b) in:
+K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
+doi: 10.1021/acs.jpca.6b12890
+""",
+)
+
+entry(
+    index = 1061,
+    label = "NH2 + C4H10 <=> NH3 + pC4H9",
+    degeneracy = 6,
+    kinetics = Arrhenius(A=(2.11e+13, 'cm^3/(mol*s)'), n=0, Ea=(9870, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+(R4a) in:
+K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
+doi: 10.1021/acs.jpca.6b12890
+""",
+)
+
+entry(
+    index = 1062,
+    label = "NH2 + C4H10b <=> NH3 + CH3CHCH2CH3",
+    degeneracy = 4,
+    kinetics = Arrhenius(A=(1.72e+13, 'cm^3/(mol*s)'), n=0, Ea=(7770, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+(R4b) in:
+K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
+doi: 10.1021/acs.jpca.6b12890
+""",
+)
+
+entry(
+    index = 1063,
+    label = "NH2 + iC4H10 <=> NH3 + ipC4H9",
+    degeneracy = 9,
+    kinetics = Arrhenius(A=(1.84e+13, 'cm^3/(mol*s)'), n=0, Ea=(10100, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+(R5a) in:
+K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
+doi: 10.1021/acs.jpca.6b12890
+""",
+)
+
+entry(
+    index = 1064,
+    label = "NH2 + iC4H10b <=> NH3 + tC4H9",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.35e+13, 'cm^3/(mol*s)'), n=0, Ea=(6450, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+(R5b) in:
+K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
+doi: 10.1021/acs.jpca.6b12890
+""",
+)
+
+entry(
+    index = 1065,
+    label = "NH2 + C5H12 <=> NH3 + tC5H11",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.76e+12, 'cm^3/(mol*s)'), n=0, Ea=(6450, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+(R6) in:
+K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
+doi: 10.1021/acs.jpca.6b12890
+""",
+)
+
+entry(
+    index = 1066,
+    label = "NH2 + C3H6-3 <=> NH3 + vC3H5",
+    degeneracy = 2,
+    kinetics = Arrhenius(A=(1.42e+13, 'cm^3/(mol*s)'), n=0, Ea=(11900, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+(R7a) in:
+K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
+doi: 10.1021/acs.jpca.6b12890
+""",
+)
+
+entry(
+    index = 1067,
+    label = "NH2 + C3H6 <=> NH3 + CH2CHCH2",
+    degeneracy = 3,
+    kinetics = Arrhenius(A=(1.50e+13, 'cm^3/(mol*s)'), n=0, Ea=(6670, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+(R7b) in:
+K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
+doi: 10.1021/acs.jpca.6b12890
+""",
+)
+
+entry(
+    index = 1068,
+    label = "NH2 + C4H8-7 <=> NH3 + pC4H7",
+    degeneracy = 3,
+    kinetics = Arrhenius(A=(4.33e+13, 'cm^3/(mol*s)'), n=0, Ea=(8700, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+(R8) in:
+K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
+doi: 10.1021/acs.jpca.6b12890
+""",
+)
+
+entry(
+    index = 1069,
+    label = "NH2 + C4H8-2 <=> NH3 + aC4H7",
+    degeneracy = 6,
+    kinetics = Arrhenius(A=(1.37e+13, 'cm^3/(mol*s)'), n=0, Ea=(8010, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+(R9) in:
+K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
+doi: 10.1021/acs.jpca.6b12890
+""",
+)
+
+entry(
+    index = 1070,
+    label = "NH2 + C5H10-1 <=> NH3 + C5H9-1",
+    degeneracy = 2,
+    kinetics = Arrhenius(A=(6.14e+12, 'cm^3/(mol*s)'), n=0, Ea=(5810, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+(R10) in:
+K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
+doi: 10.1021/acs.jpca.6b12890
+""",
+)
+
+entry(
+    index = 1071,
+    label = "NH2 + C5H10-2 <=> NH3 + C5H9-2",
+    degeneracy = 6,
+    kinetics = Arrhenius(A=(1.54e+13, 'cm^3/(mol*s)'), n=0, Ea=(9570, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+(R11a) in:
+K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
+doi: 10.1021/acs.jpca.6b12890
+""",
+)
+
+entry(
+    index = 1072,
+    label = "NH2 + C5H10-3 <=> NH3 + C5H9-3",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.87e+12, 'cm^3/(mol*s)'), n=0, Ea=(5400, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+(R11b) in:
+K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
+doi: 10.1021/acs.jpca.6b12890
+""",
+)
+
+entry(
+    index = 1073,
+    label = "NH2 + C5H10-4 <=> NH3 + C5H9-4",
+    degeneracy = 6,
+    kinetics = Arrhenius(A=(1.13e+13, 'cm^3/(mol*s)'), n=0, Ea=(7720, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+(R13) in:
+K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
+doi: 10.1021/acs.jpca.6b12890
+""",
+)
+
+entry(
+    index = 1074,
+    label = "NH2 + C2H4 <=> NH3 + CHCH2",
+    degeneracy = 4,
+    kinetics = Arrhenius(A=(1.56e+13, 'cm^3/(mol*s)'), n=0, Ea=(13410, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+(R12) in:
+K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
+doi: 10.1021/acs.jpca.6b12890
+""",
+)
+
+entry(
+    index = 1075,
+    label = "NH2 + C4H6 <=> NH3 + CHCCHCH3",
+    degeneracy = 2,
+    kinetics = Arrhenius(A=(1.62e+13, 'cm^3/(mol*s)'), n=0, Ea=(5975, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+(R14) in:
+K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
+doi: 10.1021/acs.jpca.6b12890
+""",
+)
+
+entry(
+    index = 1076,
+    label = "NH2 + C4H6-2 <=> NH3 + C4H5-2",
+    degeneracy = 6,
+    kinetics = Arrhenius(A=(9.94e+13, 'cm^3/(mol*s)'), n=0, Ea=(8510, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+(R15) in:
+K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
+doi: 10.1021/acs.jpca.6b12890
+""",
+)
+
+entry(
+    index = 1077,
+    label = "NH2 + C5H8 <=> NH3 + C5H7",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.67e+14, 'cm^3/(mol*s)'), n=0, Ea=(3270, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+u"""
+(R16) in:
+K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
+doi: 10.1021/acs.jpca.6b12890
+""",
+)

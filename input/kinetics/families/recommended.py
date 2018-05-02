@@ -49,7 +49,7 @@ recommendedFamilies = {
 'intra_substitutionS_cyclization':True,
 'intra_substitutionS_isomerization':True,
 'ketoenol':True,
-'lone_electron_pair_bond':True,
+'lone_electron_pair_bond':False,
 'Singlet_Carbene_Intra_Disproportionation':True,
 'Intra_5_membered_conjugated_C=C_C=C_addition':True,
 'Intra_Diels_alder_monocyclic':True,

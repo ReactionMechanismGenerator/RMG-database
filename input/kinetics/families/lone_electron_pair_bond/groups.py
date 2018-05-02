@@ -25,8 +25,8 @@ template(reactants=["N3sRRR", "O_atom_singlet"], products=["N3sRRRO"], ownRevers
 reverse = "Bond_Dissociation"
 
 recipe(actions=[
-    ['FORM_BOND', '*1', 1, '*2'],
     ['LOSE_PAIR', '*1', '1'],
+    ['FORM_BOND', '*1', 1, '*2'],
 ])
 
 entry(
@@ -34,7 +34,7 @@ entry(
     label = "N3sRRR",
     group = 
 """
-1 *1 N3s u0 {2,S} {3,S} {4,S}
+1 *1 N3s u0 p1 {2,S} {3,S} {4,S}
 2    R   u0 {1,S}
 3    R   u0 {1,S}
 4    R   u0 {1,S}
@@ -47,7 +47,7 @@ entry(
     label = "O_atom_singlet",
     group = 
 """
-1 *2 O u0 p3
+1 *2 O u0 p3 c0
 """,
     kinetics = None,
 )
