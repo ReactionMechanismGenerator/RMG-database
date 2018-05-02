@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "H_shift_cyclopentadiene/rules"
-shortDesc = u""
+name = "Intra_ene_reaction/rules"
+shortDesc = u"Intramolecular H-shift from an allylic to an unsaturated endgroup (like in cyclopentadiene)"
 longDesc = u"""
 
 """
 entry(
     index = 1,
-    label = "cyclopentadiene",
+    label = "cyclopentadiene;CH_end;unsaturated_end",
     kinetics = ArrheniusEP(
         A = (5.06e+07, 's^-1'),
         n = 1.74,

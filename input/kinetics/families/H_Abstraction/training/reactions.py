@@ -1878,9 +1878,9 @@ entry(
 u"""
 Experimental measurements
 
-Michael Röhrig and Heinz Georg Wagner
-A kinetic study about the reactions of NH(X3Σ−) with hydrocarbons part 1: Saturated hydrocarbons and acetaldehyde
-Berichte der Bunsengesellschaft für physikalische Chemie Volume 98, Issue 6, pages 858–863, June 1994
+Michael Rohrig and Heinz Georg Wagner
+A kinetic study about the reactions of NH(X3\Sigma-) with hydrocarbons part 1: Saturated hydrocarbons and acetaldehyde
+Berichte der Bunsengesellschaft fur physikalische Chemie Volume 98, Issue 6, pages 858-863, June 1994
 DOI: 10.1002/bbpc.19940980615
 """,
 )
@@ -1903,9 +1903,9 @@ entry(
 u"""
 Experimental measurements
 
-Michael Röhrig and Heinz Georg Wagner
-A kinetic study about the reactions of NH(X3Σ−) with hydrocarbons part 1: Saturated hydrocarbons and acetaldehyde
-Berichte der Bunsengesellschaft für physikalische Chemie Volume 98, Issue 6, pages 858–863, June 1994
+Michael Rohrig and Heinz Georg Wagner
+A kinetic study about the reactions of NH(X3\Sigma-) with hydrocarbons part 1: Saturated hydrocarbons and acetaldehyde
+Berichte der Bunsengesellschaft fur physikalische Chemie Volume 98, Issue 6, pages 858-863, June 1994
 DOI: 10.1002/bbpc.19940980615
 """,
 )
@@ -1928,8 +1928,8 @@ entry(
 u"""
 calculated at UQCISD(T)/6-311G** level
 Zhen-Feng Xu and Jia-Zhong Sun
-Theoretical Study on the Reaction Path and Variational Rate Constant of the Reaction HNCO + NH → NCO + NH2
-J. Phys. Chem. A, 1998, 102 (7), pp 1194–1199
+Theoretical Study on the Reaction Path and Variational Rate Constant of the Reaction HNCO + NH => NCO + NH2
+J. Phys. Chem. A, 1998, 102 (7), pp 1194-1199
 DOI: 10.1021/jp972959n
 """,
 )
@@ -1950,7 +1950,7 @@ entry(
     longDesc = 
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
-J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 """,
 )
 
@@ -1970,7 +1970,7 @@ entry(
     longDesc = 
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
-J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 """,
 )
 
@@ -1990,7 +1990,7 @@ entry(
     longDesc = 
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
-J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 """,
 )
 
@@ -2010,7 +2010,7 @@ entry(
     longDesc = 
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
-J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 """,
 )
 
@@ -2030,7 +2030,7 @@ entry(
     longDesc = 
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
-J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 """,
 )
 
@@ -2050,7 +2050,7 @@ entry(
     longDesc = 
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
-J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 """,
 )
 
@@ -2070,7 +2070,7 @@ entry(
     longDesc = 
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
-J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 """,
 )
 
@@ -2090,7 +2090,7 @@ entry(
     longDesc = 
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
-J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 """,
 )
 
@@ -2110,7 +2110,7 @@ entry(
     longDesc = 
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
-J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 """,
 )
 
@@ -2130,7 +2130,7 @@ entry(
     longDesc = 
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
-J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 """,
 )
 
@@ -2150,7 +2150,7 @@ entry(
     longDesc = 
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
-J. Phys. Chem. A 2016, 120, 8941−8948; doi: 10.1021/acs.jpca.6b09357
+J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 """,
 )
 
@@ -2193,7 +2193,7 @@ entry(
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
     longDesc = 
 u"""
-D.F. Davidson, R.K. Hanson, Int. J. Chem. Kin., 1990, 22(8), 843–861, doi: 10.1002/kin.550220805
+D.F. Davidson, R.K. Hanson, Int. J. Chem. Kin., 1990, 22(8), 843-861, doi: 10.1002/kin.550220805
 """,
 )
 
@@ -2237,7 +2237,7 @@ entry(
 u"""
 P. Raghunath, N.T. Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6
 p. 265
-calculations done at the G2M(CC2)//B3LYP/6-311þþG(3df,2p) level of theoty
+calculations done at the G2M(CC2)//B3LYP/6-311++G(3df,2p) level of theoty
 """,
 )
 
@@ -2252,7 +2252,7 @@ entry(
 u"""
 P. Raghunath, N.T. Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6
 p. 269
-CCSD(T)//BHandHLYP/6-311þþG(3df,2p) level of theoty
+CCSD(T)//BHandHLYP/6-311++G(3df,2p) level of theoty
 Pressure independent at least up to 100 atm
 """,
 )
@@ -2358,7 +2358,7 @@ entry(
     longDesc = 
 u"""
 Shock Tube
-H. Shiina, M. Oya, K. Yamashita, A. Miyoshi, H. Matsui, J. Phys. Chem., 1996, 100(6), 2136–2140, doi: 10.1021/jp952472j
+H. Shiina, M. Oya, K. Yamashita, A. Miyoshi, H. Matsui, J. Phys. Chem., 1996, 100(6), 2136-2140, doi: 10.1021/jp952472j
 """,
 )
 
@@ -2371,7 +2371,7 @@ entry(
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
     longDesc = 
 u"""
-K. Tsuchiya, K. Yamashita, A. Miyoshi, H. Matsui, J. Phys. Chem., 1996, 100(43), 17202–17206, doi: 10.1021/jp961252i
+K. Tsuchiya, K. Yamashita, A. Miyoshi, H. Matsui, J. Phys. Chem., 1996, 100(43), 17202-17206, doi: 10.1021/jp961252i
 Shock Tube
 T > 830 K
 """,
@@ -2386,7 +2386,7 @@ entry(
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
     longDesc = 
 u"""
-K. Tsuchiya, K. Yamashita, A. Miyoshi, H. Matsui, J. Phys. Chem., 1996, 100(43), 17202–17206, doi: 10.1021/jp961252i
+K. Tsuchiya, K. Yamashita, A. Miyoshi, H. Matsui, J. Phys. Chem., 1996, 100(43), 17202-17206, doi: 10.1021/jp961252i
 Shock Tube
 T > 830 K
 """,
@@ -2443,7 +2443,7 @@ entry(
     shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
     longDesc = 
 u"""
-C.C. Hsu, M.C. Lin, A.M. Mebel, C.F. Melius, J. Phys. Chem. A, 1997, 101(1), 60–66, doi: 10.1021/jp962286t
+C.C. Hsu, M.C. Lin, A.M. Mebel, C.F. Melius, J. Phys. Chem. A, 1997, 101(1), 60-66, doi: 10.1021/jp962286t
 G2 and BAC-MP4
 """,
 )
@@ -2500,7 +2500,7 @@ entry(
     longDesc = 
 u"""
 Z.F. Xu, M.C. Lin, Int. J. Chem. Kin., 2003, 35(5), 184-190, doi: 10.1002/kin.10115
-calculations done at the G2M//B3LYP/6−311+G(d,p) and G2M//MPW1PW91/6−311+G(3df,2p) levels of theory
+calculations done at the G2M//B3LYP/6-311+G(d,p) and G2M//MPW1PW91/6-311+G(3df,2p) levels of theory
 * There are two other pathways for the formation of these products, this is the fastest one. k_tot was also given in the paper.
 """,
 )

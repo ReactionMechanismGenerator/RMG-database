@@ -1335,14 +1335,13 @@ entry(
     label = "CH2OCH2",
     molecule = 
 """
-multiplicity 3
-1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 O u0 p2 c0 {1,S} {5,S}
-5 C u1 p0 c0 {4,S} {6,S} {7,S}
-6 H u0 p0 c0 {5,S}
-7 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [

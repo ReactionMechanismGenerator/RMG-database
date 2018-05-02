@@ -5238,3 +5238,43 @@ u"""
 """,
 )
 
+##########
+forbidden(
+    label = "fulvene_H_mig_ring_edge_to_tail",
+    group =
+"""
+1 *1 C u1 {2,S}
+2 C u0 {1,S} {3,D} {4,S}
+3 C u0 {2,D} {5,S}
+4 C u0 {2,S} {6,D}
+5 *2 C u0 {3,S} {6,S} {7,S}
+6 C u0 {4,D} {5,S}
+7 *3 H u0 {5,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Prevents the fulvene + H radical with radical site on the tail from abstracting an H
+from the far edge of the ring
+""",
+)
+
+forbidden(
+    label = "fulvene_H_mig_tail_to_ring_edge",
+    group =
+"""
+1 *2 C u1 {2,S} {7,S}
+2 C u0 {1,S} {3,D} {4,S}
+3 C u0 {2,D} {5,S}
+4 C u0 {2,S} {6,D}
+5 *1 C u0 {3,S} {6,S} 
+6 C u0 {4,D} {5,S}
+7 *3 H u0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Prevents the fulvene + H radical with radical site on the ring-edge from abstracting an H
+from the end of the tail
+""",
+)

@@ -2437,7 +2437,7 @@ entry(
     longDesc = 
 u"""
 J. Hahn, K. Luther and J. Troe
-Experimental and theoretical study of the temperature and pressure dependences of the recombination reactions O + NO2(+M) → NO3(+M) and NO2 + NO3(+M) → N2O5(+M)
+Experimental and theoretical study of the temperature and pressure dependences of the recombination reactions O + NO2(+M) => NO3(+M) and NO2 + NO3(+M) => N2O5(+M)
 Phys. Chem. Chem. Phys., 2000, 2, 5098-5104
 DOI: 10.1039/B005756H
 
@@ -2475,8 +2475,8 @@ entry(
     longDesc = 
 u"""
 J. Troe
-Analysis of the temperature and pressure dependence of the reaction HO + NO2 + M ⇔ HONO2 + M
-International Journal of Chemical Kinetics, Volume 33, Issue 12 December 2001 Pages 878–889
+Analysis of the temperature and pressure dependence of the reaction HO + NO2 + M = HONO2 + M
+International Journal of Chemical Kinetics, Volume 33, Issue 12 December 2001 Pages 878-889
 DOI: 10.1002/kin.10019
 
 NO2 + OH <=> HONO2; T range: 50 to 1400 K, P range: 10E-4 to 10E3 bar

@@ -7,10 +7,10 @@ longDesc = u"""
 Automated Reaction Mechanism Generation Including Heteroatoms: Nitrogen
 Alon Grinberg Dana, Beat Buesser, Shamel S. Merchant, William H. Green
 Table 2
-Kinetic data for reactions 1–9, 13–24 were calculated using:
+Kinetic data for reactions 1-9, 13-24 were calculated using:
 CBS-QB3 for energy barriers, B3LYP/6-311G(2d,d,p) for partition functions, hybrid meta-GGA BMK/6-311G(2d,d,p) for addition reactions.
 
-Kinetic data for reactions 10–12 (NCC + OH) were adopted from the literature (VTST):
+Kinetic data for reactions 10-12 (NCC + OH) were adopted from the literature (VTST):
 S. Li, E. Dames, D.F. Davidson, R.K. Hanson
 "High-Temperature Measurements of the Reactions of OH with Ethylamine and Dimethylamine"
 The Journal of Physical Chemistry A, 2014, 118, 70-77, http://dx.doi.org/10.1021/jp411141w
