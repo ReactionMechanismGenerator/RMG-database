@@ -2572,16 +2572,16 @@ entry(
         S298 = (236.447,'J/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
-    longDesc = 
-u"""
-Fitted from molecule s2_3_6_ane from Bicyclics_QM_190_isomorphic library.
-""",
+    longDesc=
+    u"""
+    Fitted from molecule s2_3_6_ane from Bicyclics_QM_190_isomorphic library.
+    """,
 )
 
 entry(
     index = 0,
     label = "s2_3_6_ene",
-    group = "OR{s2_3_6_ene_1, s2_3_6_ene_2}",
+    group = "OR{s2_3_6_ene_1, s2_3_6_ene_2, s2_3_6_ene_5}",
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
@@ -2645,7 +2645,7 @@ Fitted from molecule s2_3_6_ene_2 from Bicyclics_QM_190_isomorphic library.
 entry(
     index = 0,
     label = "s2_3_6_diene",
-    group = "OR{s2_3_6_diene_0_2, s2_3_6_diene_0_3, s2_3_6_diene_1_3}",
+    group = "OR{s2_3_6_diene_0_2, s2_3_6_diene_0_3, s2_3_6_diene_1_3, s2_3_6_diene_2_5}",
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
@@ -4976,7 +4976,7 @@ Fitted from molecule s2_5_6_ben from Bicyclics_QM_190_isomorphic library.
 entry(
     index = 117,
     label = "s2_5_6_indene",
-    group = 
+    group =
 """
 1 * R!H u0 {2,B} {3,S} {4,B}
 2   R!H u0 {1,B} {5,S} {6,B}
@@ -4995,7 +4995,7 @@ entry(
         S298 = (33.08,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Verevkin (2011), experimental, S and cp from PM7
 """,
@@ -7164,7 +7164,7 @@ Fitted from species product29 from vinylCPD_H library.
 entry(
     index = 0,
     label = "s3_5_5_diene",
-    group = "OR{s3_5_5_diene_1_4}",
+    group = "OR{s3_5_5_diene_1_4, s3_5_5_diene_0_4}",
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
@@ -8035,7 +8035,7 @@ entry(
     group = "OR{s4_6_8_ene_7}",
     thermo = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8554,6 +8554,431 @@ Fitted to M06 calculations
 """,
 )
 
+entry(
+    index = 76,
+    label = "s2_3_6_ene_5",
+    group =
+"""
+1   R!H u0 {2,S} {3,D} {4,S}
+2   R!H u0 {1,S} {3,S} {5,S}
+3   R!H u0 {1,D} {2,S}
+4   R!H u0 {1,S} {7,S}
+5   R!H u0 {2,S} {6,S}
+6 * R!H u0 {5,S} {7,S}
+7   R!H u0 {4,S} {6,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-33.0644, -30.4388, -27.9344, -25.2475, -19.6467, -15.2896, -10.1737], 'J/(mol*K)'),
+        H298=(262.495, 'kJ/mol'),
+        S298=(238.794, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Fitted to M06 calculations
+""",
+)
+
+entry(
+    index = 77,
+    label = "s2_3_6_diene_2_5",
+    group =
+"""
+1   R!H u0 {2,S} {3,D} {4,S}
+2   R!H u0 {1,S} {3,S} {5,S}
+3   R!H u0 {1,D} {2,S}
+4   R!H u0 {1,S} {7,S}
+5   R!H u0 {2,S} {6,S}
+6 * R!H u0 {5,S} {7,D}
+7   R!H u0 {4,S} {6,D}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-25.6671, -24.8396, -23.399, -21.6937, -17.9095, -14.865, -11.0665], 'J/(mol*K)'),
+        H298=(259.334, 'kJ/mol'),
+        S298=(242.952, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Fitted to M06 calculations
+""",
+)
+
+entry(
+    index = 0,
+    label = "s3_5_6_ben_ane",
+    group = "OR{s3_5_6_ben_ane_res1, s3_5_6_ben_ane_res2}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 78,
+    label = "s3_5_6_ben_ane_res1",
+    group =
+"""
+1   R!H u0 {3,B} {5,S} {6,B}
+2   R!H u0 {3,B} {4,S} {7,B}
+3   R!H u0 {1,B} {2,B}
+4   R!H u0 {2,S} {5,S}
+5   R!H u0 {1,S} {4,S}
+6   R!H u0 {1,B} {8,B}
+7   R!H u0 {2,B} {8,B}
+8 * R!H u0 {6,B} {7,B}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-0.469, -0.262, -0.442, -0.825, -0.747, 0.339, 0.354], 'cal/(mol*K)'),
+        H298=(166.291, 'kcal/mol'),
+        S298=(30.103, 'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Fitted to CBS-QB3 calculations
+""",
+)
+
+entry(
+    index = 78,
+    label = "s3_5_6_ben_ane_res2",
+    group =
+"""
+1   R!H u0 {3,S} {5,S} {6,D}
+2   R!H u0 {3,D} {4,S} {7,S}
+3   R!H u0 {1,S} {2,D}
+4   R!H u0 {2,S} {5,S}
+5   R!H u0 {1,S} {4,S}
+6   R!H u0 {1,D} {8,S}
+7   R!H u0 {2,S} {8,D}
+8 * R!H u0 {6,S} {7,D}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-7.466, -8.33, -8.73, -8.665, -6.596, -3.859, -3.506], 'cal/(mol*K)'),
+        H298=(145.431, 'kcal/mol'),
+        S298=(63.603, 'cal/(mol*K)'),
+    ),
+    shortDesc=u"""""",
+    longDesc=
+    u"""
+    Fitted to CBS-QB3 calculations
+    """,
+)
+
+entry(
+    index = 0,
+    label = "s3_5_6_ben_ene",
+    group = "OR{s3_5_6_ben_ene_res1, s3_5_6_ben_ene_res2}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 79,
+    label = "s3_5_6_ben_ene_res1",
+    group =
+"""
+1   R!H u0 {3,B} {5,S} {6,B}
+2   R!H u0 {3,B} {4,S} {7,B}
+3   R!H u0 {1,B} {2,B}
+4   R!H u0 {2,S} {5,D}
+5   R!H u0 {1,S} {4,D}
+6   R!H u0 {1,B} {8,B}
+7   R!H u0 {2,B} {8,B}
+8 * R!H u0 {6,B} {7,B}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-7.96404, -8.74552, -8.7074, -8.03332, -5.94428, -4.49956, -4.93892], 'J/(mol*K)'),
+        H298=(708.321, 'kJ/mol'),
+        S298=(145.354, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Fitted to M06 calculations
+""",
+)
+
+entry(
+    index = 80,
+    label = "s3_5_6_ben_ene_res2",
+    group =
+"""
+1   R!H u0 {3,S} {5,S} {6,D}
+2   R!H u0 {3,D} {4,S} {7,S}
+3   R!H u0 {1,S} {2,D}
+4   R!H u0 {2,S} {5,D}
+5   R!H u0 {1,S} {4,D}
+6   R!H u0 {1,D} {8,S}
+7   R!H u0 {2,S} {8,D}
+8 * R!H u0 {6,S} {7,D}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-14.24, -20.6281, -22.933, -23.0957, -21.9272, -19.2272, -22.6791], 'J/(mol*K)'),
+        H298=(600.625, 'kJ/mol'),
+        S298=(297.401, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Fitted to M06 calculations
+""",
+)
+
+entry(
+    index = 86,
+    label = "s1-2_5d1d3_3_5d1_triene",
+    group =
+"""
+1 * R!H u0 {2,S} {3,S} {4,S} {5,S}
+2 R!H u0 {1,S} {3,S} {6,S}
+3 R!H u0 {1,S} {2,S} {7,S}
+4 R!H u0 {1,S} {9,D}
+5 R!H u0 {1,S} {10,D}
+6 R!H u0 {2,S} {8,D}
+7 R!H u0 {3,S} {8,S}
+8 R!H u0 {6,D} {7,S}
+9 R!H u0 {4,D} {10,S}
+10 R!H u0 {5,D} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.108, -7.764, -7.893, -7.784, -7.495, -7.132, -5.2],'cal/(mol*K)'),
+        H298 = (38.553,'kcal/mol'),
+        S298 = (95.09,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 87,
+    label = "s2-2_5d1_3_6d1d3_triene",
+    group =
+"""
+1 * R!H u0 {2,S} {3,S} {4,S} {5,S}
+2 R!H u0 {1,S} {3,S} {7,S}
+3 R!H u0 {1,S} {2,S} {6,S}
+4 R!H u0 {1,S} {8,S}
+5 R!H u0 {1,S} {10,D}
+6 R!H u0 {3,S} {8,D}
+7 R!H u0 {2,S} {9,D}
+8 R!H u0 {4,S} {6,D}
+9 R!H u0 {7,D} {10,S}
+10 R!H u0 {5,D} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.846, -7.913, -8.399, -8.495, -8.078, -7.325, -5.437],'cal/(mol*K)'),
+        H298 = (32.243,'kcal/mol'),
+        S298 = (93.33,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 119,
+    label = "s3_5_5_diene_0_4",
+    group =
+"""
+1   R!H u0 {3,S} {6,S} {7,S}
+2   R!H u0 {3,S} {4,D} {5,S}
+3   R!H u0 {1,S} {2,S}
+4 * R!H u0 {2,D} {6,S}
+5   R!H u0 {2,S} {7,D}
+6   R!H u0 {1,S} {4,S}
+7   R!H u0 {1,S} {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.117, -6.624, -6.352, -6.401, -5.37, -3.457, -3.059],'cal/(mol*K)'),
+        H298 = (86.425,'kcal/mol'),
+        S298 = (57.025,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted to CBS-QB3 calculation""",
+    longDesc =
+u"""
+Fitted to CBS-QB3 calculation.
+""",
+)
+
+entry(
+    index = 0,
+    label = "s4_6_6_ben_ben",
+    group = "OR{s4_6_6_ben_ben_res1, s4_6_6_ben_ben_res2, s4_6_6_ben_ben_res3}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 180,
+    label = "s4_6_6_ben_ben_res1",
+    group =
+"""
+1 * R!H u0 {3,B} {6,B} {8,B}
+2   R!H u0 {4,B} {5,B} {7,B}
+3   R!H u0 {1,B} {4,B}
+4   R!H u0 {2,B} {3,B}
+5   R!H u0 {2,B} {6,B}
+6   R!H u0 {1,B} {5,B}
+7   R!H u0 {2,B} {8,B}
+8   R!H u0 {1,B} {7,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.711, 2.163, 2.154, 1.273, 0.527, 0.897, -1.267],'cal/(mol*K)'),
+        H298 = (165.718,'kcal/mol'),
+        S298 = (12.735,'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Fitted to CBS-QB3 calculation""",
+    longDesc=
+    u"""
+    Fitted to CBS-QB3 calculation.
+    """,
+)
+
+entry(
+    index = 181,
+    label = "s4_6_6_ben_ben_res2",
+    group =
+"""
+1 * R!H u0 {3,S} {6,B} {8,B}
+2   R!H u0 {4,S} {5,B} {7,B}
+3   R!H u0 {1,S} {4,D}
+4   R!H u0 {2,S} {3,D}
+5   R!H u0 {2,B} {6,B}
+6   R!H u0 {1,B} {5,B}
+7   R!H u0 {2,B} {8,B}
+8   R!H u0 {1,B} {7,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.829, -1.234, -0.797, -1.155, -1.114, -0.25, -0.824],'cal/(mol*K)'),
+        H298 = (156.978,'kcal/mol'),
+        S298 = (28.635,'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Fitted to CBS-QB3 calculation""",
+    longDesc=
+    u"""
+    Fitted to CBS-QB3 calculation.
+    """,
+)
+
+entry(
+    index = 182,
+    label = "s4_6_6_ben_ben_res3",
+    group =
+"""
+1 * R!H u0 {3,S} {6,D} {8,S}
+2   R!H u0 {4,S} {5,D} {7,S}
+3   R!H u0 {1,S} {4,D}
+4   R!H u0 {2,S} {3,D}
+5   R!H u0 {2,D} {6,S}
+6   R!H u0 {1,D} {5,S}
+7   R!H u0 {2,S} {8,D}
+8   R!H u0 {1,S} {7,D}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([0.711, 2.163, 2.154, 1.273, 0.527, 0.897, -1.267], 'cal/(mol*K)'),
+        H298=(165.718, 'kcal/mol'),
+        S298=(12.735, 'cal/(mol*K)'),
+    ),
+    shortDesc=u"""""",
+    longDesc=
+    u"""
+    Copy of res 1 correction.
+    """,
+)
+
+entry(
+    index = 0,
+    label = "s3_4_6_ben_ane",
+    group = "OR{s3_4_6_ben_ane_res1, s3_4_6_ben_ane_res2}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 213,
+    label = "s3_4_6_ben_ane_res1",
+    group =
+"""
+1   R!H u0 {3,B} {4,S} {6,B}
+2   R!H u0 {3,B} {4,S} {7,B}
+3   R!H u0 {1,B} {2,B}
+4 * R!H u0 {2,S} {1,S}
+6   R!H u0 {1,B} {8,B}
+7   R!H u0 {2,B} {8,B}
+8   R!H u0 {6,B} {7,B}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([0.971, 1.615, 1.051, -0.042, -1.098, -0.849, -2.199], 'cal/(mol*K)'),
+        H298=(150.622, 'kcal/mol'),
+        S298=(34.822, 'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Fitted to CBS-QB3 calculations
+""",
+)
+
+entry(
+    index = 214,
+    label = "s3_4_6_ben_ane_res2",
+    group =
+"""
+1   R!H u0 {3,S} {4,S} {6,D}
+2   R!H u0 {3,D} {4,S} {7,S}
+3   R!H u0 {1,S} {2,D}
+4 * R!H u0 {2,S} {1,S}
+6   R!H u0 {1,D} {8,S}
+7   R!H u0 {2,S} {8,D}
+8   R!H u0 {6,S} {7,D}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-6.57, -6.954, -7.598, -8.045, -6.641, -4.264, -4.149], 'cal/(mol*K)'),
+        H298=(129.962, 'kcal/mol'),
+        S298=(67.112, 'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Fitted to CBS-QB3 calculations
+""",
+)
+
 tree(
 """
 L1: PolycyclicRing
@@ -8571,6 +8996,8 @@ L1: PolycyclicRing
     L2: s2-4f1_5_5_7_ane
     L2: s4-3f1_6_6_6_ane
     L2: s3-3f1_6_5_6_ane
+    L2: s1-2_5d1d3_3_5d1_triene
+    L2: s2-2_5d1_3_6d1d3_triene
     L2: s1_3_3
         L3: s1_3_3_ane
         L3: s1_3_3_ene
@@ -8682,10 +9109,12 @@ L1: PolycyclicRing
         L3: s2_3_6_ene
             L4: s2_3_6_ene_1
             L4: s2_3_6_ene_2
+            L4: s2_3_6_ene_5
         L3: s2_3_6_diene
             L4: s2_3_6_diene_0_2
             L4: s2_3_6_diene_0_3
             L4: s2_3_6_diene_1_3
+            L4: s2_3_6_diene_2_5
         L3: s2_3_6_ben
     L2: s2_3_7
         L3: s2_3_7_ane
@@ -8859,6 +9288,9 @@ L1: PolycyclicRing
             L4: s3_4_6_diene_0_4
             L4: s3_4_6_diene_1_4
             L4: s3_4_6_diene_1_5
+        L3: s3_4_6_ben_ane
+            L4: s3_4_6_ben_ane_res1
+            L4: s3_4_6_ben_ane_res2
     L2: s3_5_5
         L3: s3_5_5_ene
             L4: s3_5_5_ene_0
@@ -8868,6 +9300,7 @@ L1: PolycyclicRing
         L3: s3_5_5_ane
         L3: s3_5_5_diene
             L4: s3_5_5_diene_1_4
+            L4: s3_5_5_diene_0_4
     L2: s3_5_6
         L3: s3_5_6_ane
         L3: s3_5_6_ene
@@ -8875,6 +9308,12 @@ L1: PolycyclicRing
             L4: s3_5_6_ene_5
         L3: s3_5_6_diene
             L4: s3_5_6_diene_1_5
+        L3: s3_5_6_ben_ane
+            L4: s3_5_6_ben_ane_res1
+            L4: s3_5_6_ben_ane_res2
+        L3: s3_5_6_ben_ene
+            L4: s3_5_6_ben_ene_res1
+            L4: s3_5_6_ben_ene_res2
     L2: s3_6_6
         L3: s3_6_6_ane
         L3: s3_6_6_ene
@@ -8900,6 +9339,10 @@ L1: PolycyclicRing
             L4: s3_6_7_diene_6_9-0
     L2: s4_6_6
         L3: s4_6_6_ane
+        L3: s4_6_6_ben_ben
+            L4: s4_6_6_ben_ben_res1
+            L4: s4_6_6_ben_ben_res2
+            L4: s4_6_6_ben_ben_res3
     L2: s4_6_8
         L3: s4_6_8_ane
         L3: s4_6_8_ene
