@@ -2531,38 +2531,43 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.140737,-0.726316,-1.615579,-2.344000,-27.807158,-3.672526,-4.955158],'cal/(mol*K)'),
-        H298 = (73.850211,'kcal/mol','+|-',2.4),
-        S298 = (-3.772368,'cal/(mol*K)'),
+        Cpdata = ([0.472000,-1.231500,-2.398500,-2.938050,-3.454400,-3.783200,-4.811350],'cal/(mol*K)'),
+        H298 = (73.74755,'kcal/mol','+|-',2.4),
+        S298 = (-3.096600,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
     longDesc =
 u""""
-Based on CBS-QB3 calculations and group values for radical groups already present in the database, 01/2018, Lawrence Lai
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 05/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
 http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
 
 Model Species used include:
-CC1=C[CH]C=CC1
-CC1[CH]C=CCC=1
-C[C]1C=CCC=C1
-CC1C=C[CH]C=C1
-CCCCCCC1=C[CH]C=CC1
-CCCCCCC1[CH]C=CCC=1
-CCCCCC[C]1C=CCC=C1
-CCCCCCC1C=C[CH]C=C1
+CC1=CC=C[CH]C1
+CC1[CH]CC=CC=1
+CC1C=CC[CH]C=1
+CC1[CH]C=CC=C1
+CC1=CC=C[CH]C1C
 CC1[CH]C(C)C=CC=1
-CC1C(C)[CH]C=CC=1
 CC1C=CC(C)[CH]C=1
 CC1(C)[CH]C=CC=C1
-C1=CC=C2CCCC2[CH]1
-C1=CC=C2CCC(C)C2[CH]1
-C1=CC=C2CCC(CC)C2[CH]1
-C1=CC=C2CCC(CCC)C2[CH]1
-C1CCCC2=CC=C[CH]C21
-CC1CCCC2=CC=C[CH]C21
-CCC1CCCC2=CC=C[CH]C21
+CCC1[CH]C=CC=C1C
+CCC1[CH]C(C)=CC=C1
+CCC1[CH]C=C(C)C=C1
+CCC1(C)[CH]C=CC=C1
+CC1=CC=C[CH]C1Cc1ccccc1
+CC1[CH]C(C=CC=1)Cc1ccccc1
+CC1C=CC([CH]C=1)Cc1ccccc1
+CC1([CH]C=CC=C1)Cc1ccccc1
+CC1=CC=C[CH]C1C(C)c1ccccc1
+CC1[CH]C(C=CC=1)C(C)c1ccccc1
+CC1C=CC([CH]C=1)C(C)c1ccccc1
+CC(c1ccccc1)C1(C)[CH]C=CC=C1
+CCCCCCC1=C[CH]C=CC1
+CCCCCCC1[CH]C=CCC=1
+CCCCCCC1C=CC[CH]C=1
+CCCCCCC1C=C[CH]C=C1
 """,
 )
 
