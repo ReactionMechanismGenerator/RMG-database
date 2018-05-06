@@ -1843,3 +1843,16 @@ u"""
 """,
 )
 
+forbidden(
+    label = "charged",
+    group =
+"""
+1 *1 R!H ux c[-1,-2] {2,S}
+2 *2 R!H ux c[+1,+2] {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
