@@ -1562,7 +1562,7 @@ entry(
                 pressures = ([0.1, 1, 10], 'atm'),
                 arrhenius = [
                     Arrhenius(A=(5.9e+32, 's^-1'), n=-6.99, Ea=(51791.1, 'cal/mol'), T0=(1, 'K')),
-                    Arrhenius(A=(9.6e+35, 's^-1'), n=-5.57, Ea=(54841.2, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A=(9.6e+35, 's^-1'), n=-7.57, Ea=(54841.2, 'cal/mol'), T0=(1, 'K')),
                     Arrhenius(
                         A = (5e+36, 'cm^3/(mol*s)'),
                         n = -7.43,
@@ -1588,7 +1588,8 @@ entry(
     ),
     longDesc = 
 u"""
-Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli.
+The exponential factor of k30a2 at 0.1 atm is -5.77 in the body text of the book while that is inconsistently -7.77 in the table of 'Summary of Rate Constant Parameters.' The difference of the rate constants with those exponential factors are less than one order of magnitude.
 """,
 )
 
