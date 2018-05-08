@@ -3946,3 +3946,600 @@ Taken from entry: C9H8_21 + H_15 <=> C9H7_22 + H2_23
 """,
 )
 
+entry(
+    index = 1500,
+    label = "CH4b + H <=> CH3_p1 + H2_p",
+    degeneracy = 4,
+    kinetics = Arrhenius(A=(4100, 'cm^3/(mol*s)'), n=3.156, Ea=(8755, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1002/kin.1064""",
+)
+
+entry(
+    index = 1501,
+    label = "CH4b + O_rad <=> CH3_p1 + OH_p23",
+    degeneracy = 4,
+    kinetics = Arrhenius(A=(440000, 'cm^3/(mol*s)'), n=2.5, Ea=(6577, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1063/1.1748524""",
+)
+
+entry(
+    index = 1502,
+    label = "CH4b + OH <=> CH3_p1 + H2O_p",
+    degeneracy = 4,
+    kinetics = Arrhenius(A=(1e+06, 'cm^3/(mol*s)'), n=2.182, Ea=(2506, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1021/jp040679j""",
+)
+
+entry(
+    index = 1503,
+    label = "CH4b + HO2_r3 <=> CH3_p1 + H2O2_p13",
+    degeneracy = 4,
+    kinetics = Arrhenius(A=(47000, 'cm^3/(mol*s)'), n=2.5, Ea=(21000, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1063/1.1748524""",
+)
+
+entry(
+    index = 1504,
+    label = "CH4b + O2 <=> CH3_p1 + HO2",
+    degeneracy = 8,
+    kinetics = Arrhenius(A=(203000, 'cm^3/(mol*s)'), n=2.745, Ea=(51714, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1039/B702267K""",
+)
+
+entry(
+    index = 1505,
+    label = "CH4O + H <=> CH2OH_p + H2_p",
+    degeneracy = 3,
+    kinetics = Arrhenius(A=(66000, 'cm^3/(mol*s)'), n=2.728, Ea=(4449, 'cal/mol'), T0=(1, 'K')),
+    rank=2,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, QCISD(T)/CBS//QCISD(T)/cc-pVTZ, original source: doi 10.1088/0004-637X/737/1/15""",
+)
+
+entry(
+    index = 1506,
+    label = "CH4O-2 + H <=> CH3O_p + H2_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.658, Ea=(9221, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1063/1.1748524""",
+)
+
+entry(
+    index = 1507,
+    label = "CH4O + O_rad <=> CH2OH_p + OH_p23",
+    degeneracy = 3,
+    kinetics = Arrhenius(A=(2.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(5305, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1063/1.1748524""",
+)
+
+entry(
+    index = 1508,
+    label = "CH4O-2 + O_rad <=> CH3O_p + OH_p23",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.7e+12, 'cm^3/(mol*s)'), n=0, Ea=(5305, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1063/1.1748524""",
+)
+
+entry(
+    index = 1509,
+    label = "CH4O + OH <=> CH2OH_p + H2O_p",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (1.5e+08, 'cm^3/(mol*s)'),
+        n = 1.4434,
+        Ea = (113, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1063/1.1748524""",
+)
+
+entry(
+    index = 1510,
+    label = "CH4O-2 + OH <=> CH3O_p + H2O_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.7e+07, 'cm^3/(mol*s)'),
+        n = 1.4434,
+        Ea = (113, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1063/1.1748524""",
+)
+
+entry(
+    index = 1511,
+    label = "CH4O + HO2_r3 <=> CH2OH_p + H2O2_p13",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (0.00035, 'cm^3/(mol*s)'),
+        n = 4.85,
+        Ea = (10346, 'cal/mol'),
+        T0 = (1, 'K'), Tmin = (100, 'K'), Tmax = (3000, 'K'),
+    ),
+    rank=2,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, MS-CVT/MT, original source: doi 10.1021/jp209029p""",
+)
+
+entry(
+    index = 1512,
+    label = "CH4O-2 + HO2_r3 <=> CH3O_p + H2O2_p13",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (0.0015, 'cm^3/(mol*s)'),
+        n = 4.61,
+        Ea = (15828, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank=2,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, MS-CVT/MT, original source: doi 10.1021/jp209029p""",
+)
+
+entry(
+    index = 1513,
+    label = "CH4O + O2 <=> CH2OH_p + HO2",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (360000, 'cm^3/(mol*s)'),
+        n = 2.27,
+        Ea = (42760, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank=2,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, CCSD(T)/CBS//CASPT2/cc-pvtz, original source: doi 10.1016/j.proci.2010.05.066""",
+)
+
+entry(
+    index = 1514,
+    label = "CH3O-2 + HO2_r12 <=> CH3OH_p + O2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.4e+11, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    rank=3,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Multichannel RRKM, original source: doi 10.1021/jp112081r""",
+)
+
+entry(
+    index = 1515,
+    label = "CH4O + CH3_r3 <=> CH2OH_p + CH4",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (2.19e-07, 'cm^3/(mol*s)'),
+        n = 5.58,
+        Ea = (3896.3, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank=3,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, MP2//B3LYP/6-311++G(3df,3pd), original source: doi 10.1016/j.comptc.2015.10.009""",
+)
+
+entry(
+    index = 1516,
+    label = "CH3OOH_rC + H <=> CH2OOH_p + H2_p",
+    degeneracy = 3,
+    kinetics = Arrhenius(A=(5.4e+10, 'cm^3/(mol*s)'), n=0, Ea=(1860, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1002/kin.550090209""",
+)
+
+entry(
+    index = 1517,
+    label = "CH4O2 + H <=> CH3OO_p + H2_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5.4e+10, 'cm^3/(mol*s)'), n=0, Ea=(1860, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1002/kin.550090209""",
+)
+
+entry(
+    index = 1518,
+    label = "CH3OOH_rC + O_rad <=> CH2OOH_p + OH_p23",
+    degeneracy = 3,
+    kinetics = Arrhenius(A=(1.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(4750, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1063/1.1748524""",
+)
+
+entry(
+    index = 1519,
+    label = "CH4O2 + O_rad <=> CH3OO_p + OH_p23",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(8.7e+12, 'cm^3/(mol*s)'), n=0, Ea=(4750, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1063/1.1748524""",
+)
+
+entry(
+    index = 1520,
+    label = "CH4O2 + OH <=> CH3OO_p + H2O_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.1e+12, 'cm^3/(mol*s)'), n=0, Ea=(-437, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1063/1.1748524""",
+)
+
+entry(
+    index = 1521,
+    label = "CH3OOH_rC + OH <=> CH2OOH_p + H2O_p",
+    degeneracy = 3,
+    kinetics = Arrhenius(A=(7.2e+11, 'cm^3/(mol*s)'), n=0, Ea=(-258, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1063/1.1748524""",
+)
+
+entry(
+    index = 1522,
+    label = "CH4O2 + HO2_r3 <=> CH3OO_p + H2O2_p13",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1002/kin.20352""",
+)
+
+entry(
+    index = 1523,
+    label = "CH3O2 + CH4b <=> CH3OOH_p + CH3_p1",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (0.00445, 'cm^3/(mol*s)'),
+        n = 4.691,
+        Ea = (19868, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin=(400,'K'),
+        Tmax=(2000,'K'),
+    ),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1016/j.combustflame.2016.07.016""",
+)
+
+entry(
+    index = 1524,
+    label = "C2H6 + H <=> C2H5b + H2_p",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (1.15e+08, 'cm^3/(mol*s)'),
+        n = 1.9,
+        Ea = (7530, 'cal/mol'),
+        T0 = (1, 'K')),
+    rank=3,
+    shortDesc = u"""Training reaction from kinetics library: GRI-Mech3.0""",
+    longDesc =
+u"""
+The respective reaction in the more recent Klippenstein_Glarborg2016 library is in a duplicate form
+and cannot be added as training unless refitting the data
+
+C2H6+H=C2H5+H2  7.35E+03	3.1	5340.02
+DUPLICATE
+C2H6+H=C2H5+H2	3.26E+14	0	13666.81
+DUPLICATE
+! R. Sivaramakrishnan, et al.,  Int. J. Chem. Kinet. 44 (2012) 194–205.
+""",
+)
+
+entry(
+    index = 1525,
+    label = "C2H6 + O_rad <=> C2H5b + OH_p23",
+    degeneracy = 6,
+    kinetics = Arrhenius(A=(180000, 'cm^3/(mol*s)'), n=2.8, Ea=(5800, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1063/1.1748524""",
+)
+
+entry(
+    index = 1526,
+    label = "C2H6 + OH <=> C2H5b + H2O_p",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (1.61e+06, 'cm^3/(mol*s)'),
+        n = 2.224,
+        Ea = (740.73, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1021/jp040186e""",
+)
+
+entry(
+    index = 1527,
+    label = "C2H6 + HO2_r3 <=> C2H5b + H2O2_p13",
+    degeneracy = 6,
+    kinetics = Arrhenius(A=(26, 'cm^3/(mol*s)'), n=3.37, Ea=(15900, 'cal/mol'), T0=(1, 'K')),
+    rank=3,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, CBS-QB3, original source: doi 10.1016/j.proci.2004.08.076""",
+)
+
+entry(
+    index = 1528,
+    label = "C2H6 + O2 <=> C2H5b + HO2",
+    degeneracy = 12,
+    kinetics = Arrhenius(
+        A = (2.92e+07, 'cm^3/(mol*s)'),
+        n = 1.9,
+        Ea = (49548, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank=3,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, CBS-Q, original source: doi 10.1021/jp304906u""",
+)
+
+entry(
+    index = 1529,
+    label = "C2H6 + CH3_r3 <=> C2H5b + CH4",
+    degeneracy = 6,
+    kinetics = Arrhenius(A=(35, 'cm^3/(mol*s)'), n=3.44, Ea=(10384, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1021/jp4073153""",
+)
+
+entry(
+    index = 1530,
+    label = "CH3O2 + C2H6 <=> CH3OOH_p + C2H5b",
+    degeneracy = 6,
+    kinetics = Arrhenius(A=(19, 'cm^3/(mol*s)'), n=3.64, Ea=(17100, 'cal/mol'), T0=(1, 'K')),
+    rank=3,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, CBS-QB3, original source: doi 10.1021/jp0451142""",
+)
+
+entry(
+    index = 1531,
+    label = "C2H4 + H <=> C2H3_p + H2_p",
+    degeneracy = 4,
+    kinetics = Arrhenius(A=(240, 'cm^3/(mol*s)'), n=3.62, Ea=(11266, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1063/1.1748524""",
+)
+
+entry(
+    index = 1532,
+    label = "C2H4 + OH <=> C2H3_p + H2O_p",
+    degeneracy = 4,
+    kinetics = Arrhenius(A=(0.13, 'cm^3/(mol*s)'), n=4.2, Ea=(-860, 'cal/mol'), T0=(1, 'K')),
+    rank=3,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016""",
+)
+
+entry(
+    index = 1533,
+    label = "C2H4 + O2 <=> C2H3_p + HO2",
+    degeneracy = 8,
+    kinetics = Arrhenius(A=(7.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(60010, 'cal/mol'), T0=(1, 'K')),
+    rank=2,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, RQCISD(T)//QCISD, original source: doi 10.1021/jp0566820""",
+)
+
+entry(
+    index = 1534,
+    label = "C2H6O + H <=> CH3CHOH_p + H2_p",
+    degeneracy = 2,
+    kinetics = Arrhenius(A=(8800, 'cm^3/(mol*s)'), n=2.68, Ea=(2913, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1021/jp104759d""",
+)
+
+entry(
+    index = 1535,
+    label = "C2H6O-2 + H <=> CH2CH2OH_p + H2_p",
+    degeneracy = 3,
+    kinetics = Arrhenius(A=(5300, 'cm^3/(mol*s)'), n=2.81, Ea=(7491, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1021/jp104759d""",
+)
+
+entry(
+    index = 1536,
+    label = "CH3CH2OH_rO + H <=> CH3CH2O_p + H2_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(950, 'cm^3/(mol*s)'), n=3.14, Ea=(8696, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1021/jp104759d""",
+)
+
+entry(
+    index = 1537,
+    label = "C2H6O-2 + O_rad <=> CH2CH2OH_p + OH_p23",
+    degeneracy = 3,
+    kinetics = Arrhenius(A=(970, 'cm^3/(mol*s)'), n=3.23, Ea=(4660, 'cal/mol'), T0=(1, 'K')),
+    rank=2,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df), original source: doi 10.1021/jp068977z""",
+)
+
+entry(
+    index = 1538,
+    label = "C2H6O + O_rad <=> CH3CHOH_p + OH_p23",
+    degeneracy = 2,
+    kinetics = Arrhenius(A=(150000, 'cm^3/(mol*s)'), n=2.47, Ea=(876, 'cal/mol'), T0=(1, 'K')),
+    rank=2,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df), original source: doi 10.1021/jp068977z""",
+)
+
+entry(
+    index = 1539,
+    label = "CH3CH2OH_rO + O_rad <=> CH3CH2O_p + OH_p23",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(0.0015, 'cm^3/(mol*s)'), n=4.7, Ea=(1730, 'cal/mol'), T0=(1, 'K')),
+    rank=2,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df), original source: doi 10.1021/jp068977z""",
+)
+
+entry(
+    index = 1540,
+    label = "C2H6O + OH <=> CH3CHOH_p + H2O_p",
+    degeneracy = 2,
+    kinetics = Arrhenius(A=(450, 'cm^3/(mol*s)'), n=3.11, Ea=(-2666, 'cal/mol'), T0=(1, 'K')),
+    rank=3,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, MP-VTST, original source: doi 10.1039/C2FD20012K""",
+)
+
+entry(
+    index = 1541,
+    label = "C2H6O-2 + OH <=> CH2CH2OH_p + H2O_p",
+    degeneracy = 3,
+    kinetics = Arrhenius(A=(9400, 'cm^3/(mol*s)'), n=2.67, Ea=(-1004, 'cal/mol'), T0=(1, 'K')),
+    rank=3,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, MP-VTST, original source: doi 10.1039/C2FD20012K""",
+)
+
+entry(
+    index = 1542,
+    label = "C2H6O + HO2_r3 <=> CH3CHOH_p + H2O2_p13",
+    degeneracy = 2,
+    kinetics = Arrhenius(A=(8200, 'cm^3/(mol*s)'), n=2.55, Ea=(10750, 'cal/mol'), T0=(1, 'K')),
+    rank=3,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, RRKM, original source: doi 10.1002/(SICI)1097-4601(1999)31:3<183::AID-KIN3>3.0.CO;2-X""",
+)
+
+entry(
+    index = 1543,
+    label = "C2H6O-2 + HO2_r3 <=> CH2CH2OH_p + H2O2_p13",
+    degeneracy = 3,
+    kinetics = Arrhenius(A=(12000, 'cm^3/(mol*s)'), n=2.55, Ea=(15750, 'cal/mol'), T0=(1, 'K')),
+    rank=3,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, RRKM, original source: doi 10.1002/(SICI)1097-4601(1999)31:3<183::AID-KIN3>3.0.CO;2-X""",
+)
+
+entry(
+    index = 1544,
+    label = "CH3CH2OH_rO + HO2_r3 <=> CH3CH2O_p + H2O2_p13",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(24000, 'cal/mol'), T0=(1, 'K')),
+    rank=3,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, RRKM, original source: doi 10.1002/(SICI)1097-4601(1999)31:3<183::AID-KIN3>3.0.CO;2-X""",
+)
+
+entry(
+    index = 1545,
+    label = "C2H6O + CH3_r3 <=> CH3CHOH_p + CH4",
+    degeneracy = 2,
+    kinetics = Arrhenius(A=(20, 'cm^3/(mol*s)'), n=3.37, Ea=(7630, 'cal/mol'), T0=(1, 'K')),
+    rank=3,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016""",
+)
+
+entry(
+    index = 1546,
+    label = "C2H6O-2 + CH3_r3 <=> CH2CH2OH_p + CH4",
+    degeneracy = 3,
+    kinetics = Arrhenius(A=(2, 'cm^3/(mol*s)'), n=3.57, Ea=(7717, 'cal/mol'), T0=(1, 'K')),
+    rank=3,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016""",
+)
+
+entry(
+    index = 1547,
+    label = "CH3CH2OH_rO + CH3_r3 <=> CH3CH2O_p + CH4",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(330, 'cm^3/(mol*s)'), n=3.3, Ea=(12283, 'cal/mol'), T0=(1, 'K')),
+    rank=3,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016""",
+)
+
+entry(
+    index = 1548,
+    label = "C2H4O + H <=> CH3CO_p + H2_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(130000, 'cm^3/(mol*s)'), n=2.58, Ea=(1219, 'cal/mol'), T0=(1, 'K')),
+    rank=3,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, RRKM, original source: doi 10.1002/kin.20844""",
+)
+
+entry(
+    index = 1549,
+    label = "CH3CHO_r1 + H <=> CH2CHO_p + H2_p",
+    degeneracy = 3,
+    kinetics = Arrhenius(A=(2700, 'cm^3/(mol*s)'), n=3.1, Ea=(5203, 'cal/mol'), T0=(1, 'K')),
+    rank=3,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, RRKM, original source: doi 10.1002/kin.20844""",
+)
+
+entry(
+    index = 1550,
+    label = "C2H4O + O_rad <=> CH3CO_p + OH_p23",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5.8e+12, 'cm^3/(mol*s)'), n=0, Ea=(1808, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1063/1.1748524""",
+)
+
+entry(
+    index = 1551,
+    label = "C2H4O + OH <=> CH3CO_p + H2O_p",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.8e+12, 'cm^3/(mol*s)'), n=0, Ea=(-709, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1016/j.proci.2014.06.112""",
+)
+
+entry(
+    index = 1552,
+    label = "CH3CHO_r1 + OH <=> CH2CHO_p + H2O_p",
+    degeneracy = 3,
+    kinetics = Arrhenius(A=(8.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(5313, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1016/j.proci.2014.06.112""",
+)
+
+entry(
+    index = 1553,
+    label = "C2H4O + HO2_r3 <=> CH3CO_p + H2O2_p13",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.7e+13, 'cm^3/(mol*s)'), n=0, Ea=(16293, 'cal/mol'), T0=(1, 'K')),
+    rank=3,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, DFT, original source: doi 10.1002/jcc.21756""",
+)
+
+entry(
+    index = 1554,
+    label = "CH3CHO_r1 + HO2_r3 <=> CH2CHO_p + H2O2_p13",
+    degeneracy = 3,
+    kinetics = Arrhenius(A=(1.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(23248, 'cal/mol'), T0=(1, 'K')),
+    rank=3,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, DFT, original source: doi 10.1002/jcc.21756""",
+)
+
+entry(
+    index = 1555,
+    label = "C2H4O + O2 <=> CH3CO_p + HO2",
+    degeneracy = 2,
+    kinetics = Arrhenius(A=(120000, 'cm^3/(mol*s)'), n=2.5, Ea=(37554, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1063/1.1748524""",
+)
+
+entry(
+    index = 1556,
+    label = "C2H4O + CH3_r3 <=> CH3CO_p + CH4",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.5e-08, 'cm^3/(mol*s)'),
+        n = 6.21,
+        Ea = (1629, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1063/1.1748524""",
+)
+
+entry(
+    index = 1557,
+    label = "CH3CH2OO_r3 + HO2_r12 <=> CH3CH2OOH_p + O2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.5e+11, 'cm^3/(mol*s)'), n=0, Ea=(-1391, 'cal/mol'), T0=(1, 'K')),
+    rank=3,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016""",
+)
+
+entry(
+    index = 1558,
+    label = "CH3C(O)OO_r3 + HO2_r12 <=> CH3C(O)OOH_p + O2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.2e+11, 'cm^3/(mol*s)'), n=0, Ea=(-1950, 'cal/mol'), T0=(1, 'K')),
+    rank=1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1063/1.1748524""",
+)

@@ -169,3 +169,48 @@ CH3OH
 5    H u0 p0 c0 {1,S}
 6 *4 H u0 p0 c0 {2,S}
 
+CH2OH
+multiplicity 2
+1 *1 C u1 p0 c0 {2,S} {3,S} {4,S}
+2    O u0 p2 c0 {1,S} {5,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {2,S}
+
+C2H5
+multiplicity 2
+1    C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 *1 C u1 p0 c0 {1,S} {6,S} {7,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {1,S}
+6    H u0 p0 c0 {2,S}
+7    H u0 p0 c0 {2,S}
+
+C2H6
+1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2    C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 *4 H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {1,S}
+6    H u0 p0 c0 {2,S}
+7    H u0 p0 c0 {2,S}
+8    H u0 p0 c0 {2,S}
+
+CHCHOH
+multiplicity 2
+1    C u0 p0 c0 {2,D} {3,S} {4,S}
+2 *1 C u1 p0 c0 {1,D} {5,S}
+3    O u0 p2 c0 {1,S} {6,S}
+4    H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {2,S}
+6    H u0 p0 c0 {3,S}
+
+CH2CHOH
+1    C u0 p0 c0 {2,D} {3,S} {4,S}
+2 *1 C u0 p0 c0 {1,D} {5,S} {6,S}
+3    O u0 p2 c0 {1,S} {7,S}
+4    H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {2,S}
+6 *4 H u0 p0 c0 {2,S}
+7    H u0 p0 c0 {3,S}
