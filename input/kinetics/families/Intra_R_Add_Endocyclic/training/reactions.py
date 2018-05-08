@@ -1295,3 +1295,274 @@ coefficient computed TST with Eckart Tunnelling"
 """,
 )
 
+entry(
+    index = 53,
+    label = "C10H11 <=> C10H11-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(324000, 's^-1'), n=1.64, Ea=(110.61, 'kJ/mol'), T0=(1, 'K')),
+    rank = 4,
+    reference = Article(
+        authors = ['H. Ismail', 'J. Park', 'B. M. Wong', 'W. H. Green', 'M. C. Lin'],
+        title = u'A theoretical and experimental kinetic study of phenyl radical addition to butadiene',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '30(1)',
+        pages = '1049-1056',
+        year = '2005',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Calculations done at B3LYP/6-31G(d,p) level of theory
+From kinetics library: First_to_Second_Aromatic_Ring/2005_Ismail_C6H5_C4H6_highP
+Taken from entry: 4_phenyl_buten_3_yl <=> trihydronaphthalene
+""",
+)
+
+entry(
+    index = 54,
+    label = "C10H9 <=> C10H9-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.57e+10, 's^-1'), n=0.43, Ea=(1.924, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    reference = Article(
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
+        title = u'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
+From kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP
+Taken from entry: W5 <=> W6
+""",
+)
+
+entry(
+    index = 55,
+    label = "C10H9-3 <=> C10H9-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.588e+10, 's^-1'), n=0.535, Ea=(9.58, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    reference = Article(
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
+        title = u'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
+From kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP
+Taken from entry: W8 <=> W13
+""",
+)
+
+entry(
+    index = 56,
+    label = "C10H9-5 <=> C10H9-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.53e+12, 's^-1'), n=0.189, Ea=(29.234, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    reference = Article(
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
+        title = u'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
+From kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP
+Taken from entry: W6 <=> W13
+""",
+)
+
+entry(
+    index = 57,
+    label = "C10H9-7 <=> C10H9-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.017e+13, 's^-1'), n=0.272, Ea=(49.677, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    reference = Article(
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
+        title = u'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
+From kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP
+Taken from entry: W102 <=> W103
+""",
+)
+
+entry(
+    index = 58,
+    label = "C10H9-9 <=> C10H9-10",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.69e+10, 's^-1'), n=0.239, Ea=(33.778, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    reference = Article(
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
+        title = u'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
+From kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP
+Taken from entry: W103 <=> W104
+""",
+)
+
+entry(
+    index = 59,
+    label = "C10H9-11 <=> C10H9-12",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.279e+13, 's^-1'), n=0.395, Ea=(53.699, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    reference = Article(
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
+        title = u'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
+From kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP
+Taken from entry: W108 <=> W111
+""",
+)
+
+entry(
+    index = 60,
+    label = "C10H9-13 <=> C10H9-14",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9.161e+12, 's^-1'), n=0.277, Ea=(28.025, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    reference = Article(
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
+        title = u'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
+From kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP
+Taken from entry: W13 <=> W107
+""",
+)
+
+entry(
+    index = 61,
+    label = "C10H9-15 <=> C10H9-16",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.473e+12, 's^-1'), n=0.247, Ea=(55.262, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    reference = Article(
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
+        title = u'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
+From kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP
+Taken from entry: W108 <=> W115
+""",
+)
+
+entry(
+    index = 62,
+    label = "C10H9-17 <=> C10H9-18",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6.748e+10, 's^-1'), n=0.262, Ea=(19.926, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
+    longDesc = 
+u"""
+Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
+From kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP
+Taken from entry: W111 <=> W112
+""",
+)
+
+entry(
+    index = 63,
+    label = "C10H9-19 <=> C10H9-20",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.998e+12, 's^-1'), n=0.237, Ea=(16.277, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    reference = Article(
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
+        title = u'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
+From kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP
+Taken from entry: W117 <=> W118
+""",
+)
+
+entry(
+    index = 64,
+    label = "C10H7 <=> C10H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.992e+11, 's^-1'), n=0.67, Ea=(58.336, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Effective rate for an adduct of phenyl radical + diacetylene to form either benzofulvenyl or 2-naphthyl radical.
+Rate-limiting step is trans-cis isomerization of the adduct, calculated by Zach Buras using CBS-QB3.
+From kinetics library: First_to_Second_Aromatic_Ring/phenyl_diacetylene_effective
+Taken from entry: i2_trans <=> i4
+""",
+)
+
