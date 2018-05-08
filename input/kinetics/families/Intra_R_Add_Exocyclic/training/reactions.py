@@ -500,3 +500,99 @@ Taken from entry: W1 <=> W3_6
 """,
 )
 
+entry(
+    index = 25,
+    label = "C10H9 <=> C10H9-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.3e+12, 's^-1'), n=0.45, Ea=(25.6, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    reference = Article(
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
+        title = u'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Calculations done at CBS-QB3 level of theory
+From kinetics library: naphthalene_H
+Taken from entry: prod2 <=> prod5
+""",
+)
+
+entry(
+    index = 26,
+    label = "C10H11-7 <=> C10H11-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.36e+10, 's^-1'), n=0.44, Ea=(32.2, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    reference = Article(
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
+        title = u'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Calculations done at CBS-QB3 level of theory
+From kinetics library: C10H11
+Taken from entry: pdt16 <=> pdt17
+""",
+)
+
+entry(
+    index = 27,
+    label = "C10H11-5 <=> C10H11-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.02e+11, 's^-1'), n=0.79, Ea=(35.3, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    reference = Article(
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
+        title = u'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Calculations done at CBS-QB3 level of theory
+From kinetics library: C10H11
+Taken from entry: pdt55 <=> pdt58
+""",
+)
+
+entry(
+    index = 28,
+    label = "C7H9-5 <=> C7H9-6",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(3.95e+10, 's^-1'), n=0.53, Ea=(31.5, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    reference = Article(
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
+        title = u'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Calculations done at CBS-QB3 level of theory
+From kinetics library: vinylCPD_H
+Taken from entry: product16 <=> product5
+""",
+)
+
