@@ -476,3 +476,27 @@ From kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP
 """,
 )
 
+entry(
+    index = 24,
+    label = "C10H7-3 <=> C10H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.42e+11, 's^-1'), n=0.258, Ea=(3.797, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    reference = Article(
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
+        title = u'Temperature- and pressure-dependent rate coefficients for the HACA pathways from benzene to naphthalene',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '36(1)',
+        pages = '919-926',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
+From kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H4C2H_C2H2_highP
+Taken from entry: W1 <=> W3_6
+""",
+)
+
