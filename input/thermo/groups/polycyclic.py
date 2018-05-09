@@ -9056,6 +9056,306 @@ Fitted to CBS-QB3 calculations
 """,
 )
 
+entry(
+    index = 2050,
+    label = "s3_5_5_triene",
+    group =
+"""
+1 * R!H u0 p0 c0 {2,S} {5,D}
+2   R!H u0 p0 c0 {1,S} {6,D}
+3   R!H u0 p0 c0 {4,D} {6,S}
+4   R!H u0 p0 c0 {3,D} {5,S}
+5   R!H u0 p0 c0 {1,D} {4,S} {7,S}
+6   R!H u0 p0 c0 {2,D} {3,S} {7,S}
+7   R!H u0 p0 c0 {5,S} {6,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([-7.643, -8.911, -8.948, -8.325, -6.710, -5.427, -4.153],'cal/(mol*K)'),
+        H298 = (103.170,'kcal/mol'),
+        S298 = (64.637,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from CBS-QB3 calculation""",
+    longDesc =
+u""""
+Fitted from CBS-QB3 calculation for C12=CC=C(C1)C=C2. Mengjie Liu 5/9/18.
+""",
+)
+
+entry(
+    index = 2051,
+    label = "s2_s2_s3_6_6_6_6ene",
+    group =
+"""
+1  * R!H u0 p0 c0 {2,D} {7,S}
+2    R!H u0 p0 c0 {1,D} {10,S}
+3    R!H u0 p0 c0 {4,S} {10,D}
+4    R!H u0 p0 c0 {3,S} {9,D}
+5    R!H u0 p0 c0 {6,D} {9,S}
+6    R!H u0 p0 c0 {5,D} {11,S}
+7    R!H u0 p0 c0 {1,S} {11,D}
+8    R!H u0 p0 c0 {9,S} {12,D}
+9    R!H u0 p0 c0 {4,D} {5,S} {8,S}
+10   R!H u0 p0 c0 {2,S} {3,D} {12,S}
+11   R!H u0 p0 c0 {6,S} {7,D} {12,S}
+12   R!H u0 p0 c0 {8,D} {10,S} {11,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([-5.838, -7.267, -7.678, -7.707, -7.602, -6.736, -8.618],'cal/(mol*K)'),
+        H298 = (77.320,'kcal/mol'),
+        S298 = (97.787,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from M06-2X/cc-pVTZ calculation""",
+    longDesc =
+u""""
+Fitted from M06-2X/cc-pVTZ calculation for c1cc2ccc3ccc(c1)c2c3. Mengjie Liu 5/9/18.
+""",
+)
+
+entry(
+    index = 2052,
+    label = "s2_s2_s3_6_6_6_ben",
+    group =
+"""
+1  * R!H u0 p0 c0 {2,B} {7,B}
+2    R!H u0 p0 c0 {1,B} {10,B}
+3    R!H u0 p0 c0 {4,B} {10,B}
+4    R!H u0 p0 c0 {3,B} {9,B}
+5    R!H u0 p0 c0 {6,B} {9,B}
+6    R!H u0 p0 c0 {5,B} {11,B}
+7    R!H u0 p0 c0 {1,B} {11,B}
+8    R!H u0 p0 c0 {9,B} {12,B}
+9    R!H u0 p0 c0 {4,B} {5,B} {8,B}
+10   R!H u0 p0 c0 {2,B} {3,B} {12,B}
+11   R!H u0 p0 c0 {6,B} {7,B} {12,B}
+12   R!H u0 p0 c0 {8,B} {10,B} {11,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([-0.518, -0.427, -0.158, -0.067, 0.358, -0.056, -1.938],'cal/(mol*K)'),
+        H298 = (133.460,'kcal/mol'),
+        S298 = (13.907,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from M06-2X/cc-pVTZ calculation""",
+    longDesc =
+u""""
+Fitted from M06-2X/cc-pVTZ calculation for c1cc2ccc3ccc(c1)c2c3. Mengjie Liu 5/9/18.
+""",
+)
+
+entry(
+    index = 2053,
+    label = "s2_s2_s3_6_6_6_ben1",
+    group =
+"""
+1  * R!H u0 p0 c0 {2,D} {7,S}
+2    R!H u0 p0 c0 {1,D} {10,S}
+3    R!H u0 p0 c0 {4,B} {10,B}
+4    R!H u0 p0 c0 {3,B} {9,B}
+5    R!H u0 p0 c0 {6,D} {9,S}
+6    R!H u0 p0 c0 {5,D} {11,S}
+7    R!H u0 p0 c0 {1,S} {11,D}
+8    R!H u0 p0 c0 {9,B} {12,B}
+9    R!H u0 p0 c0 {4,B} {5,S} {8,B}
+10   R!H u0 p0 c0 {2,S} {3,B} {12,B}
+11   R!H u0 p0 c0 {6,S} {7,D} {12,S}
+12   R!H u0 p0 c0 {8,B} {10,B} {11,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([-10.048, -10.497, -9.818, -8.487, -5.932, -4.146, -2.698],'cal/(mol*K)'),
+        H298 = (109.910,'kcal/mol'),
+        S298 = (59.557,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from M06-2X/cc-pVTZ calculation""",
+    longDesc =
+u""""
+Fitted from M06-2X/cc-pVTZ calculation for c1cc2ccc3ccc(c1)c2c3. Mengjie Liu 5/9/18.
+""",
+)
+
+entry(
+    index = 2054,
+    label = "s2_s2_s3_6_6_6_ben2",
+    group =
+"""
+1  * R!H u0 p0 c0 {2,B} {7,B}
+2    R!H u0 p0 c0 {1,B} {10,B}
+3    R!H u0 p0 c0 {4,D} {10,S}
+4    R!H u0 p0 c0 {3,D} {9,S}
+5    R!H u0 p0 c0 {6,D} {9,S}
+6    R!H u0 p0 c0 {5,D} {11,S}
+7    R!H u0 p0 c0 {1,B} {11,B}
+8    R!H u0 p0 c0 {9,D} {12,S}
+9    R!H u0 p0 c0 {4,S} {5,S} {8,D}
+10   R!H u0 p0 c0 {2,B} {3,S} {12,B}
+11   R!H u0 p0 c0 {6,S} {7,B} {12,B}
+12   R!H u0 p0 c0 {8,S} {10,B} {11,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([-7.248, -7.057, -6.448, -5.667, -4.302, -3.196, -3.008],'cal/(mol*K)'),
+        H298 = (105.490,'kcal/mol'),
+        S298 = (58.727,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from M06-2X/cc-pVTZ calculation""",
+    longDesc =
+u""""
+Fitted from M06-2X/cc-pVTZ calculation for c1cc2ccc3ccc(c1)c2c3. Mengjie Liu 5/9/18.
+""",
+)
+
+entry(
+    index = 2055,
+    label = "s2_s2_s2_6_5_5_5ene1",
+    group =
+"""
+1    R!H u0 p0 c0 {2,S} {3,D}
+2    R!H u0 p0 c0 {1,S} {8,D}
+3    R!H u0 p0 c0 {1,D} {9,S}
+4    R!H u0 p0 c0 {6,D} {9,S}
+5    R!H u0 p0 c0 {7,D} {8,S}
+6    R!H u0 p0 c0 {4,D} {11,S}
+7    R!H u0 p0 c0 {5,D} {11,S}
+8    R!H u0 p0 c0 {2,D} {5,S} {10,S}
+9    R!H u0 p0 c0 {3,S} {4,S} {10,D}
+10 * R!H u0 p0 c0 {8,S} {9,D} {11,S}
+11   R!H u0 p0 c0 {6,S} {7,S} {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([-8.375, -8.362, -8.093, -7.793, -6.977, -5.874, -6.277],'cal/(mol*K)'),
+        H298 = (7.976,'kcal/mol'),
+        S298 = (94.342,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from M06-2X/cc-pVTZ calculation""",
+    longDesc =
+u""""
+Fitted from M06-2X/cc-pVTZ calculation for C1=CC2C=Cc3cccc1c32. Mengjie Liu 5/9/18.
+""",
+)
+
+entry(
+    index = 2056,
+    label = "s2_s2_s2_6_5_5_ben1",
+    group =
+"""
+1    R!H u0 p0 c0 {2,B} {3,B}
+2    R!H u0 p0 c0 {1,B} {8,B}
+3    R!H u0 p0 c0 {1,B} {9,B}
+4    R!H u0 p0 c0 {6,D} {9,S}
+5    R!H u0 p0 c0 {7,D} {8,S}
+6    R!H u0 p0 c0 {4,D} {11,S}
+7    R!H u0 p0 c0 {5,D} {11,S}
+8    R!H u0 p0 c0 {2,B} {5,S} {10,B}
+9    R!H u0 p0 c0 {3,B} {4,S} {10,B}
+10 * R!H u0 p0 c0 {8,B} {9,B} {11,S}
+11   R!H u0 p0 c0 {6,S} {7,S} {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([-5.975, -5.192, -4.843, -4.303, -3.397, -2.384, -1.207],'cal/(mol*K)'),
+        H298 = (35.406,'kcal/mol'),
+        S298 = (55.812,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from M06-2X/cc-pVTZ calculation""",
+    longDesc =
+u""""
+Fitted from M06-2X/cc-pVTZ calculation for C1=CC2C=Cc3cccc1c32. Mengjie Liu 5/9/18.
+""",
+)
+
+entry(
+    index = 2057,
+    label = "s2_s2_s2_6_5_5_5ene2",
+    group =
+"""
+1    R!H u0 p0 c0 {4,S} {5,D}
+2    R!H u0 p0 c0 {3,D} {8,S}
+3    R!H u0 p0 c0 {2,D} {7,S}
+4    R!H u0 p0 c0 {1,S} {7,D}
+5    R!H u0 p0 c0 {1,D} {10,S}
+6    R!H u0 p0 c0 {8,D} {11,S}
+7    R!H u0 p0 c0 {3,S} {4,D} {9,S}
+8    R!H u0 p0 c0 {2,S} {6,D} {9,S}
+9  * R!H u0 p0 c0 {7,S} {8,S} {10,D}
+10   R!H u0 p0 c0 {5,S} {9,D} {11,S}
+11   R!H u0 p0 c0 {6,S} {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([-6.617, -7.402, -7.629, -7.720, -7.572, -6.674, -7.345],'cal/(mol*K)'),
+        H298 = (1.170,'kcal/mol'),
+        S298 = (96.405,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from M06-2X/cc-pVTZ calculation""",
+    longDesc =
+u""""
+Fitted from M06-2X/cc-pVTZ calculation for C1=Cc2cccc3CC=C1c23. Mengjie Liu 5/9/18.
+""",
+)
+
+entry(
+    index = 2058,
+    label = "s2_s2_s2_6_5_5_ben2",
+    group =
+"""
+1    R!H u0 p0 c0 {4,B} {5,B}
+2    R!H u0 p0 c0 {3,D} {8,S}
+3    R!H u0 p0 c0 {2,D} {7,S}
+4    R!H u0 p0 c0 {1,B} {7,B}
+5    R!H u0 p0 c0 {1,B} {10,B}
+6    R!H u0 p0 c0 {8,D} {11,S}
+7    R!H u0 p0 c0 {3,S} {4,B} {9,B}
+8    R!H u0 p0 c0 {2,S} {6,D} {9,S}
+9  * R!H u0 p0 c0 {7,B} {8,S} {10,B}
+10   R!H u0 p0 c0 {5,B} {9,B} {11,S}
+11   R!H u0 p0 c0 {6,S} {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([-7.217, -7.082, -6.849, -6.440, -5.322, -4.304, -3.375],'cal/(mol*K)'),
+        H298 = (31.220,'kcal/mol'),
+        S298 = (67.335,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from M06-2X/cc-pVTZ calculation""",
+    longDesc =
+u""""
+Fitted from M06-2X/cc-pVTZ calculation for C1=Cc2cccc3CC=C1c23. Mengjie Liu 5/9/18.
+""",
+)
+
+entry(
+    index = 2059,
+    label = "s2_s2_s2_6_5_5_5ene3",
+    group =
+"""
+1    R!H u0 p0 c0 {4,D} {5,S}
+2    R!H u0 p0 c0 {3,D} {8,S}
+3    R!H u0 p0 c0 {2,D} {7,S}
+4    R!H u0 p0 c0 {1,D} {7,S}
+5    R!H u0 p0 c0 {1,S} {10,D}
+6    R!H u0 p0 c0 {8,D} {11,S}
+7    R!H u0 p0 c0 {3,S} {4,S} {9,D}
+8    R!H u0 p0 c0 {2,S} {6,D} {9,S}
+9  * R!H u0 p0 c0 {7,D} {8,S} {10,S}
+10   R!H u0 p0 c0 {5,D} {9,S} {11,S}
+11   R!H u0 p0 c0 {6,S} {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([-6.617, -7.402, -7.629, -7.720, -7.572, -6.674, -7.345],'cal/(mol*K)'),
+        H298 = (1.170,'kcal/mol'),
+        S298 = (96.405,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from M06-2X/cc-pVTZ calculation""",
+    longDesc =
+u""""
+Fitted from M06-2X/cc-pVTZ calculation for C1=Cc2cccc3CC=C1c23. Mengjie Liu 5/9/18.
+""",
+)
+
 tree(
 """
 L1: PolycyclicRing
@@ -9285,6 +9585,11 @@ L1: PolycyclicRing
             L4: s2_5_6_tetraene_1_3_5_8
         L3: s2_5_6_ben
         L3: s2_5_6_indene
+            L4: s2_s2_s2_6_5_5_ben1
+            L4: s2_s2_s2_6_5_5_ben2
+        L3: s2_s2_s2_6_5_5_5ene1
+        L3: s2_s2_s2_6_5_5_5ene2
+        L3: s2_s2_s2_6_5_5_5ene3
     L2: s2_5_7
         L3: s2_5_7_triene
             L4: s2_5_7_triene_0_2_8
@@ -9336,6 +9641,10 @@ L1: PolycyclicRing
             L4: s2_6_6_ben_ene_1
             L4: s2_6_6_ben_ene_2
         L3: s2_6_6_naphthalene
+            L4: s2_s2_s3_6_6_6_ben
+        L3: s2_s2_s3_6_6_6_6ene
+        L3: s2_s2_s3_6_6_6_ben1
+        L3: s2_s2_s3_6_6_6_ben2
     L2: s3_4_4
         L3: s3_4_4_ane
         L3: s3_4_4_ene
@@ -9378,6 +9687,7 @@ L1: PolycyclicRing
         L3: s3_5_5_diene
             L4: s3_5_5_diene_1_4
             L4: s3_5_5_diene_0_4
+        L3: s3_5_5_triene
     L2: s3_5_6
         L3: s3_5_6_ane
         L3: s3_5_6_ene
