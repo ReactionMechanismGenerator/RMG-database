@@ -87,6 +87,141 @@ u"""
 )
 
 entry(
+    index = 18007,
+    label = "Cs_P_ClCl",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   C   u0 {1,S}
+3   Cl  u0 {1,S}
+4   Cl  u0 {1,S}
+""",
+    thermo = u'CsCsJ(Cl)(Cl)',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 18008,
+    label = "CsCsJ(Cl)(Cl)",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
+3   Cl  u0 {1,S}
+4   Cl  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.311,-0.918,-1.488,-2.003,-2.854,-3.497,-4.495],'cal/(mol*K)'),
+        H298 = (95.72,'kcal/mol'),
+        S298 = (1.242,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 calculations""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+entry(
+    index = 18009,
+    label = "RCCJ(Cl)(Cl)",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cs u0 {1,S} {5,S} {6,S} {7,S}
+3   Cl  u0 {1,S}
+4   Cl  u0 {1,S}
+5   C  u0 {2,S}
+6   H  u0 {2,S}
+7   H  u0 {2,S}
+""",
+    thermo = u'Cs_P_ClCl',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+
+
+
+
+entry(
+    index = 18004,
+    label = "Cs_P_Cl",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   C  u0 {1,S}
+3   H  u0 {1,S}
+4   Cl  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.554,-0.087,-0.767,-1.403,-2.452,-3.228,-4.393],'cal/(mol*K)'),
+        H298 = (98.211,'kcal/mol'),
+        S298 = (2.964,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 calculations""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 18005,
+    label = "CsCsJ(Cl)",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cs u0 {1,S}
+3   H  u0 {1,S}
+4   Cl  u0 {1,S}
+""",
+    thermo = u'Cs_P_Cl',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+entry(
+    index = 18006,
+    label = "RCCJ(Cl)",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cs u0 {1,S} {5,S} {6,S} {7,S}
+3   H  u0 {1,S}
+4   Cl  u0 {1,S}
+5   C  u0 {2,S}
+6   H  u0 {2,S}
+7   H  u0 {2,S}
+""",
+    thermo = u'Cs_P_Cl',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+
+
+
+entry(
     index = 5,
     label = "Cs_P",
     group = 
@@ -432,6 +567,52 @@ DOI: 10.1002/chem.201301381
 """,
 )
 
+
+
+entry(
+    index = 18000,
+    label = "Cs_S_Cl",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   C  u0 {1,S}
+3   C  u0 {1,S}
+4   Cl u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.121,-0.686,-1.327,-1.847,-2.674,-3.316,-4.388],'cal/(mol*K)'),
+        H298 = (96.662,'kcal/mol'),
+        S298 = (3.769,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 calcs""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+entry(
+    index = 18001,
+    label = "(Cs)2ClCsJ",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
+3   Cs  u0 {1,S}
+4   Cl  u0 {1,S}
+""",
+    thermo = u'Cs_S_Cl',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+
 entry(
     index = 3031,
     label = "C=CC(C)(O)CJ",
@@ -460,6 +641,7 @@ optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-
 DOI: 10.1002/chem.201301381
 """,
 )
+
 
 entry(
     index = 3065,
@@ -490,6 +672,9 @@ optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-
 DOI: 10.1002/chem.201301381
 """,
 )
+
+
+
 
 entry(
     index = 3046,
@@ -6805,6 +6990,51 @@ DOI: 10.1002/chem.201301381
 """,
 )
 
+
+entry(
+    index = 18002,
+    label = "Cds-P-Cl",
+    group = 
+"""
+1 * Cd u1 {2,D} {3,S}
+2   C  u0 {1,D}
+3   Cl u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.514,-1.16,-1.74,-2.238,-3.032,-3.631,-4.562],'cal/(mol*K)'),
+        H298 = (109.865,'kcal/mol'),
+        S298 = (1.542,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 calculations""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+entry(
+    index = 18003,
+    label = "CJ(Cl)=CC",
+    group = 
+"""
+1 * Cd u1 {2,D} {3,S}
+2   C  u0 {1,D} {4,S}
+3   Cl u0 {1,S}
+4	C  u0 {2,S}
+""",
+    thermo = u'Cds-P-Cl',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+
+
 entry(
     index = 3023,
     label = "CC(C)2OJ",
@@ -8629,6 +8859,12 @@ L1: Radical
         L3: CJ
             L4: CsJ
                 L5: CH3
+                L5: Cs_P_ClCl
+                	L6: CsCsJ(Cl)(Cl) 
+                		L7: RCCJ(Cl)(Cl) 
+                L5: Cs_P_Cl
+                	L6: CsCsJ(Cl) 
+                		L7: RCCJ(Cl) 
                 L5: Cs_P
                     L6: CJCO
                         L7: C=C(O)CJ
@@ -8661,8 +8897,14 @@ L1: Radical
                         L7: CTCC=CCJ
                         L7: CJC=C=O
                     L6: Propargyl
+<<<<<<< HEAD
                     L6: CJC=O
                         L7: C2JC=O
+=======
+                    L6: C2JC=O
+                L5: Cs_S_Cl
+                	L6: (Cs)2ClCsJ
+>>>>>>> 3d7fa91fd3e8664d565158ef3d853dcae3dd14a4
                 L5: Cs_S
                     L6: CCJCO
                         L7: C=CCJCO
@@ -8867,6 +9109,8 @@ L1: Radical
                             L8: (O)CJOCC
                             L8: (O)CJOCC2
                             L8: (O)CJOCC3
+                L5: Cds-P-Cl
+                	L6:CJ(Cl)=CC
                 L5: Cds_P
                     L6: C=C=CJ
                 L5: Cds_S

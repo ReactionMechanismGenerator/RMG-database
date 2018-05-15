@@ -1356,6 +1356,20 @@ entry(
 
 entry(
     index = 61,
+    label = "C1", # Single carbon atom with 4 bonds to either H or Cl
+    group = 
+"""
+1 *1 C u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H u0 {1,S}
+3    [H,Cl]   u0 {1,S}
+4    [H,Cl]   u0 {1,S}
+5    [H,Cl]   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 610,
     label = "C_methane",
     group = 
 """
@@ -1369,14 +1383,56 @@ entry(
 )
 
 entry(
+    index = 611,
+    label = "CH3Cl",
+    group = 
+"""
+1 *1 C u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H u0 {1,S}
+3    H u0 {1,S}
+4    H u0 {1,S}
+5    Cl u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 612,
+    label = "CH2Cl2",
+    group = 
+"""
+1 *1 C u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H u0 {1,S}
+3    H u0 {1,S}
+4    Cl u0 {1,S}
+5    Cl u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 613,
+    label = "CHCl3",
+    group = 
+"""
+1 *1 C u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H u0 {1,S}
+3    Cl u0 {1,S}
+4    Cl u0 {1,S}
+5    Cl u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 62,
     label = "C_pri",
     group = 
 """
 1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H   u0 {1,S}
-3    H   u0 {1,S}
-4    H   u0 {1,S}
+3    [H,Cl]   u0 {1,S}
+4    [H,Cl]   u0 {1,S}
 5    R!H u0 {1,S}
 """,
     kinetics = None,
@@ -1397,6 +1453,36 @@ entry(
 )
 
 entry(
+    index = 631,
+    label = "C/H2Cl/Cs",
+    group = 
+"""
+1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  u0 {1,S}
+3    H  u0 {1,S}
+4    Cl  u0 {1,S}
+5    Cs u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 64,
+    label = "C/H3/Cs\Cl3",
+    group = 
+"""
+1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cs u0 {1,S} {6,S} {7,S} {8,S}
+3 *2 H  u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {1,S}
+6    Cl  u0 {2,S}
+7    Cl  u0 {2,S}
+8    Cl  u0 {2,S}
+""",
+    kinetics = None,
+)
+entry(
     index = 64,
     label = "C/H3/Cs\H3",
     group = 
@@ -1412,6 +1498,59 @@ entry(
 """,
     kinetics = None,
 )
+
+
+entry(
+    index = 64000,
+    label = "C/H2Cl/Cs\H3",
+    group = 
+"""
+1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cs u0 {1,S} {6,S} {7,S} {8,S}
+3 *2 H  u0 {1,S}
+4    Cl  u0 {1,S}
+5    H  u0 {1,S}
+6    H  u0 {2,S}
+7    H  u0 {2,S}
+8    H  u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 64001,
+    label = "C/H3/Cs\H2Cl",
+    group = 
+"""
+1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cs u0 {1,S} {6,S} {7,S} {8,S}
+3 *2 H  u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {1,S}
+6    Cl  u0 {2,S}
+7    H  u0 {2,S}
+8    H  u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 64002,
+    label = "C/H2Cl/Cs\H2Cl",
+    group = 
+"""
+1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cs u0 {1,S} {6,S} {7,S} {8,S}
+3 *2 H  u0 {1,S}
+4    Cl  u0 {1,S}
+5    H  u0 {1,S}
+6    Cl  u0 {2,S}
+7    H  u0 {2,S}
+8    H  u0 {2,S}
+""",
+    kinetics = None,
+)
+
 
 entry(
     index = 65,
@@ -1515,6 +1654,8 @@ entry(
 """,
     kinetics = None,
 )
+
+
 
 entry(
     index = 71,
@@ -1743,6 +1884,7 @@ entry(
     kinetics = None,
 )
 
+
 entry(
     index = 84,
     label = "C/H2/NonDeC",
@@ -1756,6 +1898,7 @@ entry(
 """,
     kinetics = None,
 )
+
 
 entry(
     index = 85,
@@ -1927,6 +2070,8 @@ entry(
 """,
     kinetics = None,
 )
+
+
 
 entry(
     index = 95,
@@ -2484,6 +2629,7 @@ entry(
     kinetics = None,
 )
 
+
 entry(
     index = 132,
     label = "C/H/NonDe",
@@ -2683,6 +2829,10 @@ entry(
     kinetics = None,
 )
 
+
+
+
+
 entry(
     index = 142,
     label = "C/H/NDMustS",
@@ -2809,6 +2959,7 @@ entry(
     kinetics = None,
 )
 
+
 entry(
     index = 151,
     label = "C/H/Cs2Cb",
@@ -2851,6 +3002,7 @@ entry(
 """,
     kinetics = None,
 )
+
 
 entry(
     index = 154,
@@ -3036,6 +3188,7 @@ entry(
 """,
     kinetics = None,
 )
+
 
 entry(
     index = 167,
@@ -3830,7 +3983,7 @@ entry(
     label = "Y_1centerbirad",
     group = 
 """
-1 *3 [Cs,Cd,CO,CS,O,S,N] u2
+1 *3 [Cs,Cd,CO,CS,O,S,N,Cl] u2
 """,
     kinetics = None,
 )
@@ -3894,6 +4047,16 @@ entry(
     group = 
 """
 1 *3 H u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 19200,
+    label = "Cl_rad",
+    group = 
+"""
+1 *3 Cl u1
 """,
     kinetics = None,
 )
@@ -5179,6 +5342,19 @@ entry(
 )
 
 entry(
+    index = 26300,
+    label = "C_rad/H2/Cl",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    H  u0 {1,S}
+3    H  u0 {1,S}
+4    Cl u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 263,
     label = "C_rad/H2/Cs",
     group = 
@@ -5190,6 +5366,7 @@ entry(
 """,
     kinetics = None,
 )
+
 
 entry(
     index = 264,
@@ -7274,10 +7451,16 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                     L6: CS/H/Cd
                     L6: CS/H/CS
         L3: Cs_H
-            L4: C_methane
+            L4: C1
+                L5: C_methane
+                L5: CH3Cl
+                L5: CH2Cl2
+                L5: CHCl3
             L4: C_pri
                 L5: C/H3/Cs
+                	L6: C/H3/Cs\Cl3
                     L6: C/H3/Cs\H3
+                    L6: C/H3/Cs\H2Cl
                     L6: C/H3/Cs\OneNonDe
                         L7: C/H3/Cs\H2\Cs
                             L8: C/H3/Cs\H2\Cs|O
@@ -7285,8 +7468,14 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                     L6: C/H3/Cs\TwoNonDe
                         L7: C/H3/Cs\H\Cs\O
                         L7: C/H3/Cs\H\Cs\Cs|O
+<<<<<<< HEAD
                     L6: C/H3/Cs\TwoDe
                         L7: 1_methyl_CPD
+=======
+                L5: C/H2Cl/Cs
+                    L6:C/H2Cl/Cs\H3
+                    L6:C/H2Cl/Cs\H2Cl
+>>>>>>> 3d7fa91fd3e8664d565158ef3d853dcae3dd14a4
                 L5: C/H3/O
                 L5: C/H3/S
                 L5: C/H3/OneDe
@@ -7443,6 +7632,7 @@ L1: Y_rad_birad_trirad_quadrad
         L3: NH_triplet
     L2: Y_rad
         L3: H_rad
+        L3: Cl_rad
         L3: Y_2centeradjbirad
             L4: O2b
             L4: S2b
@@ -7548,6 +7738,7 @@ L1: Y_rad_birad_trirad_quadrad
         L3: Cs_rad
             L4: C_methyl
             L4: C_pri_rad
+            	L5: C_rad/H2/Cl
                 L5: C_rad/H2/Cs
                     L6: C_rad/H2/Cs\H3
                     L6: C_rad/H2/Cs\Cs2\O

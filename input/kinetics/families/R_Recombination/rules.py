@@ -120,7 +120,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 428,
-    label = "H_rad;C_rad/H2/Cs",
+    label = "H_rad;C_rad/H2_Cl2_HCl/Cs",
     kinetics = ArrheniusEP(
         A = (1e+14, 'cm^3/(mol*s)', '+|-', 1e+13),
         n = 0,
@@ -144,7 +144,7 @@ Verified by Greg Magoon; I changed the DA uncertainty from (times/divide)1.1 to 
 
 entry(
     index = 429,
-    label = "H_rad;C_rad/H/NonDeC",
+    label = "H_rad;C_rad/H_Cl/NonDeC",
     kinetics = ArrheniusEP(
         A = (2e+13, 'cm^3/(mol*s)', '*|/', 3.16),
         n = 0,
@@ -163,7 +163,7 @@ u"""
 
 entry(
     index = 430,
-    label = "H_rad;C_rad/H/NonDeC",
+    label = "H_rad;C_rad/H_Cl/NonDeC",
     kinetics = ArrheniusEP(
         A = (1.5e+14, 'cm^3/(mol*s)', '+|-', 3e+13),
         n = 0,
@@ -408,7 +408,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 439,
-    label = "C_methyl;C_rad/H2/Cs",
+    label = "C_methyl;C_rad/H2_Cl2_HCl/Cs",
     kinetics = ArrheniusEP(
         A = (3.37e+13, 'cm^3/(mol*s)', '*|/', 2),
         n = 0,
@@ -445,7 +445,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 440,
-    label = "C_methyl;C_rad/H/NonDeC",
+    label = "C_methyl;C_rad/H_Cl/NonDeC",
     kinetics = ArrheniusEP(
         A = (6.64e+14, 'cm^3/(mol*s)'),
         n = -0.57,
@@ -759,7 +759,7 @@ MRH 28-Aug-2009
 
 entry(
     index = 450,
-    label = "C_rad/H2/Cs;C_rad/H2/Cs",
+    label = "C_rad/H2_Cl2_HCl/Cs;C_rad/H2_Cl2_HCl/Cs",
     kinetics = ArrheniusEP(
         A = (1.15e+13, 'cm^3/(mol*s)', '*|/', 2),
         n = 0,
@@ -790,7 +790,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 451,
-    label = "C_rad/H2/Cs;C_rad/H/NonDeC",
+    label = "C_rad/H2_Cl2_HCl/Cs;C_rad/H_Cl/NonDeC",
     kinetics = ArrheniusEP(
         A = (1.15e+14, 'cm^3/(mol*s)', '*|/', 2),
         n = -0.35,
@@ -822,7 +822,7 @@ MRH 30-Aug-2009
 
 entry(
     index = 452,
-    label = "C_rad/H2/Cs;C_rad/Cs3",
+    label = "C_rad/H2_Cl2_HCl/Cs;C_rad/Cs3",
     kinetics = ArrheniusEP(
         A = (6.91e+14, 'cm^3/(mol*s)', '*|/', 2),
         n = -0.75,
@@ -866,7 +866,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 453,
-    label = "C_rad/H2/Cs;CO_pri_rad",
+    label = "C_rad/H2_Cl2_HCl/Cs;CO_pri_rad",
     kinetics = ArrheniusEP(
         A = (1.81e+13, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
@@ -896,7 +896,7 @@ MRH 28-Aug-2009
 
 entry(
     index = 454,
-    label = "C_rad/H2/Cs;CO_rad/NonDe",
+    label = "C_rad/H2_Cl2_HCl/Cs;CO_rad/NonDe",
     kinetics = ArrheniusEP(
         A = (3.12e+14, 'cm^3/(mol*s)', '*|/', 3),
         n = -0.5,
@@ -926,7 +926,7 @@ MRH 28-Aug-2009
 
 entry(
     index = 455,
-    label = "C_rad/H2/Cs;O_pri_rad",
+    label = "C_rad/H2_Cl2_HCl/Cs;O_pri_rad",
     kinetics = ArrheniusEP(
         A = (7.7e+13, 'cm^3/(mol*s)', '+|-', 1e+13),
         n = 0,
@@ -950,7 +950,7 @@ Verified by Greg Magoon; value reported for k1a,Infinity (high-pressure) appears
 
 entry(
     index = 456,
-    label = "C_rad/H/NonDeC;C_rad/H/NonDeC",
+    label = "C_rad/H_Cl/NonDeC;C_rad/H_Cl/NonDeC",
     kinetics = ArrheniusEP(
         A = (3.25e+14, 'cm^3/(mol*s)', '*|/', 2),
         n = -0.7,
@@ -987,7 +987,7 @@ MRH 30-Aug-2009
 
 entry(
     index = 457,
-    label = "C_rad/H/NonDeC;C_rad/Cs3",
+    label = "C_rad/H_Cl/NonDeC;C_rad/Cs3",
     kinetics = ArrheniusEP(
         A = (4.12e+15, 'cm^3/(mol*s)', '*|/', 1.5),
         n = -1.1,
@@ -1029,7 +1029,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 458,
-    label = "C_rad/H/NonDeC;CO_rad/NonDe",
+    label = "C_rad/H_Cl/NonDeC;CO_rad/NonDe",
     kinetics = ArrheniusEP(
         A = (6.64e+13, 'cm^3/(mol*s)', '*|/', 2),
         n = -0.35,
@@ -1065,7 +1065,7 @@ MRH 30-Aug-2009
 
 entry(
     index = 459,
-    label = "C_rad/H/NonDeC;O_rad/NonDe",
+    label = "C_rad/H_Cl/NonDeC;O_rad/NonDe",
     kinetics = ArrheniusEP(
         A = (6.03e+12, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
@@ -1747,7 +1747,11 @@ u"""
 
 entry(
     index = 482,
+<<<<<<< HEAD
     label = "C_rad/H2/S;H_rad",
+=======
+    label = "CsJ-Ss_HH_HCl_ClCl;H_rad",
+>>>>>>> 3d7fa91fd3e8664d565158ef3d853dcae3dd14a4
     kinetics = ArrheniusEP(
         A = (5e+11, 'cm^3/(mol*s)'),
         n = 0.65,
@@ -1801,7 +1805,7 @@ u"""
 
 entry(
     index = 485,
-    label = "SsJ-Cs;C_rad/H2/Cs",
+    label = "SsJ-Cs;C_rad/H2_Cl2_HCl/Cs",
     kinetics = ArrheniusEP(
         A = (8.94e+07, 'cm^3/(mol*s)'),
         n = 1.54,
@@ -2161,7 +2165,7 @@ u"""
 
 entry(
     index = 495,
-    label = "H_rad;C_rad/H2/Cd",
+    label = "H_rad;C_rad/H2_Cl2_HCl/Cd",
     kinetics = ArrheniusEP(
         A = (2.92e+13, 'cm^3/(mol*s)'),
         n = 0.18,
@@ -2176,7 +2180,7 @@ entry(
 
 entry(
     index = 496,
-    label = "H_rad;C_rad/H/OneDeC",
+    label = "H_rad;C_rad/H_Cl/OneDeC",
     kinetics = ArrheniusEP(
         A = (2.92e+13, 'cm^3/(mol*s)'),
         n = 0.18,
@@ -2221,7 +2225,7 @@ entry(
 
 entry(
     index = 499,
-    label = "C_rad/H2/Cd;C_rad/H2/Cd",
+    label = "C_rad/H2_Cl2_HCl/Cd;C_rad/H2_Cl2_HCl/Cd",
     kinetics = ArrheniusEP(
         A = (1.02e+13, 'cm^3/(mol*s)'),
         n = 0,
@@ -2236,7 +2240,7 @@ entry(
 
 entry(
     index = 500,
-    label = "C_rad/H2/Cd;C_rad/H2/Cs",
+    label = "C_rad/H2_Cl2_HCl/Cd;C_rad/H2_Cl2_HCl/Cs",
     kinetics = ArrheniusEP(
         A = (2.05e+13, 'cm^3/(mol*s)'),
         n = 0,
@@ -2251,7 +2255,7 @@ entry(
 
 entry(
     index = 501,
-    label = "C_rad/H2/Cd;C_methyl",
+    label = "C_rad/H2_Cl2_HCl/Cd;C_methyl",
     kinetics = ArrheniusEP(
         A = (1.02e+14, 'cm^3/(mol*s)'),
         n = -0.32,
@@ -2266,7 +2270,7 @@ entry(
 
 entry(
     index = 502,
-    label = "C_rad/H2/Cd;C_rad/H/NonDeC",
+    label = "C_rad/H2_Cl2_HCl/Cd;C_rad/H_Cl/NonDeC",
     kinetics = ArrheniusEP(
         A = (1.15e+14, 'cm^3/(mol*s)'),
         n = -0.35,
@@ -2281,7 +2285,7 @@ entry(
 
 entry(
     index = 503,
-    label = "C_rad/H2/Cd;C_rad/Cs3",
+    label = "C_rad/H2_Cl2_HCl/Cd;C_rad/Cs3",
     kinetics = ArrheniusEP(
         A = (7.24e+14, 'cm^3/(mol*s)'),
         n = -0.75,
@@ -2296,7 +2300,7 @@ entry(
 
 entry(
     index = 504,
-    label = "C_rad/H2/Cd;C_rad/H/CdCd",
+    label = "C_rad/H2_Cl2_HCl/Cd;C_rad/H_Cl/CdCd",
     kinetics = ArrheniusEP(
         A = (1.02e+13, 'cm^3/(mol*s)'),
         n = 0,
@@ -2408,7 +2412,7 @@ entry(
 
 entry(
     index = 511,
-    label = "H_rad;C_rad/H/CdCd",
+    label = "H_rad;C_rad/H_Cl/CdCd",
     kinetics = ArrheniusEP(
         A = (2.00E+13, 'cm^3/(mol*s)'),
         n = 0,
