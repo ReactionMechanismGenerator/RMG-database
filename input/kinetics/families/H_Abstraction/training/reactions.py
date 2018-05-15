@@ -2172,7 +2172,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.48e+22, 'cm^3/(mol*s)'), n=-3.37, Ea=(5429, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
 u"""
 k8 in S. Xu, M.C. Lin, Proceedings of the Combustion Institute, 2009, 32, 99-106, doi: 10.1016/j.proci.2008.07.011
@@ -2187,7 +2187,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(1.61e+08, 'cm^3/(mol*s)'), n=1.25, Ea=(24443, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
 u"""
 k13 in S. Xu, M.C. Lin, Proceedings of the Combustion Institute, 2009, 32, 99-106, doi: 10.1016/j.proci.2008.07.011
@@ -2202,7 +2202,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(1.60e+14, 'cm^3/(mol*s)'), n=0, Ea=(25138, 'cal/mol'), T0=(1, 'K')),
     rank = 1,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
 u"""
 D.F. Davidson, R.K. Hanson, Int. J. Chem. Kin., 1990, 22(8), 843-861, doi: 10.1002/kin.550220805
@@ -2215,7 +2215,7 @@ entry(
     degeneracy = 4,
     kinetics = Arrhenius(A=(6.44e+01, 'cm^3/(mol*s)'), n=3.16, Ea=(30488, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (2000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
 u"""
 P. Raghunath, Y.H. Lin, M.C. Lin, Computational and Theoretical Chemistry, 2014, 1046, 73-80, doi: 10.1016/j.comptc.2014.07.011
@@ -2230,7 +2230,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.04e+05, 'cm^3/(mol*s)'), n=2.48, Ea=(-1886, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
 u"""
 k7 in: S. Xu, M.C. Lin, J. Phys. Chem. A, 2007, 111, 6730-6740, doi: 10.1021/jp069038+
@@ -2244,7 +2244,7 @@ entry(
     degeneracy = 3,
     kinetics = Arrhenius(A=(1.04e+07, 'cm^3/(mol*s)'), n=1.73, Ea=(56544, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (5000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
 u"""
 A.M. Mebel, E.W.G. Diau, M.C. Lin, K.Morokuma, J. Phys. Chem., 1996, 100, 7517-7525, doi: 10.1021/jp953644f
@@ -2259,7 +2259,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(3.23e+05, 'cm^3/(mol*s)'), n=2.23, Ea=(7168, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (5000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
 u"""
 A.M. Mebel, L.V. Moskaleva, M.C. Lin, J. Molec. Struc. (Theochem), 1999, 461-462, 223-238, doi: 10.1016/S0166-1280(98)00423-0
@@ -2274,7 +2274,7 @@ entry(
     degeneracy = 4,
     kinetics = Arrhenius(A=(1.36e+04, 'cm^3/(mol*s)'), n=2.87, Ea=(10691, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (5000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
 u"""
 A.M. Mebel, L.V. Moskaleva, M.C. Lin, J. Molec. Struc. (Theochem), 1999, 461-462, 223-238, doi: 10.1016/S0166-1280(98)00423-0
@@ -2289,7 +2289,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(2.62e+13, 'cm^3/(mol*s)'), n=0, Ea=(16846, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (5000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
 u"""
 A.M. Mebel, L.V. Moskaleva, M.C. Lin, J. Molec. Struc. (Theochem), 1999, 461-462, 223-238, doi: 10.1016/S0166-1280(98)00423-0
@@ -2306,7 +2306,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(3.5e+07, 'cm^3/(mol*s)'), n=1.94, Ea=(904, 'cal/mol'), T0=(1, 'K'), Tmin = (190, 'K'), Tmax = (2237, 'K')),
     rank = 1,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
     longDesc = 
 u"""
 J. Peng, X. Hu, P. Marshall, J. Phys. Chem. A, 1999, 103, 5307-5311, doi: 10.1021/jp984242l
@@ -2321,7 +2321,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(3.7e+06, 'cm^3/(mol*s)'), n=2.297, Ea=(9010, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
     longDesc = 
 u"""
 C.R. Zhou, K. Sendt, B.S. Haynes, J. Phys. Chem. A, 2008, 112, 3239-3247, doi: 10.1021/jp710488d
@@ -2335,7 +2335,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(1.58e+14, 'cm^3/(mol*s)'), n=0, Ea=(19700, 'cal/mol'), T0=(1, 'K'), Tmin = (2740, 'K'), Tmax = (3570, 'K')),
     rank = 1,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
     longDesc = 
 u"""
 Shock Tube
@@ -2349,7 +2349,7 @@ entry(
     degeneracy = 4,
     kinetics = Arrhenius(A=(2.04e+14, 'cm^3/(mol*s)'), n=0, Ea=(19910, 'cal/mol'), T0=(1, 'K'), Tmin = (830, 'K'), Tmax = (2500, 'K')),
     rank = 1,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
     longDesc = 
 u"""
 K. Tsuchiya, K. Yamashita, A. Miyoshi, H. Matsui, J. Phys. Chem., 1996, 100(43), 17202-17206, doi: 10.1021/jp961252i
@@ -2364,7 +2364,7 @@ entry(
     degeneracy = 6,
     kinetics = Arrhenius(A=(1.23e+14, 'cm^3/(mol*s)'), n=0, Ea=(14750, 'cal/mol'), T0=(1, 'K'), Tmin = (830, 'K'), Tmax = (2500, 'K')),
     rank = 1,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
     longDesc = 
 u"""
 K. Tsuchiya, K. Yamashita, A. Miyoshi, H. Matsui, J. Phys. Chem., 1996, 100(43), 17202-17206, doi: 10.1021/jp961252i
@@ -2374,26 +2374,12 @@ T > 830 K
 )
 
 entry(
-    index = 1041,
-    label = "H + HSS_r12 <=> H2_p + S2_p1",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.23e+08, 'cm^3/(mol*s)'), n=1.653, Ea=(-1105, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
-    longDesc = 
-u"""
-K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
-TST
-""",
-)
-
-entry(
     index = 1042,
     label = "S_rad + HSS_r12 <=> SH_p1 + S2_p1",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.17e+06, 'cm^3/(mol*s)'), n=2.200, Ea=(-600, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
     longDesc = 
 u"""
 K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
@@ -2407,7 +2393,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(9.56e+00, 'cm^3/(mol*s)'), n=3.370, Ea=(-1672, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
     longDesc = 
 u"""
 K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
@@ -2421,7 +2407,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(9.56e+00, 'cm^3/(mol*s)'), n=3.370, Ea=(-1672, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
     longDesc = 
 u"""
 K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
@@ -2435,7 +2421,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(6.40e+03, 'cm^3/(mol*s)'), n=2.980, Ea=(-1480, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
     longDesc = 
 u"""
 K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
@@ -2449,7 +2435,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(6.40e+03, 'cm^3/(mol*s)'), n=2.980, Ea=(-1480, 'cal/mol'), T0=(1, 'K'), Tmin = (873, 'K'), Tmax = (1423, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
     longDesc = 
 u"""
 K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
@@ -2463,7 +2449,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.01e+08, 'cm^3/(mol*s)'), n=1.55, Ea=(6614, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3500, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
 u"""
 C.C. Hsu, M.C. Lin, A.M. Mebel, C.F. Melius, J. Phys. Chem. A, 1997, 101(1), 60-66, doi: 10.1021/jp962286t
@@ -2477,7 +2463,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.46e+11, 'cm^3/(mol*s)'), n=0.720, Ea=(655, 'cal/mol'), T0=(1, 'K'), Tmin = (200, 'K'), Tmax = (3000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
 u"""
 M.R. Soto, M. Page, J. Chem. Phys., 1992, 97, 7287, doi: 10.1063/1.463501
@@ -2491,7 +2477,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.56e+08, 'cm^3/(mol*s)'), n=1.53, Ea=(16400, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
 u"""
 J.W. Boughton, S. Kristyan, M.C. Lin, Chemical Physics, 1997, 214(2-3), 219-227, doi: 10.1016/S0301-0104(96)00313-8
@@ -2505,7 +2491,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.83e-01, 'cm^3/(mol*s)'), n=3.84, Ea=(115, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (3000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
 u"""
 Z.F. Xu, M.C. Lin, Int. J. Chem. Kin., 2004, 36(4), 205-215, doi: 10.1002/kin.10178
@@ -2519,7 +2505,7 @@ entry(
     degeneracy = 4,
     kinetics = Arrhenius(A=(1.42e-7, 'cm^3/(mol*s)'), n=5.64, Ea=(9221, 'cal/mol'), T0=(1, 'K'), Tmin = (200, 'K'), Tmax = (3000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
 u"""
 Z.F. Xu, M.C. Lin, Int. J. Chem. Kin., 2003, 35(5), 184-190, doi: 10.1002/kin.10115
@@ -2534,7 +2520,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(8.73e+00, 'cm^3/(mol*s)'), n=3.50, Ea=(-1667, 'cal/mol'), T0=(1, 'K'), Tmin = (750, 'K'), Tmax = (1500, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
 u"""
 W.S. Xia, M.C. Lin, J. Chem. Phys., 2001, 114, 4522-4532, doi: 10.1063/1.1337061
@@ -2548,7 +2534,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.0e+08, 'cm^3/(mol*s)'), n=1.47, Ea=(7550, 'cal/mol'), T0=(1, 'K'), Tmin = (500, 'K'), Tmax = (2500, 'K')),
     rank = 1,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
 u"""
 W. Tsang, J.T. Herron, Journal of Physical and Chemical Reference Data, 1991, 20, 609, doi: 10.1063/1.555890
@@ -2562,7 +2548,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.8e+14, 'cm^3/(mol*s)'), n=0, Ea=(24600, 'cal/mol'), T0=(1, 'K'), Tmin = (500, 'K'), Tmax = (2500, 'K')),
     rank = 1,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
 u"""
 W. Tsang, J.T. Herron, Journal of Physical and Chemical Reference Data, 1991, 20, 609, doi: 10.1063/1.555890
@@ -2576,7 +2562,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.8e+14, 'cm^3/(mol*s)'), n=0, Ea=(24600, 'cal/mol'), T0=(1, 'K'), Tmin = (298, 'K'), Tmax = (2840, 'K')),
     rank = 1,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
 u"""
 W. Tsang, J.T. Herron, Journal of Physical and Chemical Reference Data, 1991, 20, 609, doi: 10.1063/1.555890
@@ -2590,7 +2576,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.39e+08, 'cm^3/(mol*s)'), n=1.729, Ea=(986, 'cal/mol'), T0=(1, 'K'), Tmin = (250, 'K'), Tmax = (3000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
     longDesc = 
 u"""
 WK.E. Kerr, I.M. Alecu, K.M. Thompson, Y. Gao, P. Marshall, J. Phys. CHem. A, 2015, 119, 7352-7360, doi: 10.1021/jp512966a
@@ -2605,7 +2591,7 @@ entry(
     degeneracy = 3,
     kinetics = Arrhenius(A=(4.16e+03, 'cm^3/(mol*s)'), n=2.925, Ea=(4747, 'cal/mol'), T0=(1, 'K'), Tmin = (250, 'K'), Tmax = (3000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: SOxNOx""",
+    shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
     longDesc = 
 u"""
 WK.E. Kerr, I.M. Alecu, K.M. Thompson, Y. Gao, P. Marshall, J. Phys. CHem. A, 2015, 119, 7352-7360, doi: 10.1021/jp512966a
@@ -2913,3 +2899,844 @@ K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Che
 doi: 10.1021/acs.jpca.6b12890
 """,
 )
+
+
+entry(
+    index = 1233,
+    label = "Cl + CH4b <=> HCl + CH3_p23",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (1.36534e-19, 'cm^3/(molecule*s)'),
+        n = 2.6,
+        Ea = (3201.07, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + CH4 <=> HCl + CH3""",
+    longDesc = 
+u"""
+Kinetics of Cl atom reactions with methane, ethane, and propane from 292 to 800 K
+J. S. Pilgrim, A. McIlroy, and C. A. Taatjes, J. Phys. Chem. A 101, 1873 (1997)
+PLP-LIF Measurement from 292-800 K
+""",
+)
+
+entry(
+    index = 1234,
+    label = "Cl + C2H6 <=> HCl + C2H5",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (7.23e-13, 'cm^3/(molecule*s)'),
+        n = 0.7,
+        Ea = (-972.793, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + C2H6 <=> HCl + C2H5""",
+    longDesc = 
+u"""
+Kinetics of Reactions of Cl Atoms with Ethane, Chloroethane, and 1,1-Dichloroethane
+Bryukov, M. G., Slagle, I. R., and Knyazev, V. D.: J. Phys. Chem. A., 107, 6565, 2003.
+Fit to multiple experimental measurements from 200-1000 K, including PLP experiments of 1997 Pilgrim
+""",
+)
+
+entry(
+    index = 1235,
+    label = "Cl + C3H8b <=> HCl + C3H7-2",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (8.26e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (748.302, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + C3H8 <=> HCl + nC3H7""",
+    longDesc = 
+u"""
+IUPAC recommendation: http://iupac.pole-ether.fr
+from 200-700 K
+""",
+)
+
+entry(
+    index = 1236,
+    label = "Cl + C3H8 <=> HCl + C3H7",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (6.02e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (-623.585, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + C3H8 <=> HCl + iC3H7""",
+    longDesc = 
+u"""
+IUPAC recommendation: http://iupac.pole-ether.fr
+from 200-700 K
+""",
+)
+
+entry(
+    index = 1237,
+    label = "Cl + C4H10 <=> HCl + C4H9",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (9.02e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (997.737, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + nC4H10 <=> HCl + C4H9-1""",
+    longDesc = 
+u"""
+IUPAC recommendation: http://iupac.pole-ether.fr
+from 290-600 K
+""",
+)
+
+entry(
+    index = 1238,
+    label = "Cl + C4H10b <=> HCl + C4H9-2",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (1.21e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (-457.296, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + nC4H10 <=> HCl + C4H9-2""",
+    longDesc = 
+u"""
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 290-600 K
+""",
+)
+
+entry(
+    index = 1239,
+    label = "Cl + CH2O <=> HCl + HCO_r3",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (8.1e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (282.692, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + HCHO <=> HCl + HCO""",
+    longDesc = 
+u"""
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 200-500 K
+""",
+)
+
+entry(
+    index = 1240,
+    label = "Cl + C2H4O <=> HCl + C2H3O",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(8e-11, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
+    rank = 1,
+    shortDesc = u"""Cl + CH3CHO <=> HCl + CH3CO""",
+    longDesc = 
+u"""
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 210-340 K
+""",
+)
+
+entry(
+    index = 1241,
+    label = "Cl + C3H6O-3 <=> HCl + C3H5O-3",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (1.5e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (4905.54, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + CH3COCH3 <=> HCl + CH3COCH2""",
+    longDesc = 
+u"""
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 215-440 K
+""",
+)
+
+entry(
+    index = 1242,
+    label = "Cl + CH4O <=> HCl + CH3O",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (7.1e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (623.585, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + CH3OH <=> HCl + CH2OH""",
+    longDesc = 
+u"""
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 200-500 K
+""",
+)
+
+entry(
+    index = 1243,
+    label = "Cl + CH4O-2 <=> HCl + CH3O-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (9.65431e-19, 'cm^3/(molecule*s)'),
+        n = 2.5,
+        Ea = (30470, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + CH3OH <=> HCl + CH3O""",
+    longDesc = 
+u"""
+Theoretical study of the kinetics of the hydrogen abstraction from methanol. 2. Reaction of methanol with chlorine and bromine atoms
+Jodkowski, J.T.; Rayez, M-T.; Rayez, J-C.; Berces, T.; Dobe, S., JPCA, 102, 9230-9243, 1998
+300-1000 K, Theoretical Predictions
+""",
+)
+
+entry(
+    index = 1244,
+    label = "Cl + C2H6O <=> HCl + C2H5O",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.44e-10, 'cm^3/(molecule*s)'),
+        n = -0.089,
+        Ea = (-374.151, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + C2H5OH <=> HCl + CH3CHOH""",
+    longDesc = 
+u"""
+Absolute and Site-Specific Abstraction Rate Coefficients for Reactions of Cl with CH3CH2 OH, CH3CD2OH, and CD3CH2OH Between 295 and 600 K
+Taatjes, C. A., Christensen, L. K., Hurley M. D. and Wallington, T. J.: J. Phys. Chem. A, 103, 9805, 1999.
+LP-IR experiments from 295-600 K
+""",
+)
+
+entry(
+    index = 1245,
+    label = "Cl + C2H6O-2 <=> HCl + C2H5O-2",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (1.13e-13, 'cm^3/(molecule*s)'),
+        n = 0.7494,
+        Ea = (-374.151, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + C2H5OH <=> HCl + CH2CH2OH""",
+    longDesc = 
+u"""
+Absolute and Site-Specific Abstraction Rate Coefficients for Reactions of Cl with CH3CH2 OH, CH3CD2OH, and CD3CH2OH Between 295 and 600 K
+Taatjes, C. A., Christensen, L. K., Hurley M. D. and Wallington, T. J.: J. Phys. Chem. A, 103, 9805, 1999.
+LP-IR experiments from 295-600 K
+""",
+)
+
+entry(
+    index = 1246,
+    label = "Cl + H2O <=> HCl + OH",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.79e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (72086.5, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + H2O <=> HCl + OH""",
+    longDesc = 
+u"""
+Evaluated kinetic data for high temperature reactions. Volume 4 Homogeneous gas phase reactions of halogen- and cyanide- containing species
+Baulch, D.L.; Duxbury, J.; Grant, S.J.; Montague, D.C., J. Phys. Chem. Ref. Data, 10, 1981.
+210-500 K
+""",
+)
+
+entry(
+    index = 1247,
+    label = "Cl + H2O2 <=> HCl + HO2_r3",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.1e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (8148.18, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + H2O2 <=> HCl + HO2""",
+    longDesc = 
+u"""
+Evaluated kinetic and photochemical data for atmospheric chemistry: Volume III - gas phase reactions of inorganic halogens
+Atkinson, R.;Baulch, D.L.;Cox, R.A.;Crowley, J.N.;Hampson, R.F.;Hynes, R.G.;Jenkin, M.E.;Rossi, M.J.;Troe, J., Atmos. Chem. Phys., 7, 981-1191, 2007
+260-430 K
+""",
+)
+
+entry(
+    index = 1248,
+    label = "Cl + H2 <=> HCl + H",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (4.59e-16, 'cm^3/(molecule*s)'),
+        n = 1.588,
+        Ea = (13984.9, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + H2 <=> HCl + H""",
+    longDesc = 
+u"""
+Thermal rate constants for the Cl+H2 and Cl+D2 reactions between 296 and 3000 K
+Kumaran, S.S.; Lim, K.P.; Michael, J.V., J. Chem. Phys., 101, 9487 - 9498, 1994
+200-2950 K, from fit to experimental data
+""",
+)
+
+entry(
+    index = 1249,
+    label = "Cl + C5H10O2 <=> HCl + C5H9O2",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (1.24e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (2500.16, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + C4H9OCHO <=> HCl + C4H8OCHO-1""",
+    longDesc = 
+u"""
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
+212-423 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1250,
+    label = "Cl + C5H10O2-2 <=> HCl + C5H9O2-2",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.32e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (1249.67, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + C4H9OCHO <=> HCl + C4H8OCHO-2""",
+    longDesc = 
+u"""
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
+212-423 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1251,
+    label = "Cl + C5H10O2-3 <=> HCl + C5H9O2-3",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.05e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (1249.67, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C4H9OCHO <=> HCl + C4H8OCHO-3""",
+    longDesc = 
+u"""
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
+212-423 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1252,
+    label = "Cl + C5H12-2 <=> HCl + C5H11",
+    degeneracy = 12,
+    kinetics = Arrhenius(
+        A = (2.79e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (3849.6, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + neoC5H12 <=> HCl + neoC5H11""",
+    longDesc = 
+u"""
+Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons
+Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959
+193-593 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1253,
+    label = "Cl + C3H4-1 <=> HCl + C3H3",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (1.40759e-16, 'cm^3/(molecule*s)'),
+        n = 2,
+        Ea = (4400.02, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + aC3H4 <=> HCl + C3H3""",
+    longDesc = 
+u"""
+Infrared frequency-modulation probing of Cl + C3H4 (allene, propyne) reactions: kinetics of HCl production from 292 to 850 K
+Farrell, J.T.; Taatjes, C.A., J. Phys. Chem. A, 102, 1998, 4846-4856
+292-850 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1254,
+    label = "Cl + C5H10 <=> HCl + C5H9",
+    degeneracy = 10,
+    kinetics = Arrhenius(
+        A = (4.87e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (2419.51, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + cC5H10 <=> HCl + cC5H9""",
+    longDesc = 
+u"""
+The study of chlorine atom reactions in the gas phase
+Pritchard, H.O.; Pyke, J.B.; Trotman-Dickenson, A.F., JACS, 77, 1955
+298-484 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1255,
+    label = "Cl + C4H8-8 <=> HCl + C4H7-6",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (4.25e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (3449.67, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + cC4H8 <=> HCl + cC4H7""",
+    longDesc = 
+u"""
+Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons
+Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959
+193-593 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1256,
+    label = "Cl + C4H8O2 <=> HCl + C4H7O2",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (2.27e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (300.152, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + Dioxane14 <=> HCl + Dioxanyl14""",
+    longDesc = 
+u"""
+Experimental and Theoretical Investigation of the Kinetics of the Reaction of Atomic Chlorine with 1,4-Dioxane
+Giri, B.R.; Roscoe, J.M.; Gonzalez-Garcia, N.; Olzmann, M.; Lo, J.MH.; Marriott, R.A., JPCA, 115, 2011, 5105-5111
+292-360 K, theoretical prediction matched to experiment
+""",
+)
+
+entry(
+    index = 1257,
+    label = "Cl + C6H12O2 <=> HCl + C6H11O2",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (1.32e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (2930.02, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-1""",
+    longDesc = 
+u"""
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+313-433 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1258,
+    label = "Cl + C6H12O2-2 <=> HCl + C6H11O2-2",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.32e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (1249.67, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-2""",
+    longDesc = 
+u"""
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+313-433 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1259,
+    label = "Cl + C6H12O2-3 <=> HCl + C6H11O2-3",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.62e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (2089.43, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-3""",
+    longDesc = 
+u"""
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+313-433 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1260,
+    label = "Cl + C6H12O2-4 <=> HCl + C6H11O2-4",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.66e-12, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (3759.8, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-4""",
+    longDesc = 
+u"""
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+313-433 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1261,
+    label = "Cl + C2H6O-3 <=> HCl + C2H5O-3",
+    degeneracy = 6,
+    kinetics = Arrhenius(A=(1.76e-10, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
+    rank = 1,
+    shortDesc = u"""Cl + CH3OCH3 <=> HCl + CH3OCH2""",
+    longDesc = 
+u"""
+Rate constants for the reaction of atomic chlorine with methanol and dimethyl ether from 200 to 500 K
+Michael, J.V.; Nava, D.F.; Payne, W.A.; Stief, L.J., J. Chem. Phys., 70, 1979
+200-500 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1262,
+    label = "Cl + C3H6 <=> HCl + C3H5",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (4.9e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (748.302, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + C3H6 <=> HCl + aC3H5""",
+    longDesc = 
+u"""
+Infrared absorption probing of the Cl + C3H6 reaction: rate coefficients for HCl production between 290 and 800 K
+Pilgrim, J.S.; Taatjes, C.A., JPCA, 101, 5776-5782, 1997
+293-800 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1263,
+    label = "Cl + C6H12 <=> HCl + C6H11",
+    degeneracy = 12,
+    kinetics = Arrhenius(A=(2.41e-10, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
+    rank = 1,
+    shortDesc = u"""Cl + cC6H12 <=> HCl + cC6H11""",
+    longDesc = 
+u"""
+Kinetic and mechanistic studies of the reactions of cyclopentylperoxy and cyclohexylperoxy radicals with HO2
+Rowley, D.M.; Lesclaux, R.; Lightfoot, P.D.; Noziere, B.; Wallingotn, T.J.; Hurley, M.D., JPC, 96, 1992, 4889-4894
+248-364 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1264,
+    label = "Cl + C7H8 <=> HCl + C7H7",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (1.59e-12, 'cm^3/(molecule*s)'),
+        n = 1.073,
+        Ea = (6406.3, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C6H5CH3 <=> HCl + C6H5CH2""",
+    longDesc = 
+u"""
+DFT study on the abstraction and addition of Cl atom with toluene
+Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012
+Theoretical predictions from 298-1000 K, agrees well with 298 K experiments
+""",
+)
+
+entry(
+    index = 1265,
+    label = "Cl + C7H8-2 <=> HCl + C7H7-2",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (6.88e-45, 'cm^3/(molecule*s)'),
+        n = 10.876,
+        Ea = (-22746.7, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C6H5CH3 <=> HCl + o-C6H4CH3""",
+    longDesc = 
+u"""
+DFT study on the abstraction and addition of Cl atom with toluene
+Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012
+Theoretical predictions from 298-1000 K
+""",
+)
+
+entry(
+    index = 1266,
+    label = "Cl + C7H8-3 <=> HCl + C7H7-3",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (4.98e-43, 'cm^3/(molecule*s)'),
+        n = 10.407,
+        Ea = (-20733.8, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C6H5CH3 <=> HCl + m-C6H4CH3""",
+    longDesc = 
+u"""
+DFT study on the abstraction and addition of Cl atom with toluene
+Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012
+Theoretical predictions from 298-1000 K
+""",
+)
+
+entry(
+    index = 1267,
+    label = "Cl + C7H8-4 <=> HCl + C7H7-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.75e-27, 'cm^3/(molecule*s)'),
+        n = 5.626,
+        Ea = (-1163.19, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C6H5CH3 <=> HCl + p-C6H4CH3""",
+    longDesc = 
+u"""
+DFT study on the abstraction and addition of Cl atom with toluene 
+Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012 
+Theoretical predictions from 298-1000 K
+""",
+)
+
+entry(
+    index = 1268,
+    label = "Cl + iC4H10 <=> HCl + C4H9-3",
+    degeneracy = 9,
+    kinetics = Arrhenius(
+        A = (1.94e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (3429.72, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + iC4H10 <=> HCl + iC4H9""",
+    longDesc = 
+u"""
+Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons
+Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959
+193-593 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1269,
+    label = "Cl + iC4H10b <=> HCl + C4H9-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.82e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (79.8189, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + iC4H10 <=> HCl + tC4H9""",
+    longDesc = 
+u"""
+Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons 
+Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959 
+193-593 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1270,
+    label = "Cl + C3H6-4 <=> HCl + C3H5-3",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (8.97e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (17289.9, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + cC3H6 <=> HCl + cC3H5""",
+    longDesc = 
+u"""
+Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons 
+Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959 
+193-593 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1271,
+    label = "Cl + C3H4 <=> HCl + C3H3-2",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (1.41e-17, 'cm^3/(molecule*s)'),
+        n = 2,
+        Ea = (4159.73, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + pC3H4 <=> HCl + C3H3""",
+    longDesc = 
+u"""
+Infrared frequency-modulation probing of Cl + C3H4 (allene, propyne) reactions: kinetics of HCl production from 292 to 850 K
+Farrell, J.T.; Taatjes, C.A., J. Phys. Chem. A, 102, 1998, 4846-4856
+292-850 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1272,
+    label = "Cl + C2H4 <=> HCl + C2H3",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (6.19e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (28269.2, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + Ethene <=> HCl + C2H3""",
+    longDesc = 
+u"""
+Infrared absorption probing of the Cl + Ethene reaction: direct measurement of Arrhenius parameters for hydrogen abstraction
+Pilgrim, J.S.; Taatjes, C.A., J. Phys. Chem. A, 101, 1997, 4172-4177
+500-800 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1273,
+    label = "Cl + C6H6 <=> HCl + C6H5",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (6.1e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (31600, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Cl + C6H6 <=> HCl + C6H5""",
+    longDesc = 
+u"""
+Studies of the kinetics and thermochemistry of the forward and reverse reaction Cl+C6H6=HCl+C6H5
+Alecu, I.M.; Gao, Y.D.; Hsieh, P.C.; Sand, J.P.; Ors, A.; McLeod, A.; Marshall, P., JPCA, 111, 3970-3976, 2007
+296-922 K, experimental measurement
+""",
+)
+
+entry(
+    index = 1274,
+    label = "Cl + C8H10 <=> HCl + C8H9",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.06e-12, 'cm^3/(molecule*s)'),
+        n = 1.073,
+        Ea = (6406.3, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C6H5CH2CH3 <=> HCl + C6H5CHCH3""",
+    longDesc = 
+u"""
+DFT study on the abstraction and addition of Cl atom with toluene 
+Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012 
+Theoretical predictions from 298-1000 K, agrees well with 298 K experiments
+A-factor multiplied by 2/3 to account for different degeneracy of ethylbenzene vs. toluene
+""",
+)
+
+entry(
+    index = 1275,
+    label = "Cl + C9H12 <=> HCl + C9H11",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5.3e-13, 'cm^3/(molecule*s)'),
+        n = 1.073,
+        Ea = (6406.3, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Cl + C6H5CH(CH3)CH3 <=> HCl + C6H5C(CH3)CH3""",
+    longDesc = 
+u"""
+DFT study on the abstraction and addition of Cl atom with toluene 
+Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012 
+Theoretical predictions from 298-1000 K, agrees well with 298 K experiments
+A-factor multiplied by 1/3 to account for different degeneracy of isopropylbenzene vs. toluene
+""",
+)
+

@@ -782,7 +782,6 @@ entry(
     index = 48,
     label = "SH + SO2 <=> HSSO2",
     degeneracy = 1,
-    duplicate = True,
     kinetics = Arrhenius(
         A = (1e+13, 'cm^3/(mol*s)'),
         n = 0,
@@ -794,6 +793,27 @@ u"""
 Zhou est (2009)
 """,
 )
+
+# entry(
+#     index = 259,
+#     label = "HSSO2 <=> SH + SO2",
+#     degeneracy = 1,
+#     duplicate = True,
+#     kinetics = ThirdBody(
+#         arrheniusLow = Arrhenius(A=(1e+17, 'cm^3/(mol*s)'), n=0, Ea=(3000, 'cal/mol'), T0=(1, 'K')),
+#         efficiencies = {},
+#     ),
+#     longDesc =
+# u"""
+# Zhou est (2009)
+#
+# alongd comment:
+# The reactions "SH + SO2 <=> HSSO2", "HSSO2 <=> SH + SO2" in this library are taken from
+# Zhou, C. Ph.D. thesis, The University of Sydney, 2009
+# I couldn't locate this thesis, and I ASSUME that these two represent the same pathway, each from a different direction.
+# I'm leaving only the high-P limit reaction in this library, and commenting out the ThirdBody one.
+# """,
+# )
 
 entry(
     index = 49,
@@ -2259,7 +2279,7 @@ X Hu P MArshall, poster presented at the 18th International Symposium on Gas Kin
 
 entry(
     index = 136,
-    label = "HOSO + H <=> SO + H2O",
+    label = "HOSO + H <=> SO(S) + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.4e+14, 'cm^3/(mol*s)'),
@@ -2270,7 +2290,6 @@ entry(
     longDesc = 
 u"""
 X Hu P MArshall, poster presented at the 18th International Symposium on Gas Kinetics, Bristol, UK, August, 7-12, 2004
-Original reaction was HOSO + H <=> SO(S) + H2O
 """,
 )
 
@@ -3528,6 +3547,7 @@ entry(
     longDesc = 
 u"""
 Du, S.Y.; Francisco, J.S.; Shepler, B.C.; Peterson, K.A. J. Chem. Phys. 128 204306 2008
+alongd comment: the above reference is only valid between 100-500 K
 """,
 )
 
@@ -4300,21 +4320,6 @@ entry(
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
-    index = 259,
-    label = "HSSO2 <=> SH + SO2",
-    degeneracy = 1,
-    duplicate = True,
-    kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(A=(1e+17, 'cm^3/(mol*s)'), n=0, Ea=(3000, 'cal/mol'), T0=(1, 'K')),
-        efficiencies = {},
     ),
     longDesc = 
 u"""

@@ -184,6 +184,10 @@ entry(
     longDesc = 
 u"""
 See text
+
+alongd comment: 3.0e13 cm^3/(mol*s) was reported [10.1524/zpch.2010.6138] to be the overall rate between SO + NH
+regardless of the products. Since the SO + NH <=> NO + SH is also an important reaction [10.1039/b102061g],
+the above rate should be slower.
 """,
 )
 

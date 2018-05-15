@@ -2956,7 +2956,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(2.37e+08, 'cm^3/(mol*s)'), n=1.63, Ea=(7339, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (1700, 'K')),
     rank = 1,
-    shortDesc = u"""Training reaction from kinetics library: SOx""",
+    shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
     longDesc = 
 u"""
 M.A. Blitz, K.J. Hughes, M.J. Pilling, S.H. Robertson, J. Phys. Chem. A, 2006, 110(9), 2996–3009, doi: 10.1021/jp054722u
@@ -2976,7 +2976,7 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(A=(7.6e+15, 'cm^3/(mol*s)'), n=-0.64, Ea=(15333, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (25000, 'K')),
     rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: NOx""",
+    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc =
 u"""
 P.J.S.B. Caridade, S.P.J. Rodrigues, F. Sousa, A.J.C. Varandas, J. Phys. Chem. A ,2005, 109, 2356-2363, doi: 10.1021/jp045102g
