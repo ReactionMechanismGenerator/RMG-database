@@ -4728,6 +4728,7 @@ u"""
 """,
 )
 
+entry(
     index = 7012,
     label = "Cds-CdsCF",
     group =
@@ -4744,7 +4745,6 @@ u"""
 
 """,
 )
-
 
 entry(
     index = 7013,
