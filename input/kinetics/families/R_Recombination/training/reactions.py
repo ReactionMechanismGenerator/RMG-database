@@ -764,3 +764,57 @@ u"""
 Taken from entry: C9H7_19 + H_15 <=> indene_25
 """,
 )
+entry(
+    index = 52,
+    label = "C3H3 + O2 <=> C3H3O2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (47800, 'cm^3/(mol*s)'),
+        n = 2.243,
+        Ea = (-1.064, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Hahn, D. K.', 'Klippenstein, S. J.', 'Miller, J. A.'],
+        title = u'A theoretical analysis of the reaction between propargyl and molecular oxygen',
+        journal = 'Faraday Discussions',
+        volume = '119 (0)',
+        pages = '79-100',
+        year = '2002',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+approximate QCISD(T,Full)/6-311&&G(3df,2pd)//B3LYP
+""",
+)
+
+entry(
+    index = 53,
+    label = "C3H3-2 + O2 <=> C3H3O2-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (8270, 'cm^3/(mol*s)'),
+        n = 2.525,
+        Ea = (1.989, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Hahn, D. K.', 'Klippenstein, S. J.', 'Miller, J. A.'],
+        title = u'A theoretical analysis of the reaction between propargyl and molecular oxygen',
+        journal = 'Faraday Discussions',
+        volume = '119 (0)',
+        pages = '79-100',
+        year = '2002',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+approximate QCISD(T,Full)/6-311&&G(3df,2pd)//B3LYP
+""",
+)
+

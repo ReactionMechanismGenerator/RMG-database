@@ -987,3 +987,26 @@ C9H8-3
 15    H u0 p0 c0 {9,S}
 16    H u0 p0 c0 {7,S}
 17    H u0 p0 c0 {6,S}
+
+C3H3O2
+multiplicity 2
+1    O u1 p2 c0 {2,S}
+2 *2 O u0 p2 c0 {1,S} {5,S}
+3    C u0 p0 c0 {4,T} {6,S}
+4    C u0 p0 c0 {3,T} {5,S}
+5 *1 C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+6    H u0 p0 c0 {3,S}
+7    H u0 p0 c0 {5,S}
+8    H u0 p0 c0 {5,S}
+
+C3H3O2-2
+multiplicity 2
+1    O u1 p2 c0 {2,S}
+2 *2 O u0 p2 c0 {1,S} {5,S}
+3    C u0 p0 c0 {4,D} {5,D}
+4    C u0 p0 c0 {3,D} {6,S} {7,S}
+5 *1 C u0 p0 c0 {2,S} {3,D} {8,S}
+6    H u0 p0 c0 {4,S}
+7    H u0 p0 c0 {4,S}
+8    H u0 p0 c0 {5,S}
+

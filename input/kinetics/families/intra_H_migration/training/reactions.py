@@ -2171,3 +2171,18 @@ using Gaussian 03 and Gaussian 09.
 Reported A factor from article is multiplied by degeneracy because article A-factors are normalized
 """,
 )
+
+entry(
+    index = 118,
+    label = "C3H3O2 <=> C3H3O2-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(3.427, 's^-1'), n=3.311, Ea=(30.765, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Quantum chemistry calculations at the CBS-QB3 level with 1D rotor consideration
+Jim Chu's calculation
+""",
+)
+
