@@ -818,3 +818,139 @@ approximate QCISD(T,Full)/6-311&&G(3df,2pd)//B3LYP
 """,
 )
 
+entry(
+    index = 54,
+    label = "C3H3 + H <=> C3H4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.398e+13, 'cm^3/(mol*s)'),
+        n = 0.102,
+        Ea = (-130.54, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 4,
+    reference = Article(
+        authors = ['Harding, L. B.', 'Klippenstein, S. J.', 'Georgievskii, Y.'],
+        title = u'On the Combination Reactions of Hydrogen Atoms with Resonance-Stabilized Hydrocarbon Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '111 (19)',
+        pages = '3789-3801',
+        year = '2007',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CASPT2/cc-pvdz (VRC-TST)
+""",
+)
+
+entry(
+    index = 55,
+    label = "C3H3-2 + H <=> C3H4-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.048e+13, 'cm^3/(mol*s)'),
+        n = 0.206,
+        Ea = (-724.19, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 4,
+    reference = Article(
+        authors = ['Harding, L. B.', 'Klippenstein, S. J.', 'Georgievskii, Y.'],
+        title = u'On the Combination Reactions of Hydrogen Atoms with Resonance-Stabilized Hydrocarbon Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '111 (19)',
+        pages = '3789-3801',
+        year = '2007',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CASPT2/cc-pvdz (VRC-TST)
+""",
+)
+
+entry(
+    index = 56,
+    label = "C3H3-2 + C3H3-2 <=> C6H6",
+    degeneracy = 0.5,
+    kinetics = Arrhenius(
+        A = (4.288e+09, 'cm^3/(mol*s)'),
+        n = 0.795,
+        Ea = (-4303.6, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 4,
+    reference = Article(
+        authors = ['Georgievskii, Y.', 'Miller, J. A.', 'Klippenstein, S. J.'],
+        title = u'Association rate constants for reactions between resonance-stabilized radicals: C3H3 + C3H3, C3H3 + C3H5, and C3H5 + C3H5',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '9 (31)',
+        pages = '4259-4268',
+        year = '2007',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CASPT2/cc-pvdz (VRC-TST)
+""",
+)
+
+entry(
+    index = 57,
+    label = "C3H3 + C3H3-2 <=> C6H6-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.307e+12, 'cm^3/(mol*s)'),
+        n = 0.192,
+        Ea = (-2807, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 4,
+    reference = Article(
+        authors = ['Georgievskii, Y.', 'Miller, J. A.', 'Klippenstein, S. J.'],
+        title = u'Association rate constants for reactions between resonance-stabilized radicals: C3H3 + C3H3, C3H3 + C3H5, and C3H5 + C3H5',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '9 (31)',
+        pages = '4259-4268',
+        year = '2007',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CASPT2/cc-pvdz (VRC-TST)
+""",
+)
+
+entry(
+    index = 58,
+    label = "C3H3 + C3H3 <=> C6H6-3",
+    degeneracy = 0.5,
+    kinetics = Arrhenius(
+        A = (2.945e+13, 'cm^3/(mol*s)'),
+        n = -0.278,
+        Ea = (-1268.8, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 4,
+    reference = Article(
+        authors = ['Georgievskii, Y.', 'Miller, J. A.', 'Klippenstein, S. J.'],
+        title = u'Association rate constants for reactions between resonance-stabilized radicals: C3H3 + C3H3, C3H3 + C3H5, and C3H5 + C3H5',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '9 (31)',
+        pages = '4259-4268',
+        year = '2007',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CASPT2/cc-pvdz (VRC-TST)
+""",
+)
+
+
