@@ -1747,7 +1747,7 @@ u"""
 
 entry(
     index = 482,
-    label = "CsJ-Ss_HH_HCl_ClCl;H_rad",
+    label = "C_rad/H2_Cl2_HCl/S;H_rad",
     kinetics = ArrheniusEP(
         A = (5e+11, 'cm^3/(mol*s)'),
         n = 0.65,
@@ -1757,9 +1757,12 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 1,
-    shortDesc = u"""A.G. Vandeputte""",
+    shortDesc = u"""A.G. Vandeputte??""",
     longDesc =
 u"""
+Not sure that this has been assigned to the correct node,
+as we had to make an educated guess while resolving a merge
+conflit in the database. -- richard west and david farina
 """,
 )
 
