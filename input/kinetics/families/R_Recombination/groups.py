@@ -657,19 +657,6 @@ entry(
 )
 
 entry(
-    index = 530,
-    label = "CsJ-Ss_HH_HCl_ClCl",
-    group =
-"""
-1 * C  u1 {2,S} {3,S} {4,S}
-2   Ss u0 {1,S}
-3   [H,Cl]  u0 {1,S}
-4   [H,Cl]  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 54,
     label = "C_sec_rad",
     group =
@@ -1781,8 +1768,6 @@ L1: Y_rad
             L4: C_rad/H2_Cl2_HCl/CS
             L4: C_rad/H2_Cl2_HCl/N
             L4: C_rad/H2_Cl2_HCl/S
-            L4: CsJ-Ss_HH_HCl_ClCl
-
         L3: C_sec_rad
             L4: C_rad/H_Cl/NonDe
                 L5: C_rad/H_Cl/NonDeN
