@@ -4051,15 +4051,6 @@ entry(
     kinetics = None,
 )
 
-entry(
-    index = 19200,
-    label = "Cl_rad",
-    group =
-"""
-1 *3 Cl u1
-""",
-    kinetics = None,
-)
 
 entry(
     index = 193,
@@ -7870,7 +7861,6 @@ L1: Y_rad_birad_trirad_quadrad
                         L7: N3d_rad/OneDeCdd_O
         L3: N5_rad
             L4: N5dc_rad
-        L3: Cl_rad
 """
 )
 
