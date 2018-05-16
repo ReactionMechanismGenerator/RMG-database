@@ -4543,3 +4543,113 @@ entry(
     rank=1,
     shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1063/1.1748524""",
 )
+
+entry(
+    index = 1559,
+    label = "C3H3-2 + H2 <=> C3H4 + H",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (3.056, 'cm^3/(mol*s)'),
+        n = 3.503,
+        Ea = (15.039, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Narendrapurapu, B. S.', 'Simmonett, A. C.', 'Schaefer, H. F.', 'Miller, J. A.', 'Klippenstein, S. J.'],
+        title = u'Combustion Chemistry: Important Features of the C3H5 Potential Energy Surface, Including Allyl Radical, Propargyl + H2, Allene + H, and Eight Transition States',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '115 (49)',
+        pages = '14209-14214',
+        year = '2011',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Accurate geometries are obtained using coupled cluster theory with single, double, and perturbative triple excitations [CCSD(T)] combined with Dunning’s correlation consistent quadruple-ζ basis set cc pVQZ. The energies for these stationary points are then refined by a systematic series of computations, within the focal point scheme, using the cc-pVXZ (X = D, T, Q, 5, 6) basis sets and correlation treatments as extensive as coupled cluster with full single, double, and triple excitation and perturbative quadruple excitations [CCSDT(Q)]. TST rates calculated in CanTherm
+""",
+)
+
+
+entry(
+    index = 1560,
+    label = "C3H3 + H2 <=> C3H4-1 + H",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (0.07496, 'cm^3/(mol*s)'),
+        n = 3.944,
+        Ea = (16.255, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Narendrapurapu, B. S.', 'Simmonett, A. C.', 'Schaefer, H. F.', 'Miller, J. A.', 'Klippenstein, S. J.'],
+        title = u'Combustion Chemistry: Important Features of the C3H5 Potential Energy Surface, Including Allyl Radical, Propargyl + H2, Allene + H, and Eight Transition States',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '115 (49)',
+        pages = '14209-14214',
+        year = '2011',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Accurate geometries are obtained using coupled cluster theory with single, double, and perturbative triple excitations [CCSD(T)] combined with Dunning’s correlation consistent quadruple-ζ basis set cc pVQZ. The energies for these stationary points are then refined by a systematic series of computations, within the focal point scheme, using the cc-pVXZ (X = D, T, Q, 5, 6) basis sets and correlation treatments as extensive as coupled cluster with full single, double, and triple excitation and perturbative quadruple excitations [CCSDT(Q)]. TST rates calculated in CanTherm
+""",
+)
+
+entry(
+    index = 1561,
+    label = "C3H4 + H <=> H2 + C3H3-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (196.3, 'cm^3/(mol*s)'),
+        n = 3.47,
+        Ea = (3.214, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Narendrapurapu, B. S.', 'Simmonett, A. C.', 'Schaefer, H. F.', 'Miller, J. A.', 'Klippenstein, S. J.'],
+        title = u'Combustion Chemistry: Important Features of the C3H5 Potential Energy Surface, Including Allyl Radical, Propargyl + H2, Allene + H, and Eight Transition States',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '115 (49)',
+        pages = '14209-14214',
+        year = '2011',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Accurate geometries are obtained using coupled cluster theory with single, double, and perturbative triple excitations [CCSD(T)] combined with Dunning’s correlation consistent quadruple-ζ basis set cc pVQZ. The energies for these stationary points are then refined by a systematic series of computations, within the focal point scheme, using the cc-pVXZ (X = D, T, Q, 5, 6) basis sets and correlation treatments as extensive as coupled cluster with full single, double, and triple excitation and perturbative quadruple excitations [CCSDT(Q)]. TST rates calculated in CanTherm
+""",
+)
+
+entry(
+    index = 1562,
+    label = "C3H4-1 + H <=> H2 + C3H3",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(
+        A = (14.13, 'cm^3/(mol*s)'),
+        n = 3.852,
+        Ea = (3.502, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Narendrapurapu, B. S.', 'Simmonett, A. C.', 'Schaefer, H. F.', 'Miller, J. A.', 'Klippenstein, S. J.'],
+        title = u'Combustion Chemistry: Important Features of the C3H5 Potential Energy Surface, Including Allyl Radical, Propargyl + H2, Allene + H, and Eight Transition States',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '115 (49)',
+        pages = '14209-14214',
+        year = '2011',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Accurate geometries are obtained using coupled cluster theory with single, double, and perturbative triple excitations [CCSD(T)] combined with Dunning’s correlation consistent quadruple-ζ basis set cc pVQZ. The energies for these stationary points are then refined by a systematic series of computations, within the focal point scheme, using the cc-pVXZ (X = D, T, Q, 5, 6) basis sets and correlation treatments as extensive as coupled cluster with full single, double, and triple excitation and perturbative quadruple excitations [CCSDT(Q)]. TST rates calculated in CanTherm
+""",
+)
+
