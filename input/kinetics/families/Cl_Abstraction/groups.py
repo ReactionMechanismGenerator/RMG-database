@@ -10,8 +10,8 @@ The reaction site *3 needs a lone pair in order to react. It cannot be 2S or 4S.
 template(reactants=["X_Cl_or_Xrad_Cl_Xbirad_Cl_Xtrirad_Cl", "Y_rad_birad_trirad_quadrad"], products=["X_Cl_or_Xrad_Cl_Xbirad_Cl_Xtrirad_Cl", "Y_rad_birad_trirad_quadrad"], ownReverse=True)
 
 recipe(actions=[
-    ['BREAK_BOND', '*1', 'S', '*2'],
-    ['FORM_BOND', '*2', 'S', '*3'],
+    ['BREAK_BOND', '*1', 1, '*2'],
+    ['FORM_BOND', '*2', 1, '*3'],
     ['GAIN_RADICAL', '*1', '1'],
     ['LOSE_RADICAL', '*3', '1'],
 ])
@@ -33,7 +33,7 @@ entry(
 entry(
     index = 3,
     label = "X_Cl",
-    group = 
+    group =
 """
 1 *1 R u0 {2,S}
 2 *2 Cl u0 {1,S}
@@ -44,7 +44,7 @@ entry(
 entry(
     index = 4,
     label = "Cl2",
-    group = 
+    group =
 """
 1 *1 [H,Cl] u0 {2,S}
 2 *2 Cl u0 {1,S}
@@ -55,7 +55,7 @@ entry(
 entry(
     index = 5,
     label = "Ct_Cl",
-    group = 
+    group =
 """
 1 *1 Ct    u0 {2,S} {3,T}
 2 *2 Cl     u0 {1,S}
@@ -67,7 +67,7 @@ entry(
 entry(
     index = 457,
     label = "Ct/Cl/NonDeC",
-    group = 
+    group =
 """
 1 *1 Ct u0 {2,S} {3,T}
 2 *2 Cl  u0 {1,S}
@@ -79,7 +79,7 @@ entry(
 entry(
     index = 458,
     label = "Ct/Cl/NonDeN",
-    group = 
+    group =
 """
 1 *1 Ct  u0 {2,S} {3,T}
 2 *2 Cl   u0 {1,S}
@@ -91,7 +91,7 @@ entry(
 entry(
     index = 28,
     label = "Cd_Cl",
-    group = 
+    group =
 """
 1 *1 C     u0 {2,D} {3,S} {4,S}
 2    C u0 {1,D}
@@ -104,7 +104,7 @@ entry(
 entry(
     index = 29,
     label = "Cd_pri",
-    group = 
+    group =
 """
 1 *1 C     u0 {2,D} {3,S} {4,S}
 2    Cd u0 {1,D} {5,S}
@@ -119,7 +119,7 @@ entry(
 entry(
     index = 30,
     label = "Cd_sec",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,D} {3,S} {4,S}
 2    Cd  u0 {1,D} {5,S}
@@ -132,7 +132,7 @@ entry(
 entry(
     index = 40,
     label = "Cd_allenic",
-    group = 
+    group =
 """
 1 *1 C u0 {2,D} {3,S} {4,S}
 2 Cdd u0 {1,D}
@@ -146,7 +146,7 @@ entry(
 entry(
     index = 60,
     label = "Cs_Cl",
-    group = 
+    group =
 """
 1 *1 C u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cl u0 {1,S}
@@ -160,7 +160,7 @@ entry(
 #entry(
 #    index = 61,
 #    label = "C_methane",
-#    group = 
+#    group =
 #"""
 #1 *1 C u0 {2,S} {3,S} {4,S} {5,S}
 #2 *2 Cl u0 {1,S}
@@ -174,7 +174,7 @@ entry(
 #entry(
 #    index = 62,
 #    label = "C_pri",
-#    group = 
+#    group =
 #"""
 #1 *1 C       u0 {2,S} {3,S} {4,S} {5,S}
 #2 *2 Cl      u0 {1,S}
@@ -188,7 +188,7 @@ entry(
 entry(
     index = 83,
     label = "C_sec",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cl   u0 {1,S}
@@ -202,7 +202,7 @@ entry(
 entry(
     index = 131,
     label = "C_ter",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cl   u0 {1,S}
@@ -216,7 +216,7 @@ entry(
 entry(
     index = 185,
     label = "Xrad_Cl",
-    group = 
+    group =
 """
 1 *1 R u1 {2,S}
 2 *2 Cl u0 {1,S}
@@ -227,7 +227,7 @@ entry(
 entry(
     index = 469,
     label = "C_rad_Cl",
-    group = 
+    group =
 """
 1 *1 C u1 {2,S}
 2 *2 Cl u0 {1,S}
@@ -238,7 +238,7 @@ entry(
 entry(
     index = 442,
     label = "C_H2_Cl2_HCl_rad_Cl",
-    group = 
+    group =
 """
 1 *1 Cs u1 {2,S} {3,S} {4,S}
 2 *2 Cl  u0 {1,S}
@@ -259,7 +259,7 @@ entry(
 entry(
     index = 476,
     label = "C_HCl_Cl2_triplet_Cl",
-    group = 
+    group =
 """
 1 *1 Cs u2 {2,S} {3,S}
 2 *2 Cl  u0 {1,S}
@@ -271,7 +271,7 @@ entry(
 entry(
     index = 477,
     label = "C_HCl_Cl2_singlet_Cl",
-    group = 
+    group =
 """
 1 *1 C u0 p1 {2,S} {3,S}
 2 *2 Cl u0 {1,S}
@@ -291,7 +291,7 @@ entry(
 entry(
     index = 480,
     label = "C_quartet_Cl",
-    group = 
+    group =
 """
 1 *1 C u3 p0 {2,S}
 2 *2 Cl u0 p0 {1,S}
@@ -302,7 +302,7 @@ entry(
 entry(
     index = 481,
     label = "C_doublet_Cl",
-    group = 
+    group =
 """
 1 *1 C u1 p1 {2,S}
 2 *2 Cl u0 p0 {1,S}
@@ -319,7 +319,7 @@ entry(
 entry(
     index = 482,
     label = "C_quintet",
-    group = 
+    group =
 """
 1 *3 C u4 p0
 """,
@@ -329,7 +329,7 @@ entry(
 entry(
     index = 483,
     label = "C_triplet",
-    group = 
+    group =
 """
 1 *3 C u2 p1
 """,
@@ -347,7 +347,7 @@ entry(
 entry(
     index = 487,
     label = "C_H_Cl_quartet",
-    group = 
+    group =
 """
 1 *3 C u3 p0 {2,S}
 2    [H,Cl] u0 p0 {1,S}
@@ -358,7 +358,7 @@ entry(
 entry(
     index = 487,
     label = "C_H_Cl_doublet",
-    group = 
+    group =
 """
 1 *3 C u1 p1 {2,S}
 2    [H,Cl] u0 {1,S}
@@ -369,7 +369,7 @@ entry(
 entry(
     index = 188,
     label = "Y_1centerbirad",
-    group = 
+    group =
 """
 1 *3 [Cs,Cd,CO,CS,O,S,N,Cl] u2
 """,
@@ -379,7 +379,7 @@ entry(
 entry(
     index = 189,
     label = "O_atom_triplet",
-    group = 
+    group =
 """
 1 *3 O u2
 """,
@@ -389,7 +389,7 @@ entry(
 entry(
     index = 190,
     label = "CH2_triplet",
-    group = 
+    group =
 """
 1 *3 Cs u2 {2,S} {3,S}
 2    H  u0 {1,S}
@@ -401,7 +401,7 @@ entry(
 entry(
     index = 422,
     label = "NH_triplet",
-    group = 
+    group =
 """
 1 *3 N3s u2 {2,S}
 2    H   u0 {1,S}
@@ -412,7 +412,7 @@ entry(
 entry(
     index = 191,
     label = "Y_rad",
-    group = 
+    group =
 """
 1 *3 R u1
 """,
@@ -422,7 +422,7 @@ entry(
 entry(
     index = 192,
     label = "H_rad",
-    group = 
+    group =
 """
 1 *3 H u1
 """,
@@ -432,7 +432,7 @@ entry(
 entry(
     index = 19200,
     label = "Cl_rad",
-    group = 
+    group =
 """
 1 *3 Cl u1
 """,
@@ -442,7 +442,7 @@ entry(
 entry(
     index = 193,
     label = "Y_2centeradjbirad",
-    group = 
+    group =
 """
 1 *3 [Ct,Os,Ss] u1 {2,[S,T]}
 2    [Ct,Os,Ss] u1 {1,[S,T]}
@@ -454,7 +454,7 @@ entry(
 entry(
     index = 197,
     label = "O_rad",
-    group = 
+    group =
 """
 1 *3 O u1 {2,S}
 2    R u0 {1,S}
@@ -465,7 +465,7 @@ entry(
 entry(
     index = 198,
     label = "O_pri_rad",
-    group = 
+    group =
 """
 1 *3 O u1 {2,S}
 2    [H,Cl] u0 {1,S}
@@ -476,7 +476,7 @@ entry(
 entry(
     index = 199,
     label = "O_sec_rad",
-    group = 
+    group =
 """
 1 *3 O   u1 {2,S}
 2    R!H u0 {1,S}
@@ -488,7 +488,7 @@ entry(
 entry(
     index = 223,
     label = "Cd_rad",
-    group = 
+    group =
 """
 1 *3 C u1 {2,D} {3,S}
 2    C u0 {1,D}
@@ -501,7 +501,7 @@ entry(
 entry(
     index = 260,
     label = "Cs_rad",
-    group = 
+    group =
 """
 1 *3 C u1 {2,S} {3,S} {4,S}
 2    R u0 {1,S}
@@ -514,7 +514,7 @@ entry(
 #entry(
 #    index = 261,
 #    label = "C_methyl",
-#    group = 
+#    group =
 #"""
 #1 *3 C u1 {2,S} {3,S} {4,S}
 #2    H u0 {1,S}
@@ -527,7 +527,7 @@ entry(
 #entry(
 #    index = 26100,
 #    label = "C_Chloro",
-#    group = 
+#    group =
 #"""
 #1 *3 C u1 {2,S} {3,S} {4,S}
 #2    Cl u0 {1,S}
@@ -540,7 +540,7 @@ entry(
 #entry(
 #    index = 262,
 #    label = "C_pri_rad",
-#    group = 
+#    group =
 #"""
 #1 *3 C   u1 {2,S} {3,S} {4,S}
 #2    [H,Cl]   u0 {1,S}
@@ -555,7 +555,7 @@ entry(
 #entry(
 #    index = 279,
 #    label = "C_sec_rad",
-#    group = 
+#    group =
 #"""
 #1 *3 C   u1 {2,S} {3,S} {4,S}
 #2    [H,Cl]   u0 {1,S}
@@ -569,7 +569,7 @@ entry(
 #entry(
 #    index = 328,
 #    label = "C_ter_rad",
-#    group = 
+#    group =
 #"""
 #1 *3 C   u1 {2,S} {3,S} {4,S}
 #2    R!H u0 {1,S}
@@ -582,7 +582,7 @@ entry(
 #entry(
 #    index = 329,
 #    label = "C_rad/NonDe",
-#    group = 
+#    group =
 #"""
 #1 *3 C        u1 {2,S} {3,S} {4,S}
 #2    [Cs,O,S] u0 {1,S}
@@ -595,7 +595,7 @@ entry(
 #entry(
 #    index = 344,
 #    label = "C_rad/OneDe",
-#    group = 
+#    group =
 #"""
 #1 *3 C             u1 {2,S} {3,S} {4,S}
 #2    [Cd,Ct,Cb,CO] u0 {1,S}
@@ -609,7 +609,7 @@ entry(
 #entry(
 #    index = 360,
 #    label = "C_rad/TwoDe",
-#    group = 
+#    group =
 #"""
 #1 *3 C             u1 {2,S} {3,S} {4,S}
 #2    [Cd,Ct,Cb,CO] u0 {1,S}
@@ -622,7 +622,7 @@ entry(
 #entry(
 #    index = 379,
 #    label = "C_rad/ThreeDe",
-#    group = 
+#    group =
 #"""
 #1 *3 C             u1 {2,S} {3,S} {4,S}
 #2    [Cd,Ct,Cb,CO] u0 {1,S}
@@ -676,18 +676,18 @@ L1: Y_rad_birad_trirad_quadrad
             L4: O_sec_rad
         L3: Cs_rad
         L3: Cd_rad
-            
+
 """
 )
 
 forbidden(
     label = "OS_birad_singlet",
-    group = 
+    group =
 """
 1 *3 [O,S] u0 p3
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -695,12 +695,12 @@ u"""
 
 forbidden(
     label = "birad_singlet",
-    group = 
+    group =
 """
 1 *3 [C,N,Si] u0 p1
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -708,12 +708,12 @@ u"""
 
 forbidden(
     label = "quadrad_singlet",
-    group = 
+    group =
 """
 1 *3 [C,N,Si] u0 p2
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -722,14 +722,14 @@ u"""
 
 forbidden(
     label = "disprop1",
-    group = 
+    group =
 """
 1 *1 R u0 {2,S} {3,S}
 2    C u1 {1,S}
 3 *2 Cl u0 {1,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -737,7 +737,7 @@ u"""
 
 forbidden(
     label = "disprop2",
-    group = 
+    group =
 """
 1 *1 R u0 {2,S} {3,S}
 2    R u0 {1,S} {4,D}
@@ -746,7 +746,7 @@ forbidden(
 5    R u1 {4,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -754,7 +754,7 @@ u"""
 
 forbidden(
     label = "disprop3",
-    group = 
+    group =
 """
 1 *1 R u0 {2,S} {3,S}
 2    R u0 {1,S} {4,T}
@@ -763,7 +763,7 @@ forbidden(
 5    R u1 {4,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -771,7 +771,7 @@ u"""
 
 forbidden(
     label = "disprop4",
-    group = 
+    group =
 """
 1 *1 R u0 {2,S} {3,S}
 2    R u0 {1,S} {4,D}
@@ -782,7 +782,7 @@ forbidden(
 7    R u1 {6,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -790,7 +790,7 @@ u"""
 
 forbidden(
     label = "disprop5",
-    group = 
+    group =
 """
 1 *1 R u0 {2,S} {3,S}
 2    R u0 {1,S} {4,D}
@@ -801,12 +801,8 @@ forbidden(
 7    R u1 {6,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
 )
-
-
-
-
