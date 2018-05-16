@@ -12,7 +12,7 @@ entry(
     group = "OR{RJ, RJ2_triplet, RJ3}",
     thermo = u'RJ',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -21,13 +21,13 @@ u"""
 entry(
     index = 1,
     label = "RJ",
-    group = 
+    group =
 """
 1 * R u1
 """,
     thermo = u'CJ',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -36,13 +36,13 @@ u"""
 entry(
     index = 2,
     label = "CJ",
-    group = 
+    group =
 """
 1 * C u1
 """,
     thermo = u'CsJ',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -51,13 +51,13 @@ u"""
 entry(
     index = 3,
     label = "CsJ",
-    group = 
+    group =
 """
 1 * Cs u1
 """,
     thermo = u'Cs_P',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -66,7 +66,7 @@ u"""
 entry(
     index = 4,
     label = "CH3",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   H  u0 {1,S}
@@ -80,7 +80,7 @@ entry(
         S298 = (0.52,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculated in relation to methane from NIST values""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -89,7 +89,7 @@ u"""
 entry(
     index = 18007,
     label = "Cs_P_ClCl",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   C   u0 {1,S}
@@ -98,7 +98,7 @@ entry(
 """,
     thermo = u'CsCsJ(Cl)(Cl)',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -107,7 +107,7 @@ u"""
 entry(
     index = 18008,
     label = "CsCsJ(Cl)(Cl)",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   Cs  u0 {1,S}
@@ -121,7 +121,7 @@ entry(
         S298 = (1.242,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calculations""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -131,7 +131,7 @@ u"""
 entry(
     index = 18009,
     label = "RCCJ(Cl)(Cl)",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S} {5,S} {6,S} {7,S}
@@ -143,7 +143,7 @@ entry(
 """,
     thermo = u'Cs_P_ClCl',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -157,7 +157,7 @@ u"""
 entry(
     index = 18004,
     label = "Cs_P_Cl",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   C  u0 {1,S}
@@ -171,7 +171,7 @@ entry(
         S298 = (2.964,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calculations""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -180,7 +180,7 @@ u"""
 entry(
     index = 18005,
     label = "CsCsJ(Cl)",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S}
@@ -189,7 +189,7 @@ entry(
 """,
     thermo = u'Cs_P_Cl',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -199,7 +199,7 @@ u"""
 entry(
     index = 18006,
     label = "RCCJ(Cl)",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S} {5,S} {6,S} {7,S}
@@ -211,7 +211,7 @@ entry(
 """,
     thermo = u'Cs_P_Cl',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -224,7 +224,7 @@ u"""
 entry(
     index = 5,
     label = "Cs_P",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   C  u0 {1,S}
@@ -238,7 +238,7 @@ entry(
         S298 = (2.61,'cal/(mol*K)'),
     ),
     shortDesc = u"""Generic primary radical. (CHEN & BOZZELLI) #""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -247,7 +247,7 @@ u"""
 entry(
     index = 6,
     label = "CsCsJ",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S}
@@ -256,7 +256,7 @@ entry(
 """,
     thermo = u'Cs_P',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -265,7 +265,7 @@ u"""
 entry(
     index = 11,
     label = "CJCOOH",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
 2   Cs u0 {1,S} {3,S}
@@ -281,7 +281,7 @@ entry(
         S298 = (3.54,'cal/(mol*K)'),
     ),
     shortDesc = u"""WIJAYA et al.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -290,7 +290,7 @@ u"""
 entry(
     index = 7,
     label = "CCJ",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * Cs u1 {1,S} {6,S} {7,S}
@@ -307,7 +307,7 @@ entry(
         S298 = (2.61,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -316,7 +316,7 @@ u"""
 entry(
     index = 8,
     label = "RCCJ",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * Cs u1 {1,S} {6,S} {7,S}
@@ -333,7 +333,7 @@ entry(
         S298 = (2.61,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -342,7 +342,7 @@ u"""
 entry(
     index = 9,
     label = "Isobutyl",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * Cs u1 {1,S} {6,S} {7,S}
@@ -359,7 +359,7 @@ entry(
         S298 = (2.91,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -368,7 +368,7 @@ u"""
 entry(
     index = 10,
     label = "Neopentyl",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * Cs u1 {1,S} {6,S} {7,S}
@@ -385,7 +385,7 @@ entry(
         S298 = (3.03,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -394,7 +394,7 @@ u"""
 entry(
     index = 3047,
     label = "CJC(C)2C=O",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * Cs u1 {1,S} {6,S} {7,S}
@@ -412,7 +412,7 @@ entry(
         S298 = (7.9,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -423,7 +423,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3045,
     label = "CJC(C=O)2C",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * Cs u1 {1,S} {6,S} {7,S}
@@ -442,7 +442,7 @@ entry(
         S298 = (8.8,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -453,7 +453,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3067,
     label = "C=CC(C=O)2CJ",
-    group = 
+    group =
 """
 1    Cs u0 {2,S} {3,S} {4,S} {5,S}
 2  * Cs u1 {1,S} {6,S} {7,S}
@@ -473,7 +473,7 @@ entry(
         S298 = (5.5,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -484,7 +484,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3066,
     label = "C=CC(C)(C=O)CJ",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * Cs u1 {1,S} {6,S} {7,S}
@@ -503,7 +503,7 @@ entry(
         S298 = (9.8,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -514,7 +514,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3017,
     label = "CJC(C)OC",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S}
 2 * Cs u1 {1,S} {5,S} {6,S}
@@ -531,7 +531,7 @@ entry(
         S298 = (7,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -542,7 +542,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3018,
     label = "CJC(C)2O",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * Cs u1 {1,S} {6,S} {7,S}
@@ -559,7 +559,7 @@ entry(
         S298 = (5.1,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -572,7 +572,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 18000,
     label = "Cs_S_Cl",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   C  u0 {1,S}
@@ -586,7 +586,7 @@ entry(
         S298 = (3.769,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -596,7 +596,7 @@ u"""
 entry(
     index = 18001,
     label = "(Cs)2ClCsJ",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   Cs  u0 {1,S}
@@ -605,7 +605,7 @@ entry(
 """,
     thermo = u'Cs_S_Cl',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -616,7 +616,7 @@ u"""
 entry(
     index = 3031,
     label = "C=CC(C)(O)CJ",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * Cs u1 {1,S} {6,S} {7,S}
@@ -634,7 +634,7 @@ entry(
         S298 = (9,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -646,7 +646,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3065,
     label = "C=CC(O)(C=O)CJ",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * Cs u1 {1,S} {6,S} {7,S}
@@ -665,7 +665,7 @@ entry(
         S298 = (6.9,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -679,7 +679,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3046,
     label = "CJC(C)(C=O)O",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * Cs u1 {1,S} {6,S} {7,S}
@@ -697,7 +697,7 @@ entry(
         S298 = (3.7,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -708,7 +708,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3019,
     label = "CJC(O)2C",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * Cs u1 {1,S} {6,S} {7,S}
@@ -725,7 +725,7 @@ entry(
         S298 = (8.1,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -736,7 +736,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3032,
     label = "C=CC(O)2CJ",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * Cs u1 {1,S} {6,S} {7,S}
@@ -754,7 +754,7 @@ entry(
         S298 = (6.7,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -765,7 +765,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3044,
     label = "CJC(C)C=O",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S}
 2 * Cs u1 {1,S} {5,S} {6,S}
@@ -782,7 +782,7 @@ entry(
         S298 = (8.7,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -793,7 +793,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3076,
     label = "CJC(C)C=C=O",
-    group = 
+    group =
 """
 1   Cs  u0 {2,S} {3,S} {5,S}
 2 * Cs  u1 {1,S} {6,S} {7,S}
@@ -811,7 +811,7 @@ entry(
         S298 = (9.7,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -851,7 +851,7 @@ Model Compounds Include
 entry(
     index = 13,
     label = "Allyl_P",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S}
@@ -865,7 +865,7 @@ entry(
         S298 = (-2.56,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -874,7 +874,7 @@ u"""
 entry(
     index = 14,
     label = "C=CC=CCJ",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
 2   Cd u0 {1,S} {3,D}
@@ -890,7 +890,7 @@ entry(
         S298 = (-1.55,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -899,7 +899,7 @@ u"""
 entry(
     index = 15,
     label = "CTCC=CCJ",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
 2   Cd u0 {1,S} {3,D}
@@ -915,7 +915,7 @@ entry(
         S298 = (-3.55,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -924,7 +924,7 @@ u"""
 entry(
     index = 3029,
     label = "C=C(O)CJ",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S} {5,S} {6,D}
@@ -940,7 +940,7 @@ entry(
         S298 = (-3.9,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -951,7 +951,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3062,
     label = "C=C(C=O)CJ",
-    group = 
+    group =
 """
 1   Cd u0 {2,S} {3,S} {4,D}
 2 * Cs u1 {1,S} {5,S} {6,S}
@@ -968,7 +968,7 @@ entry(
         S298 = (-16.5,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -979,7 +979,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3074,
     label = "CJC=C=O",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {3,D}
@@ -995,7 +995,7 @@ entry(
         S298 = (-1.3,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -1006,7 +1006,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3082,
     label = "C=C(CJ)C=C=O",
-    group = 
+    group =
 """
 1   Cd  u0 {2,S} {3,S} {5,D}
 2 * Cs  u1 {1,S} {6,S} {7,S}
@@ -1024,7 +1024,7 @@ entry(
         S298 = (-8.1,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -1035,7 +1035,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 17,
     label = "Propargyl",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Ct u0 {1,S}
@@ -1049,7 +1049,7 @@ entry(
         S298 = (-0.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1058,7 +1058,7 @@ u"""
 entry(
     index = 3010,
     label = "CJCO",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   C  u0 {1,S} {5,S}
@@ -1073,7 +1073,7 @@ entry(
         S298 = (6.1,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -1084,7 +1084,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3038,
     label = "CJC=O",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   CO u0 {1,S} {5,D}
@@ -1099,7 +1099,7 @@ entry(
         S298 = (-7.8,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -1110,7 +1110,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 16,
     label = "C2JC=O",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   CO u0 {1,S} {5,D} {6,S}
@@ -1126,7 +1126,7 @@ entry(
         S298 = (-1.16,'cal/(mol*K)'),
     ),
     shortDesc = u"""CHEN & BOZZELLI""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1135,7 +1135,7 @@ u"""
 entry(
     index = 3039,
     label = "CJCC=O",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
 2   C  u0 {1,S} {3,S}
@@ -1151,7 +1151,7 @@ entry(
         S298 = (6.1,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -1162,7 +1162,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3075,
     label = "CJCC=C=O",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {5,S} {6,S}
 2   C   u0 {1,S} {3,S}
@@ -1179,7 +1179,7 @@ entry(
         S298 = (16.4,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -1190,7 +1190,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 18,
     label = "Cs_S",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   C  u0 {1,S}
@@ -1204,7 +1204,7 @@ entry(
         S298 = (4.44,'cal/(mol*K)'),
     ),
     shortDesc = u"""Generic secondary radical. (CHEN & BOZZELLI) #""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1213,7 +1213,7 @@ u"""
 entry(
     index = 19,
     label = "(Cs)2CsJ",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S}
@@ -1222,7 +1222,7 @@ entry(
 """,
     thermo = u'Cs_S',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1231,7 +1231,7 @@ u"""
 entry(
     index = 142,
     label = "cyclopropane",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S} {3,S}
@@ -1245,7 +1245,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""D.F. McMillen, D.M. Golden, HYDROCARBON BOND-DISSOCIATION ENERGIES, Annual Review of Physical Chemistry, 33 (1982) 493-532.. S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1254,7 +1254,7 @@ u"""
 entry(
     index = 152,
     label = "bicyclo[1.1.0]butane-secondary",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S} {3,S} {4,S}
@@ -1269,7 +1269,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1278,7 +1278,7 @@ u"""
 entry(
     index = 151,
     label = "spiro[2.2]pentane-secondary",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * Cs u1 {1,S} {3,S} {6,S}
@@ -1294,7 +1294,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1303,7 +1303,7 @@ u"""
 entry(
     index = 154,
     label = "bicyclo[2.1.0]pentane-secondary-C3",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {5,S}
 2   Cs u0 {1,S} {3,S} {4,S}
@@ -1319,7 +1319,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1328,7 +1328,7 @@ u"""
 entry(
     index = 185,
     label = "bicyclo[2.1.0]pent-2-ene-C5",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {5,S}
 2   Cs u0 {1,S} {3,S} {4,S}
@@ -1344,7 +1344,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1353,7 +1353,7 @@ u"""
 entry(
     index = 190,
     label = "tricyclo[2.1.1.0(1,4)]hex-2-ene-C5",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {6,S}
 2   Cs u0 {1,S} {3,S} {4,S} {5,S}
@@ -1370,7 +1370,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1379,7 +1379,7 @@ u"""
 entry(
     index = 197,
     label = "tricyclo[1.1.1.0(1,3)]pentane-C2",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S} {3,S} {4,S} {5,S}
@@ -1395,7 +1395,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1404,7 +1404,7 @@ u"""
 entry(
     index = 157,
     label = "bicyclo[3.1.0]hexane-C3",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {5,S}
 2   Cs u0 {1,S} {3,S} {4,S}
@@ -1421,7 +1421,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1430,7 +1430,7 @@ u"""
 entry(
     index = 202,
     label = "tricyclo[2.1.1.0(1,4)]hexane-C5",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {6,S}
 2   Cs u0 {1,S} {3,S} {4,S} {5,S}
@@ -1447,7 +1447,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1456,7 +1456,7 @@ u"""
 entry(
     index = 172,
     label = "bicyclo[4.1.0]heptane-C3-7",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {5,S}
 2   Cs u0 {1,S} {3,S} {4,S}
@@ -1474,7 +1474,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1483,7 +1483,7 @@ u"""
 entry(
     index = 172,
     label = "bicyclo[4.1.0]heptane-C3-7",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {5,S}
 2   Cs u0 {1,S} {3,S} {4,S}
@@ -1501,7 +1501,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1510,7 +1510,7 @@ u"""
 entry(
     index = 209,
     label = "tricyclo[3.1.1.0(1,5)]heptane-C6",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {6,S}
 2   Cs u0 {1,S} {3,S} {4,S} {5,S}
@@ -1528,7 +1528,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1537,7 +1537,7 @@ u"""
 entry(
     index = 211,
     label = "tricyclo[2.2.1.0(1,4)]heptane-C7",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {5,S} {7,S}
 2   Cs u0 {1,S} {3,S} {4,S} {6,S}
@@ -1555,7 +1555,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1564,7 +1564,7 @@ u"""
 entry(
     index = 143,
     label = "cyclobutane",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {5,S}
 2   Cs u0 {1,S} {4,S}
@@ -1579,7 +1579,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Tian, Z.; Fattahi, A.; Lis, L.; Kass, S. R., "Cycloalkane and Cycloalkene C-H Bond Dissociation Energies," J. Am. Chem. Soc. 2006, 128, 17087-17092, DOI: 10.1021/ja065348u. S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1588,7 +1588,7 @@ u"""
 entry(
     index = 153,
     label = "bicyclo[2.1.0]pentane-secondary-C4",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S} {4,S} {5,S}
@@ -1604,7 +1604,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1613,7 +1613,7 @@ u"""
 entry(
     index = 158,
     label = "bicyclo[2.2.0]hexane-secondary",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {5,S}
 2   Cs u0 {1,S} {4,S} {6,S}
@@ -1630,7 +1630,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1639,7 +1639,7 @@ u"""
 entry(
     index = 161,
     label = "bicyclo[3.2.0]heptane-C5-6",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {5,S}
 2   Cs u0 {1,S} {4,S} {6,S}
@@ -1657,7 +1657,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1666,7 +1666,7 @@ u"""
 entry(
     index = 210,
     label = "tricyclo[2.2.1.0(1,4)]heptane-C2",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {6,S}
 2   Cs u0 {1,S} {4,S} {5,S} {7,S}
@@ -1684,7 +1684,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1693,7 +1693,7 @@ u"""
 entry(
     index = 177,
     label = "bicyclo[4.2.0]octane-C4-7",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {5,S}
 2   Cs u0 {1,S} {4,S} {6,S}
@@ -1712,7 +1712,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1721,7 +1721,7 @@ u"""
 entry(
     index = 23,
     label = "CCJCOOH",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
 2   Cs u0 {1,S} {3,S}
@@ -1737,7 +1737,7 @@ entry(
         S298 = (4.79,'cal/(mol*K)'),
     ),
     shortDesc = u"""WIJAYA et al.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1746,7 +1746,7 @@ u"""
 entry(
     index = 179,
     label = "cyclopentene-4",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {6,S}
 2   Cs u0 {1,S} {5,S}
@@ -1762,7 +1762,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Allyl_S""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1771,7 +1771,7 @@ u"""
 entry(
     index = 188,
     label = "bicyclo[2.1.1]hex-2-ene-C5",
-    group = 
+    group =
 """
 1   Cs u0 {3,S} {4,S} {6,S}
 2   Cs u0 {3,S} {4,S} {5,S}
@@ -1788,7 +1788,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1797,7 +1797,7 @@ u"""
 entry(
     index = 196,
     label = "bicyclo[1.1.1]pentane-C2",
-    group = 
+    group =
 """
 1   Cs u0 {3,S} {4,S} {5,S}
 2   Cs u0 {3,S} {4,S} {5,S}
@@ -1813,7 +1813,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1822,7 +1822,7 @@ u"""
 entry(
     index = 155,
     label = "bicyclo[3.1.0]hexane-C5-2",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S} {4,S} {5,S}
@@ -1839,7 +1839,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1848,7 +1848,7 @@ u"""
 entry(
     index = 156,
     label = "bicyclo[3.1.0]hexane-C5-3",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {4,S} {5,S} {7,S}
 2   Cs u0 {1,S} {4,S} {6,S}
@@ -1866,7 +1866,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1875,7 +1875,7 @@ u"""
 entry(
     index = 199,
     label = "bicyclo[2.1.1]hexane-C2",
-    group = 
+    group =
 """
 1   Cs u0 {3,S} {4,S} {5,S}
 2   Cs u0 {4,S} {5,S} {6,S}
@@ -1892,7 +1892,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1901,7 +1901,7 @@ u"""
 entry(
     index = 201,
     label = "tricyclo[2.1.1.0(1,4)]hexane-C2",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S} {4,S} {5,S} {6,S}
@@ -1918,7 +1918,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1927,7 +1927,7 @@ u"""
 entry(
     index = 200,
     label = "bicyclo[2.1.1]hexane-C5",
-    group = 
+    group =
 """
 1   Cs u0 {3,S} {4,S} {6,S}
 2   Cs u0 {3,S} {4,S} {5,S}
@@ -1944,7 +1944,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1953,7 +1953,7 @@ u"""
 entry(
     index = 140,
     label = "7-norbornyl",
-    group = 
+    group =
 """
 1   Cs u0 {3,S} {4,S} {7,S}
 2   Cs u0 {3,S} {5,S} {6,S}
@@ -1971,7 +1971,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""P.M. Nunes, S.G. Estacio, G.T. Lopes, B.J. Costa Cabral, R.M. Borges dos Santos, J.A. Martinho Simoes, CH Bond Dissociation Enthalpies in Norbornane. An Experimental and Computational Study, Organic Letters, 10 (2008) 1613-1616. S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1980,7 +1980,7 @@ u"""
 entry(
     index = 141,
     label = "2-norbornyl",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {4,S} {6,S} {8,S}
 2 * Cs u1 {1,S} {5,S} {9,S}
@@ -1999,7 +1999,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""P.M. Nunes, S.G. Estacio, G.T. Lopes, B.J. Costa Cabral, R.M. Borges dos Santos, J.A. Martinho Simoes, CH Bond Dissociation Enthalpies in Norbornane. An Experimental and Computational Study, Organic Letters, 10 (2008) 1613-1616. S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2008,7 +2008,7 @@ u"""
 entry(
     index = 150,
     label = "cycloheptane",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {8,S}
 2   Cs u0 {1,S} {4,S}
@@ -2026,7 +2026,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2035,7 +2035,7 @@ u"""
 entry(
     index = 159,
     label = "bicyclo[3.2.0]heptane-C5-2",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S} {5,S} {6,S}
@@ -2053,7 +2053,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2062,7 +2062,7 @@ u"""
 entry(
     index = 160,
     label = "bicyclo[3.2.0]heptane-C5-3",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {5,S} {6,S}
 2   Cs u0 {1,S} {4,S} {7,S}
@@ -2080,7 +2080,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2089,7 +2089,7 @@ u"""
 entry(
     index = 170,
     label = "bicyclo[4.1.0]heptane-C6-2",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S} {4,S} {5,S}
@@ -2107,7 +2107,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2116,7 +2116,7 @@ u"""
 entry(
     index = 171,
     label = "bicyclo[4.1.0]heptane-C6-3",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {4,S} {5,S}
 2   Cs u0 {1,S} {4,S} {6,S}
@@ -2134,7 +2134,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2143,7 +2143,7 @@ u"""
 entry(
     index = 170,
     label = "bicyclo[4.1.0]heptane-C6-2",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S} {4,S} {5,S}
@@ -2161,7 +2161,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2170,7 +2170,7 @@ u"""
 entry(
     index = 171,
     label = "bicyclo[4.1.0]heptane-C6-3",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {4,S} {5,S}
 2   Cs u0 {1,S} {4,S} {6,S}
@@ -2188,7 +2188,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2197,7 +2197,7 @@ u"""
 entry(
     index = 204,
     label = "bicyclo[3.1.1]heptane-C2",
-    group = 
+    group =
 """
 1   Cs u0 {3,S} {4,S} {5,S}
 2   Cs u0 {4,S} {5,S} {6,S}
@@ -2215,7 +2215,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2224,7 +2224,7 @@ u"""
 entry(
     index = 207,
     label = "tricyclo[3.1.1.0(1,5)]heptane-C2",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S} {4,S} {5,S} {6,S}
@@ -2242,7 +2242,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2251,7 +2251,7 @@ u"""
 entry(
     index = 205,
     label = "bicyclo[3.1.1]heptane-C3",
-    group = 
+    group =
 """
 1   Cs u0 {4,S} {5,S} {7,S}
 2   Cs u0 {4,S} {5,S} {6,S}
@@ -2269,7 +2269,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2278,7 +2278,7 @@ u"""
 entry(
     index = 208,
     label = "tricyclo[3.1.1.0(1,5)]heptane-C3",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {4,S} {5,S} {7,S}
 2   Cs u0 {1,S} {4,S} {5,S} {6,S}
@@ -2296,7 +2296,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2305,7 +2305,7 @@ u"""
 entry(
     index = 206,
     label = "bicyclo[3.1.1]heptane-C6",
-    group = 
+    group =
 """
 1   Cs u0 {3,S} {4,S} {6,S}
 2   Cs u0 {3,S} {4,S} {5,S}
@@ -2323,7 +2323,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2332,7 +2332,7 @@ u"""
 entry(
     index = 173,
     label = "octahydro-pentalene-C5-2",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S} {5,S} {6,S}
@@ -2351,7 +2351,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2360,7 +2360,7 @@ u"""
 entry(
     index = 174,
     label = "octahydro-pentalene-C5-3",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {4,S} {6,S}
 2   Cs u0 {1,S} {5,S} {7,S}
@@ -2379,7 +2379,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2388,7 +2388,7 @@ u"""
 entry(
     index = 175,
     label = "bicyclo[4.2.0]octane-C6-2",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S} {5,S} {6,S}
@@ -2407,7 +2407,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2416,7 +2416,7 @@ u"""
 entry(
     index = 176,
     label = "bicyclo[4.2.0]octane-C6-3",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {4,S} {6,S}
 2   Cs u0 {1,S} {5,S} {7,S}
@@ -2435,7 +2435,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2444,7 +2444,7 @@ u"""
 entry(
     index = 213,
     label = "bicyclo[2.2.2]octane-C2",
-    group = 
+    group =
 """
 1   Cs u0 {3,S} {5,S} {6,S}
 2   Cs u0 {4,S} {7,S} {8,S}
@@ -2463,7 +2463,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2472,7 +2472,7 @@ u"""
 entry(
     index = 214,
     label = "tricyclo[2.2.2.0(1,4)]octane-C2",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {5,S} {6,S}
 2   Cs u0 {1,S} {4,S} {7,S} {8,S}
@@ -2491,7 +2491,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2500,7 +2500,7 @@ u"""
 entry(
     index = 20,
     label = "CCJC",
-    group = 
+    group =
 """
 1    Cs u0 {3,S} {4,S} {5,S} {6,S}
 2    Cs u0 {3,S} {7,S} {8,S} {9,S}
@@ -2520,7 +2520,7 @@ entry(
         S298 = (4.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2529,7 +2529,7 @@ u"""
 entry(
     index = 21,
     label = "RCCJC",
-    group = 
+    group =
 """
 1    Cs u0 {3,S} {4,S} {5,S} {6,S}
 2    Cs u0 {3,S} {7,S} {8,S} {9,S}
@@ -2549,7 +2549,7 @@ entry(
         S298 = (5.13,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2558,7 +2558,7 @@ u"""
 entry(
     index = 22,
     label = "RCCJCC",
-    group = 
+    group =
 """
 1    Cs u0 {3,S} {4,S} {5,S} {6,S}
 2    Cs u0 {3,S} {7,S} {8,S} {9,S}
@@ -2578,7 +2578,7 @@ entry(
         S298 = (4.9,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2587,7 +2587,7 @@ u"""
 entry(
     index = 215,
     label = "cyclopentane",
-    group = 
+    group =
 """
 1    Cs u0 {3,S} {4,S} {6,S} {7,S}
 2    Cs u0 {3,S} {5,S} {8,S} {9,S}
@@ -2607,7 +2607,7 @@ entry(
         S298 = (4.9,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from RCCJCC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2616,7 +2616,7 @@ u"""
 entry(
     index = 216,
     label = "cyclohexane",
-    group = 
+    group =
 """
 1    Cs u0 {3,S} {4,S} {7,S} {8,S}
 2    Cs u0 {3,S} {5,S} {9,S} {10,S}
@@ -2637,7 +2637,7 @@ entry(
         S298 = (4.9,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from RCCJCC entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2679,7 +2679,7 @@ CCCCC[CH]C1C=CC=CC=1
 entry(
     index = 26,
     label = "Indenyl",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {6,S}
 2   Cb u0 {1,S} {4,B}
@@ -2695,7 +2695,7 @@ entry(
         S298 = (0.69,'cal/(mol*K)'),
     ),
     shortDesc = u"""A.G. Vandeputte CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2774,7 +2774,7 @@ u""""
 entry(
     index = 25,
     label = "Allyl_S",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S}
@@ -2788,7 +2788,7 @@ entry(
         S298 = (-3.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2797,7 +2797,7 @@ u"""
 entry(
     index = 147,
     label = "cyclobutene-allyl",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {5,S}
 2   Cs u0 {1,S} {4,S}
@@ -2812,7 +2812,7 @@ entry(
         S298 = (-3.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""Tian, Z.; Fattahi, A.; Lis, L.; Kass, S. R., "Cycloalkane and Cycloalkene C-H Bond Dissociation Energies," J. Am. Chem. Soc. 2006, 128, 17087-17092, DOI: 10.1021/ja065348u S, Cp copied from Allyl_S""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2821,7 +2821,7 @@ u"""
 entry(
     index = 148,
     label = "cyclopentene-allyl",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {6,S}
 2   Cs u0 {1,S} {4,S}
@@ -2837,7 +2837,7 @@ entry(
         S298 = (-3.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""Furuyama, S.; Golden, D. M.; Benson, S. W., "Kinetic Study of the Gas-Phase Reaction c-C5H8+I2 c-C5H6+2HI. Heat of Formation and the Stabilization Energy of the Cyclopentenyl Radical,"Int. J. Chem. Kinet. 1970, 2, 93-99. S, Cp copied from Allyl_S""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2846,7 +2846,7 @@ u"""
 entry(
     index = 149,
     label = "cyclohexene-allyl",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {7,S}
 2   Cs u0 {1,S} {4,S}
@@ -2863,7 +2863,7 @@ entry(
         S298 = (-3.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""Alfassi, Z. B.; Feldman, L., "The Kinetics of Radiation-Induced Hydrogen Abstraction by Trichloromethyl Radicals in the Liquid Phase: Cyclohexene," Int. J. Chem. Kinet. 1981, 13, 771-783. S, Cp copied from Allyl_S""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2872,7 +2872,7 @@ u"""
 entry(
     index = 3033,
     label = "C=CCJC(O)C=C",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {5,S}
 2   Cs u0 {1,S} {4,S} {6,S}
@@ -2890,7 +2890,7 @@ entry(
         S298 = (-9.6,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -2901,7 +2901,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 27,
     label = "C=CCJC=C",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S}
@@ -2915,7 +2915,7 @@ entry(
         S298 = (-4.05,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2924,7 +2924,7 @@ u"""
 entry(
     index = 145,
     label = "cyclopropenyl-allyl",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S} {3,D}
@@ -2938,7 +2938,7 @@ entry(
         S298 = (-4.05,'cal/(mol*K)'),
     ),
     shortDesc = u"""DeFrees, D. J.; McIver, R. T., Jr.; Hehre, W. J., "Heats of Formation of Gaseous Free Radicals via Ion Cyclotron Double Resonance Spectroscopy," J. Am. Chem. Soc. 1980, 102, 3334-3338, DOI: 10.1021/ja00530a005 S, Cp copied from C=CCJC=C""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2973,7 +2973,7 @@ All other  values from theory (2001 Kiefer and Tranter).
 entry(
     index = 3081,
     label = "C=CCJC=C=O",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {5,S}
 2   Cd  u0 {1,S} {4,D}
@@ -2990,7 +2990,7 @@ entry(
         S298 = (-22,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -3001,7 +3001,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 28,
     label = "Sec_Propargyl",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Ct u0 {1,S}
@@ -3015,7 +3015,7 @@ entry(
         S298 = (-0.45,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3024,7 +3024,7 @@ u"""
 entry(
     index = 3013,
     label = "CCJCO",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   C  u0 {1,S} {5,S}
@@ -3039,7 +3039,7 @@ entry(
         S298 = (13.8,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -3050,7 +3050,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3028,
     label = "C=CCJCO",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   C  u0 {1,S} {5,S}
@@ -3066,7 +3066,7 @@ entry(
         S298 = (-19.9,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -3077,7 +3077,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3040,
     label = "CCJC=O",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   CO u0 {1,S} {5,D}
@@ -3092,7 +3092,7 @@ entry(
         S298 = (-5.7,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -3103,7 +3103,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 26,
     label = "CCJCHO",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   CO u0 {1,S} {5,D} {6,S}
@@ -3119,7 +3119,7 @@ entry(
         S298 = (-2.37,'cal/(mol*K)'),
     ),
     shortDesc = u"""CHEN & BOZZELLI #""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3128,7 +3128,7 @@ u"""
 entry(
     index = 3043,
     label = "C=OCJC=O",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   CO u0 {1,S} {5,D}
@@ -3144,7 +3144,7 @@ entry(
         S298 = (-13,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -3155,7 +3155,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3042,
     label = "CCJCC=O",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
 2   C  u0 {1,S} {3,S}
@@ -3171,7 +3171,7 @@ entry(
         S298 = (13.8,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -3182,7 +3182,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3078,
     label = "CCJC(C)=C=O",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {5,S}
 2   Cd  u0 {1,S} {4,D}
@@ -3199,7 +3199,7 @@ entry(
         S298 = (8.3,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -3210,7 +3210,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 29,
     label = "Cs_T",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   C  u0 {1,S}
@@ -3219,7 +3219,7 @@ entry(
 """,
     thermo = u'Tertalkyl',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3248,7 +3248,7 @@ u""""
 entry(
     index = 30,
     label = "Tertalkyl",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S}
@@ -3262,7 +3262,7 @@ entry(
         S298 = (5.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3271,7 +3271,7 @@ u"""
 entry(
     index = 162,
     label = "bicyclo[1.1.0]butane-tertiary",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S}
 2 * Cs u1 {1,S} {3,S} {4,S}
@@ -3285,7 +3285,7 @@ entry(
         S298 = (5.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from TertAlkyl entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3294,7 +3294,7 @@ u"""
 entry(
     index = 163,
     label = "bicyclo[2.1.0]pentane-tertiary",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {5,S}
 2   Cs u0 {1,S} {3,S} {4,S}
@@ -3309,7 +3309,7 @@ entry(
         S298 = (5.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from TertAlkyl entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3318,7 +3318,7 @@ u"""
 entry(
     index = 195,
     label = "bicyclo[1.1.1]pentane-C1",
-    group = 
+    group =
 """
 1 * Cs u1 {3,S} {4,S} {5,S}
 2   Cs u0 {3,S} {4,S} {5,S}
@@ -3333,7 +3333,7 @@ entry(
         S298 = (5.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from TertAlkyl entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3342,7 +3342,7 @@ u"""
 entry(
     index = 31,
     label = "C2CJCOOH",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
 2   Cs u0 {1,S} {3,S}
@@ -3358,7 +3358,7 @@ entry(
         S298 = (7.31,'cal/(mol*K)'),
     ),
     shortDesc = u"""WIJAYA et al.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3367,7 +3367,7 @@ u"""
 entry(
     index = 164,
     label = "bicyclo[3.1.0]hexane-tertiary",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {5,S}
 2   Cs u0 {1,S} {3,S} {4,S}
@@ -3383,7 +3383,7 @@ entry(
         S298 = (5.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from TertAlkyl entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3392,7 +3392,7 @@ u"""
 entry(
     index = 165,
     label = "bicyclo[2.2.0]hexane-tertiary",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {6,S}
 2   Cs u0 {1,S} {4,S} {5,S}
@@ -3408,7 +3408,7 @@ entry(
         S298 = (5.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from TertAlkyl entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3417,7 +3417,7 @@ u"""
 entry(
     index = 198,
     label = "bicyclo[2.1.1]hexane-C1",
-    group = 
+    group =
 """
 1 * Cs u1 {3,S} {4,S} {6,S}
 2   Cs u0 {3,S} {4,S} {5,S}
@@ -3433,7 +3433,7 @@ entry(
         S298 = (5.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from TertAlkyl entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3442,7 +3442,7 @@ u"""
 entry(
     index = 139,
     label = "bridgehead_norbornyl",
-    group = 
+    group =
 """
 1 * Cs u1 {3,S} {4,S} {7,S}
 2   Cs u0 {3,S} {5,S} {6,S}
@@ -3459,7 +3459,7 @@ entry(
         S298 = (5.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""P.M. Nunes, S.G. Estacio, G.T. Lopes, B.J. Costa Cabral, R.M. Borges dos Santos, J.A. Martinho Simoes, CH Bond Dissociation Enthalpies in Norbornane. An Experimental and Computational Study, Organic Letters, 10 (2008) 1613-1616. S, Cp copied from TertAlkyl entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3468,7 +3468,7 @@ u"""
 entry(
     index = 166,
     label = "bicyclo[3.2.0]heptane-tertiary",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {6,S}
 2   Cs u0 {1,S} {4,S} {5,S}
@@ -3485,7 +3485,7 @@ entry(
         S298 = (5.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from TertAlkyl entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3494,7 +3494,7 @@ u"""
 entry(
     index = 167,
     label = "bicyclo[4.1.0]heptane-tertiary",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {5,S}
 2   Cs u0 {1,S} {3,S} {4,S}
@@ -3511,7 +3511,7 @@ entry(
         S298 = (5.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from TertAlkyl entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3520,7 +3520,7 @@ u"""
 entry(
     index = 203,
     label = "bicyclo[3.1.1]heptane-C1",
-    group = 
+    group =
 """
 1 * Cs u1 {3,S} {4,S} {6,S}
 2   Cs u0 {3,S} {4,S} {5,S}
@@ -3537,7 +3537,7 @@ entry(
         S298 = (5.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from TertAlkyl entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3546,7 +3546,7 @@ u"""
 entry(
     index = 168,
     label = "octahydro-pentalene-tertiary",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S} {5,S} {6,S}
@@ -3564,7 +3564,7 @@ entry(
         S298 = (5.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from TertAlkyl entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3573,7 +3573,7 @@ u"""
 entry(
     index = 169,
     label = "bicyclo[4.2.0]octane-tertiary",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {6,S}
 2   Cs u0 {1,S} {4,S} {5,S}
@@ -3591,7 +3591,7 @@ entry(
         S298 = (5.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from TertAlkyl entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3600,7 +3600,7 @@ u"""
 entry(
     index = 212,
     label = "bicyclo[2.2.2]octane-C1",
-    group = 
+    group =
 """
 1 * Cs u1 {3,S} {6,S} {8,S}
 2   Cs u0 {4,S} {5,S} {7,S}
@@ -3618,7 +3618,7 @@ entry(
         S298 = (5.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from TertAlkyl entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3627,7 +3627,7 @@ u"""
 entry(
     index = 32,
     label = "Benzyl_T",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cb u0 {1,S}
@@ -3641,7 +3641,7 @@ entry(
         S298 = (-5.34,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3650,7 +3650,7 @@ u"""
 entry(
     index = 33,
     label = "Allyl_T",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S}
@@ -3664,7 +3664,7 @@ entry(
         S298 = (-3.69,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3673,7 +3673,7 @@ u"""
 entry(
     index = 183,
     label = "bicyclo[2.1.0]pent-2-ene-C1",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {5,S}
 2   Cs u0 {1,S} {3,S} {4,S}
@@ -3688,7 +3688,7 @@ entry(
         S298 = (5.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from TertAlkyl entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3697,7 +3697,7 @@ u"""
 entry(
     index = 186,
     label = "bicyclo[2.1.1]hex-2-ene-C1",
-    group = 
+    group =
 """
 1 * Cs u1 {3,S} {4,S} {6,S}
 2   Cs u0 {3,S} {4,S} {5,S}
@@ -3713,7 +3713,7 @@ entry(
         S298 = (5.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from TertAlkyl entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3722,7 +3722,7 @@ u"""
 entry(
     index = 35,
     label = "Tert_Propargyl",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Ct u0 {1,S}
@@ -3736,7 +3736,7 @@ entry(
         S298 = (1.48,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3745,7 +3745,7 @@ u"""
 entry(
     index = 501,
     label = "C2CJCO",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   CO u0 {1,S} {5,D} {6,S}
@@ -3756,7 +3756,7 @@ entry(
 """,
     thermo = u'C2CJCHO',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3765,7 +3765,7 @@ u"""
 entry(
     index = 34,
     label = "C2CJCHO",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   CO u0 {1,S} {5,D} {6,S}
@@ -3781,7 +3781,7 @@ entry(
         S298 = (-1.71,'cal/(mol*K)'),
     ),
     shortDesc = u"""CHEN & BOZZELLI #. Value for Cp1500 taken as equal to Cp1000""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3790,7 +3790,7 @@ u"""
 entry(
     index = 191,
     label = "bicyclo[2.2.0]hexa-2,5-diene-C1",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {6,S}
 2   Cs u0 {1,S} {4,S} {5,S}
@@ -3806,7 +3806,7 @@ entry(
         S298 = (5.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from TertAlkyl entry""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3815,7 +3815,7 @@ u"""
 entry(
     index = 3016,
     label = "CCJ(C)CO",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   C  u0 {1,S} {5,S}
@@ -3830,7 +3830,7 @@ entry(
         S298 = (-0.8,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -3841,7 +3841,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3063,
     label = "C=CCJ(C)C=O",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -3857,7 +3857,7 @@ entry(
         S298 = (-17.3,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -3868,7 +3868,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3064,
     label = "C=CCJ(C=O)C=C",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -3885,7 +3885,7 @@ entry(
         S298 = (-27.9,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -3896,7 +3896,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3077,
     label = "CCJ(C)C=C=O",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {3,D}
@@ -3912,7 +3912,7 @@ entry(
         S298 = (3.5,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -3923,7 +3923,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3083,
     label = "C=CCJ(C)C=C=O",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {5,S}
 2   Cd  u0 {1,S} {4,D}
@@ -3940,7 +3940,7 @@ entry(
         S298 = (0.5,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -3951,7 +3951,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3084,
     label = "C=CCJ(C=C=O)C=C",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   Cd  u0 {1,S} {5,D}
@@ -3969,7 +3969,7 @@ entry(
         S298 = (-27.5,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -3980,7 +3980,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 36,
     label = "CsJO",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S}
@@ -3994,7 +3994,7 @@ entry(
         S298 = (1.2,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -4005,7 +4005,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 37,
     label = "CsJOH",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
@@ -4020,7 +4020,7 @@ entry(
         S298 = (0.09,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4029,7 +4029,7 @@ u"""
 entry(
     index = 38,
     label = "CsJOC",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
@@ -4039,7 +4039,7 @@ entry(
 """,
     thermo = u'CsJOCs',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4048,7 +4048,7 @@ u"""
 entry(
     index = 39,
     label = "CsJOCs",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
@@ -4058,7 +4058,7 @@ entry(
 """,
     thermo = u'CsJOCH3',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4067,7 +4067,7 @@ u"""
 entry(
     index = 40,
     label = "CsJOCH3",
-    group = 
+    group =
 """
 1   Cs u0 {3,S} {4,S} {5,S} {6,S}
 2 * Cs u1 {3,S} {7,S} {8,S}
@@ -4085,7 +4085,7 @@ entry(
         S298 = (0.78,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN #""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4094,7 +4094,7 @@ u"""
 entry(
     index = 41,
     label = "CsJOCC",
-    group = 
+    group =
 """
 1   Cs u0 {3,S} {4,S} {5,S} {6,S}
 2 * Cs u1 {3,S} {7,S} {8,S}
@@ -4112,7 +4112,7 @@ entry(
         S298 = (1.41,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculated from data in SUMATHI & GREEN. Values might have large error bars.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4121,7 +4121,7 @@ u"""
 entry(
     index = 42,
     label = "CsJOCC2",
-    group = 
+    group =
 """
 1   Cs u0 {3,S} {4,S} {5,S} {6,S}
 2 * Cs u1 {3,S} {7,S} {8,S}
@@ -4139,7 +4139,7 @@ entry(
         S298 = (-0.59,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4148,7 +4148,7 @@ u"""
 entry(
     index = 43,
     label = "CsJOCC3",
-    group = 
+    group =
 """
 1   Cs u0 {3,S} {4,S} {5,S} {6,S}
 2 * Cs u1 {3,S} {7,S} {8,S}
@@ -4166,7 +4166,7 @@ entry(
         S298 = (0.27,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4175,7 +4175,7 @@ u"""
 entry(
     index = 44,
     label = "CsJOCds",
-    group = 
+    group =
 """
 1 * Cs      u1 {2,S} {3,S} {4,S}
 2   O2s      u0 {1,S} {5,S}
@@ -4185,7 +4185,7 @@ entry(
 """,
     thermo = u'CsJOC(O)',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4194,7 +4194,7 @@ u"""
 entry(
     index = 45,
     label = "CsJOC(O)",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
 2   O2s u0 {1,S} {3,S}
@@ -4210,7 +4210,7 @@ entry(
         S298 = (-0.18,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4219,7 +4219,7 @@ u"""
 entry(
     index = 46,
     label = "CsJOC(O)H",
-    group = 
+    group =
 """
 1 * Cs u1 {3,S} {4,S} {5,S}
 2   CO u0 {3,S} {6,D} {7,S}
@@ -4236,7 +4236,7 @@ entry(
         S298 = (-0.18,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4245,7 +4245,7 @@ u"""
 entry(
     index = 47,
     label = "CsJOC(O)C",
-    group = 
+    group =
 """
 1 * Cs u1 {3,S} {4,S} {5,S}
 2   CO u0 {3,S} {6,D} {7,S}
@@ -4262,7 +4262,7 @@ entry(
         S298 = (-0.17,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4271,7 +4271,7 @@ u"""
 entry(
     index = 3027,
     label = "C=COCJ",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
 2   O2s u0 {1,S} {3,S}
@@ -4287,7 +4287,7 @@ entry(
         S298 = (13.7,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -4298,7 +4298,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 48,
     label = "CsJOO",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
@@ -4313,7 +4313,7 @@ entry(
         S298 = (-1.57,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4322,7 +4322,7 @@ u"""
 entry(
     index = 49,
     label = "CsJOOH",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
 2   O2s u0 {1,S} {3,S}
@@ -4338,7 +4338,7 @@ entry(
         S298 = (-1.52,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4347,7 +4347,7 @@ u"""
 entry(
     index = 50,
     label = "CsJOOC",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
 2   O2s u0 {1,S} {3,S}
@@ -4363,7 +4363,7 @@ entry(
         S298 = (-1.62,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4372,7 +4372,7 @@ u"""
 entry(
     index = 51,
     label = "CCsJO",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S}
@@ -4386,7 +4386,7 @@ entry(
         S298 = (3.9,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -4397,7 +4397,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 52,
     label = "CCsJOH",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
@@ -4412,7 +4412,7 @@ entry(
         S298 = (0.92,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4421,7 +4421,7 @@ u"""
 entry(
     index = 53,
     label = "CCsJOC",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
@@ -4431,7 +4431,7 @@ entry(
 """,
     thermo = u'CCsJOCs',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4440,7 +4440,7 @@ u"""
 entry(
     index = 54,
     label = "CCsJOCs",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
@@ -4455,7 +4455,7 @@ entry(
         S298 = (0.33,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4464,7 +4464,7 @@ u"""
 entry(
     index = 55,
     label = "CCsJOCds",
-    group = 
+    group =
 """
 1 * Cs      u1 {2,S} {3,S} {4,S}
 2   O2s      u0 {1,S} {5,S}
@@ -4474,7 +4474,7 @@ entry(
 """,
     thermo = u'CCsJOC(O)',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4483,7 +4483,7 @@ u"""
 entry(
     index = 56,
     label = "CCsJOC(O)",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
 2   O2s u0 {1,S} {3,S}
@@ -4499,7 +4499,7 @@ entry(
         S298 = (0.98,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4508,7 +4508,7 @@ u"""
 entry(
     index = 57,
     label = "CCsJOC(O)H",
-    group = 
+    group =
 """
 1 * Cs u1 {3,S} {4,S} {5,S}
 2   CO u0 {3,S} {6,D} {7,S}
@@ -4525,7 +4525,7 @@ entry(
         S298 = (0.98,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4534,7 +4534,7 @@ u"""
 entry(
     index = -1,
     label = "CCsJOC(O)C",
-    group = 
+    group =
 """
 1 * Cs u1 {3,S} {4,S} {5,S}
 2   CO u0 {3,S} {6,D} {7,S}
@@ -4546,7 +4546,7 @@ entry(
 """,
     thermo = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4555,7 +4555,7 @@ u"""
 entry(
     index = 3030,
     label = "C=CCJ(O)C",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -4571,7 +4571,7 @@ entry(
         S298 = (4.5,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -4582,7 +4582,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 58,
     label = "CCsJOO",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
@@ -4597,7 +4597,7 @@ entry(
         S298 = (0.76,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4606,7 +4606,7 @@ u"""
 entry(
     index = 59,
     label = "CCsJOOH",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
 2   O2s u0 {1,S} {3,S}
@@ -4622,7 +4622,7 @@ entry(
         S298 = (0.77,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4631,7 +4631,7 @@ u"""
 entry(
     index = 60,
     label = "CCsJOOC",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
 2   O2s u0 {1,S} {3,S}
@@ -4647,7 +4647,7 @@ entry(
         S298 = (0.74,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4656,7 +4656,7 @@ u"""
 entry(
     index = 3026,
     label = "C=CCJO",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -4671,7 +4671,7 @@ entry(
         S298 = (-7.4,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -4682,7 +4682,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3041,
     label = "OCJC=O",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   CO u0 {1,S} {5,D}
@@ -4697,7 +4697,7 @@ entry(
         S298 = (0.2,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -4708,7 +4708,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 61,
     label = "C2CsJO",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S}
@@ -4722,7 +4722,7 @@ entry(
         S298 = (14.4,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -4733,7 +4733,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 62,
     label = "C2CsJOH",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
@@ -4748,7 +4748,7 @@ entry(
         S298 = (2.17,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4757,7 +4757,7 @@ u"""
 entry(
     index = 63,
     label = "C2CsJOC",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
@@ -4767,7 +4767,7 @@ entry(
 """,
     thermo = u'C2CsJOCs',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4776,7 +4776,7 @@ u"""
 entry(
     index = 64,
     label = "C2CsJOCs",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
@@ -4791,7 +4791,7 @@ entry(
         S298 = (3.71,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4800,7 +4800,7 @@ u"""
 entry(
     index = 65,
     label = "C2CsJOCds",
-    group = 
+    group =
 """
 1 * Cs      u1 {2,S} {3,S} {4,S}
 2   O2s      u0 {1,S} {5,S}
@@ -4810,7 +4810,7 @@ entry(
 """,
     thermo = u'C2CsJOC(O)',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4819,7 +4819,7 @@ u"""
 entry(
     index = 66,
     label = "C2CsJOC(O)",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
 2   O2s u0 {1,S} {3,S}
@@ -4835,7 +4835,7 @@ entry(
         S298 = (4.77,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4844,7 +4844,7 @@ u"""
 entry(
     index = 67,
     label = "C2CsJOC(O)H",
-    group = 
+    group =
 """
 1 * Cs u1 {3,S} {4,S} {5,S}
 2   CO u0 {3,S} {6,D} {7,S}
@@ -4861,7 +4861,7 @@ entry(
         S298 = (4.88,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4870,7 +4870,7 @@ u"""
 entry(
     index = 68,
     label = "C2CsJOC(O)C",
-    group = 
+    group =
 """
 1 * Cs u1 {3,S} {4,S} {5,S}
 2   CO u0 {3,S} {6,D} {7,S}
@@ -4887,7 +4887,7 @@ entry(
         S298 = (4.66,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4896,7 +4896,7 @@ u"""
 entry(
     index = 69,
     label = "C2CsJOO",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
@@ -4911,7 +4911,7 @@ entry(
         S298 = (2.22,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4920,7 +4920,7 @@ u"""
 entry(
     index = 70,
     label = "C2CsJOOH",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
 2   O2s u0 {1,S} {3,S}
@@ -4936,7 +4936,7 @@ entry(
         S298 = (2.37,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4945,7 +4945,7 @@ u"""
 entry(
     index = 71,
     label = "C2CsJOOC",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
 2   O2s u0 {1,S} {3,S}
@@ -4961,7 +4961,7 @@ entry(
         S298 = (2.08,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4970,7 +4970,7 @@ u"""
 entry(
     index = -1,
     label = "CsJ-S",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   S2s u0 {1,S}
@@ -4979,7 +4979,7 @@ entry(
 """,
     thermo = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4988,7 +4988,7 @@ u"""
 entry(
     index = 244,
     label = "CsJ-SsHH",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   S2s u0 {1,S}
@@ -5002,7 +5002,7 @@ entry(
         S298 = (1.18,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5011,7 +5011,7 @@ u"""
 entry(
     index = -1,
     label = "CsJ-CSH",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   C  u0 {1,S}
@@ -5020,7 +5020,7 @@ entry(
 """,
     thermo = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5029,7 +5029,7 @@ u"""
 entry(
     index = 245,
     label = "CsJ-CsSsH",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S}
@@ -5043,7 +5043,7 @@ entry(
         S298 = (1.91,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5052,7 +5052,7 @@ u"""
 entry(
     index = 247,
     label = "CsJ-CtSsH",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Ct u0 {1,S}
@@ -5066,7 +5066,7 @@ entry(
         S298 = (-0.16,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5075,7 +5075,7 @@ u"""
 entry(
     index = 248,
     label = "CsJ-CbSsH",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cb u0 {1,S}
@@ -5089,7 +5089,7 @@ entry(
         S298 = (-0.98,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5098,7 +5098,7 @@ u"""
 entry(
     index = 246,
     label = "CsJ-CdSsH",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -5113,7 +5113,7 @@ entry(
         S298 = (0.66,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5122,7 +5122,7 @@ u"""
 entry(
     index = 249,
     label = "CsJ-C=SSsH",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   CS u0 {1,S} {5,D}
@@ -5137,7 +5137,7 @@ entry(
         S298 = (-3.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5146,7 +5146,7 @@ u"""
 entry(
     index = -1,
     label = "CsJ-CCS",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   C  u0 {1,S}
@@ -5155,7 +5155,7 @@ entry(
 """,
     thermo = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5164,7 +5164,7 @@ u"""
 entry(
     index = 251,
     label = "CsJ-CsCsSs",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S}
@@ -5178,7 +5178,7 @@ entry(
         S298 = (3.87,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5187,7 +5187,7 @@ u"""
 entry(
     index = 253,
     label = "CsJ-CsCtSs",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S}
@@ -5201,7 +5201,7 @@ entry(
         S298 = (3.05,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5210,7 +5210,7 @@ u"""
 entry(
     index = 254,
     label = "CsJ-CsCbSs",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S}
@@ -5224,7 +5224,7 @@ entry(
         S298 = (0.96,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5233,7 +5233,7 @@ u"""
 entry(
     index = 252,
     label = "CsJ-CsCdSs",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -5248,7 +5248,7 @@ entry(
         S298 = (2.53,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5257,7 +5257,7 @@ u"""
 entry(
     index = 255,
     label = "CsJ-CsC=SSs",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   CS u0 {1,S} {5,D}
@@ -5272,7 +5272,7 @@ entry(
         S298 = (-1.97,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5281,7 +5281,7 @@ u"""
 entry(
     index = -1,
     label = "CsJ-SS",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   S2s u0 {1,S}
@@ -5290,7 +5290,7 @@ entry(
 """,
     thermo = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5299,7 +5299,7 @@ u"""
 entry(
     index = 250,
     label = "CsJ-SsSsH",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   S2s u0 {1,S}
@@ -5313,7 +5313,7 @@ entry(
         S298 = (1.31,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5322,7 +5322,7 @@ u"""
 entry(
     index = -1,
     label = "CsJ-CSS",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   C  u0 {1,S}
@@ -5331,7 +5331,7 @@ entry(
 """,
     thermo = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5340,7 +5340,7 @@ u"""
 entry(
     index = 256,
     label = "CsJ-CsSsSs",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S}
@@ -5354,7 +5354,7 @@ entry(
         S298 = (5.5,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5363,7 +5363,7 @@ u"""
 entry(
     index = -1,
     label = "CsJ-CtSsSs",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Ct u0 {1,S}
@@ -5372,7 +5372,7 @@ entry(
 """,
     thermo = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5381,7 +5381,7 @@ u"""
 entry(
     index = -1,
     label = "CsJ-CbSsSs",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cb u0 {1,S}
@@ -5390,7 +5390,7 @@ entry(
 """,
     thermo = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5399,7 +5399,7 @@ u"""
 entry(
     index = -1,
     label = "CsJ-CdSsSs",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -5409,7 +5409,7 @@ entry(
 """,
     thermo = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5418,7 +5418,7 @@ u"""
 entry(
     index = -1,
     label = "CsJ-C=SSsSs",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   CS u0 {1,S} {5,D}
@@ -5428,7 +5428,7 @@ entry(
 """,
     thermo = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5437,7 +5437,7 @@ u"""
 entry(
     index = -1,
     label = "CsJ-SsSsSs",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   S2s u0 {1,S}
@@ -5446,7 +5446,7 @@ entry(
 """,
     thermo = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5455,7 +5455,7 @@ u"""
 entry(
     index = 264,
     label = "CCsJOS",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   C  u0 {1,S}
@@ -5464,7 +5464,7 @@ entry(
 """,
     thermo = u'CCsJOHSH',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5473,7 +5473,7 @@ u"""
 entry(
     index = 265,
     label = "CCsJOHSH",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
@@ -5489,7 +5489,7 @@ entry(
         S298 = (1.67,'cal/(mol*K)'),
     ),
     shortDesc = u"""CAC CBS-QB3 1d-hr""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5498,7 +5498,7 @@ u"""
 entry(
     index = 300,
     label = "CsJN",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   N  u0 {1,S}
@@ -5507,7 +5507,7 @@ entry(
 """,
     thermo = u'CCsJN',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5516,7 +5516,7 @@ u"""
 entry(
     index = 301,
     label = "CCsJN",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   N  u0 {1,S}
@@ -5530,7 +5530,7 @@ entry(
         S298 = (2.5,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5539,7 +5539,7 @@ u"""
 entry(
     index = 302,
     label = "C2CsJN",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   N  u0 {1,S}
@@ -5548,7 +5548,7 @@ entry(
 """,
     thermo = u'CCsJN',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5557,7 +5557,7 @@ u"""
 entry(
     index = 3012,
     label = "OCJO",
-    group = 
+    group =
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S}
@@ -5571,7 +5571,7 @@ entry(
         S298 = (15.1,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -5582,13 +5582,13 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 72,
     label = "CdsJ",
-    group = 
+    group =
 """
 1 * [Cd,CO] u1
 """,
     thermo = u'Cds_P',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5597,14 +5597,14 @@ u"""
 entry(
     index = 79,
     label = "CdsJO",
-    group = 
+    group =
 """
 1 * CO u1 {2,D}
 2   O2d u0 {1,D}
 """,
     thermo = u'CCJ=O',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5613,7 +5613,7 @@ u"""
 entry(
     index = 80,
     label = "HCdsJO",
-    group = 
+    group =
 """
 1 * CO u1 {2,D} {3,S}
 2   O2d u0 {1,D}
@@ -5626,7 +5626,7 @@ entry(
         S298 = (-0.01,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculated in relation to formaldehyde from NIST values""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5635,7 +5635,7 @@ u"""
 entry(
     index = 81,
     label = "CCJ=O",
-    group = 
+    group =
 """
 1 * CO u1 {2,D} {3,S}
 2   O2d u0 {1,D}
@@ -5643,7 +5643,7 @@ entry(
 """,
     thermo = u'CsCJ=O',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5652,7 +5652,7 @@ u"""
 entry(
     index = 82,
     label = "CsCJ=O",
-    group = 
+    group =
 """
 1 * CO u1 {2,D} {3,S}
 2   O2d u0 {1,D}
@@ -5665,7 +5665,7 @@ entry(
         S298 = (1.12,'cal/(mol*K)'),
     ),
     shortDesc = u"""CHEN & BOZZELLI #""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5674,7 +5674,7 @@ u"""
 entry(
     index = 3057,
     label = "CC(C)CJ=O",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S}
 2 * CO u1 {1,S} {5,D}
@@ -5689,7 +5689,7 @@ entry(
         S298 = (6.7,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -5700,7 +5700,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3058,
     label = "CC(C)2CJ=O",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * CO u1 {1,S} {6,D}
@@ -5716,7 +5716,7 @@ entry(
         S298 = (7.5,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -5727,7 +5727,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3060,
     label = "CC(C)(C=O)CJ=O",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * CO u1 {1,S} {6,D}
@@ -5744,7 +5744,7 @@ entry(
         S298 = (10.4,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -5755,7 +5755,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3073,
     label = "C=CC(C)(C=O)CJ=O",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * CO u1 {1,S} {7,D}
@@ -5773,7 +5773,7 @@ entry(
         S298 = (1.2,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -5784,7 +5784,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3071,
     label = "C=CC(C)2CJ=O",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * CO u1 {1,S} {7,D}
@@ -5801,7 +5801,7 @@ entry(
         S298 = (10.6,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -5812,7 +5812,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3059,
     label = "CC(C)(O)CJ=O",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * CO u1 {1,S} {6,D}
@@ -5828,7 +5828,7 @@ entry(
         S298 = (6.8,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -5839,7 +5839,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3072,
     label = "C=CC(C)(O)CJ=O",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * CO u1 {1,S} {7,D}
@@ -5856,7 +5856,7 @@ entry(
         S298 = (8.7,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -5867,7 +5867,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 83,
     label = "C=CCJ=O",
-    group = 
+    group =
 """
 1 * CO u1 {2,S} {3,D}
 2   Cd u0 {1,S} {4,D}
@@ -5881,7 +5881,7 @@ entry(
         S298 = (7.2,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -5892,7 +5892,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3052,
     label = "CCCJ=O",
-    group = 
+    group =
 """
 1 * CO u1 {2,S} {4,D}
 2   C  u0 {1,S} {3,S}
@@ -5906,7 +5906,7 @@ entry(
         S298 = (8.3,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -5917,7 +5917,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3054,
     label = "C=OCCJ=O",
-    group = 
+    group =
 """
 1   C  u0 {2,S} {3,S}
 2 * CO u1 {1,S} {4,D}
@@ -5932,7 +5932,7 @@ entry(
         S298 = (0.8,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -5943,7 +5943,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3056,
     label = "C=OC=OCJ=O",
-    group = 
+    group =
 """
 1   CO u0 {2,S} {3,S} {4,D}
 2 * CO u1 {1,S} {5,D}
@@ -5959,7 +5959,7 @@ entry(
         S298 = (-19.6,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -5970,7 +5970,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3070,
     label = "C=C(C)CJ=O",
-    group = 
+    group =
 """
 1   Cd u0 {2,S} {3,S} {4,D}
 2 * CO u1 {1,S} {5,D}
@@ -5985,7 +5985,7 @@ entry(
         S298 = (6.7,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -5996,7 +5996,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3055,
     label = "OC=OCJ=O",
-    group = 
+    group =
 """
 1   CO u0 {2,S} {3,S} {4,D}
 2 * CO u1 {1,S} {5,D}
@@ -6011,7 +6011,7 @@ entry(
         S298 = (4.6,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -6022,7 +6022,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 84,
     label = "(O)CJO",
-    group = 
+    group =
 """
 1 * CO u1 {2,D} {3,S}
 2   O2d u0 {1,D}
@@ -6030,7 +6030,7 @@ entry(
 """,
     thermo = u'(O)CJOC',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6039,7 +6039,7 @@ u"""
 entry(
     index = 85,
     label = "(O)CJOH",
-    group = 
+    group =
 """
 1 * CO u1 {2,S} {3,D}
 2   O2s u0 {1,S} {4,S}
@@ -6053,7 +6053,7 @@ entry(
         S298 = (0.78,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN #""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6062,7 +6062,7 @@ u"""
 entry(
     index = 86,
     label = "(O)CJOC",
-    group = 
+    group =
 """
 1 * CO u1 {2,S} {3,D}
 2   O2s u0 {1,S} {4,S}
@@ -6076,7 +6076,7 @@ entry(
         S298 = (-4.3,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -6087,7 +6087,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 87,
     label = "(O)CJOCH3",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {4,S} {5,S} {6,S}
 2   O2s u0 {1,S} {3,S}
@@ -6104,7 +6104,7 @@ entry(
         S298 = (0.72,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6113,7 +6113,7 @@ u"""
 entry(
     index = 88,
     label = "(O)CJOCC",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {4,S} {5,S} {6,S}
 2   O2s u0 {1,S} {3,S}
@@ -6130,7 +6130,7 @@ entry(
         S298 = (0.55,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN (values from (O)CJOCH2CH3)""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6139,7 +6139,7 @@ u"""
 entry(
     index = 89,
     label = "(O)CJOCC2",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {4,S} {5,S} {6,S}
 2   O2s u0 {1,S} {3,S}
@@ -6156,7 +6156,7 @@ entry(
         S298 = (0.82,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN (values from (O)CJOCH(CH3)2)""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6165,7 +6165,7 @@ u"""
 entry(
     index = 90,
     label = "(O)CJOCC3",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {4,S} {5,S} {6,S}
 2   O2s u0 {1,S} {3,S}
@@ -6182,7 +6182,7 @@ entry(
         S298 = (0.76,'cal/(mol*K)'),
     ),
     shortDesc = u"""SUMATHI & GREEN (values from (O)CJOC(CH3)3)""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6191,7 +6191,7 @@ u"""
 entry(
     index = 74,
     label = "Cds_P",
-    group = 
+    group =
 """
 1 * Cd u1 {2,D} {3,S}
 2   C  u0 {1,D}
@@ -6204,7 +6204,7 @@ entry(
         S298 = (1.39,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6213,7 +6213,7 @@ u"""
 entry(
     index = 75,
     label = "C=C=CJ",
-    group = 
+    group =
 """
 1 * Cd  u1 {2,D} {3,S}
 2   Cdd u0 {1,D} {4,D}
@@ -6227,7 +6227,7 @@ entry(
         S298 = (1.29,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6236,7 +6236,7 @@ u"""
 entry(
     index = 77,
     label = "Cds_S",
-    group = 
+    group =
 """
 1 * Cd u1 {2,D} {3,S}
 2   C  u0 {1,D}
@@ -6249,7 +6249,7 @@ entry(
         S298 = (1.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6258,7 +6258,7 @@ u"""
 entry(
     index = 78,
     label = "C=CJC=C",
-    group = 
+    group =
 """
 1 * Cd      u1 {2,D} {3,S}
 2   Cd      u0 {1,D}
@@ -6271,7 +6271,7 @@ entry(
         S298 = (0.71,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6280,7 +6280,7 @@ u"""
 entry(
     index = 194,
     label = "cyclobutadiene-C1",
-    group = 
+    group =
 """
 1 * Cd u1 {2,D} {4,S}
 2   Cd u0 {1,D} {3,S}
@@ -6294,7 +6294,7 @@ entry(
         S298 = (1.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6303,7 +6303,7 @@ u"""
 entry(
     index = 193,
     label = "bicyclo[2.2.0]hexa-1(4),2,5-triene-C2",
-    group = 
+    group =
 """
 1   Cd u0 {2,D} {3,S} {6,S}
 2   Cd u0 {1,D} {4,S} {5,S}
@@ -6319,7 +6319,7 @@ entry(
         S298 = (1.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6328,7 +6328,7 @@ u"""
 entry(
     index = 181,
     label = "1,3-cyclopentadiene-vinyl-2",
-    group = 
+    group =
 """
 1   C  u0 {2,S} {3,S}
 2   Cd u0 {1,S} {4,D}
@@ -6343,7 +6343,7 @@ entry(
         S298 = (1.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6352,7 +6352,7 @@ u"""
 entry(
     index = 144,
     label = "cyclopropenyl-vinyl",
-    group = 
+    group =
 """
 1   C  u0 {2,S} {3,S}
 2 * Cd u1 {1,S} {3,D}
@@ -6365,7 +6365,7 @@ entry(
         S298 = (1.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""Fattahi, A.; McCarthy, R. E.; Ahmad, M. R.; Kass, S. R., "Why Does Cyclopropene Have the Acidity of an Acetylene but the Bond Energy of Methane?," J. Am. Chem. Soc. 2003, 125, 11746-11750, DOI: 10.1021/ja035725s. S, Cp copied from Cds_S""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6374,7 +6374,7 @@ u"""
 entry(
     index = 146,
     label = "cyclobutene-vinyl",
-    group = 
+    group =
 """
 1   C  u0 {2,S} {4,S}
 2   C  u0 {1,S} {3,S}
@@ -6388,7 +6388,7 @@ entry(
         S298 = (1.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""Tian, Z.; Fattahi, A.; Lis, L.; Kass, S. R., "Cycloalkane and Cycloalkene C-H Bond Dissociation Energies," J. Am. Chem. Soc. 2006, 128, 17087-17092, DOI: 10.1021/ja065348u S, Cp copied from Cds_S""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6397,7 +6397,7 @@ u"""
 entry(
     index = 184,
     label = "bicyclo[2.1.0]pent-2-ene-C2",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {5,S}
 2   Cs u0 {1,S} {3,S} {4,S}
@@ -6412,7 +6412,7 @@ entry(
         S298 = (1.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6421,7 +6421,7 @@ u"""
 entry(
     index = 189,
     label = "tricyclo[2.1.1.0(1,4)]hex-2-ene-C2",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {6,S}
 2   Cs u0 {1,S} {3,S} {4,S} {5,S}
@@ -6437,7 +6437,7 @@ entry(
         S298 = (1.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6446,7 +6446,7 @@ u"""
 entry(
     index = 192,
     label = "bicyclo[2.2.0]hexa-2,5-diene-C2",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {6,S}
 2   Cs u0 {1,S} {4,S} {5,S}
@@ -6462,7 +6462,7 @@ entry(
         S298 = (1.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6471,7 +6471,7 @@ u"""
 entry(
     index = 178,
     label = "cyclopentene-vinyl",
-    group = 
+    group =
 """
 1   C  u0 {2,S} {3,S}
 2   C  u0 {1,S} {5,S}
@@ -6486,7 +6486,7 @@ entry(
         S298 = (1.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6495,7 +6495,7 @@ u"""
 entry(
     index = 187,
     label = "bicyclo[2.1.1]hex-2-ene-C2",
-    group = 
+    group =
 """
 1   Cs u0 {3,S} {4,S} {6,S}
 2   Cs u0 {3,S} {4,S} {5,S}
@@ -6511,7 +6511,7 @@ entry(
         S298 = (1.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6520,7 +6520,7 @@ u"""
 entry(
     index = 180,
     label = "1,3-cyclopentadiene-vinyl-1",
-    group = 
+    group =
 """
 1   C  u0 {2,S} {3,S}
 2 * Cd u1 {1,S} {4,D}
@@ -6535,7 +6535,7 @@ entry(
         S298 = (1.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6544,7 +6544,7 @@ u"""
 entry(
     index = 3061,
     label = "C=CJC=O",
-    group = 
+    group =
 """
 1 * Cd u1 {2,S} {3,D}
 2   CO u0 {1,S} {4,D}
@@ -6558,7 +6558,7 @@ entry(
         S298 = (9.6,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -6569,7 +6569,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3079,
     label = "CCCJ=C=O",
-    group = 
+    group =
 """
 1 * Cd  u1 {2,S} {3,D}
 2   C   u0 {1,S} {4,S}
@@ -6584,7 +6584,7 @@ entry(
         S298 = (-2.3,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -6595,7 +6595,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3080,
     label = "CC(C)CJ=C=O",
-    group = 
+    group =
 """
 1   Cs  u0 {2,S} {4,S} {5,S}
 2 * Cd  u1 {1,S} {3,D}
@@ -6611,7 +6611,7 @@ entry(
         S298 = (1.7,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -6622,7 +6622,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3085,
     label = "C=C(C)CJ=C=O",
-    group = 
+    group =
 """
 1   Cd  u0 {2,S} {4,D} {5,S}
 2 * Cd  u1 {1,S} {3,D}
@@ -6638,7 +6638,7 @@ entry(
         S298 = (5.6,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -6649,7 +6649,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 257,
     label = "CdsJ-S2s",
-    group = 
+    group =
 """
 1 * Cd u1 {2,S} {3,D}
 2   S2s u0 {1,S}
@@ -6662,7 +6662,7 @@ entry(
         S298 = (0.37,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6671,7 +6671,7 @@ u"""
 entry(
     index = 3025,
     label = "C=CJO",
-    group = 
+    group =
 """
 1 * Cd u1 {2,D} {3,S}
 2   C  u0 {1,D}
@@ -6684,7 +6684,7 @@ entry(
         S298 = (26.7,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -6695,14 +6695,14 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 91,
     label = "CtJ",
-    group = 
+    group =
 """
 1 * Ct u1 {2,T}
 2   Ct u0 {1,T}
 """,
     thermo = u'Acetyl',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6711,7 +6711,7 @@ u"""
 entry(
     index = 92,
     label = "Acetyl",
-    group = 
+    group =
 """
 1 * Ct u1 {2,T}
 2   Ct u0 {1,T} {3,S}
@@ -6724,7 +6724,7 @@ entry(
         S298 = (2.11,'cal/(mol*K)'),
     ),
     shortDesc = u"""LAY et al.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6733,7 +6733,7 @@ u"""
 entry(
     index = 93,
     label = "CbJ",
-    group = 
+    group =
 """
 1 * Cb u1 {2,B} {3,B}
 2   C  u0 {1,B}
@@ -6746,7 +6746,7 @@ entry(
         S298 = (1.48,'cal/(mol*K)'),
     ),
     shortDesc = u"""BDE from TSANG, S and Cp from THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6755,14 +6755,14 @@ u"""
 entry(
     index = -1,
     label = "C=SJ",
-    group = 
+    group =
 """
 1 * CS u1 {2,D}
 2   S2d u0 p2 {1,D}
 """,
     thermo = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6771,7 +6771,7 @@ u"""
 entry(
     index = -1,
     label = "C=SJ-S2s",
-    group = 
+    group =
 """
 1 * CS u1 {2,S} {3,D}
 2   S2s u0 p2 {1,S}
@@ -6779,7 +6779,7 @@ entry(
 """,
     thermo = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6788,7 +6788,7 @@ u"""
 entry(
     index = 258,
     label = "C=SJ-H",
-    group = 
+    group =
 """
 1 * CS u1 {2,S} {3,D}
 2   H  u0 {1,S}
@@ -6801,7 +6801,7 @@ entry(
         S298 = (-0.14,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6810,7 +6810,7 @@ u"""
 entry(
     index = -1,
     label = "C=SJ-C",
-    group = 
+    group =
 """
 1 * CS u1 {2,S} {3,D}
 2   C  u0 {1,S}
@@ -6818,7 +6818,7 @@ entry(
 """,
     thermo = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6827,7 +6827,7 @@ u"""
 entry(
     index = 260,
     label = "C=SJ-Cd",
-    group = 
+    group =
 """
 1 * CS u1 {2,S} {3,D}
 2   Cd u0 {1,S}
@@ -6840,7 +6840,7 @@ entry(
         S298 = (0.48,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6849,7 +6849,7 @@ u"""
 entry(
     index = 259,
     label = "C=SJ-Cs",
-    group = 
+    group =
 """
 1 * CS u1 {2,S} {3,D}
 2   Cs u0 {1,S}
@@ -6862,7 +6862,7 @@ entry(
         S298 = (0.65,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6871,13 +6871,13 @@ u"""
 entry(
     index = 94,
     label = "OJ",
-    group = 
+    group =
 """
 1 * O u1
 """,
     thermo = u'COJ',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6886,7 +6886,7 @@ u"""
 entry(
     index = 95,
     label = "HOJ",
-    group = 
+    group =
 """
 1 * O2s u1 {2,S}
 2   H  u0 {1,S}
@@ -6898,7 +6898,7 @@ entry(
         S298 = (-2.6,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculated from NIST values for H2O, OH and H""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6907,14 +6907,14 @@ u"""
 entry(
     index = 135,
     label = "COJ",
-    group = 
+    group =
 """
 1 * O2s u1 {2,S}
 2   C  u0 {1,S}
 """,
     thermo = u'CsOJ',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6923,7 +6923,7 @@ u"""
 entry(
     index = 96,
     label = "CsOJ",
-    group = 
+    group =
 """
 1 * O2s u1 {2,S}
 2   Cs u0 {1,S}
@@ -6935,7 +6935,7 @@ entry(
         S298 = (-1.46,'cal/(mol*K)'),
     ),
     shortDesc = u"""CHEN & BOZZELLI(ROJ)""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6944,7 +6944,7 @@ u"""
 entry(
     index = 97,
     label = "H3COJ",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * O2s u1 {1,S}
@@ -6959,7 +6959,7 @@ entry(
         S298 = (0.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Enthalpy HBI calculated from NIST values, entropy and Cp from B3LYP/6-31G* for CH3OH, CH3O and H""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6968,7 +6968,7 @@ u"""
 entry(
     index = 3022,
     label = "CC(C)OJ",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S}
 2 * O2s u1 {1,S}
@@ -6982,7 +6982,7 @@ entry(
         S298 = (-6.8,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -6994,7 +6994,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 18002,
     label = "Cds-P-Cl",
-    group = 
+    group =
 """
 1 * Cd u1 {2,D} {3,S}
 2   C  u0 {1,D}
@@ -7007,7 +7007,7 @@ entry(
         S298 = (1.542,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calculations""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7017,7 +7017,7 @@ u"""
 entry(
     index = 18003,
     label = "CJ(Cl)=CC",
-    group = 
+    group =
 """
 1 * Cd u1 {2,D} {3,S}
 2   C  u0 {1,D} {4,S}
@@ -7026,7 +7026,7 @@ entry(
 """,
     thermo = u'Cds-P-Cl',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7038,7 +7038,7 @@ u"""
 entry(
     index = 3023,
     label = "CC(C)2OJ",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * O2s u1 {1,S}
@@ -7053,7 +7053,7 @@ entry(
         S298 = (-4.6,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -7064,7 +7064,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3036,
     label = "C=CC(C)2OJ",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -7080,7 +7080,7 @@ entry(
         S298 = (2.7,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -7091,7 +7091,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3068,
     label = "C=CC(C)(C=O)OJ",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {7,D}
@@ -7108,7 +7108,7 @@ entry(
         S298 = (10.4,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -7119,7 +7119,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3051,
     label = "CC(C)(C=O)OJ",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -7135,7 +7135,7 @@ entry(
         S298 = (16.3,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -7146,7 +7146,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3024,
     label = "CC(C)(O)OJ",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 * O2s u1 {1,S}
@@ -7161,7 +7161,7 @@ entry(
         S298 = (8,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -7172,7 +7172,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3037,
     label = "C=CC(C)(O)OJ",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -7188,7 +7188,7 @@ entry(
         S298 = (8.5,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -7199,14 +7199,14 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 98,
     label = "CdsOJ",
-    group = 
+    group =
 """
 1 * O2s      u1 {2,S}
 2   [Cd,CO] u0 {1,S}
 """,
     thermo = u'RC=COJ',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7215,7 +7215,7 @@ u"""
 entry(
     index = 99,
     label = "RC=COJ",
-    group = 
+    group =
 """
 1 * O2s u1 {2,S}
 2   Cd u0 {1,S}
@@ -7227,7 +7227,7 @@ entry(
         S298 = (-1.11,'cal/(mol*K)'),
     ),
     shortDesc = u"""CHEN & BOZZELLI""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7236,7 +7236,7 @@ u"""
 entry(
     index = 3034,
     label = "C=COJ",
-    group = 
+    group =
 """
 1   Cd u0 {2,S} {3,D}
 2 * O2s u1 {1,S}
@@ -7249,7 +7249,7 @@ entry(
         S298 = (3.3,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -7260,7 +7260,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3035,
     label = "C=C(C)OJ",
-    group = 
+    group =
 """
 1   Cd u0 {2,S} {3,D} {4,S}
 2 * O2s u1 {1,S}
@@ -7274,7 +7274,7 @@ entry(
         S298 = (7.4,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -7285,7 +7285,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 100,
     label = "OJC=O",
-    group = 
+    group =
 """
 1   CO u0 {2,S} {3,D}
 2 * O2s u1 {1,S}
@@ -7298,7 +7298,7 @@ entry(
         S298 = (0.79,'cal/(mol*K)'),
     ),
     shortDesc = u"""CHEN & BOZZELLI""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7307,7 +7307,7 @@ u"""
 entry(
     index = 3049,
     label = "OC=OOJ",
-    group = 
+    group =
 """
 1   CO u0 {2,S} {3,S} {4,D}
 2 * O2s u1 {1,S}
@@ -7321,7 +7321,7 @@ entry(
         S298 = (6,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -7332,7 +7332,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3050,
     label = "C=OC=OOJ",
-    group = 
+    group =
 """
 1   CO u0 {2,S} {3,S} {4,D}
 2   CO u0 {1,S} {5,D}
@@ -7347,7 +7347,7 @@ entry(
         S298 = (16,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -7358,14 +7358,14 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 217,
     label = "CbOJ",
-    group = 
+    group =
 """
 1 * O2s u1 {2,S}
 2   Cb u0 {1,S}
 """,
     thermo = u'RC=COJ',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7374,7 +7374,7 @@ u"""
 entry(
     index = 3020,
     label = "CCOJ",
-    group = 
+    group =
 """
 1   C  u0 {2,S} {3,S}
 2 * O2s u1 {1,S}
@@ -7387,7 +7387,7 @@ entry(
         S298 = (3.8,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -7398,7 +7398,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3048,
     label = "C=OCOJ",
-    group = 
+    group =
 """
 1   C  u0 {2,S} {3,S}
 2   CO u0 {1,S} {4,D}
@@ -7412,7 +7412,7 @@ entry(
         S298 = (2.6,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -7423,7 +7423,7 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 3021,
     label = "OCOJ",
-    group = 
+    group =
 """
 1   C  u0 {2,S} {3,S}
 2 * O2s u1 {1,S}
@@ -7436,7 +7436,7 @@ entry(
         S298 = (0.8,'J/(mol*K)'),
     ),
     shortDesc = u"""\Derived from CBS-QB3 calculation with 1DHR treatment""",
-    longDesc = 
+    longDesc =
 u"""
 Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
 optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
@@ -7447,14 +7447,14 @@ DOI: 10.1002/chem.201301381
 entry(
     index = 101,
     label = "OOJ",
-    group = 
+    group =
 """
 1 * O2s u1 {2,S}
 2   O2s u0 {1,S}
 """,
     thermo = u'ROOJ',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7463,7 +7463,7 @@ u"""
 entry(
     index = 102,
     label = "ROOJ",
-    group = 
+    group =
 """
 1   O2s  u0 {2,S} {3,S}
 2 * O2s  u1 {1,S}
@@ -7476,7 +7476,7 @@ entry(
         S298 = (0.22,'cal/(mol*K)'),
     ),
     shortDesc = u"""CHEN & BOZZELLI""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7485,7 +7485,7 @@ u"""
 entry(
     index = 104,
     label = "C(=O)OOJ",
-    group = 
+    group =
 """
 1   O2s u0 {2,S} {3,S}
 2   CO u0 {1,S} {4,D}
@@ -7499,7 +7499,7 @@ entry(
         S298 = (0.22,'cal/(mol*K)'),
     ),
     shortDesc = u"""HBI for enthalpy from CHEN & BOZZELLI. Cp and S values taken from ROOJ""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7508,7 +7508,7 @@ u"""
 entry(
     index = 103,
     label = "C3COOJ",
-    group = 
+    group =
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S} {6,S}
@@ -7524,7 +7524,7 @@ entry(
         S298 = (0.22,'cal/(mol*K)'),
     ),
     shortDesc = u"""CHEN & BOZZELLI""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7533,7 +7533,7 @@ u"""
 entry(
     index = 105,
     label = "HOOJ",
-    group = 
+    group =
 """
 1   O2s u0 {2,S} {3,S}
 2 * O2s u1 {1,S}
@@ -7546,7 +7546,7 @@ entry(
         S298 = (-0.92,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculated from NIST values for H2O2, O2H and H""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7556,13 +7556,13 @@ u"""
 entry(
     index = 110,
     label = "NJ",
-    group = 
+    group =
 """
 1 * N u1
 """,
     thermo = u'N3sJ',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7571,13 +7571,13 @@ u"""
 entry(
     index = 111,
     label = "N3sJ",
-    group = 
+    group =
 """
 1 * N3s u1 p1
 """,
     thermo = u'NHJ_C',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7586,7 +7586,7 @@ u"""
 entry(
     index = 112,
     label = "NH2J",
-    group = 
+    group =
 """
 1 * N3s u1 p1 {2,S} {3,S}
 2   H   u0 p0 {1,S}
@@ -7599,7 +7599,7 @@ entry(
         S298 = (0.53,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculated in relation to ammonia from thermo_DFT_CCSDTF12_BAC values""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7608,7 +7608,7 @@ u"""
 entry(
     index = 113,
     label = "NHJ_C",
-    group = 
+    group =
 """
 1 * N3s u1 p1 {2,S} {3,S}
 2   C   u0 p0 {1,S}
@@ -7621,7 +7621,7 @@ entry(
         S298 = (0.92,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculated in relation to CH3NH2 from thermo_DFT_CCSDTF12_BAC values""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7630,7 +7630,7 @@ u"""
 entry(
     index = 114,
     label = "NHJ_O",
-    group = 
+    group =
 """
 1 * N3s u1 p1 {2,S} {3,S}
 2   O   u0 p2 {1,S}
@@ -7696,13 +7696,13 @@ u"""
 entry(
     index = 117,
     label = "N3dJ",
-    group = 
+    group =
 """
 1 * N3d u1 p1
 """,
     thermo = u'N3dJ_C',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7774,13 +7774,13 @@ u"""
 entry(
     index = 134,
     label = "SiJ",
-    group = 
+    group =
 """
 1 * Si u1
 """,
     thermo = u'CJ',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7789,13 +7789,13 @@ u"""
 entry(
     index = 137,
     label = "SJ",
-    group = 
+    group =
 """
 1 * S u1
 """,
     thermo = u'S2J',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7804,7 +7804,7 @@ u"""
 entry(
     index = 235,
     label = "S2J-H",
-    group = 
+    group =
 """
 1 * S2s u1 p2 {2,S}
 2   H   u0    {1,S}
@@ -7816,7 +7816,7 @@ entry(
         S298 = (-4.62,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7825,14 +7825,14 @@ u"""
 entry(
     index = -1,
     label = "S2J-C",
-    group = 
+    group =
 """
 1 * S2s u1 p2 {2,S}
 2   C   u0    {1,S}
 """,
     thermo = u'S2J-Cs',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7841,7 +7841,7 @@ u"""
 entry(
     index = 236,
     label = "S2J-Cs",
-    group = 
+    group =
 """
 1 * S2s u1 p2 {2,S}
 2   Cs  u0    {1,S}
@@ -7853,7 +7853,7 @@ entry(
         S298 = (-2.77,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7862,7 +7862,7 @@ u"""
 entry(
     index = 238,
     label = "S2J-Ct",
-    group = 
+    group =
 """
 1 * S2s u1 p2 {2,S}
 2   Ct  u0    {1,S}
@@ -7874,7 +7874,7 @@ entry(
         S298 = (-4.6,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7883,7 +7883,7 @@ u"""
 entry(
     index = 239,
     label = "S2J-Cb",
-    group = 
+    group =
 """
 1 * S2s u1 p2 {2,S}
 2   Cb  u0    {1,S}
@@ -7895,7 +7895,7 @@ entry(
         S298 = (-3.66,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7904,7 +7904,7 @@ u"""
 entry(
     index = 237,
     label = "S2J-Cd",
-    group = 
+    group =
 """
 1 * S2s u1 p2 {2,S}
 2   Cd  u0    {1,S} {3,D}
@@ -7917,7 +7917,7 @@ entry(
         S298 = (-1.79,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7926,7 +7926,7 @@ u"""
 entry(
     index = 240,
     label = "S2J-C=S",
-    group = 
+    group =
 """
 1 * S2s u1 p2 {2,S}
 2   CS  u0    {1,S} {3,D}
@@ -7939,7 +7939,7 @@ entry(
         S298 = (-0.7,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7948,7 +7948,7 @@ u"""
 entry(
     index = 266,
     label = "S2J-CO",
-    group = 
+    group =
 """
 1 * S2s u1 p2 {2,S}
 2   CO  u0    {1,S} {3,D}
@@ -7961,7 +7961,7 @@ entry(
         S298 = (-0.42,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 CAC""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7970,14 +7970,14 @@ u"""
 entry(
     index = -1,
     label = "S2J-S2s",
-    group = 
+    group =
 """
 1 * S2s u1 p2 {2,S}
 2   S2s u0 p2 {1,S}
 """,
     thermo = u'S2J-S2s-H',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7986,7 +7986,7 @@ u"""
 entry(
     index = 241,
     label = "S2J-S2s-H",
-    group = 
+    group =
 """
 1 * S2s u1 p2 {2,S}
 2   S2s u0 p2 {1,S} {3,S}
@@ -7999,7 +7999,7 @@ entry(
         S298 = (-2.53,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8008,7 +8008,7 @@ u"""
 entry(
     index = 242,
     label = "S2J-S2s-Cs",
-    group = 
+    group =
 """
 1 * S2s u1 p2 {2,S}
 2   S2s u0 p2 {1,S} {3,S}
@@ -8021,7 +8021,7 @@ entry(
         S298 = (-1.7,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8030,7 +8030,7 @@ u"""
 entry(
     index = 243,
     label = "S2J-S2s-S2s",
-    group = 
+    group =
 """
 1 * S2s u1 p2 {2,S}
 2   S2s u0 p2 {1,S} {3,S}
@@ -8043,7 +8043,7 @@ entry(
         S298 = (0.6,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8052,13 +8052,13 @@ u"""
 entry(
     index = 106,
     label = "RJ2_triplet",
-    group = 
+    group =
 """
 1 * R!H u2
 """,
     thermo = u'CJ2_triplet',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8067,13 +8067,13 @@ u"""
 entry(
     index = 107,
     label = "CJ2_triplet",
-    group = 
+    group =
 """
 1 * C u2
 """,
     thermo = u'CsJ2_triplet',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8082,13 +8082,13 @@ u"""
 entry(
     index = 108,
     label = "CsJ2_triplet",
-    group = 
+    group =
 """
 1 * Cs u2
 """,
     thermo = u'CH2_triplet',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8097,7 +8097,7 @@ u"""
 entry(
     index = 110,
     label = "CH2_triplet",
-    group = 
+    group =
 """
 1 * Cs u2 {2,S} {3,S}
 2   H  u0 {1,S}
@@ -8110,7 +8110,7 @@ entry(
         S298 = (-1.73,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculated for methylene in relation to methane from NIST values""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8119,7 +8119,7 @@ u"""
 entry(
     index = 112,
     label = "CsJ2_P_triplet",
-    group = 
+    group =
 """
 1 * Cs u2 {2,S} {3,S}
 2   C  u0 {1,S}
@@ -8127,7 +8127,7 @@ entry(
 """,
     thermo = u'CsCsJ2_triplet',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8136,7 +8136,7 @@ u"""
 entry(
     index = 113,
     label = "CsCsJ2_triplet",
-    group = 
+    group =
 """
 1 * Cs u2 {2,S} {3,S}
 2   Cs u0 {1,S}
@@ -8144,7 +8144,7 @@ entry(
 """,
     thermo = u'CCJ2_triplet',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8153,7 +8153,7 @@ u"""
 entry(
     index = 115,
     label = "CCJ2_triplet",
-    group = 
+    group =
 """
 1 * Cs u2 {2,S} {3,S}
 2   Cs u0 {1,S} {4,S} {5,S} {6,S}
@@ -8169,7 +8169,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""BDE and Cp calculated from data in KIM et al.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8178,7 +8178,7 @@ u"""
 entry(
     index = 118,
     label = "PhCH_triplet",
-    group = 
+    group =
 """
 1 * Cs u2 {2,S} {3,S}
 2   Cb u0 {1,S}
@@ -8191,7 +8191,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""BDE from PUTSMA et al.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8200,7 +8200,7 @@ u"""
 entry(
     index = 121,
     label = "AllylJ2_triplet",
-    group = 
+    group =
 """
 1 * Cs u2 {2,S} {3,S}
 2   Cd u0 {1,S}
@@ -8213,7 +8213,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""BDE from PUTSMA et al.""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8222,7 +8222,7 @@ u"""
 entry(
     index = 123,
     label = "CsJ2_S_triplet",
-    group = 
+    group =
 """
 1 * Cs u2 {2,S} {3,S}
 2   C  u0 {1,S}
@@ -8230,7 +8230,7 @@ entry(
 """,
     thermo = u'CsJ2_P_triplet',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8265,13 +8265,13 @@ J. Phys. Chem. A 2012, 116, 9033-9057.
 entry(
     index = 124,
     label = "CdJ2_triplet",
-    group = 
+    group =
 """
 1 * [Cd,CO] u2
 """,
     thermo = u'CCdJ2_triplet',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8280,14 +8280,14 @@ u"""
 entry(
     index = 126,
     label = "CCdJ2_triplet",
-    group = 
+    group =
 """
 1 * Cd u2 {2,D}
 2   C  u0 {1,D}
 """,
     thermo=u'CdCdJ2_triplet',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8347,7 +8347,7 @@ entry(
 entry(
     index = 262,
     label = "CdJ2-Sd_triplet",
-    group = 
+    group =
 """
 1 * CS u2 {2,D}
 2   S2d u0 {1,D}
@@ -8359,7 +8359,7 @@ entry(
         S298 = (-3.31,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8368,13 +8368,13 @@ u"""
 entry(
     index = 270,
     label = "NJ2_triplet",
-    group = 
+    group =
 """
 1 * N u2 px
 """,
     thermo = u'NJ2_C',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8383,13 +8383,13 @@ u"""
 entry(
     index = 271,
     label = "N3sJ2",
-    group = 
+    group =
 """
 1 * N3s u2 p1
 """,
     thermo = u'NJ2_C',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8398,7 +8398,7 @@ u"""
 entry(
     index = 272,
     label = "NHJ2",
-    group = 
+    group =
 """
 1 * N3s u2 p1 {2,S}
 2   H   u0 p0 {1,S}
@@ -8419,7 +8419,7 @@ u"""
 entry(
     index = 273,
     label = "NJ2_C",
-    group = 
+    group =
 """
 1 * N3s u2 p1 {2,S}
 2   C   u0 p0 {1,S}
@@ -8440,7 +8440,7 @@ u"""
 entry(
     index = 274,
     label = "NJ2_O",
-    group = 
+    group =
 """
 1 * N3s u2 p1 {2,S}
 2   O   u0 p2 {1,S}
@@ -8461,7 +8461,7 @@ u"""
 entry(
     index = 130,
     label = "Oa_triplet",
-    group = 
+    group =
 """
 1 * O u2
 """,
@@ -8472,7 +8472,7 @@ entry(
         S298 = (-8.02,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculated for atomic oxygen in relation to water from NIST values""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8481,13 +8481,13 @@ u"""
 entry(
     index = 135,
     label = "SiJ2_triplet",
-    group = 
+    group =
 """
 1 * Si u2
 """,
     thermo = u'CJ2_triplet',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8496,7 +8496,7 @@ u"""
 entry(
     index = 263,
     label = "SJ2_triplet",
-    group = 
+    group =
 """
 1 * S u2
 """,
@@ -8507,7 +8507,7 @@ entry(
         S298 = (-12.02,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8516,13 +8516,13 @@ u"""
 entry(
     index = 132,
     label = "RJ3",
-    group = 
+    group =
 """
 1 * R!H u3
 """,
     thermo = u'CJ3',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8531,7 +8531,7 @@ u"""
 entry(
     index = 133,
     label = "CJ3",
-    group = 
+    group =
 """
 1 * Cs u3
 """,
@@ -8542,7 +8542,7 @@ entry(
         S298 = (-5.7,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculated for methylidyene in relation to methane from NIST values""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8551,13 +8551,13 @@ u"""
 entry(
     index = 136,
     label = "SiJ3",
-    group = 
+    group =
 """
 1 * Sis u3
 """,
     thermo = u'CJ3',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -8860,11 +8860,11 @@ L1: Radical
             L4: CsJ
                 L5: CH3
                 L5: Cs_P_ClCl
-                	L6: CsCsJ(Cl)(Cl) 
-                		L7: RCCJ(Cl)(Cl) 
+                	L6: CsCsJ(Cl)(Cl)
+                		L7: RCCJ(Cl)(Cl)
                 L5: Cs_P_Cl
-                	L6: CsCsJ(Cl) 
-                		L7: RCCJ(Cl) 
+                	L6: CsCsJ(Cl)
+                		L7: RCCJ(Cl)
                 L5: Cs_P
                     L6: CJCO
                         L7: C=C(O)CJ
@@ -8897,14 +8897,10 @@ L1: Radical
                         L7: CTCC=CCJ
                         L7: CJC=C=O
                     L6: Propargyl
-<<<<<<< HEAD
                     L6: CJC=O
                         L7: C2JC=O
-=======
-                    L6: C2JC=O
                 L5: Cs_S_Cl
                 	L6: (Cs)2ClCsJ
->>>>>>> 3d7fa91fd3e8664d565158ef3d853dcae3dd14a4
                 L5: Cs_S
                     L6: CCJCO
                         L7: C=CCJCO
@@ -9238,4 +9234,3 @@ L1: Radical
         L3: SiJ3
 """
 )
-

@@ -1,6 +1,6 @@
 # This file contains a dictionary of kinetics families.  The families
 # set to `True` are recommended by RMG and turned on by default by setting
-# kineticsFamilies = 'default' in the RMG input file. Families set to `False` 
+# kineticsFamilies = 'default' in the RMG input file. Families set to `False`
 # are not turned on by default because the family is severely lacking in data.
 # These families should only be turned on with caution.
 
@@ -23,11 +23,8 @@ recommendedFamilies = {
 'CO_Disproportionation':True,
 'Birad_R_Recombination':True,
 'Cyclic_Ether_Formation':True,
-<<<<<<< HEAD
 'Cyclic_Thioether_Formation':True,
-=======
 'Cl_Abstraction':True,
->>>>>>> 3d7fa91fd3e8664d565158ef3d853dcae3dd14a4
 'Diels_alder_addition':True,
 'Disproportionation':True,
 'HO2_Elimination_from_PeroxyRadical':True,
@@ -55,7 +52,6 @@ recommendedFamilies = {
 'intra_substitutionS_cyclization':True,
 'intra_substitutionS_isomerization':True,
 'ketoenol':True,
-<<<<<<< HEAD
 'lone_electron_pair_bond':False,
 'Singlet_Carbene_Intra_Disproportionation':True,
 'Singlet_Val6_to_triplet':True,
@@ -68,8 +64,5 @@ recommendedFamilies = {
 '6_membered_central_C-C_shift':True,
 'Intra_R_Add_Exo_scission':True,
 '1,2_shiftC':True,
-=======
-'lone_electron_pair_bond':True,
 'XY_Addition_DoubleBond':True,
->>>>>>> 3d7fa91fd3e8664d565158ef3d853dcae3dd14a4
 }
