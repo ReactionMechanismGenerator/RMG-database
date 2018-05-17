@@ -5321,3 +5321,273 @@ G4//B3LYP/6-31G(2df,p)
 """,
 )
 
+entry(
+    index = 1589,
+    label = "C6H6 + H <=> H2 + C6H5",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(
+        A = (4.57e+08, 'cm^3/(mol*s)'),
+        n = 1.88,
+        Ea = (14.839, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Semenikhin, A. S.', 'Savchenkova, A. S.', 'Chechet, I. V.', 'Matveev, S. G.', 'Liu, Z.', 'Frenklach, M.', 'Mebel, A. M.'],
+        title = u'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (37)',
+        pages = '25401-25413',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3(MP2,CC)//B3LYP
+""",
+)
+
+entry(
+    index = 1590,
+    label = "C12H8 + H <=> H2 + C12H7",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (3.27e+08, 'cm^3/(mol*s)'),
+        n = 1.71,
+        Ea = (16.236, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 4,
+    reference = Article(
+        authors = ['Violi, A.', 'Truong, T. N.', 'Sarofim, A. F.'],
+        title = u'Kinetics of Hydrogen Abstraction Reactions from Polycyclic Aromatic Hydrocarbons by H Atoms',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '108 (22)',
+        pages = '4846-4852',
+        year = '2004',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+B3LYP structural and vibrational information with BH&HLYP corrected barrier
+""",
+)
+
+entry(
+    index = 1591,
+    label = "C6H6 + OH <=> H2O + C6H5",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(
+        A = (3.88e-20, 'cm^3/(molecule*s)'),
+        n = 2.683,
+        Ea = (0.7333, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    reference = Article(
+        authors = ['Seta, T.', 'Nakajima, M.', 'Miyoshi, A.'],
+        title = u'High-Temperature Reactions of OH Radicals with Benzene and Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '110 (15)',
+        pages = '5081-5090',
+        year = '2006',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CBS-QB3 + Exp.
+""",
+)
+
+entry(
+    index = 1592,
+    label = "C6H6 + CH3_p23 <=> CH4b + C6H5",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(
+        A = (3.07e-21, 'cm^3/(molecule*s)'),
+        n = 2.88,
+        Ea = (13.332, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Mai, T. V. T.', 'Ratkiewicz, A.', 'Duong, M. v.', 'Huynh, L. K.'],
+        title = u'Direct ab initio study of the C6H6+CH3/C2H5=C6H5+CH4/C2H6 reactions',
+        journal = 'Chemical Physics Letters',
+        volume = '646',
+        pages = '102-109',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)/CBS//BH&HLYP/cc-pVDZ, and canonical variational transition state theory (CVT) with corrections for small curvaturetunneling (SCT) and hindered internal rotation (HIR)
+""",
+)
+
+entry(
+    index = 1593,
+    label = "C6H6 + C2H5 <=> C2H6 + C6H5",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(
+        A = (2.62e-22, 'cm^3/(molecule*s)'),
+        n = 3.11,
+        Ea = (18.66, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Mai, T. V. T.', 'Ratkiewicz, A.', 'Duong, M. v.', 'Huynh, L. K.'],
+        title = u'Direct ab initio study of the C6H6+CH3/C2H5=C6H5+CH4/C2H6 reactions',
+        journal = 'Chemical Physics Letters',
+        volume = '646',
+        pages = '102-109',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)/CBS//BH&HLYP/cc-pVDZ, and canonical variational transition state theory (CVT) with corrections for small curvaturetunneling (SCT) and hindered internal rotation (HIR)
+""",
+)
+
+entry(
+    index = 1594,
+    label = "C10H8 + H <=> H2 + C10H7",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(
+        A = (3.91e+08, 'cm^3/(mol*s)'),
+        n = 1.84,
+        Ea = (14.973, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Semenikhin, A. S.', 'Savchenkova, A. S.', 'Chechet, I. V.', 'Matveev, S. G.', 'Liu, Z.', 'Frenklach, M.', 'Mebel, A. M.'],
+        title = u'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (37)',
+        pages = '25401-25413',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3(MP2,CC)//B3LYP
+""",
+)
+
+entry(
+    index = 1595,
+    label = "C10H8-2 + H <=> H2 + C10H7-2",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(
+        A = (4.04e+08, 'cm^3/(mol*s)'),
+        n = 1.83,
+        Ea = (14.98, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Semenikhin, A. S.', 'Savchenkova, A. S.', 'Chechet, I. V.', 'Matveev, S. G.', 'Liu, Z.', 'Frenklach, M.', 'Mebel, A. M.'],
+        title = u'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (37)',
+        pages = '25401-25413',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3(MP2,CC)//B3LYP
+""",
+)
+
+entry(
+    index = 1596,
+    label = "C6H5 + H2 <=> C6H6 + H",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (16900, 'cm^3/(mol*s)'),
+        n = 2.63,
+        Ea = (4.559, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Semenikhin, A. S.', 'Savchenkova, A. S.', 'Chechet, I. V.', 'Matveev, S. G.', 'Liu, Z.', 'Frenklach, M.', 'Mebel, A. M.'],
+        title = u'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (37)',
+        pages = '25401-25413',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3(MP2,CC)//B3LYP
+""",
+)
+
+entry(
+    index = 1597,
+    label = "C10H7 + H2 <=> C10H8 + H",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (15800, 'cm^3/(mol*s)'),
+        n = 2.63,
+        Ea = (4.107, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Semenikhin, A. S.', 'Savchenkova, A. S.', 'Chechet, I. V.', 'Matveev, S. G.', 'Liu, Z.', 'Frenklach, M.', 'Mebel, A. M.'],
+        title = u'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (37)',
+        pages = '25401-25413',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3(MP2,CC)//B3LYP
+""",
+)
+
+entry(
+    index = 1598,
+    label = "C10H7-2 + H2 <=> C10H8-2 + H",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (18400, 'cm^3/(mol*s)'),
+        n = 2.61,
+        Ea = (4.446, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Semenikhin, A. S.', 'Savchenkova, A. S.', 'Chechet, I. V.', 'Matveev, S. G.', 'Liu, Z.', 'Frenklach, M.', 'Mebel, A. M.'],
+        title = u'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (37)',
+        pages = '25401-25413',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3(MP2,CC)//B3LYP
+""",
+)
+
