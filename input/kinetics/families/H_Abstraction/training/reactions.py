@@ -4762,3 +4762,57 @@ Jim Chu's calculation
 """,
 )
 
+entry(
+    index = 1569,
+    label = "C3H4 + OH <=> H2O + C3H3-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (12560, 'cm^3/(mol*s)'),
+        n = 2.794,
+        Ea = (0.153, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Zádor, J.', 'Miller, J. A.'],
+        title = u'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '35 (1)',
+        pages = '181-188',
+        year = '2015',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
+""",
+)
+
+entry(
+    index = 1570,
+    label = "C3H4-1 + OH <=> H2O + C3H3",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(
+        A = (33830, 'cm^3/(mol*s)'),
+        n = 2.802,
+        Ea = (0.933, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Zádor, J.', 'Miller, J. A.'],
+        title = u'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '35 (1)',
+        pages = '181-188',
+        year = '2015',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
+""",
+)
+

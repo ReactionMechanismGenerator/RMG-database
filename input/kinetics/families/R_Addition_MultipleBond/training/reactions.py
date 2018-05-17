@@ -3558,3 +3558,155 @@ CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
 )
 
+entry(
+    index = 209,
+    label = "C3H5O-2 <=> C2H2O-2 + CH3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.977e+09, 's^-1'), n=1.37, Ea=(41.408, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Zádor, J.', 'Miller, J. A.'],
+        title = u'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '35 (1)',
+        pages = '181-188',
+        year = '2015',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
+""",
+)
+
+entry(
+    index = 210,
+    label = "C3H5O-3 <=> C2H2O + CH3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.022e+12, 's^-1'), n=0.577, Ea=(41.055, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Zádor, J.', 'Miller, J. A.'],
+        title = u'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '35 (1)',
+        pages = '181-188',
+        year = '2015',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
+""",
+)
+
+entry(
+    index = 211,
+    label = "C3H4-2 + OH <=> C3H5O-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.508e+07, 'cm^3/(mol*s)'),
+        n = 1.628,
+        Ea = (-0.462, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Zádor, J.', 'Miller, J. A.'],
+        title = u'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '35 (1)',
+        pages = '181-188',
+        year = '2015',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
+""",
+)
+
+entry(
+    index = 212,
+    label = "C3H4-4 + OH <=> C3H5O-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.148e+06, 'cm^3/(mol*s)'),
+        n = 1.876,
+        Ea = (-0.423, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Zádor, J.', 'Miller, J. A.'],
+        title = u'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '35 (1)',
+        pages = '181-188',
+        year = '2015',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
+""",
+)
+
+entry(
+    index = 213,
+    label = "C3H4-3 + OH <=> C3H5O-6",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1.973e+06, 'cm^3/(mol*s)'),
+        n = 2.037,
+        Ea = (-1.433, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Zádor, J.', 'Miller, J. A.'],
+        title = u'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '35 (1)',
+        pages = '181-188',
+        year = '2015',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
+""",
+)
+
+entry(
+    index = 214,
+    label = "C3H4 + OH <=> C3H5O-7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (41610, 'cm^3/(mol*s)'),
+        n = 2.487,
+        Ea = (-1.81, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Zádor, J.', 'Miller, J. A.'],
+        title = u'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '35 (1)',
+        pages = '181-188',
+        year = '2015',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
+""",
+)
+
