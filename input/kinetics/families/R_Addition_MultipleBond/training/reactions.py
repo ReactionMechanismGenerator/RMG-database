@@ -3836,3 +3836,57 @@ G3SX//B3LYP/6-31G(2df,p)
 """,
 )
 
+entry(
+    index = 217,
+    label = "C7H8-14 + H <=> C7H9-28",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (5.726e+07, 'cm^3/(mol*s)'),
+        n = 1.725,
+        Ea = (2.395, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Bao, J. L.', 'Zheng, J.', 'Truhlar, D. G.'],
+        title = u'Kinetics of Hydrogen Radical Reactions with Toluene Including Chemical Activation Theory Employing System-Specific Quantum RRK Theory Calibrated by Variational Transition State Theory',
+        journal = 'Journal of the American Chemical Society',
+        volume = '138 (8)',
+        pages = '2690-2704',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+System-specific (SS) QRRK approach is adjusted with SS parameters to agree with multistructural canonical variational transition state theory with multidimensional tunneling (MS-CVT/SCT) at the high-pressure limit. The MPW1K/MG3S level of theory
+""",
+)
+
+entry(
+    index = 218,
+    label = "C7H8-15 + H <=> C7H9-29",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1.757e+07, 'cm^3/(mol*s)'),
+        n = 1.859,
+        Ea = (2.679, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Bao, J. L.', 'Zheng, J.', 'Truhlar, D. G.'],
+        title = u'Kinetics of Hydrogen Radical Reactions with Toluene Including Chemical Activation Theory Employing System-Specific Quantum RRK Theory Calibrated by Variational Transition State Theory',
+        journal = 'Journal of the American Chemical Society',
+        volume = '138 (8)',
+        pages = '2690-2704',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+System-specific (SS) QRRK approach is adjusted with SS parameters to agree with multistructural canonical variational transition state theory with multidimensional tunneling (MS-CVT/SCT) at the high-pressure limit. The MPW1K/MG3S level of theory
+""",
+)
+
