@@ -4653,3 +4653,112 @@ Accurate geometries are obtained using coupled cluster theory with single, doubl
 """,
 )
 
+entry(
+    index = 1563,
+    label = "C4H4 + CH3_p23 <=> CH4b + C4H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9.24, 'cm^3/(mol*s)'), n=3.335, Ea=(7.75, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+TST calculation based on the CBS-QB3 level of theory with 1D hinder rotoer consideration
+Jim Chu's calculation
+""",
+)
+
+entry(
+    index = 1564,
+    label = "C4H4 + H <=> H2 + C4H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.092e+06, 'cm^3/(mol*s)'),
+        n = 2.211,
+        Ea = (7.181, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+TST calculation based on the CBS-QB3 level of theory with 1D hinder rotoer consideration
+Jim Chu's calculation
+""",
+)
+
+entry(
+    index = 1565,
+    label = "C4H6-5 + CH3_p23 <=> CH4b + C4H5-4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (14.26, 'cm^3/(mol*s)'),
+        n = 3.317,
+        Ea = (6.61, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+TST calculation based on the CBS-QB3 level of theory with 1D hinder rotoer consideration
+Jim Chu's calculation
+""",
+)
+
+entry(
+    index = 1566,
+    label = "C4H6-5 + H <=> H2 + C4H5-4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1.867e+06, 'cm^3/(mol*s)'),
+        n = 2.242,
+        Ea = (5.318, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+TST calculation based on the CBS-QB3 level of theory with 1D hinder rotoer consideration
+Jim Chu's calculation
+""",
+)
+
+entry(
+    index = 1567,
+    label = "C4H6 + CH3_p23 <=> CH4b + C4H5-5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (29.41, 'cm^3/(mol*s)'),
+        n = 3.184,
+        Ea = (5.529, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+TST calculation based on the CBS-QB3 level of theory with 1D hinder rotoer consideration
+Jim Chu's calculation
+""",
+)
+
+entry(
+    index = 1568,
+    label = "C4H6 + H <=> H2 + C4H5-5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (8.501e+06, 'cm^3/(mol*s)'),
+        n = 2.027,
+        Ea = (4.069, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+TST calculation based on the CBS-QB3 level of theory with 1D hinder rotoer consideration
+Jim Chu's calculation
+""",
+)
+
