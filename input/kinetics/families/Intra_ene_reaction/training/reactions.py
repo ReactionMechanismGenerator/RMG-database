@@ -108,22 +108,27 @@ Taken from entry: C5H5CH3-1 <=> C5H5CH3-2
 """,
 )
 
-
-
 entry(
     index = 8,
     label = "C6H7 <=> C6H7-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.23e+07, 's^-1'), n=1.54, Ea=(13.4, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.27e+10, 's^-1'), n=0.581, Ea=(16.586, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Taken from entry: C5H5CH2-1 <=> C5H5CH2-2
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
-
-
 
 entry(
     index = 9,
@@ -285,4 +290,6 @@ u"""
 G3SX//B3LYP/6-31G(2df,p)
 """,
 )
+
+
 

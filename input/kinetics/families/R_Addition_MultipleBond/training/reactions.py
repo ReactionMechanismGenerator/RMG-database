@@ -1069,16 +1069,25 @@ entry(
     label = "C6H6 + H <=> C6H7-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (1.69e+09, 'cm^3/(mol*s)'),
-        n = 1.46,
-        Ea = (-0.7, 'kcal/mol'),
+        A = (1.031e+09, 'cm^3/(mol*s)'),
+        n = 1.339,
+        Ea = (-0.477, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Taken from entry: FULVENE + H <=> C5H4CH3
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
@@ -1086,12 +1095,26 @@ entry(
     index = 64,
     label = "C6H6-3 + H <=> C6H7-5",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.31e+08, 'cm^3/(mol*s)'), n=1.76, Ea=(2, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    kinetics = Arrhenius(
+        A = (1.997e+08, 'cm^3/(mol*s)'),
+        n = 1.629,
+        Ea = (3.519, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Taken from entry: FULVENE + H <=> C5H5CH2-1
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
@@ -1100,16 +1123,25 @@ entry(
     label = "C6H6-5 + H <=> C6H7-6",
     degeneracy = 2.0,
     kinetics = Arrhenius(
-        A = (7.26e+09, 'cm^3/(mol*s)'),
-        n = 1.48,
-        Ea = (0.4, 'kcal/mol'),
+        A = (8.37e+08, 'cm^3/(mol*s)'),
+        n = 1.488,
+        Ea = (2.039, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Taken from entry: FULVENE + H <=> C5H5CH2-3
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
@@ -1118,29 +1150,52 @@ entry(
     label = "C6H6-4 + H <=> C6H7-7",
     degeneracy = 2.0,
     kinetics = Arrhenius(
-        A = (3.52e+09, 'cm^3/(mol*s)'),
-        n = 1.52,
-        Ea = (0.9, 'kcal/mol'),
+        A = (2.022e+09, 'cm^3/(mol*s)'),
+        n = 1.369,
+        Ea = (2.244, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Taken from entry: FULVENE + H <=> C5H5CH2-2
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
 entry(
     index = 67,
-    label = "C6H7-8 <=> C6H6-2 + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.84e+09, 's^-1'), n=1.3, Ea=(27.4, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    label = "C6H6-2 + H <=> C6H7-8",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(
+        A = (9.221e+08, 'cm^3/(mol*s)'),
+        n = 1.608,
+        Ea = (4.599, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Taken from entry: cyC6H7 <=> benzene + H
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 

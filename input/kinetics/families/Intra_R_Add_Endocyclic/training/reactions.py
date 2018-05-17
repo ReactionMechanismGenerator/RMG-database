@@ -1987,49 +1987,45 @@ Taken from entry: W3 <=> W4
 
 entry(
     index = 83,
-    label = "C6H7-7 <=> C6H7-8",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(3.18e+11, 's^-1'), n=0.17, Ea=(4.4, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
+    label = "C6H7-8 <=> C6H7-7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.018e+12, 's^-1'), n=0.05, Ea=(5.961, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
     reference = Article(
-        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
-        title = u'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = 'Energy & Fuels',
-        volume = '32(3)',
-        pages = '3920-3934',
-        year = '2018',
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
     ),
     referenceType = 'theory',
     shortDesc = u"""""",
     longDesc = 
 u"""
-Calculations done at CBS-QB3 level of theory
-From kinetics library: Fulvene_H
-Taken from entry: C5H5CH2-1 <=> biring1
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
 entry(
     index = 84,
-    label = "C6H7-9 <=> C6H7-10",
+    label = "C6H7-10 <=> C6H7-9",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(8.51e+11, 's^-1'), n=0.41, Ea=(16.7, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
+    kinetics = Arrhenius(A=(1.307e+12, 's^-1'), n=0.256, Ea=(36.797, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
     reference = Article(
-        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
-        title = u'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = 'Energy & Fuels',
-        volume = '32(3)',
-        pages = '3920-3934',
-        year = '2018',
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
     ),
     referenceType = 'theory',
     shortDesc = u"""""",
     longDesc = 
 u"""
-Calculations done at CBS-QB3 level of theory
-From kinetics library: Fulvene_H
-Taken from entry: biring1 <=> cyC6H7
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
