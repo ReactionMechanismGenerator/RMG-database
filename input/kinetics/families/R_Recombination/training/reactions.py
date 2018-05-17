@@ -274,18 +274,27 @@ doi: 10.1039/B515914H
 entry(
     index = 23,
     label = "C5H5 + CH3 <=> C6H8",
-    degeneracy = 1.0,
+    degeneracy = 5.0,
     kinetics = Arrhenius(
-        A = (1.38482e-08, 'cm^3/(molecule*s)'),
-        n = -0.7,
-        Ea = (-0.5, 'kcal/mol'),
+        A = (1.623e+17, 'cm^3/(mol*s)'),
+        n = -1.07,
+        Ea = (0.002, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
-    longDesc =
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
 u"""
-Taken from entry: c-C5H5 + CH3 <=> C5H5CH3-5
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
@@ -294,34 +303,52 @@ entry(
     label = "C6H7 + H <=> C6H8-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (7.582e-10, 'cm^3/(molecule*s)'),
-        n = -0.1,
-        Ea = (0.4, 'kcal/mol'),
+        A = (3.62e+13, 'cm^3/(mol*s)'),
+        n = 0.228,
+        Ea = (-0.022, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
-    longDesc =
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
 u"""
-Taken from entry: R2 + H <=> C5H5CH3-5
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
 entry(
     index = 25,
     label = "C6H7-2 + H <=> C6H8-3",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     kinetics = Arrhenius(
-        A = (6.7982e-11, 'cm^3/(molecule*s)'),
-        n = 0.3,
-        Ea = (0.1, 'kcal/mol'),
+        A = (1.884e+13, 'cm^3/(mol*s)'),
+        n = 0.408,
+        Ea = (0.002, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
-    longDesc =
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
 u"""
-Taken from entry: R2 + H <=> C5H5CH3-1
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
@@ -330,34 +357,52 @@ entry(
     label = "C6H7-3 + H <=> C6H8-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (1.74338e-12, 'cm^3/(molecule*s)'),
-        n = 0.6,
-        Ea = (-0.2, 'kcal/mol'),
+        A = (3.156e+12, 'cm^3/(mol*s)'),
+        n = 0.461,
+        Ea = (-0.001, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
-    longDesc =
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
 u"""
-Taken from entry: R1 + H <=> C5H5CH3-1
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
 entry(
     index = 27,
     label = "C6H7-4 + H <=> C6H8-5",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     kinetics = Arrhenius(
-        A = (1.50356e-10, 'cm^3/(molecule*s)'),
-        n = 0.1,
-        Ea = (0, 'kcal/mol'),
+        A = (5.871e+13, 'cm^3/(mol*s)'),
+        n = 0.158,
+        Ea = (-0.004, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
-    longDesc =
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
 u"""
-Taken from entry: R2 + H <=> C5H5CH3-2
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
@@ -366,16 +411,25 @@ entry(
     label = "C6H7-5 + H <=> C6H8-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (5.6921e-12, 'cm^3/(molecule*s)'),
-        n = 0.5,
-        Ea = (-0.1, 'kcal/mol'),
+        A = (7.09e+12, 'cm^3/(mol*s)'),
+        n = 0.412,
+        Ea = (0.009, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
-    longDesc =
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
 u"""
-Taken from entry: R3 + H <=> C5H5CH3-2
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 

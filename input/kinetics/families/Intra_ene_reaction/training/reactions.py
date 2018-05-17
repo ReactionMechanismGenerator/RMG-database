@@ -80,31 +80,47 @@ Taken from entry: VIII <=> II
 """,
 )
 
-
-
 entry(
     index = 6,
     label = "C6H8 <=> C6H8-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(7.0333e+08, 's^-1'), n=1.2, Ea=(24.8, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(3.201e+11, 's^-1'), n=0.6, Ea=(23.767, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Taken from entry: C5H5CH3-5 <=> C5H5CH3-1
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
 entry(
     index = 7,
     label = "C6H8-3 <=> C6H8-4",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.6539e+07, 's^-1'), n=2.1, Ea=(25.1, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(4.432e+11, 's^-1'), n=0.625, Ea=(26.957, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Taken from entry: C5H5CH3-1 <=> C5H5CH3-2
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
@@ -290,6 +306,4 @@ u"""
 G3SX//B3LYP/6-31G(2df,p)
 """,
 )
-
-
 
