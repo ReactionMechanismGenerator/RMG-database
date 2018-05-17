@@ -2986,3 +2986,79 @@ The paper reports a HO-RR rate, and a sum-over-states rate (where vib-rot aren't
 The sum-over-states rate was taken here.
 """,
 )
+entry(
+    index = 186,
+    label = "H + C2H2O-2 <=> C2H3O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.82e-16, 'cm^3/(molecule*s)'),
+        n = 1.61,
+        Ea = (10992, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Senosiain, J. P.', 'Klippenstein, S. J.', 'Miller, J. A.'],
+        title = u'Pathways and Rate Coefficients for the Decomposition of Vinoxy and Acetyl Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '110 (17)',
+        pages = '5772-5781',
+        year = '2006',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+RQCISD(T)/cc-pV∞Z //UQCISD/UB3LYP
+""",
+)
+
+entry(
+    index = 187,
+    label = "H + C2H2O <=> C2H3O-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.3e-15, 'cm^3/(molecule*s)'),
+        n = 1.43,
+        Ea = (25318, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Senosiain, J. P.', 'Klippenstein, S. J.', 'Miller, J. A.'],
+        title = u'Pathways and Rate Coefficients for the Decomposition of Vinoxy and Acetyl Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '110 (17)',
+        pages = '5772-5781',
+        year = '2006',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+RQCISD(T)/cc-pV∞Z //UQCISD/UB3LYP
+""",
+)
+
+entry(
+    index = 188,
+    label = "C2H3O-3 <=> C2H2O-3 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.43e+15, 's^-1'), n=-0.15, Ea=(190834, 'J/mol'), T0=(1, 'K')),
+    rank = 3,
+    reference = Article(
+        authors = ['Senosiain, J. P.', 'Klippenstein, S. J.', 'Miller, J. A.'],
+        title = u'Pathways and Rate Coefficients for the Decomposition of Vinoxy and Acetyl Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '110 (17)',
+        pages = '5772-5781',
+        year = '2006',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+RQCISD(T)/cc-pV∞Z //UQCISD/UB3LYP
+""",
+)
+
