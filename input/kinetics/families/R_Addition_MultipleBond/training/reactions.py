@@ -3062,3 +3062,59 @@ RQCISD(T)/cc-pV∞Z //UQCISD/UB3LYP
 """,
 )
 
+entry(
+    index = 189,
+    label = "H + C4H2 <=> C4H3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (7.16e-14, 'cm^3/(molecule*s)'),
+        n = 1.119,
+        Ea = (1.672, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Klippenstein, S. J.', 'Miller, J. A.'],
+        title = u'The Addition of Hydrogen Atoms to Diacetylene and the Heats of Formation of i-C4H3 and n-C4H3',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '109 (19)',
+        pages = '4285-4295',
+        year = '2005',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+The restricted QCISD(T)/∞ barrier heights//B3LYP/6-311++G(d,p)
+These QCISD(T) calculations employed the correlation-consistent, polarized-valence, triple-ú (cc-pvtz) and quadruple-ú (cc-pvqz) basis sets and were extrapolated to the infinite basis-set limit via the expression
+""",
+)
+
+entry(
+    index = 190,
+    label = "H + C4H2-2 <=> C4H3-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1.35e-14, 'cm^3/(molecule*s)'),
+        n = 1.305,
+        Ea = (5.018, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Klippenstein, S. J.', 'Miller, J. A.'],
+        title = u'The Addition of Hydrogen Atoms to Diacetylene and the Heats of Formation of i-C4H3 and n-C4H3',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '109 (19)',
+        pages = '4285-4295',
+        year = '2005',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+The restricted QCISD(T)/∞ barrier heights//B3LYP/6-311++G(d,p)
+These QCISD(T) calculations employed the correlation-consistent, polarized-valence, triple-ú (cc-pvtz) and quadruple-ú (cc-pvqz) basis sets and were extrapolated to the infinite basis-set limit via the expression
+""",
+)
+
