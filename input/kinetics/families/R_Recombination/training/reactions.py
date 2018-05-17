@@ -1034,3 +1034,111 @@ CCSD(T)-F12/cc-pVTZ-F12//QCISD/6-311++G(2df,2p)
 """,
 )
 
+entry(
+    index = 62,
+    label = "C6H5 + CH3 <=> C7H8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.87e-10, 'cm^3/(molecule*s)'),
+        n = -0.283,
+        Ea = (-0.191, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Klippenstein, S. J.', 'Harding, L. B.', 'Georgievskii, Y.'],
+        title = u'On the formation and decomposition of C7H8',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '31 (1)',
+        pages = '221-229',
+        year = '2007',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)/aug-cc-pvdz//B3LYP/6-31G* (VRC-TST)
+""",
+)
+
+entry(
+    index = 63,
+    label = "C7H7 + H <=> C7H8-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.2e-10, 'cm^3/(molecule*s)'),
+        n = 0.062,
+        Ea = (-0.044, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Klippenstein, S. J.', 'Harding, L. B.', 'Georgievskii, Y.'],
+        title = u'On the formation and decomposition of C7H8',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '31 (1)',
+        pages = '221-229',
+        year = '2007',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)/aug-cc-pvdz//B3LYP/6-31G* (VRC-TST)
+""",
+)
+
+entry(
+    index = 64,
+    label = "C7H7-2 + H <=> C7H8-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (8.28e-13, 'cm^3/(molecule*s)'),
+        n = 0.611,
+        Ea = (-0.436, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Klippenstein, S. J.', 'Harding, L. B.', 'Georgievskii, Y.'],
+        title = u'On the formation and decomposition of C7H8',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '31 (1)',
+        pages = '221-229',
+        year = '2007',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)/aug-cc-pvdz//B3LYP/6-31G* (VRC-TST)
+""",
+)
+
+entry(
+    index = 65,
+    label = "C7H7-3 + H <=> C7H8-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.07e-11, 'cm^3/(molecule*s)'),
+        n = 0.245,
+        Ea = (-0.333, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Klippenstein, S. J.', 'Harding, L. B.', 'Georgievskii, Y.'],
+        title = u'On the formation and decomposition of C7H8',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '31 (1)',
+        pages = '221-229',
+        year = '2007',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)/aug-cc-pvdz//B3LYP/6-31G* (VRC-TST)
+""",
+)
+
