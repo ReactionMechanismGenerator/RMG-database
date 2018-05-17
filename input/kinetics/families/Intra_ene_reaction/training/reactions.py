@@ -220,3 +220,69 @@ Taken from entry: W107 <=> W108
 """,
 )
 
+entry(
+    index = 16,
+    label = "C7H7 <=> C7H7-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.01e+10, 's^-1'), n=0.97, Ea=(19.17, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+        title = u'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3SX//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 17,
+    label = "C7H7-3 <=> C7H7-4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(6.21e+08, 's^-1'), n=1.38, Ea=(15.29, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+        title = u'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3SX//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 18,
+    label = "C7H7-5 <=> C7H7-6",
+    degeneracy = 14.0,
+    kinetics = Arrhenius(A=(5.5e+08, 's^-1'), n=1.56, Ea=(62.12, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+        title = u'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3SX//B3LYP/6-31G(2df,p)
+""",
+)
+

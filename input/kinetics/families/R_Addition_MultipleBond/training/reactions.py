@@ -511,32 +511,50 @@ Taken from entry: product37 <=> product13 + H
 
 entry(
     index = 27,
-    label = "C2H2 + C5H5 <=> C7H7",
+    label = "C5H5 + C2H2 <=> C7H7",
     degeneracy = 10.0,
-    kinetics = Arrhenius(A=(25500, 'cm^3/(mol*s)'), n=2.27, Ea=(10.2, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
+    kinetics = Arrhenius(
+        A = (408000, 'cm^3/(mol*s)'),
+        n = 2.24,
+        Ea = (10.8, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+        title = u'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Taken from entry: CPDyl + ethyne <=> product44
+G3SX//B3LYP/6-31G(2df,p)
 """,
 )
 
 entry(
     index = 28,
-    label = "C7H6 + H <=> C7H7-2",
+    label = "C7H7-2 <=> C7H6 + H",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.1e+09, 'cm^3/(mol*s)'),
-        n = 1.43,
-        Ea = (4.13, 'kcal/mol'),
-        T0 = (1, 'K'),
+    kinetics = Arrhenius(A=(4.16e+10, 's^-1'), n=1.24, Ea=(65.98, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+        title = u'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
     ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
+    referenceType = 'theory',
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Taken from entry: FA + H <=> vinylCPDyl
+G3SX//B3LYP/6-31G(2df,p)
 """,
 )
 
@@ -545,11 +563,20 @@ entry(
     label = "C3H4 + allyl <=> C6H9",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(42, 'cm^3/(mol*s)'), n=3.27, Ea=(11, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: C3""",
+    rank = 2,
+    reference = Article(
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+        title = u'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Taken from entry: aC3H5 + C3H4a <=> prod_1
+G3SX//B3LYP/6-31G(2df,p)
 """,
 )
 
@@ -3707,6 +3734,50 @@ entry(
     longDesc = 
 u"""
 UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
+""",
+)
+
+entry(
+    index = 215,
+    label = "C7H7-4 <=> C7H6-2 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.06e+10, 's^-1'), n=1.16, Ea=(26.18, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+        title = u'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3SX//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 216,
+    label = "C7H7-5 <=> C7H6-3 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.02e+13, 's^-1'), n=0.34, Ea=(46.7, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+        title = u'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3SX//B3LYP/6-31G(2df,p)
 """,
 )
 
