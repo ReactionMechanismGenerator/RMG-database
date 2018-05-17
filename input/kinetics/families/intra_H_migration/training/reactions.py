@@ -2186,3 +2186,178 @@ Jim Chu's calculation
 """,
 )
 
+entry(
+    index = 119,
+    label = "C4H5 <=> C4H5-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(3.992e-05, 's^-1'), n=4.805, Ea=(56.041, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+        title = u'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+""",
+)
+
+entry(
+    index = 120,
+    label = "C4H5-3 <=> C4H5-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(606700, 's^-1'), n=2.347, Ea=(51.259, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+        title = u'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+""",
+)
+
+entry(
+    index = 121,
+    label = "C4H5-5 <=> C4H5-6",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(5.471e+06, 's^-1'), n=1.841, Ea=(29.797, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+        title = u'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+""",
+)
+entry(
+    index = 122,
+    label = "C4H5-7 <=> C4H5-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(481900, 's^-1'), n=2.375, Ea=(40.143, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+        title = u'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+""",
+)
+
+entry(
+    index = 123,
+    label = "C4H5-2 <=> C4H5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.005931, 's^-1'), n=4.271, Ea=(56.912, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+        title = u'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+""",
+)
+
+entry(
+    index = 124,
+    label = "C4H5-4 <=> C4H5-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.63e+08, 's^-1'), n=1.73, Ea=(49.649, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+        title = u'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+""",
+)
+
+entry(
+    index = 125,
+    label = "C4H5-6 <=> C4H5-5",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(5.11e+06, 's^-1'), n=1.95, Ea=(42.693, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+        title = u'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+""",
+)
+
+entry(
+    index = 126,
+    label = "C4H5-8 <=> C4H5-7",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.189e+07, 's^-1'), n=1.951, Ea=(50.732, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+        title = u'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+""",
+)
+
