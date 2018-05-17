@@ -953,4 +953,84 @@ CASPT2/cc-pvdz (VRC-TST)
 """,
 )
 
+entry(
+    index = 59,
+    label = "CH3 + C3H3-2 <=> C4H6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.705e+09, 'cm^3/(mol*s)'),
+        n = 1.07,
+        Ea = (-2.268, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Huang, C.', 'Yang, B.', 'Zhang, F.'],
+        title = u'Initiation mechanism of 1,3-butadiene combustion and its effect on soot precursors',
+        journal = 'Combustion and Flame',
+        volume = '184',
+        pages = '167-175',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/cc-pVTZ-F12//QCISD/6-311++G(2df,2p)
+""",
+)
+
+entry(
+    index = 60,
+    label = "C4H5 + H <=> C4H6-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.117e+14, 'cm^3/(mol*s)'),
+        n = -0.152,
+        Ea = (1.003, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Huang, C.', 'Yang, B.', 'Zhang, F.'],
+        title = u'Initiation mechanism of 1,3-butadiene combustion and its effect on soot precursors',
+        journal = 'Combustion and Flame',
+        volume = '184',
+        pages = '167-175',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/cc-pVTZ-F12//QCISD/6-311++G(2df,2p)
+""",
+)
+
+entry(
+    index = 61,
+    label = "C4H5-2 + H <=> C4H6-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.25e+14, 'cm^3/(mol*s)'),
+        n = -0.119,
+        Ea = (-1.012, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Huang, C.', 'Yang, B.', 'Zhang, F.'],
+        title = u'Initiation mechanism of 1,3-butadiene combustion and its effect on soot precursors',
+        journal = 'Combustion and Flame',
+        volume = '184',
+        pages = '167-175',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/cc-pVTZ-F12//QCISD/6-311++G(2df,2p)
+""",
+)
 
