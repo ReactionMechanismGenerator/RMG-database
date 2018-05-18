@@ -7597,3 +7597,23 @@ from the tip of the branch with radical to the outer edge of the ring.
 """,
 )
 
+forbidden(
+    label = "para-methyl-ethenyl-benzene",
+    group =
+"""
+1 *1 C u1 p0 c0 {2,S}
+2    C u0 p0 c0 {1,S} {3,[D,B]} {9,[S,B]}
+3    C u0 p0 c0 {2,[D,B]} {4,[S,B]}
+4    C u0 p0 c0 {3,[S,B]} {5,[D,B]}
+5    C u0 p0 c0 {4,[D,B]} {6,S} {8,[S,B]}
+6 *2 C u0 p0 c0 {5,S} {7,D}
+7 *3 C u0 p0 c0 {6,D}
+8    C u0 p0 c0 {5,[S,B]} {9,[D,B]}
+9    C u0 p0 c0 {2,[S,B]} {8,[D,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Prevent strained addition between para-related methyl and ethylene side-groups on a benzene ring.
+""",
+)
