@@ -1071,7 +1071,6 @@ entry(
     index = 71,
     label = "CH3 + OH <=> CH2 + H2O",
     degeneracy = 1,
-    duplicate = True,
     kinetics = Arrhenius(A=(43000, 'cm^3/(mol*s)'), n=2.568, Ea=(3997, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""The chemkin file reaction is CH3 + OH <=> CH2 + H2O""",
 )
@@ -1128,7 +1127,6 @@ entry(
     index = 73,
     label = "CH3 + OH <=> CH2(S) + H2O",
     degeneracy = 1,
-    duplicate = True,
     kinetics = PDepArrhenius(
         pressures = ([0.001316, 0.013158, 0.131579, 1.31579, 13.1579, 131.579], 'atm'),
         arrhenius = [
