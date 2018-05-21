@@ -54,17 +54,20 @@ entry(
                 n = 0,
                 Ea = (5200, 'cal/mol'),
                 T0 = (1, 'K'),
-                comment = 'SINCVE88 (ktot)',
             ),
             Arrhenius(
                 A = (-2e+13, 'cm^3/(mol*s)'),
                 n = 0,
                 Ea = (7385, 'cal/mol'),
                 T0 = (1, 'K'),
-                comment = 'pw',
             ),
         ],
     ),
+    longDesc =
+u"""
+1. SINCVE88 (ktot)
+2. pw
+"""
 )
 
 entry(
@@ -76,7 +79,6 @@ entry(
         n = 0,
         Ea = (7385, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'pw',
     ),
     longDesc = 
 u"""
@@ -2046,4 +2048,3 @@ u"""
 SEN/HAY02
 """,
 )
-
