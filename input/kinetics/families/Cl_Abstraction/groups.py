@@ -218,7 +218,7 @@ entry(
     label = "Xrad_Cl",
     group =
 """
-1 *1 R u1 {2,S}
+1 *1 R!H u1 {2,S}
 2 *2 Cl u0 {1,S}
 """,
     kinetics = None,
@@ -635,6 +635,15 @@ entry(
 tree(
 """
 L1: X_Cl_or_Xrad_Cl_Xbirad_Cl_Xtrirad_Cl
+    L2: Xtrirad_Cl
+        L3: C_quartet_Cl
+        L3: C_doublet_Cl
+    L2: Xbirad_Cl
+        L3: C_HCl_Cl2_triplet_Cl
+        L3: C_HCl_Cl2_singlet_Cl
+    L2: Xrad_Cl
+        L3: C_rad_Cl
+            L4: C_H2_Cl2_HCl_rad_Cl
     L2: X_Cl
         L3: Cl2
         L3: Ct_Cl
@@ -647,15 +656,7 @@ L1: X_Cl_or_Xrad_Cl_Xbirad_Cl_Xtrirad_Cl
         L3: Cs_Cl
             L4: C_sec
             L4: C_ter
-    L2: Xrad_Cl
-        L3: C_rad_Cl
-            L4: C_H2_Cl2_HCl_rad_Cl
-    L2: Xbirad_Cl
-        L3: C_HCl_Cl2_triplet_Cl
-        L3: C_HCl_Cl2_singlet_Cl
-    L2: Xtrirad_Cl
-        L3: C_quartet_Cl
-        L3: C_doublet_Cl
+
 L1: Y_rad_birad_trirad_quadrad
     L2: Y_1centerquadrad
         L3: C_quintet
@@ -799,6 +800,47 @@ forbidden(
 5    R u0 {4,S} {6,D}
 6    R u0 {5,D} {7,S}
 7    R u1 {6,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "disprop6",
+    group =
+"""
+1 *2 Cl u0 p0 c0 {2,S} {3,S} {4,S} {5,S} {6,S} {7,S} {8,S}
+2 *1 C  u3 p0 c0 {1,S}
+3    R  u0 p0 c0 {1,S}
+4    R  u0 p0 c0 {1,S}
+5    R  u0 p0 c0 {1,S}
+6    R  u0 p0 c0 {1,S}
+7    R  u0 p0 c0 {1,S}
+8    R  u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+
+forbidden(
+    label = "disprop7",
+    group =
+"""
+1 *1 C  u3 p0 c0 {2,S}
+2 *2 Cl u0 p0 c0 {1,S} {3,S} {4,S} {5,S} {6,S} {7,S} {8,S}
+3    R  u0 p0 c0 {2,S}
+4    R  u0 p0 c0 {2,S}
+5    R  u0 p0 c0 {2,S}
+6    R  u0 p0 c0 {2,S}
+7    R  u0 p0 c0 {2,S}
+8    R  u0 p0 c0 {2,S}
 """,
     shortDesc = u"""""",
     longDesc =

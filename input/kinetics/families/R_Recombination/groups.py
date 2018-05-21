@@ -675,7 +675,7 @@ entry(
     group =
 """
 1 * C                           u1 {2,S} {3,S} {4,S}
-2   [H,Cl                         u0 {1,S}
+2   [H,Cl]                         u0 {1,S}
 3   [Cs,N3s,N5sc,O2s,S2s,S4s,S6s] u0 {1,S}
 4   [Cs,N3s,N5sc,O2s,S2s,S4s,S6s] u0 {1,S}
 """,
