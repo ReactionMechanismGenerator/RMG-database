@@ -553,8 +553,7 @@ ALZ/GLA01 TSU/MAT97
 
 entry(
     index = 62,
-    # label = "SH + O2 <=> HSO2",
-    label = "SH + O2 <=> HSOO",
+    label = "SH + O2 <=> HSO2",
     degeneracy = 1,
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(2e+14, 'cm^3/(mol*s)'), n=-0.26, Ea=(298, 'cal/mol'), T0=(1, 'K')),
@@ -569,9 +568,14 @@ entry(
     longDesc = 
 u"""
 GOU/MAR05
-alongd comment: taken from doi: 10.1021/j100027a025, calc at G2_RRKM//MP2=FULL/6-31G(d)
-Although HSO2 is described in the present library source (10.1002/kin.20778) as H-S*(=O)=O, SMILES O=[SH]=O,
-it is in fact a peroxide, SMILES SO[O], according to the source (10.1021/j100027a025)
+alongd comments:
+I'm uncertain how this (important) rate was derived.
+The source GOU/MAR05 seems to be https://doi.org/10.1016/j.proci.2004.08.214,
+however this reaction isn't mentioned there.
+It might have been taken from doi: 10.1021/j100027a025 instead (similar authors, but from 1995)
+but this 1995 study discusses SH + O2 = HSOO, not HSO2
+Bill and I sent an email to Prof. Marshall inquiring about this rate, but did not receive any answer yet.
+However, I'm leaving this entry active since it's a very important reaction in H2S systems that RMG won't have otherwise
 """,
 )
 
