@@ -15,6 +15,9 @@ This library consists of the following subsets:
 * C-S
 * HOSO2 + O2 surface
 
+Using this library as is requires that N2 will be present in the RMG input file (even as a nonreactive species) since N2
+is defined as a specific third body collider in the `SO2 + O (+N2) <=> SO3 (+N2)` reaction.
+
 Reference legend:
 [Baulch1992a] D.L. Baulch, C.J. Cobos, R.A. Cox, C. Esser, P. Frank, Th. Just, J.A. Kerr, M.J. Philling, J. Troe, R.W. Walker, J. Warnatz, "Evaluated Kinetic Data for Combustion Modelling", Journal of Physical and Chemical Reference Data, 1992, 21(3), 411, doi: 10.1063/1.555908
 [Calvert1973] F.B. Wampler, K. Otsuka, J.G. Calvert, E.K. Damon, Int. J. Chem. Kin., 1973, 5(4), 669-690, doi: 10.1002/kin.550050417
