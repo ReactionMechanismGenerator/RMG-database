@@ -804,6 +804,7 @@ entry(
     index = 39,
     label = "H2S + S <=> SH + SH",
     degeneracy = 2,
+    allow_pdep_route = True,
     kinetics = Arrhenius(A=(7.4e+06, 'cm^3/(mol*s)'), n=2.297, Ea=(9011, 'cal/mol'), T0=(1, 'K'),
                          Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Sendt2008]""",
@@ -926,45 +927,53 @@ Validated in T range: 873-1423 K
 """,
 )
 
-# entry(
-#     index = 48,
-#     label = "HSS + H <=> S2 + H2",
-#     degeneracy = 1,
-#     kinetics = Arrhenius(A=(1.23e+08, 'cm^3/(mol*s)'), n=1.653, Ea=(-1105, 'cal/mol'), T0 = (1, 'K'),
-#                          Tmin=(873, 'K'), Tmax=(1423, 'K')),
-#     shortDesc = u"""[Sendt2002]""",
-#     longDesc =
-# u"""
-# commented out: This reaction has two pathways. The current entry only describes one.
-# The other one is PDep and is given at 1 bar in the Sulfur/HSSH_1bar library
-#
-# Part of the "SOx" subset
-# k11
-#
-# Also available from [Sendt2009b]
-# """,
-# )
+entry(
+    index = 48,
+    label = "HSS + H <=> S2 + H2",
+    degeneracy = 1,
+    allow_pdep_route = True,
+    kinetics = Arrhenius(A=(1.23e+08, 'cm^3/(mol*s)'), n=1.653, Ea=(-1105, 'cal/mol'), T0 = (1, 'K'),
+                         Tmin=(873, 'K'), Tmax=(1423, 'K')),
+    shortDesc = u"""[Sendt2002]""",
+    longDesc =
+u"""
+This reaction has two pathways. The current entry only describes one.
+The other one is PDep and is given at 1 bar in the Sulfur/HSSH_1bar library
+If running at 1 bar, give the Sulfur/HSSH_1bar library priority over this library.
+Else, using this library with the current `allow_pdep_route` flag will allow RMG to add an additional PDep reaction
+between the same reactants and products.
 
-# entry(
-#     index = 49,
-#     label = "HSS + H <=> H2S + S",
-#     degeneracy = 1,
-#     kinetics = Arrhenius(A=(4.41e+13, 'cm^3/(mol*s)'), n=0, Ea=(6326, 'cal/mol'), T0 = (1, 'K'),
-#                          Tmin=(873, 'K'), Tmax=(1423, 'K')),
-#     shortDesc = u"""[Sendt2002]""",
-#     longDesc =
-# u"""
-# commented out: This reaction has two pathways. The current entry only describes one.
-# The other one is PDep and is given at 1 bar in the Sulfur/HSSH_1bar library
-#
-# Part of the "HxSy" subset
-# k12
-# TST
-# Validated in T range: 873-1423 K
-#
-# Also available from [Sendt2009b]
-# """,
-# )
+Part of the "SOx" subset
+k11
+
+Also available from [Sendt2009b]
+""",
+)
+
+entry(
+    index = 49,
+    label = "HSS + H <=> H2S + S",
+    degeneracy = 1,
+    allow_pdep_route = True,
+    kinetics = Arrhenius(A=(4.41e+13, 'cm^3/(mol*s)'), n=0, Ea=(6326, 'cal/mol'), T0 = (1, 'K'),
+                         Tmin=(873, 'K'), Tmax=(1423, 'K')),
+    shortDesc = u"""[Sendt2002]""",
+    longDesc =
+u"""
+This reaction has two pathways. The current entry only describes one.
+The other one is PDep and is given at 1 bar in the Sulfur/HSSH_1bar library
+If running at 1 bar, give the Sulfur/HSSH_1bar library priority over this library.
+Else, using this library with the current `allow_pdep_route` flag will allow RMG to add an additional PDep reaction
+between the same reactants and products.
+
+Part of the "HxSy" subset
+k12
+TST
+Validated in T range: 873-1423 K
+
+Also available from [Sendt2009b]
+""",
+)
 
 entry(
     index = 50,
