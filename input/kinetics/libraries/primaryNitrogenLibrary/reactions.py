@@ -123,6 +123,7 @@ Reference legend:
 [Palmer1977] H. Freund, H.B. Palmer, Int. J. Chem. Kin., 1977, 9(6), 887-905, doi: 10.1002/kin.550090605
 [Perry1984] R.A. Perry, Chem. Phys. Lett., 1984, 106(3), 223-228, doi: 10.1016/0009-2614(84)80230-4
 [Perry1985] R.A. Perry, J. Chem. Phys, 1985, 82, 5485, doi: 10.1063/1.448583
+[Pritchard2001] W-T. Chan, S.M. Heck, H.O. Pritchard, Phys. Chem. Chem. Phys., 2001, 3, 56-62, doi: 10.1039/b006088g
 [Rabinowitz2010] S.M. Hwang, J.A. Cooke, K.J. De Witt, M.J. Rabinowitz, Int. J. Chem. Kin., 2010, 42(3), 168-180, doi: 10.1002/kin.20472
 [Troe1975] K. Glanzer, J. Troe, Berichte der Bunsengesellschaft fur physikalische Chemie, 1975, 79(5), 465-469, doi: 10.1002/bbpc.19750790514
 [Varandas2005] P.J.S.B. Caridade, S.P.J. Rodrigues, F. Sousa, A.J.C. Varandas, J. Phys. Chem. A ,2005, 109, 2356-2363, doi: 10.1021/jp045102g
@@ -4081,5 +4082,92 @@ Overall HCCO + NO rate is k = 1.37e+16 * T^(-0.98) * exp(-190/T) cm^3/(mol*s)
 and the branching ratio to the HCN + CO2 products is: 0.5 * exp(-T/67.1) + 0.3 * exp(-T/2592) in the 250-2500 range
 Arrhenius was calculated by alongd from the above data, uncertainty reflects fitting error only
 x4 slower than the respective Dean & Bozzelli rate at 1000 K
+""",
+)
+
+entry(
+    index = 228,
+    label = "C3H8 + NO2 <=> iC3H7 + HONO",
+    degeneracy = 2,
+    kinetics = Arrhenius(A=(1.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(33.8, 'kcal/mol'),
+                         T0=(1, 'K'), Tmin=(600, 'K'), Tmax=(1100, 'K')),
+    shortDesc = u"""[Pritchard2001]""",
+    longDesc =
+u"""
+Calculated at BHandHLYP/6-311G**
+Table 2
+Rate for trans-HONO was taken
+""",
+)
+
+entry(
+    index = 229,
+    label = "C3H8 + NO2 <=> iC3H7 + HNO2",
+    degeneracy = 2,
+    kinetics = Arrhenius(A=(3.0e+13, 'cm^3/(mol*s)'), n=0, Ea=(30.3, 'kcal/mol'),
+                         T0=(1, 'K'), Tmin=(600, 'K'), Tmax=(1100, 'K')),
+    shortDesc = u"""[Pritchard2001]""",
+    longDesc =
+u"""
+Calculated at BHandHLYP/6-311G**
+Table 2
+""",
+)
+
+entry(
+    index = 230,
+    label = "tC4H10 + NO2 <=> tC4H9 + HONO",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(31.9, 'kcal/mol'),
+                         T0=(1, 'K'), Tmin=(600, 'K'), Tmax=(1100, 'K')),
+    shortDesc = u"""[Pritchard2001]""",
+    longDesc =
+u"""
+Calculated at BHandHLYP/6-311G**
+Table 2
+Rate for trans-HONO was taken
+""",
+)
+
+entry(
+    index = 231,
+    label = "tC4H10 + NO2 <=> tC4H9 + HNO2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.8e+14, 'cm^3/(mol*s)'), n=0, Ea=(27.6, 'kcal/mol'),
+                         T0=(1, 'K'), Tmin=(600, 'K'), Tmax=(1100, 'K')),
+    shortDesc = u"""[Pritchard2001]""",
+    longDesc =
+u"""
+Calculated at BHandHLYP/6-311G**
+Table 2
+""",
+)
+
+entry(
+    index = 232,
+    label = "C6H6 + NO2 <=> C6H5 + HONO",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(4.3e+14, 'cm^3/(mol*s)'), n=0, Ea=(43.0, 'kcal/mol'),
+                         T0=(1, 'K'), Tmin=(600, 'K'), Tmax=(1100, 'K')),
+    shortDesc = u"""[Pritchard2001]""",
+    longDesc =
+u"""
+Calculated at BHandHLYP/6-311G**
+Table 2
+Rate for trans-HONO was taken
+""",
+)
+
+entry(
+    index = 233,
+    label = "C6H6 + NO2 <=> C6H5 + HNO2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.5e+14, 'cm^3/(mol*s)'), n=0, Ea=(42.2, 'kcal/mol'),
+                         T0=(1, 'K'), Tmin=(600, 'K'), Tmax=(1100, 'K')),
+    shortDesc = u"""[Pritchard2001]""",
+    longDesc =
+u"""
+Calculated at BHandHLYP/6-311G**
+Table 2
 """,
 )
