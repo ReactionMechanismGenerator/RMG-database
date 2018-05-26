@@ -10,8 +10,8 @@ longDesc = u"""
 template(reactants=["S-RR_or_RRrad", "YJ"], products=["S-RR_or_RRrad", "YJ"], ownReverse=True)
 
 recipe(actions=[
-    ['BREAK_BOND', '*1', 'S', '*2'],
-    ['FORM_BOND', '*1', 'S', '*3'],
+    ['BREAK_BOND', '*1', 1, '*2'],
+    ['FORM_BOND', '*1', 1, '*3'],
     ['GAIN_RADICAL', '*2', '1'],
     ['LOSE_RADICAL', '*3', '1'],
 ])

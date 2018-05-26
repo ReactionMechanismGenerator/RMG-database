@@ -94,3 +94,44 @@ L1: 1_3_5_unsaturated_hexane
 """
 )
 
+forbidden(
+    label = "styrene_like_molecule_direction_1",
+    group =
+"""
+1  *1 C u0 {2,[D,T]}
+2  *2 C u0 {1,[D,T]} {3,S}
+3  *3 C u0 {2,S} {4,[D,T]} {8,[S,D,T,B]}
+4  *4 C u0 {3,[D,T]} {5,S}
+5  *5 C u0 {4,S} {6,[D,T]}
+6  *6 C u0 {5,[D,T]} {7,[S,D,T,B]}
+7  C u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
+8  C u0 {3,[S,D,T,B]} {7,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a molecule from undergoing this reaction if 4 of the necessary carbon atoms are on a ring,
+and the other two are on a side chain (like styrene). Atom labels written starting from chaing end.
+""",
+)
+
+forbidden(
+    label = "styrene_like_molecule_direction_2",
+    group =
+"""
+1  *6 C u0 {2,[D,T]}
+2  *5 C u0 {1,[D,T]} {3,S}
+3  *4 C u0 {2,S} {4,[D,T]} {8,[S,D,T,B]}
+4  *3 C u0 {3,[D,T]} {5,S}
+5  *2 C u0 {4,S} {6,[D,T]}
+6  *1 C u0 {5,[D,T]} {7,[S,D,T,B]}
+7  C u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
+8  C u0 {3,[S,D,T,B]} {7,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a molecule from undergoing this reaction if 4 of the necessary carbon atoms are on a ring,
+and the other two are on a side chain (like styrene). Atom labels written starting from ring end.
+""",
+)

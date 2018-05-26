@@ -2885,6 +2885,36 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 289,
+    label = "C/H2/Cd_Csrad",
+    group = 
+"""
+1 *2 C             u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs            u1 {1,S}
+3 *4 H             u0 {1,S}
+4    H             u0 {1,S}
+5    Cd            u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 290,
+    label = "C/H/CdCd_Csrad/H/Cd",
+    group = 
+"""
+1 *2 C u0 {2,S}, {3,S}, {4,S}, {5,S}
+2 *3 Cs u1 {1,S} {6,S} {7,S}
+3 *4 H u0 {1,S}
+4 Cd   u0 {1,S}
+5 Cd   u0 {1,S}
+6 H u0 {2,S}
+7 Cd u0 {2,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Y_rad_birad_trirad_quadrad
@@ -3053,6 +3083,7 @@ L1: XH_Rrad_birad
                 L5: C/H2/De_Rrad
                     L6: C/H2/De_Csrad
                         L7: C/H2/De_Csrad/H/Cd
+                        L7: C/H2/Cd_Csrad
                     L6: C/H2/De_Cdrad
                     L6: C/H2/De_COrad
                     L6: C/H2/De_Orad
@@ -3075,6 +3106,7 @@ L1: XH_Rrad_birad
                 L5: C/H/DeDe_Rrad
                     L6: C/H/DeDe_Csrad
                         L7: C/H/DeDe_Csrad/H/Cd
+                            L8: C/H/CdCd_Csrad/H/Cd
                     L6: C/H/DeDe_Cdrad
                     L6: C/H/DeDe_COrad
                     L6: C/H/DeDe_Orad

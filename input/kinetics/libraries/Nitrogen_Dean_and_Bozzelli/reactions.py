@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Nitrogen_Dean_and_Bozelli"
+name = "Nitrogen_Dean_and_Bozzelli"
 shortDesc = u""
 longDesc = u"""
 Anthony M. Dean and Joseph W. Bozzelli
 Combustion Chemistry of Nitrogen
 in Gas-Phase Combustion Chemistry, 2000, pp 125-341
 """
+
 entry(
     index = 1,
     label = "O + N2 <=> N + NO",
@@ -1419,17 +1420,17 @@ entry(
             PDepArrhenius(
                 pressures = ([0.1, 1, 10], 'atm'),
                 arrhenius = [
-                    Arrhenius(A=(5.6e+36, '1/s'), n=-7.75, Ea=(70250.4, 'cal/mol'), T0=(1, 'K')),
-                    Arrhenius(A=(1.8e+40, '1/s'), n=-8.41, Ea=(73390, 'cal/mol'), T0=(1, 'K')),
-                    Arrhenius(A=(3.1e+41, '1/s'), n=-8.42, Ea=(76043, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A=(5.6e+36, 's^-1'), n=-7.75, Ea=(70250.4, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A=(1.8e+40, 's^-1'), n=-8.41, Ea=(73390, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A=(3.1e+41, 's^-1'), n=-8.42, Ea=(76043, 'cal/mol'), T0=(1, 'K')),
                 ],
             ),
             PDepArrhenius(
                 pressures = ([0.1, 1, 10], 'atm'),
                 arrhenius = [
-                    Arrhenius(A=(1.6e+37, '1/s'), n=-7.94, Ea=(70757, 'cal/mol'), T0=(1, 'K')),
-                    Arrhenius(A=(2.6e+40, '1/s'), n=-8.53, Ea=(72923, 'cal/mol'), T0=(1, 'K')),
-                    Arrhenius(A=(1.3e+44, '1/s'), n=-9.22, Ea=(77076, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A=(1.6e+37, 's^-1'), n=-7.94, Ea=(70757, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A=(2.6e+40, 's^-1'), n=-8.53, Ea=(72923, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A=(1.3e+44, 's^-1'), n=-9.22, Ea=(77076, 'cal/mol'), T0=(1, 'K')),
                 ],
             ),
         ],
@@ -1447,9 +1448,9 @@ entry(
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
-            Arrhenius(A=(9.2e+38, '1/s'), n=-9.01, Ea=(67726, 'cal/mol'), T0=(1, 'K')),
-            Arrhenius(A=(2e+41, '1/s'), n=-9.38, Ea=(68452, 'cal/mol'), T0=(1, 'K')),
-            Arrhenius(A=(1.3e+45, '1/s'), n=-10.13, Ea=(70757, 'cal/mol'), T0=(1, 'K')),
+            Arrhenius(A=(9.2e+38, 's^-1'), n=-9.01, Ea=(67726, 'cal/mol'), T0=(1, 'K')),
+            Arrhenius(A=(2e+41, 's^-1'), n=-9.38, Ea=(68452, 'cal/mol'), T0=(1, 'K')),
+            Arrhenius(A=(1.3e+45, 's^-1'), n=-10.13, Ea=(70757, 'cal/mol'), T0=(1, 'K')),
         ],
     ),
     longDesc = 
@@ -1560,8 +1561,8 @@ entry(
             PDepArrhenius(
                 pressures = ([0.1, 1, 10], 'atm'),
                 arrhenius = [
-                    Arrhenius(A=(5.9e+32, '1/s'), n=-6.99, Ea=(51791.1, 'cal/mol'), T0=(1, 'K')),
-                    Arrhenius(A=(9.6e+35, '1/s'), n=-5.57, Ea=(54841.2, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A=(5.9e+32, 's^-1'), n=-6.99, Ea=(51791.1, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A=(9.6e+35, 's^-1'), n=-7.57, Ea=(54841.2, 'cal/mol'), T0=(1, 'K')),
                     Arrhenius(
                         A = (5e+36, 'cm^3/(mol*s)'),
                         n = -7.43,
@@ -1573,8 +1574,8 @@ entry(
             PDepArrhenius(
                 pressures = ([0.1, 1, 10], 'atm'),
                 arrhenius = [
-                    Arrhenius(A=(7.2e+28, '1/s'), n=-7.77, Ea=(50757.9, 'cal/mol'), T0=(1, 'K')),
-                    Arrhenius(A=(3.2e+31, '1/s'), n=-6.22, Ea=(52318, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A=(7.2e+28, 's^-1'), n=-7.77, Ea=(50757.9, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A=(3.2e+31, 's^-1'), n=-6.22, Ea=(52318, 'cal/mol'), T0=(1, 'K')),
                     Arrhenius(
                         A = (5.1e+33, 'cm^3/(mol*s)'),
                         n = -6.52,
@@ -1587,7 +1588,8 @@ entry(
     ),
     longDesc = 
 u"""
-Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli.
+The exponential factor of k30a2 at 0.1 atm is -5.77 in the body text of the book while that is inconsistently -7.77 in the table of 'Summary of Rate Constant Parameters.' The difference of the rate constants with those exponential factors are less than one order of magnitude.
 """,
 )
 
