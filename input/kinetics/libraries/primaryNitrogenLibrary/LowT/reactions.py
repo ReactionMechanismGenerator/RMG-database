@@ -115,3 +115,17 @@ k4(HNOH+CO), p. 213
 """,
 )
 
+entry(
+    index = 61,
+    label = "CN + NCO <=> NCN + CO",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.29e+13, 'cm^3/(mol*s)'), n=0.155, Ea=(129, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(200, 'K'), Tmax=(1000, 'K')),
+    shortDesc = u"""[Lin2009b]""",
+    longDesc =
+u"""
+Several levels of theory were used:
+G2M//B3LYP/6-311+G(d), QCISD(T)/6-311+G(3df)//QCISD/6-311+G(d), CCSD(T)/6-311+G(3df)//CCSD/6-311+G(d),
+CASPT2(10,10)/6-311+G(d)//CAS(10,10)/6-311+G(d).
+""",
+)
