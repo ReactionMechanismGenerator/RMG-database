@@ -46967,28 +46967,6 @@ Thermochemical Kinetics 2nd Ed., by Sidney Benson (Table A4, p.281)
 )
 
 entry(
-    index = 2087,
-    label = "Ct-CtI",
-    group =
-"""
-1 * Ct u0 {2,T} {3,S}
-2   C  u0 {1,T}
-3   I1s u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000],'K'),
-        Cpdata = ([8.4, 8.8, 9.1, 9.3, 9.6, 9.8],'cal/(mol*K)'),
-        H298 = (,'kcal/mol'),
-        S298 = (37.9,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Ct-(I)BENSON, no H298 reported""",
-    longDesc =
-u"""
-Thermochemical Kinetics 2nd Ed., by Sidney Benson (Table A4, p.280)
-""",
-)
-
-entry(
     index = 2088,
     label = "Cds-CdIH",
     group =
@@ -47219,7 +47197,6 @@ L1: R
                     L6: Ct-Ct(CtN3t)
                 L5: Ct-CtCb
                 L5: Ct-CtC=S
-            L4: Ct-CtI
         L3: Cdd
             L4: Cdd-N3dCd
             L4: Cdd-OdOd
