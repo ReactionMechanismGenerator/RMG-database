@@ -12,7 +12,8 @@ entry(
     index = 1,
     label = "N2O + OH <=> N2 + HO2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.87e+08, 'cm^3/(mol*s)'), n=0, Ea=(20436, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(1000, 'K')),
+    kinetics = Arrhenius(A=(2.87e+08, 'cm^3/(mol*s)'), n=0, Ea=(20436, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(300, 'K'), Tmax=(1000, 'K')),
     shortDesc = u"""[Lin1996b]""",
     longDesc =
 u"""
@@ -27,7 +28,8 @@ entry(
     index = 2,
     label = "N2H4 + NO3 <=> HONO + N2H3O",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.10e+18, 'cm^3/(mol*s)'), n=-1.84, Ea=(-642, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(1000, 'K')),
+    kinetics = Arrhenius(A=(1.10e+18, 'cm^3/(mol*s)'), n=-1.84, Ea=(-642, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(300, 'K'), Tmax=(1000, 'K')),
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
@@ -53,7 +55,8 @@ entry(
     index = 3,
     label = "N2H3 + NO2 <=> N2H2 + HONO",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4.99e+46, 'cm^3/(mol*s)'), n=-11.8, Ea=(6055, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(800, 'K')),
+    kinetics = Arrhenius(A=(4.99e+46, 'cm^3/(mol*s)'), n=-11.8, Ea=(6055, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(300, 'K'), Tmax=(800, 'K')),
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
@@ -68,7 +71,8 @@ entry(
     index = 4,
     label = "N2H3 + NO2 <=> N2H2 + HNO2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4.07e+08, 'cm^3/(mol*s)'), n=0.5, Ea=(-2395, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(1500, 'K')),
+    kinetics = Arrhenius(A=(4.07e+08, 'cm^3/(mol*s)'), n=0.5, Ea=(-2395, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(300, 'K'), Tmax=(1500, 'K')),
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
@@ -83,7 +87,8 @@ entry(
     index = 5,
     label = "N2H3 + NO2 <=> N2H3O + NO",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.08e+20, 'cm^3/(mol*s)'), n=-2.9, Ea=(792.3, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(1000, 'K')),
+    kinetics = Arrhenius(A=(1.08e+20, 'cm^3/(mol*s)'), n=-2.9, Ea=(792.3, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(300, 'K'), Tmax=(1000, 'K')),
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
@@ -98,7 +103,8 @@ entry(
     index = 6,
     label = "HCO + HNO <=> HNOH + CO",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.16e+08, 'cm^3/(mol*s)'), n=1.19, Ea=(914, 'cal/mol'), T0=(1, 'K'), Tmin=(400, 'K'), Tmax=(1000, 'K')),
+    kinetics = Arrhenius(A=(2.16e+08, 'cm^3/(mol*s)'), n=1.19, Ea=(914, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(400, 'K'), Tmax=(1000, 'K')),
     shortDesc = u"""[Lin2004]""",
     longDesc =
 u"""
