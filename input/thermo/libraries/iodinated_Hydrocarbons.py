@@ -220,6 +220,71 @@ u"""
 
 entry(
     index = 8,
+    label = "C3H5I",
+    molecule =
+"""
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 C u0 p0 c0 {1,D} {3,S} {6,S}
+3 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {3,S}
+9 I u0 p3 c0 {3,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000], 'K'),
+        Cpdata=([18.5, 22.4, 26.2, 28.9, 33.5, 36.9], 'cal/(mol*K)'),
+        H298=(22.9, 'kcal/mol'),
+        S298=(78.6, 'cal/(mol*K)'),
+    ),
+    shortDesc = u""" 1976 Benson, Zach supplementary Info""",
+    longDesc =
+u"""
+1976 Benson, Zach Supplementary Info Table S1 (p10-I)
+SUPPLEMENTARY INFORMATION for 
+Phenyl Radical + Propene: A Prototypical Reaction Surface for Aromatic-Catalyzed 1,2Hydrogen-Migration and Subsequent Resonance Stabilized Radical Formation 
+Buras, Z. J. et al.
+""",
+)
+
+entry(
+    index = 9,
+    label = "C6H5I",
+    molecule =
+"""
+1  C u0 p0 c0 {2,D} {6,S} {7,S}
+2  C u0 p0 c0 {1,D} {3,S} {8,S}
+3  C u0 p0 c0 {2,S} {4,D} {9,S}
+4  C u0 p0 c0 {3,D} {5,S} {10,S}
+5  C u0 p0 c0 {4,S} {6,D} {11,S}
+6  C u0 p0 c0 {1,S} {5,D} {12,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {5,S}
+12 I u0 p3 c0 {6,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000], 'K'),
+        Cpdata=([24.0, 30.6, 36.3, 41.1, 47.7, 52.3], 'cal/(mol*K)'),
+        H298=(38.7, 'kcal/mol'),
+        S298=(80.1, 'cal/(mol*K)'),
+    ),
+    shortDesc = u""" 1976 Benson, Zach supplementary Info""",
+    longDesc =
+u"""
+1976 Benson, Zach Supplementary Info Table S1 (p10-I)
+SUPPLEMENTARY INFORMATION for 
+Phenyl Radical + Propene: A Prototypical Reaction Surface for Aromatic-Catalyzed 1,2Hydrogen-Migration and Subsequent Resonance Stabilized Radical Formation 
+Buras, Z. J. et al.
+""",
+)
+
+entry(
+    index = 10,
     label = "C6H5CH2I",
     molecule =
 """
@@ -256,7 +321,7 @@ Buras, Z. J. et al.
 )
 
 entry(
-    index = 9,
+    index = 11,
     label = "C6H5CH2CHICH3",
     molecule =
 """
@@ -299,7 +364,7 @@ Buras, Z. J. et al.
 )
 
 entry(
-    index = 10,
+    index = 12,
     label = "INO",
     molecule =
 """
