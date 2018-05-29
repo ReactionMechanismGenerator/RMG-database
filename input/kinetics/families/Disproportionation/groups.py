@@ -3183,11 +3183,11 @@ u"""
 )
 
 forbidden(
-    label = "O_Orad",
+    label = "O_Srad",
     group = 
 """
-1 *2 O u0 {2,S} {3,S}
-2 *3 O u1 {1,S}
+1 *2 [O,S] u0 p2 {2,S} {3,S}
+2 *3 [O,S] u1 p2 {1,S}
 3 *4 H u0 {1,S}
 """,
     shortDesc = u"""""",

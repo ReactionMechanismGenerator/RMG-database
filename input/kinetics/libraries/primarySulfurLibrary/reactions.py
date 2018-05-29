@@ -15,6 +15,9 @@ This library consists of the following subsets:
 * C-S
 * HOSO2 + O2 surface
 
+Using this library as is requires that N2 will be present in the RMG input file (even as a nonreactive species) since N2
+is defined as a specific third body collider in the `SO2 + O (+N2) <=> SO3 (+N2)` reaction.
+
 Reference legend:
 [Baulch1992a] D.L. Baulch, C.J. Cobos, R.A. Cox, C. Esser, P. Frank, Th. Just, J.A. Kerr, M.J. Philling, J. Troe, R.W. Walker, J. Warnatz, "Evaluated Kinetic Data for Combustion Modelling", Journal of Physical and Chemical Reference Data, 1992, 21(3), 411, doi: 10.1063/1.555908
 [Calvert1973] F.B. Wampler, K. Otsuka, J.G. Calvert, E.K. Damon, Int. J. Chem. Kin., 1973, 5(4), 669-690, doi: 10.1002/kin.550050417
@@ -112,7 +115,7 @@ Also available from [Lin2003a] in reverse:
 entry(
     index = 3,
     label = "S + O2 <=> SO + O",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics=Arrhenius(A=(5.43e+05, 'cm^3/(mol*s)', '+|-', 1.63E+04), n=2.11, Ea=(-1451, 'cal/mol', '+|-', 238),
                        T0=(1, 'K'), Tmin=(298, 'K'), Tmax=(3460, 'K')),
     shortDesc = u"""[Lin2004]""",
@@ -163,6 +166,7 @@ entry(
     index = 5,
     label = "SO2 + O <=> SO3",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(3.7e+11, 'cm^3/(mol*s)'), n=0, Ea=(1689, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(A=(2.4e+27, 'cm^6/(mol^2*s)'), n=-3.6, Ea=(5186, 'cal/mol'), T0=(1, 'K')),
@@ -207,7 +211,8 @@ Complementary to the reaction above for N2 as the main bath gas
 entry(
     index = 7,
     label = "SO2 + H <=> HOSO",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.59e+12, 'cm^3/(mol*s)'), n=1.63, Ea=(7339, 'cal/mol'), T0=(300, 'K'), Tmin=(300, 'K'), Tmax=(1700, 'K')),
         arrheniusLow = Arrhenius(A=(1.14e+22, 'cm^6/(mol^2*s)'), n=-6.14, Ea=(11075, 'cal/mol'), T0=(300, 'K'), Tmin=(300, 'K'), Tmax=(1700, 'K')),
@@ -228,6 +233,7 @@ entry(
     index = 8,
     label = "SO2 + H <=> HSO2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(4.61e+12, 'cm^3/(mol*s)'), n=1.59, Ea=(2472, 'cal/mol'), T0=(300, 'K'), Tmin=(200, 'K'), Tmax=(1000, 'K')),
         arrheniusLow = Arrhenius(A=(1.97e+18, 'cm^6/(mol^2*s)'), n=-5.19, Ea=(4513, 'cal/mol'), T0=(300, 'K'), Tmin=(200, 'K'), Tmax=(1000, 'K')),
@@ -246,7 +252,7 @@ Also available from [Pilling2002b]
 entry(
     index = 9,
     label = "SO2 + H <=> SO + OH",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(6.74e+21, 'cm^3/(mol*s)'), n=-2.22, Ea=(30736, 'cal/mol'), T0=(1, 'K'),
                          Tmin=(300, 'K'), Tmax=(2000, 'K')),
     shortDesc = u"""[Pilling2002b]""",
@@ -268,7 +274,7 @@ and using the common-sence units according to reaction order led to convergence 
 entry(
     index = 10,
     label = "SO3 + H <=> SO2 + OH",
-    degeneracy = 1,
+    degeneracy = 3,
     kinetics = Arrhenius(A=(8.4e+09, 'cm^3/(mol*s)'), n=1.22, Ea=(3320, 'cal/mol'), T0=(1, 'K'),
                          Tmin=(700, 'K'), Tmax=(2000, 'K')),
     shortDesc = u"""[Marshall2007a]""",
@@ -283,7 +289,7 @@ calculations done at the CBS-QB3/CCSD(T)//B3LYP/6-311G(2d,d,p) level of theory
 entry(
     index = 11,
     label = "SO3 + O <=> SO2 + O2",
-    degeneracy = 1,
+    degeneracy = 3,
     kinetics = Arrhenius(A=(2.8e+04, 'cm^3/(mol*s)'), n=2.57, Ea=(29210, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""[Marshall2007a]""",
     longDesc =
@@ -299,7 +305,7 @@ Also available from [Wang1982] and [Marshall2006], about O(5) faster!, as:
 entry(
     index = 12,
     label = "SO3 + OH <=> SO2 + HO2",
-    degeneracy = 1,
+    degeneracy = 3,
     kinetics = Arrhenius(A=(4.8e+04, 'cm^3/(mol*s)'), n=2.46, Ea=(27225, 'cal/mol'), T0=(1, 'K'),
                          Tmin=(800, 'K'), Tmax=(2000, 'K')),
     shortDesc = u"""[Marshall2007a]""",
@@ -316,7 +322,7 @@ Also available from [Rabinowitz2010]
 entry(
     index = 13,
     label = "SO + HO2 <=> SO2 + OH",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(3.7e+03, 'cm^3/(mol*s)'), n=2.42, Ea=(7660, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""[Marshall2007b]""",
     longDesc =
@@ -330,7 +336,7 @@ calculations done at the CBS-QB3 level
 entry(
     index = 14,
     label = "HSO + O2 <=> HSO2 + O",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(8.4e-07, 'cm^3/(mol*s)'), n=5.10, Ea=(11312, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""[Marshall2007b]""",
     longDesc =
@@ -373,6 +379,7 @@ entry(
     index = 17,
     label = "HOSO <=> HSO2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(1.03e+9, 's^-1'), n=1.03, Ea=(49980, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
         arrheniusLow = Arrhenius(A=(1.72e+35, 'cm^3/(mol*s)'), n=-5.64, Ea=(55423, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K'))),
@@ -390,6 +397,7 @@ entry(
     index = 18,
     label = "HSOO <=> SH + O2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(4.41e+18, 's^-1'), n=-1.07, Ea=(7750, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
         arrheniusLow = Arrhenius(A=(1.56e+23, 'cm^3/(mol*s)'), n=-2.82, Ea=(-7450, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K'))),
@@ -407,7 +415,7 @@ Added as a training reaction to R_Recombination
 entry(
     index = 19,
     label = "SH + O2 <=> SO + OH",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(7.5e+04, 'cm^3/(mol*s)'), n=2.052, Ea=(16396, 'cal/mol'), T0=(1, 'K'),
                          Tmin=(300, 'K'), Tmax=(2000, 'K')),
     shortDesc = u"""[Sendt2009a]""",
@@ -423,7 +431,7 @@ calculations done at the MRCI/aug-cc-pV(Q+d)Z//CASSCF/cc-pVTZ level of theory
 entry(
     index = 20,
     label = "SH + O2 <=> HSO + O",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(2.3e+06, 'cm^3/(mol*s)'), n=1.816, Ea=(20005, 'cal/mol'), T0=(1, 'K'),
                          Tmin=(300, 'K'), Tmax=(2000, 'K')),
     shortDesc = u"""[Sendt2009a]""",
@@ -439,6 +447,7 @@ entry(
     index = 21,
     label = "HOSO <=> SO + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(9.94e+21, 's^-1'), n=-2.54, Ea=(75891, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
         arrheniusLow = Arrhenius(A=(1.16e+46, 'cm^3/(mol*s)'), n=-9.02, Ea=(52953, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
@@ -462,6 +471,7 @@ entry(
     index = 22,
     label = "HSOO <=> HSO + O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(2.01e+19, 's^-1'), n=-1.07, Ea=(28377, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
         arrheniusLow = Arrhenius(A=(9.27e+34, 'cm^3/(mol*s)'), n=-5.87, Ea=(30960, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K'))),
@@ -479,7 +489,8 @@ Added as a training reaction to Birad_R_Recombination
 entry(
     index = 77,
     label = "HSO2 <=> HSO + O",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.02e+13, 's^-1'), n=0, Ea=(88, 'kcal/mol'), T0=(1, 'K')),
     shortDesc = u"""estimated by alongd""",
     longDesc =
@@ -498,7 +509,7 @@ The Ea is taken as the bond energy of S=O in HSO2:
 Ea = H(HSO) + H(O) - H(HSO2)     (values taken at 1000 K)
 Ea = 2.19 + 63.12 - (-22.66) =~ 88.0 kcal/mol
 
-k(T) = 2.02e+13 * exp(88 kcal/mol / RT) cm3/mol*s
+k(T) = 2.02e+13 * exp(-88 kcal/mol / RT) cm3/mol*s
 
 Also available in reverse from the GlarborgH2S library (doi: 10.1002/kin.21055):
     entry(
@@ -524,7 +535,7 @@ Also available in reverse from the GlarborgH2S library (doi: 10.1002/kin.21055):
 entry(
     index = 23,
     label = "SO2 + CO <=> SO + CO2",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(2.7e+12, 'cm^3/(mol*s)'), n=0, Ea=(48300, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""[GlarBozz]""",
     longDesc =
@@ -539,7 +550,7 @@ As reported by [GlarBozz] (8)
 entry(
     index = 24,
     label = "SO + O2 <=> SO2 + O",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(9.03e+06, 'cm^3/(mol*s)'), n=1.4, Ea=(3712, 'cal/mol'), T0=(1, 'K'),
                          Tmin=(250, 'K'), Tmax=(3500, 'K')),
     shortDesc = u"""[Garland1998]""",
@@ -555,7 +566,7 @@ Also available from [Matsui1997]
 entry(
     index = 25,
     label = "SO2 + S <=> SO + SO",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(5.89e+12, 'cm^3/(mol*s)'), n=0, Ea=(9034, 'cal/mol'), T0=(1, 'K'),
                          Tmin=(1120, 'K'), Tmax=(1540, 'K')),
     shortDesc = u"""[Tezaki2003]""",
@@ -571,7 +582,7 @@ k2, p. 2467
 entry(
     index = 26,
     label = "H2S + O <=> HSO + H",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(1.4e+09, 'cm^3/(mol*s)'), n=1.10, Ea=(5099, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""[Marshall1995]""",
     longDesc =
@@ -595,7 +606,7 @@ Sock Tube, Uncertainty: A 38%, Ea 6.3%
 entry(
     index = 27,
     label = "H2S + O <=> SH + OH",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(7.47e+07, 'cm^3/(mol*s)','+|-',4.48e+06), n=1.746, Ea=(2895, 'cal/mol'), T0=(1, 'K'),
                          Tmin=(200, 'K'), Tmax=(2000, 'K')),
     shortDesc = u"""[Marshall1995]""",
@@ -642,6 +653,7 @@ entry(
     index = 30,
     label = "SO2 + OH <=> HOSO2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.26e+06, 'cm^3/(mol*s)','*|/',1.12511), n=1.98, Ea=(153, 'cal/mol','+|-',14.4),
                          T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(1025, 'K')),
     shortDesc = u"""[Sitha2011]""",
@@ -720,7 +732,7 @@ T range: 1170-1830 K
 entry(
     index = 34,
     label = "CS2 + H <=> CS + SH",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(1.4e+15, 'cm^3/(mol*s)'), n=0, Ea=(18380, 'cal/mol'), T0=(1, 'K'),
                          Tmin=(1170, 'K'), Tmax=(1830, 'K')),
     shortDesc = u"""[Roth1996a]""",
@@ -786,7 +798,7 @@ Measured in Ar
 entry(
     index = 38,
     label = "H2S + H <=> SH + H2",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(3.5e+07, 'cm^3/(mol*s)'), n=1.94, Ea=(904, 'cal/mol'), T0=(1, 'K'),
                          Tmin=(190, 'K'), Tmax=(2237, 'K')),
     shortDesc = u"""[Marshall1999b]""",
@@ -803,7 +815,8 @@ Added as a training reaction to H_Abstraction
 entry(
     index = 39,
     label = "H2S + S <=> SH + SH",
-    degeneracy = 1,
+    degeneracy = 2,
+    allow_pdep_route = True,
     kinetics = Arrhenius(A=(7.4e+06, 'cm^3/(mol*s)'), n=2.297, Ea=(9011, 'cal/mol'), T0=(1, 'K'),
                          Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Sendt2008]""",
@@ -829,7 +842,7 @@ of x2: i.e., A = 7.4e+06 cm^3/(mol*s), NOT 3.7e+06 cm^3/(mol*s))
 entry(
     index = 40,
     label = "S + H2 <=> SH + H",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(1.58e+14, 'cm^3/(mol*s)'), n=0, Ea=(19700, 'cal/mol'), T0=(1, 'K'),
                          Tmin=(2740, 'K'), Tmax=(3570, 'K')),
     shortDesc = u"""[Matsui1996a]""",
@@ -845,7 +858,7 @@ Added as a training reaction to H_Abstraction
 entry(
     index = 41,
     label = "S + CH4 <=> SH + CH3",
-    degeneracy = 1,
+    degeneracy = 4,
     kinetics = Arrhenius(A=(2.04e+14, 'cm^3/(mol*s)'), n=0, Ea=(19910, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""[Matsui1996b]""",
     longDesc =
@@ -861,7 +874,7 @@ Added as a training reaction to H_Abstraction
 entry(
     index = 42,
     label = "S + C2H6 <=> SH + C2H5",
-    degeneracy = 1,
+    degeneracy = 6,
     kinetics = Arrhenius(A=(1.23e+14, 'cm^3/(mol*s)'), n=0, Ea=(14750, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""[Matsui1996b]""",
     longDesc =
@@ -895,7 +908,7 @@ T range: 900-3600 K
 entry(
     index = 44,
     label = "S2 + H <=> HSS",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.15e+25, 'cm^6/(mol^2*s)'), n=-2.840, Ea=(1665, 'cal/mol'), T0 = (1, 'K'),
                                  Tmin=(873, 'K'), Tmax=(1423, 'K')),
@@ -926,45 +939,53 @@ Validated in T range: 873-1423 K
 """,
 )
 
-# entry(
-#     index = 48,
-#     label = "HSS + H <=> S2 + H2",
-#     degeneracy = 1,
-#     kinetics = Arrhenius(A=(1.23e+08, 'cm^3/(mol*s)'), n=1.653, Ea=(-1105, 'cal/mol'), T0 = (1, 'K'),
-#                          Tmin=(873, 'K'), Tmax=(1423, 'K')),
-#     shortDesc = u"""[Sendt2002]""",
-#     longDesc =
-# u"""
-# commented out: This reaction has two pathways. The current entry only describes one.
-# The other one is PDep and is given at 1 bar in the Sulfur/HSSH_1bar library
-#
-# Part of the "SOx" subset
-# k11
-#
-# Also available from [Sendt2009b]
-# """,
-# )
+entry(
+    index = 48,
+    label = "HSS + H <=> S2 + H2",
+    degeneracy = 1,
+    allow_pdep_route = True,
+    kinetics = Arrhenius(A=(1.23e+08, 'cm^3/(mol*s)'), n=1.653, Ea=(-1105, 'cal/mol'), T0 = (1, 'K'),
+                         Tmin=(873, 'K'), Tmax=(1423, 'K')),
+    shortDesc = u"""[Sendt2002]""",
+    longDesc =
+u"""
+This reaction has two pathways. The current entry only describes one.
+The other one is PDep and is given at 1 bar in the Sulfur/HSSH_1bar library
+If running at 1 bar, give the Sulfur/HSSH_1bar library priority over this library.
+Else, using this library with the current `allow_pdep_route` flag will allow RMG to add an additional PDep reaction
+between the same reactants and products.
 
-# entry(
-#     index = 49,
-#     label = "HSS + H <=> H2S + S",
-#     degeneracy = 1,
-#     kinetics = Arrhenius(A=(4.41e+13, 'cm^3/(mol*s)'), n=0, Ea=(6326, 'cal/mol'), T0 = (1, 'K'),
-#                          Tmin=(873, 'K'), Tmax=(1423, 'K')),
-#     shortDesc = u"""[Sendt2002]""",
-#     longDesc =
-# u"""
-# commented out: This reaction has two pathways. The current entry only describes one.
-# The other one is PDep and is given at 1 bar in the Sulfur/HSSH_1bar library
-#
-# Part of the "HxSy" subset
-# k12
-# TST
-# Validated in T range: 873-1423 K
-#
-# Also available from [Sendt2009b]
-# """,
-# )
+Part of the "SOx" subset
+k11
+
+Also available from [Sendt2009b]
+""",
+)
+
+entry(
+    index = 49,
+    label = "HSS + H <=> H2S + S",
+    degeneracy = 1,
+    allow_pdep_route = True,
+    kinetics = Arrhenius(A=(4.41e+13, 'cm^3/(mol*s)'), n=0, Ea=(6326, 'cal/mol'), T0 = (1, 'K'),
+                         Tmin=(873, 'K'), Tmax=(1423, 'K')),
+    shortDesc = u"""[Sendt2002]""",
+    longDesc =
+u"""
+This reaction has two pathways. The current entry only describes one.
+The other one is PDep and is given at 1 bar in the Sulfur/HSSH_1bar library
+If running at 1 bar, give the Sulfur/HSSH_1bar library priority over this library.
+Else, using this library with the current `allow_pdep_route` flag will allow RMG to add an additional PDep reaction
+between the same reactants and products.
+
+Part of the "HxSy" subset
+k12
+TST
+Validated in T range: 873-1423 K
+
+Also available from [Sendt2009b]
+""",
+)
 
 entry(
     index = 50,
@@ -986,7 +1007,7 @@ Added as a training reaction to H_Abstraction
 entry(
     index = 51,
     label = "HSS + HSS <=> HSSH + S2",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(9.56e+00, 'cm^3/(mol*s)'), n=3.370, Ea=(-1672, 'cal/mol'), T0 = (1, 'K'),
                          Tmin=(873, 'K'), Tmax=(1423, 'K')),
     shortDesc = u"""[Sendt2002]""",
@@ -1003,7 +1024,7 @@ Added as a training reaction to H_Abstraction
 entry(
     index = 52,
     label = "HSSH + H <=> HSS + H2",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(4.99e+07, 'cm^3/(mol*s)'), n=1.933, Ea=(-1408, 'cal/mol'), T0 = (1, 'K'),
                          Tmin=(873, 'K'), Tmax=(1423, 'K')),
     shortDesc = u"""[Sendt2002]""",
@@ -1020,7 +1041,7 @@ Added as a training reaction to H_Abstraction
 entry(
     index = 53,
     label = "HSSH + H <=> H2S + SH",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(3.66e+08, 'cm^3/(mol*s)'), n=1.724, Ea=(467, 'cal/mol'), T0 = (1, 'K'),
                          Tmin=(873, 'K'), Tmax=(1423, 'K')),
     shortDesc = u"""[Sendt2002]""",
@@ -1036,7 +1057,7 @@ Validated in T range: 873-1423 K
 entry(
     index = 54,
     label = "HSSH + SH <=> H2S + HSS",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(6.40e+03, 'cm^3/(mol*s)'), n=2.980, Ea=(-1480, 'cal/mol'), T0 = (1, 'K'),
                          Tmin=(873, 'K'), Tmax=(1423, 'K')),
     shortDesc = u"""[Sendt2002]""",
@@ -1053,7 +1074,7 @@ Added as a training reaction to H_Abstraction
 entry(
     index = 55,
     label = "HSSH + S <=> HSS + SH",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(2.85e+06, 'cm^3/(mol*s)'), n=2.310, Ea=(1204, 'cal/mol'), T0 = (1, 'K'),
                          Tmin=(873, 'K'), Tmax=(1423, 'K')),
     shortDesc = u"""[Sendt2002]""",
@@ -1087,7 +1108,7 @@ Train!
 entry(
     index = 57,
     label = "CH3SH + H <=> CH2SH + H2",
-    degeneracy = 1,
+    degeneracy = 3,
     kinetics = Arrhenius(A=(4.16e+03, 'cm^3/(mol*s)'), n=2.925, Ea=(4747, 'cal/mol'), T0 = (1, 'K'),
                          Tmin=(250, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Marshall2015b]""",
@@ -1135,7 +1156,7 @@ calculations done at the QCISD/6-311G(d,p) level
 entry(
     index = 60,
     label = "S + C2H2 <=> HCCS + H",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.26e+13, 'cm^3/(mol*s)'), n=0.00, Ea=(2677, 'cal/mol'), T0=(300, 'K'), Tmin=(300, 'K'), Tmax=(1000, 'K')),
         arrheniusLow = Arrhenius(A=(3.6e+29, 'cm^6/(mol^2*s)'), n=-3.55, Ea=(3955, 'cal/mol'), T0=(300, 'K'), Tmin=(300, 'K'), Tmax=(1000, 'K')),
@@ -1151,7 +1172,7 @@ T range: 300-1000 K
 entry(
     index = 61,
     label = "S + CS2 <=> CS + S2",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(6.87e+13, 'cm^3/(mol*s)'), n=0.00, Ea=(8843, 'cal/mol'), T0=(1, 'K'),
                          Tmin=(690, 'K'), Tmax=(1040, 'K')),
     shortDesc = u"""[Marshall2011a]""",
@@ -1165,7 +1186,7 @@ T range: 690-1040 K
 entry(
     index = 62,
     label = "HOSO2 + O2 <=> SO3 + HO2",
-    degeneracy = 1,
+    degeneracy = 2,
     duplicate=True,
     kinetics = Arrhenius(A=(1.848e-06, 'cm^3/(mol*s)','*|/',5.17556), n=5.40, Ea=(94.02, 'kJ/mol'), T0=(1, 'K'),
                          Tmin=(300, 'K'), Tmax=(2000, 'K')),
@@ -1182,7 +1203,7 @@ Bath gas: N2
 entry(
     index = 63,
     label = "HOSO2 + O2 <=> SO3 + HO2",
-    degeneracy = 1,
+    degeneracy = 2,
     duplicate=True,
     kinetics = Chebyshev(
         coeffs = [
@@ -1208,7 +1229,7 @@ The energetics of this reaction are available at doi: 10.1063/1.480605 (were not
 entry(
     index = 64,
     label = "H2S + OH <=> H2O + SH",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(3.82e+06, 'cm^3/(mol*s)','*|/',1.5773), n=2.04583, Ea=(-1039, 'cal/mol','+|-',65), T0=(1, 'K'),
                          Tmin=(200, 'K'), Tmax=(2400, 'K')),
     shortDesc = u"""[Truhlar2007]""",
@@ -1228,6 +1249,7 @@ entry(
     index = 46,
     label = "HSSH <=> SH + SH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.59e+18, 's^-1'), n=-0.957, Ea=(267, 'kJ/mol'), T0 = (1, 'K'),
                          Tmin=(300, 'K'), Tmax=(2000, 'K')),
     shortDesc = u"""[Sendt2009b]""",
@@ -1262,7 +1284,8 @@ Also available from [Sendt2009b] in reverse:
 entry(
     index = 65,
     label = "HSSH <=> HSS + H",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(4.70e+17, 's^-1'), n=-0.076, Ea=(310, 'kJ/mol'), T0=(1, 'K'),
                          Tmin=(300, 'K'), Tmax=(2000, 'K')),
     shortDesc = u"""[Sendt2009b]""",
@@ -1277,6 +1300,7 @@ entry(
     index = 66,
     label = "HSSH <=> H2SS",
     degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(6.74e+12, 's^-1'), n=0.213, Ea=(193, 'kJ/mol'), T0=(1, 'K')),
     shortDesc = u"""[Sendt2009b]""",
     longDesc =
@@ -1290,6 +1314,7 @@ entry(
     index = 67,
     label = "H2SS <=> HSS + H",
     degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.46e+15, 's^-1'), n=-0.026, Ea=(191, 'kJ/mol'), T0=(1, 'K')),
     shortDesc = u"""[Sendt2009b]""",
     longDesc =
@@ -1303,6 +1328,7 @@ entry(
     index = 68,
     label = "H2SS <=> H2S + S",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(4.53e+11, 's^-1'), n=0.468, Ea=(127, 'kJ/mol'), T0=(1, 'K')),
     shortDesc = u"""[Sendt2009b]""",
     longDesc =
@@ -1316,6 +1342,7 @@ entry(
     index = 69,
     label = "H2SS <=> S2 + H2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.36e+10, 's^-1'), n=1.125, Ea=(158, 'kJ/mol'), T0=(1, 'K')),
     shortDesc = u"""[Sendt2009b]""",
     longDesc =
@@ -1328,7 +1355,8 @@ calculations done at the MRCI/aug-cc-pV(Q+d)Z//CASSCF/cc-pVTZ level of theory
 entry(
     index = 70,
     label = "H2S + S <=> HSSH",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(6.38e+07, 'cm^3/(mol*s)'), n=1.280, Ea=(-2, 'kJ/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(A=(2.40e+21, 'cm^6/(mol^2*s)'), n=-1.612, Ea=(7, 'kJ/mol'), T0=(1, 'K')),
@@ -1345,6 +1373,7 @@ entry(
     index = 71,
     label = "HSO <=> H + SO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3.68e+14, 's^-1'), n=0.0, Ea=(244, 'kJ/mol'), T0=(1, 'K'),
                          Tmin=(300, 'K'), Tmax=(2000, 'K')),
     shortDesc = u"""[Sendt2007]""",
@@ -1359,6 +1388,7 @@ entry(
     index = 72,
     label = "HOS <=> H + SO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3.27e+10, 's^-1'), n=1.051, Ea=(231, 'kJ/mol'), T0=(1, 'K'),
                          Tmin=(300, 'K'), Tmax=(2000, 'K')),
     shortDesc = u"""[Sendt2007]""",
@@ -1373,6 +1403,7 @@ entry(
     index = 73,
     label = "HSO <=> HOS",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(4.08e+11, 's^-1'), n=0.547, Ea=(192, 'kJ/mol'), T0=(1, 'K'),
                          Tmin=(300, 'K'), Tmax=(2000, 'K')),
     shortDesc = u"""[Sendt2007]""",
@@ -1387,6 +1418,7 @@ entry(
     index = 74,
     label = "HSO <=> SH + O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.89e+14, 's^-1'), n=0.286, Ea=(410, 'kJ/mol'), T0=(1, 'K'),
                          Tmin=(300, 'K'), Tmax=(2000, 'K')),
     shortDesc = u"""[Sendt2007]""",
@@ -1401,6 +1433,7 @@ entry(
     index = 75,
     label = "HOS <=> OH + S",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.07e+15, 's^-1'), n=-0.013, Ea=(315, 'kJ/mol'), T0=(1, 'K'),
                          Tmin=(300, 'K'), Tmax=(2000, 'K')),
     shortDesc = u"""[Sendt2007]""",

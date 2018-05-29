@@ -26,7 +26,7 @@ This library should not be used at higher pressures.
 entry(
     index = 1,
     label = "H2S + S <=> SH + SH",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = MultiArrhenius(
         arrhenius = [
             Arrhenius(A=(1.18e+18, 'cm^3/(mol*s)'), n=-1.685, Ea=(5975, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),

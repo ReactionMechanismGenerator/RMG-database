@@ -623,7 +623,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc =
 u"""
-The S2--SH complex isn't a sable species (i.e., its geometry cannot be optimized with a reasonable NN--SH bond length),
+The N2--SH complex isn't a sable species (i.e., its geometry cannot be optimized with a reasonable NN--SH bond length),
 yet it is predicted by RMG, e.g, by R_Addition_Multiple_Bond of [SH] to N#N.
 
 Other resonance structures of it which are forbidden as well via this entry are:
@@ -638,6 +638,23 @@ multiplicity 2
 2 S u0 p2 c0 {1,S} {4,S}
 3 N u0 p2 c-1 {1,D}
 4 H u0 p0 c0 {2,S}
+""",
+)
+
+entry(
+    label = "N2SO",
+    species =
+"""
+1 O u0 p2 c0 {2,D}
+2 S u0 p1 c0 {1,D} {3,D}
+3 N u0 p0 c+1 {2,D} {4,D}
+4 N u0 p2 c-1 {3,D}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+The N2--SO complex isn't a sable species (i.e., its geometry cannot be optimized with a reasonable NN--SO bond length),
+yet it is predicted by RMG, e.g, by R_Addition_Multiple_Bond of [S][O] to N#N.
 """,
 )
 
