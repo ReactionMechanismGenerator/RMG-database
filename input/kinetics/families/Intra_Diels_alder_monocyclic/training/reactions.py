@@ -25,7 +25,7 @@ Taken from entry: VIII <=> X
 entry(
     index = 2,
     label = "C6H6-3 <=> C6H6-4",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(1.012e+13, 's^-1'), n=0.1, Ea=(41.203, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: 2003_Miller_Propargyl_Recomb_High_P""",

@@ -53,7 +53,7 @@ Taken from entry: product22 <=> product25
 entry(
     index = 4,
     label = "C6H9 <=> C6H9-2",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(1.12e+09, 's^-1'), n=0.63, Ea=(27.4, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",
@@ -66,7 +66,7 @@ Taken from entry: prod_1 <=> prod_2
 entry(
     index = 5,
     label = "C7H11 <=> C7H11-2",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(1.71e+11, 's^-1'), n=0.2, Ea=(27.5, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C3""",

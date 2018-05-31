@@ -53,7 +53,7 @@ Taken from entry: pdt18 <=> pdt19
 entry(
     index = 4,
     label = "C10H11-3 <=> C10H11-4",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(1.19e+11, 's^-1'), n=0.08, Ea=(16.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",

@@ -41,7 +41,7 @@ Taken from entry: II <=> I
 entry(
     index = 3,
     label = "C10H10 <=> C10H10-2",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     duplicate = True,
     kinetics = Arrhenius(A=(2.214e+09, 's^-1'), n=0.749, Ea=(47.859, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
@@ -69,7 +69,7 @@ Taken from entry: W4 <=> W1
 entry(
     index = 5,
     label = "C10H10-3 <=> C10H10-4",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     duplicate = True,
     kinetics = Arrhenius(A=(4.484e+11, 's^-1'), n=0.032, Ea=(50.631, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,

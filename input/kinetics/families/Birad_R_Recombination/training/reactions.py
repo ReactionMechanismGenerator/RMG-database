@@ -11,7 +11,7 @@ group additivity values in this file.
 entry(
     index = 1,
     label = "NH + NO2_r <=> HNNO2",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(1.42e+16, 'cm^3/(mol*s)'), n=-0.75, Ea=(1226, 'cal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
