@@ -85,7 +85,7 @@ Taken from entry: VIII <=> II
 entry(
     index = 6,
     label = "C6H8 <=> C6H8-2",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     kinetics = Arrhenius(A=(7.0333e+08, 's^-1'), n=1.2, Ea=(24.8, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
@@ -98,7 +98,7 @@ Taken from entry: C5H5CH3-5 <=> C5H5CH3-1
 entry(
     index = 7,
     label = "C6H8-3 <=> C6H8-4",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.6539e+07, 's^-1'), n=2.1, Ea=(25.1, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
@@ -113,7 +113,7 @@ Taken from entry: C5H5CH3-1 <=> C5H5CH3-2
 entry(
     index = 8,
     label = "C6H7 <=> C6H7-2",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.23e+07, 's^-1'), n=1.54, Ea=(13.4, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
@@ -128,7 +128,7 @@ Taken from entry: C5H5CH2-1 <=> C5H5CH2-2
 entry(
     index = 9,
     label = "C10H9 <=> C10H9-2",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.46e+08, 's^-1'), n=1.46, Ea=(16.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
@@ -141,7 +141,7 @@ Taken from entry: adducta <=> adductb
 entry(
     index = 10,
     label = "C10H9-3 <=> C10H9-4",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     kinetics = Arrhenius(A=(5.46e+06, 's^-1'), n=2.01, Ea=(27.5, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
@@ -156,7 +156,7 @@ Taken from entry: adductb <=> adductc
 entry(
     index = 11,
     label = "C10H11 <=> C10H11-2",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.12e+08, 's^-1'), n=1.64, Ea=(22.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
@@ -169,7 +169,7 @@ Taken from entry: adductd <=> pdt15
 entry(
     index = 12,
     label = "C10H11-3 <=> C10H11-4",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.28e+08, 's^-1'), n=1.55, Ea=(18.4, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
@@ -182,7 +182,7 @@ Taken from entry: pdt14 <=> pdt16
 entry(
     index = 13,
     label = "C10H11-5 <=> C10H11-6",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.18e+08, 's^-1'), n=1.8, Ea=(21.8, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
@@ -210,7 +210,7 @@ Taken from entry: W8 <=> W102
 entry(
     index = 15,
     label = "C10H9-7 <=> C10H9-8",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.548e+09, 's^-1'), n=0.934, Ea=(9.114, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2016_Mebel_C10H9_highP""",

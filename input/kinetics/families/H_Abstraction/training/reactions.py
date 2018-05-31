@@ -3743,7 +3743,7 @@ A-factor multiplied by 1/3 to account for different degeneracy of isopropylbenze
 entry(
     index=1276,
     label = "C3H6-3 + C6H5 <=> C6H6 + C3H5-4",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (0.00551, 'cm^3/(mol*s)'),
         n = 4.401,
@@ -3797,7 +3797,7 @@ Taken from entry: C6H5 + C3H6 <=> C6H6 + CH2CHCH2
 entry(
     index = 1279,
     label = "C4H6-3 + C2H3 <=> C2H4 + C4H5",
-    degeneracy = 1.0,
+    degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (0.0003437, 'cm^3/(mol*s)'),
         n = 4.732,

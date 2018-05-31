@@ -310,7 +310,7 @@ Taken from entry: R2 + H <=> C5H5CH3-5
 entry(
     index = 25,
     label = "C6H7-2 + H <=> C6H8-3",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (6.7982e-11, 'cm^3/(molecule*s)'),
         n = 0.3,
@@ -346,7 +346,7 @@ Taken from entry: R1 + H <=> C5H5CH3-1
 entry(
     index = 27,
     label = "C6H7-4 + H <=> C6H8-5",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (1.50356e-10, 'cm^3/(molecule*s)'),
         n = 0.1,
