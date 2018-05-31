@@ -173,10 +173,10 @@ entry(
                 n = 1.66,
                 Ea = (11655, 'cal/mol'),
                 T0 = (1, 'K'),
-                comment = 'MOUHEM13',
             ),
         ],
     ),
+    shortDesc = u"""MOUHEM13""",
 )
 
 entry(
@@ -207,10 +207,13 @@ entry(
                 n = 1.325,
                 Ea = (-436, 'cal/mol'),
                 T0 = (1, 'K'),
-                comment = 'kinf (fitted from figure) ##\nH2S+S=SH+SH   1.2E18 -1.685     5970 !\nY Gao CR Zhou K Sendt BS Haynes P MArshall Proc Combust Inst 33 (2011) 459-465',
             ),
         ],
     ),
+    longDesc = u"""
+kinf (fitted from figure) ##
+H2S+S=SH+SH   1.2E18 -1.685     5970 !
+Y Gao CR Zhou K Sendt BS Haynes P MArshall Proc Combust Inst 33 (2011) 459-465""",
 )
 
 entry(
@@ -432,10 +435,10 @@ entry(
                 n = 2.103,
                 Ea = (3583, 'cal/mol'),
                 T0 = (1, 'K'),
-                comment = 'Sendt K Haynes BS PROC COMBUST INST 31 257-265 2007',
             ),
         ],
     ),
+    shortDesc = u"""Sendt K Haynes BS PROC COMBUST INST 31 257-265 2007""",
 )
 
 entry(
@@ -1630,17 +1633,18 @@ entry(
                 n = 2.627,
                 Ea = (19013, 'cal/mol'),
                 T0 = (1, 'K'),
-                comment = 'Zhou TST (2009) (quArtet TS); Ea-2.5 kcal/mol (pw)',
             ),
             Arrhenius(
                 A = (29, 'cm^3/(mol*s)'),
                 n = 3.2,
                 Ea = (14529, 'cal/mol'),
                 T0 = (1, 'K'),
-                comment = 'pw (PM 2015) (doublet TS)',
             ),
         ],
     ),
+    longDesc = u"""
+1. Zhou TST (2009) (quArtet TS); Ea-2.5 kcal/mol (pw)
+2. pw (PM 2015) (doublet TS)""",
 )
 
 entry(
@@ -3248,10 +3252,12 @@ entry(
                 n = -0.983,
                 Ea = (261, 'cal/mol'),
                 T0 = (1, 'K'),
-                comment = 'Sendt K Jazbec M Haynes BS PCI 29:2439-2446 2002\nCR Zhou K Sendt BS Haynes J. Phys. Chem. A 2009, 112, 3239-3247',
             ),
         ],
     ),
+    longDesc = u"""
+Sendt K Jazbec M Haynes BS PCI 29:2439-2446 2002
+CR Zhou K Sendt BS Haynes J. Phys. Chem. A 2009, 112, 3239-3247""",
 )
 
 entry(
@@ -3266,10 +3272,10 @@ entry(
                 n = -0.894,
                 Ea = (-56, 'cal/mol'),
                 T0 = (1, 'K'),
-                comment = 'CR Zhou K Sendt BS Haynes J. Phys. Chem. A 2009, 112, 3239-3247',
             ),
         ],
     ),
+    shortDesc = u"""CR Zhou K Sendt BS Haynes J. Phys. Chem. A 2009, 112, 3239-3247""",
 )
 
 entry(
@@ -3289,10 +3295,10 @@ entry(
                 n = -1.563,
                 Ea = (472, 'cal/mol'),
                 T0 = (1, 'K'),
-                comment = 'CR Zhou K Sendt BS Haynes J. Phys. Chem. A 2009, 112, 3239-3247',
             ),
         ],
     ),
+    shortDesc = u"""2. CR Zhou K Sendt BS Haynes J. Phys. Chem. A 2009, 112, 3239-3247""",
 )
 
 entry(
@@ -4498,4 +4504,3 @@ u"""
 Zhou est (2009)
 """,
 )
-

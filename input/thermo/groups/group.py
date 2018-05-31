@@ -46945,6 +46945,190 @@ JPCA, 1998, 102, 4551-4558
 """,
 )
 
+entry(
+    index = 2086,
+    label = "Cb-I",
+    group =
+"""
+1 * Cb u0 {2,S}
+2   I1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000],'K'),
+        Cpdata = ([8.0,8.9,9.6,9.9,10.3,10.5],'cal/(mol*K)'),
+        H298 = (24.0,'kcal/mol'),
+        S298 = (23.7,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Cb-I BENSON""",
+    longDesc =
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson (Table A4, p.281)
+""",
+)
+
+entry(
+    index = 2088,
+    label = "Cds-CdIH",
+    group =
+"""
+1 * Cd u0 {2,D} {3,S} {4,S}
+2   C  u0 {1,D}
+3   I1s u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000],'K'),
+        Cpdata = ([8.8, 10.0, 10.9, 11.6, 12.6, 13.3],'cal/(mol*K)'),
+        H298 = (24.5,'kcal/mol'),
+        S298 = (40.5,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Cd-(I)(H) BENSON""",
+    longDesc =
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson (Table A4, p.280)
+""",
+)
+
+entry(
+    index = 2089,
+    label = "Cs-IOHH",
+    group =
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   I1s u0 {1,S}
+3   O   u0 {1,S}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([],'K'),
+        Cpdata = ([],'cal/(mol*K)'),
+        H298 = (3.8,'kcal/mol'),
+        S298 = (40.7,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""C-(I)(O)(H)2 BENSON, no Cpdata reported""",
+    longDesc =
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson (Table A4, p.280)
+""",
+)
+
+entry(
+    index = 2090,
+    label = "Cs-CIIH",
+    group =
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   C   u0 {1,S}
+3   I1s u0 {1,S}
+4   I1s u0 {1,S}
+5   H   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,500,600],'K'),
+        Cpdata = ([12.2, 16.4, 17.0],'cal/(mol*K)'),
+        H298 = (26.0,'kcal/mol'),
+        S298 = (54.6,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""C-(I)2(C)(H) BENSON values in ()""",
+    longDesc =
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson (Table A4, p.280)
+""",
+)
+
+entry(
+    index = 2091,
+    label = "Cs-CCCI",
+    group =
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   C   u0 {1,S}
+3   C   u0 {1,S}
+4   C   u0 {1,S}
+5   I1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300],'K'),
+        Cpdata = ([9.7],'cal/(mol*K)'),
+        H298 = (13.0,'kcal/mol'),
+        S298 = (0.0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""C-(I)(C)3  BENSON""",
+    longDesc =
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson (Table A4, p.280)
+""",
+)
+
+entry(
+    index = 2092,
+    label = "Cs-CCIH",
+    group =
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   C   u0 {1,S}
+3   C   u0 {1,S}
+4   I1s u0 {1,S}
+5   H   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000],'K'),
+        Cpdata = ([9.2,10.9,12.2,13.0,14.2,14.8],'cal/(mol*K)'),
+        H298 = (10.5,'kcal/mol'),
+        S298 = (21.3,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""C-(I)(H)(C)2 BENSON""",
+    longDesc =
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson (Table A4, p.280)
+""",
+)
+
+entry(
+    index = 2093,
+    label = "Cs-CIHH",
+    group =
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   C   u0 {1,S}
+3   I1s u0 {1,S}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000],'K'),
+        Cpdata = ([9.2,11.0,12.9,13.9,15.8,17.2],'cal/(mol*K)'),
+        H298 = (8.0,'kcal/mol'),
+        S298 = (43.0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""C-(I)(H)2(C) BENSON""",
+    longDesc =
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson (Table A4, p.280)
+""",
+)
+
+entry(
+    index = 2094,
+    label = "I1s",
+    group =
+"""
+1 *  I1s u0
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000],'K'),
+        Cpdata = ([0.0,0.0,0.0,0.0,0.0,0.0],'cal/(mol*K)'),
+        H298 = (0.0,'kcal/mol'),
+        S298 = (0.0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Dummy Iodine group""",
+    longDesc =
+u"""
+Dummy group for singly-bonded iodine. Benson groups for chloroalkanes already account for I in the Carbon-centered groups.
+""",
+)
+
 tree(
 """
 L1: R
@@ -46988,6 +47172,7 @@ L1: R
                 L5: Cb-Cb
                 L5: Cb-C=S
             L4: Cb-Cl
+            L4: Cb-I
         L3: Ct
             L4: Ct-CtN3s
             L4: Ct-N3tN3s
@@ -47536,6 +47721,7 @@ L1: R
             L4: Cds-CdClCl
             L4: Cds-CdClC
                 L5: Cds-CdClCd
+            L4: Cds-CdIH
         L3: Cs
             L4: Cs-NHHH
                 L5: Cs-N3sHHH
@@ -48869,6 +49055,11 @@ L1: R
             L4: Cs-CCClH
             L4: Cs-CCClCl
             L4: Cs-CCCCl
+            L4: Cs-IOHH 
+            L4: Cs-CIIH 
+            L4: Cs-CCCI
+            L4: Cs-CCIH
+            L4: Cs-CIHH
     L2: O
         L3: Oa(S)
         L3: O2d
