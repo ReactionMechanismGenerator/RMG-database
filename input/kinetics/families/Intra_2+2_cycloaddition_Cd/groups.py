@@ -162,3 +162,109 @@ L1: C=C_2
     L2: CddC_2
 """
 )
+
+forbidden(
+    label = "resonant_radical_1",
+    group =
+"""
+1  *1 C u0 {2,D}
+2  *2 Cd u0 {1,D} {3,S} {5,S}
+3  *4 Cd u0 {2,S} {4,D}
+4  *3 C u0 {3,D}
+5     R!H u1 {2,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid this family from reacting a resonant radical, to prevent redundancy with Intra_R_Add_Endo or Exocyclic
+""",
+)
+
+forbidden(
+    label = "resonant_radical_2",
+    group =
+"""
+1  *1 C u0 {2,D}
+2  *2 Cd u0 {1,D} {3,S}
+3  *4 Cd u0 {2,S} {4,D} {5,S}
+4  *3 C u0 {3,D}
+5     R!H u1 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid this family from reacting a resonant radical, to prevent redundancy with Intra_R_Add_Endo or Exocyclic
+""",
+)
+
+forbidden(
+    label = "resonant_radical_3",
+    group =
+"""
+1  *1 C u0 {2,D}
+2  *2 Cd u0 {1,D} {3,S} {5,S}
+3  *4 Cd u0 {2,S} {4,D}
+4  *3 C u0 {3,D}
+5     R!H ux {2,S} {6,D}
+6     R!H ux {5,D} {7,S}
+7     R!H u1 {6,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid this family from reacting a resonant radical, to prevent redundancy with Intra_R_Add_Endo or Exocyclic
+""",
+)
+
+forbidden(
+    label = "resonant_radical_4",
+    group =
+"""
+1  *1 C u0 {2,D}
+2  *2 Cd u0 {1,D} {3,S}
+3  *4 Cd u0 {2,S} {4,D} {5,S}
+4  *3 C u0 {3,D}
+5     R!H ux {3,S} {6,D}
+6     R!H ux {5,D} {7,S}
+7     R!H u1 {6,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid this family from reacting a resonant radical, to prevent redundancy with Intra_R_Add_Endo or Exocyclic
+""",
+)
+
+forbidden(
+    label = "resonant_radical_5",
+    group =
+"""
+1  *1 C u0 {2,D} {5,[S,D]}
+2  *2 Cd u0 {1,D} {3,S}
+3  *4 Cd u0 {2,S} {4,D}
+4  *3 C u0 {3,D}
+5     R!H u1 {1,[S,D]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid this family from reacting a resonant radical, to prevent redundancy with Intra_R_Add_Endo or Exocyclic
+""",
+)
+
+forbidden(
+    label = "resonant_radical_6",
+    group =
+"""
+1  *1 C u0 {2,D}
+2  *2 Cd u0 {1,D} {3,S}
+3  *4 Cd u0 {2,S} {4,D}
+4  *3 C u0 {3,D} {5,[S,D]}
+5     R!H u1 {4,[S,D]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid this family from reacting a resonant radical, to prevent redundancy with Intra_R_Add_Endo or Exocyclic
+""",
+)
