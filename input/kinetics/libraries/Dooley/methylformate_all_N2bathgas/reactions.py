@@ -6,6 +6,8 @@ shortDesc = u""
 longDesc = u"""
 mechanism used in
 S. Dooley, M. P. Burke, M. Chaos, Y. Stein, F. L. Dryer, V. P. Zhukov, O. Finch, J. M. Simmie, H. J. Curran, Int. J. Chem. Kinet. 42 (9) (2010) 527-549.
+
+Three rates had their A factors modified from the paper to bring them below the TST limit rate at 1000 K
 """
 entry(
     index = 1,
@@ -4336,7 +4338,8 @@ entry(
     index = 567,
     label = "C3H6OOH2-2 <=> CH3COCH3 + OH",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9e+14, 's^-1'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(2e13, 's^-1'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = 'A factor reduced from 9e+14 to 2e+13 to meet TST limit at 1000 K',
 )
 
 entry(
@@ -7344,14 +7347,16 @@ entry(
     index = 963,
     label = "C4H8OOH1-1 <=> NC3H7CHO + OH",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9e+14, 's^-1'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(2e+13, 's^-1'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = 'A factor reduced from 9e+14 to 2e+13 to meet TST limit at 1000 K',
 )
 
 entry(
     index = 964,
     label = "C4H8OOH2-2 <=> C2H5COCH3 + OH",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9e+14, 's^-1'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(2e13, 's^-1'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = 'A factor reduced from 9e+14 to 2e+13 to meet TST limit at 1000 K',
 )
 
 entry(
