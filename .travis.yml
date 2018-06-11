@@ -30,8 +30,9 @@ install:
   - make
 
 script:
+  - make test-unittests
+  - make test-functional
   - make test-database
-  - make test-all
 
 after_success:
   - cd $TRAVIS_BUILD_DIR
