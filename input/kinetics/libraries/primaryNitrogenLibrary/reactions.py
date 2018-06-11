@@ -724,12 +724,15 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.378e+7, 'cm^3/(mol*s)'), n=0, Ea=(-49933, 'cal/mol'), T0=(1, 'K'), Tmin=(2000, 'K'), Tmax=(4000, 'K')),
     shortDesc = u"""[Lin2000a]""",
+    allow_max_rate_violation = True,
     longDesc =
 u"""
 Part of the "Prompt NO, NCN subset" mechanism
 See Table 1 on p. 2397 in [Lin2000a]
 T range: 2000-4000 K
 Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
+
+Note: This rate exceeds the collision limit at 1000 K, 1 bar!
 """,
 )
 
