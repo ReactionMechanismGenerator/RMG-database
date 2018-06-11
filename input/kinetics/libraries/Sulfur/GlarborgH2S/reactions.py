@@ -9,6 +9,8 @@ An Exploratory Flow Reactor Study of H2S Oxidation at 30-100 Bar
 Y. Song, H. Hashemi, J.M. Christensen, C. Zou, B.S. Haynes, P. Marshall, P. Glarborg
 International Journal of Chemical Kinetics 49(1), 2017, 37-52
 doi: 10.1002/kin.21055
+
+Note: The rate of reaction HSS + H <=> SH + SH was changed to avoid violating the collision limit
 """
 
 entry(
@@ -3248,16 +3250,22 @@ entry(
                 T0 = (1, 'K'),
             ),
             Arrhenius(
-                A = (1.6e+18, 'cm^3/(mol*s)'),
-                n = -0.983,
-                Ea = (261, 'cal/mol'),
+                A = (1.1e+13, 'cm^3/(mol*s)'),
+                n = 0.35,
+                Ea = (210, 'cal/mol'),
                 T0 = (1, 'K'),
             ),
         ],
     ),
     longDesc = u"""
 Sendt K Jazbec M Haynes BS PCI 29:2439-2446 2002
-CR Zhou K Sendt BS Haynes J. Phys. Chem. A 2009, 112, 3239-3247""",
+CR Zhou K Sendt BS Haynes J. Phys. Chem. A 2009, 112, 3239-3247
+
+* Note: This reaction describes both the singlet and triplet surfaces.
+Since the original rate for the singlet surface caused this rate to violate the collision limit,
+It was reduced (by alongd) to match the singlet surface rate
+reported by K. Sendt, M. Jazbec, B.S. Haynes 2002 https://doi.org/10.1016/S1540-7489(02)80297-8
+(Table 1, R8, comment d)""",
 )
 
 entry(
