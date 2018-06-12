@@ -162,21 +162,21 @@ u"""
 """,
 )
 
-entry(
-    index = 10,
-    label = "SO + H <=> HSO",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (5.0e+15, 'cm^3/(mol*s)'),
-        n = 0.00,
-        Ea = (0, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Rate constant estimated
-""",
-)
+# entry(
+#     index = 10,
+#     label = "SO + H <=> HSO",
+#     degeneracy = 1,
+#     kinetics = Arrhenius(
+#         A = (5.0e+15, 'cm^3/(mol*s)'),
+#         n = 0.00,
+#         Ea = (0, 'kcal/mol'),
+#         T0 = (1, 'K'),
+#     ),
+#     longDesc =
+# u"""
+# Rate constant estimated
+# """,
+# )
 
 entry(
     index = 11,
@@ -213,21 +213,21 @@ u"""
 """,
 )
 
-entry(
-    index = 13,
-    label = "SO + OH <=> HOSO",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (8.0e+21, 'cm^3/(mol*s)'),
-        n = -2.16,
-        Ea = (0.83, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-QRRK estimate for 300-1500 K, 1 atm [35]
-""",
-)
+# entry(
+#     index = 13,
+#     label = "SO + OH <=> HOSO",
+#     degeneracy = 1,
+#     kinetics = Arrhenius(
+#         A = (8.0e+21, 'cm^3/(mol*s)'),
+#         n = -2.16,
+#         Ea = (0.83, 'kcal/mol'),
+#         T0 = (1, 'K'),
+#     ),
+#     longDesc =
+# u"""
+# QRRK estimate for 300-1500 K, 1 atm [35]
+# """,
+# )
 
 entry(
     index = 14,
