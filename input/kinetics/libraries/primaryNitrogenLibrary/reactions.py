@@ -1270,6 +1270,7 @@ entry(
     index = 61,
     label = "CN + NCO <=> NCN + CO",
     degeneracy = 1,
+    allow_max_rate_violation = True,
     kinetics = Arrhenius(A=(4.46e+14, 'cm^3/(mol*s)'), n=0.30, Ea=(952, 'cal/mol'), T0=(1, 'K'), Tmin=(1000, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Lin2009b]""",
     longDesc =
@@ -1282,6 +1283,8 @@ the contribution of the triplet channel to the NCO(T) + CN reaction is negligibl
 Several levels of theory were used:
 G2M//B3LYP/6-311+G(d), QCISD(T)/6-311+G(3df)//QCISD/6-311+G(d), CCSD(T)/6-311+G(3df)//CCSD/6-311+G(d),
 CASPT2(10,10)/6-311+G(d)//CAS(10,10)/6-311+G(d).
+
+Note: This rate exceeds the collision limit at 1000 K, 1 bar!
 """,
 )
 
