@@ -1921,15 +1921,16 @@ entry(
     index = 101,
     label = "N2H4 <=> NH2 + NH2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.57e+21, 's^-1'), n=-1.04, Ea=(66565, 'cal/mol'), T0=(1, 'K'),
-                         Tmin=(700, 'K'), Tmax=(2000, 'K')),
+    kinetics = Lindemann(
+        arrheniusHigh = Arrhenius(A=(1.57e+21, 's^-1'), n=-1.04, Ea=(66565, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
+        arrheniusLow = Arrhenius(A=(1.96e+52, 'cm^3/(mol*s)'), n=-10.2, Ea=(71677, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K'))),
     elementary_high_p = True,
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
 Part of the "N2H4 + N2O4" subset
 p. 264
-T range: 700-2000 K
+Bath gas: Ar
 calculations done at the RCCSD(T)/6-311+G(3df,2p)//B3LYP/6-311G(d,p) level of theory
 Only High Pressure Limit rate was taken; low limit and 1 atm rate are also available from the same source
 Also available from [Klippenstein2009a] in reverse:
@@ -1946,15 +1947,16 @@ entry(
     index = 102,
     label = "N2H4 <=> N2H3 + H",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.69e+14, 's^-1'), n=-0.28, Ea=(76678, 'cal/mol'), T0=(1, 'K'),
-                         Tmin=(700, 'K'), Tmax=(2000, 'K')),
+    kinetics = Lindemann(
+        arrheniusHigh = Arrhenius(A=(5.69e+14, 's^-1'), n=-0.28, Ea=(76678, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
+        arrheniusLow = Arrhenius(A=(1.95e+47, 'cm^3/(mol*s)'), n=-8.5, Ea=(82384, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K'))),
     elementary_high_p = True,
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
 Part of the "N2H4 + N2O4" subset
 p. 264
-T range: 700-2000 K
+Bath gas: Ar
 calculations done at the RCCSD(T)/6-311þG(3df,2p)//B3LYP/6-311G(d,p) level of theoty
 Only High Pressure Limit rate was taken low limit and 1 atm rate are also available from the same source
 """,
@@ -1964,15 +1966,16 @@ entry(
     index = 103,
     label = "ONONO2 <=> NO2 + NO2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.69e+23, 's^-1'), n=-2.43, Ea=(8148, 'cal/mol'), T0=(1, 'K'),
-                         Tmin=(700, 'K'), Tmax=(2000, 'K')),
+    kinetics = Lindemann(
+        arrheniusHigh = Arrhenius(A=(1.69e+23, 's^-1'), n=-2.43, Ea=(8148, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
+        arrheniusLow = Arrhenius(A=(6.14e+20, 'cm^3/(mol*s)'), n=-0.63, Ea=(3923, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K'))),
     elementary_high_p = True,
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
 Part of the "N2H4 + N2O4" subset
 p. 265
-T range: 700-2000 K
+Bath gas: Ar
 calculations done at the UCCSD(T)/CBS//UB3LYP/6-311þþG(3df,2p) level of theoty
 Only High Pressure Limit rate was taken low limit and 1 atm rate are also available from the same source
 """,
@@ -1982,15 +1985,16 @@ entry(
     index = 104,
     label = "ONONO2 <=> NO + NO3",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.41e+21, 's^-1'), n=-1.76, Ea=(31535, 'cal/mol'), T0=(1, 'K'),
-                         Tmin=(700, 'K'), Tmax=(2000, 'K')),
+    kinetics = Lindemann(
+        arrheniusHigh = Arrhenius(A=(2.41e+21, 's^-1'), n=-1.76, Ea=(31535, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
+        arrheniusLow = Arrhenius(A=(2.37e+41, 'cm^3/(mol*s)'), n=-7.36, Ea=(31704, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K'))),
     elementary_high_p = True,
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
 Part of the "N2H4 + N2O4" subset
 p. 265
-T range: 700-2000 K
+Bath gas: Ar
 calculations done at the UCCSD(T)/CBS//UB3LYP/6-311þþG(3df,2p) level of theoty
 Only High Pressure Limit rate was taken low limit and 1 atm rate are also available from the same source
 """,
@@ -2005,8 +2009,7 @@ entry(
     longDesc =
 u"""
 Part of the "N2H4 + N2O4" subset
-p. 265
-T range: 250-2500 K
+p. 267
 calculations done at the G2M(CC2)//B3LYP/6-311þþG(3df,2p) level of theoty
 Also available from [Lin2014a], calculated at the CCSD(T)/CBS//CCSD level of theoty:
     kinetics = Arrhenius(A=(8.25e+01, 'cm^3/(mol*s)'), n=3.13, Ea=(8863, 'cal/mol'), T0=(1, 'K')),
@@ -2017,13 +2020,13 @@ entry(
     index = 106,
     label = "N2H4 + NO3 <=> N2H3 + HNO3",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.28e+04, 'cm^3/(mol*s)'), n=2.53, Ea=(-2947, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(1.28e+04, 'cm^3/(mol*s)'), n=2.53, Ea=(-2947, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
 Part of the "N2H4 + N2O4" subset
 p. 269
-T range: 300-3000 K
 calculations done at the CCSD(T)//BHandHLYP/6-311þþG(3df,2p) level of theoty
 Pressure independent at least up to 100 atm
 A different rate for the same reaction is available from the same author (M.C. Lin) published in the same year...: [Lin2014a]
@@ -2040,13 +2043,13 @@ entry(
     index = 107,
     label = "N2H4 + NO3 <=> HONO + N2H3O",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.46e+03, 'cm^3/(mol*s)'), n=2.51, Ea=(-7452, 'cal/mol'), T0=(1, 'K'), Tmin=(1000, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(3.46e+03, 'cm^3/(mol*s)'), n=2.51, Ea=(-7452, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(1000, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
 Part of the "N2H4 + N2O4" subset
 p. 269
-T range: 1000-3000 K
 calculations done at the CCSD(T)//BHandHLYP/6-311þþG(3df,2p) level of theoty
 Pressure independent at least up to 100 atm
 The Low T (300-1000 K) rate is:
@@ -2067,7 +2070,8 @@ entry(
     index = 108,
     label = "N2H4 + N2O4 <=> HONO + NH2NHNO2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.39e+02, 'cm^3/(mol*s)'), n=2.62, Ea=(13112, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2500, 'K')),
+    kinetics = Arrhenius(A=(1.39e+02, 'cm^3/(mol*s)'), n=2.62, Ea=(13112, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(200, 'K'), Tmax=(2500, 'K')),
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
@@ -2082,13 +2086,13 @@ entry(
     index = 109,
     label = "N2H4 + ONONO2 <=> HNO3 + NH2NHNO",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4.7e+14, 'cm^3/(mol*s)','+|-',6.1e+13), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    kinetics = Arrhenius(A=(4.7e+14, 'cm^3/(mol*s)','+|-',6.1e+13), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(250, 'K'), Tmax=(2500, 'K')),
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
 Part of the "N2H4 + N2O4" subset
 p. 272
-T range: 250-2500 K
 calculations done at the G2M(CC3)//B3LYP level of theoty
 Reaction has a negligible T dependence in the explored range
 uncertainty: +/- 13%
@@ -2109,7 +2113,6 @@ entry(
 u"""
 Part of the "N2H4 + N2O4" subset
 p. 274
-T range: 250-1500 K
 calculations done at the CCSD(T)/6-311þG(3df,2p) level of theoty
 """,
 )
@@ -2118,7 +2121,8 @@ entry(
     index = 111,
     label = "N2H3 + NO2 <=> N2H2 + HONO",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.40e+55, 'cm^3/(mol*s)'), n=-16.7, Ea=(-14397, 'cal/mol'), T0=(1, 'K'), Tmin=(800, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(2.40e+55, 'cm^3/(mol*s)'), n=-16.7, Ea=(-14397, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(800, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
@@ -2135,7 +2139,8 @@ entry(
     index = 112,
     label = "N2H3 + NO2 <=> N2H2 + HNO2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.12e+07, 'cm^3/(mol*s)'), n=-0.2, Ea=(-2736, 'cal/mol'), T0=(1, 'K'), Tmin=(1500, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(5.12e+07, 'cm^3/(mol*s)'), n=-0.2, Ea=(-2736, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(1500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
@@ -2152,7 +2157,8 @@ entry(
     index = 113,
     label = "N2H3 + NO2 <=> N2H3O + NO",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(6.14e+00, 'cm^3/(mol*s)'), n=2.8, Ea=(-8853, 'cal/mol'), T0=(1, 'K'), Tmin=(1000, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(6.14e+00, 'cm^3/(mol*s)'), n=2.8, Ea=(-8853, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(1000, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
@@ -2169,13 +2175,13 @@ entry(
     index = 114,
     label = "N2H3 + N2O4 <=> NH2NHNO2 + NO2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.10e+10, 'cm^3/(mol*s)'), n=0.87, Ea=(11772, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(1.10e+10, 'cm^3/(mol*s)'), n=0.87, Ea=(11772, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
 Part of the "N2H4 + N2O4" subset
-p. 281
-T range: 300-3000 K
+k8, p. 281
 calculations done at the CCSD(T)/6-311þþG(3df,2p)//B3LYP/6-311þþG(3df,2p) level of theoty
 """,
 )
@@ -2184,13 +2190,13 @@ entry(
     index = 115,
     label = "N2H3 + N2O4 <=> N2H2 + HONO + NO2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(8.55e+10, 'cm^3/(mol*s)'), n=0.74, Ea=(11707, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(8.55e+10, 'cm^3/(mol*s)'), n=0.74, Ea=(11707, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
 Part of the "N2H4 + N2O4" subset
-p. 281
-T range: 300-3000 K
+k9, p. 281
 calculations done at the CCSD(T)/6-311þþG(3df,2p)//B3LYP/6-311þþG(3df,2p) level of theoty
 """,
 )
@@ -2199,13 +2205,13 @@ entry(
     index = 116,
     label = "N2H3 + N2O4 <=> NH2NHONO + NO2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4.54e+13, 'cm^3/(mol*s)'), n=0.76, Ea=(15960, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(4.54e+13, 'cm^3/(mol*s)'), n=0.76, Ea=(15960, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
 Part of the "N2H4 + N2O4" subset
-p. 281
-T range: 300-3000 K
+k10, p. 281
 calculations done at the CCSD(T)/6-311þþG(3df,2p)//B3LYP/6-311þþG(3df,2p) level of theoty
 """,
 )
@@ -2214,13 +2220,13 @@ entry(
     index = 117,
     label = "N2H3 + N2O4 <=> N2H3O + N2O3",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.69e+11, 'cm^3/(mol*s)'), n=0.87, Ea=(8047.4, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(3.69e+11, 'cm^3/(mol*s)'), n=0.87, Ea=(8047.4, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
 Part of the "N2H4 + N2O4" subset
-p. 281
-T range: 300-3000 K
+k11, p. 281
 calculations done at the CCSD(T)/6-311þþG(3df,2p)//B3LYP/6-311þþG(3df,2p) level of theoty
 """,
 )
@@ -2236,7 +2242,7 @@ entry(
     longDesc =
 u"""
 Part of the "N2H4 + N2O4" subset
-p. 284
+k13, p. 284
 T range: 300-3000 K, P = 1 atm
 calculations done at the CCSD(T)/6-311þG(3df,2p)//CCSD/6-311þþG(d,p) level of theoty
 """,
@@ -2253,7 +2259,7 @@ entry(
     longDesc =
 u"""
 Part of the "N2H4 + N2O4" subset
-p. 284
+k15, p. 284
 T range: 300-3000 K, P = 1 atm
 calculations done at the CCSD(T)/6-311þG(3df,2p)//CCSD/6-311þþG(d,p) level of theoty
 """,
@@ -2270,7 +2276,7 @@ entry(
     longDesc =
 u"""
 Part of the "N2H4 + N2O4" subset
-p. 284
+k16, p. 284
 T range: 300-3000 K, P = 1 atm
 calculations done at the CCSD(T)/6-311þG(3df,2p)//CCSD/6-311þþG(d,p) level of theoty
 """,
@@ -2291,7 +2297,6 @@ entry(
 u"""
 Part of the "N2H4 + N2O4" subset
 p. 287
-T range: 300-2500 K
 calculations done at the CCSD(T)/6-311þþG(3df,2p)//B3LYP/6-311þþG(3df,2p) level of theoty
 conformer-dup: rates summed for trans/cis-N2H2
 """,
@@ -2301,12 +2306,13 @@ entry(
     index = 122,
     label = "N2H2 + N2O4 <=> HONO + NO2 + NNH",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(8.79e+00, 'cm^3/(mol*s)'), n=3.10, Ea=(28787, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    kinetics = Arrhenius(A=(8.79e+00, 'cm^3/(mol*s)'), n=3.10, Ea=(28787, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(300, 'K'), Tmax=(2500, 'K')),
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
 Part of the "N2H4 + N2O4" subset
-p. 288
+k19, p. 288
 T range: 300-2500 K
 calculations done at the B3LYP/6-311þþG(3df,2p) level
 """,
@@ -2316,12 +2322,13 @@ entry(
     index = 123,
     label = "N2H2 + N2O4 <=> HONO + HNO2 + N2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.38e-02, 'cm^3/(mol*s)'), n=3.90, Ea=(13360, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    kinetics = Arrhenius(A=(2.38e-02, 'cm^3/(mol*s)'), n=3.90, Ea=(13360, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(300, 'K'), Tmax=(2500, 'K')),
     shortDesc = u"""[Lin2014b]""",
     longDesc =
 u"""
 Part of the "N2H4 + N2O4" subset
-p. 288
+k20, p. 288
 T range: 300-2500 K
 calculations done at the B3LYP/6-311þþG(3df,2p) level
 """,
@@ -2341,8 +2348,7 @@ entry(
     longDesc =
 u"""
 Part of the "N2H4 + N2O4" subset
-p. 292
-T range: 300-2500 K
+k21 and k22, p. 292
 calculations done at the CCSD(T)/6-311++G(3df,2p)//B3LYP/6311++G(3df,2p) level of theory
 conformer-dup: rates summed for trans/cis-N2H2
 """,
