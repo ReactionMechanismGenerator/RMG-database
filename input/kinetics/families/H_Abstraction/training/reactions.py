@@ -3877,36 +3877,54 @@ Taken from entry: benzene_1 + methyl_7 <=> phenyl_16 + CH4_26
 entry(
     index = 1284,
     label = "C7H8 + H <=> H2 + C7H7",
-    degeneracy = 1.0,
+    degeneracy = 3.0,
     kinetics = Arrhenius(
-        A = (1.152e+06, 'cm^3/(mol*s)'),
-        n = 1.985,
-        Ea = (6.175, 'kcal/mol'),
+        A = (75372.2, 'cm^3/(mol*s)'),
+        n = 2.57378,
+        Ea = (3145.75, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    rank = 2,
+    reference = Article(
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
+        title = u'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Taken from entry: C7H8_17 + H_15 <=> C7H7_10 + H2_23
+G4//B3LYP/6-31G(2df,p)
 """,
 )
 
 entry(
     index = 1285,
     label = "C7H8-2 + H <=> H2 + C7H7-2",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     kinetics = Arrhenius(
-        A = (1.738e+07, 'cm^3/(mol*s)'),
-        n = 1.889,
-        Ea = (15.461, 'kcal/mol'),
+        A = (281049, 'cm^3/(mol*s)'),
+        n = 2.41207,
+        Ea = (8837.35, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: kislovB""",
+    rank = 2,
+    reference = Article(
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
+        title = u'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Taken from entry: C7H8_17 + H_15 <=> C7H7_11 + H2_23
+G4//B3LYP/6-31G(2df,p)
 """,
 )
 
@@ -4543,3 +4561,1033 @@ entry(
     rank=1,
     shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1063/1.1748524""",
 )
+
+entry(
+    index = 1559,
+    label = "C3H3-2 + H2 <=> C3H4 + H",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (3.056, 'cm^3/(mol*s)'),
+        n = 3.503,
+        Ea = (15.039, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Narendrapurapu, B. S.', 'Simmonett, A. C.', 'Schaefer, H. F.', 'Miller, J. A.', 'Klippenstein, S. J.'],
+        title = u'Combustion Chemistry: Important Features of the C3H5 Potential Energy Surface, Including Allyl Radical, Propargyl + H2, Allene + H, and Eight Transition States',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '115 (49)',
+        pages = '14209-14214',
+        year = '2011',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Accurate geometries are obtained using coupled cluster theory with single, double, and perturbative triple excitations [CCSD(T)] combined with Dunning’s correlation consistent quadruple-ζ basis set cc pVQZ. The energies for these stationary points are then refined by a systematic series of computations, within the focal point scheme, using the cc-pVXZ (X = D, T, Q, 5, 6) basis sets and correlation treatments as extensive as coupled cluster with full single, double, and triple excitation and perturbative quadruple excitations [CCSDT(Q)]. TST rates calculated in CanTherm
+""",
+)
+
+
+entry(
+    index = 1560,
+    label = "C3H3 + H2 <=> C3H4-1 + H",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (0.07496, 'cm^3/(mol*s)'),
+        n = 3.944,
+        Ea = (16.255, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Narendrapurapu, B. S.', 'Simmonett, A. C.', 'Schaefer, H. F.', 'Miller, J. A.', 'Klippenstein, S. J.'],
+        title = u'Combustion Chemistry: Important Features of the C3H5 Potential Energy Surface, Including Allyl Radical, Propargyl + H2, Allene + H, and Eight Transition States',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '115 (49)',
+        pages = '14209-14214',
+        year = '2011',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Accurate geometries are obtained using coupled cluster theory with single, double, and perturbative triple excitations [CCSD(T)] combined with Dunning’s correlation consistent quadruple-ζ basis set cc pVQZ. The energies for these stationary points are then refined by a systematic series of computations, within the focal point scheme, using the cc-pVXZ (X = D, T, Q, 5, 6) basis sets and correlation treatments as extensive as coupled cluster with full single, double, and triple excitation and perturbative quadruple excitations [CCSDT(Q)]. TST rates calculated in CanTherm
+""",
+)
+
+entry(
+    index = 1561,
+    label = "C3H4 + H <=> H2 + C3H3-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (196.3, 'cm^3/(mol*s)'),
+        n = 3.47,
+        Ea = (3.214, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Narendrapurapu, B. S.', 'Simmonett, A. C.', 'Schaefer, H. F.', 'Miller, J. A.', 'Klippenstein, S. J.'],
+        title = u'Combustion Chemistry: Important Features of the C3H5 Potential Energy Surface, Including Allyl Radical, Propargyl + H2, Allene + H, and Eight Transition States',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '115 (49)',
+        pages = '14209-14214',
+        year = '2011',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Accurate geometries are obtained using coupled cluster theory with single, double, and perturbative triple excitations [CCSD(T)] combined with Dunning’s correlation consistent quadruple-ζ basis set cc pVQZ. The energies for these stationary points are then refined by a systematic series of computations, within the focal point scheme, using the cc-pVXZ (X = D, T, Q, 5, 6) basis sets and correlation treatments as extensive as coupled cluster with full single, double, and triple excitation and perturbative quadruple excitations [CCSDT(Q)]. TST rates calculated in CanTherm
+""",
+)
+
+entry(
+    index = 1562,
+    label = "C3H4-1 + H <=> H2 + C3H3",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(
+        A = (14.13, 'cm^3/(mol*s)'),
+        n = 3.852,
+        Ea = (3.502, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Narendrapurapu, B. S.', 'Simmonett, A. C.', 'Schaefer, H. F.', 'Miller, J. A.', 'Klippenstein, S. J.'],
+        title = u'Combustion Chemistry: Important Features of the C3H5 Potential Energy Surface, Including Allyl Radical, Propargyl + H2, Allene + H, and Eight Transition States',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '115 (49)',
+        pages = '14209-14214',
+        year = '2011',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Accurate geometries are obtained using coupled cluster theory with single, double, and perturbative triple excitations [CCSD(T)] combined with Dunning’s correlation consistent quadruple-ζ basis set cc pVQZ. The energies for these stationary points are then refined by a systematic series of computations, within the focal point scheme, using the cc-pVXZ (X = D, T, Q, 5, 6) basis sets and correlation treatments as extensive as coupled cluster with full single, double, and triple excitation and perturbative quadruple excitations [CCSDT(Q)]. TST rates calculated in CanTherm
+""",
+)
+
+entry(
+    index = 1563,
+    label = "C4H4 + CH3_p23 <=> CH4b + C4H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9.24, 'cm^3/(mol*s)'), n=3.335, Ea=(7.75, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+TST calculation based on the CBS-QB3 level of theory with 1D hinder rotoer consideration
+Jim Chu's calculation
+""",
+)
+
+entry(
+    index = 1564,
+    label = "C4H4 + H <=> H2 + C4H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.092e+06, 'cm^3/(mol*s)'),
+        n = 2.211,
+        Ea = (7.181, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+TST calculation based on the CBS-QB3 level of theory with 1D hinder rotoer consideration
+Jim Chu's calculation
+""",
+)
+
+entry(
+    index = 1565,
+    label = "C4H6-5 + CH3_p23 <=> CH4b + C4H5-4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (14.26, 'cm^3/(mol*s)'),
+        n = 3.317,
+        Ea = (6.61, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+TST calculation based on the CBS-QB3 level of theory with 1D hinder rotoer consideration
+Jim Chu's calculation
+""",
+)
+
+entry(
+    index = 1566,
+    label = "C4H6-5 + H <=> H2 + C4H5-4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1.867e+06, 'cm^3/(mol*s)'),
+        n = 2.242,
+        Ea = (5.318, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+TST calculation based on the CBS-QB3 level of theory with 1D hinder rotoer consideration
+Jim Chu's calculation
+""",
+)
+
+entry(
+    index = 1567,
+    label = "C4H6 + CH3_p23 <=> CH4b + C4H5-5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (29.41, 'cm^3/(mol*s)'),
+        n = 3.184,
+        Ea = (5.529, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+TST calculation based on the CBS-QB3 level of theory with 1D hinder rotoer consideration
+Jim Chu's calculation
+""",
+)
+
+entry(
+    index = 1568,
+    label = "C4H6 + H <=> H2 + C4H5-5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (8.501e+06, 'cm^3/(mol*s)'),
+        n = 2.027,
+        Ea = (4.069, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+TST calculation based on the CBS-QB3 level of theory with 1D hinder rotoer consideration
+Jim Chu's calculation
+""",
+)
+
+entry(
+    index = 1569,
+    label = "C3H4 + OH <=> H2O + C3H3-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (12560, 'cm^3/(mol*s)'),
+        n = 2.794,
+        Ea = (0.153, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Zádor, J.', 'Miller, J. A.'],
+        title = u'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '35 (1)',
+        pages = '181-188',
+        year = '2015',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
+""",
+)
+
+entry(
+    index = 1570,
+    label = "C3H4-1 + OH <=> H2O + C3H3",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(
+        A = (33830, 'cm^3/(mol*s)'),
+        n = 2.802,
+        Ea = (0.933, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Zádor, J.', 'Miller, J. A.'],
+        title = u'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '35 (1)',
+        pages = '181-188',
+        year = '2015',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
+""",
+)
+
+entry(
+    index = 1571,
+    label = "C7H8 + OH <=> H2O + C7H7",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (130169, 'cm^3/(mol*s)'),
+        n = 2.28048,
+        Ea = (-572.972, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
+        title = u'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G4//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 1572,
+    label = "C7H8-2 + OH <=> H2O + C7H7-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (277.731, 'cm^3/(mol*s)'),
+        n = 2.99789,
+        Ea = (1245.72, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
+        title = u'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G4//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 1573,
+    label = "C7H8-3 + OH <=> H2O + C7H7-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (819.665, 'cm^3/(mol*s)'),
+        n = 3.09594,
+        Ea = (1507.71, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
+        title = u'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G4//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 1574,
+    label = "C7H8-4 + OH <=> H2O + C7H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (763.895, 'cm^3/(mol*s)'),
+        n = 3.10443,
+        Ea = (1688.65, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
+        title = u'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G4//B3LYP/6-31G(2df,p)
+""",
+)
+
+
+entry(
+    index = 1575,
+    label = "C7H8-3 + H <=> H2 + C7H7-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1.16e+06, 'cm^3/(mol*s)'),
+        n = 2.44202,
+        Ea = (9052.88, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
+        title = u'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G4//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 1576,
+    label = "C7H8-4 + H <=> H2 + C7H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.57e+06, 'cm^3/(mol*s)'),
+        n = 2.40693,
+        Ea = (9440.52, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
+        title = u'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G4//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 1577,
+    label = "C7H8 + O_rad <=> HO + C7H7",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (0.00788, 'cm^3/(mol*s)'),
+        n = 4.29278,
+        Ea = (11250.7, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
+        title = u'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G4//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 1578,
+    label = "C7H8-2 + O_rad <=> HO + C7H7-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1.71418, 'cm^3/(mol*s)'),
+        n = 3.64569,
+        Ea = (21743.3, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
+        title = u'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G4//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 1579,
+    label = "C7H8-3 + O_rad <=> HO + C7H7-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (3.02029, 'cm^3/(mol*s)'),
+        n = 3.64209,
+        Ea = (22208.2, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
+        title = u'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G4//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 1580,
+    label = "C7H8-4 + O_rad <=> HO + C7H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.79741, 'cm^3/(mol*s)'),
+        n = 3.6191,
+        Ea = (22697.5, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
+        title = u'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G4//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 1581,
+    label = "C7H8 + CH3_p23 <=> CH4b + C7H7",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (1.07e+06, 'cm^3/(mol*s)'),
+        n = 2.26764,
+        Ea = (4392.37, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
+        title = u'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G4//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 1582,
+    label = "C7H8-2 + CH3_p23 <=> CH4b + C7H7-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (3.21e+07, 'cm^3/(mol*s)'),
+        n = 1.81483,
+        Ea = (14155.6, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
+        title = u'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G4//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 1583,
+    label = "C7H8-3 + CH3_p23 <=> CH4b + C7H7-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1.11e+08, 'cm^3/(mol*s)'),
+        n = 1.80464,
+        Ea = (14389, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
+        title = u'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G4//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 1584,
+    label = "C7H8-4 + CH3_p23 <=> CH4b + C7H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.05e+08, 'cm^3/(mol*s)'),
+        n = 1.81188,
+        Ea = (14672.5, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
+        title = u'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G4//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 1585,
+    label = "C7H8 + HO2_r3 <=> H2O2 + C7H7",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (2.55836, 'cm^3/(mol*s)'),
+        n = 3.80712,
+        Ea = (7395.74, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
+        title = u'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G4//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 1586,
+    label = "C7H8-2 + HO2_r3 <=> H2O2 + C7H7-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (91.4407, 'cm^3/(mol*s)'),
+        n = 3.28308,
+        Ea = (14233.3, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
+        title = u'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G4//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 1587,
+    label = "C7H8-3 + HO2_r3 <=> H2O2 + C7H7-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (197.267, 'cm^3/(mol*s)'),
+        n = 3.28482,
+        Ea = (14542.4, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
+        title = u'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G4//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 1588,
+    label = "C7H8-4 + HO2_r3 <=> H2O2 + C7H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (204.902, 'cm^3/(mol*s)'),
+        n = 3.30806,
+        Ea = (14723.9, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
+        title = u'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G4//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 1589,
+    label = "C6H6 + H <=> H2 + C6H5",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(
+        A = (4.57e+08, 'cm^3/(mol*s)'),
+        n = 1.88,
+        Ea = (14.839, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Semenikhin, A. S.', 'Savchenkova, A. S.', 'Chechet, I. V.', 'Matveev, S. G.', 'Liu, Z.', 'Frenklach, M.', 'Mebel, A. M.'],
+        title = u'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (37)',
+        pages = '25401-25413',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3(MP2,CC)//B3LYP
+""",
+)
+
+entry(
+    index = 1590,
+    label = "C12H8 + H <=> H2 + C12H7",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (3.27e+08, 'cm^3/(mol*s)'),
+        n = 1.71,
+        Ea = (16.236, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 4,
+    reference = Article(
+        authors = ['Violi, A.', 'Truong, T. N.', 'Sarofim, A. F.'],
+        title = u'Kinetics of Hydrogen Abstraction Reactions from Polycyclic Aromatic Hydrocarbons by H Atoms',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '108 (22)',
+        pages = '4846-4852',
+        year = '2004',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+B3LYP structural and vibrational information with BH&HLYP corrected barrier
+""",
+)
+
+entry(
+    index = 1591,
+    label = "C6H6 + OH <=> H2O + C6H5",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(
+        A = (3.88e-20, 'cm^3/(molecule*s)'),
+        n = 2.683,
+        Ea = (0.7333, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 1,
+    reference = Article(
+        authors = ['Seta, T.', 'Nakajima, M.', 'Miyoshi, A.'],
+        title = u'High-Temperature Reactions of OH Radicals with Benzene and Toluene',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '110 (15)',
+        pages = '5081-5090',
+        year = '2006',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CBS-QB3 + Exp.
+""",
+)
+
+entry(
+    index = 1592,
+    label = "C6H6 + CH3_p23 <=> CH4b + C6H5",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(
+        A = (3.07e-21, 'cm^3/(molecule*s)'),
+        n = 2.88,
+        Ea = (13.332, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Mai, T. V. T.', 'Ratkiewicz, A.', 'Duong, M. v.', 'Huynh, L. K.'],
+        title = u'Direct ab initio study of the C6H6+CH3/C2H5=C6H5+CH4/C2H6 reactions',
+        journal = 'Chemical Physics Letters',
+        volume = '646',
+        pages = '102-109',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)/CBS//BH&HLYP/cc-pVDZ, and canonical variational transition state theory (CVT) with corrections for small curvaturetunneling (SCT) and hindered internal rotation (HIR)
+""",
+)
+
+entry(
+    index = 1593,
+    label = "C6H6 + C2H5 <=> C2H6 + C6H5",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(
+        A = (2.62e-22, 'cm^3/(molecule*s)'),
+        n = 3.11,
+        Ea = (18.66, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Mai, T. V. T.', 'Ratkiewicz, A.', 'Duong, M. v.', 'Huynh, L. K.'],
+        title = u'Direct ab initio study of the C6H6+CH3/C2H5=C6H5+CH4/C2H6 reactions',
+        journal = 'Chemical Physics Letters',
+        volume = '646',
+        pages = '102-109',
+        year = '2016',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)/CBS//BH&HLYP/cc-pVDZ, and canonical variational transition state theory (CVT) with corrections for small curvaturetunneling (SCT) and hindered internal rotation (HIR)
+""",
+)
+
+entry(
+    index = 1594,
+    label = "C10H8 + H <=> H2 + C10H7",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(
+        A = (3.91e+08, 'cm^3/(mol*s)'),
+        n = 1.84,
+        Ea = (14.973, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Semenikhin, A. S.', 'Savchenkova, A. S.', 'Chechet, I. V.', 'Matveev, S. G.', 'Liu, Z.', 'Frenklach, M.', 'Mebel, A. M.'],
+        title = u'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (37)',
+        pages = '25401-25413',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3(MP2,CC)//B3LYP
+""",
+)
+
+entry(
+    index = 1595,
+    label = "C10H8-2 + H <=> H2 + C10H7-2",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(
+        A = (4.04e+08, 'cm^3/(mol*s)'),
+        n = 1.83,
+        Ea = (14.98, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Semenikhin, A. S.', 'Savchenkova, A. S.', 'Chechet, I. V.', 'Matveev, S. G.', 'Liu, Z.', 'Frenklach, M.', 'Mebel, A. M.'],
+        title = u'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (37)',
+        pages = '25401-25413',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3(MP2,CC)//B3LYP
+""",
+)
+
+entry(
+    index = 1596,
+    label = "C6H5 + H2 <=> C6H6 + H",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (16900, 'cm^3/(mol*s)'),
+        n = 2.63,
+        Ea = (4.559, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Semenikhin, A. S.', 'Savchenkova, A. S.', 'Chechet, I. V.', 'Matveev, S. G.', 'Liu, Z.', 'Frenklach, M.', 'Mebel, A. M.'],
+        title = u'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (37)',
+        pages = '25401-25413',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3(MP2,CC)//B3LYP
+""",
+)
+
+entry(
+    index = 1597,
+    label = "C10H7 + H2 <=> C10H8 + H",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (15800, 'cm^3/(mol*s)'),
+        n = 2.63,
+        Ea = (4.107, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Semenikhin, A. S.', 'Savchenkova, A. S.', 'Chechet, I. V.', 'Matveev, S. G.', 'Liu, Z.', 'Frenklach, M.', 'Mebel, A. M.'],
+        title = u'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (37)',
+        pages = '25401-25413',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3(MP2,CC)//B3LYP
+""",
+)
+
+entry(
+    index = 1598,
+    label = "C10H7-2 + H2 <=> C10H8-2 + H",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (18400, 'cm^3/(mol*s)'),
+        n = 2.61,
+        Ea = (4.446, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Semenikhin, A. S.', 'Savchenkova, A. S.', 'Chechet, I. V.', 'Matveev, S. G.', 'Liu, Z.', 'Frenklach, M.', 'Mebel, A. M.'],
+        title = u'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (37)',
+        pages = '25401-25413',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3(MP2,CC)//B3LYP
+""",
+)
+

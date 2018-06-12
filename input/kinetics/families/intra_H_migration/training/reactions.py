@@ -481,22 +481,27 @@ Taken from entry: pdt58 <=> pdt20
 """,
 )
 
-
-
 entry(
     index = 33,
-    label = "C6H7-7 <=> C6H7-8",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(0.00218, 's^-1'), n=4.91, Ea=(40.4, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    label = "C6H7-8 <=> C6H7-7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.107e+09, 's^-1'), n=0.879, Ea=(22.386, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Taken from entry: C5H4CH3 <=> C5H5CH2-1
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
-
-
 
 entry(
     index = 34,
@@ -723,22 +728,27 @@ Taken from entry: W7 <=> W20
 """,
 )
 
-
-
 entry(
     index = 51,
     label = "C6H7-9 <=> C6H7-10",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(9220, 's^-1'), n=2.81, Ea=(30.2, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.169e+11, 's^-1'), n=0.707, Ea=(27.741, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Taken from entry: C5H5CH2-3 <=> C5H5CH2-2
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
-
-
 
 entry(
     index = 52,
@@ -2171,3 +2181,259 @@ using Gaussian 03 and Gaussian 09.
 Reported A factor from article is multiplied by degeneracy because article A-factors are normalized
 """,
 )
+
+entry(
+    index = 118,
+    label = "C3H3O2 <=> C3H3O2-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(3.427, 's^-1'), n=3.311, Ea=(30.765, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Quantum chemistry calculations at the CBS-QB3 level with 1D rotor consideration
+Jim Chu's calculation
+""",
+)
+
+entry(
+    index = 119,
+    label = "C4H5 <=> C4H5-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(3.992e-05, 's^-1'), n=4.805, Ea=(56.041, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+        title = u'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+""",
+)
+
+entry(
+    index = 120,
+    label = "C4H5-3 <=> C4H5-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(606700, 's^-1'), n=2.347, Ea=(51.259, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+        title = u'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+""",
+)
+
+entry(
+    index = 121,
+    label = "C4H5-5 <=> C4H5-6",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(5.471e+06, 's^-1'), n=1.841, Ea=(29.797, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+        title = u'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+""",
+)
+entry(
+    index = 122,
+    label = "C4H5-7 <=> C4H5-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(481900, 's^-1'), n=2.375, Ea=(40.143, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+        title = u'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+""",
+)
+
+entry(
+    index = 123,
+    label = "C4H5-2 <=> C4H5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.005931, 's^-1'), n=4.271, Ea=(56.912, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+        title = u'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+""",
+)
+
+entry(
+    index = 124,
+    label = "C4H5-4 <=> C4H5-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.63e+08, 's^-1'), n=1.73, Ea=(49.649, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+        title = u'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+""",
+)
+
+entry(
+    index = 125,
+    label = "C4H5-6 <=> C4H5-5",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(5.11e+06, 's^-1'), n=1.95, Ea=(42.693, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+        title = u'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+""",
+)
+
+entry(
+    index = 126,
+    label = "C4H5-8 <=> C4H5-7",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.189e+07, 's^-1'), n=1.951, Ea=(50.732, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+        title = u'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+""",
+)
+
+entry(
+    index = 127,
+    label = "C7H7-11 <=> C7H7-12",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(74200, 's^-1'), n=2.23, Ea=(10.59, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+        title = u'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3SX//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 128,
+    label = "C7H7-7 <=> C7H7-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(11700, 's^-1'), n=2.78, Ea=(62.71, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+        title = u'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3SX//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 129,
+    label = "C7H7-13 <=> C7H7-14",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.48e+06, 's^-1'), n=1.85, Ea=(26.83, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+        title = u'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3SX//B3LYP/6-31G(2df,p)
+""",
+)
+

@@ -80,50 +80,71 @@ Taken from entry: VIII <=> II
 """,
 )
 
-
-
 entry(
     index = 6,
     label = "C6H8 <=> C6H8-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(7.0333e+08, 's^-1'), n=1.2, Ea=(24.8, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(3.201e+11, 's^-1'), n=0.6, Ea=(23.767, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Taken from entry: C5H5CH3-5 <=> C5H5CH3-1
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
 entry(
     index = 7,
     label = "C6H8-3 <=> C6H8-4",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.6539e+07, 's^-1'), n=2.1, Ea=(25.1, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(4.432e+11, 's^-1'), n=0.625, Ea=(26.957, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Taken from entry: C5H5CH3-1 <=> C5H5CH3-2
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
-
-
 
 entry(
     index = 8,
     label = "C6H7 <=> C6H7-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.23e+07, 's^-1'), n=1.54, Ea=(13.4, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.27e+10, 's^-1'), n=0.581, Ea=(16.586, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Taken from entry: C5H5CH2-1 <=> C5H5CH2-2
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
-
-
 
 entry(
     index = 9,
@@ -217,6 +238,72 @@ entry(
     longDesc = 
 u"""
 Taken from entry: W107 <=> W108
+""",
+)
+
+entry(
+    index = 16,
+    label = "C7H7 <=> C7H7-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.01e+10, 's^-1'), n=0.97, Ea=(19.17, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+        title = u'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3SX//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 17,
+    label = "C7H7-3 <=> C7H7-4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(6.21e+08, 's^-1'), n=1.38, Ea=(15.29, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+        title = u'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3SX//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 18,
+    label = "C7H7-5 <=> C7H7-6",
+    degeneracy = 14.0,
+    kinetics = Arrhenius(A=(5.5e+08, 's^-1'), n=1.56, Ea=(62.12, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+        title = u'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3SX//B3LYP/6-31G(2df,p)
 """,
 )
 

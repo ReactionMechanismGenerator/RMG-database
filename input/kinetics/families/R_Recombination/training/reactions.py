@@ -274,18 +274,27 @@ doi: 10.1039/B515914H
 entry(
     index = 23,
     label = "C5H5 + CH3 <=> C6H8",
-    degeneracy = 1.0,
+    degeneracy = 5.0,
     kinetics = Arrhenius(
-        A = (1.38482e-08, 'cm^3/(molecule*s)'),
-        n = -0.7,
-        Ea = (-0.5, 'kcal/mol'),
+        A = (1.623e+17, 'cm^3/(mol*s)'),
+        n = -1.07,
+        Ea = (0.002, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
-    longDesc =
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
 u"""
-Taken from entry: c-C5H5 + CH3 <=> C5H5CH3-5
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
@@ -294,34 +303,52 @@ entry(
     label = "C6H7 + H <=> C6H8-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (7.582e-10, 'cm^3/(molecule*s)'),
-        n = -0.1,
-        Ea = (0.4, 'kcal/mol'),
+        A = (3.62e+13, 'cm^3/(mol*s)'),
+        n = 0.228,
+        Ea = (-0.022, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
-    longDesc =
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
 u"""
-Taken from entry: R2 + H <=> C5H5CH3-5
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
 entry(
     index = 25,
     label = "C6H7-2 + H <=> C6H8-3",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     kinetics = Arrhenius(
-        A = (6.7982e-11, 'cm^3/(molecule*s)'),
-        n = 0.3,
-        Ea = (0.1, 'kcal/mol'),
+        A = (1.884e+13, 'cm^3/(mol*s)'),
+        n = 0.408,
+        Ea = (0.002, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
-    longDesc =
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
 u"""
-Taken from entry: R2 + H <=> C5H5CH3-1
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
@@ -330,34 +357,52 @@ entry(
     label = "C6H7-3 + H <=> C6H8-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (1.74338e-12, 'cm^3/(molecule*s)'),
-        n = 0.6,
-        Ea = (-0.2, 'kcal/mol'),
+        A = (3.156e+12, 'cm^3/(mol*s)'),
+        n = 0.461,
+        Ea = (-0.001, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
-    longDesc =
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
 u"""
-Taken from entry: R1 + H <=> C5H5CH3-1
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
 entry(
     index = 27,
     label = "C6H7-4 + H <=> C6H8-5",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     kinetics = Arrhenius(
-        A = (1.50356e-10, 'cm^3/(molecule*s)'),
-        n = 0.1,
-        Ea = (0, 'kcal/mol'),
+        A = (5.871e+13, 'cm^3/(mol*s)'),
+        n = 0.158,
+        Ea = (-0.004, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
-    longDesc =
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
 u"""
-Taken from entry: R2 + H <=> C5H5CH3-2
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
@@ -366,16 +411,25 @@ entry(
     label = "C6H7-5 + H <=> C6H8-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (5.6921e-12, 'cm^3/(molecule*s)'),
-        n = 0.5,
-        Ea = (-0.1, 'kcal/mol'),
+        A = (7.09e+12, 'cm^3/(mol*s)'),
+        n = 0.412,
+        Ea = (0.009, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
-    longDesc =
+    rank = 2,
+    reference = Article(
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
 u"""
-Taken from entry: R3 + H <=> C5H5CH3-2
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
@@ -764,3 +818,381 @@ u"""
 Taken from entry: C9H7_19 + H_15 <=> indene_25
 """,
 )
+entry(
+    index = 52,
+    label = "C3H3 + O2 <=> C3H3O2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (47800, 'cm^3/(mol*s)'),
+        n = 2.243,
+        Ea = (-1.064, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Hahn, D. K.', 'Klippenstein, S. J.', 'Miller, J. A.'],
+        title = u'A theoretical analysis of the reaction between propargyl and molecular oxygen',
+        journal = 'Faraday Discussions',
+        volume = '119 (0)',
+        pages = '79-100',
+        year = '2002',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+approximate QCISD(T,Full)/6-311&&G(3df,2pd)//B3LYP
+""",
+)
+
+entry(
+    index = 53,
+    label = "C3H3-2 + O2 <=> C3H3O2-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (8270, 'cm^3/(mol*s)'),
+        n = 2.525,
+        Ea = (1.989, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Hahn, D. K.', 'Klippenstein, S. J.', 'Miller, J. A.'],
+        title = u'A theoretical analysis of the reaction between propargyl and molecular oxygen',
+        journal = 'Faraday Discussions',
+        volume = '119 (0)',
+        pages = '79-100',
+        year = '2002',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+approximate QCISD(T,Full)/6-311&&G(3df,2pd)//B3LYP
+""",
+)
+
+entry(
+    index = 54,
+    label = "C3H3 + H <=> C3H4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.398e+13, 'cm^3/(mol*s)'),
+        n = 0.102,
+        Ea = (-130.54, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 4,
+    reference = Article(
+        authors = ['Harding, L. B.', 'Klippenstein, S. J.', 'Georgievskii, Y.'],
+        title = u'On the Combination Reactions of Hydrogen Atoms with Resonance-Stabilized Hydrocarbon Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '111 (19)',
+        pages = '3789-3801',
+        year = '2007',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CASPT2/cc-pvdz (VRC-TST)
+""",
+)
+
+entry(
+    index = 55,
+    label = "C3H3-2 + H <=> C3H4-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.048e+13, 'cm^3/(mol*s)'),
+        n = 0.206,
+        Ea = (-724.19, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 4,
+    reference = Article(
+        authors = ['Harding, L. B.', 'Klippenstein, S. J.', 'Georgievskii, Y.'],
+        title = u'On the Combination Reactions of Hydrogen Atoms with Resonance-Stabilized Hydrocarbon Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '111 (19)',
+        pages = '3789-3801',
+        year = '2007',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CASPT2/cc-pvdz (VRC-TST)
+""",
+)
+
+entry(
+    index = 56,
+    label = "C3H3-2 + C3H3-2 <=> C6H6",
+    degeneracy = 0.5,
+    kinetics = Arrhenius(
+        A = (4.288e+09, 'cm^3/(mol*s)'),
+        n = 0.795,
+        Ea = (-4303.6, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 4,
+    reference = Article(
+        authors = ['Georgievskii, Y.', 'Miller, J. A.', 'Klippenstein, S. J.'],
+        title = u'Association rate constants for reactions between resonance-stabilized radicals: C3H3 + C3H3, C3H3 + C3H5, and C3H5 + C3H5',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '9 (31)',
+        pages = '4259-4268',
+        year = '2007',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CASPT2/cc-pvdz (VRC-TST)
+""",
+)
+
+entry(
+    index = 57,
+    label = "C3H3 + C3H3-2 <=> C6H6-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.307e+12, 'cm^3/(mol*s)'),
+        n = 0.192,
+        Ea = (-2807, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 4,
+    reference = Article(
+        authors = ['Georgievskii, Y.', 'Miller, J. A.', 'Klippenstein, S. J.'],
+        title = u'Association rate constants for reactions between resonance-stabilized radicals: C3H3 + C3H3, C3H3 + C3H5, and C3H5 + C3H5',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '9 (31)',
+        pages = '4259-4268',
+        year = '2007',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CASPT2/cc-pvdz (VRC-TST)
+""",
+)
+
+entry(
+    index = 58,
+    label = "C3H3 + C3H3 <=> C6H6-3",
+    degeneracy = 0.5,
+    kinetics = Arrhenius(
+        A = (2.945e+13, 'cm^3/(mol*s)'),
+        n = -0.278,
+        Ea = (-1268.8, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 4,
+    reference = Article(
+        authors = ['Georgievskii, Y.', 'Miller, J. A.', 'Klippenstein, S. J.'],
+        title = u'Association rate constants for reactions between resonance-stabilized radicals: C3H3 + C3H3, C3H3 + C3H5, and C3H5 + C3H5',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '9 (31)',
+        pages = '4259-4268',
+        year = '2007',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CASPT2/cc-pvdz (VRC-TST)
+""",
+)
+
+entry(
+    index = 59,
+    label = "CH3 + C3H3-2 <=> C4H6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.705e+09, 'cm^3/(mol*s)'),
+        n = 1.07,
+        Ea = (-2.268, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Huang, C.', 'Yang, B.', 'Zhang, F.'],
+        title = u'Initiation mechanism of 1,3-butadiene combustion and its effect on soot precursors',
+        journal = 'Combustion and Flame',
+        volume = '184',
+        pages = '167-175',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/cc-pVTZ-F12//QCISD/6-311++G(2df,2p)
+""",
+)
+
+entry(
+    index = 60,
+    label = "C4H5 + H <=> C4H6-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.117e+14, 'cm^3/(mol*s)'),
+        n = -0.152,
+        Ea = (1.003, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Huang, C.', 'Yang, B.', 'Zhang, F.'],
+        title = u'Initiation mechanism of 1,3-butadiene combustion and its effect on soot precursors',
+        journal = 'Combustion and Flame',
+        volume = '184',
+        pages = '167-175',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/cc-pVTZ-F12//QCISD/6-311++G(2df,2p)
+""",
+)
+
+entry(
+    index = 61,
+    label = "C4H5-2 + H <=> C4H6-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.25e+14, 'cm^3/(mol*s)'),
+        n = -0.119,
+        Ea = (-1.012, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 2,
+    reference = Article(
+        authors = ['Huang, C.', 'Yang, B.', 'Zhang, F.'],
+        title = u'Initiation mechanism of 1,3-butadiene combustion and its effect on soot precursors',
+        journal = 'Combustion and Flame',
+        volume = '184',
+        pages = '167-175',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/cc-pVTZ-F12//QCISD/6-311++G(2df,2p)
+""",
+)
+
+entry(
+    index = 62,
+    label = "C6H5 + CH3 <=> C7H8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.87e-10, 'cm^3/(molecule*s)'),
+        n = -0.283,
+        Ea = (-0.191, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Klippenstein, S. J.', 'Harding, L. B.', 'Georgievskii, Y.'],
+        title = u'On the formation and decomposition of C7H8',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '31 (1)',
+        pages = '221-229',
+        year = '2007',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)/aug-cc-pvdz//B3LYP/6-31G* (VRC-TST)
+""",
+)
+
+entry(
+    index = 63,
+    label = "C7H7 + H <=> C7H8-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.2e-10, 'cm^3/(molecule*s)'),
+        n = 0.062,
+        Ea = (-0.044, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Klippenstein, S. J.', 'Harding, L. B.', 'Georgievskii, Y.'],
+        title = u'On the formation and decomposition of C7H8',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '31 (1)',
+        pages = '221-229',
+        year = '2007',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)/aug-cc-pvdz//B3LYP/6-31G* (VRC-TST)
+""",
+)
+
+entry(
+    index = 64,
+    label = "C7H7-2 + H <=> C7H8-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (8.28e-13, 'cm^3/(molecule*s)'),
+        n = 0.611,
+        Ea = (-0.436, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Klippenstein, S. J.', 'Harding, L. B.', 'Georgievskii, Y.'],
+        title = u'On the formation and decomposition of C7H8',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '31 (1)',
+        pages = '221-229',
+        year = '2007',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)/aug-cc-pvdz//B3LYP/6-31G* (VRC-TST)
+""",
+)
+
+entry(
+    index = 65,
+    label = "C7H7-3 + H <=> C7H8-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.07e-11, 'cm^3/(molecule*s)'),
+        n = 0.245,
+        Ea = (-0.333, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    reference = Article(
+        authors = ['Klippenstein, S. J.', 'Harding, L. B.', 'Georgievskii, Y.'],
+        title = u'On the formation and decomposition of C7H8',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '31 (1)',
+        pages = '221-229',
+        year = '2007',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)/aug-cc-pvdz//B3LYP/6-31G* (VRC-TST)
+""",
+)
+

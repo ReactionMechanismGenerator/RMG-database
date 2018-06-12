@@ -1987,49 +1987,45 @@ Taken from entry: W3 <=> W4
 
 entry(
     index = 83,
-    label = "C6H7-7 <=> C6H7-8",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(3.18e+11, 's^-1'), n=0.17, Ea=(4.4, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
+    label = "C6H7-8 <=> C6H7-7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.018e+12, 's^-1'), n=0.05, Ea=(5.961, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
     reference = Article(
-        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
-        title = u'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = 'Energy & Fuels',
-        volume = '32(3)',
-        pages = '3920-3934',
-        year = '2018',
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
     ),
     referenceType = 'theory',
     shortDesc = u"""""",
     longDesc = 
 u"""
-Calculations done at CBS-QB3 level of theory
-From kinetics library: Fulvene_H
-Taken from entry: C5H5CH2-1 <=> biring1
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
 entry(
     index = 84,
-    label = "C6H7-9 <=> C6H7-10",
+    label = "C6H7-10 <=> C6H7-9",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(8.51e+11, 's^-1'), n=0.41, Ea=(16.7, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
+    kinetics = Arrhenius(A=(1.307e+12, 's^-1'), n=0.256, Ea=(36.797, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
     reference = Article(
-        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
-        title = u'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = 'Energy & Fuels',
-        volume = '32(3)',
-        pages = '3920-3934',
-        year = '2018',
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
+        title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191–9200',
+        year = '2017',
     ),
     referenceType = 'theory',
     shortDesc = u"""""",
     longDesc = 
 u"""
-Calculations done at CBS-QB3 level of theory
-From kinetics library: Fulvene_H
-Taken from entry: biring1 <=> cyC6H7
+CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
@@ -3141,23 +3137,21 @@ entry(
     index = 131,
     label = "C7H7-3 <=> C7H7-4",
     degeneracy = 2.0,
-    kinetics = Arrhenius(A=(3.32e+11, 's^-1'), n=0.3, Ea=(8.6, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
+    kinetics = Arrhenius(A=(9.25e+11, 's^-1'), n=0.16, Ea=(9.81, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
     reference = Article(
-        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
-        title = u'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = 'Energy & Fuels',
-        volume = '32(3)',
-        pages = '3920-3934',
-        year = '2018',
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+        title = u'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
     ),
     referenceType = 'theory',
     shortDesc = u"""""",
     longDesc = 
 u"""
-Calculations done at CBS-QB3 level of theory
-From kinetics library: vinylCPD_H
-Taken from entry: product44 <=> product45
+G3SX//B3LYP/6-31G(2df,p)
 """,
 )
 
@@ -3165,23 +3159,21 @@ entry(
     index = 132,
     label = "C7H7-5 <=> C7H7-6",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.84e+11, 's^-1'), n=0.66, Ea=(23.8, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
+    kinetics = Arrhenius(A=(4.51e+12, 's^-1'), n=0.26, Ea=(25.25, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
     reference = Article(
-        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
-        title = u'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = 'Energy & Fuels',
-        volume = '32(3)',
-        pages = '3920-3934',
-        year = '2018',
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+        title = u'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
     ),
     referenceType = 'theory',
     shortDesc = u"""""",
     longDesc = 
 u"""
-Calculations done at CBS-QB3 level of theory
-From kinetics library: vinylCPD_H
-Taken from entry: product45 <=> product33
+G3SX//B3LYP/6-31G(2df,p)
 """,
 )
 
@@ -3206,6 +3198,182 @@ u"""
 Calculations done at CBS-QB3 level of theory
 From kinetics library: vinylCPD_H
 Taken from entry: product46 <=> BENZYL
+""",
+)
+
+entry(
+    index = 134,
+    label = "C4H5 <=> C4H5-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.605e+12, 's^-1'), n=0.275, Ea=(32.899, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+        title = u'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+""",
+)
+
+entry(
+    index = 135,
+    label = "C4H5-3 <=> C4H5-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.631e+12, 's^-1'), n=0.216, Ea=(46.951, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+        title = u'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+""",
+)
+
+entry(
+    index = 136,
+    label = "C4H5-5 <=> C4H5-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.403e+13, 's^-1'), n=0.233, Ea=(17.146, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+        title = u'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+""",
+)
+
+entry(
+    index = 137,
+    label = "C4H5-7 <=> C4H5-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.114e+13, 's^-1'), n=0.256, Ea=(8.237, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+        title = u'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+""",
+)
+
+entry(
+    index = 138,
+    label = "C7H7-9 <=> C7H7-10",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.1e+12, 's^-1'), n=0.14, Ea=(0.3, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+        title = u'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3SX//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 139,
+    label = "C7H7-11 <=> C7H7-12",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.24e+12, 's^-1'), n=0.31, Ea=(3.62, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+        title = u'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3SX//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 140,
+    label = "C7H7-13 <=> C7H7-14",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.98e+12, 's^-1'), n=0.5, Ea=(61, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+        title = u'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3SX//B3LYP/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 141,
+    label = "C7H7-15 <=> C7H7-16",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.8e+13, 's^-1'), n=0.15, Ea=(19.35, 'kcal/mol'), T0=(1, 'K')),
+    rank = 2,
+    reference = Article(
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+        title = u'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
+    ),
+    referenceType = 'theory',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+G3SX//B3LYP/6-31G(2df,p)
 """,
 )
 
