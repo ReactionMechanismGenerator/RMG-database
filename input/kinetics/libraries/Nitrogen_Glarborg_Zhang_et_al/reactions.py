@@ -265,12 +265,12 @@ entry(
     kinetics = Arrhenius(A=(2.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(994, 'cal/mol'), T0=(1, 'K')),
 )
 
-entry(
-    index = 37,
-    label = "CHCHNO <=> C2H2 + NO",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1e+14, 's^-1'), n=0, Ea=(890, 'cal/mol'), T0=(1, 'K')),
-)
+# entry(
+#     index = 37,
+#     label = "CHCHNO <=> C2H2 + NO",
+#     degeneracy = 1,
+#     kinetics = Arrhenius(A=(1e+14, 's^-1'), n=0, Ea=(890, 'cal/mol'), T0=(1, 'K')),
+# )
 
 entry(
     index = 38,
