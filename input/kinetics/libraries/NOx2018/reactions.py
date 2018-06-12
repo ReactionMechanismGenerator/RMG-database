@@ -29,6 +29,8 @@ Modeling nitrogen chemistry in combustion
 Progress in Energy and Combustion Science
 Volume 67, July 2018, Pages 31-68
 https://doi.org/10.1016/j.pecs.2018.01.002
+
+Note: Reaxtion CHCHNO <=> C2H2 + NO was commented out since its rate violates the TST limit at 1000 K, 1 bar.
 """
 
 entry(
@@ -13735,12 +13737,12 @@ entry(
     kinetics = Arrhenius(A=(2.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(994, 'cal/mol'), T0=(1, 'K')),
 )
 
-entry(
-    index = 995,
-    label = "CHCHNO <=> C2H2 + NO",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1e+14, 's^-1'), n=0, Ea=(890, 'cal/mol'), T0=(1, 'K')),
-)
+# entry(
+#     index = 995,
+#     label = "CHCHNO <=> C2H2 + NO",
+#     degeneracy = 1,
+#     kinetics = Arrhenius(A=(1e+14, 's^-1'), n=0, Ea=(890, 'cal/mol'), T0=(1, 'K')),
+# )
 
 entry(
     index = 996,
