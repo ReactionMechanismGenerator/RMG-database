@@ -1505,9 +1505,6 @@ L1: Y_rad_birad_trirad_quadrad
                 L5: C_rad/H/NonDeO
                     L6: C_rad/H/CsO
                     L6: C_rad/H/O2
-                L5: C_rad/H/NonDeS
-                    L6: C_rad/H/CsS
-                    L6: C_rad/H/S2
                 L5: C_rad/H/NonDeN
                 L5: C_rad/H/NonDeS
                     L6: C_rad/H/CsS
