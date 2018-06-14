@@ -44,25 +44,6 @@ kinetics = Troe(
 """,
 )
 
-#This is commented out because currently GAV can't estimate the reverse rate
-#which results in rates that are many orders of magnitude faster than they should
-#be, when this is no longer a problem for these species, this can be uncommented
-#entry(
-#   index = 3,
-#   label = "HSOO <=> HSO + O",
-#   degeneracy = 1,
-#   kinetics = Arrhenius(A=(2.01e+19, 's^-1'), n=-1.07, Ea=(28377, 'cal/mol'), T0=(1, 'K'), Tmin = (200, 'K'), Tmax = (2000, 'K')),
-#   rank = 2,
-#   shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
-#   longDesc =
-#u"""
-#T range: 200-2000 K
-#A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall, J. Phys. Chem. A, 1999, 103(51), 11328-11335 doi: 10.1021/jp9924070
-#Table 7 on p. 11333
-#calculations done at the QCISD(T)/6-311+G(3df,2p)//MP2=FULL/6-31G(d) level of theory
-#Originally a Troe expression was given, only k_inf is taken here
-#""",
-#)
 
 entry(
    index = 4,
