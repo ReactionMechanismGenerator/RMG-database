@@ -11,6 +11,7 @@ Could possibly be generalized to include  1,2-methyl shift from an Oxygen to Car
 
 template(reactants=["cCCJ"], products=["cCCJ"], ownReverse=True)
 
+reversible = True
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*2'],
     ['FORM_BOND', '*1', 1, '*3'],
@@ -21,23 +22,33 @@ recipe(actions=[
 boundaryAtoms = ["*1", "*3"]
 
 entry(
-    index = 1,
+    index = 0,
     label = "cCCJ",
     group = 
 """
-1 *1 C   u0 c0 {2,S}
-2 *2 C   u0 {1,S} {3,S}
-3 *3 C   u1 {2,S}
+1 *1 C u0 c0 {2,S}
+2 *2 C u0 {1,S} {3,S}
+3 *3 C u1 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1,
+    label = "CJ",
+    group = 
+"""
+1 *3 C u1
 """,
     kinetics = None,
 )
 
 entry(
     index = 2,
-    label = "CJ",
+    label = "C",
     group = 
 """
-1 *3 C   u1
+1 *1 C u0 c0
 """,
     kinetics = None,
 )
@@ -45,11 +56,11 @@ entry(
 entry(
     index = 3,
     label = "cCsCJ",
-    group =
+    group = 
 """
 1 *1 C  u0 c0 {2,S}
-2 *2 Cs   u0 {1,S} {3,S}
-3 *3 C   u1 {2,S}
+2 *2 Cs u0 {1,S} {3,S}
+3 *3 C  u1 {2,S}
 """,
     kinetics = None,
 )
@@ -57,13 +68,13 @@ entry(
 entry(
     index = 4,
     label = "cCs(-HH)CJ",
-    group =
+    group = 
 """
 1 *1 C  u0 c0 {2,S}
-2 *2 Cs   u0 {1,S} {3,S} {7,S} {8,S}
-3 *3 C   u1 {2,S}
-7    H   u0 {2,S}
-8    H   u0 {2,S}
+2 *2 Cs u0 {1,S} {3,S} {4,S} {5,S}
+3 *3 C  u1 {2,S}
+4    H  u0 {2,S}
+5    H  u0 {2,S}
 """,
     kinetics = None,
 )
@@ -71,13 +82,13 @@ entry(
 entry(
     index = 5,
     label = "cCs(-HR!H)CJ",
-    group =
+    group = 
 """
-1 *1 C  u0 c0 {2,S}
-2 *2 Cs   u0 {1,S} {3,S} {7,S} {8,S}
+1 *1 C   u0 c0 {2,S}
+2 *2 Cs  u0 {1,S} {3,S} {4,S} {5,S}
 3 *3 C   u1 {2,S}
-7    H   u0 {2,S}
-8    R!H   u0 {2,S}
+4    H   u0 {2,S}
+5    R!H u0 {2,S}
 """,
     kinetics = None,
 )
@@ -85,13 +96,13 @@ entry(
 entry(
     index = 6,
     label = "cCs(-R!HR!H)CJ",
-    group =
+    group = 
 """
-1 *1 C  u0 c0 {2,S}
-2 *2 Cs   u0 {1,S} {3,S} {7,S} {8,S}
+1 *1 C   u0 c0 {2,S}
+2 *2 Cs  u0 {1,S} {3,S} {4,S} {5,S}
 3 *3 C   u1 {2,S}
-7    R!H   u0 {2,S}
-8    R!H   u0 {2,S}
+4    R!H u0 {2,S}
+5    R!H u0 {2,S}
 """,
     kinetics = None,
 )
@@ -99,11 +110,11 @@ entry(
 entry(
     index = 7,
     label = "cCdCJ",
-    group =
+    group = 
 """
 1 *1 C  u0 c0 {2,S}
-2 *2 Cd   u0 {1,S} {3,S}
-3 *3 C   u1 {2,S}
+2 *2 Cd u0 {1,S} {3,S}
+3 *3 C  u1 {2,S}
 """,
     kinetics = None,
 )
@@ -172,9 +183,9 @@ entry(
     label = "CsJ-SsH",
     group = 
 """
-1 *3 Cs u1 {2,S} {3,S}
+1 *3 Cs  u1 {2,S} {3,S}
 2    S2s u0 {1,S}
-3    H  u0 {1,S}
+3    H   u0 {1,S}
 """,
     kinetics = None,
 )
@@ -184,7 +195,7 @@ entry(
     label = "CsJ-SsSs",
     group = 
 """
-1 *3 Cs u1 {2,S} {3,S}
+1 *3 Cs  u1 {2,S} {3,S}
 2    S2s u0 {1,S}
 3    S2s u0 {1,S}
 """,
@@ -196,8 +207,8 @@ entry(
     label = "CsJ-CsSs",
     group = 
 """
-1 *3 Cs u1 {2,S} {3,S}
-2    Cs u0 {1,S}
+1 *3 Cs  u1 {2,S} {3,S}
+2    Cs  u0 {1,S}
 3    S2s u0 {1,S}
 """,
     kinetics = None,
@@ -205,6 +216,30 @@ entry(
 
 entry(
     index = 16,
+    label = "CsJ-TwoDe",
+    group = 
+"""
+1 *3 Cs               u1 {2,S} {3,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 17,
+    label = "CsJ-CdCd",
+    group = 
+"""
+1 *3 Cs u1 {2,S} {3,S}
+2    Cd u0 {1,S}
+3    Cd u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 18,
     label = "CsJ-OneDe",
     group = 
 """
@@ -216,7 +251,7 @@ entry(
 )
 
 entry(
-    index = 17,
+    index = 19,
     label = "CsJ-OneDeH",
     group = 
 """
@@ -228,7 +263,21 @@ entry(
 )
 
 entry(
-    index = 18,
+    index = 20,
+    label = "CsJ-(CdCdCd)H",
+    group = 
+"""
+1 *3 Cs u1 {2,S} {3,S}
+2    H  u0 {1,S}
+3    Cd u0 {1,S} {4,D}
+4    Cd u0 {3,D} {5,S}
+5    Cd u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 21,
     label = "CsJ-CdH",
     group = 
 """
@@ -240,19 +289,19 @@ entry(
 )
 
 entry(
-    index = 19,
+    index = 22,
     label = "CsJ-OneDeCs",
     group = 
 """
-1 *3 Cs            u1 {2,S} {3,S}
-2    Cs            u0 {1,S}
+1 *3 Cs               u1 {2,S} {3,S}
+2    Cs               u0 {1,S}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 20,
+    index = 23,
     label = "CsJ-CdCs",
     group = 
 """
@@ -264,91 +313,41 @@ entry(
 )
 
 entry(
-    index = 21,
+    index = 24,
     label = "CsJ-OneDeSs",
     group = 
 """
 1 *3 Cs            u1 {2,S} {3,S}
-2    S2s            u0 {1,S}
+2    S2s           u0 {1,S}
 3    [Cd,Ct,Cb,CO] u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 22,
+    index = 25,
     label = "CsJ-CdSs",
     group = 
 """
-1 *3 Cs u1 {2,S} {3,S}
+1 *3 Cs  u1 {2,S} {3,S}
 2    S2s u0 {1,S}
-3    Cd u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 23,
-    label = "CsJ-TwoDe",
-    group =
-"""
-1 *3 Cs               u1 {2,S} {3,S}
-2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 24,
-    label = "CsJ-CdCd",
-    group =
-"""
-1 *3 Cs u1 {2,S} {3,S}
-2    Cd u0 {1,S}
-3    Cd u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 25,
-    label = "CsJ-(CdCdCd)H",
-    group =
-"""
-1 *3 Cs u1 {2,S} {3,S}
-2    H  u0 {1,S}
-3    Cd u0 {1,S} {4,D}
-4    Cd u0 {5,S} {3,D}
-5    Cd u0 {4,S}
+3    Cd  u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 26,
-    label = "C",
-    group =
-"""
-1 *1 C  u0 c0
-
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 27,
     label = "CH3",
-    group =
+    group = 
 """
-1 *1 C  u0 c0 {4,S} {5,S} {6,S}
-4    H   u0 {1,S}
-5    H   u0 {1,S}
-6    H   u0 {1,S}
+1 *1 C u0 c0 {2,S} {3,S} {4,S}
+2    H u0 {1,S}
+3    H u0 {1,S}
+4    H u0 {1,S}
 """,
     kinetics = None,
 )
-
 
 tree(
 """
