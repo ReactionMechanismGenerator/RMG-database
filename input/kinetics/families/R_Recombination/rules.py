@@ -44,7 +44,7 @@ entry(
         Tmin = (278, 'K'),
         Tmax = (372, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Dingle et al. [167]""",
     longDesc = 
 u"""
@@ -69,7 +69,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Takahashi et al. [168] Transition state theory.""",
     longDesc = 
 u"""
@@ -94,7 +94,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al. [94] literature review.""",
     longDesc = 
 u"""
@@ -128,7 +128,7 @@ entry(
         E0 = (0, 'kcal/mol'),
         Tmin = (298, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Sillensen et al [169]""",
     longDesc = 
 u"""
@@ -153,7 +153,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Warnatz [134] literature review.""",
     longDesc = 
 u"""
@@ -171,7 +171,7 @@ entry(
         E0 = (0, 'kcal/mol'),
         Tmin = (298, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Munk et al. [170]""",
     longDesc = 
 u"""
@@ -195,7 +195,7 @@ entry(
         E0 = (0, 'kcal/mol'),
         Tmin = (298, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Fahr et al. [171]""",
     longDesc = 
 u"""
@@ -220,7 +220,7 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (1300, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Duran et al. [165]""",
     longDesc = 
 u"""
@@ -245,7 +245,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -279,7 +279,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1200, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Davis et al. [172] Ackermann et al. [173] Emdee et al. [172b]""",
     longDesc = 
 u"""
@@ -309,7 +309,7 @@ entry(
         Tmin = (1500, 'K'),
         Tmax = (1900, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsuboi et al. [174]""",
     longDesc = 
 u"""
@@ -334,7 +334,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2100, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Cobos et al. [106]""",
     longDesc = 
 u"""
@@ -356,7 +356,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Pesa et al. [175]""",
     longDesc = 
 u"""
@@ -381,7 +381,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al. [94] literature review.""",
     longDesc = 
 u"""
@@ -417,7 +417,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al. [94] literature review.""",
     longDesc = 
 u"""
@@ -454,7 +454,7 @@ entry(
         Tmin = (713, 'K'),
         Tmax = (1800, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [176] RRK(M) extrapolation.""",
     longDesc = 
 u"""
@@ -484,7 +484,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
 u"""
@@ -530,7 +530,7 @@ entry(
         E0 = (0, 'kcal/mol'),
         Tmin = (298, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Fahr et al. [171]""",
     longDesc = 
 u"""
@@ -555,7 +555,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (980, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Tokmakov et al. [177]""",
     longDesc = 
 u"""
@@ -580,7 +580,7 @@ entry(
         Tmin = (424, 'K'),
         Tmax = (972, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Park et al. [178]""",
     longDesc = 
 u"""
@@ -605,7 +605,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -636,7 +636,7 @@ entry(
         E0 = (0, 'kcal/mol'),
         Tmin = (298, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Hassinen et al [179]""",
     longDesc = 
 u"""
@@ -661,7 +661,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -701,7 +701,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al. [94] literature review.""",
     longDesc = 
 u"""
@@ -737,7 +737,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -768,7 +768,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1200, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
 u"""
@@ -799,7 +799,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
 u"""
@@ -831,7 +831,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
 u"""
@@ -875,7 +875,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -905,7 +905,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -935,7 +935,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (400, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Fagerstrom et al. [180]""",
     longDesc = 
 u"""
@@ -959,7 +959,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
 u"""
@@ -996,7 +996,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
 u"""
@@ -1038,7 +1038,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
 u"""
@@ -1074,7 +1074,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
 u"""
@@ -1105,7 +1105,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
 u"""
@@ -1146,7 +1146,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
 u"""
@@ -1179,7 +1179,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
 u"""
@@ -1221,7 +1221,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
 u"""
@@ -1253,7 +1253,7 @@ entry(
         E0 = (0, 'kcal/mol'),
         Tmin = (298, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Fahr et al. [171]""",
     longDesc = 
 u"""
@@ -1277,7 +1277,7 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (1300, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Duran et al. [165]""",
     longDesc = 
 u"""
@@ -1302,7 +1302,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -1333,7 +1333,7 @@ entry(
         Tmin = (1100, 'K'),
         Tmax = (1400, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Heckmann et al. [124]""",
     longDesc = 
 u"""
@@ -1355,7 +1355,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Park et al. [181]""",
     longDesc = 
 u"""
@@ -1379,7 +1379,7 @@ entry(
         E0 = (0, 'kcal/mol'),
         Tmin = (298, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Stoeckel et al. [182]""",
     longDesc = 
 u"""
@@ -1404,7 +1404,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -1435,7 +1435,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -1465,7 +1465,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (400, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""DeMore et al. [183] literature review.""",
     longDesc = 
 u"""
@@ -1506,7 +1506,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -1538,7 +1538,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's [8] estimation.""",
     longDesc = 
 u"""
@@ -1558,7 +1558,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's [8] estimation.""",
     longDesc = 
 u"""
@@ -1578,7 +1578,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's [8] estimation.""",
     longDesc = 
 u"""
@@ -1598,7 +1598,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's [8] estimation.""",
     longDesc = 
 u"""
@@ -1618,7 +1618,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's [8] estimation.""",
     longDesc = 
 u"""
@@ -1640,7 +1640,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's [159] estimation.""",
     longDesc = 
 u"""
@@ -1665,7 +1665,7 @@ entry(
         Tmin = (298, 'K'),
         Tmax = (6000, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Duchovic et al. [142] RRK(M) extrapolation. Probably could do better.""",
     longDesc = 
 u"""
@@ -1722,8 +1722,30 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""A.G. Vandeputte""",
+)
+
+entry(
+    index = 481,
+    label = "O2_birad;H_rad",
+    kinetics = ArrheniusEP(
+        A = (8.15e+12, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0.76, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Cobos, C.J and Troe, J. [106] Transition state theory.""",
     longDesc = 
 u"""
+[106] Cobos,C.J.;Troe,J.J. Chem. Phys 1985, 83,1010.
+
+Transition state theory. H+O2 -->HO2 
+
+C.D.W. divided rate expression by 2, to get rate of addition per site 
+
+Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
 )
 
@@ -1740,9 +1762,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""A.G. Vandeputte""",
-    longDesc = 
-u"""
-""",
 )
 
 entry(
@@ -1758,115 +1777,6 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""A.G. Vandeputte""",
-    longDesc = 
-u"""
-""",
-)
-
-entry(
-    index = 483,
-    label = "SsJ-H;H_rad",
-    kinetics = ArrheniusEP(
-        A = (7.07e+12, 'cm^3/(mol*s)'),
-        n = 0.56,
-        alpha = 0,
-        E0 = (-0.08, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""A.G. Vandeputte""",
-    longDesc = 
-u"""
-""",
-)
-
-entry(
-    index = 484,
-    label = "SsJ-S2s;C_rad/Cs3",
-    kinetics = ArrheniusEP(
-        A = (3.94e+09, 'cm^3/(mol*s)'),
-        n = 1.25,
-        alpha = 0,
-        E0 = (-0.74, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""A.G. Vandeputte""",
-    longDesc = 
-u"""
-""",
-)
-
-entry(
-    index = 485,
-    label = "SsJ-Cs;C_rad/H2/Cs",
-    kinetics = ArrheniusEP(
-        A = (8.94e+07, 'cm^3/(mol*s)'),
-        n = 1.54,
-        alpha = 0,
-        E0 = (-1.32, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""A.G. Vandeputte, calculated""",
-)
-
-entry(
-    index = 486,
-    label = "SsJ-Cs;C_methyl",
-    kinetics = ArrheniusEP(
-        A = (8.94e+07, 'cm^3/(mol*s)'),
-        n = 1.54,
-        alpha = 0,
-        E0 = (-1.32, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""A.G. Vandeputte, calculated""",
-)
-
-entry(
-    index = 487,
-    label = "SsJ-Cs;C_rad/Cs3",
-    kinetics = ArrheniusEP(
-        A = (8.94e+07, 'cm^3/(mol*s)'),
-        n = 1.54,
-        alpha = 0,
-        E0 = (-1.32, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""A.G. Vandeputte, calculated""",
-)
-
-entry(
-    index = 481,
-    label = "O2_birad;H_rad",
-    kinetics = ArrheniusEP(
-        A = (8.15e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0.76, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Cobos, C.J and Troe, J. [106] Transition state theory.""",
-    longDesc = 
-u"""
-[106] Cobos,C.J.;Troe,J.J. Chem. Phys 1985, 83,1010.
-
-Transition state theory. H+O2 -->HO2 
-
-C.D.W. divided rate expression by 2, to get rate of addition per site 
-
-Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
-""",
 )
 
 entry(
@@ -1880,7 +1790,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K) (n-butyl not methyl)""",
     longDesc = 
 u"""
@@ -1922,6 +1832,21 @@ Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 
 entry(
     index = 483,
+    label = "SsJ-H;H_rad",
+    kinetics = ArrheniusEP(
+        A = (7.07e+12, 'cm^3/(mol*s)'),
+        n = 0.56,
+        alpha = 0,
+        E0 = (-0.08, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A.G. Vandeputte""",
+)
+
+entry(
+    index = 483,
     label = "O2_birad;C_pri_rad",
     kinetics = ArrheniusEP(
         A = (2.26e+12, 'cm^3/(mol*s)', '+|-', 4.2e+11),
@@ -1931,7 +1856,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K)""",
     longDesc = 
 u"""
@@ -1971,6 +1896,21 @@ Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 
 entry(
     index = 484,
+    label = "SsJ-S2s;C_rad/Cs3",
+    kinetics = ArrheniusEP(
+        A = (3.94e+09, 'cm^3/(mol*s)'),
+        n = 1.25,
+        alpha = 0,
+        E0 = (-0.74, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A.G. Vandeputte""",
+)
+
+entry(
+    index = 484,
     label = "O2_birad;C_sec_rad",
     kinetics = ArrheniusEP(
         A = (3.77e+12, 'cm^3/(mol*s)', '+|-', 1e+12),
@@ -1980,7 +1920,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran et al. [8]. (Estimated at 300K)""",
     longDesc = 
 u"""
@@ -2006,6 +1946,21 @@ Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 
 entry(
     index = 485,
+    label = "SsJ-Cs;C_rad/H2/Cs",
+    kinetics = ArrheniusEP(
+        A = (8.94e+07, 'cm^3/(mol*s)'),
+        n = 1.54,
+        alpha = 0,
+        E0 = (-1.32, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A.G. Vandeputte, calculated""",
+)
+
+entry(
+    index = 485,
     label = "O2_birad;C_ter_rad",
     kinetics = ArrheniusEP(
         A = (7.05e+12, 'cm^3/(mol*s)', '+|-', 1.17e+12),
@@ -2015,7 +1970,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K)""",
     longDesc = 
 u"""
@@ -2055,6 +2010,21 @@ Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 
 entry(
     index = 486,
+    label = "SsJ-Cs;C_methyl",
+    kinetics = ArrheniusEP(
+        A = (8.94e+07, 'cm^3/(mol*s)'),
+        n = 1.54,
+        alpha = 0,
+        E0 = (-1.32, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A.G. Vandeputte, calculated""",
+)
+
+entry(
+    index = 486,
     label = "O2_birad;Cd_pri_rad",
     kinetics = ArrheniusEP(
         A = (3e+12, 'cm^3/(mol*s)'),
@@ -2064,7 +2034,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Bozzelli et al. [144] RRKM extrapolation ( adjusted to match data).""",
     longDesc = 
 u"""
@@ -2073,6 +2043,21 @@ RRKM extrapolation (adjusted to match data).O2 +CH = CH2CHOO. C.D.W. divided rat
 
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
+)
+
+entry(
+    index = 487,
+    label = "SsJ-Cs;C_rad/Cs3",
+    kinetics = ArrheniusEP(
+        A = (8.94e+07, 'cm^3/(mol*s)'),
+        n = 1.54,
+        alpha = 0,
+        E0 = (-1.32, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""A.G. Vandeputte, calculated""",
 )
 
 entry(
@@ -2086,7 +2071,7 @@ entry(
         Tmin = (297, 'K'),
         Tmax = (473, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Yu, T. and Lin, M.C. [145]""",
     longDesc = 
 u"""
@@ -2108,7 +2093,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Bozzelli et al. [144] RRKM extrapolation.""",
     longDesc = 
 u"""
@@ -2130,7 +2115,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (300, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Atkinson et al [96] literature review.""",
     longDesc = 
 u"""
@@ -2152,11 +2137,8 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A.G. Vandeputte""",
-    longDesc = 
-u"""
-""",
 )
 
 entry(
@@ -2170,7 +2152,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Harding et al. (2007HAR/KLI3789-3801), value devided by 2 to account for two addition sites""",
 )
 
@@ -2185,7 +2167,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Estimated by 495""",
 )
 
@@ -2200,7 +2182,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Estimated by 495""",
 )
 
@@ -2215,7 +2197,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Estimated by 495""",
 )
 
@@ -2230,7 +2212,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
 )
 
@@ -2245,7 +2227,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
 )
 
@@ -2260,7 +2242,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
 )
 
@@ -2275,7 +2257,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
 )
 
@@ -2290,7 +2272,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
 )
 
@@ -2305,7 +2287,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Better estimate then averaging out, Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
 )
 
@@ -2313,16 +2295,17 @@ entry(
     index = 505,
     label = "Cd_allenic;Cd_allenic",
     kinetics = ArrheniusEP(
-        A = (4.29E+9, 'cm^3/(mol*s)'),
+        A = (4.29e+09, 'cm^3/(mol*s)'),
         n = 0.8,
         alpha = 0,
         E0 = (-1.03, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""2007GEO/MIL4259-4268""",
-    longDesc = """
+    longDesc = 
+u"""
 A. G. Vandeputte
 Some estimated values for propyne recombination reactions
 """,
@@ -2332,16 +2315,17 @@ entry(
     index = 506,
     label = "Cd_allenic;C_methyl",
     kinetics = ArrheniusEP(
-        A = (5.00E+12, 'cm^3/(mol*s)'),
+        A = (5e+12, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""1987WU/KER6291""",
-    longDesc = """
+    longDesc = 
+u"""
 Estimated value, agrees with 1987WU/KER6291
 """,
 )
@@ -2350,14 +2334,14 @@ entry(
     index = 507,
     label = "Cd_allenic;H_rad",
     kinetics = ArrheniusEP(
-        A = (1.00E+13, 'cm^3/(mol*s)'),
+        A = (1e+13, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A. G. Vandeputte estimated value""",
 )
 
@@ -2365,14 +2349,14 @@ entry(
     index = 508,
     label = "C_rad_cyclopentadiene;H_rad",
     kinetics = ArrheniusEP(
-        A = (5.00E+14, 'cm^3/(mol*s)'),
+        A = (5e+14, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""From 2001 Roy IJCK high-P value""",
 )
 
@@ -2380,14 +2364,14 @@ entry(
     index = 509,
     label = "C_rad_cyclopentadiene;C_methyl",
     kinetics = ArrheniusEP(
-        A = (8.34E+15, 'cm^3/(mol*s)'),
+        A = (8.34e+15, 'cm^3/(mol*s)'),
         n = -0.7,
         alpha = 0,
         E0 = (0.5, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sharma J. Phys. Chem. A 113 8871 - 8882 (2009)""",
 )
 
@@ -2395,14 +2379,14 @@ entry(
     index = 510,
     label = "C_rad_cyclopentadiene;C_rad_cyclopentadiene",
     kinetics = ArrheniusEP(
-        A = (5.00E+13, 'cm^3/(mol*s)'),
+        A = (5e+13, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A. G. Vandeputte estimated value""",
 )
 
@@ -2410,14 +2394,14 @@ entry(
     index = 511,
     label = "H_rad;C_rad/H/CdCd",
     kinetics = ArrheniusEP(
-        A = (2.00E+13, 'cm^3/(mol*s)'),
+        A = (2e+13, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A. G. Vandeputte estimated value""",
 )
 
@@ -2470,7 +2454,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""J. Troe""",
     longDesc = 
 u"""
@@ -2508,7 +2492,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""GA Jonas x 3 for spinorbit""",
 )
 
