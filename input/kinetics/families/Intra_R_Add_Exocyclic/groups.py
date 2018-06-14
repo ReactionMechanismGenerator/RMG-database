@@ -11,6 +11,7 @@ template(reactants=["Rn"], products=["RnCycle"], ownReverse=False)
 
 reverse = "Ring_Open_Exo_Cycli_Radical"
 
+reversible = True
 recipe(actions=[
     ['CHANGE_BOND', '*2', -1, '*3'],
     ['FORM_BOND', '*1', 1, '*2'],
@@ -3980,3 +3981,4 @@ u"""
 Intra addition to double bond in ring should occur in Intra_R_Add_Endocyclic.
 """,
 )
+
