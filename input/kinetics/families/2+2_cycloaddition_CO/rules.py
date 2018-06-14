@@ -35,7 +35,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""MRH CBS-QB3 calculations with 1d h.r. corrections""",
     longDesc = 
 u"""
