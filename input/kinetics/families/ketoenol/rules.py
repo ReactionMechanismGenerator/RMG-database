@@ -32,7 +32,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""A. G. Vandeputte, CBS-QB3, HO""",
 )
 
@@ -47,7 +47,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""A. G. Vandeputte, BMK/cbsb7, HO""",
 )
 
@@ -62,7 +62,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""calculated by CAC, CCSD(T)/vtz f12""",
 )
 
@@ -77,7 +77,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""calculated by CAC, CCSD(T)/vtz f12""",
 )
 
@@ -92,10 +92,10 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""calculated by CAC, CCSD(T)/vtz f12""",
 )
-    
+
 entry(
     index = 7,
     label = "R_ROR;R1_doublebond_CH2;R2_doublebond_H;R_O_R",
@@ -107,13 +107,13 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""W.H. Green estimate
                    A,n from R_ROR;R1_doublebond_CH2;R2_doublebond_H;R_O_H
                    Ea = W.H. Green estimate
                    """,
 )
-    
+
 entry(
     index = 8,
     label = "R_ROR;R1_doublebond_CH2;R2_doublebond_H;R_O_C",
@@ -125,11 +125,10 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""W.H. Green estimate
                    A,n from R_ROR;R1_doublebond_CH2;R2_doublebond_H;R_O_H
                    Ea = C-C BDE
                    """,
 )
-
 
