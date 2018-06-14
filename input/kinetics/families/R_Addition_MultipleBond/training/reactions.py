@@ -1080,7 +1080,7 @@ entry(
         title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
         journal = u'The Journal of Physical Chemistry A',
         volume = u'121 (48)',
-        pages = u'9191–9200',
+        pages = u'9191-9200',
         year = u'2017',
     ),
     referenceType = 'theory',
@@ -1107,7 +1107,7 @@ entry(
         title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
         journal = u'The Journal of Physical Chemistry A',
         volume = u'121 (48)',
-        pages = u'9191–9200',
+        pages = u'9191-9200',
         year = u'2017',
     ),
     referenceType = 'theory',
@@ -1134,7 +1134,7 @@ entry(
         title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
         journal = u'The Journal of Physical Chemistry A',
         volume = u'121 (48)',
-        pages = u'9191–9200',
+        pages = u'9191-9200',
         year = u'2017',
     ),
     referenceType = 'theory',
@@ -1161,7 +1161,7 @@ entry(
         title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
         journal = u'The Journal of Physical Chemistry A',
         volume = u'121 (48)',
-        pages = u'9191–9200',
+        pages = u'9191-9200',
         year = u'2017',
     ),
     referenceType = 'theory',
@@ -1188,7 +1188,7 @@ entry(
         title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
         journal = u'The Journal of Physical Chemistry A',
         volume = u'121 (48)',
-        pages = u'9191–9200',
+        pages = u'9191-9200',
         year = u'2017',
     ),
     referenceType = 'theory',
@@ -3041,7 +3041,7 @@ entry(
     shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
     longDesc = 
 u"""
-M.A. Blitz, K.J. Hughes, M.J. Pilling, S.H. Robertson, J. Phys. Chem. A, 2006, 110(9), 2996–3009, doi: 10.1021/jp054722u
+M.A. Blitz, K.J. Hughes, M.J. Pilling, S.H. Robertson, J. Phys. Chem. A, 2006, 110(9), 2996-3009, doi: 10.1021/jp054722u
 As reported by Gimenez-Lopez, M. Martinez, A. Millera, R. Bilbao, M.U. Alzueta, Comb. Flame 2011, 158(1), 48-56, doi: 10.1016/j.combustflame.2010.07.017
 
 Originally a Troe expression was given, only k_inf was taken here:

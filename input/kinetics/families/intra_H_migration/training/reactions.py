@@ -492,7 +492,7 @@ entry(
         title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
         journal = 'The Journal of Physical Chemistry A',
         volume = '121 (48)',
-        pages = '9191–9200',
+        pages = '9191-9200',
         year = '2017',
     ),
     referenceType = 'theory',

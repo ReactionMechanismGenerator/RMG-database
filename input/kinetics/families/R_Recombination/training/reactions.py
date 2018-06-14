@@ -287,7 +287,7 @@ entry(
         title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
         journal = 'The Journal of Physical Chemistry A',
         volume = '121 (48)',
-        pages = '9191–9200',
+        pages = '9191-9200',
         year = '2017',
     ),
     referenceType = 'theory',
@@ -314,7 +314,7 @@ entry(
         title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
         journal = 'The Journal of Physical Chemistry A',
         volume = '121 (48)',
-        pages = '9191–9200',
+        pages = '9191-9200',
         year = '2017',
     ),
     referenceType = 'theory',
@@ -341,7 +341,7 @@ entry(
         title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
         journal = 'The Journal of Physical Chemistry A',
         volume = '121 (48)',
-        pages = '9191–9200',
+        pages = '9191-9200',
         year = '2017',
     ),
     referenceType = 'theory',
@@ -368,7 +368,7 @@ entry(
         title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
         journal = 'The Journal of Physical Chemistry A',
         volume = '121 (48)',
-        pages = '9191–9200',
+        pages = '9191-9200',
         year = '2017',
     ),
     referenceType = 'theory',
@@ -395,7 +395,7 @@ entry(
         title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
         journal = 'The Journal of Physical Chemistry A',
         volume = '121 (48)',
-        pages = '9191–9200',
+        pages = '9191-9200',
         year = '2017',
     ),
     referenceType = 'theory',
@@ -422,7 +422,7 @@ entry(
         title = u'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
         journal = 'The Journal of Physical Chemistry A',
         volume = '121 (48)',
-        pages = '9191–9200',
+        pages = '9191-9200',
         year = '2017',
     ),
     referenceType = 'theory',
@@ -491,7 +491,7 @@ entry(
     shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
     longDesc = 
 u"""
-A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall, J. Phys. Chem. A, 1999, 103(51), 11328–11335 doi: 10.1021/jp9924070
+A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall, J. Phys. Chem. A, 1999, 103(51), 11328-11335 doi: 10.1021/jp9924070
 Table 7 on p. 11333
 calculations done at the QCISD(T)/6-311+G(3df,2p)//MP2=FULL/6-31G(d) level of theory
 
