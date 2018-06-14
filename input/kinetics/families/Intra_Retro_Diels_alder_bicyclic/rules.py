@@ -17,7 +17,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""A. G. Vandeputte, value for ring opening JP10=""",
 )
 
