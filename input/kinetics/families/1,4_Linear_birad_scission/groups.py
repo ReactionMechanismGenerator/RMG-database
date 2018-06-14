@@ -11,6 +11,7 @@ template(reactants=["RJJ"], products=["ene1", "ene2"], ownReverse=False)
 
 reverse = "none"
 
+reversible = True
 recipe(actions=[
     ['LOSE_RADICAL', '*1', '1'],
     ['LOSE_RADICAL', '*4', '1'],
@@ -20,14 +21,14 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "RJJ",
     group = 
 """
-1 *1 R!H u1 px c0 {2,[S,D]}
-2 *2 R!H u0 px c0 {1,[S,D]} {3,S}
-3 *3 R!H u0 px c0 {2,S} {4,[S,D]}
-4 *4 R!H u1 px c0 {3,[S,D]}
+1 *1 R!H u1 c0 {2,[S,D]}
+2 *2 R!H u0 c0 {1,[S,D]} {3,S}
+3 *3 R!H u0 c0 {2,S} {4,[S,D]}
+4 *4 R!H u1 c0 {3,[S,D]}
 """,
     kinetics = None,
 )
@@ -37,3 +38,4 @@ tree(
 L1: RJJ
 """
 )
+
