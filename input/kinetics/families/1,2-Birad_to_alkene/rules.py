@@ -48,7 +48,6 @@ No. Y_12birad   Temp.       A         n    a    E0     DA   Dn   Da   DE0  Rank
 15. Y_12_13     300-1500    7.94E+6   0    0    0.0    0    0    0    0    5
 16. Y_12_31     300-1500    1.26E+7   0    0    0.0    0    0    0    0    5
 """
-
 entry(
     index = 1,
     label = "Y_12birad",
@@ -75,7 +74,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
 
@@ -90,7 +89,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
 
@@ -105,7 +104,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
 
@@ -120,7 +119,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
 
@@ -135,7 +134,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
 
@@ -150,7 +149,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
 
@@ -165,7 +164,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
 
@@ -180,7 +179,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
 
@@ -195,7 +194,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
 
@@ -210,7 +209,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
 
@@ -225,7 +224,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
 
@@ -240,7 +239,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
 
@@ -255,7 +254,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
 
@@ -270,7 +269,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
 
@@ -285,6 +284,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
+
