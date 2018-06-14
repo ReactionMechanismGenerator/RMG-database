@@ -11,6 +11,7 @@ template(reactants=["RCH(OOH)CH2C(O)R'"], products=["cyclic_peroxide"], ownRever
 
 reverse = "cyclic_peroxide_ringopening"
 
+reversible = True
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*2'],
     ['CHANGE_BOND', '*3', -1, '*4'],
@@ -19,7 +20,7 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "RCH(OOH)CH2C(O)R'",
     group = 
 """
