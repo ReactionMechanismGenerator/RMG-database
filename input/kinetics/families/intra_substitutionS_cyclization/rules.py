@@ -32,7 +32,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""A. G. Vandeputte""",
 )
 
@@ -47,7 +47,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""A. G. Vandeputte""",
 )
 
@@ -62,7 +62,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""A. G. Vandeputte""",
 )
 
@@ -77,7 +77,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""A. G. Vandeputte""",
 )
 
@@ -92,7 +92,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""A. G. Vandeputte""",
 )
 
@@ -107,7 +107,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""A. G. Vandeputte""",
 )
 
@@ -122,7 +122,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""AA Calc""",
 )
 
@@ -137,7 +137,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""AA Calc""",
 )
 
