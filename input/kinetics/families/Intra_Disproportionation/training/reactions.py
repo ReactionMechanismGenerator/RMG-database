@@ -15,7 +15,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.949e+11, 's^-1'), n=0.486, Ea=(5.464, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2012_Matsugi_C3H3_C7H7_highP""",
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
     longDesc = 
 u"""
 Taken from entry: W8 <=> W10
@@ -28,7 +28,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.437e+08, 's^-1'), n=1.045, Ea=(15.153, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring\2012_Matsugi_C3H3_C7H7_highP""",
+    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
     longDesc = 
 u"""
 Taken from entry: W14 <=> W17
