@@ -32,7 +32,7 @@ entry(
         Tmin = (296, 'K'),
         Tmax = (728, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Frey et al [192]""",
 )
 
@@ -46,7 +46,7 @@ entry(
         E0 = (0, 'kcal/mol'),
         Tmin = (300, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Gaedtke et al [194]""",
     longDesc = 
 u"""
@@ -65,7 +65,7 @@ entry(
         E0 = (0, 'kcal/mol'),
         Tmin = (300, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Gaedtke et al [194]""",
     longDesc = 
 u"""
@@ -85,7 +85,7 @@ entry(
         Tmin = (275, 'K'),
         Tmax = (360, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Herbrechtsmeier et al [195]""",
     longDesc = 
 u"""
@@ -105,7 +105,7 @@ entry(
         Tmin = (298, 'K'),
         Tmax = (410, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Smith [196]""",
     longDesc = 
 u"""
@@ -127,7 +127,7 @@ entry(
         Tmin = (298, 'K'),
         Tmax = (410, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Smith [196]""",
     longDesc = 
 u"""
@@ -148,7 +148,7 @@ entry(
         E0 = (0, 'kcal/mol'),
         Tmin = (298, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Cvetanovic [197]""",
     longDesc = 
 u"""
@@ -169,7 +169,7 @@ entry(
         E0 = (0, 'kcal/mol'),
         Tmin = (298, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Cvetanovic [197]""",
     longDesc = 
 u"""
@@ -191,7 +191,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Polino [carbene,acetylene]""",
 )
 
@@ -206,7 +206,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Polino [carbene,ethene]""",
 )
 
@@ -221,7 +221,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Polino [carbene,propyne]""",
 )
 
@@ -236,7 +236,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Polino [carbene,propene]""",
 )
 
@@ -251,7 +251,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Polino [carbene,propadiene]""",
 )
 
@@ -266,7 +266,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Polino [carbene,2-butyne]""",
 )
 
@@ -281,7 +281,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Polino [carbene,1,3-butadiene]""",
 )
 
