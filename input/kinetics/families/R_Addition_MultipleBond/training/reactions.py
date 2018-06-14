@@ -3091,7 +3091,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-RQCISD(T)/cc-pV∞Z //UQCISD/UB3LYP
+RQCISD(T)/cc-pVinfZ //UQCISD/UB3LYP
 """,
 )
 
@@ -3118,7 +3118,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-RQCISD(T)/cc-pV∞Z //UQCISD/UB3LYP
+RQCISD(T)/cc-pVinfZ //UQCISD/UB3LYP
 """,
 )
 
@@ -3140,7 +3140,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-RQCISD(T)/cc-pV∞Z //UQCISD/UB3LYP
+RQCISD(T)/cc-pVinfZ //UQCISD/UB3LYP
 """,
 )
 
@@ -3167,7 +3167,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-The restricted QCISD(T)/∞ barrier heights//B3LYP/6-311++G(d,p)
+The restricted QCISD(T)/inf barrier heights//B3LYP/6-311++G(d,p)
 These QCISD(T) calculations employed the correlation-consistent, polarized-valence, triple-ú (cc-pvtz) and quadruple-ú (cc-pvqz) basis sets and were extrapolated to the infinite basis-set limit via the expression
 """,
 )

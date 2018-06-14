@@ -30,7 +30,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-RQCISD(T)/cc-pV∞Z //UQCISD/UB3LYP
+RQCISD(T)/cc-pVinfZ //UQCISD/UB3LYP
 """,
 )
 
@@ -52,7 +52,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-RQCISD(T)/cc-pV∞Z //UQCISD/UB3LYP
+RQCISD(T)/cc-pVinfZ //UQCISD/UB3LYP
 """,
 )
 

@@ -551,7 +551,7 @@ entry(
 u"""
 P. Raghunath, N.T. Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6
 p. 264
-Calculations done at the RCCSD(T)/6-311þG(3df,2p)//B3LYP/6-311G(d,p) level of theoty
+Calculations done at the RCCSD(T)/6-311+G(3df,2p)//B3LYP/6-311G(d,p) level of theoty
 Only High Pressure Limit rate was taken; low limit and 1 atm rate are also available from the same source
 Also available from [Klippenstein2009] in reverse:
 label = "NH2 + NH2 <=> N2H4",
