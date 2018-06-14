@@ -2,8 +2,7 @@
 # encoding: utf-8
 
 name = "Intra_5_membered_conjugated_C=C_C=C_addition/groups"
-shortDesc = u"Concerted intramolecular addition of two alkene groups in a 5-membered conjugated backbone (C=C=C-C=C) to" \
-            u"form a 5-membered conjugated cyclic singlet carbene"
+shortDesc = u"Concerted intramolecular addition of two alkene groups in a 5-membered conjugated backbone (C=C=C-C=C) toform a 5-membered conjugated cyclic singlet carbene"
 longDesc = u"""
 From 2003 Miller and Klippenstein Propargyl recombination PES:
 
@@ -15,6 +14,7 @@ template(reactants=["C=C=C-C=C"], products=["C1-CJ2(S)-C=C-C-C1"], ownReverse=Fa
 
 reverse = "5_membered_cyclic_conjugated_singlet_carbene_scission"
 
+reversible = True
 recipe(actions=[
     ['CHANGE_BOND', '*1', -1, '*5'],
     ['CHANGE_BOND', '*2', -1, '*3'],
@@ -22,187 +22,136 @@ recipe(actions=[
     ['CHANGE_BOND', '*3', 1, '*4'],
     ['CHANGE_BOND', '*4', -1, '*5'],
     ['GAIN_PAIR', '*5', '1'],
-
 ])
 
 boundaryAtoms = ["*1", "*2"]
 
 entry(
-    index = 1,
+    index = 0,
     label = "C=C=C-C=C",
-    group=
+    group = 
 """
-1  *4 Cd u0 {2,S} {4,D}
-2  *3 Cd u0 {1,S} {5,D}
-3  *1 C u0 {4,D}
-4  *5 Cdd u0 {1,D} {3,D}
-5  *2 C u0 {2,D}
+1 *4 Cd  u0 {2,S} {4,D}
+2 *3 Cd  u0 {1,S} {5,D}
+3 *1 C   u0 {4,D}
+4 *5 Cdd u0 {1,D} {3,D}
+5 *2 C   u0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1,
+    label = "C=C=C_End",
+    group = 
+"""
+1 *1 C u0
 """,
     kinetics = None,
 )
 
 entry(
     index = 2,
-    label = "C=C=C_End",
-    group =
+    label = "C-C=C_End",
+    group = 
 """
-1  *1 C u0
+1 *2 C u0
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
     index = 3,
     label = "C=C=CdH2",
-    group =
+    group = 
 """
-1  *1 Cd u0 {2,S} {3,S}
-2 H u0 {1,S}
-3 H u0 {1,S}
+1 *1 Cd u0 {2,S} {3,S}
+2    H  u0 {1,S}
+3    H  u0 {1,S}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
     index = 4,
     label = "C=C=CdHC",
-    group =
+    group = 
 """
-1  *1 Cd u0 {2,S} {3,S}
-2 H u0 {1,S}
-3 C u0 {1,S}
+1 *1 Cd u0 {2,S} {3,S}
+2    H  u0 {1,S}
+3    C  u0 {1,S}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
     index = 5,
     label = "C=C=Cd(C)C",
-    group =
+    group = 
 """
-1  *1 Cd u0 {2,S} {3,S}
-2 C u0 {1,S}
-3 C u0 {1,S}
+1 *1 Cd u0 {2,S} {3,S}
+2    C  u0 {1,S}
+3    C  u0 {1,S}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
     index = 6,
     label = "C=C=CddC",
-    group =
+    group = 
 """
-1  *1 Cdd u0 {2,D}
-2 C u0 {1,D}
+1 *1 Cdd u0 {2,D}
+2    C   u0 {1,D}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
     index = 7,
-    label = "C-C=C_End",
-    group =
+    label = "C-C=CdH2",
+    group = 
 """
-1  *2 C u0
+1 *2 Cd u0 {2,S} {3,S}
+2    H  u0 {1,S}
+3    H  u0 {1,S}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
     index = 8,
-    label = "C-C=CdH2",
-    group =
+    label = "C-C=CdHC",
+    group = 
 """
-1  *2 Cd u0 {2,S} {3,S}
-2 H u0 {1,S}
-3 H u0 {1,S}
+1 *2 Cd u0 {2,S} {3,S}
+2    H  u0 {1,S}
+3    C  u0 {1,S}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
     index = 9,
-    label = "C-C=CdHC",
-    group =
+    label = "C-C=Cd(C)C",
+    group = 
 """
-1  *2 Cd u0 {2,S} {3,S}
-2 H u0 {1,S}
-3 C u0 {1,S}
+1 *2 Cd u0 {2,S} {3,S}
+2    C  u0 {1,S}
+3    C  u0 {1,S}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
     index = 10,
-    label = "C-C=Cd(C)C",
-    group =
-"""
-1  *2 Cd u0 {2,S} {3,S}
-2 C u0 {1,S}
-3 C u0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
-)
-
-entry(
-    index = 11,
     label = "C-C=CddC",
-    group =
+    group = 
 """
-1  *2 Cdd u0 {2,D}
-2 C u0 {1,D}
+1 *2 Cdd u0 {2,D}
+2    C   u0 {1,D}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 tree(
@@ -220,3 +169,4 @@ L1: C-C=C_End
     L2: C-C=CddC
 """
 )
+

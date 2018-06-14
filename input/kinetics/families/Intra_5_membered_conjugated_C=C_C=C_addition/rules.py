@@ -2,8 +2,7 @@
 # encoding: utf-8
 
 name = "Intra_5_membered_conjugated_C=C_C=C_addition/rules"
-shortDesc = u"Concerted intramolecular addition of two alkene groups in a 5-membered conjugated backbone (C=C=C-C=C) to" \
-            u"form a 5-membered conjugated cyclic singlet carbene"
+shortDesc = u"Concerted intramolecular addition of two alkene groups in a 5-membered conjugated backbone (C=C=C-C=C) toform a 5-membered conjugated cyclic singlet carbene"
 longDesc = u"""
 From 2003 Miller and Klippenstein Propargyl recombination PES:
 
