@@ -4792,7 +4792,7 @@ entry(
     ),
     rank = 2,
     reference = Article(
-        authors = ['Zádor, J.', 'Miller, J. A.'],
+        authors = ['Zador, J.', 'Miller, J. A.'],
         title = u'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
         journal = 'Proceedings of the Combustion Institute',
         volume = '35 (1)',
@@ -4819,7 +4819,7 @@ entry(
     ),
     rank = 2,
     reference = Article(
-        authors = ['Zádor, J.', 'Miller, J. A.'],
+        authors = ['Zador, J.', 'Miller, J. A.'],
         title = u'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
         journal = 'Proceedings of the Combustion Institute',
         volume = '35 (1)',
