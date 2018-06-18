@@ -4,7 +4,6 @@
 name = "lone_electron_pair_bond/groups"
 shortDesc = u""
 longDesc = u"""
-
 After review by alongd and nyee, this family looks deprecated or unfinished.
 
 Currently, we expect O atom in RMG to be in triplet, not singlet state.
@@ -24,13 +23,14 @@ template(reactants=["N3sRRR", "O_atom_singlet"], products=["N3sRRRO"], ownRevers
 
 reverse = "Bond_Dissociation"
 
+reversible = True
 recipe(actions=[
     ['LOSE_PAIR', '*1', '1'],
     ['FORM_BOND', '*1', 1, '*2'],
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "N3sRRR",
     group = 
 """
@@ -43,7 +43,7 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "O_atom_singlet",
     group = 
 """
@@ -58,3 +58,4 @@ L1: N3sRRR
 L1: O_atom_singlet
 """
 )
+

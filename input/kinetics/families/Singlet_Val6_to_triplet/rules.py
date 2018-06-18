@@ -4,15 +4,15 @@
 name = "Singlet_Val6_to_triplet/rules"
 shortDesc = u""
 longDesc = u"""
-"""
 
+"""
 entry(
     index = 1,
     label = "singlet",
-    kinetics = Arrhenius(A=(4.5E+10, 's^-1'), n=0, Ea=(397, 'cal/mol')),
+    kinetics = ArrheniusEP(A=(4.5e+10, 's^-1'), n=0, alpha=0, E0=(1661.05, 'J/mol')),
     rank = 1,
     shortDesc = u"""Default""",
-    longDesc =
+    longDesc = 
 u"""
 taken from:
 R. Atkinson, D.L. Baulch, R.A. Cox, R.F. Hampson, J.A. Kerr, J. Troe,
@@ -27,3 +27,4 @@ n/V = P/RT = 1 bar / (83 cm^3 bar K^-1 mol^-1 * 300 K) = 4E-05 mol cm^-3
 Original reaction is O2(1D) + M => O2 + M
 """,
 )
+

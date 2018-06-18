@@ -31,7 +31,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
 )
 
@@ -46,7 +46,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
 )
 
@@ -61,7 +61,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
 )
 
@@ -76,7 +76,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
 )
 
@@ -91,7 +91,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
 )
 
@@ -106,7 +106,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
 )
 
@@ -121,7 +121,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
 )
 
@@ -136,7 +136,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
 )
 
@@ -151,7 +151,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
 )
 
@@ -166,7 +166,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
 )
 
@@ -181,7 +181,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
 )
 
@@ -196,7 +196,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
 )
 
@@ -211,7 +211,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
 )
 
@@ -226,7 +226,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
 )
 
@@ -241,7 +241,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
 )
 
@@ -256,7 +256,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
 )
 
@@ -271,7 +271,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
 )
 
@@ -286,7 +286,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
 )
 
@@ -301,7 +301,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
 )
 
@@ -316,7 +316,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
 )
 
@@ -331,7 +331,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
 )
 
@@ -346,7 +346,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
 )
 
@@ -361,7 +361,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
 )
 
@@ -376,7 +376,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
 )
 
@@ -391,7 +391,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
 )
 
@@ -406,7 +406,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
 )
 
@@ -421,7 +421,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""CBS-QB3 Including treatment of hindered rotor (SSM)""",
 )
 
@@ -436,7 +436,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""CBS-QB3 Including treatment of hindered rotor (SSM)""",
 )
 
@@ -451,7 +451,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""CBS-QB3 Including treatment for hindered rotor, QTST Calculation (CFG & JWA)""",
 )
 
@@ -466,7 +466,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""CBS-QB3 Including treatment for hindered rotor, QTST Calculation (CFG & JWA)""",
 )
 
@@ -541,7 +541,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
 )
 
@@ -556,7 +556,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
 )
 
@@ -571,7 +571,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
 )
 

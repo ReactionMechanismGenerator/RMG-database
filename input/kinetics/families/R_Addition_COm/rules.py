@@ -35,7 +35,7 @@ entry(
         Tmin = (345, 'K'),
         Tmax = (449, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Arai et al [102].""",
     longDesc = 
 u"""
@@ -103,7 +103,7 @@ entry(
         Tmin = (305, 'K'),
         Tmax = (375, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Gordon et al [103].""",
     longDesc = 
 u"""
@@ -141,7 +141,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al. [94]""",
     longDesc = 
 u"""
@@ -177,7 +177,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang et al [89] literature review.""",
     longDesc = 
 u"""
@@ -211,7 +211,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang et al [89] literature review.""",
     longDesc = 
 u"""
@@ -247,7 +247,7 @@ entry(
         Tmin = (295, 'K'),
         Tmax = (500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Nam et al [104].""",
     longDesc = 
 u"""
@@ -329,7 +329,7 @@ entry(
         Tmin = (250, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Wang et al. [105].""",
     longDesc = 
 u"""
@@ -360,7 +360,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations with 1dHR corrections""",
     longDesc = 
 u"""
@@ -385,7 +385,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations with 1dHR corrections""",
     longDesc = 
 u"""
@@ -410,7 +410,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations with 1dHR corrections""",
     longDesc = 
 u"""
@@ -435,7 +435,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations with 1dHR corrections""",
     longDesc = 
 u"""
@@ -460,7 +460,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""CAC CBS-QB3 calcs, HO""",
 )
 

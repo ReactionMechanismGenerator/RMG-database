@@ -8,9 +8,9 @@ Put kinetic parameters for reactions to use as a training set for fitting
 group additivity values in this file.
 """
 entry(
-    index = 1,
+    index = 0,
     label = "C2H3O3 <=> C2H2O + HO2",
-    degeneracy = 3,
+    degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (2.6e+09, 's^-1', '*|/', 2.51189),
         n = 1.2,
@@ -18,14 +18,15 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["J. W. Allen", "C. F. Goldsmith", "W. H. Green"],
-        title = u'Automatic Estimation of Pressure-Dependent Rate Coefficients',
-        journal = "Phys. Chem. Chem. Phys.",
-        volume = "14",
-        pages = """1131-1155""",
-        year = "2012",
+        authors = ["'J. W. Allen'", "'C. F. Goldsmith'", "'W. H. Green'"],
+        title = 'Automatic Estimation of Pressure-Dependent Rate Coefficients',
+        journal = "'Phys. Chem. Chem. Phys.'",
+        volume = "'14'",
+        pages = """'1131-1155'""",
+        year = "'2012'",
     ),
     referenceType = "theory",
+    rank = 10,
     shortDesc = u"""CFG VTST calculations at RQCISD(T)/CBS//B3LYP/6-311++G(d,p) level""",
     longDesc = 
 u"""

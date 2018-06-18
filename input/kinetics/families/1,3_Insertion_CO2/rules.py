@@ -37,7 +37,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
 )
 
@@ -52,7 +52,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
 )
 
@@ -67,7 +67,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
 )
 
@@ -82,7 +82,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
 )
 
@@ -97,7 +97,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte calculation for methylpropanate using BMK/CBSB7""",
 )
 

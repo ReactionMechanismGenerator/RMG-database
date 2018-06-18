@@ -32,7 +32,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
     longDesc = 
 u"""
@@ -54,7 +54,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
     longDesc = 
 u"""
@@ -76,7 +76,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
     longDesc = 
 u"""
@@ -98,7 +98,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
     longDesc = 
 u"""
@@ -120,7 +120,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
     longDesc = 
 u"""
@@ -142,7 +142,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
     longDesc = 
 u"""
@@ -164,7 +164,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
     longDesc = 
 u"""
@@ -186,7 +186,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
     longDesc = 
 u"""
@@ -208,7 +208,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
     longDesc = 
 u"""
@@ -230,7 +230,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
 u"""
@@ -250,7 +250,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
 u"""
@@ -270,7 +270,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
 u"""
@@ -290,7 +290,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
 u"""
@@ -310,7 +310,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
 u"""
@@ -330,7 +330,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
 u"""
@@ -350,7 +350,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
 u"""
@@ -370,7 +370,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
 u"""
@@ -390,7 +390,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
 u"""
@@ -410,7 +410,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
 u"""
@@ -430,7 +430,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
 u"""
@@ -450,7 +450,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
 u"""
@@ -470,7 +470,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -489,7 +489,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -501,14 +501,14 @@ entry(
     index = 638,
     label = "R2H_S;C_rad_out_2H;Cs_H_out_H/NonDeC",
     kinetics = ArrheniusEP(
-        A = (3.59E+05, 's^-1'),
+        A = (359000, 's^-1'),
         n = 2.05,
         alpha = 0,
         E0 = (36.3, 'kcal/mol'),
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""JWA CCSD(T)-F12/cc-pVTZ-F12 with 1d-HR""",
 )
 
@@ -523,7 +523,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -542,7 +542,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -561,7 +561,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -580,7 +580,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -599,7 +599,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -618,7 +618,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -637,7 +637,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -656,7 +656,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -675,7 +675,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -694,7 +694,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -713,7 +713,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -732,7 +732,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -751,7 +751,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -770,7 +770,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -789,7 +789,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -808,7 +808,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -827,7 +827,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -846,7 +846,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -865,7 +865,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -884,7 +884,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -903,7 +903,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -922,7 +922,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -941,7 +941,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -960,7 +960,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -979,7 +979,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -998,7 +998,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1017,7 +1017,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1036,7 +1036,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1055,7 +1055,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1074,7 +1074,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1093,7 +1093,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1112,7 +1112,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1131,7 +1131,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1150,7 +1150,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1169,7 +1169,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1188,7 +1188,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1207,7 +1207,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1226,7 +1226,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1245,7 +1245,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1264,7 +1264,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1283,7 +1283,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1302,7 +1302,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1321,7 +1321,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1340,7 +1340,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1359,7 +1359,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1378,7 +1378,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1397,7 +1397,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1416,7 +1416,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1435,7 +1435,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1454,7 +1454,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1473,7 +1473,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1492,7 +1492,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1511,7 +1511,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1530,7 +1530,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1549,7 +1549,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1568,7 +1568,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1587,7 +1587,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1606,7 +1606,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1625,7 +1625,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1644,7 +1644,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1663,7 +1663,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1682,7 +1682,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1701,7 +1701,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1720,7 +1720,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1739,7 +1739,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""calculated BMK/cbsb7 Aaron Vandeputte""",
     longDesc = 
 u"""
@@ -1758,7 +1758,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1777,7 +1777,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1796,7 +1796,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1815,7 +1815,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1834,7 +1834,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1853,7 +1853,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1872,7 +1872,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1891,7 +1891,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1910,7 +1910,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1929,7 +1929,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1948,7 +1948,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1967,7 +1967,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -1986,7 +1986,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2005,7 +2005,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2024,7 +2024,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2043,7 +2043,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2062,7 +2062,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2081,7 +2081,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2100,7 +2100,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2119,7 +2119,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2138,7 +2138,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2157,7 +2157,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2176,7 +2176,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2195,7 +2195,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2214,7 +2214,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2233,7 +2233,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2252,7 +2252,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2271,7 +2271,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2290,7 +2290,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2309,7 +2309,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2328,7 +2328,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2347,7 +2347,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2366,7 +2366,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2385,7 +2385,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2404,7 +2404,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2423,7 +2423,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2442,7 +2442,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2461,7 +2461,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2480,7 +2480,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2499,7 +2499,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2518,7 +2518,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2537,7 +2537,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2556,7 +2556,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2575,7 +2575,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2594,7 +2594,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2613,7 +2613,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2632,7 +2632,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2651,7 +2651,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2670,7 +2670,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2689,7 +2689,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2708,7 +2708,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2727,7 +2727,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2746,7 +2746,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2765,7 +2765,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2784,7 +2784,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2803,7 +2803,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2822,7 +2822,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2841,7 +2841,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2860,7 +2860,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2879,7 +2879,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2898,7 +2898,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2917,7 +2917,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2936,7 +2936,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2955,7 +2955,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2974,7 +2974,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -2993,7 +2993,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3012,7 +3012,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3031,7 +3031,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3050,7 +3050,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3069,7 +3069,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3088,7 +3088,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3107,7 +3107,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3126,7 +3126,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3145,7 +3145,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3164,7 +3164,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3183,7 +3183,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3202,7 +3202,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3221,7 +3221,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3240,7 +3240,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3259,7 +3259,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3278,7 +3278,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3297,7 +3297,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3316,7 +3316,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3335,7 +3335,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3354,7 +3354,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3373,7 +3373,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3392,7 +3392,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3411,7 +3411,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3430,7 +3430,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3449,7 +3449,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3468,7 +3468,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3487,7 +3487,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3506,7 +3506,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
 u"""
@@ -3525,7 +3525,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
 u"""
@@ -3544,7 +3544,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
 u"""
@@ -3563,7 +3563,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
 u"""
@@ -3575,14 +3575,14 @@ entry(
     index = 801,
     label = "R3H_SS_O;O_rad_out;Cs_H_out_H/(NonDeC/Cs/Cs)",
     kinetics = ArrheniusEP(
-        A = (5.35e+9, 's^-1'),
+        A = (5.35e+09, 's^-1'),
         n = 0.98,
         alpha = 0,
         E0 = (39.58, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
 u"""
@@ -3601,7 +3601,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
 u"""
@@ -3620,7 +3620,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
 u"""
@@ -3639,7 +3639,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
 u"""
@@ -3658,7 +3658,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
 u"""
@@ -3677,7 +3677,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
 u"""
@@ -3696,7 +3696,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
 )
 
 entry(
@@ -3710,7 +3710,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
 )
 
 entry(
@@ -3724,7 +3724,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
 )
 
 entry(
@@ -3738,7 +3738,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
 )
 
 entry(
@@ -3752,7 +3752,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
 )
 
 entry(
@@ -3766,7 +3766,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
 )
 
 entry(
@@ -3780,7 +3780,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
     longDesc = 
 u"""
@@ -3799,7 +3799,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
     longDesc = 
 u"""
@@ -3818,7 +3818,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
     longDesc = 
 u"""
@@ -3837,7 +3837,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
     longDesc = 
 u"""
@@ -3856,7 +3856,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
     longDesc = 
 u"""
@@ -3875,7 +3875,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
     longDesc = 
 u"""
@@ -3894,7 +3894,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
     longDesc = 
 u"""
@@ -3913,7 +3913,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
     longDesc = 
 u"""
@@ -3932,7 +3932,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
     longDesc = 
 u"""
@@ -3951,7 +3951,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
     longDesc = 
 u"""
@@ -3971,7 +3971,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
     longDesc = 
 u"""
@@ -3991,7 +3991,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
     longDesc = 
 u"""
@@ -4011,7 +4011,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
     longDesc = 
 u"""
@@ -4031,7 +4031,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
 )
 
 entry(
@@ -4045,7 +4045,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
 u"""
@@ -4064,7 +4064,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
 u"""
@@ -4083,7 +4083,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
 u"""
@@ -4102,7 +4102,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
 u"""
@@ -4121,7 +4121,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
 )
 
@@ -4136,7 +4136,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
 u"""
@@ -4155,7 +4155,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
 u"""
@@ -4174,7 +4174,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
 u"""
@@ -4193,7 +4193,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
 u"""
@@ -4212,7 +4212,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
 u"""
@@ -4231,7 +4231,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
 u"""
@@ -4250,7 +4250,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
 u"""
@@ -4269,7 +4269,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
 u"""
@@ -4288,7 +4288,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
 u"""
@@ -4307,7 +4307,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1600, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sandeep's CBS-QB3 calculations.""",
     longDesc = 
 u"""
@@ -4326,7 +4326,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1600, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sandeep's CBS-QB3 calculations.""",
     longDesc = 
 u"""
@@ -4345,7 +4345,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1600, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sandeep's CBS-QB3 calculations.""",
     longDesc = 
 u"""
@@ -4364,7 +4364,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1600, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sandeep's CBS-QB3 calculations.""",
     longDesc = 
 u"""
@@ -4383,7 +4383,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1600, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sandeep's CBS-QB3 calculations.""",
     longDesc = 
 u"""
@@ -4402,7 +4402,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1600, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Sandeep's CBS-QB3 calculations.""",
     longDesc = 
 u"""
@@ -4421,7 +4421,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MHS CBS-QB3 calculations.""",
     longDesc = 
 u"""
@@ -4443,7 +4443,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/1d h.r. corrections""",
     longDesc = 
 u"""
@@ -4476,7 +4476,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
 )
 
@@ -4491,7 +4491,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
 )
 
@@ -4506,7 +4506,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
 )
 
@@ -4521,7 +4521,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
 )
 
@@ -4536,7 +4536,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
 )
 
@@ -4551,7 +4551,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
 )
 
@@ -4566,7 +4566,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
 )
 
@@ -4581,7 +4581,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
 )
 
@@ -4596,7 +4596,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
 )
 
@@ -4611,7 +4611,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
 )
 
@@ -4626,7 +4626,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
 )
 
@@ -4641,7 +4641,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
 )
 
@@ -4656,7 +4656,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
 )
 
@@ -4671,7 +4671,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
 )
 
@@ -4686,7 +4686,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
 )
 
@@ -4701,7 +4701,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ]Atkinson recommendation for 1,5 shifts of primary H (per H atom)""",
 )
 
@@ -4716,7 +4716,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ]Atkinson recommendation for 1,5 shifts of secondary H (per H atom)""",
 )
 
@@ -4731,7 +4731,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ]Atkinson recommendation for 1,5 shifts of tertiary H""",
 )
 
@@ -4911,7 +4911,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CAC CBS-QB3 calc 1dhr""",
 )
 
@@ -4926,7 +4926,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CAC CBS-QB3 calc 1dhr""",
 )
 
@@ -4941,7 +4941,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CAC CBS-QB3 calc 1dhr""",
 )
 
@@ -4956,7 +4956,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CAC CBS-QB3 calc 1dhr""",
 )
 
@@ -4971,7 +4971,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CAC CBS-QB3 calc 1dhr""",
 )
 
@@ -4986,7 +4986,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""RQCISD(T)/CBS""",
 )
 
@@ -5001,7 +5001,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1550, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CAC CBS-QB3 calc, HO approx""",
 )
 
@@ -5016,7 +5016,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""RQCISD(T)/CBS""",
 )
 
@@ -5031,7 +5031,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""RQCISD(T)/CBS""",
 )
 
@@ -5046,7 +5046,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""RQCISD(T)/CBS""",
 )
 
@@ -5061,7 +5061,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""RQCISD(T)/CBS""",
 )
 
@@ -5076,7 +5076,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""RQCISD(T)/CBS""",
 )
 
@@ -5091,7 +5091,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""RQCISD(T)/CBS""",
 )
 
@@ -5106,7 +5106,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""RQCISD(T)/CBS""",
 )
 
@@ -5121,7 +5121,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""RQCISD(T)/CBS""",
 )
 
@@ -5136,7 +5136,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Obtained by reversing rate rule 1006""",
 )
 
@@ -5151,7 +5151,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Obtained by reversing rate rule 1010""",
 )
 
@@ -5166,7 +5166,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
 )
 
@@ -5181,7 +5181,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
 )
 
@@ -5196,7 +5196,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
 )
 
@@ -5211,7 +5211,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
 )
 
@@ -5226,7 +5226,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
 )
 
@@ -5241,7 +5241,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
 )
 
@@ -5256,7 +5256,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
 )
 
@@ -5271,7 +5271,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
 )
 
@@ -5279,14 +5279,14 @@ entry(
     index = 1024,
     label = "R5H_SMSS;C_rad_out_2H;Cs_H_out_H/Cd",
     kinetics = ArrheniusEP(
-        A = (2.40E+03, 's^-1'),
+        A = (2400, 's^-1'),
         n = 2.15,
         alpha = 0,
         E0 = (22.1, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 1D-HR""",
 )
 
@@ -5301,7 +5301,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
 )
 
@@ -5316,7 +5316,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
 )
 
@@ -5331,7 +5331,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
 )
 
@@ -5346,7 +5346,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
 )
 
@@ -5361,7 +5361,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
 )
 
@@ -5376,7 +5376,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""estimate""",
 )
 
@@ -5391,7 +5391,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""estimate""",
 )
 
@@ -5406,7 +5406,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
 )
 
@@ -5421,7 +5421,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
 )
 
@@ -5436,7 +5436,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
 )
 
@@ -5451,7 +5451,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
 )
 
@@ -5466,7 +5466,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
 )
 
@@ -5481,7 +5481,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
 )
 
@@ -5496,7 +5496,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
 )
 
@@ -5511,7 +5511,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
 )
 
@@ -5526,7 +5526,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
 )
 
@@ -5541,7 +5541,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
 )
 
@@ -5556,7 +5556,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
 )
 
@@ -5571,7 +5571,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
 )
 
@@ -5586,7 +5586,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
 )
 
@@ -5601,7 +5601,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron BMK/cbsb7 with 1-dHR""",
 )
 
@@ -5616,7 +5616,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron BMK/cbsb7 with 1-dHR""",
 )
 
@@ -5631,7 +5631,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron BMK/cbsb7 with 1-dHR""",
 )
 
@@ -5646,12 +5646,13 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""ED, RQCISD(T)/CBS TST with Eckart and 1-HR""",
-    longDesc = """
+    longDesc = 
+u"""
 RQCISD(T)/CBS TST calculations with Eckart and 1-dHR corrections from Enoch for 
 alpha-hydroxyethyl surface, reference: doi 10.1002/kin.20844
-    """,
+""",
 )
 
 entry(
@@ -5665,12 +5666,13 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""ED, RQCISD(T)/CBS TST with Eckart and 1-HR""",
-    longDesc = """
+    longDesc = 
+u"""
 RQCISD(T)/CBS TST calculations with Eckart and 1-dHR corrections from Enoch for 
 alpha-hydroxyethyl surface, reference: doi 10.1002/kin.20844
-    """,
+""",
 )
 
 entry(
@@ -5684,12 +5686,13 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (1800, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""ED, RQCISD(T)/CBS TST with Eckart and 1-HR""",
-    longDesc = """
+    longDesc = 
+u"""
 RQCISD(T)/CBS TST calculations with Eckart and 1-dHR corrections from Enoch for 
 alpha-hydroxyethyl surface, reference: doi 10.1002/kin.20844
-    """,
+""",
 )
 
 entry(
@@ -5703,12 +5706,13 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (1800, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""ED, RQCISD(T)/CBS TST with Eckart and 1-HR""",
-    longDesc = """
+    longDesc = 
+u"""
 RQCISD(T)/CBS TST calculations with Eckart and 1-dHR corrections from Enoch for 
 alpha-hydroxyethyl surface, reference: doi 10.1002/kin.20844
-    """,
+""",
 )
 
 entry(
@@ -5722,12 +5726,13 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (1800, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""ED, RQCISD(T)/CBS TST with Eckart and 1-HR""",
-    longDesc = """
+    longDesc = 
+u"""
 RQCISD(T)/CBS TST calculations with Eckart and 1-dHR corrections from Enoch for 
 alpha-hydroxyethyl surface, reference: doi 10.1002/kin.20844
-    """,
+""",
 )
 
 entry(
@@ -5741,25 +5746,26 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2d,d,p)""",
-    longDesc = """
+    longDesc = 
+u"""
 BMK/6-311G(2d,d,p) TST Eckart, no HR. calculated for cycC5H5-CH2 -> cycC5H4-CH3
-    """,
+""",
 )
 
 entry(
     index = 1057,
     label = "R4H_MMS;Cd_rad_out;Cs_H_out",
     kinetics = ArrheniusEP(
-        A = (1.0E-10, 's^-1'),
+        A = (1e-10, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte guess""",
 )
 
@@ -5767,13 +5773,14 @@ entry(
     index = 1058,
     label = "R2H_D;Cd_rad_out_singleH;Cd_H_out_singleDe",
     kinetics = ArrheniusEP(
-        A = (1.0E-10, 's^-1'),
+        A = (1e-10, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte guess""",
 )
+

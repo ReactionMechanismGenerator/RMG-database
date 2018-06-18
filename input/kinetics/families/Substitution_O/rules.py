@@ -17,7 +17,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -32,7 +32,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -47,7 +47,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -62,7 +62,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -77,7 +77,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -92,7 +92,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -107,7 +107,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -122,7 +122,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -137,7 +137,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -152,7 +152,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -167,7 +167,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -182,7 +182,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -197,7 +197,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)""",
 )
 
@@ -212,7 +212,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -227,7 +227,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -242,7 +242,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -257,7 +257,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -272,7 +272,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -287,7 +287,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -302,7 +302,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -317,7 +317,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)""",
 )
 
@@ -332,7 +332,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -347,7 +347,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -362,7 +362,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -377,7 +377,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -392,7 +392,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -407,7 +407,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -422,7 +422,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -437,7 +437,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -452,7 +452,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -467,7 +467,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -482,7 +482,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)""",
 )
 
@@ -497,7 +497,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -512,7 +512,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -527,7 +527,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -542,7 +542,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -557,7 +557,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -572,7 +572,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -587,7 +587,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -602,7 +602,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -617,7 +617,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -632,7 +632,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -647,7 +647,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -662,7 +662,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -677,7 +677,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -692,7 +692,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -707,7 +707,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -722,7 +722,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -737,7 +737,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -752,7 +752,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -767,7 +767,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -782,7 +782,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)""",
 )
 
@@ -797,7 +797,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)""",
 )
 
@@ -812,7 +812,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -827,7 +827,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -842,7 +842,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -857,7 +857,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -872,7 +872,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -887,7 +887,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -902,7 +902,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -917,7 +917,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -932,7 +932,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -947,7 +947,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -962,7 +962,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -977,7 +977,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -992,7 +992,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1007,7 +1007,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1022,7 +1022,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1037,7 +1037,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1052,7 +1052,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1067,7 +1067,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1082,7 +1082,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1097,7 +1097,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1112,7 +1112,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1127,7 +1127,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1142,7 +1142,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1157,7 +1157,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1172,7 +1172,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1187,7 +1187,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1202,7 +1202,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1217,7 +1217,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1232,7 +1232,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1247,7 +1247,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1262,7 +1262,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1277,7 +1277,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1292,7 +1292,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)""",
 )
 
@@ -1307,7 +1307,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1322,7 +1322,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1337,7 +1337,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1352,7 +1352,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1367,7 +1367,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1382,7 +1382,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1397,7 +1397,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1412,7 +1412,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1427,7 +1427,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1442,7 +1442,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1457,7 +1457,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)""",
 )
 
@@ -1472,7 +1472,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1487,7 +1487,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1502,7 +1502,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1517,7 +1517,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1532,7 +1532,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1547,7 +1547,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1562,7 +1562,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1577,7 +1577,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1592,7 +1592,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1607,7 +1607,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1622,7 +1622,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1637,7 +1637,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1652,7 +1652,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1667,7 +1667,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1682,7 +1682,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1697,7 +1697,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1712,7 +1712,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1727,7 +1727,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1742,7 +1742,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1757,7 +1757,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)""",
 )
 
@@ -1772,7 +1772,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)""",
 )
 
@@ -1787,7 +1787,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1802,7 +1802,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1817,7 +1817,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1832,7 +1832,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1847,7 +1847,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1862,7 +1862,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1877,7 +1877,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1892,7 +1892,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1907,7 +1907,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1922,7 +1922,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)""",
 )
 
@@ -1937,7 +1937,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 
@@ -1952,7 +1952,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
 )
 

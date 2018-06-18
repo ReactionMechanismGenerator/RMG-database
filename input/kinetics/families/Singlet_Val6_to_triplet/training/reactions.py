@@ -4,17 +4,16 @@
 name = "Singlet_Val6_to_triplet/training"
 shortDesc = u"Kinetics used to train group additivity values"
 longDesc = u"""
-"""
 
+"""
 entry(
-    index = 1,
+    index = 0,
     label = "O2(S) => O2(T)",
-    degeneracy = 1,
+    degeneracy = 1.0,
     reversible = False,
-    kinetics = Arrhenius(A=(4.5e+10, 's^-1'), n=0, Ea=(397, 'cal/mol')),
+    kinetics = Arrhenius(A=(4.5e+10, 's^-1'), n=0, Ea=(397, 'cal/mol'), T0=(1, 'K')),
     rank = 1,
-    shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 taken from:
 R. Atkinson, D.L. Baulch, R.A. Cox, R.F. Hampson, J.A. Kerr, J. Troe,
@@ -31,14 +30,13 @@ Original reaction is O2(1D) + M => O2 + M
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "SO(S) => SO(T)",
-    degeneracy = 1,
+    degeneracy = 1.0,
     reversible = False,
-    kinetics = Arrhenius(A=(2.5e+17, 's^-1'), n=0, Ea=(0, 'cal/mol')),
+    kinetics = Arrhenius(A=(2.5e+17, 's^-1'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     rank = 1,
-    shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 taken from:
 H2S oxidation at high pressures
@@ -62,3 +60,4 @@ Original reaction is:
    ),
 """,
 )
+

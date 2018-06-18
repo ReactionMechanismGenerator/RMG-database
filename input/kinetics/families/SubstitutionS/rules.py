@@ -32,7 +32,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -47,7 +47,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CAC CBS-QB3 1dhr""",
 )
 
@@ -62,7 +62,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -77,7 +77,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -92,7 +92,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -107,7 +107,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -122,7 +122,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -137,7 +137,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -152,7 +152,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -167,7 +167,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -182,7 +182,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -197,7 +197,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -212,7 +212,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -227,7 +227,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -242,7 +242,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -257,7 +257,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -272,7 +272,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -287,7 +287,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -302,7 +302,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -317,7 +317,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -332,7 +332,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -347,7 +347,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -362,7 +362,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -377,7 +377,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -392,7 +392,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -407,7 +407,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -422,7 +422,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -437,7 +437,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -452,7 +452,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -467,7 +467,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -482,7 +482,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -497,7 +497,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -512,7 +512,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -527,7 +527,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -542,7 +542,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -557,7 +557,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -572,7 +572,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -587,7 +587,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -602,7 +602,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -617,7 +617,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -632,7 +632,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -647,7 +647,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -662,7 +662,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -677,7 +677,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -692,7 +692,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -707,7 +707,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -722,7 +722,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -737,7 +737,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -752,7 +752,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -767,7 +767,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -782,7 +782,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -797,7 +797,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -812,7 +812,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -827,7 +827,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -842,7 +842,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -857,7 +857,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -872,7 +872,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -887,7 +887,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -902,7 +902,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -917,7 +917,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -932,7 +932,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -947,7 +947,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -962,7 +962,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -977,7 +977,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -992,7 +992,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1007,7 +1007,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1022,7 +1022,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1037,7 +1037,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1052,7 +1052,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1067,7 +1067,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1082,7 +1082,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1097,7 +1097,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1112,7 +1112,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1127,7 +1127,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1142,7 +1142,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1157,7 +1157,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1172,7 +1172,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1187,7 +1187,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1202,7 +1202,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1217,7 +1217,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1232,7 +1232,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1247,7 +1247,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1262,7 +1262,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1277,7 +1277,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1292,7 +1292,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1307,7 +1307,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1322,7 +1322,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1337,7 +1337,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1352,7 +1352,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1367,7 +1367,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1382,7 +1382,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1397,7 +1397,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1412,7 +1412,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1427,7 +1427,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1442,7 +1442,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1457,7 +1457,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1472,7 +1472,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1487,7 +1487,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1502,7 +1502,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1517,7 +1517,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1532,7 +1532,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1547,7 +1547,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1562,7 +1562,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1577,7 +1577,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1592,7 +1592,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1607,7 +1607,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1622,7 +1622,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1637,7 +1637,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1652,7 +1652,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1667,7 +1667,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1682,7 +1682,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1697,7 +1697,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1712,7 +1712,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1727,7 +1727,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1742,7 +1742,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1757,7 +1757,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1772,7 +1772,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1787,7 +1787,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1802,7 +1802,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1817,7 +1817,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1832,7 +1832,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1847,7 +1847,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1862,7 +1862,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1877,7 +1877,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1892,7 +1892,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1907,7 +1907,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1922,7 +1922,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1937,7 +1937,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1952,7 +1952,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1967,7 +1967,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -1982,7 +1982,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
 )
 
@@ -1997,7 +1997,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2012,7 +2012,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2027,7 +2027,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2042,7 +2042,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2057,7 +2057,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2072,7 +2072,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2087,7 +2087,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2102,7 +2102,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2117,7 +2117,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2132,7 +2132,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2147,7 +2147,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2162,7 +2162,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2177,7 +2177,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2192,7 +2192,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2207,7 +2207,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2222,7 +2222,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2237,7 +2237,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2252,7 +2252,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2267,7 +2267,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2282,7 +2282,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2297,7 +2297,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2312,7 +2312,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
 
@@ -2327,7 +2327,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CAC CBS-QB3 1dhr""",
 )
 
@@ -2342,7 +2342,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CAC CBS-QB3 1dhr""",
 )
 
@@ -2357,7 +2357,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CAC CBS-QB3 1dhr""",
 )
 
@@ -2372,7 +2372,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CAC CBS-QB3 1dhr""",
 )
 
@@ -2387,7 +2387,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CAC CBS-QB3 1dhr""",
 )
 
@@ -2402,7 +2402,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""based on 157""",
 )
 
@@ -2417,7 +2417,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""based on CAC's 131 calc""",
 )
 
@@ -2432,7 +2432,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""CAC CBS-QB3, HO approx""",
 )
 
@@ -2447,7 +2447,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CAC CBS-QB3 1dhr""",
 )
 

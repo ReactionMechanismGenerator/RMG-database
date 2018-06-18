@@ -17,7 +17,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
 )
 
 entry(
@@ -31,7 +31,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
 )
 
 entry(
@@ -45,6 +45,6 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
 )
 

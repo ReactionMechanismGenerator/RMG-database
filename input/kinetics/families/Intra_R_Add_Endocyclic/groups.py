@@ -11,6 +11,7 @@ template(reactants=["Rn"], products=["RnCyclic"], ownReverse=False)
 
 reverse = "Ring_Open_Endo_Cycli_Radical"
 
+reversible = True
 recipe(actions=[
     ['CHANGE_BOND', '*2', -1, '*3'],
     ['FORM_BOND', '*1', 1, '*3'],
@@ -32,7 +33,7 @@ entry(
     label = "multiplebond_intra",
     group = 
 """
-1 *2 [Cd,Ct,Cb,Cbf,CO,CS,Cdd,N,S4d,S6d,S6dd] u0    {2,[D,T,B]}
+1 *2 [Cd,Ct,Cb,Cbf,CO,CS,Cdd,N,S4d,S6d,S6dd] u0 {2,[D,T,B]}
 2 *3 [Cd,Ct,Cb,Cbf,O2d,S2d,Cdd,N]            u0 c0 {1,[D,T,B]}
 """,
     kinetics = None,

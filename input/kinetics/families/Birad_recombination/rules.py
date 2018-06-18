@@ -32,7 +32,7 @@ entry(
         Tmin = (550, 'K'),
         Tmax = (650, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""[186] Benson et al.""",
     longDesc = 
 u"""
@@ -60,7 +60,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[x] Sirjean et al.""",
     longDesc = 
 u"""
@@ -85,7 +85,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[x] Sirjean et al.""",
     longDesc = 
 u"""
@@ -112,7 +112,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[x] Sirjean et al.""",
 )
 
@@ -127,7 +127,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""A.G. Vandeputte""",
 )
 

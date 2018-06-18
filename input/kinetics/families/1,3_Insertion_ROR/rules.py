@@ -34,7 +34,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
 )
 
@@ -49,7 +49,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
 )
 
@@ -64,7 +64,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
 )
 
@@ -79,7 +79,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
 )
 
@@ -94,7 +94,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
 )
 
@@ -109,7 +109,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
 )
 
@@ -124,7 +124,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
 )
 
@@ -139,7 +139,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
 )
 
@@ -154,7 +154,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
 )
 
@@ -169,7 +169,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
 )
 
@@ -184,7 +184,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 calculations by CAC, F12a energy""",
 )
 
@@ -199,7 +199,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 calculations by CAC, F12a energy""",
 )
 
@@ -214,7 +214,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 1d-hr calc by CAC, F12a energy""",
 )
 
@@ -229,7 +229,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 1d-hr calc by CAC, F12a energy""",
 )
 
@@ -244,7 +244,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CBS-QB3 1d-hr calc by CAC""",
 )
 
@@ -259,7 +259,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 1d-hr calc by CAC, F12a energy""",
 )
 
@@ -274,7 +274,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
 )
 
 entry(
@@ -288,7 +288,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
 )
 
 entry(
@@ -302,7 +302,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
 )
 
 entry(
@@ -316,13 +316,13 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""AG Vandeputte, CBS-QB3 + HO""",
     longDesc = 
-    """
-    Updated by AG Vandeputte, CBSQB3 + HO,
+u"""
+Updated by AG Vandeputte, CBSQB3 + HO,
     calculated for butadiene + H2O -> 2-butenol
-    """,
+""",
 )
 
 entry(
@@ -351,12 +351,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""AG Vandeputte, CBS-QB3 + HO""",
     longDesc = 
-    """
+u"""
 AG Vandeputte, calculated the rate coefficient for methanol + ethene -> propanol
-    """,
+""",
 )
 
 entry(
@@ -370,7 +370,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 1d-hr calc by CAC, F12a energy""",
 )
 
@@ -385,7 +385,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 1d-hr calc by CAC, F12a energy""",
 )
 
@@ -400,7 +400,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CBS-QB3 1d-hr by CAC, F12a energy""",
 )
 
