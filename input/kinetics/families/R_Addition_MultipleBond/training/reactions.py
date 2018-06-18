@@ -3642,7 +3642,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.977e+09, 's^-1'), n=1.37, Ea=(41.408, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = ["'Z\xc3\xa1dor, J.'", "'Miller, J. A.'"],
+        authors = ["'Zador, J.'", "'Miller, J. A.'"],
         title = 'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
         journal = "'Proceedings of the Combustion Institute'",
         volume = "'35 (1)'",
@@ -3663,7 +3663,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.022e+12, 's^-1'), n=0.577, Ea=(41.055, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = ["'Z\xc3\xa1dor, J.'", "'Miller, J. A.'"],
+        authors = ["'Zador, J.'", "'Miller, J. A.'"],
         title = 'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
         journal = "'Proceedings of the Combustion Institute'",
         volume = "'35 (1)'",
@@ -3689,7 +3689,7 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Z\xc3\xa1dor, J.'", "'Miller, J. A.'"],
+        authors = ["'Zador, J.'", "'Miller, J. A.'"],
         title = 'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
         journal = "'Proceedings of the Combustion Institute'",
         volume = "'35 (1)'",
@@ -3715,7 +3715,7 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Z\xc3\xa1dor, J.'", "'Miller, J. A.'"],
+        authors = ["'Zador, J.'", "'Miller, J. A.'"],
         title = 'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
         journal = "'Proceedings of the Combustion Institute'",
         volume = "'35 (1)'",
@@ -3741,7 +3741,7 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Z\xc3\xa1dor, J.'", "'Miller, J. A.'"],
+        authors = ["'Zador, J.'", "'Miller, J. A.'"],
         title = 'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
         journal = "'Proceedings of the Combustion Institute'",
         volume = "'35 (1)'",
@@ -3767,7 +3767,7 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Z\xc3\xa1dor, J.'", "'Miller, J. A.'"],
+        authors = ["'Zador, J.'", "'Miller, J. A.'"],
         title = 'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
         journal = "'Proceedings of the Combustion Institute'",
         volume = "'35 (1)'",
