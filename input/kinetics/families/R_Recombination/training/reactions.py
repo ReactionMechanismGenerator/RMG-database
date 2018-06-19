@@ -165,7 +165,7 @@ entry(
     ),
     reference = Article(
         authors = ["'Hahn, J.'", "'Luther, K.'", "'Troe, J.'"],
-        title = 'Experimental and Theoretical Study of the Temperature and Pressure Dependences of the Recombination Reactions O+NO2(+M)\xe2\x86\x92\xc2\x92NO3(+M) and NO2+NO3(+M)\xe2\x86\x92\xc2\x92N-2O5(+M)',
+        title = 'Experimental and Theoretical Study of the Temperature and Pressure Dependences of the Recombination Reactions O+NO2(+M) = NO3(+M) and NO2+NO3(+M)=N2O5(+M)',
         journal = "'Phys. Chem. Chem. Phys.'",
         pages = """'5098-5104'""",
         year = "'2000'",
