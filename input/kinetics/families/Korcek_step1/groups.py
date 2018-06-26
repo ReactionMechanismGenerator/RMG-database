@@ -45,20 +45,3 @@ tree(
 L1: RCH(OOH)CH2C(O)R'
 """
 )
-
-forbidden(
-    label = "O4",
-    group = 
-"""
-1    O u1 {2,S}
-2 *1 O u0 {1,S} {3,S}
-3 *2 O u0 {2,S} {4,S}
-4    O u1 {3,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
