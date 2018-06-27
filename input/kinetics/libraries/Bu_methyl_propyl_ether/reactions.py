@@ -188,23 +188,23 @@ changed!
 """,
 )
 
-entry(
-    index = 12,
-    label = "MPO1Q-1QJ <=> Ozoind1-1 + OH",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.105e+17, 's^-1'),
-        n = -1.948,
-        Ea = (43.801, 'cal/mol'),
-        T0 = (1, 'K'),
-        comment = 'changed!',
-    ),
-    longDesc = 
-u"""
- 
-changed!
-""",
-)
+#entry(
+#    index = 12,
+#    label = "MPO1Q-1QJ <=> Ozoind1-1 + OH",
+#    degeneracy = 1.0,
+#    kinetics = Arrhenius(
+#        A = (2.105e+17, 's^-1'),
+#        n = -1.948,
+#        Ea = (43.801, 'cal/mol'),
+#        T0 = (1, 'K'),
+#        comment = 'changed!',
+#    ),
+#    longDesc = 
+#u"""
+# 
+#changed!
+#""",
+#)
 
 entry(
     index = 13,
@@ -260,23 +260,23 @@ changed!
 """,
 )
 
-entry(
-    index = 16,
-    label = "MPO1Q3QJ <=> Ozoind13 + OH",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (4.81e+16, 's^-1'),
-        n = -1.277,
-        Ea = (44, 'cal/mol'),
-        T0 = (1, 'K'),
-        comment = 'changed!',
-    ),
-    longDesc = 
-u"""
- 
-changed!
-""",
-)
+#entry(
+#    index = 16,
+#    label = "MPO1Q3QJ <=> Ozoind13 + OH",
+#    degeneracy = 1.0,
+#    kinetics = Arrhenius(
+#        A = (4.81e+16, 's^-1'),
+#        n = -1.277,
+#        Ea = (44, 'cal/mol'),
+#        T0 = (1, 'K'),
+#        comment = 'changed!',
+#    ),
+#    longDesc = 
+#u"""
+# 
+#changed!
+#""",
+#)
 
 entry(
     index = 17,
