@@ -20,7 +20,6 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
 REF: G4 calculations and HID from RMG
 """,
 )
@@ -32,7 +31,6 @@ entry(
     kinetics = Arrhenius(A=(150.5, 's^-1'), n=2.993, Ea=(22.041, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
 """,
 )
 
@@ -43,7 +41,6 @@ entry(
     kinetics = Arrhenius(A=(187400, 's^-1'), n=2.003, Ea=(17.53, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
 """,
 )
 
@@ -54,7 +51,6 @@ entry(
     kinetics = Arrhenius(A=(1.034e+10, 's^-1'), n=1.109, Ea=(30.611, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
 """,
 )
 
@@ -65,7 +61,6 @@ entry(
     kinetics = Arrhenius(A=(217200, 's^-1'), n=1.242, Ea=(9.946, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
 """,
 )
 
@@ -82,7 +77,6 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
 changed!
 """,
 )
@@ -100,7 +94,6 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
 added!
 """,
 )
@@ -118,7 +111,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed!
 """,
 )
@@ -136,7 +129,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed!
 """,
 )
@@ -154,7 +147,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed!
 """,
 )
@@ -172,7 +165,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed! REF: G4 calculations and HID from RMG
 """,
 )
@@ -190,7 +183,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed!
 """,
 )
@@ -208,7 +201,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed!
 """,
 )
@@ -226,7 +219,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed
 """,
 )
@@ -244,7 +237,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed!
 """,
 )
@@ -262,7 +255,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed!
 """,
 )
@@ -280,7 +273,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed!
 """,
 )
@@ -298,7 +291,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed
 """,
 )
@@ -316,7 +309,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed!
 """,
 )
@@ -334,7 +327,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed!
 """,
 )
@@ -352,7 +345,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed!
 """,
 )
@@ -370,7 +363,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed!
 """,
 )
@@ -388,7 +381,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed! REF: G4 calculations and HID from RMG
 """,
 )
@@ -406,7 +399,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed!
 """,
 )
@@ -424,7 +417,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed!
 """,
 )
@@ -442,7 +435,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed!
 """,
 )
@@ -460,7 +453,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed!
 """,
 )
@@ -478,7 +471,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed!
 """,
 )
@@ -496,7 +489,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed!
 """,
 )
@@ -508,7 +501,7 @@ entry(
     kinetics = Arrhenius(A=(6.977e+09, 's^-1'), n=1.184, Ea=(13.87, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 """,
 )
 
@@ -525,7 +518,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed!
 """,
 )
@@ -543,7 +536,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed!
 """,
 )
@@ -561,7 +554,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
+ 
 changed! REF:  CBS-QB3 and HID Sarah Khanniche
 """,
 )
@@ -571,16 +564,17 @@ entry(
     label = "MPO <=> CH3OH + C3H6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (7.94e+13, 's^-1'),
+        A = (1.7644e+13, 's^-1'),
         n = 0,
         Ea = (59.0344, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'CBS-QB3 and HID Sarah Khanniche REF: analogy for t-Butylmethyl Ether (Experiments)',
+        comment = 'REF: analogy for t-Butylmethyl Ether (Experiments)',
     ),
     longDesc = 
 u"""
-Originally from reaction library: Unclassified
-CBS-QB3 and HID Sarah Khanniche REF: analogy for t-Butylmethyl Ether (Experiments)
+ 
+REF: analogy for t-Butylmethyl Ether (Experiments) value multiplied by 2/9
+for degeneracy
 """,
 )
 
