@@ -14,7 +14,7 @@ entry(
     kinetics = Arrhenius(
         A = (2.974e+07, 's^-1'),
         n = 1.34,
-        Ea = (13.961, 'cal/mol'),
+        Ea = (13.961, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'REF: G4 calculations and HID from RMG',
     ),
@@ -28,7 +28,7 @@ entry(
     index = 1,
     label = "MPO1QJ <=> MPO1Q2J",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(150.5, 's^-1'), n=2.993, Ea=(22.041, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(150.5, 's^-1'), n=2.993, Ea=(22.041, 'kcal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
 """,
@@ -38,7 +38,7 @@ entry(
     index = 2,
     label = "MPO1QJ <=> MPO1Q3J",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(187400, 's^-1'), n=2.003, Ea=(17.53, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(187400, 's^-1'), n=2.003, Ea=(17.53, 'kcal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
 """,
@@ -48,7 +48,7 @@ entry(
     index = 3,
     label = "MPO1QJ <=> MPO1Star + HO2",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.034e+10, 's^-1'), n=1.109, Ea=(30.611, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(1.034e+10, 's^-1'), n=1.109, Ea=(30.611, 'kcal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
 """,
@@ -58,7 +58,7 @@ entry(
     index = 4,
     label = "MPO1Q-1J <=> MPO1-1OCYC + OH",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(217200, 's^-1'), n=1.242, Ea=(9.946, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(217200, 's^-1'), n=1.242, Ea=(9.946, 'kcal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
 """,
@@ -71,7 +71,7 @@ entry(
     kinetics = Arrhenius(
         A = (113.5, 's^-1'),
         n = 2.693,
-        Ea = (6.75, 'cal/mol'),
+        Ea = (6.75, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed!',
     ),
@@ -88,7 +88,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.408e+10, 's^-1'),
         n = 0.591,
-        Ea = (14.27, 'cal/mol'),
+        Ea = (14.27, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'added!',
     ),
@@ -105,7 +105,7 @@ entry(
     kinetics = Arrhenius(
         A = (5.728e+11, 's^-1'),
         n = -0.058,
-        Ea = (24.54, 'cal/mol'),
+        Ea = (24.54, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed!',
     ),
@@ -123,7 +123,7 @@ entry(
     kinetics = Arrhenius(
         A = (31610, 's^-1'),
         n = 1.706,
-        Ea = (7.488, 'cal/mol'),
+        Ea = (7.488, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed!',
     ),
@@ -141,7 +141,7 @@ entry(
     kinetics = Arrhenius(
         A = (157400, 's^-1'),
         n = 1.509,
-        Ea = (17.217, 'cal/mol'),
+        Ea = (17.217, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed!',
     ),
@@ -159,7 +159,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.658e+10, 's^-1'),
         n = 0.13,
-        Ea = (14.506, 'cal/mol'),
+        Ea = (14.506, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed! REF: G4 calculations and HID from RMG',
     ),
@@ -177,7 +177,7 @@ entry(
     kinetics = Arrhenius(
         A = (4.552e+08, 's^-1'),
         n = 0.526,
-        Ea = (13.985, 'cal/mol'),
+        Ea = (13.985, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed!',
     ),
@@ -195,7 +195,7 @@ changed!
 #    kinetics = Arrhenius(
 #        A = (2.105e+17, 's^-1'),
 #        n = -1.948,
-#        Ea = (43.801, 'cal/mol'),
+#        Ea = (43.801, 'kcal/mol'),
 #        T0 = (1, 'K'),
 #        comment = 'changed!',
 #    ),
@@ -213,7 +213,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.24e+10, 's^-1'),
         n = 0.555,
-        Ea = (15.724, 'cal/mol'),
+        Ea = (15.724, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed',
     ),
@@ -231,7 +231,7 @@ entry(
     kinetics = Arrhenius(
         A = (282200, 's^-1'),
         n = 2.104,
-        Ea = (25.626, 'cal/mol'),
+        Ea = (25.626, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed!',
     ),
@@ -249,7 +249,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.132e+13, 's^-1'),
         n = -0.199,
-        Ea = (28.052, 'cal/mol'),
+        Ea = (28.052, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed!',
     ),
@@ -267,7 +267,7 @@ changed!
 #    kinetics = Arrhenius(
 #        A = (4.81e+16, 's^-1'),
 #        n = -1.277,
-#        Ea = (44, 'cal/mol'),
+#        Ea = (44, 'kcal/mol'),
 #        T0 = (1, 'K'),
 #        comment = 'changed!',
 #    ),
@@ -285,7 +285,7 @@ entry(
     kinetics = Arrhenius(
         A = (7.382e+15, 's^-1'),
         n = -1.199,
-        Ea = (17.561, 'cal/mol'),
+        Ea = (17.561, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed',
     ),
@@ -303,7 +303,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.103e+17, 's^-1'),
         n = -1.498,
-        Ea = (7.076, 'cal/mol'),
+        Ea = (7.076, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed!',
     ),
@@ -321,7 +321,7 @@ entry(
     kinetics = Arrhenius(
         A = (8.552e+14, 's^-1'),
         n = -0.356,
-        Ea = (18.611, 'cal/mol'),
+        Ea = (18.611, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed!',
     ),
@@ -339,7 +339,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.285e+10, 's^-1'),
         n = 1.123,
-        Ea = (14.77, 'cal/mol'),
+        Ea = (14.77, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed!',
     ),
@@ -357,7 +357,7 @@ entry(
     kinetics = Arrhenius(
         A = (4.741e+07, 's^-1'),
         n = 1.777,
-        Ea = (12.108, 'cal/mol'),
+        Ea = (12.108, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed!',
     ),
@@ -375,7 +375,7 @@ entry(
     kinetics = Arrhenius(
         A = (6.416e+11, 's^-1'),
         n = 0.153,
-        Ea = (35.947, 'cal/mol'),
+        Ea = (35.947, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed! REF: G4 calculations and HID from RMG',
     ),
@@ -393,7 +393,7 @@ entry(
     kinetics = Arrhenius(
         A = (5.756, 'cm^3/(mol*s)'),
         n = 1.816,
-        Ea = (-3.086, 'cal/mol'),
+        Ea = (-3.086, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed!',
     ),
@@ -411,7 +411,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.742e+15, 's^-1'),
         n = -0.392,
-        Ea = (45.8, 'cal/mol'),
+        Ea = (45.8, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed!',
     ),
@@ -429,7 +429,7 @@ entry(
     kinetics = Arrhenius(
         A = (0.2443, 'cm^3/(mol*s)'),
         n = 3.574,
-        Ea = (6.051, 'cal/mol'),
+        Ea = (6.051, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed!',
     ),
@@ -447,7 +447,7 @@ entry(
     kinetics = Arrhenius(
         A = (7.443e+11, 's^-1'),
         n = 0.444,
-        Ea = (9.642, 'cal/mol'),
+        Ea = (9.642, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed!',
     ),
@@ -465,7 +465,7 @@ entry(
     kinetics = Arrhenius(
         A = (3.552e+10, 's^-1'),
         n = -0.334,
-        Ea = (11.444, 'cal/mol'),
+        Ea = (11.444, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed!',
     ),
@@ -483,7 +483,7 @@ entry(
     kinetics = Arrhenius(
         A = (6.065e+10, 'cm^3/(mol*s)'),
         n = -3.325,
-        Ea = (-8.34, 'cal/mol'),
+        Ea = (-8.34, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed!',
     ),
@@ -498,7 +498,7 @@ entry(
     index = 29,
     label = "MPO1O3OJ <=> CH2O + CH2COOCH3",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6.977e+09, 's^-1'), n=1.184, Ea=(13.87, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(6.977e+09, 's^-1'), n=1.184, Ea=(13.87, 'kcal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
  
@@ -512,7 +512,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.049e+10, 's^-1'),
         n = 1.186,
-        Ea = (17.281, 'cal/mol'),
+        Ea = (17.281, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed!',
     ),
@@ -530,7 +530,7 @@ entry(
     kinetics = Arrhenius(
         A = (0.2347, 'cm^3/(mol*s)'),
         n = 3.588,
-        Ea = (6.305, 'cal/mol'),
+        Ea = (6.305, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed!',
     ),
@@ -548,7 +548,7 @@ entry(
     kinetics = Arrhenius(
         A = (3.90639e+11, 's^-1'),
         n = 0.416984,
-        Ea = (24.2665, 'cal/mol'),
+        Ea = (24.2665, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'changed! REF:  CBS-QB3 and HID Sarah Khanniche',
     ),
@@ -566,7 +566,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.7644e+13, 's^-1'),
         n = 0,
-        Ea = (59.0344, 'cal/mol'),
+        Ea = (59.0344, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = 'REF: analogy for t-Butylmethyl Ether (Experiments)',
     ),
