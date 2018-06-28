@@ -37,6 +37,7 @@ entry(
         T0 = (1, 'K'),
         comment = '469',
     ),
+    allow_max_rate_violation=True,
     longDesc = 
 u"""
 469
