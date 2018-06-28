@@ -4083,7 +4083,7 @@ entry(
     label = "A3 + OH <=> A3- + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.7e+12, 'cm^3/(mol*s)'),
+        A = (1.7e+8, 'cm^3/(mol*s)'),
         n = 1.42,
         Ea = (6260.8, 'J/mol'),
         T0 = (1, 'K'),
