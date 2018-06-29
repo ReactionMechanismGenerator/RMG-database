@@ -1187,7 +1187,6 @@ entry(
     index = 62,
     label = "HOSO2 + O2 <=> SO3 + HO2",
     degeneracy = 2,
-    duplicate=True,
     kinetics = Arrhenius(A=(1.848e-06, 'cm^3/(mol*s)','*|/',5.17556), n=5.40, Ea=(94.02, 'kJ/mol'), T0=(1, 'K'),
                          Tmin=(300, 'K'), Tmax=(2000, 'K')),
     shortDesc = u"""CBS-QB3""",
@@ -1204,7 +1203,6 @@ entry(
     index = 63,
     label = "HOSO2 + O2 <=> SO3 + HO2",
     degeneracy = 2,
-    duplicate=True,
     kinetics = Chebyshev(
         coeffs = [
             [12.2121, -0.0588331, -0.0369469, -0.0170237],
