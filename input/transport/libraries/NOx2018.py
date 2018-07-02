@@ -187,7 +187,7 @@ entry(
     4 H u0 p0 c0 {1,S}
     """,
     transport=TransportData(
-        shapeIndex=1,
+        shapeIndex=2,
         epsilon=(209.000, 'K'),
         sigma=(4.100, 'angstroms'),
         dipoleMoment=(0.0, 'De'),
@@ -593,7 +593,7 @@ entry(
     4 H u0 p0 c0 {2,S}
     """,
     transport=TransportData(
-        shapeIndex=1,
+        shapeIndex=2,
         epsilon=(569.000, 'K'),
         sigma=(3.630, 'angstroms'),
         dipoleMoment=(0.0, 'De'),
@@ -924,7 +924,7 @@ entry(
     3 H u0 p0 c0 {1,S}
     """,
     transport=TransportData(
-        shapeIndex=1,
+        shapeIndex=2,
         epsilon=(144.000, 'K'),
         sigma=(3.800, 'angstroms'),
         dipoleMoment=(0.0, 'De'),
@@ -945,7 +945,7 @@ entry(
     3 H u0 p0 c0 {1,S}
     """,
     transport=TransportData(
-        shapeIndex=1,
+        shapeIndex=2,
         epsilon=(144.000, 'K'),
         sigma=(3.800, 'angstroms'),
         dipoleMoment=(0.0, 'De'),
@@ -967,7 +967,7 @@ entry(
     4 H u0 p0 c0 {1,S}
     """,
     transport=TransportData(
-        shapeIndex=1,
+        shapeIndex=2,
         epsilon=(144.000, 'K'),
         sigma=(3.800, 'angstroms'),
         dipoleMoment=(0.0, 'De'),
@@ -1984,7 +1984,7 @@ entry(
     4 H u0 p0 c0 {2,S}
     """,
     transport=TransportData(
-        shapeIndex=1,
+        shapeIndex=2,
         epsilon=(422.220, 'K'),
         sigma=(5.329, 'angstroms'),
         dipoleMoment=(2.0, 'De'),
@@ -2006,7 +2006,7 @@ entry(
     5 H u0 p0 c0 {3,S}
     """,
     transport=TransportData(
-        shapeIndex=1,
+        shapeIndex=2,
         epsilon=(422.220, 'K'),
         sigma=(5.329, 'angstroms'),
         dipoleMoment=(2.0, 'De'),
@@ -2048,7 +2048,7 @@ entry(
     4 H u0 p0 c0 {1,S}
     """,
     transport=TransportData(
-        shapeIndex=1,
+        shapeIndex=2,
         epsilon=(569.000, 'K'),
         sigma=(3.630, 'angstroms'),
         dipoleMoment=(0.0, 'De'),
@@ -2501,7 +2501,7 @@ entry(
 # 2 F u0 p3 c0 {1,S}
 # """,
 #    transport = TransportData(
-#        shapeIndex = 0,
+#        shapeIndex = 1,
 #        epsilon = (80.000,'K'),
 #        sigma = (2.750,'angstroms'),
 #        dipoleMoment = (0.0,'De'),
@@ -2582,7 +2582,7 @@ entry(
     2 S u1 p2 c0 {1,S}
     """,
     transport=TransportData(
-        shapeIndex=0,
+        shapeIndex=1,
         epsilon=(847.000, 'K'),
         sigma=(3.900, 'angstroms'),
         dipoleMoment=(0.0, 'De'),
@@ -2712,7 +2712,7 @@ entry(
     9 O u0 p2 c0 {3,D}
     """,
     transport=TransportData(
-        shapeIndex=1,
+        shapeIndex=2,
         epsilon=(252.000, 'K'),
         sigma=(4.760, 'angstroms'),
         dipoleMoment=(0.0, 'De'),
@@ -2738,7 +2738,7 @@ entry(
     8 O u1 p2 c0 {3,S}
     """,
     transport=TransportData(
-        shapeIndex=1,
+        shapeIndex=2,
         epsilon=(252.000, 'K'),
         sigma=(4.760, 'angstroms'),
         dipoleMoment=(0.0, 'De'),
@@ -2762,7 +2762,7 @@ entry(
     6 O u0 p2 c0 {3,D}
     """,
     transport=TransportData(
-        shapeIndex=1,
+        shapeIndex=2,
         epsilon=(357.000, 'K'),
         sigma=(5.180, 'angstroms'),
         dipoleMoment=(0.0, 'De'),
@@ -3617,7 +3617,7 @@ entry(
     5 H u0 p0 c0 {2,S}
     """,
     transport=TransportData(
-        shapeIndex=1,
+        shapeIndex=2,
         epsilon=(252.000, 'K'),
         sigma=(4.760, 'angstroms'),
         dipoleMoment=(0.0, 'De'),
