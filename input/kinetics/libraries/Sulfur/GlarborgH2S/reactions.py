@@ -425,6 +425,7 @@ entry(
     longDesc = 
 u"""
 Sendt K Haynes BS PROC COMBUST INST 31 257-265 2007
+alongd comment: valid only at 1 atm, taken from Table 4 in 10.1016/j.proci.2006.08.067
 """,
 )
 
