@@ -396,7 +396,7 @@ entry(
 
 entry(
     index = 15,
-    label = "SO2(T)",
+    label = "OSO(T)",
     molecule =
 """
 multiplicity 3
@@ -407,47 +407,46 @@ multiplicity 3
     thermo = NASA(
         polynomials = [
             NASAPolynomial(
-                coeffs = [3.98165, 0.00101162, 1.85563e-05, -3.48567e-08, 1.89672e-11, -567.276, 7.74439],
+                coeffs = [3.9676, 0.00189329, 2.31571e-05, -5.14929e-08, 3.17715e-11, 46018.7, 8.61359],
                 Tmin = (10, 'K'),
-                Tmax = (628.385, 'K'),
+                Tmax = (585.659, 'K'),
             ),
             NASAPolynomial(
-                coeffs = [3.8789, 0.0062633, -4.95469e-06, 1.73009e-09, -2.21003e-13, -645.136, 7.47009],
-                Tmin = (628.385, 'K'),
+                coeffs = [4.60402, 0.00505536, -4.17317e-06, 1.50935e-09, -1.98437e-13, 45815.4, 4.78435],
+                Tmin = (585.659, 'K'),
                 Tmax = (3000, 'K'),
             ),
         ],
         Tmin = (10, 'K'),
         Tmax = (3000, 'K'),
-        E0 = (-4.72505, 'kJ/mol'),
+        E0 = (382.608, 'kJ/mol'),
         Cp0 = (33.2579, 'J/(mol*K)'),
         CpInf = (58.2013, 'J/(mol*K)'),
     ),
-    shortDesc = u"""UCCSD(T)-F12a/cc-pVTZ-f12//UM06-2x/cc-pVTZ""",
+    shortDesc = u"""CCSD(T)-F12a//cc-pVTZ-F12//B3LYP/6-311+G(2d,p)""",
     longDesc =
     u"""
-    SMILES: [O][S]=O
+    SMILES: [O][S]=O, [O]S[O]
 
-    calculated by alongd (xq1112, xc1063) at the UCCSD(T)-F12a/cc-pVTZ-f12//UM06-2x/cc-pVTZ level of theory
-    frequencies calculated at UM06-2x/cc-pVTZ
+    calculated by alongd (xq1287, xc1112) at the CCSD(T)-F12a//cc-pVTZ-F12//B3LYP/6-311+G(2d,p) level of theory
     (no rotors)
 
-    Thermodynamics for SO2(T):
-        Enthalpy of formation (298 K)   =     1.526 kcal/mol
-        Entropy of formation (298 K)    =    62.167 cal/(mol*K)
+    Thermodynamics for OSO(T):
+        Enthalpy of formation (298 K)   =    94.199 kcal/mol
+        Entropy of formation (298 K)    =    64.422 cal/(mol*K)
         =========== =========== =========== =========== ===========
         Temperature Heat cap.   Enthalpy    Entropy     Free energy
         (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
         =========== =========== =========== =========== ===========
-                300      10.269       1.547      62.235     -17.124
-                400      11.148       2.619      65.314     -23.507
-                500      11.834       3.770      67.879     -30.170
-                600      12.317       4.979      70.082     -37.070
-                800      12.944       7.510      73.719     -51.465
-               1000      13.308      10.139      76.650     -66.511
-               1500      13.604      16.890      82.121    -106.292
-               2000      13.695      23.713      86.046    -148.379
-               2400      13.823      29.216      88.554    -183.314
+               300      10.903      94.221      64.495      74.873
+               400      11.820      95.360      67.764      68.254
+               500      12.425      96.574      70.472      61.338
+               600      12.788      97.836      72.772      54.173
+               800      13.253     100.445      76.521      39.228
+              1000      13.507     103.123      79.508      23.615
+              1500      13.686     109.938      85.032     -17.610
+              2000      13.755     116.794      88.976     -61.159
+              2400      13.873     122.319      91.494     -97.267
         =========== =========== =========== =========== ===========
     """,
 )
@@ -465,47 +464,46 @@ multiplicity 3
     thermo = NASA(
         polynomials = [
             NASAPolynomial(
-                coeffs = [3.96096, 0.00261375, 2.4909e-05, -6.85964e-08, 5.17961e-11, 32260.3, 8.78751],
+                coeffs = [3.96011, 0.0025733, 2.55356e-05, -6.72978e-08, 4.84507e-11, 33434.7, 8.77386],
                 Tmin = (10, 'K'),
-                Tmax = (482.017, 'K'),
+                Tmax = (508.046, 'K'),
             ),
             NASAPolynomial(
-                coeffs = [4.54997, 0.00476677, -3.70181e-06, 1.2788e-09, -1.62367e-13, 32121.7, 5.52727],
-                Tmin = (482.017, 'K'),
+                coeffs = [4.67958, 0.00470058, -3.75057e-06, 1.32005e-09, -1.69845e-13, 33261, 4.80039],
+                Tmin = (508.046, 'K'),
                 Tmax = (3000, 'K'),
             ),
         ],
         Tmin = (10, 'K'),
         Tmax = (3000, 'K'),
-        E0 = (268.22, 'kJ/mol'),
+        E0 = (277.982, 'kJ/mol'),
         Cp0 = (33.2579, 'J/(mol*K)'),
         CpInf = (58.2013, 'J/(mol*K)'),
     ),
-    shortDesc = u"""UCCSD(T)-F12a/cc-pVTZ-f12//UM06-2x/cc-pVTZ""",
+    shortDesc = u"""CCSD(T)-F12a//cc-pVTZ-F12//B3LYP/6-311+G(2d,p)""",
     longDesc =
     u"""
     SMILES: [O]O[S]
 
-    calculated by alongd (xq1116, xc1067) at the UCCSD(T)-F12a/cc-pVTZ-f12//UM06-2x/cc-pVTZ level of theory
-    frequencies calculated at UM06-2x/cc-pVTZ
+    calculated by alongd (xq1286, xc1111) at the CCSD(T)-F12a//cc-pVTZ-F12//B3LYP/6-311+G(2d,p) level of theory
     (no rotors)
 
     Thermodynamics for OOS(T):
-        Enthalpy of formation (298 K)   =    66.900 kcal/mol
-        Entropy of formation (298 K)    =    65.052 cal/(mol*K)
+        Enthalpy of formation (298 K)   =    69.243 kcal/mol
+        Entropy of formation (298 K)    =    65.056 cal/(mol*K)
         =========== =========== =========== =========== ===========
         Temperature Heat cap.   Enthalpy    Entropy     Free energy
         (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
         =========== =========== =========== =========== ===========
-               300      11.038      66.922      65.126      47.385
-               400      11.780      68.066      68.411      40.702
-               500      12.236      69.269      71.092      33.722
-               600      12.584      70.510      73.355      26.497
-               800      13.081      73.081      77.049      11.441
-              1000      13.377      75.729      80.003      -4.274
-              1500      13.642      82.502      85.492     -45.735
-              2000      13.729      89.344      89.428     -89.511
-              2400      13.829      94.856      91.940    -125.799
+               300      11.140      69.265      65.131      49.726
+               400      11.940      70.422      68.454      43.041
+               500      12.413      71.642      71.174      36.055
+               600      12.744      72.901      73.467      28.820
+               800      13.207      75.500      77.202      13.738
+              1000      13.473      78.170      80.181      -2.011
+              1500      13.686      84.977      85.698     -43.570
+              2000      13.754      91.835      89.643     -87.452
+              2400      13.853      97.356      92.159    -123.827
         =========== =========== =========== =========== ===========
     """,
 )
