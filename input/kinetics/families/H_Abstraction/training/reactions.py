@@ -63911,4 +63911,126 @@ Degeneracy not recalculated
 Converted to training reaction from rate rule: S/H/NonDeS;S_rad/NonDeS
 """,
 )
+    
+entry(
+    index = 3073,
+    label = "NO3 + C3H4 <=> C3H3-2_p + HNO3_p",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(
+        A = (4.86, 'm^3/(mol*s)'),
+        n = 1.87,
+        Ea = (32393.57, 'J/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction manually from rate rule: C/H3/Ct;InChI=1S/NO3/c2-1(3)4
+""",
+)
+    
+entry(
+    index = 3074,
+    label = "HNO2 + H <=> H2_p + NO2_p",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.4e+08, 'cm^3/(mol*s)'),
+        n = 1.5,
+        Ea = (4.16, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Added by Beat Buesser, value for reaction: HNO2 + H = H2 + NO2 (B&D #41a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
+    longDesc = 
+u"""
+Converted to training reaction manually from rate rule: N5dc/H/NonDeOO;H_rad
+""",
+)
+
+entry(
+    index = 3075,
+    label = "HNO2 + O_rad <=> OH_p23 + NO2_p",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.7e+08, 'cm^3/(mol*s)'),
+        n = 1.5,
+        Ea = (2.36, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Added by Beat Buesser, value for reaction: HNO2 + O = OH + NO2 (B&D #41b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
+    longDesc = 
+u"""
+Converted to training reaction manually from rate rule: N5dc/H/NonDeOO;O_atom_triplet
+""",
+)
+    
+entry(
+    index = 3076,
+    label = "HNO2 + OH <=> H2O_p + NO2_p",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.2e+06, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (-0.79, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Added by Beat Buesser, value for reaction: HNO2 + OH = H2O + NO2 (B&D #41c) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
+    longDesc = 
+u"""
+Converted to training reaction manually from rate rule: N5dc/H/NonDeOO;O_pri_rad
+""",
+)
+    
+entry(
+    index = 3077,
+    label = "HNO2 + CH3 <=> CH4b + NO2_p",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (810000, 'cm^3/(mol*s)'),
+        n = 1.87,
+        Ea = (4.84, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Added by Beat Buesser, value for reaction: HNO2 + CH3 = NO2 + CH4 (B&D #41d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
+    longDesc = 
+u"""
+Converted to training reaction manually from rate rule: N5dc/H/NonDeOO;C_methyl
+""",
+)
+    
+entry(
+    index = 3078,
+    label = "HNO2 + NH2 <=> NH3_p + NO2_p",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (920000, 'cm^3/(mol*s)'),
+        n = 1.94,
+        Ea = (0.87, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Added by Beat Buesser, value for reaction: HNO2 + NH2 = NO2 + NH3 (B&D #413) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
+    longDesc = 
+u"""
+Converted to training reaction manually from rate rule: N5dc/H/NonDeOO;NH2_rad
+""",
+)
 
