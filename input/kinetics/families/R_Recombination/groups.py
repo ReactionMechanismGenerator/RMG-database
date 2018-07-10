@@ -10,8 +10,8 @@ longDesc = u"""
 template(reactants=["Y_rad", "Y_rad"], products=["Y_Y"], ownReverse=False)
 
 reverse = "Bond_Dissociation"
-
 reversible = True
+
 recipe(actions=[
     ['FORM_BOND', '*1', 1, '*2'],
     ['LOSE_RADICAL', '*1', '1'],
@@ -285,11 +285,11 @@ entry(
     label = "Cd_pri_rad",
     group = 
 """
-1 * C u1 {2,D} {3,S}
-2   C u0 {1,D} {4,S} {5,S}
-3   H u0 {1,S}
-4   R u0 {2,S}
-5   R u0 {2,S}
+1   C u0 {2,D} {3,S} {4,S}
+2 * C u1 {1,D} {5,S}
+3   R u0 {1,S}
+4   R u0 {1,S}
+5   H u0 {2,S}
 """,
     kinetics = None,
 )
@@ -299,11 +299,11 @@ entry(
     label = "Cd_sec_rad",
     group = 
 """
-1 * C   u1 {2,D} {3,S}
-2   C   u0 {1,D} {4,S} {5,S}
-3   R!H u0 {1,S}
-4   R   u0 {2,S}
-5   R   u0 {2,S}
+1   C   u0 {2,D} {3,S} {4,S}
+2 * C   u1 {1,D} {5,S}
+3   R   u0 {1,S}
+4   R   u0 {1,S}
+5   R!H u0 {2,S}
 """,
     kinetics = None,
 )
@@ -313,11 +313,11 @@ entry(
     label = "Cd_rad/NonDe",
     group = 
 """
-1 * C                             u1 {2,D} {3,S}
-2   C                             u0 {1,D} {4,S} {5,S}
-3   [Cs,N3s,N5sc,O2s,S2s,S4s,S6s] u0 {1,S}
-4   R                             u0 {2,S}
-5   R                             u0 {2,S}
+1   C                             u0 {2,D} {3,S} {4,S}
+2 * C                             u1 {1,D} {5,S}
+3   R                             u0 {1,S}
+4   R                             u0 {1,S}
+5   [Cs,N3s,N5sc,O2s,S2s,S4s,S6s] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -327,11 +327,11 @@ entry(
     label = "Cd_rad/OneDe",
     group = 
 """
-1 * C                                                                u1 {2,D} {3,S}
-2   C                                                                u0 {1,D} {4,S} {5,S}
-3   [Cd,Ct,CO,CS,Cb,Cbf,N3d,N5dc,N5tc,N5b,S4d,S4t,S6d,S6dd,S6t,S6td] u0 {1,S}
-4   R                                                                u0 {2,S}
-5   R                                                                u0 {2,S}
+1   C                                                                u0 {2,D} {3,S} {4,S}
+2 * C                                                                u1 {1,D} {5,S}
+3   R                                                                u0 {1,S}
+4   R                                                                u0 {1,S}
+5   [Cd,Ct,CO,CS,Cb,Cbf,N3d,N5dc,N5tc,N5b,S4d,S4t,S6d,S6dd,S6t,S6td] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -341,11 +341,11 @@ entry(
     label = "Cd_rad/Cd",
     group = 
 """
-1 * C  u1 {2,D} {3,S}
-2   C  u0 {1,D} {4,S} {5,S}
-3   Cd u0 {1,S}
-4   R  u0 {2,S}
-5   R  u0 {2,S}
+1   C  u0 {2,D} {3,S} {4,S}
+2 * C  u1 {1,D} {5,S}
+3   R  u0 {1,S}
+4   R  u0 {1,S}
+5   Cd u0 {2,S}
 """,
     kinetics = None,
 )
@@ -922,12 +922,12 @@ entry(
     label = "C_rad_cyclopentadiene",
     group = 
 """
-1 * C  u1 {2,S} {3,S} {4,S}
-2   H  u0 {1,S}
+1 * C  u1 {2,S} {3,S} {6,S}
+2   Cd u0 {1,S} {4,D}
 3   Cd u0 {1,S} {5,D}
-4   Cd u0 {1,S} {6,D}
-5   Cd u0 {3,D} {6,S}
-6   Cd u0 {4,D} {5,S}
+4   Cd u0 {2,D} {5,S}
+5   Cd u0 {3,D} {4,S}
+6   H  u0 {1,S}
 """,
     kinetics = None,
 )
