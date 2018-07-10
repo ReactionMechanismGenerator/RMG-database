@@ -12,8 +12,8 @@ once relevant kinetic data is available
 template(reactants=["R_ROSR"], products=["keton"], ownReverse=False)
 
 reverse = "none"
-
 reversible = True
+
 recipe(actions=[
     ['CHANGE_BOND', '*1', -1, '*2'],
     ['CHANGE_BOND', '*2', 1, '*3'],
@@ -28,10 +28,10 @@ entry(
     label = "R_ROSR",
     group = 
 """
-1 *1 R!H     u0 {2,D}
-2 *2 R!H     u0 {1,D} {3,S}
-3 *3 [O,S2s] u0 {2,S} {4,S}
-4 *4 R       u0 {3,S}
+1 *2 R!H     u0 {2,S} {3,D}
+2 *3 [O,S2s] u0 {1,S} {4,S}
+3 *1 R!H     u0 {1,D}
+4 *4 R       u0 {2,S}
 """,
     kinetics = None,
 )
@@ -71,10 +71,10 @@ entry(
     label = "R_ROR",
     group = 
 """
-1 *1 R!H u0 {2,D}
-2 *2 R!H u0 {1,D} {3,S}
-3 *3 O   u0 {2,S} {4,S}
-4 *4 R   u0 {3,S}
+1 *2 R!H u0 {2,S} {3,D}
+2 *3 O   u0 {1,S} {4,S}
+3 *1 R!H u0 {1,D}
+4 *4 R   u0 {2,S}
 """,
     kinetics = None,
 )
@@ -157,11 +157,11 @@ entry(
     label = "R2_doublebond_CH3",
     group = 
 """
-1 *2 C  u0 {2,S}
-2    Cs u0 {1,S} {3,S} {4,S} {5,S}
-3    H  u0 {2,S}
-4    H  u0 {2,S}
-5    H  u0 {2,S}
+1    Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C  u0 {1,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -171,9 +171,9 @@ entry(
     label = "R2_doublebond_CsC",
     group = 
 """
-1 *2 C  u0 {2,S}
-2    Cs u0 {1,S} {3,S}
-3    C  u0 {2,S}
+1    Cs u0 {2,S} {3,S}
+2 *2 C  u0 {1,S}
+3    C  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -183,14 +183,14 @@ entry(
     label = "R2_doublebond_CH2CH3",
     group = 
 """
-1 *2 C  u0 {2,S}
-2    Cs u0 {1,S} {3,S} {4,S} {5,S}
-3    Cs u0 {2,S} {6,S} {7,S} {8,S}
-4    H  u0 {2,S}
-5    H  u0 {2,S}
-6    H  u0 {3,S}
-7    H  u0 {3,S}
-8    H  u0 {3,S}
+1    Cs u0 {2,S} {3,S} {4,S} {5,S}
+2    Cs u0 {1,S} {6,S} {7,S} {8,S}
+3 *2 C  u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {1,S}
+6    H  u0 {2,S}
+7    H  u0 {2,S}
+8    H  u0 {2,S}
 """,
     kinetics = None,
 )
