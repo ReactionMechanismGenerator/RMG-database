@@ -10,8 +10,8 @@ longDesc = u"""
 template(reactants=["{ene,yne}", "diene_out"], products=["Six_Ring"], ownReverse=False)
 
 reverse = "Retro_Diels_Alder_Addition"
-
 reversible = True
+
 recipe(actions=[
     ['CHANGE_BOND', '*1', -1, '*2'],
     ['CHANGE_BOND', '*3', -1, '*4'],
@@ -26,10 +26,10 @@ entry(
     label = "diene_out",
     group = 
 """
-1 *3 Cd u0 {2,D}
-2 *4 Cd u0 {1,D} {3,S}
-3 *5 Cd u0 {2,S} {4,D}
-4 *6 Cd u0 {3,D}
+1 *4 Cd u0 {2,S} {3,D}
+2 *5 Cd u0 {1,S} {4,D}
+3 *3 Cd u0 {1,D}
+4 *6 Cd u0 {2,D}
 """,
     kinetics = None,
 )
@@ -57,13 +57,13 @@ entry(
     label = "diene_5ring_out",
     group = 
 """
-1 *3 Cd u0 {2,D} {5,S} {6,S}
-2 *4 Cd u0 {1,D} {3,S}
-3 *5 Cd u0 {2,S} {4,D}
-4 *6 Cd u0 {3,D} {6,S} {7,S}
-5 *7 R  u0 {1,S}
-6 *8 C  u0 {1,S} {4,S}
-7 *9 R  u0 {4,S}
+1 *3 Cd u0 {3,S} {4,D} {6,S}
+2 *6 Cd u0 {3,S} {5,D} {7,S}
+3 *8 C  u0 {1,S} {2,S}
+4 *4 Cd u0 {1,D} {5,S}
+5 *5 Cd u0 {2,D} {4,S}
+6 *7 R  u0 {1,S}
+7 *9 R  u0 {2,S}
 """,
     kinetics = None,
 )
@@ -105,13 +105,13 @@ entry(
     label = "diene_5ring_Nd_Nd_out",
     group = 
 """
-1 *3 Cd       u0 {2,D} {5,S} {6,S}
-2 *4 Cd       u0 {1,D} {3,S}
-3 *5 Cd       u0 {2,S} {4,D}
-4 *6 Cd       u0 {3,D} {6,S} {7,S}
-5 *7 [Cs,O,S] u0 {1,S}
-6 *8 C        u0 {1,S} {4,S}
-7 *9 [Cs,O,S] u0 {4,S}
+1 *3 Cd       u0 {3,S} {4,D} {6,S}
+2 *6 Cd       u0 {3,S} {5,D} {7,S}
+3 *8 C        u0 {1,S} {2,S}
+4 *4 Cd       u0 {1,D} {5,S}
+5 *5 Cd       u0 {2,D} {4,S}
+6 *7 [Cs,O,S] u0 {1,S}
+7 *9 [Cs,O,S] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -121,14 +121,14 @@ entry(
     label = "diene_unsub_unsub_out",
     group = 
 """
-1 *3 Cd u0 {2,D} {5,S} {6,S}
-2 *4 Cd u0 {1,D} {3,S}
-3 *5 Cd u0 {2,S} {4,D}
-4 *6 Cd u0 {3,D} {7,S} {8,S}
+1 *3 Cd u0 {3,D} {5,S} {6,S}
+2 *6 Cd u0 {4,D} {7,S} {8,S}
+3 *4 Cd u0 {1,D} {4,S}
+4 *5 Cd u0 {2,D} {3,S}
 5    H  u0 {1,S}
 6    H  u0 {1,S}
-7    H  u0 {4,S}
-8    H  u0 {4,S}
+7    H  u0 {2,S}
+8    H  u0 {2,S}
 """,
     kinetics = None,
 )
@@ -138,14 +138,14 @@ entry(
     label = "diene_unsub_monosub_out",
     group = 
 """
-1 *3 Cd  u0 {2,D} {5,S} {6,S}
-2 *4 Cd  u0 {1,D} {3,S}
-3 *5 Cd  u0 {2,S} {4,D}
-4 *6 Cd  u0 {3,D} {7,S} {8,S}
+1 *3 Cd  u0 {3,D} {5,S} {6,S}
+2 *6 Cd  u0 {4,D} {7,S} {8,S}
+3 *4 Cd  u0 {1,D} {4,S}
+4 *5 Cd  u0 {2,D} {3,S}
 5    H   u0 {1,S}
 6    H   u0 {1,S}
-7    H   u0 {4,S}
-8    R!H u0 {4,S}
+7    H   u0 {2,S}
+8    R!H u0 {2,S}
 """,
     kinetics = None,
 )
@@ -189,14 +189,14 @@ entry(
     label = "diene_unsub_disub_out",
     group = 
 """
-1 *3 Cd  u0 {2,D} {5,S} {6,S}
-2 *4 Cd  u0 {1,D} {3,S}
-3 *5 Cd  u0 {2,S} {4,D}
-4 *6 Cd  u0 {3,D} {7,S} {8,S}
+1 *3 Cd  u0 {3,D} {5,S} {6,S}
+2 *6 Cd  u0 {4,D} {7,S} {8,S}
+3 *4 Cd  u0 {1,D} {4,S}
+4 *5 Cd  u0 {2,D} {3,S}
 5    H   u0 {1,S}
 6    H   u0 {1,S}
-7    R!H u0 {4,S}
-8    R!H u0 {4,S}
+7    R!H u0 {2,S}
+8    R!H u0 {2,S}
 """,
     kinetics = None,
 )
@@ -257,14 +257,14 @@ entry(
     label = "diene_monosub_monosub_out",
     group = 
 """
-1 *3 Cd  u0 {2,D} {5,S} {6,S}
-2 *4 Cd  u0 {1,D} {3,S}
-3 *5 Cd  u0 {2,S} {4,D}
-4 *6 Cd  u0 {3,D} {7,S} {8,S}
+1 *3 Cd  u0 {3,D} {5,S} {6,S}
+2 *6 Cd  u0 {4,D} {7,S} {8,S}
+3 *4 Cd  u0 {1,D} {4,S}
+4 *5 Cd  u0 {2,D} {3,S}
 5    H   u0 {1,S}
 6 *7 R!H u0 {1,S}
-7 *8 R!H u0 {4,S}
-8    H   u0 {4,S}
+7 *8 R!H u0 {2,S}
+8    H   u0 {2,S}
 """,
     kinetics = None,
 )
@@ -274,14 +274,14 @@ entry(
     label = "diene_monosubNd_monosubNd_out",
     group = 
 """
-1 *3 Cd       u0 {2,D} {5,S} {6,S}
-2 *4 Cd       u0 {1,D} {3,S}
-3 *5 Cd       u0 {2,S} {4,D}
-4 *6 Cd       u0 {3,D} {7,S} {8,S}
+1 *3 Cd       u0 {3,D} {5,S} {6,S}
+2 *6 Cd       u0 {4,D} {7,S} {8,S}
+3 *4 Cd       u0 {1,D} {4,S}
+4 *5 Cd       u0 {2,D} {3,S}
 5    H        u0 {1,S}
 6 *7 [Cs,O,S] u0 {1,S}
-7 *8 [Cs,O,S] u0 {4,S}
-8    H        u0 {4,S}
+7 *8 [Cs,O,S] u0 {2,S}
+8    H        u0 {2,S}
 """,
     kinetics = None,
 )
@@ -325,14 +325,14 @@ entry(
     label = "diene_monosub_disub_out",
     group = 
 """
-1 *3 Cd  u0 {2,D} {5,S} {6,S}
-2 *4 Cd  u0 {1,D} {3,S}
-3 *5 Cd  u0 {2,S} {4,D}
-4 *6 Cd  u0 {3,D} {7,S} {8,S}
+1 *3 Cd  u0 {3,D} {5,S} {6,S}
+2 *6 Cd  u0 {4,D} {7,S} {8,S}
+3 *4 Cd  u0 {1,D} {4,S}
+4 *5 Cd  u0 {2,D} {3,S}
 5    H   u0 {1,S}
 6 *7 R!H u0 {1,S}
-7 *8 R!H u0 {4,S}
-8 *9 R!H u0 {4,S}
+7 *8 R!H u0 {2,S}
+8 *9 R!H u0 {2,S}
 """,
     kinetics = None,
 )
@@ -1311,10 +1311,10 @@ entry(
     label = "allene_unsub",
     group = 
 """
-1 *1 Cdd u0 {2,D}
-2 *2 Cd  u0 {1,D} {3,S} {4,S}
-3    H   u0 {2,S}
-4    H   u0 {2,S}
+1 *2 Cd  u0 {2,D} {3,S} {4,S}
+2 *1 Cdd u0 {1,D}
+3    H   u0 {1,S}
+4    H   u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1324,10 +1324,10 @@ entry(
     label = "allene_monosub",
     group = 
 """
-1 *1 Cdd u0 {2,D}
-2 *2 Cd  u0 {1,D} {3,S} {4,S}
-3    R!H u0 {2,S}
-4    H   u0 {2,S}
+1 *2 Cd  u0 {2,D} {3,S} {4,S}
+2 *1 Cdd u0 {1,D}
+3    R!H u0 {1,S}
+4    H   u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1337,10 +1337,10 @@ entry(
     label = "allene_disub",
     group = 
 """
-1 *1 Cdd u0 {2,D}
-2 *2 Cd  u0 {1,D} {3,S} {4,S}
-3    R!H u0 {2,S}
-4    R!H u0 {2,S}
+1 *2 Cd  u0 {2,D} {3,S} {4,S}
+2 *1 Cdd u0 {1,D}
+3    R!H u0 {1,S}
+4    R!H u0 {1,S}
 """,
     kinetics = None,
 )
