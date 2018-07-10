@@ -10,8 +10,8 @@ longDesc = u"""
 template(reactants=["Y_12birad"], products=["Y_multiple_bond"], ownReverse=False)
 
 reverse = "None"
-
 reversible = False
+
 recipe(actions=[
     ['CHANGE_BOND', '*1', 1, '*2'],
     ['LOSE_RADICAL', '*1', '1'],
