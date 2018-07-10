@@ -18,12 +18,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'J. W. Allen'"", ""'C. F. Goldsmith'"", ""'W. H. Green'""],
+        authors = ["'J. W. Allen'", "'C. F. Goldsmith'", "'W. H. Green'"],
         title = 'Automatic Estimation of Pressure-Dependent Rate Coefficients',
-        journal = ""'Phys. Chem. Chem. Phys.'"",
-        volume = ""'14'"",
-        pages = ""'1131-1155'"",
-        year = ""'2012'"",
+        journal = "'Phys. Chem. Chem. Phys.'",
+        volume = "'14'",
+        pages = "'1131-1155'",
+        year = "'2012'",
     ),
     referenceType = "theory",
     rank = 10,
@@ -48,12 +48,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'E. E. Dames'"", ""'W. H. Green'""],
+        authors = ["'E. E. Dames'", "'W. H. Green'"],
         title = 'THE EFFECT OF ALCOHOL AND CARBONYL FUNCTIONAL GROUPS ON THE COMPETITION BETWEEN UNIMOLECULAR DECOMPOSITION AND ISOMERIZATION IN C 1 -C 5 ALKOXY RADICALS',
-        journal = ""'Intl. J. Chem. Kin.'"",
-        volume = ""'48(9)'"",
-        pages = ""'544-555'"",
-        year = ""'2016'"",
+        journal = "'Intl. J. Chem. Kin.'",
+        volume = "'48(9)'",
+        pages = "'544-555'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 10,
@@ -78,12 +78,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'E. E. Dames'"", ""'W. H. Green'""],
+        authors = ["'E. E. Dames'", "'W. H. Green'"],
         title = 'THE EFFECT OF ALCOHOL AND CARBONYL FUNCTIONAL GROUPS ON THE COMPETITION BETWEEN UNIMOLECULAR DECOMPOSITION AND ISOMERIZATION IN C 1 -C 5 ALKOXY RADICALS',
-        journal = ""'Intl. J. Chem. Kin.'"",
-        volume = ""'48(9)'"",
-        pages = ""'544-555'"",
-        year = ""'2016'"",
+        journal = "'Intl. J. Chem. Kin.'",
+        volume = "'48(9)'",
+        pages = "'544-555'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 10,
@@ -486,12 +486,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.107e+09, 's^-1'), n=0.879, Ea=(22.386, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Krasnoukhov, V. S.'"", ""'Porfiriev, D. P.'"", ""'Zavershinskiy, I. P.'"", ""'Azyazov, V. N.'"", ""'Mebel, A. M.'""],
+        authors = ["'Krasnoukhov, V. S.'", "'Porfiriev, D. P.'", "'Zavershinskiy, I. P.'", "'Azyazov, V. N.'", "'Mebel, A. M.'"],
         title = 'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'121 (48)'"",
-        pages = ""'9191-9200'"",
-        year = ""'2017'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'121 (48)'",
+        pages = "'9191-9200'",
+        year = "'2017'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -728,12 +728,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.169e+11, 's^-1'), n=0.707, Ea=(27.741, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Krasnoukhov, V. S.'"", ""'Porfiriev, D. P.'"", ""'Zavershinskiy, I. P.'"", ""'Azyazov, V. N.'"", ""'Mebel, A. M.'""],
+        authors = ["'Krasnoukhov, V. S.'", "'Porfiriev, D. P.'", "'Zavershinskiy, I. P.'", "'Azyazov, V. N.'", "'Mebel, A. M.'"],
         title = 'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'121 (48)'"",
-        pages = ""'9191-9200'"",
-        year = ""'2017'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'121 (48)'",
+        pages = "'9191-9200'",
+        year = "'2017'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -1178,12 +1178,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.72e+06, 's^-1'), n=1.99, Ea=(27.2, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1203,12 +1203,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(25000, 's^-1'), n=2.28, Ea=(28.5, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1228,12 +1228,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(42200, 's^-1'), n=1.93, Ea=(13.5, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1253,12 +1253,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(15400, 's^-1'), n=1.87, Ea=(7.3, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1278,12 +1278,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1160, 's^-1'), n=1.94, Ea=(6.6, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1303,12 +1303,12 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(32400, 's^-1'), n=2.04, Ea=(19.7, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1328,12 +1328,12 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(6900, 's^-1'), n=1.98, Ea=(10.2, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1353,12 +1353,12 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(312, 's^-1'), n=2.1, Ea=(10.7, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1378,12 +1378,12 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(121000, 's^-1'), n=1.9, Ea=(13.3, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1404,12 +1404,12 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(8010, 's^-1'), n=1.94, Ea=(13.3, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1430,12 +1430,12 @@ entry(
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(20800, 's^-1'), n=2.49, Ea=(43.1, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1455,12 +1455,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(256000, 's^-1'), n=2, Ea=(28.1, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1480,12 +1480,12 @@ entry(
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(4.44e+06, 's^-1'), n=1.64, Ea=(24, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1505,12 +1505,12 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(235500, 's^-1'), n=2.44, Ea=(51.6, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1530,12 +1530,12 @@ entry(
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(103200, 's^-1'), n=2.04, Ea=(25.3, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1555,12 +1555,12 @@ entry(
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(18840, 's^-1'), n=1.93, Ea=(16.2, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1580,12 +1580,12 @@ entry(
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(113.6, 's^-1'), n=2.07, Ea=(15.1, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1605,12 +1605,12 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(800000, 's^-1'), n=1.81, Ea=(35.8, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1630,12 +1630,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(252000, 's^-1'), n=1.85, Ea=(21.1, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1655,12 +1655,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(10940, 's^-1'), n=1.94, Ea=(20.9, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1680,12 +1680,12 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(63300, 's^-1'), n=1.92, Ea=(21.3, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1705,12 +1705,12 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(7.05e+06, 's^-1'), n=1.81, Ea=(37.1, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1730,12 +1730,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(6.48e+07, 's^-1'), n=1.57, Ea=(35.3, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1755,12 +1755,12 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(88500, 's^-1'), n=2.17, Ea=(35.4, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1780,12 +1780,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.064e+06, 's^-1'), n=1.93, Ea=(33.8, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1805,12 +1805,12 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(114000, 's^-1'), n=1.74, Ea=(19.8, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1830,12 +1830,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(754000, 's^-1'), n=1.63, Ea=(17.9, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1855,12 +1855,12 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(68850, 's^-1'), n=1.68, Ea=(12.6, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1880,12 +1880,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(262000, 's^-1'), n=1.62, Ea=(11.1, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1905,12 +1905,12 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(3690, 's^-1'), n=1.79, Ea=(11.9, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1930,12 +1930,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(25800, 's^-1'), n=1.67, Ea=(10.2, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1955,12 +1955,12 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(64.2, 's^-1'), n=2.1, Ea=(15.1, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -1980,12 +1980,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1062, 's^-1'), n=1.81, Ea=(13.2, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Kun Wang'"", ""'Stephanie M. Villano'"", ""'Anthony M. Dean'""],
+        authors = ["'Kun Wang'", "'Stephanie M. Villano'", "'Anthony M. Dean'"],
         title = 'The Impact of Resonance Stabilization on the Intramolecular H-atom Shift Reactions of Hydrocarbon Radicals',
-        journal = ""'Chemphyschem'"",
-        volume = ""'16'"",
-        pages = ""'2635-2645'"",
-        year = ""'2015'"",
+        journal = "'Chemphyschem'",
+        volume = "'16'",
+        pages = "'2635-2645'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -2018,12 +2018,12 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(3.992e-05, 's^-1'), n=4.805, Ea=(56.041, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ["'Ribeiro, J. M.'", "'Mebel, A. M.'"],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19 (22)'",
+        pages = "'14543-14554'",
+        year = "'2017'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -2039,12 +2039,12 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(606700, 's^-1'), n=2.347, Ea=(51.259, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ["'Ribeiro, J. M.'", "'Mebel, A. M.'"],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19 (22)'",
+        pages = "'14543-14554'",
+        year = "'2017'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -2060,12 +2060,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(5.471e+06, 's^-1'), n=1.841, Ea=(29.797, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ["'Ribeiro, J. M.'", "'Mebel, A. M.'"],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19 (22)'",
+        pages = "'14543-14554'",
+        year = "'2017'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -2081,12 +2081,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(481900, 's^-1'), n=2.375, Ea=(40.143, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ["'Ribeiro, J. M.'", "'Mebel, A. M.'"],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19 (22)'",
+        pages = "'14543-14554'",
+        year = "'2017'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -2102,12 +2102,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.005931, 's^-1'), n=4.271, Ea=(56.912, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ["'Ribeiro, J. M.'", "'Mebel, A. M.'"],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19 (22)'",
+        pages = "'14543-14554'",
+        year = "'2017'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -2123,12 +2123,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.63e+08, 's^-1'), n=1.73, Ea=(49.649, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ["'Ribeiro, J. M.'", "'Mebel, A. M.'"],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19 (22)'",
+        pages = "'14543-14554'",
+        year = "'2017'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -2144,12 +2144,12 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(5.11e+06, 's^-1'), n=1.95, Ea=(42.693, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ["'Ribeiro, J. M.'", "'Mebel, A. M.'"],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19 (22)'",
+        pages = "'14543-14554'",
+        year = "'2017'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -2165,12 +2165,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.189e+07, 's^-1'), n=1.951, Ea=(50.732, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ["'Ribeiro, J. M.'", "'Mebel, A. M.'"],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19 (22)'",
+        pages = "'14543-14554'",
+        year = "'2017'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -2186,12 +2186,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(74200, 's^-1'), n=2.23, Ea=(10.59, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'da Silva, G.'"", ""'Cole, J. A.'"", ""'Bozzelli, J. W.'""],
+        authors = ["'da Silva, G.'", "'Cole, J. A.'", "'Bozzelli, J. W.'"],
         title = 'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'114 (6)'"",
-        pages = ""'2275-2283'"",
-        year = ""'2010'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'114 (6)'",
+        pages = "'2275-2283'",
+        year = "'2010'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -2207,12 +2207,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(11700, 's^-1'), n=2.78, Ea=(62.71, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'da Silva, G.'"", ""'Cole, J. A.'"", ""'Bozzelli, J. W.'""],
+        authors = ["'da Silva, G.'", "'Cole, J. A.'", "'Bozzelli, J. W.'"],
         title = 'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'114 (6)'"",
-        pages = ""'2275-2283'"",
-        year = ""'2010'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'114 (6)'",
+        pages = "'2275-2283'",
+        year = "'2010'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -2228,12 +2228,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.48e+06, 's^-1'), n=1.85, Ea=(26.83, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'da Silva, G.'"", ""'Cole, J. A.'"", ""'Bozzelli, J. W.'""],
+        authors = ["'da Silva, G.'", "'Cole, J. A.'", "'Bozzelli, J. W.'"],
         title = 'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'114 (6)'"",
-        pages = ""'2275-2283'"",
-        year = ""'2010'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'114 (6)'",
+        pages = "'2275-2283'",
+        year = "'2010'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -7072,6 +7072,1714 @@ u"""
 Degeneracy not recalculated
 
 Converted to training reaction from rate rule: R2H_D;Cd_rad_out_singleH;Cd_H_out_singleDe
+""",
+)
+
+entry(
+    index = 351,
+    label = "C[CH2] <=> C[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.48e+08, 's^-1'),
+        n = 1.62,
+        Ea = (162.172, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 11,
+    shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
+    longDesc = 
+u"""
+[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
+Currans's estimation in his reaction type 5. C7H15
+
+Checked by Paul Green.
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R2H_S;C_rad_out_single;Cs_H_out_2H
+""",
+)
+
+entry(
+    index = 352,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.39e+09, 's^-1'),
+        n = 0.98,
+        Ea = (141.252, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 11,
+    shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
+    longDesc = 
+u"""
+[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
+Currans's estimation in his reaction type 5. C7H15
+
+Checked By Paul Green
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS;C_rad_out_single;Cs_H_out_2H
+""",
+)
+
+entry(
+    index = 353,
+    label = "CCC[CH2]-2 <=> CCC[CH2]-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.54e+09, 's^-1'),
+        n = 0.35,
+        Ea = (82.6758, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 11,
+    shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
+    longDesc = 
+u"""
+[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
+Currans's estimation in his reaction type 5. C7H15
+
+Checked By Paul Green.
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R4H_SSS;C_rad_out_single;Cs_H_out_2H
+""",
+)
+
+entry(
+    index = 354,
+    label = "CCCC[CH2]-2 <=> CCCC[CH2]-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.28e+11, 's^-1'),
+        n = -1.05,
+        Ea = (49.2038, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 11,
+    shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
+    longDesc = 
+u"""
+[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
+Currans's estimation in his reaction type 5. C7H15
+
+Checked By Paul Green
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R5H_SSSS;C_rad_out_single;Cs_H_out_2H
+""",
+)
+
+entry(
+    index = 355,
+    label = "C[CH2] <=> C[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.45e+09, 's^-1'),
+        n = 1.12,
+        Ea = (161.921, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;Cs_H_out_2H
+""",
+)
+
+entry(
+    index = 356,
+    label = "C6H13-6 <=> C6H13-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.28e+10, 's^-1'),
+        n = 0.97,
+        Ea = (161.084, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R2H_S;C_rad_out_Cs2;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 357,
+    label = "C4H9-6 <=> C4H9-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.38e+09, 's^-1'),
+        n = 0.88,
+        Ea = (158.992, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R2H_S;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 358,
+    label = "C2H3 <=> C2H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (7.28e+10, 's^-1'),
+        n = 0.86,
+        Ea = (191.209, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R2H_D;Cd_rad_out_singleH;Cd_H_out_singleH
+""",
+)
+
+entry(
+    index = 359,
+    label = "C4H7-10 <=> C4H7-10",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.94e+11, 's^-1'),
+        n = 0.69,
+        Ea = (186.606, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R2H_D;Cd_rad_out_singleNd;Cd_H_out_singleNd
+""",
+)
+
+entry(
+    index = 360,
+    label = "C[CH2] <=> C[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.25e+11, 's^-1'),
+        n = 0.6,
+        Ea = (184.096, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R2H_S_cy3;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 361,
+    label = "C[CH2] <=> C[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.72e+12, 's^-1'),
+        n = 0.37,
+        Ea = (174.054, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R2H_S_cy3;C_rad_out_H/NonDeC;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 362,
+    label = "C[CH2] <=> C[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.69e+11, 's^-1'),
+        n = 0.51,
+        Ea = (181.167, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R2H_S_cy3;C_rad_out_Cs2;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 363,
+    label = "C[CH2] <=> C[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.56e+12, 's^-1'),
+        n = 0.24,
+        Ea = (163.176, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R2H_S_cy4;C_rad_out_H/NonDeC;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 364,
+    label = "C[CH2] <=> C[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.49e+10, 's^-1'),
+        n = 0.79,
+        Ea = (178.238, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R2H_S_cy4;C_rad_out_Cs2;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 365,
+    label = "C[CH2] <=> C[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.71e+11, 's^-1'),
+        n = 0.61,
+        Ea = (175.31, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R2H_S_cy5;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 366,
+    label = "C[CH2] <=> C[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.72e+12, 's^-1'),
+        n = 0.26,
+        Ea = (164.013, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R2H_S_cy5;C_rad_out_H/NonDeC;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 367,
+    label = "C[CH2] <=> C[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.88e+11, 's^-1'),
+        n = 0.51,
+        Ea = (174.473, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R2H_S_cy5;C_rad_out_Cs2;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 368,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.76e+08, 's^-1'),
+        n = 1.17,
+        Ea = (153.553, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS;C_rad_out_2H;Cs_H_out_2H
+""",
+)
+
+entry(
+    index = 369,
+    label = "C5H11-7 <=> C5H11-7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.5e+08, 's^-1'),
+        n = 1.01,
+        Ea = (152.298, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 370,
+    label = "C7H15-2 <=> C7H15-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.78e+08, 's^-1'),
+        n = 1,
+        Ea = (147.695, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS;C_rad_out_Cs2;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 371,
+    label = "C:C(C)[CH2] <=> C:C(C)[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.93e+09, 's^-1'),
+        n = 1.26,
+        Ea = (221.334, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_2Cd;C_rad_out_2H;Cs_H_out_2H
+""",
+)
+
+entry(
+    index = 372,
+    label = "C6H11-24 <=> C6H11-24",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.21e+10, 's^-1'),
+        n = 0.91,
+        Ea = (205.016, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_2Cd;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 373,
+    label = "C8H15-8 <=> C8H15-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.76e+09, 's^-1'),
+        n = 1.18,
+        Ea = (183.259, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_2Cd;C_rad_out_Cs2;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 374,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.62e+10, 's^-1'),
+        n = 0.69,
+        Ea = (146.858, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_12cy3;C_rad_out_H/NonDeC;Cs_H_out_2H
+""",
+)
+
+entry(
+    index = 375,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.04e+10, 's^-1'),
+        n = 0.71,
+        Ea = (146.022, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_23cy3;C_rad_out_2H;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 376,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.16e+11, 's^-1'),
+        n = 0.26,
+        Ea = (140.164, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_12cy3;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 377,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.63e+08, 's^-1'),
+        n = 1.01,
+        Ea = (189.954, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_23cy3;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 378,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.26e+13, 's^-1'),
+        n = 0.26,
+        Ea = (134.306, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_12cy3;C_rad_out_H/NonDeC;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 379,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.68e+07, 's^-1'),
+        n = 1.42,
+        Ea = (193.719, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_23cy3;C_rad_out_Cs2;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 380,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.9e+10, 's^-1'),
+        n = 0.57,
+        Ea = (166.523, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_12cy4;C_rad_out_H/NonDeC;Cs_H_out_2H
+""",
+)
+
+entry(
+    index = 381,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.43e+09, 's^-1'),
+        n = 0.93,
+        Ea = (160.247, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_23cy4;C_rad_out_2H;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 382,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.9e+11, 's^-1'),
+        n = 0.27,
+        Ea = (158.574, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_12cy4;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 383,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.59e+08, 's^-1'),
+        n = 1.2,
+        Ea = (166.105, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_23cy4;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 384,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.63e+12, 's^-1'),
+        n = -0.04,
+        Ea = (154.808, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_12cy4;C_rad_out_H/NonDeC;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 385,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.19e+07, 's^-1'),
+        n = 1.55,
+        Ea = (167.778, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_23cy4;C_rad_out_Cs2;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 386,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.85e+10, 's^-1'),
+        n = 0.6,
+        Ea = (170.707, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_12cy5;C_rad_out_H/NonDeC;Cs_H_out_2H
+""",
+)
+
+entry(
+    index = 387,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.25e+09, 's^-1'),
+        n = 0.99,
+        Ea = (145.603, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_23cy5;C_rad_out_2H;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 388,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.67e+11, 's^-1'),
+        n = 0.29,
+        Ea = (159.829, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_12cy5;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 389,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.42e+08, 's^-1'),
+        n = 1.14,
+        Ea = (150.624, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_23cy5;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 390,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (9.42e+11, 's^-1'),
+        n = 0.12,
+        Ea = (156.482, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_12cy5;C_rad_out_H/NonDeC;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 391,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.58e+06, 's^-1'),
+        n = 1.78,
+        Ea = (166.105, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_23cy5;C_rad_out_Cs2;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 392,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.64e+09, 's^-1'),
+        n = 0.84,
+        Ea = (27.196, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_12cy3;C_rad_out_Cs2;Cs_H_out_2H
+""",
+)
+
+entry(
+    index = 393,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.02e+10, 's^-1'),
+        n = 0.56,
+        Ea = (178.657, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_23cy3;C_rad_out_2H;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 394,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.22e+11, 's^-1'),
+        n = 0.4,
+        Ea = (145.603, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_12cy3;C_rad_out_Cs2;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 395,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.34e+09, 's^-1'),
+        n = 0.81,
+        Ea = (182.422, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_23cy3;C_rad_out_H/NonDeC;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 396,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.72e+12, 's^-1'),
+        n = -0.04,
+        Ea = (139.746, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_12cy3;C_rad_out_Cs2;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 397,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.61e+08, 's^-1'),
+        n = 1.26,
+        Ea = (175.728, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_23cy3;C_rad_out_Cs2;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 398,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.78e+11, 's^-1'),
+        n = 0.29,
+        Ea = (227.191, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_13cy4;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 399,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.48e+10, 's^-1'),
+        n = 0.6,
+        Ea = (228.446, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_13cy4;C_rad_out_Cs2;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 400,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.66e+12, 's^-1'),
+        n = 0,
+        Ea = (215.058, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_13cy4;C_rad_out_H/NonDeC;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 401,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.55e+11, 's^-1'),
+        n = 0.37,
+        Ea = (216.313, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_13cy4;C_rad_out_Cs2;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 402,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.36e+11, 's^-1'),
+        n = 0.46,
+        Ea = (197.485, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_13cy5;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 403,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.72e+09, 's^-1'),
+        n = 0.86,
+        Ea = (197.485, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_13cy5;C_rad_out_Cs2;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 404,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.1e+12, 's^-1'),
+        n = 0.23,
+        Ea = (185.77, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_13cy5;C_rad_out_H/NonDeC;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 405,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.07e+10, 's^-1'),
+        n = 0.62,
+        Ea = (181.586, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_13cy5;C_rad_out_Cs2;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 406,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.84e+09, 's^-1'),
+        n = 1.05,
+        Ea = (171.962, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_12cy5;C_rad_out_Cs2;Cs_H_out_2H
+""",
+)
+
+entry(
+    index = 407,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.51e+09, 's^-1'),
+        n = 0.86,
+        Ea = (140.164, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_23cy5;C_rad_out_2H;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 408,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.04e+09, 's^-1'),
+        n = 0.74,
+        Ea = (162.339, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_12cy5;C_rad_out_Cs2;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 409,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.95e+09, 's^-1'),
+        n = 0.88,
+        Ea = (146.858, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_23cy5;C_rad_out_H/NonDeC;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 410,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.44e+10, 's^-1'),
+        n = 0.74,
+        Ea = (156.9, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_12cy5;C_rad_out_Cs2;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 411,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.85e+07, 's^-1'),
+        n = 1.46,
+        Ea = (152.298, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_23cy5;C_rad_out_Cs2;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 412,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.28e+08, 's^-1'),
+        n = 1.07,
+        Ea = (170.289, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_12cy4;C_rad_out_Cs2;Cs_H_out_2H
+""",
+)
+
+entry(
+    index = 413,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.93e+10, 's^-1'),
+        n = 0.75,
+        Ea = (152.716, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_23cy4;C_rad_out_2H;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 414,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.41e+09, 's^-1'),
+        n = 0.77,
+        Ea = (162.339, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_12cy4;C_rad_out_Cs2;Cs_H_out_H/NonDeC
+""",
+)
+
+entry(
+    index = 415,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.96e+09, 's^-1'),
+        n = 0.96,
+        Ea = (160.666, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_23cy4;C_rad_out_H/NonDeC;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 416,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.37e+10, 's^-1'),
+        n = 0.62,
+        Ea = (157.318, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_12cy4;C_rad_out_Cs2;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 417,
+    label = "CC[CH2] <=> CC[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.96e+07, 's^-1'),
+        n = 1.46,
+        Ea = (164.85, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    longDesc = 
+u"""
+Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R3H_SS_23cy4;C_rad_out_Cs2;Cs_H_out_Cs2
+""",
+)
+
+entry(
+    index = 418,
+    label = "CCCCC[CH2]-2 <=> CCCCC[CH2]-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (10500, 's^-1'),
+        n = 2.14,
+        Ea = (66.8185, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 11,
+    shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R6H_SSSSS_bicyclopentane;C_rad_out_H/NonDeC;Cs_H_out_H/OneDe
+""",
+)
+
+entry(
+    index = 419,
+    label = "CC:C[CH2] <=> CC:C[CH2]",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1e+10, 's^-1'),
+        n = 0,
+        Ea = (418.4, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 11,
+    shortDesc = u"""estimate""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R4H_SMS;Y_rad_out;XH_out
+""",
+)
+
+entry(
+    index = 420,
+    label = "CCCCC[CH2]-2 <=> CCCCC[CH2]-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.28e+11, 's^-1'),
+        n = -1.05,
+        Ea = (49.2038, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 11,
+    shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R6H_SSSSS;C_rad_out_single;Cs_H_out_2H
+""",
+)
+
+entry(
+    index = 421,
+    label = "CCC[CH2]-2 <=> CCC[CH2]-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1e-10, 's^-1'),
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Aaron Vandeputte guess""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: R4H_MMS;Cd_rad_out;Cs_H_out
 """,
 )
 
