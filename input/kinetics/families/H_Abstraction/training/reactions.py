@@ -4239,12 +4239,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Li, S.-H.'"", ""'Guo, J.-J.'"", ""'Li, R.'"", ""'Wang, F.'"", ""'Li, X.-Y.'""],
+        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'120 (20)'"",
-        pages = ""'3424-3432'"",
-        year = ""'2016'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'120 (20)'",
+        pages = "'3424-3432'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -4265,12 +4265,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Li, S.-H.'"", ""'Guo, J.-J.'"", ""'Li, R.'"", ""'Wang, F.'"", ""'Li, X.-Y.'""],
+        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'120 (20)'"",
-        pages = ""'3424-3432'"",
-        year = ""'2016'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'120 (20)'",
+        pages = "'3424-3432'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -4940,12 +4940,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Narendrapurapu, B. S.'"", ""'Simmonett, A. C.'"", ""'Schaefer, H. F.'"", ""'Miller, J. A.'"", ""'Klippenstein, S. J.'""],
+        authors = ["'Narendrapurapu, B. S.'", "'Simmonett, A. C.'", "'Schaefer, H. F.'", "'Miller, J. A.'", "'Klippenstein, S. J.'"],
         title = 'Combustion Chemistry: Important Features of the C3H5 Potential Energy Surface, Including Allyl Radical, Propargyl + H2, Allene + H, and Eight Transition States',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'115 (49)'"",
-        pages = ""'14209-14214'"",
-        year = ""'2011'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'115 (49)'",
+        pages = "'14209-14214'",
+        year = "'2011'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -4966,12 +4966,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Narendrapurapu, B. S.'"", ""'Simmonett, A. C.'"", ""'Schaefer, H. F.'"", ""'Miller, J. A.'"", ""'Klippenstein, S. J.'""],
+        authors = ["'Narendrapurapu, B. S.'", "'Simmonett, A. C.'", "'Schaefer, H. F.'", "'Miller, J. A.'", "'Klippenstein, S. J.'"],
         title = 'Combustion Chemistry: Important Features of the C3H5 Potential Energy Surface, Including Allyl Radical, Propargyl + H2, Allene + H, and Eight Transition States',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'115 (49)'"",
-        pages = ""'14209-14214'"",
-        year = ""'2011'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'115 (49)'",
+        pages = "'14209-14214'",
+        year = "'2011'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -4992,12 +4992,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Narendrapurapu, B. S.'"", ""'Simmonett, A. C.'"", ""'Schaefer, H. F.'"", ""'Miller, J. A.'"", ""'Klippenstein, S. J.'""],
+        authors = ["'Narendrapurapu, B. S.'", "'Simmonett, A. C.'", "'Schaefer, H. F.'", "'Miller, J. A.'", "'Klippenstein, S. J.'"],
         title = 'Combustion Chemistry: Important Features of the C3H5 Potential Energy Surface, Including Allyl Radical, Propargyl + H2, Allene + H, and Eight Transition States',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'115 (49)'"",
-        pages = ""'14209-14214'"",
-        year = ""'2011'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'115 (49)'",
+        pages = "'14209-14214'",
+        year = "'2011'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5018,12 +5018,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Narendrapurapu, B. S.'"", ""'Simmonett, A. C.'"", ""'Schaefer, H. F.'"", ""'Miller, J. A.'"", ""'Klippenstein, S. J.'""],
+        authors = ["'Narendrapurapu, B. S.'", "'Simmonett, A. C.'", "'Schaefer, H. F.'", "'Miller, J. A.'", "'Klippenstein, S. J.'"],
         title = 'Combustion Chemistry: Important Features of the C3H5 Potential Energy Surface, Including Allyl Radical, Propargyl + H2, Allene + H, and Eight Transition States',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'115 (49)'"",
-        pages = ""'14209-14214'"",
-        year = ""'2011'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'115 (49)'",
+        pages = "'14209-14214'",
+        year = "'2011'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5147,12 +5147,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Zador, J.'"", ""'Miller, J. A.'""],
+        authors = ["'Zador, J.'", "'Miller, J. A.'"],
         title = 'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
-        journal = ""'Proceedings of the Combustion Institute'"",
-        volume = ""'35 (1)'"",
-        pages = ""'181-188'"",
-        year = ""'2015'"",
+        journal = "'Proceedings of the Combustion Institute'",
+        volume = "'35 (1)'",
+        pages = "'181-188'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5173,12 +5173,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Zador, J.'"", ""'Miller, J. A.'""],
+        authors = ["'Zador, J.'", "'Miller, J. A.'"],
         title = 'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
-        journal = ""'Proceedings of the Combustion Institute'"",
-        volume = ""'35 (1)'"",
-        pages = ""'181-188'"",
-        year = ""'2015'"",
+        journal = "'Proceedings of the Combustion Institute'",
+        volume = "'35 (1)'",
+        pages = "'181-188'",
+        year = "'2015'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5199,12 +5199,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Li, S.-H.'"", ""'Guo, J.-J.'"", ""'Li, R.'"", ""'Wang, F.'"", ""'Li, X.-Y.'""],
+        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'120 (20)'"",
-        pages = ""'3424-3432'"",
-        year = ""'2016'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'120 (20)'",
+        pages = "'3424-3432'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5225,12 +5225,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Li, S.-H.'"", ""'Guo, J.-J.'"", ""'Li, R.'"", ""'Wang, F.'"", ""'Li, X.-Y.'""],
+        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'120 (20)'"",
-        pages = ""'3424-3432'"",
-        year = ""'2016'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'120 (20)'",
+        pages = "'3424-3432'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5251,12 +5251,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Li, S.-H.'"", ""'Guo, J.-J.'"", ""'Li, R.'"", ""'Wang, F.'"", ""'Li, X.-Y.'""],
+        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'120 (20)'"",
-        pages = ""'3424-3432'"",
-        year = ""'2016'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'120 (20)'",
+        pages = "'3424-3432'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5277,12 +5277,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Li, S.-H.'"", ""'Guo, J.-J.'"", ""'Li, R.'"", ""'Wang, F.'"", ""'Li, X.-Y.'""],
+        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'120 (20)'"",
-        pages = ""'3424-3432'"",
-        year = ""'2016'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'120 (20)'",
+        pages = "'3424-3432'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5303,12 +5303,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Li, S.-H.'"", ""'Guo, J.-J.'"", ""'Li, R.'"", ""'Wang, F.'"", ""'Li, X.-Y.'""],
+        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'120 (20)'"",
-        pages = ""'3424-3432'"",
-        year = ""'2016'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'120 (20)'",
+        pages = "'3424-3432'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5329,12 +5329,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Li, S.-H.'"", ""'Guo, J.-J.'"", ""'Li, R.'"", ""'Wang, F.'"", ""'Li, X.-Y.'""],
+        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'120 (20)'"",
-        pages = ""'3424-3432'"",
-        year = ""'2016'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'120 (20)'",
+        pages = "'3424-3432'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5355,12 +5355,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Li, S.-H.'"", ""'Guo, J.-J.'"", ""'Li, R.'"", ""'Wang, F.'"", ""'Li, X.-Y.'""],
+        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'120 (20)'"",
-        pages = ""'3424-3432'"",
-        year = ""'2016'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'120 (20)'",
+        pages = "'3424-3432'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5381,12 +5381,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Li, S.-H.'"", ""'Guo, J.-J.'"", ""'Li, R.'"", ""'Wang, F.'"", ""'Li, X.-Y.'""],
+        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'120 (20)'"",
-        pages = ""'3424-3432'"",
-        year = ""'2016'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'120 (20)'",
+        pages = "'3424-3432'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5407,12 +5407,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Li, S.-H.'"", ""'Guo, J.-J.'"", ""'Li, R.'"", ""'Wang, F.'"", ""'Li, X.-Y.'""],
+        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'120 (20)'"",
-        pages = ""'3424-3432'"",
-        year = ""'2016'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'120 (20)'",
+        pages = "'3424-3432'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5433,12 +5433,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Li, S.-H.'"", ""'Guo, J.-J.'"", ""'Li, R.'"", ""'Wang, F.'"", ""'Li, X.-Y.'""],
+        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'120 (20)'"",
-        pages = ""'3424-3432'"",
-        year = ""'2016'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'120 (20)'",
+        pages = "'3424-3432'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5459,12 +5459,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Li, S.-H.'"", ""'Guo, J.-J.'"", ""'Li, R.'"", ""'Wang, F.'"", ""'Li, X.-Y.'""],
+        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'120 (20)'"",
-        pages = ""'3424-3432'"",
-        year = ""'2016'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'120 (20)'",
+        pages = "'3424-3432'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5485,12 +5485,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Li, S.-H.'"", ""'Guo, J.-J.'"", ""'Li, R.'"", ""'Wang, F.'"", ""'Li, X.-Y.'""],
+        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'120 (20)'"",
-        pages = ""'3424-3432'"",
-        year = ""'2016'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'120 (20)'",
+        pages = "'3424-3432'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5511,12 +5511,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Li, S.-H.'"", ""'Guo, J.-J.'"", ""'Li, R.'"", ""'Wang, F.'"", ""'Li, X.-Y.'""],
+        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'120 (20)'"",
-        pages = ""'3424-3432'"",
-        year = ""'2016'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'120 (20)'",
+        pages = "'3424-3432'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5537,12 +5537,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Li, S.-H.'"", ""'Guo, J.-J.'"", ""'Li, R.'"", ""'Wang, F.'"", ""'Li, X.-Y.'""],
+        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'120 (20)'"",
-        pages = ""'3424-3432'"",
-        year = ""'2016'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'120 (20)'",
+        pages = "'3424-3432'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5563,12 +5563,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Li, S.-H.'"", ""'Guo, J.-J.'"", ""'Li, R.'"", ""'Wang, F.'"", ""'Li, X.-Y.'""],
+        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'120 (20)'"",
-        pages = ""'3424-3432'"",
-        year = ""'2016'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'120 (20)'",
+        pages = "'3424-3432'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5589,12 +5589,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Li, S.-H.'"", ""'Guo, J.-J.'"", ""'Li, R.'"", ""'Wang, F.'"", ""'Li, X.-Y.'""],
+        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'120 (20)'"",
-        pages = ""'3424-3432'"",
-        year = ""'2016'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'120 (20)'",
+        pages = "'3424-3432'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5615,12 +5615,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Li, S.-H.'"", ""'Guo, J.-J.'"", ""'Li, R.'"", ""'Wang, F.'"", ""'Li, X.-Y.'""],
+        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'120 (20)'"",
-        pages = ""'3424-3432'"",
-        year = ""'2016'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'120 (20)'",
+        pages = "'3424-3432'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5641,12 +5641,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Li, S.-H.'"", ""'Guo, J.-J.'"", ""'Li, R.'"", ""'Wang, F.'"", ""'Li, X.-Y.'""],
+        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'120 (20)'"",
-        pages = ""'3424-3432'"",
-        year = ""'2016'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'120 (20)'",
+        pages = "'3424-3432'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 4,
@@ -5667,12 +5667,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Semenikhin, A. S.'"", ""'Savchenkova, A. S.'"", ""'Chechet, I. V.'"", ""'Matveev, S. G.'"", ""'Liu, Z.'"", ""'Frenklach, M.'"", ""'Mebel, A. M.'""],
+        authors = ["'Semenikhin, A. S.'", "'Savchenkova, A. S.'", "'Chechet, I. V.'", "'Matveev, S. G.'", "'Liu, Z.'", "'Frenklach, M.'", "'Mebel, A. M.'"],
         title = 'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (37)'"",
-        pages = ""'25401-25413'"",
-        year = ""'2017'"",
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19 (37)'",
+        pages = "'25401-25413'",
+        year = "'2017'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -5693,12 +5693,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Violi, A.'"", ""'Truong, T. N.'"", ""'Sarofim, A. F.'""],
+        authors = ["'Violi, A.'", "'Truong, T. N.'", "'Sarofim, A. F.'"],
         title = 'Kinetics of Hydrogen Abstraction Reactions from Polycyclic Aromatic Hydrocarbons by H Atoms',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'108 (22)'"",
-        pages = ""'4846-4852'"",
-        year = ""'2004'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'108 (22)'",
+        pages = "'4846-4852'",
+        year = "'2004'",
     ),
     referenceType = "theory",
     rank = 9,
@@ -5719,12 +5719,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Seta, T.'"", ""'Nakajima, M.'"", ""'Miyoshi, A.'""],
+        authors = ["'Seta, T.'", "'Nakajima, M.'", "'Miyoshi, A.'"],
         title = 'High-Temperature Reactions of OH Radicals with Benzene and Toluene',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'110 (15)'"",
-        pages = ""'5081-5090'"",
-        year = ""'2006'"",
+        journal = "'The Journal of Physical Chemistry A'",
+        volume = "'110 (15)'",
+        pages = "'5081-5090'",
+        year = "'2006'",
     ),
     referenceType = "theory",
     rank = 1,
@@ -5745,12 +5745,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Mai, T. V. T.'"", ""'Ratkiewicz, A.'"", ""'Duong, M. v.'"", ""'Huynh, L. K.'""],
+        authors = ["'Mai, T. V. T.'", "'Ratkiewicz, A.'", "'Duong, M. v.'", "'Huynh, L. K.'"],
         title = 'Direct ab initio study of the C6H6+CH3/C2H5=C6H5+CH4/C2H6 reactions',
-        journal = ""'Chemical Physics Letters'"",
-        volume = ""'646'"",
-        pages = ""'102-109'"",
-        year = ""'2016'"",
+        journal = "'Chemical Physics Letters'",
+        volume = "'646'",
+        pages = "'102-109'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -5771,12 +5771,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Mai, T. V. T.'"", ""'Ratkiewicz, A.'"", ""'Duong, M. v.'"", ""'Huynh, L. K.'""],
+        authors = ["'Mai, T. V. T.'", "'Ratkiewicz, A.'", "'Duong, M. v.'", "'Huynh, L. K.'"],
         title = 'Direct ab initio study of the C6H6+CH3/C2H5=C6H5+CH4/C2H6 reactions',
-        journal = ""'Chemical Physics Letters'"",
-        volume = ""'646'"",
-        pages = ""'102-109'"",
-        year = ""'2016'"",
+        journal = "'Chemical Physics Letters'",
+        volume = "'646'",
+        pages = "'102-109'",
+        year = "'2016'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -5797,12 +5797,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Semenikhin, A. S.'"", ""'Savchenkova, A. S.'"", ""'Chechet, I. V.'"", ""'Matveev, S. G.'"", ""'Liu, Z.'"", ""'Frenklach, M.'"", ""'Mebel, A. M.'""],
+        authors = ["'Semenikhin, A. S.'", "'Savchenkova, A. S.'", "'Chechet, I. V.'", "'Matveev, S. G.'", "'Liu, Z.'", "'Frenklach, M.'", "'Mebel, A. M.'"],
         title = 'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (37)'"",
-        pages = ""'25401-25413'"",
-        year = ""'2017'"",
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19 (37)'",
+        pages = "'25401-25413'",
+        year = "'2017'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -5823,12 +5823,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Semenikhin, A. S.'"", ""'Savchenkova, A. S.'"", ""'Chechet, I. V.'"", ""'Matveev, S. G.'"", ""'Liu, Z.'"", ""'Frenklach, M.'"", ""'Mebel, A. M.'""],
+        authors = ["'Semenikhin, A. S.'", "'Savchenkova, A. S.'", "'Chechet, I. V.'", "'Matveev, S. G.'", "'Liu, Z.'", "'Frenklach, M.'", "'Mebel, A. M.'"],
         title = 'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (37)'"",
-        pages = ""'25401-25413'"",
-        year = ""'2017'"",
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19 (37)'",
+        pages = "'25401-25413'",
+        year = "'2017'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -5849,12 +5849,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Semenikhin, A. S.'"", ""'Savchenkova, A. S.'"", ""'Chechet, I. V.'"", ""'Matveev, S. G.'"", ""'Liu, Z.'"", ""'Frenklach, M.'"", ""'Mebel, A. M.'""],
+        authors = ["'Semenikhin, A. S.'", "'Savchenkova, A. S.'", "'Chechet, I. V.'", "'Matveev, S. G.'", "'Liu, Z.'", "'Frenklach, M.'", "'Mebel, A. M.'"],
         title = 'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (37)'"",
-        pages = ""'25401-25413'"",
-        year = ""'2017'"",
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19 (37)'",
+        pages = "'25401-25413'",
+        year = "'2017'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -5875,12 +5875,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Semenikhin, A. S.'"", ""'Savchenkova, A. S.'"", ""'Chechet, I. V.'"", ""'Matveev, S. G.'"", ""'Liu, Z.'"", ""'Frenklach, M.'"", ""'Mebel, A. M.'""],
+        authors = ["'Semenikhin, A. S.'", "'Savchenkova, A. S.'", "'Chechet, I. V.'", "'Matveev, S. G.'", "'Liu, Z.'", "'Frenklach, M.'", "'Mebel, A. M.'"],
         title = 'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (37)'"",
-        pages = ""'25401-25413'"",
-        year = ""'2017'"",
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19 (37)'",
+        pages = "'25401-25413'",
+        year = "'2017'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -5901,12 +5901,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Semenikhin, A. S.'"", ""'Savchenkova, A. S.'"", ""'Chechet, I. V.'"", ""'Matveev, S. G.'"", ""'Liu, Z.'"", ""'Frenklach, M.'"", ""'Mebel, A. M.'""],
+        authors = ["'Semenikhin, A. S.'", "'Savchenkova, A. S.'", "'Chechet, I. V.'", "'Matveev, S. G.'", "'Liu, Z.'", "'Frenklach, M.'", "'Mebel, A. M.'"],
         title = 'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (37)'"",
-        pages = ""'25401-25413'"",
-        year = ""'2017'"",
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19 (37)'",
+        pages = "'25401-25413'",
+        year = "'2017'",
     ),
     referenceType = "theory",
     rank = 5,
@@ -62737,6 +62737,1178 @@ Kinetics of Hydrogen Abstraction Reactions of Butene Isomers by OH Radical
 p-allylic site of iso-butene ref: DOI: 10.1021/jp1062786
 
 Converted to training reaction from rate rule: C/H3/Cd\Cs_Cd\H2;O_pri_rad
+""",
+)
+
+entry(
+    index = 3020,
+    label = "H + H2 <=> H2 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.4e+08, 'cm^3/(mol*s)'),
+        n = 1.5,
+        Ea = (39.3296, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 11,
+    shortDesc = u"""Dean, A. M. [118]""",
+    longDesc = 
+u"""
+[118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: X_H;H_rad
+""",
+)
+
+entry(
+    index = 3021,
+    label = "OH_p23 + H2O <=> H2O + OH_p23",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.417e-07, 'cm^3/(mol*s)'),
+        n = 5.48,
+        Ea = (1.14642, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (200, 'K'),
+        Tmax = (700, 'K'),
+    ),
+    rank = 6,
+    shortDesc = u"""Masgrau et al. [141] Transition state theory.""",
+    longDesc = 
+u"""
+[141] Masgrau, L.; Gonzalez-Lafont, A.; Lluch, J.M. J. Phys. Chem. A. 1999, 103, 1044.
+H2O + OH --> OH + H2O . C.D.W refitted their k(T) to get A, n, and Ea, and divided original rate expression by 2, to get rate expression per H atom.
+
+pg 1050, Table 4, Section: HO + HOH = HOH + OH(1), Column k_ab_CVT/SCT
+
+MRH computed modified Arrhenius parameters using least-squares regression: ln(k) = ln(A) + n*ln(T) - (E/R)*(1/T)
+
+E: Multiplied (E/R) expression by 1.987e-3
+
+A: exp(ln(A)), multiplied by 6.02e23 (to convert /molecule to /mol) and divided by 2 (to get rate per H atom)
+
+Certified by MRH on 7Aug2009
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: O_pri;O_pri_rad
+""",
+)
+
+entry(
+    index = 3022,
+    label = "HO2_r3 + H2O2 <=> H2O2 + HO2_r3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.092, 'cm^3/(mol*s)', '*|/', 3),
+        n = 3.96,
+        Ea = (27.7399, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 6,
+    shortDesc = u"""MHS CBS-QB3 w/1dHR calculations, see node 536.""",
+    longDesc = 
+u"""
+Rxn family nodes: H2O2 + O_rad/NonDeO
+
+The rate coefficient for this node was taken from node 536 (H2O2 + OOCH3)
+by analogy: HOOH + *O-O-R.  Discussed with MRH.
+
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: H2O2;O_rad/NonDeO
+""",
+)
+
+entry(
+    index = 3023,
+    label = "H + H2 <=> H2 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.472, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (23.012, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: H2;H_rad
+""",
+)
+
+entry(
+    index = 3024,
+    label = "CH3_p23 + CH4b <=> CH4b + CH3_p23",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00518, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (43.0952, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C_methane;C_methyl
+""",
+)
+
+entry(
+    index = 3025,
+    label = "C2H5 + C2H6 <=> C2H6 + C2H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00092, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (38.4928, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H3/Cs;C_rad/H2/Cs
+""",
+)
+
+entry(
+    index = 3026,
+    label = "C3H7 + C3H8 <=> C3H8 + C3H7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.000865, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (31.38, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/H/NonDeC
+""",
+)
+
+entry(
+    index = 3027,
+    label = "C4H9-4 + iC4H10b <=> iC4H10b + C4H9-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.000542, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (20.5016, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H/Cs3;C_rad/Cs3
+""",
+)
+
+entry(
+    index = 3028,
+    label = "C3H5 + C3H6 <=> C3H6 + C3H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00145, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (56.9024, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H3/Cd;C_rad/H2/Cd
+""",
+)
+
+entry(
+    index = 3029,
+    label = "C4H7-4 + C4H8-4 <=> C4H8-4 + C4H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00229, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (48.9528, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H2/CdCs;C_rad/H/CdCs
+""",
+)
+
+entry(
+    index = 3030,
+    label = "C5H9-5 + C5H10-3 <=> C5H10-3 + C5H9-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.000119, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (34.7272, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/CdCs2
+""",
+)
+
+entry(
+    index = 3031,
+    label = "C5H8-2 + C5H7-2 <=> C5H8-2 + C5H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.000391, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (37.2376, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H/CdCd
+""",
+)
+
+entry(
+    index = 3032,
+    label = "C6H9 + C6H10 <=> C6H10 + C6H9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.92e-06, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (15.8992, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H/CdCd;C_rad/CdCdCs
+""",
+)
+
+entry(
+    index = 3033,
+    label = "C3H4 + C3H3-2 <=> C3H4 + C3H3-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00571, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (48.9528, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H3/Ct;C_rad/H2/Ct
+""",
+)
+
+entry(
+    index = 3034,
+    label = "C4H6 + C4H5-5 <=> C4H6 + C4H5-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00166, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (39.3296, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H2/CtCs;C_rad/H/CtCs
+""",
+)
+
+entry(
+    index = 3035,
+    label = "C5H7-3 + C5H8 <=> C5H8 + C5H7-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.000324, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (25.9408, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/CtCs2
+""",
+)
+
+entry(
+    index = 3036,
+    label = "C5H3 + C5H4 <=> C5H4 + C5H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00403, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (37.2376, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H2/CtCt;C_rad/H/CtCt
+""",
+)
+
+entry(
+    index = 3037,
+    label = "C6H6-2 + C6H5-2 <=> C6H6-2 + C6H5-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.1e-05, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (17.9912, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H/CtCt;C_rad/CtCtCs
+""",
+)
+
+entry(
+    index = 3038,
+    label = "C7H7 + C7H8 <=> C7H8 + C7H7",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (0.00342, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (55.6472, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Converted to training reaction from rate rule: C/H3/Cb;C_rad/H2/Cb
+""",
+)
+
+entry(
+    index = 3039,
+    label = "C8H9 + C8H10 <=> C8H10 + C8H9",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (0.00095, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (41.84, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Converted to training reaction from rate rule: C/H2/CbCs;C_rad/H/CbCs
+""",
+)
+
+entry(
+    index = 3040,
+    label = "C9H11 + C9H12 <=> C9H12 + C9H11",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (9.08e-06, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (24.2672, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/CbCs2
+""",
+)
+
+entry(
+    index = 3041,
+    label = "C2H3 + C2H4 <=> C2H4 + C2H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00925, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (25.5224, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: Cd_pri;Cd_pri_rad
+""",
+)
+
+entry(
+    index = 3042,
+    label = "C3H5-2 + C3H6-2 <=> C3H6-2 + C3H5-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00556, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (18.828, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: Cd/H/NonDeC;Cd_rad/NonDeC
+""",
+)
+
+entry(
+    index = 3043,
+    label = "C4H5-3 + C4H6-4 <=> C4H6-4 + C4H5-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.0043, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (47.2792, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: Cd/H/Cd;Cd_rad/Cd
+""",
+)
+
+entry(
+    index = 3044,
+    label = "C6H5 + C6H6 <=> C6H6 + C6H5",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(
+        A = (0.0864, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (22.1752, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Converted to training reaction from rate rule: Cb_H;Cb_rad
+""",
+)
+
+entry(
+    index = 3045,
+    label = "C3H3 + C3H4-1 <=> C3H4-1 + C3H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.0308, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (49.7896, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: Cd_Cdd/H2;Cd_Cdd_rad/H
+""",
+)
+
+entry(
+    index = 3046,
+    label = "CH3S-2 + CH3SH_r2 <=> CH3SH_r2 + CH3S-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.000139, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (36.8192, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H3/S;C_rad/H2/S
+""",
+)
+
+entry(
+    index = 3047,
+    label = "C4H3 + C4H4 <=> C4H4 + C4H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.000816, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (26.3592, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: Cd/H/Ct;Cd_rad/Ct
+""",
+)
+
+entry(
+    index = 3048,
+    label = "C2H5S + C2H6S <=> C2H6S + C2H5S",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.000844, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (24.2672, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H2/CsS;C_rad/H/CsS
+""",
+)
+
+entry(
+    index = 3049,
+    label = "C3H7S + C3H8S <=> C3H8S + C3H7S",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.000162, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (8.7864, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H/Cs2S;C_rad/Cs2S
+""",
+)
+
+entry(
+    index = 3050,
+    label = "C2H3S-2 + C2H4S-2 <=> C2H4S-2 + C2H3S-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00281, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (80.7512, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H3/CS;C_rad/H2/CS
+""",
+)
+
+entry(
+    index = 3051,
+    label = "C3H5S + C3H6S <=> C3H6S + C3H5S",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00289, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (40.5848, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H2/CSCs;C_rad/H/CSCs
+""",
+)
+
+entry(
+    index = 3052,
+    label = "C4H7S + C4H8S <=> C4H8S + C4H7S",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.000273, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (29.7064, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/CSCs2
+""",
+)
+
+entry(
+    index = 3053,
+    label = "C2H3S-3 + C2H4S-3 <=> C2H4S-3 + C2H3S-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00297, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (-15.4808, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: Cd/H/NonDeS;Cd_rad/NonDeS
+""",
+)
+
+entry(
+    index = 3054,
+    label = "C3H3S + C3H4S <=> C3H4S + C3H3S",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.051, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (84.0984, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: Cd/H/CS;Cd_rad/CS
+""",
+)
+
+entry(
+    index = 3055,
+    label = "C3H5S-2 + C3H6S-2 <=> C3H6S-2 + C3H5S-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00134, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (33.472, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H2/CdS;C_rad/H/CdS
+""",
+)
+
+entry(
+    index = 3056,
+    label = "C3H5S2 + C3H6S2 <=> C3H6S2 + C3H5S2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.000174, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (40.5848, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H/CSCsS;C_rad/CSCsS
+""",
+)
+
+entry(
+    index = 3057,
+    label = "C2H3S2 + C2H4S2 <=> C2H4S2 + C2H3S2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00145, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (43.0952, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H2/CSS;C_rad/H/CSS
+""",
+)
+
+entry(
+    index = 3058,
+    label = "C3H3S-2 + C3H4S-2 <=> C3H4S-2 + C3H3S-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00118, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (27.6144, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H2/CtS;C_rad/H/CtS
+""",
+)
+
+entry(
+    index = 3059,
+    label = "C4H6S + C4H5S <=> C4H6S + C4H5S",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.000354, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (10.0416, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: C/H/CtCsS;C_rad/CtCsS
+""",
+)
+
+entry(
+    index = 3060,
+    label = "C7H7S + C7H8S <=> C7H8S + C7H7S",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (0.000424, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (26.3592, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Converted to training reaction from rate rule: C/H2/CbS;C_rad/H/CbS
+""",
+)
+
+entry(
+    index = 3061,
+    label = "C8H9S + C8H10S <=> C8H10S + C8H9S",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.7e-05, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (2.092, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Converted to training reaction from rate rule: C/H/CbCsS;C_rad/CbCsS
+""",
+)
+
+entry(
+    index = 3062,
+    label = "CHS + CH2S <=> CH2S + CHS",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.0548, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (44.7688, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: CS_pri;CS_pri_rad
+""",
+)
+
+entry(
+    index = 3063,
+    label = "C2H4S + C2H3S <=> C2H4S + C2H3S",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.0141, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (40.1664, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: CS/H/NonDeC;CS_rad/Cs
+""",
+)
+
+entry(
+    index = 3064,
+    label = "CHS2 + CH2S2 <=> CH2S2 + CHS2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00677, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (38.9112, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: CS/H/NonDeS;CS_rad/S
+""",
+)
+
+entry(
+    index = 3065,
+    label = "C3H3S-3 + C3H4S-3 <=> C3H4S-3 + C3H3S-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.00797, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (53.9736, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: CS/H/Cd;CS_rad/Cd
+""",
+)
+
+entry(
+    index = 3066,
+    label = "C3H2S + C3HS <=> C3H2S + C3HS",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.0268, 'cm^3/(mol*s)'),
+        n = 4.34,
+        Ea = (66.1072, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: CS/H/Ct;CS_rad/Ct
+""",
+)
+
+entry(
+    index = 3067,
+    label = "SH + H2S_r <=> H2S_r + SH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (301, 'cm^3/(mol*s)'),
+        n = 3.15,
+        Ea = (18.4096, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: S_pri;S_pri_rad
+""",
+)
+
+entry(
+    index = 3068,
+    label = "CH3SH_r1 + CH3S <=> CH3SH_r1 + CH3S",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (668, 'cm^3/(mol*s)'),
+        n = 3.15,
+        Ea = (7.5312, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: S/H/NonDeC;S_rad/NonDeC
+""",
+)
+
+entry(
+    index = 3069,
+    label = "C2H4S-4 + C2H3S-4 <=> C2H4S-4 + C2H3S-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (789, 'cm^3/(mol*s)'),
+        n = 3.15,
+        Ea = (7.9496, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: S/H/Cd;S_rad/Cd
+""",
+)
+
+entry(
+    index = 3070,
+    label = "C2HS + C2H2S <=> C2H2S + C2HS",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4210, 'cm^3/(mol*s)'),
+        n = 3.15,
+        Ea = (12.1336, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: S/H/Ct;S_rad/Ct
+""",
+)
+
+entry(
+    index = 3071,
+    label = "C6H6S + C6H5S <=> C6H6S + C6H5S",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (189, 'cm^3/(mol*s)'),
+        n = 3.15,
+        Ea = (12.1336, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Converted to training reaction from rate rule: S/H/Cb;S_rad/Cb
+""",
+)
+
+entry(
+    index = 3072,
+    label = "HSS_r3 + HSSH_r12 <=> HSSH_r12 + HSS_r3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (113, 'cm^3/(mol*s)'),
+        n = 3.15,
+        Ea = (1.6736, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+Degeneracy not recalculated
+
+Converted to training reaction from rate rule: S/H/NonDeS;S_rad/NonDeS
 """,
 )
 
