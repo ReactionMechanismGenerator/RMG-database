@@ -12,8 +12,8 @@ once relevant kinetic data is available
 template(reactants=["RnOOH"], products=["HORO."], ownReverse=False)
 
 reverse = "none"
-
 reversible = True
+
 recipe(actions=[
     ['BREAK_BOND', '*2', 1, '*3'],
     ['FORM_BOND', '*1', 1, '*3'],
@@ -45,10 +45,10 @@ entry(
     label = "ROOH",
     group = 
 """
-1 *1 [C,Sid,Sis,N] u1 {2,S}
-2 *2 [O,S]         u0 {1,S} {3,S}
-3 *3 [O,S]         u0 {2,S} {4,S}
-4    H             u0 {3,S}
+1 *2 [O,S]         u0 {2,S} {3,S}
+2 *3 [O,S]         u0 {1,S} {4,S}
+3 *1 [C,Sid,Sis,N] u1 {1,S}
+4    H             u0 {2,S}
 """,
     kinetics = None,
 )
@@ -58,11 +58,11 @@ entry(
     label = "R2OOH",
     group = 
 """
-1 *1 [C,Sid,Sis,N]     u1 {2,[S,D]}
-2 *4 [Cs,Cd,Sid,Sis,N] u0 {1,[S,D]} {3,S}
-3 *2 [O,S]             u0 {2,S} {4,S}
-4 *3 [O,S]             u0 {3,S} {5,S}
-5    H                 u0 {4,S}
+1 *2 [O,S]             u0 {2,S} {3,S}
+2 *4 [Cs,Cd,Sid,Sis,N] u0 {1,S} {4,[S,D]}
+3 *3 [O,S]             u0 {1,S} {5,S}
+4 *1 [C,Sid,Sis,N]     u1 {2,[S,D]}
+5    H                 u0 {3,S}
 """,
     kinetics = None,
 )
@@ -72,11 +72,11 @@ entry(
     label = "R2OOH_S",
     group = 
 """
-1 *1 [C,Sid,Sis,N] u1 {2,S}
-2 *4 [Cs,Cd]       u0 {1,S} {3,S}
-3 *2 [O,S]         u0 {2,S} {4,S}
-4 *3 [O,S]         u0 {3,S} {5,S}
-5    H             u0 {4,S}
+1 *2 [O,S]         u0 {2,S} {3,S}
+2 *4 [Cs,Cd]       u0 {1,S} {4,S}
+3 *3 [O,S]         u0 {1,S} {5,S}
+4 *1 [C,Sid,Sis,N] u1 {2,S}
+5    H             u0 {3,S}
 """,
     kinetics = None,
 )
@@ -100,12 +100,12 @@ entry(
     label = "R3OOH",
     group = 
 """
-1 *1 [C,Sid,Sis,N]     u1 {2,[S,D]}
-2 *4 [Cs,Cd,Sid,Sis,N] u0 {1,[S,D]} {3,[S,D]}
-3 *5 [Cs,Cd,Sid,Sis,N] u0 {2,[S,D]} {4,S}
-4 *2 [O,S]             u0 {3,S} {5,S}
-5 *3 [O,S]             u0 {4,S} {6,S}
-6    H                 u0 {5,S}
+1 *5 [Cs,Cd,Sid,Sis,N] u0 {2,S} {3,[S,D]}
+2 *2 [O,S]             u0 {1,S} {4,S}
+3 *4 [Cs,Cd,Sid,Sis,N] u0 {1,[S,D]} {5,[S,D]}
+4 *3 [O,S]             u0 {2,S} {6,S}
+5 *1 [C,Sid,Sis,N]     u1 {3,[S,D]}
+6    H                 u0 {4,S}
 """,
     kinetics = None,
 )
@@ -115,12 +115,12 @@ entry(
     label = "R3OOH_SS",
     group = 
 """
-1 *1 [C,Sid,Sis,N] u1 {2,S}
-2 *4 [Cs,Cd]       u0 {1,S} {3,S}
-3 *5 [Cs,Cd]       u0 {2,S} {4,S}
-4 *2 [O,S]         u0 {3,S} {5,S}
-5 *3 [O,S]         u0 {4,S} {6,S}
-6    H             u0 {5,S}
+1 *5 [Cs,Cd]       u0 {2,S} {3,S}
+2 *2 [O,S]         u0 {1,S} {4,S}
+3 *4 [Cs,Cd]       u0 {1,S} {5,S}
+4 *3 [O,S]         u0 {2,S} {6,S}
+5 *1 [C,Sid,Sis,N] u1 {3,S}
+6    H             u0 {4,S}
 """,
     kinetics = None,
 )
@@ -160,13 +160,13 @@ entry(
     label = "R4OOH",
     group = 
 """
-1 *1 [C,Sid,Sis,N]     u1 {2,[S,D]}
-2 *4 [Cs,Cd,Sid,Sis,N] u0 {1,[S,D]} {3,[S,D]}
-3 *6 [Cs,Cd,Sid,Sis,N] u0 {2,[S,D]} {4,[S,D]}
-4 *5 [Cs,Cd,Sid,Sis,N] u0 {3,[S,D]} {5,S}
-5 *2 [O,S]             u0 {4,S} {6,S}
-6 *3 [O,S]             u0 {5,S} {7,S}
-7    H                 u0 {6,S}
+1 *5 [Cs,Cd,Sid,Sis,N] u0 {2,[S,D]} {3,S}
+2 *6 [Cs,Cd,Sid,Sis,N] u0 {1,[S,D]} {4,[S,D]}
+3 *2 [O,S]             u0 {1,S} {5,S}
+4 *4 [Cs,Cd,Sid,Sis,N] u0 {2,[S,D]} {6,[S,D]}
+5 *3 [O,S]             u0 {3,S} {7,S}
+6 *1 [C,Sid,Sis,N]     u1 {4,[S,D]}
+7    H                 u0 {5,S}
 """,
     kinetics = None,
 )
@@ -176,13 +176,13 @@ entry(
     label = "R4OOH_SSS",
     group = 
 """
-1 *1 [C,Sid,Sis,N] u1 {2,S}
-2 *4 [Cs,Cd]       u0 {1,S} {3,S}
-3 *6 [Cs,Cd]       u0 {2,S} {4,S}
-4 *5 [Cs,Cd]       u0 {3,S} {5,S}
-5 *2 [O,S]         u0 {4,S} {6,S}
-6 *3 [O,S]         u0 {5,S} {7,S}
-7    H             u0 {6,S}
+1 *5 [Cs,Cd]       u0 {2,S} {3,S}
+2 *6 [Cs,Cd]       u0 {1,S} {4,S}
+3 *2 [O,S]         u0 {1,S} {5,S}
+4 *4 [Cs,Cd]       u0 {2,S} {6,S}
+5 *3 [O,S]         u0 {3,S} {7,S}
+6 *1 [C,Sid,Sis,N] u1 {4,S}
+7    H             u0 {5,S}
 """,
     kinetics = None,
 )
