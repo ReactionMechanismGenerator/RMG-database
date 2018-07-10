@@ -11,8 +11,8 @@ The forbidden groups at the bottom prevent it from reacting with other forms of 
 template(reactants=["Y_rad", "Birad"], products=["YOS."], ownReverse=False)
 
 reverse = "ROS_Bond_Dissociation"
-
 reversible = True
+
 recipe(actions=[
     ['FORM_BOND', '*1', 1, '*2'],
     ['LOSE_RADICAL', '*1', '1'],
