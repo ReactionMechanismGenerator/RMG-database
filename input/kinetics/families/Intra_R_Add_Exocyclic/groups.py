@@ -3958,7 +3958,7 @@ forbidden(
 """
 1 *2 R!H u0 r1 {2,[D,T,B]} {3,[S,D,T,B]}
 2 *3 R!H u0 r1 {1,[D,T,B]}
-3 *4 R!H u1 r1 {1,[S,D,T,B]}
+3 *4 R!H u0 r1 {1,[S,D,T,B]}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -3973,7 +3973,7 @@ forbidden(
 """
 1 *2 R!H u0 r1 {2,[D,T,B]} {3,[S,D,T,B]}
 2 *3 R!H u0 r1 {1,[D,T,B]}
-3 *5 R!H u1 r1 {1,[S,D,T,B]}
+3 *5 R!H u0 r1 {1,[S,D,T,B]}
 """,
     shortDesc = u"""""",
     longDesc = 
