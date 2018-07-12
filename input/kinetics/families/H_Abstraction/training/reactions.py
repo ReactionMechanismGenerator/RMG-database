@@ -14611,13 +14611,11 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
     longDesc = 
 u"""
 Added by Beat Buesser, value for reaction: NH2 + H = NH + H2 (B&D #9) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
-
-Converted to training reaction from rate rule: NH2_rad_H;H_rad
 """,
 )
 
@@ -14633,13 +14631,11 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
     longDesc = 
 u"""
 Added by Beat Buesser, value for reaction: NH2 + O = NH + OH (B&D #15d2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
-
-Converted to training reaction from rate rule: NH2_rad_H;O_atom_triplet
 """,
 )
 
@@ -14655,13 +14651,11 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
     longDesc = 
 u"""
 Added by Beat Buesser, value for reaction: NH2 + OH = NH + H2O (B&D #16b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
-
-Converted to training reaction from rate rule: NH2_rad_H;O_pri_rad
 """,
 )
 
