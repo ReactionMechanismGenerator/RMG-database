@@ -3876,3 +3876,59 @@ System-specific (SS) QRRK approach is adjusted with SS parameters to agree with 
 """,
 )
 
+entry(
+    index = 219,
+    label = "C4H3O2 + C2H2 <=> C6H5O2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (2046, 'cm^3/(mol*s)'),
+        n = 2.607,
+        Ea = (15.619, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'I. V. Tokmakov'", "'G. Kim'", "'V. V. Kislov'", "'A. M. Mebel'", "'M. C. Lin'"],
+        title = 'The Reaction of Phenyl Radical with Molecular Oxygen: A G2M Study of the Potential Energy Surface',
+        journal = "'J. Phys. Chem. A'",
+        volume = "'109 (27)'",
+        pages = """'6114-6127'""",
+        year = "'2005'",
+    ),
+    referenceType = "theory",
+    rank = 4,
+    longDesc = 
+u"""
+Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
+The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
+where only 1500, 2000, 2500 K rates were reported.
+""",
+)
+
+entry(
+    index = 220,
+    label = "H + C6H4O2 <=> C6H5O2-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1.233e+09, 'cm^3/(mol*s)'),
+        n = 1.533,
+        Ea = (1.239, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'I. V. Tokmakov'", "'G. Kim'", "'V. V. Kislov'", "'A. M. Mebel'", "'M. C. Lin'"],
+        title = 'The Reaction of Phenyl Radical with Molecular Oxygen: A G2M Study of the Potential Energy Surface',
+        journal = "'J. Phys. Chem. A'",
+        volume = "'109 (27)'",
+        pages = """'6114-6127'""",
+        year = "'2005'",
+    ),
+    referenceType = "theory",
+    rank = 4,
+    longDesc = 
+u"""
+Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
+The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
+where only 1500, 2000, 2500 K rates were reported.
+""",
+)
+
