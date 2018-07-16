@@ -5754,33 +5754,3 @@ BMK/6-311G(2d,d,p) TST Eckart, no HR. calculated for cycC5H5-CH2 -> cycC5H4-CH3
 """,
 )
 
-entry(
-    index = 1057,
-    label = "R4H_MMS;Cd_rad_out;Cs_H_out",
-    kinetics = ArrheniusEP(
-        A = (1e-10, 's^-1'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 9,
-    shortDesc = u"""Aaron Vandeputte guess""",
-)
-
-entry(
-    index = 1058,
-    label = "R2H_D;Cd_rad_out_singleH;Cd_H_out_singleDe",
-    kinetics = ArrheniusEP(
-        A = (1e-10, 's^-1'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 9,
-    shortDesc = u"""Aaron Vandeputte guess""",
-)
-
