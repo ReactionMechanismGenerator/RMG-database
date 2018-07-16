@@ -4538,6 +4538,22 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 312,
+    label = "R4H_DSD_fulvene",
+    group = 
+"""
+1 *1 R!H u1 {2,D} {6,S}
+2 *4 Cd  u0 {1,D} {3,S}
+3 *5 Cd  u0 {2,S} {4,D} {7,S}
+4 *2 R!H u0 {3,D} {5,S}
+5 *3 H   u0 {4,S}
+6    Cd  u0 {1,S} {7,D}
+7    Cd  u0 {3,S} {6,D}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: RnH
@@ -4596,6 +4612,7 @@ L1: RnH
                 L5: R4H_RSD
                     L6: R4H_SSD
                     L6: R4H_DSD
+                        L7: R4H_DSD_fulvene
                     L6: R4H_TSD
                     L6: R4H_BSD
                 L5: R4H_RST
