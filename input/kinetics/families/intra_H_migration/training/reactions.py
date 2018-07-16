@@ -2321,3 +2321,17 @@ Original entry: W9 <=> W13
 """,
 )
 
+entry(
+    index = 135,
+    label = "C6H5 <=> C6H5-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(9.208e+12, 's^-1'), n=1.135, Ea=(109.513, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    longDesc = 
+u"""
+Training reaction from kinetics library: C6H5_isomerization
+Original entry: C6H5_3 <=> C6H5_2
+Calculated by Jim at the CBS-QB3 level
+""",
+)
+
