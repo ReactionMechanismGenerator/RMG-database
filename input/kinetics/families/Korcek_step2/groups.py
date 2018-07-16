@@ -11,6 +11,7 @@ template(reactants=["C1(R)(H)(O(OC3(OH)(R'))C2)"], products=["C1(R)(O)(C2)", "C3
 
 reverse = "none"
 
+reversible = True
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*6'],
     ['BREAK_BOND', '*4', 1, '*5'],
@@ -21,7 +22,7 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "C1(R)(H)(O(OC3(OH)(R'))C2)",
     group = 
 """
@@ -46,20 +47,3 @@ tree(
 L1: C1(R)(H)(O(OC3(OH)(R'))C2)
 """
 )
-
-forbidden(
-    label = "O4",
-    group = 
-"""
-1    O u1 {2,S}
-2 *1 O u0 {1,S} {3,S}
-3 *2 O u0 {2,S} {4,S}
-4    O u1 {3,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-

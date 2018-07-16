@@ -17,7 +17,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
 )
 
 entry(
@@ -31,7 +31,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1600, 'K'),
     ),
-    rank = 2,
+    rank = 4,
 )
 
 entry(
@@ -45,7 +45,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1600, 'K'),
     ),
-    rank = 5,
+    rank = 10,
 )
 
 entry(
@@ -59,7 +59,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1600, 'K'),
     ),
-    rank = 5,
+    rank = 10,
 )
 
 entry(
@@ -73,7 +73,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Guess""",
 )
 
@@ -88,7 +88,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CBS-QB3, 1d-hr by CAC""",
 )
 
@@ -103,7 +103,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Guess""",
 )
 
@@ -118,7 +118,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""same reaction as above""",
 )
 
@@ -133,7 +133,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""BMK/cbsb7 + 1D-HR""",
 )
 
@@ -148,7 +148,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""BMK/cbsb7 + 1D-HR""",
 )
 
@@ -163,7 +163,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Guess, i.e. 821""",
 )
 
@@ -178,7 +178,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Guess, i.e. 822""",
 )
 

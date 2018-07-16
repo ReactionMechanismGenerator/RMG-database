@@ -13,6 +13,7 @@ template(reactants=["Y_rad_birad_trirad_quadrad", "XH_Rrad_birad"], products=["Y
 
 reverse = "Molecular_Addition"
 
+reversible = True
 recipe(actions=[
     ['FORM_BOND', '*1', 1, '*4'],
     ['BREAK_BOND', '*2', 1, '*4'],
@@ -22,28 +23,28 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "Y_rad_birad_trirad_quadrad",
     group = "OR{Y_1centerquadrad, Y_1centertrirad, Y_2centerbirad, Y_1centerbirad, Y_rad}",
     kinetics = None,
 )
 
 entry(
-    index = 234,
+    index = 1,
     label = "XH_Rrad_birad",
     group = "OR{XH_Rrad, XH_Rbirad}",
     kinetics = None,
 )
 
 entry(
-    index = 298,
+    index = 2,
     label = "Y_1centerquadrad",
     group = "OR{C_quintet, C_triplet}",
     kinetics = None,
 )
 
 entry(
-    index = 288,
+    index = 3,
     label = "C_quintet",
     group = 
 """
@@ -53,7 +54,7 @@ entry(
 )
 
 entry(
-    index = 289,
+    index = 4,
     label = "C_triplet",
     group = 
 """
@@ -63,14 +64,14 @@ entry(
 )
 
 entry(
-    index = 200,
+    index = 5,
     label = "Y_1centertrirad",
     group = "OR{N_atom_quartet, N_atom_doublet, CH_quartet, CH_doublet}",
     kinetics = None,
 )
 
 entry(
-    index = 291,
+    index = 6,
     label = "N_atom_quartet",
     group = 
 """
@@ -80,7 +81,7 @@ entry(
 )
 
 entry(
-    index = 292,
+    index = 7,
     label = "N_atom_doublet",
     group = 
 """
@@ -90,7 +91,7 @@ entry(
 )
 
 entry(
-    index = 202,
+    index = 8,
     label = "CH_quartet",
     group = 
 """
@@ -101,7 +102,7 @@ entry(
 )
 
 entry(
-    index = 294,
+    index = 9,
     label = "CH_doublet",
     group = 
 """
@@ -112,14 +113,14 @@ entry(
 )
 
 entry(
-    index = 203,
+    index = 10,
     label = "Y_2centerbirad",
     group = "OR{O2b, C2b, S2b}",
     kinetics = None,
 )
 
 entry(
-    index = 204,
+    index = 11,
     label = "O2b",
     group = 
 """
@@ -130,7 +131,7 @@ entry(
 )
 
 entry(
-    index = 205,
+    index = 12,
     label = "C2b",
     group = 
 """
@@ -141,7 +142,7 @@ entry(
 )
 
 entry(
-    index = 8,
+    index = 13,
     label = "S2b",
     group = 
 """
@@ -152,7 +153,7 @@ entry(
 )
 
 entry(
-    index = 3,
+    index = 14,
     label = "Y_1centerbirad",
     group = 
 """
@@ -162,18 +163,18 @@ entry(
 )
 
 entry(
-    index = 206,
+    index = 15,
     label = "CO_birad_triplet",
     group = 
 """
-1 *1 C  u2 {2,D}
+1 *1 C   u2 {2,D}
 2    O2d u0 {1,D}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 4,
+    index = 16,
     label = "O_atom_triplet",
     group = 
 """
@@ -183,7 +184,7 @@ entry(
 )
 
 entry(
-    index = 700,
+    index = 17,
     label = "CS_birad_triplet",
     group = 
 """
@@ -194,7 +195,7 @@ entry(
 )
 
 entry(
-    index = 701,
+    index = 18,
     label = "S_atom_triplet",
     group = 
 """
@@ -204,7 +205,7 @@ entry(
 )
 
 entry(
-    index = 5,
+    index = 19,
     label = "CH2_triplet",
     group = 
 """
@@ -216,7 +217,7 @@ entry(
 )
 
 entry(
-    index = 207,
+    index = 20,
     label = "NH_triplet",
     group = 
 """
@@ -227,17 +228,7 @@ entry(
 )
 
 entry(
-    index = 7,
-    label = "H_rad",
-    group = 
-"""
-1 *1 H u1
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 6,
+    index = 21,
     label = "Y_rad",
     group = 
 """
@@ -247,7 +238,17 @@ entry(
 )
 
 entry(
-    index = 208,
+    index = 22,
+    label = "H_rad",
+    group = 
+"""
+1 *1 H u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 23,
     label = "Ct_rad",
     group = 
 """
@@ -258,7 +259,7 @@ entry(
 )
 
 entry(
-    index = 10,
+    index = 24,
     label = "Ct_rad/Ct",
     group = 
 """
@@ -269,18 +270,18 @@ entry(
 )
 
 entry(
-    index = 209,
+    index = 25,
     label = "Ct_rad/Nt",
     group = 
 """
-1 *1 Ct        u1 {2,T}
+1 *1 Ct         u1 {2,T}
 2    [N3t,N5tc] u0 {1,T}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 11,
+    index = 26,
     label = "O_rad",
     group = 
 """
@@ -291,7 +292,7 @@ entry(
 )
 
 entry(
-    index = 12,
+    index = 27,
     label = "O_pri_rad",
     group = 
 """
@@ -302,7 +303,7 @@ entry(
 )
 
 entry(
-    index = 13,
+    index = 28,
     label = "O_sec_rad",
     group = 
 """
@@ -313,7 +314,7 @@ entry(
 )
 
 entry(
-    index = 14,
+    index = 29,
     label = "O_rad/NonDeC",
     group = 
 """
@@ -324,7 +325,7 @@ entry(
 )
 
 entry(
-    index = 15,
+    index = 30,
     label = "O_rad/NonDeO",
     group = 
 """
@@ -335,7 +336,7 @@ entry(
 )
 
 entry(
-    index = 210,
+    index = 31,
     label = "O_rad/NonDeN",
     group = 
 """
@@ -346,84 +347,84 @@ entry(
 )
 
 entry(
-    index = 16,
+    index = 32,
     label = "O_rad/OneDe",
     group = 
 """
-1 *1 O             u1 {2,S}
+1 *1 O                u1 {2,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 17,
+    index = 33,
     label = "S_rad",
     group = 
 """
-1 *1 S u1 px {2,S}
-2    R u0    {1,S}
+1 *1 S u1 {2,S}
+2    R u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 18,
+    index = 34,
     label = "S_pri_rad",
     group = 
 """
 1 *1 S u1 p2 {2,S}
-2    H u0    {1,S}
+2    H u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 19,
+    index = 35,
     label = "S_sec_rad",
     group = 
 """
 1 *1 S   u1 p2 {2,S}
-2    R!H u0    {1,S}
+2    R!H u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 20,
+    index = 36,
     label = "S_rad/NonDeC",
     group = 
 """
 1 *1 S  u1 p2 {2,S}
-2    Cs u0    {1,S}
+2    Cs u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 21,
+    index = 37,
     label = "S_rad/NonDeS",
     group = 
 """
 1 *1 S2s u1 p2 {2,S}
-2    S   u0    {1,S}
+2    S   u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 22,
+    index = 38,
     label = "S_rad/OneDe",
     group = 
 """
 1 *1 S                u1 p2 {2,S}
-2    [Cd,Ct,Cb,CO,CS] u0    {1,S}
+2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 23,
+    index = 39,
     label = "Cd_rad",
     group = 
 """
@@ -435,7 +436,7 @@ entry(
 )
 
 entry(
-    index = 24,
+    index = 40,
     label = "Cd_pri_rad",
     group = 
 """
@@ -447,7 +448,7 @@ entry(
 )
 
 entry(
-    index = 25,
+    index = 41,
     label = "Cd_sec_rad",
     group = 
 """
@@ -459,7 +460,7 @@ entry(
 )
 
 entry(
-    index = 26,
+    index = 42,
     label = "Cd_rad/NonDeC",
     group = 
 """
@@ -471,7 +472,7 @@ entry(
 )
 
 entry(
-    index = 211,
+    index = 43,
     label = "Cd_rad/NonDeN",
     group = 
 """
@@ -483,7 +484,7 @@ entry(
 )
 
 entry(
-    index = 27,
+    index = 44,
     label = "Cd_rad/NonDeO",
     group = 
 """
@@ -495,7 +496,7 @@ entry(
 )
 
 entry(
-    index = 703,
+    index = 45,
     label = "Cd_rad/NonDeS",
     group = 
 """
@@ -507,7 +508,7 @@ entry(
 )
 
 entry(
-    index = 28,
+    index = 46,
     label = "Cd_rad/OneDe",
     group = 
 """
@@ -519,7 +520,7 @@ entry(
 )
 
 entry(
-    index = 29,
+    index = 47,
     label = "Cb_rad",
     group = 
 """
@@ -531,7 +532,7 @@ entry(
 )
 
 entry(
-    index = 30,
+    index = 48,
     label = "CO_rad",
     group = 
 """
@@ -543,7 +544,7 @@ entry(
 )
 
 entry(
-    index = 31,
+    index = 49,
     label = "CO_pri_rad",
     group = 
 """
@@ -555,7 +556,7 @@ entry(
 )
 
 entry(
-    index = 32,
+    index = 50,
     label = "CO_sec_rad",
     group = 
 """
@@ -567,7 +568,7 @@ entry(
 )
 
 entry(
-    index = 33,
+    index = 51,
     label = "CO_rad/NonDe",
     group = 
 """
@@ -579,19 +580,19 @@ entry(
 )
 
 entry(
-    index = 34,
+    index = 52,
     label = "CO_rad/OneDe",
     group = 
 """
-1 *1 C             u1 {2,D} {3,S}
-2    O             u0 {1,D}
+1 *1 C                u1 {2,D} {3,S}
+2    O                u0 {1,D}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 710,
+    index = 53,
     label = "CS_rad",
     group = 
 """
@@ -603,7 +604,7 @@ entry(
 )
 
 entry(
-    index = 711,
+    index = 54,
     label = "CS_pri_rad",
     group = 
 """
@@ -615,7 +616,7 @@ entry(
 )
 
 entry(
-    index = 712,
+    index = 55,
     label = "CS_sec_rad",
     group = 
 """
@@ -627,7 +628,7 @@ entry(
 )
 
 entry(
-    index = 713,
+    index = 56,
     label = "CS_rad/NonDe",
     group = 
 """
@@ -639,7 +640,7 @@ entry(
 )
 
 entry(
-    index = 714,
+    index = 57,
     label = "CS_rad/OneDe",
     group = 
 """
@@ -651,7 +652,7 @@ entry(
 )
 
 entry(
-    index = 35,
+    index = 58,
     label = "Cs_rad",
     group = 
 """
@@ -664,7 +665,7 @@ entry(
 )
 
 entry(
-    index = 36,
+    index = 59,
     label = "C_methyl",
     group = 
 """
@@ -677,7 +678,7 @@ entry(
 )
 
 entry(
-    index = 37,
+    index = 60,
     label = "C_pri_rad",
     group = 
 """
@@ -690,7 +691,7 @@ entry(
 )
 
 entry(
-    index = 38,
+    index = 61,
     label = "C_rad/H2/Cs",
     group = 
 """
@@ -703,7 +704,7 @@ entry(
 )
 
 entry(
-    index = 39,
+    index = 62,
     label = "C_rad/H2/Cd",
     group = 
 """
@@ -716,7 +717,7 @@ entry(
 )
 
 entry(
-    index = 40,
+    index = 63,
     label = "C_rad/H2/Ct",
     group = 
 """
@@ -729,7 +730,7 @@ entry(
 )
 
 entry(
-    index = 41,
+    index = 64,
     label = "C_rad/H2/Cb",
     group = 
 """
@@ -742,7 +743,7 @@ entry(
 )
 
 entry(
-    index = 42,
+    index = 65,
     label = "C_rad/H2/CO",
     group = 
 """
@@ -755,7 +756,7 @@ entry(
 )
 
 entry(
-    index = 43,
+    index = 66,
     label = "C_rad/H2/O",
     group = 
 """
@@ -768,7 +769,7 @@ entry(
 )
 
 entry(
-    index = 719,
+    index = 67,
     label = "C_rad/H2/CS",
     group = 
 """
@@ -781,7 +782,7 @@ entry(
 )
 
 entry(
-    index = 720,
+    index = 68,
     label = "C_rad/H2/S",
     group = 
 """
@@ -794,7 +795,7 @@ entry(
 )
 
 entry(
-    index = 212,
+    index = 69,
     label = "C_rad/H2/N",
     group = 
 """
@@ -807,7 +808,7 @@ entry(
 )
 
 entry(
-    index = 44,
+    index = 70,
     label = "C_sec_rad",
     group = 
 """
@@ -820,7 +821,7 @@ entry(
 )
 
 entry(
-    index = 45,
+    index = 71,
     label = "C_rad/H/NonDeC",
     group = 
 """
@@ -833,7 +834,7 @@ entry(
 )
 
 entry(
-    index = 46,
+    index = 72,
     label = "C_rad/H/NonDeO",
     group = 
 """
@@ -846,20 +847,20 @@ entry(
 )
 
 entry(
-    index = 47,
+    index = 73,
     label = "C_rad/H/CsO",
     group = 
 """
-1 *1 C     u1 {2,S} {3,S} {4,S}
-2    H     u0 {1,S}
-3    Cs    u0 {1,S}
-4    O     u0 {1,S}
+1 *1 C  u1 {2,S} {3,S} {4,S}
+2    H  u0 {1,S}
+3    Cs u0 {1,S}
+4    O  u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 48,
+    index = 74,
     label = "C_rad/H/O2",
     group = 
 """
@@ -872,20 +873,7 @@ entry(
 )
 
 entry(
-    index = 213,
-    label = "C_rad/H/NonDeN",
-    group = 
-"""
-1 *1 C        u1 {2,S} {3,S} {4,S}
-2    H        u0 {1,S}
-3    N        u0 {1,S}
-4    [Cs,O,S] u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 49,
+    index = 75,
     label = "C_rad/H/NonDeS",
     group = 
 """
@@ -898,7 +886,7 @@ entry(
 )
 
 entry(
-    index = 50,
+    index = 76,
     label = "C_rad/H/CsS",
     group = 
 """
@@ -911,7 +899,7 @@ entry(
 )
 
 entry(
-    index = 51,
+    index = 77,
     label = "C_rad/H/S2",
     group = 
 """
@@ -924,7 +912,20 @@ entry(
 )
 
 entry(
-    index = 52,
+    index = 78,
+    label = "C_rad/H/NonDeN",
+    group = 
+"""
+1 *1 C        u1 {2,S} {3,S} {4,S}
+2    H        u0 {1,S}
+3    N        u0 {1,S}
+4    [Cs,O,S] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 79,
     label = "C_rad/H/OneDe",
     group = 
 """
@@ -937,7 +938,7 @@ entry(
 )
 
 entry(
-    index = 53,
+    index = 80,
     label = "C_rad/H/OneDeC",
     group = 
 """
@@ -950,7 +951,7 @@ entry(
 )
 
 entry(
-    index = 54,
+    index = 81,
     label = "C_rad/H/OneDeO",
     group = 
 """
@@ -963,7 +964,7 @@ entry(
 )
 
 entry(
-    index = 400,
+    index = 82,
     label = "C_rad/H/OneDeS",
     group = 
 """
@@ -976,7 +977,7 @@ entry(
 )
 
 entry(
-    index = 214,
+    index = 83,
     label = "C_rad/H/OneDeN",
     group = 
 """
@@ -989,7 +990,7 @@ entry(
 )
 
 entry(
-    index = 55,
+    index = 84,
     label = "C_rad/H/TwoDe",
     group = 
 """
@@ -1002,7 +1003,7 @@ entry(
 )
 
 entry(
-    index = 56,
+    index = 85,
     label = "C_ter_rad",
     group = 
 """
@@ -1015,7 +1016,7 @@ entry(
 )
 
 entry(
-    index = 57,
+    index = 86,
     label = "C_rad/NonDeC",
     group = 
 """
@@ -1028,7 +1029,7 @@ entry(
 )
 
 entry(
-    index = 58,
+    index = 87,
     label = "C_rad/Cs3",
     group = 
 """
@@ -1041,7 +1042,7 @@ entry(
 )
 
 entry(
-    index = 59,
+    index = 88,
     label = "C_rad/NDMustO",
     group = 
 """
@@ -1054,7 +1055,7 @@ entry(
 )
 
 entry(
-    index = 60,
+    index = 89,
     label = "C_rad/OneDe",
     group = 
 """
@@ -1067,7 +1068,7 @@ entry(
 )
 
 entry(
-    index = 61,
+    index = 90,
     label = "C_rad/Cs2",
     group = 
 """
@@ -1080,7 +1081,7 @@ entry(
 )
 
 entry(
-    index = 62,
+    index = 91,
     label = "C_rad/ODMustO",
     group = 
 """
@@ -1093,7 +1094,7 @@ entry(
 )
 
 entry(
-    index = 63,
+    index = 92,
     label = "C_rad/TwoDe",
     group = 
 """
@@ -1106,7 +1107,7 @@ entry(
 )
 
 entry(
-    index = 64,
+    index = 93,
     label = "C_rad/Cs",
     group = 
 """
@@ -1119,7 +1120,7 @@ entry(
 )
 
 entry(
-    index = 65,
+    index = 94,
     label = "C_rad/TDMustO",
     group = 
 """
@@ -1132,7 +1133,7 @@ entry(
 )
 
 entry(
-    index = 66,
+    index = 95,
     label = "C_rad/ThreeDe",
     group = 
 """
@@ -1145,7 +1146,7 @@ entry(
 )
 
 entry(
-    index = 215,
+    index = 96,
     label = "N3_rad",
     group = 
 """
@@ -1155,7 +1156,7 @@ entry(
 )
 
 entry(
-    index = 216,
+    index = 97,
     label = "N3s_rad",
     group = 
 """
@@ -1165,7 +1166,7 @@ entry(
 )
 
 entry(
-    index = 217,
+    index = 98,
     label = "NH2_rad",
     group = 
 """
@@ -1177,7 +1178,7 @@ entry(
 )
 
 entry(
-    index = 218,
+    index = 99,
     label = "N3s_rad_pri",
     group = 
 """
@@ -1189,19 +1190,19 @@ entry(
 )
 
 entry(
-    index = 219,
+    index = 100,
     label = "N3s_rad/H/NonDe",
     group = 
 """
-1 *1 N3s             u1 {2,S} {3,S}
+1 *1 N3s              u1 {2,S} {3,S}
 2    [Cs,N3s,O2s,S2s] u0 {1,S}
-3    H               u0 {1,S}
+3    H                u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 220,
+    index = 101,
     label = "N3s_rad/H/NonDeC",
     group = 
 """
@@ -1213,19 +1214,19 @@ entry(
 )
 
 entry(
-    index = 221,
+    index = 102,
     label = "N3s_rad/H/NonDeO",
     group = 
 """
 1 *1 N3s u1 {2,S} {3,S}
-2    O2s  u0 {1,S}
+2    O2s u0 {1,S}
 3    H   u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 221,
+    index = 103,
     label = "N3s_rad/H/NonDeS",
     group = 
 """
@@ -1237,7 +1238,7 @@ entry(
 )
 
 entry(
-    index = 222,
+    index = 104,
     label = "N3s_rad/H/NonDeN",
     group = 
 """
@@ -1249,19 +1250,19 @@ entry(
 )
 
 entry(
-    index = 223,
+    index = 105,
     label = "N3s_rad/H/OneDe",
     group = 
 """
-1 *1 N3s                         u1 {2,S} {3,S}
+1 *1 N3s                          u1 {2,S} {3,S}
 2    [Cd,Ct,Cb,CO,CS,CS,N3d,N5dc] u0 {1,S}
-3    H                           u0 {1,S}
+3    H                            u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 224,
+    index = 106,
     label = "N3s_rad_sec",
     group = 
 """
@@ -1273,11 +1274,11 @@ entry(
 )
 
 entry(
-    index = 225,
+    index = 107,
     label = "N3s_rad/NonDe2",
     group = 
 """
-1 *1 N3s             u1 {2,S} {3,S}
+1 *1 N3s              u1 {2,S} {3,S}
 2    [Cs,N3s,O2s,S2s] u0 {1,S}
 3    [Cs,N3s,O2s,S2s] u0 {1,S}
 """,
@@ -1285,11 +1286,11 @@ entry(
 )
 
 entry(
-    index = 226,
+    index = 108,
     label = "N3s_rad/OneDe",
     group = 
 """
-1 *1 N3s                         u1 {2,S} {3,S}
+1 *1 N3s                          u1 {2,S} {3,S}
 2    [Cd,Ct,Cb,CO,CS,CS,N3d,N5dc] u0 {1,S}
 3    [Cs,N3s,O2s,S2s]             u0 {1,S}
 """,
@@ -1297,11 +1298,11 @@ entry(
 )
 
 entry(
-    index = 227,
+    index = 109,
     label = "N3s_rad/TwoDe",
     group = 
 """
-1 *1 N3s                         u1 {2,S} {3,S}
+1 *1 N3s                          u1 {2,S} {3,S}
 2    [Cd,Ct,Cb,CO,CS,CS,N3d,N5dc] u0 {1,S}
 3    [Cd,Ct,Cb,CO,CS,CS,N3d,N5dc] u0 {1,S}
 """,
@@ -1309,7 +1310,7 @@ entry(
 )
 
 entry(
-    index = 228,
+    index = 110,
     label = "N3d_rad",
     group = 
 """
@@ -1319,7 +1320,7 @@ entry(
 )
 
 entry(
-    index = 229,
+    index = 111,
     label = "N3d_rad/C",
     group = 
 """
@@ -1330,18 +1331,18 @@ entry(
 )
 
 entry(
-    index = 230,
+    index = 112,
     label = "N3d_rad/O",
     group = 
 """
 1 *1 N3d u1 {2,D}
-2    O2d  u0 {1,D}
+2    O2d u0 {1,D}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 231,
+    index = 113,
     label = "N3d_rad/N",
     group = 
 """
@@ -1352,9 +1353,9 @@ entry(
 )
 
 entry(
-    index = 301,
+    index = 114,
     label = "N5_rad",
-    group =
+    group = 
 """
 1 *1 [N5sc,N5dc,N5t,N5tc,N5b] u1
 """,
@@ -1362,9 +1363,9 @@ entry(
 )
 
 entry(
-    index = 302,
+    index = 115,
     label = "N5s_rad",
-    group =
+    group = 
 """
 1 *1 N5sc u1 p0
 """,
@@ -1372,30 +1373,30 @@ entry(
 )
 
 entry(
-    index = 303,
+    index = 116,
     label = "N5dc_rad",
-    group =
+    group = 
 """
-1 *1 N5dc u1 p0 c+1 {2,D} {3,S}
-2    R!H u0 px c0  {1,D}
-3    [C2sc,N1sc,O0sc,S0sc,S2sc,S2dc,S4dc,S4tdc,S6sc,S6dc,S6tdc] u0 px c-1 {1,S}
+1 *1 N5dc                                                       u1 p0 c+1 {2,D} {3,S}
+2    R!H                                                        u0 c0 {1,D}
+3    [C2sc,N1sc,O0sc,S0sc,S2sc,S2dc,S4dc,S4tdc,S6sc,S6dc,S6tdc] u0 c-1 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 304,
+    index = 117,
     label = "N5t_rad",
-    group =
+    group = 
 """
-1 *1 N5tc u1 p0 cx {2,T}
-2    R!H ux px cx {1,T}
+1 *1 N5tc u1 p0 {2,T}
+2    R!H  ux {1,T}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 2,
+    index = 118,
     label = "XH_Rrad",
     group = 
 """
@@ -1407,7 +1408,7 @@ entry(
 )
 
 entry(
-    index = 236,
+    index = 119,
     label = "XH_s_Rrad",
     group = 
 """
@@ -1419,7 +1420,7 @@ entry(
 )
 
 entry(
-    index = 67,
+    index = 120,
     label = "Cdpri_Rrad",
     group = 
 """
@@ -1431,7 +1432,7 @@ entry(
 )
 
 entry(
-    index = 68,
+    index = 121,
     label = "Cdpri_Csrad",
     group = 
 """
@@ -1443,7 +1444,7 @@ entry(
 )
 
 entry(
-    index = 69,
+    index = 122,
     label = "Cdpri_Cdrad",
     group = 
 """
@@ -1455,7 +1456,7 @@ entry(
 )
 
 entry(
-    index = 70,
+    index = 123,
     label = "Cdpri_COrad",
     group = 
 """
@@ -1467,7 +1468,7 @@ entry(
 )
 
 entry(
-    index = 71,
+    index = 124,
     label = "Cdpri_Orad",
     group = 
 """
@@ -1479,7 +1480,7 @@ entry(
 )
 
 entry(
-    index = 237,
+    index = 125,
     label = "Cdpri_Nrad",
     group = 
 """
@@ -1491,7 +1492,7 @@ entry(
 )
 
 entry(
-    index = 72,
+    index = 126,
     label = "COpri_Rrad",
     group = 
 """
@@ -1503,7 +1504,7 @@ entry(
 )
 
 entry(
-    index = 73,
+    index = 127,
     label = "COpri_Csrad",
     group = 
 """
@@ -1515,7 +1516,7 @@ entry(
 )
 
 entry(
-    index = 74,
+    index = 128,
     label = "COpri_Cdrad",
     group = 
 """
@@ -1527,7 +1528,7 @@ entry(
 )
 
 entry(
-    index = 75,
+    index = 129,
     label = "COpri_COrad",
     group = 
 """
@@ -1539,7 +1540,7 @@ entry(
 )
 
 entry(
-    index = 76,
+    index = 130,
     label = "COpri_Orad",
     group = 
 """
@@ -1551,7 +1552,7 @@ entry(
 )
 
 entry(
-    index = 238,
+    index = 131,
     label = "COpri_Nrad",
     group = 
 """
@@ -1563,7 +1564,7 @@ entry(
 )
 
 entry(
-    index = 77,
+    index = 132,
     label = "O_Rrad",
     group = 
 """
@@ -1575,7 +1576,7 @@ entry(
 )
 
 entry(
-    index = 78,
+    index = 133,
     label = "O_Csrad",
     group = 
 """
@@ -1587,7 +1588,7 @@ entry(
 )
 
 entry(
-    index = 79,
+    index = 134,
     label = "O_Cdrad",
     group = 
 """
@@ -1599,7 +1600,7 @@ entry(
 )
 
 entry(
-    index = 80,
+    index = 135,
     label = "O_COrad",
     group = 
 """
@@ -1611,7 +1612,7 @@ entry(
 )
 
 entry(
-    index = 81,
+    index = 136,
     label = "O_Orad",
     group = 
 """
@@ -1623,7 +1624,7 @@ entry(
 )
 
 entry(
-    index = 239,
+    index = 137,
     label = "O_Nrad",
     group = 
 """
@@ -1633,9 +1634,9 @@ entry(
 """,
     kinetics = None,
 )
- 
+
 entry(
-    index = 240,
+    index = 138,
     label = "O_Srad",
     group = 
 """
@@ -1647,34 +1648,34 @@ entry(
 )
 
 entry(
-    index = 241,
+    index = 139,
     label = "O_SradOd",
     group = 
 """
-1 *2 O        u0        {2,S} {3,S}
-2 *3 S        u1 p[0,1] {1,S} {4,D}
-3 *4 H        u0        {1,S}
-4    [O2d,S2d] u0        {2,D}
+1 *2 O         u0 {2,S} {3,S}
+2 *3 S         u1 p[0,1] {1,S} {4,D}
+3 *4 H         u0 {1,S}
+4    [O2d,S2d] u0 {2,D}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 242,
+    index = 140,
     label = "O_SradOdOd",
     group = 
 """
-1 *2 O        u0    {2,S} {3,S}
-2 *3 S6dd     u1 p0 {1,S} {4,D} {5,D}
-3 *4 H        u0    {1,S}
-4    [O2d,S2d] u0    {2,D}
-5    [O2d,S2d] u0    {2,D}
+1 *2 O         u0 {2,S} {3,S}
+2 *3 S6dd      u1 p0 {1,S} {4,D} {5,D}
+3 *4 H         u0 {1,S}
+4    [O2d,S2d] u0 {2,D}
+5    [O2d,S2d] u0 {2,D}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 82,
+    index = 141,
     label = "S_Rrad",
     group = 
 """
@@ -1686,7 +1687,7 @@ entry(
 )
 
 entry(
-    index = 83,
+    index = 142,
     label = "S_Csrad",
     group = 
 """
@@ -1698,7 +1699,7 @@ entry(
 )
 
 entry(
-    index = 84,
+    index = 143,
     label = "S_Cdrad",
     group = 
 """
@@ -1710,7 +1711,7 @@ entry(
 )
 
 entry(
-    index = 85,
+    index = 144,
     label = "S_Srad",
     group = 
 """
@@ -1722,7 +1723,7 @@ entry(
 )
 
 entry(
-    index = 86,
+    index = 145,
     label = "Cmethyl_Rrad",
     group = 
 """
@@ -1736,7 +1737,7 @@ entry(
 )
 
 entry(
-    index = 87,
+    index = 146,
     label = "Cmethyl_Csrad",
     group = 
 """
@@ -1750,7 +1751,23 @@ entry(
 )
 
 entry(
-    index = 88,
+    index = 147,
+    label = "Cmethyl_Csrad/H/Cd",
+    group = 
+"""
+1 *2 C  u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs u1 {1,S} {6,S} {7,S}
+3 *4 H  u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {1,S}
+6    H  u0 {2,S}
+7    Cd u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 148,
     label = "Cmethyl_Cdrad",
     group = 
 """
@@ -1764,7 +1781,7 @@ entry(
 )
 
 entry(
-    index = 89,
+    index = 149,
     label = "Cmethyl_COrad",
     group = 
 """
@@ -1778,7 +1795,7 @@ entry(
 )
 
 entry(
-    index = 90,
+    index = 150,
     label = "Cmethyl_Orad",
     group = 
 """
@@ -1792,7 +1809,7 @@ entry(
 )
 
 entry(
-    index = 91,
+    index = 151,
     label = "Cmethyl_Srad",
     group = 
 """
@@ -1806,7 +1823,7 @@ entry(
 )
 
 entry(
-    index = 240,
+    index = 152,
     label = "Cmethyl_Nrad",
     group = 
 """
@@ -1820,7 +1837,7 @@ entry(
 )
 
 entry(
-    index = 92,
+    index = 153,
     label = "Cpri_Rrad",
     group = 
 """
@@ -1834,7 +1851,7 @@ entry(
 )
 
 entry(
-    index = 93,
+    index = 154,
     label = "C/H2/Nd_Rrad",
     group = 
 """
@@ -1848,7 +1865,7 @@ entry(
 )
 
 entry(
-    index = 94,
+    index = 155,
     label = "C/H2/Nd_Csrad",
     group = 
 """
@@ -1862,7 +1879,23 @@ entry(
 )
 
 entry(
-    index = 95,
+    index = 156,
+    label = "C/H2/Nd_Csrad/H/Cd",
+    group = 
+"""
+1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs       u1 {1,S} {6,S} {7,S}
+3 *4 H        u0 {1,S}
+4    H        u0 {1,S}
+5    [Cs,O,S] u0 {1,S}
+6    H        u0 {2,S}
+7    Cd       u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 157,
     label = "C/H2/Nd_Cdrad",
     group = 
 """
@@ -1876,7 +1909,7 @@ entry(
 )
 
 entry(
-    index = 96,
+    index = 158,
     label = "C/H2/Nd_COrad",
     group = 
 """
@@ -1890,7 +1923,7 @@ entry(
 )
 
 entry(
-    index = 730,
+    index = 159,
     label = "C/H2/Nd_CSrad",
     group = 
 """
@@ -1904,7 +1937,7 @@ entry(
 )
 
 entry(
-    index = 97,
+    index = 160,
     label = "C/H2/Nd_Orad",
     group = 
 """
@@ -1918,7 +1951,7 @@ entry(
 )
 
 entry(
-    index = 241,
+    index = 161,
     label = "C/H2/Nd_Nrad",
     group = 
 """
@@ -1932,7 +1965,7 @@ entry(
 )
 
 entry(
-    index = 82,
+    index = 162,
     label = "C/H2/Nd_Srad",
     group = 
 """
@@ -1946,7 +1979,7 @@ entry(
 )
 
 entry(
-    index = 98,
+    index = 163,
     label = "C/H2/De_Rrad",
     group = 
 """
@@ -1960,7 +1993,7 @@ entry(
 )
 
 entry(
-    index = 99,
+    index = 164,
     label = "C/H2/De_Csrad",
     group = 
 """
@@ -1974,7 +2007,37 @@ entry(
 )
 
 entry(
-    index = 100,
+    index = 165,
+    label = "C/H2/De_Csrad/H/Cd",
+    group = 
+"""
+1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs               u1 {1,S} {6,S} {7,S}
+3 *4 H                u0 {1,S}
+4    H                u0 {1,S}
+5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+6    H                u0 {2,S}
+7    Cd               u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 166,
+    label = "C/H2/Cd_Csrad",
+    group = 
+"""
+1 *2 C  u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs u1 {1,S}
+3 *4 H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 167,
     label = "C/H2/De_Cdrad",
     group = 
 """
@@ -1988,7 +2051,7 @@ entry(
 )
 
 entry(
-    index = 101,
+    index = 168,
     label = "C/H2/De_COrad",
     group = 
 """
@@ -2002,7 +2065,7 @@ entry(
 )
 
 entry(
-    index = 102,
+    index = 169,
     label = "C/H2/De_Orad",
     group = 
 """
@@ -2016,7 +2079,7 @@ entry(
 )
 
 entry(
-    index = 242,
+    index = 170,
     label = "C/H2/De_Nrad",
     group = 
 """
@@ -2030,7 +2093,7 @@ entry(
 )
 
 entry(
-    index = 103,
+    index = 171,
     label = "Csec_Rrad",
     group = 
 """
@@ -2044,7 +2107,7 @@ entry(
 )
 
 entry(
-    index = 104,
+    index = 172,
     label = "C/H/NdNd_Rrad",
     group = 
 """
@@ -2058,7 +2121,7 @@ entry(
 )
 
 entry(
-    index = 105,
+    index = 173,
     label = "C/H/NdNd_Csrad",
     group = 
 """
@@ -2072,7 +2135,23 @@ entry(
 )
 
 entry(
-    index = 106,
+    index = 174,
+    label = "C/H/NdMd_Csrad/H/Cd",
+    group = 
+"""
+1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs       u1 {1,S} {6,S} {7,S}
+3 *4 H        u0 {1,S}
+4    [Cs,O,S] u0 {1,S}
+5    [Cs,O,S] u0 {1,S}
+6    H        u0 {2,S}
+7    Cd       u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 175,
     label = "C/H/NdNd_Cdrad",
     group = 
 """
@@ -2086,7 +2165,7 @@ entry(
 )
 
 entry(
-    index = 107,
+    index = 176,
     label = "C/H/NdNd_COrad",
     group = 
 """
@@ -2100,7 +2179,7 @@ entry(
 )
 
 entry(
-    index = 108,
+    index = 177,
     label = "C/H/NdNd_Orad",
     group = 
 """
@@ -2114,7 +2193,7 @@ entry(
 )
 
 entry(
-    index = 243,
+    index = 178,
     label = "C/H/NdNd_Nrad",
     group = 
 """
@@ -2128,7 +2207,7 @@ entry(
 )
 
 entry(
-    index = 109,
+    index = 179,
     label = "C/H/NdDe_Rrad",
     group = 
 """
@@ -2142,7 +2221,7 @@ entry(
 )
 
 entry(
-    index = 110,
+    index = 180,
     label = "C/H/NdDe_Csrad",
     group = 
 """
@@ -2156,7 +2235,23 @@ entry(
 )
 
 entry(
-    index = 111,
+    index = 181,
+    label = "C/H/NdDe_Csrad/H/Cd",
+    group = 
+"""
+1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs               u1 {1,S} {6,S} {7,S}
+3 *4 H                u0 {1,S}
+4    [Cs,O,S]         u0 {1,S}
+5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+6    H                u0 {2,S}
+7    Cd               u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 182,
     label = "C/H/NdDe_Cdrad",
     group = 
 """
@@ -2170,7 +2265,7 @@ entry(
 )
 
 entry(
-    index = 112,
+    index = 183,
     label = "C/H/NdDe_COrad",
     group = 
 """
@@ -2184,7 +2279,7 @@ entry(
 )
 
 entry(
-    index = 113,
+    index = 184,
     label = "C/H/NdDe_Orad",
     group = 
 """
@@ -2198,7 +2293,7 @@ entry(
 )
 
 entry(
-    index = 244,
+    index = 185,
     label = "C/H/NdDe_Nrad",
     group = 
 """
@@ -2212,7 +2307,7 @@ entry(
 )
 
 entry(
-    index = 114,
+    index = 186,
     label = "C/H/DeDe_Rrad",
     group = 
 """
@@ -2226,7 +2321,7 @@ entry(
 )
 
 entry(
-    index = 115,
+    index = 187,
     label = "C/H/DeDe_Csrad",
     group = 
 """
@@ -2240,7 +2335,39 @@ entry(
 )
 
 entry(
-    index = 116,
+    index = 188,
+    label = "C/H/DeDe_Csrad/H/Cd",
+    group = 
+"""
+1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs               u1 {1,S} {6,S} {7,S}
+3 *4 H                u0 {1,S}
+4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+6    H                u0 {2,S}
+7    Cd               u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 189,
+    label = "C/H/CdCd_Csrad/H/Cd",
+    group = 
+"""
+1 *2 C  u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs u1 {1,S} {6,S} {7,S}
+3 *4 H  u0 {1,S}
+4    Cd u0 {1,S}
+5    Cd u0 {1,S}
+6    H  u0 {2,S}
+7    Cd u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 190,
     label = "C/H/DeDe_Cdrad",
     group = 
 """
@@ -2254,7 +2381,7 @@ entry(
 )
 
 entry(
-    index = 117,
+    index = 191,
     label = "C/H/DeDe_COrad",
     group = 
 """
@@ -2268,7 +2395,7 @@ entry(
 )
 
 entry(
-    index = 118,
+    index = 192,
     label = "C/H/DeDe_Orad",
     group = 
 """
@@ -2282,7 +2409,7 @@ entry(
 )
 
 entry(
-    index = 245,
+    index = 193,
     label = "C/H/DeDe_Nrad",
     group = 
 """
@@ -2296,7 +2423,7 @@ entry(
 )
 
 entry(
-    index = 246,
+    index = 194,
     label = "NH_s_Rrad",
     group = 
 """
@@ -2308,7 +2435,7 @@ entry(
 )
 
 entry(
-    index = 247,
+    index = 195,
     label = "N3H_s_Rrad",
     group = 
 """
@@ -2320,7 +2447,7 @@ entry(
 )
 
 entry(
-    index = 248,
+    index = 196,
     label = "N3s/H2_s_Rrad",
     group = 
 """
@@ -2333,7 +2460,7 @@ entry(
 )
 
 entry(
-    index = 249,
+    index = 197,
     label = "N3s/H2_s_Crad",
     group = 
 """
@@ -2346,7 +2473,7 @@ entry(
 )
 
 entry(
-    index = 250,
+    index = 198,
     label = "N3s/H2_s_Cssrad",
     group = 
 """
@@ -2359,7 +2486,7 @@ entry(
 )
 
 entry(
-    index = 251,
+    index = 199,
     label = "N3s/H2_s_Cdsrad",
     group = 
 """
@@ -2372,7 +2499,7 @@ entry(
 )
 
 entry(
-    index = 252,
+    index = 200,
     label = "N3s/H2_s_Orad",
     group = 
 """
@@ -2385,7 +2512,7 @@ entry(
 )
 
 entry(
-    index = 253,
+    index = 201,
     label = "N3s/H2_s_Nrad",
     group = 
 """
@@ -2398,20 +2525,20 @@ entry(
 )
 
 entry(
-    index = 254,
+    index = 202,
     label = "N3s/H/NonDe_s_Rrad",
     group = 
 """
-1 *2 N3s         u0 {2,S} {3,S} {4,S}
-2 *3 R!H         u1 {1,S}
-3 *4 H           u0 {1,S}
+1 *2 N3s          u0 {2,S} {3,S} {4,S}
+2 *3 R!H          u1 {1,S}
+3 *4 H            u0 {1,S}
 4    [Cs,N3s,O2s] u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 255,
+    index = 203,
     label = "N3s/H/Deloc_s_Rrad",
     group = 
 """
@@ -2424,19 +2551,19 @@ entry(
 )
 
 entry(
-    index = 256,
+    index = 204,
     label = "N5H_s_Rrad",
     group = 
 """
 1 *2 [N5sc,N5dc] u0 {2,S} {3,S}
-2 *3 R!H       u1 {1,S}
-3 *4 H         u0 {1,S}
+2 *3 R!H         u1 {1,S}
+3 *4 H           u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 257,
+    index = 205,
     label = "XH_d_Rrad",
     group = 
 """
@@ -2448,7 +2575,7 @@ entry(
 )
 
 entry(
-    index = 258,
+    index = 206,
     label = "CH_d_Rrad",
     group = 
 """
@@ -2460,7 +2587,7 @@ entry(
 )
 
 entry(
-    index = 259,
+    index = 207,
     label = "Cds/H2_d_Rrad",
     group = 
 """
@@ -2473,7 +2600,7 @@ entry(
 )
 
 entry(
-    index = 260,
+    index = 208,
     label = "Cds/H2_d_Crad",
     group = 
 """
@@ -2486,7 +2613,7 @@ entry(
 )
 
 entry(
-    index = 261,
+    index = 209,
     label = "Cds/H2_d_N3rad",
     group = 
 """
@@ -2499,7 +2626,7 @@ entry(
 )
 
 entry(
-    index = 262,
+    index = 210,
     label = "Cds/H2_d_N5rad",
     group = 
 """
@@ -2512,47 +2639,60 @@ entry(
 )
 
 entry(
-    index = 263,
+    index = 211,
     label = "Cds/H2_d_N5dcrad",
     group = 
 """
-1 *2 C    u0        {2,D} {3,S} {4,S}
+1 *2 C    u0 {2,D} {3,S} {4,S}
 2 *3 N5dc u1 p0 c+1 {1,D}
-3 *4 H    u0        {1,S}
-4    H    u0        {1,S}
+3 *4 H    u0 {1,S}
+4    H    u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 1050,
+    index = 212,
     label = "Cds/H2_d_N5dcrad/O",
-    group =
+    group = 
 """
-1 *2 C    u0        {2,D} {3,S} {4,S}
+1 *2 C    u0 {2,D} {3,S} {4,S}
 2 *3 N5dc u1 p0 c+1 {1,D} {5,S}
-3 *4 H    u0        {1,S}
-4    H    u0        {1,S}
+3 *4 H    u0 {1,S}
+4    H    u0 {1,S}
 5    O    u0 p3 c-1 {2,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 268,
+    index = 213,
+    label = "Cds/H/R!H",
+    group = 
+"""
+1 *2 C   u0 {2,D} {3,S} {4,S}
+2 *3 R!H u1 {1,D}
+3 *4 H   u0 {1,S}
+4    R!H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 214,
     label = "Cds/H/NonDe_d_Rrad",
     group = 
 """
-1 *2 C           u0 {2,D} {3,S} {4,S}
-2 *3 R!H         u1 {1,D}
-3 *4 H           u0 {1,S}
+1 *2 C            u0 {2,D} {3,S} {4,S}
+2 *3 R!H          u1 {1,D}
+3 *4 H            u0 {1,S}
 4    [Cs,N3s,O2s] u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 269,
+    index = 215,
     label = "Cds/H/Deloc_d_Rrad",
     group = 
 """
@@ -2565,7 +2705,7 @@ entry(
 )
 
 entry(
-    index = 270,
+    index = 216,
     label = "NH_d_Rrad",
     group = 
 """
@@ -2577,7 +2717,7 @@ entry(
 )
 
 entry(
-    index = 271,
+    index = 217,
     label = "N3d/H_d_Rrad",
     group = 
 """
@@ -2589,7 +2729,7 @@ entry(
 )
 
 entry(
-    index = 272,
+    index = 218,
     label = "N3d/H_d_Crad",
     group = 
 """
@@ -2601,7 +2741,7 @@ entry(
 )
 
 entry(
-    index = 273,
+    index = 219,
     label = "N3d/H_d_Nrad",
     group = 
 """
@@ -2613,19 +2753,19 @@ entry(
 )
 
 entry(
-    index = 274,
+    index = 220,
     label = "N5dc/H_d_Rrad",
     group = 
 """
 1 *2 N5dc u0 {2,D} {3,S}
-2 *3 R!H u1 {1,D}
-3 *4 H   u0 {1,S}
+2 *3 R!H  u1 {1,D}
+3 *4 H    u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 235,
+    index = 221,
     label = "XH_Rbirad",
     group = 
 """
@@ -2637,7 +2777,7 @@ entry(
 )
 
 entry(
-    index = 277,
+    index = 222,
     label = "XH_s_Rbirad",
     group = 
 """
@@ -2649,7 +2789,7 @@ entry(
 )
 
 entry(
-    index = 278,
+    index = 223,
     label = "CH_s_Rbirad",
     group = 
 """
@@ -2661,7 +2801,7 @@ entry(
 )
 
 entry(
-    index = 279,
+    index = 224,
     label = "NH_s_Rbirad",
     group = 
 """
@@ -2673,7 +2813,7 @@ entry(
 )
 
 entry(
-    index = 280,
+    index = 225,
     label = "N3H_s_Rbirad",
     group = 
 """
@@ -2685,7 +2825,7 @@ entry(
 )
 
 entry(
-    index = 281,
+    index = 226,
     label = "N3s/H2_s_Rbirad",
     group = 
 """
@@ -2698,7 +2838,7 @@ entry(
 )
 
 entry(
-    index = 282,
+    index = 227,
     label = "N3s/H2_s_Cbirad",
     group = 
 """
@@ -2711,7 +2851,7 @@ entry(
 )
 
 entry(
-    index = 283,
+    index = 228,
     label = "N3s/H2_s_Nbirad",
     group = 
 """
@@ -2724,20 +2864,20 @@ entry(
 )
 
 entry(
-    index = 284,
+    index = 229,
     label = "N3s/H/NonDe_s_Rbirad",
     group = 
 """
-1 *2 N3s         u0 {2,S} {3,S} {4,S}
-2 *3 N           u2 {1,S}
-3 *4 H           u0 {1,S}
+1 *2 N3s          u0 {2,S} {3,S} {4,S}
+2 *3 N            u2 {1,S}
+3 *4 H            u0 {1,S}
 4    [Cs,N3s,O2s] u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 285,
+    index = 230,
     label = "N3s/H/Deloc_s_Rbirad",
     group = 
 """
@@ -2750,11 +2890,11 @@ entry(
 )
 
 entry(
-    index = 286,
+    index = 231,
     label = "N5H_s_Rbirad",
     group = 
 """
-1 *2 [N5sc,N5dc]        u0 {2,S} {3,S} {4,S}
+1 *2 [N5sc,N5dc]      u0 {2,S} {3,S} {4,S}
 2 *3 N                u2 {1,S}
 3 *4 H                u0 {1,S}
 4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -2763,124 +2903,13 @@ entry(
 )
 
 entry(
-    index = 287,
+    index = 232,
     label = "XH_d_Rbirad",
     group = 
 """
 1 *2 R!H u0 {2,D} {3,S}
 2 *3 R!H u2 {1,D}
 3 *4 H   u0 {1,S}
-""",
-    kinetics = None,
-)
-
-
-entry(
-    index = 287,
-    label = "Cmethyl_Csrad/H/Cd",
-    group = 
-"""
-1 *2 C  u0 {2,S}, {3,S}, {4,S}, {5,S}
-2 *3 Cs u1 {1,S} {6,S} {7,S}
-3 *4 H  u0 {1,S}
-4 H     u0 {1,S}
-5 H     u0 {1,S}
-6 H     u0 {2,S}
-7 Cd    u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 287,
-    label = "C/H2/Nd_Csrad/H/Cd",
-    group = 
-"""
-1 *2 C     u0 {2,S}, {3,S}, {4,S}, {5,S}
-2 *3 Cs    u1 {1,S} {6,S} {7,S}
-3 *4 H     u0 {1,S}
-4 H        u0 {1,S}
-5 [Cs,O,S] u0 {1,S}
-6 H        u0 {2,S}
-7 Cd       u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 287,
-    label = "C/H2/De_Csrad/H/Cd",
-    group = 
-"""
-1 *2 C                u0 {2,S}, {3,S}, {4,S}, {5,S}
-2 *3 Cs               u1 {1,S} {6,S} {7,S}
-3 *4 H                u0 {1,S}
-4    H                u0 {1,S}
-5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-6    H                u0 {2,S}
-7    Cd               u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 287,
-    label = "C/H/NdMd_Csrad/H/Cd",
-    group = 
-"""
-1 *2 C        u0 {2,S}, {3,S}, {4,S}, {5,S}
-2 *3 Cs       u1 {1,S} {6,S} {7,S}
-3 *4 H        u0 {1,S}
-4    [Cs,O,S] u0 {1,S}
-5    [Cs,O,S] u0 {1,S}
-6    H        u0 {2,S}
-7    Cd       u0 {2,S} 
-""",
-    kinetics = None,
-)
- 
-
-entry(
-    index = 287,
-    label = "C/H/NdDe_Csrad/H/Cd",
-    group = 
-"""
-1 *2 C                u0 {2,S}, {3,S}, {4,S}, {5,S}
-2 *3 Cs               u1 {1,S} {6,S} {7,S}
-3 *4 H                u0 {1,S}
-4    [Cs,O,S]         u0 {1,S}
-5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-6    H                u0 {2,S}
-7    Cd               u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 287,
-    label = "C/H/DeDe_Csrad/H/Cd",
-    group = 
-"""
-1 *2 C                u0 {2,S}, {3,S}, {4,S}, {5,S}
-2 *3 Cs               u1 {1,S} {6,S} {7,S}
-3 *4 H                u0 {1,S}
-4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-6    H                u0 {2,S}
-7    Cd               u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 288,
-    label = "Cds/H/R!H",
-    group = 
-"""
-1 *2 C   u0 {2,D} {3,S} {4,S}
-2 *3 R!H u1 {1,D}
-3 *4 H   u0 {1,S}
-4    R!H u0 {1,S}
 """,
     kinetics = None,
 )
@@ -3053,6 +3082,7 @@ L1: XH_Rrad_birad
                 L5: C/H2/De_Rrad
                     L6: C/H2/De_Csrad
                         L7: C/H2/De_Csrad/H/Cd
+                        L7: C/H2/Cd_Csrad
                     L6: C/H2/De_Cdrad
                     L6: C/H2/De_COrad
                     L6: C/H2/De_Orad
@@ -3075,6 +3105,7 @@ L1: XH_Rrad_birad
                 L5: C/H/DeDe_Rrad
                     L6: C/H/DeDe_Csrad
                         L7: C/H/DeDe_Csrad/H/Cd
+                            L8: C/H/CdCd_Csrad/H/Cd
                     L6: C/H/DeDe_Cdrad
                     L6: C/H/DeDe_COrad
                     L6: C/H/DeDe_Orad
@@ -3151,42 +3182,12 @@ u"""
 )
 
 forbidden(
-    label = "O_Orad",
+    label = "O_Srad",
     group = 
 """
-1 *2 O u0 {2,S} {3,S}
-2 *3 O u1 {1,S}
-3 *4 H u0 {1,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
-    label = "XH_birad_singlet",
-    group = 
-"""
-1 *3 [C,Si] u0 p1 {2,[S,D,T]}
-2 *2 R!H       ux {1,[S,D,T]} {3,S}
-3 *4 H         u0 {2,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
-    label = "XH_quadrad_singlet",
-    group = 
-"""
-1 *3 [C,Si] u0 p2 {2,[S,D,T]}
-2 *2 R!H    ux    {1,[S,D,T]} {3,S}
-3 *4 H      u0    {2,S}
+1 *2 [O,S] u0 p2 {2,S} {3,S}
+2 *3 [O,S] u1 p2 {1,S}
+3 *4 H     u0 {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -3200,8 +3201,38 @@ forbidden(
     group = 
 """
 1 *3 N   u0 p2 {2,[S,D]}
-2 *2 R!H ux    {1,[S,D]} {3,S}
-3 *4 H   u0    {2,S}
+2 *2 R!H ux {1,[S,D]} {3,S}
+3 *4 H   u0 {2,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "XH_birad_singlet",
+    group = 
+"""
+1 *3 [C,Si] u0 p1 {2,[S,D,T]}
+2 *2 R!H    ux {1,[S,D,T]} {3,S}
+3 *4 H      u0 {2,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "XH_quadrad_singlet",
+    group = 
+"""
+1 *3 [C,Si] u0 p2 {2,[S,D,T]}
+2 *2 R!H    ux {1,[S,D,T]} {3,S}
+3 *4 H      u0 {2,S}
 """,
     shortDesc = u"""""",
     longDesc = 

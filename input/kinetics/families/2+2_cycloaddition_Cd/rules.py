@@ -17,7 +17,7 @@ entry(
         Tmin = (723, 'K'),
         Tmax = (786, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Quick et al. [107]""",
     longDesc = 
 u"""

@@ -8,9 +8,9 @@ Put kinetic parameters for reactions to use as a training set for fitting
 group additivity values in this file.
 """
 entry(
-    index = 1,
+    index = 0,
     label = "C2H + CH3O <=> C2H2 + CH2O",
-    degeneracy = 3,
+    degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (3.61e+13, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
@@ -19,7 +19,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [90] Literature review.""",
     longDesc = 
 u"""
@@ -38,18 +38,18 @@ MRH 30-Aug-2009
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "C2H3 + O2 = C2H2_1 + HO2",
-    degeneracy = 4,
+    degeneracy = 4.0,
     kinetics = Arrhenius(
-        A = (1.04E+16, 'cm^3/(mol*s)','*|/',5),
+        A = (1.04e+16, 'cm^3/(mol*s)', '*|/', 5),
         n = -1.26,
         Ea = (3.31, 'kcal/mol'),
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""S.S. Merchant estimate""",
     longDesc = 
 u"""
@@ -58,3 +58,4 @@ Hydrocarbon Formation in a Laminar Premixed n-butane Flame
 Derived from fitting to a complex mechanism for C2H3 + O2 = C2H2 + HO2
 """,
 )
+

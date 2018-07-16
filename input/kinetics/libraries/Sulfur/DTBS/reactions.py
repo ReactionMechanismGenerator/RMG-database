@@ -7,12 +7,12 @@ longDesc = u"""
 Sulfur library originally created by Caleb Class in RMG-Java.
 Source of kinetics is unclear, although most likely from his quantum calculations.
 """
-entry(
-    index = 1,
-    label = "S2 <=> S2JJ",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(2.1e+10, 's^-1'), n=1, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
-)
+# entry(
+#     index = 1,
+#     label = "S2 <=> S2JJ",
+#     degeneracy = 1,
+#     kinetics = Arrhenius(A=(2.1e+10, 's^-1'), n=1, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+# )
 
 entry(
     index = 2,

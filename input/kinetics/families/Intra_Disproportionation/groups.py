@@ -11,6 +11,7 @@ template(reactants=["Rn"], products=["Y"], ownReverse=False)
 
 reverse = "BiradFromMultipleBond"
 
+reversible = True
 recipe(actions=[
     ['FORM_BOND', '*1', 1, '*4'],
     ['BREAK_BOND', '*2', 1, '*4'],
@@ -22,25 +23,25 @@ recipe(actions=[
 boundaryAtoms = ["*1", "*3"]
 
 entry(
-    index = 1,
+    index = 0,
     label = "Rn",
-    group = "OR{R3, R4, R5, R6, R7}",
+    group = "OR{R2radExo, R3, R4, R5, R6, R7}",
     kinetics = None,
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "Y_rad",
     group = 
 """
 1 *1 R!H u1
 """,
     kinetics = None,
-    shortDesc = "The abstracting radical",
+    shortDesc = u"""The abstracting radical""",
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "XH_Rrad",
     group = 
 """
@@ -49,7 +50,20 @@ entry(
 3 *4 H   u0 {2,S}
 """,
     kinetics = None,
-    shortDesc = "The site with a free hydrogen on an atom adjacent to a radical"
+    shortDesc = u"""The site with a free hydrogen on an atom adjacent to a radical""",
+)
+
+entry(
+    index = 3,
+    label = "R2radExo",
+    group = 
+"""
+1 *1 R!H u1 {2,[S,D,B]}
+2 *2 R!H u0 {1,[S,D,B]} {3,S} {4,S}
+3 *3 R!H u1 {2,S}
+4 *4 H   u0 {2,S}
+""",
+    kinetics = None,
 )
 
 entry(
@@ -57,7 +71,8 @@ entry(
     label = "R3",
     group = "OR{R3radExo}",
     kinetics = None,
-    longDesc = """
+    longDesc = 
+u"""
 Aaron Vandeputte notes:
 It is assumed that the other radical site (#3) is not a member of the TS ring; we may eventually want to consider the possibility
 for the radical site being in the TS ring, which in certain cases, may give rise to multiple transition states for the same reaction; 
@@ -65,11 +80,11 @@ I expect that the number of cases that would be encountered where this reaction 
 UPDATE: 2,5-pentdiyl radical to 1-pentene can only occur when radical site is included in ring, so maybe this is more important than I thought
 UPDATE2: I will consider possibility of Endo case, except for R3radEndo in which case the 2 rads are adjacent to each other, but I will assume 
 the rate rules are the same as for the probably more typical exo case (2nd radical site not a part of ring)
-    """,
+""",
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "R3radExo",
     group = 
 """
@@ -83,14 +98,14 @@ entry(
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "R4",
     group = "OR{R4radEndo, R4radExo}",
     kinetics = None,
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "R4radEndo",
     group = 
 """
@@ -104,7 +119,7 @@ entry(
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "R4radExo",
     group = 
 """
@@ -119,14 +134,14 @@ entry(
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "R5",
     group = "OR{R5radEndo, R5radExo}",
     kinetics = None,
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "R5radEndo",
     group = 
 """
@@ -141,7 +156,7 @@ entry(
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "R5radExo",
     group = 
 """
@@ -157,14 +172,14 @@ entry(
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "R6",
     group = "OR{R6radEndo, R6radExo}",
     kinetics = None,
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "R6radEndo",
     group = 
 """
@@ -180,7 +195,7 @@ entry(
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "R6radExo",
     group = 
 """
@@ -197,14 +212,14 @@ entry(
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "R7",
     group = "OR{R7radEndo, R7radExo}",
     kinetics = None,
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "R7radEndo",
     group = 
 """
@@ -221,7 +236,7 @@ entry(
 )
 
 entry(
-    index = 18,
+    index = 17,
     label = "R7radExo",
     group = 
 """
@@ -239,18 +254,18 @@ entry(
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "Y_rad_NDe",
     group = 
 """
-1 *1 R!H         u1 {2,S}
+1 *1 R!H          u1 {2,S}
 2    [Cs,O2s,S2s] u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 20,
+    index = 19,
     label = "Y_rad_De",
     group = 
 """
@@ -261,20 +276,20 @@ entry(
 )
 
 entry(
-    index = 21,
+    index = 20,
     label = "XH_Rrad_NDe",
     group = 
 """
-1 *3 R!H         u1 {2,S} {4,S}
-2 *2 R!H         u0 {1,S} {3,S}
-3 *4 H           u0 {2,S}
+1 *3 R!H          u1 {2,S} {4,S}
+2 *2 R!H          u0 {1,S} {3,S}
+3 *4 H            u0 {2,S}
 4    [Cs,O2s,S2s] u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 22,
+    index = 21,
     label = "XH_Rrad_De",
     group = 
 """
@@ -289,6 +304,7 @@ entry(
 tree(
 """
 L1: Rn
+    L2: R2radExo
     L2: R3
         L3: R3radExo
     L2: R4
@@ -392,33 +408,3 @@ u"""
 """,
 )
 
-forbidden(
-    label = "Allylicrad1",
-    group = 
-"""
-1 *1 R u1 {2,S}
-2 R u0 {1,S} {3,D}
-3 R u0 {2,D} 
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-
-forbidden(
-    label = "Allylicrad2",
-    group = 
-"""
-+1 *3 R u1 {2,S}
-+2 R u0 {1,S} {3,D}
-+3 R u0 {2,D} 
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)

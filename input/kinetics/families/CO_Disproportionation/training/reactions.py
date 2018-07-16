@@ -7,11 +7,18 @@ longDesc = u"""
 Put kinetic parameters for reactions to use as a training set for fitting
 group additivity values in this file.
 """
-
 entry(
-    index = 1,
+    index = 0,
     label = "HCO + H <=> CO + H2",
-    kinetics=Arrhenius(A=(9.03e+13,'cm^3/(mol*s)','*|/',2), n=0, Ea=(0,'cal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (9.03e+13, 'cm^3/(mol*s)', '*|/', 2),
+        n = 0,
+        Ea = (0, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
     rank = 1,
     shortDesc = u"""Review and estimation based on experimental results""",
     longDesc = 
@@ -25,10 +32,11 @@ doi: 10.1063/1.555918
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "HCO + O <=> CO + OH",
-    kinetics=Arrhenius(A=(3.01e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
-    rank = 3,
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.01e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    rank = 5,
     shortDesc = u"""FFCM-1""",
     longDesc = 
 u"""
@@ -37,9 +45,10 @@ Taken from the FFCM-1 library
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "HCO + O2 <=> CO + HO2",
-    kinetics=Arrhenius(A=(5.12e+13,'cm^3/(mol*s)'), n=0, Ea=(1690,'cal/mol'), T0=(1,'K')),
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.12e+13, 'cm^3/(mol*s)'), n=0, Ea=(1690, 'cal/mol'), T0=(1, 'K')),
     rank = 1,
     shortDesc = u"""Review and estimation based on experimental results""",
     longDesc = 
@@ -52,9 +61,17 @@ doi: 10.1063/1.555759
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "HCO + CH3 <=> CO + CH4",
-    kinetics=Arrhenius(A=(4.0e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K'), Tmin=(1004,'K'), Tmax=(1006,'K')),
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4e+13, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (0, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (1004, 'K'),
+        Tmax = (1006, 'K'),
+    ),
     rank = 1,
     shortDesc = u"""Shock Tube""",
     longDesc = 
@@ -68,9 +85,15 @@ doi: 10.1139/v77-585
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "HCO + CH3O <=> CO + CH3OH",
-    kinetics=Arrhenius(A=(9.03e+13,'cm^3/(mol*s)','*|/',3), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (9.03e+13, 'cm^3/(mol*s)', '*|/', 3),
+        n = 0,
+        Ea = (0, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
     rank = 1,
     shortDesc = u"""Review and estimation based on experimental results""",
     longDesc = 
@@ -83,9 +106,15 @@ doi: 10.1063/1.555759
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "HCO + HCO_Y <=> CO + CH2O",
-    kinetics=Arrhenius(A=(1.8e+13,'cm^3/(mol*s)','+|-',9e+12), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.8e+13, 'cm^3/(mol*s)', '+|-', 9e+12),
+        n = 0,
+        Ea = (0, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
     rank = 1,
     shortDesc = u"""Review and estimation based on experimental results""",
     longDesc = 
@@ -98,10 +127,24 @@ doi: 10.1063/1.555759
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "HCO + C2H3 <=> CO + C2H4",
-    kinetics=Arrhenius(A=(9.033e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
-    rank = 3,
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9.033e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    rank = 5,
+    shortDesc = u"""JetSurF2.0""",
+    longDesc = 
+u"""
+Taken from the JetSurF2.0 library
+""",
+)
+
+entry(
+    index = 7,
+    label = "HCO + nC3H7 <=> CO + C3H8_n",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    rank = 5,
     shortDesc = u"""JetSurF2.0""",
     longDesc = 
 u"""
@@ -111,9 +154,10 @@ Taken from the JetSurF2.0 library
 
 entry(
     index = 8,
-    label = "HCO + nC3H7 <=> CO + C3H8_n",
-    kinetics=Arrhenius(A=(6e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
-    rank = 3,
+    label = "HCO + iC3H7 <=> CO + C3H8_i",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.2e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    rank = 5,
     shortDesc = u"""JetSurF2.0""",
     longDesc = 
 u"""
@@ -123,20 +167,16 @@ Taken from the JetSurF2.0 library
 
 entry(
     index = 9,
-    label = "HCO + iC3H7 <=> CO + C3H8_i",
-    kinetics=Arrhenius(A=(1.2e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    shortDesc = u"""JetSurF2.0""",
-    longDesc = 
-u"""
-Taken from the JetSurF2.0 library
-""",
-)
-
-entry(
-    index = 10,
     label = "HCO + NO <=> CO + HNO",
-    kinetics=Arrhenius(A=(7.1e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (7.1e+12, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (0, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
     rank = 1,
     shortDesc = u"""Shock Tube""",
     longDesc = 
@@ -153,9 +193,17 @@ T ranges: 200-500 & 500-3000 K]
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "HCO + NO2 <=> CO + HONO",
-    kinetics=Arrhenius(A=(1.24e+23,'cm^3/(mol*s)'), n=-3.29, Ea=(2355,'cal/mol'), T0=(1,'K'), Tmin=(1140,'K'), Tmax=(1650,'K')),
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.24e+23, 'cm^3/(mol*s)'),
+        n = -3.29,
+        Ea = (2355, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (1140, 'K'),
+        Tmax = (1650, 'K'),
+    ),
     rank = 1,
     shortDesc = u"""Shock Tube""",
     longDesc = 
@@ -165,5 +213,23 @@ C-Y. Lin, H-T. Wang, M.C. Lin, C.F. Melius,
 Int. J. Chem. Kin, 1990, 22(5), 455-482
 doi: 10.1002/kin.550220504
 """,
+)
+
+entry(
+    index = 11,
+    label = "CH2OH + HCO <=> CH3OH + CO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    rank = 1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1002/kin.10183""",
+)
+
+entry(
+    index = 12,
+    label = "C2H5 + HCO <=> C2H6 + CO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    rank = 1,
+    shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1021/j100296a057""",
 )
 

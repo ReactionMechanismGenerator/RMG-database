@@ -2,9 +2,7 @@
 # encoding: utf-8
 
 name = "Concerted_Intra_Diels_alder_monocyclic_1,2_shiftH/groups"
-shortDesc = u"Intramolecular ring-closure by concerted addition of two alkene end groups in  a 1_3_hexadien_5_yne backbone " \
-            u"(C=C-C=C-C#C) with simultaneous 1,2-H shift over an unsaturated bond to form an unsaturated singlet carbene " \
-            u"cyclohexane product"
+shortDesc = u"Intramolecular ring-closure by concerted addition of two alkene end groups in  a 1_3_hexadien_5_yne backbone (C=C-C=C-C#C) with simultaneous 1,2-H shift over an unsaturated bond to form an unsaturated singlet carbene cyclohexane product"
 longDesc = u"""
 From 2003 Miller and Klippenstein Propargyl recombination PES:
 
@@ -16,6 +14,7 @@ template(reactants=["1_3_hexadien_5_yne"], products=["unsaturated_singlet_carben
 
 reverse = "Concerted_Retro_Intra_Diels_alder_monocyclic_singlet_carbene_disproportionation"
 
+reversible = True
 recipe(actions=[
     ['CHANGE_BOND', '*1', -1, '*2'],
     ['CHANGE_BOND', '*3', -1, '*4'],
@@ -32,16 +31,16 @@ recipe(actions=[
 boundaryAtoms = ["*1", "*7"]
 
 entry(
-    index = 1,
+    index = 0,
     label = "1_3_hexadien_5_yne",
-    group = 'OR{linear_1_3_hexadien_5_yne}',
+    group = "OR{linear_1_3_hexadien_5_yne}",
     kinetics = None,
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "linear_1_3_hexadien_5_yne",
-    group =
+    group = 
 """
 1  *3 Cd u0 {2,S} {3,D} {8,S}
 2  *2 Cd u0 {1,S} {4,D} {7,S}
@@ -49,12 +48,12 @@ entry(
 4  *1 Cd u0 {2,D} {11,S} {12,S}
 5  *5 Ct u0 {3,S} {6,T}
 6  *6 Ct u0 p0 {5,T} {10,S}
-7 R u0 {2,S}
-8 R u0 {1,S}
-9 R u0 {3,S}
-10  *7 H u0 {6,S}
-11 R u0 {4,S}
-12 R u0 {4,S}
+7     R  u0 {2,S}
+8     R  u0 {1,S}
+9     R  u0 {3,S}
+10 *7 H  u0 {6,S}
+11    R  u0 {4,S}
+12    R  u0 {4,S}
 """,
     kinetics = None,
 )

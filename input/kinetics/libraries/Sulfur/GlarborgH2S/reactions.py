@@ -9,6 +9,8 @@ An Exploratory Flow Reactor Study of H2S Oxidation at 30-100 Bar
 Y. Song, H. Hashemi, J.M. Christensen, C. Zou, B.S. Haynes, P. Marshall, P. Glarborg
 International Journal of Chemical Kinetics 49(1), 2017, 37-52
 doi: 10.1002/kin.21055
+
+Note: The rate of reaction HSS + H <=> SH + SH was changed to avoid violating the collision limit
 """
 
 entry(
@@ -173,10 +175,10 @@ entry(
                 n = 1.66,
                 Ea = (11655, 'cal/mol'),
                 T0 = (1, 'K'),
-                comment = 'MOUHEM13',
             ),
         ],
     ),
+    shortDesc = u"""MOUHEM13""",
 )
 
 entry(
@@ -207,10 +209,13 @@ entry(
                 n = 1.325,
                 Ea = (-436, 'cal/mol'),
                 T0 = (1, 'K'),
-                comment = 'kinf (fitted from figure) ##\nH2S+S=SH+SH   1.2E18 -1.685     5970 !\nY Gao CR Zhou K Sendt BS Haynes P MArshall Proc Combust Inst 33 (2011) 459-465',
             ),
         ],
     ),
+    longDesc = u"""
+kinf (fitted from figure) ##
+H2S+S=SH+SH   1.2E18 -1.685     5970 !
+Y Gao CR Zhou K Sendt BS Haynes P MArshall Proc Combust Inst 33 (2011) 459-465""",
 )
 
 entry(
@@ -432,10 +437,10 @@ entry(
                 n = 2.103,
                 Ea = (3583, 'cal/mol'),
                 T0 = (1, 'K'),
-                comment = 'Sendt K Haynes BS PROC COMBUST INST 31 257-265 2007',
             ),
         ],
     ),
+    shortDesc = u"""Sendt K Haynes BS PROC COMBUST INST 31 257-265 2007""",
 )
 
 entry(
@@ -1630,17 +1635,18 @@ entry(
                 n = 2.627,
                 Ea = (19013, 'cal/mol'),
                 T0 = (1, 'K'),
-                comment = 'Zhou TST (2009) (quArtet TS); Ea-2.5 kcal/mol (pw)',
             ),
             Arrhenius(
                 A = (29, 'cm^3/(mol*s)'),
                 n = 3.2,
                 Ea = (14529, 'cal/mol'),
                 T0 = (1, 'K'),
-                comment = 'pw (PM 2015) (doublet TS)',
             ),
         ],
     ),
+    longDesc = u"""
+1. Zhou TST (2009) (quArtet TS); Ea-2.5 kcal/mol (pw)
+2. pw (PM 2015) (doublet TS)""",
 )
 
 entry(
@@ -3244,14 +3250,22 @@ entry(
                 T0 = (1, 'K'),
             ),
             Arrhenius(
-                A = (1.6e+18, 'cm^3/(mol*s)'),
-                n = -0.983,
-                Ea = (261, 'cal/mol'),
+                A = (1.1e+13, 'cm^3/(mol*s)'),
+                n = 0.35,
+                Ea = (210, 'cal/mol'),
                 T0 = (1, 'K'),
-                comment = 'Sendt K Jazbec M Haynes BS PCI 29:2439-2446 2002\nCR Zhou K Sendt BS Haynes J. Phys. Chem. A 2009, 112, 3239-3247',
             ),
         ],
     ),
+    longDesc = u"""
+Sendt K Jazbec M Haynes BS PCI 29:2439-2446 2002
+CR Zhou K Sendt BS Haynes J. Phys. Chem. A 2009, 112, 3239-3247
+
+* Note: This reaction describes both the singlet and triplet surfaces.
+Since the original rate for the singlet surface caused this rate to violate the collision limit,
+It was reduced (by alongd) to match the singlet surface rate
+reported by K. Sendt, M. Jazbec, B.S. Haynes 2002 https://doi.org/10.1016/S1540-7489(02)80297-8
+(Table 1, R8, comment d)""",
 )
 
 entry(
@@ -3266,10 +3280,10 @@ entry(
                 n = -0.894,
                 Ea = (-56, 'cal/mol'),
                 T0 = (1, 'K'),
-                comment = 'CR Zhou K Sendt BS Haynes J. Phys. Chem. A 2009, 112, 3239-3247',
             ),
         ],
     ),
+    shortDesc = u"""CR Zhou K Sendt BS Haynes J. Phys. Chem. A 2009, 112, 3239-3247""",
 )
 
 entry(
@@ -3289,10 +3303,10 @@ entry(
                 n = -1.563,
                 Ea = (472, 'cal/mol'),
                 T0 = (1, 'K'),
-                comment = 'CR Zhou K Sendt BS Haynes J. Phys. Chem. A 2009, 112, 3239-3247',
             ),
         ],
     ),
+    shortDesc = u"""2. CR Zhou K Sendt BS Haynes J. Phys. Chem. A 2009, 112, 3239-3247""",
 )
 
 entry(
@@ -4498,4 +4512,3 @@ u"""
 Zhou est (2009)
 """,
 )
-

@@ -32,7 +32,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 calculations from CAC, energy from F12a""",
 )
 
@@ -47,7 +47,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 calculations from CAC, energy from F12a""",
 )
 
@@ -62,7 +62,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CBS-QB3 by CAC""",
 )
 
@@ -77,7 +77,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 by AGV""",
 )
 
@@ -92,7 +92,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 by AGV""",
 )
 
@@ -107,7 +107,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 by AGV""",
 )
 
@@ -122,7 +122,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 by AGV""",
 )
 
@@ -137,7 +137,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 by AGV""",
 )
 
@@ -152,7 +152,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 by AGV""",
 )
 
@@ -167,7 +167,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 by AGV""",
 )
 
@@ -182,7 +182,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 by AGV""",
 )
 
@@ -197,7 +197,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CBS-QB3 by CAC, 1dhr""",
 )
 
@@ -212,7 +212,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 by CAC with 1d-hr, F12a energies""",
 )
 
@@ -227,7 +227,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 by CAC with 1d-hr, F12a energies""",
 )
 
@@ -242,7 +242,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 by CAC with 1d-hr, F12a energies""",
 )
 
@@ -257,7 +257,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CBS-QB3 1d-hr by CAC, F12a energy""",
 )
 

@@ -73,7 +73,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Dean, A. M. [118]""",
     longDesc = 
 u"""
@@ -92,7 +92,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Dean, A. M. [118]""",
     longDesc = 
 u"""
@@ -111,7 +111,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Dean, A. M. [118]""",
     longDesc = 
 u"""
@@ -130,7 +130,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Dean, A. M. [118]""",
     longDesc = 
 u"""
@@ -149,7 +149,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Dean, A. M. [118]""",
     longDesc = 
 u"""
@@ -168,12 +168,8 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Estimate [W.H. Green]""",
-    longDesc = 
-u"""
-Sumathy CBS-Q calculations. Rate expression per H atom.
-""",
 )
 
 entry(
@@ -187,12 +183,8 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Estimate [W.H. Green]""",
-    longDesc = 
-u"""
-Sumathy CBS-Q calculations. Rate expression per H atom.
-""",
 )
 
 entry(
@@ -206,7 +198,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. Fixed by RWest (changed to per H)""",
     longDesc = 
 u"""
@@ -239,7 +231,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
     longDesc = 
 u"""
@@ -271,7 +263,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
     longDesc = 
 u"""
@@ -299,7 +291,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
     longDesc = 
 u"""
@@ -326,7 +318,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
     longDesc = 
 u"""
@@ -354,7 +346,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
     longDesc = 
 u"""
@@ -385,7 +377,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Walker, R. W. Reactions of HO 2 radicals in combustion chemistry.""",
     longDesc = 
 u"""
@@ -415,7 +407,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
     longDesc = 
 u"""
@@ -442,7 +434,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
     longDesc = 
 u"""
@@ -466,7 +458,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
     longDesc = 
 u"""
@@ -493,7 +485,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
     longDesc = 
 u"""
@@ -520,7 +512,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
     longDesc = 
 u"""
@@ -544,7 +536,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
     longDesc = 
 u"""
@@ -571,7 +563,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
     longDesc = 
 u"""
@@ -598,7 +590,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
     longDesc = 
 u"""
@@ -622,7 +614,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (800, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
 u"""
@@ -652,7 +644,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Knyazev et al. [119] Transition state theory.""",
     longDesc = 
 u"""
@@ -672,7 +664,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (3500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Mebel et al. [120] Transition state theory.""",
     longDesc = 
 u"""
@@ -692,7 +684,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Weissman et al. [121] Transition state theory.""",
     longDesc = 
 u"""
@@ -712,7 +704,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al. [94] literature review.""",
     longDesc = 
 u"""
@@ -746,7 +738,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (5000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Mebel et al. [122] Transition state theory.""",
     longDesc = 
 u"""
@@ -766,7 +758,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
 u"""
@@ -796,7 +788,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
 u"""
@@ -828,7 +820,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (2400, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Isaacson [123] Transition state theory.""",
     longDesc = 
 u"""
@@ -856,7 +848,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
 )
 
@@ -871,7 +863,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
 u"""
@@ -904,7 +896,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
 u"""
@@ -934,7 +926,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang et al. [91] literature review.""",
     longDesc = 
 u"""
@@ -965,7 +957,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
 u"""
@@ -998,7 +990,7 @@ entry(
         Tmin = (560, 'K'),
         Tmax = (1410, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Heckmann et al. [124]""",
     longDesc = 
 u"""
@@ -1020,7 +1012,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
 u"""
@@ -1050,7 +1042,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
 u"""
@@ -1080,7 +1072,7 @@ entry(
         Tmin = (223, 'K'),
         Tmax = (2400, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Melissas and Truhlar [125] Transition state theory.""",
     longDesc = 
 u"""
@@ -1100,7 +1092,7 @@ entry(
         Tmin = (240, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
 u"""
@@ -1134,7 +1126,7 @@ entry(
         Tmin = (298, 'K'),
         Tmax = (1510, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Cohen et al. [101] Transition state theory.""",
     longDesc = 
 u"""
@@ -1154,7 +1146,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
     longDesc = 
 u"""
@@ -1178,7 +1170,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
 u"""
@@ -1208,7 +1200,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
 u"""
@@ -1247,7 +1239,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
 u"""
@@ -1279,7 +1271,7 @@ entry(
         Tmin = (565, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Park et al. [126]""",
     longDesc = 
 u"""
@@ -1305,7 +1297,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
 u"""
@@ -1335,7 +1327,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
 u"""
@@ -1366,7 +1358,7 @@ entry(
         Tmin = (250, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
 u"""
@@ -1400,7 +1392,7 @@ entry(
         Tmin = (295, 'K'),
         Tmax = (600, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Taylor et al. [127] Transition state theory.""",
     longDesc = 
 u"""
@@ -1422,7 +1414,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
     longDesc = 
 u"""
@@ -1446,7 +1438,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
     longDesc = 
 u"""
@@ -1471,7 +1463,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
 u"""
@@ -1506,7 +1498,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
 u"""
@@ -1536,7 +1528,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
 u"""
@@ -1569,7 +1561,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
 u"""
@@ -1607,7 +1599,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
 u"""
@@ -1640,7 +1632,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
 u"""
@@ -1674,7 +1666,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
 u"""
@@ -1706,7 +1698,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
 u"""
@@ -1738,7 +1730,7 @@ entry(
         Tmin = (295, 'K'),
         Tmax = (1220, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Cohen et al. [101] Transition state theory.""",
     longDesc = 
 u"""
@@ -1760,7 +1752,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
 u"""
@@ -1795,7 +1787,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
 u"""
@@ -1831,7 +1823,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
 u"""
@@ -1867,7 +1859,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
 u"""
@@ -1901,7 +1893,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
 u"""
@@ -1935,7 +1927,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
 u"""
@@ -1970,7 +1962,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
 u"""
@@ -2006,7 +1998,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
 u"""
@@ -2039,7 +2031,7 @@ entry(
         Tmin = (298, 'K'),
         Tmax = (1150, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Cohen et al. [101] Transition state theory.""",
     longDesc = 
 u"""
@@ -2061,7 +2053,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
 u"""
@@ -2101,7 +2093,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Hua, Ruscic, and Wang 2005, transition state theory.""",
     longDesc = 
 u"""
@@ -2143,7 +2135,7 @@ entry(
         Tmin = (290, 'K'),
         Tmax = (1510, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Mahmud et al. [128] Transition state theory""",
     longDesc = 
 u"""
@@ -2163,7 +2155,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -2195,7 +2187,7 @@ entry(
         Tmin = (650, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
 u"""
@@ -2227,7 +2219,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [93] literature review.""",
     longDesc = 
 u"""
@@ -2266,7 +2258,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [93] literature review.""",
     longDesc = 
 u"""
@@ -2300,7 +2292,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [93] literature review.""",
     longDesc = 
 u"""
@@ -2333,7 +2325,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [93] literature review.""",
     longDesc = 
 u"""
@@ -2367,7 +2359,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [93] literature review.""",
     longDesc = 
 u"""
@@ -2397,7 +2389,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [93] literature review.""",
     longDesc = 
 u"""
@@ -2433,7 +2425,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -2465,7 +2457,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -2495,7 +2487,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -2525,7 +2517,7 @@ entry(
         Tmin = (1200, 'K'),
         Tmax = (1700, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Asaba et al. [129]. Data are estimated.""",
     longDesc = 
 u"""
@@ -2545,7 +2537,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (800, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Mebel et al. [122] RRK(M) extrapolation.""",
     longDesc = 
 u"""
@@ -2567,7 +2559,7 @@ entry(
         Tmin = (298, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Nicovich et al. [130]""",
     longDesc = 
 u"""
@@ -2589,7 +2581,7 @@ entry(
         Tmin = (650, 'K'),
         Tmax = (770, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Zhang et al. [131]""",
     longDesc = 
 u"""
@@ -2611,7 +2603,7 @@ entry(
         Tmin = (400, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
 u"""
@@ -2645,7 +2637,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2200, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Michael et al. [132] Transition state theory.""",
     longDesc = 
 u"""
@@ -2665,7 +2657,7 @@ entry(
         Tmin = (250, 'K'),
         Tmax = (2200, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
 u"""
@@ -2698,7 +2690,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -2731,7 +2723,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al. [94] literature review.""",
     longDesc = 
 u"""
@@ -2765,7 +2757,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -2797,7 +2789,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
 u"""
@@ -2831,7 +2823,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
 u"""
@@ -2867,7 +2859,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -2899,7 +2891,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -2929,7 +2921,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (3000, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
 u"""
@@ -2962,7 +2954,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -2994,7 +2986,7 @@ entry(
         Tmin = (641, 'K'),
         Tmax = (1600, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Eiteneer et al. [133] literature review.""",
     longDesc = 
 u"""
@@ -3014,7 +3006,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (1100, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
 u"""
@@ -3049,7 +3041,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Warnatz [134] literature review""",
     longDesc = 
 u"""
@@ -3069,7 +3061,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Warnatz [134] literature review""",
     longDesc = 
 u"""
@@ -3089,7 +3081,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1250, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
 u"""
@@ -3124,7 +3116,7 @@ entry(
         Tmin = (790, 'K'),
         Tmax = (810, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Loser et al. [135] bond strength-bond length method.""",
     longDesc = 
 u"""
@@ -3144,7 +3136,7 @@ entry(
         Tmin = (480, 'K'),
         Tmax = (520, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Scherzer et al. [136] bond energy-bond order method.""",
     longDesc = 
 u"""
@@ -3164,7 +3156,7 @@ entry(
         Tmin = (295, 'K'),
         Tmax = (600, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Taylor et al. [127] Transition state theory.""",
     longDesc = 
 u"""
@@ -3190,7 +3182,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Warnatz [134] literature review""",
     longDesc = 
 u"""
@@ -3210,7 +3202,7 @@ entry(
         Tmin = (900, 'K'),
         Tmax = (1200, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
 u"""
@@ -3244,7 +3236,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Mayer et al. [137] Bond energy-bond order.""",
     longDesc = 
 u"""
@@ -3267,7 +3259,7 @@ entry(
         Tmin = (298, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Karach et al. [138] Transition state theory.""",
     longDesc = 
 u"""
@@ -3287,7 +3279,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Harding et al. [139] Transition state theory.""",
     longDesc = 
 u"""
@@ -3307,7 +3299,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
 u"""
@@ -3345,7 +3337,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Ma et al. [140] Transition state theory.""",
     longDesc = 
 u"""
@@ -3365,7 +3357,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -3395,7 +3387,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -3425,7 +3417,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -3455,7 +3447,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
 u"""
@@ -3485,7 +3477,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (700, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Masgrau et al. [141] Transition state theory.""",
     longDesc = 
 u"""
@@ -3515,7 +3507,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
     longDesc = 
 u"""
@@ -3537,7 +3529,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Warnatz [134] literature review""",
     longDesc = 
 u"""
@@ -3557,7 +3549,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [90] literature review.""",
     longDesc = 
 u"""
@@ -3594,7 +3586,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
     longDesc = 
 u"""
@@ -3616,7 +3608,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [90] literature review.""",
     longDesc = 
 u"""
@@ -3653,7 +3645,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
 u"""
@@ -3691,7 +3683,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
 u"""
@@ -3728,7 +3720,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [90] literature review.""",
     longDesc = 
 u"""
@@ -3761,7 +3753,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [90] literature review.""",
     longDesc = 
 u"""
@@ -3794,7 +3786,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
     longDesc = 
 u"""
@@ -3816,7 +3808,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Warnatz [134] literature review""",
     longDesc = 
 u"""
@@ -3836,7 +3828,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -3871,7 +3863,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -3906,7 +3898,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -3941,7 +3933,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -3976,7 +3968,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4003,7 +3995,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4030,7 +4022,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4057,7 +4049,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4084,7 +4076,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4111,7 +4103,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""[8] Curran's estimation in reaction type 13, RO2 + HO2 --> RO2H + O2""",
 )
 
@@ -4126,7 +4118,7 @@ entry(
         Tmin = (378, 'K'),
         Tmax = (433, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""ET Denisov, LN Denisova. Int J Chem Kinet 8:123-130, 1975 for BuCH2(CH-H)Me in benzene""",
 )
 
@@ -4141,7 +4133,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4177,7 +4169,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4204,7 +4196,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4231,7 +4223,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4258,7 +4250,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4285,7 +4277,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4312,7 +4304,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4339,7 +4331,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4370,7 +4362,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4401,7 +4393,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4428,7 +4420,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4455,7 +4447,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4486,7 +4478,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4517,7 +4509,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4544,7 +4536,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4571,7 +4563,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4602,7 +4594,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4629,7 +4621,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4656,7 +4648,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4683,7 +4675,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4710,7 +4702,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4737,7 +4729,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4764,7 +4756,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4791,7 +4783,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""SSM due to lack of better value ref rate rule 525""",
     longDesc = 
 u"""
@@ -4814,7 +4806,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4841,7 +4833,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""SSM due to lack of better value ref rate rule 527""",
     longDesc = 
 u"""
@@ -4864,7 +4856,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4893,7 +4885,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""SSM due to lack of better value ref rate rule 529""",
     longDesc = 
 u"""
@@ -4919,7 +4911,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -4948,7 +4940,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""SSM due to lack of better value ref rate rule 531""",
     longDesc = 
 u"""
@@ -4971,7 +4963,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -5000,7 +4992,7 @@ entry(
         Tmin = (294, 'K'),
         Tmax = (376, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Matsugi et al 10.1021/jp1012494""",
     longDesc = 
 u"""
@@ -5038,7 +5030,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
     longDesc = 
 u"""
@@ -5072,7 +5064,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations, see node 534.""",
     longDesc = 
 u"""
@@ -5094,7 +5086,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
     longDesc = 
 u"""
@@ -5128,7 +5120,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations, see node 536.""",
     longDesc = 
 u"""
@@ -5150,7 +5142,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations, w/1dHR corrections""",
     longDesc = 
 u"""
@@ -5194,7 +5186,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
     longDesc = 
 u"""
@@ -5228,7 +5220,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MHS CBS-QB3 w/o 1dHR calculations""",
     longDesc = 
 u"""
@@ -5255,7 +5247,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Tully et al. experimental data (changed to per H)""",
 )
 
@@ -5270,7 +5262,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Baulch et al. literature review (value for HO2 + toluene) (changed to per H)""",
 )
 
@@ -5285,7 +5277,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Baulch et al. literature review (value for HO2 + ethylbenzene) (changed to per H)""",
 )
 
@@ -5300,7 +5292,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Baulch et al. literature review (value for HO2 + ethylbenzene) (changed to per H)""",
 )
 
@@ -5315,7 +5307,7 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (1200, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Baulch et al. literature review (value for HO2 + toluene entered here) (changed to per H)""",
 )
 
@@ -5330,7 +5322,7 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (1200, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Baulch et al. literature review (value for HO2 + toluene entered here) (changed to per H)""",
 )
 
@@ -5345,7 +5337,7 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (1200, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Baulch et al. literature review (value for HO2 + toluene entered here) (changed to per H)""",
 )
 
@@ -5360,7 +5352,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""[AJ]Assumed to be same as for ROOH_sec""",
 )
 
@@ -5375,7 +5367,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ]CBS-QB3 calculations with 1DHR corrections, reverse rates computed using DFT_QCI_thermo""",
 )
 
@@ -5390,7 +5382,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""[AJ]Assumed to be same as for C_rad/H/NonDeC""",
 )
 
@@ -5405,7 +5397,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""[AJ]Assumed to be same as for C_rad/H/NonDeC""",
 )
 
@@ -5420,7 +5412,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""[AJ] Assumed to be same as for ROOH_sec""",
 )
 
@@ -5435,7 +5427,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ] CBS-QB3 calculations with 1DHR corrections""",
 )
 
@@ -5450,7 +5442,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""[AJ] Assumed to be same as for ROOH_sec""",
 )
 
@@ -5465,7 +5457,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ] CBS-QB3 calculations with 1DHR corrections""",
 )
 
@@ -5480,7 +5472,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""[AJ] Assumed to be same as for ROOH_sec""",
 )
 
@@ -5495,7 +5487,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""[AJ] Assumed to be same as for C_rad/H2/CO""",
 )
 
@@ -5510,7 +5502,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""[AJ] Assumed to be same as for ROOH_sec""",
 )
 
@@ -5525,7 +5517,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""[AJ] CBS-QB3 calculations with 1DHR corrections""",
 )
 
@@ -5540,7 +5532,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CAC CBS-QB3 calc, 1dhr""",
 )
 
@@ -5555,7 +5547,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CAC CBS-QB3 calc, 1dhr""",
 )
 
@@ -5570,7 +5562,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CAC CBS-QB3 1dhr""",
 )
 
@@ -5585,7 +5577,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CAC CBS-QB3 1dhr""",
 )
 
@@ -5600,7 +5592,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""CAC CBS-QB3, HO approx""",
 )
 
@@ -5615,7 +5607,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations. added by Greg Magoon 08/25/09""",
     longDesc = 
 u"""
@@ -5640,7 +5632,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
 u"""
@@ -5671,7 +5663,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs""",
 )
 
@@ -5686,7 +5678,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs""",
 )
 
@@ -5701,7 +5693,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
@@ -5716,7 +5708,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
@@ -5731,7 +5723,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
@@ -5746,7 +5738,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
@@ -5761,7 +5753,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
@@ -5776,7 +5768,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr""",
 )
 
@@ -5791,7 +5783,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
@@ -5806,7 +5798,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
@@ -5821,7 +5813,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
@@ -5836,7 +5828,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
@@ -5851,7 +5843,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
 )
 
@@ -5866,7 +5858,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
 )
 
@@ -5881,7 +5873,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -5896,7 +5888,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Dean and Bozzelli chapter 2, estimation same as C_pri;NH2_rad""",
 )
 
@@ -5911,7 +5903,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -5926,7 +5918,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Dean and Bozzelli chapter 2, estimation same as C_pri;NH2_rad""",
 )
 
@@ -5941,7 +5933,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -5956,7 +5948,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
 )
 
@@ -5971,7 +5963,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -5986,7 +5978,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
 )
 
@@ -6001,7 +5993,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6016,7 +6008,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
 )
 
@@ -6031,7 +6023,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6046,7 +6038,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
 )
 
@@ -6061,24 +6053,9 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
-
-# entry(
-#     index = 2007,
-#     label = "C/H3/Cs;InChI=1S/NO3/c2-1(3)4",
-#     kinetics = ArrheniusEP(
-#         A = (2.03e-12, 'cm^3/(mol*s)'),
-#         n = 0,
-#         alpha = 0,
-#         E0 = (8.31, 'kcal/mol'),
-#         Tmin = (300, 'K'),
-#         Tmax = (2000, 'K'),
-#     ),
-#     rank = 1,
-#     shortDesc = u"""Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
-# )
 
 entry(
     index = 2008,
@@ -6091,7 +6068,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6121,7 +6098,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6136,7 +6113,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6151,7 +6128,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6166,7 +6143,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6181,7 +6158,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6196,7 +6173,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6211,7 +6188,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6226,7 +6203,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6241,7 +6218,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6256,7 +6233,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6271,7 +6248,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6286,7 +6263,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6301,7 +6278,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6316,7 +6293,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6331,7 +6308,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6346,7 +6323,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6361,7 +6338,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6376,7 +6353,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6391,7 +6368,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6406,7 +6383,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6421,7 +6398,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6436,7 +6413,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6451,7 +6428,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6466,7 +6443,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6481,7 +6458,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6496,7 +6473,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6511,7 +6488,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6526,7 +6503,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6541,7 +6518,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6556,7 +6533,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6571,7 +6548,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6586,7 +6563,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6601,7 +6578,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6616,7 +6593,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6631,7 +6608,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6646,7 +6623,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6661,7 +6638,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6676,7 +6653,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6691,7 +6668,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6706,7 +6683,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6721,7 +6698,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6736,7 +6713,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6751,7 +6728,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6766,7 +6743,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6781,7 +6758,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6796,7 +6773,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6811,7 +6788,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6826,7 +6803,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6841,7 +6818,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6856,7 +6833,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6871,7 +6848,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6886,7 +6863,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6901,7 +6878,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6916,7 +6893,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6931,7 +6908,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6946,7 +6923,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6961,7 +6938,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6976,7 +6953,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -6991,7 +6968,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7006,7 +6983,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7021,7 +6998,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7036,7 +7013,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7051,7 +7028,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7066,7 +7043,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7081,7 +7058,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7096,7 +7073,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7111,7 +7088,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7126,7 +7103,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7141,7 +7118,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7156,7 +7133,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7171,7 +7148,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7186,7 +7163,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7201,7 +7178,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7216,7 +7193,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7231,7 +7208,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7246,7 +7223,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7261,7 +7238,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7276,7 +7253,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7291,7 +7268,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7306,7 +7283,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7321,7 +7298,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7336,7 +7313,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7351,7 +7328,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7366,7 +7343,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7381,7 +7358,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7396,7 +7373,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7411,7 +7388,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7426,7 +7403,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7441,7 +7418,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7456,7 +7433,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7471,7 +7448,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7486,7 +7463,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7501,7 +7478,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7516,7 +7493,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7531,7 +7508,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7546,7 +7523,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7561,7 +7538,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7576,7 +7553,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7591,7 +7568,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7606,7 +7583,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7621,7 +7598,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7636,7 +7613,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7651,7 +7628,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7666,7 +7643,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7681,7 +7658,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7696,7 +7673,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7711,7 +7688,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7726,7 +7703,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7741,7 +7718,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7756,7 +7733,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7771,7 +7748,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7786,7 +7763,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7801,7 +7778,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7816,7 +7793,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7831,7 +7808,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7846,7 +7823,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7861,7 +7838,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7876,7 +7853,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7891,7 +7868,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7906,7 +7883,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7921,7 +7898,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7936,7 +7913,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7951,7 +7928,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -7966,7 +7943,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
 )
 
@@ -10166,7 +10143,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) OH + JP10""",
 )
 
@@ -10181,7 +10158,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) OH + JP10""",
 )
 
@@ -10196,7 +10173,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) OH + JP10""",
 )
 
@@ -10211,7 +10188,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) OH + JP10""",
 )
 
@@ -10226,7 +10203,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) OH + JP10""",
 )
 
@@ -10241,7 +10218,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) OH + JP10""",
 )
 
@@ -10256,7 +10233,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) H + JP10""",
 )
 
@@ -10271,7 +10248,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) H + JP10""",
 )
 
@@ -10286,7 +10263,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) H + JP10""",
 )
 
@@ -10301,7 +10278,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) H + JP10""",
 )
 
@@ -10316,7 +10293,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) H + JP10""",
 )
 
@@ -10331,7 +10308,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) H + JP10""",
 )
 
@@ -10346,7 +10323,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte BMK""",
 )
 
@@ -10361,7 +10338,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte BMK""",
 )
 
@@ -10376,7 +10353,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte BMK""",
 )
 
@@ -10391,7 +10368,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte BMK""",
 )
 
@@ -10406,7 +10383,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte BMK""",
 )
 
@@ -10421,7 +10398,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Aaron Vandeputte BMK""",
 )
 
@@ -10436,7 +10413,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Estimated value""",
 )
 
@@ -10451,7 +10428,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Estimated value""",
 )
 
@@ -10466,7 +10443,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Estimated value""",
 )
 
@@ -10481,7 +10458,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Estimated value""",
 )
 
@@ -10496,7 +10473,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Estimated value""",
 )
 
@@ -10511,7 +10488,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Estimated value""",
 )
 
@@ -10526,7 +10503,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections ref: doi: 10.1021/ie1005349""",
 )
 
@@ -10541,7 +10518,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections ref: doi: 10.1021/ie1005349""",
 )
 
@@ -10556,7 +10533,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections ref: doi: 10.1021/ie1005349""",
 )
 
@@ -10571,7 +10548,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections ref: doi: 10.1021/ie1005349""",
 )
 
@@ -10586,7 +10563,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections ref: doi: 10.1021/ie1005349""",
 )
 
@@ -10601,7 +10578,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections ref: doi: 10.1021/ie1005349""",
 )
 
@@ -10616,7 +10593,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""same as rule 3072. ref: doi: 10.1021/ie1005349""",
 )
 
@@ -10631,7 +10608,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections ref: doi: 10.1021/ie1005349""",
 )
 
@@ -10646,7 +10623,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""same as rule 3072. ref: doi: 10.1021/ie1005349""",
 )
 
@@ -10661,7 +10638,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections ref: doi: 10.1021/ie1005349""",
 )
 
@@ -10676,7 +10653,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections ref: doi: 10.1021/ie1005349""",
 )
 
@@ -10691,7 +10668,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections ref: doi: 10.1021/ie1005349""",
 )
 
@@ -10706,7 +10683,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
 )
 
@@ -10721,7 +10698,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
 )
 
@@ -10736,7 +10713,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
 )
 
@@ -10751,7 +10728,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
 )
 
@@ -10766,7 +10743,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
 )
 
@@ -10781,7 +10758,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""iBuOH + OH (communication from truhlar group) refitted to arrhenius form""",
 )
 
@@ -10796,7 +10773,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""iBuOH + OH (communication from truhlar group) refitted to arrhenius form""",
 )
 
@@ -10811,7 +10788,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""iBuOH + OH (communication from truhlar group) refitted to arrhenius form""",
 )
 
@@ -10826,7 +10803,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""iBuOH + OH (communication from truhlar group) refitted to arrhenius form""",
 )
 
@@ -10841,7 +10818,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
 )
 
@@ -10856,7 +10833,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
 )
 
@@ -10871,7 +10848,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
 )
 
@@ -10886,7 +10863,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
 )
 
@@ -10901,7 +10878,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
 )
 
@@ -10916,7 +10893,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
 )
 
@@ -10931,9 +10908,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
-    longDesc = u"""Value for ipentanol, x3 lower mainly because of gamma O restricting rotation of abstracting methyl""",
+    longDesc = 
+u"""
+Value for ipentanol, x3 lower mainly because of gamma O restricting rotation of abstracting methyl
+""",
 )
 
 entry(
@@ -10947,7 +10927,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
 )
 
@@ -10962,7 +10942,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
 )
 
@@ -10977,7 +10957,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR corrections""",
 )
 
@@ -10992,7 +10972,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR corrections""",
 )
 
@@ -11007,7 +10987,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR corrections""",
 )
 
@@ -11022,13 +11002,14 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""C2H5OH+O=OH+CH2CH2OH""",
-    longDesc = """
+    longDesc = 
+u"""
 iBuOH+O SSM estimates		 
 Values for -alpha,-gamma,-O come from C2H5OH+O TST calculations:
 C. W. Wu, Y. P. Lee, S. C. Xu, M. C. Lin, J. Phys. Chem. A 111 (2007) 6693-6703. 		 //!	C. W. Wu, Y. P. Lee, S. C. Xu, M. C. Lin, J. Phys. Chem. A 111 (2007) 6693-6703. 
--alpha is 2*k(C2H5OH+O=OH+CH2CH2OH)		
+-alpha is 2*k(C2H5OH+O=OH+CH2CH2OH)
 """,
 )
 
@@ -11043,7 +11024,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""iso-butane + O = OH + tert-C4H9""",
 )
 
@@ -11058,7 +11039,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""C2H5OH+O=OH+CH3CHOH""",
 )
 
@@ -11073,7 +11054,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""C2H5OH+O=OH+CH3CH2O""",
 )
 
@@ -11088,7 +11069,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""SSM CBS-QB3 without 1-dHR corrections""",
 )
 
@@ -11103,7 +11084,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""same as 3116""",
 )
 
@@ -11118,7 +11099,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""SSM CBS-QB3 without 1-dHR corrections""",
 )
 
@@ -11133,7 +11114,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""SSM CBS-QB3 without 1-dHR corrections""",
 )
 
@@ -11148,10 +11129,13 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CCSD(T)-F12a/pVTZ with MS-VTST treatment for rotors""",
-    longDesc = """Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
-doi: 10.1021/jp310910f""",
+    longDesc = 
+u"""
+Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
+doi: 10.1021/jp310910f
+""",
 )
 
 entry(
@@ -11165,10 +11149,13 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CCSD(T)-F12a/pVTZ with MS-VTST treatment for rotors""",
-    longDesc = """Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
-doi: 10.1021/jp310910f""",
+    longDesc = 
+u"""
+Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
+doi: 10.1021/jp310910f
+""",
 )
 
 entry(
@@ -11182,7 +11169,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
 )
 
 entry(
@@ -11196,10 +11183,13 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CCSD(T)-F12a/pVTZ with MS-VTST treatment for rotors""",
-    longDesc = """Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
-doi: 10.1021/jp310910f""",
+    longDesc = 
+u"""
+Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
+doi: 10.1021/jp310910f
+""",
 )
 
 entry(
@@ -11213,10 +11203,13 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CCSD(T)-F12a/pVTZ with MS-VTST treatment for rotors""",
-    longDesc = """Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
-doi: 10.1021/jp310910f""",
+    longDesc = 
+u"""
+Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
+doi: 10.1021/jp310910f
+""",
 )
 
 entry(
@@ -11230,7 +11223,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
 )
 
 entry(
@@ -11244,7 +11237,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CCSD(T)-F12a/pVTZ with MS-VTST treatment for rotors""",
 )
 
@@ -11259,7 +11252,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11274,7 +11267,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11289,7 +11282,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11304,7 +11297,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11319,7 +11312,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11334,7 +11327,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11349,7 +11342,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11364,7 +11357,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11379,7 +11372,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11394,7 +11387,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11409,7 +11402,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11424,7 +11417,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11439,7 +11432,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11454,7 +11447,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11469,7 +11462,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11484,7 +11477,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11499,7 +11492,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11514,7 +11507,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11529,7 +11522,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11544,7 +11537,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11559,7 +11552,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11574,7 +11567,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11589,7 +11582,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11604,7 +11597,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11619,7 +11612,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11634,7 +11627,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11649,7 +11642,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11664,7 +11657,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11679,7 +11672,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11694,7 +11687,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11709,7 +11702,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11724,7 +11717,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11739,7 +11732,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11754,7 +11747,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11769,7 +11762,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11784,7 +11777,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11799,7 +11792,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11814,7 +11807,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11829,7 +11822,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11844,7 +11837,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11859,7 +11852,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11874,7 +11867,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11889,7 +11882,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11904,7 +11897,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11919,7 +11912,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11934,7 +11927,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11949,7 +11942,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11964,7 +11957,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11979,7 +11972,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -11994,7 +11987,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12009,7 +12002,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12024,7 +12017,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12039,7 +12032,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12054,7 +12047,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12069,7 +12062,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12084,7 +12077,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12099,7 +12092,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12114,7 +12107,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12129,7 +12122,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12144,7 +12137,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12159,7 +12152,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12174,7 +12167,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12189,7 +12182,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12204,7 +12197,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12219,7 +12212,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12234,7 +12227,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12249,7 +12242,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12264,22 +12257,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4068,
-    label = "C_methane;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000605, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (10.7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12294,7 +12272,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4068,
+    label = "C_methane;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000605, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (10.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12309,7 +12302,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12324,7 +12317,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12339,7 +12332,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12354,7 +12347,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12369,7 +12362,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12384,7 +12377,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12399,7 +12392,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12414,7 +12407,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12429,7 +12422,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12444,7 +12437,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12459,7 +12452,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12474,7 +12467,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12489,7 +12482,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12504,7 +12497,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12519,7 +12512,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12534,7 +12527,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12549,7 +12542,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12564,7 +12557,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12579,7 +12572,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12594,7 +12587,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12609,7 +12602,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12624,7 +12617,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12639,7 +12632,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12654,7 +12647,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12669,7 +12662,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12684,7 +12677,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12699,7 +12692,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12714,7 +12707,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12729,7 +12722,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12744,7 +12737,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12759,7 +12752,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12774,7 +12767,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12789,7 +12782,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12804,7 +12797,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12819,7 +12812,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12834,7 +12827,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12849,7 +12842,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12864,7 +12857,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12879,7 +12872,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12894,7 +12887,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12909,7 +12902,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12924,22 +12917,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4112,
-    label = "C/H3/Cs;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.0165, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (17, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12954,7 +12932,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12969,7 +12947,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4112,
+    label = "C/H3/Cs;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.0165, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (17, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12984,7 +12977,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -12999,7 +12992,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13014,7 +13007,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13029,7 +13022,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13044,7 +13037,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13059,7 +13052,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13074,7 +13067,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13089,7 +13082,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13104,7 +13097,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13119,7 +13112,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13134,7 +13127,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13149,7 +13142,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13164,7 +13157,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13179,7 +13172,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13194,7 +13187,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13209,7 +13202,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13224,7 +13217,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13239,7 +13232,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13254,7 +13247,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13269,7 +13262,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13284,7 +13277,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13299,7 +13292,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13314,7 +13307,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13329,7 +13322,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13344,7 +13337,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13359,7 +13352,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13374,7 +13367,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13389,7 +13382,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13404,7 +13397,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13419,7 +13412,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13434,7 +13427,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13449,7 +13442,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13464,7 +13457,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13479,7 +13472,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13494,7 +13487,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13509,7 +13502,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13524,7 +13517,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13539,7 +13532,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13554,7 +13547,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13569,7 +13562,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13584,7 +13577,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13599,22 +13592,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4157,
-    label = "C/H2/NonDeC;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.0166, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (14, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13629,7 +13607,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13644,7 +13622,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13659,7 +13637,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4157,
+    label = "C/H2/NonDeC;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.0166, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (14, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13674,7 +13667,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13689,7 +13682,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13704,7 +13697,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13719,7 +13712,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13734,7 +13727,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13749,7 +13742,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13764,7 +13757,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13779,7 +13772,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13794,7 +13787,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13809,7 +13802,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13824,7 +13817,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13839,7 +13832,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13854,7 +13847,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13869,7 +13862,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13884,7 +13877,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13899,7 +13892,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13914,7 +13907,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13929,7 +13922,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13944,7 +13937,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13959,7 +13952,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13974,7 +13967,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -13989,7 +13982,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14004,7 +13997,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14019,7 +14012,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14034,7 +14027,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14049,7 +14042,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14064,7 +14057,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14079,7 +14072,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14094,7 +14087,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14109,7 +14102,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14124,7 +14117,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14139,7 +14132,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14154,7 +14147,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14169,7 +14162,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14184,7 +14177,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14199,7 +14192,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14214,7 +14207,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14229,7 +14222,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14244,7 +14237,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14259,7 +14252,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14274,22 +14267,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4202,
-    label = "C/H/Cs3;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.0191, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (11, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14304,7 +14282,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14319,7 +14297,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14334,7 +14312,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14349,7 +14327,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4202,
+    label = "C/H/Cs3;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.0191, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (11, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14364,7 +14357,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14379,7 +14372,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14394,7 +14387,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14409,7 +14402,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14424,7 +14417,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14439,7 +14432,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14454,7 +14447,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14469,7 +14462,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14484,7 +14477,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14499,7 +14492,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14514,7 +14507,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14529,7 +14522,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14544,7 +14537,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14559,7 +14552,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14574,7 +14567,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14589,7 +14582,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14604,7 +14597,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14619,7 +14612,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14634,7 +14627,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14649,7 +14642,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14664,7 +14657,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14679,7 +14672,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14694,7 +14687,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14709,7 +14702,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14724,7 +14717,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14739,7 +14732,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14754,7 +14747,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14769,7 +14762,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14784,7 +14777,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14799,7 +14792,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14814,7 +14807,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14829,7 +14822,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14844,7 +14837,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14859,7 +14852,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14874,7 +14867,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14889,7 +14882,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14904,7 +14897,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14919,7 +14912,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14934,7 +14927,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14949,22 +14942,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4247,
-    label = "C/H3/Cd;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.00164, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (10.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14979,7 +14957,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -14994,7 +14972,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15009,7 +14987,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15024,7 +15002,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15039,7 +15017,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4247,
+    label = "C/H3/Cd;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.00164, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (10.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15054,7 +15047,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15069,7 +15062,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15084,7 +15077,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15099,7 +15092,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15114,7 +15107,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15129,7 +15122,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15144,7 +15137,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15159,7 +15152,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15174,7 +15167,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15189,7 +15182,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15204,7 +15197,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15219,7 +15212,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15234,7 +15227,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15249,7 +15242,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15264,7 +15257,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15279,7 +15272,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15294,7 +15287,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15309,7 +15302,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15324,7 +15317,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15339,7 +15332,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15354,7 +15347,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15369,7 +15362,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15384,7 +15377,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15399,7 +15392,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15414,7 +15407,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15429,7 +15422,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15444,7 +15437,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15459,7 +15452,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15474,7 +15467,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15489,7 +15482,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15504,7 +15497,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15519,7 +15512,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15534,7 +15527,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15549,7 +15542,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15564,7 +15557,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15579,7 +15572,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15594,7 +15587,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15609,7 +15602,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15624,22 +15617,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4292,
-    label = "C/H2/CdCs;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.00512, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (8.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15654,7 +15632,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15669,7 +15647,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15684,7 +15662,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15699,7 +15677,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15714,7 +15692,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15729,7 +15707,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4292,
+    label = "C/H2/CdCs;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.00512, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (8.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15744,7 +15737,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15759,7 +15752,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15774,7 +15767,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15789,7 +15782,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15804,7 +15797,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15819,7 +15812,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15834,7 +15827,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15849,7 +15842,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15864,7 +15857,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15879,7 +15872,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15894,7 +15887,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15909,7 +15902,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15924,7 +15917,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15939,7 +15932,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15954,7 +15947,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15969,7 +15962,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15984,7 +15977,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -15999,7 +15992,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16014,7 +16007,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16029,7 +16022,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16044,7 +16037,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16059,7 +16052,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16074,7 +16067,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16089,7 +16082,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16104,7 +16097,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16119,7 +16112,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16134,7 +16127,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16149,7 +16142,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16164,7 +16157,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16179,7 +16172,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16194,7 +16187,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16209,7 +16202,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16224,7 +16217,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16239,7 +16232,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16254,7 +16247,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16269,7 +16262,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16284,7 +16277,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16299,7 +16292,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16314,22 +16307,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4338,
-    label = "C/H/Cs2Cd;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000686, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (2.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16344,7 +16322,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16359,7 +16337,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16374,7 +16352,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16389,7 +16367,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16404,7 +16382,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16419,7 +16397,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16434,7 +16412,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4338,
+    label = "C/H/Cs2Cd;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000686, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (2.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16449,7 +16442,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16464,7 +16457,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16479,7 +16472,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16494,7 +16487,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16509,7 +16502,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16524,7 +16517,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16539,7 +16532,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16554,7 +16547,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16569,7 +16562,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16584,7 +16577,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16599,7 +16592,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16614,7 +16607,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16629,7 +16622,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16644,7 +16637,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16659,7 +16652,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16674,7 +16667,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16689,7 +16682,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16704,7 +16697,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16719,7 +16712,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16734,7 +16727,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16749,7 +16742,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16764,7 +16757,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16779,7 +16772,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16794,7 +16787,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16809,7 +16802,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16824,7 +16817,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16839,7 +16832,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16854,7 +16847,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16869,7 +16862,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16884,7 +16877,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16899,7 +16892,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16914,7 +16907,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16929,7 +16922,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16944,7 +16937,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16959,7 +16952,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -16974,22 +16967,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4382,
-    label = "C/H2/CdCd;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.00218, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (4.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17004,7 +16982,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17019,7 +16997,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17034,7 +17012,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17049,7 +17027,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17064,7 +17042,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17079,7 +17057,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17094,7 +17072,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17109,7 +17087,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4382,
+    label = "C/H2/CdCd;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.00218, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (4.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17124,7 +17117,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17139,7 +17132,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17154,7 +17147,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17169,7 +17162,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17184,7 +17177,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17199,7 +17192,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17214,7 +17207,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17229,7 +17222,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17244,7 +17237,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17259,7 +17252,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17274,7 +17267,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17289,7 +17282,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17304,7 +17297,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17319,7 +17312,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17334,7 +17327,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17349,7 +17342,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17364,7 +17357,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17379,7 +17372,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17394,7 +17387,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17409,7 +17402,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17424,7 +17417,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17439,7 +17432,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17454,7 +17447,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17469,7 +17462,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17484,7 +17477,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17499,7 +17492,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17514,7 +17507,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17529,7 +17522,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17544,7 +17537,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17559,7 +17552,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17574,7 +17567,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17589,7 +17582,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17604,7 +17597,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17619,7 +17612,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17634,7 +17627,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17649,22 +17642,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4427,
-    label = "C/H/CdCd;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.000887, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (1.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17679,7 +17657,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17694,7 +17672,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17709,7 +17687,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17724,7 +17702,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17739,7 +17717,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17754,7 +17732,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17769,7 +17747,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17784,7 +17762,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17799,7 +17777,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4427,
+    label = "C/H/CdCd;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.000887, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (1.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17814,7 +17807,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17829,7 +17822,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17844,7 +17837,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17859,7 +17852,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17874,7 +17867,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17889,7 +17882,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17904,7 +17897,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17919,7 +17912,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17934,7 +17927,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17949,7 +17942,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17964,7 +17957,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17979,7 +17972,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -17994,7 +17987,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18009,7 +18002,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18024,7 +18017,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18039,7 +18032,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18054,7 +18047,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18069,7 +18062,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18084,7 +18077,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18099,7 +18092,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18114,7 +18107,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18129,7 +18122,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18144,7 +18137,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18159,7 +18152,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18174,7 +18167,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18189,7 +18182,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18204,7 +18197,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18219,7 +18212,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18234,7 +18227,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18249,7 +18242,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18264,7 +18257,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18279,7 +18272,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18294,7 +18287,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18309,7 +18302,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18324,22 +18317,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4472,
-    label = "C/H3/Ct;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.0051, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (11.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18354,7 +18332,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18369,7 +18347,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18384,7 +18362,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18399,7 +18377,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18414,7 +18392,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18429,7 +18407,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18444,7 +18422,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18459,7 +18437,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18474,7 +18452,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18489,7 +18467,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4472,
+    label = "C/H3/Ct;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.0051, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (11.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18504,7 +18497,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18519,7 +18512,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18534,7 +18527,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18549,7 +18542,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18564,7 +18557,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18579,7 +18572,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18594,7 +18587,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18609,7 +18602,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18624,7 +18617,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18639,7 +18632,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18654,7 +18647,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18669,7 +18662,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18684,7 +18677,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18699,7 +18692,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18714,7 +18707,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18729,7 +18722,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18744,7 +18737,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18759,7 +18752,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18774,7 +18767,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18789,7 +18782,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18804,7 +18797,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18819,7 +18812,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18834,7 +18827,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18849,7 +18842,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18864,7 +18857,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18879,7 +18872,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18894,7 +18887,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18909,7 +18902,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18924,7 +18917,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18939,7 +18932,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18954,7 +18947,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18969,7 +18962,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18984,7 +18977,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -18999,22 +18992,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4517,
-    label = "C/H2/CtCs;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.00552, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (8.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19029,7 +19007,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19044,7 +19022,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19059,7 +19037,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19074,7 +19052,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19089,7 +19067,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19104,7 +19082,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19119,7 +19097,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19134,7 +19112,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19149,7 +19127,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19164,7 +19142,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19179,7 +19157,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4517,
+    label = "C/H2/CtCs;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.00552, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (8.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19194,7 +19187,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19209,7 +19202,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19224,7 +19217,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19239,7 +19232,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19254,7 +19247,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19269,7 +19262,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19284,7 +19277,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19299,7 +19292,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19314,7 +19307,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19329,7 +19322,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19344,7 +19337,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19359,7 +19352,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19374,7 +19367,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19389,7 +19382,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19404,7 +19397,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19419,7 +19412,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19434,7 +19427,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19449,7 +19442,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19464,7 +19457,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19479,7 +19472,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19494,7 +19487,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19509,7 +19502,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19524,7 +19517,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19539,7 +19532,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19554,7 +19547,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19569,7 +19562,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19584,7 +19577,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19599,7 +19592,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19614,7 +19607,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19629,7 +19622,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19644,7 +19637,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19659,7 +19652,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19674,22 +19667,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4562,
-    label = "C/H/Cs2Ct;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.00524, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (6.4, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19704,7 +19682,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19719,7 +19697,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19734,7 +19712,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19749,7 +19727,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19764,7 +19742,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19779,7 +19757,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19794,7 +19772,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19809,7 +19787,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19824,7 +19802,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19839,7 +19817,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19854,7 +19832,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19869,7 +19847,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4562,
+    label = "C/H/Cs2Ct;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.00524, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (6.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19884,7 +19877,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19899,7 +19892,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19914,7 +19907,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19929,7 +19922,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19944,7 +19937,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19959,7 +19952,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19974,7 +19967,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -19989,7 +19982,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20004,7 +19997,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20019,7 +20012,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20034,7 +20027,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20049,7 +20042,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20064,7 +20057,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20079,7 +20072,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20094,7 +20087,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20109,7 +20102,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20124,7 +20117,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20139,7 +20132,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20154,7 +20147,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20169,7 +20162,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20184,7 +20177,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20199,7 +20192,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20214,7 +20207,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20229,7 +20222,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20244,7 +20237,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20259,7 +20252,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20274,7 +20267,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20289,7 +20282,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20304,7 +20297,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20319,7 +20312,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20334,7 +20327,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20349,22 +20342,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4607,
-    label = "C/H2/CtCt;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.00195, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (4.2, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20379,7 +20357,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20394,7 +20372,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20409,7 +20387,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20424,7 +20402,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20439,7 +20417,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20454,7 +20432,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20469,7 +20447,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20484,7 +20462,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20499,7 +20477,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20514,7 +20492,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20529,7 +20507,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20544,7 +20522,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20559,7 +20537,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4607,
+    label = "C/H2/CtCt;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.00195, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (4.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20574,7 +20567,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20589,7 +20582,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20604,7 +20597,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20619,7 +20612,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20634,7 +20627,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20649,7 +20642,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20664,7 +20657,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20679,7 +20672,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20694,7 +20687,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20709,7 +20702,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20724,7 +20717,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20739,7 +20732,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20754,7 +20747,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20769,7 +20762,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20784,7 +20777,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20799,7 +20792,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20814,7 +20807,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20829,7 +20822,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20844,7 +20837,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20859,7 +20852,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20874,7 +20867,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20889,7 +20882,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20904,7 +20897,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20919,7 +20912,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20934,7 +20927,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20949,7 +20942,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20964,7 +20957,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20979,7 +20972,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -20994,7 +20987,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21009,7 +21002,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21024,22 +21017,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4652,
-    label = "C/H/CtCt;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.00177, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (2, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21054,7 +21032,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21069,7 +21047,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21084,7 +21062,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21099,7 +21077,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21114,7 +21092,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21129,7 +21107,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21144,7 +21122,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21159,7 +21137,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21174,7 +21152,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21189,7 +21167,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21204,7 +21182,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21219,7 +21197,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21234,7 +21212,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21249,7 +21227,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4652,
+    label = "C/H/CtCt;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.00177, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21264,7 +21257,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21279,7 +21272,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21294,7 +21287,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21309,7 +21302,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21324,7 +21317,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21339,7 +21332,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21354,7 +21347,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21369,7 +21362,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21384,7 +21377,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21399,7 +21392,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21414,7 +21407,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21429,7 +21422,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21444,7 +21437,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21459,7 +21452,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21474,7 +21467,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21489,7 +21482,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21504,7 +21497,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21519,7 +21512,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21534,7 +21527,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21549,7 +21542,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21564,7 +21557,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21579,7 +21572,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21594,7 +21587,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21609,7 +21602,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21624,7 +21617,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21639,7 +21632,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21654,7 +21647,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21669,7 +21662,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21684,7 +21677,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21699,22 +21692,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4697,
-    label = "C/H3/Cb;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.00139, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (12.8, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21729,7 +21707,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21744,7 +21722,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21759,7 +21737,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21774,7 +21752,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21789,7 +21767,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21804,7 +21782,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21819,7 +21797,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21834,7 +21812,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21849,7 +21827,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21864,7 +21842,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21879,7 +21857,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21894,7 +21872,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21909,7 +21887,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21924,7 +21902,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21939,7 +21917,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4697,
+    label = "C/H3/Cb;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.00139, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (12.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21954,7 +21947,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21969,7 +21962,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21984,7 +21977,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -21999,7 +21992,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22014,7 +22007,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22029,7 +22022,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22044,7 +22037,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22059,7 +22052,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22074,7 +22067,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22089,7 +22082,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22104,7 +22097,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22119,7 +22112,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22134,7 +22127,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22149,7 +22142,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22164,7 +22157,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22179,7 +22172,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22194,7 +22187,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22209,7 +22202,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22224,7 +22217,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22239,7 +22232,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22254,7 +22247,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22269,7 +22262,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22284,7 +22277,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22299,7 +22292,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22314,7 +22307,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22329,7 +22322,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22344,7 +22337,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22359,7 +22352,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22374,22 +22367,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4742,
-    label = "C/H2/CbCs;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.00168, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (9.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22404,7 +22382,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22419,7 +22397,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22434,7 +22412,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22449,7 +22427,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22464,7 +22442,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22479,7 +22457,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22494,7 +22472,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22509,7 +22487,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22524,7 +22502,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22539,7 +22517,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22554,7 +22532,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22569,7 +22547,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22584,7 +22562,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22599,7 +22577,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22614,7 +22592,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22629,7 +22607,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4742,
+    label = "C/H2/CbCs;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.00168, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (9.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22644,7 +22637,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22659,7 +22652,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22674,7 +22667,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22689,7 +22682,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22704,7 +22697,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22719,7 +22712,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22734,7 +22727,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22749,7 +22742,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22764,7 +22757,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22779,7 +22772,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22794,7 +22787,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22809,7 +22802,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22824,7 +22817,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22839,7 +22832,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22854,7 +22847,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22869,7 +22862,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22884,7 +22877,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22899,7 +22892,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22914,7 +22907,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22929,7 +22922,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22944,7 +22937,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22959,7 +22952,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22974,7 +22967,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -22989,7 +22982,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23004,7 +22997,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23019,7 +23012,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23034,7 +23027,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23049,7 +23042,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23064,22 +23057,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4788,
-    label = "C/H/Cs2Cb;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000263, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (4, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23094,7 +23072,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23109,7 +23087,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23124,7 +23102,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23139,7 +23117,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23154,7 +23132,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23169,7 +23147,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23184,7 +23162,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23199,7 +23177,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23214,7 +23192,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23229,7 +23207,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23244,7 +23222,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23259,7 +23237,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23274,7 +23252,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23289,7 +23267,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23304,7 +23282,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23319,7 +23297,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23334,7 +23312,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4788,
+    label = "C/H/Cs2Cb;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000263, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23349,7 +23342,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23364,7 +23357,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23379,7 +23372,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23394,7 +23387,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23409,7 +23402,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23424,7 +23417,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23439,7 +23432,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23454,7 +23447,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23469,7 +23462,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23484,7 +23477,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23499,7 +23492,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23514,7 +23507,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23529,7 +23522,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23544,7 +23537,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23559,7 +23552,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23574,7 +23567,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23589,7 +23582,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23604,7 +23597,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23619,7 +23612,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23634,7 +23627,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23649,7 +23642,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23664,7 +23657,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23679,7 +23672,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23694,7 +23687,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23709,7 +23702,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23724,7 +23717,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23739,22 +23732,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4833,
-    label = "Cd_pri;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.001, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (11.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23769,7 +23747,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23784,7 +23762,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23799,7 +23777,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23814,7 +23792,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23829,7 +23807,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23844,7 +23822,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23859,7 +23837,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23874,7 +23852,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23889,7 +23867,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23904,7 +23882,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23919,7 +23897,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23934,7 +23912,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23949,7 +23927,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23964,7 +23942,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23979,7 +23957,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -23994,7 +23972,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24009,7 +23987,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24024,7 +24002,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4833,
+    label = "Cd_pri;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.001, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (11.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24039,7 +24032,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24054,7 +24047,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24069,7 +24062,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24084,7 +24077,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24099,7 +24092,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24114,7 +24107,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24129,7 +24122,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24144,7 +24137,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24159,7 +24152,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24174,7 +24167,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24189,7 +24182,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24204,7 +24197,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24219,7 +24212,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24234,7 +24227,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24249,7 +24242,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24264,7 +24257,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24279,7 +24272,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24294,7 +24287,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24309,7 +24302,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24324,7 +24317,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24339,7 +24332,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24354,7 +24347,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24369,7 +24362,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24384,7 +24377,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24399,22 +24392,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4877,
-    label = "Cd/H/NonDeC;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.023, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (17.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24429,7 +24407,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24444,7 +24422,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24459,7 +24437,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24474,7 +24452,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24489,7 +24467,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24504,7 +24482,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24519,7 +24497,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24534,7 +24512,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24549,7 +24527,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24564,7 +24542,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24579,7 +24557,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24594,7 +24572,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24609,7 +24587,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24624,7 +24602,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24639,7 +24617,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24654,7 +24632,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24669,7 +24647,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24684,7 +24662,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24699,7 +24677,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4877,
+    label = "Cd/H/NonDeC;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.023, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (17.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24714,7 +24707,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24729,7 +24722,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24744,7 +24737,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24759,7 +24752,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24774,7 +24767,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24789,7 +24782,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24804,7 +24797,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24819,7 +24812,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24834,7 +24827,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24849,7 +24842,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24864,7 +24857,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24879,7 +24872,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24894,7 +24887,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24909,7 +24902,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24924,7 +24917,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24939,7 +24932,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24954,7 +24947,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24969,7 +24962,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24984,7 +24977,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -24999,7 +24992,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25014,7 +25007,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25029,7 +25022,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25044,7 +25037,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25059,7 +25052,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25074,22 +25067,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4922,
-    label = "Cd/H/Cd;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.0265, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (18.4, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25104,7 +25082,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25119,7 +25097,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25134,7 +25112,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25149,7 +25127,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25164,7 +25142,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25179,7 +25157,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25194,7 +25172,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25209,7 +25187,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25224,7 +25202,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25239,7 +25217,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25254,7 +25232,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25269,7 +25247,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25284,7 +25262,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25299,7 +25277,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25314,7 +25292,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25329,7 +25307,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25344,7 +25322,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25359,7 +25337,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25374,7 +25352,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25389,7 +25367,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4922,
+    label = "Cd/H/Cd;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.0265, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (18.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25404,7 +25397,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25419,7 +25412,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25434,7 +25427,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25449,7 +25442,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25464,7 +25457,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25479,7 +25472,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25494,7 +25487,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25509,7 +25502,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25524,7 +25517,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25539,7 +25532,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25554,7 +25547,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25569,7 +25562,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25584,7 +25577,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25599,7 +25592,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25614,7 +25607,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25629,7 +25622,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25644,7 +25637,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25659,7 +25652,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25674,7 +25667,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25689,7 +25682,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25704,7 +25697,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25719,7 +25712,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25734,7 +25727,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25749,7 +25742,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25764,22 +25757,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4968,
-    label = "Cb_H;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.00123, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (13, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25794,7 +25772,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25809,7 +25787,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25824,7 +25802,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25839,7 +25817,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25854,7 +25832,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25869,7 +25847,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25884,7 +25862,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25899,7 +25877,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25914,7 +25892,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25929,7 +25907,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25944,7 +25922,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25959,7 +25937,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25974,7 +25952,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -25989,7 +25967,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26004,7 +25982,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26019,7 +25997,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26034,7 +26012,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26049,7 +26027,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26064,7 +26042,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26079,7 +26057,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26094,7 +26072,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4968,
+    label = "Cb_H;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.00123, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (13, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26109,682 +26102,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4991,
-    label = "Cd_Cdd/H2;C_methyl",
-    kinetics = ArrheniusEP(
-        A = (0.0387, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (5.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4992,
-    label = "Cd_Cdd/H2;C_rad/H2/Cs",
-    kinetics = ArrheniusEP(
-        A = (0.00545, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (5.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4993,
-    label = "Cd_Cdd/H2;C_rad/H/NonDeC",
-    kinetics = ArrheniusEP(
-        A = (0.00631, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (5.7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4994,
-    label = "Cd_Cdd/H2;C_rad/Cs3",
-    kinetics = ArrheniusEP(
-        A = (0.00635, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (4.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4995,
-    label = "Cd_Cdd/H2;C_rad/H2/Cd",
-    kinetics = ArrheniusEP(
-        A = (0.0272, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (14.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4996,
-    label = "Cd_Cdd/H2;C_rad/H/CdCs",
-    kinetics = ArrheniusEP(
-        A = (0.0169, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (15.2, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4997,
-    label = "Cd_Cdd/H2;C_rad/CdCs2",
-    kinetics = ArrheniusEP(
-        A = (0.00263, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (14.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4998,
-    label = "Cd_Cdd/H2;C_rad/H/CdCd",
-    kinetics = ArrheniusEP(
-        A = (0.0213, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (20.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 4999,
-    label = "Cd_Cdd/H2;C_rad/CdCdCs",
-    kinetics = ArrheniusEP(
-        A = (0.000953, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (20, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5000,
-    label = "Cd_Cdd/H2;C_rad/H2/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.0139, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (10.7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5001,
-    label = "Cd_Cdd/H2;C_rad/H/CtCs",
-    kinetics = ArrheniusEP(
-        A = (0.00457, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (11.2, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5002,
-    label = "Cd_Cdd/H2;C_rad/CtCs2",
-    kinetics = ArrheniusEP(
-        A = (0.00172, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (10.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5003,
-    label = "Cd_Cdd/H2;C_rad/H/CtCt",
-    kinetics = ArrheniusEP(
-        A = (0.00646, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (14.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5004,
-    label = "Cd_Cdd/H2;C_rad/CtCtCs",
-    kinetics = ArrheniusEP(
-        A = (0.00026, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (14.8, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5005,
-    label = "Cd_Cdd/H2;C_rad/H2/Cb",
-    kinetics = ArrheniusEP(
-        A = (0.0252, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (12.4, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5006,
-    label = "Cd_Cdd/H2;C_rad/H/CbCs",
-    kinetics = ArrheniusEP(
-        A = (0.0106, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (12.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5007,
-    label = "Cd_Cdd/H2;C_rad/CbCs2",
-    kinetics = ArrheniusEP(
-        A = (0.000522, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (10.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5008,
-    label = "Cd_Cdd/H2;Cd_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (0.0417, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5009,
-    label = "Cd_Cdd/H2;Cd_rad/NonDeC",
-    kinetics = ArrheniusEP(
-        A = (0.0236, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (0.8, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5010,
-    label = "Cd_Cdd/H2;Cd_rad/Cd",
-    kinetics = ArrheniusEP(
-        A = (0.0193, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (8.7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5011,
-    label = "Cd_Cdd/H2;Cb_rad",
-    kinetics = ArrheniusEP(
-        A = (0.0531, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (-1.7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5012,
-    label = "Cd_Cdd/H2;Cd_Cdd_rad/H",
-    kinetics = ArrheniusEP(
-        A = (0.0308, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (11.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5013,
-    label = "Cd_Cdd/H2;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.00452, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5014,
-    label = "Cd_Cdd/H2;C_rad/H2/S",
-    kinetics = ArrheniusEP(
-        A = (0.0122, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (8.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5015,
-    label = "Cd_Cdd/H2;C_rad/H/CsS",
-    kinetics = ArrheniusEP(
-        A = (0.0343, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5016,
-    label = "Cd_Cdd/H2;C_rad/Cs2S",
-    kinetics = ArrheniusEP(
-        A = (0.0199, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (5.7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5017,
-    label = "Cd_Cdd/H2;C_rad/H2/CS",
-    kinetics = ArrheniusEP(
-        A = (0.0195, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (15.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5018,
-    label = "Cd_Cdd/H2;C_rad/H/CSCs",
-    kinetics = ArrheniusEP(
-        A = (0.0304, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (17.3, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5019,
-    label = "Cd_Cdd/H2;C_rad/CSCs2",
-    kinetics = ArrheniusEP(
-        A = (0.014, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (18.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5020,
-    label = "Cd_Cdd/H2;Cd_rad/NonDeS",
-    kinetics = ArrheniusEP(
-        A = (0.0154, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (-3.3, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5021,
-    label = "Cd_Cdd/H2;Cd_rad/CS",
-    kinetics = ArrheniusEP(
-        A = (0.167, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (16.4, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5022,
-    label = "Cd_Cdd/H2;C_rad/H/CdS",
-    kinetics = ArrheniusEP(
-        A = (0.0514, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (15.3, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5023,
-    label = "Cd_Cdd/H2;C_rad/CdCsS",
-    kinetics = ArrheniusEP(
-        A = (0.0066, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (14.2, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5024,
-    label = "Cd_Cdd/H2;C_rad/H/CSS",
-    kinetics = ArrheniusEP(
-        A = (0.241, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (22.3, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5025,
-    label = "Cd_Cdd/H2;C_rad/CSCsS",
-    kinetics = ArrheniusEP(
-        A = (0.0639, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (22.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5026,
-    label = "Cd_Cdd/H2;C_rad/H/CtS",
-    kinetics = ArrheniusEP(
-        A = (0.0261, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (13.3, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5027,
-    label = "Cd_Cdd/H2;C_rad/CtCsS",
-    kinetics = ArrheniusEP(
-        A = (0.0103, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (13.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5028,
-    label = "Cd_Cdd/H2;C_rad/H/CbS",
-    kinetics = ArrheniusEP(
-        A = (0.0123, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (13, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5029,
-    label = "Cd_Cdd/H2;C_rad/CbCsS",
-    kinetics = ArrheniusEP(
-        A = (0.00444, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (11.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5030,
-    label = "Cd_Cdd/H2;CS_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (0.144, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (12.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5031,
-    label = "Cd_Cdd/H2;CS_rad/Cs",
-    kinetics = ArrheniusEP(
-        A = (0.0918, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (11.2, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5032,
-    label = "Cd_Cdd/H2;CS_rad/S",
-    kinetics = ArrheniusEP(
-        A = (0.136, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (12.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5033,
-    label = "Cd_Cdd/H2;CS_rad/Cd",
-    kinetics = ArrheniusEP(
-        A = (0.0603, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (15.2, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5034,
-    label = "Cd_Cdd/H2;CS_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.169, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (18.8, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5035,
-    label = "Cd/H/Ct;H_rad",
-    kinetics = ArrheniusEP(
-        A = (0.295, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (3.8, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26799,7 +26117,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26814,7 +26132,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26829,7 +26147,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26844,7 +26162,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26859,7 +26177,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26874,7 +26192,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26889,7 +26207,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26904,7 +26222,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26919,7 +26237,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26934,7 +26252,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26949,7 +26267,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26964,7 +26282,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26979,7 +26297,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -26994,7 +26312,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27009,7 +26327,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27024,7 +26342,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27039,7 +26357,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27054,7 +26372,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27069,7 +26387,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27084,7 +26402,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27099,7 +26417,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27114,22 +26432,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
 entry(
-    index = 5058,
-    label = "Cd/H/Ct;Cd_rad/Ct",
+    index = 4991,
+    label = "Cd_Cdd/H2;C_methyl",
     kinetics = ArrheniusEP(
-        A = (0.000816, 'cm^3/(mol*s)'),
+        A = (0.0387, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
-        E0 = (6.3, 'kcal/mol'),
+        E0 = (5.6, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27144,7 +26462,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4992,
+    label = "Cd_Cdd/H2;C_rad/H2/Cs",
+    kinetics = ArrheniusEP(
+        A = (0.00545, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (5.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27159,7 +26492,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4993,
+    label = "Cd_Cdd/H2;C_rad/H/NonDeC",
+    kinetics = ArrheniusEP(
+        A = (0.00631, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (5.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27174,7 +26522,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4994,
+    label = "Cd_Cdd/H2;C_rad/Cs3",
+    kinetics = ArrheniusEP(
+        A = (0.00635, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (4.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27189,7 +26552,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4995,
+    label = "Cd_Cdd/H2;C_rad/H2/Cd",
+    kinetics = ArrheniusEP(
+        A = (0.0272, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (14.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27204,7 +26582,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4996,
+    label = "Cd_Cdd/H2;C_rad/H/CdCs",
+    kinetics = ArrheniusEP(
+        A = (0.0169, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (15.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27219,7 +26612,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4997,
+    label = "Cd_Cdd/H2;C_rad/CdCs2",
+    kinetics = ArrheniusEP(
+        A = (0.00263, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (14.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27234,7 +26642,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4998,
+    label = "Cd_Cdd/H2;C_rad/H/CdCd",
+    kinetics = ArrheniusEP(
+        A = (0.0213, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (20.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27249,7 +26672,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 4999,
+    label = "Cd_Cdd/H2;C_rad/CdCdCs",
+    kinetics = ArrheniusEP(
+        A = (0.000953, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (20, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27264,7 +26702,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5000,
+    label = "Cd_Cdd/H2;C_rad/H2/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.0139, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (10.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27279,7 +26732,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5001,
+    label = "Cd_Cdd/H2;C_rad/H/CtCs",
+    kinetics = ArrheniusEP(
+        A = (0.00457, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (11.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27294,7 +26762,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5002,
+    label = "Cd_Cdd/H2;C_rad/CtCs2",
+    kinetics = ArrheniusEP(
+        A = (0.00172, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (10.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27309,7 +26792,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5003,
+    label = "Cd_Cdd/H2;C_rad/H/CtCt",
+    kinetics = ArrheniusEP(
+        A = (0.00646, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (14.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27324,7 +26822,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5004,
+    label = "Cd_Cdd/H2;C_rad/CtCtCs",
+    kinetics = ArrheniusEP(
+        A = (0.00026, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (14.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27339,7 +26852,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5005,
+    label = "Cd_Cdd/H2;C_rad/H2/Cb",
+    kinetics = ArrheniusEP(
+        A = (0.0252, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (12.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27354,7 +26882,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5006,
+    label = "Cd_Cdd/H2;C_rad/H/CbCs",
+    kinetics = ArrheniusEP(
+        A = (0.0106, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (12.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27369,7 +26912,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5007,
+    label = "Cd_Cdd/H2;C_rad/CbCs2",
+    kinetics = ArrheniusEP(
+        A = (0.000522, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (10.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27384,7 +26942,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5008,
+    label = "Cd_Cdd/H2;Cd_pri_rad",
+    kinetics = ArrheniusEP(
+        A = (0.0417, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27399,7 +26972,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5009,
+    label = "Cd_Cdd/H2;Cd_rad/NonDeC",
+    kinetics = ArrheniusEP(
+        A = (0.0236, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (0.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27414,7 +27002,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5010,
+    label = "Cd_Cdd/H2;Cd_rad/Cd",
+    kinetics = ArrheniusEP(
+        A = (0.0193, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (8.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27429,7 +27032,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5011,
+    label = "Cd_Cdd/H2;Cb_rad",
+    kinetics = ArrheniusEP(
+        A = (0.0531, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (-1.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27444,7 +27062,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5012,
+    label = "Cd_Cdd/H2;Cd_Cdd_rad/H",
+    kinetics = ArrheniusEP(
+        A = (0.0308, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (11.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27459,7 +27092,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5013,
+    label = "Cd_Cdd/H2;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.00452, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27474,7 +27122,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5014,
+    label = "Cd_Cdd/H2;C_rad/H2/S",
+    kinetics = ArrheniusEP(
+        A = (0.0122, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (8.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27489,7 +27152,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5015,
+    label = "Cd_Cdd/H2;C_rad/H/CsS",
+    kinetics = ArrheniusEP(
+        A = (0.0343, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27504,7 +27182,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5016,
+    label = "Cd_Cdd/H2;C_rad/Cs2S",
+    kinetics = ArrheniusEP(
+        A = (0.0199, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (5.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27519,7 +27212,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5017,
+    label = "Cd_Cdd/H2;C_rad/H2/CS",
+    kinetics = ArrheniusEP(
+        A = (0.0195, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (15.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27534,7 +27242,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5018,
+    label = "Cd_Cdd/H2;C_rad/H/CSCs",
+    kinetics = ArrheniusEP(
+        A = (0.0304, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (17.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27549,7 +27272,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5019,
+    label = "Cd_Cdd/H2;C_rad/CSCs2",
+    kinetics = ArrheniusEP(
+        A = (0.014, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (18.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27564,7 +27302,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5020,
+    label = "Cd_Cdd/H2;Cd_rad/NonDeS",
+    kinetics = ArrheniusEP(
+        A = (0.0154, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (-3.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27579,7 +27332,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5021,
+    label = "Cd_Cdd/H2;Cd_rad/CS",
+    kinetics = ArrheniusEP(
+        A = (0.167, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (16.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27594,7 +27362,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5022,
+    label = "Cd_Cdd/H2;C_rad/H/CdS",
+    kinetics = ArrheniusEP(
+        A = (0.0514, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (15.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27609,7 +27392,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5023,
+    label = "Cd_Cdd/H2;C_rad/CdCsS",
+    kinetics = ArrheniusEP(
+        A = (0.0066, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (14.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27624,7 +27422,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5024,
+    label = "Cd_Cdd/H2;C_rad/H/CSS",
+    kinetics = ArrheniusEP(
+        A = (0.241, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (22.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27639,7 +27452,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5025,
+    label = "Cd_Cdd/H2;C_rad/CSCsS",
+    kinetics = ArrheniusEP(
+        A = (0.0639, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (22.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27654,7 +27482,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5026,
+    label = "Cd_Cdd/H2;C_rad/H/CtS",
+    kinetics = ArrheniusEP(
+        A = (0.0261, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (13.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27669,7 +27512,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5027,
+    label = "Cd_Cdd/H2;C_rad/CtCsS",
+    kinetics = ArrheniusEP(
+        A = (0.0103, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (13.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27684,7 +27542,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5028,
+    label = "Cd_Cdd/H2;C_rad/H/CbS",
+    kinetics = ArrheniusEP(
+        A = (0.0123, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (13, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27699,7 +27572,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5029,
+    label = "Cd_Cdd/H2;C_rad/CbCsS",
+    kinetics = ArrheniusEP(
+        A = (0.00444, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (11.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27714,7 +27602,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5030,
+    label = "Cd_Cdd/H2;CS_pri_rad",
+    kinetics = ArrheniusEP(
+        A = (0.144, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (12.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27729,7 +27632,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5031,
+    label = "Cd_Cdd/H2;CS_rad/Cs",
+    kinetics = ArrheniusEP(
+        A = (0.0918, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (11.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27744,7 +27662,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5032,
+    label = "Cd_Cdd/H2;CS_rad/S",
+    kinetics = ArrheniusEP(
+        A = (0.136, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (12.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27759,7 +27692,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5033,
+    label = "Cd_Cdd/H2;CS_rad/Cd",
+    kinetics = ArrheniusEP(
+        A = (0.0603, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (15.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27774,7 +27722,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5034,
+    label = "Cd_Cdd/H2;CS_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.169, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (18.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27789,22 +27752,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
 entry(
-    index = 5103,
-    label = "C/H3/S;Cd_rad/Ct",
+    index = 5035,
+    label = "Cd/H/Ct;H_rad",
     kinetics = ArrheniusEP(
-        A = (0.000154, 'cm^3/(mol*s)'),
+        A = (0.295, 'cm^3/(mol*s)'),
         n = 4.34,
         alpha = 0,
-        E0 = (6, 'kcal/mol'),
+        E0 = (3.8, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27819,7 +27782,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27834,7 +27797,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27849,7 +27812,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27864,7 +27827,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27879,7 +27842,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27894,7 +27857,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27909,7 +27872,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27924,7 +27887,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27939,7 +27902,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27954,7 +27917,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27969,7 +27932,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27984,7 +27947,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -27999,7 +27962,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28014,7 +27977,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28029,7 +27992,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28044,7 +28007,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28059,7 +28022,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28074,7 +28037,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28089,7 +28052,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28104,7 +28067,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28119,7 +28082,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28134,7 +28097,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28149,7 +28112,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5058,
+    label = "Cd/H/Ct;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000816, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (6.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28164,7 +28142,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28179,7 +28157,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28194,7 +28172,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28209,7 +28187,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28224,7 +28202,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28239,7 +28217,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28254,7 +28232,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28269,7 +28247,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28284,7 +28262,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28299,7 +28277,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28314,7 +28292,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28329,7 +28307,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28344,7 +28322,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28359,7 +28337,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28374,7 +28352,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28389,7 +28367,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28404,7 +28382,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28419,7 +28397,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28434,7 +28412,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28449,7 +28427,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28464,22 +28442,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5148,
-    label = "C/H2/CsS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000361, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (4.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28494,7 +28457,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28509,7 +28472,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28524,7 +28487,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28539,7 +28502,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28554,7 +28517,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28569,7 +28532,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28584,7 +28547,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28599,7 +28562,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28614,7 +28577,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28629,7 +28592,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28644,7 +28607,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28659,7 +28622,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28674,7 +28637,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28689,7 +28652,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28704,7 +28667,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28719,7 +28682,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28734,7 +28697,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28749,7 +28712,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28764,7 +28727,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28779,7 +28742,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28794,7 +28757,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28809,7 +28772,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28824,7 +28787,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28839,7 +28802,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5103,
+    label = "C/H3/S;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000154, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28854,7 +28832,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28869,7 +28847,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28884,7 +28862,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28899,7 +28877,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28914,7 +28892,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28929,7 +28907,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28944,7 +28922,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28959,7 +28937,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28974,7 +28952,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -28989,7 +28967,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29004,7 +28982,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29019,7 +28997,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29034,7 +29012,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29049,7 +29027,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29064,7 +29042,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29079,7 +29057,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29094,7 +29072,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29109,7 +29087,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29124,7 +29102,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29139,22 +29117,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5193,
-    label = "C/H/Cs2S;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000193, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (3.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29169,7 +29132,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29184,7 +29147,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29199,7 +29162,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29214,7 +29177,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29229,7 +29192,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29244,7 +29207,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29259,7 +29222,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29274,7 +29237,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29289,7 +29252,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29304,7 +29267,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29319,7 +29282,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29334,7 +29297,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29349,7 +29312,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29364,7 +29327,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29379,7 +29342,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29394,7 +29357,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29409,7 +29372,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29424,7 +29387,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29439,7 +29402,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29454,7 +29417,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29469,7 +29432,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29484,7 +29447,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29499,7 +29462,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29514,7 +29477,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29529,7 +29492,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5148,
+    label = "C/H2/CsS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000361, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (4.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29544,7 +29522,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29559,7 +29537,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29574,7 +29552,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29589,7 +29567,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29604,7 +29582,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29619,7 +29597,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29634,7 +29612,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29649,7 +29627,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29664,7 +29642,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29679,7 +29657,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29694,7 +29672,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29709,7 +29687,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29724,7 +29702,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29739,7 +29717,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29754,7 +29732,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29769,7 +29747,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29784,7 +29762,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29799,7 +29777,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29814,22 +29792,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5238,
-    label = "C/H3/CS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000386, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (3.4, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29844,7 +29807,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29859,7 +29822,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29874,7 +29837,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29889,7 +29852,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29904,7 +29867,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29919,7 +29882,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29934,7 +29897,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29949,7 +29912,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29964,7 +29927,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29979,7 +29942,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -29994,7 +29957,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30009,7 +29972,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30024,7 +29987,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30039,7 +30002,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30054,7 +30017,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30069,7 +30032,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30084,7 +30047,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30099,7 +30062,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30114,7 +30077,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30129,7 +30092,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30144,7 +30107,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30159,7 +30122,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30174,7 +30137,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30189,7 +30152,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30204,7 +30167,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30219,7 +30182,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5193,
+    label = "C/H/Cs2S;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000193, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (3.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30234,7 +30212,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30249,7 +30227,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30264,7 +30242,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30279,7 +30257,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30294,7 +30272,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30309,7 +30287,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30324,7 +30302,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30339,7 +30317,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30354,7 +30332,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30369,7 +30347,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30384,7 +30362,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30399,7 +30377,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30414,7 +30392,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30429,7 +30407,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30444,7 +30422,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30459,7 +30437,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30474,7 +30452,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30489,22 +30467,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5283,
-    label = "C/H2/CSCs;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000548, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (2.2, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30519,7 +30482,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30534,7 +30497,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30549,7 +30512,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30564,7 +30527,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30579,7 +30542,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30594,7 +30557,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30609,7 +30572,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30624,7 +30587,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30639,7 +30602,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30654,7 +30617,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30669,7 +30632,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30684,7 +30647,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30699,7 +30662,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30714,7 +30677,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30729,7 +30692,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30744,7 +30707,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30759,7 +30722,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30774,7 +30737,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30789,7 +30752,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30804,7 +30767,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30819,7 +30782,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30834,7 +30797,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30849,7 +30812,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30864,7 +30827,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30879,7 +30842,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30894,7 +30857,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30909,7 +30872,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5238,
+    label = "C/H3/CS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000386, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (3.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30924,7 +30902,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30939,7 +30917,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30954,7 +30932,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30969,7 +30947,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30984,7 +30962,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -30999,7 +30977,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31014,7 +30992,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31029,7 +31007,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31044,7 +31022,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31059,7 +31037,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31074,7 +31052,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31089,7 +31067,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31104,7 +31082,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31119,7 +31097,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31134,7 +31112,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31149,7 +31127,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31164,22 +31142,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5328,
-    label = "C/H/Cs2CS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000362, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (0.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31194,7 +31157,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31209,7 +31172,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31224,7 +31187,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31239,7 +31202,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31254,7 +31217,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31269,7 +31232,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31284,7 +31247,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31299,7 +31262,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31314,7 +31277,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31329,7 +31292,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31344,7 +31307,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31359,7 +31322,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31374,7 +31337,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31389,7 +31352,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31404,7 +31367,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31419,7 +31382,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31434,7 +31397,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31449,7 +31412,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31464,7 +31427,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31479,7 +31442,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31494,7 +31457,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31509,7 +31472,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31524,7 +31487,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31539,7 +31502,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31554,7 +31517,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31569,7 +31532,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31584,7 +31547,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31599,7 +31562,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5283,
+    label = "C/H2/CSCs;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000548, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (2.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31614,7 +31592,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31629,7 +31607,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31644,7 +31622,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31659,7 +31637,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31674,7 +31652,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31689,7 +31667,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31704,7 +31682,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31719,7 +31697,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31734,7 +31712,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31749,7 +31727,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31764,7 +31742,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31779,7 +31757,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31794,7 +31772,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31809,7 +31787,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31824,7 +31802,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31839,22 +31817,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5373,
-    label = "Cd/H/NonDeS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000518, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31869,7 +31832,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31884,7 +31847,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31899,7 +31862,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31914,7 +31877,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31929,7 +31892,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31944,7 +31907,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31959,7 +31922,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31974,7 +31937,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -31989,7 +31952,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32004,7 +31967,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32019,7 +31982,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32034,7 +31997,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32049,7 +32012,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32064,7 +32027,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32079,7 +32042,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32094,7 +32057,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32109,7 +32072,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32124,7 +32087,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32139,7 +32102,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32154,7 +32117,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32169,7 +32132,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32184,7 +32147,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32199,7 +32162,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32214,7 +32177,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32229,7 +32192,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32244,7 +32207,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32259,7 +32222,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32274,7 +32237,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32289,7 +32252,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5328,
+    label = "C/H/Cs2CS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000362, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (0.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32304,7 +32282,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32319,7 +32297,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32334,7 +32312,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32349,7 +32327,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32364,7 +32342,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32379,7 +32357,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32394,7 +32372,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32409,7 +32387,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32424,7 +32402,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32439,7 +32417,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32454,7 +32432,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32469,7 +32447,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32484,7 +32462,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32499,7 +32477,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32514,22 +32492,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5418,
-    label = "Cd/H/CS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.00138, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (9.7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32544,7 +32507,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32559,7 +32522,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32574,7 +32537,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32589,7 +32552,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32604,7 +32567,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32619,7 +32582,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32634,7 +32597,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32649,7 +32612,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32664,7 +32627,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32679,7 +32642,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32694,7 +32657,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32709,7 +32672,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32724,7 +32687,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32739,7 +32702,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32754,7 +32717,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32769,7 +32732,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32784,7 +32747,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32799,7 +32762,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32814,7 +32777,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32829,7 +32792,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32844,7 +32807,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32859,7 +32822,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32874,7 +32837,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32889,7 +32852,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32904,7 +32867,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32919,7 +32882,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32934,7 +32897,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32949,7 +32912,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32964,7 +32927,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32979,7 +32942,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5373,
+    label = "Cd/H/NonDeS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000518, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -32994,7 +32972,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33009,7 +32987,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33024,7 +33002,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33039,7 +33017,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33054,7 +33032,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33069,7 +33047,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33084,7 +33062,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33099,7 +33077,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33114,7 +33092,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33129,7 +33107,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33144,7 +33122,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33159,7 +33137,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33174,7 +33152,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33189,22 +33167,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5463,
-    label = "C/H2/CdS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000567, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (3.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33219,7 +33182,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33234,7 +33197,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33249,7 +33212,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33264,7 +33227,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33279,7 +33242,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33294,7 +33257,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33309,7 +33272,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33324,7 +33287,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33339,7 +33302,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33354,7 +33317,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33369,7 +33332,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33384,7 +33347,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33399,7 +33362,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33414,7 +33377,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33429,7 +33392,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33444,7 +33407,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33459,7 +33422,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33474,7 +33437,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33489,7 +33452,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33504,7 +33467,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33519,7 +33482,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33534,7 +33497,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33549,7 +33512,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33564,7 +33527,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33579,7 +33542,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33594,7 +33557,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33609,7 +33572,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33624,7 +33587,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33639,7 +33602,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33654,7 +33617,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33669,7 +33632,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5418,
+    label = "Cd/H/CS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.00138, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (9.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33684,7 +33662,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33699,7 +33677,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33714,7 +33692,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33729,7 +33707,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33744,7 +33722,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33759,7 +33737,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33774,7 +33752,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33789,7 +33767,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33804,7 +33782,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33819,7 +33797,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33834,7 +33812,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33849,7 +33827,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33864,22 +33842,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5508,
-    label = "C/H/CSCsS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000379, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (2.3, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33894,7 +33857,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33909,7 +33872,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33924,7 +33887,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33939,7 +33902,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33954,7 +33917,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33969,7 +33932,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33984,7 +33947,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -33999,7 +33962,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34014,7 +33977,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34029,7 +33992,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34044,7 +34007,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34059,7 +34022,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34074,7 +34037,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34089,7 +34052,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34104,7 +34067,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34119,7 +34082,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34134,7 +34097,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34149,7 +34112,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34164,7 +34127,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34179,7 +34142,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34194,7 +34157,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34209,7 +34172,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34224,7 +34187,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34239,7 +34202,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34254,7 +34217,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34269,7 +34232,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34284,7 +34247,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34299,7 +34262,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34314,7 +34277,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34329,7 +34292,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34344,7 +34307,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34359,7 +34322,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5463,
+    label = "C/H2/CdS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000567, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (3.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34374,7 +34352,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34389,7 +34367,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34404,7 +34382,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34419,7 +34397,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34434,7 +34412,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34449,7 +34427,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34464,7 +34442,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34479,7 +34457,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34494,7 +34472,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34509,7 +34487,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34524,7 +34502,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34539,22 +34517,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5553,
-    label = "C/H2/CSS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000856, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (2.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34569,7 +34532,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34584,7 +34547,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34599,7 +34562,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34614,7 +34577,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34629,7 +34592,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34644,7 +34607,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34659,7 +34622,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34674,7 +34637,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34689,7 +34652,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34704,7 +34667,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34719,7 +34682,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34734,7 +34697,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34749,7 +34712,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34764,7 +34727,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34779,7 +34742,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34794,7 +34757,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34809,7 +34772,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34824,7 +34787,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34839,7 +34802,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34854,7 +34817,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34869,7 +34832,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34884,7 +34847,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34899,7 +34862,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34914,7 +34877,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34929,7 +34892,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34944,7 +34907,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34959,7 +34922,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34974,7 +34937,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -34989,7 +34952,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35004,7 +34967,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35019,7 +34982,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35034,7 +34997,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35049,7 +35012,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35064,7 +35027,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5508,
+    label = "C/H/CSCsS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000379, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (2.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35079,7 +35057,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35094,7 +35072,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35109,7 +35087,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35124,7 +35102,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35139,7 +35117,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35154,7 +35132,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35169,7 +35147,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35184,7 +35162,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35199,7 +35177,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35214,22 +35192,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5598,
-    label = "C/H/CSCsS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000735, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (1.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35244,7 +35207,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35259,7 +35222,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35274,7 +35237,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35289,7 +35252,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35304,7 +35267,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35319,7 +35282,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35334,7 +35297,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35349,7 +35312,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35364,7 +35327,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35379,7 +35342,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35394,7 +35357,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35409,7 +35372,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35424,7 +35387,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35439,7 +35402,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35454,7 +35417,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35469,7 +35432,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35484,7 +35447,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35499,7 +35462,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35514,7 +35477,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35529,7 +35492,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35544,7 +35507,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35559,7 +35522,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35574,7 +35537,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35589,7 +35552,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35604,7 +35567,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35619,7 +35582,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35634,7 +35597,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35649,7 +35612,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35664,7 +35627,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35679,7 +35642,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35694,7 +35657,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35709,7 +35672,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35724,7 +35687,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35739,7 +35702,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5553,
+    label = "C/H2/CSS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000856, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (2.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35754,7 +35732,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35769,7 +35747,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35784,7 +35762,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35799,7 +35777,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35814,7 +35792,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35829,7 +35807,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35844,7 +35822,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35859,7 +35837,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35874,7 +35852,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35889,22 +35867,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5643,
-    label = "C/H2/CtS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000397, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (2.7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35919,7 +35882,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35934,7 +35897,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35949,7 +35912,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35964,7 +35927,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35979,7 +35942,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -35994,7 +35957,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36009,7 +35972,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36024,7 +35987,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36039,7 +36002,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36054,7 +36017,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36069,7 +36032,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36084,7 +36047,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36099,7 +36062,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36114,7 +36077,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36129,7 +36092,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36144,7 +36107,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36159,7 +36122,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36174,7 +36137,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36189,7 +36152,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36204,7 +36167,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36219,7 +36182,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36234,7 +36197,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36249,7 +36212,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36264,7 +36227,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36279,7 +36242,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36294,7 +36257,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36309,7 +36272,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36324,7 +36287,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36339,7 +36302,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36354,7 +36317,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36369,7 +36332,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36384,7 +36347,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36399,7 +36362,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36414,7 +36377,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36429,7 +36392,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5598,
+    label = "C/H/CSCsS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000735, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (1.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36444,7 +36422,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36459,7 +36437,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36474,7 +36452,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36489,7 +36467,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36504,7 +36482,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36519,7 +36497,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36534,7 +36512,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36549,7 +36527,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36564,22 +36542,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5688,
-    label = "C/H/CtCsS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000486, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (1.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36594,7 +36557,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36609,7 +36572,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36624,7 +36587,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36639,7 +36602,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36654,7 +36617,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36669,7 +36632,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36684,7 +36647,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36699,7 +36662,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36714,7 +36677,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36729,7 +36692,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36744,7 +36707,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36759,7 +36722,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36774,7 +36737,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36789,7 +36752,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36804,7 +36767,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36819,7 +36782,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36834,7 +36797,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36849,7 +36812,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36864,7 +36827,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36879,7 +36842,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36894,7 +36857,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36909,7 +36872,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36924,7 +36887,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36939,7 +36902,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36954,7 +36917,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36969,7 +36932,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36984,7 +36947,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -36999,7 +36962,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37014,7 +36977,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37029,7 +36992,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37044,7 +37007,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37059,7 +37022,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37074,7 +37037,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37089,7 +37052,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37104,7 +37067,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37119,7 +37082,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5643,
+    label = "C/H2/CtS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000397, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (2.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37134,7 +37112,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37149,7 +37127,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37164,7 +37142,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37179,7 +37157,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37194,7 +37172,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37209,7 +37187,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37224,7 +37202,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37239,22 +37217,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5733,
-    label = "C/H2/CbS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000375, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (4.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37269,7 +37232,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37284,7 +37247,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37299,7 +37262,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37314,7 +37277,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37329,7 +37292,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37344,7 +37307,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37359,7 +37322,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37374,7 +37337,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37389,7 +37352,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37404,7 +37367,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37419,7 +37382,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37434,7 +37397,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37449,7 +37412,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37464,7 +37427,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37479,7 +37442,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37494,7 +37457,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37509,7 +37472,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37524,7 +37487,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37539,7 +37502,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37554,7 +37517,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37569,7 +37532,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37584,7 +37547,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37599,7 +37562,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37614,7 +37577,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37629,7 +37592,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37644,7 +37607,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37659,7 +37622,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37674,7 +37637,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37689,7 +37652,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37704,7 +37667,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37719,7 +37682,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37734,7 +37697,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37749,7 +37712,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37764,7 +37727,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37779,7 +37742,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37794,7 +37757,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37809,7 +37772,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5688,
+    label = "C/H/CtCsS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000486, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (1.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37824,7 +37802,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37839,7 +37817,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37854,7 +37832,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37869,7 +37847,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37884,7 +37862,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37899,7 +37877,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37914,22 +37892,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5778,
-    label = "C/H/CbCsS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000212, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (3, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37944,7 +37907,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37959,7 +37922,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37974,7 +37937,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -37989,7 +37952,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38004,7 +37967,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38019,7 +37982,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38034,7 +37997,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38049,7 +38012,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38064,7 +38027,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38079,7 +38042,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38094,7 +38057,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38109,7 +38072,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38124,7 +38087,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38139,7 +38102,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38154,7 +38117,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38169,7 +38132,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38184,7 +38147,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38199,7 +38162,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38214,7 +38177,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38229,7 +38192,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38244,7 +38207,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38259,7 +38222,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38274,7 +38237,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38289,7 +38252,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38304,7 +38267,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38319,7 +38282,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38334,7 +38297,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38349,7 +38312,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38364,7 +38327,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38379,7 +38342,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38394,7 +38357,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38409,7 +38372,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38424,7 +38387,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38439,7 +38402,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38454,7 +38417,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38469,7 +38432,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38484,7 +38447,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38499,7 +38462,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5733,
+    label = "C/H2/CbS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000375, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (4.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38514,7 +38492,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38529,7 +38507,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38544,7 +38522,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38559,7 +38537,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38574,7 +38552,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38589,22 +38567,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5823,
-    label = "CS_pri;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.00172, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (4.2, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38619,7 +38582,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38634,7 +38597,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38649,7 +38612,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38664,7 +38627,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38679,7 +38642,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38694,7 +38657,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38709,7 +38672,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38724,7 +38687,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38739,7 +38702,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38754,7 +38717,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38769,7 +38732,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38784,7 +38747,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38799,7 +38762,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38814,7 +38777,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38829,7 +38792,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38844,7 +38807,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38859,7 +38822,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38874,7 +38837,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38889,7 +38852,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38904,7 +38867,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38919,7 +38882,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38934,7 +38897,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38949,7 +38912,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38964,7 +38927,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38979,7 +38942,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -38994,7 +38957,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39009,7 +38972,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39024,7 +38987,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39039,7 +39002,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39054,7 +39017,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39069,7 +39032,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39084,7 +39047,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39099,7 +39062,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39114,7 +39077,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39129,7 +39092,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39144,7 +39107,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39159,7 +39122,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39174,7 +39137,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39189,7 +39152,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5778,
+    label = "C/H/CbCsS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000212, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39204,7 +39182,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39219,7 +39197,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39234,7 +39212,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39249,7 +39227,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39264,22 +39242,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5868,
-    label = "CS/H/NonDeC;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000699, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (3.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39294,7 +39257,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39309,7 +39272,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39324,7 +39287,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39339,7 +39302,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39354,7 +39317,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39369,7 +39332,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39384,7 +39347,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39399,7 +39362,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39414,7 +39377,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39429,7 +39392,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39444,7 +39407,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39459,7 +39422,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39474,7 +39437,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39489,7 +39452,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39504,7 +39467,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39519,7 +39482,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39534,7 +39497,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39549,7 +39512,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39564,7 +39527,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39579,7 +39542,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39594,7 +39557,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39609,7 +39572,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39624,7 +39587,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39639,7 +39602,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39654,7 +39617,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39669,7 +39632,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39684,7 +39647,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39699,7 +39662,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39714,7 +39677,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39729,7 +39692,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39744,7 +39707,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39759,7 +39722,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39774,7 +39737,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39789,7 +39752,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39804,7 +39767,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39819,7 +39782,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39834,7 +39797,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39849,7 +39812,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39864,7 +39827,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39879,7 +39842,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5823,
+    label = "CS_pri;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.00172, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (4.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39894,7 +39872,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39909,7 +39887,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39924,7 +39902,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39939,22 +39917,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5913,
-    label = "CS/H/NonDeS;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.00068, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (2.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39969,7 +39932,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39984,7 +39947,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -39999,7 +39962,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40014,7 +39977,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40029,7 +39992,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40044,7 +40007,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40059,7 +40022,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40074,7 +40037,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40089,7 +40052,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40104,7 +40067,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40119,7 +40082,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40134,7 +40097,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40149,7 +40112,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40164,7 +40127,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40179,7 +40142,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40194,7 +40157,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40209,7 +40172,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40224,7 +40187,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40239,7 +40202,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40254,7 +40217,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40269,7 +40232,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40284,7 +40247,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40299,7 +40262,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40314,7 +40277,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40329,7 +40292,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40344,7 +40307,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40359,7 +40322,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40374,7 +40337,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40389,7 +40352,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40404,7 +40367,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40419,7 +40382,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40434,7 +40397,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40449,7 +40412,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40464,7 +40427,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40479,7 +40442,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40494,7 +40457,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40509,7 +40472,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40524,7 +40487,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40539,7 +40502,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40554,7 +40517,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40569,7 +40532,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5868,
+    label = "CS/H/NonDeC;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000699, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (3.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40584,7 +40562,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40599,7 +40577,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40614,22 +40592,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 5958,
-    label = "CS/H/Cd;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000598, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (3.7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40644,7 +40607,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40659,7 +40622,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40674,7 +40637,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40689,7 +40652,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40704,7 +40667,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40719,7 +40682,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40734,7 +40697,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40749,7 +40712,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40764,7 +40727,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40779,7 +40742,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40794,7 +40757,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40809,7 +40772,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40824,7 +40787,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40839,7 +40802,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40854,7 +40817,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40869,7 +40832,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40884,7 +40847,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40899,7 +40862,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40914,7 +40877,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40929,7 +40892,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40944,7 +40907,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40959,7 +40922,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40974,7 +40937,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -40989,7 +40952,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41004,7 +40967,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41019,7 +40982,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41034,7 +40997,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41049,7 +41012,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41064,7 +41027,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41079,7 +41042,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41094,7 +41057,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41109,7 +41072,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41124,7 +41087,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41139,7 +41102,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41154,7 +41117,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41169,7 +41132,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41184,7 +41147,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41199,7 +41162,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41214,7 +41177,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41229,7 +41192,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41244,7 +41207,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41259,7 +41222,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5913,
+    label = "CS/H/NonDeS;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.00068, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (2.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41274,7 +41252,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41289,22 +41267,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-)
-
-entry(
-    index = 6003,
-    label = "CS/H/Ct;Cd_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (0.000719, 'cm^3/(mol*s)'),
-        n = 4.34,
-        alpha = 0,
-        E0 = (3, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41319,7 +41282,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41334,7 +41297,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41349,7 +41312,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41364,7 +41327,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41379,7 +41342,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41394,7 +41357,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41409,7 +41372,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41424,7 +41387,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41439,7 +41402,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41454,7 +41417,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41469,7 +41432,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41484,7 +41447,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41499,7 +41462,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41514,7 +41477,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41529,7 +41492,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41544,7 +41507,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41559,7 +41522,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41574,7 +41537,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41589,7 +41552,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41604,7 +41567,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41619,7 +41582,22 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 5958,
+    label = "CS/H/Cd;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000598, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (3.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
@@ -41634,7 +41612,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41649,7 +41627,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41664,8 +41642,23 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+)
+
+entry(
+    index = 6003,
+    label = "CS/H/Ct;Cd_rad/Ct",
+    kinetics = ArrheniusEP(
+        A = (0.000719, 'cm^3/(mol*s)'),
+        n = 4.34,
+        alpha = 0,
+        E0 = (3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
 )
 
 entry(
@@ -41679,7 +41672,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41694,7 +41687,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41709,7 +41702,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41724,7 +41717,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41739,7 +41732,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41754,7 +41747,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41769,7 +41762,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41784,7 +41777,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41799,7 +41792,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41814,7 +41807,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41829,7 +41822,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41844,7 +41837,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41859,7 +41852,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41874,7 +41867,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41889,7 +41882,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41904,7 +41897,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41919,7 +41912,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41934,7 +41927,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41949,7 +41942,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41964,7 +41957,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41979,7 +41972,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -41994,7 +41987,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42009,7 +42002,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42024,7 +42017,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42039,7 +42032,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42054,7 +42047,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42069,7 +42062,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42084,7 +42077,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42099,7 +42092,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42114,7 +42107,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42129,7 +42122,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42144,7 +42137,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42159,7 +42152,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42174,7 +42167,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42189,7 +42182,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42204,7 +42197,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42219,7 +42212,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42234,7 +42227,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42249,7 +42242,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42264,7 +42257,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42279,7 +42272,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42294,7 +42287,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42309,7 +42302,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42324,7 +42317,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42339,7 +42332,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42354,7 +42347,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42369,7 +42362,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42384,7 +42377,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42399,7 +42392,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42414,7 +42407,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42429,7 +42422,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42444,7 +42437,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42459,7 +42452,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42474,7 +42467,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42489,7 +42482,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42504,7 +42497,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42519,7 +42512,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42534,7 +42527,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42549,7 +42542,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42564,7 +42557,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42579,7 +42572,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42594,7 +42587,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42609,7 +42602,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42624,7 +42617,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42639,7 +42632,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42654,7 +42647,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42669,7 +42662,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42684,7 +42677,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42699,7 +42692,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42714,7 +42707,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42729,7 +42722,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42744,7 +42737,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42759,7 +42752,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42774,7 +42767,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42789,7 +42782,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42804,7 +42797,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42819,7 +42812,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42834,7 +42827,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42849,7 +42842,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42864,7 +42857,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42879,7 +42872,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42894,7 +42887,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42909,7 +42902,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42924,7 +42917,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42939,7 +42932,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42954,7 +42947,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42969,7 +42962,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42984,7 +42977,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -42999,7 +42992,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43014,7 +43007,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43029,7 +43022,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43044,7 +43037,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43059,7 +43052,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43074,7 +43067,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43089,7 +43082,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43104,7 +43097,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43119,7 +43112,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43134,7 +43127,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43149,7 +43142,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43164,7 +43157,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43179,7 +43172,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43194,7 +43187,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43209,7 +43202,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43224,7 +43217,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43239,7 +43232,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43254,7 +43247,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43269,7 +43262,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43284,7 +43277,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43299,7 +43292,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43314,7 +43307,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43329,7 +43322,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43344,7 +43337,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43359,7 +43352,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43374,7 +43367,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43389,7 +43382,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43404,7 +43397,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43419,7 +43412,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43434,7 +43427,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43449,7 +43442,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43464,7 +43457,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43479,7 +43472,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43494,7 +43487,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43509,7 +43502,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43524,7 +43517,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43539,7 +43532,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43554,7 +43547,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43569,7 +43562,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43584,7 +43577,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43599,7 +43592,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43614,7 +43607,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43629,7 +43622,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43644,7 +43637,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43659,7 +43652,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43674,7 +43667,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43689,7 +43682,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43704,7 +43697,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43719,7 +43712,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43734,7 +43727,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43749,7 +43742,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43764,7 +43757,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43779,7 +43772,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43794,7 +43787,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43809,7 +43802,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43824,7 +43817,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43839,7 +43832,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43854,7 +43847,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43869,7 +43862,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43884,7 +43877,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43899,7 +43892,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43914,7 +43907,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43929,7 +43922,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43944,7 +43937,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43959,7 +43952,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43974,7 +43967,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -43989,7 +43982,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44004,7 +43997,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44019,7 +44012,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44034,7 +44027,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44049,7 +44042,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44064,7 +44057,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44079,7 +44072,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44094,7 +44087,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44109,7 +44102,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44124,7 +44117,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44139,7 +44132,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44154,7 +44147,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44169,7 +44162,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44184,7 +44177,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44199,7 +44192,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44214,7 +44207,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44229,7 +44222,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44244,7 +44237,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44259,7 +44252,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44274,7 +44267,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44289,7 +44282,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44304,7 +44297,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44319,7 +44312,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44334,7 +44327,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44349,7 +44342,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44364,7 +44357,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44379,7 +44372,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44394,7 +44387,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44409,7 +44402,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44424,7 +44417,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44439,7 +44432,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44454,7 +44447,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44469,7 +44462,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44484,7 +44477,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44499,7 +44492,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44514,7 +44507,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44529,7 +44522,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44544,7 +44537,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44559,7 +44552,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44574,7 +44567,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44589,7 +44582,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44604,7 +44597,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44619,7 +44612,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44634,7 +44627,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44649,7 +44642,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44664,7 +44657,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44679,7 +44672,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44694,7 +44687,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44709,7 +44702,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44724,7 +44717,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44739,7 +44732,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44754,7 +44747,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44769,7 +44762,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44784,7 +44777,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44799,7 +44792,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44814,7 +44807,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44829,7 +44822,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44844,7 +44837,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44859,7 +44852,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44874,7 +44867,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44889,7 +44882,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44904,7 +44897,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44919,7 +44912,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44934,7 +44927,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44949,7 +44942,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44964,7 +44957,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44979,7 +44972,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -44994,7 +44987,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45009,7 +45002,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45024,7 +45017,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45039,7 +45032,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45054,7 +45047,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45069,7 +45062,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45084,7 +45077,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45099,7 +45092,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45114,7 +45107,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45129,7 +45122,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45144,7 +45137,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45159,7 +45152,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45174,7 +45167,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45189,7 +45182,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45204,7 +45197,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45219,7 +45212,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45234,7 +45227,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45249,7 +45242,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45264,7 +45257,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45279,7 +45272,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45294,7 +45287,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45309,7 +45302,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45324,7 +45317,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45339,7 +45332,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45354,7 +45347,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45369,7 +45362,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45384,7 +45377,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45399,7 +45392,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45414,7 +45407,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45429,7 +45422,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45444,7 +45437,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45459,7 +45452,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45474,7 +45467,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45489,7 +45482,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45504,7 +45497,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45519,7 +45512,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45534,7 +45527,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45549,7 +45542,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45564,7 +45557,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45579,7 +45572,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45594,7 +45587,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45609,7 +45602,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45624,7 +45617,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45639,7 +45632,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45654,7 +45647,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45669,7 +45662,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45684,7 +45677,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45699,7 +45692,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45714,7 +45707,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45729,7 +45722,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45744,7 +45737,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45759,7 +45752,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45774,7 +45767,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45789,7 +45782,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45804,7 +45797,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45819,7 +45812,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45834,7 +45827,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45849,7 +45842,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45864,7 +45857,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45879,7 +45872,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45894,7 +45887,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45909,7 +45902,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45924,7 +45917,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45939,7 +45932,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45954,7 +45947,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45969,7 +45962,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45984,7 +45977,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -45999,7 +45992,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46014,7 +46007,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46029,7 +46022,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46044,7 +46037,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46059,7 +46052,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46074,7 +46067,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46089,7 +46082,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46104,7 +46097,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46119,7 +46112,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46134,7 +46127,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46149,7 +46142,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46164,7 +46157,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46179,7 +46172,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46194,7 +46187,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46209,7 +46202,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46224,7 +46217,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46239,7 +46232,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46254,7 +46247,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46269,7 +46262,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46284,7 +46277,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46299,7 +46292,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46314,7 +46307,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46329,7 +46322,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46344,7 +46337,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46359,7 +46352,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46374,7 +46367,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46389,7 +46382,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46404,7 +46397,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
 )
 
@@ -46419,9 +46412,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CBS-QB3 (RRHO), SSM""",
-    longDesc = """SSM CBS-QB3 calculations for propargyl + vinylalcohol (RRHO approximation)""",
+    longDesc = 
+u"""
+SSM CBS-QB3 calculations for propargyl + vinylalcohol (RRHO approximation)
+""",
 )
 
 entry(
@@ -46435,9 +46431,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CBS-QB3 (RRHO), SSM""",
-    longDesc = """SSM CBS-QB3 calculations for propargyl + vinylalcohol (RRHO approximation)""",
+    longDesc = 
+u"""
+SSM CBS-QB3 calculations for propargyl + vinylalcohol (RRHO approximation)
+""",
 )
 
 entry(
@@ -46451,11 +46450,13 @@ entry(
         Tmin = (295, 'K'),
         Tmax = (600, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""NIST SSM""",
-    longDesc = """
+    longDesc = 
+u"""
 NIST CH3CHO + OH = CH3CO + H2O rate coefficient ref: DOI: 10.1016/S0082-0784(96)80252-9
-Most estimates seem to be  ~ 3E+12 for 200-350 K range""",
+Most estimates seem to be  ~ 3E+12 for 200-350 K range
+""",
 )
 
 entry(
@@ -46469,12 +46470,13 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CCSD(T)/CBS//M08-HX/maug-cc-pVTZ MSTOR""",
-    longDesc = """
+    longDesc = 
+u"""
 ref: Role of conformational structures and torsional anharmonicity in controlling chemical reaction rates and
 relative yields: butanal + HO2 reactions
-Refitted from four parameter fits to three parameters fits,  
+Refitted from four parameter fits to three parameters fits,
 """,
 )
 
@@ -46489,12 +46491,13 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CCSD(T)/CBS//M08-HX/maug-cc-pVTZ MSTOR""",
-    longDesc = """
+    longDesc = 
+u"""
 ref: Role of conformational structures and torsional anharmonicity in controlling chemical reaction rates and
 relative yields: butanal + HO2 reactions
-Refitted from four parameter fits to three parameters fits,  
+Refitted from four parameter fits to three parameters fits,
 """,
 )
 
@@ -46509,12 +46512,13 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 2,
+    rank = 4,
     shortDesc = u"""CCSD(T)/CBS//M08-HX/maug-cc-pVTZ MSTOR""",
-    longDesc = """
+    longDesc = 
+u"""
 ref: Role of conformational structures and torsional anharmonicity in controlling chemical reaction rates and
 relative yields: butanal + HO2 reactions
-Refitted from four parameter fits to three parameters fits,  
+Refitted from four parameter fits to three parameters fits,
 """,
 )
 
@@ -46529,13 +46533,14 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Same as C_rad/H/Cs\H2\CO/Cs H2O2""",
-    longDesc = """
+    longDesc = 
+u"""
 CCSD(T)/CBS//M08-HX/maug-cc-pVTZ MSTOR.
 ref: Role of conformational structures and torsional anharmonicity in controlling chemical reaction rates and
 relative yields: butanal + HO2 reactions
-Refitted from four parameter fits to three parameters fits,  
+Refitted from four parameter fits to three parameters fits,
 """,
 )
 
@@ -46550,11 +46555,13 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CCSD(T)/6-311++G(d,p)""",
-    longDesc = """
+    longDesc = 
+u"""
 Kinetics of Hydrogen Abstraction Reactions of Butene Isomers by OH Radical
-s-allylic site from 1-Butene + OH ref: DOI: 10.1021/jp1062786""",
+s-allylic site from 1-Butene + OH ref: DOI: 10.1021/jp1062786
+""",
 )
 
 entry(
@@ -46568,11 +46575,13 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CCSD(T)/6-311++G(d,p)""",
-    longDesc = """
+    longDesc = 
+u"""
 Kinetics of Hydrogen Abstraction Reactions of Butene Isomers by OH Radical
-p-allylic site of 2-butene ref: DOI: 10.1021/jp1062786""",
+p-allylic site of 2-butene ref: DOI: 10.1021/jp1062786
+""",
 )
 
 entry(
@@ -46586,10 +46595,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CCSD(T)/6-311++G(d,p)""",
-    longDesc = """
+    longDesc = 
+u"""
 Kinetics of Hydrogen Abstraction Reactions of Butene Isomers by OH Radical
-p-allylic site of iso-butene ref: DOI: 10.1021/jp1062786""",
+p-allylic site of iso-butene ref: DOI: 10.1021/jp1062786
+""",
 )
 

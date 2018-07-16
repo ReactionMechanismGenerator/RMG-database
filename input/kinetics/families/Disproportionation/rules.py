@@ -32,7 +32,7 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""[AJ] Miyoshi 2011 (Table 4, Node 'sp') dx.doi.org/10.1021/jp112152n""",
     longDesc = 
 u"""
@@ -66,7 +66,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
 u"""
@@ -94,7 +94,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
 u"""
@@ -121,7 +121,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [89] Literature review.""",
     longDesc = 
 u"""
@@ -148,7 +148,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
 u"""
@@ -191,7 +191,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
 u"""
@@ -220,7 +220,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [93] Literature review.""",
     longDesc = 
 u"""
@@ -250,7 +250,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
 u"""
@@ -277,7 +277,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
 u"""
@@ -305,7 +305,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
 u"""
@@ -334,7 +334,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
 u"""
@@ -363,7 +363,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
 u"""
@@ -390,7 +390,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
 u"""
@@ -417,7 +417,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Baulch et al [95] literature review.""",
     longDesc = 
 u"""
@@ -443,7 +443,7 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (900, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""[AJ] Miyoshi 2011 (Table 4, Node 'ss') dx.doi.org/10.1021/jp112152n""",
     longDesc = 
 u"""
@@ -476,7 +476,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
 u"""
@@ -505,7 +505,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""CAC calc CBS-QB3, 1dhr""",
 )
 
@@ -520,7 +520,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
 u"""
@@ -547,7 +547,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Rough estimate based on 1/10 of #3026 in R_Recombination""",
     longDesc = 
 u"""
@@ -578,7 +578,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
 u"""
@@ -609,7 +609,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
 u"""
@@ -640,7 +640,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Rough estimate based on 1/10 of #3027 in R_Recombination""",
     longDesc = 
 u"""
@@ -660,7 +660,6 @@ MRH 30-Aug-2009
 """,
 )
 
-
 entry(
     index = 506,
     label = "C_rad/H2/Cd;C/H2/Nd_Csrad",
@@ -672,7 +671,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [93] Literature review.""",
     longDesc = 
 u"""
@@ -702,7 +701,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""VERY Rough estimate based on 1/10 of #3026 in R_Recombination""",
 )
 
@@ -717,7 +716,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
 u"""
@@ -745,7 +744,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Rough estimate based on 1/10 of #3026 in R_Recombination""",
     longDesc = 
 u"""
@@ -762,7 +761,6 @@ MRH 30-Aug-2009
 """,
 )
 
-
 entry(
     index = 508,
     label = "C_rad/H/NonDeC;C/H2/Nd_Csrad",
@@ -774,7 +772,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
 u"""
@@ -804,7 +802,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
 u"""
@@ -834,7 +832,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
 u"""
@@ -856,17 +854,13 @@ entry(
     kinetics = ArrheniusEP(
         A = (6.44e+08, 'cm^3/(mol*s)'),
         n = 1.19,
-        alpha = 0.0,
+        alpha = 0,
         E0 = (0.51, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Very rough based on R_Recomb #491""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -880,7 +874,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
 u"""
@@ -903,16 +897,13 @@ entry(
     kinetics = ArrheniusEP(
         A = (6.44e+08, 'cm^3/(mol*s)'),
         n = 1.19,
-        alpha = 0.0,
+        alpha = 0,
         E0 = (0.51, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Very rough based on R_Recomb #491""",
-    longDesc = 
-u"""
-""",
 )
 
 entry(
@@ -926,7 +917,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
 u"""
@@ -953,7 +944,7 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (1000, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
 u"""
@@ -984,7 +975,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
 u"""
@@ -1013,7 +1004,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
 u"""
@@ -1043,7 +1034,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
 u"""
@@ -1071,7 +1062,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
 u"""
@@ -1101,7 +1092,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
 u"""
@@ -1134,7 +1125,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [93] Literature review.""",
     longDesc = 
 u"""
@@ -1163,7 +1154,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
 u"""
@@ -1195,7 +1186,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
 u"""
@@ -1228,7 +1219,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
 u"""
@@ -1255,7 +1246,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
 u"""
@@ -1283,7 +1274,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""Tsang [93] Literature review.""",
     longDesc = 
 u"""
@@ -1309,761 +1300,6 @@ JDM 31-Mar-2010
 """,
 )
 
-
-entry(
-    index = 533,
-    label = "O2b;O_Csrad",
-    kinetics = ArrheniusEP(
-        A = (5.7209e+12, 'cm^3/(mol*s)', '*|/', 2),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (298, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Atkinson et al [98] literature review.""",
-    longDesc = 
-u"""
-[98] Atkinson, R.; Baulch, D.L.; Cox, R.A.; Crowley, J.N.; Hampson, R.F., Jr.; Kerr, J.A.; Rossi, M.J.; Troe, J. "Summary of Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry,", 2001.
-Literature review: CH3CHOH + O2 --> CH3CHO + HO2
-
-Recommended value is k298.  This reference just gives a table of results,
-
-with no discussion on how the preferred numbers were arrived at.
-MRH 31-Aug-2009
-
-Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (CH3CHOH, oxygen atom). The final result is 5.7209e+12 cm3/mol/s.
-JDM 31-Mar-2010
-""",
-)
-
-entry(
-    index = 534,
-    label = "O2b;O_Csrad",
-    kinetics = ArrheniusEP(
-        A = (2.92067e+12, 'cm^3/(mol*s)', '*|/', 1.3),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (298, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Atkinson et al [98] literature review.""",
-    longDesc = 
-u"""
-[98] Atkinson, R.; Baulch, D.L.; Cox, R.A.; Crowley, J.N.; Hampson, R.F., Jr.; Kerr, J.A.; Rossi, M.J.; Troe, J. "Summary of Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry,", 2001.
-Literature review: CH2OH + O2 --> CH2O + HO2
-
-Recommended value is k298.  This reference just gives a table of results,
-
-with no discussion on how the preferred numbers were arrived at.
-MRH 31-Aug-2009
-
-Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (CH2OH, oxygen atom). The final result is 2.92067e+12 cm3/mol/s.
-JDM 31-Mar-2010
-""",
-)
-
-entry(
-    index = 535,
-    label = "O2b;O_Csrad",
-    kinetics = ArrheniusEP(
-        A = (2.74001e+12, 'cm^3/(mol*s)', '*|/', 1.3),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol', '+|-', 0.4),
-        Tmin = (200, 'K'),
-        Tmax = (300, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""DeMore et al [183] literature review.""",
-    longDesc = 
-u"""
-[183] DeMore, W.B.; Sander, S.P.; Golden, D.M.; Hampson, R.F.; Kurylo, M.J.; Howard, C.J.; Ravishankara, A.R.; Kolb, C.E.; Molina, M.J.; JPL Publication 97-4
-Literature review: CH2OH + O2 --> CH2O + HO2
-
-pg.62 D38: Discussion on evaluated data
-
-pg.22: Recommended A-factor and E/R parameter values
-
-MRH 1-Sept-2009
-
-Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (CH2OH, oxygen atom). The final result is 2.74001e+12 cm3/mol/s.
-JDM 31-Mar-2010
-""",
-)
-
-entry(
-    index = 536,
-    label = "O_atom_triplet;O_Csrad",
-    kinetics = ArrheniusEP(
-        A = (9.04e+13, 'cm^3/(mol*s)', '+|-', 3.01e+13),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (298, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Grotheer et al [189].""",
-    longDesc = 
-u"""
-[189] Grotheer, H.; Riekert, G.; Walter, D.; Just, T. Symp. Int. Combust. Proc. 1989, 22, 963.
-Absolute value measured directly. Excitation: discharge, analysis: mass spectroscopy. Original uncertainty 3.0E+13
-
-O + CH2OC --> OH + CH2O, O + CH3CHOH --> OH + CH3CHO
-
-O+CH2OH --> OH+CH2O && O+CH3CHOH --> OH+CH3CHO
-
-pg.963: Measured rate coefficients mentioned in abstract as k_2M and k_2E.
-
-pg.965-967: Discussion on measured rate coefficients.
-
-MRH 1-Sept-2009
-""",
-)
-
-entry(
-    index = 537,
-    label = "CH2_triplet;O_Csrad",
-    kinetics = ArrheniusEP(
-        A = (1.21e+12, 'cm^3/(mol*s)', '*|/', 3),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [90] Literature review.""",
-    longDesc = 
-u"""
-[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
-Literature review: CH2 + CH2OH --> CH3 + CH2O
-
-pg. 505: Discussion on evaluated data
-
-Entry 39,26 (b): CH2OH + CH2(triplet) --> CH3 + CH2O
-
-Author estimates the rate of disproportionation as 2.0x10^-12 cm3/molecule/s.  No data at the time.
-
-MRH 30-Aug-2009
-""",
-)
-
-entry(
-    index = 538,
-    label = "H_rad;O_Csrad",
-    kinetics = ArrheniusEP(
-        A = (2e+13, 'cm^3/(mol*s)', '+|-', 1e+13),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (295, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Edelbuttel-Einhaus et al [190].""",
-    longDesc = 
-u"""
-[190] Edelbuttel-Einhaus, J.; Hoyermann, K.; Rohde, G.; Seeba, J. Symp. Int. Combust. Proc. 1992, 22, 661.
-Data derived from fitting to a complex mechanism. Excitation: discharge, analysis: mass spectroscopy. Original uncertainty 1.0E+13
-
-H + CH3CHOH --> H2 + CH3CHO
-
-H+CH3CHOH --> H2+CH3CHO
-
-pg.661: Measured rate coefficient mentioned in abstract as k6.
-
-pg.665-666: Discussion on measured rate coefficient.  The reported rate coefficient is
-
-for H+CH3CHOH --> products, making this an UPPER LIMIT.  The rate coefficient
-was calculated based on the rate coefficient of the rxn C2H5+H --> CH3+CH3; the
-value the authors used was 3.6x10^13 cm3/mol/s.
-MRH 1-Sept-2009
-""",
-)
-
-entry(
-    index = 539,
-    label = "H_rad;O_Csrad",
-    kinetics = ArrheniusEP(
-        A = (6.03e+12, 'cm^3/(mol*s)', '*|/', 3),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [90] Literature review.""",
-    longDesc = 
-u"""
-[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
-Literature review: H + CH2OH --> H2 + CH2O
-
-pg. 496-497: Discussion on evaluated data
-
-Entry 39,4 (a): CH2OH + H --> H2 + CH2O
-
-Author estimates disproportionation rate will be faster than the H+C2H5=H2+C2H4 reaction
-
-and reports rate coefficient as 1.0x10^-11 cm3/molecule/s.  No data at the time.
-MRH 30-Aug-2009
-""",
-)
-
-entry(
-    index = 540,
-    label = "C_methyl;O_Csrad",
-    kinetics = ArrheniusEP(
-        A = (8.49e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (298, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Pagsberg et al [191].""",
-    longDesc = 
-u"""
-[191] Pagsberg, P.; Munk, J.; Sillesen, A.; Anastasi, C. Chem. Phys. Lett. 1988, 146, 375.
-Absolute value measured directly. Excitatio: electron beam, analysis: Vis-UV absorption.
-
-CH2OH + CH3 --> CH2O + CH4
-
-pg.378 Table 2: Formation and decay rates of CH2OH, CH3, and OH observed by pulse radiolysis of
-
-gas mixtures of varying composition.  Chemical composition of systems A-E as in Table 1.
-The authors note below Table 2 that the reported rate coefficient for CH3+CH2OH is an
-
-"adjustment of model to reproduce the observed decay rates of CH3 and CH2OH".
-MRH is skeptical of data, as this specific rxn is not directly referenced in the article,
-
-nor do the authors address whether other channels besides -->CH4+CH2O exist / are significant.
-The value of A in the database is consistent with that reported in Table 2.
-MRH 1-Sept-2009
-""",
-)
-
-entry(
-    index = 541,
-    label = "C_methyl;O_Csrad",
-    kinetics = ArrheniusEP(
-        A = (2.41e+12, 'cm^3/(mol*s)', '*|/', 5),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [90] Literature review.""",
-    longDesc = 
-u"""
-[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
-Literature review: CH3 + CH2OH --> CH4 + CH2O
-
-pg. 500-501: Discussion on evaluated data
-
-Entry 39,16 (b): CH2OH + CH3 --> CH4 + CH2O
-
-Author estimates ratio of disproportionation rate to addition rate to be 0.2,
-
-namely 4x10^-12 cm3/molecule/s.  No data at the time.
-MRH 30-Aug-2009
-""",
-)
-
-entry(
-    index = 542,
-    label = "C_rad/H2/Cs;O_Csrad",
-    kinetics = ArrheniusEP(
-        A = (2.41e+12, 'cm^3/(mol*s)', '*|/', 5),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [90] Literature review.""",
-    longDesc = 
-u"""
-[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
-Literature review: C2H5 + CH2OH --> C2H6 + CH2O
-
-pg. 502: Discussion on evaluated data
-
-Entry 39,17 (b): C2H5 + CH2OH --> C2H6 + CH2O
-
-Author estimates the disproportionation rate coefficient as 4x10^-12 cm3/molecule/s.
-
-No data at the time.
-MRH 30-Aug-2009
-""",
-)
-
-entry(
-    index = 543,
-    label = "C_rad/H2/Cd;O_Csrad",
-    kinetics = ArrheniusEP(
-        A = (1.81e+13, 'cm^3/(mol*s)', '*|/', 2.5),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [93] Literature review.""",
-    longDesc = 
-u"""
-[93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
-Literature review: C3H5 + CH2OH --> CH2O + C3H6
-
-pg.267: Discussion on evaluated data
-
-Entry 47,39: No data available at the time.  Author notes that combination of these two
-
-reactants will form 3-butene-1-ol which should decompose under combustion conditions
-to form C3H6 + CH2O (same products).  The author therefore recommends a rate
-coefficient of 3x10^-11 cm3/molecule/s.
-MRH 31-Aug-2009
-""",
-)
-
-entry(
-    index = 544,
-    label = "C_rad/H2/O;O_Csrad",
-    kinetics = ArrheniusEP(
-        A = (4.82e+12, 'cm^3/(mol*s)', '*|/', 2),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [90] Literature review.""",
-    longDesc = 
-u"""
-[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
-Literature review: CH2OH + CH2OH --> CH3OH + CH2O
-
-pg. 506: Discussion on evaluated data
-
-Entry 39,39 (b): CH2OH + CH2OH --> CH3OH + CH2O
-
-Meier, et al. (1985) measured the rate of addition + disproportionation.  Tsang estimates
-
-a disproportionation to combination ratio of 0.5
-NOTE: Rate coefficient given in table at beginning of reference (summarizing all data
-
-presented) gives k_a+b = 2.4x10^-11, leading to k_b = 8x10^-12.  NIST's online
-database (kinetics.nist.gov) reports this number as well.  However, the discussion
-on pg. 506 suggests k_a+b = 1.5x10^-11, leading to k_b = 5x10^-12.
-MRH 30-Aug-2009
-
-*** NEED TO INVESTIGATE ***
-""",
-)
-
-entry(
-    index = 545,
-    label = "C_rad/H/NonDeC;O_Csrad",
-    kinetics = ArrheniusEP(
-        A = (2.35e+12, 'cm^3/(mol*s)', '*|/', 5),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [91] Literature review.""",
-    longDesc = 
-u"""
-[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
-Literature review: CH2OH + i-C3H7 = C3H8 + CH2O
-
-pg. 945: Discussion on evaluated data
-
-Entry 42,39 (b): No data available at the time.  Author suggests rate coefficient based
-
-on rxn C2H5+i-C3H7=C3H8+C2H4, namely 3.9x10^-12 cm3/molecule/s
-MRH 30-Aug-2009
-""",
-)
-
-entry(
-    index = 546,
-    label = "C_rad/Cs3;O_Csrad",
-    kinetics = ArrheniusEP(
-        A = (3.47e+14, 'cm^3/(mol*s)', '*|/', 3),
-        n = -0.75,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [92] Literature review.""",
-    longDesc = 
-u"""
-[92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
-Literature review: t-C4H9 + CH2OH = CH2O + i-C4H10
-
-pg. 44: Discussion on evaluated data
-
-Entry 44,39 (a): No data available at the time.  Author estimates the addition rxn rate
-
-coefficient based on the rate for t-C4H9+C2H5-->adduct.  The author uses a
-disproportionation-to-addition ratio of 0.52 to obtain the reported rate coefficient
-expression.
-*** NOTE: Previous value in RMG was for k_c (the addition rxn).  I have changed it to match
-
-the rate for the disproportionation rxn. ***
-MRH 30-Aug-2009
-""",
-)
-
-entry(
-    index = 547,
-    label = "Cd_pri_rad;O_Csrad",
-    kinetics = ArrheniusEP(
-        A = (3.01e+13, 'cm^3/(mol*s)', '*|/', 2.5),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [90] Literature review.""",
-    longDesc = 
-u"""
-[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
-Literature review: CH2OH + C2H3 --> C2H4 + CH2O
-
-pg. 503: Discussion on evaluated data
-
-Entry 39,19 (a): CH2OH + C2H3 --> C2H4 + CH2O
-
-Author suggests a disproportionation rate coefficient near the collision limit, due
-
-to rxn's exothermicity.  No data available at the time.
-MRH 30-Aug-2009
-""",
-)
-
-entry(
-    index = 549,
-    label = "CO_pri_rad;O_Csrad",
-    kinetics = ArrheniusEP(
-        A = (1.81e+14, 'cm^3/(mol*s)', '*|/', 3),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [90] Literature review.""",
-    longDesc = 
-u"""
-[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
-Literature review: HCO + CH2OH --> CH2O + CH2O
-
-pg. 500: Discussion on evaluated data
-
-Entry 39,15 (b): CH2OH + HCO --> 2 CH2O
-
-Author estimates a disproportionation rate coefficient of 3x10^-11 cm3/molecule/s.
-
-No data available at the time.
-MRH 30-Aug-2009
-""",
-)
-
-entry(
-    index = 550,
-    label = "O_pri_rad;O_Csrad",
-    kinetics = ArrheniusEP(
-        A = (2.41e+13, 'cm^3/(mol*s)', '*|/', 2),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [90] Literature review.""",
-    longDesc = 
-u"""
-[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
-Literature review: OH + CH2OH --> H2O + CH2O
-
-pg. 497: Discussion on evaluated data
-
-Entry 39,6: CH2OH + OH --> H2O + CH2O
-
-Author estimates a disproportionation rate coefficient of 4x10^-11 cm3/molecule/s.
-
-No data available at the time.
-MRH 30-Aug-2009
-""",
-)
-
-entry(
-    index = 551,
-    label = "O_rad/NonDeC;O_Csrad",
-    kinetics = ArrheniusEP(
-        A = (2.41e+13, 'cm^3/(mol*s)', '*|/', 2),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [90] Literature review.""",
-    longDesc = 
-u"""
-[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
-Literature review: CH3O + CH2OH --> CH3OH + CH2O
-
-pg. 505: Discussion on evaluated data
-
-Entry 39,24: CH2OH + CH3O --> CH3OH + CH2O
-
-Author estimates a disproportionation rate coefficient of 4x10^-11 cm3/molecule/s.
-
-No data available at the time.
-MRH 30-Aug-2009
-""",
-)
-
-entry(
-    index = 552,
-    label = "O_rad/NonDeO;O_Csrad",
-    kinetics = ArrheniusEP(
-        A = (1.21e+13, 'cm^3/(mol*s)', '*|/', 2),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [90] Literature review.""",
-    longDesc = 
-u"""
-[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
-Literature review: HO2 + CH2OH --> CH3OH + H2O2
-
-pg. 498: Discussion on evaluated data
-
-Entry 39,7: CH2OH + HO2 --> H2O2 + CH2O
-
-Author recommends a disproportionation rate coefficient of 2x10^-11 cm3/molecules/s.
-
-No data available at the time.
-MRH 30-Aug-2009
-""",
-)
-
-entry(
-    index = 553,
-    label = "S_rad/NonDeC;Cmethyl_Srad",
-    kinetics = ArrheniusEP(
-        A = (9.79e+11, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (298, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tycholiz et al [A].""",
-)
-
-entry(
-    index = 554,
-    label = "C_rad/H/CsS;C/H2/Nd_Csrad",
-    kinetics = ArrheniusEP(
-        A = (3.37e-06, 'cm^3/(mol*s)'),
-        n = 4.35,
-        alpha = 0,
-        E0 = (1.14, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-)
-
-entry(
-    index = 555,
-    label = "O2b;O_Csrad",
-    kinetics = ArrheniusEP(
-        A = (3.7E+16, 'cm^3/(mol*s)'),
-        n = -1.63,
-        alpha = 0,
-        E0 = (3.4, 'kcal/mol'),
-        Tmin = (250, 'K'),
-        Tmax = (1000, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""S.S. Merchant estimate""",
-    longDesc = 
-u"""
-Estimate on basis of C3H7 + O2 rate from NIST kinetic datbase, Measurements, Theory, and Modeling of OH Formation in Ethyl + O2 and Propyl + O2 Reactions
-ref: DOI: 10.1021/jp0221946 
-""",
-)
-
-entry(
-    index = 555,
-    label = "O2b;Cmethyl_Csrad/H/Cd",
-    kinetics = ArrheniusEP(
-        A = (7.23E+12, 'cm^3/(mol*s)','*|/',10),
-        n = 0,
-        alpha = 0,
-        E0 = (22.0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""S.S. Merchant estimate""",
-    longDesc = 
-u"""
-SSM estimate based on Miyoshi rate rule for secondary carbon in dx.doi.org/10.1021/jp112152n, 
-modified to account for allylic stability (+7 kcal)
-""",
-)
-
-
-entry(
-    index = 556,
-    label = "O2b;XH_Rrad_birad",
-    kinetics = ArrheniusEP(
-        A = (5e+10, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = 'A.G. Vandeputte estimated value',
-)
-
-
-
-entry(
-    index = 556,
-    label = "Y_rad_birad_trirad_quadrad;Cdpri_Csrad",
-    kinetics = ArrheniusEP(
-        A = (1e+09, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Estimated value, AG Vandeputte""",
-)
-
-entry(
-    index = 557,
-    label = "O2b;C/H2/De_Csrad",
-    kinetics = ArrheniusEP(
-        A = (1e+10, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Estimated value, AG Vandeputte""",
-)
-
-entry(
-    index = 558,
-    label = "O2b;C/H2/Nd_Rrad",
-    kinetics = ArrheniusEP(
-        A = (1e+10, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Estimated value, AG Vandeputte""",
-)
-
-entry(
-    index = 559,
-    label = "O2b;C/H2/De_Rrad",
-    kinetics = ArrheniusEP(
-        A = (1e+10, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Estimated value, AG Vandeputte""",
-)
-
-entry(
-    index = 560,
-    label = "O2b;C/H/NdNd_Rrad",
-    kinetics = ArrheniusEP(
-        A = (1e+10, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Estimated value, AG Vandeputte""",
-)
-
-entry(
-    index = 561,
-    label = "O2b;C/H/NdDe_Rrad",
-    kinetics = ArrheniusEP(
-        A = (1e+10, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Estimated value, AG Vandeputte""",
-)
-
-entry(
-    index = 562,
-    label = "O2b;C/H/DeDe_Rrad",
-    kinetics = ArrheniusEP(
-        A = (1e+10, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Estimated value, AG Vandeputte""",
-)
-
-
 entry(
     index = 526,
     label = "C_methyl;Cdpri_Csrad",
@@ -2075,7 +1311,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""SSM estimate. Original value with 6 kcal barrier""",
     longDesc = 
 u"""
@@ -2111,7 +1347,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""SSM estimate. Original value with 6 kcal barrier""",
     longDesc = 
 u"""
@@ -2140,7 +1376,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""SSM estimate. Original value with 6 kcal barrier""",
     longDesc = 
 u"""
@@ -2169,7 +1405,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""SSM estimate. Original value with 6 kcal barrier""",
     longDesc = 
 u"""
@@ -2199,7 +1435,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""SSM estimate. Original value with 6 kcal barrier""",
     longDesc = 
 u"""
@@ -2229,7 +1465,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""SSM estimate. Original value with 6 kcal barrier""",
     longDesc = 
 u"""
@@ -2256,7 +1492,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""SSM estimate. Original value with 6 kcal barrier""",
     longDesc = 
 u"""
@@ -2270,6 +1506,756 @@ Entry 47,6(a): No data available at the time.  Author recommends a rate coeffici
 of 1x10^-11 cm3/molecule/s, based on "comparable rxns".
 MRH 31-Aug-2009
 """,
+)
+
+entry(
+    index = 533,
+    label = "O2b;O_Csrad",
+    kinetics = ArrheniusEP(
+        A = (5.7209e+12, 'cm^3/(mol*s)', '*|/', 2),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (298, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Atkinson et al [98] literature review.""",
+    longDesc = 
+u"""
+[98] Atkinson, R.; Baulch, D.L.; Cox, R.A.; Crowley, J.N.; Hampson, R.F., Jr.; Kerr, J.A.; Rossi, M.J.; Troe, J. "Summary of Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry,", 2001.
+Literature review: CH3CHOH + O2 --> CH3CHO + HO2
+
+Recommended value is k298.  This reference just gives a table of results,
+
+with no discussion on how the preferred numbers were arrived at.
+MRH 31-Aug-2009
+
+Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (CH3CHOH, oxygen atom). The final result is 5.7209e+12 cm3/mol/s.
+JDM 31-Mar-2010
+""",
+)
+
+entry(
+    index = 534,
+    label = "O2b;O_Csrad",
+    kinetics = ArrheniusEP(
+        A = (2.92067e+12, 'cm^3/(mol*s)', '*|/', 1.3),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (298, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Atkinson et al [98] literature review.""",
+    longDesc = 
+u"""
+[98] Atkinson, R.; Baulch, D.L.; Cox, R.A.; Crowley, J.N.; Hampson, R.F., Jr.; Kerr, J.A.; Rossi, M.J.; Troe, J. "Summary of Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry,", 2001.
+Literature review: CH2OH + O2 --> CH2O + HO2
+
+Recommended value is k298.  This reference just gives a table of results,
+
+with no discussion on how the preferred numbers were arrived at.
+MRH 31-Aug-2009
+
+Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (CH2OH, oxygen atom). The final result is 2.92067e+12 cm3/mol/s.
+JDM 31-Mar-2010
+""",
+)
+
+entry(
+    index = 535,
+    label = "O2b;O_Csrad",
+    kinetics = ArrheniusEP(
+        A = (2.74001e+12, 'cm^3/(mol*s)', '*|/', 1.3),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol', '+|-', 0.4),
+        Tmin = (200, 'K'),
+        Tmax = (300, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""DeMore et al [183] literature review.""",
+    longDesc = 
+u"""
+[183] DeMore, W.B.; Sander, S.P.; Golden, D.M.; Hampson, R.F.; Kurylo, M.J.; Howard, C.J.; Ravishankara, A.R.; Kolb, C.E.; Molina, M.J.; JPL Publication 97-4
+Literature review: CH2OH + O2 --> CH2O + HO2
+
+pg.62 D38: Discussion on evaluated data
+
+pg.22: Recommended A-factor and E/R parameter values
+
+MRH 1-Sept-2009
+
+Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (CH2OH, oxygen atom). The final result is 2.74001e+12 cm3/mol/s.
+JDM 31-Mar-2010
+""",
+)
+
+entry(
+    index = 536,
+    label = "O_atom_triplet;O_Csrad",
+    kinetics = ArrheniusEP(
+        A = (9.04e+13, 'cm^3/(mol*s)', '+|-', 3.01e+13),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (298, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Grotheer et al [189].""",
+    longDesc = 
+u"""
+[189] Grotheer, H.; Riekert, G.; Walter, D.; Just, T. Symp. Int. Combust. Proc. 1989, 22, 963.
+Absolute value measured directly. Excitation: discharge, analysis: mass spectroscopy. Original uncertainty 3.0E+13
+
+O + CH2OC --> OH + CH2O, O + CH3CHOH --> OH + CH3CHO
+
+O+CH2OH --> OH+CH2O && O+CH3CHOH --> OH+CH3CHO
+
+pg.963: Measured rate coefficients mentioned in abstract as k_2M and k_2E.
+
+pg.965-967: Discussion on measured rate coefficients.
+
+MRH 1-Sept-2009
+""",
+)
+
+entry(
+    index = 537,
+    label = "CH2_triplet;O_Csrad",
+    kinetics = ArrheniusEP(
+        A = (1.21e+12, 'cm^3/(mol*s)', '*|/', 3),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Tsang [90] Literature review.""",
+    longDesc = 
+u"""
+[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
+Literature review: CH2 + CH2OH --> CH3 + CH2O
+
+pg. 505: Discussion on evaluated data
+
+Entry 39,26 (b): CH2OH + CH2(triplet) --> CH3 + CH2O
+
+Author estimates the rate of disproportionation as 2.0x10^-12 cm3/molecule/s.  No data at the time.
+
+MRH 30-Aug-2009
+""",
+)
+
+entry(
+    index = 538,
+    label = "H_rad;O_Csrad",
+    kinetics = ArrheniusEP(
+        A = (2e+13, 'cm^3/(mol*s)', '+|-', 1e+13),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (295, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Edelbuttel-Einhaus et al [190].""",
+    longDesc = 
+u"""
+[190] Edelbuttel-Einhaus, J.; Hoyermann, K.; Rohde, G.; Seeba, J. Symp. Int. Combust. Proc. 1992, 22, 661.
+Data derived from fitting to a complex mechanism. Excitation: discharge, analysis: mass spectroscopy. Original uncertainty 1.0E+13
+
+H + CH3CHOH --> H2 + CH3CHO
+
+H+CH3CHOH --> H2+CH3CHO
+
+pg.661: Measured rate coefficient mentioned in abstract as k6.
+
+pg.665-666: Discussion on measured rate coefficient.  The reported rate coefficient is
+
+for H+CH3CHOH --> products, making this an UPPER LIMIT.  The rate coefficient
+was calculated based on the rate coefficient of the rxn C2H5+H --> CH3+CH3; the
+value the authors used was 3.6x10^13 cm3/mol/s.
+MRH 1-Sept-2009
+""",
+)
+
+entry(
+    index = 539,
+    label = "H_rad;O_Csrad",
+    kinetics = ArrheniusEP(
+        A = (6.03e+12, 'cm^3/(mol*s)', '*|/', 3),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Tsang [90] Literature review.""",
+    longDesc = 
+u"""
+[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
+Literature review: H + CH2OH --> H2 + CH2O
+
+pg. 496-497: Discussion on evaluated data
+
+Entry 39,4 (a): CH2OH + H --> H2 + CH2O
+
+Author estimates disproportionation rate will be faster than the H+C2H5=H2+C2H4 reaction
+
+and reports rate coefficient as 1.0x10^-11 cm3/molecule/s.  No data at the time.
+MRH 30-Aug-2009
+""",
+)
+
+entry(
+    index = 540,
+    label = "C_methyl;O_Csrad",
+    kinetics = ArrheniusEP(
+        A = (8.49e+13, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (298, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Pagsberg et al [191].""",
+    longDesc = 
+u"""
+[191] Pagsberg, P.; Munk, J.; Sillesen, A.; Anastasi, C. Chem. Phys. Lett. 1988, 146, 375.
+Absolute value measured directly. Excitatio: electron beam, analysis: Vis-UV absorption.
+
+CH2OH + CH3 --> CH2O + CH4
+
+pg.378 Table 2: Formation and decay rates of CH2OH, CH3, and OH observed by pulse radiolysis of
+
+gas mixtures of varying composition.  Chemical composition of systems A-E as in Table 1.
+The authors note below Table 2 that the reported rate coefficient for CH3+CH2OH is an
+
+"adjustment of model to reproduce the observed decay rates of CH3 and CH2OH".
+MRH is skeptical of data, as this specific rxn is not directly referenced in the article,
+
+nor do the authors address whether other channels besides -->CH4+CH2O exist / are significant.
+The value of A in the database is consistent with that reported in Table 2.
+MRH 1-Sept-2009
+""",
+)
+
+entry(
+    index = 541,
+    label = "C_methyl;O_Csrad",
+    kinetics = ArrheniusEP(
+        A = (2.41e+12, 'cm^3/(mol*s)', '*|/', 5),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Tsang [90] Literature review.""",
+    longDesc = 
+u"""
+[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
+Literature review: CH3 + CH2OH --> CH4 + CH2O
+
+pg. 500-501: Discussion on evaluated data
+
+Entry 39,16 (b): CH2OH + CH3 --> CH4 + CH2O
+
+Author estimates ratio of disproportionation rate to addition rate to be 0.2,
+
+namely 4x10^-12 cm3/molecule/s.  No data at the time.
+MRH 30-Aug-2009
+""",
+)
+
+entry(
+    index = 542,
+    label = "C_rad/H2/Cs;O_Csrad",
+    kinetics = ArrheniusEP(
+        A = (2.41e+12, 'cm^3/(mol*s)', '*|/', 5),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Tsang [90] Literature review.""",
+    longDesc = 
+u"""
+[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
+Literature review: C2H5 + CH2OH --> C2H6 + CH2O
+
+pg. 502: Discussion on evaluated data
+
+Entry 39,17 (b): C2H5 + CH2OH --> C2H6 + CH2O
+
+Author estimates the disproportionation rate coefficient as 4x10^-12 cm3/molecule/s.
+
+No data at the time.
+MRH 30-Aug-2009
+""",
+)
+
+entry(
+    index = 543,
+    label = "C_rad/H2/Cd;O_Csrad",
+    kinetics = ArrheniusEP(
+        A = (1.81e+13, 'cm^3/(mol*s)', '*|/', 2.5),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Tsang [93] Literature review.""",
+    longDesc = 
+u"""
+[93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
+Literature review: C3H5 + CH2OH --> CH2O + C3H6
+
+pg.267: Discussion on evaluated data
+
+Entry 47,39: No data available at the time.  Author notes that combination of these two
+
+reactants will form 3-butene-1-ol which should decompose under combustion conditions
+to form C3H6 + CH2O (same products).  The author therefore recommends a rate
+coefficient of 3x10^-11 cm3/molecule/s.
+MRH 31-Aug-2009
+""",
+)
+
+entry(
+    index = 544,
+    label = "C_rad/H2/O;O_Csrad",
+    kinetics = ArrheniusEP(
+        A = (4.82e+12, 'cm^3/(mol*s)', '*|/', 2),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Tsang [90] Literature review.""",
+    longDesc = 
+u"""
+[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
+Literature review: CH2OH + CH2OH --> CH3OH + CH2O
+
+pg. 506: Discussion on evaluated data
+
+Entry 39,39 (b): CH2OH + CH2OH --> CH3OH + CH2O
+
+Meier, et al. (1985) measured the rate of addition + disproportionation.  Tsang estimates
+
+a disproportionation to combination ratio of 0.5
+NOTE: Rate coefficient given in table at beginning of reference (summarizing all data
+
+presented) gives k_a+b = 2.4x10^-11, leading to k_b = 8x10^-12.  NIST's online
+database (kinetics.nist.gov) reports this number as well.  However, the discussion
+on pg. 506 suggests k_a+b = 1.5x10^-11, leading to k_b = 5x10^-12.
+MRH 30-Aug-2009
+
+*** NEED TO INVESTIGATE ***
+""",
+)
+
+entry(
+    index = 545,
+    label = "C_rad/H/NonDeC;O_Csrad",
+    kinetics = ArrheniusEP(
+        A = (2.35e+12, 'cm^3/(mol*s)', '*|/', 5),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Tsang [91] Literature review.""",
+    longDesc = 
+u"""
+[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
+Literature review: CH2OH + i-C3H7 = C3H8 + CH2O
+
+pg. 945: Discussion on evaluated data
+
+Entry 42,39 (b): No data available at the time.  Author suggests rate coefficient based
+
+on rxn C2H5+i-C3H7=C3H8+C2H4, namely 3.9x10^-12 cm3/molecule/s
+MRH 30-Aug-2009
+""",
+)
+
+entry(
+    index = 546,
+    label = "C_rad/Cs3;O_Csrad",
+    kinetics = ArrheniusEP(
+        A = (3.47e+14, 'cm^3/(mol*s)', '*|/', 3),
+        n = -0.75,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Tsang [92] Literature review.""",
+    longDesc = 
+u"""
+[92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
+Literature review: t-C4H9 + CH2OH = CH2O + i-C4H10
+
+pg. 44: Discussion on evaluated data
+
+Entry 44,39 (a): No data available at the time.  Author estimates the addition rxn rate
+
+coefficient based on the rate for t-C4H9+C2H5-->adduct.  The author uses a
+disproportionation-to-addition ratio of 0.52 to obtain the reported rate coefficient
+expression.
+*** NOTE: Previous value in RMG was for k_c (the addition rxn).  I have changed it to match
+
+the rate for the disproportionation rxn. ***
+MRH 30-Aug-2009
+""",
+)
+
+entry(
+    index = 547,
+    label = "Cd_pri_rad;O_Csrad",
+    kinetics = ArrheniusEP(
+        A = (3.01e+13, 'cm^3/(mol*s)', '*|/', 2.5),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Tsang [90] Literature review.""",
+    longDesc = 
+u"""
+[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
+Literature review: CH2OH + C2H3 --> C2H4 + CH2O
+
+pg. 503: Discussion on evaluated data
+
+Entry 39,19 (a): CH2OH + C2H3 --> C2H4 + CH2O
+
+Author suggests a disproportionation rate coefficient near the collision limit, due
+
+to rxn's exothermicity.  No data available at the time.
+MRH 30-Aug-2009
+""",
+)
+
+entry(
+    index = 549,
+    label = "CO_pri_rad;O_Csrad",
+    kinetics = ArrheniusEP(
+        A = (1.81e+14, 'cm^3/(mol*s)', '*|/', 3),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Tsang [90] Literature review.""",
+    longDesc = 
+u"""
+[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
+Literature review: HCO + CH2OH --> CH2O + CH2O
+
+pg. 500: Discussion on evaluated data
+
+Entry 39,15 (b): CH2OH + HCO --> 2 CH2O
+
+Author estimates a disproportionation rate coefficient of 3x10^-11 cm3/molecule/s.
+
+No data available at the time.
+MRH 30-Aug-2009
+""",
+)
+
+entry(
+    index = 550,
+    label = "O_pri_rad;O_Csrad",
+    kinetics = ArrheniusEP(
+        A = (2.41e+13, 'cm^3/(mol*s)', '*|/', 2),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Tsang [90] Literature review.""",
+    longDesc = 
+u"""
+[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
+Literature review: OH + CH2OH --> H2O + CH2O
+
+pg. 497: Discussion on evaluated data
+
+Entry 39,6: CH2OH + OH --> H2O + CH2O
+
+Author estimates a disproportionation rate coefficient of 4x10^-11 cm3/molecule/s.
+
+No data available at the time.
+MRH 30-Aug-2009
+""",
+)
+
+entry(
+    index = 551,
+    label = "O_rad/NonDeC;O_Csrad",
+    kinetics = ArrheniusEP(
+        A = (2.41e+13, 'cm^3/(mol*s)', '*|/', 2),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Tsang [90] Literature review.""",
+    longDesc = 
+u"""
+[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
+Literature review: CH3O + CH2OH --> CH3OH + CH2O
+
+pg. 505: Discussion on evaluated data
+
+Entry 39,24: CH2OH + CH3O --> CH3OH + CH2O
+
+Author estimates a disproportionation rate coefficient of 4x10^-11 cm3/molecule/s.
+
+No data available at the time.
+MRH 30-Aug-2009
+""",
+)
+
+entry(
+    index = 552,
+    label = "O_rad/NonDeO;O_Csrad",
+    kinetics = ArrheniusEP(
+        A = (1.21e+13, 'cm^3/(mol*s)', '*|/', 2),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Tsang [90] Literature review.""",
+    longDesc = 
+u"""
+[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
+Literature review: HO2 + CH2OH --> CH3OH + H2O2
+
+pg. 498: Discussion on evaluated data
+
+Entry 39,7: CH2OH + HO2 --> H2O2 + CH2O
+
+Author recommends a disproportionation rate coefficient of 2x10^-11 cm3/molecules/s.
+
+No data available at the time.
+MRH 30-Aug-2009
+""",
+)
+
+entry(
+    index = 553,
+    label = "S_rad/NonDeC;Cmethyl_Srad",
+    kinetics = ArrheniusEP(
+        A = (9.79e+11, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (298, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Tycholiz et al [A].""",
+)
+
+entry(
+    index = 554,
+    label = "C_rad/H/CsS;C/H2/Nd_Csrad",
+    kinetics = ArrheniusEP(
+        A = (3.37e-06, 'cm^3/(mol*s)'),
+        n = 4.35,
+        alpha = 0,
+        E0 = (1.14, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""CAC calc CBS-QB3 1dhr""",
+)
+
+entry(
+    index = 555,
+    label = "O2b;O_Csrad",
+    kinetics = ArrheniusEP(
+        A = (3.7e+16, 'cm^3/(mol*s)'),
+        n = -1.63,
+        alpha = 0,
+        E0 = (3.4, 'kcal/mol'),
+        Tmin = (250, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""S.S. Merchant estimate""",
+    longDesc = 
+u"""
+Estimate on basis of C3H7 + O2 rate from NIST kinetic datbase, Measurements, Theory, and Modeling of OH Formation in Ethyl + O2 and Propyl + O2 Reactions
+ref: DOI: 10.1021/jp0221946
+""",
+)
+
+entry(
+    index = 555,
+    label = "O2b;Cmethyl_Csrad/H/Cd",
+    kinetics = ArrheniusEP(
+        A = (7.23e+12, 'cm^3/(mol*s)', '*|/', 10),
+        n = 0,
+        alpha = 0,
+        E0 = (22, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""S.S. Merchant estimate""",
+    longDesc = 
+u"""
+SSM estimate based on Miyoshi rate rule for secondary carbon in dx.doi.org/10.1021/jp112152n, 
+modified to account for allylic stability (+7 kcal)
+""",
+)
+
+entry(
+    index = 556,
+    label = "O2b;XH_Rrad_birad",
+    kinetics = ArrheniusEP(
+        A = (5e+10, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""A.G. Vandeputte estimated value""",
+)
+
+entry(
+    index = 556,
+    label = "Y_rad_birad_trirad_quadrad;Cdpri_Csrad",
+    kinetics = ArrheniusEP(
+        A = (1e+09, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Estimated value, AG Vandeputte""",
+)
+
+entry(
+    index = 557,
+    label = "O2b;C/H2/De_Csrad",
+    kinetics = ArrheniusEP(
+        A = (1e+10, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Estimated value, AG Vandeputte""",
+)
+
+entry(
+    index = 558,
+    label = "O2b;C/H2/Nd_Rrad",
+    kinetics = ArrheniusEP(
+        A = (1e+10, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Estimated value, AG Vandeputte""",
+)
+
+entry(
+    index = 559,
+    label = "O2b;C/H2/De_Rrad",
+    kinetics = ArrheniusEP(
+        A = (1e+10, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Estimated value, AG Vandeputte""",
+)
+
+entry(
+    index = 560,
+    label = "O2b;C/H/NdNd_Rrad",
+    kinetics = ArrheniusEP(
+        A = (1e+10, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Estimated value, AG Vandeputte""",
+)
+
+entry(
+    index = 561,
+    label = "O2b;C/H/NdDe_Rrad",
+    kinetics = ArrheniusEP(
+        A = (1e+10, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Estimated value, AG Vandeputte""",
+)
+
+entry(
+    index = 562,
+    label = "O2b;C/H/DeDe_Rrad",
+    kinetics = ArrheniusEP(
+        A = (1e+10, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 9,
+    shortDesc = u"""Estimated value, AG Vandeputte""",
 )
 
 entry(
@@ -3383,20 +3369,20 @@ entry(
     index = 658,
     label = "C_rad/H/TwoDe;Cmethyl_Csrad/H/Cd",
     kinetics = ArrheniusEP(
-        A = (5E+10, 'cm^3/(mol*s)'),
+        A = (5e+10, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Estimated by S.S. Merchant""",
     longDesc = 
-"""
+u"""
 Estimating rate coefficient for cyclopentadienyl radical + butadieneyl radical
 NIST estimate for allyl + iso-butyl is 8E+11 at 1000 K, however in our system the butadieneyl radical is also resonance stabilized
 and it will be harder to break the bond to give butadiene + cyclopentadiene. Currently estimate it to be a factor of 5 slower.
-"""
+""",
 )
 

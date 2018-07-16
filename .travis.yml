@@ -1,38 +1,62 @@
-language: python
+language: c
 sudo: false
-python:
-  - "2.7"
+
 env:
   global:
-    - secure: "L2ja+ZnV83w4qG3E8FwTjm0D6IWNOnj5wuFOjYTwbzQP4OAgLAWBzCMtxzWy5sMxFLtRgkswBH1d5f5kg8Ab7GIyAMFgQwe8UFqMJ+N05QNszE1mJkAvJtv2XN7669XXQhTt5EXfHrCcGZaODVnI2CEA8GB5DxiHO2Lcqf/xvgE="
     - secure: fd2HDrPvxMLHOXar7HyUZh0v+C5WkCfzhRzlBn+aePayrQn5FFrT68ENyr1v4sIpKESxYUOAwqtpDPUhF3M596GgGeU5yQc4q+sZmfwbVrjOvKCYuA5037vHmkWP1+mxQtRJMz/DC6vAoyasZkN5WD2n6WYIGupu/FxIJzYyzMM=
     - secure: N/LNeY6kM4g2TOWiwuZhevrFOVSSDXj42hOWmbWVfwjLxVTMpFO29os3TiXxod8q6ezpDkXi5yVcGGtKLQZr6CgoiGW8zS+UKsUntKH4HI4dZdK+hKAKwaWU641aDNIq/XqSzNJ8v7ZmLLo3sk878aTHODPRPBfb7Q9wk2l3sDs=
     - secure: jSRuOGP7vghJet6oelSprSLGBd/eYuUaU3UM+QnZW0GhETWyXxjg/17hpl2R2NzVLhVz2m0KRaoT9JmG+EyJ9NW47JwTaKL+CNtxg2gPTM3/6iVNdVrXM1vOTvaJhtZ/C2SbLDg/+JPLLUMfT9/9oXkiz+enh7VzZuZDywgoTsw=
     - secure: Y4tbLIssPDkRQZp2lLUtou/YZr3APmhfD3o3tUcv1mqveeg6NBYZ8o6bLSULO3wdm88s1sug23VbP+Gt74XN4Ylbt4GjhKkOxvd+Vut7dR0o0cxsH372AWHYPicCOkuYAfeDK5cqxeXkGibHW1eBdduAAT82wcW5NcD9USyv9ig=
 
+stages:
+  - test
+  - name: deploy
+    if: branch = stable
+
 before_install:
   - cd ..
-  # Set up anaconda
-  - wget http://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh -O miniconda.sh
+  # Install miniconda
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then wget http://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh -O miniconda.sh; fi
+  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then wget http://repo.continuum.io/miniconda/Miniconda2-latest-MacOSX-x86_64.sh -O miniconda.sh; fi
   - bash miniconda.sh -b -p $HOME/miniconda
   - export PATH=$HOME/miniconda/bin:$PATH
-  # Update conda itself
+  # Update conda
   - conda update --yes conda
   - conda info -a
-  # This is the RMG-database project, so need to fetch RMG-Py
-  - git clone https://github.com/ReactionMechanismGenerator/RMG-Py.git
-  - cd RMG-Py
 
-install:
-  - conda env create -q -f environment_linux.yml
-  - source activate rmg_env
-  - conda list
-  - make
-
-script:
-  - make test-database
-  - make test-all
-
-after_success:
-  - cd $TRAVIS_BUILD_DIR
-  - bash ./deploy.sh
+jobs:
+  include:
+    - stage: test
+      install:
+        # This is the RMG-database project, so need to fetch RMG-Py
+        - git clone https://github.com/ReactionMechanismGenerator/RMG-Py.git
+        - cd RMG-Py
+        - conda env create -q -f environment_linux.yml
+        - source activate rmg_env
+        - conda list
+        - make
+      script:
+        - make test-unittests
+        - make test-functional
+        - make test-database
+      after_success:
+        - cd $TRAVIS_BUILD_DIR
+        - bash ./deploy.sh
+    - stage: deploy
+      install:
+        # Setup conda build
+        - conda install -y conda-build
+        - conda install -y anaconda-client
+        - conda config --add channels rmg
+        - conda config --set anaconda_upload yes
+      script:
+        - conda build --token $CONDA_TOKEN --user rmg RMG-database
+    - os: osx
+      install:
+        # Setup conda build
+        - conda install -y conda-build
+        - conda install -y anaconda-client
+        - conda config --add channels rmg
+        - conda config --set anaconda_upload yes
+      script:
+        - conda build --token $CONDA_TOKEN --user rmg RMG-database

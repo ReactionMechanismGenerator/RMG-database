@@ -6,7 +6,6 @@ shortDesc = u""
 longDesc = u"""
 
 """
-
 entry(
     index = 812,
     label = "RnSS;Y_rad_intra;SS_intra",

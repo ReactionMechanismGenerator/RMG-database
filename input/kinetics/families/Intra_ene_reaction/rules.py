@@ -17,8 +17,11 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 4,
+    rank = 9,
     shortDesc = u"""AG Vandeputte, CBS-QB3""",
-    longDesc = """Rate taken from H shift in ethyleneCPD""",
+    longDesc = 
+u"""
+Rate taken from H shift in ethyleneCPD
+""",
 )
 

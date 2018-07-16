@@ -82,9 +82,9 @@ entry(
     label = "S + NO <=> SNO",
     degeneracy = 1,
     kinetics = Troe(
-        arrheniusHigh = Arrhenius(A=(3.4e+13, 's^-1'), n=0.24, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+        arrheniusHigh = Arrhenius(A=(1.3e+14, 'cm^3/(mol*s)'), n=0.24, Ea=(0, 'cal/mol'), T0=(300, 'K')),
         arrheniusLow = Arrhenius(
-            A = (2.2e+15, 'cm^3/(mol*s)'),
+            A = (2.2e+15, 'cm^6/(mol^2*s)'),
             n = 0,
             Ea = (-1870, 'cal/mol'),
             T0 = (1, 'K'),
@@ -96,32 +96,34 @@ entry(
     ),
     longDesc = 
 u"""
-[262]
+https://doi.org/10.1063/1.1806419
 """,
 )
 
-entry(
-    index = 6,
-    label = "SH + NO <=> HSNO",
-    degeneracy = 1,
-    kinetics = Troe(
-        arrheniusHigh = Arrhenius(A=(1.6e+13, 's^-1'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-        arrheniusLow = Arrhenius(
-            A = (1.4e+23, 'cm^3/(mol*s)'),
-            n = -2.50,
-            Ea = (-1870, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        alpha = 0.5,
-        T3 = (1e+30, 'K'),
-        T1 = (1e-30, 'K'),
-        T2 = (1e+30, 'K'),
-    ),
-    longDesc = 
-u"""
-[263,268]
-""",
-)
+# entry(
+#     index = 6,
+#     label = "SH + NO <=> HSNO",
+#     degeneracy = 1,
+#     kinetics = Troe(
+#         arrheniusHigh = Arrhenius(A=(1.6e+13, 's^-1'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#         arrheniusLow = Arrhenius(
+#             A = (1.4e+23, 'cm^3/(mol*s)'),
+#             n = -2.50,
+#             Ea = (-1870, 'cal/mol'),
+#             T0 = (1, 'K'),
+#         ),
+#         alpha = 0.5,
+#         T3 = (1e+30, 'K'),
+#         T1 = (1e-30, 'K'),
+#         T2 = (1e+30, 'K'),
+#     ),
+#     longDesc =
+# u"""
+# [263,268]
+# [263] is https://doi.org/10.5194/acp-4-1461-2004, where the rate is only given at 250-300K
+# [268] is https://doi.org/10.1063/1.447287, where the rate is only given at 250-445K
+# """,
+# )
 
 entry(
     index = 7,

@@ -11,6 +11,7 @@ template(reactants=["singletcarbene_CH"], products=["CH_C_unsaturated"], ownReve
 
 reverse = "SingletCarbenefromMultipleBond"
 
+reversible = True
 recipe(actions=[
     ['LOSE_PAIR', '*1', '1'],
     ['FORM_BOND', '*1', 1, '*3'],
@@ -21,50 +22,40 @@ recipe(actions=[
 boundaryAtoms = ["*1", "*2"]
 
 entry(
-    index = 1,
+    index = 0,
     label = "singletcarbene_CH",
-    group=
-    """
-    1 *1 C u0 p1 c0 {2,[S,D]}
-    2 *2 C u0 {1,[S,D]} {3,S}
-    3 *3 H u0 {2,S}
-    """,
+    group = 
+"""
+1 *1 C u0 p1 c0 {2,[S,D]}
+2 *2 C u0 {1,[S,D]} {3,S}
+3 *3 H u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1,
+    label = "singletcarbene",
+    group = 
+"""
+1 *1 C u0 p1 c0
+""",
     kinetics = None,
 )
 
 entry(
     index = 2,
-    label = "singletcarbene",
-    group =
-"""
-1 *1 C u0 p1 c0
-""",
-    kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
-)
-
-entry(
-    index = 3,
     label = "CH",
-    group =
+    group = 
 """
 1 *2 C u0 {2,S}
 2 *3 H u0 {1,S}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "fulvene_backbone",
     group = 
 """
@@ -77,17 +68,12 @@ entry(
 7 *3 H u0 {1,S}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "benzene_backbone",
-    group =
+    group = 
 """
 1 *2 C u0 {2,S} {6,S} {7,S}
 2    C u0 {1,S} {3,D}
@@ -98,166 +84,116 @@ entry(
 7 *3 H u0 {1,S}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "CsJ2-C",
-    group =
+    group = 
 """
 1 *1 C u0 p1 c0 {2,S}
 2 *2 C u0 {1,S} {3,S}
 3 *3 H u0 {2,S}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "CdJ2=C",
-    group =
+    group = 
 """
 1 *1 C u0 p1 c0 {2,D}
 2 *2 C u0 {1,D} {3,S}
 3 *3 H u0 {2,S}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "CdJ2",
-    group =
+    group = 
 """
 1 *1 C2d u0 p1 c0
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "CsJ2H",
-    group =
+    group = 
 """
 1 *1 C2s u0 p1 c0 {2,S}
 2    H   u0 {1,S}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "CsJ2C",
-    group =
+    group = 
 """
 1 *1 C2s u0 p1 c0 {2,S}
 2    C   u0 {1,S}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "CsJ2(CsC)",
-    group =
+    group = 
 """
 1 *1 C2s u0 p1 c0 {2,S}
 2    Cs  u0 {1,S} {3,S}
 3    C   u0 {2,S}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "CsJ2(C=C)",
-    group =
+    group = 
 """
 1 *1 C2s u0 p1 c0 {2,S}
 2    Cd  u0 {1,S} {3,D}
 3    C   u0 {2,D}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "CdH2",
-    group =
+    group = 
 """
 1 *2 Cd u0 {2,S} {3,S}
 2 *3 H  u0 {1,S}
 3    H  u0 {1,S}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "CdHC",
-    group =
+    group = 
 """
 1 *2 Cd u0 {2,S} {3,S}
 2 *3 H  u0 {1,S}
 3    C  u0 {1,S}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "CH3",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -265,17 +201,12 @@ entry(
 4    H  u0 {1,S}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "CH2(C)",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -283,17 +214,12 @@ entry(
 4    C  u0 {1,S}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "CH2(C=C)",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -302,17 +228,12 @@ entry(
 5    C  u0 {4,D}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
-    index = 18,
+    index = 17,
     label = "CH(C)C",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -320,28 +241,18 @@ entry(
 4    C  u0 {1,S}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "CH=C",
-    group =
+    group = 
 """
 1 *2 Cd u0 {2,S} {3,D}
 2 *3 H  u0 {1,S}
 3    C  u0 {1,D}
 """,
     kinetics = None,
-    shortDesc = "",
-    longDesc =
-u"""
-
-""",
 )
 
 tree(
@@ -367,3 +278,4 @@ L1: CH
     L2: CH=C
 """
 )
+

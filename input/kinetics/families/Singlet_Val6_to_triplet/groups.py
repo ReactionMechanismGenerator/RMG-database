@@ -11,9 +11,9 @@ This family consists of these three transitions only, and cannot be generalized 
 
 template(reactants=["singlet"], products=["triplet"], ownReverse=False)
 
-reverse = None
-reversible = False
+reverse = "None"
 
+reversible = False
 recipe(actions=[
     ['CHANGE_BOND', '*1', -1, '*2'],
     ['GAIN_RADICAL', '*1', '1'],
@@ -21,9 +21,9 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "singlet",
-    group =
+    group = 
 """
 1 *1 [O2d,S2d] u0 p2 c0 {2,D}
 2 *2 [O2d,S2d] u0 p2 c0 {1,D}
@@ -32,9 +32,9 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "O2",
-    group =
+    group = 
 """
 1 *1 O2d u0 p2 c0 {2,D}
 2 *2 O2d u0 p2 c0 {1,D}
@@ -45,7 +45,7 @@ entry(
 entry(
     index = 2,
     label = "S2",
-    group =
+    group = 
 """
 1 *1 S2d u0 p2 c0 {2,D}
 2 *2 S2d u0 p2 c0 {1,D}
@@ -54,9 +54,9 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 3,
     label = "SO",
-    group =
+    group = 
 """
 1 *1 S2d u0 p2 c0 {2,D}
 2 *2 O2d u0 p2 c0 {1,D}
@@ -72,3 +72,4 @@ L1: singlet
     L2: SO
 """
 )
+
