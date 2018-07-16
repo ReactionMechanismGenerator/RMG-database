@@ -2243,3 +2243,81 @@ G3SX//B3LYP/6-31G(2df,p)
 """,
 )
 
+entry(
+    index = 129,
+    label = "C7H5 <=> C7H5-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.11e+11, 's^-1'), n=0.576, Ea=(40.62, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    longDesc = 
+u"""
+Training reaction from kinetics library: 2011_Silva_C7H5_highP
+Original entry: W4 <=> W5
+""",
+)
+
+entry(
+    index = 130,
+    label = "C7H5-3 <=> C7H5-4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(8.39e+11, 's^-1'), n=0.459, Ea=(26.24, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    longDesc = 
+u"""
+Training reaction from kinetics library: 2011_Silva_C7H5_highP
+Original entry: W8 <=> W9
+""",
+)
+
+entry(
+    index = 131,
+    label = "C7H5-5 <=> C7H5-6",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(4.11e+11, 's^-1'), n=0.472, Ea=(25.95, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    longDesc = 
+u"""
+Training reaction from kinetics library: 2011_Silva_C7H5_highP
+Original entry: W12 <=> W9
+""",
+)
+
+entry(
+    index = 132,
+    label = "C7H5-7 <=> C7H5-8",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.63e+12, 's^-1'), n=0.388, Ea=(94.61, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    longDesc = 
+u"""
+Training reaction from kinetics library: 2011_Silva_C7H5_highP
+Original entry: W9 <=> W20
+""",
+)
+
+entry(
+    index = 133,
+    label = "C7H5-9 <=> C7H5-10",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(8.48e+12, 's^-1'), n=0.239, Ea=(65.78, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    longDesc = 
+u"""
+Training reaction from kinetics library: 2011_Silva_C7H5_highP
+Original entry: W9 <=> W26
+""",
+)
+
+entry(
+    index = 134,
+    label = "C7H5-11 <=> C7H5-12",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(7.13e+12, 's^-1'), n=0.254, Ea=(68.75, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    longDesc = 
+u"""
+Training reaction from kinetics library: 2011_Silva_C7H5_highP
+Original entry: W9 <=> W13
+""",
+)
+

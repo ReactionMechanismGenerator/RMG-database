@@ -614,3 +614,16 @@ where only 1500, 2000, 2500 K rates were reported.
 """,
 )
 
+entry(
+    index = 30,
+    label = "C7H5 <=> C7H5-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.05e+09, 's^-1'), n=0.155, Ea=(42.35, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    longDesc = 
+u"""
+Training reaction from kinetics library: 2011_Silva_C7H5_highP
+Original entry: W3 <=> W6
+""",
+)
+
