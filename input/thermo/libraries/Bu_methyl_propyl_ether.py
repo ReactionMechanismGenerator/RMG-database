@@ -1132,7 +1132,7 @@ u"""
 
 """,
 )
-    
+
 entry(
     index = 31,
     label = "1CH2OC1CH3",
