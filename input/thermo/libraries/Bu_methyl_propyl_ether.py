@@ -1176,3 +1176,4 @@ CBS-QB3 calculation with methyl treated as Free Rotor by Matt Johnson
 )  
 
 
+
