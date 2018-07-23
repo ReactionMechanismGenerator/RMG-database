@@ -1331,7 +1331,7 @@ entry(
     longDesc = 
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2016
-More information can be found on pharos ~laitcl/Gaussian/HxBUpdated
+More information can be found on pharos ~laitcl/Gaussian/2017/Kinetics
 """,
 )
 
@@ -1377,7 +1377,7 @@ entry(
     label = "C12H18 + H <=> C12H19-1",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (1.75247e+08, 'cm^3/(mol*s)'),
+        A = (8.76237e+07, 'cm^3/(mol*s)'),
         n = 1.70829,
         Ea = (25.4744, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -1388,7 +1388,7 @@ entry(
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 Hexylbenzene + H --> CCCCCCC1C=C[CH]C=C1
-More information can be found on pharos/home/laitcl/Gaussian/HAdditiontoRing
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
 """,
 )
 
@@ -1397,7 +1397,7 @@ entry(
     label = "C7H8-27 + H <=> C7H9-23",
     degeneracy = 2.0,
     kinetics = Arrhenius(
-        A = (2.15859e+09, 'cm^3/(mol*s)'),
+        A = (1.07929e+09, 'cm^3/(mol*s)'),
         n = 1.42903,
         Ea = (22.7647, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -1408,7 +1408,7 @@ entry(
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 Toluene + H --> CC1[CH]C=CCC=1
-More information can be found on pharos/home/laitcl/Gaussian/HAdditiontoRing
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
 """,
 )
 
@@ -1417,7 +1417,7 @@ entry(
     label = "C7H8-13 + H <=> C7H9-24",
     degeneracy = 2.0,
     kinetics = Arrhenius(
-        A = (2.04885e+09, 'cm^3/(mol*s)'),
+        A = (1.02442e+09, 'cm^3/(mol*s)'),
         n = 1.43982,
         Ea = (18.8871, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -1428,7 +1428,7 @@ entry(
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 Toluene + H --> CC1=C[CH]C=CC1
-More information can be found on pharos/home/laitcl/Gaussian/HAdditiontoRing
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
 """,
 )
 
@@ -1437,7 +1437,7 @@ entry(
     label = "C7H8-29 + H <=> C7H9-25",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (2.24659e+09, 'cm^3/(mol*s)'),
+        A = (1.1233e+09, 'cm^3/(mol*s)'),
         n = 1.42368,
         Ea = (22.5731, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -1448,7 +1448,7 @@ entry(
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 Toluene + H --> CC1C=CC[CH]C=1
-More information can be found on pharos/home/laitcl/Gaussian/HAdditiontoRing
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
 """,
 )
 
@@ -1457,7 +1457,7 @@ entry(
     label = "C7H8-5 + H <=> C7H9-26",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (4.40866e+08, 'cm^3/(mol*s)'),
+        A = (2.20433e+08, 'cm^3/(mol*s)'),
         n = 1.56916,
         Ea = (26.7856, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -1468,7 +1468,7 @@ entry(
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 Toluene + H --> CC1C=C[CH]C=C1
-More information can be found on pharos/home/laitcl/Gaussian/HAdditiontoRing
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
 """,
 )
 
@@ -56896,3 +56896,90 @@ Converted to training reaction from rate rule: N3t_Ct-H;O_atom_triplet
 """,
 )
 
+entry(
+    index = 2848,
+    label = "C7H8-27 + CH3 <=> C8H11-67",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (3356.39, 'cm^3/(mol*s)'),
+        n = 2.32609,
+        Ea = (41.1979, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors (3 total) included in B3LYP/CBSB7 level
+Toluene + CH3 --> CC1[CH]C(C)C=CC=1
+Addition to Meta Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2849,
+    label = "C7H8-13 + CH3 <=> C8H11-68",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (3383.86, 'cm^3/(mol*s)'),
+        n = 2.311,
+        Ea = (37.9756, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors (3 total) included in B3LYP/CBSB7 level
+Toluene + CH3 --> CC1=CC=C[CH]C1C
+Addition to Ortho Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2850,
+    label = "C7H8-29 + CH3 <=> C8H11-69",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3945.69, 'cm^3/(mol*s)'),
+        n = 2.31104,
+        Ea = (41.6199, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors (3 total) included in B3LYP/CBSB7 level
+Toluene + CH3 --> CC1C=CC(C)[CH]C=1
+Addition to Para Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2851,
+    label = "C7H8-5 + CH3 <=> C8H11-70",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (144.44, 'cm^3/(mol*s)'),
+        n = 2.6469,
+        Ea = (43.8158, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors (3 total) included in B3LYP/CBSB7 level
+Toluene + CH3 --> CC(C)1C=CC=C[CH]1
+Addition to subtituted Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
