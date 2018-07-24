@@ -22,6 +22,7 @@ entry(
     index = 1,
     label = "H + O2 <=> HO2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(4.7e+12, 'cm^3/(mol*s)'), n=0.44, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -271,6 +272,7 @@ entry(
     index = 18,
     label = "H2O2 <=> OH + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2e+12, 's^-1'), n=0.9, Ea=(48749, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -329,6 +331,7 @@ entry(
     index = 23,
     label = "CO + O <=> CO2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.8e+10, 'cm^3/(mol*s)'), n=0, Ea=(2384, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -372,6 +375,7 @@ entry(
     index = 25,
     label = "CO + OH <=> HOCO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.013158, 0.13158, 1.3158, 13.158, 131.58], 'atm'),
         arrhenius = [
@@ -443,6 +447,7 @@ entry(
     index = 29,
     label = "HOCO <=> CO2 + H",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(8.2e+11, 's^-1'), n=0.413, Ea=(35335, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -527,6 +532,7 @@ entry(
     index = 36,
     label = "CH2O <=> HCO + H",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(8e+15, 's^-1'), n=0, Ea=(87726, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -544,6 +550,7 @@ entry(
     index = 37,
     label = "CH2O <=> CO + H2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(3.7e+13, 's^-1'), n=0, Ea=(71969, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -844,6 +851,7 @@ entry(
     index = 50,
     label = "HCO <=> H + CO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(4.93e+16, 's^-1'), n=-0.93, Ea=(19724, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -926,6 +934,7 @@ entry(
     index = 58,
     label = "CH3 + H <=> CH4",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (2.3e+14, 'cm^3/(mol*s)'),
@@ -1019,6 +1028,7 @@ entry(
     index = 66,
     label = "CH3 <=> CH + H2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(3.1e+15, 'cm^3/(mol*s)'), n=0, Ea=(80871, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
@@ -1079,6 +1089,7 @@ entry(
     index = 72,
     label = "CH3 + OH <=> CH3OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.001316, 0.013158, 0.131579, 1.31579, 13.1579, 131.579], 'atm'),
         arrhenius = [
@@ -1391,6 +1402,7 @@ entry(
     index = 81,
     label = "CH3 + O2 <=> CH3OO",
     degeneracy = 1,
+    elementary_high_p = True,
     duplicate = True,
     kinetics = MultiPDepArrhenius(
         arrhenius = [
@@ -1935,6 +1947,7 @@ entry(
     index = 120,
     label = "CH3OH <=> CH2(S) + H2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(3.1e+18, 's^-1'), n=-1.017, Ea=(91712, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -1956,6 +1969,7 @@ entry(
     index = 121,
     label = "CH2OH + H <=> CH3OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(4.3e+15, 'cm^3/(mol*s)'), n=-0.79, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -1977,6 +1991,7 @@ entry(
     index = 122,
     label = "CH3O + H <=> CH3OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.4e+12, 'cm^3/(mol*s)'), n=0.515, Ea=(50, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -2103,6 +2118,7 @@ entry(
     index = 133,
     label = "CH2OH <=> CH2O + H",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(7.37e+10, 's^-1'), n=0.811, Ea=(39558.7, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -2287,6 +2303,7 @@ entry(
     index = 146,
     label = "CH3O <=> CH2O + H",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.13e+10, 's^-1'), n=1.21, Ea=(24068.8, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -2466,6 +2483,7 @@ entry(
     index = 161,
     label = "CH3OOH <=> CH3O + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(4.1e+19, 's^-1'), n=-1.153, Ea=(44226, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -2707,6 +2725,7 @@ entry(
     index = 185,
     label = "CH2OOH <=> CH2O + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.04, 1, 10, 100], 'atm'),
         arrhenius = [
@@ -2723,6 +2742,7 @@ entry(
     index = 186,
     label = "HCOH <=> CO + H2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(6.56e+13, 's^-1'), n=0, Ea=(49465, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""The chemkin file reaction is HCOH <=> CO + H2""",
 )
@@ -2731,6 +2751,7 @@ entry(
     index = 187,
     label = "HCOH <=> CH2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(5.15e+13, 's^-1'), n=0, Ea=(32109, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""The chemkin file reaction is HCOH <=> CH2O""",
 )
@@ -2787,6 +2808,7 @@ entry(
     index = 194,
     label = "CH3 + CH3 <=> C2H6",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (9.5e+14, 'cm^3/(mol*s)'),
@@ -2898,6 +2920,7 @@ entry(
     index = 203,
     label = "C2H4 + H <=> C2H5",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (1.4e+09, 'cm^3/(mol*s)'),
@@ -2924,6 +2947,7 @@ entry(
     index = 204,
     label = "C2H5 + H <=> C2H6",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (5.2e+17, 'cm^3/(mol*s)'),
@@ -3078,6 +3102,7 @@ entry(
     index = 211,
     label = "C2H5 + O2 <=> CH3CH2OO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.5e+15, 'cm^3/(mol*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(A=(3.3e+31, 'cm^6/(mol^2*s)'), n=-4.9, Ea=(0, 'cal/mol'), T0=(1, 'K')),
@@ -3182,6 +3207,7 @@ entry(
     index = 218,
     label = "C2H3 + H <=> C2H4",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(3.9e+13, 'cm^3/(mol*s)'), n=0.2, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(A=(2.1e+24, 'cm^6/(mol^2*s)'), n=-1.3, Ea=(0, 'cal/mol'), T0=(1, 'K')),
@@ -3198,6 +3224,7 @@ entry(
     index = 219,
     label = "C2H4 <=> H2CC + H2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(8e+12, 's^-1'), n=0.44, Ea=(88800, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -3394,6 +3421,7 @@ entry(
     label = "C2H4 + OH <=> CH2CH2OH",
     degeneracy = 1,
     duplicate = True,
+    elementary_high_p = True,
     kinetics = MultiPDepArrhenius(
         arrhenius = [
             PDepArrhenius(
@@ -3595,6 +3623,7 @@ entry(
     index = 232,
     label = "C2H4 + HO2 <=> CH2CH2OOH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.01316, 0.98692, 9.86923, 98.6923, 1000], 'atm'),
         arrhenius = [
@@ -3741,6 +3770,7 @@ entry(
     index = 236,
     label = "C2H2 + H <=> C2H3",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (1.7e+10, 'cm^3/(mol*s)'),
@@ -3798,6 +3828,7 @@ entry(
     index = 241,
     label = "C2H3 + O2 <=> CH2CHOO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.01, 0.1, 0.316, 1, 3.16, 10, 31.6, 100], 'atm'),
         arrhenius = [
@@ -5193,6 +5224,7 @@ entry(
     index = 261,
     label = "C2H2 <=> H2CC",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(18000, 's^-1'), n=3.51, Ea=(43300, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -5313,6 +5345,7 @@ entry(
     index = 267,
     label = "C2H2 + OH <=> CHCHOH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.01, 0.025, 0.1, 1, 10, 100], 'atm'),
         arrhenius = [
@@ -6753,6 +6786,7 @@ entry(
     index = 296,
     label = "CH3CH2OH <=> CH2OH + CH3",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.001, 0.01, 0.1, 1, 10, 100], 'atm'),
         arrhenius = [
@@ -6771,6 +6805,7 @@ entry(
     index = 297,
     label = "CH3CH2OH <=> C2H5 + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.001, 0.01, 0.1, 1, 10, 100], 'atm'),
         arrhenius = [
@@ -6789,6 +6824,7 @@ entry(
     index = 298,
     label = "CH3CH2OH <=> C2H4 + H2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.001, 0.01, 0.1, 1, 10, 100], 'atm'),
         arrhenius = [
@@ -6807,6 +6843,7 @@ entry(
     index = 299,
     label = "CH3CHOH + H <=> CH3CH2OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.01, 0.1, 1, 10, 100], 'atm'),
         arrhenius = [
@@ -6849,6 +6886,7 @@ entry(
     index = 300,
     label = "CH3CH2O + H <=> CH3CH2OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(3.1e+11, 'cm^3/(mol*s)'), n=0.894, Ea=(13, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -6997,6 +7035,7 @@ entry(
     index = 316,
     label = "CH3CHOH <=> CH3CHO + H",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(6.2e+09, 's^-1'), n=1.31, Ea=(33778, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(A=(1.8e+16, 'cm^3/(mol*s)'), n=0, Ea=(20782, 'cal/mol'), T0=(1, 'K')),
@@ -7013,6 +7052,7 @@ entry(
     index = 317,
     label = "CH3CHOH <=> CH2CHOH + H",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(6.4e+09, 's^-1'), n=1.33, Ea=(35974, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(A=(8.2e+14, 'cm^3/(mol*s)'), n=0, Ea=(21517, 'cal/mol'), T0=(1, 'K')),
@@ -7029,6 +7069,7 @@ entry(
     index = 318,
     label = "CH3CHOH <=> CH3 + CH2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.2e+09, 's^-1'), n=1.18, Ea=(33987, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(A=(5.9e+15, 'cm^3/(mol*s)'), n=0, Ea=(21333, 'cal/mol'), T0=(1, 'K')),
@@ -7292,6 +7333,7 @@ entry(
     index = 328,
     label = "CH2CH2OH <=> CH2CHOH + H",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.0013, 1, 100], 'atm'),
         arrhenius = [
@@ -7451,6 +7493,7 @@ entry(
     index = 332,
     label = "CH2CH2OH + H <=> CH3CH2OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (5.2e+17, 'cm^3/(mol*s)'),
@@ -7622,6 +7665,7 @@ entry(
     index = 338,
     label = "CH2CH2OH + O2 <=> HOCH2CH2OO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.013, 0.1, 1, 10, 100], 'atm'),
         arrhenius = [
@@ -7701,6 +7745,7 @@ entry(
     index = 340,
     label = "CH3CH2O <=> CH3 + CH2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(6.3e+10, 's^-1'), n=0.93, Ea=(17098, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -7722,6 +7767,7 @@ entry(
     index = 341,
     label = "CH3CHO + H <=> CH3CH2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (4.6e+07, 'cm^3/(mol*s)'),
         n = 1.71,
@@ -7789,6 +7835,7 @@ entry(
     index = 347,
     label = "CH3CHO <=> CH3 + HCO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.7e+22, 's^-1'), n=-1.74, Ea=(86355, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -8283,6 +8330,7 @@ entry(
     index = 393,
     label = "CHCHOH <=> HCCOH + H",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.04, 1, 10, 100], 'atm'),
         arrhenius = [
@@ -8442,6 +8490,7 @@ entry(
     index = 408,
     label = "CH3CO <=> CH3 + CO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.01, 0.025, 0.1, 1, 10, 100], 'atm'),
         arrhenius = [
@@ -8460,6 +8509,7 @@ entry(
     index = 409,
     label = "CH2CO + H <=> CH3CO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (2.3e+08, 'cm^3/(mol*s)'),
         n = 1.61,
@@ -8651,6 +8701,7 @@ entry(
     index = 422,
     label = "CH2CHO <=> CH2CO + H",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.01, 0.1, 1, 10, 100], 'atm'),
         arrhenius = [
@@ -8668,6 +8719,7 @@ entry(
     index = 423,
     label = "CH2CHO <=> CH3 + CO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.01, 0.025, 0.1, 1, 10, 100], 'atm'),
         arrhenius = [
@@ -9054,6 +9106,7 @@ entry(
     index = 441,
     label = "CH2 + CO <=> CH2CO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(8.1e+11, 'cm^3/(mol*s)'), n=0.5, Ea=(4510, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -9152,6 +9205,7 @@ entry(
     index = 451,
     label = "CH + CO <=> HCCO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -9582,6 +9636,7 @@ entry(
     index = 475,
     label = "CH3CH2OOH <=> CH3CH2O + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 100], 'atm'),
         arrhenius = [
@@ -9661,6 +9716,7 @@ entry(
     index = 484,
     label = "CH3CHOOH <=> CH3CHO + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([1, 10, 100], 'atm'),
         arrhenius = [
@@ -9676,6 +9732,7 @@ entry(
     index = 485,
     label = "CH3CH2OO <=> CH2CH2OOH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30, 100], 'atm'),
         arrhenius = [
@@ -9880,6 +9937,7 @@ entry(
     index = 503,
     label = "CH2CHOOH <=> CH2CHO + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([1, 10, 50, 100], 'atm'),
         arrhenius = [
@@ -9936,6 +9994,7 @@ entry(
     index = 509,
     label = "CH2CHOO <=> CHCHO + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.01, 0.1, 0.316, 1, 3.16, 10, 31.6, 100], 'atm'),
         arrhenius = [
@@ -9996,6 +10055,7 @@ entry(
     index = 510,
     label = "CH2CHOO <=> CH2CHO + O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.01, 0.1, 0.316, 1, 3.16, 10, 31.6, 100], 'atm'),
         arrhenius = [
@@ -10056,6 +10116,7 @@ entry(
     index = 511,
     label = "CH2CHOO <=> OCHCHO + H",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.01, 0.1, 0.316, 1, 3.16, 10, 31.6, 100], 'atm'),
         arrhenius = [
@@ -10116,6 +10177,7 @@ entry(
     index = 512,
     label = "CH2CHOO <=> CH2CO + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.01, 0.1, 0.316, 1, 3.16, 10, 31.6, 100], 'atm'),
         arrhenius = [
@@ -10691,6 +10753,7 @@ entry(
     index = 540,
     label = "OCHCO <=> HCO + CO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = PDepArrhenius(
         pressures = ([0.01, 0.1, 1, 100], 'atm'),
         arrhenius = [
@@ -10778,6 +10841,7 @@ entry(
     index = 543,
     label = "CH2O + OH <=> HOCH2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (6.3e+06, 'cm^3/(mol*s)'),
         n = 1.63,
@@ -10791,6 +10855,7 @@ entry(
     index = 544,
     label = "HOCH2O <=> HOCHO + H",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1e+14, 's^-1'), n=0, Ea=(14900, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""The chemkin file reaction is HOCH2O <=> HOCHO + H""",
 )
@@ -10799,6 +10864,7 @@ entry(
     index = 545,
     label = "HOCHO <=> CO + H2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(7.5e+14, 's^-1'), n=0, Ea=(68710, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(A=(4.1e+15, 'cm^3/(mol*s)'), n=0, Ea=(52980, 'cal/mol'), T0=(1, 'K')),
@@ -10811,6 +10877,7 @@ entry(
     index = 546,
     label = "HOCHO <=> CO2 + H2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(4.5e+13, 's^-1'), n=0, Ea=(68240, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(A=(1.7e+15, 'cm^3/(mol*s)'), n=0, Ea=(51110, 'cal/mol'), T0=(1, 'K')),
@@ -10923,6 +10990,7 @@ entry(
     index = 557,
     label = "OCHO <=> CO2 + H",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1e+10, 's^-1'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""The chemkin file reaction is OCHO <=> CO2 + H""",
 )
@@ -10939,6 +11007,7 @@ entry(
     index = 559,
     label = "CH3C(O)OOH <=> CH3C(O)O + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(5e+14, 's^-1'), n=0, Ea=(40142, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""The chemkin file reaction is CH3C(O)OOH <=> CH3C(O)O + OH""",
 )
@@ -11051,6 +11120,7 @@ entry(
     index = 573,
     label = "CH3C(O)O <=> CH3 + CO2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.2e+11, 's^-1'), n=0.29, Ea=(4579, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""The chemkin file reaction is CH3C(O)O <=> CH3 + CO2""",
 )
