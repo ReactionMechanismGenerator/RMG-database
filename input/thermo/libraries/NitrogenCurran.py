@@ -527,10 +527,10 @@ entry(
     label = "H2NN",
     molecule =
 """
-1 N u0 p1 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
+1 N u0 p0 c+1 {2,D} {3,S} {4,S}
+2 N u0 p2 c-1 {1,D}
 3 H u0 p0 c0 {1,S}
-4 N u0 p2 c0 {1,S}
+4 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -913,8 +913,8 @@ entry(
     label = "HON(S)",
     molecule =
 """
-1 O u0 p2 c0 {2,S} {3,S}
-2 N u0 p2 c0 {1,S}
+1 O u0 p1 c+1 {2,D} {3,S}
+2 N u0 p2 c-1 {1,D}
 3 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
