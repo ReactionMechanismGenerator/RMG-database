@@ -10,8 +10,8 @@ longDesc = u"""
 template(reactants=["CO2_CS2", "RR'"], products=["R_(CS2)_R'"], ownReverse=False)
 
 reverse = "1,2_Elimination_CO2"
-
 reversible = True
+
 recipe(actions=[
     ['BREAK_BOND', '*3', 1, '*4'],
     ['CHANGE_BOND', '*1', -1, '*2'],

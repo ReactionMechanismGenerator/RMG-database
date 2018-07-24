@@ -10,8 +10,8 @@ longDesc = u"""
 template(reactants=["db", "doublebond"], products=["four_ring"], ownReverse=False)
 
 reverse = "Four_Ring_Cleavage_Cd"
-
 reversible = True
+
 recipe(actions=[
     ['CHANGE_BOND', '*1', -1, '*2'],
     ['CHANGE_BOND', '*3', -1, '*4'],
@@ -1401,10 +1401,10 @@ entry(
     label = "mb_OC_2H",
     group = 
 """
-1 *3 O2d u0 {2,D}
-2 *4 CO  u0 {1,D} {3,S} {4,S}
-3    H   u0 {2,S}
-4    H   u0 {2,S}
+1 *4 CO  u0 {2,D} {3,S} {4,S}
+2 *3 O2d u0 {1,D}
+3    H   u0 {1,S}
+4    H   u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1414,10 +1414,10 @@ entry(
     label = "mb_OC_HNd",
     group = 
 """
-1 *3 O2d      u0 {2,D}
-2 *4 CO       u0 {1,D} {3,S} {4,S}
-3    H        u0 {2,S}
-4    [Cs,O,S] u0 {2,S}
+1 *4 CO       u0 {2,D} {3,S} {4,S}
+2 *3 O2d      u0 {1,D}
+3    H        u0 {1,S}
+4    [Cs,O,S] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1440,10 +1440,10 @@ entry(
     label = "mb_OC_Nd2",
     group = 
 """
-1 *3 O2d      u0 {2,D}
-2 *4 CO       u0 {1,D} {3,S} {4,S}
-3    [Cs,O,S] u0 {2,S}
-4    [Cs,O,S] u0 {2,S}
+1 *4 CO       u0 {2,D} {3,S} {4,S}
+2 *3 O2d      u0 {1,D}
+3    [Cs,O,S] u0 {1,S}
+4    [Cs,O,S] u0 {1,S}
 """,
     kinetics = None,
 )

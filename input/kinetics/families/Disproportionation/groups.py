@@ -12,8 +12,8 @@ If a tri-rad or quad-rad, reaction site *1 and *3 can be anything but singlet.
 template(reactants=["Y_rad_birad_trirad_quadrad", "XH_Rrad_birad"], products=["Y_H", "X_R"], ownReverse=False)
 
 reverse = "Molecular_Addition"
-
 reversible = True
+
 recipe(actions=[
     ['FORM_BOND', '*1', 1, '*4'],
     ['BREAK_BOND', '*2', 1, '*4'],

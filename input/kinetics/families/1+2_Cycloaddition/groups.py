@@ -10,8 +10,8 @@ Reaction site *3 should always be a singlet in this family.
 template(reactants=["multiplebond", "elec_def"], products=["cycle"], ownReverse=False)
 
 reverse = "Three_Ring_Cleavage"
-
 reversible = True
+
 recipe(actions=[
     ['CHANGE_BOND', '*1', -1, '*2'],
     ['FORM_BOND', '*1', 1, '*3'],
@@ -70,11 +70,11 @@ entry(
     label = "me_carbene",
     group = 
 """
-1 *3 C  u0 p1 {2,S} {3,S}
-2    Cs u0 {1,S} {4,S} {5,S} {6,S}
+1    Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 *3 C  u0 p1 {1,S} {6,S}
 3    H  u0 {1,S}
-4    H  u0 {2,S}
-5    H  u0 {2,S}
+4    H  u0 {1,S}
+5    H  u0 {1,S}
 6    H  u0 {2,S}
 """,
     kinetics = None,
@@ -102,15 +102,15 @@ entry(
     label = "dime_carbene",
     group = 
 """
-1 *3 C  u0 p1 {2,S} {3,S}
-2    Cs u0 {1,S} {4,S} {5,S} {6,S}
-3    Cs u0 {1,S} {7,S} {8,S} {9,S}
-4    H  u0 {2,S}
-5    H  u0 {2,S}
-6    H  u0 {2,S}
-7    H  u0 {3,S}
-8    H  u0 {3,S}
-9    H  u0 {3,S}
+1    Cs u0 {3,S} {4,S} {5,S} {6,S}
+2    Cs u0 {3,S} {7,S} {8,S} {9,S}
+3 *3 C  u0 p1 {1,S} {2,S}
+4    H  u0 {1,S}
+5    H  u0 {1,S}
+6    H  u0 {1,S}
+7    H  u0 {2,S}
+8    H  u0 {2,S}
+9    H  u0 {2,S}
 """,
     kinetics = None,
 )

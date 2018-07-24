@@ -10,8 +10,8 @@ The CSm group needs a singlet in order to react in this family.
 template(reactants=["CSm", "Y_rad"], products=["YC.=S"], ownReverse=False)
 
 reverse = "CSM_Elimination_From_Thiocarbonyl"
-
 reversible = True
+
 recipe(actions=[
     ['LOSE_PAIR', '*1', '1'],
     ['CHANGE_BOND', '*1', -1, '*3'],
@@ -370,13 +370,13 @@ entry(
     label = "CH2CH3",
     group = 
 """
-1 *2 Cs u1 {2,S} {3,S} {4,S}
-2    H  u0 {1,S}
+1    Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cs u1 {1,S} {6,S} {7,S}
 3    H  u0 {1,S}
-4    Cs u0 {1,S} {5,S} {6,S} {7,S}
-5    H  u0 {4,S}
-6    H  u0 {4,S}
-7    H  u0 {4,S}
+4    H  u0 {1,S}
+5    H  u0 {1,S}
+6    H  u0 {2,S}
+7    H  u0 {2,S}
 """,
     kinetics = None,
 )

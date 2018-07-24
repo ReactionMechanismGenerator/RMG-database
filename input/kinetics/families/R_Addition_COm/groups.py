@@ -10,8 +10,8 @@ longDesc = u"""
 template(reactants=["COm", "Y_rad"], products=["YC.=O"], ownReverse=False)
 
 reverse = "COM_Elimination_From_Carbonyl"
-
 reversible = True
+
 recipe(actions=[
     ['LOSE_PAIR', '*1', '1'],
     ['CHANGE_BOND', '*1', -1, '*3'],
@@ -370,13 +370,13 @@ entry(
     label = "CH2CH3",
     group = 
 """
-1 *2 C  u1 {2,S} {3,S} {4,S}
-2    H  u0 {1,S}
+1    Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C  u1 {1,S} {6,S} {7,S}
 3    H  u0 {1,S}
-4    Cs u0 {1,S} {5,S} {6,S} {7,S}
-5    H  u0 {4,S}
-6    H  u0 {4,S}
-7    H  u0 {4,S}
+4    H  u0 {1,S}
+5    H  u0 {1,S}
+6    H  u0 {2,S}
+7    H  u0 {2,S}
 """,
     kinetics = None,
 )
@@ -386,16 +386,16 @@ entry(
     label = "CH2CH2CH3",
     group = 
 """
-1  *2 C  u1 {2,S} {3,S} {4,S}
-2     H  u0 {1,S}
-3     H  u0 {1,S}
-4     Cs u0 {1,S} {5,S} {6,S} {7,S}
-5     H  u0 {4,S}
-6     H  u0 {4,S}
-7     C  u0 {4,S} {8,S} {9,S} {10,S}
-8     H  u0 {7,S}
-9     H  u0 {7,S}
-10    H  u0 {7,S}
+1     Cs u0 {2,S} {3,S} {4,S} {5,S}
+2     C  u0 {1,S} {6,S} {7,S} {8,S}
+3  *2 C  u1 {1,S} {9,S} {10,S}
+4     H  u0 {1,S}
+5     H  u0 {1,S}
+6     H  u0 {2,S}
+7     H  u0 {2,S}
+8     H  u0 {2,S}
+9     H  u0 {3,S}
+10    H  u0 {3,S}
 """,
     kinetics = None,
 )
@@ -522,16 +522,16 @@ entry(
     label = "CH(CH3)2",
     group = 
 """
-1  *2 C  u1 {2,S} {3,S} {4,S}
-2     H  u0 {1,S}
-3     Cs u0 {1,S} {5,S} {6,S} {7,S}
-4     Cs u0 {1,S} {8,S} {9,S} {10,S}
-5     H  u0 {3,S}
-6     H  u0 {3,S}
-7     H  u0 {3,S}
-8     H  u0 {4,S}
-9     H  u0 {4,S}
-10    H  u0 {4,S}
+1     Cs u0 {3,S} {4,S} {5,S} {6,S}
+2     Cs u0 {3,S} {7,S} {8,S} {9,S}
+3  *2 C  u1 {1,S} {2,S} {10,S}
+4     H  u0 {1,S}
+5     H  u0 {1,S}
+6     H  u0 {1,S}
+7     H  u0 {2,S}
+8     H  u0 {2,S}
+9     H  u0 {2,S}
+10    H  u0 {3,S}
 """,
     kinetics = None,
 )

@@ -10,8 +10,8 @@ longDesc = u"""
 template(reactants=["XSYJ"], products=["XYSJ"], ownReverse=False)
 
 reverse = "Ring_Opening_bySradical"
-
 reversible = True
+
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*2'],
     ['FORM_BOND', '*1', 1, '*3'],
@@ -53,9 +53,9 @@ entry(
     label = "XSR3J",
     group = 
 """
-1 *3 R!H u1 {2,[S,D]}
-2 *2 S2s u0 p2 c0 {1,[S,D]} {3,S}
-3 *1 C   u0 {2,S}
+1 *2 S2s u0 p2 c0 {2,[S,D]} {3,S}
+2 *3 R!H u1 {1,[S,D]}
+3 *1 C   u0 {1,S}
 """,
     kinetics = None,
 )
@@ -65,9 +65,9 @@ entry(
     label = "XSR3J_S",
     group = 
 """
-1 *3 R!H u1 {2,S}
-2 *2 S2s u0 p2 c0 {1,S} {3,S}
-3 *1 C   u0 {2,S}
+1 *2 S2s u0 p2 c0 {2,S} {3,S}
+2 *3 R!H u1 {1,S}
+3 *1 C   u0 {1,S}
 """,
     kinetics = None,
 )
@@ -77,10 +77,10 @@ entry(
     label = "XSR4J",
     group = 
 """
-1 *3 R!H u1 {2,[S,D]}
-2 *4 R!H u0 {1,[S,D]} {3,[S,D]}
-3 *2 S2s u0 p2 c0 {2,[S,D]} {4,S}
-4 *1 C   u0 {3,S}
+1 *4 R!H u0 {2,[S,D]} {3,[S,D]}
+2 *2 S2s u0 p2 c0 {1,[S,D]} {4,S}
+3 *3 R!H u1 {1,[S,D]}
+4 *1 C   u0 {2,S}
 """,
     kinetics = None,
 )
@@ -90,10 +90,10 @@ entry(
     label = "XSR4J_SS",
     group = 
 """
-1 *3 R!H u1 {2,S}
-2 *4 R!H u0 {1,S} {3,S}
-3 *2 S2s u0 p2 c0 {2,S} {4,S}
-4 *1 C   u0 {3,S}
+1 *4 R!H u0 {2,S} {3,S}
+2 *2 S2s u0 p2 c0 {1,S} {4,S}
+3 *3 R!H u1 {1,S}
+4 *1 C   u0 {2,S}
 """,
     kinetics = None,
 )
@@ -103,10 +103,10 @@ entry(
     label = "XSR4J_SS_Cs",
     group = 
 """
-1 *3 R!H u1 {2,S}
-2 *4 Cs  u0 {1,S} {3,S}
-3 *2 S2s u0 p2 c0 {2,S} {4,S}
-4 *1 C   u0 {3,S}
+1 *4 Cs  u0 {2,S} {3,S}
+2 *2 S2s u0 p2 c0 {1,S} {4,S}
+3 *3 R!H u1 {1,S}
+4 *1 C   u0 {2,S}
 """,
     kinetics = None,
 )
@@ -116,10 +116,10 @@ entry(
     label = "XSR4J_SS_Ss",
     group = 
 """
-1 *3 R!H u1 {2,S}
-2 *4 S2s u0 {1,S} {3,S}
-3 *2 S2s u0 p2 c0 {2,S} {4,S}
-4 *1 C   u0 {3,S}
+1 *4 S2s u0 {2,S} {3,S}
+2 *2 S2s u0 p2 c0 {1,S} {4,S}
+3 *3 R!H u1 {1,S}
+4 *1 C   u0 {2,S}
 """,
     kinetics = None,
 )
@@ -142,11 +142,11 @@ entry(
     label = "XSR5J",
     group = 
 """
-1 *3 R!H u1 {2,[S,D]}
-2 *4 R!H u0 {1,[S,D]} {3,[S,D]}
-3 *5 R!H u0 {2,[S,D]} {4,[S,D]}
-4 *2 S2s u0 p2 c0 {3,[S,D]} {5,S}
-5 *1 C   u0 {4,S}
+1 *5 R!H u0 {2,[S,D]} {3,[S,D]}
+2 *4 R!H u0 {1,[S,D]} {4,[S,D]}
+3 *2 S2s u0 p2 c0 {1,[S,D]} {5,S}
+4 *3 R!H u1 {2,[S,D]}
+5 *1 C   u0 {3,S}
 """,
     kinetics = None,
 )
@@ -212,12 +212,12 @@ entry(
     label = "XSR6J",
     group = 
 """
-1 *3 R!H u1 {2,[S,D]}
-2 *4 R!H u0 {1,[S,D]} {3,[S,D]}
-3 *5 R!H u0 {2,[S,D]} {4,[S,D]}
-4 *6 R!H u0 {3,[S,D]} {5,[S,D]}
-5 *2 S2s u0 p2 c0 {4,[S,D]} {6,S}
-6 *1 C   u0 {5,S}
+1 *5 R!H u0 {2,[S,D]} {3,[S,D]}
+2 *6 R!H u0 {1,[S,D]} {4,[S,D]}
+3 *4 R!H u0 {1,[S,D]} {5,[S,D]}
+4 *2 S2s u0 p2 c0 {2,[S,D]} {6,S}
+5 *3 R!H u1 {3,[S,D]}
+6 *1 C   u0 {4,S}
 """,
     kinetics = None,
 )
@@ -227,13 +227,13 @@ entry(
     label = "XSR7J",
     group = 
 """
-1 *3 R!H u1 {2,[S,D]}
-2 *4 R!H u0 {1,[S,D]} {3,[S,D]}
-3 *5 R!H u0 {2,[S,D]} {4,[S,D]}
-4 *6 R!H u0 {3,[S,D]} {5,[S,D]}
-5 *7 R!H u0 {4,[S,D]} {6,[S,D]}
-6 *2 S2s u0 p2 c0 {5,[S,D]} {7,S}
-7 *1 C   u0 {6,S}
+1 *6 R!H u0 {2,[S,D]} {3,[S,D]}
+2 *5 R!H u0 {1,[S,D]} {4,[S,D]}
+3 *7 R!H u0 {1,[S,D]} {5,[S,D]}
+4 *4 R!H u0 {2,[S,D]} {6,[S,D]}
+5 *2 S2s u0 p2 c0 {3,[S,D]} {7,S}
+6 *3 R!H u1 {4,[S,D]}
+7 *1 C   u0 {5,S}
 """,
     kinetics = None,
 )
