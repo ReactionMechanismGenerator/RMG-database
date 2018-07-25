@@ -10,6 +10,7 @@ Source of kinetics is unclear, although most likely from his quantum calculation
 # entry(
 #     index = 1,
 #     label = "S2 <=> S2JJ",
+#    elementary_high_p = True,
 #     degeneracy = 1,
 #     kinetics = Arrhenius(A=(2.1e+10, 's^-1'), n=1, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
 # )
@@ -18,6 +19,7 @@ entry(
     index = 2,
     label = "C4H8JSH <=> C4H9SJ",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3760, 's^-1'), n=2.4, Ea=(12.28, 'kcal/mol'), T0=(1, 'K')),
 )
 

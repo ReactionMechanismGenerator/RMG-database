@@ -63,6 +63,7 @@ entry(
     index = 4,
     label = "S + NO <=> SNO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.3e+14, 'cm^3/(mol*s)'), n=0.24, Ea=(0, 'cal/mol'), T0=(300, 'K'), Tmin=(300, 'K'), Tmax=(800, 'K')),
         arrheniusLow = Arrhenius(A=(2.25e+15, 'cm^6/(mol^2*s)'), n=0, Ea=(-1868, 'cal/mol'), T0=(300, 'K'), Tmin=(300, 'K'), Tmax=(800, 'K')),

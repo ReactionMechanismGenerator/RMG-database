@@ -138,6 +138,7 @@ entry(
     index = 8,
     label = "OCS + S <=> OCS2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = MultiArrhenius(
         arrhenius = [
             Arrhenius(
@@ -557,6 +558,7 @@ entry(
     index = 62,
     label = "SH + O2 <=> HSO2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(2e+14, 'cm^3/(mol*s)'), n=-0.26, Ea=(298, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -717,6 +719,7 @@ entry(
     index = 71,
     label = "SO + OH <=> HOSO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(1.6e+12, 'cm^3/(mol*s)'), n=0.5, Ea=(-400, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -799,6 +802,7 @@ entry(
     index = 76,
     label = "SO2 + H <=> HSO2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (5.3e+08, 'cm^3/(mol*s)'),
@@ -827,6 +831,7 @@ entry(
     index = 77,
     label = "SO2 + H <=> HOSO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (2.4e+08, 'cm^3/(mol*s)'),
@@ -855,6 +860,7 @@ entry(
     index = 78,
     label = "SO2 + O <=> SO3",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(3.7e+11, 'cm^3/(mol*s)'), n=0, Ea=(1689, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -901,6 +907,7 @@ entry(
     index = 80,
     label = "SO2 + OH <=> HOSO2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(5.7e+12, 'cm^3/(mol*s)'), n=-0.27, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -1114,6 +1121,7 @@ entry(
     index = 93,
     label = "HSO + H <=> HSOH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (2.5e+20, 'cm^3/(mol*s)'),
         n = -3.14,
@@ -1162,6 +1170,7 @@ entry(
     index = 96,
     label = "HSO + H <=> H2SO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1.8e+17, 'cm^3/(mol*s)'),
         n = -2.47,
@@ -1296,6 +1305,7 @@ entry(
     index = 104,
     label = "HSO + OH <=> HOSHO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (5.2e+28, 'cm^3/(mol*s)'),
         n = -5.44,
@@ -1360,6 +1370,7 @@ entry(
     index = 108,
     label = "HSOH <=> SH + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (2.8e+39, 's^-1'),
         n = -8.75,
@@ -1376,6 +1387,7 @@ entry(
     index = 109,
     label = "HSOH <=> S + H2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (5.8e+29, 's^-1'),
         n = -5.6,
@@ -1392,6 +1404,7 @@ entry(
     index = 110,
     label = "HSOH <=> H2S + O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (9.8e+16, 's^-1'),
         n = -3.4,
@@ -1408,6 +1421,7 @@ entry(
     index = 111,
     label = "HOSO <=> HSO2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1e+09, 's^-1'), n=1.03, Ea=(50000, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -1563,6 +1577,7 @@ entry(
     index = 120,
     label = "H2SO <=> H2S + O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (4.9e+28, 's^-1'),
         n = -6.66,
@@ -1579,6 +1594,7 @@ entry(
     index = 121,
     label = "HOSHO <=> HOSO + H",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (6.4e+30, 's^-1'),
         n = -5.89,
@@ -1595,6 +1611,7 @@ entry(
     index = 122,
     label = "HOSHO <=> SO + H2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1.2e+24, 's^-1'),
         n = -3.59,
@@ -1659,6 +1676,7 @@ entry(
     index = 126,
     label = "HOSO2 <=> HOSO + O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (5.4e+18, 's^-1'),
         n = -2.34,
@@ -1675,6 +1693,7 @@ entry(
     index = 127,
     label = "HOSO2 <=> SO3 + H",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1.4e+18, 's^-1'),
         n = -2.91,
