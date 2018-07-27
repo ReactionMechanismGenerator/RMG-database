@@ -1040,6 +1040,80 @@ u"""
 )
 
 entry(
+    index = 33,
+    label = "MPrO3J",
+    molecule = 
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+2  O u0 p2 c0 {1,S} {3,S}
+3  C u0 p0 c0 {2,S} {4,S} {11,S} {12,S}
+4  C u0 p0 c0 {3,S} {5,S} {13,S} {14,S}
+5  C u1 p0 c0 {4,S} {6,S} {7,S}
+6  H u0 p0 c0 {5,S}
+7  H u0 p0 c0 {5,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.34587030E+00, 6.61255180E-02,-1.79440500E-04, 3.72842960E-07,-2.89118990E-10,-9.13205590E+03, 9.32395340E+00], Tmin=(10,'K'), Tmax=(735.88,'K')),
+            NASAPolynomial(coeffs=[ 1.44485470E+00, 4.58000180E-02,-2.55892160E-05, 6.96686990E-09,-7.42219890E-13,-5.80307085E+03, 2.02447660E+01], Tmin=(735.88,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+entry(
+    index = 32,
+    label = "MPrO-1J",
+    molecule = 
+"""
+multiplicity 2
+1  C u1 p0 c0 {2,S} {3,S} {4,S}
+2  H u0 p0 c0 {1,S}
+3  H u0 p0 c0 {1,S}
+4  O u0 p2 c0 {1,S} {5,S}
+5  C u0 p0 c0 {4,S} {6,S} {8,S} {9,S}
+6  C u0 p0 c0 {5,S} {7,S} {10,S} {11,S}
+7  C u0 p0 c0 {6,S} {12,S} {13,S} {14,S}
+8  H u0 p0 c0 {5,S}
+9  H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {6,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {7,S}
+13 H u0 p0 c0 {7,S}
+14 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.34587030E+00, 6.61255180E-02,-1.79440500E-04, 3.72842960E-07,-2.89118990E-10,-9.13205590E+03, 9.32395340E+00], Tmin=(10,'K'), Tmax=(735.88,'K')),
+            NASAPolynomial(coeffs=[2.97039610E+00, 4.62276120E-02, -2.75102030E-05, 7.91162030E-09,-8.81711200E-13,-9.13205595E+03, 1.33188590E+01], Tmin=(735.88,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+entry(
     index = 30,
     label = "MPO1O3O",
     molecule = 
