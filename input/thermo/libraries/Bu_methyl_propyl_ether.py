@@ -6,34 +6,6 @@ shortDesc = u""
 longDesc = u"""
 
 """
-entry(
-    index = 0,
-    label = "CH3OCHO",
-    molecule = 
-"""
-1 O u0 p2 c0 {3,S} {4,S}
-2 O u0 p2 c0 {4,D}
-3 C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
-4 C u0 p0 c0 {1,S} {2,D} {8,S}
-5 H u0 p0 c0 {3,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[3.96529,0.00198331,6.4164e-05,-1.06369e-07,5.67671e-11,-16129.3,9.57726], Tmin=(10,'K'), Tmax=(484.13,'K')),
-            NASAPolynomial(coeffs=[0.820986,0.0279625,-1.63287e-05,4.47319e-09,-4.71181e-13,-16129.3,22.4658], Tmin=(484.13,'K'), Tmax=(3000,'K')),
-        ],
-        Tmin = (10,'K'),
-        Tmax = (3000,'K'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
 
 entry(
     index = 1,
@@ -291,39 +263,39 @@ u"""
 """,
 )
 
-entry(
-    index = 8,
-    label = "MPO1Star",
-    molecule = 
-"""
-1  O u0 p2 c0 {3,S} {5,S}
-2  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
-3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
-4  C u0 p0 c0 {2,S} {5,D} {12,S}
-5  C u0 p0 c0 {1,S} {4,D} {13,S}
-6  H u0 p0 c0 {2,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {4,S}
-13 H u0 p0 c0 {5,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[3.52225,0.0408649,-5.05522e-05,7.26698e-08,-4.48502e-11,-7204.43,9.2477], Tmin=(10,'K'), Tmax=(571.71,'K')),
-            NASAPolynomial(coeffs=[1.7414,0.041958,-2.35976e-05,6.46222e-09,-6.91769e-13,-7204.43,18.4682], Tmin=(571.71,'K'), Tmax=(3000,'K')),
-        ],
-        Tmin = (10,'K'),
-        Tmax = (3000,'K'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+#entry(
+#    index = 8,
+#    label = "MPO1Star",
+#    molecule = 
+#"""
+#1  O u0 p2 c0 {3,S} {5,S}
+#2  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+#3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+#4  C u0 p0 c0 {2,S} {5,D} {12,S}
+#5  C u0 p0 c0 {1,S} {4,D} {13,S}
+#6  H u0 p0 c0 {2,S}
+#7  H u0 p0 c0 {2,S}
+#8  H u0 p0 c0 {2,S}
+#9  H u0 p0 c0 {3,S}
+#10 H u0 p0 c0 {3,S}
+#11 H u0 p0 c0 {3,S}
+#12 H u0 p0 c0 {4,S}
+#13 H u0 p0 c0 {5,S}
+#""",
+#    thermo = NASA(
+#        polynomials = [
+#            NASAPolynomial(coeffs=[3.52225,0.0408649,-5.05522e-05,7.26698e-08,-4.48502e-11,-7204.43,9.2477], Tmin=(10,'K'), Tmax=(571.71,'K')),
+#            NASAPolynomial(coeffs=[1.7414,0.041958,-2.35976e-05,6.46222e-09,-6.91769e-13,-7204.43,18.4682], Tmin=(571.71,'K'), Tmax=(3000,'K')),
+#        ],
+#        Tmin = (10,'K'),
+#        Tmax = (3000,'K'),
+#    ),
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
+#
+#""",
+#)
 
 entry(
     index = 9,
@@ -985,38 +957,6 @@ entry(
         polynomials = [
             NASAPolynomial(coeffs=[3.56462,0.0370009,9.89701e-05,-2.69132e-07,1.89284e-10,-54795,11.1498], Tmin=(10,'K'), Tmax=(493.57,'K')),
             NASAPolynomial(coeffs=[3.72512,0.0589523,-3.84091e-05,1.1878e-08,-1.39978e-12,-54795,7.61967], Tmin=(493.57,'K'), Tmax=(3000,'K')),
-        ],
-        Tmin = (10,'K'),
-        Tmax = (3000,'K'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 27,
-    label = "Propionic",
-    molecule = 
-"""
-1  O u0 p2 c0 {5,S} {11,S}
-2  O u0 p2 c0 {5,D}
-3  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
-4  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
-5  C u0 p0 c0 {1,S} {2,D} {3,S}
-6  H u0 p0 c0 {3,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {1,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[3.82289,0.0192901,2.08652e-05,-3.18432e-08,1.0933e-11,-38108.7,9.73308], Tmin=(10,'K'), Tmax=(1068.47,'K')),
-            NASAPolynomial(coeffs=[3.88618,0.0330098,-1.79888e-05,4.6246e-09,-4.60062e-13,-38108.7,5.69549], Tmin=(1068.47,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
