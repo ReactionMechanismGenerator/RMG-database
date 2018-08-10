@@ -335,3 +335,45 @@ Converted to training reaction from rate rule: diene_unsub_unsub_out;diene_in_2H
 """,
 )
 
+entry(
+    index = 20,
+    label = "C6H6 + C6H4 <=> C12H10",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(5809, 'cm^3/(mol*s)'), n=2.526, Ea=(5.92, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['Comandini, A.', 'Brezinsky, K.'],
+        title = 'Theoretical Study of the Formation of Naphthalene from the Radical/pi-Bond Addition between Single-Ring Aromatic Hydrocarbons',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '115',
+        pages = '5547-5559',
+        year = '2011',
+    ),
+    referenceType = "theory",
+    rank = 6,
+    longDesc = 
+u"""
+uCCSD(T) with Dunning's correclation-consistent polarized double basis set (cc-pVDZ), TST.
+""",
+)
+
+entry(
+    index = 21,
+    label = "C12H10-2 <=> C2H2 + C10H8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.458e+14, 's^-1'), n=0.0956, Ea=(54.82, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['Comandini, A.', 'Brezinsky, K.'],
+        title = 'Theoretical Study of the Formation of Naphthalene from the Radical/pi-Bond Addition between Single-Ring Aromatic Hydrocarbons',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '115',
+        pages = '5547-5559',
+        year = '2011',
+    ),
+    referenceType = "theory",
+    rank = 6,
+    longDesc = 
+u"""
+uCCSD(T) with Dunning's correclation-consistent polarized double basis set (cc-pVDZ), TST.
+""",
+)
+
