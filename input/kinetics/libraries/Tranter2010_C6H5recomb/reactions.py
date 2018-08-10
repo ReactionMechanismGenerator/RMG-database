@@ -267,25 +267,25 @@ entry(
     ),
 )
 
-entry(
-    index = 9,
-    label = "C6H5 + C6H5 <=> C6H6 + mC6H4t",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A=(5.26e+02, 'cm^3/(mol*s)'),
-        n=3.12,
-        Ea=(2.64, 'kcal/mol'),
-        T0=(1, 'K')),
-)
-
-entry(
-    index = 10,
-    label = "C6H5 + C6H5 <=> C6H6 + pC6H4t",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A=(2.43e+01, 'cm^3/(mol*s)'),
-        n=3.13,
-        Ea=(1.60, 'kcal/mol'),
-        T0=(1, 'K')),
-)
+#entry(
+#    index = 9,
+#    label = "C6H5 + C6H5 <=> C6H6 + mC6H4t",
+#    degeneracy = 1,
+#    kinetics = Arrhenius(
+#        A=(5.26e+02, 'cm^3/(mol*s)'),
+#        n=3.12,
+#        Ea=(2.64, 'kcal/mol'),
+#        T0=(1, 'K')),
+#)
+#
+#entry(
+#    index = 10,
+#    label = "C6H5 + C6H5 <=> C6H6 + pC6H4t",
+#    degeneracy = 1,
+#    kinetics = Arrhenius(
+#        A=(2.43e+01, 'cm^3/(mol*s)'),
+#        n=3.13,
+#        Ea=(1.60, 'kcal/mol'),
+#        T0=(1, 'K')),
+#)
 
