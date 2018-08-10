@@ -388,6 +388,7 @@ entry(
     kinetics = None,
 )
 
+    index = 22,
 tree(
 """
 L1: Root
@@ -442,9 +443,6 @@ forbidden(
     shortDesc = """""",
     longDesc = 
 """
-
-""",
-)
 
 forbidden(
     label = "benzene_diene2",
