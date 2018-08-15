@@ -13,12 +13,12 @@ entry(
     kinetics = Arrhenius(A=(4.57e+8, 'cm^3/(mol*s)'), n=1.88, Ea=(14839, 'cal/mol'), T0=(1, 'K')),
 )
 
-entry(
-    index = 2,
-    label = "C6H5 + H2 <=> C6H6 + H",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.69e+4, 'cm^3/(mol*s)'), n=2.62, Ea=(4559, 'cal/mol'), T0=(1, 'K')),
-)
+#entry(
+#    index = 2,
+#    label = "C6H5 + H2 <=> C6H6 + H",
+#    degeneracy = 1,
+#    kinetics = Arrhenius(A=(1.69e+4, 'cm^3/(mol*s)'), n=2.62, Ea=(4559, 'cal/mol'), T0=(1, 'K')),
+#)
 
 entry(
     index = 3,
@@ -27,12 +27,12 @@ entry(
     kinetics = Arrhenius(A=(3.91e+8, 'cm^3/(mol*s)'), n=1.84, Ea=(14973, 'cal/mol'), T0=(1, 'K')),
 )
 
-entry(
-    index = 4,
-    label = "1-naphthyl + H2 <=> C10H8 + H",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.58e+4, 'cm^3/(mol*s)'), n=2.63, Ea=(4107, 'cal/mol'), T0=(1, 'K')),
-)
+#entry(
+#    index = 4,
+#    label = "1-naphthyl + H2 <=> C10H8 + H",
+#    degeneracy = 1,
+#    kinetics = Arrhenius(A=(1.58e+4, 'cm^3/(mol*s)'), n=2.63, Ea=(4107, 'cal/mol'), T0=(1, 'K')),
+#)
 
 entry(
     index = 5,
@@ -41,12 +41,12 @@ entry(
     kinetics = Arrhenius(A=(4.04e+8, 'cm^3/(mol*s)'), n=1.83, Ea=(14980, 'cal/mol'), T0=(1, 'K')),
 )
 
-entry(
-    index = 6,
-    label = "2-naphthyl + H2 <=> C10H8 + H",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.84e+4, 'cm^3/(mol*s)'), n=2.61, Ea=(4446, 'cal/mol'), T0=(1, 'K')),
-)
+#entry(
+#    index = 6,
+#    label = "2-naphthyl + H2 <=> C10H8 + H",
+#    degeneracy = 1,
+#    kinetics = Arrhenius(A=(1.84e+4, 'cm^3/(mol*s)'), n=2.61, Ea=(4446, 'cal/mol'), T0=(1, 'K')),
+#)
 
 entry(
     index = 7,
