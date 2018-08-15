@@ -11,6 +11,12 @@ template(reactants=["X_H_or_Xrad_H_Xbirad_H_Xtrirad_H", "Y_rad_birad_trirad_quad
 
 reversible = True
 
+reverseMap = {'*1': '*3', '*3': '*1'}
+
+reactantNum = 2
+
+productNum = 2
+
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*2'],
     ['FORM_BOND', '*2', 1, '*3'],
@@ -21,14 +27,19 @@ recipe(actions=[
 entry(
     index = 0,
     label = "X_H_or_Xrad_H_Xbirad_H_Xtrirad_H",
-    group = "OR{Xtrirad_H, Xbirad_H, Xrad_H, X_H}",
+    group = """
+1 *1 R u[0,1,2,3] {2,S}
+2 *2 H u0 {1,S}
+""",
     kinetics = None,
 )
 
 entry(
     index = 1,
     label = "Y_rad_birad_trirad_quadrad",
-    group = "OR{Y_rad, Y_1centerbirad, Y_1centertrirad, Y_1centerquadrad}",
+    group = """
+1 *3 R u[1,2,3,4]
+""",
     kinetics = None,
 )
 
