@@ -33,7 +33,10 @@ entry(
 entry(
     index = 1,
     label = "YJ",
-    group = "OR{HJ, Y_1centerquadrad, Y_1centertrirad, Y_1centerbirad, CJ, OJ, SJ, NJ}",
+    group = 
+"""
+1 *3 R u[1,2,3,4] px
+""",
     kinetics = None,
 )
 
