@@ -377,3 +377,43 @@ uCCSD(T) with Dunning's correclation-consistent polarized double basis set (cc-p
 """,
 )
 
+entry(
+    index = 22,
+    label = "C12H10-3 + C2H2 <=> C14H12",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (16.92, 'cm^3/(mol*s)'),
+        n = 2.6,
+        Ea = (42.193, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 8,
+    longDesc = 
+u"""
+V. V. Kislov, N. I. Islamova, A. M. Kolker, S. H. Lin, and A. M. Mebel;
+Hydrogen Abstraction Acetylene Addition and Diels-Alder Mechanisms of PAH Formation: A Detailed Study Using First Principles Calculations;
+J. Chem. Theory Comput. 2005, 1, 908-924.
+Original entry: B1 + C2H2 <=> B2
+""",
+)
+
+entry(
+    index = 23,
+    label = "C14H10 + C2H2 <=> C16H12",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (43.24, 'cm^3/(mol*s)'),
+        n = 2.58,
+        Ea = (41.945, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 8,
+    longDesc = 
+u"""
+V. V. Kislov, N. I. Islamova, A. M. Kolker, S. H. Lin, and A. M. Mebel;
+Hydrogen Abstraction Acetylene Addition and Diels-Alder Mechanisms of PAH Formation: A Detailed Study Using First Principles Calculations; 
+J. Chem. Theory Comput. 2005, 1, 908-924.
+Original entry: P + C2H2 <=> P1
+""",
+)
+
