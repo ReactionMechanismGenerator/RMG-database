@@ -1357,7 +1357,7 @@ entry(
     label = "N5_rad",
     group = 
 """
-1 *1 [N5sc,N5dc,N5t,N5tc,N5b] u1
+1 *1 [N5sc,N5dc,N5tc,N5b] u1
 """,
     kinetics = None,
 )
@@ -2630,10 +2630,10 @@ entry(
     label = "Cds/H2_d_N5rad",
     group = 
 """
-1 *2 C                     u0 {2,D} {3,S} {4,S}
-2 *3 [N5dc,N5ddc,N5t,N5tc] u1 p0 c+1 {1,D}
-3 *4 H                     u0 {1,S}
-4    H                     u0 {1,S}
+1 *2 C                 u0 {2,D} {3,S} {4,S}
+2 *3 [N5dc,N5ddc,N5tc] u1 p0 c+1 {1,D}
+3 *4 H                 u0 {1,S}
+4    H                 u0 {1,S}
 """,
     kinetics = None,
 )
