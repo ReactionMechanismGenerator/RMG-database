@@ -53,6 +53,13 @@ CH2OS
 4    H u0 p0 c0 {3,S}
 5 *4 H u0 p0 c0 {2,S}
 
+CH2OS-2
+1 *1 S u0 p2 c0 {3,S} {5,S}
+2 *3 O u0 p2 c0 {3,D} 
+3 *2 C u0 p0 c0 {1,S} {2,D} {4,S}
+4    H u0 p0 c0 {3,S}
+5 *4 H u0 p0 c0 {1,S}
+
 C2H4OS
 1 *1 S u0 p2 c0 {4,D}
 2 *3 O u0 p2 c0 {4,S} {8,S}
