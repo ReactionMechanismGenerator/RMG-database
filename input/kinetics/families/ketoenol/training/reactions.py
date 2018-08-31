@@ -69,7 +69,7 @@ Converted to training reaction from rate rule: R_ROR;R1_doublebond_CH2;R2_double
 
 entry(
     index = 4,
-    label = "CH2OS <=> CH2OS",
+    label = "CH2OS <=> CH2OS-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (52, 's^-1'),
