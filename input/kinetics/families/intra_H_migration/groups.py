@@ -18,12 +18,18 @@ recipe(actions=[
     ['LOSE_RADICAL', '*1', '1'],
 ])
 
+reverseMap = {'*1':'*2','*2':'*1'}
+
 boundaryAtoms = ["*1", "*2"]
 
 entry(
     index = 0,
     label = "RnH",
-    group = "OR{R2Hall, R3Hall, R4Hall, R5Hall, R6Hall, R7Hall, R8Hall}",
+    group = """
+1 *2 R!H u0 {3,S}
+2 *1 R!H u1 
+3 *3 H   u0 {1,S}
+""",
     kinetics = None,
 )
 
