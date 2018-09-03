@@ -18,6 +18,8 @@ recipe(actions=[
     ['LOSE_RADICAL', '*3', '1'],
 ])
 
+reverseMap = {'*2':'*3','*3':'*2'}
+
 entry(
     index = 0,
     label = "O-RR_or_RRrad",
