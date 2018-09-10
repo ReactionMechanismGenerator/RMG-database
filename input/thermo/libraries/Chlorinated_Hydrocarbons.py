@@ -8,12 +8,12 @@ Experimental values curated in the following references:
 
 1976 Benson = Thermochemical Kinetics (book), 2nd edition, by Sidney Benson
 
-1993 Wong and Bozzelli = 
-David K. Wong, Douglas A. Kretkowski, Joseph W. Bozzelli, 
-Standard Chemical Thermodynamic Properties of Monochloroalkanes, 
+1993 Wong and Bozzelli =
+David K. Wong, Douglas A. Kretkowski, Joseph W. Bozzelli,
+Standard Chemical Thermodynamic Properties of Monochloroalkanes,
 Ind. Eng. Chem. Res., 1993, 32, 3184-3188
 
-1998 Chen and Bozzelli = 
+1998 Chen and Bozzelli =
 Chinugh-Ju Chen, D. Wong, Joseph W. Bozzelli,
 Standard Chemical Thermodynamic Properties of Multichloro Alkanes and Alkenes: A Modified Group Additivity Scheme
 JPCA, 1998, 102, 4551-4558
@@ -90,7 +90,7 @@ u"""
 entry(
     index = 3,
     label = "ClO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Cl u0 p3 c0 {2,S}
@@ -105,7 +105,7 @@ multiplicity 2
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1976 Benson""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -114,7 +114,7 @@ u"""
 entry(
     index = 4,
     label = "CCl4",
-    molecule = 
+    molecule =
 """
 1 Cl u0 p3 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -131,7 +131,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1976 Benson""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -140,7 +140,7 @@ u"""
 entry(
     index = 5,
     label = "CHCl3",
-    molecule = 
+    molecule =
 """
 1 Cl u0 p3 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -157,7 +157,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1976 Benson""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -166,7 +166,7 @@ u"""
 entry(
     index = 6,
     label = "CH2Cl2",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H  u0 p0 c0 {1,S}
@@ -183,16 +183,43 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1976 Benson""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
 )
 
+# entry(
+#     index = 7,
+#     label = "CdCCl",
+#     molecule =
+# """
+# 1 C  u0 p0 c0 {2,D} {4,S} {5,S}
+# 2 C  u0 p0 c0 {1,D} {3,S} {6,S}
+# 3 Cl u0 p3 c0 {2,S}
+# 4 H  u0 p0 c0 {1,S}
+# 5 H  u0 p0 c0 {1,S}
+# 6 H  u0 p0 c0 {2,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[3.70051,0.000863876,4.61027e-05,-6.94228e-08,3.16348e-11,1090.31,8.91651], Tmin=(298,'K'), Tmax=(590.44,'K')),
+#             NASAPolynomial(coeffs=[0.152401,0.0243855,-1.2344e-05,-4.90911e-09,4.9449e-12,1518.28,24.2407], Tmin=(590.44,'K'), Tmax=(1000,'K')),
+#         ],
+#         Tmin = (298,'K'),
+#         Tmax = (1000,'K'),
+#     ),
+#     shortDesc = u"""1976 Benson""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
+
 entry(
     index = 7,
     label = "CdCCl",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,D} {4,S} {5,S}
 2 C  u0 p0 c0 {1,D} {3,S} {6,S}
@@ -203,23 +230,66 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.70051,0.000863876,4.61027e-05,-6.94228e-08,3.16348e-11,1090.31,8.91651], Tmin=(298,'K'), Tmax=(590.44,'K')),
-            NASAPolynomial(coeffs=[0.152401,0.0243855,-1.2344e-05,-4.90911e-09,4.9449e-12,1518.28,24.2407], Tmin=(590.44,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[2.27191,0.0125087,1.21344e-05,-2.73078e-08,1.26574e-11,3262.37,14.7576], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[6.32341,0.00852343,-3.04198e-06,4.88915e-10,-2.91775e-14,1850.43,-7.74959], Tmin=(1000,'K'), Tmax=(6000,'K')),
         ],
-        Tmin = (298,'K'),
-        Tmax = (1000,'K'),
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
     ),
-    shortDesc = u"""1976 Benson""",
-    longDesc = 
+    shortDesc = u"""Gurvich/Manion/Kromkin""",
+    longDesc =
 u"""
-
+See http://www.ipd.anl.gov/anlpubs/2005/07/53802.pdf
+75-01-4
+C2H3CL CHLOROETHYLENE STATWT=1. SIGMA=1. IAIBIC=320. NU=3120.6,3086.4,
+3034.3,1610.9,1370,1280,1030,720.5,395,942.5,896.5,620.4 REF=Gurvich 91
+HF298=37.872+/-0.58 kJ REF=ATcT A {HF298=22.0+/-3 kJ REF=Manion JPCRD 31,
+(2002),123-172; HF298=29.0 kJ REF=Kromkin Chimicheskaya Fizika 22,(2002),30}
+Max Lst Sq Error Cp @ 200 K and 6000 K 0.48%
+C2H3CL ATcT/AC 2.H 3.CL 1. 0.G 200.000 6000.000 B 62.49792 1
+6.32341000E+00 8.52343039E-03-3.04197672E-06 4.88915441E-10-2.91775277E-14 2
+1.85043273E+03-7.74958634E+00 2.27191109E+00 1.25087140E-02 1.21343633E-05 3
+-2.73077584E-08 1.26573716E-11 3.26236847E+03 1.47576437E+01 4.55492867E+03 4
 """,
 )
+
+# entry(
+#     index = 8,
+#     label = "C6H5Cl",
+#     molecule =
+# """
+# 1  C  u0 p0 c0 {2,B} {6,B} {7,S}
+# 2  C  u0 p0 c0 {1,B} {3,B} {8,S}
+# 3  C  u0 p0 c0 {2,B} {4,B} {9,S}
+# 4  C  u0 p0 c0 {3,B} {5,B} {10,S}
+# 5  C  u0 p0 c0 {4,B} {6,B} {11,S}
+# 6  C  u0 p0 c0 {1,B} {5,B} {12,S}
+# 7  Cl u0 p3 c0 {1,S}
+# 8  H  u0 p0 c0 {2,S}
+# 9  H  u0 p0 c0 {3,S}
+# 10 H  u0 p0 c0 {4,S}
+# 11 H  u0 p0 c0 {5,S}
+# 12 H  u0 p0 c0 {6,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[-0.0551034,0.0337056,5.12838e-05,-1.2581e-07,7.14182e-11,4572.15,26.8036], Tmin=(298,'K'), Tmax=(522.72,'K')),
+#             NASAPolynomial(coeffs=[-6.02157,0.0793436,-7.96246e-05,4.10785e-08,-8.36573e-12,5196.17,51.7203], Tmin=(522.72,'K'), Tmax=(1000,'K')),
+#         ],
+#         Tmin = (298,'K'),
+#         Tmax = (1000,'K'),
+#     ),
+#     shortDesc = u"""1976 Benson""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
 
 entry(
     index = 8,
     label = "C6H5Cl",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,B} {6,B} {7,S}
 2  C  u0 p0 c0 {1,B} {3,B} {8,S}
@@ -236,23 +306,30 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[-0.0551034,0.0337056,5.12838e-05,-1.2581e-07,7.14182e-11,4572.15,26.8036], Tmin=(298,'K'), Tmax=(522.72,'K')),
-            NASAPolynomial(coeffs=[-6.02157,0.0793436,-7.96246e-05,4.10785e-08,-8.36573e-12,5196.17,51.7203], Tmin=(522.72,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[-3.52159,0.064560,-0.47928e-04,0.11766E-07,0.15381e-11,4814.81,40.5404], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[14.388,0.015909,-0.44684e-05,0.61870e-09,-0.33950e-13,-155.297,-52.1478], Tmin=(1000,'K'), Tmax=(6000,'K')),
         ],
-        Tmin = (298,'K'),
-        Tmax = (1000,'K'),
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
     ),
-    shortDesc = u"""1976 Benson""",
-    longDesc = 
+    shortDesc = u"""Stull Westrum & SINKE""",
+    longDesc =
 u"""
-
+See http://www.ipd.anl.gov/anlpubs/2005/07/53802.pdf
+108-90-7
+C6H5Cl CHLOROBENZENE DATA FROM  STULL WESTRUM & SINKE EXTRAPOLATED USING WILHOIT
+POLYNOMIALS Max Lst Sq Error Cp @ 1200 K 0.37%  HF298=12.39 KCAL.
+C6H5CL            T 1/92C   6H   5CL  1    0G   298.150  6000.000  B 112.55840 1
+0.14388354E+02 0.15909241E-01-0.44684021E-05 0.61870168E-09-0.33950580E-13 2
+-0.15529718E+03-0.52147823E+02-0.35215940E+01 0.64559671E-01-0.47928160E-04 3
+0.11765905E-07 0.15381225E-11 0.48148068E+04 0.40540413E+02 0.62348545E+04 4
 """,
 )
 
 entry(
     index = 9,
     label = "CCCl",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C  u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
@@ -272,7 +349,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -281,7 +358,7 @@ u"""
 entry(
     index = 10,
     label = "CCCCl",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -304,7 +381,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -313,7 +390,7 @@ u"""
 entry(
     index = 11,
     label = "CCCCCl",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C  u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -339,7 +416,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -348,7 +425,7 @@ u"""
 entry(
     index = 12,
     label = "CCCCCCl",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
@@ -377,7 +454,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -386,7 +463,7 @@ u"""
 entry(
     index = 13,
     label = "CCCCCCCl",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C  u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -418,7 +495,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -427,7 +504,7 @@ u"""
 entry(
     index = 14,
     label = "CC(Cl)C",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -450,7 +527,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -459,7 +536,7 @@ u"""
 entry(
     index = 15,
     label = "CC(Cl)CC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C  u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -485,7 +562,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -494,7 +571,7 @@ u"""
 entry(
     index = 16,
     label = "CC(Cl)CCC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
@@ -523,7 +600,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -532,7 +609,7 @@ u"""
 entry(
     index = 17,
     label = "CCC(Cl)CC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {6,S} {9,S}
 2  C  u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -561,7 +638,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -570,7 +647,7 @@ u"""
 entry(
     index = 18,
     label = "CC(C)C(Cl)C",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -599,7 +676,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -608,7 +685,7 @@ u"""
 entry(
     index = 19,
     label = "CC(C)(Cl)CCC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
 2  C  u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
@@ -640,7 +717,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -649,7 +726,7 @@ u"""
 entry(
     index = 20,
     label = "CCC(C)(Cl)CC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C  u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -681,7 +758,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -690,7 +767,7 @@ u"""
 entry(
     index = 21,
     label = "CC(C)(Cl)C(C)C",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C  u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
@@ -722,7 +799,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -731,7 +808,7 @@ u"""
 entry(
     index = 22,
     label = "CC(C)(Cl)C",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -757,7 +834,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -766,7 +843,7 @@ u"""
 entry(
     index = 23,
     label = "CC(C)(Cl)CC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -795,7 +872,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -804,7 +881,7 @@ u"""
 entry(
     index = 24,
     label = "CCCl2",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
@@ -824,7 +901,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -833,7 +910,7 @@ u"""
 entry(
     index = 25,
     label = "C(Cl)2CC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -856,7 +933,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -865,7 +942,7 @@ u"""
 entry(
     index = 26,
     label = "C(Cl)2CCC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  Cl u0 p3 c0 {1,S}
@@ -891,7 +968,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -900,7 +977,7 @@ u"""
 entry(
     index = 27,
     label = "C(Cl)2CCCC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
 2  Cl u0 p3 c0 {1,S}
@@ -929,7 +1006,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -938,7 +1015,7 @@ u"""
 entry(
     index = 28,
     label = "C(Cl)2CCCCC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {9,S}
 2  Cl u0 p3 c0 {1,S}
@@ -970,16 +1047,48 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
 )
 
+# entry(
+#     index = 29,
+#     label = "C(Cl)CCCl",
+#     molecule =
+# """
+# 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+# 2  C  u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
+# 3  C  u0 p0 c0 {1,S} {7,S} {10,S} {11,S}
+# 4  H  u0 p0 c0 {1,S}
+# 5  H  u0 p0 c0 {1,S}
+# 6  Cl u0 p3 c0 {2,S}
+# 7  Cl u0 p3 c0 {3,S}
+# 8  H  u0 p0 c0 {2,S}
+# 9  H  u0 p0 c0 {2,S}
+# 10 H  u0 p0 c0 {3,S}
+# 11 H  u0 p0 c0 {3,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[-6.17495,0.0970173,-0.000169471,1.65367e-07,-6.567e-11,-20692.1,54.6888], Tmin=(298,'K'), Tmax=(573.76,'K')),
+#             NASAPolynomial(coeffs=[-0.158966,0.0550695,-5.97871e-05,3.79016e-08,-1.01212e-11,-21382.3,29.0083], Tmin=(573.76,'K'), Tmax=(1000,'K')),
+#         ],
+#         Tmin = (298,'K'),
+#         Tmax = (1000,'K'),
+#     ),
+#     shortDesc = u"""1998Chen and Bozzelli""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
+
 entry(
     index = 29,
     label = "C(Cl)CCCl",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
@@ -993,25 +1102,55 @@ entry(
 10 H  u0 p0 c0 {3,S}
 11 H  u0 p0 c0 {3,S}
 """,
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[-6.17495,0.0970173,-0.000169471,1.65367e-07,-6.567e-11,-20692.1,54.6888], Tmin=(298,'K'), Tmax=(573.76,'K')),
-            NASAPolynomial(coeffs=[-0.158966,0.0550695,-5.97871e-05,3.79016e-08,-1.01212e-11,-21382.3,29.0083], Tmin=(573.76,'K'), Tmax=(1000,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (1000,'K'),
-    ),
-    shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([22.98,28.03,32.41,35.97,41.37,45.28,51.12],'cal/(mol*K)'),
+        H298 = (-38.60,'kcal/mol'),
+        S298 = (84.36,'cal/(mol*K)'),
+),
+shortDesc = u"""1998 Chen and Bozzelli """,
+longDesc =
 u"""
 
 """,
 )
 
+# entry(
+#     index = 30,
+#     label = "CC(Cl)2C",
+#     molecule =
+# """
+# 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+# 2  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+# 3  C  u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+# 4  Cl u0 p3 c0 {1,S}
+# 5  Cl u0 p3 c0 {1,S}
+# 6  H  u0 p0 c0 {2,S}
+# 7  H  u0 p0 c0 {2,S}
+# 8  H  u0 p0 c0 {2,S}
+# 9  H  u0 p0 c0 {3,S}
+# 10 H  u0 p0 c0 {3,S}
+# 11 H  u0 p0 c0 {3,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[0.979062,0.0520981,-4.7751e-05,1.94683e-08,-8.37587e-13,-23357,20.0579], Tmin=(298,'K'), Tmax=(559.02,'K')),
+#             NASAPolynomial(coeffs=[1.04434,0.0527663,-5.25901e-05,2.88721e-08,-6.66767e-12,-23382,19.6223], Tmin=(559.02,'K'), Tmax=(1000,'K')),
+#         ],
+#         Tmin = (298,'K'),
+#         Tmax = (1000,'K'),
+#     ),
+#     shortDesc = u"""1998Chen and Bozzelli""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
+
 entry(
     index = 30,
     label = "CC(Cl)2C",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -1025,16 +1164,14 @@ entry(
 10 H  u0 p0 c0 {3,S}
 11 H  u0 p0 c0 {3,S}
 """,
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[0.979062,0.0520981,-4.7751e-05,1.94683e-08,-8.37587e-13,-23357,20.0579], Tmin=(298,'K'), Tmax=(559.02,'K')),
-            NASAPolynomial(coeffs=[1.04434,0.0527663,-5.25901e-05,2.88721e-08,-6.66767e-12,-23382,19.6223], Tmin=(559.02,'K'), Tmax=(1000,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (1000,'K'),
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([25.50,30.56,34.75,38.06,43.00,46.56,51.98],'cal/(mol*K)'),
+        H298 = (-42.00,'kcal/mol'),
+        S298 = (77.92,'cal/(mol*K)'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1043,7 +1180,7 @@ u"""
 entry(
     index = 31,
     label = "CCCl3",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -1063,7 +1200,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1072,7 +1209,7 @@ u"""
 entry(
     index = 32,
     label = "C(Cl)3CC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -1095,7 +1232,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1104,7 +1241,7 @@ u"""
 entry(
     index = 33,
     label = "C(Cl)3CCC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  Cl u0 p3 c0 {1,S}
@@ -1130,7 +1267,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1139,7 +1276,7 @@ u"""
 entry(
     index = 34,
     label = "C(Cl)3CCCC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  Cl u0 p3 c0 {1,S}
@@ -1168,7 +1305,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1177,7 +1314,7 @@ u"""
 entry(
     index = 35,
     label = "C(Cl)3CCCCC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  Cl u0 p3 c0 {1,S}
@@ -1209,7 +1346,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1218,7 +1355,7 @@ u"""
 entry(
     index = 36,
     label = "CdCCl2",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,D} {5,S} {6,S}
 2 C  u0 p0 c0 {1,D} {3,S} {4,S}
@@ -1236,16 +1373,47 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
 )
 
+# entry(
+#     index = 37,
+#     label = "CdC(Cl)CdC",
+#     molecule =
+# """
+# 1  C  u0 p0 c0 {2,D} {6,S} {7,S}
+# 2  C  u0 p0 c0 {1,D} {3,S} {4,S}
+# 3  Cl u0 p3 c0 {2,S}
+# 4  C  u0 p0 c0 {2,S} {5,D} {8,S}
+# 5  C  u0 p0 c0 {4,D} {9,S} {10,S}
+# 6  H  u0 p0 c0 {1,S}
+# 7  H  u0 p0 c0 {1,S}
+# 8  H  u0 p0 c0 {4,S}
+# 9  H  u0 p0 c0 {5,S}
+# 10 H  u0 p0 c0 {5,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[2.28961,0.0265968,3.44156e-05,-9.70634e-08,6.01897e-11,1337.61,15.9356], Tmin=(298,'K'), Tmax=(489.98,'K')),
+#             NASAPolynomial(coeffs=[-1.64963,0.0589093,-6.49758e-05,3.88103e-08,-9.46387e-12,1721.79,32.1111], Tmin=(489.98,'K'), Tmax=(1000,'K')),
+#         ],
+#         Tmin = (298,'K'),
+#         Tmax = (1000,'K'),
+#     ),
+#     shortDesc = u"""1998Chen and Bozzelli""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
+
 entry(
     index = 37,
     label = "CdC(Cl)CdC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,D} {6,S} {7,S}
 2  C  u0 p0 c0 {1,D} {3,S} {4,S}
@@ -1258,25 +1426,54 @@ entry(
 9  H  u0 p0 c0 {5,S}
 10 H  u0 p0 c0 {5,S}
 """,
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[2.28961,0.0265968,3.44156e-05,-9.70634e-08,6.01897e-11,1337.61,15.9356], Tmin=(298,'K'), Tmax=(489.98,'K')),
-            NASAPolynomial(coeffs=[-1.64963,0.0589093,-6.49758e-05,3.88103e-08,-9.46387e-12,1721.79,32.1111], Tmin=(489.98,'K'), Tmax=(1000,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (1000,'K'),
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([21.99,27.15,31.32,34.67,39.57,42.20,48.03],'cal/(mol*K)'),
+        H298 = (5.56,'kcal/mol'),
+        S298 = (76.07,'cal/(mol*K)'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
 )
 
+# entry(
+#     index = 38,
+#     label = "CdC(Cl)C(Cl)dC",
+#     molecule =
+# """
+# 1  C  u0 p0 c0 {2,D} {7,S} {8,S}
+# 2  C  u0 p0 c0 {1,D} {3,S} {4,S}
+# 3  Cl u0 p3 c0 {2,S}
+# 4  C  u0 p0 c0 {2,S} {5,S} {6,D}
+# 5  Cl u0 p3 c0 {4,S}
+# 6  C  u0 p0 c0 {4,D} {9,S} {10,S}
+# 7  H  u0 p0 c0 {1,S}
+# 8  H  u0 p0 c0 {1,S}
+# 9  H  u0 p0 c0 {6,S}
+# 10 H  u0 p0 c0 {6,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[0.686249,0.0517933,-3.86086e-05,-3.83053e-09,1.44456e-11,-8694.67,22.5677], Tmin=(298,'K'), Tmax=(524.67,'K')),
+#             NASAPolynomial(coeffs=[-0.45456,0.0619142,-7.1614e-05,4.32791e-08,-1.04659e-11,-8594.56,27.1489], Tmin=(524.67,'K'), Tmax=(1000,'K')),
+#         ],
+#         Tmin = (298,'K'),
+#         Tmax = (1000,'K'),
+#     ),
+#     shortDesc = u"""1998Chen and Bozzelli""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
+
 entry(
     index = 38,
     label = "CdC(Cl)C(Cl)dC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,D} {7,S} {8,S}
 2  C  u0 p0 c0 {1,D} {3,S} {4,S}
@@ -1289,25 +1486,54 @@ entry(
 9  H  u0 p0 c0 {6,S}
 10 H  u0 p0 c0 {6,S}
 """,
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[0.686249,0.0517933,-3.86086e-05,-3.83053e-09,1.44456e-11,-8694.67,22.5677], Tmin=(298,'K'), Tmax=(524.67,'K')),
-            NASAPolynomial(coeffs=[-0.45456,0.0619142,-7.1614e-05,4.32791e-08,-1.04659e-11,-8594.56,27.1489], Tmin=(524.67,'K'), Tmax=(1000,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (1000,'K'),
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([25.45,30.51,34.52,37.67,42.13,45.04,49.43],'cal/(mol*K)'),
+        H298 = (-12.44,'kcal/mol'),
+        S298 = (81.49,'cal/(mol*K)'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
 )
 
+# entry(
+#     index = 39,
+#     label = "C(Cl)2dC(Cl)CdC",
+#     molecule =
+# """
+# 1  C  u0 p0 c0 {2,S} {3,S} {4,D}
+# 2  Cl u0 p3 c0 {1,S}
+# 3  Cl u0 p3 c0 {1,S}
+# 4  C  u0 p0 c0 {1,D} {5,S} {6,S}
+# 5  Cl u0 p3 c0 {4,S}
+# 6  C  u0 p0 c0 {4,S} {7,D} {8,S}
+# 7  C  u0 p0 c0 {6,D} {9,S} {10,S}
+# 8  H  u0 p0 c0 {6,S}
+# 9  H  u0 p0 c0 {7,S}
+# 10 H  u0 p0 c0 {7,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[3.97216,0.0506259,-5.85279e-05,3.85793e-08,-1.13178e-11,-4098.16,11.2129], Tmin=(298,'K'), Tmax=(595.58,'K')),
+#             NASAPolynomial(coeffs=[4.67297,0.0459202,-4.6679e-05,2.5319e-08,-5.75295e-12,-4181.66,8.19487], Tmin=(595.58,'K'), Tmax=(1000,'K')),
+#         ],
+#         Tmin = (298,'K'),
+#         Tmax = (1000,'K'),
+#     ),
+#     shortDesc = u"""1998Chen and Bozzelli""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
+
 entry(
     index = 39,
     label = "C(Cl)2dC(Cl)CdC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,D}
 2  Cl u0 p3 c0 {1,S}
@@ -1320,16 +1546,14 @@ entry(
 9  H  u0 p0 c0 {7,S}
 10 H  u0 p0 c0 {7,S}
 """,
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[3.97216,0.0506259,-5.85279e-05,3.85793e-08,-1.13178e-11,-4098.16,11.2129], Tmin=(298,'K'), Tmax=(595.58,'K')),
-            NASAPolynomial(coeffs=[4.67297,0.0459202,-4.6679e-05,2.5319e-08,-5.75295e-12,-4181.66,8.19487], Tmin=(595.58,'K'), Tmax=(1000,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (1000,'K'),
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([28.16,33.23,37.15,40.15,44.19,46.67,50.38],'cal/(mol*K)'),
+        H298 = (-1.39,'kcal/mol'),
+        S298 = (90.73,'cal/(mol*K)'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1338,7 +1562,7 @@ u"""
 entry(
     index = 40,
     label = "C(Cl)CCl",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 C  u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -1358,16 +1582,48 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
 )
 
+# entry(
+#     index = 41,
+#     label = "C(Cl)C(Cl)C",
+#     molecule =
+# """
+# 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+# 2  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+# 3  C  u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+# 4  Cl u0 p3 c0 {1,S}
+# 5  H  u0 p0 c0 {1,S}
+# 6  Cl u0 p3 c0 {2,S}
+# 7  H  u0 p0 c0 {2,S}
+# 8  H  u0 p0 c0 {2,S}
+# 9  H  u0 p0 c0 {3,S}
+# 10 H  u0 p0 c0 {3,S}
+# 11 H  u0 p0 c0 {3,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[1.93154,0.0393061,-1.85843e-05,-7.47791e-09,8.76435e-12,-22073.8,20.4269], Tmin=(298,'K'), Tmax=(496.47,'K')),
+#             NASAPolynomial(coeffs=[1.21213,0.0451024,-3.60967e-05,1.6038e-08,-3.07722e-12,-22002.3,23.3939], Tmin=(496.47,'K'), Tmax=(1000,'K')),
+#         ],
+#         Tmin = (298,'K'),
+#         Tmax = (1000,'K'),
+#     ),
+#     shortDesc = u"""1998Chen and Bozzelli""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
+
 entry(
     index = 41,
     label = "C(Cl)C(Cl)C",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -1381,16 +1637,14 @@ entry(
 10 H  u0 p0 c0 {3,S}
 11 H  u0 p0 c0 {3,S}
 """,
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[1.93154,0.0393061,-1.85843e-05,-7.47791e-09,8.76435e-12,-22073.8,20.4269], Tmin=(298,'K'), Tmax=(496.47,'K')),
-            NASAPolynomial(coeffs=[1.21213,0.0451024,-3.60967e-05,1.6038e-08,-3.07722e-12,-22002.3,23.3939], Tmin=(496.47,'K'), Tmax=(1000,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (1000,'K'),
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([24.15,29.04,33.39,36.94,41.94,46.57,52.27],'cal/(mol*K)'),
+        H298 = (-38.72,'kcal/mol'),
+        S298 = (82.33,'cal/(mol*K)'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1399,7 +1653,7 @@ u"""
 entry(
     index = 42,
     label = "C(Cl)2CCl",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2 C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -1419,16 +1673,48 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
 )
 
+# entry(
+#     index = 43,
+#     label = "C(Cl)C(Cl)CCl",
+#     molecule =
+# """
+# 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+# 2  C  u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
+# 3  C  u0 p0 c0 {1,S} {7,S} {10,S} {11,S}
+# 4  Cl u0 p3 c0 {1,S}
+# 5  H  u0 p0 c0 {1,S}
+# 6  Cl u0 p3 c0 {2,S}
+# 7  Cl u0 p3 c0 {3,S}
+# 8  H  u0 p0 c0 {2,S}
+# 9  H  u0 p0 c0 {2,S}
+# 10 H  u0 p0 c0 {3,S}
+# 11 H  u0 p0 c0 {3,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[3.39744,0.043422,-3.525e-05,1.38905e-08,-1.53081e-12,-24999.1,15.205], Tmin=(298,'K'), Tmax=(581.33,'K')),
+#             NASAPolynomial(coeffs=[3.25616,0.0445961,-3.88005e-05,1.85598e-08,-3.7958e-12,-24986.1,15.7806], Tmin=(581.33,'K'), Tmax=(1000,'K')),
+#         ],
+#         Tmin = (298,'K'),
+#         Tmax = (1000,'K'),
+#     ),
+#     shortDesc = u"""1998Chen and Bozzelli""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
+
 entry(
     index = 43,
     label = "C(Cl)C(Cl)CCl",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
@@ -1442,16 +1728,14 @@ entry(
 10 H  u0 p0 c0 {3,S}
 11 H  u0 p0 c0 {3,S}
 """,
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[3.39744,0.043422,-3.525e-05,1.38905e-08,-1.53081e-12,-24999.1,15.205], Tmin=(298,'K'), Tmax=(581.33,'K')),
-            NASAPolynomial(coeffs=[3.25616,0.0445961,-3.88005e-05,1.85598e-08,-3.7958e-12,-24986.1,15.7806], Tmin=(581.33,'K'), Tmax=(1000,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (1000,'K'),
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([26.53,31.61,35.88,39.26,44.35,48.08,53.33],'cal/(mol*K)'),
+        H298 = (-44.22,'kcal/mol'),
+        S298 = (90.43,'cal/(mol*K)'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1460,7 +1744,7 @@ u"""
 entry(
     index = 44,
     label = "C(Cl)3CCl",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -1480,7 +1764,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1489,7 +1773,7 @@ u"""
 entry(
     index = 45,
     label = "C(Cl)2CCl2",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2 C  u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
@@ -1509,7 +1793,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1518,7 +1802,7 @@ u"""
 entry(
     index = 46,
     label = "C(Cl)2CCl3",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
 2 Cl u0 p3 c0 {1,S}
@@ -1538,7 +1822,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1547,7 +1831,7 @@ u"""
 entry(
     index = 47,
     label = "C(Cl)3CCl3",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 Cl u0 p3 c0 {1,S}
@@ -1567,7 +1851,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1576,7 +1860,7 @@ u"""
 entry(
     index = 48,
     label = "C(Cl)dCCl",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,D} {3,S} {5,S}
 2 C  u0 p0 c0 {1,D} {4,S} {6,S}
@@ -1594,7 +1878,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1603,7 +1887,7 @@ u"""
 entry(
     index = 49,
     label = "C(Cl)dCCl2",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,D} {6,S}
 2 Cl u0 p3 c0 {1,S}
@@ -1621,7 +1905,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1630,7 +1914,7 @@ u"""
 entry(
     index = 50,
     label = "C(Cl)2dCCl2",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,D}
 2 Cl u0 p3 c0 {1,S}
@@ -1648,9 +1932,8 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
 )
-

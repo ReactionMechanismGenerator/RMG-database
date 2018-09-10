@@ -9,7 +9,7 @@ longDesc = u"""
 entry(
     index = 1,
     label = "1230xa",
-    molecule = 
+    molecule =
 """
 1 Cl u0 p3 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
@@ -28,7 +28,7 @@ entry(
         S298 = (93.522,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -38,7 +38,7 @@ u"""
 entry(
     index = 2,
     label = "HCL",
-    molecule = 
+    molecule =
 """
 1 Cl u0 p3 c0 {2,S}
 2 H  u0 p0 c0 {1,S}
@@ -50,7 +50,7 @@ entry(
         S298 = (44.670,'cal/(mol*K)'),
     ),
     shortDesc = u"""NIST""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -59,7 +59,7 @@ u"""
 entry(
     index = 3,
     label = "C3H3Cl3",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
@@ -78,7 +78,7 @@ entry(
         S298 = (85.33,'cal/(mol*K)'),
     ),
     shortDesc = u"""NIST""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -87,7 +87,7 @@ u"""
 #entry(
 #    index = 4,
 #    label = "1,1,1,2,3-pentachloropropane",
-#    molecule = 
+#    molecule =
 #"""
 #1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 #2 C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -108,7 +108,7 @@ u"""
 #        S298 = (105.15,'cal/(mol*K)'),
 #    ),
 #    shortDesc = u"""CBS-QB3 calcs""",
- #   longDesc = 
+ #   longDesc =
 #u"""
 #
 #""",
@@ -117,7 +117,7 @@ u"""
 entry(
     index = 5,
     label = "ClCC(Cl)(Cl)C(Cl)(Cl)Cl",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -138,7 +138,7 @@ entry(
         S298 = (108.48,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -147,7 +147,7 @@ u"""
 entry(
     index = 6,
     label = "Cl",
-    molecule = 
+    molecule =
 """
 1 Cl u1 p3 c0
 """,
@@ -158,7 +158,7 @@ entry(
         S298 = (37.959,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -169,7 +169,7 @@ u"""
 entry(
     index = 7,
     label = "Cl2",
-    molecule = 
+    molecule =
 """
 1 Cl u0 p3 c0 {2,S}
 2 Cl u0 p3 c0 {1,S}
@@ -181,7 +181,7 @@ entry(
         S298 = (53.383,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -190,7 +190,7 @@ u"""
 entry(
     index = 8,
     label = "CH2Cl",
-    molecule = 
+    molecule =
 """
 1 C  u1 p0 c0 {2,S} {3,S} {4,S}
 2 Cl u0 p3 c0 {1,S}
@@ -204,7 +204,7 @@ entry(
         S298 = (57.651,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -213,7 +213,7 @@ u"""
 entry(
     index = 9,
     label = "CHCl2",
-    molecule = 
+    molecule =
 """
 1 Cl u0 p3 c0 {2,S}
 2 C  u1 p0 c0 {1,S} {3,S} {4,S}
@@ -227,7 +227,7 @@ entry(
         S298 = (65.728,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -236,7 +236,7 @@ u"""
 entry(
     index = 10,
     label = "rad1",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,D} {7,S} {8,S}
 2 C  u0 p0 c0 {1,D} {3,S} {4,S}
@@ -254,7 +254,7 @@ entry(
         S298 = (87.920,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -263,7 +263,7 @@ u"""
 entry(
     index = 11,
     label = "rad2",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  Cl u0 p3 c0 {1,S}
@@ -283,7 +283,7 @@ entry(
         S298 = (111.697,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -293,7 +293,7 @@ u"""
 entry(
     index = 12,
     label = "rad3",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {9,S}
 2  Cl u0 p3 c0 {1,S}
@@ -313,7 +313,7 @@ entry(
         S298 = (104.456,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -323,7 +323,7 @@ u"""
 entry(
     index = 13,
     label = "rad4",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  Cl u0 p3 c0 {1,S}
@@ -343,7 +343,7 @@ entry(
         S298 = (103.998,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -355,7 +355,7 @@ u"""
 entry(
     index = 14,
     label = "rad5",
-    molecule = 
+    molecule =
 """
 1  C  u1 p0 c0 {2,S} {3,S} {4,S}
 2  Cl u0 p3 c0 {1,S}
@@ -375,7 +375,7 @@ entry(
         S298 = (104.027,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -385,7 +385,7 @@ u"""
 entry(
     index = 15,
     label = "rad6",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  Cl u0 p3 c0 {1,S}
@@ -405,7 +405,7 @@ entry(
         S298 = (105.970,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -414,7 +414,7 @@ u"""
 entry(
     index = 16,
     label = "1230xf",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,D} {8,S} {9,S}
 2 C  u0 p0 c0 {1,D} {3,S} {4,S}
@@ -433,7 +433,7 @@ entry(
         S298 = (90.801,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -442,7 +442,7 @@ u"""
 entry(
     index = 17,
     label = "240ab",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
 2  C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -463,7 +463,7 @@ entry(
         S298 = (98.307,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -472,7 +472,7 @@ u"""
 entry(
     index = 18,
     label = "240db",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  Cl u0 p3 c0 {1,S}
@@ -493,7 +493,7 @@ entry(
         S298 = (99.599,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -503,7 +503,7 @@ u"""
 entry(
     index = 19,
     label = "250fb",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  Cl u0 p3 c0 {1,S}
@@ -524,7 +524,7 @@ entry(
         S298 = (94.098,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -535,7 +535,7 @@ u"""
 entry(
     index = 20,
     label = "1240za",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,D}
 2 Cl u0 p3 c0 {1,S}
@@ -554,7 +554,7 @@ entry(
         S298 = (82.453,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -564,7 +564,7 @@ u"""
 entry(
     index = 21,
     label = "1240zf",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,D} {7,S} {8,S}
 2 C  u0 p0 c0 {1,D} {3,S} {9,S}
@@ -583,7 +583,7 @@ entry(
         S298 = (81.149,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -593,7 +593,7 @@ u"""
 entry(
     index = 22,
     label = "CC(Cl)C",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C  u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
@@ -619,7 +619,7 @@ entry(
         B = (685.282, 'K'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -629,7 +629,7 @@ u"""
 entry(
     index = 23,
     label = "C[C](Cl)C",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C  u1 p0 c0 {1,S} {3,S} {4,S}
@@ -654,7 +654,7 @@ entry(
         B = (432.452, 'K'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -664,7 +664,7 @@ u"""
 entry(
     index = 24,
     label = "CCC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
@@ -690,7 +690,7 @@ entry(
         B = (1271.61, 'K'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -700,7 +700,7 @@ u"""
 entry(
     index = 25,
     label = "C[CH]C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u1 p0 c0 {1,S} {3,S} {7,S}
@@ -725,7 +725,7 @@ entry(
         B = (300, 'K'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -736,7 +736,7 @@ u"""
 entry(
     index = 26,
     label = "CC=CCl",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C  u0 p0 c0 {1,S} {3,D} {8,S}
@@ -760,7 +760,7 @@ entry(
         B = (544.223, 'K'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -771,7 +771,7 @@ u"""
 entry(
     index = 27,
     label = "CC=[C]Cl",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C  u0 p0 c0 {1,S} {3,D} {8,S}
@@ -794,7 +794,7 @@ entry(
         B = (2082.28, 'K'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -805,7 +805,7 @@ u"""
 entry(
     index = 28,
     label = "CC=C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
@@ -829,7 +829,7 @@ entry(
         B = (587.976, 'K'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -840,7 +840,7 @@ u"""
 entry(
     index = 29,
     label = "CC=[CH]",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
@@ -863,7 +863,7 @@ entry(
         B = (453.092, 'K'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -874,7 +874,7 @@ u"""
 entry(
     index = 30,
     label = "CCC(Cl)(Cl)",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C  u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
@@ -900,7 +900,7 @@ entry(
         B = (389.142, 'K'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -911,7 +911,7 @@ u"""
 entry(
     index = 31,
     label = "CC[C](Cl)(Cl)",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C  u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
@@ -936,7 +936,7 @@ entry(
         B = (334.536, 'K'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -946,7 +946,7 @@ u"""
 entry(
     index = 32,
     label = "CCCCl",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C  u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
@@ -972,7 +972,7 @@ entry(
         B = (334.178, 'K'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -982,7 +982,7 @@ u"""
 entry(
     index = 33,
     label = "CC[CH]Cl",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C  u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
@@ -1007,7 +1007,7 @@ entry(
         B = (318.456, 'K'),
     ),
     shortDesc = u"""CBS-QB3 calcs""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1017,7 +1017,7 @@ u"""
 #entry(
 #    index = 34,
 #    label = "CCC",
-#    molecule = 
+#    molecule =
 #"""
 #1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 #2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
@@ -1043,7 +1043,7 @@ u"""
 #        B = (1271.61, 'K'),
 #    ),
 #    shortDesc = u"""CBS-QB3 calcs""",
-#    longDesc = 
+#    longDesc =
 #u"""
 #
 #""",
@@ -1054,7 +1054,7 @@ u"""
 #entry(
 #    index = 35,
 #    label = "CC[CH2]",
-#    molecule = 
+#    molecule =
 #"""
 #1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 #2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
@@ -1079,7 +1079,7 @@ u"""
 #        B = (319.315, 'K'),
 #    ),
 #    shortDesc = u"""CBS-QB3 calcs""",
-#    longDesc = 
+#    longDesc =
 #u"""
 #
 #""",
@@ -1089,7 +1089,7 @@ u"""
 entry(
     index = 2,
     label = "CH3Cl",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 Cl u0 p3 c0 {1,S}
@@ -1103,19 +1103,19 @@ entry(
             Tmin=(200,'K'), Tmax=(1000,'K')),
             NASAPolynomial(coeffs=[3.97884,0.00791729,-2.81714e-06,4.51716e-10,-2.69086e-14,-11676.2,2.58273],
             Tmin=(1000,'K'), Tmax=(6000,'K'))],
-        Tmin=(200,'K'), Tmax=(6000,'K'), 
+        Tmin=(200,'K'), Tmax=(6000,'K'),
         comment="""tpis91"""),
     shortDesc = u"""Burcat/Ruscic """,
-    longDesc = 
+    longDesc =
 u"""
-See http://www.ipd.anl.gov/anlpubs/2005/07/53802.pdf 
-74-87-3                                                                         
+See http://www.ipd.anl.gov/anlpubs/2005/07/53802.pdf
+74-87-3
 CH3CL	METHYL CHLORIDE  SIGMA=3  STATWT=1  IAIBIC=3039.28  Nu=2968,1356,731,
-3039(2),1452(2),1017(2)  HF298=-81.87+/-0.6 kJ HF0=-73.94 kJ  REF=Gurvich 91 
+3039(2),1452(2),1017(2)  HF298=-81.87+/-0.6 kJ HF0=-73.94 kJ  REF=Gurvich 91
 {HF298=-82.562+/-0.35 kJ  REF=ATcT A; HF298=-80. kJ   REF=Burcat G3B3 calc 2008;
-HF298=-81.966 kJ REF=TRC 12/81;  HF298=-83.68 kJ  REF=Kromkin Khimicheskaya 
-Fizika 22,(2003),30}  Max Lst Sq Error Cp @ 6000 K 0.54%.   
-    
+HF298=-81.966 kJ REF=TRC 12/81;  HF298=-83.68 kJ  REF=Kromkin Khimicheskaya
+Fizika 22,(2003),30}  Max Lst Sq Error Cp @ 6000 K 0.54%.
+
 CH3CL             tpis91C  1.H  3.CL 1.   0.G   200.000  6000.000  B  50.48722 1
  3.97883949E+00 7.91729094E-03-2.81713927E-06 4.51715634E-10-2.69086155E-14    2
 -1.16761879E+04 2.58272676E+00 3.96611858E+00-5.05692958E-03 4.02006413E-05    3
@@ -1123,5 +1123,123 @@ CH3CL             tpis91C  1.H  3.CL 1.   0.G   200.000  6000.000  B  50.48722 1
 """,
 )
 
+entry(
+    index = 34,
+    label = "HOCl",
+    molecule =
+"""
+1 Cl u0 p3 c0 {2,S}
+2 O  u0 p2 c0 {1,S} {3,S}
+3 H  u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials=[
+            NASAPolynomial(coeffs=[3.54650,0.00233217,0.523315e-05,-0.973660e-08,0.446729e-11,-0.102996e+05,7.39746e+01],
+            Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[4.36649,0.00205137,-0.670877E-06, 0.10131893E-09-0.57791828E-14 -0.10576070E+05 0.28049555E+01],
+            Tmin=(1000,'K'), Tmax=(6000,'K'))],
+        Tmin=(200,'K'), Tmax=(6000,'K')
+        ),
+    shortDesc = u"""Gurvich 89 """,
+    longDesc =
+u"""
+See http://www.ipd.anl.gov/anlpubs/2005/07/53802.pdf
+7790-92-3
+HOCl  SIGMA=1   STATWT=1  IAIBIC=4.357   NU=3609.2,1240,725   HF0=-72.8 KJ
+REF=Gurvich 89    Max Lst Sq Error Cp @ 400 K 0.25%
+HOCL              RUS 89H   1O   1CL  1    0G   200.000  6000.000  B  52.46004 1
+ 0.43664934E+01 0.20513656E-02-0.67087650E-06 0.10131893E-09-0.57791828E-14    2
+-0.10576070E+05 0.28049555E+01 0.35465037E+01 0.23321738E-02 0.52331522E-05    3
+-0.97366010E-08 0.44672936E-11-0.10299629E+05 0.73974601E+01-0.91094784E+04    4
+""",
+)
 
+entry(
+    index = 35,
+    label = "CH2ClOOH",
+    molecule =
+"""
+1 C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 Cl u0 p3 c0 {1,S}
+3 O  u0 p2 c0 {1,S} {4,S}
+4 O  u0 p2 c0 {3,S} {7,S}
+5 H  u0 p0 c0 {1,S}
+6 H  u0 p0 c0 {1,S}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([16.98,19.94,22.45,24.47,27.47,29.59,32.88],'cal/(mol*K)'),
+        H298 = (-41.41,'kcal/mol'),
+        S298 = (72.44,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBSQ//B3""",
+    longDesc =
+u"""
+Sun, H. Y., Chen, C. J., & Bozzelli, J. W. (2000).
+Structures, intramolecular rotation barriers, and thermodynamic properties
+(enthalpies, entropies and heat capacities) of chlorinated methyl hydroperoxides
+(CH2ClOOH, CHCl2OOH, and CCl3OOH). Journal of Physical Chemistry A, 104(35), 8270–8282.
+https://doi.org/10.1021/jp0013917
+""",
+)
 
+entry(
+    index = 36,
+    label = "CH2Cl2OOH",
+    molecule =
+"""
+1 C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 Cl u0 p3 c0 {1,S}
+3 O  u0 p2 c0 {1,S} {4,S}
+4 O  u0 p2 c0 {3,S} {7,S}
+5 Cl  u0 p0 c0 {1,S}
+6 H  u0 p0 c0 {1,S}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([20.47,23.52,25.88,27.66,30.13,31.77,34.21],'cal/(mol*K)'),
+        H298 = (-44.74,'kcal/mol'),
+        S298 = (79.05,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBSQ//B3""",
+    longDesc =
+u"""
+Sun, H. Y., Chen, C. J., & Bozzelli, J. W. (2000).
+Structures, intramolecular rotation barriers, and thermodynamic properties
+(enthalpies, entropies and heat capacities) of chlorinated methyl hydroperoxides
+(CH2ClOOH, CHCl2OOH, and CCl3OOH). Journal of Physical Chemistry A, 104(35), 8270–8282.
+https://doi.org/10.1021/jp0013917
+""",
+)
+
+entry(
+    index = 7,
+    label = "CH2Cl3OOH",
+    molecule =
+"""
+1 C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 Cl u0 p3 c0 {1,S}
+3 O  u0 p2 c0 {1,S} {4,S}
+4 O  u0 p2 c0 {3,S} {7,S}
+5 Cl  u0 p0 c0 {1,S}
+6 Cl  u0 p0 c0 {1,S}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([24.76,27.74,29.78,31.21,33.01,34.10,35.61],'cal/(mol*K)'),
+        H298 = (-45.63,'kcal/mol'),
+        S298 = (82.85,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBSQ//B3""",
+    longDesc =
+u"""
+Sun, H. Y., Chen, C. J., & Bozzelli, J. W. (2000).
+Structures, intramolecular rotation barriers, and thermodynamic properties
+(enthalpies, entropies and heat capacities) of chlorinated methyl hydroperoxides
+(CH2ClOOH, CHCl2OOH, and CCl3OOH). Journal of Physical Chemistry A, 104(35), 8270–8282.
+https://doi.org/10.1021/jp0013917
+""",
+)

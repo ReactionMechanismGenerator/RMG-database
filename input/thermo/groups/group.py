@@ -47544,6 +47544,150 @@ JPCA, 1998, 102, 4551-4558
 """,
 )
 
+entry(
+    index = 2086,
+    label = "Cs-O2sClHH",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   O2s  u0 {1,S}
+3   Cl1s  u0 {1,S}
+4   H u0 {1,S}
+5   H u0 {1,S}
+""",
+    thermo = u'Cs-(O2s-O2s)ClHH'
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 2087,
+    label = "Cs-(O2s-O2s)ClHH",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   O2s  u0 {1,S} {6,S}
+3   Cl1s  u0 {1,S}
+4   H u0 {1,S}
+5   H u0 {1,S}
+6   O2s u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.86,10.87,12.55,13.76,15.51,16.33,18.65],'cal/(mol*K)'),
+        H298 = (-19.71,'kcal/mol'),
+        S298 = (38.64,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from C/Cl/H2/OO Chen and Bozzelli""",
+    longDesc =
+u"""
+Sun, H. Y., Chen, C. J., & Bozzelli, J. W. (2000).
+Structures, intramolecular rotation barriers, and thermodynamic properties
+(enthalpies, entropies and heat capacities) of chlorinated methyl hydroperoxides
+(CH2ClOOH, CHCl2OOH, and CCl3OOH). Journal of Physical Chemistry A, 104(35), 8270–8282.
+https://doi.org/10.1021/jp0013917
+""",
+)
+
+entry(
+    index = 2088,
+    label = "Cs-O2sClClH",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   O2s  u0 {1,S}
+3   Cl1s  u0 {1,S}
+4   Cl1s u0 {1,S}
+5   H u0 {1,S}
+""",
+    thermo = u'Cs-(O2s-O2s)ClClH'
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 2089,
+    label = "Cs-(O2s-O2s)ClClH",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   O2s  u0 {1,S} {6,S}
+3   Cl1s  u0 {1,S}
+4   Cl1s u0 {1,S}
+5   H u0 {1,S}
+6   O2s u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.02,15.06,16.31,16.95,17.78,17.98,19.98],'cal/(mol*K)'),
+        H298 = (-23.04,'kcal/mol'),
+        S298 = (45.28,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from C/Cl2/H/OO Chen and Bozzelli""",
+    longDesc =
+u"""
+Sun, H. Y., Chen, C. J., & Bozzelli, J. W. (2000).
+Structures, intramolecular rotation barriers, and thermodynamic properties
+(enthalpies, entropies and heat capacities) of chlorinated methyl hydroperoxides
+(CH2ClOOH, CHCl2OOH, and CCl3OOH). Journal of Physical Chemistry A, 104(35), 8270–8282.
+https://doi.org/10.1021/jp0013917
+""",
+)
+
+entry(
+    index = 2090,
+    label = "Cs-O2sClClCl",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   O2s  u0 {1,S}
+3   Cl1s u0 {1,S}
+4   Cl1s u0 {1,S}
+5   Cl1s u0 {1,S}
+""",
+    thermo = u'Cs-(O2s-O2s)ClClCl'
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 2091,
+    label = "Cs-(O2s-O2s)ClClCl",
+    group =
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   O2s  u0 {1,S} {6,S}
+3   Cl1s u0 {1,S}
+4   Cl1s u0 {1,S}
+5   Cl1s u0 {1,S}
+6   O2s u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([15.78,17.72,18.91,19.49,20.05,19.86,21.38],'cal/(mol*K)'),
+        H298 = (-22.93,'kcal/mol'),
+        S298 = (51.34,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from C/Cl3/OO Chen and Bozzelli""",
+    longDesc =
+u"""
+Sun, H. Y., Chen, C. J., & Bozzelli, J. W. (2000).
+Structures, intramolecular rotation barriers, and thermodynamic properties
+(enthalpies, entropies and heat capacities) of chlorinated methyl hydroperoxides
+(CH2ClOOH, CHCl2OOH, and CCl3OOH). Journal of Physical Chemistry A, 104(35), 8270–8282.
+https://doi.org/10.1021/jp0013917
+""",
+)
+
 tree(
 """
 L1: R
@@ -49465,6 +49609,12 @@ L1: R
             L4: Cs-ClClHH
             L4: Cs-ClClClH
             L4: Cs-ClClClCl
+            L4: Cs-O2sClHH
+                L5: Cs-(O2s-O2s)ClHH
+            L4: Cs-O2sClClH
+                L5: Cs-(O2s-O2s)ClClH
+            L4: Cs-O2sClClCl
+                L5: Cs-(O2s-O2s)ClClCl
             L4: Cs-CClHH
                 L5: Cs-CsClHH
             L4: Cs-CClClH
