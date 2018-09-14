@@ -131,6 +131,7 @@ Reference legend:
 [Wang1982] O.I. Smith, S. Tseregounis, S-N. Wang, Int. J. Chem. Kin., 1982, 14(6), 679-697, doi: 10.1002/kin.550140610
 [Yamaguchi1999] Y. Yamaguchi, Y. Teng, S. Shimomura, K. Tabata, E. Suzuki, J. Phys. Chem. A, 1999, 103(41), 8272-8278, doi: 10.1021/jp990985a
 [Yang2012] Y. Guan, B. Yang, J. Comp. Chem., 2012, 33(23), 1870-1879, doi: 10.1002/jcc.23020
+[Glarborg2018] P. Glarborg, J. Miller, B. Ruscic, S. J. Klippenstein, Prog. Energy Combust. Sci., 2018, 67, 31-68, doi: 10.1016/j.pecs.2018.01.002
 """
 
 entry(
@@ -1694,34 +1695,51 @@ calculated using  QRRK / DHT
 
 entry(
     index = 88,
-    label = "NH3 <=> NH2 + H",
+    label = "NH2 + H <=> NH3",
     degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(A=(2.20e+16, 'cm^3/(mol*s)'), n=0, Ea=(93468, 'cal/mol'), T0 = (1, 'K'), Tmin=(2200, 'K'), Tmax=(2800, 'K'))),
-    shortDesc = u"""[Hanson1990a]""",
+    elementary_high_p = True,
+    kinetics = Troe(
+        arrheniusHigh = Arrhenius(A=(1.6e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+        arrheniusLow = Arrhenius(
+            A = (3.6e+22, 'cm^6/(mol^2*s)'),
+            n = -1.76,
+            Ea = (0, 'cal/mol'),
+            T0 = (1, 'K'),
+        ),
+        alpha = 0.5,
+        T3 = (1e-30, 'K'),
+        T1 = (1e+30, 'K'),
+        T2 = (1e+30, 'K'),
+        efficiencies = {},
+    ),
+    shortDesc = u"""[Glarborg2018]""",
     longDesc =
 u"""
+Also available (shock tube) from [Hanson1990a] in reverse:
 Part of the "NHx" subset
 R1 in Table 1, p. 521
 T range: 2200-2800 K
-Shock Tube
 The competing reaction "NH3 <=> NH + H2" is spin-hindered, and is ~40 times lower in rate, and can be neglected. Source: [Hanson1984c]
 Train!
+    kinetics = ThirdBody(
+        arrheniusLow = Arrhenius(A=(2.20e+16, 'cm^3/(mol*s)'), n=0, Ea=(93468, 'cal/mol'), T0 = (1, 'K'), Tmin=(2200, 'K'), Tmax=(2800, 'K'))),
 """,
 )
 
 entry(
     index = 89,
-    label = "NH2 + H <=> NH + H2",
+    label = "NH + H2 <=> NH2 + H",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4.00e+13, 'cm^3/(mol*s)'), n=0, Ea=(3650, 'cal/mol'), T0=(1, 'K'), Tmin=(2200, 'K'), Tmax=(2800, 'K')),
-    shortDesc = u"""[Hanson1990a]""",
+    kinetics = Arrhenius(A=(2.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(15417, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""[Glarborg2018]""",
     longDesc =
 u"""
+Also available (shock tube) from [Hanson1990a]
 Part of the "NHx" subset
 R9 in Table 1, p. 521
 T range: 2200-2800 K
 Shock Tube
+    kinetics = Arrhenius(A=(4.00e+13, 'cm^3/(mol*s)'), n=0, Ea=(3650, 'cal/mol'), T0=(1, 'K'), Tmin=(2200, 'K'), Tmax=(2800, 'K')),
 Train!
 """,
 )
@@ -1920,27 +1938,43 @@ and the moment of inertia and harmonic vibrational frequencies were obtained by 
 
 entry(
     index = 101,
-    label = "N2H4 <=> NH2 + NH2",
+    label = "NH2 + NH2 <=> N2H4",
     degeneracy = 1,
-    kinetics = Lindemann(
-        arrheniusHigh = Arrhenius(A=(1.57e+21, 's^-1'), n=-1.04, Ea=(66565, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
-        arrheniusLow = Arrhenius(A=(1.96e+52, 'cm^3/(mol*s)'), n=-10.2, Ea=(71677, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K'))),
     elementary_high_p = True,
-    shortDesc = u"""[Lin2014b]""",
+    kinetics = Troe(
+        arrheniusHigh = Arrhenius(
+            A = (5.6e+14, 'cm^3/(mol*s)'),
+            n = -0.414,
+            Ea = (66, 'cal/mol'),
+            T0 = (1, 'K'),
+        ),
+        arrheniusLow = Arrhenius(
+            A = (1.6e+34, 'cm^6/(mol^2*s)'),
+            n = -5.49,
+            Ea = (1987, 'cal/mol'),
+            T0 = (1, 'K'),
+        ),
+        alpha = 0.31,
+        T3 = (1e-30, 'K'),
+        T1 = (1e+30, 'K'),
+        T2 = (1e+30, 'K'),
+        efficiencies = {},
+    ),
+    shortDesc = u"""[Klippenstein2009a]""",
     longDesc =
 u"""
+Table 3, p. 10245, T range: 300-2500 K, calculated at the CCSD(T) and CAS+1+2+QC level
+
+Also available from [Lin2014b] in reverse:
 Part of the "N2H4 + N2O4" subset
 p. 264
 Bath gas: Ar
 calculations done at the RCCSD(T)/6-311+G(3df,2p)//B3LYP/6-311G(d,p) level of theory
 Only High Pressure Limit rate was taken; low limit and 1 atm rate are also available from the same source
-Also available from [Klippenstein2009a] in reverse:
-label = "NH2 + NH2 <=> N2H4",
-    kinetics = Troe(
-       arrheniusHigh = Arrhenius(A=(9.33e-10, 's^-1'), n=-0.414, Ea=(66, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
-       arrheniusLow = Arrhenius(A=(2.7e+10, 'cm^3/(mol*s)'), n=-5.49, Ea=(1987, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
-       alpha=0.31, T3=(1e-30, 'K'), T1=(1e+30, 'K'), efficiencies={}),
-Table 3, p. 10245, T range: 300-2500 K, calculated at the CCSD(T) and CAS+1+2+QC level
+    kinetics = Lindemann(
+        arrheniusHigh = Arrhenius(A=(1.57e+21, 's^-1'), n=-1.04, Ea=(66565, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
+        arrheniusLow = Arrhenius(A=(1.96e+52, 'cm^3/(mol*s)'), n=-10.2, Ea=(71677, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K'))),
+    elementary_high_p = True,
 """,
 )
 
@@ -3017,18 +3051,25 @@ Train both!!!
 
 entry(
     index = 165,
-    label = "NH2 + H2 <=> NH3 + H",
+    label = "NH3 + H <=> NH2 + H2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.23e+05, 'cm^3/(mol*s)'), n=2.23, Ea=(7168, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
-    shortDesc = u"""[Lin1999b]""",
+    kinetics = Arrhenius(
+        A = (640000, 'cm^3/(mol*s)'),
+        n = 2.39,
+        Ea = (10171, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    shortDesc = u"""[Glarborg2018]""",
     longDesc =
 u"""
+Also available from [Lin1999b] in reverse:
 Part of the "Thermal de-NOx" mechanism
 k1_theo on p. 229
 T range: 300-5000 K
 calculations done at the G2M//B3LYP/6-311G(d,p) level of theory
-Also available (shock tube) from [Klemm1985]
-Added as a training reaction to H_Abstraction
+    kinetics = Arrhenius(A=(3.23e+05, 'cm^3/(mol*s)'), n=2.23, Ea=(7168, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
+
+Also available (shock tube) from [Klemm1985] in reverse
 """,
 )
 
