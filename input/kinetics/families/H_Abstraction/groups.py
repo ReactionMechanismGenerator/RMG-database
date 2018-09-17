@@ -4166,8 +4166,8 @@ entry(
     label = "O_rad/OneDe",
     group = 
 """
-1 *3 O                                 u1 {2,S}
-2    [Cd,Ct,Cb,CO,CS,N3d,N3t,N5dc,N5t] u0 {1,S}
+1 *3 O                             u1 {2,S}
+2    [Cd,Ct,Cb,CO,CS,N3d,N3t,N5dc] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -4290,8 +4290,8 @@ entry(
     label = "O_rad/OneDeN",
     group = 
 """
-1 *3 O                  u1 {2,S}
-2    [N3d,N3t,N5dc,N5t] u0 {1,S}
+1 *3 O              u1 {2,S}
+2    [N3d,N3t,N5dc] u0 {1,S}
 """,
     kinetics = None,
 )

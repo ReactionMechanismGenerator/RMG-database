@@ -1368,7 +1368,7 @@ entry(
     label = "N5_rad",
     group = 
 """
-1 *1 [N5sc,N5dc,N5t,N5tc,N5b] u1
+1 *1 [N5sc,N5dc,N5tc,N5b] u1
 """,
     kinetics = None,
 )
