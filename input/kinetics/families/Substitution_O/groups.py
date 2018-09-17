@@ -20,6 +20,9 @@ recipe(actions=[
 
 reverseMap = {'*2':'*3','*3':'*2'}
 
+reactantNum = 2
+productNum = 2
+
 entry(
     index = 0,
     label = "O-RR_or_RRrad",
