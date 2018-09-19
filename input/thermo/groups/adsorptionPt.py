@@ -1808,9 +1808,9 @@ L1: R*
                 L5: C=*RNR2
                 L5: C=*ROR
             L4: C*R3
-                L5: C*R2CR3
-                L5: C*R2NR2
-                L5: C*R2OR
+                L5: C-*R2CR3
+                L5: C-*R2NR2
+                L5: C-*R2OR
         L3: N*
             L4: N#*R
             L4: N=*R
@@ -1818,15 +1818,15 @@ L1: R*
                 L5: N=*NR2
                 L5: N=*OR
             L4: N*R2
-                L5: N*RCR3
-                L5: N*RNR2
-                L5: N*ROR
+                L5: N-*RCR3
+                L5: N-*RNR2
+                L5: N-*ROR
         L3: O*
             L4: O=*
             L4: O*R
-                L5: O*CR3
-                L5: O*NR2
-                L5: O*OR
+                L5: O-*CR3
+                L5: O-*NR2
+                L5: O-*OR
     L2: R*vdW
         L3: (CR4)*
             L4: (CR3CR3)*
