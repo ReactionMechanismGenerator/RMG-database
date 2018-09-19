@@ -812,7 +812,7 @@ entry(
     group =
 """
 1 X  u0  p0 c0 {2,S}
-2 N  u0  p0 c1 {1,S} {3,S} {4,D}
+2 N  u0  p0 c+1 {1,S} {3,S} {4,D}
 3 O  u0  p2 c-1 {2,S}
 4 O  u0  p2 c0 {2,D}
 """,
