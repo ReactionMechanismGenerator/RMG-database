@@ -299,3 +299,27 @@ G3SX//B3LYP/6-31G(2df,p)
 """,
 )
 
+entry(
+    index = 18,
+    label = "C16H11 <=> C16H11-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.63e+09, 's^-1'), n=1.089, Ea=(23.05, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ["'M. Frenklach'", "'R. I. Singh'", "'A. M. Mebel'"],
+        title = 'On the low-temperature limit of HACA',
+        journal = "'Proc. Combust. Inst.'",
+        volume = "'37'",
+        pages = "''",
+        year = "'2018'",
+    ),
+    referenceType = "theory",
+    rank = 8,
+    shortDesc = u"""G3(MP2,CC)//B3LYP/6-311G(d,p) level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the G3(MP2,CC)//B3LYP/6-311G(d,p) level.
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: W2 <=> W5
+""",
+)
+

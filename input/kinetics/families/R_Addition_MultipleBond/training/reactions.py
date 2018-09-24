@@ -56983,3 +56983,148 @@ Addition to subtituted Site
 More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
 """,
 )
+entry(
+    index = 2852,
+    label = "C14H9 + C2H2 <=> C16H11",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (74980, 'cm^3/(mol*s)'),
+        n = 2.362,
+        Ea = (4.389, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'M. Frenklach'", "'R. I. Singh'", "'A. M. Mebel'"],
+        title = 'On the low-temperature limit of HACA',
+        journal = "'Proc. Combust. Inst.'",
+        volume = "'37'",
+        pages = "''",
+        year = "'2018'",
+    ),
+    referenceType = "theory",
+    rank = 8,
+    shortDesc = u"""G3(MP2,CC)//B3LYP/6-311G(d,p) level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the G3(MP2,CC)//B3LYP/6-311G(d,p) level.
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: R1 + C2H2 <=> W1
+""",
+)
+
+entry(
+    index = 2853,
+    label = "H + C16H10 <=> C16H11-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.088e+09, 'cm^3/(mol*s)'),
+        n = 1.419,
+        Ea = (5.862, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'M. Frenklach'", "'R. I. Singh'", "'A. M. Mebel'"],
+        title = 'On the low-temperature limit of HACA',
+        journal = "'Proc. Combust. Inst.'",
+        volume = "'37'",
+        pages = "''",
+        year = "'2018'",
+    ),
+    referenceType = "theory",
+    rank = 8,
+    shortDesc = u"""G3(MP2,CC)//B3LYP/6-311G(d,p) level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the G3(MP2,CC)//B3LYP/6-311G(d,p) level.
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: Phenanthryl-C2H + H <=> W1
+""",
+)
+
+entry(
+    index = 2854,
+    label = "H + C16H10-2 <=> C16H11-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.034e+08, 'cm^3/(mol*s)'),
+        n = 1.546,
+        Ea = (3.446, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'M. Frenklach'", "'R. I. Singh'", "'A. M. Mebel'"],
+        title = 'On the low-temperature limit of HACA',
+        journal = "'Proc. Combust. Inst.'",
+        volume = "'37'",
+        pages = "''",
+        year = "'2018'",
+    ),
+    referenceType = "theory",
+    rank = 8,
+    shortDesc = u"""G3(MP2,CC)//B3LYP/6-311G(d,p) level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the G3(MP2,CC)//B3LYP/6-311G(d,p) level.
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: Phenanthryl-C2H + H <=> W3
+""",
+)
+
+entry(
+    index = 2855,
+    label = "H + C16H10-3 <=> C16H11-4",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(
+        A = (3.732e+08, 'cm^3/(mol*s)'),
+        n = 1.656,
+        Ea = (8.022, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'M. Frenklach'", "'R. I. Singh'", "'A. M. Mebel'"],
+        title = 'On the low-temperature limit of HACA',
+        journal = "'Proc. Combust. Inst.'",
+        volume = "'37'",
+        pages = "''",
+        year = "'2018'",
+    ),
+    referenceType = "theory",
+    rank = 8,
+    shortDesc = u"""G3(MP2,CC)//B3LYP/6-311G(d,p) level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the G3(MP2,CC)//B3LYP/6-311G(d,p) level.
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: Pyrene + H <=> W2
+""",
+)
+
+entry(
+    index = 2856,
+    label = "H + C16H10-4 <=> C16H11-5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (2.016e+09, 'cm^3/(mol*s)'),
+        n = 1.538,
+        Ea = (3.436, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'M. Frenklach'", "'R. I. Singh'", "'A. M. Mebel'"],
+        title = 'On the low-temperature limit of HACA',
+        journal = "'Proc. Combust. Inst.'",
+        volume = "'37'",
+        pages = "''",
+        year = "'2018'",
+    ),
+    referenceType = "theory",
+    rank = 8,
+    shortDesc = u"""G3(MP2,CC)//B3LYP/6-311G(d,p) level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the G3(MP2,CC)//B3LYP/6-311G(d,p) level.
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: Pyrene + H <=> W5
+""",
+)
+
