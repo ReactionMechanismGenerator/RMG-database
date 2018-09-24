@@ -8807,3 +8807,27 @@ Original entry: W1 <=> W4
 """,
 )
 
+entry(
+    index = 423,
+    label = "C24H15 <=> C24H15-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(5.067e+07, 's^-1'), n=1.344, Ea=(5.743, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ["'M. Frenklach'", "'R. I. Singh'", "'A. M. Mebel'"],
+        title = 'On the low-temperature limit of HACA',
+        journal = "'Proc. Combust. Inst.'",
+        volume = "'37'",
+        pages = "''",
+        year = "'2018'",
+    ),
+    referenceType = "theory",
+    rank = 8,
+    shortDesc = u"""G3(MP2,CC)//B3LYP/6-311G(d,p) level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the G3(MP2,CC)//B3LYP/6-311G(d,p) level.
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Pentacyl
+Original entry: W3 <=> W1
+""",
+)
+

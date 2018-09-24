@@ -57128,3 +57128,119 @@ Original entry: Pyrene + H <=> W5
 """,
 )
 
+entry(
+    index = 2857,
+    label = "C22H13 + C2H2 <=> C24H15",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (426900, 'cm^3/(mol*s)'),
+        n = 2.28,
+        Ea = (1.214, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'M. Frenklach'", "'R. I. Singh'", "'A. M. Mebel'"],
+        title = 'On the low-temperature limit of HACA',
+        journal = "'Proc. Combust. Inst.'",
+        volume = "'37'",
+        pages = "''",
+        year = "'2018'",
+    ),
+    referenceType = "theory",
+    rank = 8,
+    shortDesc = u"""G3(MP2,CC)//B3LYP/6-311G(d,p) level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the G3(MP2,CC)//B3LYP/6-311G(d,p) level.
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Pentacyl
+Original entry: R1 + C2H2 <=> W1
+""",
+)
+
+entry(
+    index = 2858,
+    label = "H + C24H14 <=> C24H15-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.547e+09, 'cm^3/(mol*s)'),
+        n = 1.439,
+        Ea = (5.682, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'M. Frenklach'", "'R. I. Singh'", "'A. M. Mebel'"],
+        title = 'On the low-temperature limit of HACA',
+        journal = "'Proc. Combust. Inst.'",
+        volume = "'37'",
+        pages = "''",
+        year = "'2018'",
+    ),
+    referenceType = "theory",
+    rank = 8,
+    shortDesc = u"""G3(MP2,CC)//B3LYP/6-311G(d,p) level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the G3(MP2,CC)//B3LYP/6-311G(d,p) level.
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Pentacyl
+Original entry: Pentacyl-C2H + H <=> W1
+""",
+)
+
+entry(
+    index = 2859,
+    label = "H + C24H14-2 <=> C24H15-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.937e+10, 'cm^3/(mol*s)'),
+        n = 0.925,
+        Ea = (0.634, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'M. Frenklach'", "'R. I. Singh'", "'A. M. Mebel'"],
+        title = 'On the low-temperature limit of HACA',
+        journal = "'Proc. Combust. Inst.'",
+        volume = "'37'",
+        pages = "''",
+        year = "'2018'",
+    ),
+    referenceType = "theory",
+    rank = 8,
+    shortDesc = u"""G3(MP2,CC)//B3LYP/6-311G(d,p) level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the G3(MP2,CC)//B3LYP/6-311G(d,p) level.
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Pentacyl
+Original entry: Acepentacyl + H <=> W2
+""",
+)
+
+entry(
+    index = 2860,
+    label = "H + C24H14-3 <=> C24H15-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.375e+10, 'cm^3/(mol*s)'),
+        n = 0.849,
+        Ea = (-0.195, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'M. Frenklach'", "'R. I. Singh'", "'A. M. Mebel'"],
+        title = 'On the low-temperature limit of HACA',
+        journal = "'Proc. Combust. Inst.'",
+        volume = "'37'",
+        pages = "''",
+        year = "'2018'",
+    ),
+    referenceType = "theory",
+    rank = 8,
+    shortDesc = u"""G3(MP2,CC)//B3LYP/6-311G(d,p) level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the G3(MP2,CC)//B3LYP/6-311G(d,p) level.
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Pentacyl
+Original entry: Acepentacyl + H <=> W4
+""",
+)
+
