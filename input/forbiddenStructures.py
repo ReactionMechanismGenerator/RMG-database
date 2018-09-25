@@ -316,18 +316,19 @@ multiplicity 2
 
 entry(
     label = "N2SO",
-    species =
+    group =
 """
-1 O u0 p2 c0 {2,D}
-2 S u0 p1 c0 {1,D} {3,D}
-3 N u0 p0 c+1 {2,D} {4,D}
-4 N u0 p2 c-1 {3,D}
+1 O u0 {2,[S,D]}
+2 S u0 {1,[S,D]} {3,[S,D]}
+3 N u0 {2,[S,D]} {4,[S,D]}
+4 N u0 {3,[S,D]}
 """,
     shortDesc = u"""""",
     longDesc =
 u"""
-The N2--SO complex isn't a sable species (i.e., its geometry cannot be optimized with a reasonable NN--SO bond length),
+The N2--SO complex isn't sable (i.e., NNSO's geometry cannot be optimized with a reasonable NN--SO bond length),
 yet it is predicted by RMG, e.g, by R_Addition_Multiple_Bond of [S][O] to N#N.
+N2SO2 is forbidden as well in this group for the same reason.
 """,
 )
 

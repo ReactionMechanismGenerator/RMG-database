@@ -1,9 +1,12 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Sulfur/GlarborgH2S"
+name = "Sulfur/GlarborgH2S/alt"
 shortDesc = u""
 longDesc = u"""
+An alternative library for GlarborgH2S
+Does not contain estimations for which RMG has rules
+
 H2S oxidation at high pressures
 An Exploratory Flow Reactor Study of H2S Oxidation at 30-100 Bar
 Y. Song, H. Hashemi, J.M. Christensen, C. Zou, B.S. Haynes, P. Marshall, P. Glarborg
@@ -12,91 +15,6 @@ doi: 10.1002/kin.21055
 
 Note: The rate of reaction HSS + H <=> SH + SH was changed to avoid violating the collision limit
 """
-
-entry(
-    index = 1,
-    label = "H2S <=> S + H2",
-    degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(
-            A = (1.6e+24, 'cm^3/(mol*s)'),
-            n = -2.613,
-            Ea = (89100, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        efficiencies = {'O=S=O': 10, 'O': 10, 'N#N': 1.5},
-    ),
-    longDesc = 
-u"""
-H Shiina A Miyoshi H Matsui J. Phys. Chem. A 1998, 102, 3556-3559
-""",
-)
-
-entry(
-    index = 2,
-    label = "H2S + H <=> SH + H2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (3.5e+07, 'cm^3/(mol*s)'),
-        n = 1.94,
-        Ea = (904, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Peng JP Hu XH MArshall P JOURNAL OF PHYSICAL CHEMISTRY A  103 5307-5311 1999
-""",
-)
-
-entry(
-    index = 3,
-    label = "H2S + O <=> SH + OH",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (7.5e+07, 'cm^3/(mol*s)'),
-        n = 1.75,
-        Ea = (2900, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Goumri A Laakso D Rocha JDR Smith CE MArshall P J Chem Phys 102 161-169 1995
-H2S+O=SH+OH 1.80E+05 2.6 2532.0 ! Wang et al. (2005)
-""",
-)
-
-entry(
-    index = 4,
-    label = "H2S + O <=> HSO + H",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.4e+09, 'cm^3/(mol*s)'),
-        n = 1.1,
-        Ea = (5099, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Goumri A Laakso D Rocha JDR Smith CE MArshall P J Chem Phys 102 161-169 1995
-""",
-)
-
-entry(
-    index = 5,
-    label = "H2S + OH <=> SH + H2O",
-    degeneracy = 1,
-    kinetics = MultiArrhenius(
-        arrhenius = [
-            Arrhenius(A=(8.7e+13, 'cm^3/(mol*s)'), n=-0.7, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-            Arrhenius(
-                A = (4.1e+07, 'cm^3/(mol*s)'),
-                n = 1.77,
-                Ea = (0, 'cal/mol'),
-                T0 = (1, 'K'),
-            ),
-        ],
-    ),
-)
 
 entry(
     index = 6,
@@ -111,38 +29,6 @@ entry(
     longDesc = 
 u"""
 Zhou (Molina Sendt TST) 2009
-""",
-)
-
-entry(
-    index = 7,
-    label = "SH + H2O2 <=> H2S + HO2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (56000, 'cm^3/(mol*s)'),
-        n = 2.823,
-        Ea = (8668, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou TST (2009)
-""",
-)
-
-entry(
-    index = 8,
-    label = "SH + HO2 <=> H2S + O2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (38000, 'cm^3/(mol*s)'),
-        n = 2.775,
-        Ea = (-1529, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou TST (2009)
 """,
 )
 
@@ -198,27 +84,6 @@ MOUHEM13
 )
 
 entry(
-    index = 12,
-    label = "H2S + S <=> SH + SH",
-    degeneracy = 1,
-    kinetics = MultiArrhenius(
-        arrhenius = [
-            Arrhenius(A=(7.4e+06, 'cm^3/(mol*s)'), n=2.3, Ea=(9000, 'cal/mol'), T0=(1, 'K')),
-            Arrhenius(
-                A = (4.7e+07, 'cm^3/(mol*s)'),
-                n = 1.325,
-                Ea = (-436, 'cal/mol'),
-                T0 = (1, 'K'),
-            ),
-        ],
-    ),
-    longDesc = u"""
-kinf (fitted from figure) ##
-H2S+S=SH+SH   1.2E18 -1.685     5970 !
-Y Gao CR Zhou K Sendt BS Haynes P MArshall Proc Combust Inst 33 (2011) 459-465""",
-)
-
-entry(
     index = 13,
     label = "HSO + SH <=> SO + H2S",
     degeneracy = 1,
@@ -232,22 +97,6 @@ entry(
 u"""
 H2S+SO=HSO+SH                        5.4E03  3.209    26824 !
 Zhou TST (2009) rv too fast
-""",
-)
-
-entry(
-    index = 14,
-    label = "H2S + SO <=> HOS + SH",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (36500, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
 """,
 )
 
@@ -287,7 +136,6 @@ entry(
     index = 17,
     label = "H2S + SO2 <=> H2S2O2",
     degeneracy = 1,
-    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (3.5e+18, 'cm^3/(mol*s)'),
         n = -2.121,
@@ -308,22 +156,6 @@ entry(
         A = (1e+13, 'cm^3/(mol*s)'),
         n = 0,
         Ea = (17300, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
-    index = 19,
-    label = "H2S + HOS <=> SH + HSOH",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (12500, 'cal/mol'),
         T0 = (1, 'K'),
     ),
     longDesc = 
@@ -382,35 +214,19 @@ Sendt K Haynes BS J PHYS CHEM A 109 8180-8186 2005
 """,
 )
 
-entry(
-    index = 23,
-    label = "S + H <=> SH",
-    degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(A=(6.2e+16, 'cm^6/(mol^2*s)'), n=-0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-        efficiencies = {},
-    ),
-    longDesc = 
-u"""
-Sendt K Jazbec M Haynes BS PROC COMBUST INST 29 2439-2446 2002 est
-""",
-)
-
-entry(
-    index = 24,
-    label = "S + H2 <=> SH + H",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.4e+14, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (19300, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-H Shiina A Miyoshi H Matsui J. Phys. Chem. A 1998, 102, 3556-3559
-""",
-)
+# entry(
+#     index = 23,
+#     label = "S + H <=> SH",
+#     degeneracy = 1,
+#     kinetics = ThirdBody(
+#         arrheniusLow = Arrhenius(A=(6.2e+16, 'cm^6/(mol^2*s)'), n=-0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#         efficiencies = {},
+#     ),
+#     longDesc =
+# u"""
+# Sendt K Jazbec M Haynes BS PROC COMBUST INST 29 2439-2446 2002 est
+# """,
+# )
 
 entry(
     index = 25,
@@ -426,42 +242,6 @@ entry(
 u"""
 Sendt K Haynes BS PROC COMBUST INST 31 257-265 2007
 alongd comment: valid only at 1 atm, taken from Table 4 in 10.1016/j.proci.2006.08.067
-""",
-)
-
-entry(
-    index = 26,
-    label = "SH + O <=> S + OH",
-    degeneracy = 1,
-    kinetics = MultiArrhenius(
-        arrhenius = [
-            Arrhenius(A=(1.8e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-            Arrhenius(
-                A = (4.3e+06, 'cm^3/(mol*s)'),
-                n = 2.103,
-                Ea = (3583, 'cal/mol'),
-                T0 = (1, 'K'),
-            ),
-        ],
-    ),
-    shortDesc = u"""Sendt K Haynes BS PROC COMBUST INST 31 257-265 2007""",
-)
-
-entry(
-    index = 27,
-    label = "SH + OH <=> S + H2O",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+14, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-pw est (Tsuchiya data; Goumri et al.)
-SH+OH=S+H2O                          1.7E05  2.465    -1637 !
-Zhou TST (2009)
 """,
 )
 
@@ -514,70 +294,6 @@ Zhou (Molina Sendt TST) (2009)
 )
 
 entry(
-    index = 31,
-    label = "S + H2O2 <=> SH + HO2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (4.1e+06, 'cm^3/(mol*s)'),
-        n = 2.2,
-        Ea = (12619, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou TST (2009)
-""",
-)
-
-entry(
-    index = 32,
-    label = "SH + O2 <=> HSO + O",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2.3e+06, 'cm^3/(mol*s)'),
-        n = 1.816,
-        Ea = (20008, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-CR Zhou K Sendt BS Haynes J. Phys. Chem. A 2009, 113, 2975-2981
-""",
-)
-
-entry(
-    index = 33,
-    label = "SH + O2 <=> S + HO2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (4.7e+06, 'cm^3/(mol*s)'),
-        n = 2.017,
-        Ea = (36913, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-CR Zhou K Sendt BS Haynes J. Phys. Chem. A 2009, 113, 2975-2981
-""",
-)
-
-entry(
-    index = 34,
-    label = "SH + O2 <=> SO + OH",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (75000, 'cm^3/(mol*s)'),
-        n = 2.052,
-        Ea = (16384, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-CR Zhou K Sendt BS Haynes J. Phys. Chem. A 2009, 113, 2975-2981
-""",
-)
-
-entry(
     index = 35,
     label = "SH + O2 <=> H + SO2",
     degeneracy = 1,
@@ -595,21 +311,21 @@ J.D. GArrido, M.Y. Ballester, Y. Orozco-Gonzalez, S. Canuto, J. Phys. Chem. A 20
 """,
 )
 
-entry(
-    index = 36,
-    label = "SH + H2O2 <=> HSOH + OH",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (9500, 'cm^3/(mol*s)'),
-        n = 2.8,
-        Ea = (9829, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou TST (2009)
-""",
-)
+# entry(
+#     index = 36,
+#     label = "SH + H2O2 <=> HSOH + OH",
+#     degeneracy = 1,
+#     kinetics = Arrhenius(
+#         A = (9500, 'cm^3/(mol*s)'),
+#         n = 2.8,
+#         Ea = (9829, 'cal/mol'),
+#         T0 = (1, 'K'),
+#     ),
+#     longDesc =
+# u"""
+# Zhou TST (2009)
+# """,
+# )
 
 entry(
     index = 37,
@@ -651,22 +367,6 @@ entry(
         A = (1e+13, 'cm^3/(mol*s)'),
         n = 0,
         Ea = (25000, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
-    index = 40,
-    label = "SH + SO <=> HOS + S",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (30000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
     longDesc = 
@@ -808,6 +508,7 @@ Zhou est (2009)
 #     index = 259,
 #     label = "HSSO2 <=> SH + SO2",
 #     degeneracy = 1,
+#     elementary_high_p = True,
 #     duplicate = True,
 #     kinetics = ThirdBody(
 #         arrheniusLow = Arrhenius(A=(1e+17, 'cm^3/(mol*s)'), n=0, Ea=(3000, 'cal/mol'), T0=(1, 'K')),
@@ -874,22 +575,6 @@ Zhou est (2009)
 )
 
 entry(
-    index = 52,
-    label = "S + O2 <=> SO + O",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (540000, 'cm^3/(mol*s)'),
-        n = 2.11,
-        Ea = (-1450, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Lu C-W Wu Y-J Lee Y-P Zhu RS Lin MC J Chem Phys 2004, 121, 8271.
-""",
-)
-
-entry(
     index = 53,
     label = "S + O3 <=> SO + O2",
     degeneracy = 1,
@@ -918,91 +603,6 @@ entry(
     longDesc = 
 u"""
 Zhou est (2009)
-""",
-)
-
-entry(
-    index = 55,
-    label = "SO <=> S + O",
-    degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(A=(4e+14, 'cm^3/(mol*s)'), n=0, Ea=(107000, 'cal/mol'), T0=(1, 'K')),
-        efficiencies = {},
-    ),
-    longDesc = 
-u"""
-Plach, H. J.; Troe, J. Int J Chem Kinet 1984, 16, 1531
-""",
-)
-
-entry(
-    index = 56,
-    label = "SO + H <=> HSO",
-    degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(
-            A = (1.9e+20, 'cm^6/(mol^2*s)'),
-            n = -1.31,
-            Ea = (662, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        efficiencies = {'O=S=O': 10, 'O': 10, 'N#N': 1.5},
-    ),
-    longDesc = 
-u"""
-Rasmussen CL GlArborg P MArshall P Proc Combust Inst 2007, 31, 339-347
-""",
-)
-
-entry(
-    index = 57,
-    label = "SO + O <=> SO2",
-    degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(
-            A = (4.1e+22, 'cm^6/(mol^2*s)'),
-            n = -2.17,
-            Ea = (0, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        efficiencies = {'O=S=O': 10, 'O': 10, 'N#N': 1.5},
-    ),
-    longDesc = 
-u"""
-Lu C-W Wu Y-J Lee Y-P Zhu RS Lin MC J Phys Chem A 2003, 107, 11020-11029
-""",
-)
-
-entry(
-    index = 58,
-    label = "SO + HO2 <=> SO2 + OH",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-pw bArrierless
-""",
-)
-
-entry(
-    index = 59,
-    label = "SO + O2 <=> SO2 + O",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (7600, 'cm^3/(mol*s)'),
-        n = 2.37,
-        Ea = (2970, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-ALZ/GLA01 TSU/MAT97
-SO+O2=SO2+O                          8.9E06  1.400     3712 ! GArland (1998)
 """,
 )
 
@@ -1089,105 +689,6 @@ Rasmussen CL GlArborg P MArshall P Proc Combust Inst 2007, 31, 339-347
 )
 
 entry(
-    index = 65,
-    label = "SO2 + H <=> SO + OH",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (6.7e+21, 'cm^3/(mol*s)'),
-        n = -2.22,
-        Ea = (30736, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Hughes KJ Blitz MA Pilling MJ Robertson SH Proc Combust Inst 2002, 29, 2431-2437
-""",
-)
-
-entry(
-    index = 66,
-    label = "SO2 + H <=> HSO2",
-    degeneracy = 1,
-    elementary_high_p = True,
-    kinetics = Troe(
-        arrheniusHigh = Arrhenius(
-            A = (5.3e+08, 'cm^3/(mol*s)'),
-            n = 1.59,
-            Ea = (2470, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        arrheniusLow = Arrhenius(
-            A = (1.4e+31, 'cm^6/(mol^2*s)'),
-            n = -5.19,
-            Ea = (4510, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        alpha = 0.39,
-        T3 = (167, 'K'),
-        T1 = (2191, 'K'),
-        efficiencies = {'O=S=O': 10, 'O': 10, 'N#N': 1},
-    ),
-    longDesc = 
-u"""
-MA Blitz KJ Hughes M Pillling SH Robertson J. Phys. Chem. A 110 (2006) 2996-3009
-""",
-)
-
-entry(
-    index = 67,
-    label = "SO2 + H <=> HOSO",
-    degeneracy = 1,
-    elementary_high_p = True,
-    kinetics = Troe(
-        arrheniusHigh = Arrhenius(
-            A = (2.4e+08, 'cm^3/(mol*s)'),
-            n = 1.63,
-            Ea = (7340, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        arrheniusLow = Arrhenius(
-            A = (1.8e+37, 'cm^6/(mol^2*s)'),
-            n = -6.14,
-            Ea = (11070, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        alpha = 0.283,
-        T3 = (272, 'K'),
-        T1 = (3995, 'K'),
-        efficiencies = {'O=S=O': 10, 'O': 10, 'N#N': 1},
-    ),
-    longDesc = 
-u"""
-MA Blitz KJ Hughes M Pillling SH Robertson J. Phys. Chem. A 110 (2006) 2996-3009
-""",
-)
-
-entry(
-    index = 68,
-    label = "SO2 + O <=> SO3",
-    degeneracy = 1,
-    elementary_high_p = True,
-    kinetics = Troe(
-        arrheniusHigh = Arrhenius(A=(3.7e+11, 'cm^3/(mol*s)'), n=0, Ea=(1689, 'cal/mol'), T0=(1, 'K')),
-        arrheniusLow = Arrhenius(
-            A = (2.9e+27, 'cm^6/(mol^2*s)'),
-            n = -3.58,
-            Ea = (5206, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        alpha = 0.43,
-        T3 = (371, 'K'),
-        T1 = (7442, 'K'),
-        efficiencies = {'O=S=O': 10, 'O': 10, 'N#N': 1},
-    ),
-    longDesc = 
-u"""
-N2
-A Yilmaz L HindiyArti AD Jensen P GlArborg P MArshall J. Phys. Chem. A 110 (2006) 6654-6659.
-""",
-)
-
-entry(
     index = 69,
     label = "SO2 + OH <=> HOSO2",
     degeneracy = 1,
@@ -1215,7 +716,6 @@ entry(
     index = 70,
     label = "SO2 + H2O <=> VDW1",
     degeneracy = 1,
-    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1e+14, 'cm^3/(mol*s)'),
         n = 0,
@@ -1245,38 +745,6 @@ JPL 02 upper limit Zhou (2009)
 )
 
 entry(
-    index = 72,
-    label = "SO2 + CO <=> SO + CO2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.9e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (65900, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-GB Bacskay JC Mackie J. Phys. Chem. A 109 (2005) 2019-2025
-""",
-)
-
-entry(
-    index = 73,
-    label = "SO2 + S <=> SO + SO",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (6e-16, 'cm^3/(mol*s)'),
-        n = 8.21,
-        Ea = (9600, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Y Murakami S Onishi T Kobayashi N Fujii N Isshiki K Tsuchiya A Tezaki H Matsui J Phys Chem A 107 2003 10996-11000
-""",
-)
-
-entry(
     index = 74,
     label = "SO2 + SO2 <=> SO3 + SO",
     degeneracy = 1,
@@ -1284,22 +752,6 @@ entry(
         A = (5e+07, 'cm^3/(mol*s)'),
         n = 2,
         Ea = (75000, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-L HindiyArti P GlArborg P MArshall J. Phys. Chem. A 111 (2007) 3984-3991
-""",
-)
-
-entry(
-    index = 75,
-    label = "SO3 + H <=> SO2 + OH",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (8.4e+09, 'cm^3/(mol*s)'),
-        n = 1.22,
-        Ea = (3320, 'cal/mol'),
         T0 = (1, 'K'),
     ),
     longDesc = 
@@ -1321,38 +773,6 @@ entry(
     longDesc = 
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
-""",
-)
-
-entry(
-    index = 77,
-    label = "SO3 + O <=> SO2 + O2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (28000, 'cm^3/(mol*s)'),
-        n = 2.57,
-        Ea = (29200, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-L HindiyArti P GlArborg P MArshall J. Phys. Chem. A 111 (2007) 3984-3991
-""",
-)
-
-entry(
-    index = 78,
-    label = "SO3 + OH <=> SO2 + HO2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (48000, 'cm^3/(mol*s)'),
-        n = 2.46,
-        Ea = (27250, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-L HindiyArti P GlArborg P MArshall J. Phys. Chem. A 111 (2007) 3984-3991
 """,
 )
 
@@ -1467,25 +887,7 @@ entry(
     longDesc = 
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
-""",
-)
-
-entry(
-    index = 86,
-    label = "HSO + O <=> HSO2",
-    degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(
-            A = (1.1e+19, 'cm^6/(mol^2*s)'),
-            n = -1.73,
-            Ea = (-50, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        efficiencies = {},
-    ),
-    longDesc = 
-u"""
-P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
+alongd comment: Differs by O(3) than the R-Rec rate [H_rad;S2sJ]
 """,
 )
 
@@ -1570,6 +972,7 @@ entry(
     longDesc = 
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
+alongd comment: Differs by O(3) than the R-Rec rate Average of [H_rad;Y_rad + S_rad;Y_rad + Ct_rad;Y_rad + O_rad;Y_rad + O2_birad;Y_rad + Cd_rad;Y_rad + Cb_rad;Y_rad + CO_rad;Y_rad + Cs_rad;Y_rad + N3_rad;Y_rad + N5_rad;Y_rad + Y_rad;H_rad + Y_rad;S_rad + Y_rad;Ct_rad + Y_rad;O_rad + Y_rad;O2_birad + Y_rad;Cd_rad + Y_rad;Cb_rad + Y_rad;CO_rad + Y_rad;Cs_rad + Y_rad;N3_rad + Y_rad;N5_rad]
 """,
 )
 
@@ -1679,22 +1082,6 @@ Zhou TST (2009)
 )
 
 entry(
-    index = 98,
-    label = "HSO + O2 <=> HSO2 + O",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (8.4e-07, 'cm^3/(mol*s)'),
-        n = 5.1,
-        Ea = (11312, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Rasmussen CL GlArborg P MArshall P Proc Combust Inst 2007, 31, 339-347
-""",
-)
-
-entry(
     index = 99,
     label = "HSO + O3 <=> SH + O2 + O2",
     degeneracy = 1,
@@ -1775,47 +1162,6 @@ Zhou est (2009)
 )
 
 entry(
-    index = 104,
-    label = "H + SO <=> HOS",
-    degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(
-            A = (3.6e+20, 'cm^6/(mol^2*s)'),
-            n = -1.924,
-            Ea = (-29, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        efficiencies = {'N#N': 0},
-    ),
-)
-
-entry(
-    index = 105,
-    label = "H + SO + N2 <=> HOS + N2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2e+21, 'cm^6/(mol^2*s)'),
-        n = -2.093,
-        Ea = (-72, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Sendt K Haynes BS Proc Combust Inst 2007, 31, 257-265
-""",
-)
-
-entry(
-    index = 106,
-    label = "HOS <=> HSO",
-    degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(A=(5.8e+11, 'cm^3/(mol*s)'), n=0, Ea=(32722, 'cal/mol'), T0=(1, 'K')),
-        efficiencies = {'N#N': 0},
-    ),
-)
-
-entry(
     index = 107,
     label = "HOS + N2 <=> HSO + N2",
     degeneracy = 1,
@@ -1832,59 +1178,11 @@ Sendt K Haynes BS Proc Combust Inst 2007, 31, 257-265
 )
 
 entry(
-    index = 108,
-    label = "HOS + H <=> H2 + SO",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
-    index = 109,
-    label = "HOS + O <=> OH + SO",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+14, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
     index = 110,
     label = "HOS + O <=> H + SO2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1e+14, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
-    index = 111,
-    label = "HOS + OH <=> SO + H2O",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
@@ -1912,22 +1210,6 @@ Zhou est (2009)
 )
 
 entry(
-    index = 113,
-    label = "HOS + O2 <=> HO2 + SO",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (640000, 'cm^3/(mol*s)'),
-        n = 2.627,
-        Ea = (19013, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
     index = 114,
     label = "HOS + O2 <=> SO2 + OH",
     degeneracy = 1,
@@ -1935,38 +1217,6 @@ entry(
         A = (37, 'cm^3/(mol*s)'),
         n = 2.764,
         Ea = (6575, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
-    index = 115,
-    label = "HOS + HO2 <=> SO + H2O2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
-    index = 116,
-    label = "HOS + HOS <=> SO + HSOH",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
     longDesc = 
@@ -2004,23 +1254,6 @@ entry(
     longDesc = 
 u"""
 Zhou est (2009)
-""",
-)
-
-entry(
-    index = 119,
-    label = "HSOH <=> SH + OH",
-    degeneracy = 1,
-    elementary_high_p = True,
-    kinetics = Arrhenius(
-        A = (2.8e+39, 's^-1'),
-        n = -8.75,
-        Ea = (75200, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
 """,
 )
 
@@ -2075,22 +1308,6 @@ Zhou est (2009)
 )
 
 entry(
-    index = 123,
-    label = "HSOH + HO2 <=> HOS + H2O2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
     index = 124,
     label = "HSOH + O2 <=> HSO + HO2",
     degeneracy = 1,
@@ -2107,40 +1324,8 @@ Zhou est (2009)
 )
 
 entry(
-    index = 125,
-    label = "HSOH + O2 <=> HOS + HO2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (30000, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
     index = 126,
     label = "HSOH + O <=> HSO + OH",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+14, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
-    index = 127,
-    label = "HSOH + O <=> HOS + OH",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1e+14, 'cm^3/(mol*s)'),
@@ -2171,22 +1356,6 @@ Zhou est (2009)
 )
 
 entry(
-    index = 129,
-    label = "HSOH + H <=> HOS + H2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+14, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
     index = 130,
     label = "HSOH + OH <=> HSO + H2O",
     degeneracy = 1,
@@ -2199,70 +1368,6 @@ entry(
     longDesc = 
 u"""
 Zhou est (2009)
-""",
-)
-
-entry(
-    index = 131,
-    label = "HSOH + OH <=> HOS + H2O",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+14, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
-    index = 132,
-    label = "HOSO <=> OH + SO",
-    degeneracy = 1,
-    elementary_high_p = True,
-    kinetics = Troe(
-        arrheniusHigh = Arrhenius(A=(9.9e+21, 's^-1'), n=-2.54, Ea=(75891, 'cal/mol'), T0=(1, 'K')),
-        arrheniusLow = Arrhenius(
-            A = (1.2e+46, 'cm^3/(mol*s)'),
-            n = -9.02,
-            Ea = (52953, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        alpha = 0.95,
-        T3 = (2989, 'K'),
-        T1 = (1.1, 'K'),
-        efficiencies = {},
-    ),
-    longDesc = 
-u"""
-Hughes KJ Blitz MA Pilling MJ Robertson SH Proc Combust Inst 2002, 29, 2431-2437
-""",
-)
-
-entry(
-    index = 133,
-    label = "HOSO <=> HSO2",
-    degeneracy = 1,
-    elementary_high_p = True,
-    kinetics = Troe(
-        arrheniusHigh = Arrhenius(A=(1e+09, 's^-1'), n=1.03, Ea=(50000, 'cal/mol'), T0=(1, 'K')),
-        arrheniusLow = Arrhenius(
-            A = (1.7e+35, 'cm^3/(mol*s)'),
-            n = -5.64,
-            Ea = (55400, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        alpha = 0.4,
-        T3 = (1e-30, 'K'),
-        T1 = (1e+30, 'K'),
-        efficiencies = {'O=S=O': 10, 'O': 10, 'N#N': 1},
-    ),
-    longDesc = 
-u"""
-A Goumri J-DR Rocha D Laakso CE Smith P MArshall J. Phys. Chem. A 103 (1999) 11328-11335
 """,
 )
 
@@ -2286,22 +1391,6 @@ P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (19
 )
 
 entry(
-    index = 135,
-    label = "HOSO + H <=> SO2 + H2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.8e+07, 'cm^3/(mol*s)'),
-        n = 1.72,
-        Ea = (-1286, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-X Hu P MArshall, poster presented at the 18th International Symposium on Gas Kinetics, Bristol, UK, August, 7-12, 2004
-""",
-)
-
-entry(
     index = 136,
     label = "HOSO + H <=> SO(S) + H2O",
     degeneracy = 1,
@@ -2314,103 +1403,6 @@ entry(
     longDesc = 
 u"""
 X Hu P MArshall, poster presented at the 18th International Symposium on Gas Kinetics, Bristol, UK, August, 7-12, 2004
-""",
-)
-
-entry(
-    index = 137,
-    label = "HOSO + O <=> SO2 + OH",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
-    index = 138,
-    label = "HOSO + OH <=> SO2 + H2O",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (6e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Rasmussen CL GlArborg P MArshall P Proc Combust Inst 2007, 31, 339-347 est
-""",
-)
-
-entry(
-    index = 139,
-    label = "HOSO + HO2 <=> SO2 + H2O2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
-    index = 140,
-    label = "HOSO + O2 <=> HO2 + SO2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (96, 'cm^3/(mol*s)'),
-        n = 2.355,
-        Ea = (-10130, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-(T>400K)
-Rasmussen CL GlArborg P MArshall P Proc Combust Inst 2007, 31, 339-347
-""",
-)
-
-entry(
-    index = 141,
-    label = "HOSO + SH <=> SO2 + H2S",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
-    index = 142,
-    label = "HOSO + S <=> SO2 + SH",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
 """,
 )
 
@@ -2431,40 +1423,8 @@ Zhou est (2009)
 )
 
 entry(
-    index = 144,
-    label = "HOSO + SO <=> SO2 + HOS",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
     index = 145,
     label = "HOSO + HSO <=> SO2 + HSOH",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
-    index = 146,
-    label = "HOSO + HOS <=> SO2 + HSOH",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1e+13, 'cm^3/(mol*s)'),
@@ -2571,22 +1531,6 @@ entry(
     longDesc = 
 u"""
 Zhou est (2009)
-""",
-)
-
-entry(
-    index = 153,
-    label = "HSO2 + O2 <=> HO2 + SO2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1100, 'cm^3/(mol*s)'),
-        n = 3.2,
-        Ea = (-235, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Rasmussen CL GlArborg P MArshall P Proc Combust Inst 2007, 31, 339-347
 """,
 )
 
@@ -2719,53 +1663,6 @@ Zhou est (2009)
 )
 
 entry(
-    index = 162,
-    label = "SH + O2 <=> HSOO",
-    degeneracy = 1,
-    elementary_high_p = True,
-    kinetics = Lindemann(
-        arrheniusHigh = Arrhenius(
-            A = (8.7e+14, 'cm^3/(mol*s)'),
-            n = -0.26,
-            Ea = (298, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        arrheniusLow = Arrhenius(
-            A = (3.1e+19, 'cm^6/(mol^2*s)'),
-            n = -2.01,
-            Ea = (20, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        efficiencies = {},
-    ),
-    longDesc = 
-u"""
-A. Goumri, J.-D.R. Rocha, D. Laakso, C.E. Smith, P. MArshall, J. Phys. Chem. A 1999, 103, 11328-11335.
-""",
-)
-
-entry(
-    index = 163,
-    label = "HSOO <=> HSO + O",
-    degeneracy = 1,
-    elementary_high_p = True,
-    kinetics = Lindemann(
-        arrheniusHigh = Arrhenius(A=(2e+19, 's^-1'), n=-1.07, Ea=(28374, 'cal/mol'), T0=(1, 'K')),
-        arrheniusLow = Arrhenius(
-            A = (9.3e+34, 'cm^3/(mol*s)'),
-            n = -5.87,
-            Ea = (30957, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        efficiencies = {},
-    ),
-    longDesc = 
-u"""
-A. Goumri, J.-D.R. Rocha, D. Laakso, C.E. Smith, P. MArshall, J. Phys. Chem. A 1999, 103, 11328-11335.
-""",
-)
-
-entry(
     index = 164,
     label = "H2SO <=> H2S + O",
     degeneracy = 1,
@@ -2774,23 +1671,6 @@ entry(
         A = (4.9e+28, 's^-1'),
         n = -6.66,
         Ea = (71700, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
-""",
-)
-
-entry(
-    index = 165,
-    label = "HOSHO <=> HOSO + H",
-    degeneracy = 1,
-    elementary_high_p = True,
-    kinetics = Arrhenius(
-        A = (6.4e+30, 's^-1'),
-        n = -5.89,
-        Ea = (73800, 'cal/mol'),
         T0 = (1, 'K'),
     ),
     longDesc = 
@@ -2817,54 +1697,6 @@ P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (19
 )
 
 entry(
-    index = 167,
-    label = "HOSHO + H <=> HOSO + H2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
-""",
-)
-
-entry(
-    index = 168,
-    label = "HOSHO + O <=> HOSO + OH",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (5e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
-""",
-)
-
-entry(
-    index = 169,
-    label = "HOSHO + OH <=> HOSO + H2O",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
-""",
-)
-
-entry(
     index = 170,
     label = "HOSO2 <=> HOSO + O",
     degeneracy = 1,
@@ -2873,23 +1705,6 @@ entry(
         A = (5.4e+18, 's^-1'),
         n = -2.34,
         Ea = (106300, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
-""",
-)
-
-entry(
-    index = 171,
-    label = "HOSO2 <=> SO3 + H",
-    degeneracy = 1,
-    elementary_high_p = True,
-    kinetics = Arrhenius(
-        A = (1.4e+18, 's^-1'),
-        n = -2.91,
-        Ea = (54900, 'cal/mol'),
         T0 = (1, 'K'),
     ),
     longDesc = 
@@ -2915,128 +1730,6 @@ P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (19
 )
 
 entry(
-    index = 173,
-    label = "HOSO2 + O <=> SO3 + OH",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (5e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
-""",
-)
-
-entry(
-    index = 174,
-    label = "HOSO2 + OH <=> SO3 + H2O",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
-""",
-)
-
-entry(
-    index = 175,
-    label = "HOSO2 + O2 <=> HO2 + SO3",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (7.8e+11, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (656, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Atkinson R Baulch DL Cox RA Crowley JN Hampson RF Hynes RG Jenkin ME Rossi MJ Troe J Atmos Chem Phys 2004 4 1461-1738.!
-""",
-)
-
-entry(
-    index = 176,
-    label = "HOSO2 + S <=> SH + SO3",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Zhou est (2009)
-""",
-)
-
-entry(
-    index = 177,
-    label = "SH + SH <=> HSSH",
-    degeneracy = 1,
-    elementary_high_p = True,
-    kinetics = Troe(
-        arrheniusHigh = Arrhenius(
-            A = (3.5e+12, 'cm^3/(mol*s)'),
-            n = 0.155,
-            Ea = (-1432, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        arrheniusLow = Arrhenius(
-            A = (2.329e+31, 'cm^6/(mol^2*s)'),
-            n = -4.943,
-            Ea = (1998, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        alpha = 1,
-        T3 = (254, 'K'),
-        T1 = (2373, 'K'),
-        efficiencies = {},
-    ),
-    longDesc = 
-u"""
-A-factor reduced
-CR Zhou K Sendt BS Haynes J. Phys. Chem. A 2009, 112, 3239-3247
-""",
-)
-
-entry(
-    index = 178,
-    label = "H2S + S <=> HSSH",
-    degeneracy = 1,
-    kinetics = Troe(
-        arrheniusHigh = Arrhenius(
-            A = (6.4e+07, 'cm^3/(mol*s)'),
-            n = 1.28,
-            Ea = (-478, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        arrheniusLow = Arrhenius(
-            A = (2.4e+21, 'cm^6/(mol^2*s)'),
-            n = -1.612,
-            Ea = (1670, 'cal/mol'),
-            T0 = (1, 'K'),
-        ),
-        alpha = 0.5,
-        T3 = (726, 'K'),
-        T1 = (726, 'K'),
-        efficiencies = {'N#N': 1.3},
-    ),
-    longDesc = 
-u"""
-CR Zhou K Sendt BS Haynes J. Phys. Chem. A 2009, 112, 3239-3247
-""",
-)
-
-entry(
     index = 179,
     label = "HSSH + H <=> HSS + H2",
     degeneracy = 1,
@@ -3049,22 +1742,6 @@ entry(
     longDesc = 
 u"""
 Sendt K Jazbec M Haynes BS PCI 29:2439-2446  2002
-""",
-)
-
-entry(
-    index = 180,
-    label = "HSSH + H <=> H2S + SH",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (3.7e+08, 'cm^3/(mol*s)'),
-        n = 1.724,
-        Ea = (467, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Sendt K Jazbec M Haynes BS PCI 29:2439-2446 2002
 """,
 )
 
@@ -3575,22 +2252,22 @@ Sendt K Jazbec M Haynes BS PCI 29:2439-2446 2002
 """,
 )
 
-entry(
-    index = 211,
-    label = "S + S <=> S2",
-    degeneracy = 1,
-    elementary_high_p = True,
-    kinetics = Lindemann(
-        arrheniusHigh = Arrhenius(A=(1.4e+10, 'cm^3/(mol*s)'), n=0, Ea=(-825, 'cal/mol'), T0=(1, 'K')),
-        arrheniusLow = Arrhenius(A=(7.2e+14, 'cm^6/(mol^2*s)'), n=0, Ea=(-408, 'cal/mol'), T0=(1, 'K')),
-        efficiencies = {},
-    ),
-    longDesc = 
-u"""
-Du, S.Y.; Francisco, J.S.; Shepler, B.C.; Peterson, K.A. J. Chem. Phys. 128 204306 2008
-alongd comment: the above reference is only valid between 100-500 K
-""",
-)
+# entry(
+#     index = 211,
+#     label = "S + S <=> S2",
+#     degeneracy = 1,
+#     elementary_high_p = True,
+#     kinetics = Lindemann(
+#         arrheniusHigh = Arrhenius(A=(1.4e+10, 'cm^3/(mol*s)'), n=0, Ea=(-825, 'cal/mol'), T0=(1, 'K')),
+#         arrheniusLow = Arrhenius(A=(7.2e+14, 'cm^6/(mol^2*s)'), n=0, Ea=(-408, 'cal/mol'), T0=(1, 'K')),
+#         efficiencies = {},
+#     ),
+#     longDesc =
+# u"""
+# Du, S.Y.; Francisco, J.S.; Shepler, B.C.; Peterson, K.A. J. Chem. Phys. 128 204306 2008
+# alongd comment: the above reference is only valid between 100-500 K
+# """,
+# )
 
 entry(
     index = 212,
@@ -4410,22 +3087,6 @@ entry(
         A = (360000, 'cm^3/(mol*s)'),
         n = 1.562,
         Ea = (14290, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    longDesc = 
-u"""
-Sendt K Haynes BS J PHYS CHEM A 109 8180-8186 2005
-""",
-)
-
-entry(
-    index = 263,
-    label = "H2S2O2 + SH <=> HSSH + HOSO",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (8000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
     longDesc = 

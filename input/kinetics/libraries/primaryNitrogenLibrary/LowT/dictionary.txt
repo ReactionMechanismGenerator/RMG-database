@@ -73,13 +73,6 @@ N2H2
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {2,S}
 
-H2NN
-multiplicity 3
-1 N u0 p1 c0 {2,S} {3,S} {4,S}
-2 N u2 p1 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 H u0 p0 c0 {1,S}
-
 N2H3
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
