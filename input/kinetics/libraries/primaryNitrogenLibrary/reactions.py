@@ -38,6 +38,8 @@ This library consists of the following subsets:
 * N2H4 pyrolysis
 
 Reference legend:
+[Altinary2015] G. Altinary, R. G. Macdonald, "Detamination of the Rate Constants for the NH2(X^2B1)+NH2(X^2B1) and NH2(X^2B1)+H Recombination Reactions in N2 as a Function of Temperature and Pressure," J. Phys. Chem. A 2015, 119, 7593-7610, doi: 10.1021/acs.jpca.5b00917
+[Bahng2009] M. Bahng, R. G. Macdonald, "Detemination of the Rate Constants for the Radical-Radical Reactions NH2+NH and NH2+H at 293 K," J. Phys. Chem. A 2009, 113(11), 2415-2423, doi: 10.1021/jp809643u
 [Baulch1992a] D.L. Baulch, C.J. Cobos, R.A. Cox, C. Esser, P. Frank, Th. Just, J.A. Kerr, M.J. Philling, J. Troe, R.W. Walker, J. Warnatz, "Evaluated Kinetic Data for Combustion Modelling", Journal of Physical and Chemical Reference Data, 1992, 21(3), 411, doi: 10.1063/1.555908
 [Baulch1992b] R. Atkinson, D.L. Baulch, R.A. Cox, R.F. Hampson, J.A. Kerr, J. Troe, "Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry: Supplement IV", Journal of Physical and Chemical Reference Data, 1992, 21, 1125, doi: 10.1063/1.555918
 [Baulch1994] D.L. Baulch et al., Journal of Physical and Chemical Reference Data, 1994, 23, 847, doi: 10.1063/1.555953
@@ -53,6 +55,7 @@ Reference legend:
 [Friedrichs2011] J. Dammeier, G. Friedrichs, J. Phys. Chem. A, 2011, 115, 14382-14390, doi: 10.1021/jp208715c
 [Friedrichs2012] J. Dammeier, N. Faßheber, G. Friedrichs, Phys. Chem. Chem. Phys., 2012, 15, 1030-1037, doi: 10.1039/C1CP22123J
 [Friedrichs2015]  N. Faßheber,  N. Lamoureux,  G. Friedrichs, Phys. Chem. Chem. Phys., 2015, 17, 15876-15886, doi: 10.1039/C5CP01414J
+[Glarborg2018] P. Glarborg, J. Miller, B. Ruscic, S. J. Klippenstein, Prog. Energy Combust. Sci., 2018, 67, 31-68, doi: 10.1016/j.pecs.2018.01.002
 [GlarGim] (RMG's Nitrogen_Glarborg_Gimenez_et_al library) Gimenez Lopeza et al., Proceedings of the Combustion Institute, 2009, 32(1), 367-375, doi: 10.1016/j.proci.2008.06.188
 [GlarZha] (RMG's Nitrogen_Glarborg_Zhang_et_al library) Kuiwen Zhang et al. Proceedings of the Combustion Institute, 2013, 34, 617-624, doi: 10.1016/j.proci.2012.06.010
 [Green2014] K. Prozument, Y.V. Suleimanov, B. Buesser, J.M. Oldham, W.H. Green, A.G. Suits, R.W. Field, J. Phys. Chem. Lett. 2014, 5(21), 3641-3648, doi: 10.1021/jz501758p
@@ -131,7 +134,6 @@ Reference legend:
 [Wang1982] O.I. Smith, S. Tseregounis, S-N. Wang, Int. J. Chem. Kin., 1982, 14(6), 679-697, doi: 10.1002/kin.550140610
 [Yamaguchi1999] Y. Yamaguchi, Y. Teng, S. Shimomura, K. Tabata, E. Suzuki, J. Phys. Chem. A, 1999, 103(41), 8272-8278, doi: 10.1021/jp990985a
 [Yang2012] Y. Guan, B. Yang, J. Comp. Chem., 2012, 33(23), 1870-1879, doi: 10.1002/jcc.23020
-[Glarborg2018] P. Glarborg, J. Miller, B. Ruscic, S. J. Klippenstein, Prog. Energy Combust. Sci., 2018, 67, 31-68, doi: 10.1016/j.pecs.2018.01.002
 """
 
 entry(
@@ -1715,6 +1717,7 @@ entry(
     shortDesc = u"""[Glarborg2018]""",
     longDesc =
 u"""
+The recombination rate constants for the reaction NH2+H2->NH3 with N2 as a third-body was measured by [Altinary2015] using a temperature-controlled flow chamber. The temperature range was from 292 to 533 K and the pressuer range ffrom a few Torr up to 300-400 Toor, well within the pressure falloff region. A high-pressure limitting rate constant was estimated from the average of those for the recombination CH3+H and OH+H reactions.
 Also available (shock tube) from [Hanson1990a] in reverse:
 Part of the "NHx" subset
 R1 in Table 1, p. 521
@@ -1734,6 +1737,7 @@ entry(
     shortDesc = u"""[Glarborg2018]""",
     longDesc =
 u"""
+The rate constant for the reaction NH2+H was measured by using a flow reaction chamber over a pressure range from 2 to 10 Torr in CF4 or Ar gases at 293 K [Bahng2009].
 Also available (shock tube) from [Hanson1990a]
 Part of the "NHx" subset
 R9 in Table 1, p. 521
@@ -3051,25 +3055,25 @@ Train both!!!
 
 entry(
     index = 165,
-    label = "NH3 + H <=> NH2 + H2",
+    label = "NH2 + H2 <=> NH3 + H",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (640000, 'cm^3/(mol*s)'),
-        n = 2.39,
-        Ea = (10171, 'cal/mol'),
+        A = (3.23e+05, 'cm^3/(mol*s)'),
+        n = 2.23,
+        Ea = (7168, 'cal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (5000, 'K'),
     ),
-    shortDesc = u"""[Glarborg2018]""",
+    shortDesc = u"""[Lin1999b]""",
     longDesc =
 u"""
-Also available from [Lin1999b] in reverse:
 Part of the "Thermal de-NOx" mechanism
 k1_theo on p. 229
 T range: 300-5000 K
 calculations done at the G2M//B3LYP/6-311G(d,p) level of theory
-    kinetics = Arrhenius(A=(3.23e+05, 'cm^3/(mol*s)'), n=2.23, Ea=(7168, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
-
-Also available (shock tube) from [Klemm1985] in reverse
+Also available (shock tube) from [Klemm1985]
+Added as a training reaction to H_Abstraction
 """,
 )
 
