@@ -80,7 +80,7 @@ CO
 1 C u0 p1 c-1 {2,T}
 2 O u0 p1 c+1 {1,T}
 
-H2NN
+H2NN(S)
 1 N u0 p0 c+1 {2,D} {3,S} {4,S}
 2 N u0 p2 c-1 {1,D}
 3 H u0 p0 c0 {1,S}
