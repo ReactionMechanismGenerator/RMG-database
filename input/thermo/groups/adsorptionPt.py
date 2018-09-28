@@ -6,6 +6,7 @@ shortDesc = u""
 longDesc = u"""
 Changes due to adsorbing on a surface.
 Here, Pt(111)
+Note: "-h" means "horizontal".
 """
 
 entry(
@@ -100,7 +101,7 @@ entry(
 
 entry(
     index = 4,
-    label = "O-*R",
+    label = "O*R",
     group =
 """
 1 X  u0 p0 c0 {2,S}

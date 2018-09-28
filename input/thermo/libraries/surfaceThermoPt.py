@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
 
+name = "SurfaceThermoPt"
+Note: "-h" means "horizontal".
+
 entry(
     index = 1,
     label = "vacant",
