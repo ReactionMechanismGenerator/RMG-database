@@ -100,7 +100,7 @@ entry(
 
 entry(
     index = 4,
-    label = "O*R",
+    label = "O-*R",
     group =
 """
 1 X  u0 p0 c0 {2,S}
