@@ -1656,7 +1656,7 @@ entry(
 
 entry(
     index = 62,
-    label = "RCNR-h",
+    label = "C=*RN-*R",
     group =
 """
 1 X  u0 p0 c0 {2,S} {3,D}
@@ -1793,6 +1793,143 @@ entry(
 """
 )
 
+entry(
+    index = 67,
+    label = "C*",
+    group =
+"""
+1 X  u0 
+2 C  u0 
+""",
+    thermo=u'C-*R3',
+)
+
+entry(
+    index = 68,
+    label = "N*",
+    group =
+"""
+1 X  u0 
+2 N  u0 
+""",
+    thermo=u'N-*R2',
+)
+
+entry(
+    index = 69,
+    label = "O*",
+    group =
+"""
+1 X  u0 
+2 O  u0 
+""",
+    thermo=u'O-*R',
+)
+
+entry(
+    index = 70,
+    label = "R*single_chemisorbed",
+    group =
+"""
+1 X  u0 
+2 R  u0
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-0.09, 1.28, 2.17, 2.75, 3.43, 3.79, 4.16], 'cal/(mol*K)'),
+        H298=(-45.38, 'kcal/mol'),
+        S298=(-38.17, 'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Average of C-*R3, N-*R2 and O-*R thermo. """
+)
+
+entry(
+    index = 71,
+    label = "C*C*",
+    group =
+"""
+1 X  u0 
+2 X  u0 
+3 C  u0
+4 C  u0
+""",
+    thermo=u'C-*R2C-*R2',
+)
+
+entry(
+    index = 72,
+    label = "C*N*",
+    group =
+"""
+1 X  u0 
+2 X  u0 
+3 C  u0
+4 N  u0
+""",
+    thermo=u'C=*RN-*R',
+)
+
+entry(
+    index = 73,
+    label = "C*O*",
+    group =
+"""
+1 X  u0 
+2 X  u0 
+3 C  u0
+4 O  u0
+""",
+    thermo=u'C=*RO-*R',
+)
+
+entry(
+    index = 74,
+    label = "N*N*",
+    group =
+"""
+1 X  u0 
+2 X  u0 
+3 N  u0
+4 N  u0
+""",
+    thermo=u'N-*RN-*R',
+)
+
+entry(
+    index = 75,
+    label = "R*bidentate",
+    group =
+"""
+1 X  u0 
+2 X  u0
+3 R  u0
+4 R  u0
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([1.69, 3.14, 3.95, 4.38, 4.73, 4.84, 4,88], 'cal/(mol*K)'),
+        H298=(-37.29, 'kcal/mol'),
+        S298=(-44.37, 'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Average of C-*R2C-*R2, C=*RN-*R, C=*RO-* and N-*RN-*R thermo. """
+)
+
+entry(
+    index = 76,
+    label = "R*vdW",
+    group =
+"""
+1 X  u0 
+2 R  u0
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([1.51, 2.1, 2.45, 2.68, 2.94, 3.07, 3.2], 'cal/(mol*K)'),
+        H298=(-7.79, 'kcal/mol'),
+        S298=(-20.48, 'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Average of (CR4)*, (NR3)* and (OR2)* thermo. """
+)
 
 tree(
 """
@@ -1848,6 +1985,7 @@ L1: R*
                 L5: N-*RNR2
                 L5: N-*ROR
                 L5: N-*CR2
+                L5: N-*NR
         L3: O*
             L4: O=*
             L4: O-*R
