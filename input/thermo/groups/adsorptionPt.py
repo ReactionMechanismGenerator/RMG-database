@@ -1936,12 +1936,13 @@ entry(
     label = "N*O*",
     group =
 """
-1 X  u0
-2 X  u0
-3 N  u0
-4 O  u0
+1 X  u0 p0 c0 {2,S} {3,[S,D]}
+2 X  u0 p0 c0 {1,S} {4,[S,D]}
+3 N  u0 p1 c0 {1,[S,D]} {4,[S,D]}
+4 O  u0 p2 c0 {2,[S,D]} {3,[S,D]}
 """,
     thermo=u'N=*O-*',
+    longDesc=u"""Is there really any way to do N*O* besides N=*O-* ?"""
 )
 
 entry(
@@ -1949,12 +1950,13 @@ entry(
     label = "O*O*",
     group =
 """
-1 X  u0
-2 X  u0
-3 O  u0
-4 O  u0
+1 X  u0 p0 c0 {2,S} {3,S}
+2 X  u0 p0 c0 {1,S} {4,S}
+3 O  u0 p2 c0 {1,S} {4,S}
+4 O  u0 p2 c0 {2,S} {3,S}
 """,
-    thermo=u'O-*O-*'
+    thermo=u'O-*O-*',
+    longDesc=u"""Is there really any way to do O*O* besides O-*O-* ?"""
 )
 
 entry(
@@ -1962,9 +1964,9 @@ entry(
     label = "N#*R",
     group =
 """
-1 X  u0
-2 N  u0
-3 R  u0
+1 X  u0 {2,T}
+2 N  u0 {1,T} {3,[S,D]}
+3 R  u0 {2,[S,D]}
 """,
     thermo=u'N*'
 )
@@ -1974,14 +1976,14 @@ entry(
     label = "(CR3)*",
     group =
 """
-1 X  u0
-2 C  u0
-3 N  u0
-4 R  u0
-5 R  u0
-6 R  u0
+1 X  u0 
+2 C  u0 {3,D} {4,S} {5,S}
+3 R  u0 {2,D}
+4 R  u0 {2,S}
+5 R  u0 {2,S}
 """,
-    thermo=u'(CR2NR)*'
+    thermo=u'(CR2NR)*',
+    longDesc=u"""Perhaps should be an average?"""
 )
 
 entry(
@@ -1990,9 +1992,9 @@ entry(
     group =
 """
 1 X  u0
-2 C  u0
-3 N  u0
-4 R  u0
+2 C  u0 {3,[S,D,T]} {4,[S,D,T]}
+3 R  u0 {2,[S,D,T]}
+4 R  u0 {2,[S,D,T]}
 """,
     thermo=u'(CRN)*'
 )
@@ -2002,13 +2004,14 @@ entry(
     label = "(NR2CR3)*",
     group =
 """
-1 X  u0 
-2 N  u0 
-3 R  u0 
-4 R  u0
-5 R  u0 
+1 X  u0 p0 c0
+2 N  u0 p1 c0 {3,S} {4,S} {5,S}
+3 Cs u0 p0 c0 {2,S}
+4 R  u0 p0 c0 {2,S}
+5 R  u0 p0 c0 {2,S}
 """,
-    thermo=u'(NR3)*'
+    thermo=u'(NR3)*',
+    longDesc=u"""Do we have data for this?"""
 )
 
 entry(
@@ -2016,12 +2019,13 @@ entry(
     label = "(NR2)*",
     group =
 """
-1 X  u0
-2 N  u0
-3 R  u0
-4 R  u0
+1 X  u0 
+2 N  u0 {3,D} {4,S}
+3 R  u0 {2,D}
+4 R  u0 {2,S}
 """,
-    thermo=u'(NRO)*'
+    thermo=u'(NRO)*',
+    longDesc=u"""Parent of (RN=O)* and (RN=NR)*. Should it be an average?"""
 )
 
 tree(
