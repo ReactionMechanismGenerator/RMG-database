@@ -1931,6 +1931,99 @@ entry(
     shortDesc=u"""Average of (CR4)*, (NR3)* and (OR2)* thermo. """
 )
 
+entry(
+    index = 77,
+    label = "N*O*",
+    group =
+"""
+1 X  u0
+2 X  u0
+3 N  u0
+4 O  u0
+""",
+    thermo=u'N=*O-*',
+)
+
+entry(
+    index = 78,
+    label = "O*O*",
+    group =
+"""
+1 X  u0
+2 X  u0
+3 O  u0
+4 O  u0
+""",
+    thermo=u'O-*O-*'
+)
+
+entry(
+    index = 79,
+    label = "N#*R",
+    group =
+"""
+1 X  u0
+2 N  u0
+3 R  u0
+""",
+    thermo=u'N*'
+)
+
+entry(
+    index = 80,
+    label = "(CR3)*",
+    group =
+"""
+1 X  u0
+2 C  u0
+3 N  u0
+4 R  u0
+5 R  u0
+6 R  u0
+""",
+    thermo=u'(CR2NR)*'
+)
+
+entry(
+    index = 81,
+    label = "(CR2)*",
+    group =
+"""
+1 X  u0
+2 C  u0
+3 N  u0
+4 R  u0
+""",
+    thermo=u'(CRN)*'
+)
+
+entry(
+    index = 82,
+    label = "(NR2CR3)*",
+    group =
+"""
+1 X  u0 
+2 N  u0 
+3 R  u0 
+4 R  u0
+5 R  u0 
+""",
+    thermo=u'(NR3)*'
+)
+
+entry(
+    index = 83,
+    label = "(NR2)*",
+    group =
+"""
+1 X  u0
+2 N  u0
+3 R  u0
+4 R  u0
+""",
+    thermo=u'(NRO)*'
+)
+
 tree(
 """
 L1: R*

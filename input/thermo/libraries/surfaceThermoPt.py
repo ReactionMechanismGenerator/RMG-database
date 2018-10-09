@@ -2,7 +2,7 @@
 
 
 name = "SurfaceThermoPt"
-Note: "-h" means "horizontal".
+#Note: "-h" means "horizontal".
 
 entry(
     index = 1,
