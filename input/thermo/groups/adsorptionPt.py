@@ -1798,10 +1798,11 @@ entry(
     label = "C*",
     group =
 """
-1 X  u0 
-2 C  u0 
+1 X  u0 {2,[S,D,T,Q]}
+2 C  u0 {1,[S,D,T,Q]}
 """,
     thermo=u'C-*R3',
+    longDesc=u"""Thermo is currently for C-*R3.  Maybe should average all the children instead?"""
 )
 
 entry(
@@ -1809,10 +1810,11 @@ entry(
     label = "N*",
     group =
 """
-1 X  u0 
-2 N  u0 
+1 X  u0 {2,[S,D,T]}
+2 N  u0 {1,[S,D,T]}
 """,
     thermo=u'N-*R2',
+    longDesc=u"""Thermo is currently for N-*R2.  Maybe should average all the children instead?"""
 )
 
 entry(
@@ -1820,10 +1822,11 @@ entry(
     label = "O*",
     group =
 """
-1 X  u0 
-2 O  u0 
+1 X  u0 {2,[S,D,T]}
+2 O  u0 {1,[S,D,T]}
 """,
     thermo=u'O-*R',
+    longDesc=u"""Thermo is currently for O-*R.  Maybe should average all the children instead?"""
 )
 
 entry(
@@ -1831,8 +1834,8 @@ entry(
     label = "R*single_chemisorbed",
     group =
 """
-1 X  u0 
-2 R  u0
+1 X  u0 {2,[S,D,T,Q]}
+2 R  u0 {1,[S,D,T,Q]}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -1848,12 +1851,13 @@ entry(
     label = "C*C*",
     group =
 """
-1 X  u0 
-2 X  u0 
-3 C  u0
-4 C  u0
+1 X  u0 {2,S} {3,[S,D]}
+2 X  u0 {1,S} {4,[S,D]}
+3 C  u0 {1,[S,D]} {4,[S,D]}
+4 C  u0 {2,[S,D]} {3,[S,D]}
 """,
     thermo=u'C-*R2C-*R2',
+    longDesc=u"""Thermo is currently for C-*R2C-*R2.  Maybe should average all the children instead?"""
 )
 
 entry(
@@ -1861,12 +1865,13 @@ entry(
     label = "C*N*",
     group =
 """
-1 X  u0 
-2 X  u0 
-3 C  u0
-4 N  u0
+1 X  u0 {2,S} {3,[S,D]}
+2 X  u0 {1,S} {4,[S,D]}
+3 C  u0 {1,[S,D]} {4,[S,D,T]}
+4 N  u0 {2,[S,D,T]} {3,[S,D,T]}
 """,
     thermo=u'C=*RN-*R',
+    longDesc=u"""Thermo is currently for C=*RN-*R.  Maybe should average all the children instead?"""
 )
 
 entry(
@@ -1874,12 +1879,12 @@ entry(
     label = "C*O*",
     group =
 """
-1 X  u0 
-2 X  u0 
-3 C  u0
-4 O  u0
+1 X  u0 {2,S} {3,[S,D,T]}
+2 X  u0 {1,S} {4,{S,D,T]}
+3 C  u0 {1,S} {4,[S,D,T]}
+4 O  u0 {2,S} {3,[S,D,T]}
 """,
-    thermo=u'C=*RO-*R',
+    thermo=u'C=*RO-*',
 )
 
 entry(
@@ -1887,12 +1892,13 @@ entry(
     label = "N*N*",
     group =
 """
-1 X  u0 
-2 X  u0 
-3 N  u0
-4 N  u0
+1 X  u0 {2,S} {3,[S,D,T]}
+2 X  u0 {1,S} {4,[S,D,T]}
+3 N  u0 {1,[S,D,T]} {4,[S,D,T]}
+4 N  u0 {2,[S,D,T]} {3,[S,D,T]}
 """,
     thermo=u'N-*RN-*R',
+    longDesc=u"""Thermo is currently for N-*RN-*R.  Maybe should average all the children instead?"""
 )
 
 entry(
@@ -1900,10 +1906,10 @@ entry(
     label = "R*bidentate",
     group =
 """
-1 X  u0 
-2 X  u0
-3 R  u0
-4 R  u0
+1 X  u0 {2,S} {3,[S,D,T]}
+2 X  u0 {1,S} {4,[S,D,T]}
+3 R  u0 {1,[S,D,T]} {4,[S,D,T]}
+4 R  u0 {2,[S,D,T]} {3,[S,D,T]}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
