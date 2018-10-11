@@ -2763,7 +2763,7 @@ entry(
     label = "H2N + H3N2 <=> H3N + H2N2-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
-        A = (1.84e+06, 'cm^3/(mol*s)'),
+        A = (9.2e+05, 'cm^3/(mol*s)'),
         n = 1.94,
         Ea = (-4.8116, 'kJ/mol'),
         T0 = (1, 'K'),
