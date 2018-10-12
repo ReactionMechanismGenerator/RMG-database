@@ -629,3 +629,123 @@ u"""
 """,
 )
 
+entry(
+    index = 37,
+    label = "CH3OCH2CH3 + OH <=> CH3OCHCH3 + H2O",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (746.731, 'cm^3/(mol*s)'),
+        n = 2.98774,
+        Ea = (-17.2981, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    longDesc = 
+u"""
+Zhou, Simmie and Curran 2010
+VTST at G3 level
+different path rate coefficients fit to plots and then summed and refit when necessary
+""",
+)
+
+entry(
+    index = 38,
+    label = "CH3OCH2CH3 + OH <=> CH2OCH2CH3 + H2O",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (3.14925e-5, 'm^3/(mol*s)'),
+        n = 3.49534,
+        Ea = (-12.5385, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    longDesc = 
+u"""
+Zhou, Simmie and Curran 2010
+VTST at G3 level
+different path rate coefficients fit to plots and then summed and refit when necessary
+""",
+)
+
+entry(
+    index = 39,
+    label = "CH3OCH2CH3 + OH <=> CH3OCH2CH2 + H2O",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (4.57161e-5, 'm^3/(mol*s)'),
+        n = 3.42939,
+        Ea = (-1.79649, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    longDesc = 
+u"""
+Zhou, Simmie and Curran 2010
+VTST at G3 level
+different path rate coefficients fit to plots and then summed and refit when necessary
+""",
+)
+
+entry(
+    index = 40,
+    label = "MPO + OH <=> MPO1J + H2O",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (746.731, 'cm^3/(mol*s)'),
+        n = 2.98774,
+        Ea = (-17.2981, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    longDesc = 
+u"""
+analogy from CH3OCH2CH3 + OH <=> CH3OCHCH3 G3 VTST calculation 
+""",
+)
+
+entry(
+    index = 41,
+    label = "MPO + OH <=> MPrO-1J + H2O",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (3.14925e-5, 'm^3/(mol*s)'),
+        n = 3.49534,
+        Ea = (-12.5385, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    longDesc = 
+u"""
+analogy from CH3OCH2CH3 + OH <=> CH2OCH2CH3 + H2O G3 VTST calculation
+""",
+)
+
+entry(
+    index = 42,
+    label = "MPO + OH <=> CH3OCH2CHCH3 + H2O",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (3.04774e-5, 'm^3/(mol*s)'),
+        n = 3.42939,
+        Ea = (-1.79649, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    longDesc = 
+u"""
+analogy from CH3OCH2CH3 + OH <=> CH3OCH2CH2 G3 VTST calculation
+rate multiplied by 2/3
+""",
+)
+
+entry(
+    index = 43,
+    label = "CH3OCH2CHOOHCH3 <=> OH + CH3OCH2CHOCH3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.684e16, 'm^3/(mol*s)'),
+        n = -1.153,
+        Ea = (185.15, 'kJ/mol'),
+        T0 = (298, 'K'),
+    ),
+    longDesc = 
+u"""
+analogy from CH3OOH => CH3O + OH from Jasper, Klippenstein and Harding 2009
+""",
+)
+
+
