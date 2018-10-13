@@ -7710,7 +7710,7 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-This group forbids `H[C,N][O,S].`, where the radical site is O or S, but the non-rad site isn't
+This group forbids `H[C,N][O,S].`, where the radical site is O or S, but the non-rad site isn't O or S.
 """,
 )
 
@@ -7725,7 +7725,7 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-Generally, we'd like to forbid `HR[R].` from reacting here (`.` marks a radical), since this is a disprop reaction.
+Generally, we'd like to forbid `HR[R.]` from reacting here (`.` marks a radical), since this is a disprop reaction.
 However, the following specific cases must not be forbidden here: `HO2`, `HSS`, `HOS`, `HSO`
 (since they form the ground state triplets O2, S2, and SO).
 This group forbids `HR[C,N].`, where the radical site isn't O or S
@@ -7751,9 +7751,9 @@ forbidden(
     label = "disprop1_hyperS_rad",
     group = 
 """
-1 *1 [O,S] u0 {2,S} {3,S}
+1 *1 [O,S] u0        {2,S} {3,S}
 2    S     u1 p[0,1] {1,S}
-3 *2 H     u0 {1,S}
+3 *2 H     u0        {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -7834,3 +7834,36 @@ u"""
 """,
 )
 
+forbidden(
+    label = "disprop6_mul_bonds",
+    group =
+"""
+1 *1 R u0 {2,[D,T]} {3,S}
+2    R u1 {1,[D,T]}
+3 *2 H u0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbidding cases such as:
+R + [HC]=CH2 <=> RH + [CH]=[CH]
+R + [C]#CH <=> RH + [C]#[C]
+R + [N]=NH <=> RH + [N]=[N]
+""",
+)
+
+forbidden(
+    label = "disprop7_birad",
+    group =
+"""
+1 *1 R     u1 {2,S} {3,S}
+2    [C,N] u1 {1,S}
+3 *2 H     u0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbidding cases such as:
+R + [NH][NH] <=> RH + [N][NH]
+""",
+)
