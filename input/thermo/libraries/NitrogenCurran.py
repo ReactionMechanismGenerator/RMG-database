@@ -524,7 +524,7 @@ u"""
 
 entry(
     index = 19,
-    label = "H2NN",
+    label = "H2NN(S)",
     molecule =
 """
 1 N u0 p0 c+1 {2,D} {3,S} {4,S}
