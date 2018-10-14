@@ -77,7 +77,7 @@ CH3CH2OH
 8 H u0 p0 c0 {2,S}
 9 H u0 p0 c0 {3,S}
 
-H2NN
+H2NN(S)
 1 N u0 p0 c+1 {2,D} {3,S} {4,S}
 2 N u0 p2 c-1 {1,D}
 3 H u0 p0 c0 {1,S}

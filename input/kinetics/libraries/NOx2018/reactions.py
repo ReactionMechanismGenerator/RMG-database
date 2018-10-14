@@ -10996,7 +10996,7 @@ entry(
 
 entry(
     index = 700,
-    label = "NH2 + NH2 <=> H2NN + H2",
+    label = "NH2 + NH2 <=> H2NN(S) + H2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(72000, 'cm^3/(mol*s)'), n=1.88, Ea=(8802, 'cal/mol'), T0=(1, 'K')),
 )
@@ -11022,7 +11022,7 @@ entry(
 
 entry(
     index = 703,
-    label = "HNOH + NH2 <=> H2NN + H2O",
+    label = "HNOH + NH2 <=> H2NN(S) + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (8.8e+16, 'cm^3/(mol*s)'),
@@ -11060,7 +11060,7 @@ entry(
 
 entry(
     index = 705,
-    label = "N2H4 <=> H2NN + H2",
+    label = "N2H4 <=> H2NN(S) + H2",
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.4e+14, 's^-1'), n=0, Ea=(74911, 'cal/mol'), T0=(1, 'K')),
@@ -11175,7 +11175,7 @@ entry(
 
 entry(
     index = 721,
-    label = "N2H3 + OH <=> H2NN + H2O",
+    label = "N2H3 + OH <=> H2NN(S) + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
@@ -11215,7 +11215,7 @@ entry(
 
 entry(
     index = 726,
-    label = "N2H3 + NH2 <=> H2NN + NH3",
+    label = "N2H3 + NH2 <=> H2NN(S) + NH3",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
@@ -11293,7 +11293,7 @@ entry(
 
 entry(
     index = 736,
-    label = "H2NN <=> NNH + H",
+    label = "H2NN(S) <=> NNH + H",
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(3.4e+26, 's^-1'), n=-4.83, Ea=(46228, 'cal/mol'), T0=(1, 'K')),
@@ -11301,7 +11301,7 @@ entry(
 
 entry(
     index = 737,
-    label = "H2NN <=> N2 + H2",
+    label = "H2NN(S) <=> N2 + H2",
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.5e+14, 's^-1'), n=0, Ea=(52785, 'cal/mol'), T0=(1, 'K')),
@@ -11309,7 +11309,7 @@ entry(
 
 entry(
     index = 738,
-    label = "H2NN <=> N2H2",
+    label = "H2NN(S) <=> N2H2",
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.3e+14, 's^-1'), n=0, Ea=(46931, 'cal/mol'), T0=(1, 'K')),
@@ -11317,42 +11317,42 @@ entry(
 
 entry(
     index = 739,
-    label = "H2NN + H <=> NNH + H2",
+    label = "H2NN(S) + H <=> NNH + H2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 740,
-    label = "H2NN + H <=> N2H2 + H",
+    label = "H2NN(S) + H <=> N2H2 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 741,
-    label = "H2NN + O <=> NNH + OH",
+    label = "H2NN(S) + O <=> NNH + OH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 742,
-    label = "H2NN + O <=> NH2 + NO",
+    label = "H2NN(S) + O <=> NH2 + NO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 743,
-    label = "H2NN + OH <=> NNH + H2O",
+    label = "H2NN(S) + OH <=> NNH + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 744,
-    label = "H2NN + OH => NH2 + NO + H",
+    label = "H2NN(S) + OH => NH2 + NO + H",
     degeneracy = 1,
     reversible = False,
     kinetics = Arrhenius(A=(2e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
@@ -11360,7 +11360,7 @@ entry(
 
 entry(
     index = 745,
-    label = "H2NN + HO2 => NH2 + NO + OH",
+    label = "H2NN(S) + HO2 => NH2 + NO + OH",
     degeneracy = 1,
     reversible = False,
     kinetics = Arrhenius(A=(9e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
@@ -11368,21 +11368,21 @@ entry(
 
 entry(
     index = 746,
-    label = "H2NN + HO2 <=> NNH + H2O2",
+    label = "H2NN(S) + HO2 <=> NNH + H2O2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1600, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 747,
-    label = "H2NN + O2 <=> NH2 + NO2",
+    label = "H2NN(S) + O2 <=> NH2 + NO2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(5961, 'cal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 748,
-    label = "H2NN + NH2 <=> NNH + NH3",
+    label = "H2NN(S) + NH2 <=> NNH + NH3",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
