@@ -63,6 +63,7 @@ entry(
     index = 5,
     label = "N2O + O <=> NO + NO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.9e+13, 'cm^3/(mol*s)'), n=0, Ea=(23135, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -73,7 +74,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 6,
     label = "NH3 <=> NH2 + H",
-    degeneracy = 1,
+    degeneracy = 3,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(3.6e+16, 'cm^3/(mol*s)'), n=0, Ea=(93733, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
@@ -87,7 +88,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 7,
     label = "NH3 + H <=> NH2 + H2",
-    degeneracy = 1,
+    degeneracy = 3,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(540000, 'cm^3/(mol*s)'), n=2.4, Ea=(9910, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -98,7 +100,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 8,
     label = "NH3 + OH <=> NH2 + H2O",
-    degeneracy = 1,
+    degeneracy = 3,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(5e+07, 'cm^3/(mol*s)'), n=1.6, Ea=(953, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -109,7 +112,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 9,
     label = "NH3 + O <=> NH2 + OH",
-    degeneracy = 1,
+    degeneracy = 3,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (9.4e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -125,7 +129,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 10,
     label = "NH2 + H <=> NH(S) + H2",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(7934, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -136,7 +141,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 11,
     label = "HO2 + NO <=> NO2 + OH",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(2.2e+12, 'cm^3/(mol*s)'), n=0, Ea=(-477, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -181,6 +186,7 @@ entry(
     index = 13,
     label = "N2O + H <=> N2 + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.2e+14, 'cm^3/(mol*s)'), n=0, Ea=(16741, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -355,6 +361,7 @@ entry(
     index = 26,
     label = "NH2 + HO2 <=> NH3 + O2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -381,7 +388,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 28,
     label = "NH2 + O <=> NH(T) + OH",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(7e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -420,7 +428,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 30,
     label = "NH2 + OH <=> NH(S) + H2O",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(50, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -530,7 +539,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 34,
     label = "NH2 + NH2 <=> NH3 + NH(T)",
-    degeneracy = 1,
+    degeneracy = 4,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(9929, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -847,7 +857,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 49,
     label = "CH3 + NH2 <=> CH4 + NH(S)",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (2.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -863,7 +874,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 50,
     label = "CH3 + NH2 <=> CH2(T) + NH3",
-    degeneracy = 1,
+    degeneracy = 3,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1.6e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -879,7 +891,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 51,
     label = "CH2(T) + N2 <=> CH2NN",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -1003,7 +1015,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 58,
     label = "CH + N2 <=> HCNN",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -1036,7 +1048,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 59,
     label = "CH + N2 <=> HCN + N",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(4.4e+12, 'cm^3/(mol*s)'), n=0, Ea=(21964, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1102,7 +1114,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 65,
     label = "N + O2 <=> NO + O",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(9e+09, 'cm^3/(mol*s)'), n=1, Ea=(6494, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1151,7 +1164,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 69,
     label = "CH2(T) + N <=> HCN + H",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1218,6 +1231,7 @@ entry(
     index = 75,
     label = "NH2 + NH(T) <=> NH3 + N",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(2443, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1240,6 +1254,7 @@ entry(
     index = 77,
     label = "NH(T) + OH <=> N + H2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-487, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1251,6 +1266,7 @@ entry(
     index = 78,
     label = "NH(T) + H <=> N + H2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(1728, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1284,6 +1300,7 @@ entry(
     index = 82,
     label = "NH(T) + CH3 <=> CH4 + N",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(820000, 'cm^3/(mol*s)'), n=1.87, Ea=(5848, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1295,6 +1312,7 @@ entry(
     index = 83,
     label = "NNH + O2 <=> N2 + HO2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1.2e+12, 'cm^3/(mol*s)'),
         n = -0.34,
@@ -1327,6 +1345,7 @@ entry(
     index = 85,
     label = "NNH + H <=> N2 + H2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(496, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1338,6 +1357,7 @@ entry(
     index = 86,
     label = "NNH + OH <=> N2 + H2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (2.4e+22, 'cm^3/(mol*s)'),
         n = -2.88,
@@ -1354,6 +1374,7 @@ entry(
     index = 87,
     label = "NNH + O <=> N2 + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1.7e+16, 'cm^3/(mol*s)'),
         n = -1.23,
@@ -1370,6 +1391,7 @@ entry(
     index = 88,
     label = "NNH + NH2 <=> N2 + NH3",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(1698, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1381,6 +1403,7 @@ entry(
     index = 89,
     label = "NNH + HO2 <=> N2 + H2O2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(14000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1392,6 +1415,7 @@ entry(
     index = 90,
     label = "NNH + HO2 <=> HNNO + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(70211, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1403,6 +1427,7 @@ entry(
     index = 91,
     label = "NNH + NO <=> N2 + HNO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(70717, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1413,7 +1438,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 92,
     label = "N2H2 <=> NNH + H",
-    degeneracy = 1,
+    degeneracy = 2,
     duplicate = True,
     kinetics = MultiPDepArrhenius(
         arrhenius = [
@@ -1444,7 +1469,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 93,
     label = "N2H2 <=> H2NN(S)",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -1462,7 +1487,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 94,
     label = "N2H2 + H <=> NNH + H2",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(496, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1473,7 +1499,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 95,
     label = "N2H2 + O <=> NNH + OH",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (3.3e+08, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -1489,7 +1516,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 96,
     label = "N2H2 + OH <=> NNH + H2O",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1152, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1500,7 +1528,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 97,
     label = "N2H2 + NH2 <=> NH3 + NNH",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -1516,7 +1545,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 98,
     label = "N2H2 + CH3 <=> NNH + CH4",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1.6e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -1532,7 +1562,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 99,
     label = "N2H2 + NH(T) <=> NNH + NH2",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(11915, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1543,7 +1574,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 100,
     label = "N2H2 + NO <=> N2O + NH2",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(4e+12, 'cm^3/(mol*s)'), n=0, Ea=(51762, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1554,7 +1585,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 101,
     label = "H2NN(S) <=> NNH + H",
-    degeneracy = 1,
+    degeneracy = 2,
     duplicate = True,
     kinetics = MultiPDepArrhenius(
         arrhenius = [
@@ -1607,7 +1638,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 103,
     label = "H2NN(S) + H <=> N2H2 + H",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.8e+10, 'cm^3/(mol*s)'),
         n = 0.97,
@@ -1623,7 +1654,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 104,
     label = "H2NN(S) + H <=> NNH + H2",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1650,7 +1682,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 106,
     label = "H2NN(S) + O <=> OH + NNH",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1672,7 +1705,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 108,
     label = "H2NN(S) + OH <=> NNH + H2O",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1683,7 +1717,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 109,
     label = "H2NN(S) + CH3 <=> H2CNNH2 + H",
-    degeneracy = 1,
+    degeneracy = 3,
     kinetics = Arrhenius(A=(830000, 'cm^3/(mol*s)'), n=1.93, Ea=(6494, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1694,7 +1728,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 110,
     label = "H2NN(S) + CH3 <=> CH3NNH + H",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(830000, 'cm^3/(mol*s)'), n=1.93, Ea=(6494, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1705,7 +1739,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 111,
     label = "H2NN(S) + CH3 <=> CH4 + NNH",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.6e+06, 'cm^3/(mol*s)'), n=1.87, Ea=(129, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1716,7 +1751,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 112,
     label = "H2NN(S) + NH2 <=> HNNNH2 + H",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (7.9e+06, 'cm^3/(mol*s)'),
         n = 1.9,
@@ -1732,7 +1767,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 113,
     label = "H2NN(S) + NH2 <=> NH3 + NNH",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -1759,7 +1795,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 115,
     label = "H2NN(S) + HO2 <=> NNH + H2O2",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1770,7 +1807,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 116,
     label = "N2H3 <=> N2H2 + H",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = PDepArrhenius(
         pressures = ([0.1, 1, 10], 'atm'),
         arrhenius = [
@@ -1788,7 +1825,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 117,
     label = "N2H3 + H <=> N2H2 + H2",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1821,7 +1859,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 120,
     label = "N2H3 + O <=> N2H2 + OH",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-645, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1832,7 +1871,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 121,
     label = "N2H3 + OH <=> N2H2 + H2O",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1844,6 +1884,7 @@ entry(
     index = 122,
     label = "N2H3 + OH <=> H2NN(S) + H2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1854,7 +1895,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 123,
     label = "N2H3 + CH3 <=> N2H2 + CH4",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(820000, 'cm^3/(mol*s)'), n=1.87, Ea=(1817, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1866,6 +1908,7 @@ entry(
     index = 124,
     label = "N2H3 + CH3 <=> H2NN(S) + CH4",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1876,7 +1919,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 125,
     label = "N2H3 + NH2 <=> N2H2 + NH3",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -1893,6 +1937,7 @@ entry(
     index = 126,
     label = "N2H3 + NH2 <=> H2NN(S) + NH3",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1914,7 +1959,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 128,
     label = "N2H3 + HO2 <=> N2H2 + H2O2",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1926,6 +1972,7 @@ entry(
     index = 129,
     label = "N2H3 + HO2 <=> N2H4 + O2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(2125, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1954,7 +2001,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 131,
     label = "N2H4 + H <=> N2H3 + H2",
-    degeneracy = 1,
+    degeneracy = 4,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(9.6e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(4836, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1965,7 +2013,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 132,
     label = "N2H4 + O <=> N2H3 + OH",
-    degeneracy = 1,
+    degeneracy = 4,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(6.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(2850, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1976,7 +2025,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 133,
     label = "N2H4 + OH <=> N2H3 + H2O",
-    degeneracy = 1,
+    degeneracy = 4,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(4.8e+06, 'cm^3/(mol*s)'), n=2, Ea=(-645, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -1987,7 +2037,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 134,
     label = "N2H4 + CH3 <=> N2H3 + CH4",
-    degeneracy = 1,
+    degeneracy = 4,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (3.3e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -2003,7 +2054,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 135,
     label = "N2H4 + NH2 <=> N2H3 + NH3",
-    degeneracy = 1,
+    degeneracy = 4,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (3.7e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -2075,6 +2127,7 @@ entry(
     index = 141,
     label = "NO2 + O <=> NO + O2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3.9e+12, 'cm^3/(mol*s)'), n=0, Ea=(-238, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2132,6 +2185,7 @@ entry(
     index = 145,
     label = "NO2 + CH3 <=> NO + CH3O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2143,6 +2197,7 @@ entry(
     index = 146,
     label = "N2O + OH <=> N2 + HO2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(0.013, 'cm^3/(mol*s)'), n=4.72, Ea=(36540, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2179,6 +2234,7 @@ entry(
     index = 149,
     label = "HNO + OH <=> NO + H2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1.3e+07, 'cm^3/(mol*s)'),
         n = 1.88,
@@ -2195,6 +2251,7 @@ entry(
     index = 150,
     label = "HNO + H <=> H2 + NO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(4.5e+11, 'cm^3/(mol*s)'), n=0.72, Ea=(655, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2206,6 +2263,7 @@ entry(
     index = 152,
     label = "HNO + O <=> OH + NO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(4.5e+11, 'cm^3/(mol*s)'), n=0.72, Ea=(655, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2217,6 +2275,7 @@ entry(
     index = 153,
     label = "HNO + NH2 <=> NH3 + NO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -2244,6 +2303,7 @@ entry(
     index = 155,
     label = "HNO + O2 <=> NO + HO2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(15887, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2255,6 +2315,7 @@ entry(
     index = 156,
     label = "HNO + CH3 <=> NO + CH4",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (820000, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -2319,6 +2380,7 @@ entry(
     index = 160,
     label = "NH2O + H <=> HNO + H2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(1559, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2330,6 +2392,7 @@ entry(
     index = 161,
     label = "NH2O + O <=> HNO + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(487, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2341,6 +2404,7 @@ entry(
     index = 162,
     label = "NH2O + OH <=> HNO + H2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2363,6 +2427,7 @@ entry(
     index = 164,
     label = "NH2O + CH3 <=> CH4 + HNO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1.6e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -2379,6 +2444,7 @@ entry(
     index = 165,
     label = "NH2O + NH2 <=> HNO + NH3",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -2395,6 +2461,7 @@ entry(
     index = 166,
     label = "NH2O + HO2 <=> HNO + H2O2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2406,6 +2473,7 @@ entry(
     index = 167,
     label = "NH2O + HO2 <=> O2 + NH2OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2447,6 +2515,7 @@ entry(
     index = 170,
     label = "HNOH + H <=> HNO + H2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(377, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2458,6 +2527,7 @@ entry(
     index = 171,
     label = "HNOH + O <=> HNO + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2469,6 +2539,7 @@ entry(
     index = 172,
     label = "HNOH + OH <=> HNO + H2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2491,6 +2562,7 @@ entry(
     index = 174,
     label = "HNOH + CH3 <=> CH4 + HNO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1.6e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -2534,6 +2606,7 @@ entry(
     index = 177,
     label = "HNOH + NH2 <=> HNO + NH3",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -2561,6 +2634,7 @@ entry(
     index = 179,
     label = "HNOH + HO2 <=> HNO + H2O2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2572,6 +2646,7 @@ entry(
     index = 180,
     label = "HNOH + HO2 <=> NH2OH + O2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2621,6 +2696,7 @@ entry(
     index = 183,
     label = "HONO + H <=> H2 + NO2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2e+08, 'cm^3/(mol*s)'), n=1.55, Ea=(6613, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2664,6 +2740,7 @@ entry(
     index = 186,
     label = "HONO + O <=> OH + NO2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(3028, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2675,6 +2752,7 @@ entry(
     index = 187,
     label = "HONO + OH <=> H2O + NO2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-596, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2686,6 +2764,7 @@ entry(
     index = 188,
     label = "HONO + CH3 <=> NO2 + CH4",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(810000, 'cm^3/(mol*s)'), n=1.87, Ea=(5501, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2697,6 +2776,7 @@ entry(
     index = 189,
     label = "HONO + NH2 <=> NO2 + NH3",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(1916, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2726,6 +2806,7 @@ entry(
     index = 191,
     label = "HNO2 + H <=> H2 + NO2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(4160, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2737,6 +2818,7 @@ entry(
     index = 192,
     label = "HNO2 + O <=> OH + NO2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(2363, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2748,6 +2830,7 @@ entry(
     index = 193,
     label = "HNO2 + OH <=> H2O + NO2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-794, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2759,6 +2842,7 @@ entry(
     index = 194,
     label = "HNO2 + CH3 <=> NO2 + CH4",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(810000, 'cm^3/(mol*s)'), n=1.87, Ea=(4836, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2770,6 +2854,7 @@ entry(
     index = 195,
     label = "HNO2 + NH2 <=> NO2 + NH3",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(874, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -2897,6 +2982,7 @@ entry(
     index = 204,
     label = "HCN + O <=> CN + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (4.2e+10, 'cm^3/(mol*s)'),
         n = 0.4,
@@ -2967,6 +3053,7 @@ entry(
     index = 209,
     label = "CN + H2 <=> HCN + H",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (3.6e+08, 'cm^3/(mol*s)'),
         n = 1.55,
@@ -2983,6 +3070,7 @@ entry(
     index = 210,
     label = "CN + H2O <=> HCN + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(7.8e+12, 'cm^3/(mol*s)'), n=0, Ea=(7447, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3070,6 +3158,7 @@ entry(
     index = 217,
     label = "CN + CH4 <=> HCN + CH3",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(120000, 'cm^3/(mol*s)'), n=2.64, Ea=(-159, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3081,6 +3170,7 @@ entry(
     index = 218,
     label = "CN + NH3 <=> HCN + NH2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(9.2e+12, 'cm^3/(mol*s)'), n=0, Ea=(-357, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3121,6 +3211,7 @@ entry(
     index = 221,
     label = "H2CN + HO2 <=> HCN + H2O2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(14000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1609, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3132,6 +3223,7 @@ entry(
     index = 222,
     label = "H2CN + HO2 <=> H2CNH + O2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(14000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1609, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3154,6 +3246,7 @@ entry(
     index = 224,
     label = "H2CN + CH3 <=> HCN + CH4",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (810000, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -3214,6 +3307,7 @@ entry(
     index = 227,
     label = "H2CN + H <=> HCN + H2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3225,6 +3319,7 @@ entry(
     index = 228,
     label = "H2CN + NH2 <=> HCN + NH3",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -3241,6 +3336,7 @@ entry(
     index = 229,
     label = "H2CN + O <=> HCN + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3303,6 +3399,7 @@ entry(
     index = 234,
     label = "HCNH + H <=> HCN + H2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3325,6 +3422,7 @@ entry(
     index = 236,
     label = "HCNH + O <=> HCN + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3336,6 +3434,7 @@ entry(
     index = 237,
     label = "HCNH + OH <=> HCN + H2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3347,6 +3446,7 @@ entry(
     index = 238,
     label = "HCNH + CH3 <=> HCN + CH4",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (820000, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -3385,6 +3485,7 @@ entry(
     index = 241,
     label = "H2CNH + H <=> H2CN + H2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(7318, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3396,6 +3497,7 @@ entry(
     index = 242,
     label = "H2CNH + O <=> H2CN + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(4627, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3407,6 +3509,7 @@ entry(
     index = 243,
     label = "H2CNH + OH <=> H2CN + H2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-89, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3418,6 +3521,7 @@ entry(
     index = 244,
     label = "H2CNH + CH3 <=> H2CN + CH4",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(820000, 'cm^3/(mol*s)'), n=1.87, Ea=(7119, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3429,6 +3533,7 @@ entry(
     index = 245,
     label = "H2CNH + NH2 <=> H2CN + NH3",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(4438, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3440,6 +3545,7 @@ entry(
     index = 246,
     label = "H2CNH + H <=> HCNH + H2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(6126, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3451,6 +3557,7 @@ entry(
     index = 247,
     label = "H2CNH + O <=> HCNH + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.2e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(5402, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3462,6 +3569,7 @@ entry(
     index = 248,
     label = "H2CNH + OH <=> HCNH + H2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(457, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3473,6 +3581,7 @@ entry(
     index = 249,
     label = "H2CNH + CH3 <=> HCNH + CH4",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(530000, 'cm^3/(mol*s)'), n=1.87, Ea=(9681, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3484,6 +3593,7 @@ entry(
     index = 250,
     label = "H2CNH + NH2 <=> HCNH + NH3",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -3529,6 +3639,7 @@ entry(
     index = 253,
     label = "CH3NH + H <=> H2CNH + H2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(7.2e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3540,6 +3651,7 @@ entry(
     index = 254,
     label = "CH3NH + O <=> H2CNH + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(5e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3551,6 +3663,7 @@ entry(
     index = 255,
     label = "CH3NH + OH <=> H2CNH + H2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3.6e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3562,6 +3675,7 @@ entry(
     index = 256,
     label = "CH3NH + CH3 <=> H2CNH + CH4",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (2.4e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -3596,6 +3710,7 @@ entry(
     index = 258,
     label = "CH2NH2 + O2 <=> H2CNH + HO2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1e+22, 'cm^3/(mol*s)'), n=-3.09, Ea=(6752, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3623,6 +3738,7 @@ entry(
     index = 260,
     label = "CH2NH2 + H <=> H2CNH + H2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3645,6 +3761,7 @@ entry(
     index = 262,
     label = "CH2NH2 + O <=> H2CNH + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3667,6 +3784,7 @@ entry(
     index = 264,
     label = "CH2NH2 + OH <=> H2CNH + H2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3689,6 +3807,7 @@ entry(
     index = 266,
     label = "CH2NH2 + CH3 <=> H2CNH + CH4",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1.6e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -3705,6 +3824,7 @@ entry(
     index = 267,
     label = "CH3NH2 + H <=> CH2NH2 + H2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(5.6e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(5461, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3716,6 +3836,7 @@ entry(
     index = 268,
     label = "CH3NH2 + O <=> CH2NH2 + OH",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(5193, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3727,6 +3848,7 @@ entry(
     index = 269,
     label = "CH3NH2 + OH <=> CH2NH2 + H2O",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3.6e+06, 'cm^3/(mol*s)'), n=2, Ea=(238, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -3738,6 +3860,7 @@ entry(
     index = 270,
     label = "CH3NH2 + CH3 <=> CH2NH2 + CH4",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1.5e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -3754,6 +3877,7 @@ entry(
     index = 271,
     label = "CH3NH2 + NH2 <=> CH2NH2 + NH3",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (2.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -3769,6 +3893,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 272,
     label = "CH3NH2 + H <=> CH3NH + H2",
+    elementary_high_p = True,
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(9701, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
@@ -3780,6 +3905,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 273,
     label = "CH3NH2 + O <=> CH3NH + OH",
+    elementary_high_p = True,
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(6345, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
@@ -3791,6 +3917,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 274,
     label = "CH3NH2 + OH <=> CH3NH + H2O",
+    elementary_high_p = True,
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(447, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
@@ -3802,6 +3929,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 275,
     label = "CH3NH2 + CH3 <=> CH3NH + CH4",
+    elementary_high_p = True,
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.6e+06, 'cm^3/(mol*s)'),
@@ -3818,6 +3946,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 276,
     label = "CH3NH2 + NH2 <=> CH3NH + NH3",
+    elementary_high_p = True,
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
@@ -3921,6 +4050,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 284,
     label = "NCO + H2 <=> HNCO + H",
+    elementary_high_p = True,
     degeneracy = 1,
     kinetics = Arrhenius(A=(760, 'cm^3/(mol*s)'), n=3, Ea=(3972, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
@@ -3976,6 +4106,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 289,
     label = "NCO + OH <=> HNCO + O",
+    elementary_high_p = True,
     degeneracy = 1,
     kinetics = Arrhenius(A=(78000, 'cm^3/(mol*s)'), n=2.27, Ea=(-993, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
@@ -4041,6 +4172,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 294,
     label = "NCO + CH4 <=> HNCO + CH3",
+    elementary_high_p = True,
     degeneracy = 1,
     kinetics = Arrhenius(A=(9.8e+12, 'cm^3/(mol*s)'), n=0, Ea=(8122, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
@@ -4311,6 +4443,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 316,
     label = "HNCO + OH <=> NCO + H2O",
+    elementary_high_p = True,
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (5.2e+10, 'cm^3/(mol*s)'),
@@ -4327,6 +4460,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 320,
     label = "HNCO + NH2 <=> NCO + NH3",
+    elementary_high_p = True,
     degeneracy = 1,
     kinetics = Arrhenius(A=(1e+12, 'cm^3/(mol*s)'), n=0, Ea=(8936, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
@@ -4383,6 +4517,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 324,
     label = "CH2NO + H <=> HCNO + H2",
+    elementary_high_p = True,
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
@@ -4427,7 +4562,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 328,
     label = "CH2NO + OH <=> HCNO + H2O",
-    degeneracy = 1,
+    elementary_high_p = True,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4449,7 +4585,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 330,
     label = "CH2NO + CH3 <=> HCNO + CH4",
-    degeneracy = 1,
+    elementary_high_p = True,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.6e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -4476,7 +4613,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 332,
     label = "CH2NO + NH2 <=> HCNO + NH3",
-    degeneracy = 1,
+    elementary_high_p = True,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -4492,7 +4630,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 333,
     label = "CH3NO + H <=> CH2NO + H2",
-    degeneracy = 1,
+    elementary_high_p = True,
+    degeneracy = 3,
     kinetics = Arrhenius(A=(4.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(377, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4503,7 +4642,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 334,
     label = "CH3NO + O <=> CH2NO + OH",
-    degeneracy = 1,
+    elementary_high_p = True,
+    degeneracy = 3,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(3614, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4514,7 +4654,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 335,
     label = "CH3NO + OH <=> CH2NO + H2O",
-    degeneracy = 1,
+    elementary_high_p = True,
+    degeneracy = 3,
     kinetics = Arrhenius(A=(3.6e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4525,7 +4666,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 336,
     label = "CH3NO + CH3 <=> CH2NO + CH4",
-    degeneracy = 1,
+    elementary_high_p = True,
+    degeneracy = 3,
     kinetics = Arrhenius(A=(790000, 'cm^3/(mol*s)'), n=1.87, Ea=(5412, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4536,7 +4678,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 337,
     label = "CH3NO + NH2 <=> CH2NO + NH3",
-    degeneracy = 1,
+    elementary_high_p = True,
+    degeneracy = 3,
     kinetics = Arrhenius(
         A = (2.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -4626,6 +4769,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 344,
     label = "HON(S) + O <=> OH + NO",
+    elementary_high_p = True,
     degeneracy = 1,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
@@ -4677,7 +4821,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 348,
     label = "NH2OH + H <=> HNOH + H2",
-    degeneracy = 1,
+    elementary_high_p = True,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(6246, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4688,6 +4833,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 349,
     label = "NH2OH + H <=> NH2O + H2",
+    elementary_high_p = True,
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(5064, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
@@ -4699,7 +4845,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 350,
     label = "NH2OH + O <=> HNOH + OH",
-    degeneracy = 1,
+    elementary_high_p = True,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(3863, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4710,6 +4857,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 351,
     label = "NH2OH + O <=> NH2O + OH",
+    elementary_high_p = True,
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(3009, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
@@ -4721,7 +4869,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 352,
     label = "NH2OH + OH <=> HNOH + H2O",
-    degeneracy = 1,
+    elementary_high_p = True,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-328, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4732,6 +4881,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 353,
     label = "NH2OH + OH <=> NH2O + H2O",
+    elementary_high_p = True,
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-596, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
@@ -4743,7 +4893,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 354,
     label = "NH2OH + CH3 <=> HNOH + CH4",
-    degeneracy = 1,
+    elementary_high_p = True,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.6e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -4759,6 +4910,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 355,
     label = "NH2OH + CH3 <=> NH2O + CH4",
+    elementary_high_p = True,
     degeneracy = 1,
     kinetics = Arrhenius(A=(820000, 'cm^3/(mol*s)'), n=1.87, Ea=(5491, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
@@ -4770,7 +4922,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 356,
     label = "NH2OH + NH2 <=> HNOH + NH3",
-    degeneracy = 1,
+    elementary_high_p = True,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -4786,6 +4939,7 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 357,
     label = "NH2OH + NH2 <=> NH2O + NH3",
+    elementary_high_p = True,
     degeneracy = 1,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(1887, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
@@ -4797,7 +4951,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 358,
     label = "NH2OH + HO2 <=> HNOH + H2O2",
-    degeneracy = 1,
+    elementary_high_p = True,
+    degeneracy = 2,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(9552, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4809,6 +4964,7 @@ entry(
     index = 359,
     label = "NH2OH + HO2 <=> NH2O + H2O2",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(14000, 'cm^3/(mol*s)'), n=2.69, Ea=(6414, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4837,7 +4993,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 361,
     label = "NH2NO + H <=> HNNO + H2",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(7407, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4848,7 +5005,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 362,
     label = "NH2NO + O <=> HNNO + OH",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(4697, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4859,7 +5017,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 363,
     label = "NH2NO + OH <=> HNNO + H2O",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-70, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4870,7 +5029,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 364,
     label = "NH2NO + CH3 <=> HNNO + CH4",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1.6e+06, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -4886,7 +5046,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 365,
     label = "NH2NO + NH2 <=> HNNO + NH3",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -4902,7 +5063,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 366,
     label = "NH2NO + HO2 <=> HNNO + H2O2",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(12620, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4931,7 +5093,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 368,
     label = "H2NNHO + H <=> HNNHO + H2",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4942,7 +5105,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 369,
     label = "H2NNHO + O <=> HNNHO + OH",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4953,7 +5117,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 370,
     label = "H2NNHO + OH <=> HNNHO + H2O",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4964,7 +5129,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 371,
     label = "H2NNHO + CH3 <=> HNNHO + CH4",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.6e+06, 'cm^3/(mol*s)'), n=1.87, Ea=(377, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
@@ -4975,7 +5141,8 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 372,
     label = "H2NNHO + NH2 <=> HNNHO + NH3",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (1.8e+06, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -4991,11 +5158,11 @@ Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-70
 entry(
     index = 373,
     label = "H2NNHO + HO2 <=> HNNHO + H2O2",
-    degeneracy = 1,
+    degeneracy = 2,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
 )
-
