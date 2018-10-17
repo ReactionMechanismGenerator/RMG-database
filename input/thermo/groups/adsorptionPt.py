@@ -1822,8 +1822,8 @@ entry(
     label = "O*",
     group =
 """
-1 X  u0 {2,[S,D,T]}
-2 O  u0 {1,[S,D,T]}
+1 X  u0 {2,[S,D]}
+2 O  u0 {1,[S,D]}
 """,
     thermo=u'O-*R',
     longDesc=u"""Thermo is currently for O-*R.  Maybe should average all the children instead?"""
