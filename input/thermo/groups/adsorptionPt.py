@@ -29,7 +29,7 @@ This node should be empty, ensuring that one of the nodes below is used.
 
 entry(
     index = 1,
-    label = "R",
+    label = "R-*",
     group =
 """
 1 X  u0 p0 c0 {2,S}
