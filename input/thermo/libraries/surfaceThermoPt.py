@@ -45,6 +45,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.240 eV.
+            Linear scaling parameters: ref_adatom_H = -0.240 eV, psi = 0.00000 eV, gamma_H(X) = 1.000.""",
 )
 
 entry(
@@ -68,6 +72,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.054 eV.
+            Linear scaling parameters: ref_adatom_H = -0.240 eV, psi = -0.05448 eV, gamma_H(X) = 0.000.
+            The two lowest frequencies, 14.0 and 24.4 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -92,6 +101,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.189 eV.
+            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = -0.18932 eV, gamma_O(X) = 0.000.
+            The two lowest frequencies, 49.5 and 68.6 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -115,6 +129,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.970 eV.
+            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = -1.45958 eV, gamma_O(X) = 0.500.""",
 )
 
 entry(
@@ -140,6 +158,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.286 eV.
+            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = -0.28574 eV, gamma_O(X) = 0.000.
+            The two lowest frequencies, 10.6 and 50.4 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -164,6 +187,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.347 eV.
+            Linear scaling parameters: ref_adatom_O1 = -1.030 eV, ref_adatom_O2 = -1.030 eV, psi = 0.68107 eV, gamma_O1(X) = 0.500, gamma_O2(X) = 0.500.""",
 )
 
 entry(
@@ -188,6 +215,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.742 eV.
+            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = -0.22813 eV, gamma_O(X) = 0.500.
+            The two lowest frequencies, 35.9 and 60.2 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -210,6 +242,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.030 eV.
+            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = 0.00000 eV, gamma_O(X) = 1.000.""",
 )
 
 entry(
@@ -235,6 +271,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.698 eV.
+            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = -0.18381 eV, gamma_O(X) = 0.500.
+            The two lowest frequencies, 10.3 and 64.1 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -261,6 +302,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.370 eV.
+            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = -0.85962 eV, gamma_O(X) = 0.500.
+            The two lowest frequencies, 64.2 and 66.3 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -286,6 +332,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.673 eV.
+            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -0.67337 eV, gamma_N(X) = 0.000.""",
 )
 
 entry(
@@ -310,6 +360,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -2.030 eV.
+            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -2.20832 eV, gamma_N(X) = 0.333.""",
 )
 
 entry(
@@ -333,6 +387,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -3.440 eV.
+            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -3.79341 eV, gamma_N(X) = 0.667.""",
 )
 
 entry(
@@ -355,6 +413,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: 0.525 eV.
+            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = 0.00000 eV, gamma_N(X) = 1.000.""",
 )
 
 entry(
@@ -381,6 +443,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.654 eV.
+            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -0.65407 eV, gamma_N(X) = 0.000.
+            The two lowest frequencies, 17.1 and 68.9 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -405,6 +472,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.270 eV.
+            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.26632 eV, gamma_N(X) = 0.000.
+            The two lowest frequencies, 36.2 and 74.0 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -430,6 +502,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.370 eV.
+            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.54570 eV, gamma_N(X) = 0.333.""",
 )
 
 entry(
@@ -453,6 +529,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.580 eV.
+            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.75991 eV, gamma_N(X) = 0.333.""",
 )
 
 entry(
@@ -477,6 +557,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.390 eV.
+            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.73967 eV, gamma_N(X) = 0.667.
+            The two lowest frequencies, -19.4 and 68.0 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -501,6 +586,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -3.260 eV.
+            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -3.60529 eV, gamma_N(X) = 0.667.""",
 )
 
 entry(
@@ -528,6 +617,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.977 eV.
+            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -0.97746 eV, gamma_N(X) = 0.000.
+            The two lowest frequencies, 6.9 and 79.2 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -553,6 +647,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.676 eV.
+            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -0.67607 eV, gamma_N(X) = 0.000.""",
 )
 
 entry(
@@ -577,6 +675,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.109 eV.
+            Linear scaling parameters: ref_adatom_N1 = 0.525 eV, ref_adatom_N2 = 0.525 eV, psi = -0.45958 eV, gamma_N1(X) = 0.333, gamma_N2(X) = 0.333.
+            The two lowest frequencies, 6.3 and 24.2 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -603,6 +706,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.270 eV.
+            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.44545 eV, gamma_N(X) = 0.333.""",
 )
 
 entry(
@@ -627,6 +734,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.060 eV.
+            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.23214 eV, gamma_N(X) = 0.333.""",
 )
 
 entry(
@@ -652,6 +763,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -2.040 eV.
+            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -2.38988 eV, gamma_N(X) = 0.667.""",
 )
 
 entry(
@@ -678,6 +793,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.982 eV.
+            Linear scaling parameters: ref_adatom_N1 = 0.525 eV, ref_adatom_N2 = 0.525 eV, psi = -1.33172 eV, gamma_N1(X) = 0.333, gamma_N2(X) = 0.333.""",
 )
 
 entry(
@@ -703,6 +822,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.280 eV.
+            Linear scaling parameters: ref_adatom_N1 = 0.525 eV, ref_adatom_N2 = 0.525 eV, psi = -1.80538 eV, gamma_N1(X) = 0.333, gamma_N2(X) = 0.667.""",
 )
 
 entry(
@@ -730,6 +853,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.850 eV.
+            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -2.02766 eV, gamma_N(X) = 0.333.""",
 )
 
 entry(
@@ -755,6 +882,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.660 eV.
+            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.83916 eV, gamma_N(X) = 0.333.""",
 )
 
 entry(
@@ -781,6 +912,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -3.050 eV.
+            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -3.39942 eV, gamma_N(X) = 0.667.""",
 )
 
 # entry(
@@ -805,6 +940,11 @@ entry(
 #         Tmin = (298.0, 'K'),
 #         Tmax = (2000.0, 'K'),
 #     ),
+#     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+#            Based on DFT calculations by Jelena Jelic at KIT.
+#            DFT binding energy: -0.688 eV.
+#            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -0.86302 eV, gamma_N(X) = 0.333.
+#            The two lowest frequencies, -33.2 and 55.1 cm-1, where replaced by the 2D gas model.""",
 # )
 
 entry(
@@ -827,6 +967,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -6.750 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 0.00000 eV, gamma_C(X) = 1.000.""",
 )
 
 entry(
@@ -851,6 +995,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -5.910 eV.
+            Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_C2 = -6.750 eV, psi = 0.84219 eV, gamma_C1(X) = 0.500, gamma_C2(X) = 0.500.""",
 )
 
 entry(
@@ -876,6 +1024,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -3.980 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.60024 eV, gamma_C(X) = 0.500.""",
 )
 
 entry(
@@ -902,6 +1054,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -5.590 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.52567 eV, gamma_C(X) = 0.750.""",
 )
 
 entry(
@@ -925,6 +1081,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -6.240 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -1.17590 eV, gamma_C(X) = 0.750.""",
 )
 
 entry(
@@ -951,6 +1111,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -2.010 eV.
+            Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_C2 = -6.750 eV, psi = 4.74337 eV, gamma_C1(X) = 0.500, gamma_C2(X) = 0.500.""",
 )
 
 entry(
@@ -976,6 +1140,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.200 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.20021 eV, gamma_C(X) = 0.000.
+            The two lowest frequencies, 8.5 and 8.7 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -1000,6 +1169,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -3.640 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.26541 eV, gamma_C(X) = 0.500.""",
 )
 
 entry(
@@ -1028,6 +1201,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.950 eV.
+            Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_C2 = -6.750 eV, psi = 2.42761 eV, gamma_C1(X) = 0.250, gamma_C2(X) = 0.250.""",
 )
 
 entry(
@@ -1053,6 +1230,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.770 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.08242 eV, gamma_C(X) = 0.250.""",
 )
 
 entry(
@@ -1082,6 +1263,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.219 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.21852 eV, gamma_C(X) = 0.000.
+            The two lowest frequencies, 5.6 and 8.8 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -1108,6 +1294,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.122 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.12206 eV, gamma_C(X) = 0.000.
+            The two lowest frequencies, 3.2 and 8.1 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -1132,6 +1323,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -3.340 eV.
+            Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_N2 = 0.525 eV, psi = -0.13303 eV, gamma_C1(X) = 0.500, gamma_N2(X) = 0.333.""",
 )
 
 entry(
@@ -1156,6 +1351,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.740 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 1.63638 eV, gamma_C(X) = 0.500.""",
 )
 
 entry(
@@ -1181,6 +1380,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -4.060 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 1.00119 eV, gamma_C(X) = 0.750.""",
 )
 
 entry(
@@ -1204,6 +1407,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.480 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 1.89529 eV, gamma_C(X) = 0.500.""",
 )
 
 entry(
@@ -1228,6 +1435,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -4.260 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 0.80370 eV, gamma_C(X) = 0.750.""",
 )
 
 entry(
@@ -1255,6 +1466,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -2.770 eV.
+            Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_C2 = -6.750 eV, psi = 2.29437 eV, gamma_C1(X) = 0.250, gamma_C2(X) = 0.500.""",
 )
 
 entry(
@@ -1283,6 +1498,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.750 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.06163 eV, gamma_C(X) = 0.250.
+            The two lowest frequencies, 18.6 and 76.6 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -1309,6 +1529,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.228 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.22807 eV, gamma_C(X) = 0.000.
+            The two lowest frequencies, 46.0 and 79.7 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -1336,6 +1561,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.980 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.29283 eV, gamma_C(X) = 0.250.
+            The two lowest frequencies, 17.2 and 75.9 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -1361,6 +1591,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.184 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.18361 eV, gamma_C(X) = 0.000.""",
 )
 
 entry(
@@ -1387,6 +1621,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.890 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.19820 eV, gamma_C(X) = 0.250.
+            The two lowest frequencies, 44.2 and 70.8 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -1413,6 +1652,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.710 eV.
+            Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_N2 = 0.525 eV, psi = -0.37462 eV, gamma_C1(X) = 0.250, gamma_N2(X) = 0.667.""",
 )
 
 entry(
@@ -1440,6 +1683,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.756 eV.
+            Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_N2 = 0.525 eV, psi = 0.75753 eV, gamma_C1(X) = 0.250, gamma_N2(X) = 0.333.""",
 )
 
 entry(
@@ -1468,6 +1715,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.879 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.87925 eV, gamma_C(X) = 0.000.
+            The two lowest frequencies, 16.6 and 84.5 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -1495,6 +1747,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.316 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.31650 eV, gamma_C(X) = 0.000.
+            The two lowest frequencies, 16.5 and 57.9 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -1520,6 +1777,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -4.100 eV.
+            Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_C2 = -6.750 eV, psi = 0.96689 eV, gamma_C1(X) = 0.250, gamma_C2(X) = 0.500.""",
 )
 
 entry(
@@ -1546,6 +1807,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -2.790 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -1.09643 eV, gamma_C(X) = 0.250.""",
 )
 
 entry(
@@ -1573,6 +1838,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -3.580 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.20205 eV, gamma_C(X) = 0.500.""",
 )
 
 entry(
@@ -1597,6 +1866,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.010 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.00995 eV, gamma_C(X) = 0.000.
+            The two lowest frequencies, 51.9 and 72.8 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -1622,6 +1896,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.650 eV.
+            Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_N2 = 0.525 eV, psi = 2.37733 eV, gamma_C1(X) = 0.500, gamma_N2(X) = 0.667.""",
 )
 
 entry(
@@ -1647,6 +1925,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -2.220 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.52691 eV, gamma_C(X) = 0.250.
+            The two lowest frequencies, 26.9 and 75.8 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -1673,6 +1956,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -2.490 eV.
+            Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_N2 = 0.525 eV, psi = 0.71054 eV, gamma_C1(X) = 0.500, gamma_N2(X) = 0.333.""",
 )
 
 entry(
@@ -1699,6 +1986,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -2.670 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 0.70666 eV, gamma_C(X) = 0.500.
+            The two lowest frequencies, 23.1 and 87.8 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -1723,6 +2015,11 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -2.210 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.52049 eV, gamma_C(X) = 0.250.
+            The two lowest frequencies, 17.0 and 73.1 cm-1, where replaced by the 2D gas model.""",
 )
 
 entry(
@@ -1748,6 +2045,10 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.900 eV.
+            Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_O2 = -1.030 eV, psi = 1.99512 eV, gamma_C1(X) = 0.500, gamma_O2(X) = 0.500.""",
 )
 
 entry(
@@ -1773,4 +2074,9 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -2.960 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 0.42191 eV, gamma_C(X) = 0.500.
+            The two lowest frequencies, 46.4 and 91.5 cm-1, where replaced by the 2D gas model.""",
 )
