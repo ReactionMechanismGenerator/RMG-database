@@ -2193,6 +2193,123 @@ entry(
     longDesc=u"""Parent of (RN=O)* and (RN=NR)*. Should it be an average?"""
 )
 
+entry(
+    index = 84,
+    label = "N-*RN=*",
+    group =
+"""
+1 X  u0 p0 c0 {2,S} {3,S}
+2 X  u0 p0 c0 {1,S} {4,D}
+3 N  u0 p1 c0 {1,S} {4,S} {5,S}
+4 R  u0 p1 c0 {2,D} {3,S}
+5 R  u0 p0 c0 {3,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([1.02, 2.47, 3.30, 3.77, 4.18, 4.32, 4.49], 'cal/(mol*K)'),
+        H298=(-30.55, 'kcal/mol'),
+        S298=(-45.85, 'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Came from HN-N-h bidentate, single- and double-bonded on Pt(111)""",
+    longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.280 eV.
+            Linear scaling parameters: ref_adatom_N1 = 0.525 eV, ref_adatom_N2 = 0.525 eV, psi = -1.80538 eV, gamma_N1(X) = 0.333, gamma_N2(X) = 0.667.
+
+ RN--N
+  |  |
+***********
+"""
+)
+
+entry(
+    index = 85,
+    label = "(CRCR)*",
+    group =
+"""
+1 X  u0 p0 c0
+2 C  u0 p0 c0 {3,T} {4,S}
+3 C  u0 p0 c0 {2,T} {5,S}
+4 R  u0 p0 c0 {2,S}
+5 R  u0 p0 c0 {3,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([1.26, 1.67, 1.92, 2.07, 2.24, 2.32, 2.39], 'cal/(mol*K)'),
+        H298=(-4.70, 'kcal/mol'),
+        S298=(-10.33, 'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Came from CH-CH vdW-bonded on Pt(111)""",
+    longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.200 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.20021 eV, gamma_C(X) = 0.000.
+            The two lowest frequencies, 8.5 and 8.7 cm-1, where replaced by the 2D gas model.
+
+  RC#CR
+    :
+***********
+"""
+)
+
+entry(
+    index = 86,
+    label = "C-*R2N=*",
+    group =
+"""
+1 X  u0 p0 c0 {2,S} {3,S}
+2 X  u0 p0 c0 {1,S} {4,D}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4 N  u0 p1 c0 {2,D} {3,S}
+5 R  u0 p0 c0 {3,S}
+6 R  u0 p0 c0 {3,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([1.24, 2.62, 3.42, 3.88, 4.29, 4.45, 4.62], 'cal/(mol*K)'),
+        H298=(-40.44, 'kcal/mol'),
+        S298=(-47.12, 'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Came from H2CN-h bidentate, single- and double-bonded on Pt(111)""",
+    longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -1.710 eV.
+            Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_N2 = 0.525 eV, psi = -0.37462 eV, gamma_C1(X) = 0.250, gamma_N2(X) = 0.667.
+
+ R2C--N
+   |  ||
+***********
+"""
+)
+
+entry(
+    index = 87,
+    label = "C-*R2N-*R",
+    group =
+"""
+1 X  u0 p0 c0 {2,S} {3,S}
+2 X  u0 p0 c0 {1,S} {4,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4 N  u0 p1 c0 {2,S} {3,S} {7,S}
+5 R  u0 p0 c0 {3,S}
+6 R  u0 p0 c0 {3,S}
+7 R  u0 p0 c0 {4,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([1.73, 3.68, 4.62, 5.04, 5.26, 5.25, 5.10], 'cal/(mol*K)'),
+        H298=(-10.85, 'kcal/mol'),
+        S298=(-47.43, 'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Came from H2CNH-h bidentate, twice single-bonded on Pt(111)""",
+    longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.756 eV.
+            Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_N2 = 0.525 eV, psi = 0.75753 eV, gamma_C1(X) = 0.250, gamma_N2(X) = 0.333.
+
+ R2C--NR
+   |  |
+***********
+"""
+)
+
+
 tree(
 """
 L1: R*
@@ -2204,6 +2321,8 @@ L1: R*
             L4: C-*R2C=*R
             L4: C-*RC=*
         L3: C*N*
+            L4: C-*R2N=*
+            L4: C-*R2N-*R
             L4: C=*N-*
             L4: C=*RN=*
             L4: C=*RN-*R
@@ -2212,6 +2331,7 @@ L1: R*
         L3: N*N*
             L4: N-*N-*
             L4: N-*RN-*R
+            L4: N-*RN=*
         L3: N*O*
             L4: N=*O-*
         L3: O*O*
@@ -2264,6 +2384,7 @@ L1: R*
             L4: (CR2O)*
         L3: (CR2)*
             L4: (CRN)*
+            L4: (CRCR)*
         L3: (NR3)*
             L4: (NR2CR3)*
             L4: (NR2NR2)*
