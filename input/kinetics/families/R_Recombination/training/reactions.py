@@ -726,44 +726,32 @@ Calculated with N2 as third body. Data for He, CH4, and Ar as third body collide
 
 entry(
     index = 28,
-    label = "CH3NHNH2 <=> NH2 + CH3NH",
+    label = "NH2 + CH3NH <=> CH3NHNH2",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (4.55e+23, 's^-1'),
-        n = -2.147,
-        Ea = (64703, 'cal/mol'),
-        T0 = (1, 'K'),
-        Tmin = (400, 'K'),
-        Tmax = (2500, 'K'),
-    ),
+    kinetics = Arrhenius(A=(5.02e+14, 'cm^3/(mol*s)'), n=-0.429, Ea=(40, 'cal/mol'),
+        T0=(1, 'K'), Tmin=(400, 'K'), Tmax=(2500, 'K')),
     rank = 4,
     shortDesc = u"""QRRK""",
     longDesc = 
 u"""
 P. Zhang, S.J. Klippenstein, H. Sun, C.K. Law, Proc. Comb. Inst., 2011, 33(1), 425-432, doi: 10.1016/j.proci.2010.05.010
-R1
+(-R1)
 Calculated at the QCISD(T)/CBS//B3LYP/6-311++G(d,p) level
 """,
 )
 
 entry(
     index = 29,
-    label = "CH3NHNH2 <=> CH3 + NHNH2",
+    label = "CH3 + NHNH2 <=> CH3NHNH2",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (5.65e+19, 's^-1'),
-        n = -1.12,
-        Ea = (65677, 'cal/mol'),
-        T0 = (1, 'K'),
-        Tmin = (400, 'K'),
-        Tmax = (2500, 'K'),
-    ),
+    kinetics = Arrhenius(A=(2.40e+12, 'cm^3/(mol*s)'), n=0.085, Ea=(803, 'cal/mol'),
+        T0=(1, 'K'), Tmin=(400, 'K'), Tmax=(2500, 'K')),
     rank = 4,
     shortDesc = u"""QRRK""",
     longDesc = 
 u"""
 P. Zhang, S.J. Klippenstein, H. Sun, C.K. Law, Proc. Comb. Inst., 2011, 33(1), 425-432, doi: 10.1016/j.proci.2010.05.010
-R2
+(-R2)
 Calculated at the QCISD(T)/CBS//B3LYP/6-311++G(d,p) level
 """,
 )
@@ -3942,4 +3930,3 @@ VRC-TST, the CCSD(T)/CBS limit for the quartet state interaction energy is obtai
 E = E(CCSD(T)−F12/VDZ−F12) + E(MP2−F12/VTZ−F12) − E(MP2−F12/VDZ−F12)
 """,
 )
-
