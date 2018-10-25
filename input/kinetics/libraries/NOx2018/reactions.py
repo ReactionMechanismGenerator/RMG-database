@@ -11205,6 +11205,7 @@ entry(
     index = 725,
     label = "N2H3 + NH2 <=> N2H2 + NH3",
     degeneracy = 1,
+    allow_pdep_route = True,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
         n = 1.94,
