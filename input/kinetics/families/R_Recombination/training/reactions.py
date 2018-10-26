@@ -3835,3 +3835,107 @@ Converted to training reaction from rate rule: H_rad;SsJ-H
 """,
 )
 
+entry(
+    index = 141,
+    label = "C6H5 + C6H5 <=> C12H10",
+    degeneracy = 0.5,
+    kinetics = Arrhenius(
+        A = (1.55e+14, 'cm^3/(mol*s)'),
+        n = -0.446,
+        Ea = (-0.55, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Tranter, R. S.', 'Klippenstein, S. J.', 'Harding, L. B.', 'Giri, B. R.', 'Yang, X.', 'Kiefer, J. H.'],
+        title = 'Experimental and Theoretical Investigation of the Self-Reaction of Phenyl Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (32)',
+        pages = '8240-8261',
+        year = '2010',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+u"""
+CASPT2(2e,2o)/cc-pvdz (VRC-TST)
+""",
+)
+
+entry(
+    index = 142,
+    label = "H + C12H9 <=> C12H10-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.27e+13, 'cm^3/(mol*s)'),
+        n = 0.338,
+        Ea = (-0.158, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Tranter, R. S.', 'Klippenstein, S. J.', 'Harding, L. B.', 'Giri, B. R.', 'Yang, X.', 'Kiefer, J. H.'],
+        title = 'Experimental and Theoretical Investigation of the Self-Reaction of Phenyl Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (32)',
+        pages = '8240-8261',
+        year = '2010',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+u"""
+CASPT2(2e,2o)/cc-pvdz (VRC-TST)
+""",
+)
+
+entry(
+    index = 143,
+    label = "H + C12H9-2 <=> C12H10-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.25e+13, 'cm^3/(mol*s)'),
+        n = 0.284,
+        Ea = (-0.155, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Tranter, R. S.', 'Klippenstein, S. J.', 'Harding, L. B.', 'Giri, B. R.', 'Yang, X.', 'Kiefer, J. H.'],
+        title = 'Experimental and Theoretical Investigation of the Self-Reaction of Phenyl Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (32)',
+        pages = '8240-8261',
+        year = '2010',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+u"""
+CASPT2(2e,2o)/cc-pvdz (VRC-TST)
+""",
+)
+
+entry(
+    index = 144,
+    label = "H + C12H9-3 <=> C12H10-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.78e+13, 'cm^3/(mol*s)'),
+        n = 0.185,
+        Ea = (0.015, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Tranter, R. S.', 'Klippenstein, S. J.', 'Harding, L. B.', 'Giri, B. R.', 'Yang, X.', 'Kiefer, J. H.'],
+        title = 'Experimental and Theoretical Investigation of the Self-Reaction of Phenyl Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (32)',
+        pages = '8240-8261',
+        year = '2010',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+u"""
+CASPT2(2e,2o)/cc-pvdz (VRC-TST)
+""",
+)
+

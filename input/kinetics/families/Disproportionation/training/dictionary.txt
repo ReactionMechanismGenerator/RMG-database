@@ -913,3 +913,57 @@ CHNO
 3 *2 C u0 p0 c0 {2,T} {4,S}
 4    H u0 p0 c0 {3,S}
 
+C6H5
+multiplicity 2
+1     C u0 p0 c0 {2,D} {3,S} {8,S}
+2     C u0 p0 c0 {1,D} {4,S} {7,S}
+3     C u0 p0 c0 {1,S} {5,D} {9,S}
+4  *2 C u0 p0 c0 {2,S} {6,D} {10,S}
+5     C u0 p0 c0 {3,D} {6,S} {11,S}
+6  *3 C u1 p0 c0 {4,D} {5,S}
+7     H u0 p0 c0 {2,S}
+8     H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {3,S}
+10 *4 H u0 p0 c0 {4,S}
+11    H u0 p0 c0 {5,S}
+
+C6H5-2
+multiplicity 2
+1     C u0 p0 c0 {2,B} {3,B} {8,S}
+2     C u0 p0 c0 {1,B} {4,B} {7,S}
+3     C u0 p0 c0 {1,B} {5,B} {9,S}
+4     C u0 p0 c0 {2,B} {6,B} {10,S}
+5     C u0 p0 c0 {3,B} {6,B} {11,S}
+6  *1 C u1 p0 c0 {4,B} {5,B}
+7     H u0 p0 c0 {2,S}
+8     H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {3,S}
+10    H u0 p0 c0 {4,S}
+11    H u0 p0 c0 {5,S}
+
+C6H6
+1     C u0 p0 c0 {2,B} {3,B} {7,S}
+2     C u0 p0 c0 {1,B} {4,B} {8,S}
+3  *1 C u0 p0 c0 {1,B} {5,B} {9,S}
+4     C u0 p0 c0 {2,B} {6,B} {10,S}
+5     C u0 p0 c0 {3,B} {6,B} {11,S}
+6     C u0 p0 c0 {4,B} {5,B} {12,S}
+7     H u0 p0 c0 {1,S}
+8     H u0 p0 c0 {2,S}
+9  *4 H u0 p0 c0 {3,S}
+10    H u0 p0 c0 {4,S}
+11    H u0 p0 c0 {5,S}
+12    H u0 p0 c0 {6,S}
+
+C6H4
+1     C u0 p0 c0 {2,S} {3,D} {7,S}
+2     C u0 p0 c0 {1,S} {4,D} {8,S}
+3     C u0 p0 c0 {1,D} {5,S} {9,S}
+4     C u0 p0 c0 {2,D} {6,S} {10,S}
+5  *2 C u0 p0 c0 {3,S} {6,T}
+6  *3 C u0 p0 c0 {4,S} {5,T}
+7     H u0 p0 c0 {1,S}
+8     H u0 p0 c0 {2,S}
+9     H u0 p0 c0 {3,S}
+10    H u0 p0 c0 {4,S}
+
