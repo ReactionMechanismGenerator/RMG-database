@@ -635,6 +635,62 @@ forbidden(
 )
 
 forbidden(
+    label = "benzyne_aryne_1",
+    group = 
+"""
+1 *1 C u0 {2,S} {3,D}
+2    C u0 {1,S} {4,D}
+3 *2 C u0 {1,D} {5,S}
+4    C u0 {2,D} {6,S}
+5    C u0 {3,S} {6,T}
+6    C u0 {4,S} {5,T}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid double bonds in aryne form of benzyne
+Only allow the triple bond to participate
+""",
+)
+
+forbidden(
+    label = "benzyne_aryne_2",
+    group = 
+"""
+1 *2 C u0 {2,S} {3,D}
+2    C u0 {1,S} {4,D}
+3 *1 C u0 {1,D} {5,S}
+4    C u0 {2,D} {6,S}
+5    C u0 {3,S} {6,T}
+6    C u0 {4,S} {5,T}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid double bonds in aryne form of benzyne
+Only allow the triple bond to participate
+""",
+)
+
+forbidden(
+    label = "benzyne_cumulene",
+    group = 
+"""
+1 C u0 {2,D} {3,S}
+2 C u0 {1,D} {4,S}
+3 C u0 {1,S} {5,D}
+4 C u0 {2,S} {6,D}
+5 C u0 {3,D} {6,D}
+6 C u0 {4,D} {5,D}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Completely forbid cumulene form of benzyne
+""",
+)
+
+forbidden(
     label = "threeMemberedRing_2342",
     group = 
 """
@@ -663,6 +719,50 @@ forbidden(
     longDesc = 
 """
 
+""",
+)
+
+forbidden(
+    label = "two_ring_pah_1",
+    group = 
+"""
+1  *4 C u0 {2,[S,B]} {3,[D,B]} {6,[S,B]}
+2     C u0 {1,[S,B]} {4,[D,B]} {5,[S,B]}
+3  *3 C u0 {1,[D,B]} {7,[S,B]}
+4     C u0 {2,[D,B]} {8,[S,B]}
+5     C u0 {2,[S,B]} {9,[D,B]}
+6  *5 C u0 {1,[S,B]} {10,[D,B]}
+7     C u0 {3,[S,B]} {8,[D,B]}
+8     C u0 {4,[S,B]} {7,[D,B]}
+9     C u0 {5,[D,B]} {10,[S,B]}
+10 *6 C u0 {6,[D,B]} {9,[S,B]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid addition across double bonds located on adjacent aromatic rings
+""",
+)
+
+forbidden(
+    label = "two_ring_pah_2",
+    group = 
+"""
+1  *5 C u0 {2,[S,B]} {3,[D,B]} {6,[S,B]}
+2     C u0 {1,[S,B]} {4,[D,B]} {5,[S,B]}
+3  *6 C u0 {1,[D,B]} {7,[S,B]}
+4     C u0 {2,[D,B]} {8,[S,B]}
+5     C u0 {2,[S,B]} {9,[D,B]}
+6  *4 C u0 {1,[S,B]} {10,[D,B]}
+7     C u0 {3,[S,B]} {8,[D,B]}
+8     C u0 {4,[S,B]} {7,[D,B]}
+9     C u0 {5,[D,B]} {10,[S,B]}
+10 *3 C u0 {6,[D,B]} {9,[S,B]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid addition across double bonds located on adjacent aromatic rings
 """,
 )
 
