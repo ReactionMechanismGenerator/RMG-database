@@ -1400,8 +1400,8 @@ entry(
     label = "XH_Rrad",
     group = 
 """
-1 *2 R!H u0 {2,[S,D]} {3,S}
-2 *3 R!H u1 {1,[S,D]}
+1 *2 R!H u0 {2,[S,D,B]} {3,S}
+2 *3 R!H u1 {1,[S,D,B]}
 3 *4 H   u0 {1,S}
 """,
     kinetics = None,
@@ -2766,6 +2766,30 @@ entry(
 
 entry(
     index = 221,
+    label = "XH_b_Rrad",
+    group =
+"""
+1 *2 R!H u0 {2,B} {3,S}
+2 *3 R!H u1 {1,B}
+3 *4 H   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 222,
+    label = "CH_b_Crad",
+    group =
+"""
+1 *2 C u0 {2,B} {3,S}
+2 *3 C u1 {1,B}
+3 *4 H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 221,
     label = "XH_Rbirad",
     group = 
 """
@@ -3137,6 +3161,8 @@ L1: XH_Rrad_birad
                     L6: N3d/H_d_Crad
                     L6: N3d/H_d_Nrad
                 L5: N5dc/H_d_Rrad
+        L3: XH_b_Rrad
+            L4: CH_b_Crad
     L2: XH_Rbirad
         L3: XH_s_Rbirad
             L4: CH_s_Rbirad
