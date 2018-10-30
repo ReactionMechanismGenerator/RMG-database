@@ -12,7 +12,7 @@ doi: 10.1016/j.proci.2012.05.083
 legend:
 Leeds: Leeds University Sulphur Mechanism, version 5.2
 Burcat: A. Burcat, B. Ruscic, Ideal Gas Thermochemical Database with Updates from Active Thermochemical Tables
-Sendt: K. Sendt, B.S. Haynes, J. Phys. Chem. A 109 (2005) 8180–8186; K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439–2446
+Sendt: K. Sendt, B.S. Haynes, J. Phys. Chem. A 109 (2005) 8180-8186; K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446
 G3: C. Zhou, Kinetic Study of The Oxidation of Hydrogen Sulfide, Ph.D. thesis, The University of Sydney, 2009
 """
 
@@ -55,7 +55,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
-H298 is taken from R.C. Shiell, X.K. Hu, Q.J. Hu, J.W. Hepburn, J. Phys. Chem. A 104 (2000) 4339–4342
+H298 is taken from R.C. Shiell, X.K. Hu, Q.J. Hu, J.W. Hepburn, J. Phys. Chem. A 104 (2000) 4339-4342
 """,
 )
 
@@ -225,7 +225,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
-H298 from C. Zhou, K. Sendt, B.S. Haynes, J. Phys. Chem. A 113 (2009) 2975–2981
+H298 from C. Zhou, K. Sendt, B.S. Haynes, J. Phys. Chem. A 113 (2009) 2975-2981
 """,
 )
 
@@ -428,7 +428,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
-H298 taken from P.A. Denis, Chem. Phys. Lett. 402 (2005)289–293
+H298 taken from P.A. Denis, Chem. Phys. Lett. 402 (2005)289-293
 """,
 )
 
@@ -453,7 +453,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
-H298 taken from P.A. Denis, Chem. Phys. Lett. 402 (2005)289–293
+H298 taken from P.A. Denis, Chem. Phys. Lett. 402 (2005)289-293
 """,
 )
 

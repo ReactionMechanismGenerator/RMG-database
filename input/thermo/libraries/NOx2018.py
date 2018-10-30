@@ -14,13 +14,13 @@ https://doi.org/10.1016/j.pecs.2018.01.002
  Hydrocarbon subset:
 
 H. Hashemi, J.M. Christensen, S. Gersen, H. Levinsky, S.J. Klippenstein, P. Glarborg, 
-“High-Pressure Oxidation of Methane”, Combust. Flame 172 (2016) 349-364.
+"High-Pressure Oxidation of Methane", Combust. Flame 172 (2016) 349-364.
 
 J. Gimenez-Lopez, C.T. Rasmussen, H. Hashemi, M.U. Alzueta, Y. Gao, P. Marshall, C.F. Goldsmith, P. Glarborg, 
-“Experimental and Kinetic Modeling Study of C2H2 Oxidation at High Pressure, Int. J. Chem. Kinet. 48 (2016) 724-738.
+"Experimental and Kinetic Modeling Study of C2H2 Oxidation at High Pressure", Int. J. Chem. Kinet. 48 (2016) 724-738.
 
 H. Hashemi, J.G. Jacobsen, C.T. Rasmussen, J.M. Christensen, P. Glarborg, S. Gersen, M. van Essen, H.B. Levinsky, S.J. Klippenstein, 
-“High-Pressure Oxidation of Ethane”, Combust. Flame 182 (2017) 150-166.
+"High-Pressure Oxidation of Ethane", Combust. Flame 182 (2017) 150-166.
  
  Nitrogen subset
 

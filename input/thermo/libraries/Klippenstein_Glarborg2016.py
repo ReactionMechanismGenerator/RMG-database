@@ -7,10 +7,10 @@ longDesc = u"""
 Methane oxidation at high pressures and intermediate temperatures
 
 Validated against:
-- flow-reactor at 700–900 K and 100 bar for fuel-air equivalence ratios 0.06 - 19.7, all highly diluted in nitrogen
-- RCM at pressures of 15–80 bar and temperatures of 800–1250 K under stoichiometric and fuel-lean (0.5) conditions
-- shock tube (1100–1700 K, 7–456 bar)
-- flame speeds (1–10 bar)
+- flow-reactor at 700-900 K and 100 bar for fuel-air equivalence ratios 0.06 - 19.7, all highly diluted in nitrogen
+- RCM at pressures of 15-80 bar and temperatures of 800-1250 K under stoichiometric and fuel-lean (0.5) conditions
+- shock tube (1100-1700 K, 7-456 bar)
+- flame speeds (1-10 bar)
 
 High-pressure oxydation of methane
 Hamid Hashemi, Jakob M. Christensen, Sander Gersen, Howard Levinsky, Stephen J. Klippenstein, Peter Glarborg

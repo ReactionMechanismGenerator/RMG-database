@@ -551,7 +551,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc =
     u"""
-    A. Goumri, D. Laakso, J‐D R. Rocha, C.E. Smith, P. Marshall
+    A. Goumri, D. Laakso, J-D R. Rocha, C.E. Smith, P. Marshall
     The Journal of Chemical Physics 102, 161 (1995)
     doi: 10.1063/1.469387
     Table V.
@@ -579,7 +579,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc =
     u"""
-    A. Goumri, D. Laakso, J‐D R. Rocha, C.E. Smith, P. Marshall
+    A. Goumri, D. Laakso, J-D R. Rocha, C.E. Smith, P. Marshall
     The Journal of Chemical Physics 102, 161 (1995)
     doi: 10.1063/1.469387
     Table VI.
@@ -691,7 +691,7 @@ entry(
     shortDesc = u"""""",
     longDesc =
     u"""
-    H.M. Chiang, J.W. Bozzelli, Quantum Rice–Ramsberger–Kassel (QRRK) Analysis on Reaction of HSO + O, H + SO2, and OH + SO; HO2 and HOSO Formation and Dissociation
+    H.M. Chiang, J.W. Bozzelli, Quantum Rice-Ramsberger-Kassel (QRRK) Analysis on Reaction of HSO + O, H + SO2, and OH + SO; HO2 and HOSO Formation and Dissociation
     As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
     H298 is taken from Table 7 in P.A. Denis, J. Sulfur Chem. 2008, 29(3-4), 327-352, doi: 10.1080/17415990802047352
     """,
@@ -717,7 +717,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc =
     u"""
-    H.M. Chiang, J.W. Bozzelli, Quantum Rice–Ramsberger–Kassel (QRRK) Analysis on Reaction of HSO + O, H + SO2, and OH + SO; HO2 and HOSO Formation and Dissociation
+    H.M. Chiang, J.W. Bozzelli, Quantum Rice-Ramsberger-Kassel (QRRK) Analysis on Reaction of HSO + O, H + SO2, and OH + SO; HO2 and HOSO Formation and Dissociation
     As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
     Also available from:
     A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall, J. Phys. Chem. A, 1999, 103, 11328-11335, doi: 10.1021/jp9924070; Table 3; MP2=FULL/6-31G(d)
@@ -744,7 +744,7 @@ entry(
     shortDesc = u"""""",
     longDesc =
     u"""
-    H.M. Chiang, J.W. Bozzelli, Quantum Rice–Ramsberger–Kassel (QRRK) Analysis on Reaction of HSO + O, H + SO2, and OH + SO; HO2 and HOSO Formation and Dissociation
+    H.M. Chiang, J.W. Bozzelli, Quantum Rice-Ramsberger-Kassel (QRRK) Analysis on Reaction of HSO + O, H + SO2, and OH + SO; HO2 and HOSO Formation and Dissociation
     As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
     """,
 )
@@ -770,7 +770,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc =
     u"""
-    H.M. Chiang, J.W. Bozzelli, Quantum Rice–Ramsberger–Kassel (QRRK) Analysis on Reaction of HSO + O, H + SO2, and OH + SO; HO2 and HOSO Formation and Dissociation
+    H.M. Chiang, J.W. Bozzelli, Quantum Rice-Ramsberger-Kassel (QRRK) Analysis on Reaction of HSO + O, H + SO2, and OH + SO; HO2 and HOSO Formation and Dissociation
     As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
     H298 is calculated at fc-CCSD(T)/cc-pV(T+d)Z and taken from W. Klopper, D.P. Tew, N. Gonzalez-Garcia, M. Olzmann, J. Chem. Phys. 2008, 129, 114308, doi: 10.1063/1.2973637
     """,
@@ -860,7 +860,7 @@ multiplicity 2
     A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall
     J. Phys. Chem. A, 1999, 103, 11328-11335, doi: 10.1021/jp9924070
     also available from:
-    H.M. Chiang, J.W. Bozzelli, Quantum Rice–Ramsberger–Kassel (QRRK) Analysis on Reaction of HSO + O, H + SO2, and OH + SO; HO2 and HOSO Formation and Dissociation
+    H.M. Chiang, J.W. Bozzelli, Quantum Rice-Ramsberger-Kassel (QRRK) Analysis on Reaction of HSO + O, H + SO2, and OH + SO; HO2 and HOSO Formation and Dissociation
     As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
     """,
 )

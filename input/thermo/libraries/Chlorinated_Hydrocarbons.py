@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 name = "Chlorinated_Hydrocarbons"
-shortDesc = u"Chlorinated Hydrocarbons used to fit/validate Benson and Bozzelli Cl GAV’s and non-NNI’s."
+shortDesc = u"Chlorinated Hydrocarbons used to fit/validate Benson and Bozzelli Cl GAV's and non-NNI's."
 longDesc = u"""
 Experimental values curated in the following references:
 
