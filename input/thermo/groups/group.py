@@ -47555,7 +47555,7 @@ entry(
 4   H u0 {1,S}
 5   H u0 {1,S}
 """,
-    thermo = u'Cs-(O2s-O2s)ClHH'
+    thermo = u'Cs-(O2s-O2s)ClHH',
     shortDesc = u"""""",
     longDesc =
 u"""
