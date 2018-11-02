@@ -3067,17 +3067,16 @@ entry(
     label = "o-C6H4",
     molecule = 
 """
-multiplicity 3
-1  C u0 p0 c0 {2,B} {3,B} {8,S}
-2  C u0 p0 c0 {1,B} {4,B} {7,S}
-3  C u0 p0 c0 {1,B} {5,B} {10,S}
-4  C u0 p0 c0 {2,B} {6,B} {9,S}
-5  C u1 p0 c0 {3,B} {6,B}
-6  C u1 p0 c0 {4,B} {5,B}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {2,S} {3,D} {7,S}
+2  C u0 p0 c0 {1,S} {4,D} {8,S}
+3  C u0 p0 c0 {1,D} {5,S} {9,S}
+4  C u0 p0 c0 {2,D} {6,S} {10,S}
+5  C u0 p0 c0 {3,S} {6,T}
+6  C u0 p0 c0 {4,S} {5,T}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
