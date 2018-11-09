@@ -2976,21 +2976,21 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {3,D} {5,S} {6,S}
-2  C u0 p0 c0 {3,S} {4,D} {7,S}
-3  C u0 p0 c0 {1,D} {2,S} {9,S}
-4  C u0 p0 c0 {2,D} {8,S} {10,S}
-5  C u0 p0 c0 {1,S} {8,D} {11,S}
-6  N u0 p0 c+1 {1,S} {12,D} {13,S}
-7  N u0 p0 c+1 {2,S} {14,D} {15,S}
-8  C u1 p0 c0 {4,S} {5,D}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
-12 O u0 p2 c0 {6,D}
-13 O u0 p3 c-1 {6,S}
-14 O u0 p2 c0 {7,D}
-15 O u0 p3 c-1 {7,S}
+1  O u0 p3 c-1 {5,S}
+2  O u0 p3 c-1 {6,S}
+3  O u0 p2 c0 {5,D}
+4  O u0 p2 c0 {6,D}
+5  N u0 p0 c+1 {1,S} {3,D} {7,S}
+6  N u0 p0 c+1 {2,S} {4,D} {8,S}
+7  C u0 p0 c0 {5,S} {9,B} {11,B}
+8  C u0 p0 c0 {6,S} {9,B} {10,B}
+9  C u0 p0 c0 {7,B} {8,B} {13,S}
+10 C u0 p0 c0 {8,B} {12,B} {14,S}
+11 C u0 p0 c0 {7,B} {12,B} {15,S}
+12 C u1 p0 c0 {10,B} {11,B}
+13 H u0 p0 c0 {9,S}
+14 H u0 p0 c0 {10,S}
+15 H u0 p0 c0 {11,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3019,24 +3019,24 @@ entry(
     label = "TriNitroBenzen",
     molecule = 
 """
-1  C u0 p0 c0 {4,D} {6,S} {7,S}
-2  C u0 p0 c0 {4,S} {5,D} {8,S}
-3  C u0 p0 c0 {5,S} {6,D} {9,S}
-4  C u0 p0 c0 {1,D} {2,S} {10,S}
-5  C u0 p0 c0 {2,D} {3,S} {11,S}
-6  C u0 p0 c0 {1,S} {3,D} {12,S}
-7  N u0 p0 c+1 {1,S} {13,D} {14,S}
-8  N u0 p0 c+1 {2,S} {15,D} {16,S}
-9  N u0 p0 c+1 {3,S} {17,D} {18,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
-12 H u0 p0 c0 {6,S}
-13 O u0 p2 c0 {7,D}
-14 O u0 p3 c-1 {7,S}
-15 O u0 p2 c0 {8,D}
-16 O u0 p3 c-1 {8,S}
-17 O u0 p2 c0 {9,D}
-18 O u0 p3 c-1 {9,S}
+1  O u0 p3 c-1 {7,S}
+2  O u0 p3 c-1 {8,S}
+3  O u0 p3 c-1 {9,S}
+4  O u0 p2 c0 {7,D}
+5  O u0 p2 c0 {8,D}
+6  O u0 p2 c0 {9,D}
+7  N u0 p0 c+1 {1,S} {4,D} {10,S}
+8  N u0 p0 c+1 {2,S} {5,D} {11,S}
+9  N u0 p0 c+1 {3,S} {6,D} {12,S}
+10 C u0 p0 c0 {7,S} {13,B} {15,B}
+11 C u0 p0 c0 {8,S} {13,B} {14,B}
+12 C u0 p0 c0 {9,S} {14,B} {15,B}
+13 C u0 p0 c0 {10,B} {11,B} {16,S}
+14 C u0 p0 c0 {11,B} {12,B} {17,S}
+15 C u0 p0 c0 {10,B} {12,B} {18,S}
+16 H u0 p0 c0 {13,S}
+17 H u0 p0 c0 {14,S}
+18 H u0 p0 c0 {15,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3065,25 +3065,25 @@ entry(
     label = "C6H3N3O7",
     molecule = 
 """
-1  C u0 p0 c0 {4,S} {5,D} {7,S}
-2  C u0 p0 c0 {4,D} {6,S} {8,S}
-3  C u0 p0 c0 {5,S} {6,D} {9,S}
-4  C u0 p0 c0 {1,S} {2,D} {10,S}
-5  C u0 p0 c0 {1,D} {3,S} {11,S}
-6  C u0 p0 c0 {2,S} {3,D} {12,S}
-7  N u0 p0 c+1 {1,S} {13,D} {14,S}
-8  N u0 p0 c+1 {2,S} {15,S} {16,D}
-9  N u0 p0 c+1 {3,S} {17,S} {18,D}
-10 O u0 p2 c0 {4,S} {19,S}
-11 H u0 p0 c0 {5,S}
-12 H u0 p0 c0 {6,S}
-13 O u0 p2 c0 {7,D}
-14 O u0 p3 c-1 {7,S}
-15 O u0 p3 c-1 {8,S}
-16 O u0 p2 c0 {8,D}
-17 O u0 p3 c-1 {9,S}
-18 O u0 p2 c0 {9,D}
-19 H u0 p0 c0 {10,S}
+1  O u0 p2 c0 {14,S} {19,S}
+2  O u0 p3 c-1 {8,S}
+3  O u0 p3 c-1 {9,S}
+4  O u0 p3 c-1 {10,S}
+5  O u0 p2 c0 {8,D}
+6  O u0 p2 c0 {9,D}
+7  O u0 p2 c0 {10,D}
+8  N u0 p0 c+1 {2,S} {5,D} {11,S}
+9  N u0 p0 c+1 {3,S} {6,D} {12,S}
+10 N u0 p0 c+1 {4,S} {7,D} {13,S}
+11 C u0 p0 c0 {8,S} {14,B} {15,B}
+12 C u0 p0 c0 {9,S} {14,B} {16,B}
+13 C u0 p0 c0 {10,S} {15,B} {16,B}
+14 C u0 p0 c0 {1,S} {11,B} {12,B}
+15 C u0 p0 c0 {11,B} {13,B} {17,S}
+16 C u0 p0 c0 {12,B} {13,B} {18,S}
+17 H u0 p0 c0 {15,S}
+18 H u0 p0 c0 {16,S}
+19 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
