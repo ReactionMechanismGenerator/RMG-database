@@ -11,9 +11,8 @@ Y. Song, H. Hashemi, J.M. Christensen, C. Zou, B.S. Haynes, P. Marshall, P. Glar
 International Journal of Chemical Kinetics 49(1), 2017, 37-52
 DOI: 10.1002/kin.21055
 """
-
 entry(
-    index = 1,
+    index = 0,
     label = "SO",
     molecule = 
 """
@@ -39,7 +38,7 @@ GBR 1509
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "SO2",
     molecule = 
 """
@@ -65,7 +64,7 @@ GBR1509
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "S",
     molecule = 
 """
@@ -90,7 +89,7 @@ GBR 1509
 )
 
 entry(
-    index = 5,
+    index = 3,
     label = "O3",
     molecule = 
 """
@@ -114,7 +113,7 @@ u"""
 )
 
 entry(
-    index = 6,
+    index = 4,
     label = "SO(S)",
     molecule = 
 """
@@ -138,7 +137,7 @@ Zhou: G3
 )
 
 entry(
-    index = 7,
+    index = 5,
     label = "HSO",
     molecule = 
 """
@@ -165,7 +164,7 @@ GBR 1509
 )
 
 entry(
-    index = 8,
+    index = 6,
     label = "HOS",
     molecule = 
 """
@@ -192,7 +191,7 @@ GBR 1509
 )
 
 entry(
-    index = 9,
+    index = 7,
     label = "HSOH",
     molecule = 
 """
@@ -219,7 +218,7 @@ Zhou - Leeds University
 )
 
 entry(
-    index = 10,
+    index = 8,
     label = "HOSO",
     molecule = 
 """
@@ -231,7 +230,7 @@ multiplicity 2
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.87,13.43,14.56,15.37,16.40,17.06,18.09],'cal/(mol*K)'),
+        Cpdata = ([11.87,13.43,14.56,15.37,16.4,17.06,18.09],'cal/(mol*K)'),
         H298 = (-57.71,'kcal/mol'),
         S298 = (67.48,'cal/(mol*K)'),
     ),
@@ -245,7 +244,7 @@ DAG/GLA03 GOU/MAr99
 )
 
 entry(
-    index = 11,
+    index = 9,
     label = "HSO2",
     molecule = 
 """
@@ -258,7 +257,7 @@ multiplicity 2
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([11.94,13.68,14.99,15.98,17.28,18.05,18.98],'cal/(mol*K)'),
-        H298 = (-33.80,'kcal/mol'),
+        H298 = (-33.8,'kcal/mol'),
         S298 = (63.01,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -271,7 +270,7 @@ Zhou - Leeds University
 )
 
 entry(
-    index = 12,
+    index = 10,
     label = "H2SO",
     molecule = 
 """
@@ -295,19 +294,19 @@ ALZ/GLA01   BOZ/R
 )
 
 entry(
-    index = 13,
+    index = 11,
     label = "HOSHO",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {4,S}
-2 S u0 p1 c0 {1,S} {3,D} {5,S}
-3 O u0 p2 c0 {2,D}
+1 S u0 p1 c0 {2,S} {3,D} {4,S}
+2 O u0 p2 c0 {1,S} {5,S}
+3 O u0 p2 c0 {1,D}
 4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.57,15.86,17.64,19.00,20.84,21.95,23.54],'cal/(mol*K)'),
+        Cpdata = ([13.57,15.86,17.64,19,20.84,21.95,23.54],'cal/(mol*K)'),
         H298 = (-64.51,'kcal/mol'),
         S298 = (64.49,'cal/(mol*K)'),
     ),
@@ -320,7 +319,7 @@ ALZ/GLA01   BOZ/R
 )
 
 entry(
-    index = 14,
+    index = 12,
     label = "HOSO2",
     molecule = 
 """
@@ -346,7 +345,7 @@ Zhou - Leeds University
 )
 
 entry(
-    index = 17,
+    index = 13,
     label = "O",
     molecule = 
 """
@@ -370,10 +369,11 @@ LI/DRY04 (v6.1)
 )
 
 entry(
-    index = 22,
+    index = 14,
     label = "S2",
     molecule = 
 """
+multiplicity 3
 1 S u1 p2 c0 {2,S}
 2 S u1 p2 c0 {1,S}
 """,
@@ -395,7 +395,7 @@ Zhou - Burcat
 )
 
 entry(
-    index = 23,
+    index = 15,
     label = "SH",
     molecule = 
 """
@@ -420,7 +420,7 @@ Zhou: R.C. Shiell, X.K. Hu, Q.J. Hu, J.W. Hepburn, J. Phys. Chem. A 104 (2000) 4
 )
 
 entry(
-    index = 24,
+    index = 16,
     label = "H2S",
     molecule = 
 """
@@ -446,7 +446,7 @@ GBR 1509
 )
 
 entry(
-    index = 25,
+    index = 17,
     label = "HSS",
     molecule = 
 """
@@ -457,7 +457,7 @@ multiplicity 2
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.62,10.30,10.80,11.19,11.80,12.26,12.98],'cal/(mol*K)'),
+        Cpdata = ([9.62,10.3,10.8,11.19,11.8,12.26,12.98],'cal/(mol*K)'),
         H298 = (25.84,'kcal/mol'),
         S298 = (60.95,'cal/(mol*K)'),
     ),
@@ -471,7 +471,7 @@ K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
 )
 
 entry(
-    index = 26,
+    index = 18,
     label = "HSSH",
     molecule = 
 """
@@ -482,8 +482,8 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.63,12.90,13.84,14.57,15.73,16.62,18.02],'cal/(mol*K)'),
-        H298 = (3.70,'kcal/mol'),
+        Cpdata = ([11.63,12.9,13.84,14.57,15.73,16.62,18.02],'cal/(mol*K)'),
+        H298 = (3.7,'kcal/mol'),
         S298 = (61.62,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -496,7 +496,7 @@ K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
 )
 
 entry(
-    index = 27,
+    index = 19,
     label = "SO3",
     molecule = 
 """
@@ -523,7 +523,7 @@ GBR 1509
 )
 
 entry(
-    index = 28,
+    index = 20,
     label = "S2O",
     molecule = 
 """
@@ -549,7 +549,7 @@ K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
 )
 
 entry(
-    index = 29,
+    index = 21,
     label = "HSSO",
     molecule = 
 """
@@ -561,7 +561,7 @@ multiplicity 2
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.93,15.20,16.04,16.63,17.45,18.02,18.85],'cal/(mol*K)'),
+        Cpdata = ([13.93,15.2,16.04,16.63,17.45,18.02,18.85],'cal/(mol*K)'),
         H298 = (-7.89,'kcal/mol'),
         S298 = (68.61,'cal/(mol*K)'),
     ),
@@ -575,7 +575,7 @@ Rassolov, J.A. Pople, J. Chem. Phys. 109 (1998) 7764-7776
 )
 
 entry(
-    index = 30,
+    index = 22,
     label = "VDW1",
     molecule = 
 """
@@ -605,7 +605,7 @@ K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
 )
 
 entry(
-    index = 31,
+    index = 23,
     label = "HSSO2",
     molecule = 
 """
@@ -619,7 +619,7 @@ multiplicity 2
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([16.99,18.76,20.07,21.04,22.39,23.27,24.46],'cal/(mol*K)'),
-        H298 = (-40.90,'kcal/mol'),
+        H298 = (-40.9,'kcal/mol'),
         S298 = (73.62,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -632,7 +632,7 @@ Rassolov, J.A. Pople, J. Chem. Phys. 109 (1998) 7764-7776
 )
 
 entry(
-    index = 32,
+    index = 24,
     label = "SSO2",
     molecule = 
 """
@@ -658,7 +658,7 @@ pw PM 1511
 )
 
 entry(
-    index = 33,
+    index = 25,
     label = "HSOO",
     molecule = 
 """
@@ -685,7 +685,7 @@ Zhou: C. Zhou, K. Sendt, B.S. Haynes, J. Phys. Chem. A 113 (2009) 2975-2981.
 )
 
 entry(
-    index = 34,
+    index = 26,
     label = "S3",
     molecule = 
 """
@@ -711,7 +711,7 @@ Zhou - Burcat
 )
 
 entry(
-    index = 35,
+    index = 27,
     label = "S4",
     molecule = 
 """
@@ -738,7 +738,7 @@ Zhou - Burcat
 )
 
 entry(
-    index = 36,
+    index = 28,
     label = "S5",
     molecule = 
 """
@@ -766,7 +766,7 @@ Zhou - Burcat
 )
 
 entry(
-    index = 37,
+    index = 29,
     label = "S6",
     molecule = 
 """
@@ -795,7 +795,7 @@ Zhou - Burcat
 )
 
 entry(
-    index = 38,
+    index = 30,
     label = "S7",
     molecule = 
 """
@@ -825,7 +825,7 @@ Zhou - Burcat
 )
 
 entry(
-    index = 39,
+    index = 31,
     label = "S8",
     molecule = 
 """
@@ -856,7 +856,7 @@ Zhou - Burcat
 )
 
 entry(
-    index = 40,
+    index = 32,
     label = "OSSO",
     molecule = 
 """
@@ -867,7 +867,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.37,16.56,17.40,17.98,18.70,19.08,19.50],'cal/(mol*K)'),
+        Cpdata = ([15.37,16.56,17.4,17.98,18.7,19.08,19.5],'cal/(mol*K)'),
         H298 = (-28.15,'kcal/mol'),
         S298 = (71.34,'cal/(mol*K)'),
     ),
@@ -881,7 +881,7 @@ Rassolov, J.A. Pople, J. Chem. Phys. 109 (1998) 7764-7776
 )
 
 entry(
-    index = 41,
+    index = 33,
     label = "H2S3O",
     molecule = 
 """
@@ -910,7 +910,7 @@ Zhou - K. Sendt, B.S. Haynes, J. Phys. Chem. A 109 (2005) 8180 to 8186;
 )
 
 entry(
-    index = 42,
+    index = 34,
     label = "HSSSOH",
     molecule = 
 """
@@ -939,7 +939,7 @@ K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
 )
 
 entry(
-    index = 43,
+    index = 35,
     label = "H2S2O2",
     molecule = 
 """
@@ -968,7 +968,7 @@ K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
 )
 
 entry(
-    index = 44,
+    index = 36,
     label = "HOCO",
     molecule = 
 """
@@ -997,19 +997,19 @@ S298= 60.00 cal/mol/K
 )
 
 entry(
-    index = 45,
+    index = 37,
     label = "HOSOH",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {4,S}
-2 S u0 p2 c0 {1,S} {3,S}
-3 O u0 p2 c0 {2,S} {5,S}
-4 H u0 p0 c0 {1,S}
+1 S u0 p2 c0 {2,S} {3,S}
+2 O u0 p2 c0 {1,S} {4,S}
+3 O u0 p2 c0 {1,S} {5,S}
+4 H u0 p0 c0 {2,S}
 5 H u0 p0 c0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.92,15.88,17.33,18.40,19.85,20.85,22.57],'cal/(mol*K)'),
+        Cpdata = ([13.92,15.88,17.33,18.4,19.85,20.85,22.57],'cal/(mol*K)'),
         H298 = (-75.31,'kcal/mol'),
         S298 = (64.94,'cal/(mol*K)'),
     ),
@@ -1021,7 +1021,7 @@ ALZ/GLA01  BOZ/R
 )
 
 entry(
-    index = 46,
+    index = 38,
     label = "H2SO4",
     molecule = 
 """

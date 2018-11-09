@@ -15,7 +15,7 @@ and carried out at The University of California at Berkeley, Stanford
 University, The University of Texas at Austin, and SRI International.
 """
 entry(
-    index = 1,
+    index = 0,
     label = "O",
     molecule = 
 """
@@ -30,7 +30,7 @@ multiplicity 3
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -40,7 +40,7 @@ u"""
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "O2",
     molecule = 
 """
@@ -56,7 +56,7 @@ multiplicity 3
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -66,7 +66,7 @@ u"""
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "H",
     molecule = 
 """
@@ -81,7 +81,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -91,7 +91,7 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "H2",
     molecule = 
 """
@@ -106,7 +106,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -116,7 +116,7 @@ u"""
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "OH",
     molecule = 
 """
@@ -132,7 +132,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -142,7 +142,7 @@ u"""
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "H2O",
     molecule = 
 """
@@ -158,7 +158,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -168,7 +168,7 @@ u"""
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "HO2",
     molecule = 
 """
@@ -185,7 +185,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -195,7 +195,7 @@ u"""
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "H2O2",
     molecule = 
 """
@@ -212,7 +212,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -222,7 +222,7 @@ u"""
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "C(T)",
     molecule = 
 """
@@ -237,7 +237,7 @@ multiplicity 3
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -247,7 +247,7 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "CH",
     molecule = 
 """
@@ -263,7 +263,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -273,7 +273,7 @@ u"""
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "CH2",
     molecule = 
 """
@@ -290,7 +290,7 @@ multiplicity 3
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -300,7 +300,7 @@ u"""
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "CH2(S)",
     molecule = 
 """
@@ -316,7 +316,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -326,7 +326,7 @@ u"""
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "CH3",
     molecule = 
 """
@@ -344,7 +344,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -354,7 +354,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "CH4",
     molecule = 
 """
@@ -372,7 +372,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -382,7 +382,7 @@ u"""
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "CO",
     molecule = 
 """
@@ -397,7 +397,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -407,7 +407,7 @@ u"""
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "CO2",
     molecule = 
 """
@@ -423,7 +423,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -433,7 +433,7 @@ u"""
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "HCO",
     molecule = 
 """
@@ -450,7 +450,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -460,7 +460,7 @@ u"""
 )
 
 entry(
-    index = 18,
+    index = 17,
     label = "CH2O",
     molecule = 
 """
@@ -477,7 +477,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -487,7 +487,7 @@ u"""
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "CH2OH",
     molecule = 
 """
@@ -506,7 +506,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -516,7 +516,7 @@ u"""
 )
 
 entry(
-    index = 20,
+    index = 19,
     label = "CH3O",
     molecule = 
 """
@@ -535,7 +535,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (3000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -549,7 +549,7 @@ to 298K.
 )
 
 entry(
-    index = 21,
+    index = 20,
     label = "CH3OH",
     molecule = 
 """
@@ -568,7 +568,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -578,7 +578,7 @@ u"""
 )
 
 entry(
-    index = 22,
+    index = 21,
     label = "C2H",
     molecule = 
 """
@@ -595,7 +595,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -605,7 +605,7 @@ u"""
 )
 
 entry(
-    index = 23,
+    index = 22,
     label = "C2H2",
     molecule = 
 """
@@ -622,7 +622,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -632,7 +632,7 @@ u"""
 )
 
 entry(
-    index = 24,
+    index = 23,
     label = "C2H3",
     molecule = 
 """
@@ -651,7 +651,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -661,7 +661,7 @@ u"""
 )
 
 entry(
-    index = 25,
+    index = 24,
     label = "C2H4",
     molecule = 
 """
@@ -680,7 +680,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -690,7 +690,7 @@ u"""
 )
 
 entry(
-    index = 26,
+    index = 25,
     label = "C2H5",
     molecule = 
 """
@@ -711,7 +711,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -721,7 +721,7 @@ u"""
 )
 
 entry(
-    index = 27,
+    index = 26,
     label = "C2H6",
     molecule = 
 """
@@ -742,7 +742,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -752,7 +752,7 @@ u"""
 )
 
 entry(
-    index = 28,
+    index = 27,
     label = "CH2CO",
     molecule = 
 """
@@ -770,7 +770,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (3500,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -780,7 +780,7 @@ u"""
 )
 
 entry(
-    index = 29,
+    index = 28,
     label = "HCCO",
     molecule = 
 """
@@ -798,7 +798,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (4000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -812,7 +812,7 @@ to 298K.
 )
 
 entry(
-    index = 30,
+    index = 29,
     label = "HCCOH",
     molecule = 
 """
@@ -830,7 +830,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -844,7 +844,7 @@ to 298K.
 )
 
 entry(
-    index = 31,
+    index = 30,
     label = "H2CN",
     molecule = 
 """
@@ -862,7 +862,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (4000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -876,7 +876,7 @@ to 298K.
 )
 
 entry(
-    index = 32,
+    index = 31,
     label = "HCN",
     molecule = 
 """
@@ -892,7 +892,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -902,7 +902,7 @@ u"""
 )
 
 entry(
-    index = 33,
+    index = 32,
     label = "HNO",
     molecule = 
 """
@@ -918,7 +918,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -928,7 +928,7 @@ u"""
 )
 
 entry(
-    index = 34,
+    index = 33,
     label = "N",
     molecule = 
 """
@@ -943,7 +943,7 @@ multiplicity 4
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -953,7 +953,7 @@ u"""
 )
 
 entry(
-    index = 35,
+    index = 34,
     label = "NNH",
     molecule = 
 """
@@ -970,7 +970,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -980,7 +980,7 @@ u"""
 )
 
 entry(
-    index = 36,
+    index = 35,
     label = "N2O",
     molecule = 
 """
@@ -997,7 +997,7 @@ multiplicity 3
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -1007,7 +1007,7 @@ u"""
 )
 
 entry(
-    index = 37,
+    index = 36,
     label = "NH",
     molecule = 
 """
@@ -1022,7 +1022,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -1032,7 +1032,7 @@ u"""
 )
 
 entry(
-    index = 38,
+    index = 37,
     label = "NH2",
     molecule = 
 """
@@ -1049,7 +1049,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -1059,7 +1059,7 @@ u"""
 )
 
 entry(
-    index = 39,
+    index = 38,
     label = "NH3",
     molecule = 
 """
@@ -1076,7 +1076,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -1086,7 +1086,7 @@ u"""
 )
 
 entry(
-    index = 40,
+    index = 39,
     label = "NO",
     molecule = 
 """
@@ -1102,7 +1102,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -1112,7 +1112,7 @@ u"""
 )
 
 entry(
-    index = 41,
+    index = 40,
     label = "NO2",
     molecule = 
 """
@@ -1129,7 +1129,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -1139,7 +1139,7 @@ u"""
 )
 
 entry(
-    index = 42,
+    index = 41,
     label = "HCNO",
     molecule = 
 """
@@ -1157,7 +1157,7 @@ multiplicity 3
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -1171,7 +1171,7 @@ to 298K.
 )
 
 entry(
-    index = 43,
+    index = 42,
     label = "HOCN",
     molecule = 
 """
@@ -1188,7 +1188,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -1202,7 +1202,7 @@ to 298K.
 )
 
 entry(
-    index = 44,
+    index = 43,
     label = "HNCO",
     molecule = 
 """
@@ -1219,7 +1219,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -1233,7 +1233,7 @@ to 298K.
 )
 
 entry(
-    index = 45,
+    index = 44,
     label = "NCO",
     molecule = 
 """
@@ -1250,7 +1250,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -1260,7 +1260,7 @@ u"""
 )
 
 entry(
-    index = 46,
+    index = 45,
     label = "CN",
     molecule = 
 """
@@ -1276,7 +1276,7 @@ multiplicity 2
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -1286,7 +1286,7 @@ u"""
 )
 
 entry(
-    index = 47,
+    index = 46,
     label = "HCNN",
     molecule = 
 """
@@ -1304,7 +1304,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -1318,7 +1318,7 @@ to 298K.
 )
 
 entry(
-    index = 48,
+    index = 47,
     label = "N2",
     molecule = 
 """
@@ -1333,7 +1333,35 @@ entry(
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
+    referenceType = "review",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
+This prevents it from being used to evaluate the standard properties at 298K as required
+by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range probably
+introduces less error than not using the thermo at all, so the range has been extended
+to 298K.
+""",
+)
+
+entry(
+    index = 48,
+    label = "Ar",
+    molecule = 
+"""
+1 Ar u0 p4 c0
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,4.366], Tmin=(298,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,4.366], Tmin=(1000,'K'), Tmax=(5000,'K')),
+        ],
+        Tmin = (298,'K'),
+        Tmax = (5000,'K'),
+    ),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -1348,34 +1376,6 @@ to 298K.
 
 entry(
     index = 49,
-    label = "Ar",
-    molecule = 
-"""
-1 Ar u0 p4 c0
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,4.366], Tmin=(298,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,4.366], Tmin=(1000,'K'), Tmax=(5000,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (5000,'K'),
-    ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
-    referenceType = "review",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
-This prevents it from being used to evaluate the standard properties at 298K as required
-by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range probably
-introduces less error than not using the thermo at all, so the range has been extended
-to 298K.
-""",
-)
-
-entry(
-    index = 50,
     label = "C3H8",
     molecule = 
 """
@@ -1399,7 +1399,7 @@ entry(
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -1413,7 +1413,7 @@ to 298K.
 )
 
 entry(
-    index = 51,
+    index = 50,
     label = "C3H7",
     molecule = 
 """
@@ -1437,7 +1437,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -1451,7 +1451,7 @@ to 298K.
 )
 
 entry(
-    index = 52,
+    index = 51,
     label = "CH3CHO",
     molecule = 
 """
@@ -1471,7 +1471,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
@@ -1481,7 +1481,7 @@ u"""
 )
 
 entry(
-    index = 53,
+    index = 52,
     label = "CH2CHO",
     molecule = 
 """
@@ -1501,7 +1501,7 @@ multiplicity 2
         Tmin = (298,'K'),
         Tmax = (5000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
     longDesc = 
