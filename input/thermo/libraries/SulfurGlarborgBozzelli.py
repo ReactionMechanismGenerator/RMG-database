@@ -15,9 +15,8 @@ International Journal of Chemical Kinetics, 28 (1996) 773-790
 DOI: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
 Comments refer to references from that paper
 """
-
 entry(
-    index = 1,
+    index = 0,
     label = "S",
     molecule = 
 """
@@ -38,7 +37,7 @@ from [34]
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "S2",
     molecule = 
 """
@@ -49,7 +48,7 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([7.79,8.13,8.38,8.56,8.76,8.89,9.29],'cal/(mol*K)'),
         H298 = (30.7,'kcal/mol'),
-        S298 = (54.50,'cal/(mol*K)'),
+        S298 = (54.5,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -59,7 +58,7 @@ from [34]
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "SH",
     molecule = 
 """
@@ -81,7 +80,7 @@ from [34]
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "H2S",
     molecule = 
 """
@@ -103,10 +102,11 @@ from [34]
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "SO",
     molecule = 
 """
+multiplicity 3
 1 S u1 p2 c0 {2,S}
 2 O u1 p2 c0 {1,S}
 """,
@@ -124,7 +124,7 @@ from [34]
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "SO2",
     molecule = 
 """
@@ -135,7 +135,7 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([9.54,10.41,11.12,11.71,12.55,13.03,13.61],'cal/(mol*K)'),
-        H298 = (-71.0,'kcal/mol'),
+        H298 = (-71,'kcal/mol'),
         S298 = (59.29,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -146,7 +146,7 @@ from [34]
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "SO3",
     molecule = 
 """
@@ -169,7 +169,7 @@ from [34]
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "HSO",
     molecule = 
 """
@@ -182,7 +182,7 @@ multiplicity 2
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([9.02,9.93,10.73,11.36,12.22,12.73,13.34],'cal/(mol*K)'),
         H298 = (-5.4,'kcal/mol'),
-        S298 = (57.80,'cal/(mol*K)'),
+        S298 = (57.8,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -192,7 +192,7 @@ from [35]
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "HOS",
     molecule = 
 """
@@ -203,7 +203,7 @@ multiplicity 2
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.71,9.42,10.00,10.45,11.08,11.53,12.33],'cal/(mol*K)'),
+        Cpdata = ([8.71,9.42,10,10.45,11.08,11.53,12.33],'cal/(mol*K)'),
         H298 = (0,'kcal/mol'),
         S298 = (57.15,'cal/(mol*K)'),
     ),
@@ -215,7 +215,7 @@ from [35]
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "HSOH",
     molecule = 
 """
@@ -226,7 +226,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.83,12.22,13.47,14.46,15.82,16.62,17.60],'cal/(mol*K)'),
+        Cpdata = ([10.83,12.22,13.47,14.46,15.82,16.62,17.6],'cal/(mol*K)'),
         H298 = (-28.5,'kcal/mol'),
         S298 = (58.66,'cal/(mol*K)'),
     ),
@@ -238,7 +238,7 @@ from [35]
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "H2SO",
     molecule = 
 """
@@ -249,7 +249,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.53,11.13,12.66,13.95,15.82,17.00,18.44],'cal/(mol*K)'),
+        Cpdata = ([9.53,11.13,12.66,13.95,15.82,17,18.44],'cal/(mol*K)'),
         H298 = (-11.3,'kcal/mol'),
         S298 = (57.26,'cal/(mol*K)'),
     ),
@@ -261,7 +261,7 @@ from [35]
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "HOSO",
     molecule = 
 """
@@ -273,7 +273,7 @@ multiplicity 2
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.87,13.43,14.56,15.35,16.40,17.06,18.09],'cal/(mol*K)'),
+        Cpdata = ([11.87,13.43,14.56,15.35,16.4,17.06,18.09],'cal/(mol*K)'),
         H298 = (-57.7,'kcal/mol'),
         S298 = (64.62,'cal/(mol*K)'),
     ),
@@ -285,15 +285,15 @@ from [35]
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "HSO2",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 S u0 p1 c0 {1,S} {3,D} {4,S}
-3 O u0 p2 c0 {2,D}
-4 H u0 p0 c0 {2,S}
+1 S u0 p1 c0 {2,S} {3,D} {4,S}
+2 O u1 p2 c0 {1,S}
+3 O u0 p2 c0 {1,D}
+4 H u0 p0 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -309,7 +309,7 @@ from [35]
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "HOSHO",
     molecule = 
 """
@@ -333,10 +333,11 @@ from [35]
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "HOSO2",
     molecule = 
 """
+multiplicity 2
 1 O u0 p2 c0 {2,D}
 2 S u1 p0 c0 {1,D} {3,D} {4,S}
 3 O u0 p2 c0 {2,D}

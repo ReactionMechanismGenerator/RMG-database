@@ -3,7 +3,8 @@
 
 name = "SABIC_aromatics"
 shortDesc = u"Species relevant to aromatics formation, up to Benzo[a]pyrene (C20H12)"
-longDesc = u"""This library includes species from C6H5+O2 PES, 
+longDesc = u"""
+This library includes species from C6H5+O2 PES, 
 10 first_to_second_ring pathways (Mebel 2017), naphthyl+acetylene HACA surfaces,
 biphenyl decomposition, and other large PAHs up to Benzo[a]pyrene (C20H12).
 Calculations done by Dr. Istvan Lengyel at CBS-QB3 level using Gaussian09 
@@ -13,7 +14,6 @@ were not performed. Thermo properties were evaluated with Cantherm, using
 bond additivity corrections from Petersson et al. 1998, because their training 
 set included aromatic species (https://doi.org/10.1063/1.477794).
 """
-
 entry(
     index = 0,
     label = "C4H3O2_6",

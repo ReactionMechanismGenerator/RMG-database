@@ -21,7 +21,7 @@ JPCA, 1998, 102, 4551-4558
 entry(
     index = 0,
     label = "Cl",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 Cl u1 p3 c0
@@ -35,7 +35,7 @@ multiplicity 2
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1976 Benson""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -44,7 +44,7 @@ u"""
 entry(
     index = 1,
     label = "Cl2",
-    molecule =
+    molecule = 
 """
 1 Cl u0 p3 c0 {2,S}
 2 Cl u0 p3 c0 {1,S}
@@ -58,7 +58,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1976 Benson""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
@@ -67,7 +67,7 @@ u"""
 entry(
     index = 2,
     label = "HCl",
-    molecule =
+    molecule = 
 """
 1 Cl u0 p3 c0 {2,S}
 2 H  u0 p0 c0 {1,S}
@@ -81,7 +81,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1976 Benson""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,

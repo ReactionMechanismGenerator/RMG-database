@@ -15,9 +15,8 @@ Burcat: A. Burcat, B. Ruscic, Ideal Gas Thermochemical Database with Updates fro
 Sendt: K. Sendt, B.S. Haynes, J. Phys. Chem. A 109 (2005) 8180-8186; K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446
 G3: C. Zhou, Kinetic Study of The Oxidation of Hydrogen Sulfide, Ph.D. thesis, The University of Sydney, 2009
 """
-
 entry(
-    index = 1,
+    index = 0,
     label = "S",
     molecule = 
 """
@@ -33,10 +32,14 @@ multiplicity 3
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""Leeds""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "SH",
     molecule = 
 """
@@ -60,7 +63,7 @@ H298 is taken from R.C. Shiell, X.K. Hu, Q.J. Hu, J.W. Hepburn, J. Phys. Chem. A
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "H2S",
     molecule = 
 """
@@ -77,10 +80,14 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""Leeds""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "SO",
     molecule = 
 """
@@ -97,10 +104,14 @@ multiplicity 3
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""Leeds""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "SO(S)",
     molecule = 
 """
@@ -116,10 +127,14 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""G3""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "SO2",
     molecule = 
 """
@@ -136,10 +151,14 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""Leeds""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "SO3",
     molecule = 
 """
@@ -157,10 +176,14 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""Leeds""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "HSO2",
     molecule = 
 """
@@ -179,10 +202,14 @@ multiplicity 2
         Tmax = (2000,'K'),
     ),
     shortDesc = u"""Leeds""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "HOSO",
     molecule = 
 """
@@ -201,10 +228,14 @@ multiplicity 2
         Tmax = (2000,'K'),
     ),
     shortDesc = u"""Leeds""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "HSOO",
     molecule = 
 """
@@ -230,7 +261,7 @@ H298 from C. Zhou, K. Sendt, B.S. Haynes, J. Phys. Chem. A 113 (2009) 2975-2981
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "HOSO2",
     molecule = 
 """
@@ -250,10 +281,14 @@ multiplicity 2
         Tmax = (2000,'K'),
     ),
     shortDesc = u"""Leeds""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "S2",
     molecule = 
 """
@@ -270,10 +305,14 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Burcat""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "S3",
     molecule = 
 """
@@ -290,10 +329,14 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Burcat""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "S4",
     molecule = 
 """
@@ -311,10 +354,14 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Burcat""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "S5",
     molecule = 
 """
@@ -333,10 +380,14 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Burcat""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "S6",
     molecule = 
 """
@@ -356,10 +407,14 @@ entry(
         Tmax = (2500,'K'),
     ),
     shortDesc = u"""Burcat""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "S7",
     molecule = 
 """
@@ -380,10 +435,14 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Burcat""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 18,
+    index = 17,
     label = "S8",
     molecule = 
 """
@@ -405,10 +464,14 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Burcat""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "HSO",
     molecule = 
 """
@@ -433,7 +496,7 @@ H298 taken from P.A. Denis, Chem. Phys. Lett. 402 (2005)289-293
 )
 
 entry(
-    index = 20,
+    index = 19,
     label = "HOS",
     molecule = 
 """
@@ -458,7 +521,7 @@ H298 taken from P.A. Denis, Chem. Phys. Lett. 402 (2005)289-293
 )
 
 entry(
-    index = 21,
+    index = 20,
     label = "HSOH",
     molecule = 
 """
@@ -476,10 +539,14 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""Leeds""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 22,
+    index = 21,
     label = "HSS",
     molecule = 
 """
@@ -497,10 +564,14 @@ multiplicity 2
         Tmax = (2000,'K'),
     ),
     shortDesc = u"""Sendt""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 23,
+    index = 22,
     label = "HSSO",
     molecule = 
 """
@@ -519,10 +590,14 @@ multiplicity 2
         Tmax = (2000,'K'),
     ),
     shortDesc = u"""G3""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 24,
+    index = 23,
     label = "HSSH",
     molecule = 
 """
@@ -540,10 +615,14 @@ entry(
         Tmax = (2000,'K'),
     ),
     shortDesc = u"""Sendt""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 25,
+    index = 24,
     label = "SSO2",
     molecule = 
 """
@@ -561,10 +640,14 @@ entry(
         Tmax = (2000,'K'),
     ),
     shortDesc = u"""G3""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 26,
+    index = 25,
     label = "HSSO2",
     molecule = 
 """
@@ -584,10 +667,14 @@ multiplicity 2
         Tmax = (2000,'K'),
     ),
     shortDesc = u"""G3""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 27,
+    index = 26,
     label = "OSSO",
     molecule = 
 """
@@ -605,10 +692,14 @@ entry(
         Tmax = (2000,'K'),
     ),
     shortDesc = u"""G3""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 28,
+    index = 27,
     label = "VDW1",
     molecule = 
 """
@@ -628,10 +719,14 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""Sendt""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 29,
+    index = 28,
     label = "H2S2O2",
     molecule = 
 """
@@ -651,10 +746,14 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""Sendt""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 30,
+    index = 29,
     label = "S2O",
     molecule = 
 """
@@ -671,10 +770,14 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""Sendt""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 31,
+    index = 30,
     label = "H2S3O",
     molecule = 
 """
@@ -694,10 +797,14 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""Sendt""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 32,
+    index = 31,
     label = "HSSSOH",
     molecule = 
 """
@@ -717,12 +824,16 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""Sendt""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
-    index = 33,
+    index = 32,
     label = "O3",
-    molecule =
+    molecule = 
 """
 1 O u0 p1 c+1 {2,S} {3,D}
 2 O u0 p3 c-1 {1,S}
@@ -737,4 +848,9 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Burcat""",
+    longDesc = 
+u"""
+
+""",
 )
+

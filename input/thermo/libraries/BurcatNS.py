@@ -13,9 +13,8 @@ http://garfield.chem.elte.hu/Burcat/burcat.html
 
 Thermo data of species relevant for S/N systems which are not already present in other RMG libraries at better levels were taken here.
 """
-
 entry(
-    index = 1,
+    index = 0,
     label = "TrinitroMethane",
     molecule = 
 """
@@ -53,7 +52,7 @@ Lst Sq Error Cp @ 1300 K 0.50%
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "CNH2",
     molecule = 
 """
@@ -83,7 +82,7 @@ CNH2  triradical  T 2/12C  1.H  2.N  1.   0.G   200.000  6000.000  B  28.03332 1
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "NH2CO",
     molecule = 
 """
@@ -116,7 +115,7 @@ Max Lst Sq Error Cp @ 6000 K 0.36%.
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "CH2ONO2",
     molecule = 
 """
@@ -150,7 +149,7 @@ REF = Melius Database 1988 P73BJ  Max Lst Sq Error Cp @ 1300 K 0.56%
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "NH2CN",
     molecule = 
 """
@@ -180,7 +179,7 @@ N62Z}  Max Lst Sq Error Cp @ 6000 K 0.36%
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "NHCNH",
     molecule = 
 """
@@ -210,7 +209,7 @@ Sq Error Cp @ 6000 K 0.33%
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "cCH2NN",
     molecule = 
 """
@@ -241,7 +240,7 @@ Swihart J. Prop & Power 18,(2002),1242}   MAX LST SQ ERROR CP @ 200 K 0.73%
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "cCHNNH",
     molecule = 
 """
@@ -271,7 +270,7 @@ Power 18,(2002),1242}  Max Lst Sq Error Cp @ 200 K 0.51%.
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "CH2N2O",
     molecule = 
 """
@@ -302,7 +301,7 @@ REF=Burcat G3B3 calc.  {HF298=      REF=Pitz and Westbrook Proc. Comb. Inst
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "CH2N2O2",
     molecule = 
 """
@@ -335,7 +334,7 @@ Lst Sq Error Cp @ 1300 K 0.48%.
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "CH2N4",
     molecule = 
 """
@@ -363,12 +362,12 @@ CH2N4 Cy 1H-Tetrazol  SIGMA=1  STATWT=1  IA=7.9934  IB=8.1428  IC=16.1362
 Nu=563,690,737,848,969,1011,1046,1069,1151,1273,1300,1466,1518,3311,3654
 REF=Burcat B3LYP/6-31G(d)  HF298=320.+/-3. kJ  REF=Balepin Lebedev et al 
 Svoistva Veshchestv Str. Mol. 1977 93-98.  HF298(sol)=236.+/-0.4 kJ  REF=IBID.
-Max Lst Sq Error Cp @ 200 K ***1.1%*** @ 6000 K 0.49%. 
+Max Lst Sq Error Cp @ 200 K ***1.1%*** @ 6000 K 0.49%.
 """,
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "HCNH2",
     molecule = 
 """
@@ -399,7 +398,7 @@ Max Lst Sq Error Cp @ 6000 K 0.39%
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "CH2NOH",
     molecule = 
 """
@@ -431,7 +430,7 @@ Error Cp @ 200 K 0.63%
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "cCHNHNH",
     molecule = 
 """
@@ -463,7 +462,7 @@ IB=3.4835  IC=5.6503  Nu=3427,3390,3147,1396,1298,1259,1184,1126,1026,883,855,
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "cNNHCH2",
     molecule = 
 """
@@ -495,7 +494,7 @@ IB=3.4685  IC=5.5084  Nu=3412,3199,3108,1546,1325,1230,1130,1094,1018,974,891,
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "OHCH2NNO2",
     molecule = 
 """
@@ -531,7 +530,7 @@ Max Lst Sq Error Cp @ 6000 K 0.48%
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "CH3N3O4",
     molecule = 
 """
@@ -571,7 +570,7 @@ SSSR 295,(1987),419}  Max Lst Sq Error Cp @ 6000 K 0.53%.
 )
 
 entry(
-    index = 18,
+    index = 17,
     label = "NH2CHNH",
     molecule = 
 """
@@ -603,7 +602,7 @@ HF298=11.893+/-2. kcal  REF=Burcat G3B3  Max Lst Sq Error cp @ 6000 K 0.47%
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "cCH2NHNH",
     molecule = 
 """
@@ -637,7 +636,7 @@ HF298=58.12 kcal trans-G3 HF298=56.1 kcal trans-G2  REF=Gessner & Ball THEOCHEM,
 )
 
 entry(
-    index = 20,
+    index = 19,
     label = "urea",
     molecule = 
 """
@@ -671,7 +670,7 @@ kJ  REF=Burcat G3B3  {HF298=-235.5 kJ  REF=Dorofeeva & Tolmach Thermochim. Acta
 )
 
 entry(
-    index = 21,
+    index = 20,
     label = "NH2CNHNHNO2",
     molecule = 
 """
@@ -712,7 +711,7 @@ Cp @ 6000 K 0.47%
 )
 
 entry(
-    index = 22,
+    index = 21,
     label = "NH2CNH2NNO2",
     molecule = 
 """
@@ -748,7 +747,7 @@ HF0=73.410 kJ   REF=Burcat G3B3  Max Lst Sq Error Cp @ 1300 K 0.46%
 )
 
 entry(
-    index = 23,
+    index = 22,
     label = "CH3NNH2",
     molecule = 
 """
@@ -784,7 +783,7 @@ REF=C.MELIUS DATABASE  N86A}   Max Lst Sq Error Cp @ 6000 K 0.46%
 )
 
 entry(
-    index = 24,
+    index = 23,
     label = "CH2NHNH2",
     molecule = 
 """
@@ -820,7 +819,7 @@ Orlov et al J. Mol Struct 608,(2002),109}   Max Lst Sq Error Cp @ 6000 K 0.39%
 )
 
 entry(
-    index = 25,
+    index = 24,
     label = "NHC(NH2)2",
     molecule = 
 """
@@ -855,7 +854,7 @@ Thermochim. Acta 240, (1994),47-66.}   Max Lst Sq Error Cp @ 6000 K  0.37%
 )
 
 entry(
-    index = 26,
+    index = 25,
     label = "cC(NO)",
     molecule = 
 """
@@ -883,7 +882,7 @@ Nu=564,960,1477   REF=Burcat G3B3  HF298=451.47+/-1.64 kJ  REF=ATcT C 2011
 )
 
 entry(
-    index = 27,
+    index = 26,
     label = "CON3",
     molecule = 
 """
@@ -913,7 +912,7 @@ HF298=352.1+/-3.3 kJ  REF=Maroshkin & Dorofeeva  Comp Theor. Chem 991,(2012),182
 )
 
 entry(
-    index = 28,
+    index = 27,
     label = "CS",
     molecule = 
 """
@@ -949,7 +948,7 @@ JCP 94,(1991),3563  {HF298=279.9+/-0.85 kJ  REF=Denis J Sulfur Chem 29,(2008),
 )
 
 entry(
-    index = 29,
+    index = 28,
     label = "HCCN(S)",
     molecule = 
 """
@@ -978,7 +977,7 @@ al JPC A 106,(2002),1073}  Max Lst Sq Error Cp @ 6000 K 0.32%.
 )
 
 entry(
-    index = 30,
+    index = 29,
     label = "HCCN(T)",
     molecule = 
 """
@@ -1008,7 +1007,7 @@ Nu=3406,1800,1248,475,452,389 HF298=113.876+/-2. kcal  REF=Burcat G3B3 calc
 )
 
 entry(
-    index = 31,
+    index = 30,
     label = "NCCHO",
     molecule = 
 """
@@ -1037,7 +1036,7 @@ REF=Burcat G2B3 Calc   Max Lst Sq Error Cp @ 1300 K 0.48%
 )
 
 entry(
-    index = 32,
+    index = 31,
     label = "HCCNO2",
     molecule = 
 """
@@ -1068,7 +1067,7 @@ B3LYP calc  HF298=66.6 kcal  G3B3 calc  REF=Politzer Lane Concha JPC A 108,
 )
 
 entry(
-    index = 33,
+    index = 32,
     label = "NO2CHCNO2",
     molecule = 
 """
@@ -1104,7 +1103,7 @@ kcal  REF=Burcat G3B3 calc  Max Lst Sq Error Cp @ 1300 K 0.44%
 )
 
 entry(
-    index = 34,
+    index = 33,
     label = "C2HN7O2",
     molecule = 
 """
@@ -1143,7 +1142,7 @@ B3LYP/6-31G(d)  HF298=121.6+/-3 kcal  REF=Osmont Catoire et al C&F 151,(2007),
 )
 
 entry(
-    index = 35,
+    index = 34,
     label = "NCCH2O",
     molecule = 
 """
@@ -1175,7 +1174,7 @@ HF298=41.974 kcal  HF0=43.312 kcal  REF=Burcat G3B3 calc Max Lst Sq Error Cp
 )
 
 entry(
-    index = 36,
+    index = 35,
     label = "NCCH2OO",
     molecule = 
 """
@@ -1208,7 +1207,7 @@ Max Lst Sq Error Cp @ 6000 K 0.46%.
 )
 
 entry(
-    index = 37,
+    index = 36,
     label = "C2H2(NO2)2",
     molecule = 
 """
@@ -1244,7 +1243,7 @@ NU=3398,3290,1732,1652,1644,1399,1398(2),1277,1217,1004,972.5(2),900,789,767,
 )
 
 entry(
-    index = 38,
+    index = 37,
     label = "cCH2NCH",
     molecule = 
 """
@@ -1274,7 +1273,7 @@ kcal  REF=Burcat G3B3  Max Lst Sq Error Cp @ 200 K 0.84%.
 )
 
 entry(
-    index = 39,
+    index = 38,
     label = "NCCH2OH",
     molecule = 
 """
@@ -1306,7 +1305,7 @@ kcal  REF=Burcat G3B3 calc. Max Lst sq Error Cp @ 6000 K 0.44%.
 )
 
 entry(
-    index = 40,
+    index = 39,
     label = "NCCH2OOH",
     molecule = 
 """
@@ -1340,7 +1339,7 @@ Max Lst Sq Error Cp @ 6000 K 0.43%
 )
 
 entry(
-    index = 41,
+    index = 40,
     label = "CH3C(O)ONO2",
     molecule = 
 """
@@ -1377,7 +1376,7 @@ REF=Thergas, Benson; -90.66 kcal Yoneda}  Max Lst Sq Error Cp @ 1300 K 0.59%
 )
 
 entry(
-    index = 42,
+    index = 41,
     label = "CH3C(O)OONO2",
     molecule = 
 """
@@ -1415,7 +1414,7 @@ G3B3 calc  {HF298=-60.3 kcal  REF=NIST 94} Max Lst Sq Error Cp @ 1300 K 0.57%.
 )
 
 entry(
-    index = 43,
+    index = 42,
     label = "C2H3NS",
     molecule = 
 """
@@ -1447,7 +1446,7 @@ HF298=31.181+/-2. kcal  REF=Burcat G3B3  {HF298=2.36 kcal?  REF=RMG Greene 2013}
 )
 
 entry(
-    index = 44,
+    index = 43,
     label = "C(O)CH2NH2",
     molecule = 
 """
@@ -1481,7 +1480,7 @@ Dorofeeva  Comp Theor Chem 991,(2012),182  Max Lst Sq Error Cp @ 6000 K 0.43%.
 )
 
 entry(
-    index = 45,
+    index = 44,
     label = "C2H4(NO2)2",
     molecule = 
 """
@@ -1521,7 +1520,7 @@ REF=Miroshnichenko et al ibid.  Max Lst Sq Error Cp @ 6000 K 0.57%.
 )
 
 entry(
-    index = 46,
+    index = 45,
     label = "C2H4S4",
     molecule = 
 """
@@ -1557,7 +1556,7 @@ Nu=2664.5(2),2659,1581.5,1033,1000,975,927,905.5,848,685,523,421.5,362,326,301,
 )
 
 entry(
-    index = 47,
+    index = 46,
     label = "Glycine",
     molecule = 
 """
@@ -1595,7 +1594,7 @@ Lst Sq Error Cp @ 6000 K 0.43%
 )
 
 entry(
-    index = 48,
+    index = 47,
     label = "CH3OC(O)NH2",
     molecule = 
 """
@@ -1633,7 +1632,7 @@ Thermochim Acta 16,(1976),267;  HF298=-439.8 kJ  REF=Zeng et al Ind Eng Chem Res
 )
 
 entry(
-    index = 49,
+    index = 48,
     label = "C2H5N3",
     molecule = 
 """
@@ -1670,7 +1669,7 @@ Max Lst Sq Error Cp @ 6000 K 0.69%
 )
 
 entry(
-    index = 50,
+    index = 49,
     label = "C2H5N3O5",
     molecule = 
 """
@@ -1714,7 +1713,7 @@ Lst Sq Error Cp @ 6000 K 0.55%.
 )
 
 entry(
-    index = 51,
+    index = 50,
     label = "CH2NHCH3",
     molecule = 
 """
@@ -1751,7 +1750,7 @@ REF=Janoschek & Rossi Int. J. Chem Kin. 36,(2004),     Max Lst Sq Error Cp @
 )
 
 entry(
-    index = 52,
+    index = 51,
     label = "(CH3)2N-NH",
     molecule = 
 """
@@ -1790,7 +1789,7 @@ REF=Bozzelli & Ritter}   Max Lst Sq Error Cp @ 6000 K 0.64%.
 )
 
 entry(
-    index = 53,
+    index = 52,
     label = "CH2(CH3)NNH2",
     molecule = 
 """
@@ -1829,7 +1828,7 @@ REF=Burcat G3B3 calc  Max Lst Sq Error Cp @ 6000 K 0.46%.
 )
 
 entry(
-    index = 54,
+    index = 53,
     label = "CH3NHNHCH3",
     molecule = 
 """
@@ -1868,7 +1867,7 @@ BAC/MP4 Calculations, Private Communication}  Max Lst Sq Error Cp @ 1300 K 0.61%
 )
 
 entry(
-    index = 55,
+    index = 54,
     label = "CCN",
     molecule = 
 """
@@ -1901,7 +1900,7 @@ Error Cp @ 1300 K 0.34%.
 )
 
 entry(
-    index = 56,
+    index = 55,
     label = "C2N2",
     molecule = 
 """
@@ -1930,7 +1929,7 @@ REF=ATcT C 2011  Max Lst Sq Error Cp @ 1300 K 0.39%.
 )
 
 entry(
-    index = 57,
+    index = 56,
     label = "C2(NO2)6",
     molecule = 
 """
@@ -1981,7 +1980,7 @@ al ibid.  Max Lst Sq Error Cp @ 1300 K 0.64%
 )
 
 entry(
-    index = 58,
+    index = 57,
     label = "C2S2",
     molecule = 
 """
@@ -2009,7 +2008,7 @@ Max Lst Sq Error Cp @ 5500 K 0.40%
 )
 
 entry(
-    index = 59,
+    index = 58,
     label = "CHCHCN",
     molecule = 
 """
@@ -2042,7 +2041,7 @@ Cp @ 6000 0.43%
 )
 
 entry(
-    index = 60,
+    index = 59,
     label = "cCH2NCH2CH2",
     molecule = 
 """
@@ -2073,7 +2072,7 @@ IC=10.7977  Nu=3262,3226,3161,1661,1647,1283,1191,1111,961,881,874,854,690,634,
 )
 
 entry(
-    index = 61,
+    index = 60,
     label = "CH3CHCN",
     molecule = 
 """
@@ -2108,7 +2107,7 @@ Max Lst Sq Error Cp @ 6000 K 0.49%
 )
 
 entry(
-    index = 62,
+    index = 61,
     label = "Nitroglycerin",
     molecule = 
 """
@@ -2157,7 +2156,7 @@ REF=Byrd & Rice JPC A 110,(2006),1005   Max Lst Sq Error Cp @ 1300 K 0.59%
 )
 
 entry(
-    index = 63,
+    index = 62,
     label = "NO2CH2CH2CH2NO2",
     molecule = 
 """
@@ -2200,7 +2199,7 @@ Russ JPC 42,(1968)1125 Engl.    Max Lst Sq Error Cp @ 6000 K 0.59%
 )
 
 entry(
-    index = 64,
+    index = 63,
     label = "C3H6(NO2)2",
     molecule = 
 """
@@ -2245,7 +2244,7 @@ REF=Lebedeva Rayadenko Russ JPC 42,(1968)1125 Engl.    Max Lst Sq Error Cp @
 )
 
 entry(
-    index = 65,
+    index = 64,
     label = "C(CH3)2(NO2)2",
     molecule = 
 """
@@ -2288,7 +2287,7 @@ Lst Sq Error Cp @ 6000 K 0.53%.
 )
 
 entry(
-    index = 66,
+    index = 65,
     label = "CH3CH2CH2S",
     molecule = 
 """
@@ -2326,7 +2325,7 @@ kcal {HF298=17.3 kcal  REF=NIST 94}  Max Lst Sq Error Cp @ 6000 K 0.56%.
 )
 
 entry(
-    index = 67,
+    index = 66,
     label = "C3N2O",
     molecule = 
 """
@@ -2357,7 +2356,7 @@ Cp @ 1300 K  0.45%
 )
 
 entry(
-    index = 68,
+    index = 67,
     label = "NCCHCHCN",
     molecule = 
 """
@@ -2391,7 +2390,7 @@ IC=58.6750  Nu=3213,3207,2357,2340,1680,1334,1304,1034(2),982,864,566,539,537,
 )
 
 entry(
-    index = 69,
+    index = 68,
     label = "Pyrazine",
     molecule = 
 """
@@ -2427,7 +2426,7 @@ Max Lst Sq Error Cp @ 200 K **1.06 %**.
 )
 
 entry(
-    index = 70,
+    index = 69,
     label = "Pyrimidine",
     molecule = 
 """
@@ -2463,7 +2462,7 @@ Max Lst Sq Error Cp @ 200 K **1.08 %**.
 )
 
 entry(
-    index = 71,
+    index = 70,
     label = "Uracil",
     molecule = 
 """
@@ -2503,7 +2502,7 @@ Error Cp @ 1300 K 0.49%
 )
 
 entry(
-    index = 72,
+    index = 71,
     label = "Thiophene",
     molecule = 
 """
@@ -2539,7 +2538,7 @@ Error Cp @ 200 K 0.99%
 )
 
 entry(
-    index = 73,
+    index = 72,
     label = "Pyrrolidine",
     molecule = 
 """
@@ -2579,7 +2578,7 @@ IR=1.119  ROSYM=2. V(2)=280. cm-1    NU=3367,2970(2),2882(4),2818(2),1480(2),
 )
 
 entry(
-    index = 74,
+    index = 73,
     label = "C4H9SH",
     molecule = 
 """
@@ -2622,7 +2621,7 @@ Max Lst Sq Error Cp @ 200 K & 6000 K 0.57%.
 )
 
 entry(
-    index = 75,
+    index = 74,
     label = "C4N2",
     molecule = 
 """
@@ -2653,7 +2652,7 @@ REF=TRC 12/93  Max Lst Sq Error Cp @ 1300 K 0.43%
 )
 
 entry(
-    index = 76,
+    index = 75,
     label = "CPD-triNT",
     molecule = 
 """
@@ -2696,7 +2695,7 @@ Westbrook  Proc. Comb. Inst. 31,(2007),2343  Max Lst Sq Error Cp @ 1300 K 0.53%
 )
 
 entry(
-    index = 77,
+    index = 76,
     label = "NCCHCHCCH",
     molecule = 
 """
@@ -2731,7 +2730,7 @@ HF0=426.538 kJ  REF=Burcat G3B3 calc   {HF298=416.3 kJ REF=MACKIE & COLKET
 )
 
 entry(
-    index = 78,
+    index = 77,
     label = "CHCHCHCHCN",
     molecule = 
 """
@@ -2769,7 +2768,7 @@ REF=Mackie & Colket, 22 COMB. Symp 1990}.  Max Lst Sq Error Cp @ 6000 K 0.45%.
 )
 
 entry(
-    index = 79,
+    index = 78,
     label = "OroticAcid",
     molecule = 
 """
@@ -2811,7 +2810,7 @@ HF298=-128.8 kcal  REF=NIST 94  Max Lst Sq Error Cp @ 1300 K 0.47%.
 )
 
 entry(
-    index = 80,
+    index = 79,
     label = "Pyridine",
     molecule = 
 """
@@ -2849,7 +2848,7 @@ NU=3094.2,3086.9,3072.8,3042.4,3030.1,1583.9,1580.5,1483.4,1441.9,1362.3,1227,
 )
 
 entry(
-    index = 81,
+    index = 80,
     label = "nitPDE",
     molecule = 
 """
@@ -2888,7 +2887,7 @@ REF=Burcat G3B3  Max Lst Sq Error Cp @ 200 K 0.84%
 )
 
 entry(
-    index = 82,
+    index = 81,
     label = "Glutamine",
     molecule = 
 """
@@ -2932,12 +2931,12 @@ REF=Burcat B3LYP/6-31G(d)  Nu=3739,3604,3574,3418,3304,3103,3075,3054,3037,3032,
 1850,1769,1680,1622,1466,1465,1459,1423,1410,1385,1337,1301,1284,1226,1210,1201,
 1137,1097,1075,1034,984,946,921,881,837,768,747,672,611,566,543,522,479,420,381,
 364,288,251,231,205,[169,79,40,29.7 inter rot]  HF298=-151.o+/-1 kcal REF=Karton
-Martin et al Theor Chem Acc 133,(2014),1453  Max Lst Sq Error Cp @ 1300 K 0.52%.  
+Martin et al Theor Chem Acc 133,(2014),1453  Max Lst Sq Error Cp @ 1300 K 0.52%.
 """,
 )
 
 entry(
-    index = 83,
+    index = 82,
     label = "C5N4",
     molecule = 
 """
@@ -2967,12 +2966,12 @@ C5N4  MethaneTetraCarboNitrile C(CN)4  SIGMA=12  STATWT=1  A=B=C=0.051 cm-1
 Nu=2391,2382(3),1072(2),583,567(2),552(3),344(3),147(3),111(2)  REF=CCCBDB NIST
 Comparrison Calculations G3B3  HF298=672.80+/-9.20 kJ  REF=Barnes & Mortimer JCT
 5,(1973),371  HF298(c)=611.6+/-1.8 kJ  REF=Barnes & Mortimer ibid.  Max Lst Sq
-Error Cp @ 1300 K ).42%. 
+Error Cp @ 1300 K ).42%.
 """,
 )
 
 entry(
-    index = 84,
+    index = 83,
     label = "C6H3N2O4",
     molecule = 
 """
@@ -3016,7 +3015,7 @@ IB=137.762  IC=178.5283  [Ir(NO2)=5.96  ROSYM=2  V(3)=280. cm-1]x2  Nu=3280,
 )
 
 entry(
-    index = 85,
+    index = 84,
     label = "TriNitroBenzen",
     molecule = 
 """
@@ -3062,7 +3061,7 @@ REF=Byrd & Rice JPC A 110,(2006),1005 Max Lst Sq Error Cp @ 1300 K 0.53%
 )
 
 entry(
-    index = 86,
+    index = 85,
     label = "C6H3N3O7",
     molecule = 
 """
@@ -3110,7 +3109,7 @@ Sq Error Cp @ 1300 K 0.53%.
 )
 
 entry(
-    index = 87,
+    index = 86,
     label = "SOH",
     molecule = 
 """
@@ -3140,7 +3139,7 @@ S8  Problematic specie!}  Max Lst Sq Error Cp @ 400 K 0.35%
 )
 
 entry(
-    index = 88,
+    index = 87,
     label = "HSO",
     molecule = 
 """
@@ -3171,7 +3170,7 @@ S9; HF298=5.0 kcal  REF=Benson 1979  Problematic specie}  Max Lst Sq Error Cp @
 )
 
 entry(
-    index = 89,
+    index = 88,
     label = "SH",
     molecule = 
 """
@@ -3202,7 +3201,7 @@ REF=Denis J Sulfur Chem 29,(2008),327}  Max Lst Sq Error Cp @ 400 K 0.47%.
 )
 
 entry(
-    index = 90,
+    index = 89,
     label = "HOSO",
     molecule = 
 """
@@ -3233,7 +3232,7 @@ Lst Sq Error Cp @ 6000 K 0.20%
 )
 
 entry(
-    index = 91,
+    index = 90,
     label = "HSO3",
     molecule = 
 """
@@ -3266,7 +3265,7 @@ Cp @ 6000 K 0.18%.
 )
 
 entry(
-    index = 92,
+    index = 91,
     label = "HSS",
     molecule = 
 """
@@ -3295,7 +3294,7 @@ J Sulfur Chem 29,(2008),327}  Max Lst Sq Error Cp @ 6000 K 0.29%
 )
 
 entry(
-    index = 93,
+    index = 92,
     label = "H2S",
     molecule = 
 """
@@ -3328,7 +3327,7 @@ Lst Sq Error Cp @ 6000 K 0.37%
 )
 
 entry(
-    index = 94,
+    index = 93,
     label = "H2SO4",
     molecule = 
 """
@@ -3360,7 +3359,7 @@ Cp @ 6000 K 0.25%. Calculated from original tables.
 )
 
 entry(
-    index = 95,
+    index = 94,
     label = "HSSH",
     molecule = 
 """
@@ -3390,7 +3389,7 @@ Error Cp @ 6000 0.37%
 )
 
 entry(
-    index = 96,
+    index = 95,
     label = "NH2N",
     molecule = 
 """
@@ -3420,7 +3419,7 @@ REF=ATcT C 2011  {HF298=301.984+/-8. kJ  REF=Burcat G3B3}  Max Lst Sq Error Cp
 )
 
 entry(
-    index = 97,
+    index = 96,
     label = "cONN",
     molecule = 
 """
@@ -3447,7 +3446,7 @@ N2O cyclo O(NN)  SIGMA=2  STATWT=1  IA=1.6309  IB=3.3758  IC=5.0067  Nu=1911,
 )
 
 entry(
-    index = 98,
+    index = 97,
     label = "HN3O4",
     molecule = 
 """
@@ -3481,7 +3480,7 @@ REF=Burcat G3B3  {HF298=19. kcal  REF=Politzer, Seminario, Concha J Mol Struct
 )
 
 entry(
-    index = 99,
+    index = 98,
     label = "N4chain",
     molecule = 
 """
@@ -3510,7 +3509,7 @@ REF=Glukhovtsev Laiter JPC 100(5),(1996),1569  G2  Max Lst Sq Cp @ 6000 K 0.24%
 )
 
 entry(
-    index = 100,
+    index = 99,
     label = "cN4",
     molecule = 
 """
@@ -3539,7 +3538,7 @@ Sq Error Cp @ 6000. K 0.24%
 )
 
 entry(
-    index = 101,
+    index = 100,
     label = "tetrahedralN4",
     molecule = 
 """
@@ -3570,7 +3569,7 @@ REF=Elke Goos G3B3;  HF298=732.5+/-8. kJ  REF=Glukhovtsev Laiter JPC 100(5),
 )
 
 entry(
-    index = 102,
+    index = 101,
     label = "O3",
     molecule = 
 """
@@ -3605,7 +3604,7 @@ W1U  REF=Janoschek & Fabian J. Mol Struct 780/1,(2006),80}
 )
 
 entry(
-    index = 103,
+    index = 102,
     label = "cO3",
     molecule = 
 """
@@ -3632,7 +3631,7 @@ kJ  REF=BUrcat G3B3 }  Max Lst Sq Error Cp @ 400 K 0.49%.
 )
 
 entry(
-    index = 104,
+    index = 103,
     label = "cO4",
     molecule = 
 """
@@ -3660,7 +3659,7 @@ K 0.53%
 )
 
 entry(
-    index = 105,
+    index = 104,
     label = "SO",
     molecule = 
 """
@@ -3695,7 +3694,7 @@ Chem 29,(2008),327}  Max Lst Sq Error Cp @ 400 K 0.22%.
 )
 
 entry(
-    index = 106,
+    index = 105,
     label = "SO2",
     molecule = 
 """
@@ -3723,7 +3722,7 @@ Max Lst Sq Error Cp @ 1300 K 0.31%.
 )
 
 entry(
-    index = 107,
+    index = 106,
     label = "SO4",
     molecule = 
 """
@@ -3753,7 +3752,7 @@ REF=Burcat G3B3  Max Lst Sq Error Cp @ 1300 K 0.35%
 )
 
 entry(
-    index = 109,
+    index = 107,
     label = "cS2O",
     molecule = 
 """
@@ -3780,7 +3779,7 @@ REF=Denis  Molecular Physics 108,(2010),171  Max Lst Sq Error Cp @ 1200 K 0.16%.
 )
 
 entry(
-    index = 110,
+    index = 108,
     label = "S3",
     molecule = 
 """

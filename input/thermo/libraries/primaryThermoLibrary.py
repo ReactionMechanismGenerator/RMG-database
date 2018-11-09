@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 entry(
-    index = 1,
+    index = 0,
     label = "H2",
     molecule = 
 """
@@ -28,7 +28,7 @@ u"""
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "H",
     molecule = 
 """
@@ -49,7 +49,7 @@ u"""
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "O2",
     molecule = 
 """
@@ -71,9 +71,9 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "O2(S)",
-    molecule =
+    molecule = 
 """
 1 O u0 p2 c0 {2,D}
 2 O u0 p2 c0 {1,D}
@@ -85,7 +85,7 @@ entry(
         S298 = (49.0236,'cal/(mol*K)'),
     ),
     shortDesc = u"""from absorption energy""",
-   longDesc =
+    longDesc = 
 u"""
 H298 taken from absorption energy: 7882 cm^-1 = 22.54 kcal/mol
 S and Cp taken from the values for triplet O2
@@ -94,7 +94,7 @@ ref: David R. Kearns, Physical and chemical properties of singlet molecular oxyg
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "CO3s1",
     molecule = 
 """
@@ -117,7 +117,7 @@ u"""
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "CO3t1",
     molecule = 
 """
@@ -141,7 +141,7 @@ u"""
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "CO3t2",
     molecule = 
 """
@@ -165,7 +165,7 @@ u"""
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "cyclopropene12diyl",
     molecule = 
 """
@@ -190,7 +190,7 @@ u"""
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "cyclopropynylidyne",
     molecule = 
 """
@@ -214,7 +214,7 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "OCCO(S)",
     molecule = 
 """
@@ -237,7 +237,7 @@ u"""
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "OCCO",
     molecule = 
 """
@@ -261,7 +261,7 @@ u"""
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "C3H2",
     molecule = 
 """
@@ -285,9 +285,9 @@ u"""
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "S2",
-    molecule =
+    molecule = 
 """
 multiplicity 3
 1 S u1 p2 c0 {2,S}
@@ -300,16 +300,16 @@ multiplicity 3
         S298 = (54.54,'cal/(mol*K)'),
     ),
     shortDesc = u"""from Chase thermo database""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "S2(S)",
-    molecule =
+    molecule = 
 """
 1 S u0 p2 c0 {2,D}
 2 S u0 p2 c0 {1,D}
@@ -328,31 +328,7 @@ u"""
 )
 
 entry(
-    index = 51,
-    label = "SO(S)",
-    molecule =
-"""
-1 S u0 p2 c0 {2,D}
-2 O u0 p2 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata=([7.22, 7.55, 7.84, 8.08, 8.43, 8.62, 8.95], 'cal/(mol*K)'),
-        H298 = (23.74, 'kcal/mol'),
-        S298 = (53.01, 'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc =
-u"""
-H298 taken from absorption energy of O2: 7882 cm^-1 = 22.54 kcal/mol, and was added to H298 of SO(T)
-S and Cp taken from the values for triplet SO
-ref: R.J. Kee, F.M. Rupley, J.A. Miller, The Chemkin Thermodynamic Data Base, Sandia Report SAND87-8215, Sandia National
-Laboratories, Livermore, California, 1991
-""",
-)
-
-entry(
-    index = 15,
+    index = 14,
     label = "HCS",
     molecule = 
 """
@@ -375,7 +351,7 @@ u"""
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "Ar",
     molecule = 
 """
@@ -397,7 +373,7 @@ Ar HF298=0.  REF=C.E. Moore 'Atomic Energy Levels' NSRDS-NBS 35 (1971) p.211
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "N2",
     molecule = 
 """
@@ -420,7 +396,7 @@ N2  HF298= 0.0 KJ  REF=TSIV  Max Lst Sq Error Cp @ 6000 K 0.29%
 )
 
 entry(
-    index = 18,
+    index = 17,
     label = "He",
     molecule = 
 """
@@ -442,7 +418,7 @@ McBride, Heimel, Ehlers & Gordon "Thermodynamic Properties to 6000 K", 1963.
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "C(S)",
     molecule = 
 """
@@ -464,7 +440,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 20,
+    index = 19,
     label = "C(T)",
     molecule = 
 """
@@ -487,7 +463,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 21,
+    index = 20,
     label = "CH2(S)",
     molecule = 
 """
@@ -511,7 +487,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 22,
+    index = 21,
     label = "CH2(T)",
     molecule = 
 """
@@ -536,7 +512,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 23,
+    index = 22,
     label = "CH4",
     molecule = 
 """
@@ -562,7 +538,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 24,
+    index = 23,
     label = "NH(T)",
     molecule = 
 """
@@ -586,7 +562,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 25,
+    index = 24,
     label = "NH2(D)",
     molecule = 
 """
@@ -611,7 +587,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 26,
+    index = 25,
     label = "NH3",
     molecule = 
 """
@@ -636,7 +612,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 27,
+    index = 26,
     label = "O(S)",
     molecule = 
 """
@@ -658,7 +634,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 28,
+    index = 27,
     label = "O(T)",
     molecule = 
 """
@@ -681,7 +657,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 29,
+    index = 28,
     label = "OH(D)",
     molecule = 
 """
@@ -705,7 +681,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 30,
+    index = 29,
     label = "H2O",
     molecule = 
 """
@@ -729,7 +705,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 31,
+    index = 30,
     label = "Cl2",
     molecule = 
 """
@@ -755,7 +731,7 @@ Sq Error Cp @ 6000 **1.26%** (Cp @ 700 K 0.08%)
 )
 
 entry(
-    index = 32,
+    index = 31,
     label = "Cl",
     molecule = 
 """
@@ -781,7 +757,7 @@ HF298=121.302+/-0.008 kJ HF0=119.633+/- 0.008 kJ  REF=JANAF  {HF298=121.302
 )
 
 entry(
-    index = 33,
+    index = 32,
     label = "HCl",
     molecule = 
 """
@@ -808,7 +784,7 @@ HF298=-92.31 kJ {HF298=-92.17+/-0.006 kJ   REF=ATcT C}  Max Lst Sq Error Cp @
 )
 
 entry(
-    index = 34,
+    index = 33,
     label = "Ne",
     molecule = 
 """
@@ -830,9 +806,9 @@ McBride, Heimel, Ehlers & Gordon, "Thermodynamic Properties to 6000 K", 1963.
 )
 
 entry(
-    index = 35,
+    index = 34,
     label = "ONHN",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 O u0 p3 c-1 {2,S}
@@ -842,34 +818,26 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [4.04618, -0.00333952, 3.35365e-05, -4.57384e-08, 2.0107e-11, 36047.5, 6.95758],
-                Tmin = (10, 'K'),
-                Tmax = (708.753, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [2.46943, 0.0105681, -6.49838e-06, 1.89046e-09, -2.10479e-13, 36145.2, 13.1342],
-                Tmin = (708.753, 'K'),
-                Tmax = (3000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[4.04618,-0.00333952,3.35365e-05,-4.57384e-08,2.0107e-11,36047.5,6.95758], Tmin=(10,'K'), Tmax=(708.753,'K')),
+            NASAPolynomial(coeffs=[2.46943,0.0105681,-6.49838e-06,1.89046e-09,-2.10479e-13,36145.2,13.1342], Tmin=(708.753,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (10, 'K'),
-        Tmax = (3000, 'K'),
-        E0 = (299.723, 'kJ/mol'),
-        Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (83.1447, 'J/(mol*K)'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (299.723,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (83.1447,'J/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 36,
+    index = 35,
     label = "O3",
-    molecule =
+    molecule = 
 """
 1 O u0 p3 c-1 {2,S}
 2 O u0 p1 c+1 {1,S} {3,D}
@@ -884,10 +852,35 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 Ozone
 Taken from the GlarborgH2S thermo library,
 in agreement with the data by Burcat et al. (H298 = 34.10 kcal/mol in GlarborgH2S vs. 33.89 kcal/mol in BurcatNS)
 """,
 )
+
+entry(
+    index = 36,
+    label = "SO(S)",
+    molecule = 
+"""
+1 S u0 p2 c0 {2,D}
+2 O u0 p2 c0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.22,7.55,7.84,8.08,8.43,8.62,8.95],'cal/(mol*K)'),
+        H298 = (23.74,'kcal/mol'),
+        S298 = (53.01,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+H298 taken from absorption energy of O2: 7882 cm^-1 = 22.54 kcal/mol, and was added to H298 of SO(T)
+S and Cp taken from the values for triplet SO
+ref: R.J. Kee, F.M. Rupley, J.A. Miller, The Chemkin Thermodynamic Data Base, Sandia Report SAND87-8215, Sandia National
+Laboratories, Livermore, California, 1991
+""",
+)
+

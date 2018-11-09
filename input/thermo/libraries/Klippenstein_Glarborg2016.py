@@ -17,11 +17,10 @@ Hamid Hashemi, Jakob M. Christensen, Sander Gersen, Howard Levinsky, Stephen J. 
 Combustion and Flame 172, 2016, 349-364
 http://dx.doi.org/10.1016/j.combustflame.2016.07.016
 """
-
 entry(
-    index = 1,
+    index = 0,
     label = "H2O2",
-    molecule =
+    molecule = 
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -37,7 +36,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""DOROFEEVA e  T 8/03""",
-    longDesc =
+    longDesc = 
 u"""
 DOROFEEVA e  T 8/03
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -59,9 +58,9 @@ OO
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "OH",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 O u1 p2 c0 {2,S}
@@ -76,7 +75,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""HYDROXYL RADI  IU3/03""",
-    longDesc =
+    longDesc = 
 u"""
 HYDROXYL RADI  IU3/03
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -95,9 +94,9 @@ Cp @ 1200 K 0.28%.
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "H2",
-    molecule =
+    molecule = 
 """
 1 H u0 p0 c0 {2,S}
 2 H u0 p0 c0 {1,S}
@@ -111,7 +110,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""REF ELEMENT    tpis78""",
-    longDesc =
+    longDesc = 
 u"""
 REF ELEMENT    tpis78
 1333-74-0
@@ -122,9 +121,9 @@ H2   Calc from Gurvic's table  HF298= 0.0  REF=Gurvich 78  Max Lst Sq Error Cp
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "H",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 H u1 p0 c0
@@ -138,16 +137,16 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 [H]
 """,
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "O",
-    molecule =
+    molecule = 
 """
 multiplicity 3
 1 O u2 p2 c0
@@ -161,7 +160,7 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 1/90""",
-    longDesc =
+    longDesc = 
 u"""
 L 1/90
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -176,9 +175,9 @@ NSRDS-NBS Sec 7 1976 p. A8 I {HF298=249.229+/-0.002 kJ  REF=ATcT B}.
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "H2O",
-    molecule =
+    molecule = 
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -193,7 +192,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 5/89""",
-    longDesc =
+    longDesc = 
 u"""
 L 5/89
 7732-18-5
@@ -206,9 +205,9 @@ O
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "HO2",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -224,7 +223,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""T 1/09""",
-    longDesc =
+    longDesc = 
 u"""
 T 1/09
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -243,9 +242,9 @@ REF=Karton, Parthiban, Martin JPC A 2009}  Max lst Sq Error Cp @ 700 K 0.27%.
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "O2",
-    molecule =
+    molecule = 
 """
 multiplicity 3
 1 O u1 p2 c0 {2,S}
@@ -260,7 +259,7 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""REF ELEMENT    TPIS89""",
-    longDesc =
+    longDesc = 
 u"""
 REF ELEMENT    TPIS89
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -275,9 +274,9 @@ B.McBride NASA TP-2002-211556 Max Lst Sq Error Cp @ 1200 K 0.31%.
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "AR",
-    molecule =
+    molecule = 
 """
 1 Ar u0 p4 c0
 """,
@@ -290,7 +289,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""REF ELEMENT    g 5/97""",
-    longDesc =
+    longDesc = 
 u"""
 REF ELEMENT    g 5/97
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -305,9 +304,9 @@ Max Lst Sq Error 0.%.
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "N2",
-    molecule =
+    molecule = 
 """
 1 N u0 p1 c0 {2,T}
 2 N u0 p1 c0 {1,T}
@@ -321,7 +320,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""REF ELEMENT   G 8/02""",
-    longDesc =
+    longDesc = 
 u"""
 REF ELEMENT   G 8/02
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -335,9 +334,9 @@ N#N
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "HE",
-    molecule =
+    molecule = 
 """
 1 He u0 p1 c0
 """,
@@ -350,7 +349,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""REF ELEMENT    g 5/97""",
-    longDesc =
+    longDesc = 
 u"""
 REF ELEMENT    g 5/97
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -365,9 +364,9 @@ Error Cp 0.0%.
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "CO",
-    molecule =
+    molecule = 
 """
 1 C u0 p1 c-1 {2,T}
 2 O u0 p1 c+1 {1,T}
@@ -381,7 +380,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""RUS 79""",
-    longDesc =
+    longDesc = 
 u"""
 RUS 79
 74-82-8
@@ -406,9 +405,9 @@ CO  CARBON-MONOXIDE  CALCULATED FROM TSIV TABLE. REF=TSIV 79  HF298=-110.53+/-
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "CO2",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,D} {3,D}
 2 O u0 p2 c0 {1,D}
@@ -423,7 +422,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 7/88""",
-    longDesc =
+    longDesc = 
 u"""
 L 7/88
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -444,9 +443,9 @@ O=C=O
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "CH4",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -463,7 +462,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""RRHO        g 8/99""",
-    longDesc =
+    longDesc = 
 u"""
 RRHO        g 8/99
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -478,9 +477,9 @@ C
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "CH3",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -497,7 +496,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""IU0702""",
-    longDesc =
+    longDesc = 
 u"""
 IU0702
 DHf(0K) =   102.62 [kcal/mol], taken from SJK v0.9.
@@ -512,9 +511,9 @@ METHYL RADICAL    IU0702C  1.H  3.   0.   0.G   200.000  6000.000  B  15.03452 1
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "CH3OH",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 O u0 p2 c0 {1,S} {6,S}
@@ -532,7 +531,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Methyl alc  T06/02""",
-    longDesc =
+    longDesc = 
 u"""
 Methyl alc  T06/02
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -550,9 +549,9 @@ CO
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "C",
-    molecule =
+    molecule = 
 """
 multiplicity 3
 1 C u2 p1 c0
@@ -566,7 +565,7 @@ multiplicity 3
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical""",
-    longDesc =
+    longDesc = 
 u"""
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
 http://burcat.technion.ac.il/dir/
@@ -590,9 +589,9 @@ C                 L 7/88C   1    0    0    0G   200.000  6000.000  1000.000,    
 )
 
 entry(
-    index = 18,
+    index = 17,
     label = "CH",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u1 p1 c0 {2,S}
@@ -607,7 +606,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""DHf(0K) =   170.13 [kcal/mol], taken from SJK v0.9.""",
-    longDesc =
+    longDesc = 
 u"""
 DHf(0K) =   170.13 [kcal/mol], taken from SJK v0.9.
 Q(T) from B3LYP/6-311++G(d,p) by CFG on  06Sep2013
@@ -628,9 +627,9 @@ CH               IU3/03 C  1.H  1.   0.   0.G   200.000  6000.000  1000.000,    
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "C2H",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,T} {3,S}
@@ -646,7 +645,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Ethynyl Rad   T 5/10""",
-    longDesc =
+    longDesc = 
 u"""
 Ethynyl Rad   T 5/10
 
@@ -671,9 +670,9 @@ kJ  REF=Szalay Tajti & Stanton Mol Phys 103,(2005),xxx}   MAX LST SQ ERROR Cp @
 )
 
 entry(
-    index = 20,
+    index = 19,
     label = "C2H4",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -691,7 +690,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""g 1/00""",
-    longDesc =
+    longDesc = 
 u"""
 g 1/00
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -708,9 +707,9 @@ C=C
 )
 
 entry(
-    index = 21,
+    index = 20,
     label = "C2H5",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -730,7 +729,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""ethyl radic  IU1/07""",
-    longDesc =
+    longDesc = 
 u"""
 ethyl radic  IU1/07
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -748,9 +747,9 @@ C[CH2]
 )
 
 entry(
-    index = 22,
+    index = 21,
     label = "C2H6",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -770,7 +769,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""g 8/88""",
-    longDesc =
+    longDesc = 
 u"""
 g 8/88
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -787,9 +786,9 @@ CC
 )
 
 entry(
-    index = 23,
+    index = 22,
     label = "CH3O",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -807,7 +806,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""METHOXY RA  IU1/03""",
-    longDesc =
+    longDesc = 
 u"""
 METHOXY RA  IU1/03
 2143-68-2
@@ -821,9 +820,9 @@ C[O]
 )
 
 entry(
-    index = 24,
+    index = 23,
     label = "CH2OH",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -841,7 +840,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""RADICAL     IU2/03""",
-    longDesc =
+    longDesc = 
 u"""
 RADICAL     IU2/03
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -860,9 +859,9 @@ Hudgens JPC 100 (1996),19874  extrapolated to 6000 K    REF=Ruscic et al JPCRD
 )
 
 entry(
-    index = 25,
+    index = 24,
     label = "CH2(S)",
-    molecule =
+    molecule = 
 """
 1 C u0 p1 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -877,7 +876,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""DHf(0K) =    93.49 [kcal/mol], taken from SJK v0.9.""",
-    longDesc =
+    longDesc = 
 u"""
 DHf(0K) =    93.49 [kcal/mol], taken from SJK v0.9.
 Q(T) from B3LYP/6-311++G(d,p) by CFG on  06Sep2013
@@ -900,9 +899,9 @@ CH2(S) SINGLET    IU6/03C  1.H  2.   0.   0.G   200.000  6000.000  1000.000,    
 )
 
 entry(
-    index = 26,
+    index = 25,
     label = "C2H3",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -920,7 +919,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Vinyl Radi  ATcT/A""",
-    longDesc =
+    longDesc = 
 u"""
 Vinyl Radi  ATcT/A
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -942,9 +941,9 @@ Cp @ 400 K 0.54%..
 )
 
 entry(
-    index = 27,
+    index = 26,
     label = "CH2O",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 O u0 p2 c0 {1,D}
@@ -960,7 +959,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Formaldehyde T 5/11""",
-    longDesc =
+    longDesc = 
 u"""
 Formaldehyde T 5/11
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -978,9 +977,9 @@ C=O
 )
 
 entry(
-    index = 28,
+    index = 27,
     label = "C2H2",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -996,7 +995,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""g 1/91""",
-    longDesc =
+    longDesc = 
 u"""
 g 1/91
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -1017,9 +1016,9 @@ C#C
 )
 
 entry(
-    index = 29,
+    index = 28,
     label = "HCO",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,D}
@@ -1035,7 +1034,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 5/03""",
-    longDesc =
+    longDesc = 
 u"""
 T 5/03
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -1054,9 +1053,9 @@ CHO               T 5/03C  1.H  1.O  1.   0.G   200.000  6000.000  A  29.01804 1
 )
 
 entry(
-    index = 30,
+    index = 29,
     label = "CH2",
-    molecule =
+    molecule = 
 """
 multiplicity 3
 1 C u2 p0 c0 {2,S} {3,S}
@@ -1072,7 +1071,7 @@ multiplicity 3
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""DHf(0K) =   141.76 [kcal/mol], taken from SJK v0.9.""",
-    longDesc =
+    longDesc = 
 u"""
 DHf(0K) =   141.76 [kcal/mol], taken from SJK v0.9.
 Q(T) from B3LYP/6-311++G(d,p) by CFG on  06Sep2013
@@ -1099,9 +1098,9 @@ Duplicate of species CH2(S) (i.e. same molecular structure according to RMG)
 )
 
 entry(
-    index = 31,
+    index = 30,
     label = "HOCO",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,D}
@@ -1118,7 +1117,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""FAB/JAN05""",
-    longDesc =
+    longDesc = 
 u"""
 FAB/JAN05
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -1148,9 +1147,9 @@ O=[C]O
 )
 
 entry(
-    index = 32,
+    index = 31,
     label = "CH3OO",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -1169,7 +1168,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical""",
-    longDesc =
+    longDesc = 
 u"""
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
 http://burcat.technion.ac.il/dir/
@@ -1192,9 +1191,9 @@ CO[O]
 )
 
 entry(
-    index = 33,
+    index = 32,
     label = "HOCHO",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -1211,7 +1210,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""FORMIC ACID A 5/14""",
-    longDesc =
+    longDesc = 
 u"""
 FORMIC ACID A 5/14
 Marshall and Glarborg, Proc. Combust. Inst. 35 (2015) 153-160
@@ -1227,9 +1226,9 @@ O=CO
 )
 
 entry(
-    index = 34,
+    index = 33,
     label = "CH3OOH",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -1248,7 +1247,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""Marshall and Glarborg, Proc. Combust. Inst. 35 (2015) 153-160""",
-    longDesc =
+    longDesc = 
 u"""
 Marshall and Glarborg, Proc. Combust. Inst. 35 (2015) 153-160
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1257,9 +1256,9 @@ COO
 )
 
 entry(
-    index = 35,
+    index = 34,
     label = "OCHO",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -1276,7 +1275,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""1104""",
-    longDesc =
+    longDesc = 
 u"""
 1104
 Fabian WMF Janoschek R J Mol Struct THEOCHEM 2005, 713, 227-234
@@ -1288,9 +1287,9 @@ Low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 36,
+    index = 35,
     label = "CH3CH2O",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -1311,7 +1310,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T06/11""",
-    longDesc =
+    longDesc = 
 u"""
 T06/11
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -1339,9 +1338,9 @@ CC[O]
 )
 
 entry(
-    index = 37,
+    index = 36,
     label = "CH2OOH",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {4,S} {5,S}
@@ -1360,7 +1359,7 @@ multiplicity 2
         Tmax = (2500,'K'),
     ),
     shortDesc = u"""H298 = 15.79 kcal/mol [JAN/ROS04]""",
-    longDesc =
+    longDesc = 
 u"""
 H298 = 15.79 kcal/mol [JAN/ROS04]
 S298 = 65.89 cal/mol/K [JAN/ROS04]
@@ -1370,9 +1369,9 @@ Cp(T) scaled Cp[CH3OO](T) to Cp298 = 14.89 cal/mol/K [JAN/ROS04].
 )
 
 entry(
-    index = 38,
+    index = 37,
     label = "CH3CHO",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,D} {7,S}
@@ -1391,7 +1390,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc =
+    longDesc = 
 u"""
 L 8/88
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -1410,9 +1409,9 @@ CC=O
 )
 
 entry(
-    index = 39,
+    index = 38,
     label = "CH3CH2OH",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -1433,7 +1432,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc =
+    longDesc = 
 u"""
 L 8/88
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -1474,9 +1473,9 @@ CCO
 )
 
 entry(
-    index = 40,
+    index = 39,
     label = "CH2CHO",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -1495,7 +1494,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Vinyl-  T04/06""",
-    longDesc =
+    longDesc = 
 u"""
 Vinyl-  T04/06
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -1515,9 +1514,9 @@ CH2=CHO*  Vinyl-  T04/06C  2.H  3.O  1.   0.G   200.000  6000.000  B  43.04462 1
 )
 
 entry(
-    index = 41,
+    index = 40,
     label = "CH2CH2OH",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -1538,7 +1537,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T05/11""",
-    longDesc =
+    longDesc = 
 u"""
 T05/11
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -1558,9 +1557,9 @@ REF=Yamada, Bozzelli, Lay JPC A 103 (1999),7646  Vib=scaled x 0.9;  HF298=-25.82
 )
 
 entry(
-    index = 42,
+    index = 41,
     label = "CH3CHOH",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -1581,7 +1580,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T06/11""",
-    longDesc =
+    longDesc = 
 u"""
 T06/11
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -1602,9 +1601,9 @@ C[CH]O
 )
 
 entry(
-    index = 43,
+    index = 42,
     label = "CH2CHOH",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -1623,7 +1622,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T03/10""",
-    longDesc =
+    longDesc = 
 u"""
 T03/10
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -1643,9 +1642,9 @@ C=CO
 )
 
 entry(
-    index = 44,
+    index = 43,
     label = "CH3CO",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -1664,7 +1663,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""RADICAL    IU2/03""",
-    longDesc =
+    longDesc = 
 u"""
 RADICAL    IU2/03
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -1684,9 +1683,9 @@ C[C]=O
 )
 
 entry(
-    index = 45,
+    index = 44,
     label = "CHCHOH",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -1705,7 +1704,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Lopez et al., Experimental and Kinetic Modeling Study of C2H2 Oxidation at High Pressure, Int. J. Chem. Kin., 2016""",
-    longDesc =
+    longDesc = 
 u"""
 Lopez et al., Experimental and Kinetic Modeling Study of C2H2 Oxidation at High Pressure, Int. J. Chem. Kin., 2016.
 [CH]=CO
@@ -1713,9 +1712,9 @@ Lopez et al., Experimental and Kinetic Modeling Study of C2H2 Oxidation at High 
 )
 
 entry(
-    index = 46,
+    index = 45,
     label = "CH2CO",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,D}
@@ -1732,7 +1731,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""g 4/02""",
-    longDesc =
+    longDesc = 
 u"""
 g 4/02
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -1751,9 +1750,9 @@ C=C=O
 )
 
 entry(
-    index = 47,
+    index = 46,
     label = "HCCOH",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -1770,7 +1769,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Ethynol   T12/09""",
-    longDesc =
+    longDesc = 
 u"""
 Ethynol   T12/09
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -1789,9 +1788,9 @@ C#CO
 )
 
 entry(
-    index = 48,
+    index = 47,
     label = "CH2CHOOH",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 C u0 p0 c0 {1,D} {6,S} {7,S}
@@ -1811,7 +1810,7 @@ entry(
         Tmax = (2000,'K'),
     ),
     shortDesc = u"""0""",
-    longDesc =
+    longDesc = 
 u"""
 0
 in Marshall and Glarborg, Proc. Combust. Inst. 35 (2015) 153-160
@@ -1830,9 +1829,9 @@ C=COO
 )
 
 entry(
-    index = 49,
+    index = 48,
     label = "HCCO",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,T} {4,S}
@@ -1849,7 +1848,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 4/09""",
-    longDesc =
+    longDesc = 
 u"""
 T 4/09
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -1878,9 +1877,9 @@ C#C[O]
 )
 
 entry(
-    index = 50,
+    index = 49,
     label = "CH2CHOO",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -1900,7 +1899,7 @@ multiplicity 2
         Tmax = (2000,'K'),
     ),
     shortDesc = u"""0""",
-    longDesc =
+    longDesc = 
 u"""
 0
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -1913,9 +1912,9 @@ C=CO[O]
 )
 
 entry(
-    index = 51,
+    index = 50,
     label = "CH3CH2OO",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -1937,7 +1936,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""J Gimenez CL Rasmussen MU Alzueta P Marshall P Glarborg Proc. Combust. Inst. 32 (2009) 367-375""",
-    longDesc =
+    longDesc = 
 u"""
 J Gimenez CL Rasmussen MU Alzueta P Marshall P Glarborg Proc. Combust. Inst. 32 (2009) 367-375
 107-31-3
@@ -1971,9 +1970,9 @@ CCO[O]
 )
 
 entry(
-    index = 52,
+    index = 51,
     label = "HOCH2CH2OO",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -1996,7 +1995,7 @@ multiplicity 2
         Tmax = (2500,'K'),
     ),
     shortDesc = u"""Bozzelli 2015; PM""",
-    longDesc =
+    longDesc = 
 u"""
 Bozzelli 2015; PM
 40135-01-1
@@ -2008,9 +2007,9 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 53,
+    index = 52,
     label = "CH3CH2OOH",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -2032,7 +2031,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T02/10""",
-    longDesc =
+    longDesc = 
 u"""
 T02/10
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -2063,9 +2062,9 @@ CCOO
 )
 
 entry(
-    index = 54,
+    index = 53,
     label = "CH2CH2OOH",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -2087,7 +2086,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 4/15""",
-    longDesc =
+    longDesc = 
 u"""
 T 4/15
 Janoschek R Rossi MJ Int J Chem Kinet 2004 36 661-686
@@ -2104,9 +2103,9 @@ Cp @ 6000 K 0.44%.
 )
 
 entry(
-    index = 55,
+    index = 54,
     label = "CH3CHOOH",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -2128,7 +2127,7 @@ multiplicity 2
         Tmax = (2500,'K'),
     ),
     shortDesc = u"""E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical""",
-    longDesc =
+    longDesc = 
 u"""
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
 http://burcat.technion.ac.il/dir/
@@ -2143,9 +2142,9 @@ C[CH]OO
 )
 
 entry(
-    index = 56,
+    index = 55,
     label = "cC2H4O",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
@@ -2164,7 +2163,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""OXYRANE    L 8/88""",
-    longDesc =
+    longDesc = 
 u"""
 OXYRANE    L 8/88
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -2182,9 +2181,9 @@ C1CO1
 )
 
 entry(
-    index = 57,
+    index = 56,
     label = "cC2H3O",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -2203,7 +2202,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""A 1/05""",
-    longDesc =
+    longDesc = 
 u"""
 A 1/05
 Goldsmith et al., J. Phys. Chem. A 2012, 116, 3325-3346
@@ -2218,9 +2217,9 @@ C2H3O Oxyrane Rad A 1/05C  2.H  3.O  1.   0.G   200.000  6000.000  B  43.04462 1
 )
 
 entry(
-    index = 58,
+    index = 57,
     label = "OCHCHO",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -2238,7 +2237,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Marshall and Glarborg, Proc. Combust. Inst. 35 (2015) 153-160""",
-    longDesc =
+    longDesc = 
 u"""
 Marshall and Glarborg, Proc. Combust. Inst. 35 (2015) 153-160
 107-22-2
@@ -2261,9 +2260,9 @@ O=CC=O
 )
 
 entry(
-    index = 59,
+    index = 58,
     label = "HOCH2O",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -2282,7 +2281,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""1311""",
-    longDesc =
+    longDesc = 
 u"""
 1311
 Aranda, V., et al., Int. J. Chemical Kinet. 45.5 (2013): 283-294.
@@ -2293,9 +2292,9 @@ Marshall and Glarborg, Proc. Combust. Inst. 35 (2015) 153-160.
 )
 
 entry(
-    index = 60,
+    index = 59,
     label = "OCHCO",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -2313,7 +2312,7 @@ multiplicity 2
         Tmax = (2900,'K'),
     ),
     shortDesc = u"""0""",
-    longDesc =
+    longDesc = 
 u"""
 0
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -2341,9 +2340,9 @@ Low T polynomial Tmin changed from 350.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 61,
+    index = 60,
     label = "CH3C(O)O",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -2363,7 +2362,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""1508""",
-    longDesc =
+    longDesc = 
 u"""
 1508
 J Gimenez CL Rasmussen MU Alzueta P Marshall P Glarborg Proc. Combust. Inst. 32 (2009) 367-375
@@ -2374,9 +2373,9 @@ CC([O])=O
 )
 
 entry(
-    index = 62,
+    index = 61,
     label = "C2",
-    molecule =
+    molecule = 
 """
 multiplicity 3
 1 C u2 p0 c0 {2,D}
@@ -2391,9 +2390,8 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""singlet        T05/09""",
-    longDesc =
+    longDesc = 
 u"""
-
 Note: This species should be in a singlet form (multiplicity = 1), but currently RMG won't accept it
 (Same for the Klippenstein_Glarborg2016 kinetic library)
 
@@ -2412,9 +2410,9 @@ Max Lst Sq Error Cp @ 1300 K 0.32%..
 )
 
 entry(
-    index = 63,
+    index = 62,
     label = "CH3C(O)OO",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -2435,7 +2433,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""1508""",
-    longDesc =
+    longDesc = 
 u"""
 1508
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -2457,9 +2455,9 @@ CC(=O)O[O]
 )
 
 entry(
-    index = 64,
+    index = 63,
     label = "CH3C(O)OOH",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,S} {8,D}
@@ -2480,7 +2478,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""1508""",
-    longDesc =
+    longDesc = 
 u"""
 1508
 Bozzelli 2015; PM.
@@ -2489,9 +2487,9 @@ CC(=O)OO
 )
 
 entry(
-    index = 65,
+    index = 64,
     label = "C2O",
-    molecule =
+    molecule = 
 """
 multiplicity 3
 1 C u0 p0 c0 {2,T} {3,S}
@@ -2507,7 +2505,7 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 8/11""",
-    longDesc =
+    longDesc = 
 u"""
 T 8/11
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -2528,9 +2526,9 @@ Newmark JCP 108,(1998),4070 and Williams & Fleming Proc. Comb. Inst 31,(2007),
 )
 
 entry(
-    index = 66,
+    index = 65,
     label = "HCOH",
-    molecule =
+    molecule = 
 """
 1 O u0 p1 c+1 {2,D} {4,S}
 2 C u0 p1 c-1 {1,D} {3,S}
@@ -2546,7 +2544,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""CH**-OH cis T 9/09""",
-    longDesc =
+    longDesc = 
 u"""
 CH**-OH cis T 9/09
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
@@ -2582,9 +2580,9 @@ REF=ATcT C 2011}  Max Lst Sq Error Cp @ 6000 K 0.49%..
 )
 
 entry(
-    index = 67,
+    index = 66,
     label = "CHCHO",
-    molecule =
+    molecule = 
 """
 multiplicity 3
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -2602,7 +2600,7 @@ multiplicity 3
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical""",
-    longDesc =
+    longDesc = 
 u"""
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
 http://burcat.technion.ac.il/dir/
@@ -2613,9 +2611,9 @@ Accessed April 2016.
 )
 
 entry(
-    index = 68,
+    index = 67,
     label = "H2CC",
-    molecule =
+    molecule = 
 """
 multiplicity 3
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -2632,7 +2630,7 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Vinylidene   T 7/11""",
-    longDesc =
+    longDesc = 
 u"""
 Vinylidene   T 7/11
 E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical

@@ -13,28 +13,28 @@ Guy B. Marin, William H. Green, "Detailed study of cyclopentadiene pyrolysis in 
 presence of ethene: realistic pathways from C5H5 to naphthalene." (2016)
 """
 entry(
-    index = 1,
+    index = 0,
     label = "biCPD3ene",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {5,S} {11,S}
-2  C u0 p0 c0 {1,D} {3,S} {12,S}
-3  C u0 p0 c0 {2,S} {4,S} {6,D}
-4  C u0 p0 c0 {3,S} {5,D} {13,S}
-5  C u0 p0 c0 {1,S} {4,D} {14,S}
-6  C u0 p0 c0 {3,D} {7,S} {10,S}
-7  C u0 p0 c0 {6,S} {8,D} {15,S}
-8  C u0 p0 c0 {7,D} {9,S} {16,S}
-9  C u0 p0 c0 {8,S} {10,D} {17,S}
-10 C u0 p0 c0 {6,S} {9,D} {18,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,D} {3,S} {4,S}
+2  C u0 p0 c0 {1,D} {5,S} {6,S}
+3  C u0 p0 c0 {1,S} {7,D} {12,S}
+4  C u0 p0 c0 {1,S} {8,D} {13,S}
+5  C u0 p0 c0 {2,S} {9,D} {15,S}
+6  C u0 p0 c0 {2,S} {10,D} {18,S}
+7  C u0 p0 c0 {3,D} {8,S} {11,S}
+8  C u0 p0 c0 {4,D} {7,S} {14,S}
+9  C u0 p0 c0 {5,D} {10,S} {16,S}
+10 C u0 p0 c0 {6,D} {9,S} {17,S}
+11 H u0 p0 c0 {7,S}
+12 H u0 p0 c0 {3,S}
 13 H u0 p0 c0 {4,S}
-14 H u0 p0 c0 {5,S}
-15 H u0 p0 c0 {7,S}
-16 H u0 p0 c0 {8,S}
-17 H u0 p0 c0 {9,S}
-18 H u0 p0 c0 {10,S}
+14 H u0 p0 c0 {8,S}
+15 H u0 p0 c0 {5,S}
+16 H u0 p0 c0 {9,S}
+17 H u0 p0 c0 {10,S}
+18 H u0 p0 c0 {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -50,30 +50,30 @@ u"""
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "adducta",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {5,S} {11,S}
-2  C u0 p0 c0 {1,S} {3,D} {12,S}
-3  C u0 p0 c0 {2,D} {4,S} {13,S}
-4  C u0 p0 c0 {3,S} {5,D} {14,S}
-5  C u0 p0 c0 {1,S} {4,D} {6,S}
-6  C u0 p0 c0 {5,S} {7,S} {10,S} {15,S}
-7  C u0 p0 c0 {6,S} {8,D} {16,S}
-8  C u0 p0 c0 {7,D} {9,S} {17,S}
-9  C u0 p0 c0 {8,S} {10,D} {18,S}
-10 C u0 p0 c0 {6,S} {9,D} {19,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {11,S}
+2  C u0 p0 c0 {1,S} {5,S} {6,D}
+3  C u0 p0 c0 {1,S} {7,D} {12,S}
+4  C u0 p0 c0 {1,S} {8,D} {13,S}
+5  C u1 p0 c0 {2,S} {9,S} {14,S}
+6  C u0 p0 c0 {2,D} {10,S} {17,S}
+7  C u0 p0 c0 {3,D} {8,S} {18,S}
+8  C u0 p0 c0 {4,D} {7,S} {19,S}
+9  C u0 p0 c0 {5,S} {10,D} {15,S}
+10 C u0 p0 c0 {6,S} {9,D} {16,S}
 11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {2,S}
-13 H u0 p0 c0 {3,S}
-14 H u0 p0 c0 {4,S}
-15 H u0 p0 c0 {6,S}
-16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {8,S}
-18 H u0 p0 c0 {9,S}
-19 H u0 p0 c0 {10,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {5,S}
+15 H u0 p0 c0 {9,S}
+16 H u0 p0 c0 {10,S}
+17 H u0 p0 c0 {6,S}
+18 H u0 p0 c0 {7,S}
+19 H u0 p0 c0 {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -89,30 +89,30 @@ u"""
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "adductb",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {5,S} {11,S} {12,S}
-2  C u0 p0 c0 {1,S} {3,D} {6,S}
-3  C u0 p0 c0 {2,D} {4,S} {13,S}
-4  C u0 p0 c0 {3,S} {5,D} {14,S}
-5  C u0 p0 c0 {1,S} {4,D} {15,S}
-6  C u0 p0 c0 {2,S} {7,D} {10,S}
-7  C u0 p0 c0 {6,D} {8,S} {16,S}
-8  C u0 p0 c0 {7,S} {9,D} {17,S}
-9  C u0 p0 c0 {8,D} {10,S} {18,S}
-10 C u1 p0 c0 {6,S} {9,S} {19,S}
+1  C u0 p0 c0 {2,S} {4,S} {11,S} {12,S}
+2  C u0 p0 c0 {1,S} {3,S} {5,D}
+3  C u0 p0 c0 {2,S} {6,D} {7,S}
+4  C u0 p0 c0 {1,S} {8,D} {13,S}
+5  C u0 p0 c0 {2,D} {8,S} {14,S}
+6  C u0 p0 c0 {3,D} {9,S} {16,S}
+7  C u1 p0 c0 {3,S} {10,S} {19,S}
+8  C u0 p0 c0 {4,D} {5,S} {15,S}
+9  C u0 p0 c0 {6,S} {10,D} {17,S}
+10 C u0 p0 c0 {7,S} {9,D} {18,S}
 11 H u0 p0 c0 {1,S}
 12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {3,S}
-14 H u0 p0 c0 {4,S}
-15 H u0 p0 c0 {5,S}
-16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {8,S}
-18 H u0 p0 c0 {9,S}
-19 H u0 p0 c0 {10,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {5,S}
+15 H u0 p0 c0 {8,S}
+16 H u0 p0 c0 {6,S}
+17 H u0 p0 c0 {9,S}
+18 H u0 p0 c0 {10,S}
+19 H u0 p0 c0 {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -128,29 +128,29 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "adductc",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {10,S} {11,S}
-2  C u0 p0 c0 {1,S} {3,D} {12,S}
-3  C u0 p0 c0 {2,D} {4,S} {9,S}
-4  C u0 p0 c0 {3,S} {5,S} {8,D}
-5  C u0 p0 c0 {4,S} {6,D} {13,S}
-6  C u0 p0 c0 {5,D} {7,S} {14,S}
-7  C u0 p0 c0 {6,S} {8,S} {15,S} {16,S}
-8  C u0 p0 c0 {4,D} {7,S} {17,S}
-9  C u0 p0 c0 {3,S} {10,D} {18,S}
-10 C u0 p0 c0 {1,S} {9,D} {19,S}
+1  C u0 p0 c0 {4,S} {5,S} {11,S} {12,S}
+2  C u0 p0 c0 {3,S} {4,D} {6,S}
+3  C u0 p0 c0 {2,S} {7,D} {8,S}
+4  C u0 p0 c0 {1,S} {2,D} {14,S}
+5  C u0 p0 c0 {1,S} {6,D} {13,S}
+6  C u0 p0 c0 {2,S} {5,D} {17,S}
+7  C u0 p0 c0 {3,D} {9,S} {16,S}
+8  C u0 p0 c0 {3,S} {10,D} {18,S}
+9  C u1 p0 c0 {7,S} {10,S} {15,S}
+10 C u0 p0 c0 {8,D} {9,S} {19,S}
 11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {1,S}
 13 H u0 p0 c0 {5,S}
-14 H u0 p0 c0 {6,S}
-15 H u0 p0 c0 {7,S}
+14 H u0 p0 c0 {4,S}
+15 H u0 p0 c0 {9,S}
 16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {8,S}
-18 H u0 p0 c0 {9,S}
+17 H u0 p0 c0 {6,S}
+18 H u0 p0 c0 {8,S}
 19 H u0 p0 c0 {10,S}
 """,
     thermo = ThermoData(
@@ -167,30 +167,30 @@ u"""
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "prod1",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {5,S} {11,S}
-2  C u0 p0 c0 {1,D} {3,S} {12,S}
-3  C u0 p0 c0 {2,S} {4,S} {6,S} {10,S}
-4  C u0 p0 c0 {3,S} {5,D} {13,S}
-5  C u0 p0 c0 {1,S} {4,D} {14,S}
-6  C u0 p0 c0 {3,S} {7,S} {10,S} {15,S}
-7  C u0 p0 c0 {6,S} {8,D} {16,S}
-8  C u0 p0 c0 {7,D} {9,S} {17,S}
-9  C u1 p0 c0 {8,S} {10,S} {18,S}
-10 C u0 p0 c0 {3,S} {6,S} {9,S} {19,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {3,S} {6,S} {11,S}
+3  C u0 p0 c0 {1,S} {2,S} {7,S} {12,S}
+4  C u0 p0 c0 {1,S} {9,D} {13,S}
+5  C u0 p0 c0 {1,S} {10,D} {14,S}
+6  C u0 p0 c0 {2,S} {8,D} {15,S}
+7  C u1 p0 c0 {3,S} {8,S} {16,S}
+8  C u0 p0 c0 {6,D} {7,S} {19,S}
+9  C u0 p0 c0 {4,D} {10,S} {17,S}
+10 C u0 p0 c0 {5,D} {9,S} {18,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {3,S}
 13 H u0 p0 c0 {4,S}
 14 H u0 p0 c0 {5,S}
 15 H u0 p0 c0 {6,S}
 16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {8,S}
-18 H u0 p0 c0 {9,S}
-19 H u0 p0 c0 {10,S}
+17 H u0 p0 c0 {9,S}
+18 H u0 p0 c0 {10,S}
+19 H u0 p0 c0 {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -206,30 +206,30 @@ u"""
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "prod2",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {5,S} {11,S}
-2  C u0 p0 c0 {1,D} {3,S} {12,S}
-3  C u0 p0 c0 {2,S} {4,S} {6,S} {10,S}
-4  C u0 p0 c0 {3,S} {5,D} {13,S}
-5  C u0 p0 c0 {1,S} {4,D} {14,S}
-6  C u1 p0 c0 {3,S} {7,S} {15,S}
-7  C u0 p0 c0 {6,S} {8,D} {16,S}
-8  C u0 p0 c0 {7,D} {9,S} {17,S}
-9  C u0 p0 c0 {8,S} {10,D} {18,S}
-10 C u0 p0 c0 {3,S} {9,D} {19,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,D} {11,S}
+3  C u0 p0 c0 {1,S} {7,D} {12,S}
+4  C u1 p0 c0 {1,S} {8,S} {13,S}
+5  C u0 p0 c0 {1,S} {9,D} {14,S}
+6  C u0 p0 c0 {2,D} {7,S} {15,S}
+7  C u0 p0 c0 {3,D} {6,S} {16,S}
+8  C u0 p0 c0 {4,S} {10,D} {17,S}
+9  C u0 p0 c0 {5,D} {10,S} {19,S}
+10 C u0 p0 c0 {8,D} {9,S} {18,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {3,S}
 13 H u0 p0 c0 {4,S}
 14 H u0 p0 c0 {5,S}
 15 H u0 p0 c0 {6,S}
 16 H u0 p0 c0 {7,S}
 17 H u0 p0 c0 {8,S}
-18 H u0 p0 c0 {9,S}
-19 H u0 p0 c0 {10,S}
+18 H u0 p0 c0 {10,S}
+19 H u0 p0 c0 {9,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -245,30 +245,30 @@ u"""
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "prod4",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {10,S} {11,S}
-2  C u0 p0 c0 {1,S} {3,D} {7,S}
-3  C u0 p0 c0 {2,D} {4,S} {12,S}
-4  C u0 p0 c0 {3,S} {5,D} {13,S}
-5  C u0 p0 c0 {4,D} {6,S} {14,S}
-6  C u1 p0 c0 {1,S} {5,S} {15,S}
-7  C u0 p0 c0 {2,S} {8,D} {16,S}
-8  C u0 p0 c0 {7,D} {9,S} {17,S}
-9  C u0 p0 c0 {8,S} {10,D} {18,S}
-10 C u0 p0 c0 {1,S} {9,D} {19,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {11,S}
+2  C u0 p0 c0 {1,S} {5,D} {6,S}
+3  C u1 p0 c0 {1,S} {7,S} {12,S}
+4  C u0 p0 c0 {1,S} {8,D} {13,S}
+5  C u0 p0 c0 {2,D} {9,S} {14,S}
+6  C u0 p0 c0 {2,S} {10,D} {17,S}
+7  C u0 p0 c0 {3,S} {9,D} {16,S}
+8  C u0 p0 c0 {4,D} {10,S} {19,S}
+9  C u0 p0 c0 {5,S} {7,D} {15,S}
+10 C u0 p0 c0 {6,D} {8,S} {18,S}
 11 H u0 p0 c0 {1,S}
 12 H u0 p0 c0 {3,S}
 13 H u0 p0 c0 {4,S}
 14 H u0 p0 c0 {5,S}
-15 H u0 p0 c0 {6,S}
+15 H u0 p0 c0 {9,S}
 16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {8,S}
-18 H u0 p0 c0 {9,S}
-19 H u0 p0 c0 {10,S}
+17 H u0 p0 c0 {6,S}
+18 H u0 p0 c0 {10,S}
+19 H u0 p0 c0 {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -284,28 +284,28 @@ u"""
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "prod5",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,D} {10,S}
-2  C u0 p0 c0 {1,S} {3,D} {11,S}
-3  C u0 p0 c0 {2,D} {4,S} {12,S}
-4  C u0 p0 c0 {3,S} {5,D} {13,S}
-5  C u1 p0 c0 {4,D} {14,S}
-6  C u0 p0 c0 {1,D} {7,S} {15,S}
-7  C u0 p0 c0 {6,S} {8,D} {16,S}
-8  C u0 p0 c0 {7,D} {9,S} {17,S}
+1  C u0 p0 c0 {2,S} {3,D} {4,S}
+2  C u0 p0 c0 {1,S} {8,D} {11,S}
+3  C u0 p0 c0 {1,D} {5,S} {13,S}
+4  C u0 p0 c0 {1,S} {7,D} {17,S}
+5  C u0 p0 c0 {3,S} {6,D} {14,S}
+6  C u0 p0 c0 {5,D} {7,S} {15,S}
+7  C u0 p0 c0 {4,D} {6,S} {16,S}
+8  C u0 p0 c0 {2,D} {9,S} {12,S}
 9  C u0 p0 c0 {8,S} {10,D} {18,S}
-10 C u0 p0 c0 {1,S} {9,D} {19,S}
+10 C u1 p0 c0 {9,D} {19,S}
 11 H u0 p0 c0 {2,S}
-12 H u0 p0 c0 {3,S}
-13 H u0 p0 c0 {4,S}
+12 H u0 p0 c0 {8,S}
+13 H u0 p0 c0 {3,S}
 14 H u0 p0 c0 {5,S}
 15 H u0 p0 c0 {6,S}
 16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {8,S}
+17 H u0 p0 c0 {4,S}
 18 H u0 p0 c0 {9,S}
 19 H u0 p0 c0 {10,S}
 """,
@@ -323,28 +323,28 @@ u"""
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "naphthalene",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {10,S} {11,S}
-2  C u0 p0 c0 {1,D} {3,S} {12,S}
-3  C u0 p0 c0 {2,S} {4,D} {13,S}
-4  C u0 p0 c0 {3,D} {5,S} {14,S}
-5  C u0 p0 c0 {4,S} {6,D} {10,S}
-6  C u0 p0 c0 {5,D} {7,S} {15,S}
-7  C u0 p0 c0 {6,S} {8,D} {16,S}
-8  C u0 p0 c0 {7,D} {9,S} {17,S}
-9  C u0 p0 c0 {8,S} {10,D} {18,S}
-10 C u0 p0 c0 {1,S} {5,S} {9,D}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {2,S}
-13 H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,D}
+2  C u0 p0 c0 {1,S} {3,S} {6,D}
+3  C u0 p0 c0 {2,S} {7,D} {11,S}
+4  C u0 p0 c0 {1,S} {8,D} {14,S}
+5  C u0 p0 c0 {1,D} {9,S} {15,S}
+6  C u0 p0 c0 {2,D} {10,S} {18,S}
+7  C u0 p0 c0 {3,D} {8,S} {12,S}
+8  C u0 p0 c0 {4,D} {7,S} {13,S}
+9  C u0 p0 c0 {5,S} {10,D} {16,S}
+10 C u0 p0 c0 {6,S} {9,D} {17,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {7,S}
+13 H u0 p0 c0 {8,S}
 14 H u0 p0 c0 {4,S}
-15 H u0 p0 c0 {6,S}
-16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {8,S}
-18 H u0 p0 c0 {9,S}
+15 H u0 p0 c0 {5,S}
+16 H u0 p0 c0 {9,S}
+17 H u0 p0 c0 {10,S}
+18 H u0 p0 c0 {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -360,27 +360,27 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "prod3",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {3,S} {6,S} {10,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {3,S} {7,S} {11,S}
-3  C u0 p0 c0 {1,S} {2,S} {4,S} {12,S}
-4  C u0 p0 c0 {3,S} {5,D} {13,S}
-5  C u0 p0 c0 {4,D} {6,S} {14,S}
-6  C u1 p0 c0 {1,S} {5,S} {15,S}
-7  C u0 p0 c0 {2,S} {8,D} {16,S}
-8  C u0 p0 c0 {7,D} {9,S} {17,S}
-9  C u0 p0 c0 {8,S} {10,D} {18,S}
-10 C u0 p0 c0 {1,S} {9,D} {19,S}
+3  C u0 p0 c0 {1,S} {2,S} {6,S} {12,S}
+4  C u1 p0 c0 {1,S} {8,S} {14,S}
+5  C u0 p0 c0 {1,S} {10,D} {16,S}
+6  C u0 p0 c0 {3,S} {8,D} {13,S}
+7  C u0 p0 c0 {2,S} {9,D} {15,S}
+8  C u0 p0 c0 {4,S} {6,D} {17,S}
+9  C u0 p0 c0 {7,D} {10,S} {18,S}
+10 C u0 p0 c0 {5,D} {9,S} {19,S}
 11 H u0 p0 c0 {2,S}
 12 H u0 p0 c0 {3,S}
-13 H u0 p0 c0 {4,S}
-14 H u0 p0 c0 {5,S}
-15 H u0 p0 c0 {6,S}
-16 H u0 p0 c0 {7,S}
+13 H u0 p0 c0 {6,S}
+14 H u0 p0 c0 {4,S}
+15 H u0 p0 c0 {7,S}
+16 H u0 p0 c0 {5,S}
 17 H u0 p0 c0 {8,S}
 18 H u0 p0 c0 {9,S}
 19 H u0 p0 c0 {10,S}
@@ -399,20 +399,20 @@ u"""
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "biCPD_1",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {5,S} {11,S}
-2  C u0 p0 c0 {1,D} {3,S} {12,S}
-3  C u0 p0 c0 {2,S} {4,D} {13,S}
-4  C u0 p0 c0 {3,D} {5,S} {14,S}
-5  C u0 p0 c0 {1,S} {4,S} {6,S} {15,S}
-6  C u0 p0 c0 {5,S} {7,S} {10,S} {16,S}
-7  C u0 p0 c0 {6,S} {8,D} {17,S}
-8  C u0 p0 c0 {7,D} {9,S} {18,S}
-9  C u0 p0 c0 {8,S} {10,D} {19,S}
-10 C u0 p0 c0 {6,S} {9,D} {20,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {11,S}
+2  C u0 p0 c0 {1,S} {5,S} {6,S} {12,S}
+3  C u0 p0 c0 {1,S} {7,D} {13,S}
+4  C u0 p0 c0 {1,S} {8,D} {14,S}
+5  C u0 p0 c0 {2,S} {9,D} {15,S}
+6  C u0 p0 c0 {2,S} {10,D} {16,S}
+7  C u0 p0 c0 {3,D} {8,S} {17,S}
+8  C u0 p0 c0 {4,D} {7,S} {18,S}
+9  C u0 p0 c0 {5,D} {10,S} {19,S}
+10 C u0 p0 c0 {6,D} {9,S} {20,S}
 11 H u0 p0 c0 {1,S}
 12 H u0 p0 c0 {2,S}
 13 H u0 p0 c0 {3,S}
@@ -438,29 +438,29 @@ u"""
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "biCPD_2",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {5,S} {11,S}
-2  C u0 p0 c0 {1,D} {3,S} {12,S}
-3  C u0 p0 c0 {2,S} {4,D} {13,S}
-4  C u0 p0 c0 {3,D} {5,S} {14,S}
-5  C u0 p0 c0 {1,S} {4,S} {6,S} {15,S}
-6  C u0 p0 c0 {5,S} {7,D} {10,S}
-7  C u0 p0 c0 {6,D} {8,S} {16,S}
-8  C u0 p0 c0 {7,S} {9,D} {17,S}
-9  C u0 p0 c0 {8,D} {10,S} {18,S}
-10 C u0 p0 c0 {6,S} {9,S} {19,S} {20,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {11,S}
+2  C u0 p0 c0 {3,S} {6,S} {12,S} {13,S}
+3  C u0 p0 c0 {1,S} {2,S} {7,D}
+4  C u0 p0 c0 {1,S} {8,D} {14,S}
+5  C u0 p0 c0 {1,S} {9,D} {15,S}
+6  C u0 p0 c0 {2,S} {10,D} {16,S}
+7  C u0 p0 c0 {3,D} {10,S} {19,S}
+8  C u0 p0 c0 {4,D} {9,S} {17,S}
+9  C u0 p0 c0 {5,D} {8,S} {18,S}
+10 C u0 p0 c0 {6,D} {7,S} {20,S}
 11 H u0 p0 c0 {1,S}
 12 H u0 p0 c0 {2,S}
-13 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {2,S}
 14 H u0 p0 c0 {4,S}
 15 H u0 p0 c0 {5,S}
-16 H u0 p0 c0 {7,S}
+16 H u0 p0 c0 {6,S}
 17 H u0 p0 c0 {8,S}
 18 H u0 p0 c0 {9,S}
-19 H u0 p0 c0 {10,S}
+19 H u0 p0 c0 {7,S}
 20 H u0 p0 c0 {10,S}
 """,
     thermo = ThermoData(
@@ -477,30 +477,30 @@ u"""
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "biCPD_3",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {5,S} {11,S}
-2  C u0 p0 c0 {1,D} {3,S} {12,S}
-3  C u0 p0 c0 {2,S} {4,D} {13,S}
-4  C u0 p0 c0 {3,D} {5,S} {14,S}
-5  C u0 p0 c0 {1,S} {4,S} {6,S} {15,S}
-6  C u0 p0 c0 {5,S} {7,D} {10,S}
-7  C u0 p0 c0 {6,D} {8,S} {16,S}
-8  C u0 p0 c0 {7,S} {9,S} {17,S} {18,S}
-9  C u0 p0 c0 {8,S} {10,D} {19,S}
-10 C u0 p0 c0 {6,S} {9,D} {20,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {11,S}
+2  C u0 p0 c0 {4,S} {7,S} {12,S} {13,S}
+3  C u0 p0 c0 {1,S} {4,D} {8,S}
+4  C u0 p0 c0 {2,S} {3,D} {16,S}
+5  C u0 p0 c0 {1,S} {9,D} {14,S}
+6  C u0 p0 c0 {1,S} {10,D} {15,S}
+7  C u0 p0 c0 {2,S} {8,D} {17,S}
+8  C u0 p0 c0 {3,S} {7,D} {20,S}
+9  C u0 p0 c0 {5,D} {10,S} {18,S}
+10 C u0 p0 c0 {6,D} {9,S} {19,S}
 11 H u0 p0 c0 {1,S}
 12 H u0 p0 c0 {2,S}
-13 H u0 p0 c0 {3,S}
-14 H u0 p0 c0 {4,S}
-15 H u0 p0 c0 {5,S}
-16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {8,S}
-18 H u0 p0 c0 {8,S}
-19 H u0 p0 c0 {9,S}
-20 H u0 p0 c0 {10,S}
+13 H u0 p0 c0 {2,S}
+14 H u0 p0 c0 {5,S}
+15 H u0 p0 c0 {6,S}
+16 H u0 p0 c0 {4,S}
+17 H u0 p0 c0 {7,S}
+18 H u0 p0 c0 {9,S}
+19 H u0 p0 c0 {10,S}
+20 H u0 p0 c0 {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -516,29 +516,29 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "biCPD_4",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {5,S} {11,S} {12,S}
-2  C u0 p0 c0 {1,S} {3,D} {13,S}
-3  C u0 p0 c0 {2,D} {4,S} {14,S}
-4  C u0 p0 c0 {3,S} {5,D} {15,S}
-5  C u0 p0 c0 {1,S} {4,D} {6,S}
-6  C u0 p0 c0 {5,S} {7,D} {10,S}
-7  C u0 p0 c0 {6,D} {8,S} {16,S}
-8  C u0 p0 c0 {7,S} {9,D} {17,S}
-9  C u0 p0 c0 {8,D} {10,S} {18,S}
-10 C u0 p0 c0 {6,S} {9,S} {19,S} {20,S}
+1  C u0 p0 c0 {3,S} {5,S} {11,S} {12,S}
+2  C u0 p0 c0 {4,S} {6,S} {13,S} {14,S}
+3  C u0 p0 c0 {1,S} {4,S} {7,D}
+4  C u0 p0 c0 {2,S} {3,S} {8,D}
+5  C u0 p0 c0 {1,S} {9,D} {15,S}
+6  C u0 p0 c0 {2,S} {10,D} {16,S}
+7  C u0 p0 c0 {3,D} {9,S} {18,S}
+8  C u0 p0 c0 {4,D} {10,S} {19,S}
+9  C u0 p0 c0 {5,D} {7,S} {17,S}
+10 C u0 p0 c0 {6,D} {8,S} {20,S}
 11 H u0 p0 c0 {1,S}
 12 H u0 p0 c0 {1,S}
 13 H u0 p0 c0 {2,S}
-14 H u0 p0 c0 {3,S}
-15 H u0 p0 c0 {4,S}
-16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {8,S}
-18 H u0 p0 c0 {9,S}
-19 H u0 p0 c0 {10,S}
+14 H u0 p0 c0 {2,S}
+15 H u0 p0 c0 {5,S}
+16 H u0 p0 c0 {6,S}
+17 H u0 p0 c0 {9,S}
+18 H u0 p0 c0 {7,S}
+19 H u0 p0 c0 {8,S}
 20 H u0 p0 c0 {10,S}
 """,
     thermo = ThermoData(
@@ -555,30 +555,30 @@ u"""
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "biCPD_5",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {5,S} {11,S} {12,S}
-2  C u0 p0 c0 {1,S} {3,D} {13,S}
-3  C u0 p0 c0 {2,D} {4,S} {14,S}
-4  C u0 p0 c0 {3,S} {5,D} {15,S}
-5  C u0 p0 c0 {1,S} {4,D} {6,S}
-6  C u0 p0 c0 {5,S} {7,D} {10,S}
-7  C u0 p0 c0 {6,D} {8,S} {16,S}
-8  C u0 p0 c0 {7,S} {9,S} {17,S} {18,S}
-9  C u0 p0 c0 {8,S} {10,D} {19,S}
-10 C u0 p0 c0 {6,S} {9,D} {20,S}
+1  C u0 p0 c0 {3,S} {6,S} {11,S} {12,S}
+2  C u0 p0 c0 {5,S} {7,S} {13,S} {14,S}
+3  C u0 p0 c0 {1,S} {4,S} {8,D}
+4  C u0 p0 c0 {3,S} {5,D} {9,S}
+5  C u0 p0 c0 {2,S} {4,D} {16,S}
+6  C u0 p0 c0 {1,S} {10,D} {15,S}
+7  C u0 p0 c0 {2,S} {9,D} {17,S}
+8  C u0 p0 c0 {3,D} {10,S} {19,S}
+9  C u0 p0 c0 {4,S} {7,D} {20,S}
+10 C u0 p0 c0 {6,D} {8,S} {18,S}
 11 H u0 p0 c0 {1,S}
 12 H u0 p0 c0 {1,S}
 13 H u0 p0 c0 {2,S}
-14 H u0 p0 c0 {3,S}
-15 H u0 p0 c0 {4,S}
-16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {8,S}
-18 H u0 p0 c0 {8,S}
-19 H u0 p0 c0 {9,S}
-20 H u0 p0 c0 {10,S}
+14 H u0 p0 c0 {2,S}
+15 H u0 p0 c0 {6,S}
+16 H u0 p0 c0 {5,S}
+17 H u0 p0 c0 {7,S}
+18 H u0 p0 c0 {10,S}
+19 H u0 p0 c0 {8,S}
+20 H u0 p0 c0 {9,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -594,27 +594,27 @@ u"""
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "biCPD_6",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {5,S} {11,S}
-2  C u0 p0 c0 {1,D} {3,S} {12,S}
-3  C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
-4  C u0 p0 c0 {3,S} {5,D} {15,S}
-5  C u0 p0 c0 {1,S} {4,D} {6,S}
-6  C u0 p0 c0 {5,S} {7,D} {10,S}
-7  C u0 p0 c0 {6,D} {8,S} {16,S}
-8  C u0 p0 c0 {7,S} {9,S} {17,S} {18,S}
-9  C u0 p0 c0 {8,S} {10,D} {19,S}
-10 C u0 p0 c0 {6,S} {9,D} {20,S}
+1  C u0 p0 c0 {5,S} {7,S} {11,S} {12,S}
+2  C u0 p0 c0 {6,S} {8,S} {13,S} {14,S}
+3  C u0 p0 c0 {4,S} {5,D} {9,S}
+4  C u0 p0 c0 {3,S} {6,D} {10,S}
+5  C u0 p0 c0 {1,S} {3,D} {16,S}
+6  C u0 p0 c0 {2,S} {4,D} {17,S}
+7  C u0 p0 c0 {1,S} {9,D} {15,S}
+8  C u0 p0 c0 {2,S} {10,D} {18,S}
+9  C u0 p0 c0 {3,S} {7,D} {19,S}
+10 C u0 p0 c0 {4,S} {8,D} {20,S}
 11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {2,S}
-13 H u0 p0 c0 {3,S}
-14 H u0 p0 c0 {3,S}
-15 H u0 p0 c0 {4,S}
-16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {8,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {2,S}
+14 H u0 p0 c0 {2,S}
+15 H u0 p0 c0 {7,S}
+16 H u0 p0 c0 {5,S}
+17 H u0 p0 c0 {6,S}
 18 H u0 p0 c0 {8,S}
 19 H u0 p0 c0 {9,S}
 20 H u0 p0 c0 {10,S}

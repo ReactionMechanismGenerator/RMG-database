@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 entry(
-    index = 1,
+    index = 0,
     label = "BENZENE",
     molecule = 
 """
@@ -38,20 +38,20 @@ u"""
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "FULVENE",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {5,S} {7,S}
-2  C u0 p0 c0 {1,D} {3,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,D} {9,S}
-4  C u0 p0 c0 {3,D} {5,S} {10,S}
-5  C u0 p0 c0 {1,S} {4,S} {6,D}
-6  C u0 p0 c0 {5,D} {11,S} {12,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {6,D}
+2  C u0 p0 c0 {1,S} {4,D} {7,S}
+3  C u0 p0 c0 {1,S} {5,D} {10,S}
+4  C u0 p0 c0 {2,D} {5,S} {8,S}
+5  C u0 p0 c0 {3,D} {4,S} {9,S}
+6  C u0 p0 c0 {1,D} {11,S} {12,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {6,S}
 12 H u0 p0 c0 {6,S}
 """,
@@ -69,7 +69,7 @@ u"""
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "FURAN",
     molecule = 
 """
@@ -97,7 +97,7 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "Benzaldehyde",
     molecule = 
 """
@@ -130,7 +130,7 @@ u"""
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "styrene",
     molecule = 
 """
@@ -165,7 +165,7 @@ u"""
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "phenol",
     molecule = 
 """
@@ -197,7 +197,7 @@ u"""
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "Phenoxy",
     molecule = 
 """
@@ -229,7 +229,7 @@ u"""
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "TOLUENE",
     molecule = 
 """
@@ -263,22 +263,22 @@ u"""
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "PHENYL",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,B} {6,B}
-2  C u0 p0 c0 {1,B} {3,B} {7,S}
-3  C u0 p0 c0 {2,B} {4,B} {8,S}
-4  C u0 p0 c0 {3,B} {5,B} {9,S}
-5  C u0 p0 c0 {4,B} {6,B} {10,S}
-6  C u0 p0 c0 {1,B} {5,B} {11,S}
+1  C u0 p0 c0 {2,B} {3,B} {8,S}
+2  C u0 p0 c0 {1,B} {4,B} {7,S}
+3  C u0 p0 c0 {1,B} {5,B} {9,S}
+4  C u0 p0 c0 {2,B} {6,B} {10,S}
+5  C u0 p0 c0 {3,B} {6,B} {11,S}
+6  C u1 p0 c0 {4,B} {5,B}
 7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {6,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -294,21 +294,21 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "FULVENYL",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {5,S} {7,S}
-2  C u0 p0 c0 {1,D} {3,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,D} {9,S}
-4  C u0 p0 c0 {3,D} {5,S} {10,S}
-5  C u0 p0 c0 {1,S} {4,S} {6,D}
-6  C u1 p0 c0 {5,D} {11,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {6,D}
+2  C u0 p0 c0 {1,S} {4,D} {7,S}
+3  C u0 p0 c0 {1,S} {5,D} {10,S}
+4  C u0 p0 c0 {2,D} {5,S} {8,S}
+5  C u0 p0 c0 {3,D} {4,S} {9,S}
+6  C u1 p0 c0 {1,D} {11,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {6,S}
 """,
     thermo = ThermoData(
@@ -325,7 +325,7 @@ u"""
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "BENZYL",
     molecule = 
 """
@@ -359,7 +359,7 @@ u"""
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "EthBenzene",
     molecule = 
 """
@@ -396,7 +396,7 @@ u"""
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "Naphthalene",
     molecule = 
 """
@@ -433,7 +433,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "CPD",
     molecule = 
 """
@@ -463,7 +463,7 @@ u"""
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "CPDYL",
     molecule = 
 """
@@ -493,7 +493,7 @@ u"""
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "StyreneRad",
     molecule = 
 """
@@ -528,7 +528,7 @@ u"""
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "EthBenzRad",
     molecule = 
 """
@@ -565,7 +565,7 @@ u"""
 )
 
 entry(
-    index = 18,
+    index = 17,
     label = "Anisole",
     molecule = 
 """
@@ -600,7 +600,7 @@ Pecullan, M. Brezinsky, K. Glassman, I. "Pyrolysis and Oxidation of Anisole near
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "C6H5OCH2",
     molecule = 
 """
