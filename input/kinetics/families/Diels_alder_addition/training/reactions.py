@@ -417,3 +417,60 @@ Original entry: P + C2H2 <=> P1
 """,
 )
 
+entry(
+    index = 24,
+    label = "C6H6 + C2H2 <=> C8H8",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(
+        A = (261.981, 'cm^3/(mol*s)'),
+        n = 2.6786,
+        Ea = (147.644, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    longDesc = 
+u"""
+CBS-QB3 calculation by MLIU
+""",
+)
+
+entry(
+    index = 25,
+    label = "C10H8 + C2H2 <=> C12H10-2",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(
+        A = (286.399, 'cm^3/(mol*s)'),
+        n = 2.61957,
+        Ea = (115.627, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    longDesc = 
+u"""
+CBS-QB3 calculation by MLIU
+""",
+)
+
+entry(
+    index = 26,
+    label = "C10H8-2 + C2H2 <=> C12H10-4",
+    degeneracy = 8.0,
+    kinetics = Arrhenius(
+        A = (133.129, 'cm^3/(mol*s)'),
+        n = 2.69336,
+        Ea = (173.905, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    longDesc = 
+u"""
+CBS-QB3 calculation by MLIU
+""",
+)
+
