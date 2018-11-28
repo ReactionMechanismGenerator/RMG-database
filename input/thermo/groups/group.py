@@ -47603,7 +47603,7 @@ entry(
 4   Cl1s u0 {1,S}
 5   H u0 {1,S}
 """,
-    thermo = u'Cs-(O2s-O2s)ClClH'
+    thermo = u'Cs-(O2s-O2s)ClClH',
     shortDesc = u"""""",
     longDesc =
 u"""
@@ -47651,7 +47651,7 @@ entry(
 4   Cl1s u0 {1,S}
 5   Cl1s u0 {1,S}
 """,
-    thermo = u'Cs-(O2s-O2s)ClClCl'
+    thermo = u'Cs-(O2s-O2s)ClClCl',
     shortDesc = u"""""",
     longDesc =
 u"""

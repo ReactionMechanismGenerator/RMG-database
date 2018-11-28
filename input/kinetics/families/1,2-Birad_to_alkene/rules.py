@@ -48,7 +48,6 @@ No. Y_12birad   Temp.       A         n    a    E0     DA   Dn   Da   DE0  Rank
 15. Y_12_13     300-1500    7.94E+6   0    0    0.0    0    0    0    0    5
 16. Y_12_31     300-1500    1.26E+7   0    0    0.0    0    0    0    0    5
 """
-
 entry(
     index = 1,
     label = "Y_12birad",
@@ -65,36 +64,6 @@ entry(
 )
 
 entry(
-    index = 2,
-    label = "Y_12_00",
-    kinetics = ArrheniusEP(
-        A = (1e+08, 's^-1'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""see description above""",
-)
-
-entry(
-    index = 3,
-    label = "Y_12_10",
-    kinetics = ArrheniusEP(
-        A = (6.31e+07, 's^-1'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""see description above""",
-)
-
-entry(
     index = 4,
     label = "Y_12_20",
     kinetics = ArrheniusEP(
@@ -105,52 +74,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
-    shortDesc = u"""see description above""",
-)
-
-entry(
-    index = 5,
-    label = "Y_12_30",
-    kinetics = ArrheniusEP(
-        A = (2.51e+07, 's^-1'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""see description above""",
-)
-
-entry(
-    index = 6,
-    label = "Y_12_40",
-    kinetics = ArrheniusEP(
-        A = (1.58e+07, 's^-1'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""see description above""",
-)
-
-entry(
-    index = 7,
-    label = "Y_12_01",
-    kinetics = ArrheniusEP(
-        A = (5.01e+07, 's^-1'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
 
@@ -165,37 +89,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
-    shortDesc = u"""see description above""",
-)
-
-entry(
-    index = 9,
-    label = "Y_12_03",
-    kinetics = ArrheniusEP(
-        A = (1.26e+07, 's^-1'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""see description above""",
-)
-
-entry(
-    index = 10,
-    label = "Y_12_04",
-    kinetics = ArrheniusEP(
-        A = (6.31e+06, 's^-1'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
 
@@ -210,7 +104,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
 
@@ -225,7 +119,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
 
@@ -240,7 +134,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
 
@@ -255,36 +149,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""see description above""",
 )
 
-entry(
-    index = 15,
-    label = "Y_12_13",
-    kinetics = ArrheniusEP(
-        A = (7.94e+06, 's^-1'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""see description above""",
-)
-
-entry(
-    index = 16,
-    label = "Y_12_31",
-    kinetics = ArrheniusEP(
-        A = (1.26e+07, 's^-1'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""see description above""",
-)

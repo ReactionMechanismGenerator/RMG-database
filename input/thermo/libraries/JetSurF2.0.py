@@ -13,9 +13,8 @@ A high-temperature chemical kinetic model of n-alkane (up to n-dodecane), cycloh
 n-propyl and n-butyl-cyclohexane oxidation at high temperatures, JetSurF version 2.0,
 September 19, 2010 (http://web.stanford.edu/group/haiwanglab/JetSurF/JetSurF2.0/index.html).
 """
-
 entry(
-    index = 1,
+    index = 0,
     label = "C12H24",
     molecule = 
 """
@@ -74,7 +73,7 @@ C=CCCCCCCCCCC
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "C4H612",
     molecule = 
 """
@@ -107,7 +106,7 @@ C=C=CC
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "PXC12H25",
     molecule = 
 """
@@ -168,7 +167,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "SXC5H11",
     molecule = 
 """
@@ -208,7 +207,7 @@ C[CH]CCC
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "CH3OH",
     molecule = 
 """
@@ -236,7 +235,7 @@ CO
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "PXC12H23",
     molecule = 
 """
@@ -295,7 +294,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "SXC12H25",
     molecule = 
 """
@@ -356,7 +355,7 @@ C[CH]CCCCCCCCCC
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "CH3CO",
     molecule = 
 """
@@ -385,7 +384,7 @@ C[C]=O
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "O2",
     molecule = 
 """
@@ -410,7 +409,7 @@ TPIS89.
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "C6H4CH3",
     molecule = 
 """
@@ -448,7 +447,7 @@ CC1[CH]C=C=CC=1
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "S4XC12H25",
     molecule = 
 """
@@ -509,7 +508,7 @@ CCCC[CH]CCCCCCC
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "SXC8H17",
     molecule = 
 """
@@ -558,7 +557,7 @@ C[CH]CCCCCC
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "HCCOH",
     molecule = 
 """
@@ -586,7 +585,7 @@ C#CO
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "NC5H12",
     molecule = 
 """
@@ -626,7 +625,7 @@ CCCCC
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "PXC8H17",
     molecule = 
 """
@@ -675,7 +674,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "S3XC10H21",
     molecule = 
 """
@@ -730,7 +729,7 @@ CCC[CH]CCCCCC
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "C5H5OH",
     molecule = 
 """
@@ -765,7 +764,7 @@ OC1C=CC=C1
 )
 
 entry(
-    index = 18,
+    index = 17,
     label = "NC7H16",
     molecule = 
 """
@@ -811,7 +810,7 @@ CCCCCCC
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "SXC7H15",
     molecule = 
 """
@@ -857,7 +856,7 @@ C[CH]CCCCC
 )
 
 entry(
-    index = 20,
+    index = 19,
     label = "CH2",
     molecule = 
 """
@@ -883,7 +882,7 @@ L S/93.
 )
 
 entry(
-    index = 21,
+    index = 20,
     label = "CH3",
     molecule = 
 """
@@ -910,7 +909,7 @@ L11/89.
 )
 
 entry(
-    index = 22,
+    index = 21,
     label = "CH4",
     molecule = 
 """
@@ -937,7 +936,7 @@ C
 )
 
 entry(
-    index = 23,
+    index = 22,
     label = "C2H",
     molecule = 
 """
@@ -963,7 +962,7 @@ L 1/91.
 )
 
 entry(
-    index = 24,
+    index = 23,
     label = "C2O",
     molecule = 
 """
@@ -989,7 +988,7 @@ RUS 79.
 )
 
 entry(
-    index = 25,
+    index = 24,
     label = "CH3CHCH",
     molecule = 
 """
@@ -1021,7 +1020,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 26,
+    index = 25,
     label = "S2XC10H21",
     molecule = 
 """
@@ -1076,7 +1075,7 @@ CC[CH]CCCCCCC
 )
 
 entry(
-    index = 27,
+    index = 26,
     label = "C7H14",
     molecule = 
 """
@@ -1120,7 +1119,7 @@ C=CCCCCC
 )
 
 entry(
-    index = 28,
+    index = 27,
     label = "C2H3CHOCH2",
     molecule = 
 """
@@ -1154,7 +1153,7 @@ C=CC1CO1
 )
 
 entry(
-    index = 29,
+    index = 28,
     label = "H",
     molecule = 
 """
@@ -1178,7 +1177,7 @@ L 7/88.
 )
 
 entry(
-    index = 30,
+    index = 29,
     label = "NC9H20",
     molecule = 
 """
@@ -1230,7 +1229,7 @@ CCCCCCCCC
 )
 
 entry(
-    index = 31,
+    index = 30,
     label = "C4H10",
     molecule = 
 """
@@ -1267,7 +1266,7 @@ CCCC
 )
 
 entry(
-    index = 32,
+    index = 31,
     label = "CH3CHOCH2",
     molecule = 
 """
@@ -1300,7 +1299,7 @@ CC1CO1
 )
 
 entry(
-    index = 33,
+    index = 32,
     label = "S3XC8H17",
     molecule = 
 """
@@ -1349,7 +1348,7 @@ CCC[CH]CCCC
 )
 
 entry(
-    index = 34,
+    index = 33,
     label = "C4H81",
     molecule = 
 """
@@ -1384,7 +1383,7 @@ C=CCC
 )
 
 entry(
-    index = 35,
+    index = 34,
     label = "OH",
     molecule = 
 """
@@ -1409,7 +1408,7 @@ S 9/01.
 )
 
 entry(
-    index = 36,
+    index = 35,
     label = "NC10H22",
     molecule = 
 """
@@ -1464,7 +1463,7 @@ CCCCCCCCCC
 )
 
 entry(
-    index = 37,
+    index = 36,
     label = "S4XC9H19",
     molecule = 
 """
@@ -1516,7 +1515,7 @@ CCCC[CH]CCCC
 )
 
 entry(
-    index = 38,
+    index = 37,
     label = "H2",
     molecule = 
 """
@@ -1540,7 +1539,7 @@ TPIS78.
 )
 
 entry(
-    index = 39,
+    index = 38,
     label = "pC3H4",
     molecule = 
 """
@@ -1569,7 +1568,7 @@ C#CC
 )
 
 entry(
-    index = 40,
+    index = 39,
     label = "S4XC11H23",
     molecule = 
 """
@@ -1627,7 +1626,7 @@ CCCC[CH]CCCCCC
 )
 
 entry(
-    index = 41,
+    index = 40,
     label = "SAXC5H9",
     molecule = 
 """
@@ -1665,7 +1664,7 @@ C=C[CH]CC
 )
 
 entry(
-    index = 42,
+    index = 41,
     label = "C6H12",
     molecule = 
 """
@@ -1706,7 +1705,7 @@ C=CCCCC
 )
 
 entry(
-    index = 43,
+    index = 42,
     label = "CH3CH2CHO",
     molecule = 
 """
@@ -1739,7 +1738,7 @@ CCC=O
 )
 
 entry(
-    index = 44,
+    index = 43,
     label = "C3H6",
     molecule = 
 """
@@ -1771,7 +1770,7 @@ C=CC
 )
 
 entry(
-    index = 45,
+    index = 44,
     label = "S2XC9H19",
     molecule = 
 """
@@ -1823,7 +1822,7 @@ CC[CH]CCCCCC
 )
 
 entry(
-    index = 46,
+    index = 45,
     label = "l-C6H4",
     molecule = 
 """
@@ -1856,7 +1855,7 @@ C#CC#CC=C
 )
 
 entry(
-    index = 47,
+    index = 46,
     label = "C3H3",
     molecule = 
 """
@@ -1885,7 +1884,7 @@ C#C[CH2]
 )
 
 entry(
-    index = 48,
+    index = 47,
     label = "S2XC11H23",
     molecule = 
 """
@@ -1943,7 +1942,7 @@ CC[CH]CCCCCCCC
 )
 
 entry(
-    index = 49,
+    index = 48,
     label = "C3H8",
     molecule = 
 """
@@ -1977,7 +1976,7 @@ CCC
 )
 
 entry(
-    index = 50,
+    index = 49,
     label = "CH2OCH2",
     molecule = 
 """
@@ -2007,7 +2006,7 @@ C1CO1
 )
 
 entry(
-    index = 51,
+    index = 50,
     label = "C6H10-13",
     molecule = 
 """
@@ -2046,7 +2045,7 @@ C=CC=CCC
 )
 
 entry(
-    index = 52,
+    index = 51,
     label = "CH2O",
     molecule = 
 """
@@ -2072,7 +2071,7 @@ C=O
 )
 
 entry(
-    index = 53,
+    index = 52,
     label = "CH2OH",
     molecule = 
 """
@@ -2100,7 +2099,7 @@ IU2/03.
 )
 
 entry(
-    index = 54,
+    index = 53,
     label = "C11H22",
     molecule = 
 """
@@ -2156,7 +2155,7 @@ C=CCCCCCCCCC
 )
 
 entry(
-    index = 55,
+    index = 54,
     label = "aC3H4",
     molecule = 
 """
@@ -2185,7 +2184,7 @@ C=C=C
 )
 
 entry(
-    index = 56,
+    index = 55,
     label = "aC3H5",
     molecule = 
 """
@@ -2217,7 +2216,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 57,
+    index = 56,
     label = "H2O2",
     molecule = 
 """
@@ -2243,7 +2242,7 @@ OO
 )
 
 entry(
-    index = 58,
+    index = 57,
     label = "C6H5CH2OH",
     molecule = 
 """
@@ -2281,7 +2280,7 @@ OCC1C=CC=CC=1
 )
 
 entry(
-    index = 59,
+    index = 58,
     label = "CH3CHCHCO",
     molecule = 
 """
@@ -2315,7 +2314,7 @@ CC=C[C]=O
 )
 
 entry(
-    index = 60,
+    index = 59,
     label = "pC4H9",
     molecule = 
 """
@@ -2352,7 +2351,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 61,
+    index = 60,
     label = "SXC11H23",
     molecule = 
 """
@@ -2410,7 +2409,7 @@ C[CH]CCCCCCCCC
 )
 
 entry(
-    index = 62,
+    index = 61,
     label = "C4H82",
     molecule = 
 """
@@ -2445,7 +2444,7 @@ CC=CC
 )
 
 entry(
-    index = 63,
+    index = 62,
     label = "SXC6H13",
     molecule = 
 """
@@ -2488,7 +2487,7 @@ C[CH]CCCC
 )
 
 entry(
-    index = 64,
+    index = 63,
     label = "C5H10",
     molecule = 
 """
@@ -2526,7 +2525,7 @@ C=CCCC
 )
 
 entry(
-    index = 65,
+    index = 64,
     label = "SXC6H11",
     molecule = 
 """
@@ -2567,7 +2566,7 @@ C=CCC[CH]C
 )
 
 entry(
-    index = 66,
+    index = 65,
     label = "cC3H4",
     molecule = 
 """
@@ -2597,7 +2596,7 @@ C1=CC1
 )
 
 entry(
-    index = 67,
+    index = 66,
     label = "HCCO",
     molecule = 
 """
@@ -2625,7 +2624,7 @@ C#C[O]
 )
 
 entry(
-    index = 68,
+    index = 67,
     label = "PXC5H11",
     molecule = 
 """
@@ -2665,7 +2664,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 69,
+    index = 68,
     label = "C",
     molecule = 
 """
@@ -2689,7 +2688,7 @@ L11/88.
 )
 
 entry(
-    index = 70,
+    index = 69,
     label = "CH2OCH",
     molecule = 
 """
@@ -2719,7 +2718,7 @@ Low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 71,
+    index = 70,
     label = "CH2CHCHCHO",
     molecule = 
 """
@@ -2753,7 +2752,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 72,
+    index = 71,
     label = "S3XC7H15",
     molecule = 
 """
@@ -2799,7 +2798,7 @@ CCC[CH]CCC
 )
 
 entry(
-    index = 73,
+    index = 72,
     label = "O",
     molecule = 
 """
@@ -2823,7 +2822,7 @@ L 1/90.
 )
 
 entry(
-    index = 74,
+    index = 73,
     label = "C4H4",
     molecule = 
 """
@@ -2854,7 +2853,7 @@ C#CC=C
 )
 
 entry(
-    index = 75,
+    index = 74,
     label = "PXC11H21",
     molecule = 
 """
@@ -2910,7 +2909,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 76,
+    index = 75,
     label = "PXC11H23",
     molecule = 
 """
@@ -2968,7 +2967,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 77,
+    index = 76,
     label = "C8H16",
     molecule = 
 """
@@ -3015,7 +3014,7 @@ C=CCCCCCC
 )
 
 entry(
-    index = 78,
+    index = 77,
     label = "iC3H7",
     molecule = 
 """
@@ -3049,7 +3048,7 @@ C[CH]C
 )
 
 entry(
-    index = 79,
+    index = 78,
     label = "C2H6",
     molecule = 
 """
@@ -3079,7 +3078,7 @@ CC
 )
 
 entry(
-    index = 80,
+    index = 79,
     label = "C4H6O25",
     molecule = 
 """
@@ -3112,7 +3111,7 @@ C1=CCOC1
 )
 
 entry(
-    index = 81,
+    index = 80,
     label = "C2H4",
     molecule = 
 """
@@ -3140,7 +3139,7 @@ C=C
 )
 
 entry(
-    index = 82,
+    index = 81,
     label = "C4H6O23",
     molecule = 
 """
@@ -3173,7 +3172,7 @@ C1=COCC1
 )
 
 entry(
-    index = 83,
+    index = 82,
     label = "C6H5OH",
     molecule = 
 """
@@ -3209,7 +3208,7 @@ OC1C=CC=CC=1
 )
 
 entry(
-    index = 84,
+    index = 83,
     label = "C6H4O2",
     molecule = 
 """
@@ -3244,7 +3243,7 @@ O=C1C=CC(=O)C=C1
 )
 
 entry(
-    index = 85,
+    index = 84,
     label = "nC3H7",
     molecule = 
 """
@@ -3278,7 +3277,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 86,
+    index = 85,
     label = "SAXC6H11",
     molecule = 
 """
@@ -3319,7 +3318,7 @@ C=C[CH]CCC
 )
 
 entry(
-    index = 87,
+    index = 86,
     label = "S3XC11H23",
     molecule = 
 """
@@ -3377,7 +3376,7 @@ CCC[CH]CCCCCCC
 )
 
 entry(
-    index = 88,
+    index = 87,
     label = "NC8H18",
     molecule = 
 """
@@ -3426,7 +3425,7 @@ CCCCCCCC
 )
 
 entry(
-    index = 89,
+    index = 88,
     label = "C6H2",
     molecule = 
 """
@@ -3457,7 +3456,7 @@ C#CC#CC#C
 )
 
 entry(
-    index = 90,
+    index = 89,
     label = "S2XC7H15",
     molecule = 
 """
@@ -3503,7 +3502,7 @@ CC[CH]CCCC
 )
 
 entry(
-    index = 91,
+    index = 90,
     label = "C6H6",
     molecule = 
 """
@@ -3538,7 +3537,7 @@ C1=CC=CC=C1
 )
 
 entry(
-    index = 92,
+    index = 91,
     label = "C6H5",
     molecule = 
 """
@@ -3573,7 +3572,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 93,
+    index = 92,
     label = "S3XC9H19",
     molecule = 
 """
@@ -3625,7 +3624,7 @@ CCC[CH]CCCCC
 )
 
 entry(
-    index = 94,
+    index = 93,
     label = "c-C4H5",
     molecule = 
 """
@@ -3658,7 +3657,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 95,
+    index = 94,
     label = "PXC8H15",
     molecule = 
 """
@@ -3705,7 +3704,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 96,
+    index = 95,
     label = "H2C4O",
     molecule = 
 """
@@ -3735,7 +3734,7 @@ C=C=C=C=O
 )
 
 entry(
-    index = 97,
+    index = 96,
     label = "PXC7H13",
     molecule = 
 """
@@ -3779,7 +3778,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 98,
+    index = 97,
     label = "C5H4O",
     molecule = 
 """
@@ -3811,7 +3810,7 @@ O=C1C=CC=C1
 )
 
 entry(
-    index = 99,
+    index = 98,
     label = "PXC7H15",
     molecule = 
 """
@@ -3857,7 +3856,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 100,
+    index = 99,
     label = "C4H6-2",
     molecule = 
 """
@@ -3890,7 +3889,7 @@ CC#CC
 )
 
 entry(
-    index = 101,
+    index = 100,
     label = "S3XC12H25",
     molecule = 
 """
@@ -3951,7 +3950,7 @@ CCC[CH]CCCCCCCC
 )
 
 entry(
-    index = 102,
+    index = 101,
     label = "C5H6",
     molecule = 
 """
@@ -3984,7 +3983,7 @@ C1C=CCC=1
 )
 
 entry(
-    index = 103,
+    index = 102,
     label = "C5H5O(2,4)",
     molecule = 
 """
@@ -4019,7 +4018,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 104,
+    index = 103,
     label = "SXC5H9",
     molecule = 
 """
@@ -4057,7 +4056,7 @@ C=CC[CH]C
 )
 
 entry(
-    index = 105,
+    index = 104,
     label = "CH3CHO",
     molecule = 
 """
@@ -4086,7 +4085,7 @@ CC=O
 )
 
 entry(
-    index = 106,
+    index = 105,
     label = "CH3O",
     molecule = 
 """
@@ -4114,7 +4113,7 @@ C[O]
 )
 
 entry(
-    index = 107,
+    index = 106,
     label = "C2H3",
     molecule = 
 """
@@ -4142,7 +4141,7 @@ L 2/92.
 )
 
 entry(
-    index = 108,
+    index = 107,
     label = "SXC10H21",
     molecule = 
 """
@@ -4197,7 +4196,7 @@ C[CH]CCCCCCCC
 )
 
 entry(
-    index = 109,
+    index = 108,
     label = "HCO",
     molecule = 
 """
@@ -4223,7 +4222,7 @@ L12/89.
 )
 
 entry(
-    index = 110,
+    index = 109,
     label = "NC11H24",
     molecule = 
 """
@@ -4281,7 +4280,7 @@ CCCCCCCCCCC
 )
 
 entry(
-    index = 111,
+    index = 110,
     label = "PXC5H9",
     molecule = 
 """
@@ -4319,7 +4318,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 112,
+    index = 111,
     label = "CH2CHCO",
     molecule = 
 """
@@ -4349,7 +4348,7 @@ C=C[C]=O
 )
 
 entry(
-    index = 113,
+    index = 112,
     label = "CH3COCH3",
     molecule = 
 """
@@ -4381,7 +4380,7 @@ CC(C)=O
 )
 
 entry(
-    index = 114,
+    index = 113,
     label = "CH",
     molecule = 
 """
@@ -4406,7 +4405,7 @@ TPIS79.
 )
 
 entry(
-    index = 115,
+    index = 114,
     label = "CO",
     molecule = 
 """
@@ -4430,7 +4429,7 @@ TPIS79.
 )
 
 entry(
-    index = 116,
+    index = 115,
     label = "cC5H8",
     molecule = 
 """
@@ -4465,7 +4464,7 @@ C1=CCCC1
 )
 
 entry(
-    index = 117,
+    index = 116,
     label = "CH3CCH2",
     molecule = 
 """
@@ -4497,7 +4496,7 @@ C=[C]C
 )
 
 entry(
-    index = 118,
+    index = 117,
     label = "o-C6H4",
     molecule = 
 """
@@ -4530,7 +4529,7 @@ C1#CC=C[CH][CH]1
 )
 
 entry(
-    index = 119,
+    index = 118,
     label = "C9H18",
     molecule = 
 """
@@ -4580,7 +4579,7 @@ C=CCCCCCCC
 )
 
 entry(
-    index = 120,
+    index = 119,
     label = "C2H3CHO",
     molecule = 
 """
@@ -4611,7 +4610,7 @@ C=CC=O
 )
 
 entry(
-    index = 121,
+    index = 120,
     label = "iC4H10",
     molecule = 
 """
@@ -4648,7 +4647,7 @@ CC(C)C
 )
 
 entry(
-    index = 122,
+    index = 121,
     label = "N2",
     molecule = 
 """
@@ -4673,7 +4672,7 @@ N#N
 )
 
 entry(
-    index = 123,
+    index = 122,
     label = "iC4H3",
     molecule = 
 """
@@ -4704,7 +4703,7 @@ C#C[C]=C
 )
 
 entry(
-    index = 124,
+    index = 123,
     label = "CO2",
     molecule = 
 """
@@ -4729,7 +4728,7 @@ O=C=O
 )
 
 entry(
-    index = 125,
+    index = 124,
     label = "iC4H5",
     molecule = 
 """
@@ -4762,7 +4761,7 @@ C=[C]C=C
 )
 
 entry(
-    index = 126,
+    index = 125,
     label = "iC4H7",
     molecule = 
 """
@@ -4797,7 +4796,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 127,
+    index = 126,
     label = "iC4H9",
     molecule = 
 """
@@ -4834,7 +4833,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 128,
+    index = 127,
     label = "iC4H8",
     molecule = 
 """
@@ -4869,7 +4868,7 @@ C=C(C)C
 )
 
 entry(
-    index = 129,
+    index = 128,
     label = "S4XC10H21",
     molecule = 
 """
@@ -4924,7 +4923,7 @@ CCCC[CH]CCCCC
 )
 
 entry(
-    index = 130,
+    index = 129,
     label = "H2O",
     molecule = 
 """
@@ -4949,7 +4948,7 @@ O
 )
 
 entry(
-    index = 131,
+    index = 130,
     label = "PXC9H17",
     molecule = 
 """
@@ -4999,7 +4998,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 132,
+    index = 131,
     label = "cC6H11",
     molecule = 
 """
@@ -5040,7 +5039,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 133,
+    index = 132,
     label = "cC6H10",
     molecule = 
 """
@@ -5079,7 +5078,7 @@ C1=CCCCC1
 )
 
 entry(
-    index = 134,
+    index = 133,
     label = "C2H5",
     molecule = 
 """
@@ -5109,7 +5108,7 @@ C[CH2]
 )
 
 entry(
-    index = 135,
+    index = 134,
     label = "C6H5O",
     molecule = 
 """
@@ -5144,7 +5143,7 @@ O=C1C=C[CH]C=C1
 )
 
 entry(
-    index = 136,
+    index = 135,
     label = "S2XC6H11",
     molecule = 
 """
@@ -5185,7 +5184,7 @@ C=CC[CH]CC
 )
 
 entry(
-    index = 137,
+    index = 136,
     label = "C5H5O(1,3)",
     molecule = 
 """
@@ -5220,7 +5219,7 @@ O=C1C=C[CH]C1
 )
 
 entry(
-    index = 138,
+    index = 137,
     label = "S2XC6H13",
     molecule = 
 """
@@ -5263,7 +5262,7 @@ CC[CH]CCC
 )
 
 entry(
-    index = 139,
+    index = 138,
     label = "HOC6H4CH3",
     molecule = 
 """
@@ -5301,7 +5300,7 @@ CC1=CC=CC(O)=C1
 )
 
 entry(
-    index = 140,
+    index = 139,
     label = "PXC6H11",
     molecule = 
 """
@@ -5342,7 +5341,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 141,
+    index = 140,
     label = "PXC6H13",
     molecule = 
 """
@@ -5385,7 +5384,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 142,
+    index = 141,
     label = "C6H5CH2",
     molecule = 
 """
@@ -5422,7 +5421,7 @@ T08/90.
 )
 
 entry(
-    index = 143,
+    index = 142,
     label = "C6H5CH3",
     molecule = 
 """
@@ -5459,7 +5458,7 @@ CC1C=CC=CC=1
 )
 
 entry(
-    index = 144,
+    index = 143,
     label = "lC5H7",
     molecule = 
 """
@@ -5495,7 +5494,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 145,
+    index = 144,
     label = "S2XC5H11",
     molecule = 
 """
@@ -5535,7 +5534,7 @@ CC[CH]CC
 )
 
 entry(
-    index = 146,
+    index = 145,
     label = "sC4H9",
     molecule = 
 """
@@ -5572,7 +5571,7 @@ C[CH]CC
 )
 
 entry(
-    index = 147,
+    index = 146,
     label = "OC12OOH",
     molecule = 
 """
@@ -5634,7 +5633,7 @@ CCCCCCCCCCC(=O)COO
 )
 
 entry(
-    index = 148,
+    index = 147,
     label = "PXC10H19",
     molecule = 
 """
@@ -5687,7 +5686,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 149,
+    index = 148,
     label = "PC12H25O2",
     molecule = 
 """
@@ -5750,7 +5749,7 @@ CCCCCCCCCCCCO[O]
 )
 
 entry(
-    index = 150,
+    index = 149,
     label = "C10H20",
     molecule = 
 """
@@ -5803,7 +5802,7 @@ C=CCCCCCCCC
 )
 
 entry(
-    index = 151,
+    index = 150,
     label = "CH2CHO",
     molecule = 
 """
@@ -5833,7 +5832,7 @@ C=C[O]
 )
 
 entry(
-    index = 152,
+    index = 151,
     label = "tC4H9",
     molecule = 
 """
@@ -5870,7 +5869,7 @@ C[C](C)C
 )
 
 entry(
-    index = 153,
+    index = 152,
     label = "C4H5-2",
     molecule = 
 """
@@ -5903,7 +5902,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 154,
+    index = 153,
     label = "C6H3",
     molecule = 
 """
@@ -5936,7 +5935,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 155,
+    index = 154,
     label = "cC5H9",
     molecule = 
 """
@@ -5973,7 +5972,7 @@ T03/97.
 )
 
 entry(
-    index = 156,
+    index = 155,
     label = "NC12H26",
     molecule = 
 """
@@ -6034,7 +6033,7 @@ CCCCCCCCCCCC
 )
 
 entry(
-    index = 157,
+    index = 156,
     label = "HO2",
     molecule = 
 """
@@ -6060,7 +6059,7 @@ L 5/89.
 )
 
 entry(
-    index = 158,
+    index = 157,
     label = "OC6H4CH3",
     molecule = 
 """
@@ -6099,7 +6098,7 @@ CC1[CH]C=CC(=O)C=1
 )
 
 entry(
-    index = 159,
+    index = 158,
     label = "nC4H3",
     molecule = 
 """
@@ -6130,7 +6129,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 160,
+    index = 159,
     label = "nC4H5",
     molecule = 
 """
@@ -6163,7 +6162,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 161,
+    index = 160,
     label = "S5XC12H25",
     molecule = 
 """
@@ -6224,7 +6223,7 @@ CCCCC[CH]CCCCCC
 )
 
 entry(
-    index = 162,
+    index = 161,
     label = "P12OOHX2",
     molecule = 
 """
@@ -6287,7 +6286,7 @@ CCCCCCCCC[CH]CCOO
 )
 
 entry(
-    index = 163,
+    index = 162,
     label = "C5H5",
     molecule = 
 """
@@ -6321,7 +6320,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 164,
+    index = 163,
     label = "NC6H14",
     molecule = 
 """
@@ -6364,7 +6363,7 @@ CCCCCC
 )
 
 entry(
-    index = 165,
+    index = 164,
     label = "S5XC11H23",
     molecule = 
 """
@@ -6422,7 +6421,7 @@ CCCCC[CH]CCCCC
 )
 
 entry(
-    index = 166,
+    index = 165,
     label = "C5H8-13",
     molecule = 
 """
@@ -6458,7 +6457,7 @@ C=CC=CC
 )
 
 entry(
-    index = 167,
+    index = 166,
     label = "C4H2",
     molecule = 
 """
@@ -6487,7 +6486,7 @@ C#CC#C
 )
 
 entry(
-    index = 168,
+    index = 167,
     label = "C5H8-14",
     molecule = 
 """
@@ -6523,7 +6522,7 @@ C=CCC=C
 )
 
 entry(
-    index = 169,
+    index = 168,
     label = "C4H7",
     molecule = 
 """
@@ -6558,7 +6557,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 170,
+    index = 169,
     label = "C4H6",
     molecule = 
 """
@@ -6591,7 +6590,7 @@ C=CC=C
 )
 
 entry(
-    index = 171,
+    index = 170,
     label = "C4H4O",
     molecule = 
 """
@@ -6622,7 +6621,7 @@ C1C=COC=1
 )
 
 entry(
-    index = 172,
+    index = 171,
     label = "C2H2",
     molecule = 
 """
@@ -6648,7 +6647,7 @@ C#C
 )
 
 entry(
-    index = 173,
+    index = 172,
     label = "C5H4OH",
     molecule = 
 """
@@ -6682,7 +6681,7 @@ OC1[CH]C=CC=1
 )
 
 entry(
-    index = 174,
+    index = 173,
     label = "SXC9H19",
     molecule = 
 """
@@ -6734,7 +6733,7 @@ C[CH]CCCCCCC
 )
 
 entry(
-    index = 175,
+    index = 174,
     label = "PXC10H21",
     molecule = 
 """
@@ -6789,7 +6788,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 176,
+    index = 175,
     label = "CH3CHCHCHO",
     molecule = 
 """
@@ -6823,7 +6822,7 @@ CC=CC=O
 )
 
 entry(
-    index = 177,
+    index = 176,
     label = "S2XC8H17",
     molecule = 
 """
@@ -6872,7 +6871,7 @@ CC[CH]CCCCC
 )
 
 entry(
-    index = 178,
+    index = 177,
     label = "PXC9H19",
     molecule = 
 """
@@ -6924,7 +6923,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 179,
+    index = 178,
     label = "H2CC",
     molecule = 
 """
@@ -6951,7 +6950,7 @@ L12/89.
 )
 
 entry(
-    index = 180,
+    index = 179,
     label = "C6H5CHO",
     molecule = 
 """
@@ -6988,7 +6987,7 @@ O=CC1C=CC=CC=1
 )
 
 entry(
-    index = 181,
+    index = 180,
     label = "CH2CO",
     molecule = 
 """
@@ -7015,7 +7014,7 @@ C=C=O
 )
 
 entry(
-    index = 182,
+    index = 181,
     label = "S2XC12H25",
     molecule = 
 """
@@ -7076,7 +7075,7 @@ CC[CH]CCCCCCCCC
 )
 
 entry(
-    index = 183,
+    index = 182,
     label = "C6H5CO",
     molecule = 
 """
@@ -7113,7 +7112,7 @@ O=[C]C1C=CC=CC=1
 )
 
 entry(
-    index = 184,
+    index = 183,
     label = "AR",
     molecule = 
 """
@@ -7137,7 +7136,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 185,
+    index = 184,
     label = "HE",
     molecule = 
 """
@@ -7186,9 +7185,9 @@ L10/90.
 # )
 
 entry(
-    index = 187,
+    index = 185,
     label = "CH*",
-    molecule =
+    molecule = 
 """
 multiplicity 4
 1 C u3 p0 c0 {2,S}
@@ -7203,7 +7202,7 @@ multiplicity 4
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""TPIS79""",
-    longDesc =
+    longDesc = 
 u"""
 TPIS79.
 Duplicate of species CH (i.e. same molecular structure according to RMG)
@@ -7212,7 +7211,7 @@ Duplicate of species CH (i.e. same molecular structure according to RMG)
 )
 
 entry(
-    index = 188,
+    index = 186,
     label = "SAXC4H7",
     molecule = 
 """
@@ -7247,7 +7246,7 @@ C=C[CH]C
 )
 
 entry(
-    index = 189,
+    index = 187,
     label = "CH3cC6H11",
     molecule = 
 """
@@ -7291,7 +7290,7 @@ CC1CCCCC1
 )
 
 entry(
-    index = 190,
+    index = 188,
     label = "PXCH2cC6H11",
     molecule = 
 """
@@ -7335,7 +7334,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 191,
+    index = 189,
     label = "cC6H12",
     molecule = 
 """
@@ -7376,7 +7375,7 @@ C1CCCCC1
 )
 
 entry(
-    index = 192,
+    index = 190,
     label = "PXCH2cC5H9",
     molecule = 
 """
@@ -7417,7 +7416,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 193,
+    index = 191,
     label = "cC6H10O2H-2",
     molecule = 
 """
@@ -7460,7 +7459,7 @@ OOC1[CH]CCCC1
 )
 
 entry(
-    index = 194,
+    index = 192,
     label = "cC6H11O2",
     molecule = 
 """
@@ -7503,7 +7502,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 195,
+    index = 193,
     label = "C7H12-16",
     molecule = 
 """
@@ -7545,7 +7544,7 @@ C=CCCCC=C
 )
 
 entry(
-    index = 196,
+    index = 194,
     label = "C7H14-2",
     molecule = 
 """
@@ -7589,7 +7588,7 @@ CC=CCCCC
 )
 
 entry(
-    index = 197,
+    index = 195,
     label = "C8H16-3",
     molecule = 
 """
@@ -7636,7 +7635,7 @@ CCC=CCCCC
 )
 
 entry(
-    index = 198,
+    index = 196,
     label = "SOOcC6O2H",
     molecule = 
 """
@@ -7681,7 +7680,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 199,
+    index = 197,
     label = "CH3-4-SAXC6H10",
     molecule = 
 """
@@ -7725,7 +7724,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 200,
+    index = 198,
     label = "PXCH2-5-1C6H11",
     molecule = 
 """
@@ -7769,7 +7768,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 201,
+    index = 199,
     label = "PXCH2-5-1C7H13",
     molecule = 
 """
@@ -7816,7 +7815,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 202,
+    index = 200,
     label = "PXCH2-5-1C8H15",
     molecule = 
 """
@@ -7866,7 +7865,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 203,
+    index = 201,
     label = "PXCH2-5-1C9H17",
     molecule = 
 """
@@ -7919,7 +7918,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 204,
+    index = 202,
     label = "C3H5cC6H11",
     molecule = 
 """
@@ -7967,7 +7966,7 @@ C=CCC1CCCCC1
 )
 
 entry(
-    index = 205,
+    index = 203,
     label = "PX6-2C6H11",
     molecule = 
 """
@@ -8008,7 +8007,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 206,
+    index = 204,
     label = "PXCH2-4-1C5H9",
     molecule = 
 """
@@ -8049,7 +8048,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 207,
+    index = 205,
     label = "PX1-4C8H15",
     molecule = 
 """
@@ -8096,7 +8095,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 208,
+    index = 206,
     label = "PXCH2-3-1C5H9",
     molecule = 
 """
@@ -8137,7 +8136,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 209,
+    index = 207,
     label = "PXCH2-3-1C4H7",
     molecule = 
 """
@@ -8175,7 +8174,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 210,
+    index = 208,
     label = "CH3-2-C4H5-13",
     molecule = 
 """
@@ -8211,7 +8210,7 @@ C=CC(=C)C
 )
 
 entry(
-    index = 211,
+    index = 209,
     label = "C2H3cC6H11",
     molecule = 
 """
@@ -8256,7 +8255,7 @@ C=CC1CCCCC1
 )
 
 entry(
-    index = 212,
+    index = 210,
     label = "C7H12-13",
     molecule = 
 """
@@ -8298,7 +8297,7 @@ C=CC=CCCC
 )
 
 entry(
-    index = 213,
+    index = 211,
     label = "C3H7S2XcC6H10",
     molecule = 
 """
@@ -8348,7 +8347,7 @@ CCCC1[CH]CCCC1
 )
 
 entry(
-    index = 214,
+    index = 212,
     label = "C4H9S2XcC6H10",
     molecule = 
 """
@@ -8401,7 +8400,7 @@ CCCCC1[CH]CCCC1
 )
 
 entry(
-    index = 215,
+    index = 213,
     label = "PX1-3C7H13",
     molecule = 
 """
@@ -8445,7 +8444,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 216,
+    index = 214,
     label = "PXC2H4-4-1C6H11",
     molecule = 
 """
@@ -8492,7 +8491,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 217,
+    index = 215,
     label = "SAX6-4C10H19",
     molecule = 
 """
@@ -8545,7 +8544,7 @@ CCCC=C[CH]CCCC
 )
 
 entry(
-    index = 218,
+    index = 216,
     label = "SAX4-2C8H15",
     molecule = 
 """
@@ -8592,7 +8591,7 @@ CC=C[CH]CCCC
 )
 
 entry(
-    index = 219,
+    index = 217,
     label = "PX8-2C8H15",
     molecule = 
 """
@@ -8639,7 +8638,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 220,
+    index = 218,
     label = "CH3S3XcC5H8",
     molecule = 
 """
@@ -8680,7 +8679,7 @@ CC1C[CH]CC1
 )
 
 entry(
-    index = 221,
+    index = 219,
     label = "C4H9S4XcC6H10",
     molecule = 
 """
@@ -8733,7 +8732,7 @@ CCCCC1CC[CH]CC1
 )
 
 entry(
-    index = 222,
+    index = 220,
     label = "C2H5cC6H11",
     molecule = 
 """
@@ -8780,7 +8779,7 @@ CCC1CCCCC1
 )
 
 entry(
-    index = 223,
+    index = 221,
     label = "CH3-5-SAX1C7H12",
     molecule = 
 """
@@ -8827,7 +8826,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 224,
+    index = 222,
     label = "C3H7S4XcC6H10",
     molecule = 
 """
@@ -8877,7 +8876,7 @@ CCCC1CC[CH]CC1
 )
 
 entry(
-    index = 225,
+    index = 223,
     label = "C2H5-4-SAX1C6H10",
     molecule = 
 """
@@ -8924,7 +8923,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 226,
+    index = 224,
     label = "C4H9cC6H11",
     molecule = 
 """
@@ -8977,7 +8976,7 @@ CCCCC1CCCCC1
 )
 
 entry(
-    index = 227,
+    index = 225,
     label = "C3H7cC6H11",
     molecule = 
 """
@@ -9027,7 +9026,7 @@ CCCC1CCCCC1
 )
 
 entry(
-    index = 228,
+    index = 226,
     label = "CH3-5-SAXC6H10",
     molecule = 
 """
@@ -9071,7 +9070,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 229,
+    index = 227,
     label = "C9H18-4",
     molecule = 
 """
@@ -9121,7 +9120,7 @@ CCCC=CCCCC
 )
 
 entry(
-    index = 230,
+    index = 228,
     label = "C6H10-15",
     molecule = 
 """
@@ -9160,7 +9159,7 @@ C=CCCC=C
 )
 
 entry(
-    index = 231,
+    index = 229,
     label = "C10H20-5",
     molecule = 
 """
@@ -9213,7 +9212,7 @@ CCCCC=CCCCC
 )
 
 entry(
-    index = 232,
+    index = 230,
     label = "PAXCH2-2-C4H5",
     molecule = 
 """
@@ -9249,7 +9248,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 233,
+    index = 231,
     label = "S2XC8H15",
     molecule = 
 """
@@ -9296,7 +9295,7 @@ C=CCCC[CH]CC
 )
 
 entry(
-    index = 234,
+    index = 232,
     label = "S3XC9H17",
     molecule = 
 """
@@ -9346,7 +9345,7 @@ C=CCCC[CH]CCC
 )
 
 entry(
-    index = 235,
+    index = 233,
     label = "S4XC10H19",
     molecule = 
 """
@@ -9399,7 +9398,7 @@ C=CCCC[CH]CCCC
 )
 
 entry(
-    index = 236,
+    index = 234,
     label = "C2H5-2-1C6H11",
     molecule = 
 """
@@ -9446,7 +9445,7 @@ C=C(CC)CCCC
 )
 
 entry(
-    index = 237,
+    index = 235,
     label = "C4H9-2-1C6H11",
     molecule = 
 """
@@ -9499,7 +9498,7 @@ C=C(CCCC)CCCC
 )
 
 entry(
-    index = 238,
+    index = 236,
     label = "PXC3H6-3-1C7H13",
     molecule = 
 """
@@ -9552,7 +9551,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 239,
+    index = 237,
     label = "C3H7-2-1C6H11",
     molecule = 
 """
@@ -9602,7 +9601,7 @@ C=C(CCC)CCCC
 )
 
 entry(
-    index = 240,
+    index = 238,
     label = "C2H5S3XcC6H10",
     molecule = 
 """
@@ -9649,7 +9648,7 @@ CCC1C[CH]CCC1
 )
 
 entry(
-    index = 241,
+    index = 239,
     label = "C2H5S4XcC6H10",
     molecule = 
 """
@@ -9696,7 +9695,7 @@ CCC1CC[CH]CC1
 )
 
 entry(
-    index = 242,
+    index = 240,
     label = "S2XC4H8cC6H11",
     molecule = 
 """
@@ -9749,7 +9748,7 @@ CC[CH]CC1CCCCC1
 )
 
 entry(
-    index = 243,
+    index = 241,
     label = "C4H9S3XcC6H10",
     molecule = 
 """
@@ -9802,7 +9801,7 @@ CCCCC1C[CH]CCC1
 )
 
 entry(
-    index = 244,
+    index = 242,
     label = "CH3S4XcC6H10",
     molecule = 
 """
@@ -9846,7 +9845,7 @@ CC1CC[CH]CC1
 )
 
 entry(
-    index = 245,
+    index = 243,
     label = "SXC2H4cC6H11",
     molecule = 
 """
@@ -9893,7 +9892,7 @@ C[CH]C1CCCCC1
 )
 
 entry(
-    index = 246,
+    index = 244,
     label = "C3H7S3XcC6H10",
     molecule = 
 """
@@ -9943,7 +9942,7 @@ CCCC1C[CH]CCC1
 )
 
 entry(
-    index = 247,
+    index = 245,
     label = "PXC3H6cC6H11",
     molecule = 
 """
@@ -9993,7 +9992,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 248,
+    index = 246,
     label = "SXC3H6cC6H11",
     molecule = 
 """
@@ -10043,7 +10042,7 @@ C[CH]CC1CCCCC1
 )
 
 entry(
-    index = 249,
+    index = 247,
     label = "SXC4H8cC6H11",
     molecule = 
 """
@@ -10096,7 +10095,7 @@ C[CH]CCC1CCCCC1
 )
 
 entry(
-    index = 250,
+    index = 248,
     label = "S3XC4H8cC6H11",
     molecule = 
 """
@@ -10149,7 +10148,7 @@ CCC[CH]C1CCCCC1
 )
 
 entry(
-    index = 251,
+    index = 249,
     label = "PXC4H8cC6H11",
     molecule = 
 """
@@ -10202,7 +10201,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 252,
+    index = 250,
     label = "PX10-4C10H19",
     molecule = 
 """
@@ -10255,7 +10254,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 253,
+    index = 251,
     label = "PXC2H4cC6H11",
     molecule = 
 """
@@ -10302,7 +10301,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 254,
+    index = 252,
     label = "CH3-5-SAX1C9H16",
     molecule = 
 """
@@ -10355,7 +10354,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 255,
+    index = 253,
     label = "CH3-5-SAX1C8H14",
     molecule = 
 """
@@ -10405,7 +10404,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 256,
+    index = 254,
     label = "C4H9TXcC6H10",
     molecule = 
 """
@@ -10458,7 +10457,7 @@ CCCC[C]1CCCCC1
 )
 
 entry(
-    index = 257,
+    index = 255,
     label = "C2H5S2XcC6H10",
     molecule = 
 """
@@ -10505,7 +10504,7 @@ CCC1[CH]CCCC1
 )
 
 entry(
-    index = 258,
+    index = 256,
     label = "S2XC3H6cC6H11",
     molecule = 
 """
@@ -10555,7 +10554,7 @@ CC[CH]C1CCCCC1
 )
 
 entry(
-    index = 259,
+    index = 257,
     label = "C3H7TXcC6H10",
     molecule = 
 """
@@ -10605,7 +10604,7 @@ CCC[C]1CCCCC1
 )
 
 entry(
-    index = 260,
+    index = 258,
     label = "PX9-3C9H17",
     molecule = 
 """
@@ -10655,7 +10654,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 261,
+    index = 259,
     label = "SAXC6H9-15",
     molecule = 
 """
@@ -10694,7 +10693,7 @@ C=C[CH]CC=C
 )
 
 entry(
-    index = 262,
+    index = 260,
     label = "CH2cC6H10",
     molecule = 
 """
@@ -10736,7 +10735,7 @@ C=C1CCCCC1
 )
 
 entry(
-    index = 263,
+    index = 261,
     label = "C2H5TXcC6H10",
     molecule = 
 """
@@ -10783,7 +10782,7 @@ CC[C]1CCCCC1
 )
 
 entry(
-    index = 264,
+    index = 262,
     label = "C2H5-3-PXC6H10",
     molecule = 
 """
@@ -10830,7 +10829,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 265,
+    index = 263,
     label = "PAXCH2-2-1C6H11",
     molecule = 
 """
@@ -10874,7 +10873,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 266,
+    index = 264,
     label = "CH3-2-PXC4H6",
     molecule = 
 """
@@ -10912,7 +10911,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 267,
+    index = 265,
     label = "CH3-3-TAXC6H10",
     molecule = 
 """
@@ -10956,7 +10955,7 @@ C=C[C](C)CCC
 )
 
 entry(
-    index = 268,
+    index = 266,
     label = "C2H5-4-SAX1C8H14",
     molecule = 
 """
@@ -11009,7 +11008,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 269,
+    index = 267,
     label = "C2H5-4-SAX1C7H12",
     molecule = 
 """
@@ -11059,7 +11058,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 270,
+    index = 268,
     label = "PAXCH2-2-1C5H9",
     molecule = 
 """
@@ -11100,7 +11099,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 271,
+    index = 269,
     label = "SAX5-3C8H15",
     molecule = 
 """
@@ -11147,7 +11146,7 @@ CCC=C[CH]CCC
 )
 
 entry(
-    index = 272,
+    index = 270,
     label = "SAX4-2C7H13",
     molecule = 
 """
@@ -11191,7 +11190,7 @@ CC=C[CH]CCC
 )
 
 entry(
-    index = 273,
+    index = 271,
     label = "PAXCH2-2-1C4H7",
     molecule = 
 """
@@ -11229,7 +11228,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 274,
+    index = 272,
     label = "PXCH2-3-1C7H13",
     molecule = 
 """
@@ -11276,7 +11275,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 275,
+    index = 273,
     label = "PX1-3C6H11",
     molecule = 
 """
@@ -11317,7 +11316,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 276,
+    index = 274,
     label = "PXCH2-3-1C6H11",
     molecule = 
 """
@@ -11361,7 +11360,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 277,
+    index = 275,
     label = "S4XC8H15",
     molecule = 
 """
@@ -11408,7 +11407,7 @@ C=CC[CH]CCCC
 )
 
 entry(
-    index = 278,
+    index = 276,
     label = "PXCH2-2-C6H13",
     molecule = 
 """
@@ -11454,7 +11453,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 279,
+    index = 277,
     label = "PXCH2-2-C4H9",
     molecule = 
 """
@@ -11494,7 +11493,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 280,
+    index = 278,
     label = "PX10-5C10H19",
     molecule = 
 """
@@ -11547,7 +11546,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 281,
+    index = 279,
     label = "PXC4H8-2-1C6H11",
     molecule = 
 """
@@ -11600,7 +11599,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 282,
+    index = 280,
     label = "C2H5-2-PXC6H10",
     molecule = 
 """
@@ -11647,9 +11646,9 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 283,
+    index = 281,
     label = "CH2*",
-    molecule =
+    molecule = 
 """
 1 C u0 p1 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -11664,7 +11663,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L S/93""",
-    longDesc =
+    longDesc = 
 u"""
 L S/93.
 Duplicate of species CH2 (i.e. same molecular structure according to RMG)
@@ -11673,7 +11672,7 @@ Duplicate of species CH2 (i.e. same molecular structure according to RMG)
 )
 
 entry(
-    index = 284,
+    index = 282,
     label = "PXC2H4-4-1C8H15",
     molecule = 
 """
@@ -11726,7 +11725,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 285,
+    index = 283,
     label = "PXC2H4-4-1C7H13",
     molecule = 
 """
@@ -11776,7 +11775,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 286,
+    index = 284,
     label = "CH3-4-PXC6H10",
     molecule = 
 """
@@ -11820,7 +11819,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 287,
+    index = 285,
     label = "CH3S3XcC6H10",
     molecule = 
 """
@@ -11864,7 +11863,7 @@ CC1C[CH]CCC1
 )
 
 entry(
-    index = 288,
+    index = 286,
     label = "PX7-2C7H13",
     molecule = 
 """
@@ -11908,7 +11907,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 289,
+    index = 287,
     label = "CH3S2XcC6H10",
     molecule = 
 """
@@ -11952,7 +11951,7 @@ CC1[CH]CCCC1
 )
 
 entry(
-    index = 290,
+    index = 288,
     label = "CH3-3-PXC6H10",
     molecule = 
 """
@@ -11996,7 +11995,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 291,
+    index = 289,
     label = "CH3TXcC6H10",
     molecule = 
 """
@@ -12040,7 +12039,7 @@ C[C]1CCCCC1
 )
 
 entry(
-    index = 292,
+    index = 290,
     label = "SAXcC6H9",
     molecule = 
 """
@@ -12079,7 +12078,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 293,
+    index = 291,
     label = "SXC7H13",
     molecule = 
 """
@@ -12123,7 +12122,7 @@ C=CCCC[CH]C
 )
 
 entry(
-    index = 294,
+    index = 292,
     label = "CH3-2-SXC6H12",
     molecule = 
 """
@@ -12169,7 +12168,7 @@ C[CH]CCC(C)C
 )
 
 entry(
-    index = 295,
+    index = 293,
     label = "PXC3H6-3-1C6H11",
     molecule = 
 """
@@ -12219,7 +12218,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 296,
+    index = 294,
     label = "PX9-4C9H17",
     molecule = 
 """
@@ -12269,7 +12268,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 297,
+    index = 295,
     label = "C8H14-13",
     molecule = 
 """
@@ -12314,7 +12313,7 @@ C=CC=CCCCC
 )
 
 entry(
-    index = 298,
+    index = 296,
     label = "CH3-2-PXC6H10",
     molecule = 
 """
@@ -12358,7 +12357,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 299,
+    index = 297,
     label = "SAXcC6H7",
     molecule = 
 """
@@ -12395,7 +12394,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 300,
+    index = 298,
     label = "S3XC7H13",
     molecule = 
 """
@@ -12439,7 +12438,7 @@ C=CC[CH]CCC
 )
 
 entry(
-    index = 301,
+    index = 299,
     label = "SAXC7H13",
     molecule = 
 """
@@ -12483,7 +12482,7 @@ C=C[CH]CCCC
 )
 
 entry(
-    index = 302,
+    index = 300,
     label = "C3H7-2-PXC6H10",
     molecule = 
 """
@@ -12533,7 +12532,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 303,
+    index = 301,
     label = "PX1-3C8H15",
     molecule = 
 """
@@ -12580,7 +12579,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 304,
+    index = 302,
     label = "PXC2H4-2-1C6H11",
     molecule = 
 """
@@ -12627,7 +12626,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 305,
+    index = 303,
     label = "PXC2H4-2-1C4H7",
     molecule = 
 """
@@ -12668,7 +12667,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 306,
+    index = 304,
     label = "C3H7-3-TAX1C7H13",
     molecule = 
 """
@@ -12721,7 +12720,7 @@ C=C[C](CCC)CCCC
 )
 
 entry(
-    index = 307,
+    index = 305,
     label = "SAX5-3C9H17",
     molecule = 
 """
@@ -12771,7 +12770,7 @@ CCC=C[CH]CCCC
 )
 
 entry(
-    index = 308,
+    index = 306,
     label = "SAX6-4C9H17",
     molecule = 
 """
@@ -12821,7 +12820,7 @@ CCC[CH]C=CCCC
 )
 
 entry(
-    index = 309,
+    index = 307,
     label = "C3H7-3-TAX1C6H10",
     molecule = 
 """
@@ -12871,7 +12870,7 @@ C=C[C](CCC)CCC
 )
 
 entry(
-    index = 310,
+    index = 308,
     label = "PX8-3C8H15",
     molecule = 
 """
@@ -12918,7 +12917,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 311,
+    index = 309,
     label = "cC6H8-13",
     molecule = 
 """
@@ -12955,7 +12954,7 @@ C1C=CCCC=1
 )
 
 entry(
-    index = 312,
+    index = 310,
     label = "C2H5-2-SAX1C6H10",
     molecule = 
 """
@@ -13002,7 +13001,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 313,
+    index = 311,
     label = "CH3-2-SAXC6H10",
     molecule = 
 """
@@ -13046,7 +13045,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 314,
+    index = 312,
     label = "C6H10-12",
     molecule = 
 """
@@ -13085,7 +13084,7 @@ C=C=CCCC
 )
 
 entry(
-    index = 315,
+    index = 313,
     label = "CH2-3-1C6H10",
     molecule = 
 """
@@ -13127,7 +13126,7 @@ C=CC(=C)CCC
 )
 
 entry(
-    index = 316,
+    index = 314,
     label = "CH2-3-1C7H12",
     molecule = 
 """
@@ -13211,7 +13210,7 @@ C=CC(=C)CCCC
 # )
 
 entry(
-    index = 318,
+    index = 315,
     label = "C2H5-3-TAX1C6H10",
     molecule = 
 """
@@ -13258,7 +13257,7 @@ C=C[C](CC)CCC
 )
 
 entry(
-    index = 319,
+    index = 316,
     label = "CH3-2-1C6H11",
     molecule = 
 """
@@ -13302,7 +13301,7 @@ C=C(C)CCCC
 )
 
 entry(
-    index = 320,
+    index = 317,
     label = "PXC2H4-2-1C5H9",
     molecule = 
 """
@@ -13346,9 +13345,9 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 321,
+    index = 318,
     label = "CH2-3-1C5H8",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
@@ -13376,7 +13375,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc =
+    longDesc = 
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -13386,7 +13385,7 @@ C=CC(=C)CC
 )
 
 entry(
-    index = 322,
+    index = 319,
     label = "SAX4-5C10H19",
     molecule = 
 """
@@ -13439,7 +13438,7 @@ CCC[C]=CCCCCC
 )
 
 entry(
-    index = 323,
+    index = 320,
     label = "C5H8-12",
     molecule = 
 """
@@ -13475,7 +13474,7 @@ C=C=CCC
 )
 
 entry(
-    index = 324,
+    index = 321,
     label = "SAXC4H8-2-1C6H11",
     molecule = 
 """
@@ -13528,7 +13527,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 325,
+    index = 322,
     label = "C3H7-2-SAXC6H10",
     molecule = 
 """
@@ -13578,7 +13577,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 326,
+    index = 323,
     label = "SAXC10H19",
     molecule = 
 """
@@ -13631,7 +13630,7 @@ C=C[CH]CCCCCCC
 )
 
 entry(
-    index = 327,
+    index = 324,
     label = "SAXC9H17",
     molecule = 
 """
@@ -13681,7 +13680,7 @@ C=C[CH]CCCCCC
 )
 
 entry(
-    index = 328,
+    index = 325,
     label = "SAXC8H15",
     molecule = 
 """
@@ -13728,7 +13727,7 @@ C=C[CH]CCCCC
 )
 
 entry(
-    index = 329,
+    index = 326,
     label = "C2H5-2-SAX1C5H9",
     molecule = 
 """
@@ -13772,7 +13771,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 330,
+    index = 327,
     label = "SOOcC6O",
     molecule = 
 """
@@ -13815,7 +13814,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 )
 
 entry(
-    index = 331,
+    index = 328,
     label = "C2H5cC6H10OO",
     molecule = 
 """
@@ -13863,7 +13862,7 @@ CCC1CCC(CC1)O[O]
 )
 
 entry(
-    index = 332,
+    index = 329,
     label = "CH3cC6H10OO",
     molecule = 
 """
@@ -13908,7 +13907,7 @@ CC1CCC(CC1)O[O]
 )
 
 entry(
-    index = 333,
+    index = 330,
     label = "C4H9cC6H10OO",
     molecule = 
 """
@@ -13962,7 +13961,7 @@ CCCCC1CCC(CC1)O[O]
 )
 
 entry(
-    index = 334,
+    index = 331,
     label = "C2H5cC6H9OOH",
     molecule = 
 """
@@ -14050,7 +14049,7 @@ CCC1C[CH]C(CC1)OO
 # )
 
 entry(
-    index = 336,
+    index = 332,
     label = "C4H9cC6H9OOH",
     molecule = 
 """
@@ -14104,7 +14103,7 @@ CCCCC1C[CH]C(CC1)OO
 )
 
 entry(
-    index = 337,
+    index = 333,
     label = "CH3cC6H9OOH",
     molecule = 
 """
@@ -14149,7 +14148,7 @@ CC1C[CH]C(CC1)OO
 )
 
 entry(
-    index = 338,
+    index = 334,
     label = "C3H7cC6H10OO",
     molecule = 
 """
@@ -14200,7 +14199,7 @@ CCCC1CCC(CC1)O[O]
 )
 
 entry(
-    index = 339,
+    index = 335,
     label = "CH3-2-1C5H9",
     molecule = 
 """
@@ -14241,7 +14240,7 @@ C=C(C)CCC
 )
 
 entry(
-    index = 340,
+    index = 336,
     label = "CH3-2-1C4H7",
     molecule = 
 """
@@ -14279,7 +14278,7 @@ C=C(C)CC
 )
 
 entry(
-    index = 341,
+    index = 337,
     label = "C3H7cC6H9OOH",
     molecule = 
 """
@@ -14330,7 +14329,7 @@ CCCC1[CH]CC(CC1)OO
 )
 
 entry(
-    index = 342,
+    index = 338,
     label = "CH3cC6H9O3",
     molecule = 
 """
@@ -14375,7 +14374,7 @@ CC1CC([O])CC(C1)O[O]
 )
 
 entry(
-    index = 343,
+    index = 339,
     label = "C2H5cC6H9O3",
     molecule = 
 """
@@ -14423,7 +14422,7 @@ CCC1CC([O])CC(C1)O[O]
 )
 
 entry(
-    index = 344,
+    index = 340,
     label = "C3H7cC6H9O3",
     molecule = 
 """
@@ -14474,7 +14473,7 @@ CCCC1CC([O])CC(C1)O[O]
 )
 
 entry(
-    index = 345,
+    index = 341,
     label = "C4H9cC6H9O3",
     molecule = 
 """

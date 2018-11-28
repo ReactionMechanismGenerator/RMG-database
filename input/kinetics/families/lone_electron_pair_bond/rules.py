@@ -6,7 +6,6 @@ shortDesc = u""
 longDesc = u"""
 
 """
-
 entry(
     index = 0,
     label = "N3sRRR;O_atom_singlet",
@@ -21,3 +20,4 @@ entry(
     rank = 0,
     shortDesc = u"""Default""",
 )
+

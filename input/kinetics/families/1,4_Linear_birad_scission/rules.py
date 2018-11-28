@@ -17,7 +17,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""AG Vandeputte estimate (should be fast)""",
 )
 

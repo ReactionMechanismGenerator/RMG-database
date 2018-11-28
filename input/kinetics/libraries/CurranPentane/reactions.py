@@ -8,6 +8,8 @@ An ignition delay time and chemical kinetic modeling study of the pentane isomer
 John Bugler, Brandon Marks, Olivier Mathieu, Rachel Archuleta, Alejandro Camou, Claire Gregoire, Karl A. Heufer, Eric L. Petersen, Henry J. Curran
 Combustion and Flame, 2016, 163, 138-156
 doi: 10.1016/j.combustflame.2015.09.014
+
+Adjusted the A factors of 9 reactions to meet the TST and colllision limits
 """
 
 entry(
@@ -19441,8 +19443,8 @@ entry(
     index = 1337,
     label = "C4H71-1,2OOH <=> NC4KET12 + OH",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9e+14, 's^-1'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""""",
+    kinetics = Arrhenius(A=(2e13, 's^-1'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = 'A factor reduced from 9e+14 to 2e+13 to meet TST limit at 1000 K',
 )
 
 entry(
@@ -19473,8 +19475,8 @@ entry(
     index = 1341,
     label = "C4H71-1,3OOH <=> NC4KET13 + OH",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9e+14, 's^-1'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""""",
+    kinetics = Arrhenius(A=(2e13, 's^-1'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = 'A factor reduced from 9e+14 to 2e+13 to meet TST limit at 1000 K',
 )
 
 entry(
@@ -19489,8 +19491,8 @@ entry(
     index = 1343,
     label = "C4H72-1,2OOH <=> NC4KET21 + OH",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9e+14, 's^-1'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""""",
+    kinetics = Arrhenius(A=(2e13, 's^-1'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = 'A factor reduced from 9e+14 to 2e+13 to meet TST limit at 1000 K',
 )
 
 entry(
@@ -19513,24 +19515,24 @@ entry(
     index = 1346,
     label = "C4H71-1,4OOH <=> NC4KET14 + OH",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9e+14, 's^-1'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""""",
+    kinetics = Arrhenius(A=(2e13, 's^-1'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = 'A factor reduced from 9e+14 to 2e+13 to meet TST limit at 1000 K',
 )
 
 entry(
     index = 1347,
     label = "C4H72-2,3OOH <=> NC4KET23 + OH",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9e+14, 's^-1'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""""",
+    kinetics = Arrhenius(A=(2e13, 's^-1'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = 'A factor reduced from 9e+14 to 2e+13 to meet TST limit at 1000 K',
 )
 
 entry(
     index = 1348,
     label = "C4H72-2,4OOH <=> NC4KET24 + OH",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9e+14, 's^-1'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""""",
+    kinetics = Arrhenius(A=(2e13, 's^-1'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = 'A factor reduced from 9e+14 to 2e+13 to meet TST limit at 1000 K',
 )
 
 entry(
@@ -21899,8 +21901,8 @@ entry(
     index = 1618,
     label = "CH2O2H <=> CH2O + OH",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9e+14, 's^-1'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""""",
+    kinetics = Arrhenius(A=(2e13, 's^-1'), n=0, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = 'A factor reduced from 9e+14 to 2e+13 to meet TST limit at 1000 K',
 )
 
 entry(
@@ -23723,12 +23725,12 @@ entry(
     label = "CdCCdCCJ + H <=> CdCCdCC",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.3e+20, 'cm^3/(mol*s)'),
+        A = (2.0e+20, 'cm^3/(mol*s)'),
         n = -1.6,
         Ea = (3020, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"A factor reduced from 2.3e20 to 2.0e20 to keep under the collision limit at 1000 K and 1 bar",
 )
 
 entry(
@@ -28780,8 +28782,8 @@ entry(
     index = 2041,
     label = "CCYCCOOC-I2 <=> CHOIC3H6O",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.19e+14, 's^-1'), n=0, Ea=(3000, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""""",
+    kinetics = Arrhenius(A=(9.4e13, 's^-1'), n=0, Ea=(3000, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"A factor reduced from 3.19e14 to 9.4e13",
 )
 
 entry(
@@ -29902,12 +29904,12 @@ entry(
     degeneracy = 1,
     reversible = False,
     kinetics = Arrhenius(
-        A = (5.064e+07, 'cm^3/(mol*s)'),
+        A = (4.25e7, 'cm^3/(mol*s)'),
         n = 2.46,
         Ea = (729.44, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"A factor reduced from 5.064e7 to 4.25e7 to keep under the collision limit at 1000 K 1 bar",
 )
 
 entry(

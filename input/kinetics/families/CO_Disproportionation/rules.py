@@ -6,7 +6,6 @@ shortDesc = u""
 longDesc = u"""
 
 """
-
 entry(
     index = 485,
     label = "Y_rad_birad_trirad_quadrad;HCO_HCS",

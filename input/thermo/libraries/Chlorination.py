@@ -1193,7 +1193,7 @@ entry(
 2 Cl u0 p3 c0 {1,S}
 3 O  u0 p2 c0 {1,S} {4,S}
 4 O  u0 p2 c0 {3,S} {7,S}
-5 Cl  u0 p0 c0 {1,S}
+5 Cl u0 p3 c0 {1,S}
 6 H  u0 p0 c0 {1,S}
 7 H  u0 p0 c0 {4,S}
 """,
@@ -1223,8 +1223,8 @@ entry(
 2 Cl u0 p3 c0 {1,S}
 3 O  u0 p2 c0 {1,S} {4,S}
 4 O  u0 p2 c0 {3,S} {7,S}
-5 Cl  u0 p0 c0 {1,S}
-6 Cl  u0 p0 c0 {1,S}
+5 Cl  u0 p3 c0 {1,S}
+6 Cl  u0 p3 c0 {1,S}
 7 H  u0 p0 c0 {4,S}
 """,
     thermo = ThermoData(

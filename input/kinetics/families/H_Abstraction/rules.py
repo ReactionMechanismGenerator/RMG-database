@@ -14,7 +14,7 @@ or in a section(s) titled 'General'
 .. [MRHCBSQB3RRHO] M.R. Harper (mrharper_at_mit_dot_edu or michael.harper.jr_at_gmail_dot_com)
 The geometries of all reactants, products, and the transition state were optimized using the CBS-QB3 calculations.  The zero-point
 energy is that computed by the CBS-QB3 calculations.  The frequencies were computed with B3LYP/CBSB7.
-In computing k(T), an asymmetric tunneling correction was employed, the calculated frequencies were scaled by 0.99, and the 
+In computing k(T), an asymmetric tunneling correction was employed, the calculated frequencies were scaled by 0.99, and the
 temperatures used were: 300, 331, 370, 419, 482, 568, 692, 885, 1227, 2000 (evenly spaced on inverse temperature scale).
 
 .. [Tsang1990] W. Tsang; "Chemical kinetic database for combustion chemistry. Part IV. Isobutane" J. Phys. Chem. Ref. Data 19 (1990) 1-68
@@ -34,13 +34,13 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Default""",
-    longDesc = 
+    longDesc =
 u"""
-If a biradical CH2JJ can abstract from RCH4 to make RCH3J and CH3J 
-then a Y_rad CH3J should be able to abstract from RCH3J which means X_H needs 
+If a biradical CH2JJ can abstract from RCH4 to make RCH3J and CH3J
+then a Y_rad CH3J should be able to abstract from RCH3J which means X_H needs
 to include Xrad_H. I.e. you can abstract from a radical. To make this possible
 a head node has been created X_H_or_Xrad_H which is a union of X_H and Xrad_H.
-The kinetics for it have just been copied from X_H and are only defined for 
+The kinetics for it have just been copied from X_H and are only defined for
 abstraction by Y_rad_birad. I.e. the top level very approximate guess.
 
 Do better kinetics for this exist? Do we in fact use the reverse kinetics anyway?
@@ -76,7 +76,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Dean, A. M. [118]""",
-    longDesc = 
+    longDesc =
 u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 """,
@@ -95,7 +95,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Dean, A. M. [118]""",
-    longDesc = 
+    longDesc =
 u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 """,
@@ -114,7 +114,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Dean, A. M. [118]""",
-    longDesc = 
+    longDesc =
 u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 """,
@@ -133,7 +133,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Dean, A. M. [118]""",
-    longDesc = 
+    longDesc =
 u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 """,
@@ -152,7 +152,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Dean, A. M. [118]""",
-    longDesc = 
+    longDesc =
 u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 """,
@@ -171,7 +171,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Estimate [W.H. Green]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -190,7 +190,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Estimate [W.H. Green]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -209,11 +209,11 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. Fixed by RWest (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253. http://dx.doi.org/10.1016/S0010-2180(01)00373-X
 
-Rate expressions for H atom abstraction from fuels. 
+Rate expressions for H atom abstraction from fuels.
 pg 257 A Comprehensive Modelling Study of iso-Octane Oxidation, Table 1. Radical:OH, Site: primary (a)
 Verified by Karma James
 
@@ -242,12 +242,12 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 http://dx.doi.org/10.1016/S0010-2180(01)00373-X
 
-Rate expressions for H atom abstraction from fuels. 
+Rate expressions for H atom abstraction from fuels.
 pg 257 A Comprehensive Modelling Study of iso-Octane Oxidation, Table 1. Radical:OH, Site: secondary (b)
 
 Verified by Karma James
@@ -274,7 +274,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 http://dx.doi.org/10.1016/S0010-2180(01)00373-X
@@ -302,7 +302,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -329,7 +329,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -357,7 +357,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -388,7 +388,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Walker, R. W. Reactions of HO 2 radicals in combustion chemistry.""",
-    longDesc = 
+    longDesc =
 u"""
 Walker, R. W. Symposium (International) on Combustion. Vol. 22. No. 1. Elsevier, 1989.
 Reactions of HO 2 radicals in combustion chemistry.
@@ -418,7 +418,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -445,7 +445,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -469,7 +469,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -496,7 +496,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -523,7 +523,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -547,7 +547,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -574,7 +574,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -601,7 +601,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -625,7 +625,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H2 + O2 --> H + HO2 C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -655,7 +655,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Knyazev et al. [119] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [119] Knyazev, V.D; Bencsura, A.; Stoliarov, S.I.; Slagle, I.R. J. Phys. Chem. 1996, 100, 11346.
 H2 + C2H3 --> H + C2H4 C.D.W divided original rate expression by 2 ( from A = 9.45E+03), to get rate expression per H atom.
@@ -675,7 +675,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Mebel et al. [120] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [120] Mebel, A.M.; Morokuma, K.; Lin, M.C. J Chem. Phys. 1995, 103, 3440.
 H2 + C2H3 --> H + C2H4 C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -695,7 +695,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Weissman et al. [121] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [121] Weissman, M.A.; Benson, S.W. J. Phys. Chem. 1988, 92, 4080.
 H2 + C2H3 --> H + C2H4 C.D.W divided original rate expression by 2 ( from A = 3.15E+09), to get rate expression per H atom.
@@ -715,9 +715,9 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Baulch et al. [94] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[94] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Frank, P.; Hayman, G,; Just, T.; Kerr, J.A.; Murrells, T.; Pilling, M.J.; 
+[94] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Frank, P.; Hayman, G,; Just, T.; Kerr, J.A.; Murrells, T.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
 
 H2 + C2H --> H + C2H2 C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -749,7 +749,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Mebel et al. [122] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [122] Mebel, A.M.; Lin, M.C.; Yu, T.; Morokuma, K. J. Phys. Chem. A. 1997, 101, 3189.
 H2 + phenyl --> H + benzene C.D.W divided original rate expression by 2 ( from A = 5.71E+04), to get rate expression per H atom.
@@ -769,7 +769,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H2 + HCO --> H + CH2O C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -799,7 +799,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H2 + CH3CO --> H + CH3CHO C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -831,7 +831,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Isaacson [123] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [123] Isaacson, A.D. J. Chem. Phys. 1997, 107, 3832.
 H2 + O2 --> H + H2O C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -874,9 +874,9 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 CH4 + O2 --> CH3 + HO2 C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -907,7 +907,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH4 + C2H5 --> CH3 + C2H6 C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -937,7 +937,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang et al. [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 CH4 + iso-C3H7 --> CH3 + C3H8 C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -968,7 +968,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH4 + C2H --> CH3 + C2H2 C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -1001,7 +1001,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Heckmann et al. [124]""",
-    longDesc = 
+    longDesc =
 u"""
 [124] Heckmann, E.; Hippler, H. Troe, J. Sypm. Int. Combust. Proc. 1996, 26, 543.
 Absolute value measured directly (excitation technique: thermal, analytical technique: vis-UV absorption) CH4 + phenyl --> benzene
@@ -1023,7 +1023,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH4 + HCO --> CH3 + CH2O C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -1053,7 +1053,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH4 + CH3CO --> CH3 + CH3CHO C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -1083,7 +1083,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Melissas and Truhlar [125] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [125] Melissas, V.S.; Truhlar, D.G. J. Chem. Phys. 1993,99,1010.
 CH4 + OH --> CH3 + H2O C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -1103,9 +1103,9 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 CH4 + OH --> CH3 + H2O C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -1137,7 +1137,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Cohen et al. [101] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [101] Cohen, N. Int. J. Chem. Kinet. 1991, 23, 397.
 CH4 + OH --> CH3 + H2O C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -1157,7 +1157,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 CH4 + CH3O --> CH3 + CH3OH The calculated reverse rate constants are in good agreement with experiment. (Rxn. -R3 in paper)
@@ -1181,7 +1181,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH4 + HO2 --> CH3 + H2O2 C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -1211,14 +1211,14 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 C2H6 + O2 --> C2H5 + HO2 C.D.W divided original rate expression by 6, to get rate expression per H atom.
 
-pg 417 Evaluated Kinetic Data for Combustion Modelling  Table 1. Bimolecular reactions - O2 Reactions. (The value for E0 does not 
+pg 417 Evaluated Kinetic Data for Combustion Modelling  Table 1. Bimolecular reactions - O2 Reactions. (The value for E0 does not
 
 match the value in the reference, E0 RMG = 1.87; E0 Reference = 51.86)
 
@@ -1250,7 +1250,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H6 + C2H --> C2H5 + C2H2 C.D.W divided original rate expression by 6, to get rate expression per H atom.
@@ -1282,10 +1282,10 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Park et al. [126]""",
-    longDesc = 
+    longDesc =
 u"""
 [126] Park, J.; Gheyas, S.; Lin, M.C. Int. J. Chem. Kinet. 2001, 33, 64.
-Absolute value measured directly. Static or low flow, flash photolysis excitation, Vis-UV absoprtion analysis. 
+Absolute value measured directly. Static or low flow, flash photolysis excitation, Vis-UV absoprtion analysis.
 
 Phenyl radicals are produced from 193 nm photolysis of C6H5COCH3. The cavity ringdown spectroscopy and/or mass spectroscopy
 
@@ -1308,7 +1308,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H6 + HCO --> C2H5 + CH2O C.D.W divided original rate expression by 6(from A = 4.69E+04), to get rate expression per H atom.
@@ -1338,7 +1338,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H6 + CH3CO --> C2H5 + CH3CHO C.D.W divided original rate expression by 6(from A = 1.81E+04), to get rate expression per H atom.
@@ -1369,9 +1369,9 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 C2H6 + OH --> C2H5 + H2O C.D.W divided original rate expression by 6, to get rate expression per H atom.
@@ -1403,10 +1403,10 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Taylor et al. [127] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [127] Taylor, P.H.; Rahman, M.S.; Arif, M.; Dellinger, B.; Marshall, P. Sypm. Int. Combust. Proc. 1996, 26, 497.
-CH3CHO + OH --> CH2CHO + H2O Rate constant is high pressure limit (pressure 0.13-0.97atm?) 
+CH3CHO + OH --> CH2CHO + H2O Rate constant is high pressure limit (pressure 0.13-0.97atm?)
 
 C.D.W divided original rate expression by 3(from A = 1.55E+06), to get rate expression per H atom.
 """,
@@ -1425,7 +1425,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 CH3OH + CH3 --> CH2OH + CH4 The calculated rate constants are in good agreement with experiment. (Rxn. R4 in paper)
@@ -1449,7 +1449,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 CH3OH + OH --> CH2OH + H2O The calculated rate constants are in good agreement with experiment. (Rxn. R6 in paper)
@@ -1474,7 +1474,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + O2 --> iso-C3H7 + HO2  C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -1509,7 +1509,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + CH2 --> iso-C3H7 + CH3  C.D.W divided original rate expression by 2(from A = 1.51), to get rate expression per H atom.
@@ -1539,7 +1539,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + O --> iso-C3H7 + OH  C.D.W divided original rate expression by 2(from A = 4.77E+04), to get rate expression per H atom.
@@ -1572,7 +1572,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + CH2OH --> iso-C3H7 + CH3OH  C.D.W divided original rate expression by 2(from A = 6.03E+01), to get rate expression per H atom.
@@ -1610,7 +1610,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + C2H3 --> iso-C3H7 + C2H4  C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -1643,7 +1643,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + C2H --> iso-C3H7 + C2H2  C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -1677,7 +1677,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + HCO --> iso-C3H7 + CH2O  C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -1709,7 +1709,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + CH3CO --> iso-C3H7 + CH3CHO  C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -1741,7 +1741,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Cohen et al. [101] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [101] Cohen, N. Int. J. Chem. Kinet. 1991, 23, 397.
 C3H8 + OH --> iso-C3H7 + H20  C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -1763,7 +1763,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + CH3O --> iso-C3H7 + CH3OH  C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -1798,12 +1798,12 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + O2 --> tert-C4H9 + HO2
 
-pg 5, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+pg 5, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 43,3.
 
@@ -1834,12 +1834,12 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + O --> tert-C4H9 + OH
 
-pg 5, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+pg 5, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 43,5.
 
@@ -1870,12 +1870,12 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + CH2 --> tert-C4H9 + CH3
 
-pg 6, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+pg 6, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 43,25.
 
@@ -1904,12 +1904,12 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + C2H3 --> tert-C4H9 + C2H4
 
-pg 5, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+pg 5, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 43,19.
 
@@ -1938,12 +1938,12 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + C2H --> tert-C4H9 + C2H2
 
-pg 5, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+pg 5, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 43,21.
 
@@ -1973,12 +1973,12 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + HCO --> tert-C4H9 + CH2O
 
-pg 5, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+pg 5, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 43,15.
 
@@ -1989,7 +1989,7 @@ pg.18: Discussion on evaluated data
 Entry 43,15(b): No data available at the time.  For the rxn iC4H10+HCO=CH2O+iC4H9, author
 
 recommends 1.5x the rate of the rxn C3H8+HCO+CH2O+nC3H7 (9 vs. 6 primary H-atoms).
-The author then recommends the rate coefficient for iC4H10+HCO=CH2O+tC4H9 to be the 
+The author then recommends the rate coefficient for iC4H10+HCO=CH2O+tC4H9 to be the
 rate coefficient of iC4H10+HCO=CH2O+iC4H9, with the A factor divided by 9 (9 vs. 1
 H-atoms) and the Ea decreased by 20 kJ/mol.
 MRH 31-Aug-2009
@@ -2009,12 +2009,12 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + CH3CO --> tert-C4H9 + CH3CHO
 
-pg 5, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+pg 5, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 43,22.
 
@@ -2042,7 +2042,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Cohen et al. [101] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [101] Cohen, N. Int. J. Chem. Kinet. 1991, 23, 397.
 Iso-C4H10 + OH --> tert-C4H9 + H2O
@@ -2064,12 +2064,12 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + CH3O --> tert-C4H9 + CH3OH
 
-pg 6, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+pg 6, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 43,24.
 
@@ -2104,7 +2104,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Hua, Ruscic, and Wang 2005, transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 FORMER RATES
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
@@ -2146,7 +2146,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Mahmud et al. [128] Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 [128] Mahmud, K.; Marshall, P.; Fontijn, A. J Phys. Chem. 1987, 91, `568.
 C2H4 + O --> C2H3 + OH C.D.W divided original rate expression by 4(from A= 1.51E+07), to get rate expression per H atom.
@@ -2166,7 +2166,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H4 + C2H5 --> C2H3 + C2H6 C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -2198,9 +2198,9 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 C2H4 + OH --> C2H3 + H2O C.D.W divided original rate expression by 4(from A= 2.05E+13), to get rate expression per H atom.
@@ -2230,7 +2230,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [93] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
 CH3CH=CH2 + O --> CH3C=CH2 + OH
@@ -2269,7 +2269,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [93] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
 CH3CH=CH2 + H --> CH3C=CH2 + H2
@@ -2303,7 +2303,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [93] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
 CH3CH=CH2 + CH3 --> CH3C=CH2 + CH4
@@ -2336,7 +2336,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [93] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
 CH3CH=CH2 + C2H3 --> CH3C=CH2 + C2H4
@@ -2370,10 +2370,10 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [93] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
-CH3CH=CH2 + C2H --> CH3C=CH2 + C2H2 
+CH3CH=CH2 + C2H --> CH3C=CH2 + C2H2
 
 pg 241
 
@@ -2400,7 +2400,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [93] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
 CH3CH=CH2 + OH --> CH3C=CH2 + H2O
@@ -2436,7 +2436,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H2 + O2 --> C2H + HO2 C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -2468,7 +2468,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H2 + C2H5 --> C2H + C2H6 C.D.W divided original rate expression by 2 (from A= 2.71E+11), to get rate expression per H atom.
@@ -2498,7 +2498,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H2 + OH --> C2H + H2O C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -2528,7 +2528,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Asaba et al. [129]. Data are estimated.""",
-    longDesc = 
+    longDesc =
 u"""
 [129] Asaba, T.; Fujii, N.; Proc. Int. Symp. Shock Tubes Waves 1971, 8, 1.
 Benzene + O2 --> phenyl + HO2 C.D.W divided original rate expression by 6(from A = 6.31E+13), to get rate expression per H atom.
@@ -2548,7 +2548,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Mebel et al. [122] RRK(M) extrapolation.""",
-    longDesc = 
+    longDesc =
 u"""
 [122] Mebel, A.M.; Lin, M.C.; Yu, T.; Morokuma, K. J. Phys. Chem. A. 1997, 101, 3189.
 Rate constant is high pressure limit. Benzene + H --> phenyl + H2
@@ -2570,7 +2570,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Nicovich et al. [130]""",
-    longDesc = 
+    longDesc =
 u"""
 [130] Nicovich, J.M.; Ravishankara, A.R. J. Phys. Chem. 1984, 88, 2534.
 Pressure 0.01-0.26 atm Excitation: flash photolysis, analysis: resonance fluorescence. Benzene + H --> phenyl + H2
@@ -2592,7 +2592,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Zhang et al. [131]""",
-    longDesc = 
+    longDesc =
 u"""
 [131] Zhang, H.X.; Ahonkhai, S.I. Back, H.M. Can. J. Chem. 1989, 67, 1541.
 Pressure 0.30-0.50 atm Excitation: thermal, analysis: GC. Benzene + C2H5 --> phenyl + C2H6
@@ -2614,9 +2614,9 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 Benzene + OH --> phenyl + H2O  C.D.W divided original rate expression by 6(from A = 1.63E+08), to get rate expression per H atom.
@@ -2648,7 +2648,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Michael et al. [132] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [132] Michael, J.V.; Kumaran, S.S.; Su, M.-C. J. Phys. Chem. A. 1999, 103, 5942.
 CH2O + O2 --> HCO + HO2 C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -2668,9 +2668,9 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 CH2O + O --> HCO + OH C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -2701,7 +2701,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 Rate constant is an upper limit. CH2O + CH2 --> HCO + CH3
@@ -2734,9 +2734,9 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Baulch et al. [94] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[94] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Frank, P.; Hayman, G,; Just, T.; Kerr, J.A.; Murrells, T.; Pilling, M.J.; 
+[94] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Frank, P.; Hayman, G,; Just, T.; Kerr, J.A.; Murrells, T.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
 
 CH2O + CH3 --> HCO + CH4 C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -2768,7 +2768,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH2O + C2H5 --> HCO + C2H6 C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -2800,7 +2800,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 CH2O + iso-C3H7 --> HCO + C3H8 C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -2834,12 +2834,12 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 CH2O + tert-C4H9 --> HCO + iso-C4H10 C.D.W divided original rate expression by 2 (from A= 3.25E+09), to get rate expression per H atom.
 
-pg 7, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+pg 7, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 44,12.
 
@@ -2870,7 +2870,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH2O + C2H3 --> HCO + C2H4 C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -2902,7 +2902,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH2O + CH3CO --> HCO + CH3CHO C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -2932,9 +2932,9 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 CH2O + OH --> HCO + H2O C.D.W divided original rate expression by 2 (from A= 3.43E+09), to get rate expression per H atom.
@@ -2965,7 +2965,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH2O + CH3O --> HCO + CH3OH C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -2997,7 +2997,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Eiteneer et al. [133] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [133] Eiteneer, B.; Yu, C.-L.; Goldenberg, M.; Frenklach, M. J. Phys. Chem. A. 1998, 102, 5196.
 CH2O + HO2 --> HCO + H2O2 C.D.W divided original rate expression by 2 (from A= 4.11E+04), to get rate expression per H atom.
@@ -3017,9 +3017,9 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 CH3CHO + O2 --> CH3CO + HO2
@@ -3052,7 +3052,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Warnatz [134] literature review""",
-    longDesc = 
+    longDesc =
 u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
 CH3CHO + O --> CH3CO + OH
@@ -3072,7 +3072,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Warnatz [134] literature review""",
-    longDesc = 
+    longDesc =
 u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
 CH3CHO + H --> CH3CO + H2
@@ -3092,9 +3092,9 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 CH3CHO + CH3 --> CH3CO + CH4
@@ -3127,7 +3127,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Loser et al. [135] bond strength-bond length method.""",
-    longDesc = 
+    longDesc =
 u"""
 [135] Loser, U.; Scherzer, K.; Weber, K. Z. Phys. Chem. (Leipzig) 1989, 270, 237.
 CH3CHO + CH2CH=CH2 --> CH3CO + CH3CH=CH2
@@ -3147,7 +3147,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Scherzer et al. [136] bond energy-bond order method.""",
-    longDesc = 
+    longDesc =
 u"""
 [136] Scherzer, K.; Loser, U.; Stiller, W. Z. Phys. Chem. 1987, 27, 300.
 CH3CHO + C2H3 --> CH3CO + C2H4
@@ -3167,7 +3167,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Taylor et al. [127] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [127] Taylor, P.H.; Rahman, M.S.; Arif, M.; Dellinger, B.; Marshall, P. Sypm. Int. Combust. Proc. 1996, 26, 497.
 CH3CHO + OH --> CH3CO + H2O Pressure 0.13-0.97 atm. Rate constant is high pressure limit.
@@ -3193,7 +3193,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Warnatz [134] literature review""",
-    longDesc = 
+    longDesc =
 u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
 CH3CHO + OH --> CH3CO + H2O
@@ -3213,9 +3213,9 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 CH3CHO + HO2 --> CH3CO + H2O2
@@ -3247,12 +3247,12 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Mayer et al. [137] Bond energy-bond order.""",
-    longDesc = 
+    longDesc =
 u"""
 [137] Mayer, S.W.; Schieler, L. J. Phys. Chem. 1968, 72, 2628.
 http://dx.doi.org/10.1021/j100853a066
 
-H2O + O2 --> OH + HO2. 
+H2O + O2 --> OH + HO2.
 C.D.W divided original rate expression by 2, to get rate expression per H atom.
 """,
 )
@@ -3270,7 +3270,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Karach et al. [138] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [138] Karach, S.P.; Oscherov, V.I. J. Phys. Chem. 1999, 110, 11918.
 H2O + O --> OH + OH. C.D.W divided original rate expression by 2 (from A= 2.95E+39), to get rate expression per H atom.
@@ -3290,7 +3290,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Harding et al. [139] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [139] Harding, L.B.; Wagner, A.F. Symp. Int. Combust. proc. 1989, 22, 983.
 H2O + O --> OH + OH. C.D.W divided original rate expression by 2 (from A= 1.48E+05), to get rate expression per H atom.
@@ -3310,9 +3310,9 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 H2O + H --> OH + H2. C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -3348,7 +3348,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Ma et al. [140] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [140] Ma, S.; Liu, R.; Sci. China Ser. S: 1996, 39, 37.
 H2O + CH3 --> OH + CH4. C.D.W divided original rate expression by 2 (from A= 6.39), to get rate expression per H atom.
@@ -3368,7 +3368,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H2O + CH3 --> OH + CH4. C.D.W divided original rate expression by 2 (from A= 4.83E+02), to get rate expression per H atom.
@@ -3398,7 +3398,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H2O + C2H5 --> OH + C2H6. C.D.W divided original rate expression by 2 (from A= 3.39E+06), to get rate expression per H atom.
@@ -3428,7 +3428,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H2O + C2H3 --> OH + C2H4. C.D.W divided original rate expression by 2 (from A= 4.83E+02), to get rate expression per H atom.
@@ -3458,7 +3458,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H2O + HCO --> OH + CH2O. C.D.W divided original rate expression by 2 (from A= 2.35E+08), to get rate expression per H atom.
@@ -3488,7 +3488,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Masgrau et al. [141] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [141] Masgrau, L.; Gonzalez-Lafont, A.; Lluch, J.M. J. Phys. Chem. A. 1999, 103, 1044.
 H2O + OH --> OH + H2O . C.D.W refitted their k(T) to get A, n, and Ea, and divided original rate expression by 2, to get rate expression per H atom.
@@ -3518,7 +3518,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 H2O + CH3O --> OH + CH3OH C.D.W divided original rate expression by 2 (from A= 9.03E+08), to get rate expression per H atom.; This is Rxn. -R5 from mpaper
@@ -3540,7 +3540,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Warnatz [134] literature review""",
-    longDesc = 
+    longDesc =
 u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
 CH3OH + O --> CH3O + OH
@@ -3560,12 +3560,12 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [90] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [90] Tsang, W. J. Phys. Chem. Ref. Data 1987, 16, 471.
 CH3OH + CH2 --> CH3O + CH3
 
-pg 475, Chemical Kinetic Database For Combustion Chemistry, Part 2 - Methanol. 
+pg 475, Chemical Kinetic Database For Combustion Chemistry, Part 2 - Methanol.
 
 //Index of Reactions and Summary of Recommended Rate Expressions. No. 38,25.
 
@@ -3597,7 +3597,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 The calculated rate constants are in good agreement with experiment. CH3OH + CH3 --> CH3O + CH4 (Rxn. R3 from paper)
@@ -3619,12 +3619,12 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [90] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [90] Tsang, W. J. Phys. Chem. Ref. Data 1987, 16, 471.
 CH3OH + C2H5 --> CH3O + C2H6
 
-pg 475, Chemical Kinetic Database For Combustion Chemistry, Part 2 - Methanol. 
+pg 475, Chemical Kinetic Database For Combustion Chemistry, Part 2 - Methanol.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 38,17.
 
@@ -3656,7 +3656,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 CH3OH + iso-C3H7 --> CH3O + C3H8
@@ -3694,7 +3694,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 CH3OH + tert-C4H9 --> CH3O + iso-C4H10
@@ -3731,12 +3731,12 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [90] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [90] Tsang, W. J. Phys. Chem. Ref. Data 1987, 16, 471.
 CH3OH + C2H3 --> CH3O + C2H4
 
-pg 475, Chemical Kinetic Database For Combustion Chemistry, Part 2 - Methanol. 
+pg 475, Chemical Kinetic Database For Combustion Chemistry, Part 2 - Methanol.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 38,19.
 
@@ -3764,12 +3764,12 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Tsang [90] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [90] Tsang, W. J. Phys. Chem. Ref. Data 1987, 16, 471.
 CH3OH + C2H --> CH3O + C2H2
 
-pg 475, Chemical Kinetic Database For Combustion Chemistry, Part 2 - Methanol. 
+pg 475, Chemical Kinetic Database For Combustion Chemistry, Part 2 - Methanol.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 38,21.
 
@@ -3797,7 +3797,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 The calculated rate constants are in good agreement with experiment. CH3OH + OH --> CH3O + H2O (Rxn. R5 from paper)
@@ -3819,7 +3819,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Warnatz [134] literature review""",
-    longDesc = 
+    longDesc =
 u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
 CH3OH + OH --> CH3O + H2O
@@ -3839,7 +3839,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + *CH2CH2CH2CH2OH = nButanol + HO2
@@ -3874,7 +3874,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3*CHCH2CH2OH = nButanol + HO2
@@ -3909,7 +3909,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3CH2*CHCH2OH = nButanol + HO2
@@ -3944,7 +3944,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3CH2CH2*CHOH = nButanol + HO2
@@ -3979,7 +3979,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + *CH2CH2CH[OH]CH3 = 2-Butanol + HO2
@@ -4006,7 +4006,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3*CHCH[OH]CH3 = 2-Butanol + HO2
@@ -4033,7 +4033,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3CH2*C[OH]CH3 = 2-Butanol + HO2
@@ -4060,7 +4060,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3CH2CH[OH]*CH2 = 2-Butanol + HO2
@@ -4087,7 +4087,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + HOC[*CH2][CH3][CH3] = tert-Butanol + HO2
@@ -4144,7 +4144,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 CH2O + H2C=C[*CH2][CH3] = HCO + H2C=C[CH3]2
@@ -4158,10 +4158,10 @@ electronic spin multiplicity was 1 for CH2O and iso-butene; the electronic spin 
 The computed pre-exponential factor was divided by 2 (symmetry of CH2O), from 6.13e-02 to 3.065e-02.
 
 There are no rate coefficients for this reaction in the literature (based on MRH's limited search).
-   Tsang {J. Phys. Chem. Ref. Data 20 (1991) 221-273} recommends the following for the reaction of 
+   Tsang {J. Phys. Chem. Ref. Data 20 (1991) 221-273} recommends the following for the reaction of
    CH2O + H2C=CH-*CH2 = HCO + H2C=CH-CH3: k(T) = 1.26e+08 * T^1.9 * exp(-18.184 kcal/mol / RT) cm3 mol-1 s-1.
    This rate coefficient is 25-85x faster than MRH's calculation over the range 600-2000K.
-   
+
    The previous estimate by RMG for this reaction was: k(T) = 5.500e+03 * T^2.81 * exp(-5.86 kcal/mol / RT) cm3 mol-1 s-1.
    This rate coefficient is 80-13,000x faster than MRH's calculation over the range 600-2000K.
 """,
@@ -4180,7 +4180,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
 
@@ -4207,7 +4207,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
 
@@ -4234,7 +4234,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
@@ -4261,7 +4261,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
@@ -4288,7 +4288,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
@@ -4315,7 +4315,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
@@ -4342,7 +4342,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 3 to get per-H value.
 
@@ -4373,7 +4373,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 3 to get per-H value.
 
@@ -4404,7 +4404,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 3 to get per-H value.
 
@@ -4431,7 +4431,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 3 to get per-H value.
 
@@ -4458,7 +4458,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
@@ -4489,7 +4489,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -4520,7 +4520,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
 
@@ -4547,7 +4547,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
@@ -4574,7 +4574,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -4605,7 +4605,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
@@ -4632,7 +4632,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
 
@@ -4659,7 +4659,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
 
@@ -4686,7 +4686,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -4713,7 +4713,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
 
@@ -4740,7 +4740,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -4767,7 +4767,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
@@ -4794,7 +4794,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""SSM due to lack of better value ref rate rule 525""",
-    longDesc = 
+    longDesc =
 u"""
 This rate rules matches C=C-CH3 + HO-O* <=> C=C-CH2* + H2O2
 
@@ -4817,7 +4817,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 6 to get per-H value.
 
@@ -4844,7 +4844,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""SSM due to lack of better value ref rate rule 527""",
-    longDesc = 
+    longDesc =
 u"""
 This rate rules matches C=C*-C + H2O2 <=> C=C-C + HO-O*
 
@@ -4867,7 +4867,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 2 to account for summetry of H2O2
 The rate rule is valid in a range of temperature from 300 -2000 K.
@@ -4896,7 +4896,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""SSM due to lack of better value ref rate rule 529""",
-    longDesc = 
+    longDesc =
 u"""
 This rate rules matches Cs-CH2-C=C + HO-O* <=> Cs-CH*-C=C + H2O2
 
@@ -4922,7 +4922,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 2 to get per-H value.
 The rate rule is valid in a range of temperature from 300 -2000 K.
@@ -4951,7 +4951,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""SSM due to lack of better value ref rate rule 531""",
-    longDesc = 
+    longDesc =
 u"""
 This rate rules matches C-HC=CH* + H2O2 <=> C-HC=CH2 + HO=O*
 
@@ -4974,7 +4974,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 2 to account for summetry of H2O2
 The rate rule is valid in a range of temperature from 300 -2000 K.
@@ -5003,7 +5003,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Matsugi et al 10.1021/jp1012494""",
-    longDesc = 
+    longDesc =
 u"""
 For CH4 + C2 = CH3 + C2H
 
@@ -5017,13 +5017,13 @@ It was measured at pretty low temperatures (294-376), but also calculated ab ini
 rates are plotted but the expression is not reported.
 
     k = (10.0 +- 2.1)E-11 exp[-(4.4+-0.5 kJ mol)/RT] cm3 molecule-1 s-1
-which gives 
+which gives
     A = 6e13+-1.3e13 cm3/mole/s
     n = 0
     Ea = 1.05+-0.12  kcal/mol
 The degeneracy of this reaction is 8 though, so per-site A is:
     A = 7.5e12+-1.6e12
-    
+
 (See also  doi:10.1063/1.3480395  for reactions of C2, but that may be the wrong electronic state.)
 """,
 )
@@ -5041,7 +5041,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Exact reaction: HOOH + *O-CH=CH-C2H5 <=> HO-CH=CH-C2H5 + HOO*
 Rxn family nodes: H2O2 + InChI=1/C4H7O/c1-2-3-4-5/h3-4H,2H2,1H3
@@ -5075,7 +5075,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations, see node 534.""",
-    longDesc = 
+    longDesc =
 u"""
 Rxn family nodes: H2O2 + O_rad/OneDeC
 
@@ -5097,7 +5097,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Exact reaction: HOOH + *O-O-CH3 <=> HO-O-CH3 + HOO*
 Rxn family nodes: H2O2 + OOCH3
@@ -5131,7 +5131,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations, see node 536.""",
-    longDesc = 
+    longDesc =
 u"""
 Rxn family nodes: H2O2 + O_rad/NonDeO
 
@@ -5153,7 +5153,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations, w/1dHR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/1d hindered rotor corrections
 Exact reaction: CH3CH2CH=CH2 + OOCH3 = HOOCH3 + CH3CHCH=CH2
@@ -5197,7 +5197,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
-    longDesc = 
+    longDesc =
 u"""
 MHS CBS-QB3 calculations w/1d hindered rotor corrections
 Exact reaction: *CH2-CH=CH2 + H2O2 = CH3-CH=CH2 + HO2
@@ -5231,7 +5231,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MHS CBS-QB3 w/o 1dHR calculations""",
-    longDesc = 
+    longDesc =
 u"""
 MHS CBS-QB3 calculations without 1d hindered rotor correction (due to presence of hydrogen bond interactions)
 Exact reaction: HO2 + CH3-CH2-CH2-CH=O = H2O2 + CH3-CH2-CH2-C*=O
@@ -5618,7 +5618,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations. added by Greg Magoon 08/25/09""",
-    longDesc = 
+    longDesc =
 u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 
@@ -5643,7 +5643,7 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -7984,7 +7984,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH3 + H = NH2 + H2 (B&D #6) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8003,7 +8003,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH3 + OH = NH2 + H2O (B&D #7) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8022,7 +8022,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH3 + O = NH2 + OH (B&D #8) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8041,7 +8041,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2 + H = NH + H2 (B&D #9) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8060,7 +8060,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2 + O = NH + OH (B&D #15d2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8079,7 +8079,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2 + OH = NH + H2O (B&D #16b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8098,7 +8098,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2 + NH2 = NH3 + NH (B&D #17e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8117,7 +8117,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3 + NH2 = CH4 + NH (B&D #21e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8136,7 +8136,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3 + NH2 = CH2 + NH3 (B&D #21f) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8155,7 +8155,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N + OH = NH + O (B&D #26b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8174,7 +8174,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH + NH2 = NH3 + N (B&D #27b2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8193,7 +8193,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH + OH = N + H2O (B&D #27c2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8212,7 +8212,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH + H = N + H2 (B&D #27d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8231,7 +8231,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH + O = N + OH (B&D #27e2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8250,7 +8250,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH + CH3 = CH4 + N (B&D #27f2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8269,7 +8269,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H2 + H = NNH + H2 (B&D #29c1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8288,7 +8288,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H2 + O = NNH + OH (B&D #29c2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8307,7 +8307,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H2 + OH = NNH + H2O (B&D #29c3) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8326,7 +8326,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H2 + NH2 = NNH + NH3 (B&D #29c4) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8345,7 +8345,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H2 + CH3 = NNH + CH4 (B&D #29c5) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8364,7 +8364,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H2 + NH = NNH + NH2 (B&D #29d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8383,7 +8383,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H3 + OH = H2NN + H2O (B&D #31d2)  in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8402,7 +8402,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H3 + CH3 = H2NN + CH4 (B&D #31e2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8421,7 +8421,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H3 + NH2 = H2NN + NH3 (B&D #31f2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8440,7 +8440,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H4 + H = N2H3 + H2 (B&D #32a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8459,7 +8459,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2NNHO + H = HNNHO + H2 (B&D #63b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8478,7 +8478,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H4 + O = N2H3 + OH (B&D #32b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8497,7 +8497,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2NNHO + O = HNNHO + OH (B&D #63c) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8516,7 +8516,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H4 + OH = N2H3 + H2O (B&D #32c) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8535,7 +8535,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2NNHO + OH = HNNHO + H2O (B&D #63d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8554,7 +8554,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H4 + CH3 = N2H3 + CH4 (B&D #32d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8573,7 +8573,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2NNHO + CH3 = HNNHO + CH4 (B&D #63e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8592,7 +8592,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H4 + NH2 = N2H3 + NH3 (B&D #32e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8611,7 +8611,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2NNHO + NH2 = HNNHO + NH3 (B&D #63f) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8630,7 +8630,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNO + OH = NO + H2O (B&D #36c) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8649,7 +8649,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNO + H = H2 + NO (B&D #36d1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8668,7 +8668,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNO + O = OH + NO (B&D #36e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8687,7 +8687,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNO + NH2 = NH3 + NO (B&D #36f) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8706,7 +8706,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNO + O2 = NO + HO2 (B&D #36h) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8725,7 +8725,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNO + CH3 = NO + CH4 (B&D #36i) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8744,7 +8744,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HONO + H = H2 + NO2 (B&D #40b1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8763,7 +8763,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HONO + O = OH + NO2 (B&D #40c) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8782,7 +8782,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HONO + OH = H2O + NO2 (B&D #40d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8801,7 +8801,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HONO + CH3 = NO2 + CH4 (B&D #40e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8820,7 +8820,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HONO + NH2 = NO2 + NH3 (B&D #40f) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8839,7 +8839,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNO2 + H = H2 + NO2 (B&D #41a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8858,7 +8858,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNO2 + O = OH + NO2 (B&D #41b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8877,7 +8877,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNO2 + OH = H2O + NO2 (B&D #41c) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8896,7 +8896,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNO2 + CH3 = NO2 + CH4 (B&D #41d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8915,7 +8915,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNO2 + NH2 = NH3 + NO2 (B&D #41e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8934,7 +8934,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HCN + OH = CN + H2O (B&D #42a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8953,7 +8953,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HCN + O = CN + OH (B&D #42c3) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8972,7 +8972,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CN + H2 = HCN + H (B&D #44a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -8991,7 +8991,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CN + H2O = HCN + OH (B&D #44b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9010,7 +9010,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CN + CH4 = HCN + CH3 (B&D #44i) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9029,7 +9029,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CN + NH3 = HCN + NH2 (B&D #44j) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9048,7 +9048,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + H = H2CN + H2 (B&D #48a1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9067,7 +9067,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + O = H2CN + OH (B&D #48a2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9086,7 +9086,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + OH = H2CN + H2O (B&D #48a3) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9105,7 +9105,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + CH3 = H2CN + CH4 (B&D #48a4) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9124,7 +9124,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + NH2 = H2CN + NH3 (B&D #48a5) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9143,7 +9143,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + H = HCNH + H2 (B&D #48b1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9162,7 +9162,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + O = HCNH + OH (B&D #48b2)  in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9181,7 +9181,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + OH = HCNH + H2O (B&D #48b3) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9200,7 +9200,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + CH3 = HCNH + CH4 (B&D #48b4) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9219,7 +9219,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + NH2 = HCNH + NH3 (B&D #48b5)  in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9238,7 +9238,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NH2 + H = CH2NH2 + H2 (B&D #51a1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9257,7 +9257,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NH2 + O = CH2NH2 + OH (B&D #51a2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9276,7 +9276,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NH2 + OH = CH2NH2 + H2O (B&D #51a3) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9295,7 +9295,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NH2 + CH3 = CH2NH2 + CH4 (B&D #51a4) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9314,7 +9314,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NH2 + NH2 = CH2NH2 + NH3 (B&D #51a5) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9333,7 +9333,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NH2 + H = CH3NH + H2 (B&D #51b1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9352,7 +9352,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NH2 + O = CH3NH + OH (B&D #51b2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9371,7 +9371,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NH2 + OH = CH3NH + H2O (B&D #51b3) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9390,7 +9390,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NH2 + CH3 = CH3NH + CH4 (B&D #51b4) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9409,7 +9409,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NH2 + NH2 = CH3NH + NH3 (B&D #51b5) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9428,7 +9428,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NCO + H2 = HNCO + H (B&D #53c) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9447,7 +9447,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NCO + CH4 = HNCO + CH3 (B&D #53i) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9466,7 +9466,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NCO + NH3 = HNCO + NH2 (B&D #53j) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9485,7 +9485,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HOCN + H = H2 + NCO (B&D #55d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9504,7 +9504,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HOCN + O = OH + NCO (B&D #55e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9523,7 +9523,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HOCN + OH = H2O + NCO (B&D #55f) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9542,7 +9542,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HOCN + CH3 = CH4 + NCO (B&D #55g) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9561,7 +9561,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HOCN + NH2 = NH3 + NCO (B&D #55h) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9580,7 +9580,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNCO + OH = NCO + H2O (B&D #56d2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9599,7 +9599,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNCO + OH = NCO + H2O (B&D #56g) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9618,7 +9618,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNCO + H = NCO + H2 (B&D #56e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9637,7 +9637,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNCO + O = NCO + OH (B&D #56f) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9656,7 +9656,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNCO + CH3 = NCO + CH4 (B&D #56h) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9675,7 +9675,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNCO + NH2 = NCO + NH3 (B&D #56i) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9694,7 +9694,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH2NO + O = HCNO + OH (B&D #57d2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9713,7 +9713,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NO + H = CH2NO + H2 (B&D #58a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9732,7 +9732,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NO + O = CH2NO + OH (B&D #58b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9751,7 +9751,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NO + OH = CH2NO + H2O (B&D #58c) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9770,7 +9770,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NO + CH3 = CH2NO + CH4 (B&D #58d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9789,7 +9789,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NO + NH2 = CH2NO + NH3 (B&D #58e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9808,7 +9808,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + H = HNOH + H2 (B&D #61b1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9827,7 +9827,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + O = HNOH + OH (B&D #61c1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9846,7 +9846,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + OH = HNOH + H2O (B&D #61d1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9865,7 +9865,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + CH3 = HNOH + CH4 (B&D #61e1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9884,7 +9884,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + NH2 = HNOH + NH3 (B&D #61f1)  in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9903,7 +9903,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + HO2 = HNOH + H2O2 (B&D #61g1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9922,7 +9922,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + H = NH2O + H2 (B&D #61b2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9941,7 +9941,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + O = NH2O + OH (B&D #61c2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9960,7 +9960,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + OH = NH2O + H2O (B&D #61d2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9979,7 +9979,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + CH3 = NH2O + CH4 (B&D #61e2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -9998,7 +9998,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + NH2 = NH2O + NH3 (B&D #61f2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -10017,7 +10017,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + HO2 = NH2O + H2O2 (B&D #61g2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -10036,7 +10036,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2NO + H = HNNO + H2 (B&D #62b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -10055,7 +10055,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2NO + O = HNNO + OH (B&D #62c) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -10074,7 +10074,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2NO + OH = HNNO + H2O (B&D #62d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -10093,7 +10093,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2NO + CH3 = HNNO + CH4 (B&D #62e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -10112,7 +10112,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2NO + NH2 = HNNO + NH3 (B&D #62f) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -10131,7 +10131,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2NO + HO2 = HNNO + H2O2 (B&D #62g) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -10150,7 +10150,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2NNHO + HO2 = HNNHO + H2O2 (B&D #63g) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
@@ -11026,10 +11026,10 @@ entry(
     rank = 5,
     shortDesc = u"""C2H5OH+O=OH+CH2CH2OH""",
     longDesc = """
-iBuOH+O SSM estimates		 
+iBuOH+O SSM estimates
 Values for -alpha,-gamma,-O come from C2H5OH+O TST calculations:
-C. W. Wu, Y. P. Lee, S. C. Xu, M. C. Lin, J. Phys. Chem. A 111 (2007) 6693-6703. 		 //!	C. W. Wu, Y. P. Lee, S. C. Xu, M. C. Lin, J. Phys. Chem. A 111 (2007) 6693-6703. 
--alpha is 2*k(C2H5OH+O=OH+CH2CH2OH)		
+C. W. Wu, Y. P. Lee, S. C. Xu, M. C. Lin, J. Phys. Chem. A 111 (2007) 6693-6703. 		 //!	C. W. Wu, Y. P. Lee, S. C. Xu, M. C. Lin, J. Phys. Chem. A 111 (2007) 6693-6703.
+-alpha is 2*k(C2H5OH+O=OH+CH2CH2OH)
 """,
 )
 
@@ -46475,7 +46475,7 @@ entry(
     longDesc = """
 ref: Role of conformational structures and torsional anharmonicity in controlling chemical reaction rates and
 relative yields: butanal + HO2 reactions
-Refitted from four parameter fits to three parameters fits,  
+Refitted from four parameter fits to three parameters fits,
 """,
 )
 
@@ -46495,7 +46495,7 @@ entry(
     longDesc = """
 ref: Role of conformational structures and torsional anharmonicity in controlling chemical reaction rates and
 relative yields: butanal + HO2 reactions
-Refitted from four parameter fits to three parameters fits,  
+Refitted from four parameter fits to three parameters fits,
 """,
 )
 
@@ -46515,7 +46515,7 @@ entry(
     longDesc = """
 ref: Role of conformational structures and torsional anharmonicity in controlling chemical reaction rates and
 relative yields: butanal + HO2 reactions
-Refitted from four parameter fits to three parameters fits,  
+Refitted from four parameter fits to three parameters fits,
 """,
 )
 
@@ -46536,7 +46536,7 @@ entry(
 CCSD(T)/CBS//M08-HX/maug-cc-pVTZ MSTOR.
 ref: Role of conformational structures and torsional anharmonicity in controlling chemical reaction rates and
 relative yields: butanal + HO2 reactions
-Refitted from four parameter fits to three parameters fits,  
+Refitted from four parameter fits to three parameters fits,
 """,
 )
 
@@ -46747,4 +46747,3 @@ entry(
     rank = 5,
     shortDesc = u"""Default""",
 )
-

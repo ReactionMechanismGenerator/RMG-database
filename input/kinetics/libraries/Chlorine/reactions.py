@@ -378,22 +378,23 @@ u"""
 """,
 )
 
-entry(
-    index = 22,
-    label = "ClO + CO <=> Cl + CO2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (6.03E+11, 'cm^3/(mol*s)'),
-        n = 2.81,
-        Ea = (17400, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    shortDesc = u"""[Ho1992]""",
-    longDesc =
-u"""
-
-""",
-)
+# entry(
+#     index = 22,
+#     label = "ClO + CO <=> Cl + CO2",
+#     degeneracy = 1,
+#     kinetics = Arrhenius(
+#         A = (6.03E+11, 'cm^3/(mol*s)'),
+#         n = 2.81,
+#         Ea = (17400, 'cal/mol'),
+#         T0 = (1, 'K'),
+#     ),
+#     shortDesc = u"""[Ho1992]""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
+#exceeds the collision limit at 1000 K, 1 bar of 706314070.93 mol/(m3*s) at 25564098629.0 mol/(m3*s)
 
 entry(
     index = 23,
@@ -545,22 +546,23 @@ u"""
 """,
 )
 
-entry(
-    index = 998,
-    label = "CH3Cl + H <=> H2 + CH2Cl",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (7.17E11, 'cm^3/(mol*s)'),
-        n = 2.59,
-        Ea = (7645, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    shortDesc = u"""[Bryukov2001]""",
-    longDesc =
-u"""
-
-""",
-)
+# entry(
+#     index = 998,
+#     label = "CH3Cl + H <=> H2 + CH2Cl",
+#     degeneracy = 3,
+#     kinetics = Arrhenius(
+#         A = (7.17E11, 'cm^3/(mol*s)'),
+#         n = 2.59,
+#         Ea = (7645, 'cal/mol'),
+#         T0 = (1, 'K'),
+#     ),
+#     shortDesc = u"""[Bryukov2001]""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
+#exceeds the collision limit at 1000 K, 1 bar of 706314070.93 mol/(m3*s) at 9.01033522312e+11 mol/(m3*s)
 
 entry(
     index = 42,
