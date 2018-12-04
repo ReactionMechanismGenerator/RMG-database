@@ -68,19 +68,19 @@ entry(
     longDesc = u"""R4"""
 )
 
-entry(
-    index = 5,
-    label = "CH4 + HOX + Pt <=> CH3X + H2OX",
-    kinetics = StickingCoefficient(
-        A = 1.0,
-        n = 0,
-        Ea=(10000, 'J/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Default""",
-    longDesc = u"""R5"""
-)
+#entry(
+#    index = 5,
+#    label = "CH4 + HOX + Pt <=> CH3X + H2OX",
+#    kinetics = StickingCoefficient(
+#        A = 1.0,
+#        n = 0,
+#        Ea=(10000, 'J/mol'),
+#        Tmin = (200, 'K'),
+#        Tmax = (3000, 'K'),
+#    ),
+#    shortDesc = u"""Default""",
+#    longDesc = u"""R5"""
+#)
 
 entry(
     index = 6,
