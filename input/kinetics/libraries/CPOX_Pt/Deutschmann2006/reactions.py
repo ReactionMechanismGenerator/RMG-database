@@ -29,7 +29,7 @@ entry(
     index = 2,
     label = "O2 + Pt + Pt <=> OX + OX",
     kinetics = SurfaceArrhenius(
-        A=(1.89E17, 'm^2/(mol*s)'),
+        A=(1.89E21, 'cm^5/(mol^2*s)'),
         n = -0.5,
         Ea=(0.0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -58,7 +58,7 @@ entry(
     index = 4,
     label = "CH4 + OX + Pt <=> CH3X + HOX",
     kinetics = SurfaceArrhenius(
-        A=(5.0E14, 'm^2/(mol*s)'),
+        A=(5.0E18, 'cm^5/(mol^2*s)'),
         n = 0.7,
         Ea=(42000.0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -205,7 +205,7 @@ entry(
     index = 14,
     label = "CX + OX <=> OCX + Pt",
     kinetics = SurfaceArrhenius(
-        A=(3.7E15, 'm^2/(mol*s)'),
+        A=(3.7E19, 'cm^2/(mol*s)'),
         n = 0,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -235,14 +235,17 @@ entry(
     index = 16,
     label = "OCX + OX <=> CO2X + Pt",
     kinetics = SurfaceArrhenius(
-        A=(3.7E17, 'm^2/(mol*s)'),
+        A=(3.7E21, 'cm^2/(mol*s)'),
         n = 0,
         Ea=(117600, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R16. CO2X is vdW CO2."""
+    longDesc = u"""R16. CO2X is vdW CO2. 
+    The table in the paper pdf says 3.7e19, but the supplementary material has 3.7e21, 
+    which is apparently correct and the paper is wrong.
+    """
 )
 
 
@@ -281,7 +284,7 @@ entry(
     index = 19,
     label = "CO2X + HX <=> OCX + HOX",
     kinetics = SurfaceArrhenius(
-        A=(1.0E15, 'm^2/(mol*s)'),
+        A=(1.0E19, 'cm^2/(mol*s)'),
         n = 0,
         Ea=(8400, 'J/mol'),
         Tmin = (200, 'K'),
@@ -310,7 +313,7 @@ entry(
     index = 21,
     label = "CH2X + HX <=> CH3X + Pt",
     kinetics = SurfaceArrhenius(
-        A=(3.09E18, 'm^2/(mol*s)'),
+        A=(3.09E22, 'cm^2/(mol*s)'),
         n = 0,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -340,7 +343,7 @@ entry(
     index = 23,
     label = "CHX + HX <=> CH2X + Pt",
     kinetics = SurfaceArrhenius(
-        A=(3.09E18, 'm^2/(mol*s)'),
+        A=(3.09E22, 'cm^2/(mol*s)'),
         n = 0,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -354,7 +357,7 @@ entry(
     index = 24,
     label = "CHX + Pt <=> CX + HX",
     kinetics = SurfaceArrhenius(
-        A=(3.09E18, 'm^2/(mol*s)'),
+        A=(3.09E22, 'cm^2/(mol*s)'),
         n = 0,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -383,7 +386,7 @@ entry(
     index = 26,
     label = "HX + OX <=> HOX + Pt",
     kinetics = SurfaceArrhenius(
-        A=(1.28E17, 'm^2/(mol*s)'),
+        A=(1.28E21, 'cm^2/(mol*s)'),
         n = 0,
         Ea=(11200, 'J/mol'),
         Tmin = (200, 'K'),
@@ -443,7 +446,7 @@ entry(
     index = 30,
     label = "H2OX + OX <=> HOX + HOX",
     kinetics = SurfaceArrhenius(
-        A=(1.0E16, 'm^2/(mol*s)'),
+        A=(1.0E20, 'cm^2/(mol*s)'),
         n = 0,
         Ea=(43100, 'J/mol'),
         Tmin = (200, 'K'),
@@ -454,40 +457,41 @@ entry(
 )
 
 
-#endothermic - reverse of R32
-#entry(
-#    index = 31,
-#    label = "H2 + CX <=> CH2X",
-#    kinetics = StickingCoefficient(
-#        A = 4.0E-2,
-#        n = 0,
-#        Ea=(29700, 'J/mol'),
-#        Tmin = (200, 'K'),
-#        Tmax = (3000, 'K'),
-#    ),
-#    shortDesc = u"""Default""",
-#    longDesc = u"""R31"""
-#)
 
 entry(
-    index = 32,
-    label = "CH2X <=> H2 + CX",
-    kinetics = SurfaceArrhenius(
-        A=(7.69E9, 'm^2/(mol*s)'),
+    index = 31,
+    label = "H2 + CX <=> CH2X",
+    kinetics = StickingCoefficient(
+        A = 4.0E-2,
         n = 0,
-        Ea=(25100, 'J/mol'),
+        Ea=(29700, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R32"""
+    longDesc = u"""R31"""
 )
+
+# - reverse of R31
+#entry(
+#    index = 32,
+#    label = "CH2X <=> H2 + CX",
+#    kinetics = SurfaceArrhenius(
+#        A=(7.69E13, '1/s'),
+#        n = 0,
+#        Ea=(25100, 'J/mol'),
+#        Tmin = (200, 'K'),
+#        Tmax = (3000, 'K'),
+#    ),
+#    shortDesc = u"""Default""",
+#    longDesc = u"""R32"""
+#)
 
 entry(
     index = 33,
     label = "HX + HOX <=> H2OX + Pt",
     kinetics = SurfaceArrhenius(
-        A=(2.04E17, 'm^2/(mol*s)'),
+        A=(2.04E21, 'cm^2/(mol*s)'),
         n = 0,
         Ea=(66220, 'J/mol'),
         Tmin = (200, 'K'),
@@ -502,7 +506,7 @@ entry(
     index = 34,
     label = "CH3X + HX <=> CH4 + Pt + Pt",
     kinetics = SurfaceArrhenius(
-        A=(3.3E17, 'm^2/(mol*s)'),
+        A=(3.3E21, 'cm^2/(mol*s)'),
         n = 0,
         Ea=(50000, 'J/mol'),
         Tmin = (200, 'K'),
