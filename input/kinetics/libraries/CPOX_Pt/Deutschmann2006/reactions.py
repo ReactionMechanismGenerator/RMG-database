@@ -39,20 +39,19 @@ entry(
     longDesc = u"""R2"""
 )
 
-#endothermic - reverse of R34
-#entry(
-#    index = 3,
-#    label = "CH4 + Pt + Pt <=> CH3X + HX",
-#    kinetics = StickingCoefficient(
-#        A = 9.0E-4,
-#        n = 0,
-#        Ea=(72000, 'J/mol'),
-#        Tmin = (200, 'K'),
-#        Tmax = (3000, 'K'),
-#    ),
-#    shortDesc = u"""Default""",
-#    longDesc = u"""R3"""
-#)
+entry(
+    index = 3,
+    label = "CH4 + Pt + Pt <=> CH3X + HX",
+    kinetics = StickingCoefficient(
+        A = 9.0E-4,
+        n = 0,
+        Ea=(72000, 'J/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Default""",
+    longDesc = u"""R3"""
+)
 
 entry(
     index = 4,
@@ -502,19 +501,19 @@ entry(
 )
 
 
-entry(
-    index = 34,
-    label = "CH3X + HX <=> CH4 + Pt + Pt",
-    kinetics = SurfaceArrhenius(
-        A=(3.3E21, 'cm^2/(mol*s)'),
-        n = 0,
-        Ea=(50000, 'J/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Default""",
-    longDesc = u"""R34"""
-)
+#entry(
+#    index = 34,
+#    label = "CH3X + HX <=> CH4 + Pt + Pt",
+#    kinetics = SurfaceArrhenius(
+#        A=(3.3E21, 'cm^2/(mol*s)'),
+#        n = 0,
+#        Ea=(50000, 'J/mol'),
+#        Tmin = (200, 'K'),
+#        Tmax = (3000, 'K'),
+#    ),
+#    shortDesc = u"""Default""",
+#    longDesc = u"""R34"""
+#)
 
 #endothermic - reverse of R5
 #entry(
