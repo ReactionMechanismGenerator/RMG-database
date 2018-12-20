@@ -1183,11 +1183,442 @@ multiplicity 2
         CpInf = (203.705, 'J/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 calculation with methyl treated as Free Rotor by Matt Johnson""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3 calculation with methyl treated as Free Rotor by Matt Johnson
 """,
-)  
+)
 
+entry(
+    index = 32,
+    label = "C=CC=O",
+    molecule =
+"""
+1 O u0 p2 c0 {4,D}
+2 C u0 p0 c0 {3,D} {4,S} {5,S}
+3 C u0 p0 c0 {2,D} {6,S} {7,S}
+4 C u0 p0 c0 {1,D} {2,S} {8,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {3,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.97189,0.0017228,7.21085e-05,-1.30404e-07,7.68479e-11,-9675.26,8.14288], Tmin=(10,'K'), Tmax=(436.87,'K')),
+            NASAPolynomial(coeffs=[1.15917,0.0274898,-1.64096e-05,4.74608e-09,-5.3304e-13,-9675.26,19.3819], Tmin=(436.87,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+    ),
+    shortDesc = u"""G4 calculation with rotors""",
+    longDesc =
+u"""
 
+""",
+)
 
+entry(
+    index = 33,
+    label = "C[CH]COC",
+    molecule =
+"""
+multiplicity 2
+1  O u0 p2 c0 {2,S} {4,S}
+2  C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+3  C u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
+4  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
+5  C u1 p0 c0 {2,S} {3,S} {14,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {4,S}
+12 H u0 p0 c0 {4,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.42776,0.0628232,-0.000255428,6.52327e-07,-5.56444e-10,-7172.78,11.396], Tmin=(10,'K'), Tmax=(414.98,'K')),
+            NASAPolynomial(coeffs=[0.09724,0.0471886,-2.63617e-05,7.1241e-09,-7.49618e-13,-7172.78,29.487], Tmin=(414.98,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+    ),
+    shortDesc = u"""G4 calculation with rotors""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 34,
+    label = "C=C[CH]OC",
+    molecule =
+"""
+multiplicity 2
+1  O u0 p2 c0 {2,S} {4,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u0 p0 c0 {4,S} {5,D} {9,S}
+4  C u1 p0 c0 {1,S} {3,S} {10,S}
+5  C u0 p0 c0 {3,D} {11,S} {12,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {5,S}
+12 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.77704,0.027474,3.96935e-06,-1.72148e-08,6.5149e-12,-1587.54,10.3494], Tmin=(10,'K'), Tmax=(1099.48,'K')),
+            NASAPolynomial(coeffs=[6.06737,0.0303602,-1.52736e-05,3.73352e-09,-3.58526e-13,-1587.54,-4.00103], Tmin=(1099.48,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+    ),
+    shortDesc = u"""G4 calculation with rotors""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 35,
+    label = "C=COC",
+    molecule =
+"""
+1  O u0 p2 c0 {2,S} {3,S}
+2  C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {4,D} {8,S}
+4  C u0 p0 c0 {3,D} {9,S} {10,S}
+5  H u0 p0 c0 {2,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.98063,0.0130311,2.41624e-05,-3.21285e-08,1.08256e-11,-14003.1,8.48602], Tmin=(10,'K'), Tmax=(1062.24,'K')),
+            NASAPolynomial(coeffs=[4.2279,0.0256603,-1.282e-05,3.0997e-09,-2.93806e-13,-14003.1,3.67704], Tmin=(1062.24,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+    ),
+    shortDesc = u"""G4 calculation with rotors""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 36,
+    label = "CCC(OC)OO",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
+2  C u0 p0 c0 {1,S} {5,S} {6,S} {10,S}
+3  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
+4  C u0 p0 c0 {5,S} {14,S} {15,S} {16,S}
+5  O u0 p2 c0 {2,S} {4,S}
+6  O u0 p2 c0 {2,S} {7,S}
+7  O u0 p2 c0 {6,S} {17,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {4,S}
+15 H u0 p0 c0 {4,S}
+16 H u0 p0 c0 {4,S}
+17 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.78519,0.0524187,-2.80435e-05,5.48266e-09,-1.21483e-15,-106546,10.4081], Tmin=(10,'K'), Tmax=(1553.74,'K')),
+            NASAPolynomial(coeffs=[23.0335,0.0150004,-3.63473e-06,3.63327e-11,6.62874e-14,-113993,-95.6495], Tmin=(1553.74,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+    ),
+    shortDesc = u"""G4 calculation with rotors""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 37,
+    label = "[CH2]OCCCOO",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
+2  C u0 p0 c0 {1,S} {5,S} {10,S} {11,S}
+3  C u0 p0 c0 {1,S} {6,S} {12,S} {13,S}
+4  C u1 p0 c0 {5,S} {14,S} {15,S}
+5  O u0 p2 c0 {2,S} {4,S}
+6  O u0 p2 c0 {3,S} {7,S}
+7  O u0 p2 c0 {6,S} {16,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {4,S}
+15 H u0 p0 c0 {4,S}
+16 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.29485,0.0721047,-0.000180079,3.95924e-07,-3.25101e-10,-19358.4,13.6815], Tmin=(10,'K'), Tmax=(416.32,'K')),
+            NASAPolynomial(coeffs=[1.92939,0.0585696,-3.5274e-05,1.02522e-08,-1.15241e-12,-19358.4,21.8466], Tmin=(416.32,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+    ),
+    shortDesc = u"""G4 calculation with rotors""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 38,
+    label = "C=CC(OC)OOC",
+    molecule =
+"""
+1  O u0 p2 c0 {4,S} {5,S}
+2  O u0 p2 c0 {3,S} {4,S}
+3  O u0 p2 c0 {2,S} {6,S}
+4  C u0 p0 c0 {1,S} {2,S} {7,S} {9,S}
+5  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
+6  C u0 p0 c0 {3,S} {13,S} {14,S} {15,S}
+7  C u0 p0 c0 {4,S} {8,D} {16,S}
+8  C u0 p0 c0 {7,D} {17,S} {18,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {5,S}
+12 H u0 p0 c0 {5,S}
+13 H u0 p0 c0 {6,S}
+14 H u0 p0 c0 {6,S}
+15 H u0 p0 c0 {6,S}
+16 H u0 p0 c0 {7,S}
+17 H u0 p0 c0 {8,S}
+18 H u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.21396,0.0824352,-0.000231769,5.55924e-07,-4.80178e-10,-28138.6,13.8935], Tmin=(10,'K'), Tmax=(404.06,'K')),
+            NASAPolynomial(coeffs=[0.798547,0.0687809,-4.16266e-05,1.21226e-08,-1.3634e-12,-28138.6,27.1524], Tmin=(404.06,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+    ),
+    shortDesc = u"""G4 calculation with rotors""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 39,
+    label = "CC[CH]OCOO",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
+2  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
+3  C u0 p0 c0 {5,S} {6,S} {13,S} {14,S}
+4  C u1 p0 c0 {1,S} {5,S} {15,S}
+5  O u0 p2 c0 {3,S} {4,S}
+6  O u0 p2 c0 {3,S} {7,S}
+7  O u0 p2 c0 {6,S} {16,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {2,S}
+13 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {3,S}
+15 H u0 p0 c0 {4,S}
+16 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.75816,0.049909,-2.21363e-05,2.13057e-09,6.23884e-13,-28220.6,13.1551], Tmin=(10,'K'), Tmax=(1574.77,'K')),
+            NASAPolynomial(coeffs=[22.5449,0.0161572,-3.29148e-06,-2.14861e-10,1.0207e-13,-28220.6,-91.5104], Tmin=(1574.77,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+    ),
+    shortDesc = u"""G4 calculation with rotors""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 40,
+    label = "COCCCO[O]",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+2  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {6,S} {11,S} {12,S}
+4  C u0 p0 c0 {5,S} {13,S} {14,S} {15,S}
+5  O u0 p2 c0 {2,S} {4,S}
+6  O u0 p2 c0 {3,S} {16,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {4,S}
+15 H u0 p0 c0 {4,S}
+16 O u1 p2 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.3664,0.0693859,-0.000237993,6.42379e-07,-5.86743e-10,-25017.9,13.454], Tmin=(10,'K'), Tmax=(394.54,'K')),
+            NASAPolynomial(coeffs=[-0.405766,0.0621074,-3.725e-05,1.07348e-08,-1.19505e-12,-25017.9,32.6343], Tmin=(394.54,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+    ),
+    shortDesc = u"""G4 calculation with rotors""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 41,
+    label = "COCC(C)OO",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
+2  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
+4  C u0 p0 c0 {5,S} {14,S} {15,S} {16,S}
+5  O u0 p2 c0 {2,S} {4,S}
+6  O u0 p2 c0 {1,S} {7,S}
+7  O u0 p2 c0 {6,S} {17,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {4,S}
+15 H u0 p0 c0 {4,S}
+16 H u0 p0 c0 {4,S}
+17 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.32245,0.0656447,-0.000123799,2.48751e-07,-1.92414e-10,-42437.8,12.4935], Tmin=(10,'K'), Tmax=(456.72,'K')),
+            NASAPolynomial(coeffs=[1.05921,0.06229,-3.66643e-05,1.04547e-08,-1.1574e-12,-42437.8,24.2849], Tmin=(456.72,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+    ),
+    shortDesc = u"""G4 calculation with rotors""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 42,
+    label = "COCC(C)[O]",
+    molecule =
+"""
+multiplicity 2
+1  O u0 p2 c0 {4,S} {6,S}
+2  O u1 p2 c0 {3,S}
+3  C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
+4  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+5  C u0 p0 c0 {3,S} {10,S} {11,S} {12,S}
+6  C u0 p0 c0 {1,S} {13,S} {14,S} {15,S}
+7  H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {5,S}
+12 H u0 p0 c0 {5,S}
+13 H u0 p0 c0 {6,S}
+14 H u0 p0 c0 {6,S}
+15 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.52652,0.0462887,-7.2103e-05,1.72233e-07,-1.48775e-10,-20365.5,12.1872], Tmin=(10,'K'), Tmax=(454.16,'K')),
+            NASAPolynomial(coeffs=[-0.0767802,0.0562516,-3.30959e-05,9.41199e-09,-1.03849e-12,-20365.5,29.199], Tmin=(454.16,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+    ),
+    shortDesc = u"""G4 calculation with rotors""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    index = 43,
+    label = "CO[CH]CCOO",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
+2  C u0 p0 c0 {1,S} {6,S} {10,S} {11,S}
+3  C u0 p0 c0 {5,S} {12,S} {13,S} {14,S}
+4  C u1 p0 c0 {1,S} {5,S} {15,S}
+5  O u0 p2 c0 {3,S} {4,S}
+6  O u0 p2 c0 {2,S} {7,S}
+7  O u0 p2 c0 {6,S} {16,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {3,S}
+15 H u0 p0 c0 {4,S}
+16 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.20184,0.0831785,-0.000261387,5.95504e-07,-4.88823e-10,-19976.8,13.7072], Tmin=(10,'K'), Tmax=(412.31,'K')),
+            NASAPolynomial(coeffs=[1.96131,0.0580181,-3.45369e-05,9.9203e-09,-1.10325e-12,-19976.8,22.427], Tmin=(412.31,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+    ),
+    shortDesc = u"""G4 calculation with rotors""",
+    longDesc =
+u"""
+
+""",
+)
