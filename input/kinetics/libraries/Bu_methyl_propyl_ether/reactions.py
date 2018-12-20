@@ -742,10 +742,24 @@ entry(
         Ea = (185.15, 'kJ/mol'),
         T0 = (298, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 analogy from CH3OOH => CH3O + OH from Jasper, Klippenstein and Harding 2009
 """,
 )
 
-
+entry(
+    index = 44,
+    label = "C=C[CH]OC <=> C=CC=O + CH3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.393e10, '1/s'),
+        n = 1.234,
+        Ea = (28.059, 'kcal/mol'),
+        T0 = (298, 'K'),
+    ),
+    longDesc =
+u"""
+G4 calculation Mark Nimlos
+""",
+)
