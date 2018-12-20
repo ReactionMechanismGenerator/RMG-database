@@ -60,16 +60,14 @@ entry(
 14 H u0 p0 c0 {5,S}
 15 H u0 p0 c0 {5,S}
 """,
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[3.44618,0.0474918,-6.62132e-05,1.03669e-07,-6.49171e-11,-30835.5,9.10621], Tmin=(10,'K'), Tmax=(574.1,'K')),
-            NASAPolynomial(coeffs=[0.786644,0.0492491,-2.69818e-05,7.22382e-09,-7.58871e-13,-30835.5,22.8683], Tmin=(574.1,'K'), Tmax=(3000,'K')),
-        ],
-        Tmin = (10,'K'),
-        Tmax = (3000,'K'),
-    ),
+    thermo = ThermoData(
+            Tdata = ([300,400,500,600,800,1000,1500],'K'),
+            Cpdata = ([26.967,32.955,38.762,43.963,52.3,58.468,67.264],'cal/(mol*K)'),
+            H298 = (-56.857,'kcal/mol'),
+            S298 = (84.269,'cal/(mol*K)'),
+        ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
