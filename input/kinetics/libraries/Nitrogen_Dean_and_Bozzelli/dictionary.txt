@@ -81,10 +81,10 @@ CO
 2 O u0 p1 c+1 {1,T}
 
 H2NN
-1 N u0 p1 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
+1 N u0 p0 c+1 {2,D} {3,S} {4,S}
+2 N u0 p2 c-1 {1,D}
 3 H u0 p0 c0 {1,S}
-4 N u0 p2 c0 {1,S}
+4 H u0 p0 c0 {1,S}
 
 O2
 multiplicity 3
@@ -262,10 +262,10 @@ multiplicity 2
 3 O u1 p2 c0 {1,S}
 
 HCOH
-1 C u0 p1 c0 {2,S} {3,S}
-2 O u0 p2 c0 {1,S} {4,S}
-3 H u0 p0 c0 {1,S}
-4 H u0 p0 c0 {2,S}
+1 O u0 p1 c+1 {2,D} {4,S}
+2 C u0 p1 c-1 {1,D} {3,S}
+3 H u0 p0 c0 {2,S}
+4 H u0 p0 c0 {1,S}
 
 O
 multiplicity 3
@@ -317,9 +317,9 @@ multiplicity 2
 5 H u0 p0 c0 {2,S}
 
 HON(S)
-1 O u0 p2 c0 {2,S} {3,S}
-2 H u0 p0 c0 {1,S}
-3 N u0 p2 c0 {1,S}
+1 O u0 p1 c+1 {2,D} {3,S}
+2 N u0 p2 c-1 {1,D}
+3 H u0 p0 c0 {1,S}
 
 N2
 1 N u0 p1 c0 {2,T}
@@ -461,4 +461,3 @@ multiplicity 2
 4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {2,S}
 6 O u1 p2 c0 {2,S}
-

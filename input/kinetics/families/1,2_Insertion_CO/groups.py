@@ -10,8 +10,8 @@ Reaction site *1 should always be a singlet in this family.
 template(reactants=["COS", "RR'"], products=["R_CO_R'"], ownReverse=False)
 
 reverse = "1,1_Elimination"
-
 reversible = True
+
 recipe(actions=[
     ['CHANGE_BOND', '*1', -1, '*4'],
     ['GAIN_PAIR', '*4', '1'],

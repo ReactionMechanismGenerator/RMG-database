@@ -10,8 +10,8 @@ longDesc = u"""
 template(reactants=["RnOO"], products=["RO", "OR"], ownReverse=False)
 
 reverse = "OH+CyclicEther_Form_Alkyl-hydroperoxyl"
-
 reversible = True
+
 recipe(actions=[
     ['BREAK_BOND', '*2', 1, '*3'],
     ['FORM_BOND', '*1', 1, '*2'],
@@ -54,10 +54,10 @@ entry(
     label = "R2OO",
     group = 
 """
-1 *1 R!H     u1 {2,[S,D]}
-2 *4 R!H     u0 {1,[S,D]} {3,S}
-3 *2 O2s     u0 {2,S} {4,S}
-4 *3 [O2s,S] ux {3,S}
+1 *4 R!H     u0 {2,S} {3,[S,D]}
+2 *2 O2s     u0 {1,S} {4,S}
+3 *1 R!H     u1 {1,[S,D]}
+4 *3 [O2s,S] ux {2,S}
 """,
     kinetics = None,
 )
@@ -67,10 +67,10 @@ entry(
     label = "R2OO_S",
     group = 
 """
-1 *1 R!H        u1 {2,S}
-2 *4 [Cd,Cs,CO] u0 {1,S} {3,S}
-3 *2 O2s        u0 {2,S} {4,S}
-4 *3 [O2s,S]    ux {3,S}
+1 *4 [Cd,Cs,CO] u0 {2,S} {3,S}
+2 *2 O2s        u0 {1,S} {4,S}
+3 *1 R!H        u1 {1,S}
+4 *3 [O2s,S]    ux {2,S}
 """,
     kinetics = None,
 )
@@ -80,10 +80,10 @@ entry(
     label = "R2OO_SCO",
     group = 
 """
-1 *1 R!H     u1 {2,S}
-2 *4 CO      u0 {1,S} {3,S}
-3 *2 O2s     u0 {2,S} {4,S}
-4 *3 [O2s,S] ux {3,S}
+1 *4 CO      u0 {2,S} {3,S}
+2 *2 O2s     u0 {1,S} {4,S}
+3 *1 R!H     u1 {1,S}
+4 *3 [O2s,S] ux {2,S}
 """,
     kinetics = None,
 )
@@ -106,11 +106,11 @@ entry(
     label = "R3OO",
     group = 
 """
-1 *1 R!H     u1 {2,[S,D]}
-2 *4 R!H     u0 {1,[S,D]} {3,[S,D]}
-3 *5 R!H     u0 {2,[S,D]} {4,S}
-4 *2 O2s     u0 {3,S} {5,S}
-5 *3 [O2s,S] ux {4,S}
+1 *5 R!H     u0 {2,[S,D]} {3,S}
+2 *4 R!H     u0 {1,[S,D]} {4,[S,D]}
+3 *2 O2s     u0 {1,S} {5,S}
+4 *1 R!H     u1 {2,[S,D]}
+5 *3 [O2s,S] ux {3,S}
 """,
     kinetics = None,
 )
@@ -120,11 +120,11 @@ entry(
     label = "R3OO_SS",
     group = 
 """
-1 *1 R!H        u1 {2,S}
-2 *4 [Cd,Cs]    u0 {1,S} {3,S}
-3 *5 [Cd,Cs,CO] u0 {2,S} {4,S}
-4 *2 O2s        u0 {3,S} {5,S}
-5 *3 [O2s,S]    ux {4,S}
+1 *5 [Cd,Cs,CO] u0 {2,S} {3,S}
+2 *4 [Cd,Cs]    u0 {1,S} {4,S}
+3 *2 O2s        u0 {1,S} {5,S}
+4 *1 R!H        u1 {2,S}
+5 *3 [O2s,S]    ux {3,S}
 """,
     kinetics = None,
 )
@@ -134,11 +134,11 @@ entry(
     label = "R3OO_SSCO",
     group = 
 """
-1 *1 R!H     u1 {2,S}
-2 *4 [Cd,Cs] u0 {1,S} {3,S}
-3 *5 CO      u0 {2,S} {4,S}
-4 *2 O2s     u0 {3,S} {5,S}
-5 *3 [O2s,S] ux {4,S}
+1 *5 CO      u0 {2,S} {3,S}
+2 *4 [Cd,Cs] u0 {1,S} {4,S}
+3 *2 O2s     u0 {1,S} {5,S}
+4 *1 R!H     u1 {2,S}
+5 *3 [O2s,S] ux {3,S}
 """,
     kinetics = None,
 )
@@ -176,12 +176,12 @@ entry(
     label = "R4OO",
     group = 
 """
-1 *1 R!H     u1 {2,[S,D]}
-2 *4 R!H     u0 {1,[S,D]} {3,[S,D]}
-3 *6 R!H     u0 {2,[S,D]} {4,[S,D]}
-4 *5 R!H     u0 {3,[S,D]} {5,S}
-5 *2 O2s     u0 {4,S} {6,S}
-6 *3 [O2s,S] ux {5,S}
+1 *6 R!H     u0 {2,[S,D]} {3,[S,D]}
+2 *5 R!H     u0 {1,[S,D]} {4,S}
+3 *4 R!H     u0 {1,[S,D]} {5,[S,D]}
+4 *2 O2s     u0 {2,S} {6,S}
+5 *1 R!H     u1 {3,[S,D]}
+6 *3 [O2s,S] ux {4,S}
 """,
     kinetics = None,
 )
@@ -191,12 +191,12 @@ entry(
     label = "R4OO_SSS",
     group = 
 """
-1 *1 R!H        u1 {2,S}
-2 *4 [Cd,Cs]    u0 {1,S} {3,S}
-3 *6 [Cd,Cs,CO] u0 {2,S} {4,S}
-4 *5 [Cd,Cs,CO] u0 {3,S} {5,S}
-5 *2 O2s        u0 {4,S} {6,S}
-6 *3 [O2s,S]    ux {5,S}
+1 *6 [Cd,Cs,CO] u0 {2,S} {3,S}
+2 *5 [Cd,Cs,CO] u0 {1,S} {4,S}
+3 *4 [Cd,Cs]    u0 {1,S} {5,S}
+4 *2 O2s        u0 {2,S} {6,S}
+5 *1 R!H        u1 {3,S}
+6 *3 [O2s,S]    ux {4,S}
 """,
     kinetics = None,
 )
@@ -206,12 +206,12 @@ entry(
     label = "R4OO_SSSCO",
     group = 
 """
-1 *1 R!H     u1 {2,S}
-2 *4 [Cd,Cs] u0 {1,S} {3,S}
-3 *6 [Cd,Cs] u0 {2,S} {4,S}
-4 *5 CO      u0 {3,S} {5,S}
-5 *2 O2s     u0 {4,S} {6,S}
-6 *3 [O2s,S] ux {5,S}
+1 *6 [Cd,Cs] u0 {2,S} {3,S}
+2 *5 CO      u0 {1,S} {4,S}
+3 *4 [Cd,Cs] u0 {1,S} {5,S}
+4 *2 O2s     u0 {2,S} {6,S}
+5 *1 R!H     u1 {3,S}
+6 *3 [O2s,S] ux {4,S}
 """,
     kinetics = None,
 )
@@ -281,13 +281,13 @@ entry(
     label = "R5OO",
     group = 
 """
-1 *1 R!H     u1 {2,[S,D]}
-2 *4 R!H     u0 {1,[S,D]} {3,[S,D]}
-3 *6 R!H     u0 {2,[S,D]} {4,[S,D]}
-4 *7 R!H     u0 {3,[S,D]} {5,[S,D]}
-5 *5 R!H     u0 {4,[S,D]} {6,S}
-6 *2 O2s     u0 {5,S} {7,S}
-7 *3 [O2s,S] ux {6,S}
+1 *7 R!H     u0 {2,[S,D]} {3,[S,D]}
+2 *6 R!H     u0 {1,[S,D]} {4,[S,D]}
+3 *5 R!H     u0 {1,[S,D]} {5,S}
+4 *4 R!H     u0 {2,[S,D]} {6,[S,D]}
+5 *2 O2s     u0 {3,S} {7,S}
+6 *1 R!H     u1 {4,[S,D]}
+7 *3 [O2s,S] ux {5,S}
 """,
     kinetics = None,
 )
@@ -297,13 +297,13 @@ entry(
     label = "R5OO_SSSS",
     group = 
 """
-1 *1 R!H        u1 {2,S}
-2 *4 [Cd,Cs]    u0 {1,S} {3,S}
-3 *6 [Cd,Cs,CO] u0 {2,S} {4,S}
-4 *7 [Cd,Cs,CO] u0 {3,S} {5,S}
-5 *5 [Cd,Cs,CO] u0 {4,S} {6,S}
-6 *2 O2s        u0 {5,S} {7,S}
-7 *3 [O2s,S]    ux {6,S}
+1 *7 [Cd,Cs,CO] u0 {2,S} {3,S}
+2 *6 [Cd,Cs,CO] u0 {1,S} {4,S}
+3 *5 [Cd,Cs,CO] u0 {1,S} {5,S}
+4 *4 [Cd,Cs]    u0 {2,S} {6,S}
+5 *2 O2s        u0 {3,S} {7,S}
+6 *1 R!H        u1 {4,S}
+7 *3 [O2s,S]    ux {5,S}
 """,
     kinetics = None,
 )
@@ -313,13 +313,13 @@ entry(
     label = "R5OO_SSSSCO",
     group = 
 """
-1 *1 R!H     u1 {2,S}
-2 *4 [Cd,Cs] u0 {1,S} {3,S}
-3 *6 [Cd,Cs] u0 {2,S} {4,S}
-4 *7 [Cd,Cs] u0 {3,S} {5,S}
-5 *5 CO      u0 {4,S} {6,S}
-6 *2 O2s     u0 {5,S} {7,S}
-7 *3 [O2s,S] ux {6,S}
+1 *7 [Cd,Cs] u0 {2,S} {3,S}
+2 *6 [Cd,Cs] u0 {1,S} {4,S}
+3 *5 CO      u0 {1,S} {5,S}
+4 *4 [Cd,Cs] u0 {2,S} {6,S}
+5 *2 O2s     u0 {3,S} {7,S}
+6 *1 R!H     u1 {4,S}
+7 *3 [O2s,S] ux {5,S}
 """,
     kinetics = None,
 )
@@ -721,9 +721,9 @@ entry(
     label = "OOH",
     group = 
 """
-1 *2 O2s u0 {2,S}
-2 *3 O2s u0 {1,S} {3,S}
-3    H   u0 {2,S}
+1 *3 O2s u0 {2,S} {3,S}
+2 *2 O2s u0 {1,S}
+3    H   u0 {1,S}
 """,
     kinetics = None,
 )
@@ -733,9 +733,9 @@ entry(
     label = "OOR",
     group = 
 """
-1 *2 O2s u0 {2,S}
-2 *3 O2s u0 {1,S} {3,S}
-3    R!H u0 {2,S}
+1 *3 O2s u0 {2,S} {3,S}
+2 *2 O2s u0 {1,S}
+3    R!H u0 {1,S}
 """,
     kinetics = None,
 )

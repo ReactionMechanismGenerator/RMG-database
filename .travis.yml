@@ -23,6 +23,9 @@ before_install:
   # Update conda
   - conda update --yes conda
   - conda info -a
+  # Set git info
+  - git config --global user.name "Travis Deploy"
+  - git config --global user.email "rmg_dev@mit.edu"
 
 jobs:
   include:
@@ -50,7 +53,7 @@ jobs:
         - conda config --add channels rmg
         - conda config --set anaconda_upload yes
       script:
-        - conda build --token $CONDA_TOKEN --user rmg RMG-database
+        - conda build --token $CONDA_TOKEN --user rmg RMG-database/.conda
     - os: osx
       install:
         # Setup conda build
@@ -59,4 +62,4 @@ jobs:
         - conda config --add channels rmg
         - conda config --set anaconda_upload yes
       script:
-        - conda build --token $CONDA_TOKEN --user rmg RMG-database
+        - conda build --token $CONDA_TOKEN --user rmg RMG-database/.conda

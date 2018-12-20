@@ -10,9 +10,8 @@ International Journal of Chemical Kinetics
 Volume 44, Issue 7, pages 444-474, July 2012
 DOI: 10.1002/kin.20603
 """
-
 entry(
-    index = 1,
+    index = 0,
     label = "H",
     molecule = 
 """
@@ -22,7 +21,7 @@ multiplicity 2
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([4.97,4.97,4.97,4.97,4.97,4.97,4.97],'cal/(mol*K)'),
-        H298 = (52.10,'kcal/mol'),
+        H298 = (52.1,'kcal/mol'),
         S298 = (27.39,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
@@ -36,7 +35,7 @@ H                120186 H  1                G   298.00   5000.00  1000.00      1
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "H2",
     molecule = 
 """
@@ -45,8 +44,8 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.90,6.96,7.00,7.02,7.07,7.21,7.73],'cal/(mol*K)'),
-        H298 = (0.00,'kcal/mol'),
+        Cpdata = ([6.9,6.96,7,7.02,7.07,7.21,7.73],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
         S298 = (31.21,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
@@ -60,7 +59,7 @@ H2               121286 H  2                G   298.00   5000.00  1000.00      1
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "O",
     molecule = 
 """
@@ -69,7 +68,7 @@ multiplicity 3
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.23,5.14,5.08,5.05,5.02,5.00,4.98],'cal/(mol*K)'),
+        Cpdata = ([5.23,5.14,5.08,5.05,5.02,5,4.98],'cal/(mol*K)'),
         H298 = (59.56,'kcal/mol'),
         S298 = (38.46,'cal/(mol*K)'),
     ),
@@ -84,7 +83,7 @@ O                120186 O  1                G   298.00   5000.00  1000.00      1
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "OH",
     molecule = 
 """
@@ -95,8 +94,8 @@ multiplicity 2
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([7.16,7.08,7.05,7.06,7.15,7.34,7.87],'cal/(mol*K)'),
-        H298 = (8.90,'kcal/mol'),
-        S298 = (43.90,'cal/(mol*K)'),
+        H298 = (8.9,'kcal/mol'),
+        S298 = (43.9,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -109,7 +108,7 @@ OH               S 9/01 O   1H   1          G   200.000  6000.000 1000.00      1
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "H2O",
     molecule = 
 """
@@ -119,9 +118,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.00,8.23,8.45,8.67,9.22,9.87,11.26],'cal/(mol*K)'),
-        H298 = (-57.80,'kcal/mol'),
-        S298 = (45.10,'cal/(mol*K)'),
+        Cpdata = ([8,8.23,8.45,8.67,9.22,9.87,11.26],'cal/(mol*K)'),
+        H298 = (-57.8,'kcal/mol'),
+        S298 = (45.1,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
     longDesc = 
@@ -134,7 +133,7 @@ H2O              20387  H   2O   1          G   298.00   5000.00  1000.00      1
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "O2",
     molecule = 
 """
@@ -145,8 +144,8 @@ multiplicity 3
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([7.01,7.22,7.44,7.66,8.07,8.35,8.72],'cal/(mol*K)'),
-        H298 = (0.00,'kcal/mol'),
-        S298 = (49.00,'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (49,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
     longDesc = 
@@ -159,7 +158,7 @@ O2               121386 O  2                G   298.00   5000.00  1000.00      1
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "HO2",
     molecule = 
 """
@@ -170,8 +169,8 @@ multiplicity 2
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.35,8.89,9.47,10.00,10.77,11.38,12.48],'cal/(mol*K)'),
-        H298 = (3.00,'kcal/mol'),
+        Cpdata = ([8.35,8.89,9.47,10,10.77,11.38,12.48],'cal/(mol*K)'),
+        H298 = (3,'kcal/mol'),
         S298 = (54.75,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -185,7 +184,7 @@ HO2              L 5/89 H   1O   2          G   200.000  3500.000  1000.000    1
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "H2O2",
     molecule = 
 """
@@ -211,7 +210,7 @@ H2O2             120186 H   2O   2          G   298.00   5000.00  1000.00      1
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "CO",
     molecule = 
 """
@@ -235,7 +234,7 @@ CO               121286 C   1O   1          G   298.00   5000.00  1000.00      1
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "CO2",
     molecule = 
 """
@@ -260,7 +259,7 @@ CO2              121286 C   1O   2          G   298.00   5000.00  1000.00      1
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "N2",
     molecule = 
 """
@@ -269,8 +268,8 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.95,7.01,7.08,7.19,7.50,7.83,8.32],'cal/(mol*K)'),
-        H298 = (0.00,'kcal/mol'),
+        Cpdata = ([6.95,7.01,7.08,7.19,7.5,7.83,8.32],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
         S298 = (45.77,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
@@ -284,7 +283,7 @@ N2               121286 N  2                G   298.00   5000.00  1000.00      1
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "Ar",
     molecule = 
 """
@@ -293,7 +292,7 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([4.97,4.97,4.97,4.97,4.97,4.97,4.97],'cal/(mol*K)'),
-        H298 = (0.00,'kcal/mol'),
+        H298 = (0,'kcal/mol'),
         S298 = (36.98,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
@@ -307,7 +306,7 @@ Ar               120186 Ar  1               G   298.00   5000.00  1000.00      1
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "He",
     molecule = 
 """
@@ -316,7 +315,7 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([4.97,4.97,4.97,4.97,4.97,4.97,4.97],'cal/(mol*K)'),
-        H298 = (0.00,'kcal/mol'),
+        H298 = (0,'kcal/mol'),
         S298 = (30.12,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",

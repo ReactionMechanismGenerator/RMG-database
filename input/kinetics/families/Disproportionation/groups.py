@@ -12,8 +12,8 @@ If a tri-rad or quad-rad, reaction site *1 and *3 can be anything but singlet.
 template(reactants=["Y_rad_birad_trirad_quadrad", "XH_Rrad_birad"], products=["Y_H", "X_R"], ownReverse=False)
 
 reverse = "Molecular_Addition"
-
 reversible = True
+
 recipe(actions=[
     ['FORM_BOND', '*1', 1, '*4'],
     ['BREAK_BOND', '*2', 1, '*4'],
@@ -1357,7 +1357,7 @@ entry(
     label = "N5_rad",
     group = 
 """
-1 *1 [N5sc,N5dc,N5t,N5tc,N5b] u1
+1 *1 [N5sc,N5dc,N5tc,N5b] u1
 """,
     kinetics = None,
 )
@@ -1400,8 +1400,8 @@ entry(
     label = "XH_Rrad",
     group = 
 """
-1 *2 R!H u0 {2,[S,D]} {3,S}
-2 *3 R!H u1 {1,[S,D]}
+1 *2 R!H u0 {2,[S,D,B]} {3,S}
+2 *3 R!H u1 {1,[S,D,B]}
 3 *4 H   u0 {1,S}
 """,
     kinetics = None,
@@ -2630,10 +2630,10 @@ entry(
     label = "Cds/H2_d_N5rad",
     group = 
 """
-1 *2 C                     u0 {2,D} {3,S} {4,S}
-2 *3 [N5dc,N5ddc,N5t,N5tc] u1 p0 c+1 {1,D}
-3 *4 H                     u0 {1,S}
-4    H                     u0 {1,S}
+1 *2 C                 u0 {2,D} {3,S} {4,S}
+2 *3 [N5dc,N5ddc,N5tc] u1 p0 c+1 {1,D}
+3 *4 H                 u0 {1,S}
+4    H                 u0 {1,S}
 """,
     kinetics = None,
 )
@@ -2760,6 +2760,30 @@ entry(
 1 *2 N5dc u0 {2,D} {3,S}
 2 *3 R!H  u1 {1,D}
 3 *4 H    u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 221,
+    label = "XH_b_Rrad",
+    group =
+"""
+1 *2 R!H u0 {2,B} {3,S}
+2 *3 R!H u1 {1,B}
+3 *4 H   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 222,
+    label = "CH_b_Crad",
+    group =
+"""
+1 *2 C u0 {2,B} {3,S}
+2 *3 C u1 {1,B}
+3 *4 H u0 {1,S}
 """,
     kinetics = None,
 )
@@ -3137,6 +3161,8 @@ L1: XH_Rrad_birad
                     L6: N3d/H_d_Crad
                     L6: N3d/H_d_Nrad
                 L5: N5dc/H_d_Rrad
+        L3: XH_b_Rrad
+            L4: CH_b_Crad
     L2: XH_Rbirad
         L3: XH_s_Rbirad
             L4: CH_s_Rbirad

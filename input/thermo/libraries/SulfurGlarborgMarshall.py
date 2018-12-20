@@ -12,9 +12,8 @@ Peter Glarborg, Paul Marshall
 International Journal of Chemical Kinetics, 45(7) (2013) 429-439
 DOI: 10.1002/kin.20778
 """
-
 entry(
-    index = 1,
+    index = 0,
     label = "Ar",
     molecule = 
 """
@@ -36,7 +35,7 @@ BUR0302 L 6/88
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "H",
     molecule = 
 """
@@ -59,7 +58,7 @@ BUR0302 L 6/94
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "H2",
     molecule = 
 """
@@ -83,7 +82,7 @@ LI/DRY04 (v6.1)
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "O",
     molecule = 
 """
@@ -107,7 +106,7 @@ LI/DRY04 (v6.1)
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "O2",
     molecule = 
 """
@@ -131,7 +130,7 @@ BUR0302 RUS 89
 )
 
 entry(
-    index = 7,
+    index = 5,
     label = "OH",
     molecule = 
 """
@@ -156,7 +155,7 @@ LI/DRY04 (v6.1)
 )
 
 entry(
-    index = 8,
+    index = 6,
     label = "H2O",
     molecule = 
 """
@@ -181,7 +180,7 @@ LI/DRY04 (v6.1)
 )
 
 entry(
-    index = 9,
+    index = 7,
     label = "HO2",
     molecule = 
 """
@@ -207,7 +206,7 @@ LI/DRY04 (v6.1)
 )
 
 entry(
-    index = 10,
+    index = 8,
     label = "H2O2",
     molecule = 
 """
@@ -233,7 +232,7 @@ LI/DRY04 (v6.1)
 )
 
 entry(
-    index = 11,
+    index = 9,
     label = "CO",
     molecule = 
 """
@@ -256,7 +255,7 @@ BUR0302 RUS 79
 )
 
 entry(
-    index = 12,
+    index = 10,
     label = "CO2",
     molecule = 
 """
@@ -280,7 +279,7 @@ BUR0302 L 7/88
 )
 
 entry(
-    index = 13,
+    index = 11,
     label = "HOCO",
     molecule = 
 """
@@ -309,7 +308,7 @@ S298= 60.00 cal/mol/K
 )
 
 entry(
-    index = 14,
+    index = 12,
     label = "N2",
     molecule = 
 """
@@ -332,7 +331,7 @@ BUR0302 G 8/02
 )
 
 entry(
-    index = 15,
+    index = 13,
     label = "S",
     molecule = 
 """
@@ -355,10 +354,11 @@ BUR0302     J 9/82
 )
 
 entry(
-    index = 16,
+    index = 14,
     label = "S2",
     molecule = 
 """
+multiplicity 3
 1 S u1 p2 c0 {2,S}
 2 S u1 p2 c0 {1,S}
 """,
@@ -378,7 +378,7 @@ BUR0302     J 9/77
 )
 
 entry(
-    index = 17,
+    index = 15,
     label = "SH",
     molecule = 
 """
@@ -402,7 +402,7 @@ BUR0302     s06/01
 )
 
 entry(
-    index = 18,
+    index = 16,
     label = "H2S",
     molecule = 
 """
@@ -426,7 +426,7 @@ BUR0302     RUS 89
 )
 
 entry(
-    index = 19,
+    index = 17,
     label = "HS2",
     molecule = 
 """
@@ -451,7 +451,7 @@ ALZ/GLA01   burc01
 )
 
 entry(
-    index = 20,
+    index = 18,
     label = "H2S2",
     molecule = 
 """
@@ -476,7 +476,7 @@ BUR0302    S 1/01
 )
 
 entry(
-    index = 21,
+    index = 19,
     label = "SO",
     molecule = 
 """
@@ -500,7 +500,7 @@ BUR0302     J 6/77
 )
 
 entry(
-    index = 22,
+    index = 20,
     label = "SO(S)",
     molecule = 
 """
@@ -524,7 +524,7 @@ S298 = 50.89 cal/mol/K
 )
 
 entry(
-    index = 23,
+    index = 21,
     label = "SO2",
     molecule = 
 """
@@ -548,7 +548,7 @@ BUR0302     J 6/61
 )
 
 entry(
-    index = 24,
+    index = 22,
     label = "SO3",
     molecule = 
 """
@@ -573,7 +573,7 @@ BUR0302     J 9/65
 )
 
 entry(
-    index = 25,
+    index = 23,
     label = "HSO",
     molecule = 
 """
@@ -599,7 +599,7 @@ BURCAT
 )
 
 entry(
-    index = 26,
+    index = 24,
     label = "HOS",
     molecule = 
 """
@@ -624,7 +624,7 @@ BUR0302     T 4/93
 )
 
 entry(
-    index = 27,
+    index = 25,
     label = "HSOH",
     molecule = 
 """
@@ -649,7 +649,7 @@ ALZ/GLA01   BOZ/R
 )
 
 entry(
-    index = 28,
+    index = 26,
     label = "HOSO",
     molecule = 
 """
@@ -675,7 +675,7 @@ DAG/GLA03 GOU/MAR99
 )
 
 entry(
-    index = 29,
+    index = 27,
     label = "HSO2",
     molecule = 
 """
@@ -701,7 +701,7 @@ ALZ/GLA01 GOU/MAR99
 )
 
 entry(
-    index = 30,
+    index = 28,
     label = "H2SO",
     molecule = 
 """
@@ -726,7 +726,7 @@ ALZ/GLA01   BOZ/R
 )
 
 entry(
-    index = 31,
+    index = 29,
     label = "HOSOH",
     molecule = 
 """
@@ -738,7 +738,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.92,15.88,17.33,18.40,19.85,20.85,22.57],'cal/(mol*K)'),
+        Cpdata = ([13.92,15.88,17.33,18.4,19.85,20.85,22.57],'cal/(mol*K)'),
         H298 = (-75.31,'kcal/mol'),
         S298 = (64.94,'cal/(mol*K)'),
     ),
@@ -750,7 +750,7 @@ ALZ/GLA01  BOZ/R
 )
 
 entry(
-    index = 32,
+    index = 30,
     label = "HOSHO",
     molecule = 
 """
@@ -776,7 +776,7 @@ ALZ/GLA01   BOZ/R
 )
 
 entry(
-    index = 33,
+    index = 31,
     label = "HOSO2",
     molecule = 
 """
@@ -803,7 +803,7 @@ leeds
 )
 
 entry(
-    index = 34,
+    index = 32,
     label = "CS2",
     molecule = 
 """
@@ -828,7 +828,7 @@ Burcat 2006
 )
 
 entry(
-    index = 35,
+    index = 33,
     label = "CS",
     molecule = 
 """
@@ -852,7 +852,7 @@ Burcat 2006
 )
 
 entry(
-    index = 36,
+    index = 34,
     label = "OCS",
     molecule = 
 """
@@ -877,7 +877,7 @@ Burcat 2006
 )
 
 entry(
-    index = 37,
+    index = 35,
     label = "OCS2",
     molecule = 
 """
@@ -903,7 +903,7 @@ MC Lin, pw
 )
 
 entry(
-    index = 38,
+    index = 36,
     label = "S2O",
     molecule = 
 """

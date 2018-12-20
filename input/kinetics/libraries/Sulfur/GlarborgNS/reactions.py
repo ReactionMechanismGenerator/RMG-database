@@ -81,6 +81,7 @@ entry(
     index = 5,
     label = "S + NO <=> SNO",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.3e+14, 'cm^3/(mol*s)'), n=0.24, Ea=(0, 'cal/mol'), T0=(300, 'K')),
         arrheniusLow = Arrhenius(
@@ -104,6 +105,7 @@ https://doi.org/10.1063/1.1806419
 #     index = 6,
 #     label = "SH + NO <=> HSNO",
 #     degeneracy = 1,
+#    elementary_high_p = True,
 #     kinetics = Troe(
 #         arrheniusHigh = Arrhenius(A=(1.6e+13, 's^-1'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 #         arrheniusLow = Arrhenius(

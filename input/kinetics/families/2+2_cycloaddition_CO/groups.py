@@ -10,8 +10,8 @@ longDesc = u"""
 template(reactants=["CO", "doublebond"], products=["four_ring"], ownReverse=False)
 
 reverse = "Four_Ring_Cleavage_CO"
-
 reversible = True
+
 recipe(actions=[
     ['CHANGE_BOND', '*1', -1, '*2'],
     ['CHANGE_BOND', '*3', -1, '*4'],
@@ -120,12 +120,12 @@ entry(
     label = "CH2CHO",
     group = 
 """
-1 *1 CO  u0 {2,D} {3,S} {4,S}
-2 *2 O2d u0 {1,D}
-3    H   u0 {1,S}
-4    C   u1 {1,S} {5,S} {6,S}
-5    H   u0 {4,S}
-6    H   u0 {4,S}
+1 *1 CO  u0 {2,S} {3,D} {4,S}
+2    C   u1 {1,S} {5,S} {6,S}
+3 *2 O2d u0 {1,D}
+4    H   u0 {1,S}
+5    H   u0 {2,S}
+6    H   u0 {2,S}
 """,
     kinetics = None,
 )
@@ -313,9 +313,9 @@ entry(
     label = "mb_CCO",
     group = 
 """
-1 *3 Cd        u0 {2,D}
-2 *4 Cdd       u0 {1,D} {3,D}
-3    [O2d,S2d] u0 {2,D}
+1 *4 Cdd       u0 {2,D} {3,D}
+2 *3 Cd        u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
 """,
     kinetics = None,
 )
