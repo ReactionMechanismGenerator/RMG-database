@@ -83,3 +83,49 @@ where only 1500, 2000, 2500 K rates were reported.
 )
 
 
+entry(
+    index = 5,
+    label = "C7H5 <=> C7H5-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8.66e+11, 's^-1'), n=0.438, Ea=(22.58, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
+        journal = "'Phys. Chem. Chem. Phys.'",
+        volume = "'13 (19)'",
+        pages = """'8940-8952'""",
+        year = "'2011'",
+    ),
+    referenceType = "theory",   
+    rank = 5,
+    longDesc = 
+u"""
+All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
+frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
+1D-Hinder rotor is considered.
+""",
+)
+
+entry(
+    index = 6,
+    label = "C7H5-2 <=> C7H5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(7.13e+12, 's^-1'), n=0.254, Ea=(68.75, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
+        journal = "'Phys. Chem. Chem. Phys.'",
+        volume = "'13 (19)'",
+        pages = """'8940-8952'""",
+        year = "'2011'",
+    ),
+    referenceType = "theory",   
+    rank = 5,
+    longDesc = 
+u"""
+All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
+frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
+1D-Hinder rotor is considered.
+""",
+)
+

@@ -6545,3 +6545,26 @@ where only 1500, 2000, 2500 K rates were reported.
 """,
 )
 
+entry(
+    index = 326,
+    label = "C7H5 <=> C7H5-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.05e+09, 's^-1'), n=0.155, Ea=(42.35, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
+        journal = "'Phys. Chem. Chem. Phys.'",
+        volume = "'13 (19)'",
+        pages = """'8940-8952'""",
+        year = "'2011'",
+    ),
+    referenceType = "theory",   
+    rank = 5,
+    longDesc = 
+u"""
+All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
+frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
+1D-Hinder rotor is considered.
+""",
+)
+
