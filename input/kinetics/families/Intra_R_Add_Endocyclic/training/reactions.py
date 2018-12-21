@@ -16959,3 +16959,118 @@ Converted to training reaction from rate rule: R9_SDSSSD;doublebond_intra_pri_2H
 """,
 )
 
+entry(
+    index = 825,
+    label = "C6H5O2 <=> C6H5O2-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(4.782e+11, 's^-1'), n=0.287, Ea=(41.261, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ["'I. V. Tokmakov'", "'G. Kim'", "'V. V. Kislov'", "'A. M. Mebel'", "'M. C. Lin'"],
+        title = 'The Reaction of Phenyl Radical with Molecular Oxygen: A G2M Study of the Potential Energy Surface',
+        journal = "'J. Phys. Chem. A'",
+        volume = "'109 (27)'",
+        pages = """'6114-6127'""",
+        year = "'2005'",
+    ),
+    referenceType = "theory",
+    rank = 5,
+    longDesc = 
+u"""
+Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
+The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
+where only 1500, 2000, 2500 K rates were reported.
+""",
+)
+
+entry(
+    index = 826,
+    label = "C6H5O2-3 <=> C6H5O2-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.503e+11, 's^-1'), n=0.221, Ea=(57.88, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ["'I. V. Tokmakov'", "'G. Kim'", "'V. V. Kislov'", "'A. M. Mebel'", "'M. C. Lin'"],
+        title = 'The Reaction of Phenyl Radical with Molecular Oxygen: A G2M Study of the Potential Energy Surface',
+        journal = "'J. Phys. Chem. A'",
+        volume = "'109 (27)'",
+        pages = """'6114-6127'""",
+        year = "'2005'",
+    ),
+    referenceType = "theory",
+    rank = 5,
+    longDesc = 
+u"""
+Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
+The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
+where only 1500, 2000, 2500 K rates were reported.
+""",
+)
+
+entry(
+    index = 827,
+    label = "C6H5O2-5 <=> C6H5O2-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.615e+11, 's^-1'), n=0.385, Ea=(34.263, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ["'I. V. Tokmakov'", "'G. Kim'", "'V. V. Kislov'", "'A. M. Mebel'", "'M. C. Lin'"],
+        title = 'The Reaction of Phenyl Radical with Molecular Oxygen: A G2M Study of the Potential Energy Surface',
+        journal = "'J. Phys. Chem. A'",
+        volume = "'109 (27)'",
+        pages = """'6114-6127'""",
+        year = "'2005'",
+    ),
+    referenceType = "theory",
+    rank = 5,
+    longDesc = 
+u"""
+Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
+The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
+where only 1500, 2000, 2500 K rates were reported.
+""",
+)
+
+entry(
+    index = 828,
+    label = "C6H5O2-7 <=> C6H5O2-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.989e+11, 's^-1'), n=0.18, Ea=(18.94, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ["'I. V. Tokmakov'", "'G. Kim'", "'V. V. Kislov'", "'A. M. Mebel'", "'M. C. Lin'"],
+        title = 'The Reaction of Phenyl Radical with Molecular Oxygen: A G2M Study of the Potential Energy Surface',
+        journal = "'J. Phys. Chem. A'",
+        volume = "'109 (27)'",
+        pages = """'6114-6127'""",
+        year = "'2005'",
+    ),
+    referenceType = "theory",
+    rank = 5,
+    longDesc = 
+u"""
+Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
+The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
+where only 1500, 2000, 2500 K rates were reported.
+""",
+)
+
+entry(
+    index = 829,
+    label = "C6H5O2-9 <=> C6H5O2-10",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.649e+12, 's^-1'), n=0.287, Ea=(12.162, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ["'I. V. Tokmakov'", "'G. Kim'", "'V. V. Kislov'", "'A. M. Mebel'", "'M. C. Lin'"],
+        title = 'The Reaction of Phenyl Radical with Molecular Oxygen: A G2M Study of the Potential Energy Surface',
+        journal = "'J. Phys. Chem. A'",
+        volume = "'109 (27)'",
+        pages = """'6114-6127'""",
+        year = "'2005'",
+    ),
+    referenceType = "theory",
+    rank = 5,
+    longDesc = 
+u"""
+Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
+The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
+where only 1500, 2000, 2500 K rates were reported.
+""",
+)
+
