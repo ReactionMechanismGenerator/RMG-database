@@ -8968,3 +8968,15 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 """,
 )
 
+entry(
+    index = 431,
+    label = "C6H5 <=> C6H5-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(9.208e+12, 's^-1'), n=1.135, Ea=(109.513, 'kcal/mol'), T0=(1, 'K')),
+    rank = 5,
+    longDesc = 
+u"""
+Calculated by Jim at the CBS-QB3 level
+""",
+)
+
