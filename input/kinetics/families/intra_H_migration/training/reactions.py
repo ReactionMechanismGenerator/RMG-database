@@ -7054,28 +7054,6 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;Cs_H_out_CdCd
 )
 
 entry(
-    index = 350,
-    label = "C4H5-7 <=> C4H5-8",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1e-10, 's^-1'),
-        n = 0,
-        Ea = (0, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Aaron Vandeputte guess""",
-    longDesc = 
-u"""
-Degeneracy not recalculated
-
-Converted to training reaction from rate rule: R2H_D;Cd_rad_out_singleH;Cd_H_out_singleDe
-""",
-)
-
-entry(
     index = 351,
     label = "C[CH2] <=> C[CH2]",
     degeneracy = 1.0,
@@ -8758,28 +8736,6 @@ u"""
 Degeneracy not recalculated
 
 Converted to training reaction from rate rule: R6H_SSSSS;C_rad_out_single;Cs_H_out_2H
-""",
-)
-
-entry(
-    index = 421,
-    label = "CCC[CH2]-2 <=> CCC[CH2]-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1e-10, 's^-1'),
-        n = 0,
-        Ea = (0, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Aaron Vandeputte guess""",
-    longDesc = 
-u"""
-Degeneracy not recalculated
-
-Converted to training reaction from rate rule: R4H_MMS;Cd_rad_out;Cs_H_out
 """,
 )
 
