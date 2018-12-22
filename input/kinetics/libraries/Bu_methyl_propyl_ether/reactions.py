@@ -16,11 +16,11 @@ entry(
         n = 1.34,
         Ea = (13.961, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'REF: G4 calculations and HID from RMG',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 REF: G4 calculations and HID from RMG
 """,
 )
@@ -30,9 +30,9 @@ entry(
     label = "MPO1QJ <=> MPO1Q2J",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(150.5, 's^-1'), n=2.993, Ea=(22.041, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 """,
 )
 
@@ -41,9 +41,9 @@ entry(
     label = "MPO1QJ <=> MPO1Q3J",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(187400, 's^-1'), n=2.003, Ea=(17.53, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 """,
 )
 
@@ -52,9 +52,9 @@ entry(
     label = "MPO1QJ <=> MPO1Star + HO2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.034e+10, 's^-1'), n=1.109, Ea=(30.611, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 """,
 )
 
@@ -63,9 +63,9 @@ entry(
     label = "MPO1Q-1J <=> MPO1-1OCYC + OH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(217200, 's^-1'), n=1.242, Ea=(9.946, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 """,
 )
 
@@ -78,11 +78,11 @@ entry(
         n = 2.693,
         Ea = (6.75, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -96,11 +96,11 @@ entry(
         n = 0.591,
         Ea = (14.27, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'added',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 added
 """,
 )
@@ -114,11 +114,11 @@ entry(
         n = -0.058,
         Ea = (24.54, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -132,11 +132,11 @@ entry(
         n = 1.706,
         Ea = (7.488, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -150,11 +150,11 @@ entry(
         n = 1.509,
         Ea = (17.217, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -168,11 +168,11 @@ entry(
         n = 0.13,
         Ea = (14.506, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed REF: G4 calculations and HID from RMG',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed REF: G4 calculations and HID from RMG
 """,
 )
@@ -186,11 +186,11 @@ entry(
         n = 0.526,
         Ea = (13.985, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -204,11 +204,11 @@ entry(
         n = -1.948,
         Ea = (43.801, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -222,11 +222,11 @@ entry(
         n = 0.555,
         Ea = (15.724, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -240,11 +240,11 @@ entry(
         n = 2.104,
         Ea = (25.626, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -258,11 +258,11 @@ entry(
         n = -0.199,
         Ea = (28.052, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -276,11 +276,11 @@ entry(
         n = -1.277,
         Ea = (44, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -294,11 +294,11 @@ entry(
         n = -1.199,
         Ea = (17.561, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -312,11 +312,11 @@ entry(
         n = -1.498,
         Ea = (7.076, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -330,11 +330,11 @@ entry(
         n = -0.356,
         Ea = (18.611, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -348,11 +348,11 @@ entry(
         n = 1.123,
         Ea = (14.77, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -366,11 +366,11 @@ entry(
         n = 1.777,
         Ea = (12.108, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -384,11 +384,11 @@ entry(
         n = 0.153,
         Ea = (35.947, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed REF: G4 calculations and HID from RMG',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed REF: G4 calculations and HID from RMG
 """,
 )
@@ -402,11 +402,11 @@ entry(
         n = 1.816,
         Ea = (-3.086, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -420,11 +420,11 @@ entry(
         n = -0.392,
         Ea = (45.8, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -438,11 +438,11 @@ entry(
         n = 3.574,
         Ea = (6.051, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -456,11 +456,11 @@ entry(
         n = 0.444,
         Ea = (9.642, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -474,11 +474,11 @@ entry(
         n = -0.334,
         Ea = (11.444, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -492,11 +492,11 @@ entry(
         n = -3.325,
         Ea = (-8.34, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -506,9 +506,9 @@ entry(
     label = "MPO1O3OJ <=> CH2O + CH2COOCH3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.977e+09, 's^-1'), n=1.184, Ea=(13.87, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 """,
 )
 
@@ -521,11 +521,11 @@ entry(
         n = 1.186,
         Ea = (17.281, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -539,11 +539,11 @@ entry(
         n = 3.588,
         Ea = (6.305, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 changed
 """,
 )
@@ -557,7 +557,7 @@ entry(
         n = -0.425,
         Ea = (21.899, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'changed CBS-QB3 Sarah Khanniche calculation',
+        comment = '',
     ),
     longDesc =
 u"""
@@ -574,11 +574,11 @@ entry(
         n = 5.50561,
         Ea = (3.3939, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'UCCSD(T)-F12a/cc-pVTZ-F12//UM06-2X/aug-cc-pVTZ rate of H abstraction of methyl peroxide by formyl. Colin Grambow',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 UCCSD(T)-F12a/cc-pVTZ-F12//UM06-2X/aug-cc-pVTZ rate of H abstraction of methyl peroxide by formyl. Colin Grambow
 """,
 )
@@ -592,11 +592,11 @@ entry(
         n = 4.024,
         Ea = (55.261, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'G4 calculations and HID from RMG',
+        comment = '',
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 G4 calculations and HID from RMG
 """,
 )
@@ -606,9 +606,9 @@ entry(
     label = "MPrO-1J <=> CH2O + C3H7",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.367e+13, 's^-1'), n=-0.167, Ea=(25.178, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 """,
 )
 
@@ -622,9 +622,9 @@ entry(
         Ea = (4.906, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
- 
+
 """,
 )
 
@@ -638,7 +638,7 @@ entry(
         Ea = (-17.2981, 'kJ/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou, Simmie and Curran 2010
 VTST at G3 level
@@ -656,7 +656,7 @@ entry(
         Ea = (-12.5385, 'kJ/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou, Simmie and Curran 2010
 VTST at G3 level
@@ -674,7 +674,7 @@ entry(
         Ea = (-1.79649, 'kJ/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou, Simmie and Curran 2010
 VTST at G3 level
@@ -692,9 +692,9 @@ entry(
         Ea = (-17.2981, 'kJ/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
-analogy from CH3OCH2CH3 + OH <=> CH3OCHCH3 G3 VTST calculation 
+analogy from CH3OCH2CH3 + OH <=> CH3OCHCH3 G3 VTST calculation
 """,
 )
 
@@ -708,7 +708,7 @@ entry(
         Ea = (-12.5385, 'kJ/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 analogy from CH3OCH2CH3 + OH <=> CH2OCH2CH3 + H2O G3 VTST calculation
 """,
@@ -724,7 +724,7 @@ entry(
         Ea = (-1.79649, 'kJ/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 analogy from CH3OCH2CH3 + OH <=> CH3OCH2CH2 G3 VTST calculation
 rate multiplied by 2/3
