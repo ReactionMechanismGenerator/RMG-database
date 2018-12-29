@@ -1317,43 +1317,43 @@ u"""
 """,
 )
 
-entry(
-    index = 36,
-    label = "CCC(OC)OO",
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {5,S} {6,S} {10,S}
-3  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
-4  C u0 p0 c0 {5,S} {14,S} {15,S} {16,S}
-5  O u0 p2 c0 {2,S} {4,S}
-6  O u0 p2 c0 {2,S} {7,S}
-7  O u0 p2 c0 {6,S} {17,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {3,S}
-13 H u0 p0 c0 {3,S}
-14 H u0 p0 c0 {4,S}
-15 H u0 p0 c0 {4,S}
-16 H u0 p0 c0 {4,S}
-17 H u0 p0 c0 {7,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[3.78519,0.0524187,-2.80435e-05,5.48266e-09,-1.21483e-15,-106546,10.4081], Tmin=(10,'K'), Tmax=(1553.74,'K')),
-            NASAPolynomial(coeffs=[23.0335,0.0150004,-3.63473e-06,3.63327e-11,6.62874e-14,-113993,-95.6495], Tmin=(1553.74,'K'), Tmax=(3000,'K')),
-        ],
-        Tmin = (10,'K'),
-        Tmax = (3000,'K'),
-    ),
-    shortDesc = u"""G4 calculation with rotors""",
-    longDesc =
-u"""
-
-""",
-)
+# entry(
+#     index = 36,
+#     label = "CCC(OC)OO",
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
+# 2  C u0 p0 c0 {1,S} {5,S} {6,S} {10,S}
+# 3  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
+# 4  C u0 p0 c0 {5,S} {14,S} {15,S} {16,S}
+# 5  O u0 p2 c0 {2,S} {4,S}
+# 6  O u0 p2 c0 {2,S} {7,S}
+# 7  O u0 p2 c0 {6,S} {17,S}
+# 8  H u0 p0 c0 {1,S}
+# 9  H u0 p0 c0 {1,S}
+# 10 H u0 p0 c0 {2,S}
+# 11 H u0 p0 c0 {3,S}
+# 12 H u0 p0 c0 {3,S}
+# 13 H u0 p0 c0 {3,S}
+# 14 H u0 p0 c0 {4,S}
+# 15 H u0 p0 c0 {4,S}
+# 16 H u0 p0 c0 {4,S}
+# 17 H u0 p0 c0 {7,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[3.78519,0.0524187,-2.80435e-05,5.48266e-09,-1.21483e-15,-106546,10.4081], Tmin=(10,'K'), Tmax=(1553.74,'K')),
+#             NASAPolynomial(coeffs=[23.0335,0.0150004,-3.63473e-06,3.63327e-11,6.62874e-14,-113993,-95.6495], Tmin=(1553.74,'K'), Tmax=(3000,'K')),
+#         ],
+#         Tmin = (10,'K'),
+#         Tmax = (3000,'K'),
+#     ),
+#     shortDesc = u"""G4 calculation with rotors""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
 
 entry(
     index = 37,
