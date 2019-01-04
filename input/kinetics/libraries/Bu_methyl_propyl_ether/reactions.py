@@ -755,10 +755,82 @@ entry(
         A = (5.393e10, '1/s'),
         n = 1.234,
         Ea = (28.059, 'kcal/mol'),
-        T0 = (298, 'K'),
+        T0 = (1, 'K'),
     ),
     longDesc =
 u"""
 G4 calculation Mark Nimlos
+""",
+)
+
+entry(
+    index = 45,
+    label = "MPO + HO2 <=> MPrO-1J + H2O2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (5.52e-3, 'cm^3/(mol*s)'),
+        n = 4.29,
+        Ea = (4.60845e4, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    longDesc =
+u"""
+Mendes et al. 2014
+Rate Constant Calculations of H‐Atom Abstraction Reactions from Ethers by HȮ2 Radicals
+CCSD(T)/cc- pVTZ
+""",
+)
+
+entry(
+    index = 46,
+    label = "MPO + HO2 <=> MPO1J + H2O2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (3.43e-2, 'cm^3/(mol*s)'),
+        n = 4.08,
+        Ea = (3.810306e4, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    longDesc =
+u"""
+Mendes et al. 2014
+Rate Constant Calculations of H‐Atom Abstraction Reactions from Ethers by HȮ2 Radicals
+CCSD(T)/cc- pVTZ
+""",
+)
+
+entry(
+    index = 47,
+    label = "MPO + HO2 <=> CH3OCH2CHCH3 + H2O2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (7.52e-3, 'cm^3/(mol*s)'),
+        n = 4.28,
+        Ea = (5.4714434e4, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    longDesc =
+u"""
+Mendes et al. 2014
+Rate Constant Calculations of H‐Atom Abstraction Reactions from Ethers by HȮ2 Radicals
+CCSD(T)/cc- pVTZ
+""",
+)
+
+entry(
+    index = 48,
+    label = "MPO + HO2 <=> MPrO3J + H2O2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (1.45e-1, 'cm^3/(mol*s)'),
+        n = 3.90,
+        Ea = (6.938033e4, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    longDesc =
+u"""
+Mendes et al. 2014
+Rate Constant Calculations of H‐Atom Abstraction Reactions from Ethers by HȮ2 Radicals
+CCSD(T)/cc- pVTZ
 """,
 )
