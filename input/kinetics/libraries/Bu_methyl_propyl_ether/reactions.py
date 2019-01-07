@@ -837,7 +837,7 @@ CCSD(T)/cc- pVTZ
 
 entry(
     index = 49,
-    label = "propane + OH <=> npropyl + H2O",
+    label = "propane + OH <=> C3H7 + H2O",
     degeneracy = 6.0,
     kinetics = Arrhenius(
         A = (1.98336e-17, 'cm^3/(molecule*s)'),
