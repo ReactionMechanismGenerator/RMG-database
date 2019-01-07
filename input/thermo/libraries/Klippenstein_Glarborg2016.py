@@ -2375,11 +2375,11 @@ CC([O])=O
 entry(
     index = 61,
     label = "C2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
-1 C u2 p0 c0 {2,D}
-2 C u2 p0 c0 {1,D}
+1 C u1 p0 c0 {2,T}
+2 C u1 p0 c0 {1,T}
 """,
     thermo = NASA(
         polynomials = [
