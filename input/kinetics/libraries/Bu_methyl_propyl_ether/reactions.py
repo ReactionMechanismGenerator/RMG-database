@@ -834,3 +834,55 @@ Rate Constant Calculations of H‐Atom Abstraction Reactions from Ethers by HȮ
 CCSD(T)/cc- pVTZ
 """,
 )
+
+entry(
+    index = 49,
+    label = "propane + OH <=> npropyl + H2O",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(
+        A = (1.98336e-17, 'cm^3/(molecule*s)'),
+        n = 1.90987,
+        Ea = (2.76409, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    longDesc =
+u"""
+fit to data in
+Huynh et al 2005
+VTST, experiment and RC-TST-exact
+""",
+)
+
+entry(
+    index = 50,
+    label = "propane + OH <=> ipropyl + H2O",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1.55017e-16, 'cm^3/(molecule*s)'),
+        n = 1.5755,
+        Ea = (0.863578, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    longDesc =
+u"""
+fit to data in
+Huynh et al 2005
+VTST, experiment and RC-TST-exact
+""",
+)
+
+entry(
+    index = 51,
+    label = "MPO + OH <=> MPrO3J + H2O",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (9.9168e-18, 'cm^3/(molecule*s)'),
+        n = 1.90987,
+        Ea = (2.76409, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    longDesc =
+u"""
+analogy to propane + OH => npropyl + H2O Huynh et al 2005 (divided by 2)
+""",
+)
