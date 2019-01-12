@@ -2083,7 +2083,7 @@ Taken from entry: prod3 <=> prod4
 
 entry(
     index = 88,
-    label = "C10H9-39 <=> C10H9-30",
+    label = "C10H9-29 <=> C10H9-30",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.42e+11, 's^-1'), n=0.22, Ea=(4.8, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
