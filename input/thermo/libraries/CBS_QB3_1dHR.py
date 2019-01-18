@@ -481,7 +481,7 @@ u"""
 
 entry(
     index = 14,
-    label = "C3H5OJ(17)",
+    label = "C3H5OJ_17",
     molecule = 
 """
 multiplicity 2
@@ -574,7 +574,7 @@ u"""
 
 entry(
     index = 17,
-    label = "C4H7OJ(13)",
+    label = "C4H7OJ_13",
     molecule = 
 """
 multiplicity 2
@@ -694,7 +694,7 @@ u"""
 
 entry(
     index = 21,
-    label = "iC4H5OJ(14)",
+    label = "iC4H5OJ_14",
     molecule = 
 """
 multiplicity 2
@@ -724,7 +724,7 @@ u"""
 
 entry(
     index = 22,
-    label = "iC4H5OJ(15)",
+    label = "iC4H5OJ_15",
     molecule = 
 """
 multiplicity 2
@@ -754,7 +754,7 @@ u"""
 
 entry(
     index = 23,
-    label = "iC4H7OJ(17)",
+    label = "iC4H7OJ_17",
     molecule = 
 """
 multiplicity 2
@@ -786,7 +786,7 @@ u"""
 
 entry(
     index = 24,
-    label = "iC4H7OJ(48)",
+    label = "iC4H7OJ_48",
     molecule = 
 """
 multiplicity 2
@@ -818,7 +818,7 @@ u"""
 
 entry(
     index = 25,
-    label = "iC4H7OJ(51)",
+    label = "iC4H7OJ_51",
     molecule = 
 """
 multiplicity 2
@@ -850,7 +850,7 @@ u"""
 
 entry(
     index = 26,
-    label = "tSPC(1286)",
+    label = "tSPC_1286",
     molecule = 
 """
 multiplicity 2
@@ -879,7 +879,7 @@ u"""
 
 entry(
     index = 27,
-    label = "tSPC(1553)",
+    label = "tSPC_1553",
     molecule = 
 """
 multiplicity 2
@@ -907,7 +907,7 @@ u"""
 
 entry(
     index = 28,
-    label = "tSPC(343)",
+    label = "tSPC_343",
     molecule = 
 """
 multiplicity 2
@@ -1312,7 +1312,7 @@ u"""
 
 entry(
     index = 40,
-    label = "C4H7OJ(9)",
+    label = "C4H7OJ_9",
     molecule = 
 """
 multiplicity 2

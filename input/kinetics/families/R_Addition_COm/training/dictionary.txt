@@ -190,3 +190,33 @@ multiplicity 2
 6    H u0 p0 c0 {3,S}
 7    H u0 p0 c0 {3,S}
 
+C5H5O
+multiplicity 2
+1     O u0 p2 c0 {5,S} {6,S}
+2     C u0 p0 c0 {3,S} {4,D} {7,S}
+3     C u0 p0 c0 {2,S} {6,D} {8,S}
+4     C u0 p0 c0 {2,D} {5,S} {9,S}
+5  *2 C u1 p0 c0 {1,S} {4,S} {11,S}
+6     C u0 p0 c0 {1,S} {3,D} {10,S}
+7     H u0 p0 c0 {2,S}
+8     H u0 p0 c0 {3,S}
+9     H u0 p0 c0 {4,S}
+10    H u0 p0 c0 {6,S}
+11    H u0 p0 c0 {5,S}
+
+C6H5O2
+multiplicity 2
+1     O u0 p2 c0 {3,S} {7,S}
+2  *3 O u0 p2 c0 {8,D}
+3  *2 C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
+4     C u0 p0 c0 {3,S} {5,D} {10,S}
+5     C u0 p0 c0 {4,D} {6,S} {11,S}
+6     C u0 p0 c0 {5,S} {7,D} {12,S}
+7     C u0 p0 c0 {1,S} {6,D} {13,S}
+8  *1 C u1 p0 c0 {2,D} {3,S}
+9     H u0 p0 c0 {3,S}
+10    H u0 p0 c0 {4,S}
+11    H u0 p0 c0 {5,S}
+12    H u0 p0 c0 {6,S}
+13    H u0 p0 c0 {7,S}
+
