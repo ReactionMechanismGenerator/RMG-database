@@ -886,3 +886,136 @@ u"""
 analogy to propane + OH => npropyl + H2O Huynh et al 2005 (divided by 2)
 """,
 )
+
+entry(
+    index = 52,
+    label = "MPrO3J  <=> H + C=CCOC",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1.38037e+09, 's^-1'),
+        n = 1.32222,
+        Ea = (149.948, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = 'Fitted to 59 data points; dA = *|/ 1.14901, dn = +|- 0.0182292, dEa = +|- 0.100279 kJ/mol',
+    ),
+    longDesc =
+u"""
+Duminda CBS-QB3 calculation
+""",
+)
+
+entry(
+    index = 53,
+    label = "MPrO3J  <=> C2H4 + CH3OCH2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.35833e+10, 's^-1'),
+        n = 0.909216,
+        Ea = (110.204, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = 'Fitted to 59 data points; dA = *|/ 1.0383, dn = +|- 0.00493207, dEa = +|- 0.0271313 kJ/mol',
+    ),
+    longDesc =
+u"""
+Duminda CBS-QB3 calculation
+""",
+)
+
+entry(
+    index = 54,
+    label = "CH3OCHCH2CH2OOH <=> CH3 + O=CCCOO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.42729e+13, 's^-1'),
+        n = 0.240712,
+        Ea = (106.104, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = 'Fitted to 59 data points; dA = *|/ 1.06105, dn = +|- 0.00777673, dEa = +|- 0.0427798 kJ/mol',
+    ),
+    longDesc =
+u"""
+Duminda CBS-QB3 calculation
+""",
+)
+
+entry(
+    index = 55,
+    label = "CH3OCH2CH2CH2OO <=> CH3OCHCH2CH2OOH",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (78731, 's^-1'),
+        n = 1.71788,
+        Ea = (59.4125, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = 'Fitted to 59 data points; dA = *|/ 1.45915, dn = +|- 0.0495899, dEa = +|- 0.272794 kJ/mol',
+    ),
+    longDesc =
+u"""
+Duminda CBS-QB3 calculation
+""",
+)
+
+entry(
+    index = 56,
+    label = "CH3CH2CH2OCH2OO <=> CH3CH2CHOCH2OOH",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (365.494, 's^-1'),
+        n = 2.43777,
+        Ea = (54.2242, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = 'Fitted to 59 data points; dA = *|/ 1.86722, dn = +|- 0.0819534, dEa = +|- 0.450826 kJ/mol',
+    ),
+    longDesc =
+u"""
+Duminda CBS-QB3 calculation
+""",
+)
+
+entry(
+    index = 57,
+    label = "CH3OCH2CHCH3 <=> C3H6 + CH3O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (7.80803e+09, 's^-1'),
+        n = 0.974337,
+        Ea = (95.1929, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = 'Fitted to 59 data points; dA = *|/ 1.05194, dn = +|- 0.00664491, dEa = +|- 0.0365537 kJ/mol',
+    ),
+    longDesc =
+u"""
+Duminda CBS-QB3 calculation
+""",
+)
+
+entry(
+    index = 58,
+    label = "C3H6 + HO2 <=> CH3CH2CH2OO",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (0.0193036, 'cm^3/(mol*s)'),
+        n = 3.57899,
+        Ea = (37.5196, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = 'Fitted to 59 data points; dA = *|/ 1.08076, dn = +|- 0.0101924, dEa = +|- 0.0560682 kJ/mol',
+    ),
+    longDesc =
+u"""
+Duminda CBS-QB3 calculation
+""",
+)
