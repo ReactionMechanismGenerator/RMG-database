@@ -10,7 +10,7 @@ longDesc = u"""
 entry(
     index = 1,
     label = "CH2COOCH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O u0 p2 c0 {3,S} {4,S}
@@ -33,7 +33,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -42,7 +42,7 @@ u"""
 entry(
     index = 2,
     label = "MPO",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {3,S} {5,S}
 2  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
@@ -103,7 +103,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -112,7 +112,7 @@ u"""
 entry(
     index = 4,
     label = "MPO1QJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -141,7 +141,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -150,7 +150,7 @@ u"""
 entry(
     index = 5,
     label = "MPO1Q-1J",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
@@ -179,7 +179,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -188,7 +188,7 @@ u"""
 entry(
     index = 6,
     label = "MPO1Q2J",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {8,S}
@@ -217,7 +217,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -226,7 +226,7 @@ u"""
 entry(
     index = 7,
     label = "MPO1Q3J",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {8,S}
@@ -255,7 +255,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -264,7 +264,7 @@ u"""
 #entry(
 #    index = 8,
 #    label = "MPO1Star",
-#    molecule = 
+#    molecule =
 #"""
 #1  O u0 p2 c0 {3,S} {5,S}
 #2  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
@@ -289,7 +289,7 @@ u"""
 #        Tmax = (3000,'K'),
 #    ),
 #    shortDesc = u"""""",
-#    longDesc = 
+#    longDesc =
 #u"""
 #
 #""",
@@ -298,7 +298,7 @@ u"""
 entry(
     index = 9,
     label = "MPO1-1OCYC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {5,S} {6,S} {9,S}
@@ -324,7 +324,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -333,7 +333,7 @@ u"""
 entry(
     index = 10,
     label = "MPO12OCYC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
@@ -359,7 +359,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -368,7 +368,7 @@ u"""
 entry(
     index = 11,
     label = "MPO1Q-1QJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -399,7 +399,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -408,7 +408,7 @@ u"""
 entry(
     index = 12,
     label = "MPO1Q3QJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -439,7 +439,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -448,7 +448,7 @@ u"""
 entry(
     index = 13,
     label = "MPO1O-1Q",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
@@ -476,7 +476,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -485,7 +485,7 @@ u"""
 entry(
     index = 14,
     label = "MPO1Q2J-1Q",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {10,S}
@@ -516,7 +516,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -525,7 +525,7 @@ u"""
 entry(
     index = 15,
     label = "MPO-1Q12OCYC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {9,S}
 2  C u0 p0 c0 {1,S} {5,S} {6,S} {10,S}
@@ -553,7 +553,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -562,7 +562,7 @@ u"""
 entry(
     index = 16,
     label = "Ozoind1-1",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {5,S} {6,S} {11,S}
@@ -590,7 +590,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -599,7 +599,7 @@ u"""
 entry(
     index = 17,
     label = "MPO1O3Q",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {6,S} {10,S} {11,S}
@@ -627,7 +627,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -636,7 +636,7 @@ u"""
 entry(
     index = 18,
     label = "MPO1Q2J3Q",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {10,S}
@@ -667,7 +667,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -676,7 +676,7 @@ u"""
 entry(
     index = 19,
     label = "MPO1Q2Star",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {5,S}
 2  O u0 p2 c0 {3,S} {4,S}
@@ -703,7 +703,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -712,7 +712,7 @@ u"""
 entry(
     index = 20,
     label = "Ozoind13",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {5,S} {6,S} {11,S}
@@ -740,7 +740,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -749,7 +749,7 @@ u"""
 entry(
     index = 21,
     label = "MPO1Q2-1OCYC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {9,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {10,S}
@@ -777,7 +777,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -786,7 +786,7 @@ u"""
 entry(
     index = 22,
     label = "MPO1Q23OCYC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {9,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {10,S}
@@ -814,7 +814,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -823,7 +823,7 @@ u"""
 entry(
     index = 23,
     label = "MPO3Q12OCYC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {9,S}
 2  C u0 p0 c0 {1,S} {5,S} {6,S} {10,S}
@@ -851,7 +851,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -860,7 +860,7 @@ u"""
 entry(
     index = 24,
     label = "MPO1O-1OJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
@@ -887,7 +887,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -896,7 +896,7 @@ u"""
 entry(
     index = 25,
     label = "MPO1O3OJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
@@ -923,7 +923,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -932,7 +932,7 @@ u"""
 entry(
     index = 26,
     label = "MPO_CP1-1",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
@@ -960,7 +960,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -969,7 +969,7 @@ u"""
 entry(
     index = 28,
     label = "MPO1O-1O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -994,7 +994,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1003,7 +1003,7 @@ u"""
 entry(
     index = 29,
     label = "MPO_CP13",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
@@ -1031,7 +1031,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1040,7 +1040,7 @@ u"""
 entry(
     index = 33,
     label = "MPrO3J",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
@@ -1067,7 +1067,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1077,7 +1077,7 @@ u"""
 entry(
     index = 32,
     label = "MPrO-1J",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -1104,7 +1104,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1114,7 +1114,7 @@ u"""
 entry(
     index = 30,
     label = "MPO1O3O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
@@ -1139,7 +1139,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1148,7 +1148,7 @@ u"""
 entry(
     index = 31,
     label = "1CH2OC1CH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
@@ -1618,5 +1618,99 @@ multiplicity 2
     longDesc =
 u"""
 
+""",
+)
+
+entry(
+    index = 44,
+    label = "CCCOCO[O]",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+2  C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
+3  C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
+4  O u0 p2 c0 {3,S} {5,S}
+5  C u0 p0 c0 {4,S} {6,S} {15,S} {16,S}
+6  O u0 p2 c0 {5,S} {7,S}
+7  O u1 p2 c0 {6,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {2,S}
+13 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {3,S}
+15 H u0 p0 c0 {5,S}
+16 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [2.96964, 0.109831, -0.000442634, 1.0282e-06, -8.47585e-10, -28094.9, 12.4821],
+                Tmin = (10, 'K'),
+                Tmax = (399.694, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [3.21382, 0.053943, -3.23227e-05, 9.28696e-09, -1.03009e-12, -27687.6, 16.8684],
+                Tmin = (399.694, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (-233.627, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (361.68, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 Duminda""",
+    longDesc =
+u"""
+CBS-QB3 Duminda
+""",
+)
+
+entry(
+    index = 45,
+    label = "C=CCOC",
+    molecule =
+"""
+1  C u0 p0 c0 {2,D} {6,S} {7,S}
+2  C u0 p0 c0 {1,D} {3,S} {8,S}
+3  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
+4  O u0 p2 c0 {3,S} {5,S}
+5  C u0 p0 c0 {4,S} {11,S} {12,S} {13,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {5,S}
+12 H u0 p0 c0 {5,S}
+13 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.40165, 0.062284, -0.00022576, 5.19989e-07, -4.12815e-10, -15527.8, 8.78137],
+                Tmin = (10, 'K'),
+                Tmax = (435.134, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [1.39539, 0.0421595, -2.3437e-05, 6.31842e-09, -6.64461e-13, -14988.1, 20.9865],
+                Tmin = (435.134, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (-129.118, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (295.164, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 Duminda""",
+    longDesc =
+u"""
+CBS-QB3 Duminda
 """,
 )
