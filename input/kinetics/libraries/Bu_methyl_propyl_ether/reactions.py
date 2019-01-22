@@ -553,15 +553,15 @@ entry(
     label = "MPO1J <=> propanal + CH3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (1.911e14, 's^-1'),
-        n = -0.425,
-        Ea = (21.899, 'kcal/mol'),
+        A = (3.90639e11, 's^-1'),
+        n = 0.416984,
+        Ea = (101.531, 'kJ/mol'),
         T0 = (1, 'K'),
         comment = '',
     ),
     longDesc =
 u"""
-G4 calculation by Mark Nimlos
+CBS-QB3 Sarah Khanniche
 """,
 )
 
