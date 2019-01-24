@@ -72,15 +72,20 @@ liquid_peroxide = {
     'Baeyer-Villiger_step2_cat',
 }
 
+# Surface chemistry for heterogeneous catalysis.
 surface = {
     'Surface_Adsorption_Single',
-    'Surface_Adsorption_Double',
     'Surface_Adsorption_vdW',
     'Surface_Adsorption_Dissociative',
-    'Surface_Adsorption_Bidentate',
-    #'Surface_Recombination', #DEPRECATED. USE SURFACE_DISSOCIATION INSTEAD!
     'Surface_Dissociation',
-    'Surface_Dissociation_vdW',
     'Surface_Abstraction',
 }
 
+# Surface chemistry families that are under development and not yet working well.
+surface_development = {
+    'Surface_Adsorption_Double',
+    'Surface_Dissociation_vdW',
+    'Surface_Adsorption_Bidentate',
+    'Surface_Bidentate_Dissociation'
+    # 'Surface_Recombination' #DEPRECATED. USE Surface_Dissociation INSTEAD
+}
