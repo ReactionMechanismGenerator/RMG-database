@@ -232,6 +232,17 @@ entry(
 )
 
 entry(
+    index = 1000,
+    label = "N5sc_radH",
+    group =
+"""
+1 *1 N5sc u1 {2,S}
+2 *2 H    u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 20,
     label = "X_H",
     group = 
@@ -7032,9 +7043,9 @@ entry(
     label = "N3s_rad",
     group = 
 """
-1 *3 N3s u1 {2,S} {3,S}
-2    R   u0 {1,S}
-3    R   u0 {1,S}
+1 *3 N3s u1     {2,S} {3,S}
+2    R   u[0,1] {1,S}
+3    R   u0     {1,S}
 """,
     kinetics = None,
 )
@@ -7171,6 +7182,7 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
             L4: NH2_rad_H
             L4: N3s_rad_H_pri
                 L5: N3s_rad_H/H/NonDeN
+        L3: N5sc_radH
     L2: X_H
         L3: H2
         L3: Ct_H
