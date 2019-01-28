@@ -21,9 +21,9 @@ template(reactants=["Adsorbate1", "Adsorbate2"], products=["Combined", "VacantSi
 reverse = "Surface_Bond_Fission"
 
 recipe(actions=[
-    ['FORM_BOND', '*1', 'S', '*3'],
-    ['CHANGE_BOND', '*1', '-1', '*2'],
-    ['BREAK_BOND', '*3', 'S', '*4']
+    ['FORM_BOND', '*1', 1, '*3'],
+    ['CHANGE_BOND', '*1', -1, '*2'],
+    ['BREAK_BOND', '*3', 1, '*4']
 ])
 
 entry(
