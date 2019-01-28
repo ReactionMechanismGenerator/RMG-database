@@ -2979,7 +2979,7 @@ calculated at the (CCSD(T) and CAS+1+2+QC level
 
 entry(
     index = 163,
-    label = "NH2 + NH2 <=> H2NN + H2",
+    label = "NH2 + NH2 <=> H2NN(S) + H2",
     degeneracy = 1,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(7.17e+04, 'cm^6/(mol^2*s)'), n=1.88, Ea=(8803, 'cal/mol'), T0 = (1, 'K'), Tmin=(500, 'K'), Tmax=(2500, 'K'))),
