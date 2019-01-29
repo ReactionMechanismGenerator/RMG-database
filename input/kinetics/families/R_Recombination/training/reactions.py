@@ -729,7 +729,7 @@ entry(
     label = "CH3NHNH2 <=> NH2 + CH3NH",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (4.55e+23, 'cm^3/(mol*s)'),
+        A = (4.55e+23, 's^-1'),
         n = -2.147,
         Ea = (64703, 'cal/mol'),
         T0 = (1, 'K'),
@@ -751,7 +751,7 @@ entry(
     label = "CH3NHNH2 <=> CH3 + NHNH2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (5.65e+19, 'cm^3/(mol*s)'),
+        A = (5.65e+19, 's^-1'),
         n = -1.12,
         Ea = (65677, 'cal/mol'),
         T0 = (1, 'K'),
@@ -773,7 +773,7 @@ entry(
     label = "HSSH <=> SH + SH",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (1.59e+18, 'cm^3/(mol*s)'),
+        A = (1.59e+18, 's^-1'),
         n = -0.957,
         Ea = (267, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -793,7 +793,7 @@ entry(
     label = "HSSH <=> HSS + H",
     degeneracy = 2.0,
     kinetics = Arrhenius(
-        A = (4.7e+17, 'cm^3/(mol*s)'),
+        A = (4.7e+17, 's^-1'),
         n = -0.076,
         Ea = (310, 'kJ/mol'),
         T0 = (1, 'K'),
