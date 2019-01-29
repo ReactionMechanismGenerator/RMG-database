@@ -73,7 +73,7 @@ entry(
     label = "CH2O + C3H5O <=> C4H7O2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (54.3214, 's^-1', '*|/', 1.1507),
+        A = (54.3214, 'cm^3/(mol*s)', '*|/', 1.1507),
         n = 3.00879,
         Ea = (6.589, 'kcal/mol', '+|-', 0.024),
         T0 = (1, 'K'),
