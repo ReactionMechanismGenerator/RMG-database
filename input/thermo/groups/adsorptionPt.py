@@ -178,8 +178,8 @@ entry(
     label = "O-*O-*",
     group =
 """
-1 X  u0 p0 c0 {2,S} {3,S}
-2 X  u0 p0 c0 {1,S} {4,S}
+1 X  u0 p0 c0 {3,S}
+2 X  u0 p0 c0 {4,S}
 3 O  u0 p2 c0 {1,S} {4,S}
 4 O  u0 p2 c0 {2,S} {3,S}
 """,
@@ -196,7 +196,7 @@ entry(
 
    O--O
    |  |
-***********
+***** *****
 """
 )
 
@@ -543,8 +543,8 @@ entry(
     label = "N=*O-*",
     group =
 """
-1 X  u0 p0 c0 {2,S} {3,D}
-2 X  u0 p0 c0 {1,S} {4,S}
+1 X  u0 p0 c0 {3,D}
+2 X  u0 p0 c0 {4,S}
 3 N  u0 p1 c0 {1,D} {4,S}
 4 O  u0 p2 c0 {2,S} {3,S}
 """,
@@ -659,8 +659,8 @@ entry(
     label = "N-*N-*",
     group =
 """
-1 X  u0 p0 c0 {2,S} {3,S}
-2 X  u0 p0 c0 {1,S} {4,S}
+1 X  u0 p0 c0 {3,S}
+2 X  u0 p0 c0 {4,S}
 3 N  u0 p1 c0 {1,S} {4,D}
 4 N  u0 p1 c0 {2,S} {3,D}
 """,
@@ -775,8 +775,8 @@ entry(
     label = "N-*RN-*R",
     group =
 """
-1 X  u0 p0 c0 {2,S} {3,S}
-2 X  u0 p0 c0 {1,S} {4,S}
+1 X  u0 p0 c0 {3,S}
+2 X  u0 p0 c0 {4,S}
 3 N  u0 p1 c0 {1,S} {4,S} {5,S}
 4 N  u0 p1 c0 {2,S} {3,S} {6,S}
 5 R  u0 p0 c0 {3,S}
@@ -947,8 +947,8 @@ entry(
     label = "C-*C-*",
     group =
 """
-1 X  u0  p0 c0 {2,S} {3,D}
-2 X  u0  p0 c0 {1,S} {4,D}
+1 X  u0  p0 c0 {3,D}
+2 X  u0  p0 c0 {4,D}
 3 C  u0  p0 c0 {1,D} {4,D}
 4 C  u0  p0 c0 {2,D} {3,D}
 """,
@@ -1063,8 +1063,8 @@ entry(
     label = "C=*RC=*R",
     group =
 """
-1 X  u0 p0 c0 {2,S} {3,D}
-2 X  u0 p0 c0 {1,S} {4,D}
+1 X  u0 p0 c0 {3,D}
+2 X  u0 p0 c0 {4,D}
 3 C  u0 p0 c0 {1,D} {4,S} {5,S}
 4 C  u0 p0 c0 {2,D} {3,S} {6,S}
 5 R  u0 p0 c0 {3,S}
@@ -1119,8 +1119,8 @@ entry(
     label = "C-*R2C-*R2",
     group =
 """
-1 X  u0 p0 c0 {2,S} {3,S}
-2 X  u0 p0 c0 {1,S} {4,S}
+1 X  u0 p0 c0 {3,S}
+2 X  u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 C  u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 5 R  u0 p0 c0 {3,S}
@@ -1241,8 +1241,8 @@ entry(
     label = "C=*N-*",
     group =
 """
-1 X  u0  p0 c0 {2,S} {3,D}
-2 X  u0  p0 c0 {1,S} {4,S}
+1 X  u0  p0 c0 {3,D}
+2 X  u0  p0 c0 {4,S}
 3 C  u0  p0 c0 {1,D} {4,D}
 4 N  u0  p1 c0 {2,S} {3,D}
 """,
@@ -1384,8 +1384,8 @@ entry(
     label = "C-*R2C=*R",
     group =
 """
-1 X  u0 p0 c0 {2,S} {3,S}
-2 X  u0 p0 c0 {1,S} {4,D}
+1 X  u0 p0 c0 {3,S}
+2 X  u0 p0 c0 {4,D}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 C  u0 p0 c0 {2,D} {3,S} {7,S}
 5 R  u0 p0 c0 {3,S}
@@ -1634,8 +1634,8 @@ entry(
     label = "C-*RC=*",
     group =
 """
-1 X  u0  p0 c0 {2,S} {3,S}
-2 X  u0  p0 c0 {1,S} {4,D}
+1 X  u0  p0 c0 {3,S}
+2 X  u0  p0 c0 {4,D}
 3 C  u0  p0 c0 {1,S} {4,D} {5,S}
 4 C  u0  p0 c0 {2,D} {3,D}
 5 R  u0  p0 c0 {3,S}
@@ -1753,8 +1753,8 @@ entry(
     label = "C=*RN=*",
     group =
 """
-1 X  u0 p0 c0 {2,S} {3,D}
-2 X  u0 p0 c0 {1,S} {4,D}
+1 X  u0 p0 c0 {3,D}
+2 X  u0 p0 c0 {4,D}
 3 C  u0 p0 c0 {1,D} {4,S} {5,S}
 4 N  u0 p1 c0 {2,D} {3,S}
 5 R  u0 p0 c0 {3,S}
@@ -1814,8 +1814,8 @@ entry(
     label = "C=*RN-*R",
     group =
 """
-1 X  u0 p0 c0 {2,S} {3,D}
-2 X  u0 p0 c0 {1,S} {4,S}
+1 X  u0 p0 c0 {3,D}
+2 X  u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,D} {4,S} {5,S}
 4 N  u0 p1 c0 {2,S} {3,S} {6,S}
 5 R  u0 p0 c0 {3,S}
@@ -1905,8 +1905,8 @@ entry(
     label = "C=*RO-*",
     group =
 """
-1 X  u0 p0 c0 {2,S} {3,D}
-2 X  u0 p0 c0 {1,S} {4,S}
+1 X  u0 p0 c0 {3,D}
+2 X  u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,D} {4,S} {5,S}
 4 O  u0 p2 c0 {2,S} {3,S}
 5 R  u0 p0 c0 {3,S}
@@ -2019,8 +2019,8 @@ entry(
     label = "C*C*",
     group =
 """
-1 X  u0 {2,S} {3,[S,D]}
-2 X  u0 {1,S} {4,[S,D]}
+1 X  u0 {3,[S,D]}
+2 X  u0 {4,[S,D]}
 3 C  u0 {1,[S,D]} {4,[S,D]}
 4 C  u0 {2,[S,D]} {3,[S,D]}
 """,
@@ -2033,8 +2033,8 @@ entry(
     label = "C*N*",
     group =
 """
-1 X  u0 {2,S} {3,[S,D]}
-2 X  u0 {1,S} {4,[S,D,T]}
+1 X  u0 {3,[S,D]}
+2 X  u0 {4,[S,D,T]}
 3 C  u0 {1,[S,D]} {4,[S,D,T]}
 4 N  u0 {2,[S,D,T]} {3,[S,D,T]}
 """,
@@ -2047,8 +2047,8 @@ entry(
     label = "C*O*",
     group =
 """
-1 X  u0 {2,S} {3,[S,D,T]}
-2 X  u0 {1,S} {4,S}
+1 X  u0 {3,[S,D,T]}
+2 X  u0 {4,S}
 3 C  u0 {1,[S,D,T]} {4,[S,D,T]}
 4 O  u0 {2,S} {3,[S,D,T]}
 """,
@@ -2060,8 +2060,8 @@ entry(
     label = "N*N*",
     group =
 """
-1 X  u0 {2,S} {3,[S,D,T]}
-2 X  u0 {1,S} {4,[S,D,T]}
+1 X  u0 {3,[S,D,T]}
+2 X  u0 {4,[S,D,T]}
 3 N  u0 {1,[S,D,T]} {4,[S,D,T]}
 4 N  u0 {2,[S,D,T]} {3,[S,D,T]}
 """,
@@ -2074,8 +2074,8 @@ entry(
     label = "R*bidentate",
     group =
 """
-1 X  u0 {2,S} {3,[S,D,T]}
-2 X  u0 {1,S} {4,[S,D,T]}
+1 X  u0 {3,[S,D,T]}
+2 X  u0 {4,[S,D,T]}
 3 R  u0 {1,[S,D,T]} {4,[S,D,T]}
 4 R  u0 {2,[S,D,T]} {3,[S,D,T]}
 """,
@@ -2110,8 +2110,8 @@ entry(
     label = "N*O*",
     group =
 """
-1 X  u0 p0 c0 {2,S} {3,[S,D]}
-2 X  u0 p0 c0 {1,S} {4,[S,D]}
+1 X  u0 p0 c0 {3,[S,D]}
+2 X  u0 p0 c0 {4,[S,D]}
 3 N  u0 p1 c0 {1,[S,D]} {4,[S,D]}
 4 O  u0 p2 c0 {2,[S,D]} {3,[S,D]}
 """,
@@ -2124,8 +2124,8 @@ entry(
     label = "O*O*",
     group =
 """
-1 X  u0 p0 c0 {2,S} {3,S}
-2 X  u0 p0 c0 {1,S} {4,S}
+1 X  u0 p0 c0 {3,S}
+2 X  u0 p0 c0 {4,S}
 3 O  u0 p2 c0 {1,S} {4,S}
 4 O  u0 p2 c0 {2,S} {3,S}
 """,
@@ -2207,8 +2207,8 @@ entry(
     label = "N-*RN=*",
     group =
 """
-1 X  u0 p0 c0 {2,S} {3,S}
-2 X  u0 p0 c0 {1,S} {4,D}
+1 X  u0 p0 c0 {3,S}
+2 X  u0 p0 c0 {4,D}
 3 N  u0 p1 c0 {1,S} {4,S} {5,S}
 4 R  u0 p1 c0 {2,D} {3,S}
 5 R  u0 p0 c0 {3,S}
@@ -2264,8 +2264,8 @@ entry(
     label = "C-*R2N=*",
     group =
 """
-1 X  u0 p0 c0 {2,S} {3,S}
-2 X  u0 p0 c0 {1,S} {4,D}
+1 X  u0 p0 c0 {3,S}
+2 X  u0 p0 c0 {4,D}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 N  u0 p1 c0 {2,D} {3,S}
 5 R  u0 p0 c0 {3,S}
@@ -2293,8 +2293,8 @@ entry(
     label = "C-*R2N-*R",
     group =
 """
-1 X  u0 p0 c0 {2,S} {3,S}
-2 X  u0 p0 c0 {1,S} {4,S}
+1 X  u0 p0 c0 {3,S}
+2 X  u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 N  u0 p1 c0 {2,S} {3,S} {7,S}
 5 R  u0 p0 c0 {3,S}
