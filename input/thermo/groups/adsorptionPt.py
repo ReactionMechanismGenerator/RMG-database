@@ -12,11 +12,7 @@ Note: "-h" means "horizontal".
 entry(
     index = 1,
     label = "R*",
-    group=
-"""
-1 R u0
-2 X u0
-""",
+    group="OR{R*vdW}",
     thermo=None,
     shortDesc=u"""Anything adsorbed anyhow.""",
     longDesc=u"""
@@ -24,6 +20,17 @@ entry(
    x
 ***********
 This node should be empty, ensuring that one of the nodes below is used.
+
+
+The group could well be defined as:
+
+    1 R u0
+    2 X u0
+
+but then it is identical with the R*vdW node, and the database tests
+do not like that. It should be OK, because things would check the
+tree in order, and if there *was* a bond it would match either 
+R*bidentate or R*single_chemisorbed and thus not R*vdW.
 """,
 )
 
