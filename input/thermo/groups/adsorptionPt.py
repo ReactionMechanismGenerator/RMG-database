@@ -53,32 +53,33 @@ This node should be empty, ensuring that one of the nodes below is used.
 #"""
 #)
 
-entry(
-    index = 2,
-    label = "(R2)*",
-    group =
-"""
-1 X  u0 p0 c0
-2 R  u0 p0 c0 {3,S}
-3 R  u0 p0 c0 {2,S}
-""",
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.13, 1.17, 1.19, 1.2, 1.21, 1.21, 1.22], 'cal/(mol*K)'),
-        H298=(-1.22, 'kcal/mol'),
-        S298=(-7.73, 'cal/(mol*K)'),
-    ),
-    shortDesc=u"""Came from H2 vdW-bonded on Pt(111)""",
-    longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -0.054 eV.
-            Linear scaling parameters: ref_adatom_H = -0.240 eV, psi = -0.05448 eV, gamma_H(X) = 0.000.
-            The two lowest frequencies, 14.0 and 24.4 cm-1, where replaced by the 2D gas model.
+### This doesn't have a place in the tree, so I'm commenting it out. -- RHW
+# entry(
+#     index = 2,
+#     label = "(R2)*",
+#     group =
+# """
+# 1 X  u0 p0 c0
+# 2 R  u0 p0 c0 {3,S}
+# 3 R  u0 p0 c0 {2,S}
+# """,
+#     thermo=ThermoData(
+#         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+#         Cpdata=([1.13, 1.17, 1.19, 1.2, 1.21, 1.21, 1.22], 'cal/(mol*K)'),
+#         H298=(-1.22, 'kcal/mol'),
+#         S298=(-7.73, 'cal/(mol*K)'),
+#     ),
+#     shortDesc=u"""Came from H2 vdW-bonded on Pt(111)""",
+#     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
+#             DFT binding energy: -0.054 eV.
+#             Linear scaling parameters: ref_adatom_H = -0.240 eV, psi = -0.05448 eV, gamma_H(X) = 0.000.
+#             The two lowest frequencies, 14.0 and 24.4 cm-1, where replaced by the 2D gas model.
 
-  R-R
-   :
-***********
-"""
-)
+#   R-R
+#    :
+# ***********
+# """
+# )
 
 entry(
     index = 3,
