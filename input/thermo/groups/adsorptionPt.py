@@ -123,7 +123,7 @@ entry(
 """
 1 X  u0 p0 c0 {2,S}
 2 O  u0 p2 c0 {1,S} {3,S}
-3 R  u0 p0 c0 {2,S}
+3 R  u0 px c0 {2,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -1967,7 +1967,7 @@ entry(
     group =
 """
 1 X  u0 {2,[S,D,T,Q]}
-2 C  u0 {1,[S,D,T,Q]}
+2 C  ux {1,[S,D,T,Q]}
 """,
     thermo=u'C-*R3',
     longDesc=u"""Thermo is currently for C-*R3.  Maybe should average all the children instead?"""
@@ -1979,7 +1979,7 @@ entry(
     group =
 """
 1 X  u0 {2,[S,D,T]}
-2 N  u0 {1,[S,D,T]}
+2 N  ux {1,[S,D,T]}
 """,
     thermo=u'N-*R2',
     longDesc=u"""Thermo is currently for N-*R2.  Maybe should average all the children instead?"""
@@ -1991,7 +1991,7 @@ entry(
     group =
 """
 1 X  u0 {2,[S,D]}
-2 O  u0 {1,[S,D]}
+2 O  ux {1,[S,D]}
 """,
     thermo=u'O-*R',
     longDesc=u"""Thermo is currently for O-*R.  Maybe should average all the children instead?"""
