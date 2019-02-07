@@ -1325,33 +1325,35 @@ entry(
 """
 )
 
-entry(
-    index = 46,
-    label = "C=*O",
-    group =
-"""
-1 X  u0  p0 c0 {2,D}
-2 C  u0  p0 c0 {1,D} {3,D}
-3 O  u0  p2 c0 {2,D}
-""",
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([2.21, 2.9, 3.29, 3.53, 3.74, 3.8, 3.78], 'cal/(mol*K)'),
-        H298=(-34.7, 'kcal/mol'),
-        S298=(-38.09, 'cal/(mol*K)'),
-    ),
-    shortDesc=u"""Came from CO-f double-bonded on Pt(111)""",
-    longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -1.480 eV.
-            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 1.89529 eV, gamma_C(X) = 0.500.
 
-   O
-  ||
-   C
-  ||
-***********
-"""
-)
+## Not present in the tree
+# entry(
+#     index = 46,
+#     label = "C=*O",
+#     group =
+# """
+# 1 X  u0  p0 c0 {2,D}
+# 2 C  u0  p0 c0 {1,D} {3,D}
+# 3 O  u0  p2 c0 {2,D}
+# """,
+#     thermo=ThermoData(
+#         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+#         Cpdata=([2.21, 2.9, 3.29, 3.53, 3.74, 3.8, 3.78], 'cal/(mol*K)'),
+#         H298=(-34.7, 'kcal/mol'),
+#         S298=(-38.09, 'cal/(mol*K)'),
+#     ),
+#     shortDesc=u"""Came from CO-f double-bonded on Pt(111)""",
+#     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
+#             DFT binding energy: -1.480 eV.
+#             Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 1.89529 eV, gamma_C(X) = 0.500.
+#
+#    O
+#   ||
+#    C
+#   ||
+# ***********
+# """
+# )
 
 entry(
     index = 47,
