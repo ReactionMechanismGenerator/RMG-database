@@ -973,14 +973,12 @@ entry(
 
 entry(
     index = 34,
-    label = "C=*CR2",
+    label = "C=*(=C)",
     group =
 """
 1 X  u0  p0 c0 {2,D}
 2 C  u0  p0 c0 {1,D} {3,D}
-3 C  u0  p0 c0 {2,D} {4,S} {5,S}
-4 R  u0  p0 c0 {3,S}
-5 R  u0  p0 c0 {3,S}
+3 C  u0  p0 c0 {2,D}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -988,16 +986,19 @@ entry(
         H298=(-93.15, 'kcal/mol'),
         S298=(-48.06, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from C-CH2 double-bonded on Pt(111)""",
+    shortDesc=u"""Came from C=CH2 double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -3.980 eV.
             Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.60024 eV, gamma_C(X) = 0.500.
 
-   CR2
+   C
   ||
    C
   ||
 ***********
+
+Because the C atom bonded to the surface only has one ligand 
+not two, it is not a child of the C=*R2 node
 """
 )
 
@@ -2358,8 +2359,8 @@ L1: R*
                 L5: C=*RCR3
                 L5: C=*RNR2
                 L5: C=*ROR
-                L5: C=*CR2
                 L5: C=*NR
+            L4: C=*(=C)
             L4: C-*R3
                 L5: C-*R2CR3
                 L5: C-*R2NR2
