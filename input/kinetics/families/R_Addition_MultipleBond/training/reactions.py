@@ -57431,3 +57431,473 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 """,
 )
 
+entry(
+    index = 2868,
+    label = "C12H16-1 + H <=> C12H17-63",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.11555e+07, 'cm^3/(mol*s)'),
+        n = 1.68908,
+        Ea = (2.8054, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for Ethyltetralin + H <=> EthyltetralinRad
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2869,
+    label = "C12H16-2 + H <=> C12H17-64",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.05357e+08, 'cm^3/(mol*s)'),
+        n = 1.45722,
+        Ea = (22.2904, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for Propylindane + H <=> PropylindaneRad
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2870,
+    label = "C12H14-3 + H <=> C12H15-74",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.11555e+07, 'cm^3/(mol*s)'),
+        n = 1.68908,
+        Ea = (2.8054, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for PropylindeneFar + HRad <=> PropylindeneRadFar
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2871,
+    label = "C12H14-4 + H <=> C12H15-75",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.49151e+09, 'cm^3/(mol*s)'),
+        n = 1.41481,
+        Ea = (8.0185, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for EthylDihydronaphthaleneFar + HRad <=> EthylDihydronaphthaleneRadFar
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2872,
+    label = "C12H14-5 + H <=> C12H15-76",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.09054e+09, 'cm^3/(mol*s)'),
+        n = 1.09894,
+        Ea = (14.5058, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for EthylDihydronaphthaleneNear + HRad <=> EthylDihydronaphthaleneRadNear
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2873,
+    label = "C12H12-5 + H <=> C12H13-53",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.15411e+09, 'cm^3/(mol*s)'),
+        n = 1.29523,
+        Ea = (13.7245, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for Ethylnaphthalene + HRad <=> EthylnaphthaleneRadFar
+Level of Theory: CBS-QB3
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2874,
+    label = "C12H12-6 + H <=> C12H13-54",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.74269e+09, 'cm^3/(mol*s)'),
+        n = 1.2919,
+        Ea = (18.5634, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for Ethylnaphthalene + HRad <=> EthylnaphthaleneRadFar2
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2875,
+    label = "C12H12-7 + H <=> C12H13-55",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.30484e+08, 'cm^3/(mol*s)'),
+        n = 1.57158,
+        Ea = (16.2141, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for Ethylnaphthalene + HRad <=> EthylnaphthaleneRadNear
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2876,
+    label = "C12H12-8 + H <=> C12H13-56",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (9.84923e+08, 'cm^3/(mol*s)'),
+        n = 1.49476,
+        Ea = (14.68, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for Ethylnaphthalene + HRad <=> EthylnaphthaleneRadNear2
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2877,
+    label = "C7H8-27 + C2H5 <=> C9H13-76",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1781.88, 'cm^3/(mol*s)'),
+        n = 2.58533,
+        Ea = (34.9048, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + C2H5 --> CCC1[CH]C(C)=CC=C1
+Addition to Meta Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2878,
+    label = "C7H8-13 + C2H5 <=> C9H13-77",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1048.1, 'cm^3/(mol*s)'),
+        n = 2.63245,
+        Ea = (32.101, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + C2H5 --> CCC1[CH]C=CC=C1C
+Addition to Ortho Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2879,
+    label = "C7H8-29 + C2H5 <=> C9H13-78",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (565.91, 'cm^3/(mol*s)'),
+        n = 2.65082,
+        Ea = (38.2927, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + C2H5 --> CCC1[CH]C=C(C)C=C1
+Addition to Para Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2880,
+    label = "C7H8-5 + C2H5 <=> C9H13-79",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (22.0765, 'cm^3/(mol*s)'),
+        n = 2.98911,
+        Ea = (37.4992, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + C2H5 --> CCC1(C)[CH]C=CC=C1
+Addition to subtituted Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2881,
+    label = "C7H8-27 + C7H7-3 <=> C14H15-40",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (333.522, 'cm^3/(mol*s)'),
+        n = 2.81143,
+        Ea = (52.4195, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Benzyl --> CC1[CH]C(C=CC=1)Cc1ccccc1
+Addition to Meta Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2882,
+    label = "C7H8-13 + C7H7-3 <=> C14H15-41",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (75.2016, 'cm^3/(mol*s)'),
+        n = 2.87538,
+        Ea = (47.3967, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Benzyl --> CC1=CC=C[CH]C1Cc1ccccc1
+Addition to Ortho Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2883,
+    label = "C7H8-29 + C7H7-3 <=> C14H15-42",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (203.185, 'cm^3/(mol*s)'),
+        n = 2.7789,
+        Ea = (51.957, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Benzyl --> CC1C=CC([CH]C=1)Cc1ccccc1
+Addition to Para Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2884,
+    label = "C7H8-5 + C7H7-3 <=> C14H15-43",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.0143, 'cm^3/(mol*s)'),
+        n = 3.28044,
+        Ea = (49.7678, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Benzyl --> CC1([CH]C=CC=C1)Cc1ccccc1
+Addition to subtituted Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2885,
+    label = "C7H8-27 + C8H9 <=> C15H17-45",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (6.36177, 'cm^3/(mol*s)'),
+        n = 3.21235,
+        Ea = (47.2354, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Ethylbenzyl --> CC1=CC=C[CH]C1C(C)c1ccccc1
+Addition to Meta Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2886,
+    label = "C7H8-13 + C8H9 <=> C15H17-46",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (9.9686, 'cm^3/(mol*s)'),
+        n = 3.05153,
+        Ea = (47.5686, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Ethylbenzyl --> CC1[CH]C(C=CC=1)C(C)c1ccccc1
+Addition to Ortho Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2887,
+    label = "C7H8-29 + C8H9 <=> C15H17-47",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.8336, 'cm^3/(mol*s)'),
+        n = 3.1834,
+        Ea = (47.5562, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Ethylbenzyl --> CC1C=CC([CH]C=1)C(C)c1ccccc1
+Addition to Para Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2888,
+    label = "C7H8-5 + C8H9 <=> C15H17-48",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.0289968, 'cm^3/(mol*s)'),
+        n = 3.67504,
+        Ea = (50.8048, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Ethylbenzyl --> CC(c1ccccc1)C1(C)[CH]C=CC=C1
+Addition to subtituted Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
