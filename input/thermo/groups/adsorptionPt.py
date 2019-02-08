@@ -2079,10 +2079,10 @@ entry(
     label = "R*bidentate",
     group =
 """
-1 X  u0 {3,[S,D,T]}
-2 X  u0 {4,[S,D,T]}
-3 R  u0 {1,[S,D,T]} {4,[S,D,T]}
-4 R  u0 {2,[S,D,T]} {3,[S,D,T]}
+1 X   u0 {3,[S,D,T]}
+2 X   u0 {4,[S,D,T]}
+3 R!H u0 {1,[S,D,T]} {4,[S,D,T]}
+4 R!H u0 {2,[S,D,T]} {3,[S,D,T]}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
