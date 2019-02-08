@@ -30,7 +30,7 @@ entry(
     label = "Adsorbate",
     group =
 """
-1 *1 R u2
+1 *1 R!H u2
 """,
     kinetics = None,
 )

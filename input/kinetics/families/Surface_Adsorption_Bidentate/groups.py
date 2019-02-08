@@ -34,8 +34,8 @@ entry(
     label = "Adsorbate",
     group =
 """
-1 *1 R u0 {2,[D,T]}
-2 *2 R u0 {1,[D,T]}
+1 *1 R!H u0 {2,[D,T]}
+2 *2 R!H u0 {1,[D,T]}
 """,
     kinetics = None,
 )
@@ -75,8 +75,8 @@ forbidden(
     label = "chargedSurface1",
     group =
 """
-1 *1 R u0 c-1 {2,T}
-2 *2 R u0 c+1 {1,T}
+1 *1 R!H u0 c-1 {2,T}
+2 *2 R!H u0 c+1 {1,T}
 """,
     shortDesc = u"""""",
     longDesc =
@@ -96,8 +96,8 @@ forbidden(
     label = "chargedSurface2",
     group =
 """
-1 *1 R u0 c+1 {2,T}
-2 *2 R u0 c-1 {1,T}
+1 *1 R!H u0 c+1 {2,T}
+2 *2 R!H u0 c-1 {1,T}
 """,
     shortDesc = u"""""",
     longDesc =
