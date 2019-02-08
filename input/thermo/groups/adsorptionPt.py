@@ -175,7 +175,7 @@ entry(
 
 entry(
     index = 6,
-    label = "O-*O-*",
+    label = "O*O*",
     group =
 """
 1 X  u0 p0 c0 {3,S}
@@ -2124,19 +2124,19 @@ entry(
     longDesc=u"""Is there really any way to do N*O* besides N=*O-* ?"""
 )
 
-entry(
-    index = 78,
-    label = "O*O*",
-    group =
-"""
-1 X  u0 p0 c0 {3,S}
-2 X  u0 p0 c0 {4,S}
-3 O  u0 p2 c0 {1,S} {4,S}
-4 O  u0 p2 c0 {2,S} {3,S}
-""",
-    thermo=u'O-*O-*',
-    longDesc=u"""Is there really any way to do O*O* besides O-*O-* ?"""
-)
+#entry(
+#    index = 78,
+#    label = "O*O*",
+#    group =
+#"""
+#1 X  u0 p0 c0 {3,S}
+#2 X  u0 p0 c0 {4,S}
+#3 O  u0 p2 c0 {1,S} {4,S}
+#4 O  u0 p2 c0 {2,S} {3,S}
+#""",
+#    thermo=u'O-*O-*',
+#    longDesc=u"""Is there really any way to do O*O* besides O-*O-* ?"""
+#)
 
 entry(
     index = 79,
@@ -2349,7 +2349,6 @@ L1: R*
         L3: N*O*
             L4: N=*O-*
         L3: O*O*
-            L4: O-*O-*
     L2: R*single_chemisorbed
         L3: C*
             L4: Cq*
