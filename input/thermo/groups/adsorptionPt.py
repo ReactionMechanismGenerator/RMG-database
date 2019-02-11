@@ -2138,18 +2138,30 @@ entry(
 #    longDesc=u"""Is there really any way to do O*O* besides O-*O-* ?"""
 #)
 
+###Have not been able to find any examples of when N is triple bonded to the surface and
+###has an R group attached.  Redid for no R group below. --EM
+#entry(
+#    index = 79,
+#    label = "N#*R",
+#    group =
+#"""
+#1 X  u0 c-1 {2,T}
+#2 N  u0 c+1 {1,T} {3,S}
+#3 R  u0 c0  {2,S}
+#""",
+#    thermo=u'N*'
+#)
+
 entry(
     index = 79,
-    label = "N#*R",
+    label = "N#*",
     group =
 """
-1 X  u0 {2,T}
-2 N  u0 {1,T} {3,[S,D]}
-3 R  u0 {2,[S,D]}
+1 X  u0 p0 {2,T}
+2 N  u0 p1 {1,T}
 """,
     thermo=u'N*'
 )
-
 entry(
     index = 80,
     label = "(CR3)*",
@@ -2370,7 +2382,7 @@ L1: R*
                 L5: C-*RNR
                 L5: C-*RO
         L3: N*
-            L4: N#*R
+            L4: N#*
             L4: N=*R
                 L5: N=*CR3
                 L5: N=*NR2
