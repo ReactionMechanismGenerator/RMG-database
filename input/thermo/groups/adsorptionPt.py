@@ -352,9 +352,8 @@ entry(
     group =
 """
 1 X  u0 p0 c0 {2,S}
-2 N  u0 p1 c0 {1,S} {3,S} {4,S}
-3 R  u0 p0 c0 {2,S}
-4 R  u0 p0 c0 {2,S}
+2 N  u0 p1 c0 {1,S} {3,[S,D]}
+3 R  u0 p0 c0 {2,[S,D]}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -973,12 +972,12 @@ entry(
 
 entry(
     index = 34,
-    label = "C=*(=C)",
+    label = "C=*(=R)",
     group =
 """
-1 X  u0  p0 c0 {2,D}
-2 C  u0  p0 c0 {1,D} {3,D}
-3 C  u0  p0 c0 {2,D}
+1 X   u0  p0 c0 {2,D}
+2 C   u0  p0 c0 {1,D} {3,D}
+3 R!H u0  p0 c0 {2,D}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -1097,8 +1096,8 @@ entry(
 """
 1 X  u0 p0 c0 {2,D}
 2 C  u0 p0 c0 {1,D} {3,S} {4,S}
-3 R  u0 p0 c0 {2,S}
-4 R  u0 p0 c0 {2,S}
+3 R  u0 px c0 {2,S}
+4 R  u0 px c0 {2,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -1154,10 +1153,9 @@ entry(
     group =
 """
 1 X  u0 p0 c0 {2,S}
-2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 R  u0 px c0 {2,S}
-4 R  u0 px c0 {2,S}
-5 R  u0 px c0 {2,S}
+2 C  u0 p0 c0 {1,S} {3,[S,D]} {4,[S,D]}
+3 R  u0 px c0 {2,[S,D]}
+4 R  u0 px c0 {2,[S,D]}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -1268,7 +1266,7 @@ entry(
 
 entry(
     index = 44,
-    label = "C=*NR",
+    label = "C=*(=NR)",
     group =
 """
 1 X  u0  p0 c0 {2,D}
@@ -2065,10 +2063,10 @@ entry(
     label = "N*N*",
     group =
 """
-1 X  u0 {3,[S,D,T]}
-2 X  u0 {4,[S,D,T]}
-3 N  u0 {1,[S,D,T]} {4,[S,D,T]}
-4 N  u0 {2,[S,D,T]} {3,[S,D,T]}
+1 X  u0 {3,[S,D]}
+2 X  u0 {4,[S,D]}
+3 N  u0 {1,[S,D]} {4,[S,D]}
+4 N  u0 {2,[S,D]} {3,[S,D]}
 """,
     thermo=u'N-*RN-*R',
     longDesc=u"""Thermo is currently for N-*RN-*R.  Maybe should average all the children instead?"""
@@ -2167,11 +2165,11 @@ entry(
     label = "(CR3)*",
     group =
 """
-1 X  u0 
-2 C  u0 {3,D} {4,S} {5,S}
-3 R  u0 {2,D}
-4 R  u0 {2,S}
-5 R  u0 {2,S}
+1 X   u0 
+2 C   u0 {3,D} {4,S} {5,S}
+3 R!H u0 {2,D}
+4 R   u0 {2,S}
+5 R   u0 {2,S}
 """,
     thermo=u'(CR2NR)*',
     longDesc=u"""Perhaps should be an average?"""
@@ -2182,10 +2180,10 @@ entry(
     label = "(CR2)*",
     group =
 """
-1 X  u0
-2 C  u0 {3,[S,D,T]} {4,[S,D,T]}
-3 R  u0 {2,[S,D,T]}
-4 R  u0 {2,[S,D,T]}
+1 X   u0
+2 C   u0 {3,T} {4,S}
+3 R!H u0 {2,T}
+4 R   u0 {2,S}
 """,
     thermo=u'(CRN)*'
 )
@@ -2210,10 +2208,10 @@ entry(
     label = "(NR2)*",
     group =
 """
-1 X  u0 
-2 N  u0 {3,D} {4,S}
-3 R  u0 {2,D}
-4 R  u0 {2,S}
+1 X   u0 
+2 N   u0 {3,D} {4,S}
+3 R!H u0 {2,D}
+4 R   u0 {2,S}
 """,
     thermo=u'(NRO)*',
     longDesc=u"""Parent of (RN=O)* and (RN=NR)*. Should it be an average?"""
@@ -2227,7 +2225,7 @@ entry(
 1 X  u0 p0 c0 {3,S}
 2 X  u0 p0 c0 {4,D}
 3 N  u0 p1 c0 {1,S} {4,S} {5,S}
-4 R  u0 p1 c0 {2,D} {3,S}
+4 N  u0 p1 c0 {2,D} {3,S}
 5 R  u0 p0 c0 {3,S}
 """,
     thermo=ThermoData(
@@ -2335,6 +2333,37 @@ entry(
 """
 )
 
+entry(
+    index = 88,
+    label = "C=*(=C)",
+    group =
+"""
+1 X  u0  p0 c0 {2,D}
+2 C  u0  p0 c0 {1,D} {3,D}
+3 C  u0  p0 c0 {2,D}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-1.2, 0.67, 1.9, 2.71, 3.62, 4.07, 4.52], 'cal/(mol*K)'),
+        H298=(-93.15, 'kcal/mol'),
+        S298=(-48.06, 'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Came from C=CH2 double-bonded on Pt(111)""",
+    longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -3.980 eV.
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.60024 eV, gamma_C(X) = 0.500.
+
+   C
+  ||
+   C
+  ||
+***********
+
+Because the C atom bonded to the surface only has one ligand 
+not two, it is not a child of the C=*R2 node
+"""
+)
+
 
 tree(
 """
@@ -2372,8 +2401,9 @@ L1: R*
                 L5: C=*RCR3
                 L5: C=*RNR2
                 L5: C=*ROR
-                L5: C=*NR
-            L4: C=*(=C)
+            L4: C=*(=R)
+                L5: C=*(=C)
+                L5: C=*(=NR)
             L4: C-*R3
                 L5: C-*R2CR3
                 L5: C-*R2NR2
