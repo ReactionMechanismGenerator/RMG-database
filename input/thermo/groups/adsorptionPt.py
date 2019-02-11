@@ -2423,6 +2423,7 @@ L1: R*
                 L5: N-*ROR
                 L5: N-*CR2
                 L5: N-*NR
+                L5: N-*O
         L3: O*
             L4: O=*
             L4: O-*R
@@ -2449,6 +2450,5 @@ L1: R*
             L4: (NRNR)*
         L3: (OR2)*
             L4: (OROR)*
-
 """
 )
