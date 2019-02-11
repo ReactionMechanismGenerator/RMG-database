@@ -17,15 +17,15 @@ entry(
     shortDesc=u"""Anything adsorbed anyhow.""",
     longDesc=u"""
    R
-   x
+   X
 ***********
 This node should be empty, ensuring that one of the nodes below is used.
 
 
 The group could well be defined as:
 
-    1 R u0
-    2 X u0
+    1 R ux
+    2 X ux
 
 but then it is identical with the R*vdW node, and the database tests
 do not like that. It should be OK, because things would check the
@@ -325,9 +325,9 @@ entry(
 """
 1 X  u0 p0 c0
 2 N  u0 p1 c0 {3,S} {4,S} {5,S}
-3 R  u0 p0 c0 {2,S}
-4 R  u0 p0 c0 {2,S}
-5 R  u0 p0 c0 {2,S}
+3 R  u0 px c0 {2,S}
+4 R  u0 px c0 {2,S}
+5 R  u0 px c0 {2,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -353,7 +353,7 @@ entry(
 """
 1 X  u0 p0 c0 {2,S}
 2 N  u0 p1 c0 {1,S} {3,[S,D]}
-3 R  u0 p0 c0 {2,[S,D]}
+3 R  u0 px c0 {2,[S,D]}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -379,7 +379,7 @@ entry(
 """
 1 X  u0 p0 c0 {2,D}
 2 N  u0 p1 c0 {1,D} {3,S}
-3 R  u0 p0 c0 {2,S}
+3 R  u0 px c0 {2,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -977,7 +977,7 @@ entry(
 """
 1 X   u0  p0 c0 {2,D}
 2 C   u0  p0 c0 {1,D} {3,D}
-3 R!H u0  p0 c0 {2,D}
+3 R!H u0  px c0 {2,D}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -2006,7 +2006,7 @@ entry(
     group =
 """
 1 X  u0 {2,[S,D,T,Q]}
-2 R  u0 {1,[S,D,T,Q]}
+2 R  ux {1,[S,D,T,Q]}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -2079,8 +2079,8 @@ entry(
 """
 1 X   u0 {3,[S,D,T]}
 2 X   u0 {4,[S,D,T]}
-3 R!H u0 {1,[S,D,T]} {4,[S,D,T]}
-4 R!H u0 {2,[S,D,T]} {3,[S,D,T]}
+3 R!H ux {1,[S,D,T]} {4,[S,D,T]}
+4 R!H ux {2,[S,D,T]} {3,[S,D,T]}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
