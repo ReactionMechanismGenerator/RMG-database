@@ -12,7 +12,11 @@ Note: "-h" means "horizontal".
 entry(
     index = 1,
     label = "R*",
-    group="OR{R*vdW}",
+    group=
+"""
+1 R  ux
+2 X  ux
+""",
     thermo=None,
     shortDesc=u"""Anything adsorbed anyhow.""",
     longDesc=u"""
