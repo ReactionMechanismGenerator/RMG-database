@@ -23,7 +23,7 @@ reverse = "Surface_Association_vdW"
 recipe(actions=[
     ['FORM_BOND', '*1', 1, '*3'],
     ['FORM_BOND', '*2', 1, '*4'],
-    ['BREAK_BOND', '*1', 1, '*2']
+    ['BREAK_BOND', '*1', 1, '*2'],
 ])
 
 entry(
@@ -33,7 +33,7 @@ entry(
 """
 1 *1 R  u0 {2,S} 
 2 *2 R  u0 {1,S}
-3 *3 Xo u0 
+3 *3 X  u0 
 """,
     kinetics = None,
 )
