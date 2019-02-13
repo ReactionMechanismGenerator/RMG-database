@@ -2781,14 +2781,15 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.818,-2.82,-2.578,-2.314,-2.091,-1.771,-1.49],'cal/(mol*K)'),
-        H298 = (-2.31,'kcal/mol'),
-        S298 = (27.775,'cal/(mol*K)'),
+        Cpdata = ([-2.710000,-2.829000,-2.749000,-2.625000,-2.174000,-1.591000,-1.484000],'cal/(mol*K)','+|-',[0.348100,0.348100,0.348100,0.348100,0.348100,0.348100,0.348100]),
+        H298 = (-3.253000,'kcal/mol','+|-',2.935300),
+        S298 = (26.101000,'cal/(mol*K)','+|-',0.518400),
     ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations, 02/2019, Lawrence Lai
+Model species is 1,4-cyclohexadiene-3-methylene
 """,
 )
 
@@ -2852,14 +2853,15 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-5.437,-6.088,-5.788,-4.994,-3.626,-2.664,-1.187],'cal/(mol*K)'),
-        H298 = (-4.78,'kcal/mol'),
-        S298 = (28.295,'cal/(mol*K)'),
+        Cpdata = ([-5.182000,-6.383000,-6.343000,-5.497000,-3.657000,-2.381000,-1.242000],'cal/(mol*K)','+|-',[0.396900,0.396900,0.396900,0.396900,0.396900,0.396900,0.396900]),
+        H298 = (5.220000,'kcal/mol','+|-',3.016000),
+        S298 = (27.698000,'cal/(mol*K)','+|-',0.518400),
     ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations, 02/2019, Lawrence Lai
+Model species is 1,3-cyclohexadiene-5-methylene
 """,
 )
 
