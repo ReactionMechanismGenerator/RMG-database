@@ -657,33 +657,33 @@ entry(
 """
 )
 
-entry(
-    index = 23,
-    label = "N-*N-*",
-    group =
-"""
-1 X  u0 p0 c0 {3,S}
-2 X  u0 p0 c0 {4,S}
-3 N  u0 p1 c0 {1,S} {4,D}
-4 N  u0 p1 c0 {2,S} {3,D}
-""",
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.2, 1.21, 1.21, 1.21, 1.22, 1.22, 1.22], 'cal/(mol*K)'),
-        H298=(-2.39, 'kcal/mol'),
-        S298=(-13.89, 'cal/(mol*K)'),
-    ),
-    shortDesc=u"""Came from NN bidentate, twice single-bonded on Pt(111)""",
-    longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -0.109 eV.
-            Linear scaling parameters: ref_adatom_N1 = 0.525 eV, ref_adatom_N2 = 0.525 eV, psi = -0.45958 eV, gamma_N1(X) = 0.333, gamma_N2(X) = 0.333.
-            The two lowest frequencies, 6.3 and 24.2 cm-1, where replaced by the 2D gas model.
 
-  N==N
-  |  |
-***********
-"""
-)
+#entry(
+#    index = 23,
+#    label = "(NN)*",
+#    group =
+#"""
+#1 X  u0 p0 c0 
+#3 N  u0 p1 c0 {3,T}
+#4 N  u0 p1 c0 {2,T}
+#""",
+#    thermo=ThermoData(
+#        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+#        Cpdata=([1.2, 1.21, 1.21, 1.21, 1.22, 1.22, 1.22], 'cal/(mol*K)'),
+#        H298=(-2.39, 'kcal/mol'),
+#        S298=(-15.27, 'cal/(mol*K)'),
+#    ),
+#    shortDesc=u"""Came from NN vdW-bonded on Pt(111)""",
+#    longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
+#            DFT binding energy: -0.109 eV.
+#            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -0.10949 eV, gamma_N(X) = 0.000.
+#            The two lowest frequencies, 6.3 and 24.2 cm-1, where replaced by the 2D gas model.
+#
+#  N#N
+#   : 
+#***********
+#"""
+#)
 
 entry(
     index = 24,
@@ -2388,7 +2388,6 @@ L1: R*
         L3: C*O*
             L4: C=*RO-*
         L3: N*N*
-            L4: N-*N-*
             L4: N-*RN-*R
             L4: N-*RN=*
         L3: N*O*
