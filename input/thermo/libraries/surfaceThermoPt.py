@@ -2079,3 +2079,37 @@ entry(
             Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 0.42191 eV, gamma_C(X) = 0.500.
             The two lowest frequencies, 46.4 and 91.5 cm-1, where replaced by the 2D gas model.""",
 )
+
+entry(
+    index = 72,
+    label = "H2CO-h_ads",
+    molecule = 
+"""
+1 X  u0 p0 c0 {3,S}
+2 X  u0 p0 c0 {4,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4 O  u0 p2 c0 {2,S} {3,S}
+5 H  u0 p0 c0 {3,S}
+6 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[
+             1.02400610E-01, 2.37197512E-02, -2.57930815E-05, 1.52033151E-08, 
+             -3.68397327E-12, -2.71157474E+04, -4.98129327E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[
+             9.52719632E+00, -6.50602819E-03, 1.16581384E-05, -6.25773731E-09, 
+             1.12684291E-12,-2.95082935E+04, -4.81511621E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+        ],
+        Tmin = (298.0, 'K'),
+        Tmax = (2000.0, 'K'),
+    ),
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.236 eV.
+            Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_O2 = -1.030 eV, psi = 1.96700 eV, gamma_C1(X) = 0.250, gamma_O2(X) = 0.500.""",
+)
+
+
+
+

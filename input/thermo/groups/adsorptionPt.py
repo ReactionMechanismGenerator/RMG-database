@@ -2368,6 +2368,38 @@ not two, it is not a child of the C=*R2 node
 """
 )
 
+entry(
+    index = 89,
+    label = "C-*R2O-*",
+    group = 
+"""
+1 X  u0 p0 c0 {3,S}
+2 X  u0 p0 c0 {4,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4 O  u0 p2 c0 {2,S} {3,S}
+5 R  u0 p0 c0 {3,S}
+6 R  u0 p0 c0 {3,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([2.47, 3.94, 4.70, 5.04, 5.21, 5.17, 5.03], 'cal/(mol*K)'),
+        H298=(-6.024, 'kcal/mol'),
+        S298=(-41.48, 'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Came from H2CO-h bidentate, twice single-bonded on Pt(111)""",
+    longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). 
+            Based on DFT calculations by Jelena Jelic at KIT.
+            DFT binding energy: -0.236 eV.
+            Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_O2 = -1.030 eV, psi = 1.96700 eV, gamma_C1(X) = 0.250, gamma_O2(X) = 0.500.
+
+ R2C--O
+   |  |
+***********
+"""
+)
+
+
+
 
 tree(
 """
@@ -2387,6 +2419,7 @@ L1: R*
             L4: C=*RN-*R
         L3: C*O*
             L4: C=*RO-*
+            L4: C-*R2O-*
         L3: N*N*
             L4: N-*RN-*R
             L4: N-*RN=*
