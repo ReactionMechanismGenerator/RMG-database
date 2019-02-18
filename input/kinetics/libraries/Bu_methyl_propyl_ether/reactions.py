@@ -736,7 +736,7 @@ entry(
     label = "CH3OCH2CHOOHCH3 <=> OH + CH3OCH2CHOCH3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (5.684e16, 'm^3/(mol*s)'),
+        A = (5.684e16, '1/s'),
         n = -1.153,
         Ea = (185.15, 'kJ/mol'),
         T0 = (298, 'K'),
