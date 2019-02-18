@@ -1783,35 +1783,36 @@ entry(
             Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_C2 = -6.750 eV, psi = 0.96689 eV, gamma_C1(X) = 0.250, gamma_C2(X) = 0.500.""",
 )
 
-entry(
-    index = 62,
-    label = "HC-CH2_ads",
-    molecule =
-"""
-1 X  u0  p0 c0 {2,S}
-2 C  u0  p0 c0 {1,S} {3,D} {4,S}
-3 C  u0  p0 c0 {2,D} {5,S} {6,S}
-4 H  u0  p0 c0 {2,S}
-5 H  u0  p0 c0 {3,S}
-6 H  u0  p0 c0 {3,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[
-             -3.761998800E+00,   4.463873830E-02,  -5.865136870E-05,   4.048714140E-08,
-             -1.120403080E-11,  -2.545452840E+03,   1.391918370E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             1.147737520E+01,  -8.889811580E-03,   1.588277200E-05,  -8.483602150E-09,
-             1.521747930E-12,  -6.167735370E+03,  -6.194706680E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
-        ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
-    ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -2.790 eV.
-            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -1.09643 eV, gamma_C(X) = 0.250.""",
-)
+#This is actually bidentate, so this input is not correct (should be the same as index 51).
+#entry(
+#    index = 62,
+#    label = "HC-CH2_ads",
+#    molecule =
+#"""
+#1 X  u0  p0 c0 {2,S}
+#2 C  u0  p0 c0 {1,S} {3,D} {4,S}
+#3 C  u0  p0 c0 {2,D} {5,S} {6,S}
+#4 H  u0  p0 c0 {2,S}
+#5 H  u0  p0 c0 {3,S}
+#6 H  u0  p0 c0 {3,S}
+#""",
+#    thermo = NASA(
+#        polynomials = [
+#            NASAPolynomial(coeffs=[
+#             -3.761998800E+00,   4.463873830E-02,  -5.865136870E-05,   4.048714140E-08,
+#             -1.120403080E-11,  -2.545452840E+03,   1.391918370E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+#            NASAPolynomial(coeffs=[
+#             1.147737520E+01,  -8.889811580E-03,   1.588277200E-05,  -8.483602150E-09,
+#             1.521747930E-12,  -6.167735370E+03,  -6.194706680E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+#        ],
+#        Tmin = (298.0, 'K'),
+#        Tmax = (2000.0, 'K'),
+#    ),
+#    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+#            Based on DFT calculations by Jelena Jelic at KIT.
+#            DFT binding energy: -2.790 eV.
+#            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -1.09643 eV, gamma_C(X) = 0.250.""",
+#)
 
 entry(
     index = 63,
@@ -2110,7 +2111,4 @@ entry(
             DFT binding energy: -0.236 eV.
             Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_O2 = -1.030 eV, psi = 1.96700 eV, gamma_C1(X) = 0.250, gamma_O2(X) = 0.500.""",
 )
-
-
-
 
