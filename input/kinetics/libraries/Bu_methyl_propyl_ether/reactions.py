@@ -12,9 +12,9 @@ entry(
     label = "MPO1QJ <=> MPO1Q-1J",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (2.974e+07, 's^-1'),
-        n = 1.34,
-        Ea = (13.961, 'kcal/mol'),
+        A = (1.33e10, 's^-1'),
+        n = 0.572,
+        Ea = (16.672, 'kcal/mol'),
         T0 = (1, 'K'),
         comment = '',
     ),
@@ -898,7 +898,7 @@ entry(
         T0 = (1, 'K'),
         Tmin = (303.03, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'Fitted to 59 data points; dA = *|/ 1.14901, dn = +|- 0.0182292, dEa = +|- 0.100279 kJ/mol',
+        comment = '',
     ),
     longDesc =
 u"""
@@ -917,7 +917,7 @@ entry(
         T0 = (1, 'K'),
         Tmin = (303.03, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'Fitted to 59 data points; dA = *|/ 1.0383, dn = +|- 0.00493207, dEa = +|- 0.0271313 kJ/mol',
+        comment = '',
     ),
     longDesc =
 u"""
@@ -936,7 +936,7 @@ entry(
         T0 = (1, 'K'),
         Tmin = (303.03, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'Fitted to 59 data points; dA = *|/ 1.06105, dn = +|- 0.00777673, dEa = +|- 0.0427798 kJ/mol',
+        comment = '',
     ),
     longDesc =
 u"""
@@ -955,7 +955,7 @@ entry(
         T0 = (1, 'K'),
         Tmin = (303.03, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'Fitted to 59 data points; dA = *|/ 1.45915, dn = +|- 0.0495899, dEa = +|- 0.272794 kJ/mol',
+        comment = '',
     ),
     longDesc =
 u"""
@@ -974,7 +974,7 @@ entry(
         T0 = (1, 'K'),
         Tmin = (303.03, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'Fitted to 59 data points; dA = *|/ 1.86722, dn = +|- 0.0819534, dEa = +|- 0.450826 kJ/mol',
+        comment = '',
     ),
     longDesc =
 u"""
@@ -993,7 +993,7 @@ entry(
         T0 = (1, 'K'),
         Tmin = (303.03, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'Fitted to 59 data points; dA = *|/ 1.05194, dn = +|- 0.00664491, dEa = +|- 0.0365537 kJ/mol',
+        comment = '',
     ),
     longDesc =
 u"""
@@ -1012,10 +1012,144 @@ entry(
         T0 = (1, 'K'),
         Tmin = (303.03, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'Fitted to 59 data points; dA = *|/ 1.08076, dn = +|- 0.0101924, dEa = +|- 0.0560682 kJ/mol',
+        comment = '',
     ),
     longDesc =
 u"""
 Duminda CBS-QB3 calculation
+""",
+)
+
+entry(
+    index = 59,
+    label = "MPO + H <=> MPrO-1J + H2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (1.27e5, 'cm^3/(mol*s)'),
+        n = 2.516,
+        Ea = (2.07, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = '',
+    ),
+    longDesc =
+u"""
+Mark Nimlos G4 calculation
+""",
+)
+
+entry(
+    index = 60,
+    label = "MPO + H <=> MPO1J + H2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (4.83e5, 'cm^3/(mol*s)'),
+        n = 2.347,
+        Ea = (0.472, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = '',
+    ),
+    longDesc =
+u"""
+Mark Nimlos G4 calculation
+""",
+)
+
+entry(
+    index = 61,
+    label = "MPO + H <=> CH3OCH2CHCH3 + H2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (6.63e5, 'cm^3/(mol*s)'),
+        n = 2.313,
+        Ea = (2.968, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = '',
+    ),
+    longDesc =
+u"""
+Mark Nimlos G4 calculation
+""",
+)
+
+
+entry(
+    index = 62,
+    label = "CH3CH2CH2OCH2OO <=> CH3CHCH2OCH2OOH",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1.08e6, '1/s'),
+        n = 1.318,
+        Ea = (12.857, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = '',
+    ),
+    longDesc =
+u"""
+Mark Nimlos G4 calculation
+""",
+)
+
+entry(
+    index = 63,
+    label = "CH3CH2CH2OCH2OO <=> CH3CH2CH2OCH2OOH",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (2.66e5, '1/s'),
+        n = 1.471,
+        Ea = (17.342, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = '',
+    ),
+    longDesc =
+u"""
+Mark Nimlos G4 calculation
+""",
+)
+
+entry(
+    index = 64,
+    label = "CH3CH2OOdCH2OCH3 <=> CH3CH2OOHCH2OCH2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (2.29e2, '1/s'),
+        n = 2.835,
+        Ea = (14.234, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = '',
+    ),
+    longDesc =
+u"""
+Mark Nimlos G4 calculation
+""",
+)
+
+entry(
+    index = 65,
+    label = "CH3OCH2CH2CH2OO <=> HOOCH2CH2CH2OCH2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (7.08e1, '1/s'),
+        n = 2.997,
+        Ea = (12.299, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = '',
+    ),
+    longDesc =
+u"""
+Mark Nimlos G4 calculation
 """,
 )
