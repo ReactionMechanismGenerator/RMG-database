@@ -2,9 +2,16 @@
 # encoding: utf-8
 
 name = "chlorines_ccsd(t)23"
-shortDesc = u""
+shortDesc = u"CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ"
 longDesc = u"""
-
+- geometry optimization, harmonic frequenices, and ZPE caclulated using M06-2X/aug-cc-pVTZ with Gaussian16
+- (RHF/UHF)/aug-cc-pV(D,T)Z for closed and open shell, respectively, computed with Orca,
+extrapolated to CBS limit based on a two point scheme proposed in J. Chem. Phys. 2008, 129, 184116
+using the exponents from J. Chem. Theory Comput., 7, 33-43 (2011) (X=2,Y=3,a=4.3)
+- CCSD(T)/aug-cc-pV(D,T)Z computed with Orca and extrapolate to CBS limit based on a two point scheme proposed in J. Chem. Phys. 1997, 106, 9639
+using the exponents from J. Chem. Theory Comput., 7, 33-43 (2011) (X=2,Y=3,b=2.51)
+- BACs were derived from 58 C,H,O,Cl-containing species from ATcT and added to Arcane for "ccsd(t)/aug-cc-pv(d,t)z" model chemistry
+- NASA polynomials were computed with Arcane
 """
 entry(
     index = 0,
@@ -29,7 +36,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -56,7 +63,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -89,7 +96,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -115,7 +122,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -142,7 +149,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -169,7 +176,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -193,7 +200,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -220,7 +227,7 @@ multiplicity 2
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -247,7 +254,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -274,7 +281,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -300,7 +307,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -324,7 +331,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -350,7 +357,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -376,7 +383,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -402,7 +409,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -427,7 +434,7 @@ multiplicity 2
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -456,7 +463,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -485,7 +492,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -513,7 +520,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -538,7 +545,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -565,7 +572,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -594,7 +601,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -621,7 +628,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -650,7 +657,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -679,7 +686,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -704,7 +711,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -729,7 +736,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -752,7 +759,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -777,7 +784,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -806,7 +813,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -836,7 +843,7 @@ multiplicity 2
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -868,7 +875,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -898,7 +905,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -927,7 +934,7 @@ multiplicity 2
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -958,7 +965,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -989,7 +996,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -1019,7 +1026,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -1049,7 +1056,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -1073,13 +1080,13 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.69021,0.0313597,-2.41989e-05,8.72083e-09,-1.10443e-12,-14169.3,inf], Tmin=(10,'K'), Tmax=(1174.04,'K')),
-            NASAPolynomial(coeffs=[9.19758,0.0158564,-8.55691e-06,2.2041e-09,-2.20444e-13,-15687.2,inf], Tmin=(1174.04,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.69021,0.0313597,-2.41989e-05,8.72083e-09,-1.10443e-12,-14169.3,12.0408], Tmin=(10,'K'), Tmax=(1174.04,'K')),
+            NASAPolynomial(coeffs=[9.19758,0.0158564,-8.55691e-06,2.2041e-09,-2.20444e-13,-15687.2,-16.3698], Tmin=(1174.04,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -1103,13 +1110,13 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.79583,0.0159195,0.000111112,-3.67845e-07,3.33803e-10,-16299,inf], Tmin=(10,'K'), Tmax=(397.62,'K')),
-            NASAPolynomial(coeffs=[5.40744,0.0247873,-1.69544e-05,5.5087e-09,-6.77457e-13,-16625.5,inf], Tmin=(397.62,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.79583,0.0159195,0.000111112,-3.67845e-07,3.33803e-10,-16299,12.2141], Tmin=(10,'K'), Tmax=(397.62,'K')),
+            NASAPolynomial(coeffs=[5.40744,0.0247873,-1.69544e-05,5.5087e-09,-6.77457e-13,-16625.5,3.43228], Tmin=(397.62,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -1141,7 +1148,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -1171,7 +1178,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -1201,7 +1208,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -1233,7 +1240,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -1264,7 +1271,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -1292,7 +1299,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -1320,7 +1327,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -1352,7 +1359,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -1377,13 +1384,13 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.68849,0.0298009,5.9998e-05,-2.7807e-07,3.02416e-10,-30763.4,inf], Tmin=(10,'K'), Tmax=(332.15,'K')),
-            NASAPolynomial(coeffs=[4.29537,0.0354356,-2.38994e-05,7.6383e-09,-9.26458e-13,-30875.1,inf], Tmin=(332.15,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs = [3.68849, 0.0298009, 5.9998e-05, -2.7807e-07, 3.02416e-10, -30763.4, 12.1023], Tmin = (10, 'K'), Tmax = (332.154, 'K'),),
+            NASAPolynomial(coeffs = [4.29537, 0.0354356, -2.38994e-05, 7.6383e-09, -9.26458e-13, -30875.1, 8.76857],Tmin = (332.154, 'K'),Tmax = (3000, 'K'),),
         ],
-        Tmin = (10,'K'),
-        Tmax = (3000,'K'),
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K')
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -1410,7 +1417,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -1440,7 +1447,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -1468,7 +1475,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
@@ -1500,7 +1507,7 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""CCSD(T)/aug-cc-pV(D,T)Z||M06-2X/aug-cc-pVTZ""",
     longDesc =
 u"""
 
