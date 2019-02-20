@@ -10,8 +10,8 @@ A Consistent Chemical Mechanism for Oxidation of Substituted Aromatic Species
 Combustion and Flame 157 (2010) 1879-1898
 """
 entry(
-    index = 0,
-    label = "CH4(1)",
+    index = 1,
+    label = "CH4_1",
     molecule = 
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -36,8 +36,8 @@ u"""
 )
 
 entry(
-    index = 1,
-    label = "H(2)",
+    index = 2,
+    label = "H_2",
     molecule = 
 """
 multiplicity 2
@@ -59,8 +59,8 @@ u"""
 )
 
 entry(
-    index = 2,
-    label = "O2(3)",
+    index = 3,
+    label = "O2_3",
     molecule = 
 """
 multiplicity 3
@@ -83,8 +83,8 @@ u"""
 )
 
 entry(
-    index = 3,
-    label = "O(4)",
+    index = 4,
+    label = "O_4",
     molecule = 
 """
 multiplicity 3
@@ -106,8 +106,8 @@ u"""
 )
 
 entry(
-    index = 4,
-    label = "OH(5)",
+    index = 5,
+    label = "OH_5",
     molecule = 
 """
 multiplicity 2
@@ -130,8 +130,8 @@ u"""
 )
 
 entry(
-    index = 5,
-    label = "H2(6)",
+    index = 6,
+    label = "H2_6",
     molecule = 
 """
 1 H u0 p0 c0 {2,S}
@@ -153,8 +153,8 @@ u"""
 )
 
 entry(
-    index = 6,
-    label = "H2O(7)",
+    index = 7,
+    label = "H2O_7",
     molecule = 
 """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -177,8 +177,8 @@ u"""
 )
 
 entry(
-    index = 7,
-    label = "CO2(8)",
+    index = 8,
+    label = "CO2_8",
     molecule = 
 """
 1 C u0 p0 c0 {2,D} {3,D}
@@ -201,8 +201,8 @@ u"""
 )
 
 entry(
-    index = 8,
-    label = "HO2(9)",
+    index = 9,
+    label = "HO2_9",
     molecule = 
 """
 multiplicity 2
@@ -226,8 +226,8 @@ u"""
 )
 
 entry(
-    index = 9,
-    label = "H2O2(10)",
+    index = 10,
+    label = "H2O2_10",
     molecule = 
 """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -251,8 +251,8 @@ u"""
 )
 
 entry(
-    index = 10,
-    label = "CO(11)",
+    index = 11,
+    label = "CO_11",
     molecule = 
 """
 1 C u0 p1 c-1 {2,T}
@@ -274,8 +274,8 @@ u"""
 )
 
 entry(
-    index = 11,
-    label = "HCO(12)",
+    index = 12,
+    label = "HCO_12",
     molecule = 
 """
 multiplicity 2
@@ -299,8 +299,8 @@ u"""
 )
 
 entry(
-    index = 12,
-    label = "C(13)",
+    index = 13,
+    label = "C_13",
     molecule = 
 """
 1 C u0 p2 c0
@@ -321,8 +321,8 @@ u"""
 )
 
 entry(
-    index = 13,
-    label = "CH(14)",
+    index = 14,
+    label = "CH_14",
     molecule = 
 """
 multiplicity 4
@@ -345,8 +345,8 @@ u"""
 )
 
 entry(
-    index = 14,
-    label = "T-CH2(15)",
+    index = 15,
+    label = "T-CH2_15",
     molecule = 
 """
 multiplicity 3
@@ -370,8 +370,8 @@ u"""
 )
 
 entry(
-    index = 15,
-    label = "CH3(16)",
+    index = 16,
+    label = "CH3_16",
     molecule = 
 """
 multiplicity 2
@@ -396,8 +396,8 @@ u"""
 )
 
 entry(
-    index = 16,
-    label = "CH2O(17)",
+    index = 17,
+    label = "CH2O_17",
     molecule = 
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -421,8 +421,8 @@ u"""
 )
 
 entry(
-    index = 17,
-    label = "HCCO(18)",
+    index = 18,
+    label = "HCCO_18",
     molecule = 
 """
 multiplicity 2
@@ -447,8 +447,8 @@ u"""
 )
 
 entry(
-    index = 18,
-    label = "C2H(19)",
+    index = 19,
+    label = "C2H_19",
     molecule = 
 """
 multiplicity 2
@@ -472,8 +472,8 @@ u"""
 )
 
 entry(
-    index = 19,
-    label = "CH2CO(20)",
+    index = 20,
+    label = "CH2CO_20",
     molecule = 
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -498,8 +498,8 @@ u"""
 )
 
 entry(
-    index = 20,
-    label = "C2H2(21)",
+    index = 21,
+    label = "C2H2_21",
     molecule = 
 """
 1 C u0 p0 c0 {2,T} {3,S}
@@ -523,8 +523,8 @@ u"""
 )
 
 entry(
-    index = 21,
-    label = "S-CH2(22)",
+    index = 22,
+    label = "S-CH2_22",
     molecule = 
 """
 1 C u0 p1 c0 {2,S} {3,S}
@@ -547,7 +547,7 @@ u"""
 )
 
 entry(
-    index = 22,
+    index = 23,
     label = "N2",
     molecule = 
 """
@@ -570,7 +570,7 @@ u"""
 )
 
 entry(
-    index = 23,
+    index = 24,
     label = "AR",
     molecule = 
 """
@@ -592,8 +592,8 @@ u"""
 )
 
 entry(
-    index = 24,
-    label = "CH3OH(25)",
+    index = 25,
+    label = "CH3OH_25",
     molecule = 
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -619,8 +619,8 @@ u"""
 )
 
 entry(
-    index = 25,
-    label = "CH2OH(26)",
+    index = 26,
+    label = "CH2OH_26",
     molecule = 
 """
 multiplicity 2
@@ -646,8 +646,8 @@ u"""
 )
 
 entry(
-    index = 26,
-    label = "CH3O(27)",
+    index = 27,
+    label = "CH3O_27",
     molecule = 
 """
 multiplicity 2
@@ -673,8 +673,8 @@ u"""
 )
 
 entry(
-    index = 27,
-    label = "CH3O2(28)",
+    index = 28,
+    label = "CH3O2_28",
     molecule = 
 """
 multiplicity 2
@@ -701,8 +701,8 @@ u"""
 )
 
 entry(
-    index = 28,
-    label = "C2H3(29)",
+    index = 29,
+    label = "C2H3_29",
     molecule = 
 """
 multiplicity 2
@@ -728,8 +728,8 @@ u"""
 )
 
 entry(
-    index = 29,
-    label = "C2H4(30)",
+    index = 30,
+    label = "C2H4_30",
     molecule = 
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -755,8 +755,8 @@ u"""
 )
 
 entry(
-    index = 30,
-    label = "C2H5(31)",
+    index = 31,
+    label = "C2H5_31",
     molecule = 
 """
 multiplicity 2
@@ -784,8 +784,8 @@ u"""
 )
 
 entry(
-    index = 31,
-    label = "HCCOH(32)",
+    index = 32,
+    label = "HCCOH_32",
     molecule = 
 """
 1 C u0 p0 c0 {2,S} {3,T}
@@ -810,8 +810,8 @@ u"""
 )
 
 entry(
-    index = 32,
-    label = "CH2CHO(33)",
+    index = 33,
+    label = "CH2CHO_33",
     molecule = 
 """
 multiplicity 2
@@ -838,8 +838,8 @@ u"""
 )
 
 entry(
-    index = 33,
-    label = "CH3CHO(34)",
+    index = 34,
+    label = "CH3CHO_34",
     molecule = 
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -866,8 +866,8 @@ u"""
 )
 
 entry(
-    index = 34,
-    label = "H2C2(35)",
+    index = 35,
+    label = "H2C2_35",
     molecule = 
 """
 multiplicity 3
@@ -892,8 +892,8 @@ u"""
 )
 
 entry(
-    index = 35,
-    label = "C2H5O(36)",
+    index = 36,
+    label = "C2H5O_36",
     molecule = 
 """
 multiplicity 2
@@ -922,8 +922,8 @@ u"""
 )
 
 entry(
-    index = 36,
-    label = "N-C3H7(37)",
+    index = 37,
+    label = "N-C3H7_37",
     molecule = 
 """
 multiplicity 2
@@ -954,8 +954,8 @@ u"""
 )
 
 entry(
-    index = 37,
-    label = "C2H6(38)",
+    index = 38,
+    label = "C2H6_38",
     molecule = 
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -983,8 +983,8 @@ u"""
 )
 
 entry(
-    index = 38,
-    label = "C3H8(39)",
+    index = 39,
+    label = "C3H8_39",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -1015,8 +1015,8 @@ u"""
 )
 
 entry(
-    index = 39,
-    label = "C3H6(40)",
+    index = 40,
+    label = "C3H6_40",
     molecule = 
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -1045,8 +1045,8 @@ u"""
 )
 
 entry(
-    index = 40,
-    label = "C3H3(41)",
+    index = 41,
+    label = "C3H3_41",
     molecule = 
 """
 multiplicity 2
@@ -1073,8 +1073,8 @@ u"""
 )
 
 entry(
-    index = 41,
-    label = "P-C3H4(42)",
+    index = 42,
+    label = "P-C3H4_42",
     molecule = 
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -1101,8 +1101,8 @@ u"""
 )
 
 entry(
-    index = 42,
-    label = "A-C3H4(43)",
+    index = 43,
+    label = "A-C3H4_43",
     molecule = 
 """
 1 C u0 p0 c0 {3,D} {4,S} {5,S}
@@ -1129,8 +1129,8 @@ u"""
 )
 
 entry(
-    index = 43,
-    label = "S-C3H5(44)",
+    index = 44,
+    label = "S-C3H5_44",
     molecule = 
 """
 multiplicity 2
@@ -1159,8 +1159,8 @@ u"""
 )
 
 entry(
-    index = 44,
-    label = "N-C4H3(45)",
+    index = 45,
+    label = "N-C4H3_45",
     molecule = 
 """
 multiplicity 2
@@ -1188,8 +1188,8 @@ u"""
 )
 
 entry(
-    index = 45,
-    label = "C3H4O(46)",
+    index = 46,
+    label = "C3H4O_46",
     molecule = 
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -1217,8 +1217,8 @@ u"""
 )
 
 entry(
-    index = 46,
-    label = "A-C3H5(47)",
+    index = 47,
+    label = "A-C3H5_47",
     molecule = 
 """
 multiplicity 2
@@ -1247,8 +1247,8 @@ u"""
 )
 
 entry(
-    index = 47,
-    label = "C2O(48)",
+    index = 48,
+    label = "C2O_48",
     molecule = 
 """
 multiplicity 3
@@ -1272,8 +1272,8 @@ u"""
 )
 
 entry(
-    index = 48,
-    label = "C4H4(49)",
+    index = 49,
+    label = "C4H4_49",
     molecule = 
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
@@ -1301,8 +1301,8 @@ u"""
 )
 
 entry(
-    index = 49,
-    label = "C3H2(50)",
+    index = 50,
+    label = "C3H2_50",
     molecule = 
 """
 multiplicity 3
@@ -1328,8 +1328,8 @@ u"""
 )
 
 entry(
-    index = 50,
-    label = "C3H2O(51)",
+    index = 51,
+    label = "C3H2O_51",
     molecule = 
 """
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
@@ -1355,8 +1355,8 @@ u"""
 )
 
 entry(
-    index = 51,
-    label = "C4H2(52)",
+    index = 52,
+    label = "C4H2_52",
     molecule = 
 """
 1 C u0 p0 c0 {2,S} {3,T}
@@ -1382,8 +1382,8 @@ u"""
 )
 
 entry(
-    index = 52,
-    label = "I-C4H3(53)",
+    index = 53,
+    label = "I-C4H3_53",
     molecule = 
 """
 multiplicity 2
@@ -1411,8 +1411,8 @@ u"""
 )
 
 entry(
-    index = 53,
-    label = "T-C3H5(54)",
+    index = 54,
+    label = "T-C3H5_54",
     molecule = 
 """
 multiplicity 2
@@ -1441,8 +1441,8 @@ u"""
 )
 
 entry(
-    index = 54,
-    label = "C3H5O(55)",
+    index = 55,
+    label = "C3H5O_55",
     molecule = 
 """
 multiplicity 2
@@ -1472,8 +1472,8 @@ u"""
 )
 
 entry(
-    index = 55,
-    label = "C4H(56)",
+    index = 56,
+    label = "C4H_56",
     molecule = 
 """
 multiplicity 2
@@ -1499,8 +1499,8 @@ u"""
 )
 
 entry(
-    index = 56,
-    label = "C8H2(57)",
+    index = 57,
+    label = "C8H2_57",
     molecule = 
 """
 1  C u0 p0 c0 {3,T} {5,S}
@@ -1530,8 +1530,8 @@ u"""
 )
 
 entry(
-    index = 57,
-    label = "C6H2(58)",
+    index = 58,
+    label = "C6H2_58",
     molecule = 
 """
 1 C u0 p0 c0 {2,T} {3,S}
@@ -1559,8 +1559,8 @@ u"""
 )
 
 entry(
-    index = 58,
-    label = "C4H6(59)",
+    index = 59,
+    label = "C4H6_59",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -1590,8 +1590,8 @@ u"""
 )
 
 entry(
-    index = 59,
-    label = "N-C4H5(60)",
+    index = 60,
+    label = "N-C4H5_60",
     molecule = 
 """
 multiplicity 2
@@ -1621,8 +1621,8 @@ u"""
 )
 
 entry(
-    index = 60,
-    label = "I-C4H5(61)",
+    index = 61,
+    label = "I-C4H5_61",
     molecule = 
 """
 multiplicity 2
@@ -1652,8 +1652,8 @@ u"""
 )
 
 entry(
-    index = 61,
-    label = "A1(62)",
+    index = 62,
+    label = "A1_62",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {6,B} {7,S}
@@ -1685,8 +1685,8 @@ u"""
 )
 
 entry(
-    index = 62,
-    label = "C7H16(63)",
+    index = 63,
+    label = "C7H16_63",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {4,S} {12,S} {13,S}
@@ -1729,8 +1729,8 @@ u"""
 )
 
 entry(
-    index = 63,
-    label = "C5H11(64)",
+    index = 64,
+    label = "C5H11_64",
     molecule = 
 """
 multiplicity 2
@@ -1767,8 +1767,8 @@ u"""
 )
 
 entry(
-    index = 64,
-    label = "P-C4H9(65)",
+    index = 65,
+    label = "P-C4H9_65",
     molecule = 
 """
 multiplicity 2
@@ -1802,8 +1802,8 @@ u"""
 )
 
 entry(
-    index = 65,
-    label = "C7H15(66)",
+    index = 66,
+    label = "C7H15_66",
     molecule = 
 """
 multiplicity 2
@@ -1846,8 +1846,8 @@ u"""
 )
 
 entry(
-    index = 66,
-    label = "P-C4H8(67)",
+    index = 67,
+    label = "P-C4H8_67",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -1879,8 +1879,8 @@ u"""
 )
 
 entry(
-    index = 67,
-    label = "C5H10(68)",
+    index = 68,
+    label = "C5H10_68",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -1915,8 +1915,8 @@ u"""
 )
 
 entry(
-    index = 68,
-    label = "C7H14(69)",
+    index = 69,
+    label = "C7H14_69",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
@@ -1957,8 +1957,8 @@ u"""
 )
 
 entry(
-    index = 69,
-    label = "C7H15O(70)",
+    index = 70,
+    label = "C7H15O_70",
     molecule = 
 """
 multiplicity 2
@@ -2002,8 +2002,8 @@ u"""
 )
 
 entry(
-    index = 70,
-    label = "C4H8O(71)",
+    index = 71,
+    label = "C4H8O_71",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -2036,8 +2036,8 @@ u"""
 )
 
 entry(
-    index = 71,
-    label = "C4H7(72)",
+    index = 72,
+    label = "C4H7_72",
     molecule = 
 """
 multiplicity 2
@@ -2069,8 +2069,8 @@ u"""
 )
 
 entry(
-    index = 72,
-    label = "C7H13(73)",
+    index = 73,
+    label = "C7H13_73",
     molecule = 
 """
 multiplicity 2
@@ -2111,8 +2111,8 @@ u"""
 )
 
 entry(
-    index = 73,
-    label = "C5H9(74)",
+    index = 74,
+    label = "C5H9_74",
     molecule = 
 """
 multiplicity 2
@@ -2147,8 +2147,8 @@ u"""
 )
 
 entry(
-    index = 74,
-    label = "C4H7O(75)",
+    index = 75,
+    label = "C4H7O_75",
     molecule = 
 """
 multiplicity 2
@@ -2181,8 +2181,8 @@ u"""
 )
 
 entry(
-    index = 75,
-    label = "C3H7O(76)",
+    index = 76,
+    label = "C3H7O_76",
     molecule = 
 """
 multiplicity 2
@@ -2214,8 +2214,8 @@ u"""
 )
 
 entry(
-    index = 76,
-    label = "C8H18(77)",
+    index = 77,
+    label = "C8H18_77",
     molecule = 
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -2261,8 +2261,8 @@ u"""
 )
 
 entry(
-    index = 77,
-    label = "C7H15(78)",
+    index = 78,
+    label = "C7H15_78",
     molecule = 
 """
 multiplicity 2
@@ -2305,8 +2305,8 @@ u"""
 )
 
 entry(
-    index = 78,
-    label = "I-C4H8(79)",
+    index = 79,
+    label = "I-C4H8_79",
     molecule = 
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -2338,8 +2338,8 @@ u"""
 )
 
 entry(
-    index = 79,
-    label = "I-C3H7(80)",
+    index = 80,
+    label = "I-C3H7_80",
     molecule = 
 """
 multiplicity 2
@@ -2370,8 +2370,8 @@ u"""
 )
 
 entry(
-    index = 80,
-    label = "T-C4H9(81)",
+    index = 81,
+    label = "T-C4H9_81",
     molecule = 
 """
 multiplicity 2
@@ -2405,8 +2405,8 @@ u"""
 )
 
 entry(
-    index = 81,
-    label = "C8H17(82)",
+    index = 82,
+    label = "C8H17_82",
     molecule = 
 """
 multiplicity 2
@@ -2452,8 +2452,8 @@ u"""
 )
 
 entry(
-    index = 82,
-    label = "C7H14(83)",
+    index = 83,
+    label = "C7H14_83",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
@@ -2494,8 +2494,8 @@ u"""
 )
 
 entry(
-    index = 83,
-    label = "C8H17O(84)",
+    index = 84,
+    label = "C8H17O_84",
     molecule = 
 """
 multiplicity 2
@@ -2542,8 +2542,8 @@ u"""
 )
 
 entry(
-    index = 84,
-    label = "C3H6O(85)",
+    index = 85,
+    label = "C3H6O_85",
     molecule = 
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -2573,8 +2573,8 @@ u"""
 )
 
 entry(
-    index = 85,
-    label = "I-C4H7(86)",
+    index = 86,
+    label = "I-C4H7_86",
     molecule = 
 """
 multiplicity 2
@@ -2606,8 +2606,8 @@ u"""
 )
 
 entry(
-    index = 86,
-    label = "C7H13(87)",
+    index = 87,
+    label = "C7H13_87",
     molecule = 
 """
 multiplicity 2
@@ -2648,8 +2648,8 @@ u"""
 )
 
 entry(
-    index = 87,
-    label = "C4H6O(88)",
+    index = 88,
+    label = "C4H6O_88",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -2680,8 +2680,8 @@ u"""
 )
 
 entry(
-    index = 88,
-    label = "C4H9O(89)",
+    index = 89,
+    label = "C4H9O_89",
     molecule = 
 """
 multiplicity 2
@@ -2716,8 +2716,8 @@ u"""
 )
 
 entry(
-    index = 89,
-    label = "C4H7O(90)",
+    index = 90,
+    label = "C4H7O_90",
     molecule = 
 """
 multiplicity 2
@@ -2750,8 +2750,8 @@ u"""
 )
 
 entry(
-    index = 90,
-    label = "C6H6(91)",
+    index = 91,
+    label = "C6H6_91",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,D}
@@ -2783,8 +2783,8 @@ u"""
 )
 
 entry(
-    index = 91,
-    label = "A1-(92)",
+    index = 92,
+    label = "A1-_92",
     molecule = 
 """
 multiplicity 2
@@ -2816,8 +2816,8 @@ u"""
 )
 
 entry(
-    index = 92,
-    label = "A1C2H2(93)",
+    index = 93,
+    label = "A1C2H2_93",
     molecule = 
 """
 multiplicity 2
@@ -2853,8 +2853,8 @@ u"""
 )
 
 entry(
-    index = 93,
-    label = "A1C2H3(94)",
+    index = 94,
+    label = "A1C2H3_94",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {3,B} {4,S}
@@ -2890,8 +2890,8 @@ u"""
 )
 
 entry(
-    index = 94,
-    label = "A1C2H(95)",
+    index = 95,
+    label = "A1C2H_95",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {3,B} {7,S}
@@ -2925,8 +2925,8 @@ u"""
 )
 
 entry(
-    index = 95,
-    label = "A1C2H*(96)",
+    index = 96,
+    label = "A1C2H*_96",
     molecule = 
 """
 multiplicity 2
@@ -2960,8 +2960,8 @@ u"""
 )
 
 entry(
-    index = 96,
-    label = "C8H7(97)",
+    index = 97,
+    label = "C8H7_97",
     molecule = 
 """
 multiplicity 2
@@ -2997,8 +2997,8 @@ u"""
 )
 
 entry(
-    index = 97,
-    label = "A2-(98)",
+    index = 98,
+    label = "A2-_98",
     molecule = 
 """
 multiplicity 2
@@ -3036,8 +3036,8 @@ u"""
 )
 
 entry(
-    index = 98,
-    label = "A2(99)",
+    index = 99,
+    label = "A2_99",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {3,B} {4,B}
@@ -3075,8 +3075,8 @@ u"""
 )
 
 entry(
-    index = 99,
-    label = "A2*(100)",
+    index = 100,
+    label = "A2*_100",
     molecule = 
 """
 multiplicity 2
@@ -3114,8 +3114,8 @@ u"""
 )
 
 entry(
-    index = 100,
-    label = "C12H9(101)",
+    index = 101,
+    label = "C12H9_101",
     molecule = 
 """
 multiplicity 2
@@ -3157,8 +3157,8 @@ u"""
 )
 
 entry(
-    index = 101,
-    label = "C12H9(102)",
+    index = 102,
+    label = "C12H9_102",
     molecule = 
 """
 multiplicity 2
@@ -3200,8 +3200,8 @@ u"""
 )
 
 entry(
-    index = 102,
-    label = "C12H8(103)",
+    index = 103,
+    label = "C12H8_103",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {3,B} {6,B}
@@ -3241,8 +3241,8 @@ u"""
 )
 
 entry(
-    index = 103,
-    label = "C12H8(104)",
+    index = 104,
+    label = "C12H8_104",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {5,B} {6,B}
@@ -3282,8 +3282,8 @@ u"""
 )
 
 entry(
-    index = 104,
-    label = "C12H7(105)",
+    index = 105,
+    label = "C12H7_105",
     molecule = 
 """
 multiplicity 2
@@ -3323,8 +3323,8 @@ u"""
 )
 
 entry(
-    index = 105,
-    label = "C12H7(106)",
+    index = 106,
+    label = "C12H7_106",
     molecule = 
 """
 multiplicity 2
@@ -3364,8 +3364,8 @@ u"""
 )
 
 entry(
-    index = 106,
-    label = "A2R5(107)",
+    index = 107,
+    label = "A2R5_107",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {3,B} {4,B}
@@ -3405,8 +3405,8 @@ u"""
 )
 
 entry(
-    index = 107,
-    label = "A2R5-(108)",
+    index = 108,
+    label = "A2R5-_108",
     molecule = 
 """
 multiplicity 2
@@ -3446,8 +3446,8 @@ u"""
 )
 
 entry(
-    index = 108,
-    label = "C14H9(109)",
+    index = 109,
+    label = "C14H9_109",
     molecule = 
 """
 multiplicity 2
@@ -3491,8 +3491,8 @@ u"""
 )
 
 entry(
-    index = 109,
-    label = "C14H8(110)",
+    index = 110,
+    label = "C14H8_110",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {3,B} {4,B}
@@ -3534,8 +3534,8 @@ u"""
 )
 
 entry(
-    index = 110,
-    label = "C14H7(111)",
+    index = 111,
+    label = "C14H7_111",
     molecule = 
 """
 multiplicity 2
@@ -3577,8 +3577,8 @@ u"""
 )
 
 entry(
-    index = 111,
-    label = "P2(112)",
+    index = 112,
+    label = "P2_112",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,B} {4,B}
@@ -3620,8 +3620,8 @@ u"""
 )
 
 entry(
-    index = 112,
-    label = "P2-(113)",
+    index = 113,
+    label = "P2-_113",
     molecule = 
 """
 multiplicity 2
@@ -3663,8 +3663,8 @@ u"""
 )
 
 entry(
-    index = 113,
-    label = "A3-(114)",
+    index = 114,
+    label = "A3-_114",
     molecule = 
 """
 multiplicity 2
@@ -3708,8 +3708,8 @@ u"""
 )
 
 entry(
-    index = 114,
-    label = "A3(115)",
+    index = 115,
+    label = "A3_115",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {3,B} {5,B}
@@ -3753,8 +3753,8 @@ u"""
 )
 
 entry(
-    index = 115,
-    label = "A3*(116)",
+    index = 116,
+    label = "A3*_116",
     molecule = 
 """
 multiplicity 2
@@ -3798,8 +3798,8 @@ u"""
 )
 
 entry(
-    index = 116,
-    label = "A3R5-(117)",
+    index = 117,
+    label = "A3R5-_117",
     molecule = 
 """
 multiplicity 2
@@ -3845,8 +3845,8 @@ u"""
 )
 
 entry(
-    index = 117,
-    label = "A3R5(118)",
+    index = 118,
+    label = "A3R5_118",
     molecule = 
 """
 1  C u0 p0 c0 {3,B} {4,B} {6,B}
@@ -3892,8 +3892,8 @@ u"""
 )
 
 entry(
-    index = 118,
-    label = "A4(119)",
+    index = 119,
+    label = "A4_119",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {3,B} {6,B}
@@ -3939,8 +3939,8 @@ u"""
 )
 
 entry(
-    index = 119,
-    label = "A4-(120)",
+    index = 120,
+    label = "A4-_120",
     molecule = 
 """
 multiplicity 2
@@ -3986,8 +3986,8 @@ u"""
 )
 
 entry(
-    index = 120,
-    label = "A4R5(121)",
+    index = 121,
+    label = "A4R5_121",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {4,B} {8,B}
@@ -4035,8 +4035,8 @@ u"""
 )
 
 entry(
-    index = 121,
-    label = "FLTN(122)",
+    index = 122,
+    label = "FLTN_122",
     molecule = 
 """
 1  C u0 p0 c0 {4,B} {5,B} {6,B}
@@ -4082,8 +4082,8 @@ u"""
 )
 
 entry(
-    index = 122,
-    label = "C5H6(123)",
+    index = 123,
+    label = "C5H6_123",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -4114,8 +4114,8 @@ u"""
 )
 
 entry(
-    index = 123,
-    label = "C5H5(124)",
+    index = 124,
+    label = "C5H5_124",
     molecule = 
 """
 multiplicity 2
@@ -4146,8 +4146,8 @@ u"""
 )
 
 entry(
-    index = 124,
-    label = "C5H5O(125)",
+    index = 125,
+    label = "C5H5O_125",
     molecule = 
 """
 multiplicity 2
@@ -4179,8 +4179,8 @@ u"""
 )
 
 entry(
-    index = 125,
-    label = "C5H4O(126)",
+    index = 126,
+    label = "C5H4O_126",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,D}
@@ -4210,8 +4210,8 @@ u"""
 )
 
 entry(
-    index = 126,
-    label = "C5H5O(127)",
+    index = 127,
+    label = "C5H5O_127",
     molecule = 
 """
 multiplicity 2
@@ -4243,8 +4243,8 @@ u"""
 )
 
 entry(
-    index = 127,
-    label = "C9H8(128)",
+    index = 128,
+    label = "C9H8_128",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
@@ -4281,8 +4281,8 @@ u"""
 )
 
 entry(
-    index = 128,
-    label = "C9H7(129)",
+    index = 129,
+    label = "C9H7_129",
     molecule = 
 """
 multiplicity 2
@@ -4319,8 +4319,8 @@ u"""
 )
 
 entry(
-    index = 129,
-    label = "A1CH2(130)",
+    index = 130,
+    label = "A1CH2_130",
     molecule = 
 """
 multiplicity 2
@@ -4355,8 +4355,8 @@ u"""
 )
 
 entry(
-    index = 130,
-    label = "C9H6O(131)",
+    index = 131,
+    label = "C9H6O_131",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {3,B} {6,S}
@@ -4392,8 +4392,8 @@ u"""
 )
 
 entry(
-    index = 131,
-    label = "C6H4(132)",
+    index = 132,
+    label = "C6H4_132",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,D} {7,S}
@@ -4423,8 +4423,8 @@ u"""
 )
 
 entry(
-    index = 132,
-    label = "A1CH3(133)",
+    index = 133,
+    label = "A1CH3_133",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
@@ -4459,8 +4459,8 @@ u"""
 )
 
 entry(
-    index = 133,
-    label = "A1OH(134)",
+    index = 134,
+    label = "A1OH_134",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {3,B} {7,S}
@@ -4493,8 +4493,8 @@ u"""
 )
 
 entry(
-    index = 134,
-    label = "C7H8O(135)",
+    index = 135,
+    label = "C7H8O_135",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
@@ -4530,8 +4530,8 @@ u"""
 )
 
 entry(
-    index = 135,
-    label = "C7H7O(136)",
+    index = 136,
+    label = "C7H7O_136",
     molecule = 
 """
 multiplicity 2
@@ -4567,8 +4567,8 @@ u"""
 )
 
 entry(
-    index = 136,
-    label = "C7H7O(137)",
+    index = 137,
+    label = "C7H7O_137",
     molecule = 
 """
 multiplicity 2
@@ -4604,8 +4604,8 @@ u"""
 )
 
 entry(
-    index = 137,
-    label = "C7H8O(138)",
+    index = 138,
+    label = "C7H8O_138",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
@@ -4641,8 +4641,8 @@ u"""
 )
 
 entry(
-    index = 138,
-    label = "A1CHO(139)",
+    index = 139,
+    label = "A1CHO_139",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {3,B} {7,S}
@@ -4676,8 +4676,8 @@ u"""
 )
 
 entry(
-    index = 139,
-    label = "A1O(140)",
+    index = 140,
+    label = "A1O_140",
     molecule = 
 """
 multiplicity 2
@@ -4710,8 +4710,8 @@ u"""
 )
 
 entry(
-    index = 140,
-    label = "C7H7(141)",
+    index = 141,
+    label = "C7H7_141",
     molecule = 
 """
 multiplicity 2
@@ -4746,8 +4746,8 @@ u"""
 )
 
 entry(
-    index = 141,
-    label = "C8H9(142)",
+    index = 142,
+    label = "C8H9_142",
     molecule = 
 """
 multiplicity 2
@@ -4785,8 +4785,8 @@ u"""
 )
 
 entry(
-    index = 142,
-    label = "C8H10(143)",
+    index = 143,
+    label = "C8H10_143",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -4824,8 +4824,8 @@ u"""
 )
 
 entry(
-    index = 143,
-    label = "S(144)",
+    index = 144,
+    label = "S_144",
     molecule = 
 """
 multiplicity 2
@@ -4865,8 +4865,8 @@ u"""
 )
 
 entry(
-    index = 144,
-    label = "S(145)",
+    index = 145,
+    label = "S_145",
     molecule = 
 """
 multiplicity 2
@@ -4906,8 +4906,8 @@ u"""
 )
 
 entry(
-    index = 145,
-    label = "S(146)",
+    index = 146,
+    label = "S_146",
     molecule = 
 """
 1  C u0 p0 c0 {3,B} {4,B} {5,S}
@@ -4946,8 +4946,8 @@ u"""
 )
 
 entry(
-    index = 146,
-    label = "C8H10(147)",
+    index = 147,
+    label = "C8H10_147",
     molecule = 
 """
 1  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -4985,8 +4985,8 @@ u"""
 )
 
 entry(
-    index = 147,
-    label = "C8H9(148)",
+    index = 148,
+    label = "C8H9_148",
     molecule = 
 """
 multiplicity 2
@@ -5024,8 +5024,8 @@ u"""
 )
 
 entry(
-    index = 148,
-    label = "C8H8O(149)",
+    index = 149,
+    label = "C8H8O_149",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
@@ -5062,8 +5062,8 @@ u"""
 )
 
 entry(
-    index = 149,
-    label = "A2CH3(150)",
+    index = 150,
+    label = "A2CH3_150",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
@@ -5104,8 +5104,8 @@ u"""
 )
 
 entry(
-    index = 150,
-    label = "C8H7O(151)",
+    index = 151,
+    label = "C8H7O_151",
     molecule = 
 """
 multiplicity 2
@@ -5142,8 +5142,8 @@ u"""
 )
 
 entry(
-    index = 151,
-    label = "S(152)",
+    index = 152,
+    label = "S_152",
     molecule = 
 """
 1  C u0 p0 c0 {3,B} {6,B} {7,S}
@@ -5179,8 +5179,8 @@ u"""
 )
 
 entry(
-    index = 152,
-    label = "A2OH(153)",
+    index = 153,
+    label = "A2OH_153",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {3,B} {6,B}
@@ -5219,8 +5219,8 @@ u"""
 )
 
 entry(
-    index = 153,
-    label = "A2CH2(154)",
+    index = 154,
+    label = "A2CH2_154",
     molecule = 
 """
 multiplicity 2
@@ -5261,8 +5261,8 @@ u"""
 )
 
 entry(
-    index = 154,
-    label = "S(155)",
+    index = 155,
+    label = "S_155",
     molecule = 
 """
 multiplicity 2
@@ -5304,8 +5304,8 @@ u"""
 )
 
 entry(
-    index = 155,
-    label = "A2CHO(156)",
+    index = 156,
+    label = "A2CHO_156",
     molecule = 
 """
 1  C u0 p0 c0 {2,B} {3,B} {7,B}
@@ -5345,8 +5345,8 @@ u"""
 )
 
 entry(
-    index = 156,
-    label = "A2O(157)",
+    index = 157,
+    label = "A2O_157",
     molecule = 
 """
 multiplicity 2
@@ -5385,8 +5385,8 @@ u"""
 )
 
 entry(
-    index = 157,
-    label = "S(158)",
+    index = 158,
+    label = "S_158",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,D}

@@ -349,12 +349,48 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 27,
+    label = "cCs(-HC)CJ",
+    group = 
+"""
+1 *1 C   u0 c0 {2,S}
+2 *2 Cs  u0 {1,S} {3,S} {4,S} {5,S}
+3 *3 C   u1 {2,S}
+4    H   u0 {2,S}
+5    C   u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 28,
+    label = "CO",
+    group = 
+"""
+1 *1 CO u0 c0
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 29,
+    label = "CO_O",
+    group = 
+"""
+1 *1 CO u0 c0 {2,S}
+2    O  u0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: cCCJ
     L2: cCsCJ
         L3: cCs(-HH)CJ
         L3: cCs(-HR!H)CJ
+            L4: cCs(-HC)CJ
         L3: cCs(-R!HR!H)CJ
     L2: cCdCJ
 L1: CJ
@@ -378,6 +414,9 @@ L1: CJ
                 L5: CsJ-CdSs
 L1: C
     L2: CH3
+    L2: CO
+        L3: CO_O
 """
 )
+
 

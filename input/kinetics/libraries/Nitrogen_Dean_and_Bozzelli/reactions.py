@@ -1564,7 +1564,7 @@ entry(
                     Arrhenius(A=(5.9e+32, 's^-1'), n=-6.99, Ea=(51791.1, 'cal/mol'), T0=(1, 'K')),
                     Arrhenius(A=(9.6e+35, 's^-1'), n=-7.57, Ea=(54841.2, 'cal/mol'), T0=(1, 'K')),
                     Arrhenius(
-                        A = (5e+36, 'cm^3/(mol*s)'),
+                        A = (5e+36, 's^-1'),
                         n = -7.43,
                         Ea = (57296, 'cal/mol'),
                         T0 = (1, 'K'),
@@ -1577,7 +1577,7 @@ entry(
                     Arrhenius(A=(7.2e+28, 's^-1'), n=-7.77, Ea=(50757.9, 'cal/mol'), T0=(1, 'K')),
                     Arrhenius(A=(3.2e+31, 's^-1'), n=-6.22, Ea=(52318, 'cal/mol'), T0=(1, 'K')),
                     Arrhenius(
-                        A = (5.1e+33, 'cm^3/(mol*s)'),
+                        A = (5.1e+33, 's^-1'),
                         n = -6.52,
                         Ea = (54215.3, 'cal/mol'),
                         T0 = (1, 'K'),

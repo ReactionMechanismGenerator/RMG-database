@@ -729,7 +729,7 @@ entry(
     label = "CH3NHNH2 <=> NH2 + CH3NH",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (4.55e+23, 'cm^3/(mol*s)'),
+        A = (4.55e+23, 's^-1'),
         n = -2.147,
         Ea = (64703, 'cal/mol'),
         T0 = (1, 'K'),
@@ -751,7 +751,7 @@ entry(
     label = "CH3NHNH2 <=> CH3 + NHNH2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (5.65e+19, 'cm^3/(mol*s)'),
+        A = (5.65e+19, 's^-1'),
         n = -1.12,
         Ea = (65677, 'cal/mol'),
         T0 = (1, 'K'),
@@ -773,7 +773,7 @@ entry(
     label = "HSSH <=> SH + SH",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (1.59e+18, 'cm^3/(mol*s)'),
+        A = (1.59e+18, 's^-1'),
         n = -0.957,
         Ea = (267, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -793,7 +793,7 @@ entry(
     label = "HSSH <=> HSS + H",
     degeneracy = 2.0,
     kinetics = Arrhenius(
-        A = (4.7e+17, 'cm^3/(mol*s)'),
+        A = (4.7e+17, 's^-1'),
         n = -0.076,
         Ea = (310, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -3832,6 +3832,114 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: H_rad;SsJ-H
+""",
+)
+
+entry(
+    index = 141,
+    label = "O2 + C6H5 <=> C6H5O2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1.95e+11, 'cm^3/(mol*s)'),
+        n = 0.42,
+        Ea = (-631.06, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Zhang, F.'", "'Nicolle, A.'", "'Xing, L.'", "'Klippenstein, S. J.'"],
+        title = 'Recombination of aromatic radicals with molecular oxygen',
+        journal = "'Proceedings of the Combustion Institute'",
+        volume = "'36 (1)'",
+        pages = """'169-177'""",
+        year = "'2017'",
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+u"""
+VRC-TST, the CCSD(T)/CBS limit for the quartet state interaction energy is obtained from CCSD(T)-F12/VDZ-F12, MP2-F12/VDZ-F12 and MP2-F12/VTZ-F12
+E = E(CCSD(T)−F12/VDZ−F12) + E(MP2−F12/VTZ−F12) − E(MP2−F12/VDZ−F12)
+""",
+)
+
+entry(
+    index = 142,
+    label = "O2 + C10H7 <=> C10H7O2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (5.44e+10, 'cm^3/(mol*s)'),
+        n = 0.504,
+        Ea = (-1045.45, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Zhang, F.'", "'Nicolle, A.'", "'Xing, L.'", "'Klippenstein, S. J.'"],
+        title = 'Recombination of aromatic radicals with molecular oxygen',
+        journal = "'Proceedings of the Combustion Institute'",
+        volume = "'36 (1)'",
+        pages = """'169-177'""",
+        year = "'2017'",
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+u"""
+VRC-TST, the CCSD(T)/CBS limit for the quartet state interaction energy is obtained from CCSD(T)-F12/VDZ-F12, MP2-F12/VDZ-F12 and MP2-F12/VTZ-F12
+E = E(CCSD(T)−F12/VDZ−F12) + E(MP2−F12/VTZ−F12) − E(MP2−F12/VDZ−F12)
+""",
+)
+
+entry(
+    index = 143,
+    label = "O2 + C10H7-2 <=> C10H7O2-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (5.04e+11, 'cm^3/(mol*s)'),
+        n = 0.34,
+        Ea = (-705.29, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Zhang, F.'", "'Nicolle, A.'", "'Xing, L.'", "'Klippenstein, S. J.'"],
+        title = 'Recombination of aromatic radicals with molecular oxygen',
+        journal = "'Proceedings of the Combustion Institute'",
+        volume = "'36 (1)'",
+        pages = """'169-177'""",
+        year = "'2017'",
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+u"""
+VRC-TST, the CCSD(T)/CBS limit for the quartet state interaction energy is obtained from CCSD(T)-F12/VDZ-F12, MP2-F12/VDZ-F12 and MP2-F12/VTZ-F12
+E = E(CCSD(T)−F12/VDZ−F12) + E(MP2−F12/VTZ−F12) − E(MP2−F12/VDZ−F12)
+""",
+)
+
+entry(
+    index = 144,
+    label = "O2 + C7H7 <=> C7H7O2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (7.69e+06, 'cm^3/(mol*s)'),
+        n = 1.52,
+        Ea = (-1070, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Zhang, F.'", "'Nicolle, A.'", "'Xing, L.'", "'Klippenstein, S. J.'"],
+        title = 'Recombination of aromatic radicals with molecular oxygen',
+        journal = "'Proceedings of the Combustion Institute'",
+        volume = "'36 (1)'",
+        pages = """'169-177'""",
+        year = "'2017'",
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+u"""
+VRC-TST, the CCSD(T)/CBS limit for the quartet state interaction energy is obtained from CCSD(T)-F12/VDZ-F12, MP2-F12/VDZ-F12 and MP2-F12/VTZ-F12
+E = E(CCSD(T)−F12/VDZ−F12) + E(MP2−F12/VTZ−F12) − E(MP2−F12/VDZ−F12)
 """,
 )
 

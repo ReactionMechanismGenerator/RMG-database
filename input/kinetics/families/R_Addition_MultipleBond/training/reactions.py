@@ -73,7 +73,7 @@ entry(
     label = "CH2O + C3H5O <=> C4H7O2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (54.3214, 's^-1', '*|/', 1.1507),
+        A = (54.3214, 'cm^3/(mol*s)', '*|/', 1.1507),
         n = 3.00879,
         Ea = (6.589, 'kcal/mol', '+|-', 0.024),
         T0 = (1, 'K'),
@@ -56983,3 +56983,451 @@ Addition to subtituted Site
 More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
 """,
 )
+entry(
+    index = 2852,
+    label = "C4H3O2 + C2H2 <=> C6H5O2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (2046, 'cm^3/(mol*s)'),
+        n = 2.607,
+        Ea = (15.619, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'I. V. Tokmakov'", "'G. Kim'", "'V. V. Kislov'", "'A. M. Mebel'", "'M. C. Lin'"],
+        title = 'The Reaction of Phenyl Radical with Molecular Oxygen: A G2M Study of the Potential Energy Surface',
+        journal = "'J. Phys. Chem. A'",
+        volume = "'109 (27)'",
+        pages = """'6114-6127'""",
+        year = "'2005'",
+    ),
+    referenceType = "theory",
+    rank = 5,
+    longDesc = 
+u"""
+Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
+The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
+where only 1500, 2000, 2500 K rates were reported.
+""",
+)
+
+entry(
+    index = 2853,
+    label = "H + C6H4O2 <=> C6H5O2-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1.233e+09, 'cm^3/(mol*s)'),
+        n = 1.533,
+        Ea = (1.239, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'I. V. Tokmakov'", "'G. Kim'", "'V. V. Kislov'", "'A. M. Mebel'", "'M. C. Lin'"],
+        title = 'The Reaction of Phenyl Radical with Molecular Oxygen: A G2M Study of the Potential Energy Surface',
+        journal = "'J. Phys. Chem. A'",
+        volume = "'109 (27)'",
+        pages = """'6114-6127'""",
+        year = "'2005'",
+    ),
+    referenceType = "theory",
+    rank = 5,
+    longDesc = 
+u"""
+Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
+The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
+where only 1500, 2000, 2500 K rates were reported.
+""",
+)
+
+entry(
+    index = 2854,
+    label = "C3H3 + C4H2 <=> C7H5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1.67e-18, 'cm^3/(molecule*s)'),
+        n = 1.997,
+        Ea = (7.78, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
+        journal = "'Phys. Chem. Chem. Phys.'",
+        volume = "'13 (19)'",
+        pages = """'8940-8952'""",
+        year = "'2011'",
+    ),
+    referenceType = "theory",   
+    rank = 5,
+    longDesc = 
+u"""
+All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
+frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
+1D-Hinder rotor is considered.
+""",
+)
+
+entry(
+    index = 2855,
+    label = "H + C7H4-2 <=> C7H5-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.13e-15, 'cm^3/(molecule*s)'),
+        n = 1.462,
+        Ea = (0.94, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
+        journal = "'Phys. Chem. Chem. Phys.'",
+        volume = "'13 (19)'",
+        pages = """'8940-8952'""",
+        year = "'2011'",
+    ),
+    referenceType = "theory",   
+    rank = 5,
+    longDesc = 
+u"""
+All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
+frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
+1D-Hinder rotor is considered.
+""",
+)
+
+entry(
+    index = 2856,
+    label = "C3H3-2 + C4H2 <=> C7H5-6",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (3e-18, 'cm^3/(molecule*s)'),
+        n = 1.925,
+        Ea = (10.06, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
+        journal = "'Phys. Chem. Chem. Phys.'",
+        volume = "'13 (19)'",
+        pages = """'8940-8952'""",
+        year = "'2011'",
+    ),
+    referenceType = "theory",   
+    rank = 5,
+    longDesc = 
+u"""
+All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
+frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
+1D-Hinder rotor is considered.
+""",
+)
+
+entry(
+    index = 2857,
+    label = "H + C7H4-3 <=> C7H5-7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.02e-15, 'cm^3/(molecule*s)'),
+        n = 1.464,
+        Ea = (1.34, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
+        journal = "'Phys. Chem. Chem. Phys.'",
+        volume = "'13 (19)'",
+        pages = """'8940-8952'""",
+        year = "'2011'",
+    ),
+    referenceType = "theory",   
+    rank = 5,
+    longDesc = 
+u"""
+All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
+frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
+1D-Hinder rotor is considered.
+""",
+)
+
+entry(
+    index = 2858,
+    label = "H + C7H4-4 <=> C7H5-8",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (4.32e-15, 'cm^3/(molecule*s)'),
+        n = 1.415,
+        Ea = (3.09, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
+        journal = "'Phys. Chem. Chem. Phys.'",
+        volume = "'13 (19)'",
+        pages = """'8940-8952'""",
+        year = "'2011'",
+    ),
+    referenceType = "theory",   
+    rank = 5,
+    longDesc = 
+u"""
+All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
+frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
+1D-Hinder rotor is considered.
+""",
+)
+
+entry(
+    index = 2859,
+    label = "H + C7H4-5 <=> C7H5-9",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (3.05e-15, 'cm^3/(molecule*s)'),
+        n = 1.43,
+        Ea = (2.42, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
+        journal = "'Phys. Chem. Chem. Phys.'",
+        volume = "'13 (19)'",
+        pages = """'8940-8952'""",
+        year = "'2011'",
+    ),
+    referenceType = "theory",   
+    rank = 5,
+    longDesc = 
+u"""
+All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
+frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
+1D-Hinder rotor is considered.
+""",
+)
+
+entry(
+    index = 2860,
+    label = "C5H3 + C2H2 <=> C7H5-10",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (2.56e-18, 'cm^3/(molecule*s)'),
+        n = 1.906,
+        Ea = (14.54, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
+        journal = "'Phys. Chem. Chem. Phys.'",
+        volume = "'13 (19)'",
+        pages = """'8940-8952'""",
+        year = "'2011'",
+    ),
+    referenceType = "theory",   
+    rank = 5,
+    longDesc = 
+u"""
+All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
+frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
+1D-Hinder rotor is considered.
+""",
+)
+
+entry(
+    index = 2861,
+    label = "C5H3-2 + C2H2 <=> C7H5-11",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(
+        A = (4.12e-18, 'cm^3/(molecule*s)'),
+        n = 1.929,
+        Ea = (16.01, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
+        journal = "'Phys. Chem. Chem. Phys.'",
+        volume = "'13 (19)'",
+        pages = """'8940-8952'""",
+        year = "'2011'",
+    ),
+    referenceType = "theory",   
+    rank = 5,
+    longDesc = 
+u"""
+All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
+frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
+1D-Hinder rotor is considered.
+""",
+)
+
+entry(
+    index = 2862,
+    label = "H + C7H4-6 <=> C7H5-12",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.41e-15, 'cm^3/(molecule*s)'),
+        n = 1.431,
+        Ea = (3.42, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
+        journal = "'Phys. Chem. Chem. Phys.'",
+        volume = "'13 (19)'",
+        pages = """'8940-8952'""",
+        year = "'2011'",
+    ),
+    referenceType = "theory",   
+    rank = 5,
+    longDesc = 
+u"""
+All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
+frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
+1D-Hinder rotor is considered.
+""",
+)
+
+entry(
+    index = 2863,
+    label = "H + C7H4-7 <=> C7H5-13",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (4.48e-15, 'cm^3/(molecule*s)'),
+        n = 1.432,
+        Ea = (2.76, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
+        journal = "'Phys. Chem. Chem. Phys.'",
+        volume = "'13 (19)'",
+        pages = """'8940-8952'""",
+        year = "'2011'",
+    ),
+    referenceType = "theory",   
+    rank = 5,
+    longDesc = 
+u"""
+All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
+frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
+1D-Hinder rotor is considered.
+""",
+)
+
+entry(
+    index = 2864,
+    label = "C5H3-3 + C2H2 <=> C7H5-14",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (3.98e-18, 'cm^3/(molecule*s)'),
+        n = 1.935,
+        Ea = (20.73, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
+        journal = "'Phys. Chem. Chem. Phys.'",
+        volume = "'13 (19)'",
+        pages = """'8940-8952'""",
+        year = "'2011'",
+    ),
+    referenceType = "theory",   
+    rank = 5,
+    longDesc = 
+u"""
+All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
+frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
+1D-Hinder rotor is considered.
+""",
+)
+
+entry(
+    index = 2865,
+    label = "C5H3-4 + C2H2 <=> C7H5-15",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (7.28e-18, 'cm^3/(molecule*s)'),
+        n = 1.851,
+        Ea = (15.71, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
+        journal = "'Phys. Chem. Chem. Phys.'",
+        volume = "'13 (19)'",
+        pages = """'8940-8952'""",
+        year = "'2011'",
+    ),
+    referenceType = "theory",   
+    rank = 5,
+    longDesc = 
+u"""
+All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
+frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
+1D-Hinder rotor is considered.
+""",
+)
+
+entry(
+    index = 2866,
+    label = "C5H3-5 + C2H2 <=> C7H5-16",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (3.97e-18, 'cm^3/(molecule*s)'),
+        n = 1.905,
+        Ea = (11.71, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
+        journal = "'Phys. Chem. Chem. Phys.'",
+        volume = "'13 (19)'",
+        pages = """'8940-8952'""",
+        year = "'2011'",
+    ),
+    referenceType = "theory",   
+    rank = 5,
+    longDesc = 
+u"""
+All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
+frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
+1D-Hinder rotor is considered.
+""",
+)
+
+entry(
+    index = 2867,
+    label = "H + C7H4-8 <=> C7H5-17",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.84e-15, 'cm^3/(molecule*s)'),
+        n = 1.405,
+        Ea = (3.11, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
+        journal = "'Phys. Chem. Chem. Phys.'",
+        volume = "'13 (19)'",
+        pages = """'8940-8952'""",
+        year = "'2011'",
+    ),
+    referenceType = "theory",   
+    rank = 5,
+    longDesc = 
+u"""
+All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
+frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
+1D-Hinder rotor is considered.
+""",
+)
+

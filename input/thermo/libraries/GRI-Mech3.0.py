@@ -1011,7 +1011,7 @@ entry(
     label = "NH",
     molecule = 
 """
-1 N u0 p2 c0 {2,S}
+1 N u2 p1 c0 {2,S}
 2 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(

@@ -3651,6 +3651,32 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 254,
+    label = "R4_S_(O)_B",
+    group = 
+"""
+1 *1 R!H      u1 {2,S}
+2 *4 O        u0 {1,S} {3,S}
+3 *2 Cb       u0 {2,S} {4,B}
+4 *3 [Cb,Cbf] u0 c0 {3,B}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 255,
+    label = "R4_S_(C)_B",
+    group = 
+"""
+1 *1 R!H      u1 {2,S}
+2 *4 C        u0 {1,S} {3,S}
+3 *2 Cb       u0 {2,S} {4,B}
+4 *3 [Cb,Cbf] u0 c0 {3,B}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Rn
@@ -3662,6 +3688,8 @@ L1: Rn
                     L6: R4_S_(CO)_D
             L4: R4_S_T
             L4: R4_S_B
+                L5: R4_S_(O)_B
+                L5: R4_S_(C)_B
             L4: R4_S_CO
             L4: R4_S_CS
         L3: R4_D
