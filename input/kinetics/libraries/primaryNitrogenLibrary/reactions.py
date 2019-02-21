@@ -127,6 +127,7 @@ Reference legend:
 [Perry1985] R.A. Perry, J. Chem. Phys, 1985, 82, 5485, doi: 10.1063/1.448583
 [Pritchard2001] W-T. Chan, S.M. Heck, H.O. Pritchard, Phys. Chem. Chem. Phys., 2001, 3, 56-62, doi: 10.1039/b006088g
 [Rabinowitz2010] S.M. Hwang, J.A. Cooke, K.J. De Witt, M.J. Rabinowitz, Int. J. Chem. Kin., 2010, 42(3), 168-180, doi: 10.1002/kin.20472
+[Staton2019] T.L. Nguyen, J.F. Staton, IJCK 2019, doi: 10.1002/kin.21255
 [Troe1975] K. Glanzer, J. Troe, Berichte der Bunsengesellschaft fur physikalische Chemie, 1975, 79(5), 465-469, doi: 10.1002/bbpc.19750790514
 [Varandas2005] P.J.S.B. Caridade, S.P.J. Rodrigues, F. Sousa, A.J.C. Varandas, J. Phys. Chem. A ,2005, 109, 2356-2363, doi: 10.1021/jp045102g
 [Wang1982] O.I. Smith, S. Tseregounis, S-N. Wang, Int. J. Chem. Kin., 1982, 14(6), 679-697, doi: 10.1002/kin.550140610
@@ -3020,16 +3021,20 @@ entry(
     index = 165,
     label = "NH2 + H2 <=> NH3 + H",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.23e+05, 'cm^3/(mol*s)'), n=2.23, Ea=(7168, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
-    shortDesc = u"""[Lin1999b]""",
+    kinetics = Arrhenius(A=(2.03e+04, 'cm^3/(mol*s)'), n=2.58163, Ea=(6538, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Staton2019]""",
     longDesc =
 u"""
 Part of the "Thermal de-NOx" mechanism
 k1_theo on p. 229
-T range: 300-5000 K
-calculations done at the G2M//B3LYP/6-311G(d,p) level of theory
+T range: 300-2500 K
+calculations done at the HEAT-456QP level of theory
 Also available (shock tube) from [Klemm1985]
-Added as a training reaction to H_Abstraction
+Also available from [Lin1999b]
+Also available from [Staton2019] in reverse:
+    kinetics = Arrhenius(A=(2.89e+06, 'cm^3/(mol*s)'), n=2.23036, Ea=(10407, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(300, 'K'), Tmax=(2500, 'K')),
 """,
 )
 
