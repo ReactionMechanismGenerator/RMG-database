@@ -1869,21 +1869,14 @@ entry(
     index = 67,
     label = "NH2_r3 + H2 <=> NH3_p23 + H_p",
     degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (323000, 'cm^3/(mol*s)'),
-        n = 2.23,
-        Ea = (7168, 'cal/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (5000, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    kinetics = Arrhenius(A=(2.03e+04, 'cm^3/(mol*s)'), n=2.58163, Ea=(6538, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    rank = 1,
+    shortDesc = u"""HEAT""",
+    longDesc =
 u"""
-A.M. Mebel, L.V. Moskaleva, M.C. Lin, J. Molec. Struc. (Theochem), 1999, 461-462, 223-238, doi: 10.1016/S0166-1280(98)00423-0
-k1_theo on p. 229
-calculations done at the G2M//B3LYP/6-311G(d,p) level of theory
+T.L. Nguyen, J.F. Staton, IJCK 2019, doi: 10.1002/kin.21255
+calculations done at the HEAT-456QP level of theory
 """,
 )
 
@@ -14537,21 +14530,14 @@ entry(
     index = 622,
     label = "H + NH3_r <=> H2 + NH2_p23",
     degeneracy = 3.0,
-    kinetics = Arrhenius(
-        A = (1.62e+06, 'cm^3/(mol*s)'),
-        n = 2.4,
-        Ea = (41.5053, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    kinetics = Arrhenius(A=(2.89e+06, 'cm^3/(mol*s)'), n=2.23036, Ea=(10407, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    rank = 1,
+    shortDesc = u"""HEAT""",
     longDesc = 
 u"""
-Added by Beat Buesser, value for reaction: NH3 + H = NH2 + H2 (B&D #6) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
-
-Converted to training reaction from rate rule: NH3;H_rad
+T.L. Nguyen, J.F. Staton, IJCK 2019, doi: 10.1002/kin.21255
+calculations done at the HEAT-456QP level of theory
 """,
 )
 
