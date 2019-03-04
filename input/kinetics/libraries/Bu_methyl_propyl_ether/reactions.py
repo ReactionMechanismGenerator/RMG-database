@@ -1153,3 +1153,79 @@ u"""
 Mark Nimlos G4 calculation
 """,
 )
+
+entry(
+    index = 66,
+    label = "CH3OCHOOdCH2CH2OOH <=> CH2OCHOOHCH2CH2OOH ",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (1.001e6, '1/s'),
+        n = 1.787,
+        Ea = (12.758, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = '',
+    ),
+    longDesc =
+u"""
+Mark Nimlos G4 calculation RRHO
+""",
+)
+
+entry(
+    index = 67,
+    label = "CH3OCHOOdCH2CH2OOH <=> CH3OCHOOHCH2CHOOH ",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (5.762e5, '1/s'),
+        n = 2.192,
+        Ea = (12.760, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = '',
+    ),
+    longDesc =
+u"""
+Mark Nimlos G4 calculation RRHO
+""",
+)
+
+entry(
+    index = 68,
+    label = "CH3CH2CHOOdOCH2OOH <=> CH2CH2CHOOHOCH2OOH",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (7.233e7, '1/s'),
+        n = 1.052,
+        Ea = (15.218, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = '',
+    ),
+    longDesc =
+u"""
+Mark Nimlos G4 calculation RRHO
+""",
+)
+
+entry(
+    index = 69,
+    label = "CH3CH2CHOOdOCH2OOH <=> CH3CH2CHOOHOCHOOH",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (8.056e5, '1/s'),
+        n = 1.921,
+        Ea = (13.702, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = '',
+    ),
+    longDesc =
+u"""
+Mark Nimlos G4 calculation RRHO
+""",
+)
