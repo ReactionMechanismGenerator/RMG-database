@@ -36,20 +36,16 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -1.967029880E+00,   1.679207140E-02,  -2.503141390E-05,   1.804854550E-08,
-             -5.114915440E-12,  -3.203148470E+03,   7.682112580E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             2.719678530E+00,  -1.076956900E-03,   2.001923030E-06,  -1.128655390E-09,
-             2.112684300E-13,  -4.237391580E+03,  -1.527930800E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-1.96702988E+00, 1.67920714E-02,  -2.50314139E-05, 1.80485455E-08, -5.11491197E-12,  -3.21277026E+03, 7.68211257E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[2.71968546E+00, -1.07696656E-03,  2.00193294E-06, -1.12865983E-09, 2.11269165E-13,  -4.24701712E+03, -1.52793490E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -0.240 eV.
-            Linear scaling parameters: ref_adatom_H = -0.240 eV, psi = 0.00000 eV, gamma_H(X) = 1.000.""",
+            DFT binding energy: -2.479 eV.
+            Linear scaling parameters: ref_adatom_H = -2.479 eV, psi = 0.00000 eV, gamma_H(X) = 1.000.""",
 )
 
 entry(
@@ -63,12 +59,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             3.789351110E+00,   1.101480210E-03,  -2.313201000E-06,   2.119378260E-09,
-             -6.313500070E-13,  -1.867003330E+03,  -1.006164650E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             4.067002080E+00,  -5.017806830E-04,   6.707394750E-07,  -1.791712200E-10,
-             8.868912370E-15,  -1.891077100E+03,  -1.126217240E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[3.78935111E+00, 1.10148021E-03,  -2.31320100E-06, 2.11937826E-09, -6.31350224E-13, -1.86700333E+03, -1.00616465E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[4.06700165E+00, -5.01780079E-04,   6.70738856E-07, -1.79170942E-10, 8.86886631E-15, 1.89107687E+03, -1.12621699E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -76,7 +68,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.054 eV.
-            Linear scaling parameters: ref_adatom_H = -0.240 eV, psi = -0.05448 eV, gamma_H(X) = 0.000.
+            Linear scaling parameters: ref_adatom_H = -2.479 eV, psi = -0.05448 eV, gamma_H(X) = 0.000.
             The two lowest frequencies, 14.0 and 24.4 cm-1, where replaced by the 2D gas model.""",
 )
 
@@ -92,12 +84,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             2.537772660E+00,   9.453720100E-03,  -1.413256640E-05,   1.167309450E-08,
-             -3.676576400E-12,  -3.845514540E+04,  -5.365485620E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             5.847894650E+00,  -3.315268160E-03,   5.620187850E-06,  -2.758648930E-09,
-             4.612790670E-13,  -3.918465990E+04,  -2.156226990E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[2.53777266E+00, 9.45372010E-03, -1.41325664E-05, 1.16730945E-08, -3.67657640E-12, -3.27590463E+04, -5.36548561E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[5.84789466E+00, -3.31526816E-03, 5.62018785E-06, -2.75864893E-09, 4.61279066E-13, -3.34885608E+04, -2.15622699E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -105,7 +93,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.189 eV.
-            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = -0.18932 eV, gamma_O(X) = 0.000.
+            Linear scaling parameters: ref_adatom_O = -3.586 eV, psi = -0.18932 eV, gamma_O(X) = 0.000.
             The two lowest frequencies, 49.5 and 68.6 cm-1, where replaced by the 2D gas model.""",
 )
 
@@ -120,12 +108,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             1.073485830E+00,   1.726522060E-02,  -3.177122320E-05,   2.715365680E-08,
-             -8.694489570E-12,  -2.529759270E+04,  -5.656223370E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             5.018710210E+00,  -1.354252630E-03,   2.276873010E-06,  -1.094077420E-09,
-             1.793972220E-13,  -2.599528970E+04,  -2.411600310E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.07348583E+00, 1.72652206E-02, -3.17712232E-05, 2.71536568E-08, -8.69449304E-12, -1.96002909E+04, -5.65622336E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[5.01870328E+00, -1.35424298E-03, 2.27686310E-06, -1.09407298E-09, 1.79396487E-13, -2.02979842E+04, -2.41159621E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -133,7 +117,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.970 eV.
-            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = -1.45958 eV, gamma_O(X) = 0.500.""",
+            Linear scaling parameters: ref_adatom_O = -3.586 eV, psi = -0.18039 eV, gamma_O(X) = 0.500.""",
 )
 
 entry(
@@ -149,12 +133,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             2.837241990E+00,   1.403751750E-02,  -1.463804180E-05,   8.154749030E-09,
-             -1.742665040E-12,  -3.666070150E+04,  -5.583587160E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             8.638673050E+00,  -4.649793400E-03,   8.110187690E-06,  -4.178923370E-09,
-             7.286577310E-13,  -3.811206670E+04,  -3.485186360E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[2.83724199E+00, 1.40375175E-02, -1.46380418E-05, 8.15474904E-09, -1.74266851E-12, -2.52673006E+04, -5.58358715E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[8.63866612E+00, -4.64978374E-03,  8.11017779E-06, -4.17891893E-09, 7.28657000E-13, -2.67186621E+04, -3.48518226E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -162,7 +142,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.286 eV.
-            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = -0.28574 eV, gamma_O(X) = 0.000.
+            Linear scaling parameters: ref_adatom_O = -3.586 eV, psi = -0.28574 eV, gamma_O(X) = 0.000.
             The two lowest frequencies, 10.6 and 50.4 cm-1, where replaced by the 2D gas model.""",
 )
 
@@ -178,12 +158,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             7.443703460E-01,   2.110274680E-02,  -3.612667540E-05,   2.910321110E-08,
-             -9.016898340E-12,  -2.592456660E+04,  -4.833568320E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             5.796391270E+00,  -7.490423320E-04,   1.406801680E-06,  -7.970925650E-10,
-             1.496965290E-13,  -2.692009500E+04,  -2.897152270E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[7.44370346E-01, 2.11027468E-02, -3.61266754E-05, 2.91032111E-08, -9.01689834E-12, -1.45323684E+04, -4.83356832E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[5.79639127E+00, -7.49042336E-04, 1.40680168E-06, -7.97092567E-10, 1.49696529E-13, -1.55278968E+04, -2.89715227E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -191,7 +167,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.347 eV.
-            Linear scaling parameters: ref_adatom_O1 = -1.030 eV, ref_adatom_O2 = -1.030 eV, psi = 0.68107 eV, gamma_O1(X) = 0.500, gamma_O2(X) = 0.500.""",
+            Linear scaling parameters: ref_adatom_O1 = -3.586 eV, ref_adatom_O2 = -3.586 eV, psi = 3.23943 eV, gamma_O1(X) = 0.500, gamma_O2(X) = 0.500.""",
 )
 
 entry(
@@ -206,12 +182,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             2.354362490E+00,   1.561994550E-02,  -2.440448920E-05,   1.899141380E-08,
-             -5.723999400E-12,  -2.786958090E+04,  -5.451454320E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             6.828621010E+00,  -2.146900670E-03,   3.733793480E-06,  -1.909236350E-09,
-             3.309557410E-13,  -2.882567240E+04,  -2.720768780E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[3.30951701E+00, 1.58303400E-02, -2.48037342E-05, 1.93368066E-08, -5.83664367E-12, -1.65355567E+04, -1.33537537E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[7.82755313E+00, -2.15021793E-03, 3.74021314E-06, -1.91291320E-09, 3.31650646E-13, -1.74991919E+04, -3.53134909E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -219,8 +191,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.742 eV.
-            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = -0.22813 eV, gamma_O(X) = 0.500.
-            The two lowest frequencies, 35.9 and 60.2 cm-1, where replaced by the 2D gas model.""",
+            Linear scaling parameters: ref_adatom_O = -3.586 eV, psi = 1.05105 eV, gamma_O(X) = 0.500.""",
 )
 
 entry(
@@ -233,20 +204,16 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             1.797223820E-01,   1.254531560E-02,  -2.299245880E-05,   1.941871770E-08,
-             -6.224140990E-12,  -2.291484860E+04,  -2.224097280E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             2.920508970E+00,  -2.704555870E-04,   5.156106320E-07,  -2.939112120E-10,
-             5.540304640E-14,  -2.341152430E+04,  -1.509405360E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.79722382E-01, 1.25453156E-02, -2.29924588E-05, 1.94187177E-08, -6.22414099E-12, -1.73402246E+04, -2.22409728E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[2.92050897E+00, -2.70455589E-04, 5.15610634E-07, -2.93911213E-10, 5.54030466E-14, -1.78369003E+04, -1.50940536E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -1.030 eV.
-            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = 0.00000 eV, gamma_O(X) = 1.000.""",
+            DFT binding energy: -3.586 eV.
+            Linear scaling parameters: ref_adatom_O = -3.586 eV, psi = 0.00000 eV, gamma_O(X) = 1.000.""",
 )
 
 entry(
@@ -262,12 +229,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             1.444985870E+00,   1.600378770E-02,  -1.546581830E-05,   8.193744020E-09,
-             -1.734019180E-12,  -1.448774280E+04,  -8.531535870E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             8.427278950E+00,  -5.740936460E-03,   1.013806970E-05,  -5.324270730E-09,
-             9.425386670E-13,  -1.628811100E+04,  -3.630547990E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[2.40658689E+00, 1.61838708E-02, -1.58074626E-05, 8.48925729E-09, -1.83038307E-12, -1.87460468E+04, -7.56970401E+001], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.42636683E+00, -5.74378741E-03, 1.01435819E-05, -5.32742710E-09, 9.43135142E-13, -2.05528783E+04, -4.31963080E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -275,8 +238,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.698 eV.
-            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = -0.18381 eV, gamma_O(X) = 0.500.
-            The two lowest frequencies, 10.3 and 64.1 cm-1, where replaced by the 2D gas model.""",
+            Linear scaling parameters: ref_adatom_O = -3.586 eV, psi = 1.09537 eV, gamma_O(X) = 0.500.""",
 )
 
 entry(
@@ -293,12 +255,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             1.966896120E+00,   9.933156690E-03,   6.039548340E-06,  -1.314991490E-08,
-             5.516156980E-12,  -2.611317930E+04,  -3.141256370E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             1.028360810E+01,  -9.416926730E-03,   1.678746060E-05,  -8.951656980E-09,
-             1.603358220E-12,  -2.860449180E+04,  -4.703615990E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[2.88933974E+00, 1.02968448E-02, 5.34962049E-06, -1.25531705E-08, 5.32156610E-12, -2.04952765E+04, -1.15047899E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.12817565E+01, -9.42267565E-03, 1.67985868E-05, -8.95802947E-09, 1.60456258E-12, -2.29996396E+04, -5.57516428E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -306,8 +264,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.370 eV.
-            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = -0.85962 eV, gamma_O(X) = 0.500.
-            The two lowest frequencies, 64.2 and 66.3 cm-1, where replaced by the 2D gas model.""",
+            Linear scaling parameters: ref_adatom_O = -3.586 eV, psi = 0.41957 eV, gamma_O(X) = 0.500.""",
 )
 
 entry(
@@ -323,12 +280,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             1.314967740E+00,   1.469982890E-02,  -1.306790710E-05,   6.993608690E-09,
-             -1.529210790E-12,  -1.453057740E+04,  -4.299925920E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             8.394599160E+00,  -7.226399710E-03,   1.261697690E-05,  -6.509524410E-09,
-             1.135635490E-12,  -1.636590850E+04,  -4.028566780E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.31496774E+00, 1.46998289E-02, -1.30679071E-05, 6.99360870E-09, -1.52920905E-12, -1.45305774E+04, -4.29992592E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[8.39460262E+00, -7.22640455E-03, 1.26169819E-05, -6.50952664E-09, 1.13563586E-12, -1.63659104E+04, -4.02856883E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -336,7 +289,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.673 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -0.67337 eV, gamma_N(X) = 0.000.""",
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.67337 eV, gamma_N(X) = 0.000.""",
 )
 
 entry(
@@ -351,12 +304,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -1.890107590E+00,   2.862179970E-02,  -4.345452370E-05,   3.341432850E-08,
-             -9.994997880E-12,  -4.878935280E+03,   6.349976100E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             6.679688400E+00,  -4.642677320E-03,   8.128720250E-06,  -4.204365180E-09,
-             7.351328870E-13,  -6.752260130E+03,  -3.551819040E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-1.89010759E+00, 2.86217997E-02, -4.34545237E-05, 3.34143285E-08, -9.99500135E-12, -4.87893528E+03, 6.34997611E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[6.67968147E+00, -4.64266766E-03, 8.12871035E-06, -4.20436074E-09, 7.35132153E-13, -6.75225639E+03, -3.55181494E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -364,7 +313,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -2.030 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -2.20832 eV, gamma_N(X) = 0.333.""",
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.58258 eV, gamma_N(X) = 0.333.""",
 )
 
 entry(
@@ -378,12 +327,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -2.686630980E+00,   2.891974860E-02,  -4.763985660E-05,   3.773680640E-08,
-             -1.148951770E-11,  -1.395786670E+03,   9.810767350E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             4.827006990E+00,  -2.463802090E-03,   4.353788540E-06,  -2.278951850E-09,
-             4.025081450E-13,  -2.923329960E+03,  -2.633929730E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-2.68663098E+00, 2.89197486E-02, -4.76398566E-05, 3.77368064E-08, -1.14895177E-11, -1.39698939E+03, 9.81076735E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[4.82700699E+00, -2.46380210E-03, 4.35378855E-06, -2.27895186E-09, 4.02508146E-13, -2.92453268E+03, -2.63392973E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -391,7 +336,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -3.440 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -3.79341 eV, gamma_N(X) = 0.667.""",
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.54193 eV, gamma_N(X) = 0.667.""",
 )
 
 entry(
@@ -404,20 +349,16 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -8.621580740E-01,   1.653217230E-02,  -2.951874530E-05,   2.447413870E-08,
-             -7.738948370E-12,   4.568728490E+03,   2.272637920E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             2.878127250E+00,  -4.325471470E-04,   8.188684650E-07,  -4.656415630E-10,
-             8.765221080E-14,   3.867889910E+03,  -1.541181530E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-8.62158075E-01, 1.65321723E-02, -2.95187453E-05, 2.44741387E-08, -7.73894837E-12, 4.56391760E+03, 2.27263793E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[2.87812725E+00, -4.32547150E-04, 8.18868468E-07, -4.65641564E-10, 8.76522110E-14, 3.86307901E+03, -1.54118153E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: 0.525 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = 0.00000 eV, gamma_N(X) = 1.000.""",
+            DFT binding energy: -4.352 eV.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 0.00000 eV, gamma_N(X) = 1.000.""",
 )
 
 entry(
@@ -434,12 +375,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             1.219300230E+00,   1.830792140E-02,  -1.289817480E-05,   3.119694590E-09,
-             5.171384150E-13,  -2.100855500E+04,   5.247642460E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             1.024887730E+01,  -7.981630470E-03,   1.402522700E-05,  -7.314557790E-09,
-             1.287963900E-12,  -2.341342530E+04,  -4.573611540E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.21930023E+00, 1.83079214E-02, -1.28981748E-05, 3.11969459E-09, 5.17141885E-13, -1.53124559E+04, 5.24764240E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.02488842E+01, -7.98164013E-03, 1.40252369E-05, -7.31456224E-09, 1.28796464E-12, -1.77173300E+04, -4.57361564E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -447,7 +384,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.654 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -0.65407 eV, gamma_N(X) = 0.000.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.65407 eV, gamma_N(X) = 0.000.
             The two lowest frequencies, 17.1 and 68.9 cm-1, where replaced by the 2D gas model.""",
 )
 
@@ -463,12 +400,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             1.080958060E+00,   1.292192670E-02,  -1.333745400E-05,   7.751586780E-09,
-             -1.926122460E-12,  -1.383218460E+04,   6.085460490E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             6.476718510E+00,  -3.957940290E-03,   7.093004740E-06,  -3.806276690E-09,
-             6.853887560E-13,  -1.523100080E+04,  -2.679966580E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.08095806E+00, 1.29219267E-02, -1.33374540E-05, 7.75158679E-09, -1.92612419E-12, -8.13728821E+03, 6.08546053E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[6.47671505E+00, -3.95793547E-03, 7.09299979E-06, -3.80627447E-09, 6.85388388E-13, -9.53610261E+03, -2.67996453E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -476,7 +409,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.270 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.26632 eV, gamma_N(X) = 0.000.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -1.26632 eV, gamma_N(X) = 0.000.
             The two lowest frequencies, 36.2 and 74.0 cm-1, where replaced by the 2D gas model.""",
 )
 
@@ -493,12 +426,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -9.438345260E-02,   2.798013010E-02,  -3.687170920E-05,   2.547971650E-08,
-             -7.027465420E-12,  -1.753103530E+04,  -1.144428380E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             9.447618320E+00,  -5.668797680E-03,   1.002345690E-05,  -5.269974200E-09,
-             9.339851720E-13,  -1.978516270E+04,  -4.859736260E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-9.43834528E-02, 2.79801301E-02, -3.68717092E-05, 2.54797165E-08, -7.02746542E-12, -1.18361390E+04, -1.14442838E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.44761833E+00, -5.66879769E-03, 1.00234569E-05, -5.26997420E-09, 9.33985172E-13, -1.40902663E+04, -4.85973626E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -506,7 +435,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.370 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.54570 eV, gamma_N(X) = 0.333.""",
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 0.08004 eV, gamma_N(X) = 0.333.""",
 )
 
 entry(
@@ -520,12 +449,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             1.912534520E+00,   1.197429480E-02,  -1.741507400E-05,   1.310501300E-08,
-             -3.984403090E-12,  -1.960944880E+04,  -9.509206200E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             5.582005070E+00,  -1.446986760E-03,   2.668412780E-06,  -1.486679600E-09,
-             2.756138510E-13,  -2.046685430E+04,  -2.767857920E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.91253452E+00, 1.19742948E-02, -1.74150740E-05, 1.31050130E-08, -3.98440482E-12, -1.39133497E+04, -9.50920619E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[5.58200160E+00, -1.44698193E-03, 2.66840782E-06, -1.48667738E-09, 2.75613483E-13, -1.47707534E+04, -2.76785587E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -533,7 +458,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.580 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.75991 eV, gamma_N(X) = 0.333.""",
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.13417 eV, gamma_N(X) = 0.333.""",
 )
 
 entry(
@@ -548,12 +473,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             2.315668890E+00,   5.677595510E-03,  -6.715038090E-06,   4.784832250E-09,
-             -1.503902040E-12,  -1.725234080E+04,  -4.646781770E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             4.550609120E+00,  -1.475553230E-03,   2.701862050E-06,  -1.492600900E-09,
-             2.748394820E-13,  -1.783606340E+04,  -1.599271090E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[2.31566889E+00, 5.67759551E-03, -6.71503809E-06, 4.78483225E-09, -1.50390290E-12, -1.15562417E+04, -4.64678177E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[4.55060739E+00, -1.47555082E-03, 2.70185957E-06, -1.49259979E-09, 2.74839298E-13, -1.21399634E+04, -1.59927007E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -561,7 +482,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.390 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.73967 eV, gamma_N(X) = 0.667.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 1.51181 eV, gamma_N(X) = 0.667.
             The two lowest frequencies, -19.4 and 68.0 cm-1, where replaced by the 2D gas model.""",
 )
 
@@ -577,12 +498,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             7.029683490E-01,   2.370249400E-02,  -3.553301940E-05,   2.656233920E-08,
-             -7.776626560E-12,  -1.652308840E+04,  -4.533115280E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             7.645214550E+00,  -2.917207410E-03,   5.163780850E-06,  -2.715266750E-09,
-             4.816343880E-13,  -1.805333470E+04,  -3.852251510E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[7.02968349E-01, 2.37024940E-02, -3.55330194E-05, 2.65623392E-08, -7.77662656E-12, -1.08269894E+04, -4.53311528E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[7.64521455E+00, -2.91720741E-03, 5.16378086E-06, -2.71526676E-09, 4.81634389E-13, -1.23572356E+04, -3.85225151E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -590,7 +507,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -3.260 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -3.60529 eV, gamma_N(X) = 0.667.""",
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.35381 eV, gamma_N(X) = 0.667.""",
 )
 
 entry(
@@ -608,12 +525,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             7.109377300E-01,   1.858149570E-02,  -5.982437370E-06,  -4.760234540E-09,
-             3.311219350E-12,  -2.755797370E+03,   2.411624270E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             1.183677000E+01,  -1.131777530E-02,   1.993389930E-05,  -1.043422170E-08,
-             1.842308550E-12,  -5.858494110E+03,  -5.524324320E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[7.10937730E-01, 1.85814957E-02, -5.98243737E-06, -4.76023454E-09, 3.31121935E-12, -2.75700009E+03, 2.41162427E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.18367700E+01, -1.13177753E-02, 1.99338993E-05, -1.04342217E-08, 1.84230855E-12, -5.85969683E+03, -5.52432432E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -621,7 +534,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.977 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -0.97746 eV, gamma_N(X) = 0.000.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.97746 eV, gamma_N(X) = 0.000.
             The two lowest frequencies, 6.9 and 79.2 cm-1, where replaced by the 2D gas model.""",
 )
 
@@ -638,12 +551,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             4.624806040E-01,   2.374639300E-02,  -2.791277020E-05,   1.764540480E-08,
-             -4.521952260E-12,   1.086899090E+04,  -3.539451840E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             9.400984060E+00,  -5.986533070E-03,   1.061363220E-05,  -5.605442160E-09,
-             9.969149140E-13,   8.663754620E+03,  -4.844415590E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[4.62480603E-01, 2.37463930E-02, -2.79127702E-05, 1.76454048E-08, -4.52195226E-12, 1.08677882E+04, -3.53945184E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.40098406E+00, -5.98653308E-03, 1.06136322E-05, -5.60544216E-09, 9.96914912E-13, 8.66255190E+03, -4.84441559E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -651,7 +560,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.676 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -0.67607 eV, gamma_N(X) = 0.000.""",
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.67607 eV, gamma_N(X) = 0.000.""",
 )
 
 entry(
@@ -665,12 +574,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             4.139939170E+00,  -9.927559100E-04,   1.767040330E-06,  -1.578843420E-10,
-             -3.642067120E-13,  -4.380795290E+03,  -7.282993530E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             4.386605170E+00,  -1.506923910E-03,   2.676405940E-06,  -1.415318030E-09,
-             2.513633790E-13,  -4.482254750E+03,  -9.362164620E+00], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[4.13993917E+00, -9.92755910E-04, 1.76704033E-06, -1.57884342E-10, -3.64206712E-13, -4.38199802E+03, -7.98299353E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[4.38660517E+00, -1.50692391E-03, 2.67640594E-06, -1.41531803E-09, 2.51363379E-13, -4.48345747E+03, -9.36216462E+00], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -678,7 +583,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.109 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -0.10949 eV, gamma_N(X) = 0.000. 
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.10949 eV, gamma_N(X) = 0.000.
             The two lowest frequencies, 6.3 and 24.2 cm-1, where replaced by the 2D gas model.""",
 )
 
@@ -696,12 +601,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             1.471200560E-01,   2.683756430E-02,  -2.812550560E-05,   1.595952190E-08,
-             -3.617411930E-12,   5.509297690E+03,  -2.023136970E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             1.117882480E+01,  -8.425909350E-03,   1.486608940E-05,  -7.796527340E-09,
-             1.378811320E-12,   2.718565830E+03,  -5.779014990E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.47120056E-01, 2.68375643E-02, -2.81255056E-05, 1.59595219E-08, -3.61741193E-12, 5.50809497E+03, -2.02313697E+000], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.11788248E+01, -8.42590935E-03, 1.48660894E-05, -7.79652734E-09, 1.37881132E-12, 2.71736311E+03, -5.77901499E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -709,7 +610,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.270 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.44545 eV, gamma_N(X) = 0.333.""",
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 0.18029 eV, gamma_N(X) = 0.333.""",
 )
 
 entry(
@@ -724,12 +625,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             1.093239410E+00,   1.853336280E-02,  -2.468376290E-05,   1.771916790E-08,
-             -5.170176790E-12,   1.007693290E+04,  -5.676714430E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             7.475684980E+00,  -3.838773590E-03,   6.871431070E-06,  -3.677285720E-09,
-             6.607737430E-13,   8.545080880E+03,  -3.749613350E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.09323941E+00, 1.85333628E-02, -2.46837629E-05, 1.77191679E-08, -5.17017679E-12, 1.00757302E+04, -5.67671443E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[7.47568498E+00, -3.83877359E-03, 6.87143107E-06, -3.67728572E-09, 6.60773743E-13, 8.54387815E+03, -3.74961335E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -737,7 +634,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.060 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.23214 eV, gamma_N(X) = 0.333.""",
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 0.39360 eV, gamma_N(X) = 0.333.""",
 )
 
 entry(
@@ -753,12 +650,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             5.701297380E-01,   2.468155620E-02,  -3.143570400E-05,   2.151896510E-08,
-             -5.940883200E-12,   5.195654020E+03,  -4.186492000E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             9.375216130E+00,  -5.750585450E-03,   1.015574400E-05,  -5.329412770E-09,
-             9.431018670E-13,   3.078119870E+03,  -4.814499340E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[5.70129737E-01, 2.46815562E-02, -3.14357040E-05, 2.15189651E-08, -5.94088667E-12, 5.19445129E+03, -4.18649200E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.37520921E+00, -5.75057579E-03, 1.01557341E-05, -5.32940833E-09, 9.43101134E-13, 3.07692090E+03, -4.81449524E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -766,7 +659,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -2.040 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -2.38988 eV, gamma_N(X) = 0.667.""",
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 0.86160 eV, gamma_N(X) = 0.667.""",
 )
 
 entry(
@@ -783,12 +676,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             2.334954140E-01,   2.266105500E-02,  -2.362244440E-05,   1.283897650E-08,
-             -2.733729910E-12,   9.550373880E+03,  -2.294914280E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             9.359530680E+00,  -6.295535350E-03,   1.118941990E-05,  -5.935327740E-09,
-             1.059265110E-12,   7.233656080E+03,  -4.847482170E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[2.33495414E-01, 2.26610551E-02, -2.36224444E-05, 1.28389765E-08, -2.73372991E-12, 9.54917115E+03, -2.29491427E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.35953068E+00, -6.29553535E-03, 1.11894199E-05, -5.93532774E-09, 1.05926511E-12, 7.23245336E+03, -4.84748217E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -796,7 +685,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.982 eV.
-            Linear scaling parameters: ref_adatom_N1 = 0.525 eV, ref_adatom_N2 = 0.525 eV, psi = -1.33172 eV, gamma_N1(X) = 0.333, gamma_N2(X) = 0.333.""",
+            Linear scaling parameters: ref_adatom_N1 = -4.352 eV, ref_adatom_N2 = -4.352 eV, psi = 1.91976 eV, gamma_N1(X) = 0.333, gamma_N2(X) = 0.333.""",
 )
 
 entry(
@@ -812,12 +701,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -9.333668050E-03,   2.284860100E-02,  -3.139310050E-05,   2.251048610E-08,
-             -6.485274120E-12,   7.544688910E+03,  -1.632532260E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             7.454489580E+00,  -3.873082080E-03,   6.936969980E-06,  -3.715192840E-09,
-             6.681941440E-13,   5.790743110E+03,  -3.868062300E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-9.33366824E-03, 2.28486010E-02, -3.13931005E-05, 2.25104861E-08, -6.48527412E-12, 7.54468891E+03, -1.63253226E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[7.45448958E+00, -3.87308208E-03, 6.93696999E-06, -3.71519284E-09, 6.68194144E-13, 5.79074311E+03, -3.86806230E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -825,7 +710,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.280 eV.
-            Linear scaling parameters: ref_adatom_N1 = 0.525 eV, ref_adatom_N2 = 0.525 eV, psi = -1.80538 eV, gamma_N1(X) = 0.333, gamma_N2(X) = 0.667.""",
+            Linear scaling parameters: ref_adatom_N1 = -4.352 eV, ref_adatom_N2 = -4.352 eV, psi = 3.07184 eV, gamma_N1(X) = 0.333, gamma_N2(X) = 0.667.""",
 )
 
 entry(
@@ -843,12 +728,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             4.900390160E-01,   2.209325530E-02,  -9.261491620E-06,  -3.139279890E-09,
-             2.925697880E-12,  -5.593036760E+03,  -2.833808710E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             1.307876640E+01,  -1.203119460E-02,   2.139494100E-05,  -1.136363310E-08,
-             2.029340940E-12,  -9.102990380E+03,  -6.803188270E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[4.90039015E-01, 2.20932553E-02, -9.26149163E-06, -3.13927989E-09, 2.92569788E-12, -5.59423948E+03, -2.83380870E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.30787664E+01, -1.20311946E-02, 2.13949410E-05, -1.13636331E-08, 2.02934094E-12, -9.10419311E+03, -6.80318827E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -856,7 +737,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.850 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -2.02766 eV, gamma_N(X) = 0.333.""",
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.40192 eV, gamma_N(X) = 0.333.""",
 )
 
 entry(
@@ -872,12 +753,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             7.251785550E-01,   2.128262430E-02,  -2.340814270E-05,   1.470287460E-08,
-             -3.898541210E-12,   2.523923310E+03,  -4.111146940E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             9.381583770E+00,  -6.590227470E-03,   1.176829060E-05,  -6.281809660E-09,
-             1.126156350E-12,   3.196977850E+02,  -4.788412020E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[7.25178555E-01, 2.12826243E-02, -2.34081427E-05, 1.47028746E-08, -3.89854468E-12, 2.52272059E+03, -4.11114694E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.38157685E+00, -6.59021782E-03, 1.17682807E-05, -6.28180522E-09, 1.12615562E-12, 3.18498804E+02, -4.78840793E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -885,7 +762,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.660 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.83916 eV, gamma_N(X) = 0.333.""",
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.21342 eV, gamma_N(X) = 0.333.""",
 )
 
 entry(
@@ -902,12 +779,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             4.575824640E-01,   2.082278460E-02,  -1.316662000E-05,   2.487779750E-09,
-             6.586814430E-13,  -5.313736880E+03,  -3.129385580E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             1.123346490E+01,  -9.613921010E-03,   1.716616220E-05,  -9.170601990E-09,
-             1.645104190E-12,  -8.264883000E+03,  -5.865670810E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[4.57582464E-01, 2.08227846E-02, -1.31666200E-05, 2.48777975E-09, 6.58681443E-13, -5.31493961E+03, -3.12938558E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.12334649E+01, -9.61392101E-03, 1.71661622E-05, -9.17060199E-09, 1.64510419E-12, -8.26608573E+03, -5.86567081E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -915,7 +788,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -3.050 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -3.39942 eV, gamma_N(X) = 0.667.""",
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.14794 eV, gamma_N(X) = 0.667.""",
 )
 
 # entry(
@@ -957,12 +830,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -1.734306970E+00,   1.898554710E-02,  -3.235636610E-05,   2.592698900E-08,
-             -7.991024510E-12,   6.363859220E+03,   6.254450290E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             2.821925480E+00,  -6.611677530E-04,   1.241794400E-06,  -7.039894500E-10,
-             1.322758700E-13,   5.464681900E+03,  -1.552508610E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-1.73430697E+00, 1.89855471E-02, -3.23563661E-05, 2.59269890E-08, -7.99102104E-12, 6.36385922E+03, 6.25445028E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[2.82193241E+00, -6.61177416E-04, 1.24180431E-06, -7.03993893E-10, 1.32276605E-13, 5.46467816E+03, -1.55251271E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -985,12 +854,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             2.222827940E-01,   1.969086000E-02,  -3.076268160E-05,   2.359374390E-08,
-             -7.124384420E-12,   2.428422350E+04,  -3.036351130E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             5.607597960E+00,  -1.419218560E-03,   2.634098110E-06,  -1.478306560E-09,
-             2.756497440E-13,   2.310969350E+04,  -2.931776010E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[2.22282794E-01, 1.96908600E-02, -3.07626817E-05, 2.35937440E-08, -7.12438442E-12, 2.42830208E+04, -3.03635113E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[5.60759796E+00, -1.41921856E-03, 2.63409811E-06, -1.47830656E-09, 2.75649745E-13, 2.31084908E+04, -2.93177601E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1014,12 +879,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -2.047857060E+00,   3.381486540E-02,  -4.457753000E-05,   3.083182790E-08,
-             -8.569006620E-12,  -2.280275200E+03,   6.644690480E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             9.428317660E+00,  -6.481254180E-03,   1.158799710E-05,  -6.194951640E-09,
-             1.112190750E-12,  -5.009777060E+03,  -5.049459950E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-2.04785706E+00, 3.38148654E-02, -4.45775300E-05, 3.08318279E-08, -8.56901355E-12, -2.28268064E+03, 6.64469050E+000], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.42830381E+00, -6.48123487E-03, 1.15879773E-05, -6.19494276E-09, 1.11218928E-12, -5.01217502E+03, -5.04945175E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1044,12 +905,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             1.576031040E-01,   2.342934130E-02,  -1.866836610E-05,   7.292343700E-09,
-             -8.790086710E-13,  -1.125115070E+04,  -1.735822780E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             1.130503360E+01,  -9.406229300E-03,   1.679356780E-05,  -8.969014990E-09,
-             1.608556210E-12,  -1.423361380E+04,  -5.883637900E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.57603104E-01, 2.34293413E-02, -1.86683661E-05, 7.29234370E-09, -8.79008671E-13, -1.12523534E+04, -1.73582278E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.13050336E+01, -9.40622931E-03, 1.67935678E-05, -8.96901500E-09, 1.60855621E-12, -1.42348165E+04, -5.88363790E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1071,12 +928,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -3.009507790E+00,   3.021933410E-02,  -4.995462940E-05,   3.994784640E-08,
-             -1.230215580E-11,  -3.133538590E+03,   1.123144640E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             4.884827150E+00,  -2.708470840E-03,   4.846491090E-06,  -2.585140890E-09,
-             4.631810530E-13,  -4.750831740E+03,  -2.678711450E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-3.00950779E+00, 3.02193341E-02, -4.99546294E-05, 3.99478464E-08, -1.23021593E-11, -3.13353859E+03, 1.12314464E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[4.88482023E+00, -2.70846119E-03, 4.84648118E-06, -2.58513645E-09, 4.63180319E-13, -4.75082800E+03, -2.67870735E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1101,12 +954,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -1.688980570E+00,   3.528312630E-02,  -4.975784930E-05,   3.621761990E-08,
-             -1.045886290E-11,   2.158866520E+02,   6.752389050E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             9.571818320E+00,  -5.980766930E-03,   1.067377820E-05,  -5.688381210E-09,
-             1.018604960E-12,  -2.375834770E+03,  -4.888707440E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-1.68898057E+00, 3.52831263E-02, -4.97578493E-05, 3.62176199E-08, -1.04588699E-11, 2.14683932E+02, 6.75238906E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.57180447E+00, -5.98074762E-03, 1.06737584E-05, -5.68837233E-09, 1.01860349E-12, -2.37703001E+03, -4.88869924E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1130,12 +979,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             1.111802820E+00,   2.490616590E-02,  -3.964044010E-05,   3.239148690E-08,
-             -1.019758240E-11,   2.121358700E+04,   4.054766510E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             8.553285930E+00,  -4.891489680E-03,   8.553175480E-06,  -4.413048920E-09,
-             7.695103000E-13,   1.961410850E+04,  -3.212192450E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.11180282E+00, 2.49061659E-02, -3.96404401E-05, 3.23914869E-08, -1.01975824E-11, 2.12123842E+04, 4.05476651E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[8.55328593E+00, -4.89148968E-03, 8.55317549E-06, -4.41304892E-09, 7.69510301E-13, 1.96129058E+04, -3.21219245E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1159,12 +1004,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -2.266023670E+00,   2.925177650E-02,  -4.327287970E-05,   3.306557230E-08,
-             -9.932426410E-12,  -2.236194450E+02,   8.227512880E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             6.825726350E+00,  -5.171925050E-03,   9.195519380E-06,  -4.871014860E-09,
-             8.677130910E-13,  -2.268866210E+03,  -3.644107520E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-2.26602367E+00, 2.92517765E-02, -4.32728797E-05, 3.30655723E-08, -9.93242641E-12, -2.23619445E+02, 8.22751288E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[6.82572636E+00, -5.17192506E-03, 9.19551938E-06, -4.87101486E-09, 8.67713091E-13, -2.26886621E+03, -3.64410753E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1191,12 +1032,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -2.397376040E+00,   3.731943530E-02,  -3.731407020E-05,   1.984351090E-08,
-             -4.158833000E-12,  -8.089853170E+03,   9.523838100E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             1.325998030E+01,  -1.178742920E-02,   2.100171070E-05,  -1.118234380E-08,
-             2.000748970E-12,  -1.210782360E+04,  -6.988231750E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-2.39737604E+00, 3.73194353E-02, -3.73140702E-05, 1.98435109E-08, -4.15883994E-12, -8.09105589E+03, 9.52383811E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.32599664E+01, -1.17874099E-02, 2.10016909E-05, -1.11823349E-08, 2.00074750E-12, -1.21090188E+04, -6.98822356E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1220,12 +1057,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             5.800998770E-01,   1.663999770E-02,  -1.391648700E-05,   6.706315820E-09,
-             -1.310788280E-12,  -6.309266590E+03,  -7.571483820E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             8.678705730E+00,  -7.842393860E-03,   1.389561760E-05,  -7.336006350E-09,
-             1.303215040E-12,  -8.449598310E+03,  -4.209672320E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[5.80099877E-01, 1.66399977E-02, -1.39164870E-05, 6.70631582E-09, -1.31079175E-12, -6.31046932E+03, -7.57148375E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[8.67869881E+00, -7.84238420E-03, 1.38956076E-05, -7.33600190E-09, 1.30321431E-12, -8.45079729E+03, -4.20966823E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1253,12 +1086,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             3.199748510E+00,   7.938417190E-03,   2.694131640E-05,  -3.534537030E-08,
-             1.322078210E-11,  -1.457835120E+04,  -1.679527050E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             1.591696090E+01,  -1.756168600E-02,   3.122554630E-05,  -1.658749690E-08,
-             2.961569650E-12,  -1.861121440E+04,  -6.985675090E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[3.19974851E+00, 7.93841719E-03, 2.69413164E-05, -3.53453703E-08, 1.32207821E-11, -1.45807566E+04, -1.67952705E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.59169609E+01, -1.75616860E-02, 3.12255463E-05, -1.65874969E-08, 2.96156965E-12, -1.86136199E+04, -6.98567509E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1284,12 +1113,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             5.262470020E+00,  -7.427034130E-03,   3.364723360E-05,  -3.294011500E-08,
-             1.102592580E-11,  -1.160383200E+04,  -1.009205410E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             9.549811810E+00,  -1.037194280E-02,   1.831835610E-05,  -9.633330270E-09,
-             1.705585500E-12,  -1.327172180E+04,  -3.453745770E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[5.26247002E+00, -7.42703413E-03, 3.36472336E-05, -3.29401150E-08, 1.10259250E-11, -1.16038320E+04, -1.00920541E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.54981008E+00, -1.03719404E-02, 1.83183536E-05, -9.63332916E-09, 1.70558531E-12, -1.32717208E+04, -3.45374475E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1313,12 +1138,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             4.117599990E+00,   2.619254580E-03,  -2.385972420E-06,   1.993708990E-09,
-             -8.124100350E-13,   7.239716470E+03,  -1.736311380E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             5.524181070E+00,  -1.468837310E-03,   2.673570050E-06,  -1.464548470E-09,
-             2.678157720E-13,   6.839186390E+03,  -2.463841500E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[4.11759999E+00, 2.61925458E-03, -2.38597242E-06, 1.99370899E-09, -8.12410469E-13, 7.23851375E+03, -1.73631138E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[5.52418021E+00, -1.46883611E-03, 2.67356881E-06, -1.46454792E-09, 2.67815680E-13, 6.83798413E+03, -2.46384099E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1341,12 +1162,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             2.594969490E+00,   1.650891770E-02,  -2.539744080E-05,   2.024680050E-08,
-             -6.321037440E-12,  -2.382888560E+03,  -1.158838360E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             7.619047260E+00,  -2.921867970E-03,   5.154785750E-06,  -2.695250540E-09,
-             4.754949230E-13,  -3.499442720E+03,  -3.619059370E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[2.59496949E+00, 1.65089177E-02, -2.53974408E-05, 2.02468005E-08, -6.32103397E-12, -2.38409128E+03, -1.15883837E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[7.61905419E+00, -2.92187763E-03, 5.15479567E-06, -2.69525498E-09, 4.75495658E-13, -3.50064919E+03, -3.61906347E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1370,12 +1187,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             1.530875380E+00,   2.162308060E-02,  -2.713296490E-05,   1.849380210E-08,
-             -5.093057920E-12,  -1.036861660E+04,  -8.384684160E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             9.404684800E+00,  -5.413275340E-03,   9.516934000E-06,  -4.959469070E-09,
-             8.728609050E-13,  -1.227074700E+04,  -4.773734890E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.53087538E+00, 2.16230806E-02, -2.71329649E-05, 1.84938021E-08, -5.09305792E-12, -1.03698193E+04, -8.38468416E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.40468481E+00, -5.41327535E-03,9.51693401E-06, -4.95946907E-09, 8.72860901E-13, -1.22719497E+04, -4.77373490E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1397,12 +1210,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             2.701122720E+00,   8.766501660E-03,  -1.295124180E-05,   1.041945940E-08,
-             -3.397003160E-12,  -4.064376250E+04,  -1.287305120E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             5.528212260E+00,  -1.526317370E-03,   2.797923910E-06,  -1.545503510E-09,
-             2.845235910E-13,  -4.131922900E+04,  -2.691571840E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[2.70112272E+00, 8.76650166E-03, -1.29512418E-05, 1.04194594E-08, -3.39700490E-12, -3.49476634E+04, -1.28730512E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[5.52820880E+00, -1.52631254E-03, 2.79791895E-06, -1.54550129E-09, 2.84523223E-13, -3.56231280E+04, -2.69156979E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1425,12 +1234,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             8.634377440E-01,   2.148060540E-02,  -3.000095250E-05,   2.117290110E-08,
-             -5.909234910E-12,  -3.669519900E+04,  -5.107497320E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             7.594790560E+00,  -3.068473820E-03,   5.435926470E-06,  -2.864635600E-09,
-             5.091492240E-13,  -3.823859790E+04,  -3.836747930E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[8.63437744E-01, 2.14806054E-02, -3.00009525E-05, 2.11729011E-08, -5.90923491E-12, -3.09990999E+04, -5.10749731E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[7.59479056E+00, -3.06847382E-03, 5.43592647E-06, -2.86463560E-09, 5.09149225E-13, -3.25424988E+04, -3.83674793E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1456,12 +1261,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -3.717415240E+00,   4.456392320E-02,  -5.866221190E-05,   4.058802560E-08,
-             -1.125848030E-11,  -2.986009480E+03,   1.370561240E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             1.148266010E+01,  -8.876450790E-03,   1.585906870E-05,  -8.470882520E-09,
-             1.519445910E-12,  -6.597182870E+03,  -6.195456650E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-3.71741524E+00, 4.45639232E-02, -5.86622119E-05, 4.05880256E-08, -1.12584803E-11, -2.98721220E+03, 1.37056124E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.14826601E+01, -8.87645080E-03, 1.58590687E-05, -8.47088253E-09, 1.51944591E-12, -6.59838559E+03, -6.19545665E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1488,12 +1289,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -3.107042530E-01,   2.316700050E-02,  -5.713979370E-06,  -7.481218870E-09,
-             4.466479270E-12,  -1.029405160E+04,   6.880783850E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             1.409152890E+01,  -1.476228650E-02,   2.628613620E-05,  -1.398947660E-08,
-             2.501675250E-12,  -1.437832120E+04,  -6.801646900E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[6.32861243E-01, 2.34315125E-02, -6.21561097E-06, -7.04743109E-09, 4.32504726E-12, -1.03526448E+04, -4.22788616E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.50901779E+01, -1.47664787E-02, 2.62942501E-05, -1.39941239E-08, 2.50255356E-12, -1.44464142E+04, -7.55761454E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1501,8 +1298,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.750 eV.
-            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.06163 eV, gamma_C(X) = 0.250.
-            The two lowest frequencies, 18.6 and 76.6 cm-1, where replaced by the 2D gas model.""",
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.06163 eV, gamma_C(X) = 0.250.""",
 )
 
 entry(
@@ -1519,12 +1315,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -3.225764610E-01,   2.088075190E-02,  -1.296916540E-05,   1.296828000E-09,
-             1.405944810E-12,   3.665139400E+03,   6.825006960E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             1.027049470E+01,  -9.061706980E-03,   1.610744870E-05,  -8.551186370E-09,
-             1.526732760E-12,   7.889389920E+02,  -4.769270980E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-3.22576461E-01, 2.08807519E-02, -1.29691654E-05, 1.29682800E-09, 1.40594827E-12, 3.66393668E+03, 6.82500696E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.02705016E+01, -9.06171664E-03, 1.61074586E-05, -8.55119082E-09, 1.52673350E-12, 7.87732523E+02, -4.76927508E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1551,12 +1343,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -4.505110660E-01,   2.595035850E-02,  -2.005819370E-05,   7.122848120E-09,
-             -4.601839740E-13,  -9.978755620E+03,   7.092621040E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             1.207763590E+01,  -1.109003320E-02,   1.958896350E-05,  -1.029604420E-08,
-             1.823795900E-12,  -1.330449870E+04,  -5.699663650E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[4.94472063E-01, 2.62082323E-02, -2.05472442E-05, 7.54576090E-09, -5.98066735E-13, -1.00349448E+04, -1.63394338E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.30763281E+01, -1.10941325E-02, 1.95968859E-05, -1.03005801E-08, 1.82465302E-12, -1.33699538E+04, -6.45023766E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1564,8 +1352,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.980 eV.
-            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.29283 eV, gamma_C(X) = 0.250.
-            The two lowest frequencies, 17.2 and 75.9 cm-1, where replaced by the 2D gas model.""",
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.29283 eV, gamma_C(X) = 0.250.""",
 )
 
 entry(
@@ -1581,12 +1368,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -7.308579970E-01,   2.294062590E-02,  -2.431842600E-05,   1.392981890E-08,
-             -3.269162720E-12,  -2.642065330E+04,   7.872241010E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             8.531231470E+00,  -6.493436800E-03,   1.163379150E-05,  -6.243796770E-09,
-             1.124208670E-12,  -2.878505430E+04,  -3.902385670E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[4.87258154E+00, -3.80708439E-03, 2.29126729E-05, -2.34870004E-08, 7.95457450E-12, -2.09616356E+04, -1.09618928E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[8.42973399E+00, -6.84404724E-03, 1.22430399E-05, -6.56317791E-09, 1.18019535E-12, -2.23198421E+04, -3.11097315E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1611,12 +1394,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -2.459939070E-01,   2.289047240E-02,  -1.870793910E-05,   6.934422500E-09,
-             -5.294722990E-13,  -3.501905430E+04,   6.342284080E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             1.032046890E+01,  -8.548569300E-03,   1.514850330E-05,  -8.002387830E-09,
-             1.423474530E-12,  -3.780786390E+04,  -4.764673480E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[6.90559347E-01, 2.31880081E-02, -1.92723889E-05, 7.42264515E-09, -6.88671342E-13, -3.54054895E+04, -1.78049680E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.13189670E+01, -8.55328894E-03, 1.51576215E-05, -8.00760803E-09, 1.42446093E-12, -3.82049819E+04, -5.60575095E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1624,8 +1403,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.890 eV.
-            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.19820 eV, gamma_C(X) = 0.250.
-            The two lowest frequencies, 44.2 and 70.8 cm-1, where replaced by the 2D gas model.""",
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.19820 eV, gamma_C(X) = 0.250.""",
 )
 
 entry(
@@ -1642,12 +1420,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -8.027196090E-01,   2.772321130E-02,  -3.318227800E-05,   2.125961760E-08,
-             -5.542573340E-12,   2.082287050E+03,   1.564258850E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             9.433404420E+00,  -6.492223650E-03,   1.160241250E-05,  -6.201496760E-09,
-             1.113161470E-12,  -4.402180300E+02,  -4.983152020E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-8.02719609E-01, 2.77232113E-02, -3.31822780E-05, 2.12596176E-08, -5.54256988E-12, 2.08108433E+03, 1.56425884E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.43341136E+00, -6.49223331E-03, 1.16024225E-05, -6.20150120E-09, 1.11316221E-12, -4.41424500E+02, -4.98315612E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1673,12 +1447,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -3.223188660E+00,   4.083795160E-02,  -5.082181840E-05,   3.338936560E-08,
-             -8.818806800E-12,  -2.399461220E+03,   1.163075000E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             1.133478410E+01,  -8.906917800E-03,   1.586267500E-05,  -8.435108140E-09,
-             1.508070290E-12,  -5.922420680E+03,  -6.116976830E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-3.22318867E+00, 4.08379516E-02, -5.08218184E-05, 3.33893656E-08, -8.81880680E-12, -2.40066395E+03, 1.16307500E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.13347841E+01, -8.90691781E-03, 1.58626750E-05, -8.43510814E-09, 1.50807029E-12, -5.92362341E+03, -6.11697683E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1705,12 +1475,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             7.905759400E-01,   1.658523240E-02,   6.481844370E-06,  -1.792981560E-08,
-             7.876740930E-12,  -1.510000630E+04,   2.425874390E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             1.377296490E+01,  -1.467982200E-02,   2.600997950E-05,  -1.374255770E-08,
-             2.444013230E-12,  -1.891951550E+04,  -6.578987570E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[7.90575940E-01, 1.65852324E-02, 6.48184437E-06, -1.79298156E-08, 7.87674440E-12, -1.51012090E+04, 2.42587438E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.37729719E+01, -1.46798316E-02, 2.60099894E-05, -1.37425622E-08, 2.44401396E-12, -1.89207219E+04, -6.57899167E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1737,12 +1503,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             2.705067260E+00,   1.009135940E-02,   1.002606800E-05,  -1.809096030E-08,
-             7.445396730E-12,  -3.665965680E+04,  -4.481359600E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             1.215394940E+01,  -1.131734600E-02,   2.003420860E-05,  -1.057240900E-08,
-             1.878528130E-12,  -3.950649720E+04,  -5.446175640E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[2.70506726E+00, 1.00913594E-02, 1.00260680E-05, -1.80909603E-08, 7.44539499E-12, -3.09647604E+04, -4.48135960E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.21539459E+01, -1.13173411E-02, 2.00342036E-05, -1.05724068E-08, 1.87852776E-12, -3.38115989E+04, -5.44617359E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1767,12 +1529,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             5.411705530E-02,   2.527009210E-02,  -3.758039330E-05,   2.829108830E-08,
-             -8.395763250E-12,   1.424965930E+04,  -1.637663870E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             7.622943620E+00,  -3.433215320E-03,   6.147708550E-06,  -3.289316720E-09,
-             5.910207600E-13,   1.255419690E+04,  -3.880190340E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[5.41170551E-02, 2.52700921E-02, -3.75803933E-05, 2.82910883E-08, -8.39575978E-12, 1.42484565E+04, -1.63766387E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[7.62295055E+00, -3.43322498E-03, 6.14771846E-06, -3.28932116E-09, 5.91021494E-13, 1.25529905E+04, -3.88019444E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1829,12 +1587,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -2.391951440E-01,   2.719653020E-02,  -1.964795900E-05,   6.179256460E-09,
-             -1.846647830E-13,  -5.605760840E+03,   2.672252250E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             1.327146290E+01,  -1.196496780E-02,   2.134106240E-05,  -1.138274200E-08,
-             2.039152210E-12,  -9.252940800E+03,  -6.909606150E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-2.39195145E-01, 2.71965302E-02, -1.96479590E-05, 6.17925647E-09, -1.84661314E-13, -5.60696357E+03, 2.67225219E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.32714698E+01, -1.19649775E-02, 2.13410724E-05, -1.13827464E-08, 2.03915294E-12, -9.25414727E+03, -6.90961026E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1857,12 +1611,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             1.178891710E+00,   1.616396900E-02,  -2.316379570E-05,   1.788946610E-08,
-             -5.510675250E-12,   1.102181430E+04,   1.945856020E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             6.543195090E+00,  -3.515497520E-03,   6.263834440E-06,  -3.328035220E-09,
-             5.943591820E-13,   9.771402650E+03,  -2.634881610E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.17889171E+00, 1.61639690E-02, -2.31637957E-05, 1.78894661E-08, -5.51067178E-12, 1.10206116E+04, 1.94585596E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[6.54320202E+00, -3.51550718E-03, 6.26384435E-06, -3.32803966E-09, 5.94359917E-13, 9.77019618E+03, -2.63488571E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1887,12 +1637,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             2.459012910E-02,   2.361209760E-02,  -3.372158490E-05,   2.509590790E-08,
-             -7.463089170E-12,   3.557101540E+03,  -1.502255220E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             7.529791770E+00,  -3.890044330E-03,   6.995371940E-06,  -3.767463920E-09,
-             6.802660360E-13,   1.817823810E+03,  -3.861740290E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[2.45901289E-02, 2.36120976E-02, -3.37215849E-05, 2.50959079E-08, -7.46308917E-12, 3.55589882E+03, -1.50225522E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[7.52979178E+00, -3.89004433E-03, 6.99537195E-06, -3.76746392E-09, 6.80266036E-13, 1.81662108E+03, -3.86174029E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1916,12 +1662,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -1.356007840E-01,   2.098224740E-02,  -2.215982660E-05,   1.265740390E-08,
-             -2.926162780E-12,   1.033631440E+02,   5.896116550E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             8.399838370E+00,  -6.239002210E-03,   1.109274530E-05,  -5.886085600E-09,
-             1.050565380E-12,  -2.065115050E+03,  -3.728266340E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[8.05598404E-01, 2.12578896E-02, -2.26826133E-05, 1.31095137E-08, -3.07357265E-12, 4.10897731E+01, -1.71828775E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.39843610E+00, -6.24337353E-03, 1.11012002E-05, -5.89092739E-09, 1.05148038E-12, -2.13728786E+03, -4.51639342E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1929,8 +1671,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -2.220 eV.
-            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.52691 eV, gamma_C(X) = 0.250.
-            The two lowest frequencies, 26.9 and 75.8 cm-1, where replaced by the 2D gas model.""",
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.52691 eV, gamma_C(X) = 0.250.""",
 )
 
 entry(
@@ -1947,12 +1688,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -1.132399460E+00,   2.984842440E-02,  -3.781457760E-05,   2.536169760E-08,
-             -6.863072610E-12,  -3.167158400E+03,   3.301131430E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             9.378289670E+00,  -6.300488330E-03,   1.122034070E-05,  -5.964280120E-09,
-             1.066210440E-12,  -5.702726090E+03,  -4.921301150E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-1.13239946E+00, 2.98484244E-02, -3.78145776E-05, 2.53616976E-08, -6.86307261E-12, -3.16836112E+03, 3.30113143E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.37828967E+00, -6.30048833E-03, 1.12203407E-05, -5.96428012E-09, 1.06621044E-12, -5.70392882E+03, -4.92130115E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1977,12 +1714,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -5.135490730E-01,   2.376096790E-02,  -2.137545260E-05,   1.003752310E-08,
-             -1.735549200E-12,  -7.292342490E+03,   7.328192300E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             1.015096690E+01,  -8.744972720E-03,   1.546946520E-05,  -8.147180780E-09,
-             1.445661600E-12,  -1.007559350E+04,  -4.698992690E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[4.11835944E-01, 2.41104719E-02, -2.20379983E-05, 1.06103035E-08, -1.92226443E-12, -7.35704782E+03, -2.41270253E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.11491706E+01, -8.75052593E-03, 1.54802187E-05, -8.15334058E-09, 1.44682582E-12, -1.01528629E+04, -5.48979853E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -1990,8 +1723,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -2.670 eV.
-            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 0.70666 eV, gamma_C(X) = 0.500.
-            The two lowest frequencies, 23.1 and 87.8 cm-1, where replaced by the 2D gas model.""",
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 0.70666 eV, gamma_C(X) = 0.500.""",
 )
 
 entry(
@@ -2006,12 +1738,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             9.927701340E-01,   1.284824150E-02,  -1.297070810E-05,   7.576700380E-09,
-             -1.938811960E-12,  -3.368260580E+04,   1.211895310E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             6.492590290E+00,  -4.185694750E-03,   7.538090580E-06,  -4.074419300E-09,
-             7.376251320E-13,  -3.512423160E+04,  -2.678538220E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.94156388E+00, 1.30882912E-02, -1.34260003E-05, 7.97044677E-09, -2.06719711E-12, -2.80413711E+04, -5.97802577E+0], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[7.49136303E+00, -4.18949199E-03, 7.54544313E-06, -4.07863095E-09, 7.38421146E-13, -2.94916141E+04, -3.42076640E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -2019,8 +1747,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -2.210 eV.
-            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.52049 eV, gamma_C(X) = 0.250.
-            The two lowest frequencies, 17.0 and 73.1 cm-1, where replaced by the 2D gas model.""",
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.52049 eV, gamma_C(X) = 0.250.""",
 )
 
 entry(
@@ -2036,12 +1763,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -7.632291900E-02,   2.348181040E-02,  -3.175564410E-05,   2.223475610E-08,
-             -6.256505730E-12,  -3.012025100E+04,  -1.423512910E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             7.611722790E+00,  -3.810521400E-03,   6.869397080E-06,  -3.715857560E-09,
-             6.733529070E-13,  -3.193546280E+04,  -3.963310010E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-7.63229192E-02, 2.34818104E-02, -3.17556441E-05, 2.22347561E-08, -6.25650920E-12, -2.44241519E+04, -1.42351290E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[7.61171587E+00, -3.81051175E-03, 6.86938717E-06, -3.71585312E-09, 6.73352174E-13, -2.62393600E+04, -3.96330591E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -2065,12 +1788,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             -4.360428400E-01,   2.005075040E-02,  -1.770431820E-05,   7.498273420E-09,
-             -9.939896130E-13,  -3.192012940E+04,   7.321894120E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             8.396770470E+00,  -6.556646770E-03,   1.170042670E-05,  -6.246003570E-09,
-             1.120126310E-12,  -3.423757970E+04,  -3.773509730E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[4.68649725E-01, 2.04972050E-02, -1.85506813E-05, 8.22998468E-09, -1.23251062E-12, -2.63024443E+04, -9.21769145E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.39449002E+00, -6.56375678E-03, 1.17141780E-05, -6.25387815E-09, 1.12161443E-12, -2.86359494E+04, -4.64113344E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
@@ -2078,8 +1797,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -2.960 eV.
-            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 0.42191 eV, gamma_C(X) = 0.500.
-            The two lowest frequencies, 46.4 and 91.5 cm-1, where replaced by the 2D gas model.""",
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 0.42191 eV, gamma_C(X) = 0.500.""",
 )
 
 entry(
@@ -2096,12 +1814,8 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[
-             1.02400610E-01, 2.37197512E-02, -2.57930815E-05, 1.52033151E-08, 
-             -3.68397327E-12, -2.71157474E+04, -4.98129327E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[
-             9.52719632E+00, -6.50602819E-03, 1.16581384E-05, -6.25773731E-09, 
-             1.12684291E-12,-2.95082935E+04, -4.81511621E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.02400610E-01, 2.37197512E-02, -2.57930815E-05, 1.52033151E-08, -3.68397327E-12, -2.14196483E+04, -4.98129327E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.52719632E+00, -6.50602819E-03, 1.16581384E-05, -6.25773731E-09, 1.12684291E-12, -2.38121944E+04, -4.81511621E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
         ],
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
