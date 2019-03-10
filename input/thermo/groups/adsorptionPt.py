@@ -48,14 +48,14 @@ R*bidentate or R*single_chemisorbed and thus not R*vdW.
 #""",
 #    thermo=ThermoData(
 #        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-#        Cpdata=([-3.01, -1.78, -0.96, -0.41, 0.23, 0.56, 0.91], 'cal/(mol*K)'),
-#        H298=(-86.29, 'kcal/mol'),
+#        Cpdata=([-2.46, -1.45, -0.78, -0.33, 0.18, 0.46, 0.74], 'cal/(mol*K)'),
+#        H298=(-86.31, 'kcal/mol'),
 #        S298=(-26.39, 'cal/(mol*K)'),
 #    ),
 #    shortDesc=u"""Came from H single-bonded on Pt(111)""",
 #    longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
-#            DFT binding energy: -0.240 eV.
-#            Linear scaling parameters: ref_adatom_H = -0.240 eV, psi = 0.00000 eV, gamma_H(X) = 1.000.
+#            DFT binding energy: -2.479 eV.
+#            Linear scaling parameters: ref_adatom_H = -2.479 eV, psi = 0.00000 eV, gamma_H(X) = 1.000.
 #
 #   R
 #   |
@@ -76,14 +76,14 @@ R*bidentate or R*single_chemisorbed and thus not R*vdW.
 # """,
 #     thermo=ThermoData(
 #         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-#         Cpdata=([1.13, 1.17, 1.19, 1.2, 1.21, 1.21, 1.22], 'cal/(mol*K)'),
+#         Cpdata=([0.92, 0.95, 0.97, 0.98, 0.98, 0.99, 0.99], 'cal/(mol*K)'),
 #         H298=(-1.22, 'kcal/mol'),
 #         S298=(-7.73, 'cal/(mol*K)'),
 #     ),
 #     shortDesc=u"""Came from H2 vdW-bonded on Pt(111)""",
 #     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
 #             DFT binding energy: -0.054 eV.
-#             Linear scaling parameters: ref_adatom_H = -0.240 eV, psi = -0.05448 eV, gamma_H(X) = 0.000.
+#             Linear scaling parameters: ref_adatom_H = -2.479 eV, psi = -0.05448 eV, gamma_H(X) = 0.000.
 #             The two lowest frequencies, 14.0 and 24.4 cm-1, where replaced by the 2D gas model.
 
 #   R-R
@@ -104,14 +104,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0.88, 1.49, 1.82, 2.02, 2.22, 2.33, 2.43], 'cal/(mol*K)'),
-        H298=(-4.85, 'kcal/mol'),
+        Cpdata=([0.71, 1.22, 1.49, 1.65, 1.81, 1.9, 1.98], 'cal/(mol*K)'),
+        H298=(6.47, 'kcal/mol'),
         S298=(-22.53, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2O vdW-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.189 eV.
-            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = -0.18932 eV, gamma_O(X) = 0.000.
+            Linear scaling parameters: ref_adatom_O = -3.586 eV, psi = -0.18932 eV, gamma_O(X) = 0.000.
             The two lowest frequencies, 49.5 and 68.6 cm-1, where replaced by the 2D gas model.
 
  RO-R
@@ -131,14 +131,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.34, 2.23, 2.7, 2.97, 3.25, 3.38, 3.5], 'cal/(mol*K)'),
-        H298=(-46.18, 'kcal/mol'),
+        Cpdata=([1.09, 1.82, 2.2, 2.42, 2.65, 2.75, 2.86], 'cal/(mol*K)'),
+        H298=(-34.86, 'kcal/mol'),
         S298=(-33.89, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from OH single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.970 eV.
-            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = -1.45958 eV, gamma_O(X) = 0.500.
+            Linear scaling parameters: ref_adatom_O = -3.586 eV, psi = -0.18039 eV, gamma_O(X) = 0.500.
 
    R
    |
@@ -161,14 +161,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.85, 2.13, 2.27, 2.35, 2.45, 2.51, 2.57], 'cal/(mol*K)'),
-        H298=(-6.72, 'kcal/mol'),
+        Cpdata=([1.51, 1.74, 1.85, 1.92, 2.0, 2.05, 2.1], 'cal/(mol*K)'),
+        H298=(15.92, 'kcal/mol'),
         S298=(-26.31, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HO-OH vdW-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.286 eV.
-            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = -0.28574 eV, gamma_O(X) = 0.000.
+            Linear scaling parameters: ref_adatom_O = -3.586 eV, psi = -0.28574 eV, gamma_O(X) = 0.000.
             The two lowest frequencies, 10.6 and 50.4 cm-1, where replaced by the 2D gas model.
 
  RO-OR
@@ -189,14 +189,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([2.43, 3.46, 3.9, 4.05, 4.07, 4.0, 3.85], 'cal/(mol*K)'),
-        H298=(-8.59, 'kcal/mol'),
+        Cpdata=([1.98, 2.83, 3.18, 3.31, 3.32, 3.26, 3.14], 'cal/(mol*K)'),
+        H298=(14.04, 'kcal/mol'),
         S298=(-40.49, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from O2 bidentate, twice single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.347 eV.
-            Linear scaling parameters: ref_adatom_O1 = -1.030 eV, ref_adatom_O2 = -1.030 eV, psi = 0.68107 eV, gamma_O1(X) = 0.500, gamma_O2(X) = 0.500.
+            Linear scaling parameters: ref_adatom_O1 = -3.586 eV, ref_adatom_O2 = -3.586 eV, psi = 3.23943 eV, gamma_O1(X) = 0.500, gamma_O2(X) = 0.500.
 
    O--O
    |  |
@@ -216,15 +216,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([2.69, 3.13, 3.18, 3.12, 2.92, 2.76, 2.56], 'cal/(mol*K)'),
-        H298=(-17.47, 'kcal/mol'),
-        S298=(-31.56, 'cal/(mol*K)'),
+        Cpdata=([4.16, 4.53, 4.58, 4.53, 4.37, 4.24, 4.07], 'cal/(mol*K)'),
+        H298=(5.63, 'kcal/mol'),
+        S298=(-36.35, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from OOH single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.742 eV.
-            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = -0.22813 eV, gamma_O(X) = 0.500.
-            The two lowest frequencies, 35.9 and 60.2 cm-1, where replaced by the 2D gas model.
+            Linear scaling parameters: ref_adatom_O = -3.586 eV, psi = 1.05105 eV, gamma_O(X) = 0.500.
 
    OR
    |
@@ -244,14 +243,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-0.39, 0.26, 0.58, 0.77, 0.96, 1.05, 1.14], 'cal/(mol*K)'),
-        H298=(-99.97, 'kcal/mol'),
+        Cpdata=([-0.31, 0.21, 0.48, 0.63, 0.78, 0.86, 0.93], 'cal/(mol*K)'),
+        H298=(-88.9, 'kcal/mol'),
         S298=(-30.95, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from O double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.030 eV.
-            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = 0.00000 eV, gamma_O(X) = 1.000.
+            Linear scaling parameters: ref_adatom_O = -3.586 eV, psi = 0.00000 eV, gamma_O(X) = 1.000.
 
    O
    ||
@@ -272,15 +271,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0.33, 1.18, 1.65, 1.93, 2.2, 2.32, 2.41], 'cal/(mol*K)'),
-        H298=(-16.75, 'kcal/mol'),
-        S298=(-33.37, 'cal/(mol*K)'),
+        Cpdata=([2.24, 2.94, 3.33, 3.56, 3.78, 3.87, 3.95], 'cal/(mol*K)'),
+        H298=(-24.64, 'kcal/mol'),
+        S298=(-35.75, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from O-NH2 single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.698 eV.
-            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = -0.18381 eV, gamma_O(X) = 0.500.
-            The two lowest frequencies, 10.3 and 64.1 cm-1, where replaced by the 2D gas model.
+            Linear scaling parameters: ref_adatom_O = -3.586 eV, psi = 1.09537 eV, gamma_O(X) = 0.500.
 
    NR2
    |
@@ -304,15 +302,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0.28, 0.58, 0.85, 1.08, 1.4, 1.61, 1.93], 'cal/(mol*K)'),
-        H298=(-32.28, 'kcal/mol'),
-        S298=(-34.6, 'cal/(mol*K)'),
+        Cpdata=([2.18, 2.44, 2.67, 2.86, 3.13, 3.3, 3.56], 'cal/(mol*K)'),
+        H298=(-20.55, 'kcal/mol'),
+        S298=(-40.61, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from O-CH3 single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.370 eV.
-            Linear scaling parameters: ref_adatom_O = -1.030 eV, psi = -0.85962 eV, gamma_O(X) = 0.500.
-            The two lowest frequencies, 64.2 and 66.3 cm-1, where replaced by the 2D gas model.
+            Linear scaling parameters: ref_adatom_O = -3.586 eV, psi = 0.41957 eV, gamma_O(X) = 0.500.
 
    CR3
    |
@@ -335,14 +332,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.23, 2.36, 3.08, 3.56, 4.11, 4.4, 4.69], 'cal/(mol*K)'),
+        Cpdata=([1.0, 1.92, 2.51, 2.9, 3.35, 3.59, 3.83], 'cal/(mol*K)'),
         H298=(-16.11, 'kcal/mol'),
         S298=(-32.0, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from NH3 vdW-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.673 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -0.67337 eV, gamma_N(X) = 0.000.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.67337 eV, gamma_N(X) = 0.000.
 
  R2N-R
     :
@@ -361,14 +358,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-1.05, 0.88, 2.07, 2.81, 3.6, 3.99, 4.4], 'cal/(mol*K)'),
+        Cpdata=([-0.86, 0.72, 1.69, 2.29, 2.94, 3.25, 3.59], 'cal/(mol*K)'),
         H298=(-48.33, 'kcal/mol'),
         S298=(-47.88, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from NH2 single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -2.030 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -2.20832 eV, gamma_N(X) = 0.333.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.58258 eV, gamma_N(X) = 0.333.
 
    NR2
    |
@@ -387,14 +384,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-2.14, -0.29, 0.86, 1.58, 2.37, 2.76, 3.18], 'cal/(mol*K)'),
+        Cpdata=([-1.74, -0.24, 0.7, 1.29, 1.93, 2.25, 2.6], 'cal/(mol*K)'),
         H298=(-80.92, 'kcal/mol'),
         S298=(-40.72, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from NH double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -3.440 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -3.79341 eV, gamma_N(X) = 0.667.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.54193 eV, gamma_N(X) = 0.667.
      
      NR
     ||        
@@ -412,14 +409,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-1.14, -0.25, 0.24, 0.52, 0.81, 0.96, 1.1], 'cal/(mol*K)'),
+        Cpdata=([-0.93, -0.2, 0.19, 0.42, 0.66, 0.78, 0.9], 'cal/(mol*K)'),
         H298=(-147.51, 'kcal/mol'),
         S298=(-32.92, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from N triple-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: 0.525 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = 0.00000 eV, gamma_N(X) = 1.000.
+            DFT binding energy: -4.352 eV.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 0.00000 eV, gamma_N(X) = 1.000.
 
     N
    |||
@@ -441,14 +438,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-0.44, 0.2, 0.73, 1.14, 1.69, 2.01, 2.35], 'cal/(mol*K)'),
-        H298=(-15.69, 'kcal/mol'),
+        Cpdata=([-0.36, 0.16, 0.59, 0.93, 1.37, 1.64, 1.92], 'cal/(mol*K)'),
+        H298=(-4.37, 'kcal/mol'),
         S298=(-32.2, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2N-OH vdW-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.654 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -0.65407 eV, gamma_N(X) = 0.000.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.65407 eV, gamma_N(X) = 0.000.
             The two lowest frequencies, 17.1 and 68.9 cm-1, where replaced by the 2D gas model.
 
  R2N-OR
@@ -469,14 +466,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-0.27, 0.8, 1.4, 1.72, 1.98, 2.06, 2.17], 'cal/(mol*K)'),
-        H298=(-30.08, 'kcal/mol'),
+        Cpdata=([-0.22, 0.65, 1.14, 1.4, 1.61, 1.68, 1.77], 'cal/(mol*K)'),
+        H298=(-18.76, 'kcal/mol'),
         S298=(-32.78, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HN-O vdW-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.270 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.26632 eV, gamma_N(X) = 0.000.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -1.26632 eV, gamma_N(X) = 0.000.
             The two lowest frequencies, 36.2 and 74.0 cm-1, where replaced by the 2D gas model.
 
   RN=O
@@ -498,14 +495,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([2.24, 3.32, 3.89, 4.22, 4.56, 4.73, 4.88], 'cal/(mol*K)'),
-        H298=(-32.32, 'kcal/mol'),
+        Cpdata=([1.82, 2.71, 3.18, 3.44, 3.72, 3.86, 3.98], 'cal/(mol*K)'),
+        H298=(-21.0, 'kcal/mol'),
         S298=(-45.51, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HN-OH single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.370 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.54570 eV, gamma_N(X) = 0.333.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 0.08004 eV, gamma_N(X) = 0.333.
 
  R-N-OR
    |
@@ -524,14 +521,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.81, 2.7, 3.19, 3.47, 3.71, 3.77, 3.75], 'cal/(mol*K)'),
-        H298=(-37.18, 'kcal/mol'),
+        Cpdata=([1.48, 2.2, 2.6, 2.83, 3.02, 3.07, 3.06], 'cal/(mol*K)'),
+        H298=(-25.86, 'kcal/mol'),
         S298=(-40.63, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from NO single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.580 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.75991 eV, gamma_N(X) = 0.333.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.13417 eV, gamma_N(X) = 0.333.
 
    O
    ||
@@ -553,14 +550,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0.05, 0.57, 0.86, 1.04, 1.2, 1.25, 1.26], 'cal/(mol*K)'),
-        H298=(-32.66, 'kcal/mol'),
+        Cpdata=([0.04, 0.46, 0.7, 0.85, 0.98, 1.02, 1.03], 'cal/(mol*K)'),
+        H298=(-21.34, 'kcal/mol'),
         S298=(-29.32, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from NO-h bidentate, double- and single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.390 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.73967 eV, gamma_N(X) = 0.667.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 1.51181 eV, gamma_N(X) = 0.667.
             The two lowest frequencies, -19.4 and 68.0 cm-1, where replaced by the 2D gas model.
 
    N--O
@@ -581,14 +578,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([2.65, 3.78, 4.29, 4.49, 4.55, 4.5, 4.48], 'cal/(mol*K)'),
-        H298=(-75.72, 'kcal/mol'),
+        Cpdata=([2.16, 3.09, 3.5, 3.66, 3.71, 3.67, 3.65], 'cal/(mol*K)'),
+        H298=(-64.4, 'kcal/mol'),
         S298=(-44.7, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from NOH double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -3.260 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -3.60529 eV, gamma_N(X) = 0.667.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.35381 eV, gamma_N(X) = 0.667.
 
    OR
    |
@@ -613,14 +610,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0.13, 0.74, 1.16, 1.46, 1.84, 2.06, 2.3], 'cal/(mol*K)'),
+        Cpdata=([0.1, 0.6, 0.94, 1.19, 1.5, 1.68, 1.88], 'cal/(mol*K)'),
         H298=(-23.19, 'kcal/mol'),
         S298=(-31.95, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2N-NH2 vdW-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.977 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -0.97746 eV, gamma_N(X) = 0.000.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.97746 eV, gamma_N(X) = 0.000.
             The two lowest frequencies, 6.9 and 79.2 cm-1, where replaced by the 2D gas model.
 
  R2N-NR2
@@ -642,14 +639,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([3.21, 4.62, 5.24, 5.46, 5.43, 5.28, 5.02], 'cal/(mol*K)'),
+        Cpdata=([2.62, 3.77, 4.27, 4.45, 4.43, 4.3, 4.09], 'cal/(mol*K)'),
         H298=(-20.58, 'kcal/mol'),
         S298=(-42.07, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HN-NH vdW-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.676 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -0.67607 eV, gamma_N(X) = 0.000.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.67607 eV, gamma_N(X) = 0.000.
 
  RN=NR
    :
@@ -669,14 +666,14 @@ entry(
 #""",
 #    thermo=ThermoData(
 #        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-#        Cpdata=([1.2, 1.21, 1.21, 1.21, 1.22, 1.22, 1.22], 'cal/(mol*K)'),
+#        Cpdata=([2.62, 3.77, 4.27, 4.45, 4.43, 4.3, 4.09], 'cal/(mol*K)'),
 #        H298=(-2.39, 'kcal/mol'),
 #        S298=(-15.27, 'cal/(mol*K)'),
 #    ),
 #    shortDesc=u"""Came from NN vdW-bonded on Pt(111)""",
 #    longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
 #            DFT binding energy: -0.109 eV.
-#            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -0.10949 eV, gamma_N(X) = 0.000.
+#            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.10949 eV, gamma_N(X) = 0.000.
 #            The two lowest frequencies, 6.3 and 24.2 cm-1, where replaced by the 2D gas model.
 #
 #  N#N
@@ -699,14 +696,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.92, 2.91, 3.52, 3.91, 4.35, 4.57, 4.79], 'cal/(mol*K)'),
+        Cpdata=([1.57, 2.38, 2.87, 3.19, 3.55, 3.73, 3.91], 'cal/(mol*K)'),
         H298=(-29.97, 'kcal/mol'),
         S298=(-45.43, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HN-NH2 single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.270 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.44545 eV, gamma_N(X) = 0.333.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 0.18029 eV, gamma_N(X) = 0.333.
 
  R-N-NR2
    |
@@ -726,14 +723,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.74, 2.91, 3.56, 3.93, 4.25, 4.37, 4.52], 'cal/(mol*K)'),
+        Cpdata=([1.42, 2.37, 2.9, 3.21, 3.47, 3.57, 3.69], 'cal/(mol*K)'),
         H298=(-25.14, 'kcal/mol'),
         S298=(-43.45, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from N-NH single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.060 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.23214 eV, gamma_N(X) = 0.333.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 0.39360 eV, gamma_N(X) = 0.333.
 
    NR
   ||
@@ -756,14 +753,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([3.32, 4.56, 5.07, 5.2, 5.03, 4.79, 4.55], 'cal/(mol*K)'),
+        Cpdata=([2.71, 3.72, 4.13, 4.24, 4.1, 3.91, 3.71], 'cal/(mol*K)'),
         H298=(-47.66, 'kcal/mol'),
         S298=(-43.17, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from N-NH2 double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -2.040 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -2.38988 eV, gamma_N(X) = 0.667.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 0.86160 eV, gamma_N(X) = 0.667.
 
    NR2
    |
@@ -787,14 +784,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([2.53, 4.03, 4.78, 5.11, 5.24, 5.17, 5.0], 'cal/(mol*K)'),
-        H298=(-23.37, 'kcal/mol'),
-        S298=(-43.91, 'cal/(mol*K)'),
+        Cpdata=([2.06, 3.29, 3.9, 4.17, 4.27, 4.22, 4.08], 'cal/(mol*K)'),
+        H298=(-23.38, 'kcal/mol'),
+        S298=(-42.53, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HN-NH-h bidentate, twice single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.982 eV.
-            Linear scaling parameters: ref_adatom_N1 = 0.525 eV, ref_adatom_N2 = 0.525 eV, psi = -1.33172 eV, gamma_N1(X) = 0.333, gamma_N2(X) = 0.333.
+            Linear scaling parameters: ref_adatom_N1 = -4.352 eV, ref_adatom_N2 = -4.352 eV, psi = 1.91976 eV, gamma_N1(X) = 0.333, gamma_N2(X) = 0.333.
 
  RN--NR
   |  |
@@ -817,14 +814,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.18, 2.22, 2.89, 3.33, 3.85, 4.12, 4.45], 'cal/(mol*K)'),
+        Cpdata=([0.96, 1.81, 2.36, 2.72, 3.14, 3.36, 3.63], 'cal/(mol*K)'),
         H298=(-43.5, 'kcal/mol'),
         S298=(-46.63, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HN-CH3 single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.850 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -2.02766 eV, gamma_N(X) = 0.333.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.40192 eV, gamma_N(X) = 0.333.
 
  R-N-CR3
    |
@@ -845,14 +842,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.99, 2.96, 3.5, 3.83, 4.17, 4.33, 4.54], 'cal/(mol*K)'),
-        H298=(-39.07, 'kcal/mol'),
+        Cpdata=([1.62, 2.41, 2.85, 3.12, 3.4, 3.53, 3.7], 'cal/(mol*K)'),
+        H298=(-39.08, 'kcal/mol'),
         S298=(-44.16, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from N-CH2 single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.660 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -1.83916 eV, gamma_N(X) = 0.333.    
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.21342 eV, gamma_N(X) = 0.333.    
 
    CR2
   ||
@@ -876,14 +873,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.12, 1.89, 2.43, 2.81, 3.29, 3.59, 4.07], 'cal/(mol*K)'),
+        Cpdata=([0.92, 1.54, 1.98, 2.29, 2.68, 2.93, 3.32], 'cal/(mol*K)'),
         H298=(-71.1, 'kcal/mol'),
         S298=(-47.17, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from N-CH3 double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -3.050 eV.
-            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -3.39942 eV, gamma_N(X) = 0.667.
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.14794 eV, gamma_N(X) = 0.667.
 
    CR3
    |
@@ -907,7 +904,7 @@ entry(
 # """,
 #     thermo=ThermoData(
 #         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-#         Cpdata=([2.35, 2.6, 2.67, 2.66, 2.61, 2.57, 2.5], 'cal/(mol*K)'),
+#         Cpdata=([1.92, 2.12, 2.17, 2.17, 2.13, 2.09, 2.04], 'cal/(mol*K)'),
 #         H298=(-16.1, 'kcal/mol'),
 #         S298=(-33.93, 'cal/(mol*K)'),
 #     ),
@@ -932,7 +929,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-2.0, -0.88, -0.22, 0.18, 0.61, 0.82, 1.04], 'cal/(mol*K)'),
+        Cpdata=([-1.63, -0.71, -0.18, 0.14, 0.49, 0.67, 0.85], 'cal/(mol*K)'),
         H298=(-156.9, 'kcal/mol'),
         S298=(-31.82, 'cal/(mol*K)'),
     ),
@@ -959,8 +956,8 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0.98, 2.17, 2.79, 3.13, 3.44, 3.55, 3.63], 'cal/(mol*K)'),
-        H298=(-137.31, 'kcal/mol'),
+        Cpdata=([0.8, 1.77, 2.28, 2.56, 2.8, 2.9, 2.96], 'cal/(mol*K)'),
+        H298=(-137.32, 'kcal/mol'),
         S298=(-41.99, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from C-C bidentate, twice double-bonded on Pt(111)""",
@@ -985,7 +982,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-1.2, 0.67, 1.9, 2.71, 3.62, 4.07, 4.52], 'cal/(mol*K)'),
+        Cpdata=([-0.98, 0.54, 1.55, 2.21, 2.95, 3.32, 3.69], 'cal/(mol*K)'),
         H298=(-93.15, 'kcal/mol'),
         S298=(-48.06, 'cal/(mol*K)'),
     ),
@@ -1019,7 +1016,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0.98, 1.94, 2.58, 3.04, 3.6, 3.92, 4.33], 'cal/(mol*K)'),
+        Cpdata=([0.8, 1.58, 2.11, 2.48, 2.93, 3.2, 3.53], 'cal/(mol*K)'),
         H298=(-129.74, 'kcal/mol'),
         S298=(-45.92, 'cal/(mol*K)'),
     ),
@@ -1047,7 +1044,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-2.35, -0.42, 0.76, 1.49, 2.29, 2.68, 3.14], 'cal/(mol*K)'),
+        Cpdata=([-1.92, -0.35, 0.62, 1.22, 1.87, 2.19, 2.56], 'cal/(mol*K)'),
         H298=(-145.5, 'kcal/mol'),
         S298=(-40.0, 'cal/(mol*K)'),
     ),
@@ -1078,7 +1075,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0.05, 1.59, 2.7, 3.47, 4.37, 4.8, 5.11], 'cal/(mol*K)'),
+        Cpdata=([0.04, 1.3, 2.2, 2.83, 3.57, 3.92, 4.17], 'cal/(mol*K)'),
         H298=(-47.33, 'kcal/mol'),
         S298=(-31.36, 'cal/(mol*K)'),
     ),
@@ -1105,7 +1102,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-1.54, 0.48, 1.74, 2.53, 3.38, 3.8, 4.29], 'cal/(mol*K)'),
+        Cpdata=([-1.25, 0.39, 1.42, 2.06, 2.76, 3.1, 3.5], 'cal/(mol*K)'),
         H298=(-85.5, 'kcal/mol'),
         S298=(-42.7, 'cal/(mol*K)'),
     ),
@@ -1136,7 +1133,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.94, 3.35, 4.13, 4.56, 4.94, 5.08, 5.11], 'cal/(mol*K)'),
+        Cpdata=([1.58, 2.74, 3.37, 3.72, 4.03, 4.14, 4.16], 'cal/(mol*K)'),
         H298=(-22.63, 'kcal/mol'),
         S298=(-41.46, 'cal/(mol*K)'),
     ),
@@ -1163,8 +1160,8 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-0.56, 0.74, 1.74, 2.48, 3.45, 4.0, 4.58], 'cal/(mol*K)'),
-        H298=(-41.63, 'kcal/mol'),
+        Cpdata=([-0.45, 0.61, 1.42, 2.02, 2.81, 3.26, 3.73], 'cal/(mol*K)'),
+        H298=(-41.64, 'kcal/mol'),
         S298=(-32.73, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from CH3 single-bonded on Pt(111)""",
@@ -1195,8 +1192,8 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([2.46, 2.5, 2.52, 2.53, 2.53, 2.53, 2.51], 'cal/(mol*K)'),
-        H298=(-4.64, 'kcal/mol'),
+        Cpdata=([2.01, 2.04, 2.05, 2.06, 2.07, 2.06, 2.05], 'cal/(mol*K)'),
+        H298=(-4.65, 'kcal/mol'),
         S298=(-15.11, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from CH3-CH3 vdW-bonded on Pt(111)""",
@@ -1225,7 +1222,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([2.42, 2.45, 2.46, 2.47, 2.48, 2.48, 2.47], 'cal/(mol*K)'),
+        Cpdata=([1.98, 2.0, 2.01, 2.01, 2.02, 2.02, 2.01], 'cal/(mol*K)'),
         H298=(-2.4, 'kcal/mol'),
         S298=(-6.92, 'cal/(mol*K)'),
     ),
@@ -1253,7 +1250,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([2.99, 3.32, 3.51, 3.63, 3.74, 3.76, 3.74], 'cal/(mol*K)'),
+        Cpdata=([2.44, 2.71, 2.86, 2.96, 3.05, 3.07, 3.05], 'cal/(mol*K)'),
         H298=(-77.01, 'kcal/mol'),
         S298=(-34.98, 'cal/(mol*K)'),
     ),
@@ -1280,7 +1277,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([2.64, 3.53, 4.09, 4.44, 4.81, 4.96, 5.04], 'cal/(mol*K)'),
+        Cpdata=([2.15, 2.88, 3.33, 3.62, 3.93, 4.05, 4.11], 'cal/(mol*K)'),
         H298=(-40.56, 'kcal/mol'),
         S298=(-30.68, 'cal/(mol*K)'),
     ),
@@ -1310,8 +1307,8 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([3.38, 4.13, 4.45, 4.59, 4.65, 4.62, 4.6], 'cal/(mol*K)'),
-        H298=(-94.24, 'kcal/mol'),
+        Cpdata=([2.76, 3.37, 3.63, 3.74, 3.79, 3.77, 3.75], 'cal/(mol*K)'),
+        H298=(-94.25, 'kcal/mol'),
         S298=(-49.82, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from CNH2 triple-bonded on Pt(111)""",
@@ -1340,8 +1337,8 @@ entry(
 # """,
 #     thermo=ThermoData(
 #         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-#         Cpdata=([2.21, 2.9, 3.29, 3.53, 3.74, 3.8, 3.78], 'cal/(mol*K)'),
-#         H298=(-34.7, 'kcal/mol'),
+#         Cpdata=([1.81, 2.37, 2.68, 2.88, 3.05, 3.1, 3.08], 'cal/(mol*K)'),
+#         H298=(-23.38, 'kcal/mol'),
 #         S298=(-38.09, 'cal/(mol*K)'),
 #     ),
 #     shortDesc=u"""Came from CO-f double-bonded on Pt(111)""",
@@ -1369,8 +1366,8 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([2.23, 3.29, 3.83, 4.12, 4.34, 4.41, 4.5], 'cal/(mol*K)'),
-        H298=(-99.0, 'kcal/mol'),
+        Cpdata=([1.82, 2.68, 3.13, 3.36, 3.54, 3.6, 3.67], 'cal/(mol*K)'),
+        H298=(-87.68, 'kcal/mol'),
         S298=(-43.75, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from COH triple-bonded on Pt(111)""",
@@ -1401,7 +1398,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-1.55, 0.65, 2.05, 2.94, 3.91, 4.38, 4.78], 'cal/(mol*K)'),
+        Cpdata=([-1.26, 0.53, 1.67, 2.4, 3.19, 3.57, 3.9], 'cal/(mol*K)'),
         H298=(-65.6, 'kcal/mol'),
         S298=(-53.04, 'cal/(mol*K)'),
     ),
@@ -1432,15 +1429,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-1.67, -0.64, 0.12, 0.68, 1.38, 1.78, 2.19], 'cal/(mol*K)'),
-        H298=(-41.42, 'kcal/mol'),
-        S298=(-38.35, 'cal/(mol*K)'),
+        Cpdata=([0.61, 1.45, 2.08, 2.53, 3.11, 3.43, 3.77], 'cal/(mol*K)'),
+        H298=(-40.97, 'kcal/mol'),
+        S298=(-42.06, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2C-CH3 single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.750 eV.
             Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.06163 eV, gamma_C(X) = 0.250.
-            The two lowest frequencies, 18.6 and 76.6 cm-1, where replaced by the 2D gas model.
 
    R
    |
@@ -1464,7 +1460,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0.62, 1.68, 2.22, 2.47, 2.62, 2.62, 2.54], 'cal/(mol*K)'),
+        Cpdata=([0.5, 1.37, 1.81, 2.02, 2.14, 2.13, 2.08], 'cal/(mol*K)'),
         H298=(-5.98, 'kcal/mol'),
         S298=(-33.14, 'cal/(mol*K)'),
     ),
@@ -1495,15 +1491,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-1.06, -0.27, 0.37, 0.85, 1.47, 1.83, 2.21], 'cal/(mol*K)'),
-        H298=(-46.51, 'kcal/mol'),
-        S298=(-35.43, 'cal/(mol*K)'),
+        Cpdata=([1.1, 1.76, 2.28, 2.67, 3.19, 3.48, 3.79], 'cal/(mol*K)'),
+        H298=(-46.05, 'kcal/mol'),
+        S298=(-39.03, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2C-NH2 single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.980 eV.
             Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.29283 eV, gamma_C(X) = 0.250.
-            The two lowest frequencies, 17.2 and 75.9 cm-1, where replaced by the 2D gas model.
 
    R
    |
@@ -1526,9 +1521,9 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0.12, 1.56, 2.29, 2.63, 2.79, 2.75, 2.6], 'cal/(mol*K)'),
-        H298=(-5.18, 'kcal/mol'),
-        S298=(-34.64, 'cal/(mol*K)'),
+        Cpdata=([1.91, 1.97, 2.0, 2.01, 2.02, 2.02, 2.01], 'cal/(mol*K)'),
+        H298=(7.31, 'kcal/mol'),
+        S298=(-20.91, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2C-O vdW-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
@@ -1555,15 +1550,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-1.37, -0.44, 0.27, 0.8, 1.48, 1.87, 2.27], 'cal/(mol*K)'),
-        H298=(-44.42, 'kcal/mol'),
-        S298=(-35.7, 'cal/(mol*K)'),
+        Cpdata=([0.84, 1.62, 2.2, 2.63, 3.19, 3.51, 3.84], 'cal/(mol*K)'),
+        H298=(-44.61, 'kcal/mol'),
+        S298=(-41.1, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2C-OH single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.890 eV.
             Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.19820 eV, gamma_C(X) = 0.250.
-            The two lowest frequencies, 44.2 and 70.8 cm-1, where replaced by the 2D gas model.
 
     R
     |
@@ -1589,8 +1583,8 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0.09, 0.79, 1.24, 1.54, 1.88, 2.06, 2.26], 'cal/(mol*K)'),
-        H298=(-20.93, 'kcal/mol'),
+        Cpdata=([0.08, 0.64, 1.01, 1.25, 1.53, 1.68, 1.84], 'cal/(mol*K)'),
+        H298=(-20.94, 'kcal/mol'),
         S298=(-33.73, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H3C-NH2 vdW-bonded on Pt(111)""",
@@ -1620,8 +1614,8 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.69, 2.05, 2.23, 2.33, 2.4, 2.43, 2.45], 'cal/(mol*K)'),
-        H298=(-7.47, 'kcal/mol'),
+        Cpdata=([1.38, 1.68, 1.82, 1.9, 1.96, 1.98, 2.0], 'cal/(mol*K)'),
+        H298=(3.85, 'kcal/mol'),
         S298=(-28.83, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H3C-OH vdW-bonded on Pt(111)""",
@@ -1649,7 +1643,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0.85, 2.25, 3.11, 3.66, 4.25, 4.53, 4.78], 'cal/(mol*K)'),
+        Cpdata=([0.7, 1.83, 2.54, 2.98, 3.47, 3.7, 3.9], 'cal/(mol*K)'),
         H298=(-95.45, 'kcal/mol'),
         S298=(-42.29, 'cal/(mol*K)'),
     ),
@@ -1678,7 +1672,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0.22, 1.96, 3.02, 3.67, 4.35, 4.65, 4.89], 'cal/(mol*K)'),
+        Cpdata=([0.18, 1.6, 2.46, 2.99, 3.55, 3.79, 3.99], 'cal/(mol*K)'),
         H298=(-65.44, 'kcal/mol'),
         S298=(-48.91, 'cal/(mol*K)'),
     ),
@@ -1710,7 +1704,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.11, 2.09, 2.75, 3.2, 3.72, 4.0, 4.37], 'cal/(mol*K)'),
+        Cpdata=([0.9, 1.71, 2.25, 2.61, 3.03, 3.26, 3.57], 'cal/(mol*K)'),
         H298=(-83.24, 'kcal/mol'),
         S298=(-44.11, 'cal/(mol*K)'),
     ),
@@ -1739,7 +1733,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-0.03, 0.84, 1.41, 1.79, 2.22, 2.4, 2.53], 'cal/(mol*K)'),
+        Cpdata=([-0.02, 0.68, 1.15, 1.46, 1.81, 1.96, 2.06], 'cal/(mol*K)'),
         H298=(-0.94, 'kcal/mol'),
         S298=(-22.92, 'cal/(mol*K)'),
     ),
@@ -1768,7 +1762,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0.72, 2.17, 3.13, 3.78, 4.5, 4.82, 5.03], 'cal/(mol*K)'),
+        Cpdata=([0.59, 1.77, 2.56, 3.08, 3.67, 3.93, 4.1], 'cal/(mol*K)'),
         H298=(-15.96, 'kcal/mol'),
         S298=(-35.76, 'cal/(mol*K)'),
     ),
@@ -1798,15 +1792,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-0.28, 0.62, 1.17, 1.52, 1.89, 2.07, 2.25], 'cal/(mol*K)'),
-        H298=(-51.9, 'kcal/mol'),
-        S298=(-33.8, 'cal/(mol*K)'),
+        Cpdata=([1.74, 2.48, 2.93, 3.22, 3.53, 3.67, 3.82], 'cal/(mol*K)'),
+        H298=(-51.45, 'kcal/mol'),
+        S298=(-38.15, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HCNH single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -2.220 eV.
             Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.52691 eV, gamma_C(X) = 0.250.
-            The two lowest frequencies, 26.9 and 75.8 cm-1, where replaced by the 2D gas model.
 
    NR
   ||
@@ -1830,7 +1823,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.09, 2.47, 3.27, 3.76, 4.25, 4.47, 4.67], 'cal/(mol*K)'),
+        Cpdata=([0.89, 2.02, 2.67, 3.07, 3.47, 3.65, 3.81], 'cal/(mol*K)'),
         H298=(-58.44, 'kcal/mol'),
         S298=(-46.17, 'cal/(mol*K)'),
     ),
@@ -1859,15 +1852,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0.47, 1.4, 1.85, 2.07, 2.21, 2.24, 2.27], 'cal/(mol*K)'),
-        H298=(-62.35, 'kcal/mol'),
-        S298=(-33.34, 'cal/(mol*K)'),
+        Cpdata=([2.34, 3.12, 3.49, 3.66, 3.79, 3.81, 3.84], 'cal/(mol*K)'),
+        H298=(-61.91, 'kcal/mol'),
+        S298=(-37.75, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HCNH2 double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -2.670 eV.
             Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 0.70666 eV, gamma_C(X) = 0.500.
-            The two lowest frequencies, 23.1 and 87.8 cm-1, where replaced by the 2D gas model.
 
    NR2
    |
@@ -1889,15 +1881,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-0.71, 0.27, 0.89, 1.28, 1.69, 1.9, 2.14], 'cal/(mol*K)'),
-        H298=(-51.82, 'kcal/mol'),
-        S298=(-33.46, 'cal/(mol*K)'),
+        Cpdata=([1.38, 2.19, 2.7, 3.02, 3.37, 3.53, 3.73], 'cal/(mol*K)'),
+        H298=(-40.03, 'kcal/mol'),
+        S298=(-36.89, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HCO single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -2.210 eV.
             Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.52049 eV, gamma_C(X) = 0.250.
-            The two lowest frequencies, 17.0 and 73.1 cm-1, where replaced by the 2D gas model.
 
    R
    |
@@ -1920,8 +1911,8 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.21, 2.72, 3.6, 4.09, 4.5, 4.63, 4.73], 'cal/(mol*K)'),
-        H298=(-44.71, 'kcal/mol'),
+        Cpdata=([0.99, 2.22, 2.94, 3.34, 3.67, 3.78, 3.86], 'cal/(mol*K)'),
+        H298=(-33.39, 'kcal/mol'),
         S298=(-45.92, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HCO-h bidentate, double- and single-bonded on Pt(111)""",
@@ -1950,15 +1941,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-0.51, 0.59, 1.21, 1.58, 1.97, 2.17, 2.38], 'cal/(mol*K)'),
-        H298=(-69.06, 'kcal/mol'),
-        S298=(-33.81, 'cal/(mol*K)'),
+        Cpdata=([1.53, 2.45, 2.96, 3.26, 3.59, 3.75, 3.92], 'cal/(mol*K)'),
+        H298=(-57.34, 'kcal/mol'),
+        S298=(-39.75, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HCOH double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -2.960 eV.
             Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 0.42191 eV, gamma_C(X) = 0.500.
-            The two lowest frequencies, 46.4 and 91.5 cm-1, where replaced by the 2D gas model.
 
    OR
    |
@@ -2014,8 +2004,8 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-0.09, 1.28, 2.17, 2.75, 3.43, 3.79, 4.16], 'cal/(mol*K)'),
-        H298=(-45.38, 'kcal/mol'),
+        Cpdata=([-0.07, 1.05, 1.77, 2.43, 2.8, 3.08, 3.39], 'cal/(mol*K)'),
+        H298=(-41.61, 'kcal/mol'),
         S298=(-38.17, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Average of C-*R3, N-*R2 and O-*R thermo. """
@@ -2088,9 +2078,9 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.69, 3.14, 3.95, 4.38, 4.73, 4.84, 4,88], 'cal/(mol*K)'),
-        H298=(-37.29, 'kcal/mol'),
-        S298=(-44.37, 'cal/(mol*K)'),
+        Cpdata=([1.51, 2.68, 3.31, 3.65, 3.92, 4.00, 4.02], 'cal/(mol*K)'),
+        H298=(-34.82, 'kcal/mol'),
+        S298=(-43.39, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Average of C-*R2C-*R2, C=*RN-*R, C=*RO-* and N-*RN-*R thermo. """
 )
@@ -2105,9 +2095,9 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.51, 2.1, 2.45, 2.68, 2.94, 3.07, 3.2], 'cal/(mol*K)'),
-        H298=(-7.79, 'kcal/mol'),
-        S298=(-20.48, 'cal/(mol*K)'),
+        Cpdata=([1.23, 1.71, 2.00, 2.19, 2.39, 2.50, 2.61], 'cal/(mol*K)'),
+        H298=(6.47, 'kcal/mol'),
+        S298=(-22.53, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Average of (CR4)*, (NR3)* and (OR2)* thermo. """
 )
@@ -2234,14 +2224,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.02, 2.47, 3.30, 3.77, 4.18, 4.32, 4.49], 'cal/(mol*K)'),
+        Cpdata=([0.83, 2.02, 2.69, 3.08, 3.41, 3.53, 3.66], 'cal/(mol*K)'),
         H298=(-30.55, 'kcal/mol'),
         S298=(-45.85, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HN-N-h bidentate, single- and double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.280 eV.
-            Linear scaling parameters: ref_adatom_N1 = 0.525 eV, ref_adatom_N2 = 0.525 eV, psi = -1.80538 eV, gamma_N1(X) = 0.333, gamma_N2(X) = 0.667.
+            Linear scaling parameters: ref_adatom_N1 = -4.352 eV, ref_adatom_N2 = -4.352 eV, psi = 3.07184 eV, gamma_N1(X) = 0.333, gamma_N2(X) = 0.667.
 
  RN--N
   |  |
@@ -2262,7 +2252,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.26, 1.67, 1.92, 2.07, 2.24, 2.32, 2.39], 'cal/(mol*K)'),
+        Cpdata=([1.02, 1.36, 1.56, 1.69, 1.82, 1.89, 1.95], 'cal/(mol*K)'),
         H298=(-4.70, 'kcal/mol'),
         S298=(-10.33, 'cal/(mol*K)'),
     ),
@@ -2292,7 +2282,7 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.24, 2.62, 3.42, 3.88, 4.29, 4.45, 4.62], 'cal/(mol*K)'),
+        Cpdata=([1.01, 2.14, 2.79, 3.16, 3.5, 3.63, 3.76], 'cal/(mol*K)'),
         H298=(-40.44, 'kcal/mol'),
         S298=(-47.12, 'cal/(mol*K)'),
     ),
@@ -2322,8 +2312,8 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([1.73, 3.68, 4.62, 5.04, 5.26, 5.25, 5.10], 'cal/(mol*K)'),
-        H298=(-10.85, 'kcal/mol'),
+        Cpdata=([1.41, 3.0, 3.77, 4.11, 4.29, 4.28, 4.16], 'cal/(mol*K)'),
+        H298=(-18.54, 'kcal/mol'),
         S298=(-47.43, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2CNH-h bidentate, twice single-bonded on Pt(111)""",
@@ -2348,9 +2338,9 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-1.2, 0.67, 1.9, 2.71, 3.62, 4.07, 4.52], 'cal/(mol*K)'),
+        Cpdata=([-0.98, 0.54, 1.55, 2.21, 2.95, 3.32, 3.69], 'cal/(mol*K)'),
         H298=(-93.15, 'kcal/mol'),
-        S298=(-48.06, 'cal/(mol*K)'),
+        S298=(-48.06, 'cal/(mol*K)'),          
     ),
     shortDesc=u"""Came from C=CH2 double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
@@ -2382,8 +2372,8 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([2.47, 3.94, 4.70, 5.04, 5.21, 5.17, 5.03], 'cal/(mol*K)'),
-        H298=(-6.024, 'kcal/mol'),
+        Cpdata=([2.02, 3.22, 3.83, 4.11, 4.25, 4.22, 4.11], 'cal/(mol*K)'),
+        H298=(5.3, 'kcal/mol'),
         S298=(-41.48, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2CO-h bidentate, twice single-bonded on Pt(111)""",
