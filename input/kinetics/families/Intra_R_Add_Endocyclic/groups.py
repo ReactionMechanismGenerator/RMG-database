@@ -7522,3 +7522,53 @@ from the tip of the 5-member ring to the corner of the 4. Resonance form 3.
 """,
 )
 
+forbidden(
+    label = "bicyclic_self_ring_close",
+    group = 
+"""
+1     C u0 p0 c0 {3,B} {6,B} {7,B}
+2     C u0 p0 c0 {4,B} {5,B} {8,S}
+3     C u0 p0 c0 {1,B} {4,B} {12,B}
+4     C u0 p0 c0 {2,B} {3,B}
+5     C u0 p0 c0 {2,B} {6,B}
+6     C u0 p0 c0 {1,B} {5,B}
+7     C u0 p0 c0 {1,B} {9,B}
+8 *2  C u0 p0 c0 {2,S} {11,D}
+9     C u0 p0 c0 {7,B} {10,B}
+10    C u0 p0 c0 {9,B} {12,B}
+11 *3 C u0 p0 c0 {8,D}
+12 *1 C u1 p0 c0 {3,B} {10,B}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Prevent a bicyclic from undergoing a highly strained self-ring closure 
+from the tip of the 6-member ring to the extended double bond.
+""",
+)
+
+forbidden(
+    label = "bicyclic_self_ring_close_2",
+    group = 
+"""
+1     C u0 p0 c0 {2,B} {3,B} {7,B}
+2     C u0 p0 c0 {1,B} {4,B} {6,B}
+3     C u0 p0 c0 {1,B} {5,B} {11,S}
+4     C u0 p0 c0 {2,B} {8,B}
+5     C u0 p0 c0 {3,B} {8,B}
+6     C u0 p0 c0 {2,B} {10,B}
+7     C u0 p0 c0 {1,B} {9,B}
+8     C u0 p0 c0 {4,B} {5,B}
+9 *3  C u0 p0 c0 {7,B} {10,B}
+10    C u0 p0 c0 {6,B} {9,B} 
+11 *2 C u0 p0 c0 {3,S} {12,D}
+12 *1 C u1 p0 c0 {11,D}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Prevent a bicyclic from undergoing a highly strained self-ring closure 
+from the side of the 6-member ring to the extended double bond.
+""",
+)
+
