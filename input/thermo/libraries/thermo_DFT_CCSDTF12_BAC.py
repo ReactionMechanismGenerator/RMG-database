@@ -4,7 +4,7 @@
 name = "thermo_DFT_CCSDTF12_BAC"
 shortDesc = u""
 longDesc = u"""
-work done by B. Buesser using DFT and CCSDTF12 using or deriving bond additvity corrections
+Done by B. Buesser using DFT and CCSDTF12 using or deriving bond additvity corrections, unless otherwise noted
 """
 entry(
     index = 0,
@@ -3495,3 +3495,268 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
 )
 
+entry(
+    index = 141,
+    label = "cyanoisopropyl",
+    molecule =
+"""
+multiplicity 2
+1  N u0 p1 c0 {5,T}
+2  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+3  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
+4  C u1 p0 c0 {2,S} {3,S} {5,S}
+5  C u0 p0 c0 {1,T} {4,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.59561,0.0433769,-0.000150104,3.758e-07,-3.18699e-10,21337.9,10.6486], Tmin=(10,'K'), Tmax=(420.268,'K')),
+            NASAPolynomial(coeffs=[1.30227,0.0361352,-2.05055e-05,5.63964e-09,-6.03973e-13,21787.4,22.7788], Tmin=(420.268,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (177.402,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (249.434,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Calculated by A. Grinberg Dana using ARC 1.0.0
+
+Conformers:       b97-d3/6-311+g(d,p)
+Optimization:     wb97xd/6-311++g(d,p) (using a fine grid)
+Frequencies:      wb97xd/6-311++g(d,p)
+Single point:     ccsd(t)-f12/cc-pvtz-f12
+Rotor scans:      b3lyp/6-311+g(d,p)
+
+Bond corrections: {'C#N': 1, 'C-C': 3, 'C-H': 6}
+
+1D rotors:
+pivots: [2, 4], dihedral: [6, 2, 4, 3], rotor symmetry: 3, max scan energy: 2.27 kJ/mol
+pivots: [3, 4], dihedral: [9, 3, 4, 2], rotor symmetry: 3, max scan energy: 2.27 kJ/mol
+
+External symmetry: 2, optical isomers: 2
+
+Geometry:
+N       2.24465000    0.00288700   -0.00395200
+C      -1.06286400    1.28810400    0.08614100
+C      -1.06016300   -1.28990600   -0.08427100
+C      -0.30986700   -0.00004000   -0.00017600
+C       1.08027800    0.00155300   -0.00223100
+H      -0.40232600    2.15369500    0.04243700
+H      -1.79151100    1.35912100   -0.72933900
+H      -1.63021700    1.33369300    1.02401500
+H      -0.39751600   -2.15398100   -0.04252600
+H      -1.78622800   -1.36259100    0.73336200
+H      -1.63018200   -1.33679700   -1.02046300
+""",
+)
+
+entry(
+    index = 142,
+    label = "cyanoisopropylOOH",
+    molecule =
+"""
+1  O u0 p2 c0 {2,S} {4,S}
+2  O u0 p2 c0 {1,S} {14,S}
+3  N u0 p1 c0 {7,T}
+4  C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+6  C u0 p0 c0 {4,S} {11,S} {12,S} {13,S}
+7  C u0 p0 c0 {3,T} {4,S}
+8  H u0 p0 c0 {5,S}
+9  H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {6,S}
+13 H u0 p0 c0 {6,S}
+14 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.69904,0.0241458,0.000242618,-8.48082e-07,8.45693e-10,-7791.09,11.5584],Tmin=(10,'K'),Tmax=(357.267,'K'),),
+            NASAPolynomial(coeffs=[6.03838,0.0431102,-2.65938e-05,8.0486e-09,-9.47215e-13,-8246.43,-1.35299],Tmin=(357.267,'K'),Tmax=(3000,'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (-64.7396, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (320.107, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Calculated by A. Grinberg Dana using ARC 1.0.0
+
+Conformers:       b97-d3/6-311+g(d,p)
+Optimization:     wb97xd/6-311++g(d,p) (using a fine grid)
+Frequencies:      wb97xd/6-311++g(d,p)
+Single point:     ccsd(t)-f12/cc-pvtz-f12
+Rotor scans:      b3lyp/6-311+g(d,p)
+
+Bond corrections: {'C-O': 1, 'H-O': 1, 'C#N': 1, 'C-H': 6, 'C-C': 3, 'O-O': 1}
+
+1D rotors:
+pivots: [1, 4], dihedral: [2, 1, 4, 5], rotor symmetry: 1, max scan energy: 24.14 kJ/mol
+pivots: [1, 2], dihedral: [4, 1, 2, 14], rotor symmetry: 1, max scan energy: 36.41 kJ/mol
+pivots: [4, 5], dihedral: [1, 4, 5, 8], rotor symmetry: 3, max scan energy: 11.66 kJ/mol
+pivots: [4, 6], dihedral: [1, 4, 6, 11], rotor symmetry: 3, max scan energy: 12.77 kJ/mol
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       1.02648700   -0.19743200    0.74293100
+O       1.85498100    0.74962100    0.08453600
+N      -1.49916600    1.87241100   -0.07890000
+C      -0.16600800   -0.39808900   -0.01625100
+C      -0.94394300   -1.43237200    0.79401300
+C       0.13694700   -0.87673800   -1.43338100
+C      -0.92155500    0.87834800   -0.05737800
+H      -1.90042000   -1.63533200    0.31006300
+H      -1.12711500   -1.07115500    1.80649300
+H      -0.36394700   -2.35551300    0.84037500
+H      -0.79518600   -1.04953600   -1.97516700
+H       0.69604000   -1.81257900   -1.37455900
+H       0.72914100   -0.13907900   -1.97306800
+H       1.71371600    1.54061300    0.61900900
+""",
+)
+
+entry(
+    index = 143,
+    label = "cyanoisopropane",
+    molecule =
+"""
+1  N u0 p1 c0 {5,T}
+2  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+4  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
+5  C u0 p0 c0 {1,T} {2,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {4,S}
+12 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.91153,0.00781557,0.000180226,-5.88386e-07,6.55296e-10,2094.77,9.32227], Tmin=(10,'K'), Tmax=(226.564,'K')),
+            NASAPolynomial(coeffs=[2.18326,0.0383288,-2.17942e-05,6.07013e-09,-6.61958e-13,2173.08,15.0941], Tmin=(226.564,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (17.4281,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (274.378,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Calculated by A. Grinberg Dana using ARC 1.0.0
+
+Conformers:       b97-d3/6-311+g(d,p)
+Optimization:     wb97xd/6-311++g(d,p) (using a fine grid)
+Frequencies:      wb97xd/6-311++g(d,p)
+Single point:     ccsd(t)-f12/cc-pvtz-f12
+Rotor scans:      b3lyp/6-311+g(d,p)
+
+Bond corrections: {'C#N': 1, 'C-C': 3, 'C-H': 7}
+
+1D rotors:
+pivots: [2, 4], dihedral: [3, 2, 4, 10], rotor symmetry: 3, max scan energy: 13.19 kJ/mol
+pivots: [2, 3], dihedral: [4, 2, 3, 7], rotor symmetry: 3, max scan energy: 13.18 kJ/mol
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+N      -2.20312500    0.15910800    0.00000000
+C       0.35469500   -0.39904900    0.00000000
+C       1.01752500    0.14256700   -1.27321800
+C       1.01752500    0.14256700    1.27321800
+C      -1.08030100   -0.09186200    0.00000000
+H       0.43242300   -1.49152700    0.00000000
+H       0.54500800   -0.26089100   -2.17033700
+H       2.07327100   -0.13786000   -1.28141800
+H       0.95018100    1.23248900   -1.30888200
+H       0.54500800   -0.26089100    2.17033700
+H       2.07327100   -0.13786000    1.28141800
+H       0.95018100    1.23248900    1.30888200
+""",
+)
+
+entry(
+    index = 144,
+    label = "cyanoisopropylOO",
+    molecule =
+"""
+multiplicity 2
+1  O u0 p2 c0 {2,S} {4,S}
+2  O u1 p2 c0 {1,S}
+3  N u0 p1 c0 {7,T}
+4  C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+6  C u0 p0 c0 {4,S} {11,S} {12,S} {13,S}
+7  C u0 p0 c0 {3,T} {4,S}
+8  H u0 p0 c0 {5,S}
+9  H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {6,S}
+13 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.73277,0.0228798,0.000218553,-8.18582e-07,8.85419e-10,10803.4,12.6662], Tmin=(10,'K'), Tmax=(324.224,'K')),
+            NASAPolynomial(coeffs=[4.94043,0.0419159,-2.65147e-05,8.14503e-09,-9.65226e-13,10546.7,5.44954], Tmin=(324.224,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (89.8672,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (295.164,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Calculated by A. Grinberg Dana using ARC 1.0.0
+
+Conformers:       b97-d3/6-311+g(d,p)
+Optimization:     wb97xd/6-311++g(d,p) (using a fine grid)
+Frequencies:      wb97xd/6-311++g(d,p)
+Single point:     ccsd(t)-f12/cc-pvtz-f12
+Rotor scans:      b3lyp/6-311+g(d,p)
+
+Bond corrections: {'C-O': 1, 'C-C': 3, 'C#N': 1, 'O-O': 1, 'C-H': 6}
+
+1D rotors:
+pivots: [1, 4], dihedral: [2, 1, 4, 5], rotor symmetry: 1, max scan energy: 8.51 kJ/mol
+pivots: [4, 6], dihedral: [1, 4, 6, 11], rotor symmetry: 3, max scan energy: 13.22 kJ/mol
+pivots: [4, 5], dihedral: [1, 4, 5, 8], rotor symmetry: 3, max scan energy: 13.22 kJ/mol
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -0.76231100   -1.01654800   -0.00031900
+O      -2.03043700   -0.75204100   -0.00031000
+N       2.52595900   -0.66596100   -0.00011200
+C       0.06045200    0.21651900    0.00005100
+C      -0.22025700    1.00359100   -1.27386500
+C      -0.22032600    1.00287000    1.27439800
+C       1.43559100   -0.30406900   -0.00005400
+H      -0.02569500    0.39341200   -2.15673700
+H      -1.26432800    1.31841100   -1.27191100
+H       0.41994800    1.88678200   -1.30579400
+H      -0.02581700    0.39218200    2.15693000
+H       0.41988100    1.88603900    1.30686400
+H      -1.26439600    1.31769600    1.27256600
+""",
+)
