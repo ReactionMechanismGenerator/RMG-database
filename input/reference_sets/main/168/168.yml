@@ -1,0 +1,294 @@
+RMG_version: 2.4.0
+adjacency_list: |
+  1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+  2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
+  3  C u0 p0 c0 {2,S} {5,D} {11,S}
+  4  C u0 p0 c0 {1,S} {6,D} {12,S}
+  5  C u0 p0 c0 {3,D} {6,S} {13,S}
+  6  C u0 p0 c0 {4,D} {5,S} {14,S}
+  7  H u0 p0 c0 {1,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {2,S}
+  11 H u0 p0 c0 {3,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {5,S}
+  14 H u0 p0 c0 {6,S}
+calculated_data:
+  wb97x_d3bj/def2-tzvp:
+    class: CalculatedDataEntry
+    conformer:
+      E0:
+        class: ScalarQuantity
+        units: kJ/mol
+        value: -612622.9469811274
+      class: Conformer
+      coordinates:
+        class: ArrayQuantity
+        units: angstroms
+        value:
+        - - -1.225654128
+          - 0.100245294
+          - 0.43361155959999986
+        - - -0.7055879497
+          - -0.9597507724999997
+          - -0.5287362074
+        - - 0.7806761572999997
+          - -1.1320506376
+          - -0.400474326
+        - - 1.5505225046
+          - -0.0970660111
+          - -0.0716329564
+        - - 0.9537330675
+          - 1.2123992312
+          - 0.1955278084
+        - - -0.35341474089999997
+          - 1.3227266787999998
+          - 0.4222716643
+        - - -2.2568605276
+          - 0.3568830612
+          - 0.1896230262
+        - - -1.2372259849
+          - -0.3063671761
+          - 1.4530509077
+        - - -1.2217015511
+          - -1.9056713049
+          - -0.3621437886
+        - - -0.9297539502
+          - -0.659984773
+          - -1.5604887166999994
+        - - 1.2177264493
+          - -2.0952716547
+          - -0.6347681138999998
+        - - 2.6268506829
+          - -0.2040571537
+          - -0.0179236505
+        - - 1.5954973917
+          - 2.0840399418
+          - 0.2259793827
+        - - -0.7948074209
+          - 2.2839252765
+          - 0.6561034108999999
+      mass:
+        class: ArrayQuantity
+        units: amu
+        value:
+        - 12.000000000000005
+        - 12.000000000000005
+        - 12.000000000000005
+        - 12.000000000000005
+        - 12.000000000000005
+        - 12.000000000000005
+        - 1.00782503224
+        - 1.00782503224
+        - 1.00782503224
+        - 1.00782503224
+        - 1.00782503224
+        - 1.00782503224
+        - 1.00782503224
+        - 1.00782503224
+      modes:
+      - class: IdealGasTranslation
+        mass:
+          class: ScalarQuantity
+          units: amu
+          value: 80.06264
+        quantum: false
+      - class: NonlinearRotor
+        inertia:
+          class: ArrayQuantity
+          units: amu*angstrom^2
+          value:
+          - 98.41575488509481
+          - 98.573744162883
+          - 185.06303215037124
+        quantum: false
+        rotationalConstant:
+          class: ArrayQuantity
+          units: cm^-1
+          value:
+          - 0.17128994308919948
+          - 0.17101540776916202
+          - 0.09109128310213238
+        symmetry: 2
+      - class: HarmonicOscillator
+        frequencies:
+          class: ArrayQuantity
+          units: cm^-1
+          value:
+          - 204.07
+          - 303.25
+          - 478.47
+          - 530.17
+          - 576.27
+          - 676.55
+          - 763.63
+          - 779.0
+          - 879.56
+          - 955.7
+          - 980.98
+          - 991.73
+          - 1003.54
+          - 1024.35
+          - 1058.89
+          - 1090.54
+          - 1175.72
+          - 1198.82
+          - 1207.17
+          - 1283.67
+          - 1366.42
+          - 1382.46
+          - 1420.18
+          - 1453.69
+          - 1476.81
+          - 1489.44
+          - 1695.28
+          - 1747.97
+          - 3021.16
+          - 3032.68
+          - 3118.4
+          - 3121.5
+          - 3195.37
+          - 3200.84
+          - 3216.72
+          - 3227.07
+        quantum: true
+      number:
+        class: ArrayQuantity
+        value:
+        - 6.0
+        - 6.0
+        - 6.0
+        - 6.0
+        - 6.0
+        - 6.0
+        - 1.0
+        - 1.0
+        - 1.0
+        - 1.0
+        - 1.0
+        - 1.0
+        - 1.0
+        - 1.0
+      opticalIsomers: 1
+      spinMultiplicity: 1
+    thermo:
+      Cp0:
+        class: ScalarQuantity
+        units: J/(mol*K)
+        value: 33.257888
+      CpInf:
+        class: ScalarQuantity
+        units: J/(mol*K)
+        value: 332.57887999999997
+      E0:
+        class: ScalarQuantity
+        units: kJ/mol
+        value: -612622.9383297462
+      Tmax:
+        class: ScalarQuantity
+        units: K
+        value: 3000.0
+      Tmin:
+        class: ScalarQuantity
+        units: K
+        value: 10.0
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax:
+            class: ScalarQuantity
+            units: K
+            value: 610.5802276548449
+          Tmin:
+            class: ScalarQuantity
+            units: K
+            value: 10.0
+          class: NASAPolynomial
+          coeffs:
+          - 4.1183162104472535
+          - -0.00994973530266165
+          - 0.00018469510028448706
+          - -2.884286998331848e-07
+          - 1.452355049205913e-10
+          - -73681519.78454335
+          - 9.136548091868525
+        polynomial2:
+          Tmax:
+            class: ScalarQuantity
+            units: K
+            value: 3000.0
+          Tmin:
+            class: ScalarQuantity
+            units: K
+            value: 610.5802276548449
+          class: NASAPolynomial
+          coeffs:
+          - -2.812609394585627
+          - 0.057423710481843644
+          - -3.478806774551085e-05
+          - 1.0141253433390405e-08
+          - -1.139829379864468e-12
+          - -73681082.89879088
+          - 35.801618303505435
+    thermo_data:
+      Cpdata:
+        class: ArrayQuantity
+        units: cal/(mol*K)
+        value:
+        - 22.146993853052116
+        - 29.705220373399523
+        - 36.4470667036768
+        - 42.050548266775756
+        - 50.84753362422086
+        - 57.280149122416624
+        - 66.5836351333758
+        - 71.09290471224163
+        - 73.52844845112381
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -146416.59097340476
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 70.69853181314953
+      Tdata:
+        class: ArrayQuantity
+        units: K
+        value:
+        - 300.0
+        - 400.0
+        - 500.0
+        - 600.0
+        - 800.0
+        - 1000.0
+        - 1500.0
+        - 2000.0
+        - 2400.0
+      class: ThermoData
+charge: 0
+class: ReferenceSpecies
+datetime: 2019-06-27 12:33
+formula: C6H8
+inchi: InChI=1S/C6H8/c1-2-4-6-5-3-1/h1-4H,5-6H2
+inchi_key: MGNZXYYWBUKAII-UHFFFAOYSA-N
+index: 168
+is_ts: false
+label: '168'
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 80.12772742837888
+reference_data:
+  Saeys_Reyneiers_Marin:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.8
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 106.3
+      class: ThermoData
+smiles: C1=CCCC=C1

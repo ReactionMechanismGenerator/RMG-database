@@ -1,0 +1,231 @@
+RMG_version: 2.4.0
+adjacency_list: |
+  1 O u0 p2 c0 {2,S} {3,S}
+  2 O u0 p2 c0 {1,S} {7,S}
+  3 C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+  4 H u0 p0 c0 {3,S}
+  5 H u0 p0 c0 {3,S}
+  6 H u0 p0 c0 {3,S}
+  7 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97x_d3bj/def2-tzvp:
+    class: CalculatedDataEntry
+    conformer:
+      E0:
+        class: ScalarQuantity
+        units: kJ/mol
+        value: -501023.6034371667
+      class: Conformer
+      coordinates:
+        class: ArrayQuantity
+        units: angstroms
+        value:
+        - - -0.7358819578
+          - 0.09922307929999998
+          - 0.006602260899999999
+        - - 0.3637821699
+          - -0.4681985221
+          - -0.6629812156
+        - - 1.523700809
+          - 0.1901161856
+          - -0.1729411576
+        - - -0.7871576178
+          - 1.1758123917
+          - -0.1695130859
+        - - -0.6914548384
+          - -0.097292395
+          - 1.0818133238
+        - - -1.6117652049
+          - -0.38736895259999987
+          - -0.4226376885
+        - - 1.9387766399
+          - -0.5122917868
+          - 0.3396575629
+      mass:
+        class: ArrayQuantity
+        units: amu
+        value:
+        - 12.000000000000005
+        - 15.99491461957
+        - 15.99491461957
+        - 1.00782503224
+        - 1.00782503224
+        - 1.00782503224
+        - 1.00782503224
+      modes:
+      - class: IdealGasTranslation
+        mass:
+          class: ScalarQuantity
+          units: amu
+          value: 48.02114
+        quantum: false
+      - class: NonlinearRotor
+        inertia:
+          class: ArrayQuantity
+          units: amu*angstrom^2
+          value:
+          - 11.466928932698504
+          - 47.2539660026346
+          - 54.02672683303958
+        quantum: false
+        rotationalConstant:
+          class: ArrayQuantity
+          units: cm^-1
+          value:
+          - 1.4701084442302723
+          - 0.35674527408786416
+          - 0.3120238822804153
+        symmetry: 3
+      - class: HarmonicOscillator
+        frequencies:
+          class: ArrayQuantity
+          units: cm^-1
+          value:
+          - 192.52
+          - 260.43
+          - 468.16
+          - 945.49
+          - 1104.45
+          - 1183.5
+          - 1228.01
+          - 1404.98
+          - 1459.39
+          - 1475.99
+          - 1518.41
+          - 3041.35
+          - 3115.27
+          - 3157.72
+          - 3826.31
+        quantum: true
+      number:
+        class: ArrayQuantity
+        value:
+        - 6.0
+        - 8.0
+        - 8.0
+        - 1.0
+        - 1.0
+        - 1.0
+        - 1.0
+      opticalIsomers: 1
+      spinMultiplicity: 1
+    thermo:
+      Cp0:
+        class: ScalarQuantity
+        units: J/(mol*K)
+        value: 33.257888
+      CpInf:
+        class: ScalarQuantity
+        units: J/(mol*K)
+        value: 157.97496800000002
+      E0:
+        class: ScalarQuantity
+        units: kJ/mol
+        value: -501023.632695825
+      Tmax:
+        class: ScalarQuantity
+        units: K
+        value: 3000.0
+      Tmin:
+        class: ScalarQuantity
+        units: K
+        value: 10.0
+      class: NASA
+      polynomials:
+        polynomial1:
+          Tmax:
+            class: ScalarQuantity
+            units: K
+            value: 884.3737163314648
+          Tmin:
+            class: ScalarQuantity
+            units: K
+            value: 10.0
+          class: NASAPolynomial
+          coeffs:
+          - 3.8951189555086634
+          - 0.009053242566528803
+          - 1.2953062198629601e-05
+          - -1.929241506227121e-08
+          - 7.215736175636368e-12
+          - -60259223.40300097
+          - 5.930040950207905
+        polynomial2:
+          Tmax:
+            class: ScalarQuantity
+            units: K
+            value: 3000.0
+          Tmin:
+            class: ScalarQuantity
+            units: K
+            value: 884.3737163314648
+          class: NASAPolynomial
+          coeffs:
+          - 2.4939385890024752
+          - 0.0189781117360798
+          - -9.965249348006642e-06
+          - 2.5708144490525634e-09
+          - -2.61297499434803e-13
+          - -60259115.85654636
+          - 11.724612461111287
+    thermo_data:
+      Cpdata:
+        class: ArrayQuantity
+        units: cal/(mol*K)
+        value:
+        - 14.53526213947065
+        - 16.968585841164558
+        - 19.274785089930976
+        - 21.3786947146286
+        - 24.85105430130107
+        - 27.455876803200347
+        - 31.582623904790545
+        - 33.73267191494484
+        - 34.79854046027731
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -119744.2568106973
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 62.07625697529435
+      Tdata:
+        class: ArrayQuantity
+        units: K
+        value:
+        - 300.0
+        - 400.0
+        - 500.0
+        - 600.0
+        - 800.0
+        - 1000.0
+        - 1500.0
+        - 2000.0
+        - 2400.0
+      class: ThermoData
+charge: 0
+class: ReferenceSpecies
+datetime: 2019-06-27 12:33
+formula: CH4O2
+inchi: InChI=1S/CH4O2/c1-3-2/h2H,1H3
+inchi_key: MEUKEBNAABNAEX-UHFFFAOYSA-N
+index: 130
+is_ts: false
+label: '130'
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 48.04126249437592
+reference_data:
+  Colin:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.18
+        uncertaintyType: +|-
+        units: kcal/mol
+        value: -30.53
+      class: ThermoData
+smiles: COO
