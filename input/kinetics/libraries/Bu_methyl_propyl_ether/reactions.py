@@ -71,7 +71,7 @@ u"""
 
 entry(
     index = 5,
-    label = "MPO1Q-1J <=> propanal + CH2O + OH",
+    label = "MPO1Q-1J <=> CH2O + HOOCHCH2CH3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (113.5, 's^-1'),
@@ -82,7 +82,7 @@ entry(
     ),
     longDesc =
 u"""
-
+MPO1Q-1J <=> propanal + CH2O + OH
 changed
 """,
 )
@@ -1229,3 +1229,23 @@ u"""
 Mark Nimlos G4 calculation RRHO
 """,
 )
+
+# entry(
+#     index = 70,
+#     label = "MPO1Q-1J <=> propanal + CH2O + OH",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(
+#         A = (1.81516e+12, 's^-1'),
+#         n = 0.516572,
+#         Ea = (105.983, 'kJ/mol'),
+#         T0 = (1, 'K'),
+#         Tmin = (300, 'K'),
+#         Tmax = (3000, 'K'),
+#         comment = '',
+#     ),
+#     longDesc =
+# u"""
+# Matt Johnson CBS-QB3 with 1dHR
+# TS guess from Mark Nimlos
+# """,
+# )
