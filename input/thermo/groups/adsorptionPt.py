@@ -550,15 +550,14 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0.04, 0.46, 0.7, 0.85, 0.98, 1.02, 1.03], 'cal/(mol*K)'),
-        H298=(-21.34, 'kcal/mol'),
-        S298=(-29.32, 'cal/(mol*K)'),
+        Cpdata=([1.99, 2.43, 2.68, 2.82, 2.96, 3.00, 3.01], 'cal/(mol*K)'),
+        H298=(-20.93, 'kcal/mol'),
+        S298=(-35.43, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from NO-h bidentate, double- and single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.390 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 1.51181 eV, gamma_N(X) = 0.667.
-            The two lowest frequencies, -19.4 and 68.0 cm-1, where replaced by the 2D gas model.
 
    N--O
   ||  |
