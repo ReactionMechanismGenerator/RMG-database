@@ -419,4 +419,17 @@ L1: C
 """
 )
 
-
+forbidden(
+    label = "CC_shift",
+    group =
+"""
+1    C u0 p0 c0 {2,[S,D,T,B]}
+2 *1 C u0 p0 c0 {1,[S,D,T,B]} {3,S}
+3 *2 C u0 p0 c0 {2,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid carbon chains larger than methyl from participating in this family.
+""",
+)
