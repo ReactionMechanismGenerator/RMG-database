@@ -146,7 +146,7 @@ u"""
 Part of the "Thermal (Zeldovich) NO" mechanism
 See [Hanson1990b] R1; p. 856
 Uncertainty: +/-20% at 1400 K to +/- 10% at 3500 K
-[DeanBozz2000] reccomend using [Hanson1990b]'s value, which shock-tube measurements are in close agreement with 5 other studies (see Fig 2.1 in [DeanBozz2000] p. 142)
+[DeanBozz2000] recommend using [Hanson1990b]'s value, sicne its shock-tube measurements are in close agreement with 5 other studies (see Fig 2.1 in [DeanBozz2000] p. 142)
 [GRI] fitted to the data of 3 of the sources in [DeanBozz2000]
 Also available in RMG's libraries as:
 [DeanBozz2000] *reverse direction given: A = 2e+14 cm^3/(mol*s); n = 0; Ea = 76774 cal/mol
@@ -190,7 +190,7 @@ T range: 1750-4200 K
 [DeanBozz2000] (p. 231) give A = 6.4e+12 cm^3/(mol*s); n = 0.1; Ea = 21300 cal/mol, citing [Cohen1991]
 But [Cohen1991] says that this rate "cannot be fixed more precisely" than an upper boundary of 4.1e+10 (p. 95, k2a)
 [GRI] used a fit to low and high T expressions from Atkinson et al., (1989) J. Phys. Chem. Ref. Data 18 88 and Hanson et al., Combustion Chemistry , Springer-Verlag, N.Y., p. 361
-[GRI] this optimized this rate and reccomend 59% of the fit's A factor.
+[GRI] optimized this rate and recommended 59% of the fit's A factor.
 [GlarGim] has a ridiculously long citation chain:
 Skreiberg et al, Combust. Flame 136, 501-518 (2004) <-- P. Glarborg et al., Combust. Flame 115 (1998) 1-27 <-- P. Glarborg et al., Int. J. Chem. Kinet., 27 (1995), p. 1207 <-- P. Glarborg et al., Int. J. Chem. Kinet., 26, 421 (1994) <-- J.A. Miller, C. T. Bowman, Prog. Energy and Comb. Sci., 15, 287 (1989) <-- J.A. Miller et al., 20th Symp. (Int.) Combust., pp. 673-684, The Combustion Institute, Pittsburgh (1985) <-- W.L. Flower et al., Comb. Sci. Tech. 15, 115 (1977).
 The origin of the data is in shock tube experiments by [Flower1977] (p. 14, Fig. 7)
@@ -1396,7 +1396,7 @@ u"""
 Part of the "N2O Pathway"
 Rate taken from:
 Davidson, D.E, DiRosa, M.D., Chang, A.Y., & Hanson, R.K. (1991). 18th International Symposium on Shock Waves, Sendai, p. 813
-As reported by Dean & Bozzelli, see 2.5.4 omn p. 145
+As reported by Dean & Bozzelli, see 2.5.4 on p. 145
 """,
 )
 
@@ -1411,7 +1411,7 @@ u"""
 Part of the "N2O Pathway"
 Rate taken from:
 Davidson, D.E, DiRosa, M.D., Chang, A.Y., & Hanson, R.K. (1991). 18th International Symposium on Shock Waves, Sendai, p. 813
-As reported by Dean & Bozzelli, see 2.5.4 omn p. 145
+As reported by Dean & Bozzelli, see 2.5.4 on p. 145
 """,
 )
 
@@ -1498,7 +1498,7 @@ Part of the "N2O Pathway"
 k2A on p. 702
 T range: 1000-5000 K
 calculations done at the B3LYP/6-311G(d,p)//B3LYP/6-311G(d,p) level of theory
-For the low T range (300-1000 K) the reccomended rate for both "N2O + OH <=> N2 + HO2" and "N2O + OH <=> HNO + NO" is:
+For the low T range (300-1000 K) the recommended rate for both "N2O + OH <=> N2 + HO2" and "N2O + OH <=> HNO + NO" is:
     kinetics = Arrhenius(A=(2.87e+08, 'cm^3/(mol*s)'), n=0, Ea=(20436, 'cal/mol'), T0=(1, 'K')),
 """,
 )
@@ -1625,8 +1625,8 @@ Part of the "NNH Pathway"
 reaction 1 in [Varandas2005]
 Fits to a total of 972 MRCI energies (based on the aug-cc-pVQZ basis set of Dunning27), scaled by the DMBE-SEC
 method to account for excitations higher than singles and doubles and the incompleteness of the one-electron basis set.
-The fragmentation channel (N + NH <=> N + N + H) opens up at ~3000 K, and even at very high T (25000 K) it rate is
-an order of magnitute lower than N + NH <=> N2 + H. Although probably insignificant, it is brought here for completeness.
+The fragmentation channel (N + NH <=> N + N + H) opens up at ~3000 K, and even at very high T (25000 K) its rate is
+an order of magnitude lower than N + NH <=> N2 + H. Although probably insignificant, it is brought here for completeness.
 """,
 )
 
@@ -3288,8 +3288,8 @@ u"""
 Part of the "NO2 decomposition" subset
 T range: 300-3000 K
 calculations done at the B3LYP/6-311G-(d,p)//B3LYP/6-311G(d,p) level of theory
-conformer-dup: rate are for both cis-HONO and trans-HONO reactants
-Also available from [Lin1998b] (altough cited as "unpublished work"):
+conformer-dup: rate is for both cis-HONO and trans-HONO reactants
+Also available from [Lin1998b] (although cited as "unpublished work"):
     kinetics = Arrhenius(A=(2.00e+11, 'cm^3/(mol*s)'), n=0, Ea=(32700, 'cal/mol'), T0=(1, 'K')),
 """,
 )
@@ -3305,7 +3305,7 @@ u"""
 Part of the "NO2 decomposition" subset
 T range: 300-5000 K
 calculations done at the B3LYP/6-311G-(d,p)//B3LYP/6-311G(d,p) level of theory
-This route produces the cis-HONO, two other routs that produce the trans-HONO product exist, yet their rates are much smaller
+This route produces the cis-HONO, two other routes that produce the trans-HONO product exist, yet their rates are much smaller
 """,
 )
 
@@ -3321,7 +3321,7 @@ Part of the "NO2 decomposition" subset
 calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure calculations level
 Also available from [Herron1991]:
     kinetics = Arrhenius(A=(9.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(15100, 'cal/mol'), T0=(1, 'K'), Tmin=(700, 'K'), Tmax=(2500, 'K')),
-T range: 700-2500 K, Review and reccomendation, p. 660, 14,4
+T range: 700-2500 K, Review and recommendation, p. 660, 14,4
 """,
 )
 
@@ -3335,7 +3335,7 @@ entry(
 u"""
 Part of the "NO2 decomposition" subset
 T range: 700-2500 K
-Review and reccomendation, p. 662, 14,8
+Review and recommendation, p. 662, 14,8
 """,
 )
 
@@ -3821,7 +3821,7 @@ Part of the "NOx" subset
 Table 3 on p. 46
 T range: 300-2000 K
 calculations done at the B3LYP/6-311G(d,p)//B3LYP/6-311G(d,p) level of theory
-The 3-parameter Arrhenius parametes were fitted from the data in the table using Excel.
+The 3-parameter Arrhenius parameters were fitted from the data in the table using Excel.
 Probably not the best fit... but deviated only by ~5% above 1000 K (larger deviation at T < 1000 K)
 
 Also available from [Troe1975]:
