@@ -191,6 +191,20 @@ reaction families (CO_Disprop [also deals with CS], R_Add_CSm).
 )
 
 entry(
+    label = "N-N(S)",
+    species =
+"""
+1 N u0 p2 c0 {2,S}
+2 N u0 p2 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+This structure is not a stationary point, and should quickly become N#N
+""",
+)
+
+entry(
     label = "[N][N]",
     species =
 """
