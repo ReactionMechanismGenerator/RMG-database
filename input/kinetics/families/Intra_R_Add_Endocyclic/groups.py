@@ -7572,3 +7572,28 @@ from the side of the 6-member ring to the extended double bond.
 """,
 )
 
+forbidden(
+    label = "tricyclic_ring_closure",
+    group = 
+"""
+1     C u0 p0 c0 {2,B} {3,B} {7,B}
+2     C u0 p0 c0 {1,B} {4,B} {6,B}
+3     C u0 p0 c0 {1,B} {5,B} {11,S}
+4     C u0 p0 c0 {2,B} {8,B}
+5     C u0 p0 c0 {3,B} {8,B}
+6     C u0 p0 c0 {2,B} {10,B}
+7  *2 C u0 p0 c0 {1,B} {9,B}
+8     C u0 p0 c0 {4,B} {5,B}
+9  *3 C u0 p0 c0 {7,B} {10,B}
+10    C u0 p0 c0 {6,B} {9,B}
+11    C u0 p0 c0 {3,S} {12,D}
+12 *1 C u1 p0 c0 {11,D}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Prevent a from undergoing a highly strained ring closure 
+from the tip of the branch with radical to the outer edge of the ring.
+""",
+)
+
