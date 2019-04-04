@@ -58152,3 +58152,93 @@ Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Pentac
 Original entry: Acepentacyl + H <=> W4
 """,
 )
+
+entry(
+    index = 2896,
+    label = "C14H9 + C2H2 <=> C16H11",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (74980, 'cm^3/(mol*s)'),
+        n = 2.362,
+        Ea = (4.389, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: R1 + C2H2 <=> W1
+""",
+)
+
+entry(
+    index = 2897,
+    label = "H + C16H10 <=> C16H11-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.088e+09, 'cm^3/(mol*s)'),
+        n = 1.419,
+        Ea = (5.862, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: Phenanthryl-C2H + H <=> W1
+""",
+)
+
+entry(
+    index = 2898,
+    label = "H + C16H10-2 <=> C16H11-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.034e+08, 'cm^3/(mol*s)'),
+        n = 1.546,
+        Ea = (3.446, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: Phenanthryl-C2H + H <=> W3
+""",
+)
+
+entry(
+    index = 2899,
+    label = "H + C16H10-3 <=> C16H11-4",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(
+        A = (3.732e+08, 'cm^3/(mol*s)'),
+        n = 1.656,
+        Ea = (8.022, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: Pyrene + H <=> W2
+""",
+)
+
+entry(
+    index = 2900,
+    label = "H + C16H10-4 <=> C16H11-5",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(
+        A = (2.016e+09, 'cm^3/(mol*s)'),
+        n = 1.538,
+        Ea = (3.436, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: Pyrene + H <=> W5
+""",
+)

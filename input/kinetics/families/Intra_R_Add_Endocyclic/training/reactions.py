@@ -17514,3 +17514,29 @@ Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Pentac
 Original entry: W1 <=> W2
 """,
 )
+
+entry(
+    index = 845,
+    label = "C16H11 <=> C16H11-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8.752e+11, 's^-1'), n=0.046, Ea=(5.48, 'kcal/mol'), T0=(1, 'K')),
+    rank = 5,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: W1 <=> W2
+""",
+)
+
+entry(
+    index = 846,
+    label = "C16H11-3 <=> C16H11-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.563e+11, 's^-1'), n=0.186, Ea=(3.973, 'kcal/mol'), T0=(1, 'K')),
+    rank = 5,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: W4 <=> W5
+""",
+)

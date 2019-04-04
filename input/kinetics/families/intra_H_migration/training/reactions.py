@@ -9004,3 +9004,16 @@ Original entry: W3 <=> W1
 """,
 )
 
+entry(
+    index = 433,
+    label = "C16H11 <=> C16H11-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.546e+09, 's^-1'), n=0.732, Ea=(6.008, 'kcal/mol'), T0=(1, 'K')),
+    rank = 5,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: W1 <=> W4
+""",
+)
+
