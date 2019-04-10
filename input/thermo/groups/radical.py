@@ -10412,6 +10412,110 @@ See Aromatic_pi_S_(s1_6_6_diene_1_4)_1_3
 """,
 )
 
+entry(
+    index = 2080,
+    label = "Benzyl_S_Fused7",
+    group =
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cb u0 {1,S} {5,B}
+3   C  u0 {1,S} {8,[S,D,T,B]}
+4   H  u0 {1,S}
+5   Cb u0 {2,B} {6,S}
+6   C  u0 {5,S} {7,[S,D,T,B]}
+7   C  u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
+8   C  u0 {7,[S,D,T,B]} {3,[S,D,T,B]}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.420000,-1.640000,-1.860000,-2.180000,-2.740000,-3.340000,-4.500000],'cal/(mol*K)','+|-',[1.479200,1.479200,1.479200,1.479200,1.479200,1.479200,1.479200]),
+        H298 = (92.100000,'kcal/mol','+|-',5.457800),
+        S298 = (4.720000,'cal/(mol*K)','+|-',4.205000),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 04/2019, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Compounds include:
+C1=CC=C2CCCC[CH]C2=C1
+""",
+)
+
+entry(
+    index = 2081,
+    label = "Aromatic_pi_S_(fused7)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S} {8,S}
+6   Cs u0 {5,S} {1,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {5,S} {12,S}
+9   C u0 {6,S} {10,S}
+10  C u0 {9,S} {11,S}
+11  C u0 {10,S} {12,S}
+12  C u0 {11,S} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.084287,-0.439484,-1.009838,-1.616804,-2.484153,-3.292077,-4.579234],'cal/(mol*K)','+|-',[1.080010,1.080010,1.080010,1.080010,1.080010,1.080010,1.080010]),
+        H298 = (76.425234,'kcal/mol','+|-',4.190161),
+        S298 = (0.527688,'cal/(mol*K)','+|-',2.029750),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 04/2019, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Compounds include:
+C1=CC=C2CCCCCC2[CH]1
+C1=CC=C2CCCCC(C)C2[CH]1
+""",
+)
+
+entry(
+    index = 2082,
+    label = "CJ-Cd-Benzene7",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {5,D}
+3   Cs u0 {1,S} {8,S}
+4   H  u0 {1,S}
+5   Cd u0 {2,D} {6,S}
+6   Cb u0 {7,B} {5,S}
+7   Cb u0 {6,B} {8,S}
+8   Cs u0 {3,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.300000,-0.500000,-1.000000,-1.500000,-2.500000,-3.300000,-4.500000],'cal/(mol*K)','+|-',[2.464200,2.464200,2.464200,2.464200,2.464200,2.464200,2.464200]),
+        H298 = (80.700000,'kcal/mol','+|-',7.325600),
+        S298 = (1.000000,'cal/(mol*K)','+|-',3.864200),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 04/2019, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Compounds include:
+C1=CC=C2CC[CH]C=CC2=C1
+""",
+)
+
 tree(
 """
 L1: Radical
@@ -10520,12 +10624,14 @@ L1: Radical
                         L7: Benzyl_S_Fused5
                         L7: Benzyl_S_Fused6
                             L8: Benzyl_S_dihydronaphthalene
+						L7: Benzyl_S_Fused7
                     L6: Allyl_S
                         L7: Aromatic_pi_S_1_3
                             L8: Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
                                 L9: Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
                                     L10: Aromatic_pi_S_(fused5)_1_3
                                     L10: Aromatic_pi_S_(fused6)_1_3
+                                    L10: Aromatic_pi_S_(fused7)_1_3
                                     L10: Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3
                                         L11: Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3
                             L8: Aromatic_pi_S_(CH3_CH3_Meta)_1_3_1
@@ -10549,6 +10655,7 @@ L1: Radical
                                     L10: Aromatic_pi_S_(CH3_Benzyl_Sub)_1_3
                                         L11: Aromatic_pi_S_(CH3_EBenzyl_Sub)_1_3
                         L7: CJ-Cd-Benzene
+                        L7: CJ-Cd-Benzene7
                         L7: cyclobutene-allyl
                         L7: cyclopentene-allyl
                         L7: cyclohexene-allyl
