@@ -43529,6 +43529,25 @@ u"""
 )
 
 entry(
+    index = 1400,
+    label = "Sc",
+    group = 
+"""
+1 * S ux px c+1
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5,5,5,5,5,5,5],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (200,'kcal/mol','+|-',1),
+        S298 = (20,'cal/(mol*K)','+|-',1),
+    ),
+    shortDesc = u"""Knocks out charged thermo""",
+    longDesc =
+u"""
+""",
+)
+
+entry(
     index = -1,
     label = "S2d",
     group = 
@@ -51301,6 +51320,7 @@ L1: R
     L2: Si
         L3: SiJ2(S)
     L2: S
+	L3: Sc
         L3: Sa(S)
         L3: S2d
             L4: S2d-C
