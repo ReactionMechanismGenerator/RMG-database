@@ -7900,32 +7900,6 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 
 entry(
     index = 161,
-    label = "",
-    molecule = 
-"""
-
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[3.87423,0.00801583,0.000249858,-5.03144e-07,3.21106e-10,1867.79,11.8401], Tmin=(10,'K'), Tmax=(479.629,'K')),
-            NASAPolynomial(coeffs=[-2.05094,0.0807002,-5.0231e-05,1.51223e-08,-1.75846e-12,2168.52,33.2819], Tmin=(479.629,'K'), Tmax=(3000,'K')),
-        ],
-        Tmin = (10,'K'),
-        Tmax = (3000,'K'),
-        E0 = (15.4989,'kJ/mol'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (473.925,'J/(mol*K)'),
-    ),
-    shortDesc = u"""library value for ____ calculated by Lawrence Lai""",
-    longDesc = 
-u"""
-Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
-Location of calculations Pharos/home/laitcl/Gaussian/2019/
-""",
-)
-
-entry(
-    index = 162,
     label = "MethylRad",
     molecule = 
 """
@@ -7963,7 +7937,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 )
 
 entry(
-    index = 163,
+    index = 162,
     label = "s2_6_7_diene",
     molecule = 
 """
@@ -8023,7 +7997,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 )
 
 entry(
-    index = 164,
+    index = 163,
     label = "BenzocyclohepteneRad",
     molecule = 
 """
@@ -8083,7 +8057,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 )
 
 entry(
-    index = 165,
+    index = 164,
     label = "MethylbenzocyclohepteneRad",
     molecule = 
 """
@@ -8146,7 +8120,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 )
 
 entry(
-    index = 166,
+    index = 165,
     label = "Benzocycloheptene",
     molecule = 
 """
@@ -8204,7 +8178,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 )
 
 entry(
-    index = 167,
+    index = 166,
     label = "BenzocycloheptadieneRad",
     molecule = 
 """
@@ -8262,7 +8236,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 )
 
 entry(
-    index = 168,
+    index = 167,
     label = "Benzocycloheptadiene",
     molecule = 
 """
@@ -8303,6 +8277,12 @@ entry(
                 Tmax = (3000, 'K'),
             ),
         ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (92.5174, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (557.07, 'J/(mol*K)'),
+    ),
     shortDesc = u"""library value for C1=CC=C2CCCC=CC2=C1 calculated by Lawrence Lai""",
     longDesc = 
 u"""
@@ -8312,7 +8292,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 )
 
 entry(
-    index = 169,
+    index = 168,
     label = "BenzocycloheptatrieneRad",
     molecule = 
 """
@@ -8368,7 +8348,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 )
 
 entry(
-    index = 170,
+    index = 169,
     label = "Benzocycloheptatriene",
     molecule = 
 """
