@@ -9017,3 +9017,29 @@ Original entry: W1 <=> W4
 """,
 )
 
+entry(
+    index = 434,
+    label = "C8H7-3 <=> C8H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.9e+12, 's^-1'), n=0.45, Ea=(45.74, 'kcal/mol'), T0=(1, 'K')),
+    rank = 5,
+    longDesc = 
+u"""
+Training reaction from Tokmakov and Lin, J. AM. CHEM. SOC. 2003, 125, 11397-11408.
+Original entry: 2-Phenylvinyl <=> 1-Phenylvinyl
+""",
+)
+
+entry(
+    index = 435,
+    label = "C8H7-3 <=> C8H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.9e+12, 's^-1'), n=0.45, Ea=(45.74, 'kcal/mol'), T0=(1, 'K')),
+    rank = 5,
+    longDesc = 
+u"""
+Training reaction from Tokmakov and Lin, J. AM. CHEM. SOC. 2003, 125, 11397-11408.
+Original entry: 2-Phenylvinyl <=> 1-Phenylvinyl
+""",
+)
+

@@ -17540,3 +17540,56 @@ Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenan
 Original entry: W4 <=> W5
 """,
 )
+
+entry(
+    index = 847,
+    label = "C8H7-3 <=> C8H7-4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.62e+11, 's^-1'), n=0.43, Ea=(33.17, 'kcal/mol'), T0=(1, 'K')),
+    rank = 5,
+    longDesc = 
+u"""
+Tokmakov and Lin, J. AM. CHEM. SOC. 2003, 125, 11397-11408.
+Original entry: 2-Phenylvinyl <=> W5
+""",
+)
+
+entry(
+    index = 848,
+    label = "C8H7-5 <=> C8H7-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+11, 's^-1'), n=0.43, Ea=(30.86, 'kcal/mol'), T0=(1, 'K')),
+    rank = 5,
+    longDesc = 
+u"""
+Tokmakov and Lin, J. AM. CHEM. SOC. 2003, 125, 11397-11408.
+Original entry: 2-Vinylphenyl <=> W8
+""",
+)
+
+entry(
+    index = 849,
+    label = "C8H7-3 <=> C8H7-4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.62e+11, 's^-1'), n=0.43, Ea=(33.17, 'kcal/mol'), T0=(1, 'K')),
+    rank = 5,
+    longDesc = 
+u"""
+Tokmakov and Lin, J. AM. CHEM. SOC. 2003, 125, 11397-11408.
+Original entry: 2-Phenylvinyl <=> W5
+""",
+)
+
+entry(
+    index = 850,
+    label = "C8H7-5 <=> C8H7-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+11, 's^-1'), n=0.43, Ea=(30.86, 'kcal/mol'), T0=(1, 'K')),
+    rank = 5,
+    longDesc = 
+u"""
+Tokmakov and Lin, J. AM. CHEM. SOC. 2003, 125, 11397-11408.
+Original entry: 2-Vinylphenyl <=> W8
+""",
+)
+
