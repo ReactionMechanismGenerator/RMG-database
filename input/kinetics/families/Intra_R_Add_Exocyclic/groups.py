@@ -3677,6 +3677,50 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 256,
+    label = "R4_S-CC_(C)_B",
+    group = 
+"""
+1 *1 R!H      u1 {2,S} {5,[S,D,T,B]}
+2 *4 C        u0 {1,S} {3,S}
+3 *2 Cb       u0 {2,S} {4,B}
+4 *3 [Cb,Cbf] u0 c0 {3,B}
+5    C        u0 {1,[S,D,T,B]} {6,[S,D,T,B]}
+6    C        u0 {5,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 257,
+    label = "R4_S_(C(CC))_B",
+    group = 
+"""
+1 *1 R!H      u1 {2,S}
+2 *4 C        u0 {1,S} {3,S} {5,[S,D,T,B]}
+3 *2 Cb       u0 {2,S} {4,B}
+4 *3 [Cb,Cbf] u0 c0 {3,B}
+5    C        u0 {2,[S,D,T,B]} {6,[S,D,T,B]}
+6    C        u0 {5,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 258,
+    label = "R4_S_(C=(C))_B",
+    group = 
+"""
+1 *1 R!H      u1 {2,S}
+2 *4 C        u0 {1,S} {3,S} {5,D}
+3 *2 Cb       u0 {2,S} {4,B}
+4 *3 [Cb,Cbf] u0 c0 {3,B}
+5    C        u0 {2,D}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Rn
@@ -3690,6 +3734,9 @@ L1: Rn
             L4: R4_S_B
                 L5: R4_S_(O)_B
                 L5: R4_S_(C)_B
+					L6: R4_S-CC_(C)_B
+					L6: R4_S_(C=(C))_B
+					L6: R4_S_(C(CC))_B
             L4: R4_S_CO
             L4: R4_S_CS
         L3: R4_D
