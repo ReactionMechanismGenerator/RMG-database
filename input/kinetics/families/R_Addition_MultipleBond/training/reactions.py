@@ -57901,3 +57901,83 @@ Addition to subtituted Site
 More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
 """,
 )
+
+entry(
+    index = 2889,
+    label = "C6H5 + C8H10-7 <=> C14H15-44",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (7.05685, 'cm^3/(mol*s)'),
+        n = 3.09388,
+        Ea = (8.15269, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Lawrence Lai'", "'Hao-Wei Pang'", "'William H. Green'"],
+        title = 'Formation of 2-Ring Aromatics in Hexylbenzene Pyrolysis',
+        journal = "'Energy And Fuels'",
+        year = "'2019'",
+    ),
+    referenceType = "theory",
+    rank = 5,
+    shortDesc = u"Calculation performed by Lawrence Lai, 2019, CBS-QB3 level of theory",
+    longDesc = 
+u"""
+Location of calculations Pharos/home/laitcl/Gaussian/2019/
+Calculations performed in CBS-QB3 level of theory, with 1-D hindered rotors included in B3LYP/CBSB7 level
+Reaction: C1=CC=CC=[C]1 (Phenyl Radical) + CCC1C=CC=CC=1 (Ethylbenzene) <=> C1=CC=C(C=C1)C(CC)1C=CC=C[CH]1
+""",
+)
+
+entry(
+    index = 2890,
+    label = "C2H5 + C12H10-3 <=> C14H15-55",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (103.514, 'cm^3/(mol*s)'),
+        n = 2.90893,
+        Ea = (44.9425, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Lawrence Lai'", "'Hao-Wei Pang'", "'William H. Green'"],
+        title = 'Formation of 2-Ring Aromatics in Hexylbenzene Pyrolysis',
+        journal = "'Energy And Fuels'",
+        year = "'2019'",
+    ),
+    referenceType = "theory",
+    rank = 5,
+    shortDesc = u"Calculation performed by Lawrence Lai, 2019, CBS-QB3 level of theory",
+    longDesc = 
+u"""
+Location of calculations Pharos/home/laitcl/Gaussian/2019/
+Calculations performed in CBS-QB3 level of theory, with 1-D hindered rotors included in B3LYP/CBSB7 level
+Reaction: C[CH2] (Ethyl Radical) + C1=CC=C(C=C1)C1C=CC=CC=1 (Biphenyl) <=> C1=CC=C(C=C1)C(CC)1C=CC=C[CH]1
+""",
+)
+
+entry(
+    index = 2891,
+    label = "C6H6-2 + CH3 <=> C7H9-72",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (126531, 'cm^3/(mol*s)'),
+        n = 2.32659,
+        Ea = (42.0038, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"Calculation performed by Lawrence Lai, 2019, CBS-QB3 level of theory",
+    longDesc = 
+u"""
+Location of calculations Pharos/home/laitcl/Gaussian/2019/
+Calculations performed in CBS-QB3 level of theory, with 1-D hindered rotors included in B3LYP/CBSB7 level
+Reaction: Benzene + Methyl Radical <=> CC1[CH]C=CC=C1
+""",
+)

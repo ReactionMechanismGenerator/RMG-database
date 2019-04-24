@@ -404,11 +404,13 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
+	allow_max_rate_violation=True,
     shortDesc = u"Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory",
     longDesc = 
     u"""
     Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
 	Location of calculations Pharos/home/laitcl/Gaussian/2019/
+	This rate violates the TST limit by a factor of 2 at 1000K. Likely caused by thermo. 
     """
 )
 
