@@ -1304,7 +1304,7 @@ multiplicity 2
 28 H u0 p0 c0 {12,S}
 29 H u0 p0 c0 {12,S}
 
-Rad5
+rad5
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
 2  C u0 p0 c0 {1,S} {3,S} {15,S} {16,S}

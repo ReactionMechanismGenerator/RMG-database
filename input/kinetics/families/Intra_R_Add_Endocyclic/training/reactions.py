@@ -17304,13 +17304,23 @@ entry(
         Ea=(27.5998, 'kJ/mol'),
         T0=(1, 'K'),
     ),
-    rank = 3,
+    reference = Article(
+        authors = ["'Sarah Khanniche'", "'Lawrence Lai'", "'William H. Green'"],
+        title = 'Kinetics of Intramolecular Phenyl Migration and Fused Ring Formation in Hexylbenzene Radicals',
+        journal = "'J. Phys. Chem. A.'",
+        volume = "'122 (51)'",
+        pages = "'9778-9791'",
+        year = "'2018'",
+    ),
+    referenceType = "theory",
+    rank = 5,
     shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
     longDesc = 
 u"""
+Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
 Training reaction from kinetics library: Lai_Hexylbenzene
 Calculation for rad4 <=> EthyltetralinRad
-Level of Theory: CBS-QB3
+Level of Theory: CBS-QB3 with 1-D Hindered Rotors at B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/intra_R_Add
 """,
 )
@@ -17325,13 +17335,53 @@ entry(
         Ea = (57.6245, 'kJ/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    reference = Article(
+        authors = ["'Sarah Khanniche'", "'Lawrence Lai'", "'William H. Green'"],
+        title = 'Kinetics of Intramolecular Phenyl Migration and Fused Ring Formation in Hexylbenzene Radicals',
+        journal = "'J. Phys. Chem. A.'",
+        volume = "'122 (51)'",
+        pages = "'9778-9791'",
+        year = "'2018'",
+    ),
+    referenceType = "theory",
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for rad3 <=> PropylindaneRad
+Level of Theory: CBS-QB3 with 1-D Hindered Rotors at B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2018/intra_R_Add
+""",
+)
+
+entry(
+    index = 842,
+    label = "C12H17-59 <=> C12H17-60",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (17725.7, 's^-1'),
+        n = 1.16281,
+        Ea = (42.1994, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Lawrence Lai'", "'Hao-Wei Pang'", "'William H. Green'"],
+        title = 'Formation of 2-Ring Aromatics in Hexylbenzene Pyrolysis',
+        journal = "'Energy And Fuels'",
+        year = "'2019'",
+    ),
+    referenceType = "theory",
+    rank = 5,
     shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
     longDesc = 
 u"""
 Training reaction from kinetics library: Lai_Hexylbenzene
-Calculation for rad3 <=> PropylindaneRad
-Level of Theory: CBS-QB3
-Location of calculations Pharos/home/laitcl/Gaussian/2018/intra_R_Add
+Calculation for rad5 <=> methylbenzocyclohepteneRad
+Level of Theory: CBS-QB3 with 1-D Hindered Rotors at B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2019/
 """,
 )
