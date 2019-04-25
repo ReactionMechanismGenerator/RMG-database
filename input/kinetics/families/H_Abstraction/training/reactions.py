@@ -21,7 +21,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + *CH2CH2CH2CH2OH = nButanol + HO2
@@ -56,7 +56,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3*CHCH2CH2OH = nButanol + HO2
@@ -91,7 +91,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3CH2*CHCH2OH = nButanol + HO2
@@ -126,7 +126,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3CH2CH2*CHOH = nButanol + HO2
@@ -161,7 +161,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + *CH2CH2CH[OH]CH3 = 2-Butanol + HO2
@@ -188,7 +188,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3*CHCH[OH]CH3 = 2-Butanol + HO2
@@ -215,7 +215,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3CH2*C[OH]CH3 = 2-Butanol + HO2
@@ -242,7 +242,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3CH2CH[OH]*CH2 = 2-Butanol + HO2
@@ -269,7 +269,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + HOC[*CH2][CH3][CH3] = tert-Butanol + HO2
@@ -296,7 +296,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 CH2O + H2C=C[*CH2][CH3] = HCO + H2C=C[CH3]2
@@ -309,10 +309,10 @@ The external symmetry number for CH2O and iso-butene was 2; the external symmetr
 electronic spin multiplicity was 1 for CH2O and iso-butene; the electronic spin multiplicity for all others was 2.
 
 There are no rate coefficients for this reaction in the literature (based on MRH's limited search).
-   Tsang {J. Phys. Chem. Ref. Data 20 (1991) 221-273} recommends the following for the reaction of 
+   Tsang {J. Phys. Chem. Ref. Data 20 (1991) 221-273} recommends the following for the reaction of
    CH2O + H2C=CH-*CH2 = HCO + H2C=CH-CH3: k(T) = 1.26e+08 * T^1.9 * exp(-18.184 kcal/mol / RT) cm3 mol-1 s-1.
    This rate coefficient is 25-85x faster than MRH's calculation over the range 600-2000K.
-   
+
    The previous estimate by RMG for this reaction was: k(T) = 5.500e+03 * T^2.81 * exp(-5.86 kcal/mol / RT) cm3 mol-1 s-1.
    This rate coefficient is 80-13,000x faster than MRH's calculation over the range 600-2000K.
 """,
@@ -332,7 +332,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -360,7 +360,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -388,7 +388,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -416,7 +416,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -444,7 +444,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -472,7 +472,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -500,7 +500,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -532,7 +532,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -564,7 +564,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -592,7 +592,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -620,7 +620,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -652,7 +652,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -684,7 +684,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -712,7 +712,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -740,7 +740,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -772,7 +772,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -800,7 +800,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -828,7 +828,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -856,7 +856,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -884,7 +884,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -912,7 +912,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -940,7 +940,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -968,7 +968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 SSM CBS-QB3 calculations w/RRHO.
 
@@ -996,7 +996,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 SSM CBS-QB3 calculations w/RRHO.
 The rate rule is valid in a range of temperature from 300 -2000 K.
@@ -1026,7 +1026,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 SSM CBS-QB3 calculations w/RRHO.
 The rate rule is valid in a range of temperature from 300 -2000 K.
@@ -1056,7 +1056,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 2 to account for summetry of H2O2
 The rate rule is valid in a range of temperature from 300 -2000 K.
@@ -1086,7 +1086,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Exact reaction: HOOH + *O-CH=CH-C2H5 <=> HO-CH=CH-C2H5 + HOO*
 Rxn family nodes: H2O2 + InChI=1/C4H7O/c1-2-3-4-5/h3-4H,2H2,1H3
@@ -1121,7 +1121,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Exact reaction: HOOH + *O-O-CH3 <=> HO-O-CH3 + HOO*
 Rxn family nodes: H2O2 + OOCH3
@@ -1156,7 +1156,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations, w/1dHR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/1d hindered rotor corrections
 Exact reaction: CH3CH2CH=CH2 + OOCH3 = HOOCH3 + CH3CHCH=CH2
@@ -1200,7 +1200,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
-    longDesc = 
+    longDesc =
 u"""
 MHS CBS-QB3 calculations w/1d hindered rotor corrections
 Exact reaction: *CH2-CH=CH2 + H2O2 = CH3-CH=CH2 + HO2
@@ -1235,7 +1235,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MHS CBS-QB3 w/o 1dHR calculations""",
-    longDesc = 
+    longDesc =
 u"""
 MHS CBS-QB3 calculations without 1d hindered rotor correction (due to presence of hydrogen bond interactions)
 Exact reaction: HO2 + CH3-CH2-CH2-CH=O = H2O2 + CH3-CH2-CH2-C*=O
@@ -1263,7 +1263,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -1295,7 +1295,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
-    longDesc = 
+    longDesc =
 u"""
 CC(=O)C + OH --> CJC(=O)C + H2O
 
@@ -1325,7 +1325,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
-    longDesc = 
+    longDesc =
 u"""
 CC(=O)CC + OH --> CJC(=O)CC + H2O
 
@@ -1355,7 +1355,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
-    longDesc = 
+    longDesc =
 u"""
 CC(=O)CC + OH --> CC(=)CJC + H2O
 
@@ -1385,7 +1385,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
-    longDesc = 
+    longDesc =
 u"""
 CC(=O)CC + OH --> CC(=O)CCJ + H2O
 
@@ -1415,7 +1415,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
-    longDesc = 
+    longDesc =
 u"""
 CC(=O)C(C)C + OH --> CJC(=O)C(C)C
 
@@ -1445,7 +1445,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
-    longDesc = 
+    longDesc =
 u"""
 CC(=O)C(C)C + OH --> CC(=O)CJ(C)C
 
@@ -1475,7 +1475,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
-    longDesc = 
+    longDesc =
 u"""
 CC(=O)C(C)C + OH --> CC(=O)C(C)CJ + H2O
 
@@ -1505,7 +1505,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Zador CCSD(T) calc""",
-    longDesc = 
+    longDesc =
 u"""
 Rate comes from quantum calculation by J. Zador at CCSD(T) level
 [ This rate was obtained by personal communication as of Sept 2012]
@@ -1526,7 +1526,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Glarborg CBS-QB3 calc""",
-    longDesc = 
+    longDesc =
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
 J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
@@ -1547,7 +1547,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Glarborg CBS-QB3 calc""",
-    longDesc = 
+    longDesc =
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
 J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
@@ -1568,7 +1568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Glarborg CBS-QB3 calc""",
-    longDesc = 
+    longDesc =
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
 J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
@@ -1589,7 +1589,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Glarborg CBS-QB3 calc""",
-    longDesc = 
+    longDesc =
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
 J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
@@ -1610,7 +1610,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Glarborg CBS-QB3 calc""",
-    longDesc = 
+    longDesc =
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
 J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
@@ -1631,7 +1631,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Glarborg CBS-QB3 calc""",
-    longDesc = 
+    longDesc =
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
 J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
@@ -1652,7 +1652,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Glarborg CBS-QB3 calc""",
-    longDesc = 
+    longDesc =
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
 J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
@@ -1673,7 +1673,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Glarborg CBS-QB3 calc""",
-    longDesc = 
+    longDesc =
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
 J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
@@ -1694,7 +1694,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Glarborg CBS-QB3 calc""",
-    longDesc = 
+    longDesc =
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
 J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
@@ -1715,7 +1715,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Glarborg CBS-QB3 calc""",
-    longDesc = 
+    longDesc =
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
 J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
@@ -1736,7 +1736,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Glarborg CBS-QB3 calc""",
-    longDesc = 
+    longDesc =
 u"""
 Rate comes from quantum calculation at CBS-QB3 level
 J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
@@ -1757,7 +1757,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 k8 in S. Xu, M.C. Lin, Proceedings of the Combustion Institute, 2009, 32, 99-106, doi: 10.1016/j.proci.2008.07.011
 Done at the CCSD(T)/6-311+G(3df,2p)//CCSD/6-311++G(d,p) level of theory
@@ -1779,7 +1779,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 k13 in S. Xu, M.C. Lin, Proceedings of the Combustion Institute, 2009, 32, 99-106, doi: 10.1016/j.proci.2008.07.011
 Done at the CCSD(T)/6-311+G(3df,2p)//CCSD/6-311++G(d,p) level of theory
@@ -1794,7 +1794,7 @@ entry(
     kinetics = Arrhenius(A=(1.6e+14, 'cm^3/(mol*s)'), n=0, Ea=(25138, 'cal/mol'), T0=(1, 'K')),
     rank = 1,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 D.F. Davidson, R.K. Hanson, Int. J. Chem. Kin., 1990, 22(8), 843-861, doi: 10.1002/kin.550220805
 """,
@@ -1814,7 +1814,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 P. Raghunath, Y.H. Lin, M.C. Lin, Computational and Theoretical Chemistry, 2014, 1046, 73-80, doi: 10.1016/j.comptc.2014.07.011
 calculations done at the CCSD(T)/CBS//CCSD level of theoty,
@@ -1836,7 +1836,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 k7 in: S. Xu, M.C. Lin, J. Phys. Chem. A, 2007, 111, 6730-6740, doi: 10.1021/jp069038+
 Done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory
@@ -1845,7 +1845,7 @@ Done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory
 
 entry(
     index = 66,
-    label = "NH3_r + NO <=> NH2_p1 + HNO_p",
+    label = "NH3_r12 + NO <=> NH2_p1 + HNO_p",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (1.04e+07, 'cm^3/(mol*s)'),
@@ -1857,7 +1857,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 A.M. Mebel, E.W.G. Diau, M.C. Lin, K.Morokuma, J. Phys. Chem., 1996, 100, 7517-7525, doi: 10.1021/jp953644f
 k1 on p. 7519
@@ -1882,7 +1882,7 @@ calculations done at the HEAT-456QP level of theory
 
 entry(
     index = 68,
-    label = "NH2_r3 + CH4b <=> NH3_p23 + CH3_p1",
+    label = "NH2_r3 + CH4_r12 <=> NH3_p23 + CH3_p1",
     degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (13600, 'cm^3/(mol*s)'),
@@ -1894,7 +1894,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 A.M. Mebel, L.V. Moskaleva, M.C. Lin, J. Molec. Struc. (Theochem), 1999, 461-462, 223-238, doi: 10.1016/S0166-1280(98)00423-0
 k2 on p. 232
@@ -1904,7 +1904,7 @@ calculations done at the G2M//B3LYP/6-311G(d,p) level of theory
 
 entry(
     index = 69,
-    label = "NH2_r3 + H2O <=> NH3_p23 + OH_p1",
+    label = "NH2_r3 + H2O_r12 <=> NH3_p23 + OH_p1",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (2.62e+13, 'cm^3/(mol*s)'),
@@ -1916,7 +1916,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 A.M. Mebel, L.V. Moskaleva, M.C. Lin, J. Molec. Struc. (Theochem), 1999, 461-462, 223-238, doi: 10.1016/S0166-1280(98)00423-0
 k4 on p. 233
@@ -1940,7 +1940,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 J. Peng, X. Hu, P. Marshall, J. Phys. Chem. A, 1999, 103, 5307-5311, doi: 10.1021/jp984242l
 Combined experimental (298-598 K) and computational calculation at the QCISD(T)/6-311+G(3df,2p) level
@@ -1962,7 +1962,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 C.R. Zhou, K. Sendt, B.S. Haynes, J. Phys. Chem. A, 2008, 112, 3239-3247, doi: 10.1021/jp710488d
 calculations done at the MRCI/aug-cc-pV(Q+d)Z//MRCI/aug-cc-pVTZ level of theory
@@ -1983,7 +1983,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 Shock Tube
 H. Shiina, M. Oya, K. Yamashita, A. Miyoshi, H. Matsui, J. Phys. Chem., 1996, 100(6), 2136-2140, doi: 10.1021/jp952472j
@@ -2004,7 +2004,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 K. Tsuchiya, K. Yamashita, A. Miyoshi, H. Matsui, J. Phys. Chem., 1996, 100(43), 17202-17206, doi: 10.1021/jp961252i
 Shock Tube
@@ -2026,7 +2026,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 K. Tsuchiya, K. Yamashita, A. Miyoshi, H. Matsui, J. Phys. Chem., 1996, 100(43), 17202-17206, doi: 10.1021/jp961252i
 Shock Tube
@@ -2048,7 +2048,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
 TST
@@ -2069,7 +2069,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
 TST
@@ -2090,7 +2090,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
 TST
@@ -2111,7 +2111,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
 TST
@@ -2132,7 +2132,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 K. Sendt, M. Jazbec, B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi: 10.1016/S1540-7489(02)80297-8
 TST
@@ -2153,7 +2153,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 C.C. Hsu, M.C. Lin, A.M. Mebel, C.F. Melius, J. Phys. Chem. A, 1997, 101(1), 60-66, doi: 10.1021/jp962286t
 G2 and BAC-MP4
@@ -2174,7 +2174,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 M.R. Soto, M. Page, J. Chem. Phys., 1992, 97, 7287, doi: 10.1063/1.463501
 calculations done at the CASSCF//(CASSCF and CISD) levels of theory
@@ -2195,7 +2195,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 J.W. Boughton, S. Kristyan, M.C. Lin, Chemical Physics, 1997, 214(2-3), 219-227, doi: 10.1016/S0301-0104(96)00313-8
 CTST
@@ -2216,7 +2216,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 Z.F. Xu, M.C. Lin, Int. J. Chem. Kin., 2004, 36(4), 205-215, doi: 10.1002/kin.10178
 calculations done at the G2M//BH&HLYP/6-311G(d, p) level of theory
@@ -2237,7 +2237,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 Z.F. Xu, M.C. Lin, Int. J. Chem. Kin., 2003, 35(5), 184-190, doi: 10.1002/kin.10115
 calculations done at the G2M//B3LYP/6-311+G(d,p) and G2M//MPW1PW91/6-311+G(3df,2p) levels of theory
@@ -2259,7 +2259,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 W.S. Xia, M.C. Lin, J. Chem. Phys., 2001, 114, 4522-4532, doi: 10.1063/1.1337061
 calculations done at the B3LYP/6-311G(d,p)//B3LYP/6-311G(d,p) level of theory
@@ -2280,7 +2280,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 W. Tsang, J.T. Herron, Journal of Physical and Chemical Reference Data, 1991, 20, 609, doi: 10.1063/1.555890
 Review and reccomendation, based on 5 different experimental studies
@@ -2301,7 +2301,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 W. Tsang, J.T. Herron, Journal of Physical and Chemical Reference Data, 1991, 20, 609, doi: 10.1063/1.555890
 Review and reccomendation, based on experimental studies
@@ -2322,7 +2322,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 W. Tsang, J.T. Herron, Journal of Physical and Chemical Reference Data, 1991, 20, 609, doi: 10.1063/1.555890
 Review and reccomendation, based on experimental studies
@@ -2343,7 +2343,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 WK.E. Kerr, I.M. Alecu, K.M. Thompson, Y. Gao, P. Marshall, J. Phys. CHem. A, 2015, 119, 7352-7360, doi: 10.1021/jp512966a
 Table 5, R1
@@ -2365,7 +2365,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 WK.E. Kerr, I.M. Alecu, K.M. Thompson, Y. Gao, P. Marshall, J. Phys. CHem. A, 2015, 119, 7352-7360, doi: 10.1021/jp512966a
 Table 5, R2
@@ -2387,7 +2387,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 (R2) in:
 K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
@@ -2409,7 +2409,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 (R3a) in:
 K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
@@ -2431,7 +2431,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 (R3b) in:
 K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
@@ -2453,7 +2453,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 (R4a) in:
 K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
@@ -2475,7 +2475,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 (R4b) in:
 K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
@@ -2497,7 +2497,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 (R5a) in:
 K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
@@ -2519,7 +2519,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 (R5b) in:
 K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
@@ -2541,7 +2541,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 (R6) in:
 K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
@@ -2563,7 +2563,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 (R7a) in:
 K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
@@ -2585,7 +2585,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 (R7b) in:
 K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
@@ -2607,7 +2607,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 (R8) in:
 K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
@@ -2629,7 +2629,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 (R9) in:
 K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
@@ -2651,7 +2651,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 (R10) in:
 K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
@@ -2673,7 +2673,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 (R11a) in:
 K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
@@ -2695,7 +2695,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 (R11b) in:
 K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
@@ -2717,7 +2717,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 (R13) in:
 K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
@@ -2739,7 +2739,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 (R12) in:
 K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
@@ -2761,7 +2761,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 (R14) in:
 K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
@@ -2783,7 +2783,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 (R15) in:
 K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
@@ -2805,7 +2805,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 (R16) in:
 K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Chem. Phys. A 2017, 121, 3332-2231,
@@ -2827,7 +2827,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3
 doi: 10.1016/j.combustflame.2015.10.032
@@ -2848,7 +2848,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3
 doi: 10.1016/j.combustflame.2015.10.032
@@ -2869,7 +2869,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3
 doi: 10.1016/j.combustflame.2015.10.032
@@ -2890,7 +2890,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3
 doi: 10.1016/j.combustflame.2015.10.032
@@ -2911,7 +2911,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3
 doi: 10.1016/j.combustflame.2015.10.032
@@ -2932,7 +2932,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3
 doi: 10.1016/j.combustflame.2015.10.032
@@ -2953,7 +2953,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3
 doi: 10.1016/j.combustflame.2015.10.032
@@ -2974,7 +2974,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3
 doi: 10.1016/j.combustflame.2015.10.032
@@ -2995,7 +2995,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3
 doi: 10.1016/j.combustflame.2015.10.032
@@ -3016,7 +3016,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""VTST CCSD(T)/6-311++g(2d,2p)""",
-    longDesc = 
+    longDesc =
 u"""
 S. Li, E. Dames, D.F. Davidson, R.K. Hanson
 "High-Temperature Measurements of the Reactions of OH with Ethylamine and Dimethylamine"
@@ -3040,7 +3040,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""VTST CCSD(T)/6-311++g(2d,2p)""",
-    longDesc = 
+    longDesc =
 u"""
 S. Li, E. Dames, D.F. Davidson, R.K. Hanson
 "High-Temperature Measurements of the Reactions of OH with Ethylamine and Dimethylamine"
@@ -3064,7 +3064,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""VTST CCSD(T)/6-311++g(2d,2p)""",
-    longDesc = 
+    longDesc =
 u"""
 S. Li, E. Dames, D.F. Davidson, R.K. Hanson
 "High-Temperature Measurements of the Reactions of OH with Ethylamine and Dimethylamine"
@@ -3088,7 +3088,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3
 """,
@@ -3108,7 +3108,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3
 """,
@@ -3116,7 +3116,7 @@ CBS-QB3
 
 entry(
     index = 125,
-    label = "N2H4_r12 + NH2_r3 <=> N2H3_p1 + NH3_p23",
+    label = "N2H4 + NH2_r3 <=> N2H3 + NH3_p23",
     degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (2590, 'cm^3/(mol*s)'),
@@ -3128,7 +3128,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3
 """,
@@ -3148,7 +3148,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3
 """,
@@ -3168,7 +3168,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3
 """,
@@ -3176,7 +3176,7 @@ CBS-QB3
 
 entry(
     index = 128,
-    label = "NH_r3 + CH4b <=> NH2_p23 + CH3_p1",
+    label = "NH + CH4b <=> NH2_p23 + CH3_p1",
     degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (9e+13, 'cm^3/(mol*s)', '*|/', 1.5),
@@ -3188,7 +3188,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Wagner""",
-    longDesc = 
+    longDesc =
 u"""
 Experimental measurements
 
@@ -3201,7 +3201,7 @@ DOI: 10.1002/bbpc.19940980615
 
 entry(
     index = 129,
-    label = "NH_r3 + C2H6 <=> NH2_p23 + C2H5b",
+    label = "NH + C2H6 <=> NH2_p23 + C2H5b",
     degeneracy = 6.0,
     kinetics = Arrhenius(
         A = (7e+13, 'cm^3/(mol*s)', '*|/', 1.75),
@@ -3213,7 +3213,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Wagner""",
-    longDesc = 
+    longDesc =
 u"""
 Experimental measurements
 
@@ -3226,7 +3226,7 @@ DOI: 10.1002/bbpc.19940980615
 
 entry(
     index = 130,
-    label = "NH_r3 + HNCO <=> NH2_p23 + NCO",
+    label = "NH + HNCO <=> NH2_p23 + NCO",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (6.26e+12, 'cm^3/(mol*s)'),
@@ -3238,11 +3238,11 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sun""",
-    longDesc = 
+    longDesc =
 u"""
 calculated at UQCISD(T)/6-311G** level
 Zhen-Feng Xu and Jia-Zhong Sun
-Theoretical Study on the Reaction Path and Variational Rate Constant of the Reaction HNCO + NH => NCO + NH2
+Theoretical Study on the Reaction Path and Variational Rate Constant of the Reaction HNCO + NH => NCO + NH2_r3
 J. Phys. Chem. A, 1998, 102 (7), pp 1194-1199
 DOI: 10.1021/jp972959n
 """,
@@ -3260,7 +3260,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + CH4 <=> HCl + CH3""",
-    longDesc = 
+    longDesc =
 u"""
 Kinetics of Cl atom reactions with methane, ethane, and propane from 292 to 800 K
 J. S. Pilgrim, A. McIlroy, and C. A. Taatjes, J. Phys. Chem. A 101, 1873 (1997)
@@ -3280,7 +3280,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + C2H6 <=> HCl + C2H5""",
-    longDesc = 
+    longDesc =
 u"""
 Kinetics of Reactions of Cl Atoms with Ethane, Chloroethane, and 1,1-Dichloroethane
 Bryukov, M. G., Slagle, I. R., and Knyazev, V. D.: J. Phys. Chem. A., 107, 6565, 2003.
@@ -3300,7 +3300,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + C3H8 <=> HCl + nC3H7""",
-    longDesc = 
+    longDesc =
 u"""
 IUPAC recommendation: http://iupac.pole-ether.fr
 from 200-700 K
@@ -3319,7 +3319,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + C3H8 <=> HCl + iC3H7""",
-    longDesc = 
+    longDesc =
 u"""
 IUPAC recommendation: http://iupac.pole-ether.fr
 from 200-700 K
@@ -3338,7 +3338,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + nC4H10 <=> HCl + C4H9-1""",
-    longDesc = 
+    longDesc =
 u"""
 IUPAC recommendation: http://iupac.pole-ether.fr
 from 290-600 K
@@ -3357,9 +3357,9 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + nC4H10 <=> HCl + C4H9-2""",
-    longDesc = 
+    longDesc =
 u"""
-IUPAC recommendation: http://iupac.pole-ether.fr 
+IUPAC recommendation: http://iupac.pole-ether.fr
 from 290-600 K
 """,
 )
@@ -3376,9 +3376,9 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + HCHO <=> HCl + HCO""",
-    longDesc = 
+    longDesc =
 u"""
-IUPAC recommendation: http://iupac.pole-ether.fr 
+IUPAC recommendation: http://iupac.pole-ether.fr
 from 200-500 K
 """,
 )
@@ -3390,9 +3390,9 @@ entry(
     kinetics = Arrhenius(A=(8e-11, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
     rank = 1,
     shortDesc = u"""Cl + CH3CHO <=> HCl + CH3CO""",
-    longDesc = 
+    longDesc =
 u"""
-IUPAC recommendation: http://iupac.pole-ether.fr 
+IUPAC recommendation: http://iupac.pole-ether.fr
 from 210-340 K
 """,
 )
@@ -3409,9 +3409,9 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + CH3COCH3 <=> HCl + CH3COCH2""",
-    longDesc = 
+    longDesc =
 u"""
-IUPAC recommendation: http://iupac.pole-ether.fr 
+IUPAC recommendation: http://iupac.pole-ether.fr
 from 215-440 K
 """,
 )
@@ -3428,9 +3428,9 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + CH3OH <=> HCl + CH2OH""",
-    longDesc = 
+    longDesc =
 u"""
-IUPAC recommendation: http://iupac.pole-ether.fr 
+IUPAC recommendation: http://iupac.pole-ether.fr
 from 200-500 K
 """,
 )
@@ -3447,7 +3447,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Cl + CH3OH <=> HCl + CH3O""",
-    longDesc = 
+    longDesc =
 u"""
 Theoretical study of the kinetics of the hydrogen abstraction from methanol. 2. Reaction of methanol with chlorine and bromine atoms
 Jodkowski, J.T.; Rayez, M-T.; Rayez, J-C.; Berces, T.; Dobe, S., JPCA, 102, 9230-9243, 1998
@@ -3467,7 +3467,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + C2H5OH <=> HCl + CH3CHOH""",
-    longDesc = 
+    longDesc =
 u"""
 Absolute and Site-Specific Abstraction Rate Coefficients for Reactions of Cl with CH3CH2 OH, CH3CD2OH, and CD3CH2OH Between 295 and 600 K
 Taatjes, C. A., Christensen, L. K., Hurley M. D. and Wallington, T. J.: J. Phys. Chem. A, 103, 9805, 1999.
@@ -3487,7 +3487,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + C2H5OH <=> HCl + CH2CH2OH""",
-    longDesc = 
+    longDesc =
 u"""
 Absolute and Site-Specific Abstraction Rate Coefficients for Reactions of Cl with CH3CH2 OH, CH3CD2OH, and CD3CH2OH Between 295 and 600 K
 Taatjes, C. A., Christensen, L. K., Hurley M. D. and Wallington, T. J.: J. Phys. Chem. A, 103, 9805, 1999.
@@ -3507,7 +3507,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Cl + H2O <=> HCl + OH""",
-    longDesc = 
+    longDesc =
 u"""
 Evaluated kinetic data for high temperature reactions. Volume 4 Homogeneous gas phase reactions of halogen- and cyanide- containing species
 Baulch, D.L.; Duxbury, J.; Grant, S.J.; Montague, D.C., J. Phys. Chem. Ref. Data, 10, 1981.
@@ -3527,7 +3527,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + H2O2 <=> HCl + HO2""",
-    longDesc = 
+    longDesc =
 u"""
 Evaluated kinetic and photochemical data for atmospheric chemistry: Volume III - gas phase reactions of inorganic halogens
 Atkinson, R.;Baulch, D.L.;Cox, R.A.;Crowley, J.N.;Hampson, R.F.;Hynes, R.G.;Jenkin, M.E.;Rossi, M.J.;Troe, J., Atmos. Chem. Phys., 7, 981-1191, 2007
@@ -3547,7 +3547,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + H2 <=> HCl + H""",
-    longDesc = 
+    longDesc =
 u"""
 Thermal rate constants for the Cl+H2 and Cl+D2 reactions between 296 and 3000 K
 Kumaran, S.S.; Lim, K.P.; Michael, J.V., J. Chem. Phys., 101, 9487 - 9498, 1994
@@ -3567,7 +3567,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + C4H9OCHO <=> HCl + C4H8OCHO-1""",
-    longDesc = 
+    longDesc =
 u"""
 Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol
 Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
@@ -3587,7 +3587,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + C4H9OCHO <=> HCl + C4H8OCHO-2""",
-    longDesc = 
+    longDesc =
 u"""
 Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol
 Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
@@ -3607,7 +3607,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Cl + C4H9OCHO <=> HCl + C4H8OCHO-3""",
-    longDesc = 
+    longDesc =
 u"""
 Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol
 Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
@@ -3627,7 +3627,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + neoC5H12 <=> HCl + neoC5H11""",
-    longDesc = 
+    longDesc =
 u"""
 Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons
 Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959
@@ -3647,7 +3647,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + aC3H4 <=> HCl + C3H3""",
-    longDesc = 
+    longDesc =
 u"""
 Infrared frequency-modulation probing of Cl + C3H4 (allene, propyne) reactions: kinetics of HCl production from 292 to 850 K
 Farrell, J.T.; Taatjes, C.A., J. Phys. Chem. A, 102, 1998, 4846-4856
@@ -3667,7 +3667,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + cC5H10 <=> HCl + cC5H9""",
-    longDesc = 
+    longDesc =
 u"""
 The study of chlorine atom reactions in the gas phase
 Pritchard, H.O.; Pyke, J.B.; Trotman-Dickenson, A.F., JACS, 77, 1955
@@ -3687,7 +3687,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + cC4H8 <=> HCl + cC4H7""",
-    longDesc = 
+    longDesc =
 u"""
 Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons
 Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959
@@ -3707,7 +3707,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Cl + Dioxane14 <=> HCl + Dioxanyl14""",
-    longDesc = 
+    longDesc =
 u"""
 Experimental and Theoretical Investigation of the Kinetics of the Reaction of Atomic Chlorine with 1,4-Dioxane
 Giri, B.R.; Roscoe, J.M.; Gonzalez-Garcia, N.; Olzmann, M.; Lo, J.MH.; Marriott, R.A., JPCA, 115, 2011, 5105-5111
@@ -3727,10 +3727,10 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-1""",
-    longDesc = 
+    longDesc =
 u"""
-Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
-Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
 313-433 K, experimental measurement
 """,
 )
@@ -3747,10 +3747,10 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-2""",
-    longDesc = 
+    longDesc =
 u"""
-Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
-Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
 313-433 K, experimental measurement
 """,
 )
@@ -3767,10 +3767,10 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-3""",
-    longDesc = 
+    longDesc =
 u"""
-Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
-Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
 313-433 K, experimental measurement
 """,
 )
@@ -3787,10 +3787,10 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-4""",
-    longDesc = 
+    longDesc =
 u"""
-Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
-Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
 313-433 K, experimental measurement
 """,
 )
@@ -3802,7 +3802,7 @@ entry(
     kinetics = Arrhenius(A=(1.76e-10, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
     rank = 1,
     shortDesc = u"""Cl + CH3OCH3 <=> HCl + CH3OCH2""",
-    longDesc = 
+    longDesc =
 u"""
 Rate constants for the reaction of atomic chlorine with methanol and dimethyl ether from 200 to 500 K
 Michael, J.V.; Nava, D.F.; Payne, W.A.; Stief, L.J., J. Chem. Phys., 70, 1979
@@ -3822,7 +3822,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + C3H6 <=> HCl + aC3H5""",
-    longDesc = 
+    longDesc =
 u"""
 Infrared absorption probing of the Cl + C3H6 reaction: rate coefficients for HCl production between 290 and 800 K
 Pilgrim, J.S.; Taatjes, C.A., JPCA, 101, 5776-5782, 1997
@@ -3837,7 +3837,7 @@ entry(
     kinetics = Arrhenius(A=(2.41e-10, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
     rank = 1,
     shortDesc = u"""Cl + cC6H12 <=> HCl + cC6H11""",
-    longDesc = 
+    longDesc =
 u"""
 Kinetic and mechanistic studies of the reactions of cyclopentylperoxy and cyclohexylperoxy radicals with HO2
 Rowley, D.M.; Lesclaux, R.; Lightfoot, P.D.; Noziere, B.; Wallingotn, T.J.; Hurley, M.D., JPC, 96, 1992, 4889-4894
@@ -3857,7 +3857,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Cl + C6H5CH3 <=> HCl + C6H5CH2""",
-    longDesc = 
+    longDesc =
 u"""
 DFT study on the abstraction and addition of Cl atom with toluene
 Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012
@@ -3877,7 +3877,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Cl + C6H5CH3 <=> HCl + o-C6H4CH3""",
-    longDesc = 
+    longDesc =
 u"""
 DFT study on the abstraction and addition of Cl atom with toluene
 Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012
@@ -3897,7 +3897,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Cl + C6H5CH3 <=> HCl + m-C6H4CH3""",
-    longDesc = 
+    longDesc =
 u"""
 DFT study on the abstraction and addition of Cl atom with toluene
 Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012
@@ -3917,10 +3917,10 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Cl + C6H5CH3 <=> HCl + p-C6H4CH3""",
-    longDesc = 
+    longDesc =
 u"""
-DFT study on the abstraction and addition of Cl atom with toluene 
-Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012 
+DFT study on the abstraction and addition of Cl atom with toluene
+Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012
 Theoretical predictions from 298-1000 K
 """,
 )
@@ -3937,7 +3937,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + iC4H10 <=> HCl + iC4H9""",
-    longDesc = 
+    longDesc =
 u"""
 Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons
 Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959
@@ -3957,10 +3957,10 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + iC4H10 <=> HCl + tC4H9""",
-    longDesc = 
+    longDesc =
 u"""
-Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons 
-Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959 
+Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons
+Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959
 193-593 K, experimental measurement
 """,
 )
@@ -3977,10 +3977,10 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + cC3H6 <=> HCl + cC3H5""",
-    longDesc = 
+    longDesc =
 u"""
-Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons 
-Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959 
+Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons
+Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959
 193-593 K, experimental measurement
 """,
 )
@@ -3997,7 +3997,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + pC3H4 <=> HCl + C3H3""",
-    longDesc = 
+    longDesc =
 u"""
 Infrared frequency-modulation probing of Cl + C3H4 (allene, propyne) reactions: kinetics of HCl production from 292 to 850 K
 Farrell, J.T.; Taatjes, C.A., J. Phys. Chem. A, 102, 1998, 4846-4856
@@ -4017,7 +4017,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + Ethene <=> HCl + C2H3""",
-    longDesc = 
+    longDesc =
 u"""
 Infrared absorption probing of the Cl + Ethene reaction: direct measurement of Arrhenius parameters for hydrogen abstraction
 Pilgrim, J.S.; Taatjes, C.A., J. Phys. Chem. A, 101, 1997, 4172-4177
@@ -4037,7 +4037,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Cl + C6H6 <=> HCl + C6H5""",
-    longDesc = 
+    longDesc =
 u"""
 Studies of the kinetics and thermochemistry of the forward and reverse reaction Cl+C6H6=HCl+C6H5
 Alecu, I.M.; Gao, Y.D.; Hsieh, P.C.; Sand, J.P.; Ors, A.; McLeod, A.; Marshall, P., JPCA, 111, 3970-3976, 2007
@@ -4057,10 +4057,10 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Cl + C6H5CH2CH3 <=> HCl + C6H5CHCH3""",
-    longDesc = 
+    longDesc =
 u"""
-DFT study on the abstraction and addition of Cl atom with toluene 
-Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012 
+DFT study on the abstraction and addition of Cl atom with toluene
+Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012
 Theoretical predictions from 298-1000 K, agrees well with 298 K experiments
 A-factor multiplied by 2/3 to account for different degeneracy of ethylbenzene vs. toluene
 """,
@@ -4078,10 +4078,10 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Cl + C6H5CH(CH3)CH3 <=> HCl + C6H5C(CH3)CH3""",
-    longDesc = 
+    longDesc =
 u"""
-DFT study on the abstraction and addition of Cl atom with toluene 
-Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012 
+DFT study on the abstraction and addition of Cl atom with toluene
+Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012
 Theoretical predictions from 298-1000 K, agrees well with 298 K experiments
 A-factor multiplied by 1/3 to account for different degeneracy of isopropylbenzene vs. toluene
 """,
@@ -4099,7 +4099,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C6H5 + C3H6 <=> C6H6 + CH3CHCH
 """,
@@ -4117,7 +4117,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C6H5 + C3H6 <=> C6H6 + CH3CCH2
 """,
@@ -4135,7 +4135,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C6H5 + C3H6 <=> C6H6 + CH2CHCH2
 """,
@@ -4153,7 +4153,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2015_Buras_C2H3_C4H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C2H3 + C4H6 <=> C2H4 + nC4H5
 """,
@@ -4171,7 +4171,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2015_Buras_C2H3_C4H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C2H3 + C4H6 <=> C2H4 + iC4H5
 """,
@@ -4184,7 +4184,7 @@ entry(
     kinetics = Arrhenius(A=(8710, 'cm^3/(mol*s)'), n=3.12, Ea=(8.1, 'kJ/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2005_Ismail_C6H5_C4H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: phenyl + 1_3_butadiene <=> benzene + 1_3_butadien_2_yl
 """,
@@ -4197,7 +4197,7 @@ entry(
     kinetics = Arrhenius(A=(31600, 'cm^3/(mol*s)'), n=3.11, Ea=(16.7, 'kJ/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2005_Ismail_C6H5_C4H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: phenyl + 1_3_butadiene <=> benzene + 1_3_butadien_1_yl
 """,
@@ -4215,7 +4215,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: benzene_1 + methyl_7 <=> phenyl_16 + CH4_26
 """,
@@ -4241,7 +4241,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G4//B3LYP/6-31G(2df,p)
 """,
@@ -4267,7 +4267,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G4//B3LYP/6-31G(2df,p)
 """,
@@ -4285,7 +4285,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C9H8_20 + H_15 <=> C9H7_18 + H2_23
 """,
@@ -4303,7 +4303,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C9H8_21 + H_15 <=> C9H7_22 + H2_23
 """,
@@ -4581,7 +4581,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: GRI-Mech3.0""",
-    longDesc = 
+    longDesc =
 u"""
 The respective reaction in the more recent Klippenstein_Glarborg2016 library is in a duplicate form
 and cannot be added as training unless refitting the data
@@ -4942,7 +4942,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 Accurate geometries are obtained using coupled cluster theory with single, double, and perturbative triple excitations [CCSD(T)] combined with Dunnings correlation consistent quadruple- basis set cc pVQZ. The energies for these stationary points are then refined by a systematic series of computations, within the focal point scheme, using the cc-pVXZ (X = D, T, Q, 5, 6) basis sets and correlation treatments as extensive as coupled cluster with full single, double, and triple excitation and perturbative quadruple excitations [CCSDT(Q)]. TST rates calculated in CanTherm
 """,
@@ -4968,7 +4968,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 Accurate geometries are obtained using coupled cluster theory with single, double, and perturbative triple excitations [CCSD(T)] combined with Dunnings correlation consistent quadruple- basis set cc pVQZ. The energies for these stationary points are then refined by a systematic series of computations, within the focal point scheme, using the cc-pVXZ (X = D, T, Q, 5, 6) basis sets and correlation treatments as extensive as coupled cluster with full single, double, and triple excitation and perturbative quadruple excitations [CCSDT(Q)]. TST rates calculated in CanTherm
 """,
@@ -4994,7 +4994,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 Accurate geometries are obtained using coupled cluster theory with single, double, and perturbative triple excitations [CCSD(T)] combined with Dunnings correlation consistent quadruple- basis set cc pVQZ. The energies for these stationary points are then refined by a systematic series of computations, within the focal point scheme, using the cc-pVXZ (X = D, T, Q, 5, 6) basis sets and correlation treatments as extensive as coupled cluster with full single, double, and triple excitation and perturbative quadruple excitations [CCSDT(Q)]. TST rates calculated in CanTherm
 """,
@@ -5020,7 +5020,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 Accurate geometries are obtained using coupled cluster theory with single, double, and perturbative triple excitations [CCSD(T)] combined with Dunnings correlation consistent quadruple- basis set cc pVQZ. The energies for these stationary points are then refined by a systematic series of computations, within the focal point scheme, using the cc-pVXZ (X = D, T, Q, 5, 6) basis sets and correlation treatments as extensive as coupled cluster with full single, double, and triple excitation and perturbative quadruple excitations [CCSDT(Q)]. TST rates calculated in CanTherm
 """,
@@ -5032,7 +5032,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.24, 'cm^3/(mol*s)'), n=3.335, Ea=(7.75, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 TST calculation based on the CBS-QB3 level of theory with 1D hinder rotoer consideration
 Jim Chu's calculation
@@ -5050,7 +5050,7 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 TST calculation based on the CBS-QB3 level of theory with 1D hinder rotoer consideration
 Jim Chu's calculation
@@ -5068,7 +5068,7 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 TST calculation based on the CBS-QB3 level of theory with 1D hinder rotoer consideration
 Jim Chu's calculation
@@ -5086,7 +5086,7 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 TST calculation based on the CBS-QB3 level of theory with 1D hinder rotoer consideration
 Jim Chu's calculation
@@ -5104,7 +5104,7 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 TST calculation based on the CBS-QB3 level of theory with 1D hinder rotoer consideration
 Jim Chu's calculation
@@ -5122,7 +5122,7 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 TST calculation based on the CBS-QB3 level of theory with 1D hinder rotoer consideration
 Jim Chu's calculation
@@ -5149,7 +5149,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
 """,
@@ -5175,7 +5175,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
 """,
@@ -5201,7 +5201,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G4//B3LYP/6-31G(2df,p)
 """,
@@ -5227,7 +5227,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G4//B3LYP/6-31G(2df,p)
 """,
@@ -5253,7 +5253,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G4//B3LYP/6-31G(2df,p)
 """,
@@ -5279,7 +5279,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G4//B3LYP/6-31G(2df,p)
 """,
@@ -5305,7 +5305,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G4//B3LYP/6-31G(2df,p)
 """,
@@ -5331,7 +5331,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G4//B3LYP/6-31G(2df,p)
 """,
@@ -5357,7 +5357,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G4//B3LYP/6-31G(2df,p)
 """,
@@ -5383,7 +5383,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G4//B3LYP/6-31G(2df,p)
 """,
@@ -5409,7 +5409,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G4//B3LYP/6-31G(2df,p)
 """,
@@ -5435,7 +5435,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G4//B3LYP/6-31G(2df,p)
 """,
@@ -5461,7 +5461,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G4//B3LYP/6-31G(2df,p)
 """,
@@ -5487,7 +5487,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G4//B3LYP/6-31G(2df,p)
 """,
@@ -5513,7 +5513,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G4//B3LYP/6-31G(2df,p)
 """,
@@ -5539,7 +5539,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G4//B3LYP/6-31G(2df,p)
 """,
@@ -5565,7 +5565,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G4//B3LYP/6-31G(2df,p)
 """,
@@ -5591,7 +5591,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G4//B3LYP/6-31G(2df,p)
 """,
@@ -5617,7 +5617,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G4//B3LYP/6-31G(2df,p)
 """,
@@ -5643,7 +5643,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G4//B3LYP/6-31G(2df,p)
 """,
@@ -5669,7 +5669,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 G3(MP2,CC)//B3LYP
 """,
@@ -5695,7 +5695,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 9,
-    longDesc = 
+    longDesc =
 u"""
 B3LYP structural and vibrational information with BH&HLYP corrected barrier
 """,
@@ -5721,7 +5721,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 1,
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3 + Exp.
 """,
@@ -5747,7 +5747,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)/CBS//BH&HLYP/cc-pVDZ, and canonical variational transition state theory (CVT) with corrections for small curvaturetunneling (SCT) and hindered internal rotation (HIR)
 """,
@@ -5773,7 +5773,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)/CBS//BH&HLYP/cc-pVDZ, and canonical variational transition state theory (CVT) with corrections for small curvaturetunneling (SCT) and hindered internal rotation (HIR)
 """,
@@ -5799,7 +5799,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 G3(MP2,CC)//B3LYP
 """,
@@ -5825,7 +5825,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 G3(MP2,CC)//B3LYP
 """,
@@ -5851,7 +5851,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 G3(MP2,CC)//B3LYP
 """,
@@ -5877,7 +5877,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 G3(MP2,CC)//B3LYP
 """,
@@ -5903,7 +5903,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 G3(MP2,CC)//B3LYP
 """,
@@ -5923,7 +5923,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Dean, A. M. [118]""",
-    longDesc = 
+    longDesc =
 u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 
@@ -5945,7 +5945,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Dean, A. M. [118]""",
-    longDesc = 
+    longDesc =
 u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 
@@ -5967,7 +5967,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Dean, A. M. [118]""",
-    longDesc = 
+    longDesc =
 u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 
@@ -5989,7 +5989,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Dean, A. M. [118]""",
-    longDesc = 
+    longDesc =
 u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 
@@ -6011,7 +6011,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Estimate [W.H. Green]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: X_H;O2b
 """,
@@ -6031,7 +6031,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Estimate [W.H. Green]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: O/H/NonDeC;O2b
 """,
@@ -6051,11 +6051,11 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. Fixed by RWest (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253. http://dx.doi.org/10.1016/S0010-2180(01)00373-X
 
-Rate expressions for H atom abstraction from fuels. 
+Rate expressions for H atom abstraction from fuels.
 pg 257 A Comprehensive Modelling Study of iso-Octane Oxidation, Table 1. Radical:OH, Site: primary (a)
 Verified by Karma James
 
@@ -6087,12 +6087,12 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 http://dx.doi.org/10.1016/S0010-2180(01)00373-X
 
-Rate expressions for H atom abstraction from fuels. 
+Rate expressions for H atom abstraction from fuels.
 pg 257 A Comprehensive Modelling Study of iso-Octane Oxidation, Table 1. Radical:OH, Site: secondary (b)
 
 Verified by Karma James
@@ -6122,7 +6122,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 http://dx.doi.org/10.1016/S0010-2180(01)00373-X
@@ -6153,7 +6153,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -6183,7 +6183,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -6214,7 +6214,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -6248,7 +6248,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Walker, R. W. Reactions of HO 2 radicals in combustion chemistry.""",
-    longDesc = 
+    longDesc =
 u"""
 Walker, R. W. Symposium (International) on Combustion. Vol. 22. No. 1. Elsevier, 1989.
 Reactions of HO 2 radicals in combustion chemistry.
@@ -6281,7 +6281,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -6311,7 +6311,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -6338,7 +6338,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -6368,7 +6368,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -6398,7 +6398,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -6425,7 +6425,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -6455,7 +6455,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -6485,7 +6485,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
@@ -6512,7 +6512,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H2 + O2 --> H + HO2 C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -6545,7 +6545,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Knyazev et al. [119] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [119] Knyazev, V.D; Bencsura, A.; Stoliarov, S.I.; Slagle, I.R. J. Phys. Chem. 1996, 100, 11346.
 H2 + C2H3 --> H + C2H4 C.D.W divided original rate expression by 2 ( from A = 9.45E+03), to get rate expression per H atom.
@@ -6568,9 +6568,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Baulch et al. [94] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[94] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Frank, P.; Hayman, G,; Just, T.; Kerr, J.A.; Murrells, T.; Pilling, M.J.; 
+[94] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Frank, P.; Hayman, G,; Just, T.; Kerr, J.A.; Murrells, T.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
 
 H2 + C2H --> H + C2H2 C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -6605,7 +6605,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Mebel et al. [122] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [122] Mebel, A.M.; Lin, M.C.; Yu, T.; Morokuma, K. J. Phys. Chem. A. 1997, 101, 3189.
 H2 + phenyl --> H + benzene C.D.W divided original rate expression by 2 ( from A = 5.71E+04), to get rate expression per H atom.
@@ -6628,7 +6628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H2 + HCO --> H + CH2O C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -6661,7 +6661,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H2 + CH3CO --> H + CH3CHO C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -6696,7 +6696,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Isaacson [123] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [123] Isaacson, A.D. J. Chem. Phys. 1997, 107, 3832.
 H2 + O2 --> H + H2O C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -6727,7 +6727,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;O_rad/NonDeC
 """,
@@ -6747,9 +6747,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 CH4 + O2 --> CH3 + HO2 C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -6783,7 +6783,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH4 + C2H5 --> CH3 + C2H6 C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -6816,7 +6816,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang et al. [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 CH4 + iso-C3H7 --> CH3 + C3H8 C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -6850,7 +6850,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH4 + C2H --> CH3 + C2H2 C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -6886,7 +6886,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Heckmann et al. [124]""",
-    longDesc = 
+    longDesc =
 u"""
 [124] Heckmann, E.; Hippler, H. Troe, J. Sypm. Int. Combust. Proc. 1996, 26, 543.
 Absolute value measured directly (excitation technique: thermal, analytical technique: vis-UV absorption) CH4 + phenyl --> benzene
@@ -6911,7 +6911,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH4 + HCO --> CH3 + CH2O C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -6944,7 +6944,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH4 + CH3CO --> CH3 + CH3CHO C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -6977,7 +6977,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Melissas and Truhlar [125] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [125] Melissas, V.S.; Truhlar, D.G. J. Chem. Phys. 1993,99,1010.
 CH4 + OH --> CH3 + H2O C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -7000,7 +7000,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 CH4 + CH3O --> CH3 + CH3OH The calculated reverse rate constants are in good agreement with experiment. (Rxn. -R3 in paper)
@@ -7027,7 +7027,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH4 + HO2 --> CH3 + H2O2 C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -7060,7 +7060,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H6 + C2H --> C2H5 + C2H2 C.D.W divided original rate expression by 6, to get rate expression per H atom.
@@ -7095,10 +7095,10 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Park et al. [126]""",
-    longDesc = 
+    longDesc =
 u"""
 [126] Park, J.; Gheyas, S.; Lin, M.C. Int. J. Chem. Kinet. 2001, 33, 64.
-Absolute value measured directly. Static or low flow, flash photolysis excitation, Vis-UV absoprtion analysis. 
+Absolute value measured directly. Static or low flow, flash photolysis excitation, Vis-UV absoprtion analysis.
 
 Phenyl radicals are produced from 193 nm photolysis of C6H5COCH3. The cavity ringdown spectroscopy and/or mass spectroscopy
 
@@ -7124,7 +7124,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H6 + HCO --> C2H5 + CH2O C.D.W divided original rate expression by 6(from A = 4.69E+04), to get rate expression per H atom.
@@ -7157,7 +7157,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H6 + CH3CO --> C2H5 + CH3CHO C.D.W divided original rate expression by 6(from A = 1.81E+04), to get rate expression per H atom.
@@ -7191,10 +7191,10 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Taylor et al. [127] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [127] Taylor, P.H.; Rahman, M.S.; Arif, M.; Dellinger, B.; Marshall, P. Sypm. Int. Combust. Proc. 1996, 26, 497.
-CH3CHO + OH --> CH2CHO + H2O Rate constant is high pressure limit (pressure 0.13-0.97atm?) 
+CH3CHO + OH --> CH2CHO + H2O Rate constant is high pressure limit (pressure 0.13-0.97atm?)
 
 C.D.W divided original rate expression by 3(from A = 1.55E+06), to get rate expression per H atom.
 
@@ -7216,7 +7216,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 CH3OH + CH3 --> CH2OH + CH4 The calculated rate constants are in good agreement with experiment. (Rxn. R4 in paper)
@@ -7243,7 +7243,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 CH3OH + OH --> CH2OH + H2O The calculated rate constants are in good agreement with experiment. (Rxn. R6 in paper)
@@ -7271,7 +7271,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + CH2 --> iso-C3H7 + CH3  C.D.W divided original rate expression by 2(from A = 1.51), to get rate expression per H atom.
@@ -7304,7 +7304,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + CH2OH --> iso-C3H7 + CH3OH  C.D.W divided original rate expression by 2(from A = 6.03E+01), to get rate expression per H atom.
@@ -7345,7 +7345,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + C2H3 --> iso-C3H7 + C2H4  C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -7381,7 +7381,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + C2H --> iso-C3H7 + C2H2  C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -7418,7 +7418,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + HCO --> iso-C3H7 + CH2O  C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -7453,7 +7453,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + CH3CO --> iso-C3H7 + CH3CHO  C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -7488,12 +7488,12 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + CH2 --> tert-C4H9 + CH3
 
-pg 6, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+pg 6, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 43,25.
 
@@ -7525,12 +7525,12 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + C2H3 --> tert-C4H9 + C2H4
 
-pg 5, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+pg 5, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 43,19.
 
@@ -7562,12 +7562,12 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + C2H --> tert-C4H9 + C2H2
 
-pg 5, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+pg 5, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 43,21.
 
@@ -7600,12 +7600,12 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + HCO --> tert-C4H9 + CH2O
 
-pg 5, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+pg 5, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 43,15.
 
@@ -7616,7 +7616,7 @@ pg.18: Discussion on evaluated data
 Entry 43,15(b): No data available at the time.  For the rxn iC4H10+HCO=CH2O+iC4H9, author
 
 recommends 1.5x the rate of the rxn C3H8+HCO+CH2O+nC3H7 (9 vs. 6 primary H-atoms).
-The author then recommends the rate coefficient for iC4H10+HCO=CH2O+tC4H9 to be the 
+The author then recommends the rate coefficient for iC4H10+HCO=CH2O+tC4H9 to be the
 rate coefficient of iC4H10+HCO=CH2O+iC4H9, with the A factor divided by 9 (9 vs. 1
 H-atoms) and the Ea decreased by 20 kJ/mol.
 MRH 31-Aug-2009
@@ -7639,12 +7639,12 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + CH3CO --> tert-C4H9 + CH3CHO
 
-pg 5, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+pg 5, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 43,22.
 
@@ -7675,7 +7675,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Hua, Ruscic, and Wang 2005, transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 FORMER RATES
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
@@ -7720,7 +7720,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Mahmud et al. [128] Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 [128] Mahmud, K.; Marshall, P.; Fontijn, A. J Phys. Chem. 1987, 91, `568.
 C2H4 + O --> C2H3 + OH C.D.W divided original rate expression by 4(from A= 1.51E+07), to get rate expression per H atom.
@@ -7743,7 +7743,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H4 + C2H5 --> C2H3 + C2H6 C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -7778,9 +7778,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 C2H4 + OH --> C2H3 + H2O C.D.W divided original rate expression by 4(from A= 2.05E+13), to get rate expression per H atom.
@@ -7813,7 +7813,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [93] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
 CH3CH=CH2 + O --> CH3C=CH2 + OH
@@ -7855,7 +7855,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [93] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
 CH3CH=CH2 + H --> CH3C=CH2 + H2
@@ -7892,7 +7892,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [93] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
 CH3CH=CH2 + CH3 --> CH3C=CH2 + CH4
@@ -7928,7 +7928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [93] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
 CH3CH=CH2 + C2H3 --> CH3C=CH2 + C2H4
@@ -7965,10 +7965,10 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [93] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
-CH3CH=CH2 + C2H --> CH3C=CH2 + C2H2 
+CH3CH=CH2 + C2H --> CH3C=CH2 + C2H2
 
 pg 241
 
@@ -7998,7 +7998,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [93] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
 CH3CH=CH2 + OH --> CH3C=CH2 + H2O
@@ -8037,7 +8037,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H2 + O2 --> C2H + HO2 C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -8072,7 +8072,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H2 + C2H5 --> C2H + C2H6 C.D.W divided original rate expression by 2 (from A= 2.71E+11), to get rate expression per H atom.
@@ -8105,7 +8105,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H2 + OH --> C2H + H2O C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -8138,7 +8138,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Asaba et al. [129]. Data are estimated.""",
-    longDesc = 
+    longDesc =
 u"""
 [129] Asaba, T.; Fujii, N.; Proc. Int. Symp. Shock Tubes Waves 1971, 8, 1.
 Benzene + O2 --> phenyl + HO2 C.D.W divided original rate expression by 6(from A = 6.31E+13), to get rate expression per H atom.
@@ -8161,7 +8161,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Mebel et al. [122] RRK(M) extrapolation.""",
-    longDesc = 
+    longDesc =
 u"""
 [122] Mebel, A.M.; Lin, M.C.; Yu, T.; Morokuma, K. J. Phys. Chem. A. 1997, 101, 3189.
 Rate constant is high pressure limit. Benzene + H --> phenyl + H2
@@ -8186,7 +8186,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Zhang et al. [131]""",
-    longDesc = 
+    longDesc =
 u"""
 [131] Zhang, H.X.; Ahonkhai, S.I. Back, H.M. Can. J. Chem. 1989, 67, 1541.
 Pressure 0.30-0.50 atm Excitation: thermal, analysis: GC. Benzene + C2H5 --> phenyl + C2H6
@@ -8211,9 +8211,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 Benzene + OH --> phenyl + H2O  C.D.W divided original rate expression by 6(from A = 1.63E+08), to get rate expression per H atom.
@@ -8248,7 +8248,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Michael et al. [132] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [132] Michael, J.V.; Kumaran, S.S.; Su, M.-C. J. Phys. Chem. A. 1999, 103, 5942.
 CH2O + O2 --> HCO + HO2 C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -8271,9 +8271,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 CH2O + O --> HCO + OH C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -8307,7 +8307,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 Rate constant is an upper limit. CH2O + CH2 --> HCO + CH3
@@ -8343,9 +8343,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Baulch et al. [94] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[94] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Frank, P.; Hayman, G,; Just, T.; Kerr, J.A.; Murrells, T.; Pilling, M.J.; 
+[94] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Frank, P.; Hayman, G,; Just, T.; Kerr, J.A.; Murrells, T.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
 
 CH2O + CH3 --> HCO + CH4 C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -8380,7 +8380,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH2O + C2H5 --> HCO + C2H6 C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -8415,7 +8415,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 CH2O + iso-C3H7 --> HCO + C3H8 C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -8452,12 +8452,12 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 CH2O + tert-C4H9 --> HCO + iso-C4H10 C.D.W divided original rate expression by 2 (from A= 3.25E+09), to get rate expression per H atom.
 
-pg 7, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+pg 7, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 44,12.
 
@@ -8491,7 +8491,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH2O + C2H3 --> HCO + C2H4 C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -8526,7 +8526,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH2O + CH3CO --> HCO + CH3CHO C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -8559,9 +8559,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 CH2O + OH --> HCO + H2O C.D.W divided original rate expression by 2 (from A= 3.43E+09), to get rate expression per H atom.
@@ -8595,7 +8595,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH2O + CH3O --> HCO + CH3OH C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -8630,7 +8630,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Eiteneer et al. [133] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [133] Eiteneer, B.; Yu, C.-L.; Goldenberg, M.; Frenklach, M. J. Phys. Chem. A. 1998, 102, 5196.
 CH2O + HO2 --> HCO + H2O2 C.D.W divided original rate expression by 2 (from A= 4.11E+04), to get rate expression per H atom.
@@ -8653,9 +8653,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 CH3CHO + O2 --> CH3CO + HO2
@@ -8691,7 +8691,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Warnatz [134] literature review""",
-    longDesc = 
+    longDesc =
 u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
 CH3CHO + O --> CH3CO + OH
@@ -8714,7 +8714,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Warnatz [134] literature review""",
-    longDesc = 
+    longDesc =
 u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
 CH3CHO + H --> CH3CO + H2
@@ -8737,9 +8737,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 CH3CHO + CH3 --> CH3CO + CH4
@@ -8775,7 +8775,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Loser et al. [135] bond strength-bond length method.""",
-    longDesc = 
+    longDesc =
 u"""
 [135] Loser, U.; Scherzer, K.; Weber, K. Z. Phys. Chem. (Leipzig) 1989, 270, 237.
 CH3CHO + CH2CH=CH2 --> CH3CO + CH3CH=CH2
@@ -8798,7 +8798,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Scherzer et al. [136] bond energy-bond order method.""",
-    longDesc = 
+    longDesc =
 u"""
 [136] Scherzer, K.; Loser, U.; Stiller, W. Z. Phys. Chem. 1987, 27, 300.
 CH3CHO + C2H3 --> CH3CO + C2H4
@@ -8821,7 +8821,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Taylor et al. [127] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [127] Taylor, P.H.; Rahman, M.S.; Arif, M.; Dellinger, B.; Marshall, P. Sypm. Int. Combust. Proc. 1996, 26, 497.
 CH3CHO + OH --> CH3CO + H2O Pressure 0.13-0.97 atm. Rate constant is high pressure limit.
@@ -8850,9 +8850,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 CH3CHO + HO2 --> CH3CO + H2O2
@@ -8887,12 +8887,12 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Mayer et al. [137] Bond energy-bond order.""",
-    longDesc = 
+    longDesc =
 u"""
 [137] Mayer, S.W.; Schieler, L. J. Phys. Chem. 1968, 72, 2628.
 http://dx.doi.org/10.1021/j100853a066
 
-H2O + O2 --> OH + HO2. 
+H2O + O2 --> OH + HO2.
 C.D.W divided original rate expression by 2, to get rate expression per H atom.
 
 Converted to training reaction from rate rule: O_pri;O2b
@@ -8913,7 +8913,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Karach et al. [138] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [138] Karach, S.P.; Oscherov, V.I. J. Phys. Chem. 1999, 110, 11918.
 H2O + O --> OH + OH. C.D.W divided original rate expression by 2 (from A= 2.95E+39), to get rate expression per H atom.
@@ -8936,9 +8936,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
+[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
 H2O + H --> OH + H2. C.D.W divided original rate expression by 2, to get rate expression per H atom.
@@ -8977,7 +8977,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Ma et al. [140] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [140] Ma, S.; Liu, R.; Sci. China Ser. S: 1996, 39, 37.
 H2O + CH3 --> OH + CH4. C.D.W divided original rate expression by 2 (from A= 6.39), to get rate expression per H atom.
@@ -9000,7 +9000,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H2O + C2H5 --> OH + C2H6. C.D.W divided original rate expression by 2 (from A= 3.39E+06), to get rate expression per H atom.
@@ -9033,7 +9033,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H2O + C2H3 --> OH + C2H4. C.D.W divided original rate expression by 2 (from A= 4.83E+02), to get rate expression per H atom.
@@ -9066,7 +9066,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H2O + HCO --> OH + CH2O. C.D.W divided original rate expression by 2 (from A= 2.35E+08), to get rate expression per H atom.
@@ -9099,7 +9099,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 H2O + CH3O --> OH + CH3OH C.D.W divided original rate expression by 2 (from A= 9.03E+08), to get rate expression per H atom.; This is Rxn. -R5 from mpaper
@@ -9124,7 +9124,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Warnatz [134] literature review""",
-    longDesc = 
+    longDesc =
 u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
 CH3OH + O --> CH3O + OH
@@ -9147,12 +9147,12 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [90] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [90] Tsang, W. J. Phys. Chem. Ref. Data 1987, 16, 471.
 CH3OH + CH2 --> CH3O + CH3
 
-pg 475, Chemical Kinetic Database For Combustion Chemistry, Part 2 - Methanol. 
+pg 475, Chemical Kinetic Database For Combustion Chemistry, Part 2 - Methanol.
 
 //Index of Reactions and Summary of Recommended Rate Expressions. No. 38,25.
 
@@ -9187,7 +9187,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 The calculated rate constants are in good agreement with experiment. CH3OH + CH3 --> CH3O + CH4 (Rxn. R3 from paper)
@@ -9212,12 +9212,12 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [90] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [90] Tsang, W. J. Phys. Chem. Ref. Data 1987, 16, 471.
 CH3OH + C2H5 --> CH3O + C2H6
 
-pg 475, Chemical Kinetic Database For Combustion Chemistry, Part 2 - Methanol. 
+pg 475, Chemical Kinetic Database For Combustion Chemistry, Part 2 - Methanol.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 38,17.
 
@@ -9252,7 +9252,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 CH3OH + iso-C3H7 --> CH3O + C3H8
@@ -9293,7 +9293,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 CH3OH + tert-C4H9 --> CH3O + iso-C4H10
@@ -9333,12 +9333,12 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [90] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [90] Tsang, W. J. Phys. Chem. Ref. Data 1987, 16, 471.
 CH3OH + C2H3 --> CH3O + C2H4
 
-pg 475, Chemical Kinetic Database For Combustion Chemistry, Part 2 - Methanol. 
+pg 475, Chemical Kinetic Database For Combustion Chemistry, Part 2 - Methanol.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 38,19.
 
@@ -9369,12 +9369,12 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [90] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [90] Tsang, W. J. Phys. Chem. Ref. Data 1987, 16, 471.
 CH3OH + C2H --> CH3O + C2H2
 
-pg 475, Chemical Kinetic Database For Combustion Chemistry, Part 2 - Methanol. 
+pg 475, Chemical Kinetic Database For Combustion Chemistry, Part 2 - Methanol.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 38,21.
 
@@ -9405,7 +9405,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 The calculated rate constants are in good agreement with experiment. CH3OH + OH --> CH3O + H2O (Rxn. R5 from paper)
@@ -9430,7 +9430,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + *CH2CH2CH2CH2OH = nButanol + HO2
@@ -9468,7 +9468,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3*CHCH2CH2OH = nButanol + HO2
@@ -9506,7 +9506,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3CH2*CHCH2OH = nButanol + HO2
@@ -9544,7 +9544,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3CH2CH2*CHOH = nButanol + HO2
@@ -9582,7 +9582,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + *CH2CH2CH[OH]CH3 = 2-Butanol + HO2
@@ -9612,7 +9612,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3*CHCH[OH]CH3 = 2-Butanol + HO2
@@ -9642,7 +9642,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3CH2*C[OH]CH3 = 2-Butanol + HO2
@@ -9672,7 +9672,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3CH2CH[OH]*CH2 = 2-Butanol + HO2
@@ -9702,7 +9702,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + HOC[*CH2][CH3][CH3] = tert-Butanol + HO2
@@ -9732,7 +9732,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""[8] Curran's estimation in reaction type 13, RO2 + HO2 --> RO2H + O2""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Orad_O_H;O_rad/NonDeO
 """,
@@ -9752,7 +9752,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
 CH2O + H2C=C[*CH2][CH3] = HCO + H2C=C[CH3]2
@@ -9766,10 +9766,10 @@ electronic spin multiplicity was 1 for CH2O and iso-butene; the electronic spin 
 The computed pre-exponential factor was divided by 2 (symmetry of CH2O), from 6.13e-02 to 3.065e-02.
 
 There are no rate coefficients for this reaction in the literature (based on MRH's limited search).
-   Tsang {J. Phys. Chem. Ref. Data 20 (1991) 221-273} recommends the following for the reaction of 
+   Tsang {J. Phys. Chem. Ref. Data 20 (1991) 221-273} recommends the following for the reaction of
    CH2O + H2C=CH-*CH2 = HCO + H2C=CH-CH3: k(T) = 1.26e+08 * T^1.9 * exp(-18.184 kcal/mol / RT) cm3 mol-1 s-1.
    This rate coefficient is 25-85x faster than MRH's calculation over the range 600-2000K.
-   
+
    The previous estimate by RMG for this reaction was: k(T) = 5.500e+03 * T^2.81 * exp(-5.86 kcal/mol / RT) cm3 mol-1 s-1.
    This rate coefficient is 80-13,000x faster than MRH's calculation over the range 600-2000K.
 
@@ -9791,7 +9791,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
 
@@ -9821,7 +9821,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
 
@@ -9851,7 +9851,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
@@ -9881,7 +9881,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
@@ -9911,7 +9911,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
@@ -9941,7 +9941,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
@@ -9971,7 +9971,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 3 to get per-H value.
 
@@ -10005,7 +10005,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 3 to get per-H value.
 
@@ -10039,7 +10039,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 3 to get per-H value.
 
@@ -10069,7 +10069,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 3 to get per-H value.
 
@@ -10099,7 +10099,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
@@ -10133,7 +10133,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -10167,7 +10167,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
 
@@ -10197,7 +10197,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
@@ -10227,7 +10227,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -10261,7 +10261,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
@@ -10291,7 +10291,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
 
@@ -10321,7 +10321,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
 
@@ -10351,7 +10351,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -10381,7 +10381,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
 
@@ -10411,7 +10411,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -10441,7 +10441,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
@@ -10471,7 +10471,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""SSM due to lack of better value ref rate rule 525""",
-    longDesc = 
+    longDesc =
 u"""
 This rate rules matches C=C-CH3 + HO-O* <=> C=C-CH2* + H2O2
 
@@ -10497,7 +10497,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 6 to get per-H value.
 
@@ -10527,7 +10527,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""SSM due to lack of better value ref rate rule 527""",
-    longDesc = 
+    longDesc =
 u"""
 This rate rules matches C=C*-C + H2O2 <=> C=C-C + HO-O*
 
@@ -10553,7 +10553,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 2 to account for summetry of H2O2
 The rate rule is valid in a range of temperature from 300 -2000 K.
@@ -10585,7 +10585,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""SSM due to lack of better value ref rate rule 529""",
-    longDesc = 
+    longDesc =
 u"""
 This rate rules matches Cs-CH2-C=C + HO-O* <=> Cs-CH*-C=C + H2O2
 
@@ -10614,7 +10614,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 2 to get per-H value.
 The rate rule is valid in a range of temperature from 300 -2000 K.
@@ -10646,7 +10646,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""SSM due to lack of better value ref rate rule 531""",
-    longDesc = 
+    longDesc =
 u"""
 This rate rules matches C-HC=CH* + H2O2 <=> C-HC=CH2 + HO=O*
 
@@ -10672,7 +10672,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 2 to account for summetry of H2O2
 The rate rule is valid in a range of temperature from 300 -2000 K.
@@ -10704,7 +10704,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Matsugi et al 10.1021/jp1012494""",
-    longDesc = 
+    longDesc =
 u"""
 For CH4 + C2 = CH3 + C2H
 
@@ -10718,13 +10718,13 @@ It was measured at pretty low temperatures (294-376), but also calculated ab ini
 rates are plotted but the expression is not reported.
 
     k = (10.0 +- 2.1)E-11 exp[-(4.4+-0.5 kJ mol)/RT] cm3 molecule-1 s-1
-which gives 
+which gives
     A = 6e13+-1.3e13 cm3/mole/s
     n = 0
     Ea = 1.05+-0.12  kcal/mol
 The degeneracy of this reaction is 8 though, so per-site A is:
     A = 7.5e12+-1.6e12
-    
+
 (See also  doi:10.1063/1.3480395  for reactions of C2, but that may be the wrong electronic state.)
 
 Converted to training reaction from rate rule: C_methane;C2b
@@ -10745,7 +10745,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Exact reaction: HOOH + *O-CH=CH-C2H5 <=> HO-CH=CH-C2H5 + HOO*
 Rxn family nodes: H2O2 + InChI=1/C4H7O/c1-2-3-4-5/h3-4H,2H2,1H3
@@ -10782,7 +10782,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations, see node 534.""",
-    longDesc = 
+    longDesc =
 u"""
 Rxn family nodes: H2O2 + O_rad/OneDeC
 
@@ -10807,7 +10807,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Exact reaction: HOOH + *O-O-CH3 <=> HO-O-CH3 + HOO*
 Rxn family nodes: H2O2 + OOCH3
@@ -10844,7 +10844,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations, w/1dHR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/1d hindered rotor corrections
 Exact reaction: CH3CH2CH=CH2 + OOCH3 = HOOCH3 + CH3CHCH=CH2
@@ -10891,7 +10891,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
-    longDesc = 
+    longDesc =
 u"""
 MHS CBS-QB3 calculations w/1d hindered rotor corrections
 Exact reaction: *CH2-CH=CH2 + H2O2 = CH3-CH=CH2 + HO2
@@ -10928,7 +10928,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MHS CBS-QB3 w/o 1dHR calculations""",
-    longDesc = 
+    longDesc =
 u"""
 MHS CBS-QB3 calculations without 1d hindered rotor correction (due to presence of hydrogen bond interactions)
 Exact reaction: HO2 + CH3-CH2-CH2-CH=O = H2O2 + CH3-CH2-CH2-C*=O
@@ -10958,7 +10958,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Tully et al. experimental data (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;O_pri_rad
 """,
@@ -10978,7 +10978,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Baulch et al. literature review (value for HO2 + toluene) (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;O_rad/NonDeO
 """,
@@ -10998,7 +10998,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Baulch et al. literature review (value for HO2 + ethylbenzene) (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;O_rad/NonDeO
 """,
@@ -11018,7 +11018,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Baulch et al. literature review (value for HO2 + ethylbenzene) (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;O_rad/NonDeO
 """,
@@ -11038,7 +11038,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Baulch et al. literature review (value for HO2 + toluene entered here) (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;O2b
 """,
@@ -11058,7 +11058,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Baulch et al. literature review (value for HO2 + toluene entered here) (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;O2b
 """,
@@ -11078,7 +11078,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Baulch et al. literature review (value for HO2 + toluene entered here) (changed to per H)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;O2b
 """,
@@ -11098,7 +11098,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""[AJ]Assumed to be same as for ROOH_sec""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: ROOH_pri;C_rad/H/NonDeC
 """,
@@ -11118,7 +11118,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ]CBS-QB3 calculations with 1DHR corrections, reverse rates computed using DFT_QCI_thermo""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: ROOH_sec;C_rad/H/NonDeC
 """,
@@ -11138,7 +11138,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""[AJ]Assumed to be same as for C_rad/H/NonDeC""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: ROOH_pri;C_rad/H2/Cs
 """,
@@ -11158,7 +11158,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""[AJ]Assumed to be same as for C_rad/H/NonDeC""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: ROOH_sec;C_rad/H2/Cs
 """,
@@ -11178,7 +11178,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""[AJ] Assumed to be same as for ROOH_sec""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: ROOH_pri;C_rad/OOH/Cs/Cs
 """,
@@ -11198,7 +11198,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ] CBS-QB3 calculations with 1DHR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: ROOH_sec;C_rad/OOH/Cs/Cs
 """,
@@ -11218,7 +11218,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""[AJ] Assumed to be same as for ROOH_sec""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: ROOH_pri;CO_rad/NonDe
 """,
@@ -11238,7 +11238,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ] CBS-QB3 calculations with 1DHR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: ROOH_sec;CO_rad/NonDe
 """,
@@ -11258,7 +11258,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""[AJ] Assumed to be same as for ROOH_sec""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: ROOH_pri;C_rad/H/CO/Cs
 """,
@@ -11278,7 +11278,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""[AJ] Assumed to be same as for C_rad/H2/CO""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: ROOH_sec;C_rad/H/CO/Cs
 """,
@@ -11298,7 +11298,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""[AJ] Assumed to be same as for ROOH_sec""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: ROOH_pri;C_rad/H2/CO
 """,
@@ -11318,7 +11318,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ] CBS-QB3 calculations with 1DHR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: ROOH_sec;C_rad/H2/CO
 """,
@@ -11338,7 +11338,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC CBS-QB3 calc, 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/H/CsS
 """,
@@ -11358,7 +11358,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC CBS-QB3 calc, 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/H2/Cs
 """,
@@ -11378,7 +11378,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC CBS-QB3 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;S_pri_rad
 """,
@@ -11398,7 +11398,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC CBS-QB3 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;Cs_rad
 """,
@@ -11418,7 +11418,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""CAC CBS-QB3, HO approx""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;S_rad/NonDeC
 """,
@@ -11438,7 +11438,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Jodkowski et al. [100] ab initio calculations. added by Greg Magoon 08/25/09""",
-    longDesc = 
+    longDesc =
 u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 
@@ -11466,7 +11466,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
@@ -11500,7 +11500,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;CS_pri_rad
 """,
@@ -11520,7 +11520,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_methyl
 """,
@@ -11540,7 +11540,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;O_pri_rad
 """,
@@ -11560,7 +11560,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;O_pri_rad
 """,
@@ -11580,7 +11580,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;O_rad/NonDeC
 """,
@@ -11600,7 +11600,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;O_rad/NonDeC
 """,
@@ -11620,7 +11620,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CO/H/NonDe;C_rad/H/CsS
 """,
@@ -11640,7 +11640,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CsOS;Cs_rad
 """,
@@ -11660,7 +11660,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CO;Cs_rad
 """,
@@ -11680,7 +11680,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CsOS;S_pri_rad
 """,
@@ -11700,7 +11700,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CO/H/NonDe;S_pri_rad
 """,
@@ -11720,7 +11720,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: O/H/OneDe;S_pri_rad
 """,
@@ -11740,7 +11740,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CAC calculation CBS-QB3 1dhr, F12a energy""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: O/H/OneDe;S_rad/NonDeC
 """,
@@ -11748,7 +11748,7 @@ Converted to training reaction from rate rule: O/H/OneDe;S_rad/NonDeC
 
 entry(
     index = 483,
-    label = "NH2_p23 + C2H6 <=> NH3_r + C2H5",
+    label = "NH2_r3 + C2H6 <=> NH3_p23 + C2H5",
     degeneracy = 6.0,
     kinetics = Arrhenius(
         A = (5.52e+06, 'cm^3/(mol*s)'),
@@ -11760,7 +11760,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_pri;NH2_rad
 """,
@@ -11780,7 +11780,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_methyl
 """,
@@ -11788,7 +11788,7 @@ Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_meth
 
 entry(
     index = 485,
-    label = "NH2_p23 + C3H8 <=> NH3_r + C3H7",
+    label = "NH2_r3 + C3H8 <=> NH3_p23 + C3H7",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (1.84e+06, 'cm^3/(mol*s)'),
@@ -11800,7 +11800,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Dean and Bozzelli chapter 2, estimation same as C_pri;NH2_rad""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_sec;NH2_rad
 """,
@@ -11820,7 +11820,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/H2/Cs
 """,
@@ -11828,7 +11828,7 @@ Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/
 
 entry(
     index = 487,
-    label = "NH2_p23 + iC4H10b <=> NH3_r + C4H9-4",
+    label = "NH2_r3 + iC4H10b <=> NH3_p23 + C4H9-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
@@ -11840,7 +11840,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Dean and Bozzelli chapter 2, estimation same as C_pri;NH2_rad""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_ter;NH2_rad
 """,
@@ -11860,7 +11860,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/H/NonDeC
 """,
@@ -11868,7 +11868,7 @@ Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/
 
 entry(
     index = 489,
-    label = "H + NH3_r <=> H2 + NH2_p23",
+    label = "H + NH3_r12 <=> H2 + NH2_p23",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (7.2e+08, 'cm^3/(mol*s)'),
@@ -11880,7 +11880,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: N3s_H;H_rad
 """,
@@ -11900,7 +11900,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/Cs3
 """,
@@ -11908,7 +11908,7 @@ Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/
 
 entry(
     index = 491,
-    label = "NH3_r + O_rad <=> HO + NH2_p23",
+    label = "NH3_r12 + O_rad <=> HO + NH2_p23",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (5.1e+08, 'cm^3/(mol*s)'),
@@ -11920,7 +11920,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: N3s_H;O_atom_triplet
 """,
@@ -11940,7 +11940,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/H2/Cd
 """,
@@ -11948,7 +11948,7 @@ Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/
 
 entry(
     index = 493,
-    label = "OH + NH3_r <=> H2O_p + NH2_p1",
+    label = "OH + NH3_r12 <=> H2O + NH2_p23",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (3.6e+06, 'cm^3/(mol*s)'),
@@ -11960,7 +11960,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: N3s_H;O_pri_rad
 """,
@@ -11980,7 +11980,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/H/CdCs
 """,
@@ -11988,7 +11988,7 @@ Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/
 
 entry(
     index = 495,
-    label = "CH3_p23 + NH3_r <=> CH4b + NH2_p23",
+    label = "CH3_p23 + NH3_r12 <=> CH4b + NH2_p23",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (2.43e+06, 'cm^3/(mol*s)'),
@@ -12000,7 +12000,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: N3s_H;C_methyl
 """,
@@ -12020,7 +12020,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/CdCs2
 """,
@@ -12040,7 +12040,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/H/CdCd
 """,
@@ -12060,7 +12060,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/CdCdCs
 """,
@@ -12080,7 +12080,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/H2/Ct
 """,
@@ -12100,7 +12100,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/H/CtCs
 """,
@@ -12120,7 +12120,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/CtCs2
 """,
@@ -12140,7 +12140,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/H/CtCt
 """,
@@ -12160,7 +12160,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/CtCtCs
 """,
@@ -12180,7 +12180,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/H2/Cb
 """,
@@ -12200,7 +12200,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/H/CbCs
 """,
@@ -12220,7 +12220,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/CbCs2
 """,
@@ -12240,7 +12240,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;Cd_pri_rad
 """,
@@ -12260,7 +12260,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;Cd_rad/NonDeC
 """,
@@ -12280,7 +12280,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;Cd_rad/Cd
 """,
@@ -12300,7 +12300,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;Cb_rad
 """,
@@ -12320,7 +12320,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;Cd_rad/Ct
 """,
@@ -12340,7 +12340,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;C_methyl
 """,
@@ -12360,7 +12360,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;C_rad/H2/Cs
 """,
@@ -12380,7 +12380,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;C_rad/H/NonDeC
 """,
@@ -12400,7 +12400,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;C_rad/Cs3
 """,
@@ -12420,7 +12420,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;C_rad/H2/Cd
 """,
@@ -12440,7 +12440,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;C_rad/H/CdCs
 """,
@@ -12460,7 +12460,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;C_rad/CdCs2
 """,
@@ -12480,7 +12480,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;C_rad/H/CdCd
 """,
@@ -12500,7 +12500,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;C_rad/CdCdCs
 """,
@@ -12520,7 +12520,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;C_rad/H2/Ct
 """,
@@ -12540,7 +12540,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;C_rad/H/CtCs
 """,
@@ -12560,7 +12560,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;C_rad/CtCs2
 """,
@@ -12580,7 +12580,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;C_rad/H/CtCt
 """,
@@ -12600,7 +12600,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;C_rad/CtCtCs
 """,
@@ -12620,7 +12620,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;C_rad/H2/Cb
 """,
@@ -12640,7 +12640,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;C_rad/H/CbCs
 """,
@@ -12660,7 +12660,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;C_rad/CbCs2
 """,
@@ -12680,7 +12680,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;Cd_pri_rad
 """,
@@ -12700,7 +12700,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;Cd_rad/NonDeC
 """,
@@ -12720,7 +12720,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;Cd_rad/Cd
 """,
@@ -12740,7 +12740,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;Cb_rad
 """,
@@ -12760,7 +12760,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;Cd_rad/Ct
 """,
@@ -12780,7 +12780,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;C_methyl
 """,
@@ -12800,7 +12800,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;C_rad/H2/Cs
 """,
@@ -12820,7 +12820,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;C_rad/H/NonDeC
 """,
@@ -12840,7 +12840,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;C_rad/Cs3
 """,
@@ -12860,7 +12860,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;C_rad/H2/Cd
 """,
@@ -12880,7 +12880,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;C_rad/H/CdCs
 """,
@@ -12900,7 +12900,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;C_rad/CdCs2
 """,
@@ -12920,7 +12920,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;C_rad/H/CdCd
 """,
@@ -12940,7 +12940,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;C_rad/CdCdCs
 """,
@@ -12960,7 +12960,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;C_rad/H2/Ct
 """,
@@ -12980,7 +12980,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;C_rad/H/CtCs
 """,
@@ -13000,7 +13000,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;C_rad/CtCs2
 """,
@@ -13020,7 +13020,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;C_rad/H/CtCt
 """,
@@ -13040,7 +13040,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;C_rad/CtCtCs
 """,
@@ -13060,7 +13060,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;C_rad/H2/Cb
 """,
@@ -13080,7 +13080,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;C_rad/H/CbCs
 """,
@@ -13100,7 +13100,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;C_rad/CbCs2
 """,
@@ -13120,7 +13120,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;Cd_pri_rad
 """,
@@ -13140,7 +13140,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;Cd_rad/NonDeC
 """,
@@ -13160,7 +13160,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;Cd_rad/Cd
 """,
@@ -13180,7 +13180,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;Cb_rad
 """,
@@ -13200,7 +13200,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;Cd_rad/Ct
 """,
@@ -13220,7 +13220,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;C_methyl
 """,
@@ -13240,7 +13240,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;C_rad/H2/Cs
 """,
@@ -13260,7 +13260,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;C_rad/H/NonDeC
 """,
@@ -13280,7 +13280,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;C_rad/Cs3
 """,
@@ -13300,7 +13300,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;C_rad/H2/Cd
 """,
@@ -13320,7 +13320,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;C_rad/H/CdCs
 """,
@@ -13340,7 +13340,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;C_rad/CdCs2
 """,
@@ -13360,7 +13360,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;C_rad/H/CdCd
 """,
@@ -13380,7 +13380,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;C_rad/CdCdCs
 """,
@@ -13400,7 +13400,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;C_rad/H2/Ct
 """,
@@ -13420,7 +13420,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;C_rad/H/CtCs
 """,
@@ -13440,7 +13440,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;C_rad/CtCs2
 """,
@@ -13460,7 +13460,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;C_rad/H/CtCt
 """,
@@ -13480,7 +13480,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;C_rad/CtCtCs
 """,
@@ -13500,7 +13500,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;C_rad/H2/Cb
 """,
@@ -13520,7 +13520,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;C_rad/H/CbCs
 """,
@@ -13540,7 +13540,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;C_rad/CbCs2
 """,
@@ -13560,7 +13560,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;Cd_pri_rad
 """,
@@ -13580,7 +13580,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;Cd_rad/NonDeC
 """,
@@ -13600,7 +13600,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;Cd_rad/Cd
 """,
@@ -13620,7 +13620,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;Cb_rad
 """,
@@ -13640,7 +13640,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;Cd_rad/Ct
 """,
@@ -13660,7 +13660,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;C_methyl
 """,
@@ -13680,7 +13680,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;C_rad/H2/Cs
 """,
@@ -13700,7 +13700,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;C_rad/H/NonDeC
 """,
@@ -13720,7 +13720,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;C_rad/Cs3
 """,
@@ -13740,7 +13740,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;C_rad/H2/Cd
 """,
@@ -13760,7 +13760,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;C_rad/H/CdCs
 """,
@@ -13780,7 +13780,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;C_rad/CdCs2
 """,
@@ -13800,7 +13800,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;C_rad/H/CdCd
 """,
@@ -13820,7 +13820,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;C_rad/CdCdCs
 """,
@@ -13840,7 +13840,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;C_rad/H2/Ct
 """,
@@ -13860,7 +13860,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;C_rad/H/CtCs
 """,
@@ -13880,7 +13880,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;C_rad/CtCs2
 """,
@@ -13900,7 +13900,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;C_rad/H/CtCt
 """,
@@ -13920,7 +13920,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;C_rad/CtCtCs
 """,
@@ -13940,7 +13940,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;C_rad/H2/Cb
 """,
@@ -13960,7 +13960,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;C_rad/H/CbCs
 """,
@@ -13980,7 +13980,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;C_rad/CbCs2
 """,
@@ -14000,7 +14000,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;Cd_pri_rad
 """,
@@ -14020,7 +14020,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;Cd_rad/NonDeC
 """,
@@ -14040,7 +14040,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;Cd_rad/Cd
 """,
@@ -14060,7 +14060,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;Cb_rad
 """,
@@ -14080,7 +14080,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;Cd_rad/Ct
 """,
@@ -14100,7 +14100,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;C_methyl
 """,
@@ -14120,7 +14120,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;C_rad/H2/Cs
 """,
@@ -14140,7 +14140,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;C_rad/H/NonDeC
 """,
@@ -14160,7 +14160,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;C_rad/Cs3
 """,
@@ -14180,7 +14180,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;C_rad/H2/Cd
 """,
@@ -14200,7 +14200,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;C_rad/H/CdCs
 """,
@@ -14220,7 +14220,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;C_rad/CdCs2
 """,
@@ -14240,7 +14240,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;C_rad/H/CdCd
 """,
@@ -14260,7 +14260,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;C_rad/CdCdCs
 """,
@@ -14280,7 +14280,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;C_rad/H2/Ct
 """,
@@ -14300,7 +14300,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;C_rad/H/CtCs
 """,
@@ -14320,7 +14320,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;C_rad/CtCs2
 """,
@@ -14340,7 +14340,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;C_rad/H/CtCt
 """,
@@ -14360,7 +14360,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;C_rad/CtCtCs
 """,
@@ -14380,7 +14380,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;C_rad/H2/Cb
 """,
@@ -14400,7 +14400,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;C_rad/H/CbCs
 """,
@@ -14420,7 +14420,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;C_rad/CbCs2
 """,
@@ -14440,7 +14440,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;Cd_pri_rad
 """,
@@ -14460,7 +14460,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;Cd_rad/NonDeC
 """,
@@ -14480,7 +14480,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;Cd_rad/Cd
 """,
@@ -14500,7 +14500,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;Cb_rad
 """,
@@ -14520,7 +14520,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs BMK/6-311G(2,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;Cd_rad/Ct
 """,
@@ -14528,22 +14528,23 @@ Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;Cd_ra
 
 entry(
     index = 622,
-    label = "H + NH3_r <=> H2 + NH2_p23",
+    label = "H + NH3_r12 <=> H2 + NH2_p23",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(2.89e+06, 'cm^3/(mol*s)'), n=2.23036, Ea=(10407, 'cal/mol'), T0=(1, 'K'),
                          Tmin=(300, 'K'), Tmax=(2500, 'K')),
     rank = 1,
-    shortDesc = u"""HEAT""",
-    longDesc = 
+    shortDesc = u"""Added by Beat Buesser""",
+    longDesc =
 u"""
-T.L. Nguyen, J.F. Staton, IJCK 2019, doi: 10.1002/kin.21255
-calculations done at the HEAT-456QP level of theory
+Added by Beat Buesser, value for reaction: NH3 + H = NH2_r3 + H2 (B&D #6) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+
+Converted to training reaction from rate rule: NH3;H_rad
 """,
 )
 
 entry(
     index = 623,
-    label = "OH + NH3_r <=> H2O_p + NH2_p1",
+    label = "OH + NH3_r12 <=> H2O + NH2_p23",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (1.5e+08, 'cm^3/(mol*s)'),
@@ -14555,9 +14556,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: NH3 + OH = NH2 + H2O (B&D #7) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: NH3 + OH = NH2_r3 + H2O (B&D #7) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: NH3;O_pri_rad
 """,
@@ -14565,7 +14566,7 @@ Converted to training reaction from rate rule: NH3;O_pri_rad
 
 entry(
     index = 624,
-    label = "NH3_r + O_rad <=> HO + NH2_p23",
+    label = "NH3_r12 + O_rad <=> HO + NH2_p23",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (2.82e+07, 'cm^3/(mol*s)'),
@@ -14577,9 +14578,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: NH3 + O = NH2 + OH (B&D #8) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: NH3 + O = NH2_r3 + OH (B&D #8) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: NH3;O_atom_triplet
 """,
@@ -14599,9 +14600,9 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: NH2 + H = NH + H2 (B&D #9) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: NH2_r3 + H = NH + H2 (B&D #9) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
 )
 
@@ -14619,9 +14620,9 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: NH2 + O = NH + OH (B&D #15d2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: NH2_r3 + O = NH + OH (B&D #15d2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
 )
 
@@ -14639,15 +14640,15 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: NH2 + OH = NH + H2O (B&D #16b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: NH2_r3 + OH = NH + H2O (B&D #16b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
 )
 
 entry(
     index = 628,
-    label = "NH2_r12 + NH2_r3 <=> NH3_p23 + NH_p1",
+    label = "H2N + NH2_r3 <=> NH3_p23 + NH_p1",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (1e+14, 'cm^3/(mol*s)'),
@@ -14659,9 +14660,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: NH2 + NH2 = NH3 + NH (B&D #17e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: NH2_r3 + NH2_r3 = NH3 + NH (B&D #17e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: NH2_rad_H;NH2_rad
 """,
@@ -14681,9 +14682,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: CH3 + NH2 = CH4 + NH (B&D #21e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: CH3 + NH2_r3 = CH4 + NH (B&D #21e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: NH2_rad_H;C_methyl
 """,
@@ -14703,9 +14704,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: CH3 + NH2 = CH2 + NH3 (B&D #21f) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: CH3 + NH2_r3 = CH2 + NH3 (B&D #21f) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: CH3_rad_H;NH2_rad
 """,
@@ -14725,7 +14726,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N + OH = NH + O (B&D #26b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -14747,9 +14748,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: NH + NH2 = NH3 + N (B&D #27b2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: NH + NH2_r3 = NH3 + N (B&D #27b2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: NH_triplet_H;NH2_rad
 """,
@@ -14769,7 +14770,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH + OH = N + H2O (B&D #27c2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -14791,7 +14792,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH + H = N + H2 (B&D #27d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -14813,7 +14814,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH + O = N + OH (B&D #27e2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -14835,7 +14836,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH + CH3 = CH4 + N (B&D #27f2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -14857,7 +14858,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H2 + H = NNH + H2 (B&D #29c1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -14879,7 +14880,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H2 + O = NNH + OH (B&D #29c2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -14901,7 +14902,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H2 + OH = NNH + H2O (B&D #29c3) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -14923,9 +14924,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: N2H2 + NH2 = NNH + NH3 (B&D #29c4) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: N2H2 + NH2_r3 = NNH + NH3 (B&D #29c4) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: N3d/H/NonDeN;NH2_rad
 """,
@@ -14945,7 +14946,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H2 + CH3 = NNH + CH4 (B&D #29c5) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -14967,9 +14968,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: N2H2 + NH = NNH + NH2 (B&D #29d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: N2H2 + NH = NNH + NH2_r3 (B&D #29d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: N3d/H/NonDeN;NH_triplet
 """,
@@ -14989,7 +14990,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H3 + OH = H2NN + H2O (B&D #31d2)  in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15011,7 +15012,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H3 + CH3 = H2NN + CH4 (B&D #31e2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15021,7 +15022,7 @@ Converted to training reaction from rate rule: N3s_rad_H/H/NonDeN;C_methyl
 
 entry(
     index = 645,
-    label = "NH2_r3 + N2H3_r12 <=> NH3_p23 + H2NN(S)_p23",
+    label = "NH2_r3 + H3N2 <=> NH3_p23 + H2N2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3e+13, 'cm^3/(mol*s)'),
@@ -15033,9 +15034,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: N2H3 + NH2 = H2NN + NH3 (B&D #31f2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: N2H3 + NH2_r3 = H2NN + NH3 (B&D #31f2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: N3s_rad_H/H/NonDeN;NH2_rad
 """,
@@ -15055,7 +15056,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H4 + H = N2H3 + H2 (B&D #32a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15077,7 +15078,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H4 + O = N2H3 + OH (B&D #32b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15099,7 +15100,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H4 + OH = N2H3 + H2O (B&D #32c) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15121,7 +15122,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H4 + CH3 = N2H3 + CH4 (B&D #32d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15131,7 +15132,7 @@ Converted to training reaction from rate rule: N3s/H2/NonDeN;C_methyl
 
 entry(
     index = 650,
-    label = "NH2_p23 + N2H4_r12 <=> NH3_r + N2H3_r3",
+    label = "NH2_r3 + N2H4 <=> NH3_p23 + H3N2-2",
     degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (1.48e+07, 'cm^3/(mol*s)'),
@@ -15143,9 +15144,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: N2H4 + NH2 = N2H3 + NH3 (B&D #32e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: N2H4 + NH2_r3 = N2H3 + NH3 (B&D #32e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: N3s/H2/NonDeN;NH2_rad
 """,
@@ -15165,7 +15166,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNO + OH = NO + H2O (B&D #36c) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15187,7 +15188,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNO + H = H2 + NO (B&D #36d1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15209,7 +15210,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNO + O = OH + NO (B&D #36e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15231,9 +15232,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: HNO + NH2 = NH3 + NO (B&D #36f) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: HNO + NH2_r3 = NH3 + NO (B&D #36f) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: N3d/H/NonDeO;NH2_rad
 """,
@@ -15253,7 +15254,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNO + O2 = NO + HO2 (B&D #36h) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15275,7 +15276,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNO + CH3 = NO + CH4 (B&D #36i) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15297,7 +15298,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HONO + H = H2 + NO2 (B&D #40b1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15319,7 +15320,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HONO + O = OH + NO2 (B&D #40c) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15341,7 +15342,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HONO + OH = H2O + NO2 (B&D #40d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15363,7 +15364,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HONO + CH3 = NO2 + CH4 (B&D #40e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15385,9 +15386,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: HONO + NH2 = NO2 + NH3 (B&D #40f) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: HONO + NH2_r3 = NO2 + NH3 (B&D #40f) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O/H/OneDeN;NH2_rad
 """,
@@ -15407,7 +15408,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HCN + OH = CN + H2O (B&D #42a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15429,7 +15430,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HCN + O = CN + OH (B&D #42c3) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15451,7 +15452,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CN + H2 = HCN + H (B&D #44a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15473,7 +15474,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CN + H2O = HCN + OH (B&D #44b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15495,7 +15496,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CN + CH4 = HCN + CH3 (B&D #44i) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15505,7 +15506,7 @@ Converted to training reaction from rate rule: C_methane;Ct_rad/N
 
 entry(
     index = 667,
-    label = "NH3_r + CN <=> HCN_r + NH2_p23",
+    label = "NH3_r12 + CN <=> HCN_r + NH2_p23",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (2.76e+13, 'cm^3/(mol*s)'),
@@ -15517,9 +15518,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: CN + NH3 = HCN + NH2 (B&D #44j) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: CN + NH3 = HCN + NH2_r3 (B&D #44j) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: NH3;Ct_rad/N
 """,
@@ -15539,7 +15540,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + H = H2CN + H2 (B&D #48a1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15561,7 +15562,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + O = H2CN + OH (B&D #48a2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15583,7 +15584,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + OH = H2CN + H2O (B&D #48a3) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15605,7 +15606,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + CH3 = H2CN + CH4 (B&D #48a4) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15627,9 +15628,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: H2CNH + NH2 = H2CN + NH3 (B&D #48a5) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: H2CNH + NH2_r3 = H2CN + NH3 (B&D #48a5) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: N3d/H/NonDeC;NH2_rad
 """,
@@ -15649,7 +15650,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + H = HCNH + H2 (B&D #48b1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15671,7 +15672,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + O = HCNH + OH (B&D #48b2)  in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15693,7 +15694,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + OH = HCNH + H2O (B&D #48b3) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15715,7 +15716,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + CH3 = HCNH + CH4 (B&D #48b4) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15737,9 +15738,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: H2CNH + NH2 = HCNH + NH3 (B&D #48b5)  in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: H2CNH + NH2_r3 = HCNH + NH3 (B&D #48b5)  in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: Cd/H2/NonDeN;NH2_rad
 """,
@@ -15759,7 +15760,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NH2 + H = CH2NH2 + H2 (B&D #51a1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15781,7 +15782,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NH2 + O = CH2NH2 + OH (B&D #51a2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15803,7 +15804,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NH2 + OH = CH2NH2 + H2O (B&D #51a3) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15825,7 +15826,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NH2 + CH3 = CH2NH2 + CH4 (B&D #51a4) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15847,9 +15848,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: CH3NH2 + NH2 = CH2NH2 + NH3 (B&D #51a5) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: CH3NH2 + NH2_r3 = CH2NH2 + NH3 (B&D #51a5) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: Cs/H3/NonDeN;NH2_rad
 """,
@@ -15869,7 +15870,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NH2 + H = CH3NH + H2 (B&D #51b1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15891,7 +15892,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NH2 + O = CH3NH + OH (B&D #51b2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15913,7 +15914,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NH2 + OH = CH3NH + H2O (B&D #51b3) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15935,7 +15936,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NH2 + CH3 = CH3NH + CH4 (B&D #51b4) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -15957,9 +15958,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: CH3NH2 + NH2 = CH3NH + NH3 (B&D #51b5) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: CH3NH2 + NH2_r3 = CH3NH + NH3 (B&D #51b5) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: N3s/H2/NonDeC;NH2_rad
 """,
@@ -15979,7 +15980,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NCO + H2 = HNCO + H (B&D #53c) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16001,7 +16002,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NCO + CH4 = HNCO + CH3 (B&D #53i) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16011,7 +16012,7 @@ Converted to training reaction from rate rule: C_methane;N3d_rad/OneDeCdd_O
 
 entry(
     index = 690,
-    label = "NH3_r + CNO <=> HNCO + NH2_p23",
+    label = "NH3_r12 + CNO <=> HNCO + NH2_p23",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (84000, 'cm^3/(mol*s)'),
@@ -16023,9 +16024,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: NCO + NH3 = HNCO + NH2 (B&D #53j) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: NCO + NH3 = HNCO + NH2_r3 (B&D #53j) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: NH3;N3d_rad/OneDeCdd_O
 """,
@@ -16045,7 +16046,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HOCN + H = H2 + NCO (B&D #55d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16067,7 +16068,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HOCN + O = OH + NCO (B&D #55e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16089,7 +16090,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HOCN + OH = H2O + NCO (B&D #55f) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16111,7 +16112,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HOCN + CH3 = CH4 + NCO (B&D #55g) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16133,9 +16134,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: HOCN + NH2 = NH3 + NCO (B&D #55h) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: HOCN + NH2_r3 = NH3 + NCO (B&D #55h) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O/H/OneDeC;NH2_rad
 """,
@@ -16155,7 +16156,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNCO + OH = NCO + H2O (B&D #56d2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16177,7 +16178,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNCO + H = NCO + H2 (B&D #56e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16199,7 +16200,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNCO + O = NCO + OH (B&D #56f) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16221,7 +16222,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HNCO + CH3 = NCO + CH4 (B&D #56h) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16243,9 +16244,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: HNCO + NH2 = NCO + NH3 (B&D #56i) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: HNCO + NH2_r3 = NCO + NH3 (B&D #56i) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: N3d/H/CddO;NH2_rad
 """,
@@ -16265,7 +16266,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH2NO + O = HCNO + OH (B&D #57d2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16287,7 +16288,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NO + H = CH2NO + H2 (B&D #58a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16309,7 +16310,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NO + O = CH2NO + OH (B&D #58b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16331,7 +16332,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NO + OH = CH2NO + H2O (B&D #58c) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16353,7 +16354,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH3NO + CH3 = CH2NO + CH4 (B&D #58d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16363,7 +16364,7 @@ Converted to training reaction from rate rule: Cs/H3/OneDeN;C_methyl
 
 entry(
     index = 706,
-    label = "NH2_p23 + C2H5N <=> NH3_r + C2H4N-2",
+    label = "NH2_r3 + C2H5N <=> NH3_p23 + C2H4N-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (8.4e+06, 'cm^3/(mol*s)'),
@@ -16375,9 +16376,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: CH3NO + NH2 = CH2NO + NH3 (B&D #58e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: CH3NO + NH2_r3 = CH2NO + NH3 (B&D #58e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: Cs/H3/OneDeN;NH2_rad
 """,
@@ -16397,7 +16398,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + H = HNOH + H2 (B&D #61b1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16419,7 +16420,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + O = HNOH + OH (B&D #61c1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16441,7 +16442,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + OH = HNOH + H2O (B&D #61d1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16463,7 +16464,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + CH3 = HNOH + CH4 (B&D #61e1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16473,7 +16474,7 @@ Converted to training reaction from rate rule: N3s/H2/NonDeO;C_methyl
 
 entry(
     index = 711,
-    label = "NH2_p23 + H3NO <=> NH3_r + H2NO",
+    label = "NH2_r3 + H3NO <=> NH3_p23 + H2NO",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (3.6e+06, 'cm^3/(mol*s)'),
@@ -16485,9 +16486,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: NH2OH + NH2 = HNOH + NH3 (B&D #61f1)  in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: NH2OH + NH2_r3 = HNOH + NH3 (B&D #61f1)  in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: N3s/H2/NonDeO;NH2_rad
 """,
@@ -16507,7 +16508,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + HO2 = HNOH + H2O2 (B&D #61g1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16529,7 +16530,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + H = NH2O + H2 (B&D #61b2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16551,7 +16552,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + O = NH2O + OH (B&D #61c2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16573,7 +16574,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + OH = NH2O + H2O (B&D #61d2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16595,7 +16596,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + CH3 = NH2O + CH4 (B&D #61e2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16605,7 +16606,7 @@ Converted to training reaction from rate rule: O/H/NonDeN;C_methyl
 
 entry(
     index = 717,
-    label = "NH2_p23 + H3NO-2 <=> NH3_r + H2NO-2",
+    label = "NH2_r3 + H3NO-2 <=> NH3_p23 + H2NO-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
@@ -16617,9 +16618,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: NH2OH + NH2 = NH2O + NH3 (B&D #61f2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: NH2OH + NH2_r3 = NH2O + NH3 (B&D #61f2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O/H/NonDeN;NH2_rad
 """,
@@ -16639,7 +16640,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2OH + HO2 = NH2O + H2O2 (B&D #61g2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16661,7 +16662,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2NO + H = HNNO + H2 (B&D #62b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16683,7 +16684,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2NO + O = HNNO + OH (B&D #62c) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16705,7 +16706,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2NO + OH = HNNO + H2O (B&D #62d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16727,7 +16728,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2NO + CH3 = HNNO + CH4 (B&D #62e) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16737,7 +16738,7 @@ Converted to training reaction from rate rule: N3s/H2/OneDeN;C_methyl
 
 entry(
     index = 723,
-    label = "NH2_p23 + CH4N2 <=> NH3_r + CH3N2",
+    label = "NH2_r3 + CH4N2 <=> NH3_p23 + CH3N2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (3.6e+06, 'cm^3/(mol*s)'),
@@ -16749,9 +16750,9 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
-Added by Beat Buesser, value for reaction: NH2NO + NH2 = HNNO + NH3 (B&D #62f) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Beat Buesser, value for reaction: NH2NO + NH2_r3 = HNNO + NH3 (B&D #62f) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: N3s/H2/OneDeN;NH2_rad
 """,
@@ -16771,7 +16772,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: NH2NO + HO2 = HNNO + H2O2 (B&D #62g) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16793,7 +16794,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2NNHO + HO2 = HNNHO + H2O2 (B&D #63g) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -16815,7 +16816,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) OH + JP10""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;O_pri_rad
 """,
@@ -16835,7 +16836,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) OH + JP10""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;O_pri_rad
 """,
@@ -16855,7 +16856,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) OH + JP10""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;O_pri_rad
 """,
@@ -16875,7 +16876,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) OH + JP10""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;O_pri_rad
 """,
@@ -16895,7 +16896,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) OH + JP10""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;O_pri_rad
 """,
@@ -16915,7 +16916,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) OH + JP10""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;O_pri_rad
 """,
@@ -16935,7 +16936,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) H + JP10""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;H_rad
 """,
@@ -16955,7 +16956,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) H + JP10""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_fused6;H_rad
 """,
@@ -16975,7 +16976,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) H + JP10""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_2;H_rad
 """,
@@ -16995,7 +16996,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) H + JP10""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3_5ring_adj5;H_rad
 """,
@@ -17015,7 +17016,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) H + JP10""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_alpha6ring;H_rad
 """,
@@ -17035,7 +17036,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2,d,p) H + JP10""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;H_rad
 """,
@@ -17055,7 +17056,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte BMK""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H/NonDeC_5ring_fused6_1
 """,
@@ -17075,7 +17076,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte BMK""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/Cs3_5ring_adj5
 """,
@@ -17095,7 +17096,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte BMK""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H/NonDeC_5ring_alpha6ring
 """,
@@ -17115,7 +17116,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte BMK""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H/NonDeC_5ring_beta6ring
 """,
@@ -17135,7 +17136,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte BMK""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H/NonDeC_5ring_fused6_2
 """,
@@ -17155,7 +17156,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte BMK""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/Cs3_5ring_fused6
 """,
@@ -17175,7 +17176,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Estimated value""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H/NonDeC_5ring_fused6_1
 """,
@@ -17195,7 +17196,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Estimated value""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/Cs3_5ring_adj5
 """,
@@ -17215,7 +17216,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Estimated value""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H/NonDeC_5ring_alpha6ring
 """,
@@ -17235,7 +17236,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Estimated value""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H/NonDeC_5ring_beta6ring
 """,
@@ -17255,7 +17256,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Estimated value""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/Cs3_5ring_fused6
 """,
@@ -17275,7 +17276,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Estimated value""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H/NonDeC_5ring_fused6_2
 """,
@@ -17295,7 +17296,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections ref: doi: 10.1021/ie1005349""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs\H\Cs\O;H_rad
 """,
@@ -17315,7 +17316,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections ref: doi: 10.1021/ie1005349""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2O;H_rad
 """,
@@ -17335,7 +17336,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections ref: doi: 10.1021/ie1005349""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs\H\Cs\O;C_methyl
 """,
@@ -17355,7 +17356,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections ref: doi: 10.1021/ie1005349""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2O;C_methyl
 """,
@@ -17375,7 +17376,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections ref: doi: 10.1021/ie1005349""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;H_rad
 """,
@@ -17395,7 +17396,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections ref: doi: 10.1021/ie1005349""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_methyl
 """,
@@ -17415,7 +17416,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""same as rule 3072. ref: doi: 10.1021/ie1005349""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd\H_Cd\H2;H_rad
 """,
@@ -17435,7 +17436,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections ref: doi: 10.1021/ie1005349""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd\H_Cd\H\Cs;H_rad
 """,
@@ -17455,7 +17456,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""same as rule 3072. ref: doi: 10.1021/ie1005349""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd\H_Cd\H2;C_methyl
 """,
@@ -17475,7 +17476,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections ref: doi: 10.1021/ie1005349""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd\H_Cd\H\Cs;C_methyl
 """,
@@ -17495,7 +17496,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections ref: doi: 10.1021/ie1005349""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd\Cs_Cd\H2;H_rad
 """,
@@ -17515,7 +17516,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 with 1-dHR corrections ref: doi: 10.1021/ie1005349""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd\Cs_Cd\H2;C_methyl
 """,
@@ -17535,7 +17536,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/H2/Cs
 """,
@@ -17555,7 +17556,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/H/NonDeC
 """,
@@ -17575,7 +17576,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/Cs3
 """,
@@ -17595,7 +17596,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""iBuOH + OH (communication from truhlar group) refitted to arrhenius form""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsO;O_pri_rad
 """,
@@ -17615,7 +17616,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""iBuOH + OH (communication from truhlar group) refitted to arrhenius form""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2/Cs\O;O_pri_rad
 """,
@@ -17635,7 +17636,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: O/H/NonDeC;H_rad
 """,
@@ -17655,7 +17656,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsO;H_rad
 """,
@@ -17675,7 +17676,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2/Cs\O;H_rad
 """,
@@ -17695,7 +17696,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;H_rad
 """,
@@ -17715,7 +17716,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_methyl
 """,
@@ -17735,7 +17736,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2/Cs\O;C_methyl
 """,
@@ -17755,7 +17756,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
-    longDesc = 
+    longDesc =
 u"""
 Value for ipentanol, x3 lower mainly because of gamma O restricting rotation of abstracting methyl
 
@@ -17777,7 +17778,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsO;C_methyl
 """,
@@ -17797,7 +17798,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;Cd_Cd\H2_pri_rad
 """,
@@ -17817,7 +17818,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsO;Cd_Cd\H2_pri_rad
 """,
@@ -17837,7 +17838,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""iso-butane + O = OH + tert-C4H9""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2/Cs\O;O_atom_triplet
 """,
@@ -17857,7 +17858,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""C2H5OH+O=OH+CH3CHOH""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/Cs\Cs2/O;O_atom_triplet
 """,
@@ -17877,7 +17878,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""SSM CBS-QB3 without 1-dHR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2O2;C_rad/H2/Cs
 """,
@@ -17897,7 +17898,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""SSM CBS-QB3 without 1-dHR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2O2;C_rad/Cs2/Cs\O
 """,
@@ -17917,7 +17918,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""SSM CBS-QB3 without 1-dHR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2O2;C_rad/H/CsO
 """,
@@ -17936,7 +17937,7 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 11,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/Cs/Cs\O;O_atom_triplet
 """,
@@ -17956,7 +17957,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CCSD(T)-F12a/pVTZ with MS-VTST treatment for rotors""",
-    longDesc = 
+    longDesc =
 u"""
 Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
 doi: 10.1021/jp310910f
@@ -17979,7 +17980,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CCSD(T)-F12a/pVTZ with MS-VTST treatment for rotors""",
-    longDesc = 
+    longDesc =
 u"""
 Seal, Prasenjit Oyedepo, Gbenga Truhlar, Donald G
 doi: 10.1021/jp310910f
@@ -18001,7 +18002,7 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 11,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/Cs/Cs\Cs|O;O_atom_triplet
 """,
@@ -18021,7 +18022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_methyl
 """,
@@ -18041,7 +18042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/H2/Cs
 """,
@@ -18061,7 +18062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/H/NonDeC
 """,
@@ -18081,7 +18082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/Cs3
 """,
@@ -18101,7 +18102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/H2/Cd
 """,
@@ -18121,7 +18122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/H/CdCs
 """,
@@ -18141,7 +18142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/CdCs2
 """,
@@ -18161,7 +18162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/H/CdCd
 """,
@@ -18181,7 +18182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/CdCdCs
 """,
@@ -18201,7 +18202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/H2/Ct
 """,
@@ -18221,7 +18222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/H/CtCs
 """,
@@ -18241,7 +18242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/CtCs2
 """,
@@ -18261,7 +18262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/H/CtCt
 """,
@@ -18281,7 +18282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/CtCtCs
 """,
@@ -18301,7 +18302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/H2/Cb
 """,
@@ -18321,7 +18322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/H/CbCs
 """,
@@ -18341,7 +18342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/CbCs2
 """,
@@ -18361,7 +18362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;Cd_rad/NonDeC
 """,
@@ -18381,7 +18382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;Cd_rad/Cd
 """,
@@ -18401,7 +18402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;Cd_Cdd_rad/H
 """,
@@ -18421,7 +18422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;Cd_rad/Ct
 """,
@@ -18441,7 +18442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/H2/S
 """,
@@ -18461,7 +18462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/H/CsS
 """,
@@ -18481,7 +18482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/Cs2S
 """,
@@ -18501,7 +18502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/H2/CS
 """,
@@ -18521,7 +18522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/H/CSCs
 """,
@@ -18541,7 +18542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/CSCs2
 """,
@@ -18561,7 +18562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;Cd_rad/NonDeS
 """,
@@ -18581,7 +18582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;Cd_rad/CS
 """,
@@ -18601,7 +18602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/H/CdS
 """,
@@ -18621,7 +18622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/CdCsS
 """,
@@ -18641,7 +18642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/H/CSS
 """,
@@ -18661,7 +18662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/CSCsS
 """,
@@ -18681,7 +18682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/H/CtS
 """,
@@ -18701,7 +18702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/CtCsS
 """,
@@ -18721,7 +18722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/H/CbS
 """,
@@ -18741,7 +18742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/CbCsS
 """,
@@ -18761,7 +18762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;CS_pri_rad
 """,
@@ -18781,7 +18782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;CS_rad/Cs
 """,
@@ -18801,7 +18802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;CS_rad/S
 """,
@@ -18821,7 +18822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;CS_rad/Cd
 """,
@@ -18841,7 +18842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H2;CS_rad/Ct
 """,
@@ -18861,7 +18862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;H_rad
 """,
@@ -18881,7 +18882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/Cs3
 """,
@@ -18901,7 +18902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/H2/Cd
 """,
@@ -18921,7 +18922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/H/CdCs
 """,
@@ -18941,7 +18942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/CdCs2
 """,
@@ -18961,7 +18962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/H/CdCd
 """,
@@ -18981,7 +18982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/CdCdCs
 """,
@@ -19001,7 +19002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/H2/Ct
 """,
@@ -19021,7 +19022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/H/CtCs
 """,
@@ -19041,7 +19042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/CtCs2
 """,
@@ -19061,7 +19062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/H/CtCt
 """,
@@ -19081,7 +19082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/CtCtCs
 """,
@@ -19101,7 +19102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/H2/Cb
 """,
@@ -19121,7 +19122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/H/CbCs
 """,
@@ -19141,7 +19142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/CbCs2
 """,
@@ -19161,7 +19162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;Cd_pri_rad
 """,
@@ -19181,7 +19182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;Cd_rad/NonDeC
 """,
@@ -19201,7 +19202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;Cd_rad/Cd
 """,
@@ -19221,7 +19222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;Cd_Cdd_rad/H
 """,
@@ -19241,7 +19242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/H2/S
 """,
@@ -19261,7 +19262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;Cd_rad/Ct
 """,
@@ -19281,7 +19282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/H/CsS
 """,
@@ -19301,7 +19302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/Cs2S
 """,
@@ -19321,7 +19322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/H2/CS
 """,
@@ -19341,7 +19342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/H/CSCs
 """,
@@ -19361,7 +19362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/CSCs2
 """,
@@ -19381,7 +19382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;Cd_rad/NonDeS
 """,
@@ -19401,7 +19402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;Cd_rad/CS
 """,
@@ -19421,7 +19422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/H/CdS
 """,
@@ -19441,7 +19442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/CdCsS
 """,
@@ -19461,7 +19462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/H/CSS
 """,
@@ -19481,7 +19482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/CSCsS
 """,
@@ -19501,7 +19502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/H/CtS
 """,
@@ -19521,7 +19522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/CtCsS
 """,
@@ -19541,7 +19542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/H/CbS
 """,
@@ -19561,7 +19562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/CbCsS
 """,
@@ -19581,7 +19582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;CS_pri_rad
 """,
@@ -19601,7 +19602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;CS_rad/Cs
 """,
@@ -19621,7 +19622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;CS_rad/S
 """,
@@ -19641,7 +19642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;CS_rad/Cd
 """,
@@ -19661,7 +19662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;CS_rad/Ct
 """,
@@ -19681,7 +19682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/H/NonDeC
 """,
@@ -19701,7 +19702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/Cs3
 """,
@@ -19721,7 +19722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/H2/Cd
 """,
@@ -19741,7 +19742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/H/CdCs
 """,
@@ -19761,7 +19762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/CdCs2
 """,
@@ -19781,7 +19782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/H/CdCd
 """,
@@ -19801,7 +19802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/CdCdCs
 """,
@@ -19821,7 +19822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/H2/Ct
 """,
@@ -19841,7 +19842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/H/CtCs
 """,
@@ -19861,7 +19862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/CtCs2
 """,
@@ -19881,7 +19882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/H/CtCt
 """,
@@ -19901,7 +19902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/CtCtCs
 """,
@@ -19921,7 +19922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/H2/Cb
 """,
@@ -19941,7 +19942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/H/CbCs
 """,
@@ -19961,7 +19962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/CbCs2
 """,
@@ -19981,7 +19982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;Cd_pri_rad
 """,
@@ -20001,7 +20002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;Cd_rad/NonDeC
 """,
@@ -20021,7 +20022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;Cd_rad/Cd
 """,
@@ -20041,7 +20042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;Cd_rad/Ct
 """,
@@ -20061,7 +20062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/H2/S
 """,
@@ -20081,7 +20082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;Cd_Cdd_rad/H
 """,
@@ -20101,7 +20102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/H/CsS
 """,
@@ -20121,7 +20122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/Cs2S
 """,
@@ -20141,7 +20142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/H2/CS
 """,
@@ -20161,7 +20162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/H/CSCs
 """,
@@ -20181,7 +20182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/CSCs2
 """,
@@ -20201,7 +20202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;Cd_rad/NonDeS
 """,
@@ -20221,7 +20222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;Cd_rad/CS
 """,
@@ -20241,7 +20242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/H/CdS
 """,
@@ -20261,7 +20262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/CdCsS
 """,
@@ -20281,7 +20282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/H/CSS
 """,
@@ -20301,7 +20302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/CSCsS
 """,
@@ -20321,7 +20322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/H/CtS
 """,
@@ -20341,7 +20342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/CtCsS
 """,
@@ -20361,7 +20362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/H/CbS
 """,
@@ -20381,7 +20382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/CbCsS
 """,
@@ -20401,7 +20402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;CS_pri_rad
 """,
@@ -20421,7 +20422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;CS_rad/Cs
 """,
@@ -20441,7 +20442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;CS_rad/S
 """,
@@ -20461,7 +20462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;CS_rad/Cd
 """,
@@ -20481,7 +20482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;CS_rad/Ct
 """,
@@ -20501,7 +20502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;H_rad
 """,
@@ -20521,7 +20522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_methyl
 """,
@@ -20541,7 +20542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/H2/Cs
 """,
@@ -20561,7 +20562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/Cs3
 """,
@@ -20581,7 +20582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/H2/Cd
 """,
@@ -20601,7 +20602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/H/CdCs
 """,
@@ -20621,7 +20622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/CdCs2
 """,
@@ -20641,7 +20642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/H/CdCd
 """,
@@ -20661,7 +20662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/CdCdCs
 """,
@@ -20681,7 +20682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/H2/Ct
 """,
@@ -20701,7 +20702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/H/CtCs
 """,
@@ -20721,7 +20722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/CtCs2
 """,
@@ -20741,7 +20742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/H/CtCt
 """,
@@ -20761,7 +20762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/CtCtCs
 """,
@@ -20781,7 +20782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/H2/Cb
 """,
@@ -20801,7 +20802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/H/CbCs
 """,
@@ -20821,7 +20822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/CbCs2
 """,
@@ -20841,7 +20842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;Cd_rad/NonDeC
 """,
@@ -20861,7 +20862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;Cd_rad/Cd
 """,
@@ -20881,7 +20882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;Cb_rad
 """,
@@ -20901,7 +20902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;Cd_rad/Ct
 """,
@@ -20921,7 +20922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/H2/S
 """,
@@ -20941,7 +20942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/H/CsS
 """,
@@ -20961,7 +20962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;Cd_Cdd_rad/H
 """,
@@ -20981,7 +20982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/Cs2S
 """,
@@ -21001,7 +21002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/H2/CS
 """,
@@ -21021,7 +21022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/H/CSCs
 """,
@@ -21041,7 +21042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/CSCs2
 """,
@@ -21061,7 +21062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;Cd_rad/NonDeS
 """,
@@ -21081,7 +21082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;Cd_rad/CS
 """,
@@ -21101,7 +21102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/H/CdS
 """,
@@ -21121,7 +21122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/CdCsS
 """,
@@ -21141,7 +21142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/H/CSS
 """,
@@ -21161,7 +21162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/CSCsS
 """,
@@ -21181,7 +21182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/H/CtS
 """,
@@ -21201,7 +21202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/CtCsS
 """,
@@ -21221,7 +21222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/H/CbS
 """,
@@ -21241,7 +21242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;C_rad/CbCsS
 """,
@@ -21261,7 +21262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;CS_pri_rad
 """,
@@ -21281,7 +21282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;CS_rad/Cs
 """,
@@ -21301,7 +21302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;CS_rad/S
 """,
@@ -21321,7 +21322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;CS_rad/Cd
 """,
@@ -21341,7 +21342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/NonDeC;CS_rad/Ct
 """,
@@ -21361,7 +21362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;H_rad
 """,
@@ -21381,7 +21382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_methyl
 """,
@@ -21401,7 +21402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/H2/Cs
 """,
@@ -21421,7 +21422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/H/NonDeC
 """,
@@ -21441,7 +21442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/H2/Cd
 """,
@@ -21461,7 +21462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/H/CdCs
 """,
@@ -21481,7 +21482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/CdCs2
 """,
@@ -21501,7 +21502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/H/CdCd
 """,
@@ -21521,7 +21522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/CdCdCs
 """,
@@ -21541,7 +21542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/H2/Ct
 """,
@@ -21561,7 +21562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/H/CtCs
 """,
@@ -21581,7 +21582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/CtCs2
 """,
@@ -21601,7 +21602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/H/CtCt
 """,
@@ -21621,7 +21622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/CtCtCs
 """,
@@ -21641,7 +21642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/H2/Cb
 """,
@@ -21661,7 +21662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/H/CbCs
 """,
@@ -21681,7 +21682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/CbCs2
 """,
@@ -21701,7 +21702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;Cd_rad/NonDeC
 """,
@@ -21721,7 +21722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;Cd_rad/Cd
 """,
@@ -21741,7 +21742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;Cb_rad
 """,
@@ -21761,7 +21762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;Cd_rad/Ct
 """,
@@ -21781,7 +21782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/H2/S
 """,
@@ -21801,7 +21802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/H/CsS
 """,
@@ -21821,7 +21822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/Cs2S
 """,
@@ -21841,7 +21842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;Cd_Cdd_rad/H
 """,
@@ -21861,7 +21862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/H2/CS
 """,
@@ -21881,7 +21882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/H/CSCs
 """,
@@ -21901,7 +21902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/CSCs2
 """,
@@ -21921,7 +21922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;Cd_rad/NonDeS
 """,
@@ -21941,7 +21942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;Cd_rad/CS
 """,
@@ -21961,7 +21962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/H/CdS
 """,
@@ -21981,7 +21982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/CdCsS
 """,
@@ -22001,7 +22002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/H/CSS
 """,
@@ -22021,7 +22022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/CSCsS
 """,
@@ -22041,7 +22042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/H/CtS
 """,
@@ -22061,7 +22062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/CtCsS
 """,
@@ -22081,7 +22082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/H/CbS
 """,
@@ -22101,7 +22102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;C_rad/CbCsS
 """,
@@ -22121,7 +22122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;CS_pri_rad
 """,
@@ -22141,7 +22142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;CS_rad/Cs
 """,
@@ -22161,7 +22162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;CS_rad/S
 """,
@@ -22181,7 +22182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;CS_rad/Cd
 """,
@@ -22201,7 +22202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs3;CS_rad/Ct
 """,
@@ -22221,7 +22222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;H_rad
 """,
@@ -22241,7 +22242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_methyl
 """,
@@ -22261,7 +22262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H2/Cs
 """,
@@ -22281,7 +22282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H/NonDeC
 """,
@@ -22301,7 +22302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/Cs3
 """,
@@ -22321,7 +22322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H/CdCs
 """,
@@ -22341,7 +22342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/CdCs2
 """,
@@ -22361,7 +22362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H/CdCd
 """,
@@ -22381,7 +22382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/CdCdCs
 """,
@@ -22401,7 +22402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H2/Ct
 """,
@@ -22421,7 +22422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H/CtCs
 """,
@@ -22441,7 +22442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/CtCs2
 """,
@@ -22461,7 +22462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H/CtCt
 """,
@@ -22481,7 +22482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/CtCtCs
 """,
@@ -22501,7 +22502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H2/Cb
 """,
@@ -22521,7 +22522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H/CbCs
 """,
@@ -22541,7 +22542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/CbCs2
 """,
@@ -22561,7 +22562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;Cd_pri_rad
 """,
@@ -22581,7 +22582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;Cd_rad/NonDeC
 """,
@@ -22601,7 +22602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;Cd_rad/Cd
 """,
@@ -22621,7 +22622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;Cb_rad
 """,
@@ -22641,7 +22642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;Cd_rad/Ct
 """,
@@ -22661,7 +22662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H2/S
 """,
@@ -22681,7 +22682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H/CsS
 """,
@@ -22701,7 +22702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/Cs2S
 """,
@@ -22721,7 +22722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H2/CS
 """,
@@ -22741,7 +22742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;Cd_Cdd_rad/H
 """,
@@ -22761,7 +22762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H/CSCs
 """,
@@ -22781,7 +22782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/CSCs2
 """,
@@ -22801,7 +22802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;Cd_rad/NonDeS
 """,
@@ -22821,7 +22822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;Cd_rad/CS
 """,
@@ -22841,7 +22842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H/CdS
 """,
@@ -22861,7 +22862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/CdCsS
 """,
@@ -22881,7 +22882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H/CSS
 """,
@@ -22901,7 +22902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/CSCsS
 """,
@@ -22921,7 +22922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H/CtS
 """,
@@ -22941,7 +22942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/CtCsS
 """,
@@ -22961,7 +22962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/H/CbS
 """,
@@ -22981,7 +22982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;C_rad/CbCsS
 """,
@@ -23001,7 +23002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;CS_pri_rad
 """,
@@ -23021,7 +23022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;CS_rad/Cs
 """,
@@ -23041,7 +23042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;CS_rad/S
 """,
@@ -23061,7 +23062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;CS_rad/Cd
 """,
@@ -23081,7 +23082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;CS_rad/Ct
 """,
@@ -23101,7 +23102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/H2/Cs
 """,
@@ -23121,7 +23122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/H/NonDeC
 """,
@@ -23141,7 +23142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/Cs3
 """,
@@ -23161,7 +23162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/H2/Cd
 """,
@@ -23181,7 +23182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/CdCs2
 """,
@@ -23201,7 +23202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/H/CdCd
 """,
@@ -23221,7 +23222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/CdCdCs
 """,
@@ -23241,7 +23242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/H2/Ct
 """,
@@ -23261,7 +23262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/H/CtCs
 """,
@@ -23281,7 +23282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/CtCs2
 """,
@@ -23301,7 +23302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/H/CtCt
 """,
@@ -23321,7 +23322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/CtCtCs
 """,
@@ -23341,7 +23342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/H2/Cb
 """,
@@ -23361,7 +23362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/H/CbCs
 """,
@@ -23381,7 +23382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/CbCs2
 """,
@@ -23401,7 +23402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;Cd_pri_rad
 """,
@@ -23421,7 +23422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;Cd_rad/NonDeC
 """,
@@ -23441,7 +23442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;Cd_rad/Cd
 """,
@@ -23461,7 +23462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;Cb_rad
 """,
@@ -23481,7 +23482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;Cd_rad/Ct
 """,
@@ -23501,7 +23502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/H2/S
 """,
@@ -23521,7 +23522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/H/CsS
 """,
@@ -23541,7 +23542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/Cs2S
 """,
@@ -23561,7 +23562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/H2/CS
 """,
@@ -23581,7 +23582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/H/CSCs
 """,
@@ -23601,7 +23602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;Cd_Cdd_rad/H
 """,
@@ -23621,7 +23622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/CSCs2
 """,
@@ -23641,7 +23642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;Cd_rad/NonDeS
 """,
@@ -23661,7 +23662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;Cd_rad/CS
 """,
@@ -23681,7 +23682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/H/CdS
 """,
@@ -23701,7 +23702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/CdCsS
 """,
@@ -23721,7 +23722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/H/CSS
 """,
@@ -23741,7 +23742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/CSCsS
 """,
@@ -23761,7 +23762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/H/CtS
 """,
@@ -23781,7 +23782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/CtCsS
 """,
@@ -23801,7 +23802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/H/CbS
 """,
@@ -23821,7 +23822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;C_rad/CbCsS
 """,
@@ -23841,7 +23842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;CS_pri_rad
 """,
@@ -23861,7 +23862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;CS_rad/Cs
 """,
@@ -23881,7 +23882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;CS_rad/S
 """,
@@ -23901,7 +23902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;CS_rad/Cd
 """,
@@ -23921,7 +23922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCs;CS_rad/Ct
 """,
@@ -23941,7 +23942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;H_rad
 """,
@@ -23961,7 +23962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_methyl
 """,
@@ -23981,7 +23982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/H2/Cs
 """,
@@ -24001,7 +24002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/H/NonDeC
 """,
@@ -24021,7 +24022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/Cs3
 """,
@@ -24041,7 +24042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/H2/Cd
 """,
@@ -24061,7 +24062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/H/CdCs
 """,
@@ -24081,7 +24082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/H/CdCd
 """,
@@ -24101,7 +24102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/CdCdCs
 """,
@@ -24121,7 +24122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/H2/Ct
 """,
@@ -24141,7 +24142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/H/CtCs
 """,
@@ -24161,7 +24162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/CtCs2
 """,
@@ -24181,7 +24182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/H/CtCt
 """,
@@ -24201,7 +24202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/CtCtCs
 """,
@@ -24221,7 +24222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/H2/Cb
 """,
@@ -24241,7 +24242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/H/CbCs
 """,
@@ -24261,7 +24262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/CbCs2
 """,
@@ -24281,7 +24282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;Cd_pri_rad
 """,
@@ -24301,7 +24302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;Cd_rad/NonDeC
 """,
@@ -24321,7 +24322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;Cd_rad/Cd
 """,
@@ -24341,7 +24342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;Cb_rad
 """,
@@ -24361,7 +24362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;Cd_Cdd_rad/H
 """,
@@ -24381,7 +24382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/H2/S
 """,
@@ -24401,7 +24402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/H/CsS
 """,
@@ -24421,7 +24422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/Cs2S
 """,
@@ -24441,7 +24442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/H2/CS
 """,
@@ -24461,7 +24462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/H/CSCs
 """,
@@ -24481,7 +24482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/CSCs2
 """,
@@ -24501,7 +24502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;Cd_rad/NonDeS
 """,
@@ -24521,7 +24522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;Cd_rad/Ct
 """,
@@ -24541,7 +24542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;Cd_rad/CS
 """,
@@ -24561,7 +24562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/H/CdS
 """,
@@ -24581,7 +24582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/CdCsS
 """,
@@ -24601,7 +24602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/H/CSS
 """,
@@ -24621,7 +24622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/CSCsS
 """,
@@ -24641,7 +24642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/H/CtS
 """,
@@ -24661,7 +24662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/CtCsS
 """,
@@ -24681,7 +24682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/H/CbS
 """,
@@ -24701,7 +24702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/CbCsS
 """,
@@ -24721,7 +24722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;CS_pri_rad
 """,
@@ -24741,7 +24742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;CS_rad/Cs
 """,
@@ -24761,7 +24762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;CS_rad/S
 """,
@@ -24781,7 +24782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;CS_rad/Cd
 """,
@@ -24801,7 +24802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;CS_rad/Ct
 """,
@@ -24821,7 +24822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;H_rad
 """,
@@ -24841,7 +24842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_methyl
 """,
@@ -24861,7 +24862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H2/Cs
 """,
@@ -24881,7 +24882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H/NonDeC
 """,
@@ -24901,7 +24902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/Cs3
 """,
@@ -24921,7 +24922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H2/Cd
 """,
@@ -24941,7 +24942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H/CdCs
 """,
@@ -24961,7 +24962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/CdCs2
 """,
@@ -24981,7 +24982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/CdCdCs
 """,
@@ -25001,7 +25002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H2/Ct
 """,
@@ -25021,7 +25022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H/CtCs
 """,
@@ -25041,7 +25042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/CtCs2
 """,
@@ -25061,7 +25062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H/CtCt
 """,
@@ -25081,7 +25082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/CtCtCs
 """,
@@ -25101,7 +25102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H2/Cb
 """,
@@ -25121,7 +25122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H/CbCs
 """,
@@ -25141,7 +25142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/CbCs2
 """,
@@ -25161,7 +25162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;Cd_pri_rad
 """,
@@ -25181,7 +25182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;Cd_rad/NonDeC
 """,
@@ -25201,7 +25202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;Cd_rad/Cd
 """,
@@ -25221,7 +25222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;Cb_rad
 """,
@@ -25241,7 +25242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;Cd_rad/Ct
 """,
@@ -25261,7 +25262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H2/S
 """,
@@ -25281,7 +25282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H/CsS
 """,
@@ -25301,7 +25302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/Cs2S
 """,
@@ -25321,7 +25322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H2/CS
 """,
@@ -25341,7 +25342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H/CSCs
 """,
@@ -25361,7 +25362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/CSCs2
 """,
@@ -25381,7 +25382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;Cd_rad/NonDeS
 """,
@@ -25401,7 +25402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;Cd_Cdd_rad/H
 """,
@@ -25421,7 +25422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;Cd_rad/CS
 """,
@@ -25441,7 +25442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H/CdS
 """,
@@ -25461,7 +25462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/CdCsS
 """,
@@ -25481,7 +25482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H/CSS
 """,
@@ -25501,7 +25502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/CSCsS
 """,
@@ -25521,7 +25522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H/CtS
 """,
@@ -25541,7 +25542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/CtCsS
 """,
@@ -25561,7 +25562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/H/CbS
 """,
@@ -25581,7 +25582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/CbCsS
 """,
@@ -25601,7 +25602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;CS_pri_rad
 """,
@@ -25621,7 +25622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;CS_rad/Cs
 """,
@@ -25641,7 +25642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;CS_rad/S
 """,
@@ -25661,7 +25662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;CS_rad/Cd
 """,
@@ -25681,7 +25682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;CS_rad/Ct
 """,
@@ -25701,7 +25702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;H_rad
 """,
@@ -25721,7 +25722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_methyl
 """,
@@ -25741,7 +25742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/H2/Cs
 """,
@@ -25761,7 +25762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/H/NonDeC
 """,
@@ -25781,7 +25782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/Cs3
 """,
@@ -25801,7 +25802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/H2/Cd
 """,
@@ -25821,7 +25822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/H/CdCs
 """,
@@ -25841,7 +25842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/CdCs2
 """,
@@ -25861,7 +25862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/H/CdCd
 """,
@@ -25881,7 +25882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/H2/Ct
 """,
@@ -25901,7 +25902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/H/CtCs
 """,
@@ -25921,7 +25922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/CtCs2
 """,
@@ -25941,7 +25942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/H/CtCt
 """,
@@ -25961,7 +25962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/CtCtCs
 """,
@@ -25981,7 +25982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/H2/Cb
 """,
@@ -26001,7 +26002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/H/CbCs
 """,
@@ -26021,7 +26022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/CbCs2
 """,
@@ -26041,7 +26042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;Cd_pri_rad
 """,
@@ -26061,7 +26062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;Cd_rad/NonDeC
 """,
@@ -26081,7 +26082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;Cd_rad/Cd
 """,
@@ -26101,7 +26102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;Cb_rad
 """,
@@ -26121,7 +26122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;Cd_rad/Ct
 """,
@@ -26141,7 +26142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/H2/S
 """,
@@ -26161,7 +26162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/H/CsS
 """,
@@ -26181,7 +26182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/Cs2S
 """,
@@ -26201,7 +26202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/H2/CS
 """,
@@ -26221,7 +26222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/H/CSCs
 """,
@@ -26241,7 +26242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/CSCs2
 """,
@@ -26261,7 +26262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;Cd_rad/NonDeS
 """,
@@ -26281,7 +26282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;Cd_rad/CS
 """,
@@ -26301,7 +26302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;Cd_Cdd_rad/H
 """,
@@ -26321,7 +26322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/H/CdS
 """,
@@ -26341,7 +26342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/CdCsS
 """,
@@ -26361,7 +26362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/H/CSS
 """,
@@ -26381,7 +26382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/CSCsS
 """,
@@ -26401,7 +26402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/H/CtS
 """,
@@ -26421,7 +26422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/CtCsS
 """,
@@ -26441,7 +26442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/H/CbS
 """,
@@ -26461,7 +26462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;C_rad/CbCsS
 """,
@@ -26481,7 +26482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;CS_pri_rad
 """,
@@ -26501,7 +26502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;CS_rad/Cs
 """,
@@ -26521,7 +26522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;CS_rad/S
 """,
@@ -26541,7 +26542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;CS_rad/Cd
 """,
@@ -26561,7 +26562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;CS_rad/Ct
 """,
@@ -26581,7 +26582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;H_rad
 """,
@@ -26601,7 +26602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_methyl
 """,
@@ -26621,7 +26622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/H2/Cs
 """,
@@ -26641,7 +26642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/H/NonDeC
 """,
@@ -26661,7 +26662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/Cs3
 """,
@@ -26681,7 +26682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/H2/Cd
 """,
@@ -26701,7 +26702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/H/CdCs
 """,
@@ -26721,7 +26722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/CdCs2
 """,
@@ -26741,7 +26742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/H/CdCd
 """,
@@ -26761,7 +26762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/CdCdCs
 """,
@@ -26781,7 +26782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/H/CtCs
 """,
@@ -26801,7 +26802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/CtCs2
 """,
@@ -26821,7 +26822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/H/CtCt
 """,
@@ -26841,7 +26842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/CtCtCs
 """,
@@ -26861,7 +26862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/H2/Cb
 """,
@@ -26881,7 +26882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/H/CbCs
 """,
@@ -26901,7 +26902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/CbCs2
 """,
@@ -26921,7 +26922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;Cd_pri_rad
 """,
@@ -26941,7 +26942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;Cd_rad/NonDeC
 """,
@@ -26961,7 +26962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;Cd_rad/Cd
 """,
@@ -26981,7 +26982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;Cb_rad
 """,
@@ -27001,7 +27002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;Cd_rad/Ct
 """,
@@ -27021,7 +27022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/H2/S
 """,
@@ -27041,7 +27042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/H/CsS
 """,
@@ -27061,7 +27062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/Cs2S
 """,
@@ -27081,7 +27082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/H2/CS
 """,
@@ -27101,7 +27102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/H/CSCs
 """,
@@ -27121,7 +27122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/CSCs2
 """,
@@ -27141,7 +27142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;Cd_rad/NonDeS
 """,
@@ -27161,7 +27162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;Cd_rad/CS
 """,
@@ -27181,7 +27182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/H/CdS
 """,
@@ -27201,7 +27202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;Cd_Cdd_rad/H
 """,
@@ -27221,7 +27222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/CdCsS
 """,
@@ -27241,7 +27242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/H/CSS
 """,
@@ -27261,7 +27262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/CSCsS
 """,
@@ -27281,7 +27282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/H/CtS
 """,
@@ -27301,7 +27302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/CtCsS
 """,
@@ -27321,7 +27322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/H/CbS
 """,
@@ -27341,7 +27342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;C_rad/CbCsS
 """,
@@ -27361,7 +27362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;CS_pri_rad
 """,
@@ -27381,7 +27382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;CS_rad/Cs
 """,
@@ -27401,7 +27402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;CS_rad/S
 """,
@@ -27421,7 +27422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;CS_rad/Cd
 """,
@@ -27441,7 +27442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;CS_rad/Ct
 """,
@@ -27461,7 +27462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;H_rad
 """,
@@ -27481,7 +27482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_methyl
 """,
@@ -27501,7 +27502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/H2/Cs
 """,
@@ -27521,7 +27522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/H/NonDeC
 """,
@@ -27541,7 +27542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/Cs3
 """,
@@ -27561,7 +27562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/H2/Cd
 """,
@@ -27581,7 +27582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/H/CdCs
 """,
@@ -27601,7 +27602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/CdCs2
 """,
@@ -27621,7 +27622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/H/CdCd
 """,
@@ -27641,7 +27642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/CdCdCs
 """,
@@ -27661,7 +27662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/H2/Ct
 """,
@@ -27681,7 +27682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/CtCs2
 """,
@@ -27701,7 +27702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/H/CtCt
 """,
@@ -27721,7 +27722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/CtCtCs
 """,
@@ -27741,7 +27742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/H2/Cb
 """,
@@ -27761,7 +27762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/H/CbCs
 """,
@@ -27781,7 +27782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/CbCs2
 """,
@@ -27801,7 +27802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;Cd_pri_rad
 """,
@@ -27821,7 +27822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;Cd_rad/NonDeC
 """,
@@ -27841,7 +27842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;Cd_rad/Cd
 """,
@@ -27861,7 +27862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;Cb_rad
 """,
@@ -27881,7 +27882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;Cd_rad/Ct
 """,
@@ -27901,7 +27902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/H2/S
 """,
@@ -27921,7 +27922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/H/CsS
 """,
@@ -27941,7 +27942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/Cs2S
 """,
@@ -27961,7 +27962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/H2/CS
 """,
@@ -27981,7 +27982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/H/CSCs
 """,
@@ -28001,7 +28002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/CSCs2
 """,
@@ -28021,7 +28022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;Cd_rad/NonDeS
 """,
@@ -28041,7 +28042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;Cd_rad/CS
 """,
@@ -28061,7 +28062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/H/CdS
 """,
@@ -28081,7 +28082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/CdCsS
 """,
@@ -28101,7 +28102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;Cd_Cdd_rad/H
 """,
@@ -28121,7 +28122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/H/CSS
 """,
@@ -28141,7 +28142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/CSCsS
 """,
@@ -28161,7 +28162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/H/CtS
 """,
@@ -28181,7 +28182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/CtCsS
 """,
@@ -28201,7 +28202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/H/CbS
 """,
@@ -28221,7 +28222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;C_rad/CbCsS
 """,
@@ -28241,7 +28242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;CS_pri_rad
 """,
@@ -28261,7 +28262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;CS_rad/Cs
 """,
@@ -28281,7 +28282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;CS_rad/S
 """,
@@ -28301,7 +28302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;CS_rad/Cd
 """,
@@ -28321,7 +28322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCs;CS_rad/Ct
 """,
@@ -28341,7 +28342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;H_rad
 """,
@@ -28361,7 +28362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_methyl
 """,
@@ -28381,7 +28382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/H2/Cs
 """,
@@ -28401,7 +28402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/H/NonDeC
 """,
@@ -28421,7 +28422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/Cs3
 """,
@@ -28441,7 +28442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/H2/Cd
 """,
@@ -28461,7 +28462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/H/CdCs
 """,
@@ -28481,7 +28482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/CdCs2
 """,
@@ -28501,7 +28502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/H/CdCd
 """,
@@ -28521,7 +28522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/CdCdCs
 """,
@@ -28541,7 +28542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/H2/Ct
 """,
@@ -28561,7 +28562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/H/CtCs
 """,
@@ -28581,7 +28582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/H/CtCt
 """,
@@ -28601,7 +28602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/CtCtCs
 """,
@@ -28621,7 +28622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/H2/Cb
 """,
@@ -28641,7 +28642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/H/CbCs
 """,
@@ -28661,7 +28662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/CbCs2
 """,
@@ -28681,7 +28682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;Cd_pri_rad
 """,
@@ -28701,7 +28702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;Cd_rad/NonDeC
 """,
@@ -28721,7 +28722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;Cd_rad/Cd
 """,
@@ -28741,7 +28742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;Cb_rad
 """,
@@ -28761,7 +28762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;Cd_rad/Ct
 """,
@@ -28781,7 +28782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/H2/S
 """,
@@ -28801,7 +28802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/H/CsS
 """,
@@ -28821,7 +28822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/Cs2S
 """,
@@ -28841,7 +28842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/H2/CS
 """,
@@ -28861,7 +28862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/H/CSCs
 """,
@@ -28881,7 +28882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/CSCs2
 """,
@@ -28901,7 +28902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;Cd_rad/NonDeS
 """,
@@ -28921,7 +28922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;Cd_rad/CS
 """,
@@ -28941,7 +28942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/H/CdS
 """,
@@ -28961,7 +28962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/CdCsS
 """,
@@ -28981,7 +28982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/H/CSS
 """,
@@ -29001,7 +29002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;Cd_Cdd_rad/H
 """,
@@ -29021,7 +29022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/CSCsS
 """,
@@ -29041,7 +29042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/H/CtS
 """,
@@ -29061,7 +29062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/CtCsS
 """,
@@ -29081,7 +29082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/H/CbS
 """,
@@ -29101,7 +29102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/CbCsS
 """,
@@ -29121,7 +29122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;CS_pri_rad
 """,
@@ -29141,7 +29142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;CS_rad/Cs
 """,
@@ -29161,7 +29162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;CS_rad/S
 """,
@@ -29181,7 +29182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;CS_rad/Cd
 """,
@@ -29201,7 +29202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;CS_rad/Ct
 """,
@@ -29221,7 +29222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;H_rad
 """,
@@ -29241,7 +29242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_methyl
 """,
@@ -29261,7 +29262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/H2/Cs
 """,
@@ -29281,7 +29282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/H/NonDeC
 """,
@@ -29301,7 +29302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/Cs3
 """,
@@ -29321,7 +29322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/H2/Cd
 """,
@@ -29341,7 +29342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/H/CdCs
 """,
@@ -29361,7 +29362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/CdCs2
 """,
@@ -29381,7 +29382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/H/CdCd
 """,
@@ -29401,7 +29402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/CdCdCs
 """,
@@ -29421,7 +29422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/H2/Ct
 """,
@@ -29441,7 +29442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/H/CtCs
 """,
@@ -29461,7 +29462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/CtCs2
 """,
@@ -29481,7 +29482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/CtCtCs
 """,
@@ -29501,7 +29502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/H2/Cb
 """,
@@ -29521,7 +29522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/H/CbCs
 """,
@@ -29541,7 +29542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/CbCs2
 """,
@@ -29561,7 +29562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;Cd_pri_rad
 """,
@@ -29581,7 +29582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;Cd_rad/NonDeC
 """,
@@ -29601,7 +29602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;Cd_rad/Cd
 """,
@@ -29621,7 +29622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;Cb_rad
 """,
@@ -29641,7 +29642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;Cd_rad/Ct
 """,
@@ -29661,7 +29662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/H2/S
 """,
@@ -29681,7 +29682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/H/CsS
 """,
@@ -29701,7 +29702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/Cs2S
 """,
@@ -29721,7 +29722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/H2/CS
 """,
@@ -29741,7 +29742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/H/CSCs
 """,
@@ -29761,7 +29762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/CSCs2
 """,
@@ -29781,7 +29782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;Cd_rad/NonDeS
 """,
@@ -29801,7 +29802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;Cd_rad/CS
 """,
@@ -29821,7 +29822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/H/CdS
 """,
@@ -29841,7 +29842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/CdCsS
 """,
@@ -29861,7 +29862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/H/CSS
 """,
@@ -29881,7 +29882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/CSCsS
 """,
@@ -29901,7 +29902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;Cd_Cdd_rad/H
 """,
@@ -29921,7 +29922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/H/CtS
 """,
@@ -29941,7 +29942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/CtCsS
 """,
@@ -29961,7 +29962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/H/CbS
 """,
@@ -29981,7 +29982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;C_rad/CbCsS
 """,
@@ -30001,7 +30002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;CS_pri_rad
 """,
@@ -30021,7 +30022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;CS_rad/Cs
 """,
@@ -30041,7 +30042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;CS_rad/S
 """,
@@ -30061,7 +30062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;CS_rad/Cd
 """,
@@ -30081,7 +30082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;CS_rad/Ct
 """,
@@ -30101,7 +30102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;H_rad
 """,
@@ -30121,7 +30122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_methyl
 """,
@@ -30141,7 +30142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/H2/Cs
 """,
@@ -30161,7 +30162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/H/NonDeC
 """,
@@ -30181,7 +30182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/Cs3
 """,
@@ -30201,7 +30202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/H2/Cd
 """,
@@ -30221,7 +30222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/H/CdCs
 """,
@@ -30241,7 +30242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/CdCs2
 """,
@@ -30261,7 +30262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/H/CdCd
 """,
@@ -30281,7 +30282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/CdCdCs
 """,
@@ -30301,7 +30302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/H2/Ct
 """,
@@ -30321,7 +30322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/H/CtCs
 """,
@@ -30341,7 +30342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/CtCs2
 """,
@@ -30361,7 +30362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/H/CtCt
 """,
@@ -30381,7 +30382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/H2/Cb
 """,
@@ -30401,7 +30402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/H/CbCs
 """,
@@ -30421,7 +30422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/CbCs2
 """,
@@ -30441,7 +30442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;Cd_pri_rad
 """,
@@ -30461,7 +30462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;Cd_rad/NonDeC
 """,
@@ -30481,7 +30482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;Cd_rad/Cd
 """,
@@ -30501,7 +30502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;Cb_rad
 """,
@@ -30521,7 +30522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;Cd_rad/Ct
 """,
@@ -30541,7 +30542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/H2/S
 """,
@@ -30561,7 +30562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/H/CsS
 """,
@@ -30581,7 +30582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/Cs2S
 """,
@@ -30601,7 +30602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/H2/CS
 """,
@@ -30621,7 +30622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/H/CSCs
 """,
@@ -30641,7 +30642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/CSCs2
 """,
@@ -30661,7 +30662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;Cd_rad/NonDeS
 """,
@@ -30681,7 +30682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;Cd_rad/CS
 """,
@@ -30701,7 +30702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/H/CdS
 """,
@@ -30721,7 +30722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/CdCsS
 """,
@@ -30741,7 +30742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/H/CSS
 """,
@@ -30761,7 +30762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/CSCsS
 """,
@@ -30781,7 +30782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/H/CtS
 """,
@@ -30801,7 +30802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;Cd_Cdd_rad/H
 """,
@@ -30821,7 +30822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/CtCsS
 """,
@@ -30841,7 +30842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/H/CbS
 """,
@@ -30861,7 +30862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;C_rad/CbCsS
 """,
@@ -30881,7 +30882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;CS_pri_rad
 """,
@@ -30901,7 +30902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;CS_rad/Cs
 """,
@@ -30921,7 +30922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;CS_rad/S
 """,
@@ -30941,7 +30942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;CS_rad/Cd
 """,
@@ -30961,7 +30962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;CS_rad/Ct
 """,
@@ -30981,7 +30982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;H_rad
 """,
@@ -31001,7 +31002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_methyl
 """,
@@ -31021,7 +31022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/H2/Cs
 """,
@@ -31041,7 +31042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/H/NonDeC
 """,
@@ -31061,7 +31062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/Cs3
 """,
@@ -31081,7 +31082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/H2/Cd
 """,
@@ -31101,7 +31102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/H/CdCs
 """,
@@ -31121,7 +31122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/CdCs2
 """,
@@ -31141,7 +31142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/H/CdCd
 """,
@@ -31161,7 +31162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/CdCdCs
 """,
@@ -31181,7 +31182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/H2/Ct
 """,
@@ -31201,7 +31202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/H/CtCs
 """,
@@ -31221,7 +31222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/CtCs2
 """,
@@ -31241,7 +31242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/H/CtCt
 """,
@@ -31261,7 +31262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/CtCtCs
 """,
@@ -31281,7 +31282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/H/CbCs
 """,
@@ -31301,7 +31302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/CbCs2
 """,
@@ -31321,7 +31322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;Cd_pri_rad
 """,
@@ -31341,7 +31342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;Cd_rad/NonDeC
 """,
@@ -31361,7 +31362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;Cd_rad/Cd
 """,
@@ -31381,7 +31382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;Cb_rad
 """,
@@ -31401,7 +31402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;Cd_rad/Ct
 """,
@@ -31421,7 +31422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/H2/S
 """,
@@ -31441,7 +31442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/H/CsS
 """,
@@ -31461,7 +31462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/Cs2S
 """,
@@ -31481,7 +31482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/H2/CS
 """,
@@ -31501,7 +31502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/H/CSCs
 """,
@@ -31521,7 +31522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/CSCs2
 """,
@@ -31541,7 +31542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;Cd_rad/NonDeS
 """,
@@ -31561,7 +31562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;Cd_rad/CS
 """,
@@ -31581,7 +31582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/H/CdS
 """,
@@ -31601,7 +31602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/CdCsS
 """,
@@ -31621,7 +31622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/H/CSS
 """,
@@ -31641,7 +31642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/CSCsS
 """,
@@ -31661,7 +31662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/H/CtS
 """,
@@ -31681,7 +31682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/CtCsS
 """,
@@ -31701,7 +31702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;Cd_Cdd_rad/H
 """,
@@ -31721,7 +31722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/H/CbS
 """,
@@ -31741,7 +31742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/CbCsS
 """,
@@ -31761,7 +31762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;CS_pri_rad
 """,
@@ -31781,7 +31782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;CS_rad/Cs
 """,
@@ -31801,7 +31802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;CS_rad/S
 """,
@@ -31821,7 +31822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;CS_rad/Cd
 """,
@@ -31841,7 +31842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;CS_rad/Ct
 """,
@@ -31861,7 +31862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;H_rad
 """,
@@ -31881,7 +31882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_methyl
 """,
@@ -31901,7 +31902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/H2/Cs
 """,
@@ -31921,7 +31922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/H/NonDeC
 """,
@@ -31941,7 +31942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/Cs3
 """,
@@ -31961,7 +31962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/H2/Cd
 """,
@@ -31981,7 +31982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/H/CdCs
 """,
@@ -32001,7 +32002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/CdCs2
 """,
@@ -32021,7 +32022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/H/CdCd
 """,
@@ -32041,7 +32042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/CdCdCs
 """,
@@ -32061,7 +32062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/H2/Ct
 """,
@@ -32081,7 +32082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/H/CtCs
 """,
@@ -32101,7 +32102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/CtCs2
 """,
@@ -32121,7 +32122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/H/CtCt
 """,
@@ -32141,7 +32142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/CtCtCs
 """,
@@ -32161,7 +32162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/H2/Cb
 """,
@@ -32181,7 +32182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/CbCs2
 """,
@@ -32201,7 +32202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;Cd_pri_rad
 """,
@@ -32221,7 +32222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;Cd_rad/NonDeC
 """,
@@ -32241,7 +32242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;Cd_rad/Cd
 """,
@@ -32261,7 +32262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;Cb_rad
 """,
@@ -32281,7 +32282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;Cd_rad/Ct
 """,
@@ -32301,7 +32302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/H2/S
 """,
@@ -32321,7 +32322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/H/CsS
 """,
@@ -32341,7 +32342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/Cs2S
 """,
@@ -32361,7 +32362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/H2/CS
 """,
@@ -32381,7 +32382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/H/CSCs
 """,
@@ -32401,7 +32402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/CSCs2
 """,
@@ -32421,7 +32422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;Cd_rad/NonDeS
 """,
@@ -32441,7 +32442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;Cd_rad/CS
 """,
@@ -32461,7 +32462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/H/CdS
 """,
@@ -32481,7 +32482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/CdCsS
 """,
@@ -32501,7 +32502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/H/CSS
 """,
@@ -32521,7 +32522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/CSCsS
 """,
@@ -32541,7 +32542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/H/CtS
 """,
@@ -32561,7 +32562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/CtCsS
 """,
@@ -32581,7 +32582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/H/CbS
 """,
@@ -32601,7 +32602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;Cd_Cdd_rad/H
 """,
@@ -32621,7 +32622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/CbCsS
 """,
@@ -32641,7 +32642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;CS_pri_rad
 """,
@@ -32661,7 +32662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;CS_rad/Cs
 """,
@@ -32681,7 +32682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;CS_rad/S
 """,
@@ -32701,7 +32702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;CS_rad/Cd
 """,
@@ -32721,7 +32722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;CS_rad/Ct
 """,
@@ -32741,7 +32742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;H_rad
 """,
@@ -32761,7 +32762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_methyl
 """,
@@ -32781,7 +32782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/H2/Cs
 """,
@@ -32801,7 +32802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/H/NonDeC
 """,
@@ -32821,7 +32822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/Cs3
 """,
@@ -32841,7 +32842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/H2/Cd
 """,
@@ -32861,7 +32862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/H/CdCs
 """,
@@ -32881,7 +32882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/CdCs2
 """,
@@ -32901,7 +32902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/H/CdCd
 """,
@@ -32921,7 +32922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/CdCdCs
 """,
@@ -32941,7 +32942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/H2/Ct
 """,
@@ -32961,7 +32962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/H/CtCs
 """,
@@ -32981,7 +32982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/CtCs2
 """,
@@ -33001,7 +33002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/H/CtCt
 """,
@@ -33021,7 +33022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/CtCtCs
 """,
@@ -33041,7 +33042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/H2/Cb
 """,
@@ -33061,7 +33062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/H/CbCs
 """,
@@ -33081,7 +33082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;Cd_pri_rad
 """,
@@ -33101,7 +33102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;Cd_rad/NonDeC
 """,
@@ -33121,7 +33122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;Cd_rad/Cd
 """,
@@ -33141,7 +33142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;Cb_rad
 """,
@@ -33161,7 +33162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;Cd_Cdd_rad/H
 """,
@@ -33181,7 +33182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/H2/S
 """,
@@ -33201,7 +33202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/H/CsS
 """,
@@ -33221,7 +33222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/Cs2S
 """,
@@ -33241,7 +33242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/H2/CS
 """,
@@ -33261,7 +33262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/H/CSCs
 """,
@@ -33281,7 +33282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/CSCs2
 """,
@@ -33301,7 +33302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;Cd_rad/NonDeS
 """,
@@ -33321,7 +33322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;Cd_rad/CS
 """,
@@ -33341,7 +33342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/H/CdS
 """,
@@ -33361,7 +33362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/CdCsS
 """,
@@ -33381,7 +33382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/H/CSS
 """,
@@ -33401,7 +33402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/CSCsS
 """,
@@ -33421,7 +33422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/H/CtS
 """,
@@ -33441,7 +33442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/CtCsS
 """,
@@ -33461,7 +33462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/H/CbS
 """,
@@ -33481,7 +33482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/CbCsS
 """,
@@ -33501,7 +33502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;CS_pri_rad
 """,
@@ -33521,7 +33522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;Cd_rad/Ct
 """,
@@ -33541,7 +33542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;CS_rad/Cs
 """,
@@ -33561,7 +33562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;CS_rad/S
 """,
@@ -33581,7 +33582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;CS_rad/Cd
 """,
@@ -33601,7 +33602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;CS_rad/Ct
 """,
@@ -33621,7 +33622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;H_rad
 """,
@@ -33641,7 +33642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_methyl
 """,
@@ -33661,7 +33662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/H/NonDeC
 """,
@@ -33681,7 +33682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/Cs3
 """,
@@ -33701,7 +33702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/H2/Cd
 """,
@@ -33721,7 +33722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/H/CdCs
 """,
@@ -33741,7 +33742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/CdCs2
 """,
@@ -33761,7 +33762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/H/CdCd
 """,
@@ -33781,7 +33782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/CdCdCs
 """,
@@ -33801,7 +33802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/H2/Ct
 """,
@@ -33821,7 +33822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/H/CtCs
 """,
@@ -33841,7 +33842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/CtCs2
 """,
@@ -33861,7 +33862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/H/CtCt
 """,
@@ -33881,7 +33882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/CtCtCs
 """,
@@ -33901,7 +33902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/H2/Cb
 """,
@@ -33921,7 +33922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/H/CbCs
 """,
@@ -33941,7 +33942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/CbCs2
 """,
@@ -33961,7 +33962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;Cd_rad/NonDeC
 """,
@@ -33981,7 +33982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;Cd_rad/Cd
 """,
@@ -34001,7 +34002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;Cb_rad
 """,
@@ -34021,7 +34022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;Cd_Cdd_rad/H
 """,
@@ -34041,7 +34042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/H2/S
 """,
@@ -34061,7 +34062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/H/CsS
 """,
@@ -34081,7 +34082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/Cs2S
 """,
@@ -34101,7 +34102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/H2/CS
 """,
@@ -34121,7 +34122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/H/CSCs
 """,
@@ -34141,7 +34142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/CSCs2
 """,
@@ -34161,7 +34162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;Cd_rad/NonDeS
 """,
@@ -34181,7 +34182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;Cd_rad/CS
 """,
@@ -34201,7 +34202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/H/CdS
 """,
@@ -34221,7 +34222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/CdCsS
 """,
@@ -34241,7 +34242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/H/CSS
 """,
@@ -34261,7 +34262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/CSCsS
 """,
@@ -34281,7 +34282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/H/CtS
 """,
@@ -34301,7 +34302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/CtCsS
 """,
@@ -34321,7 +34322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/H/CbS
 """,
@@ -34341,7 +34342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;C_rad/CbCsS
 """,
@@ -34361,7 +34362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;CS_pri_rad
 """,
@@ -34381,7 +34382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;CS_rad/Cs
 """,
@@ -34401,7 +34402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;Cd_rad/Ct
 """,
@@ -34421,7 +34422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;CS_rad/S
 """,
@@ -34441,7 +34442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;CS_rad/Cd
 """,
@@ -34461,7 +34462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;CS_rad/Ct
 """,
@@ -34481,7 +34482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/H2/Cd
 """,
@@ -34501,7 +34502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/H/CdCs
 """,
@@ -34521,7 +34522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/CdCs2
 """,
@@ -34541,7 +34542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/H/CdCd
 """,
@@ -34561,7 +34562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/CdCdCs
 """,
@@ -34581,7 +34582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/H2/Ct
 """,
@@ -34601,7 +34602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/H/CtCs
 """,
@@ -34621,7 +34622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/CtCs2
 """,
@@ -34641,7 +34642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/H/CtCt
 """,
@@ -34661,7 +34662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/CtCtCs
 """,
@@ -34681,7 +34682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/H2/Cb
 """,
@@ -34701,7 +34702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/H/CbCs
 """,
@@ -34721,7 +34722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/CbCs2
 """,
@@ -34741,7 +34742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;Cd_rad/Cd
 """,
@@ -34761,7 +34762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;Cb_rad
 """,
@@ -34781,7 +34782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;Cd_rad/Ct
 """,
@@ -34801,7 +34802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/H2/S
 """,
@@ -34821,7 +34822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/H/CsS
 """,
@@ -34841,7 +34842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/Cs2S
 """,
@@ -34861,7 +34862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/H2/CS
 """,
@@ -34881,7 +34882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/H/CSCs
 """,
@@ -34901,7 +34902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/CSCs2
 """,
@@ -34921,7 +34922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;Cd_rad/NonDeS
 """,
@@ -34941,7 +34942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;Cd_rad/CS
 """,
@@ -34961,7 +34962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/H/CdS
 """,
@@ -34981,7 +34982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/CdCsS
 """,
@@ -35001,7 +35002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/H/CSS
 """,
@@ -35021,7 +35022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/CSCsS
 """,
@@ -35041,7 +35042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/H/CtS
 """,
@@ -35061,7 +35062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/CtCsS
 """,
@@ -35081,7 +35082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/H/CbS
 """,
@@ -35101,7 +35102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;C_rad/CbCsS
 """,
@@ -35121,7 +35122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;CS_pri_rad
 """,
@@ -35141,7 +35142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;CS_rad/Cs
 """,
@@ -35161,7 +35162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;Cd_Cdd_rad/H
 """,
@@ -35181,7 +35182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;CS_rad/S
 """,
@@ -35201,7 +35202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;CS_rad/Cd
 """,
@@ -35221,7 +35222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;CS_rad/Ct
 """,
@@ -35241,7 +35242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;H_rad
 """,
@@ -35261,7 +35262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_methyl
 """,
@@ -35281,7 +35282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/H2/Cs
 """,
@@ -35301,7 +35302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/H/NonDeC
 """,
@@ -35321,7 +35322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/Cs3
 """,
@@ -35341,7 +35342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/H2/Cd
 """,
@@ -35361,7 +35362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/H/CdCs
 """,
@@ -35381,7 +35382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/CdCs2
 """,
@@ -35401,7 +35402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/H/CdCd
 """,
@@ -35421,7 +35422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/CdCdCs
 """,
@@ -35441,7 +35442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/H2/Ct
 """,
@@ -35461,7 +35462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/H/CtCs
 """,
@@ -35481,7 +35482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/CtCs2
 """,
@@ -35501,7 +35502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/H/CtCt
 """,
@@ -35521,7 +35522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/CtCtCs
 """,
@@ -35541,7 +35542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/H2/Cb
 """,
@@ -35561,7 +35562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/H/CbCs
 """,
@@ -35581,7 +35582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/CbCs2
 """,
@@ -35601,7 +35602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;Cd_pri_rad
 """,
@@ -35621,7 +35622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;Cd_rad/NonDeC
 """,
@@ -35641,7 +35642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;Cb_rad
 """,
@@ -35661,7 +35662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;Cd_rad/Ct
 """,
@@ -35681,7 +35682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/H2/S
 """,
@@ -35701,7 +35702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/H/CsS
 """,
@@ -35721,7 +35722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/Cs2S
 """,
@@ -35741,7 +35742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/H2/CS
 """,
@@ -35761,7 +35762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/H/CSCs
 """,
@@ -35781,7 +35782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/CSCs2
 """,
@@ -35801,7 +35802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;Cd_rad/NonDeS
 """,
@@ -35821,7 +35822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;Cd_rad/CS
 """,
@@ -35841,7 +35842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/H/CdS
 """,
@@ -35861,7 +35862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/CdCsS
 """,
@@ -35881,7 +35882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/H/CSS
 """,
@@ -35901,7 +35902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/CSCsS
 """,
@@ -35921,7 +35922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/H/CtS
 """,
@@ -35941,7 +35942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/CtCsS
 """,
@@ -35961,7 +35962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/H/CbS
 """,
@@ -35981,7 +35982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;C_rad/CbCsS
 """,
@@ -36001,7 +36002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;CS_pri_rad
 """,
@@ -36021,7 +36022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;CS_rad/Cs
 """,
@@ -36041,7 +36042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;CS_rad/S
 """,
@@ -36061,7 +36062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;Cd_Cdd_rad/H
 """,
@@ -36081,7 +36082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;CS_rad/Cd
 """,
@@ -36101,7 +36102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;CS_rad/Ct
 """,
@@ -36121,7 +36122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_methyl
 """,
@@ -36141,7 +36142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/H/NonDeC
 """,
@@ -36161,7 +36162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/Cs3
 """,
@@ -36181,7 +36182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/H2/Cd
 """,
@@ -36201,7 +36202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/H/CdCs
 """,
@@ -36221,7 +36222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/CdCs2
 """,
@@ -36241,7 +36242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/H/CdCd
 """,
@@ -36261,7 +36262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/CdCdCs
 """,
@@ -36281,7 +36282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/H2/Ct
 """,
@@ -36301,7 +36302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/H/CtCs
 """,
@@ -36321,7 +36322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/CtCs2
 """,
@@ -36341,7 +36342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/H/CtCt
 """,
@@ -36361,7 +36362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/CtCtCs
 """,
@@ -36381,7 +36382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/H2/Cb
 """,
@@ -36401,7 +36402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/H/CbCs
 """,
@@ -36421,7 +36422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/CbCs2
 """,
@@ -36441,7 +36442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;Cd_pri_rad
 """,
@@ -36461,7 +36462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;Cd_rad/NonDeC
 """,
@@ -36481,7 +36482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;Cd_rad/Cd
 """,
@@ -36501,7 +36502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;Cd_Cdd_rad/H
 """,
@@ -36521,7 +36522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/H2/S
 """,
@@ -36541,7 +36542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/H/CsS
 """,
@@ -36561,7 +36562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/Cs2S
 """,
@@ -36581,7 +36582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/H2/CS
 """,
@@ -36601,7 +36602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/H/CSCs
 """,
@@ -36621,7 +36622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/CSCs2
 """,
@@ -36641,7 +36642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;Cd_rad/NonDeS
 """,
@@ -36661,7 +36662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;Cd_rad/CS
 """,
@@ -36681,7 +36682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/H/CdS
 """,
@@ -36701,7 +36702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/CdCsS
 """,
@@ -36721,7 +36722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/H/CSS
 """,
@@ -36741,7 +36742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/CSCsS
 """,
@@ -36761,7 +36762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/H/CtS
 """,
@@ -36781,7 +36782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/CtCsS
 """,
@@ -36801,7 +36802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/H/CbS
 """,
@@ -36821,7 +36822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/CbCsS
 """,
@@ -36841,7 +36842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;CS_pri_rad
 """,
@@ -36861,7 +36862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;CS_rad/Cs
 """,
@@ -36881,7 +36882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;CS_rad/S
 """,
@@ -36901,7 +36902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;CS_rad/Cd
 """,
@@ -36921,7 +36922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;CS_rad/Ct
 """,
@@ -36941,7 +36942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;Cd_rad/Ct
 """,
@@ -36961,7 +36962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;H_rad
 """,
@@ -36981,7 +36982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_methyl
 """,
@@ -37001,7 +37002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/H2/Cs
 """,
@@ -37021,7 +37022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/H/NonDeC
 """,
@@ -37041,7 +37042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/Cs3
 """,
@@ -37061,7 +37062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/H2/Cd
 """,
@@ -37081,7 +37082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/H/CdCs
 """,
@@ -37101,7 +37102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/CdCs2
 """,
@@ -37121,7 +37122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/H/CdCd
 """,
@@ -37141,7 +37142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/CdCdCs
 """,
@@ -37161,7 +37162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/H2/Ct
 """,
@@ -37181,7 +37182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/H/CtCs
 """,
@@ -37201,7 +37202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/CtCs2
 """,
@@ -37221,7 +37222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/H/CtCt
 """,
@@ -37241,7 +37242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/CtCtCs
 """,
@@ -37261,7 +37262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/H2/Cb
 """,
@@ -37281,7 +37282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/H/CbCs
 """,
@@ -37301,7 +37302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/CbCs2
 """,
@@ -37321,7 +37322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;Cd_pri_rad
 """,
@@ -37341,7 +37342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;Cd_rad/NonDeC
 """,
@@ -37361,7 +37362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;Cd_rad/Cd
 """,
@@ -37381,7 +37382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;Cb_rad
 """,
@@ -37401,7 +37402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;Cd_Cdd_rad/H
 """,
@@ -37421,7 +37422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_methyl
 """,
@@ -37441,7 +37442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/H2/S
 """,
@@ -37461,7 +37462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/H2/Cs
 """,
@@ -37481,7 +37482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/H/CsS
 """,
@@ -37501,7 +37502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/H/NonDeC
 """,
@@ -37521,7 +37522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/Cs2S
 """,
@@ -37541,7 +37542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/Cs3
 """,
@@ -37561,7 +37562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/H2/CS
 """,
@@ -37581,7 +37582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/H2/Cd
 """,
@@ -37601,7 +37602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/H/CSCs
 """,
@@ -37621,7 +37622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/H/CdCs
 """,
@@ -37641,7 +37642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/CSCs2
 """,
@@ -37661,7 +37662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/CdCs2
 """,
@@ -37681,7 +37682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;Cd_rad/NonDeS
 """,
@@ -37701,7 +37702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/H/CdCd
 """,
@@ -37721,7 +37722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;Cd_rad/CS
 """,
@@ -37741,7 +37742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/CdCdCs
 """,
@@ -37761,7 +37762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/H/CdS
 """,
@@ -37781,7 +37782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/H2/Ct
 """,
@@ -37801,7 +37802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/CdCsS
 """,
@@ -37821,7 +37822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/H/CtCs
 """,
@@ -37841,7 +37842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/H/CSS
 """,
@@ -37861,7 +37862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/CtCs2
 """,
@@ -37881,7 +37882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/CSCsS
 """,
@@ -37901,7 +37902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/H/CtCt
 """,
@@ -37921,7 +37922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/H/CtS
 """,
@@ -37941,7 +37942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/CtCtCs
 """,
@@ -37961,7 +37962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/CtCsS
 """,
@@ -37981,7 +37982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/H2/Cb
 """,
@@ -38001,7 +38002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/H/CbS
 """,
@@ -38021,7 +38022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/H/CbCs
 """,
@@ -38041,7 +38042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;C_rad/CbCsS
 """,
@@ -38061,7 +38062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/CbCs2
 """,
@@ -38081,7 +38082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;CS_pri_rad
 """,
@@ -38101,7 +38102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;Cd_pri_rad
 """,
@@ -38121,7 +38122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;CS_rad/Cs
 """,
@@ -38141,7 +38142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;Cd_rad/NonDeC
 """,
@@ -38161,7 +38162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;CS_rad/S
 """,
@@ -38181,7 +38182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;Cd_rad/Cd
 """,
@@ -38201,7 +38202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;CS_rad/Cd
 """,
@@ -38221,7 +38222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;Cb_rad
 """,
@@ -38241,7 +38242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;CS_rad/Ct
 """,
@@ -38261,7 +38262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;H_rad
 """,
@@ -38281,7 +38282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;Cd_rad/Ct
 """,
@@ -38301,7 +38302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_methyl
 """,
@@ -38321,7 +38322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/H2/S
 """,
@@ -38341,7 +38342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/H2/Cs
 """,
@@ -38361,7 +38362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/H/CsS
 """,
@@ -38381,7 +38382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/H/NonDeC
 """,
@@ -38401,7 +38402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/Cs2S
 """,
@@ -38421,7 +38422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/Cs3
 """,
@@ -38441,7 +38442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/H2/CS
 """,
@@ -38461,7 +38462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/H2/Cd
 """,
@@ -38481,7 +38482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/H/CSCs
 """,
@@ -38501,7 +38502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/H/CdCs
 """,
@@ -38521,7 +38522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/CSCs2
 """,
@@ -38541,7 +38542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/CdCs2
 """,
@@ -38561,7 +38562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;Cd_rad/NonDeS
 """,
@@ -38581,7 +38582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/H/CdCd
 """,
@@ -38601,7 +38602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;Cd_rad/CS
 """,
@@ -38621,7 +38622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/CdCdCs
 """,
@@ -38641,7 +38642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/H/CdS
 """,
@@ -38661,7 +38662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/H2/Ct
 """,
@@ -38681,7 +38682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/CdCsS
 """,
@@ -38701,7 +38702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/H/CtCs
 """,
@@ -38721,7 +38722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/H/CSS
 """,
@@ -38741,7 +38742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/CtCs2
 """,
@@ -38761,7 +38762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/CSCsS
 """,
@@ -38781,7 +38782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/H/CtCt
 """,
@@ -38801,7 +38802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/H/CtS
 """,
@@ -38821,7 +38822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/CtCtCs
 """,
@@ -38841,7 +38842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/CtCsS
 """,
@@ -38861,7 +38862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/H2/Cb
 """,
@@ -38881,7 +38882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/H/CbS
 """,
@@ -38901,7 +38902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/H/CbCs
 """,
@@ -38921,7 +38922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;C_rad/CbCsS
 """,
@@ -38941,7 +38942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/CbCs2
 """,
@@ -38961,7 +38962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;CS_pri_rad
 """,
@@ -38981,7 +38982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;Cd_pri_rad
 """,
@@ -39001,7 +39002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;CS_rad/Cs
 """,
@@ -39021,7 +39022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;Cd_rad/NonDeC
 """,
@@ -39041,7 +39042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;CS_rad/S
 """,
@@ -39061,7 +39062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;Cd_rad/Cd
 """,
@@ -39081,7 +39082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;CS_rad/Cd
 """,
@@ -39101,7 +39102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;Cb_rad
 """,
@@ -39121,7 +39122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_Cdd/H2;CS_rad/Ct
 """,
@@ -39141,7 +39142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;Cd_Cdd_rad/H
 """,
@@ -39161,7 +39162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;H_rad
 """,
@@ -39181,7 +39182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/H/CsS
 """,
@@ -39201,7 +39202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/Cs2S
 """,
@@ -39221,7 +39222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/H2/CS
 """,
@@ -39241,7 +39242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/H/CSCs
 """,
@@ -39261,7 +39262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/CSCs2
 """,
@@ -39281,7 +39282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;Cd_rad/NonDeS
 """,
@@ -39301,7 +39302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;Cd_rad/CS
 """,
@@ -39321,7 +39322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/H/CdS
 """,
@@ -39341,7 +39342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/CdCsS
 """,
@@ -39361,7 +39362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/H/CSS
 """,
@@ -39381,7 +39382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/CSCsS
 """,
@@ -39401,7 +39402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/H/CtS
 """,
@@ -39421,7 +39422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/CtCsS
 """,
@@ -39441,7 +39442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/H/CbS
 """,
@@ -39461,7 +39462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;C_rad/CbCsS
 """,
@@ -39481,7 +39482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;CS_pri_rad
 """,
@@ -39501,7 +39502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;CS_rad/Cs
 """,
@@ -39521,7 +39522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;CS_rad/S
 """,
@@ -39541,7 +39542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;CS_rad/Cd
 """,
@@ -39561,7 +39562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;CS_rad/Ct
 """,
@@ -39581,7 +39582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;H_rad
 """,
@@ -39601,7 +39602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_methyl
 """,
@@ -39621,7 +39622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/H2/Cs
 """,
@@ -39641,7 +39642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/H/NonDeC
 """,
@@ -39661,7 +39662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/Cs3
 """,
@@ -39681,7 +39682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/H2/Cd
 """,
@@ -39701,7 +39702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/H/CdCs
 """,
@@ -39721,7 +39722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/CdCs2
 """,
@@ -39741,7 +39742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/H/CdCd
 """,
@@ -39761,7 +39762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/CdCdCs
 """,
@@ -39781,7 +39782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/H2/Ct
 """,
@@ -39801,7 +39802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/H/CtCs
 """,
@@ -39821,7 +39822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/CtCs2
 """,
@@ -39841,7 +39842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/H/CtCt
 """,
@@ -39861,7 +39862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/CtCtCs
 """,
@@ -39881,7 +39882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/H2/Cb
 """,
@@ -39901,7 +39902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/H/CbCs
 """,
@@ -39921,7 +39922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/CbCs2
 """,
@@ -39941,7 +39942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;Cd_pri_rad
 """,
@@ -39961,7 +39962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;Cd_rad/NonDeC
 """,
@@ -39981,7 +39982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;Cd_rad/Cd
 """,
@@ -40001,7 +40002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;Cb_rad
 """,
@@ -40021,7 +40022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;Cd_Cdd_rad/H
 """,
@@ -40041,7 +40042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/H2/S
 """,
@@ -40061,7 +40062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/Cs2S
 """,
@@ -40081,7 +40082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/H2/CS
 """,
@@ -40101,7 +40102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/H/CSCs
 """,
@@ -40121,7 +40122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/CSCs2
 """,
@@ -40141,7 +40142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;Cd_rad/NonDeS
 """,
@@ -40161,7 +40162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;Cd_rad/CS
 """,
@@ -40181,7 +40182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/H/CdS
 """,
@@ -40201,7 +40202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/CdCsS
 """,
@@ -40221,7 +40222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/H/CSS
 """,
@@ -40241,7 +40242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/CSCsS
 """,
@@ -40261,7 +40262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/H/CtS
 """,
@@ -40281,7 +40282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/CtCsS
 """,
@@ -40301,7 +40302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/H/CbS
 """,
@@ -40321,7 +40322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;C_rad/CbCsS
 """,
@@ -40341,7 +40342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;CS_pri_rad
 """,
@@ -40361,7 +40362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;CS_rad/Cs
 """,
@@ -40381,7 +40382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;CS_rad/S
 """,
@@ -40401,7 +40402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;CS_rad/Cd
 """,
@@ -40421,7 +40422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;CS_rad/Ct
 """,
@@ -40441,7 +40442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;H_rad
 """,
@@ -40461,7 +40462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_methyl
 """,
@@ -40481,7 +40482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/H2/Cs
 """,
@@ -40501,7 +40502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;Cd_rad/Ct
 """,
@@ -40521,7 +40522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/H/NonDeC
 """,
@@ -40541,7 +40542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/Cs3
 """,
@@ -40561,7 +40562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/H2/Cd
 """,
@@ -40581,7 +40582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/H/CdCs
 """,
@@ -40601,7 +40602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/CdCs2
 """,
@@ -40621,7 +40622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/H/CdCd
 """,
@@ -40641,7 +40642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/CdCdCs
 """,
@@ -40661,7 +40662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/H2/Ct
 """,
@@ -40681,7 +40682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/H/CtCs
 """,
@@ -40701,7 +40702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/CtCs2
 """,
@@ -40721,7 +40722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/H/CtCt
 """,
@@ -40741,7 +40742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/CtCtCs
 """,
@@ -40761,7 +40762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/H2/Cb
 """,
@@ -40781,7 +40782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/H/CbCs
 """,
@@ -40801,7 +40802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/CbCs2
 """,
@@ -40821,7 +40822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;Cd_pri_rad
 """,
@@ -40841,7 +40842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;Cd_rad/NonDeC
 """,
@@ -40861,7 +40862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;Cd_rad/Cd
 """,
@@ -40881,7 +40882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;Cb_rad
 """,
@@ -40901,7 +40902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;Cd_Cdd_rad/H
 """,
@@ -40921,7 +40922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/H2/S
 """,
@@ -40941,7 +40942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/H/CsS
 """,
@@ -40961,7 +40962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/H2/CS
 """,
@@ -40981,7 +40982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/H/CSCs
 """,
@@ -41001,7 +41002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/CSCs2
 """,
@@ -41021,7 +41022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;Cd_rad/NonDeS
 """,
@@ -41041,7 +41042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;Cd_rad/CS
 """,
@@ -41061,7 +41062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/H/CdS
 """,
@@ -41081,7 +41082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/CdCsS
 """,
@@ -41101,7 +41102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/H/CSS
 """,
@@ -41121,7 +41122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/CSCsS
 """,
@@ -41141,7 +41142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/H/CtS
 """,
@@ -41161,7 +41162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/CtCsS
 """,
@@ -41181,7 +41182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/H/CbS
 """,
@@ -41201,7 +41202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;C_rad/CbCsS
 """,
@@ -41221,7 +41222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;CS_pri_rad
 """,
@@ -41241,7 +41242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;CS_rad/Cs
 """,
@@ -41261,7 +41262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;CS_rad/S
 """,
@@ -41281,7 +41282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;CS_rad/Cd
 """,
@@ -41301,7 +41302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;CS_rad/Ct
 """,
@@ -41321,7 +41322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;H_rad
 """,
@@ -41341,7 +41342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_methyl
 """,
@@ -41361,7 +41362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/H2/Cs
 """,
@@ -41381,7 +41382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/H/NonDeC
 """,
@@ -41401,7 +41402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CsS;Cd_rad/Ct
 """,
@@ -41421,7 +41422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/Cs3
 """,
@@ -41441,7 +41442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/H2/Cd
 """,
@@ -41461,7 +41462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/H/CdCs
 """,
@@ -41481,7 +41482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/CdCs2
 """,
@@ -41501,7 +41502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/H/CdCd
 """,
@@ -41521,7 +41522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/CdCdCs
 """,
@@ -41541,7 +41542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/H2/Ct
 """,
@@ -41561,7 +41562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/H/CtCs
 """,
@@ -41581,7 +41582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/CtCs2
 """,
@@ -41601,7 +41602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/H/CtCt
 """,
@@ -41621,7 +41622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/CtCtCs
 """,
@@ -41641,7 +41642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/H2/Cb
 """,
@@ -41661,7 +41662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/H/CbCs
 """,
@@ -41681,7 +41682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/CbCs2
 """,
@@ -41701,7 +41702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;Cd_pri_rad
 """,
@@ -41721,7 +41722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;Cd_rad/NonDeC
 """,
@@ -41741,7 +41742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;Cd_rad/Cd
 """,
@@ -41761,7 +41762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;Cb_rad
 """,
@@ -41781,7 +41782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;Cd_Cdd_rad/H
 """,
@@ -41801,7 +41802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/H2/S
 """,
@@ -41821,7 +41822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/H/CsS
 """,
@@ -41841,7 +41842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/Cs2S
 """,
@@ -41861,7 +41862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/H/CSCs
 """,
@@ -41881,7 +41882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/CSCs2
 """,
@@ -41901,7 +41902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;Cd_rad/NonDeS
 """,
@@ -41921,7 +41922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;Cd_rad/CS
 """,
@@ -41941,7 +41942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/H/CdS
 """,
@@ -41961,7 +41962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/CdCsS
 """,
@@ -41981,7 +41982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/H/CSS
 """,
@@ -42001,7 +42002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/CSCsS
 """,
@@ -42021,7 +42022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/H/CtS
 """,
@@ -42041,7 +42042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/CtCsS
 """,
@@ -42061,7 +42062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/H/CbS
 """,
@@ -42081,7 +42082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;C_rad/CbCsS
 """,
@@ -42101,7 +42102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;CS_pri_rad
 """,
@@ -42121,7 +42122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;CS_rad/Cs
 """,
@@ -42141,7 +42142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;CS_rad/S
 """,
@@ -42161,7 +42162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;CS_rad/Cd
 """,
@@ -42181,7 +42182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;CS_rad/Ct
 """,
@@ -42201,7 +42202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;H_rad
 """,
@@ -42221,7 +42222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_methyl
 """,
@@ -42241,7 +42242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/H2/Cs
 """,
@@ -42261,7 +42262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/H/NonDeC
 """,
@@ -42281,7 +42282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/Cs3
 """,
@@ -42301,7 +42302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2S;Cd_rad/Ct
 """,
@@ -42321,7 +42322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/H2/Cd
 """,
@@ -42341,7 +42342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/H/CdCs
 """,
@@ -42361,7 +42362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/CdCs2
 """,
@@ -42381,7 +42382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/H/CdCd
 """,
@@ -42401,7 +42402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/CdCdCs
 """,
@@ -42421,7 +42422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/H2/Ct
 """,
@@ -42441,7 +42442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/H/CtCs
 """,
@@ -42461,7 +42462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/CtCs2
 """,
@@ -42481,7 +42482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/H/CtCt
 """,
@@ -42501,7 +42502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/CtCtCs
 """,
@@ -42521,7 +42522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/H2/Cb
 """,
@@ -42541,7 +42542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/H/CbCs
 """,
@@ -42561,7 +42562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/CbCs2
 """,
@@ -42581,7 +42582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;Cd_pri_rad
 """,
@@ -42601,7 +42602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;Cd_rad/NonDeC
 """,
@@ -42621,7 +42622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;Cd_rad/Cd
 """,
@@ -42641,7 +42642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;Cb_rad
 """,
@@ -42661,7 +42662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;Cd_Cdd_rad/H
 """,
@@ -42681,7 +42682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/H2/S
 """,
@@ -42701,7 +42702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/H/CsS
 """,
@@ -42721,7 +42722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/Cs2S
 """,
@@ -42741,7 +42742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/H2/CS
 """,
@@ -42761,7 +42762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/CSCs2
 """,
@@ -42781,7 +42782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;Cd_rad/NonDeS
 """,
@@ -42801,7 +42802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;Cd_rad/CS
 """,
@@ -42821,7 +42822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/H/CdS
 """,
@@ -42841,7 +42842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/CdCsS
 """,
@@ -42861,7 +42862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/H/CSS
 """,
@@ -42881,7 +42882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/CSCsS
 """,
@@ -42901,7 +42902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/H/CtS
 """,
@@ -42921,7 +42922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/CtCsS
 """,
@@ -42941,7 +42942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/H/CbS
 """,
@@ -42961,7 +42962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;C_rad/CbCsS
 """,
@@ -42981,7 +42982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;CS_pri_rad
 """,
@@ -43001,7 +43002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;CS_rad/Cs
 """,
@@ -43021,7 +43022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;CS_rad/S
 """,
@@ -43041,7 +43042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;CS_rad/Cd
 """,
@@ -43061,7 +43062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;CS_rad/Ct
 """,
@@ -43081,7 +43082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;H_rad
 """,
@@ -43101,7 +43102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_methyl
 """,
@@ -43121,7 +43122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H2/Cs
 """,
@@ -43141,7 +43142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H/NonDeC
 """,
@@ -43161,7 +43162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/Cs3
 """,
@@ -43181,7 +43182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H2/Cd
 """,
@@ -43201,7 +43202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/CS;Cd_rad/Ct
 """,
@@ -43221,7 +43222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H/CdCs
 """,
@@ -43241,7 +43242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/CdCs2
 """,
@@ -43261,7 +43262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H/CdCd
 """,
@@ -43281,7 +43282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/CdCdCs
 """,
@@ -43301,7 +43302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H2/Ct
 """,
@@ -43321,7 +43322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H/CtCs
 """,
@@ -43341,7 +43342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/CtCs2
 """,
@@ -43361,7 +43362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H/CtCt
 """,
@@ -43381,7 +43382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/CtCtCs
 """,
@@ -43401,7 +43402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H2/Cb
 """,
@@ -43421,7 +43422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H/CbCs
 """,
@@ -43441,7 +43442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/CbCs2
 """,
@@ -43461,7 +43462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;Cd_pri_rad
 """,
@@ -43481,7 +43482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;Cd_rad/NonDeC
 """,
@@ -43501,7 +43502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;Cd_rad/Cd
 """,
@@ -43521,7 +43522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;Cb_rad
 """,
@@ -43541,7 +43542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;Cd_Cdd_rad/H
 """,
@@ -43561,7 +43562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H2/S
 """,
@@ -43581,7 +43582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H/CsS
 """,
@@ -43601,7 +43602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/Cs2S
 """,
@@ -43621,7 +43622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H2/CS
 """,
@@ -43641,7 +43642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H/CSCs
 """,
@@ -43661,7 +43662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;Cd_rad/NonDeS
 """,
@@ -43681,7 +43682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;Cd_rad/CS
 """,
@@ -43701,7 +43702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H/CdS
 """,
@@ -43721,7 +43722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/CdCsS
 """,
@@ -43741,7 +43742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H/CSS
 """,
@@ -43761,7 +43762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/CSCsS
 """,
@@ -43781,7 +43782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H/CtS
 """,
@@ -43801,7 +43802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/CtCsS
 """,
@@ -43821,7 +43822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H/CbS
 """,
@@ -43841,7 +43842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/CbCsS
 """,
@@ -43861,7 +43862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;CS_pri_rad
 """,
@@ -43881,7 +43882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;CS_rad/Cs
 """,
@@ -43901,7 +43902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;CS_rad/S
 """,
@@ -43921,7 +43922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;CS_rad/Cd
 """,
@@ -43941,7 +43942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;CS_rad/Ct
 """,
@@ -43961,7 +43962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;H_rad
 """,
@@ -43981,7 +43982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_methyl
 """,
@@ -44001,7 +44002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H2/Cs
 """,
@@ -44021,7 +44022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H/NonDeC
 """,
@@ -44041,7 +44042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/Cs3
 """,
@@ -44061,7 +44062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H2/Cd
 """,
@@ -44081,7 +44082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H/CdCs
 """,
@@ -44101,7 +44102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSCs;Cd_rad/Ct
 """,
@@ -44121,7 +44122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/CdCs2
 """,
@@ -44141,7 +44142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H/CdCd
 """,
@@ -44161,7 +44162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/CdCdCs
 """,
@@ -44181,7 +44182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H2/Ct
 """,
@@ -44201,7 +44202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H/CtCs
 """,
@@ -44221,7 +44222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/CtCs2
 """,
@@ -44241,7 +44242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H/CtCt
 """,
@@ -44261,7 +44262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/CtCtCs
 """,
@@ -44281,7 +44282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H2/Cb
 """,
@@ -44301,7 +44302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H/CbCs
 """,
@@ -44321,7 +44322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/CbCs2
 """,
@@ -44341,7 +44342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;Cd_pri_rad
 """,
@@ -44361,7 +44362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;Cd_rad/NonDeC
 """,
@@ -44381,7 +44382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;Cd_rad/Cd
 """,
@@ -44401,7 +44402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;Cb_rad
 """,
@@ -44421,7 +44422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;Cd_Cdd_rad/H
 """,
@@ -44441,7 +44442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H2/S
 """,
@@ -44461,7 +44462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H/CsS
 """,
@@ -44481,7 +44482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/Cs2S
 """,
@@ -44501,7 +44502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H2/CS
 """,
@@ -44521,7 +44522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H/CSCs
 """,
@@ -44541,7 +44542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/CSCs2
 """,
@@ -44561,7 +44562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;Cd_rad/CS
 """,
@@ -44581,7 +44582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H/CdS
 """,
@@ -44601,7 +44602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/CdCsS
 """,
@@ -44621,7 +44622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H/CSS
 """,
@@ -44641,7 +44642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/CSCsS
 """,
@@ -44661,7 +44662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H/CtS
 """,
@@ -44681,7 +44682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/CtCsS
 """,
@@ -44701,7 +44702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H/CbS
 """,
@@ -44721,7 +44722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/CbCsS
 """,
@@ -44741,7 +44742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;CS_pri_rad
 """,
@@ -44761,7 +44762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;CS_rad/Cs
 """,
@@ -44781,7 +44782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;CS_rad/S
 """,
@@ -44801,7 +44802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;CS_rad/Cd
 """,
@@ -44821,7 +44822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;CS_rad/Ct
 """,
@@ -44841,7 +44842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;H_rad
 """,
@@ -44861,7 +44862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_methyl
 """,
@@ -44881,7 +44882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/H2/Cs
 """,
@@ -44901,7 +44902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/H/NonDeC
 """,
@@ -44921,7 +44922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/Cs3
 """,
@@ -44941,7 +44942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/H2/Cd
 """,
@@ -44961,7 +44962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/H/CdCs
 """,
@@ -44981,7 +44982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/CdCs2
 """,
@@ -45001,7 +45002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;Cd_rad/Ct
 """,
@@ -45021,7 +45022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/H/CdCd
 """,
@@ -45041,7 +45042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/CdCdCs
 """,
@@ -45061,7 +45062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/H2/Ct
 """,
@@ -45081,7 +45082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/H/CtCs
 """,
@@ -45101,7 +45102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/CtCs2
 """,
@@ -45121,7 +45122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/H/CtCt
 """,
@@ -45141,7 +45142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/CtCtCs
 """,
@@ -45161,7 +45162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/H2/Cb
 """,
@@ -45181,7 +45182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/H/CbCs
 """,
@@ -45201,7 +45202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/CbCs2
 """,
@@ -45221,7 +45222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;Cd_pri_rad
 """,
@@ -45241,7 +45242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;Cd_rad/NonDeC
 """,
@@ -45261,7 +45262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;Cd_rad/Cd
 """,
@@ -45281,7 +45282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;Cb_rad
 """,
@@ -45301,7 +45302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;Cd_Cdd_rad/H
 """,
@@ -45321,7 +45322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/H2/S
 """,
@@ -45341,7 +45342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/H/CsS
 """,
@@ -45361,7 +45362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/Cs2S
 """,
@@ -45381,7 +45382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/H2/CS
 """,
@@ -45401,7 +45402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/H/CSCs
 """,
@@ -45421,7 +45422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/CSCs2
 """,
@@ -45441,7 +45442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;Cd_rad/NonDeS
 """,
@@ -45461,7 +45462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/H/CdS
 """,
@@ -45481,7 +45482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/CdCsS
 """,
@@ -45501,7 +45502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/H/CSS
 """,
@@ -45521,7 +45522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/CSCsS
 """,
@@ -45541,7 +45542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/H/CtS
 """,
@@ -45561,7 +45562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/CtCsS
 """,
@@ -45581,7 +45582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/H/CbS
 """,
@@ -45601,7 +45602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;C_rad/CbCsS
 """,
@@ -45621,7 +45622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;CS_pri_rad
 """,
@@ -45641,7 +45642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;CS_rad/Cs
 """,
@@ -45661,7 +45662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;CS_rad/S
 """,
@@ -45681,7 +45682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;CS_rad/Cd
 """,
@@ -45701,7 +45702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;CS_rad/Ct
 """,
@@ -45721,7 +45722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;H_rad
 """,
@@ -45741,7 +45742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_methyl
 """,
@@ -45761,7 +45762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/H2/Cs
 """,
@@ -45781,7 +45782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/H/NonDeC
 """,
@@ -45801,7 +45802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/Cs3
 """,
@@ -45821,7 +45822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/H2/Cd
 """,
@@ -45841,7 +45842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/H/CdCs
 """,
@@ -45861,7 +45862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/CdCs2
 """,
@@ -45881,7 +45882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/H/CdCd
 """,
@@ -45901,7 +45902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;Cd_rad/Ct
 """,
@@ -45921,7 +45922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/CdCdCs
 """,
@@ -45941,7 +45942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/H2/Ct
 """,
@@ -45961,7 +45962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/H/CtCs
 """,
@@ -45981,7 +45982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/CtCs2
 """,
@@ -46001,7 +46002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/H/CtCt
 """,
@@ -46021,7 +46022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/CtCtCs
 """,
@@ -46041,7 +46042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/H2/Cb
 """,
@@ -46061,7 +46062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/H/CbCs
 """,
@@ -46081,7 +46082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/CbCs2
 """,
@@ -46101,7 +46102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;Cd_pri_rad
 """,
@@ -46121,7 +46122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;Cd_rad/NonDeC
 """,
@@ -46141,7 +46142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;Cd_rad/Cd
 """,
@@ -46161,7 +46162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;Cb_rad
 """,
@@ -46181,7 +46182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;Cd_Cdd_rad/H
 """,
@@ -46201,7 +46202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/H2/S
 """,
@@ -46221,7 +46222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/H/CsS
 """,
@@ -46241,7 +46242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/Cs2S
 """,
@@ -46261,7 +46262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/H2/CS
 """,
@@ -46281,7 +46282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/H/CSCs
 """,
@@ -46301,7 +46302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/CSCs2
 """,
@@ -46321,7 +46322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;Cd_rad/NonDeS
 """,
@@ -46341,7 +46342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;Cd_rad/CS
 """,
@@ -46361,7 +46362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/CdCsS
 """,
@@ -46381,7 +46382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/H/CSS
 """,
@@ -46401,7 +46402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/CSCsS
 """,
@@ -46421,7 +46422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/H/CtS
 """,
@@ -46441,7 +46442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/CtCsS
 """,
@@ -46461,7 +46462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/H/CbS
 """,
@@ -46481,7 +46482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/CbCsS
 """,
@@ -46501,7 +46502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;CS_pri_rad
 """,
@@ -46521,7 +46522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;CS_rad/Cs
 """,
@@ -46541,7 +46542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;CS_rad/S
 """,
@@ -46561,7 +46562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;CS_rad/Cd
 """,
@@ -46581,7 +46582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;CS_rad/Ct
 """,
@@ -46601,7 +46602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;H_rad
 """,
@@ -46621,7 +46622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_methyl
 """,
@@ -46641,7 +46642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/H2/Cs
 """,
@@ -46661,7 +46662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/H/NonDeC
 """,
@@ -46681,7 +46682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/Cs3
 """,
@@ -46701,7 +46702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/H2/Cd
 """,
@@ -46721,7 +46722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/H/CdCs
 """,
@@ -46741,7 +46742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/CdCs2
 """,
@@ -46761,7 +46762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/H/CdCd
 """,
@@ -46781,7 +46782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/CdCdCs
 """,
@@ -46801,7 +46802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/CS;Cd_rad/Ct
 """,
@@ -46821,7 +46822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/H2/Ct
 """,
@@ -46841,7 +46842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/H/CtCs
 """,
@@ -46861,7 +46862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/CtCs2
 """,
@@ -46881,7 +46882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/H/CtCt
 """,
@@ -46901,7 +46902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/CtCtCs
 """,
@@ -46921,7 +46922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/H2/Cb
 """,
@@ -46941,7 +46942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/H/CbCs
 """,
@@ -46961,7 +46962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/CbCs2
 """,
@@ -46981,7 +46982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;Cd_pri_rad
 """,
@@ -47001,7 +47002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;Cd_rad/NonDeC
 """,
@@ -47021,7 +47022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;Cd_rad/Cd
 """,
@@ -47041,7 +47042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;Cb_rad
 """,
@@ -47061,7 +47062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;Cd_Cdd_rad/H
 """,
@@ -47081,7 +47082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/H2/S
 """,
@@ -47101,7 +47102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/H/CsS
 """,
@@ -47121,7 +47122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/Cs2S
 """,
@@ -47141,7 +47142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/H2/CS
 """,
@@ -47161,7 +47162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/H/CSCs
 """,
@@ -47181,7 +47182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/CSCs2
 """,
@@ -47201,7 +47202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;Cd_rad/NonDeS
 """,
@@ -47221,7 +47222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;Cd_rad/CS
 """,
@@ -47241,7 +47242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/H/CdS
 """,
@@ -47261,7 +47262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/CdCsS
 """,
@@ -47281,7 +47282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/H/CSS
 """,
@@ -47301,7 +47302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/H/CtS
 """,
@@ -47321,7 +47322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/CtCsS
 """,
@@ -47341,7 +47342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/H/CbS
 """,
@@ -47361,7 +47362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;C_rad/CbCsS
 """,
@@ -47381,7 +47382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;CS_pri_rad
 """,
@@ -47401,7 +47402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;CS_rad/Cs
 """,
@@ -47421,7 +47422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;CS_rad/S
 """,
@@ -47441,7 +47442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;CS_rad/Cd
 """,
@@ -47461,7 +47462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;CS_rad/Ct
 """,
@@ -47481,7 +47482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;H_rad
 """,
@@ -47501,7 +47502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_methyl
 """,
@@ -47521,7 +47522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/H2/Cs
 """,
@@ -47541,7 +47542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/H/NonDeC
 """,
@@ -47561,7 +47562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/Cs3
 """,
@@ -47581,7 +47582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/H2/Cd
 """,
@@ -47601,7 +47602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/H/CdCs
 """,
@@ -47621,7 +47622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/CdCs2
 """,
@@ -47641,7 +47642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/H/CdCd
 """,
@@ -47661,7 +47662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/CdCdCs
 """,
@@ -47681,7 +47682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/H2/Ct
 """,
@@ -47701,7 +47702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;Cd_rad/Ct
 """,
@@ -47721,7 +47722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/H/CtCs
 """,
@@ -47741,7 +47742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/CtCs2
 """,
@@ -47761,7 +47762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/H/CtCt
 """,
@@ -47781,7 +47782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/CtCtCs
 """,
@@ -47801,7 +47802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/H2/Cb
 """,
@@ -47821,7 +47822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/H/CbCs
 """,
@@ -47841,7 +47842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/CbCs2
 """,
@@ -47861,7 +47862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;Cd_pri_rad
 """,
@@ -47881,7 +47882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;Cd_rad/NonDeC
 """,
@@ -47901,7 +47902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;Cd_rad/Cd
 """,
@@ -47921,7 +47922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;Cb_rad
 """,
@@ -47941,7 +47942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;Cd_Cdd_rad/H
 """,
@@ -47961,7 +47962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/H2/S
 """,
@@ -47981,7 +47982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/H/CsS
 """,
@@ -48001,7 +48002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/Cs2S
 """,
@@ -48021,7 +48022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/H2/CS
 """,
@@ -48041,7 +48042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/H/CSCs
 """,
@@ -48061,7 +48062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/CSCs2
 """,
@@ -48081,7 +48082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;Cd_rad/NonDeS
 """,
@@ -48101,7 +48102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;Cd_rad/CS
 """,
@@ -48121,7 +48122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/H/CdS
 """,
@@ -48141,7 +48142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/CdCsS
 """,
@@ -48161,7 +48162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/CSCsS
 """,
@@ -48181,7 +48182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/H/CtS
 """,
@@ -48201,7 +48202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/CtCsS
 """,
@@ -48221,7 +48222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/H/CbS
 """,
@@ -48241,7 +48242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/CbCsS
 """,
@@ -48261,7 +48262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;CS_pri_rad
 """,
@@ -48281,7 +48282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;CS_rad/Cs
 """,
@@ -48301,7 +48302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;CS_rad/S
 """,
@@ -48321,7 +48322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;CS_rad/Cd
 """,
@@ -48341,7 +48342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;CS_rad/Ct
 """,
@@ -48361,7 +48362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CSCsS;Cd_rad/Ct
 """,
@@ -48381,7 +48382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;H_rad
 """,
@@ -48401,7 +48402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_methyl
 """,
@@ -48421,7 +48422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/H2/Cs
 """,
@@ -48441,7 +48442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/H/NonDeC
 """,
@@ -48461,7 +48462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/Cs3
 """,
@@ -48481,7 +48482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/H2/Cd
 """,
@@ -48501,7 +48502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/H/CdCs
 """,
@@ -48521,7 +48522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/CdCs2
 """,
@@ -48541,7 +48542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/H/CdCd
 """,
@@ -48561,7 +48562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/CdCdCs
 """,
@@ -48581,7 +48582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/H2/Ct
 """,
@@ -48601,7 +48602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/H/CtCs
 """,
@@ -48621,7 +48622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/CtCs2
 """,
@@ -48641,7 +48642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;Cd_rad/Ct
 """,
@@ -48661,7 +48662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/H/CtCt
 """,
@@ -48681,7 +48682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/CtCtCs
 """,
@@ -48701,7 +48702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/H2/Cb
 """,
@@ -48721,7 +48722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/H/CbCs
 """,
@@ -48741,7 +48742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/CbCs2
 """,
@@ -48761,7 +48762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;Cd_pri_rad
 """,
@@ -48781,7 +48782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;Cd_rad/NonDeC
 """,
@@ -48801,7 +48802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;Cd_rad/Cd
 """,
@@ -48821,7 +48822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;Cb_rad
 """,
@@ -48841,7 +48842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;Cd_Cdd_rad/H
 """,
@@ -48861,7 +48862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/H2/S
 """,
@@ -48881,7 +48882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/H/CsS
 """,
@@ -48901,7 +48902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/Cs2S
 """,
@@ -48921,7 +48922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/H2/CS
 """,
@@ -48941,7 +48942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/H/CSCs
 """,
@@ -48961,7 +48962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/CSCs2
 """,
@@ -48981,7 +48982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;Cd_rad/NonDeS
 """,
@@ -49001,7 +49002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;Cd_rad/CS
 """,
@@ -49021,7 +49022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/H/CdS
 """,
@@ -49041,7 +49042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/CdCsS
 """,
@@ -49061,7 +49062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/H/CSS
 """,
@@ -49081,7 +49082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/CSCsS
 """,
@@ -49101,7 +49102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/CtCsS
 """,
@@ -49121,7 +49122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/H/CbS
 """,
@@ -49141,7 +49142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;C_rad/CbCsS
 """,
@@ -49161,7 +49162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;CS_pri_rad
 """,
@@ -49181,7 +49182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;CS_rad/Cs
 """,
@@ -49201,7 +49202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;CS_rad/S
 """,
@@ -49221,7 +49222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;CS_rad/Cd
 """,
@@ -49241,7 +49242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;CS_rad/Ct
 """,
@@ -49261,7 +49262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;H_rad
 """,
@@ -49281,7 +49282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_methyl
 """,
@@ -49301,7 +49302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/H2/Cs
 """,
@@ -49321,7 +49322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/H/NonDeC
 """,
@@ -49341,7 +49342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/Cs3
 """,
@@ -49361,7 +49362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/H2/Cd
 """,
@@ -49381,7 +49382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/H/CdCs
 """,
@@ -49401,7 +49402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/CdCs2
 """,
@@ -49421,7 +49422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/H/CdCd
 """,
@@ -49441,7 +49442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/CdCdCs
 """,
@@ -49461,7 +49462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/H2/Ct
 """,
@@ -49481,7 +49482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/H/CtCs
 """,
@@ -49501,7 +49502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/CtCs2
 """,
@@ -49521,7 +49522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/H/CtCt
 """,
@@ -49541,7 +49542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/CtCtCs
 """,
@@ -49561,7 +49562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/H2/Cb
 """,
@@ -49581,7 +49582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/H/CbCs
 """,
@@ -49601,7 +49602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/CbCs2
 """,
@@ -49621,7 +49622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;Cd_pri_rad
 """,
@@ -49641,7 +49642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;Cd_rad/NonDeC
 """,
@@ -49661,7 +49662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;Cd_rad/Cd
 """,
@@ -49681,7 +49682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;Cb_rad
 """,
@@ -49701,7 +49702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;Cd_Cdd_rad/H
 """,
@@ -49721,7 +49722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/H2/S
 """,
@@ -49741,7 +49742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/H/CsS
 """,
@@ -49761,7 +49762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/Cs2S
 """,
@@ -49781,7 +49782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/H2/CS
 """,
@@ -49801,7 +49802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/H/CSCs
 """,
@@ -49821,7 +49822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/CSCs2
 """,
@@ -49841,7 +49842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;Cd_rad/NonDeS
 """,
@@ -49861,7 +49862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;Cd_rad/CS
 """,
@@ -49881,7 +49882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/H/CdS
 """,
@@ -49901,7 +49902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/CdCsS
 """,
@@ -49921,7 +49922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/H/CSS
 """,
@@ -49941,7 +49942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/CSCsS
 """,
@@ -49961,7 +49962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/H/CtS
 """,
@@ -49981,7 +49982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/H/CbS
 """,
@@ -50001,7 +50002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/CbCsS
 """,
@@ -50021,7 +50022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;CS_pri_rad
 """,
@@ -50041,7 +50042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;CS_rad/Cs
 """,
@@ -50061,7 +50062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;CS_rad/S
 """,
@@ -50081,7 +50082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;CS_rad/Cd
 """,
@@ -50101,7 +50102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;CS_rad/Ct
 """,
@@ -50121,7 +50122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;H_rad
 """,
@@ -50141,7 +50142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_methyl
 """,
@@ -50161,7 +50162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/H2/Cs
 """,
@@ -50181,7 +50182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/H/NonDeC
 """,
@@ -50201,7 +50202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/Cs3
 """,
@@ -50221,7 +50222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/H2/Cd
 """,
@@ -50241,7 +50242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/H/CdCs
 """,
@@ -50261,7 +50262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/CdCs2
 """,
@@ -50281,7 +50282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/H/CdCd
 """,
@@ -50301,7 +50302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/CdCdCs
 """,
@@ -50321,7 +50322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/H2/Ct
 """,
@@ -50341,7 +50342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/H/CtCs
 """,
@@ -50361,7 +50362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/CtCs2
 """,
@@ -50381,7 +50382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/H/CtCt
 """,
@@ -50401,7 +50402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/CtCtCs
 """,
@@ -50421,7 +50422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtS;Cd_rad/Ct
 """,
@@ -50441,7 +50442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/H2/Cb
 """,
@@ -50461,7 +50462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/H/CbCs
 """,
@@ -50481,7 +50482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/CbCs2
 """,
@@ -50501,7 +50502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;Cd_pri_rad
 """,
@@ -50521,7 +50522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;Cd_rad/NonDeC
 """,
@@ -50541,7 +50542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;Cd_rad/Cd
 """,
@@ -50561,7 +50562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;Cb_rad
 """,
@@ -50581,7 +50582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;Cd_Cdd_rad/H
 """,
@@ -50601,7 +50602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/H2/S
 """,
@@ -50621,7 +50622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/H/CsS
 """,
@@ -50641,7 +50642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/Cs2S
 """,
@@ -50661,7 +50662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/H2/CS
 """,
@@ -50681,7 +50682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/H/CSCs
 """,
@@ -50701,7 +50702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/CSCs2
 """,
@@ -50721,7 +50722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;Cd_rad/NonDeS
 """,
@@ -50741,7 +50742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;Cd_rad/CS
 """,
@@ -50761,7 +50762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/H/CdS
 """,
@@ -50781,7 +50782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/CdCsS
 """,
@@ -50801,7 +50802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/H/CSS
 """,
@@ -50821,7 +50822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/CSCsS
 """,
@@ -50841,7 +50842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/H/CtS
 """,
@@ -50861,7 +50862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/CtCsS
 """,
@@ -50881,7 +50882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/CbCsS
 """,
@@ -50901,7 +50902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;CS_pri_rad
 """,
@@ -50921,7 +50922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;CS_rad/Cs
 """,
@@ -50941,7 +50942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;CS_rad/S
 """,
@@ -50961,7 +50962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;CS_rad/Cd
 """,
@@ -50981,7 +50982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;CS_rad/Ct
 """,
@@ -51001,7 +51002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;H_rad
 """,
@@ -51021,7 +51022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_methyl
 """,
@@ -51041,7 +51042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/H2/Cs
 """,
@@ -51061,7 +51062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/H/NonDeC
 """,
@@ -51081,7 +51082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/Cs3
 """,
@@ -51101,7 +51102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/H2/Cd
 """,
@@ -51121,7 +51122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/H/CdCs
 """,
@@ -51141,7 +51142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/CdCs2
 """,
@@ -51161,7 +51162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/H/CdCd
 """,
@@ -51181,7 +51182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/CdCdCs
 """,
@@ -51201,7 +51202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/H2/Ct
 """,
@@ -51221,7 +51222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/H/CtCs
 """,
@@ -51241,7 +51242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/CtCs2
 """,
@@ -51261,7 +51262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/H/CtCt
 """,
@@ -51281,7 +51282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/CtCtCs
 """,
@@ -51301,7 +51302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/H2/Cb
 """,
@@ -51321,7 +51322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;Cd_rad/Ct
 """,
@@ -51341,7 +51342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/H/CbCs
 """,
@@ -51361,7 +51362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/CbCs2
 """,
@@ -51381,7 +51382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;Cd_pri_rad
 """,
@@ -51401,7 +51402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;Cd_rad/NonDeC
 """,
@@ -51421,7 +51422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;Cd_rad/Cd
 """,
@@ -51441,7 +51442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;Cb_rad
 """,
@@ -51461,7 +51462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;Cd_Cdd_rad/H
 """,
@@ -51481,7 +51482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/H2/S
 """,
@@ -51501,7 +51502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/H/CsS
 """,
@@ -51521,7 +51522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/Cs2S
 """,
@@ -51541,7 +51542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/H2/CS
 """,
@@ -51561,7 +51562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/H/CSCs
 """,
@@ -51581,7 +51582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/CSCs2
 """,
@@ -51601,7 +51602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;Cd_rad/NonDeS
 """,
@@ -51621,7 +51622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;Cd_rad/CS
 """,
@@ -51641,7 +51642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/H/CdS
 """,
@@ -51661,7 +51662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/CdCsS
 """,
@@ -51681,7 +51682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/H/CSS
 """,
@@ -51701,7 +51702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/CSCsS
 """,
@@ -51721,7 +51722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/H/CtS
 """,
@@ -51741,7 +51742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/CtCsS
 """,
@@ -51761,7 +51762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/H/CbS
 """,
@@ -51781,7 +51782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;CS_pri_rad
 """,
@@ -51801,7 +51802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;CS_rad/Cs
 """,
@@ -51821,7 +51822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;CS_rad/S
 """,
@@ -51841,7 +51842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;CS_rad/Cd
 """,
@@ -51861,7 +51862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;CS_rad/Ct
 """,
@@ -51881,7 +51882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;H_rad
 """,
@@ -51901,7 +51902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/H2/Cs
 """,
@@ -51921,7 +51922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/H/NonDeC
 """,
@@ -51941,7 +51942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/Cs3
 """,
@@ -51961,7 +51962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/H2/Cd
 """,
@@ -51981,7 +51982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/H/CdCs
 """,
@@ -52001,7 +52002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/CdCs2
 """,
@@ -52021,7 +52022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/H/CdCd
 """,
@@ -52041,7 +52042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/CdCdCs
 """,
@@ -52061,7 +52062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/H2/Ct
 """,
@@ -52081,7 +52082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/H/CtCs
 """,
@@ -52101,7 +52102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/CtCs2
 """,
@@ -52121,7 +52122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/H/CtCt
 """,
@@ -52141,7 +52142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/CtCtCs
 """,
@@ -52161,7 +52162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/H2/Cb
 """,
@@ -52181,7 +52182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/H/CbCs
 """,
@@ -52201,7 +52202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;Cd_rad/Ct
 """,
@@ -52221,7 +52222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/CbCs2
 """,
@@ -52241,7 +52242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;Cd_pri_rad
 """,
@@ -52261,7 +52262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;Cd_rad/NonDeC
 """,
@@ -52281,7 +52282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;Cd_rad/Cd
 """,
@@ -52301,7 +52302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;Cb_rad
 """,
@@ -52321,7 +52322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;Cd_Cdd_rad/H
 """,
@@ -52341,7 +52342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/H2/S
 """,
@@ -52361,7 +52362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/H/CsS
 """,
@@ -52381,7 +52382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/Cs2S
 """,
@@ -52401,7 +52402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/H2/CS
 """,
@@ -52421,7 +52422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/H/CSCs
 """,
@@ -52441,7 +52442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/CSCs2
 """,
@@ -52461,7 +52462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;Cd_rad/NonDeS
 """,
@@ -52481,7 +52482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;Cd_rad/CS
 """,
@@ -52501,7 +52502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/H/CdS
 """,
@@ -52521,7 +52522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/CdCsS
 """,
@@ -52541,7 +52542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/H/CSS
 """,
@@ -52561,7 +52562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/CSCsS
 """,
@@ -52581,7 +52582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/H/CtS
 """,
@@ -52601,7 +52602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/CtCsS
 """,
@@ -52621,7 +52622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/H/CbS
 """,
@@ -52641,7 +52642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;C_rad/CbCsS
 """,
@@ -52661,7 +52662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;CS_rad/Cs
 """,
@@ -52681,7 +52682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;CS_rad/S
 """,
@@ -52701,7 +52702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;CS_rad/Cd
 """,
@@ -52721,7 +52722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;CS_rad/Ct
 """,
@@ -52741,7 +52742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;H_rad
 """,
@@ -52761,7 +52762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_methyl
 """,
@@ -52781,7 +52782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/H/NonDeC
 """,
@@ -52801,7 +52802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/Cs3
 """,
@@ -52821,7 +52822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/H2/Cd
 """,
@@ -52841,7 +52842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/H/CdCs
 """,
@@ -52861,7 +52862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/CdCs2
 """,
@@ -52881,7 +52882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/H/CdCd
 """,
@@ -52901,7 +52902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/CdCdCs
 """,
@@ -52921,7 +52922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/H2/Ct
 """,
@@ -52941,7 +52942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/H/CtCs
 """,
@@ -52961,7 +52962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/CtCs2
 """,
@@ -52981,7 +52982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/H/CtCt
 """,
@@ -53001,7 +53002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/CtCtCs
 """,
@@ -53021,7 +53022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/H2/Cb
 """,
@@ -53041,7 +53042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/H/CbCs
 """,
@@ -53061,7 +53062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/CbCs2
 """,
@@ -53081,7 +53082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;Cd_rad/Ct
 """,
@@ -53101,7 +53102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;Cd_pri_rad
 """,
@@ -53121,7 +53122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;Cd_rad/NonDeC
 """,
@@ -53141,7 +53142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;Cd_rad/Cd
 """,
@@ -53161,7 +53162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;Cb_rad
 """,
@@ -53181,7 +53182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;Cd_Cdd_rad/H
 """,
@@ -53201,7 +53202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/H2/S
 """,
@@ -53221,7 +53222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/Cs2S
 """,
@@ -53241,7 +53242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/H2/CS
 """,
@@ -53261,7 +53262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/H/CSCs
 """,
@@ -53281,7 +53282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/CSCs2
 """,
@@ -53301,7 +53302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;Cd_rad/NonDeS
 """,
@@ -53321,7 +53322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;Cd_rad/CS
 """,
@@ -53341,7 +53342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/H/CdS
 """,
@@ -53361,7 +53362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/CdCsS
 """,
@@ -53381,7 +53382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/H/CSS
 """,
@@ -53401,7 +53402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/CSCsS
 """,
@@ -53421,7 +53422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/H/CtS
 """,
@@ -53441,7 +53442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/CtCsS
 """,
@@ -53461,7 +53462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/H/CbS
 """,
@@ -53481,7 +53482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;C_rad/CbCsS
 """,
@@ -53501,7 +53502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;CS_pri_rad
 """,
@@ -53521,7 +53522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;CS_rad/S
 """,
@@ -53541,7 +53542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;CS_rad/Cd
 """,
@@ -53561,7 +53562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;CS_rad/Ct
 """,
@@ -53581,7 +53582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;H_rad
 """,
@@ -53601,7 +53602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_methyl
 """,
@@ -53621,7 +53622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/H2/Cs
 """,
@@ -53641,7 +53642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/H/NonDeC
 """,
@@ -53661,7 +53662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/Cs3
 """,
@@ -53681,7 +53682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/H2/Cd
 """,
@@ -53701,7 +53702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/H/CdCs
 """,
@@ -53721,7 +53722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/CdCs2
 """,
@@ -53741,7 +53742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/H/CdCd
 """,
@@ -53761,7 +53762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/CdCdCs
 """,
@@ -53781,7 +53782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/H2/Ct
 """,
@@ -53801,7 +53802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/H/CtCs
 """,
@@ -53821,7 +53822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/CtCs2
 """,
@@ -53841,7 +53842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/H/CtCt
 """,
@@ -53861,7 +53862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/CtCtCs
 """,
@@ -53881,7 +53882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/H2/Cb
 """,
@@ -53901,7 +53902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/H/CbCs
 """,
@@ -53921,7 +53922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/CbCs2
 """,
@@ -53941,7 +53942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;Cd_pri_rad
 """,
@@ -53961,7 +53962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS_pri;Cd_rad/Ct
 """,
@@ -53981,7 +53982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;Cd_rad/NonDeC
 """,
@@ -54001,7 +54002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;Cd_rad/Cd
 """,
@@ -54021,7 +54022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;Cb_rad
 """,
@@ -54041,7 +54042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;Cd_Cdd_rad/H
 """,
@@ -54061,7 +54062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/H2/S
 """,
@@ -54081,7 +54082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/H/CsS
 """,
@@ -54101,7 +54102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/Cs2S
 """,
@@ -54121,7 +54122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/H2/CS
 """,
@@ -54141,7 +54142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/H/CSCs
 """,
@@ -54161,7 +54162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/CSCs2
 """,
@@ -54181,7 +54182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;Cd_rad/NonDeS
 """,
@@ -54201,7 +54202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;Cd_rad/CS
 """,
@@ -54221,7 +54222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/H/CdS
 """,
@@ -54241,7 +54242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/CdCsS
 """,
@@ -54261,7 +54262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/H/CSS
 """,
@@ -54281,7 +54282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/CSCsS
 """,
@@ -54301,7 +54302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/H/CtS
 """,
@@ -54321,7 +54322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/CtCsS
 """,
@@ -54341,7 +54342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/H/CbS
 """,
@@ -54361,7 +54362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/CbCsS
 """,
@@ -54381,7 +54382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;CS_pri_rad
 """,
@@ -54401,7 +54402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;CS_rad/Cs
 """,
@@ -54421,7 +54422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;CS_rad/Cd
 """,
@@ -54441,7 +54442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;CS_rad/Ct
 """,
@@ -54461,7 +54462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;H_rad
 """,
@@ -54481,7 +54482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_methyl
 """,
@@ -54501,7 +54502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/H2/Cs
 """,
@@ -54521,7 +54522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/H/NonDeC
 """,
@@ -54541,7 +54542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/Cs3
 """,
@@ -54561,7 +54562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/H2/Cd
 """,
@@ -54581,7 +54582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/H/CdCs
 """,
@@ -54601,7 +54602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/CdCs2
 """,
@@ -54621,7 +54622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/H/CdCd
 """,
@@ -54641,7 +54642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/CdCdCs
 """,
@@ -54661,7 +54662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/H2/Ct
 """,
@@ -54681,7 +54682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/H/CtCs
 """,
@@ -54701,7 +54702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/CtCs2
 """,
@@ -54721,7 +54722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/H/CtCt
 """,
@@ -54741,7 +54742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/CtCtCs
 """,
@@ -54761,7 +54762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/H2/Cb
 """,
@@ -54781,7 +54782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/H/CbCs
 """,
@@ -54801,7 +54802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/CbCs2
 """,
@@ -54821,7 +54822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;Cd_pri_rad
 """,
@@ -54841,7 +54842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;Cd_rad/NonDeC
 """,
@@ -54861,7 +54862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeC;Cd_rad/Ct
 """,
@@ -54881,7 +54882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;Cd_rad/Cd
 """,
@@ -54901,7 +54902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;Cb_rad
 """,
@@ -54921,7 +54922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;Cd_Cdd_rad/H
 """,
@@ -54941,7 +54942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/H2/S
 """,
@@ -54961,7 +54962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/H/CsS
 """,
@@ -54981,7 +54982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/Cs2S
 """,
@@ -55001,7 +55002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/H2/CS
 """,
@@ -55021,7 +55022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/H/CSCs
 """,
@@ -55041,7 +55042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/CSCs2
 """,
@@ -55061,7 +55062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;Cd_rad/NonDeS
 """,
@@ -55081,7 +55082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;Cd_rad/CS
 """,
@@ -55101,7 +55102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/H/CdS
 """,
@@ -55121,7 +55122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/CdCsS
 """,
@@ -55141,7 +55142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/H/CSS
 """,
@@ -55161,7 +55162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/CSCsS
 """,
@@ -55181,7 +55182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/H/CtS
 """,
@@ -55201,7 +55202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/CtCsS
 """,
@@ -55221,7 +55222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/H/CbS
 """,
@@ -55241,7 +55242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;C_rad/CbCsS
 """,
@@ -55261,7 +55262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;CS_pri_rad
 """,
@@ -55281,7 +55282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;CS_rad/Cs
 """,
@@ -55301,7 +55302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;CS_rad/S
 """,
@@ -55321,7 +55322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;CS_rad/Ct
 """,
@@ -55341,7 +55342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;H_rad
 """,
@@ -55361,7 +55362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_methyl
 """,
@@ -55381,7 +55382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/H2/Cs
 """,
@@ -55401,7 +55402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/H/NonDeC
 """,
@@ -55421,7 +55422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/Cs3
 """,
@@ -55441,7 +55442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/H2/Cd
 """,
@@ -55461,7 +55462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/H/CdCs
 """,
@@ -55481,7 +55482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/CdCs2
 """,
@@ -55501,7 +55502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/H/CdCd
 """,
@@ -55521,7 +55522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/CdCdCs
 """,
@@ -55541,7 +55542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/H2/Ct
 """,
@@ -55561,7 +55562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/H/CtCs
 """,
@@ -55581,7 +55582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/CtCs2
 """,
@@ -55601,7 +55602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/H/CtCt
 """,
@@ -55621,7 +55622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/CtCtCs
 """,
@@ -55641,7 +55642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/H2/Cb
 """,
@@ -55661,7 +55662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/H/CbCs
 """,
@@ -55681,7 +55682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/CbCs2
 """,
@@ -55701,7 +55702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;Cd_pri_rad
 """,
@@ -55721,7 +55722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;Cd_rad/NonDeC
 """,
@@ -55741,7 +55742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;Cd_rad/Cd
 """,
@@ -55761,7 +55762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;Cd_rad/Ct
 """,
@@ -55781,7 +55782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;Cb_rad
 """,
@@ -55801,7 +55802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;Cd_Cdd_rad/H
 """,
@@ -55821,7 +55822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/H2/S
 """,
@@ -55841,7 +55842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/H/CsS
 """,
@@ -55861,7 +55862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/Cs2S
 """,
@@ -55881,7 +55882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/H2/CS
 """,
@@ -55901,7 +55902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/H/CSCs
 """,
@@ -55921,7 +55922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/CSCs2
 """,
@@ -55941,7 +55942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;Cd_rad/NonDeS
 """,
@@ -55961,7 +55962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;Cd_rad/CS
 """,
@@ -55981,7 +55982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/H/CdS
 """,
@@ -56001,7 +56002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/CdCsS
 """,
@@ -56021,7 +56022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/H/CSS
 """,
@@ -56041,7 +56042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/CSCsS
 """,
@@ -56061,7 +56062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/H/CtS
 """,
@@ -56081,7 +56082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/CtCsS
 """,
@@ -56101,7 +56102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/H/CbS
 """,
@@ -56121,7 +56122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;C_rad/CbCsS
 """,
@@ -56141,7 +56142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;CS_pri_rad
 """,
@@ -56161,7 +56162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;CS_rad/Cs
 """,
@@ -56181,7 +56182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;CS_rad/S
 """,
@@ -56201,7 +56202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;CS_rad/Cd
 """,
@@ -56221,7 +56222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Cd;Cd_rad/Ct
 """,
@@ -56241,7 +56242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;H_rad
 """,
@@ -56261,7 +56262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_methyl
 """,
@@ -56281,7 +56282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/H2/Cs
 """,
@@ -56301,7 +56302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/Ct;Cd_rad/Ct
 """,
@@ -56321,7 +56322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/H/NonDeC
 """,
@@ -56341,7 +56342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/Cs3
 """,
@@ -56361,7 +56362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;Cd_pri_rad
 """,
@@ -56381,7 +56382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;Cd_rad/NonDeC
 """,
@@ -56401,7 +56402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;Cd_rad/Cd
 """,
@@ -56421,7 +56422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;Cd_rad/Ct
 """,
@@ -56441,7 +56442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/H2/Cd
 """,
@@ -56461,7 +56462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/H/CdCs
 """,
@@ -56481,7 +56482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/CdCs2
 """,
@@ -56501,7 +56502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/H/CdCd
 """,
@@ -56521,7 +56522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/CdCdCs
 """,
@@ -56541,7 +56542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/H2/Ct
 """,
@@ -56561,7 +56562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/H/CtCs
 """,
@@ -56581,7 +56582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/CtCs2
 """,
@@ -56601,7 +56602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/H/CtCt
 """,
@@ -56621,7 +56622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/CtCtCs
 """,
@@ -56641,7 +56642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;Cb_rad
 """,
@@ -56661,7 +56662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/H2/Cb
 """,
@@ -56681,7 +56682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/H/CbCs
 """,
@@ -56701,7 +56702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/CbCs2
 """,
@@ -56721,7 +56722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/H2/S
 """,
@@ -56741,7 +56742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/H/CsS
 """,
@@ -56761,7 +56762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/Cs2S
 """,
@@ -56781,7 +56782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/H2/CS
 """,
@@ -56801,7 +56802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/H/CSCs
 """,
@@ -56821,7 +56822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/CSCs2
 """,
@@ -56841,7 +56842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;Cd_rad/NonDeS
 """,
@@ -56861,7 +56862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;Cd_rad/CS
 """,
@@ -56881,7 +56882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/H/CdS
 """,
@@ -56901,7 +56902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/CdCsS
 """,
@@ -56921,7 +56922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/H/CSS
 """,
@@ -56941,7 +56942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/CSCsS
 """,
@@ -56961,7 +56962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/H/CtS
 """,
@@ -56981,7 +56982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/CtCsS
 """,
@@ -57001,7 +57002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/H/CbS
 """,
@@ -57021,7 +57022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;C_rad/CbCsS
 """,
@@ -57041,7 +57042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;CS_pri_rad
 """,
@@ -57061,7 +57062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;CS_rad/Cs
 """,
@@ -57081,7 +57082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;CS_rad/S
 """,
@@ -57101,7 +57102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;H_rad
 """,
@@ -57121,7 +57122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_methyl
 """,
@@ -57141,7 +57142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/H2/Cs
 """,
@@ -57161,7 +57162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/H/NonDeC
 """,
@@ -57181,7 +57182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/Cs3
 """,
@@ -57201,7 +57202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;Cd_pri_rad
 """,
@@ -57221,7 +57222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;Cd_rad/NonDeC
 """,
@@ -57241,7 +57242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;Cd_rad/Cd
 """,
@@ -57261,7 +57262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;Cd_rad/Ct
 """,
@@ -57281,7 +57282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/H2/Cd
 """,
@@ -57301,7 +57302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/H/CdCs
 """,
@@ -57321,7 +57322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/CdCs2
 """,
@@ -57341,7 +57342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/H/CdCd
 """,
@@ -57361,7 +57362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/CdCdCs
 """,
@@ -57381,7 +57382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/H2/Ct
 """,
@@ -57401,7 +57402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/H/CtCs
 """,
@@ -57421,7 +57422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/CtCs2
 """,
@@ -57441,7 +57442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/H/CtCt
 """,
@@ -57461,7 +57462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/CtCtCs
 """,
@@ -57481,7 +57482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;Cb_rad
 """,
@@ -57501,7 +57502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/H2/Cb
 """,
@@ -57521,7 +57522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/H/CbCs
 """,
@@ -57541,7 +57542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/CbCs2
 """,
@@ -57561,7 +57562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/H2/S
 """,
@@ -57581,7 +57582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/H/CsS
 """,
@@ -57601,7 +57602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/Cs2S
 """,
@@ -57621,7 +57622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/H2/CS
 """,
@@ -57641,7 +57642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/H/CSCs
 """,
@@ -57661,7 +57662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/CSCs2
 """,
@@ -57681,7 +57682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;Cd_rad/NonDeS
 """,
@@ -57701,7 +57702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;Cd_rad/CS
 """,
@@ -57721,7 +57722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/H/CdS
 """,
@@ -57741,7 +57742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/CdCsS
 """,
@@ -57761,7 +57762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/H/CSS
 """,
@@ -57781,7 +57782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/CSCsS
 """,
@@ -57801,7 +57802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/H/CtS
 """,
@@ -57821,7 +57822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/CtCsS
 """,
@@ -57841,7 +57842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/H/CbS
 """,
@@ -57861,7 +57862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;C_rad/CbCsS
 """,
@@ -57881,7 +57882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;CS_rad/Cs
 """,
@@ -57901,7 +57902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;CS_rad/S
 """,
@@ -57921,7 +57922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;H_rad
 """,
@@ -57941,7 +57942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_methyl
 """,
@@ -57961,7 +57962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/H2/Cs
 """,
@@ -57981,7 +57982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/H/NonDeC
 """,
@@ -58001,7 +58002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/Cs3
 """,
@@ -58021,7 +58022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;Cd_pri_rad
 """,
@@ -58041,7 +58042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;Cd_rad/NonDeC
 """,
@@ -58061,7 +58062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;Cd_rad/Cd
 """,
@@ -58081,7 +58082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;Cd_rad/Ct
 """,
@@ -58101,7 +58102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/H2/Cd
 """,
@@ -58121,7 +58122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/H/CdCs
 """,
@@ -58141,7 +58142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/CdCs2
 """,
@@ -58161,7 +58162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/H/CdCd
 """,
@@ -58181,7 +58182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/CdCdCs
 """,
@@ -58201,7 +58202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/H2/Ct
 """,
@@ -58221,7 +58222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/H/CtCs
 """,
@@ -58241,7 +58242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/CtCs2
 """,
@@ -58261,7 +58262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/H/CtCt
 """,
@@ -58281,7 +58282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/CtCtCs
 """,
@@ -58301,7 +58302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;Cb_rad
 """,
@@ -58321,7 +58322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/H2/Cb
 """,
@@ -58341,7 +58342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/H/CbCs
 """,
@@ -58361,7 +58362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/CbCs2
 """,
@@ -58381,7 +58382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/H2/S
 """,
@@ -58401,7 +58402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/H/CsS
 """,
@@ -58421,7 +58422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/Cs2S
 """,
@@ -58441,7 +58442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/H2/CS
 """,
@@ -58461,7 +58462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/H/CSCs
 """,
@@ -58481,7 +58482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/CSCs2
 """,
@@ -58501,7 +58502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;Cd_rad/NonDeS
 """,
@@ -58521,7 +58522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;Cd_rad/CS
 """,
@@ -58541,7 +58542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/H/CdS
 """,
@@ -58561,7 +58562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/CdCsS
 """,
@@ -58581,7 +58582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/H/CSS
 """,
@@ -58601,7 +58602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/CSCsS
 """,
@@ -58621,7 +58622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/H/CtS
 """,
@@ -58641,7 +58642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/CtCsS
 """,
@@ -58661,7 +58662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/H/CbS
 """,
@@ -58681,7 +58682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/CbCsS
 """,
@@ -58701,7 +58702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;CS_pri_rad
 """,
@@ -58721,7 +58722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;CS_rad/Cs
 """,
@@ -58741,7 +58742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;CS_rad/S
 """,
@@ -58761,7 +58762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;H_rad
 """,
@@ -58781,7 +58782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_methyl
 """,
@@ -58801,7 +58802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/H2/Cs
 """,
@@ -58821,7 +58822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/H/NonDeC
 """,
@@ -58841,7 +58842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/Cs3
 """,
@@ -58861,7 +58862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;Cd_pri_rad
 """,
@@ -58881,7 +58882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;Cd_rad/NonDeC
 """,
@@ -58901,7 +58902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;Cd_rad/Cd
 """,
@@ -58921,7 +58922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;Cd_rad/Ct
 """,
@@ -58941,7 +58942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/H2/Cd
 """,
@@ -58961,7 +58962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/H/CdCs
 """,
@@ -58981,7 +58982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/CdCs2
 """,
@@ -59001,7 +59002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/H/CdCd
 """,
@@ -59021,7 +59022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/CdCdCs
 """,
@@ -59041,7 +59042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/H2/Ct
 """,
@@ -59061,7 +59062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/H/CtCs
 """,
@@ -59081,7 +59082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/CtCs2
 """,
@@ -59101,7 +59102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/H/CtCt
 """,
@@ -59121,7 +59122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/CtCtCs
 """,
@@ -59141,7 +59142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;Cb_rad
 """,
@@ -59161,7 +59162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/H2/Cb
 """,
@@ -59181,7 +59182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/H/CbCs
 """,
@@ -59201,7 +59202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/CbCs2
 """,
@@ -59221,7 +59222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/H2/S
 """,
@@ -59241,7 +59242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/H/CsS
 """,
@@ -59261,7 +59262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/Cs2S
 """,
@@ -59281,7 +59282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/H2/CS
 """,
@@ -59301,7 +59302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/H/CSCs
 """,
@@ -59321,7 +59322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/CSCs2
 """,
@@ -59341,7 +59342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;Cd_rad/NonDeS
 """,
@@ -59361,7 +59362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;Cd_rad/CS
 """,
@@ -59381,7 +59382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/H/CdS
 """,
@@ -59401,7 +59402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/CdCsS
 """,
@@ -59421,7 +59422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/H/CSS
 """,
@@ -59441,7 +59442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/CSCsS
 """,
@@ -59461,7 +59462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/H/CtS
 """,
@@ -59481,7 +59482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/CtCsS
 """,
@@ -59501,7 +59502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/H/CbS
 """,
@@ -59521,7 +59522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/CbCsS
 """,
@@ -59541,7 +59542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;CS_pri_rad
 """,
@@ -59561,7 +59562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;CS_rad/Cs
 """,
@@ -59581,7 +59582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;CS_rad/S
 """,
@@ -59601,7 +59602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;H_rad
 """,
@@ -59621,7 +59622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_methyl
 """,
@@ -59641,7 +59642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/H2/Cs
 """,
@@ -59661,7 +59662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/H/NonDeC
 """,
@@ -59681,7 +59682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/Cs3
 """,
@@ -59701,7 +59702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;Cd_pri_rad
 """,
@@ -59721,7 +59722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;Cd_rad/NonDeC
 """,
@@ -59741,7 +59742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;Cd_rad/Cd
 """,
@@ -59761,7 +59762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;Cd_rad/Ct
 """,
@@ -59781,7 +59782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/H2/Cd
 """,
@@ -59801,7 +59802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/H/CdCs
 """,
@@ -59821,7 +59822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/CdCs2
 """,
@@ -59841,7 +59842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/H/CdCd
 """,
@@ -59861,7 +59862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/CdCdCs
 """,
@@ -59881,7 +59882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/H2/Ct
 """,
@@ -59901,7 +59902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/H/CtCs
 """,
@@ -59921,7 +59922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/CtCs2
 """,
@@ -59941,7 +59942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/H/CtCt
 """,
@@ -59961,7 +59962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/CtCtCs
 """,
@@ -59981,7 +59982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;Cb_rad
 """,
@@ -60001,7 +60002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/H2/Cb
 """,
@@ -60021,7 +60022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/H/CbCs
 """,
@@ -60041,7 +60042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/CbCs2
 """,
@@ -60061,7 +60062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/H2/S
 """,
@@ -60081,7 +60082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/H/CsS
 """,
@@ -60101,7 +60102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/Cs2S
 """,
@@ -60121,7 +60122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/H2/CS
 """,
@@ -60141,7 +60142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/H/CSCs
 """,
@@ -60161,7 +60162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;C_rad/CSCs2
 """,
@@ -60181,7 +60182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;Cd_rad/NonDeS
 """,
@@ -60201,7 +60202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;Cd_rad/CS
 """,
@@ -60221,7 +60222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;H_rad
 """,
@@ -60241,7 +60242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_methyl
 """,
@@ -60261,7 +60262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/H2/Cs
 """,
@@ -60281,7 +60282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/H/NonDeC
 """,
@@ -60301,7 +60302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/Cs3
 """,
@@ -60321,7 +60322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;Cd_pri_rad
 """,
@@ -60341,7 +60342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;Cd_rad/NonDeC
 """,
@@ -60361,7 +60362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;Cd_rad/Cd
 """,
@@ -60381,7 +60382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;Cd_rad/Ct
 """,
@@ -60401,7 +60402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/H2/Cd
 """,
@@ -60421,7 +60422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/H/CdCs
 """,
@@ -60441,7 +60442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/CdCs2
 """,
@@ -60461,7 +60462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/H/CdCd
 """,
@@ -60481,7 +60482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/CdCdCs
 """,
@@ -60501,7 +60502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/H2/Ct
 """,
@@ -60521,7 +60522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/H/CtCs
 """,
@@ -60541,7 +60542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/CtCs2
 """,
@@ -60561,7 +60562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/H/CtCt
 """,
@@ -60581,7 +60582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/CtCtCs
 """,
@@ -60601,7 +60602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;Cb_rad
 """,
@@ -60621,7 +60622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/H2/Cb
 """,
@@ -60641,7 +60642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/H/CbCs
 """,
@@ -60661,7 +60662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/CbCs2
 """,
@@ -60681,7 +60682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/H2/S
 """,
@@ -60701,7 +60702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/H/CsS
 """,
@@ -60721,7 +60722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/Cs2S
 """,
@@ -60741,7 +60742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/H2/CS
 """,
@@ -60761,7 +60762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/H/CSCs
 """,
@@ -60781,7 +60782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/CSCs2
 """,
@@ -60801,7 +60802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;Cd_rad/NonDeS
 """,
@@ -60821,7 +60822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;Cd_rad/CS
 """,
@@ -60841,7 +60842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/H/CdS
 """,
@@ -60861,7 +60862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/CdCsS
 """,
@@ -60881,7 +60882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/H/CSS
 """,
@@ -60901,7 +60902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/CSCsS
 """,
@@ -60921,7 +60922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/H/CtS
 """,
@@ -60941,7 +60942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/CtCsS
 """,
@@ -60961,7 +60962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/H/CbS
 """,
@@ -60981,7 +60982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;C_rad/CbCsS
 """,
@@ -61001,7 +61002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;CS_pri_rad
 """,
@@ -61021,7 +61022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;CS_rad/Cs
 """,
@@ -61041,7 +61042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;CS_rad/S
 """,
@@ -61061,7 +61062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;H_rad
 """,
@@ -61081,7 +61082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_methyl
 """,
@@ -61101,7 +61102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/H2/Cs
 """,
@@ -61121,7 +61122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/H/NonDeC
 """,
@@ -61141,7 +61142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/Cs3
 """,
@@ -61161,7 +61162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;Cd_pri_rad
 """,
@@ -61181,7 +61182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;Cd_rad/NonDeC
 """,
@@ -61201,7 +61202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;Cd_rad/Cd
 """,
@@ -61221,7 +61222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;Cd_rad/Ct
 """,
@@ -61241,7 +61242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/H2/Cd
 """,
@@ -61261,7 +61262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/H/CdCs
 """,
@@ -61281,7 +61282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/CdCs2
 """,
@@ -61301,7 +61302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/H/CdCd
 """,
@@ -61321,7 +61322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/CdCdCs
 """,
@@ -61341,7 +61342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/H2/Ct
 """,
@@ -61361,7 +61362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/H/CtCs
 """,
@@ -61381,7 +61382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/CtCs2
 """,
@@ -61401,7 +61402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/H/CtCt
 """,
@@ -61421,7 +61422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/CtCtCs
 """,
@@ -61441,7 +61442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;Cb_rad
 """,
@@ -61461,7 +61462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/H2/Cb
 """,
@@ -61481,7 +61482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/H/CbCs
 """,
@@ -61501,7 +61502,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/CbCs2
 """,
@@ -61521,7 +61522,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/H2/S
 """,
@@ -61541,7 +61542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/H/CsS
 """,
@@ -61561,7 +61562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/Cs2S
 """,
@@ -61581,7 +61582,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/H2/CS
 """,
@@ -61601,7 +61602,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/H/CSCs
 """,
@@ -61621,7 +61622,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/CSCs2
 """,
@@ -61641,7 +61642,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;Cd_rad/NonDeS
 """,
@@ -61661,7 +61662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;Cd_rad/CS
 """,
@@ -61681,7 +61682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/H/CdS
 """,
@@ -61701,7 +61702,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/CdCsS
 """,
@@ -61721,7 +61722,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/H/CSS
 """,
@@ -61741,7 +61742,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/CSCsS
 """,
@@ -61761,7 +61762,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/H/CtS
 """,
@@ -61781,7 +61782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/CtCsS
 """,
@@ -61801,7 +61802,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/H/CbS
 """,
@@ -61821,7 +61822,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/CbCsS
 """,
@@ -61841,7 +61842,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;CS_pri_rad
 """,
@@ -61861,7 +61862,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;CS_rad/Cs
 """,
@@ -61881,7 +61882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;CS_rad/S
 """,
@@ -61901,7 +61902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;S_rad/NonDeC
 """,
@@ -61921,7 +61922,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;S_rad/Cd
 """,
@@ -61941,7 +61942,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;S_rad/Ct
 """,
@@ -61961,7 +61962,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;S_rad/Cb
 """,
@@ -61981,7 +61982,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;S_rad/NonDeS
 """,
@@ -62001,7 +62002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;S_pri_rad
 """,
@@ -62021,7 +62022,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;S_rad/Cd
 """,
@@ -62041,7 +62042,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;S_rad/Ct
 """,
@@ -62061,7 +62062,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;S_rad/Cb
 """,
@@ -62081,7 +62082,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;S_rad/NonDeS
 """,
@@ -62101,7 +62102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;S_pri_rad
 """,
@@ -62121,7 +62122,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;S_rad/NonDeC
 """,
@@ -62141,7 +62142,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;S_rad/Ct
 """,
@@ -62161,7 +62162,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;S_rad/Cb
 """,
@@ -62181,7 +62182,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;S_rad/NonDeS
 """,
@@ -62201,7 +62202,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;S_pri_rad
 """,
@@ -62221,7 +62222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;S_rad/NonDeC
 """,
@@ -62241,7 +62242,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;S_rad/Cd
 """,
@@ -62261,7 +62262,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;S_rad/Cb
 """,
@@ -62281,7 +62282,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;S_rad/NonDeS
 """,
@@ -62301,7 +62302,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;S_pri_rad
 """,
@@ -62321,7 +62322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;S_rad/NonDeC
 """,
@@ -62341,7 +62342,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;S_rad/Cd
 """,
@@ -62361,7 +62362,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;S_rad/Ct
 """,
@@ -62381,7 +62382,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;S_rad/NonDeS
 """,
@@ -62401,7 +62402,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;S_pri_rad
 """,
@@ -62421,7 +62422,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;S_rad/NonDeC
 """,
@@ -62441,7 +62442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;S_rad/Cd
 """,
@@ -62461,7 +62462,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;S_rad/Ct
 """,
@@ -62481,7 +62482,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;S_rad/Cb
 """,
@@ -62501,7 +62502,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CBS-QB3 (RRHO), SSM""",
-    longDesc = 
+    longDesc =
 u"""
 SSM CBS-QB3 calculations for propargyl + vinylalcohol (RRHO approximation)
 
@@ -62523,7 +62524,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CBS-QB3 (RRHO), SSM""",
-    longDesc = 
+    longDesc =
 u"""
 SSM CBS-QB3 calculations for propargyl + vinylalcohol (RRHO approximation)
 
@@ -62545,7 +62546,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""NIST SSM""",
-    longDesc = 
+    longDesc =
 u"""
 NIST CH3CHO + OH = CH3CO + H2O rate coefficient ref: DOI: 10.1016/S0082-0784(96)80252-9
 Most estimates seem to be  ~ 3E+12 for 200-350 K range
@@ -62568,7 +62569,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CCSD(T)/CBS//M08-HX/maug-cc-pVTZ MSTOR""",
-    longDesc = 
+    longDesc =
 u"""
 ref: Role of conformational structures and torsional anharmonicity in controlling chemical reaction rates and
 relative yields: butanal + HO2 reactions
@@ -62592,7 +62593,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CCSD(T)/CBS//M08-HX/maug-cc-pVTZ MSTOR""",
-    longDesc = 
+    longDesc =
 u"""
 ref: Role of conformational structures and torsional anharmonicity in controlling chemical reaction rates and
 relative yields: butanal + HO2 reactions
@@ -62616,7 +62617,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CCSD(T)/CBS//M08-HX/maug-cc-pVTZ MSTOR""",
-    longDesc = 
+    longDesc =
 u"""
 ref: Role of conformational structures and torsional anharmonicity in controlling chemical reaction rates and
 relative yields: butanal + HO2 reactions
@@ -62640,7 +62641,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Same as C_rad/H/Cs\H2\CO/Cs H2O2""",
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)/CBS//M08-HX/maug-cc-pVTZ MSTOR.
 ref: Role of conformational structures and torsional anharmonicity in controlling chemical reaction rates and
@@ -62665,7 +62666,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CCSD(T)/6-311++G(d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Kinetics of Hydrogen Abstraction Reactions of Butene Isomers by OH Radical
 s-allylic site from 1-Butene + OH ref: DOI: 10.1021/jp1062786
@@ -62688,7 +62689,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CCSD(T)/6-311++G(d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Kinetics of Hydrogen Abstraction Reactions of Butene Isomers by OH Radical
 p-allylic site of 2-butene ref: DOI: 10.1021/jp1062786
@@ -62711,7 +62712,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CCSD(T)/6-311++G(d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 Kinetics of Hydrogen Abstraction Reactions of Butene Isomers by OH Radical
 p-allylic site of iso-butene ref: DOI: 10.1021/jp1062786
@@ -62734,7 +62735,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Dean, A. M. [118]""",
-    longDesc = 
+    longDesc =
 u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 
@@ -62758,7 +62759,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Masgrau et al. [141] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [141] Masgrau, L.; Gonzalez-Lafont, A.; Lluch, J.M. J. Phys. Chem. A. 1999, 103, 1044.
 H2O + OH --> OH + H2O . C.D.W refitted their k(T) to get A, n, and Ea, and divided original rate expression by 2, to get rate expression per H atom.
@@ -62793,7 +62794,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations, see node 536.""",
-    longDesc = 
+    longDesc =
 u"""
 Rxn family nodes: H2O2 + O_rad/NonDeO
 
@@ -62820,7 +62821,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -62842,7 +62843,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -62864,7 +62865,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -62886,7 +62887,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -62908,7 +62909,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -62930,7 +62931,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -62952,7 +62953,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -62974,7 +62975,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -62996,7 +62997,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63018,7 +63019,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63040,7 +63041,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63062,7 +63063,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63084,7 +63085,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63106,7 +63107,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63128,7 +63129,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63150,7 +63151,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cb;C_rad/H2/Cb
 """,
@@ -63170,7 +63171,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbCs;C_rad/H/CbCs
 """,
@@ -63190,7 +63191,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cb;C_rad/CbCs2
 """,
@@ -63210,7 +63211,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63232,7 +63233,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63254,7 +63255,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63276,7 +63277,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;Cb_rad
 """,
@@ -63296,7 +63297,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63318,7 +63319,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63340,7 +63341,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63362,7 +63363,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63384,7 +63385,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63406,7 +63407,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63428,7 +63429,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63450,7 +63451,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63472,7 +63473,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63494,7 +63495,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63516,7 +63517,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63538,7 +63539,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63560,7 +63561,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63582,7 +63583,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63604,7 +63605,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63626,7 +63627,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CbS;C_rad/H/CbS
 """,
@@ -63646,7 +63647,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/CbCsS
 """,
@@ -63666,7 +63667,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63688,7 +63689,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63710,7 +63711,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63732,7 +63733,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63754,7 +63755,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63776,7 +63777,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63798,7 +63799,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63820,7 +63821,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63842,7 +63843,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -63864,7 +63865,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;S_rad/Cb
 """,
@@ -63884,14 +63885,14 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
 Converted to training reaction from rate rule: S/H/NonDeS;S_rad/NonDeS
 """,
 )
-    
+
 entry(
     index = 3073,
     label = "NO3 + C3H4 <=> C3H3-2_p + HNO3_p",
@@ -63906,14 +63907,14 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
 Converted to training reaction manually from rate rule: C/H3/Ct;InChI=1S/NO3/c2-1(3)4
 """,
 )
-    
+
 entry(
     index = 3074,
     label = "HNO2 + H <=> H2_p + NO2_p",
@@ -63928,7 +63929,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser, value for reaction: HNO2 + H = H2 + NO2 (B&D #41a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction manually from rate rule: N5dc/H/NonDeOO;H_rad
 """,
@@ -63948,12 +63949,12 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser, value for reaction: HNO2 + O = OH + NO2 (B&D #41b) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction manually from rate rule: N5dc/H/NonDeOO;O_atom_triplet
 """,
 )
-    
+
 entry(
     index = 3076,
     label = "HNO2 + OH <=> H2O_p + NO2_p",
@@ -63968,12 +63969,12 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser, value for reaction: HNO2 + OH = H2O + NO2 (B&D #41c) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction manually from rate rule: N5dc/H/NonDeOO;O_pri_rad
 """,
 )
-    
+
 entry(
     index = 3077,
     label = "HNO2 + CH3_r3 <=> CH4b + NO2_p",
@@ -63988,12 +63989,12 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Added by Beat Buesser, value for reaction: HNO2 + CH3 = NO2 + CH4 (B&D #41d) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction manually from rate rule: N5dc/H/NonDeOO;C_methyl
 """,
 )
-    
+
 entry(
     index = 3078,
     label = "HNO2 + NH2_r3 <=> NH3_p23 + NO2_p",
@@ -64007,8 +64008,8 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 1,
-    shortDesc = u"""Added by Beat Buesser, value for reaction: HNO2 + NH2 = NO2 + NH3 (B&D #413) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
-    longDesc = 
+    shortDesc = u"""Added by Beat Buesser, value for reaction: HNO2 + NH2_r3 = NO2 + NH3 (B&D #413) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli""",
+    longDesc =
 u"""
 Converted to training reaction manually from rate rule: N5dc/H/NonDeOO;NH2_rad
 """,
