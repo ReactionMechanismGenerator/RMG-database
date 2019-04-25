@@ -25,14 +25,20 @@ recipe(actions=[
 entry(
     index = 0,
     label = "Y_rad_birad_trirad_quadrad",
-    group = "OR{Y_1centerquadrad, Y_1centertrirad, Y_2centerbirad, Y_1centerbirad, Y_rad}",
+    group = """
+1 *1 R u[1,2,3,4]
+""",
     kinetics = None,
 )
 
 entry(
     index = 1,
     label = "XH_Rrad_birad",
-    group = "OR{XH_Rrad, XH_Rbirad}",
+    group = """
+1 *2 R!H u0 {2,[S,D,B]} {3,S}
+2 *3 R!H u[1,2] {1,[S,D,B]}
+3 *4 H   u0 {1,S}
+""",
     kinetics = None,
 )
 
