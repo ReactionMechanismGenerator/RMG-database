@@ -24,7 +24,11 @@ boundaryAtoms = ["*1", "*2"]
 entry(
     index = 0,
     label = "Rn",
-    group = "OR{R3, R4, R5, R6plus}",
+    group = """
+    1 *2 R!H u0 {3,[D,T,B]}
+    2 *1 R!H u1
+    3 *3 R!H u0 c0 {1,[D,T,B]}
+    """,
     kinetics = None,
 )
 
