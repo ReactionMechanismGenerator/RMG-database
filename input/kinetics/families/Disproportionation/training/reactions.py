@@ -159,7 +159,7 @@ Converted to training reaction from rate rule: H_rad;Cmethyl_Csrad
 
 entry(
     index = 5,
-    label = "CH3 + C2H5 <=> CH4 + C2H4",
+    label = "CH3_r1 + C2H5 <=> CH4 + C2H4",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (6.57e+14, 'cm^3/(mol*s)', '*|/', 1.1),
@@ -636,7 +636,7 @@ Converted to training reaction from rate rule: C_rad/H/OneDeC;C/H2/Nd_Srad
 
 entry(
     index = 20,
-    label = "CH3 + C3H7-2 <=> CH4 + C3H6-2",
+    label = "CH3_r1 + C3H7-2 <=> CH4 + C3H6-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (2.3e+13, 'cm^3/(mol*s)', '*|/', 1.7),
@@ -1151,7 +1151,7 @@ Converted to training reaction from rate rule: H_rad;C/H/NdNd_Csrad
 
 entry(
     index = 37,
-    label = "CH3 + C4H9-2 <=> CH4 + C4H8-2",
+    label = "CH3_r1 + C4H9-2 <=> CH4 + C4H8-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (6.02e+12, 'cm^3/(mol*s)', '*|/', 2),
@@ -1457,7 +1457,7 @@ Converted to training reaction from rate rule: O2b;Cdpri_Csrad
 
 entry(
     index = 46,
-    label = "CH3 + C3H5-2 <=> CH4 + C3H4",
+    label = "CH3_r1 + C3H5-2 <=> CH4 + C3H4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.01e+12, 'cm^3/(mol*s)', '*|/', 3),
@@ -3186,7 +3186,7 @@ Converted to training reaction from rate rule: N3d_rad/C;O_Orad
 
 entry(
     index = 114,
-    label = "CH3 + CH2N <=> CH4 + CHN",
+    label = "CH3_r1 + CH2N <=> CH4 + CHN",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (1.62e+06, 'cm^3/(mol*s)'),
@@ -3538,7 +3538,7 @@ Converted to training reaction from rate rule: O_pri_rad;N3s/H2_s_Cssrad
 
 entry(
     index = 130,
-    label = "CH3 + CH4N-2 <=> CH4 + CH3N-3",
+    label = "CH3_r1 + CH4N-2 <=> CH4 + CH3N-3",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (3.2e+06, 'cm^3/(mol*s)'),
@@ -3607,7 +3607,7 @@ Converted to training reaction from rate rule: O_pri_rad;Cds/H2_d_N5dcrad/O
 
 entry(
     index = 133,
-    label = "CH3 + CH2NO <=> CH4 + CHNO",
+    label = "CH3_r1 + CH2NO <=> CH4 + CHNO",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (3.2e+06, 'cm^3/(mol*s)'),
