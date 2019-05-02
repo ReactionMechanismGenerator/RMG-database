@@ -232,6 +232,17 @@ entry(
 )
 
 entry(
+    index = 1000,
+    label = "N5sc_radH",
+    group =
+"""
+1 *1 N5sc u1 {2,S}
+2 *2 H    u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 20,
     label = "X_H",
     group = 
@@ -7032,9 +7043,9 @@ entry(
     label = "N3s_rad",
     group = 
 """
-1 *3 N3s u1 {2,S} {3,S}
-2    R   u0 {1,S}
-3    R   u0 {1,S}
+1 *3 N3s u1     {2,S} {3,S}
+2    R   u[0,1] {1,S}
+3    R   u0     {1,S}
 """,
     kinetics = None,
 )
@@ -7171,6 +7182,7 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
             L4: NH2_rad_H
             L4: N3s_rad_H_pri
                 L5: N3s_rad_H/H/NonDeN
+        L3: N5sc_radH
     L2: X_H
         L3: H2
         L3: Ct_H
@@ -7698,7 +7710,7 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-This group forbids `H[C,N][O,S].`, where the radical site is O or S, but the non-rad site isn't
+This group forbids `H[C,N][O,S].`, where the radical site is O or S, but the non-rad site isn't O or S.
 """,
 )
 
@@ -7713,7 +7725,7 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-Generally, we'd like to forbid `HR[R].` from reacting here (`.` marks a radical), since this is a disprop reaction.
+Generally, we'd like to forbid `HR[R.]` from reacting here (`.` marks a radical), since this is a disprop reaction.
 However, the following specific cases must not be forbidden here: `HO2`, `HSS`, `HOS`, `HSO`
 (since they form the ground state triplets O2, S2, and SO).
 This group forbids `HR[C,N].`, where the radical site isn't O or S
@@ -7739,9 +7751,9 @@ forbidden(
     label = "disprop1_hyperS_rad",
     group = 
 """
-1 *1 [O,S] u0 {2,S} {3,S}
+1 *1 [O,S] u0        {2,S} {3,S}
 2    S     u1 p[0,1] {1,S}
-3 *2 H     u0 {1,S}
+3 *2 H     u0        {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -7822,3 +7834,36 @@ u"""
 """,
 )
 
+forbidden(
+    label = "disprop6_mul_bonds",
+    group =
+"""
+1 *1 R u0 {2,[D,T]} {3,S}
+2    R u1 {1,[D,T]}
+3 *2 H u0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbidding cases such as:
+R + [HC]=CH2 <=> RH + [CH]=[CH]
+R + [C]#CH <=> RH + [C]#[C]
+R + [N]=NH <=> RH + [N]=[N]
+""",
+)
+
+forbidden(
+    label = "disprop7_birad",
+    group =
+"""
+1 *1 R     u1 {2,S} {3,S}
+2    [C,N] u1 {1,S}
+3 *2 H     u0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbidding cases such as:
+R + [NH][NH] <=> RH + [N][NH]
+""",
+)
