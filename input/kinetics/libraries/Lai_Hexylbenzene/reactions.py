@@ -8,15 +8,18 @@ In conjunction with the Lai_Hexylbenzene thermo library,
 this reaction library contains CBS-QB3 calculations for reactions
 relevant to Hexylbenzene pyrolysis and supercritical water treatment.
 
-Lai, Lawrence, Gudiyella, Soumya, Liu, Mengjie, Green, William H. "Chemistry of Alkylaromatics Reconsidered". To be submitted to Energy and Fuels, 2017.
+Lai, Lawrence, Gudiyella, Soumya, Liu, Mengjie, Green, William H. "Chemistry of Alkylaromatics Reconsidered". Energy Fuels, 2018, 32 (4), pp 5489-5500.
+Lai, Lawrence, Green, William H. "Thermochemistry and Kinetics of Intermolecular Addition of Radicals to Toluene and Alkylaromatics". J. Phys. Chem. A., 2019, 123 (14), pp 3176-3184
+Khanniche, Sarah, Lai, Lawrence, Green, William H. "Kinetics of Intramolecular Phenyl Migration and Fused Ring Formation in Hexylbenzene Radicals". J. Phys. Chem. A, 2018, 122 (51), pp 9778-9791.
+Lai, Lawrence, Pang, Hao-Wei, Green, William H. "Formation of 2-Ring Aromatics in Hexylbenzene Pyrolysis". To be submitted to Energy Fuels, 2019.
 
-Both calculations are done in CBS-QB3 level of theory.
+All calculations are done in CBS-QB3 level of theory.
 
 Specifics of the calculations performed:
 1. CBS-QB3 Level of theory was used after a B3LYP/6-311G(d,p) geometry optimization was performed
 2. Frequency was calculated using B3LYP/CBSB7 iop(7/33=1) (Hessian was calculated)
 3. 1D Hindered Rotors were calculated for steps of 10 degrees up to the full 360 degree cycle, with geometry optimization on each step, using B3LYP/CBSB7
-4. All files generated were fed to Cantherm.
+4. All files generated were fed to Arkane.
 5. Frequency scaling factor was 0.99
 6. Bond additivity corrections were not used.
 

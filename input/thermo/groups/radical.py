@@ -10624,7 +10624,7 @@ L1: Radical
                         L7: Benzyl_S_Fused5
                         L7: Benzyl_S_Fused6
                             L8: Benzyl_S_dihydronaphthalene
-						L7: Benzyl_S_Fused7
+                        L7: Benzyl_S_Fused7
                     L6: Allyl_S
                         L7: Aromatic_pi_S_1_3
                             L8: Aromatic_pi_S_(CH3_CH3_Ortho)_1_3

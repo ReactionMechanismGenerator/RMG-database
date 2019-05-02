@@ -8,7 +8,11 @@ This library is made by Lawrence Lai for the Hexylbenzene Pyrolysis and Supercri
 
 This work is published in
 
-Lai, Lawrence, Gudiyella, Soumya, Liu, Mengjie, Green, William H. "Chemistry of Alkylaromatics Reconsidered". To be submitted to Energy and Fuels, 2017.
+
+Lai, Lawrence, Gudiyella, Soumya, Liu, Mengjie, Green, William H. "Chemistry of Alkylaromatics Reconsidered". Energy Fuels, 2018, 32 (4), pp 5489-5500.
+Lai, Lawrence, Green, William H. "Thermochemistry and Kinetics of Intermolecular Addition of Radicals to Toluene and Alkylaromatics". J. Phys. Chem. A., 2019, 123 (14), pp 3176-3184
+Lai, Lawrence, Khanniche, Sarah, Green, William H. "Thermochemistry and Group Additivity Values for Fused Two-Ring Species and Radicals". J. Phys. Chem. A, 2019, 123 (15), pp 3418-3428.
+Lai, Lawrence, Pang, Hao-Wei, Green, William H. "Formation of 2-Ring Aromatics in Hexylbenzene Pyrolysis". To be submitted to Energy Fuels, 2019.
 
 Includes thermochemistry of alkylaromatics and many relevant compounds, calculated using the CBS-QB3 level of theory in June 2017.
 

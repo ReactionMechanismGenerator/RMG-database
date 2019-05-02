@@ -9605,9 +9605,9 @@ L1: PolycyclicRing
         L3: s2_6_7_diene
             L4: s2_6_7_diene_0_2
         L3: s2_6_7_ben
-			L4: s2_6_7_ben_ene
-				L5: s2_6_7_ben_ene_1
-					L6: s2_6_7_ben_diene_1_3
+            L4: s2_6_7_ben_ene
+                L5: s2_6_7_ben_ene_1
+                    L6: s2_6_7_ben_diene_1_3
     L2: s3_4_4
         L3: s3_4_4_ane
         L3: s3_4_4_ene
