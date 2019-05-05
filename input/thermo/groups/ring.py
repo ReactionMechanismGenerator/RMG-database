@@ -764,16 +764,17 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.586,-4.031,-3.818,-3.503,-3.252,-3.45,1.262],'cal/(mol*K)'),
-        H298 = (28.0736,'kcal/mol'),
-        S298 = (29.0217,'cal/(mol*K)'),
+        Cpdata = ([-3.512000,-4.727000,-5.010000,-4.504000,-4.218000,-4.242000,-2.465000],'cal/(mol*K)','+|-',[0.792100,0.792100,0.792100,0.792100,0.792100,0.792100,0.792100]),
+        H298 = (26.826000,'kcal/mol','+|-',3.386500),
+        S298 = (27.858000,'cal/(mol*K)','+|-',1.040400),
     ),
-    shortDesc = u"""""",
-    longDesc = 
+    shortDesc = u"""Calculations from Duminda Ranasinghe""",
+    longDesc =
 u"""
-
+Based on CBS-QB3 calculation with rotors and BAC for singlet C=CC1COO1 from Duminda Ranasinghe in 05/2019, fitted by Hao-Wei Pang
 """,
 )
+
 
 entry(
     index = 16,
