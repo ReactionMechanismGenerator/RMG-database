@@ -1428,3 +1428,219 @@ O       2.41153100   -0.10184700    0.15290200
 H       2.66937600   -0.95845500   -0.21924100
 """,
 )
+
+entry(
+    index = 75,
+    label = "CCC(O[O])=O <=> [CH2]CC(OO)=O",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (6.0e1, 's^-1'),
+        n = 3.061,
+        Ea = (11.936, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos CBS-QB3 HR
+""",
+)
+
+entry(
+    index = 76,
+    label = "[CH2]CC(OO)=O <=> C1CC(O1)=O + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.12e11, 's^-1'),
+        n = 0.455,
+        Ea = (22.226, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos CBS-QB3 HR
+""",
+)
+
+entry(
+    index = 77,
+    label = "[CH2]CC(OO)=O <=> C2H4 + O=[C]OO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.54e12, 's^-1'),
+        n = 0.339,
+        Ea = (23.464, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos CBS-QB3 HR
+""",
+)
+
+entry(
+    index = 78,
+    label = "CC(O[O])C=O <=> C=CC=O + HO2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (9.59e7, 's^-1'),
+        n = 1.574,
+        Ea = (23.045, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos CBS-QB3 HR
+""",
+)
+
+entry(
+    index = 79,
+    label = "CC(O[O])C=O <=> CC(OO)[C]=O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.99e8, 's^-1'),
+        n = 0.586,
+        Ea = (13.751, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos CBS-QB3 HR
+""",
+)
+
+entry(
+    index = 80,
+    label = "CC(OO)[C]=O <=> CC1OC1=O + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.03e16, 's^-1'),
+        n = -0.986,
+        Ea = (24.147, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos CBS-QB3 HR
+""",
+)
+
+entry(
+    index = 81,
+    label = "CC(OO)[C]=O <=> C[CH]OO + CO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.26e17, 's^-1'),
+        n = -0.725,
+        Ea = (8.914, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos CBS-QB3 HR
+""",
+)
+
+entry(
+    index = 82,
+    label = "C(O[O])CC=O <=> C(OO)C[C]=O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.29e3, 's^-1'),
+        n = 2.615,
+        Ea = (9.271, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos CBS-QB3 HR
+""",
+)
+
+entry(
+    index = 83,
+    label = "C(O[O])CC=O <=> C=CC=O + HO2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (6.71e5, 's^-1'),
+        n = 2.14,
+        Ea = (19.879, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos CBS-QB3 HR
+""",
+)
+
+entry(
+    index = 84,
+    label = "C(OO)C[C]=O <=> C1CC(O1)=O + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.49e9, 's^-1'),
+        n = 1.18,
+        Ea = (18.385, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos CBS-QB3 HR
+""",
+)
+
+entry(
+    index = 85,
+    label = "C(OO)C[C]=O <=> [CH2]COO + CO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.41e11, 's^-1'),
+        n = 1.009,
+        Ea = (13.402, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos CBS-QB3 HR
+""",
+)
+
+entry(
+    index = 86,
+    label = "[CH2]COO <=> C1OC1 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.093e8, 's^-1'),
+        n = 1.294,
+        Ea = (14.894, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos CBS-QB3 HR
+""",
+)
