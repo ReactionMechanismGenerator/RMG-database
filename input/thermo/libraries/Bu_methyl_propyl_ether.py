@@ -2145,3 +2145,302 @@ H       1.64733100   -0.06345200    1.28498300
 H       2.45554000    0.80763300   -0.06771900
 """,
 )
+
+entry(
+    index = 53,
+    label = "propanal",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+3  C u0 p0 c0 {2,S} {4,D} {10,S}
+4  O u0 p2 c0 {3,D}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(polynomials=[NASAPolynomial(coeffs=[3.84662,0.0144249,1.96059e-05,-2.7507e-08,9.456e-12,-24137.9,9.13571], Tmin=(10,'K'), Tmax=(1005.43,'K')),
+                               NASAPolynomial(coeffs=[2.10419,0.0296272,-1.54128e-05,3.89376e-09,-3.86041e-13,-24137.9,15.4725], Tmin=(1005.43,'K'), Tmax=(3000,'K'))], Tmin=(10,'K'), Tmax=(3000,'K')),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Mark Nimlos G4 HR
+""",
+)
+
+entry(
+    index = 54,
+    label = "CC[C]=O",
+    molecule =
+"""
+multiplicity 2
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+3 C u1 p0 c0 {2,S} {4,D}
+4 O u0 p2 c0 {3,D}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(polynomials=[NASAPolynomial(coeffs=[3.7518,0.0206031,-9.89069e-06,9.41636e-09,-7.00204e-12,-5645,9.63608], Tmin=(10,'K'), Tmax=(613.11,'K')), NASAPolynomial(coeffs=[2.21082,0.0266276,-1.4773e-05,4.00709e-09,-4.26016e-13,-5645,16.9341], Tmin=(613.11,'K'), Tmax=(3000,'K'))], Tmin=(10,'K'), Tmax=(3000,'K')),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Mark Nimlos G4 HR
+""",
+)
+
+entry(
+    index = 55,
+    label = "CCC(O[O])=O",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
+3  C u0 p0 c0 {2,S} {4,S} {6,D}
+4  O u0 p2 c0 {3,S} {5,S}
+5  O u1 p2 c0 {4,S}
+6  O u0 p2 c0 {3,D}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(polynomials=[NASAPolynomial(coeffs=[3.55965,0.044902,-9.00498e-05,1.8475e-07,-1.56569e-10,-23981,11.6303], Tmin=(10,'K'), Tmax=(386.77,'K')), NASAPolynomial(coeffs=[3.37288,0.0373409,-2.39119e-05,7.2952e-09,-8.51574e-13,-23981,13.2718], Tmin=(386.77,'K'), Tmax=(3000,'K'))], Tmin=(10,'K'), Tmax=(3000,'K')),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Mark Nimlos G4 HR
+""",
+)
+
+entry(
+    index = 56,
+    label = "[CH2]CC(OO)=O",
+    molecule =
+"""
+multiplicity 2
+1  C u1 p0 c0 {2,S} {3,S} {4,S}
+2  H u0 p0 c0 {1,S}
+3  H u0 p0 c0 {1,S}
+4  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
+5  C u0 p0 c0 {4,S} {6,S} {8,D}
+6  O u0 p2 c0 {5,S} {7,S}
+7  O u0 p2 c0 {6,S} {11,S}
+8  O u0 p2 c0 {5,D}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(polynomials=[NASAPolynomial(coeffs=[4.04193,0.0365306,-2.12342e-05,5.04567e-09,-3.04573e-13,-21618.9,10.593], Tmin=(10,'K'), Tmax=(1700.74,'K')), NASAPolynomial(coeffs=[25.4144,-0.00407759,6.0626e-06,-2.31521e-09,2.86607e-13,-21618.9,-107.974], Tmin=(1700.74,'K'), Tmax=(3000,'K'))], Tmin=(10,'K'), Tmax=(3000,'K')),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Mark Nimlos G4 HR
+""",
+)
+
+entry(
+    index = 57,
+    label = "C1CC(O1)=O",
+    molecule =
+"""
+1 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+3 C u0 p0 c0 {2,S} {4,S} {5,D}
+4 O u0 p2 c0 {1,S} {3,S}
+5 O u0 p2 c0 {3,D}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(polynomials=[NASAPolynomial(coeffs=[4.13406,-0.0126456,0.000168036,-2.9975e-07,1.75203e-10,-36142.4,9.7856], Tmin=(10,'K'), Tmax=(531.79,'K')), NASAPolynomial(coeffs=[0.286175,0.0355236,-2.20632e-05,6.546e-09,-7.48634e-13,-36142.4,23.3634], Tmin=(531.79,'K'), Tmax=(3000,'K'))], Tmin=(10,'K'), Tmax=(3000,'K')),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Mark Nimlos G4 HR
+""",
+)
+
+entry(
+    index = 58,
+    label = "C[CH]C=O",
+    molecule =
+"""
+multiplicity 2
+1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+2 C u1 p0 c0 {1,S} {3,S} {4,S}
+3 H u0 p0 c0 {2,S}
+4 C u0 p0 c0 {2,S} {5,D} {9,S}
+5 O u0 p2 c0 {4,D}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {1,S}
+9 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(polynomials=[NASAPolynomial(coeffs=[3.85171,0.0147221,1.3238e-05,-2.11228e-08,7.41516e-12,-4930.68,9.60676], Tmin=(10,'K'), Tmax=(1026.98,'K')), NASAPolynomial(coeffs=[3.26193,0.0248262,-1.2923e-05,3.26187e-09,-3.22772e-13,-4930.68,10.4634], Tmin=(1026.98,'K'), Tmax=(3000,'K'))], Tmin=(10,'K'), Tmax=(3000,'K')),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Mark Nimlos G4 HR
+""",
+)
+
+entry(
+    index = 59,
+    label = "CC(O[O])C=O",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+2  C u0 p0 c0 {1,S} {3,S} {5,S} {10,S}
+3  O u0 p2 c0 {2,S} {4,S}
+4  O u1 p2 c0 {3,S}
+5  C u0 p0 c0 {2,S} {6,D} {11,S}
+6  O u0 p2 c0 {5,D}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(polynomials=[NASAPolynomial(coeffs=[3.54731,0.0418059,-4.06703e-05,2.83842e-08,-1.01304e-11,-17879.9,10.8834], Tmin=(10,'K'), Tmax=(585.15,'K')), NASAPolynomial(coeffs=[4.64872,0.0342769,-2.13701e-05,6.3954e-09,-7.35945e-13,-17879.9,6.15996], Tmin=(585.15,'K'), Tmax=(3000,'K'))], Tmin=(10,'K'), Tmax=(3000,'K')),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Mark Nimlos G4 HR
+""",
+)
+
+entry(
+    index = 60,
+    label = "CC(OO)[C]=O",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+2  C u0 p0 c0 {1,S} {3,S} {5,S} {10,S}
+3  O u0 p2 c0 {2,S} {4,S}
+4  O u0 p2 c0 {3,S} {11,S}
+5  C u1 p0 c0 {2,S} {6,D}
+6  O u0 p2 c0 {5,D}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(polynomials=[NASAPolynomial(coeffs=[3.67984,0.0249734,0.000152248,-5.09623e-07,4.57595e-10,-17077.5,9.69054], Tmin=(10,'K'), Tmax=(405.77,'K')), NASAPolynomial(coeffs=[6.37662,0.0356748,-2.51471e-05,8.29315e-09,-1.02761e-12,-17077.5,-4.66975], Tmin=(405.77,'K'), Tmax=(3000,'K'))], Tmin=(10,'K'), Tmax=(3000,'K')),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Mark Nimlos G4 HR
+""",
+)
+
+entry(
+    index = 61,
+    label = "CC1OC1=O",
+    molecule =
+"""
+1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+2 C u0 p0 c0 {1,S} {3,S} {4,S} {9,S}
+3 O u0 p2 c0 {2,S} {4,S}
+4 C u0 p0 c0 {2,S} {3,S} {5,D}
+5 O u0 p2 c0 {4,D}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {1,S}
+9 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(polynomials=[NASAPolynomial(coeffs=[3.92341,0.00609324,9.38552e-05,-2.2345e-07,1.73852e-10,-28653.1,9.95759], Tmin=(10,'K'), Tmax=(328.14,'K')), NASAPolynomial(coeffs=[1.90036,0.0307539,-1.88738e-05,5.57537e-09,-6.35394e-13,-28653.1,17.4633], Tmin=(328.14,'K'), Tmax=(3000,'K'))], Tmin=(10,'K'), Tmax=(3000,'K')),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Mark Nimlos G4 HR
+""",
+)
+
+entry(
+    index = 62,
+    label = "[CH2]CC=O",
+    molecule =
+"""
+multiplicity 2
+1 C u1 p0 c0 {2,S} {3,S} {4,S}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
+5 C u0 p0 c0 {4,S} {6,D} {9,S}
+6 O u0 p2 c0 {5,D}
+7 H u0 p0 c0 {4,S}
+8 H u0 p0 c0 {4,S}
+9 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(polynomials=[NASAPolynomial(coeffs=[3.72883,0.025842,-4.00264e-05,7.65806e-08,-5.76543e-11,711.906,9.43674], Tmin=(10,'K'), Tmax=(482.46,'K')), NASAPolynomial(coeffs=[2.55964,0.0266889,-1.51543e-05,4.20487e-09,-4.56006e-13,711.906,15.2923], Tmin=(482.46,'K'), Tmax=(3000,'K'))], Tmin=(10,'K'), Tmax=(3000,'K')),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Mark Nimlos G4 HR
+""",
+)
+
+entry(
+    index = 63,
+    label = "C(O[O])CC=O",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+2  O u0 p2 c0 {1,S} {3,S}
+3  O u1 p2 c0 {2,S}
+4  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
+5  C u0 p0 c0 {4,S} {6,D} {11,S}
+6  O u0 p2 c0 {5,D}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(polynomials=[NASAPolynomial(coeffs=[3.49613,0.0516235,-0.000147151,3.1836e-07,-2.56322e-10,-16311.4,10.8236], Tmin=(10,'K'), Tmax=(411.68,'K')), NASAPolynomial(coeffs=[3.23876,0.0356656,-2.17507e-05,6.37329e-09,-7.20405e-13,-16311.4,13.7366], Tmin=(411.68,'K'), Tmax=(3000,'K'))], Tmin=(10,'K'), Tmax=(3000,'K')),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Mark Nimlos G4 HR
+""",
+)
+
+entry(
+    index = 64,
+    label = "C(OO)C[C]=O",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+2  O u0 p2 c0 {1,S} {3,S}
+3  O u0 p2 c0 {2,S} {9,S}
+4  C u0 p0 c0 {1,S} {5,S} {10,S} {11,S}
+5  C u1 p0 c0 {4,S} {6,D}
+6  O u0 p2 c0 {5,D}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(polynomials=[NASAPolynomial(coeffs=[3.27172,0.0744293,-0.000260752,5.33847e-07,-4.02674e-10,-15244.3,10.2478], Tmin=(10,'K'), Tmax=(416.82,'K')), NASAPolynomial(coeffs=[5.11855,0.0320213,-1.93076e-05,5.59964e-09,-6.27455e-13,-15244.3,5.52633], Tmin=(416.82,'K'), Tmax=(3000,'K'))], Tmin=(10,'K'), Tmax=(3000,'K')),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Mark Nimlos G4 HR
+""",
+)
