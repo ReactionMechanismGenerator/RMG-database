@@ -8404,3 +8404,69 @@ Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
 """,
 )
+
+#The following species are a quick fix; these species thermo are approximated from the group additivity values available, and not actual quantum calculations
+
+entry(
+    index = 170,
+    label = "s2_6_7_ben_rad_2",
+    molecule = 
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
+2  C u1 p0 c0 {1,S} {3,S} {12,S}
+3  C u0 p0 c0 {2,S} {4,S} {16,S} {17,S}
+4  C u0 p0 c0 {3,S} {5,S} {18,S} {19,S}
+5  C u0 p0 c0 {4,S} {6,S} {20,S} {21,S}
+6  C u0 p0 c0 {5,S} {7,S} {22,S} {23,S}
+7  C u0 p0 c0 {6,S} {8,D} {12,S}
+8  C u0 p0 c0 {7,D} {9,S} {24,S}
+9  C u0 p0 c0 {8,S} {10,D} {25,S}
+10 C u0 p0 c0 {9,D} {11,S} {26,S}
+11 C u0 p0 c0 {10,S} {12,D} {27,S}
+12 C u0 p0 c0 {2,S} {7,S} {11,D}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {1,S}
+15 H u0 p0 c0 {1,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {4,S}
+20 H u0 p0 c0 {5,S}
+21 H u0 p0 c0 {5,S}
+22 H u0 p0 c0 {6,S}
+23 H u0 p0 c0 {6,S}
+24 H u0 p0 c0 {8,S}
+25 H u0 p0 c0 {9,S}
+26 H u0 p0 c0 {10,S}
+27 H u0 p0 c0 {11,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [-0.226007, 0.0661558, 0.000061131, -1.11635e-07, 4.24945e-11, 13989.3, 31.7709],
+                Tmin = (100, 'K'),
+                Tmax = (1033.62, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [17.7325, 0.0613584, -2.58001e-05, 4.99342e-09, -3.61444e-13, 6820.62, -72.1813],
+                Tmin = (1033.62, 'K'),
+                Tmax = (5000, 'K'),
+            ),
+        ],
+        Tmin = (100, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""library value for CC1CCC[CH]c2ccccc21 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Warning: This number is slightly different; this does not use a CBS-QB3 calculation.
+Instead, it uses the thermochemistry of CC1CCC[CH]c2ccccc21 predicted by GAVs
+Reason: the radical in this case is tertiary, which uses the Benzyl_T correction instead of the Benzyl_S_Fused7
+Now logging group additivity values used:
+Thermo group additivity estimation: group(Cs-CbCsCsH) + group(Cs-CsCsHH) + group
+(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CbCsHH) + group(Cs-CsHHH) + group(Cb-
+Cs) + group(Cb-Cs) + group(Cb-H) + group(Cb-H) + group(Cb-H) + group(Cb-H) +
+polycyclic(s2_6_7_ben) + radical(Benzyl_S_Fused7)
+""",
+)
