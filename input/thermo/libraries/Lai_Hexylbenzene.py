@@ -185,19 +185,19 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {3,S} {4,S}
-2  H u0 p0 c0 {1,S}
-3  H u0 p0 c0 {1,S}
-4  C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
-5  C u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
-6  C u0 p0 c0 {5,S} {11,S} {12,S} {13,S}
-7  H u0 p0 c0 {4,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {6,S}
-13 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  C u1 p0 c0 {2,S} {12,S} {13,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {4,S}
+13 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -882,22 +882,22 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {3,S} {4,S}
-2  H u0 p0 c0 {1,S}
-3  H u0 p0 c0 {1,S}
-4  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {4,S} {6,S} {10,S} {11,S}
-6  C u0 p0 c0 {5,S} {7,S} {12,S} {13,S}
-7  C u0 p0 c0 {6,S} {14,S} {15,S} {16,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
-12 H u0 p0 c0 {6,S}
-13 H u0 p0 c0 {6,S}
-14 H u0 p0 c0 {7,S}
-15 H u0 p0 c0 {7,S}
-16 H u0 p0 c0 {7,S}
+1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {5,S} {10,S} {11,S}
+4  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+5  C u1 p0 c0 {3,S} {15,S} {16,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {4,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {4,S}
+15 H u0 p0 c0 {5,S}
+16 H u0 p0 c0 {5,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1489,10 +1489,10 @@ multiplicity 2
 6  C u0 p0 c0 {9,S} {10,S} {23,S} {24,S}
 7  C u0 p0 c0 {4,S} {25,S} {26,S} {27,S}
 8  C u0 p0 c0 {5,S} {11,S} {12,D}
-9  C u0 p0 c0 {6,S} {11,D} {29,S}
-10 C u1 p0 c0 {6,S} {12,S} {28,S}
-11 C u0 p0 c0 {8,S} {9,D} {30,S}
-12 C u0 p0 c0 {8,D} {10,S} {31,S}
+9  C u1 p0 c0 {6,S} {12,S} {28,S}
+10 C u0 p0 c0 {6,S} {11,D} {29,S}
+11 C u0 p0 c0 {8,S} {10,D} {30,S}
+12 C u0 p0 c0 {8,D} {9,S} {31,S}
 13 H u0 p0 c0 {4,S}
 14 H u0 p0 c0 {4,S}
 15 H u0 p0 c0 {1,S}
@@ -1508,8 +1508,8 @@ multiplicity 2
 25 H u0 p0 c0 {7,S}
 26 H u0 p0 c0 {7,S}
 27 H u0 p0 c0 {7,S}
-28 H u0 p0 c0 {10,S}
-29 H u0 p0 c0 {9,S}
+28 H u0 p0 c0 {9,S}
+29 H u0 p0 c0 {10,S}
 30 H u0 p0 c0 {11,S}
 31 H u0 p0 c0 {12,S}
 """,
@@ -1974,10 +1974,10 @@ multiplicity 2
 2  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
 3  C u0 p0 c0 {4,S} {13,S} {14,S} {15,S}
 4  C u0 p0 c0 {3,S} {7,S} {8,D}
-5  C u0 p0 c0 {1,S} {7,D} {17,S}
-6  C u1 p0 c0 {1,S} {8,S} {16,S}
-7  C u0 p0 c0 {4,S} {5,D} {18,S}
-8  C u0 p0 c0 {4,D} {6,S} {19,S}
+5  C u1 p0 c0 {1,S} {8,S} {16,S}
+6  C u0 p0 c0 {1,S} {7,D} {17,S}
+7  C u0 p0 c0 {4,S} {6,D} {18,S}
+8  C u0 p0 c0 {4,D} {5,S} {19,S}
 9  H u0 p0 c0 {1,S}
 10 H u0 p0 c0 {2,S}
 11 H u0 p0 c0 {2,S}
@@ -1985,8 +1985,8 @@ multiplicity 2
 13 H u0 p0 c0 {3,S}
 14 H u0 p0 c0 {3,S}
 15 H u0 p0 c0 {3,S}
-16 H u0 p0 c0 {6,S}
-17 H u0 p0 c0 {5,S}
+16 H u0 p0 c0 {5,S}
+17 H u0 p0 c0 {6,S}
 18 H u0 p0 c0 {7,S}
 19 H u0 p0 c0 {8,S}
 """,
@@ -2018,10 +2018,10 @@ multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
 3  C u0 p0 c0 {1,S} {12,S} {13,S} {14,S}
-4  C u0 p0 c0 {1,S} {6,D} {16,S}
-5  C u1 p0 c0 {1,S} {7,S} {15,S}
-6  C u0 p0 c0 {4,D} {8,S} {17,S}
-7  C u0 p0 c0 {5,S} {8,D} {19,S}
+4  C u1 p0 c0 {1,S} {7,S} {15,S}
+5  C u0 p0 c0 {1,S} {6,D} {16,S}
+6  C u0 p0 c0 {5,D} {8,S} {17,S}
+7  C u0 p0 c0 {4,S} {8,D} {19,S}
 8  C u0 p0 c0 {6,S} {7,D} {18,S}
 9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {2,S}
@@ -2029,8 +2029,8 @@ multiplicity 2
 12 H u0 p0 c0 {3,S}
 13 H u0 p0 c0 {3,S}
 14 H u0 p0 c0 {3,S}
-15 H u0 p0 c0 {5,S}
-16 H u0 p0 c0 {4,S}
+15 H u0 p0 c0 {4,S}
+16 H u0 p0 c0 {5,S}
 17 H u0 p0 c0 {6,S}
 18 H u0 p0 c0 {8,S}
 19 H u0 p0 c0 {7,S}
@@ -7561,47 +7561,39 @@ entry(
     label = "",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {6,S} {13,S}
-2  C u0 p0 c0 {1,D} {3,S} {14,S}
-3  C u0 p0 c0 {2,S} {4,D} {15,S}
-4  C u0 p0 c0 {3,D} {5,S} {7,S}
-5  C u0 p0 c0 {4,S} {6,D} {16,S}
-6  C u0 p0 c0 {1,S} {5,D} {17,S}
-7  C u0 p0 c0 {4,S} {8,S} {12,D}
-8  C u0 p0 c0 {7,S} {9,D} {18,S}
-9  C u0 p0 c0 {8,D} {10,S} {19,S}
-10 C u0 p0 c0 {9,S} {11,D} {20,S}
-11 C u0 p0 c0 {10,D} {12,S} {21,S}
-12 C u0 p0 c0 {7,D} {11,S} {22,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,B} {4,B}
+2  C u0 p0 c0 {1,S} {5,B} {6,B}
+3  C u0 p0 c0 {1,B} {8,B} {15,S}
+4  C u0 p0 c0 {1,B} {9,B} {16,S}
+5  C u0 p0 c0 {2,B} {10,B} {18,S}
+6  C u0 p0 c0 {2,B} {12,B} {22,S}
+7  C u0 p0 c0 {8,B} {9,B} {13,S}
+8  C u0 p0 c0 {3,B} {7,B} {14,S}
+9  C u0 p0 c0 {4,B} {7,B} {17,S}
+10 C u0 p0 c0 {5,B} {11,B} {19,S}
+11 C u0 p0 c0 {10,B} {12,B} {20,S}
+12 C u0 p0 c0 {6,B} {11,B} {21,S}
+13 H u0 p0 c0 {7,S}
+14 H u0 p0 c0 {8,S}
 15 H u0 p0 c0 {3,S}
-16 H u0 p0 c0 {5,S}
-17 H u0 p0 c0 {6,S}
-18 H u0 p0 c0 {8,S}
-19 H u0 p0 c0 {9,S}
-20 H u0 p0 c0 {10,S}
-21 H u0 p0 c0 {11,S}
-22 H u0 p0 c0 {12,S}
+16 H u0 p0 c0 {4,S}
+17 H u0 p0 c0 {9,S}
+18 H u0 p0 c0 {5,S}
+19 H u0 p0 c0 {10,S}
+20 H u0 p0 c0 {11,S}
+21 H u0 p0 c0 {12,S}
+22 H u0 p0 c0 {6,S}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [3.84026, 0.00945497, 0.000276442, -5.12812e-07, 2.94876e-10, 17908.3, 13.0536],
-                Tmin = (10, 'K'),
-                Tmax = (544.198, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [-3.92873, 0.100209, -6.64584e-05, 2.08803e-08, -2.49612e-12, 18255.6, 41.2295],
-                Tmin = (544.198, 'K'),
-                Tmax = (3000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[3.84026,0.00945497,0.000276442,-5.12812e-07,2.94876e-10,17908.3,13.0536], Tmin=(10,'K'), Tmax=(544.198,'K')),
+            NASAPolynomial(coeffs=[-3.92873,0.100209,-6.64584e-05,2.08803e-08,-2.49612e-12,18255.6,41.2295], Tmin=(544.198,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (10, 'K'),
-        Tmax = (3000, 'K'),
-        E0 = (148.835, 'kJ/mol'),
-        Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (527.969, 'J/(mol*K)'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (148.835,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (527.969,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C(C=C1)C1C=CC=CC=1 calculated by Lawrence Lai""",
     longDesc = 
@@ -7617,54 +7609,46 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {6,S} {16,S}
-2  C u0 p0 c0 {1,D} {3,S} {17,S}
-3  C u0 p0 c0 {2,S} {4,D} {18,S}
-4  C u0 p0 c0 {3,D} {5,S} {7,S}
-5  C u0 p0 c0 {4,S} {6,D} {19,S}
-6  C u0 p0 c0 {1,S} {5,D} {20,S}
-7  C u0 p0 c0 {4,S} {8,S} {10,S} {14,S}
-8  C u0 p0 c0 {7,S} {9,S} {21,S} {22,S}
-9  C u0 p0 c0 {8,S} {23,S} {24,S} {25,S}
-10 C u0 p0 c0 {7,S} {11,D} {26,S}
-11 C u0 p0 c0 {10,D} {12,S} {27,S}
-12 C u0 p0 c0 {11,S} {13,D} {28,S}
-13 C u0 p0 c0 {12,D} {14,S} {29,S}
-14 C u1 p0 c0 {7,S} {13,S} {15,S}
-15 H u0 p0 c0 {14,S}
-16 H u0 p0 c0 {1,S}
-17 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {3,S} {15,S} {16,S}
+3  C u0 p0 c0 {2,S} {17,S} {18,S} {19,S}
+4  C u0 p0 c0 {1,S} {7,B} {8,B}
+5  C u1 p0 c0 {1,S} {10,S} {20,S}
+6  C u0 p0 c0 {1,S} {9,D} {21,S}
+7  C u0 p0 c0 {4,B} {12,B} {24,S}
+8  C u0 p0 c0 {4,B} {13,B} {25,S}
+9  C u0 p0 c0 {6,D} {14,S} {27,S}
+10 C u0 p0 c0 {5,S} {14,D} {29,S}
+11 C u0 p0 c0 {12,B} {13,B} {22,S}
+12 C u0 p0 c0 {7,B} {11,B} {23,S}
+13 C u0 p0 c0 {8,B} {11,B} {26,S}
+14 C u0 p0 c0 {9,S} {10,D} {28,S}
+15 H u0 p0 c0 {2,S}
+16 H u0 p0 c0 {2,S}
+17 H u0 p0 c0 {3,S}
 18 H u0 p0 c0 {3,S}
-19 H u0 p0 c0 {5,S}
-20 H u0 p0 c0 {6,S}
-21 H u0 p0 c0 {8,S}
-22 H u0 p0 c0 {8,S}
-23 H u0 p0 c0 {9,S}
-24 H u0 p0 c0 {9,S}
-25 H u0 p0 c0 {9,S}
-26 H u0 p0 c0 {10,S}
-27 H u0 p0 c0 {11,S}
-28 H u0 p0 c0 {12,S}
-29 H u0 p0 c0 {13,S}
+19 H u0 p0 c0 {3,S}
+20 H u0 p0 c0 {5,S}
+21 H u0 p0 c0 {6,S}
+22 H u0 p0 c0 {11,S}
+23 H u0 p0 c0 {12,S}
+24 H u0 p0 c0 {7,S}
+25 H u0 p0 c0 {8,S}
+26 H u0 p0 c0 {13,S}
+27 H u0 p0 c0 {9,S}
+28 H u0 p0 c0 {14,S}
+29 H u0 p0 c0 {10,S}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [3.47848, 0.0601705, 0.00011956, -2.18322e-07, 9.96284e-11, 27166.6, 15.9855],
-                Tmin = (10, 'K'),
-                Tmax = (774.885, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [3.33525, 0.108007, -6.42099e-05, 1.82206e-08, -1.99281e-12, 25774.9, 7.51626],
-                Tmin = (774.885, 'K'),
-                Tmax = (3000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[3.47848,0.0601705,0.00011956,-2.18322e-07,9.96284e-11,27166.6,15.9855], Tmin=(10,'K'), Tmax=(774.885,'K')),
+            NASAPolynomial(coeffs=[3.33525,0.108007,-6.42099e-05,1.82206e-08,-1.99281e-12,25774.9,7.51626], Tmin=(774.885,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (10, 'K'),
-        Tmax = (3000, 'K'),
-        E0 = (225.887, 'kJ/mol'),
-        Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (698.416, 'J/(mol*K)'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (225.887,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (698.416,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1([CH]C=CC=C1)C1C=CC=CC=1 calculated by Lawrence Lai""",
     longDesc = 
@@ -7680,36 +7664,28 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {6,S} {7,S}
-2  C u0 p0 c0 {1,D} {3,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,D} {9,S}
-4  C u0 p0 c0 {3,D} {5,S} {10,S}
-5  C u0 p0 c0 {4,S} {6,D} {11,S}
-6  C u1 p0 c0 {1,S} {5,D}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,B} {3,B} {8,S}
+2  C u0 p0 c0 {1,B} {4,B} {7,S}
+3  C u0 p0 c0 {1,B} {5,B} {9,S}
+4  C u0 p0 c0 {2,B} {6,B} {10,S}
+5  C u0 p0 c0 {3,B} {6,B} {11,S}
+6  C u1 p0 c0 {4,B} {5,B}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {1,S}
 9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {4,S}
 11 H u0 p0 c0 {5,S}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [4.21161, -0.0179661, 0.000204533, -3.31929e-07, 1.73972e-10, 40244.8, 9.55806],
-                Tmin = (10, 'K'),
-                Tmax = (606.577, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [-0.790292, 0.0458313, -2.9428e-05, 8.95499e-09, -1.03824e-12, 40284.8, 26.5162],
-                Tmin = (606.577, 'K'),
-                Tmax = (3000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[4.21161,-0.0179661,0.000204533,-3.31929e-07,1.73972e-10,40244.8,9.55806], Tmin=(10,'K'), Tmax=(606.577,'K')),
+            NASAPolynomial(coeffs=[-0.790292,0.0458313,-2.9428e-05,8.95499e-09,-1.03824e-12,40284.8,26.5162], Tmin=(606.577,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (10, 'K'),
-        Tmax = (3000, 'K'),
-        E0 = (334.61, 'kJ/mol'),
-        Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (257.749, 'J/(mol*K)'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (334.61,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=CC=[C]1 calculated by Lawrence Lai""",
     longDesc = 
@@ -7726,32 +7702,24 @@ entry(
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {6,S} {7,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [3.99107, 0.000317294, 3.67857e-05, -4.80778e-08, 2.03312e-11, 13152, 5.71358],
-                Tmin = (10, 'K'),
-                Tmax = (612.822, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [1.09253, 0.019236, -9.51994e-06, 2.2947e-09, -2.17455e-13, 13507.2, 18.2781],
-                Tmin = (612.822, 'K'),
-                Tmax = (3000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[3.99107,0.000317294,3.67857e-05,-4.80778e-08,2.03312e-11,13152,5.71358], Tmin=(10,'K'), Tmax=(612.822,'K')),
+            NASAPolynomial(coeffs=[1.09253,0.019236,-9.51994e-06,2.2947e-09,-2.17455e-13,13507.2,18.2781], Tmin=(612.822,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (10, 'K'),
-        Tmax = (3000, 'K'),
-        E0 = (109.346, 'kJ/mol'),
-        Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (153.818, 'J/(mol*K)'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (109.346,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (153.818,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C[CH2] calculated by Lawrence Lai""",
     longDesc = 
@@ -7766,40 +7734,32 @@ entry(
     label = "cyclo13hexadiene5methyleneEnergy",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,D} {8,S}
-2  C u0 p0 c0 {1,S} {3,D} {9,S}
-3  C u0 p0 c0 {2,D} {4,S} {10,S}
-4  C u0 p0 c0 {3,S} {5,D} {6,S}
-5  C u0 p0 c0 {4,D} {11,S} {12,S}
-6  C u0 p0 c0 {4,S} {7,S} {13,S} {14,S}
-7  C u0 p0 c0 {1,D} {6,S} {15,S}
+1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,D}
+3  C u0 p0 c0 {1,S} {5,D} {10,S}
+4  C u0 p0 c0 {2,S} {6,D} {13,S}
+5  C u0 p0 c0 {3,D} {6,S} {11,S}
+6  C u0 p0 c0 {4,D} {5,S} {12,S}
+7  C u0 p0 c0 {2,D} {14,S} {15,S}
 8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {1,S}
 10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {5,S}
-12 H u0 p0 c0 {5,S}
-13 H u0 p0 c0 {6,S}
-14 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {6,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {7,S}
 15 H u0 p0 c0 {7,S}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [3.94559, 0.0033213, 0.000167833, -2.98943e-07, 1.71466e-10, 20350.1, 10.6388],
-                Tmin = (10, 'K'),
-                Tmax = (452.131, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [-3.25727, 0.0671147, -4.40413e-05, 1.38061e-08, -1.65322e-12, 21000.7, 39.663],
-                Tmin = (452.131, 'K'),
-                Tmax = (3000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[3.94559,0.0033213,0.000167833,-2.98943e-07,1.71466e-10,20350.1,10.6388], Tmin=(10,'K'), Tmax=(452.131,'K')),
+            NASAPolynomial(coeffs=[-3.25727,0.0671147,-4.40413e-05,1.38061e-08,-1.65322e-12,21000.7,39.663], Tmin=(452.131,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (10, 'K'),
-        Tmax = (3000, 'K'),
-        E0 = (169.181, 'kJ/mol'),
-        Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (357.522, 'J/(mol*K)'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (169.181,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (357.522,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C=1C=CC=(C)CC1 calculated by Lawrence Lai""",
     longDesc = 
@@ -7814,40 +7774,32 @@ entry(
     label = "cyclo14hexadiene3methyleneEnergy",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,D} {8,S}
-2  C u0 p0 c0 {1,S} {3,D} {4,S}
-3  C u0 p0 c0 {2,D} {9,S} {10,S}
-4  C u0 p0 c0 {2,S} {5,D} {11,S}
-5  C u0 p0 c0 {4,D} {6,S} {12,S}
-6  C u0 p0 c0 {5,S} {7,S} {13,S} {14,S}
-7  C u0 p0 c0 {1,D} {6,S} {15,S}
+1  C u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
+2  C u0 p0 c0 {5,S} {6,S} {7,D}
+3  C u0 p0 c0 {1,S} {6,D} {10,S}
+4  C u0 p0 c0 {1,S} {5,D} {11,S}
+5  C u0 p0 c0 {2,S} {4,D} {12,S}
+6  C u0 p0 c0 {2,S} {3,D} {13,S}
+7  C u0 p0 c0 {2,D} {14,S} {15,S}
 8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {1,S}
 10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {4,S}
 12 H u0 p0 c0 {5,S}
 13 H u0 p0 c0 {6,S}
-14 H u0 p0 c0 {6,S}
+14 H u0 p0 c0 {7,S}
 15 H u0 p0 c0 {7,S}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [4.05608, -0.00628382, 0.000217467, -3.79992e-07, 2.11887e-10, 18462.1, 10.7609],
-                Tmin = (10, 'K'),
-                Tmax = (561.379, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [-1.70383, 0.0622207, -3.8958e-05, 1.16709e-08, -1.34105e-12, 18676.1, 31.3693],
-                Tmin = (561.379, 'K'),
-                Tmax = (3000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[4.05608,-0.00628382,0.000217467,-3.79992e-07,2.11887e-10,18462.1,10.7609], Tmin=(10,'K'), Tmax=(561.379,'K')),
+            NASAPolynomial(coeffs=[-1.70383,0.0622207,-3.8958e-05,1.16709e-08,-1.34105e-12,18676.1,31.3693], Tmin=(561.379,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (10, 'K'),
-        Tmax = (3000, 'K'),
-        E0 = (153.477, 'kJ/mol'),
-        Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (357.522, 'J/(mol*K)'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (153.477,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (357.522,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C=1C=(C)C=CCC1 calculated by Lawrence Lai""",
     longDesc = 
@@ -7862,12 +7814,12 @@ entry(
     label = "Benzene",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {6,S} {7,S}
-2  C u0 p0 c0 {1,D} {3,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,D} {9,S}
-4  C u0 p0 c0 {3,D} {5,S} {10,S}
-5  C u0 p0 c0 {4,S} {6,D} {11,S}
-6  C u0 p0 c0 {1,S} {5,D} {12,S}
+1  C u0 p0 c0 {2,B} {6,B} {7,S}
+2  C u0 p0 c0 {1,B} {3,B} {8,S}
+3  C u0 p0 c0 {2,B} {4,B} {9,S}
+4  C u0 p0 c0 {3,B} {5,B} {10,S}
+5  C u0 p0 c0 {4,B} {6,B} {11,S}
+6  C u0 p0 c0 {1,B} {5,B} {12,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {3,S}
@@ -7877,22 +7829,14 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [4.15242, -0.0140917, 0.000137387, 9.73126e-09, -3.15675e-10, 8305.21, 7.28158],
-                Tmin = (10, 'K'),
-                Tmax = (303.041, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [-3.85984, 0.0564817, -3.77811e-05, 1.19528e-08, -1.43378e-12, 8952.38, 39.036],
-                Tmin = (303.041, 'K'),
-                Tmax = (3000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[4.15242,-0.0140917,0.000137387,9.73126e-09,-3.15675e-10,8305.21,7.28158], Tmin=(10,'K'), Tmax=(303.041,'K')),
+            NASAPolynomial(coeffs=[-3.85984,0.0564817,-3.77811e-05,1.19528e-08,-1.43378e-12,8952.38,39.036], Tmin=(303.041,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (10, 'K'),
-        Tmax = (3000, 'K'),
-        E0 = (69.0606, 'kJ/mol'),
-        Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (282.692, 'J/(mol*K)'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (69.0606,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Benzene calculated by Lawrence Lai""",
     longDesc = 
@@ -7915,22 +7859,14 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [3.98968, 0.000522195, 9.42526e-06, -1.1406e-08, 4.63224e-12, 16454.2, 0.215124],
-                Tmin = (10, 'K'),
-                Tmax = (618.036, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [3.31789, 0.00487012, -1.12737e-06, -2.29901e-11, 2.7718e-14, 16537.2, 3.13285],
-                Tmin = (618.036, 'K'),
-                Tmax = (3000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[3.98968,0.000522195,9.42526e-06,-1.1406e-08,4.63224e-12,16454.2,0.215124], Tmin=(10,'K'), Tmax=(618.036,'K')),
+            NASAPolynomial(coeffs=[3.31789,0.00487012,-1.12737e-06,-2.29901e-11,2.7718e-14,16537.2,3.13285], Tmin=(618.036,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (10, 'K'),
-        Tmax = (3000, 'K'),
-        E0 = (136.804, 'kJ/mol'),
-        Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (83.1447, 'J/(mol*K)'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (136.804,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (83.1447,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for [CH3] calculated by Lawrence Lai""",
     longDesc = 
@@ -7945,52 +7881,44 @@ entry(
     label = "s2_6_7_diene",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {11,S} {12,S}
-2  C u0 p0 c0 {1,D} {3,S} {13,S}
-3  C u0 p0 c0 {2,S} {4,D} {14,S}
-4  C u0 p0 c0 {3,D} {5,S} {10,S}
-5  C u0 p0 c0 {4,S} {6,S} {15,S} {16,S}
-6  C u0 p0 c0 {5,S} {7,S} {17,S} {18,S}
-7  C u0 p0 c0 {6,S} {8,S} {19,S} {20,S}
-8  C u0 p0 c0 {7,S} {9,S} {21,S} {22,S}
-9  C u0 p0 c0 {8,S} {10,S} {23,S} {24,S}
-10 C u0 p0 c0 {4,S} {9,S} {11,S} {25,S}
-11 C u0 p0 c0 {1,S} {10,S} {26,S} {27,S}
+1  C u0 p0 c0 {2,S} {7,S} {8,S} {12,S}
+2  C u0 p0 c0 {1,S} {4,S} {19,S} {20,S}
+3  C u0 p0 c0 {4,S} {5,S} {15,S} {16,S}
+4  C u0 p0 c0 {2,S} {3,S} {17,S} {18,S}
+5  C u0 p0 c0 {3,S} {6,S} {13,S} {14,S}
+6  C u0 p0 c0 {5,S} {8,S} {21,S} {22,S}
+7  C u0 p0 c0 {1,S} {9,S} {23,S} {24,S}
+8  C u0 p0 c0 {1,S} {6,S} {10,D}
+9  C u0 p0 c0 {7,S} {11,D} {25,S}
+10 C u0 p0 c0 {8,D} {11,S} {27,S}
+11 C u0 p0 c0 {9,D} {10,S} {26,S}
 12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {2,S}
-14 H u0 p0 c0 {3,S}
-15 H u0 p0 c0 {5,S}
-16 H u0 p0 c0 {5,S}
-17 H u0 p0 c0 {6,S}
-18 H u0 p0 c0 {6,S}
-19 H u0 p0 c0 {7,S}
-20 H u0 p0 c0 {7,S}
-21 H u0 p0 c0 {8,S}
-22 H u0 p0 c0 {8,S}
-23 H u0 p0 c0 {9,S}
-24 H u0 p0 c0 {9,S}
-25 H u0 p0 c0 {10,S}
+13 H u0 p0 c0 {5,S}
+14 H u0 p0 c0 {5,S}
+15 H u0 p0 c0 {3,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {4,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {2,S}
+20 H u0 p0 c0 {2,S}
+21 H u0 p0 c0 {6,S}
+22 H u0 p0 c0 {6,S}
+23 H u0 p0 c0 {7,S}
+24 H u0 p0 c0 {7,S}
+25 H u0 p0 c0 {9,S}
 26 H u0 p0 c0 {11,S}
-27 H u0 p0 c0 {11,S}
+27 H u0 p0 c0 {10,S}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [3.88781, 0.00697372, 0.000322058, -5.91466e-07, 3.52878e-10, 1054.29, 13.6568],
-                Tmin = (10, 'K'),
-                Tmax = (432.118, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [-8.48418, 0.121551, -7.58565e-05, 2.27155e-08, -2.61896e-12, 2123.02, 62.958],
-                Tmin = (432.118, 'K'),
-                Tmax = (3000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[3.88781,0.00697372,0.000322058,-5.91466e-07,3.52878e-10,1054.29,13.6568], Tmin=(10,'K'), Tmax=(432.118,'K')),
+            NASAPolynomial(coeffs=[-8.48418,0.121551,-7.58565e-05,2.27155e-08,-2.61896e-12,2123.02,62.958], Tmin=(432.118,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (10, 'K'),
-        Tmax = (3000, 'K'),
-        E0 = (8.72864, 'kJ/mol'),
-        Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (656.843, 'J/(mol*K)'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (8.72864,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (656.843,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CCCCCC2C1 calculated by Lawrence Lai""",
     longDesc = 
@@ -8006,51 +7934,43 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {11,S} {13,S}
-2  C u0 p0 c0 {1,D} {3,S} {14,S}
-3  C u0 p0 c0 {2,S} {4,D} {15,S}
-4  C u0 p0 c0 {3,D} {5,S} {10,S}
-5  C u0 p0 c0 {4,S} {6,S} {16,S} {17,S}
-6  C u0 p0 c0 {5,S} {7,S} {18,S} {19,S}
-7  C u0 p0 c0 {6,S} {8,S} {20,S} {21,S}
-8  C u0 p0 c0 {7,S} {9,S} {22,S} {23,S}
-9  C u0 p0 c0 {8,S} {10,S} {24,S} {25,S}
-10 C u0 p0 c0 {4,S} {9,S} {11,S} {26,S}
-11 C u1 p0 c0 {1,S} {10,S} {12,S}
-12 H u0 p0 c0 {11,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {7,S} {8,S} {12,S}
+2  C u0 p0 c0 {1,S} {4,S} {19,S} {20,S}
+3  C u0 p0 c0 {4,S} {5,S} {15,S} {16,S}
+4  C u0 p0 c0 {2,S} {3,S} {17,S} {18,S}
+5  C u0 p0 c0 {3,S} {6,S} {13,S} {14,S}
+6  C u0 p0 c0 {5,S} {7,S} {21,S} {22,S}
+7  C u0 p0 c0 {1,S} {6,S} {9,D}
+8  C u1 p0 c0 {1,S} {10,S} {23,S}
+9  C u0 p0 c0 {7,D} {11,S} {26,S}
+10 C u0 p0 c0 {8,S} {11,D} {24,S}
+11 C u0 p0 c0 {9,S} {10,D} {25,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {5,S}
+14 H u0 p0 c0 {5,S}
 15 H u0 p0 c0 {3,S}
-16 H u0 p0 c0 {5,S}
-17 H u0 p0 c0 {5,S}
-18 H u0 p0 c0 {6,S}
-19 H u0 p0 c0 {6,S}
-20 H u0 p0 c0 {7,S}
-21 H u0 p0 c0 {7,S}
-22 H u0 p0 c0 {8,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {4,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {2,S}
+20 H u0 p0 c0 {2,S}
+21 H u0 p0 c0 {6,S}
+22 H u0 p0 c0 {6,S}
 23 H u0 p0 c0 {8,S}
-24 H u0 p0 c0 {9,S}
-25 H u0 p0 c0 {9,S}
-26 H u0 p0 c0 {10,S}
+24 H u0 p0 c0 {10,S}
+25 H u0 p0 c0 {11,S}
+26 H u0 p0 c0 {9,S}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [3.89896, 0.00646831, 0.000328255, -6.22415e-07, 3.84067e-10, 12977.8, 14.5828],
-                Tmin = (10, 'K'),
-                Tmax = (416.929, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [-7.82527, 0.118861, -7.57843e-05, 2.31293e-08, -2.70872e-12, 13956.2, 60.8978],
-                Tmin = (416.929, 'K'),
-                Tmax = (3000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[3.89896,0.00646831,0.000328255,-6.22415e-07,3.84067e-10,12977.8,14.5828], Tmin=(10,'K'), Tmax=(416.929,'K')),
+            NASAPolynomial(coeffs=[-7.82527,0.118861,-7.57843e-05,2.31293e-08,-2.70872e-12,13956.2,60.8978], Tmin=(416.929,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (10, 'K'),
-        Tmax = (3000, 'K'),
-        E0 = (107.88, 'kJ/mol'),
-        Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (631.9, 'J/(mol*K)'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (107.88,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (631.9,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CCCCCC2[CH]1 calculated by Lawrence Lai""",
     longDesc = 
@@ -8066,54 +7986,46 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {12,S} {14,S}
-2  C u0 p0 c0 {1,D} {3,S} {15,S}
-3  C u0 p0 c0 {2,S} {4,D} {16,S}
-4  C u0 p0 c0 {3,D} {5,S} {11,S}
-5  C u0 p0 c0 {4,S} {6,S} {17,S} {18,S}
-6  C u0 p0 c0 {5,S} {7,S} {19,S} {20,S}
-7  C u0 p0 c0 {6,S} {8,S} {21,S} {22,S}
-8  C u0 p0 c0 {7,S} {9,S} {23,S} {24,S}
-9  C u0 p0 c0 {8,S} {10,S} {11,S} {25,S}
-10 C u0 p0 c0 {9,S} {26,S} {27,S} {28,S}
-11 C u0 p0 c0 {4,S} {9,S} {12,S} {29,S}
-12 C u1 p0 c0 {1,S} {11,S} {13,S}
-13 H u0 p0 c0 {12,S}
-14 H u0 p0 c0 {1,S}
-15 H u0 p0 c0 {2,S}
-16 H u0 p0 c0 {3,S}
-17 H u0 p0 c0 {5,S}
-18 H u0 p0 c0 {5,S}
-19 H u0 p0 c0 {6,S}
-20 H u0 p0 c0 {6,S}
-21 H u0 p0 c0 {7,S}
-22 H u0 p0 c0 {7,S}
-23 H u0 p0 c0 {8,S}
-24 H u0 p0 c0 {8,S}
-25 H u0 p0 c0 {9,S}
-26 H u0 p0 c0 {10,S}
-27 H u0 p0 c0 {10,S}
-28 H u0 p0 c0 {10,S}
-29 H u0 p0 c0 {11,S}
+1  C u0 p0 c0 {2,S} {3,S} {7,S} {13,S}
+2  C u0 p0 c0 {1,S} {8,S} {9,S} {14,S}
+3  C u0 p0 c0 {1,S} {4,S} {19,S} {20,S}
+4  C u0 p0 c0 {3,S} {5,S} {17,S} {18,S}
+5  C u0 p0 c0 {4,S} {6,S} {15,S} {16,S}
+6  C u0 p0 c0 {5,S} {8,S} {21,S} {22,S}
+7  C u0 p0 c0 {1,S} {23,S} {24,S} {25,S}
+8  C u0 p0 c0 {2,S} {6,S} {10,D}
+9  C u1 p0 c0 {2,S} {11,S} {26,S}
+10 C u0 p0 c0 {8,D} {12,S} {29,S}
+11 C u0 p0 c0 {9,S} {12,D} {27,S}
+12 C u0 p0 c0 {10,S} {11,D} {28,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {2,S}
+15 H u0 p0 c0 {5,S}
+16 H u0 p0 c0 {5,S}
+17 H u0 p0 c0 {4,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {3,S}
+20 H u0 p0 c0 {3,S}
+21 H u0 p0 c0 {6,S}
+22 H u0 p0 c0 {6,S}
+23 H u0 p0 c0 {7,S}
+24 H u0 p0 c0 {7,S}
+25 H u0 p0 c0 {7,S}
+26 H u0 p0 c0 {9,S}
+27 H u0 p0 c0 {11,S}
+28 H u0 p0 c0 {12,S}
+29 H u0 p0 c0 {10,S}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [3.85112, 0.00981513, 0.000393112, -8.00916e-07, 5.26715e-10, 9832.45, 15.4607],
-                Tmin = (10, 'K'),
-                Tmax = (442.052, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [-6.76765, 0.127621, -8.03369e-05, 2.42522e-08, -2.81442e-12, 10559, 55.6214],
-                Tmin = (442.052, 'K'),
-                Tmax = (3000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[3.85112,0.00981513,0.000393112,-8.00916e-07,5.26715e-10,9832.45,15.4607], Tmin=(10,'K'), Tmax=(442.052,'K')),
+            NASAPolynomial(coeffs=[-6.76765,0.127621,-8.03369e-05,2.42522e-08,-2.81442e-12,10559,55.6214], Tmin=(442.052,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (10, 'K'),
-        Tmax = (3000, 'K'),
-        E0 = (81.731, 'kJ/mol'),
-        Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (702.573, 'J/(mol*K)'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (81.731,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (702.573,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CCCCC(C)C2[CH]1 calculated by Lawrence Lai""",
     longDesc = 
@@ -8128,50 +8040,42 @@ entry(
     label = "Benzocycloheptene",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {11,S} {12,S}
-2  C u0 p0 c0 {1,D} {3,S} {13,S}
-3  C u0 p0 c0 {2,S} {4,D} {14,S}
-4  C u0 p0 c0 {3,D} {5,S} {10,S}
-5  C u0 p0 c0 {4,S} {6,S} {15,S} {16,S}
-6  C u0 p0 c0 {5,S} {7,S} {17,S} {18,S}
-7  C u0 p0 c0 {6,S} {8,S} {19,S} {20,S}
-8  C u0 p0 c0 {7,S} {9,S} {21,S} {22,S}
-9  C u0 p0 c0 {8,S} {10,S} {23,S} {24,S}
-10 C u0 p0 c0 {4,S} {9,S} {11,D}
-11 C u0 p0 c0 {1,S} {10,D} {25,S}
-12 H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {14,S} {15,S}
+2  C u0 p0 c0 {1,S} {4,S} {12,S} {13,S}
+3  C u0 p0 c0 {1,S} {5,S} {16,S} {17,S}
+4  C u0 p0 c0 {2,S} {6,S} {18,S} {19,S}
+5  C u0 p0 c0 {3,S} {7,S} {20,S} {21,S}
+6  C u0 p0 c0 {4,S} {7,B} {8,B}
+7  C u0 p0 c0 {5,S} {6,B} {9,B}
+8  C u0 p0 c0 {6,B} {11,B} {24,S}
+9  C u0 p0 c0 {7,B} {10,B} {25,S}
+10 C u0 p0 c0 {9,B} {11,B} {22,S}
+11 C u0 p0 c0 {8,B} {10,B} {23,S}
+12 H u0 p0 c0 {2,S}
 13 H u0 p0 c0 {2,S}
-14 H u0 p0 c0 {3,S}
-15 H u0 p0 c0 {5,S}
-16 H u0 p0 c0 {5,S}
-17 H u0 p0 c0 {6,S}
-18 H u0 p0 c0 {6,S}
-19 H u0 p0 c0 {7,S}
-20 H u0 p0 c0 {7,S}
-21 H u0 p0 c0 {8,S}
-22 H u0 p0 c0 {8,S}
-23 H u0 p0 c0 {9,S}
-24 H u0 p0 c0 {9,S}
-25 H u0 p0 c0 {11,S}
+14 H u0 p0 c0 {1,S}
+15 H u0 p0 c0 {1,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {4,S}
+20 H u0 p0 c0 {5,S}
+21 H u0 p0 c0 {5,S}
+22 H u0 p0 c0 {10,S}
+23 H u0 p0 c0 {11,S}
+24 H u0 p0 c0 {8,S}
+25 H u0 p0 c0 {9,S}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [3.89888, 0.00620996, 0.000296518, -5.3483e-07, 3.11943e-10, -2913.6, 13.1445],
-                Tmin = (10, 'K'),
-                Tmax = (443.587, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [-8.20951, 0.115557, -7.37885e-05, 2.25239e-08, -2.63651e-12, -1840.96, 61.7001],
-                Tmin = (443.587, 'K'),
-                Tmax = (3000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[3.89888,0.00620996,0.000296518,-5.3483e-07,3.11943e-10,-2913.6,13.1445], Tmin=(10,'K'), Tmax=(443.587,'K')),
+            NASAPolynomial(coeffs=[-8.20951,0.115557,-7.37885e-05,2.25239e-08,-2.63651e-12,-1840.96,61.7001], Tmin=(443.587,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (10, 'K'),
-        Tmax = (3000, 'K'),
-        E0 = (-24.2606, 'kJ/mol'),
-        Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (606.956, 'J/(mol*K)'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-24.2606,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (606.956,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CCCCCC2=C1 calculated by Lawrence Lai""",
     longDesc = 
@@ -8187,49 +8091,41 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {12,S} {13,S}
-2  C u0 p0 c0 {1,D} {3,S} {14,S}
-3  C u0 p0 c0 {2,S} {4,D} {15,S}
-4  C u0 p0 c0 {3,D} {5,S} {11,S}
-5  C u0 p0 c0 {4,S} {6,S} {16,S} {17,S}
-6  C u0 p0 c0 {5,S} {7,S} {18,S} {19,S}
-7  C u0 p0 c0 {6,S} {8,S} {20,S} {21,S}
-8  C u0 p0 c0 {7,S} {9,S} {22,S} {23,S}
-9  C u1 p0 c0 {8,S} {10,S} {11,S}
-10 H u0 p0 c0 {9,S}
-11 C u0 p0 c0 {4,S} {9,S} {12,D}
-12 C u0 p0 c0 {1,S} {11,D} {24,S}
+1  C u0 p0 c0 {2,S} {3,S} {12,S} {13,S}
+2  C u0 p0 c0 {1,S} {4,S} {14,S} {15,S}
+3  C u0 p0 c0 {1,S} {5,S} {16,S} {17,S}
+4  C u0 p0 c0 {2,S} {7,S} {18,S} {19,S}
+5  C u0 p0 c0 {3,S} {6,B} {8,B}
+6  C u0 p0 c0 {5,B} {7,S} {9,B}
+7  C u1 p0 c0 {4,S} {6,S} {20,S}
+8  C u0 p0 c0 {5,B} {11,B} {23,S}
+9  C u0 p0 c0 {6,B} {10,B} {24,S}
+10 C u0 p0 c0 {9,B} {11,B} {21,S}
+11 C u0 p0 c0 {8,B} {10,B} {22,S}
+12 H u0 p0 c0 {1,S}
 13 H u0 p0 c0 {1,S}
 14 H u0 p0 c0 {2,S}
-15 H u0 p0 c0 {3,S}
-16 H u0 p0 c0 {5,S}
-17 H u0 p0 c0 {5,S}
-18 H u0 p0 c0 {6,S}
-19 H u0 p0 c0 {6,S}
+15 H u0 p0 c0 {2,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {4,S}
 20 H u0 p0 c0 {7,S}
-21 H u0 p0 c0 {7,S}
-22 H u0 p0 c0 {8,S}
+21 H u0 p0 c0 {10,S}
+22 H u0 p0 c0 {11,S}
 23 H u0 p0 c0 {8,S}
-24 H u0 p0 c0 {12,S}
+24 H u0 p0 c0 {9,S}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [3.91076, 0.00583236, 0.000314409, -6.09492e-07, 3.84931e-10, 17832.8, 14.3782],
-                Tmin = (10, 'K'),
-                Tmax = (408.153, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [-6.76789, 0.110673, -7.15753e-05, 2.20862e-08, -2.60786e-12, 18702.9, 56.3082],
-                Tmin = (408.153, 'K'),
-                Tmax = (3000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[3.91076,0.00583236,0.000314409,-6.09492e-07,3.84931e-10,17832.8,14.3782], Tmin=(10,'K'), Tmax=(408.153,'K')),
+            NASAPolynomial(coeffs=[-6.76789,0.110673,-7.15753e-05,2.20862e-08,-2.60786e-12,18702.9,56.3082], Tmin=(408.153,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (10, 'K'),
-        Tmax = (3000, 'K'),
-        E0 = (148.257, 'kJ/mol'),
-        Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (582.013, 'J/(mol*K)'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (148.257,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (582.013,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CCCC[CH]C2=C1 calculated by Lawrence Lai""",
     longDesc = 
@@ -8244,48 +8140,40 @@ entry(
     label = "Benzocycloheptadiene",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {11,S} {12,S}
-2  C u0 p0 c0 {1,D} {3,S} {13,S}
-3  C u0 p0 c0 {2,S} {4,D} {14,S}
-4  C u0 p0 c0 {3,D} {5,S} {10,S}
-5  C u0 p0 c0 {4,S} {6,S} {15,S} {16,S}
-6  C u0 p0 c0 {5,S} {7,S} {17,S} {18,S}
-7  C u0 p0 c0 {6,S} {8,S} {19,S} {20,S}
-8  C u0 p0 c0 {7,S} {9,D} {21,S}
-9  C u0 p0 c0 {8,D} {10,S} {22,S}
-10 C u0 p0 c0 {4,S} {9,S} {11,D}
-11 C u0 p0 c0 {1,S} {10,D} {23,S}
+1  C u0 p0 c0 {2,S} {3,S} {12,S} {13,S}
+2  C u0 p0 c0 {1,S} {4,S} {14,S} {15,S}
+3  C u0 p0 c0 {1,S} {6,S} {16,S} {17,S}
+4  C u0 p0 c0 {2,S} {5,B} {7,B}
+5  C u0 p0 c0 {4,B} {8,S} {9,B}
+6  C u0 p0 c0 {3,S} {8,D} {18,S}
+7  C u0 p0 c0 {4,B} {11,B} {21,S}
+8  C u0 p0 c0 {5,S} {6,D} {22,S}
+9  C u0 p0 c0 {5,B} {10,B} {23,S}
+10 C u0 p0 c0 {9,B} {11,B} {19,S}
+11 C u0 p0 c0 {7,B} {10,B} {20,S}
 12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {2,S}
-14 H u0 p0 c0 {3,S}
-15 H u0 p0 c0 {5,S}
-16 H u0 p0 c0 {5,S}
-17 H u0 p0 c0 {6,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {2,S}
+15 H u0 p0 c0 {2,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {3,S}
 18 H u0 p0 c0 {6,S}
-19 H u0 p0 c0 {7,S}
-20 H u0 p0 c0 {7,S}
-21 H u0 p0 c0 {8,S}
-22 H u0 p0 c0 {9,S}
-23 H u0 p0 c0 {11,S}
+19 H u0 p0 c0 {10,S}
+20 H u0 p0 c0 {11,S}
+21 H u0 p0 c0 {7,S}
+22 H u0 p0 c0 {8,S}
+23 H u0 p0 c0 {9,S}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [3.91347, 0.00551054, 0.000290924, -5.45909e-07, 3.32108e-10, 11129.7, 13.0862],
-                Tmin = (10, 'K'),
-                Tmax = (423.585, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [-6.90863, 0.107594, -7.01805e-05, 2.17993e-08, -2.58666e-12, 12047.5, 56.0122],
-                Tmin = (423.585, 'K'),
-                Tmax = (3000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[3.91347,0.00551054,0.000290924,-5.45909e-07,3.32108e-10,11129.7,13.0862], Tmin=(10,'K'), Tmax=(423.585,'K')),
+            NASAPolynomial(coeffs=[-6.90863,0.107594,-7.01805e-05,2.17993e-08,-2.58666e-12,12047.5,56.0122], Tmin=(423.585,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (10, 'K'),
-        Tmax = (3000, 'K'),
-        E0 = (92.5174, 'kJ/mol'),
-        Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (557.07, 'J/(mol*K)'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (92.5174,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (557.07,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CCCC=CC2=C1 calculated by Lawrence Lai""",
     longDesc = 
@@ -8301,47 +8189,39 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {12,S} {13,S}
-2  C u0 p0 c0 {1,D} {3,S} {14,S}
-3  C u0 p0 c0 {2,S} {4,D} {15,S}
-4  C u0 p0 c0 {3,D} {5,S} {11,S}
-5  C u0 p0 c0 {4,S} {6,S} {16,S} {17,S}
-6  C u0 p0 c0 {5,S} {7,S} {18,S} {19,S}
-7  C u1 p0 c0 {6,S} {8,S} {9,S}
-8  H u0 p0 c0 {7,S}
-9  C u0 p0 c0 {7,S} {10,D} {20,S}
-10 C u0 p0 c0 {9,D} {11,S} {21,S}
-11 C u0 p0 c0 {4,S} {10,S} {12,D}
-12 C u0 p0 c0 {1,S} {11,D} {22,S}
+1  C u0 p0 c0 {2,S} {3,S} {12,S} {13,S}
+2  C u0 p0 c0 {1,S} {5,S} {14,S} {15,S}
+3  C u0 p0 c0 {1,S} {4,B} {6,B}
+4  C u0 p0 c0 {3,B} {7,S} {8,B}
+5  C u1 p0 c0 {2,S} {9,S} {16,S}
+6  C u0 p0 c0 {3,B} {11,B} {19,S}
+7  C u0 p0 c0 {4,S} {9,D} {21,S}
+8  C u0 p0 c0 {4,B} {10,B} {22,S}
+9  C u0 p0 c0 {5,S} {7,D} {20,S}
+10 C u0 p0 c0 {8,B} {11,B} {17,S}
+11 C u0 p0 c0 {6,B} {10,B} {18,S}
+12 H u0 p0 c0 {1,S}
 13 H u0 p0 c0 {1,S}
 14 H u0 p0 c0 {2,S}
-15 H u0 p0 c0 {3,S}
+15 H u0 p0 c0 {2,S}
 16 H u0 p0 c0 {5,S}
-17 H u0 p0 c0 {5,S}
-18 H u0 p0 c0 {6,S}
+17 H u0 p0 c0 {10,S}
+18 H u0 p0 c0 {11,S}
 19 H u0 p0 c0 {6,S}
 20 H u0 p0 c0 {9,S}
-21 H u0 p0 c0 {10,S}
-22 H u0 p0 c0 {12,S}
+21 H u0 p0 c0 {7,S}
+22 H u0 p0 c0 {8,S}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [3.86741, 0.0078914, 0.00027044, -4.9289e-07, 2.81696e-10, 25556.1, 13.675],
-                Tmin = (10, 'K'),
-                Tmax = (532.076, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [-5.20454, 0.101851, -6.7067e-05, 2.09811e-08, -2.50233e-12, 26156.9, 48.2913],
-                Tmin = (532.076, 'K'),
-                Tmax = (3000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[3.86741,0.0078914,0.00027044,-4.9289e-07,2.81696e-10,25556.1,13.675], Tmin=(10,'K'), Tmax=(532.076,'K')),
+            NASAPolynomial(coeffs=[-5.20454,0.101851,-6.7067e-05,2.09811e-08,-2.50233e-12,26156.9,48.2913], Tmin=(532.076,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (10, 'K'),
-        Tmax = (3000, 'K'),
-        E0 = (212.434, 'kJ/mol'),
-        Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (532.126, 'J/(mol*K)'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (212.434,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (532.126,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CC[CH]C=CC2=C1 calculated by Lawrence Lai""",
     longDesc = 
@@ -8356,46 +8236,38 @@ entry(
     label = "Benzocycloheptatriene",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {11,S} {12,S}
-2  C u0 p0 c0 {1,D} {3,S} {13,S}
-3  C u0 p0 c0 {2,S} {4,D} {14,S}
-4  C u0 p0 c0 {3,D} {5,S} {10,S}
-5  C u0 p0 c0 {4,S} {6,S} {15,S} {16,S}
-6  C u0 p0 c0 {5,S} {7,D} {17,S}
-7  C u0 p0 c0 {6,D} {8,S} {18,S}
-8  C u0 p0 c0 {7,S} {9,D} {19,S}
-9  C u0 p0 c0 {8,D} {10,S} {20,S}
-10 C u0 p0 c0 {4,S} {9,S} {11,D}
-11 C u0 p0 c0 {1,S} {10,D} {21,S}
+1  C u0 p0 c0 {2,S} {4,S} {12,S} {13,S}
+2  C u0 p0 c0 {1,S} {3,B} {5,B}
+3  C u0 p0 c0 {2,B} {6,S} {7,B}
+4  C u0 p0 c0 {1,S} {8,D} {14,S}
+5  C u0 p0 c0 {2,B} {10,B} {17,S}
+6  C u0 p0 c0 {3,S} {11,D} {20,S}
+7  C u0 p0 c0 {3,B} {9,B} {21,S}
+8  C u0 p0 c0 {4,D} {11,S} {18,S}
+9  C u0 p0 c0 {7,B} {10,B} {15,S}
+10 C u0 p0 c0 {5,B} {9,B} {16,S}
+11 C u0 p0 c0 {6,D} {8,S} {19,S}
 12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {2,S}
-14 H u0 p0 c0 {3,S}
-15 H u0 p0 c0 {5,S}
-16 H u0 p0 c0 {5,S}
-17 H u0 p0 c0 {6,S}
-18 H u0 p0 c0 {7,S}
-19 H u0 p0 c0 {8,S}
-20 H u0 p0 c0 {9,S}
-21 H u0 p0 c0 {11,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {4,S}
+15 H u0 p0 c0 {9,S}
+16 H u0 p0 c0 {10,S}
+17 H u0 p0 c0 {5,S}
+18 H u0 p0 c0 {8,S}
+19 H u0 p0 c0 {11,S}
+20 H u0 p0 c0 {6,S}
+21 H u0 p0 c0 {7,S}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [3.87645, 0.00728452, 0.000255258, -4.58491e-07, 2.57881e-10, 22708.2, 12.4613],
-                Tmin = (10, 'K'),
-                Tmax = (539.34, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [-5.21182, 0.0986851, -6.5685e-05, 2.07168e-08, -2.48556e-12, 23339.6, 47.4601],
-                Tmin = (539.34, 'K'),
-                Tmax = (3000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[3.87645,0.00728452,0.000255258,-4.58491e-07,2.57881e-10,22708.2,12.4613], Tmin=(10,'K'), Tmax=(539.34,'K')),
+            NASAPolynomial(coeffs=[-5.21182,0.0986851,-6.5685e-05,2.07168e-08,-2.48556e-12,23339.6,47.4601], Tmin=(539.34,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (10, 'K'),
-        Tmax = (3000, 'K'),
-        E0 = (188.757, 'kJ/mol'),
-        Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (507.183, 'J/(mol*K)'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (188.757,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (507.183,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CC=CC=CC2=C1 calculated by Lawrence Lai""",
     longDesc = 
@@ -8405,57 +8277,47 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 """,
 )
 
-#The following species are a quick fix; these species thermo are approximated from the group additivity values available, and not actual quantum calculations
-
 entry(
     index = 170,
     label = "s2_6_7_ben_rad_2",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
-2  C u1 p0 c0 {1,S} {3,S} {12,S}
-3  C u0 p0 c0 {2,S} {4,S} {16,S} {17,S}
-4  C u0 p0 c0 {3,S} {5,S} {18,S} {19,S}
-5  C u0 p0 c0 {4,S} {6,S} {20,S} {21,S}
-6  C u0 p0 c0 {5,S} {7,S} {22,S} {23,S}
-7  C u0 p0 c0 {6,S} {8,D} {12,S}
-8  C u0 p0 c0 {7,D} {9,S} {24,S}
-9  C u0 p0 c0 {8,S} {10,D} {25,S}
-10 C u0 p0 c0 {9,D} {11,S} {26,S}
-11 C u0 p0 c0 {10,S} {12,D} {27,S}
-12 C u0 p0 c0 {2,S} {7,S} {11,D}
+1  C u0 p0 c0 {2,S} {3,S} {13,S} {14,S}
+2  C u0 p0 c0 {1,S} {4,S} {15,S} {16,S}
+3  C u0 p0 c0 {1,S} {6,S} {17,S} {18,S}
+4  C u0 p0 c0 {2,S} {7,S} {19,S} {20,S}
+5  C u0 p0 c0 {6,S} {21,S} {22,S} {23,S}
+6  C u1 p0 c0 {3,S} {5,S} {8,S}
+7  C u0 p0 c0 {4,S} {8,B} {9,B}
+8  C u0 p0 c0 {6,S} {7,B} {10,B}
+9  C u0 p0 c0 {7,B} {11,B} {24,S}
+10 C u0 p0 c0 {8,B} {12,B} {27,S}
+11 C u0 p0 c0 {9,B} {12,B} {25,S}
+12 C u0 p0 c0 {10,B} {11,B} {26,S}
 13 H u0 p0 c0 {1,S}
 14 H u0 p0 c0 {1,S}
-15 H u0 p0 c0 {1,S}
-16 H u0 p0 c0 {3,S}
+15 H u0 p0 c0 {2,S}
+16 H u0 p0 c0 {2,S}
 17 H u0 p0 c0 {3,S}
-18 H u0 p0 c0 {4,S}
+18 H u0 p0 c0 {3,S}
 19 H u0 p0 c0 {4,S}
-20 H u0 p0 c0 {5,S}
+20 H u0 p0 c0 {4,S}
 21 H u0 p0 c0 {5,S}
-22 H u0 p0 c0 {6,S}
-23 H u0 p0 c0 {6,S}
-24 H u0 p0 c0 {8,S}
-25 H u0 p0 c0 {9,S}
-26 H u0 p0 c0 {10,S}
-27 H u0 p0 c0 {11,S}
+22 H u0 p0 c0 {5,S}
+23 H u0 p0 c0 {5,S}
+24 H u0 p0 c0 {9,S}
+25 H u0 p0 c0 {11,S}
+26 H u0 p0 c0 {12,S}
+27 H u0 p0 c0 {10,S}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [-0.226007, 0.0661558, 0.000061131, -1.11635e-07, 4.24945e-11, 13989.3, 31.7709],
-                Tmin = (100, 'K'),
-                Tmax = (1033.62, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [17.7325, 0.0613584, -2.58001e-05, 4.99342e-09, -3.61444e-13, 6820.62, -72.1813],
-                Tmin = (1033.62, 'K'),
-                Tmax = (5000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[-0.226007,0.0661558,6.1131e-05,-1.11635e-07,4.24945e-11,13989.3,31.7709], Tmin=(100,'K'), Tmax=(1033.62,'K')),
+            NASAPolynomial(coeffs=[17.7325,0.0613584,-2.58001e-05,4.99342e-09,-3.61444e-13,6820.62,-72.1813], Tmin=(1033.62,'K'), Tmax=(5000,'K')),
         ],
-        Tmin = (100, 'K'),
-        Tmax = (3000, 'K'),
+        Tmin = (100,'K'),
+        Tmax = (3000,'K'),
     ),
     shortDesc = u"""library value for CC1CCC[CH]c2ccccc21 calculated by Lawrence Lai""",
     longDesc = 
@@ -8470,3 +8332,4 @@ Cs) + group(Cb-Cs) + group(Cb-H) + group(Cb-H) + group(Cb-H) + group(Cb-H) +
 polycyclic(s2_6_7_ben) + radical(Benzyl_S_Fused7)
 """,
 )
+
