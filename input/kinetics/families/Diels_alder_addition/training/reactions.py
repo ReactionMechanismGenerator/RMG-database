@@ -468,3 +468,36 @@ Converted to training reaction from rate rule: diene_unsub_unsub_out;diene_in_2H
 """,
 )
 
+entry(
+    index = 20,
+    label = "C4H6-2 + C4H6 <=> C8H12",
+    degeneracy = 1.0,
+        kinetics = Arrhenius(
+        A = (12479.4, 'cm^3/(mol*s)'),
+        n = 1.83063,
+        Ea = (93.3095, 'kJ/mol'),
+        T0 = (1, 'K')),
+    rank = 5,
+    shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
+    longDesc = 
+u"""
+Calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
+""",
+)
+
+entry(
+    index = 21,
+    label = "C4H6-3 + C4H6 <=> C8H12-2",
+    degeneracy = 1.0,
+        kinetics = Arrhenius(
+        A = (12479.4, 'cm^3/(mol*s)'),
+        n = 1.83063,
+        Ea = (93.3095, 'kJ/mol'),
+        T0 = (1, 'K')),
+    rank = 5,
+    shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
+    longDesc = 
+u"""
+Calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
+""",
+)

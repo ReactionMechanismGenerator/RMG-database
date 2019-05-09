@@ -99,3 +99,19 @@ Taken from entry: W3 <=> W2
 """,
 )
 
+entry(
+    index = 6,
+    label = "C8H12_DVCB <=> C8H12_COD",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (4.33836e+08, 's^-1'),
+        n = 0.725968,
+        Ea = (102.12, 'kJ/mol'),
+        T0 = (1, 'K')),
+    rank = 5, 
+    shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
+    longDesc = 
+u"""
+Calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
+""",
+)

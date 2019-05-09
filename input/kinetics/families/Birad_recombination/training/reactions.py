@@ -136,3 +136,54 @@ Converted to training reaction from rate rule: R3_SS;S_rad;Spri_rad
 """,
 )
 
+entry(
+    index = 6,
+    label = "C8H12 <=> C8H12-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.49424e+11, 's^-1'),
+        n = -0.0806221,
+        Ea = (12.5388, 'kJ/mol'),
+        T0 = (1, 'K')),
+    rank = 5,
+    shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
+    longDesc = 
+u"""
+library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
+""",
+)
+
+entry(
+    index = 7,
+    label = "C8H12_DVT <=> C8H12_COD",
+    degeneracy = 1,
+     kinetics = Arrhenius(
+        A = (1.56665e+11, 's^-1'),
+        n = -0.0961041,
+        Ea = (25.7391, 'kJ/mol'),
+        T0 = (1, 'K')),
+    rank = 5,
+    shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
+    longDesc = 
+u"""
+library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
+""",
+)
+
+entry(
+    index = 8,
+    label = "C8H12_DVT2 <=> C8H12_DVCB",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (8.79656e+11, 's^-1'),
+        n = -0.10273,
+        Ea = (12.1976, 'kJ/mol'),
+        T0 = (1, 'K')),
+    rank = 5,
+    shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
+    longDesc = 
+u"""
+library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
+""",
+)
+
