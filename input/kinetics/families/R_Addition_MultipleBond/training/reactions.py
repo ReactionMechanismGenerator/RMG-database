@@ -58242,3 +58242,26 @@ Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenan
 Original entry: Pyrene + H <=> W5
 """,
 )
+
+entry(
+    index = 2901,
+    label = "C6H5 + C6H6-2 <=> C12H11-16",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(
+        A = (9.55e+11, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (2.52, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (298, 'K'),
+        Tmax = (1330, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Fitted to experimental data for phenyl + benzene""",
+    longDesc = 
+u"""
+Park, J.; Burova, S.; Rodgers, A. S.; Lin, M. C. 
+Experimental and Theoretical Studies of the C6H5 + C6H6 Reaction. 
+J. Phys. Chem. A 1999, 103 (45), 9036–9041. 
+""",
+)
+
