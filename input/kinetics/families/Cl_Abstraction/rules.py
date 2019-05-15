@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python
 # encoding: utf-8
 
@@ -74,7 +73,22 @@ entry(
 
 entry(
     index = 563,
-    label = "Cl2;O_pri_rad",
+    label = "Cl2;OH_rad",
+    kinetics = ArrheniusEP(
+        A = (4.21E-13, 'cm^3/(mol*s)'),
+        n =2.10,
+        alpha = 0,
+        E0 = (1.14, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Default""",
+)
+
+entry(
+    index = 5630,
+    label = "Cl2;OCl_rad",
     kinetics = ArrheniusEP(
         A = (4.21E-13, 'cm^3/(mol*s)'),
         n =2.10,
@@ -225,6 +239,3 @@ entry(
     rank = 5,
     shortDesc = u"""Default""",
 )
-
-
-
