@@ -612,3 +612,72 @@ entry(
     Location of calculations Pharos/home/laitcl/Gaussian/2019/
 	"""
 )
+
+entry(
+    index = 42,
+    label = "C20H25-1 <=> C20H25-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.000000e+10, 's^-1'),
+        n = 0.000,
+        Ea = (46.850, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    shortDesc = u"This is a rate approximation to avoid the forbidden structure in Intra_R_Add_Exocyclic",
+    longDesc = 
+    u"""
+	This is a rate approximation to avoid the forbidden structure in Intra_R_Add_Exocyclic
+	! Estimated using template [R6_SSM_D;doublebond_intra;radadd_intra_cs] for rate rule [R6_SSM_D;doublebond_intra_HDe_secDe;radadd_intra_csHNd]
+	! Euclidian distance = 2.2360679775
+	! family: Intra_R_Add_Exocyclic
+	C20H25(14)=SPC(1)(1)                                1.000000e+10 0.000     46.850 
+	"""
+)
+
+entry(
+    index = 43,
+    label = "C20H25-3 <=> C20H25-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.841360e+02, 's^-1'),
+        n = 1.703,
+        Ea = (6.226, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    shortDesc = u"This is a rate approximation to avoid the forbidden structure in Intra_R_Add_Exocyclic",
+    longDesc = 
+    u"""
+	This is a rate approximation to avoid the forbidden structure in Intra_R_Add_Exocyclic
+	! Estimated using template [R7_SSSR;multiplebond_intra;radadd_intra_csHNd] for rate rule [R7_SSSM_D;doublebond_intra_HDe_secDe;radadd_intra_csHNd]
+	! Euclidian distance = 3.60555127546
+	! family: Intra_R_Add_Exocyclic
+	C20H25(14)=SPC(1)(1)                                2.841360e+02 1.703     6.226   
+	"""
+)
+
+entry(
+    index = 44,
+    label = "C20H25-5 <=> C20H25-6",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.883480e+05, 's^-1'),
+        n = 1.015,
+        Ea = (7.449, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    shortDesc = u"	This is a rate approximation to avoid the forbidden structure in Intra_R_Add_Exocyclic",
+    longDesc = 
+    u"""
+	This is a rate approximation to avoid the forbidden structure in Intra_R_Add_Exocyclic
+	! Estimated using template [R7_SSSR;multiplebond_intra;radadd_intra_cs2H] for rate rule [R7_SSSM_D;doublebond_intra_HDe_secDe;radadd_intra_cs2H]
+	! Euclidian distance = 3.60555127546
+	! family: Intra_R_Add_Exocyclic
+	C20H25(14)=SPC(1)(1)                                3.883480e+05 1.015     7.449   
+	"""
+)
