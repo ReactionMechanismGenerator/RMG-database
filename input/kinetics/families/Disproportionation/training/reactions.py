@@ -1814,7 +1814,7 @@ Converted to training reaction from rate rule: H_rad;O_Csrad
 
 entry(
     index = 57,
-    label = "CH3O + CH3 <=> CH4 + CH2O",
+    label = "CH3O + CH3_r1 <=> CH4 + CH2O",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (8.49e+13, 'cm^3/(mol*s)'),
@@ -2606,7 +2606,7 @@ Converted to training reaction from rate rule: O_pri_rad;N3s/H2_s_Nbirad
 
 entry(
     index = 88,
-    label = "H2N2 + CH3 <=> CH4 + HN2",
+    label = "H2N2 + CH3_r1 <=> CH4 + HN2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (3.2e+06, 'cm^3/(mol*s)'),
@@ -2738,7 +2738,7 @@ Converted to training reaction from rate rule: O_pri_rad;N3s/H2_s_Nrad
 
 entry(
     index = 94,
-    label = "H3N2 + CH3 <=> CH4 + H2N2-2",
+    label = "H3N2 + CH3_r1 <=> CH4 + H2N2-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (1.64e+06, 'cm^3/(mol*s)'),
@@ -2894,7 +2894,7 @@ Converted to training reaction from rate rule: O_pri_rad;N3s/H2_s_Orad
 
 entry(
     index = 101,
-    label = "H2NO + CH3 <=> CH4 + HNO-2",
+    label = "H2NO + CH3_r1 <=> CH4 + HNO-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (3.2e+06, 'cm^3/(mol*s)'),
@@ -3050,7 +3050,7 @@ Converted to training reaction from rate rule: O_pri_rad;O_Nrad
 
 entry(
     index = 108,
-    label = "H2NO-3 + CH3 <=> CH4 + HNO-3",
+    label = "H2NO-3 + CH3_r1 <=> CH4 + HNO-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.6e+06, 'cm^3/(mol*s)'),
@@ -3362,7 +3362,7 @@ Converted to training reaction from rate rule: O_pri_rad;N3d/H_d_Crad
 
 entry(
     index = 122,
-    label = "CH2N-3 + CH3 <=> CH4 + CHN-2",
+    label = "CH2N-3 + CH3_r1 <=> CH4 + CHN-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (820000, 'cm^3/(mol*s)'),
@@ -3450,7 +3450,7 @@ Converted to training reaction from rate rule: O_pri_rad;Cmethyl_Nrad
 
 entry(
     index = 126,
-    label = "CH4N + CH3 <=> CH4 + CH3N-2",
+    label = "CH4N + CH3_r1 <=> CH4 + CH3N-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (7.2e+06, 'cm^3/(mol*s)'),
