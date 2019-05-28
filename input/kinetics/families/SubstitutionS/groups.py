@@ -21,14 +21,20 @@ recipe(actions=[
 entry(
     index = 0,
     label = "S-RR_or_RRrad",
-    group = "OR{S-RR, S-RRrad}",
+    group = """
+    1 *1 S2s u0 p2 c0 {2,S} {3,S}
+    2 *2 R   u[0,1] {1,S}
+    3    R   u0 {1,S}
+    """,
     kinetics = None,
 )
 
 entry(
     index = 1,
     label = "YJ",
-    group = "OR{Y_2centeradjbirad, HJ, CJ, O_rad, SJ, Y_1centerbirad}",
+    group = """
+    1 *3 [C,O,S,H] u[1,2]
+    """,
     kinetics = None,
 )
 
