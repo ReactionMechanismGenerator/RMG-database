@@ -53,9 +53,9 @@ entry(
     label = "BD + BD <=> VCH",
     degeneracy = 4,
         kinetics = Arrhenius(
-        A = (12479.4, 'cm^3/(mol*s)'),
-        n = 1.83063,
-        Ea = (93.3095, 'kJ/mol'),
+        A = (3707.14, 'cm^3/(mol*s)'),
+        n = 2.00692,
+        Ea = (80.6973, 'kJ/mol'),
         T0 = (1, 'K')),
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
     longDesc = 
