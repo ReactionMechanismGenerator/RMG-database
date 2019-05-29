@@ -60,7 +60,8 @@ entry(
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
     longDesc = 
 u"""
-library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
+library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019. This reaction rate is fitted using Arkane with the default temperature point plus additional 17 temperature points at 303.3 - 473.3. To be specific, the Tlist = ([303.3, 310.0, 320.0, 330.0, 340.0, 341.2, 343.0, 353.0, 363.0, 373.0, 379.0, 383.0, 393.0, 403.0, 413.0, 416.9, 423.0, 433.0, 443.0, 453.0, 454.8, 463.0, 473.0, 492.7, 530.5, 568.4, 606.3, 644.2, 682.0, 719.9, 757.8, 795.7, 833.5, 871.4, 909.3, 947.2, 985.0, 1022.9, 1060.8, 1098.7, 1136.5, 1174.4, 1212.3, 1250.2, 1288.0, 1325.9, 1363.8, 1401.7, 1439.5, 1477.4, 1515.3, 1553.1, 1591.0, 1628.9, 1666.8, 1704.6, 1742.5, 1780.4, 1818.3, 1856.1, 1894.0, 1931.9, 1969.8, 2007.6, 2045.5, 2083.4, 2121.3, 2159.1, 2197.0, 2234.9, 2272.8, 2310.6, 2348.5, 2386.4, 2424.3, 2462.1, 2500.0], 'K')
+
 """,
 )
 
