@@ -175,10 +175,11 @@ entry(
     label = "C8H12_DVT2 <=> C8H12_DVCB",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (8.79656e+11, 's^-1'),
-        n = -0.10273,
-        Ea = (12.1976, 'kJ/mol'),
-        T0 = (1, 'K')),
+        A = (1.3971e+12, 's^-1'),
+        n = -0.104026,
+        Ea = (16.1686, 'kJ/mol'),
+        T0 = (1, 'K')
+    ),
     rank = 5,
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
     longDesc = 
