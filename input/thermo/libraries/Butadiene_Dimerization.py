@@ -311,3 +311,65 @@ u"""
 library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,
 )
+
+entry(
+    index = 7,
+    label = "4-cyclohex-3-en-1-ylcyclohexene",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {6,S} {13,S} {14,S}
+2  C u0 p0 c0 {1,S} {3,S} {15,S} {16,S}
+3  C u0 p0 c0 {2,S} {4,S} {7,S} {17,S}
+4  C u0 p0 c0 {3,S} {5,S} {18,S} {19,S}
+5  C u0 p0 c0 {4,S} {6,D} {20,S}
+6  C u0 p0 c0 {1,S} {5,D} {21,S}
+7  C u0 p0 c0 {3,S} {8,S} {12,S} {22,S}
+8  C u0 p0 c0 {7,S} {9,S} {23,S} {24,S}
+9  C u0 p0 c0 {8,S} {10,S} {25,S} {26,S}
+10 C u0 p0 c0 {9,S} {11,D} {27,S}
+11 C u0 p0 c0 {10,D} {12,S} {28,S}
+12 C u0 p0 c0 {7,S} {11,S} {29,S} {30,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {1,S}
+15 H u0 p0 c0 {2,S}
+16 H u0 p0 c0 {2,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {4,S}
+20 H u0 p0 c0 {5,S}
+21 H u0 p0 c0 {6,S}
+22 H u0 p0 c0 {7,S}
+23 H u0 p0 c0 {8,S}
+24 H u0 p0 c0 {8,S}
+25 H u0 p0 c0 {9,S}
+26 H u0 p0 c0 {9,S}
+27 H u0 p0 c0 {10,S}
+28 H u0 p0 c0 {11,S}
+29 H u0 p0 c0 {12,S}
+30 H u0 p0 c0 {12,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.91114, 0.0463003, 0.000121587, -1.7298e-07, 6.48273e-11, -1826.04, 12.3272],
+                Tmin = (10, 'K'),
+                Tmax = (939.093, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [3.21771, 0.103446, -5.6252e-05, 1.4719e-08, -1.49958e-12, -4085.4, 2.90609],
+                Tmin = (939.093, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (-14.9921, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (727.516, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
+    longDesc = 
+u"""
+Thermo library value for butadiene polymerization reactions calculated by Duminda Ranasinghe in May 2019
+""",
+)
