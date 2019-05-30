@@ -196,8 +196,10 @@ entry(
     kinetics = Arrhenius(
         A = (6.6e+07, 's^-1'),
         n = 1.08,
-        Ea = (30.4, 'kcal/mol', '+|-', 1),
+        Ea = (30.4, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -209,12 +211,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -225,8 +227,10 @@ entry(
     kinetics = Arrhenius(
         A = (1.02e+07, 's^-1'),
         n = 1.34,
-        Ea = (30.1, 'kcal/mol', '+|-', 1),
+        Ea = (30.1, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -238,12 +242,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -254,8 +258,10 @@ entry(
     kinetics = Arrhenius(
         A = (1e+07, 's^-1'),
         n = 1.34,
-        Ea = (29.4, 'kcal/mol', '+|-', 1),
+        Ea = (29.4, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -267,12 +273,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -283,8 +289,10 @@ entry(
     kinetics = Arrhenius(
         A = (1.61e+08, 's^-1'),
         n = 0.96,
-        Ea = (29.4, 'kcal/mol', '+|-', 1),
+        Ea = (29.4, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -296,12 +304,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling" Trans conformation of pentenyl.
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling" Trans conformation of pentenyl.
 """,
 )
 
@@ -312,8 +320,10 @@ entry(
     kinetics = Arrhenius(
         A = (2.01e+08, 's^-1'),
         n = 1.02,
-        Ea = (29.7, 'kcal/mol', '+|-', 1),
+        Ea = (29.7, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -325,12 +335,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -341,8 +351,10 @@ entry(
     kinetics = Arrhenius(
         A = (3.82e+08, 's^-1'),
         n = 0.91,
-        Ea = (30, 'kcal/mol', '+|-', 1),
+        Ea = (30, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -354,12 +366,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -370,8 +382,10 @@ entry(
     kinetics = Arrhenius(
         A = (2.41e+08, 's^-1'),
         n = 0.96,
-        Ea = (29.3, 'kcal/mol', '+|-', 1),
+        Ea = (29.3, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -383,12 +397,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -399,8 +413,10 @@ entry(
     kinetics = Arrhenius(
         A = (2.02e+06, 's^-1'),
         n = 1.58,
-        Ea = (29.7, 'kcal/mol', '+|-', 1),
+        Ea = (29.7, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -412,12 +428,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -428,8 +444,10 @@ entry(
     kinetics = Arrhenius(
         A = (2.71e+08, 's^-1'),
         n = 0.99,
-        Ea = (29.7, 'kcal/mol', '+|-', 1),
+        Ea = (29.7, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -441,12 +459,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -457,8 +475,10 @@ entry(
     kinetics = Arrhenius(
         A = (1.15e+07, 's^-1'),
         n = 1.24,
-        Ea = (30.9, 'kcal/mol', '+|-', 1),
+        Ea = (30.9, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -470,12 +490,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -486,8 +506,10 @@ entry(
     kinetics = Arrhenius(
         A = (1.65e+07, 's^-1'),
         n = 1.02,
-        Ea = (14.2, 'kcal/mol', '+|-', 1),
+        Ea = (14.2, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -499,12 +521,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -515,8 +537,10 @@ entry(
     kinetics = Arrhenius(
         A = (4.64e+06, 's^-1'),
         n = 1.15,
-        Ea = (13.9, 'kcal/mol', '+|-', 1),
+        Ea = (13.9, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -528,12 +552,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -544,8 +568,10 @@ entry(
     kinetics = Arrhenius(
         A = (1.07e+06, 's^-1'),
         n = 1.38,
-        Ea = (12.2, 'kcal/mol', '+|-', 1),
+        Ea = (12.2, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -557,12 +583,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -573,8 +599,10 @@ entry(
     kinetics = Arrhenius(
         A = (2.94e+07, 's^-1'),
         n = 0.93,
-        Ea = (13.9, 'kcal/mol', '+|-', 1),
+        Ea = (13.9, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -586,12 +614,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling" Trans conformation of hexenyl.
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling" Trans conformation of hexenyl.
 """,
 )
 
@@ -602,8 +630,10 @@ entry(
     kinetics = Arrhenius(
         A = (6.65e+07, 's^-1'),
         n = 0.83,
-        Ea = (13.4, 'kcal/mol', '+|-', 1),
+        Ea = (13.4, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -615,12 +645,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -631,8 +661,10 @@ entry(
     kinetics = Arrhenius(
         A = (7.25e+07, 's^-1'),
         n = 0.83,
-        Ea = (14.1, 'kcal/mol', '+|-', 1),
+        Ea = (14.1, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -644,12 +676,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -660,8 +692,10 @@ entry(
     kinetics = Arrhenius(
         A = (2.23e+07, 's^-1'),
         n = 1,
-        Ea = (13.5, 'kcal/mol', '+|-', 1),
+        Ea = (13.5, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -673,12 +707,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -689,8 +723,10 @@ entry(
     kinetics = Arrhenius(
         A = (1.38e+08, 's^-1'),
         n = 0.75,
-        Ea = (12.6, 'kcal/mol', '+|-', 1),
+        Ea = (12.6, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -702,12 +738,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -718,8 +754,10 @@ entry(
     kinetics = Arrhenius(
         A = (1.6e+08, 's^-1'),
         n = 0.76,
-        Ea = (13.4, 'kcal/mol', '+|-', 1),
+        Ea = (13.4, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -731,12 +769,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -747,8 +785,10 @@ entry(
     kinetics = Arrhenius(
         A = (4.9e+06, 's^-1'),
         n = 1.13,
-        Ea = (15.6, 'kcal/mol', '+|-', 1),
+        Ea = (15.6, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -760,12 +800,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -776,8 +816,10 @@ entry(
     kinetics = Arrhenius(
         A = (1.25e+06, 's^-1'),
         n = 1.08,
-        Ea = (6.7, 'kcal/mol', '+|-', 1),
+        Ea = (6.7, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -789,12 +831,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -805,8 +847,10 @@ entry(
     kinetics = Arrhenius(
         A = (487000, 's^-1'),
         n = 1.17,
-        Ea = (6.3, 'kcal/mol', '+|-', 1),
+        Ea = (6.3, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -818,12 +862,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -834,8 +878,10 @@ entry(
     kinetics = Arrhenius(
         A = (33000, 's^-1'),
         n = 1.42,
-        Ea = (4.7, 'kcal/mol', '+|-', 1),
+        Ea = (4.7, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -847,12 +893,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -863,8 +909,10 @@ entry(
     kinetics = Arrhenius(
         A = (1.26e+06, 's^-1'),
         n = 1.02,
-        Ea = (6.3, 'kcal/mol', '+|-', 1),
+        Ea = (6.3, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -876,12 +924,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling" Trans conformation of heptenyl.
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling" Trans conformation of heptenyl.
 """,
 )
 
@@ -892,8 +940,10 @@ entry(
     kinetics = Arrhenius(
         A = (2.01e+06, 's^-1'),
         n = 1.05,
-        Ea = (5.8, 'kcal/mol', '+|-', 1),
+        Ea = (5.8, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -905,12 +955,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -921,8 +971,10 @@ entry(
     kinetics = Arrhenius(
         A = (7.32e+06, 's^-1'),
         n = 0.84,
-        Ea = (5.9, 'kcal/mol', '+|-', 1),
+        Ea = (5.9, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -934,12 +986,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -950,8 +1002,10 @@ entry(
     kinetics = Arrhenius(
         A = (1.24e+07, 's^-1'),
         n = 0.79,
-        Ea = (6.2, 'kcal/mol', '+|-', 1),
+        Ea = (6.2, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -963,12 +1017,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -979,8 +1033,10 @@ entry(
     kinetics = Arrhenius(
         A = (1.46e+06, 's^-1'),
         n = 1.02,
-        Ea = (6.1, 'kcal/mol', '+|-', 1),
+        Ea = (6.1, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -992,12 +1048,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1008,8 +1064,10 @@ entry(
     kinetics = Arrhenius(
         A = (1.19e+07, 's^-1'),
         n = 0.78,
-        Ea = (6.2, 'kcal/mol', '+|-', 1),
+        Ea = (6.2, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -1021,12 +1079,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1037,8 +1095,10 @@ entry(
     kinetics = Arrhenius(
         A = (3.5e+07, 's^-1'),
         n = 0.7,
-        Ea = (6.3, 'kcal/mol', '+|-', 1),
+        Ea = (6.3, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -1050,12 +1110,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1066,8 +1126,10 @@ entry(
     kinetics = Arrhenius(
         A = (5.85e+07, 's^-1'),
         n = 0.63,
-        Ea = (6.3, 'kcal/mol', '+|-', 1),
+        Ea = (6.3, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -1079,12 +1141,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1095,8 +1157,10 @@ entry(
     kinetics = Arrhenius(
         A = (344000, 's^-1'),
         n = 1.1,
-        Ea = (7.7, 'kcal/mol', '+|-', 1),
+        Ea = (7.7, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -1108,12 +1172,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1124,8 +1188,10 @@ entry(
     kinetics = Arrhenius(
         A = (114000, 's^-1'),
         n = 1.2,
-        Ea = (6.5, 'kcal/mol', '+|-', 1),
+        Ea = (6.5, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -1137,12 +1203,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1153,8 +1219,10 @@ entry(
     kinetics = Arrhenius(
         A = (21100, 's^-1'),
         n = 1.34,
-        Ea = (6.4, 'kcal/mol', '+|-', 1),
+        Ea = (6.4, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -1166,12 +1234,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1179,7 +1247,14 @@ entry(
     index = 48,
     label = "C_CCCCCCJ(C)C <=> 3,3-dimethylcycloheptyl",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(554, 's^-1'), n=1.66, Ea=(4.9, 'kcal/mol', '+|-', 1), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (554, 's^-1'),
+        n = 1.66,
+        Ea = (4.9, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
@@ -1190,12 +1265,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1206,8 +1281,10 @@ entry(
     kinetics = Arrhenius(
         A = (110000, 's^-1'),
         n = 1.18,
-        Ea = (6.5, 'kcal/mol', '+|-', 1),
+        Ea = (6.5, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -1219,12 +1296,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1235,8 +1312,10 @@ entry(
     kinetics = Arrhenius(
         A = (185000, 's^-1'),
         n = 1.07,
-        Ea = (6.4, 'kcal/mol', '+|-', 1),
+        Ea = (6.4, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -1248,12 +1327,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1264,8 +1343,10 @@ entry(
     kinetics = Arrhenius(
         A = (12200, 's^-1'),
         n = 1.36,
-        Ea = (8.5, 'kcal/mol', '+|-', 1),
+        Ea = (8.5, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ['K. Wang', 'S. Villano', 'A. Dean'],
@@ -1277,12 +1358,12 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
