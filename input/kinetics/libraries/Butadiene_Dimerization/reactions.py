@@ -13,7 +13,7 @@ Specifics of the calculations performed:
 2. Frequency was calculated using B3LYP/CBSB7 iop(7/33=1) (Hessian was calculated)
 3. 1D Hindered Rotors were calculated for steps of 10 degrees up to the full 360 degree cycle, with geometry optimization on each step, using B3LYP/CBSB7
 4. All files generated were fed to Arkane.
-5. Bond and atom additivity corrections were not used for the rate calculation.
+5. Bond additivity correction was not used for the rate calculation.
 """
 entry(
     index = 1,
@@ -22,7 +22,7 @@ entry(
     kinetics = Arrhenius(
         A = (6.70652e+13, 's^-1'),
         n = -0.361171,
-        Ea = (185.835, 'kJ/mol'),
+        Ea = (187.676, 'kJ/mol'),
         T0 = (1, 'K')
     ),
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
@@ -52,11 +52,12 @@ entry(
     index = 3,
     label = "BD + BD <=> VCH",
     degeneracy = 4,
-        kinetics = Arrhenius(
-        A = (12479.4, 'cm^3/(mol*s)'),
-        n = 1.83063,
-        Ea = (93.3095, 'kJ/mol'),
-        T0 = (1, 'K')),
+    kinetics = Arrhenius(
+        A = (17635, 'cm^3/(mol*s)'),
+        n = 1.8055,
+        Ea = (81.8512, 'kJ/mol'),
+        T0 = (1, 'K')
+    ),
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
     longDesc = 
 u"""
@@ -117,10 +118,11 @@ entry(
     label = "DVT <=> DVCB",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (8.79656e+11, 's^-1'),
-        n = -0.10273,
-        Ea = (12.1976, 'kJ/mol'),
-        T0 = (1, 'K')),
+        A = (1.3971e+12, 's^-1'),
+        n = -0.104026,
+        Ea = (16.1686, 'kJ/mol'),
+        T0 = (1, 'K')
+    ),
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
     longDesc = 
 u"""
