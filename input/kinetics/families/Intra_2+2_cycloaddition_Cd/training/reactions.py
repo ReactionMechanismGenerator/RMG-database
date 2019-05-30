@@ -32,7 +32,7 @@ entry(
     kinetics = Arrhenius(
         A = (6.70652e+13, 's^-1'),
         n = -0.361171,
-        Ea = (185.835, 'kJ/mol'),
+        Ea = (187.676, 'kJ/mol'),
         T0 = (1, 'K')
     ),
     rank = 5,
