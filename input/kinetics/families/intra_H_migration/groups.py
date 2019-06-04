@@ -5290,6 +5290,44 @@ because the TS would be far too strained. Resonance form 3.
 )
 
 forbidden(
+    label = "aromatic_ring_1_3_res1",
+    group =
+"""
+1 *2 C u0 p0 c0 {2,[D,B]} {6,[S,B]} {7,S}
+2 *4 C u0 p0 c0 {1,[D,B]} {3,[S,B]}
+3 *1 C u1 p0 c0 {2,[S,B]} {4,[D,B]}
+4    C u0 p0 c0 {3,[D,B]} {5,[S,B]}
+5    C u0 p0 c0 {4,[S,B]} {6,[D,B]}
+6    C u0 p0 c0 {1,[S,B]} {5,[D,B]}
+7 *3 H u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid H migration from ortho position on an aromatic ring to the para position or vice versa
+""",
+)
+
+forbidden(
+    label = "aromatic_ring_1_3_res2",
+    group =
+"""
+1 *2 C u0 p0 c0 {2,S} {6,D} {7,S}
+2 *4 C u0 p0 c0 {1,S} {3,D}
+3 *1 C u1 p0 c0 {2,D} {4,S}
+4    C u0 p0 c0 {3,S} {5,D}
+5    C u0 p0 c0 {4,D} {6,S}
+6    C u0 p0 c0 {1,D} {5,S}
+7 *3 H u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid H migration from ortho position on an aromatic ring to the para position or vice versa
+""",
+)
+
+forbidden(
     label = "[CH2]C1=CC(C)CC=C1_1",
     group = 
 """
