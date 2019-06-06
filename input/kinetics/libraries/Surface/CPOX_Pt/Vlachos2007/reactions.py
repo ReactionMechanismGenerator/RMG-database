@@ -9,7 +9,7 @@ test surface mechanism: based upon D.G. Vlachos' work:
 Mhadeshwar and Vlachos
 Ind. Eng. Chem. Res., 2007, 56, 5310-5324
 
-Note: The pre-exponential values are for surface coverage 2.72E-5 mol/m2 (same as in the Deutschmann 2006 mechanism). The pre-exponenitals listed here are calculated as follows: A = A_from_paper/(surface coverage)*(300K)^n), where n is the given temperature exponent. The activation energy is for 300K and does not include coverage or temperature dependence terms. Also note that the activation energy was converted from kcal/mol to J/mol.
+Note: The pre-exponential values are for surface coverage 2.72E-5 mol/m2 (same as in the Deutschmann 2006 mechanism). The pre-exponenitals listed here are calculated as follows: A = A_from_paper/(surface coverage)^(n-1)*(300K)^b), where n is order of reaction and b is the given temperature exponent. The activation energy is for 300K and does not include coverage or temperature dependence terms. Also note that the activation energy was converted from kcal/mol to J/mol.
 """
 
 #Oxygen Adsorption-Desorption Steps
@@ -580,7 +580,7 @@ entry(
 
 entry(
     index = 39,
-    label = "HCOO + Pt + Pt <=> OXCHOX",
+    label = "HCOO + Pt + Pt <=> OCHXOX",
     kinetics = StickingCoefficient(
         A = 1.46E-1,
         n = 0.201,
@@ -595,7 +595,7 @@ entry(
 #endothermic - reverse of R39
 #entry(
 #    index = 40,
-#    label = "OXCHOX <=> HCOO + Pt + Pt",
+#    label = "OCHXOX <=> HCOO + Pt + Pt",
 #    kinetics = SurfaceArrhenius(
 #        A=(1.52E13, '1/s'),
 #        n = -0.201,
@@ -610,7 +610,7 @@ entry(
 #endothermic - reverse of R42
 #entry(
 #    index = 41,
-#    label = "CO2X + HX <=> OXCHOX",
+#    label = "CO2X + HX <=> OCHXOX",
 #    kinetics = SurfaceArrhenius(
 #        A=(4.57E16, 'm^2/(mol*s)'),
 #        n = -0.422,
@@ -624,7 +624,7 @@ entry(
 
 entry(
     index = 42,
-    label = "OXCHOX <=> CO2X + HX",
+    label = "OCHXOX <=> CO2X + HX",
     kinetics = SurfaceArrhenius(
         A=(8.07E9, '1/s'),
         n = 0.422,
@@ -639,7 +639,7 @@ entry(
 #endothermic - reverse of R44
 #entry(
 #    index = 43,
-#    label = "CO2X + HOX + Pt <=> OXCHOX + OX",
+#    label = "CO2X + HOX + Pt <=> OCHXOX + OX",
 #    kinetics = SurfaceArrhenius(
 #        A=(2.17E19, 'm^4/(mol^2*s)'),
 #        n = 0.236,
@@ -653,7 +653,7 @@ entry(
 
 entry(
     index = 44,
-    label = "OXCHOX + OX <=> CO2X + HOX + Pt",
+    label = "OCHXOX + OX <=> CO2X + HOX + Pt",
     kinetics = SurfaceArrhenius(
         A=(2.29E16, 'm^2/(mol*s)'),
         n = -0.236,
@@ -668,7 +668,7 @@ entry(
 #endothermic - reverse of R46
 #entry(
 #    index = 45,
-#    label = "CO2X + H2OX + Pt <=> OXCHOX + HOX",
+#    label = "CO2X + H2OX + Pt <=> OCHXOX + HOX",
 #    kinetics = SurfaceArrhenius(
 #        A=(8.02E19, 'm^4/(mol^2*s)'),
 #        n = 0.095,
@@ -682,7 +682,7 @@ entry(
 
 entry(
     index = 46,
-    label = "OXCHOX + HOX <=> CO2X + H2OX + Pt",
+    label = "OCHXOX + HOX <=> CO2X + H2OX + Pt",
     kinetics = SurfaceArrhenius(
         A=(6.24E15, 'm^2/(mol*s)'),
         n = -0.095,
