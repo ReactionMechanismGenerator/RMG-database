@@ -1032,7 +1032,7 @@ entry(
 
 entry(
     index = 70,
-    label = "CH2X + H2OX <=> CH3X + HOX",
+    label = "CH3X + HOX <=> CH2X + H2OX",
     kinetics = SurfaceArrhenius(
         A=(7.90E15, 'm^2/(mol*s)'),
         n = -0.099,
