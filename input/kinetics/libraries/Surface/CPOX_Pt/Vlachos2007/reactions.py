@@ -9,7 +9,12 @@ test surface mechanism: based upon D.G. Vlachos' work:
 Mhadeshwar and Vlachos
 Ind. Eng. Chem. Res., 2007, 56, 5310-5324
 
-Note: The pre-exponential values are for surface coverage 2.72E-5 mol/m2 (same as in the Deutschmann 2006 mechanism). The pre-exponenitals listed here are calculated as follows: A = A_from_paper/(surface coverage)^(n-1)*(300K)^b), where n is order of reaction and b is the given temperature exponent. The activation energy is for 300K and does not include coverage or temperature dependence terms. Also note that the activation energy was converted from kcal/mol to J/mol.
+Note: The pre-exponential values are for surface coverage 2.72E-5 mol/m2 (same as in the Deutschmann 2006 mechanism). 
+The pre-exponenitals listed here are calculated as follows: A = A_from_paper/(surface coverage)^(n-1)*(300K)^b), where n is the
+order of reaction and b is the given temperature exponent. 
+For sticking coefficients, A = sticking_coefficient_from_paper/(300K)^b.
+The activation energy is for 300K and does not include coverage or temperature dependence terms. 
+Also note that the activation energy was converted from kcal/mol to J/mol.
 """
 
 #Oxygen Adsorption-Desorption Steps
@@ -18,7 +23,7 @@ entry(
     index = 1,
     label = "O2 + Pt + Pt <=> OX + OX",
     kinetics = StickingCoefficient(
-        A = 5.42E-2,
+        A = 6.86E-04,
         n = 0.766,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -48,7 +53,7 @@ entry(
     index = 3,
     label = "O + Pt <=> OX",
     kinetics = StickingCoefficient(
-        A = 4.91E-2,
+        A = 1.18E-02,
         n = 0.25,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -109,7 +114,7 @@ entry(
     index = 7,
     label = "CO2 + Pt <=> CO2X",
     kinetics = StickingCoefficient(
-        A = 1.95E-1,
+        A = 4.69E-02,
         n = 0.25,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -170,7 +175,7 @@ entry(
     index = 11,
     label = "H2 + Pt + Pt <=> HX + HX",
     kinetics = StickingCoefficient(
-        A = 1.29E-1,
+        A = 9.67E-04,
         n = 0.858,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -288,7 +293,7 @@ entry(
     index = 19,
     label = "OH + Pt <=> HOX",
     kinetics = StickingCoefficient(
-        A = 9.99E-1,
+        A = 1.11E-05,
         n = 2.0,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -317,7 +322,7 @@ entry(
     index = 21,
     label = "H2O + Pt <=> H2OX",
     kinetics = StickingCoefficient(
-        A = 1.08E-1,
+        A = 1.43E-04,
         n = 1.162,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -346,7 +351,7 @@ entry(
     index = 23,
     label = "H + Pt <=> HX",
     kinetics = StickingCoefficient(
-        A = 3.84E-1,
+        A = 1.11E-05,
         n = 1.832,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -406,7 +411,7 @@ entry(
     index = 27,
     label = "COOH + Pt <=> HOCXO",
     kinetics = StickingCoefficient(
-        A = 6.34E-2,
+        A = 1.05E-01,
         n = -0.089,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -582,7 +587,7 @@ entry(
     index = 39,
     label = "HCOO + Pt + Pt <=> OCHXOX",
     kinetics = StickingCoefficient(
-        A = 1.46E-1,
+        A = 4.64E-02,
         n = 0.201,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -699,7 +704,7 @@ entry(
     index = 47,
     label = "C + Pt <=> CX",
     kinetics = StickingCoefficient(
-        A = 1.64E-2,
+        A = 6.74E-03,
         n = 0.156,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -729,7 +734,7 @@ entry(
     index = 49,
     label = "CH + Pt <=> CHX",
     kinetics = StickingCoefficient(
-        A = 1.35E-2,
+        A = 1.01E-02,
         n = 0.051,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -758,7 +763,7 @@ entry(
     index = 51,
     label = "CH2 + Pt <=> CH2X",
     kinetics = StickingCoefficient(
-        A = 4.50E-2,
+        A = 2.30E-02,
         n = 0.118,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -787,7 +792,7 @@ entry(
     index = 53,
     label = "CH3 + Pt <=> CH3X",
     kinetics = StickingCoefficient(
-        A = 1.60E-1,
+        A = 2.81E-01,
         n = -0.099,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -816,7 +821,7 @@ entry(
     index = 55,
     label = "CH4 + Pt + Pt <=> CH3X + HX",
     kinetics = StickingCoefficient(
-        A = 1.16E-1,
+        A = 4.82E-02,
         n = 0.154,
         Ea=(37656, 'J/mol'),
         Tmin = (200, 'K'),
@@ -1225,7 +1230,7 @@ entry(
     index = 83,
     label = "CH3OH + Pt <=> CH3OHX",
     kinetics = StickingCoefficient(
-        A = 3.34E-1,
+        A = 7.67E-02,
         n = 0.258,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -1254,7 +1259,7 @@ entry(
     index = 85,
     label = "CH3O + Pt <=> CH3OX",
     kinetics = StickingCoefficient(
-        A = 1.49E-1,
+        A = 1.10E-01,
         n = 0.054,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -1283,7 +1288,7 @@ entry(
     index = 87,
     label = "CH2O + Pt <=> CH2OX",
     kinetics = StickingCoefficient(
-        A = 8.77E-2,
+        A = 5.01E-02,
         n = 0.098,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -1312,7 +1317,7 @@ entry(
     index = 89,
     label = "HCO + Pt <=> CXHO",
     kinetics = StickingCoefficient(
-        A = 1.14E-2,
+        A = 6.59E-03,
         n = 0.096,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -1341,7 +1346,7 @@ entry(
     index = 91,
     label = "CH2OH + Pt <=> H2CXOH",
     kinetics = StickingCoefficient(
-        A = 5.26E-2,
+        A = 1.39E-02,
         n = 0.233,
         Ea=(0, 'J/mol'),
         Tmin = (200, 'K'),
