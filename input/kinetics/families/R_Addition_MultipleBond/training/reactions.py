@@ -58714,3 +58714,123 @@ Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(
 """,
 )
 
+entry(
+    index = 2920,
+    label = "C3H7-4 <=> propene_2 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9.95e+30, 's^-1'), n=-5.3, Ea=(43000, 'cal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Daniel Belisario-Lara','Joao Marcelo Ribeiro','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. I. n‑Decane (n‑C10H22)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1261-1280',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K. Kinetics are reported in the reverse (B-scission) direction.
+""",
+)
+
+entry(
+    index = 2921,
+    label = "C4H9-8 <=> butene1_2 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.86e+33, 's^-1'), n=-5.98, Ea=(44880, 'cal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Daniel Belisario-Lara','Joao Marcelo Ribeiro','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. I. n‑Decane (n‑C10H22)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1261-1280',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K. Kinetics are reported in the reverse (B-scission) direction.
+""",
+)
+
+entry(
+    index = 2922,
+    label = "C5H11-11 <=> C5H10-4 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.87e+31, 's^-1'), n=-5.55, Ea=(44230, 'cal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Daniel Belisario-Lara','Joao Marcelo Ribeiro','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. I. n‑Decane (n‑C10H22)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1261-1280',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K. Kinetics are reported in the reverse (B-scission) direction.
+""",
+)
+
+entry(
+    index = 2923,
+    label = "C5H11-2 <=> propene_1 + C2H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.24e+30, 's^-1'), n=-4.86, Ea=(38050, 'cal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Daniel Belisario-Lara','Joao Marcelo Ribeiro','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. I. n‑Decane (n‑C10H22)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1261-1280',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K. Kinetics are reported in the reverse (B-scission) direction.
+""",
+)
+
+entry(
+    index = 2924,
+    label = "C6H13-12 <=> C6H12-3 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8.85e+29, 's^-1'), n=-5.03, Ea=(43290, 'cal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Daniel Belisario-Lara','Joao Marcelo Ribeiro','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. I. n‑Decane (n‑C10H22)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1261-1280',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K. Kinetics are reported in the reverse (B-scission) direction.
+""",
+)
+
+entry(
+    index = 2925,
+    label = "C6H13-13 <=> propene_1 + C3H7-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.77e+29, 's^-1'), n=-4.6, Ea=(38210, 'cal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Daniel Belisario-Lara','Joao Marcelo Ribeiro','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. I. n‑Decane (n‑C10H22)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1261-1280',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K. Kinetics are reported in the reverse (B-scission) direction.
+""",
+)
+
