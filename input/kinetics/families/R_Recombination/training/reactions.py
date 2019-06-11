@@ -4060,3 +4060,303 @@ Training reaction from kinetics library: Agnes_PAH
 Original entry: 1-Phenylvinyl <=> C6H5C2H + H
 """,
 )
+entry(
+    index = 151,
+    label = "C11H23 + CH3 <=> C12H26",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.749e+12, 'cm^3/(mol*s)'),
+        n = 0.214,
+        Ea = (0, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
+""",
+)
+
+entry(
+    index = 152,
+    label = "C10H21 + C2H5 <=> C12H26-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.918e+12, 'cm^3/(mol*s)'),
+        n = 0.213,
+        Ea = (-0.001, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
+""",
+)
+
+entry(
+    index = 153,
+    label = "C9H19 + C3H7 <=> C12H26-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.942e+12, 'cm^3/(mol*s)'),
+        n = 0.212,
+        Ea = (0.004, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
+""",
+)
+
+entry(
+    index = 154,
+    label = "C8H17 + C4H9-2 <=> C12H26-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.674e+12, 'cm^3/(mol*s)'),
+        n = 0.22,
+        Ea = (-0.014, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
+""",
+)
+
+entry(
+    index = 155,
+    label = "C7H15 + C5H11 <=> C12H26-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.737e+12, 'cm^3/(mol*s)'),
+        n = 0.21,
+        Ea = (0.006, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
+""",
+)
+
+entry(
+    index = 156,
+    label = "C6H13 + C6H13 <=> C12H26-6",
+    degeneracy = 0.5,
+    kinetics = Arrhenius(
+        A = (1.703e+12, 'cm^3/(mol*s)'),
+        n = 0.211,
+        Ea = (0.007, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
+""",
+)
+
+entry(
+    index = 157,
+    label = "H + C12H25 <=> C12H26-7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.203e+13, 'cm^3/(mol*s)'),
+        n = 0.214,
+        Ea = (0.003, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
+""",
+)
+
+entry(
+    index = 158,
+    label = "H + C12H25-2 <=> C12H26-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.591e+13, 'cm^3/(mol*s)'),
+        n = 0.217,
+        Ea = (-0.008, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
+""",
+)
+
+entry(
+    index = 159,
+    label = "H + C12H25-3 <=> C12H26-9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.591e+13, 'cm^3/(mol*s)'),
+        n = 0.217,
+        Ea = (-0.008, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
+""",
+)
+
+entry(
+    index = 160,
+    label = "H + C12H25-4 <=> C12H26-10",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.591e+13, 'cm^3/(mol*s)'),
+        n = 0.217,
+        Ea = (-0.008, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
+""",
+)
+
+entry(
+    index = 161,
+    label = "H + C12H25-5 <=> C12H26-11",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.591e+13, 'cm^3/(mol*s)'),
+        n = 0.217,
+        Ea = (-0.008, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
+""",
+)
+
+entry(
+    index = 162,
+    label = "H + C12H25-6 <=> C12H26-12",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.591e+13, 'cm^3/(mol*s)'),
+        n = 0.217,
+        Ea = (-0.008, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
+""",
+)
+
