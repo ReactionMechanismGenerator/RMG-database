@@ -4610,3 +4610,103 @@ Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(
 """,
 )
 
+entry(
+    index = 173,
+    label = "CH3 + C7H15-2 <=> C8H18-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.223e+16, 'cm^3/(mol*s)'),
+        n = -0.506,
+        Ea = (0.816, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered. Rates are with VRC-TST by using Variflex code. The dissociation potential function is calculated to cover the range of C−C separations varying from 1.54 to 5.10 Å at the CASPT2(2e,2o)/6-31+G(d,p)//CAS(2e,2o)/6-31+G-(d,p) level.
+""",
+)
+
+entry(
+    index = 174,
+    label = "C4H9-3 + C4H9 <=> C8H18-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.045e+15, 'cm^3/(mol*s)'),
+        n = -0.155,
+        Ea = (-1.631, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered. Rates are with VRC-TST by using Variflex code. The dissociation potential function is calculated to cover the range of C−C separations varying from 1.54 to 5.10 Å at the CASPT2(2e,2o)/6-31+G(d,p)//CAS(2e,2o)/6-31+G-(d,p) level.
+""",
+)
+
+entry(
+    index = 175,
+    label = "C5H11-2 + C3H7-2 <=> C8H18-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.783e+13, 'cm^3/(mol*s)'),
+        n = 0.209,
+        Ea = (-1.996, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered. Rates are with VRC-TST by using Variflex code. The dissociation potential function is calculated to cover the range of C−C separations varying from 1.54 to 5.10 Å at the CASPT2(2e,2o)/6-31+G(d,p)//CAS(2e,2o)/6-31+G-(d,p) level.
+""",
+)
+
+entry(
+    index = 176,
+    label = "C7H15-3 + CH3 <=> C8H18-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.569e+13, 'cm^3/(mol*s)'),
+        n = 0.316,
+        Ea = (-2.156, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered. Rates are with VRC-TST by using Variflex code. The dissociation potential function is calculated to cover the range of C−C separations varying from 1.54 to 5.10 Å at the CASPT2(2e,2o)/6-31+G(d,p)//CAS(2e,2o)/6-31+G-(d,p) level.
+""",
+)
+
