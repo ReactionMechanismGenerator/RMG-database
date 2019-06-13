@@ -17021,26 +17021,6 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 824,
-    label = "C9H13-77 <=> C9H13-78",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.71e+10, 's^-1'),
-        n = 0.19,
-        Ea = (86.1067, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aan Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R9_SDSSSD;doublebond_intra_pri_2H;radadd_intra_cs2H
-""",
-)
-
-entry(
     index = 825,
     label = "C6H5O2 <=> C6H5O2-2",
     degeneracy = 2.0,
