@@ -665,7 +665,7 @@ Converted to training reaction from rate rule: R5_SD_D;doublebond_intra_HNd_pri;
 
 entry(
     index = 33,
-    label = "C4H7O <=> C4H7O-2",
+    label = "C3H7O2 <=> C3H7O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.724e+10, 's^-1', '*|/', 3),
