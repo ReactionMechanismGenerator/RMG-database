@@ -8,15 +8,18 @@ In conjunction with the Lai_Hexylbenzene thermo library,
 this reaction library contains CBS-QB3 calculations for reactions
 relevant to Hexylbenzene pyrolysis and supercritical water treatment.
 
-Lai, Lawrence, Gudiyella, Soumya, Liu, Mengjie, Green, William H. "Chemistry of Alkylaromatics Reconsidered". To be submitted to Energy and Fuels, 2017.
+Lai, Lawrence, Gudiyella, Soumya, Liu, Mengjie, Green, William H. "Chemistry of Alkylaromatics Reconsidered". Energy Fuels, 2018, 32 (4), pp 5489-5500.
+Lai, Lawrence, Green, William H. "Thermochemistry and Kinetics of Intermolecular Addition of Radicals to Toluene and Alkylaromatics". J. Phys. Chem. A., 2019, 123 (14), pp 3176-3184
+Khanniche, Sarah, Lai, Lawrence, Green, William H. "Kinetics of Intramolecular Phenyl Migration and Fused Ring Formation in Hexylbenzene Radicals". J. Phys. Chem. A, 2018, 122 (51), pp 9778-9791.
+Lai, Lawrence, Pang, Hao-Wei, Green, William H. "Formation of 2-Ring Aromatics in Hexylbenzene Pyrolysis". To be submitted to Energy Fuels, 2019.
 
-Both calculations are done in CBS-QB3 level of theory.
+All calculations are done in CBS-QB3 level of theory.
 
 Specifics of the calculations performed:
 1. CBS-QB3 Level of theory was used after a B3LYP/6-311G(d,p) geometry optimization was performed
 2. Frequency was calculated using B3LYP/CBSB7 iop(7/33=1) (Hessian was calculated)
 3. 1D Hindered Rotors were calculated for steps of 10 degrees up to the full 360 degree cycle, with geometry optimization on each step, using B3LYP/CBSB7
-4. All files generated were fed to Cantherm.
+4. All files generated were fed to Arkane.
 5. Frequency scaling factor was 0.99
 6. Bond additivity corrections were not used.
 
@@ -370,4 +373,242 @@ entry(
     u"""
     Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission/
     """
+)
+
+entry(
+    index = 30,
+    label = "rad2 <=> PM2Rad",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.46139e+07, 's^-1'),
+        n = 1.30419,
+        Ea = (55.0202, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (500, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory",
+    longDesc = 
+    u"""
+    Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
+	Location of calculations Pharos/home/laitcl/Gaussian/2019/
+    """
+)
+
+entry(
+    index = 31,
+    label = "PM2Rad <=> 2-Phenyl-1-hexylRad",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (4.1705e+13, 's^-1'),
+        n = 0.383545,
+        Ea = (19.8224, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (500, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+	allow_max_rate_violation=True,
+    shortDesc = u"Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory",
+    longDesc = 
+    u"""
+    Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
+	Location of calculations Pharos/home/laitcl/Gaussian/2019/
+	This rate violates the TST limit by a factor of 2 at 1000K. Likely caused by thermo. 
+    """
+)
+
+entry(
+    index = 32,
+    label = "rad3 <=> PM3Rad",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (966131, 's^-1'),
+        n = 1.86605,
+        Ea = (70.406, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (500, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory",
+    longDesc = 
+    u"""
+    Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
+    Location of calculations Pharos/home/laitcl/Gaussian/2019/
+	"""
+)
+
+entry(
+    index = 33,
+    label = "PM3Rad <=> 3-Phenyl-1-hexylRad",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (7.0336e+12, 's^-1'),
+        n = 0.135082,
+        Ea = (42.4869, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (500, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory",
+    longDesc = 
+    u"""
+    Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
+    Location of calculations Pharos/home/laitcl/Gaussian/2019/
+	"""
+)
+
+entry(
+    index = 34,
+    label = "rad4 <=> PM4Rad",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (905.58, 's^-1'),
+        n = 2.15236,
+        Ea = (31.9171, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (500, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory",
+    longDesc = 
+    u"""
+    Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
+	Location of calculations Pharos/home/laitcl/Gaussian/2019/
+    """
+)
+
+entry(
+    index = 35,
+    label = "PM4Rad <=> 4-phenyl-1-hexylRad",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (4.2027e+12, 's^-1'),
+        n = 0.53843,
+        Ea = (76.0115, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (500, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory",
+    longDesc = 
+    u"""
+    Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
+    Location of calculations Pharos/home/laitcl/Gaussian/2019/
+	"""
+)
+
+entry(
+    index = 36,
+    label = "rad5 <=> PM5Rad",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (284.136, 's^-1'),
+        n = 1.70342,
+        Ea = (26.0501, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (500, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory",
+    longDesc = 
+    u"""
+    Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
+    Location of calculations Pharos/home/laitcl/Gaussian/2019/
+	"""
+)
+
+entry(
+    index = 37,
+    label = "PM5Rad <=> 5-Phenyl-1-hexylRad",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.86326e+12, 's^-1'),
+        n = 0.527375,
+        Ea = (90.7394, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (500, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory",
+    longDesc = 
+    u"""
+    Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
+    Location of calculations Pharos/home/laitcl/Gaussian/2019/
+	"""
+)
+
+entry(
+    index = 38,
+    label = "phenylrad + ethylbenzene <=> ethylbiphenylRad",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (7.05685, 'cm^3/(mol*s)'),
+        n = 3.09388,
+        Ea = (8.15269, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    shortDesc = u"Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory",
+    longDesc = 
+    u"""
+    Location of calculations Pharos/home/laitcl/Gaussian/2019/
+	"""
+)
+
+entry(
+    index = 39,
+    label = "ethylrad + biphenyl <=> ethylbiphenylRad",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (103.514, 'cm^3/(mol*s)'),
+        n = 2.90893,
+        Ea = (44.9425, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    shortDesc = u"Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory",
+    longDesc = 
+    u"""
+    Location of calculations Pharos/home/laitcl/Gaussian/2019/
+	"""
+)
+
+entry(
+    index = 40,
+    label = "Benzene + CH3 <=> ToluenePlusHSub",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (126531, 'cm^3/(mol*s)'),
+        n = 2.32659,
+        Ea = (42.0038, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    shortDesc = u"Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory",
+    longDesc = 
+    u"""
+    Location of calculations Pharos/home/laitcl/Gaussian/2019/
+	"""
+)
+
+entry(
+    index = 41,
+    label = "rad5 <=> methylbenozocyclohepteneRad",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (17725.7, 's^-1'),
+        n = 1.16281,
+        Ea = (42.1994, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    shortDesc = u"Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory",
+    longDesc = 
+    u"""
+    Location of calculations Pharos/home/laitcl/Gaussian/2019/
+	"""
 )

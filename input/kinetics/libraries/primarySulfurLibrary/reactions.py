@@ -197,8 +197,8 @@ entry(
     label = "SO2 + O (+N2) <=> SO3 (+N2)",
     degeneracy = 1,
     kinetics = Troe(
-        arrheniusHigh = Arrhenius(A=(3.7e+11, 'cm^6/(mol^2*s)'), n=0, Ea=(1689, 'cal/mol'), T0=(1, 'K')),
-        arrheniusLow = Arrhenius(A=(2.9e+27, 'cm^9/(mol^3*s)'), n=-3.58, Ea=(5206, 'cal/mol'), T0=(1, 'K')),
+        arrheniusHigh = Arrhenius(A=(3.7e+11, 'cm^3/(mol*s)'), n=0, Ea=(1689, 'cal/mol'), T0=(1, 'K')),
+        arrheniusLow = Arrhenius(A=(2.9e+27, 'cm^6/(mol^2*s)'), n=-3.58, Ea=(5206, 'cal/mol'), T0=(1, 'K')),
         alpha=0.43, T3=(371, 'K'), T1=(7442, 'K'), efficiencies={}),
     shortDesc = u"""[Marshall2005],[Marshall2006]""",
     longDesc =

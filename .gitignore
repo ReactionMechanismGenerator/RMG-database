@@ -9,6 +9,9 @@
 .pydevproject
 .settings/*
 
+# PyCharm project files
+.idea/*
+
 # C-Compiled scripts
 *.pyc
 

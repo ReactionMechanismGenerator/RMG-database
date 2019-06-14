@@ -191,6 +191,20 @@ reaction families (CO_Disprop [also deals with CS], R_Add_CSm).
 )
 
 entry(
+    label = "N-N(S)",
+    species =
+"""
+1 N u0 p2 c0 {2,S}
+2 N u0 p2 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+This structure is not a stationary point, and should quickly become N#N
+""",
+)
+
+entry(
     label = "[N][N]",
     species =
 """
@@ -347,5 +361,82 @@ multiplicity 3
 u"""
 The geometry of SO3(T) could not be stabilized at either B3LYP/6-311G(2d,d,p) nor M06-2x
 without getting negative frequency/ies.
+""",
+)
+
+entry(
+    label = "cN3HNH2",
+    species =
+"""
+multiplicity 2
+1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2 N u0 p1 c0 {1,S} {4,S} {5,S}
+3 N u0 p1 c0 {1,S} {6,S} {7,S}
+4 N u1 p1 c0 {1,S} {2,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {3,S}
+7 H u0 p0 c0 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Geometry could not converge at CBS-QB3
+""",
+)
+
+entry(
+    label = "cN3HN",
+    group =
+"""
+1 N u0     p1 c0 {2,S} {3,S} {5,S}
+2 N u[0,1] p1 c0 {1,S} {3,S}
+3 N u0     p0 c+1 {1,S} {2,S} {4,D}
+4 N u0     p2 c-1 {3,D}
+5 R ux     px cx {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Geometry of the following species in this group could not converge at CBS-QB3
+[N-]=[N+]1[N]N1
+[N-]=[N+]1NN1
+""",
+)
+
+entry(
+    label = "NH3NNH",
+    species =
+"""
+multiplicity 2
+1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
+2 N u0 p2 c-1 {1,S} {3,S}
+3 N u1 p1 c0 {2,S} {7,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Geometry could not converge at wB97x-D3/6-311++G(3df,3pd) (alongd ref - xq1488)
+""",
+)
+
+entry(
+    label = "NNHNH",
+    species =
+"""
+multiplicity 2
+1 N u0 p0 c+1 {2,S} {3,D} {5,S}
+2 N u0 p1 c0 {1,S} {4,D}
+3 N u0 p2 c-1 {1,D}
+4 N u1 p1 c0 {2,D}
+5 H u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Geometry could not converge at wB97x-D3/6-311++G(3df,3pd) (alongd ref - xq1492)
 """,
 )

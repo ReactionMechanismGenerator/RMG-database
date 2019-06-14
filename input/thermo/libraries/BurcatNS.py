@@ -3390,14 +3390,13 @@ Error Cp @ 6000 0.37%
 
 entry(
     index = 95,
-    label = "NH2N",
+    label = "H2NN(S)",
     molecule = 
 """
-multiplicity 3
-1 N u0 p1 c0 {2,S} {3,S} {4,S}
-2 N u2 p1 c0 {1,S}
+1 N u0 p0 c+1 {2,S} {3,S} {4,D}
+2 H u0 p0 c0 {1,S}
 3 H u0 p0 c0 {1,S}
-4 H u0 p0 c0 {1,S}
+4 N u0 p2 c-1 {1,D}
 """,
     thermo = NASA(
         polynomials = [

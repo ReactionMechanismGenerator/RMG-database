@@ -3440,7 +3440,7 @@ entry(
 
 entry(
     index = 470,
-    label = "HNOH + NH2 <=> H2NN + H2O",
+    label = "HNOH + NH2 <=> H2NN(S) + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (8.8e+16, 'cm^3/(mol*s)'),

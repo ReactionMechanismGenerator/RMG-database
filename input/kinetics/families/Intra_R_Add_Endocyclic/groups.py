@@ -6253,6 +6253,118 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 407,
+    label = "Rn2c6_alpha_short_O",
+    group = 
+"""
+1 *3 R!H u0 c0 r1 {2,[D,T,B]} {5,[S,D,T,B]}
+2 *2 R!H u0 r1 {1,[D,T,B]} {3,[S,D,T]} {8,[S,D,T,B]}
+3 *4 O   ux {2,[S,D,T]} {4,[S,D,T]}
+4 *1 R!H u1 r0 {3,[S,D,T]}
+5    R!H ux r1 {1,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux r1 {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux r1 {6,[S,D,T,B]} {8,[S,D,T,B]}
+8    R!H ux r1 {2,[S,D,T,B]} {7,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 408,
+    label = "Rn2c6_alpha_short_C",
+    group = 
+"""
+1 *3 R!H u0 c0 r1 {2,[D,T,B]} {5,[S,D,T,B]}
+2 *2 R!H u0 r1 {1,[D,T,B]} {3,[S,D,T,B]} {8,[S,D,T,B]}
+3 *4 C   ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4 *1 R!H u1 r0 {3,[S,D,T,B]}
+5    R!H ux r1 {1,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux r1 {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux r1 {6,[S,D,T,B]} {8,[S,D,T,B]}
+8    R!H ux r1 {2,[S,D,T,B]} {7,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 409,
+    label = "doublebond_intra_pri_HNd_Cs",
+    group = 
+"""
+1 *2 Cd       u0 {2,D} {3,S}
+2 *3 Cd       u0 c0 {1,D} {4,S} {5,S}
+3    H        u0 {1,S}
+4    H        u0 {2,S}
+5    Cs       u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 410,
+    label = "doublebond_intra_pri_HNd_O",
+    group = 
+"""
+1 *2 Cd       u0 {2,D} {3,S}
+2 *3 Cd       u0 c0 {1,D} {4,S} {5,S}
+3    H        u0 {1,S}
+4    H        u0 {2,S}
+5    O        u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 411,
+    label = "radadd_intra_csHCO",
+    group = 
+"""
+1 *1 Cs       u1 {2,S} {3,S}
+2    H        u0 {1,S}
+3    CO       u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 412,
+    label = "doublebond_intra_pri_HCO",
+    group = 
+"""
+1 *2 Cd        u0 {2,D} {3,S}
+2 *3 Cd        u0 c0 {1,D} {4,S} {5,S}
+3    H         u0 {1,S}
+4    H         u0 {2,S}
+5    CO        u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 413,
+    label = "radadd_intra_csHCs",
+    group = 
+"""
+1 *1 Cs       u1 {2,S} {3,S}
+2    H        u0 {1,S}
+3    Cs       u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 414,
+    label = "radadd_intra_csHO",
+    group = 
+"""
+1 *1 Cs       u1 {2,S} {3,S}
+2    H        u0 {1,S}
+3    O       u0 {1,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Rn
@@ -6300,6 +6412,8 @@ L1: Rn
                 L5: Rn2c4_alpha_short
                 L5: Rn2c5_alpha_short
                 L5: Rn2c6_alpha_short
+                    L6: Rn2c6_alpha_short_O
+                    L6: Rn2c6_alpha_short_C
                 L5: Rn2c7_alpha_short
                 L5: Rn2c8_alpha_short
             L4: Rn0c5_beta_long
@@ -6589,9 +6703,12 @@ L1: multiplebond_intra
         L3: doublebond_intra_pri
             L4: doublebond_intra_pri_2H
             L4: doublebond_intra_pri_HNd
+                L5: doublebond_intra_pri_HNd_Cs
+                L5: doublebond_intra_pri_HNd_O
             L4: doublebond_intra_pri_HDe
                 L5: doublebond_intra_pri_HCd
                 L5: doublebond_intra_pri_HCt
+                L5: doublebond_intra_pri_HCO
             L4: doublebond_intra_pri_NdNd
             L4: doublebond_intra_pri_NdDe
                 L5: doublebond_intra_pri_NdCd
@@ -6641,11 +6758,14 @@ L1: radadd_intra
     L2: radadd_intra_cs
         L3: radadd_intra_cs2H
         L3: radadd_intra_csHNd
+            L4: radadd_intra_csHCs
+            L4: radadd_intra_csHO
         L3: radadd_intra_csHDe
             L4: radadd_intra_csHCd
                 L5: radadd_intra_csH(CdCdCd)
             L4: radadd_intra_csHCt
             L4: radadd_intra_csHCb
+            L4: radadd_intra_csHCO
         L3: radadd_intra_csNdNd
         L3: radadd_intra_csNdDe
             L4: radadd_intra_csNdCd
