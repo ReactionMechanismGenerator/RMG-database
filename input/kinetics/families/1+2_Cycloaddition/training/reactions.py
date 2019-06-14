@@ -149,7 +149,7 @@ entry(
     label = "CH2 + C2H2 <=> C3H4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (1.77e+15, 'cm^3/(mol*s)'),
+        A = (7.06e+15, 'cm^3/(mol*s)'),
         n = -0.662,
         Ea = (0.157737, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -157,10 +157,11 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Polino [carbene,acetylene]""",
+    shortDesc = u"""Polino et al. J. Phys. Chem. A 2013, 117, 12677−12692.""",
     longDesc = 
 u"""
-Converted to training reaction from rate rule: carbene;mb_tb_unsub
+Daniela Polino, Stephen J. Klippenstein, Lawrence B. Harding, and Yuri Georgievskii,Predictive Theory for the Addition and Insertion Kinetics of 1CH2
+Reacting with Unsaturated Hydrocarbons, J. Phys. Chem. A 2013, 117, 12677−12692.
 """,
 )
 
@@ -169,7 +170,7 @@ entry(
     label = "CH2 + C3H4-2 <=> C4H6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (4.5e+15, 'cm^3/(mol*s)'),
+        A = (9.00e+15, 'cm^3/(mol*s)'),
         n = -0.708,
         Ea = (-0.111713, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -177,10 +178,13 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Polino [carbene,propyne]""",
+    shortDesc = u"""Polino et al. J. Phys. Chem. A 2013, 117, 12677−12692.""",
     longDesc = 
 u"""
 Converted to training reaction from rate rule: carbene;mb_tb_monosub_Nd
+
+Daniela Polino, Stephen J. Klippenstein, Lawrence B. Harding, and Yuri Georgievskii,Predictive Theory for the Addition and Insertion Kinetics of 1CH2
+Reacting with Unsaturated Hydrocarbons, J. Phys. Chem. A 2013, 117, 12677−12692.
 """,
 )
 
@@ -189,7 +193,7 @@ entry(
     label = "CH2 + C3H6-2 <=> C4H8-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (5e+15, 'cm^3/(mol*s)'),
+        A = (1.00e+16, 'cm^3/(mol*s)'),
         n = -0.826,
         Ea = (-0.37656, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -197,10 +201,13 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Polino [carbene,propene]""",
+    shortDesc = u"""Polino et al. J. Phys. Chem. A 2013, 117, 12677−12692.""",
     longDesc = 
 u"""
 Converted to training reaction from rate rule: carbene;mb_db_monosub_Nd
+
+Daniela Polino, Stephen J. Klippenstein, Lawrence B. Harding, and Yuri Georgievskii,Predictive Theory for the Addition and Insertion Kinetics of 1CH2
+Reacting with Unsaturated Hydrocarbons, J. Phys. Chem. A 2013, 117, 12677−12692.
 """,
 )
 
@@ -209,7 +216,7 @@ entry(
     label = "CH2 + C3H4-3 <=> C4H6-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
-        A = (1.276e+15, 'cm^3/(mol*s)'),
+        A = (2.55e+15, 'cm^3/(mol*s)'),
         n = -0.562,
         Ea = (-0.556472, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -217,10 +224,13 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Polino [carbene,propadiene]""",
+    shortDesc = u"""Polino et al. J. Phys. Chem. A 2013, 117, 12677−12692.""",
     longDesc = 
 u"""
 Converted to training reaction from rate rule: carbene;mb_db_dbSub
+
+Daniela Polino, Stephen J. Klippenstein, Lawrence B. Harding, and Yuri Georgievskii,Predictive Theory for the Addition and Insertion Kinetics of 1CH2
+Reacting with Unsaturated Hydrocarbons, J. Phys. Chem. A 2013, 117, 12677−12692.
 """,
 )
 
@@ -229,7 +239,7 @@ entry(
     label = "CH2 + C4H6-3 <=> C5H8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (4.7e+15, 'cm^3/(mol*s)'),
+        A = (1.88e+16, 'cm^3/(mol*s)'),
         n = -0.823,
         Ea = (0.096232, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -237,10 +247,13 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Polino [carbene,2-butyne]""",
+    shortDesc = u"""Polino et al. J. Phys. Chem. A 2013, 117, 12677−12692.""",
     longDesc = 
 u"""
 Converted to training reaction from rate rule: carbene;mb_tb_disub_twoNd
+
+Daniela Polino, Stephen J. Klippenstein, Lawrence B. Harding, and Yuri Georgievskii,Predictive Theory for the Addition and Insertion Kinetics of 1CH2
+Reacting with Unsaturated Hydrocarbons, J. Phys. Chem. A 2013, 117, 12677−12692.
 """,
 )
 
@@ -249,7 +262,7 @@ entry(
     label = "CH2 + C4H6-4 <=> C5H8-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
-        A = (3.7e+15, 'cm^3/(mol*s)'),
+        A = (7.39e+15, 'cm^3/(mol*s)'),
         n = -0.7,
         Ea = (-0.281165, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -257,10 +270,13 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Polino [carbene,1,3-butadiene]""",
+    shortDesc = u"""Polino et al. J. Phys. Chem. A 2013, 117, 12677−12692.""",
     longDesc = 
 u"""
 Converted to training reaction from rate rule: carbene;mb_db_monosub_De
+
+Daniela Polino, Stephen J. Klippenstein, Lawrence B. Harding, and Yuri Georgievskii,Predictive Theory for the Addition and Insertion Kinetics of 1CH2
+Reacting with Unsaturated Hydrocarbons, J. Phys. Chem. A 2013, 117, 12677−12692.
 """,
 )
 
