@@ -299,19 +299,6 @@ Taken from entry: product44 <=> product41
 )
 
 entry(
-    index = 18,
-    label = "C7H7-7 <=> C7H7-8",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.08e+06, 's^-1'), n=1.99, Ea=(25.2, 'kcal/mol'), T0=(1, 'K')),
-    rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
-u"""
-Taken from entry: vinylCPDyl <=> product41
-""",
-)
-
-entry(
     index = 19,
     label = "C5H5 <=> C5H5-2",
     degeneracy = 1.0,
