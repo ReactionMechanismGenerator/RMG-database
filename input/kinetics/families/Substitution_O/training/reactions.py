@@ -2232,26 +2232,6 @@ Converted to training reaction from rate rule: O-Cs(HHH)H;OsJ-H
 )
 
 entry(
-    index = 111,
-    label = "H2O-2 + CH3O-2 <=> CH4O2-6 + H-2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (1122.24, 'cm^3/(mol*s)'),
-        n = 3.18249,
-        Ea = (324.558, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (500, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 6,
-    shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: O-HH;OsJ-Cs
-""",
-)
-
-entry(
     index = 112,
     label = "CH4O-4 + CH3O-2 <=> C2H6O2-3 + H-2",
     degeneracy = 1.0,
