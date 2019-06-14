@@ -467,19 +467,6 @@ Taken from entry: FULVENE + CH3 <=> product18
 )
 
 entry(
-    index = 23,
-    label = "C7H9-15 <=> C7H8-9 + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.47e+10, 's^-1'), n=1.17, Ea=(41.1, 'kcal/mol'), T0=(1, 'K')),
-    rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
-u"""
-Taken from entry: product24 <=> product13 + H
-""",
-)
-
-entry(
     index = 24,
     label = "C6H6-4 + CH3 <=> C7H9-16",
     degeneracy = 2.0,
@@ -544,27 +531,27 @@ G3SX//B3LYP/6-31G(2df,p)
 """,
 )
 
-entry(
-    index = 28,
-    label = "C7H7-2 <=> C7H6 + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.16e+10, 's^-1'), n=1.24, Ea=(65.98, 'kcal/mol'), T0=(1, 'K')),
-    reference = Article(
-        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
-        title = 'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
-        journal = 'The Journal of Physical Chemistry A',
-        volume = '114 (6)',
-        pages = '2275-2283',
-        year = '2010',
-    ),
-    referenceType = "theory",
-    rank = 4,
-    longDesc = 
-u"""
-G3SX//B3LYP/6-31G(2df,p)
-""",
-)
-
+#entry(
+#    index = 28,
+#    label = "C7H7-2 <=> C7H6 + H",
+#    degeneracy = 1.0,
+#    kinetics = Arrhenius(A=(4.16e+10, 's^-1'), n=1.24, Ea=(65.98, 'kcal/mol'), T0=(1, 'K')),
+#    reference = Article(
+#        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+#        title = 'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+#        journal = 'The Journal of Physical Chemistry A',
+#        volume = '114 (6)',
+#        pages = '2275-2283',
+#        year = '2010',
+#    ),
+#    referenceType = "theory",
+#    rank = 4,
+#    longDesc = 
+#u"""
+#G3SX//B3LYP/6-31G(2df,p)
+#""",
+#)
+#
 entry(
     index = 29,
     label = "C3H4 + allyl <=> C6H9",
@@ -696,19 +683,6 @@ Taken from entry: C3H4a + BD2YL <=> prod_13
 )
 
 entry(
-    index = 38,
-    label = "C7H9-20 <=> C7H8-11 + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4e+10, 's^-1'), n=1.27, Ea=(44.7, 'kcal/mol'), T0=(1, 'K')),
-    rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
-u"""
-Taken from entry: prod_14 <=> prod_15 + H
-""",
-)
-
-entry(
     index = 39,
     label = "C3H4-2 + C4H5 <=> C7H9-21",
     degeneracy = 1.0,
@@ -718,19 +692,6 @@ entry(
     longDesc = 
 u"""
 Taken from entry: C3H4p + BD2YL <=> prod_16
-""",
-)
-
-entry(
-    index = 40,
-    label = "C7H9-22 <=> C7H8-12 + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6.47e+10, 's^-1'), n=1.22, Ea=(45.7, 'kcal/mol'), T0=(1, 'K')),
-    rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
-u"""
-Taken from entry: prod_17 <=> prod_18 + H
 """,
 )
 
@@ -1215,42 +1176,6 @@ entry(
     longDesc = 
 u"""
 Taken from entry: biCPD3ene + H <=> adducta
-""",
-)
-
-entry(
-    index = 69,
-    label = "C10H8-2 + H <=> C10H9-2",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (1.61e+10, 'cm^3/(mol*s)'),
-        n = 1.52,
-        Ea = (0.3, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
-    longDesc = 
-u"""
-Taken from entry: biCPD3ene + H <=> adductb
-""",
-)
-
-entry(
-    index = 70,
-    label = "C10H8-3 + H <=> C10H9-3",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (1.61e+10, 'cm^3/(mol*s)'),
-        n = 1.52,
-        Ea = (0.3, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
-    longDesc = 
-u"""
-Taken from entry: biCPD3ene + H <=> adductc
 """,
 )
 
@@ -2620,19 +2545,6 @@ Taken from entry: W102 <=> P2 + H
 )
 
 entry(
-    index = 157,
-    label = "C10H9-26 <=> C10H8-21 + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.568e+11, 's^-1'), n=0.972, Ea=(78.037, 'kcal/mol'), T0=(1, 'K')),
-    rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
-u"""
-Taken from entry: W103 <=> P105 + H
-""",
-)
-
-entry(
     index = 158,
     label = "C10H9-27 <=> C10H8-22 + H",
     degeneracy = 1.0,
@@ -2655,32 +2567,6 @@ entry(
     longDesc = 
 u"""
 Taken from entry: W118 <=> P1 + H
-""",
-)
-
-entry(
-    index = 160,
-    label = "C10H9-29 <=> C10H8-24 + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.427e+09, 's^-1'), n=1.431, Ea=(66.532, 'kcal/mol'), T0=(1, 'K')),
-    rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
-u"""
-Taken from entry: W106 <=> P109 + H
-""",
-)
-
-entry(
-    index = 161,
-    label = "C10H9-30 <=> C10H8-25 + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.893e+15, 's^-1'), n=-0.16, Ea=(65.494, 'kcal/mol'), T0=(1, 'K')),
-    rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
-u"""
-Taken from entry: W108 <=> P109 + H
 """,
 )
 
@@ -2797,24 +2683,6 @@ entry(
     longDesc = 
 u"""
 Taken from entry: P3 + H <=> W4
-""",
-)
-
-entry(
-    index = 169,
-    label = "C10H6-5 + H <=> C10H7-6",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (9.919e+13, 'cm^3/(mol*s)'),
-        n = 0.168,
-        Ea = (-0.002, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H4C2H_C2H2_highP""",
-    longDesc = 
-u"""
-Taken from entry: P4 + H <=> W5
 """,
 )
 
@@ -3447,47 +3315,47 @@ CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
 )
 
-entry(
-    index = 200,
-    label = "C4H5-3 <=> C4H4-5 + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5.385e+09, 's^-1'), n=1.347, Ea=(37.909, 'kcal/mol'), T0=(1, 'K')),
-    reference = Article(
-        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
-        title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = 'Physical Chemistry Chemical Physics',
-        volume = '19 (22)',
-        pages = '14543-14554',
-        year = '2017',
-    ),
-    referenceType = "theory",
-    rank = 4,
-    longDesc = 
-u"""
-CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
-""",
-)
+#entry(
+#    index = 200,
+#    label = "C4H5-3 <=> C4H4-5 + H",
+#    degeneracy = 1.0,
+#    kinetics = Arrhenius(A=(5.385e+09, 's^-1'), n=1.347, Ea=(37.909, 'kcal/mol'), T0=(1, 'K')),
+#    reference = Article(
+#        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+#        title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+#        journal = 'Physical Chemistry Chemical Physics',
+#        volume = '19 (22)',
+#        pages = '14543-14554',
+#        year = '2017',
+#    ),
+#    referenceType = "theory",
+#    rank = 4,
+#    longDesc = 
+#u"""
+#CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+#""",
+#)
 
-entry(
-    index = 201,
-    label = "C4H5-4 <=> C4H4-6 + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.905e+11, 's^-1'), n=0.877, Ea=(54.203, 'kcal/mol'), T0=(1, 'K')),
-    reference = Article(
-        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
-        title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = 'Physical Chemistry Chemical Physics',
-        volume = '19 (22)',
-        pages = '14543-14554',
-        year = '2017',
-    ),
-    referenceType = "theory",
-    rank = 4,
-    longDesc = 
-u"""
-CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
-""",
-)
+#entry(
+#    index = 201,
+#    label = "C4H5-4 <=> C4H4-6 + H",
+#    degeneracy = 1.0,
+#    kinetics = Arrhenius(A=(4.905e+11, 's^-1'), n=0.877, Ea=(54.203, 'kcal/mol'), T0=(1, 'K')),
+#    reference = Article(
+#        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
+#        title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
+#        journal = 'Physical Chemistry Chemical Physics',
+#        volume = '19 (22)',
+#        pages = '14543-14554',
+#        year = '2017',
+#    ),
+#    referenceType = "theory",
+#    rank = 4,
+#    longDesc = 
+#u"""
+#CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
+#""",
+#)
 
 entry(
     index = 202,
@@ -3782,48 +3650,48 @@ UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
 """,
 )
 
-entry(
-    index = 215,
-    label = "C7H7-4 <=> C7H6-2 + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.06e+10, 's^-1'), n=1.16, Ea=(26.18, 'kcal/mol'), T0=(1, 'K')),
-    reference = Article(
-        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
-        title = 'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
-        journal = 'The Journal of Physical Chemistry A',
-        volume = '114 (6)',
-        pages = '2275-2283',
-        year = '2010',
-    ),
-    referenceType = "theory",
-    rank = 4,
-    longDesc = 
-u"""
-G3SX//B3LYP/6-31G(2df,p)
-""",
-)
+#entry(
+#    index = 215,
+#    label = "C7H7-4 <=> C7H6-2 + H",
+#    degeneracy = 1.0,
+#    kinetics = Arrhenius(A=(4.06e+10, 's^-1'), n=1.16, Ea=(26.18, 'kcal/mol'), T0=(1, 'K')),
+#    reference = Article(
+#        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+#        title = 'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+#        journal = 'The Journal of Physical Chemistry A',
+#        volume = '114 (6)',
+#        pages = '2275-2283',
+#        year = '2010',
+#    ),
+#    referenceType = "theory",
+#    rank = 4,
+#    longDesc = 
+#u"""
+#G3SX//B3LYP/6-31G(2df,p)
+#""",
+#)
 
-entry(
-    index = 216,
-    label = "C7H7-5 <=> C7H6-3 + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.02e+13, 's^-1'), n=0.34, Ea=(46.7, 'kcal/mol'), T0=(1, 'K')),
-    reference = Article(
-        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
-        title = 'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
-        journal = 'The Journal of Physical Chemistry A',
-        volume = '114 (6)',
-        pages = '2275-2283',
-        year = '2010',
-    ),
-    referenceType = "theory",
-    rank = 4,
-    longDesc = 
-u"""
-G3SX//B3LYP/6-31G(2df,p)
-""",
-)
-
+#entry(
+#    index = 216,
+#    label = "C7H7-5 <=> C7H6-3 + H",
+#    degeneracy = 1.0,
+#    kinetics = Arrhenius(A=(1.02e+13, 's^-1'), n=0.34, Ea=(46.7, 'kcal/mol'), T0=(1, 'K')),
+#    reference = Article(
+#        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
+#        title = 'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
+#        journal = 'The Journal of Physical Chemistry A',
+#        volume = '114 (6)',
+#        pages = '2275-2283',
+#        year = '2010',
+#    ),
+#    referenceType = "theory",
+#    rank = 4,
+#    longDesc = 
+#u"""
+#G3SX//B3LYP/6-31G(2df,p)
+#""",
+#)
+#
 entry(
     index = 217,
     label = "C7H8-14 + H <=> C7H9-28",
@@ -6013,26 +5881,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;CdsJ-Cs
-""",
-)
-
-entry(
-    index = 326,
-    label = "C6H8-7 + C6H5 <=> C12H13",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (88100, 'cm^3/(mol*s)'),
-        n = 2.41,
-        Ea = (-20.9618, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;CbJ
 """,
 )
 
@@ -49815,26 +49663,6 @@ Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;CsJ-CdCdCs
 )
 
 entry(
-    index = 2496,
-    label = "C5H4-3 + C7H7-3 <=> C12H11-12",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (133000, 'cm^3/(mol*s)'),
-        n = 2.41,
-        Ea = (53.2205, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;CsJ-CbHH
-""",
-)
-
-entry(
     index = 2497,
     label = "C5H4-3 + C8H9 <=> C13H13-26",
     degeneracy = 1.0,
@@ -53895,26 +53723,6 @@ Converted to training reaction from rate rule: Ct-H_Ct-Cd;HJ
 )
 
 entry(
-    index = 2700,
-    label = "H + C4H2 <=> C4H3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (8.48e+09, 'cm^3/(mol*s)'),
-        n = 1.64,
-        Ea = (6.19232, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: Ct-H_Ct-Ct;HJ
-""",
-)
-
-entry(
     index = 2701,
     label = "H + C3H4-4 <=> C3H5-5",
     degeneracy = 1.0,
@@ -54131,26 +53939,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;HJ
-""",
-)
-
-entry(
-    index = 2712,
-    label = "H + C6H2 <=> C6H3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (1.38e+10, 'cm^3/(mol*s)'),
-        n = 1.64,
-        Ea = (14.644, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;HJ
 """,
 )
 
@@ -54511,26 +54299,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: Sd_Cds-HH;CsJ-CsCsCs
-""",
-)
-
-entry(
-    index = 2731,
-    label = "HS + CH2S-2 <=> CH3S2-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (7220, 'cm^3/(mol*s)'),
-        n = 2.6,
-        Ea = (-25.104, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: Sd_Cds-HH;SsJ-H
 """,
 )
 
@@ -56032,66 +55800,6 @@ Converted to training reaction from rate rule: Cds-HH_Cds-CsH;O_atom_triplet
 )
 
 entry(
-    index = 2807,
-    label = "C2H4 + O2 <=> C2H4O2",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (444, 'cm^3/(mol*s)'),
-        n = 2.9,
-        Ea = (132.214, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: Cds-HH_Cds-HH;O2b
-""",
-)
-
-entry(
-    index = 2808,
-    label = "propene_2 + O2 <=> C3H6O2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (88.4, 'cm^3/(mol*s)'),
-        n = 3.08,
-        Ea = (126.357, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: Cds-CsH_Cds-HH;O2b
-""",
-)
-
-entry(
-    index = 2809,
-    label = "propene_1 + O2 <=> C3H6O2-2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (552, 'cm^3/(mol*s)'),
-        n = 2.78,
-        Ea = (124.683, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: Cds-HH_Cds-CsH;O2b
-""",
-)
-
-entry(
     index = 2810,
     label = "C4H6 + O2 <=> C4H6O2",
     degeneracy = 4.0,
@@ -56871,28 +56579,6 @@ u"""
 Added by Beat Buesser, value for reaction: H2CNH + H = CH2NH2 (B&D #50) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: N3d-H_Cds-HH;HJ
-""",
-)
-
-entry(
-    index = 2847,
-    label = "CHN-2 + O <=> CHNO",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (9.99e+25, 'cm^3/(mol*s)'),
-        n = -5.73,
-        Ea = (61.463, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
-u"""
-Added by Beat Buesser, value for reaction: HCN + O = HCNO (B&D #54) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
-
-Converted to training reaction from rate rule: N3t_Ct-H;O_atom_triplet
 """,
 )
 
