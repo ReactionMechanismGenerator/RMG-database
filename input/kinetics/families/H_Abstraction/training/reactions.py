@@ -15941,11 +15941,10 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 6,
+    rank = 10,
     shortDesc = u"""iBuOH + OH (communication from truhlar group) refitted to arrhenius form""",
     longDesc =
 u"""
-Converted to training reaction from rate rule: C/H2/CsO;O_pri_rad
 """,
 )
 
@@ -15961,33 +15960,31 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 6,
+    rank = 5,
     shortDesc = u"""iBuOH + OH (communication from truhlar group) refitted to arrhenius form""",
     longDesc =
 u"""
-Converted to training reaction from rate rule: C/H/Cs2/Cs\O;O_pri_rad
 """,
 )
 
-# entry(
-#     index = 767,
-#     label = "H + CH4O-2 <=> H2 + CH3O-2",
-#     degeneracy = 1.0,
-#     kinetics = Arrhenius(
-#         A = (0.293, 'cm^3/(mol*s)'),
-#         n = 4.14,
-#         Ea = (20.0832, 'kJ/mol'),
-#         T0 = (1, 'K'),
-#         Tmin = (300, 'K'),
-#         Tmax = (2000, 'K'),
-#     ),
-#     rank = 6,
-#     shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
-#     longDesc =
-# u"""
-# Converted to training reaction from rate rule: O/H/NonDeC;H_rad
-# """,
-# )
+entry(
+    index = 767,
+    label = "H + CH4O-2 <=> H2 + CH3O-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.293, 'cm^3/(mol*s)'),
+        n = 4.14,
+        Ea = (20.0832, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
+    longDesc =
+u"""
+""",
+)
 
 entry(
     index = 768,
@@ -16001,11 +15998,10 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 6,
+    rank = 10,
     shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
     longDesc =
 u"""
-Converted to training reaction from rate rule: C/H2/CsO;H_rad
 """,
 )
 
@@ -16021,53 +16017,50 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 6,
+    rank = 5,
     shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
     longDesc =
 u"""
-Converted to training reaction from rate rule: C/H/Cs2/Cs\O;H_rad
 """,
 )
 
-# entry(
-#     index = 770,
-#     label = "H + C2H6 <=> H2 + C2H5",
-#     degeneracy = 6.0,
-#     kinetics = Arrhenius(
-#         A = (6180, 'cm^3/(mol*s)'),
-#         n = 3.24,
-#         Ea = (29.7064, 'kJ/mol'),
-#         T0 = (1, 'K'),
-#         Tmin = (300, 'K'),
-#         Tmax = (2000, 'K'),
-#     ),
-#     rank = 6,
-#     shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
-#     longDesc =
-# u"""
-# Converted to training reaction from rate rule: C/H3/Cs;H_rad
-# """,
-# )
+entry(
+    index = 770,
+    label = "H + C2H6 <=> H2 + C2H5",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(
+        A = (6180, 'cm^3/(mol*s)'),
+        n = 3.24,
+        Ea = (29.7064, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
+    longDesc =
+u"""
+""",
+)
 
-# entry(
-#     index = 771,
-#     label = "CH3_r3 + C2H6 <=> CH4_p23 + C2H5",
-#     degeneracy = 6.0,
-#     kinetics = Arrhenius(
-#         A = (4.488e-05, 'cm^3/(mol*s)'),
-#         n = 4.99,
-#         Ea = (33.472, 'kJ/mol'),
-#         T0 = (1, 'K'),
-#         Tmin = (300, 'K'),
-#         Tmax = (2000, 'K'),
-#     ),
-#     rank = 6,
-#     shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
-#     longDesc =
-# u"""
-# Converted to training reaction from rate rule: C/H3/Cs;C_methyl
-# """,
-# )
+entry(
+    index = 771,
+    label = "CH3_r3 + C2H6 <=> CH4_p23 + C2H5",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(
+        A = (4.488e-05, 'cm^3/(mol*s)'),
+        n = 4.99,
+        Ea = (33.472, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
+    longDesc =
+u"""
+""",
+)
 
 entry(
     index = 772,
@@ -16081,11 +16074,10 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 6,
+    rank = 10,
     shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
     longDesc =
 u"""
-Converted to training reaction from rate rule: C/H/Cs2/Cs\O;C_methyl
 """,
 )
 
@@ -16101,13 +16093,11 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 6,
+    rank = 10,
     shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
     longDesc =
 u"""
 Value for ipentanol, x3 lower mainly because of gamma O restricting rotation of abstracting methyl
-
-Converted to training reaction from rate rule: C/H/Cs2/Cs\Cs|O;C_methyl
 """,
 )
 
@@ -16123,11 +16113,10 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 6,
+    rank = 10,
     shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
     longDesc =
 u"""
-Converted to training reaction from rate rule: C/H2/CsO;C_methyl
 """,
 )
 
