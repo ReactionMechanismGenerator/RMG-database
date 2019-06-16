@@ -1043,36 +1043,6 @@ H2O2 (external symmetry number = 2, spin multiplicity = 1)
 )
 
 entry(
-    index = 35,
-    label = "H2O2 + C4H7-5 <=> HO2 + C4H8-5",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (2, 'cm^3/(mol*s)'),
-        n = 3.52,
-        Ea = (-7.48, 'kcal/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
-    longDesc =
-u"""
-SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 2 to account for summetry of H2O2
-The rate rule is valid in a range of temperature from 300 -2000 K.
-The Wigner tunneling currection that was used to account for tunneling.
-
-InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3  (external symmetry number = 1, spin multiplicity = 2)
- +
-H2O2 (external symmetry number = 2, spin multiplicity = 1)
- <=> (TS: external symmetry number = 1, spin multiplicity = 2)
-InChI=1/C4H8/c1-3-4-2/h3H,1,4H2,2H3  (external symmetry number = 1, spin multiplicity = 1)
- +
-HO2 (external symmetry number = 1, spin multiplicity = 2)
-""",
-)
-
-entry(
     index = 36,
     label = "H2O2 + C4H7O-2 <=> HO2 + C4H8O-2",
     degeneracy = 2.0,
@@ -1681,27 +1651,6 @@ J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
 )
 
 entry(
-    index = 58,
-    label = "C4H8-6 + SH <=> CH2CCH2CH3 + H2S",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (162, 'cm^3/(mol*s)'),
-        n = 3.32,
-        Ea = (36.5, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Glarborg CBS-QB3 calc""",
-    longDesc =
-u"""
-Rate comes from quantum calculation at CBS-QB3 level
-J. Phys. Chem. A 2016, 120, 8941-8948; doi: 10.1021/acs.jpca.6b09357
-""",
-)
-
-entry(
     index = 59,
     label = "C3H4-1 + SH <=> CH2CCH + H2S",
     degeneracy = 4.0,
@@ -1966,27 +1915,6 @@ entry(
 u"""
 C.R. Zhou, K. Sendt, B.S. Haynes, J. Phys. Chem. A, 2008, 112, 3239-3247, doi: 10.1021/jp710488d
 calculations done at the MRCI/aug-cc-pV(Q+d)Z//MRCI/aug-cc-pVTZ level of theory
-""",
-)
-
-entry(
-    index = 72,
-    label = "H2 + S_rad <=> SH + H_p",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (1.58e+14, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (19700, 'cal/mol'),
-        T0 = (1, 'K'),
-        Tmin = (2740, 'K'),
-        Tmax = (3570, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
-    longDesc =
-u"""
-Shock Tube
-H. Shiina, M. Oya, K. Yamashita, A. Miyoshi, H. Matsui, J. Phys. Chem., 1996, 100(6), 2136-2140, doi: 10.1021/jp952472j
 """,
 )
 
@@ -2275,7 +2203,7 @@ entry(
         n = 1.47,
         Ea = (7550, 'cal/mol'),
         T0 = (1, 'K'),
-        Tmin = (500, 'K'),
+        Tmin = (575, 'K'),
         Tmax = (2500, 'K'),
     ),
     rank = 1,
@@ -3225,30 +3153,6 @@ DOI: 10.1002/bbpc.19940980615
 )
 
 entry(
-    index = 130,
-    label = "NH_r3 + HNCO <=> NH2_p23 + NCO",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (6.26e+12, 'cm^3/(mol*s)'),
-        n = 1.82,
-        Ea = (99.82, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (1000, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Sun""",
-    longDesc =
-u"""
-calculated at UQCISD(T)/6-311G** level
-Zhen-Feng Xu and Jia-Zhong Sun
-Theoretical Study on the Reaction Path and Variational Rate Constant of the Reaction HNCO + NH => NCO + NH2_r3
-J. Phys. Chem. A, 1998, 102 (7), pp 1194-1199
-DOI: 10.1021/jp972959n
-""",
-)
-
-entry(
     index = 131,
     label = "Cl + CH4_r12 <=> HCl + CH3_p1",
     degeneracy = 4.0,
@@ -3277,6 +3181,8 @@ entry(
         n = 0.7,
         Ea = (-972.793, 'J/mol'),
         T0 = (1, 'K'),
+        Tmin = (200.0,'K'),
+        Tmax = (1000.0, 'K'),
     ),
     rank = 1,
     shortDesc = u"""Cl + C2H6 <=> HCl + C2H5""",
@@ -3297,6 +3203,8 @@ entry(
         n = 0,
         Ea = (748.302, 'J/mol'),
         T0 = (1, 'K'),
+        Tmin = (200.0, 'K'),
+        Tmax = (700.0, 'K'),
     ),
     rank = 1,
     shortDesc = u"""Cl + C3H8 <=> HCl + nC3H7""",
@@ -3316,6 +3224,8 @@ entry(
         n = 0,
         Ea = (-623.585, 'J/mol'),
         T0 = (1, 'K'),
+        Tmin = (200.0, 'K'),
+        Tmax = (700.0, 'K'),
     ),
     rank = 1,
     shortDesc = u"""Cl + C3H8 <=> HCl + iC3H7""",
@@ -3323,115 +3233,6 @@ entry(
 u"""
 IUPAC recommendation: http://iupac.pole-ether.fr
 from 200-700 K
-""",
-)
-
-entry(
-    index = 135,
-    label = "Cl + C4H10 <=> HCl + C4H9",
-    degeneracy = 6.0,
-    kinetics = Arrhenius(
-        A = (9.02e-11, 'cm^3/(molecule*s)'),
-        n = 0,
-        Ea = (997.737, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""Cl + nC4H10 <=> HCl + C4H9-1""",
-    longDesc =
-u"""
-IUPAC recommendation: http://iupac.pole-ether.fr
-from 290-600 K
-""",
-)
-
-entry(
-    index = 136,
-    label = "Cl + C4H10b <=> HCl + C4H9-2",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (1.21e-10, 'cm^3/(molecule*s)'),
-        n = 0,
-        Ea = (-457.296, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""Cl + nC4H10 <=> HCl + C4H9-2""",
-    longDesc =
-u"""
-IUPAC recommendation: http://iupac.pole-ether.fr
-from 290-600 K
-""",
-)
-
-entry(
-    index = 137,
-    label = "Cl + CH2O <=> HCl + HCO_r3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (8.1e-11, 'cm^3/(molecule*s)'),
-        n = 0,
-        Ea = (282.692, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""Cl + HCHO <=> HCl + HCO""",
-    longDesc =
-u"""
-IUPAC recommendation: http://iupac.pole-ether.fr
-from 200-500 K
-""",
-)
-
-entry(
-    index = 138,
-    label = "Cl + C2H4O <=> HCl + C2H3O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(8e-11, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
-    rank = 1,
-    shortDesc = u"""Cl + CH3CHO <=> HCl + CH3CO""",
-    longDesc =
-u"""
-IUPAC recommendation: http://iupac.pole-ether.fr
-from 210-340 K
-""",
-)
-
-entry(
-    index = 139,
-    label = "Cl + C3H6O-3 <=> HCl + C3H5O-3",
-    degeneracy = 6.0,
-    kinetics = Arrhenius(
-        A = (1.5e-11, 'cm^3/(molecule*s)'),
-        n = 0,
-        Ea = (4905.54, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""Cl + CH3COCH3 <=> HCl + CH3COCH2""",
-    longDesc =
-u"""
-IUPAC recommendation: http://iupac.pole-ether.fr
-from 215-440 K
-""",
-)
-
-entry(
-    index = 140,
-    label = "Cl + CH4O <=> HCl + CH3O",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(
-        A = (7.1e-11, 'cm^3/(molecule*s)'),
-        n = 0,
-        Ea = (623.585, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""Cl + CH3OH <=> HCl + CH2OH""",
-    longDesc =
-u"""
-IUPAC recommendation: http://iupac.pole-ether.fr
-from 200-500 K
 """,
 )
 
@@ -3452,26 +3253,6 @@ u"""
 Theoretical study of the kinetics of the hydrogen abstraction from methanol. 2. Reaction of methanol with chlorine and bromine atoms
 Jodkowski, J.T.; Rayez, M-T.; Rayez, J-C.; Berces, T.; Dobe, S., JPCA, 102, 9230-9243, 1998
 300-1000 K, Theoretical Predictions
-""",
-)
-
-entry(
-    index = 142,
-    label = "Cl + C2H6O <=> HCl + C2H5O",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (1.44e-10, 'cm^3/(molecule*s)'),
-        n = -0.089,
-        Ea = (-374.151, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""Cl + C2H5OH <=> HCl + CH3CHOH""",
-    longDesc =
-u"""
-Absolute and Site-Specific Abstraction Rate Coefficients for Reactions of Cl with CH3CH2 OH, CH3CD2OH, and CD3CH2OH Between 295 and 600 K
-Taatjes, C. A., Christensen, L. K., Hurley M. D. and Wallington, T. J.: J. Phys. Chem. A, 103, 9805, 1999.
-LP-IR experiments from 295-600 K
 """,
 )
 
@@ -3580,9 +3361,9 @@ entry(
     label = "Cl + C5H10O2-2 <=> HCl + C5H9O2-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
-        A = (3.32e-10, 'cm^3/(molecule*s)'),
+        A = (3.32e-11, 'cm^3/(molecule*s)'),
         n = 0,
-        Ea = (1249.67, 'J/mol'),
+        Ea = (1255.2, 'J/mol'),
         T0 = (1, 'K'),
     ),
     rank = 1,
@@ -3616,26 +3397,6 @@ Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
 )
 
 entry(
-    index = 150,
-    label = "Cl + C5H12-2 <=> HCl + C5H11",
-    degeneracy = 12.0,
-    kinetics = Arrhenius(
-        A = (2.79e-10, 'cm^3/(molecule*s)'),
-        n = 0,
-        Ea = (3849.6, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""Cl + neoC5H12 <=> HCl + neoC5H11""",
-    longDesc =
-u"""
-Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons
-Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959
-193-593 K, experimental measurement
-""",
-)
-
-entry(
     index = 151,
     label = "Cl + C3H4-1 <=> HCl + C3H3",
     degeneracy = 4.0,
@@ -3644,6 +3405,8 @@ entry(
         n = 2,
         Ea = (4400.02, 'J/mol'),
         T0 = (1, 'K'),
+        Tmin = (292.0, 'K'),
+        Tmax = (850.0, 'K'),
     ),
     rank = 1,
     shortDesc = u"""Cl + aC3H4 <=> HCl + C3H3""",
@@ -3652,161 +3415,6 @@ u"""
 Infrared frequency-modulation probing of Cl + C3H4 (allene, propyne) reactions: kinetics of HCl production from 292 to 850 K
 Farrell, J.T.; Taatjes, C.A., J. Phys. Chem. A, 102, 1998, 4846-4856
 292-850 K, experimental measurement
-""",
-)
-
-entry(
-    index = 152,
-    label = "Cl + C5H10 <=> HCl + C5H9",
-    degeneracy = 10.0,
-    kinetics = Arrhenius(
-        A = (4.87e-10, 'cm^3/(molecule*s)'),
-        n = 0,
-        Ea = (2419.51, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""Cl + cC5H10 <=> HCl + cC5H9""",
-    longDesc =
-u"""
-The study of chlorine atom reactions in the gas phase
-Pritchard, H.O.; Pyke, J.B.; Trotman-Dickenson, A.F., JACS, 77, 1955
-298-484 K, experimental measurement
-""",
-)
-
-entry(
-    index = 153,
-    label = "Cl + C4H8-8 <=> HCl + C4H7-6",
-    degeneracy = 8.0,
-    kinetics = Arrhenius(
-        A = (4.25e-10, 'cm^3/(molecule*s)'),
-        n = 0,
-        Ea = (3449.67, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""Cl + cC4H8 <=> HCl + cC4H7""",
-    longDesc =
-u"""
-Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons
-Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959
-193-593 K, experimental measurement
-""",
-)
-
-entry(
-    index = 154,
-    label = "Cl + C4H8O2 <=> HCl + C4H7O2",
-    degeneracy = 8.0,
-    kinetics = Arrhenius(
-        A = (2.27e-10, 'cm^3/(molecule*s)'),
-        n = 0,
-        Ea = (300.152, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Cl + Dioxane14 <=> HCl + Dioxanyl14""",
-    longDesc =
-u"""
-Experimental and Theoretical Investigation of the Kinetics of the Reaction of Atomic Chlorine with 1,4-Dioxane
-Giri, B.R.; Roscoe, J.M.; Gonzalez-Garcia, N.; Olzmann, M.; Lo, J.MH.; Marriott, R.A., JPCA, 115, 2011, 5105-5111
-292-360 K, theoretical prediction matched to experiment
-""",
-)
-
-entry(
-    index = 155,
-    label = "Cl + C6H12O2 <=> HCl + C6H11O2",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(
-        A = (1.32e-11, 'cm^3/(molecule*s)'),
-        n = 0,
-        Ea = (2930.02, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-1""",
-    longDesc =
-u"""
-Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol
-Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
-313-433 K, experimental measurement
-""",
-)
-
-entry(
-    index = 156,
-    label = "Cl + C6H12O2-2 <=> HCl + C6H11O2-2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (3.32e-11, 'cm^3/(molecule*s)'),
-        n = 0,
-        Ea = (1249.67, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-2""",
-    longDesc =
-u"""
-Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol
-Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
-313-433 K, experimental measurement
-""",
-)
-
-entry(
-    index = 157,
-    label = "Cl + C6H12O2-3 <=> HCl + C6H11O2-3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (2.62e-11, 'cm^3/(molecule*s)'),
-        n = 0,
-        Ea = (2089.43, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-3""",
-    longDesc =
-u"""
-Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol
-Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
-313-433 K, experimental measurement
-""",
-)
-
-entry(
-    index = 158,
-    label = "Cl + C6H12O2-4 <=> HCl + C6H11O2-4",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (1.66e-12, 'cm^3/(molecule*s)'),
-        n = 0,
-        Ea = (3759.8, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-4""",
-    longDesc =
-u"""
-Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol
-Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966
-313-433 K, experimental measurement
-""",
-)
-
-entry(
-    index = 159,
-    label = "Cl + C2H6O-3 <=> HCl + C2H5O-3",
-    degeneracy = 6.0,
-    kinetics = Arrhenius(A=(1.76e-10, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
-    rank = 1,
-    shortDesc = u"""Cl + CH3OCH3 <=> HCl + CH3OCH2""",
-    longDesc =
-u"""
-Rate constants for the reaction of atomic chlorine with methanol and dimethyl ether from 200 to 500 K
-Michael, J.V.; Nava, D.F.; Payne, W.A.; Stief, L.J., J. Chem. Phys., 70, 1979
-200-500 K, experimental measurement
 """,
 )
 
@@ -3827,121 +3435,6 @@ u"""
 Infrared absorption probing of the Cl + C3H6 reaction: rate coefficients for HCl production between 290 and 800 K
 Pilgrim, J.S.; Taatjes, C.A., JPCA, 101, 5776-5782, 1997
 293-800 K, experimental measurement
-""",
-)
-
-entry(
-    index = 161,
-    label = "Cl + C6H12 <=> HCl + C6H11",
-    degeneracy = 12.0,
-    kinetics = Arrhenius(A=(2.41e-10, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
-    rank = 1,
-    shortDesc = u"""Cl + cC6H12 <=> HCl + cC6H11""",
-    longDesc =
-u"""
-Kinetic and mechanistic studies of the reactions of cyclopentylperoxy and cyclohexylperoxy radicals with HO2
-Rowley, D.M.; Lesclaux, R.; Lightfoot, P.D.; Noziere, B.; Wallingotn, T.J.; Hurley, M.D., JPC, 96, 1992, 4889-4894
-248-364 K, experimental measurement
-""",
-)
-
-entry(
-    index = 162,
-    label = "Cl + C7H8 <=> HCl + C7H7",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(
-        A = (1.59e-12, 'cm^3/(molecule*s)'),
-        n = 1.073,
-        Ea = (6406.3, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Cl + C6H5CH3 <=> HCl + C6H5CH2""",
-    longDesc =
-u"""
-DFT study on the abstraction and addition of Cl atom with toluene
-Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012
-Theoretical predictions from 298-1000 K, agrees well with 298 K experiments
-""",
-)
-
-entry(
-    index = 163,
-    label = "Cl + C7H8-2 <=> HCl + C7H7-2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (6.88e-45, 'cm^3/(molecule*s)'),
-        n = 10.876,
-        Ea = (-22746.7, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Cl + C6H5CH3 <=> HCl + o-C6H4CH3""",
-    longDesc =
-u"""
-DFT study on the abstraction and addition of Cl atom with toluene
-Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012
-Theoretical predictions from 298-1000 K
-""",
-)
-
-entry(
-    index = 164,
-    label = "Cl + C7H8-3 <=> HCl + C7H7-3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (4.98e-43, 'cm^3/(molecule*s)'),
-        n = 10.407,
-        Ea = (-20733.8, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Cl + C6H5CH3 <=> HCl + m-C6H4CH3""",
-    longDesc =
-u"""
-DFT study on the abstraction and addition of Cl atom with toluene
-Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012
-Theoretical predictions from 298-1000 K
-""",
-)
-
-entry(
-    index = 165,
-    label = "Cl + C7H8-4 <=> HCl + C7H7-4",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.75e-27, 'cm^3/(molecule*s)'),
-        n = 5.626,
-        Ea = (-1163.19, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Cl + C6H5CH3 <=> HCl + p-C6H4CH3""",
-    longDesc =
-u"""
-DFT study on the abstraction and addition of Cl atom with toluene
-Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012
-Theoretical predictions from 298-1000 K
-""",
-)
-
-entry(
-    index = 166,
-    label = "Cl + iC4H10 <=> HCl + C4H9-3",
-    degeneracy = 9.0,
-    kinetics = Arrhenius(
-        A = (1.94e-10, 'cm^3/(molecule*s)'),
-        n = 0,
-        Ea = (3429.72, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""Cl + iC4H10 <=> HCl + iC4H9""",
-    longDesc =
-u"""
-Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons
-Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959
-193-593 K, experimental measurement
 """,
 )
 
@@ -4046,48 +3539,6 @@ Alecu, I.M.; Gao, Y.D.; Hsieh, P.C.; Sand, J.P.; Ors, A.; McLeod, A.; Marshall, 
 )
 
 entry(
-    index = 172,
-    label = "Cl + C8H10 <=> HCl + C8H9",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (1.06e-12, 'cm^3/(molecule*s)'),
-        n = 1.073,
-        Ea = (6406.3, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Cl + C6H5CH2CH3 <=> HCl + C6H5CHCH3""",
-    longDesc =
-u"""
-DFT study on the abstraction and addition of Cl atom with toluene
-Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012
-Theoretical predictions from 298-1000 K, agrees well with 298 K experiments
-A-factor multiplied by 2/3 to account for different degeneracy of ethylbenzene vs. toluene
-""",
-)
-
-entry(
-    index = 173,
-    label = "Cl + C9H12 <=> HCl + C9H11",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (5.3e-13, 'cm^3/(molecule*s)'),
-        n = 1.073,
-        Ea = (6406.3, 'J/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Cl + C6H5CH(CH3)CH3 <=> HCl + C6H5C(CH3)CH3""",
-    longDesc =
-u"""
-DFT study on the abstraction and addition of Cl atom with toluene
-Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012
-Theoretical predictions from 298-1000 K, agrees well with 298 K experiments
-A-factor multiplied by 1/3 to account for different degeneracy of isopropylbenzene vs. toluene
-""",
-)
-
-entry(
     index = 174,
     label = "C3H6-3 + C6H5 <=> C6H6 + C3H5-4",
     degeneracy = 1.0,
@@ -4187,37 +3638,6 @@ entry(
     longDesc =
 u"""
 Taken from entry: phenyl + 1_3_butadiene <=> benzene + 1_3_butadien_2_yl
-""",
-)
-
-entry(
-    index = 180,
-    label = "C4H6-3 + C6H5 <=> C6H6 + C4H5",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(31600, 'cm^3/(mol*s)'), n=3.11, Ea=(16.7, 'kJ/mol'), T0=(1, 'K')),
-    rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2005_Ismail_C6H5_C4H6_highP""",
-    longDesc =
-u"""
-Taken from entry: phenyl + 1_3_butadiene <=> benzene + 1_3_butadien_1_yl
-""",
-)
-
-entry(
-    index = 181,
-    label = "C6H6 + CH3_r3 <=> CH4_p23 + C6H5_p1",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (5151, 'cm^3/(mol*s)'),
-        n = 2.896,
-        Ea = (15.308, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc =
-u"""
-Taken from entry: benzene_1 + methyl_7 <=> phenyl_16 + CH4_26
 """,
 )
 
@@ -5576,9 +4996,9 @@ entry(
     label = "C7H8-2 + HO2_r3 <=> H2O2 + C7H7-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
-        A = (91.4407, 'cm^3/(mol*s)'),
-        n = 3.28308,
-        Ea = (14233.3, 'cal/mol'),
+        A = (1.71418, 'cm^3/(mol*s)'),
+        n = 3.64569,
+        Ea = (21743.27, 'cal/mol'),
         T0 = (1, 'K'),
     ),
     reference = Article(
@@ -5602,9 +5022,9 @@ entry(
     label = "C7H8-3 + HO2_r3 <=> H2O2 + C7H7-3",
     degeneracy = 2.0,
     kinetics = Arrhenius(
-        A = (197.267, 'cm^3/(mol*s)'),
-        n = 3.28482,
-        Ea = (14542.4, 'cal/mol'),
+        A = (3.02029, 'cm^3/(mol*s)'),
+        n = 3.64209,
+        Ea = (22208.17, 'cal/mol'),
         T0 = (1, 'K'),
     ),
     reference = Article(
@@ -5625,7 +5045,7 @@ G4//B3LYP/6-31G(2df,p)
 
 entry(
     index = 274,
-    label = "C7H8-4 + HO2_r3 <=> H2O2 + C7H7-4",
+    label = "C7H8-4 + CH3_r3 <=> CH4_p23 + C7H7-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (204.902, 'cm^3/(mol*s)'),
@@ -5931,147 +5351,6 @@ Converted to training reaction from rate rule: X_H;O_atom_triplet
 """,
 )
 
-entry(
-    index = 286,
-    label = "H2 + OH_r3 <=> H2O_p23 + H_p",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (2.4e+06, 'cm^3/(mol*s)'),
-        n = 2,
-        Ea = (84.2448, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 11,
-    shortDesc = u"""Dean, A. M. [118]""",
-    longDesc =
-u"""
-[118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
-
-Converted to training reaction from rate rule: X_H;O_pri_rad
-""",
-)
-
-entry(
-    index = 287,
-    label = "H2 + CH3O-2 <=> CH4O-2 + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (28000, 'cm^3/(mol*s)'),
-        n = 2.69,
-        Ea = (89.2123, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 11,
-    shortDesc = u"""Dean, A. M. [118]""",
-    longDesc =
-u"""
-[118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
-
-Converted to training reaction from rate rule: X_H;O_sec_rad
-""",
-)
-
-entry(
-    index = 288,
-    label = "H2 + CH3_r3 <=> CH4_p23 + H_p",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (1.62e+06, 'cm^3/(mol*s)'),
-        n = 1.87,
-        Ea = (94.3429, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 11,
-    shortDesc = u"""Dean, A. M. [118]""",
-    longDesc =
-u"""
-[118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
-
-Converted to training reaction from rate rule: X_H;C_methyl
-""",
-)
-
-entry(
-    index = 289,
-    label = "H2 + O2 <=> HO2_r12 + H_p",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (2e+11, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (52.9694, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 11,
-    shortDesc = u"""Estimate [W.H. Green]""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: X_H;O2b
-""",
-)
-
-entry(
-    index = 290,
-    label = "CH4O-2 + O2 <=> HO2_r12 + CH3O-2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (1e+11, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (-16.919, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 11,
-    shortDesc = u"""Estimate [W.H. Green]""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: O/H/NonDeC;O2b
-""",
-)
-
-entry(
-    index = 291,
-    label = "OH_r3 + C2H6 <=> H2O_p23 + C2H5",
-    degeneracy = 6.0,
-    kinetics = Arrhenius(
-        A = (3.558e+07, 'cm^3/(mol*s)'),
-        n = 1.8,
-        Ea = (39.2041, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 11,
-    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. Fixed by RWest (changed to per H)""",
-    longDesc =
-u"""
-[8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253. http://dx.doi.org/10.1016/S0010-2180(01)00373-X
-
-Rate expressions for H atom abstraction from fuels.
-pg 257 A Comprehensive Modelling Study of iso-Octane Oxidation, Table 1. Radical:OH, Site: primary (a)
-Verified by Karma James
-
-**HOWEVER** This entry should probably use the numbers for primary(d) not primary(a).
-Primary(a) is for a primary on neopentane; primary(d) is for a primary on propane.
-Richard West. (Updated accordingly).
-
-These numbers reported by Curran et al. were apparently taken from
-N. Cohen, *Intl. J. Chem. Kinet.* 14 (1982), p. 1339 http://dx.doi.org/10.1002/kin.550141206
-
-Rate expression is changed to per H.(divided by 3)
-Yushi Suzuki
-
-Converted to training reaction from rate rule: C/H3/Cs;O_pri_rad
-""",
-)
 
 entry(
     index = 292,
@@ -6231,39 +5510,6 @@ https://www-pls.llnl.gov/data/docs/science_and_technology/chemistry/combustion/p
 Yushi Suzuki
 
 Converted to training reaction from rate rule: C/H/Cs3;O_atom_triplet
-""",
-)
-
-entry(
-    index = 297,
-    label = "HO2_r3 + C2H6 <=> H2O2 + C2H5",
-    degeneracy = 6.0,
-    kinetics = Arrhenius(
-        A = (1.68e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (85.5, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 11,
-    shortDesc = u"""Walker, R. W. Reactions of HO 2 radicals in combustion chemistry.""",
-    longDesc =
-u"""
-Walker, R. W. Symposium (International) on Combustion. Vol. 22. No. 1. Elsevier, 1989.
-Reactions of HO 2 radicals in combustion chemistry.
-
-Cited as source in:
-[8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
-Rate expressions for H atom abstraction from fuels.
-
-pg 257 A Comprehensive Modelling Study of iso-Octane Oxidation, Table 1. Radical:HO2, Site: primary (a)
-Verified by Karma James
-
-Rate expression is changed to per H.(divided by 9)
-Yushi Suzuki
-
-Converted to training reaction from rate rule: C/H3/Cs;O_rad/NonDeO
 """,
 )
 
@@ -6648,41 +5894,6 @@ Converted to training reaction from rate rule: H2;CO_pri_rad
 )
 
 entry(
-    index = 311,
-    label = "H2 + C2H3O <=> C2H4O + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (4.12e+06, 'cm^3/(mol*s)', '*|/', 3),
-        n = 1.82,
-        Ea = (217.289, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc =
-u"""
-[89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
-H2 + CH3CO --> H + CH3CHO C.D.W divided original rate expression by 2, to get rate expression per H atom.
-
-//WAS UNABLE TO VERIFY DATA!!! DATA NOT FOUND IN REFERENCE.
-
-pg. 1229: Discussion on evaluated data
-
-No experimental data for forward rxn, at the time
-
-Reviewers noticed that k(H+HCHO=H2+HCO) / k(H+CH3CHO=H2+CH3CO) ~ 2, due to double the number of H atoms available
-
-Used 0.5*k(H+HCHO=H2+HCO) and equilibrium constant to compute recommended rate expression
-
-Verified by MRH on 10Aug2009
-
-Converted to training reaction from rate rule: H2;CO_rad/NonDe
-""",
-)
-
-entry(
     index = 312,
     label = "H2 + OH_r3 <=> H2O_p23 + H_p",
     degeneracy = 2.0,
@@ -6710,26 +5921,6 @@ C.D.W divided original rate expression by 2, to get rate expression per H atom.
 Verified by Greg Magoon; maximum error of fitted expression from tabular data for forward rate constant, kr1 is 15% (cf. p. 3758)
 
 Converted to training reaction from rate rule: H2;O_pri_rad
-""",
-)
-
-entry(
-    index = 313,
-    label = "H2 + CH3O-2 <=> CH4O-2 + H_p",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.1264, 'cm^3/(mol*s)'),
-        n = 4,
-        Ea = (69.8885, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2;O_rad/NonDeC
 """,
 )
 
@@ -6766,39 +5957,6 @@ HO2 + HCO.  Assumes equal A factor per C-H bond and Ea = deltaH.
 MRH 31-Aug-2009
 
 Converted to training reaction from rate rule: C_methane;O2b
-""",
-)
-
-entry(
-    index = 315,
-    label = "C2H5 + CH4_r12 <=> C2H6 + CH3_p1",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (0.0864, 'cm^3/(mol*s)', '*|/', 2),
-        n = 4.14,
-        Ea = (52.551, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc =
-u"""
-[89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
-CH4 + C2H5 --> CH3 + C2H6 C.D.W divided original rate expression by 4, to get rate expression per H atom.
-
-//WAS UNABLE TO VERIFY DATA!!! DATA NOT FOUND IN REFERENCE.
-
-pg. 1177: Discussion on evaluated data
-
-No experimental data for forward rxn, at the time
-
-Recommended data from reverse rate and equilibrium constant
-
-Verified by MRH on 10Aug2009
-
-Converted to training reaction from rate rule: C_methane;C_rad/H2/Cs
 """,
 )
 
@@ -6873,31 +6031,6 @@ Converted to training reaction from rate rule: C_methane;Ct_rad
 )
 
 entry(
-    index = 318,
-    label = "C6H5 + CH4_r12 <=> C6H6 + CH3_p1",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (2e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (35.9824, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (560, 'K'),
-        Tmax = (1410, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Heckmann et al. [124]""",
-    longDesc =
-u"""
-[124] Heckmann, E.; Hippler, H. Troe, J. Sypm. Int. Combust. Proc. 1996, 26, 543.
-Absolute value measured directly (excitation technique: thermal, analytical technique: vis-UV absorption) CH4 + phenyl --> benzene
-
-C.D.W divided original rate expression by 4, to get rate expression per H atom.
-
-Converted to training reaction from rate rule: C_methane;Cb_rad
-""",
-)
-
-entry(
     index = 319,
     label = "HCO_r3 + CH4_r12 <=> CH2O + CH3_p1",
     degeneracy = 4.0,
@@ -6927,39 +6060,6 @@ Recommended data computed using reverse rate and equilibrium constant
 MRH 28-Aug-2009
 
 Converted to training reaction from rate rule: C_methane;CO_pri_rad
-""",
-)
-
-entry(
-    index = 320,
-    label = "CH4_r12 + C2H3O <=> C2H4O + CH3_p1",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (2172, 'cm^3/(mol*s)', '*|/', 5),
-        n = 2.88,
-        Ea = (155.826, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc =
-u"""
-[89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
-CH4 + CH3CO --> CH3 + CH3CHO C.D.W divided original rate expression by 4, to get rate expression per H atom.
-
-pg 1102, Chemical Kinetic Database For Combustion Chemistry, 2. Index of Reactions and Summary of Recommended Rate Expressions. No. 22,10.
-
-Verified by Karma James
-
-pg. 1231: Discussion on evaluated data
-
-Recommended number computed from reverse rate and equilibrium constant
-
-MRH 28-Aug-2009
-
-Converted to training reaction from rate rule: C_methane;CO_rad/NonDe
 """,
 )
 
@@ -7730,76 +6830,6 @@ Converted to training reaction from rate rule: Cd_pri;O_atom_triplet
 )
 
 entry(
-    index = 344,
-    label = "C2H4 + C2H5 <=> C2H6 + C2H3",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (632, 'cm^3/(mol*s)', '*|/', 10),
-        n = 3.13,
-        Ea = (75.312, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Tsang [89] literature review.""",
-    longDesc =
-u"""
-[89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
-C2H4 + C2H5 --> C2H3 + C2H6 C.D.W divided original rate expression by 4, to get rate expression per H atom.
-
-pg 1098, Chemical Kinetic Database For Combustion Chemistry, 2. Index of Reactions and Summary of Recommended Rate Expressions. No. 18,17.
-
-Verified by Karma James
-
-pgs. 1191-1192: Discussion on evaluated data
-
-Recommended data based on study performed by Halstead and Quinn
-
-Tsang fit the data against BEBO calculations (to attain the Arrhenius A, n)
-and manually adjusted the E.
-MRH 28-Aug-2009
-
-Converted to training reaction from rate rule: Cd_pri;C_rad/H2/Cs
-""",
-)
-
-entry(
-    index = 345,
-    label = "OH_r3 + C2H4 <=> H2O_p23 + C2H3",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (2.052e+13, 'cm^3/(mol*s)', '*|/', 3.16),
-        n = 0,
-        Ea = (109.161, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (650, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc =
-u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
-Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
-
-C2H4 + OH --> C2H3 + H2O C.D.W divided original rate expression by 4(from A= 2.05E+13), to get rate expression per H atom.
-
-pg 420 Evaluated Kinetic Data for Combustion Modelling, Table 1. Bimolecular reactions - OH Radical Reactions.
-
-Verified by Karma James
-
-pg.586-587: Discussion on evaluated data
-
-OH+C2H4 --> H2O+C2H3: Recommended rate taken from expression reported by Tully (1988).
-
-MRH 31-Aug-2009
-
-Converted to training reaction from rate rule: Cd_pri;O_pri_rad
-""",
-)
-
-entry(
     index = 346,
     label = "C3H6-2 + O_rad <=> HO + C3H5-2",
     degeneracy = 1.0,
@@ -8023,40 +7053,6 @@ Converted to training reaction from rate rule: Cd/H/NonDeC;O_pri_rad
 """,
 )
 
-entry(
-    index = 352,
-    label = "C2H2 + O2 <=> HO2_r12 + C2H",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (2.42e+13, 'cm^3/(mol*s)', '*|/', 10),
-        n = 0,
-        Ea = (311.792, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Tsang [89] literature review.""",
-    longDesc =
-u"""
-[89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
-C2H2 + O2 --> C2H + HO2 C.D.W divided original rate expression by 2, to get rate expression per H atom.
-
-pg 1100, Chemical Kinetic Database For Combustion Chemistry, 2. Index of Reactions and Summary of Recommended Rate Expressions. No. 20,3.
-
-Verified by Karma James
-
-pg. 1209: Discussion on evaluated data
-
-Recommended data based on report by Walker
-
-NOTE: Authors note that a lower-lying channel of O2 addition, rearrangement,
-and decomposition may exist.
-MRH 28-Aug-2009
-
-Converted to training reaction from rate rule: Ct_H;O2b
-""",
-)
 
 entry(
     index = 353,
@@ -8121,79 +7117,6 @@ Recommended data is derived from BEBO method calculation
 MRH 28-Aug-2009
 
 Converted to training reaction from rate rule: Ct_H;O_pri_rad
-""",
-)
-
-entry(
-    index = 355,
-    label = "C6H6 + O2 <=> HO2_r12 + C6H5",
-    degeneracy = 12.0,
-    kinetics = Arrhenius(
-        A = (1.2624e+14, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (251.082, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (1200, 'K'),
-        Tmax = (1700, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Asaba et al. [129]. Data are estimated.""",
-    longDesc =
-u"""
-[129] Asaba, T.; Fujii, N.; Proc. Int. Symp. Shock Tubes Waves 1971, 8, 1.
-Benzene + O2 --> phenyl + HO2 C.D.W divided original rate expression by 6(from A = 6.31E+13), to get rate expression per H atom.
-
-Converted to training reaction from rate rule: Cb_H;O2b
-""",
-)
-
-entry(
-    index = 356,
-    label = "H + C6H6 <=> H2 + C6H5",
-    degeneracy = 6.0,
-    kinetics = Arrhenius(
-        A = (6e+08, 'cm^3/(mol*s)'),
-        n = 1.8,
-        Ea = (68.4084, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (500, 'K'),
-        Tmax = (800, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Mebel et al. [122] RRK(M) extrapolation.""",
-    longDesc =
-u"""
-[122] Mebel, A.M.; Lin, M.C.; Yu, T.; Morokuma, K. J. Phys. Chem. A. 1997, 101, 3189.
-Rate constant is high pressure limit. Benzene + H --> phenyl + H2
-
-C.D.W divided original rate expression by 6(from A = 6.02E+08), to get rate expression per H atom.
-
-Converted to training reaction from rate rule: Cb_H;H_rad
-""",
-)
-
-entry(
-    index = 357,
-    label = "C2H5 + C6H6 <=> C2H6 + C6H5",
-    degeneracy = 6.0,
-    kinetics = Arrhenius(
-        A = (6.3e+11, 'cm^3/(mol*s)', '*|/', 2),
-        n = 0,
-        Ea = (85.3118, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (650, 'K'),
-        Tmax = (770, 'K'),
-    ),
-    rank = 11,
-    shortDesc = u"""Zhang et al. [131]""",
-    longDesc =
-u"""
-[131] Zhang, H.X.; Ahonkhai, S.I. Back, H.M. Can. J. Chem. 1989, 67, 1541.
-Pressure 0.30-0.50 atm Excitation: thermal, analysis: GC. Benzene + C2H5 --> phenyl + C2H6
-
-C.D.W divided original rate expression by 6(from A = 6.31E+11), to get rate expression per H atom.
-
-Converted to training reaction from rate rule: Cb_H;C_rad/H2/Cs
 """,
 )
 
@@ -8701,67 +7624,6 @@ Converted to training reaction from rate rule: CO/H/NonDe;O_atom_triplet
 )
 
 entry(
-    index = 373,
-    label = "H + C2H4O <=> H2 + C2H3O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (4e+13, 'cm^3/(mol*s)', '*|/', 2),
-        n = 0,
-        Ea = (17.6146, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Warnatz [134] literature review""",
-    longDesc =
-u"""
-[134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
-CH3CHO + H --> CH3CO + H2
-
-Converted to training reaction from rate rule: CO/H/NonDe;H_rad
-""",
-)
-
-entry(
-    index = 374,
-    label = "CH3_r3 + C2H4O <=> CH4_p23 + C2H3O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.99e-06, 'cm^3/(mol*s)', '*|/', 2),
-        n = 5.64,
-        Ea = (10.2926, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1250, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc =
-u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
-Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
-
-CH3CHO + CH3 --> CH3CO + CH4
-
-pg 423 Evaluated Kinetic Data for Combustion Modelling, Table 1. Bimolecular reactions - CH3 Radical Reactions.
-
-Verified by Karma James
-
-pg.671: Discussion on evaluated data
-
-CH3+CH3CHO --> CH4+CH3CO: "There are no direct studies of the kinetics of this reaction
-
-and all of the k values are relative to methyl recombination ... The preferred values
-are based on a line constructed through the mean of the low temperature data and the
-data of Liu and Laidler and Colket et al."
-MRH 31-Aug-2009
-
-Converted to training reaction from rate rule: CO/H/NonDe;C_methyl
-""",
-)
-
-entry(
     index = 375,
     label = "C3H5 + C2H4O <=> C3H6 + C2H3O",
     degeneracy = 2.0,
@@ -8804,72 +7666,6 @@ u"""
 CH3CHO + C2H3 --> CH3CO + C2H4
 
 Converted to training reaction from rate rule: CO/H/NonDe;Cd_pri_rad
-""",
-)
-
-entry(
-    index = 377,
-    label = "OH_r3 + C2H4O <=> H2O_p23 + C2H3O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2e+06, 'cm^3/(mol*s)'),
-        n = 1.8,
-        Ea = (-5.4392, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (295, 'K'),
-        Tmax = (600, 'K'),
-    ),
-    rank = 6,
-    shortDesc = u"""Taylor et al. [127] Transition state theory.""",
-    longDesc =
-u"""
-[127] Taylor, P.H.; Rahman, M.S.; Arif, M.; Dellinger, B.; Marshall, P. Sypm. Int. Combust. Proc. 1996, 26, 497.
-CH3CHO + OH --> CH3CO + H2O Pressure 0.13-0.97 atm. Rate constant is high pressure limit.
-
-pg 501, Table 1, k2 = 2.00x10^6 T^1.8 exp(1300/RT)
-
-Previous modified Arrhenius parameters had E=1.3 kcal/mol; it should be E=-1.3 kcal/mol
-
-Certified by MRH on 6Aug2009
-
-Converted to training reaction from rate rule: CO/H/NonDe;O_pri_rad
-""",
-)
-
-entry(
-    index = 378,
-    label = "HO2_r3 + C2H4O <=> H2O2 + C2H3O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.01e+12, 'cm^3/(mol*s)', '*|/', 5),
-        n = 0,
-        Ea = (49.8733, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (900, 'K'),
-        Tmax = (1200, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc =
-u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
-Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
-
-CH3CHO + HO2 --> CH3CO + H2O2
-
-pg 421 Evaluated Kinetic Data for Combustion Modelling, Table 1. Bimolecular reactions - HO2 Radical Reactions.
-
-Verified by Karma James
-
-pg.614-615: Discussion on evaluated data
-
-HO2+CH3CHO --> CH3CO+H2O2: "The preferred expression is based on a value of 1.7x10^-14
-
-cm3/molecule/s at 1050K from a study performed by Colket et al. and an assumed A
-factor of 5.0x10^-12 cm3/molecule/s."
-MRH 31-Aug-2009
-
-Converted to training reaction from rate rule: CO/H/NonDe;O_rad/NonDeO
 """,
 )
 
@@ -8923,136 +7719,6 @@ Converted to training reaction from rate rule: O_pri;O_atom_triplet
 )
 
 entry(
-    index = 381,
-    label = "H + H2O_r12 <=> H2 + OH_p1",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (4.52e+08, 'cm^3/(mol*s)', '*|/', 1.6),
-        n = 1.6,
-        Ea = (80.8349, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc =
-u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.;
-Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
-
-H2O + H --> OH + H2. C.D.W divided original rate expression by 2, to get rate expression per H atom.
-
-pg 418 Evaluated Kinetic Data for Combustion Modelling, Table 1. Bimolecular reactions - H Atom Reactions.
-
-NOTE: E0 Rference = 18.4, E0 RMG database = 19.32
-
-Verified by Karma James
-
-pg.504: Discussion on evaluated data
-
-H+H2O --> OH+H2: "The recommended rate coefficient is based on the spare high temperature
-
-measurements and rate data of the reverse rxn combined with the equilibrium constant."
-MRH agrees with Karma.  However, the discrepancy is small and NIST's online database Webbook
-
-has an E = 19.32 kcal/mol.
-MRH 31-Aug-2009
-
-Converted to training reaction from rate rule: O_pri;H_rad
-""",
-)
-
-entry(
-    index = 382,
-    label = "H2O_r12 + CH3_r3 <=> CH4_p23 + OH_p1",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (6.4, 'cm^3/(mol*s)'),
-        n = 3.31,
-        Ea = (52.551, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 6,
-    shortDesc = u"""Ma et al. [140] Transition state theory.""",
-    longDesc =
-u"""
-[140] Ma, S.; Liu, R.; Sci. China Ser. S: 1996, 39, 37.
-H2O + CH3 --> OH + CH4. C.D.W divided original rate expression by 2 (from A= 6.39), to get rate expression per H atom.
-
-Converted to training reaction from rate rule: O_pri;C_methyl
-""",
-)
-
-entry(
-    index = 383,
-    label = "H2O_r12 + C2H5 <=> C2H6 + OH_p1",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (3.4e+06, 'cm^3/(mol*s)', '*|/', 2),
-        n = 1.44,
-        Ea = (84.8097, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Tsang [89] literature review.""",
-    longDesc =
-u"""
-[89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
-H2O + C2H5 --> OH + C2H6. C.D.W divided original rate expression by 2 (from A= 3.39E+06), to get rate expression per H atom.
-
-pg 1096, Chemical Kinetic Database For Combustion Chemistry, 2. Index of Reactions and Summary of Recommended Rate Expressions. No. 17,9.
-
-Verified by Karma James
-
-pg. 1177: Discussion on evaluated data
-
-Recommended data based on reverse rate and equilibrium constant
-
-MRH 28-Aug-2009
-
-Converted to training reaction from rate rule: O_pri;C_rad/H2/Cs
-""",
-)
-
-entry(
-    index = 384,
-    label = "H2O_r12 + C2H3 <=> C2H4 + OH_p1",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (484, 'cm^3/(mol*s)', '*|/', 5),
-        n = 2.9,
-        Ea = (62.1742, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Tsang [89] literature review.""",
-    longDesc =
-u"""
-[89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
-H2O + C2H3 --> OH + C2H4. C.D.W divided original rate expression by 2 (from A= 4.83E+02), to get rate expression per H atom.
-
-pg 1098, Chemical Kinetic Database For Combustion Chemistry, 2. Index of Reactions and Summary of Recommended Rate Expressions. No. 19,9.
-
-Verified by Karma James
-
-pg. 1196: Discussion on evaluated data
-
-Recommended data based on expression for CH3+H2O=CH4+OH
-
-MRH 28-Aug-2009
-
-Converted to training reaction from rate rule: O_pri;Cd_pri_rad
-""",
-)
-
-entry(
     index = 385,
     label = "H2O_r12 + HCO_r3 <=> CH2O + OH_p1",
     degeneracy = 2.0,
@@ -9082,31 +7748,6 @@ Recommended data based on reverse rate and equilibrium constant
 MRH 28-Aug-2009
 
 Converted to training reaction from rate rule: O_pri;CO_pri_rad
-""",
-)
-
-entry(
-    index = 386,
-    label = "H2O_r12 + CH3O-2 <=> CH4O-2 + OH_p1",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.348, 'cm^3/(mol*s)'),
-        n = 3.8,
-        Ea = (48.0742, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
-    longDesc =
-u"""
-[100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
-H2O + CH3O --> OH + CH3OH C.D.W divided original rate expression by 2 (from A= 9.03E+08), to get rate expression per H atom.; This is Rxn. -R5 from mpaper
-
-Verified by Greg Magoon: note that this reaction is endothermic; the reverse (R5), appears as #267, below
-
-Converted to training reaction from rate rule: O_pri;O_rad/NonDeC
 """,
 )
 
@@ -9388,31 +8029,6 @@ expression based on measurements of C2H+CH4 and C2H+C2H6 rxns
 MRH 30-Aug-2009
 
 Converted to training reaction from rate rule: O/H/NonDeC;Ct_rad
-""",
-)
-
-entry(
-    index = 395,
-    label = "OH_r3 + CH4O-2 <=> H2O_p23 + CH3O-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (17.3, 'cm^3/(mol*s)'),
-        n = 3.4,
-        Ea = (-4.76976, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
-    longDesc =
-u"""
-[100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
-The calculated rate constants are in good agreement with experiment. CH3OH + OH --> CH3O + H2O (Rxn. R5 from paper)
-
-Verified by Greg Magoon (cf. reverse, #258, above)
-
-Converted to training reaction from rate rule: O/H/NonDeC;O_pri_rad
 """,
 )
 
@@ -10458,32 +9074,6 @@ Converted to training reaction from rate rule: C/H3/Cd\Cs_Cd\H2;O_rad/Cd\H_Cd\H\
 )
 
 entry(
-    index = 429,
-    label = "HO2_r3 + C3H6 <=> H2O2 + C3H5",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(
-        A = (0.00173499, 'cm^3/(mol*s)'),
-        n = 4.65,
-        Ea = (40.9195, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 11,
-    shortDesc = u"""SSM due to lack of better value ref rate rule 525""",
-    longDesc =
-u"""
-This rate rules matches C=C-CH3 + HO-O* <=> C=C-CH2* + H2O2
-
-Due to lack of better estimate SSM has given this node the value obtained from 2-Butene + HO2 calculations (Rate rule 525)
-The rate was calculated using CBS-QB3 w/o hindered rotors and is valid in a range of temperature from 300 -2000 K.
-The Wigner tunneling currection that was used to account for tunneling.
-
-Converted to training reaction from rate rule: C/H3/Cd;O_rad/NonDeO
-""",
-)
-
-entry(
     index = 430,
     label = "HO2_r3 + C4H8-2 <=> H2O2 + C4H7-2",
     degeneracy = 6.0,
@@ -10568,125 +9158,6 @@ InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+  (external symmetry number = 2, spin mul
 HO2 (external symmetry number = 1, spin multiplicity = 2)
 
 Converted to training reaction from rate rule: H2O2;Cd_Cd\H\Cs_rad/Cs
-""",
-)
-
-entry(
-    index = 433,
-    label = "HO2_r3 + C4H8-4 <=> H2O2 + C4H7-4",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.000508, 'cm^3/(mol*s)'),
-        n = 4.59,
-        Ea = (29.9574, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 11,
-    shortDesc = u"""SSM due to lack of better value ref rate rule 529""",
-    longDesc =
-u"""
-This rate rules matches Cs-CH2-C=C + HO-O* <=> Cs-CH*-C=C + H2O2
-
-Due to lack of better estimate SSM has given this node the value obtained from 1-Butene + HO2 calculations (Rate rule 529)
-The rate was calculated using CBS-QB3 w/o hindered rotors and is valid in a range of temperature from 300 -2000 K.
-The Wigner tunneling currection that was used to account for tunneling.
-
-NY added CS to the definition of 'C/H2/OneDeC'. This rule could be over-generalizing now. Be sure to double check
-this when doing training reaction conversions.
-
-Converted to training reaction from rate rule: C/H2/OneDeC;O_rad/NonDeO
-""",
-)
-
-entry(
-    index = 434,
-    label = "HO2_r3 + C4H8-4 <=> H2O2 + C4H7-4",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.000508, 'cm^3/(mol*s)'),
-        n = 4.59,
-        Ea = (29.9574, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 11,
-    shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
-    longDesc =
-u"""
-SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 2 to get per-H value.
-The rate rule is valid in a range of temperature from 300 -2000 K.
-The Wigner tunneling currection that was used to account for tunneling.
-
-InChI=1/C4H8/c1-3-4-2/h3H,1,4H2,2H3 (external symmetry number = 1, spin multiplicity = 1)
- +
-HO2 (external symmetry number = 1, spin multiplicity = 2)
- <=> (TS: external symmetry number = 1, spin multiplicity = 2)
-InChI=1/C4H7/c1-3-4-2/h3-4H,1H2,2H3   (external symmetry number = 1, spin multiplicity = 2)
- +
-H2O2 (external symmetry number = 2, spin multiplicity = 1)
-
-Converted to training reaction from rate rule: C/H2/Cd\H_Cd\H2/Cs\H3;O_rad/NonDeO
-""",
-)
-
-entry(
-    index = 435,
-    label = "H2O2 + C2H3 <=> C2H4 + HO2_r3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (2, 'cm^3/(mol*s)'),
-        n = 3.52,
-        Ea = (-31.2963, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 11,
-    shortDesc = u"""SSM due to lack of better value ref rate rule 531""",
-    longDesc =
-u"""
-This rate rules matches C-HC=CH* + H2O2 <=> C-HC=CH2 + HO=O*
-
-Due to lack of better estimate SSM has given this node the value obtained from 1-Butene + HO2 calculations (Rate rule 531)
-The rate was calculated using CBS-QB3 w/o hindered rotors and is valid in a range of temperature from 300 -2000 K.
-The Wigner tunneling currection that was used to account for tunneling.
-
-Converted to training reaction from rate rule: H2O2;Cd_pri_rad
-""",
-)
-
-entry(
-    index = 436,
-    label = "H2O2 + C4H7-5 <=> C4H8-5 + HO2_r3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (2, 'cm^3/(mol*s)'),
-        n = 3.52,
-        Ea = (-31.2963, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 11,
-    shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
-    longDesc =
-u"""
-SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 2 to account for summetry of H2O2
-The rate rule is valid in a range of temperature from 300 -2000 K.
-The Wigner tunneling currection that was used to account for tunneling.
-
-InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3  (external symmetry number = 1, spin multiplicity = 2)
- +
-H2O2 (external symmetry number = 2, spin multiplicity = 1)
- <=> (TS: external symmetry number = 1, spin multiplicity = 2)
-InChI=1/C4H8/c1-3-4-2/h3H,1,4H2,2H3  (external symmetry number = 1, spin multiplicity = 1)
- +
-HO2 (external symmetry number = 1, spin multiplicity = 2)
-
-Converted to training reaction from rate rule: H2O2;Cd_Cd\H\Cs|H2|Cs_pri_rad
 """,
 )
 
@@ -10794,43 +9265,6 @@ Converted to training reaction from rate rule: H2O2;O_rad/OneDe
 )
 
 entry(
-    index = 440,
-    label = "H2O2 + CH3O2 <=> CH4O2 + HO2_r3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.184, 'cm^3/(mol*s)', '*|/', 3),
-        n = 3.96,
-        Ea = (27.7399, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (600, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 6,
-    shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
-    longDesc =
-u"""
-Exact reaction: HOOH + *O-O-CH3 <=> HO-O-CH3 + HOO*
-Rxn family nodes: H2O2 + OOCH3
-
-MHS computed rate coefficient using CBS-QB3 method, see _[MRHCBSQB3RRHO] for general algorithm
-employed.  Two differences::
-	1) the k(T) was calculated from 600 to 2000 K, in 200 K increments.
-	2) Low-frequency torsional modes were treated as 1-d separable hindered rotors.  The scans
-		were performed at the B3LYP/6-31G(d) level.
-
-MHS computed the fitted Arrhenius expression to be: k(T) = 1.84e-1 (T/1K)^3.96 exp(-6.63 kcal mol-1 / RT) cm3 mol-1 s-1.
-The pre-exponential was divided by 2 to get the per-H event.  The uncertainty in the E0
-was estimated to be 2 kcal mol-1 (general accuracy of CBS-QB3 calculations) and the uncertainty
-in the A parameter was MRH guess.
-
-RMG previously estimated the kinetics of the titled reaction to be 1-3 orders of magnitude faster
-than calculations of MHS.
-
-Converted to training reaction from rate rule: H2O2;OOC
-""",
-)
-
-entry(
     index = 441,
     label = "C4H8-4 + CH3O2 <=> CH4O2 + C4H7-4",
     degeneracy = 2.0,
@@ -10874,43 +9308,6 @@ his stated uncertainty is a factor of ten.  However, one would expect abstractio
 this calculation is in reasonable agreement with the literature.
 
 Converted to training reaction from rate rule: C/H2/Cd\H_Cd\H2/Cs\H3;OOC
-""",
-)
-
-entry(
-    index = 442,
-    label = "H2O2 + C3H5 <=> C3H6 + HO2_r3",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (0.0702, 'cm^3/(mol*s)', '*|/', 3),
-        n = 4.22,
-        Ea = (45.773, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (600, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 6,
-    shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
-    longDesc =
-u"""
-MHS CBS-QB3 calculations w/1d hindered rotor corrections
-Exact reaction: *CH2-CH=CH2 + H2O2 = CH3-CH=CH2 + HO2
-
-MHS computed rate coefficient using CBS-QB3 method, see _[MRHCBSQB3RRHO] for general algorithm
-employed.  Two differences::
-	1) the k(T) was calculated from 600 to 2000 K, in 200 K increments.
-	2) Low-frequency torsional modes were treated as 1-d separable hindered rotors.  The scans
-		were performed at the B3LYP/6-31G(d) level.
-
-MHS computed the fitted Arrhenius expression to be: k(T) = 3.51e-2 (T/1K)^4.22 exp(-9.86 kcal mol-1 / RT) cm3 mol-1 s-1.
-The pre-exponential was divided by 2 to get the per-H event.  The uncertainty in the E0
-was estimated to be 2 kcal mol-1 (general accuracy of CBS-QB3 calculations) and the uncertainty
-in the A parameter was MRH guess.
-
-RMG previously estimated the kinetics of the titled reaction to be ~2 orders of magnitude faster
-than calculations of MHS.
-
-Converted to training reaction from rate rule: H2O2;C_rad/H2/Cd\H_Cd\H2
 """,
 )
 
@@ -11425,34 +9822,6 @@ Converted to training reaction from rate rule: C/H2/CdS;S_rad/NonDeC
 )
 
 entry(
-    index = 468,
-    label = "H + CH4O <=> H2_p + CH3O_p1",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(
-        A = (1353, 'cm^3/(mol*s)'),
-        n = 3.2,
-        Ea = (14.6022, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Jodkowski et al. [100] ab initio calculations. added by Greg Magoon 08/25/09""",
-    longDesc =
-u"""
-[100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
-
-CH3OH + H --> CH2OH + H2 (Rxn. R2 in paper)
-
-divided original rate expression by 3 to get rate expression per H atom.
-
-Created by Greg Magoon; maximum error of fitted expression from tabular data for kr2 is 20% (cf. p. 3758); rank of 2 assigned based on rank for other values reported in the paper in the rateLibrary (also 2)
-
-Converted to training reaction from rate rule: C/H3/O;H_rad
-""",
-)
-
-entry(
     index = 469,
     label = "C4H10O-10 + C3H7 <=> C3H8 + C4H9O-10",
     degeneracy = 1.0,
@@ -11555,7 +9924,7 @@ entry(
         n = 2.41,
         Ea = (-17.531, 'kJ/mol'),
         T0 = (1, 'K'),
-        Tmin = (300, 'K'),
+        Tmin = (500, 'K'),
         Tmax = (1500, 'K'),
     ),
     rank = 5,
@@ -14721,7 +13090,7 @@ entry(
         n = 0.1,
         Ea = (88.9518, 'kJ/mol'),
         T0 = (1, 'K'),
-        Tmin = (300, 'K'),
+        Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank = 2,
@@ -15422,17 +13791,17 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (4.2e+10, 'cm^3/(mol*s)'),
-        n = 1.83,
-        Ea = (91.2112, 'kJ/mol'),
+        n = 0.4,
+        Ea = (86.507, 'kJ/mol'),
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    shortDesc = u"""Added by Matt Johnson""",
     longDesc =
 u"""
-Added by Beat Buesser, value for reaction: HCN + O = CN + OH (B&D #42c3) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+Added by Matt Johnson, value for reaction: HCN + O = CN + OH (B&D #42c3) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: Ct/H/NonDeN;O_atom_triplet
 """,
@@ -16249,28 +14618,6 @@ u"""
 Added by Beat Buesser, value for reaction: HNCO + NH2_r3 = NCO + NH3 (B&D #56i) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: N3d/H/CddO;NH2_rad
-""",
-)
-
-entry(
-    index = 701,
-    label = "C2H4N + O_rad <=> HO + C2H3N",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (1.32e+09, 'cm^3/(mol*s)'),
-        n = 1.5,
-        Ea = (-3.72376, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
-    longDesc =
-u"""
-Added by Beat Buesser, value for reaction: CH2NO + O = HCNO + OH (B&D #57d2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
-
-Converted to training reaction from rate rule: Cs/H2/OneDeN;O_atom_triplet
 """,
 )
 
@@ -17622,25 +15969,25 @@ Converted to training reaction from rate rule: C/H/Cs2/Cs\O;O_pri_rad
 """,
 )
 
-entry(
-    index = 767,
-    label = "H + CH4O-2 <=> H2 + CH3O-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.293, 'cm^3/(mol*s)'),
-        n = 4.14,
-        Ea = (20.0832, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 6,
-    shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
-    longDesc =
-u"""
-Converted to training reaction from rate rule: O/H/NonDeC;H_rad
-""",
-)
+# entry(
+#     index = 767,
+#     label = "H + CH4O-2 <=> H2 + CH3O-2",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(
+#         A = (0.293, 'cm^3/(mol*s)'),
+#         n = 4.14,
+#         Ea = (20.0832, 'kJ/mol'),
+#         T0 = (1, 'K'),
+#         Tmin = (300, 'K'),
+#         Tmax = (2000, 'K'),
+#     ),
+#     rank = 6,
+#     shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
+#     longDesc =
+# u"""
+# Converted to training reaction from rate rule: O/H/NonDeC;H_rad
+# """,
+# )
 
 entry(
     index = 768,
@@ -17682,45 +16029,45 @@ Converted to training reaction from rate rule: C/H/Cs2/Cs\O;H_rad
 """,
 )
 
-entry(
-    index = 770,
-    label = "H + C2H6 <=> H2 + C2H5",
-    degeneracy = 6.0,
-    kinetics = Arrhenius(
-        A = (6180, 'cm^3/(mol*s)'),
-        n = 3.24,
-        Ea = (29.7064, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 6,
-    shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H3/Cs;H_rad
-""",
-)
+# entry(
+#     index = 770,
+#     label = "H + C2H6 <=> H2 + C2H5",
+#     degeneracy = 6.0,
+#     kinetics = Arrhenius(
+#         A = (6180, 'cm^3/(mol*s)'),
+#         n = 3.24,
+#         Ea = (29.7064, 'kJ/mol'),
+#         T0 = (1, 'K'),
+#         Tmin = (300, 'K'),
+#         Tmax = (2000, 'K'),
+#     ),
+#     rank = 6,
+#     shortDesc = u"""iBuOH AG Vandeputte CBS-QB3 1dHR """,
+#     longDesc =
+# u"""
+# Converted to training reaction from rate rule: C/H3/Cs;H_rad
+# """,
+# )
 
-entry(
-    index = 771,
-    label = "CH3_r3 + C2H6 <=> CH4_p23 + C2H5",
-    degeneracy = 6.0,
-    kinetics = Arrhenius(
-        A = (4.488e-05, 'cm^3/(mol*s)'),
-        n = 4.99,
-        Ea = (33.472, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 6,
-    shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H3/Cs;C_methyl
-""",
-)
+# entry(
+#     index = 771,
+#     label = "CH3_r3 + C2H6 <=> CH4_p23 + C2H5",
+#     degeneracy = 6.0,
+#     kinetics = Arrhenius(
+#         A = (4.488e-05, 'cm^3/(mol*s)'),
+#         n = 4.99,
+#         Ea = (33.472, 'kJ/mol'),
+#         T0 = (1, 'K'),
+#         Tmin = (300, 'K'),
+#         Tmax = (2000, 'K'),
+#     ),
+#     rank = 6,
+#     shortDesc = u"""iBuOH & iPtOH AG Vandeputte CBS-QB3 1dHR""",
+#     longDesc =
+# u"""
+# Converted to training reaction from rate rule: C/H3/Cs;C_methyl
+# """,
+# )
 
 entry(
     index = 772,
@@ -17796,11 +16143,10 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 6,
+    rank = 5,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR corrections""",
     longDesc =
 u"""
-Converted to training reaction from rate rule: C/H3/Cs;Cd_Cd\H2_pri_rad
 """,
 )
 
@@ -17861,26 +16207,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/Cs\Cs2/O;O_atom_triplet
-""",
-)
-
-entry(
-    index = 779,
-    label = "H2O2 + C2H5 <=> C2H6 + HO2_r3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (3, 'cm^3/(mol*s)'),
-        n = 3.28,
-        Ea = (4.3932, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 11,
-    shortDesc = u"""SSM CBS-QB3 without 1-dHR corrections""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2O2;C_rad/H2/Cs
 """,
 )
 
@@ -18009,46 +16335,6 @@ Converted to training reaction from rate rule: C/H2/Cs/Cs\Cs|O;O_atom_triplet
 )
 
 entry(
-    index = 786,
-    label = "H2 + CH3_r3 <=> CH4_p23 + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.0224, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (61.463, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2;C_methyl
-""",
-)
-
-entry(
-    index = 787,
-    label = "H2 + C2H5 <=> C2H6 + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.00384, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (44.7688, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2;C_rad/H2/Cs
-""",
-)
-
-entry(
     index = 788,
     label = "H2 + C3H7 <=> C3H8 + H",
     degeneracy = 2.0,
@@ -18085,26 +16371,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/Cs3
-""",
-)
-
-entry(
-    index = 790,
-    label = "H2 + C3H5 <=> C3H6 + H",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (0.1212, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (98.7424, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2;C_rad/H2/Cd
 """,
 )
 
@@ -18189,46 +16455,6 @@ Converted to training reaction from rate rule: H2;C_rad/CdCdCs
 )
 
 entry(
-    index = 795,
-    label = "H2 + C3H3-2 <=> C3H4 + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.031, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (93.7216, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2;C_rad/H2/Ct
-""",
-)
-
-entry(
-    index = 796,
-    label = "H2 + C4H5-5 <=> C4H6 + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.01242, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (80.8767, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2;C_rad/H/CtCs
-""",
-)
-
-entry(
     index = 797,
     label = "H2 + C5H7-3 <=> C5H8 + H",
     degeneracy = 2.0,
@@ -18285,26 +16511,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/CtCtCs
-""",
-)
-
-entry(
-    index = 800,
-    label = "H2 + C7H7 <=> C7H8 + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.0562, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (87.9142, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2;C_rad/H2/Cb
 """,
 )
 
@@ -18389,66 +16595,6 @@ Converted to training reaction from rate rule: H2;Cd_rad/Cd
 )
 
 entry(
-    index = 805,
-    label = "H2 + C3H3 <=> C3H4-1 + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.0686, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (74.4752, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2;Cd_Cdd_rad/H
-""",
-)
-
-entry(
-    index = 806,
-    label = "H2 + C4H3 <=> C4H4 + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.00262, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (33.472, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2;Cd_rad/Ct
-""",
-)
-
-entry(
-    index = 807,
-    label = "H2 + CH3S-2 <=> CH3SH_r2 + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.00896, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (69.0778, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2;C_rad/H2/S
-""",
-)
-
-entry(
     index = 808,
     label = "H2 + C2H5S <=> C2H6S + H",
     degeneracy = 2.0,
@@ -18465,26 +16611,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: H2;C_rad/H/CsS
-""",
-)
-
-entry(
-    index = 809,
-    label = "H2 + C3H7S <=> C3H8S + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.0216, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (53.1368, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2;C_rad/Cs2S
 """,
 )
 
@@ -18549,26 +16675,6 @@ Converted to training reaction from rate rule: H2;C_rad/CSCs2
 )
 
 entry(
-    index = 813,
-    label = "H2 + C2H3S-3 <=> C2H4S-3 + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.0576, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (21.3384, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2;Cd_rad/NonDeS
-""",
-)
-
-entry(
     index = 814,
     label = "H2 + C3H3S <=> C3H4S + H",
     degeneracy = 2.0,
@@ -18585,126 +16691,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: H2;Cd_rad/CS
-""",
-)
-
-entry(
-    index = 815,
-    label = "H2 + C3H5S-2 <=> C3H6S-2 + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.1448, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (103.554, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2;C_rad/H/CdS
-""",
-)
-
-entry(
-    index = 816,
-    label = "H2 + C4H7S-2 <=> C4H8S-2 + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.0226, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (100.416, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2;C_rad/CdCsS
-""",
-)
-
-entry(
-    index = 817,
-    label = "H2 + C2H3S2 <=> C2H4S2 + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (1.138, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (151.544, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2;C_rad/H/CSS
-""",
-)
-
-entry(
-    index = 818,
-    label = "H2 + C3H5S2 <=> C3H6S2 + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.368, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (150.289, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2;C_rad/CSCsS
-""",
-)
-
-entry(
-    index = 819,
-    label = "H2 + C3H3S-2 <=> C3H4S-2 + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.0734, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (92.4664, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2;C_rad/H/CtS
-""",
-)
-
-entry(
-    index = 820,
-    label = "H2 + C4H5S <=> C4H6S + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.0352, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (95.8136, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2;C_rad/CtCsS
 """,
 )
 
@@ -18809,66 +16795,6 @@ Converted to training reaction from rate rule: H2;CS_rad/S
 )
 
 entry(
-    index = 826,
-    label = "H2 + C3H3S-3 <=> C3H4S-3 + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.0348, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (71.9648, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2;CS_rad/Cd
-""",
-)
-
-entry(
-    index = 827,
-    label = "H2 + C3HS <=> C3H2S + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.0974, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (1.29704, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: H2;CS_rad/Ct
-""",
-)
-
-entry(
-    index = 828,
-    label = "H + CH4_r12 <=> H2 + CH3_p1",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (0.876, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (34.3088, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C_methane;H_rad
-""",
-)
-
-entry(
     index = 829,
     label = "CH4_r12 + C4H9-4 <=> iC4H10b + CH3_p1",
     degeneracy = 4.0,
@@ -18885,26 +16811,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/Cs3
-""",
-)
-
-entry(
-    index = 830,
-    label = "C3H5 + CH4_r12 <=> C3H6 + CH3_p1",
-    degeneracy = 8.0,
-    kinetics = Arrhenius(
-        A = (0.112, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (96.6504, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C_methane;C_rad/H2/Cd
 """,
 )
 
@@ -19009,26 +16915,6 @@ Converted to training reaction from rate rule: C_methane;C_rad/H2/Ct
 )
 
 entry(
-    index = 836,
-    label = "C4H5-5 + CH4_r12 <=> C4H6 + CH3_p1",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (0.01148, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (87.4456, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C_methane;C_rad/H/CtCs
-""",
-)
-
-entry(
     index = 837,
     label = "C5H7-3 + CH4_r12 <=> C5H8 + CH3_p1",
     degeneracy = 4.0,
@@ -19085,26 +16971,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/CtCtCs
-""",
-)
-
-entry(
-    index = 840,
-    label = "C7H7 + CH4_r12 <=> C7H8 + CH3_p1",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (0.052, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (87.864, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C_methane;C_rad/H2/Cb
 """,
 )
 
@@ -19245,26 +17111,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: C_methane;C_rad/H2/S
-""",
-)
-
-entry(
-    index = 848,
-    label = "C4H3 + CH4_r12 <=> C4H4 + CH3_p1",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (0.00242, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (44.7688, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C_methane;Cd_rad/Ct
 """,
 )
 
@@ -19629,26 +17475,6 @@ Converted to training reaction from rate rule: C_methane;CS_rad/S
 )
 
 entry(
-    index = 867,
-    label = "C3H3S-3 + CH4_r12 <=> C3H4S-3 + CH3_p1",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (0.03224, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (82.8432, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C_methane;CS_rad/Cd
-""",
-)
-
-entry(
     index = 868,
     label = "C3HS + CH4_r12 <=> C3H2S + CH3_p1",
     degeneracy = 4.0,
@@ -19965,26 +17791,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cs;C_rad/CbCs2
-""",
-)
-
-entry(
-    index = 884,
-    label = "C2H3 + C2H6 <=> C2H4 + C2H5",
-    degeneracy = 6.0,
-    kinetics = Arrhenius(
-        A = (0.04248, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (14.2256, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H3/Cs;Cd_pri_rad
 """,
 )
 
@@ -22209,46 +20015,6 @@ Converted to training reaction from rate rule: C/H/Cs3;CS_rad/Ct
 )
 
 entry(
-    index = 996,
-    label = "H + C3H6 <=> H2 + C3H5",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(
-        A = (0.2607, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (10.8784, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H3/Cd;H_rad
-""",
-)
-
-entry(
-    index = 997,
-    label = "CH3_r3 + C3H6 <=> CH4_p23 + C3H5",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(
-        A = (0.00618, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (19.6648, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H3/Cd;C_methyl
-""",
-)
-
-entry(
     index = 998,
     label = "C3H6 + C2H5 <=> C2H6 + C3H5",
     degeneracy = 3.0,
@@ -22605,26 +20371,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Cd;Cd_rad/Cd
-""",
-)
-
-entry(
-    index = 1016,
-    label = "C3H6 + C6H5 <=> C6H6 + C3H5",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(
-        A = (0.00849, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (-10.8784, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H3/Cd;Cb_rad
 """,
 )
 
@@ -24489,26 +22235,6 @@ Converted to training reaction from rate rule: C/H/Cs2Cd;C_rad/CSCs2
 )
 
 entry(
-    index = 1110,
-    label = "C2H3S-3 + C5H10-3 <=> C2H4S-3 + C5H9-5",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.00109, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (-41.84, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H/Cs2Cd;Cd_rad/NonDeS
-""",
-)
-
-entry(
     index = 1111,
     label = "C4H3 + C5H10-3 <=> C4H4 + C5H9-5",
     degeneracy = 1.0,
@@ -24805,26 +22531,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Cd;CS_rad/Ct
-""",
-)
-
-entry(
-    index = 1126,
-    label = "H + C5H8-2 <=> H2 + C5H7-2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.894, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (-1.6736, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H2/CdCd;H_rad
 """,
 )
 
@@ -25365,26 +23071,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdCd;C_rad/CSCs2
-""",
-)
-
-entry(
-    index = 1154,
-    label = "C2H3S-3 + C5H8-2 <=> C2H4S-3 + C5H7-2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.001298, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (-56.9024, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H2/CdCd;Cd_rad/NonDeS
 """,
 )
 
@@ -26249,26 +23935,6 @@ Converted to training reaction from rate rule: C/H/CdCd;C_rad/CSCs2
 )
 
 entry(
-    index = 1198,
-    label = "C2H3S-3 + C6H10 <=> C2H4S-3 + C6H9",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.00022, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (-68.1992, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H/CdCd;Cd_rad/NonDeS
-""",
-)
-
-entry(
     index = 1199,
     label = "C3H3S + C6H10 <=> C3H4S + C6H9",
     degeneracy = 1.0,
@@ -26565,26 +24231,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CdCd;CS_rad/Ct
-""",
-)
-
-entry(
-    index = 1214,
-    label = "H + C3H4 <=> H2 + C3H3-2",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(
-        A = (0.813, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (12.9704, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H3/Ct;H_rad
 """,
 )
 
@@ -27445,46 +25091,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/Ct;CS_rad/Ct
-""",
-)
-
-entry(
-    index = 1258,
-    label = "H + C4H6 <=> H2 + C4H5-5",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.716, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (6.6944, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H2/CtCs;H_rad
-""",
-)
-
-entry(
-    index = 1259,
-    label = "C4H6 + CH3_r3 <=> CH4_p23 + C4H5-5",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.01694, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (15.4808, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H2/CtCs;C_methyl
 """,
 )
 
@@ -28889,26 +26495,6 @@ Converted to training reaction from rate rule: C/H/Cs2Ct;C_rad/CSCs2
 )
 
 entry(
-    index = 1330,
-    label = "C2H3S-3 + C5H8 <=> C2H4S-3 + C5H7-3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.0025, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (-33.472, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H/Cs2Ct;Cd_rad/NonDeS
-""",
-)
-
-entry(
     index = 1331,
     label = "C5H8 + C3H3S <=> C3H4S + C5H7-3",
     degeneracy = 1.0,
@@ -29205,26 +26791,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2Ct;CS_rad/Ct
-""",
-)
-
-entry(
-    index = 1346,
-    label = "H + C5H4 <=> H2 + C5H3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.798, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (-1.2552, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H2/CtCt;H_rad
 """,
 )
 
@@ -29769,26 +27335,6 @@ Converted to training reaction from rate rule: C/H2/CtCt;C_rad/CSCs2
 )
 
 entry(
-    index = 1374,
-    label = "C5H4 + C2H3S-3 <=> C2H4S-3 + C5H3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.00218, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (-40.1664, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H2/CtCt;Cd_rad/NonDeS
-""",
-)
-
-entry(
     index = 1375,
     label = "C5H4 + C3H3S <=> C3H4S + C5H3",
     degeneracy = 2.0,
@@ -30085,26 +27631,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CtCt;CS_rad/Ct
-""",
-)
-
-entry(
-    index = 1390,
-    label = "H + C6H6-2 <=> H2 + C6H5-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.44, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (-5.8576, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H/CtCt;H_rad
 """,
 )
 
@@ -30649,26 +28175,6 @@ Converted to training reaction from rate rule: C/H/CtCt;C_rad/CSCs2
 )
 
 entry(
-    index = 1418,
-    label = "C6H6-2 + C2H3S-3 <=> C2H4S-3 + C6H5-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.000825, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (-51.8816, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H/CtCt;Cd_rad/NonDeS
-""",
-)
-
-entry(
     index = 1419,
     label = "C6H6-2 + C3H3S <=> C3H4S + C6H5-2",
     degeneracy = 1.0,
@@ -30965,46 +28471,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCt;CS_rad/Ct
-""",
-)
-
-entry(
-    index = 1434,
-    label = "H + C7H8 <=> H2 + C7H7",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(
-        A = (0.2214, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (18.4096, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H3/Cb;H_rad
-""",
-)
-
-entry(
-    index = 1435,
-    label = "CH3_r3 + C7H8 <=> CH4_p23 + C7H7",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(
-        A = (0.00525, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (27.196, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H3/Cb;C_methyl
 """,
 )
 
@@ -33609,26 +31075,6 @@ Converted to training reaction from rate rule: C/H/Cs2Cb;CS_rad/Ct
 )
 
 entry(
-    index = 1566,
-    label = "H + C2H4 <=> H2 + C2H3",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (1.448, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (35.9824, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: Cd_pri;H_rad
-""",
-)
-
-entry(
     index = 1567,
     label = "CH3_r3 + C2H4 <=> CH4_p23 + C2H3",
     degeneracy = 4.0,
@@ -33965,26 +31411,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_pri;Cd_rad/NonDeC
-""",
-)
-
-entry(
-    index = 1584,
-    label = "C4H5-3 + C2H4 <=> C4H6-4 + C2H3",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (0.01708, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (57.7392, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: Cd_pri;Cd_rad/Cd
 """,
 )
 
@@ -34429,26 +31855,6 @@ Converted to training reaction from rate rule: Cd_pri;CS_rad/S
 )
 
 entry(
-    index = 1607,
-    label = "C2H4 + C3H3S-3 <=> C3H4S-3 + C2H3",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (0.0532, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (84.9352, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: Cd_pri;CS_rad/Cd
-""",
-)
-
-entry(
     index = 1608,
     label = "C3HS + C2H4 <=> C3H2S + C2H3",
     degeneracy = 4.0,
@@ -34745,26 +32151,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeC;Cd_rad/Cd
-""",
-)
-
-entry(
-    index = 1623,
-    label = "C3H6-2 + C6H5 <=> C6H6 + C3H5-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.0126, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (4.6024, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: Cd/H/NonDeC;Cb_rad
 """,
 )
 
@@ -35189,26 +32575,6 @@ Converted to training reaction from rate rule: Cd/H/NonDeC;CS_rad/S
 )
 
 entry(
-    index = 1645,
-    label = "C3H3S-3 + C3H6-2 <=> C3H4S-3 + C3H5-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.0142, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (75.312, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: Cd/H/NonDeC;CS_rad/Cd
-""",
-)
-
-entry(
     index = 1646,
     label = "C3HS + C3H6-2 <=> C3H2S + C3H5-2",
     degeneracy = 1.0,
@@ -35589,26 +32955,6 @@ Converted to training reaction from rate rule: Cd/H/Cd;C_rad/CbCs2
 )
 
 entry(
-    index = 1665,
-    label = "C2H3 + C4H6-4 <=> C2H4 + C4H5-3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.01864, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (15.4808, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: Cd/H/Cd;Cd_pri_rad
-""",
-)
-
-entry(
     index = 1666,
     label = "C3H5-2 + C4H6-4 <=> C3H6-2 + C4H5-3",
     degeneracy = 2.0,
@@ -35625,26 +32971,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Cd;Cd_rad/NonDeC
-""",
-)
-
-entry(
-    index = 1667,
-    label = "C4H6-4 + C6H5 <=> C6H6 + C4H5-3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.0238, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (4.184, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: Cd/H/Cd;Cb_rad
 """,
 )
 
@@ -36109,26 +33435,6 @@ Converted to training reaction from rate rule: Cd/H/Cd;CS_rad/Ct
 )
 
 entry(
-    index = 1691,
-    label = "CH3_r3 + C6H6 <=> CH4_p23 + C6H5",
-    degeneracy = 6.0,
-    kinetics = Arrhenius(
-        A = (0.063, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (102.006, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: Cb_H;C_methyl
-""",
-)
-
-entry(
     index = 1692,
     label = "C6H6 + C3H7 <=> C3H8 + C6H5",
     degeneracy = 6.0,
@@ -36165,26 +33471,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;C_rad/Cs3
-""",
-)
-
-entry(
-    index = 1694,
-    label = "C3H5 + C6H6 <=> C3H6 + C6H5",
-    degeneracy = 12.0,
-    kinetics = Arrhenius(
-        A = (0.3408, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (139.285, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: Cb_H;C_rad/H2/Cd
 """,
 )
 
@@ -36445,46 +33731,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;Cd_pri_rad
-""",
-)
-
-entry(
-    index = 1708,
-    label = "C3H5-2 + C6H6 <=> C3H6-2 + C6H5",
-    degeneracy = 6.0,
-    kinetics = Arrhenius(
-        A = (0.0468, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (37.2376, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: Cb_H;Cd_rad/NonDeC
-""",
-)
-
-entry(
-    index = 1709,
-    label = "C4H5-3 + C6H6 <=> C4H6-4 + C6H5",
-    degeneracy = 6.0,
-    kinetics = Arrhenius(
-        A = (0.03132, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (65.6888, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: Cb_H;Cd_rad/Cd
 """,
 )
 
@@ -36889,26 +34135,6 @@ Converted to training reaction from rate rule: Cb_H;CS_rad/S
 )
 
 entry(
-    index = 1730,
-    label = "C3H3S-3 + C6H6 <=> C3H4S-3 + C6H5",
-    degeneracy = 6.0,
-    kinetics = Arrhenius(
-        A = (0.0978, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (92.8848, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: Cb_H;CS_rad/Cd
-""",
-)
-
-entry(
     index = 1731,
     label = "C3HS + C6H6 <=> C3H2S + C6H5",
     degeneracy = 6.0,
@@ -36945,46 +34171,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: Cb_H;Cd_rad/Ct
-""",
-)
-
-entry(
-    index = 1733,
-    label = "H + C3H4-1 <=> H2 + C3H3",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(
-        A = (6.52, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (14.644, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: Cd_Cdd/H2;H_rad
-""",
-)
-
-entry(
-    index = 1734,
-    label = "C4H4 + CH3_r3 <=> CH4_p23 + C4H3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.00698, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (79.6215, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: Cd/H/Ct;C_methyl
 """,
 )
 
@@ -38189,26 +35375,6 @@ Converted to training reaction from rate rule: Cd_Cdd/H2;Cd_rad/Cd
 )
 
 entry(
-    index = 1795,
-    label = "C4H4 + C3H3S-3 <=> C3H4S-3 + C4H3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.0109, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (64.852, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: Cd/H/Ct;CS_rad/Cd
-""",
-)
-
-entry(
     index = 1796,
     label = "C3H4-1 + C6H5 <=> C6H6 + C3H3",
     degeneracy = 4.0,
@@ -38245,26 +35411,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Ct;CS_rad/Ct
-""",
-)
-
-entry(
-    index = 1798,
-    label = "H + CH3SH_r2 <=> H2 + CH3S-2",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(
-        A = (0.1668, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (14.644, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H3/S;H_rad
 """,
 )
 
@@ -39145,26 +36291,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: C/H3/S;Cd_Cdd_rad/H
-""",
-)
-
-entry(
-    index = 1843,
-    label = "H + C4H4 <=> H2 + C4H3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.295, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (18.1586, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: Cd/H/Ct;H_rad
 """,
 )
 
@@ -42209,26 +39335,6 @@ Converted to training reaction from rate rule: C/H2/CSCs;H_rad
 )
 
 entry(
-    index = 1996,
-    label = "CH3_r3 + C3H6S <=> CH4_p23 + C3H5S",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.00938, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (27.8236, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H2/CSCs;C_methyl
-""",
-)
-
-entry(
     index = 1997,
     label = "C3H6S + C2H5 <=> C2H6 + C3H5S",
     degeneracy = 2.0,
@@ -42769,26 +39875,6 @@ Converted to training reaction from rate rule: C/H2/CSCs;C_rad/CSCs2
 )
 
 entry(
-    index = 2024,
-    label = "C2H3S-3 + C3H6S <=> C2H4S-3 + C3H5S",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.0043, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (-42.6768, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H2/CSCs;Cd_rad/NonDeS
-""",
-)
-
-entry(
     index = 2025,
     label = "C3H3S + C3H6S <=> C3H4S + C3H5S",
     degeneracy = 2.0,
@@ -43269,26 +40355,6 @@ Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H/CdCd
 )
 
 entry(
-    index = 2049,
-    label = "C6H9 + C4H8S <=> C6H10 + C4H7S",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (6.81e-06, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (19.2464, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/CdCdCs
-""",
-)
-
-entry(
     index = 2050,
     label = "C3H3-2 + C4H8S <=> C3H4 + C4H7S",
     degeneracy = 1.0,
@@ -43629,46 +40695,6 @@ Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H2/CS
 )
 
 entry(
-    index = 2067,
-    label = "C3H5S + C4H8S <=> C3H6S + C4H7S",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.00107, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (27.6144, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H/CSCs
-""",
-)
-
-entry(
-    index = 2068,
-    label = "C2H3S-3 + C4H8S <=> C2H4S-3 + C4H7S",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.000969, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (-54.8104, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H/Cs2CS;Cd_rad/NonDeS
-""",
-)
-
-entry(
     index = 2069,
     label = "C3H3S + C4H8S <=> C3H4S + C4H7S",
     degeneracy = 1.0,
@@ -43825,26 +40851,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/H/CbS
-""",
-)
-
-entry(
-    index = 2077,
-    label = "C8H9S + C4H8S <=> C8H10S + C4H7S",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.22e-05, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (-8.7864, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H/Cs2CS;C_rad/CbCsS
 """,
 )
 
@@ -44145,26 +41151,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H/CdCd
-""",
-)
-
-entry(
-    index = 2093,
-    label = "C2H4S-3 + C6H9 <=> C6H10 + C2H3S-3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.23e-05, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (64.4336, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/CdCdCs
 """,
 )
 
@@ -44509,26 +41495,6 @@ Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H2/CS
 )
 
 entry(
-    index = 2111,
-    label = "C2H4S-3 + C3H5S <=> C3H6S + C2H3S-3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.0049, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (68.1992, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: Cd/H/NonDeS;C_rad/H/CSCs
-""",
-)
-
-entry(
     index = 2112,
     label = "C2H4S-3 + C4H7S <=> C4H8S + C2H3S-3",
     degeneracy = 1.0,
@@ -44785,26 +41751,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/NonDeS;CS_rad/S
-""",
-)
-
-entry(
-    index = 2125,
-    label = "C2H4S-3 + C3H3S-3 <=> C3H4S-3 + C2H3S-3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.00691, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (67.7808, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: Cd/H/NonDeS;CS_rad/Cd
 """,
 )
 
@@ -45669,26 +42615,6 @@ Converted to training reaction from rate rule: Cd/H/CS;CS_rad/S
 )
 
 entry(
-    index = 2169,
-    label = "C3H4S + C3H3S-3 <=> C3H4S-3 + C3H3S",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.0184, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (79.0776, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: Cd/H/CS;CS_rad/Cd
-""",
-)
-
-entry(
     index = 2170,
     label = "C3HS + C3H4S <=> C3H2S + C3H3S",
     degeneracy = 1.0,
@@ -46305,26 +43231,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CdS;C_rad/CSCs2
-""",
-)
-
-entry(
-    index = 2201,
-    label = "C2H3S-3 + C3H6S-2 <=> C2H4S-3 + C3H5S-2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.000918, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (-40.1664, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H2/CdS;Cd_rad/NonDeS
 """,
 )
 
@@ -47189,26 +44095,6 @@ Converted to training reaction from rate rule: C/H/CSCsS;C_rad/CSCs2
 )
 
 entry(
-    index = 2245,
-    label = "C2H3S-3 + C3H6S2 <=> C2H4S-3 + C3H5S2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.00021, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (-52.3, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H/CSCsS;Cd_rad/NonDeS
-""",
-)
-
-entry(
     index = 2246,
     label = "C3H6S2 + C3H3S <=> C3H4S + C3H5S2",
     degeneracy = 1.0,
@@ -48065,26 +44951,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: C/H2/CSS;C_rad/CSCs2
-""",
-)
-
-entry(
-    index = 2289,
-    label = "C2H3S-3 + C2H4S2 <=> C2H4S-3 + C2H3S2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.00234, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (-50.6264, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H2/CSS;Cd_rad/NonDeS
 """,
 )
 
@@ -48969,26 +45835,6 @@ Converted to training reaction from rate rule: C/H2/CtS;C_rad/CSCs2
 )
 
 entry(
-    index = 2334,
-    label = "C2H3S-3 + C3H4S-2 <=> C2H4S-3 + C3H3S-2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.000882, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (-35.564, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H2/CtS;Cd_rad/NonDeS
-""",
-)
-
-entry(
     index = 2335,
     label = "C3H4S-2 + C3H3S <=> C3H4S + C3H3S-2",
     degeneracy = 2.0,
@@ -49825,26 +46671,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CtCsS;C_rad/CSCs2
-""",
-)
-
-entry(
-    index = 2377,
-    label = "C2H3S-3 + C4H6S <=> C2H4S-3 + C4H5S",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.000369, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (-47.2792, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H/CtCsS;Cd_rad/NonDeS
 """,
 )
 
@@ -50709,26 +47535,6 @@ Converted to training reaction from rate rule: C/H2/CbS;C_rad/CSCs2
 )
 
 entry(
-    index = 2421,
-    label = "C2H3S-3 + C7H8S <=> C2H4S-3 + C7H7S",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (0.000608, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (-37.656, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H2/CbS;Cd_rad/NonDeS
-""",
-)
-
-entry(
     index = 2422,
     label = "C7H8S + C3H3S <=> C3H4S + C7H7S",
     degeneracy = 2.0,
@@ -51585,26 +48391,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: C/H/CbCsS;C_rad/CSCs2
-""",
-)
-
-entry(
-    index = 2465,
-    label = "C2H3S-3 + C8H10S <=> C2H4S-3 + C8H9S",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.000118, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (-49.3712, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: C/H/CbCsS;Cd_rad/NonDeS
 """,
 )
 
@@ -53745,26 +50531,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/H/CdCd
-""",
-)
-
-entry(
-    index = 2573,
-    label = "CH2S2 + C6H9 <=> C6H10 + CHS2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.00157, 'cm^3/(mol*s)'),
-        n = 4.34,
-        Ea = (80.3328, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--C abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: CS/H/NonDeS;C_rad/CdCdCs
 """,
 )
 
@@ -56229,26 +52995,6 @@ Converted to training reaction from rate rule: CS/H/Cd;Cd_rad/Ct
 )
 
 entry(
-    index = 2697,
-    label = "H + H2S_r <=> H2 + SH",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (26000, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (-1.2552, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S_pri;H_rad
-""",
-)
-
-entry(
     index = 2698,
     label = "H2S_r + CH3_r3 <=> CH4_p23 + SH",
     degeneracy = 2.0,
@@ -57089,26 +53835,6 @@ Converted to training reaction from rate rule: S_pri;CS_rad/S
 )
 
 entry(
-    index = 2740,
-    label = "H + CH3SH_r1 <=> H2 + CH3S",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (17500, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (-2.5104, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/NonDeC;H_rad
-""",
-)
-
-entry(
     index = 2741,
     label = "CH3SH_r1 + CH3_r3 <=> CH4_p23 + CH3S",
     degeneracy = 1.0,
@@ -57909,26 +54635,6 @@ Converted to training reaction from rate rule: S/H/NonDeC;CS_rad/S
 )
 
 entry(
-    index = 2781,
-    label = "H + C2H4S-4 <=> H2 + C2H3S-4",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (24000, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (-5.4392, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/Cd;H_rad
-""",
-)
-
-entry(
     index = 2782,
     label = "C2H4S-4 + CH3_r3 <=> CH4_p23 + C2H3S-4",
     degeneracy = 1.0,
@@ -58145,46 +54851,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/CdCs2
-""",
-)
-
-entry(
-    index = 2793,
-    label = "C2H4S-4 + C5H7-2 <=> C5H8-2 + C2H3S-4",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (170, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (41.84, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/Cd;C_rad/H/CdCd
-""",
-)
-
-entry(
-    index = 2794,
-    label = "C2H4S-4 + C6H9 <=> C6H10 + C2H3S-4",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (8.52, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (40.5848, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/Cd;C_rad/CdCdCs
 """,
 )
 
@@ -58549,26 +55215,6 @@ Converted to training reaction from rate rule: S/H/Cd;C_rad/H/CdS
 )
 
 entry(
-    index = 2813,
-    label = "C4H7S-2 + C2H4S-4 <=> C4H8S-2 + C2H3S-4",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (22.5, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (17.1544, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/Cd;C_rad/CdCsS
-""",
-)
-
-entry(
     index = 2814,
     label = "C2H3S2 + C2H4S-4 <=> C2H4S2 + C2H3S-4",
     degeneracy = 1.0,
@@ -58605,46 +55251,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;C_rad/CSCsS
-""",
-)
-
-entry(
-    index = 2816,
-    label = "C3H3S-2 + C2H4S-4 <=> C3H4S-2 + C2H3S-4",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (218, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (22.1752, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/Cd;C_rad/H/CtS
-""",
-)
-
-entry(
-    index = 2817,
-    label = "C4H5S + C2H4S-4 <=> C4H6S + C2H3S-4",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (66.8, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (19.2464, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/Cd;C_rad/CtCsS
 """,
 )
 
@@ -58745,26 +55351,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cd;CS_rad/S
-""",
-)
-
-entry(
-    index = 2823,
-    label = "H + CH2S2-2 <=> H2 + CHS2-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (10800, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (-10.46, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/CS;H_rad
 """,
 )
 
@@ -59125,26 +55711,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/CS;C_rad/CtCtCs
-""",
-)
-
-entry(
-    index = 2842,
-    label = "CH2S2-2 + C6H5 <=> C6H6 + CHS2-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (360, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (-23.012, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/CS;Cb_rad
 """,
 )
 
@@ -59589,26 +56155,6 @@ Converted to training reaction from rate rule: S/H/CS;CS_rad/S
 )
 
 entry(
-    index = 2865,
-    label = "H + C2H2S <=> H2 + C2HS",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (24300, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (-11.2968, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/Ct;H_rad
-""",
-)
-
-entry(
     index = 2866,
     label = "C2H2S + CH3_r3 <=> CH4_p23 + C2HS",
     degeneracy = 1.0,
@@ -59669,26 +56215,6 @@ Converted to training reaction from rate rule: S/H/Ct;C_rad/H/NonDeC
 )
 
 entry(
-    index = 2869,
-    label = "C2H2S + C4H9-4 <=> iC4H10b + C2HS",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (74, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (-30.9616, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/Ct;C_rad/Cs3
-""",
-)
-
-entry(
     index = 2870,
     label = "C2H2S + C2H3 <=> C2H4 + C2HS",
     degeneracy = 1.0,
@@ -59705,26 +56231,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;Cd_pri_rad
-""",
-)
-
-entry(
-    index = 2871,
-    label = "C2H2S + C3H5-2 <=> C3H6-2 + C2HS",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (163, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (-24.6856, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/Ct;Cd_rad/NonDeC
 """,
 )
 
@@ -59969,26 +56475,6 @@ Converted to training reaction from rate rule: S/H/Ct;C_rad/CtCtCs
 )
 
 entry(
-    index = 2884,
-    label = "C2H2S + C6H5 <=> C6H6 + C2HS",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (807, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (-23.8488, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/Ct;Cb_rad
-""",
-)
-
-entry(
     index = 2885,
     label = "C2H2S + C7H7 <=> C7H8 + C2HS",
     degeneracy = 1.0,
@@ -60169,26 +56655,6 @@ Converted to training reaction from rate rule: S/H/Ct;C_rad/CSCs2
 )
 
 entry(
-    index = 2894,
-    label = "C2H2S + C2H3S-3 <=> C2H4S-3 + C2HS",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (421, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (-25.5224, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/Ct;Cd_rad/NonDeS
-""",
-)
-
-entry(
     index = 2895,
     label = "C2H2S + C3H3S <=> C3H4S + C2HS",
     degeneracy = 1.0,
@@ -60205,26 +56671,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Ct;Cd_rad/CS
-""",
-)
-
-entry(
-    index = 2896,
-    label = "H + C6H6S <=> H2 + C6H5S",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (19300, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (-4.6024, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/Cb;H_rad
 """,
 )
 
@@ -61049,26 +57495,6 @@ Converted to training reaction from rate rule: S/H/Cb;CS_rad/S
 )
 
 entry(
-    index = 2938,
-    label = "H + HSSH_r12 <=> H2 + HSS_r3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (44400, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (-11.2968, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/NonDeS;H_rad
-""",
-)
-
-entry(
     index = 2939,
     label = "HSSH_r12 + CH3_r3 <=> CH4_p23 + HSS_r3",
     degeneracy = 2.0,
@@ -61129,26 +57555,6 @@ Converted to training reaction from rate rule: S/H/NonDeS;C_rad/H/NonDeC
 )
 
 entry(
-    index = 2942,
-    label = "HSSH_r12 + C4H9-4 <=> iC4H10b + HSS_r3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (920, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (-26.7776, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/NonDeS;C_rad/Cs3
-""",
-)
-
-entry(
     index = 2943,
     label = "HSSH_r12 + C2H3 <=> C2H4 + HSS_r3",
     degeneracy = 2.0,
@@ -61165,26 +57571,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;Cd_pri_rad
-""",
-)
-
-entry(
-    index = 2944,
-    label = "HSSH_r12 + C3H5-2 <=> C3H6-2 + HSS_r3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (564, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (-23.012, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/NonDeS;Cd_rad/NonDeC
 """,
 )
 
@@ -61429,26 +57815,6 @@ Converted to training reaction from rate rule: S/H/NonDeS;C_rad/CtCtCs
 )
 
 entry(
-    index = 2957,
-    label = "HSSH_r12 + C6H5 <=> C6H6 + HSS_r3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (1474, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (-23.4304, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/NonDeS;Cb_rad
-""",
-)
-
-entry(
     index = 2958,
     label = "HSSH_r12 + C7H7 <=> C7H8 + HSS_r3",
     degeneracy = 2.0,
@@ -61549,26 +57915,6 @@ Converted to training reaction from rate rule: S/H/NonDeS;C_rad/H/CsS
 )
 
 entry(
-    index = 2963,
-    label = "HSSH_r12 + C3H7S <=> C3H8S + HSS_r3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (131, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (-24.2672, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/NonDeS;C_rad/Cs2S
-""",
-)
-
-entry(
     index = 2964,
     label = "HSSH_r12 + C2H3S-2 <=> C2H4S-2 + HSS_r3",
     degeneracy = 2.0,
@@ -61625,26 +57971,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;C_rad/CSCs2
-""",
-)
-
-entry(
-    index = 2967,
-    label = "HSSH_r12 + C2H3S-3 <=> C2H4S-3 + HSS_r3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (732, 'cm^3/(mol*s)'),
-        n = 3.06,
-        Ea = (-25.5224, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/NonDeS;Cd_rad/NonDeS
 """,
 )
 
@@ -61929,26 +58255,6 @@ Converted to training reaction from rate rule: S_pri;S_rad/Cd
 )
 
 entry(
-    index = 2982,
-    label = "H2S_r + C2HS <=> C2H2S + SH",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (2980, 'cm^3/(mol*s)'),
-        n = 3.15,
-        Ea = (40.5848, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S_pri;S_rad/Ct
-""",
-)
-
-entry(
     index = 2983,
     label = "H2S_r + C6H5S <=> C6H6S + SH",
     degeneracy = 2.0,
@@ -61965,26 +58271,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: S_pri;S_rad/Cb
-""",
-)
-
-entry(
-    index = 2984,
-    label = "HSS_r3 + H2S_r <=> HSSH_r12 + SH",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (2740, 'cm^3/(mol*s)'),
-        n = 3.15,
-        Ea = (43.9738, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S_pri;S_rad/NonDeS
 """,
 )
 
@@ -62029,26 +58315,6 @@ Converted to training reaction from rate rule: S/H/NonDeC;S_rad/Cd
 )
 
 entry(
-    index = 2987,
-    label = "C2HS + CH3SH_r1 <=> C2H2S + CH3S",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (716, 'cm^3/(mol*s)'),
-        n = 3.15,
-        Ea = (41.0032, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/NonDeC;S_rad/Ct
-""",
-)
-
-entry(
     index = 2988,
     label = "CH3SH_r1 + C6H5S <=> C6H6S + CH3S",
     degeneracy = 1.0,
@@ -62085,106 +58351,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeC;S_rad/NonDeS
-""",
-)
-
-entry(
-    index = 2990,
-    label = "SH + C2H4S-4 <=> H2S_r + C2H3S-4",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (931, 'cm^3/(mol*s)'),
-        n = 3.15,
-        Ea = (-6.276, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/Cd;S_pri_rad
-""",
-)
-
-entry(
-    index = 2991,
-    label = "C2H4S-4 + CH3S <=> CH3SH_r1 + C2H3S-4",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1810, 'cm^3/(mol*s)'),
-        n = 3.15,
-        Ea = (-2.5104, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/Cd;S_rad/NonDeC
-""",
-)
-
-entry(
-    index = 2992,
-    label = "C2HS + C2H4S-4 <=> C2H2S + C2H3S-4",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2110, 'cm^3/(mol*s)'),
-        n = 3.15,
-        Ea = (18.828, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/Cd;S_rad/Ct
-""",
-)
-
-entry(
-    index = 2993,
-    label = "C2H4S-4 + C6H5S <=> C6H6S + C2H3S-4",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (682, 'cm^3/(mol*s)'),
-        n = 3.15,
-        Ea = (7.9496, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/Cd;S_rad/Cb
-""",
-)
-
-entry(
-    index = 2994,
-    label = "HSS_r3 + C2H4S-4 <=> HSSH_r12 + C2H3S-4",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (459, 'cm^3/(mol*s)'),
-        n = 3.15,
-        Ea = (-6.276, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/Cd;S_rad/NonDeS
 """,
 )
 
@@ -62349,26 +58515,6 @@ Converted to training reaction from rate rule: S/H/Cb;S_rad/Cd
 )
 
 entry(
-    index = 3003,
-    label = "C2HS + C6H6S <=> C2H2S + C6H5S",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1240, 'cm^3/(mol*s)'),
-        n = 3.15,
-        Ea = (16.3176, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/Cb;S_rad/Ct
-""",
-)
-
-entry(
     index = 3004,
     label = "HSS_r3 + C6H6S <=> HSSH_r12 + C6H5S",
     degeneracy = 1.0,
@@ -62385,26 +58531,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/Cb;S_rad/NonDeS
-""",
-)
-
-entry(
-    index = 3005,
-    label = "SH + HSSH_r12 <=> H2S_r + HSS_r3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (2880, 'cm^3/(mol*s)'),
-        n = 3.15,
-        Ea = (-10.0416, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/NonDeS;S_pri_rad
 """,
 )
 
@@ -62445,26 +58571,6 @@ entry(
     longDesc =
 u"""
 Converted to training reaction from rate rule: S/H/NonDeS;S_rad/Cd
-""",
-)
-
-entry(
-    index = 3008,
-    label = "C2HS + HSSH_r12 <=> C2H2S + HSS_r3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (2220, 'cm^3/(mol*s)'),
-        n = 3.15,
-        Ea = (-1.2552, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
-    longDesc =
-u"""
-Converted to training reaction from rate rule: S/H/NonDeS;S_rad/Ct
 """,
 )
 
@@ -62529,29 +58635,6 @@ u"""
 SSM CBS-QB3 calculations for propargyl + vinylalcohol (RRHO approximation)
 
 Converted to training reaction from rate rule: Cd_Cdd/H2;O_rad/Cd\H_Cd\H2
-""",
-)
-
-entry(
-    index = 3012,
-    label = "OH_r3 + C2H4O <=> H2O_p23 + C2H3O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2e+06, 'cm^3/(mol*s)'),
-        n = 1.8,
-        Ea = (-5.4392, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (295, 'K'),
-        Tmax = (600, 'K'),
-    ),
-    rank = 11,
-    shortDesc = u"""NIST SSM""",
-    longDesc =
-u"""
-NIST CH3CHO + OH = CH3CO + H2O rate coefficient ref: DOI: 10.1016/S0082-0784(96)80252-9
-Most estimates seem to be  ~ 3E+12 for 200-350 K range
-
-Converted to training reaction from rate rule: CO/H/Cs;O_pri_rad
 """,
 )
 
