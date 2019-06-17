@@ -4035,31 +4035,31 @@ CASPT2(2e,2o)/cc-pvdz (VRC-TST)
 """,
 )
 
-entry(
-    index = 149,
-    label = "C8H7 <=> C8H6 + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.23e+13, 's^-1'), n=0.55, Ea=(42.58, 'kcal/mol'), T0=(1, 'K')),
-    rank = 5,
-    longDesc = 
-u"""
-Tokmakov and Lin, J. AM. CHEM. SOC. 2003, 125, 11397-11408.
-Original entry: 1-Phenylvinyl <=> C6H5C2H + H
-""",
-)
-
-entry(
-    index = 150,
-    label = "C8H7 <=> C8H6 + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.23e+13, 's^-1'), n=0.55, Ea=(42.58, 'kcal/mol'), T0=(1, 'K')),
-    rank = 5,
-    longDesc = 
-u"""
-Training reaction from kinetics library: Agnes_PAH
-Original entry: 1-Phenylvinyl <=> C6H5C2H + H
-""",
-)
+# entry(
+#     index = 149,
+#     label = "C8H7 <=> C8H6 + H",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(1.23e+13, 's^-1'), n=0.55, Ea=(42.58, 'kcal/mol'), T0=(1, 'K')),
+#     rank = 5,
+#     longDesc =
+# u"""
+# Tokmakov and Lin, J. AM. CHEM. SOC. 2003, 125, 11397-11408.
+# Original entry: 1-Phenylvinyl <=> C6H5C2H + H
+# """,
+# )
+#
+# entry(
+#     index = 150,
+#     label = "C8H7 <=> C8H6 + H",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(1.23e+13, 's^-1'), n=0.55, Ea=(42.58, 'kcal/mol'), T0=(1, 'K')),
+#     rank = 5,
+#     longDesc =
+# u"""
+# Training reaction from kinetics library: Agnes_PAH
+# Original entry: 1-Phenylvinyl <=> C6H5C2H + H
+# """,
+# )
 entry(
     index = 151,
     label = "C11H23 + CH3 <=> C12H26",
