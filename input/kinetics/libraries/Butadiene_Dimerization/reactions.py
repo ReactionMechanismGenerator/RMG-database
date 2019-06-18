@@ -129,3 +129,37 @@ u"""
 library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,
 )
+
+entry(
+    index = 8,
+    label = "BD + VCH <=> 4-cyclohex-3-en-1-ylcyclohexene",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (0.0371539, 'cm^3/(mol*s)'),
+        n = 3.07693,
+        Ea = (74.4188, 'kJ/mol'),
+        T0 = (1, 'K')
+    ),
+    shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
+    longDesc = 
+u"""
+library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in May 2019
+""",
+)
+
+entry(
+    index = 9,
+    label = "BD + VCH <=> C=CC1CCC2CC=CCC2C1",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (0.0302818, 'cm^3/(mol*s)'),
+        n = 3.11628,
+        Ea = (95.5124, 'kJ/mol'),
+        T0 = (1, 'K')
+    ),
+    shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
+    longDesc = 
+u"""
+library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in May 2019
+""",
+)
