@@ -12242,6 +12242,7 @@ entry(
     ),
 )
 
+<<<<<<< refs/remotes/origin/master
 entry(
     index = 1298,
     label = "S2XC12H25 <=> C4H81 + PXC8H17",
@@ -12281,6 +12282,8 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
     ),
 )
+=======
+>>>>>>> add modern libraries with some tweaks
 
 entry(
     index = 1300,
@@ -12483,12 +12486,15 @@ entry(
     kinetics = Arrhenius(A=(2.2e+14, 'cm^3/(mol*s)'), n=-0.68, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
+<<<<<<< refs/remotes/origin/master
 entry(
     index = 1315,
     label = "S2XC12H25 + O2 <=> C12H24 + HO2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.3e+11, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
+=======
+>>>>>>> add modern libraries with some tweaks
 
 entry(
     index = 1316,
@@ -12958,6 +12964,7 @@ entry(
 )
 
 entry(
+<<<<<<< refs/remotes/origin/master
     index = 1341,
     label = "S2XC12H25 <=> S5XC12H25",
     degeneracy = 1,
@@ -12979,6 +12986,8 @@ entry(
 )
 
 entry(
+=======
+>>>>>>> add modern libraries with some tweaks
     index = 1342,
     label = "SXC12H25 <=> S4XC12H25",
     degeneracy = 1,
@@ -13202,6 +13211,7 @@ entry(
 )
 
 entry(
+<<<<<<< refs/remotes/origin/master
     index = 1353,
     label = "S2XC12H25 <=> S5XC12H25",
     degeneracy = 1,
@@ -13223,6 +13233,8 @@ entry(
 )
 
 entry(
+=======
+>>>>>>> add modern libraries with some tweaks
     index = 1354,
     label = "S3XC12H25 <=> S4XC12H25",
     degeneracy = 1,
@@ -13365,6 +13377,7 @@ entry(
 )
 
 entry(
+<<<<<<< refs/remotes/origin/master
     index = 1361,
     label = "S2XC12H25 <=> S4XC12H25",
     degeneracy = 1,
@@ -13385,6 +13398,8 @@ entry(
 )
 
 entry(
+=======
+>>>>>>> add modern libraries with some tweaks
     index = 1362,
     label = "SXC12H25 <=> S5XC12H25",
     degeneracy = 1,
@@ -13554,6 +13569,7 @@ entry(
 )
 
 entry(
+<<<<<<< refs/remotes/origin/master
     index = 1375,
     label = "NC12H26 + OH <=> S2XC12H25 + H2O",
     degeneracy = 1,
@@ -13566,6 +13582,8 @@ entry(
 )
 
 entry(
+=======
+>>>>>>> add modern libraries with some tweaks
     index = 1376,
     label = "NC12H26 + OH <=> S3XC12H25 + H2O",
     degeneracy = 1,
@@ -13615,12 +13633,15 @@ entry(
     kinetics = Arrhenius(A=(8e+13, 'cm^3/(mol*s)'), n=0, Ea=(47590, 'cal/mol'), T0=(1, 'K')),
 )
 
+<<<<<<< refs/remotes/origin/master
 entry(
     index = 1381,
     label = "NC12H26 + O2 <=> S2XC12H25 + HO2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(8e+13, 'cm^3/(mol*s)'), n=0, Ea=(47590, 'cal/mol'), T0=(1, 'K')),
 )
+=======
+>>>>>>> add modern libraries with some tweaks
 
 entry(
     index = 1382,
@@ -13658,6 +13679,7 @@ entry(
 )
 
 entry(
+<<<<<<< refs/remotes/origin/master
     index = 1387,
     label = "NC12H26 + HO2 <=> S2XC12H25 + H2O2",
     degeneracy = 1,
@@ -13665,6 +13687,8 @@ entry(
 )
 
 entry(
+=======
+>>>>>>> add modern libraries with some tweaks
     index = 1388,
     label = "NC12H26 + HO2 <=> S3XC12H25 + H2O2",
     degeneracy = 1,
@@ -13699,12 +13723,15 @@ entry(
     kinetics = Arrhenius(A=(0.0634, 'cm^3/(mol*s)'), n=4.65, Ea=(1340, 'cal/mol'), T0=(1, 'K')),
 )
 
+<<<<<<< refs/remotes/origin/master
 entry(
     index = 1393,
     label = "NC12H26 + H <=> S2XC12H25 + H2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(0.0634, 'cm^3/(mol*s)'), n=4.65, Ea=(1340, 'cal/mol'), T0=(1, 'K')),
 )
+=======
+>>>>>>> add modern libraries with some tweaks
 
 entry(
     index = 1394,
@@ -13742,6 +13769,7 @@ entry(
 )
 
 entry(
+<<<<<<< refs/remotes/origin/master
     index = 1399,
     label = "NC12H26 + O <=> S2XC12H25 + OH",
     degeneracy = 1,
@@ -13749,6 +13777,8 @@ entry(
 )
 
 entry(
+=======
+>>>>>>> add modern libraries with some tweaks
     index = 1400,
     label = "NC12H26 + O <=> S3XC12H25 + OH",
     degeneracy = 1,
@@ -13794,6 +13824,7 @@ entry(
 )
 
 entry(
+<<<<<<< refs/remotes/origin/master
     index = 1405,
     label = "NC12H26 + CH3 <=> S2XC12H25 + CH4",
     degeneracy = 1,
@@ -13806,6 +13837,8 @@ entry(
 )
 
 entry(
+=======
+>>>>>>> add modern libraries with some tweaks
     index = 1406,
     label = "NC12H26 + CH3 <=> S3XC12H25 + CH4",
     degeneracy = 1,
@@ -13866,6 +13899,7 @@ entry(
 )
 
 entry(
+<<<<<<< refs/remotes/origin/master
     index = 1411,
     label = "S2XC12H25 + O2 <=> PC12H25O2",
     degeneracy = 1,
@@ -13878,6 +13912,8 @@ entry(
 )
 
 entry(
+=======
+>>>>>>> add modern libraries with some tweaks
     index = 1412,
     label = "S3XC12H25 + O2 <=> PC12H25O2",
     degeneracy = 1,

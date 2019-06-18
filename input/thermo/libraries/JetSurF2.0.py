@@ -6927,8 +6927,14 @@ entry(
     label = "H2CC",
     molecule = 
 """
+<<<<<<< refs/remotes/origin/master
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p1 c0 {1,D}
+=======
+multiplicity 3
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u2 p0 c0 {1,D}
+>>>>>>> add modern libraries with some tweaks
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {1,S}
 """,

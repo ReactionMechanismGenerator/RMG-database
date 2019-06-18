@@ -1454,8 +1454,11 @@ entry(
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
         E0 = (266.702,'kJ/mol'),
+<<<<<<< refs/remotes/origin/master
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (557.07,'J/(mol*K)'),
+=======
+>>>>>>> add modern libraries with some tweaks
     ),
     shortDesc = u"""""",
     longDesc =

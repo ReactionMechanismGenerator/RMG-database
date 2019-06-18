@@ -225,7 +225,10 @@ entry(
     index = 14,
     label = "H + O2 <=> HO2",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (4.565e+12, 'cm^3/(mol*s)'),
@@ -335,7 +338,11 @@ entry(
     index = 21,
     label = "H2O2 <=> OH + OH",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.187e+12, 's^-1'), n=0.9, Ea=(48750, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -415,7 +422,11 @@ entry(
     index = 26,
     label = "CO + O <=> CO2",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(1.88e+11, 'cm^3/(mol*s)'), n=0, Ea=(2430, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -479,7 +490,11 @@ entry(
     index = 30,
     label = "HCO <=> H + CO",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (4.8e+17, 'cm^3/(mol*s)'),
@@ -582,7 +597,11 @@ entry(
     index = 42,
     label = "CH + H2 <=> CH3",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(5.13e+13, 'cm^3/(mol*s)'), n=0.15, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -658,7 +677,11 @@ entry(
     index = 48,
     label = "CH + CO <=> HCCO",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.02e+15, 'cm^3/(mol*s)'), n=-0.4, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -691,7 +714,11 @@ entry(
     index = 50,
     label = "CH2(T) + H <=> CH3",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.13e+13, 'cm^3/(mol*s)'), n=0.32, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -896,7 +923,11 @@ entry(
     index = 73,
     label = "CH2(S) + H2O <=> CH3OH",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (2.94e+12, 'cm^3/(mol*s)'),
@@ -974,7 +1005,11 @@ entry(
     index = 80,
     label = "HCO + H <=> CH2O",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (1.913e+14, 'cm^3/(mol*s)'),
@@ -1000,7 +1035,11 @@ entry(
     index = 81,
     label = "CH2O <=> H2 + CO",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(3.7e+13, 's^-1'), n=0, Ea=(71976, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -1111,7 +1150,11 @@ entry(
     index = 92,
     label = "CH3 + H <=> CH4",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.801e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -1146,7 +1189,11 @@ entry(
     index = 95,
     label = "CH3 + OH <=> CH3OH",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (6.21e+13, 'cm^3/(mol*s)'),
@@ -1274,7 +1321,11 @@ entry(
     index = 107,
     label = "CH3 + CH3 <=> C2H6",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (1.844e+16, 'cm^3/(mol*s)'),
@@ -1326,7 +1377,11 @@ entry(
     index = 111,
     label = "CH3O <=> H + CH2O",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.13e+10, 's^-1'), n=1.21, Ea=(24075, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -1347,7 +1402,11 @@ entry(
     index = 112,
     label = "CH3O + H <=> CH3OH",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.44e+11, 'cm^3/(mol*s)'), n=0.76, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -1446,7 +1505,11 @@ entry(
     index = 122,
     label = "CH2OH <=> H + CH2O",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(7.37e+10, 's^-1'), n=0.811, Ea=(39580, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -1467,7 +1530,11 @@ entry(
     index = 123,
     label = "CH2OH + H <=> CH3OH",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(6.67e+10, 'cm^3/(mol*s)'), n=0.96, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -1803,7 +1870,11 @@ entry(
     index = 159,
     label = "C2H + H <=> C2H2",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.25e+13, 'cm^3/(mol*s)'), n=0.32, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -1932,7 +2003,11 @@ entry(
     index = 172,
     label = "C2H2 + H <=> C2H3",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (5.54e+08, 'cm^3/(mol*s)'),
@@ -2039,7 +2114,11 @@ entry(
     index = 181,
     label = "CH2(T) + CO <=> CH2CO",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (8.1e+11, 'cm^3/(mol*s)'),
@@ -2150,7 +2229,11 @@ entry(
     index = 192,
     label = "C2H3 + H <=> C2H4",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(3.88e+13, 'cm^3/(mol*s)'), n=0.2, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -2251,7 +2334,11 @@ entry(
     index = 203,
     label = "CH2CHO <=> CH2CO + H",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.43e+15, 's^-1'), n=-0.15, Ea=(45606, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -2272,7 +2359,11 @@ entry(
     index = 204,
     label = "CH2CHO <=> CH3 + CO",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.93e+12, 's^-1'), n=0.29, Ea=(40326, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -2342,7 +2433,11 @@ entry(
     index = 212,
     label = "CH3CO <=> CH3 + CO",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.07e+12, 's^-1'), n=0.63, Ea=(16895, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -2363,7 +2458,11 @@ entry(
     index = 213,
     label = "CH3CO + H <=> CH3CHO",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(9.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -2440,7 +2539,11 @@ entry(
     index = 222,
     label = "CH3CHO <=> CH4 + CO",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(5.44e+21, 's^-1'), n=-1.74, Ea=(86364, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -2462,7 +2565,11 @@ entry(
     index = 223,
     label = "CH3CHO <=> CH3 + HCO",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(2.18e+22, 's^-1'), n=-1.74, Ea=(86364, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -2565,7 +2672,11 @@ entry(
     index = 232,
     label = "C2H4 <=> H2 + H2CC",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(3.985e+15, 's^-1'), n=0, Ea=(87060, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
@@ -2582,7 +2693,11 @@ entry(
     index = 233,
     label = "C2H4 + H <=> C2H5",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (1.232e+09, 'cm^3/(mol*s)'),
@@ -2717,7 +2832,11 @@ entry(
     index = 243,
     label = "C2H5 + H <=> C2H6",
     degeneracy = 1,
+<<<<<<< refs/remotes/origin/master
     elementary_high_p = True,
+=======
+
+>>>>>>> add modern libraries with some tweaks
     kinetics = Troe(
         arrheniusHigh = Arrhenius(
             A = (5.21e+17, 'cm^3/(mol*s)'),

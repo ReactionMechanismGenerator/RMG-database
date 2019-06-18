@@ -6,6 +6,7 @@ shortDesc = u""
 longDesc = u"""
 Foundational Fuel Chemistry Model Version 1.0 (excited species removed)
 http://web.stanford.edu/group/haiwanglab/FFCM1/pages/FFCM1.html
+<<<<<<< refs/remotes/origin/master
 
 FFCM-1
 H2/CO/C1 reaction model - Chemkin form - version v1.0c 
@@ -14,13 +15,23 @@ Release date: 05/31/3016.
 G. P. Smith, Y. Tao, and H. Wang, Foundational Fuel Chemistry Model Version 1.0 (FFCM-1),
 http://nanoenergy.stanford.edu/ffcm1, 2016.
 
+=======
+FFCM-1
+H2/CO/C1 reaction model - Chemkin form - version v1.0c 
+Release date: 05/31/3016.
+G. P. Smith, Y. Tao, and H. Wang, Foundational Fuel Chemistry Model Version 1.0 (FFCM-1),
+http://nanoenergy.stanford.edu/ffcm1, 2016.
+>>>>>>> add modern libraries with some tweaks
 Species that were not included:
 Excited OH, A2Sigma+:
 OH*               ATcT AO   1H   1    0    0G   200.000  6000.000 1000.        1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
  2.75582920E+00 1.39848756E-03-4.19428493E-07 6.33453282E-11-3.56042218E-15    2! OH A 2Sigma+ (excited)
  5.09751756E+04 5.62581429E+00 3.46084428E+00 5.01872172E-04-2.00254474E-06    3! CAS: 3352-57-6 (?)
  3.18901984E-09-1.35451838E-12 5.07349466E+04 1.73976415E+00 5.17770741E+04    4! Uncertainty unknown => -1.0
+<<<<<<< refs/remotes/origin/master
 
+=======
+>>>>>>> add modern libraries with some tweaks
 Excited CH, A2Delta:
 CH*               EG4/09C   1H   1    0    0G   200.000  6000.000 1000.        1! Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
  2.78220752E+00 1.47246754E-03-4.63436227E-07 7.32736021E-11-4.19705404E-15    2! CH A2Delta  excited state only
@@ -1479,5 +1490,9 @@ Carbon oxide
 12071-23-7
 378.86 +/- 1.2 kJ/mol ATcT 31.01.2011
 """,
+<<<<<<< refs/remotes/origin/master
 )
 
+=======
+)
+>>>>>>> add modern libraries with some tweaks
