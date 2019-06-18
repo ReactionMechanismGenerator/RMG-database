@@ -2,15 +2,14 @@
 # encoding: utf-8
 
 name = "CBS_QB3_1dHR"
-shortDesc = u"calculated thermo for butanol using CBS_QB3 with 1d hindered rotor"
+shortDesc = u"calculated thermo using CBS_QB3 with 1d hindered rotor"
 longDesc = u"""
-These calculations were done by MRH using CBS_QB3 with 1d hindered rotor
+These calculations were done by MRH (unless otherwise noted) using CBS_QB3 with 1d hindered rotor
 
-
-The species thermochemistry was calculated using CanTherm.  The CBS-QB3 method
-was used to calculate the ZPE and optimized geometry.  The frequencies were
+The species thermochemistry was calculated using CanTherm. The CBS-QB3 method
+was used to calculate the ZPE and optimized geometry. The frequencies were
 calculated using DFT, using the B3LYP/CBSB7 basis set, and then scaled by 0.99
-as suggested by Petersson et al.  The 1-d separable hindered rotor
+as suggested by Petersson et al. The 1-d separable hindered rotor
 approximation was used for all low-frequency internal rotor modes.
 Bond-additivity corrections were used to calculate the reported Hf298.
 
@@ -20,7 +19,7 @@ Units of entropy and heat capacity are cal mol-1 K-1.
 These likely appear in C. F. Goldsmith, W. H. Green, S. J. Klippenstein, J. Phys. Chem. A 116 (13) (2012) 3325-3346.
 """
 entry(
-    index = 1,
+    index = 0,
     label = "sBuOH",
     molecule = 
 """
@@ -54,7 +53,7 @@ u"""
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "CH2CH[OH]C2H5",
     molecule = 
 """
@@ -88,7 +87,7 @@ u"""
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "CH3C[OH]C2H5",
     molecule = 
 """
@@ -122,7 +121,7 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "CH3CH[O]C2H5",
     molecule = 
 """
@@ -156,7 +155,7 @@ u"""
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "CH3CH[OH]CHCH3",
     molecule = 
 """
@@ -190,7 +189,7 @@ u"""
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "CH3CH[OH]CH2CH2",
     molecule = 
 """
@@ -224,7 +223,7 @@ u"""
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "HOCHC2H5",
     molecule = 
 """
@@ -255,7 +254,7 @@ u"""
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "HOCHCH3",
     molecule = 
 """
@@ -283,7 +282,7 @@ u"""
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "CH3CH[OH]CH2",
     molecule = 
 """
@@ -314,7 +313,7 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "tBuOH",
     molecule = 
 """
@@ -348,7 +347,7 @@ u"""
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "OC[CH3]3",
     molecule = 
 """
@@ -382,7 +381,7 @@ u"""
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "HOC[CH2][CH3]2",
     molecule = 
 """
@@ -416,7 +415,7 @@ u"""
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "tC4H9",
     molecule = 
 """
@@ -449,7 +448,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "HOC[CH3]2",
     molecule = 
 """
@@ -480,8 +479,8 @@ u"""
 )
 
 entry(
-    index = 15,
-    label = "C3H5OJ(17)",
+    index = 14,
+    label = "C3H5OJ_17",
     molecule = 
 """
 multiplicity 2
@@ -509,7 +508,7 @@ u"""
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "C4H7O_1_2",
     molecule = 
 """
@@ -541,7 +540,7 @@ u"""
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "C4H7O-13",
     molecule = 
 """
@@ -573,8 +572,8 @@ u"""
 )
 
 entry(
-    index = 18,
-    label = "C4H7OJ(13)",
+    index = 17,
+    label = "C4H7OJ_13",
     molecule = 
 """
 multiplicity 2
@@ -605,7 +604,7 @@ u"""
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "CH2CHCCHOH",
     molecule = 
 """
@@ -635,7 +634,7 @@ u"""
 )
 
 entry(
-    index = 20,
+    index = 19,
     label = "CH3CHCHCO",
     molecule = 
 """
@@ -665,7 +664,7 @@ u"""
 )
 
 entry(
-    index = 21,
+    index = 20,
     label = "CHCCHCHOH",
     molecule = 
 """
@@ -693,8 +692,8 @@ u"""
 )
 
 entry(
-    index = 22,
-    label = "iC4H5OJ(14)",
+    index = 21,
+    label = "iC4H5OJ_14",
     molecule = 
 """
 multiplicity 2
@@ -723,8 +722,8 @@ u"""
 )
 
 entry(
-    index = 23,
-    label = "iC4H5OJ(15)",
+    index = 22,
+    label = "iC4H5OJ_15",
     molecule = 
 """
 multiplicity 2
@@ -753,8 +752,8 @@ u"""
 )
 
 entry(
-    index = 24,
-    label = "iC4H7OJ(17)",
+    index = 23,
+    label = "iC4H7OJ_17",
     molecule = 
 """
 multiplicity 2
@@ -785,8 +784,8 @@ u"""
 )
 
 entry(
-    index = 25,
-    label = "iC4H7OJ(48)",
+    index = 24,
+    label = "iC4H7OJ_48",
     molecule = 
 """
 multiplicity 2
@@ -817,8 +816,8 @@ u"""
 )
 
 entry(
-    index = 26,
-    label = "iC4H7OJ(51)",
+    index = 25,
+    label = "iC4H7OJ_51",
     molecule = 
 """
 multiplicity 2
@@ -849,8 +848,8 @@ u"""
 )
 
 entry(
-    index = 27,
-    label = "tSPC(1286)",
+    index = 26,
+    label = "tSPC_1286",
     molecule = 
 """
 multiplicity 2
@@ -878,8 +877,8 @@ u"""
 )
 
 entry(
-    index = 28,
-    label = "tSPC(1553)",
+    index = 27,
+    label = "tSPC_1553",
     molecule = 
 """
 multiplicity 2
@@ -906,8 +905,8 @@ u"""
 )
 
 entry(
-    index = 29,
-    label = "tSPC(343)",
+    index = 28,
+    label = "tSPC_343",
     molecule = 
 """
 multiplicity 2
@@ -937,7 +936,7 @@ u"""
 )
 
 entry(
-    index = 30,
+    index = 29,
     label = "nC4H10O",
     molecule = 
 """
@@ -971,7 +970,7 @@ u"""
 )
 
 entry(
-    index = 31,
+    index = 30,
     label = "C4H9O-1",
     molecule = 
 """
@@ -1005,7 +1004,7 @@ u"""
 )
 
 entry(
-    index = 32,
+    index = 31,
     label = "C4H9O-2",
     molecule = 
 """
@@ -1039,7 +1038,7 @@ u"""
 )
 
 entry(
-    index = 33,
+    index = 32,
     label = "C4H9O-3",
     molecule = 
 """
@@ -1073,7 +1072,7 @@ u"""
 )
 
 entry(
-    index = 34,
+    index = 33,
     label = "C4H9O-4",
     molecule = 
 """
@@ -1107,7 +1106,7 @@ u"""
 )
 
 entry(
-    index = 35,
+    index = 34,
     label = "C4H9O-5",
     molecule = 
 """
@@ -1141,7 +1140,7 @@ u"""
 )
 
 entry(
-    index = 36,
+    index = 35,
     label = "iBuOH",
     molecule = 
 """
@@ -1175,7 +1174,7 @@ u"""
 )
 
 entry(
-    index = 37,
+    index = 36,
     label = "C4H9Oi1",
     molecule = 
 """
@@ -1209,7 +1208,7 @@ u"""
 )
 
 entry(
-    index = 38,
+    index = 37,
     label = "C4H9Oi2",
     molecule = 
 """
@@ -1243,7 +1242,7 @@ u"""
 )
 
 entry(
-    index = 39,
+    index = 38,
     label = "C4H9Oi3",
     molecule = 
 """
@@ -1277,7 +1276,7 @@ u"""
 )
 
 entry(
-    index = 40,
+    index = 39,
     label = "C4H9Oi4",
     molecule = 
 """
@@ -1311,8 +1310,8 @@ u"""
 )
 
 entry(
-    index = 41,
-    label = "C4H7OJ(9)",
+    index = 40,
+    label = "C4H7OJ_9",
     molecule = 
 """
 multiplicity 2
@@ -1343,7 +1342,7 @@ u"""
 )
 
 entry(
-    index = 42,
+    index = 41,
     label = "fulvalene",
     molecule = 
 """
@@ -1380,7 +1379,7 @@ u"""
 )
 
 entry(
-    index = 43,
+    index = 42,
     label = "C5H4C5H5",
     molecule = 
 """
@@ -1415,6 +1414,88 @@ multiplicity 2
     longDesc = 
 u"""
 
+""",
+)
+entry(
+    index = 43,
+    label = "AIBN",
+    molecule =
+"""
+1  N u0 p1 c0 {2,D} {5,S}
+2  N u0 p1 c0 {1,D} {6,S}
+3  N u0 p1 c0 {11,T}
+4  N u0 p1 c0 {12,T}
+5  C u0 p0 c0 {1,S} {7,S} {8,S} {11,S}
+6  C u0 p0 c0 {2,S} {9,S} {10,S} {12,S}
+7  C u0 p0 c0 {5,S} {13,S} {14,S} {15,S}
+8  C u0 p0 c0 {5,S} {16,S} {17,S} {18,S}
+9  C u0 p0 c0 {6,S} {19,S} {20,S} {21,S}
+10 C u0 p0 c0 {6,S} {22,S} {23,S} {24,S}
+11 C u0 p0 c0 {3,T} {5,S}
+12 C u0 p0 c0 {4,T} {6,S}
+13 H u0 p0 c0 {7,S}
+14 H u0 p0 c0 {7,S}
+15 H u0 p0 c0 {7,S}
+16 H u0 p0 c0 {8,S}
+17 H u0 p0 c0 {8,S}
+18 H u0 p0 c0 {8,S}
+19 H u0 p0 c0 {9,S}
+20 H u0 p0 c0 {9,S}
+21 H u0 p0 c0 {9,S}
+22 H u0 p0 c0 {10,S}
+23 H u0 p0 c0 {10,S}
+24 H u0 p0 c0 {10,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.57296,0.130115,-0.000234418,3.05419e-07,-1.68032e-10,32086.3,16.7784], Tmin=(10,'K'), Tmax=(504.597,'K')),
+            NASAPolynomial(coeffs=[7.66068,0.0784795,-4.73157e-05,1.38218e-08,-1.56338e-12,31716.8,-2.86081], Tmin=(504.597,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (266.702,'kJ/mol'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Calculated by A. Grinberg Dana using ARC 1.0.0
+
+Conformers:       b97-d3/6-311+g(d,p)
+Composite method: cbs-qb3 (using a fine grid)
+Frequencies:      b3lyp/cbsb7
+Rotor scans:      b3lyp/cbsb7
+
+Bond corrections: {'N=N': 1, 'C-N': 2, 'C#N': 2, 'C-C': 6, 'C-H': 12}
+
+Pivots of considered 1D rotors: [1, 5] ,[2, 6] ,[5, 7] ,[5, 8] ,[6, 9] ,[6, 10]
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+N       0.43620300   -0.16213600    0.39977000
+N      -0.43609600    0.16200900   -0.39967300
+N       3.47047000   -1.53123100    0.03196200
+N      -3.46996200    1.53150000   -0.03036300
+C       1.77826200    0.47460500    0.12212700
+C      -1.77820800   -0.47465200   -0.12199900
+C       2.06997600    1.34762500    1.36001200
+C       1.86126100    1.27708200   -1.18253100
+C      -1.86100900   -1.27778400    1.18227200
+C      -2.07041800   -1.34697300   -1.36024900
+C       2.72158400   -0.65672400    0.08094100
+C      -2.72128800    0.65684600   -0.07998100
+H       3.08053300    1.75482400    1.30309300
+H       1.97462700    0.76131600    2.27429700
+H       1.35568300    2.17301000    1.39068400
+H       1.63043300    0.65189300   -2.04518700
+H       2.86999700    1.67776300   -1.29694300
+H       1.14801100    2.10104700   -1.15797500
+H      -1.14806900   -2.10199900    1.15698900
+H      -2.86984100   -1.67817400    1.29685000
+H      -1.62961800   -0.65314800    2.04517300
+H      -1.35626800   -2.17245900   -1.39156500
+H      -3.08102200   -1.75404500   -1.30325100
+H      -1.97523500   -0.76020200   -2.27425500
 """,
 )
 
